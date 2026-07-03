@@ -1,0 +1,61 @@
+---
+# vericlaim claim register — the single source of truth for every claim this
+# repository makes about itself and its example. Update NUMBERS HERE FIRST; the
+# gate then fails any doc paragraph whose anchored value no longer matches.
+#
+# Required per claim: id, statement, evidence_level, artifact, caveat.
+# Optional: n, metrics (machine-readable numbers that docs bind to via anchors).
+# Evidence levels (weakest -> strongest): see docs/evidence-levels.md and
+# vericlaim.toml.
+
+schema_version: "1"
+
+claims:
+
+  - id: CLAIM-CORE-001
+    statement: >
+      The vericlaim gate has zero third-party runtime dependencies: it runs on
+      a stdlib-only Python 3.11+ and pulls in nothing that could compromise the
+      thing verifying your build.
+    evidence_level: measured
+    artifact:
+      - "pyproject.toml"
+      - "vericlaim/register.py"
+    metrics:
+      runtime_dependencies: 0
+    caveat: >
+      "Zero runtime dependencies" covers the gate itself. PyYAML is used only if
+      already present (optional); the bundled parser is the default. Test/dev
+      tooling (pytest) is a dev dependency, not a runtime one.
+    reproduce: "grep -A2 'dependencies' pyproject.toml"
+
+  - id: CLAIM-EX-001
+    statement: >
+      On the fixed example corpus, the run-length encoder achieves an overall
+      compression ratio of 8.0584x across 4 files.
+    evidence_level: benchmarked
+    artifact:
+      - "examples/rle/artifacts/rle_bench.json"
+    n: 4
+    metrics:
+      overall_ratio: 8.0584
+    caveat: >
+      Corpus is hand-picked to contain the run structure RLE exploits; this is a
+      demonstration of Claim-Oriented Programming, not a general compression
+      result. On real-world data with few runs, RLE can EXPAND the input.
+    reproduce: "python examples/rle/bench.py"
+
+  - id: CLAIM-EX-002
+    statement: >
+      Encoding then decoding is lossless: all 4 example files round-trip to the
+      original bytes exactly.
+    evidence_level: benchmarked
+    artifact:
+      - "examples/rle/artifacts/rle_bench.json"
+    metrics:
+      n_roundtrip_lossless: 4
+    caveat: >
+      Verified on the 4-file example corpus only. The property test in
+      tests/test_rle_example.py exercises additional inputs, but a formal
+      round-trip proof over all byte strings is not claimed here.
+    reproduce: "python examples/rle/bench.py"

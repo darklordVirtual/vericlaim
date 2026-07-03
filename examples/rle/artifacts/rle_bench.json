@@ -1,0 +1,32 @@
+{
+  "schema": "rle_bench_v1",
+  "n_files": 4,
+  "n_roundtrip_lossless": 4,
+  "overall_ratio": 8.0584,
+  "per_file": {
+    "runs": {
+      "bytes_in": 255,
+      "bytes_encoded": 6,
+      "ratio": 42.5,
+      "roundtrip_lossless": true
+    },
+    "banner": {
+      "bytes_in": 246,
+      "bytes_encoded": 24,
+      "ratio": 10.25,
+      "roundtrip_lossless": true
+    },
+    "sparse": {
+      "bytes_in": 500,
+      "bytes_encoded": 4,
+      "ratio": 125.0,
+      "roundtrip_lossless": true
+    },
+    "mixed": {
+      "bytes_in": 240,
+      "bytes_encoded": 120,
+      "ratio": 2.0,
+      "roundtrip_lossless": true
+    }
+  }
+}

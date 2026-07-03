@@ -1,0 +1,20 @@
+# vericlaim gate configuration.
+# The gate applies Claim-Oriented Programming to THIS repository (dogfooding):
+# every number the docs state about vericlaim or its example is bound to the
+# claim register and verified in CI.
+
+[vericlaim]
+register        = "claims/register.yaml"
+baseline        = "claims/baseline.json"
+manifest        = "claims/manifest.md"
+doc_globs       = ["README.md", "docs/*.md", "examples/rle/docs/*.md"]
+required_fields = ["id", "statement", "evidence_level", "artifact", "caveat"]
+# Ordered weakest -> strongest. Projects tailor this to their domain.
+evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "externally_validated"]
+# The taxonomy doc legitimately pairs claim ids with level names in examples.
+evidence_exclude = ["docs/evidence-levels.md"]
+stale_exclude    = []
+
+# A denylist of strings that were corrected and must never reappear.
+# Populate this as you fix drift; each entry: "forbidden" = "why / use instead".
+[vericlaim.stale_strings]
