@@ -1,5 +1,9 @@
 # vericlaim
 
+[![Claim Gate](https://github.com/darklordVirtual/vericlaim/actions/workflows/claim-gate.yml/badge.svg)](https://github.com/darklordVirtual/vericlaim/actions/workflows/claim-gate.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml)
+
 **A Claim-Oriented Programming gate.** Verify that every claim your project
 makes about itself is backed by a committed artifact — and that your docs never
 drift from the truth. *Design by Contract for the whole repository, enforced in
