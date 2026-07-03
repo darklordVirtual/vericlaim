@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use vericlaim or the Claim-Oriented Programming method, please cite it as below."
+title: "vericlaim: A Claim-Oriented Programming gate"
+abstract: >-
+  vericlaim is a zero-dependency framework that verifies every claim a project
+  makes about itself is backed by a committed artifact, and keeps documentation
+  from drifting — Design by Contract lifted from the function level to the whole
+  repository, enforced in CI. It introduces Claim-Oriented Programming, a
+  methodology for building software and its documentation so that they cannot
+  silently misdescribe themselves, developed for the age of AI-authored code.
+type: software
+authors:
+  - family-names: Skogbrott
+    given-names: Stian
+version: 0.1.0
+date-released: 2026-07-03
+license: Apache-2.0
+repository-code: "https://github.com/darklordVirtual/vericlaim"
+url: "https://github.com/darklordVirtual/vericlaim"
+keywords:
+  - claim-oriented-programming
+  - design-by-contract
+  - documentation-drift
+  - provenance
+  - continuous-integration
+  - ai-assisted-development
+  - reproducibility
+  - software-assurance

@@ -120,6 +120,23 @@ tests/                tests for the gate and the example
 vericlaim.toml        gate configuration
 ```
 
+## Claude skill
+
+This repo ships a Claude skill at
+[`.claude/skills/claim-oriented-programming/`](.claude/skills/claim-oriented-programming/SKILL.md).
+When Claude works in a project that uses vericlaim, the skill makes it follow the
+discipline automatically: register every number as an artifact-backed claim, bind
+docs with anchors, run the gate, and never state a figure it cannot source.
+
+## Citation
+
+Claim-Oriented Programming and vericlaim are by **Stian Skogbrott**. If you use
+the method or the tool, please cite it — see [`CITATION.cff`](CITATION.cff)
+(GitHub renders a "Cite this repository" button from it):
+
+> Skogbrott, S. (2026). *vericlaim: A Claim-Oriented Programming gate* (v0.1.0).
+> https://github.com/darklordVirtual/vericlaim
+
 ## License
 
-Apache-2.0. See [LICENSE](LICENSE).
+Apache-2.0. See [LICENSE](LICENSE). Author: Stian Skogbrott.

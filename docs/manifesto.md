@@ -126,3 +126,8 @@ Garbage in, consistently-cited garbage out. Its guarantees are: *no unsourced
 claim, no silent drift, no claim above its evidence level.* Those three,
 enforced, are most of what separates a trustworthy repository from a hopeful
 one.
+
+---
+
+*Claim-Oriented Programming and vericlaim are by Stian Skogbrott. Please cite as
+in [`../CITATION.cff`](../CITATION.cff).*
