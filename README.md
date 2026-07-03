@@ -9,6 +9,43 @@ Zero runtime dependencies · Python 3.11+ · one command.
 
 ---
 
+## Quickstart (60 seconds)
+
+```bash
+pip install vericlaim        # or: copy the vericlaim/ folder into your repo
+cd your-project
+vericlaim init               # creates config + register + baseline; nothing else
+vericlaim                    # runs the gate — a fresh project passes immediately
+```
+
+Now make your first claim in three edits:
+
+**1 — register the number** in `claims/register.yaml`:
+```yaml
+claims:
+  - id: CLAIM-PERF-001
+    statement: "The parser handles the 10k-line fixture under 200 ms."
+    evidence_level: benchmarked
+    artifact: [results/parse_bench.json]   # a committed file that proves it
+    metrics: { p95_ms: 180 }
+    caveat: "CI hardware, single fixture; not a guarantee under load."
+```
+
+**2 — bind a doc to it** (in any file under `doc_globs`):
+```markdown
+<!-- claim:CLAIM-PERF-001 p95_ms -->
+The parser runs the 10k-line fixture with a p95 latency of **180 ms**.
+```
+
+**3 — run the gate:** `vericlaim`. Green. Now change `180` to `190` in the doc
+only, run it again → it **fails** with the exact file:line. That is the whole
+product: your docs can never quietly disagree with your evidence.
+
+New to the idea? Read [`docs/manifesto.md`](docs/manifesto.md) (5 min) or jump to
+[`docs/getting-started.md`](docs/getting-started.md).
+
+---
+
 ## The idea in 30 seconds
 
 AI writes code and prose fast, and forgets what was true yesterday. Numbers in

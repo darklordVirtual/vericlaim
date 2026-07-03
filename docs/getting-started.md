@@ -2,22 +2,23 @@
 
 Adopt Claim-Oriented Programming in an existing project in about 15 minutes.
 
-## 1. Add vericlaim
+## 1. Install and scaffold — one command each
 
-Copy the `vericlaim/` package into your repo (it is zero-dependency), or
-`pip install vericlaim`. Add a `vericlaim.toml` at the root — see this repo's
-for a complete example:
+```bash
+pip install vericlaim        # or copy the zero-dependency vericlaim/ folder in
+vericlaim init               # creates vericlaim.toml + claims/ (won't overwrite)
+```
+
+`vericlaim init` writes three files and nothing else:
+`vericlaim.toml` (config), `claims/register.yaml` (empty register),
+`claims/baseline.json` (empty baseline). Run `vericlaim` now — a project with no
+claims yet is a valid, **passing** state, so you are never greeted by a failure.
+
+Open `vericlaim.toml` and point `doc_globs` at the docs you want guarded:
 
 ```toml
 [vericlaim]
-register  = "claims/register.yaml"
-baseline  = "claims/baseline.json"
-manifest  = "claims/manifest.md"          # optional
 doc_globs = ["README.md", "docs/*.md"]
-evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "externally_validated"]
-
-[vericlaim.stale_strings]
-# "forbidden string" = "why it is stale / use instead"
 ```
 
 ## 2. Write your first claim

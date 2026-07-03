@@ -223,3 +223,24 @@ def test_illustrative_anchors_in_code_are_ignored(tmp_path):
     findings = check_doc_anchors(cfg, doc, doc.read_text(), BY_ID)
     # only the real anchor is evaluated (and it matches) -> no findings
     assert findings == []
+
+
+def test_init_scaffolds_and_fresh_project_passes(tmp_path):
+    """Onboarding: `init` creates a working scaffold and a fresh project (no
+    claims) passes the gate — a new user is never greeted by a failure."""
+    from vericlaim.scaffold import FILES, init
+
+    assert init(tmp_path) == 0
+    for rel in FILES:
+        assert (tmp_path / rel).exists()
+    (tmp_path / "README.md").write_text("# my project\n")
+    cfg = Config(root=tmp_path, manifest=None, doc_globs=("README.md",))
+    assert run(cfg, quiet=True) == 0  # empty register is a valid, passing state
+
+
+def test_init_never_overwrites(tmp_path):
+    (tmp_path / "vericlaim.toml").write_text("KEEP ME")
+    from vericlaim.scaffold import init
+
+    init(tmp_path)
+    assert (tmp_path / "vericlaim.toml").read_text() == "KEEP ME"

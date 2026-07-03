@@ -50,7 +50,9 @@ Finding = tuple[str, str]  # (error_id, human message)
 def check_register(claims: list[dict], cfg: Config) -> list[Finding]:
     out: list[Finding] = []
     if not claims:
-        return [("register-empty", f"{cfg.register}: no claims parsed")]
+        # A project legitimately starts with no claims (fresh `vericlaim init`).
+        # This is a valid, passing state — run() prints a note.
+        return out
     seen: set[str] = set()
     for c in claims:
         cid = c.get("id", "<missing-id>")
@@ -258,6 +260,9 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
         return 1
     claims = load_register(reg_path.read_text(encoding="utf-8"))
     by_id = {c["id"]: c for c in claims if "id" in c}
+    if not claims and not quiet:
+        print(f"[NOTE] {cfg.register}: no claims yet — add your first one "
+              f"(see 'vericlaim init' output or the register spec).")
 
     findings += check_register(claims, cfg)
     findings += check_artifacts(claims, cfg)

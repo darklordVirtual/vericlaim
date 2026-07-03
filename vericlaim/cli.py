@@ -1,9 +1,9 @@
 # SPDX-License-Identifier: Apache-2.0
-"""Command-line entry point for the vericlaim gate.
+"""Command-line entry point for vericlaim.
 
-Usage:
-    python -m vericlaim [--root DIR] [--config FILE] [--quiet]
-    vericlaim ...            (if installed as a console script)
+    vericlaim                 run the gate (default)
+    vericlaim init            scaffold config + register + baseline into a project
+    vericlaim --root DIR ...  operate on another directory
 """
 from __future__ import annotations
 
@@ -13,6 +13,7 @@ from pathlib import Path
 
 from .config import load_config
 from .gate import run
+from .scaffold import init
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -25,11 +26,16 @@ def main(argv: list[str] | None = None) -> int:
                         help="project root (default: current directory)")
     parser.add_argument("--config", type=Path, default=None,
                         help="path to vericlaim.toml (default: <root>/vericlaim.toml)")
-    parser.add_argument("--quiet", action="store_true",
-                        help="only print on failure")
+    parser.add_argument("--quiet", action="store_true", help="only print on failure")
+    sub = parser.add_subparsers(dest="command")
+    sub.add_parser("init", help="scaffold Claim-Oriented Programming into this project")
+    sub.add_parser("check", help="run the gate (default when no command is given)")
     args = parser.parse_args(argv)
 
-    cfg = load_config(args.root.resolve(), args.config)
+    root = args.root.resolve()
+    if args.command == "init":
+        return init(root)
+    cfg = load_config(root, args.config)
     return run(cfg, quiet=args.quiet)
 
 
