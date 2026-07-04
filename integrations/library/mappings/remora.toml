@@ -32,3 +32,22 @@ caveat_extra = "Harvested from REMORA-research@{commit} (source claim gate green
 CLAIM-002 = ["lit/claim-002-agentharm.md"]
 CLAIM-009 = ["lit/claim-009-external-datasets.md"]
 CLAIM-011 = ["lit/claim-011-confidence-sequences.md"]
+# Auto-curated notes exist only where the pipeline found matches above the
+# score threshold — attaching a below-threshold match would be dishonest.
+# Re-run curate_literature.py (better queries, or method curator:manual)
+# to fill the rest; gaps stay visible in litindex report + gaps.py.
+CLAIM-005 = ["lit/auto/claim-005-auto.md"]
+CLAIM-008 = ["lit/auto/claim-008-auto.md"]
+
+# Per-claim search queries for automated curation — curation POLICY, written
+# down and reviewable. These are search terms, never citations; every hit is
+# registrar-verified and lexically scored before it may attach.
+[lit_queries]
+CLAIM-001 = "LLM agent guardrail policy enforcement adversarial tool call benchmark unsafe execution"
+CLAIM-003 = "regression evaluation false accept agent safety guardrail historical episodes"
+CLAIM-004 = "selective prediction abstention coverage accuracy tradeoff language model"
+CLAIM-005 = "trust calibration overconfidence language model correctness inversion"
+CLAIM-006 = "autonomous agent capability metric self-improvement learning progression index"
+CLAIM-007 = "ablation study safety pipeline components false alarm rate contribution"
+CLAIM-008 = "confidence signal temperature calibration selective classification slice accuracy"
+CLAIM-010 = "blinded evaluation protocol benchmark contamination label leakage"

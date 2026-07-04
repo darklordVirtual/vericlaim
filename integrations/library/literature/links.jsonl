@@ -1,0 +1,3 @@
+{"claim_id": "CLAIM-005", "linked_at": "2026-07-04T21:31:59+00:00", "method": "auto:lexical(arxiv+crossref)", "score": 0.3611, "work_id": "arxiv:2606.07822"}
+{"claim_id": "CLAIM-005", "linked_at": "2026-07-04T21:31:59+00:00", "method": "auto:lexical(arxiv+crossref)", "score": 0.2778, "work_id": "doi:10.31234/osf.io/2mdu8_v1"}
+{"claim_id": "CLAIM-008", "linked_at": "2026-07-04T21:31:59+00:00", "method": "auto:lexical(arxiv+crossref)", "score": 0.25, "work_id": "arxiv:2604.09529"}
