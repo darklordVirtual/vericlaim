@@ -386,6 +386,64 @@ def check_doc_anchors(cfg: Config, path: Path, text: str,
     return out
 
 
+VALUE_TOKEN_RE = re.compile(
+    r"<!--\s*v:([A-Za-z0-9_.-]+?)\.([A-Za-z0-9_]+)\s*-->")
+
+
+def check_value_tokens(cfg: Config, path: Path, text: str,
+                       by_id: dict[str, dict]) -> list[Finding]:
+    """Semantic binding: ``<!-- v:CLAIM.metric -->`` pins the NEXT number.
+
+    Paragraph anchors prove presence-somewhere; a value token proves THIS
+    literal is the register's value — "target is 180; actual is 900" cannot
+    pass by containing 180 elsewhere. The first number after the token (rest
+    of the line, wrapping to the following line) must equal the register
+    field; no number at all is its own failure.
+    """
+    out: list[Finding] = []
+    rel = _display(cfg, path)
+    lines = text.splitlines()
+    in_fence = False
+    for idx, line in enumerate(lines):
+        stripped = line.lstrip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue  # tokens shown in fences are illustrative, not live
+        scan = _INLINE_CODE_RE.sub("", line)
+        for m in VALUE_TOKEN_RE.finditer(scan):
+            cid, key = m.group(1), m.group(2)
+            claim = by_id.get(cid)
+            if claim is None:
+                out.append((f"value-token-unknown-claim:{rel}:{cid}",
+                            f"{rel}:{idx+1}: value token cites unknown claim {cid}"))
+                continue
+            metrics = claim.get("metrics") or {}
+            expected = claim.get("n") if key == "n" else (
+                metrics.get(key) if isinstance(metrics, dict) else None)
+            if expected is None:
+                out.append((f"value-token-unknown-metric:{rel}:{cid}:{key}",
+                            f"{rel}:{idx+1}: value token field '{key}' not "
+                            f"defined in register for {cid}"))
+                continue
+            window = scan[m.end():]
+            if not NUMBER_RE.search(window) and idx + 1 < len(lines):
+                window += " " + lines[idx + 1]
+            num = NUMBER_RE.search(window)
+            if num is None:
+                out.append((f"value-token-no-number:{rel}:{cid}:{key}",
+                            f"{rel}:{idx+1}: value token for {cid}.{key} is "
+                            f"not followed by a number"))
+                continue
+            if float(num.group(0)) != float(expected):
+                out.append((f"value-token-drift:{rel}:{cid}:{key}",
+                            f"{rel}:{idx+1}: pinned value {num.group(0)} != "
+                            f"register {cid}.{key}={expected} — the literal "
+                            f"this token points at has drifted"))
+    return out
+
+
 def _comment_content(line: str) -> str | None:
     """The content of a source-comment line, or None for a non-comment line."""
     m = CODE_COMMENT_RE.match(line)
@@ -562,6 +620,7 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
     for doc in docs:
         text = doc.read_text(encoding="utf-8", errors="replace")
         findings += check_doc_anchors(cfg, doc, text, by_id)
+        findings += check_value_tokens(cfg, doc, text, by_id)
         findings += check_evidence_citations(cfg, doc, text, by_id)
         findings += check_stale_strings(cfg, doc, text)
     doc_set = set(docs)

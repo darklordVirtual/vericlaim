@@ -80,6 +80,24 @@ must appear as a number in the paragraph immediately after the anchor. `n` binds
 to the `n` field; every other name binds to `metrics[name]`. A missing value, an
 unknown metric, or an unknown claim id fails the gate.
 
+## Value tokens: pinning one specific literal
+
+A paragraph anchor proves presence-somewhere. When a paragraph contains
+several numbers ("target is 180 ms; actual is 900 ms"), pin the exact literal
+with a **value token** immediately before it:
+
+```markdown
+<!-- claim:CLAIM-PERF-001 p95_ms -->
+Target was 200 ms; the measured p95 is <!-- v:CLAIM-PERF-001.p95_ms -->**180 ms**.
+```
+
+The FIRST number after the token (rest of the line, wrapping to the next
+line) must equal the register field (`v:ID.n` binds the sample size). A
+drifted pinned literal fails even if the correct value appears elsewhere in
+the paragraph; a token followed by no number fails too. Use anchors for
+paragraph-level binding and add value tokens for any literal that shares a
+paragraph with other numbers.
+
 ## Code anchors: binding source comments to the register
 
 Code states facts about itself too — capability counts, complexity, invariants —

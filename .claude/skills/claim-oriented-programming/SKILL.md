@@ -133,8 +133,13 @@ If you catch yourself thinking any of these, you are about to break the contract
    The measured value is **42** on the reference corpus.
    ```
    Every field in the anchor (a `metrics` key, or `n` for sample size) must
-   appear as that exact number in the paragraph that follows. The same rule
-   binds **source comments** in files under `code_globs`: the anchor is a
+   appear as that exact number in the paragraph that follows. When a paragraph
+   contains OTHER numbers too, pin the exact literal with a **value token**
+   right before it — `<!-- v:CLAIM-AREA-001.value -->**42**` — the first
+   number after the token must equal the register field, so a drifted pinned
+   literal fails even when the correct value appears elsewhere in the
+   paragraph. The same anchor rule binds **source comments** in files under
+   `code_globs`: the anchor is a
    comment line containing only `# claim:CLAIM-AREA-001 value`, and the value
    must appear in the comment block that follows — never in the code itself.
    When a code comment states a capability or number, bind it exactly like

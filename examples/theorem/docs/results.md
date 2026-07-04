@@ -8,7 +8,7 @@ vericlaim gate fails the build.
 
 <!-- claim:CLAIM-THM-001 steps_verified n -->
 The committed derivation of **p → p** in Łukasiewicz's axiom system (A1–A2 +
-modus ponens) machine-checks in **5** steps: every step verifies as an axiom
+modus ponens) machine-checks in <!-- v:CLAIM-THM-001.steps_verified -->**5** steps: every step verifies as an axiom
 instance or a modus-ponens application, and the final step equals the declared
 theorem. The checker is the example's own ~100-line, property-tested verifier —
 not an independently audited kernel; that scope is part of the claim (see the

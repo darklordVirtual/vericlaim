@@ -163,11 +163,14 @@ It does **not** prove that:
   (the level is your honest assertion; vericlaim only checks it is stated
   consistently);
 - *all* documentation is covered — only the docs and numbers you bind;
-- a sentence is *semantically* true. The doc-binding check proves the registered
-  number is **present** in the paragraph, not that the surrounding prose is
-  correct. ("Target is 180 ms; actual is 900 ms" contains 180 and passes.)
-  Structured claim tokens that pin the value in place are the planned v0.2
-  direction — see [`docs/design-notes/contract-lineage.md`](docs/design-notes/contract-lineage.md).
+- a sentence is *semantically* true. A paragraph anchor proves the registered
+  number is **present** in the paragraph ("target is 180 ms; actual is 900 ms"
+  contains 180 and passes). **Value tokens** close exactly that gap for the
+  literals you pin — `<!-- v:CLAIM-X.p95_ms -->**180 ms**` binds *that*
+  number, and a drifted pinned literal fails even when the correct value
+  appears nearby — but the prose *around* a pinned number can still lie, and
+  no gate reads meaning. See
+  [`docs/design-notes/contract-lineage.md`](docs/design-notes/contract-lineage.md).
 
 That boundary is the point: *no unsourced claim, no silent numeric drift, no
 claim above its stated evidence level, and every number still reproduces.* Those,
@@ -191,7 +194,7 @@ registered claim, and a doc bound by an anchor. For instance, the compression
 one:
 
 <!-- claim:CLAIM-EX-001 overall_ratio -->
-A run-length encoder achieves **8.0584×** overall compression on a fixed corpus,
+A run-length encoder achieves <!-- v:CLAIM-EX-001.overall_ratio -->**8.0584×** overall compression on a fixed corpus,
 registered as `CLAIM-EX-001`, backed by
 [`examples/rle/artifacts/rle_bench.json`](examples/rle/artifacts/rle_bench.json),
 and bound to [`examples/rle/docs/results.md`](examples/rle/docs/results.md). Edit
