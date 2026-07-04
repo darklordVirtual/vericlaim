@@ -111,6 +111,24 @@ def test_missing_artifact_refuses(tmp_path):
         harvest_repo(src, tmp_path / "lib", _cfg())
 
 
+def test_register_literature_files_are_bundled_automatically(tmp_path):
+    # A native vericlaim register can carry hash-verified literature entries;
+    # harvest must preserve the committed literature file in the bundle.
+    src = _mk_source(tmp_path, level="benchmarked")
+    (src / "refs").mkdir()
+    (src / "refs" / "note.md").write_text("# source note\n")
+    reg = (src / "register.yaml").read_text().rstrip("\n")
+    (src / "register.yaml").write_text(reg + (
+        "\n    literature:\n"
+        "      - source: \"doi:10.1/x\"\n"
+        f"        sha256: {'a' * 64}\n"
+        "        file: refs/note.md\n"))
+    results = harvest_repo(src, tmp_path / "lib", _cfg(level_map={}))
+    b = load_bundle(tmp_path / "lib" / results["SRC-001"])
+    assert "literature/refs/note.md" in b["manifest"]["files"]
+    assert b["claim"]["literature"][0]["source"] == "doi:10.1/x"
+
+
 def test_curated_literature_is_attached(tmp_path):
     src = _mk_source(tmp_path)
     lit = tmp_path / "curation" / "src-001-sources.md"

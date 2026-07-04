@@ -1,0 +1,19 @@
+# Harvest mapping for vericlaim itself — a native register, so no level map:
+# levels pass through as-is (they are already vericlaim's taxonomy). The
+# library becomes genuinely cross-project with this second source.
+
+repo = "github.com/darklordVirtual/vericlaim"
+register = "claims/register.yaml"
+gate_cmd = "python3 -m vericlaim"
+
+[level_map]
+# native — intentionally empty
+
+exclude = []
+
+caveat_extra = "Harvested from vericlaim@{commit} (own gate green at harvest; the register dogfoods the framework)."
+
+[lit_queries]
+# vericlaim's claims are about the framework itself; bibliography matching
+# (biblio_curate) against docs/references/bibliography.md is the primary
+# curation path for this repo.

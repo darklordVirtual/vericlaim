@@ -148,6 +148,20 @@ def harvest_repo(src: Path, out_root: Path, cfg: dict) -> dict[str, str]:
                 raise HarvestError(f"{cid}: curated literature file missing: "
                                    f"{lit_path}")
             files[f"literature/{lp.name}"] = lp.read_bytes()
+        # A native register's own hash-verified literature entries: preserve
+        # the committed files so the bundle carries the claim's citations.
+        reg_lit = c.get("literature") or []
+        if isinstance(reg_lit, dict):
+            reg_lit = [reg_lit]
+        for entry in reg_lit:
+            rel = entry.get("file") if isinstance(entry, dict) else None
+            if not rel:
+                continue
+            p = src / rel
+            if not p.is_file():
+                raise HarvestError(f"{cid}: register literature file missing "
+                                   f"in source repo: {rel}")
+            files[f"literature/{rel}"] = p.read_bytes()
 
         caveat = str(c.get("caveat", "")).strip()
         if caveat_extra:
@@ -159,7 +173,7 @@ def harvest_repo(src: Path, out_root: Path, cfg: dict) -> dict[str, str]:
             "artifact": [f"artifacts/{rel}" for rel in arts],
             "caveat": caveat,
         }
-        for opt in ("n", "metrics"):
+        for opt in ("n", "metrics", "literature"):
             if c.get(opt) is not None:
                 out_claim[opt] = c[opt]
         if c.get("reproduce"):

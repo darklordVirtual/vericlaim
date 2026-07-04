@@ -258,7 +258,7 @@ Claim-Oriented Programming and vericlaim are by **Stian Skogbrott**. Please cite
 it — see [`CITATION.cff`](CITATION.cff) (GitHub renders a "Cite this repository"
 button from it):
 
-> Skogbrott, S. (2026). *vericlaim: A Claim-Oriented Programming gate* (v0.2.0).
+> Skogbrott, S. (2026). *vericlaim: A Claim-Oriented Programming gate* (v0.3.0).
 > https://github.com/darklordVirtual/vericlaim
 
 ## License
