@@ -132,6 +132,40 @@ export default {
       return json(await verifyChain(env));
     }
 
+    // --- external anchoring: heads + full export for CLIENT-side re-walking.
+    // The point of /ledger/export is that a witness must not have to trust
+    // this Worker: it downloads every row, recomputes every hash itself, and
+    // checks the chain still extends previously witnessed heads.
+    if (p === "/ledger/head" && req.method === "GET") {
+      const claimsRows = await env.DB.prepare(
+        "SELECT seq, entry_hash FROM claim_events ORDER BY seq DESC LIMIT 1").first();
+      const claimsCount = await env.DB.prepare(
+        "SELECT COUNT(*) AS c FROM claim_events").first();
+      const libRows = await env.DB.prepare(
+        "SELECT seq, entry_hash FROM library_bundles ORDER BY seq DESC LIMIT 1").first();
+      const libCount = await env.DB.prepare(
+        "SELECT COUNT(*) AS c FROM library_bundles").first();
+      return json({
+        ts: new Date().toISOString(),
+        claims: {
+          entries: Number((claimsCount as { c: number })?.c ?? 0),
+          head: (claimsRows as { entry_hash: string } | null)?.entry_hash ?? "",
+        },
+        library: {
+          entries: Number((libCount as { c: number })?.c ?? 0),
+          head: (libRows as { entry_hash: string } | null)?.entry_hash ?? "",
+        },
+      });
+    }
+
+    if (p === "/ledger/export" && req.method === "GET") {
+      const claims = await env.DB.prepare(
+        "SELECT * FROM claim_events ORDER BY seq ASC").all();
+      const library = await env.DB.prepare(
+        "SELECT * FROM library_bundles ORDER BY seq ASC").all();
+      return json({ claims: claims.results ?? [], library: library.results ?? [] });
+    }
+
     // --- the claims library: cross-project bundle preservation & reuse ------
     if (p === "/library/index" && req.method === "POST") {
       if (!authorized(req, env)) return json({ error: "unauthorized" }, 401);
