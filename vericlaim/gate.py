@@ -19,10 +19,18 @@ following drift:
 6. DOC BINDING          — claim anchors ``<!-- claim:ID field ... -->`` assert
                           that the register's value appears in the following
                           paragraph, so numbers cannot drift from the register.
+                          Source files under ``code_globs`` are bound the same
+                          way via comment anchors (``# claim:ID field``), whose
+                          values must appear in the following comment block.
 7. EVIDENCE CITATIONS   — a doc line naming a registered claim id together with
                           an evidence-level term must agree with the register.
 8. STALE STRINGS        — a configurable denylist of corrected strings that
                           must never reappear.
+9. LITERATURE           — hash-verified external sources: each ``literature:``
+                          entry carries the SHA-256 of the cited document, and
+                          a committed copy must still hash to it. Proves the
+                          citation is intact, never that the source is right —
+                          and never substitutes for a reproducible artifact.
 
 Known violations are grandfathered in the baseline file (reported as WARN);
 anything new fails with a non-zero exit. This lets a project adopt the gate
@@ -40,6 +48,12 @@ from .config import Config
 from .register import RegisterError, load_register
 
 ANCHOR_RE = re.compile(r"<!--\s*claim:([A-Za-z0-9_.-]+)((?:\s+[A-Za-z0-9_.-]+)+)\s*-->")
+# A source-comment line: leader, then content. `*` covers C-block continuation
+# lines; `;` covers Lisp/asm/ini, `--` SQL/Haskell/Lua, `%` TeX/Prolog/Erlang.
+CODE_COMMENT_RE = re.compile(r"^\s*(?:#|//|--|;+|%+|\*)\s?(.*)$")
+# A code anchor is a comment whose ENTIRE content is `claim:ID field...` —
+# prose mentioning a claim id mid-sentence is a citation, not an anchor.
+CODE_ANCHOR_RE = re.compile(r"^claim:([A-Za-z0-9_.-]+)((?:\s+[A-Za-z0-9_.-]+)+)\s*$")
 MANIFEST_ROW_RE = re.compile(
     r"^\|\s*`(?P<path>[^`]+)`\s*\|\s*`(?P<sha>[0-9a-fA-F]{64})`\s*\|"
 )
@@ -197,6 +211,76 @@ def _sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+_SHA256_HEX_RE = re.compile(r"^[0-9a-f]{64}$")
+
+
+def check_literature(claims: list[dict], cfg: Config) -> list[Finding]:
+    """Hash-verified external sources on a claim (`literature:` entries).
+
+    Each entry needs a `source` (DOI/URL/citation) and the `sha256` of the
+    cited document; an optional `file` points at a committed copy or extract,
+    which must then exist inside the repo and hash to `sha256`. This proves
+    the citation is intact — the cited document is the one registered — never
+    that the document is correct. Literature SUPPLEMENTS evidence: `artifact`
+    remains required and `reproduce` remains the only path to a reproducible
+    number.
+    """
+    out: list[Finding] = []
+    for c in claims:
+        cid = c.get("id", "<missing-id>")
+        lit = c.get("literature")
+        if lit is None:
+            continue
+        if isinstance(lit, dict):
+            lit = [lit]  # a single un-listed entry is fine; normalize
+        if not isinstance(lit, list):
+            out.append((f"literature-not-a-list:{cid}",
+                        f"{cid}: 'literature' must be a list of entries"))
+            continue
+        for i, entry in enumerate(lit):
+            if not isinstance(entry, dict):
+                out.append((f"literature-not-a-map:{cid}:{i}",
+                            f"{cid}: literature[{i}] must be a map with "
+                            f"'source' and 'sha256'"))
+                continue
+            for f in ("source", "sha256"):
+                if not entry.get(f):
+                    out.append((f"literature-missing-field:{cid}:{i}:{f}",
+                                f"{cid}: literature[{i}] is missing '{f}'"))
+            sha = entry.get("sha256")
+            sha_ok = bool(sha) and bool(_SHA256_HEX_RE.match(str(sha)))
+            if sha and not sha_ok:
+                out.append((f"literature-bad-sha256:{cid}:{i}",
+                            f"{cid}: literature[{i}] sha256 must be 64 "
+                            f"lowercase hex chars"))
+            rel = entry.get("file")
+            if not rel:
+                continue
+            resolved = _resolve_within_root(cfg, rel)
+            if resolved is None:
+                out.append((f"literature-escapes-root:{cid}:{rel}",
+                            f"{cid}: literature file {rel!r} is absolute or "
+                            f"escapes the repository root"))
+                continue
+            if not resolved.exists():
+                out.append((f"literature-file-missing:{cid}:{rel}",
+                            f"{cid}: literature file does not exist: {rel}"))
+                continue
+            if cfg.require_git_tracked and not _is_git_tracked(cfg, rel):
+                out.append((f"literature-untracked:{cid}:{rel}",
+                            f"{cid}: literature file {rel} is not tracked by git"))
+            if sha_ok:
+                data = resolved.read_bytes()
+                expected = str(sha)
+                if (_sha256(data) != expected
+                        and _sha256(data.replace(b"\r\n", b"\n")) != expected):
+                    out.append((f"literature-hash-mismatch:{cid}:{rel}",
+                                f"{cid}: literature file {rel} does not hash to "
+                                f"its registered sha256 — the cited document "
+                                f"changed after registration"))
+    return out
+
+
 def check_manifest(cfg: Config, notes: list[str]) -> list[Finding]:
     out: list[Finding] = []
     if not cfg.manifest:
@@ -252,6 +336,28 @@ def _paragraph_after(lines: list[str], idx: int) -> str:
 _INLINE_CODE_RE = re.compile(r"`[^`]*`")
 
 
+def _check_anchor_fields(rel: str, lineno: int, cid: str, blob: str,
+                         claim: dict, paragraph: str) -> list[Finding]:
+    """The binding rule, shared by doc and code anchors: every field named in
+    the anchor must appear as that exact number in the bound paragraph."""
+    out: list[Finding] = []
+    found = {float(t) for t in NUMBER_RE.findall(paragraph)}
+    metrics = claim.get("metrics") or {}
+    for key in blob.split():
+        expected = claim.get("n") if key == "n" else (
+            metrics.get(key) if isinstance(metrics, dict) else None)
+        if expected is None:
+            out.append((f"anchor-unknown-metric:{rel}:{cid}:{key}",
+                        f"{rel}:{lineno}: anchor metric '{key}' not defined "
+                        f"in register for {cid}"))
+            continue
+        if float(expected) not in found:
+            out.append((f"anchor-value-drift:{rel}:{cid}:{key}",
+                        f"{rel}:{lineno}: register says {cid}.{key}={expected} "
+                        f"but that value is not in the anchored paragraph"))
+    return out
+
+
 def check_doc_anchors(cfg: Config, path: Path, text: str,
                       by_id: dict[str, dict]) -> list[Finding]:
     out: list[Finding] = []
@@ -276,20 +382,59 @@ def check_doc_anchors(cfg: Config, path: Path, text: str,
                             f"{rel}:{idx+1}: anchor cites unknown claim {cid}"))
                 continue
             paragraph = scan[m.end():] + " " + _paragraph_after(lines, idx)
-            found = {float(t) for t in NUMBER_RE.findall(paragraph)}
-            metrics = claim.get("metrics") or {}
-            for key in blob.split():
-                expected = claim.get("n") if key == "n" else (
-                    metrics.get(key) if isinstance(metrics, dict) else None)
-                if expected is None:
-                    out.append((f"anchor-unknown-metric:{rel}:{cid}:{key}",
-                                f"{rel}:{idx+1}: anchor metric '{key}' not defined "
-                                f"in register for {cid}"))
-                    continue
-                if float(expected) not in found:
-                    out.append((f"anchor-value-drift:{rel}:{cid}:{key}",
-                                f"{rel}:{idx+1}: register says {cid}.{key}={expected} "
-                                f"but that value is not in the anchored paragraph"))
+            out += _check_anchor_fields(rel, idx + 1, cid, blob, claim, paragraph)
+    return out
+
+
+def _comment_content(line: str) -> str | None:
+    """The content of a source-comment line, or None for a non-comment line."""
+    m = CODE_COMMENT_RE.match(line)
+    return m.group(1) if m else None
+
+
+def _comment_paragraph_after(lines: list[str], idx: int) -> str:
+    """The contiguous comment block after *idx* — and ONLY the comment block.
+
+    Binding stops at the first non-comment or empty-comment line, so a number
+    sitting in code (`RATIO = 2.5`) can never satisfy a claim binding: the
+    claim text itself must carry the value, exactly as in markdown prose.
+    An empty comment (`#`) is the code analogue of a blank line.
+    """
+    block: list[str] = []
+    for line in lines[idx + 1:]:
+        content = _comment_content(line)
+        if content is None or not content.strip():
+            break
+        block.append(content)
+    return " ".join(block)
+
+
+def check_code_anchors(cfg: Config, path: Path, text: str,
+                       by_id: dict[str, dict]) -> list[Finding]:
+    """Claim anchors in source comments: `# claim:ID field` (or //, --, ;, %, *).
+
+    Code states facts about itself — complexity, capability counts, invariants —
+    and those drift exactly like doc prose. The anchor line must contain only
+    the anchor; the assertion lives in the comment block that follows.
+    """
+    out: list[Finding] = []
+    rel = _display(cfg, path)
+    lines = text.splitlines()
+    for idx, line in enumerate(lines):
+        content = _comment_content(line)
+        if content is None:
+            continue
+        m = CODE_ANCHOR_RE.match(content.strip())
+        if not m:
+            continue
+        cid, blob = m.group(1), m.group(2)
+        claim = by_id.get(cid)
+        if claim is None:
+            out.append((f"anchor-unknown-claim:{rel}:{cid}",
+                        f"{rel}:{idx+1}: anchor cites unknown claim {cid}"))
+            continue
+        paragraph = _comment_paragraph_after(lines, idx)
+        out += _check_anchor_fields(rel, idx + 1, cid, blob, claim, paragraph)
     return out
 
 
@@ -371,9 +516,9 @@ def _load_baseline(cfg: Config) -> set[str]:
     return ids
 
 
-def _doc_paths(cfg: Config) -> list[Path]:
+def _glob_paths(cfg: Config, globs: tuple[str, ...]) -> list[Path]:
     paths: list[Path] = []
-    for pattern in cfg.doc_globs:
+    for pattern in globs:
         paths.extend(sorted(cfg.root.glob(pattern)))
     # de-dup, files only
     seen: set[Path] = set()
@@ -383,6 +528,10 @@ def _doc_paths(cfg: Config) -> list[Path]:
             seen.add(p)
             out.append(p)
     return out
+
+
+def _doc_paths(cfg: Config) -> list[Path]:
+    return _glob_paths(cfg, cfg.doc_globs)
 
 
 def run(cfg: Config, *, quiet: bool = False) -> int:
@@ -407,12 +556,22 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
     findings += check_register(claims, cfg)
     findings += check_artifacts(claims, cfg)
     findings += check_provenance(claims, cfg)
+    findings += check_literature(claims, cfg)
     findings += check_manifest(cfg, notes)
-    for doc in _doc_paths(cfg):
+    docs = _doc_paths(cfg)
+    for doc in docs:
         text = doc.read_text(encoding="utf-8", errors="replace")
         findings += check_doc_anchors(cfg, doc, text, by_id)
         findings += check_evidence_citations(cfg, doc, text, by_id)
         findings += check_stale_strings(cfg, doc, text)
+    doc_set = set(docs)
+    for src in _glob_paths(cfg, cfg.code_globs):
+        if src in doc_set:
+            continue  # already checked with doc semantics
+        text = src.read_text(encoding="utf-8", errors="replace")
+        findings += check_code_anchors(cfg, src, text, by_id)
+        findings += check_evidence_citations(cfg, src, text, by_id)
+        findings += check_stale_strings(cfg, src, text)
 
     try:
         baseline = _load_baseline(cfg)

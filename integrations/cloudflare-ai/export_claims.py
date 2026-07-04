@@ -11,8 +11,8 @@ stdout; with --push it POSTs to the Worker's /index endpoint.
                             --token "$INDEX_TOKEN"    # rebuild the live index
 
 Only claims are exported (id, statement, evidence_level, artifact, caveat,
-metrics). Search is a discovery aid over these; it does not change what the
-gate proves.
+metrics, literature). Search is a discovery aid over these; it does not change
+what the gate proves.
 """
 from __future__ import annotations
 
@@ -25,7 +25,8 @@ from pathlib import Path
 from vericlaim.config import load_config
 from vericlaim.register import load_register
 
-FIELDS = ("id", "statement", "evidence_level", "artifact", "caveat", "metrics")
+FIELDS = ("id", "statement", "evidence_level", "artifact", "caveat", "metrics",
+          "literature")
 
 
 def _git_commit(root: Path) -> str | None:

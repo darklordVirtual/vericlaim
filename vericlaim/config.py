@@ -18,12 +18,15 @@ class Config:
     baseline: str = "claims/baseline.json"
     manifest: str | None = "claims/manifest.md"
     doc_globs: tuple[str, ...] = ("README.md", "docs/**/*.md")
+    # Source files scanned for claim anchors in comments (`# claim:ID field`).
+    # Off by default: code binding is opt-in per project.
+    code_globs: tuple[str, ...] = ()
     required_fields: tuple[str, ...] = (
         "id", "statement", "evidence_level", "artifact", "caveat",
     )
     evidence_levels: tuple[str, ...] = (
         "theoretical", "measured", "benchmarked", "reproduced",
-        "externally_validated",
+        "machine_checked", "externally_validated",
     )
     evidence_exclude: tuple[str, ...] = ()
     stale_exclude: tuple[str, ...] = ()
@@ -66,6 +69,7 @@ def load_config(root: Path, config_path: Path | None = None) -> Config:
         baseline=str(v.get("baseline", base.baseline)),
         manifest=(str(v["manifest"]) if "manifest" in v else base.manifest),
         doc_globs=_tuple("doc_globs", base.doc_globs),
+        code_globs=_tuple("code_globs", base.code_globs),
         required_fields=_tuple("required_fields", base.required_fields),
         evidence_levels=_tuple("evidence_levels", base.evidence_levels),
         evidence_exclude=_tuple("evidence_exclude", base.evidence_exclude),

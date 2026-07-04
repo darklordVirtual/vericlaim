@@ -47,6 +47,24 @@ claims:
   out byte-identical (the number still holds), and — when `require_provenance`
   is on — a claim with a `reproduce` command must carry a provenance sidecar
   for each artifact (source-file-only claims are exempt).
+- **literature** — hash-verified external sources supporting the claim's
+  context:
+
+  ```yaml
+  literature:
+    - source: "doi:10.1000/xyz"        # DOI, URL, or a full citation string
+      sha256: <64 lowercase hex>       # hash of the cited document / extract
+      file: refs/paper-note.md         # optional committed copy or extract
+      locator: "Theorem 3.2, p. 14"    # optional: where in the source
+  ```
+
+  `source` and `sha256` are required per entry. When `file` is given it must
+  exist inside the repo (and be git-tracked when `require_git_tracked` is on)
+  and hash to `sha256` — so a cited document can never silently change after
+  registration. This proves the citation is **intact**, never that the source
+  is *right*, and it never substitutes for evidence: `artifact` stays required
+  and only `reproduce` makes a number reproducible. For paywalled sources,
+  commit your own extract/notes as `file` rather than the document itself.
 
 ## Anchors: binding docs to the register
 
@@ -62,13 +80,34 @@ must appear as a number in the paragraph immediately after the anchor. `n` binds
 to the `n` field; every other name binds to `metrics[name]`. A missing value, an
 unknown metric, or an unknown claim id fails the gate.
 
+## Code anchors: binding source comments to the register
+
+Code states facts about itself too — capability counts, complexity, invariants —
+and they drift exactly like prose. Files matched by `code_globs` are scanned for
+comment anchors:
+
+```python
+# claim:CLAIM-GREET-001 n_languages
+# This library supports exactly 6 languages.
+GREETINGS = {...}
+```
+
+The anchor is a comment line whose **entire content** is `claim:ID field...`
+(leaders `#`, `//`, `--`, `;`, `%`, `*`); a comment that mentions a claim id
+mid-sentence is a citation, not an anchor. The bound paragraph is the
+**contiguous comment block that follows** — never the code itself, so a
+constant that happens to equal the register value cannot satisfy the binding;
+the claim text must carry the number. An empty comment line ends the block,
+like a blank line in markdown. Evidence-level citations and stale strings are
+checked in code files as well.
+
 ## Supported file format
 
 The bundled parser handles a restricted YAML subset: `claims:` at the top level,
-`- id:` items, scalar fields, `>`/`|` folded block scalars, string lists, and
-one-level `key: value` maps (for `metrics`). This keeps the gate
-zero-dependency. If PyYAML is installed, it is used automatically and the full
-YAML grammar is available.
+`- id:` items, scalar fields, `>`/`|` folded block scalars, string lists,
+one-level `key: value` maps (for `metrics`), and lists of one-level maps (for
+`literature`). This keeps the gate zero-dependency. If PyYAML is installed, it
+is used automatically and the full YAML grammar is available.
 
 ## Discipline
 

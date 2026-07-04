@@ -104,12 +104,23 @@ def _parse_subset(text: str) -> list[dict]:
             if value == "":
                 items: list[str] = []
                 mapping: dict[str, Any] = {}
+                maps: list[dict[str, Any]] = []
                 i += 1
                 while i < len(lines):
                     nxt = lines[i]
+                    # `- key: value` opens a map item (list of maps, e.g.
+                    # `literature:` entries); 8-space `key: value` lines
+                    # continue it. Checked before the plain-item pattern,
+                    # which would otherwise swallow `- source: x` whole.
+                    dm = re.match(r"^      - (\w+):\s*(.*)$", nxt)
+                    cm = re.match(r"^        (\w+):\s*(.*)$", nxt)
                     lm = re.match(r"^      - (.+)$", nxt)
                     mm = re.match(r"^      (\w+):\s*(.+)$", nxt)
-                    if lm:
+                    if dm:
+                        maps.append({dm.group(1): _scalar(dm.group(2))})
+                    elif cm and maps:
+                        maps[-1][cm.group(1)] = _scalar(cm.group(2))
+                    elif lm:
                         items.append(_strip_quotes(lm.group(1)))
                     elif mm:
                         mapping[mm.group(1)] = _scalar(mm.group(2))
@@ -118,7 +129,7 @@ def _parse_subset(text: str) -> list[dict]:
                     else:
                         break
                     i += 1
-                current[key] = mapping if mapping else items
+                current[key] = maps if maps else (mapping if mapping else items)
                 continue
             current[key] = _scalar(value)
             i += 1
