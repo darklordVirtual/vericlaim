@@ -39,6 +39,23 @@ python3 integrations/library/use_code.py \
     --bundle build/fetched/<bundle_id> --target .
 ```
 
+## Versioning (derived supersession)
+
+Bundles are immutable, so re-enriching a repo at a new commit creates new
+bundle versions. A bundle's *identity* is `(source_repo, source_claim_id)`,
+and supersession is **derived** from the append-only registry — the latest
+row per identity is current; nothing is declared, no schema changes, hash
+chains and witnesses stay valid. Consequences:
+
+- **search** surfaces current versions only (ingest prunes the previous
+  version's vector; a query-time filter catches stragglers);
+- `GET /library/bundle/:id` reports `supersedes` / `superseded_by` /
+  `is_current`, and `fetch_bundle.py` warns when fetching a superseded
+  version;
+- `GET /library/versions?repo=..&claim=..` lists the full immutable chain —
+  history is never deleted, only de-emphasized in discovery;
+- `POST /library/prune` (bearer) is the idempotent maintenance/backfill.
+
 ## External anchoring
 
 The Worker's hash chains are witnessed in this repo's public git history

@@ -46,6 +46,10 @@ def fetch(url: str, bundle_id: str, out_root: Path) -> Path:
     report = verify_bundle(bdir)  # fail-closed: raises on any mismatch
     print(f"[OK] fetched + locally verified bundle {report['bundle_id'][:12]}… "
           f"({report['n_files']} files, status {report['status']}) -> {bdir}")
+    if meta.get("superseded_by"):
+        print(f"[NOTE] SUPERSEDED: a newer version of this claim exists — "
+              f"bundle {str(meta['superseded_by'])[:12]}… ; prefer it unless "
+              f"you are auditing history.")
     if report["status"] != "verified":
         print("[NOTE] status is not 'verified' — this bundle is a quarantined "
               "candidate and cannot be imported as a claim.")

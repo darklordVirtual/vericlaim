@@ -64,6 +64,41 @@ export async function getBundleRow(env: Env, bundleId: string): Promise<BundleRo
   return (r as unknown as BundleRow) ?? null;
 }
 
+// --- DERIVED versioning: a bundle's identity is (source_repo,
+// source_claim_id); a later row for the same identity supersedes earlier
+// ones. Nothing is declared and no schema changes — the append-only
+// registry IS the version chain, so hash chains and witnesses stay valid.
+
+export async function latestBundleIds(env: Env): Promise<Set<string>> {
+  const r = await env.DB.prepare(
+    `SELECT lb.bundle_id FROM library_bundles lb
+     JOIN (SELECT source_repo, source_claim_id, MAX(seq) AS mseq
+             FROM library_bundles GROUP BY source_repo, source_claim_id) m
+       ON lb.seq = m.mseq`).all();
+  return new Set(((r.results ?? []) as { bundle_id: string }[])
+    .map((row) => row.bundle_id));
+}
+
+export async function versionChain(env: Env, sourceRepo: string,
+                                   sourceClaimId: string): Promise<BundleRow[]> {
+  const r = await env.DB.prepare(
+    `SELECT * FROM library_bundles
+     WHERE source_repo = ? AND source_claim_id = ? ORDER BY seq ASC`)
+    .bind(sourceRepo, sourceClaimId).all();
+  return ((r.results ?? []) as unknown as BundleRow[]);
+}
+
+async function neighborsOf(env: Env, row: BundleRow): Promise<
+  { supersedes: string | null; superseded_by: string | null }
+> {
+  const chain = await versionChain(env, row.source_repo, row.source_claim_id);
+  const i = chain.findIndex((c) => c.bundle_id === row.bundle_id);
+  return {
+    supersedes: i > 0 ? chain[i - 1].bundle_id : null,
+    superseded_by: i >= 0 && i < chain.length - 1 ? chain[i + 1].bundle_id : null,
+  };
+}
+
 function bundleText(b: BundleIn): string {
   const c = b.claim as Record<string, string>;
   return [
@@ -126,14 +161,22 @@ export async function indexBundles(env: Env, bundles: BundleIn[], ts: string): P
         },
       }]);
 
+      // If this identity already has a latest version, the new row will
+      // supersede it: prune the OLD version's search vector so discovery
+      // surfaces only the current version (history stays in D1 + R2).
+      const repo = String(b.provenance?.source_repo ?? "");
+      const scid = String(b.provenance?.source_claim_id ?? "");
+      const priorChain = await versionChain(env, repo, scid);
+      const prior = priorChain[priorChain.length - 1];
+
       const tip = await lastRow(env);
       const prev_hash = tip ? tip.entry_hash : "";
       const row = {
         ts,
         bundle_id: b.bundle_id,
         status: b.status,
-        source_repo: String(b.provenance?.source_repo ?? ""),
-        source_claim_id: String(b.provenance?.source_claim_id ?? ""),
+        source_repo: repo,
+        source_claim_id: scid,
         claim: canonical(b.claim),
         manifest: canonical(b.manifest),
         provenance: canonical(b.provenance),
@@ -147,6 +190,9 @@ export async function indexBundles(env: Env, bundles: BundleIn[], ts: string): P
         .bind(row.ts, row.bundle_id, row.status, row.source_repo,
           row.source_claim_id, row.claim, row.manifest, row.provenance,
           prev_hash, eh).run();
+      if (prior) {
+        await env.VECTORIZE.deleteByIds([`lib:${prior.bundle_id.slice(0, 48)}`]);
+      }
       stored++;
     } catch (e) {
       rejected.push({ bundle_id: b.bundle_id ?? "?", error: String((e as Error).message ?? e) });
@@ -163,8 +209,12 @@ export interface LibraryHit {
 export async function searchLibrary(env: Env, query: string, topK = 5): Promise<LibraryHit[]> {
   const [vector] = await embed(env, [query]);
   const res = await env.VECTORIZE.query(vector, { topK: Math.min(20, topK * 4), returnMetadata: "all" });
+  // Belt and braces: ingest prunes superseded vectors, and this filter
+  // drops any that predate the pruning — search shows CURRENT versions only.
+  const latest = await latestBundleIds(env);
   return res.matches
     .filter((m) => String(m.metadata?.library ?? "") === "true")
+    .filter((m) => latest.has(String(m.metadata?.bundle_id ?? "")))
     .slice(0, topK)
     .map((m) => ({
       bundle_id: String(m.metadata?.bundle_id ?? ""),
@@ -181,18 +231,44 @@ export async function searchLibrary(env: Env, query: string, topK = 5): Promise<
 export async function getBundle(env: Env, bundleId: string): Promise<Record<string, unknown> | null> {
   const row = await getBundleRow(env, bundleId);
   if (!row) return null;
+  const nb = await neighborsOf(env, row);
   return {
     bundle_id: row.bundle_id,
     status: row.status,
     ts: row.ts,
     source_repo: row.source_repo,
     source_claim_id: row.source_claim_id,
+    supersedes: nb.supersedes,
+    superseded_by: nb.superseded_by,
+    is_current: nb.superseded_by === null,
     claim: JSON.parse(row.claim),
     manifest: JSON.parse(row.manifest),
     provenance: JSON.parse(row.provenance),
     note: "Fetch files by hash at /library/file/<sha256>; verify locally with " +
-      "bundlefmt.verify_bundle — the library is distribution, not truth.",
+      "bundlefmt.verify_bundle — the library is distribution, not truth." +
+      (nb.superseded_by ? " NOTE: a newer version of this claim exists (" +
+        "superseded_by) — prefer it unless you are auditing history." : ""),
   };
+}
+
+// One-off / maintenance: prune search vectors of ALL superseded versions
+// (history in D1 + R2 is untouched — this only cleans discovery).
+export async function pruneSuperseded(env: Env): Promise<
+  { total_rows: number; current: number; vectors_pruned: number }
+> {
+  const latest = await latestBundleIds(env);
+  const r = await env.DB.prepare(
+    "SELECT bundle_id FROM library_bundles ORDER BY seq ASC").all();
+  const all = ((r.results ?? []) as { bundle_id: string }[])
+    .map((row) => row.bundle_id);
+  const stale = all.filter((id) => !latest.has(id));
+  const BATCH = 50;
+  for (let i = 0; i < stale.length; i += BATCH) {
+    await env.VECTORIZE.deleteByIds(
+      stale.slice(i, i + BATCH).map((id) => `lib:${id.slice(0, 48)}`));
+  }
+  return { total_rows: all.length, current: latest.size,
+           vectors_pruned: stale.length };
 }
 
 // Verify a stored bundle: manifest still hashes to the id, every file is in
@@ -248,5 +324,14 @@ export async function librarySummary(env: Env): Promise<Record<string, unknown>>
   for (const row of (r.results as { status: string; c: number }[]) ?? []) {
     by_status[row.status] = Number(row.c);
   }
-  return { bundles: Object.values(by_status).reduce((a, b) => a + b, 0), by_status };
+  const latest = await latestBundleIds(env);
+  const total = Object.values(by_status).reduce((a, b) => a + b, 0);
+  return {
+    current_claims: latest.size,
+    bundle_versions_total: total,
+    superseded_versions: total - latest.size,
+    by_status,
+    note: "search surfaces current versions only; superseded versions " +
+      "remain in the ledger and vault as auditable history (/library/versions).",
+  };
 }

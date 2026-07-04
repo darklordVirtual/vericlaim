@@ -20,8 +20,9 @@ import { type Claim, type Env, indexClaims, searchClaims } from "./lib";
 import { getEvidence, putEvidence, verifyEvidence } from "./vault";
 import { appendClaim, history, summary, verifyChain } from "./ledger";
 import {
-  type BundleIn, getBundle, indexBundles, librarySummary, searchLibrary,
-  verifyBundle as verifyLibraryBundle, verifyLibraryChain,
+  type BundleIn, getBundle, indexBundles, librarySummary, pruneSuperseded,
+  searchLibrary, verifyBundle as verifyLibraryBundle, verifyLibraryChain,
+  versionChain,
 } from "./library";
 import { ask } from "./oracle";
 import { badgeSVG, passportHTML } from "./passport";
@@ -213,6 +214,27 @@ export default {
 
     if (p === "/library/summary" && req.method === "GET") {
       return json(await librarySummary(env));
+    }
+
+    // Version chain for one logical claim: every immutable bundle version,
+    // oldest first — supersession is DERIVED from the append-only registry.
+    if (p === "/library/versions" && req.method === "GET") {
+      const repo = url.searchParams.get("repo");
+      const claim = url.searchParams.get("claim");
+      if (!repo || !claim) return json({ error: "need 'repo' and 'claim'" }, 400);
+      const chain = await versionChain(env, repo, claim);
+      return json({
+        source_repo: repo, source_claim_id: claim,
+        versions: chain.map((r, i) => ({
+          bundle_id: r.bundle_id, ts: r.ts, status: r.status, seq: r.seq,
+          is_current: i === chain.length - 1,
+        })),
+      });
+    }
+
+    if (p === "/library/prune" && req.method === "POST") {
+      if (!authorized(req, env)) return json({ error: "unauthorized" }, 401);
+      return json(await pruneSuperseded(env));
     }
 
     if (p === "/passport") {
