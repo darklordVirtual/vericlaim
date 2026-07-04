@@ -1,0 +1,22 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Steven R. Howard",
+    "Aaditya Ramdas",
+    "Jon McAuliffe",
+    "Jasjeet Sekhon"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "query": "bibliography of remora_paper.md",
+    "retrieved_at": "2026-07-04T21:39:00+00:00"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "fad252c6f5783943263bbb5999ba6a96ad56909730ce030c6513144a637d84eb",
+  "title": "Time-uniform, nonparametric, nonasymptotic confidence sequences",
+  "url": "https://doi.org/10.1214/20-aos1991",
+  "venue": "The Annals of Statistics",
+  "work_id": "doi:10.1214/20-aos1991",
+  "year": 2021
+}

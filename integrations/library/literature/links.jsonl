@@ -1,3 +1,10 @@
 {"claim_id": "CLAIM-005", "linked_at": "2026-07-04T21:31:59+00:00", "method": "auto:lexical(arxiv+crossref)", "score": 0.3611, "work_id": "arxiv:2606.07822"}
 {"claim_id": "CLAIM-005", "linked_at": "2026-07-04T21:31:59+00:00", "method": "auto:lexical(arxiv+crossref)", "score": 0.2778, "work_id": "doi:10.31234/osf.io/2mdu8_v1"}
 {"claim_id": "CLAIM-008", "linked_at": "2026-07-04T21:31:59+00:00", "method": "auto:lexical(arxiv+crossref)", "score": 0.25, "work_id": "arxiv:2604.09529"}
+{"claim_id": "CLAIM-002", "linked_at": "2026-07-04T21:39:00+00:00", "method": "biblio:source-paper+arxiv-id", "score": 0.7071, "work_id": "arxiv:2410.09024"}
+{"claim_id": "CLAIM-011", "linked_at": "2026-07-04T21:39:00+00:00", "method": "biblio:source-paper+title-search", "score": 0.7071, "work_id": "doi:10.1214/20-aos1991"}
+{"claim_id": "CLAIM-009", "linked_at": "2026-07-04T21:39:00+00:00", "method": "biblio:source-paper+arxiv-id", "score": 0.8165, "work_id": "arxiv:2606.08539"}
+{"claim_id": "CLAIM-001", "linked_at": "2026-07-04T22:35:00+00:00", "method": "curator:manual+arxiv-id", "score": 1.0, "work_id": "arxiv:2505.03574"}
+{"claim_id": "CLAIM-004", "linked_at": "2026-07-04T22:50:00+00:00", "method": "curator:manual+arxiv-title-phrase", "score": 1.0, "work_id": "arxiv:1705.08500"}
+{"claim_id": "CLAIM-005", "linked_at": "2026-07-04T22:50:00+00:00", "method": "curator:manual+arxiv-title-phrase", "score": 1.0, "work_id": "arxiv:1706.04599"}
+{"claim_id": "CLAIM-008", "linked_at": "2026-07-04T22:50:00+00:00", "method": "curator:manual+arxiv-title-phrase", "score": 1.0, "work_id": "arxiv:1706.04599"}

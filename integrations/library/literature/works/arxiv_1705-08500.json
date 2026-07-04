@@ -1,0 +1,20 @@
+{
+  "abstract": "Selective classification techniques (also known as reject option) have not yet been considered in the context of deep neural networks (DNNs). These techniques can potentially significantly improve DNNs prediction performance by trading-off coverage. In this paper we propose a method to construct a selective classifier given a trained neural network. Our method allows a user to set a desired risk level. At test time, the classifier rejects instances as needed, to grant the desired risk (with high probability). Empirical results over CIFAR and ImageNet convincingly demonstrate the viability of our method, which opens up possibilities to operate DNNs in mission-critical applications. For example, using our method an unprecedented 2% error in top-5 ImageNet classification can be guaranteed with probability 99.9%, and almost 60% test coverage.",
+  "accredited": false,
+  "authors": [
+    "Yonatan Geifman",
+    "Ran El-Yaniv"
+  ],
+  "registrar": "arxiv",
+  "retrieval": {
+    "query": "curator arXiv ti:\"Selective classification for deep neural networks\"",
+    "retrieved_at": "2026-07-04T22:50:00+00:00"
+  },
+  "source_type": "preprint",
+  "text_sha256": "1a9c403525e41c7eb446840815b1201a5072151900d236bfff69eb2a464ca5c2",
+  "title": "Selective Classification for Deep Neural Networks",
+  "url": "https://arxiv.org/abs/1705.08500",
+  "venue": "arXiv",
+  "work_id": "arxiv:1705.08500",
+  "year": 2017
+}

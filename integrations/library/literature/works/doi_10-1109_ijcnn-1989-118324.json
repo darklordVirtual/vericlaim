@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Masory",
+    "Aguirre"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "query": "curator pass over source bibliography",
+    "retrieved_at": "2026-07-04T22:35:00+00:00"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "4c7aa772cf5c7bbc58af9d9e261c5d728b7be37d8baec1f668c3161d9501217d",
+  "title": "Sensor calibration using artificial neural networks",
+  "url": "https://doi.org/10.1109/ijcnn.1989.118324",
+  "venue": "International Joint Conference on Neural Networks",
+  "work_id": "doi:10.1109/ijcnn.1989.118324",
+  "year": 1989
+}

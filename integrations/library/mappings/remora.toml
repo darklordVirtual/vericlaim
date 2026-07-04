@@ -36,8 +36,13 @@ CLAIM-011 = ["lit/claim-011-confidence-sequences.md"]
 # score threshold — attaching a below-threshold match would be dishonest.
 # Re-run curate_literature.py (better queries, or method curator:manual)
 # to fill the rest; gaps stay visible in litindex report + gaps.py.
+CLAIM-001 = ["lit/auto/claim-001-auto.md"]
+CLAIM-004 = ["lit/auto/claim-004-auto.md"]
 CLAIM-005 = ["lit/auto/claim-005-auto.md"]
 CLAIM-008 = ["lit/auto/claim-008-auto.md"]
+# CLAIM-003/006/007/010 have no literature yet — the gap is honest and
+# visible in `litindex.py --report` and gaps.py; fill via biblio_curate or a
+# curator pass, never by lowering the match threshold.
 
 # Per-claim search queries for automated curation — curation POLICY, written
 # down and reviewable. These are search terms, never citations; every hit is

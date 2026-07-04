@@ -1,0 +1,22 @@
+{
+  "abstract": "Confidence calibration -- the problem of predicting probability estimates representative of the true correctness likelihood -- is important for classification models in many applications. We discover that modern neural networks, unlike those from a decade ago, are poorly calibrated. Through extensive experiments, we observe that depth, width, weight decay, and Batch Normalization are important factors influencing calibration. We evaluate the performance of various post-processing calibration methods on state-of-the-art architectures with image and document classification datasets. Our analysis and experiments not only offer insights into neural network learning, but also provide a simple and straightforward recipe for practical settings: on most datasets, temperature scaling -- a single-parameter variant of Platt Scaling -- is surprisingly effective at calibrating predictions.",
+  "accredited": false,
+  "authors": [
+    "Chuan Guo",
+    "Geoff Pleiss",
+    "Yu Sun",
+    "Kilian Q. Weinberger"
+  ],
+  "registrar": "arxiv",
+  "retrieval": {
+    "query": "curator arXiv ti:\"On calibration of modern neural networks\"",
+    "retrieved_at": "2026-07-04T22:50:00+00:00"
+  },
+  "source_type": "preprint",
+  "text_sha256": "b08b4bf65b7c8b652b0ab0710ec381bc1e22fdb839e7b39437c82ba6585a0be5",
+  "title": "On Calibration of Modern Neural Networks",
+  "url": "https://arxiv.org/abs/1706.04599",
+  "venue": "arXiv",
+  "work_id": "arxiv:1706.04599",
+  "year": 2017
+}
