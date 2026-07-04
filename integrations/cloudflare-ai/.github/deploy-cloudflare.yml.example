@@ -1,0 +1,46 @@
+# Optional CI: rebuild the Cloudflare claim index after the gate is green.
+# Copy to .github/workflows/ to enable. Requires two repository secrets:
+#   CLOUDFLARE_API_TOKEN  — a token with Workers + Vectorize + Workers AI scope
+#   VERICLAIM_INDEX_TOKEN — the same value you set as the Worker's INDEX_TOKEN
+#   VERICLAIM_WORKER_URL  — https://vericlaim-claims.<subdomain>.workers.dev
+#
+# It deliberately runs AFTER the gate: the index only ever contains claims that
+# passed verification. If the gate fails, nothing is indexed.
+name: Cloudflare claim index
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["claims/register.yaml"]
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 1. Gate must be green before we index anything.
+      - name: Run the claim gate
+        run: python -m vericlaim
+
+      # 2. (Optional) redeploy the Worker on change.
+      - name: Deploy Worker
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+        working-directory: integrations/cloudflare-ai
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          npm install
+          npx wrangler deploy
+
+      # 3. Push the verified register into the vector index.
+      - name: Rebuild claim index
+        if: ${{ secrets.VERICLAIM_WORKER_URL != '' }}
+        run: |
+          python integrations/cloudflare-ai/export_claims.py \
+            --push "${{ secrets.VERICLAIM_WORKER_URL }}" \
+            --token "${{ secrets.VERICLAIM_INDEX_TOKEN }}"

@@ -1,0 +1,32 @@
+# vericlaim Cloudflare AI add-on — Worker configuration.
+# OPTIONAL. Deploy only if you want AI search / MCP over your claim register.
+name = "vericlaim-claims"
+main = "src/index.ts"
+compatibility_date = "2025-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Workers AI — runs the embedding model (@cf/baai/bge-base-en-v1.5, 768 dims).
+[ai]
+binding = "AI"
+
+# Vectorize — the vector database that stores one vector per claim.
+# Create it first:  npx wrangler vectorize create vericlaim-claims --dimensions=768 --metric=cosine
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "vericlaim-claims"
+
+# Durable Object backing the optional MCP agent.
+[[durable_objects.bindings]]
+name = "VERICLAIM_MCP"
+class_name = "VericlaimMCP"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["VericlaimMCP"]
+
+[vars]
+# Set to "true" to expose the MCP endpoint at POST /mcp. Off by default.
+ENABLE_MCP = "false"
+
+# Secrets (set with `npx wrangler secret put <NAME>`, never commit them):
+#   INDEX_TOKEN   bearer token required to call POST /index (rebuild the index)

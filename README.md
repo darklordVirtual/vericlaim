@@ -214,6 +214,7 @@ docs/                 manifesto · getting-started · register spec · evidence 
 examples/             three tiny worked examples (capability, correctness, benchmark)
 tests/                tests for the gate and the example
 .claude/skills/       a Claude skill that enforces the discipline while you work
+integrations/         optional add-ons (not part of the zero-dep core)
 .github/workflows/    claim-gate.yml — the gate in CI
 vericlaim.toml        gate configuration
 ```
@@ -227,13 +228,26 @@ discipline automatically: produce evidence first, register every number as an
 artifact-backed claim, bind docs with anchors, run the gate, and never state a
 figure it cannot source.
 
+## Optional: Cloudflare AI add-on
+
+The core needs no network and no dependencies. If you *want* semantic search
+over your claims — "what has this project actually proven about X?" — an
+**optional** add-on lives in
+[`integrations/cloudflare-ai/`](integrations/cloudflare-ai/). It embeds each
+claim with **Workers AI** (`@cf/baai/bge-base-en-v1.5`), stores the vectors in
+**Vectorize**, and serves both a REST `/search` endpoint and an **optional MCP
+server** (`search_claims`) so an AI agent can look up your gate-verified claims.
+It is opt-in and deploys to your own Cloudflare account; search is a discovery
+aid and does **not** change what the gate proves. See its
+[README](integrations/cloudflare-ai/README.md).
+
 ## Citation
 
 Claim-Oriented Programming and vericlaim are by **Stian Skogbrott**. Please cite
 it — see [`CITATION.cff`](CITATION.cff) (GitHub renders a "Cite this repository"
 button from it):
 
-> Skogbrott, S. (2026). *vericlaim: A Claim-Oriented Programming gate* (v0.1.2).
+> Skogbrott, S. (2026). *vericlaim: A Claim-Oriented Programming gate* (v0.1.3).
 > https://github.com/darklordVirtual/vericlaim
 
 ## License
