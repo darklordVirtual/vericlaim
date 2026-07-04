@@ -110,8 +110,9 @@ Full walkthrough: [`docs/getting-started.md`](docs/getting-started.md).
 
 | Check | Guarantee |
 |-------|-----------|
-| **Artifact existence** | Every file a claim cites is committed — *no claim without an artifact.* |
-| **Provenance** | Every produced artifact records *how it was made* (script, commit) — *no anonymous number.* |
+| **Artifact existence** | Every file a claim cites exists — *no claim without an artifact.* |
+| **Path containment** | Artifacts must live inside the repo (no absolute paths, `..`, or symlink escapes); optionally, must be git-tracked. |
+| **Provenance** | Every produced artifact records *how it was made* (script, commit, its own SHA-256) — *no anonymous number.* |
 | **Register integrity** | Required fields present, valid evidence level, no duplicate ids. |
 | **Manifest hashes** | Result artifacts match their SHA-256 — a silently edited number is caught. |
 | **Doc binding** | Claim anchors tie prose numbers to the register; drift fails the build. |
@@ -134,14 +135,42 @@ This is [Eiffel's "contract as oracle" idea](docs/design-notes/contract-lineage.
 the reproduce command *is* the oracle, run in CI, so a registered number is not
 just present but **still true today**. If the code moved on and a benchmark
 result silently changed, or a script is non-deterministic, `reproduce` fails and
-names the artifact. (It executes your `reproduce` commands, so it is a separate
-command from the default gate.)
+names the artifact. Because it executes your `reproduce` commands (same trust
+level as running your test suite), it is a **separate** command from the default
+side-effect-free gate — run it in its own CI job, without deploy secrets.
 
 Two design ideas from Bertrand Meyer's Eiffel drive this — provenance
 (attestation) and reproduce-as-oracle — with more catalogued in
 [`docs/design-notes/contract-lineage.md`](docs/design-notes/contract-lineage.md).
 
 ---
+
+## What vericlaim proves — and what it does not
+
+Precision matters more than a big promise (it is, after all, an anti-overclaim
+tool). vericlaim **proves that** the claims you register, the evidence files you
+cite, the documentation you bind, and the reproduce scripts you name stay
+**internally consistent and reproducible** inside the repository — on every
+commit.
+
+It does **not** prove that:
+
+- the benchmark reflects real production load;
+- the evidence was not manipulated before it was committed;
+- an `externally_validated` claim was actually validated by an outside party
+  (the level is your honest assertion; vericlaim only checks it is stated
+  consistently);
+- *all* documentation is covered — only the docs and numbers you bind;
+- a sentence is *semantically* true. The doc-binding check proves the registered
+  number is **present** in the paragraph, not that the surrounding prose is
+  correct. ("Target is 180 ms; actual is 900 ms" contains 180 and passes.)
+  Structured claim tokens that pin the value in place are the planned v0.2
+  direction — see [`docs/design-notes/contract-lineage.md`](docs/design-notes/contract-lineage.md).
+
+That boundary is the point: *no unsourced claim, no silent numeric drift, no
+claim above its stated evidence level, and every number still reproduces.* Those,
+enforced, are most of what separates a trustworthy repository from a hopeful one
+— and nothing more is claimed.
 
 ## Worked examples — three claim shapes, three domains
 

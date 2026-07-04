@@ -2,9 +2,14 @@
 """Provenance for artifacts — where a number came from.
 
 AI fabricates confidently. Existence of a file is not enough; you want to know
-*how it was produced*. A provenance sidecar records the script, the commit, and
-who/what produced each artifact — the "attestation" idea (SLSA / in-toto),
-scaled down to a single JSON file next to the artifact.
+*how it was produced*. A provenance sidecar records the script, the commit, the
+artifact's own SHA-256, and who/what produced each artifact.
+
+This is provenance *recording* — a lightweight cousin of the SLSA / in-toto
+attestation idea, scaled to a single JSON file. It is NOT cryptographic
+attestation: the sidecar is not signed and `git_commit` is best-effort. Signed
+DSSE envelopes (Sigstore / GitHub OIDC) are a deliberate enterprise-tier
+extension, not a claim this file makes today.
 
 Evidence scripts call `stamp()` after writing their artifact. The gate can then
 require that every claimed artifact carries provenance (config
@@ -15,6 +20,7 @@ manifest and not compared by `vericlaim reproduce` (only the real artifact is).
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import subprocess
 from datetime import datetime, timezone
@@ -45,10 +51,13 @@ def stamp(artifact: str | Path, *, script: str, produced_by: str = "human") -> P
         stamp("results/bench.json", script="python examples/rle/bench.py")
     """
     art = Path(artifact)
+    art_sha = (hashlib.sha256(art.read_bytes()).hexdigest()
+               if art.exists() else None)
     record = {
-        "schema": "vericlaim_provenance_v1",
+        "schema": "vericlaim_provenance_v2",
         "artifact": art.name,
-        "script": script,
+        "artifact_sha256": art_sha,   # what was produced (self-describing)
+        "script": script,             # how it was produced
         "git_commit": _git_commit(art.resolve().parent),
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "produced_by": produced_by,

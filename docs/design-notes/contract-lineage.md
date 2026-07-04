@@ -54,12 +54,28 @@ reproduce." *Status:* proposed; the doc-binding check is a first instance.
 
 ## Cousins that fit AI especially well
 
-### ✅ Provenance / attestation (SLSA, in-toto, Sigstore)
-*Origin:* supply-chain security records *how* an artifact was built, verifiably.
-*For AI:* every produced artifact carries a provenance sidecar (script, commit,
-who/what produced it). A number with no record of a real run is suspect — this
-attacks fabrication directly. *Status:* built (`require_provenance`, provenance
-sidecars).
+### ✅ Provenance recording (a lightweight cousin of SLSA / in-toto)
+*Origin:* supply-chain security records *how* an artifact was built. *For AI:*
+every produced artifact carries a provenance sidecar (script, commit, the
+artifact's own SHA-256, producer). A number with no record of a real run is
+suspect — this attacks fabrication directly. *Status:* built
+(`require_provenance`). *Honest scope:* this is provenance **logging**, not
+cryptographic attestation — the sidecar is unsigned and `git_commit` is
+best-effort. Signed DSSE envelopes (Sigstore / GitHub OIDC) are the enterprise
+tier, deliberately not claimed today (see ○ below).
+
+### ○ Signed attestation (DSSE, Sigstore, GitHub OIDC)
+*Origin:* verifiable, tamper-evident build provenance. *For AI/enterprise:* sign
+the provenance so a reviewer trusts the origin even against a malicious writer.
+*Status:* proposed enterprise tier; the v2 sidecar (with artifact/script hashes)
+is the substrate a DSSE envelope would wrap.
+
+### ○ Structured claim tokens (bind value *in place*, not just present)
+*Origin:* templating / single-sourced docs. *For AI:* today an anchor proves the
+number is *somewhere* in the paragraph; a token like
+`{{ claim:CLAIM-PERF-001.metrics.p95_ms }}` would pin it to the exact position
+(and could generate or substitute the value in CI), closing the
+"number-present-but-prose-wrong" gap. *Status:* the planned v0.2 direction.
 
 ### ○ Property-based & metamorphic claims (QuickCheck / Hypothesis)
 *Origin:* instead of one example, assert a property over *generated* inputs; when
@@ -93,3 +109,24 @@ asleep. *Status:* the drift demo is a manual instance; automatable.
 The guiding rule, in the spirit of the method itself: *add a mechanism only when
 it turns a hopeful claim into a checked one.* Everything marked ✅ above does;
 the ○ items are honest roadmap, not shipped features.
+
+---
+
+## v0.1 credibility hardening (2026-07)
+
+An external review found three real gaps that were fixed, because a checker you
+cannot trust is worse than none:
+
+- **Fail-closed register parsing.** A misparsed register used to return zero
+  claims, which the gate read as a valid empty project — silently disabling all
+  protection. Now a register that contains `- id:` items but parses to fewer
+  raises a hard error (and an unsupported `schema_version` is rejected).
+- **Multi-segment claim ids.** The evidence-level check matched claim ids with a
+  regex that truncated `CLAIM-EX-001` to `EX-001` and then found nothing —
+  silently skipping the check. It now matches the *registered* ids exactly.
+- **Path containment.** "Committed artifact" is now enforced: an artifact path
+  may not be absolute, use `..`, or symlink out of the repo, and (optionally)
+  must be git-tracked.
+
+Each has negative tests. The lesson is the method applied to itself: state only
+what you enforce, and enforce what you state.

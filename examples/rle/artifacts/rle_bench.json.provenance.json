@@ -1,8 +1,9 @@
 {
-  "schema": "vericlaim_provenance_v1",
+  "schema": "vericlaim_provenance_v2",
   "artifact": "rle_bench.json",
+  "artifact_sha256": "78566810996df27fd5c3fb0772b4d3929c9663c9ab984ef04a0d918ef6f869c7",
   "script": "python3 examples/rle/bench.py",
-  "git_commit": "19df3a88006937c693448a1979f71523a6d8a42e",
-  "generated_at": "2026-07-04T13:13:27.786033+00:00",
+  "git_commit": "e04e6c4334179369859dd88d6035bb18ea08989b",
+  "generated_at": "2026-07-04T13:42:24.523952+00:00",
   "produced_by": "human"
 }

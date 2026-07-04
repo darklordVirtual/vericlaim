@@ -31,6 +31,10 @@ class Config:
     # When true, every artifact a claim cites must carry a provenance sidecar
     # (<artifact>.provenance.json) recording how it was produced.
     require_provenance: bool = False
+    # When true, every artifact must be tracked by git (a "committed artifact"
+    # must actually be committed). Off by default so non-git checkouts and tests
+    # still work; recommended on in CI.
+    require_git_tracked: bool = False
 
     def path(self, rel: str) -> Path:
         return self.root / rel
@@ -68,4 +72,5 @@ def load_config(root: Path, config_path: Path | None = None) -> Config:
         stale_exclude=_tuple("stale_exclude", base.stale_exclude),
         stale_strings=stale_tuple,
         require_provenance=bool(v.get("require_provenance", base.require_provenance)),
+        require_git_tracked=bool(v.get("require_git_tracked", base.require_git_tracked)),
     )

@@ -22,7 +22,7 @@ import subprocess
 from pathlib import Path
 
 from .config import Config
-from .register import load_register
+from .register import RegisterError, load_register
 
 
 def _sha256(p: Path) -> str | None:
@@ -35,7 +35,11 @@ def reproduce(cfg: Config, *, quiet: bool = False) -> int:
     if not reg.exists():
         print(f"[FAIL] missing claim register: {cfg.register}")
         return 1
-    claims = load_register(reg.read_text(encoding="utf-8"))
+    try:
+        claims = load_register(reg.read_text(encoding="utf-8"))
+    except RegisterError as exc:
+        print(f"[FAIL] {cfg.register}: {exc}")
+        return 1
 
     # Group artifacts by their reproduce command (skip claims without one).
     by_cmd: dict[str, list[str]] = {}

@@ -2,26 +2,32 @@
 """The vericlaim gate — Claim-Oriented Programming enforcement.
 
 The gate is the executable contract for a project's *claims about itself*.
-It runs in CI and fails the build when any of the following drift:
+It reads files only (no side effects) and fails the build when any of the
+following drift:
 
-1. REGISTER INTEGRITY   — every claim has the required fields and a valid
-                          evidence level.
-2. ARTIFACT EXISTENCE   — every artifact a claim cites exists on disk
-                          ("no claim without an artifact").
-3. MANIFEST HASHES      — every SHA-256 in the manifest matches the file bytes
+1. REGISTER INTEGRITY   — required fields, valid evidence level, no duplicate
+                          ids. The register parses FAIL-CLOSED: a misparse
+                          raises rather than silently seeing zero claims.
+2. ARTIFACT EXISTENCE   — every cited artifact exists ("no claim without an
+                          artifact").
+3. PATH CONTAINMENT     — artifacts live inside the repo (no absolute paths,
+                          ``..``, or symlink escapes); optionally git-tracked.
+4. PROVENANCE           — when required, each produced artifact carries a
+                          sidecar recording how it was made.
+5. MANIFEST HASHES      — every SHA-256 in the manifest matches the file bytes
                           (LF-normalized; CRLF working trees pass with a note).
-4. DOC BINDING          — claim anchors ``<!-- claim:ID field ... -->`` assert
-                          that the register's value for each field appears in
-                          the following paragraph, so prose cannot drift from
-                          the register.
-5. EVIDENCE CITATIONS   — a doc line naming a CLAIM id together with an
-                          evidence-level term must agree with the register.
-6. STALE STRINGS        — a configurable denylist of corrected strings that
+6. DOC BINDING          — claim anchors ``<!-- claim:ID field ... -->`` assert
+                          that the register's value appears in the following
+                          paragraph, so numbers cannot drift from the register.
+7. EVIDENCE CITATIONS   — a doc line naming a registered claim id together with
+                          an evidence-level term must agree with the register.
+8. STALE STRINGS        — a configurable denylist of corrected strings that
                           must never reappear.
 
 Known violations are grandfathered in the baseline file (reported as WARN);
 anything new fails with a non-zero exit. This lets a project adopt the gate
-incrementally without a big-bang cleanup.
+incrementally without a big-bang cleanup. The heavier reproduce-as-oracle check
+(which executes commands) is the separate ``vericlaim reproduce``.
 """
 from __future__ import annotations
 
@@ -31,16 +37,45 @@ import re
 from pathlib import Path
 
 from .config import Config
-from .register import load_register
+from .register import RegisterError, load_register
 
 ANCHOR_RE = re.compile(r"<!--\s*claim:([A-Za-z0-9_.-]+)((?:\s+[A-Za-z0-9_.-]+)+)\s*-->")
-CLAIM_ID_RE = re.compile(r"\b[A-Z][A-Z0-9]*-\d+\b")
 MANIFEST_ROW_RE = re.compile(
     r"^\|\s*`(?P<path>[^`]+)`\s*\|\s*`(?P<sha>[0-9a-fA-F]{64})`\s*\|"
 )
 NUMBER_RE = re.compile(r"-?\d+(?:\.\d+)?")
 
 Finding = tuple[str, str]  # (error_id, human message)
+
+
+def _claim_ids_in_line(line: str, by_id: dict[str, dict]) -> set[str]:
+    """Return the registered claim ids that appear in *line*, matched whole.
+
+    Uses the register as the source of truth rather than guessing an id shape
+    with a regex — so CLAIM-EX-001, CLAIM-CORE-001, ORG.PRODUCT-2026-001 all
+    match in full, not as a truncated tail.
+    """
+    found: set[str] = set()
+    for cid in by_id:
+        if re.search(rf"(?<![A-Za-z0-9_.-]){re.escape(cid)}(?![A-Za-z0-9_.-])", line):
+            found.add(cid)
+    return found
+
+
+def _resolve_within_root(cfg: Config, rel: str) -> Path | None:
+    """Resolve *rel* under the repo root, or None if it escapes the root.
+
+    Blocks absolute paths, ``..`` traversal, and symlinks that point outside the
+    repository — so "committed artifact" cannot quietly mean a file in another
+    project or outside the checkout.
+    """
+    root = cfg.root.resolve()
+    candidate = (cfg.root / rel).resolve()
+    if candidate == root:
+        return None
+    if root not in candidate.parents:
+        return None
+    return candidate
 
 
 # --------------------------------------------------------------------------- #
@@ -78,10 +113,31 @@ def check_artifacts(claims: list[dict], cfg: Config) -> list[Finding]:
         if isinstance(arts, str):
             arts = [arts]
         for rel in arts:
-            if not cfg.path(rel).exists():
+            resolved = _resolve_within_root(cfg, rel)
+            if resolved is None:
+                out.append((f"artifact-escapes-root:{cid}:{rel}",
+                            f"{cid}: artifact path {rel!r} is absolute or escapes "
+                            f"the repository root — evidence must live inside the repo"))
+                continue
+            if not resolved.exists():
                 out.append((f"artifact-missing:{cid}:{rel}",
                             f"{cid}: cited artifact does not exist: {rel}"))
+                continue
+            if cfg.require_git_tracked and not _is_git_tracked(cfg, rel):
+                out.append((f"artifact-untracked:{cid}:{rel}",
+                            f"{cid}: artifact {rel} is not tracked by git — "
+                            f"a 'committed artifact' must be committed"))
     return out
+
+
+def _is_git_tracked(cfg: Config, rel: str) -> bool:
+    try:
+        import subprocess
+        subprocess.run(["git", "ls-files", "--error-unmatch", "--", rel],
+                       cwd=cfg.root, check=True, capture_output=True)
+        return True
+    except (OSError, subprocess.CalledProcessError):
+        return False
 
 
 def check_provenance(claims: list[dict], cfg: Config) -> list[Finding]:
@@ -226,16 +282,16 @@ def check_evidence_citations(cfg: Config, path: Path, text: str,
     if rel in cfg.evidence_exclude:
         return out
     for n, line in enumerate(text.splitlines(), 1):
-        ids = CLAIM_ID_RE.findall(line)
+        # Match KNOWN claim ids from the register, not a regex guess — a
+        # multi-segment id like CLAIM-EX-001 must match in full, not as EX-001.
+        ids = _claim_ids_in_line(line, by_id)
         if not ids:
             continue
         levels = [lv for lv in cfg.evidence_levels if lv in line]
         if not levels:
             continue
-        for cid in set(ids):
-            claim = by_id.get(cid)
-            if claim is None:
-                continue
+        for cid in ids:
+            claim = by_id[cid]
             reg_level = claim.get("evidence_level")
             for lv in levels:
                 if lv != reg_level:
@@ -293,7 +349,11 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
     if not reg_path.exists():
         print(f"[FAIL] missing claim register: {cfg.register}")
         return 1
-    claims = load_register(reg_path.read_text(encoding="utf-8"))
+    try:
+        claims = load_register(reg_path.read_text(encoding="utf-8"))
+    except RegisterError as exc:
+        print(f"[FAIL] {cfg.register}: {exc}")
+        return 1
     by_id = {c["id"]: c for c in claims if "id" in c}
     if not claims and not quiet:
         print(f"[NOTE] {cfg.register}: no claims yet — add your first one "

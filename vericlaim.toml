@@ -13,6 +13,8 @@ required_fields = ["id", "statement", "evidence_level", "artifact", "caveat"]
 evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "externally_validated"]
 # Require a provenance sidecar for every artifact (how it was produced).
 require_provenance = true
+# Every artifact must be git-tracked (a "committed artifact" must be committed).
+require_git_tracked = true
 # The taxonomy doc legitimately pairs claim ids with level names in examples.
 evidence_exclude = ["docs/evidence-levels.md"]
 stale_exclude    = []

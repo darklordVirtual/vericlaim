@@ -25,6 +25,13 @@ from __future__ import annotations
 import re
 from typing import Any
 
+SUPPORTED_SCHEMA_VERSIONS = {"1"}
+
+
+class RegisterError(ValueError):
+    """The register could not be parsed. The gate treats this as a hard failure
+    (fail closed) rather than silently seeing zero claims."""
+
 
 def _strip_quotes(value: str) -> str:
     value = value.strip()
@@ -120,13 +127,47 @@ def _parse_subset(text: str) -> list[dict]:
     return claims
 
 
+_ITEM_ID_RE = re.compile(r"^\s*-\s+id:", re.MULTILINE)
+
+
+def _check_schema_version(text: str) -> None:
+    m = re.search(r"^\s*schema_version:\s*[\"']?([^\"'\s#]+)", text, re.MULTILINE)
+    if m and m.group(1) not in SUPPORTED_SCHEMA_VERSIONS:
+        raise RegisterError(
+            f"unsupported schema_version {m.group(1)!r} "
+            f"(supported: {sorted(SUPPORTED_SCHEMA_VERSIONS)})")
+
+
 def load_register(text: str) -> list[dict]:
-    """Parse the register. Uses PyYAML when available, else the bundled subset."""
+    """Parse the register — FAIL CLOSED.
+
+    Uses PyYAML when installed, else the bundled subset parser. Either way, a
+    file that *looks* like it has claims (contains ``- id:`` items) but parses
+    to zero is a misparse and raises RegisterError, so a formatting mistake can
+    never silently disable the gate. A genuinely empty register (``claims: []``)
+    is fine and returns [].
+    """
+    _check_schema_version(text)
+    n_items = len(_ITEM_ID_RE.findall(text))
+
     try:
         import yaml  # type: ignore
+    except ImportError:
+        yaml = None
 
-        data = yaml.safe_load(text) or {}
+    if yaml is not None:
+        try:
+            data = yaml.safe_load(text) or {}
+        except yaml.YAMLError as exc:  # real parse error → fail closed
+            raise RegisterError(f"invalid YAML: {exc}") from exc
         claims = data.get("claims", []) if isinstance(data, dict) else []
-        return [c for c in claims if isinstance(c, dict)]
-    except Exception:
-        return _parse_subset(text)
+        claims = [c for c in claims if isinstance(c, dict)]
+    else:
+        claims = _parse_subset(text)
+
+    if n_items > 0 and len(claims) < n_items:
+        raise RegisterError(
+            f"register has {n_items} '- id:' item(s) but only {len(claims)} "
+            f"parsed — a formatting error would otherwise silently disable the "
+            f"gate. Fix the register (or install PyYAML for full YAML support).")
+    return claims
