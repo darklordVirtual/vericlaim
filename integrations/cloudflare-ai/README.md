@@ -56,25 +56,46 @@ hallucinated would defeat the whole tool. Citations are the ids the answer
 `verify_claim`. Together they make the server a universal **"project truth" API**
 for any agent.
 
-## Setup
+## Setup — reproduce it in ~5 minutes
+
+You need Node.js + npm and a Cloudflare account (a token in
+`$CLOUDFLARE_API_TOKEN`, or run `npx wrangler login`). One script creates the
+three data resources on **your** account, applies the ledger schema, and writes
+your D1 id into `wrangler.toml`:
 
 ```bash
 cd integrations/cloudflare-ai
-npm install
-
-# create the three data resources
-npm run create-index                                   # Vectorize (768/cosine)
-npx wrangler d1 create vericlaim-ledger                # D1 ledger  -> paste id into wrangler.toml
-npx wrangler d1 execute vericlaim-ledger --remote --file schema.sql
-npx wrangler r2 bucket create vericlaim-evidence       # R2 vault
-
-npx wrangler secret put INDEX_TOKEN                    # write token for POST /index
-npm run deploy
-
-# push the register through the full pipeline (from the repo root)
-python3 integrations/cloudflare-ai/export_claims.py \
-    --push https://vericlaim-claims.<subdomain>.workers.dev --token "$INDEX_TOKEN"
+./setup.sh                 # creates Vectorize + D1 + R2, applies schema (idempotent)
 ```
+
+Then the three steps it prints:
+
+```bash
+npx wrangler secret put INDEX_TOKEN            # 1. your write token (pick any strong secret)
+npx wrangler deploy --var ENABLE_MCP:true      # 2. deploy (drop the --var to keep MCP off)
+
+# 3. push your register through the pipeline (from the repo root):
+python3 integrations/cloudflare-ai/export_claims.py \
+    --push https://vericlaim-claims.<subdomain>.workers.dev --token "<your INDEX_TOKEN>"
+```
+
+Verify the whole thing live (read-only, self-configuring):
+
+```bash
+python3 integrations/cloudflare-ai/test/live_test.py \
+    --url https://vericlaim-claims.<subdomain>.workers.dev      # expect 15/15 checks passed
+```
+
+<details><summary>Manual setup (what <code>setup.sh</code> does)</summary>
+
+```bash
+npm install
+npm run create-index                                       # Vectorize (768/cosine)
+npx wrangler d1 create vericlaim-ledger                     # paste the id into wrangler.toml
+npx wrangler d1 execute vericlaim-ledger --remote --file schema.sql
+npx wrangler r2 bucket create vericlaim-evidence
+```
+</details>
 
 The exporter reuses vericlaim's own loader and attaches each claim's artifact
 bytes + git commit, so the ledger and vault can only contain what is actually in

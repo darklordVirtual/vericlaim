@@ -16,8 +16,8 @@ binding = "VECTORIZE"
 index_name = "vericlaim-claims"
 
 # D1 — the tamper-evident, hash-chained claim ledger (history of every claim).
-# Create it first:  npx wrangler d1 create vericlaim-ledger
-# then apply the schema:  npx wrangler d1 execute vericlaim-ledger --remote --file schema.sql
+# NEW USER: run ./setup.sh — it creates your own D1 and rewrites the id below.
+# (The id here is the original author's database; you cannot deploy against it.)
 [[d1_databases]]
 binding = "DB"
 database_name = "vericlaim-ledger"
