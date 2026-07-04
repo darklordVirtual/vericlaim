@@ -319,11 +319,32 @@ def check_stale_strings(cfg: Config, path: Path, text: str) -> list[Finding]:
 # --------------------------------------------------------------------------- #
 
 def _load_baseline(cfg: Config) -> set[str]:
+    """Load grandfathered violation ids, fail-closed.
+
+    A malformed baseline must not crash the gate or be read as "no baseline" —
+    either would silently change what the gate enforces. On any structural
+    problem we raise RegisterError so the runner reports a clean [FAIL].
+    """
     p = cfg.path(cfg.baseline)
     if not p.exists():
         return set()
-    data = json.loads(p.read_text(encoding="utf-8"))
-    return {e["error_id"] for e in data.get("known_violations", [])}
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise RegisterError(f"invalid JSON: {exc}") from exc
+    if not isinstance(data, dict):
+        raise RegisterError("top level must be an object")
+    entries = data.get("known_violations", [])
+    if not isinstance(entries, list):
+        raise RegisterError("'known_violations' must be a list")
+    ids: set[str] = set()
+    for i, e in enumerate(entries):
+        if not isinstance(e, dict) or "error_id" not in e:
+            raise RegisterError(
+                f"known_violations[{i}] must be an object with an 'error_id' "
+                f"field (got {type(e).__name__})")
+        ids.add(e["error_id"])
+    return ids
 
 
 def _doc_paths(cfg: Config) -> list[Path]:
@@ -369,7 +390,11 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
         findings += check_evidence_citations(cfg, doc, text, by_id)
         findings += check_stale_strings(cfg, doc, text)
 
-    baseline = _load_baseline(cfg)
+    try:
+        baseline = _load_baseline(cfg)
+    except RegisterError as exc:
+        print(f"[FAIL] {cfg.baseline}: {exc}")
+        return 1
     seen_ids = {eid for eid, _ in findings}
     new = [(e, m) for e, m in findings if e not in baseline]
     grandfathered = [(e, m) for e, m in findings if e in baseline]

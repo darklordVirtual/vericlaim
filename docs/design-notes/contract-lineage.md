@@ -130,3 +130,15 @@ cannot trust is worse than none:
 
 Each has negative tests. The lesson is the method applied to itself: state only
 what you enforce, and enforce what you state.
+
+## v0.1.1 — the baseline fails closed too (2026-07)
+
+A capability demonstration of the Claude skill surfaced a fourth gap in the same
+spirit: the register parsed fail-closed, but the **baseline** loader did not. A
+malformed `baseline.json` (e.g. a list of bare strings instead of objects with an
+`error_id`) raised an uncaught `TypeError` and crashed the gate with a Python
+traceback — the one failure mode a trust tool cannot have. `_load_baseline` now
+validates structure and raises `RegisterError` on bad JSON, a non-list
+`known_violations`, or an entry missing `error_id`; the runner catches it and
+prints a clean `[FAIL] claims/baseline.json: …`. Six negative/positive tests
+cover it. Fail-closed is now uniform across *every* file the gate reads.

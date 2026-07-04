@@ -12,6 +12,7 @@ import pytest
 from vericlaim.config import Config
 from vericlaim.gate import (
     _claim_ids_in_line,
+    _load_baseline,
     check_artifacts,
     check_evidence_citations,
     run,
@@ -105,3 +106,54 @@ def test_gate_fails_closed_on_bad_register(tmp_path):
     (tmp_path / "claims" / "baseline.json").write_text('{"known_violations": []}')
     cfg = Config(root=tmp_path, manifest=None, doc_globs=())
     assert run(cfg, quiet=True) == 1  # hard failure, not a silent green
+
+
+# ── 4. the baseline fails CLOSED too ────────────────────────────────────────
+# A malformed baseline must not crash the gate (uncaught traceback) nor be read
+# as "no baseline" — either would silently change what the gate enforces.
+
+def test_missing_baseline_is_empty(tmp_path):
+    cfg = Config(root=tmp_path, baseline="nope.json")
+    assert _load_baseline(cfg) == set()
+
+
+def test_baseline_invalid_json_raises(tmp_path):
+    (tmp_path / "baseline.json").write_text("{not json")
+    cfg = Config(root=tmp_path, baseline="baseline.json")
+    with pytest.raises(RegisterError):
+        _load_baseline(cfg)
+
+
+def test_baseline_entries_must_be_objects_with_error_id(tmp_path):
+    # a list of bare strings used to raise TypeError (uncaught crash)
+    (tmp_path / "baseline.json").write_text(
+        '{"known_violations": ["stale-string:d.md:x"]}')
+    cfg = Config(root=tmp_path, baseline="baseline.json")
+    with pytest.raises(RegisterError):
+        _load_baseline(cfg)
+
+
+def test_baseline_known_violations_must_be_list(tmp_path):
+    (tmp_path / "baseline.json").write_text('{"known_violations": {}}')
+    cfg = Config(root=tmp_path, baseline="baseline.json")
+    with pytest.raises(RegisterError):
+        _load_baseline(cfg)
+
+
+def test_wellformed_baseline_loads(tmp_path):
+    (tmp_path / "baseline.json").write_text(
+        '{"known_violations": [{"error_id": "stale-string:d.md:x", '
+        '"reason": "legacy", "date": "2026-07-04"}]}')
+    cfg = Config(root=tmp_path, baseline="baseline.json")
+    assert _load_baseline(cfg) == {"stale-string:d.md:x"}
+
+
+def test_gate_fails_cleanly_on_bad_baseline(tmp_path):
+    # end-to-end: valid register, malformed baseline -> clean [FAIL], not a crash
+    (tmp_path / "claims").mkdir()
+    (tmp_path / "claims" / "register.yaml").write_text(
+        'schema_version: "1"\nclaims: []\n')
+    (tmp_path / "claims" / "baseline.json").write_text(
+        '{"known_violations": ["bare-string-not-an-object"]}')
+    cfg = Config(root=tmp_path, manifest=None, doc_globs=())
+    assert run(cfg, quiet=True) == 1
