@@ -142,3 +142,19 @@ validates structure and raises `RegisterError` on bad JSON, a non-list
 `known_violations`, or an entry missing `error_id`; the runner catches it and
 prints a clean `[FAIL] claims/baseline.json: …`. Six negative/positive tests
 cover it. Fail-closed is now uniform across *every* file the gate reads.
+
+## v0.1.2 — linear-time evidence check (2026-07)
+
+A comprehensive stress campaign (scaling the register to 1000 claims) exposed a
+**performance cliff**: the gate took 1.5 s at 500 claims but 102 s at 1000. Root
+cause: the evidence-level check ran one `re.search` per registered id per doc
+line — O(lines × claims) — and each id produced a distinct pattern, so once the
+register passed ~500 claims it overflowed CPython's 512-entry regex cache and
+recompiled on every call. The fix compiles **one** boundary-anchored alternation
+of all ids a single time and reuses it, and tests the cheap evidence-level
+substring first so the id scan only runs on lines that could actually drift.
+Whole-token semantics (including token-prefix ids) are unchanged and covered by
+two new tests. Result: **1000 claims now verify in 0.33 s instead of 102 s
+(~300×)**, and the gate scales linearly through 2000+ claims. The lesson, again
+the method applied to itself: an anti-drift tool must not itself fall over at
+scale — and only a test at scale finds it.

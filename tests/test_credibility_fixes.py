@@ -157,3 +157,37 @@ def test_gate_fails_cleanly_on_bad_baseline(tmp_path):
         '{"known_violations": ["bare-string-not-an-object"]}')
     cfg = Config(root=tmp_path, manifest=None, doc_globs=())
     assert run(cfg, quiet=True) == 1
+
+
+# ── 5. single-pass id matcher (O(lines*claims) -> linear; no regex-cache thrash)
+# The combined alternation must keep the exact whole-token semantics, including
+# when one id is a token-prefix of another.
+
+def test_id_matcher_whole_token_and_prefix_safe():
+    by_id = {"CLAIM-1": {}, "CLAIM-EX-001": {}, "CLAIM-EX-0011": {},
+             "ORG.PRODUCT-2026-001": {}}
+    for cid in by_id:
+        # '.' is part of the id-token class (ORG.PRODUCT-...), so delimit with a space
+        assert _claim_ids_in_line(f"see {cid} here", by_id) == {cid}
+    # a shorter id that is a token-prefix of a longer one must not match inside it
+    assert _claim_ids_in_line("CLAIM-EX-0011 only", by_id) == {"CLAIM-EX-0011"}
+    # a bare tail still must not match
+    assert _claim_ids_in_line("EX-001 alone", by_id) == set()
+    # empty register -> no matches, no crash
+    assert _claim_ids_in_line("anything CLAIM-1", {}) == set()
+
+
+def test_evidence_check_scales_without_cache_thrash(tmp_path):
+    # >512 distinct ids used to thrash the interpreter regex cache and go
+    # quadratic; assert it stays correct and quick on a large register.
+    n = 800
+    by_id = {f"CLAIM-{i:04d}": {"id": f"CLAIM-{i:04d}",
+                                "evidence_level": "measured"} for i in range(n)}
+    doc = tmp_path / "d.md"
+    # one genuine drift line among many plain lines
+    lines = [f"Item {i} is fine." for i in range(n)]
+    lines.append("CLAIM-0500 is externally_validated here.")
+    doc.write_text("\n".join(lines))
+    cfg = Config(root=tmp_path)
+    out = check_evidence_citations(cfg, doc, doc.read_text(), by_id)
+    assert [e for e, _ in out] == [f"evidence-level-drift:d.md:{n + 1}:CLAIM-0500"]

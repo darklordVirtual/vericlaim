@@ -48,18 +48,36 @@ NUMBER_RE = re.compile(r"-?\d+(?:\.\d+)?")
 Finding = tuple[str, str]  # (error_id, human message)
 
 
+def _compile_id_matcher(by_id: dict[str, dict]) -> re.Pattern | None:
+    """Compile ONE regex that matches any registered id as a whole token.
+
+    Building a single alternation and compiling it once — instead of one
+    ``re.search`` per id per line — keeps the evidence check linear in the doc
+    size rather than O(lines x claims), and avoids thrashing the interpreter's
+    regex cache (which holds only 512 distinct patterns) once a register grows
+    past a few hundred claims. Longest ids first so the alternation prefers the
+    fuller match; the boundary lookarounds match the source of truth exactly,
+    never a truncated tail. Returns None for an empty register.
+    """
+    if not by_id:
+        return None
+    alt = "|".join(re.escape(cid) for cid in sorted(by_id, key=len, reverse=True))
+    return re.compile(rf"(?<![A-Za-z0-9_.-])(?:{alt})(?![A-Za-z0-9_.-])")
+
+
 def _claim_ids_in_line(line: str, by_id: dict[str, dict]) -> set[str]:
     """Return the registered claim ids that appear in *line*, matched whole.
 
     Uses the register as the source of truth rather than guessing an id shape
     with a regex — so CLAIM-EX-001, CLAIM-CORE-001, ORG.PRODUCT-2026-001 all
-    match in full, not as a truncated tail.
+    match in full, not as a truncated tail. For hot paths compile the matcher
+    once with `_compile_id_matcher` and reuse it; this helper is the convenience
+    form used in tests.
     """
-    found: set[str] = set()
-    for cid in by_id:
-        if re.search(rf"(?<![A-Za-z0-9_.-]){re.escape(cid)}(?![A-Za-z0-9_.-])", line):
-            found.add(cid)
-    return found
+    matcher = _compile_id_matcher(by_id)
+    if matcher is None:
+        return set()
+    return {m.group(0) for m in matcher.finditer(line)}
 
 
 def _resolve_within_root(cfg: Config, rel: str) -> Path | None:
@@ -281,14 +299,20 @@ def check_evidence_citations(cfg: Config, path: Path, text: str,
     rel = _display(cfg, path)
     if rel in cfg.evidence_exclude:
         return out
+    matcher = _compile_id_matcher(by_id)  # compile once, reuse across all lines
+    if matcher is None:
+        return out
     for n, line in enumerate(text.splitlines(), 1):
-        # Match KNOWN claim ids from the register, not a regex guess — a
-        # multi-segment id like CLAIM-EX-001 must match in full, not as EX-001.
-        ids = _claim_ids_in_line(line, by_id)
-        if not ids:
-            continue
+        # An evidence-level drift needs BOTH a level word and a claim id on the
+        # line. The level-word test is a cheap substring scan, so do it first
+        # and only run the id regex on the few lines that could drift.
         levels = [lv for lv in cfg.evidence_levels if lv in line]
         if not levels:
+            continue
+        # Match KNOWN claim ids from the register, not a regex guess — a
+        # multi-segment id like CLAIM-EX-001 must match in full, not as EX-001.
+        ids = {m.group(0) for m in matcher.finditer(line)}
+        if not ids:
             continue
         for cid in ids:
             claim = by_id[cid]
