@@ -27,7 +27,6 @@ claims:
       "Zero runtime dependencies" covers the gate itself. PyYAML is used only if
       already present (optional); the bundled parser is the default. Test/dev
       tooling (pytest) is a dev dependency, not a runtime one.
-    reproduce: "grep -A2 'dependencies' pyproject.toml"
 
   - id: CLAIM-EX-001
     statement: >
@@ -43,7 +42,7 @@ claims:
       Corpus is hand-picked to contain the run structure RLE exploits; this is a
       demonstration of Claim-Oriented Programming, not a general compression
       result. On real-world data with few runs, RLE can EXPAND the input.
-    reproduce: "python examples/rle/bench.py"
+    reproduce: "python3 examples/rle/bench.py"
 
   - id: CLAIM-EX-002
     statement: >
@@ -58,7 +57,7 @@ claims:
       Verified on the 4-file example corpus only. The property test in
       tests/test_rle_example.py exercises additional inputs, but a formal
       round-trip proof over all byte strings is not claimed here.
-    reproduce: "python examples/rle/bench.py"
+    reproduce: "python3 examples/rle/bench.py"
 
   - id: CLAIM-GREET-001
     statement: >
@@ -73,7 +72,7 @@ claims:
       A capability count for the example library only — a demonstration of a
       non-numeric claim shape, not a general i18n solution. "Support" means a
       greeting string exists; it makes no claim about grammar or locale rules.
-    reproduce: "python examples/greetings/evidence.py"
+    reproduce: "python3 examples/greetings/evidence.py"
 
   - id: CLAIM-TIP-001
     statement: >
@@ -90,4 +89,4 @@ claims:
       Correctness on a fixed 12-case reference set chosen to avoid rounding-
       boundary ambiguity. It is not a proof of correctness over all bills and
       tip rates; floating-point rounding can differ on half-cent boundaries.
-    reproduce: "python examples/tipcalc/evidence.py"
+    reproduce: "python3 examples/tipcalc/evidence.py"

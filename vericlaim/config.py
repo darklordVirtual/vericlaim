@@ -28,6 +28,9 @@ class Config:
     evidence_exclude: tuple[str, ...] = ()
     stale_exclude: tuple[str, ...] = ()
     stale_strings: tuple[tuple[str, str], ...] = ()
+    # When true, every artifact a claim cites must carry a provenance sidecar
+    # (<artifact>.provenance.json) recording how it was produced.
+    require_provenance: bool = False
 
     def path(self, rel: str) -> Path:
         return self.root / rel
@@ -64,4 +67,5 @@ def load_config(root: Path, config_path: Path | None = None) -> Config:
         evidence_exclude=_tuple("evidence_exclude", base.evidence_exclude),
         stale_exclude=_tuple("stale_exclude", base.stale_exclude),
         stale_strings=stale_tuple,
+        require_provenance=bool(v.get("require_provenance", base.require_provenance)),
     )

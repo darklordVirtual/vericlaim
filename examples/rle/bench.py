@@ -13,6 +13,7 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, for `import vericlaim`
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 from rle import decode, encode, ratio  # noqa: E402
 
@@ -51,6 +52,8 @@ def main() -> int:
     }
     out = Path(__file__).resolve().parent / "artifacts" / "rle_bench.json"
     out.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
+    from vericlaim.provenance import stamp
+    stamp(out, script="python3 examples/rle/bench.py")
     print(f"[OK] wrote {out}")
     print(f"     overall_ratio={overall_ratio}x, "
           f"roundtrip_lossless={n_roundtrip_ok}/{len(CORPUS)}")

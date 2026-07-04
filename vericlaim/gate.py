@@ -84,6 +84,41 @@ def check_artifacts(claims: list[dict], cfg: Config) -> list[Finding]:
     return out
 
 
+def check_provenance(claims: list[dict], cfg: Config) -> list[Finding]:
+    """When require_provenance is on, every artifact must carry a provenance
+    sidecar recording how it was produced (script + commit)."""
+    out: list[Finding] = []
+    if not cfg.require_provenance:
+        return out
+    from .provenance import load as load_provenance
+
+    for c in claims:
+        cid = c.get("id", "<missing-id>")
+        # Provenance applies to *produced* evidence — artifacts a script
+        # regenerates. A claim backed by static source files (no `reproduce`
+        # command) is a structural fact, not a produced number, and is exempt.
+        if not c.get("reproduce"):
+            continue
+        arts = c.get("artifact") or []
+        if isinstance(arts, str):
+            arts = [arts]
+        for rel in arts:
+            art = cfg.path(rel)
+            if not art.exists():
+                continue  # artifact-existence check already reports this
+            prov = load_provenance(art)
+            if prov is None:
+                out.append((f"provenance-missing:{cid}:{rel}",
+                            f"{cid}: artifact {rel} has no provenance sidecar "
+                            f"({rel}.provenance.json) — record how it was produced"))
+            elif not prov.get("script"):
+                # `script` (how it was produced) is essential. `git_commit` is
+                # best-effort — it is null when produced outside a git checkout.
+                out.append((f"provenance-incomplete:{cid}:{rel}",
+                            f"{cid}: provenance for {rel} is missing 'script'"))
+    return out
+
+
 def _sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
@@ -266,6 +301,7 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
 
     findings += check_register(claims, cfg)
     findings += check_artifacts(claims, cfg)
+    findings += check_provenance(claims, cfg)
     findings += check_manifest(cfg, notes)
     for doc in _doc_paths(cfg):
         text = doc.read_text(encoding="utf-8", errors="replace")

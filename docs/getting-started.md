@@ -42,7 +42,16 @@ claims:
 ```
 
 Commit the artifact it points to (`results/parse_bench.json`) — produced by a
-deterministic script, not by hand.
+deterministic script, not by hand. End that script with a provenance stamp so
+the artifact records how it was made:
+
+```python
+from vericlaim.provenance import stamp
+stamp("results/parse_bench.json", script="python3 bench/parse.py")
+```
+
+Turn the requirement on in `vericlaim.toml` when you want it enforced:
+`require_provenance = true`.
 
 ## 3. Bind the doc to the claim
 
@@ -60,10 +69,16 @@ and the gate fails.
 ## 4. Run the gate
 
 ```bash
-python -m vericlaim
+python3 -m vericlaim
 ```
 
 It prints `[OK]` or a precise list of what drifted, with file:line.
+
+When you change code a benchmark depends on, also run the **reproduce oracle**:
+
+```bash
+vericlaim reproduce   # re-runs each claim's script; fails if a number no longer reproduces
+```
 
 ## 5. Grandfather what you can't fix yet
 

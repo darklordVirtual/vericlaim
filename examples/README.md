@@ -19,8 +19,8 @@ Each example follows the same loop:
    and hashed in [`../claims/manifest.md`](../claims/manifest.md).
 4. **Doc** — `docs/results.md` states the number behind a `<!-- claim:ID ... -->`
    anchor bound to the register.
-5. **Gate** — `python -m vericlaim` verifies all of the above agree.
+5. **Gate** — `python3 -m vericlaim` verifies all of the above agree.
 
 Pick any one, edit the number in its doc (or its code, then re-run the
-evidence), and run `python -m vericlaim` from the repo root — the gate points at
+evidence), and run `python3 -m vericlaim` from the repo root — the gate points at
 the exact drift. That is the whole idea, in three domains.

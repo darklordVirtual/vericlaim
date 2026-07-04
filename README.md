@@ -26,7 +26,7 @@ of the three drift apart.
 
 ```mermaid
 flowchart TD
-    S["Deterministic script<br/>(measure / benchmark)"] -->|produces and commits| A["Artifact<br/>results/bench.json"]
+    S["Deterministic script<br/>(measure / benchmark)"] -->|produces + stamps| A["Artifact<br/>results/bench.json<br/><i>+ provenance sidecar</i>"]
     A -->|cited by| R[("Claim register<br/><b>single source of truth</b><br/>id · number · evidence level · caveat")]
     R -->|number bound by a claim anchor| D["Docs · README · paper"]
 
@@ -34,8 +34,12 @@ flowchart TD
     A --> G
     D --> G
 
-    G -->|register + artifact + docs all agree| PASS(["Build green ✔"])
-    G -->|drift, missing artifact, over-stated evidence| FAIL(["Build red - exact file:line"])
+    G -->|register + artifact + docs agree,<br/>every artifact has provenance| PASS(["Build green ✔"])
+    G -->|drift · missing artifact · no provenance · over-stated| FAIL(["Build red - exact file:line"])
+
+    R -.->|vericlaim reproduce| RE{{"re-run each script:<br/>is the artifact still identical?"}}
+    RE -.->|yes - the number is still true today| PASS
+    RE -.->|no - stale or non-deterministic| FAIL
 
     classDef truth fill:#eef,stroke:#446,stroke-width:2px;
     classDef ok fill:#e7f7e7,stroke:#2a2;
@@ -45,8 +49,9 @@ flowchart TD
     class FAIL bad;
 ```
 
-**Read it as a rule:** *no claim without an artifact; no doc number that isn't
-bound to the register; no claim described above the evidence it has.* All three,
+**Read it as a rule:** *no claim without an artifact; no artifact without
+provenance; no doc number that isn't bound to the register; no claim described
+above the evidence it has — and every number still reproduces today.* All
 enforced automatically.
 
 ---
@@ -106,6 +111,7 @@ Full walkthrough: [`docs/getting-started.md`](docs/getting-started.md).
 | Check | Guarantee |
 |-------|-----------|
 | **Artifact existence** | Every file a claim cites is committed — *no claim without an artifact.* |
+| **Provenance** | Every produced artifact records *how it was made* (script, commit) — *no anonymous number.* |
 | **Register integrity** | Required fields present, valid evidence level, no duplicate ids. |
 | **Manifest hashes** | Result artifacts match their SHA-256 — a silently edited number is caught. |
 | **Doc binding** | Claim anchors tie prose numbers to the register; drift fails the build. |
@@ -114,6 +120,26 @@ Full walkthrough: [`docs/getting-started.md`](docs/getting-started.md).
 
 Adoption is **incremental**: pre-existing violations are grandfathered in a
 baseline (reported as warnings); new violations fail immediately.
+
+### Continuous verification: `vericlaim reproduce`
+
+The gate above is side-effect-free — it reads files. One command goes further:
+
+```bash
+vericlaim reproduce      # re-runs each claim's `reproduce` script and checks
+                         # the artifact is byte-identical — the number still holds
+```
+
+This is [Eiffel's "contract as oracle" idea](docs/design-notes/contract-lineage.md):
+the reproduce command *is* the oracle, run in CI, so a registered number is not
+just present but **still true today**. If the code moved on and a benchmark
+result silently changed, or a script is non-deterministic, `reproduce` fails and
+names the artifact. (It executes your `reproduce` commands, so it is a separate
+command from the default gate.)
+
+Two design ideas from Bertrand Meyer's Eiffel drive this — provenance
+(attestation) and reproduce-as-oracle — with more catalogued in
+[`docs/design-notes/contract-lineage.md`](docs/design-notes/contract-lineage.md).
 
 ---
 
@@ -145,8 +171,8 @@ and bound to [`examples/rle/docs/results.md`](examples/rle/docs/results.md). Edi
 
 ```bash
 git clone https://github.com/darklordVirtual/vericlaim && cd vericlaim
-python -m vericlaim           # the gate, run on vericlaim's own claims
-python examples/rle/bench.py  # regenerate the example's evidence artifact
+python3 -m vericlaim           # the gate, run on vericlaim's own claims
+python3 examples/rle/bench.py  # regenerate the example's evidence artifact
 pytest -q                     # tests, including the drift-detection guarantee
 ```
 

@@ -9,4 +9,4 @@ The greeting library supports **6** languages
 (English, Norwegian, Spanish, French, German, Japanese).
 
 Artifact: [`../artifacts/greetings.json`](../artifacts/greetings.json) ·
-Reproduce: `python examples/greetings/evidence.py`
+Reproduce: `python3 examples/greetings/evidence.py`

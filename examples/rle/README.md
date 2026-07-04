@@ -14,12 +14,12 @@ discipline is domain-independent.
    by that artifact.
 4. **Docs** — [`docs/results.md`](docs/results.md) states the numbers behind
    claim anchors bound to the register.
-5. **Gate** — `python -m vericlaim` verifies (3)↔(4)↔(2) all agree; CI also
+5. **Gate** — `python3 -m vericlaim` verifies (3)↔(4)↔(2) all agree; CI also
    re-runs `bench.py` and fails if the committed artifact changed.
 
 ## Try the drift
 
-Change `8.0584` to `9.0` in `docs/results.md` and run `python -m vericlaim` from
+Change `8.0584` to `9.0` in `docs/results.md` and run `python3 -m vericlaim` from
 the repo root — it fails with the exact file:line. Restore it and it passes.
 Change the corpus in `bench.py`, rerun it, and the gate points you at every doc
 number that no longer matches. The prose can never quietly diverge from the
@@ -28,6 +28,6 @@ evidence.
 ## Reproduce
 
 ```bash
-python examples/rle/bench.py     # regenerate the artifact
+python3 examples/rle/bench.py     # regenerate the artifact
 pytest tests/test_rle_example.py # test the code + that the artifact is current
 ```

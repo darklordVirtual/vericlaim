@@ -11,6 +11,8 @@ doc_globs       = ["README.md", "docs/*.md", "examples/*/docs/*.md"]
 required_fields = ["id", "statement", "evidence_level", "artifact", "caveat"]
 # Ordered weakest -> strongest. Projects tailor this to their domain.
 evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "externally_validated"]
+# Require a provenance sidecar for every artifact (how it was produced).
+require_provenance = true
 # The taxonomy doc legitimately pairs claim ids with level names in examples.
 evidence_exclude = ["docs/evidence-levels.md"]
 stale_exclude    = []

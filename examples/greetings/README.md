@@ -9,5 +9,5 @@ the claim is a **capability count**, not a benchmark.
 - **Claim:** `CLAIM-GREET-001` in the [register](../../claims/register.yaml).
 - **Doc:** [`docs/results.md`](docs/results.md), bound with a claim anchor.
 
-Try it: add `"it": "Ciao"` to `GREETINGS`, rerun `python examples/greetings/evidence.py`,
+Try it: add `"it": "Ciao"` to `GREETINGS`, rerun `python3 examples/greetings/evidence.py`,
 and run `vericlaim` — the gate fails until the register and doc say **7**.

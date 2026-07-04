@@ -19,6 +19,7 @@ doc_globs       = ["README.md", "docs/*.md"]
 required_fields = ["id", "statement", "evidence_level", "artifact", "caveat"]
 # Weakest -> strongest. Tailor to your domain.
 evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "externally_validated"]
+# require_provenance = true   # every produced artifact must record how it was made
 
 # Strings you have corrected and never want to see again (drift guard).
 [vericlaim.stale_strings]

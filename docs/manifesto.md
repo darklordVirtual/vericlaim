@@ -110,6 +110,10 @@ turns "trust me" into "verify it yourself, cheaply."
 - a **gate** that checks register integrity, artifact existence, manifest
   hashes, doc-to-register binding, evidence-level consistency, and a
   configurable stale-string denylist;
+- **provenance sidecars** so every produced artifact records how it was made,
+  and a **reproduce oracle** (`vericlaim reproduce`) that re-runs each evidence
+  script and proves the number still holds (see
+  [`design-notes/contract-lineage.md`](design-notes/contract-lineage.md));
 - a **baseline** mechanism for incremental adoption;
 - a **GitHub Actions** workflow that runs it on every push and PR;
 - a worked **example** in a domain (lossless compression) deliberately

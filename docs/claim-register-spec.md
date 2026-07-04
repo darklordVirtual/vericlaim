@@ -42,7 +42,11 @@ claims:
 - **n** — a sample size; anchors can bind to it with the key `n`.
 - **metrics** — a flat map of `name -> number`. Anchors bind doc prose to these
   values; this is how documentation is prevented from drifting.
-- **reproduce** — the command that regenerates the artifact.
+- **reproduce** — the command that regenerates the artifact. It powers two
+  checks: `vericlaim reproduce` re-runs it and requires the artifact to come
+  out byte-identical (the number still holds), and — when `require_provenance`
+  is on — a claim with a `reproduce` command must carry a provenance sidecar
+  for each artifact (source-file-only claims are exempt).
 
 ## Anchors: binding docs to the register
 

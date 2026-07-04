@@ -1,0 +1,8 @@
+{
+  "schema": "vericlaim_provenance_v1",
+  "artifact": "rle_bench.json",
+  "script": "python3 examples/rle/bench.py",
+  "git_commit": "19df3a88006937c693448a1979f71523a6d8a42e",
+  "generated_at": "2026-07-04T13:13:27.786033+00:00",
+  "produced_by": "human"
+}

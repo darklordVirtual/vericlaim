@@ -20,4 +20,4 @@ Encoding then decoding reproduces the original bytes exactly: **4** of 4 files
 round-trip losslessly.
 
 Artifact: [`../artifacts/rle_bench.json`](../artifacts/rle_bench.json) ·
-Reproduce: `python examples/rle/bench.py`
+Reproduce: `python3 examples/rle/bench.py`

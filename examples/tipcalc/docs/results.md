@@ -9,4 +9,4 @@ saying "all cases pass."
 All **12** of the **12** reference bills produce the expected total to the cent.
 
 Artifact: [`../artifacts/tipcalc.json`](../artifacts/tipcalc.json) ·
-Reproduce: `python examples/tipcalc/evidence.py`
+Reproduce: `python3 examples/tipcalc/evidence.py`

@@ -61,7 +61,12 @@ If you catch yourself thinking any of these, you are about to break the contract
 1. **Produce the evidence first.** Run or write a *deterministic* script that
    measures the thing and commit the artifact it writes (e.g. `results/*.json`).
    Never hand-type a result — regenerate it so the file and the number always
-   agree.
+   agree. End the script with a provenance stamp so the artifact records how it
+   was made:
+   ```python
+   from vericlaim.provenance import stamp
+   stamp("results/example.json", script="python3 bench/example.py")
+   ```
 
 2. **Register the claim** (`claims/register.yaml`):
    ```yaml
@@ -84,7 +89,11 @@ If you catch yourself thinking any of these, you are about to break the contract
    Every field in the anchor (a `metrics` key, or `n` for sample size) must
    appear as that exact number in the paragraph that follows.
 
-4. **Run the gate:** `vericlaim` (or `python -m vericlaim`). It must print `[OK]`.
+4. **Run the gate:** `vericlaim` (or `python3 -m vericlaim`). It must print
+   `[OK]`. Then, when you changed code that a benchmark depends on, run
+   `vericlaim reproduce` — it re-runs each evidence script and fails if a
+   committed number is no longer reproducible. Fix by regenerating and
+   recommitting the artifact.
 
 ## Right vs wrong
 

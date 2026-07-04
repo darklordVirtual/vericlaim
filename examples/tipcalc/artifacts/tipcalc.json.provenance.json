@@ -1,0 +1,8 @@
+{
+  "schema": "vericlaim_provenance_v1",
+  "artifact": "tipcalc.json",
+  "script": "python3 examples/tipcalc/evidence.py",
+  "git_commit": "19df3a88006937c693448a1979f71523a6d8a42e",
+  "generated_at": "2026-07-04T13:13:27.899035+00:00",
+  "produced_by": "human"
+}
