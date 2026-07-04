@@ -23,7 +23,8 @@ function authorized(req: Request, env: Env): boolean {
   return req.headers.get("authorization") === `Bearer ${env.INDEX_TOKEN}`;
 }
 
-const mcpHandler = VericlaimMCP.serve("/mcp");
+// serve() defaults to a DO binding named MCP_OBJECT; ours is VERICLAIM_MCP.
+const mcpHandler = VericlaimMCP.serve("/mcp", { binding: "VERICLAIM_MCP" });
 
 export default {
   async fetch(req: Request, env: Env, ctx: ExecutionContext): Promise<Response> {

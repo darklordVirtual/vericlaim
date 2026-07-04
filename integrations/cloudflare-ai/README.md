@@ -66,12 +66,25 @@ Re-run step 4 whenever the register changes (a CI step, or the workflow below).
 ## Optional: enable MCP
 
 MCP is **off by default**. To expose the `search_claims` tool at `POST /mcp`,
-set `ENABLE_MCP = "true"` in `wrangler.toml` and redeploy. Then point an MCP
-client (Claude, an IDE, an agent) at
-`https://vericlaim-claims.<your-subdomain>.workers.dev/mcp` (Streamable HTTP).
+set `ENABLE_MCP = "true"` in `wrangler.toml` and redeploy. The endpoint speaks
+MCP Streamable HTTP.
+
+### Connect Claude Code (or any MCP client)
+
+```bash
+claude mcp add --transport http --scope user \
+  vericlaim-claims https://vericlaim-claims.<your-subdomain>.workers.dev/mcp
+claude mcp get vericlaim-claims        # should say ✔ Connected
+```
+
+Claude Code then has a `search_claims` tool: ask it *"what has this project
+proven about X?"* and it queries your gate-verified claim register. Other
+clients (IDEs, agents) point at the same `/mcp` URL.
+
 For anything non-public, put it behind
 [Cloudflare Access / OAuth](https://developers.cloudflare.com/agents/model-context-protocol/protocol/authorization/)
-before enabling it.
+before enabling it — the `search_claims` tool is read-only over already-public
+claims, but the endpoint itself is unauthenticated until you add Access.
 
 ## Cost & keys
 

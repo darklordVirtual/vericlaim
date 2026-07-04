@@ -1,6 +1,6 @@
 {
   "name": "vericlaim-cloudflare-ai",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "description": "Optional Cloudflare Workers add-on for vericlaim: AI embedding + Vectorize search + MCP over your claim register.",
   "type": "module",

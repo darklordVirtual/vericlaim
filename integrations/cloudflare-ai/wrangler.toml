@@ -26,6 +26,8 @@ new_sqlite_classes = ["VericlaimMCP"]
 
 [vars]
 # Set to "true" to expose the MCP endpoint at POST /mcp. Off by default.
+# (Enable it, redeploy, then: claude mcp add --transport http --scope user \
+#  vericlaim-claims https://<your-worker>.workers.dev/mcp )
 ENABLE_MCP = "false"
 
 # The Agents SDK client bundle has a dynamic import("ai") we never execute (we

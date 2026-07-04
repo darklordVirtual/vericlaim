@@ -61,7 +61,7 @@ def main() -> int:
                  "authorization": f"Bearer {args.token}",
                  # A real User-Agent: Cloudflare's edge blocks the default
                  # "Python-urllib/..." UA with a 403 before the Worker runs.
-                 "user-agent": "vericlaim-export/0.1.4"})
+                 "user-agent": "vericlaim-export/0.1.5"})
     with urllib.request.urlopen(req) as resp:
         print(resp.read().decode("utf-8"))
     return 0
