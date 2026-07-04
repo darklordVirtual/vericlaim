@@ -13,7 +13,6 @@ even if the correct value appears nearby.
 """
 from __future__ import annotations
 
-from pathlib import Path
 
 from vericlaim.config import Config
 from vericlaim.gate import check_value_tokens
