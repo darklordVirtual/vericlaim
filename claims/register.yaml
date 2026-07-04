@@ -59,3 +59,35 @@ claims:
       tests/test_rle_example.py exercises additional inputs, but a formal
       round-trip proof over all byte strings is not claimed here.
     reproduce: "python examples/rle/bench.py"
+
+  - id: CLAIM-GREET-001
+    statement: >
+      The greetings example library supports 6 languages (English, Norwegian,
+      Spanish, French, German, Japanese).
+    evidence_level: measured
+    artifact:
+      - "examples/greetings/artifacts/greetings.json"
+    metrics:
+      n_languages: 6
+    caveat: >
+      A capability count for the example library only — a demonstration of a
+      non-numeric claim shape, not a general i18n solution. "Support" means a
+      greeting string exists; it makes no claim about grammar or locale rules.
+    reproduce: "python examples/greetings/evidence.py"
+
+  - id: CLAIM-TIP-001
+    statement: >
+      All 12 reference bills in the tip-calculator example produce the expected
+      total to the cent.
+    evidence_level: benchmarked
+    artifact:
+      - "examples/tipcalc/artifacts/tipcalc.json"
+    n: 12
+    metrics:
+      cases_passing: 12
+      cases_total: 12
+    caveat: >
+      Correctness on a fixed 12-case reference set chosen to avoid rounding-
+      boundary ambiguity. It is not a proof of correctness over all bills and
+      tip rates; floating-point rounding can differ on half-cent boundaries.
+    reproduce: "python examples/tipcalc/evidence.py"

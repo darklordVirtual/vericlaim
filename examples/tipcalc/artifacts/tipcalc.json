@@ -1,0 +1,91 @@
+{
+  "schema": "tipcalc_v1",
+  "cases_total": 12,
+  "cases_passing": 12,
+  "cases": [
+    {
+      "bill": 100.0,
+      "tip_percent": 15.0,
+      "expected": 115.0,
+      "got": 115.0,
+      "pass": true
+    },
+    {
+      "bill": 100.0,
+      "tip_percent": 20.0,
+      "expected": 120.0,
+      "got": 120.0,
+      "pass": true
+    },
+    {
+      "bill": 50.0,
+      "tip_percent": 10.0,
+      "expected": 55.0,
+      "got": 55.0,
+      "pass": true
+    },
+    {
+      "bill": 50.0,
+      "tip_percent": 20.0,
+      "expected": 60.0,
+      "got": 60.0,
+      "pass": true
+    },
+    {
+      "bill": 200.0,
+      "tip_percent": 15.0,
+      "expected": 230.0,
+      "got": 230.0,
+      "pass": true
+    },
+    {
+      "bill": 80.0,
+      "tip_percent": 25.0,
+      "expected": 100.0,
+      "got": 100.0,
+      "pass": true
+    },
+    {
+      "bill": 40.0,
+      "tip_percent": 5.0,
+      "expected": 42.0,
+      "got": 42.0,
+      "pass": true
+    },
+    {
+      "bill": 25.0,
+      "tip_percent": 20.0,
+      "expected": 30.0,
+      "got": 30.0,
+      "pass": true
+    },
+    {
+      "bill": 120.0,
+      "tip_percent": 10.0,
+      "expected": 132.0,
+      "got": 132.0,
+      "pass": true
+    },
+    {
+      "bill": 60.0,
+      "tip_percent": 15.0,
+      "expected": 69.0,
+      "got": 69.0,
+      "pass": true
+    },
+    {
+      "bill": 150.0,
+      "tip_percent": 18.0,
+      "expected": 177.0,
+      "got": 177.0,
+      "pass": true
+    },
+    {
+      "bill": 90.0,
+      "tip_percent": 20.0,
+      "expected": 108.0,
+      "got": 108.0,
+      "pass": true
+    }
+  ]
+}

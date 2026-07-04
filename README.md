@@ -117,11 +117,20 @@ baseline (reported as warnings); new violations fail immediately.
 
 ---
 
-## Worked example — a different domain on purpose
+## Worked examples — three claim shapes, three domains
 
-The method was distilled from an AI-governance codebase, but it is
-domain-independent. [`examples/rle/`](examples/rle/) applies it to lossless
-compression:
+Claims are not just benchmark numbers. The [`examples/`](examples/) gallery shows
+the same discipline for three different kinds of assertion, smallest first:
+
+| Example | Claim shape | Claim |
+|---------|-------------|-------|
+| [`greetings/`](examples/greetings/) | **capability count** | supports 6 languages |
+| [`tipcalc/`](examples/tipcalc/) | **correctness** | all 12 reference cases pass |
+| [`rle/`](examples/rle/) | **benchmark ratio** | 8.0584× compression, lossless |
+
+Each is tiny: a small library, a deterministic script that writes an artifact, a
+registered claim, and a doc bound by an anchor. For instance, the compression
+one:
 
 <!-- claim:CLAIM-EX-001 overall_ratio -->
 A run-length encoder achieves **8.0584×** overall compression on a fixed corpus,
@@ -147,7 +156,7 @@ pytest -q                     # tests, including the drift-detection guarantee
 vericlaim/            the zero-dependency gate (register parser, checks, CLI)
 claims/               register.yaml (source of truth) · baseline.json · manifest.md
 docs/                 manifesto · getting-started · register spec · evidence levels
-examples/rle/         a worked example in an unrelated domain
+examples/             three tiny worked examples (capability, correctness, benchmark)
 tests/                tests for the gate and the example
 .claude/skills/       a Claude skill that enforces the discipline while you work
 .github/workflows/    claim-gate.yml — the gate in CI

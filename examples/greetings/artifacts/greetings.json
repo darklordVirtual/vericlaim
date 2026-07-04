@@ -1,0 +1,20 @@
+{
+  "schema": "greetings_v1",
+  "n_languages": 6,
+  "languages": [
+    "de",
+    "en",
+    "es",
+    "fr",
+    "ja",
+    "no"
+  ],
+  "sample": {
+    "de": "Hallo, Ada!",
+    "en": "Hello, Ada!",
+    "es": "Hola, Ada!",
+    "fr": "Bonjour, Ada!",
+    "ja": "こんにちは, Ada!",
+    "no": "Hei, Ada!"
+  }
+}

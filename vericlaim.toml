@@ -7,7 +7,7 @@
 register        = "claims/register.yaml"
 baseline        = "claims/baseline.json"
 manifest        = "claims/manifest.md"
-doc_globs       = ["README.md", "docs/*.md", "examples/rle/docs/*.md"]
+doc_globs       = ["README.md", "docs/*.md", "examples/*/docs/*.md"]
 required_fields = ["id", "statement", "evidence_level", "artifact", "caveat"]
 # Ordered weakest -> strongest. Projects tailor this to their domain.
 evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "externally_validated"]
