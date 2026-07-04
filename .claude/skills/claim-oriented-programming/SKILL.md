@@ -253,6 +253,39 @@ attempt** any of the below. If a call to it errors, fall back silently to local.
 - Enabling it changes nothing about how you write claims. Same STOP reflex, same
   procedure, with or without Cloudflare.
 
+## The claims library: enriching from any repo URL
+
+When your human partner gives you a repo URL (or asks to add a project to
+the claims library), one command does the whole pipeline — clone, detect,
+gate, harvest/extract, literature, push, witness:
+
+```bash
+python3 integrations/library/enrich_repo.py --url <git-url> \
+    --out build/library \
+    --push "$WORKER_URL" --token "$INDEX_TOKEN" --witness
+# then: git add claims/witness.jsonl && commit && push  (completes the anchor)
+```
+
+What happens is decided by what the repo IS — never by how confident it
+sounds:
+
+- **Native** (has `vericlaim.toml`): its own gate must pass; claims are
+  harvested with levels unchanged.
+- **Mapped** (a `mappings/*.toml` matches the repo): harvested under that
+  written-down curation policy (explicit level map, never an upgrade).
+- **Ungated** (everything else): assertion mining only — every extracted
+  statement is a QUARANTINED `candidate`: labeled in search, refused by
+  import, and it stays a candidate until real evidence is produced in a
+  gated repo. Never present a candidate as a verified claim.
+
+A parseable reference list in the repo is auto-discovered and run through
+bibliography-driven curation (registrar-verified, miscitation-guarded).
+Zero literature matches is a VALID outcome — the pipeline refuses to invent
+relevance, and you do not lower thresholds to fill gaps; you curate
+(`curator:manual`, still registrar-verified). Reuse in a project goes
+through `fetch_bundle` -> `import_bundle` (offline hash verification) and
+`use_code` (byte-exact vendoring with a binding test).
+
 ## References
 
 - Methodology and Design-by-Contract lineage: `docs/manifesto.md`
