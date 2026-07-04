@@ -3,7 +3,7 @@
   "artifact": "theorem.json",
   "artifact_sha256": "178ce1c1d30982e45e964bfa0430d2c76b01910e7bf41ea2f4fbb77126bbeed5",
   "script": "python3 examples/theorem/evidence.py",
-  "git_commit": "0b1211d2ae99ef67bf4399c7feec279c86301c4d",
-  "generated_at": "2026-07-04T20:23:58.156433+00:00",
+  "git_commit": "3422504a32a26193e01d2a095a296eb7309e4e1a",
+  "generated_at": "2026-07-04T21:20:36.731961+00:00",
   "produced_by": "human"
 }

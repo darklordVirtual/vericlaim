@@ -30,7 +30,23 @@ python3 integrations/library/fetch_bundle.py --url "$WORKER_URL" \
 python3 integrations/library/import_bundle.py \
     --bundle build/fetched/<bundle_id> --target .
 vericlaim   # the target's own gate is green, offline, tamper-guarded
+
+# 5. PROGRAM with the claim behind you: vendor the bundle's code byte-exact
+#    (the code you run IS the code that produced the evidence) plus a
+#    generated binding test — editing the vendored code fails your own suite,
+#    so forking is an explicit decision.
+python3 integrations/library/use_code.py \
+    --bundle build/fetched/<bundle_id> --target .
 ```
+
+## External anchoring
+
+The Worker's hash chains are witnessed in this repo's public git history
+(`claims/witness.jsonl`). `integrations/cloudflare-ai/witness.py --verify`
+re-walks the full `/ledger/export` client-side — never trusting the Worker's
+own verify — and requires today's chains to extend every witnessed head, so a
+rebuilt or truncated history fails against any prior witness. Record a new
+witness (`--record`) after each push, then commit and push the witness file.
 
 ## Arbitrary repos (no register)
 

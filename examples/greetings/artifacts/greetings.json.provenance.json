@@ -3,7 +3,7 @@
   "artifact": "greetings.json",
   "artifact_sha256": "2759c18e03d9482e66e9a820ffd26dfd0b4811dabdeb214bd9f8f9619ad98fe2",
   "script": "python3 examples/greetings/evidence.py",
-  "git_commit": "b6b2becca385d260fcdaebe9cf11268c8593dc12",
-  "generated_at": "2026-07-04T14:31:16.501476+00:00",
+  "git_commit": "3422504a32a26193e01d2a095a296eb7309e4e1a",
+  "generated_at": "2026-07-04T21:20:36.677466+00:00",
   "produced_by": "human"
 }

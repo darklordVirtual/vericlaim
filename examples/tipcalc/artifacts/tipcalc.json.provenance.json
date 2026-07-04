@@ -3,7 +3,7 @@
   "artifact": "tipcalc.json",
   "artifact_sha256": "65cdc526f3c0e3f973141ec1a732f13872af4e401e62ae1fa0a8738838311965",
   "script": "python3 examples/tipcalc/evidence.py",
-  "git_commit": "b6b2becca385d260fcdaebe9cf11268c8593dc12",
-  "generated_at": "2026-07-04T14:31:16.555388+00:00",
+  "git_commit": "3422504a32a26193e01d2a095a296eb7309e4e1a",
+  "generated_at": "2026-07-04T21:20:36.786624+00:00",
   "produced_by": "human"
 }
