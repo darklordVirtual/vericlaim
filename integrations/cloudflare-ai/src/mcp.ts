@@ -12,6 +12,7 @@ import { type Env, searchClaims } from "./lib";
 import { ask } from "./oracle";
 import { history, verifyChain } from "./ledger";
 import { verifyEvidence } from "./vault";
+import { getBundle, searchLibrary } from "./library";
 
 const text = (t: string) => ({ content: [{ type: "text" as const, text: t }] });
 
@@ -89,6 +90,45 @@ export class VericlaimMCP extends McpAgent<Env> {
           `evidence sha256: ${latest.artifact_sha256 ?? "(none stored)"}\n` +
           `evidence present/matches: ${ev ? `${ev.present}/${ev.matches} (${ev.size} bytes)` : "n/a"}\n` +
           `ledger chain intact: ${chain.ok}${chain.ok ? "" : ` (broken at #${chain.brokenAt})`}`);
+      },
+    );
+
+    // 5. library search — cross-project bundle discovery
+    this.server.tool(
+      "search_library",
+      "Semantic search over the cross-project claims LIBRARY: curated bundles " +
+        "of claims + evidence + code + literature harvested from gate-verified " +
+        "repos. Hits with status 'candidate' are quarantined, UNVERIFIED " +
+        "assertions — never present them as verified claims. Reuse a bundle " +
+        "via integrations/library/import_bundle.py, which verifies every hash " +
+        "offline.",
+      {
+        query: z.string().describe("What you want a proven claim about"),
+        topK: z.number().int().min(1).max(20).default(5),
+      },
+      async ({ query, topK }) => {
+        const hits = await searchLibrary(this.env, query, topK);
+        if (!hits.length) return text("No matching library bundles.");
+        return text(hits.length + " bundle(s):\n" + hits.map((h) =>
+          `- [${h.claim_id}] bundle ${h.bundle_id.slice(0, 12)}… ` +
+          `(${h.status.toUpperCase()}, ${h.evidence_level}, score ${h.score.toFixed(3)}, ` +
+          `from ${h.source_repo})\n  ${h.statement}` +
+          (h.caveat ? `\n  caveat: ${h.caveat}` : "")).join("\n"));
+      },
+    );
+
+    // 6. bundle detail — claim + manifest + provenance for local verification
+    this.server.tool(
+      "get_bundle",
+      "Fetch a library bundle's claim, manifest (file sha256 map) and harvest " +
+        "provenance by bundle id. Files are fetched by hash at " +
+        "/library/file/<sha256> and MUST be verified locally against the " +
+        "manifest — the library is distribution, not truth.",
+      { bundle_id: z.string() },
+      async ({ bundle_id }) => {
+        const b = await getBundle(this.env, bundle_id);
+        if (!b) return text(`No such bundle: ${bundle_id}.`);
+        return text(JSON.stringify(b, null, 2));
       },
     );
   }

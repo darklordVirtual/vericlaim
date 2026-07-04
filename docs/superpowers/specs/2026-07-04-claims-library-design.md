@@ -15,7 +15,7 @@ searchable and reusable in any new project via offline, hash-verified import.
 
 ```
 bundle/
-  claim.yaml          # the claim in vericlaim schema (mapped level, extended caveat)
+  claim.json          # the claim in vericlaim schema (mapped level, extended caveat)
   MANIFEST.json       # sha256 per file; bundle_id = sha256(canonical manifest)
   artifacts/          # byte-exact evidence copies from the source repo
   code/               # generating scripts (auto-identified from `reproduce`) + curated modules

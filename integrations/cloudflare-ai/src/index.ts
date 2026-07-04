@@ -17,8 +17,12 @@
 //   GET  /badge.svg        dynamic SVG badge
 //   POST /mcp              MCP (Streamable HTTP) — only when ENABLE_MCP=true
 import { type Claim, type Env, indexClaims, searchClaims } from "./lib";
-import { putEvidence, verifyEvidence } from "./vault";
+import { getEvidence, putEvidence, verifyEvidence } from "./vault";
 import { appendClaim, history, summary, verifyChain } from "./ledger";
+import {
+  type BundleIn, getBundle, indexBundles, librarySummary, searchLibrary,
+  verifyBundle as verifyLibraryBundle, verifyLibraryChain,
+} from "./library";
 import { ask } from "./oracle";
 import { badgeSVG, passportHTML } from "./passport";
 import { VericlaimMCP } from "./mcp";
@@ -59,7 +63,7 @@ export default {
       return json({
         service: "vericlaim-cloudflare-ai",
         capabilities: ["search", "ask", "ledger", "evidence-vault", "passport", "badge",
-          env.ENABLE_MCP === "true" ? "mcp" : null].filter(Boolean),
+          "library", env.ENABLE_MCP === "true" ? "mcp" : null].filter(Boolean),
         ledger: chain,
         note: "Search/ask are discovery aids over registered claims. They do not " +
               "change what the vericlaim gate proves. The oracle refuses when no " +
@@ -126,6 +130,55 @@ export default {
 
     if (p === "/ledger/verify" && req.method === "GET") {
       return json(await verifyChain(env));
+    }
+
+    // --- the claims library: cross-project bundle preservation & reuse ------
+    if (p === "/library/index" && req.method === "POST") {
+      if (!authorized(req, env)) return json({ error: "unauthorized" }, 401);
+      let payload: { bundles?: BundleIn[] };
+      try { payload = await req.json(); } catch { return json({ error: "invalid JSON" }, 400); }
+      const result = await indexBundles(env, payload.bundles ?? [], new Date().toISOString());
+      return json(result, result.rejected.length && !result.stored && !result.unchanged ? 400 : 200);
+    }
+
+    if (p === "/library/search" && req.method === "GET") {
+      const q = url.searchParams.get("q");
+      if (!q) return json({ error: "missing query parameter 'q'" }, 400);
+      const topK = Math.min(20, Math.max(1, Number(url.searchParams.get("topK")) || 5));
+      return json({
+        query: q, hits: await searchLibrary(env, q, topK),
+        note: "status='candidate' hits are quarantined, unverified assertions — " +
+              "never treat them as gate-verified claims.",
+      });
+    }
+
+    if (p.startsWith("/library/bundle/") && req.method === "GET") {
+      const id = p.slice("/library/bundle/".length);
+      const b = await getBundle(env, id);
+      return b ? json(b) : json({ error: "no such bundle" }, 404);
+    }
+
+    if (p.startsWith("/library/file/") && req.method === "GET") {
+      const sha = p.slice("/library/file/".length);
+      if (!/^[0-9a-f]{64}$/.test(sha)) return json({ error: "bad sha256" }, 400);
+      const bytes = await getEvidence(env, sha);
+      if (!bytes) return json({ error: "not in vault" }, 404);
+      return new Response(bytes, {
+        headers: { "content-type": "application/octet-stream", "x-sha256": sha },
+      });
+    }
+
+    if (p.startsWith("/library/verify/") && req.method === "GET") {
+      const id = p.slice("/library/verify/".length);
+      return json(await verifyLibraryBundle(env, id));
+    }
+
+    if (p === "/library/verify" && req.method === "GET") {
+      return json(await verifyLibraryChain(env));
+    }
+
+    if (p === "/library/summary" && req.method === "GET") {
+      return json(await librarySummary(env));
     }
 
     if (p === "/passport") {

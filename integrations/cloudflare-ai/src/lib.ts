@@ -87,8 +87,15 @@ export async function searchClaims(
   env: Env, query: string, topK = 5,
 ): Promise<SearchHit[]> {
   const [vector] = await embed(env, [query]);
-  const res = await env.VECTORIZE.query(vector, { topK, returnMetadata: "all" });
-  return res.matches.map((m) => ({
+  // Over-fetch and drop library vectors (`lib:*`) so project-claim search and
+  // library search stay separate surfaces (see library.ts for the latter).
+  const res = await env.VECTORIZE.query(vector, {
+    topK: Math.min(20, topK * 2), returnMetadata: "all",
+  });
+  return res.matches
+    .filter((m) => String(m.metadata?.library ?? "") !== "true")
+    .slice(0, topK)
+    .map((m) => ({
     id: m.id,
     score: m.score,
     statement: String(m.metadata?.statement ?? ""),

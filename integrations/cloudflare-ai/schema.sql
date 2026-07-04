@@ -22,3 +22,25 @@ CREATE TABLE IF NOT EXISTS claim_events (
 );
 
 CREATE INDEX IF NOT EXISTS idx_claim_events_claim ON claim_events (claim_id, seq);
+
+-- The claims LIBRARY: an append-only, hash-chained registry of cross-project
+-- claim bundles (see integrations/library/). Bundles are immutable —
+-- bundle_id = sha256(canonical manifest) — so one row per bundle, chained the
+-- same way as claim_events. `status` is 'verified' (harvested from a repo
+-- whose own gate passed) or 'candidate' (extracted assertion, quarantined).
+CREATE TABLE IF NOT EXISTS library_bundles (
+  seq             INTEGER PRIMARY KEY AUTOINCREMENT,
+  ts              TEXT    NOT NULL,
+  bundle_id       TEXT    NOT NULL UNIQUE,
+  status          TEXT    NOT NULL,
+  source_repo     TEXT    NOT NULL,
+  source_claim_id TEXT    NOT NULL,
+  claim           TEXT    NOT NULL,   -- canonical JSON of the bundled claim
+  manifest        TEXT    NOT NULL,   -- canonical JSON: {schema, status, files}
+  provenance      TEXT    NOT NULL,   -- canonical JSON of harvest provenance
+  prev_hash       TEXT    NOT NULL,
+  entry_hash      TEXT    NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_library_bundles_claim
+  ON library_bundles (source_claim_id, seq);
