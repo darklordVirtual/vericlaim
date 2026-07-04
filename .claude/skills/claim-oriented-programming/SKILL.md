@@ -28,6 +28,35 @@ If you cannot point to a committed artifact, you have three honest moves —
 produce the artifact, register the claim at `theoretical` and say so, or do not
 write the number. There is no fourth move.
 
+## What the gate verifies (and what it does not)
+
+`vericlaim` (the default, side-effect-free gate) checks, on every commit:
+
+1. **Register integrity** — required fields, valid evidence level, no duplicate
+   ids. It parses **fail-closed**: a malformed register raises rather than
+   silently reading zero claims.
+2. **Artifact existence** — every cited file exists.
+3. **Path containment** — artifacts live *inside* the repo (no absolute paths,
+   `..`, or symlink escapes); optionally must be git-tracked.
+4. **Provenance** — when `require_provenance` is on, each produced artifact
+   carries a sidecar recording how it was made (script, commit, its SHA-256).
+5. **Manifest hashes** — committed artifacts match their SHA-256.
+6. **Doc binding** — claim anchors tie prose numbers to the register.
+7. **Evidence levels** — a doc cannot describe a claim above its earned level.
+8. **Stale strings** — a corrected wording cannot quietly reappear.
+
+`vericlaim reproduce` (separate, executes commands) re-runs each evidence script
+and fails unless the artifact is byte-identical — the number is *still true
+today*.
+
+**Do not overclaim what this buys.** The gate proves *internal consistency and
+reproducibility*. It does **not** prove the benchmark is production-realistic,
+that evidence was not manipulated before commit, that `externally_validated` was
+truly externally validated, or that a *sentence* is correct — doc binding proves
+the number is **present** in the paragraph, not that the surrounding prose is
+true. When you describe vericlaim's guarantees (in a README, PR, or reply), stay
+inside that boundary.
+
 ## STOP — the reflex
 
 The instant you are about to type a factual figure or capability, stop and ask:
@@ -76,10 +105,12 @@ If you catch yourself thinking any of these, you are about to break the contract
      artifact: [results/example.json]
      metrics: { value: 42 }        # numbers the docs will quote
      caveat: "Scope and limitation — part of the claim."
-     reproduce: "python bench/example.py"
+     reproduce: "python3 bench/example.py"
    ```
    Grade `evidence_level` **conservatively**: describe a claim only at the level
-   it has earned. Demotion is always allowed; promotion needs new evidence.
+   it has earned. Demotion is always allowed; promotion needs new evidence. Keep
+   the artifact path **inside the repo** and committed — a path with `..`, an
+   absolute path, or an uncommitted file is rejected.
 
 3. **Bind the doc** with an anchor immediately before the prose:
    ```markdown
@@ -118,6 +149,19 @@ gate.** If a number legitimately changed: change the register first, regenerate
 the artifact, then update every doc paragraph the gate lists. The gate is your
 to-do list of places to fix — trust it.
 
+Specific failures:
+
+- **`[FAIL] ... register` (parse error / unsupported schema_version):** the
+  register is malformed. Fix the YAML — do not delete claims to make it parse. A
+  register that *looks* like it has claims but parses to fewer fails on purpose,
+  so a formatting slip can never silently disable the gate. (An intentionally
+  empty `claims: []` is fine and passes — but if you *expected* claims and see
+  "0 claims", something is wrong.)
+- **`artifact-escapes-root` / `artifact-untracked`:** move the evidence inside
+  the repo and commit it; never point a claim at a file outside the checkout.
+- **`provenance-missing`:** the produced artifact has no sidecar — re-run its
+  evidence script (which calls `stamp()`), don't fake the sidecar.
+
 ## Hard don'ts
 
 - Do not invent a plausible-looking number, benchmark, or citation.
@@ -150,7 +194,8 @@ vericlaim                  # a fresh project with no claims yet passes
 - Methodology and Design-by-Contract lineage: `docs/manifesto.md`
 - Register format and anchors: `docs/claim-register-spec.md`
 - Evidence taxonomy and demotion rules: `docs/evidence-levels.md`
-- Worked example (a different domain): `examples/rle/`
+- What the gate proves / does not, and the roadmap: `docs/design-notes/contract-lineage.md`
+- Worked examples (capability, correctness, benchmark): `examples/`
 
 ---
 
