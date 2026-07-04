@@ -12,8 +12,8 @@ type: software
 authors:
   - family-names: Skogbrott
     given-names: Stian
-version: 0.1.0
-date-released: 2026-07-03
+version: 0.1.1
+date-released: 2026-07-04
 license: Apache-2.0
 repository-code: "https://github.com/darklordVirtual/vericlaim"
 url: "https://github.com/darklordVirtual/vericlaim"
