@@ -1,43 +1,94 @@
 // Optional MCP server for the vericlaim claim index.
 //
-// Exposes one read-only tool, `search_claims`, over the Model Context Protocol
-// so an MCP client (Claude, an IDE, an agent) can ask "what has this project
-// actually proven about X?" and get back registered, gate-verified claims.
+// Exposes read-only tools over the Model Context Protocol so an MCP client
+// (Claude, an IDE, an agent) can search claims, get grounded answers, read the
+// tamper-evident ledger, and verify evidence integrity.
 //
 // This whole file is optional: it is only wired up when ENABLE_MCP === "true".
 import { McpAgent } from "agents/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import { type Env, searchClaims } from "./lib";
+import { ask } from "./oracle";
+import { history, verifyChain } from "./ledger";
+import { verifyEvidence } from "./vault";
+
+const text = (t: string) => ({ content: [{ type: "text" as const, text: t }] });
 
 export class VericlaimMCP extends McpAgent<Env> {
-  server = new McpServer({ name: "vericlaim-claims", version: "0.1.5" });
+  server = new McpServer({ name: "vericlaim-claims", version: "0.2.0" });
 
   async init() {
+    // 1. search — semantic discovery over claims
     this.server.tool(
       "search_claims",
       "Semantic search over a project's registered, gate-verified vericlaim " +
-        "claims. Returns the matching claims with their evidence level and " +
-        "caveat. Use it to find what a project has actually proven — never " +
-        "treat a search hit as proof in itself; the claim is trustworthy " +
-        "because the vericlaim gate verified it, not because it was found here.",
+        "claims. Returns matches with evidence level and caveat. A search hit " +
+        "is not proof — a claim is trustworthy because the gate verified it.",
       {
         query: z.string().describe("Natural-language description of the claim to find"),
-        topK: z.number().int().min(1).max(20).default(5)
-          .describe("How many claims to return"),
+        topK: z.number().int().min(1).max(20).default(5),
       },
       async ({ query, topK }) => {
         const hits = await searchClaims(this.env, query, topK);
-        if (hits.length === 0) {
-          return { content: [{ type: "text", text: "No matching claims." }] };
-        }
-        const lines = hits.map(
-          (h) => `- [${h.id}] (${h.evidence_level}, score ${h.score.toFixed(3)})\n` +
-            `  ${h.statement}\n` +
-            (h.caveat ? `  caveat: ${h.caveat}\n` : "") +
-            (h.artifact ? `  artifact: ${h.artifact}` : ""),
-        );
-        return { content: [{ type: "text", text: hits.length + " claim(s):\n" + lines.join("\n") }] };
+        if (!hits.length) return text("No matching claims.");
+        return text(hits.length + " claim(s):\n" + hits.map((h) =>
+          `- [${h.id}] (${h.evidence_level}, score ${h.score.toFixed(3)})\n  ${h.statement}` +
+          (h.caveat ? `\n  caveat: ${h.caveat}` : "") +
+          (h.artifact ? `\n  artifact: ${h.artifact}` : "")).join("\n"));
+      },
+    );
+
+    // 2. ask — grounded answer that refuses to overclaim
+    this.server.tool(
+      "ask_claims",
+      "Ask a question and get an answer grounded ONLY in the project's " +
+        "registered claims, with claim-id citations. If no claim supports an " +
+        "answer, it refuses rather than guessing — mirror that: do not fill the " +
+        "gap with your own assumptions.",
+      { query: z.string().describe("The question to answer from registered claims") },
+      async ({ query }) => {
+        const a = await ask(this.env, query);
+        if (a.refused) return text("REFUSED: " + a.answer);
+        return text(a.answer + "\n\nCitations: " + a.citations.join(", "));
+      },
+    );
+
+    // 3. history — the tamper-evident ledger timeline for a claim
+    this.server.tool(
+      "get_claim_history",
+      "Return the append-only ledger timeline for a claim id: every recorded " +
+        "change to its statement, evidence level, metrics and evidence hash.",
+      { claim_id: z.string() },
+      async ({ claim_id }) => {
+        const events = await history(this.env, claim_id);
+        if (!events.length) return text(`No ledger history for ${claim_id}.`);
+        return text(events.map((e) =>
+          `#${e.seq} ${e.ts.slice(0, 19)} — ${e.evidence_level}` +
+          (e.artifact_sha256 ? ` — evidence ${e.artifact_sha256.slice(0, 12)}…` : "") +
+          `\n  ${e.statement}`).join("\n"));
+      },
+    );
+
+    // 4. verify — re-hash the claim's evidence and check the ledger chain
+    this.server.tool(
+      "verify_claim",
+      "Integrity check: confirm the claim's evidence in the vault still hashes " +
+        "to its recorded SHA-256, and that the ledger's hash chain is intact.",
+      { claim_id: z.string() },
+      async ({ claim_id }) => {
+        const events = await history(this.env, claim_id);
+        const latest = events[events.length - 1];
+        const chain = await verifyChain(this.env);
+        if (!latest) return text(`No such claim: ${claim_id}.`);
+        const ev = latest.artifact_sha256
+          ? await verifyEvidence(this.env, latest.artifact_sha256)
+          : null;
+        return text(
+          `claim: ${claim_id}\n` +
+          `evidence sha256: ${latest.artifact_sha256 ?? "(none stored)"}\n` +
+          `evidence present/matches: ${ev ? `${ev.present}/${ev.matches} (${ev.size} bytes)` : "n/a"}\n` +
+          `ledger chain intact: ${chain.ok}${chain.ok ? "" : ` (broken at #${chain.brokenAt})`}`);
       },
     );
   }

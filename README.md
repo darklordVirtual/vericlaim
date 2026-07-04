@@ -230,15 +230,20 @@ figure it cannot source.
 
 ## Optional: Cloudflare AI add-on
 
-The core needs no network and no dependencies. If you *want* semantic search
-over your claims — "what has this project actually proven about X?" — an
+The core needs no network and no dependencies. If you *want* a verifiable,
+queryable, tamper-evident **truth layer** for your claims on the edge, an
 **optional** add-on lives in
-[`integrations/cloudflare-ai/`](integrations/cloudflare-ai/). It embeds each
-claim with **Workers AI** (`@cf/baai/bge-base-en-v1.5`), stores the vectors in
-**Vectorize**, and serves both a REST `/search` endpoint and an **optional MCP
-server** (`search_claims`) so an AI agent can look up your gate-verified claims.
-It is opt-in and deploys to your own Cloudflare account; search is a discovery
-aid and does **not** change what the gate proves. See its
+[`integrations/cloudflare-ai/`](integrations/cloudflare-ai/). It gives you five
+capabilities against your own Cloudflare account:
+
+- **Semantic search** over claims (Workers AI + Vectorize) — *"what has this project proven about X?"*
+- **A tamper-evident claim ledger** (D1) — append-only, hash-chained history; change any past entry and `/ledger/verify` names where the chain breaks.
+- **A content-addressed evidence vault** (R2) — retrieve and re-hash the exact bytes that backed a claim.
+- **An AI oracle that refuses to overclaim** (Workers AI) — answers only from registered claims, cites claim ids, and refuses when none support the answer.
+- **A public trust surface** — a shareable `/passport` page and `/badge.svg`, plus an optional **MCP server** (`search_claims`, `ask_claims`, `get_claim_history`, `verify_claim`) for Claude Code and other agents.
+
+It is opt-in and deploys to your own account; search and answers are discovery
+aids and do **not** change what the gate proves. See its
 [README](integrations/cloudflare-ai/README.md).
 
 ## Citation
@@ -247,7 +252,7 @@ Claim-Oriented Programming and vericlaim are by **Stian Skogbrott**. Please cite
 it — see [`CITATION.cff`](CITATION.cff) (GitHub renders a "Cite this repository"
 button from it):
 
-> Skogbrott, S. (2026). *vericlaim: A Claim-Oriented Programming gate* (v0.1.5).
+> Skogbrott, S. (2026). *vericlaim: A Claim-Oriented Programming gate* (v0.2.0).
 > https://github.com/darklordVirtual/vericlaim
 
 ## License

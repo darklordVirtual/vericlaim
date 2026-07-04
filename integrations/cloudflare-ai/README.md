@@ -1,101 +1,108 @@
 # vericlaim — Cloudflare AI add-on (optional)
 
 > **Optional. Opt-in. Not part of the zero-dependency core.**
-> The `vericlaim` gate needs none of this. Deploy it only if you want
-> **AI semantic search** — and optionally an **MCP server** — over your
-> registered claims.
+> The `vericlaim` gate needs none of this. Deploy it only if you want a
+> **verifiable, queryable, tamper-evident truth layer** for your claims on the edge.
 
-It turns your claim register into a searchable vector index on Cloudflare's
-edge, so you (or an AI agent) can ask *"what has this project actually proven
-about X?"* and get back registered, **gate-verified** claims.
+The gate proves internal consistency at *one commit*. This add-on makes a
+project's claims **durable, historical, tamper-evident, discoverable, and
+conversational** — without ever weakening the honesty discipline.
 
 ```
- claims/register.yaml ──export_claims.py──▶ POST /index
-                                              │  embed each claim (Workers AI,
-                                              │  @cf/baai/bge-base-en-v1.5, 768-dim)
-                                              ▼
-                                          Vectorize  ◀── GET /search?q=…   (REST)
-                                          (cosine)   ◀── POST /mcp  search_claims (MCP, optional)
+ claims/register.yaml ─export_claims.py─▶ POST /index
+     │                                       ├─▶ Workers AI embed ─▶ Vectorize   (search)
+     │                                       ├─▶ hash-chained ledger ─▶ D1        (history)
+     │                                       └─▶ content-addressed bytes ─▶ R2    (evidence vault)
+     ▼
+  GET /search   semantic search        GET /history  ledger timeline
+  GET /ask      grounded answer +      GET /verify   re-hash evidence + chain
+                REFUSES if unsupported GET /ledger/verify  tamper check
+  GET /passport public trust page      GET /badge.svg      dynamic badge
+  POST /mcp     search · ask · history · verify  (optional)
 ```
 
-## What it is — and what it is not
+## The five capabilities
 
-- **Is:** a discovery aid. Semantic search + an optional MCP tool over the
-  claims your project has registered.
-- **Is not:** a change to what vericlaim proves. A claim is trustworthy because
-  the **gate** verified its artifact, provenance and doc-binding — *never*
-  because it surfaced in a search. The MCP tool description says exactly this to
-  the model that calls it.
+| Capability | Cloudflare | What it gives you |
+|---|---|---|
+| **Semantic search** | Workers AI + Vectorize | Find claims by meaning: *"what has this project proven about X?"* |
+| **Claim ledger** | **D1** | Append-only, **hash-chained** history of every claim. Alter any past row and `GET /ledger/verify` reports exactly where the chain breaks. |
+| **Evidence vault** | **R2** | Artifacts stored **content-addressed** (`sha256/<hash>`). Retrieve and re-hash the exact bytes that backed a claim — provably unchanged. |
+| **Oracle that refuses to overclaim** | Workers AI (rerank + gen) | Answers **only** from registered claims, cites claim ids, carries caveats, and **refuses** when no claim supports an answer. |
+| **Public trust surface** | Worker HTML/SVG | A shareable `/passport` page and a `/badge.svg` rendered live from the ledger. |
 
-## Pieces
+The oracle refusing to invent a claim is the point: a vericlaim oracle that
+hallucinated would defeat the whole tool. Citations are the ids the answer
+*actually* cites — never over-attributed.
 
-| File | Role |
-|------|------|
-| `src/lib.ts` | Embedding (Workers AI) + index/search over Vectorize |
-| `src/index.ts` | Worker: `GET /`, `POST /index`, `GET /search`, `POST /mcp` |
-| `src/mcp.ts` | Optional MCP server exposing one tool, `search_claims` |
-| `export_claims.py` | Zero-dep exporter — reuses vericlaim's own loader |
-| `wrangler.toml` | Bindings: Workers AI, Vectorize, Durable Object (for MCP) |
+## Endpoints
 
-## Setup (5 steps)
+| Endpoint | Purpose |
+|---|---|
+| `GET /` | Health + capabilities + live ledger status |
+| `POST /index` | (bearer auth) embed→Vectorize, append the ledger, vault the evidence bytes |
+| `GET /search?q=&topK=` | Semantic search |
+| `GET /ask?q=` | Grounded answer (`{answer, refused, citations, claims}`) |
+| `GET /history?claim=ID` | The ledger timeline for a claim |
+| `GET /verify?claim=ID` | Re-hash the claim's evidence in R2 + confirm chain integrity |
+| `GET /ledger/verify` | Re-walk the whole hash chain (tamper check) |
+| `GET /passport` | Public HTML trust page |
+| `GET /badge.svg` | Dynamic SVG badge |
+| `POST /mcp` | MCP (Streamable HTTP), optional — tools below |
+
+## MCP tools (when `ENABLE_MCP=true`)
+
+`search_claims` · `ask_claims` (grounded, refuses) · `get_claim_history` ·
+`verify_claim`. Together they make the server a universal **"project truth" API**
+for any agent.
+
+## Setup
 
 ```bash
 cd integrations/cloudflare-ai
 npm install
 
-# 1. create the vector index (768 dims, cosine — matches the embedding model)
-npm run create-index
+# create the three data resources
+npm run create-index                                   # Vectorize (768/cosine)
+npx wrangler d1 create vericlaim-ledger                # D1 ledger  -> paste id into wrangler.toml
+npx wrangler d1 execute vericlaim-ledger --remote --file schema.sql
+npx wrangler r2 bucket create vericlaim-evidence       # R2 vault
 
-# 2. set the write token used by POST /index
-npx wrangler secret put INDEX_TOKEN
-
-# 3. deploy the Worker
+npx wrangler secret put INDEX_TOKEN                    # write token for POST /index
 npm run deploy
 
-# 4. push your register into the index (run from the repo root)
+# push the register through the full pipeline (from the repo root)
 python3 integrations/cloudflare-ai/export_claims.py \
-    --push https://vericlaim-claims.<your-subdomain>.workers.dev \
-    --token "$INDEX_TOKEN"
-
-# 5. search
-curl "https://vericlaim-claims.<your-subdomain>.workers.dev/search?q=compression%20ratio"
+    --push https://vericlaim-claims.<subdomain>.workers.dev --token "$INDEX_TOKEN"
 ```
 
-Re-run step 4 whenever the register changes (a CI step, or the workflow below).
+The exporter reuses vericlaim's own loader and attaches each claim's artifact
+bytes + git commit, so the ledger and vault can only contain what is actually in
+the register. Run the gate first in CI and only push when it is green.
 
-## Optional: enable MCP
-
-MCP is **off by default**. To expose the `search_claims` tool at `POST /mcp`,
-set `ENABLE_MCP = "true"` in `wrangler.toml` and redeploy. The endpoint speaks
-MCP Streamable HTTP.
-
-### Connect Claude Code (or any MCP client)
+## Connect Claude Code
 
 ```bash
+# enable MCP (off by default): set ENABLE_MCP="true" in wrangler.toml (or deploy --var), redeploy
 claude mcp add --transport http --scope user \
-  vericlaim-claims https://vericlaim-claims.<your-subdomain>.workers.dev/mcp
-claude mcp get vericlaim-claims        # should say ✔ Connected
+  vericlaim-claims https://vericlaim-claims.<subdomain>.workers.dev/mcp
+claude mcp get vericlaim-claims        # ✔ Connected
 ```
 
-Claude Code then has a `search_claims` tool: ask it *"what has this project
-proven about X?"* and it queries your gate-verified claim register. Other
-clients (IDEs, agents) point at the same `/mcp` URL.
+## What it proves — and what it does not
 
-For anything non-public, put it behind
-[Cloudflare Access / OAuth](https://developers.cloudflare.com/agents/model-context-protocol/protocol/authorization/)
-before enabling it — the `search_claims` tool is read-only over already-public
-claims, but the endpoint itself is unauthenticated until you add Access.
+- **Proves:** the ledger is tamper-evident (a single changed byte breaks the
+  chain); the vaulted evidence is retrievable and re-hashable; the oracle answers
+  only from registered claims or refuses.
+- **Does not:** change what the gate proves. Search and answers are **discovery
+  aids** over already-verified claims. Evidence level is the project's own honest
+  assertion. A claim is trustworthy because the gate verified it — not because it
+  was found, answered, or vaulted here.
 
-## Cost & keys
+## Security
 
-Embeddings and search run on **Workers AI + Vectorize** — no third-party API
-keys. `@cf/baai/bge-base-en-v1.5` is priced per input token; a claim register is
-tiny, so indexing and search cost effectively nothing at this scale. See
-[Workers AI pricing](https://developers.cloudflare.com/workers-ai/platform/pricing/).
-
-## Keeping the index honest
-
-The exporter reads claims through vericlaim's own loader, so the index can only
-contain claims that are actually in the register. Run the **gate** first in CI
-(`python -m vericlaim`) and only push the index when it is green — then search
-results are, by construction, gate-verified claims.
+`POST /index` is bearer-token protected and fails closed. `/search`, `/ask`,
+`/passport`, `/badge.svg` and `/mcp` are public reads over already-public claims.
+For non-public projects put the Worker behind
+[Cloudflare Access](https://developers.cloudflare.com/agents/model-context-protocol/protocol/authorization/).
+Committed default is `ENABLE_MCP=false`.

@@ -28,12 +28,37 @@ from vericlaim.register import load_register
 FIELDS = ("id", "statement", "evidence_level", "artifact", "caveat", "metrics")
 
 
+def _git_commit(root: Path) -> str | None:
+    try:
+        import subprocess
+        out = subprocess.run(["git", "-C", str(root), "rev-parse", "HEAD"],
+                             capture_output=True, text=True, check=True)
+        return out.stdout.strip() or None
+    except Exception:
+        return None
+
+
 def export(root: Path) -> list[dict]:
     cfg = load_config(root)
     claims = load_register(cfg.path(cfg.register).read_text(encoding="utf-8"))
+    commit = _git_commit(root)
     out = []
     for c in claims:
-        out.append({k: c[k] for k in FIELDS if k in c})
+        rec = {k: c[k] for k in FIELDS if k in c}
+        if commit:
+            rec["git_commit"] = commit
+        # Attach the primary artifact's bytes (base64) for the content-addressed
+        # evidence vault, so the ledger can prove exactly what backed the claim.
+        arts = c.get("artifact") or []
+        if isinstance(arts, str):
+            arts = [arts]
+        for rel in arts:
+            f = cfg.path(rel)
+            if f.exists() and f.is_file():
+                import base64
+                rec["artifact_b64"] = base64.b64encode(f.read_bytes()).decode()
+                break
+        out.append(rec)
     return out
 
 
@@ -61,7 +86,7 @@ def main() -> int:
                  "authorization": f"Bearer {args.token}",
                  # A real User-Agent: Cloudflare's edge blocks the default
                  # "Python-urllib/..." UA with a 403 before the Worker runs.
-                 "user-agent": "vericlaim-export/0.1.5"})
+                 "user-agent": "vericlaim-export/0.2.0"})
     with urllib.request.urlopen(req) as resp:
         print(resp.read().decode("utf-8"))
     return 0

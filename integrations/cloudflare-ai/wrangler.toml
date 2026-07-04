@@ -15,6 +15,20 @@ binding = "AI"
 binding = "VECTORIZE"
 index_name = "vericlaim-claims"
 
+# D1 — the tamper-evident, hash-chained claim ledger (history of every claim).
+# Create it first:  npx wrangler d1 create vericlaim-ledger
+# then apply the schema:  npx wrangler d1 execute vericlaim-ledger --remote --file schema.sql
+[[d1_databases]]
+binding = "DB"
+database_name = "vericlaim-ledger"
+database_id = "3d1a3560-f5f3-48bd-a761-53a7f27996d1"
+
+# R2 — the content-addressed evidence vault (artifact bytes keyed by SHA-256).
+# Create it first:  npx wrangler r2 bucket create vericlaim-evidence
+[[r2_buckets]]
+binding = "EVIDENCE"
+bucket_name = "vericlaim-evidence"
+
 # Durable Object backing the optional MCP agent.
 [[durable_objects.bindings]]
 name = "VERICLAIM_MCP"

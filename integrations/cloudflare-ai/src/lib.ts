@@ -14,6 +14,8 @@ export const EMBED_MODEL = "@cf/baai/bge-base-en-v1.5"; // 768 dims, cosine
 export interface Env {
   AI: Ai;
   VECTORIZE: VectorizeIndex;
+  DB: D1Database; // the tamper-evident claim ledger
+  EVIDENCE: R2Bucket; // the content-addressed evidence vault
   INDEX_TOKEN?: string; // bearer token required to (re)build the index
   ENABLE_MCP?: string; // "true" to expose the /mcp endpoint
   VERICLAIM_MCP: DurableObjectNamespace; // backing store for the MCP agent
@@ -26,6 +28,8 @@ export interface Claim {
   artifact?: string[] | string;
   caveat?: string;
   metrics?: Record<string, unknown>;
+  git_commit?: string; // best-effort, from the exporter
+  artifact_b64?: string; // base64 of the primary artifact's bytes (optional)
 }
 
 export interface SearchHit {
