@@ -189,6 +189,45 @@ vericlaim init             # scaffolds vericlaim.toml + claims/ (never overwrite
 vericlaim                  # a fresh project with no claims yet passes
 ```
 
+## Optional: the Cloudflare truth layer (use only if present)
+
+Everything above is the whole method and it works **standalone** — the register,
+the gate, and `reproduce` are always the source of truth. Some projects also
+deploy the optional Cloudflare add-on (`integrations/cloudflare-ai/`), which
+mirrors the register into a searchable, tamper-evident edge service. **Treat it
+as strictly optional and additive.** Never require it; never block on it.
+
+**First, detect whether it is active.** It is available only if *both*:
+- the repo contains `integrations/cloudflare-ai/` (or a configured Worker URL), and
+- the MCP tools `search_claims` / `ask_claims` / `get_claim_history` /
+  `verify_claim` are actually offered in this session.
+
+If either is missing, do the normal local discipline and **do not mention or
+attempt** any of the below. If a call to it errors, fall back silently to local.
+
+**When it IS active, use it to work smarter — not to replace the gate:**
+- *Before* writing a new claim, `search_claims` / `ask_claims` to see whether the
+  project already proved this, so you extend rather than duplicate a claim.
+- *After* you changed the register **and the gate is green**, refresh the mirror so
+  search/history/passport stay current — never push a red gate:
+  ```bash
+  python3 integrations/cloudflare-ai/export_claims.py --push "$WORKER_URL" --token "$INDEX_TOKEN"
+  ```
+- Use `get_claim_history` / `verify_claim` (or `/ledger/verify`) to audit how a
+  claim evolved and confirm the evidence still hashes and the ledger is intact.
+
+**Guardrails (the discipline still rules):**
+- The **register + gate are authoritative**; the edge mirror can be stale (only as
+  fresh as the last push). If they disagree, the register wins — re-push.
+- A search hit or an oracle answer is **not proof**. A claim is trustworthy because
+  the gate verified it, not because it was found or answered. Never cite the edge
+  service as evidence for a claim.
+- The oracle **refuses** when no claim supports an answer — that is correct
+  behaviour. When you get a refusal, do not fill the gap with an assumption:
+  register and back a real claim instead.
+- Enabling it changes nothing about how you write claims. Same STOP reflex, same
+  procedure, with or without Cloudflare.
+
 ## References
 
 - Methodology and Design-by-Contract lineage: `docs/manifesto.md`
@@ -196,6 +235,7 @@ vericlaim                  # a fresh project with no claims yet passes
 - Evidence taxonomy and demotion rules: `docs/evidence-levels.md`
 - What the gate proves / does not, and the roadmap: `docs/design-notes/contract-lineage.md`
 - Worked examples (capability, correctness, benchmark): `examples/`
+- Optional Cloudflare truth layer (search · ledger · vault · oracle · MCP): `integrations/cloudflare-ai/`
 
 ---
 
