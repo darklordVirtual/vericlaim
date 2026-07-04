@@ -58,7 +58,10 @@ def main() -> int:
     req = urllib.request.Request(
         args.push.rstrip("/") + "/index", data=body, method="POST",
         headers={"content-type": "application/json",
-                 "authorization": f"Bearer {args.token}"})
+                 "authorization": f"Bearer {args.token}",
+                 # A real User-Agent: Cloudflare's edge blocks the default
+                 # "Python-urllib/..." UA with a 403 before the Worker runs.
+                 "user-agent": "vericlaim-export/0.1.4"})
     with urllib.request.urlopen(req) as resp:
         print(resp.read().decode("utf-8"))
     return 0

@@ -1,6 +1,6 @@
 {
   "name": "vericlaim-cloudflare-ai",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": true,
   "description": "Optional Cloudflare Workers add-on for vericlaim: AI embedding + Vectorize search + MCP over your claim register.",
   "type": "module",
@@ -11,8 +11,8 @@
     "create-index": "wrangler vectorize create vericlaim-claims --dimensions=768 --metric=cosine"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
-    "agents": "^0.2.0",
+    "@modelcontextprotocol/sdk": "1.23.0",
+    "agents": "^0.2.35",
     "zod": "^3.23.0"
   },
   "devDependencies": {

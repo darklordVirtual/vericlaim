@@ -11,7 +11,7 @@ import { z } from "zod";
 import { type Env, searchClaims } from "./lib";
 
 export class VericlaimMCP extends McpAgent<Env> {
-  server = new McpServer({ name: "vericlaim-claims", version: "0.1.3" });
+  server = new McpServer({ name: "vericlaim-claims", version: "0.1.4" });
 
   async init() {
     this.server.tool(

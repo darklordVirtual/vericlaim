@@ -28,5 +28,10 @@ new_sqlite_classes = ["VericlaimMCP"]
 # Set to "true" to expose the MCP endpoint at POST /mcp. Off by default.
 ENABLE_MCP = "false"
 
+# The Agents SDK client bundle has a dynamic import("ai") we never execute (we
+# only use agents/mcp). Alias it to a local stub so the bundler can resolve it.
+[alias]
+ai = "./src/stub-ai.js"
+
 # Secrets (set with `npx wrangler secret put <NAME>`, never commit them):
 #   INDEX_TOKEN   bearer token required to call POST /index (rebuild the index)
