@@ -1,0 +1,33 @@
+{
+  "name": "p_implies_p",
+  "description": "The classic 5-step Hilbert-system derivation of p -> p from A1, A2 and modus ponens.",
+  "theorem": ["->", "p", "p"],
+  "steps": [
+    {
+      "rule": "A2",
+      "comment": "A2 with phi=p, psi=(p->p), chi=p",
+      "formula": ["->", ["->", "p", ["->", ["->", "p", "p"], "p"]],
+                        ["->", ["->", "p", ["->", "p", "p"]], ["->", "p", "p"]]]
+    },
+    {
+      "rule": "A1",
+      "comment": "A1 with phi=p, psi=(p->p)",
+      "formula": ["->", "p", ["->", ["->", "p", "p"], "p"]]
+    },
+    {
+      "rule": "MP",
+      "from": [2, 1],
+      "formula": ["->", ["->", "p", ["->", "p", "p"]], ["->", "p", "p"]]
+    },
+    {
+      "rule": "A1",
+      "comment": "A1 with phi=p, psi=p",
+      "formula": ["->", "p", ["->", "p", "p"]]
+    },
+    {
+      "rule": "MP",
+      "from": [4, 3],
+      "formula": ["->", "p", "p"]
+    }
+  ]
+}

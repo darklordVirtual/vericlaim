@@ -1,0 +1,12 @@
+{
+  "schema": "theorem_v1",
+  "proof": "examples/theorem/proofs/p_implies_p.json",
+  "system": "Lukasiewicz A1-A3 + modus ponens",
+  "theorem": [
+    "->",
+    "p",
+    "p"
+  ],
+  "steps_verified": 5,
+  "qed": true
+}

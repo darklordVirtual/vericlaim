@@ -74,6 +74,30 @@ claims:
       greeting string exists; it makes no claim about grammar or locale rules.
     reproduce: "python3 examples/greetings/evidence.py"
 
+  - id: CLAIM-THM-001
+    statement: >
+      The committed 5-step Hilbert-system derivation of p -> p (Lukasiewicz
+      axioms A1-A2, modus ponens) is machine-checked: every step verifies as an
+      axiom instance or a modus-ponens application, and the final step equals
+      the declared theorem.
+    evidence_level: machine_checked
+    artifact:
+      - "examples/theorem/artifacts/theorem.json"
+    n: 5
+    metrics:
+      steps_verified: 5
+    caveat: >
+      Machine-checked by the example's own ~100-line checker, not by an
+      independently audited kernel (Lean/Coq); the checker itself is
+      property-tested in tests/test_theorem_example.py. The claim covers this
+      one derivation only, not completeness of the axiom system.
+    literature:
+      - source: "Lukasiewicz, Elementy logiki matematycznej (1929); Mendelson, Introduction to Mathematical Logic 6e, Lemma 1.8"
+        sha256: fc28b762fe62f0cb2d39af37e4ffa9d43b4178a5096bdcb2dfd61d50b4c54047
+        file: "docs/references/lukasiewicz-axioms.md"
+        locator: "axioms A1-A3; the p -> p derivation"
+    reproduce: "python3 examples/theorem/evidence.py"
+
   - id: CLAIM-TIP-001
     statement: >
       All 12 reference bills in the tip-calculator example produce the expected

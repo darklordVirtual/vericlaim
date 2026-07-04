@@ -9,6 +9,7 @@ shape**, so you can find the one closest to what you need to state.
 | [`greetings/`](greetings/) | i18n greetings | **capability count** | supports 6 languages (`CLAIM-GREET-001`) |
 | [`tipcalc/`](tipcalc/) | tip calculator | **correctness** | all 12 reference cases pass (`CLAIM-TIP-001`) |
 | [`rle/`](rle/) | lossless compression | **benchmark ratio** | 8.0584× overall (`CLAIM-EX-001`), lossless (`CLAIM-EX-002`) |
+| [`theorem/`](theorem/) | propositional logic | **proved theorem** | p → p derives in 5 steps (`CLAIM-THM-001`) |
 
 Each example follows the same loop:
 

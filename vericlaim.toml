@@ -7,10 +7,13 @@
 register        = "claims/register.yaml"
 baseline        = "claims/baseline.json"
 manifest        = "claims/manifest.md"
-doc_globs       = ["README.md", "docs/*.md", "examples/*/docs/*.md"]
+doc_globs       = ["README.md", "docs/*.md", "docs/references/*.md", "examples/*/docs/*.md"]
+# Source files are docs too: comment anchors (`# claim:ID field`) bind code
+# comments to the register exactly like markdown prose.
+code_globs      = ["examples/*/src/*.py"]
 required_fields = ["id", "statement", "evidence_level", "artifact", "caveat"]
 # Ordered weakest -> strongest. Projects tailor this to their domain.
-evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "externally_validated"]
+evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "machine_checked", "externally_validated"]
 # Require a provenance sidecar for every artifact (how it was produced).
 require_provenance = true
 # Every artifact must be git-tracked (a "committed artifact" must be committed).

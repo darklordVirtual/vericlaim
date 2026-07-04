@@ -8,6 +8,10 @@ never say "8 languages" while the code supports 6.
 """
 from __future__ import annotations
 
+# claim:CLAIM-GREET-001 n_languages
+# This library supports exactly 6 languages — the count below is a registered
+# claim; adding or removing an entry requires re-running evidence.py and
+# updating the register, or the gate fails.
 GREETINGS: dict[str, str] = {
     "en": "Hello",
     "no": "Hei",

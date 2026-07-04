@@ -116,6 +116,8 @@ Full walkthrough: [`docs/getting-started.md`](docs/getting-started.md).
 | **Register integrity** | Required fields present, valid evidence level, no duplicate ids. |
 | **Manifest hashes** | Result artifacts match their SHA-256 — a silently edited number is caught. |
 | **Doc binding** | Claim anchors tie prose numbers to the register; drift fails the build. |
+| **Code binding** | Comment anchors (`# claim:ID field`) bind claims stated in source comments the same way — code that describes itself is held to the register too. |
+| **Literature integrity** | Each `literature` entry's committed source must still hash to its registered SHA-256 — a citation can be proven intact, and can never be fabricated or silently swapped. |
 | **Evidence levels** | A doc cannot describe a claim above the level it has earned. |
 | **Stale-string denylist** | A wording you corrected can never quietly reappear. |
 
@@ -172,16 +174,17 @@ claim above its stated evidence level, and every number still reproduces.* Those
 enforced, are most of what separates a trustworthy repository from a hopeful one
 — and nothing more is claimed.
 
-## Worked examples — three claim shapes, three domains
+## Worked examples — four claim shapes, four domains
 
 Claims are not just benchmark numbers. The [`examples/`](examples/) gallery shows
-the same discipline for three different kinds of assertion, smallest first:
+the same discipline for four different kinds of assertion, smallest first:
 
 | Example | Claim shape | Claim |
 |---------|-------------|-------|
 | [`greetings/`](examples/greetings/) | **capability count** | supports 6 languages |
 | [`tipcalc/`](examples/tipcalc/) | **correctness** | all 12 reference cases pass |
 | [`rle/`](examples/rle/) | **benchmark ratio** | 8.0584× compression, lossless |
+| [`theorem/`](examples/theorem/) | **proved theorem** | p → p machine-checks in 5 steps, from a committed proof object with a hash-verified literature citation |
 
 Each is tiny: a small library, a deterministic script that writes an artifact, a
 registered claim, and a doc bound by an anchor. For instance, the compression
@@ -211,7 +214,7 @@ pytest -q                     # tests, including the drift-detection guarantee
 vericlaim/            the zero-dependency gate (register parser, checks, CLI)
 claims/               register.yaml (source of truth) · baseline.json · manifest.md
 docs/                 manifesto · getting-started · register spec · evidence levels
-examples/             three tiny worked examples (capability, correctness, benchmark)
+examples/             four tiny worked examples (capability, correctness, benchmark, proof)
 tests/                tests for the gate and the example
 .claude/skills/       a Claude skill that enforces the discipline while you work
 integrations/         optional add-ons (not part of the zero-dep core)

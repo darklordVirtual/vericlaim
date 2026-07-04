@@ -16,9 +16,10 @@ register        = "claims/register.yaml"
 baseline        = "claims/baseline.json"
 # manifest      = "claims/manifest.md"      # optional SHA-256 manifest of artifacts
 doc_globs       = ["README.md", "docs/*.md"]
+# code_globs    = ["src/**/*.py"]            # bind code comments too: `# claim:ID field`
 required_fields = ["id", "statement", "evidence_level", "artifact", "caveat"]
 # Weakest -> strongest. Tailor to your domain.
-evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "externally_validated"]
+evidence_levels = ["theoretical", "measured", "benchmarked", "reproduced", "machine_checked", "externally_validated"]
 # require_provenance  = true   # every produced artifact must record how it was made
 # require_git_tracked = true   # every artifact must be committed to git
 

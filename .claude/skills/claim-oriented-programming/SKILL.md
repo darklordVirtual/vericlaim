@@ -41,9 +41,14 @@ write the number. There is no fourth move.
 4. **Provenance** — when `require_provenance` is on, each produced artifact
    carries a sidecar recording how it was made (script, commit, its SHA-256).
 5. **Manifest hashes** — committed artifacts match their SHA-256.
-6. **Doc binding** — claim anchors tie prose numbers to the register.
+6. **Doc binding** — claim anchors tie prose numbers to the register. Files
+   under `code_globs` are bound the same way via comment anchors
+   (`# claim:ID field`): code that states a fact about itself is a doc too.
 7. **Evidence levels** — a doc cannot describe a claim above its earned level.
 8. **Stale strings** — a corrected wording cannot quietly reappear.
+9. **Literature integrity** — each `literature` entry's committed source must
+   still hash to its registered SHA-256: a citation can be proven intact and
+   can never be fabricated — but it never substitutes for an artifact.
 
 `vericlaim reproduce` (separate, executes commands) re-runs each evidence script
 and fails unless the artifact is byte-identical — the number is *still true
@@ -101,16 +106,26 @@ If you catch yourself thinking any of these, you are about to break the contract
    ```yaml
    - id: CLAIM-AREA-001
      statement: "One line: what is claimed."
-     evidence_level: benchmarked   # theoretical < measured < benchmarked < reproduced < externally_validated
+     evidence_level: benchmarked   # theoretical < measured < benchmarked < reproduced < machine_checked < externally_validated
      artifact: [results/example.json]
      metrics: { value: 42 }        # numbers the docs will quote
      caveat: "Scope and limitation — part of the claim."
      reproduce: "python3 bench/example.py"
+     literature:                   # optional: hash-verified external sources
+       - source: "doi:10.1000/xyz"
+         sha256: <sha256 of the committed copy/extract>
+         file: refs/paper-note.md
    ```
    Grade `evidence_level` **conservatively**: describe a claim only at the level
    it has earned. Demotion is always allowed; promotion needs new evidence. Keep
    the artifact path **inside the repo** and committed — a path with `..`, an
-   absolute path, or an uncommitted file is rejected.
+   absolute path, or an uncommitted file is rejected. A **mathematical theorem
+   or formally verified invariant** is a claim like any other: commit the proof
+   object (Lean/Coq source, model, or proof JSON) as the artifact, let
+   `reproduce` re-run the checker, and grade it `machine_checked` — with a
+   caveat naming the checker if it is not an audited kernel. Literature
+   supports *context* only; a citation is never evidence, and `artifact` stays
+   required.
 
 3. **Bind the doc** with an anchor immediately before the prose:
    ```markdown
@@ -118,7 +133,12 @@ If you catch yourself thinking any of these, you are about to break the contract
    The measured value is **42** on the reference corpus.
    ```
    Every field in the anchor (a `metrics` key, or `n` for sample size) must
-   appear as that exact number in the paragraph that follows.
+   appear as that exact number in the paragraph that follows. The same rule
+   binds **source comments** in files under `code_globs`: the anchor is a
+   comment line containing only `# claim:CLAIM-AREA-001 value`, and the value
+   must appear in the comment block that follows — never in the code itself.
+   When a code comment states a capability or number, bind it exactly like
+   prose.
 
 4. **Run the gate:** `vericlaim` (or `python3 -m vericlaim`). It must print
    `[OK]`. Then, when you changed code that a benchmark depends on, run
