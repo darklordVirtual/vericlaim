@@ -13,6 +13,7 @@ import { ask } from "./oracle";
 import { history, verifyChain } from "./ledger";
 import { verifyEvidence } from "./vault";
 import { getBundle, searchLibrary } from "./library";
+import { askResearch, searchResearch } from "./research";
 
 const text = (t: string) => ({ content: [{ type: "text" as const, text: t }] });
 
@@ -129,6 +130,49 @@ export class VericlaimMCP extends McpAgent<Env> {
         const b = await getBundle(this.env, bundle_id);
         if (!b) return text(`No such bundle: ${bundle_id}.`);
         return text(JSON.stringify(b, null, 2));
+      },
+    );
+
+    // 7. research search — chunk-level retrieval over the literature catalog
+    this.server.tool(
+      "search_literature_rag",
+      "Semantic search over the vectorized research literature (the canonical " +
+        "research map: uncertainty/conformal, agents, evaluation, agent " +
+        "security, governance, MLOps, provenance/supply-chain, formal methods, " +
+        "fairness, assurance cases). Every hit's text is hash-locked in the " +
+        "git-anchored catalog. Retrieval, never evidence: tier='web-snapshot' " +
+        "hits are NOT peer-reviewed — treat them accordingly.",
+      {
+        query: z.string().describe("What you want the literature to speak to"),
+        topK: z.number().int().min(1).max(20).default(5),
+      },
+      async ({ query, topK }) => {
+        const hits = await searchResearch(this.env, query, topK);
+        if (!hits.length) return text("No matching literature chunks.");
+        return text(hits.length + " chunk(s):\n" + hits.map((h) =>
+          `- [${h.work_id}] ${h.title}` +
+          `${h.section ? ` — ${h.section}` : ""} ` +
+          `(${h.tier}${h.accredited ? ", peer-reviewed venue" : ""}, ` +
+          `score ${h.score.toFixed(3)})\n  ${h.snippet}` +
+          (h.linked_claims.length
+            ? `\n  linked claims: ${h.linked_claims.join(", ")}` : ""))
+          .join("\n"));
+      },
+    );
+
+    // 8. research ask — grounded literature answer that refuses
+    this.server.tool(
+      "ask_research",
+      "Ask a question answered ONLY from hash-locked excerpts of the cataloged " +
+        "research literature, with work-id citations. Refuses when no cataloged " +
+        "work supports an answer — mirror that: do not fill the gap from " +
+        "model memory.",
+      { question: z.string().describe("The question to answer from the literature") },
+      async ({ question }) => {
+        const a = await askResearch(this.env, question);
+        if (a.refused) return text("REFUSED: " + a.answer);
+        return text(a.answer + "\n\nCitations: " + a.citations.map((c) =>
+          c.work_id + (c.section ? ` (${c.section})` : "")).join("; "));
       },
     );
   }

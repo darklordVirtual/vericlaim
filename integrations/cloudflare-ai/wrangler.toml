@@ -15,6 +15,12 @@ binding = "AI"
 binding = "VECTORIZE"
 index_name = "vericlaim-claims"
 
+# Vectorize — the research layer's chunk-level literature index.
+# Create it first:  npx wrangler vectorize create vericlaim-literature --dimensions=768 --metric=cosine
+[[vectorize]]
+binding = "VECTORIZE_LIT"
+index_name = "vericlaim-literature"
+
 # D1 — the tamper-evident, hash-chained claim ledger (history of every claim).
 # NEW USER: run ./setup.sh — it creates your own D1 and rewrites the id below.
 # (The id here is the original author's database; you cannot deploy against it.)

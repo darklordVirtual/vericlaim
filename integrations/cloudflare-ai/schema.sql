@@ -44,3 +44,31 @@ CREATE TABLE IF NOT EXISTS library_bundles (
 
 CREATE INDEX IF NOT EXISTS idx_library_bundles_claim
   ON library_bundles (source_claim_id, seq);
+
+-- The RESEARCH layer: literature works + chunks (serving mirror of the
+-- git-anchored catalog in integrations/library/literature/ — the catalog is
+-- the anchor, so these tables carry no hash chain of their own).
+CREATE TABLE IF NOT EXISTS literature_works (
+  fsid          TEXT PRIMARY KEY,
+  work_id       TEXT NOT NULL,
+  title         TEXT NOT NULL,
+  authors       TEXT NOT NULL,      -- JSON array
+  year          INTEGER,
+  venue         TEXT,
+  kind          TEXT NOT NULL,      -- paper | book | standard | spec | report
+  tier          TEXT NOT NULL,      -- registrar method or 'web-snapshot'
+  accredited    INTEGER NOT NULL,   -- 1 only for peer-reviewed venue types
+  url           TEXT,
+  linked_claims TEXT NOT NULL DEFAULT '[]',  -- JSON array of claim ids
+  updated_at    TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS literature_chunks (
+  sha        TEXT PRIMARY KEY,      -- sha256 of the chunk text (content address)
+  fsid       TEXT NOT NULL,
+  seq        INTEGER NOT NULL,
+  section    TEXT NOT NULL DEFAULT '',
+  created_at TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_lit_chunks_fsid ON literature_chunks (fsid, seq);

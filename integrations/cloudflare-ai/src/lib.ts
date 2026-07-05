@@ -14,6 +14,7 @@ export const EMBED_MODEL = "@cf/baai/bge-base-en-v1.5"; // 768 dims, cosine
 export interface Env {
   AI: Ai;
   VECTORIZE: VectorizeIndex;
+  VECTORIZE_LIT: VectorizeIndex; // chunk-level literature index (research layer)
   DB: D1Database; // the tamper-evident claim ledger
   EVIDENCE: R2Bucket; // the content-addressed evidence vault
   INDEX_TOKEN?: string; // bearer token required to (re)build the index

@@ -25,6 +25,10 @@ import {
   versionChain,
 } from "./library";
 import { ask } from "./oracle";
+import {
+  type ChunkIn, type WorkIn, askResearch, getWork, ingestLiterature,
+  researchSummary, searchResearch,
+} from "./research";
 import { badgeSVG, passportHTML } from "./passport";
 import { VericlaimMCP } from "./mcp";
 
@@ -165,6 +169,43 @@ export default {
       const library = await env.DB.prepare(
         "SELECT * FROM library_bundles ORDER BY seq ASC").all();
       return json({ claims: claims.results ?? [], library: library.results ?? [] });
+    }
+
+    // --- the research layer: vectorized literature (retrieval, not truth) ---
+    if (p === "/research/index" && req.method === "POST") {
+      if (!authorized(req, env)) return json({ error: "unauthorized" }, 401);
+      let payload: { works?: WorkIn[]; chunks?: ChunkIn[] };
+      try { payload = await req.json(); } catch { return json({ error: "invalid JSON" }, 400); }
+      const result = await ingestLiterature(
+        env, payload.works ?? [], payload.chunks ?? [], new Date().toISOString());
+      return json(result);
+    }
+
+    if (p === "/research/search" && req.method === "GET") {
+      const q = url.searchParams.get("q");
+      if (!q) return json({ error: "missing query parameter 'q'" }, 400);
+      const topK = Math.min(20, Math.max(1, Number(url.searchParams.get("topK")) || 5));
+      return json({
+        query: q, hits: await searchResearch(env, q, topK),
+        note: "Retrieval, never evidence. tier='web-snapshot' hits are not " +
+              "peer-reviewed; every hit's text is hash-locked in the catalog.",
+      });
+    }
+
+    if (p === "/research/ask" && req.method === "GET") {
+      const q = url.searchParams.get("q");
+      if (!q) return json({ error: "missing query parameter 'q'" }, 400);
+      return json(await askResearch(env, q));
+    }
+
+    if (p.startsWith("/research/work/") && req.method === "GET") {
+      const fsid = p.slice("/research/work/".length);
+      const w = await getWork(env, fsid);
+      return w ? json(w) : json({ error: "no such work" }, 404);
+    }
+
+    if (p === "/research/summary" && req.method === "GET") {
+      return json(await researchSummary(env));
     }
 
     // --- the claims library: cross-project bundle preservation & reuse ------
