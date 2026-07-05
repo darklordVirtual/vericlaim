@@ -14,7 +14,10 @@ import { getEvidence, putEvidence } from "./vault";
 
 const RERANK_MODEL = "@cf/baai/bge-reranker-base";
 const GEN_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
-const RETRIEVE_K = 8;
+// Retrieve wide (composite questions often find their answering excerpt
+// outside the top few cosine hits — the reranker decides), use narrow.
+// Note: returnMetadata caps Vectorize topK at 20.
+const RETRIEVE_K = 16;
 const USE_K = 4;
 // Two-stage refusal bar. Cosine over a 5k-chunk corpus is a weak
 // discriminator (off-corpus queries still hit ~0.66), so the reranker's

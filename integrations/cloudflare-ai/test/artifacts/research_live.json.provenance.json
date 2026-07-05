@@ -3,7 +3,7 @@
   "artifact": "research_live.json",
   "artifact_sha256": "b0d44818c3ea02b2d656fdca817794542253acad20e61b512012f37c9f062d06",
   "script": "python3 integrations/cloudflare-ai/test/save_live_evidence.py --url https://vericlaim-claims.razorsharp.workers.dev --date 2026-07-05",
-  "git_commit": "be2a24eefe1c4b6e885d93522635c92cd6e1f257",
-  "generated_at": "2026-07-05T13:39:35.816843+00:00",
+  "git_commit": "d0843b1a2c93be45c5c67a8f2d5a1288a8cf71d7",
+  "generated_at": "2026-07-05T13:45:16.354279+00:00",
   "produced_by": "live-test"
 }

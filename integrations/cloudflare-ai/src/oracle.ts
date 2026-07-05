@@ -24,14 +24,27 @@ export interface OracleAnswer {
 
 async function retrieve(env: Env, query: string): Promise<SearchHit[]> {
   const [vector] = await embed(env, [query]);
-  const res = await env.VECTORIZE.query(vector, { topK: RETRIEVE_K, returnMetadata: "all" });
-  return res.matches.map((m) => ({
-    id: m.id, score: m.score,
-    statement: String(m.metadata?.statement ?? ""),
-    evidence_level: String(m.metadata?.evidence_level ?? ""),
-    caveat: String(m.metadata?.caveat ?? ""),
-    artifact: String(m.metadata?.artifact ?? ""),
-  }));
+  // Library vectors (`lib:*`) share this index and outnumber project claims
+  // ~50:1 — a narrow metadata query can come back all-library and leave the
+  // oracle with nothing to ground on. Wide id-only query, drop `lib:*` by
+  // id prefix, then fetch metadata for the survivors.
+  const res = await env.VECTORIZE.query(vector, { topK: 100 });
+  const kept = res.matches
+    .filter((m) => !m.id.startsWith("lib:")).slice(0, RETRIEVE_K);
+  if (!kept.length) return [];
+  const byId = new Map(
+    (await env.VECTORIZE.getByIds(kept.map((m) => m.id)))
+      .map((v) => [v.id, v.metadata ?? {}] as const));
+  return kept.map((m) => {
+    const md = byId.get(m.id) ?? {};
+    return {
+      id: m.id, score: m.score,
+      statement: String(md.statement ?? ""),
+      evidence_level: String(md.evidence_level ?? ""),
+      caveat: String(md.caveat ?? ""),
+      artifact: String(md.artifact ?? ""),
+    };
+  });
 }
 
 async function rerank(env: Env, query: string, hits: SearchHit[]): Promise<SearchHit[]> {
