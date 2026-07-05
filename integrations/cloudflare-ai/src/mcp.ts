@@ -171,8 +171,16 @@ export class VericlaimMCP extends McpAgent<Env> {
       async ({ question }) => {
         const a = await askResearch(this.env, question);
         if (a.refused) return text("REFUSED: " + a.answer);
-        return text(a.answer + "\n\nCitations: " + a.citations.map((c) =>
-          c.work_id + (c.section ? ` (${c.section})` : "")).join("; "));
+        let out = a.answer + "\n\nCitations: " + a.citations.map((c) =>
+          c.work_id + (c.section ? ` (${c.section})` : "")).join("; ");
+        if (a.related_verified_claims?.length) {
+          out += "\n\nRelated VERIFIED claims (gate-verified evidence — a " +
+            "different truth tier than the literature above):\n" +
+            a.related_verified_claims.map((r) =>
+              `- [${r.claim_id}] (${r.evidence_level}, from ${r.source_repo})` +
+              ` ${r.statement}`).join("\n");
+        }
+        return text(out);
       },
     );
   }

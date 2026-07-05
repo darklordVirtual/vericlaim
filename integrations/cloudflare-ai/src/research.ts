@@ -11,6 +11,7 @@
 // and the research oracle REFUSES when no chunk clears the relevance bar.
 import { type Env, embed } from "./lib";
 import { getEvidence, putEvidence } from "./vault";
+import { searchLibrary } from "./library";
 
 const RERANK_MODEL = "@cf/baai/bge-reranker-base";
 const GEN_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
@@ -212,6 +213,13 @@ export interface ResearchAnswer {
   refused: boolean;
   answer: string;
   citations: { work_id: string; sha: string; section: string }[];
+  // Verified claims from the claims LIBRARY that speak to the same question
+  // — a separate truth tier, located with the same expanded phrasings. A
+  // related claim is gate-verified evidence; the literature above is not.
+  related_verified_claims?: {
+    claim_id: string; evidence_level: string; statement: string;
+    source_repo: string; score: number;
+  }[];
   diagnostics?: {
     top_cosine: number; top_rerank: number | null;
     variants?: string[]; // how Workers AI located the literature
@@ -384,11 +392,26 @@ export async function askResearch(env: Env, query: string): Promise<ResearchAnsw
     answer = "Answer generation unavailable; the relevant excerpts are cited below.";
   }
 
+  // Locate verified claims for the same question (best-effort; the claims
+  // library is a different truth tier and its absence never blocks the
+  // literature answer).
+  let related: ResearchAnswer["related_verified_claims"];
+  try {
+    const hits = await searchLibrary(env, bestVariant, 3);
+    related = hits
+      .filter((h) => h.status === "verified" && h.score >= 0.55)
+      .map((h) => ({
+        claim_id: h.claim_id, evidence_level: h.evidence_level,
+        statement: h.statement, source_repo: h.source_repo, score: h.score,
+      }));
+  } catch { /* library lookup is additive only */ }
+
   return {
     query, refused: false, answer,
     citations: ordered.map((c) => ({
       work_id: c.hit.work_id, sha: c.hit.sha, section: c.hit.section,
     })),
+    related_verified_claims: related,
     diagnostics: { top_cosine: topCosine, top_rerank: topRerank, variants },
   };
 }
