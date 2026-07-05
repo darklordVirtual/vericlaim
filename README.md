@@ -1,18 +1,61 @@
-# vericlaim
+# Stop shipping documentation that lies.
 
 [![Claim Gate](https://github.com/darklordVirtual/vericlaim/actions/workflows/claim-gate.yml/badge.svg)](https://github.com/darklordVirtual/vericlaim/actions/workflows/claim-gate.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml)
 
-> **Your docs can never quietly disagree with your evidence again.**
+Ever caught your README still saying **180 ms** while the benchmark now
+measures 900? A citation nobody can find? A "supports X" that stopped being
+true two releases ago? Every developer has — and with AI writing code and
+prose faster than anyone reviews it, it happens silently, everywhere.
 
-vericlaim checks, on every commit, that every number and capability your project
-claims about itself is backed by a committed artifact — and that your README,
-docs, and papers all still say the same thing. It is **Design by Contract for the
-whole repository**, built for the age of AI-authored code, where prose and
-numbers drift silently.
+**vericlaim makes documentation, benchmarks and published results mechanically
+agree with the evidence that produced them.** Bind a number to its evidence
+once; from then on, any drift — in docs, code comments or papers — fails the
+build with the exact file and line. Not a convention. A CI gate that fails
+closed.
 
-Zero runtime dependencies · Python 3.11+ · one command to adopt.
+Think of it as **CI/CD for claims**: type checking for documentation,
+Git-grade integrity for the things your project says about itself.
+
+Zero runtime dependencies · Python 3.11+ · one command to adopt · built for
+AI-authored code and prose (that is the point).
+
+---
+
+## Watch it stop a lie (60 seconds)
+
+```bash
+pip install vericlaim        # or copy the zero-dependency vericlaim/ folder in
+cd your-project
+vericlaim init               # scaffolds config + register + baseline; overwrites nothing
+vericlaim                    # runs the gate — a fresh project passes immediately
+```
+
+Then make your first claim in three small edits:
+
+**1. Register the number** — `claims/register.yaml`:
+```yaml
+claims:
+  - id: CLAIM-PERF-001
+    statement: "The parser handles the 10k-line fixture under 200 ms."
+    evidence_level: benchmarked
+    artifact: [results/parse_bench.json]   # a committed file that proves it
+    metrics: { p95_ms: 180 }
+    caveat: "CI hardware, single fixture; not a guarantee under load."
+```
+
+**2. Bind a doc to it** — in any file matched by `doc_globs`:
+```markdown
+<!-- claim:CLAIM-PERF-001 p95_ms -->
+The parser runs the 10k-line fixture with a p95 latency of **180 ms**.
+```
+
+**3. Run the gate** — `vericlaim`. Green. Now change `180` to `190` in the doc
+only and run it again: it **fails with the exact file:line**. That is the entire
+product.
+
+Full walkthrough: [`docs/getting-started.md`](docs/getting-started.md).
 
 ---
 
@@ -67,42 +110,6 @@ Where Bertrand Meyer's **Design by Contract** put pre/post-conditions on
 *functions*, checked at *run time*, vericlaim puts contracts on the *project's
 claims about itself*, checked in *CI*. Same discipline, lifted a level, for a new
 era. The full argument: [`docs/manifesto.md`](docs/manifesto.md) (5-minute read).
-
----
-
-## Quickstart (60 seconds)
-
-```bash
-pip install vericlaim        # or copy the zero-dependency vericlaim/ folder in
-cd your-project
-vericlaim init               # scaffolds config + register + baseline; overwrites nothing
-vericlaim                    # runs the gate — a fresh project passes immediately
-```
-
-Then make your first claim in three small edits:
-
-**1. Register the number** — `claims/register.yaml`:
-```yaml
-claims:
-  - id: CLAIM-PERF-001
-    statement: "The parser handles the 10k-line fixture under 200 ms."
-    evidence_level: benchmarked
-    artifact: [results/parse_bench.json]   # a committed file that proves it
-    metrics: { p95_ms: 180 }
-    caveat: "CI hardware, single fixture; not a guarantee under load."
-```
-
-**2. Bind a doc to it** — in any file matched by `doc_globs`:
-```markdown
-<!-- claim:CLAIM-PERF-001 p95_ms -->
-The parser runs the 10k-line fixture with a p95 latency of **180 ms**.
-```
-
-**3. Run the gate** — `vericlaim`. Green. Now change `180` to `190` in the doc
-only and run it again: it **fails with the exact file:line**. That is the entire
-product.
-
-Full walkthrough: [`docs/getting-started.md`](docs/getting-started.md).
 
 ---
 
