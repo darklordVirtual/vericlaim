@@ -1,0 +1,937 @@
+# The canonical research map — the coverage contract for the literature
+# catalog. Edited by curators; validated fail-closed by canon.py.
+# Approved research map: docs/superpowers/specs/2026-07-05-literature-rag-design.md
+
+[[work]]
+id = "shannon-1948"
+collection = "01_uncertainty_and_routing"
+title = "A Mathematical Theory of Communication"
+authors = ["Shannon"]
+year = 1948
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "bayes-1763"
+collection = "01_uncertainty_and_routing"
+title = "An Essay towards solving a Problem in the Doctrine of Chances"
+authors = ["Bayes"]
+year = 1763
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "valiant-pac-1984"
+collection = "01_uncertainty_and_routing"
+title = "A Theory of the Learnable"
+authors = ["Valiant"]
+year = 1984
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "vc-1971"
+collection = "01_uncertainty_and_routing"
+title = "On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities"
+authors = ["Vapnik", "Chervonenkis"]
+year = 1971
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "nfl-opt-1997"
+collection = "01_uncertainty_and_routing"
+title = "No Free Lunch Theorems for Optimization"
+authors = ["Wolpert", "Macready"]
+year = 1997
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "guo-calibration-2017"
+collection = "01_uncertainty_and_routing"
+title = "On Calibration of Modern Neural Networks"
+authors = ["Guo"]
+year = 2017
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "selective-2017"
+collection = "01_uncertainty_and_routing"
+title = "Selective Classification for Deep Neural Networks"
+authors = ["Geifman", "El-Yaniv"]
+year = 2017
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "gentle-conformal-2021"
+collection = "01_uncertainty_and_routing"
+title = "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification"
+authors = ["Angelopoulos", "Bates"]
+year = 2021
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "conformal-risk-2022"
+collection = "01_uncertainty_and_routing"
+title = "Conformal Risk Control"
+authors = ["Angelopoulos"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "confidence-seq-2021"
+collection = "01_uncertainty_and_routing"
+title = "Time-uniform, nonparametric, nonasymptotic confidence sequences"
+authors = ["Howard"]
+year = 2021
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "attention-2017"
+collection = "02_llm_and_agent_architectures"
+title = "Attention Is All You Need"
+authors = ["Vaswani"]
+year = 2017
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "scaling-laws-2020"
+collection = "02_llm_and_agent_architectures"
+title = "Scaling Laws for Neural Language Models"
+authors = ["Kaplan"]
+year = 2020
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "chinchilla-2022"
+collection = "02_llm_and_agent_architectures"
+title = "Training Compute-Optimal Large Language Models"
+authors = ["Hoffmann"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "instructgpt-2022"
+collection = "02_llm_and_agent_architectures"
+title = "Training language models to follow instructions with human feedback"
+authors = ["Ouyang"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "constitutional-ai-2022"
+collection = "02_llm_and_agent_architectures"
+title = "Constitutional AI: Harmlessness from AI Feedback"
+authors = ["Bai"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "dpo-2023"
+collection = "02_llm_and_agent_architectures"
+title = "Direct Preference Optimization: Your Language Model is Secretly a Reward Model"
+authors = ["Rafailov"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "superposition-2022"
+collection = "02_llm_and_agent_architectures"
+title = "Toy Models of Superposition"
+authors = ["Elhage"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "monosemanticity-2023"
+collection = "02_llm_and_agent_architectures"
+title = "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning"
+authors = ["Bricken"]
+year = 2023
+kind = "report"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "rag-2020"
+collection = "02_llm_and_agent_architectures"
+title = "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+authors = ["Lewis"]
+year = 2020
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "cot-2022"
+collection = "02_llm_and_agent_architectures"
+title = "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+authors = ["Wei"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "react-2022"
+collection = "02_llm_and_agent_architectures"
+title = "ReAct: Synergizing Reasoning and Acting in Language Models"
+authors = ["Yao"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "toolformer-2023"
+collection = "02_llm_and_agent_architectures"
+title = "Toolformer: Language Models Can Teach Themselves to Use Tools"
+authors = ["Schick"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "reflexion-2023"
+collection = "02_llm_and_agent_architectures"
+title = "Reflexion: Language Agents with Verbal Reinforcement Learning"
+authors = ["Shinn"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "tree-of-thoughts-2023"
+collection = "02_llm_and_agent_architectures"
+title = "Tree of Thoughts: Deliberate Problem Solving with Large Language Models"
+authors = ["Yao"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "self-rag-2023"
+collection = "02_llm_and_agent_architectures"
+title = "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"
+authors = ["Asai"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "memgpt-2023"
+collection = "02_llm_and_agent_architectures"
+title = "MemGPT: Towards LLMs as Operating Systems"
+authors = ["Packer"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "truthfulqa-2021"
+collection = "03_evaluation_and_calibration"
+title = "TruthfulQA: Measuring How Models Mimic Human Falsehoods"
+authors = ["Lin"]
+year = 2021
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "mmlu-2020"
+collection = "03_evaluation_and_calibration"
+title = "Measuring Massive Multitask Language Understanding"
+authors = ["Hendrycks"]
+year = 2020
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "big-bench-2022"
+collection = "03_evaluation_and_calibration"
+title = "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models"
+authors = ["Srivastava"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "helm-2022"
+collection = "03_evaluation_and_calibration"
+title = "Holistic Evaluation of Language Models"
+authors = ["Liang"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "humaneval-2021"
+collection = "03_evaluation_and_calibration"
+title = "Evaluating Large Language Models Trained on Code"
+authors = ["Chen"]
+year = 2021
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "swe-bench-2023"
+collection = "03_evaluation_and_calibration"
+title = "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+authors = ["Jimenez"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "agentharm-2024"
+collection = "03_evaluation_and_calibration"
+title = "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"
+authors = ["Andriushchenko"]
+year = 2024
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "agentdojo-2024"
+collection = "03_evaluation_and_calibration"
+title = "AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents"
+authors = ["Debenedetti"]
+year = 2024
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "tau-bench-2024"
+collection = "03_evaluation_and_calibration"
+title = "tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+authors = ["Yao"]
+year = 2024
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "prompt-injection-2023"
+collection = "04_agent_security"
+title = "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection"
+authors = ["Greshake"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "injecagent-2024"
+collection = "04_agent_security"
+title = "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents"
+authors = ["Zhan"]
+year = 2024
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "anderson-monitor-1972"
+collection = "04_agent_security"
+title = "Computer Security Technology Planning Study"
+authors = ["Anderson"]
+year = 1972
+kind = "report"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "capabilities-1966"
+collection = "04_agent_security"
+title = "Programming Semantics for Multiprogrammed Computations"
+authors = ["Dennis", "Van Horn"]
+year = 1966
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "saltzer-schroeder-1975"
+collection = "04_agent_security"
+title = "The Protection of Information in Computer Systems"
+authors = ["Saltzer", "Schroeder"]
+year = 1975
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "intriguing-2013"
+collection = "04_agent_security"
+title = "Intriguing properties of neural networks"
+authors = ["Szegedy"]
+year = 2013
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "adversarial-2014"
+collection = "04_agent_security"
+title = "Explaining and Harnessing Adversarial Examples"
+authors = ["Goodfellow"]
+year = 2014
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "carlini-wagner-2017"
+collection = "04_agent_security"
+title = "Towards Evaluating the Robustness of Neural Networks"
+authors = ["Carlini", "Wagner"]
+year = 2017
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "model-extraction-2016"
+collection = "04_agent_security"
+title = "Stealing Machine Learning Models via Prediction APIs"
+authors = ["Tramer"]
+year = 2016
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "universal-attacks-2023"
+collection = "04_agent_security"
+title = "Universal and Transferable Adversarial Attacks on Aligned Language Models"
+authors = ["Zou"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "extracting-training-2020"
+collection = "04_agent_security"
+title = "Extracting Training Data from Large Language Models"
+authors = ["Carlini"]
+year = 2020
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "mirai-2017"
+collection = "04_agent_security"
+title = "Understanding the Mirai Botnet"
+authors = ["Antonakakis"]
+year = 2017
+kind = "paper"
+registrar = "web"
+
+[[work]]
+id = "nist-ai-rmf-2023"
+collection = "05_ai_governance"
+title = "Artificial Intelligence Risk Management Framework (AI RMF 1.0)"
+authors = ["NIST"]
+year = 2023
+kind = "standard"
+registrar = "doi"
+p0 = true
+top15 = true
+
+[[work]]
+id = "nist-genai-2024"
+collection = "05_ai_governance"
+title = "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile"
+authors = ["NIST"]
+year = 2024
+kind = "standard"
+registrar = "doi"
+p0 = true
+
+[[work]]
+id = "eu-ai-act-2024"
+collection = "05_ai_governance"
+title = "Regulation (EU) 2024/1689 (Artificial Intelligence Act)"
+authors = ["European Parliament", "Council"]
+year = 2024
+kind = "standard"
+registrar = "web"
+p0 = true
+top15 = true
+
+[[work]]
+id = "iso-42001-2023"
+collection = "05_ai_governance"
+title = "ISO/IEC 42001:2023 Artificial intelligence management system"
+authors = ["ISO"]
+year = 2023
+kind = "standard"
+registrar = "web"
+p0 = true
+top15 = true
+
+[[work]]
+id = "model-cards-2019"
+collection = "05_ai_governance"
+title = "Model Cards for Model Reporting"
+authors = ["Mitchell"]
+year = 2019
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "datasheets-2018"
+collection = "05_ai_governance"
+title = "Datasheets for Datasets"
+authors = ["Gebru"]
+year = 2018
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+top15 = true
+
+[[work]]
+id = "factsheets-2019"
+collection = "05_ai_governance"
+title = "FactSheets: Increasing trust in AI services through supplier's declarations of conformity"
+authors = ["Arnold"]
+year = 2019
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "aia-2018"
+collection = "05_ai_governance"
+title = "Algorithmic Impact Assessments: A Practical Framework for Public Agency Accountability"
+authors = ["Reisman"]
+year = 2018
+kind = "report"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "verifiable-claims-2020"
+collection = "05_ai_governance"
+title = "Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims"
+authors = ["Brundage"]
+year = 2020
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "sculley-debt-2015"
+collection = "06_mlops_and_enterprise_architecture"
+title = "Hidden Technical Debt in Machine Learning Systems"
+authors = ["Sculley"]
+year = 2015
+kind = "paper"
+registrar = "web"
+p0 = true
+top15 = true
+
+[[work]]
+id = "ml-test-score-2017"
+collection = "06_mlops_and_enterprise_architecture"
+title = "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction"
+authors = ["Breck"]
+year = 2017
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "rules-of-ml"
+collection = "06_mlops_and_enterprise_architecture"
+title = "Rules of Machine Learning: Best Practices for ML Engineering"
+authors = ["Zinkevich"]
+kind = "spec"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "data-cascades-2021"
+collection = "06_mlops_and_enterprise_architecture"
+title = "\"Everyone wants to do the model work, not the data work\": Data Cascades in High-Stakes AI"
+authors = ["Sambasivan"]
+year = 2021
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "dataset-shift-2009"
+collection = "06_mlops_and_enterprise_architecture"
+title = "Dataset Shift in Machine Learning"
+authors = ["Quionero-Candela"]
+year = 2009
+kind = "book"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "cap-2002"
+collection = "06_mlops_and_enterprise_architecture"
+title = "Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services"
+authors = ["Gilbert", "Lynch"]
+year = 2002
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "raft-2014"
+collection = "06_mlops_and_enterprise_architecture"
+title = "In Search of an Understandable Consensus Algorithm"
+authors = ["Ongaro", "Ousterhout"]
+year = 2014
+kind = "paper"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "event-sourcing"
+collection = "06_mlops_and_enterprise_architecture"
+title = "Event Sourcing"
+authors = ["Fowler"]
+kind = "spec"
+registrar = "web"
+
+[[work]]
+id = "ddd-2003"
+collection = "06_mlops_and_enterprise_architecture"
+title = "Domain-Driven Design: Tackling Complexity in the Heart of Software"
+authors = ["Evans"]
+year = 2003
+kind = "book"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "c4-model"
+collection = "06_mlops_and_enterprise_architecture"
+title = "The C4 model for visualising software architecture"
+authors = ["Brown"]
+kind = "spec"
+registrar = "web"
+
+[[work]]
+id = "prov-dm-2013"
+collection = "07_provenance_and_supply_chain"
+title = "PROV-DM: The PROV Data Model"
+authors = ["W3C"]
+year = 2013
+kind = "standard"
+registrar = "web"
+p0 = true
+top15 = true
+
+[[work]]
+id = "slsa-v1"
+collection = "07_provenance_and_supply_chain"
+title = "SLSA: Supply-chain Levels for Software Artifacts"
+authors = ["SLSA"]
+kind = "spec"
+registrar = "web"
+p0 = true
+top15 = true
+
+[[work]]
+id = "in-toto-2019"
+collection = "07_provenance_and_supply_chain"
+title = "in-toto: Providing farm-to-table guarantees for bits and bytes"
+authors = ["Torres-Arias"]
+year = 2019
+kind = "paper"
+registrar = "web"
+p0 = true
+top15 = true
+
+[[work]]
+id = "sigstore-2022"
+collection = "07_provenance_and_supply_chain"
+title = "Sigstore: Software Signing for Everybody"
+authors = ["Newman"]
+year = 2022
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "tuf-2010"
+collection = "07_provenance_and_supply_chain"
+title = "Survivable Key Compromise in Software Update Systems"
+authors = ["Samuel"]
+year = 2010
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "nist-ssdf-2022"
+collection = "07_provenance_and_supply_chain"
+title = "Secure Software Development Framework (SSDF) Version 1.1"
+authors = ["NIST"]
+year = 2022
+kind = "standard"
+registrar = "doi"
+p0 = true
+
+[[work]]
+id = "nist-zta-2020"
+collection = "07_provenance_and_supply_chain"
+title = "Zero Trust Architecture"
+authors = ["NIST"]
+year = 2020
+kind = "standard"
+registrar = "doi"
+p0 = true
+
+[[work]]
+id = "pcc-1997"
+collection = "07_provenance_and_supply_chain"
+title = "Proof-Carrying Code"
+authors = ["Necula"]
+year = 1997
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "dbc-1992"
+collection = "07_provenance_and_supply_chain"
+title = "Applying \"Design by Contract\""
+authors = ["Meyer"]
+year = 1992
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "trusting-trust-1984"
+collection = "07_provenance_and_supply_chain"
+title = "Reflections on Trusting Trust"
+authors = ["Thompson"]
+year = 1984
+kind = "paper"
+registrar = "crossref"
+
+[[work]]
+id = "tla-1994"
+collection = "08_formal_methods"
+title = "The Temporal Logic of Actions"
+authors = ["Lamport"]
+year = 1994
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "model-checking-1981"
+collection = "08_formal_methods"
+title = "Design and Synthesis of Synchronization Skeletons Using Branching Time Temporal Logic"
+authors = ["Clarke", "Emerson"]
+year = 1981
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "z3-2008"
+collection = "08_formal_methods"
+title = "Z3: An Efficient SMT Solver"
+authors = ["de Moura", "Bjorner"]
+year = 2008
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "lean4-2021"
+collection = "08_formal_methods"
+title = "The Lean 4 Theorem Prover and Programming Language"
+authors = ["de Moura", "Ullrich"]
+year = 2021
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "isabelle-2002"
+collection = "08_formal_methods"
+title = "Isabelle/HOL: A Proof Assistant for Higher-Order Logic"
+authors = ["Nipkow", "Paulson", "Wenzel"]
+year = 2002
+kind = "book"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "quickcheck-2000"
+collection = "08_formal_methods"
+title = "QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs"
+authors = ["Claessen", "Hughes"]
+year = 2000
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "metamorphic-2018"
+collection = "08_formal_methods"
+title = "Metamorphic Testing: A Review of Challenges and Opportunities"
+authors = ["Chen"]
+year = 2018
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "fairness-awareness-2012"
+collection = "09_fairness_privacy_and_human_impact"
+title = "Fairness Through Awareness"
+authors = ["Dwork"]
+year = 2012
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "equality-opportunity-2016"
+collection = "09_fairness_privacy_and_human_impact"
+title = "Equality of Opportunity in Supervised Learning"
+authors = ["Hardt", "Price", "Srebro"]
+year = 2016
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "gender-shades-2018"
+collection = "09_fairness_privacy_and_human_impact"
+title = "Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification"
+authors = ["Buolamwini", "Gebru"]
+year = 2018
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "fairness-abstraction-2019"
+collection = "09_fairness_privacy_and_human_impact"
+title = "Fairness and Abstraction in Sociotechnical Systems"
+authors = ["Selbst"]
+year = 2019
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "membership-inference-2017"
+collection = "09_fairness_privacy_and_human_impact"
+title = "Membership Inference Attacks Against Machine Learning Models"
+authors = ["Shokri"]
+year = 2017
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "dp-sgd-2016"
+collection = "09_fairness_privacy_and_human_impact"
+title = "Deep Learning with Differential Privacy"
+authors = ["Abadi"]
+year = 2016
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "calibrating-noise-2006"
+collection = "09_fairness_privacy_and_human_impact"
+title = "Calibrating Noise to Sensitivity in Private Data Analysis"
+authors = ["Dwork"]
+year = 2006
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "runtime-verification-2009"
+collection = "10_assurance_cases_and_runtime_verification"
+title = "A brief account of runtime verification"
+authors = ["Leucker", "Schallhart"]
+year = 2009
+kind = "paper"
+registrar = "crossref"
+p0 = true
+
+[[work]]
+id = "gsn-standard"
+collection = "10_assurance_cases_and_runtime_verification"
+title = "Goal Structuring Notation Community Standard"
+authors = ["SCSC"]
+kind = "standard"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "assurance-cases-2010"
+collection = "10_assurance_cases_and_runtime_verification"
+title = "Safety and Assurance Cases: Past, Present and Possible Future"
+authors = ["Bloomfield", "Bishop"]
+year = 2010
+kind = "paper"
+registrar = "crossref"
+p0 = true
