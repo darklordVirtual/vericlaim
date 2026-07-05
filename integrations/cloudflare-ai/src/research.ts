@@ -16,7 +16,14 @@ const RERANK_MODEL = "@cf/baai/bge-reranker-base";
 const GEN_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
 const RETRIEVE_K = 8;
 const USE_K = 4;
-const REFUSE_COSINE = 0.42;
+// Two-stage refusal bar. Cosine over a 5k-chunk corpus is a weak
+// discriminator (off-corpus queries still hit ~0.66), so the reranker's
+// relevance score decides; cosine is only the cheap floor. When the
+// reranker is unavailable we fall back to a STRICT cosine bar — this
+// oracle prefers a false refusal over a fluent overclaim.
+const REFUSE_COSINE_FLOOR = 0.55;
+const REFUSE_RERANK = 0.2;
+const REFUSE_COSINE_FALLBACK = 0.78;
 const EMBED_BATCH = 20;
 
 export interface WorkIn {
@@ -198,6 +205,7 @@ export interface ResearchAnswer {
   refused: boolean;
   answer: string;
   citations: { work_id: string; sha: string; section: string }[];
+  diagnostics?: { top_cosine: number; top_rerank: number | null };
 }
 
 const REFUSAL = "No cataloged literature supports an answer to this. The " +
@@ -209,9 +217,13 @@ export async function askResearch(env: Env, query: string): Promise<ResearchAnsw
   const res = await env.VECTORIZE_LIT.query(vector, {
     topK: RETRIEVE_K, returnMetadata: "all",
   });
-  const relevant = res.matches.filter((m) => m.score >= REFUSE_COSINE);
+  const topCosine = res.matches[0]?.score ?? 0;
+  const relevant = res.matches.filter((m) => m.score >= REFUSE_COSINE_FLOOR);
   if (!relevant.length) {
-    return { query, refused: true, answer: REFUSAL, citations: [] };
+    return {
+      query, refused: true, answer: REFUSAL, citations: [],
+      diagnostics: { top_cosine: topCosine, top_rerank: null },
+    };
   }
 
   // Full chunk texts from the vault for reranking + grounding.
@@ -227,6 +239,7 @@ export async function askResearch(env: Env, query: string): Promise<ResearchAnsw
   }
 
   let ordered = withText;
+  let topRerank: number | null = null;
   try {
     const run = env.AI.run.bind(env.AI) as (m: string, i: unknown) => Promise<unknown>;
     const out = (await run(RERANK_MODEL, {
@@ -234,8 +247,20 @@ export async function askResearch(env: Env, query: string): Promise<ResearchAnsw
     })) as { response?: { id: number; score: number }[] };
     if (Array.isArray(out.response) && out.response.length) {
       ordered = out.response.map((r) => withText[r.id]).filter(Boolean);
+      topRerank = out.response[0]?.score ?? null;
     }
-  } catch { /* rerank is best-effort; cosine order stands */ }
+  } catch { /* rerank unavailable; the strict cosine fallback decides below */ }
+
+  // The refusal decision: reranker when we have it, strict cosine otherwise.
+  const refuse = topRerank !== null
+    ? topRerank < REFUSE_RERANK
+    : topCosine < REFUSE_COSINE_FALLBACK;
+  if (refuse) {
+    return {
+      query, refused: true, answer: REFUSAL, citations: [],
+      diagnostics: { top_cosine: topCosine, top_rerank: topRerank },
+    };
+  }
   ordered = ordered.slice(0, USE_K);
 
   const context = ordered.map((c, i) =>
@@ -268,6 +293,7 @@ export async function askResearch(env: Env, query: string): Promise<ResearchAnsw
     citations: ordered.map((c) => ({
       work_id: c.hit.work_id, sha: c.hit.sha, section: c.hit.section,
     })),
+    diagnostics: { top_cosine: topCosine, top_rerank: topRerank },
   };
 }
 
