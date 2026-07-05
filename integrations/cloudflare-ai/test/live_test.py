@@ -120,6 +120,40 @@ def main() -> int:
     st, _, body = http("GET", base + "/passport")
     check("passport page", st == 200 and "<title>" in body)
 
+    # --- research layer: vectorized literature -------------------------------
+    st, _, body = http("GET", base + "/research/summary")
+    rs = json.loads(body) if st == 200 else {}
+    research_on = st == 200 and rs.get("works", 0) > 0
+    check("research summary", st == 200,
+          f"works={rs.get('works')}, chunks={rs.get('chunks')}, "
+          f"tiers={rs.get('by_tier')}" if research_on
+          else "research layer empty — push_literature.py first")
+
+    if research_on:
+        st, _, body = http("GET", base + "/research/search?q=" +
+                           urllib.parse.quote("conformal risk control"))
+        hits = json.loads(body).get("hits", [])
+        check("research search finds conformal risk control",
+              st == 200 and any("conformal" in (h.get("title") or "").lower()
+                                for h in hits),
+              f"top: {hits[0]['work_id'] if hits else 'none'}")
+
+        st, _, body = http("GET", base + "/research/ask?q=" +
+                           urllib.parse.quote(
+                               "what does conformal risk control guarantee"))
+        ra = json.loads(body)
+        check("research oracle grounds an answer",
+              st == 200 and not ra.get("refused") and ra.get("citations"),
+              f"cites {[c['work_id'] for c in ra.get('citations', [])][:3]}")
+
+        st, _, body = http("GET", base + "/research/ask?q=" +
+                           urllib.parse.quote(
+                               "what does the canon say about quantum "
+                               "gravity and stellar nucleosynthesis"))
+        ra = json.loads(body)
+        check("research oracle refuses the off-corpus",
+              ra.get("refused") is True, "refused as designed")
+
     # --- MCP -----------------------------------------------------------------
     st, hdr, body = http("POST", mcp, {
         "jsonrpc": "2.0", "id": 1, "method": "initialize",
@@ -142,8 +176,19 @@ def main() -> int:
             return parse_mcp(b) or {}
 
         tools = [t["name"] for t in call("tools/list", {}).get("result", {}).get("tools", [])]
-        want = {"search_claims", "ask_claims", "get_claim_history", "verify_claim"}
-        check("mcp exposes 4 tools", want.issubset(set(tools)), f"{tools}")
+        want = {"search_claims", "ask_claims", "get_claim_history", "verify_claim",
+                "search_library", "get_bundle", "search_literature_rag",
+                "ask_research"}
+        check("mcp exposes 8 tools", want.issubset(set(tools)), f"{tools}")
+
+        if research_on:
+            r = call("tools/call", {"name": "search_literature_rag",
+                                    "arguments": {"query": "prompt injection "
+                                                  "in tool-integrated agents",
+                                                  "topK": 3}})
+            txt = (r.get("result", {}).get("content") or [{}])[0].get("text", "")
+            check("mcp search_literature_rag", bool(txt) and "error" not in r,
+                  f"{len(txt)} chars")
 
         for tool, arg in [("search_claims", {"query": "result", "topK": 2}),
                           ("ask_claims", {"query": "what has this project proven"}),
