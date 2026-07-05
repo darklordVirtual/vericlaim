@@ -9,6 +9,7 @@ avhengigheter.
 | `vericlaim-deck.html` | 26-sliders presentasjon (mørk, piltast-navigasjon) | Åpne i nettleser for forhåndsvisning; rediger HTML direkte — hver slide er en `<section class="slide">`, all CSS ligger øverst i filen. Illustrasjonene er inline SVG. |
 | `vericlaim-manus.html` / `.md` | Foredragsmanus (~25 min) med talt tekst, regi og Q&A | Rediger `.md`-versjonen for tekstarbeid; `.html` er den formaterte utgaven. |
 | `vericlaim-whitepaper.html` / `.md` | Whitepaper med executive summary, funn F1–F5 og nøkkeltall | Samme mønster: `.md` for tekst, `.html` for det delbare uttrykket. |
+| `library-catalog.md` | Katalog over claims-biblioteket — unike oppføringer, gruppert per kilde | GENERERES: `python3 integrations/library/catalog.py --url <worker> --out presentation/library-catalog.md` — håndrediger aldri. |
 
 **Forhåndsvisning:** åpne HTML-filene rett i nettleser (`open presentation/vericlaim-deck.html`).
 **PDF:** nettleserens print-dialog — filene er print-tilpasset.

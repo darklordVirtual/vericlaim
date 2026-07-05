@@ -15,6 +15,11 @@ once; from then on, any drift — in docs, code comments or papers — fails the
 build with the exact file and line. Not a convention. A CI gate that fails
 closed.
 
+And it is not just prose: the same contract covers **code and reusable
+parts**. Comment anchors hold source files to the register, machine-checked
+theorems ship as claims, and modules vendored from the claims library carry
+binding tests — edit one vendored line and your own suite fails.
+
 Think of it as **CI/CD for claims**: type checking for documentation,
 Git-grade integrity for the things your project says about itself.
 
