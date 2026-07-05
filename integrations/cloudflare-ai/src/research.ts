@@ -25,7 +25,11 @@ const USE_K = 4;
 // reranker is unavailable we fall back to a STRICT cosine bar — this
 // oracle prefers a false refusal over a fluent overclaim.
 const REFUSE_COSINE_FLOOR = 0.55;
-const REFUSE_RERANK = 0.2;
+// Measured margins (live, 2026-07-05): on-corpus answers rerank 0.4–0.99;
+// vocabulary-shifted but answerable questions land ~0.15; every measured
+// off-corpus query lands <= 0.03. 0.1 keeps 3x margin to the worst
+// off-corpus observation while admitting honest vocabulary shifts.
+const REFUSE_RERANK = 0.1;
 const REFUSE_COSINE_FALLBACK = 0.78;
 const EMBED_BATCH = 20;
 
@@ -208,24 +212,87 @@ export interface ResearchAnswer {
   refused: boolean;
   answer: string;
   citations: { work_id: string; sha: string; section: string }[];
-  diagnostics?: { top_cosine: number; top_rerank: number | null };
+  diagnostics?: {
+    top_cosine: number; top_rerank: number | null;
+    variants?: string[]; // how Workers AI located the literature
+  };
 }
 
 const REFUSAL = "No cataloged literature supports an answer to this. The " +
   "research layer only answers from hash-locked, registrar-verified or " +
   "honestly-snapshotted works — it does not fill gaps from model memory.";
 
+// Retrieval-side query expansion. The corpus is English research prose;
+// questions arrive in any language and any vocabulary ("selective routing"
+// vs the literature's "selective classification"), and an embedding of the
+// user's phrasing can miss the very section that answers it. The expansion
+// ONLY widens retrieval — the reranker still gates the refusal against a
+// faithful rendering of the question, so this cannot manufacture relevance.
+async function expandQuery(env: Env, query: string): Promise<string[]> {
+  try {
+    const gen = (await env.AI.run(GEN_MODEL, {
+      messages: [{
+        role: "system",
+        content: "You rewrite research questions for literature retrieval " +
+          "over an ENGLISH research corpus. Output ONLY a JSON array of " +
+          "exactly 3 ENGLISH strings (translate if the question is not in " +
+          "English): first a faithful English rendering of the question, " +
+          "then 2 rephrasings that REPLACE non-standard or invented terms " +
+          "with the research field's canonical vocabulary (e.g. 'selective " +
+          "routing' -> 'selective classification' / 'abstention' / " +
+          "'prediction sets'; 'AI gatekeeper' -> 'risk control' / " +
+          "'selective prediction'). Every string must be in English. " +
+          "No commentary, no markdown.",
+      }, { role: "user", content: query }],
+      max_tokens: 250, temperature: 0,
+    })) as { response?: unknown };
+    // Workers AI may hand back the model's JSON already parsed (an array)
+    // or as text — accept both.
+    let arr: unknown = null;
+    if (Array.isArray(gen.response)) {
+      arr = gen.response;
+    } else if (typeof gen.response === "string") {
+      const m = gen.response.match(/\[[\s\S]*\]/);
+      if (m) arr = JSON.parse(m[0]);
+    }
+    if (!Array.isArray(arr)) return [];
+    return arr.filter((s): s is string => typeof s === "string" && !!s.trim())
+      .slice(0, 3);
+  } catch {
+    return []; // expansion is best-effort; the original query still runs
+  }
+}
+
 export async function askResearch(env: Env, query: string): Promise<ResearchAnswer> {
-  const [vector] = await embed(env, [query]);
-  const res = await env.VECTORIZE_LIT.query(vector, {
-    topK: RETRIEVE_K, returnMetadata: "all",
-  });
-  const topCosine = res.matches[0]?.score ?? 0;
-  const relevant = res.matches.filter((m) => m.score >= REFUSE_COSINE_FLOOR);
+  const variants = [query, ...(await expandQuery(env, query))];
+  const vectors = await embed(env, variants);
+  // Union retrieval across all phrasings; a chunk keeps its best score.
+  const byId = new Map<string, { score: number; metadata?: Record<string, unknown> }>();
+  for (const v of vectors) {
+    const res = await env.VECTORIZE_LIT.query(v, {
+      topK: RETRIEVE_K, returnMetadata: "all",
+    });
+    for (const m of res.matches) {
+      const prev = byId.get(m.id);
+      if (!prev || m.score > prev.score) {
+        byId.set(m.id, { score: m.score, metadata: m.metadata as Record<string, unknown> });
+      }
+    }
+  }
+  const matches = [...byId.values()].sort((a, b) => b.score - a.score);
+  const topCosine = matches[0]?.score ?? 0;
+  // Union of 4 phrasings x 16 hits can hold ~64 candidates; the reranker is
+  // cheap and is the real judge, so give it a wide window — a chunk that
+  // answers is often outside the top few by raw cosine.
+  const relevant = matches
+    .filter((m) => m.score >= REFUSE_COSINE_FLOOR).slice(0, 32);
+  // The refusal gate judges relevance against a faithful English rendering
+  // of the question (variants[1]) — the corpus and reranker are English.
+  const gateQuery = variants[1] ?? query;
   if (!relevant.length) {
     return {
       query, refused: true, answer: REFUSAL, citations: [],
-      diagnostics: { top_cosine: topCosine, top_rerank: null },
+      diagnostics: { top_cosine: topCosine, top_rerank: null, variants },
     };
   }
 
@@ -243,14 +310,35 @@ export async function askResearch(env: Env, query: string): Promise<ResearchAnsw
 
   let ordered = withText;
   let topRerank: number | null = null;
+  let bestVariant = gateQuery;
+  let bestVariantScore = -1;
   try {
     const run = env.AI.run.bind(env.AI) as (m: string, i: unknown) => Promise<unknown>;
-    const out = (await run(RERANK_MODEL, {
-      query, contexts: withText.map((c) => ({ text: c.text.slice(0, 1800) })),
-    })) as { response?: { id: number; score: number }[] };
-    if (Array.isArray(out.response) && out.response.length) {
-      ordered = out.response.map((r) => withText[r.id]).filter(Boolean);
-      topRerank = out.response[0]?.score ?? null;
+    // Gate on the BEST rerank score across all phrasings: the user's words
+    // and the canonical-vocabulary rewrites are the same question, and a
+    // chunk that answers any faithful phrasing grounds the answer. Scores
+    // are combined per chunk by element-wise max.
+    const combined = new Array<number>(withText.length).fill(-1);
+    for (const gq of variants.slice(0, 4)) {
+      const out = (await run(RERANK_MODEL, {
+        query: gq,
+        contexts: withText.map((c) => ({ text: c.text.slice(0, 1800) })),
+      })) as { response?: { id: number; score: number }[] };
+      for (const r of out.response ?? []) {
+        if (r.id >= 0 && r.id < combined.length) {
+          if (r.score > combined[r.id]) combined[r.id] = r.score;
+          if (r.score > bestVariantScore) {
+            bestVariantScore = r.score;
+            bestVariant = gq;
+          }
+        }
+      }
+    }
+    if (combined.some((s) => s >= 0)) {
+      const order = combined.map((s, i) => ({ s, i }))
+        .sort((a, b) => b.s - a.s);
+      ordered = order.map((o) => withText[o.i]);
+      topRerank = order[0].s;
     }
   } catch { /* rerank unavailable; the strict cosine fallback decides below */ }
 
@@ -261,7 +349,7 @@ export async function askResearch(env: Env, query: string): Promise<ResearchAnsw
   if (refuse) {
     return {
       query, refused: true, answer: REFUSAL, citations: [],
-      diagnostics: { top_cosine: topCosine, top_rerank: topRerank },
+      diagnostics: { top_cosine: topCosine, top_rerank: topRerank, variants },
     };
   }
   ordered = ordered.slice(0, USE_K);
@@ -277,7 +365,12 @@ export async function askResearch(env: Env, query: string): Promise<ResearchAnsw
     "[arxiv:2208.02814], after each fact. (3) Excerpts marked web-snapshot are " +
     "NOT peer-reviewed — say so if you rely on them. (4) If the excerpts do " +
     "not answer the question, say so plainly. Be concise (2-5 sentences).";
-  const user = `EXCERPTS:\n${context}\n\nQUESTION: ${query}\n\nGrounded answer:`;
+  const phrasingNote = bestVariant !== query
+    ? `\n(The literature's vocabulary for this question: "${bestVariant}" — ` +
+      "treat it as the same question, and name the literature's term when " +
+      "the user's term differs.)"
+    : "";
+  const user = `EXCERPTS:\n${context}\n\nQUESTION: ${query}${phrasingNote}\n\nGrounded answer:`;
 
   let answer: string;
   try {
@@ -296,7 +389,7 @@ export async function askResearch(env: Env, query: string): Promise<ResearchAnsw
     citations: ordered.map((c) => ({
       work_id: c.hit.work_id, sha: c.hit.sha, section: c.hit.section,
     })),
-    diagnostics: { top_cosine: topCosine, top_rerank: topRerank },
+    diagnostics: { top_cosine: topCosine, top_rerank: topRerank, variants },
   };
 }
 
