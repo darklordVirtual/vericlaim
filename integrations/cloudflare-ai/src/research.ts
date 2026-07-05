@@ -141,14 +141,14 @@ export async function ingestLiterature(
       };
     });
     await env.VECTORIZE_LIT.upsert(rows);
-    for (const c of slice) {
-      await putEvidence(env, new TextEncoder().encode(c.text));
-      await env.DB.prepare(
-        `INSERT OR IGNORE INTO literature_chunks (sha, fsid, seq, section, created_at)
-         VALUES (?1,?2,?3,?4,?5)`,
-      ).bind(c.sha, c.fsid, c.seq, c.section ?? "", ts).run();
-      indexed++;
-    }
+    await Promise.all(
+      slice.map((c) => putEvidence(env, new TextEncoder().encode(c.text))));
+    const stmt = env.DB.prepare(
+      `INSERT OR IGNORE INTO literature_chunks (sha, fsid, seq, section, created_at)
+       VALUES (?1,?2,?3,?4,?5)`);
+    await env.DB.batch(
+      slice.map((c) => stmt.bind(c.sha, c.fsid, c.seq, c.section ?? "", ts)));
+    indexed += slice.length;
   }
 
   return { works_upserted: workByFsid.size, indexed, skipped, rejected };
