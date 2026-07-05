@@ -90,8 +90,11 @@ export async function searchClaims(
   const [vector] = await embed(env, [query]);
   // Over-fetch and drop library vectors (`lib:*`) so project-claim search and
   // library search stay separate surfaces (see library.ts for the latter).
+  // Over-fetch generously: library vectors (`lib:*`) share this index and
+  // can outnumber project claims 50:1, so a small topK*2 window can come
+  // back all-library and filter down to zero real hits.
   const res = await env.VECTORIZE.query(vector, {
-    topK: Math.min(20, topK * 2), returnMetadata: "all",
+    topK: Math.min(50, Math.max(20, topK * 2)), returnMetadata: "all",
   });
   return res.matches
     .filter((m) => String(m.metadata?.library ?? "") !== "true")
