@@ -55,6 +55,28 @@ def add_work(root: Path, work: dict, retrieval: dict) -> str:
     return fsid
 
 
+def add_fulltext(root: Path, work_id: str, text: str, retrieval: dict) -> str:
+    """Attach a full-text snapshot to an existing work. Content-addressed
+    like abstracts; first snapshot wins — a work's full text never mutates
+    silently. Returns the (possibly pre-existing) fulltext sha."""
+    root = Path(root)
+    wpath = root / "works" / f"{_fsid(work_id)}.json"
+    if not wpath.exists():
+        raise KeyError(f"work not in catalog: {work_id}")
+    record = json.loads(wpath.read_text(encoding="utf-8"))
+    if record.get("fulltext_sha256"):
+        return record["fulltext_sha256"]
+    sha = _sha256(text.encode("utf-8"))
+    tpath = root / "texts" / f"{sha}.txt"
+    if not tpath.exists():
+        tpath.write_text(text, encoding="utf-8")
+    record["fulltext_sha256"] = sha
+    record["fulltext_retrieval"] = retrieval
+    wpath.write_text(json.dumps(record, indent=2, sort_keys=True,
+                                ensure_ascii=False) + "\n", encoding="utf-8")
+    return sha
+
+
 def link(root: Path, claim_id: str, work_id: str, *, method: str,
          score: float, ts: str) -> None:
     root = Path(root)
@@ -98,6 +120,15 @@ def verify(root: Path) -> list[str]:
         if actual != sha:
             problems.append(f"{wid}: text snapshot hash mismatch — stored "
                             f"text was altered after cataloging")
+        fsha = w.get("fulltext_sha256")
+        if fsha:
+            fpath = root / "texts" / f"{fsha}.txt"
+            if not fpath.exists():
+                problems.append(f"{wid}: fulltext snapshot missing "
+                                f"({fsha[:12]}…)")
+            elif _sha256(fpath.read_bytes()) != fsha:
+                problems.append(f"{wid}: fulltext snapshot hash mismatch — "
+                                f"stored text was altered after cataloging")
     for ln in _load_links(root):
         if ln["work_id"] not in works:
             problems.append(f"link {ln['claim_id']} -> {ln['work_id']}: "
