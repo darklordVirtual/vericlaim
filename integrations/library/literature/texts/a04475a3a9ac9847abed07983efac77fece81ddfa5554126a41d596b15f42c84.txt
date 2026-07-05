@@ -1,0 +1,14 @@
+Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.750. URL https://aclanthology.org/2020.emnlp-main.750. Kudo & Richardson (2018)
+
+Taku Kudo and John Richardson. SentencePiece: A simple and language independent subword
+tokenizer and detokenizer for neural text processing. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing: System Demonstrations, pp. 66--71, Brussels,
+Belgium, November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-2012. URL https://aclanthology.org/D18-2012. Kwiatkowski et al. (2019)
+
+Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur
+Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin,
+Kenton Lee, Kristina N. Toutanova, Llion Jones, Matthew Kelcey, Ming-Wei
+Chang, Andrew M. Dai, Jakob Uszkoreit, Quoc V. Le, and Slav Petrov. Natural questions: A benchmark for question answering research. Transactions of the Association for Computational Linguistics,
+7:453--466, 08 2019. doi: 10.1162/tacl_a_00276. URL https://doi.org/10.1162/tacl_a_00276. Kühl et al. (2020)
+
+Niklas Kühl, Marc Goutier, Lucas Baier, Clemens Wolff, and Dominik Martin.

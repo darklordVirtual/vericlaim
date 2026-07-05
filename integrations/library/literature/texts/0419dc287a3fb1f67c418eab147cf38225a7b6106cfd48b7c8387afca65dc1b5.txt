@@ -1,0 +1,14 @@
+784--789,
+Melbourne, Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/P18-2124. URL https://aclanthology.org/P18-2124. Rasmy et al. (2021)
+
+Laila Rasmy, Yang Xiang, Ziqian Xie, Cui Tao, and Degui Zhi. Med-BERT: Pretrained contextualized embeddings on large-scale
+structured electronic health records for disease prediction. npj Digital Medicine, 4(1):86, 2021. doi: 10.1038/s41746-021-00455-y. URL https://doi.org/10.1038/s41746-021-00455-y. Rastogi et al. (2020)
+
+Abhinav Rastogi, Xiaoxue Zang, Srinivas Sunkara, Raghav Gupta, and Pranav
+Khaitan. Towards scalable multi-domain conversational agents: The
+schema-guided dialogue dataset. In Proceedings of the AAAI Conference on Artificial
+Intelligence, volume 34, pp. 8689--8696, Menlo Park, CA, Apr. 2020. Association for the Advancement of Artificial Intelligence. doi: 10.1609/aaai.v34i05.6394. URL https://ojs.aaai.org/index.php/AAAI/article/view/6394. Ravenscroft (2019)
+
+Ian Ravenscroft. Folk psychology as a theory. In Edward N. Zalta (ed.), The Stanford Encyclopedia of
+Philosophy. Metaphysics Research Lab, Stanford University, Summer 2019
+edition, 2019. Reddy et al.

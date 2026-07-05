@@ -1,0 +1,10 @@
+Conformal prediction can also be adapted to handle unsupervised outlier detection. Here, we have access to a clean dataset and wish to detect when test points do not come from the same distribution. As before, we begin with a heuristic model that tries to identify outliers;
+a larger score means that the model judges the point more likely to be an outlier. We will then use a variant of conformal prediction to calibrate it
+to have statistical guarantees. In particular, we will
+guarantee that it does not return too many false positives. Formally, we will construct a function that labels test points as outliers or inliers, , such that
+
+(32)
+
+where the probability is over , a fresh sample from the clean-data distribution. The algorithm for achieving (32) is similar to the
+usual conformal algorithm. We start with a conformal score (note that
+since we are in the unsupervised setting, the score only depends on the features). Next, we compute the conformal score on the clean data: for .

@@ -1,0 +1,5 @@
+mechanisms section (see the subsections on red team exercises and bias and safety bounties), there is considerable value in independent third parties stress-testing the models developed by others. While "black box" testing can take place without access to significant compute resources (e.g., by remote access to an instance of the system), local replication for the purpose of testing could make testing easier, and could uncover further issues than those surfaced via remote testing alone. Additional computing resources may be especially needed for local testing of AI systems that are too large to run on a single computer (such as some recent language models). •
+
+Leveraging AI to test AI: as AI systems become more complex, it may be useful or even necessary to deploy adaptive, automated tests to explore potential failure modes or hidden biases, and such testing may become increasingly compute-intensive. •
+
+Verifying claims about compute requirements: as described above, accounting for the compute inputs of model training is currently an open challenge in AI development.

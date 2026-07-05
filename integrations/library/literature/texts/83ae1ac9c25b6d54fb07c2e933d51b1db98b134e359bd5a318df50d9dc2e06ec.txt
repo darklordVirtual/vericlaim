@@ -1,0 +1,4 @@
+•
+
+We show that Reflexion achieves improvements over strong baselines across several tasks, and achieves state-of-the-art results on various code generation benchmarks. Figure 1: Reflexion works on decision-making 4.1,
+programming 4.3, and reasoning 4.2 tasks.

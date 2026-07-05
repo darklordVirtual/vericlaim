@@ -1,0 +1,27 @@
+To store the prior value on the event needs more
+than a simple field since many cargoes can be affected by an
+arrival. So in this case I use a map indexed by the cargo. class Cargo... public void HandleArrival(ArrivalEvent ev) {
+ev.priorCargoInCanada[this] = _hasBeenInCanada;
+if ("CA" == ev.Port.Country)
+_hasBeenInCanada = true;
+}
+private bool _hasBeenInCanada = false;
+public bool HasBeenInCanada {get { return _hasBeenInCanada;}}
+
+class ArrivalEvent... internal Port priorPort;
+internal IDictionary priorCargoInCanada = new Hashtable();
+
+Then to reverse:
+
+class Cargo... public void ReverseArrival(ArrivalEvent ev) {
+_hasBeenInCanada = (bool) ev.priorCargoInCanada[this];
+}
+
+This example nicely illustrates how the source data on the
+event and the error handling affects how we do reversal. For the
+load event we need to store the port that the cargo was at when it
+was loaded. If the event included this on its source data we
+wouldn't have to do this. A bit of extra source data removes the
+need to add prior data. This doesn't work everywhere: the arrival
+event can't source the prior Canadian state of its cargoes. What's deemed correct processing can also make a
+difference.

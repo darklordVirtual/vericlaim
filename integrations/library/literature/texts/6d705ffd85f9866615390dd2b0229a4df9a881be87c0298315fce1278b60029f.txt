@@ -1,0 +1,5 @@
+Figure 8: Entropy curves of different estimation: KL-Only, Entropy-Only, Ours (Combination of KL and Entropy). The entropy curve of ours shows training stability compared to others. Analysis of Certainty Estimation Combination
+
+Complementing the effectiveness validation in Section 5, we further examine the training dynamics in Figure 8. We observe that single-metric supervision is prone to optimization pathology: optimizing Entropy only leads to entropy collapse, while KL only results in entropy explosion. In contrast, our estimation leverages the two metrics as mutual regularizers, effectively preventing both extremes to ensure a robust and stable training trajectory. Estimation Computation Overhead Analysis
+
+While visual certainty estimation is effective, it introduces additional computational overhead due to the second forward pass required to compute the KL divergence. We analyze this overhead in terms of both runtime and monetary cost, comparing our approach with self-consistency and external annotator baselines.

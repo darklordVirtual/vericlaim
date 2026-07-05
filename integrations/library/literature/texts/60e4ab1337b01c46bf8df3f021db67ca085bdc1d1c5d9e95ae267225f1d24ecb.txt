@@ -1,0 +1,15 @@
+In Daniel Kroening and Corina S. Păsăreanu (eds.),
+Computer Aided Verification, pp. 398--414, Cham, 2015. Springer
+International Publishing. doi: 10.1007/978-3-319-21690-4_23. URL https://doi.org/10.1007/978-3-319-21690-4_23. Singh & Gulwani (2016)
+
+Rishabh Singh and Sumit Gulwani. Transforming spreadsheet data types using examples. In Proceedings of the 43rd Annual ACM SIGPLAN-SIGACT Symposium
+on Principles of Programming Languages, POPL ’16, pp. 343–356, New
+York, NY, USA, 2016. Association for Computing Machinery. doi: 10.1145/2837614.2837668. URL https://doi.org/10.1145/2837614.2837668. Singh et al. (2021)
+
+Shikhar Singh, Nuan Wen, Yu Hou, Pegah Alipoormolabashi, Te-lin Wu, Xuezhe Ma,
+and Nanyun Peng. COM2SENSE: A commonsense reasoning benchmark with complementary
+sentences. In Findings of the Association for Computational Linguistics:
+ACL-IJCNLP 2021, pp. 883--898, Online, August 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.findings-acl.78. URL https://aclanthology.org/2021.findings-acl.78. Sinha et al. (2019)
+
+Koustuv Sinha, Shagun Sodhani, Jin Dong, Joelle Pineau, and William L. Hamilton.

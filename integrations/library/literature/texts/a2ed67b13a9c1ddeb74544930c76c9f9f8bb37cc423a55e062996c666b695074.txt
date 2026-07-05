@@ -1,0 +1,18 @@
+An empty collection ◊ is a collection without members. PROV-DM defines the following types related to collections:
+
+prov:Collection ◊ denotes an entity of type Collection, i.e. an entity that can participate in relations amongst collections;
+
+prov:EmptyCollection ◊ denotes an empty collection. PROV defines no collection-specific attributes. Example 46 ◊
+
+entity(c0, [ prov:type='prov:EmptyCollection' ]) // c0 is an empty collection
+entity(c1, [ prov:type='prov:Collection' ]) // c1 is a collection, with unknown content
+
+5.6.2 Membership
+
+A membership relation is defined for stating the members of a Collection. Membership ◊ is the belonging of an entity to a collection. A membership ◊ relation, written hadMember(c, e), has:
+
+collection: an identifier (c) for the collection whose member is asserted;
+
+entity: the identifier e of an entity that is member of the collection. Membership is not, as defined here, also an influence, and therefore does not have an id and attributes. Example 47 ◊
+
+In this example, c is a collection known to have e0, e1, and e2 as members, and may have other members.

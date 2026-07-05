@@ -8,6 +8,12 @@
     "Lihua Lei",
     "Tal Schuster"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:49.312977+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2208.02814"
+  },
+  "fulltext_sha256": "f3d6f0e01a419e61a5cff913252f7448fad3cc1d3af2bd9a93d0a974aa0ff22b",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "conformal-risk-2022",

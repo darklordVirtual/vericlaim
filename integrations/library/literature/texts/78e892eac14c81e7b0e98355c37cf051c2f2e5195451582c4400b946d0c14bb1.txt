@@ -1,0 +1,3 @@
+Despite many packages being free, there are clear rewards for developers and firms that have high-use packages, and free packages can be wrappers for paid products. Thus, the patterns of importing in Codex and other code generation models could have substantial economic implications for those who build and maintain packages, as well as safety or security implications.\cprotect272727As one example, we looked at completions of the prompt:
+
+# import machine learning packageΩimportΩ\end{verbatim} and found that over 100 completions of 100 tokens, 6 contained suggestions for TensorFlow and 3 for PyTorch, two libraries that are rough substitutes. Many commonly used packages are fairly entrenched and there can be high switching costs.

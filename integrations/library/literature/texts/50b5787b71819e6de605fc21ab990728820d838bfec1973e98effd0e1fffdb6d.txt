@@ -1,0 +1,36 @@
+We then run both GPT-4o-mini and Qwen3.5-9B judges with
+the same prompt template used in our main experiments. Table 10. Generalization to InjecAgent (100 samples, all malicious)
+
+Judge
+
+IR on InjecAgent
+
+IR on Our Benchmark
+
+(indirect subset, EN, )
+
+GPT-4o-mini
+
+100.0%
+
+95.6%
+
+Qwen3.5-9B
+
+99.0%
+
+92.8%
+
+EN indirect subset is the machine-translated
+
+version of the ZH set (). Table 10 shows that both judges achieve
+near-perfect interception on InjecAgent
+(GPT-4o-mini: 100% [95% CI: 96.4–100%];
+Qwen3.5-9B: 99% [95% CI: 94.6–100%]),
+matching or exceeding their performance on our synthetic
+indirect injection subset. This provides evidence that the intent verification approach
+generalizes to independently constructed attack scenarios and is
+not overfit to our benchmark’s generation process. Note that these results measure judge-level interception on
+isolated tool calls, not end-to-end agent compromise reduction;
+validating LGA’s impact on full-pipeline attack success rates
+remains future work.

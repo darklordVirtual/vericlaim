@@ -1,0 +1,17 @@
+The most important claim of our paper is that dictionary learning can extract features that are significantly more monosemantic than neurons. In this section, we give a detailed demonstration of this claim for a small number of features which activate in highly specific contexts. The features we study respond to
+
+Text written in Arabic script (like "الكتاب المختصر في حساب الجبر والمقابلة")
+
+DNA sequences (like "CCTGGTACTGTACGAACGAACGAACGTAGCCTTGG")
+
+base64 strings (like the final characters in "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+
+Text written in Hebrew script (like "בראשית ברא אלהים את השמים ואת הארץ")
+
+For each learned feature, we attempt to establish the following claims:
+
+The learned feature activates with high specificity for the hypothesized context. (When the feature is on the context is usually present.)
+
+The learned feature activates with high sensitivity for the hypothesized context. (When the context is present, the feature is usually on.)
+
+The learned feature causes appropriate downstream behavior. The learned feature does not correspond to any neuron.

@@ -1,0 +1,17 @@
+These are excluded from TC1/TC2 FPR computation
+(which uses the 464 non-plugin benign samples) because their
+plugin-specific structure is not representative of the TC1/TC2
+evaluation setting. Malicious calls—TC1/TC2 (457 samples):
+Out-of-scope invocations produced by three attack subtypes:
+direct injection (141),
+indirect injection via poisoned documents (180), and
+RAG poisoning-triggered calls (136). The three subtypes are approximately balanced to avoid bias
+toward any single attack vector; the slight variation reflects
+generation constraints rather than prevalence estimates. Malicious calls—TC3 Plugins (120 samples):
+Skill-plugin calls whose runtime behavior exceeds declared
+permissions, covering four subtypes: data exfiltration (30),
+privilege escalation (30), persistence installation (30), and
+supply-chain execution (30). Each malicious plugin sample pairs a legitimate operation with a
+covert side-channel (e.g., sending file contents to an external
+telemetry endpoint), while the corresponding benign counterpart
+performs only the declared operation.

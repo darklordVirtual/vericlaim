@@ -1,0 +1,13 @@
+OpenClaw’s heartbeat subsystem wakes the agent at
+configurable intervals (default 30 min) to execute autonomous
+cycles, breaking the passive question–answer paradigm of
+conventional LLM applications. Behavioral constraints are specified in a Markdown
+SOUL.md file whose sections—Core Truths,
+Boundaries, and Vibe—are injected into the
+system prompt at every LLM call. Governance Gap 1 (G1): SOUL.md constraints
+are enforced via LLM semantic interpretation—a soft constraint
+mechanism. Under the threat model of Sect. 4, a sufficiently
+crafted prompt injection can bypass such constraints, as
+demonstrated by independent security
+research (Bors, 2026). Robust enforcement requires hard-coded permission checks at the
+tool-invocation layer, corresponding to LGA Layer 2.

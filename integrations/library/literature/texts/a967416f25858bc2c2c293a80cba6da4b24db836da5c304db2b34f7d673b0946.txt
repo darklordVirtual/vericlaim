@@ -1,0 +1,23 @@
+You can do so by writing ”[MT(text)]” where text is the text to be translated into English. Here are some examples:
+
+Input: He has published one book: O homem suprimido (“The Supressed Man”)
+Output: He has published one book: O homem suprimido [MT(O homem suprimido)] (“The Supressed Man”)
+
+Input: In Morris de Jonge’s Jeschuah, der klassische jüdische Mann, there is a description of a Jewish writer
+Output: In Morris de Jonge’s Jeschuah, der klassische jüdische Mann [MT(der klassische jüdische Mann)], there is a description of a Jewish writer
+
+Input: 南京高淳县住房和城乡建设局 城市新区设计 a plane of reference Gaochun is one of seven districts of the provincial capital Nanjing
+Output: [MT(南京高淳县住房和城乡建设局 城市新区设计)] a plane of reference Gaochun is one of seven districts of the provincial capital Nanjing
+
+Input: x
+Output:
+
+Calendar
+
+We use the following prompt for the calendar tool:
+
+{spverbatim}
+
+Your task is to add calls to a Calendar API to a piece of text. The API calls should help you get information required to complete the text. You can call the API by writing ”[Calendar()]” Here are some examples of API calls:
+
+Input: Today is the first Friday of the year.

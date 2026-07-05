@@ -1,0 +1,5 @@
+•
+
+– an estimate of the minimal number of training steps needed to reach a given value of the loss. This is also the number of training steps that would be used if the model were trained at a batch size much greater than the critical batch size. •
+
+– power-law exponents for the scaling of the loss as where can be any of .

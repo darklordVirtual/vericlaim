@@ -1,0 +1,1 @@
+Using the critic model, we update the training corpus by inserting reflection tokens into task outputs offline. Subsequently, we train the final generator model () using the conventional LM objective (Section 3.2.2) to enable to generate reflection tokens by itself without relying on the critic at inference time.

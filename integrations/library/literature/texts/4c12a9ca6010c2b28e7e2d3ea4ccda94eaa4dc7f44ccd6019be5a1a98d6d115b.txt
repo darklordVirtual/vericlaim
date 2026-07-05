@@ -1,0 +1,1 @@
+It then becomes easy to relate the various versions with PROV relations. We note that an Association is a ternary relation (represented by a multi-edge labeled wasAssociatedWith) from an activity to an agent and a plan.

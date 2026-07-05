@@ -1,0 +1,13 @@
+In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 609--614, Minneapolis,
+Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1061. URL https://aclanthology.org/N19-1061. González-Ibáñez et al. (2011)
+
+Roberto González-Ibáñez, Smaranda Muresan, and Nina Wacholder. Identifying sarcasm in Twitter: A closer look. In Proceedings of the 49th Annual Meeting of the Association
+for Computational Linguistics: Human Language Technologies, pp. 581--586,
+Portland, Oregon, USA, June 2011. Association for Computational Linguistics. URL https://aclanthology.org/P11-2102. Goodman & Frank (2016)
+
+Noah D. Goodman and Michael C. Frank. Pragmatic language interpretation as probabilistic inference. Trends in Cognitive Sciences, 20:818--829, 2016. doi: 10.1016/j.tics.2016.08.005. URL https://doi.org/10.1016/j.tics.2016.08.005. Gopalakrishnan et al. (2019)
+
+Karthik Gopalakrishnan, Behnam Hedayatnia, Qinlang Chen, Anna Gottardi, Sanjeev
+Kwatra, Anu Venkatesh, Raefer Gabriel, and Dilek Hakkani-Tür.

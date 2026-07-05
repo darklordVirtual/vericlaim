@@ -1,0 +1,24 @@
+Long Ouyang
+&Jeff Wu∗
+&Xu Jiang∗
+&Diogo Almeida∗
+&Carroll L. Wainwright∗
+&Pamela Mishkin∗
+&Chong Zhang
+&Sandhini Agarwal
+&Katarina Slama
+&Alex Ray
+&John Schulman
+&Jacob Hilton
+&Fraser Kelton
+&Luke Miller
+&Maddie Simens
+&Amanda Askell
+&Peter Welinder
+&Paul Christiano∗†
+Jan Leike∗
+&Ryan Lowe∗
+OpenAI
+Primary authors. This was a joint project of the OpenAI Alignment team. RL and JL are the team leads. Corresponding author: lowe@openai.com. Work done while at OpenAI. Current affiliations: AA: Anthropic; PC: Alignment Research Center. Abstract
+
+Making language models bigger does not inherently make them better at following a user’s intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning.

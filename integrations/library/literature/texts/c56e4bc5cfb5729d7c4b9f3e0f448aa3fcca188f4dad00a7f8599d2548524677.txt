@@ -1,0 +1,9 @@
+Figure 1: FNR control in tumor segmentation. The top figure shows examples of our procedure with correct pixels in white, false positives in blue, and false negatives in red. The bottom plots report FNR and set size over 1000 independent random data splits. The dashed gray line marks . In the tumor segmentation setting, our input is a image and our label is a set of pixels , where denotes the power set. We build on an image segmentation model outputting a probability for each pixel and measure loss as the fraction of false negatives,
+
+(18)
+
+The expected value of is the FNR. Since is monotone, so is the FNR. Thus, we use the technique in Section 2.1 to pick by (4) that controls the FNR on a new point, resulting in the following guarantee:
+
+(19)
+
+For evaluating the proposed procedure we pool data from several online open-source gut polyp segmentation datasets: Kvasir, Hyper-Kvasir, CVC-ColonDB, CVC-ClinicDB, and ETIS-Larib. We choose a PraNet \citepfan2020pranet as our base model and used , and evaluated risk control with the remaining validation data points. We report results with in Figure 1.

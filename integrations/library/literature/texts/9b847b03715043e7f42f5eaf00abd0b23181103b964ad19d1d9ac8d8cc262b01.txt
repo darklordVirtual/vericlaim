@@ -1,0 +1,7 @@
+m.giulianelli, c.n.siro, m.a.terhoeve)@uva.nl, (aga.kluska1404, jeroen1749, schubertmatyas, omarelb, dilyar.muslem.977, jellebosscher)@gmail.com, (email@amanhussain.com), (rahel@habacker.de). Task cites: (Cain & Oakhill, 1999; Bayat & Çetinkaya, 2020; Srivastava et al., 2016; Lin et al., 2019; Massey et al., 2015)
+
+intent_recognition: Genta Indra Winata, Nayeon Lee, Andrea Madotto, and Pascale Fung, HKUST (giwinata, nyleeaa, amadotto)@connect.ust.hk, (pascale@ust.hk); Jason Yosinski, ML Collective (jason@yosinski.com); and Rosanne Liu, Google and ML Collective (rosanneliu@google.com). Task cites: (Brown et al., 2020; Winata et al., 2021; Madotto et al., 2020; Coucke et al., 2018; Madotto et al., 2021)
+
+international_phonetic_alphabet_nli: Oliver Zhang and Ethan A. Chi, Stanford University (ozhang, ethanchi)@cs.stanford.edu. Task cites: (Williams et al., 2018)
+
+international_phonetic_alphabet_transliterate: Oliver Zhang and Ethan A. Chi, Stanford University (ozhang, ethanchi)@cs.stanford.edu.

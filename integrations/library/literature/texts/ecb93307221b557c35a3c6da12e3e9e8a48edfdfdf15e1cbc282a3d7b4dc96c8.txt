@@ -1,0 +1,16 @@
+Per-subtype rates vary across languages and models
+(e.g., GPT-4o-mini EN achieves 90.0–96.7% across all
+subtypes, versus 46.7–90.0% on ZH),
+reinforcing the cross-lingual asymmetry discussed below. The persistence subtype shows the most extreme divergence
+for GPT-4o-mini (ZH: 46.7%, EN: 96.7%, 50 pp gap), consistent
+with reduced Chinese-language sensitivity to persistence-related
+semantic patterns (e.g., scheduled execution, startup registration)
+rather than a data artifact, as Qwen3.5-9B shows a much smaller
+gap on the same subtype (60.0% vs. 70.0%). These results motivate complementary defenses at Layer 1
+(sandboxing prevents actual exfiltration) and Layer 3
+(declared-permission enforcement at the protocol level) to
+compensate for Layer 2’s reduced detection rate on TC3. Turning to false positives on the 40 benign plugin samples
+(hard negatives excluded from TC1/TC2 FPR computation),
+GPT-4o-mini achieves 2.5% FPR on Chinese and 7.5% on English;
+Qwen2.5-14B and Qwen3.5-9B show complementary patterns
+(Qwen2.5-14B: 0% ZH / 2.5% EN; Qwen3.5-9B: 20.0% ZH / 2.5% EN).

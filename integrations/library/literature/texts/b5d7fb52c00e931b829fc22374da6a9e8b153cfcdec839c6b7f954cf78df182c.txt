@@ -1,0 +1,16 @@
+arXiv preprint arXiv:2101.03961, 2021. Gao et al. (2020)
+
+L. Gao, S. Biderman, S. Black, L. Golding, T. Hoppe, C. Foster, J. Phang,
+H. He, A. Thite, N. Nabeshima, S. Presser, and C. Leahy. The Pile: An 800GB dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027, 2020. Gehman et al. (2020)
+
+S. Gehman, S. Gururangan, M. Sap, Y. Choi, and N. A. Smith. RealToxicityPrompts: Evaluating neural toxic degeneration in
+language models. In Findings of the Association for Computational Linguistics:
+EMNLP 2020, pages 3356–3369, Online, Nov. 2020. Association for
+Computational Linguistics. 10.18653/v1/2020.findings-emnlp.301. URL https://aclanthology.org/2020.findings-emnlp.301. Guu et al. (2020)
+
+K. Guu, K. Lee, Z. Tung, P. Pasupat, and M.-W. Chang. REALM: Retrieval-augmented language model pre-training, 2020. Hendrycks et al. (2020)
+
+D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and
+J. Steinhardt. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300, 2020. Hennigan et al. (2020)
+
+T. Hennigan, T. Cai, T. Norman, and I. Babuschkin. Haiku: Sonnet for JAX. 2020. URL http://github.com/deepmind/dm-haiku. Hernandez et al.

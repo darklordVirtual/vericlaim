@@ -1,0 +1,16 @@
+balance drops to 75–94%; judges
+at the high end of the raw range (e.g., Llama-3.1-8B ZH at 99.2%)
+achieve this via conservative blocking bias (87.5% FPR on benign
+plugin calls; see Sect. 7.4.3),
+suggesting that permission-boundary violations are harder to
+detect from intent alignment alone (; TC3 results warrant
+larger-scale validation), motivating complementary enforcement at
+Layers 1 and 3 (sandbox isolation and schema validation). Despite this TC3 limitation, generalization to the external
+InjecAgent benchmark yields 99–100% interception on indirect
+injection, providing preliminary evidence that the TC1/TC2 interception
+capability generalizes beyond our synthetic benchmark, subject to
+the evaluation protocol limitations noted above. RQ2 (Security–latency trade-off). A two-stage cascade (Qwen3.5-9BGPT-4o-mini)
+achieves 91.9–92.6% IR with 1.9–6.7% FPR. For fully data-sovereign deployments, a local-only cascade
+(Qwen3.5-9BQwen2.5-14B) achieves 94.7–95.6% IR with
+6.0–9.7% FPR (), indicating that a viable
+local alternative exists without cloud dependency.

@@ -1,0 +1,6 @@
+values of every neuron in the second-to-last layer for true positives and false positives for the class ‘8’ in the MNIST dataset (and qualitatively similar
+behavior occurs in all MNIST classes). The x-axis corresponds to neuron indices in that layer (1-128); and the y-axis shows the average responses, where green squares are averages of true positives, boldface squares highlight strong responses, and red circles correspond to the average response of false positives. It is evident that the true positive activation response in the active neurons is much higher than the false positive, which is expected to be reflected in the final softmax layer response. Moreover, it can be seen that the large activation values are spread over many neurons, indicating that
+the confidence signal arises due to numerous patterns detected by neurons in this layer. Qualitatively similar behavior
+can be observed in deeper layers. Figure 1: Average response values of neuron activations for class "8" on the MNIST dataset; green squares, true positives, red circles, false negatives
+
+The MC-dropout technique we consider was recently proposed to quantify uncertainty in neural networks [9].

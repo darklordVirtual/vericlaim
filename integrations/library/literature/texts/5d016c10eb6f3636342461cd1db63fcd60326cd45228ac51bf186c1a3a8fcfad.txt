@@ -1,0 +1,11 @@
+Ignoring this improvement, we can form a (rough) point estimate that people who read the instructions would disagree with our evaluations on 2-6% of questions. Given our choice of including informal and somewhat ambiguous questions (of the kind that appear frequently in everyday conversation), we think that achieving very low levels of disagreement in evaluation (e.g. below 0.5%) may not be feasible. Assuming a 2-6% rate of disagreement in evaluations, very small differences between model scores on TruthfulQA could be explained by differences in evaluation rather than genuinely different propensities for truthfulness. (Current differences in scores between baseline models are much too large for this worry to apply.)
+
+◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

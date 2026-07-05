@@ -1,0 +1,23 @@
+Table 4’s ZH P50 = 1,981 ms),
+IR = 96.3% (vs. 96.5% at ),
+FPR = 29.3% (vs. 34.1% ZH at , pp; Table 3),
+and zero parse failures,
+confirming that output capping is the dominant latency factor
+and does not degrade verdict quality (see also the 22
+controlled experiment in Sect. 7.3 for the full
+decomposition). Further gains via vLLM or TensorRT are expected but remain
+unmeasured;
+(vi) the cross-lingual TC3 asymmetry (Sect. 7.4.3)
+was initially hypothesized to stem from English JSON keys;
+however, our key-translation ablation (Sect. 7.4.3) shows
+this is not the primary cause, and the gap likely
+reflects model-level Chinese TC3 reasoning differences
+that warrant further investigation;
+(vii) a preliminary adversarial robustness probe
+(30 novel hand-crafted evasion samples—10 each of double
+negation, task disguise, and authority injection—evaluated
+on the same hardware as the main experiments) reduces IR to
+50% for GPT-4o-mini, 63% for both Qwen3.5-9B and
+Qwen2.5-14B (vs. 93–98% on the standard benchmark). Per-subtype: task disguise is mostly detected (80–100% IR),
+double negation drops to 40–50%, and authority injection
+proves hardest (30–50% IR).

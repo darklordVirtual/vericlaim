@@ -1,0 +1,18 @@
+In Proceedings of the 10th ACM workshop on artificial
+intelligence and security, pages 3–14, 2017a. Carlini and Wagner (2017b)
+
+Nicholas Carlini and David Wagner. Towards evaluating the robustness of neural networks,
+2017b. Carlini et al. (2023)
+
+Nicholas Carlini, Milad Nasr, Christopher A Choquette-Choo, Matthew Jagielski,
+Irena Gao, Anas Awadalla, Pang Wei Koh, Daphne Ippolito, Katherine Lee,
+Florian Tramer, et al. Are aligned neural networks adversarially aligned? arXiv preprint arXiv:2306.15447, 2023. CarperAI (2023)
+
+CarperAI. Stable-vicuna 13b, 2023. URL https://huggingface.co/CarperAI/stable-vicuna-13b-delta. Christiano et al. (2017)
+
+Paul F Christiano, Jan Leike, Tom Brown, Miljan Martic, Shane Legg, and Dario
+Amodei. Deep reinforcement learning from human preferences. Advances in neural information processing systems, 30, 2017. Cohen et al. (2019)
+
+Jeremy Cohen, Elan Rosenfeld, and Zico Kolter. Certified adversarial robustness via randomized smoothing. In international conference on machine learning. PMLR, 2019. Dettmers et al. (2023)
+
+Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, and Luke Zettlemoyer. Qlora: Efficient finetuning of quantized llms.

@@ -1,0 +1,19 @@
+Aly et al. (2021)
+
+Rami Aly, Zhijiang Guo, Michael Sejr Schlichtkrull, James Thorne, Andreas
+Vlachos, Christos Christodoulopoulos, Oana Cocarascu, and Arpit Mittal. 2021. FEVEROUS: fact extraction
+and verification over unstructured and structured information. CoRR, abs/2106.05707. Askell et al. (2021)
+
+Amanda Askell, Yuntao Bai, Anna Chen, Dawn Drain, Deep Ganguli, Tom Henighan,
+Andy Jones, Nicholas Joseph, Benjamin Mann, Nova DasSarma, Nelson Elhage, Zac
+Hatfield-Dodds, Danny Hernandez, Jackson Kernion, Kamal Ndousse, Catherine
+Olsson, Dario Amodei, Tom B. Brown, Jack Clark, Sam McCandlish, Chris Olah,
+and Jared Kaplan. 2021. A general language assistant
+as a laboratory for alignment. CoRR, abs/2112.00861. Baly et al. (2018)
+
+Ramy Baly, Georgi Karadzhov, Dimitar Alexandrov, James Glass, and Preslav
+Nakov. 2018. Predicting factuality
+of reporting and bias of news media sources. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pages 3528–3539, Brussels, Belgium. Association for Computational Linguistics. Bender et al. (2021)
+
+Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell. 2021.

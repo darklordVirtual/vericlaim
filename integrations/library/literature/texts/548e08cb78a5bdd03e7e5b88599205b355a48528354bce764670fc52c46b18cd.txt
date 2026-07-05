@@ -1,0 +1,5 @@
+with the 4B model, all the larger models output legitimate element names in their responses, though as Figure 17 shows, only for the largest model, 128B, are a significant fraction of these correct. One-shot behavior across scales:
+
+In the one-shot setting, the smallest two models (2M and 17M) do not pick up on the pattern of answering with an element name, instead giving similar responses as in the zero-shot version of this task. Starting with the 57M model, the models pick up on the pattern, answering (mostly) with the name of an element; however, the 57M, 125M, 244M, 1B, and 2B models almost always repeat the same element from the prompt (i.e., the answer to the previous question). Starting with the 4B model and onwards, the model’s answers are elements distinct from that in the prompt, and the number of correct answers starts to rise, as seen in Figure 17. An interesting quirk
+is that the largest model
+sometimes misidentifies elements with atomic numbers in the hundreds by their older, placeholder names.

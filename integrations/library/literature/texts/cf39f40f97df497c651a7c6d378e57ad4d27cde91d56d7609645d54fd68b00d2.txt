@@ -1,0 +1,18 @@
+(2018). AI safety via debate. arXiv preprint arXiv:1805.00899. Jaques et al., (2019)
+
+Jaques, N., Ghandeharioun, A., Shen, J. H., Ferguson, C., Lapedriza, A., Jones,
+N., Gu, S., and Picard, R. (2019). Way off-policy batch deep reinforcement learning of implicit human
+preferences in dialog. arXiv preprint arXiv:1907.00456. Kenton et al., (2021)
+
+Kenton, Z., Everitt, T., Weidinger, L., Gabriel, I., Mikulik, V., and Irving,
+G. (2021). Alignment of language agents. arXiv preprint arXiv:2103.14659. Keskar et al., (2019)
+
+Keskar, N. S., McCann, B., Varshney, L. R., Xiong, C., and Socher, R. (2019). Ctrl: A conditional transformer language model for controllable
+generation. arXiv preprint arXiv:1909.05858. Khashabi et al., (2020)
+
+Khashabi, D., Min, S., Khot, T., Sabharwal, A., Tafjord, O., Clark, P., and
+Hajishirzi, H. (2020). Unifiedqa: Crossing format boundaries with a single qa system. arXiv preprint arXiv:2005.00700. Kirk et al., (2021)
+
+Kirk, H., Jun, Y., Iqbal, H., Benussi, E., Volpin, F., Dreyer, F. A.,
+Shtedritski, A., and Asano, Y. M. (2021). How true is gpt-2? an empirical analysis of intersectional
+occupational biases. arXiv preprint arXiv:2102.04130.

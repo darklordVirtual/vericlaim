@@ -1,0 +1,7 @@
+Perez and Ribeiro (Perez and Ribeiro, 2022) first systematized
+direct prompt injection attacks. Greshake et al. (Greshake et al., 2023) extended the attack
+surface to indirect injection via poisoned external documents. Yi et al. (Yi et al., 2025) demonstrated lateral propagation
+of injections across multi-agent pipelines. OWASP LLM Top 10 (OWASP Foundation, 2023) ranks prompt injection as the
+primary threat to LLM applications. Our work extends this body of knowledge by formalizing
+RAG poisoning and malicious skill plugin threats and proposing
+a systemic architectural response.

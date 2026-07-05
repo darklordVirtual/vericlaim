@@ -1,0 +1,17 @@
+URL https://arxiv.org/abs/2101.00376. Lin et al. (2019)
+
+Kevin Lin, Oyvind Tafjord, Peter Clark, and Matt Gardner. Reasoning over paragraph effects in situations. In Proceedings of the 2nd Workshop on Machine Reading for
+Question Answering, pp. 58--62, Hong Kong, China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-5808. URL https://aclanthology.org/D19-5808. Lin et al. (2021b)
+
+Stephanie Lin, Jacob Hilton, and Owain Evans. TruthfulQA: Measuring how models mimic human falsehoods,
+2021b. URL https://arxiv.org/abs/2109.07958. Ling et al. (2017)
+
+Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom. Program induction by rationale generation: Learning to solve and
+explain algebraic word problems, 2017. URL https://arxiv.org/abs/1705.04146. Linzen et al. (2016)
+
+Tal Linzen, Emmanuel Dupoux, and Yoav Goldberg. Assessing the ability of LSTMs to learn syntax-sensitive
+dependencies. Transactions of the Association for Computational Linguistics,
+4:521--535, 12 2016. doi: 10.1162/tacl_a_00115. URL https://doi.org/10.1162/tacl_a_00115. Liu et al. (2021a)
+
+Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, and Weizhu
+Chen.

@@ -1,0 +1,19 @@
+predictors [papadopoulos2002inductive];
+
+•
+
+Glenn Shafer coins the term “conformal predictor” on December 1, 2003 while writing Algorithmic Learning in a Random World with Vovk [vovk2005algorithmic]. •
+
+the 2003 development of Venn Predictors [vovk2003self] (Vovk says this idea came to him on a bus in Germany during the Dagstuhl seminar “Kolmogorov Complexity & Applications”);
+
+•
+
+the 2012 founding of the Symposium on Conformal and Probabilistic Prediction and its Applications (COPA), hosted in Greece by Harris Papadopoulos and colleagues;
+
+•
+
+the 2012 creation of cross-conformal predictors [vovk2015cross] and Venn-Abers predictors [vovk2012venn];
+
+•
+
+The 2017 invention of conformal predictive distributions [vovk2017nonparametric]. Algorithmic Learning in a Random World [vovk2005algorithmic], by Vovk, Gammerman, and Glenn Shafer, contains further perspective on the history described above in the bibliography of Chapter 2 and the main text of Chapter 10. Also, the book’s website links to several dozen technical reports on conformal prediction and related topics. We now help the reader understand some of these key developments.

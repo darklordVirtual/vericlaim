@@ -1,0 +1,21 @@
+Thus, this relation is useful when the activity is not known, or irrelevant. An attribution ◊ relation, written wasAttributedTo(id; e, ag, attrs) in PROV-N, has:
+
+id: an OPTIONAL identifier for the relation;
+
+entity: an entity identifier (e);
+
+agent: the identifier (ag) of the agent whom the entity is ascribed to, and therefore bears some responsibility for its existence;
+
+attributes: an OPTIONAL set (attrs) of attribute-value pairs representing additional information about this attribution. Example 35 ◊
+
+Revisiting the example of
+Section 4.1,
+we can ascribe tr:WD-prov-dm-20111215 to some agents without an explicit activity. agent(ex:Paolo, [ prov:type='prov:Person' ])
+agent(ex:Simon, [ prov:type='prov:Person' ])
+entity(tr:WD-prov-dm-20111215, [ prov:type='rec54:WD' ])
+wasAttributedTo(tr:WD-prov-dm-20111215, ex:Paolo, [ prov:type="editorship" ])
+wasAttributedTo(tr:WD-prov-dm-20111215, ex:Simon, [ prov:type="authorship" ])
+
+5.3.3 Association
+
+An activity association ◊ is an assignment of responsibility to an agent for an activity, indicating that the agent had a role in the activity.

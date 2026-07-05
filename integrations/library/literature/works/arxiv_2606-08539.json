@@ -4,6 +4,12 @@
   "authors": [
     "Chenglin Yang"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:56.841242+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2606.08539"
+  },
+  "fulltext_sha256": "d0cbe785e5ff7d348f853272c353d7ae646178c88b9ccaad2100c41a58d2d773",
   "registrar": "arxiv",
   "retrieval": {
     "query": "bibliography of remora_paper.md",

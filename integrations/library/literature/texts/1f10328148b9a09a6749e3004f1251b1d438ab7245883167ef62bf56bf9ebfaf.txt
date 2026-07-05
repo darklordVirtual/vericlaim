@@ -1,0 +1,20 @@
+approach, but you can also separate
+them by putting the processing selection logic in the event
+processing system, and it calls a method in the domain model
+that contains the processing domain logic. Once you've made that decision, the next is whether to put the
+processing selection logic in the event object itself, or have a
+separate event processor object. The problem with the processor is that
+it necessarily runs different logic depending on the type of
+event, which is the kind of type switch that is abhorrent to any
+good OOer. All things being equal you want the processing selection
+logic in the event itself, since that's the thing that varies
+with the type of event. Of course all things aren't always equal. One case where
+having a separate processor can make sense is when the event
+object is a DTO which is
+serialized and de-serialized by some automatic means that
+prohibits putting code into the event. In this case you need to
+find selection logic for the event. My inclination would be to
+avoid this if at all possible, if you can't then treat the
+DTO as an hidden data holder
+for the event and still treat the event as a regular polymorphic
+object.

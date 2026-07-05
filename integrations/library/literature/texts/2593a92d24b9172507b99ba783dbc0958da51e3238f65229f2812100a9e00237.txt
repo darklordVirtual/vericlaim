@@ -1,0 +1,7 @@
+There are many documents on machine learning at Google as well as externally. Machine Learning Crash Course:
+an introduction to applied machine learning. Machine Learning: A Probabilistic Approach
+by Kevin Murphy for an understanding of the field of machine learning. Good Data Analysis:
+a data science approach to thinking about data sets. Deep Learning by Ian
+Goodfellow et al for learning nonlinear models. Google paper on
+technical debt, which has a
+lot of general advice. Tensorflow Documentation.

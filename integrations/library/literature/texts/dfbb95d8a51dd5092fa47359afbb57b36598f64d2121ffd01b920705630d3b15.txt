@@ -1,0 +1,21 @@
+Kim et al. (2023)
+
+G. Kim, P. Baldi, and S. McAleer. Language models can solve computer tasks, 2023. Liu et al. (2023)
+
+B. Liu, Y. Jiang, X. Zhang, Q. Liu, S. Zhang, J. Biswas, and P. Stone. Llm+p: Empowering large language models with optimal planning
+proficiency, 2023. Lu et al. (2021)
+
+X. Lu, S. Welleck, P. West, L. Jiang, J. Kasai, D. Khashabi, R. L. Bras,
+L. Qin, Y. Yu, R. Zellers, N. A. Smith, and Y. Choi. Neurologic a*esque decoding: Constrained text generation with
+lookahead heuristics. In North American Chapter of the Association for Computational
+Linguistics, 2021. Madaan et al. (2023)
+
+A. Madaan, N. Tandon, P. Gupta, S. Hallinan, L. Gao, S. Wiegreffe, U. Alon,
+N. Dziri, S. Prabhumoye, Y. Yang, S. Welleck, B. P. Majumder, S. Gupta,
+A. Yazdanbakhsh, and P. Clark. Self-refine: Iterative refinement with self-feedback, 2023. Newell et al. (1959)
+
+A. Newell, J. C. Shaw, and H. A. Simon. Report on a general problem solving program. In IFIP congress, volume 256, page 64. Pittsburgh, PA, 1959. Newell et al. (1972)
+
+A. Newell, H. A. Simon, et al. Human problem solving. Prentice-Hall, 1972. OpenAI (2023)
+
+OpenAI. Gpt-4 technical report. ArXiv, abs/2303.08774, 2023. Paul et al.

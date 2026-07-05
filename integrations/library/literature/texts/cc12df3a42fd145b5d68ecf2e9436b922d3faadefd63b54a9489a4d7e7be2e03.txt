@@ -1,0 +1,15 @@
+L. Aichberger, K. Schweighofer, M. Ielanskyi, and S. Hochreiter (2025)
+Improving uncertainty estimation through semantically diverse language generation. In The Thirteenth International Conference on Learning Representations,
+
+External Links: Link
+
+Cited by: §2. S. Bai, Y. Cai, R. Chen, K. Chen, X. Chen, Z. Cheng, L. Deng, W. Ding, C. Gao, C. Ge, W. Ge, Z. Guo, Q. Huang, J. Huang, F. Huang, B. Hui, S. Jiang, Z. Li, M. Li, M. Li, K. Li, Z. Lin, J. Lin, X. Liu, J. Liu, C. Liu, Y. Liu, D. Liu, S. Liu, D. Lu, R. Luo, C. Lv, R. Men, L. Meng, X. Ren, X. Ren, S. Song, Y. Sun, J. Tang, J. Tu, J. Wan, P. Wang, P. Wang, Q. Wang, Y. Wang, T. Xie, Y. Xu, H. Xu, J. Xu, Z. Yang, M. Yang, J. Yang, A. Yang, B. Yu, F. Zhang, H. Zhang, X. Zhang, B. Zheng, H. Zhong, J. Zhou, F. Zhou, J. Zhou, Y. Zhu, and K. Zhu (2025)
+Qwen3-vl technical report. arXiv preprint arXiv:2511.21631. Cited by: §1,
+§4.1. M. Damani, I. Puri, S. Slocum, I. Shenfeld, L. Choshen, Y. Kim, and J. Andreas (2025)
+Beyond binary rewards: training lms to reason about their uncertainty. External Links: 2507.16806,
+Link
+
+Cited by: §1,
+§2,
+§3.1,
+§4.1. S. Farquhar, J. Kossen, L. Kuhn, and Y.

@@ -1,0 +1,19 @@
+•
+
+Nicholas, Dawn, Ariel, Tom, Colin and Úlfar proposed the research question of extracting training data from GPT-2 and framed the threat model. •
+
+Colin, Florian, Matthew, and Nicholas stated the memorization definitions. •
+
+Florian, Ariel, and Nicholas wrote code to generate candidate memorized samples from GPT-2 and verify the ground truth memorization. •
+
+Florian, Nicholas, Matthew, and Eric manually reviewed and categorized the candidate memorized content. •
+
+Katherine, Florian, Eric, and Colin generated the figures. •
+
+Adam, Matthew, and Eric ran preliminary investigations in language model memorization. •
+
+Nicholas, Florian, Eric, Colin, Katherine, Matthew, Ariel, Alina, Úlfar, Dawn, and Adam wrote and edited the paper. •
+
+Tom, Adam, and Colin gave advice on language models and machine learning background. •
+
+Alina, Úlfar, and Dawn gave advice on the security goals.

@@ -1,0 +1,14 @@
+Figure me out: A gold standard dataset for metaphor interpretation. In Proceedings of the 12th Language Resources and Evaluation
+Conference, pp. 5810--5819, Marseille, France, May 2020. European Language
+Resources Association. URL https://aclanthology.org/2020.lrec-1.712. Zellers et al. (2018)
+
+Rowan Zellers, Yonatan Bisk, Ali Farhadi, and Yejin Choi. From recognition to cognition: Visual commonsense reasoning, 2018. URL https://arxiv.org/abs/1811.10830. Zellers et al. (2019a)
+
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. HellaSwag: Can a machine really finish your sentence? arXiv preprint arXiv:1905.07830, 2019a. URL https://arxiv.org/abs/1905.07830. Zellers et al. (2019b)
+
+Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi,
+Franziska Roesner, and Yejin Choi. Defending against neural fake news, 2019b. URL https://arxiv.org/abs/1905.12616. Zhang et al. (2020a)
+
+Dongxiang Zhang, Lei Wang, Luming Zhang, Bing Tian Dai, and Heng Tao Shen. The gap of semantic parsing: A survey on automatic math word problem
+solvers. IEEE Transactions on Pattern Analysis & Machine Intelligence,
+42(09):2287--2305, Sep. 2020a. doi: 10.1109/TPAMI.2019.2914054.

@@ -1,0 +1,16 @@
+Universal adversarial perturbations. In Proceedings of the IEEE conference on computer vision and
+pattern recognition (CVPR), pages 1765–1773, 2017. Neekhara et al. (2019)
+
+Paarth Neekhara, Shehzeen Hussain, Prakhar Pandey, Shlomo Dubnov, Julian
+McAuley, and Farinaz Koushanfar. Universal adversarial perturbations for speech recognition systems. arXiv preprint arXiv:1905.03828, 2019. Ouyang et al. (2022)
+
+Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela
+Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language models to follow instructions with human feedback. Advances in Neural Information Processing Systems,
+35:27730–27744, 2022. Papernot et al. (2016a)
+
+Nicolas Papernot, Patrick McDaniel, and Ian Goodfellow. Transferability in machine learning: from phenomena to black-box
+attacks using adversarial samples. arXiv preprint arXiv:1605.07277, 2016a. Papernot et al. (2016b)
+
+Nicolas Papernot, Patrick McDaniel, Somesh Jha, Matt Fredrikson, Z Berkay
+Celik, and Ananthram Swami. The limitations of deep learning in adversarial settings. In 2016 IEEE European symposium on security and privacy
+(EuroS&P), 2016b. Penedo et al.

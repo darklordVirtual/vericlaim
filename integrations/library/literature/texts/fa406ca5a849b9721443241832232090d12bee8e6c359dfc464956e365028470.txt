@@ -1,0 +1,14 @@
+The network was trained in an alternating fashion, maintaining and updating
+a pool of adversarial examples for each layer separately in addition to the
+original training set. According to our initial observations, adversarial
+examples for the higher layers seemed to be significantly more useful than
+those on the input or lower layers. In our future work, we plan to compare these
+effects in a systematic manner. For space considerations, we just present results for a representative subset
+(see Table 1) of the MNIST experiments we performed. The results presented here are consistent with those on a larger variety of
+non-convolutional models. For MNIST, we do not have results for convolutional
+models yet, but our first qualitative experiments with AlexNet gives us
+reason to believe that convolutional networks may behave similarly as well. Each of our models were trained with L-BFGS until convergence. The
+first three models are linear classifiers that work on the pixel level
+with various weight decay parameters . All our examples use quadratic weight decay on the connection weights:
+added to the total loss, where is the
+number of units in the layer.

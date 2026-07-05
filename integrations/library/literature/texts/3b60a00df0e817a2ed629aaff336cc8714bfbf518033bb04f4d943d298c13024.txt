@@ -1,0 +1,13 @@
+Allamanis et al. (2017)
+
+Miltiadis Allamanis, Marc Brockschmidt, and Mahmoud Khademi. Learning to represent programs with graphs. arXiv preprint arXiv:1711.00740, 2017. Athiwaratkun et al. (2023)
+
+Ben Athiwaratkun, Sanjay Krishna Gouda, Zijian Wang, Xiaopeng Li, and Yuchen Tian et. al. Multi-lingual evaluation of code generation models, 2023. Austin et al. (2021)
+
+Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, and Charles Sutton. Program synthesis with large language models, 2021. Bowman & Dahl (2021)
+
+Samuel R. Bowman and George E. Dahl. What will it take to fix benchmarking in natural language understanding?, 2021. Cassano et al. (2022)
+
+Federico Cassano, John Gouwar, Daniel Nguyen, Sydney Nguyen, Luna Phipps-Costin, Donald Pinckney, Ming-Ho Yee, Yangtian Zi, Carolyn Jane Anderson, Molly Q Feldman, Arjun Guha, Michael Greenberg, and Abhinav Jangda. Multipl-e: A scalable and extensible approach to benchmarking neural code generation, 2022. Chakraborty & Ray (2021)
+
+Saikat Chakraborty and Baishakhi Ray. On multi-modal learning of editing source code, 2021. Chakraborty et al.

@@ -1,0 +1,15 @@
+Here we derive the temperature scaling model using the entropy maximization principle with an appropriate balanced equation. Claim 1. Given samples’ logit vectors and class labels , temperature scaling is the unique solution to the following entropy maximization problem:
+
+subject to
+
+The first two constraint ensure that is a probability distribution, while the last constraint limits the scope of distributions. Intuitively, the constraint specifies that the average true class logit is equal to the average weighted logit. Proof. We solve this constrained optimization problem using the Lagrangian. We first ignore the constraint and later show that the solution satisfies this condition. Let be the Lagrangian multipliers and define
+
+Taking the derivative with respect to gives
+
+Setting the gradient of the Lagrangian to 0 and rearranging gives
+
+Since for all , we must have
+
+which recovers the temperature scaling model by setting . ∎
+
+Figure S1 visualizes Claim 1. We see that, as training continues, the model begins to overfit with respect to NLL (red line). This results in a low-entropy softmax distribution over classes (blue line), which explains the model’s overconfidence.

@@ -1,0 +1,37 @@
+We provide some examples corresponding to the success and error mode analysis given in Sec. 3.3. Search results and non-representative steps are omitted to reduce space. Success: True positive
+
+\model
+
+Question:
+
+Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President? Thought 1:
+
+I need to search David Chanoff and find the U.S. Navy admiral he collaborated with. Action 1:
+
+Search[David Chanoff]
+
+Observation 1:
+
+David Chanoff is a noted author... Action 2:
+
+Search[William J. Crowe]
+
+Observation 2:
+
+William J. Crowe is... Thought 3:
+
+William J. Crowe served as the ambassador to the United Kingdom under President Bill Clinton. So the answer is Bill Clinton. Action 3:
+
+Finish[Bill Clinton]
+
+Observation 3:
+
+Episode finished
+
+CoT
+
+Question:
+
+What was the name of the team that represented an Arizona university in the conference that covers a broad expanse of the western United States, including Arizona, California, and New Mexico? Thought:
+
+Let’s think step by step.

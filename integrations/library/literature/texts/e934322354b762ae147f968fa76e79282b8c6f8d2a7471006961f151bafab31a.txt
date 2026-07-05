@@ -1,0 +1,15 @@
+Procedia Computer Science, 171:2316--2323, 2020. doi: https://doi.org/10.1016/j.procs.2020.04.251. URL
+https://www.sciencedirect.com/science/article/pii/S1877050920312436. Special issue: Third International Conference on Computing and
+Network Communications (CoCoNet’19). Geva et al. (2020a)
+
+Mor Geva, Ankit Gupta, and Jonathan Berant. Injecting numerical reasoning skills into language models. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 946--958, Online, July
+2020a. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.89. URL https://aclanthology.org/2020.acl-main.89. Geva et al. (2020b)
+
+Mor Geva, Roei Schuster, Jonathan Berant, and Omer Levy. Transformer feed-forward layers are key-value memories,
+2020b. URL https://arxiv.org/abs/2012.14913. Geva et al. (2021)
+
+Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth, and Jonathan
+Berant. Did Aristotle Use a Laptop? A Question Answering Benchmark with
+Implicit Reasoning Strategies. Transactions of the Association for Computational Linguistics,
+9:346--361, 04 2021. doi: 10.1162/tacl_a_00370. URL https://doi.org/10.1162/tacl_a_00370. Ghanem et al.

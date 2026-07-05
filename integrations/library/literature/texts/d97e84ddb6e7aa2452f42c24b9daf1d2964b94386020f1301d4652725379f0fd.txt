@@ -1,0 +1,17 @@
+URL http://jmlr.org/papers/v21/20-074.html. Raffel et al. (2020b)
+
+C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena, Y. Zhou,
+W. Li, and P. J. Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer. Journal of Machine Learning Research, 21(140):1–67, 2020b. Rajbhandari et al. (2020)
+
+S. Rajbhandari, J. Rasley, O. Ruwase, and Y. He. Zero: Memory optimizations toward training trillion parameter models. In SC20: International Conference for High Performance
+Computing, Networking, Storage and Analysis, pages 1–16. IEEE, 2020. Robbins and Monro (1951)
+
+H. Robbins and S. Monro. A Stochastic Approximation Method. The Annals of Mathematical Statistics, 22(3):400–407, Sept. 1951. Rudinger et al. (2018)
+
+R. Rudinger, J. Naradowsky, B. Leonard, and B. Van Durme. Gender bias in coreference resolution. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, New Orleans, Louisiana, June 2018. Association for
+Computational Linguistics. Sakaguchi et al. (2020)
+
+K. Sakaguchi, R. Le Bras, C. Bhagavatula, and Y. Choi.

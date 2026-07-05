@@ -1,0 +1,13 @@
+3911--3921, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1425. URL https://aclanthology.org/D18-1425. Yu et al. (2019a)
+
+Tao Yu, Rui Zhang, Heyang Er, Suyi Li, Eric Xue, Bo Pang, Xi Victoria Lin,
+Yi Chern Tan, Tianze Shi, Zihan Li, Youxuan Jiang, Michihiro Yasunaga,
+Sungrok Shim, Tao Chen, Alexander Fabbri, Zifan Li, Luyao Chen, Yuwen Zhang,
+Shreya Dixit, Vincent Zhang, Caiming Xiong, Richard Socher, Walter Lasecki,
+and Dragomir Radev. CoSQL: A conversational text-to-SQL challenge towards
+cross-domain natural language interfaces to databases. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 1962--1979, Hong Kong,
+China, November 2019a. Association for Computational
+Linguistics. doi: 10.18653/v1/D19-1204. URL https://aclanthology.org/D19-1204. Yu et al.

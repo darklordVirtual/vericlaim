@@ -15,6 +15,12 @@
     "Christopher Hesse",
     "John Schulman"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:26.729408+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2110.14168"
+  },
+  "fulltext_sha256": "e8a29e2effe35d61a762880c51a1febc94059248575f6e78d503e05ab74bd418",
   "registrar": "arxiv",
   "retrieval": {
     "query": "bibliography of remora_paper.md",

@@ -1,0 +1,37 @@
+Game of 24
+Creative Writing
+5x5 Crosswords
+
+Input
+
+4 numbers (4 9 10 13)
+
+4 random sentences
+
+10 clues (h1. presented;..)
+
+Output
+
+An equation to reach 24 (13-9)*(10-4)=24
+
+A passage of 4 paragraphs ending in the 4 sentences
+
+5x5 letters: SHOWN; WIRRA; AVAIL; …
+
+Thoughts
+
+3 intermediate equations (13-9=4 (left 4,4,10); 10-4=6 (left 4,6); 4*6=24)
+
+A short writing plan (1. Introduce a book that connects…)
+
+Words to fill in for clues: (h1. shown; v5. naled; …)
+
+#ToT steps
+
+3
+
+1
+
+5-10 (variable)
+
+Table 1: Task overview. Input, output, thought examples are in blue. We propose three tasks that are hard even when sampling from the state-of-the-art language model, GPT-4 (OpenAI, 2023), using standard IO prompting or chain-of-thought (CoT) prompting. We show how deliberate search in trees of thoughts (ToT) produces better results, and more importantly, interesting and promising new ways to use language models to solve problems requiring search or planning. Unless otherwise stated, we perform experiments using a Chat Completion mode GPT-4111Experiments were done between May 5-16, 2023. with a sampling temperature of 0.7.

@@ -1,0 +1,42 @@
+that indices reflect this ordering). 3: ;
+
+4: for to do
+
+5:
+
+6:
+
+7: {(see (3))}
+
+8:
+
+9: {see Lemma 3.1 }
+
+10: if then
+
+11:
+
+12: else
+
+13:
+
+14: end if
+
+15: end for
+
+16: Output- and the bound . Lemma 3.1 (Gascuel and Caraux, 1992, [10])
+
+Let be any distribution
+and consider a classifier whose true error w.r.t. is
+. Let be given and let
+be the empirical error of w.r.t. to the labeled
+set , sampled i.i.d. from . Let be the solution of the following
+equation,
+
+(4)
+
+Then, . We emphasize that the numerical bound of Lemma 3.1 is the tightest possible in this setting. As discussed in [10], the analytic bounds derived using, e.g., Hoeffding inequality (or other concentration inequalities), approximate this numerical bound and incur some slack. For any selection function, , let be the projection of over ; that is,
+. The following theorem is a uniform convergence result for the SGR procedure. Theorem 3.2 (SGR)
+
+Let be a given labeled set, sampled i.i.d. from , and consider an application of the SGR procedure. For , let and , , be the
+selective classifier and bound computed by SGR in its th iterations.

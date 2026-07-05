@@ -1,0 +1,17 @@
+Dateset is created by first randomly selecting 500 “current dates”. For each current date, another relatively past/future date is randomly selected within a four-year range, and the two dates are used to fill the query templates in Table 11. An example of one such query using the first template would be, “How many days ago was August 14, 2020?” If called, the Calendar tool would return the presumed current date (e.g., “Today is Sunday, November 20, 2020”). Template
+
+Size
+
+How many days {ago was, are there until} {past_date, future_date}? 00,400
+
+What {day of the week, day of the month, month, year} was it (current_date – past_date) {days, weeks, months, years} ago? 00,800
+
+What {day of the week, day of the month, month, year} will it be in (future_date – current_date) days? 00,800
+
+What day of the week {is, was} it on {past_date, future_date}? 00,400
+
+What {day of the week, day of the month, month, year} {is, was} it {the day before yesterday, yesterday, today, tomorrow, the day after tomorrow}? 04,000
+
+What {day of the week, day of the month, month} {is, was} this year? 01,800
+
+How many {days, weeks, months, years} {ago was, are there until} this year?

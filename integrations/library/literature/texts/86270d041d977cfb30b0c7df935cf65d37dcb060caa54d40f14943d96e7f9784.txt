@@ -1,0 +1,17 @@
+In Human Language Technologies: The 2010 Annual Conference of
+the North American Chapter of the Association for Computational
+Linguistics, pp. 109--117, Los Angeles, California, June 2010. Association
+for Computational Linguistics. URL https://aclanthology.org/N10-1013. Ren & Yang (2017)
+
+He Ren and Quan Yang. Neural joke generation, 2017. URL
+https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2760332.pdf. Resnik (1995)
+
+Philip Resnik. Using information content to evaluate semantic similarity in a
+taxonomy. In IJCAI’95: Proceedings of the 14th International Joint
+Conference on Artificial Intelligence, Volume 1, pp. 448–453, San
+Francisco, 1995. Morgan Kaufmann. doi: 10.5555/1625855.1625914. URL https://dl.acm.org/doi/10.5555/1625855.1625914. Resnik (1999)
+
+Philip Resnik. Semantic similarity in a taxonomy: An information-based measure and
+its application to problems of ambiguity in natural language. Journal of Artificial Intelligence Research, 11:95--130, 1999. doi: 10.1613/jair.514. URL https://doi.org/10.1613/jair.514. Roemmele et al. (2011)
+
+Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S. Gordon.

@@ -1,0 +1,45 @@
+A sphere
+
+C) An ellipse
+
+D) A plane
+
+closed qa
+
+Tell me how hydrogen and helium are different, using the following facts:
+
+{list of facts}
+
+open qa
+
+I am a highly intelligent question answering bot. If you ask me a question that is rooted in truth, I will give you the answer. If you ask me a question that is nonsense, trickery, or has no clear answer, I will respond with "Unknown". Q: What is human life expectancy in the United States? A: Human life expectancy in the United States is 78 years. Q: Who was president of the United States in 1955? A:
+
+open qa
+
+Who built the statue of liberty? open qa
+
+How do you take the derivative of the sin function? open qa
+
+who are the indiginous people of New Zealand? summarization
+
+Summarize this for a second-grade student:
+
+{text}
+
+summarization
+
+{news article}
+
+Tl;dr:
+
+summarization
+
+{chat transcript}
+
+Summarize the above conversation between a customer and customer assistant. Make sure to state any complaints that the customer has. other
+
+start with where
+
+other
+
+Look up "cowboy" on Google and give me the results.

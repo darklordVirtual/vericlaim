@@ -1,0 +1,7 @@
+to be helpful, honest, and harmless [Askell et al., 2021]) with a smaller quantity of higher quality human supervision. There are several reasons why this may be useful:
+
+•
+
+AI supervision may be more efficient than collecting human feedback. It allows us to focus more on providing a small amount of legible, focused, high-quality oversight. There may also be ways for humans and AI systems to collaborate [Bowman et al., 2022] to provide better supervision than either can provide alone. •
+
+AI systems can already perform some tasks at or beyond human level (e.g. [Silver et al., 2017]), and over time more examples are likely to emerge. We need to develop methods now that can provide oversight for these powerful AI systems, and scaling supervision may be one possibility, if the capability level of the supervisor can scale proportionally with the capabilities of the actor, and the supervisor remains aligned with our intended goals and constraints. That said, scaling supervision could also have downsides and dangers, since it means further automating (and quite possibly obscuring) decision making.

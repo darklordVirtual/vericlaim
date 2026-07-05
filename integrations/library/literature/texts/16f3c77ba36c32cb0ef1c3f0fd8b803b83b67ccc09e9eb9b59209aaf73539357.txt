@@ -1,0 +1,51 @@
+Hotpot QA Prompts
+
+Original
+
+Question
+
+What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into? Answer
+
+1,800 to 7,000 ft
+
+Question
+
+Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who? Answer
+
+Richard Nixon
+
+Question
+
+Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture? Answer
+
+The Saimaa Gesture
+
+Question
+
+What profession does Nicholas Ray and Elia Kazan have in common? Answer
+
+director, screenwriter, actor
+
+Question
+
+Which magazine was started first Arthur’s Magazine or First for Women? Answer
+
+Arthur’s Magazine
+
+Question
+
+Were Pavel Urysohn and Leonid Levin known for the same type of work? Answer
+
+Yes
+
+Act
+
+Question
+
+What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into? Action 1
+
+Search[Colorado orogeny]
+
+Observation 1
+
+The Colorado orogeny was an episode of mountain building (an orogeny) in Colorado and surrounding areas.

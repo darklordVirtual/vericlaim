@@ -1,0 +1,19 @@
+R. Bowman, Z. Hatfield-Dodds, B. Mann, D. Amodei, N. Joseph,
+S. McCandlish, T. Brown, and J. Kaplan. Constitutional ai: Harmlessness from ai feedback, 2022b. Biderman et al. [2023]
+
+S. Biderman, H. Schoelkopf, Q. Anthony, H. Bradley, K. O’Brien, E. Hallahan,
+M. A. Khan, S. Purohit, U. S. Prashanth, E. Raff, A. Skowron, L. Sutawika,
+and O. van der Wal. Pythia: A suite for analyzing large language models across training
+and scaling, 2023. Bong and Rinaldo [2022]
+
+H. Bong and A. Rinaldo. Generalized results for the existence and consistency of the MLE in
+the Bradley-Terry-Luce model. International Conference on Machine Learning, 2022. arXiv:2110.11487. Bradley and Terry [1952]
+
+R. A. Bradley and M. E. Terry. Rank analysis of incomplete block designs: I. the method of paired
+comparisons. Biometrika, 39(3/4):324–345, 1952. doi: https://doi.org/10.2307/2334029. Brown et al. [2020a]
+
+T. Brown, B. Mann, N. Ryder, M. Subbiah, J. D. Kaplan, P. Dhariwal,
+A. Neelakantan, P. Shyam, G. Sastry, A. Askell, S. Agarwal, A. Herbert-Voss,
+G. Krueger, T. Henighan, R. Child, A. Ramesh, D. Ziegler, J. Wu, C. Winter,
+C. Hesse, M. Chen, E. Sigler, M. Litwin, S. Gray, B. Chess, J. Clark,
+C. Berner, S.

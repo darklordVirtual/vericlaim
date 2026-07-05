@@ -1,0 +1,14 @@
+URL https://ojs.aaai.org/index.php/AAAI/article/view/10957. Suhr et al. (2019)
+
+Alane Suhr, Claudia Yan, Jack Schluger, Stanley Yu, Hadi Khader, Marwa
+Mouallem, Iris Zhang, and Yoav Artzi. Executing instructions in situated collaborative interactions. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 2119--2130, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1218. URL https://aclanthology.org/D19-1218. Sun et al. (2020)
+
+Wenlong Sun, Olfa Nasraoui, and Patrick Shafto. Evolution and impact of bias in human and machine learning algorithm
+interaction. PLOS ONE, 15(8):1--39, 08 2020. doi: 10.1371/journal.pone.0235502. URL https://doi.org/10.1371/journal.pone.0235502. Sutskever et al. (2014)
+
+Ilya Sutskever, Oriol Vinyals, and Quoc V. Le. Sequence to sequence learning with neural networks, 2014. URL https://arxiv.org/abs/1409.3215. Sutton (2019)
+
+Rich Sutton. The bitter lesson. Incomplete Ideas, 2019. URL http://www.incompleteideas.net/IncIdeas/BitterLesson.html. Suzgun et al.

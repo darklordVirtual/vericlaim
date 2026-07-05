@@ -1,0 +1,22 @@
+To quantify the security–performance trade-off introduced by
+LGA Layer 2 (Intent Verification), we construct a bilingual
+benchmark of 1,081 tool-call samples covering all three threat
+classes and evaluate ten verification conditions (seven primary,
+one supplementary, and two post-hoc cascades) on both Chinese
+and English datasets. 7.1.1. Dataset Construction
+
+The benchmark comprises 1,081 samples in three classes:
+
+Benign calls (504 samples):
+Tool invocations semantically consistent with their associated
+task descriptions, generated across four tool types
+(file_read, file_write, shell_exec,
+http_request) and ten task categories (file management,
+code development, data analysis, email processing, web scraping,
+system administration, database operations, document generation,
+API integration, and network monitoring). An additional 40 benign plugin calls serve a dual role:
+hard negatives for Threat Class 3 FPR computation and
+TC3-specific false-positive controls. These are excluded from TC1/TC2 FPR computation
+(which uses the 464 non-plugin benign samples) because their
+plugin-specific structure is not representative of the TC1/TC2
+evaluation setting.

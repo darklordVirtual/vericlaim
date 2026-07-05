@@ -1,0 +1,17 @@
+F., Leike, J., Brown, T., Martic, M., Legg, S., and Amodei, D. (2017). Deep reinforcement learning from human preferences. In Advances in Neural Information Processing Systems, pages
+4299–4307. Dathathri et al., (2019)
+
+Dathathri, S., Madotto, A., Lan, J., Hung, J., Frank, E., Molino, P., Yosinski,
+J., and Liu, R. (2019). Plug and play language models: A simple approach to controlled text
+generation. arXiv preprint arXiv:1912.02164. Dhamala et al., (2021)
+
+Dhamala, J., Sun, T., Kumar, V., Krishna, S., Pruksachatkun, Y., Chang, K.-W.,
+and Gupta, R. (2021). Bold: Dataset and metrics for measuring biases in open-ended language
+generation. In Proceedings of the 2021 ACM Conference on Fairness,
+Accountability, and Transparency, pages 862–872. (26)
+
+Dinan, E., Fan, A., Williams, A., Urbanek, J., Kiela, D., and Weston, J. (2019a). Queens are powerful too: Mitigating gender bias in dialogue
+generation. arXiv preprint arXiv:1911.03842. (27)
+
+Dinan, E., Humeau, S., Chintagunta, B., and Weston, J. (2019b). Build it break it fix it for dialogue safety: Robustness from
+adversarial human attack. arXiv preprint arXiv:1908.06083.

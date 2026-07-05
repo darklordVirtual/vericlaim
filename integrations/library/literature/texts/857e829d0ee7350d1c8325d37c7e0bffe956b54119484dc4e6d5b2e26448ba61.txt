@@ -1,0 +1,34 @@
+class EventProcessor... IList log = new ArrayList();
+public void Process(DomainEvent e) {
+e.Process();
+log.Add(e);
+}
+
+Each event has a process method. class DomainEvent... DateTime _recorded, _occurred;
+internal DomainEvent (DateTime occurred) {
+this._occurred = occurred;
+this._recorded = DateTime.Now;
+}
+abstract internal void Process();
+
+The arrival event simply captures the data and has a process
+method that simply forwards the event to an appropriate domain object. class DepartureEvent... Port _port;
+Ship _ship;
+internal Port Port {get { return _port; }}
+internal Ship Ship {get { return _ship; }}
+internal DepartureEvent(DateTime time, Port port, Ship ship) : base (time) {
+this._port = port;
+this._ship = ship;
+}
+internal override void Process() {
+Ship.HandleDeparture(this);
+}
+
+So here the event just does the processing selection logic. The
+processing domain logic is done by the ship. class Ship... public Port Port;
+public void HandleDeparture(DepartureEvent ev) {
+Port = Port.AT_SEA;
+}
+
+A departure event just sets the Ship's port to a Special Case. You'll notice I'm passing the event into the
+domain object.

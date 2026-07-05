@@ -1,0 +1,7 @@
+For large language models to be widely adopted, they must address
+the training data memorization problems that we have identified. Our extraction attacks are practical and efficient, and can recover hundreds of training examples
+from a model, even when they are contained in just one training document. Our analysis is best viewed as a cautionary tale of what could happen when training large LMs on sensitive data. Even though our attacks target GPT-2 (which allows us to ensure that our
+work is not harmful), the same techniques apply to any LM. Moreover, because memorization gets worse as LMs become larger, we expect that these vulnerabilities will become significantly more important in the future. There will therefore need to be techniques developed to specifically address our attacks. Training with differentially-private techniques is one method for mitigating privacy leakage,
+however, we believe that it will be necessary to develop new methods that can train models
+at this extreme scale (e.g., billions of parameters) without sacrificing
+model accuracy or training time.

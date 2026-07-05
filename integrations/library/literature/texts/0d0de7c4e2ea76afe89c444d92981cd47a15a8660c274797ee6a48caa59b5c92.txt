@@ -1,0 +1,14 @@
+Mohankumar, and M. M. Khapra. A survey of evaluation metrics used for nlg systems. 2020. Turing (1950)
+
+A. Turing. Computing machinery and intelligence. 1950. Wang et al. (2018)
+
+A. Wang, A. Singh, J. Michael, F. Hill, O. Levy, and S. R. Bowman. Glue: A multi-task benchmark and analysis platform for natural
+language understanding, 2018. Wang et al. (2019)
+
+A. Wang, Y. Pruksachatkun, N. Nangia, A. Singh, J. Michael, F. Hill, O. Levy,
+and S. R. Bowman. Superglue: A stickier benchmark for general-purpose language
+understanding systems, 2019. Zellers et al. (2019)
+
+R. Zellers, A. Holtzman, Y. Bisk, A. Farhadi, and Y. Choi. Hellaswag: Can a machine really finish your sentence?, 2019. Zellers et al. (2020)
+
+R. Zellers, A. Holtzman, E. Clark, L. Qin, A. Farhadi, and Y. Choi. Evaluating machines by their real-world language use, 2020.

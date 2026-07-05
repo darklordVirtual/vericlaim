@@ -1,0 +1,1 @@
+rules miss saturates even at the weakest tier, while capability buys precision (lower FPR), not recall — and a gated hybrid is net-positive in-distribution while the judge leads out-of-distribution. We claim the structure, not the decimals.

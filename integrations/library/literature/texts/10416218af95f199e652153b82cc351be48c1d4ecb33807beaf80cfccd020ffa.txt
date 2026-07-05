@@ -1,0 +1,14 @@
+Bringing in actual people to watch their reaction to
+your site (locally or remotely) in usability testing can also get you a fresh
+perspective. Rule #24: Measure the delta between models. One of the easiest and sometimes most useful measurements you can make before
+any users have looked at your new model is to calculate just how different the
+new results are from production. For instance, if you have a ranking problem,
+run both models on a sample of queries through the entire system, and look at
+the size of the symmetric difference of the results (weighted by ranking
+position). If the difference is very small, then you can tell without running
+an experiment that there will be little change. If the difference is very
+large, then you want to make sure that the change is good. Looking over
+queries where the symmetric difference is high can help you to understand
+qualitatively what the change was like. Make sure, however, that the system is
+stable. Make sure that a model when compared with itself has a low (ideally
+zero) symmetric difference. Rule #25: When choosing models, utilitarian performance trumps predictive power. Your model may try to predict click-through rate.

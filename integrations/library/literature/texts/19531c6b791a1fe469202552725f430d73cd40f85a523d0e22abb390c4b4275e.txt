@@ -1,0 +1,6 @@
+Figure 3 compares the zlib entropy and the GPT-2 XL perplexity for each sample, with memorized examples highlighted. Plots for the other strategies are shown in Figure 4 in Appendix B. Observe that most samples fall along a diagonal, i.e., samples with higher
+likelihood under one model also have higher likelihood under another model. However, there are numerous outliers in the top left:
+these samples correspond to those that GPT-2 assigns a low perplexity (a high likelihood)
+but zlib is surprised by. These points, especially those which are extreme outliers, are more likely to be memorized than those close to the diagonal. The different extraction methods differ in the type of memorized content they find. A complete breakdown of the data is given in Appendix A; however, to briefly summarize:
+
+1. The zlib strategy often finds non-rare text (i.e., has a high -memorization). It often finds news headlines, license files, or repeated strings from forums or wikis, and there is only one “high entropy” sequence this strategy finds. 2.

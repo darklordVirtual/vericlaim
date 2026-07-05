@@ -1,0 +1,6 @@
+We applied the SGR routine with several desired risk values, , and obtained, for each such , corresponding
+selective classifier and risk bound . All our applications of the SGR routine (for this dataset and the rest) where with a particularly small confidence level
+.222With this small , and small number of reported experiments (6-7 lines in each table) we
+did not perform a Bonferroni correction (which can be easily added). We then applied these selective classifiers on the reserved test set, and computed, for each selective classifier, test risk and test coverage. The results are summarized in Table 1, where we also include train risk and train coverage
+that were computed, for each selective classifier, over the training set. Observing the results in Table 1, we see that the risk bound, , is always very close to the
+the target risk, . Moreover, the test risk is always bounded above by the bound , as required. Finally, we see that it is possible to guarantee with this method amazingly small 1% error while covering more than 78% of the domain.

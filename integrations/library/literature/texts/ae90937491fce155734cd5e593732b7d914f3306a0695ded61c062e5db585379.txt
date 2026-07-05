@@ -1,0 +1,5 @@
+In combination with our demographics survey, we also sent out a survey to obtain feedback on the task. We show the results from the 19 respondents in Table 13. Overall, our labelers enjoyed the task, thought they were paid fairly for their work, and shared that they appreciated the helpfulness and level of communication from the researchers. Some labelers did find the task repetitive, though others felt there was enough variation to keep things interesting and engaging. (a)
+
+(b)
+
+Figure 12: Screenshots of our labeling interface. (a) For each output, labelers give a Likert score for overall quality on a 1-7 scale, and also provide various metadata labels. (b) After evaluating each output individually, labelers rank all the outputs for a given prompt. Ties are encouraged in cases where two outputs seem to be of similar quality.

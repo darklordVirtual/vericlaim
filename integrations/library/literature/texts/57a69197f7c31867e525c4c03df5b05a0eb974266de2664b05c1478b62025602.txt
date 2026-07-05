@@ -1,0 +1,18 @@
+cwe (2006)
+
+Cwe-327: Use of a broken or risky cryptographic algorithm, 2006. URL https://cwe.mitre.org/data/definitions/327.html. cwe (2009)
+
+Cwe-780: Use of rsa algorithm without oaep, 2009. URL https://cwe.mitre.org/data/definitions/780.html. owa (2017)
+
+A6:2017-security misconfiguration, 2017. URL
+https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html. Abid et al. (2021)
+
+Abid, A., Farooqi, M., and Zou, J. Persistent anti-muslim bias in large language models. arXiv preprint arXiv:2101.05783, 2021. Acemoglu & Restrepo (2020a)
+
+Acemoglu, D. and Restrepo, P. Robots and jobs: Evidence from us labor markets. Journal of Political Economy, 128(6):2188–2244, 2020a. Acemoglu & Restrepo (2020b)
+
+Acemoglu, D. and Restrepo, P. The wrong kind of ai? artificial intelligence and the future of
+labour demand. Cambridge Journal of Regions, Economy and Society, 13(1):25–35, 2020b. Agrawal et al. (1995)
+
+Agrawal, H., Horgan, J. R., London, S., and Wong, W. E. Fault localization using execution slices and dataflow tests. Proceedings of Sixth International Symposium on Software
+Reliability Engineering. ISSRE’95, pp. 143–151, 1995. Allamanis et al.

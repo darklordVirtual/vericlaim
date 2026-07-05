@@ -1,0 +1,18 @@
+(2022). Self-critiquing models for assisting human evaluators. [Scheurer et al., ]
+
+Scheurer, J., Campos, J. A., Chan, J. S., Chen, A., Cho, K., and Perez, E. Training language models with language feedback. [Shi et al., 2022]
+
+Shi, W., Dinan, E., Shuster, K., Weston, J., and Xu, J. (2022). When life gives you lemons, make cherryade: Converting feedback from
+bad responses into good labels. [Silver et al., 2017]
+
+Silver, D., Hubert, T., Schrittwieser, J., Antonoglou, I., Lai, M., Guez, A.,
+Lanctot, M., Sifre, L., Kumaran, D., Graepel, T., Lillicrap, T., Simonyan,
+K., and Hassabis, D. (2017). Mastering chess and shogi by self-play with a general reinforcement
+learning algorithm. [Solaiman and Dennison, 2021]
+
+Solaiman, I. and Dennison, C. (2021). Process for adapting language models to society (PALMS) with
+values-targeted datasets. CoRR, abs/2106.10328. [Srivastava et al., 2022]
+
+Srivastava, A., Rastogi, A., Rao, A., Shoeb, A. A. M., Abid, A., Fisch, A.,
+Brown, A. R., Santoro, A., Gupta, A., Garriga-Alonso, A., et al. (2022). Beyond the imitation game: Quantifying and extrapolating the
+capabilities of language models.

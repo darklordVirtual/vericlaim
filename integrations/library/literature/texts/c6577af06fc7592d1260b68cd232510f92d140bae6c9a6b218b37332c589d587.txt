@@ -1,0 +1,14 @@
+4623--4637, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.421. URL https://aclanthology.org/2020.acl-main.421. Artetxe et al. (2021)
+
+Mikel Artetxe, Shruti Bhosale, Naman Goyal, Todor Mihaylov, Myle Ott, Sam
+Shleifer, Xi Victoria Lin, Jingfei Du, Srinivasan Iyer, Ramakanth Pasunuru,
+Giri Anantharaman, Xian Li, Shuohui Chen, Halil Akin, Mandeep Baines, Louis
+Martin, Xing Zhou, Punit Singh Koura, Brian O’Horo, Jeff Wang, Luke
+Zettlemoyer, Mona Diab, Zornitsa Kozareva, and Ves Stoyanov. Efficient large scale language modeling with mixtures of experts,
+2021. URL https://arxiv.org/abs/2112.10684. Asaadi et al. (2019)
+
+Shima Asaadi, Saif Mohammad, and Svetlana Kiritchenko. Big BiRD: A large, fine-grained, bigram relatedness dataset for
+examining semantic composition. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 505--516, Minneapolis,
+Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1050. URL https://aclanthology.org/N19-1050. Askell et al.

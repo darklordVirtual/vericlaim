@@ -1,0 +1,46 @@
+Conference on Learning Representations, ICLR 2014 - Conference Track Proceedings
+
+International Conference on Learning Representations, ICLR, 2014
+
+arXiv: https://arxiv.org/abs/1312.6199
+
+[58]
+Ian J. Goodfellow, Jonathon Shlens and Christian Szegedy
+
+“Explaining and harnessing adversarial examples”
+
+In 3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings
+
+International Conference on Learning Representations, ICLR, 2015
+
+arXiv: https://arxiv.org/abs/1412.6572
+
+[59]
+Alice Xiang and Inioluwa Deborah Raji
+
+“On the Legal Compatibility of Fairness Definitions”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1912.00761
+
+[60]
+Reuben Binns
+
+“Fairness in Machine Learning: Lessons from Political Philosophy”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1712.03586
+
+[61]
+Mark Koren, Anthony Corso and Mykel Kochenderfer
+
+“The Adaptive Stress Testing Formulation”
+
+In RSS 2019: Workshop on Safe Autonomy, 2019
+
+URL: https://openreview.net/pdf?id=rJgoNK-oaE
+
+[62]
+Ritchie Lee et al.

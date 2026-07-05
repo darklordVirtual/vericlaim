@@ -1,0 +1,24 @@
+We denote by a classifier
+mapping image pixel value vectors to a discrete label set. We also assume
+that has an associated continuous loss function denoted by
+. For a given image and target label ,
+we aim to solve the following box-constrained optimization problem:
+
+•
+
+Minimize subject to:
+
+1. 2. The minimizer might not be unique, but we denote one such for an
+arbitrarily chosen minimizer by . Informally, is the closest
+image to classified as by . Obviously, , so this task is non-trivial only if
+. In general, the exact computation of is a hard problem,
+so we approximate it by using a box-constrained
+L-BFGS. Concretely, we find an approximation of by performing
+line-search to find the minimum for which the minimizer
+of the following problem satisfies . •
+
+Minimize subject to
+
+This penalty function method would yield the exact solution for
+in the case of convex losses, however neural networks are non-convex in general,
+so we end up with an approximation in this case.

@@ -1,0 +1,71 @@
+{"fsid": "arxiv_2303-11366", "n": 70, "overlap": 200, "source_sha256": "8e8711ff9c122b9663ad1531c308192233538be4b659a007fbbd0f521b51c165", "target": 1200}
+{"section": "", "seq": 0, "sha256": "7bc939eeddebd6d372a3bbe6b02227d31e412401b1ab7f0a4946e77480b7505f"}
+{"section": "Reflexion: Language Agents with Verbal Reinforcement Learning", "seq": 1, "sha256": "b28ed09940809eb305b57ef8e9a4d8ecbc7cbac042f2bd41484d4d78bf42a16b"}
+{"section": "Reflexion: Language Agents with Verbal Reinforcement Learning", "seq": 2, "sha256": "45bd0f3fc6e8d5a1e0abdd82f4c9d15f568812d1fd07240f3e940cb1bd30851a"}
+{"section": "1 Introduction", "seq": 3, "sha256": "c8aed9e16479d4ca75a5ebb953e6e0aabbaffd7c7ec78be7d3149bcdd7ff499e"}
+{"section": "1 Introduction", "seq": 4, "sha256": "d26d1ea5e7ea0f49cb49eb2807a2ffe8dd24394d6ce3f7daea7efb3e0edf57e2"}
+{"section": "1 Introduction", "seq": 5, "sha256": "fb23412a2d3e520bf4aa9db08378fb24627a68140ee6511aa9698bf5cb67a0df"}
+{"section": "1 Introduction", "seq": 6, "sha256": "e9174408d33cdb9153b5a718a6043b0e0dbe5c13a912b6231cc415a70720dde3"}
+{"section": "1 Introduction", "seq": 7, "sha256": "bdf2dc48165bb5c35fe06910ecaba894fd6f0853919d80425d9fed6c6e58755f"}
+{"section": "1 Introduction", "seq": 8, "sha256": "83ae1ac9c25b6d54fb07c2e933d51b1db98b134e359bd5a318df50d9dc2e06ec"}
+{"section": "2 Related work", "seq": 9, "sha256": "003f9aeb6fe504631aae7ed415dce44096b8ab5f5c170916c6522d9e9513c7dd"}
+{"section": "2 Related work", "seq": 10, "sha256": "9524475654bf5da67ba1562ad0a9a8c13afd68dbb95cd25f8d1235eb259b0e07"}
+{"section": "2 Related work", "seq": 11, "sha256": "bc7959693fc7dc2eb9a0cf54714a2a87e7c9330d18687c501a156e4e229988d2"}
+{"section": "3 Reflexion: reinforcement via verbal reflection", "seq": 12, "sha256": "0a55c9d297d92d3c9eaeccdc5ea82cd89321dfd656e8474b85c6831b3b852ed1"}
+{"section": "3 Reflexion: reinforcement via verbal reflection", "seq": 13, "sha256": "d44f6b67b80af1ac5df230a869439138d2e88716a29f2c8ab61865754a658863"}
+{"section": "3 Reflexion: reinforcement via verbal reflection", "seq": 14, "sha256": "fde7df239c7cada37276bf1c7b739553475859018dcf783527d42dfa6565634c"}
+{"section": "3 Reflexion: reinforcement via verbal reflection", "seq": 15, "sha256": "3f4feaaa798a0386aed2607e452de5f7e165e9ff92a00b859e3c0e19dc587501"}
+{"section": "3 Reflexion: reinforcement via verbal reflection", "seq": 16, "sha256": "ec3dc2037266b30d450705ba0fa1f106db89dd04856efa108f0cc39904d52cab"}
+{"section": "3 Reflexion: reinforcement via verbal reflection", "seq": 17, "sha256": "9a2d64dba0bc4885e18c7faae29e4476dda9c2e2fc12b75c5362e87f61bc84ef"}
+{"section": "4 Experiments", "seq": 18, "sha256": "fc568c8637ddd4586e7bdd9db8755f598eb55c9d66a7130b2e30a1a5f6d45207"}
+{"section": "4.1 Sequential decision making: ALFWorld", "seq": 19, "sha256": "17230eb4a1eee5cc86aacd4d9a249e8353177e5b3dae79e02ac2433c295bc74f"}
+{"section": "4.1 Sequential decision making: ALFWorld", "seq": 20, "sha256": "01623067e561a4e58e3a90954c086ec463d2cd06078f749b59499c2959ee422b"}
+{"section": "4.1 Sequential decision making: ALFWorld", "seq": 21, "sha256": "8c9099135215acf48e19fcc91fe1518d54e0850526e3e122872dce06936310f1"}
+{"section": "4.1 Sequential decision making: ALFWorld", "seq": 22, "sha256": "48384a31ee37662626692addd3bd42fae355c356fb5a34f3121dd789f0402ea5"}
+{"section": "4.2 Reasoning: HotpotQA", "seq": 23, "sha256": "9934493008caa82ada33ae2459ea430f04893a09668d635693cf7e1bbf986a02"}
+{"section": "4.2 Reasoning: HotpotQA", "seq": 24, "sha256": "f558aa176508b63decd0af9f6b5d385345bf64c3f6af9313780bb4603c6fc740"}
+{"section": "4.2 Reasoning: HotpotQA", "seq": 25, "sha256": "f01373aeaec7e5f994e9bfe1e0e3e6812a2b551999b4b54d60284993bb5ad8db"}
+{"section": "4.2 Reasoning: HotpotQA", "seq": 26, "sha256": "775b0446b75ff30e3b523f73c439dfc0788670cb119e33f74c06218cc17579a0"}
+{"section": "4.3 Programming", "seq": 27, "sha256": "7d2bceb726f9b50f06f51c961c779f977eb7c64af7223617a0ea9b3e16326553"}
+{"section": "4.3 Programming", "seq": 28, "sha256": "f15c9e6df0a4b262652ce73573cfdccd4245d90cac0f34671af77ca04bd4fa05"}
+{"section": "4.3 Programming", "seq": 29, "sha256": "2c780b7c77a843f25a8ca89df8f6c7ca36c8e81a63b701c6866f3fee3ebc3b6a"}
+{"section": "4.3 Programming", "seq": 30, "sha256": "2e08cfdf1057734ebd1ab2e0c6cb69396758af655c01fcb481e671b4b1594d61"}
+{"section": "4.3 Programming", "seq": 31, "sha256": "ad055190a127fb7e8e28497cac76724ca6e5e2fa83537daa856c6728004c9c97"}
+{"section": "4.3 Programming", "seq": 32, "sha256": "353345f6815c758caf7cb2d2b8cbc67c871f135291fca1232ffdb08f862db417"}
+{"section": "4.3 Programming", "seq": 33, "sha256": "f7687bf720b93c8fe8698a6a79d186a5733fe26abb99bdbb13d51c429ba17953"}
+{"section": "4.3 Programming", "seq": 34, "sha256": "c52b7bafc6f40fbd344d59a2173f71148b216dbbd4eaaad53d96f1ad456c80ba"}
+{"section": "5 Limitations", "seq": 35, "sha256": "1a71e8ad250f52255d9dbb8106ce315fa3006894266654ee9974f6d5fff078b5"}
+{"section": "6 Broader impact", "seq": 36, "sha256": "c8977e1ace105e90f88893f1aaf1d1d3bd83ee1e9d8b23a208b5d43094c43571"}
+{"section": "7 Conclusion", "seq": 37, "sha256": "b11eca4593fc6d1953255f6547987583ab170f411b4263386ad7df059d7379f6"}
+{"section": "8 Reproducibility", "seq": 38, "sha256": "a47d094e45e18610ab00a152f0fb8e40808137c81e4f0de9016c8d85e0ee47d8"}
+{"section": "References", "seq": 39, "sha256": "abac4e5ca51b808f94a896cccc9066f3b1e91f80b620f2864140a80669d0a197"}
+{"section": "References", "seq": 40, "sha256": "b172b9da9836bb6c4fc8ebd42ab8dcc9276fac41162a4b25405ebd7a88f230ac"}
+{"section": "References", "seq": 41, "sha256": "a3d1b8655e419d1d2036cf7329b004807e7ffd93c09dae7abc79ddbbe2dde467"}
+{"section": "References", "seq": 42, "sha256": "502e80d727f54aac75c4cdba8bb37e1d823c7dd978c57925d3c52a679f176828"}
+{"section": "References", "seq": 43, "sha256": "a989921ccd0c5345f3cc26e00fad4125392cb3a33a491f989c4a05af168539da"}
+{"section": "References", "seq": 44, "sha256": "1cdee9b160bba3563bc32668a66d0ea8cba58a6dad33db67b5a844ee40a4acc1"}
+{"section": "References", "seq": 45, "sha256": "52708d51b6c9aa4a20d9b25a91933b8e41b451ee2cf93ce8d84464a29f528f5c"}
+{"section": "Appendix A Evaluation with additional models", "seq": 46, "sha256": "731894e9657ba68af59e5922aa96ed5645ee62a579e910df186cca977082e680"}
+{"section": "Appendix B Decision-making", "seq": 47, "sha256": "6288beb507edec7bd7316585c6aa01eb2e5be31e6e91160d8d8fb1f8ea7a9447"}
+{"section": "Appendix B Decision-making", "seq": 48, "sha256": "e730376831d599e286769a69e181e4d730bac2d680fc21e56f58b46a972a75f1"}
+{"section": "Appendix B Decision-making", "seq": 49, "sha256": "292f01657cc09726b75699f0ab95c64abd6f6e8675efa50b857adc924e7d5c2d"}
+{"section": "B.1 WebShop Limitation", "seq": 50, "sha256": "b0b8a47b5875f7f841baa33b0152a2b60e94145f4916d27dc68f68311f78e7b7"}
+{"section": "B.1 WebShop Limitation", "seq": 51, "sha256": "d1e91d3f5aed26489d0ceaf69e567ddc01770daa2caa4ee9dd9478cb4e271494"}
+{"section": "Appendix C Programming", "seq": 52, "sha256": "f1e7ed6b738c1c19ce0babd2ebcb04ad77caf4ebe386c23f40a3ce395144a197"}
+{"section": "C.1 Programming function implementation example (HumanEval Python)", "seq": 53, "sha256": "b04bc32a6708cbeeb7d6fc6ef129155bf5f40683e0c2c5a32d02995efc08ffe7"}
+{"section": "C.2 Reflexion Actor instruction", "seq": 54, "sha256": "24e63bcb9506fe22228a4aa5ffff7e329b79733c995a40b830df988d59d79a0d"}
+{"section": "C.3 Reflexion Self-reflection instruction and example", "seq": 55, "sha256": "9f0f416f8d3f44964a5d5b64847779d9796d9d17111a265a07b5b139b5751071"}
+{"section": "C.4 Reflexion programming no Self-Reflection ablation example", "seq": 56, "sha256": "2ec5a2bc5d70cd125db55e6faa7a16929c260fe0ba78308379f36097c714bc64"}
+{"section": "C.5 Reflexion programming no test generation ablation example", "seq": 57, "sha256": "f7dd398c89875b324eac73d608d7aff1662533e51d7759af55059d487be93905"}
+{"section": "D.1 Full example", "seq": 58, "sha256": "d7711f6bd63646688c6ef533f46977948a1de97a25d52453671a30e6cb6c344c"}
+{"section": "D.1 Full example", "seq": 59, "sha256": "9cf2ef9491c900401bb544a75982e5540b33e62f47cd51845584a94b1f20b633"}
+{"section": "D.1 Full example", "seq": 60, "sha256": "6b8b967a35aa2189d34c14d98c63e48d8b99e8b67adb5ed87d9499897ae86c72"}
+{"section": "D.1 Full example", "seq": 61, "sha256": "d8f8abf9133bb017b65f9c2f54ae7fa1b0cddfa44e85a4f131208d1e9b40b768"}
+{"section": "D.2 Chain-of-Thought + Reflexion", "seq": 62, "sha256": "f06dbcd3e7a474320551135d6e833b9595043803a905b2054484ad7ee5f6619a"}
+{"section": "D.2 Chain-of-Thought + Reflexion", "seq": 63, "sha256": "a3ca070194aa7eda2dda8c8bd5a1562e1113ea05506b8cedac661c335cbff8aa"}
+{"section": "D.3 HotPotQA Chain-of-Thought (GT) + Reflexion", "seq": 64, "sha256": "3f9b0335a63d1b72ed5ab0be406fb3d9d07a7d19c5372f174970d3b9fadb4589"}
+{"section": "D.3 HotPotQA Chain-of-Thought (GT) + Reflexion", "seq": 65, "sha256": "ff7e2aa1b5be9f1fffb6e6f53ddf13925ae4fc8f20afc7763b8e3f9bc370067a"}
+{"section": "D.4 HotPotQA episodic memory (EPM) ablation prompts", "seq": 66, "sha256": "edb7a77c9cf5357c001ec4e9f0b5bc0e04376985f5ac13715575ef167f673779"}
+{"section": "D.4 HotPotQA episodic memory (EPM) ablation prompts", "seq": 67, "sha256": "2f14cbadcf23e77f4c207e79268bcb71c6292c36b88f18355d48ce4c5a890ed5"}
+{"section": "D.4 HotPotQA episodic memory (EPM) ablation prompts", "seq": 68, "sha256": "3146f56eca3eff9f4866167c7bc9d8c7fd5f8c7a4e03cdfef6ea280d0fe433df"}
+{"section": "D.4 HotPotQA episodic memory (EPM) ablation prompts", "seq": 69, "sha256": "11ed969f397461408dfbe80bd3ea5a32ddaf4615a9f2f0a5d3771c0bd77c158b"}

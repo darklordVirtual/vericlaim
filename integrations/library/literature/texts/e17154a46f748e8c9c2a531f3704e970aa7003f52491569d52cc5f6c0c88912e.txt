@@ -1,0 +1,29 @@
+Operation
+
+Parameters
+
+FLOPs per Token
+
+Embed
+
+Attention: QKV
+
+Attention: Mask
+
+—
+
+Attention: Project
+
+Feedforward
+
+De-embed
+
+—
+
+Total (Non-Embedding)
+
+Table 1: Parameter counts and compute (forward pass) estimates for a Transformer model. Sub-leading terms such as nonlinearities, biases, and layer normalization are omitted. We parameterize the Transformer architecture using hyperparameters (number of layers), (dimension of the residual stream), (dimension of the intermediate feed-forward layer), (dimension of the attention output), and (number of attention heads per layer). We include tokens in the input context, with except where otherwise noted. We use to denote the model size, which we define as the number of non-embedding parameters
+
+(2.1)
+
+where we have excluded biases and other sub-leading terms. Our models also have parameters in an embedding matrix, and use parameters for positional embeddings, but we do not include these when discussing the ‘model size’ ; we will see that this produces significantly cleaner scaling laws.

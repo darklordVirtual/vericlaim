@@ -1,0 +1,9 @@
+If has dimensions and the average magnitude of an element
+of the weight vector is , then the activation will grow by . Since does not grow with the dimensionality of the problem but the change in activation
+caused by perturbation by can grow linearly with , then for high dimensional problems, we can make many
+infinitesimal changes to the input that add up to one large change to the output. We can think of this as a sort of “accidental steganography,” where a linear model is forced to attend
+exclusively to the signal that aligns most closely with its weights, even if multiple signals are
+present and other signals have much greater amplitude. This explanation shows that a simple linear model can have adversarial examples if its input has
+sufficient dimensionality. Previous explanations for adversarial examples invoked hypothesized
+properties of neural networks, such as their supposed highly non-linear nature. Our hypothesis based on linearity is simpler, and can also explain why softmax regression is vulnerable
+to adversarial examples.

@@ -1,0 +1,55 @@
+When breaking up examples by male/female gender and gotcha/not gotcha, the largest improvement is on female gotcha examples (improvement of 10%). Thus, though Chinchilla uniformly overcomes gender stereotypes for more coreference examples than Gopher, the rate of improvement is higher for some pronouns than others, suggesting that the improvements conferred by using a more compute-optimal model can be uneven. Chinchilla
+Gopher
+
+All
+
+78.3%
+
+71.4%
+
+Male
+
+71.2%
+
+68.0%
+
+Female
+
+79.6%
+
+71.3%
+
+Neutral
+
+84.2%
+
+75.0%
+
+Chinchilla
+Gopher
+
+Male gotcha
+
+62.5%
+
+59.2%
+
+Male not gotcha
+
+80.0%
+
+76.7%
+
+Female gotcha
+
+76.7%
+
+66.7%
+
+Female not gotcha
+
+82.5%
+
+75.8%
+
+Table 10: Winogender results. Left: Chinchilla consistently resolves pronouns better than Gopher. Right: Chinchilla performs better on examples which contradict gender stereotypes (gotcha examples). However, difference in performance across groups suggests Chinchilla exhibits bias. Sample toxicity. Language models are capable of generating toxic language—including insults, hate speech, profanities and threats (Gehman et al., 2020; Rae et al., 2021).

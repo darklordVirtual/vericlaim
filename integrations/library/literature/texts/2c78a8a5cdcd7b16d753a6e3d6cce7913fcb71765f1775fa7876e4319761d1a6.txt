@@ -1,0 +1,15 @@
+the same entity as BBC news Web site on April 3rd; or the
+green traffic light (an entity with a fixed aspect green light) became the
+red traffic light (another entity with a fixed aspect red light). Invalidation ◊, written wasInvalidatedBy(id; e, a, t, attrs) in PROV-N, has:
+
+id: an OPTIONAL identifier for a invalidation;
+
+entity: an identifier for the invalidated entity;
+
+activity: an OPTIONAL identifier for the activity that invalidated the entity;
+
+time: an OPTIONAL "invalidation time", the time at which the entity began to be invalidated;
+
+attributes: an OPTIONAL set of attribute-value pairs representing additional information about this invalidation. While each of id, activity, time, and attributes is OPTIONAL, at least one of them MUST be present. Example 27 ◊
+
+The Painter, a Picasso painting, is known to have been destroyed in a plane accident.

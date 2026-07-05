@@ -1,0 +1,14 @@
+735--751, Cham, 2020. Springer. doi: 10.1007/978-3-030-46133-1_44. URL https://doi.org/10.1007/978-3-030-46133-1_44. Copi et al. (2018)
+
+Irving M. Copi, Carl Cohen, and Victor Rodych. Introduction to Logic. Taylor & Francis, 2018. URL https://books.google.co.il/books?id=38bADwAAQBAJ. Coucke et al. (2018)
+
+Alice Coucke, Alaa Saade, Adrien Ball, Théodore Bluche, Alexandre Caulier,
+David Leroy, Clément Doumouro, Thibault Gisselbrecht, Francesco Caltagirone,
+Thibaut Lavril, Maël Primet, and Joseph Dureau. Snips voice platform: An embedded spoken language understanding
+system for private-by-design voice interfaces, 2018. URL https://arxiv.org/abs/1805.10190. Crawford (2017)
+
+Kate Crawford. The trouble with bias. https://www.youtube.com/watch?v=fMym_BKWQzk, 2017. Keynote address, NIPS 2017, Long Beach CA. Dec. 5, 2017. Cropper & Muggleton (2016)
+
+Andrew Cropper and Stephen H. Muggleton. Metagol system, 2016. URL https://github.com/metagol/metagol. Cropper et al. (2016)
+
+Andrew Cropper, Alireza Tamaddoni-Nezhad, and Stephen H. Muggleton. Meta-interpretive learning of data transformation programs.

@@ -1,0 +1,8 @@
+[Logic]W. E. Johnson. Logic: Part III.1924. URL: http://www.ditext.com/johnson/intro-3.html
+[Mappings]Satya Sahoo; Paul Groth; Olaf Hartig; Simon Miles; Sam Coppens; James Myers; Yolanda Gil; Luc Moreau; Jun Zhao; Michael Panzer; Daniel Garijo Provenance Vocabulary Mappings. August 2010 URL: http://www.w3.org/2005/Incubator/prov/wiki/Provenance_Vocabulary_Mappings
+[PROV-AQ]Graham Klyne; Paul Groth; eds. Provenance Access and Query. 30 April 2013, W3C Note. URL: http://www.w3.org/TR/2013/NOTE-prov-aq-20130430/
+[PROV-DC]Daniel Garijo; Kai Eckert; eds. Dublin Core to PROV Mapping. 30 April 2013, W3C Note. URL: http://www.w3.org/TR/2013/NOTE-prov-dc-20130430/
+[PROV-DICTIONARY]Tom De Nies; Sam Coppens; eds. PROV Dictionary: Modeling Provenance for Dictionary Data Structures. 30 April 2013, W3C Note. URL: http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/
+[PROV-LAYOUT]W3C PROV Working Group. PROV Graph Layout Conventions. 2012. URL: http://www.w3.org/2011/prov/wiki/Diagrams
+[PROV-LINKS]Luc Moreau; Timothy Lebo; eds. Linking Across Provenance Bundles. 30 April 2013, W3C Note. URL: http://www.w3.org/TR/2013/NOTE-prov-links-20130430/
+[PROV-OVERVIEW]Paul Groth; Luc Moreau; eds.

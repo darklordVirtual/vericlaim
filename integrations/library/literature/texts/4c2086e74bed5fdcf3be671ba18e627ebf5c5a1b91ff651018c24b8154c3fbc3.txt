@@ -1,0 +1,22 @@
+Summary
+
+Package has provenance showing how it was built. Can be used to prevent mistakes
+but is trivial to bypass or forge. Intended for
+
+Projects and organizations wanting to easily and quickly gain some benefits of
+SLSA—other than tamper protection—without changing their build workflows. Requirements
+
+Software Producer:
+
+Follow a consistent build process so that others can form
+expectations about what a “correct” build looks like. Run builds on a build platform that meets Build L1 requirements. Distribute provenance to consumers, preferably using a convention
+determined by the package ecosystem. Build platform:
+
+Automatically generate provenance describing how the artifact was
+built, including: what entity built the package, what build process
+they used, and what the top-level input to the build were. Benefits
+
+Makes it easier for both producers and consumers to debug, patch, rebuild,
+and/or analyze the software by knowing its precise source version and build
+process. With verification, prevents mistakes during the release process, such as
+building from a commit that is not present in the upstream repo.

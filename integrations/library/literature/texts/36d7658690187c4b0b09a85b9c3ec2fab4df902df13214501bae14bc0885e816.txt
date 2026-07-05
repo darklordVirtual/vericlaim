@@ -1,0 +1,13 @@
+795--804, Jeju
+Island, Korea, July 2012. Association for Computational Linguistics. URL https://aclanthology.org/P12-1084. Marriott et al. (2021)
+
+Kim Marriott, Bongshin Lee, Matthew Butler, Ed Cutrell, Kirsten Ellis, Cagatay
+Goncu, Marti Hearst, Kathleen McCoy, and Danielle Albers Szafir. Inclusive data visualization for people with disabilities: A call
+to action. Interactions, 28(3):47–51, Apr. 2021. doi: 10.1145/3457875. URL https://doi.org/10.1145/3457875. Martínez-Plumed et al. (2021)
+
+Fernando Martínez-Plumed, Pablo Barredo, Seán Ó hÉigeartaigh,
+and José Hernández-Orallo. Research community dynamics behind popular AI benchmarks. Nature Machine Intelligence, 3(7):581--589, 2021. doi: 10.1038/s42256-021-00339-6. URL https://doi.org/10.1038/s42256-021-00339-6. Marvin & Linzen (2018)
+
+Rebecca Marvin and Tal Linzen. Targeted syntactic evaluation of language models. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pp. 1192--1202, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1151. URL https://aclanthology.org/D18-1151. Marín et al.

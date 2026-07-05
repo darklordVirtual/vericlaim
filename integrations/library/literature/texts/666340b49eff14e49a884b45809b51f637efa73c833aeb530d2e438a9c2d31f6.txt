@@ -1,0 +1,2 @@
+Running MemGPT with GPT-4 and GPT-4 Turbo have equivalent results on this task. MemGPT utilizes memory to increase engagement:
+As seen in Table 3, MemGPT is able to craft engaging openers that perform similarly to and occasionally exceed the hand-written human openers. We observe that MemGPT tends to craft openers that are both more verbose and cover more aspects of the persona information than the human baseline. Additionally, we can see the storing information in working context is key to generating engaging openers.

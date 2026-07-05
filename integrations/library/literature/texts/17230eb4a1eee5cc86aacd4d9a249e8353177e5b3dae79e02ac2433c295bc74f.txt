@@ -1,0 +1,16 @@
+AlfWorld is a suite of text-based environments that challenge an agent to solve
+multi-step tasks in a variety of interactive environments based on TextWorld
+(Côté et al.,, 2019). Following Yao et al., (2023), we run the agent in
+134 AlfWorld environments across six different tasks, including finding hidden
+objects (e.g., finding a spatula in a drawer), moving objects (e.g., moving a
+knife to the cutting board), and manipulating objects with other objects (e.g.,
+chilling a tomato in the fridge). We use ReAct (Yao et al.,, 2023) as the
+action generator as Yao et al., (2023) has shown success in long trajectory
+decision-making using explicit intermediate thoughts. AlfWorld tasks naturally
+require a self-evaluation step as the environment can only signal if a task
+is complete. To achieve fully autonomous behavior, we implement two self-evaluation
+techniques: natural language classification using an LLM and a hand-written
+heuristic. The heuristic is simple: if the agent executes the
+same action and receives the same response for more than 3 cycles, or if the
+number of actions taken in the current environment exceeds 30 (inefficient
+planning), we self-reflect.

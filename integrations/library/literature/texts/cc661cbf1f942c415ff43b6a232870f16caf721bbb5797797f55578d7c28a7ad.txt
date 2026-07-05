@@ -1,0 +1,9 @@
+In this section, we will expand on the results of Theorem 1. Theorem 1 Restated. Assume, we have a reference model, such that for all pairs of prompts and answers and a parameter . All reward equivalence classes, as defined in Section 5 can be represented with the reparameterization for some model . Proof. Consider any reward function , which induces an optimal model under the KL-constrained RL problem, with solution given by 4. Following Eq. 5, when we log-linearize both sides we obtain:
+
+where (notice that also depends on the reward function ). Using the operator , we see that this new reward function is within the equivalence class of and, we have:
+
+which completes the proof. ∎
+
+We can further expand on these results. We can see that if and are two reward functions in the same class, then
+
+where the second equality follows from Lemma 2. We have proven that the operator maps all reward functions from a particular equivalence class to the same reward function. Next, we show that for every equivalence class of reward functions, the reward function that has the reparameterization outlined in Theorem 1 is unique. Proposition 1.

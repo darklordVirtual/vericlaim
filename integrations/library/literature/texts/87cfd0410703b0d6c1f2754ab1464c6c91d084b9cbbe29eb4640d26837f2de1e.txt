@@ -1,0 +1,13 @@
+GPT-NeoX-20B: An open-source autoregressive language model. In Proceedings of the ACL Workshop on Challenges &
+Perspectives in Creating Large Language Models, 2022. URL https://arxiv.org/abs/2204.06745. Blinov et al. (2019)
+
+Vladislav Blinov, Valeria Bolotova-Baranova, and Pavel Braslavski. Large dataset and language model fun-tuning for humor recognition. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pp. 4027--4032, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1394. URL https://aclanthology.org/P19-1394. Blodgett et al. (2020)
+
+Su Lin Blodgett, Solon Barocas, Hal Daumé III, and Hanna Wallach. Language (technology) is power: A critical survey of ‘‘bias’’ in
+NLP. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 5454--5476, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.485. URL https://aclanthology.org/2020.acl-main.485. Bodrova (2007)
+
+Yulia V. Bodrova. Russian Proverbs and Sayings and Their English Equivalents. AST, Moscow, 2007. Boillot (2019)
+
+Nicholas Boillot.

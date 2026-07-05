@@ -1,0 +1,20 @@
+Long short-term memory. Neural computation, 9(8):1735–1780, 1997. [14]
+
+Zhongqiang Huang and Mary Harper. Self-training PCFG grammars with latent annotations across
+languages. In Proceedings of the 2009 Conference on Empirical Methods in
+Natural Language Processing, pages 832–841. ACL, August 2009. [15]
+
+Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016. [16]
+
+Łukasz Kaiser and Samy Bengio. Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS),
+2016. [17]
+
+Łukasz Kaiser and Ilya Sutskever. Neural GPUs learn algorithms. In International Conference on Learning Representations
+(ICLR), 2016. [18]
+
+Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex
+Graves, and Koray Kavukcuoglu. Neural machine translation in linear time. arXiv preprint arXiv:1610.10099v2, 2017. [19]
+
+Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks. In International Conference on Learning Representations, 2017. [20]
+
+Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.

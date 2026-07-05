@@ -1,0 +1,37 @@
+class Tester... Ship kr;
+Port sfo, la, yyv;
+Cargo refact;
+EventProcessor eProc;
+
+[SetUp]
+public void SetUp() {
+eProc = new EventProcessor();
+refact = new Cargo ("Refactoring");
+kr = new Ship("King Roy");
+sfo = new Port("San Francisco", Country.US);
+la = new Port("Los Angeles", Country.US);
+yyv = new Port("Vancouver", Country.CANADA) ;
+}
+
+[Test]
+public void ArrivalSetsShipsLocation() {
+ArrivalEvent ev = new ArrivalEvent(new DateTime(2005,11,1), sfo, kr);
+eProc.Process(ev);
+Assert.AreEqual(sfo, kr.Port);
+}
+[Test]
+public void DeparturePutsShipOutToSea() {
+eProc.Process(new ArrivalEvent(new DateTime(2005,10,1), la, kr));
+eProc.Process(new ArrivalEvent(new DateTime(2005,11,1), sfo, kr));
+eProc.Process(new DepartureEvent(new DateTime(2005,11,1), sfo, kr));
+Assert.AreEqual(Port.AT_SEA, kr.Port);
+}
+
+To make these tests work we just need the arrival and departure
+events. The event processor is very simple. class EventProcessor... IList log = new ArrayList();
+public void Process(DomainEvent e) {
+e.Process();
+log.Add(e);
+}
+
+Each event has a process method. class DomainEvent...

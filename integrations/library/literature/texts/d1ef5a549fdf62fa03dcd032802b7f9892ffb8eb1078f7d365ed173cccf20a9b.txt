@@ -1,0 +1,8 @@
+However, such techniques are presently hard to realize in the
+context of DNNs, for which it could be
+very costly to train sufficiently many ensemble members. Recently, Gal and Ghahramani [9] proposed an ensemble-like method for measuring uncertainty in DNNs, which bypasses the need to train several ensemble members. Their method works via sampling multiple dropout applications
+of the forward pass to perturb the network prediction randomly. While this Monte-Carlo dropout (MC-dropout) technique was not mentioned in the context of
+selective prediction, it can be directly applied as a viable selective prediction method using a threshold, as we discuss here. In this paper we consider classification tasks,
+and our goal is to learn a selective classifier , where is a standard classifier and is a rejection function. The selective classifier has to allow full guaranteed control over the true risk. The ideal method should be able to classify samples in production with any desired level of risk
+with the optimal coverage rate. It is reasonable to assume that this optimal performance
+can only be obtained if the pair is trained together.

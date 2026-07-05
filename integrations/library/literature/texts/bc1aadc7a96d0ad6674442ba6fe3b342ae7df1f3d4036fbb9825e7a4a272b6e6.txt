@@ -1,0 +1,1 @@
+A7: Chinchilla BIG-bench results. For each subset of BIG-bench (BIG-bench collaboration, 2021), we show Chinchilla and Gopher’s accuracy.

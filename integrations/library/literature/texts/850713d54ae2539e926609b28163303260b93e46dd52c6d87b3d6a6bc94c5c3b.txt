@@ -1,0 +1,33 @@
+Article 2
+
+Scope
+
+1. This Regulation applies to:
+
+(a)
+
+providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country;
+
+(b)
+
+deployers of AI systems that have their place of establishment or are located within the Union;
+
+(c)
+
+providers and deployers of AI systems that have their place of establishment or are located in a third country, where the output produced by the AI system is used in the Union;
+
+(d)
+
+importers and distributors of AI systems;
+
+(e)
+
+product manufacturers placing on the market or putting into service an AI system together with their product and under their own name or trademark;
+
+(f)
+
+authorised representatives of providers, which are not established in the Union;
+
+(g)
+
+affected persons that are located in the Union. 2. For AI systems classified as high-risk AI systems in accordance with Article 6(1) related to products covered by the Union harmonisation legislation listed in Section B of Annex I, only Article 6(1), Articles 102 to 109 and Article 112 apply.

@@ -1,0 +1,23 @@
+Then, we reserve a moderate number (e.g., 500) of fresh i.i.d. pairs of images and classes unseen during training, , for use as calibration data. Using and the calibration data, we seek to construct a prediction set of possible labels that is valid in the following sense:
+
+(1)
+
+where is a fresh test point from the same distribution, and is a user-chosen error rate. In words, the probability that the prediction set contains the correct label is almost exactly ; we call this property marginal coverage, since the probability is marginal (averaged) over the randomness in the calibration and test points. See Figure 1 for examples of prediction sets on the Imagenet dataset. ⬇
+
+# 1: get conformal scores. n = calib_Y.shape[0]
+
+cal_smx = model(calib_X).softmax(dim=1).numpy()
+
+cal_scores = 1-cal_smx[np.arange(n),cal_labels]
+
+# 2: get adjusted quantile
+
+q_level = np.ceil((n+1)*(1-alpha))/n
+
+qhat = np.quantile(cal_scores, q_level, method=’higher’)
+
+val_smx = model(val_X).softmax(dim=1).numpy()
+
+prediction_sets = val_smx >= (1-qhat) # 3: form prediction sets
+
+Figure 2: Illustration of conformal prediction with matching Python code.

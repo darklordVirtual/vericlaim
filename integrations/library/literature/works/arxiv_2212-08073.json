@@ -54,6 +54,12 @@
     "Tom Brown",
     "Jared Kaplan"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:00.710209+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2212.08073"
+  },
+  "fulltext_sha256": "04bc6cacf2f1e1e721623a6ea7fc094fafafda3585b307089bcd66df3b23b201",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "constitutional-ai-2022",

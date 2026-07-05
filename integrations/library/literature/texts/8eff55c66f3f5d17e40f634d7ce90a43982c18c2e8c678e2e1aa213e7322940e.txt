@@ -1,0 +1,44 @@
+Zhang, Ying Nian Wu and Song-Chun Zhu
+
+“Interpretable Convolutional Neural Networks”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1710.00935
+
+[213]
+Xi Chen et al. “InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets”
+
+In arXiv, 2016
+
+arXiv: http://arxiv.org/abs/1606.03657
+
+[214]
+Irina Higgins et al. “-VAE: LEARNING BASIC VISUAL CONCEPTS WITH A CONSTRAINED VARIATIONAL FRAMEWORK”
+
+In International Conference on Learning Representations, 2017
+
+URL: https://openreview.net/references/pdf?id=Sy2fzU9gl
+
+[215]
+Abhinav Verma et al. “Programmatically Interpretable Reinforcement Learning”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1804.02477
+
+[216]
+Andrew Slavin Ross and Finale Doshi-Velez
+
+“Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1711.09404
+
+[217]
+Saleema Amershi et al. “Modeltracker: Redesigning performance analysis tools for machine learning”
+
+In Conference on Human Factors in Computing Systems - Proceedings 2015-April
+
+Association for Computing Machinery, 2015, pp.

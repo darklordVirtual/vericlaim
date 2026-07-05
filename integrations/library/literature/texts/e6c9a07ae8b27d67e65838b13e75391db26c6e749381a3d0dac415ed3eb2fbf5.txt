@@ -1,0 +1,18 @@
+Transactions of the Association for Computational Linguistics,
+9:346--361, 04 2021. doi: 10.1162/tacl_a_00370. URL https://doi.org/10.1162/tacl_a_00370. Ghanem et al. (2020)
+
+Bilal Ghanem, Jihen Karoui, Farah Benamara, Paolo Rosso, and Véronique
+Moriceau. Irony detection in a multilingual context. In Joemon M. Jose, Emine Yilmaz, João Magalhães, Pablo Castells,
+Nicola Ferro, Mário J. Silva, and Flávio Martins (eds.), Advances in
+Information Retrieval. ECIR 2020. Lecture Notes in Computer Science, volume
+12036. Springer, Cham, 2020. URL
+https://link.springer.com/chapter/10.1007/978-3-030-45442-5_18. Ghosh et al. (2020)
+
+Debanjan Ghosh, Avijit Vajpayee, and Smaranda Muresan. A report on the 2020 sarcasm detection shared task, 2020. URL https://arxiv.org/abs/2005.05814. Ghosh & Srivastava (2021)
+
+Sayan Ghosh and Shashank Srivastava. ePiC: Employing proverbs in context as a benchmark for abstract
+language understanding, 2021. URL https://arxiv.org/abs/2109.06838. Gibson et al. (2017)
+
+Edward Gibson, Richard Futrell, Julian Jara-Ettinger, Kyle Mahowald, Leon
+Bergen, Sivalogeswaran Ratnasingam, Mitchell Gibson, Steven T. Piantadosi,
+and Bevil R. Conway.

@@ -1,0 +1,17 @@
+activity
+of creating a painting, an artist may have mixed some paint that was
+never actually applied to the canvas: the painting would typically
+not be considered a derivation from the unused paint. PROV does not attempt to specify the conditions under which derivations
+exist; rather, derivation is considered to have been determined by unspecified means. Thus, while a chain of usage and generation is necessary for a
+derivation to hold between entities, it is not sufficient; some
+form of influence occurring during the activities involved is also needed. 2.1.3 Agents and Responsibility
+
+For many purposes, a key consideration
+for deciding whether something is reliable and/or trustworthy is
+knowing who or what was reponsible for its production. Data published by
+a respected independent organization may be considered more
+trustworthy than that from a lobby organization; a claim by a
+well-known scientist with an established track record may be more
+believed than a claim by a new student; a calculation performed by an
+established software library may be more reliable than by a one-off
+program.

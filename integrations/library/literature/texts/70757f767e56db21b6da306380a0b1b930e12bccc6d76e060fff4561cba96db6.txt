@@ -1,0 +1,17 @@
+The trust layer sees a exactly as it will be executed — it is an interposition point on the agent’s effector path, not a post-hoc log analyzer. Given a (and the surrounding session context), the trust layer emits one of four verdicts:
+
+•
+
+allow — execute the action unmodified;
+
+•
+
+warn — execute, but surface a caution to the operator/log (a soft, fully reversible signal);
+
+•
+
+review — pause and route to a human (or a stronger automated check) before execution;
+
+•
+
+block — refuse to execute the action. These verdicts form an escalation order allow < warn < review < block in severity. A central design commitment of AgentTrust, motivated below and quantified in the evaluation, is a safety invariant on the benign tail: the system never hard-blocks a benign action. When the layer is uncertain about an action it believes is probably legitimate, the worst it may do is escalate to a soft warn or to review; a hard block is reserved for actions it can positively justify as dangerous. The whole system is engineered so that the cost of a false alarm is paid in friction, never in a broken benign workflow (§5.5). Adversary.

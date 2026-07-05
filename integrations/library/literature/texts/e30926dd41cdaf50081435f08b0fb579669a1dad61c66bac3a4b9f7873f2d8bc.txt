@@ -1,0 +1,1 @@
+2’s classifier, LlamaFirewall uniquely incorporates AlignmentCheck—a chain-of-thought analysis module that inspects whether the model’s internal reasoning has been influenced by untrusted input. This fusion of input sanitization, model oversight, and reasoning introspection allows for more resilient, composable defense strategies than existing systems.

@@ -1,0 +1,7 @@
+Full alignment checks are recommended for high-security applications, such as autonomous agents that handle sensitive data or critical actions where strict controllability is essential. To improve efficiency, we are exploring:
+
+•
+
+Risk-triggered checks in high-stakes scenarios. •
+
+Model distillation techniques to reduce computational overhead.

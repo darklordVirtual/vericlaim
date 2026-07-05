@@ -1,0 +1,8 @@
+This view enables us to design a fast method of generating adversarial examples that
+makes adversarial training practical. We show that adversarial training can provide
+an additional regularization benefit beyond that provided by using dropout (Srivastava et al., 2014) alone. Generic regularization strategies such as dropout, pretraining,
+and model averaging do not confer a significant reduction in a model’s vulnerability to
+adversarial examples, but changing to nonlinear model families such as RBF networks can do so. Our explanation suggests a fundamental tension between designing models that are easy to train due
+to their linearity and designing models that use nonlinear effects to resist adversarial
+perturbation. In the long run, it may be possible to escape this tradeoff by designing more
+powerful optimization methods that can succesfully train more nonlinear models.

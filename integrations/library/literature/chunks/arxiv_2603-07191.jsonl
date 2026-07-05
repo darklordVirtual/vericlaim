@@ -1,0 +1,89 @@
+{"fsid": "arxiv_2603-07191", "n": 88, "overlap": 200, "source_sha256": "d437221d6159da249c224e1f4dadcd60b1cf57b1265d5c7b2cc4cf92318eee48", "target": 1200}
+{"section": "", "seq": 0, "sha256": "feff2655afc70007bea217131c7f2f8569da7ae932b9047c9b662ff8d3f1b9a6"}
+{"section": "Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice", "seq": 1, "sha256": "7aae87745fa4b5fb5d15d05ec3dc954d404146c091e3800a35a0560c7532140c"}
+{"section": "Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice", "seq": 2, "sha256": "c91586beaa3804c6294744c49b72955799500d06119884a532bb78b1544cf577"}
+{"section": "Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice", "seq": 3, "sha256": "a6758959d175d1c7cc8a1b77fea9954f4cb102124445180479483ae15728f646"}
+{"section": "1. Introduction", "seq": 4, "sha256": "38119e6dcf5d2e3c2d21d5553b3ed1c2fefee8ec3471dd767be62c2aa31ea02b"}
+{"section": "1. Introduction", "seq": 5, "sha256": "f849a296929a35078267a47a7d20f4a12627d7231990e8b33ffd68bebd27c6fe"}
+{"section": "1. Introduction", "seq": 6, "sha256": "919bfba4eb0f2957fc526f530fa8724488e5d1f6d5d211ff588dce6e8a14eaba"}
+{"section": "1. Introduction", "seq": 7, "sha256": "5e40b3e4bd7f7709642b710f4c50196bc72210c94ae7db0dc359fcdcd1d587ea"}
+{"section": "2.1. LLM Code Generation and Abstraction Failures", "seq": 8, "sha256": "53420fffd395e6c8606a43aaf77d24b72d0adc2b99c80259e5c7270539702779"}
+{"section": "2.2. Prompt Injection and Agent Security", "seq": 9, "sha256": "198455bb9ea4a53ca69938f0ed91c6faf26a338921704cf4d90630cd86b52d10"}
+{"section": "2.3. Agent Frameworks", "seq": 10, "sha256": "eccb7ef2c6c6f58da1c621937ef2e8120f7dec1286bbce7178a0ebbc0dd66446"}
+{"section": "2.4. Agent Security Benchmarks", "seq": 11, "sha256": "998bad3a5bf513466271be36042892cb83c190b9e9c4a664f1b9c4b4860a9554"}
+{"section": "2.4. Agent Security Benchmarks", "seq": 12, "sha256": "2d9888b98aae0ba083fff5899fa247e51102690bff7314209c89d6a5afd0579e"}
+{"section": "2.5. LLM Safety and Guardrail Systems", "seq": 13, "sha256": "339dce4f24916eeef4c8a8cc7359e593e6f5aa98c1ccd447aea7e8778804a819"}
+{"section": "3. From Defect Remediation to System Governance", "seq": 14, "sha256": "f8dbb064b655580fefddfca5a6a95f9c539f973f59875fee4c152587bf9438fa"}
+{"section": "3. From Defect Remediation to System Governance", "seq": 15, "sha256": "82d795dee38a04d1e3de7a06b5121c9830603599d047f5901d065de93bb9f0a3"}
+{"section": "4.1. System Model", "seq": 16, "sha256": "8f114d9109a44ec8180e15c705ff7162802d685584699e93bdb98b3499a91395"}
+{"section": "4.2. Threat Class 1: Agency Abuse via Prompt Injection", "seq": 17, "sha256": "5bd7fcc2edf3637e5027cbf38ac46d12ba7b0ad70eb337a25d1f1688ed7920cb"}
+{"section": "4.3. Threat Class 2: RAG Data Poisoning", "seq": 18, "sha256": "360e65593aca5d5f2b1ce54bfe2dd55891a29a3ae544ddac66d413708b95e152"}
+{"section": "4.4. Threat Class 3: Malicious Skill Plugins", "seq": 19, "sha256": "11a73780e344981cb3da3881f9c3db314c31468ffb474a7001201a1377f1e782"}
+{"section": "5. Layered Governance Architecture (LGA)", "seq": 20, "sha256": "5d89bcf52a464d38d29fcdaa3f5d780d03bcf922fb3b74c1b02ed4714ac7b4b0"}
+{"section": "5.1. Layer 1: Execution Sandbox", "seq": 21, "sha256": "0345153561f0d25570560a743be88440ca15d893bb52c1c26bf353bba8ada2f2"}
+{"section": "5.2. Layer 2: Intent Verification", "seq": 22, "sha256": "8b3ee4e4471da0d0a28efa06c76b10791ff997e8fece83f0a395356d61cce513"}
+{"section": "5.3. Layer 3: Zero-Trust Inter-Agent Protocol", "seq": 23, "sha256": "56a4e4826e04365de0493e10c34d0bca216a4ec78fc907cd4247c1aa6766a4e2"}
+{"section": "5.4. Layer 4: Immutable Audit Log", "seq": 24, "sha256": "df6270d5952c6e021dfd4c348522f528df0c33f9c8bb2babbe6d1fb17d05a3f5"}
+{"section": "6.1. Architecture Overview", "seq": 25, "sha256": "5278e0bdce5deb15db6274517250ac698e83debb6408c06f12eacf2b5f8d0fe1"}
+{"section": "6.2. Zero-Ops Local Persistent Memory", "seq": 26, "sha256": "5882ab91f28074ec532854d6730815dc0150fd9b14c5a7d6f7ec6410a9ea8334"}
+{"section": "6.3. Heartbeat Autonomous Loop and Soul Configuration", "seq": 27, "sha256": "c167a8df84ff68494eda6de585d9b25230ce6f2f2d97c2ac1b3de69d3418a08f"}
+{"section": "6.4. Compute Routing and Data Sovereignty", "seq": 28, "sha256": "0dc12fb2102309661eb70e44c4186098ab3d166d9cb194520d3274327ec88ed9"}
+{"section": "6.5. ClawHub Workspace and Skill Ecosystem", "seq": 29, "sha256": "4e3782afac82006789d631fa0a1388e0e4d03fe1c49cf5045827f7fb57c24de8"}
+{"section": "6.6. LGA Compliance Assessment", "seq": 30, "sha256": "215bf2f9af8f659f8ab4e775f525732c5b3b906d5b9b523b4402de40108393b0"}
+{"section": "7.1. Experimental Setup", "seq": 31, "sha256": "c184cf842126d7f5136e1dbc7a0c0f39471aae57db571880d39c935ac6b6b4bb"}
+{"section": "7.1. Experimental Setup", "seq": 32, "sha256": "39523ce17abf90b913c6010d27c4ae7a15b5570b7c282bb98a4ffda4ed39adcc"}
+{"section": "7.1. Experimental Setup", "seq": 33, "sha256": "176d6f00a59eaec742fdf5ede64e7dba411c3edf669a54ddf9ef590bb5e35688"}
+{"section": "7.1. Experimental Setup", "seq": 34, "sha256": "14dc9b467fcbd2012d5b23aa2be6c9c0bf5e8d5137b09ff15698bd96cc681b2c"}
+{"section": "7.1. Experimental Setup", "seq": 35, "sha256": "4267ca531add379e324e02a335fea58e9db17949f8ade9d30a1e81c7b8167737"}
+{"section": "7.1. Experimental Setup", "seq": 36, "sha256": "f731bcbd3917a99c542f1e8f46827ad60753af99fd2722e0111c5cd487aad067"}
+{"section": "7.1. Experimental Setup", "seq": 37, "sha256": "e5d1e2fee9e706fbe8bca5beb55d8cb90f970a8f23cee8b3bb8439aaa12cde21"}
+{"section": "7.1. Experimental Setup", "seq": 38, "sha256": "e1307c6d094f601b549f4d20a537ebab6df3a5295fb7bd78185f51063e9e0ea0"}
+{"section": "7.2. Security Results", "seq": 39, "sha256": "469b14af24fc38ee355f546c5d0aa1346afc27c632c27dceedfc93d8957ef733"}
+{"section": "7.2. Security Results", "seq": 40, "sha256": "1f8324c661c55861c9b9c20d238c001ea908e114bbafcb0a415f50f05b6e92e1"}
+{"section": "7.2. Security Results", "seq": 41, "sha256": "385381cb58255dfaef0d72f4f8b5afa1e2a362484972ebdf63dc49d3d0aaff43"}
+{"section": "7.2. Security Results", "seq": 42, "sha256": "381261d7d027d6c0a26b69859a9b0c263e8acd0f90112b0c4b5f9c373c350906"}
+{"section": "7.3. Performance Results", "seq": 43, "sha256": "b9c09f68ecf5cb4e30a525af4712dd6a959b70850853ff552f0d4496d6ee8884"}
+{"section": "7.3. Performance Results", "seq": 44, "sha256": "ec5a874ea96690e400d695db4f6a16c370e48370bf9005d2dd6f581475bb024d"}
+{"section": "7.3. Performance Results", "seq": 45, "sha256": "4e5dbc7223ea617086117cf02cf1abcee9e36a11db940f71ce45e045e6811c1e"}
+{"section": "7.3. Performance Results", "seq": 46, "sha256": "a743d2ebd1757b86f90548db247c5a7b103d22e77b9b4ec41e4b356fdd91241a"}
+{"section": "7.4. Discussion", "seq": 47, "sha256": "9bcdcb5aab7362742c1af97661615f54c7ce08bb8f1d98e3c04f640b29026657"}
+{"section": "7.4. Discussion", "seq": 48, "sha256": "c02280f31e966e8cc7f4ebc09d6709f2f2964a90a0ee50758583e1c228ff186b"}
+{"section": "7.4. Discussion", "seq": 49, "sha256": "b41dbcba2527c61cd5fe7906f59e80ad16a4f3121f95f6cac6ef5b9ddac968d1"}
+{"section": "7.4. Discussion", "seq": 50, "sha256": "13f3e43036a049ee8c6f432ab0a083aa3f7b18c710d97970d6c4332c68245835"}
+{"section": "7.4. Discussion", "seq": 51, "sha256": "98cf60d40788ff0d8e8b3e8ef19d51df933b70e0e75dbc5cdf925bf086e75dda"}
+{"section": "7.4. Discussion", "seq": 52, "sha256": "62aec5d13fb90b25479617f1e9faef91b790ac03f73248c72ddd3a15ee9ef7db"}
+{"section": "7.4. Discussion", "seq": 53, "sha256": "a96e291af1223931a9b3e8a7435b680bfdd3578097b12fc7fb6abde2784a3218"}
+{"section": "7.4. Discussion", "seq": 54, "sha256": "3beb3bddb5c951887dcc17da5d695f47fa975d4b8084c9f951073de04d49e25f"}
+{"section": "7.4. Discussion", "seq": 55, "sha256": "ecb93307221b557c35a3c6da12e3e9e8a48edfdfdf15e1cbc282a3d7b4dc96c8"}
+{"section": "7.4. Discussion", "seq": 56, "sha256": "14f57453e274caf5c5b1da34fbc8907ae480fe05b31adbb84ec1804f2ba41670"}
+{"section": "7.4. Discussion", "seq": 57, "sha256": "fdda8e216346274cdcf97c3a935798f054afac948db8ece3bf97291527363bcb"}
+{"section": "7.4. Discussion", "seq": 58, "sha256": "63084b3cc6ae5f5d8fd1b533eb0c37b6c7f30a557ffb24cdd588e070ae93a86c"}
+{"section": "7.4. Discussion", "seq": 59, "sha256": "7e821ee6d0c9bb910bad645fdc9a3c0e71a653b6082555776f923d47027a1aac"}
+{"section": "7.4. Discussion", "seq": 60, "sha256": "e4d0c3563db8dce606ed1542c18654ee52ecb992b9366519fbec9db86e6464a0"}
+{"section": "7.4. Discussion", "seq": 61, "sha256": "c640fcd9e13626b30980fe7a83ba35a1fc850deff44c9ff59103126d257169fc"}
+{"section": "7.4. Discussion", "seq": 62, "sha256": "6c6a6bf63d3fc645f4bb94a216d9a70a27252defee865b66bceeaa29618c7e4f"}
+{"section": "7.4. Discussion", "seq": 63, "sha256": "69e37c693c9d5428e0d4d51e2aab2bb99f6236158cec6d9998f1dc15a9280127"}
+{"section": "7.4. Discussion", "seq": 64, "sha256": "aa12280458fc774c613f6faa944624a2e1b442d9548c2feda9d4c1f43dd461f5"}
+{"section": "7.4. Discussion", "seq": 65, "sha256": "47fa0be61cdbcbb8856116f3136ce02cc4268e1eeaed7a6891eb0953370828aa"}
+{"section": "7.4. Discussion", "seq": 66, "sha256": "3710bfd40deedbdf6ca6b674389d87c42885cf389ebb7cfb46511944378bb96c"}
+{"section": "7.4. Discussion", "seq": 67, "sha256": "1ca6ed4daef68a0dd349f58f8c48371ec0279bda21f56e83dd7345a015931c2f"}
+{"section": "7.4. Discussion", "seq": 68, "sha256": "07e7321e9c1b12d002a97187e4b26570b035d18c09983bade8b4cfda46a787ed"}
+{"section": "7.4. Discussion", "seq": 69, "sha256": "b5843067b2120c3fbe7317f37696a7bc4330803e501f0343b18b2a559b54360b"}
+{"section": "7.4. Discussion", "seq": 70, "sha256": "f3c25019857a0d9664badedf6dd91d00ae656645d277d1a21ef05cfb31228550"}
+{"section": "7.4. Discussion", "seq": 71, "sha256": "a3638080f3fe8dfae7bb9b45582f2f3c1b76024508c166d6ba3353bf6c357c28"}
+{"section": "7.4. Discussion", "seq": 72, "sha256": "52db67cb552dc20fc37604441ae8a84e2f60e961059ba5228c764f65ab7ee17f"}
+{"section": "7.4. Discussion", "seq": 73, "sha256": "36ae7321919a151d83754f8aca83b412ef4f9d9f361344f900a5d0d72e618aa7"}
+{"section": "7.4. Discussion", "seq": 74, "sha256": "17855622b92689988daf9211e1e9199ccf6308b605a072c3f0759649e354d946"}
+{"section": "7.5. End-to-End Pipeline Evaluation", "seq": 75, "sha256": "7bb3036b1a965b4fc389ee09f4850ea93553025b2a5bdf626a8c592ab7374f29"}
+{"section": "7.5. End-to-End Pipeline Evaluation", "seq": 76, "sha256": "6134d9c2fe0bb14eb93146a313553da326cedae3e900a115a52e929299e656f6"}
+{"section": "7.6. Generalization to External Benchmark", "seq": 77, "sha256": "701d18ac27c007a7afd27c638ea4489b5c6e5c69c57b9c6b117185616b222918"}
+{"section": "7.6. Generalization to External Benchmark", "seq": 78, "sha256": "50b5787b71819e6de605fc21ab990728820d838bfec1973e98effd0e1fffdb6d"}
+{"section": "8. Conclusion", "seq": 79, "sha256": "8510149d7d0062da699fddb33f07a03732ee1dec2a95b7ebef401ecf12fd024f"}
+{"section": "8. Conclusion", "seq": 80, "sha256": "298b2a6ddfa457e2d1aae56bcdd09526b2b75778080cacfd94081f36b0f96e0d"}
+{"section": "8. Conclusion", "seq": 81, "sha256": "93f9328ce26ba168fc6d29d7351f10030aa5d0ede9c7cf1c65c0d9101f9066e8"}
+{"section": "8. Conclusion", "seq": 82, "sha256": "fb2165c8998165aebfe973a13b4daa0a8cdd97b398de522b50065c5ed2c4d292"}
+{"section": "References", "seq": 83, "sha256": "b1bd1019d30917020fa09f2517fdd441577a6d063d71ce9d5c309f679da0ab00"}
+{"section": "References", "seq": 84, "sha256": "8d3cecc67b76c98ba8b4eddc92bd4b5074cce54cda473dfcbc6a62337928c724"}
+{"section": "References", "seq": 85, "sha256": "4f247e46824d6f65d3a8975bc1a035d167ae305b39ac29b3b41e09659cbbbcbc"}
+{"section": "References", "seq": 86, "sha256": "7ca1487ff6df432407baa7270f58def666842b1c4a0a8cf125225d57640826cd"}
+{"section": "References", "seq": 87, "sha256": "9b9236bd0e07af6762042c542d15c0385bcb20db905b0b945ec7218d1d2d7b36"}

@@ -1,0 +1,5 @@
+We seek to endow some pre-trained machine learning model with guarantees on its performance as to ensure its safe deployment. Suppose we have a base model that is a function mapping inputs to values in some other space, such as a probability distribution over classes. Our job is to design a procedure that takes the output of and post-processes it into quantities with desirable statistical guarantees. Split conformal prediction \citepvovk2005algorithmic,papadopoulos2002inductive, which we will henceforth refer to simply as “conformal prediction”, has been useful in areas such as computer vision \citepangelopoulos2020sets and natural language processing \citepfisch2020efficient to provide such a guarantee. By measuring the model’s performance on a calibration dataset of feature-response pairs, conformal prediction post-processes the model to construct prediction sets that bound the miscoverage,
+
+(1)
+
+where is a new test point, is a user-specified error rate (e.g., 10%), and is a function of the model and calibration data that outputs a prediction set.

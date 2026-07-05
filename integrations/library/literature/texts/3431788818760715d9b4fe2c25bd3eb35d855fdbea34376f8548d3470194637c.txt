@@ -1,0 +1,13 @@
+Large language models of code fail at completing code with potential bugs. arXiv preprint arXiv:2306.03438, 2023. Du et al. (2023)
+
+Xueying Du, Mingwei Liu, Kaixin Wang, Hanlin Wang, Junwei Liu, Yixuan Chen, Jiayi Feng, Chaofeng Sha, Xin Peng, and Yiling Lou. Classeval: A manually-crafted benchmark for evaluating llms on class-level code generation, 2023. Fakhoury et al. (2023)
+
+Sarah Fakhoury, Saikat Chakraborty, Madan Musuvathi, and Shuvendu K. Lahiri. Towards generating functionally correct code edits from natural language issue descriptions, 2023. Fan et al. (2023)
+
+Zhiyu Fan, Xiang Gao, Martin Mirchev, Abhik Roychoudhury, and Shin Hwei Tan. Automated repair of programs from large language models, 2023. Fried et al. (2023)
+
+Daniel Fried, Armen Aghajanyan, Jessy Lin, Sida Wang, Eric Wallace, Freda Shi, Ruiqi Zhong, Wen tau Yih, Luke Zettlemoyer, and Mike Lewis. Incoder: A generative model for code infilling and synthesis, 2023. Gao et al. (2022)
+
+Xiang Gao, Yannic Noller, and Abhik Roychoudhury. Program repair, 2022. Gazzola et al. (2019)
+
+Luca Gazzola, Daniela Micucci, and Leonardo Mariani. Automatic software repair: A survey.

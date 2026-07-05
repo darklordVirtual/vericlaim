@@ -1,0 +1,22 @@
+If a passage is relevant, further evaluates whether the passage supports the model generation and predicts
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+. Critique tokens
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsRel
+
+and
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+are appended after the retrieved passage or generations. At the end of the output, (or ), predicts the overall utility token
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsUse
+
+, and an augmented output with reflection tokens and the original input pair is added to . See the example training data in Figure 2. Generator learning. We train the generator model by training on the curated corpus augmented with reflection tokens using the standard next token objective:
+
+(2)
+
+Unlike training (Eq. 1), learns to predict the target output as well as the reflection tokens. During training, we mask out the retrieved text chunks (surrounded by <p> and </p> in Figure 2) for loss calculation and
+expand the original vocabulary with a set of reflection tokens . Connections to prior work on learning with critique.

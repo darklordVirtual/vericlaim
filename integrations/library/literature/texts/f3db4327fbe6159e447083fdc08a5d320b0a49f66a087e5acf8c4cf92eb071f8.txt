@@ -1,0 +1,5 @@
+Alternatively, we could further enforce hard constraints during decoding using \tikzmarknode[draw=myblue,thick,inner sep=2pt]testCritique. Instead of using a soft reward function in Eq. 4, we could explicitly filter out a segment continuation when the model generates an undesirable token (e.g.,
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+=No support) . Balancing the trade-off between multiple preferences has been studied in RLHF (Touvron et al., 2023; Wu et al., 2023), which often requires training to change models’ behaviors. Self-Rag tailors an LM with no additional training.

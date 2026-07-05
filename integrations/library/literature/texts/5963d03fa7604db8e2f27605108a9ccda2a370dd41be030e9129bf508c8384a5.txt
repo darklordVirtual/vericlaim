@@ -1,0 +1,15 @@
+Now consider the dependency structure depicted in Figure 5. Here is a feature, e.g. “wealth” or
+“annual income”, correlated with the protected attribute and
+directly predictive of the target . That is, in this model, the
+probability of paying back of a loan is just a function of an
+individual’s wealth, independent of their race. Using on its
+own as a predictor, e.g. using the score , does not naturally
+seem directly discriminatory. However, as can be seen from the
+dependency structure, this score does not satisfy equalized
+odds. We can correct it to satisfy equalized odds and consider the
+optimal non-discriminating predictor
+that does satisfy equalized odds. If and , and thus and
+, are positively correlated, then would depend
+inversely on (see numerical construction below), introducing a
+form of “corrective discrimination”, so as to make is
+independent of given (as is required by equalized odds).

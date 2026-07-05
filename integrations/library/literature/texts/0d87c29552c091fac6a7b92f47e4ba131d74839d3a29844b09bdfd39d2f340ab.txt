@@ -1,0 +1,55 @@
+In the first column, concept names link to their informal definition, whereas, in the second column, representations link to the information used to represent the concept. Concept names appearing in bold in the first column are the core structures introduced in Section 2.1. Likewise, these core structures have their names and parameters highlighted in bold in the second column (prov-n representation); expanded structures are not represented with a bold font. Table 6 ◊: PROV-DM Types and Relations
+
+Type or Relation Name
+
+Representation in the PROV-N notation
+
+Component
+
+Entity
+
+entity(id, [ attr1=val1, ...])
+
+Component 1: Entities/Activities
+
+Activity
+
+activity(id, st, et, [ attr1=val1, ...])
+
+Generation
+
+wasGeneratedBy(id;e,a,t,attrs)
+
+Usage
+
+used(id;a,e,t,attrs)
+
+Communication
+
+wasInformedBy(id;a2,a1,attrs)
+
+Start
+
+wasStartedBy(id;a2,e,a1,t,attrs)
+
+End
+
+wasEndedBy(id;a2,e,a1,t,attrs)
+
+Invalidation
+
+wasInvalidatedBy(id;e,a,t,attrs)
+
+Derivation
+
+wasDerivedFrom(id; e2, e1, a, g2, u1, attrs)
+
+Component 2: Derivations
+
+Revision
+
+... prov:type='prov:Revision' ... Quotation
+
+... prov:type='prov:Quotation' ... Primary Source
+
+... prov:type='prov:PrimarySource' ...

@@ -1,0 +1,6 @@
+We call these directions features, and they're what we'd like to decompose models into. Sometimes, by happy circumstances, individual neurons appear to be these basic interpretable units (see examples above). But quite often, this isn't the case. Instead, we decompose the activation vector \mathbf{x}^j as a combination of more general features which can be any direction:
+
+\mathbf{x}^j \approx \mathbf{b} + \sum_i f_i(\mathbf{x}^j) \mathbf{d}_i
+(1)
+
+where \mathbf{x}^j is the activation vector of length d_{\rm MLP} for datapoint j, f_i(\mathbf{x}^j) is the activation of feature i, each \mathbf{d}_i is a unit vector in activation space we call the direction of feature i, and \mathbf{b} is a bias.While not the focus of this paper, we could also imagine decomposing other portions of the model’s latent state or activations in this way. For instance, we could apply this decomposition to the residual stream (see e.g. ), or to the keys and queries of attention heads, or to their outputs. Note that this decomposition is not new: it is just a linear matrix factorization of the kind commonly employed in dictionary learning.

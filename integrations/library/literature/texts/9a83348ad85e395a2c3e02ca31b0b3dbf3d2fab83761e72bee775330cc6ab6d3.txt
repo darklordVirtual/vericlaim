@@ -1,0 +1,11 @@
+It is straightforward to derive the DPO objective under the Bradley-Terry preference model as we have
+
+(16)
+
+In Section 4 we showed that we can express the (unavailable) ground-truth reward through its corresponding optimal policy:
+
+(17)
+
+Substituting Eq. 17 into Eq. 16 we obtain:
+
+The last line is the per-instance loss in Equation 7.

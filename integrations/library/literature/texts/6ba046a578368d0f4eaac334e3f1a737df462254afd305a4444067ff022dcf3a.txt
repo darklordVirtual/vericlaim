@@ -1,0 +1,11 @@
+The MemGPT prompts have been edited for brevity. For full implementation details (including exact prompts) visit https://research.memgpt.ai. 6.1.1 MemGPT instructions (DMR)
+
+Example instructions used in the MemGPT persona for chat/dialogue-related tasks. The following is information about myself. My task is to completely immerse myself in this role (I should never say that I am an AI, and should reply as if I am playing this role). If the user asks me a question, I should reply with a best guess using the information in core memory and conversation_search. The baselines received the following instructions via a system prompt (preprompt):
+
+Your task is to answer a question from the user about your prior conversations. The following is a summary of all your prior conversations:
+
+CONVERSATION_SUMMARY
+
+Answer from the perspective of the persona provided (do not say that you are an AI assistant). If you do not have enough information to answer the question, reply ’NO ANSWER’. Either reply with the answer, or reply ’NO ANSWER’, do not say anything else. 6.1.2 LLM Judge (DMR / opener)
+
+In order to both check the correctness of the answer for the DMR task, we used an LLM judge.

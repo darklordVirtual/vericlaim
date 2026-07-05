@@ -1,0 +1,133 @@
+{"fsid": "arxiv_2212-08073", "n": 132, "overlap": 200, "source_sha256": "04bc6cacf2f1e1e721623a6ea7fc094fafafda3585b307089bcd66df3b23b201", "target": 1200}
+{"section": "", "seq": 0, "sha256": "582357a12d0969d8b1788b99541c702b05d03dcee49bc496e7ad9494b221101a"}
+{"section": "Constitutional AI: Harmlessness from AI Feedback", "seq": 1, "sha256": "062bd42284708f6fb026bcf5f416122a24929f309d4ff4461f4f1f659bd2f790"}
+{"section": "Constitutional AI: Harmlessness from AI Feedback", "seq": 2, "sha256": "0825a4e27fd3a54fc33c1a55277ffdbbfee70fd40596c3f41c8e43bc94d32326"}
+{"section": "Constitutional AI: Harmlessness from AI Feedback", "seq": 3, "sha256": "494a334038a5fa57c88ba36ec400bd1847d7f9f8396103e0e007179d96fb8007"}
+{"section": "1 Introduction", "seq": 4, "sha256": "a22f9521f1075fcea91c198f2bd9b70eba31b9d0aeecc08a7538674d0bdb0564"}
+{"section": "1 Introduction", "seq": 5, "sha256": "d51d527212a4e43a2123e8b107e2fc0cf9cdaae00fbca5047a3ea85f4338a559"}
+{"section": "1 Introduction", "seq": 6, "sha256": "d8f2964b1c555e6d0eacff126df197f3d9e8596963f7acabcb25a0d062411a6a"}
+{"section": "1 Introduction", "seq": 7, "sha256": "821301fe7616bf85d57ab7cf0df73ea6125c2c4f018a341e26288fb6cd746e91"}
+{"section": "1.1 Motivations", "seq": 8, "sha256": "23615a9a252f64c0461022ab5438635db64f2c17ade9c3520058085700b15bb8"}
+{"section": "1.1 Motivations", "seq": 9, "sha256": "39c97413bd03858af0fc3b5dcc62d14ea168430c3e3956d07b14dd715d852928"}
+{"section": "1.1 Motivations", "seq": 10, "sha256": "b64eab86ea9a6aa2f9bbd6cce3b14dd36d71aea1aece17251716ae81bb3b6a26"}
+{"section": "1.1 Motivations", "seq": 11, "sha256": "09e64443ad1804e1fa8c0940f1e4de9943ff503917e702419991798e729fcce2"}
+{"section": "1.1 Motivations", "seq": 12, "sha256": "029bdecf2d3cbdf0ab523aa6f4db9291bd523a3bf8a0d286d7577f18d58df354"}
+{"section": "1.1 Motivations", "seq": 13, "sha256": "46c6d0c53fb3154aaf461c5727cd05149d7435f8ed8b6a6396639f6129a01cde"}
+{"section": "1.1 Motivations", "seq": 14, "sha256": "b9d233f418e95f5c5924549ba78ce10b6d5bbedda6f1590b5b9b606d1cefa6a9"}
+{"section": "1.2 The Constitutional AI Approach", "seq": 15, "sha256": "331af99769749e69fbcacdc4577379bed3b92be57794509dcc6841c9b1bd818a"}
+{"section": "1.2 The Constitutional AI Approach", "seq": 16, "sha256": "48b0886d4e7b0720052824576e7284d0c93c7f062b5f093da9c9a5994799d0bc"}
+{"section": "1.2 The Constitutional AI Approach", "seq": 17, "sha256": "cfd0a6c0b4257026283cd29b85bf0802e0977b16f494d9bcf019eeb0bebf6002"}
+{"section": "1.3 Contributions", "seq": 18, "sha256": "7f2a89abd05973d65cab9e9ad9dcf69a66311e671f6daa86774ad09935755d69"}
+{"section": "1.3 Contributions", "seq": 19, "sha256": "9e1891d4b8d91d8714707f2585a4f66d83c6a794a4567e4920173b484abda5b2"}
+{"section": "1.4 Models and Data", "seq": 20, "sha256": "be243012ec5167c37b762a0ec0933a5be07c39c1f0578be977f590edb2a6d90b"}
+{"section": "1.4 Models and Data", "seq": 21, "sha256": "65ba50a6acccd406c58426c589d71e2f0838e0f2b5544c31eb4d5cff817ff036"}
+{"section": "2 Evaluating the Potential for AI Supervision of HHH", "seq": 22, "sha256": "a28aacbc38f4ba6b253ece4a4750fab68b8db4726a35588e7b21e808ceb0e0a8"}
+{"section": "2 Evaluating the Potential for AI Supervision of HHH", "seq": 23, "sha256": "2d6a4fd4b6b3ef6b6f1263dc91e456d69386fcc55d17f0be780775a231d92dd3"}
+{"section": "2 Evaluating the Potential for AI Supervision of HHH", "seq": 24, "sha256": "b2d366c0221cd6915031e795898f5f7a4d86d93d9e3d7f28e488cfa563c5bcee"}
+{"section": "3 Constitutional AI: Critiques, Revisions, and Supervised Learning", "seq": 25, "sha256": "84301eb08e6cb73f3a41f91df826bbecf434f6b61fb1cf3d37bd67b92ebf3530"}
+{"section": "3.1 Method", "seq": 26, "sha256": "979bd36575e2b61624568dcbd339aad309d3540487a10c39ae8ff7742522bb3d"}
+{"section": "3.1 Method", "seq": 27, "sha256": "492d2e9f50dce1d563d265931c9ba7f5826fe56b257e7b48b50a28ab03203f55"}
+{"section": "3.1 Method", "seq": 28, "sha256": "25ac9495f193b63cfee14292ad7c3b35caded09207e45d9a923edf2b25ae6d2f"}
+{"section": "3.1 Method", "seq": 29, "sha256": "987254f3dbb852785b20e7f064e3a9b6c66adc7b1203c65007dc5b526bef2425"}
+{"section": "3.1 Method", "seq": 30, "sha256": "74b826dc6c2d9c80ba7336d0985cdc438bb1783221f890f4a2eff4f780944f15"}
+{"section": "3.2 Datasets and Training", "seq": 31, "sha256": "260d5b8bfc1d1801e7e8f9c06791936c1b5a88c9a7cc8ae707c1ef756228dce1"}
+{"section": "3.3 Main Results", "seq": 32, "sha256": "156a2ea5f6f24af31ed167dc5452e5e08c8bd745712e3133c1ca3d6e7e6634a5"}
+{"section": "3.3 Main Results", "seq": 33, "sha256": "c1afb03ed6fb714f04c6e3fb0b62d866fca81028816c2915d588faaf3efc66b8"}
+{"section": "3.4 Scaling Trends", "seq": 34, "sha256": "e8e26233c3dda371a3b94328365df49a57f1e8dae3e0fa7c162493dfeeb1a4f3"}
+{"section": "3.4 Scaling Trends", "seq": 35, "sha256": "b2eda1bec8caa8656dbeaa4c377473d0b32f73ecf0efa6ccf0835c422c86605a"}
+{"section": "3.4 Scaling Trends", "seq": 36, "sha256": "ea0c88c83434b801e412b1325440a2aad18874d17605a32ba6d9218657c3884d"}
+{"section": "3.5 Are Critiques Necessary?", "seq": 37, "sha256": "2e340808b7c474f8dca28d117f8f84f45702505c1ba06ed12f05a0cfa29de075"}
+{"section": "3.5 Are Critiques Necessary?", "seq": 38, "sha256": "19c6490e8c1c833e40042972d1d20af580b481819f4afc5f4b0db4e7f4c7e785"}
+{"section": "4 Constitutional AI: Reinforcement Learning from AI Feedback", "seq": 39, "sha256": "3fc7e1520c1ea485d6ee8d46dae6f3ae3c0f325dfc270c005c34223702b94675"}
+{"section": "4.1 Method", "seq": 40, "sha256": "8a4da209640a5a5d1c542fccc1c62dd04e8c976175ca28a3083d8003dc8fdfee"}
+{"section": "4.1 Method", "seq": 41, "sha256": "4857c285df4746149b58348593405675993711db6962c4babfb8f5149b23b59c"}
+{"section": "4.1 Method", "seq": 42, "sha256": "a5c36c973525058a8cbe3308c7ae365338c0bbc6d026073521b031bc3fffcbc5"}
+{"section": "4.1 Method", "seq": 43, "sha256": "4a779be9bcf945fc3ecd4989ff5518ee3dd154fda407513942f9249f7ed443ae"}
+{"section": "4.1 Method", "seq": 44, "sha256": "a4e11761d861b508c83fdf24defda581eff91beedd71a412a746848928e88565"}
+{"section": "4.1 Method", "seq": 45, "sha256": "41fde2527a36366b4d6cc59eef5fe782a873703cd8d5571e582bf02d072a063a"}
+{"section": "4.2 Datasets and Training", "seq": 46, "sha256": "3a1f52c9e1db60c7cb9461d50293a3968a46315c68814d2cebc49ea08d147bc7"}
+{"section": "4.2 Datasets and Training", "seq": 47, "sha256": "c6a1d708bc1f770e0c88358bbe31b4657d46700ecae652cc23144cbb0d0640fe"}
+{"section": "4.3 Main Results", "seq": 48, "sha256": "a111a5469d6da6de42909d3ce8cc0e9f69f11f3e451699063f0e6e9fcea403be"}
+{"section": "4.3 Main Results", "seq": 49, "sha256": "ec8ce5c559b5a1deaf41a1d902a52f2c605c7bd543ec400e165d412e1ea19196"}
+{"section": "4.3 Main Results", "seq": 50, "sha256": "98620a6567d785a2acb4ca3a5721f63ead4632a7a7ec857930cc1faaf25c3ca5"}
+{"section": "4.3 Main Results", "seq": 51, "sha256": "a9d0156e5ef4474049c86d22fef7008f864eacbe18313db4ad7b6dc8e49456dd"}
+{"section": "4.4 Harmlessness vs. Evasiveness", "seq": 52, "sha256": "47bcfb34c99a96b9ae8915d95441715043f1b2772fc0bcf1687b578f5c36c302"}
+{"section": "4.4 Harmlessness vs. Evasiveness", "seq": 53, "sha256": "bf929a45ecb5de0c0f681c01951a27d5ec4badd99ec7c5c74ff9be49c293b314"}
+{"section": "4.4 Harmlessness vs. Evasiveness", "seq": 54, "sha256": "3f98f5842196afa22d08bccaf5d277d8c5397de866c04322b7f09ffff12487f6"}
+{"section": "4.5 Absolute Harmfulness Score", "seq": 55, "sha256": "4646fc9bc43602f27726819fb2a469cfb4961eab243b051e25c5f068d780cddf"}
+{"section": "4.5 Absolute Harmfulness Score", "seq": 56, "sha256": "6072e5f3e4fae2aa1cec145530fed47467f7c3fe6d41a406f6dca5ffcf0c9b8c"}
+{"section": "5 Related Work", "seq": 57, "sha256": "663b9e19a6792995b5e6e869accf0f43cb8483b26db4a9aefb35c0b050be02bf"}
+{"section": "5 Related Work", "seq": 58, "sha256": "67ff78307d0be91c534923c265e0f5aa68060b4faf5d361c99bd885481f10f16"}
+{"section": "6 Discussion", "seq": 59, "sha256": "823af96c00fb4e6374b8f1e0ddec6f2a2b04241b394bc608283f1c6d90d365ed"}
+{"section": "6 Discussion", "seq": 60, "sha256": "c680c48b0a6291a951e4dd8bc1bbd90b60f8c9f8fc222215a7dc0964b41c39fb"}
+{"section": "6.1 Future Directions", "seq": 61, "sha256": "db28786aff82b902cd143dc9f7e8e06639ad823c731fe0558023ed9baf2939cf"}
+{"section": "6.1 Future Directions", "seq": 62, "sha256": "9acb53259c425e0b1083ee5444437233760acca20a94901bf0ce4c910094a803"}
+{"section": "6.1 Future Directions", "seq": 63, "sha256": "0aeeaed7e856c59f59c5008c2540af990db4b01cf8d000322f1b1c23d8da9179"}
+{"section": "6.2 Broader Impacts", "seq": 64, "sha256": "f9243393a5f0a02e1dac61b308d8c3f6a42c3d9370c37910d787264bfda768f0"}
+{"section": "7 Contribution Statement", "seq": 65, "sha256": "9387f864255f0a7092a608e404659bf4ab31821f29d5b27e66dbe7c03ef4ff13"}
+{"section": "7 Contribution Statement", "seq": 66, "sha256": "949887922ec99f052ad776ea109fd8b030d4766859707baaf4352d4334152d4b"}
+{"section": "7 Contribution Statement", "seq": 67, "sha256": "bf546121c79024892e3defad4713247e0b05c2df9bcca8f7bb6b8e702abd8e45"}
+{"section": "Acknowledgments", "seq": 68, "sha256": "c3a3b08f9395b3fabe3dbc0adddfaa3a2abd69b20262060817433b43d0865ab9"}
+{"section": "References", "seq": 69, "sha256": "c9c2867cfa6cc8ce5b316a8bdbd2b97e0588ce944d7c7d8046c8605dfd5f4ef4"}
+{"section": "References", "seq": 70, "sha256": "bfb9a3978521f282492441432d33bf25c24e4a26ec2b6842a203f7c14f51f3e8"}
+{"section": "References", "seq": 71, "sha256": "fea89075e68f993b22bdcf8f3eef118196d6a2bfc3e938df270db7ca498f7720"}
+{"section": "References", "seq": 72, "sha256": "4d11b5fa1aba55d207006ebaaac8d1671ce2d19713ebfa6f445dfba5bbfe3e06"}
+{"section": "References", "seq": 73, "sha256": "dccb4986c605b126ebaf3bb18773cc89d7d8c22e686d5d329c9f474aadf86b90"}
+{"section": "References", "seq": 74, "sha256": "25464764abf5eb50c7470abb6b2c9cf10e73ddf34f62de19bcb54adacc6d5b20"}
+{"section": "References", "seq": 75, "sha256": "0f9f0ac247f11d618a674224af35cf5dc0ee191ff258c738d64adc11bb4b745a"}
+{"section": "References", "seq": 76, "sha256": "4b602c6268c169548a96682ca67df0cfee34f55e7655fe6c83d421b62c7629fd"}
+{"section": "Appendix A Sample critiques and revisions", "seq": 77, "sha256": "d5393fd9b2968a4f80e3e36cdfc8ad8674900defcc1cb5f8dbe88b20105574f3"}
+{"section": "Appendix A Sample critiques and revisions", "seq": 78, "sha256": "54ce28743fbc830cb3a481864af89ac2dd28c7b2cb9833ee4f5265ad0fb4e92e"}
+{"section": "Appendix A Sample critiques and revisions", "seq": 79, "sha256": "509ed93cc5cc8f400015bd1431fabce11ba34e3a3d9ab6dbe74f4e86b35dfaa3"}
+{"section": "Appendix A Sample critiques and revisions", "seq": 80, "sha256": "8dac89cb3b7331688499d0e4fc666ae043673429d6e90a1cb3a5ff58a2e953cf"}
+{"section": "Appendix B Identifying and Classifying Harmful Conversations", "seq": 81, "sha256": "3e6597c1484ae63a178b140c66b7df610e90ca8682de25e2a1f34ec8d4d37f2a"}
+{"section": "Appendix B Identifying and Classifying Harmful Conversations", "seq": 82, "sha256": "3757e332456fbba58458b8361bd74bf47979906c7eff76bd695c383f2bc49b3a"}
+{"section": "Appendix C Constitutional Principles Used for This Research", "seq": 83, "sha256": "62c863761a90e4b3fcef2b679e0c0e5b2686fc4c256c14c94f1137712ec114b3"}
+{"section": "C.1 Principles for SL-CAI", "seq": 84, "sha256": "b5899ba3223a8d55572506ce749f2a4a3dfc1e8572016ebe6d8a5859cfae9f3b"}
+{"section": "C.1 Principles for SL-CAI", "seq": 85, "sha256": "621b5f5624cdf70926c607e7e3e962fbec1868e1f6bd3f3cc0423f05562ecf63"}
+{"section": "C.1 Principles for SL-CAI", "seq": 86, "sha256": "ff732a40df8ee06b2d2be98887286d184504b1523a1ab911d9b8f14af328eb22"}
+{"section": "C.1 Principles for SL-CAI", "seq": 87, "sha256": "c1cc779c9c33bc88034c979e5a43218fc1efa47fdaf8e4b03c066c99cd1f07ae"}
+{"section": "C.1 Principles for SL-CAI", "seq": 88, "sha256": "2ecda4c3b9522a1cbd9f292669dfd0fbf447964eb2f0b366f850cf43b84b2733"}
+{"section": "C.1 Principles for SL-CAI", "seq": 89, "sha256": "36e69f48bac8cbaca91ed5f2676d1cf481ef298d8f1d4b339268723a1021ee2f"}
+{"section": "C.2 Principles for RL-CAI", "seq": 90, "sha256": "319e4bf9c9d27bdcfd941037be54bb822828a2370ee0d52f5d68997e6f1b603b"}
+{"section": "C.2 Principles for RL-CAI", "seq": 91, "sha256": "79fb21681ea03223819c361d9be51d981a601c583446974c09c3272a8846510b"}
+{"section": "C.2 Principles for RL-CAI", "seq": 92, "sha256": "10f8f59621d99fbbac24ee176318be5874af4a3394e4f97f62b7b858f8ed69ef"}
+{"section": "Appendix D Many More Samples", "seq": 93, "sha256": "dd1086dd0c96bd8d9830c2312c9399493bcbade9838fecdbc8e2b16ff67fc984"}
+{"section": "D.1 PALMS Sensitive Questions", "seq": 94, "sha256": "ffea303d6b719cf18b7b9b7c9d08a4c64509ffae4f4f5d1864eef32de75a4b30"}
+{"section": "D.1 PALMS Sensitive Questions", "seq": 95, "sha256": "25ce5cf040cff60730914810459d12a833281a9286b5b1abddf8897b0a3cde99"}
+{"section": "D.1 PALMS Sensitive Questions", "seq": 96, "sha256": "8ca815d1e3363add4b26ec3114a69d0a17744488d732ddd84da7fe6950251bdb"}
+{"section": "D.1 PALMS Sensitive Questions", "seq": 97, "sha256": "a76318dffaab8f0ab8ef02fbd360cb0a21d1cf8d4fbbb0709cd478313be6924b"}
+{"section": "D.1 PALMS Sensitive Questions", "seq": 98, "sha256": "41cad2639c3c4a474039a3c85483c7a6cb21b6ca8027c8ef6e454c7ce26c2641"}
+{"section": "D.2 LaMDA Prompts", "seq": 99, "sha256": "ed1c723226032ece2738aad84481cb880fd1d81c1d313c5714ea47a39cfc4d15"}
+{"section": "D.2 LaMDA Prompts", "seq": 100, "sha256": "88fb878405434df55ccb1a9c28ea73db697ad47bae0658392031c3c2688d3488"}
+{"section": "D.2 LaMDA Prompts", "seq": 101, "sha256": "39874dffa3826d1364da10572f49ca6ad8909a03c40c3c601b19f970a587a53c"}
+{"section": "D.2 LaMDA Prompts", "seq": 102, "sha256": "54ae4e2762651109cb38064d011c2dda9fd1dd9120c78a98ba85b837ca897d82"}
+{"section": "D.2 LaMDA Prompts", "seq": 103, "sha256": "90bcef8d275ffc87e9f044eb9ee0c9da334fe3658540837a4e4175d5d3584df5"}
+{"section": "D.2 LaMDA Prompts", "seq": 104, "sha256": "a4fd03e4ae73952f868aebc97a2bceabab716a9f82d0ff24c482cc507b7ea66e"}
+{"section": "D.2 LaMDA Prompts", "seq": 105, "sha256": "d0913719e6f2366a7d19564556cb6d2940a6e7133f29d333c7b5f868376b86c2"}
+{"section": "D.2 LaMDA Prompts", "seq": 106, "sha256": "c0479d846e7f7e00a9ee73b0ef71281c1466331a6d6525f1f92b9ee1a53ecb0a"}
+{"section": "D.3 InstructGPT Prompts", "seq": 107, "sha256": "52545b54853cd47fd0270e82140484a5e75741fe13578148594cc8e10efc8f03"}
+{"section": "D.3 InstructGPT Prompts", "seq": 108, "sha256": "3a2d1cda327e242521e694ad0c867ba60a4677f658a4ec008e86144a1622a13c"}
+{"section": "D.3 InstructGPT Prompts", "seq": 109, "sha256": "eb122b479a36c6aa46e4896ba69b16ebbdc8cd7befb730be1ef872ee0bed4e6d"}
+{"section": "D.3 InstructGPT Prompts", "seq": 110, "sha256": "165900fc4847ed9309f885ec380c84adf2fe5d0cf239ecfc3f1e81f1bbed82ae"}
+{"section": "D.3 InstructGPT Prompts", "seq": 111, "sha256": "39ee2139234aabfded3578795b3027f23893e4ee64ee9c382937e56af15b15ed"}
+{"section": "D.3 InstructGPT Prompts", "seq": 112, "sha256": "60dd346e8dbaaef0e4baf11b24894843d47d7a87b15c0764b4c945587950abfc"}
+{"section": "D.3 InstructGPT Prompts", "seq": 113, "sha256": "ad76b998628807c83b13ee8cd431440775e2b4f1c368478a628a99eb2d8f587f"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 114, "sha256": "f43ac8c71266ab214aa1a82a405e4102651f4a6eff85f4f685fe0ca313b6145b"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 115, "sha256": "f9e6e232b9fee84c7c724d88acc603feb9fe7dc08fdbc36a2ab97dcd5774a98f"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 116, "sha256": "b5b4047a66669cc051502fb0fd51b373bd2fc326f8a6163ff2988df89250fdce"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 117, "sha256": "2409d2a8b856d1dd1bf0da26f40f71c1781420e8f281baca78dde328d823434f"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 118, "sha256": "a52f9260586088e7e9b8a4ebeb51878c193db41fdaa9cf309a84184aa6837485"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 119, "sha256": "5257cc88062cb0c3c52891b9acff215f856c47b6bc5cc663503ed7ec1b377a60"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 120, "sha256": "a9161cc5446d3ea30c7eda18bb717e4b5a351293dbb04099a0658406b0d6baec"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 121, "sha256": "6f0e63aed283a110ded576b2bae1c88b3c54e9aeb17b691d6e598e8d73d79734"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 122, "sha256": "419e4beaa141166d71b8bff8020f8a04e8705aece840a6ec4d366b55fa8e8c71"}
+{"section": "E.1 Few-shot Prompts for SL-CAI", "seq": 123, "sha256": "239dae37505060c7bdb7bd4942aec61c78dd2ef5add13e090663b7a51a3e68c9"}
+{"section": "E.2 Chain-of-Thought Prompts for RL-CAI", "seq": 124, "sha256": "b05b1234f967fec954214458baac9d7bcab682e085f8976bfa891e2188984df4"}
+{"section": "E.2 Chain-of-Thought Prompts for RL-CAI", "seq": 125, "sha256": "59a5e98555f3adf856e8b65af34c0841a616e336d9aa5aa376bb9796fb68416b"}
+{"section": "E.2 Chain-of-Thought Prompts for RL-CAI", "seq": 126, "sha256": "0734be562e6bcccbcc1eb0dbcdbc987f3ee3db1ce747b11258a20e051d1e565a"}
+{"section": "E.2 Chain-of-Thought Prompts for RL-CAI", "seq": 127, "sha256": "1547bdf99c00d9eacb3cb5893c8468ab8f1eb07397c74e6cfe8c7749a51c367c"}
+{"section": "E.2 Chain-of-Thought Prompts for RL-CAI", "seq": 128, "sha256": "c4634541b76e2cc730282afd497670543e23ff0f0e4aa13adf22e000a75685d9"}
+{"section": "E.2 Chain-of-Thought Prompts for RL-CAI", "seq": 129, "sha256": "6ef1e67328f5882c30dee569069be2022072d642b1be4c8e27bd5406ac6af9ac"}
+{"section": "E.2 Chain-of-Thought Prompts for RL-CAI", "seq": 130, "sha256": "3ba19f22b409bd80287962b74ae574e9abc7b2d71c682627324de707a6b8d91e"}
+{"section": "E.2 Chain-of-Thought Prompts for RL-CAI", "seq": 131, "sha256": "b7a62bfaff70b425e9b8aa57d87b83e85165d62b39dd16a20eaedb01eb31c430"}

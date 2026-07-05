@@ -1,0 +1,5 @@
+a single forward pass of the RM for each completion (rather than forward passes for completions) and, because it no longer overfits, it achieves much improved validation accuracy and log loss. Specifically, the loss function for the reward model is:
+
+(1)
+
+where is the scalar output of the reward model for prompt and completion with parameters , is the preferred completion out of the pair of and , and is the dataset of human comparisons. Finally, since the RM loss is invariant to shifts in reward, we normalize the reward model using a bias so that the labeler demonstrations achieve a mean score of 0 before doing RL. Table 3: Labeler-collected metadata on the API distribution.

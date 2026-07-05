@@ -1,0 +1,44 @@
+“How can we fool LIME and SHAP? Adversarial Attacks on Post hoc Explanation Methods”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1911.02508
+
+[92]
+Marco Tulio Ribeiro, Sameer Singh and Carlos Guestrin
+
+“"Why should i trust you?" Explaining the predictions of any classifier”
+
+In Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 13-17-Augu
+
+Association for Computing Machinery, 2016, pp. 1135–1144
+
+DOI: 10.1145/2939672.2939778
+
+[93]
+B Dimanov, U Bhatt, M Jamnik and A Weller
+
+“You shouldn’t trust me: Learning models which conceal unfairness from multiple explanation methods”
+
+In European Conference on Artificial Intelligence, 2020
+
+URL: http://ecai2020.eu/accepted-papers/
+
+[94]
+Kamalika Chaudhuri and Claire Monteleoni
+
+“Privacy-preserving logistic regression”
+
+In Neural Information Processing Systems Conference, 2018
+
+URL: https://papers.nips.cc/paper/3486-privacy-preserving-logistic-regression
+
+[95]
+Peter Kairouz et al. “Advances and Open Problems in Federated Learning”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1912.04977
+
+[96]
+Nicholas Carlini et al.

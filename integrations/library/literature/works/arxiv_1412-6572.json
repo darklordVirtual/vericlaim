@@ -6,6 +6,12 @@
     "Jonathon Shlens",
     "Christian Szegedy"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:14:31.272043+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1412.6572"
+  },
+  "fulltext_sha256": "61ac11fa755d0333518ea60851d279aff97128a14ca0119d4eacfd8ba1080139",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "adversarial-2014",

@@ -1,0 +1,115 @@
+from the unit test suite component,
+the setup for the learning loop for a Reflexion programming agent is identical
+to the reasoning and decision-making agents with a max memory limit of 1
+experience. Results
+
+Benchmark + Language
+Prev SOTA Pass@1
+
+SOTA Pass@1
+
+Reflexion Pass@1
+
+HumanEval (PY)
+65.8 (CodeT (Chen et al.,, 2022) + GPT-3.5)
+
+80.1 (GPT-4)
+
+91.0
+
+HumanEval (RS)
+–
+
+60.0 (GPT-4)
+
+68.0
+
+MBPP (PY)
+67.7 (CodeT (Chen et al.,, 2022) + Codex (Chen et al.,, 2021))
+
+80.1 (GPT-4)
+
+77.1
+
+MBPP (RS)
+–
+
+70.9 (GPT-4)
+
+75.4
+
+Leetcode Hard (PY)
+–
+
+7.5 (GPT-4)
+
+15.0
+
+Table 1: Pass@1 accuracy for various model-strategy-language combinations. The
+base strategy is a single code generation sample. All instruction-based models
+follow zero-shot code generation. Benchmark + Language
+Base
+Reflexion
+TP
+FN
+FP
+TN
+
+HumanEval (PY)
+
+0.80
+
+0.91
+
+0.99
+
+0.40
+
+0.01
+
+0.60
+
+MBPP (PY)
+
+0.80
+
+0.77
+
+0.84
+
+0.59
+
+0.16
+
+0.41
+
+HumanEval (RS)
+
+0.60
+
+0.68
+
+0.87
+
+0.37
+
+0.13
+
+0.63
+
+MBPP (RS)
+
+0.71
+
+0.75
+
+0.84
+
+0.51
+
+0.16
+
+0.49
+
+Table 2: Overall accuracy and test generation performance for HumanEval and
+MBPP.

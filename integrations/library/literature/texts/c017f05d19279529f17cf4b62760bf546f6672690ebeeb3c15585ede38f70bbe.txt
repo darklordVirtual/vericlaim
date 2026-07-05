@@ -1,0 +1,18 @@
+and Spector, L. Automatic programming: The open issue? Genetic Programming and Evolvable Machines, pp. 1–12, 2019. Pantridge et al. (2017)
+
+Pantridge, E., Helmuth, T., McPhee, N. F., and Spector, L. On the difficulty of benchmarking inductive program synthesis
+methods. In Proceedings of the Genetic and Evolutionary Computation
+Conference Companion, pp. 1589–1596, 2017. Patterson et al. (2021)
+
+Patterson, D., Gonzalez, J., Le, Q., Liang, C., Munguia, L.-M., Rothchild, D.,
+So, D., Texier, M., and Dean, J. Carbon emissions and large neural network training. arXiv preprint arXiv:2104.10350, 2021. Peters et al. (2018)
+
+Peters, M. E., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., and
+Zettlemoyer, L. Deep contextualized word representations. arXiv preprint arXiv:1802.05365, 2018. Pierrot et al. (2021)
+
+Pierrot, T., Ligner, G., Reed, S., Sigaud, O., Perrin, N., Laterre, A., Kas,
+D., Beguir, K., and de Freitas, N. Learning compositional neural programs with recursive tree search and
+planning, 2021. Planning (2002)
+
+Planning, S. The economic impacts of inadequate infrastructure for software
+testing. National Institute of Standards and Technology, 2002.

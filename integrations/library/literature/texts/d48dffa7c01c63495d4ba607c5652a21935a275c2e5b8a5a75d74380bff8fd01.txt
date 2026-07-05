@@ -1,0 +1,15 @@
+MLPs are becoming increasingly popular due to the continued success of deep learning methods; the advent of cloud-based ML services is likely to further boost their adoption. For our attacks, MLPs and MLRs mainly differ in the number of unknowns in the system to solve. For perceptrons with one hidden layer, we have , , where is the number of hidden nodes ( in our experiments). Another difference is that the loss function for MLPs is not strongly convex. The optimization may thus converge to a local minimum, i.e., a model that does not exactly match ’s behavior. Model
+
+Unknowns
+
+Queries
+
+Time (s)
+
+Softmax
+
+OvR
+
+MLP
+
+Table 4: Success of equation-solving attacks. Models to extract were trained on the Adult data set with multiclass target ‘Race’. For each model, we report the number of unknown model parameters, the number of queries used, and the running time of the equation solver. The attack on the MLP with queries converged after epochs. To illustrate our attack’s success, we train a softmax regression, a OvR regression and a MLP on the Adult data set with target ‘Race’ ().

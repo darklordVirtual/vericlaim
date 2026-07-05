@@ -1,0 +1,17 @@
+Advances in Neural Information Processing Systems 37, pp. 43080–43106. Cited by: §2,
+§4.1. R. Vashurin, M. Goloburda, A. Ilina, A. Rubashevskii, P. Nakov, A. Shelmanov, and M. Panov (2025)
+CoCoA: a minimum bayes risk framework bridging confidence and consistency for uncertainty quantification in LLMs. In The Thirty-ninth Annual Conference on Neural Information Processing Systems,
+
+External Links: Link
+
+Cited by: §1,
+§2. H. Wang, C. Qu, Z. Huang, W. Chu, Lin,Fangzhen, and W. Chen (2025a)
+VL-rethinker: incentivizing self-reflection of vision-language models with reinforcement learning. arXiv preprint arXiv:2504.08837. Cited by: 4th item,
+§4.1. K. Wang, J. Pan, W. Shi, Z. Lu, H. Ren, A. Zhou, M. Zhan, and H. Li (2024)
+Measuring multimodal mathematical reasoning with math-vision dataset. In The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track,
+
+External Links: Link
+
+Cited by: 5th item. W. Wang, Z. Gao, L. Gu, H. Pu, L. Cui, X. Wei, Z. Liu, L. Jing, S. Ye, J. Shao, et al. (2025b)
+InternVL3.5: advancing open-source multimodal models in versatility, reasoning, and efficiency. arXiv preprint arXiv:2508.18265. Cited by: §1,
+§4.1. X. Wang, J.

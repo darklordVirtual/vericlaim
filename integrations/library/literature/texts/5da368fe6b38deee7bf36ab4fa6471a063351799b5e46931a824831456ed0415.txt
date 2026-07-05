@@ -1,0 +1,7 @@
+Theorem 1 (Conformal coverage guarantee; Vovk, Gammerman, and Saunders [vovk1999machine]). Suppose and are i.i.d. and define as in step 3 above and as in step 4 above. Then the following holds:
+
+See Appendix LABEL:app:coverage-proof for a proof and a statement that includes the upper bound in (1). We note that the above is only a special case of conformal prediction, called split conformal prediction. This is the most widely-used version of conformal prediction, and it will be our primary focus. To complete the picture, we describe conformal prediction in full generality later in Section 6 and give an overview of the literature in Section 7. Choice of score function
+
+Upon first glance, this seems too good to be true, and a skeptical reader might ask the following question:
+
+How is it possible to construct a statistically valid prediction set even if the heuristic notion of uncertainty of the underlying model is arbitrarily bad? Let’s give some intuition to supplement the mathematical understanding from the proof in Appendix LABEL:app:coverage-proof.

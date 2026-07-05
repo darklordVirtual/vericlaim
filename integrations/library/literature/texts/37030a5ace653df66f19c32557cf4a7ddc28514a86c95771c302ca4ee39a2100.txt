@@ -1,0 +1,51 @@
+Corroboration rate 62%; memory correctness 70% ungated 97% guarded. Guarded per-category jumps: cloud_iam 5575, data_db 7186, observability 8193, network 7078. Table 5 — Online self-improving loop (Monte-Carlo replay, 30 streams T=1500)
+
+metric
+
+COLD (start)
+
+WARM (end)
+
+meaning
+
+judge-call rate
+
+50%
+
+44%
+
+cheaper (lexicalrule distillation)
+
+judge-domain accuracy (non-rule-able semantic)
+
+71%
+
+80%
+
+smarter (RAG memory warms toward 84)
+
+overall accuracy
+
+84%
+
+85%
+
+flat (rule-able cases already correct dominate)
+
+benign HARD-blocks
+
+—
+
+0 / 45,000
+
+safety invariant held end-to-end
+
+Universal invariants (across all judges datasets):
+
+•
+
+0 benign HARD-blocks — worst-case precision cost is a soft warn, never a hard block. •
+
+Recall saturates — even Haiku catches the semantic attacks rules miss; capability buys precision, not recall. •
+
+Gated hybrid net-positive in-distribution; judge generalizes OOD, cross-provider.

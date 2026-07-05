@@ -1,0 +1,35 @@
+In Proceedings of
+the 2021 ACM Conference on Fairness, Accountability, and Transparency. 735–746. Mittelstadt (2019)
+
+Brent Mittelstadt. 2019. Principles alone cannot guarantee ethical AI. Nature Machine Intelligence
+1, 11 (2019),
+501–507. Miyazaki (2008)
+
+Anthony D Miyazaki. 2008. Online privacy and the disclosure of cookie use:
+Effects on consumer trust and anticipated patronage. Journal of Public Policy & Marketing
+27, 1 (2008),
+19–33. Moore et al. (2010)
+
+Don A Moore, Lloyd Tanlu,
+and Max H Bazerman. 2010. Conflict of interest and the intrusion of bias. Judgment and Decision Making
+5, 1 (2010),
+37. Moss et al. (2021)
+
+Emanuel Moss,
+Elizabeth Anne Watkins, Ranjit Singh,
+Madeleine Clare Elish, and Jacob
+Metcalf. 2021. Assembling Accountability: Algorithmic Impact
+Assessment for the Public Interest. Available at SSRN 3877437
+(2021). Murphy and Sandino (2010)
+
+Kevin J Murphy and
+Tatiana Sandino. 2010. Executive pay and “independent” compensation
+consultants. Journal of Accounting and Economics
+49, 3 (2010),
+247–262. NIST (2022)
+
+NIST. 2022. National Vulnerability Database. Nouwens et al. (2020)
+
+Midas Nouwens, Ilaria
+Liccardi, Michael Veale, David Karger,
+and Lalana Kagal. 2020.

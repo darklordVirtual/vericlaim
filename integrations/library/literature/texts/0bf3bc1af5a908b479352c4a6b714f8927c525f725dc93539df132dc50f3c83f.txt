@@ -1,0 +1,9 @@
+This convergence rate is expected to be dimension free (see e.g. Bubeck, 2015, for a review) and depends only on the loss smoothness; hence we assume that the second term only depends on in (2). Empirically, we find after fitting (2) that
+
+(10)
+
+with , , . We note that the parameter/data coefficients are both lower than ; this is expected for the data-efficiency coefficient (but far from the known lower-bound). Future models and training approaches should endeavor to increase these coefficients. Fitting the decomposition to data. We effectively minimize the following problem
+
+(11)
+
+where is the log-sum-exp operator. We then set . We use the LBFGS algorithm to find local minima of the objective above, started on a grid of initialisation given by: , , , , and . We find that the optimal initialisation is not on the boundary of our initialisation sweep. We use for the Huber loss. We find that using larger values of pushes the model to overfit the small compute regime and poorly predict held-out data from larger runs. We find that using a smaller than does not impact the resulting predictions.

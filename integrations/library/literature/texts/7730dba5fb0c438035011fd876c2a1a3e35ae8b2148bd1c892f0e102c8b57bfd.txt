@@ -1,0 +1,16 @@
+[1]
+
+David Baehrens, Timon Schroeter, Stefan Harmeling, Motoaki Kawanabe, Katja
+Hansen, and Klaus-Robert Müller. How to explain individual classification decisions. The Journal of Machine Learning Research, 99:1803–1831, 2010. [2]
+
+Yoshua Bengio. Learning deep architectures for ai. Foundations and trends® in Machine Learning,
+2(1):1–127, 2009. [3]
+
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical image database. In Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on, pages 248–255. IEEE, 2009. [4]
+
+Dumitru Erhan, Yoshua Bengio, Aaron Courville, and Pascal Vincent. Visualizing higher-layer features of a deep network. Technical Report 1341, University of Montreal, June 2009. Also presented at the ICML 2009 Workshop on Learning Feature
+Hierarchies, Montréal, Canada. [5]
+
+Pedro Felzenszwalb, David McAllester, and Deva Ramanan. A discriminatively trained, multiscale, deformable part model. In Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on, pages 1–8. IEEE, 2008. [6]
+
+Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik.

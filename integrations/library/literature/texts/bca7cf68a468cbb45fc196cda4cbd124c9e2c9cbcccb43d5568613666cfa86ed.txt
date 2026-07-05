@@ -1,0 +1,9 @@
+Task cites: (Reimers & Gurevych, 2019; Salazar et al., 2020; Wolf et al., 2019)
+
+undo_permutation: Mukund Varma T, Indian Institute of Technology, Madras (mukundvarmat@gmail.com). Task cites: (Pham et al., 2020)
+
+unit_conversion: Richard Barnes, Meta and Lawrence Berkeley National Lab (rijard.barnes@gmail.com); James B. Simon, B. Ryan Roberts, Stefan Divic, Sajant Anand, and Elizabeth Donoway, UC Berkeley (james.simon, ryan_roberts, stefan_divic, sajant, elizabeth.donoway)@berkeley.edu; Vikas Raunak, Microsoft (viraunak@microsoft.com); Jack Geissinger, Carnegie Robotics (jack.geissinger7@gmail.com); and Peter Chang, Thomson Reuters Special Services (pchang534@gmail.com). Task cites: (Hendrycks et al., 2021c; Geva et al., 2020a)
+
+unit_interpretation: James B. Simon, Tianle Wang, Stefan Divic, Sajant Anand, and Elizabeth Donoway, UC Berkeley (james.simon, tianle_wang, stefan_divic, sajant, elizabeth.donoway)@berkeley.edu; and Jack Geissinger, Carnegie Robotics (jack.geissinger7@gmail.com)
+
+unnatural_in_context_learning: Frieda Rong and Percy Liang, Stanford University (rongf@stanford.edu, pliang@cs.stanford.edu).

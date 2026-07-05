@@ -1,0 +1,13 @@
+Defining alignment is complex, and there is not yet a satisfactory formalization. Without intending this to be the last word on defining alignment, we attempt to capture the intuitive idea described above in a way that can be measured experimentally. We operationalize sufficient conditions for intent misalignment for a generative model as follows:
+
+1. We consider a model capable of some task X if it has the (possibly latent) capacity to perform task X. Some sufficient conditions for the model being capable of X would be:
+
+•
+
+It can be made to perform task X by prompt engineering, by fine-tuning on a much smaller quantity of data than used in pre-training, by model surgery, or some other technique which harnesses capabilities latent in the model rather than adding new capabilities; or
+
+•
+
+We can construct some other task Y, for which we know the model needs to do X in order to solve Y, and we observe that the model is capable of Y
+
+2.

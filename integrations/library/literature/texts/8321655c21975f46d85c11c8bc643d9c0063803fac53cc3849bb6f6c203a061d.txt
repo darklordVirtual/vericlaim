@@ -1,0 +1,16 @@
+Friedlander & Fine (2018)
+
+Kathryn J. Friedlander and Philip A. Fine. “The penny drops”: Investigating insight through the medium of
+cryptic crosswords. Frontiers in Psychology, 9, 2018. doi: 10.3389/fpsyg.2018.00904. URL
+https://www.frontiersin.org/article/10.3389/fpsyg.2018.00904. Frolovs (2019)
+
+Martins Frolovs. Teaching GPT-2 transformer a sense of humor: How to fine-tune large
+transformer models on a single GPU in PyTorch. Towards Data Science, Medium, 2019. URL
+https://towardsdatascience.com/teaching-gpt-2-a-sense-of-humor-fine-tuning-large-transformer-models-on-a-single-gpu-in-pytorch-59e8cec40912. Gabriel et al. (2020)
+
+Saadia Gabriel, Asli Celikyilmaz, Rahul Jha, Yejin Choi, and Jianfeng Gao. Go figure: A meta evaluation of factuality in summarization, 2020. URL https://arxiv.org/abs/2010.12834. Gabrilovich & Markovitch (2007)
+
+Evgeniy Gabrilovich and Shaul Markovitch. Computing semantic relatedness using Wikipedia-based explicit
+semantic analysis. In IJCAI’07: Proceedings of the 20th International Joint
+Conference on Artifical Intelligence, pp. 1606–1611, San Francisco,
+2007. Morgan Kaufmann. doi: 10.5555/1625275.1625535.

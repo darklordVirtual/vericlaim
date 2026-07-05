@@ -1,0 +1,33 @@
+than splitting the data points themselves many times, we can instead first cache all conformal scores and then compute the coverage values over many random splits, as in the code sample in Figure 12. ⬇
+
+try: # try loading the scores first
+
+scores = np.load(’scores.npy’)
+
+except:
+
+# X and Y have n + n_val rows each
+
+scores = get_scores(X,Y)
+
+np.save(scores, ’scores.npy’)
+
+# calculate the coverage R times and store in list
+
+coverages = np.zeros((R,))
+
+for r in range(R):
+
+np.random.shuffle(scores) # shuffle
+
+calib_scores, val_scores = (scores[:n],scores[n:]) # split
+
+qhat = np.quantile(calib_scores, np.ceil((n+1)*(1-alpha)/n), method=’higher’) # calibrate
+
+coverages[r] = (val_scores <= qhat).astype(float).mean() # see caption
+
+average_coverage = coverages.mean() # should be close to 1-alpha
+
+plt.hist(coverages) # should be roughly centered at 1-alpha
+
+Figure 12: Python code for computing coverage with efficient score caching. Notice that from the expression for conformal sets in (2), a validation point is covered if and only if , which is how the third to last line is succinctly computing the coverage.

@@ -1,0 +1,16 @@
+In Proceedings of the 2014 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 627--632, Doha, Qatar, October
+2014. Association for Computational Linguistics. doi: 10.3115/v1/D14-1069. URL https://aclanthology.org/D14-1069. Brown et al. (2020)
+
+Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D. Kaplan,
+Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda
+Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan,
+Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter,
+Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin
+Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya
+Sutskever, and Dario Amodei. Language models are few-shot learners. In H. Larochelle, M. Ranzato, R. Hadsell, M.F. Balcan, and H. Lin
+(eds.), Advances in Neural Information Processing Systems, volume 33,
+pp. 1877--1901. Curran Associates, Inc., 2020. URL
+https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html. Bugnyar et al. (2016)
+
+Thomas Bugnyar, Stephan A. Reber, and Cameron Buckner.

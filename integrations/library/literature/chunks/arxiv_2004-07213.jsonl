@@ -1,0 +1,258 @@
+{"fsid": "arxiv_2004-07213", "n": 257, "overlap": 200, "source_sha256": "9303c243acdf3424a9820e9278eb159c05abfed63dab8362724e9b66b923525a", "target": 1200}
+{"section": "", "seq": 0, "sha256": "a8afd9723abc57fdcd98cea09bfdad3ef393a0802e2367cb1adf40b8115f16dc"}
+{"section": "Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims111Listed authors are those who contributed substantive ideas and/or work to this report. Contributions include writing, research, and/or review for one or more sections; some authors also contributed content via participation in an April 2019 workshop and/or via ongoing discussions. As such, with the exception of the primary/corresponding authors, inclusion as author does not imply endorsement of all aspects of the report.", "seq": 1, "sha256": "911b71b440c49ae9b5c905edf65593adada46cfdf0757b982aae9d7e91041a3f"}
+{"section": "Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims111Listed authors are those who contributed substantive ideas and/or work to this report. Contributions include writing, research, and/or review for one or more sections; some authors also contributed content via participation in an April 2019 workshop and/or via ongoing discussions. As such, with the exception of the primary/corresponding authors, inclusion as author does not imply endorsement of all aspects of the report.", "seq": 2, "sha256": "e9a3f401f5cf0e2a2ae032c8a65361ba4eaee5d525ae7a9b3fc49b760f2ee777"}
+{"section": "Executive Summary", "seq": 3, "sha256": "e3d3fe50b90d867405a8ca96a68de09a20d0792ec7261ed7afe98264774d46f3"}
+{"section": "Executive Summary", "seq": 4, "sha256": "9f85a2af79cc107accdf2305a969cdbfd2b2d6b4a1a6dc650138ae5dca748b83"}
+{"section": "Executive Summary", "seq": 5, "sha256": "8ce8594c963b0fe65452d56aaf336ea048b6ae15134eb02ca5c7a3d374f8360d"}
+{"section": "Executive Summary", "seq": 6, "sha256": "5ae2dc54e617415eccd925ffa969ed986a6656319b3651306ba12aa3885aa73c"}
+{"section": "Executive Summary", "seq": 7, "sha256": "562ff9f3cca2be7ec428a58bc9f7b853203db42e5b5c7869ad51459d2dd26157"}
+{"section": "Executive Summary", "seq": 8, "sha256": "967b7d8c30ca9bfbddd0375a62a7f6e7ea77f38aba9e5d0c7942244b28fae0d7"}
+{"section": "Executive Summary", "seq": 9, "sha256": "2d45926df8b226d5375390d2535d808d43d907520c09e72f2674319837ca7dee"}
+{"section": "Executive Summary", "seq": 10, "sha256": "fe113664f92bec6c4e88c1515e7edb2d1793f6b1eb274cffc10594e2f45223eb"}
+{"section": "List of Recommendations", "seq": 11, "sha256": "1aa753f556e6943b5a91abded724e8b245d250f4c64d5319f1adf56cd78df34f"}
+{"section": "List of Recommendations", "seq": 12, "sha256": "9c1acf5f757651ae7bb4f7603a2f55ac438d43e00d9c4be935462c2b8333f218"}
+{"section": "1.1 Motivation", "seq": 13, "sha256": "e14322dca5ecd357ea5024f74e506119576f1b2f64cee7ce3aab7454b37becf6"}
+{"section": "1.1 Motivation", "seq": 14, "sha256": "5845992b3e8a5302345fca3f3dc08ebdcebc8633ee62c3287ac45aa3d524090d"}
+{"section": "1.1 Motivation", "seq": 15, "sha256": "8cb17d8ab3b5b3e4ea5abb6fcc9330c0ed6e0acff894d1a4e9a1606a86829cb6"}
+{"section": "1.1 Motivation", "seq": 16, "sha256": "c6291bcbadeebfc3acda564fc851df5f83d955175af73da6ac51b05e354a7014"}
+{"section": "1.1 Motivation", "seq": 17, "sha256": "2a952768f75fc584d5c6f86ed7cab5b854373f0a0867c99bee01a07ab2d24d74"}
+{"section": "1.1 Motivation", "seq": 18, "sha256": "215fab835f17c28a90cb09c2f696682ec3eb60e394603206e5118e7baf7e625e"}
+{"section": "1.2 Institutional, Software, and Hardware Mechanisms", "seq": 19, "sha256": "f3df42d3b92e857b1cb80a36a64d82acf6fa5cbb7d7fb6349974836aba351a80"}
+{"section": "1.2 Institutional, Software, and Hardware Mechanisms", "seq": 20, "sha256": "88afdd5561e7db330b750ff5ce1abea3ebfc516ad7fa81bee2c206af92e25f7a"}
+{"section": "1.2 Institutional, Software, and Hardware Mechanisms", "seq": 21, "sha256": "73c2836d32fb62ca4439f6a09ffb71b3cbb46240673754ea8b5eab3a38b77db4"}
+{"section": "1.3 Scope and Limitations", "seq": 22, "sha256": "3ab61d10e7eaddb8ab3ff240d80ea94f7961c08bf496d4891018c0b52a437426"}
+{"section": "1.3 Scope and Limitations", "seq": 23, "sha256": "b20c77bf57c5c93d716abfcd6295b773d710fec154abee5d15f17b8d025f6068"}
+{"section": "1.3 Scope and Limitations", "seq": 24, "sha256": "b619614290f50ee6a1ff05adc035b221890fb154566c48aa4ddd0acc8e8a3fad"}
+{"section": "1.4 Outline of the Report", "seq": 25, "sha256": "2a9a580483f69288b6b08766a33e418260e83a84f337647c2eb5dd1ced71372b"}
+{"section": "1.4 Outline of the Report", "seq": 26, "sha256": "b49f344216eefbec94f3ba87e2ea0116bd612d5604a9e9dcc4175762b2f80027"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 27, "sha256": "1a7418c91e319d4ac366d29dc39912de1c81181843b3db5e6e290e16a7453fdb"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 28, "sha256": "b542d097ee361cbff418fcf306a1d1ed3d76219302a94231be8ec308375a154b"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 29, "sha256": "51c1125a82eebda37281d5d9b5b6f3f6fabe5955c8d7dd6765e91ffdcb3b61b0"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 30, "sha256": "6470e32f6c5778bc6d22524e2cb06ea2153c5e01254d97dbe21cc0a44c4930c9"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 31, "sha256": "55cc71e86c0666cf2795d746362686e01a7c87af2803d899e5aeaba5ee427a12"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 32, "sha256": "3bbc9ce48fe577952d938145e7c25537a2a9ab2cfa7c35e6ecedb0376dacd6b6"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 33, "sha256": "31e568644fc705d6d4334fc5c26c8429b932ae1e98172be3597a50382b821282"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 34, "sha256": "c1b1c3181dae4bff20b6aaf1f7a014d14dd6159d11b738d33f293eed69c93d62"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 35, "sha256": "4fe18015d368ee2a9516bd961148b731dbe4402128e46175a84578ef917366d4"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 36, "sha256": "b8be1d6696caf36a4e66f4e073d0b42beba16a3a8cac9e0e949a5314bb47573c"}
+{"section": "2 Institutional Mechanisms and Recommendations", "seq": 37, "sha256": "42db427a734a50b500008da3e325b96b21f001f81177d62ce94b3dda683141bd"}
+{"section": "2.1 Third Party Auditing", "seq": 38, "sha256": "d43e77fe20ffcfac015359b60781439acfe373e92b1c7a25c1a2bb6462d0c4e5"}
+{"section": "2.1 Third Party Auditing", "seq": 39, "sha256": "1300be9982c3ba5b184c41cefdd4d75adbc62347d72ab4767cdc5095dd8d57fe"}
+{"section": "2.1 Third Party Auditing", "seq": 40, "sha256": "725fb2082c9fdc92efbb6061036a3ae461dfc5f09fc0936083e7f415f159da16"}
+{"section": "2.1 Third Party Auditing", "seq": 41, "sha256": "2b21a6918469200910009e50732642e6a3340289436bd8bd8483f823536efead"}
+{"section": "2.1 Third Party Auditing", "seq": 42, "sha256": "17cfca47656b8221d25c35acaca5576f3d8d831aad54be7d7ae755fdacf7238a"}
+{"section": "2.1 Third Party Auditing", "seq": 43, "sha256": "d0f3f0cf75a8d1b87c7a5d9c7bc715f50c8e1596d7946149470076df86c5d018"}
+{"section": "2.1 Third Party Auditing", "seq": 44, "sha256": "1f97fb98b5f1c98762613fffa0c169ed3a6390ca78a8834529f018a2f4b85119"}
+{"section": "2.1 Third Party Auditing", "seq": 45, "sha256": "64153adf7367591db66378ed88b1c98340e4500cb026980724d94b3f0f3ca77a"}
+{"section": "2.1 Third Party Auditing", "seq": 46, "sha256": "1899aed4916fe3dd30916de214f49f93fbc51ecb6e6ab3fd7d3fd607d4b6db53"}
+{"section": "2.2 Red Team Exercises", "seq": 47, "sha256": "cf8970bc2c11fcf5beba7bdf2721d8bf09c6286845ea36792f7f1da7fbeb581c"}
+{"section": "2.2 Red Team Exercises", "seq": 48, "sha256": "f44eb28439906645d62c96c6e67219e8f80b710a7317807f03ae1576fcf30543"}
+{"section": "2.2 Red Team Exercises", "seq": 49, "sha256": "75d33bd3f62bf16f600ffe5ce8a1cace3ee0219dac7083cc5f98565bfda92503"}
+{"section": "2.2 Red Team Exercises", "seq": 50, "sha256": "e583c2964526262361c17407cf8954498c031d9e3ab4bf9ba16ed85731dd7e10"}
+{"section": "2.2 Red Team Exercises", "seq": 51, "sha256": "32f477b6d9c7a22e9846482c97aa035c531b5bf84c409377159df30fe3e86f93"}
+{"section": "2.2 Red Team Exercises", "seq": 52, "sha256": "6118639679f2f221d5f09122cddf738bf8cc7f5fe01946bc6338f28ffc3b916b"}
+{"section": "2.2 Red Team Exercises", "seq": 53, "sha256": "83979d3a7c63167e42570b7d725072569684b4987680e3a17844da48404a40e8"}
+{"section": "2.3 Bias and Safety Bounties", "seq": 54, "sha256": "9154de035b35a612e96a463037e208c44ca21a3e2ff8de453795ec615103a18f"}
+{"section": "2.3 Bias and Safety Bounties", "seq": 55, "sha256": "d39a43b9b3b8cf987ef8f2b90a1207084bdfb00cbd899f95fc4bbedf59bae336"}
+{"section": "2.3 Bias and Safety Bounties", "seq": 56, "sha256": "13fea8854a9a894079a2f2554e5299a898ebfad94e8790ea4d5ca3578d5b1fd1"}
+{"section": "2.3 Bias and Safety Bounties", "seq": 57, "sha256": "b706aa359fd2b9aa2359ca316d5bd69024c3f2d192b3f73b8fe023fe78e1d17d"}
+{"section": "2.3 Bias and Safety Bounties", "seq": 58, "sha256": "f5f6b7fcddc70f89239da5227fe5ea3ece3f437703b6d5c60dc5dc19c015e5c3"}
+{"section": "2.3 Bias and Safety Bounties", "seq": 59, "sha256": "38fc022045f5f8a130ad41d698a0a153c6edf2f2e4559ff6df32865383097b31"}
+{"section": "2.3 Bias and Safety Bounties", "seq": 60, "sha256": "0d753b7ab54f6f1da28b60916f6eed960897e2618ac5df1194d6e4929f975c84"}
+{"section": "2.3 Bias and Safety Bounties", "seq": 61, "sha256": "2d4020163e12808d34c4429eb432a3e69c8f296488bf325c00bf6f216aa4c575"}
+{"section": "2.3 Bias and Safety Bounties", "seq": 62, "sha256": "ee263a6ca4c8b3d0091b6c48a04332cfd990638bba00e343e3dfd731e861d294"}
+{"section": "2.4 Sharing of AI Incidents", "seq": 63, "sha256": "4c97d63fbacaa12b866dc4c09c485fe8f7a6e0bcb5bd118278593b8e81cc6351"}
+{"section": "2.4 Sharing of AI Incidents", "seq": 64, "sha256": "2b51e435415648252f63b3f5e104349d167f88f419ecfa8f21e7b5e61e271cc4"}
+{"section": "2.4 Sharing of AI Incidents", "seq": 65, "sha256": "a3cea9ba27d1724f066fd9fabba01e1e88826a49c75acc3552b8dd5c4097eff7"}
+{"section": "2.4 Sharing of AI Incidents", "seq": 66, "sha256": "29f4ccfb41e98b449a36482a474b8c9d6f6eb51fb53e405543d26f4f55395b63"}
+{"section": "2.4 Sharing of AI Incidents", "seq": 67, "sha256": "711fda0368dc921cbe977e15a64421f4d22cc400fc8a8e6f80019bd383fab124"}
+{"section": "2.4 Sharing of AI Incidents", "seq": 68, "sha256": "b9b40ae5332177718e29116100818b6c4a2b10812ed87a9a597c2182dd0adfd6"}
+{"section": "2.4 Sharing of AI Incidents", "seq": 69, "sha256": "13db58aedec4fd10494edb3e1b9cde607e36a4defe19bbbf0fa6a301029094a8"}
+{"section": "2.4 Sharing of AI Incidents", "seq": 70, "sha256": "0fce8cb6e93530091db2b37e8eef9601267d6b687450994e46c0c055c824d635"}
+{"section": "3 Software Mechanisms and Recommendations", "seq": 71, "sha256": "c286b1d62492441eb7765c2d68bbff95b0e8a7cdac243e0ce8d2746b08e6a00a"}
+{"section": "3 Software Mechanisms and Recommendations", "seq": 72, "sha256": "d151ac862f783f54c0848c5cf148fb73344479bd36762756c003282bd312ecad"}
+{"section": "3 Software Mechanisms and Recommendations", "seq": 73, "sha256": "b9017e8b8f3fbd13e7f8999739ecac0c61ac8f095cf2d5f347f66705add9f681"}
+{"section": "3 Software Mechanisms and Recommendations", "seq": 74, "sha256": "73ec71fa6aee46601579de18fa0004287aab03cb9f21305a9e5accdc8fe7a4f2"}
+{"section": "3 Software Mechanisms and Recommendations", "seq": 75, "sha256": "048810484330a1b562604943d2e004324c5e3ab52a132721b59ad4302abd0938"}
+{"section": "3 Software Mechanisms and Recommendations", "seq": 76, "sha256": "3bb3c3f5124ea019b7291a9ac9e204590aa3ebe858a3406bcd46370de97eeb62"}
+{"section": "3 Software Mechanisms and Recommendations", "seq": 77, "sha256": "4e4593c6ca79e5a2ec5492567b1315e1d766a11dbc8f1455436e016b41f25c10"}
+{"section": "3 Software Mechanisms and Recommendations", "seq": 78, "sha256": "bc6acf8c61e13157e044213068f14fe48c44fb7d16ce9b16b1038dd5583504d8"}
+{"section": "3 Software Mechanisms and Recommendations", "seq": 79, "sha256": "619a67ddd061ea4d781505e5de2ed57ffaeb8e9950c828aacdcfd51c970b57e9"}
+{"section": "3.1 Audit Trails", "seq": 80, "sha256": "6987eb625ee8766647222682338fcb9aa12c79d16ac395b7115469592eb51ac8"}
+{"section": "3.1 Audit Trails", "seq": 81, "sha256": "df0f7cc8e27dea8341a7ae4947f11e27b3736cb2d2050cc7e5868850033349aa"}
+{"section": "3.1 Audit Trails", "seq": 82, "sha256": "61e000988a10d63fff0789ba02d90710db04cad4ca03fbebac9ad68f5fcdec42"}
+{"section": "3.1 Audit Trails", "seq": 83, "sha256": "303227604a75793eefa26a78ad30a8f26b5ae62f8964043e072e3f89b6669d37"}
+{"section": "3.1 Audit Trails", "seq": 84, "sha256": "00f463013fb59ed873c81d9bccdf52e2400fb7689e6da8079b0387c94d5b8723"}
+{"section": "3.1 Audit Trails", "seq": 85, "sha256": "0b4a0307e051bb1ffa23e08d2ff985275e8d842018b169c991744ee963005ddb"}
+{"section": "3.2 Interpretability", "seq": 86, "sha256": "14f387e32732ddc22c5800b4be289a53b4128b3e4c501af0cf290b05b71315a7"}
+{"section": "3.2 Interpretability", "seq": 87, "sha256": "b9d0648e10a861505abfe57948193df92430dafbbc2200846b4f663b43a30b90"}
+{"section": "3.2 Interpretability", "seq": 88, "sha256": "2f529ad2d823e696fba40d5821689a05f07fb9b3efe86d760470edb77741f918"}
+{"section": "3.2 Interpretability", "seq": 89, "sha256": "79d9df8971c99f6e387b48d4401288394b76c800913abe81eb80252fcab487f9"}
+{"section": "3.2 Interpretability", "seq": 90, "sha256": "28e07f11094c017544b9ff38982d30f26221af9203493b99e77230eeb7eea2f7"}
+{"section": "3.2 Interpretability", "seq": 91, "sha256": "f0fc8f28fd0f38edcc2fcc120f81c9eddd82e3d6b8cab8daa600318144417b7f"}
+{"section": "3.2 Interpretability", "seq": 92, "sha256": "6b26e84748959fdd9bb83f365b565514ba94a571250cacc80449a64e76870151"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 93, "sha256": "61612e88ab465a037a6d31435b3aaa4c6422a4cc3099c700a65e4a1e37a129a3"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 94, "sha256": "cf8769cc5adc4a0435996cf6a2fc16766febf0b39e5315bfcef32794d47be64a"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 95, "sha256": "aaab991da681c9e064f10a6ee241be44455bb73927bf4d82f3bd63d0869500ad"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 96, "sha256": "4bb0e8581805ad3a7983d1f36afdb2f0083afd271dfce07c895c053c22ef7614"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 97, "sha256": "6ee2b458160ac84f4f787e396b9be69be2956e0aabd66848ab842da62723dc29"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 98, "sha256": "6b0563e5aba6452d3315c7d3b00868cc5017789a4e3dd70c99d2c9261afe7102"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 99, "sha256": "b8afe687229a061e7f9da01c8ef24c54ce6427b0bc9e043969892c13842d551b"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 100, "sha256": "ade8466634d1a11566616a3f75c8c5e33810d8c61255d83d7fc29b91c83c69e4"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 101, "sha256": "536c30ef72ef7dab154a8b468bef3199d0152f87f61c43bf7762a611c1f83575"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 102, "sha256": "d0b26e1f370f9f492152f52019b7e0ee932381d47034edad0a9dec23c32ca8ce"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 103, "sha256": "881ba0c39bc29236876feb044896f918bc237f6494c00e1de9ffdf8d5d7fe8a5"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 104, "sha256": "9260fbc5892215141d5bd8f22e18951df1f16ad59bee8ba211838372a903728d"}
+{"section": "3.3 Privacy-Preserving Machine Learning", "seq": 105, "sha256": "cd3753ea52bb16dd54c0de75634fd1eb0dc8b667d9260baf8ed15e1093bef0ba"}
+{"section": "4 Hardware Mechanisms and Recommendations", "seq": 106, "sha256": "5e16c45c65cb8a86f0f0ba2c4929f1ba76f9af9ef97e6809df8ce772417dfc9e"}
+{"section": "4 Hardware Mechanisms and Recommendations", "seq": 107, "sha256": "0c4b6c66dc7ae0fefd71b1b25a8d2f253593ea3767b71f2e337ca71abe28e98f"}
+{"section": "4 Hardware Mechanisms and Recommendations", "seq": 108, "sha256": "d19969216df5307de409e9b5cf4dda22a7739137d51911223328dd7b459456a1"}
+{"section": "4 Hardware Mechanisms and Recommendations", "seq": 109, "sha256": "055950ea07ce562bf4492b56af763b665a49aad2bb0bf992ab31b830400af9d7"}
+{"section": "4 Hardware Mechanisms and Recommendations", "seq": 110, "sha256": "5aef3f62d46fb68f575578e0634f41a927d24ba54a7d4bdb32245dedfe52c486"}
+{"section": "4 Hardware Mechanisms and Recommendations", "seq": 111, "sha256": "a4cf66e3dbdcfe5e2cdc50f8ad63e22f5e2cbf29a11fc5930d98587690e4aa4a"}
+{"section": "4 Hardware Mechanisms and Recommendations", "seq": 112, "sha256": "03c406f9b85930e7f190f0ff6d2a5794d79d79cf6cb357ddc3a8de966846b170"}
+{"section": "4.1 Secure Hardware for Machine Learning", "seq": 113, "sha256": "29811f9ea44d8bbee923b52d92f5fa5ff9df1796508ddb9488025f103193231d"}
+{"section": "4.1 Secure Hardware for Machine Learning", "seq": 114, "sha256": "269a4462f17115aa6492668ff502042381464933452dfd4b6afbdd3a7af6fa99"}
+{"section": "4.1 Secure Hardware for Machine Learning", "seq": 115, "sha256": "a6691ed456fb26761a06d74a49b14cccaa31a7464cc907ca239a26cee7a8c389"}
+{"section": "4.1 Secure Hardware for Machine Learning", "seq": 116, "sha256": "1b01dbff3ac34118ed23327c89169788ac26e06193df323508796b487ef0d281"}
+{"section": "4.1 Secure Hardware for Machine Learning", "seq": 117, "sha256": "45dde9ec180e006b5d0e485e4775c97dbd184d780e063d66cb04662ca543abab"}
+{"section": "4.1 Secure Hardware for Machine Learning", "seq": 118, "sha256": "93c1b151f1a300a7aa9e167d1f5cde3cef195849327f80742f9945f0de59fd52"}
+{"section": "4.1 Secure Hardware for Machine Learning", "seq": 119, "sha256": "688ad2d3bc6b3ef17b55182253f5125adf156bcda5a3799925bdfba2c00e9810"}
+{"section": "4.2 High-Precision Compute Measurement", "seq": 120, "sha256": "5fa8ee09f2ff6d39ba2e101d8e6dda21b6a268c1d5a7e3fd4cc8f1d9bbd1d6d0"}
+{"section": "4.2 High-Precision Compute Measurement", "seq": 121, "sha256": "f7226561431a752673960f7523fc63deae490901b58fabcb3954017ad4126e2f"}
+{"section": "4.2 High-Precision Compute Measurement", "seq": 122, "sha256": "c27cf8c873d6bd1a9f18db8370159916f74fe7ae3e51e47096bca65ce8c1443b"}
+{"section": "4.2 High-Precision Compute Measurement", "seq": 123, "sha256": "b967a70fc7a20e4482711576bdeaf586d90acd3d34fefbbe64bd41a876451eaf"}
+{"section": "4.2 High-Precision Compute Measurement", "seq": 124, "sha256": "305378f6515818ad5ab0648200289d414e3b08a2effc2f065a74891f8a81ac1d"}
+{"section": "4.2 High-Precision Compute Measurement", "seq": 125, "sha256": "0b5c3bce8c31a2da3e99c13194be4ae690ce01e7d922bc9c5fa5586053d7b4de"}
+{"section": "4.2 High-Precision Compute Measurement", "seq": 126, "sha256": "8b5fdbaa6589e491f957197a51a066b420b786af9f8ebd1954d679f1adc541ac"}
+{"section": "4.2 High-Precision Compute Measurement", "seq": 127, "sha256": "b0349baac48a1b21507e7c76b600293be36be198df498763c420dacc85b2a09e"}
+{"section": "4.2 High-Precision Compute Measurement", "seq": 128, "sha256": "f1abf390c665042740adc3ffa2b906e1f59884e7554d4fda56fa38a578379dcc"}
+{"section": "4.3 Compute Support for Academia", "seq": 129, "sha256": "6f7b1cc92d4fb5cdaf17d3a2d946b957fc3a3f99b934b06a4cbd57989d1560b1"}
+{"section": "4.3 Compute Support for Academia", "seq": 130, "sha256": "e3ec4152e31f62e0875c9b5d637405556decd16893729d00c28fbdfb5db0f591"}
+{"section": "4.3 Compute Support for Academia", "seq": 131, "sha256": "3cec8d3bfb747043cb205e6a794666b21d162ccbc61c6efa40d90c716719e671"}
+{"section": "4.3 Compute Support for Academia", "seq": 132, "sha256": "23c9eb934c472110cd6bd59d3661392e94bd6ef5f2a0b8b706e5cdbcf4cf1eac"}
+{"section": "4.3 Compute Support for Academia", "seq": 133, "sha256": "13fdbd2ee0d3c89793e4c4191d5cc61950a873c968ff3413fb09b32b8451c7ea"}
+{"section": "4.3 Compute Support for Academia", "seq": 134, "sha256": "b37bf743163037d751df08460f6d193f5e96ec9eb4ef406ff966346129a92210"}
+{"section": "5 Conclusion", "seq": 135, "sha256": "cc8bdfddb6a2fb62e314388116b1f9762dfc85ede3ae7b04b9d1ad6dbcfd45dd"}
+{"section": "5 Conclusion", "seq": 136, "sha256": "439ddc5a288c4cab4d06db98f4ff97162f7fd6a2f43524d6f3bdec50d8a07539"}
+{"section": "5 Conclusion", "seq": 137, "sha256": "34ed56db5b3dd436fadd9d2518af7c611d0b0594f5406f2b8c5c51daba9567fe"}
+{"section": "5 Conclusion", "seq": 138, "sha256": "550bc25bd8bc892c88f7451c79b5670348174d9d053eb9b51a96d0474ca9c5b6"}
+{"section": "5 Conclusion", "seq": 139, "sha256": "f388d0c55f61b71594e271098431f19a8a93d96e519bf1cb77f9f629607d9108"}
+{"section": "Acknowledgements", "seq": 140, "sha256": "d69a87397417aca35c71c5b54ec8b7871d6be7d94f85c0f9cfe3c09b2187a5be"}
+{"section": "References", "seq": 141, "sha256": "f2dfe19a296f7b326932e4eeea47dc47a2f820adba764c8e7028714e6a9de9f0"}
+{"section": "References", "seq": 142, "sha256": "ae5faa7ec4061a3ab3981055d10c2a8af504e5012dd85a00d977aa71f056b54e"}
+{"section": "References", "seq": 143, "sha256": "769a600c7161bfd5cafdfcc989b23d947f0576f6b7bc3c45a03c2971944e8921"}
+{"section": "References", "seq": 144, "sha256": "dd0c8c45d9f91e093d8c5644f6f97f498a1ca5be7620f915feb8267854a04e41"}
+{"section": "References", "seq": 145, "sha256": "1836974f72eebd59c5e3f1045fef2f58b72bf4d7c802bea209a94f363f2cbc6d"}
+{"section": "References", "seq": 146, "sha256": "f5bc9a8cbd68ed19cc2db4e536a6b996e4f40e8fcd6f81263002f2d3bcf4b9a4"}
+{"section": "References", "seq": 147, "sha256": "fa152afb06ac6afd8a10c2142a0134334b205fe4944ad7788d107db4309fe35d"}
+{"section": "References", "seq": 148, "sha256": "1eb954b159ba6ed2179be98f6ad197d7a92d21c0f6cb649f9a092638e820b1c6"}
+{"section": "References", "seq": 149, "sha256": "94db9b9fab993b1104c7caf8ab660f9f009dab0218d56f8f113ab4604d548c0e"}
+{"section": "References", "seq": 150, "sha256": "50c607dd66ab7c85f09d66d6a687bf41f86b3f6739d0cb7bee630a1823f9be57"}
+{"section": "References", "seq": 151, "sha256": "31eccf89489b5bb7979845d6d1783980a85dc43db6f7e73db30eeb0fb7aace33"}
+{"section": "References", "seq": 152, "sha256": "4c272ec56d5617660aaf00a9078dc6f498e039f7b2b17339dfb00c76eb75ece4"}
+{"section": "References", "seq": 153, "sha256": "ed04d9e06b596233784c662e3a569750a8729560c9cda87b68c2951845d0c3df"}
+{"section": "References", "seq": 154, "sha256": "0fb0cca86a5b361c2da56f7f88b736ae4152fdc6a15cb55f612efd8e634524da"}
+{"section": "References", "seq": 155, "sha256": "ad9927bda618dc40c03cd7149e505762c33c936af5c4c9a16085fec293ea3dd6"}
+{"section": "References", "seq": 156, "sha256": "f2fbd51369a3c03bbc97a236e9c78723062219e982718a8d33e81d0e034b7be2"}
+{"section": "References", "seq": 157, "sha256": "c10cccd85820362bb05c7ef87ac7a8d0c9e83fca63ea33c80df0d48bac6915cf"}
+{"section": "References", "seq": 158, "sha256": "725315562906ab34b752ba3be7965e0c2afe7fdf9f6f12b5ef5233cdfe250fae"}
+{"section": "References", "seq": 159, "sha256": "a9f5c1a467eea290260cd74e2904e33e6bf9e15302b97d71330a70bf34e8dd22"}
+{"section": "References", "seq": 160, "sha256": "f0b275f1c9a13e047a59a3462acba34cb35093a63303c19c0af62584dd0a4bdc"}
+{"section": "References", "seq": 161, "sha256": "ef680259ccd25f104511412cc57ff7657d1b2b35fb3dc38c75938138f9a37325"}
+{"section": "References", "seq": 162, "sha256": "4a7bd738b54962ea15738db0c8112f824f8fe0d7f659702551a533e03eff485c"}
+{"section": "References", "seq": 163, "sha256": "0915427e85448fd8bef89923c1b7bb813ad2519f5b5800cda380b7069007606c"}
+{"section": "References", "seq": 164, "sha256": "b5c9b45980824e17edf8482d59df4f8ec266dd0beee6b61e3e243d5a6f5624ca"}
+{"section": "References", "seq": 165, "sha256": "30c23b9c3c1575414329313c9348bfc25041f38a350a86e1799f650e92effaf0"}
+{"section": "References", "seq": 166, "sha256": "93fd992e6540a1a81be6d57190e8e4f265ea2f1a2586b42ba86e8da27048a757"}
+{"section": "References", "seq": 167, "sha256": "29c6c5115b123d0f3bc68bee8062de2ef4fbeaaac915ffa1ad659f2bc3562a02"}
+{"section": "References", "seq": 168, "sha256": "28bee2ed3b953e76a668f13798586a3df39b0145e30f085b90416332615284e9"}
+{"section": "References", "seq": 169, "sha256": "34b45839a8f93b65dd1176019043ba42351db9128ded7f4288117a036fa9ff72"}
+{"section": "References", "seq": 170, "sha256": "c49f6b2307ae4bec45b38d92ed0de5bbb4e55bd6fb78095947a2b53f4c38bec3"}
+{"section": "References", "seq": 171, "sha256": "f7b9af02d667436f9eb048104ce50fc2b1bf666964d1fd09cbd4fc3ff9dbd69d"}
+{"section": "References", "seq": 172, "sha256": "e5efc3935856a4a056487ac4d3b0266f4e4e93cca36f10a89f8f99641ae52252"}
+{"section": "References", "seq": 173, "sha256": "c1216f0e646fdf9ff2328ba7e4c611c7fc0572874ed67935d94530d668809c27"}
+{"section": "References", "seq": 174, "sha256": "80696439a232e429078ca7715c5aea91a46e05beaf1194d71ed43072ae17c596"}
+{"section": "References", "seq": 175, "sha256": "ae4f9f43a5635c53e320f37d2a2b25d1978685f96d54e1f01e3004f8b87fd768"}
+{"section": "References", "seq": 176, "sha256": "7c872c38512563b5a0b2aff63333274a09a5a165b4024b9cc2e3b7aeb8e3516a"}
+{"section": "References", "seq": 177, "sha256": "295b1492168fa430246e6e83f02de7a8798c8026ccf4d9157c54c79e064b2270"}
+{"section": "References", "seq": 178, "sha256": "6bbaddb759d8a86139df2385adbb8f99d43dca9ba6e1e482e20a18790bcd1f22"}
+{"section": "References", "seq": 179, "sha256": "b3a457d08266bfcd2a4f90e90bf210e5e75b230b99543e2628f826a89f0dd979"}
+{"section": "References", "seq": 180, "sha256": "36fb4a9fc0f36cc20767eb7775a521ac947b81290a3ec17c8d927bb5972c80d9"}
+{"section": "References", "seq": 181, "sha256": "874dda5e756b8cfe7f418d7217647569b04adcdd836cd1ce40d3cc9bfe163b1a"}
+{"section": "References", "seq": 182, "sha256": "c9038ab138a19a520f8d57584262e1613a1c36ace92c112c4c4073344b0e20f0"}
+{"section": "References", "seq": 183, "sha256": "7c678cf4310fbc0ac74a19b4186a44da7818724e7989a1d61b69a237f962242b"}
+{"section": "References", "seq": 184, "sha256": "2cbbb62cc683d88a57421792335c7f063ac6ef7ac69cf64d6031850a2e55b523"}
+{"section": "References", "seq": 185, "sha256": "dfaae1800d493cf7abc2760c27605d57a5a64174a91418b3cf5ea3d8a01029ee"}
+{"section": "References", "seq": 186, "sha256": "3dec63db2820db6018cbe0ae8d87def266004818202c18e48f7bcbddf844830a"}
+{"section": "References", "seq": 187, "sha256": "f03c4e536435b3ae25c9d3a22be7aebaa1dc3e5e293b012f59e46eb4c7e476b8"}
+{"section": "References", "seq": 188, "sha256": "834ebe37d1c37eaf1b113c75b33a60b9d3a42a6b1e88f930e6ab4fc7b1fe29a3"}
+{"section": "References", "seq": 189, "sha256": "2144a8d84b2cd4453baf1751679612d5620fe516e0bfc60d5680f53f63314850"}
+{"section": "References", "seq": 190, "sha256": "87bbe828b92f617c36fb0d2e443dde6c1527936f277e881af528fe7c596bd465"}
+{"section": "References", "seq": 191, "sha256": "8eff55c66f3f5d17e40f634d7ce90a43982c18c2e8c678e2e1aa213e7322940e"}
+{"section": "References", "seq": 192, "sha256": "6c4e635a1518b904d69d05f44c697d7cd2d21f31aaf68646d898df25fc7e86e1"}
+{"section": "References", "seq": 193, "sha256": "2db0619426d8d627491b48b1ab73b50947f01e6fc996764738126fcf66ed1a0d"}
+{"section": "References", "seq": 194, "sha256": "88a5faafbfc9168f32ffa99b8afcfc598bb45a5896094a007ebe1c9493740eae"}
+{"section": "References", "seq": 195, "sha256": "61aac24d82c520673026484bab55b42f77abf51bd5837f3d3b556c74ce454fd6"}
+{"section": "References", "seq": 196, "sha256": "59d0cd95b5d8bd98f3a6513a1fec2832559a08271b64fdb82ffbdf1ddea147a8"}
+{"section": "References", "seq": 197, "sha256": "c6abacc17b5421a1ede2d9c7396bf0763e5aed91cc2a73c0bba79e6d4b939929"}
+{"section": "I Workshop and Report Writing Process", "seq": 198, "sha256": "a4132fa6f503c3322bf7ecc69a2e16720ce32f7259f61cc5f605b04f0873aef6"}
+{"section": "I Workshop and Report Writing Process", "seq": 199, "sha256": "7bb8bb2893f241b893093a6a60858cadfeee71f1d7d5db30a84c7fdaec858d27"}
+{"section": "I Workshop and Report Writing Process", "seq": 200, "sha256": "9a5fc7aa788df28bfbd6b78cee8ab49ba2c39e710194558d113402f1559b6816"}
+{"section": "I Workshop and Report Writing Process", "seq": 201, "sha256": "381520e4bcbd306debac066c864b433310d4c6aa7a9601d3567e2bca049a6636"}
+{"section": "I Workshop and Report Writing Process", "seq": 202, "sha256": "674ecb8310d5c59ec3b13c672d8da1b8946e9f621c0d9bc72453d612db056a0a"}
+{"section": "II Key Terms and Concepts", "seq": 203, "sha256": "1256b071e0b08746f6c8655c884609d61ee371837302844e970247aa53a87c0b"}
+{"section": "II Key Terms and Concepts", "seq": 204, "sha256": "aedfcaf5155c21bb1ce05b405e56114ed8777477f29af881f0c2117614ec57fb"}
+{"section": "II Key Terms and Concepts", "seq": 205, "sha256": "a15010d56903fa2e5b90ac5df4bd7468cfa00de6dbff948a6756b25cd10fa758"}
+{"section": "II Key Terms and Concepts", "seq": 206, "sha256": "03a4e333e49e239c09266ab21bc0725392f5ea29361c1ad1378a657e1afa5529"}
+{"section": "II Key Terms and Concepts", "seq": 207, "sha256": "e9529e8f67c70a70c70c00f887ad5846ffd19cc1f6b06911e5939b741cb23f9b"}
+{"section": "II Key Terms and Concepts", "seq": 208, "sha256": "bc60b61bf71fb35fc5cff8091761402edff119f7616d6adc6dcee3a673157d43"}
+{"section": "II Key Terms and Concepts", "seq": 209, "sha256": "277b8a7e07983e28a44be0ea0b026430720d3f806a15900e88cbcf37a3ea9a83"}
+{"section": "II Key Terms and Concepts", "seq": 210, "sha256": "bf41edb5f6747653e2471a882bfe95159bb1fc4956a6bcc78fb95e3e38036666"}
+{"section": "III The Nature and Importance of Verifiable Claims", "seq": 211, "sha256": "6f0504d2efa837e6b9ea2d08ba00bbc32efcb685eabd71a75ca352789b25f855"}
+{"section": "III The Nature and Importance of Verifiable Claims", "seq": 212, "sha256": "0cb90200913fa56b1be3646bd731da5f5fd719913ac04ffa1c49af646d37a41c"}
+{"section": "III The Nature and Importance of Verifiable Claims", "seq": 213, "sha256": "6093ff55960738dc8c880f902176fdfdc31d7ebc884812676ce0afc4d3c6f586"}
+{"section": "III The Nature and Importance of Verifiable Claims", "seq": 214, "sha256": "77e422a151cf40b4e5ef104db76b987cbd6cfd789262d32e07e62c2445e977e7"}
+{"section": "III The Nature and Importance of Verifiable Claims", "seq": 215, "sha256": "597023f1a58eafdfeeabc17415628b2de77cc1d402922c27b025df367c70275d"}
+{"section": "III The Nature and Importance of Verifiable Claims", "seq": 216, "sha256": "888b92b272e43ab687d30abdf5ad7bd2dc4f7c0ccf00a21e8dfbb0b3e1369678"}
+{"section": "III The Nature and Importance of Verifiable Claims", "seq": 217, "sha256": "cd98cd8bd9447fcf239d8ef36b98047560d86fe263055024dff72b3eaa8d6813"}
+{"section": "III The Nature and Importance of Verifiable Claims", "seq": 218, "sha256": "ac4817efb168dd05d4ad38a30fd447d3d0deff8e2cc11b4ff4dfe41f4c6cf238"}
+{"section": "III The Nature and Importance of Verifiable Claims", "seq": 219, "sha256": "3f0bf03400f91fcf383c2911ee07a694feae94f108ff51cc21de2c9fedb34a9c"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 220, "sha256": "384283e016b2c31bc47be0a55574ad2e3f5dfff8ceb168a28e7be94ef31410fd"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 221, "sha256": "d5305d56fbc76e29dff9e54c544dff5cf6d2bf712a3b8e9832df11db4b40a5fa"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 222, "sha256": "5127eecc8c2a5b8a705b74eb087427e194333a986d181fe1e95df5a9c93e4d05"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 223, "sha256": "efa57fb785273c4dab48d079af89b770349283805cfd28debd39686b95334ad3"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 224, "sha256": "616d41ca54f8c0dac7531f6b94267a462a19871e71b1c51d92d47a396b3b5d6f"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 225, "sha256": "df58e006a8b131a4ac92946c3de15b20b4713e87d6a89c9f466353ac2f26b29e"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 226, "sha256": "38241e9fb137c475ce2f1ca6146496284e8312cb4e8b323fb34af3e8b3168006"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 227, "sha256": "8bd2b500f431e19c703a3b695e76d25f3ec3a1dac1590809527d4cd4e469489a"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 228, "sha256": "c1bb63e5e84c73a14ce1a37220c0c15756e15a4dc02042fd96c90fd9b1c6af32"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 229, "sha256": "fb68db9a943188e40576fa5012a7617d4cccebbf804a698a9f9002ffbf9ed673"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 230, "sha256": "c9777ffd34933544bfd288926ab1cade0d84d03b3f396ebd7c6b99084ada1e43"}
+{"section": "IV AI, Verification, and Arms Control", "seq": 231, "sha256": "6455e3ccf412ed9c5a233ca5e4725b61a4e8d76e00a62c7a645b5f20a2148ad2"}
+{"section": "V Cooperation and Antitrust Laws", "seq": 232, "sha256": "6b404158e79febdbc472d43683cd1149436432638d71f018b33d4f86d55bd1ab"}
+{"section": "V Cooperation and Antitrust Laws", "seq": 233, "sha256": "f474ca79d5bfa6a9543ff1ef3e077d64eb183266d2f844d9aadc2e0970ad142a"}
+{"section": "V Cooperation and Antitrust Laws", "seq": 234, "sha256": "8c91910d9b537d9739c8ff063c385008a316aee06369243c6add64d88e3c2722"}
+{"section": "V Cooperation and Antitrust Laws", "seq": 235, "sha256": "a1a5a3d8bbf4e29fff4d177802c39a1e47e235719f1a3ff42cfb4c3eb66a366f"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 236, "sha256": "a9fa469e9f89a8c8298f6d2bdd47f879f2bdcc18ad433330b26e3d419e27027f"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 237, "sha256": "0a48003f1dd987a4d7e627a57e3e790830dab81ed03e4c31107ab7c6d4db277e"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 238, "sha256": "b85936d2a8f83cef24ef51eb001272d70f7245d3edc5c0451af7952ad1de4285"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 239, "sha256": "f8424dd18d1b6b144ccfc7d8cbcec3edc940772cbc250dcd0812a6b217ae1d40"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 240, "sha256": "5d90dafa7fe64b05201cc4f16d303c54b0781d4aca663182f8b4ea588001ed13"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 241, "sha256": "206c3b8ea54932b84071c4faa53c661da37d647c5e08828347ab681d51e728d9"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 242, "sha256": "c36d1a2316dc14072bf40cf746dec3f5c3b5d72964bcc7aa5628eaf44419ca41"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 243, "sha256": "29b40900cc442cdd6f7b5af37510d56eb97468d59470a7b4e047e70d1cda8df7"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 244, "sha256": "0cf83293ceb84c7d5d3cab0e0a8bf172e9aef83cd2ee5f50b85b3859738d9c08"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 245, "sha256": "0cdab63490c0b8404af892b3a85ffc5eb608f7c455c3c77dff2c7cda6ab246c1"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 246, "sha256": "5f7eb894a4004117ffa3a5a4da3b88ea19f8c7294d22aeffc8710e47447a6828"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 247, "sha256": "439ee182274acdd0b0277237ee0fcaef9473fdd5a64919ceea8b623c8c7acb54"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 248, "sha256": "fc672d87764999090d78382cafe1f2f32711c6deed6baab83da23508884f4aa5"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 249, "sha256": "a9232732825f4099337ae474d8ba643a2b2435ff3e3ea79bb807e96a6293dd1a"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 250, "sha256": "873f67c575e1ebed74cde89c73da57a06b88df6281da10cd78b585127c79aef6"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 251, "sha256": "8e1e0a05add14eed5485ca0a3081c02577102645742db0641ea4d9adefae1614"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 252, "sha256": "dea9418bba7768ab947be7a055c1e48bc9a23621ab4de6aee8d38a8d64092413"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 253, "sha256": "f47ba891c68db89cd898a83d9f1a1e7c75eb48fbb290b563e1fe21b1ef71a05a"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 254, "sha256": "f04525fd1bec6224048e53fce6db8ca2fa9d2cc75c8d36e1e80ecb0f336bc1e9"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 255, "sha256": "683d5d7b4cba3b3160de9a2d703decde5807470af872388aa574e5be067d5153"}
+{"section": "VI Supplemental Mechanism Analysis", "seq": 256, "sha256": "0278c593b1023481c6b85016470c06963d463db8b09f1af744669aa52589d1ff"}

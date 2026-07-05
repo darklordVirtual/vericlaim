@@ -1,0 +1,15 @@
+URL https://arxiv.org/abs/2005.14714. Bisk et al. (2020)
+
+Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, and Yejin Choi. PIQA: reasoning about physical commonsense in natural language. In Proceedings of the AAAI Conference on Artificial
+Intelligence, volume 34, pp. 7423--7439, Menlo Park, CA, 2020. Association
+for the Advancement of Artificial Intelligence. doi: 10.1609/aaai.v34i05.6239. URL https://ojs.aaai.org/index.php/AAAI/article/view/6239. Bizzoni & Lappin (2018)
+
+Yuri Bizzoni and Shalom Lappin. Predicting human metaphor paraphrase judgments with deep neural
+networks. In Proceedings of the Workshop on Figurative Language
+Processing, pp. 45--55, New Orleans, Louisiana, June 2018. Association for
+Computational Linguistics. doi: 10.18653/v1/W18-0906. URL https://aclanthology.org/W18-0906. Black et al. (2022)
+
+Sid Black, Stella Biderman, Eric Hallahan, Quentin Anthony, Leo Gao, Laurence
+Golding, Horace He, Connor Leahy, Kyle McDonell, Jason Phang, Michael Pieler,
+USVSN Sai Prashanth, Shivanshu Purohit, Laria Reynolds, Jonathan Tow, Ben
+Wang, and Samuel Weinbach. GPT-NeoX-20B: An open-source autoregressive language model.

@@ -1,0 +1,13 @@
+Task cites: (Shane, 2020; Dhingra et al., 2017; Rajpurkar et al., 2016; 2018; Lacker, 2020)
+
+geometric_shapes: Zijie J. Wang, Georgia Tech (jayw@gatech.edu). Task cites: (Bostock et al., 2011; Marriott et al., 2021; Boillot, 2019)
+
+goal_step_wikihow: Li Zhang, Qing Lyu, and Chris Callison-Burch, University of Pennsylvania (zharry@seas.upenn.edu, lyuqing@sas.upenn.edu, (ccb@cis.upenn.edu). Task cites: (Zhang et al., 2020d)
+
+gre_reading_comprehension: Mo Tiwari, Medina Orduna Baitemirova, and Chris Waites, Stanford University (motiwari, medinab, waites)@stanford.edu. Task cites: (Lai et al., 2017)
+
+hhh_alignment: Amanda Askell, Yuntao Bai, Anna Chen, Deep Ganguli, Danny Hernandez, Jared Kaplan (jared@anthropic.com), Jackson Kernion, Ben Mann, Catherine Olsson, and Tim Telleen-Lawton, Anthropic
+
+high_low_game: David Dohan, Google Research (ddohan@google.com)
+
+hindi_question_answering: Kumar Shridhar, NeuralSpace and ETH Zurich (kmr.shridhr@gmail.com), and Akshat Agarwal, NeuralSpace (akshat@neuralspace.ai).

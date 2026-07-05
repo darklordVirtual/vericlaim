@@ -1,0 +1,9 @@
+•
+
+MathVista (Lu et al., 2024) is a benchmark designed to combine challenges from diverse mathematical and visual tasks. •
+
+MATH-Vision (Wang et al., 2024) elevates the difficulty by sourcing its problems from real math competitions (e.g., AMC, Math Kangaroo). Spanning 16 mathematical disciplines and 5 difficulty levels, it provides a challenging testbed for evaluating advanced, competition-level multimodal reasoning. •
+
+We-Math (Qiao et al., 2024) introduces a novel, human-centric evaluation paradigm. It assesses reasoning by decomposing composite problems into sub-problems based on a hierarchy of 67 knowledge concepts. This allows for a fine-grained diagnosis of a model’s specific strengths and weaknesses, distinguishing insufficient knowledge from failures in generalization. Logical Reasoning. •
+
+LogicVista (Xiao et al., 2024b) is designed to fill a critical gap by evaluating general logical cognition beyond the mathematical domain. It covers five core reasoning skills (inductive, deductive, numerical, spatial, and mechanical) across a variety of visual formats, testing the fundamental reasoning capabilities that underlie many complex tasks. Visual-Dominant Reasoning.

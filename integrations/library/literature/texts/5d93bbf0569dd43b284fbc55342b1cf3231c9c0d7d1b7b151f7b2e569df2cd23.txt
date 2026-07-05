@@ -1,0 +1,25 @@
+A first bundle can be expressed. bundle bob:bundle1
+entity(ex:report1, [ prov:type="report", ex:version=1 ])
+wasGeneratedBy(ex:report1, -, 2012-05-24T10:00:01)
+endBundle
+
+In contrast,
+Alice observed the creation of ex:report2 and its derivation from ex:report1. A separate bundle can also be expressed. bundle alice:bundle2
+entity(ex:report1)
+entity(ex:report2, [ prov:type="report", ex:version=2 ])
+wasGeneratedBy(ex:report2, -, 2012-05-25T11:00:01)
+wasDerivedFrom(ex:report2, ex:report1)
+endBundle
+
+The first bundle contains the descriptions corresponding to Bob observing the creation of ex:report1. Its provenance can be described as follows. entity(bob:bundle1, [ prov:type='prov:Bundle' ])
+wasGeneratedBy(bob:bundle1, -, 2012-05-24T10:30:00)
+wasAttributedTo(bob:bundle1, ex:Bob)
+
+In contrast, the second bundle is attributed to Alice who
+observed the derivation of ex:report2 from ex:report1. entity(alice:bundle2, [ prov:type='prov:Bundle' ])
+wasGeneratedBy(alice:bundle2, -, 2012-05-25T11:15:00)
+wasAttributedTo(alice:bundle2, ex:Alice)
+
+Example 41 ◊
+
+A provenance aggregator could merge two bundles, resulting in a novel bundle, whose provenance is described as follows.

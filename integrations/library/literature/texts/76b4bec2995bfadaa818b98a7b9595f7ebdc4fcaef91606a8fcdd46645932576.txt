@@ -1,0 +1,18 @@
+5.5.2 Alternate
+
+Two alternate ◊ entities present aspects of the same thing. These aspects may be the same or different, and the alternate entities may or may not overlap in time. An alternate ◊ relation, written alternateOf(e1, e2) in PROV-N, has:
+
+alternate1: an identifier (e1) of the first of the two entities;
+
+alternate2: an identifier (e2) of the second of the two entities. An alternate is not, as defined here, also an influence, and therefore does not have an id and attributes. Note that alternateOf is a necessarily very general
+relationship that, in reasoning, only states that the two
+alternate entities respectively fix some aspects of some common thing
+(possibly evolving over time), and so there is some relevant
+connection between the provenance of the alternates. In a
+specific application context, alternateOf, or a subtype of it,
+could allow more inferences. Example 44 ◊
+
+A given news item on the BBC News site
+bbc:news/science-environment-17526723 for desktop
+is an alternate of a
+bbc:news/mobile/science-environment-17526723 for mobile devices.

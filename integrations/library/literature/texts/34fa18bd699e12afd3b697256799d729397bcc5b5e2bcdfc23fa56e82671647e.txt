@@ -1,0 +1,13 @@
+Transactions of the Association for Computational Linguistics,
+6:651--665, 12 2018. ISSN 2307-387X. doi: 10.1162/tacl_a_00247. URL https://doi.org/10.1162/tacl_a_00247. Kitzelmann (2010)
+
+Emanuel Kitzelmann. Inductive programming: A survey of program synthesis techniques. In Ute Schmid, Emanuel Kitzelmann, and Rinus Plasmeijer (eds.),
+Approaches and Applications of Inductive Programming, pp. 50--73,
+Berlin, 2010. Springer. doi: 10.1007/978-3-642-11931-6. URL https://doi.org/10.1007/978-3-642-11931-6. Knobe (2003)
+
+Joshua Knobe. Intentional action and side effects in ordinary language. Analysis, 63, 07 2003. doi: 10.1111/1467-8284.00419. URL
+https://www.researchgate.net/publication/28763794_Intentional_Action_and_Side_Effects_in_Ordinary_Language. Kocijan et al. (2019)
+
+Vid Kocijan, Ana-Maria Cretu, Oana-Maria Camburu, Yordan Yordanov, and Thomas
+Lukasiewicz. A surprisingly robust trick for the Winograd schema challenge. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pp. 4837--4842, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1478. URL https://aclanthology.org/P19-1478. Kočiský et al.

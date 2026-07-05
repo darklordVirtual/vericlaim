@@ -1,0 +1,43 @@
+Dabkowski and Yarin Gal
+
+“Real Time Image Saliency for Black Box Classifiers”
+
+In Advances in Neural Information Processing Systems 30
+
+Curran Associates, Inc., 2017, pp. 6967–6976
+
+URL: http://papers.nips.cc/paper/7272-real-time-image-saliency-for-black-box-classifiers.pdf
+
+[227]
+Vitali Petsiuk, Abir Das and Kate Saenko
+
+“RISE: Randomized Input Sampling for Explanation of Black-box Models”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1806.07421
+
+[228]
+Karen Simonyan, Andrea Vedaldi and Andrew Zisserman
+
+“Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps”
+
+In arXiv, 2013
+
+arXiv: http://arxiv.org/abs/1312.6034
+
+[229]
+Himabindu Lakkaraju, Ece Kamar, Rich Caruana and Jure Leskovec
+
+“Interpretable & Explorable Approximations of Black Box Models”
+
+In Fairness, Accountability, and Transparency in Machine Learning, 2017
+
+arXiv: https://arxiv.org/abs/1707.01154
+
+[230]
+Anh Nguyen et al. “Synthesizing the preferred inputs for neurons in neural networks via deep generator networks”
+
+In Advances in Neural Information Processing Systems 29
+
+Curran Associates, Inc., 2016, pp.

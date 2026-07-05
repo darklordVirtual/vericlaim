@@ -1,0 +1,18 @@
+Advances in Neural Information Processing Systems,
+31:8917–8926, 2018. Simon (1963)
+
+Simon, H. A. Experiments with a heuristic compiler. J. ACM, 10(4):493–506, October 1963. ISSN 0004-5411. doi: 10.1145/321186.321192. URL https://doi.org/10.1145/321186.321192. Stack Overflow (2020)
+
+Stack Overflow. 2020 developer survey, 2020. URL https://insights.stackoverflow.com/survey/2020#overview. Stiennon et al. (2020)
+
+Stiennon, N., Ouyang, L., Wu, J., Ziegler, D. M., Lowe, R., Voss, C., Radford,
+A., Amodei, D., and Christiano, P. Learning to summarize from human feedback, 2020. Sukhbaatar et al. (2015)
+
+Sukhbaatar, S., Szlam, A., Weston, J., and Fergus, R. End-to-end memory networks, 2015. Sutskever et al. (2014)
+
+Sutskever, I., Vinyals, O., and Le, Q. V. Sequence to sequence learning with neural networks. In Advances in neural information processing systems, pp. 3104–3112, 2014. Trinkenreich et al. (2021)
+
+Trinkenreich, B., Wiese, I., Sarma, A., Gerosa, M., and Steinmacher, I. Women’s participation in open source software: A survey of the
+literature. arXiv preprint arXiv:2105.08777, 2021. Tufano et al. (2019)
+
+Tufano, M., Watson, C., Bavota, G., Penta, M.

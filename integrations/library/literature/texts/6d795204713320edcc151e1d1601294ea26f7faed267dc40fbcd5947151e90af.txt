@@ -1,0 +1,14 @@
+Association for Computational Linguistics. doi: 10.18653/v1/D17-1082. URL https://aclanthology.org/D17-1082. Lake & Baroni (2017)
+
+Brenden M. Lake and Marco Baroni. Generalization without systematicity: On the compositional skills of
+sequence-to-sequence recurrent networks, 2017. URL https://arxiv.org/abs/1711.00350. Lake & Murphy (2020)
+
+Brenden M. Lake and Gregory L. Murphy. Word meaning in minds and machines, 2020. URL https://arxiv.org/abs/2008.01766. Lake et al. (2017)
+
+Brenden M. Lake, Tomer D. Ullman, Joshua B. Tenenbaum, and Samuel J. Gershman. Building machines that learn and think like people. Behavioral and Brain Sciences, 40:e253, 2017. doi: 10.1017/S0140525X16001837. URL
+https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/building-machines-that-learn-and-think-like-people/A9535B1D745A0377E16C590E14B94993. Lakoff & Johnson (2008)
+
+George Lakoff and Mark Johnson. Metaphors We Live By. University of Chicago Press, Chicago, 2008. Lakretz et al. (2019)
+
+Yair Lakretz, German Kruszewski, Theo Desbordes, Dieuwke Hupkes, Stanislas
+Dehaene, and Marco Baroni. The emergence of number and syntax units in LSTM language models.

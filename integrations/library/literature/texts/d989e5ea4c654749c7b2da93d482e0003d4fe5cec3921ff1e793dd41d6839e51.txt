@@ -1,0 +1,43 @@
+Aggregation Function Analysis
+
+To justify using the Harmonic Mean for aggregating visual () and reasoning () confidences, we compare it against alternative aggregation functions. Table 8: Comparison of different aggregation functions for decoupled confidence on Qwen3-VL-4B. Aggregation Function
+
+Accuracy ()
+
+AUROC ()
+
+ECE ()
+
+Arithmetic Mean
+
+0.725
+
+0.741
+
+0.145
+
+Geometric Mean
+
+0.724
+
+0.752
+
+0.107
+
+Minimum
+
+0.718
+
+0.749
+
+0.121
+
+Harmonic Mean
+
+0.727
+
+0.763
+
+0.098
+
+Technically, a reliable aggregated confidence should only be high when both decoupled confidences are high. The Arithmetic Mean is overly optimistic; for example, a severe visual hallucination () coupled with strong language priors () still yields an aggregated score of . The Minimum function is strictly conservative but suffers from vanishing reward signals for the non-minimum term, which hinders effective joint optimization. Compared to the Geometric Mean, the Harmonic Mean serves as a more conservative penalty. Empirically, we evaluate these functions during the RL training of Qwen3-VL-4B.

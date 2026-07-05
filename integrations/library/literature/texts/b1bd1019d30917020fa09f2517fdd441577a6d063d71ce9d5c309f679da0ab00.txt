@@ -1,0 +1,34 @@
+(1)
+
+Bors (2026)
+
+David Bors. 2026. Escaping the Agent: On Ways to Bypass
+OpenClaw’s Security Sandbox. Technical Report. Snyk Security
+Labs. https://labs.snyk.io/resources/bypass-openclaw-security-sandbox/
+
+Accessed 2026-03-05. Chase (2022)
+
+Harrison Chase. 2022. LangChain. https://github.com/langchain-ai/langchain. Accessed: 2026-03-05. Chen et al. (2021)
+
+Mark Chen, Jerry Tworek,
+Heewoo Jun, Qiming Yuan,
+Henrique Pinto, Jared Kaplan,
+Harrison Edwards, Yuri Burda,
+Nicholas Joseph, Greg Brockman,
+et al. 2021. Evaluating Large Language Models Trained on Code. arXiv preprint arXiv:2107.03374
+(2021). https://arxiv.org/abs/2107.03374
+
+Debenedetti et al. (2024)
+
+Edoardo Debenedetti, Jie
+Zhang, Mislav Balunovic, Luca
+Beurer-Kellner, Marc Fischer, and
+Florian Tramèr. 2024. AgentDojo: A Dynamic Environment to Evaluate
+Prompt Injection Attacks and Defenses for LLM Agents. In
+Advances in Neural Information Processing Systems
+(NeurIPS), Datasets and Benchmarks Track. Greshake et al. (2023)
+
+Kai Greshake, Sahar
+Abdelnabi, Shailesh Mishra, Christoph
+Endres, Thorsten Holz, and Mario
+Fritz. 2023.

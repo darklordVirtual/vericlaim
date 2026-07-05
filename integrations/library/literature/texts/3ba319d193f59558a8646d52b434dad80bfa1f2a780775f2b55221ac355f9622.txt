@@ -1,0 +1,8 @@
+Hannah Rashkin, Google Research (hrashkin@google.com); Derek Chen, University of Washington (derekchen14@gmail.com); and Yejin Choi, University of Washington and AI2 (yejin@cs.washington.edu). Task cites: (Sap et al., 2019; Bisk et al., 2020; Talmor et al., 2019b; Zellers et al., 2018)
+
+spelling_bee: Ethan Dyer, Google Research, Blueshift Team (edyer@google.com). Task cites: (Ginsberg, 2014)
+
+sports_understanding: Ethan Kim, Harvard University (ethan_kim@college.harvard.edu)
+
+squad_shifts: John Miller and Karl Krauth, UC Berkeley, (miller_john, karlk)@berkeley.edu; and Ludwig Schmidt, University of Washington (schmidt@cs.uw.edu). Task cites: (Miller et al., 2020; Brown et al., 2020; Rajpurkar et al., 2016; Baumgartner et al., 2020; McAuley et al., 2015)
+strange_stories: Yifu Chen, Stanford University (yifuchen@stanford.edu); Francesca Happé, King’s College London (francesca.happe@kcl.ac.uk); and Aitor Lewkowycz, Google Research, Blueshift Team (alewkowycz@google.com).

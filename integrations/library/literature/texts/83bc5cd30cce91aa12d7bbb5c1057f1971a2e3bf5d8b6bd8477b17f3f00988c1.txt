@@ -1,0 +1,18 @@
+Le, Chen Liang, Lluis-Miquel Munguia,
+Daniel Rothchild, David So, Maud Texier, and Jeff Dean. Carbon emissions and large neural network training, 2021. URL https://arxiv.org/abs/2104.10350. Paul (1970)
+
+Anthony M. Paul. Figurative language. Philosophy & Rhetoric, 3(4):225--248,
+1970. URL http://www.jstor.org/stable/40237206. Payani & Fekri (2019)
+
+Ali Payani and Faramarz Fekri. Learning algorithms via neural logic networks, 2019. URL https://arxiv.org/abs/1904.01554. Pearl (1988)
+
+Judea Pearl. Probabilistic Reasoning in Intelligent Systems: Networks of
+Plausible Inference. Morgan Kaufmann, San Francisco, 1988. Pearl (2000)
+
+Judea Pearl. Causality: Models, Reasoning, and Inference. Cambridge University Press, Cambridge, 2000. Pelser & Murrell (2019)
+
+Devin Pelser and Hugh Murrell. Deep and dense sarcasm detection, 2019. URL https://arxiv.org/abs/1911.07474. Perez et al. (2021)
+
+Ethan Perez, Douwe Kiela, and Kyunghyun Cho. True few-shot learning with language models, 2021. URL https://arxiv.org/abs/2105.11447. Perez Almendros et al. (2020)
+
+Carla Perez Almendros, Luis Espinosa Anke, and Steven Schockaert. Don’t patronize me!

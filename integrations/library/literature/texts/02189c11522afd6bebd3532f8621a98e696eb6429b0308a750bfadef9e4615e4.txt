@@ -1,0 +1,6 @@
+This section is non-normative. To illustrate the application of PROV concepts to a concrete example (see Section 4) and to provide examples of concepts (see Section 5),
+we introduce PROV-N, a notation for writing instances of the PROV data model. For full details and for a normative reference, the reader is referred to the companion specification [PROV-N]. PROV-N is a notation aimed at human consumption, with the following characteristics:
+
+PROV-N expressions adopt a functional notation consisting
+of a name and a list of arguments in parentheses. The interpretation of PROV-N arguments is defined according to their position in the list of arguments. This convention allows for a compact notation. The PROV data model defines identifiers as qualified names; in PROV-N, they are expressed as a local name optionally preceded of a prefix and a colon. PROV-N optional arguments need not be specified:
+the general rule for optional arguments is that, if none of them are used in the expression, then they are simply omitted, resulting in a simpler expression. However, it may be the case that only some of the optional arguments need to be specified.

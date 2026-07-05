@@ -1,0 +1,15 @@
+Ethology Ecology & Evolution, 6(3):371--375, 1994. doi: 10.1080/08927014.1994.9522987. URL https://doi.org/10.1080/08927014.1994.9522987. Cobbe et al. (2021)
+
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Jacob Hilton, Reiichiro Nakano,
+Christopher Hesse, and John Schulman. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021. Contreras-Ochando et al. (2018)
+
+Lidia Contreras-Ochando, César Ferri, José Hernández-Orallo, Fernando
+Martínez-Plumed, María José Ramírez-Quintana, and Susumu Katayama. General-purpose declarative inductive programming with
+domain-specific background knowledge for data wrangling automation, 2018. URL https://arxiv.org/abs/1809.10054. Contreras-Ochando et al. (2020)
+
+Lidia Contreras-Ochando, Cèsar Ferri, José Hernández-Orallo,
+Fernando Martínez-Plumed, María José Ramírez-Quintana, and
+Susumu Katayama. Automated data transformation with inductive programming and dynamic
+background knowledge. In Ulf Brefeld, Elisa Fromont, Andreas Hotho, Arno Knobbe, Marloes
+Maathuis, and Céline Robardet (eds.), Machine Learning and
+Knowledge Discovery in Databases, pp. 735--751, Cham, 2020. Springer. doi: 10.1007/978-3-030-46133-1_44.

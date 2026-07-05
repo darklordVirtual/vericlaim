@@ -1,0 +1,18 @@
+examples showing that
+machine learning models can reproduce or amplify unwanted societal
+biases reflected in training datasets (Buolamwini and
+Gebru, 2018; Dastin, 2018; Bolukbasi et al., 2016). For these and other reasons, the World Economic
+Forum suggests that all entities should document the provenance,
+creation, and use of machine learning datasets in order to avoid
+discriminatory outcomes (World Economic Forum Global Future Council on
+Human Rights 2016–2018, 2018). Although data provenance has been studied extensively in the databases
+community (Cheney
+et al., 2009; Bhardwaj et al., 2014), it is rarely discussed in the
+machine learning community. Documenting the creation and use of
+datasets has received even less attention. Despite the importance of
+data to machine learning, there is currently no standardized
+process for documenting machine learning datasets. To address this gap, we propose datasheets for datasets. In the
+electronics industry, every component, no matter how simple or
+complex, is accompanied with a datasheet describing its operating
+characteristics, test results, recommended usage, and other
+information.

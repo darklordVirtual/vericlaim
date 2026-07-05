@@ -1,0 +1,17 @@
+Sap et al. (2020)
+
+Maarten Sap, Saadia Gabriel, Lianhui Qin, Dan Jurafsky, Noah A. Smith, and
+Yejin Choi. Social bias frames: Reasoning about social and power implications of
+language. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 5477--5490, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.486. URL https://aclanthology.org/2020.acl-main.486. Saxton et al. (2019)
+
+David Saxton, Edward Grefenstette, Felix Hill, and Pushmeet Kohli. Analysing mathematical reasoning abilities of neural models, 2019. URL https://arxiv.org/abs/1904.01557. Schick et al. (2021)
+
+Timo Schick, Sahana Udupa, and Hinrich Schütze. Self-diagnosis and self-debiasing: A proposal for reducing
+corpus-based bias in NLP, 2021. URL https://arxiv.org/abs/2103.00453. Schlangen (2019)
+
+David Schlangen. Language tasks and language games: On methodology in current natural
+language processing research, 2019. URL https://arxiv.org/abs/1908.10747. Schuster et al. (2021a)
+
+Tal Schuster, Adam Fisch, and Regina Barzilay. Get your vitamin C! Robust fact verification with contrastive
+evidence.

@@ -1,0 +1,5 @@
+Similar to the annotation process in Cobbe et al. (2021), annotators were not given specific instructions about how to write the chain of thought annotations other than to simply write the step-by-step reasoning process that led to the final answer. Thus, the annotations were written in each annotator’s own linguistic “chain of thought” writing style. •
+
+Annotators without machine learning background. The GSM8K dataset (Cobbe et al., 2021) conveniently provides a training set with reasoning chains written by crowd compute workers, which enables us to investigate whether chain of thought still works with reasoning chains from an independent source without a background in machine learning. So we randomly sampled three sets of eight exemplars with chains of thought from GSM8K. These chain of thought annotations also outperformed the baseline by a large margin for all four arithmetic datasets (Table 6), indicating that chain of thought is not dependent on a particular set of annotators. •
+
+Different exemplars. The different GSM8K exemplars experiment above (Table 6) also shows that chain-of-thought prompting works for different sets of exemplars.

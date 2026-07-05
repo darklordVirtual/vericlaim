@@ -6,6 +6,12 @@
     "Jacob Hilton",
     "Owain Evans"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:23.113385+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2109.07958"
+  },
+  "fulltext_sha256": "3fac60310c7e10f6f4e1b3fb45b55554e82f44d0bf0fa6e789ebefac76e2292e",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "truthfulqa-2021",

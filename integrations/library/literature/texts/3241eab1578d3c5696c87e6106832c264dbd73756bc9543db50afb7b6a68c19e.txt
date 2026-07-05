@@ -1,0 +1,5 @@
+(2021)—for classification, many exemplars of the same category in a row biases the model outputs). •
+
+Different number of exemplars. We also found that gains from chain-of-thought prompting generally still held when there was a varying number of few-shot exemplars. This is shown for five datasets in Figure 11 (we did not have the compute to run this for all datasets). We also found in preliminary experiments that further increasing the number of exemplars in standard prompting did not lead to significant gains (e.g., increasing from 8 to 16 exemplars did not improve the performance of standard prompting enough to catch up with chain-of-thought prompting). •
+
+Different language models. Another interesting question is whether certain prompts that work better for one model work better for other large language models. We find that with the same prompts, chain-of-thought prompting improves performance across all three models (LaMDA, GPT-3, and PaLM) for all datasets except CSQA and StrategyQA for GPT-3 (Table 1, Table 4, Table 5).

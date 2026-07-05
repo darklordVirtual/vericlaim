@@ -1,0 +1,12 @@
+Teams
+sometimes try to learn a personal model with diversity. To personalize, they add
+features that would allow the system to personalize (some features representing
+the user’s interest) or diversify (features indicating if this document has any
+features in common with other documents returned, such as author or content),
+and find that those features get less weight (or sometimes a different sign)
+than they expect. This doesn’t mean that diversity, personalization, or relevance aren’t valuable. As pointed out in the previous rule, you can do post­processing to increase
+diversity or relevance. If you see longer term objectives increase, then you can
+declare that diversity/relevance is valuable, aside from popularity. You can
+then either continue to use your post­processing, or directly modify the
+objective based upon diversity or relevance. Rule #43: Your friends tend to be the same across different products. Your interests tend not to be. Teams at Google have gotten a lot of traction from taking a model predicting the
+closeness of a connection in one product, and having it work well on another. Your friends are who they are.

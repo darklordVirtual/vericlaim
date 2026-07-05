@@ -1,0 +1,4 @@
+Deters adversaries who face legal or financial risk by evading security
+controls, such as employees who face risk of getting fired. Reduces attack surface by limiting builds to specific build platforms that
+can be audited and hardened. Allows large-scale migration of teams to supported build platforms early
+while further hardening work (Build L3) is done in parallel.

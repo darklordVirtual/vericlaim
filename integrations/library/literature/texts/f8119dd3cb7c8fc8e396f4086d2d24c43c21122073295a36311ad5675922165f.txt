@@ -1,0 +1,14 @@
+arXiv preprint arXiv:2201.11903, 2022. URL https://arxiv.org/abs/2201.11903. Weller & Seppi (2019)
+
+Orion Weller and Kevin Seppi. Humor detection: A transformer gets the last laugh. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 3621--3625, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1372. URL https://aclanthology.org/D19-1372. Weston et al. (2015)
+
+Jason Weston, Antoine Bordes, Sumit Chopra, Alexander M. Rush, Bart van
+Merriënboer, Armand Joulin, and Tomas Mikolov. Towards AI-complete question answering: A set of prerequisite toy
+tasks, 2015. URL https://arxiv.org/abs/1502.05698. White et al. (2018)
+
+Aaron Steven White, Rachel Rudinger, Kyle Rawlins, and Benjamin Van Durme. Lexicosyntactic inference in neural models. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pp. 4717--4724, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1501. URL https://aclanthology.org/D18-1501. White et al.

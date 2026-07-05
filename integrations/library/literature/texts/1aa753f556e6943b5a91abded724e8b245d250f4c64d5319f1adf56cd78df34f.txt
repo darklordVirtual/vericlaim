@@ -1,0 +1,7 @@
+Institutional Mechanisms and Recommendations
+
+1. A coalition of stakeholders should create a task force to research options for conducting and funding third party auditing of AI systems. 2. Organizations developing AI should run red teaming exercises to explore risks associated with systems they develop, and should share best practices and tools for doing so. 3. AI developers should pilot bias and safety bounties for AI systems to strengthen incentives and processes for broad-based scrutiny of AI systems. 4. AI developers should share more information about AI incidents, including through collaborative channels. Software Mechanisms and Recommendations
+
+5. Standards setting bodies should work with academia and industry to develop audit trail requirements for safety-critical applications of AI systems. 6. Organizations developing AI and funding bodies should support research into the interpretability of AI systems, with a focus on supporting risk assessment and auditing. 7. AI developers should develop, share, and use suites of tools for privacy-preserving machine learning that include measures of performance against common standards. Hardware Mechanisms and Recommendations
+
+8.

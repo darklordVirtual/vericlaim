@@ -1,0 +1,11 @@
+All examples can be found in the appendix. Robustly evaluating natural language answers is a long-standing problem in NLP. Therefore, between trials, we use exact match answer grading using the environment
+to give a binary success signal to the agent. After each trial,
+the self-reflection loop is employed to amplify the binary signal, similar to
+the decision-making setup 4.1 in AlfWorld with a
+memory size of 3 experiences. Results
+
+Figure 4: Chain-of-Thought (CoT) and ReAct. Reflexion improves search, information
+retrieval, and reasoning capabilities on 100 HotPotQA questions. (a) Reflexion
+ReAct vs Reflexion CoT (b) Reflexion CoT (GT) for reasoning only (c) Reflexion
+vs episodic memory ablation. Reflexion outperforms all baseline approaches by significant margins over several
+learning steps.

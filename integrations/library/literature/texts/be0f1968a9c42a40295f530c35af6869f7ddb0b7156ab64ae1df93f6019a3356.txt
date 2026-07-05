@@ -1,0 +1,11 @@
+Use deep
+learning. Start to adjust your expectations on how much return
+you expect on investment, and expand your efforts accordingly. As in any
+engineering project, you have to weigh the benefit of adding new features
+against the cost of increased complexity. Rule #42: Don’t expect diversity, personalization, or relevance to be as correlated with popularity as you think they are. Diversity in a set of content can mean many things, with the diversity of the
+source of the content being one of the most common. Personalization implies each
+user gets their own results. Relevance implies that the results for a particular
+query are more appropriate for that query than any other. Thus all three of
+these properties are defined as being different from the ordinary. The problem is that the ordinary tends to be hard to beat. Note that if your system is measuring clicks, time spent, watches, +1s,
+reshares, et cetera, you are measuring the popularity of the content. Teams
+sometimes try to learn a personal model with diversity.

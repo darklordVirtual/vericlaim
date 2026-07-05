@@ -1,0 +1,17 @@
+py/io/ascii/tests/test_qdp.py::test_read_write_simple
+
+astropy/io/ascii/tests/test_qdp.py::test_read_write_simple_specify_name
+
+astropy/io/ascii/tests/test_qdp.py::test_get_lines_from_qdp
+
+Discussion. This issue requests a fix for handling QDP files; specifically, it asks for the expectation of the commands to be uppercase to be removed. In the model generated patch, the model locates the
+
+READ
+and
+
+ERR
+commands mentioned in the issue description in a regex pattern and edits it directly. However, within the same file, it is clear that the regex pattern is used in additional patterns, such as
+
+_type_re
+, and so a fix to the “root” regex pattern may not be appropriate. In addition, amidst multiple regex pattern variables, identifying the correct one to modify requires reasoning that can potentially be helped by execution. This error in this solution is reflected in the fact that it not only fails to pass the given unit tests, but also fails existing tests enforcing prior behavior. Table 19:
+For this issue from the mwaskom/seaborn repository, the problem statement includes hyperlinks to images.

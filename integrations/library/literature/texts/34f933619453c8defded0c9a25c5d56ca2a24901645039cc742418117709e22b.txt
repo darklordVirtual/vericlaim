@@ -1,0 +1,12 @@
+Figure 8 shows the results of experiments on softmax models, with class probabilities rounded to
+– decimals. We plot only , the results for
+being similar. We observe that class probabilities
+rounded to or decimal places (as done already in BigML) have no
+effect on the attack’s success. When rounding further to
+and decimal places, the attack is weakened, but still vastly
+outperforms adaptive retraining using class labels only. Figure 8: Effect of rounding on model extraction. Shows the average test error of equation-solving attacks on softmax models trained on the benchmark suite (Table 3), as we vary the number of significant digits in reported class probabilities. Extraction with no rounding and with class labels only (adaptive retraining) are added for comparison. For regression trees, rounding has no effect on our
+attacks. Indeed, for the models we considered, the output itself
+is unique in each leaf (we could also round outputs, but
+the impact on utility may be more critical). For classification trees, we re-evaluated
+our top-down attack, with confidence scores rounded to
+fewer than decimal places.

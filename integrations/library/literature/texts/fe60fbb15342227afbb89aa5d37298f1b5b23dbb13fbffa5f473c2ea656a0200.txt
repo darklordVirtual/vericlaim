@@ -1,0 +1,9 @@
+Table 13:
+Examples of correct and incorrect chains of thought produced by LaMDA 137B on the letter concatenation task. Question: Take the last letters of the words in “Waldo Schmidt” and concatenate them. Model Answer (CORRECT): The last letter of “Waldo” is “o”. The last letter of “Schmidt” is “t”. Concatenating them is “ot”. So the answer is ot. ✓
+
+Question: Take the last letters of the words in “Daniel Friedman” and concatenate them. Model Answer (INCORRECT): The last letter of “Daniel” is “l”. The last letter of “Friedman” is “m”. Concatenating them is “lm”. So the answer is lm. ✗
+
+Table 14:
+Examples of correct and incorrect chains of thought produced by LaMDA 137B on the coinflip task. Question: A coin is heads up. Andree flips the coin. Audrie does not flip the coin. Is the coin still heads up? Model Answer (CORRECT): The coin was flipped by Andree. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no. ✓
+
+Question: A coin is heads up. Kristian does not flip the coin. Dallas does not flip the coin. Is the coin still heads up?

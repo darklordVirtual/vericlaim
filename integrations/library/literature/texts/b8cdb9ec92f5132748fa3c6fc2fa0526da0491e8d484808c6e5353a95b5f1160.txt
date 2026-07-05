@@ -1,0 +1,20 @@
+Scaling description of generalization with number of parameters in
+deep learning. arXiv, 2019,
+1901.01608. [GKX19]
+
+Behrooz Ghorbani, Shankar Krishnan, and Ying Xiao. An investigation into neural net optimization via hessian eigenvalue
+density. CoRR, abs/1901.10159, 2019,
+1901.10159. URL http://arxiv.org/abs/1901.10159. [Goo01]
+
+Joshua Goodman. A bit of progress in language modeling. CoRR, cs.CL/0108005, 2001. URL http://arxiv.org/abs/cs.CL/0108005. [GRK17]
+
+Scott Gray, Alec Radford, and Diederik P Kingma. Gpu kernels for block-sparse weights. openai.com, 2017. [HAD19]
+
+Joel Hestness, Newsha Ardalani, and Gregory Diamos. Beyond human-level accuracy: Computational challenges in deep
+learning. In Proceedings of the 24th Symposium on Principles and Practice
+of Parallel Programming, PPoPP ’19, pages 1–14, New York, NY, USA, 2019. ACM. doi:10.1145/3293883.3295710. [HCC+18]
+
+Yanping Huang, Yonglong Cheng, Dehao Chen, HyoukJoong Lee, Jiquan Ngiam,
+Quoc V. Le, and Zhifeng Chen. Gpipe: Efficient training of giant neural networks using pipeline
+parallelism. CoRR, abs/1811.06965, 2018,
+1811.06965. URL http://arxiv.org/abs/1811.06965.

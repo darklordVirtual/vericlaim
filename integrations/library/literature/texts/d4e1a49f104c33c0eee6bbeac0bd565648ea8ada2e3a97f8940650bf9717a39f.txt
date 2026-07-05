@@ -1,0 +1,14 @@
+Polosukhin. Attention is all you need. In Advances in neural information processing systems, pages
+5998–6008, 2017. Wang et al. (2019)
+
+A. Wang, Y. Pruksachatkun, N. Nangia, A. Singh, J. Michael, F. Hill, O. Levy,
+and S. R. Bowman. Superglue: A stickier benchmark for general-purpose language
+understanding systems. arXiv preprint arXiv:1905.00537, 2019. Wang et al. (2017)
+
+Y. Wang, X. Liu, and S. Shi. Deep neural solver for math word problems. In Proceedings of the 2017 Conference on Empirical Methods in
+Natural Language Processing, pages 845–854, Copenhagen, Denmark, Sept. 2017. Association for Computational Linguistics. doi: 10.18653/v1/D17-1088. URL https://aclanthology.org/D17-1088. Xie and Sun (2019)
+
+Z. Xie and S. Sun. A goal-driven tree-structured neural model for math word problems. In IJCAI, 2019. Zhao et al. (2020)
+
+W. Zhao, M. Shang, Y. Liu, L. Wang, and J. Liu. Ape210k: A large-scale and template-rich dataset of math word
+problems. arXiv preprint arXiv:2009.11506, 2020.

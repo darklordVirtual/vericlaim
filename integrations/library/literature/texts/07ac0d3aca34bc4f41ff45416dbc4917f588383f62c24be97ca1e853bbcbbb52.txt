@@ -1,0 +1,6 @@
+This is only clearly the case when a universal approximator theorem
+applies. Because the last layer of a neural network, the linear-sigmoid or linear-softmax layer, is not
+a universal approximator of functions of the final hidden layer, this suggests that one is likely to
+encounter problems with underfitting when applying
+adversarial perturbations to the final hidden layer. We indeed found this effect. Our best results with
+training using perturbations of hidden layers never involved perturbations of the final hidden layer.

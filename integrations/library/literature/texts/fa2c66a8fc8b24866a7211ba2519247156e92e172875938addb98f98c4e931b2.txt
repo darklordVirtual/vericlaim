@@ -1,0 +1,45 @@
+= 0
+
+for letter in s:
+
+if letter in vowels:
+
+count += 1
+
+return count
+
+def multiply(a, b):
+
+"""Complete␣the␣function␣that␣takes␣two␣integers␣and␣returns
+
+␣␣␣␣the␣product␣of␣their␣unit␣digits. ␣␣␣␣Assume␣the␣input␣is␣always␣valid. ␣␣␣␣Examples:
+
+␣␣␣␣multiply(148,␣412)␣should␣return␣16. ␣␣␣␣multiply(19,␣28)␣should␣return␣72. ␣␣␣␣multiply(2020,␣1851)␣should␣return␣0. ␣␣␣␣multiply(14,-15)␣should␣return␣20. ␣␣␣␣"""
+
+### COMPLETION 1 (WRONG): ###
+
+if a == 0 or b == 0:
+
+return 0
+
+elif a < b:
+
+return (a - b) * 10
+
+elif a > b:
+
+return (a - b) * 10 + b
+
+else:
+
+return (a - b) * 10 + b
+
+### COMPLETION 2 (WRONG): ###
+
+#return sum([a * b for a, b in zip(str(a), str(b))])
+
+return sum(a*b for a, b in zip(str(a), str(b)))
+
+### COMPLETION 3 (WRONG): ###
+
+# Edge case: a and b are both 0. Return 1.

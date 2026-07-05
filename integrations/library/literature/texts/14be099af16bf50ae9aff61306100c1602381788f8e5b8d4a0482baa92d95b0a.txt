@@ -1,0 +1,67 @@
+Verdicts {allow, warn, block, review}. Table 1 — Judge-ALONE (exact-match), acc / FPR / FNR
+
+judge
+
+internal 300
+
+independent 630
+
+external 189 (OOD)
+
+rules-only (honest)
+
+94.7 / 2.3 / 6.2
+
+95.4 / 2.1 / 6.1
+
+48.1 / 22.4 / 52.9
+
+rules + cloud-pack (steelman)
+
+—
+
+—
+
+56.1 / 22.4 / 33.3
+
+DeepSeek (weak baseline)
+
+85.0 / 5.3 / 7.8
+
+87.1 / 1.6 / 8.1
+
+69.8 / 31.0 / 5.7
+
+Haiku-4.5
+
+84.3 / 6.8 / 4.7
+
+80.0 / 0.0 / 12.2
+
+75.7 / 0.0 / 11.5
+
+Sonnet-4.6
+
+89.3 / 3.0 / 7.0
+
+89.7 / 1.1 / 7.8
+
+84.1 / 0.0 / 2.3
+
+GPT-5.5
+
+85.7 / 3.0 / 1.7
+
+76.2 / 19.7 / 1.7
+
+83.6 / 6.9 / 1.1
+
+Opus-4.8
+
+89.7 / 0.0 / 7.8
+
+91.0 / 1.6 / 9.9
+
+85.2 / 1.7 / 4.6
+
+Reading: in-distribution rules win on exact-match (the gap is the subjective warn class); OOD rules COLLAPSE (48%) while every strong judge across two providers lands 83.6–85.2% with near-0 false-block. The judge is the component that generalizes.

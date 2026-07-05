@@ -1,0 +1,44 @@
+deep neural networks”
+
+In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 10426 LNCS
+
+Springer Verlag, 2017, pp. 97–117
+
+DOI: 10.1007/978-3-319-63387-9_5
+
+[70]
+Kevin Bonsor and Nathan Chandler
+
+“How Black Boxes Work”
+
+In HowStuffWorks
+
+URL: https://science.howstuffworks.com/transport/flight/modern/black-box.htm
+
+[71]
+Mustafa Suleyman and Ben Laurie
+
+“Trust, confidence and Verifiable Data Audit”
+
+In DeepMind Blog, 2017
+
+URL: https://deepmind.com/blog/article/trust-confidence-verifiable-data-audit
+
+[72]
+Joanna Bryson
+
+“AI & Global Governance: No One Should Trust AI”, 2018
+
+URL: https://cpr.unu.edu/ai-global-governance-no-one-should-trust-ai.html
+
+[73]
+Cynthia Rudin
+
+“Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1811.10154
+
+[74]
+Zachary C.

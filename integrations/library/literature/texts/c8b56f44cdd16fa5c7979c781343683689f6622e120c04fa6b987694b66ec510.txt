@@ -1,0 +1,17 @@
+Andrej Karpathy’s blog, 21 May 2015. URL http://karpathy.github.io/2015/05/21/rnn-effectiveness/. Karttunen (2012)
+
+Lauri Karttunen. Simple and phrasal implicatives. In *SEM 2012: The First Joint Conference on Lexical and
+Computational Semantics -- Volume 1: Proceedings of the main conference and
+the shared task, and Volume 2: Proceedings of the Sixth International
+Workshop on Semantic Evaluation (SemEval 2012), pp. 124--131,
+Montréal, Canada, 7-8 June 2012. Association for Computational
+Linguistics. URL https://aclanthology.org/S12-1020. Kassner & Schütze (2019)
+
+Nora Kassner and Hinrich Schütze. Negated and misprimed probes for pretrained language models: Birds
+can talk, but cannot fly, 2019. URL https://arxiv.org/abs/1911.03343. Kassner et al. (2020)
+
+Nora Kassner, Benno Krojer, and Hinrich Schütze. Are pretrained language models symbolic reasoners over knowledge?,
+2020. URL https://arxiv.org/abs/2006.10413. Kaushik et al. (2019)
+
+Divyansh Kaushik, Eduard Hovy, and Zachary C. Lipton. Learning the difference that makes a difference with
+counterfactually-augmented data, 2019. URL https://arxiv.org/abs/1909.12434. Kenton et al.

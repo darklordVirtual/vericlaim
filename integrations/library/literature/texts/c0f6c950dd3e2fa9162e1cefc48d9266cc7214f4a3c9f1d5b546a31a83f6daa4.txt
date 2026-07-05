@@ -1,0 +1,11 @@
+a painting was destroyed by fire; a Web page is taken out of a site;
+
+an entity was consumed: e.g. Bob ate all his soup, Alice ran out of gas when driving to work;
+
+an entity expires: e.g. a "buy one beer, get one free" offer is valid during happy hour (7-8pm);
+
+an entity is time limited: e.g. the BBC news site on April 3rd, 2012;
+
+an entity attribute is changing: e.g. the traffic light changed from green to red. In the first two cases, the entity has physically disappeared after its termination: there is no more soup, or painting. In the third case, there may be an "offer voucher" that still exists, but it is no longer valid; likewise, on April 4th, the BBC news site still exists but it is not the same entity as BBC news Web site on April 3rd; or the
+green traffic light (an entity with a fixed aspect green light) became the
+red traffic light (another entity with a fixed aspect red light).

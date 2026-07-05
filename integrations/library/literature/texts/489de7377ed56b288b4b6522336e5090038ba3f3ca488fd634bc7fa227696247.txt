@@ -1,0 +1,19 @@
+The
+definition can also be phrased as requiring that the conditional
+distribution be independent of . In other words, having
+matching conditional frequencies is equivalent to and being independent
+conditioned on . The corresponding dependency structure is
+. That is, the score includes all possible information the
+protected attribute can provide on the target . Indeed having
+matching conditional frequencies means that the score is in a sense
+“optimally dependent” on the protected attribute . Formally, for
+any loss function the optimal (unconstrained, possibly discriminatory)
+derived predictor would be a function of alone, since
+already includes all relevant information about . In
+particular, an unconstrained optimal score, like in our
+constructions, would satisfy matching conditional frequencies. Having
+matching frequencies can therefore be seen as a property indicating
+utilizing the protected attribute for optimal predictive power,
+rather then protecting discrimination based on it. It is also worth noting the similarity between matching frequencies
+and a binary predictor having equal conditional precision,
+that is .

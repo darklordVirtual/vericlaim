@@ -1,0 +1,16 @@
+John Stuart Mill: Each person’s happiness is a good to that person, and the general happiness, therefore, a good to the aggregate of all persons. (A) Fallacy of Composition
+
+(B) Fallacy of Division
+(C) Gambler’s Fallacy
+(D) Equivocation
+
+Figure 50: A Logical Fallacies example. A 6-sided die is rolled 15 times and the results are: side 1 comes up 0 times; side 2: 1 time; side 3: 2 times; side 4: 3 times; side 5: 4 times; side 6: 5 times. Based on these results, what is the probability of side 3 coming up when using Add-1 Smoothing? (A) 2/15 (B) 1/7 (C) 3/16 (D) 1/5
+
+Figure 51: A Machine Learning example. According to Lewin, Lippet and White’s 1939 experiment, which form of leadership produced the most work from participants? (A) Laissez-faire
+(B) Democratic
+(C) Authoritarian
+
+(D) A mix of laissez-faire and democratic
+
+Figure 52: A Management example. The single group within society that is most vulnerable to reference group influence is:
+(A) The older consumer who feels somewhat left out of things. (B) The married women, many of whom feel a need for stability in their lives. (C) New immigrants who really want to assimilate into their new culture.

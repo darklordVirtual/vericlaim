@@ -1,0 +1,7 @@
+In this section, we will prove the two lemmas from Section 5. Lemma 1 Restated. Under the Plackett-Luce preference framework, and in particular the Bradley-Terry framework, two reward functions from the same equivalence class induce the same preference distribution. Proof. We say that two reward functions and are from the same equivalence class if for some function . We consider the general Plackett-Luce (with the Bradley-Terry model a special case for ) and denote the probability distribution over rankings induced by a particular reward function as . For any prompt , answers and ranking we have:
+
+which completes the proof. ∎
+
+Lemma 2 Restated. Two reward functions from the same equivalence class induce the same optimal policy under the constrained RL problem. Proof. Let us consider two reward functions from the same class, such that and, let us denote as and the corresponding optimal policies. By Eq. 4, for all we have
+
+which completes the proof. ∎

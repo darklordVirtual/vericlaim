@@ -1,0 +1,15 @@
+We select OpenClaw222OpenClaw is an open-source local agent
+framework. Analysis based on the publicly available source code at
+https://github.com/openclaw/openclaw
+(commit f014e25, accessed 2026-03-05). as our case study because
+it implements all four architectural components that LGA targets—local
+persistent memory, an autonomous execution loop, a compute-routing
+gateway, and a plugin ecosystem—providing
+a concrete testbed for compliance gap analysis. OpenClaw is a local autonomous agent system whose
+stated design goal is to “enclose AI capabilities within
+governable physical boundaries” (OpenClaw Contributors, 2025);
+we evaluate whether the implementation achieves this goal. Its principal technical components are:
+Zero-Ops local persistent memory,
+a heartbeat autonomous loop with SOUL.md configuration,
+a model-selection gateway, and
+a community skill ecosystem (ClawHub).

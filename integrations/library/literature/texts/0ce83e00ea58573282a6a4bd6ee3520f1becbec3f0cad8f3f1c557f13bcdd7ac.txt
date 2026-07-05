@@ -1,0 +1,16 @@
+URL https://aclanthology.org/P19-1021. Sennrich et al. (2015)
+
+Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units, 2015. URL https://arxiv.org/abs/1508.07909. Seo et al. (2014)
+
+Min Joon Seo, Hannaneh Hajishirzi, Ali Farhadi, and Oren Etzioni. Diagram understanding in geometry questions. In Proceedings of the AAAI Conference on Artificial
+Intelligence, volume 28, Menlo Park, CA, Jun. 2014. Association for the
+Advancement of Artificial Intelligence. URL https://ojs.aaai.org/index.php/AAAI/article/view/9146. Shahid & Zheleva (2021)
+
+Usman Shahid and Elena Zheleva. Counterfactual learning in networks: An empirical study of model
+dependence, 2021. URL https://www.cs.uic.edu/~elena/pubs/shahid-why19.pdf. Shane (2020)
+
+Janelle Shane. All your questions answered. AI Weirdness, 20 June 2020. URL
+https://www.aiweirdness.com/all-your-questions-answered-20-06-17/. Shaw et al. (1975)
+
+David Elliot Shaw, William R. Swartout, and C. Cordell Green. Inferring LISP programs from examples. In IJCAI’75: Proceedings of the 4th International Joint
+Conference on Artificial Intelligence, volume 1, pp. 260--267.

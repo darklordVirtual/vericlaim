@@ -1,0 +1,6 @@
+Next we show that the conformal risk control procedure is tight up to a factor . Like the standard conformal coverage upper bound, the proof will rely on a form of continuity that prohibits large jumps in the risk function. Towards that end, we will define the jump function below, which quantifies the size of the discontinuity in a right-continuous input function at point :
+
+(12)
+
+The jump function measures the size of a discontinuity at . When there is a discontinuity and is non-increasing, . When there is no discontinuity, the jump function is zero. The next theorem will assume that the probability that has a discontinuity at any pre-specified is . Under this assumption the conformal risk control procedure is not too conservative. Theorem 2.2. In the setting of Theorem 2.1, further assume that the are i.i.d., ,
+and for any , . Then

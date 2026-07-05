@@ -1,0 +1,24 @@
+•
+
+We have run control experiments that failed to reproduce this effect with simpler but less efficient regularizers including weight
+decay and adding noise. •
+
+Models that are easy to optimize are easy to perturb. •
+
+Linear models lack the capacity to resist adversarial perturbation; only structures with a hidden layer
+(where the universal approximator theorem applies) should
+be trained to resist adversarial perturbation. •
+
+RBF networks are resistant to adversarial examples. •
+
+Models trained to model the input distribution are not resistant to adversarial examples. •
+
+Ensembles are not resistant to adversarial examples. Some further observations concerning rubbish class examples are presented in the appendix:
+
+•
+
+Rubbish class examples are ubiquitous and easily generated. •
+
+Shallow linear models are not resistant to rubbish class examples. •
+
+RBF networks are resistant to rubbish class examples. Gradient-based optimization is the workhorse of modern AI.

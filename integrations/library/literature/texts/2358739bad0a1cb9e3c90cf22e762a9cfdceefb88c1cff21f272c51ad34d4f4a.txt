@@ -1,0 +1,7 @@
+University of Rome (rodola, moschella, mariani, norelli, santilli, melzi)@di.uniroma1.it; and Giambattista Parascandolo, MPI for Intelligent Systems and ETH Zurich (gparascandolo@tue.mpg.de). Task cites: (Brown et al., 2020; Johnson et al., 2016; Santoro et al., 2017; Hudson & Manning, 2019; Sennrich et al., 2015)
+
+taboo: Dar Gilboa, Harvard University (dar_gilboa@fas.harvard.edu). Task cites: (Joshi et al., 2017)
+
+talkdown: Zijian Wang, Amazon (zijwang@stanford.edu), and Christopher Potts, Stanford University (cgpotts@stanford.edu). Task cites: (Wang & Potts, 2019; Mendelsohn et al., 2020; Fiske, 1993; Nolan & Mikami, 2013; Breitfeller et al., 2019; Perez Almendros et al., 2020)
+
+temporal_sequences: Ethan A. Chi, William Zhang, Hannah Kim, James Zheng, Oliver Zhang, and Jeremy Kim, Stanford University (ethanchi, wxyz)@cs.stanford.edu, (hkim24, jameszhe, ozhang, jk23541)@stanford.edu.

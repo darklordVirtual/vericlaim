@@ -1,0 +1,6 @@
+3); and enable us to avoid devoting research resources to problems that are likely to be solved by scale alone (Sutton, 2019). \begin{overpic}[width=469.75499pt]{figures/aggregate_3panel.pdf}
+\put(2.0,10.0){{\small(a)}}
+\put(36.0,10.0){{\small(b)}}
+\put(70.0,10.0){{\small(c)}}
+\end{overpic}
+Figure 1: Aggregate performance on BIG-bench improves with increasing model size and increasing shot count, but all models perform poorly in an absolute sense. For sparse models, the axis indicates the number of non-embedding parameters active during inference. In the legend, all parenthetical numbers indicate shot count. Each task has a unique preferred metric (Section 2.1). The aggregate performance is the average of each task’s preferred metric normalized such that 0 represents poor performance and 100 very good performance (see Section 3.1 for a more detailed discussion). (a) Aggregate performance on programmatic and JSON tasks (JSON tasks are evaluated with one-shot prompting. See Section 2.1 for details on our task types), compared with human rater performance (see Section 2.3.2).

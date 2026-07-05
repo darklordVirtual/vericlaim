@@ -1,0 +1,5 @@
+credit assignment with, 3) it allows for a more explicit and interpretable form of episodic memory over prior experiences, and 4) it provides more explicit hints for actions in future episodes. At the same time, it does have the disadvantages of relying on the power of the LLM’s self-evaluation capabilities (or heuristics) and not having a formal guarantee for success. However, as LLM capabilities improve, we only expect this paradigm to get better over time. We perform experiments on (1) decision-making tasks to test sequential action choices over long
+trajectories, (2) reasoning tasks to test knowledge-intensive, single-step generation
+improvement, and (3) programming tasks to teach the agent to effectively use external
+tools such as compilers and interpreters. Across all three types of tasks, we observe
+Reflexion agents are better decision-makers, reasoners, and programmers.

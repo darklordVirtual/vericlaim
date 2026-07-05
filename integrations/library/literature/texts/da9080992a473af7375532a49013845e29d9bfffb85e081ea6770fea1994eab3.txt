@@ -1,0 +1,15 @@
+Our extraction techniques replace adaptive queries with a non-adaptive
+“batch” query to , followed by local computation. We show that
+extraction plus inversion can require fewer queries and less time than performing
+black-box inversion directly. As a case study, we use the softmax
+model from [23], trained over the AT&T Faces
+data [5]. The data set consists of images of faces ( pixels) of people. The black-box attack
+from [23] needs about queries to reconstruct a
+recognizable face for a single training set individual. Reconstructing the faces of all individuals
+would require around online queries. The trained softmax model is much larger than those considered in Section 4.1, with unknowns ( and ). We solve an under-determined system with equations
+(using gradient descent with epochs), and recover a model achieving
+in the order of . Note that the number of
+model parameters to extract is linear in the number of people , whose faces
+we hope to recover. By using in
+white-box model inversion attacks, we obtain results that are visually
+indistinguishable from the ones obtained using the true .

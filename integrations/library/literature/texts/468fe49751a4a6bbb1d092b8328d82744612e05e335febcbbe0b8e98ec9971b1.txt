@@ -1,0 +1,21 @@
+As with the questions in the previous section, dataset creators should
+read through these questions prior to any data collection to flag
+potential issues and then provide answers once collection is complete. In addition to the goals outlined in the previous section, the
+questions in this section are designed to elicit information that may
+help researchers and practitioners to create alternative datasets with
+similar characteristics. Again, questions that apply only to datasets
+that relate to people are grouped together at the end of the
+section. •
+
+How was the data associated with each instance
+acquired? Was the data directly observable (e.g., raw text, movie
+ratings), reported by subjects (e.g., survey responses), or
+indirectly inferred/derived from other data (e.g., part-of-speech
+tags, model-based guesses for age or language)? If the data was reported
+by subjects or indirectly inferred/derived from other data, was the
+data validated/verified? If so, please describe how. •
+
+What mechanisms or procedures were used to collect the
+data (e.g., hardware apparatuses or sensors, manual human
+curation, software programs, software APIs)? How were these
+mechanisms or procedures validated?

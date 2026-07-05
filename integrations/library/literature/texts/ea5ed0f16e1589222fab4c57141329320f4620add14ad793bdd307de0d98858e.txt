@@ -1,0 +1,6 @@
+Task cites: (Park et al., 2021)
+
+movie_recommendation: Damien Sileo, Robbe Raymaekers, and Wout Vossen, KU Leuven (damien.sileo@kuleuven.be), (robbe.raymaekers, wout.vossen)@student.kuleuven.be. Task cites: (Sileo et al., 2022; Thorat et al., 2015; Barkan & Koenigstein, 2016; Harper & Konstan, 2015)
+mult_data_wrangling: Gonzalo Jaimovitch-López, Fernando Martínez-Plumed, Lidia Contreras-Ochando, César Ferri Ramírez, Maria Jose Ramírez Quintana, and Jose Hernandez-Orallo, Universitat Politècnica de València (gonzalojaimovitch@gmail.com), (fmartinez, liconoc, cferri, mramirez)@dsic.upv.es, (jorallo@upv.es). Task cites: (Bender et al., 2021; Tamkin et al., 2021; Singh & Gulwani, 2015; Cropper et al., 2016; Wu et al., 2012; Gulwani et al., 2015; Contreras-Ochando et al., 2018; 2020; Petrova-Antonova & Tancheva, 2020; Huynh & Mazzocchi, 2012; Kandel et al., 2011; Bhupatiraju et al., 2017; Ellis & Gulwani, 2017; Gulwani et al., 2012; Gulwani, 2011; Singh & Gulwani, 2016)
+
+multiemo: Jan Kocoń, Piotr Miłkowski, and Kamil Kanclerz, Wrocław University of Science and Technology (jan.kocon, piotr.milkowski, kamil.kanclerz)@pwr.edu.pl.

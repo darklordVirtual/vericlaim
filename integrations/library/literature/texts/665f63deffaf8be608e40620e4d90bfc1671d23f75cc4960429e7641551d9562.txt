@@ -1,0 +1,21 @@
+A description of the intended purpose of the AI system;
+
+6. The condition or conditions under Article 6(3)based on which the AI system is considered to be not-high-risk;
+
+7. A short summary of the grounds on which the AI system is considered to be not-high-risk in application of the procedure under Article 6(3);
+
+8. The status of the AI system (on the market, or in service; no longer placed on the market/in service, recalled);
+
+9. Any Member States in which the AI system has been placed on the market, put into service or made available in the Union. Section C — Information to be submitted by deployers of high-risk AI systems in accordance with Article 49(3)
+
+The following information shall be provided and thereafter kept up to date with regard to high-risk AI systems to be registered in accordance with Article 49(3):
+
+1. The name, address and contact details of the deployer;
+
+2. The name, address and contact details of the person submitting information on behalf of the deployer;
+
+3. The URL of the entry of the AI system in the EU database by its provider;
+
+4. A summary of the findings of the fundamental rights impact assessment conducted in accordance with Article 27;
+
+5.

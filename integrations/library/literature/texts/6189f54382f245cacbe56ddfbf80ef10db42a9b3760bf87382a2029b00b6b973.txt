@@ -1,0 +1,11 @@
+The easiest thing to model is a user behavior that is directly observed and attributable to an
+action of the system:
+
+Was this ranked link clicked? Was this ranked object downloaded? Was this ranked object forwarded/replied to/e­mailed? Was this ranked object rated? Was this shown object marked as spam/pornography/offensive? Avoid modeling indirect effects at first:
+
+Did the user visit the next day? How long did the user visit the site? What were the daily active users? Indirect effects make great metrics, and can be used during A/B testing and during launch
+decisions. Finally, don’t try to get the machine learning to figure out:
+
+Is the user happy using the product? Is the user satisfied with the experience? Is the product improving the user’s overall well­being? How will this affect the company’s overall health? These are all important, but also incredibly hard to measure. Instead, use
+proxies: if the user is happy, they will stay on the site longer. If the user
+is satisfied, they will visit again tomorrow.

@@ -1,0 +1,4 @@
+PROV-DM stipulates that a qualified name can be mapped into an IRI
+by concatenating the IRI associated with the prefix and the local part. A qualified name's prefix is OPTIONAL. If a prefix occurs in a
+qualified name, it refers to a namespace declared in a namespace declaration. In the absence of prefix, the qualified name
+refers to the default namespace.

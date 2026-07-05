@@ -1,0 +1,13 @@
+Retrieval-augmented generation for knowledge-intensive nlp tasks. Advances in Neural Information Processing Systems,
+33:9459–9474, 2020. Li et al. (2022)
+
+Shuang Li, Xavier Puig, Chris Paxton, Yilun Du, Clinton Wang, Linxi Fan, Tao
+Chen, De-An Huang, Ekin Akyürek, Anima Anandkumar, Jacob Andreas, Igor
+Mordatch, Antonio Torralba, and Yuke Zhu. Pre-trained language models for interactive decision-making, 2022. URL https://arxiv.org/abs/2202.01771. Luria (1965)
+
+Aleksandr Romanovich Luria. Ls vygotsky and the problem of localization of functions. Neuropsychologia, 3(4):387–392, 1965. Madaan & Yazdanbakhsh (2022)
+
+Aman Madaan and Amir Yazdanbakhsh. Text and patterns: For effective chain of thought, it takes two to
+tango, 2022. URL https://arxiv.org/abs/2209.07686. Micheli & Fleuret (2021)
+
+Vincent Micheli and François Fleuret. Language models are few-shot butlers. arXiv preprint arXiv:2104.07972, 2021. Nakano et al.

@@ -1,0 +1,1 @@
+However, as discussed in our prior work [Bai et al., 2022], preference model scores become less calibrated at higher values, so these results should be taken with a grain of salt. We also trained a series of SL-CAI models up to various numbers of revisions. In particular, SL-CAI- is trained with finetuned with up to and including the -th revision, for .

@@ -1,0 +1,15 @@
+Metaphysics Research Lab, Stanford University, Fall 2019
+edition, 2019. de Marneffe et al. (2008)
+
+Marie-Catherine de Marneffe, Anna N. Rafferty, and Christopher D. Manning. Finding contradictions in text. In Proceedings of ACL-08: HLT, pp. 1039--1047, Columbus,
+Ohio, June 2008. Association for Computational Linguistics. URL https://aclanthology.org/P08-1118. de Marneffe et al. (2012)
+
+Marie-Catherine de Marneffe, Christopher D. Manning, and Christopher Potts. Did it happen? The pragmatic complexity of veridicality assessment. Computational Linguistics, 38(2):301--333,
+June 2012. doi: 10.1162/COLI_a_00097. URL https://aclanthology.org/J12-2003. de Marneffe et al. (2019)
+
+Marie-Catherine de Marneffe, Mandy Simons, and Judith Tonhauser. The CommitmentBank: Investigating projection in naturally
+occurring discourse. Proceedings of Sinn und Bedeutung, 23(2):107--124, July 2019. doi: 10.18148/sub/2019.v23i2.601. URL
+https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/view/601. Deerwester et al. (1990)
+
+Scott Deerwester, Susan T. Dumais, George W. Furnas, Thomas K. Landauer, and
+Richard Harshman. Indexing by latent semantic analysis.

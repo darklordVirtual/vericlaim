@@ -1,0 +1,6 @@
+We now consider CIFAR-10; see [14] for details. We used the VGG-16 architecture [17] and adapted it to the CIFAR-10 dataset
+by adding massive dropout, exactly as described in [15]. We used data augmentation containing horizontal flips, vertical and horizontal shifts, and rotations, and trained using SGD with momentum of 0.9, initial learning rate of 0.1, and weight decay of 0.0005. We multiplicatively dropped the learning rate by 0.5 every 25 epochs, and trained for 250 epochs. With this setting we reached validation accuracy of 93.54, and used the
+resulting network as the basis for our selective classifier. We applied the SGR algorithm on with the SR confidence-rating function, where the training set for SGR, ,
+was taken as half of the standard CIFAR-10 validation set that was randomly split to two equal parts. The other half, which was not consumed by SGR for training, was
+reserved for testing the resulting bounds. Thus, this training and test sets where each of approximately 5000 samples. We applied the SGR routine with several desired risk values, , and obtained, for each such , corresponding
+selective classifier and risk bound .

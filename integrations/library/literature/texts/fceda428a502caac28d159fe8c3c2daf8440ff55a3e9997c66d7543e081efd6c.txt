@@ -1,0 +1,7 @@
+consistent with the exsitence of blind spots
+constructed in the previous section, but they don’t attempt to explain why
+these examples generalize across different hyperparameters or training sets. We emphasize that we compute upper bounds:
+large bounds do not automatically translate into existence of adversarial examples;
+however, small bounds guarantee that no such examples can appear. This suggests a simple regularization of the parameters,
+consisting in penalizing each upper Lipschitz bound,
+which might help improve the generalisation error of the networks.

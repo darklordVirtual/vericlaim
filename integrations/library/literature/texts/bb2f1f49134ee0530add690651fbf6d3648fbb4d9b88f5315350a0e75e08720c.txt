@@ -1,0 +1,77 @@
+We include a table of important hyperparameters below. We performed sweeps of the learning rate and batch size by an order of magnitude in both directions from the values in the table and were unable to find any significant improvements. Other reasonable choices for both the verifier temperature (eg: 1.0 instead of 0.7) and objective (cross-entropy instead of mean squared error) also had negligible effect in our ablations. General Hyperparameters
+
+Value
+
+Batch Size
+
+tokens
+
+Max Sample Length
+
+400 tokens
+
+Tokenization
+
+reversible_50000
+
+Optimizer
+
+Adam, ,
+
+Dropout
+
+Learning Rate Schedule
+
+Linear decay to 0
+
+Finetuning Hyperparameters
+
+Value
+
+Epochs
+
+20
+
+Sampling Temperature
+
+0 (argmax)
+
+Base Learning Rate ()
+
+(3B)
+
+(6B)
+
+(12B)
+
+(175B)
+
+Learning Rate
+
+Verification Hyperparameters
+
+Value
+
+Epochs
+
+2 for generator, 1 for verifier
+
+Sampling Temperature
+
+Learning Rate
+
+Loss weight
+
+Verifier loss
+
+MSE
+
+Completions per train problem
+
+100
+
+Completions per test problem
+
+100
+
+Table 1: Hyperparameters used for all experiments, unless explicitly said otherwise. Notable exceptions include Figure 8(c), which uses 4x more tokens per batch and 300 completions at both training and test time.

@@ -1,0 +1,15 @@
+In Proceedings of the 53rd Annual Meeting of the Association
+for Computational Linguistics and the 7th International Joint Conference on
+Natural Language Processing (Volume 2: Short Papers), pp. 419--424,
+Beijing, China, July 2015. Association for Computational Linguistics. doi: 10.3115/v1/P15-2069. URL https://aclanthology.org/P15-2069. Levy et al. (2021)
+
+Sharon Levy, Michael Saxon, and William Yang Wang. Investigating memorization of conspiracy theories in text generation,
+2021. URL https://arxiv.org/abs/2101.00379. Lewis et al. (2020a)
+
+Patrick Lewis, Barlas Oguz, Ruty Rinott, Sebastian Riedel, and Holger Schwenk. MLQA: Evaluating cross-lingual extractive question answering. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 7315--7330, Online, July
+2020a. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.653. URL https://aclanthology.org/2020.acl-main.653. Lewis et al. (2020b)
+
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim
+Rocktäschel, Sebastian Riedel, and Douwe Kiela.

@@ -1,0 +1,5 @@
+{"fsid": "web_www-usenix-org_conference_usenixsecurity19_presentation_torres-arias", "n": 4, "overlap": 200, "source_sha256": "029e000370e5eca0715b4e851d68903f7bd42cbf74e8d5ed386d844ea2c0fe03", "target": 1200}
+{"section": "", "seq": 0, "sha256": "93d67f03695ce08fed9788b37bdc7154ea7441834d69238411c8ed8cb0181981"}
+{"section": "in-toto: Providing farm-to-table guarantees for bits and bytes", "seq": 1, "sha256": "2ebaa260aea83b6edb21e91cf46607a4e728c43eea1e2685d358ed4e5841e4e5"}
+{"section": "in-toto: Providing farm-to-table guarantees for bits and bytes", "seq": 2, "sha256": "d291a15ac93e34da1945db7f00fddaee78cb1d76ba64567fa7b2831555a3aec2"}
+{"section": "Open Access Media", "seq": 3, "sha256": "ae6ac00c23778c8a71a2bc416c9e400ef4520133ec99204a4339632364072c53"}

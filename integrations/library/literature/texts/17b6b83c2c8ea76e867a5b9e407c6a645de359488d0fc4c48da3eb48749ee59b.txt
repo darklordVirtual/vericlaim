@@ -1,0 +1,6 @@
+Training data extraction attacks are often seen as theoretical
+or academic and are thus unlikely to be exploitable in practice [71]. This is justified by the prevailing intuition that privacy leakage is
+correlated with overfitting [72],
+and because state-of-the-art LMs are trained on large (near terabyte-sized [7]) datasets for a few epochs, they tend to not overfit [53]. Our paper demonstrates that training data extraction attacks
+are practical. To accomplish this, we first precisely define what we mean by
+“memorization”. We then state our threat model and our attack objectives. Finally, we discuss the ethical considerations behind these attacks and explain why they are likely to be a serious threat in the future.

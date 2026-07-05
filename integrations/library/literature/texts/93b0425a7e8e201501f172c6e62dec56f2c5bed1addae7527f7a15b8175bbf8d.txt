@@ -1,0 +1,16 @@
+Another use for this kind of complete Audit Log is to help with debugging. Of course, it's old hat
+to use log files for debugging production problems. But Event Sourcing
+can go further, allowing you to create a test environment and
+replay the events into the test environment to see exactly what
+happend, with the ability to stop, rewind, and replay just like
+you can when executing tests in a debugger. This can be
+particularly valuable to do parallel testing before putting an
+upgrade into production. You can replay the actual events in your
+test system and test that you get the answers you expect. Event Sourcing is the foundation for Parallel Models or Retroactive Events. If you want to use either of those patterns
+you will need to use Event Sourcing first. Indeed this goes to the
+extent that it's very hard to retrofit these patterns onto a
+system that wasn't built with Event Sourcing. Thus if you think
+there's a reasonable chance that the system will need these
+patterns later it's wise to build Event Sourcing now. This does seem
+to be one of those cases where it isn't wise to leave this
+decision to later refactoring.

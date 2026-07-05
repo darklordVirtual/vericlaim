@@ -1,0 +1,15 @@
+Suppose a confidence estimator emits a probability for an example. From our vantage point, we have no other information than just this probability . We expect that the probability that the example is correct is and thus the probability that the example is incorrect is . For this task, lets assume we get the following rewards for true positives, true negatives, false positives, and false negatives: , , , and . The reward associated with predicting the positive class (trusting the estimator) is:
+
+(6)
+
+The reward associated with predicting the negative class (abstaining from trusting the estimator) is:
+
+(7)
+
+Given this, we should trust the estimator (predict the positive class) if and only if the reward for this is greater than the reward for abstaining (predicting the negative class):
+
+We rearrange this to get the Minimum Bayes Risk threshold from equation˜1:
+
+(8)
+
+.

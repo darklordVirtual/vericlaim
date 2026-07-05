@@ -1,0 +1,52 @@
+indicate input, output, and a relevant passage, respectively. Algorithm 1 Self-Rag Inference
+
+1:Generator LM , Retriever , Large-scale passage collections
+
+2:Input: input prompt and preceding generation , Output: next output segment
+
+3: predicts \tikzmarknode[draw=myred,thick,inner sep=2pt]testRetrieve given
+
+4:if \tikzmarknode[draw=myred,thick,inner sep=2pt]testRetrieve == Yes then
+
+5: Retrieve relevant text passages using given Retrieve
+
+6: predicts
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsRel
+
+given and given for each Generate
+
+7: predicts
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+and
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsUse
+
+given for each Critique
+
+8: Rank based on
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsRel
+
+,
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+,
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsUse
+Detailed in Section 3.3
+
+9:else if \tikzmarknode[draw=myred,thick,inner sep=2pt]testRetrieve == No then
+
+10: predicts given Generate
+
+11: predicts
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsUse
+
+given Critique
+
+Inference overview.

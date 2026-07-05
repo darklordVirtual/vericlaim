@@ -1,0 +1,85 @@
+= list(str(b))
+
+a = reversed(a)
+
+b = reversed(b)
+
+print(a, b)
+
+for i in range(len(a)):
+
+res += int(a[i]) * int(b[i]) * 10**i
+
+return res
+
+### COMPLETION 7 (WRONG): ###
+
+#
+
+# Write your code here. #
+
+a = abs(a)
+
+b = abs(b)
+
+result = 0
+
+power = 0
+
+while a > 0:
+
+a_digit = a % 10
+
+a //= 10
+
+b_digit = b % 10
+
+b //= 10
+
+result += (a_digit * b_digit) * (10 ** power)
+
+power += 1
+
+if b < 0:
+
+return 0 - result
+
+return result
+
+### COMPLETION 8 (WRONG): ###
+
+number = a*b
+
+string = str(number)
+
+total = 0
+
+for i in string:
+
+total += int(i)
+
+return total
+
+def even_odd_palindrome(n):
+
+"""
+
+␣␣␣␣Given␣a␣positive␣integer␣n,␣return␣a␣tuple␣that␣has␣the␣number␣of␣even␣and␣odd
+
+␣␣␣␣integer␣palindromes␣that␣fall␣within␣the␣range(1,␣n),␣inclusive. ␣␣␣␣Example␣1:
+
+␣␣␣␣␣␣␣␣Input:␣3
+
+␣␣␣␣␣␣␣␣Output:␣(1,␣2)
+
+␣␣␣␣␣␣␣␣Explanation:
+
+␣␣␣␣␣␣␣␣Integer␣palindrome␣are␣1,␣2,␣3.␣one␣of␣them␣is␣even,␣and␣two␣of␣them␣are␣odd. ␣␣␣␣Example␣2:
+
+␣␣␣␣␣␣␣␣Input:␣12
+
+␣␣␣␣␣␣␣␣Output:␣(4,␣6)
+
+␣␣␣␣␣␣␣␣Explanation:
+
+␣␣␣␣␣␣␣␣Integer␣palindrome␣are␣1,␣2,␣3,␣4,␣5,␣6,␣7,␣8,␣9,␣11.␣four␣of␣them␣are␣even,␣and␣6␣of␣them␣are␣odd.

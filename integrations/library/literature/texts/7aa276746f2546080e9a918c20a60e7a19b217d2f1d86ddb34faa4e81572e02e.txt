@@ -1,0 +1,13 @@
+MIT Press, Cambridge, MA, 2000. Srivastava et al. (2016)
+
+Shashank Srivastava, Snigdha Chaturvedi, and Tom Mitchell. Inferring interpersonal relations in narrative summaries. In Proceedings of the Thirtieth AAAI Conference on Artificial
+Intelligence, AAAI’16, pp. 2807–2813, Menlo Park, CA, 2016. Association for the Advancement of Artificial Intelligence. doi: 10.5555/3016100.3016294. URL https://dl.acm.org/doi/10.5555/3016100.3016294. Stalnaker (1978)
+
+Robert Stalnaker. Assertion. In P. Cole (ed.), Pragmatics, Syntax and Semantics 9, pp. 315--332. Brill, Leiden, 1978. Stanovsky et al. (2019)
+
+Gabriel Stanovsky, Noah A. Smith, and Luke Zettlemoyer. Evaluating gender bias in machine translation. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pp. 1679--1684, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1164. URL https://aclanthology.org/P19-1164. Steen et al. (2010)
+
+Gerard J. Steen, Aletta G. Dorst, J. Berenike Herrmann, Anna A. Kaal, Tina
+Krennmayr, and Tryntje Pasma. A Method for Linguistic Metaphor Identification: From MIP to
+MIPVU.

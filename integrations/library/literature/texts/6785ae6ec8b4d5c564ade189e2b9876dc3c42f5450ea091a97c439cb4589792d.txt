@@ -1,0 +1,19 @@
+Creswell and Shanahan (2022)
+
+A. Creswell and M. Shanahan. Faithful reasoning using large language models. arXiv preprint arXiv:2208.14271, 2022. Daw et al. (2005)
+
+N. D. Daw, Y. Niv, and P. Dayan. Uncertainty-based competition between prefrontal and dorsolateral
+striatal systems for behavioral control. Nature neuroscience, 8(12):1704–1711,
+2005. Gao et al. (2023)
+
+L. Gao, A. Madaan, S. Zhou, U. Alon, P. Liu, Y. Yang, J. Callan, and G. Neubig. Pal: Program-aided language models, 2023. Hao et al. (2023)
+
+S. Hao, Y. Gu, H. Ma, J. J. Hong, Z. Wang, D. Z. Wang, and Z. Hu. Reasoning with language model is planning with world model. arXiv preprint arXiv:2305.14992, 2023. Hart et al. (1968a)
+
+P. E. Hart, N. J. Nilsson, and B. Raphael. A formal basis for the heuristic determination of minimum cost paths. IEEE Transactions on Systems Science and Cybernetics,
+4(2):100–107, 1968a. doi: 10.1109/TSSC.1968.300136. Hart et al. (1968b)
+
+P. E. Hart, N. J. Nilsson, and B. Raphael. A formal basis for the heuristic determination of minimum cost paths. IEEE transactions on Systems Science and Cybernetics,
+4(2):100–107, 1968b. Huang et al. (2022a)
+
+W. Huang, P. Abbeel, D. Pathak, and I. Mordatch.

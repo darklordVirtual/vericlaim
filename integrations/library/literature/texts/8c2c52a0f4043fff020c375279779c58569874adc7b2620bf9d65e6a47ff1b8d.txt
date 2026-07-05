@@ -1,0 +1,13 @@
+Not having document-only
+features keeps that simple. The reason you don’t want to show a specific
+popular app everywhere has to do with the importance of
+making all the desired apps reachable. For instance, if someone searches for
+"bird watching app", they might download "angry birds", but that certainly
+wasn’t their intent. Showing such an app might improve download rate, but
+leave the user’s needs ultimately unsatisfied. Rule #36: Avoid feedback loops with positional features. The position of content dramatically affects how likely the user is to interact
+with it. If you put an app in the first position it will be clicked more often,
+and you will be convinced it is more likely to be clicked. One way to deal with
+this is to add positional features, i.e. features about the position of the
+content in the page. You train your model with positional features, and it
+learns to weight, for example, the feature "1st­position" heavily. Your model
+thus gives less weight to other factors for examples with "1st­position=true".

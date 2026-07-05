@@ -1,0 +1,20 @@
+2022. Atlas: Few-shot
+learning with retrieval augmented language models. Ji et al. (2022)
+
+Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii,
+Yejin Bang, Andrea Madotto, and Pascale Fung. 2022. Survey of hallucination in
+natural language generation. ACM Computing Surveys. Jiang et al. (2020)
+
+Zhengbao Jiang, Frank F. Xu, Jun Araki, and Graham Neubig. 2020. How can we know what
+language models know? Transactions of the Association for Computational Linguistics,
+8:423–438. Joshi et al. (2017)
+
+Mandar Joshi, Eunsol Choi, Daniel Weld, and Luke Zettlemoyer. 2017. TriviaQA: A large
+scale distantly supervised challenge dataset for reading comprehension. In Proceedings of the 55th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 1601–1611,
+Vancouver, Canada. Association for Computational Linguistics. Joulin et al. (2016)
+
+Armand Joulin, Edouard Grave, Piotr Bojanowski, Matthijs Douze, Hérve
+Jégou, and Tomas Mikolov. 2016. Fasttext. zip: Compressing text classification models. arXiv preprint arXiv:1612.03651. Keskar et al. (2019)
+
+Nitish Shirish Keskar, Bryan McCann, Lav R.

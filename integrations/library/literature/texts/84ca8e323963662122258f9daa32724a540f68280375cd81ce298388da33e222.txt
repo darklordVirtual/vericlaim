@@ -1,0 +1,32 @@
+If any of the steps through fails, the candidate task instance is discarded from consideration. With moderate variation across repositories, we observe that this step generally removes half of the candidate task instances. Repo
+Total PRs Crawled
+Post-Conversion
+Post-Validation (Final)
+
+astropy
+
+django
+
+flask
+
+matplotlib
+
+pylint
+
+pytest
+
+requests
+
+scikit-learn
+
+seaborn
+
+sphinx
+
+sympy
+
+xarray
+
+Total
+
+Table 10: Statistics for how many candidate task instances were kept after the completion of a stage across the construction and validation procedures. Examining Validation Logs. Last but not least, we check the logs and created by the validation engine for specific properties. First, to guard against arbitrary naming choices, we check for ImportError and AttributeError occurrences, which are potentially indicative of dependency naming related errors that would trivial and near-impossible to address correctly. To this end, we remove all task instances with such errors in their from consideration.

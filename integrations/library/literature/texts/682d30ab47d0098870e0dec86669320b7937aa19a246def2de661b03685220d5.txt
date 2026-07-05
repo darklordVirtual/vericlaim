@@ -1,0 +1,21 @@
+In NeurIPS, 2020. [21]
+
+Matt Fredrikson, Somesh Jha, and Thomas Ristenpart. Model inversion attacks that exploit confidence information and basic
+countermeasures. In ACM CCS, 2015. [22]
+
+Philip Gage. A new algorithm for data compression. C Users Journal, 12(2):23–38, 1994. [23]
+
+Aaron Gokaslan and Vanya Cohen. OpenWebText corpus. http://Skylion007.github.io/OpenWebTextCorpus, 2019. [24]
+
+Shafi Goldwasser, Silvio Micali, and Charles Rackoff. The knowledge complexity of interactive proof systems. SICOMP, 1989. [25]
+
+Google. Tensorflow Privacy. https://github.com/tensorflow/privacy. [26]
+
+Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv:1308.0850, 2013. [27]
+
+Peter Henderson, Koustuv Sinha, Nicolas Angelard-Gontier, Nan Rosemary Ke,
+Genevieve Fried, Ryan Lowe, and Joelle Pineau. Ethical challenges in data-driven dialogue systems. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics,
+and Society, pages 123–129, 2018. [28]
+
+Sorami Hisamoto, Matt Post, and Kevin Duh. Membership inference attacks on sequence-to-sequence models: Is my
+data in your machine translation system? In TACL, 2020.

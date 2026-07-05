@@ -1,0 +1,43 @@
+{"fsid": "arxiv_2310-11511", "n": 42, "overlap": 200, "source_sha256": "6be0d6addc774a1da090f466de353db88790c348b1732d5a717c7edc1cd75827", "target": 1200}
+{"section": "", "seq": 0, "sha256": "804e3277f1ff3b407ef082ae686b20803648d4b32caf9923390bc9031e5dfefe"}
+{"section": "Self-Rag: Self-reflective Retrieval augmented Generation", "seq": 1, "sha256": "d7f4fbb1dc2dce9f1cb309edf767e98471709b6ce12ab2f12521a9a512f0ab37"}
+{"section": "Self-rag: Learning to Retrieve, Generate, and Critique through Self-Reflection", "seq": 2, "sha256": "ee1d732b7cff17f53ba14115550d80c0124bfbe733575c11c9fb13a5b51c0e91"}
+{"section": "Self-rag: Learning to Retrieve, Generate, and Critique through Self-Reflection", "seq": 3, "sha256": "4f044dd92872ad8f925fe6d295109c7caca2fd663d124f11a1fee5f204670e6f"}
+{"section": "1 Introduction", "seq": 4, "sha256": "be2a7257f6820148c1972502de02b850b48c7a7ab57c4697ef169cae4ef946e3"}
+{"section": "1 Introduction", "seq": 5, "sha256": "516b7f11a05c9b7e4d0a031a67c727cc0528c8aa3131f2616a35f37654788a3e"}
+{"section": "1 Introduction", "seq": 6, "sha256": "b22064c525daf5fa2bfb79051cc04564a795fcd4c4bb71c3860f28f4c0581f62"}
+{"section": "1 Introduction", "seq": 7, "sha256": "dd6a4467ed3ee49f5177ca081889b08af03dc178cfa3bccf8457dd7334e7b25e"}
+{"section": "1 Introduction", "seq": 8, "sha256": "a315d953ab33f2f56b87b78ede130dbdab19d8c4c509e88e9f8728db62446bdb"}
+{"section": "2 Related Work", "seq": 9, "sha256": "f5e2f7b7eb3c2ca0cd1b3f7fac7924e78f4e91e79d678ee7e7d9477127d01ef9"}
+{"section": "2 Related Work", "seq": 10, "sha256": "7686c1296ff687bfbd5b61b72c4337f388ec6c3a9727626a4fd05f7ed73caa38"}
+{"section": "2 Related Work", "seq": 11, "sha256": "a5bd77abd6d6eb64804c959fbdd191d4aacf8d7158c5fb720efd927137ec8bdf"}
+{"section": "2 Related Work", "seq": 12, "sha256": "0bef4e20574801d5f5f906fd3aff5fb5bce1a4437035b3aab8490aee64a00ecb"}
+{"section": "2 Related Work", "seq": 13, "sha256": "9338f31bcb97b98009f2b0cde65a9a2a6eaf58d58b9ced9be06b0275b0746579"}
+{"section": "3 Self-Rag: Learning to Retrieve, Generate and Critique", "seq": 14, "sha256": "34e16658f1271919a0bef7338bd01452fecbb0eae0fd43b339f5db24a97679aa"}
+{"section": "3.1 Problem Formalization and Overview", "seq": 15, "sha256": "e70eefb8b73f5b50f303c31cf34674c59a3535a973ecc68e8453b95470c625e2"}
+{"section": "3.1 Problem Formalization and Overview", "seq": 16, "sha256": "4dfd0160a17919fed0a78e9cd1be4d11dc88abd4c9109468b4ee0ba2b17d83ec"}
+{"section": "3.1 Problem Formalization and Overview", "seq": 17, "sha256": "5825cbac9e8f8ab4e7c39fde39363c999ff0707c162cd9caefe7e764a70ffa74"}
+{"section": "3.1 Problem Formalization and Overview", "seq": 18, "sha256": "b04aae4085a4d25b7a3aa66a0dbff9d52d4207e1a6c48e6ff5b0307f52ab46c3"}
+{"section": "3.1 Problem Formalization and Overview", "seq": 19, "sha256": "6a2d41c3c69e4607ef850d770d3f0981f237568b38fd1498b7fbc9f0a77e2258"}
+{"section": "3.1 Problem Formalization and Overview", "seq": 20, "sha256": "919aa401596c791e5237c751f04d1134c696dd4356dd07ac8634db736e7cef98"}
+{"section": "3.2 Self-Rag Training", "seq": 21, "sha256": "4ece59da750a787bfec6a43fc1ca74f9422dcfe69f734adb6bc359d38517fe90"}
+{"section": "3.2 Self-Rag Training", "seq": 22, "sha256": "f57d425d9b3d34e1501f8785b35b9e5ad438da68ef700f36d5db9f93fb0b428f"}
+{"section": "3.2 Self-Rag Training", "seq": 23, "sha256": "07824e6ac10e5511fd50ea3223bad08fd8dfe56bd8c00533906f48e05e6bee02"}
+{"section": "3.2 Self-Rag Training", "seq": 24, "sha256": "e30548a8c47cc63619a118aa203506bc256a55edc6016597fd4ac3a9ccfc2014"}
+{"section": "3.2 Self-Rag Training", "seq": 25, "sha256": "023102c2121509ac4d4b20026c52f5d5b56c922d66de185a068c936dbb2250a3"}
+{"section": "3.3 Self-Rag Inference", "seq": 26, "sha256": "e562f821fe488fa2dc91bfcbd6b06818fc19116ac3417a83831781d0312b2354"}
+{"section": "3.3 Self-Rag Inference", "seq": 27, "sha256": "c9e1b1a05bed7cebe816927eed7cde086d8d2ed5cd44e81b8ed2d9e4b4ed4b12"}
+{"section": "3.3 Self-Rag Inference", "seq": 28, "sha256": "d0689d255d42b632d3d3ecbcc8e8dd22a876df83714ce67e146511010c7226be"}
+{"section": "3.3 Self-Rag Inference", "seq": 29, "sha256": "f3db4327fbe6159e447083fdc08a5d320b0a49f66a087e5acf8c4cf92eb071f8"}
+{"section": "4.1 Tasks and Datasets", "seq": 30, "sha256": "e987f59f86d41b0da4ada28d8e92b1797c0692af0b0555d4d831d476246a09bc"}
+{"section": "4.1 Tasks and Datasets", "seq": 31, "sha256": "1ee8e76237e913fda71f794fb3fa6028cd786eb53f3ddc2a762ecd9c35e24f33"}
+{"section": "4.2 Baselines", "seq": 32, "sha256": "f60aed094a45ced1ffdda17e7be134c0c9db0f4e81246252051c0eb2cd3430d8"}
+{"section": "4.2 Baselines", "seq": 33, "sha256": "101bfbadbc94ee43e3aa0062fbeefdfd82ea75b7c5ecf9b84b396676a2d291ae"}
+{"section": "4.3 Experimental settings", "seq": 34, "sha256": "37c6593029f95b1da7d57cd8a2a59a15261de4b0c8f42f4dcd4ce3a84e1d176b"}
+{"section": "4.3 Experimental settings", "seq": 35, "sha256": "9e52e223f83a899d7e9a3368677175f695f2d273608e5acc0d4dd091e154ac74"}
+{"section": "5 Results and Analysis", "seq": 36, "sha256": "a18276580ac29c7aae3a6a96a930e4476a06856d4aa53122cf09ef9f9b90bca9"}
+{"section": "5 Results and Analysis", "seq": 37, "sha256": "e1261d69af61b290b6c8de55ac5a64fdc8c422a050a68e4e9400f8da369584e3"}
+{"section": "5.1 Main Results", "seq": 38, "sha256": "cecb76f02f113dc1a0b62263f31e67760748ba333d12ff6e187b6df3788c4230"}
+{"section": "5.1 Main Results", "seq": 39, "sha256": "957ad5255c8667642e8289dcf1942f8ca79957baeded932aed1087ea658dd0b4"}
+{"section": "5.1 Main Results", "seq": 40, "sha256": "e23a28a31340224d4527553629167bc621c92703cf6304db893f1ab6957f2848"}
+{"section": "5.1 Main Results", "seq": 41, "sha256": "81c1d67ef5089071de36b14c83569eb4e842ac48b90993a5fb2e9206d443a464"}

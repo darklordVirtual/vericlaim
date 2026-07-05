@@ -1,0 +1,9 @@
+We train a softmax regression over the Adult data set with target “Race”. The model is defined by real-valued parameters. As shown in Section 4.1.2, using only queries, we extract a model from the same model class, that closely matches ( and predict the same labels on 100% of tested inputs, and produce class probabilities that differ by less than in TV distance). We also extracted the same model, assuming a multilayer perceptron target class. Even with hidden nodes (this model has parameters), and 10 more queries (), the extracted model is a weaker approximation of ( accuracy for class labels and TV distance of for class probabilities). ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

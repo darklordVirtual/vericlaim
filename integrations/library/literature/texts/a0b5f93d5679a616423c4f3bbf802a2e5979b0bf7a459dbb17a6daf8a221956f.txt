@@ -1,0 +1,29 @@
+properties entailing progress towards a specific goal or state
+
+•
+
+Concurrency and Parallelism: Correct and sound reasoning over computational interleavings (for various specification granularities). The code generation technique should be able to reason or synthesize solutions requiring properties such as:
+
+–
+
+Strong Fairness: every process that is infinitely often enabled should be executed infinitely often in a state where it is enabled
+
+–
+
+Weak Fairness: every process that is almost always enabled should be executed infinitely often
+
+–
+
+Mutual exclusion, atomicity, and synchronization
+
+–
+
+Freedom from race conditions and data races
+
+•
+
+Hyperproperties (Clarkson et al., 2014): Information-flow policies and cryptographic algorithms requiring observational determinism which requires programs to behave as (deterministic) functions from low-security inputs to low-security outputs such as:
+
+–
+
+Noninterference: when the outputs observed by low-security users are the same as they would be in the absence of inputs submitted by high-security users.

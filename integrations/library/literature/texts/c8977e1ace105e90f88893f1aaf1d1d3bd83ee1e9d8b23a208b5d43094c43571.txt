@@ -1,0 +1,12 @@
+Large language models are increasingly used to interact with external
+environments (e.g. the Internet, software, robotics, etc.) and humans. Our work has the potential of reinforcing and empowering these agents
+toward greater automation and work efficiency, but it also amplifies
+the risks when these agents were put into misuse. We believe that this
+direction of research will need more effort in safety and ethical
+considerations. On the other hand, reinforcement learning has suffered from its black-box
+policy and optimization setups in which interpretability and alignment have
+been challenging. Our proposed “verbal” reinforcement learning might
+address some of the issues and turn autonomous agents more interpretable
+and diagnosable. For example, in the case of tool-usage that may be too
+hard for humans to understand, self-reflections could be monitored to
+ensure proper intent before using the tool.

@@ -1,0 +1,14 @@
+WikiHow: A large scale text summarization dataset, 2018. URL https://arxiv.org/abs/1810.09305. Kreps et al. (2020)
+
+Sarah E. Kreps, Miles McCain, and Miles Brundage. All the news that’s fit to fabricate: AI-generated text as a tool
+of media misinformation. SSRN, 24 Sep 2020. doi: 10.2139/ssrn.3525002. URL http://dx.doi.org/10.2139/ssrn.3525002. Kreutzer et al. (2022)
+
+Julia Kreutzer, Isaac Caswell, Lisa Wang, Ahsan Wahab, Daan van Esch,
+Nasanbayar Ulzii-Orshikh, Allahsera Tapo, Nishant Subramani, Artem Sokolov,
+Claytone Sikasote, Monang Setyawan, Supheakmungkol Sarin, Sokhar Samb,
+Benoît Sagot, Clara Rivera, Annette Rios, Isabel Papadimitriou, Salomey
+Osei, Pedro Ortiz Suarez, Iroro Orife, Kelechi Ogueji, Andre Niyongabo
+Rubungo, Toan Q. Nguyen, Mathias Müller, André Müller, Shamsuddeen Hassan
+Muhammad, Nanda Muhammad, Ayanda Mnyakeni, Jamshidbek Mirzakhalov,
+Tapiwanashe Matangira, Colin Leong, Nze Lawson, Sneha Kudugunta, Yacine
+Jernite, Mathias Jenny, Orhan Firat, Bonaventure F. P.

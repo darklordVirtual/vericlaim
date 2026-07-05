@@ -1,0 +1,13 @@
+Cited by: 1st item. This Appendix for "VL-Calibration: Decoupled Verbalized Confidence for Large Vision-Language Models Reasoning" is organized as follows:
+
+•
+
+Experimental Setup and Reproducibility. In §A, we describe the experimental setup in detail, including training details (§A.1) and evaluation details (§A.2). The evaluation section further covers the adopted metrics (§A.2.1) and benchmark datasets (§A.2.2). •
+
+Prompts. In §B, we provide the complete system prompt used for VL-Calibration training and inference. •
+
+Statistical Significance Analysis. In §C, we report statistical significance analyses to verify the robustness and reliability of the observed performance improvements. •
+
+Additional Results. In §D, we present detailed quantitative results, including the complete main results (§D.1). •
+
+Additional Analyses. In §E, we provide more in-depth analyses of VL-Calibration, including visual certainty estimation (§E.1), reliability diagrams (§E.2), behavior on unanswerable visual problems (§E.3), training dynamics (§E.4), failure mode analysis (§E.5), and case study in Figure 17.

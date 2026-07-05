@@ -1,0 +1,72 @@
+stddev=0.062)
+
+100%
+
+26.2%
+
+5.9%
+
+Distorted for FC123-456-10 (av. stddev=0.059)
+
+6.25%
+
+100%
+
+5.1%
+
+Distorted for FC100-100-10’ (av. stddev=0.058)
+
+8.2%
+
+8.2%
+
+100%
+
+Gaussian noise with stddev=
+
+2.2%
+
+2.6%
+
+2.4%
+
+Distorted for FC100-100-10 amplified to stddev=
+
+100%
+
+98%
+
+43%
+
+Distorted for FC123-456-10 amplified to stddev=
+
+96%
+
+100%
+
+22%
+
+Distorted for FC100-100-10’ amplified to stddev=
+
+27%
+
+50%
+
+100%
+
+Gaussian noise with stddev=
+
+2.6%
+
+2.8%
+
+2.7%
+
+Table 4: Cross-training-set generalization error rate for the set of
+adversarial examples generated for different models. The error induced by a random distortion to the same
+examples is displayed in the last row. To study cross-training-set generalization, we have partitioned
+the 60000 MNIST training images into two parts and of size 30000
+each and trained three non-convolutional networks with sigmoid activations on them:
+Two, FC100-100-10 and FC123-456-10, on and FC100-100-10 on . The reason we trained two networks for is to study the
+cumulative effect of changing the hypermarameters and the training sets at
+the same time.

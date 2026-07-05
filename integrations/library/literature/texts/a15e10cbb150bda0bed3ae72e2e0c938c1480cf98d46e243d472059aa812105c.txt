@@ -1,0 +1,7 @@
+The two stores are coupled by a learning loop in which the judge is the teacher of two students, one per threat type (Figure 3, learning edges; the online dynamics are Figure 2):
+
+•
+
+Lexical rule distillation (cheaper over time). When the judge resolves an action whose danger is in fact a fixed signature the floor did not yet cover, that signature is distilled into a new deterministic rule. Subsequent occurrences are decided by the floor without a model call, so the judge-call rate falls as the floor’s lexical coverage grows. Distillation is applied only to lexically-novel cases; the semantic class is, by construction, not ruleifiable and stays with the judge permanently. •
+
+Semantic guarded memory (smarter over time). Corroborated semantic adjudications are written to the guarded RAG memory (§4.4), so the judge’s accuracy on the semantic class improves as the memory warms.

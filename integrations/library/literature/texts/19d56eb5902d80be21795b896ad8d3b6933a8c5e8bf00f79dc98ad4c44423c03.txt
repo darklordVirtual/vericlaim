@@ -1,0 +1,15 @@
+In order to achieve group-balanced coverage, we will
+simply run conformal prediction seperately for each
+group, as visualized below. Making this formal, given a conformal score function , we stratify the scores on the calibration set by group,
+
+(20)
+
+Then, within each group, we calculate the conformal quantile
+
+(21)
+
+Finally, we form prediction sets by first picking the relevant quantile,
+
+(22)
+
+That is, for a point that we see falls in group , we use the threshold to form the prediction set, and so on. This choice of satisfies (19), as was first documented by Vovk in [vovk2012conditional]. Proposition 1 (Error control guarantee for group-balanced conformal prediction). Suppose are an i.i.d. sample from some distribution. Then the set defined above satisfies the error control property in (19).

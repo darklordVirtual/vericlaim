@@ -1,0 +1,13 @@
+arXiv:2504.11703. •
+
+Vigil. Vigil: detect prompt injections, jailbreaks, and other risky LLM inputs (YARA signatures, transformer classifiers, and vector similarity). https://github.com/deadbits/vigil-llm
+
+•
+
+West, P., Bhagavatula, C., Hessel, J., Hwang, J. D., Jiang, L., Le Bras, R., Lu, X., Welleck, S., and Choi, Y. (2021). Symbolic Knowledge Distillation: from General Language Models to Commonsense Models. NAACL 2022. arXiv:2110.07178. •
+
+Yang, C. (2026). AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use. arXiv:2605.04785. (v1 of this system.)
+
+•
+
+Zheng, L., Chiang, W., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z., Li, D., Xing, E. P., Zhang, H., Gonzalez, J. E., and Stoica, I. (2023). Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. NeurIPS 2023. arXiv:2306.05685.

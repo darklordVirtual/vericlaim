@@ -1,0 +1,8 @@
+For comparison, the RBF network can predict softmax regression’s
+class 53.6% of the time, so it does have a strong linear component to its own behavior. Our hypothesis does not explain all of the maxout network’s mistakes or all of the mistakes
+that generalize across models, but clearly a significant proportion of them are consistent
+with linear behavior being a major cause of cross-model generalization. Figure 4:
+By tracing out different values of , we can see that adversarial examples occur reliably
+for almost any sufficiently large value of provided that we move in
+the correct direction. Correct classifications occur only on a thin manifold where occurs in the data. Most of consists of adversarial examples and rubbish class examples (see the appendix). This plot was made from a naively trained maxout network. Left) A plot showing the argument to the softmax layer for each of the 10 MNIST classes as we vary on a single input example. The correct class is 4. We see that the unnormalized log probabilities for each class are conspicuously piecewise linear with and that
+the wrong classifications are stable across a wide region of values.

@@ -1,0 +1,19 @@
+Regularizing neural networks by penalizing confident output
+distributions. arXiv preprint arXiv:1701.06548, 2017. Platt et al. (1999)
+
+Platt, John et al. Probabilistic outputs for support vector machines and comparisons to
+regularized likelihood methods. Advances in large margin classifiers, 10(3):61–74, 1999. Simonyan & Zisserman (2015)
+
+Simonyan, Karen and Zisserman, Andrew. Very deep convolutional networks for large-scale image recognition. In ICLR, 2015. Socher et al. (2013)
+
+Socher, Richard, Perelygin, Alex, Wu, Jean, Chuang, Jason, Manning,
+Christopher D., Ng, Andrew, and Potts, Christopher. Recursive deep models for semantic compositionality over a sentiment
+treebank. In EMNLP, pp. 1631–1642, 2013. Srivastava et al. (2014)
+
+Srivastava, Nitish, Hinton, Geoffrey, Krizhevsky, Alex, Sutskever, Ilya, and
+Salakhutdinov, Ruslan. Dropout: A simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15:1929–1958,
+2014. Srivastava et al. (2015)
+
+Srivastava, Rupesh Kumar, Greff, Klaus, and Schmidhuber, Jürgen. Highway networks. arXiv preprint arXiv:1505.00387, 2015. Tai et al. (2015)
+
+Tai, Kai Sheng, Socher, Richard, and Manning, Christopher D.

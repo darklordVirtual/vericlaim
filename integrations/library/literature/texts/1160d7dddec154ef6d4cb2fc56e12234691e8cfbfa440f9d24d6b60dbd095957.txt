@@ -1,0 +1,12 @@
+Model performance on tasks exhibits a variety of behaviors across model scales. In this section we define metrics that we use to automatically categorize these behaviors along different axes. •
+
+Linearity measures the extent to which performance improves reliably with scale. •
+
+Breakthroughness measures to what extent a model is able to learn a task only once the model grows beyond a critical scale. Each metric is a function of a model’s performances at model scales , sorted by model scale so that . They are defined by
+
+(1)
+
+(2)
+
+where is a simple measure of the overall improvement in performance,
+, and . The choice of median for breakthroughness results in a preference for scaling behaviors where the metric remains flat across several scales before beginning to improve. These metrics are designed to capture performance improvement signals beyond the noise fluctuation of the denominator. Note that the main difference between the two metrics is the use of "median" () vs "mean" () in the denominator. Because of the use of median, we believe breakthroughness are less susceptible to outliers.

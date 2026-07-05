@@ -1,0 +1,20 @@
+(not save_as or add) and can_save
+
+- ),
+
++ ’show_save_and_add_another’: can_save_and_add_another,
+
+’show_save_and_continue’: can_save_and_continue,
+
+’show_save’: show_save and can_save,
+
+Discussion. For this task instance that comes from the django/django repository, the model is asked to introduce a context variable that would allow a user to hide the “Save and Add Another” button via a context variable, similar to how it is done for two other existing buttons. The task is a bit more difficult compared to the prior two settings because no explicit stack trace or programmatic demonstration of the issue is offered. In this relatively under-specified setting that does not provide suggestion with regards to localizing the function correctly, the model successfully reasons that it should adjust the existing
+
+show_save_and_add_another
+key/value pair. When comparing the gold patch solution, it can be argued that the model generated patch produces a much more efficient solution in terms of lines edited, as it makes the smallest edit necessary to incorporate
+
+context
+as a flag for setting the
+
+show_save_and_add_another
+hidden status.

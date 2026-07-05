@@ -1,0 +1,40 @@
+Vitek and T Kalibera
+
+“Repeatability, reproducibility and rigor in systems research”
+
+In 2011 Proceedings of the Ninth ACM International Conference on Embedded Software (EMSOFT), 2011, pp. 33–38
+
+DOI: 10.1145/2038642.2038650
+
+[124]
+T Hoefler and R Belli
+
+“Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results”
+
+In SC ’15: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2015, pp. 1–12
+
+DOI: 10.1145/2807591.2807644
+
+[125]
+Steve Lohr
+
+“At Tech’s Leading Edge, Worry About a Concentration of Power”
+
+In The New York Times, 2019
+
+URL: https://www.nytimes.com/2019/09/26/technology/ai-computer-expense.html
+
+[126]
+Martijn Rasser et al. “The American AI Century: A Blueprint for Action”, 2019
+
+URL: https://www.cnas.org/publications/reports/the-american-ai-century-a-blueprint-for-action
+
+[127]
+John Etchemendy and Fei-Fei Li
+
+“National Research Cloud: Ensuring the Continuation of American Innovation”, 2020
+
+URL: https://hai.stanford.edu/news/national-research-cloud-ensuring-continuation-american-innovation
+
+[128]
+Susanne Barth and Menno D.T.

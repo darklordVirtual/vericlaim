@@ -1,0 +1,54 @@
+https://cacm.acm.org/blogs/blog-cacm/234723-governance-and-oversight-coming-to-ai-and-automation-independent-audit-of-ai-systems/fulltext
+
+[40]
+Jesse Hempel
+
+“Want to Prove Your Business is Fair? Audit Your Algorithm”
+
+In Wired, 2018
+
+URL: https://www.wired.com/story/want-to-prove-your-business-is-fair-audit-your-algorithm
+
+[41]
+Oren Etzioni and Michael Li
+
+“Want to Prove Your Business is Fair? Audit Your Algorithm”
+
+In Wired, 2019
+
+URL: https://www.wired.com/story/ai-needs-to-be-audited
+
+[42]
+Jack Clark and Gillian K. Hadfield
+
+“Regulatory Markets for AI Safety”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/2001.00078
+
+[43]
+Andrew Marshall, Jugal Parikh, Emre Kiciman and Ram Shankar Siva Kumar
+
+“Threat Modeling AI/ML Systems and Dependencies”, 2019
+
+URL: https://docs.microsoft.com/en-us/security/threat-modeling-aiml
+
+[44]
+Ariel Herbert-Voss
+
+“Dont Red Team AI Like a Chump”
+
+In DEFCON 27 Conference, 2019
+
+URL: https://www.youtube.com/watch?v=ivlc1yPw76A
+
+[45]
+Hackerone
+
+“The Hacker-Powered Security Report 2017”, 2017
+
+URL: https://www.hackerone.com/sites/default/files/2017-06/The%20Hacker-Powered%20Security%20Report.pdf
+
+[46]
+J..

@@ -1,0 +1,6 @@
+Essentially, BBQ marginalizes out all possible binning schemes to produce . More formally, a binning scheme is a pair where is the number of bins, and is a corresponding partitioning of into disjoint intervals (). The parameters of a binning scheme are . Under this framework, histogram binning and isotonic regression both produce a single binning scheme, whereas BBQ considers a space of all possible binning schemes for the validation dataset . BBQ performs Bayesian averaging of the probabilities produced by each scheme:222
+Because the validation dataset is finite, is as well. where is the calibrated probability using binning scheme . Using a uniform prior, the weight can be derived using Bayes’ rule:
+
+The parameters can be viewed as parameters of independent binomial distributions. Hence, by placing a Beta prior on , we can obtain a closed form expression for the marginal likelihood . This allows us to compute for any test input. Platt scaling
+
+(Platt et al., 1999) is a parametric approach to calibration, unlike the other approaches.

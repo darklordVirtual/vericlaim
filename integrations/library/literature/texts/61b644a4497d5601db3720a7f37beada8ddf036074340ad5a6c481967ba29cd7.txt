@@ -1,0 +1,12 @@
+My inclination would be to
+avoid this if at all possible, if you can't then treat the
+DTO as an hidden data holder
+for the event and still treat the event as a regular polymorphic
+object. In this case it's worth doing something moderately
+clever to match the serialized event DTOs to the actual events
+using configuration files or (better) naming conventions. If there's no need to reverse events, then then it's easy to
+make a Domain Model ignorant of the event
+log. Reversing logic makes this more tricky since the
+Domain Model needs to store and retrieve the
+prior state, which makes it much more handy for the
+Domain Model to be aware of the event log.

@@ -1,0 +1,32 @@
+The example is legitimate but insecure—concatenating untrusted input directly into SQL, which opens the door to injection attacks. Defense Workflow
+
+Agent Step
+
+Attacker’s Action
+
+LlamaFirewall Logic
+
+Scrapes example SQL
+
+Finds unsafe pattern involving string concatenation
+
+No prompt injection → PromptGuard is not triggered
+→ Text enters agent context
+
+Synthesizes SQL query
+
+Agent emits raw SQL using user input
+
+CodeShield statically analyzes the code diff
+→ IF CodeShield detects SQL injection risk, the patch is rejected
+
+Refines output and retries
+
+Agent modifies code to pass review
+
+CodeShield re-analyzes each new version
+→ IF and only if secure coding practices are adopted (e.g., parameterized queries), PR is accepted
+
+Outcome
+
+Even though the input was benign, CodeShield ensures no insecurely constructed SQL query code can be committed. The agent is allowed to iterate freely—but unsafe code never lands.

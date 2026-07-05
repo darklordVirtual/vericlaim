@@ -1,0 +1,21 @@
+randomized function
+, it cannot depend on : conditioned on , is
+independent of , and so any dependency of on would
+create a statistical dependency on (still conditioned on
+) which is not allowed. We can verify that
+which is monotone in , and so for any loss
+function we would just want to threshold and any function
+monotone in would make an optimal equalized odds predictor. To obtain the optimal unconstrained score consider
+
+That is, optimal classification only depends on
+and so is optimal. Turning to scenario II, since is monotone in , any
+monotone function of it is optimal (unconstrained), and the dependency
+structure implies its optimal even if we allow dependence on . Furthermore, the conditional distribution
+matched that of from scenario I since again we have
+by construction. Since we
+defined , we have that the conditionals match. We
+can also verify that by construction matches in
+scenario I. Since in scenario I, is optimal even dependent on
+, we have that is independent of conditioned on , as
+in scenario II when we condition on . This establishes the
+joint distribution over is the same in both scenarios.

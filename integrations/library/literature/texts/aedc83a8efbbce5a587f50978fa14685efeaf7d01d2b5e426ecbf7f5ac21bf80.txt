@@ -1,0 +1,7 @@
+Conformal prediction can be thought of as controlling the expectation of an indicator loss function. Recall that the risk upper bound (2) specializes to the conformal coverage guarantee in (1) when the loss function is the indicator of a miscoverage event. The conformal risk control procedure specializes to conformal prediction under this loss function as well. However, the risk lower bound in Theorem 2.2 has a slightly worse constant than the usual conformal guarantee. We now describe these correspondences. First, we show the equivalence of the algorithms. In conformal prediction, we have conformal scores for some score function . Based on this score function, we create prediction sets for the test point as
+
+where is the conformal quantile, a parameter that is set based on the calibration data. In particular, conformal prediction chooses to be the sample quantile of . To formulate this in the language of risk control, we consider a miscoverage loss . Direct calculation of from (4) then shows the equivalence of the proposed procedure to conformal prediction:
+
+(13)
+
+Next, we discuss how the risk lower bound relates to its conformal prediction equivalent.

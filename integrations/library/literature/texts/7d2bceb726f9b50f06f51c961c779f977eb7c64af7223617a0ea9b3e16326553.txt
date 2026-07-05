@@ -1,0 +1,15 @@
+We evaluate the baseline and Reflexion approaches on Python and Rust code
+writing on MBPP (Austin et al.,, 2021), HumanEval (Chen et al.,, 2021),
+and LeetcodeHardGym, our new dataset. MBPP and HumanEval measure function body
+generation accuracy given natural language
+descriptions. We use a benchmark language compiler, MultiPL-E (Cassano et al.,, 2022),
+to translate subsets of HumanEval and MBPP to the Rust language. MultiPL-E
+is a collection of small compilers that can be used to translate Python
+benchmark questions to 18 other languages. We include experiments for Rust
+code generation to demonstrate that Reflexion implementations for code
+generation are language-agnostic and can be used for interpreted and compiled
+languages. Lastly, we introduce
+a new benchmark, LeetcodeHardGym, which is an interactive programming gym
+that contains 40 Leetcode hard-rated questions that have been released after
+October 8, 2022, which is the pre-training cutoff date of GPT-4 (OpenAI,, 2023). The task of programming presents a unique opportunity to use more grounded
+self-evaluation practices such as self-generated unit test suites.

@@ -1,0 +1,17 @@
+find a feasible
+point such that
+
+To see this, assume without loss of generality that the first coordinate of
+is greater than the first coordinate of and that all points
+lie
+above the main diagonal. By definition of we know that the
+entire line segment from to is contained in Similarly, the entire line segment between and is
+contained in Now, take By construction,
+defines a classifier derived from
+and Moreover,
+
+Finally, by assumption on the loss function,
+there is a vector with such that and Applying
+Cauchy-Schwarz,
+
+This completes the proof. ∎

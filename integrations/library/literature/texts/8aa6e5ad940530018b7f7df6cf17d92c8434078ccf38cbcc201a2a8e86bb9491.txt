@@ -1,0 +1,180 @@
+Table 5: Descriptions for the categories of memorized text. Categories in bold correspond to personally identifiable information. Category
+Count
+
+US and international news
+
+88
+
+Forum or Wiki entry
+
+34
+
+License, terms of use, copyright notice
+
+28
+
+Named individuals
+
+25
+
+Promotional content
+
+18
+
+Lists of named items
+
+15
+
+Contact info
+
+20
+
+Donald Trump tweets and quotes
+
+12
+
+Pseudonyms
+
+7
+
+Valid URLs
+
+7
+
+Sports news
+
+6
+
+Movie synopsis or cast
+
+6
+
+(a) Top- (191 samples)
+
+Category
+Count
+
+Log files and error reports
+
+86
+
+Lists of named items
+
+53
+
+Valid URLs
+
+40
+
+License, terms of use, copyright notice
+
+36
+
+High entropy
+
+33
+
+Configuration files
+
+32
+
+Code
+
+29
+
+Named individuals
+
+18
+
+Promotional content
+
+14
+
+Contact info
+
+12
+
+Pseudonyms
+
+11
+
+Forum or Wiki entry
+
+9
+
+US and international news
+
+7
+
+Tech news
+
+7
+
+Pornography
+
+5
+
+Web forms
+
+5
+
+Lists of numbers
+
+5
+
+(b) Internet (273 samples)
+
+Category
+Count
+
+US and international news
+
+31
+
+Religious texts
+
+28
+
+License, terms of use, copyright notice
+
+24
+
+Promotional content
+
+20
+
+Forum or Wiki entry
+
+17
+
+Named individuals
+
+12
+
+Lists of named items
+
+12
+
+Valid URLs
+
+12
+
+Tech news
+
+8
+
+Contact info
+
+8
+
+High entropy
+
+6
+
+Lists of numbers
+
+6
+
+(c) Temperature (140 samples)
+
+Table 6: Memorized content found in samples produced by each of the our three text generation strategies.

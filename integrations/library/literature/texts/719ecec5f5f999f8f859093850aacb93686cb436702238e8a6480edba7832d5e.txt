@@ -1,0 +1,37 @@
+bool) or sharey == 1 or sharey == 0:
+
+sharey = "all" if sharey else "none"
+
+# This check was added because it is very easy to type
+
+# ‘subplots(1, 2, 1)‘ when ‘subplot(1, 2, 1)‘ was intended. Gold Patch
+⬇
+diff --git a/lib/matplotlib/gridspec.py b/lib/matplotlib/gridspec.py
+
+--- a/lib/matplotlib/gridspec.py
+
++++ b/lib/matplotlib/gridspec.py
+
+@@ -276,21 +276,12 @@ def subplots(self, *, sharex=False, sharey=False, squeeze=True,
+
+- if isinstance(sharex, bool):
+
++ if not isinstance(sharex, str):
+
+sharex = "all" if sharex else "none"
+
+- if isinstance(sharey, bool):
+
++ if not isinstance(sharey, str):
+
+sharey = "all" if sharey else "none"
+
+- # This check was added because it is very easy to type
+
+- # ‘subplots(1, 2, 1)‘ when ‘subplot(1, 2, 1)‘ was intended. - # In most cases, no error will ever occur, but mysterious behavior
+
+- # will result because what was intended to be the subplot index is
+
+- # instead treated as a bool for sharex. This check should go away
+
+- # once sharex becomes kwonly.

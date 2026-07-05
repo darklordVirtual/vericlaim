@@ -1,0 +1,16 @@
+We refined the questions and workflow provided in the next
+section over a period of roughly two years,
+incorporating many rounds of feedback. First, leveraging our own experiences as researchers with diverse
+backgrounds working in different domains and institutions, we drew on
+our knowledge of dataset characteristics, unintentional misuse,
+unwanted societal biases, and other issues to produce an initial set
+of questions designed to elicit information about these topics. We
+then “tested” these questions by creating example datasheets for two
+widely used datasets: Labeled Faces in the Wild (Huang
+et al., 2007) and Pang
+and Lee’s polarity dataset (Pang and Lee, 2004). We chose these
+datasets in large part because their creators provided exemplary
+documentation, allowing us to easily find the answers to many of the
+questions. While creating these example datasheets,
+we found gaps in the questions, as well as redundancies
+and lack of clarity.

@@ -1,0 +1,57 @@
+{"fsid": "arxiv_2305-10601", "n": 56, "overlap": 200, "source_sha256": "a52e6a9df69a5920242fdbea434a7a8c2f687516ea7a0cac978835b4d9bba8e3", "target": 1200}
+{"section": "", "seq": 0, "sha256": "cf9e7a742870396500c16fd77679d4710d579ac36b9dacd3beb017b846fbefee"}
+{"section": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models", "seq": 1, "sha256": "70364de551cb89b055f4d14632942676115c497b8d3b8b4b977ccb698b4b8d32"}
+{"section": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models", "seq": 2, "sha256": "ea6cee6f596e66c885273a4ea650fd8acd99969f17374ebca343cce68df89c6e"}
+{"section": "1 Introduction", "seq": 3, "sha256": "84fbb2574f40bec865d81dac6e6b275f01970b44ba8d1731bea1db2a64c524e2"}
+{"section": "1 Introduction", "seq": 4, "sha256": "787ab0a04a0cf65262dd7be87364dfc80117da99b50dc98a0f94a6a8e040e335"}
+{"section": "1 Introduction", "seq": 5, "sha256": "60b7557692582ef163be1b6223930aa8938ff4b8695fe2f36167b956130ec21d"}
+{"section": "1 Introduction", "seq": 6, "sha256": "1d48239dd63a22ea05b3c33ff26e239a938d0e95c6f5b909f01f50465ec261be"}
+{"section": "1 Introduction", "seq": 7, "sha256": "ae4155c0a1b4342a702463586c826da0255bdeb146ddb965875aa2d5aca28321"}
+{"section": "2 Background", "seq": 8, "sha256": "7884e4dd316577721223c4e9aeccb9c4b8c6bb09aee62bbbc9fd0698f0245013"}
+{"section": "2 Background", "seq": 9, "sha256": "3ac17665f2c25e32f98992ba2ebb35d066cffe2e58156749651772b4602bd2d2"}
+{"section": "3 Tree of Thoughts: Deliberate Problem Solving with LM", "seq": 10, "sha256": "df92ce234cac22b33706c69175e705905514107125dd70ac3811e13173d80729"}
+{"section": "3 Tree of Thoughts: Deliberate Problem Solving with LM", "seq": 11, "sha256": "acab45173ca23f6d99978ad005bf5f69e2a17036a06a9b1228017b271362e06e"}
+{"section": "3 Tree of Thoughts: Deliberate Problem Solving with LM", "seq": 12, "sha256": "26d6b050f01b925367a7af0d2cc8ef36e43e18b710d212c06f22c2b4f78088b2"}
+{"section": "3 Tree of Thoughts: Deliberate Problem Solving with LM", "seq": 13, "sha256": "b151306e1ee9daf23a07cc9691532b2f3bad63c9fdd6fbaa36d7ba3091042be8"}
+{"section": "3 Tree of Thoughts: Deliberate Problem Solving with LM", "seq": 14, "sha256": "463d62ec385b2327d0087433bd00726c53933f2f71ea4211302f6cc2819c15db"}
+{"section": "3 Tree of Thoughts: Deliberate Problem Solving with LM", "seq": 15, "sha256": "8759d7d4abbc8c17e6d5bf0733fd6a3a260e4e9e84dbe39144952b96643456ad"}
+{"section": "3 Tree of Thoughts: Deliberate Problem Solving with LM", "seq": 16, "sha256": "364659e968156d6df45e9b4c6e1f0b47c98d78313ad0316c42b2bebf1b19b18a"}
+{"section": "3 Tree of Thoughts: Deliberate Problem Solving with LM", "seq": 17, "sha256": "9bd943ff2322cd287dc5cb35173227fa6f55fe64cd9a750160ed645ebc732cba"}
+{"section": "4 Experiments", "seq": 18, "sha256": "cbb7a25d970c38fa59902eb9c5784a8e9426194d5495552a6b3549712fa66ccd"}
+{"section": "4.1 Game of 24", "seq": 19, "sha256": "344e137cbe31441d6948d9b0451b8c1498b80f7a5a5a36b14c32b87165370aa8"}
+{"section": "4.1 Game of 24", "seq": 20, "sha256": "4954f8ce357ddcba8f037cf70b241262ddae3f8d9896a1cd08a041bcb297af28"}
+{"section": "4.1 Game of 24", "seq": 21, "sha256": "ef9b084524f9b39c29b23c88dd1d22ad08c800297f77b037915ec8e5229232aa"}
+{"section": "4.1 Game of 24", "seq": 22, "sha256": "fc51c56a4a3a4aaf49d8a5bb193dc1ddffda894d12e705f555d0f45d2140219a"}
+{"section": "4.2 Creative writing", "seq": 23, "sha256": "644ed4e259278c600bafbfee738a7d199c1e8363e5be5b4faccce670b29e91f5"}
+{"section": "4.2 Creative writing", "seq": 24, "sha256": "452819a9fa25f237e714a3fb3f6259de594cc59c93d09995693c2cdf6243ee7f"}
+{"section": "4.2 Creative writing", "seq": 25, "sha256": "2cdfce00822f110cef4a54d086fc74e03f3c4d7b33bf57d1e931fbb5fec9f951"}
+{"section": "4.2 Creative writing", "seq": 26, "sha256": "efa0082b6f5c0f320afea5ed839ec67f5fd6f66e6812e5afbb9e867c047fb6e2"}
+{"section": "4.3 Mini crosswords", "seq": 27, "sha256": "4cbdb7b478539d9955061d59d053274d57ca0d25947d05f384ed63b36ba11a8f"}
+{"section": "4.3 Mini crosswords", "seq": 28, "sha256": "f585dae9721216c238d7d383a15e383e888778f1863f4f6afff1e98af50c8345"}
+{"section": "4.3 Mini crosswords", "seq": 29, "sha256": "2329409bf6e0de80b7e2a8a12fc13c55191a2b49791dd1657a1f760108b80106"}
+{"section": "4.3 Mini crosswords", "seq": 30, "sha256": "2eb96f28e9154af269a54963a4de515b10a1266d83e8c3ca941027b536fe8987"}
+{"section": "4.3 Mini crosswords", "seq": 31, "sha256": "e06a80bbdce5f9e19fb43eb8524b45482126fc2287015101d08cdeebb41ac691"}
+{"section": "5 Related Work", "seq": 32, "sha256": "eac4c5ee6bc8380500b475f413775eab8b54d650b5ade19c247806d838358710"}
+{"section": "5 Related Work", "seq": 33, "sha256": "4c0177b49b866f7b544e35553892288deca1a5a64bc88fcc42b586159f7732a8"}
+{"section": "5 Related Work", "seq": 34, "sha256": "a3faebe57bed7b7ab4b7a29c24497d14ee2f9b0574eaac3c8e1df098fad131b0"}
+{"section": "5 Related Work", "seq": 35, "sha256": "af515361f4c15ca93b97dc45dda6f96e6578ba4fcbebedd41b6acebcb4409eab"}
+{"section": "5 Related Work", "seq": 36, "sha256": "c65661c0efd1c2c8728d022f7dc371ea2af6b135639f98c9a0d12b567a013635"}
+{"section": "6 Discussion", "seq": 37, "sha256": "e9466d9adbf6e119f6ddc238e32013ee09cf45679d93b4851453d58ad591b820"}
+{"section": "6 Discussion", "seq": 38, "sha256": "2d9c3f5461b3f7b54bc462c60594c7ac1666ed1244a95ec87565324ab2fb448f"}
+{"section": "Broader Impact", "seq": 39, "sha256": "d97802800427b88592cd241e3a22b5dc9ed62b855249f66afd0ee5c2f10f002f"}
+{"section": "Acknowledgements", "seq": 40, "sha256": "f5ff930e5dbab2a0474de71438eba0068e4547b50647f32e1c98f55a9b89f490"}
+{"section": "References", "seq": 41, "sha256": "07343f051ef70be823f5d60e29d1fe4ddd0014d9bd2acfcc175395818597b43c"}
+{"section": "References", "seq": 42, "sha256": "6785ae6ec8b4d5c564ade189e2b9876dc3c42f5450ea091a97c439cb4589792d"}
+{"section": "References", "seq": 43, "sha256": "bd9b684edc2141a1fb80b22bf41fe8702ec6ca568392feaeea5b2be2dbc66f71"}
+{"section": "References", "seq": 44, "sha256": "dfbb95d8a51dd5092fa47359afbb57b36598f64d2121ffd01b920705630d3b15"}
+{"section": "References", "seq": 45, "sha256": "7aa3ea58fcaecd0b5c5a8a4f91caf92c3ca623366a101cd9cbe5fe16be2427e9"}
+{"section": "References", "seq": 46, "sha256": "fbfcf6c976df41f608786be6c5c7974a477dd23ff1ce17d9b75aa42932d9f9c3"}
+{"section": "References", "seq": 47, "sha256": "3eea5e530302ecb1d58141890c34471299585a147e47e839e4e3852b42c0274c"}
+{"section": "References", "seq": 48, "sha256": "df53d3ba7b9fdba12a00118b7e563e5a253c936b97e1709d5a62cf3f4554e9a9"}
+{"section": "Appendix A Code, Prompts, Trajectories", "seq": 49, "sha256": "35f4b9756064476f8cb7f252bc80e15e4f733d3ad5a58bc0fc838ff048777a09"}
+{"section": "Appendix B Additional Experiment Results", "seq": 50, "sha256": "a27a5a94ad4594a60c7378f6d8c8debdad1b31c9187defad9ca5c93529c3fcd0"}
+{"section": "B.1 Extension to new tasks (GSM8k, StrategyQA) with zero-shot ToT", "seq": 51, "sha256": "68a05c500dc8aeb15116e5a0a9726491a9a7ce0459b14161a44b92cf85b5c4ed"}
+{"section": "B.1 Extension to new tasks (GSM8k, StrategyQA) with zero-shot ToT", "seq": 52, "sha256": "fb37c759de88d9c441a55ac8eae6633b955b208aaef498028f064ba248592bfb"}
+{"section": "B.2 Extension to new LMs (GPT-3.5)", "seq": 53, "sha256": "8affe3b518b2fb01e8f9012429b6d20da2ce47f9a27cc375a3a262838aef776e"}
+{"section": "B.3 Cost and efficiency", "seq": 54, "sha256": "f09fcb20d433cce0f7e40bc443f53d65fe4cb0eabeea0869fefbdad66b2de2c3"}
+{"section": "B.3 Cost and efficiency", "seq": 55, "sha256": "614dbaa13edb0294156d3892e971c96863be000151bd80cecab7aedf2f61e3ae"}

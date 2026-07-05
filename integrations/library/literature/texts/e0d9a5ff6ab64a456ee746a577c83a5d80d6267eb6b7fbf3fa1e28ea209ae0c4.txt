@@ -1,0 +1,7 @@
+Performing membership inference by filtering out samples with low likelihood has poor precision due to failures in the underlying language model: there are many samples that are assigned spuriously high likelihood. There are predominantly two categories of such samples:
+
+•
+
+Trivial memorization. We identify many cases where GPT-2 outputs content that is uninteresting because of how common the text is. For example, it repeats the numbers from 1 to 100 with high probability. •
+
+Repeated substrings. One common failure mode of LMs is their propensity to repeatedly emit the same string over and over [37, 30]. We found many of the high-likelihood samples that are not memorized are indeed repeated texts (e.g., “I love you. I love you…”). Our insight is that we can filter out these uninteresting (yet still high-likelihood samples) by comparing to a second LM. Given a second model that accurately captures text likelihood, we should expect it will also assign high likelihood to these forms of memorized content.

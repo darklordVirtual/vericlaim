@@ -1,0 +1,11 @@
+atazarv)@uci.edu; Moin Aminnaseri, Facebook (moin.aminnaseri@gmail.com); Arash Gholamidavoodi (agholamidavoodi@gmail.com); and Daniel Khashabi, Allen Institute for AI (danielk@allenai.org). Task cites: (Khashabi et al., 2020a)
+
+parsinlu_reading_comprehension: Mozhdeh Gheini and Sarik Ghazarian, University of Southern California (gheini, sarikgha)@usc.edu; Sepideh Sadeghi, Google (ssepideh@google.com); Yadollah Yaghoobzadeh, University of Tehran (y.yaghoobzadeh@ut.ac.ir); Daniel Khashabi, Allen Institute for AI (danielk@allenai.org); and Siamak Shakeri, Google Research (siamaks@google.com). Task cites: (Khashabi et al., 2020a; Xue et al., 2021b; Rajpurkar et al., 2016)
+
+penguins_in_a_table: Jos Rozen, Naver Labs Europe (jos.rozen@naverlabs.com). Task cites: (Herzig et al., 2020)
+
+periodic_elements: Luke Metz, Google Research, Brain Team (lmetz@google.com)
+
+persian_idioms: Fatemeh Siar, Amirkabir University Of Technology (Fatemeh.siar@gmail.com)
+
+phrase_relatedness: Luis Oliveros Colón (luis.oliveros.colon@gmail.com); Shima Asaadi, Fraunhofer IIS (shima.asaadi@gmail.com); Saif M.

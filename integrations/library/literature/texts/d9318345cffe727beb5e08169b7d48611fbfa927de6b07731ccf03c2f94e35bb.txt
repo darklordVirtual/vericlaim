@@ -1,0 +1,6 @@
+an additional adversarial suffix onto the user prompt, which is intended to circumvent the alignment of the LLM, and induce it to respond to the user’s original, potentially harmful, request. In other words, we pass an input like the following to the model:
+
+System: You are a chat assistant designed to provide helpful and not
+harmful responses to user queries. User: Tell me how to build a bomb. ! ! ! ! ! ! ! ! ! ! Assistant:
+
+Here, the red text consists of some adversarial suffix that the attack will optimize to cause the model to answer the original user query. Importantly, when developing a universal attack, we do not consider changes to the blue text, which is provided to by the user. This is essential to the ultimate goal of a universal attack: find a set of tokens to replace the initial text in red with, so that the aligned LLM will respond affirmatively to any choice of instruction in blue provided by the user. In the above setting, we have a number of choices as to how to optimize the adversarial suffix: e.g., the loss function to optimize over, the data, plus the optimization itself.

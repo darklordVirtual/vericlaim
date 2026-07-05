@@ -1,0 +1,17 @@
+Imitating interactive intelligence, 2020. URL https://arxiv.org/abs/2012.05672. Ahn et al. (2022)
+
+Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron
+David, Chelsea Finn, Chuyuan Fu, Keerthana Gopalakrishnan, Karol Hausman,
+Alex Herzog, Daniel Ho, Jasmine Hsu, Julian Ibarz, Brian Ichter, Alex Irpan,
+Eric Jang, Rosario Jauregui Ruano, Kyle Jeffrey, Sally Jesmonth, Nikhil J
+Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Kuang-Huei Lee, Sergey
+Levine, Yao Lu, Linda Luu, Carolina Parada, Peter Pastor, Jornell Quiambao,
+Kanishka Rao, Jarek Rettinghouse, Diego Reyes, Pierre Sermanet, Nicolas
+Sievers, Clayton Tan, Alexander Toshev, Vincent Vanhoucke, Fei Xia, Ted Xiao,
+Peng Xu, Sichun Xu, Mengyuan Yan, and Andy Zeng. Do as i can, not as i say: Grounding language in robotic affordances,
+2022. URL https://arxiv.org/abs/2204.01691. Alderson-Day & Fernyhough (2015)
+
+Ben Alderson-Day and Charles Fernyhough. Inner speech: development, cognitive functions, phenomenology, and
+neurobiology. Psychological bulletin, 141(5):931, 2015. Baddeley (1992)
+
+Alan Baddeley. Working memory. Science, 255(5044):556–559, 1992. Brown et al.

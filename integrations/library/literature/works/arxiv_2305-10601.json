@@ -10,6 +10,12 @@
     "Yuan Cao",
     "Karthik Narasimhan"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:10.933166+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2305.10601"
+  },
+  "fulltext_sha256": "a52e6a9df69a5920242fdbea434a7a8c2f687516ea7a0cac978835b4d9bba8e3",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "tree-of-thoughts-2023",

@@ -1,0 +1,49 @@
+plots compare the distribution of perplexities of GPT-2 to other measure of sample likelihood: zlib entropy, perplexity under GPT-2 Small and GPT-2 Medium, and perplexity of lower-cased samples. Each plot highlights the 100 samples we selected for manual inspection (red) and the subset that was confirmed as memorized (blue). Category
+
+Count
+
+Description
+
+US and international news
+
+109
+
+General news articles or headlines, mostly about US politics
+
+Log files and error reports
+
+79
+
+Logs produced by software or hardware
+
+License, terms of use, copyright notices
+
+54
+
+Software licenses or website terms of use, copyright for code, books, etc. Lists of named items
+
+54
+
+Ordered lists, typically alphabetically, of games, books, countries, etc. Forum or Wiki entry
+
+53
+
+User posts on online forums or entries in specific wikis
+
+Valid URLs
+
+50
+
+A URL that resolves to a live page
+
+Named individuals
+
+46
+
+Samples that contain names of real individuals. We limit this category to non-news samples. E.g., we do not count names of politicians or journalists within news articles
+
+Promotional content
+
+45
+
+Descriptions of products, subscriptions, newsletters, etc.

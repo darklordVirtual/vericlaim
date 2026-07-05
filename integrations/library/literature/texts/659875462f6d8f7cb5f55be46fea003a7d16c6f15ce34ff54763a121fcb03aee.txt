@@ -1,0 +1,8 @@
+The third component of PROV-DM, depicted in Figure 7, is concerned with agents and the relations WasAttributedTo
+(Attribution), WasAssociatedWith (Association), and ActedOnBehalfOf (Delegation), relating agents to entities, activities, and agents, respectively. Core structures are displayed in the yellow area and include three classes and three binary associations. Outside the yellow area, extended structures comprise UML association classes to express expanded n-ary relations, and subclasses Plan, Person, SoftwareAgent, and Organization. The subclasses are marked by the UML stereotype "prov:type" to indicate that that these are valid values for the attribute prov:type. Figure 7 ◊: Agents and Responsibility Overview (Informative)
+
+Component 3 further defines a general notion of influence, a relation implied by all relations defined so far. Figure 8 displays one new association class, generalizing previously introduced associations. Figure 8 ◊: Influence Overview (Informative)
+
+5.3.1 Agent
+
+An agent ◊ is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity.

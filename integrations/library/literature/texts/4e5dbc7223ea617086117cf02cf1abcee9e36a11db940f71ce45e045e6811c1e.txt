@@ -1,0 +1,22 @@
+The two cascade conditions (QG: 2,800–3,000 ms;
+Q14B: 2,700–3,000 ms) form a sixth, high-latency
+regime that trades throughput for reduced FPR. The high latency of Qwen3.5-9B compared to similarly-sized
+models reflects its use of non-optimized Ollama serving on
+a consumer GPU with a generous output budget. A 22 controlled experiment (short prompts—task
+description plus tool call only, —vs. full-length
+evaluation prompts—including the full judge template
+with task description, tool call, and rationale fields
+(Listing 1), ; num_predict=50
+vs. 10) reveals that
+capping output tokens is the dominant factor: on the ZH
+evaluation set, switching from num_predict=50
+(P50 = 1,981 ms, Table 4) to
+num_predict=10 reduces P50 to 303 ms (),
+a 6.5 speedup with negligible IR impact
+(96.3% vs. 96.5%, pp), FPR 29.3% (vs. 34.1%,
+pp; the reduction likely reflects fewer over-cautious
+BLOCK verdicts under shorter output budgets),
+and zero parse failures. By contrast, prompt length alone accounts for only a
+3.5 difference (short prompts at
+num_predict=50: P50 574 ms vs. full-length 1,981 ms), confirming that output capping
+(6.5) is the dominant factor.

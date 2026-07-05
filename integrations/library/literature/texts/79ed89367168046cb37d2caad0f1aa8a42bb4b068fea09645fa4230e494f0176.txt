@@ -1,0 +1,14 @@
+In IJCAI’07: Proceedings of the 20th International Joint
+Conference on Artifical Intelligence, pp. 1606–1611, San Francisco,
+2007. Morgan Kaufmann. doi: 10.5555/1625275.1625535. URL https://dl.acm.org/doi/10.5555/1625275.1625535. Ganguli et al. (2022)
+
+Deep Ganguli, Danny Hernandez, Liane Lovitt, Nova DasSarma, Tom Henighan, Andy
+Jones, Nicholas Joseph, Jackson Kernion, Ben Mann, Amanda Askell, Yuntao Bai,
+Anna Chen, Tom Conerly, Dawn Drain, Nelson Elhage, Sheer El Showk, Stanislav
+Fort, Zac Hatfield-Dodds, Scott Johnston, Shauna Kravec, Neel Nanda, Kamal
+Ndousse, Catherine Olsson, Daniela Amodei, Dario Amodei, Tom Brown, Jared
+Kaplan, Sam McCandlish, Chris Olah, and Jack Clark. Predictability and surprise in large generative models, 2022. URL https://arxiv.org/abs/2202.07785. Gao et al. (2018)
+
+Ge Gao, Eunsol Choi, Yejin Choi, and Luke Zettlemoyer. Neural metaphor detection in context. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pp. 607--613, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1060. URL https://aclanthology.org/D18-1060. Gao et al.

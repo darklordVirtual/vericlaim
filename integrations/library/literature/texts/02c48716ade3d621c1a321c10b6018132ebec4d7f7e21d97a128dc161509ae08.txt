@@ -1,0 +1,15 @@
+4843--4855, Online, June 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.385. URL https://aclanthology.org/2021.naacl-main.385. Bowman et al. (2015)
+
+Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. A large annotated corpus for learning natural language inference. In Proceedings of the 2015 Conference on Empirical Methods in
+Natural Language Processing, pp. 632--642, Lisbon, Portugal, September
+2015. Association for Computational Linguistics. doi: 10.18653/v1/D15-1075. URL https://aclanthology.org/D15-1075. Bozhanov & Derzhanski (2013)
+
+Bozhidar Bozhanov and Ivan Derzhanski. Rosetta stone linguistic problems. In Proceedings of the Fourth Workshop on Teaching NLP and
+CL, pp. 1--8, Sofia, Bulgaria, August 2013. Association for
+Computational Linguistics. URL https://aclanthology.org/W13-3401. Bošnjak et al. (2017)
+
+Matko Bošnjak, Tim Rocktäschel, Jason Naradowsky, and Sebastian Riedel. Programming with a differentiable Forth interpreter. In Proceedings of the 34th International Conference on Machine
+Learning, volume 70, pp. 547--556, 2017. URL https://arxiv.org/abs/1605.06640. Branwen (2020)
+
+Gwern Branwen.

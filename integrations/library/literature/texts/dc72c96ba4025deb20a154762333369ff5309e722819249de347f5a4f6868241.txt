@@ -1,0 +1,13 @@
+Task cites: (Irving et al., 2018; Atanasova et al., 2020; Boller & George, 1989)
+
+misconceptions_russian: James B. Simon and Chandan Singh, UC Berkeley (james.simon, chandan.singh)@berkeley.edu; and Roman Sitelew (sitelewr@gmail.com). Task cites: (Thorne et al., 2018; Lee et al., 2020)
+
+mnist_ascii: Adam R. Brown and Ethan Dyer, Google (mradambrown, edyer)@google.com
+
+modified_arithmetic: James B. Simon, UC Berkeley (james.simon@berkeley.edu), and Jack Geissinger, Carnegie Robotics (jack.geissinger7@gmail.com). Task cites: (Brown et al., 2020)
+
+moral_permissibility: Allen Nie, Tatsu Hashimoto, and Tobias Gerstenberg, Stanford University (anie, thashim, gerstenberg)@stanford.edu. Task cites: (Hendrycks et al., 2020; Lourie et al., 2020; Thomson, 1976)
+
+movie_dialog_same_or_different: Rif A. Saurous, Google (rif@google.com). Task cites: (Park et al., 2021)
+
+movie_recommendation: Damien Sileo, Robbe Raymaekers, and Wout Vossen, KU Leuven (damien.sileo@kuleuven.be), (robbe.raymaekers, wout.vossen)@student.kuleuven.be.

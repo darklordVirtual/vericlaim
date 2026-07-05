@@ -1,0 +1,13 @@
+7.4.1. Security–Latency Trade-off (RQ1, RQ2). The results reveal a clear capability gap between lightweight NLI
+models and LLM-based judges. BART-MNLI achieves only 8–10% interception despite zero false
+positives and a moderate median overhead of 204–258 ms. All five LLM judges (Qwen3.5-4B through GPT-4o-mini) achieve at least 93%
+overall interception on TC1/TC2 (across all 457 malicious samples;
+individual attack-type rates may be slightly lower), but
+with markedly different trade-off profiles. Among local models, Qwen2.5-14B achieves the best
+overall balance (98.2–98.5% IR, 9.7–20.1% FPR, 880–1,160 ms),
+approaching GPT-4o-mini’s precision at local-deployment cost. Llama-3.1-8B and Qwen3.5-9B exhibit a high-recall, low-precision profile (95% IR)
+but at elevated FPR (23.7–37.7%), suggesting a conservative blocking
+bias. Qwen3.5-4B, the smallest model (3.4 GB), still achieves
+94.3–95.8% IR with the lowest latency among LLM judges (490 ms),
+making it viable for latency-sensitive edge deployments. GPT-4o-mini (93.0–95.4% IR, 3.2–12.3% FPR, 1,100 ms)
+remains the most precise option but requires cloud connectivity.

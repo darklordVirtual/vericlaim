@@ -1,0 +1,25 @@
+2020. The Dataset Nutrition Label (2nd Gen): Leveraging
+Context to Mitigate Harms in Artificial Intelligence. In
+NeurIPS Workshop on Dataset Curation and
+Security. Choi et al. (2018)
+
+Eunsol Choi, He He,
+Mohit Iyyer, Mark Yatskar,
+Wen-tau Yih, Yejin Choi,
+Percy Liang, and Luke Zettlemoyer. 2018. QuAC : Question Answering in Context. In
+Proceedings of the 2018 Conference on Empirical
+Methods in Natural Language Processing. Chui (2017)
+
+Glennda Chui. 2017. Project will use AI to prevent or minimize electric
+grid failures. [Online; accessed 14-March-2018]. Dastin (2018)
+
+Jeffrey Dastin. 2018. Amazon scraps secret AI recruiting tool that showed
+bias against women. https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G
+
+Garvie
+et al. (2016)
+
+Clare Garvie, Alvaro
+Bedoya, and Jonathan Frankle. 2016. The Perpetual Line-Up: Unregulated Police
+Face Recognition in America. Georgetown Law, Center on Privacy & Technology,
+New Jersey Ave NW, Washington, DC. Hind et al.

@@ -1,0 +1,9 @@
+Kumar Shridhar, NeuralSpace and ETH Zurich (kumar@neuralspace.ai); Akshat Agarwal, NeuralSpace (akshat@neuralspace.ai); and Asher Mullokandov, Imperial College London (a.mullokandov@imperial.ac.uk). Task cites: (Amini et al., 2019; Ling et al., 2017; Hendrycks et al., 2021c; Patel et al., 2021; Zhang et al., 2020a; Hendrycks et al., 2021b)
+
+emoji_movie: Zijie J. Wang, Georgia Tech (jayw@gatech.edu). Task cites: (Cruse, 2015; Instagram Engineering, 2015; Chandra Guntuku et al., 2019; Eisner et al., 2016; Mayne, 2020; Boillot, 2019)
+
+emojis_emotion_prediction: Abu Awal Md Shoeb, Rutgers University (abu.shoeb@rutgers.edu), and Gerard de Melo, HPI/University of Potsdam (gerard.demelo@hpi.de). Task cites: (Shoeb & de Melo, 2020; Plutchik, 1980)
+
+empirical_judgments: Jennifer Marsh, UC Berkeley (jmarsh@berkeley.edu), and Samuel S. Schoenholz, Google Research, Brain Team (schsam@google.com). Task cites: (Kant, 1781/1787; 1783; Spirtes et al., 2000; Pearl, 1988; Goldberger, 1972; Rothman & Greenland, 2005; Roemmele et al., 2011; Wang et al., 2019a; Evans et al., 2019)
+
+english_proverbs: Daniel Moseguí González (d.mosegui@gmail.com).

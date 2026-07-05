@@ -1,0 +1,22 @@
+Journal of Machine Learning Research (JMLR), 13(Feb):255–279,
+2012. [7]
+
+Yoav Freund, Yishay Mansour, and Robert E Schapire. Generalization bounds for averaged classifiers. Annals of Statistics, pages 1698–1722, 2004. [8]
+
+Giorgio Fumera and Fabio Roli. Support vector machines with embedded reject option. In Pattern recognition with support vector machines, pages
+68–82. Springer, 2002. [9]
+
+Yarin Gal and Zoubin Ghahramani. Dropout as a bayesian approximation: representing model uncertainty
+in deep learning. In Proceedings of The 33rd International Conference on Machine
+Learning, pages 1050–1059, 2016. [10]
+
+O. Gascuel and G. Caraux. Distribution-free performance bounds with the resubstitution error
+estimate. Pattern Recognition Letters, 13:757–764, 1992. [11]
+
+R. Gelbhart and R. El-Yaniv. The Relationship Between Agnostic Selective Classification and
+Active. ArXiv e-prints, January 2017. [12]
+
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pages 770–778, 2016. [13]
+
+Martin E Hellman. The nearest neighbor classification rule with a reject option.

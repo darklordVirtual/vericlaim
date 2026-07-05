@@ -1,0 +1,18 @@
+in the provenance can be useful for various tasks: for example, to
+validate the execution as represented in the provenance record, to
+manage expectation failures, or to provide explanations. Example 12 ◊
+
+An example of association between an activity and an agent involving a plan is:
+an XSLT transform (an activity) launched by a user (an agent) based on an XSL style sheet (a plan). 2.2.1.3 Optional Identification
+
+Some concepts exhibit both a core use, expressed as
+binary relation, and an extended use, expressed as n-ary relation. In
+some cases, mapping the concept to a relation, whether binary or
+n-ary, is not sufficient: instead, it may be required to
+identify an instance of such concept. In those cases, PROV allows for
+an optional identifier to be
+expressed to identify an instance of an association between two or
+more elements. This optional identifier can then be used to refer to
+an instance as part of other concepts. Example 13 ◊
+
+A service may read a same configuration file on two different occasions. Each usage can be identifed by its own identifier, allowing them to be distinguished.

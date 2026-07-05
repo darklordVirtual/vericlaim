@@ -1,0 +1,13 @@
+In this section, we first show how Equation (2) can be derived. We repeat the equation below for clarity,
+
+(5)
+
+based on a decomposition of the expected risk between a function approximation term and an optimisation suboptimality term. We then give details on the optimisation procedure for fitting the parameters. Loss decomposition. Formally, we consider the task of predicting the next token based on the previous tokens in a sequence , with varying from to —the maximum sequence length. We consider a distribution of tokens in and their past in . A predictor computes the probability of each token given the past sequence. The Bayes classifier, , minimizes the cross-entropy of with the observed tokens , with expectation taken on the whole data distribution. We let be the expected risk
+
+(6)
+
+The set of all transformers of size , that we denote , forms a subset of all functions that map sequences to distributions of tokens . Fitting a transformer of size on the expected risk amounts to minimizing such risk on a restricted functional space
+
+(7)
+
+When we observe a dataset of size , we do not have access to , but instead to the empirical expectation over the empirical distribution .

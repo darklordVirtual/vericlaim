@@ -1,0 +1,3 @@
+outlined_flag
+
+Prioritize building robust infrastructure and simple models before incorporating complex machine learning algorithms. Leverage existing heuristics and domain knowledge to enhance model performance and system intuition. Continuously iterate and refine models through feature engineering and addressing potential pitfalls like training-serving skew. Align machine learning objectives with measurable product goals and prioritize long-term user satisfaction. Explore new data sources and features when performance plateaus, considering user relationships and external information.

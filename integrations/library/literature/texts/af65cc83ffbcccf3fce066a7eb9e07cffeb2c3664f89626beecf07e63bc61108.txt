@@ -1,0 +1,15 @@
+doi: 10.15390/EB.2020.8782. URL
+http://egitimvebilim.ted.org.tr/index.php/EB/article/view/8782. Bency et al. (2019)
+
+Mayur J. Bency, Ahmed H. Qureshi, and Michael C. Yip. Neural path planning: Fixed time, near-optimal path generation via
+oracle imitation. In 2019 IEEE/RSJ International Conference on Intelligent Robots
+and Systems (IROS), pp. 3965--3972, Piscataway, NJ, 2019. Institute of
+Electrical and Electronics Engineers. doi: 10.1109/IROS40897.2019.8968089. URL https://ieeexplore.ieee.org/document/8968089. Bender & Koller (2020)
+
+Emily M. Bender and Alexander Koller. Climbing towards NLU: On meaning, form, and understanding in the
+age of data. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 5185--5198, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.463. URL https://aclanthology.org/2020.acl-main.463. Bender et al. (2021)
+
+Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+Shmitchell. On the dangers of stochastic parrots: Can language models be too big? In Proceedings of the 2021 ACM Conference on Fairness,
+Accountability, and Transparency, FAccT ’21, pp.

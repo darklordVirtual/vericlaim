@@ -1,0 +1,6 @@
+Throwing a touchdown is part of football, not basketball. So the answer is no. Q: Is the following sentence plausible? “Malcolm Brogdon banked the shot in.”
+
+A: Malcolm Brogdon is a basketball player. Banking the shot in is part of basketball. So the answer is yes. Table 28:
+Few-shot exemplars for full chain of thought prompt for SayCan robot planning tasks. Prompt for SayCan Robot Planning
+
+Locations = [counter, table, user, trash, bowl]. Objects = [7up, apple, kettle chips, tea, multigrain chips, coke, lime soda, jalapeno chips, rice chips, orange, grapefruit soda, pepsi, redbull, energy bar, sponge, water]. The robot can pick up items with pick(object) and put down items with put(object) as well as find objects or locations with find(). The robot can only understand the explicit locations and objects listed. Human: I’m hungry, can you bring me some chips. Explanation: The user is hungry and has asked for chips. There are several types of chips available, I will bring the user the kettle chips. Plan: 1. find(kettle chips), 2. pick(kettle chips), 3. find(user), 4. put(kettle chips), 5. done(). Human: How would you move the grapefruit drink from the table to the counter?

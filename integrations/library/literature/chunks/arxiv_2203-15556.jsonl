@@ -1,0 +1,104 @@
+{"fsid": "arxiv_2203-15556", "n": 103, "overlap": 200, "source_sha256": "9960a2ccfa1bf9411ae743091de8c156514e0bf59ec17456e36247601d8ca67d", "target": 1200}
+{"section": "", "seq": 0, "sha256": "7839d1128cf09ba8ca080b2abb533ec48da634c20a0d8ff682f5f7f943d192bd"}
+{"section": "Training Compute-Optimal Large Language Models", "seq": 1, "sha256": "d9b20e0fc4978e2d9da6aec8f639a825655550b5a19331d2542d07153f85cc28"}
+{"section": "Training Compute-Optimal Large Language Models", "seq": 2, "sha256": "cee9d951ee5511be143e5d0e106e57f2f165b0cb3443122bdb2830e3db2b66ab"}
+{"section": "1 Introduction", "seq": 3, "sha256": "88447f8800faccee62fcfe1fef3828c447ead425c0065b3156ea1310844f2e73"}
+{"section": "1 Introduction", "seq": 4, "sha256": "b3326c40a59229c8caa16b2a4409d0dc2435727d715a2ed250ed4a77af96c3f4"}
+{"section": "1 Introduction", "seq": 5, "sha256": "2c7c2ad00f79cdc89e1b56edd5c8997f7c3dbff7ee1ed5adf131f4e0fbcc7172"}
+{"section": "1 Introduction", "seq": 6, "sha256": "3e0d85ed0ee0e00aefd742b02c351e35738e9b305393437d5a5a3358a357cc45"}
+{"section": "1 Introduction", "seq": 7, "sha256": "03f87cf48984e087eddd5e84b41660e2ab92ad750d3455c857596b7fa0d08c49"}
+{"section": "1 Introduction", "seq": 8, "sha256": "6b55242c32590c215cacbf11b65064fa1935e37f6f7e210d99d42e2c7a0a7b08"}
+{"section": "2 Related Work", "seq": 9, "sha256": "771294076a48f9f14161aa714528efd2762cea7639023a3c84fabad117f5ee3b"}
+{"section": "2 Related Work", "seq": 10, "sha256": "e3e1b569b064dad15bba500491da56ab8c5b8cf0fafe1e65187dd7f82d34a3bf"}
+{"section": "2 Related Work", "seq": 11, "sha256": "3d48bae15d7db2c8b518e73a05ebf907e80d0d3efcf9c80972f45cd33acc810f"}
+{"section": "2 Related Work", "seq": 12, "sha256": "8fd967860375a895179fef50a98643fa0e739eda87ca0bef0ffe242acbb1b074"}
+{"section": "2 Related Work", "seq": 13, "sha256": "a282508ba2f5748d3829c24d63e54ec6607772056c2b7508cd2fc659ef87db6f"}
+{"section": "2 Related Work", "seq": 14, "sha256": "db8e7fb22aa4f8353d14df04f0c5900485f884947afbe4bfa32abca951aee98e"}
+{"section": "3 Estimating the optimal parameter/training tokens allocation", "seq": 15, "sha256": "937b667c644e0c4e8f6f9363edd869ead81fd2d4389f6c9ff2f742893cabab6c"}
+{"section": "3.1 Approach 1: Fix model sizes and vary number of training tokens", "seq": 16, "sha256": "77b56ae54e3d9db7f1d65138b392a317df77e84c0cbc61f98ed391733a7c2a1c"}
+{"section": "3.1 Approach 1: Fix model sizes and vary number of training tokens", "seq": 17, "sha256": "0d9a305ecd85c8fa41fbe34427463e50686942fa5ecd5fa313220a256adaf52e"}
+{"section": "3.1 Approach 1: Fix model sizes and vary number of training tokens", "seq": 18, "sha256": "9f2c9ff82bcf88deb2d2eebc26cb8d7944fc96e126892c5e3dab7cac89c27539"}
+{"section": "3.2 Approach 2: IsoFLOP profiles", "seq": 19, "sha256": "313dc8b24573564fb478b7c9825a74d835a81e0b81a4360eeb39237357dcc232"}
+{"section": "3.2 Approach 2: IsoFLOP profiles", "seq": 20, "sha256": "452f93eeddc794fbff59c692273a73f9f2a0184a5ad4b4d8690fb7c720505995"}
+{"section": "3.3 Approach 3: Fitting a parametric loss function", "seq": 21, "sha256": "332a0f1342a6483061a0e99b517404612a7c5ad397720b5c65d9afa5bf66589a"}
+{"section": "3.3 Approach 3: Fitting a parametric loss function", "seq": 22, "sha256": "ea782e3d5f7a3f71805cb84a2baf75f3f3862ea3f4654d6ca7f25756604c0266"}
+{"section": "3.4 Optimal model scaling", "seq": 23, "sha256": "f1f6a8a838152e4f412b6d9e8427d9680602f8d32aac1c405272c96aabe7a1fd"}
+{"section": "3.4 Optimal model scaling", "seq": 24, "sha256": "bc05adec73a08b2fe411521e53cdcd14f6aaadb6c02f1b2831066c16960f437f"}
+{"section": "3.4 Optimal model scaling", "seq": 25, "sha256": "042c6878c11ed1b447cf8100ea53ecfa8add73e5450beb8dcafa4643acc0ab0a"}
+{"section": "3.4 Optimal model scaling", "seq": 26, "sha256": "cf97822da040ab510495abfd3d795944155697d9ffc0234f0e256af2f0d5173d"}
+{"section": "4 Chinchilla", "seq": 27, "sha256": "7be6840e2215cb1b0033b97bc6599453f9eb9d7857acf74a454ec0938de042f2"}
+{"section": "4.1 Model and training details", "seq": 28, "sha256": "5ff9566b355cf460c728ab27c6d76c44f4239b9d5be8b1acc17bbd4d5fa36fe1"}
+{"section": "4.1 Model and training details", "seq": 29, "sha256": "feb8bec7ccef96720525907562d699829b860ab0caa66b699459eb912b38cedb"}
+{"section": "4.1 Model and training details", "seq": 30, "sha256": "e11b13c442141821b8d514bcec3465cb298ae6ca1b450ca27b0941f52f34462c"}
+{"section": "4.2 Results", "seq": 31, "sha256": "7883781326f10e85f542f0236147a494b0027bad511423d92e8f3d819c4df055"}
+{"section": "4.2 Results", "seq": 32, "sha256": "e5350e5b05a9a187e6d45d28a50be869a3800e375567776d9ede525b72a7820f"}
+{"section": "4.2 Results", "seq": 33, "sha256": "0d7fdd3449b5fa01e7b7114c3a94d56e1c025c5ca21c830fc565ad7de2899d9d"}
+{"section": "4.2 Results", "seq": 34, "sha256": "0a271424f33317d14e33a8b959aa200bd1fa29adbf784b8e503e8912e9136f92"}
+{"section": "4.2 Results", "seq": 35, "sha256": "fb1f9f871be83ec1d573728ca0d3337567e92faa5004f0780ace73267dc22cb0"}
+{"section": "4.2 Results", "seq": 36, "sha256": "db78cc42dd5c27fcc20667844e5d45a50bfe2f76273a7564e11328fa0df7c14b"}
+{"section": "4.2 Results", "seq": 37, "sha256": "608fcb919e39063470b419a6490bc9798f0cdef29eca9163a480253d1d9a26f9"}
+{"section": "4.2 Results", "seq": 38, "sha256": "5bb822809480912d9f84582b8e5620bc0d396d903abf9d80896d149fe8beb756"}
+{"section": "4.2 Results", "seq": 39, "sha256": "d539abdfcdeef72f615e7eab03db8e803389d045ece6c1bd9cb27fe271b0f678"}
+{"section": "4.2 Results", "seq": 40, "sha256": "00687f95c74eb0319288320b810371c6355b320c69e1b42a474360627cf9fefe"}
+{"section": "4.2 Results", "seq": 41, "sha256": "5a1adb115e80438dc8b45a805a8f43a8899bbc8a9830166cc675bff36d874519"}
+{"section": "4.2 Results", "seq": 42, "sha256": "f089d2dea672fc7a874f4f20a3609c45d530e4080eafffe5de66177ba03a3c6c"}
+{"section": "4.2 Results", "seq": 43, "sha256": "dec78e432fcc98e52bd29c39097876494392b15ab2381612b24d556f502bef6c"}
+{"section": "4.2 Results", "seq": 44, "sha256": "7708161170caec50407f9324617c42222c64b1927404977c89a3c2ef8231bd62"}
+{"section": "5 Discussion & Conclusion", "seq": 45, "sha256": "b6a4b7d2a18f7246ae0ff9003146851b2d417107b029b60a673de7854ee2899a"}
+{"section": "5 Discussion & Conclusion", "seq": 46, "sha256": "3da2d281ee0a2b49a7d4c1c8b5ccdbeec0f9d79419bfaef7793bdb9c6f8637f9"}
+{"section": "5 Discussion & Conclusion", "seq": 47, "sha256": "2c7df89d91741d8fadcc5ba42e0a9879a8aac2887a152823ec4f5ce91bb18b51"}
+{"section": "5 Discussion & Conclusion", "seq": 48, "sha256": "acba62a68f0cf18417485a81a8947c411069e428e58be14ecf540840af2d7656"}
+{"section": "6 Acknowledgements", "seq": 49, "sha256": "c98f7e781e5ea98ca847a1819412b8241542e000ce28996a1089ff7b804c5bcb"}
+{"section": "References", "seq": 50, "sha256": "2d93e1e2fa0d7e6a418bfbac70a2943b18a542957c29d2c1871da0ab2e58e019"}
+{"section": "References", "seq": 51, "sha256": "2ac531190ff54c5d14be5d42a1831ca6a3ea97005a89eb2b60316bbaa13e19e8"}
+{"section": "References", "seq": 52, "sha256": "082aa5ad455fecd7377cd2f50132b6fe74a921a9890efaa23d33a8112c760734"}
+{"section": "References", "seq": 53, "sha256": "32e3cf27c32025a59572620b36ef30c1abf28d14fd3c5af1bc8eef4ec27fd1a5"}
+{"section": "References", "seq": 54, "sha256": "b5d7fb52c00e931b829fc22374da6a9e8b153cfcdec839c6b7f954cf78df182c"}
+{"section": "References", "seq": 55, "sha256": "4570e6f69b5b8bc4acd835ccc4c7ad3750f64cc1e2a3a9366b4ec23f221e588f"}
+{"section": "References", "seq": 56, "sha256": "761943b0c078d3ed7ed25ab5bb23107b98364ccbad70c8afb6ceb1c7a3bcf106"}
+{"section": "References", "seq": 57, "sha256": "79c28bb9c4dffb051e15bc98007f60d965bd6bf56e1fe16f680f9ca203eba0b9"}
+{"section": "References", "seq": 58, "sha256": "4472bbad9dea9ac6dbfd1853f17c8447c572384e4d7cb0d104c5cbc479a46e28"}
+{"section": "References", "seq": 59, "sha256": "182295fcf09663d52af6424282f102513669a21f75aea2442460832b1ec55523"}
+{"section": "References", "seq": 60, "sha256": "2a885d88bb47f9b40be3947228957579b135d18b3d4d9a3d0284765d7384e829"}
+{"section": "References", "seq": 61, "sha256": "5fe9e54167a84899a1091f085aeac0ca0bd6b4c5274432f519b8f650b0e9adff"}
+{"section": "References", "seq": 62, "sha256": "d97e84ddb6e7aa2452f42c24b9daf1d2964b94386020f1301d4652725379f0fd"}
+{"section": "References", "seq": 63, "sha256": "18793786d6e15f5f854b795985fa5b0c4ead95f812a1d689ef26f71c6c8f6fce"}
+{"section": "References", "seq": 64, "sha256": "56c6eec6d48919bb3a6ddad322b2a909002eebfa327e9ac0ed09b5b8eb3c0f54"}
+{"section": "References", "seq": 65, "sha256": "7d1d93778c45878806d61c954a655dd55d896f691f617d7fe5ded6872fc350f4"}
+{"section": "References", "seq": 66, "sha256": "390d095a27cd31b2ec62dfc04620f1a5ace273262581a835e4efe93c364aae31"}
+{"section": "References", "seq": 67, "sha256": "047dfa498be7967760ba8ef8166005f8345a227223fc612a88b6a3b07c60ab12"}
+{"section": "Appendix A Training dataset", "seq": 68, "sha256": "8db387e08ba557a83ec54552e3678a4c9fd5f289f8c2cfba887cb487d1ab8fee"}
+{"section": "Appendix B Optimal cosine cycle length", "seq": 69, "sha256": "d49cd3be58b4409efae7937b5024f48cddbf5e711b7c287130ba436074751a18"}
+{"section": "Appendix B Optimal cosine cycle length", "seq": 70, "sha256": "a22b8d520f243950c937d0d67d063840758367739d096e8255186c025cfea2e4"}
+{"section": "Appendix C Consistency of scaling results across datasets", "seq": 71, "sha256": "0ad8813a19eb27b3572886a526ad80cfcccc8ba059c8b9da53be440b2df36eb3"}
+{"section": "Appendix C Consistency of scaling results across datasets", "seq": 72, "sha256": "4808cda083e296e69953b26a76f550dd515c1bc95f39da1adaec626da357031b"}
+{"section": "D.1 Approach 1: Fixing model sizes and varying training sequences", "seq": 73, "sha256": "36ecdb575d813a9369e94f648a39140cf60368af265255e91ddc2177e2a32e33"}
+{"section": "D.2 Approach 3: Parametric fitting of the loss", "seq": 74, "sha256": "88b480f9764b24fcdc609c735f58be0022014d54032ec9a81ad380e600fd6db7"}
+{"section": "D.2 Approach 3: Parametric fitting of the loss", "seq": 75, "sha256": "6bf6ef2c133725638f67558a216ba8029b86d02d2893ea1e8d232eb3a8ee33f5"}
+{"section": "D.2 Approach 3: Parametric fitting of the loss", "seq": 76, "sha256": "d9eb97e1a45fa79c218624d507af593aa1111468788e673bce8b9ac6d232ac71"}
+{"section": "D.2 Approach 3: Parametric fitting of the loss", "seq": 77, "sha256": "0bf3bc1af5a908b479352c4a6b714f8927c525f725dc93539df132dc50f3c83f"}
+{"section": "D.3 Predicted compute optimal frontier for all three methods", "seq": 78, "sha256": "df0de2f71e523acb0b6819884dc9d3b7d636e161f7b9505a546784ba29c2ffb4"}
+{"section": "D.3 Predicted compute optimal frontier for all three methods", "seq": 79, "sha256": "dfa6ab6c7049204e3982860a0fb704e004df7f91d59e98bd525ef3ebb18c671a"}
+{"section": "D.4 Small-scale comparison to Kaplan et al. (2020)", "seq": 80, "sha256": "b58d7483ce3e57482c279c67b2a4b53eaf57c97b82a65a61594acd134e441fe7"}
+{"section": "Appendix E Curvature of the FLOP-loss frontier", "seq": 81, "sha256": "a91670c41967ec434bd146ebd697a236971ca309e45e9fe62149e60a53c95df7"}
+{"section": "Appendix F FLOPs computation", "seq": 82, "sha256": "d542f1a1e73739fb73a3beedd1b5cda1b0f06b9928f15e6511d72d9f3453f31e"}
+{"section": "Appendix F FLOPs computation", "seq": 83, "sha256": "e09ff8e673c16065761093199b5b5acb59eec889c02b2bf2c36920461fe8d11c"}
+{"section": "Appendix G Other differences between Chinchilla and Gopher", "seq": 84, "sha256": "0b3afb1b9466047f469625e3e04b679e8fc0975009719c486733dcc563c17899"}
+{"section": "Appendix G Other differences between Chinchilla and Gopher", "seq": 85, "sha256": "828b0e071c0f3cd1f61703691707b83a1c038237312916c9e990394bfd259d3c"}
+{"section": "H.1 The Pile", "seq": 86, "sha256": "f3cc94abee21778297017cb7a426f2b20fe0025ea35b58d003833a248b22df3d"}
+{"section": "H.2 MMLU", "seq": 87, "sha256": "76afb43ebce5b5383fcf3e76854276efd695f3f7461f1b643b59847b90df297c"}
+{"section": "H.2 MMLU", "seq": 88, "sha256": "35d8598c9a05085d517642aa7da11583538b9476c473418b0398cbfc27c13765"}
+{"section": "H.2 MMLU", "seq": 89, "sha256": "eeb8dd098745bcc69c9da959570ebad4c1502f4f82efda6c69d9a59fce819d42"}
+{"section": "H.3 Winogender Setup", "seq": 90, "sha256": "c9c9d7374a9b5f151afa766e094a0fa013cee284b82dc4694470b3ffa0ef47b3"}
+{"section": "H.4 BIG-bench", "seq": 91, "sha256": "9b2fe8ecd50f6545393f0e6d360324415283eb3f535708983b6d17977060a220"}
+{"section": "H.4 BIG-bench", "seq": 92, "sha256": "7ac7a90574e6b1aa7aeadd403401fd549309b4f17c5968357e1f6f33be7cad5d"}
+{"section": "H.4 BIG-bench", "seq": 93, "sha256": "bc1aadc7a96d0ad6674442ba6fe3b342ae7df1f3d4036fbb9825e7a4a272b6e6"}
+{"section": "Appendix I Model Card", "seq": 94, "sha256": "c30e67f1cb2e07d1262a19767c851b543a4c9946bd15b9bd4bfdc03cd1123d4a"}
+{"section": "Appendix I Model Card", "seq": 95, "sha256": "f4ace99d553c236064cc423ab27a269013f50c9f8dedde60a0ae40559be1ac15"}
+{"section": "Appendix I Model Card", "seq": 96, "sha256": "2dc0de2a6ce3e8a0b782a08d8d8486d53dac0516894e7ec7b166b35b161d35ca"}
+{"section": "Appendix I Model Card", "seq": 97, "sha256": "86b6d8c3eaf00c89a7a61989a299d8552ca6291d0e1605163ee343ae62b12c46"}
+{"section": "Appendix I Model Card", "seq": 98, "sha256": "6139629d4c960fb1ae902bbf0b2c897281744acb01d1b5b70b4adbb91f9dd8fe"}
+{"section": "Appendix I Model Card", "seq": 99, "sha256": "aebadd1c1df8eda630e3518fbe745fdbd0a9895c08d089fc77ab69101dfeca01"}
+{"section": "Appendix J List of trained models", "seq": 100, "sha256": "ef111564f5702eb8dc0c861619788ade3381a9ebcdacec056d6b8f679e81ad06"}
+{"section": "Appendix J List of trained models", "seq": 101, "sha256": "0c4f4a36633e87dfc84c6f27ab573ee1d246bd2562f5164419710911b74f4602"}
+{"section": "Appendix J List of trained models", "seq": 102, "sha256": "7fefed357bae237b60ea6ef67f7aca3a846b0595f5b8cf768a9320a0630c3192"}

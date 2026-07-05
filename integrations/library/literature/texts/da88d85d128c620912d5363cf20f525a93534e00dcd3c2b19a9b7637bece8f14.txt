@@ -1,0 +1,7 @@
+In practice one uses a size random subset
+of training data [58]. Deep neural networks. A popular way of extending softmax regression to handle data that is non linearly separable in is to first apply one or more non-linear transformations to the input data. The goal of these hidden layers is to map the input data into a (typically) lower-dimensional space in which the classes are separable by the softmax layer. We focus here on fully connected networks, also known as multilayer perceptrons, with a single hidden layer. The hidden layer consists of a number of hidden nodes, with associated weight vectors in and thresholds in . The -th hidden unit applies a non linear transformation , where is an activation function such as or . The vector is then input into a softmax output layer with weight vectors in and thresholds in . Decision trees. A decision tree is a labeled tree. Each internal node is labeled by a feature index
+and a splitting function , where denotes the number of outgoing
+edges of . On an input , a tree defines a computation
+as follows, starting at the root. When we reach a
+node , labeled by , we proceed to the child of
+indexed by .

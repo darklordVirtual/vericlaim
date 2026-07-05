@@ -1,0 +1,16 @@
+We now consider deriving non-discriminating predictors from a real
+valued score . The motivation is that in many realistic
+scenarios (such as FICO scores), the data are summarized by a
+one-dimensional score function and a decision is made based on the
+score, typically by thresholding it. Since a continuous statistic can
+carry more information than a binary outcome , we can hope to
+achieve higher utility when working with directly, rather then
+with a binary predictor . A “protected attribute blind” way of deriving a binary predictor
+from would be to threshold it, i.e. using . If satisfied equalized odds, then so will such a predictor, and
+the optimal threshold should be chosen to balance false positive and
+false negatives so as to minimize the expected loss. When does
+not already satisfy equalized odds, we might need to use different
+thresholds for different values of (different protected groups),
+i.e. . As we will see, even this might not
+be sufficient, and we might need to introduce additional randomness as
+in the preceding section.

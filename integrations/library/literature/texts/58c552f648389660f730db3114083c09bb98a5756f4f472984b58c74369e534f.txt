@@ -1,0 +1,15 @@
+Consistent with recent work on constructing effective “prompts”
+for generative LMs [7, 62], we find that the memorized
+content is highly dependent on the model’s context. For example, GPT-2 will complete the prompt “3.14159” with the first
+digits of correctly using greedy sampling. However, we find that GPT-2 “knows” (under Definition 2)
+more digits of because
+using the beam-search-like strategy introduced above extracts digits correctly. Interestingly, by providing the more descriptive prompt
+“pi is 3.14159”, straight greedy decoding
+gives the first digits of —more
+than with the sophisticated beam search. Further providing the context
+“e begins 2.7182818, pi begins 3.14159”,
+GPT-2 greedily completes the first digits of . This example demonstrates the importance of the context:
+in the right setting, orders of magnitude more extraction is
+feasible than when the context is just slightly suboptimal. We find that this holds true for our memorized examples as well. None of the extracted samples found using Internet conditioning
+can be reliably reproduced when using the same prefix initially provided to GPT-2
+that produced this sample.

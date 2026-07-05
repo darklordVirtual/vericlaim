@@ -1,0 +1,10 @@
+We stress that while this extraction attack is rather straightforward, it
+directly applies, with possibly devastating consequences, to all cloud-based ML
+services we considered. As an example, recall that some services (e.g., BigML and
+Google) let model owners monetize black-box access to their models. Any user who
+wishes to make more than queries to a model would then minimize the
+prediction cost by first running a cross-user model extraction attack, and then using the
+extracted model for personal use, free of charge. As mentioned in Section 3, attackers with a final goal of
+model-inversion or evasion may also have incentives to first extract the model. Moreover, for services with black-box-only access (e.g., Amazon or Google), a user may abuse the service’s resources to
+train a model over a large data set (i.e., ), and extract it after only predictions. Crucially, the extraction cost is independent of . This could undermine a service’s business model, should prediction fees be used to amortize the high cost of training. For each binary data set shown in Table 3, we train a LR model
+and extract it given predictions. In all cases, we achieve .

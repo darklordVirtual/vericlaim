@@ -1,0 +1,17 @@
+This does seem
+to be one of those cases where it isn't wise to leave this
+decision to later refactoring. Event Sourcing also raises some possibilities for your overall
+architecture, particularly if you are looking for something that is
+very scalable. There is a fair amount of interest in 'event-driven
+architecture' these days. This term covers a fair range of ideas,
+but most of centers around systems communicating through event
+messages. Such systems can operate in a very loosely coupled
+parallel style which provides excellent horizontal scalability and
+resilience to systems failure. An example of this would be a system with lots of readers and a
+few writers. Using Event Sourcing this could be delivered as a cluster of
+systems with in-memory databases, kept up to date with each other
+through a stream of events. If updates are needed, they can be
+routed to a single master system (or a tighter cluster of servers
+around a single database or message queue) which applies the
+updates to the system of record and then broadcasts the resulting
+events to the wider cluster of readers.

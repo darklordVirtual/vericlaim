@@ -1,0 +1,10 @@
+Task cites: (Kim et al., 2019)
+
+color: Zijie J. Wang, Georgia Tech (jayw@gatech.edu). Task cites: (Gibson et al., 2017; Zucconi, 6 Jan. 2016)
+
+com2sense: Shikhar Singh, Nuan Wen, and Yu Hou, University of Southern California (ssingh43, nuanwen, houyu)@usc.edu; Pegah Alipoormolabashi, Sharif University of Technology (palipoor976@gmail.com); and Te-Lin Wu and Nanyun Peng, University of California, Los Angeles (UCLA) (telinwu,violetpeng)@cs.ucla.edu. Task cites: (Singh et al., 2021)
+
+common_morpheme: Shyamolima (Shammie) Debnath, University of Washington (shyamolima.d@gmail.com). Task cites: (Devlin et al., 2018; Wu et al., 2016; Won et al., 2021; Xu et al., 2018; Edmiston & Stratos, 2018; El-Kishky et al., 2019)
+
+conceptual_combinations: Raphaël Millière, Columbia University (rm3799@columbia.edu); Catherine Stinson, Queen’s University at Kingston
+(c.stinson@queensu.ca); Dimitri Coelho Mollo, Umeå University (dimitri.mollo@umu.se); and Charles Rathkopf, Juelich Research Center (c.rathkopf@fz-juelich.de).

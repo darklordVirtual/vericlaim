@@ -1,0 +1,40 @@
+class LoggedPricingGateway... private Money newRequest(Cargo cargo) {
+GetPriceRequest request = new GetPriceRequest(cargo);
+request.Result = gateway.GetPrice(cargo);
+log.Store(request);
+return (Money) request.Result;
+}
+
+private class GetPriceRequest : QueryEvent {
+private Cargo cargo;
+public GetPriceRequest(Cargo cargo) : base() {
+this.cargo = cargo;
+}
+
+class QueryEvent... DomainEvent _eventBeingProcessed;
+Object result;
+public QueryEvent() {
+_eventBeingProcessed = Registry.EventProcessor.CurrentEvent;
+}
+public object Result {
+get { return result; }
+set { result = value; }
+}
+public DomainEvent EventBeingProcessed {
+get { return _eventBeingProcessed; }
+}
+}
+
+So to find an old request, it searches its log. class LoggedPricingGateway... private GetPriceRequest oldRequest(Cargo cargo) {
+IList candidates =
+log.FindBy(EventProcessor.CurrentEvent, typeof (GetPriceRequest));
+foreach (GetPriceRequest request in candidates) {
+if (request.Cargo.RegistrationCode == cargo.RegistrationCode)
+return request;
+}
+return null;
+}
+
+The query log is generic, so we can issue a query to get a few
+items by using the Domain Event that was
+processed and the type of request.

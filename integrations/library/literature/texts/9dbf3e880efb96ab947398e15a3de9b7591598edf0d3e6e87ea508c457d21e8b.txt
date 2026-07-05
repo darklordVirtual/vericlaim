@@ -1,0 +1,25 @@
+How were these
+mechanisms or procedures validated? •
+
+If the dataset is a sample from a larger set, what was
+the sampling strategy (e.g., deterministic, probabilistic with
+specific sampling probabilities)? •
+
+Who was involved in the data collection process (e.g.,
+students, crowdworkers, contractors) and how were they compensated
+(e.g., how much were crowdworkers paid)? •
+
+Over what timeframe was the data collected? Does this
+timeframe match the creation timeframe of the data associated with
+the instances (e.g., recent crawl of old news articles)? If not,
+please describe the timeframe in which the data associated with the
+instances was created. •
+
+Were any ethical review processes conducted (e.g., by an
+institutional review board)? If so, please provide a description
+of these review processes, including the outcomes, as well as a link
+or other access point to any supporting documentation. If the dataset does not relate to people, you may skip the remaining questions in this section. •
+
+Did you collect the data from the individuals in
+question directly, or obtain it via third parties or other sources
+(e.g., websites)?

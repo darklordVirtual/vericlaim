@@ -1,0 +1,15 @@
+Association for Computational Linguistics. doi: 10.18653/v1/S17-2005. URL https://aclanthology.org/S17-2005. Milne & Witten (2008)
+
+David Milne and Ian H. Witten. An effective, low-cost measure of semantic relatedness obtained from
+Wikipedia links. In Proceeding of AAAI Workshop on Wikipedia and Artificial
+Intelligence: An Evolving Synergy, pp. 25–30, Menlo Park, 2008. Association for the Advancement of Artificial Intelligence. URL
+https://www.aaai.org/Papers/Workshops/2008/WS-08-15/WS08-15-005.pdf. Ministry of the Interior (2018)
+
+Republic of China Ministry of the Interior. National name statistical analysis, 2018. https://www.ris.gov.tw/documents/data/5/2/107namestat.pdf
+(Accessed 3 March 2021). Mishra et al. (2021)
+
+Swaroop Mishra, Daniel Khashabi, Chitta Baral, and Hannaneh Hajishirzi. Cross-task generalization via natural language crowdsourcing
+instructions, 2021. URL https://arxiv.org/abs/2104.08773. Mitchell et al. (2010)
+
+Margaret Mitchell, Kees van Deemter, and Ehud Reiter. Natural reference to objects in a visual domain. In Proceedings of the 6th International Natural Language
+Generation Conference. Association for Computational Linguistics, July 2010.

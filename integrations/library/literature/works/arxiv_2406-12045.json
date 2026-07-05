@@ -7,6 +7,12 @@
     "Pedram Razavi",
     "Karthik Narasimhan"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:32.411023+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2406.12045"
+  },
+  "fulltext_sha256": "76b4b17aee4fdaffb6e33e89f969b68289989dab884dc9df37c704cbf75ed136",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "tau-bench-2024",

@@ -1,0 +1,17 @@
+While more common NLP tasks might be too easy for GPT-4 and do not require ToT (which is why we considered harder new tasks), we believe applying ToT to new tasks could be straightforward. For example, we implemented a simple and generic zero-shot ToT-BFS similar to creative writing (sample 5 problem solving strategies then vote for the best one; then sample 5 solutions based on the best strategy then vote for the best one) for GSM8K and StrategyQA with few extra lines of code:
+
+# define the answer format of new tasks
+gsm8k_format = ‘"the answer is n" where n is a number’
+strategyqa_format = ‘either "the answer is yes" or "the answer is no"’
+
+# define zero-shot io prompting
+standard_prompt = ‘Answer the following question with {format}: {input}’
+
+# define thought format for zero-shot cot and zero-shot tot
+cot_prompt = ‘‘‘Answer the following question: {input}
+
+Make a strategy then write. Your output should be of the following format:
+
+Strategy:
+Your strategy about how to answer the question. Answer:
+Your answer to the question. It should end with {format}.

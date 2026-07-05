@@ -1,0 +1,18 @@
+M. (2020). Investigating gender bias in language models using causal mediation
+analysis. In NeurIPS. Völske et al., (2017)
+
+Völske, M., Potthast, M., Syed, S., and Stein, B. (2017). Tl; dr: Mining reddit to learn automatic summarization. In Proceedings of the Workshop on New Frontiers in
+Summarization, pages 59–63. Wang et al., (2019)
+
+Wang, A., Pruksachatkun, Y., Nangia, N., Singh, A., Michael, J., Hill, F.,
+Levy, O., and Bowman, S. R. (2019). Superglue: A stickier benchmark for general-purpose language
+understanding systems. arXiv preprint arXiv:1905.00537. Wei et al., (2021)
+
+Wei, J., Bosma, M., Zhao, V. Y., Guu, K., Yu, A. W., Lester, B., Du, N., Dai,
+A. M., and Le, Q. V. (2021). Finetuned language models are zero-shot learners. arXiv preprint arXiv:2109.01652. Weidinger et al., (2021)
+
+Weidinger, L., Mellor, J., Rauh, M., Griffin, C., Uesato, J., Huang, P.-S.,
+Cheng, M., Glaese, M., Balle, B., Kasirzadeh, A., et al. (2021). Ethical and social risks of harm from language models. arXiv preprint arXiv:2112.04359. Welbl et al., (2021)
+
+Welbl, J., Glaese, A., Uesato, J., Dathathri, S., Mellor, J., Hendricks, L. A.,
+Anderson, K., Kohli, P., Coppin, B., and Huang, P.-S. (2021).

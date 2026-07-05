@@ -1,0 +1,41 @@
+Action 1:
+
+Search[Reign Over Me]
+
+Observation 1:
+
+Reign Over Me ... Thought 2:
+
+The observation says that it is an American film made in 2007, so it is not made in 2010. Action 2:
+
+Finish[REFUTES]
+
+Observation 2:
+
+Episode finished
+
+Act
+
+Claim:
+
+Reign Over Me is an American film made in 2010. Action 1:
+
+Search[Reign Over Me]
+
+Action 2:
+
+Finish[SUPPORTS]
+
+Observation 2:
+
+Episode finished
+
+CoT
+
+Claim:
+
+Reign Over Me is an American film made in 2010. Thought:
+
+Let’s think step by step. First, is Reign Over Me an American film? Yes, it is. Second, was it made in 2010? Yes, it was. Answer:
+
+SUPPORTS

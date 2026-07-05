@@ -1,0 +1,16 @@
+X. Yue, T. Zheng, Y. Ni, Y. Wang, K. Zhang, S. Tong, Y. Sun, B. Yu, G. Zhang, H. Sun, et al. (2025)
+Mmmu-pro: a more robust multi-discipline multimodal understanding benchmark. In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),
+
+pp. 15134–15186. Cited by: 3rd item. P. Zhang, W. He, M. Liu, W. Xiao, S. Zou, Y. Li, X. Wang, G. Zhang, Y. Liu, W. Dai, et al. (2026)
+FUSE: fine-grained and semantic-aware learning for unified image understanding and generation. In Proceedings of the AAAI Conference on Artificial Intelligence,
+
+Vol. 40, pp. 28355–28363. Cited by: §1. R. Zhang, D. Jiang, Y. Zhang, H. Lin, Z. Guo, P. Qiu, A. Zhou, P. Lu, K. Chang, Y. Qiao, P. Gao, and H. Li (2025)
+MATHVERSE: does your multi-modal llm truly see the diagrams in visual math problems?. In Computer Vision – ECCV 2024, A. Leonardis, E. Ricci, S. Roth, O. Russakovsky, T. Sattler, and G. Varol (Eds.),
+
+Cham, pp. 169–186. External Links: ISBN 978-3-031-73242-3
+
+Cited by: 3rd item,
+2nd item,
+§1,
+§3.3. R. Zhang, H. Zhang, and Z. Zheng (2024)
+VL-uncertainty: detecting hallucination in large vision-language model via uncertainty estimation.

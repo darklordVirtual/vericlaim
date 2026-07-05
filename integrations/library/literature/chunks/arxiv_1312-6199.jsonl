@@ -1,0 +1,38 @@
+{"fsid": "arxiv_1312-6199", "n": 37, "overlap": 200, "source_sha256": "ede231bcfdf22e6aa5daabc001941da40f48f2e2a2989e5cd304f92dd7fdc5fa", "target": 1200}
+{"section": "", "seq": 0, "sha256": "94eb1e40dad426204893fdc80b9b6ea6fbfbbfbf6447df1574f1052fa461762f"}
+{"section": "Intriguing properties of neural networks", "seq": 1, "sha256": "39813efa093b979ddb5f48b6e395dfd27a20d62e5d82f390e89c4accbb35f245"}
+{"section": "Intriguing properties of neural networks", "seq": 2, "sha256": "2e78d3dd3365144b3a152191488c37e3fb23460f1b422954f57da82e10c627ec"}
+{"section": "1 Introduction", "seq": 3, "sha256": "dbf6cd0a91fcc3484b3937282a8d852ad939c051c7288500ad3ce246a9718fe0"}
+{"section": "1 Introduction", "seq": 4, "sha256": "13679ad652c6015c9d84097ded9df3a1dfb088104d3336cc2ce6901f3c419b1e"}
+{"section": "1 Introduction", "seq": 5, "sha256": "7e35a2c87b2dad23ca9009aff621d794437885e500c58d2c3a1fcf6ed16d4d6c"}
+{"section": "1 Introduction", "seq": 6, "sha256": "43fde562f6bd7d7ee23030f5b4efb132e5df3ca660a7a20cd7f06be81f5308f4"}
+{"section": "2 Framework", "seq": 7, "sha256": "87c099a84ef210bde21a3a52e888dcb29e0bd9616ddf3f561a725977737d83cb"}
+{"section": "3 Units of:", "seq": 8, "sha256": "6409e90d4e989547b6268eda134babdb6f81c4c5b58988cef786106ed0b7cb4c"}
+{"section": "3 Units of:", "seq": 9, "sha256": "1e082b0d39c94e567cdf4fc0f122ba69327631231d7714406186dd427cabcdd4"}
+{"section": "3 Units of:", "seq": 10, "sha256": "8c46f32f8c7826d21f3a06d386402f5cc95549ee7bbad94505437a6b3bd0e073"}
+{"section": "3 Units of:", "seq": 11, "sha256": "8846bee9a39945fa4589795b41a25c5a1177a170bd0e69e4829cb46334944e1d"}
+{"section": "4 Blind Spots in Neural Networks", "seq": 12, "sha256": "28a980734cced58496286ce4934d5f6fabae7b181769073858a79b6229b39814"}
+{"section": "4 Blind Spots in Neural Networks", "seq": 13, "sha256": "4a35b517ece38cb0d1cd99d8f4ae9b3df8b6ff8fe17475c8ddb618ff745fc4ba"}
+{"section": "4 Blind Spots in Neural Networks", "seq": 14, "sha256": "4a993fec93f69f2d4f9626013bfbae03bcd0b76e886b144b9a7df258b89800c3"}
+{"section": "4 Blind Spots in Neural Networks", "seq": 15, "sha256": "85bdaaa1ba921185b89bde24cd35055907531a45e0758f3731e06789fcd382bd"}
+{"section": "4 Blind Spots in Neural Networks", "seq": 16, "sha256": "7d84dcc412db075660121a1ceb22257642ca1aeae7d451e9ec698e0f31a4cdf3"}
+{"section": "4.1 Formal description", "seq": 17, "sha256": "29df4f51decc5eca8e4da0ace743b58cf4f096cf8edacd0c69c198d2a0867e5f"}
+{"section": "4.2 Experimental results", "seq": 18, "sha256": "c182035371a248c75c01ee5ee882ecf388c965fb8264286cb7702c99bbe139d5"}
+{"section": "4.2 Experimental results", "seq": 19, "sha256": "67cbfd0ee07f17a0f915fffbf7fba9450ba9b7d1cdc9cb89bcecdcd9c432ff56"}
+{"section": "4.2 Experimental results", "seq": 20, "sha256": "2f4235e54605f8138436373fdbea4f6b7dd0c59dcfd43c685130651f021f3a0e"}
+{"section": "4.2 Experimental results", "seq": 21, "sha256": "fa406ca5a849b9721443241832232090d12bee8e6c359dfc464956e365028470"}
+{"section": "4.2 Experimental results", "seq": 22, "sha256": "97e991fe7889a9a45ff8acde04f53b1c965f4a8fa7f590fab932a5839791ffbb"}
+{"section": "4.2 Experimental results", "seq": 23, "sha256": "b5ee5aa85480fce99337139220c29de826a0e46ff320bee55c55ea700aaf6319"}
+{"section": "4.2 Experimental results", "seq": 24, "sha256": "6b26f23ed416fa47194eb94786bc630ab107fc7436e08daa535c3865cc5007d6"}
+{"section": "4.2 Experimental results", "seq": 25, "sha256": "b69565ee6d0aec87bbd813f9a345a5721a2c341c3a2310b7be37e8a4662b4dea"}
+{"section": "4.2 Experimental results", "seq": 26, "sha256": "0be287911f908760abd4690480b37e117d3229ab371cef2311a94b13e9b88143"}
+{"section": "4.2 Experimental results", "seq": 27, "sha256": "a06c2fa7dbe53690d3f9193132ef20dd1246e3fb4a1b2e20f8462eaf26ee9ea4"}
+{"section": "4.2 Experimental results", "seq": 28, "sha256": "7d92efdfa099d28c3861c838e13d3d49abe86da01f6a06b56fbddcbc9e5969d7"}
+{"section": "4.3 Spectral Analysis of Unstability", "seq": 29, "sha256": "c7f61515c89e6b3ab296ec7e3d7f18b96f621b6fb148ea050549fb59fa692e57"}
+{"section": "4.3 Spectral Analysis of Unstability", "seq": 30, "sha256": "54d296f4aa09d148fe922f133deb31225d45786d6140f0de750a4073c47af5ca"}
+{"section": "4.3 Spectral Analysis of Unstability", "seq": 31, "sha256": "de7f660ead3c0ee748927576d27b0683e7d08a813a1533ae40f94d0a54698a8d"}
+{"section": "4.3 Spectral Analysis of Unstability", "seq": 32, "sha256": "fceda428a502caac28d159fe8c3c2daf8440ff55a3e9997c66d7543e081efd6c"}
+{"section": "5 Discussion", "seq": 33, "sha256": "1998a9510418a496e13dd00613b79ebefad6f3bac45fe83d92df6ddb00cd0a49"}
+{"section": "References", "seq": 34, "sha256": "7730dba5fb0c438035011fd876c2a1a3e35ae8b2148bd1c892f0e102c8b57bfd"}
+{"section": "References", "seq": 35, "sha256": "f48983b7b0cf88865be0fa9d4c74243a624f05c7e1bf2222167d11315b1d3b96"}
+{"section": "References", "seq": 36, "sha256": "a75caadf4d538da34061e940ef7e401a51da97ddbd1d042c2349796ca041b383"}

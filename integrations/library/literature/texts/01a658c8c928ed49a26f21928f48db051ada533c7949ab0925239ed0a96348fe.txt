@@ -1,0 +1,25 @@
+Table 6: We show the results for the “Oracle”-collapsed retrieval setting, which uses oracle files but collapses code that isn’t directly modified by the PR lines. Model
+“Oracle”-collapsed
+
+Resolved
+Applied
+
+ChatGPT-3.5
+
+1.0
+
+23.2
+
+Claude 2
+
+5.9
+
+47.6
+
+GPT-4
+
+3.4
+
+18.8
+
+Further investigating this, we provide an input ablation on the “oracle” retrieval context, where retrieved files are collapsed entirely, except for the lines actually edited by the true pull request (with lines of buffer) shown in Figure 5. In this setting, we see increases in performance, with GPT-4 jumping from to and Claude 2 from to . Difficulty does not correlate with issue resolution date. In Table 7 we show model results in the “oracle” retrieval setting, partitioned by date, for PRs created before or after 2023. We find that for most models there’s little difference in performance before or after this date, with the exception of GPT-4. We consider this result to be largely promising as it suggests that despite models having been exposed to some version of an repository’s codebase, they are unlikely to “cheat” to address issues simply by generating a more recent version of the repository.

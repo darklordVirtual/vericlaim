@@ -1,0 +1,17 @@
+Vinyals, J. Rae,
+E. Elsen, K. Kavukcuoglu, and K. Simonyan. Unified scaling laws for routed language models, 2022. URL https://arxiv.org/abs/2202.01169. Clark et al. (2019)
+
+C. Clark, K. Lee, M.-W. Chang, T. Kwiatkowski, M. Collins, and K. Toutanova. Boolq: Exploring the surprising difficulty of natural yes/no
+questions. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pages 2924–2936, 2019. Du et al. (2021)
+
+N. Du, Y. Huang, A. M. Dai, S. Tong, D. Lepikhin, Y. Xu, M. Krikun, Y. Zhou,
+A. W. Yu, O. Firat, B. Zoph, L. Fedus, M. Bosma, Z. Zhou, T. Wang, Y. E. Wang, K. Webster, M. Pellat, K. Robinson, K. Meier-Hellstern, T. Duke,
+L. Dixon, K. Zhang, Q. V. Le, Y. Wu, Z. Chen, and C. Cui. Glam: Efficient scaling of language models with mixture-of-experts,
+2021. URL https://arxiv.org/abs/2112.06905. Fedus et al. (2021)
+
+W. Fedus, B. Zoph, and N. Shazeer. Switch transformers: Scaling to trillion parameter models with simple
+and efficient sparsity. arXiv preprint arXiv:2101.03961, 2021. Gao et al. (2020)
+
+L. Gao, S. Biderman, S. Black, L. Golding, T. Hoppe, C.

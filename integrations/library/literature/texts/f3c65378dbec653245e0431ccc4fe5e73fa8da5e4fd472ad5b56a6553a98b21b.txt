@@ -1,0 +1,14 @@
+We conjecture that this functional form may also parameterize the trained log-likelihood for other generative modeling tasks. When training a given model for a finite number of parameter update steps in the infinite data limit, after an initial transient period, the learning curves can be accurately fit by (see the right of figure 4)
+
+(1.6)
+
+where and , and is the minimum possible number of optimization steps (parameter updates)
+estimated using Equation (5.4). When training within a fixed compute budget , but with no other constraints, Equation (1.6) leads to the prediction that the optimal model size , optimal batch size , optimal number of steps , and dataset size should grow as
+
+(1.7)
+
+with
+
+(1.8)
+
+which closely matches the empirically optimal results , , and . As the computational budget increases, it should be spent primarily on larger models, without dramatic increases in training time or dataset size (see Figure 3). This also implies that as models grow larger, they become increasingly sample efficient. In practice, researchers typically train smaller models for longer than would be maximally compute-efficient because of hardware constraints.

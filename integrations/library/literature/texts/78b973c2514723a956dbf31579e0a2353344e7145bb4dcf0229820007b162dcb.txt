@@ -1,0 +1,1 @@
+Figure 32: Bias results on Winogender and CrowS-Pairs. Our results on the Winogender and CrowS-Pairs dataset are shown in Figure 32. InstructGPT doesn’t significantly improve over GPT-3 on these datasets.

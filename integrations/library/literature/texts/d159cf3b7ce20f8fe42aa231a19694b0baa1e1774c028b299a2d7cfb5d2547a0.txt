@@ -1,0 +1,19 @@
+One of the great features of Event Sourcing is that you can reprocess
+events as much as you like. However if processing events should cause
+interactions with external systems, then this is a Bad Thing. The best
+that could happen is they'll tired of all your Spam events. An easy way to help deal with this is to ensure that your
+system calls external systems through gateways that can be
+configured to ensure that no messages go out unless you are
+processing an event 'for real'. I'll illustrate this with a simple example using ships and
+ports (no cargo this time). Let's say that whenever a ship enters
+a port it must notify the local customs authority. We can make
+this happen in the event processing domain logic. class Port... public void HandleArrival (ArrivalEvent ev) {
+ev.Ship.Port = this;
+Registry.CustomsNotificationGateway.Notify(ev.Occurred, ev.Ship, ev.Port);
+}
+
+Notice that this code just invokes the notification on the
+gateway object, it doesn't care whether this is a real processing
+or some kind of replay. The general principle here is that the
+domain logic should never care about the context of the running of
+the events.

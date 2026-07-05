@@ -1,0 +1,15 @@
+Misspelling oblivious word embeddings, 2019. URL https://arxiv.org/abs/1905.09755. Edmiston & Stratos (2018)
+
+Daniel Edmiston and Karl Stratos. Compositional morpheme embeddings with affixes as functions and stems
+as arguments. In Proceedings of the Workshop on the Relevance of Linguistic
+Structure in Neural Architectures for NLP, pp. 1--5, Melbourne,
+Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/W18-2901. URL https://aclanthology.org/W18-2901. Efrat et al. (2021)
+
+Avia Efrat, Uri Shaham, Dan Kilman, and Omer Levy. Cryptonite: A cryptic crossword benchmark for extreme ambiguity in
+language. In Proceedings of the 2021 Conference on Empirical Methods in
+Natural Language Processing, pp. 4186--4192, Online and Punta Cana,
+Dominican Republic, November 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.emnlp-main.344. URL https://aclanthology.org/2021.emnlp-main.344. Ein Dor et al. (2018)
+
+Liat Ein Dor, Alon Halfon, Yoav Kantor, Ran Levy, Yosi Mass, Ruty Rinott, Eyal
+Shnarch, and Noam Slonim. Semantic relatedness of Wikipedia concepts -- benchmark data and a
+working solution.

@@ -1,0 +1,14 @@
+A baseline for detecting misclassified and out-of-distribution
+examples in neural networks. In International Conference on Learning Representations, 2017. URL https://openreview.net/forum?id=Hkg4TI9xl. Hendrycks et al. (2019)
+
+Dan Hendrycks, Kimin Lee, and Mantas Mazeika. Using pre-training can improve model robustness and uncertainty. In Kamalika Chaudhuri and Ruslan Salakhutdinov (eds.),
+Proceedings of the 36th International Conference on Machine Learning,
+volume 97 of Proceedings of Machine Learning Research, pp. 2712--2721. PMLR, 09--15 June 2019. URL https://proceedings.mlr.press/v97/hendrycks19a.html. Hendrycks et al. (2020)
+
+Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song,
+and Jacob Steinhardt. Aligning AI with shared human values, 2020. URL https://arxiv.org/abs/2008.02275. Hendrycks et al. (2021a)
+
+Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora,
+Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn Song, and Jacob
+Steinhardt. Measuring coding challenge competence with APPS,
+2021a. URL https://arxiv.org/abs/2105.09938. Hendrycks et al.

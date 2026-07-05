@@ -1,0 +1,15 @@
+Generation is the completion of production of a new entity by an activity. This entity did not exist before generation and becomes available for usage after this generation. [Detailed specification]
+
+Usage is the beginning of utilizing an entity by an activity. Before usage, the activity had not begun to utilize this entity and could not have been affected by the entity. [Detailed specification]
+
+Example 3 ◊
+
+Examples of generation are the completed creation of a file by a
+program, the completed creation of a linked data set, and the completed
+publication of a new version of a document. Example 4 ◊
+
+Usage examples include a procedure beginning to consume an argument, a service starting to read a value on a port, a program beginning to read a configuration
+file, or the point at which an ingredient, such as eggs, is being added in a baking activity. Usage may entirely consume an entity (e.g. eggs are no longer available after being added to
+the mix); in contrast, the same entity may be used multiple times, possibly by different activities (e.g. a file on a file system can be read indefinitely). Example 5 ◊
+
+Let us consider the activity of driving a car from Boston to Cambridge.

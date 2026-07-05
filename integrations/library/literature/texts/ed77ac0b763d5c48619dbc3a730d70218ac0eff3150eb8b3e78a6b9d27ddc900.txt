@@ -1,0 +1,9 @@
+The AI Office shall provide coordination support for joint investigations. 12. Without prejudice to the powers provided for under Regulation (EU) 2019/1020, and where relevant and limited to what is necessary to fulfil their tasks, the market surveillance authorities shall be granted full access by providers to the documentation as well as the training, validation and testing data sets used for the development of high-risk AI systems, including, where appropriate and subject to security safeguards, through application programming interfaces (API) or other relevant technical means and tools enabling remote access. 13. Market surveillance authorities shall be granted access to the source code of the high-risk AI system upon a reasoned request and only when both of the following conditions are fulfilled:
+
+(a)
+
+access to source code is necessary to assess the conformity of a high-risk AI system with the requirements set out in Chapter III, Section 2; and
+
+(b)
+
+testing or auditing procedures and verifications based on the data and documentation provided by the provider have been exhausted or proved insufficient. 14.

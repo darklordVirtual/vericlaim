@@ -1,0 +1,11 @@
+We now consider and refute some alternative hypotheses for the existence of adversarial
+examples. First, one hypothesis is that generative training could provide more constraint
+on the training process, or cause the model to learn what to distinguish “real” from “fake”
+data and be confident only on “real” data. The MP-DBM (Goodfellow et al., 2013a) provides a good model to test this hypothesis. Its inference procedure gets
+good classification accuracy (an 0.88% error rate) on MNIST. This inference procedure is differentiable. Other generative models either have non-differentiable inference procedures, making it harder to compute
+adversarial examples, or require an additional non-generative discriminator model to get
+good classification accuracy on MNIST. In the case of the MP-DBM, we can be sure that the generative
+model itself is responding to adversarial examples, rather than the non-generative classifier model
+on top. We find that the model is vulnerable to adversarial
+examples. With an of 0.25, we find an error rate of 97.5% on adversarial examples generated
+from the MNIST test set.

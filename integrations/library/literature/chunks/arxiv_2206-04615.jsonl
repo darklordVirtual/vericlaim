@@ -1,0 +1,429 @@
+{"fsid": "arxiv_2206-04615", "n": 428, "overlap": 200, "source_sha256": "a0bc714ffff45704b54d9e93e0b1e171c7fce2348a67fb1bccbf3615f14e71eb", "target": 1200}
+{"section": "", "seq": 0, "sha256": "879ab0850dbe49d9bc35dec5678b5e8f10e21174d46505b947e07581df0e7cf9"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 1, "sha256": "77984812faea065bd32866bf313f3375d25c1f4b0258b800bd48092a404caa60"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 2, "sha256": "c3f1cf62d21457e7c4c9e3a1589c2f95aae34811102e1e4a1953951f607ed019"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 3, "sha256": "103a859d8e0a113a9879c0fe8357c06e916c9398b3fb0aa0fa6295a3fe98442d"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 4, "sha256": "69d1b3d445f405b78622f95a294ef7070091953323b2127828228c2daec5f173"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 5, "sha256": "a6b8a842673a26181da5c6a7bf9bf50cd13546e2a3cd7c057cb4da90d342a879"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 6, "sha256": "39231a3aa949a5241c0e4ba43cbe30bcd3bc7e0832eb6b9adacd3cfa16e5496e"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 7, "sha256": "f66a9ca37685a67a7718cd24dc3370744879c61ebd809fc1483f3ec21e6985fb"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 8, "sha256": "a53039fc392b9124909fe47cdd57335d242be2ea39c9b62e47a62e62c3086e87"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 9, "sha256": "c0cb7b882a26ea23259dda4f2302f51389bc04c11083f5014d8eef951f1bf1ca"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 10, "sha256": "071ba48e6567f0e7b643fcc2f7cb2d5c18f063d9dcefa70cbadf951928fb1e12"}
+{"section": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "seq": 11, "sha256": "cea8e36e2dd0d73ee6ce144bd257346ab8ab576d8fab0d2f3d6db6752bd2d158"}
+{"section": "1 Introduction", "seq": 12, "sha256": "19b92cfbe04276e6128c5d99d9ebec33c83a53faa264d8300dd8be49fc82dc1a"}
+{"section": "1 Introduction", "seq": 13, "sha256": "62e905dde59170c0aab8f03556ec9d2ef4979cde807225f7537eeb92c7b868fe"}
+{"section": "1.1 Quantity has a quality all its own", "seq": 14, "sha256": "68d4113f9f9acf8cadb9bfcba9ff56274fe92fcfc6973a5c76cfa618a7dfad86"}
+{"section": "1.1 Quantity has a quality all its own", "seq": 15, "sha256": "8b3370b04f23a8b0cc587c561bc8391d174a3cb2971a5f6971c695d8ca2baf1c"}
+{"section": "1.1 Quantity has a quality all its own", "seq": 16, "sha256": "cab03e65e3bc35d556629c987bda5af14dcbf677963a993097b0e7bf0937652e"}
+{"section": "1.1 Quantity has a quality all its own", "seq": 17, "sha256": "7cc11f07c8be9baa5ed14cfc3e659f2297243e99b3bfd0f25de669a6c38912eb"}
+{"section": "1.1 Quantity has a quality all its own", "seq": 18, "sha256": "ce2ab6b24e918b506d723f1b60c14624285be88b4f72556857bc82092163bd57"}
+{"section": "1.2 Limitations of current benchmarks", "seq": 19, "sha256": "3f1aae6d7c5dff7fa1c50390c893281d384db181d1e74bd7055b60426afb0a05"}
+{"section": "1.2 Limitations of current benchmarks", "seq": 20, "sha256": "ab65cf381e5c9680bb3eab4aa3bc4175cc0eb8073125cfc3a9fc3fd5d2b14008"}
+{"section": "1.2 Limitations of current benchmarks", "seq": 21, "sha256": "14bc0090428ab20c5ef158d07b368176ccb01ee0f0314068b6e1605714207485"}
+{"section": "1.3 Beyond the imitation game", "seq": 22, "sha256": "ddc535be4820891ec98f7742dff948cdd3dab810180a855bc1540b9090c2dc3e"}
+{"section": "1.3 Beyond the imitation game", "seq": 23, "sha256": "0e4562dde0cf0a917f454b3d5616f66ec9e51d6bcd7459561c9f9a473ec86d33"}
+{"section": "1.3 Beyond the imitation game", "seq": 24, "sha256": "808729623de1bd846bcac7e3811be7255ab9822322d6f925dc0b72860ebad268"}
+{"section": "1.3 Beyond the imitation game", "seq": 25, "sha256": "b5620e5e4dae7f095a97de433110f4cb166f91d2bc6270a8b284d3817483d34e"}
+{"section": "2 What is in BIG-bench?", "seq": 26, "sha256": "043b4aff7c932f7e34ac9e426cac2cf673b1204d51b208bd77d18e40d4054f33"}
+{"section": "2 What is in BIG-bench?", "seq": 27, "sha256": "463054221283975384d1d9e96c118d8e98a1fddd81dc67c8ffcfa2c3bc7d356a"}
+{"section": "2 What is in BIG-bench?", "seq": 28, "sha256": "39a527f1aa39e457dd92518a5110c457ba759930e2649825165a2971d0b7097b"}
+{"section": "2.1 The BIG-bench API", "seq": 29, "sha256": "be60c52a8e421c21962cfd21d9f9c93f3ad95b9cff4bd5ed2b991de38d6ef251"}
+{"section": "2.1 The BIG-bench API", "seq": 30, "sha256": "1030a7e703c886a9ceacf9b7cf5bf88d2ee3dc8ba22a56ca3884e18f855bd351"}
+{"section": "2.1 The BIG-bench API", "seq": 31, "sha256": "2298cf0c896181a4e02715f322acef04c1587f9bcdd4d0ace39207ff0eef491f"}
+{"section": "2.2 BIG-bench Lite", "seq": 32, "sha256": "9d22ab2856d3f474a96c3c8c660ff0b21f7abf0675f53b138bd53b2034088371"}
+{"section": "2.2 BIG-bench Lite", "seq": 33, "sha256": "c88aa5dd62a580e2524b568632d48f0e3e5069c55e511fa997196a1c51708052"}
+{"section": "2.3 Evaluation targets", "seq": 34, "sha256": "5a7b2a472a2d66ac0d1c2592e3cfb6d6646c61b5d89a9f04738cb5a71e91c4bc"}
+{"section": "2.3 Evaluation targets", "seq": 35, "sha256": "d8970ccfa3cde9f9a964f4bfbea3476db053f399be5a615617263075baafb635"}
+{"section": "2.3 Evaluation targets", "seq": 36, "sha256": "bf7296128e0906d81f0fd4d52efdc6149507613a5b6965a2a4c2b6d684e1f4b7"}
+{"section": "2.3 Evaluation targets", "seq": 37, "sha256": "5cbb48bbfd6d69c98a7b08e0c7bebe347de3f560bc9888c9ccc4e0050f10d7ec"}
+{"section": "2.3 Evaluation targets", "seq": 38, "sha256": "1fc0ff96b03a06de12294ad0f1fdb313e50ccb1bf0fd2fb740428f5cb3377b4f"}
+{"section": "2.3 Evaluation targets", "seq": 39, "sha256": "6a9537b52f002f881da8b6c8519934e5caba32c4df30878de503aa84a1a8fb5d"}
+{"section": "2.4 Include a canary string in all documents about BIG-bench", "seq": 40, "sha256": "6f11d14629cd8fe712c5d34d492c4540e058acc64d3664e1d04aa52c10396a2f"}
+{"section": "3.1 Aggregate performance improves with model size but is worse than human performance", "seq": 41, "sha256": "fba0263d0741fba18a3b517a939e15f04472fa2fcd6ea1278c308984c5deaf63"}
+{"section": "3.1 Aggregate performance improves with model size but is worse than human performance", "seq": 42, "sha256": "18ca28733f84d778a6da75950d54e19b045ab3468abbc7d08b1a8003e96111bc"}
+{"section": "3.2 Model predictions grow better calibrated with increased scale", "seq": 43, "sha256": "335de1d08da1fcca9fc756f5a4dd4353a66e1b032e722b695c26a8af41fed651"}
+{"section": "3.2 Model predictions grow better calibrated with increased scale", "seq": 44, "sha256": "08d9126002eeb58a93703fcae91b44fccbb7417dd46230f70bb207ef08da6513"}
+{"section": "3.2 Model predictions grow better calibrated with increased scale", "seq": 45, "sha256": "9539ab5c0d1dd09a5e2c60f97425406c6203e76cd4ac27c19287868b881402b4"}
+{"section": "3.2 Model predictions grow better calibrated with increased scale", "seq": 46, "sha256": "68787300fbc0c1e1dca853335f3c2028cff7fd74a42e15d704b6ddd3f2d22beb"}
+{"section": "3.3 Model classes behave similarly, with benefits from sparsity", "seq": 47, "sha256": "5edca96affe9066a8b359e6fe0a33935d16b6f451303eac061e975ee22e70bac"}
+{"section": "3.3 Model classes behave similarly, with benefits from sparsity", "seq": 48, "sha256": "0e7141b6249b31b5edf13a89d13ef26cf4dcd095c4e68b665067413f2201bc27"}
+{"section": "3.3 Model classes behave similarly, with benefits from sparsity", "seq": 49, "sha256": "1966885c687514a26dd050538dcd8e76d5f01f2e9d54fc66b9525ef9e5823f64"}
+{"section": "3.3 Model classes behave similarly, with benefits from sparsity", "seq": 50, "sha256": "34f8c0c6786b3dd31e7a89b60d24ccece6233bd5963805ff0e74a8d35461dceb"}
+{"section": "3.4 Linearity and breakthroughness: categorizing scaling behaviors", "seq": 51, "sha256": "a315d5a7e71bd6ac56ffd80b7d0f5b350ae0ab91f9dba359db98bd752246b135"}
+{"section": "3.4 Linearity and breakthroughness: categorizing scaling behaviors", "seq": 52, "sha256": "a7697a0f99b5368f0c6dc2b5532d1d10c71e3fce3192db96d690835d99e2f8d2"}
+{"section": "3.4 Linearity and breakthroughness: categorizing scaling behaviors", "seq": 53, "sha256": "3490252590b314b7e443d53250709ac12f2c20165af64308eea6aa86cc73ab13"}
+{"section": "3.4 Linearity and breakthroughness: categorizing scaling behaviors", "seq": 54, "sha256": "7bceaecea5111f8f871660c4670257514d43e8a21d0fdcf16db925a901bb9b72"}
+{"section": "3.4 Linearity and breakthroughness: categorizing scaling behaviors", "seq": 55, "sha256": "8868db1b047dd4abfec75d285621e785d189d3d277b1abb5faa8bb980e64371f"}
+{"section": "3.4 Linearity and breakthroughness: categorizing scaling behaviors", "seq": 56, "sha256": "46f8cacf0f9b07827b986e40b26d51b96191e6059a694c68d04d5095aadbefbb"}
+{"section": "3.4 Linearity and breakthroughness: categorizing scaling behaviors", "seq": 57, "sha256": "e2a61c7ca2a161ab4397118c50cc67c19df294214a909e24424f588a8d49a759"}
+{"section": "3.4 Linearity and breakthroughness: categorizing scaling behaviors", "seq": 58, "sha256": "3f1ff103c2e5530eabc20e584472696fd0fdd678357dc285f9d966c5af1f828a"}
+{"section": "3.4 Linearity and breakthroughness: categorizing scaling behaviors", "seq": 59, "sha256": "e477e2bba1eb528c716827d1dcde73b79b2862df4a2833db8b4c84441def0bf1"}
+{"section": "3.5 Even large language models are brittle", "seq": 60, "sha256": "9b4d7467f6d9512066275d765b99c783e014b6481e052dc2e10df3b29172d700"}
+{"section": "3.5 Even large language models are brittle", "seq": 61, "sha256": "08211da7699cbc9acfc01341a7e4a8e433d6ed05d35f8825fb49d842c8d73694"}
+{"section": "3.5 Even large language models are brittle", "seq": 62, "sha256": "955cadcae47a18b17ce8c37aec0164b689d99c1068ae38c4ae26c5e21f5ef7ff"}
+{"section": "3.5 Even large language models are brittle", "seq": 63, "sha256": "8d162a74abe2ad8edce54b9c6304c45bc951b0d7fe0e2776324ede4ef7bba3b3"}
+{"section": "3.5 Even large language models are brittle", "seq": 64, "sha256": "deaf8a13687ef2e8208d439da3a82af335eb29c7a3b0c118183ee26996c5ca3a"}
+{"section": "3.5 Even large language models are brittle", "seq": 65, "sha256": "466377a971d408abd31316b3faa186cd1d0a9155b7791c0ae955d26b3e7f83be"}
+{"section": "3.6 Social bias in large language models", "seq": 66, "sha256": "612e10426de0998d3bc8e18ddba342778aaeb57ba838969ef03effb3a3325c06"}
+{"section": "3.6 Social bias in large language models", "seq": 67, "sha256": "9f0af582d021666422f44685ab4c94c166788b4ad0682dfe738ead626fe367eb"}
+{"section": "3.6 Social bias in large language models", "seq": 68, "sha256": "431d9ed3e881966319c29e6e6591ad0ae2825fd6bea340555f618df38e9204f9"}
+{"section": "3.6 Social bias in large language models", "seq": 69, "sha256": "099aea20d5795cae1de1534b20853574adfa867000318130d218a970ff5d9adf"}
+{"section": "3.6 Social bias in large language models", "seq": 70, "sha256": "32111a88144a8a436a287dfb4d644b2f22f69ba14a4320e33c42d1afdfc1129c"}
+{"section": "3.6 Social bias in large language models", "seq": 71, "sha256": "d9cde3a6371327d5d06d3af260323a143d71ebe5c0f162ea7a1e458051b8a7be"}
+{"section": "3.6 Social bias in large language models", "seq": 72, "sha256": "f11460cf64c130bf5bf21d3d78c4778485cb811376da54906796f5e7c29faa66"}
+{"section": "3.7 Performance on non-English languages", "seq": 73, "sha256": "c8c21c3eb375db0f279c005acbee5d04f49cfa2fab7e9c7de7015c146c7447ef"}
+{"section": "3.7 Performance on non-English languages", "seq": 74, "sha256": "546967cb24f1ff8e687ad3465e4a259fdb6edd03bf8a93064f244dc0e5ac11af"}
+{"section": "3.7 Performance on non-English languages", "seq": 75, "sha256": "dfccc9cfbbc12f5f8baa422b0d23556dbf770ca918177aaad013bb5935080bf8"}
+{"section": "3.7 Performance on non-English languages", "seq": 76, "sha256": "a6e7b94f985efabf40b8a66b3b209f9a1d3f28eca9439e1d9dc246996681bb35"}
+{"section": "3.7 Performance on non-English languages", "seq": 77, "sha256": "a26a8819b902b0db375efbd09bab12ed17913e4bc3761e9b9c0fef2c0467d7de"}
+{"section": "3.7 Performance on non-English languages", "seq": 78, "sha256": "4d79ad52dea6257acd16c0e506f52310908eeb1d9a42a4808dc2967ec396242c"}
+{"section": "3.7 Performance on non-English languages", "seq": 79, "sha256": "0f17ec697fed85bb350c512088845f97b5dec1690223e75481d4fa95653e071c"}
+{"section": "4 Behavior on selected tasks", "seq": 80, "sha256": "738d57fb11f0bdd1b3d32c4d162d035f531146ec380490c781ce7fb650219fae"}
+{"section": "4.1 Checkmate-in-one task", "seq": 81, "sha256": "14e6506514f14b2341cb58a13de35781e0ae00b97c9f5443b2cb56529372405f"}
+{"section": "4.1 Checkmate-in-one task", "seq": 82, "sha256": "f5c1757fa4db60f409928bd05444f0b4b45b168b0c435521324be4e8f17025c6"}
+{"section": "4.1 Checkmate-in-one task", "seq": 83, "sha256": "928045578684e5d166bb5429b292df4bf309ec3cfd2db5849883679c8ea93769"}
+{"section": "4.1 Checkmate-in-one task", "seq": 84, "sha256": "24cc598f29cf77d3b3704dd8b38ff03d9d5eb25d175032f713d4ea851b6eafbf"}
+{"section": "4.1 Checkmate-in-one task", "seq": 85, "sha256": "aa8809ab71287155cc3569d4bc13e1a7fdcef755594670befd5154cd163b04d7"}
+{"section": "4.1 Checkmate-in-one task", "seq": 86, "sha256": "ee816cacf850a74ce6e915beff4e4f6722982c49646a7df6f221fa6ef6e34012"}
+{"section": "4.2 Periodic elements task", "seq": 87, "sha256": "a5158e800a86ec0c27a678b44208d44fc992c900aa69c88f40e4394495368b81"}
+{"section": "4.2 Periodic elements task", "seq": 88, "sha256": "d384eff6852188bdcf0d65cb099eb5f03ad38867eb1fa0815b0c8da9c3c84899"}
+{"section": "4.2 Periodic elements task", "seq": 89, "sha256": "548e08cb78a5bdd03e7e5b88599205b355a48528354bce764670fc52c46b18cd"}
+{"section": "4.2 Periodic elements task", "seq": 90, "sha256": "bf0b02a44004fb0949210b4498d9bebf1382479ac89cffe645865bf31533e73d"}
+{"section": "4.2 Periodic elements task", "seq": 91, "sha256": "6d261eb9a62f3d7a49d0bbd80ba81eca9c5fdd0177310dd171423ac245a36a33"}
+{"section": "4.2 Periodic elements task", "seq": 92, "sha256": "1bafe9e457a19059c5c38d68bbb98164c81a8d896a74bceaf340caafa523b570"}
+{"section": "5 Additional related work", "seq": 93, "sha256": "fb9adb1a585107dac06e01c78c6085149321a405db1851d29ffec47e7f7ef00c"}
+{"section": "5 Additional related work", "seq": 94, "sha256": "ee2a5d2df91559a7581e0369f21be178b0d4a63d4cb9c4a8d45df14618076bf0"}
+{"section": "5 Additional related work", "seq": 95, "sha256": "49d6f687110a57d42afb48f1444c08583721920c81af32ebaf7342c1bad06c85"}
+{"section": "6 Discussion", "seq": 96, "sha256": "1e5d18a7eb3ef91f3f131e7a58e1970259f6c8e7f7b7bb529208492fb6d4bdf7"}
+{"section": "6 Discussion", "seq": 97, "sha256": "9ca5c66716746de13a96c6400398847d2d95deec33e25f60b727420b8dff3e8f"}
+{"section": "6.1 Overall Findings", "seq": 98, "sha256": "bc8a76c5308a3b7c21206a9a304d8f8fe962ee6cd3366bfcc0cd78839a4f868b"}
+{"section": "6.1 Overall Findings", "seq": 99, "sha256": "28ffaaa87688b6195361fec3c2a7a961e4e887a34ad6b72586aefb975cd786a0"}
+{"section": "6.1 Overall Findings", "seq": 100, "sha256": "9dc38c161f598aa017ef25b7e5ceb74b60ed6c0103c077f1f8ee4369879fd7b2"}
+{"section": "6.1 Overall Findings", "seq": 101, "sha256": "5892e4a41eb3a7a6269b59f50e13176c3742d783f62906f2ab94c0830ad1289f"}
+{"section": "6.1 Overall Findings", "seq": 102, "sha256": "6fe13b05621d94b697b19027f306720021752fdf12d787e6f1296821fc08dbc5"}
+{"section": "6.1 Overall Findings", "seq": 103, "sha256": "1b5443ed86620e8b45918f520c26a1d6d484d41f24176dbf6ceaea534ff0a5d1"}
+{"section": "6.2 Conclusion", "seq": 104, "sha256": "15d3b144d6d8bbefbd62bd5f7aa0b3102255bfa1073813fa287df049b7a70f04"}
+{"section": "Broader Impact Statement", "seq": 105, "sha256": "058b8bb86b01b01a933da2485fcb91cc46ed7187f083745f2df6d8ab6777fbcb"}
+{"section": "Broader Impact Statement", "seq": 106, "sha256": "5294427afe5e8ad5842e4ce07f2a355de2540accc4413da4e313dc76f9c6a692"}
+{"section": "7.1 Core contributors", "seq": 107, "sha256": "f3047471c745ad468e3b6a2485995e1956967772f8dd1a241c0749809cf0519c"}
+{"section": "7.1 Core contributors", "seq": 108, "sha256": "3348549e3f371ed18934ef8f1c730f0e16de72250fd1e74d573eed8491e0dd93"}
+{"section": "7.1 Core contributors", "seq": 109, "sha256": "4deaae943169c2cee87d93d3ec0d6a78240a3d1ec59e7bc653bfe1a642cfd930"}
+{"section": "7.1 Core contributors", "seq": 110, "sha256": "129614c551d7cb963145982e027aa55a929d851cecf920f4518799f1dab05a72"}
+{"section": "7.1 Core contributors", "seq": 111, "sha256": "802ed107f11305886901fd8dd220ff9fb576fad88ac3db46183d9bc07112665b"}
+{"section": "7.1 Core contributors", "seq": 112, "sha256": "03d2989604f8406ca929afc6823cce7792716560ebaf6845e1e9fbe887755db4"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 113, "sha256": "1a92550d1f78e337fb8ffa8070bb93ab3e01f31a52833bd7339005e9a5292e2e"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 114, "sha256": "c4b28a875c18e84ada3eb4ac75c829c8ab0780cff165e5283c2ea62fef3c1471"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 115, "sha256": "34759a6ab2693bcd6019800f0d81c42258be9132634c06216b23524a7d81df73"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 116, "sha256": "363f7586f2fe04acefd28711d0cada0911e78e7fe427ac965786056f5293242d"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 117, "sha256": "35eae0f9b97388be6a44dedc9d0999460393701172cd178e34d1c66a60d5b596"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 118, "sha256": "423a46e94506bbfe437da21916c91c64b9390a07d7cb66ef8f528c8bd1dadb9f"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 119, "sha256": "b2dd54b1b7f5b4b7ac1fe507ee7451bfc9d93ad29e1520db6b1c27c795d7fe26"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 120, "sha256": "43e3b7a0293fc7b53c7764ab0a24569614e537773cc159d3c33cce0ebdf3c4cd"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 121, "sha256": "59df2b8f328744fa233004c2d81ddfdcf1c9d9455cdf9f47366391728bee3d44"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 122, "sha256": "9a09c83675aa1e696bffc2cc1dbc6a7e19b924eec828fc63e18906283cf04987"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 123, "sha256": "afc8a2259ba0d9b54a4d56e4b452722a2555bb40368f3ed703266499d0637cc3"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 124, "sha256": "20909b2ff12637484ededeaddd2fcad4807858d21ee0d674825c54aa9ff8e905"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 125, "sha256": "5627b89d745e5f2e242a94d35ad8ac665367783ec993848b9d31e73ddfa6dc2b"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 126, "sha256": "8640acf752d052459e1bd7ab2e5136047294edaa6669dadd30a1c055c25b17fa"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 127, "sha256": "1e87ab313c996f79303b09d29ff8eed09b04164be49d7769c055fd02da262442"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 128, "sha256": "d48d999222101915c5a23250b2fcad58daa61318a696ab64e241894c5adebc73"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 129, "sha256": "a3780b85d0e1b2e547eb2f5541e5353310b60f86c8c35685ec4fd73d3e737687"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 130, "sha256": "b5a062e1107d48f6ff476939d3b985ab8a2dcb5ba830df76ee4ebb5140430332"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 131, "sha256": "d0ee2e7092e69052273c75a5abb2a235fbd750c4ed830bd95dc04625058de5b0"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 132, "sha256": "8ae37c2120d90a3db27728b9a90a191c1ce8efa55da8a7260ee6d1c8c9dccaeb"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 133, "sha256": "890a778cb0b26f6c016f15c3e2328c316afb9f6af39060b765554dd44b079f4b"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 134, "sha256": "b5d3419a6b4dd2e45c58ed7ce9cf15093e7af48eb64cf683959b7c054eb5600d"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 135, "sha256": "14a35b71871ecee056ff0cfe029b7062f4be0a16dea10073e47ec4426872cb27"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 136, "sha256": "9b847b03715043e7f42f5eaf00abd0b23181103b964ad19d1d9ac8d8cc262b01"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 137, "sha256": "de1a617a86de75e9d168223e6fc060f11c480c670bb59526ebfa1e68af2a1260"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 138, "sha256": "81f0d3c6de06de0b48e2a9f1c7876cb98b22a8a6a6dc8bd1495643a5bd60b3ec"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 139, "sha256": "c9917f45350cf5f99cecce556e1cf9630ea9845a15847c48118191b504c8ffbd"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 140, "sha256": "af79888d19be6cf08e53117ab9c9ba83877c46b5fc8ff82e90727b4649e104f9"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 141, "sha256": "80bd56d4f7b468cf5b459d9da10fd1bc00ce137acac1531a2a63b507588caf7d"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 142, "sha256": "38babe56e40496f9027b7d335ba3f5196d6bad30ed8a512b305e754fcb15a27f"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 143, "sha256": "f05d1b1f5b23c0b0cab6252b7ed7fe17a39ea74976c0360ae8aa61afa33947c7"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 144, "sha256": "dc72c96ba4025deb20a154762333369ff5309e722819249de347f5a4f6868241"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 145, "sha256": "ea5ed0f16e1589222fab4c57141329320f4620add14ad793bdd307de0d98858e"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 146, "sha256": "86b9f5905a4e051995bebe0096196f07e9fc6a9887dd508ae677c9597762565a"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 147, "sha256": "e1468ac075dc2b4a0867e9a551719abc32901265b6f11f41ecd128cfb57410bb"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 148, "sha256": "760e8ed7a18ae74c50fe78a60a7efd37e9ffca0390c4b76ff6663ca848719a6f"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 149, "sha256": "71a219e45c01f77d165df62d920323129d2cd3204256242469e382f18d1e6a56"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 150, "sha256": "3dbc48307350d64ec842a64b0e2c6873f4c125af7e6190ad65e6f285493bd6cd"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 151, "sha256": "9102a930618b1f042a4df3fc36e2c0019d29c50e5e4d280523a25969e8638e8d"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 152, "sha256": "ea58c965cff55b3342cf9e7d7b7266147ab31fa8a74134584b60d3df71423ff4"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 153, "sha256": "d83f055ed83cbbeec3d5f427630b64484ab4c80377b25df0aa7184bb72d6813d"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 154, "sha256": "9561f10d46749830e16546b44596e9a7d281e527dd6646cc82ada0f8442686f2"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 155, "sha256": "d25961a4b934b5b7687f97c91afb400ed4944531ea6d701bc3d1541c5bec0f0e"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 156, "sha256": "4657308b4d48ac34b43a45f151289975ac11d192b4b758fe1769c0a666ebeff6"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 157, "sha256": "aedfbdf36a236b9b1af26123bacce8ccb31e150e1c3c771fc8bab0bd8918a8f9"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 158, "sha256": "9f8ef91bfae9e55b7dce97bca1a8c2d04751116faeb2df2c049efe959a14cde9"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 159, "sha256": "84618886eafdbd8ce7d92911b25602ae196e80121f2e6125202e454c6afca4c1"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 160, "sha256": "6795aae162facc3de4ef39b782c40a24e8c24194d6e30131edd9cc9356ad6473"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 161, "sha256": "650e74837837bea6b957d155dffafe9ef176d3ebaf9cd15c3eecfb810dace5ac"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 162, "sha256": "3ba319d193f59558a8646d52b434dad80bfa1f2a780775f2b55221ac355f9622"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 163, "sha256": "722cfb12f82ff87e5ab078c57822cd199a0b93d03f92353265cb26cfba184622"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 164, "sha256": "56a3e80b0cac0bcd497e84c35726aeb5f09e807c62a719c88f36e11f6c05ead8"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 165, "sha256": "8e302a70c6d4492cfd66efc607c65e603a299fbe78a31808f7ac614cd5702a25"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 166, "sha256": "6f6c993c7efc5fc69af8e4912c61a391067844873e66e3c4ee0c68f21c72f8e0"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 167, "sha256": "2358739bad0a1cb9e3c90cf22e762a9cfdceefb88c1cff21f272c51ad34d4f4a"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 168, "sha256": "93f09dcf4464a0f040e74ff4f203cf5d212c6ed0250f5a7d0c0d76eeb21b035e"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 169, "sha256": "f449d56565f25c41073ba39649c40dfe36ea2d52f8480f4f593943aba5e488a1"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 170, "sha256": "2bedc4d134005037e9b90c1806c44da05275d79ce79815df6e0553e5af635b5a"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 171, "sha256": "bca7cf68a468cbb45fc196cda4cbd124c9e2c9cbcccb43d5568613666cfa86ed"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 172, "sha256": "9f7912ed4740556c82ec68b435de7a35a4f16c39404618ece21f3956870e7a14"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 173, "sha256": "37fbc520da6e8ed045505081dfecd9f15b9b9aece5b589cbdf1adfb9129d2992"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 174, "sha256": "d676a1c5f09775f148a9228f7a0e0bf64e7c5b943a72e30a1a56ad9658fa730f"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 175, "sha256": "767e8f2ab64e110449702cbef07036c3063b62e8cbefa03543ac1981818efbc7"}
+{"section": "7.2 Task authors, and task-specific citations", "seq": 176, "sha256": "7353d2ea9d6c081581390e2fce4d5377b880d1e78f01b55be78b05efd14bc398"}
+{"section": "Appendix A Model details", "seq": 177, "sha256": "0a433324016ac846739a65cc4cff7ee417866ccfb40fb4c7c123f7bf7a67750e"}
+{"section": "Appendix A Model details", "seq": 178, "sha256": "5ae88a4f7a7fbeb434cda3c9f6660f4028b0600aadc7514473d17064e5dd30bd"}
+{"section": "Appendix A Model details", "seq": 179, "sha256": "9cff234212f1ce562418df15f9daa1aa5b8d5d241c8033fd3bc09d02a83d15e8"}
+{"section": "Appendix B Definitions of linearity and breakthroughness", "seq": 180, "sha256": "1160d7dddec154ef6d4cb2fc56e12234691e8cfbfa440f9d24d6b60dbd095957"}
+{"section": "C.1 Performance at different temperatures", "seq": 181, "sha256": "678e7f781a5927281e44f718769f81fc510d54387a8222662d26fcc7ca8b377f"}
+{"section": "C.2 Number of tasks that pass a score threshold", "seq": 182, "sha256": "8d23904bc73e9e256fba4a176ba75f5d8c4a4fb405927ac71dea477017062252"}
+{"section": "C.3 Social bias results per task", "seq": 183, "sha256": "cbb6805deb7fca4e298e478eda24c779aed8b28cb9fd8a927c9b9d19c6987f49"}
+{"section": "C.3 Social bias results per task", "seq": 184, "sha256": "33e8e24efcbfcf7b531d1838afaa47f0afc88855e04808810f86a75444165440"}
+{"section": "C.3 Social bias results per task", "seq": 185, "sha256": "ad94b0c8369f9c259da8a7003b2eb09e93c4873132a2fb97642c338b10c48d06"}
+{"section": "C.3 Social bias results per task", "seq": 186, "sha256": "3c941dd29ec0cd0c5e08aa7b7c13a31aecdea97160c2263738e2bd7efcdf60b1"}
+{"section": "C.3 Social bias results per task", "seq": 187, "sha256": "1a38d1785a61309767588885d8fc956b2bf4d07df501a5b8707174a23a93557e"}
+{"section": "C.4 Metric dependent performance and breakthroughness", "seq": 188, "sha256": "4e4372a35e3ad60ad979e4cb1005a77a1e91c5d67fac5a0915831fb4e587c8cd"}
+{"section": "Appendix D Performance by keyword", "seq": 189, "sha256": "8e225aa85d2afecbbba189b59b4bf1d00f3d62b7fc9217ff6821eb2ef1e731eb"}
+{"section": "D.1 Checkmate in one successful solutions", "seq": 190, "sha256": "d868d41dba0f690c957a2b3dece316d982f813d264a2efce8f4fafdda5e0f29d"}
+{"section": "D.1 Checkmate in one successful solutions", "seq": 191, "sha256": "fe9697b882e3c90c4e9dc4bf6e2df975e03c89acea289785f708eae865e8e94e"}
+{"section": "D.1 Checkmate in one successful solutions", "seq": 192, "sha256": "cc43844eb349cae891289774e12f06c38dea54e9359ff0b087733172cec11468"}
+{"section": "Appendix E Expert evaluation", "seq": 193, "sha256": "179882967f11860fa945877a1eba8030e557638a61038a25ac28276112e96aeb"}
+{"section": "Appendix E Expert evaluation", "seq": 194, "sha256": "d887d4ec710b43f7629bf435da854358d0a0ce5af43877199fc704ef9c7871cb"}
+{"section": "Appendix E Expert evaluation", "seq": 195, "sha256": "6c5b4c47748089318a65837eb335e5d44260760826279e44fd03b4dbf91c048d"}
+{"section": "Appendix F Additional Tasks", "seq": 196, "sha256": "1efaa170d08ef5665f69e9c924f990f8e6a99356c18ed0eb4f0d529c86c816bc"}
+{"section": "References", "seq": 197, "sha256": "af65a3e7bcea9dd1aa3f3f450b08cecfd1c6be492a47767b608079028ce5023d"}
+{"section": "References", "seq": 198, "sha256": "7fc9508423bf5e6eab1967d855779736613fe57dac67d6ae6fad2c2a9f2581c4"}
+{"section": "References", "seq": 199, "sha256": "40ff7dfe7db89be5837062395a39ebc6978aa990bbd2537ab872cbabd4923527"}
+{"section": "References", "seq": 200, "sha256": "4aab6e56a71116595f7f40217c43d33298e1a70a57b8098ee3340854aa68ad27"}
+{"section": "References", "seq": 201, "sha256": "5a94dc671415ced4e24d9e2bb4c4ee7e54e0b49b755ba580c85e800b4d4d903c"}
+{"section": "References", "seq": 202, "sha256": "c6577af06fc7592d1260b68cd232510f92d140bae6c9a6b218b37332c589d587"}
+{"section": "References", "seq": 203, "sha256": "6676a7d0b95d4ebdd2b0b9ba4dd24501c16a51fa0058ddf9c9480005261b44d8"}
+{"section": "References", "seq": 204, "sha256": "b863fd6c86fe25062c4ee0c795b82efcd5bfa2ec9b0b57a980b5774310c02081"}
+{"section": "References", "seq": 205, "sha256": "80d2ebe2540f3267b30f84838a57363c9a9cffdad9f250251dcf5bd7b34d585d"}
+{"section": "References", "seq": 206, "sha256": "33bbd7eb9524e1d58a41e3d26e9391301f78bde8c2fc30fef5aa063cd1b8e877"}
+{"section": "References", "seq": 207, "sha256": "af65cc83ffbcccf3fce066a7eb9e07cffeb2c3664f89626beecf07e63bc61108"}
+{"section": "References", "seq": 208, "sha256": "71085673a158e2325b4476e1367553d6c563a180d823446de683032d30829e69"}
+{"section": "References", "seq": 209, "sha256": "49a7c14d90e7f8c543cd0ec632b2f50f75b6d69dbf4248502936280f7765c7d1"}
+{"section": "References", "seq": 210, "sha256": "bf6229f46d3d1a4dc10a0a0b4dad01f4ec3ad0b6c6bf6aee0869655e546822b8"}
+{"section": "References", "seq": 211, "sha256": "56b4adee82ca58a33a8164ac14e5f58c269f30ccabd4b01c18e95fed0c54e006"}
+{"section": "References", "seq": 212, "sha256": "5d0859e686f194f87bf7bf61563705460ae8b22384c9919b09aad7952b335686"}
+{"section": "References", "seq": 213, "sha256": "87cfd0410703b0d6c1f2754ab1464c6c91d084b9cbbe29eb4640d26837f2de1e"}
+{"section": "References", "seq": 214, "sha256": "ba825b16fef1ff0fd00ba71e306c5895ca27930b2c24f5e4ae3b09521d0ade61"}
+{"section": "References", "seq": 215, "sha256": "a9edd363b954f100b83970f28417316c69fda367d5475305f6927a75faf5ecda"}
+{"section": "References", "seq": 216, "sha256": "70c29ea8eefbd4254b1d78cff82a793f16814379bcb46d4e65fc0dcb6fdd7bc6"}
+{"section": "References", "seq": 217, "sha256": "93c4f18965a4958b032218322f25a4363ef8eec3b014fc6459b2bafe0fb21fa5"}
+{"section": "References", "seq": 218, "sha256": "02c48716ade3d621c1a321c10b6018132ebec4d7f7e21d97a128dc161509ae08"}
+{"section": "References", "seq": 219, "sha256": "7da8f83d10d98ff3234977078ef63465b23535edd4af7f8f8ca0404cfb227fee"}
+{"section": "References", "seq": 220, "sha256": "52dfbcb44abc884e2dff181ebe511b28349f0a537b4ec55d25442c258bbeaf94"}
+{"section": "References", "seq": 221, "sha256": "8025506c4d2bf6f8ca434ff5af159fb6d87ce78d91a0c6be5b6ca180016b3eeb"}
+{"section": "References", "seq": 222, "sha256": "4e3043ddfe9ec71ecd80c40afdfb41780fe0b2b34a81d8d474794d27dfbe1c98"}
+{"section": "References", "seq": 223, "sha256": "f12f4229bb7007c00060224839d791a0340fbcb8935ce7c979533a7dc7e2f2cf"}
+{"section": "References", "seq": 224, "sha256": "b1744e57ef8e5668bd3884b87a44032a744c0bca3c4eea6b726d603cb9ec631b"}
+{"section": "References", "seq": 225, "sha256": "0a5a58dde687739333c481d53b37ce9eef94157934c83b620aae298a8a845b05"}
+{"section": "References", "seq": 226, "sha256": "e53da37e677f26a6daf7217ffee8d4423f9f0e3318f475f33ce209b0a72d4fd6"}
+{"section": "References", "seq": 227, "sha256": "825bdf056aa23afaf59a60b00ada7596118d2ff20280a30595934c2db819be5d"}
+{"section": "References", "seq": 228, "sha256": "8fde72ace3c1cd6143dfd60baa58b90faf3bb061d2f99f778147048d0c06a37b"}
+{"section": "References", "seq": 229, "sha256": "d2a4e849bc722f05640f1b5d82109cbda2ac62c5b01504ee923dac2e5bb484e5"}
+{"section": "References", "seq": 230, "sha256": "ba3476b9ef95841bfe0c5cdbd292270d5bad9862150373fd41f5504c22741b9f"}
+{"section": "References", "seq": 231, "sha256": "fac44ce0ac5b74e9ebeaa1116b20df74227be5e4fd8da5c42c145aec32a82f98"}
+{"section": "References", "seq": 232, "sha256": "5adb61835d6291acb75b450316132011193b67cb2c829f882ef13712c5865189"}
+{"section": "References", "seq": 233, "sha256": "7be9bd712b5d254c83d2fc3c1a25c8fef6c26e6b75a0721ea45b81e40276f068"}
+{"section": "References", "seq": 234, "sha256": "bb313940c32c6c8a69fd46ed63badbad2e648aa072850aafa7b4191ab3fd155c"}
+{"section": "References", "seq": 235, "sha256": "dbec117becf1b8642395055662f74fb487a270bcd9cc25e18052c789f1e3a612"}
+{"section": "References", "seq": 236, "sha256": "3e636e19375e317d4e06b2953537140f17e30e76e21053f92802a74c0f321c46"}
+{"section": "References", "seq": 237, "sha256": "32025decf57916e3189dd52a1ff91466ce115d7ee61e80402327f23489644296"}
+{"section": "References", "seq": 238, "sha256": "519e3edc2e8130359bf4ac0a6c0565a10073a97f7247d9f4bc4e3f3b27e6ded1"}
+{"section": "References", "seq": 239, "sha256": "284fed6ea3eee53a75be20149e067ddffcca00060f213fc102598b3d468f27b5"}
+{"section": "References", "seq": 240, "sha256": "580953a78c68483380208e9db78dcb2c8b55216e81438ea724cddc9af1abb5da"}
+{"section": "References", "seq": 241, "sha256": "dabea94e89f55966dc79c482af6fa16ff364c51f6a584c26dff4e0deb88b1094"}
+{"section": "References", "seq": 242, "sha256": "ccaf817616147834dc08e4ff9af1ac42d56beac8af47d1b93c70e075a1ad0c18"}
+{"section": "References", "seq": 243, "sha256": "7643bc6ee232cd2f6d02560deb64c7d74359f8f64a7425470ac7ed9e33f53e84"}
+{"section": "References", "seq": 244, "sha256": "a622cf92d092c530c6221764795ede9360f8acacf81348e84b2137eea97cefa6"}
+{"section": "References", "seq": 245, "sha256": "c706cd86712034a9cd62cdb9689d68ab2d78ebe43a058c060a8d9ef5718e3b69"}
+{"section": "References", "seq": 246, "sha256": "c987421f5e846388e172bca00408f28b1e753222a089a40f38fff790be8827f8"}
+{"section": "References", "seq": 247, "sha256": "b385d23e0882e4eda7c51ccbdd922bee964255ffa3d82ebea43424d8a2cae997"}
+{"section": "References", "seq": 248, "sha256": "9de4fa9ece7aa17a0d9c57185bf3ee76d156196a3802ff75d6d8fd6af9a15334"}
+{"section": "References", "seq": 249, "sha256": "c056ae54d3bb4f49b0fc9b7a78a1d7a389e55c857a2bb1ab469472044b445acd"}
+{"section": "References", "seq": 250, "sha256": "bdd0c4bd6f09476ed1a13b316bec62ab8a0c6155c5cbcb66567beb22e630aa0c"}
+{"section": "References", "seq": 251, "sha256": "cee09451439b48ba3cbede84bbe56a94a4f80b8617193b8df394d946633c54f3"}
+{"section": "References", "seq": 252, "sha256": "ede2cf42137450b7e3cd48a518c733fb45d651f33324baf8d0ad972f97545ed6"}
+{"section": "References", "seq": 253, "sha256": "713119a66066dac709fb098df7078bd68fad119f7d1db5a2b7061fdf3f55ba4c"}
+{"section": "References", "seq": 254, "sha256": "8321655c21975f46d85c11c8bc643d9c0063803fac53cc3849bb6f6c203a061d"}
+{"section": "References", "seq": 255, "sha256": "79ed89367168046cb37d2caad0f1aa8a42bb4b068fea09645fa4230e494f0176"}
+{"section": "References", "seq": 256, "sha256": "0b889a97336fa2092cd95e0615502c9845413511730b4845e115a13d89b0b1ee"}
+{"section": "References", "seq": 257, "sha256": "a9ab3ab8fb4c90200d09bd256d6ae8028751730bd2ceb76ed9b3bba5596b7a2c"}
+{"section": "References", "seq": 258, "sha256": "7cf6f48b41a9ed52ac030c243fba2c88e41977029d87dfc2c1115346aafc3e34"}
+{"section": "References", "seq": 259, "sha256": "25de3a9de7ab272c05e882de93a3e07c937357e7c0e4f8b649d42fb5ddd3f0c6"}
+{"section": "References", "seq": 260, "sha256": "198ae7f155e13bce2a7d6e464a92649094907a1b0b83df31afdd36731511cfdf"}
+{"section": "References", "seq": 261, "sha256": "8ab9497151d0e52eaf4ba072bf09b92af53fb09b4839bb6f403ddd39ce3f838e"}
+{"section": "References", "seq": 262, "sha256": "e934322354b762ae147f968fa76e79282b8c6f8d2a7471006961f151bafab31a"}
+{"section": "References", "seq": 263, "sha256": "e6c9a07ae8b27d67e65838b13e75391db26c6e749381a3d0dac415ed3eb2fbf5"}
+{"section": "References", "seq": 264, "sha256": "06d8b99324efa6d61e571baca086e64b54076e9ba6aaf00e4e8d25997d990687"}
+{"section": "References", "seq": 265, "sha256": "691bb9c86582bb838ff72d92f337f055ef2184993df649df2a718b1b69be012e"}
+{"section": "References", "seq": 266, "sha256": "b226f405040b890417428770aba0fd3b45f75c248388be2bffdb06b5c1a228d7"}
+{"section": "References", "seq": 267, "sha256": "6342e34d2d3b3175920b7412802139bf1a1fc9ccfda5b715bd399b9b2639fb17"}
+{"section": "References", "seq": 268, "sha256": "6498000ecccdb083bdf41c82c2d514ec7a949101fb7916771b29586dfe3ebf49"}
+{"section": "References", "seq": 269, "sha256": "1738b95a192cf215c2c4e5b96e90b2114665f6a311418e1be32c48e78ce3d833"}
+{"section": "References", "seq": 270, "sha256": "9ab6d205a80279114760e357aae0e053b75af8891ea126737491b56f2e6898d3"}
+{"section": "References", "seq": 271, "sha256": "3a57d49df74ab6908ffb2d05dd6f4075d91f3c4e12352494277a7dd3e4157207"}
+{"section": "References", "seq": 272, "sha256": "36a5c1b97c5b92e9e232c34c34cad8419a08e2f5480a2782acfdb659106e44be"}
+{"section": "References", "seq": 273, "sha256": "c52a7cf89a43a3975548d211e7626eb6c3fb4a1293d09a1290882b1ce654ded7"}
+{"section": "References", "seq": 274, "sha256": "e896a03273fbc77657dfdfb7c88a352d44472bd9437d3f13a094eee832ec46aa"}
+{"section": "References", "seq": 275, "sha256": "32490e21019cf536b95fa49ea3f3f42c23015da6d218236f545aed106c0ae088"}
+{"section": "References", "seq": 276, "sha256": "7f639b9792eb1ec5d9516f5783ac8c239f9007ae78ff9bc9a060a8cc0b40a179"}
+{"section": "References", "seq": 277, "sha256": "cc227986fea2dcc92d0f9484ae513bf0572cb3b17c3375c775042b3c37572a0a"}
+{"section": "References", "seq": 278, "sha256": "b4d5be4b87ae7a1d35f5398f055b7fc39d81875d26e48cd7c50a42553d58517b"}
+{"section": "References", "seq": 279, "sha256": "1d2b93e2c515ef9d2fef327e264c79ad57e35352612df4e38fcbf519eae4d148"}
+{"section": "References", "seq": 280, "sha256": "e93262911cdfe8b122ef23c5581bf7665d30c463a752e0631fef1914f54256e7"}
+{"section": "References", "seq": 281, "sha256": "15ab0faa0038ad6dc3348282f9a9ca0dd8110704d597107efb9c54ce99811b74"}
+{"section": "References", "seq": 282, "sha256": "b13300a913612f41e53d188da8f53566dc2a7e3b05e21abdbfa4bc51c4868428"}
+{"section": "References", "seq": 283, "sha256": "ab0e5cfa556790c122fb83c87de439a4558f4327347dc72d8cfc139632e82812"}
+{"section": "References", "seq": 284, "sha256": "a9d6e4227314ee0192ecbfd87c1ee3c096d61e291f903bab77272f8b6c07d5f1"}
+{"section": "References", "seq": 285, "sha256": "0c344d299cb4d801b976c4245a7eb05d52e83248b94480b076d0c9fd8e87083f"}
+{"section": "References", "seq": 286, "sha256": "c6f4741c20796d6a80190f60c3b1e7141a13e3b303a8dea4bc8d5b9ebd8a41a5"}
+{"section": "References", "seq": 287, "sha256": "e0d11c154a8dc4f771956a89c78524b2d63495a0d1a2afc1436ad2405da3f578"}
+{"section": "References", "seq": 288, "sha256": "409402fbac8542faee4783d3d18d6a7474a5f6a97d09bc18c97ddaae55776b03"}
+{"section": "References", "seq": 289, "sha256": "fb4b34ba52cf3e6f60dae201355c2c9258ca3cfef665406d26e92ac6e1b644bd"}
+{"section": "References", "seq": 290, "sha256": "e385f1f44290a9d6e2be450cc161afb2d46be11c56b3d0c7529f6cea9db33a04"}
+{"section": "References", "seq": 291, "sha256": "3476ff20f5e8322d097c8aaea9206f2e97808ecbb94c8b13a3d95ff1cb17d159"}
+{"section": "References", "seq": 292, "sha256": "3de0578ae74561c1f322759e0dec93713c32e93f3390a942d358df60f1c671a7"}
+{"section": "References", "seq": 293, "sha256": "c8b56f44cdd16fa5c7979c781343683689f6622e120c04fa6b987694b66ec510"}
+{"section": "References", "seq": 294, "sha256": "df01622ca62329f789ea7db9c30ff15a7a57c04ba248e01a858bbbb21d3bf17c"}
+{"section": "References", "seq": 295, "sha256": "aa0c0eb2eab3832648dc42a2871c6d266c1cf2ba9a2ba30c2b23da188d8eea8b"}
+{"section": "References", "seq": 296, "sha256": "a665683eec2c3c7afc8ae6e60462045b2ec6ec5e36c17b35466b56f062b10ec0"}
+{"section": "References", "seq": 297, "sha256": "8e5f12d86958fd89f3788dec2035c572f0baabbff3ffaede07c07dae1802edf4"}
+{"section": "References", "seq": 298, "sha256": "34fa18bd699e12afd3b697256799d729397bcc5b5e2bcdfc23fa56e82671647e"}
+{"section": "References", "seq": 299, "sha256": "d66387eb1d7f9bf32dc6ed285c7f37fa15137831b8043c0463d1e33f63f51bf6"}
+{"section": "References", "seq": 300, "sha256": "363a74615ff79d9ac397ab52c930af023d5123e0b41c8195d63944630a7cdba9"}
+{"section": "References", "seq": 301, "sha256": "b2bab75adcbd237fd397efc7d9d3fb7895421d8d4293433714da217eae6827b9"}
+{"section": "References", "seq": 302, "sha256": "61d2b7be57919abef135da4a0349683139626bb1e3a31a886713e4fb4e974682"}
+{"section": "References", "seq": 303, "sha256": "15598afc6b6922af4032a48aeea61e915825cc3a310259097dbea803c19aaaee"}
+{"section": "References", "seq": 304, "sha256": "a04475a3a9ac9847abed07983efac77fece81ddfa5554126a41d596b15f42c84"}
+{"section": "References", "seq": 305, "sha256": "b075a96b4bb13b9733922708e22c26f8979ec682220a3e74c750548411e47401"}
+{"section": "References", "seq": 306, "sha256": "6d795204713320edcc151e1d1601294ea26f7faed267dc40fbcd5947151e90af"}
+{"section": "References", "seq": 307, "sha256": "55acf7c5f4a35695592ae25bafee4f2676cd668a0548694cbe50258d3bcf32e4"}
+{"section": "References", "seq": 308, "sha256": "f0ac518acc763bbf9f97f9b016e33e9ec51a1944a099ef1201b43d741c9c89e0"}
+{"section": "References", "seq": 309, "sha256": "21ee63be77572bd732f564ec36b1e064f2b711ac0cb38fcf1785db6a84d1115d"}
+{"section": "References", "seq": 310, "sha256": "bc2469e99aa9c0440458b5423fcdf5db00736cbca72abe57fcd2ab692b52980b"}
+{"section": "References", "seq": 311, "sha256": "2a736ad6fcd41b75d3b3e7c47bb9ed1473868fa71543a862bbdbfb288ef09ead"}
+{"section": "References", "seq": 312, "sha256": "cfda86308798cc3afdff2724e20fe5d073f172e6fd64fe5172438c1e60554f75"}
+{"section": "References", "seq": 313, "sha256": "74dc7bc56de81dc7d3f17a77a77a23920706581d2a4d6f306019baceaf1b9da7"}
+{"section": "References", "seq": 314, "sha256": "56c1f73de48b716d2734ffadb707d0f2be8bac50e8f50a872ad09777b883507e"}
+{"section": "References", "seq": 315, "sha256": "b59ecde9478652c46eb3522dc1060c83cade92ef201e6023dafc293dbb185a72"}
+{"section": "References", "seq": 316, "sha256": "212dbcde9c3a47210d17b9751267ee6473d7f1471d54de42568e1955578577df"}
+{"section": "References", "seq": 317, "sha256": "b5c8f2bd84490402c78b398cda56504a8d4e7de42640c1f4f15cd0993c63fa89"}
+{"section": "References", "seq": 318, "sha256": "da97b24ecf50535cf3903dd1d1b5d13cb157067aa1ddc2d11c6f7adcf039cef7"}
+{"section": "References", "seq": 319, "sha256": "29d8eb75cdab6aafc1b9e534614c9d2faad6baee722591cd63d7f703cdf79edb"}
+{"section": "References", "seq": 320, "sha256": "3bc34023d58e72a4f5803cedd76d197f86e19892fe3d20faa15ce7921791425d"}
+{"section": "References", "seq": 321, "sha256": "bc1b218f997affa65b6998c49bcc08b2ab9c941f4d0d2148fb30b43b184a3899"}
+{"section": "References", "seq": 322, "sha256": "d3f7443e595e09674967f2071a0ec0b6ec0f26355805ffcbfa12490543bfd12d"}
+{"section": "References", "seq": 323, "sha256": "da363fcd58aa15f94e1da115ae4f8e2f1df2c4e712dcebcf44b58a8681317ed3"}
+{"section": "References", "seq": 324, "sha256": "36d7658690187c4b0b09a85b9c3ec2fab4df902df13214501bae14bc0885e816"}
+{"section": "References", "seq": 325, "sha256": "6d98a05631ce4c6569ae95c31b68cd6440aa6ab7421e19aad2457c37abff451c"}
+{"section": "References", "seq": 326, "sha256": "7e7476c9b3cd82010fefdc492f5f636d70353cc94b51d691b9123f113c74bbed"}
+{"section": "References", "seq": 327, "sha256": "431f320a53a47c27c8df64a80373490d39a6570dbe3ef6640923568965e77938"}
+{"section": "References", "seq": 328, "sha256": "a96f34b171a682fdff9651680b4906831c1caf204041e3f631194e0870a85efd"}
+{"section": "References", "seq": 329, "sha256": "2ac53bd8634918151b54f298314db731e32a4285d161576d8ba97bd114417978"}
+{"section": "References", "seq": 330, "sha256": "aae1b38bd0c3ef756a6f5683c689303d4e83b213cc2e8a832ac3146a6408d31d"}
+{"section": "References", "seq": 331, "sha256": "62c116063594147c8e9d5d23aa277963d2fdd1f083cff10aef5686353a257dd6"}
+{"section": "References", "seq": 332, "sha256": "78b9462c379b3785daf3f76a7e4c3d5d3944d4b42d72440e416afc6ff9fcec77"}
+{"section": "References", "seq": 333, "sha256": "de129a8a2abfeed28682554c55dcab9916e0fd540b938ca90722df8264aa5b62"}
+{"section": "References", "seq": 334, "sha256": "6d244f9d0fdf2eb4e277a5af336b15818723d9d4ba92c7fef048d14cff5c2e03"}
+{"section": "References", "seq": 335, "sha256": "2e7afa3c1845b1e9ad575b1bf1e264675bc6dc5b2d174b7e2a15a49871d02922"}
+{"section": "References", "seq": 336, "sha256": "dbaff35f29f1e0d9b9ed76a38043b24d2dbb98a1e1db45a1ba1a2444be2f6c53"}
+{"section": "References", "seq": 337, "sha256": "4a105ddbd228dcbbf31e5e3d4ea126e6ad71233f2d61d3e9ccb62a23c88702b9"}
+{"section": "References", "seq": 338, "sha256": "1119d3b6a8f94a6dc9e1a22d3c5ee92792de1eb22409b7f8699bc71c4acc46f2"}
+{"section": "References", "seq": 339, "sha256": "63812ba2407b0f12556f2cb6dad89d5b8cc4045637d600ceb28d39986f5ccf2f"}
+{"section": "References", "seq": 340, "sha256": "d11386a0fb69d11fe47e6a208f34af7e6421ae4e772f52ab83e3eba5ef96e36c"}
+{"section": "References", "seq": 341, "sha256": "58cd45b6c3d58d5f53ee4a21efba69e0728581c7b20d7935f41a23badd1b03de"}
+{"section": "References", "seq": 342, "sha256": "86866e3f8da413bbe6af20d19041d052360692b38161426f499839b07d937cf2"}
+{"section": "References", "seq": 343, "sha256": "7b1b73d9598c2c86664961d2631aa2507dfa66ead4dd018968f59ddff4afd0bc"}
+{"section": "References", "seq": 344, "sha256": "eca26c7581136ec15d91e1e2315f99ed82c64976e6a9603ae1c3149e405f578a"}
+{"section": "References", "seq": 345, "sha256": "1c61f083d19c16adf81da6272becf1a01b4e50b0e0e634ed45cdcc1c245c6a10"}
+{"section": "References", "seq": 346, "sha256": "19da50049308d8efd5f5a5dcf0b427cee3da92f5cd952e462aad705380604d9d"}
+{"section": "References", "seq": 347, "sha256": "32601cd98841f07bf3fe2f5cc7626715fa97b4fa9a9cfa285720c8e9318a0f2a"}
+{"section": "References", "seq": 348, "sha256": "751249f47ee5be4bef81b523259b49556f237c140f95285b3dc316d111edf0f2"}
+{"section": "References", "seq": 349, "sha256": "f7c760bb1e671f369a1a8a75cbd08c64b56551a200b97fe9a21aed64fef164e9"}
+{"section": "References", "seq": 350, "sha256": "83bc5cd30cce91aa12d7bbb5c1057f1971a2e3bf5d8b6bd8477b17f3f00988c1"}
+{"section": "References", "seq": 351, "sha256": "d7cef67b3ae3021264debdfbbf6960a973234ef22a83f729a745e181158cc4ff"}
+{"section": "References", "seq": 352, "sha256": "9fd5537b1eb74237c903a286eb4da24c3e2227c1183dfa2f3bf79e39c1005dea"}
+{"section": "References", "seq": 353, "sha256": "d4b273be4b44e31bae4e80a478fcf2bb0b1713e5f9f902ae89bfed6dc91268ce"}
+{"section": "References", "seq": 354, "sha256": "6528f05df535c5dcab49010c660bcd6e8a9083058b84986c4a8d16e6e166440c"}
+{"section": "References", "seq": 355, "sha256": "6ec070d308d6fe38e349184b06dced262479285d5220b6f5fe65ece441cbabe1"}
+{"section": "References", "seq": 356, "sha256": "6703785bd13e5157dea063e8c7fcc1732afd0a7d0d1264259d7e85326b0bcdaa"}
+{"section": "References", "seq": 357, "sha256": "62f75b2545c23c0c73dd8c3981d16f6f3e0583e726d4f22c89bd310eb519a1fb"}
+{"section": "References", "seq": 358, "sha256": "7ae369f725afac14ca2780740a3cbad0adb7dd5b765b63336bdd35583cffc3ef"}
+{"section": "References", "seq": 359, "sha256": "e220368e66e1e70519452f28d02de7f1c945c702bd8790fee6ec8fe46725655c"}
+{"section": "References", "seq": 360, "sha256": "941dac47ea2946c8047deb156d38d69eff2f910579c0d2e0b9d69d690b90ab01"}
+{"section": "References", "seq": 361, "sha256": "0419dc287a3fb1f67c418eab147cf38225a7b6106cfd48b7c8387afca65dc1b5"}
+{"section": "References", "seq": 362, "sha256": "37123dc0c593db648cce8bde11cb089705c1c128af049c8e643204859ca4084d"}
+{"section": "References", "seq": 363, "sha256": "86270d041d977cfb30b0c7df935cf65d37dcb060caa54d40f14943d96e7f9784"}
+{"section": "References", "seq": 364, "sha256": "ef1fdd6a1113b54df95d9f03f072d0a7de9451e09d65ef1fb317d97df470f7eb"}
+{"section": "References", "seq": 365, "sha256": "f1cb39e1091c9845827d7c113381c42c94cd5856ab6dd373bf257f33ee02ee22"}
+{"section": "References", "seq": 366, "sha256": "20e07c4c919c7c8ebdd3f25f64cc91ec76efaccf6366a6a040ffbfadb2b088a1"}
+{"section": "References", "seq": 367, "sha256": "dccbb98f161d374646cd67087d2de64317afd062f809c0bc8d900851a1685bc5"}
+{"section": "References", "seq": 368, "sha256": "66606b20f18836d662166d270945f5dcd75edb50569d93eead88fa589553b04d"}
+{"section": "References", "seq": 369, "sha256": "9fe3138b1641b6671ba868906894dc9536ff334c2df63dbe83eb12f83e074f4e"}
+{"section": "References", "seq": 370, "sha256": "276c667feb1b16be7e41583e17774d112572b78b0410d435d680c874ae1cee8c"}
+{"section": "References", "seq": 371, "sha256": "35f0c95d5bd2b4454d4cca2982bc8361fbb1b04d8c0d8a7b3917b3ec188d7aef"}
+{"section": "References", "seq": 372, "sha256": "1af3643fb0085a4ec811f2ed58809ec0f3669b23ccc9115f2c59a6d694ae7687"}
+{"section": "References", "seq": 373, "sha256": "338a3f76f983e63979b6f7a898d255f376b41ad057667ec03a5f184ee13ec75c"}
+{"section": "References", "seq": 374, "sha256": "db897b728eeb3b7dcaed39074628aa6172de3498bc2110672c4e7508c605fd16"}
+{"section": "References", "seq": 375, "sha256": "66caddb0d78833a327f30f6593088adece328f96761abb82450caccbbdaa23c9"}
+{"section": "References", "seq": 376, "sha256": "0fd971b497e255a282e66d52954eb37cd95a9e195b14ca5b40ea63a281d71c76"}
+{"section": "References", "seq": 377, "sha256": "0ce83e00ea58573282a6a4bd6ee3520f1becbec3f0cad8f3f1c557f13bcdd7ac"}
+{"section": "References", "seq": 378, "sha256": "ca430356f4fd4aef4f9f77994e938208cb52e273b6b0c91425f4fedfd4e6e5fc"}
+{"section": "References", "seq": 379, "sha256": "18176693d6b4cd2db1df5dd1110365b4ddbbdf3076481d7929a30eed72ff4f5e"}
+{"section": "References", "seq": 380, "sha256": "94cfd72841ad51536a18053d6ab9a98ad1127faa6d9c5cb7aba15be342256ac8"}
+{"section": "References", "seq": 381, "sha256": "5c1310d39b33f2eb980ac9ca5d7c30d55851cd90fdc7b17b155fd6870ded8194"}
+{"section": "References", "seq": 382, "sha256": "c117ed8d0974229608469e7786365c343c411dd41d0230c54b4cde9a11539ea4"}
+{"section": "References", "seq": 383, "sha256": "60e4ab1337b01c46bf8df3f021db67ca085bdc1d1c5d9e95ae267225f1d24ecb"}
+{"section": "References", "seq": 384, "sha256": "56b90345ea3150777e20f876876a576f197063df1d2643caeb646aa4d75be7f3"}
+{"section": "References", "seq": 385, "sha256": "5447ef6347f41f1cc91602b34de03142d85b84835c746b745c3342a134589c58"}
+{"section": "References", "seq": 386, "sha256": "593621d7ca92a0b6992759acef9ff12eb77e94a1455a7466ceeac10f2ab9b8e8"}
+{"section": "References", "seq": 387, "sha256": "7aa276746f2546080e9a918c20a60e7a19b217d2f1d86ddb34faa4e81572e02e"}
+{"section": "References", "seq": 388, "sha256": "7292afd29a963b5efe32eb65db164dc4b7355c539a6f014af965d737e890902d"}
+{"section": "References", "seq": 389, "sha256": "ccc6465ed660cd941e369d0d0bc9b19ae80222bfeb3b3a62559e54bd2123fbf9"}
+{"section": "References", "seq": 390, "sha256": "51650380f9c49aa12a328bec783c3bc79c560037499bb363739167a06fcf7d87"}
+{"section": "References", "seq": 391, "sha256": "f392e997547e2fcafa3f88c309084d7299d12b3175e7f857c031a97a1f2f5116"}
+{"section": "References", "seq": 392, "sha256": "8959fbd6e15bb9bca6c2127a7752b8facacc96db843b962be77ffce145dd2479"}
+{"section": "References", "seq": 393, "sha256": "7e2330138070ffc3c48f7f94f1e6fdbd6680ec2c83109cd29b80192d0be33eb4"}
+{"section": "References", "seq": 394, "sha256": "1902eb17ed8e11dc65866fe3a45066cc15c95359d616b9f5595c1666cdb4e54d"}
+{"section": "References", "seq": 395, "sha256": "1708b329b20cd3c16e557753f74edb35575d389d5d0dcd351feb752cb023e619"}
+{"section": "References", "seq": 396, "sha256": "2b048fdb1af39caeb41a88d1d77a307405c16d0ab252cd7504adcee811db83e1"}
+{"section": "References", "seq": 397, "sha256": "f44bee0f90c4da61904440e10ad91c8dc42de9890d4369623419d9e43be93bcb"}
+{"section": "References", "seq": 398, "sha256": "94d30dec6ea2d9f9deaf80cbeb2648d3304365f465cd7d77565bba0e9262538b"}
+{"section": "References", "seq": 399, "sha256": "213ae723d35cbe1d96778e547c45c6ecf519c1d601921c2056053867fc08b33c"}
+{"section": "References", "seq": 400, "sha256": "9107a6aa636b0256fa31407b3fa0af789baae38d64a6401038dc6e6291dd2cb3"}
+{"section": "References", "seq": 401, "sha256": "f02320595294e9b4579356d7ae607c24c43f352cf9375d8810589ff50f9c14ab"}
+{"section": "References", "seq": 402, "sha256": "07a4a209b6baa96dd9abdac01bf7e9e3788d818c2d06e0daa17f9eab3637ec9d"}
+{"section": "References", "seq": 403, "sha256": "d5acda643aee1e6144d80657f5b8a64a6772aea8d45977cc98fc4bbc13b1940e"}
+{"section": "References", "seq": 404, "sha256": "18f0a371028f5a09e552457699640ba2d151d2774c460799866b7668b5205b7a"}
+{"section": "References", "seq": 405, "sha256": "2f330591b32386ae64c15eb20c0287cb51624807b689af874d503c272d7f67dd"}
+{"section": "References", "seq": 406, "sha256": "30b5539c06e6ec9098990faeae1f3b8015d6b5a523d16b830f3e2fd982e23885"}
+{"section": "References", "seq": 407, "sha256": "5678ac8b7646b8034c71710f59337235c4e3d36354ff91edb16d6dac4966ef37"}
+{"section": "References", "seq": 408, "sha256": "39862392495c210e9aa6028d6a01319082879d64b32967d74561c9a31df0b1e0"}
+{"section": "References", "seq": 409, "sha256": "f8119dd3cb7c8fc8e396f4086d2d24c43c21122073295a36311ad5675922165f"}
+{"section": "References", "seq": 410, "sha256": "2fc5173ae734fbcba2761b30943767bb70222c8c33e4fd976004c5c882a0c1e9"}
+{"section": "References", "seq": 411, "sha256": "0c1926658dc18397213c6ee172cac42e003e6daa52bce7ce1e63d6cb2fb6309f"}
+{"section": "References", "seq": 412, "sha256": "9fe12a9a8d80290a9de577082c16abadcd39e0c3c1837c83c1af1516c9689438"}
+{"section": "References", "seq": 413, "sha256": "8661a24bb53e451f949b70185a873e77190b846f480edc481c70cff855cde50f"}
+{"section": "References", "seq": 414, "sha256": "2d02219dc856d7bfb4bd769b18c30369c2b5fe285d09b4542857c87a9fcb2582"}
+{"section": "References", "seq": 415, "sha256": "e34d270e07e056b591c8057db0a4583c3bc1c9a9a28f2b8b23c2f7530fb31f1e"}
+{"section": "References", "seq": 416, "sha256": "7be8fa5633368fb5525b07fbbaeb5b366af4a0872fd4430473774e510e647e1c"}
+{"section": "References", "seq": 417, "sha256": "5bfc6a74cd423608958e39d17a8ffae32e27fba6a1ab68e3139044dbd940037d"}
+{"section": "References", "seq": 418, "sha256": "305766852bf57cf06f8140f4b769c33b2fd0469411d5215c62d0e2087965bd1b"}
+{"section": "References", "seq": 419, "sha256": "39aa2430ee4130cf2db75c95088ee63d6c1d5cae286ba88f0aa25b5bce0891c1"}
+{"section": "References", "seq": 420, "sha256": "790b2e297b7529565cac352da98ef155ec89f038e38b1e3b5e21ffe76e072cab"}
+{"section": "References", "seq": 421, "sha256": "d4d62bdf9c1ddc683a1a61e3591bb31f8e96450f9bf28e29da494f5b7f3c1a09"}
+{"section": "References", "seq": 422, "sha256": "1cf8f54cb470e8799267a7f44c262d32d83d0d8d19d091282cdae98ea7212ea1"}
+{"section": "References", "seq": 423, "sha256": "a419830e7546aa70409b8316ec2ace4d11da045d762b73dff124f758100d7270"}
+{"section": "References", "seq": 424, "sha256": "4eed2b33f8b9071612a5c9af8dfd7d887b5f8c82e90ecce2f3c11f1833d940c1"}
+{"section": "References", "seq": 425, "sha256": "1f424c45b1c847a97859b431f4c07badfee9ed3d20c0771a54a077bab5e1fa1c"}
+{"section": "References", "seq": 426, "sha256": "334044c47ccaea027c33640bdea105ca08f9334edeed8a874e9e05ad402d94cb"}
+{"section": "References", "seq": 427, "sha256": "80932a70c80f38d655afede5cba1d2e2a14321b5d51ea11bb18c7b51d9766987"}

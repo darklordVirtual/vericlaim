@@ -1,0 +1,33 @@
+This version:
+http://www.w3.org/TR/2013/REC-prov-dm-20130430/
+Latest published version:
+http://www.w3.org/TR/prov-dm/
+
+Implementation report:
+http://www.w3.org/TR/2013/NOTE-prov-implementations-20130430/
+
+Previous version:
+http://www.w3.org/TR/2013/PR-prov-dm-20130312/ (color-coded diff)
+
+Editors:
+Luc Moreau, University of Southampton
+Paolo Missier, Newcastle University
+
+Contributors:
+Khalid Belhajjame, University of Manchester
+Reza B'Far, Oracle Corporation
+James Cheney, University of Edinburgh
+Sam Coppens, iMinds - Ghent University
+Stephen Cresswell, legislation.gov.uk
+Yolanda Gil, Invited Expert
+Paul Groth, VU University of Amsterdam
+Graham Klyne, University of Oxford
+Timothy Lebo, Rensselaer Polytechnic Institute
+Jamie McCusker, Rensselaer Polytechnic Institute
+Simon Miles, Invited Expert
+James Myers, Rensselaer Polytechnic Institute
+Satya Sahoo, Case Western Reserve University
+Curt Tilmes, National Aeronautics and Space Administration
+
+Please refer to the errata for this document, which may include some normative corrections. The English version of this specification is the only normative version. Non-normative
+translations may also be available.

@@ -1,0 +1,24 @@
+In Proceedings of the AAAI conference on artificial intelligence,
+
+Vol. 34, pp. 11181–11188. Cited by: §1,
+§3.3. S. Kadavath, T. Conerly, A. Askell, T. Henighan, D. Drain, E. Perez, N. Schiefer, Z. Hatfield-Dodds, N. DasSarma, E. Tran-Johnson, et al. (2022)
+Language models (mostly) know what they know. arXiv preprint arXiv:2207.05221. Cited by: §1,
+§1,
+§1,
+§2,
+§4.1. Z. Kang, X. Zhao, and D. Song (2025)
+Scalable best-of-n selection for large language models via self-certainty. In The Thirty-ninth Annual Conference on Neural Information Processing Systems,
+
+External Links: Link
+
+Cited by: §1,
+§2,
+§5. W. Kwon, Z. Li, S. Zhuang, Y. Sheng, L. Zheng, C. H. Yu, J. E. Gonzalez, H. Zhang, and I. Stoica (2023)
+Efficient memory management for large language model serving with pagedattention. In Proceedings of the ACM SIGOPS 29th Symposium on Operating Systems Principles,
+
+Cited by: §A.1. J. Leng, C. Huang, B. Zhu, and J. Huang (2025)
+Taming overconfidence in llms: reward calibration in rlhf. In The Thirteenth International Conference on Learning Representations,
+
+Cited by: §1,
+§2,
+§4.1. Y. Li, M. Xiong, J. Wu, and B.

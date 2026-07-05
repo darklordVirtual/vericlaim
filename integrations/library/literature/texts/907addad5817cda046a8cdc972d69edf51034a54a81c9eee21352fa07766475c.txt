@@ -1,0 +1,13 @@
+440–450, 2017. Zaremba & Sutskever (2014)
+
+Zaremba, W. and Sutskever, I. Learning to execute. arXiv preprint arXiv:1410.4615, 2014. Zellers et al. (2021)
+
+Zellers, R., Lu, X., Hessel, J., Yu, Y., Park, J. S., Cao, J., Farhadi, A., and
+Choi, Y. Merlot: Multimodal neural script knowledge models. arXiv preprint arXiv:2106.02636, 2021. Zhao et al. (2021)
+
+Zhao, T. Z., Wallace, E., Feng, S., Klein, D., and Singh, S. Calibrate before use: Improving few-shot performance of language
+models. arXiv preprint arXiv:2102.09690, 2021. Ziegler (2021)
+
+Ziegler, A. A first look at rote learning in github copilot suggestions., Jun
+2021. URL
+https://docs.github.com/en/github/copilot/research-recitation.

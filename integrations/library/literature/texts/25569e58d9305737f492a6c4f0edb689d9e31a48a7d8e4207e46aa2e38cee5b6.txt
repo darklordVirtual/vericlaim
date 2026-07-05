@@ -1,0 +1,8 @@
+Description: The World Wide Web
+Consortium publishes documents according to its publication
+policy. Working drafts are published regularly to reflect the work
+accomplished by working groups. Every publication of a working draft
+must be preceded by a "publication request" to the Webmaster. The
+very first version of a document must also be preceded by a
+"transition request" to be approved by the W3C director. All working
+drafts are made available at a unique IRI. In this scenario, we consider two successive versions of a given document, the policy according to which they were published, and the associated requests. We describe the kind of provenance record that the WWW Consortium could keep for auditors to check that due processes are followed. All entities involved in this example are Web resources, with well-defined IRIs (some of which refer to archived email messages, available to W3C Members).

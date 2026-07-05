@@ -1,0 +1,17 @@
+Example 53 ◊
+
+Example 52 illustrates an entity with a given value
+4. This examples shows that another entity with the same value may be computed differently (by an addition). entity(ex:in1, [ prov:value=3 ])
+entity(ex:in2, [ prov:value=1 ])
+entity(ex:out2, [ prov:value=4 ]) // ex:out2 also has value 4
+activity(ex:add1, [ prov:type="addition" ])
+used(ex:add1, ex:in1)
+used(ex:add1, ex:in2)
+wasGeneratedBy(ex:out2, ex:add1)
+
+5.7.3 Value
+
+A value ◊ is a constant such as a string, number, time, qualified name, IRI, and encoded binary data, whose interpretation is outside the scope of PROV. Values can occur in attribute-value pairs. Each kind of such values is called a datatype. Use of the following data types is RECOMMENDED. The RDF-compatible [RDF-CONCEPTS] types, including those taken from
+the set of XML Schema Datatypes [XMLSCHEMA11-2];
+
+Qualified names introduced in this specification. The normative definitions of these datatypes are provided by their respective specifications.

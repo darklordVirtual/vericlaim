@@ -1,0 +1,15 @@
+Polozov, Katherine Lee, Zongwei Zhou, Xuezhi
+Wang, Brennan Saeta, Mark Diaz, Orhan Firat, Michele Catasta, Jason Wei,
+Kathy Meier-Hellstern, Douglas Eck, Jeff Dean, Slav Petrov, and Noah Fiedel. 2022. Palm: Scaling
+language modeling with pathways. Cobbe et al. (2021)
+
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+et al. 2021. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168. Costa-jussà et al. (2022)
+
+Marta R Costa-jussà, James Cross, Onur Çelebi, Maha Elbayad, Kenneth
+Heafield, Kevin Heffernan, Elahe Kalbassi, Janice Lam, Daniel Licht, Jean
+Maillard, et al. 2022. No language left behind: Scaling human-centered machine translation. arXiv preprint arXiv:2207.04672. Devlin et al. (2019)
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of
+deep bidirectional transformers for language understanding.

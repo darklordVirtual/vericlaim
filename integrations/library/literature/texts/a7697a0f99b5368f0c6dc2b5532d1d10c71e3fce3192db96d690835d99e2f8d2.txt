@@ -1,0 +1,10 @@
+(a) Tasks that achieve the highest linearity scores see model performance improve predictably with scale, and typically rely on knowledge and simple textual manipulations. (b) Tasks with high breakthroughness do not see model performance improve until the model reaches a critical scale. These tasks generally require sequential steps or logical reasoning. Around 5% of BIG-bench tasks see models achieve sudden score breakthroughs with increasing scale. (c) Tasks that achieve the lowest (negative) linearity scores see model performance degrade with scale. 3.4.1 Properties of tasks with high linearity or breakthroughness
+
+The list of tasks with highest linearity contains tasks that are knowledge-based, that is, tasks that rely mostly on memorization of information that exists in
+training
+data, such as answering trivia-style questions in qa_wikidata, or performing simple text
+mappings
+as in linguistic_mappings and mult_data_wrangling. Tasks that see strong breakthrough behavior
+include those that are composite in nature, meaning that they require a model to apply several distinct skills
+or perform multiple discrete steps
+in order to come up with the correct answer.

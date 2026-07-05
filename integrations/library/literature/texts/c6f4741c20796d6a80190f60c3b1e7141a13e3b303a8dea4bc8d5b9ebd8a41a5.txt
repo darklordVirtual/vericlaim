@@ -1,0 +1,16 @@
+OpenRefine. https://openrefine.org/, 2012. Instagram Engineering (2015)
+
+Instagram Engineering. Emojineering part 1: Machine learning for emoji trends. Medium, 1 May 2015. URL
+https://instagram-engineering.com/emojineering-part-1-machine-learning-for-emoji-trendsmachine-learning-for-emoji-trends-7f5f9cb979ad. Ippolito et al. (2020)
+
+Daphne Ippolito, Daniel Duckworth, Chris Callison-Burch, and Douglas Eck. Automatic detection of generated text is easiest when humans are
+fooled. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 1808--1822, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.164. URL https://aclanthology.org/2020.acl-main.164. Irving et al. (2018)
+
+Geoffrey Irving, Paul Christiano, and Dario Amodei. AI safety via debate, 2018. URL https://arxiv.org/abs/1805.00899. Izacard & Grave (2020)
+
+Gautier Izacard and Edouard Grave. Leveraging passage retrieval with generative models for open domain
+question answering, 2020. URL https://arxiv.org/abs/2007.01282. Jain et al. (2020)
+
+Kushal Jain, Adwait Deshpande, Kumar Shridhar, Felix Laumann, and Ayushman
+Dash.

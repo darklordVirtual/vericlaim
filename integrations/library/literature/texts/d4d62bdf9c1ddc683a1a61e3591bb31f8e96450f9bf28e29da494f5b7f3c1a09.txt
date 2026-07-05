@@ -1,0 +1,17 @@
+In Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing
+and Interpreting Neural Networks for NLP, pp. 138--146, Florence, Italy,
+August 2019c. Association for Computational Linguistics. doi: 10.18653/v1/W19-4815. URL https://aclanthology.org/W19-4815. Yu et al. (2019d)
+
+Zhou Yu, Dejing Xu, Jun Yu, Ting Yu, Zhou Zhao, Yueting Zhuang, and Dacheng
+Tao. ActivityNet-QA: A dataset for understanding complex web videos via
+question answering, 2019d. URL https://arxiv.org/abs/1906.02467. Yudkowsky (2008)
+
+Eliezer Yudkowsky. Artificial intelligence as a positive and negative factor in global
+risk. In Nick Bostrom and Milan M. Ćirković (eds.), Global
+Catastrophic Risks, pp. 308--345. Oxford University Press, Oxford, 2008. URL
+https://web.archive.org/web/20210125025955/https://intelligence.org/files/AIPosNegFactor.pdf. Zaremba & Sutskever (2014)
+
+Wojciech Zaremba and Ilya Sutskever. Learning to execute, 2014. URL https://arxiv.org/abs/1410.4615. Zayed et al. (2020)
+
+Omnia Zayed, John Philip McCrae, and Paul Buitelaar. Figure me out: A gold standard dataset for metaphor interpretation. In Proceedings of the 12th Language Resources and Evaluation
+Conference, pp.

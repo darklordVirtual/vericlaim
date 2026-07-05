@@ -1,0 +1,2 @@
+The language model shown here is PaLM. Prior best numbers are from the leaderboards of CSQA (Talmor et al., 2019) and StrategyQA (Geva et al., 2021) (single-model only, as of May 5, 2022). Additional results using various sizes of LaMDA, GPT-3, and PaLM are shown in Table 4. Figure 8:
+Using chain-of-thought prompting facilitates generalization to longer sequences in two symbolic reasoning tasks.

@@ -1,0 +1,21 @@
+As with the case of correcting a binary predictor, we can use
+randomization to fill the span of possible derived predictors and
+allow for significant intersection in the false/true-positive plane. In particular, for every protected group , consider the convex hull
+of the image of the conditional ROC curve:
+
+(4.4)
+
+The definition of is analogous to the polytope in the
+previous section, except that here we do not consider points below the
+main diagonal (line from to ), which are worse than
+“random guessing” and hence never desirable for any reasonable loss
+function. Deriving an optimal equalized odds threshold predictor. Any point in the convex hull represents the false/true positive
+rates, conditioned on , of a randomized derived predictor based
+on . In particular, since the space is only two-dimensional, such
+a predictor can always be taken to be a mixture of two threshold
+predictors (corresponding to the convex hull of two points on the
+ROC curve). Conditional on the predictor behaves as
+
+where is a randomized threshold assuming the
+value with probability and the
+value with probability .

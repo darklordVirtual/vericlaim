@@ -1,0 +1,93 @@
+{"fsid": "arxiv_2307-15043", "n": 92, "overlap": 200, "source_sha256": "a3a2dd4822b9725510e1d00969b896d210b5a45aa86bc0d6a1f5923656f7319c", "target": 1200}
+{"section": "", "seq": 0, "sha256": "6bad085791b884d3a65420484a9506a06811b340db7c176017c443d87c3c0405"}
+{"section": "Universal and Transferable Adversarial Attacks on Aligned Language Models", "seq": 1, "sha256": "c73c05be36fd2138a27f4f3c4fb9cf6d1858fbaac85e34db2c5a5a6d40e6e9ca"}
+{"section": "Universal and Transferable Adversarial Attacks on Aligned Language Models", "seq": 2, "sha256": "5bcad046e184cba254e6836955033cf24dfbf13fa79732f1e992a867cac80146"}
+{"section": "Universal and Transferable Adversarial Attacks on Aligned Language Models", "seq": 3, "sha256": "e149dded94f8cb7335c6537c31009c1880d68ac425dd9d715492111de8d100c2"}
+{"section": "1 Introduction", "seq": 4, "sha256": "dc9ccc88183258b401ed423c9b82dafdf6cf93b52f2ccdcb2d26042eb50558b6"}
+{"section": "1 Introduction", "seq": 5, "sha256": "ca487596673c83a2fbe39c04edcbc92b937f48512511db0dfe4c2b9bb35f3d83"}
+{"section": "1 Introduction", "seq": 6, "sha256": "325f6651e38e0d5cab8e2e665b0f6a042af54a37ff288b41687a21262d74c6a0"}
+{"section": "1 Introduction", "seq": 7, "sha256": "09d1246f7dea3330eba79e222055cf6df2d7b0a8c00fddddb5f75738d1a37a76"}
+{"section": "1 Introduction", "seq": 8, "sha256": "e815b1c5f7f685ae8a349e4d99c8c9798de9bb9d014562c6f937a94156f69c45"}
+{"section": "1 Introduction", "seq": 9, "sha256": "d348fe35bd2ec8c4fad3b50e9db0f9ecfaedc0415fab7cb3ae64e513c7da9f39"}
+{"section": "1 Introduction", "seq": 10, "sha256": "913f0770a612a32dbcaf99b6d8a8fc7e0cab5898ffcb287a8428db0f731505f6"}
+{"section": "1 Introduction", "seq": 11, "sha256": "f96b38e1f2aae7da319d80897b301069513bbbaec3034852b28a9233d32245db"}
+{"section": "1 Introduction", "seq": 12, "sha256": "eaa20c98af97cb038910842fb8673f147bfc4409381fce83b01d05a468b66ea4"}
+{"section": "1 Introduction", "seq": 13, "sha256": "a66bede7342f7c10b94071ed850d7f253fe46ebbd8c081f82c71426558e1303f"}
+{"section": "2 A Universal Attack on LLMs", "seq": 14, "sha256": "e2e4215edf19dcc18458d9794716d93342e89a13529936d053efa0b030b0c2c7"}
+{"section": "2 A Universal Attack on LLMs", "seq": 15, "sha256": "988a2f0cc95126f86a923ac8ca67b98ad61615fbd99e52ed82d159ddc39aba27"}
+{"section": "2 A Universal Attack on LLMs", "seq": 16, "sha256": "d9318345cffe727beb5e08169b7d48611fbfa927de6b07731ccf03c2f94e35bb"}
+{"section": "2 A Universal Attack on LLMs", "seq": 17, "sha256": "3c124858cd25c05f6ff15344c1f8e1951a2f7090b413b9bb1b33fe23c8c44322"}
+{"section": "2.1 Producing Affirmative Responses", "seq": 18, "sha256": "cd27407b6ca37c3ae9b4bcd233483cb879d420ed2ecf47a937e2020b2f01b51d"}
+{"section": "2.1 Producing Affirmative Responses", "seq": 19, "sha256": "61b6e622d118a9c857d2e8834a3c8cefaeddf3f4886d736ff42257d212e9987a"}
+{"section": "2.1 Producing Affirmative Responses", "seq": 20, "sha256": "01dcd527b0901e67e20496e208b29d610d7466c9d9d5887b2bd0a39811d83e81"}
+{"section": "2.1 Producing Affirmative Responses", "seq": 21, "sha256": "fb98b6887248fac7bc050930d99b72963aee5a7704f6ad9496d83223e5e1e248"}
+{"section": "2.1 Producing Affirmative Responses", "seq": 22, "sha256": "869247167afecd45421a3e3baff7510e72b4937c0fca6956369f4bfacffbb830"}
+{"section": "2.2 Greedy Coordinate Gradient-based Search", "seq": 23, "sha256": "0c06e1bf37e873f93d459759fe1abdccb17845c1c3fd0e159f7c6798edc8d33d"}
+{"section": "2.2 Greedy Coordinate Gradient-based Search", "seq": 24, "sha256": "31c62e26ecfe2f2a54d641dbd9a9abde61c6b4a25fdb517f55ff6f1d459a23d6"}
+{"section": "2.2 Greedy Coordinate Gradient-based Search", "seq": 25, "sha256": "2a898c4621d71882434755a633dbc5c8aa23a94f31559557a2e7323abed24cb5"}
+{"section": "2.2 Greedy Coordinate Gradient-based Search", "seq": 26, "sha256": "778772f1e1941e109658623eadb8c29633652ac6f0661de525f50f57b0dac76a"}
+{"section": "2.3 Universal Multi-prompt and Multi-model attacks", "seq": 27, "sha256": "204ae11fb2f82a897970c3b7f610e14b6c56575c91c56607ebb9a6fac9689be8"}
+{"section": "2.3 Universal Multi-prompt and Multi-model attacks", "seq": 28, "sha256": "4e8ed3c333e5be041b09e3f8e9b0f28c74fd69fd5e84ab6e355836a44083444d"}
+{"section": "3 Experimental Results: Direct and Transfer Attacks", "seq": 29, "sha256": "395f3fd3b9ca4d0ffc23efa40d392eb806a2fe9c6088f8e57d74594579a94e17"}
+{"section": "3 Experimental Results: Direct and Transfer Attacks", "seq": 30, "sha256": "d5640750d93b7cc5e4fc8d9f90b3dbdb450d3cc62e3dc119e22200937aa72711"}
+{"section": "3 Experimental Results: Direct and Transfer Attacks", "seq": 31, "sha256": "d1b26007f49b553c81a52ba631f250898dc2c2a3dfbce6bc7172790429f2014f"}
+{"section": "3 Experimental Results: Direct and Transfer Attacks", "seq": 32, "sha256": "cdc872e0e8bee943a1d90a73ebaebf4c3d8a4d97390e71c6d184a67269fdeda3"}
+{"section": "3 Experimental Results: Direct and Transfer Attacks", "seq": 33, "sha256": "037b651eba25b7b90c1f4419019fb9c4b3fc029586578656556ce43de926adf8"}
+{"section": "3 Experimental Results: Direct and Transfer Attacks", "seq": 34, "sha256": "2d511f417dcb35288ba5fb54dc6e4581cebc0346c231cdd11f3f3a947916f344"}
+{"section": "3.1 Attacks on White-box Models", "seq": 35, "sha256": "62fd565794e4ff7f03e8bfa540ca22fb3b59ed2ccbaa8f54d83f9900184c2555"}
+{"section": "3.1 Attacks on White-box Models", "seq": 36, "sha256": "35c4b80e317f6ea7a9313319d3f0bb5c740598607cd4a429af0da1acd4bf6e35"}
+{"section": "3.1 Attacks on White-box Models", "seq": 37, "sha256": "46c9e912a4ef121f407b7b24c669728acd214b159da415d8115325fd540bc05e"}
+{"section": "3.1 Attacks on White-box Models", "seq": 38, "sha256": "bfb929f201a537e829b2133be1d5e8d3bba448c15e770e9f8299fbf6c28a35b9"}
+{"section": "3.1 Attacks on White-box Models", "seq": 39, "sha256": "fc8ef530cd888902371abcae2c04d5efc17d373645ec5af51bb78865f75834f1"}
+{"section": "3.1 Attacks on White-box Models", "seq": 40, "sha256": "7eb4c9a72465ef8867cf0339f3b10bbce7c5aeb77f15b3fa2d0d9e8affa6e690"}
+{"section": "3.2 Transfer attacks", "seq": 41, "sha256": "c8bc5dac64c201b2484df6038960bde7e5ee3b755ca47efef921878003c55186"}
+{"section": "3.2 Transfer attacks", "seq": 42, "sha256": "fa9a1deddfe3cebd811973502d097e63948a92af1d674d352972b0d68ba3af73"}
+{"section": "3.2 Transfer attacks", "seq": 43, "sha256": "ecac2645016e9bf9b0468f40fcf5ec9861b64c3ab9d68737504fec73e7ea6575"}
+{"section": "3.2 Transfer attacks", "seq": 44, "sha256": "b5a20b2ae98694422a05c7883ed63bd4b9345c2d5db3164665fded10a230d8a1"}
+{"section": "3.2 Transfer attacks", "seq": 45, "sha256": "6ff547723604a8c63b8448db579f26e9a1505b94eb51d15a27069b87a1aeafe4"}
+{"section": "3.2 Transfer attacks", "seq": 46, "sha256": "66661cdc71923e419b04d08ea33e3a86082bbe3772f27a4ac35a403b80f9a042"}
+{"section": "3.2 Transfer attacks", "seq": 47, "sha256": "d0f204a8d4c3903e79a7f9e728efc4d51297bfa477059c6241af5583dc4a0436"}
+{"section": "3.2 Transfer attacks", "seq": 48, "sha256": "6b56af48fe831eaa43269721cd5c13798e551f1b2e63a64627760248126694e2"}
+{"section": "3.2 Transfer attacks", "seq": 49, "sha256": "1bcc0ffcfa04a7dc55dad3e78f7a1a264bbc97826f2be49386c7984da1ebc89c"}
+{"section": "3.2 Transfer attacks", "seq": 50, "sha256": "8fb51cfbddb9b4b64fd4b95668f482387b24813217d6d7460826381174c6e7c8"}
+{"section": "3.2 Transfer attacks", "seq": 51, "sha256": "1b273e4b0cc4db6e531787cadeac91796612e359fc7272c5fbbc769dc48b0132"}
+{"section": "3.2 Transfer attacks", "seq": 52, "sha256": "011a7d2a3c4c5027ad91fcc48151efc3751c81cd4f3611e2d7fa4d63e825ffd8"}
+{"section": "3.3 Discussion", "seq": 53, "sha256": "48083080a9756292e25f9129a06878547bf90c9902c11607e6ace8c9018318aa"}
+{"section": "3.3 Discussion", "seq": 54, "sha256": "f7eee3a5f5fae365ca8d3745f6b152ec1928621792bc908f454976f3f0b339ef"}
+{"section": "3.3 Discussion", "seq": 55, "sha256": "e3944cf0b1ad89aa894b390dcb1cf6a6d27d50930e5502dbe10e84f972c76963"}
+{"section": "3.3 Discussion", "seq": 56, "sha256": "852afc759bc42eb5812668ff4260e4f104f43bb32fd16dd991dd3212727a580b"}
+{"section": "3.3 Discussion", "seq": 57, "sha256": "3f6946af44f09fb71b48690b614997bcee6fb9d78d7e70cacd67ffdd5f8ea54c"}
+{"section": "3.3 Discussion", "seq": 58, "sha256": "ec09fa3348ea49f52808225d08cef749a5609f9b17febb020caeb98d6fc7cfd4"}
+{"section": "3.3 Discussion", "seq": 59, "sha256": "596ff0503be8a3009574f0ee131226289fa79fcd95914493a6d928ccc43fafeb"}
+{"section": "4 Related Work", "seq": 60, "sha256": "1955c7757c663cb68a5a721d394774c9fc7bf7d5d448a40ccbe9d7f6d71f4e70"}
+{"section": "4 Related Work", "seq": 61, "sha256": "0e738b0ae1150d66a5b7d86c23babebe44b2667fdf3d6a1bc093853146906678"}
+{"section": "4 Related Work", "seq": 62, "sha256": "acaa69200572980ab7fa209b4d10e8ad857f6bac22070936d567f77285e1c261"}
+{"section": "4 Related Work", "seq": 63, "sha256": "d6eab60a83b85bf6c48a4c1719579d3d39c2b9111c3e0c7401f8b95966c6137a"}
+{"section": "4 Related Work", "seq": 64, "sha256": "24a538fa529a3a0ac2217a531573efdc80787d2646abf0062666e8519ba04ee8"}
+{"section": "4 Related Work", "seq": 65, "sha256": "bcad11271c4eefdcde73a96df8c7f0199df0f9266a1f817082612cbba2ff700a"}
+{"section": "4 Related Work", "seq": 66, "sha256": "fd5a396a7e8bf0231710dfc30c4423da497900e29c734d777b759aa17d0adc0d"}
+{"section": "4 Related Work", "seq": 67, "sha256": "339e675ef250a012931eeaec627bc960291b794bc94b5a9836e17098f5333730"}
+{"section": "4 Related Work", "seq": 68, "sha256": "f81500cb560425d65143ab7a43e07ef6fdea12a371f0c1aaf290d6546e0fc7cb"}
+{"section": "4 Related Work", "seq": 69, "sha256": "f79b4fa02c0cbbfab1f657772d05c61feddab56a02fa8c142b2d7c78f887282e"}
+{"section": "4 Related Work", "seq": 70, "sha256": "aef01ca493aa27726183a364db229b0b6c14d0261206b8552e8ddbe4fa2b2a06"}
+{"section": "5 Conclusion and Future Work", "seq": 71, "sha256": "81e595e93f0fc1b48a99e930353aea59eb22c5a13806ee9c0965d2c51cf43c37"}
+{"section": "5 Conclusion and Future Work", "seq": 72, "sha256": "f905f9e5fb6350e8c67ae2e3581caf032d1e9578aa9cac436ea2f19a7f383e33"}
+{"section": "6 Ethics and Broader Impact", "seq": 73, "sha256": "f110ee081e0460d05bac891482ac61c7810313f48dcce7652c946516acefdee2"}
+{"section": "6 Ethics and Broader Impact", "seq": 74, "sha256": "152ef8844be467e6bd955abf7346c295e8939852e9e113b6538819b0b03d54ac"}
+{"section": "Acknowledgements", "seq": 75, "sha256": "beb0e699c4836a8eae45ce994edab1ed7da56d4c0c3327f3d4ca3dc602194824"}
+{"section": "References", "seq": 76, "sha256": "37c58553c9d026c9509abb83af0338f64fd21fff305d3c3272ffe47282a0981b"}
+{"section": "References", "seq": 77, "sha256": "02db6b2864583b97168136648f2dfc47f96844bfe497891c31c33fb2ecf76bbf"}
+{"section": "References", "seq": 78, "sha256": "166ec7c6b660d4acca55e4b56ed8b8fd1cce9e2415f43dc9ca8f80039c54a393"}
+{"section": "References", "seq": 79, "sha256": "10bdf889e84081506cfa40836da3764d510808952b48356f504eefdc3b45d0f5"}
+{"section": "References", "seq": 80, "sha256": "70888c817e9b4fe20e754facaa804812186dc497877bee95a26cf3f50de14d9f"}
+{"section": "References", "seq": 81, "sha256": "ef11a1ae08a9c10dd8ecf69ac946e9f55da5ab89f043280425b1d5e038db3200"}
+{"section": "References", "seq": 82, "sha256": "a3052b1d5f3023adc1e950618946549f0f721fbde20bca58d1f5a2562d68f81b"}
+{"section": "References", "seq": 83, "sha256": "4e22bdef98047fc0adf7fc72a885791ed196b69fe3b0601c8f3404193ca16f36"}
+{"section": "References", "seq": 84, "sha256": "76e953af7a33646295988b12e68c9ef22cddbb4edb8e9eaba4469037dc712c96"}
+{"section": "References", "seq": 85, "sha256": "e79f44a21a13185fcf1586ccf156122336a5ed2e2a14332736f4e35e53b4bf6b"}
+{"section": "References", "seq": 86, "sha256": "e6ab3abb7f22e2e1cb5ede1e78291f615a89b4dda18cbe7db20d87375104c04d"}
+{"section": "References", "seq": 87, "sha256": "e71bec3961986680af99c1b73449692a0fcd00750d35ae8907a1b06aab4b7798"}
+{"section": "Appendix A AdvBench Details", "seq": 88, "sha256": "f266376d4519264393e5d383e062bce01b513a2c49db65c0971eda55de34cb1b"}
+{"section": "Appendix A AdvBench Details", "seq": 89, "sha256": "f517fcdc98c5da00ac72732b716a678fe3906fab0294d8a85dd41273ad6205c0"}
+{"section": "Appendix A AdvBench Details", "seq": 90, "sha256": "fe24c2e683fe922ff6a24b91d13819df02fa53c92e4a87c09a9bcaf8c289645e"}
+{"section": "Appendix B Full Completions of Harmful Generations", "seq": 91, "sha256": "b4321c96af328bec41386389886f1398f434c4990b0504fbfe14e2c865e090f6"}

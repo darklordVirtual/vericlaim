@@ -1,0 +1,16 @@
+Rauh, M., Weidinger, L., Chadwick, M., Thacker, P., Campbell-Gillingham,
+L., Uesato, J., Huang, P.-S., Comanescu, R., Yang, F., See, A., Dathathri,
+S., Greig, R., Chen, C., Fritz, D., Elias, J. S., Green, R., MokrÃ¡, S.,
+Fernando, N., Wu, B., Foley, R., Young, S., Gabriel, I., Isaac, W., Mellor,
+J., Hassabis, D., Kavukcuoglu, K., Hendricks, L. A., and Irving, G. (2022). Improving alignment of dialogue agents via targeted human judgements. [Huang et al., 2022]
+
+Huang, J., Gu, S. S., Hou, L., Wu, Y., Wang, X., Yu, H., and Han, J. (2022). Large language models can self-improve. [Irving et al., 2018]
+
+Irving, G., Christiano, P., and Amodei, D. (2018). Ai safety via debate. [Kadavath et al., 2022]
+
+Kadavath, S., Conerly, T., Askell, A., Henighan, T., Drain, D., Perez, E.,
+Schiefer, N., Dodds, Z. H., DasSarma, N., Tran-Johnson, E., Johnston, S.,
+El-Showk, S., Jones, A., Elhage, N., Hume, T., Chen, A., Bai, Y., Bowman, S.,
+Fort, S., Ganguli, D., Hernandez, D., Jacobson, J., Kernion, J., Kravec, S.,
+Lovitt, L., Ndousse, K., Olsson, C., Ringer, S., Amodei, D., Brown, T.,
+Clark, J., Joseph, N., Mann, B., McCandlish, S., Olah, C., and Kaplan, J. (2022).

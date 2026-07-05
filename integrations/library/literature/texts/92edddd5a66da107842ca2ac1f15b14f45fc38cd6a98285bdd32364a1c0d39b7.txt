@@ -1,0 +1,31 @@
++ CC
+
+12.9
+
+02.9
+
+Toolformer (disabled)
+
+12.7
+
+05.9
+
+Toolformer
+
+16.3
+
+27.3
+
+OPT (66B)
+
+14.5
+
+01.3
+
+GPT-3 (175B)
+
+15.5
+
+00.8
+
+Table 7: Results for the temporal datasets. Toolformer outperforms all baselines, but does not make use of the calendar tool for TempLAMA.

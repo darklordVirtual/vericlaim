@@ -1,0 +1,7 @@
+to PR: https://github.com/pylint-dev/pylint/pull/4703
+
+Issue
+
+Imports within TYPE_CHECKING can induce “cyclic-import”
+
+Suppose you have two modules: a.py and b.py. ‘a‘ imports ‘b‘, but ‘b‘ needs ‘a‘ in order to do type annotations, then this is usually done by importing ‘a‘ within a ‘TYPE_CHECKING‘ block. Unfortunately, this causes pylint to report ‘cyclic-import‘.

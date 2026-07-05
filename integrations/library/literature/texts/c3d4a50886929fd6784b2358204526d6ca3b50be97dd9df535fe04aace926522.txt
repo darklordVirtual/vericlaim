@@ -1,0 +1,20 @@
+M., and Itai, A. Learnability with respect to fixed distributions. TCS 86, 2 (1991), 377–389. [9]
+
+Biggio, B., Corona, I., Maiorca, D., Nelson, B., Šrndić, N.,
+Laskov, P., Giacinto, G., and Roli, F. Evasion attacks against machine learning at test time. In ECML PKDD. Springer, 2013, pp. 387–402. [10]
+
+Biggio, B., Nelson, B., and Laskov, P. Poisoning attacks against support vector machines. In ICML (2012). [11]
+
+BigML. https://www.bigml.com. Accessed Feb. 10, 2016. [12]
+
+Blum, A. L., and Langley, P. Selection of relevant features and examples in machine learning. Artificial intelligence 97, 1 (1997), 245–271. [13]
+
+Blumer, A., Ehrenfeucht, A., Haussler, D., and Warmuth, M. K. Occam’s razor. Readings in machine learning (1990), 201–204. [14]
+
+Boser, B. E., Guyon, I. M., and Vapnik, V. N. A training algorithm for optimal margin classifiers. In COLT (1992), ACM, pp. 144–152. [15]
+
+Bshouty, N. H. Exact learning boolean functions via the monotone theory. Inform. Comp. 123, 1 (1995), 146–153. [16]
+
+Buciluǎ, C., Caruana, R., and Niculescu-Mizil, A. Model compression. In KDD (2006), ACM, pp. 535–541. [17]
+
+Chaudhuri, K., and Monteleoni, C. Privacy-preserving logistic regression.

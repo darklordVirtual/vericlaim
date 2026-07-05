@@ -1,0 +1,9 @@
+Existing NN works consider a cost-based rejection model [2, 4], whereby the costs of misclassification and abstaining
+must be specified, and a rejection mechanism is optimized for these costs. The proposed mechanism for classification is
+based on applying a carefully selected threshold on the maximal neuronal response of the softmax layer. We that call this mechanism softmax response (SR). The cost model can be very useful when we can quantify the involved
+costs, but in many applications of interest meaningful costs are hard to reason. (Imagine trying to set up appropriate rejection/misclassification costs for disengaging an autopilot driving system.) Here we consider
+the alternative risk-coverage view for selective classification discussed in [5]. Ensemble techniques have been considered for selective (and confidence-rated) prediction, where
+rejection mechanisms are typically based on the ensemble statistics
+[18, 7]. However, such techniques are presently hard to realize in the
+context of DNNs, for which it could be
+very costly to train sufficiently many ensemble members.

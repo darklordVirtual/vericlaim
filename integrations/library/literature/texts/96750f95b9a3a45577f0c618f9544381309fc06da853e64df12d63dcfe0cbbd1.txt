@@ -1,0 +1,1 @@
+This avoids the need to run additional forward passes once the candidate set has been generated. We refer to this decoding procedure as “Fast Decoding.”

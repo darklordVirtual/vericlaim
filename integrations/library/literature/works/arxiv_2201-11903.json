@@ -12,6 +12,12 @@
     "Quoc Le",
     "Denny Zhou"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:30.354824+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2201.11903"
+  },
+  "fulltext_sha256": "882e9be0e310e9be14c3a380fd53f4514193c7943bb7f490526890c9527f2574",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "cot-2022",

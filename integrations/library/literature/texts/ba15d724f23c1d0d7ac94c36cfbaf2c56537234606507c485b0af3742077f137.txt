@@ -1,0 +1,16 @@
+You'll notice I'm passing the event into the
+domain object. There is a choice here about whether the event
+should pass in just the data the domain object needs for its
+processing, or pass in the event itself. By passing the event the
+event doesn't need to know exactly what data the domain logic
+needs. If the event gains additional data later, there's no need
+to update signatures. The downside of passing the event is that
+the domain logic is now aware of the event itself. That simple test just shows how the basic event processing
+works. Now I'll show a little domain logic to see how that would
+work. Our ships are transporting books to satisfy my fantasies of
+having an entire shipping line to move my books around the
+world. As I'm sure you know, it's very dangerous to send books through
+Canada, since it's this runs the risk of the books being contaminated
+with lots of “eh”. I've seen books where nearly every sentence has
+a eh (longer sentences can get two or three). So my perfect book shipping system would be able to detect if a
+cargo had passed through Canada. class Tester...

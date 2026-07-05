@@ -1,0 +1,27 @@
+auto_debugging
+bbq_lite_json
+code_line_description
+conceptual_combinations
+conlang_translation
+emoji_movie
+formal_fallacies_... hindu_knowledge
+
+known_unknowns
+language_identification
+linguistics_puzzles
+logic_grid_puzzle
+logical_deduction
+misconceptions_russian
+novel_concepts
+operators
+
+parsinlu_reading_comprehension
+play_dialog_same_or_different
+repeat_copy_logic
+strange_stories
+strategyqa
+symbol_interpretation
+vitaminc_fact_verification
+winowhy
+
+Table 1: The 24 tasks included in BIG-bench Lite, a diverse subset of JSON tasks that can be evaluated cheaply. Figure 4: BIG-bench Lite Performance of best (blue) and average (gray) human raters and the best model configuration (maroon), taken over number of shots and architecture, for each BIG-bench Lite task. Random performance for multiple choice tasks is indicated by hatch marks. BIG-bench was designed to contain a large, diverse task set, and to support arbitrary programmatic tasks. This scope is one of the strengths of BIG-bench. A consequence, however, is that full evaluation is computationally expensive.

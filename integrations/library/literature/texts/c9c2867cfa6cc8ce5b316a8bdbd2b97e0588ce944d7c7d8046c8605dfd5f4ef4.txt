@@ -1,0 +1,16 @@
+[Askell et al., 2021]
+
+Askell, A., Bai, Y., Chen, A., Drain, D., Ganguli, D., Henighan, T., Jones, A.,
+Joseph, N., Mann, B., DasSarma, N., Elhage, N., Hatfield-Dodds, Z.,
+Hernandez, D., Kernion, J., Ndousse, K., Olsson, C., Amodei, D., Brown, T.,
+Clark, J., McCandlish, S., Olah, C., and Kaplan, J. (2021). A general language assistant as a laboratory for alignment. [Bai et al., 2022]
+
+Bai, Y., Jones, A., Ndousse, K., Askell, A., Chen, A., DasSarma, N., Drain, D.,
+Fort, S., Ganguli, D., Henighan, T., Joseph, N., Kadavath, S., Kernion, J.,
+Conerly, T., El-Showk, S., Elhage, N., Hatfield-Dodds, Z., Hernandez, D.,
+Hume, T., Johnston, S., Kravec, S., Lovitt, L., Nanda, N., Olsson, C.,
+Amodei, D., Brown, T., Clark, J., McCandlish, S., Olah, C., Mann, B., and
+Kaplan, J. (2022). Training a helpful and harmless assistant with reinforcement learning
+from human feedback. [Bowman et al., 2022]
+
+Bowman, S.

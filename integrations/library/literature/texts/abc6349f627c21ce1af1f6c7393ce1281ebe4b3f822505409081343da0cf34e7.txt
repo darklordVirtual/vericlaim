@@ -1,0 +1,14 @@
+show that VL-Calibration effectively improves calibration while boosting visual reasoning accuracy, and it generalizes to out-of-distribution benchmarks across model scales and architectures. VL-Calibration: Decoupled Confidence Calibration for
+
+Large Vision-Language Models Reasoning
+
+Wenyi Xiao††thanks: Equal Contribution1,
+Xinchi Xu11footnotemark: 11,
+Leilei Gan††thanks: Corresponding Author1
+
+1Zhejiang University
+
+{wenyixiao,
+leileigan}@zju.edu.cn
+
+Figure 1: The baseline method (upper) makes overconfident assumptions. Instead, our method (lower) decouples confidence into visual and reasoning confidence, with clear identification of uncertainty sources and improved calibration.

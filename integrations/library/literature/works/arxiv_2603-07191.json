@@ -4,6 +4,12 @@
   "authors": [
     "Yuxu Ge"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:43.059732+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2603.07191"
+  },
+  "fulltext_sha256": "d437221d6159da249c224e1f4dadcd60b1cf57b1265d5c7b2cc4cf92318eee48",
   "registrar": "arxiv",
   "retrieval": {
     "query": "bibliography of remora_paper.md",

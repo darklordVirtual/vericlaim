@@ -1,0 +1,13 @@
+1587--1598, Lisbon, Portugal, September
+2015. Association for Computational Linguistics. doi: 10.18653/v1/D15-1182. URL https://aclanthology.org/D15-1182. Nguyen & Guo (2007)
+
+Nam Nguyen and Yunsong Guo. Comparisons of sequence labeling algorithms and extensions. In Proceedings of the 24th International Conference on Machine
+Learning, pp. 681–688, New York, NY, USA, 2007. Association for
+Computing Machinery. doi: 10.1145/1273496.1273582. URL https://doi.org/10.1145/1273496.1273582. Nie et al. (2019)
+
+Allen Nie, Erin Bennett, and Noah Goodman. DisSent: Learning sentence representations from explicit
+discourse relations. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pp. 4497--4510, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1442. URL https://aclanthology.org/P19-1442. Nippold et al. (2001)
+
+Marilyn Nippold, Melissa Allen, and Dixon Kirsch. Proverb comprehension as a function of reading proficiency in
+preadolescents. Language Speech and Hearing Services in Schools, 32:90, 04 2001. doi: 10.1044/0161-1461(2001/009).

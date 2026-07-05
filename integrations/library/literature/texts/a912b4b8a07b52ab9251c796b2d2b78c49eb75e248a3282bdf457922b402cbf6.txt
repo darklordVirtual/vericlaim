@@ -1,0 +1,30 @@
+to write:
+
+wasStartedBy(a1, -, a0, 2011-11-16T16:05:00)
+
+Example 24 ◊
+
+In the following example, a race is started by a bang, and responsibility for this trigger is attributed to an agent
+ex:Bob. activity(ex:foot_race)
+entity(ex:bang)
+wasStartedBy(ex:foot_race, ex:bang, -, 2012-03-09T08:05:08-05:00)
+agent(ex:Bob)
+wasAttributedTo(ex:bang, ex:Bob)
+
+Example 25 ◊
+
+In this example, filling the fuel tank was started as a consequence of
+observing low fuel. The trigger entity is unspecified, it could
+for instance have been the low fuel warning light, the fuel tank
+indicator needle position, or the engine not running properly. activity(ex:filling-fuel)
+activity(ex:observing-low-fuel)
+
+agent(ex:driver, [ prov:type='prov:Person' )
+wasAssociatedWith(ex:filling-fuel, ex:driver)
+wasAssociatedWith(ex:observing-low-fuel, ex:driver)
+
+wasStartedBy(ex:filling-fuel, -, ex:observing-low-fuel, -)
+
+The relations wasStartedBy and used are orthogonal, and thus need to be expressed independently, according to the situation being described. 5.1.7 End
+
+End ◊ is when an activity is deemed to have been ended by an entity, known as trigger ◊. The activity no longer exists after its end.

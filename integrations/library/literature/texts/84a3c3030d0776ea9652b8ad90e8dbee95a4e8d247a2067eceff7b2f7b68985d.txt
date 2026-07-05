@@ -1,0 +1,18 @@
+Their attack uses line searches to find
+points arbitrarily close to ’s decision boundary (points for which
+), and extracts and from these samples. This attack only works for linear binary models. We describe a straightforward
+extension to some non-linear models, such as
+polynomial kernel SVMs. Extracting a polynomial kernel SVM can be reduced to
+extracting a linear SVM in the transformed feature space. Indeed, for any
+kernel ,
+we can derive a projection function ,
+so that . This transforms the kernel SVM into a linear one, since the
+decision boundary now becomes where . We can
+use the Lowd-Meek attack to extract and
+as long as and its inverse are feasible to compute; this is unfortunately not
+the case for the more common RBF kernels.333We did explore using approximations of
+, but found that the adaptive re-training techniques discussed in this
+section perform better. The retraining approach. In addition to evaluating the
+Lowd-Meek attack against ML APIs, we introduce a number of other approaches
+based on the broad strategy of re-training a model locally, given input-output
+examples.

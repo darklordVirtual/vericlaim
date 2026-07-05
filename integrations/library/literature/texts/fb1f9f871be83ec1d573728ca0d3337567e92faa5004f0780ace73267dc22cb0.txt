@@ -1,0 +1,39 @@
+On four tasks (college_mathematics, econometrics, moral_scenarios, and formal_logic) Chinchilla underperforms Gopher, and there is no change in performance on two tasks. Figure 6: MMLU results compared to Gopher
+We find that Chinchilla outperforms Gopher by 7.6% on average (see Table 6) in addition to performing better on 51/57 individual tasks, the same on 2/57, and worse on only 4/57 tasks. Figure 7: BIG-bench results compared to Gopher Chinchilla out performs Gopher on all but four BIG-bench tasks considered. Full results are in Table A7. 4.2.3 Reading comprehension
+
+On the final word prediction dataset LAMBADA (Paperno et al., 2016), Chinchilla achieves 77.4% accuracy, compared to 74.5% accuracy from Gopher and 76.6% from MT-NLG 530B (see Table 7). On RACE-h and RACE-m (Lai et al., 2017), Chinchilla greatly outperforms Gopher, improving accuracy by more than 10% in both cases—see Table 7. Chinchilla
+Gopher
+GPT-3
+MT-NLG 530B
+
+LAMBADA Zero-Shot
+
+77.4
+
+74.5
+
+76.2
+
+76.6
+
+RACE-m Few-Shot
+
+86.8
+
+75.1
+
+58.1
+
+-
+
+RACE-h Few-Shot
+
+82.3
+
+71.6
+
+46.8
+
+47.9
+
+Table 7: Reading comprehension. On RACE-h and RACE-m (Lai et al., 2017), Chinchilla considerably improves performance over Gopher.

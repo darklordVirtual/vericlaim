@@ -1,0 +1,47 @@
+Thus, the dominant latency contributor in a full LGA deployment
+is Layer 2 intent verification (–2,200 ms at default
+configuration; with output capping, Qwen3.5-9B reduces to
+303 ms, see Sect. 7.3), which
+our experiments directly quantify; the remaining layers
+collectively add 5–18 ms depending on I/O conditions
+(the lower bound reflects these isolated microbenchmarks;
+the upper bound reflects end-to-end pipeline measurements
+in Sect. 7.5, where concurrent writes increase
+fsync latency). Table 5 summarizes these measurements. Table 5. Overhead of LGA Layers 1, 3, and 4
+
+Layer
+Mechanism
+
+P50 (ms)
+
+P99 (ms)
+
+L1
+
+unshare sandbox spawn
+
+0.95
+
+2.6
+
+L3
+HMAC-SHA256 + JSON validation
+
+L4
+
+fsync audit write
+
+4.1
+
+11.6
+
+Total (worst case)
+
+5.1
+
+14.2
+
+These findings suggest a risk-stratified routing policy:
+route low-risk tool calls (read-only, sandboxed) through BART-MNLI
+as a fast pre-filter, and escalate high-risk calls (delete,
+external network, transactional write) to LLM-based verification.

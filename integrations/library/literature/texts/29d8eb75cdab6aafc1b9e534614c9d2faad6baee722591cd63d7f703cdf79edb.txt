@@ -1,0 +1,14 @@
+In Proceedings of the 9th International Workshop on Semantic
+Evaluation (SemEval 2015), pp. 792--800, Denver, Colorado, June 2015. Association for Computational Linguistics. doi: 10.18653/v1/S15-2134. URL https://aclanthology.org/S15-2134. Logeswaran et al. (2018)
+
+Lajanugen Logeswaran, Honglak Lee, and Samy Bengio. Content preserving text generation with attribute controls, 2018. URL https://arxiv.org/abs/1811.01135. Lourie et al. (2020)
+
+Nicholas Lourie, Ronan Le Bras, and Yejin Choi. Scruples: A corpus of community ethical judgments on 32,000 real-life
+anecdotes, 2020. URL https://arxiv.org/abs/2008.09094. Lourie et al. (2021)
+
+Nicholas Lourie, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. Unicorn on rainbow: A universal commonsense reasoning model on a new
+multitask benchmark, 2021. URL https://arxiv.org/abs/2103.13009. Lu et al. (2020)
+
+Kaiji Lu, Piotr Mardziel, Fangjing Wu, Preetam Amancharla, and Anupam Datta. Gender bias in neural natural language processing. In Vivek Nigam, Tajana Ban Kirigin, Carolyn Talcott, Joshua Guttman,
+Stepan Kuznetsov, Boon Thau Loo, and Mitsuhiro Okada (eds.), Logic,
+Language, and Security. Springer, Cham, 2020.

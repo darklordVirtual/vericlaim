@@ -1,0 +1,8 @@
+While most BIG-bench tasks only cover English or other high-resource languages, a handful also target lower-resource languages. There is no broadly accepted definition of ‘‘low-resource’’ (Hedderich et al., 2021; Magueresse et al., 2020), but as a rough proxy, we can look at a language’s rank by document count within the mC4 corpus (Xue et al., 2021b). If we consider the top 50 languages to be high-resource and everything else to be low-resource, there are five BIG-bench tasks that involve low-resource languages (Table 2). \begin{overpic}[width=150.32503pt]{figures/swahili_proverbs.pdf}
+\put(0.0,0.0){{\small(a)}}
+\end{overpic}\begin{overpic}[width=150.32503pt]{figures/kannada_riddles.pdf}
+\put(0.0,0.0){{\small(b)}}
+\end{overpic}\begin{overpic}[width=150.32503pt]{figures/language_id.pdf}
+\put(0.0,0.0){{\small(c)}}
+\end{overpic}
+Figure 15: Performance on low-resource language tasks is generally low. (a) The swahili_english_proverbs task sees performance improvements with model scale, whereas performance on (b) kannada and (c) language_identification remains near chance. Performance of the evaluated models on low-resource languages is generally low.

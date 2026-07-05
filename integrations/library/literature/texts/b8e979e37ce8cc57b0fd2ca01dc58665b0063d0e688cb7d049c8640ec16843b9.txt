@@ -1,0 +1,43 @@
+To test whether any multi-variate vectors help with confidence estimation, we construct a noise matrix by sampling from a multi-variate gaussian parametrized by each feature’s mean and variance. We interpolate between the original features and the noise matrix on both training and test sets and evaluate acute pca20 via smECE and auc-euro averaged across all LLMs on APIGen. N% noise corresponds to
+We include the base rate estimator (one that just predicts training set accuracy for all inputs). Results hint that the activations contain relevant signals for confidence estimation and that performance degrades to the base rate estimator with more noise. Noise Level
+smECE ()
+
+auc-euro ()
+
+0%
+
+0.05
+
+0.873
+
+25%
+
+0.06
+
+0.867
+
+50%
+
+0.06
+
+0.850
+
+75%
+
+0.05
+
+0.814
+
+100%
+
+0.05
+
+0.778
+
+Base Rate Estimator
+
+0.001
+
+0.777
+
+Table 4: Here we show the smECE and auc-euro when adding different magnitudes of Gaussian noise to the input data for the acute pca20 estimator on APIGen. Intuitively, increased noise degrades performance on decision-making utility.

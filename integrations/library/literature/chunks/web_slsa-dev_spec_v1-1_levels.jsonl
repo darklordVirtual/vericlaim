@@ -1,0 +1,11 @@
+{"fsid": "web_slsa-dev_spec_v1-1_levels", "n": 10, "overlap": 200, "source_sha256": "b2d1142b4a7bfd00c0c6c86c3e65dd66b81de8733d4b5fb825d57daab400e928", "target": 1200}
+{"section": "", "seq": 0, "sha256": "042b843f5f158213d3cd45ccf5b74c9413f7040397d29fc919efc7202de61a84"}
+{"section": "Levels and tracks", "seq": 1, "sha256": "624d77fd1ee69549c1b8aa3eeab3f3e4cd0866c8ed7cceb36f1d1a4ac5db238e"}
+{"section": "Build track", "seq": 2, "sha256": "80918bbd0be51f3891d45699416795abd18aa0095475efa6cd9bf1c83b98dd61"}
+{"section": "Build L0: No guarantees", "seq": 3, "sha256": "ff327c8df9e5175e64f3b8f4dad29abc52c3fd63541ecbe989d1a86d7b274f6c"}
+{"section": "Build L1: Provenance exists", "seq": 4, "sha256": "4c2086e74bed5fdcf3be671ba18e627ebf5c5a1b91ff651018c24b8154c3fbc3"}
+{"section": "Build L1: Provenance exists", "seq": 5, "sha256": "557863302e9d9549da8e5259e803e7edfa15379c42e0c9ea3c02ac5e6064b885"}
+{"section": "Build L2: Hosted build platform", "seq": 6, "sha256": "4d6d7fab605610b075fbae53d5997b3e082910f353fe83f09765d15e3a972987"}
+{"section": "Build L2: Hosted build platform", "seq": 7, "sha256": "84c9ae84f2e50d9de69de275c58befbb3af7d6531b10002575c08f5cbc46d263"}
+{"section": "Build L3: Hardened builds", "seq": 8, "sha256": "7cd4b08eb754486b672e9c43c965fc87b9e0670e194af41fd39c638f0beb9967"}
+{"section": "Build L3: Hardened builds", "seq": 9, "sha256": "b2c2bd084140f53708d68ec36ebff300c377b8b48a9d77817c406123cca8f627"}

@@ -1,0 +1,16 @@
+Do NOT include both CORRECT and WRONG in your response, or it will break the evaluation script. 6.1.3 Self-instruct DMR dataset generation
+
+The DMR question/answer pairs were generated using the following prompt and the original MSC dataset:
+Your task is to write a ”memory challenge” question for a simulated dialogue between two users. You get as input:
+
+- personas for each user (gives you their basic facts)
+
+- a record of an old chat the two users had with each other
+
+Your task is to write a question from user A to user B that test’s user B’s memory. The question should be crafted in a way that user B must have actually participated in the prior conversation to answer properly, not just have read the persona summary. Do NOT under any circumstances create a question that can be answered using the persona information (that’s considered cheating). Instead, write a question that can only be answered by looking at the old chat log (and is not contained in the persona information). For example, given the following chat log and persona summaries:
+
+old chat between user A and user B
+
+A: Are you into surfing? I’m super into surfing myself
+
+B: Actually I’m looking to learn.

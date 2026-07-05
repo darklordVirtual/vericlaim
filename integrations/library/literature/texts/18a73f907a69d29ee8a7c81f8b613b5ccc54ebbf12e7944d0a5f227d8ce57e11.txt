@@ -1,0 +1,9 @@
+It is undesirable for models to remember any details that are specific to their (potentially private) training data. The field of training data privacy develops attacks
+(to leak training data details) and defenses
+(to prevent leaks). Privacy Attacks. When models are not trained with privacy-preserving algorithms, they are vulnerable to numerous privacy attacks. The least revealing form of attack is the
+membership inference attack [65, 47, 67, 28]: given a trained model,
+an adversary can predict whether or not a particular example was used to train the model. Separately,
+model inversion attacks [21] reconstruct representative views of a subset of examples
+(e.g., a model inversion attack on a face recognition classifier
+might recover a fuzzy image of a particular person that the classifier can recognize). Training data extraction attacks, like model inversion attacks, reconstruct training datapoints. However, training data extraction attacks aim
+to reconstruct verbatim training examples and not just representative “fuzzy” examples. This makes them more dangerous, e.g., they can extract secrets such as verbatim social security numbers or passwords.

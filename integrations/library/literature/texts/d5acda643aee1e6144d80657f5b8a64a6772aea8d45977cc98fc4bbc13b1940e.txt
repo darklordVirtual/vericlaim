@@ -1,0 +1,14 @@
+Choi, Richard Powell, Timo Ewalds, Petko
+Georgiev, Junhyuk Oh, Dan Horgan, Manuel Kroiss, Ivo Danihelka, Aja Huang,
+Laurent Sifre, Trevor Cai, John P. Agapiou, Max Jaderberg, Alexander S. Vezhnevets, Rémi Leblond, Tobias Pohlen, Valentin Dalibard, David Budden,
+Yury Sulsky, James Molloy, Tom L. Paine, Caglar Gulcehre, Ziyu Wang, Tobias
+Pfaff, Yuhuai Wu, Roman Ring, Dani Yogatama, Dario Wünsch, Katrina McKinney,
+Oliver Smith, Tom Schaul, Timothy Lillicrap, Koray Kavukcuoglu, Demis
+Hassabis, Chris Apps, and David Silver. Grandmaster level in StarCraft II using multi-agent reinforcement
+learning. Nature, 575:350--354, 2019. doi: 10.1038/s41586-019-1724-z. URL https://doi.org/10.1038/s41586-019-1724-z. Wachsmuth et al. (2017)
+
+Henning Wachsmuth, Nona Naderi, Yufang Hou, Yonatan Bilu, Vinodkumar
+Prabhakaran, Tim Alberdingk Thijm, Graeme Hirst, and Benno Stein. Computational argumentation quality assessment in natural language. In Proceedings of the 15th Conference of the European Chapter
+of the Association for Computational Linguistics: Volume 1, Long Papers,
+pp. 176--187, Valencia, Spain, April 2017. Association for Computational
+Linguistics. URL https://aclanthology.org/E17-1017.

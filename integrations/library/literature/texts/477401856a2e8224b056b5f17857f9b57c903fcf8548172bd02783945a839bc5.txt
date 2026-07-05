@@ -1,0 +1,17 @@
+W., Kreps, S., et al. (2019). Release strategies and the social impacts of language models. arXiv preprint arXiv:1908.09203. Solaiman and Dennison, (2021)
+
+Solaiman, I. and Dennison, C. (2021). Process for adapting language models to society (palms) with
+values-targeted datasets. arXiv preprint arXiv:2106.10328. Stiennon et al., (2020)
+
+Stiennon, N., Ouyang, L., Wu, J., Ziegler, D. M., Lowe, R., Voss, C., Radford,
+A., Amodei, D., and Christiano, P. (2020). Learning to summarize from human feedback. arXiv preprint arXiv:2009.01325. Tamkin et al., (2021)
+
+Tamkin, A., Brundage, M., Clark, J., and Ganguli, D. (2021). Understanding the capabilities, limitations, and societal impact of
+large language models. arXiv preprint arXiv:2102.02503. Thoppilan et al., (2022)
+
+Thoppilan, R., De Freitas, D., Hall, J., Shazeer, N., Kulshreshtha, A., Cheng,
+H.-T., Jin, A., Bos, T., Baker, L., Du, Y., et al. (2022). Lamda: Language models for dialog applications. arXiv preprint arXiv:2201.08239. Vig et al., (2020)
+
+Vig, J., Gehrmann, S., Belinkov, Y., Qian, S., Nevo, D., Singer, Y., and
+Shieber, S. M. (2020). Investigating gender bias in language models using causal mediation
+analysis. In NeurIPS.

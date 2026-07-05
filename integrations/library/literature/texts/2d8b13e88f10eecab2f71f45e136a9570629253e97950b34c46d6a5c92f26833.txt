@@ -1,0 +1,39 @@
+SquadV2 (Stanford Question Answering Dataset)
+
+Prompt format (the number of question / answer pairs is variable)
+
+Answer each question using information in the preceding background paragraph. If there is not enough information provided, answer with ‘‘Not in background.’’
+
+Title: [title]
+
+Background: [background]
+
+Q: [first question]
+
+A: [first answer]
+
+Q: [final question]
+
+A: [completion]
+
+Dataset features
+
+•
+
+11,873 examples drawn from the validation dataset
+
+•
+
+In the few-shot setting, there are 4 additional background paragraphs and associated questions. •
+
+Evaluation metric is the f1 score from the sample to the target completion. Figure 20: Squadv2: prompting, examples, and dataset features. Hellaswag
+
+Example prompt and completions
+
+Complete each independent paragraph using common-sense reasoning. Wakeboarding: Then, a woman and a man water ski doing acrobatic jumps. A boat sails empty in the river. After, men water ski jumping and turning around. Next,
+
+•
+
+a person surf on the waves created by the boat, after the man water ski jumping and flipping high. •
+
+a woman is standing next to an ocean and the man and woman water ski.

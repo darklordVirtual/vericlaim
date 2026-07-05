@@ -1,0 +1,59 @@
+{"fsid": "arxiv_2310-08560", "n": 58, "overlap": 200, "source_sha256": "760333517c80bd8e2a4199c87bbf6953fc2726c7965a44a8c1233ee01f91b8a6", "target": 1200}
+{"section": "", "seq": 0, "sha256": "79d115015a0b8c0a2477b630c5f32cb054a5ce11c8aa7d21bf3bef911115fee0"}
+{"section": "MemGPT: Towards LLMs as Operating Systems", "seq": 1, "sha256": "b96adb5ece49baf3703d81014cfe2ab4c6fff9ec6ee4ad83ae018d8a07665697"}
+{"section": "MemGPT: Towards LLMs as Operating Systems", "seq": 2, "sha256": "830265f43f212b04eaa97afe1be2765e299bd5f59533831ae11339f0fea34dd8"}
+{"section": "1 Introduction", "seq": 3, "sha256": "74e72a29e32f1bf72bf89c9a3b2ed01c8e8d8fdd9cf652fb98b0c8ff1eb0b6bd"}
+{"section": "1 Introduction", "seq": 4, "sha256": "4eb3ecb7743618a91926cca2fca3242f727963fabecb9d8d6e1ac562e219595b"}
+{"section": "1 Introduction", "seq": 5, "sha256": "1bc27a29dc459900a7f650aa65c46e95860619e32081e8c0c0ed7c9b7780d82b"}
+{"section": "1 Introduction", "seq": 6, "sha256": "fcebd486394860af606aea02eeb28a359a5a9ee7d36f42d00540328e163d0a36"}
+{"section": "1 Introduction", "seq": 7, "sha256": "2f764d8f95f140036c01c52a012f4f22425ac68daef62606d0cf08a897481c67"}
+{"section": "1 Introduction", "seq": 8, "sha256": "cfe93676eb786e6b99333fddde130c9546ee8203db1a82bdff2d095c6845d7b9"}
+{"section": "2 MemGPT (MemoryGPT)", "seq": 9, "sha256": "9ebc2fbe08130d6d1c4d01caf6f694c0555b0790d41beaf6d71d900f898c2c36"}
+{"section": "2.1 Main context (prompt tokens)", "seq": 10, "sha256": "751dd48c9112677d5525f396860c0e4c0f4b38a1a0f6b172da79014447619760"}
+{"section": "2.2 Queue Manager", "seq": 11, "sha256": "8b59b611fe7f6839c564830a1c6270a3bb3f43cad2e918182c2f4e6dd5e43d39"}
+{"section": "2.2 Queue Manager", "seq": 12, "sha256": "dbdbea8d877584ed6445fc06680900b976ee602610d787c2e5f9b2380ba874a5"}
+{"section": "2.3 Function executor (handling of completion tokens)", "seq": 13, "sha256": "2844474585e5279d3796e4b833e0063518c22c03b79a27f27a794abf42eb1bf4"}
+{"section": "2.3 Function executor (handling of completion tokens)", "seq": 14, "sha256": "a07136f88cd5df23ee7d7259414899249b099d8183f4c2d9f45ff5b99a2b9fdc"}
+{"section": "2.3 Function executor (handling of completion tokens)", "seq": 15, "sha256": "05edb5e139e0fd7cf2faea6f2801c9e78f9775b7299850c6b957c1a6fe5278f7"}
+{"section": "2.4 Control flow and function chaining", "seq": 16, "sha256": "c760ffd01c623c1202a158783b02ff5f5d61412674a3c6cd1e7c1cb8210097b6"}
+{"section": "2.4 Control flow and function chaining", "seq": 17, "sha256": "f24a1e73fff1f6595e544324f9f0da8354087cd0fc5d449a748e486e759b8647"}
+{"section": "3 Experiments", "seq": 18, "sha256": "9941d4e7199f45bbb651523f71e6dea57d8637501003e9bec1c4fe3f0d2b5f22"}
+{"section": "3 Experiments", "seq": 19, "sha256": "88f3840d26a37f5288f9fc3b49d4ac7b37907cec2a08085d8da651f2ab4a014d"}
+{"section": "3.1 MemGPT for conversational agents", "seq": 20, "sha256": "82f9ebf62bf00e95730f51cabb694d47e29d0bad5c42a3a038c501d64da617da"}
+{"section": "3.1 MemGPT for conversational agents", "seq": 21, "sha256": "ac79c78a8cd26e04a34fce5623c66abbc645fc4b86ac16349b96e426285ee5ac"}
+{"section": "3.1 MemGPT for conversational agents", "seq": 22, "sha256": "75e8a542b8368e277d9244822745dafaf41548a95289bc6965fed76771c56fd1"}
+{"section": "3.1 MemGPT for conversational agents", "seq": 23, "sha256": "376c3c534e12d356774c47e55db9a50f2df5f27308cf0831138309715218268c"}
+{"section": "3.1 MemGPT for conversational agents", "seq": 24, "sha256": "b74104bbd592f831a95ff1de0fe8ea993444d4042ba8d7c2c93819ba121793a0"}
+{"section": "3.1 MemGPT for conversational agents", "seq": 25, "sha256": "e461e006a2429def333d2d556bfc9c06eec8b0388882ffbb655bad5f22ff17e1"}
+{"section": "3.1 MemGPT for conversational agents", "seq": 26, "sha256": "666340b49eff14e49a884b45809b51f637efa73c833aeb530d2e438a9c2d31f6"}
+{"section": "3.2 MemGPT for document analysis", "seq": 27, "sha256": "6ae7b66a5fd3d758b46abde45f0b0c49e695450080bc0890a3ea5957f7e579fc"}
+{"section": "3.2 MemGPT for document analysis", "seq": 28, "sha256": "d8ce9afaa1e9176760a1a3982b030de0539aec273b81ecd867e0a71cfba2fda6"}
+{"section": "3.2 MemGPT for document analysis", "seq": 29, "sha256": "34c33aa9a55e1d8e9341c677ece093fb914593b0b8c1e237ee5d386c025a635a"}
+{"section": "3.2 MemGPT for document analysis", "seq": 30, "sha256": "627c0cba1f57723ae39a768a826093bb9bfee6945ac149c5ab89c21f5c67d503"}
+{"section": "3.2 MemGPT for document analysis", "seq": 31, "sha256": "7049ea17458ca995581d16af80350e74a5b59230da22572aefd1f094b2db26bf"}
+{"section": "3.2 MemGPT for document analysis", "seq": 32, "sha256": "ab1cc43c1e7d6df0b08a21f9358d1eb2a4ba73bf7717570f571e08eac9b2b8dc"}
+{"section": "3.2 MemGPT for document analysis", "seq": 33, "sha256": "2dabd6f09fbb1046d4c2b5aea29ca6674224a2740d9e20eb1ad41d16c7448c3d"}
+{"section": "3.2 MemGPT for document analysis", "seq": 34, "sha256": "a9d7a4a1cac8765fbca3641daebe0c0dd03a0dc76b84244c1373a0f5dadc5bbc"}
+{"section": "3.2 MemGPT for document analysis", "seq": 35, "sha256": "2b2d0021b2c7bc06c9b3fead9fcf094e635b658bf3b3e9cf056582b870397ea1"}
+{"section": "4 Related Work", "seq": 36, "sha256": "806157fdbb30b062263cd82e0de4fe696d7e25e244b6dd91f64438df5961620c"}
+{"section": "4 Related Work", "seq": 37, "sha256": "d00cfd2d6785a5614fb6249433ee2ddbd5138ce1c538eb6cc62df3590ded0349"}
+{"section": "4 Related Work", "seq": 38, "sha256": "d3edb3480b17ee9705e68df3251a3efd76a49c19516ed47da363495f41bda544"}
+{"section": "5 Conclusion", "seq": 39, "sha256": "17d52226fe129e002977c53ec6542bf4635ff14735df6fce444b9c9b0bc857f4"}
+{"section": "5 Conclusion", "seq": 40, "sha256": "207344e33ee5cd02acde4231028231ed7c81ca034c62f1dc2716e4b0b44d0862"}
+{"section": "References", "seq": 41, "sha256": "fdd3b8e186ec752c9db309a76037a8fee2322e9e895359b8cb21de4757c4984f"}
+{"section": "References", "seq": 42, "sha256": "f681aa9e8cb8049570023638e922f810ece5c03fa4bdd3555d444d180fa871c4"}
+{"section": "References", "seq": 43, "sha256": "f047df7bd334b04015b73bb4ac9026a639d11ce9af22a3bebbd86313540d693b"}
+{"section": "References", "seq": 44, "sha256": "a4e0498549db8b9e88528333913f98fcf99b9bd7b96c89ee7e16b64f3b6509c2"}
+{"section": "References", "seq": 45, "sha256": "ce2689d3eda74b41555f20ad795cbfee60362cf4b0c632e4cf59a10e7222a7ee"}
+{"section": "References", "seq": 46, "sha256": "ec5550f60416550782778ac11469f2e090912a699f35aad2dd2c2657b9cdb51f"}
+{"section": "References", "seq": 47, "sha256": "4084065885fc8a40c997a0ffa7ee39fe8d3a249e481c1706928e1aeffb6ed487"}
+{"section": "References", "seq": 48, "sha256": "742922d803241682b1b0fb62ce48e38cbf63006112ba9e6ae3c09d5537a62fa1"}
+{"section": "6.1 Prompts and instructions", "seq": 49, "sha256": "6ba046a578368d0f4eaac334e3f1a737df462254afd305a4444067ff022dcf3a"}
+{"section": "6.1 Prompts and instructions", "seq": 50, "sha256": "8e42c7f5844e9b195012246306f2b8e3a992ab7e1899b2cd2d2d4b4491699bc7"}
+{"section": "6.1 Prompts and instructions", "seq": 51, "sha256": "a398ab2933b1bc1ea2f3103b2c6ff168124daa9957c84ee275924ed77d45fb82"}
+{"section": "6.1 Prompts and instructions", "seq": 52, "sha256": "b10a592d07c5764fc9a9e67af0b5133b333360d3f2642026009582732d2e719c"}
+{"section": "6.1 Prompts and instructions", "seq": 53, "sha256": "5bd1d9c41797b9ad984ae980ecaacd6cbfef5247703b273c8e9340b7bd346628"}
+{"section": "6.1 Prompts and instructions", "seq": 54, "sha256": "772fcacaccf91e7233a51db9f1ed463126be215d4619d690fa9abeb74cac1d76"}
+{"section": "6.1 Prompts and instructions", "seq": 55, "sha256": "0834d906f91baf4837cb0791fb507c267a1025dadb9a5faa797b3097db334c4c"}
+{"section": "6.1 Prompts and instructions", "seq": 56, "sha256": "fcff324c9ef1ba65ea5270f5039e6f4857a5d00538657ef06873d619caaeda5c"}
+{"section": "6.1 Prompts and instructions", "seq": 57, "sha256": "409789366f778c6ab604427c6d9d3e2fbac687fcbf22b13d26e91e6db0a33e86"}

@@ -1,0 +1,14 @@
+176--187, Valencia, Spain, April 2017. Association for Computational
+Linguistics. URL https://aclanthology.org/E17-1017. Wallace et al. (2020)
+
+Eric Wallace, Florian Tramèr, Matthew Jagielski, and Ariel Herbert-Voss. Does GPT-2 know your phone number? Berkeley Artificial Intelligence Research blog, 20 Dec. 2020. URL https://bair.berkeley.edu/blog/2020/12/20/lmmem/. Wang et al. (2018)
+
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel
+Bowman. GLUE: A multi-task benchmark and analysis platform for natural
+language understanding. In Proceedings of the 2018 EMNLP Workshop BlackboxNLP:
+Analyzing and Interpreting Neural Networks for NLP, pp. 353--355,
+Brussels, Belgium, November 2018. Association for Computational Linguistics. doi: 10.18653/v1/W18-5446. URL https://aclanthology.org/W18-5446. Wang et al. (2019a)
+
+Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael,
+Felix Hill, Omer Levy, and Samuel R. Bowman. SuperGLUE: A stickier benchmark for general-purpose language
+understanding systems. In H. Wallach, H. Larochelle, A. Beygelzimer, F. d'Alché-Buc, E. Fox, and R.

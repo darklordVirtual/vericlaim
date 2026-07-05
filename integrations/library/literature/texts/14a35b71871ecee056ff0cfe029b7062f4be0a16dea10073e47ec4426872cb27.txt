@@ -1,0 +1,9 @@
+Task cites: (Forsyth, 2014)
+
+identify_math_theorems: Stella Biderman and Leo Gao, EleutherAI (stella, lg)@eleuther.ai, and Austin Herrick, University of Pennsylvania (aherrick@wharton.upenn.edu). Task cites: (Gao et al., 2021; Black et al., 2022; Brown et al., 2020; Radford et al., 2019; Wang & Komatsuzaki, 2021)
+
+identify_odd_metaphor: Vikas Raunak, Microsoft (viraunak@microsoft.com). Task cites: (Lakoff & Johnson, 2008; Gao et al., 2018)
+
+implicatures: Marco Maru and Michele Bevilacqua, Sapienza University of Rome (marco.maru, bevilacqua)@di.uniroma1.it. Task cites: (Davis, 2019; George & Mamidi, 2020)
+
+implicit_relations: Hugh Mee Wong, Jaap Jumelet, Mario Giulianelli, Clemencia Siro, Maartje ter Hoeve, Agnieszka Kluska, Jeroen Taal, Mátyás Schubert, Omar Elbaghdadi, Dilyar Buzan, Jelle Bosscher, Aman Hussain, and Rahel Habacker, University of Amsterdam (hughmee.wong@student.uva.nl), (j.w.d.jumelet, m.giulianelli, c.n.siro, m.a.terhoeve)@uva.nl, (aga.kluska1404, jeroen1749, schubertmatyas, omarelb, dilyar.muslem.977, jellebosscher)@gmail.com, (email@amanhussain.com), (rahel@habacker.de).

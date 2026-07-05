@@ -1,0 +1,5 @@
+It can be tempting to stop evaluations after plotting the coverage and set size, but certain important questions remain unanswered. A good spread of set sizes is generally better, but it does not necessarily indicate that the sets adapt properly to the difficulty of . Above seeing that the set sizes have dynamic range, we will need to verify that large sets occur for hard examples. We next formalize this notion and give metrics for evaluating it. Conditional coverage. Adaptivity is typically formalized by asking for the conditional coverage [vovk2012conditional] property:
+
+(15)
+
+That is, for every value of the input , we seek to return prediction sets with coverage. This is a stronger property than the marginal coverage property in (1) that conformal prediction is guaranteed to achieve—indeed, in the most general case, conditional coverage is impossible to achieve [vovk2012conditional]. In other words, conformal procedures are not guaranteed to satisfy (15), so we must check how close our procedure comes to approximating it.

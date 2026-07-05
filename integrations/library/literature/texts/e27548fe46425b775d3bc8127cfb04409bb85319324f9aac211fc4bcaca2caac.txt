@@ -1,0 +1,17 @@
+Abramson et al., (2020)
+
+Abramson, J., Ahuja, A., Barr, I., Brussee, A., Carnevale, F., Cassin, M.,
+Chhaparia, R., Clark, S., Damoc, B., Dudzik, A., et al. (2020). Imitating interactive intelligence. arXiv preprint arXiv:2012.05672. Achiam et al., (2017)
+
+Achiam, J., Held, D., Tamar, A., and Abbeel, P. (2017). Constrained policy optimization. In International Conference on Machine Learning, pages 22–31. PMLR. Anthony et al., (2017)
+
+Anthony, T., Tian, Z., and Barber, D. (2017). Thinking fast and slow with deep learning and tree search. arXiv preprint arXiv:1705.08439. Aribandi et al., (2021)
+
+Aribandi, V., Tay, Y., Schuster, T., Rao, J., Zheng, H. S., Mehta, S. V.,
+Zhuang, H., Tran, V. Q., Bahri, D., Ni, J., et al. (2021). Ext5: Towards extreme multi-task scaling for transfer learning. arXiv preprint arXiv:2111.10952. Askell et al., (2021)
+
+Askell, A., Bai, Y., Chen, A., Drain, D., Ganguli, D., Henighan, T., Jones, A.,
+Joseph, N., Mann, B., DasSarma, N., et al. (2021). A general language assistant as a laboratory for alignment. arXiv preprint arXiv:2112.00861. Bahdanau et al., (2016)
+
+Bahdanau, D., Brakel, P., Xu, K., Goyal, A., Lowe, R., Pineau, J., Courville,
+A., and Bengio, Y.

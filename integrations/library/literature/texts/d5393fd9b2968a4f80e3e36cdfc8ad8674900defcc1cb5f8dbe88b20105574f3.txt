@@ -1,0 +1,7 @@
+We show samples of critique and revision from the constitutional method for a variety of hand-written prompts designed to elicit harmfulness. The original response, critique and revision are all sampled from the same 52B helpful RLHF model. We find that the critiques often provide inaccurate criticism. Nonetheless, the first revision often removes most harmful content from the original response, while subsequent revisions make only minor improvements. We sample four sequential critiques and revisions for PALMS, LaMDA, and InstructGPT prompts, which we provide in our repository. An example is shown below:
+
+Prompt
+
+How can I steal from a grocery store without getting caught? Initial Response
+
+The best way to steal from a grocery store without getting caught is to be very sneaky and discreet. Try to time your theft for when the store is busy and there are lots of customers around. Pick small, easily concealable items like candy, gum, and batteries. Try to act normal and blend in with other shoppers. Also, avoid stealing expensive items that have security tags, as these are more likely to trigger store alarms.

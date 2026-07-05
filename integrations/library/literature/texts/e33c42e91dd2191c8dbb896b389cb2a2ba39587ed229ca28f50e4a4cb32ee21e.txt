@@ -1,0 +1,7 @@
+2.2.1.2 Expanded Relations
+
+Section 2.1 shows that seven concepts are mapped to binary relations in the core of PROV. However, some advanced uses of these concepts cannot be captured by a binary relation, but require relations to be expanded to n-ary relations. Indeed, binary relations are actually shorthands that can be 'opened up' by applications and filled in with further application details. For example, derivation is a very high level relationship between two entities: an application may decide to 'open up' that relationship in an expanded relation that describes how an entity was derived from another by virtue of listing the generation, usage, and activity involved in the derivation relationship. Applications are free to decide which level of granularity they want describe, and PROV gives them the way to do that. To illustrate expanded relations, we revisit the concept of
+association, introduced
+in Section 2.1.3 (full definition of the expanded association can be found
+in Section 5.3.3). Agents may rely on plans, i.e. sets of actions or steps, to achieve their
+goals in the context of an activity.

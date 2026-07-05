@@ -1,0 +1,34 @@
+(1)
+
+Andrews
+et al. (2006)
+
+Don A Andrews, James
+Bonta, and J Stephen Wormith. 2006. The recent past and near future of risk and/or need
+assessment. Crime & Delinquency 52,
+1 (2006), 7–27. Bender and
+Friedman (2018)
+
+Emily M. Bender and
+Batya Friedman. 2018. Data Statements for Natural Language Processing:
+Toward Mitigating System Bias and Enabling Better Science. Transactions of the Association for
+Computational Linguistics 6 (2018),
+587–604. Bhardwaj et al. (2014)
+
+Anant P. Bhardwaj, Souvik
+Bhattacherjee, Amit Chavan, Amol
+Deshpande, Aaron J. Elmore, Samuel
+Madden, and Aditya G. Parameswaran. 2014. DataHub: Collaborative Data Science & Dataset
+Version Management at Scale. CoRR abs/1409.0798
+(2014). Bolukbasi et al. (2016)
+
+Tolga Bolukbasi, Kai-Wei
+Chang, James Y Zou, Venkatesh Saligrama,
+and Adam T Kalai. 2016. Man is to Computer Programmer as Woman is to
+Homemaker? Debiasing Word Embeddings. In Advances
+in Neural Information Processing Systems (NeurIPS). Buolamwini and
+Gebru (2018)
+
+Joy Buolamwini and
+Timnit Gebru. 2018. Gender Shades: Intersectional Accuracy Disparities
+in Commercial Gender Classification.

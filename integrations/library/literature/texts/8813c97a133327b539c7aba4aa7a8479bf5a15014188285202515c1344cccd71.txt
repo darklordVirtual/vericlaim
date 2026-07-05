@@ -1,0 +1,7 @@
+[PROV-CONSTRAINTS]James Cheney; Paolo Missier; Luc Moreau; eds. Constraints of the PROV Data Model. 30 April 2013, W3C Recommendation. URL: http://www.w3.org/TR/2013/REC-prov-constraints-20130430/
+[PROV-N]Luc Moreau; Paolo Missier; eds. PROV-N: The Provenance Notation. 30 April 2013, W3C Recommendation. URL: http://www.w3.org/TR/2013/REC-prov-n-20130430/
+[PROV-O]Timothy Lebo; Satya Sahoo; Deborah McGuinness; eds. PROV-O: The PROV Ontology. 30 April 2013, W3C Recommendation. URL: http://www.w3.org/TR/2013/REC-prov-o-20130430/
+[RDF-CONCEPTS]Graham Klyne; Jeremy J. Carroll. Resource Description Framework (RDF): Concepts and Abstract Syntax. 10 February 2004. W3C Recommendation. URL: http://www.w3.org/TR/2004/REC-rdf-concepts-20040210
+[RFC2119]S. Bradner. Key words for use in RFCs to Indicate Requirement Levels. March 1997. Internet RFC 2119. URL: http://www.ietf.org/rfc/rfc2119.txt
+[RFC3987]M. Dürst; M. Suignard. Internationalized Resource Identifiers (IRIs) (RFC 3987). January 2005. RFC. URL: http://www.ietf.org/rfc/rfc3987.txt
+[XMLSCHEMA11-2]Henry S. Thompson et al. W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes. 5 April 2012. W3C Recommendation.

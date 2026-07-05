@@ -1,0 +1,18 @@
+Ahn et al., (2022)
+
+Ahn, M., Brohan, A., Brown, N., Chebotar, Y., Cortes, O., David, B., Finn, C.,
+Gopalakrishnan, K., Hausman, K., Herzog, A., et al. (2022). Do as i can, not as i say: Grounding language in robotic affordances. arXiv preprint arXiv:2204.01691. Austin et al., (2021)
+
+Austin, J., Odena, A., Nye, M., Bosma, M., Michalewski, H., Dohan, D., Jiang,
+E., Cai, C., Terry, M., Le, Q., et al. (2021). Program synthesis with large language models. arXiv preprint arXiv:2108.07732. Brooks et al., (2022)
+
+Brooks, E., Walls, L., Lewis, R. L., and Singh, S. (2022). In-context policy iteration. arXiv preprint arXiv:2210.03821. Cassano et al., (2022)
+
+Cassano, F., Gouwar, J., Nguyen, D., Nguyen, S., Phipps-Costin, L., Pinckney,
+D., Yee, M.-H., Zi, Y., Anderson, C. J., Feldman, M. Q., Guha, A., Greenberg,
+M., and Jangda, A. (2022). Multipl-e: A scalable and extensible approach to benchmarking neural
+code generation. Chen et al., (2022)
+
+Chen, B., Zhang, F., Nguyen, A., Zan, D., Lin, Z., Lou, J.-G., and Chen, W. (2022). Codet: Code generation with generated tests. arXiv preprint arXiv:2207.10397. Chen et al., (2021)
+
+Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. d.

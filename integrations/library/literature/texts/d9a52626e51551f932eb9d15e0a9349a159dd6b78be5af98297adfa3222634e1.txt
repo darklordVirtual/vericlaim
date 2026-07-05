@@ -1,0 +1,60 @@
+\model outperforms Act consistently
+
+Table 1 shows HotpotQA and Fever results using PaLM-540B as the base model with different prompting methods. We note that \model is better than Act on both tasks, demonstrating the value of reasoning to guide acting, especially for synthesizing the final answer, as shown in Figure 1 (1c-d). Fine-tuning results 3 also confirm the benefit of reasoning traces for more informed acting. Prompt Method444HotpotQA EM is 27.1, 28.9, 33.8 for Standard, CoT, CoT-SC in Wang et al. (2022b). HotpotQA
+
+Fever
+
+(EM)
+
+(Acc)
+
+Standard
+
+28.7
+
+57.1
+
+CoT (Wei et al., 2022)
+
+29.4
+
+56.3
+
+CoT-SC (Wang et al., 2022a)
+
+33.4
+
+60.4
+
+Act
+
+25.7
+
+58.9
+
+\model
+
+27.4
+
+60.9
+
+CoT-SC \model
+
+34.2
+
+64.6
+
+\model CoT-SC
+
+35.1
+
+62.0
+
+Supervised SoTA555(Zhu et al., 2021; Lewis et al., 2020)
+
+67.5
+
+89.5
+
+Table 1:
+PaLM-540B prompting results on HotpotQA and Fever. Figure 2: PaLM-540B prompting results with respect to number of CoT-SC samples used.

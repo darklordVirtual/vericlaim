@@ -1,0 +1,15 @@
+All our examples use quadratic weight decay on the connection weights:
+added to the total loss, where is the
+number of units in the layer. Three of our models are simple linear (softmax)
+classifier without hidden units (FC10()). One of them,
+FC10(), is trained with extremely high in order to test whether
+it is still possible to generate adversarial examples in this extreme setting as
+well.Two other models are a simple sigmoidal neural network with two hidden layers
+and a classifier. The last model, AE400-10,
+consists of a single layer sparse autoencoder with sigmoid
+activations and 400 nodes with a Softmax classifier. This network has been trained until it got very high quality first layer
+filters and this layer was not fine-tuned. The last column measures
+the minimum average pixel level distortion necessary to reach accuracy
+on the training set. The distortion is measure by between
+the original and distorted images, where is the number of
+image pixels. The pixel intensities are scaled to be in the range .

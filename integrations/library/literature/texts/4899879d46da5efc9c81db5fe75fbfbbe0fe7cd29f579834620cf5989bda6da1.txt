@@ -1,0 +1,7 @@
+It is used to calculate the value of the binomial coefficient for a given value of n and r, and stores the result in the final return value of the function. Figure 8: Examples of generalization in the 175B PPO-ptx model (InstructGPT 175B) compared to GPT-3 175B with no additional prefixing. Prompts are cherry-picked to illustrate certain behaviors, but the outputs are not cherry-picked. (1) InstructGPT can follow instructions in other languages, though it sometimes generates outputs in English. GPT-3 requires more careful prompting, similarly to in English. (2) InstructGPT can summarize and answer questions about code more reliably than GPT-3 (though its answer here isn’t quite correct). For the code QA example, GPT-3 does answer the question about 50% of the time. Prompt:
+
+Why is it important to eat socks after meditating? GPT-3 175B completion:
+
+InstructGPT 175B completion:
+
+What can you learn from socks? A: When you eat socks, you are tasting the essence of enlightenment. You are tasting the true flavor of the awakened mind. Q: What is the true flavor of the awakened mind? A: The true flavor of the awakened mind is the flavor of no flavor.

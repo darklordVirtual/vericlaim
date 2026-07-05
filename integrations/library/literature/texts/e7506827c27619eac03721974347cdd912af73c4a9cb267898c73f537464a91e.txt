@@ -1,0 +1,11 @@
+•
+
+Vulnerability to Guardrail Injection: AlignmentCheck itself can be targeted by prompt injections designed to manipulate both the agent and guardrail LLM. This risk is mitigated by:
+
+–
+
+Restricting inputs to only the agent’s chain-of-thought and actions, excluding direct tool outputs. –
+
+Pre-scanning inputs to AlignmentCheck using PromptGuard for known injection patterns. •
+
+Computational Cost: Effective alignment checks require large, capable models. Smaller models lack the general reasoning ability needed for accurate semantic evaluation, leading to limited effectiveness in resource-constrained environments.

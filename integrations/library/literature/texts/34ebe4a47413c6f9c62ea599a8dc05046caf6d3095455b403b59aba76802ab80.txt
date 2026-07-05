@@ -1,0 +1,13 @@
+These are all important, but also incredibly hard to measure. Instead, use
+proxies: if the user is happy, they will stay on the site longer. If the user
+is satisfied, they will visit again tomorrow. Insofar as well-being and
+company health is concerned, human judgement is required to connect any
+machine learned objective to the nature of the product you are selling and
+your business plan. Rule #14: Starting with an interpretable model makes debugging easier. Linear regression, logistic regression, and Poisson regression are directly
+motivated by a probabilistic model. Each prediction is interpretable as a
+probability or an expected value. This makes them easier to debug than models
+that use objectives (zero­-one loss, various hinge losses, and so on) that try
+to directly optimize classification accuracy or ranking performance. For
+example, if probabilities in training deviate from probabilities predicted in
+side­-by-­sides or by inspecting the production system, this deviation could
+reveal a problem.

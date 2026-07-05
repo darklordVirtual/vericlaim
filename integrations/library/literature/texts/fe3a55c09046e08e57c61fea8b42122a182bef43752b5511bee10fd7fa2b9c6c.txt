@@ -1,0 +1,19 @@
+Devlin et al. (2019)
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of
+deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pages 4171–4186,
+Minneapolis, Minnesota. Association for Computational Linguistics. Dhingra et al. (2022)
+
+Bhuwan Dhingra, Jeremy R. Cole, Julian Martin Eisenschlos, Daniel Gillick,
+Jacob Eisenstein, and William W. Cohen. 2022. Time-aware language
+models as temporal knowledge bases. Transactions of the Association for Computational Linguistics,
+10:257–273. Gao et al. (2020)
+
+Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles
+Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, et al. 2020. The pile: An 800gb dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027. Gao et al. (2022)
+
+Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie
+Callan, and Graham Neubig. 2022. Pal: Program-aided
+language models. Guu et al.

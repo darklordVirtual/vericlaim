@@ -1,0 +1,23 @@
+[16]
+
+Buciluǎ, C., Caruana, R., and Niculescu-Mizil, A. Model compression. In KDD (2006), ACM, pp. 535–541. [17]
+
+Chaudhuri, K., and Monteleoni, C. Privacy-preserving logistic regression. In NIPS (2009), pp. 289–296. [18]
+
+Cohn, D., Atlas, L., and Ladner, R. Improving generalization with active learning. Machine learning 15, 2 (1994), 201–221. [19]
+
+Craven, M. W., and Shavlik, J. W. Extracting tree-structured representations of trained networks. In NIPS (1996). [20]
+
+Cybenko, G. Approximation by superpositions of a sigmoidal function. MCSS 2, 4 (1989), 303–314. [21]
+
+Dalvi, N., Domingos, P., Sanghai, S., Verma, D., et al. Adversarial classification. In KDD (2004), ACM, pp. 99–108. [22]
+
+Dwork, C. Differential privacy. In ICALP (2006), Springer. [23]
+
+Fredrikson, M., Jha, S., and Ristenpart, T. Model inversion attacks that exploit confidence information and basic
+countermeasures. In CCS (2015), ACM, pp. 1322–1333. [24]
+
+Fredrikson, M., Lantz, E., Jha, S., Lin, S., Page, D., and Ristenpart, T. Privacy in pharmacogenetics: An end-to-end case study of personalized
+Warfarin dosing. In USENIX Security (2014), pp. 17–32. [25]
+
+Google Prediction API. https://cloud.google.com/prediction.

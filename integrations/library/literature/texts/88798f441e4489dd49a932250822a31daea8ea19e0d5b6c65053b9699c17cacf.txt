@@ -1,0 +1,17 @@
+exactly specify the conditional distributions ,
+a score function obeys equalized odds if and only if the ROC curves for all
+values of the protected attribute agree, that is
+for all values of and . In this case, any thresholding of
+yields an equalized odds predictor (all protected groups are at the
+same point on the curve, and the same point in false/true-positive
+plane). When the ROC curves do not agree, we might choose different thresholds
+for the different protected groups. This yields different points on
+each -conditional ROC curve. For the resulting predictor to satisfy
+equalized odds, these must be at the same point in the
+false/true-positive plane. This is possible only at points where all
+-conditional ROC curves intersect. But the ROC curves might not all intersect
+except at the trivial endpoints, and even if they do, their point of
+intersection might represent a poor tradeoff between false positive
+and false negatives. As with the case of correcting a binary predictor, we can use
+randomization to fill the span of possible derived predictors and
+allow for significant intersection in the false/true-positive plane.

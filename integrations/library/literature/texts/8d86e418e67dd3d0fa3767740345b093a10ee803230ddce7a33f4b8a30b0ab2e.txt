@@ -1,0 +1,13 @@
+to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. In identifying the most appropriate risk management measures, the following shall be ensured:
+
+(a)
+
+elimination or reduction of risks identified and evaluated pursuant to paragraph 2 in as far as technically feasible through adequate design and development of the high-risk AI system;
+
+(b)
+
+where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;
+
+(c)
+
+provision of information required pursuant to Article 13 and, where appropriate, training to deployers. With a view to eliminating or reducing risks related to the use of the high-risk AI system, due consideration shall be given to the technical knowledge, experience, education, the training to be expected by the deployer, and the presumable context in which the system is intended to be used. 6. High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures.

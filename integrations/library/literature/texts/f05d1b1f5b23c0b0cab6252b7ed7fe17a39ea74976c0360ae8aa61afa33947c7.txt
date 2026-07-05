@@ -1,0 +1,7 @@
+schubertmatyas, shutova.e, dilyar.muslem.977, jellebosscher, omarelb)@gmail.com, (rahel@habacker.de), (email@amanhussain.com); and Martha Lewis, University of Bristol (martha.lewis@bristol.ac.uk). Task cites: (Paul, 1970; Tong et al., 2021; Radford et al., 2019; Rai & Chakraverty, 2020; Shutova, 2010; Stowe et al., 2020; Mohler et al., 2016; Shutova & Teufel, 2010; Birke & Sarkar, 2006; Zayed et al., 2020; Steen et al., 2010; Tong, 2021; Bizzoni & Lappin, 2018; Tsvetkov et al., 2014)
+
+minute_mysteries_qa: Shadi Hamdan, Ali Safaya, Batuhan Özyurt, Aykut Erdem, and Deniz Yuret, Koç University (shamdan17, asafaya19, bozyurt20, aerdem, dyuret)@ku.edu.tr, and Erkut Erdem, Hacettepe University (erkut@cs.hacettepe.edu.tr). Task cites: (Sugawara et al., 2017; Dunietz et al., 2020; Kočiský et al., 2018; Mostafazadeh et al., 2016; Frermann et al., 2018)
+
+misconceptions: Dan Hendrycks, Eric Tang, and Andy Zou, UC Berkeley (hendrycks, erictang000, andyzou_jiaming)@berkeley.edu; and Mantas Mazeika, University of Illinois at Urbana-Champaign (mantas3@illinois.edu). Task cites: (Irving et al., 2018; Atanasova et al., 2020; Boller & George, 1989)
+
+misconceptions_russian: James B.

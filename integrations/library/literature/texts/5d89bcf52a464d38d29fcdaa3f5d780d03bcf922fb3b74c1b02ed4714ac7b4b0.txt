@@ -1,0 +1,4 @@
+We propose LGA, a four-layer defense-in-depth governance
+architecture for autonomous agent systems. Each layer is independently deployable; together they form a
+complete governance stack. Figure 1 illustrates the architecture. Figure 1. Layered Governance Architecture (LGA). Arrows indicate
+the verification and authorization flow; each layer is independently deployable.

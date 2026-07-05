@@ -1,0 +1,16 @@
+Even if the target is binary, a real-valued predictive score
+is often used (e.g. FICO scores for predicting loan
+default), with the interpretation that higher values of correspond
+to greater likelihood of and thus a bias toward predicting
+. A binary classifier can be obtained by
+thresholding the score, i.e. setting for
+some threshold . Varying this threshold changes the trade-off
+between sensitivity (true positive rate) and specificity (true negative rate). Our definition for equalized odds can be applied also to such score
+functions: a score satisfies equalized odds if is independent
+of given . If a score obeys equalized odds, then any
+thresholding of it also obeys equalized odds
+(as does any other predictor derived from alone). In Section 4, we will consider scores that might not satisfy
+equalized odds, and see how equalized odds predictors can be derived
+from them and the protected attribute , by using different
+(possibly randomized) thresholds depending on the value of . The same is possible for equality of opportunity without the need for
+randomized thresholds.

@@ -1,0 +1,13 @@
+In the binary case, we often think of the outcome as the “advantaged”
+outcome, such as “not defaulting on a loan”, “admission to a college” or
+“receiving a promotion”. A possible relaxation of equalized odds
+is to require non-discrimination only within the “advantaged” outcome group. That is, to require that people who pay back their loan, have an equal
+opportunity of getting the loan in the first place (without specifying any
+requirement for
+those that will ultimately default). This leads to a relaxation of our notion
+that we call “equal opportunity”. Definition 2.2 (Equal opportunity). We say that a binary predictor satisfies equal opportunity
+with respect to and if
+
+Equal opportunity is a weaker, though still interesting, notion of
+non-discrimination, and thus typically allows for stronger utility as we shall
+see in our case study.

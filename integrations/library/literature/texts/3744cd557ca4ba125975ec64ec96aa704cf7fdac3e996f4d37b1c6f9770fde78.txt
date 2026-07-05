@@ -1,0 +1,10 @@
+Figure 9:
+The early-stopped test loss depends predictably on the dataset size and model size according to Equation (1.5). Left:
+For large , performance is a straight power law in . For a smaller fixed , performance stops improving as increases and the model begins to overfit. (The reverse is also true, see Figure 4.)
+Right: The extent of overfitting depends predominantly on the ratio , as predicted in equation (4.3). The line is our fit to that equation. We have chosen the parameterization (1.5) (repeated here for convenience):
+
+(4.1)
+
+using three principles:
+
+1. Changes in vocabulary size or tokenization are expected to rescale the loss by an overall factor. The parameterization of (and all models of the loss) must naturally allow for such a rescaling. 2. Fixing and sending , the overall loss should approach . Conversely, fixing and sending the loss must approach . 3. should be analytic at , so that it has a series expansion in with integer powers. Theoretical support for this principle is significantly weaker than for the first two. Our choice of satisfies the first requirement because we can rescale with changes in the vocabulary.

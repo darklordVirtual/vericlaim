@@ -1,0 +1,10 @@
+For the purpose of this specification, provenance ◊ is defined as a record that describes the people,
+institutions, entities, and activities involved in producing,
+influencing, or delivering a piece of data or a thing. In particular, the provenance of information is crucial in deciding
+whether information is to be trusted, how it should be integrated with
+other diverse information sources, and how to give credit to its
+originators when reusing it. In an open and inclusive environment
+such as the Web, where users find information that is often contradictory or
+questionable, provenance can help those users to make trust judgements. We present the PROV data model, PROV-DM,
+a generic data model for provenance that allows domain and application specific representations of provenance to be translated into such a data model and interchanged between systems. Thus, heterogeneous systems can export their native provenance into such a core data model, and applications that need to make sense of provenance can then import it,
+process it, and reason over it.

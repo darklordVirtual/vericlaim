@@ -15,6 +15,12 @@
     "Sebastian Riedel",
     "Douwe Kiela"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:05.573255+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2005.11401"
+  },
+  "fulltext_sha256": "ce1464eb4cf5109d6c2a8de3923324afd77f9f0b4844ffa5385bc2826a0806d4",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "rag-2020",

@@ -1,0 +1,14 @@
+wasAssociatedWith(a, ag, [ prov:role="operator" ])
+
+In the following expression, the activity ex:div01 used entity ex:cell in the role of divisor. used(ex:div01, ex:cell, [ prov:role="divisor" ])
+
+5.7.2.4 prov:type
+
+The attribute prov:type ◊ provides further typing information for any construct with an optional set of attribute-value pairs. PROV-DM liberally
+defines a type as a category of things having common characteristics. PROV-DM is agnostic about the representation of types, and only states that
+the value associated with a prov:type attribute MUST be a PROV-DM Value. The attribute prov:type
+is allowed to occur multiple times. Example 51 ◊
+
+The following describes an agent of type software agent. agent(ag, [ prov:type='prov:SoftwareAgent' ])
+
+The following types are pre-defined in PROV, and are valid values for the prov:type attribute.

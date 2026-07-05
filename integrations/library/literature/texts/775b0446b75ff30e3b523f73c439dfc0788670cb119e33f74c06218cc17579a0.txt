@@ -1,0 +1,11 @@
+Recall that CoT (GT)
+uses Chain-of-Thought reasoning with provided ground truth context, which tests
+reasoning ability over long contexts. Next, we add an element of episodic memory
+(EPM) by including the most recent trajectory. For the Reflexion agent, we
+implement the standard self-reflection step as a final pass. Intuitively, we
+test if the agent is iteratively learning more effectively by using verbal
+explanation using language written in the first person. 4
+shows that self-reflection improves learning by an 8% absolute
+boost over the episodic memory learning advantage. This result
+supports the argument that refinement-only approaches are not as effective as
+self-reflection-guided refinement approaches.

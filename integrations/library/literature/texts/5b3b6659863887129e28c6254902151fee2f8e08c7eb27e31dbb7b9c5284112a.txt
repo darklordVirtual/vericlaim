@@ -1,0 +1,20 @@
+Clark, I. Cowhey, O. Etzioni, T. Khot, A. Sabharwal, C. Schoenick, and
+O. Tafjord. Think you have solved question answering? try arc, the ai2 reasoning
+challenge. ArXiv, abs/1803.05457, 2018. Clark et al. (2019)
+
+P. Clark, O. Etzioni, D. Khashabi, T. Khot, B. D. Mishra, K. Richardson,
+A. Sabharwal, C. Schoenick, O. Tafjord, N. Tandon, S. Bhakthavatsalam,
+D. Groeneveld, M. Guerquin, and M. Schmitz. From ’f’ to ’a’ on the n.y. regents science exams: An overview of the
+aristo project. ArXiv, abs/1909.01958, 2019. Devlin et al. (2019)
+
+J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova. Bert: Pre-training of deep bidirectional transformers for language
+understanding. ArXiv, abs/1810.04805, 2019. Geirhos et al. (2020)
+
+R. Geirhos, J.-H. Jacobsen, C. Michaelis, R. Zemel, W. Brendel, M. Bethge, and
+F. A. Wichmann. Shortcut learning in deep neural networks, 2020. Guo et al. (2017)
+
+C. Guo, G. Pleiss, Y. Sun, and K. Q. Weinberger. On calibration of modern neural networks. ICML, 2017. Hendrycks et al. (2019a)
+
+D. Hendrycks, M. Mazeika, and T. Dietterich. Deep anomaly detection with outlier exposure. ICLR, 2019a. Hendrycks et al. (2019b)
+
+D. Hendrycks, K. Zhao, S. Basart, J. Steinhardt, and D.

@@ -1,0 +1,13 @@
+For example, an activity that describes the relocation of an entity will have start and end locations, as well as every place in between those points. Example 49 ◊
+
+The following expression describes entity Mona Lisa, a painting, with a location attribute. entity(ex:MonaLisa, [ prov:location="Le Louvre, Paris", prov:type="StillImage" ])
+
+The following expression describes a cell, at coordinates (5,5), with value 10. entity(ex:cell, [ prov:location="(5,5)", prov:value="10" %% xsd:integer ])
+
+5.7.2.3 prov:role
+
+A role ◊ is the function of an entity or agent with respect to an activity, in the context of a usage, generation, invalidation, association, start, and end. The attribute prov:role is allowed to occur multiple times in a list of attribute-value pairs. The value associated with a prov:role attribute MUST be a PROV-DM Value. Example 50 ◊
+
+The following activity is associated with an agent acting as the operator. wasAssociatedWith(a, ag, [ prov:role="operator" ])
+
+In the following expression, the activity ex:div01 used entity ex:cell in the role of divisor.

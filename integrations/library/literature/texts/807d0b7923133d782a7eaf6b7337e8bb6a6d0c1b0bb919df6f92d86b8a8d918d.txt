@@ -1,0 +1,1 @@
+Sparse retrieval. During retrieval we make a slight augmentation to the documents by pre-pended files’ contents with their file paths to better enable retrieval based on filenames that may be mentioned directly in the issue. Oracle retrieval. Oracle retrieval file paths are simply extracted directly from the reference solution’s patch file excluding test files.

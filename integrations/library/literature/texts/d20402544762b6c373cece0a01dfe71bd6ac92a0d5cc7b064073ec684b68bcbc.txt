@@ -1,0 +1,13 @@
+The direction
+need only have positive dot product with the gradient of the cost function,
+and need only be large enough. Fig. 4 demonstrates this phenomenon. By tracing out different values
+of we see that adversarial examples occur in contiguous regions of the 1-D subspace
+defined by the fast gradient sign method, not in fine pockets. This explains why
+adversarial examples are abundant and why an example misclassified by one classifier
+has a fairly high prior probability of being misclassified by another classifier. To explain why mutiple classifiers assign the same class to adversarial examples,
+we hypothesize that neural networks
+trained with current methodologies all resemble the linear classifier
+learned on the same training set. This reference classifier is able to learn approximately
+the same classification weights when trained on different subsets of the training
+set, simply because machine learning algorithms are able to generalize. The stability of the underlying classification weights in turn results in the stability
+of adversarial examples.

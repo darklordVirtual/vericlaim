@@ -1,0 +1,15 @@
+Why is it that anti-virus scanners would not have found an exploitation of Heartbleed? (A) It’s a vacuous question: Heartbleed only reads outside a buffer, so there is no possible exploit
+(B) Anti-virus scanners tend to look for viruses and other malicious
+(C) Heartbleed attacks the anti-virus scanner itself
+(D) Anti-virus scanners tend to look for viruses and other malicious code, but Heartbleed exploits steal secrets without injecting any code
+
+Figure 25: A Computer Security example. A model airplane flies slower when flying into the wind and faster with wind at its back. When launched at right angles to the wind, a cross wind, its groundspeed compared with flying in still air is
+(A) the same (B) greater (C) less (D) either greater or less depending on wind speed
+
+Figure 26: A Conceptual Physics example. Consider the following AR(1) model with the disturbances having zero mean and unit variance
+
+The (unconditional) mean of will be given by
+(A) 0.2 (B) 0.4 (C) 0.5 (D) 0.33
+
+Figure 27: An Econometrics example. A point pole has a strength of weber. The force in newtons on a point pole of weber placed at a distance of 10 cm from it will be
+(A) 15 N. (B) 20 N. (C) 7.5 N. (D) 3.75 N.

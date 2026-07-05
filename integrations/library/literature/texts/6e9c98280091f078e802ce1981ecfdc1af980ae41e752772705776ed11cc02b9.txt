@@ -1,0 +1,16 @@
+Bajaj et al. [2016]
+
+Payal Bajaj, Daniel Campos, Nick Craswell, Li Deng, Jianfeng Gao, Xiaodong Liu,
+Rangan Majumder, Andrew McNamara, Bhaskar Mitra, Tri Nguyen, Mir Rosenberg,
+Xia Song, Alina Stoica, Saurabh Tiwary, and Tong Wang. MS MARCO: A Human Generated MAchine Reading
+COmprehension Dataset. arXiv:1611.09268 [cs], November 2016. URL http://arxiv.org/abs/1611.09268. arXiv: 1611.09268. Baudiš and Šedivỳ [2015]
+
+Petr Baudiš and Jan Šedivỳ. Modeling of the question answering task in the yodaqa system. In International Conference of the Cross-Language Evaluation
+Forum for European Languages, pages 222–228. Springer, 2015. URL
+https://link.springer.com/chapter/10.1007%2F978-3-319-24027-5_20. Berant et al. [2013]
+
+Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang. Semantic Parsing on Freebase from Question-Answer Pairs. In Proceedings of the 2013 Conference on Empirical
+Methods in Natural Language Processing, pages 1533–1544, Seattle,
+Washington, USA, October 2013. Association for Computational Linguistics. URL http://www.aclweb.org/anthology/D13-1160. Bi et al. [2020]
+
+Bin Bi, Chenliang Li, Chen Wu, Ming Yan, and Wei Wang.

@@ -1,0 +1,14 @@
+Example 13 ◊
+
+A service may read a same configuration file on two different occasions. Each usage can be identifed by its own identifier, allowing them to be distinguished. 2.2.1.4 Further Relations
+
+Finally, PROV supports further relations that are not subtypes or expanded versions of existing relations (such as specialization, alternate). 2.2.2 Provenance of Provenance
+
+A bundle is a named set of provenance descriptions, and is itself an entity, so allowing provenance of provenance to be expressed. For users to decide whether they can place their trust in
+something, they may want to analyze its provenance, but also determine
+the agent its provenance is attributed to, and when it was
+generated. In other words, users need to be able to determine the provenance of provenance. Hence, provenance is also
+regarded as an entity (of type Bundle), by which provenance of provenance can then be
+expressed. Example 14 ◊
+
+In a decision making situation, decision makers may be presented with the same piece of knowledge, issued by multiple sources.

@@ -1,0 +1,19 @@
+Highway networks. arXiv preprint arXiv:1505.00387, 2015. Tai et al. (2015)
+
+Tai, Kai Sheng, Socher, Richard, and Manning, Christopher D. Improved semantic representations from tree-structured long
+short-term memory networks. 2015. Vapnik (1998)
+
+Vapnik, Vladimir N. Statistical Learning Theory. Wiley-Interscience, 1998. Welinder et al. (2010)
+
+Welinder, P., Branson, S., Mita, T., Wah, C., Schroff, F., Belongie, S., and
+Perona, P. Caltech-UCSD Birds 200. Technical Report CNS-TR-2010-001, California Institute of Technology,
+2010. Wilson et al. (2016a)
+
+Wilson, Andrew G, Hu, Zhiting, Salakhutdinov, Ruslan R, and Xing, Eric P. Stochastic variational deep kernel learning. In NIPS, pp. 2586–2594, 2016a. Wilson et al. (2016b)
+
+Wilson, Andrew Gordon, Hu, Zhiting, Salakhutdinov, Ruslan, and Xing, Eric P. Deep kernel learning. In AISTATS, pp. 370–378, 2016b. Xiong et al. (2016)
+
+Xiong, Wayne, Droppo, Jasha, Huang, Xuedong, Seide, Frank, Seltzer, Mike,
+Stolcke, Andreas, Yu, Dong, and Zweig, Geoffrey. Achieving human parity in conversational speech recognition. arXiv preprint arXiv:1610.05256, 2016. Zadrozny & Elkan (2001)
+
+Zadrozny, Bianca and Elkan, Charles.

@@ -1,0 +1,41 @@
+agent processes this, it may extract key points from the user’s prior conversation—such as destination preferences, names, dates, and budget—and embed them in a GET request to the attacker’s server. Defense Workflow
+
+Agent Step
+
+Attacker’s Action
+
+LlamaFirewall Logic
+
+Scrapes web content
+
+Loads attacker’s poisoned travel blog
+
+PromptGuard scans text for universal jailbreak-style phrasing
+
+•
+
+IF PromptGuard detects injection, the page is dropped from context
+
+•
+
+IF PromptGuard misses it, agent may internalize the attacker’s injected goal
+
+Begins itinerary planning
+
+Agent starts to summarize user’s chat history
+
+AlignmentCheck token-stream monitoring flags if goal shifts away from travel planning
+
+•
+
+IF goal hijack is detected, execution is halted immediately
+
+Issues HTTP GET request
+
+Agent prepares request to evil.site/exfil?…
+
+This step is never reached if upstream modules trigger
+
+Outcome
+
+PromptGuard eliminates detected jailbreaking attempts before they enter context. If a novel variant slips through, or an injection is successful without a jailbreak trigger, AlignmentCheck detects the change in behavior when the agent shifts from trip planning to user data exfiltration.

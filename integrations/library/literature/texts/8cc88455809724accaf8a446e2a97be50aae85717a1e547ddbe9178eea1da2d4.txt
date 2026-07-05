@@ -1,0 +1,21 @@
+Now we assemble the implications of (B.3) and (B.4). First, note that inserting (B.4) into (B.3) yields
+
+(B.5)
+
+which implies that for compute-efficient training, we should train to a fixed percentage above the converged loss. Next, let’s determine how the optimal loss depends on the compute budget. Eliminating yields a power-law dependence of performance on compute:
+
+(B.6)
+
+where we defined
+
+(B.7)
+
+(B.8)
+
+Similarly, we can eliminate to find :
+
+(B.9)
+
+and
+
+(B.10)

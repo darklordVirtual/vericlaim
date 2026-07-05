@@ -1,0 +1,8 @@
+In Section 4 we introduced the SR and MC-dropout confidence-rate function, defined for a given
+model . We trained VGG models [17] for CIFAR-10, CIFAR-100 and ImageNet. For each of these models , we considered both the SR and MC-dropout confidence-rate functions, ,
+and the induced rejection function, . In Figure 2 we present the risk-coverage curves obtained for
+each of the three datasets. These curves were obtained by computing a validation risk and coverage for many
+values. It is evident that the risk-coverage profile for SR and MC-dropout is nearly identical for both the CIFAR datasets. For the ImageNet set we plot the curves corresponding to top-1 (dashed curves) and top-5 tasks (solid curves). On this dataset,
+we see that SR is significantly better than MC-dropout on both tasks. For example, in the top-1 task and 60% coverage, the SR
+rejection has 10% error while MC-dropout rejection incurs more than 20% error. But most importantly, these risk-coverage curves show that selective classification can potentially be used to dramatically reduce the error
+in the three datasets. Due to the relative advantage of SR, in the rest of our experiments we only focus on the SR rating.

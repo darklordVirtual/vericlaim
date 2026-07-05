@@ -1,0 +1,10 @@
+So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. So the answer is yes. Table 24:
+Few-shot exemplars for full chain of thought prompt for CSQA. There are newlines between the answer choices that are omitted in the table for space reasons. Prompt for CSQA
+
+Q: What do people use to absorb extra ink from a fountain pen? Answer Choices: (a) shirt pocket (b) calligrapher’s hand (c) inkwell (d) desk drawer (e) blotter
+
+A: The answer must be an item that can absorb ink. Of the above choices, only blotters are used to absorb ink. So the answer is (e). Q: What home entertainment equipment requires cable? Answer Choices: (a) radio shack (b) substation (c) television (d) cabinet
+
+A: The answer must require cable. Of the above choices, only television requires cable. So the answer is (c). Q: The fox walked from the city into the forest, what was it looking for? Answer Choices: (a) pretty flowers (b) hen house (c) natural habitat (d) storybook
+
+A: The answer must be something in the forest. Of the above choices, only natural habitat is in the forest. So the answer is (b).

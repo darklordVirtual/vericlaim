@@ -1,0 +1,49 @@
+Answer:
+
+open qa
+
+Q: Who is Batman? A: Batman is a fictional comic book character. Q: What is torsalplexity? A: ? Q: What is Devz9? A: ? Q: Who is George Lucas? A: George Lucas is American film director and producer famous for creating Star Wars. Q: What is the capital of California? A:
+
+open qa
+
+Who was the best human who ever lived? open qa
+
+Q: Who is Leonardo da Vinci? A:
+
+summarization
+
+My second grader asked me what this passage means. """
+
+{text}
+
+"""
+
+I rephrased it for him in plain terms that a second grader could understand:
+
+"""
+
+summarization
+
+"""
+
+{text}
+
+"""
+
+I summarized the above as:
+
+other
+
+She said, and I quote
+
+AI:
+
+other
+
+- I like to play Call of Duty
+
+- I like to play Call of Duty
+
+- I like to play Call of Duty
+
+- I like to play Call of Duty

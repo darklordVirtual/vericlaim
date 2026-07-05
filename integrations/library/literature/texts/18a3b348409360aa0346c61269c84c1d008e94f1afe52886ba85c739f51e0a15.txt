@@ -1,0 +1,7 @@
+Unlike the score from Section 1, this one utilizes the softmax outputs of all classes, not just the true class. The next step, as in all conformal procedures, is to set . Having done so, we will form the prediction set , modified slightly to avoid zero-size sets:
+
+(5)
+
+Figure 3 shows Python code to implement this method. As usual, these uncertainty sets (with tie-breaking) satisfy (1). See [angelopoulos2020sets] for details and significant practical improvements, which we implemented here:
+
+. Figure 4: A visualization of the adaptive prediction sets algorithm in Eq. (5). Classes are included from most to least likely until their cumulative softmax output exceeds the quantile.

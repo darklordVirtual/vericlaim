@@ -1,0 +1,16 @@
+URL https://aclanthology.org/W09-0629. Gaunt et al. (2016)
+
+Alexander L. Gaunt, Marc Brockschmidt, Rishabh Singh, Nate Kushman, Pushmeet
+Kohli, Jonathan Taylor, and Daniel Tarlow. TerpreT: A probabilistic programming language for program
+induction, 2016. URL https://arxiv.org/abs/1608.04428. Gaur et al. (2019)
+
+Manas Gaur, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad
+Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randy Welton, and Jyotishman
+Pathak. Knowledge-aware assessment of severity of suicide risk for early
+intervention. In The World Wide Web Conference, WWW ’19, pp. 514–525,
+New York, NY, USA, 2019. Association for Computing Machinery. doi: 10.1145/3308558.3313698. URL https://doi.org/10.1145/3308558.3313698. Gauthier et al. (2020)
+
+Jon Gauthier, Jennifer Hu, Ethan Wilcox, Peng Qian, and Roger Levy. SyntaxGym: An online platform for targeted evaluation of language
+models. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics: System Demonstrations, pp. 70--76, Online,
+July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-demos.10. URL https://aclanthology.org/2020.acl-demos.10. Gehman et al.

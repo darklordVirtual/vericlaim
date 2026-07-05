@@ -1,0 +1,9 @@
+Ryan Teehan, Charles River Analytics (rsteehan@gmail.com); Sanghyun Han, UnifyID labs (jjangsangy@gmail.com); and Nicholas Roberts, University of Wisconsin-Madison (nick11roberts@cs.wisc.edu). Task cites: (Prentice & Fathman, 1975; Narasimhachar, 1988; Liu et al., 2021b; Lev et al., 2004; Lin et al., 2021a)
+
+key_value_maps: Samuel Gruetter, MIT (gruetter@mit.edu)
+
+known_unknowns: Jesse Engel, Google Brain (jesseengel@google.com). Task cites: (Liu et al., 2021c; Xiao & Wang, 2021; Shuster et al., 2021; Zhou et al., 2020; Dziri et al., 2021)
+
+language_games: Summer Misherghi, Google (msummer@google.com), and Marco Maru and Michele Bevilacqua, Sapienza University of Rome (marco.maru, bevilacqua)@di.uniroma1.it
+
+language_identification: Luis Oliveros Colón (luis.oliveros.colon@gmail.com) and Gerard de Melo, HPI/University of Potsdam (gerard.demelo@hpi.de).

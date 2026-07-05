@@ -1,0 +1,19 @@
+(27)
+
+Dinan, E., Humeau, S., Chintagunta, B., and Weston, J. (2019b). Build it break it fix it for dialogue safety: Robustness from
+adversarial human attack. arXiv preprint arXiv:1908.06083. Dua et al., (2019)
+
+Dua, D., Wang, Y., Dasigi, P., Stanovsky, G., Singh, S., and Gardner, M. (2019). Drop: A reading comprehension benchmark requiring discrete reasoning
+over paragraphs. arXiv preprint arXiv:1903.00161. Fedus et al., (2021)
+
+Fedus, W., Zoph, B., and Shazeer, N. (2021). Switch transformers: Scaling to trillion parameter models with simple
+and efficient sparsity. arXiv preprint arXiv:2101.03961. Gabriel, (2020)
+
+Gabriel, I. (2020). Artificial intelligence, values, and alignment. Minds and machines, 30(3):411–437. Gehman et al., (2020)
+
+Gehman, S., Gururangan, S., Sap, M., Choi, Y., and Smith, N. A. (2020). Realtoxicityprompts: Evaluating neural toxic degeneration in language
+models. arXiv preprint arXiv:2009.11462. Hancock et al., (2019)
+
+Hancock, B., Bordes, A., Mazare, P.-E., and Weston, J. (2019). Learning from dialogue after deployment: Feed yourself, chatbot! arXiv preprint arXiv:1901.05415. Henderson et al., (2018)
+
+Henderson, P., Sinha, K., Angelard-Gontier, N., Ke, N.

@@ -1,0 +1,3 @@
+(Section 5.1)
+
+Taken together, these results show that language modeling performance improves smoothly and predictably as we appropriately scale up model size, data, and compute. We expect that larger language models will perform better and be more sample efficient than current models.

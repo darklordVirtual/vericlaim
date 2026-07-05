@@ -1,0 +1,18 @@
+Nocedal (1980)
+
+J. Nocedal. Updating Quasi-Newton Matrices with Limited Storage. Mathematics of Computation, 35(151):773–782, 1980. ISSN 0025-5718. 10.2307/2006193. URL https://www.jstor.org/stable/2006193. Paperno et al. (2016)
+
+D. Paperno, G. Kruszewski, A. Lazaridou, Q. N. Pham, R. Bernardi, S. Pezzelle,
+M. Baroni, G. Boleda, and R. Fernández. The LAMBADA dataset: Word prediction requiring a broad discourse
+context, 2016. Rae et al. (2021)
+
+J. Rae, S. Borgeaud, T. Cai, K. Millican, J. Hoffmann, F. Song, J. Aslanides,
+S. Henderson, R. Ring, S. Young, E. Rutherford, T. Hennigan, J. Menick,
+A. Cassirer, R. Powell, G. van den Driessche, L. A. Hendricks, M. Rauh, P.-S. Huang, A. Glaese, J. Welbl, S. Dathathri, S. Huang, J. Uesato, J. Mellor,
+I. Higgins, A. Creswell, N. McAleese, A. Wu, E. Elsen, S. Jayakumar,
+E. Buchatskaya, D. Budden, E. Sutherland, K. Simonyan, M. Paganini, L. Sifre,
+L. Martens, X. L. Li, A. Kuncoro, A. Nematzadeh, E. Gribovskaya, D. Donato,
+A. Lazaridou, A. Mensch, J.-B. Lespiau, M. Tsimpoukelli, N. Grigorev,
+D. Fritz, T. Sottiaux, M. Pajarskas, T. Pohlen, Z. Gong, D. Toyama,
+C. de Masson d’Autume, Y. Li, T. Terzi, I. Babuschkin, A. Clark,
+D. de Las Casas, A.

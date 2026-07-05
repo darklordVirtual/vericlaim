@@ -1,0 +1,6 @@
+For MLPs, the system to solve is more complex, with about times more unknowns. With a sufficiently over-determined system, we converge to a model that very closely approximates . As for LR models, queries are chosen non-adaptively, so may submit a single ‘batch request’ to the API. We further evaluated our attacks over all multiclass data sets from Table 3. For MLR models with parameters ( is the number of classes), queries were sufficient to achieve perfect extraction (, and below ). We use samples on average, and for the largest model (Digits). For MLPs with 20 hidden nodes, we achieved 99.9% accuracy with samples on average and at most (Adult). With queries on average, we extracted a with 100% accuracy over tested inputs. As for binary LRs, we thus find that cross-user model extraction attacks for these model classes can be extremely efficient. 4.1.3 Training Data Leakage for Kernel LR
+
+We now move to a less mainstream model class, kernel
+logistic regression [58], that illustrates
+how extraction attacks can leak private training data, when a
+model’s outputs are directly computed as a function of that data.

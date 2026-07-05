@@ -1,0 +1,11 @@
+Definition 4.0 (RAG Poisoning Attack). Let knowledge base be shared by agents, where
+agent uses decision function
+,
+where denotes specialized to retrieval-augmented input. A poisoning attack inserts entry
+into , where is a crafted
+embedding and adversarial content, such that for target
+query ,
+,
+thereby corrupting ’s output. In multi-agent networks, an infected agent may continue writing
+poisoned entries during task execution, forming a positive-feedback loop with potentially cascading
+propagation across agents.

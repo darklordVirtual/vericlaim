@@ -1,0 +1,7 @@
+They achieve about a tenfold improvement in the FLOP-matched parameter count needed to reach a given calibration score (Figure 5). \begin{overpic}[width=173.44534pt]{figures/scaling_xent.pdf}
+\put(0.0,1.0){{\small(a)}}
+\end{overpic}\begin{overpic}[width=216.81pt]{figures/aggregate_dense_vs_sparse.pdf}
+\put(0.0,1.0){{\small(b)}}
+\end{overpic}
+Figure 6: Model performance is similar across model class, with benefits from sparsity. (a) Average per-token cross entropy in nats
+of all models used for experiments in this paper is shown as a function of total non-embedding parameters. For the BIG-G sparse models, FLOP-matched parameter count is used; this is the number of parameters a dense model that uses the same amount of inference-time compute would use. The BIG-G and BIG-G sparse models were trained on the same Google-internal dataset, but this dataset is different from the ones used by GPT. GPT cross entropy is reported on OpenAI’s test set, while Google cross entropy is reported on the training set. Cross entropy and scaling behavior are extremely similar across model families.

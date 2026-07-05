@@ -1,0 +1,7 @@
+•
+
+Different exemplars. The different GSM8K exemplars experiment above (Table 6) also shows that chain-of-thought prompting works for different sets of exemplars. Notably, we test every set of exemplars on all four arithmetic datasets (instead of picking exemplars from the training set for each dataset), which suggests that the exemplars do not necessarily have to come from the same dataset distribution as the test examples. •
+
+Different order of exemplars. Prior work has shown that in some cases (e.g., classification) even the order of prompts matter—varying the permutation of few-shot exemplars can cause the accuracy of GPT-3 on SST-2 to range from near chance (54.3%) to near SOTA (93.4%) (Zhao et al., 2021). We show the standard deviation of performance from different exemplars in Table 6 and Table 7. Standard deviations with respect to prompt order are relatively minimal in almost all cases. The one exception is the coin flip task, for which exemplar orders have high standard deviation, likely for the reason cited in Zhao et al. (2021)—for classification, many exemplars of the same category in a row biases the model outputs). •
+
+Different number of exemplars.

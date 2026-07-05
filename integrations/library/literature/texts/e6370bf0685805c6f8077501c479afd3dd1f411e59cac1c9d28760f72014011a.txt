@@ -1,0 +1,9 @@
+break down before this point, but we conjecture that the intersection point has a deeper meaning: it provides an estimate of the point at which Transformer language models reach maximal performance. Since the amount of data used by compute-efficient training grows slowly with the compute budget, the performance predicted by eventually hits a lower bound set by the power law (see Figure 15). Let us work this out in more detail. To keep overfitting under control, the results of Section 4 imply that we should scale the dataset size as
+
+(6.6)
+
+where we have used the compute-efficient from Figure 14. Let us compare this to the data requirements of compute-efficient training. If we train at the critical batch size (i.e. ) and never re-use data during training, we find that data usage grows with compute as
+
+(6.7)
+
+This is the maximum rate at which the dataset size can productively grow with compute, since it means that we are only training for a single epoch. But it grows the dataset much more slowly than in Equation (6.6). It appears to imply that compute-efficient training will eventually run into a problem with overfitting, even if the training process never re-uses any data!

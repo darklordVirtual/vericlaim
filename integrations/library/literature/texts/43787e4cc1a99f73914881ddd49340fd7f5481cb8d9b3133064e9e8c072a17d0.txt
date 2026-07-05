@@ -1,0 +1,65 @@
+Component 5: alternate. The fifth component consists of relations linking entities referring to the same thing. Component 6: collections. The sixth component is about collections. Figure 4 ◊: PROV-DM Components (Informative)
+
+While not all PROV-DM relations are binary, they all involve two primary elements. Hence, Table 4 indexes all relations (except wasInfluencedBy) according to their two primary elements (referred to as subject and object). The table adopts the same color scheme as Figure 4, allowing components to be readily identified. Relation names appearing in bold correspond to the core structures introduced
+in Section 2.1. Table 4 ◊: PROV-DM Relations At a Glance
+
+Object
+
+Entity
+
+Activity
+
+Agent
+
+Subject
+
+Entity
+
+WasDerivedFrom
+Revision
+Quotation
+PrimarySource
+
+AlternateOf
+SpecializationOf
+
+HadMember
+
+WasGeneratedBy
+WasInvalidatedBy
+
+R
+T
+L
+
+WasAttributedTo
+
+Activity
+
+Used
+WasStartedBy
+WasEndedBy
+
+R
+T
+L
+
+WasInformedBy
+
+WasAssociatedWith
+
+R
+
+Agent
+
+—
+
+—
+
+ActedOnBehalfOf
+
+The letters 'R' and 'L' appearing in the right-hand side of some cells of Table 4 indicate that attributes
+prov:role (Section 5.7.2.3)
+and
+prov:location (Section 5.7.2.2)
+are permitted for these relations.

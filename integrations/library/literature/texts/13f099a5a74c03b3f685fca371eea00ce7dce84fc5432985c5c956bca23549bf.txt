@@ -1,0 +1,64 @@
+For easier reference, we provide a summary below of the key trends described throughout the paper. Parameters
+Data
+Compute
+Batch Size
+Equation
+
+Fixed
+
+Early Stop
+
+Fixed
+
+Optimal
+
+Fixed
+
+(naive)
+
+Early Stop
+
+Fixed
+
+steps
+
+Table 4:
+
+The empirical fitted values for these trends are:
+
+Power Law
+Scale (tokenization-dependent)
+
+params (non-embed)
+
+tokens
+
+PF-days
+
+PF-days
+
+tokens
+
+steps
+
+Table 5:
+
+The optimal parameters for compute efficient training are given by:
+
+Compute-Efficient Value
+Power Law
+Scale
+
+params
+
+tokens
+
+(lower bound)
+
+steps
+
+(1 epoch)
+
+tokens
+
+Table 6:

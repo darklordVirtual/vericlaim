@@ -1,0 +1,13 @@
+The notification shall contain the conclusions of the examination of the changes and the reasoned assessment decision. 4. Control of the technical documentation. 4.1. In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3. 4.2. The application shall include:
+
+(a)
+
+the name and address of the provider;
+
+(b)
+
+a written declaration that the same application has not been lodged with any other notified body;
+
+(c)
+
+the technical documentation referred to in Annex IV. 4.3. The technical documentation shall be examined by the notified body. Where relevant, and limited to what is necessary to fulfil its tasks, the notified body shall be granted full access to the training, validation, and testing data sets used, including, where appropriate and subject to security safeguards, through API or other relevant technical means and tools enabling remote access. 4.4.

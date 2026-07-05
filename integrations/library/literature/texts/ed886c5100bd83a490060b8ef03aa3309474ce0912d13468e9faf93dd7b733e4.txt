@@ -1,0 +1,13 @@
+Typically, researchers train models until they appear to be close to convergence. In this section, we compare the efficient training procedure described above to this more typical setup. We define a the convergence factor as the percent deviation from the converged loss:
+
+(B.11)
+
+For compute-efficient training we have from the previous section, but researchers typically use a much smaller value. Here, we choose as an estimate. For a fixed value of the loss, we predict:
+
+(B.12)
+
+(B.13)
+
+(B.14)
+
+So that compute-efficient training uses 7.7x fewer parameter updates, 2.7x more parameters, and 65% less compute to reach the same loss.

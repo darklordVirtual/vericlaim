@@ -1,0 +1,17 @@
+2021. Truthful AI: developing
+and governing AI that does not lie. CoRR, abs/2110.06674. Fedus et al. (2021)
+
+William Fedus, Barret Zoph, and Noam Shazeer. 2021. Switch transformers: Scaling
+to trillion parameter models with simple and efficient sparsity. CoRR, abs/2101.03961. Gabriel et al. (2021)
+
+Saadia Gabriel, Asli Celikyilmaz, Rahul Jha, Yejin Choi, and Jianfeng Gao. 2021. GO
+FIGURE: A meta evaluation of factuality in summarization. In Findings of the Association for Computational Linguistics:
+ACL-IJCNLP 2021, pages 478–487, Online. Association for Computational
+Linguistics. Gao et al. (2020)
+
+Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles
+Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, et al. 2020. The pile: An 800gb dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027. Hendrycks et al. (2020)
+
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn
+Song, and Jacob Steinhardt. 2020. Measuring massive multitask
+language understanding. CoRR, abs/2009.03300. Hendrycks et al.

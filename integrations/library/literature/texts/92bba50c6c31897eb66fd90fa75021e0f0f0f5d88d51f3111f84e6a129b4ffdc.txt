@@ -1,0 +1,16 @@
+We now explain how to find an equalized odds or equal opportunity
+predictor derived from a, possibly discriminatory, learned
+binary predictor or score We envision that or
+are whatever comes out of the existing training pipeline for the
+problem at hand. Importantly, we do not require changing the training
+process, as this might introduce additional complexity, but rather
+only a post-learning step. In particular, we will construct a non-discriminating predictor which is derived from or :
+
+Definition 4.1 (Derived predictor). A predictor is derived from a random variable and the
+protected attribute if it is a possibly randomized function of the random
+variables alone. In particular, is independent of
+conditional on
+
+The definition asks that the value of a derived predictor
+should only depend on and the protected attribute, though it may
+introduce additional randomness.

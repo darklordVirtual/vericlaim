@@ -1,0 +1,19 @@
+Data plays a critical role in machine learning. Every machine learning
+model is trained and evaluated using data, quite often in the
+form of static datasets. The characteristics of these
+datasets fundamentally influence a model’s behavior: a model is
+unlikely to perform well in the wild if its deployment context does
+not match its training or evaluation datasets, or if these datasets
+reflect unwanted
+societal biases. Mismatches like this can have especially severe
+consequences when machine learning models are used in
+high-stakes domains, such as criminal
+justice (Garvie
+et al., 2016; Systems, 2017; Andrews
+et al., 2006),
+hiring (Mann and O’Neil, 2016), critical infrastructure (O’Connor, 2017; Chui, 2017), and finance (Lin, 2012). Even in other
+domains, mismatches may lead to loss of revenue or public relations
+setbacks. Of particular concern are recent examples showing that
+machine learning models can reproduce or amplify unwanted societal
+biases reflected in training datasets (Buolamwini and
+Gebru, 2018; Dastin, 2018; Bolukbasi et al., 2016).

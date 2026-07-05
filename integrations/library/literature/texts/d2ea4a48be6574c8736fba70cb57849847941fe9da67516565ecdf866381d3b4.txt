@@ -1,0 +1,12 @@
+The most draconian is a
+dot product. A dot product in its simplest form simply counts the number of
+words in common between the query and the document. This feature can then be
+discretized. Another approach is an intersection: thus, we will have a feature
+which is present if and only if the word "pony" is in both the document and the
+query, and another feature which is present if and only if the word "the" is in
+both the document and the query. Rule #21: The number of feature weights you can learn in a linear model is roughly proportional to the amount of data you have. There are fascinating statistical learning theory results concerning the
+appropriate level of complexity for a model, but this rule is basically all
+you need to know. I have had conversations in which people were doubtful that
+anything can be learned from one thousand examples, or that you would ever
+need more than one million examples, because they get stuck in a certain method
+of learning.

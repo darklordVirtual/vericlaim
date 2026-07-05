@@ -1,0 +1,7 @@
+Implementation Details
+
+To control training overhead, we randomly pick 12,000 data points from ViRL-39K (Wang et al., 2025a), a diverse categories visual reasoning dataset, as the training dataset, namely VL-Calibration-12K. We apply VL-Calibration on Qwen3-VL-4B-Instruct (Bai et al., 2025), Qwen3-VL-8B-Instruct, and InternVL3.5-4B-MPO (Wang et al., 2025b) to confirm efficacy on different model sizes and base models. For more details, refer to Appendix A.1. Baselines
+
+Our comparison involves inference-stage methods including Verbalize (Xiong et al., 2024), P (Kadavath et al., 2022), SteerConf (Zhou et al., 2025), and training-stage methods including RLVR (Guo et al., 2025), LACIE (Stengel-Eskin et al., 2024), ConfTuner (Li et al., 2025), PPO-C (Leng et al., 2025), SaySelf (Xu et al., 2024), Rewarding Doubt (Stangel et al., 2025), and RLCR (Damani et al., 2025). To ensure fair comparisons, we re-implemented these methods on LVLMs with same settings of ours. Evaluation
+
+To systematically evaluate the efficacy of VL-Calibration, we evaluate on thirteen benchmarks that cover diverse visual reasoning topics, and multi-disciplinary reasoning.

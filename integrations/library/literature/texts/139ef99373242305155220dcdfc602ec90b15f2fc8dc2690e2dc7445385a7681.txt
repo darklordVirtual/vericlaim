@@ -1,0 +1,83 @@
+astropy
+django
+flask
+matplotlib
+pylint
+pytest
+
+Length (Characters)
+
+# Files
+
+# Lines
+
+k
+
+k
+
+k
+
+k
+
+k
+
+k
+
+# Files Edited
+
+# Func. Edited
+
+# Lines Edited
+
+# Lines Added
+
+# Lines Removed
+
+(Fail to Pass)
+
+(Pass to Pass)
+
+(All)
+
+requests
+scikit-learn
+seaborn
+sphinx
+sympy
+xarray
+
+Length (Characters)
+
+# Files
+
+# Lines
+
+k
+
+k
+
+k
+
+k
+
+k
+
+k
+
+# Files Edited
+
+# Func. Edited
+
+# Lines Edited
+
+# Lines Added
+
+# Lines Removed
+
+(Fail to Pass)
+
+(Pass to Pass)
+
+(All)
+
+Table 11: Average numbers characterizing different attributes of a SWE-bench task instance grouped by repository. In addition to the statistics presented in Table 1, we also introduce three new values: # Lines Added, # Lines Removed, and (Pass to Pass). We include an expanded form of Table 1 that includes repository specific statistics in Table 11. Table 12 presents a brief description of each repository extracted from the repository’s documentation along with the repository’s associated open source license. The associated licenses all permit non-commercial usage of the original library source code as long as the permissions in the original licenses are upheld and retained.

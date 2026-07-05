@@ -15,6 +15,12 @@
     "Alina Oprea",
     "Colin Raffel"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:12.711751+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2012.07805"
+  },
+  "fulltext_sha256": "9fac002b90d4fea0090aab540541a897d8074f99376433b872bd143f20c861f2",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "extracting-training-2020",

@@ -1,0 +1,42 @@
+Execution”
+
+In HASP ’13: Proceedings of the 2nd International Workshop on Hardware and Architectural Support for Security and Privacy, 2013
+
+DOI: 10.1145/2487726.2488368
+
+[110]
+Jo Van Bulck et al. “Foreshadow: Extracting the Keys to the Intel {SGX} Kingdom with Transient Out-of-Order Execution”
+
+In 27th {USENIX} Security Symposium ({USENIX} Security 18)
+
+Baltimore, MD: {USENIX} Association, 2018, pp. 991{textendash}1008
+
+URL: https://www.usenix.org/conference/usenixsecurity18/presentation/bulck
+
+[111]
+Mark Seaborn and Thomas Dullien
+
+“Exploiting the DRAM rowhammer bug to gain kernel privileges How to cause and exploit single bit errors”
+
+In Blackhat, 2015
+
+URL: https://www.blackhat.com/docs/us-15/materials/us-15-Seaborn-Exploiting-The-DRAM-Rowhammer-Bug-To-Gain-Kernel-Privileges.pdf
+
+[112]
+Nick Hynes, Raymond Cheng and Dawn Song
+
+“Efficient Deep Learning on Multi-Source Private Data”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1807.06689
+
+[113]
+Christian Priebe et al. “SGX-LKL: Securing the Host OS Interface for Trusted Execution”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1908.11143
+
+[114]
+Ehsan Hesamifard, Hassan Takabi, Mehdi Ghasemi and Rebecca N.

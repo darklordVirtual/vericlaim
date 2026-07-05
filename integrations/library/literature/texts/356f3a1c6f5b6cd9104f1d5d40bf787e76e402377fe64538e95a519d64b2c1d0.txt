@@ -1,0 +1,12 @@
+with an established track record may be more
+believed than a claim by a new student; a calculation performed by an
+established software library may be more reliable than by a one-off
+program. An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity. [Detailed specification]
+An agent may be a particular type of entity or activity. This means that the model can be
+used to express provenance of the agents themselves. Example 8 ◊
+
+Software for checking the use of grammar in a document may be defined as an agent of a document preparation activity; one can also describe its provenance, including for instance the vendor and the version history. A site selling books on the Web, the services involved in the processing of orders, and the companies hosting them are also agents. Agents can be related to entities, activities, and other agents. Attribution is the ascribing of an entity to an agent. [Detailed specification]
+
+Example 9 ◊
+
+A blog post can be attributed to an author, a mobile phone to its manufacturer. Agents are defined as having some kind of responsibility for activities.

@@ -1,0 +1,1 @@
+Nonetheless, the revisions were generally more harmless than the original response. An example can be seen in Appendix A. For the main results of this paper, we chose to use critiqued revisions, as it may provide more transparency into the model’s reasoning process. This sort of reasoning may also be useful to help models uncover more subtle harms or unintended consequences.

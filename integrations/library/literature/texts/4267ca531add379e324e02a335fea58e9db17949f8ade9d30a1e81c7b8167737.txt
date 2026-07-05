@@ -1,0 +1,34 @@
+4
+
+5TASK: {task_description}
+
+6TOOL CALL: {tool_name}({tool_args})
+
+7
+
+8Respond with ALLOW or BLOCK on the first line,
+
+9followed by a one-sentence rationale. The NLI models use a different formulation: the task description
+serves as the premise and the tool call (passed as
+a raw function-call string, e.g., http_request("POST",
+"example.com", ...)) as the hypothesis, with entailment
+mapped to ALLOW and contradiction/neutral mapped to BLOCK. No natural-language paraphrasing is applied, which may
+disadvantage NLI models on structured inputs. 7.1.3. Verification Conditions
+
+We evaluate one unverified baseline, six primary verification
+conditions, one supplementary condition
+(mDeBERTa-NLI), and two post-hoc cascade compositions:
+
+(1)
+
+Baseline: No verification; all calls are
+unconditionally allowed. Models the current state of
+OpenClaw and most production agent frameworks. (2)
+
+BART-MNLI: Zero-shot NLI using
+facebook/bart-large-mnli
+(1.6 GB, CPU). Classifies each
+(task, tool call) pair as safe and consistent or
+dangerous / beyond scope, instantiating
+in Eq. (1) as a
+threshold on the entailment score.

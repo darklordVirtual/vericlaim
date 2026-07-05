@@ -1,0 +1,9 @@
+calculation of from (4) then shows the equivalence of the proposed procedure to conformal prediction:
+
+(13)
+
+Next, we discuss how the risk lower bound relates to its conformal prediction equivalent. In the setting of conformal prediction, [lei2018distribution] proves that when the conformal score function follows a continuous distribution. Theorem 2.2 recovers this guarantee with a slightly worse constant: . First, note that our assumption in Theorem 2.2 about the distribution of discontinuities specializes to the continuity of the score function when the miscoverage loss is used:
+
+(14)
+
+However, the bound for the conformal case is better than the bound for the general case in Theorem 2.2 by a factor of two. We do not know whether this factor of is improvable. However, this factor is of little practical importance, as the difference between and is small even for moderate values of .

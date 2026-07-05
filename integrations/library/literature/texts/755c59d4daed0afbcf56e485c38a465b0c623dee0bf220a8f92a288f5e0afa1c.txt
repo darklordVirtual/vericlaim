@@ -1,0 +1,11 @@
+To realize verbalized confidence calibration for LVLM reasoning and address the limitations of Eq. 2 discussed in §1, we reformulate LVLM reasoning as two phases that explicitly decouples visual perception from reasoning. Specifically, the policy is instructed to generate structured visual and reasoning rationales, each followed by a decoupled verbalized confidence:
+
+(4)
+
+where denotes the visual rationale (e.g., image dense caption) and denotes the reasoning chain. The confidence tokens represent the model’s certainty regarding and , respectively, normalized to . To derive the final holistic confidence for the answer , we employ the harmonic mean of the decoupled scores:
+
+(5)
+
+We select the harmonic mean for its conservative property: unlike the arithmetic mean, is dominated by the minimum of the two scores. To achieve supervision on decoupled visual confidence, we further introduce a Brier-based vision calibration term. Finally, in our decoupled verbalized confidence framework, the reward is denoted as follows:
+
+(6)

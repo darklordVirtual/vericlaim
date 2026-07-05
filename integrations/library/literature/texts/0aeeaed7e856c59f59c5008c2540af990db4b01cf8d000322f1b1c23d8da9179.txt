@@ -1,0 +1,1 @@
+We saw that this was valuable with human feedback, and by using AI feedback we can fully automate the process. Robustness was also another motivation for using chain-of-thought reasoning in this work – we would eventually like AI systems to reason through the hidden risks of certain behaviors, in order to mitigate increasingly subtle and implicit harms.

@@ -1,0 +1,16 @@
+Sandhaus (2008)
+
+Evan Sandhaus. The New York Times annotated corpus LDC2008T19. Linguistic Data Consortium, 2008. URL https://catalog.ldc.upenn.edu/LDC2008T19. Sanh et al. (2022)
+
+Victor Sanh, Albert Webson, Colin Raffel, Stephen Bach, Lintang Sutawika, Zaid
+Alyafeai, Antoine Chaffin, Arnaud Stiegler, Arun Raja, Manan Dey, M Saiful
+Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla,
+Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang,
+Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong,
+Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen,
+Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan
+Teehan, Teven Le Scao, Stella Biderman, Leo Gao, Thomas Wolf, and Alexander M
+Rush. Multitask prompted training enables zero-shot task generalization. In International Conference on Learning Representations, 2022. URL https://openreview.net/forum?id=9Vrb9D0WI4. Santoro et al. (2017)
+
+Adam Santoro, David Raposo, David G. T. Barrett, Mateusz Malinowski, Razvan
+Pascanu, Peter Battaglia, and Timothy Lillicrap. A simple neural network module for relational reasoning, 2017.

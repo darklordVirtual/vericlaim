@@ -1,0 +1,21 @@
+The LLM judge dominates runtime cost,
+confirming that LGA’s overhead is effectively one inference call. Future work includes:
+(i) an open-source LGA reference implementation with
+optimized serving (vLLM/TensorRT) and risk-stratified
+tool-call routing;
+(ii) fine-tuning compact models on tool-call authorization
+datasets to close the NLI–LLM gap;
+(iii) evaluation under adaptive attacks, where adversaries
+iteratively optimize inputs against a known judge, to assess
+LGA’s robustness beyond the black-box threat model assumed
+here—our preliminary adversarial probe with purpose-built
+evasion samples (Sect. 7.4.5 (vii)) shows IR drops to
+50–63% in a worst-case hand-crafted setting, motivating
+dedicated defenses;
+(iv) multilingual plugin permission verification, given the
+persistent cross-lingual TC3 asymmetry (Sect. 7.4.3) attributed
+to model-level Chinese reasoning differences—particularly for
+the Persistence subtype—and the open question of whether
+dedicated multilingual training can close this gap;
+(v) longitudinal study of how engineering responsibilities
+shift as AI capabilities mature.

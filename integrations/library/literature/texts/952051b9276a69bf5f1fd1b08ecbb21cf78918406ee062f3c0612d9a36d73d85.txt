@@ -1,0 +1,5 @@
+scale
+
+CodeShield, PromptGuard, and AlignmentCheck provide layered defense against code-oriented prompt injection
+
+Table 1: We define each of the risks we consider, and we map them to our scanners. To demonstrate LlamaFirewall’s layered defenses, we walk through two representative examples. Each showcases a distinct risk: one involving goal hijacking and sensitive data exfiltration, the other involving accidental unsafe code generation. In both, LlamaFirewall intercepts unsafe behavior through modular, conditional defenses that engage only when needed.

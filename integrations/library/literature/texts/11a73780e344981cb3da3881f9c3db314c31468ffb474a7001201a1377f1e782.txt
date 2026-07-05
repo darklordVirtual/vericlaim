@@ -1,0 +1,16 @@
+Definition 4.0 (Malicious Skill Plugin Attack). Let skill plugin declare permission set and
+exhibit runtime behavior (a set of operations), with
+mapping each
+individual operation to the permissions it requires. A malicious plugin satisfies
+:
+it performs operations outside its declared permissions while
+executing legitimate functions, such that the host agent cannot
+distinguish from a benign plugin where
+. Analogous to software supply-chain attacks, when an agent framework
+supports dynamic loading of third-party skill plugins, a malicious
+plugin can perform covert data exfiltration while executing
+legitimate functions. The attack’s stealth derives from two properties:
+(i) the agent cannot distinguish legitimate from exfiltrating
+operations at the semantic level;
+(ii) plugin permission declarations are self-reported, lacking
+independent runtime behavior verification.

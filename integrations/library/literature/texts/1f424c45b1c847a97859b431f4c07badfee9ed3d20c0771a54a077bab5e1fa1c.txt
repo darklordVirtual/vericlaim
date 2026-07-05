@@ -1,0 +1,16 @@
+ReCoRD: Bridging the gap between human and machine commonsense
+reading comprehension, 2018a. URL https://arxiv.org/abs/1810.12885. Zhang et al. (2019b)
+
+Shiwei Zhang, Xiuzhen Zhang, Jeffrey Chan, and Paolo Rosso. Irony detection via sentiment-based transfer learning. Information Processing & Management, 56(5):1633--1644, 2019b. doi: https://doi.org/10.1016/j.ipm.2019.04.006. URL
+https://www.sciencedirect.com/science/article/pii/S0306457318307428. Zhang et al. (2018b)
+
+Yan Zhang, Jonathon Hare, and Adam Prügel-Bennett. Learning to count objects in natural images for visual question
+answering, 2018b. URL https://arxiv.org/abs/1802.05766. Zhang et al. (2020e)
+
+Yian Zhang, Alex Warstadt, Haau-Sing Li, and Samuel R. Bowman. When do you need billions of words of pretraining data?,
+2020e. URL https://arxiv.org/abs/2011.04946. Zhao et al. (2018)
+
+Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang. Gender bias in coreference resolution: Evaluation and debiasing
+methods. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 2 (Short Papers), pp.

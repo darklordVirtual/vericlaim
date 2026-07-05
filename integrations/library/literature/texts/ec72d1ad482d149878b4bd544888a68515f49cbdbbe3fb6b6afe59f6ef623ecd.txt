@@ -1,0 +1,14 @@
+In Proceedings of the 2013 Conference on Empirical Methods in
+Natural Language Processing, pages 1533–1544, Seattle, Washington, USA. Association for Computational Linguistics. Borgeaud et al. (2021)
+
+Sebastian Borgeaud, Arthur Mensch, Jordan Hoffmann, Trevor Cai, Eliza
+Rutherford, Katie Millican, George van den Driessche, Jean-Baptiste Lespiau,
+Bogdan Damoc, Aidan Clark, Diego de Las Casas, Aurelia Guy, Jacob Menick,
+Roman Ring, Tom Hennigan, Saffron Huang, Loren Maggiore, Chris Jones, Albin
+Cassirer, Andy Brock, Michela Paganini, Geoffrey Irving, Oriol Vinyals, Simon
+Osindero, Karen Simonyan, Jack W. Rae, Erich Elsen, and Laurent Sifre. 2021. Improving language
+models by retrieving from trillions of tokens. Brin (1999)
+
+Sergey Brin. 1999. Extracting
+patterns and relations from the world wide web. In The World Wide Web and Databases, pages 172–183, Berlin,
+Heidelberg. Springer Berlin Heidelberg. Brown et al.

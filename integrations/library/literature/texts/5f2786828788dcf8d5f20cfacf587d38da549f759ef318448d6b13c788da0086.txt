@@ -1,0 +1,1 @@
+In Figure 13, we provide concrete confidence distributions of Base Model, RLCR, and Ours across visually answerable and unanswerable problems.

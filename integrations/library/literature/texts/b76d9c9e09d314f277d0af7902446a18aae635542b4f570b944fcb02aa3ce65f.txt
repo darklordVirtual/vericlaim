@@ -1,0 +1,32 @@
+Repo
+Claude 2
+ChatGPT-3.5
+GPT-4
+SWE-Llama b
+SWE-Llama b
+
+astropy/astropy
+
+django/django
+
+matplotlib/matplotlib
+
+mwaskom/seaborn
+
+pallets/flask
+
+psf/requests
+
+pydata/xarray
+
+pylint-dev/pylint
+
+pytest-dev/pytest
+
+scikit-learn/scikit-learn
+
+sphinx-doc/sphinx
+
+sympy/sympy
+
+Table 15: % Resolved for models per repository represented in SWE-bench. We include a repository-by-repository breakdown of model performance in Table 15 that corresponds to Figure 4 in the main paper. As discussed, in the main paper, performance differs heavily across repositories.

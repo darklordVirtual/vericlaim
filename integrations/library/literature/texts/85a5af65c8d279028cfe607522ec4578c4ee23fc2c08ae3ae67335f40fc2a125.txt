@@ -1,0 +1,11 @@
+We also let be the sum of scores of leaves descended from . Further, define a hierarchical distance
+
+For a set of nodes , we then define the set-valued loss
+
+(20)
+
+This loss returns zero if is a child of any element in , and otherwise returns the minimum distance between any element of and any ancestor of , scaled by the depth . Thus, it is a monotone loss function and can be controlled by choosing as in (4) to achieve the guarantee
+
+(21)
+
+For this experiment, we use the ImageNet dataset \citepdeng2009imagenet, which comes with an existing label hierarchy, WordNet, of maximum depth . We choose a ResNet152 \citephe2016deep as our base model and used , and evaluated risk control with the remaining . We report results with in Figure 3. The mean and standard deviation of the risk over 1000 trials are 0.0499 and 0.0011, respectively.

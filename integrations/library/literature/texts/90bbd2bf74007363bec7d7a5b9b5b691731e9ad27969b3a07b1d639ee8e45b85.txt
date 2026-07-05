@@ -1,0 +1,6 @@
+This establishes the
+joint distribution over is the same in both scenarios. Since is the same deterministic function of and
+in both scenarios, we can further conclude the joint distributions
+over and are the same. Since equalized odds is
+an oblivious property, once these distributions match, if
+obeys equalized odds in scenario I, it also obeys it in scenario II.

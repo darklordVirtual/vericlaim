@@ -1,0 +1,5 @@
+All previous conformal methods rely on Theorem 1, which assumes that the incoming test points come from the same distribution as the calibration points. However, past data is not necessarily representative of future data in practice. One type of distribution shift that conformal prediction can handle is covariate shift. Covariate shift refers to the situation where the distribution of changes from to , but the relationship between and , i.e. the distribution of , stays fixed. Imagine our calibration features are drawn independently from but our test feature is drawn from . Then, there has been a covariate shift, and the data are no longer i.i.d. This problem is common in the real world. For example,
+
+•
+
+You are trying to predict diseases from MRI scans. You conformalized on a balanced dataset of 50% infants and 50% adults, but in reality, the frequency is 5% infants and 95% adults. Deploying the model in the real world would invalidate coverage; the infants are over-represented in our sample, so diseases present during infancy will be over-predicted. This was a covariate shift in age.

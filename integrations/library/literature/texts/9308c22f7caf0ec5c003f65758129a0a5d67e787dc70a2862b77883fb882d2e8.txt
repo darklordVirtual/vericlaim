@@ -1,0 +1,10 @@
+The fifth component of PROV-DM is concerned with
+relations SpecializationOf (Specialization) and AlternateOf (Alternate) between entities. Figure 10 depicts
+the fifth component with a single class and two binary associations. Figure 10 ◊: Alternates Component Overview (Informative)
+
+Two provenance descriptions about the same thing may emphasize differents aspects of that thing. Example 42 ◊
+
+User Alice writes an article. In its provenance, she wishes to refer to the precise version of the article with a date-specific IRI, as she might edit the article later. Alternatively, user Bob refers to the article in general, independently of its variants over time. The PROV data model introduces relations, called specialization and alternate
+that allow entities to be linked together. They are defined as follows. 5.5.1 Specialization
+
+An entity that is a specialization ◊ of another shares all aspects of the latter, and additionally presents more specific aspects of the same thing as the latter. In particular, the lifetime of the entity being specialized contains that of any specialization. Examples of aspects include a time period, an abstraction, and a context associated with the entity.

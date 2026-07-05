@@ -1,0 +1,21 @@
+[1]
+
+Chao K Chow. An optimum character recognition system using decision functions. IRE Transactions on Electronic Computers, (4):247–254, 1957. [2]
+
+Luigi Pietro Cordella, Claudio De Stefano, Francesco Tortorella, and Mario
+Vento. A method for improving classification reliability of multilayer
+perceptrons. IEEE Transactions on Neural Networks, 6(5):1140–1147, 1995. [3]
+
+Corinna Cortes, Giulia DeSalvo, and Mehryar Mohri. Boosting with abstention. In Advances in Neural Information Processing Systems, pages
+1660–1668, 2016. [4]
+
+Claudio De Stefano, Carlo Sansone, and Mario Vento. To reject or not to reject: that is the question-an answer in case of
+neural classifiers. IEEE Transactions on Systems, Man, and Cybernetics, Part C
+(Applications and Reviews), 30(1):84–94, 2000. [5]
+
+R. El-Yaniv and Y. Wiener. On the foundations of noise-free selective classification. Journal of Machine Learning Research, 11:1605–1641, 2010. [6]
+
+Ran El-Yaniv and Yair Wiener. Active learning via perfect selective classification. Journal of Machine Learning Research (JMLR), 13(Feb):255–279,
+2012. [7]
+
+Yoav Freund, Yishay Mansour, and Robert E Schapire. Generalization bounds for averaged classifiers.

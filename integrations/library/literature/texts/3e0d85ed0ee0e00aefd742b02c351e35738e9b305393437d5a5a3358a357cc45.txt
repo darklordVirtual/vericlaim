@@ -1,0 +1,43 @@
+We introduce Chinchilla, a substantially smaller model, trained for much longer than 300B tokens. Model
+Size ( Parameters)
+Training Tokens
+
+LaMDA (Thoppilan et al., 2022)
+
+137 Billion
+
+168 Billion
+
+GPT-3 (Brown et al., 2020)
+
+175 Billion
+
+300 Billion
+
+Jurassic (Lieber et al., 2021)
+
+178 Billion
+
+300 Billion
+
+Gopher (Rae et al., 2021)
+
+280 Billion
+
+300 Billion
+
+MT-NLG 530B (Smith et al., 2022)
+
+530 Billion
+
+270 Billion
+
+Chinchilla
+
+70 Billion
+
+1.4 Trillion
+
+In this work, we revisit the question:
+Given a fixed FLOPs budget,111For example, knowing the number of accelerators and a target training duration. how should one trade-off model size and the number of training tokens? To answer this question, we model the final pre-training loss222
+For simplicity, we perform our analysis on the smoothed training loss which is an unbiased estimate of the test loss, as we are in the infinite data regime (the number of training tokens is less than the number of tokens in the entire corpus). as a function of the number of model parameters , and the number of training tokens, .

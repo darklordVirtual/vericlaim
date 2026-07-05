@@ -1,0 +1,13 @@
+Example 55 ◊
+
+In the following example, the generation time of entity e1 is expressed according to
+xsd:dateTime [XMLSCHEMA11-2]. wasGeneratedBy(e1,a1, 2001-10-26T21:32:52)
+
+5.7.4 Namespace Declaration
+
+A namespace ◊ is identified by an IRI [RFC3987]. In PROV-DM, attributes, identifiers, and values with qualified names as data type can be placed in a namespace using the mechanisms described in this specification. A namespace declaration ◊ consists of a binding between a prefix and a namespace. Every qualified name with this prefix in the scope of this
+declaration refers to this namespace. A default namespace declaration ◊ consists of a namespace. Every un-prefixed qualified name
+refers to default namespace declaration. The PROV namespace ◊ is identified by the IRI http://www.w3.org/ns/prov#. 5.7.5 Qualified Name
+
+A qualified name ◊ is a name subject to namespace interpretation. It consists of a namespace, denoted by an optional prefix, and a local name. PROV-DM stipulates that a qualified name can be mapped into an IRI
+by concatenating the IRI associated with the prefix and the local part. A qualified name's prefix is OPTIONAL.

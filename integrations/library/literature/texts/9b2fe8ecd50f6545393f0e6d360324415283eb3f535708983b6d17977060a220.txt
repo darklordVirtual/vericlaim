@@ -1,0 +1,1 @@
+In Table A7 we show Chinchilla and Gopher performance on each subset of BIG-bench that we consider.

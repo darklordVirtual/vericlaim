@@ -1,0 +1,10 @@
+gradient descent on
+the adversarial objective function based on the fast gradient sign method does
+not allow the model to anticipate how the adversary will react to changes in the parameters. If we instead adversarial examples based on small rotations or addition of the scaled gradient, then
+the perturbation process is itself differentiable and the learning can take the reaction of the
+adversary into account. However, we did not find nearly as powerful of a regularizing result from this
+process, perhaps because these kinds of adversarial examples are not as difficult to solve. One natural question is whether it is better to perturb the input or the hidden layers or both. Here the results are inconsistent. Szegedy et al. (2014b) reported that adversarial perturbations yield the best regularization when applied to
+the hidden layers. That result was obtained on a sigmoidal network. In our experiments with the fast gradient
+sign method, we find that networks with hidden units
+whose activations are unbounded simply respond by making their hidden unit activations very large, so it is
+usually better to just perturb the original input.

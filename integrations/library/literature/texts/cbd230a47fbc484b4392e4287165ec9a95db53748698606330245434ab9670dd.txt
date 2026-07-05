@@ -1,0 +1,23 @@
+2021. Show your work: Scratchpads
+for intermediate computation with language models. arXiv preprint arXiv:2112.00114. Ouyang et al. (2022)
+
+Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela
+Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. 2022. Training language models to
+follow instructions with human feedback. arXiv preprint arXiv:2203.02155. Patel et al. (2021)
+
+Arkil Patel, Satwik Bhattamishra, and Navin Goyal. 2021. Are NLP
+models really able to solve simple math word problems? NAACL. Peters et al. (2018)
+
+Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+Kenton Lee, and Luke Zettlemoyer. 2018. Deep contextualized word
+representations. NAACL. Pi et al. (2022)
+
+Xinyu Pi, Qian Liu, Bei Chen, Morteza Ziyadi, Zeqi Lin, Yan Gao, Qiang Fu,
+Jian-Guang Lou, and Weizhu Chen. 2022. Reasoning like program
+executors. arXiv preprint arXiv:2201.11473. Piękos et al. (2021)
+
+Piotr Piękos, Mateusz Malinowski, and Henryk Michalewski. 2021. Measuring and
+improving BERT’s mathematical abilities by predicting the order of
+reasoning. ACL. Rae et al. (2021)
+
+Jack W.

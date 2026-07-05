@@ -1,0 +1,9 @@
+We will next show how to incorporate uncertainty into regression problems with a continuous output, following the algorithm in [romano2019conformalized]. We use quantile regression [koenker1978regression] as our base model. As a reminder, the quantile regression algorithm attempts to learn the quantile of for each possible value of . We will call the true quantile and the fitted model . Since by definition lands below with probability and above with probability, we would expect the interval to have approximately 90% coverage. However, because the fitted quantiles may be inaccurate, we will conformalize them. Python pseudocode for conformalized quantile regression is in Figure 5. After training an algorithm to output two such quantiles (this can be done with a standard loss function, see below), and , we can define the score to be the difference between and its nearest quantile,
+
+(6)
+
+After computing the scores on our calibration set and setting , we can form valid prediction intervals by taking
+
+(7)
+
+Intuitively, the set just grows or shrinks the distance between the quantiles by to achieve coverage.

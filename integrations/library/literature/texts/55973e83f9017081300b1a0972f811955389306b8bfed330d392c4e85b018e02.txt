@@ -1,0 +1,5 @@
+\end{aligned}
+
+Note that our hidden layer is overcomplete m\geq n, and the MSE is a mean over each vector element while the L1 penalty is a sum (with \lambda being the L1 coefficient). The hidden layer activations \mathbf{f} are our learned features. As shown, we subtract the decoder bias from the inputs, and call this a pre-encoder bias. Recall that the decoder is also referred to as the “dictionary” while the encoder can be thought of as a linear, amortized approximation to more powerful sparse coding algorithms. Our modifications to a standard autoencoder are backed by theory and empirical ablations. However, because these modifications appeared at different periods during our research and can interact with each other, we do not provide rigorous ablation experiments and instead provide intuition and anecdotal evidence for why each is justified. There are likely many important modifications that could further improve performance. Here is a summary of the modifications sorted both between and within sections in rough order of importance
+
+Pre encoder bias – this boosted performance in toy models.

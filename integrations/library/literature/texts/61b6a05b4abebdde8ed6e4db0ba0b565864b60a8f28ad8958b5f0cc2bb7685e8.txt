@@ -1,0 +1,122 @@
+In the zero-shot question prompt, the correlation between average log probability and accuracy is , and for the few-shot setting the correlation is . Task
+Tested Concepts
+Supercategory
+
+Abstract Algebra
+Groups, rings, fields, vector spaces, …
+STEM
+
+Anatomy
+Central nervous system, circulatory system, …
+STEM
+
+Astronomy
+Solar system, galaxies, asteroids, …
+STEM
+
+Business Ethics
+Corporate responsibility, stakeholders, regulation, …
+Other
+
+Clinical Knowledge
+Spot diagnosis, joints, abdominal examination, …
+Other
+
+College Biology
+Cellular structure, molecular biology, ecology, …
+STEM
+
+College Chemistry
+Analytical, organic, inorganic, physical, …
+STEM
+
+College Computer Science
+Algorithms, systems, graphs, recursion, …
+STEM
+
+College Mathematics
+Differential equations, real analysis, combinatorics, …
+STEM
+
+College Medicine
+Introductory biochemistry, sociology, reasoning, …
+Other
+
+College Physics
+Electromagnetism, thermodynamics, special relativity, …
+STEM
+
+Computer Security
+Cryptography, malware, side channels, fuzzing, …
+STEM
+
+Conceptual Physics
+Newton’s laws, rotational motion, gravity, sound, …
+STEM
+
+Econometrics
+Volatility, long-run relationships, forecasting, …
+Social Sciences
+
+Electrical Engineering
+Circuits, power systems, electrical drives, …
+STEM
+
+Elementary Mathematics
+Word problems, multiplication, remainders, rounding, …
+STEM
+
+Formal Logic
+Propositions, predicate logic, first-order logic, …
+Humanities
+
+Global Facts
+Extreme poverty, literacy rates, life expectancy, …
+Other
+
+High School Biology
+Natural selection, heredity, cell cycle, Krebs cycle, …
+STEM
+
+High School Chemistry
+Chemical reactions, ions, acids and bases, …
+STEM
+
+High School Computer Science
+Arrays, conditionals, iteration, inheritance, …
+STEM
+
+High School European History
+Renaissance, reformation, industrialization, …
+Humanities
+
+High School Geography
+Population migration, rural land-use, urban processes, …
+Social Sciences
+
+High School Gov’t and Politics
+Branches of government, civil liberties, political ideologies, …
+Social Sciences
+
+High School Macroeconomics
+Economic indicators, national income, international trade, …
+Social Sciences
+
+High School Mathematics
+Pre-algebra, algebra, trigonometry, calculus, …
+STEM
+
+High School Microeconomics
+Supply and demand, imperfect competition, market failure, …
+Social Sciences
+
+High School Physics
+Kinematics, energy, torque, fluid pressure, …
+STEM
+
+High School Psychology
+Behavior, personality, emotions, learning, …
+Social Sciences
+
+High School Statistics
+Random variables, sampling distributions, chi-s

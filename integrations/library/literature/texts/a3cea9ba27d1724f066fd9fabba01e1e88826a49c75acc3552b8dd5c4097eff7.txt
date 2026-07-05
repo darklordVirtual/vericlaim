@@ -1,0 +1,5 @@
+A related resource is a list called Awful AI, which is intended to raise awareness of misuses of AI and to spur discussion around contestational research and tech projects [51]. A separate list summarizes various cases in which AI systems ”gamed” their specifications in unexpected ways [52]. Additionally, AI developers have in some cases provided retrospective analyses of particular AI incidents, such as with Microsoft’s ”Tay” chatbot [53]. The pilot was built using publicly available information through a set of volunteers and contractors manually collecting known AI incidents where AI caused harm in the real world. Improving the ability and incentive of AI developers to report incidents requires building additional infrastructure, analogous to the infrastructure that exists for reporting incidents in other domains such as cybersecurity. Infrastructure to support incident sharing that involves non-public information would require the following resources:
+
+•
+
+Transparent and robust processes to protect organizations from undue reputational harm brought about by the publication of previously unshared incidents.

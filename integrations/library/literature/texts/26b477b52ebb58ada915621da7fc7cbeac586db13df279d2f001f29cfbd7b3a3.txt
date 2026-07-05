@@ -1,0 +1,5 @@
+We marked samples as memorized if
+all -grams in the memorized sequence occurred in close proximity
+in the training dataset. This approach eliminates false negatives, but has false positives. It can confirm that our samples are memorized but cannot detect
+cases where we missed memorized samples. In some experiments below, we report exact counts for how often a particular sequence occurs in the training data. We obtained these counts by asking the GPT-2 authors to perform a
+separate grep over the entire dataset to get an exact count.

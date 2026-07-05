@@ -1,0 +1,9 @@
+Let us first study the loss as a function of the optimally allocated compute from Equation (5.5). The result is plotted in Figure 13, along with a power-law fit. We see that as compared to the compute plot of Figure 1, the new fit with is somewhat improved. Given , it is natural to ask for the optimal model size that provides the minimal loss with a given quantity of training compute. The optimal model size is shown in Figure 14. We observe that can be fit very well with a power-law
+
+(6.1)
+
+In Figure 12, we show the effect of training models of sub-optimal sizes (see Appendix B.4). By definition , and so we can use to extract further results. In particular, since prior fits show and , we can conclude that . This leads us to conclude that the optimal number of steps will only grow very slowly with compute, as
+
+(6.2)
+
+matching the empirical results in Figure 14. In fact the measured exponent is sufficiently small that our results may even be consistent with an exponent of zero.

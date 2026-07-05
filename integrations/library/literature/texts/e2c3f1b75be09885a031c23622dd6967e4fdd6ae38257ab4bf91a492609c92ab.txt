@@ -1,0 +1,10 @@
+Rafael Rafailov 22footnotemark: 2 &Archit Sharma11footnotemark: 1 22footnotemark: 2 &Eric Mitchell11footnotemark: 1 22footnotemark: 2
+
+Stefano Ermon22footnotemark: 2 33footnotemark: 3 &Christopher D. Manning22footnotemark: 2 &Chelsea Finn22footnotemark: 2
+
+22footnotemark: 2 Stanford University 33footnotemark: 3 CZ Biohub
+
+{rafailov,architsh,eric.mitchell}@cs.stanford.edu
+Equal contribution; more junior authors listed earlier. Abstract
+
+While large-scale unsupervised language models (LMs) learn broad world knowledge and some reasoning skills, achieving precise control of their behavior is difficult due to the completely unsupervised nature of their training. Existing methods for gaining such steerability collect human labels of the relative quality of model generations and fine-tune the unsupervised LM to align with these preferences, often with reinforcement learning from human feedback (RLHF). However, RLHF is a complex and often unstable procedure, first fitting a reward model that reflects the human preferences, and then fine-tuning the large unsupervised LM using reinforcement learning to maximize this estimated reward without drifting too far from the original model.

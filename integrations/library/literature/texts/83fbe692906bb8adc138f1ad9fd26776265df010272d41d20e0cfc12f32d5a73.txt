@@ -1,0 +1,38 @@
+Table 21:
+Example of a SWE-Llama 13b generation that correctly solves a SWE-bench task instance. In this example, the SWE-Llama generation is exactly the same as the solution. Setting
+
+•
+
+Model: SWE-Llama 13B with Oracle retrieval
+
+•
+
+Task Instance: pydata__xarray-5131
+
+–
+
+Link to Issue: https://github.com/pydata/xarray/pull/5130
+
+–
+
+Link to PR: https://github.com/pydata/xarray/pull/5131
+
+Issue
+
+When displaying a DatasetGroupBy in an interactive Python session, the first line of output contains a trailing whitespace. The first example in the documentation demonstrate this:
+⬇
+>>> import xarray as xr, numpy as np
+
+>>> ds = xr.Dataset(
+
+... {"foo": (("x", "y"), np.random.rand(4, 3))},
+
+... coords={"x": [10, 20, 30, 40], "letters": ("x", list("abba"))},
+
+... )
+
+>>> ds.groupby("letters")
+
+DatasetGroupBy, grouped over ’letters’
+
+2 groups with labels ’a’, ’b’. There is a trailing whitespace in the first line of output which is ”DatasetGroupBy, grouped over ‘letters’ ”.

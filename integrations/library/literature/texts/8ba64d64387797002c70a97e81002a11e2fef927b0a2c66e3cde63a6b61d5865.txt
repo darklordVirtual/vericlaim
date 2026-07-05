@@ -1,0 +1,22 @@
+In this section, we develop the theory a theory for non-discriminating
+Bayes optimal classification. We will first show that a Bayes optimal
+equalized odds predictor can be obtained as an derived threshold
+predictor of the Bayes optimal regressor. Second, we quantify the loss
+of deriving an equalized odds predictor based on a regressor that
+deviates from the Bayes optimal regressor. This can be used to justify
+the approach of first training classifiers without any fairness
+constraint, and then deriving an equalized odds predictor in a second
+step. Definition 5.1 (Bayes optimal regressor). Given random variables and a target variable the
+Bayes optimal regressor is
+with
+
+The Bayes optimal classifier, for any proper loss, is then a threshold
+predictor of where the threshold depends on the loss function
+(see, e.g., [Was10]). We will extend this result to the
+case where we additionally ask the classifier to satisfy an oblivious
+property, such as our non-discrimination properties. Proposition 5.2. For any source distribution over
+with Bayes optimal regressor , any loss function,
+and any oblivious property , there exists a predictor
+such that:
+
+1. is an optimal predictor satisfying .

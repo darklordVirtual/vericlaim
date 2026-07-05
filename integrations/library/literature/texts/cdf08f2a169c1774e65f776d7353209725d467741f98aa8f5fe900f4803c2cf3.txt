@@ -1,0 +1,23 @@
+(2019a)
+
+D. Hendrycks, M. Mazeika, and T. Dietterich. Deep anomaly detection with outlier exposure. ICLR, 2019a. Hendrycks et al. (2019b)
+
+D. Hendrycks, K. Zhao, S. Basart, J. Steinhardt, and D. Song. Natural adversarial examples. ArXiv, abs/1907.07174, 2019b. Hendrycks et al. (2020)
+
+D. Hendrycks, C. Burns, S. Basart, A. Critch, J. Li, D. Song, and
+J. Steinhardt. Aligning ai with shared human values, 2020. Huang et al. (2019)
+
+L. Huang, R. L. Bras, C. Bhagavatula, and Y. Choi. Cosmos qa: Machine reading comprehension with contextual commonsense
+reasoning, 2019. Kaplan et al. (2020)
+
+J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,
+S. Gray, A. Radford, J. Wu, and D. Amodei. Scaling laws for neural language models, 2020. Khashabi et al. (2020)
+
+D. Khashabi, T. Khot, A. Sabharwal, O. Tafjord, P. Clark, and H. Hajishirzi. Unifiedqa: Crossing format boundaries with a single qa system, 2020. Khot et al. (2019)
+
+T. Khot, P. Clark, M. Guerquin, P. Jansen, and A. Sabharwal. Qasc: A dataset for question answering via sentence composition,
+2019. Kumar et al. (2019)
+
+A. Kumar, P. Liang, and T. Ma. Verified uncertainty calibration, 2019. Lai et al. (2017)
+
+G. Lai, Q.

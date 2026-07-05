@@ -1,0 +1,1 @@
+explore a mechanism with the potential for improving the verifiability of claims in AI development: third party auditing, red team exercises, bias and safety bounties, and sharing of AI incidents. In each case, the subsections below begin by discussing a problem which motivates exploration of that mechanism, followed by a recommendation for improving or applying that mechanism.

@@ -1,0 +1,3 @@
+called anomaly detection, novelty detection, or one-class classification, and there are good out-of-the box methods for doing this; see [pimental2014review]
+for an overview of outlier detection. Conformal outlier detection can also be seen as a hypothesis testing problem; points that are rejected as outliers have a p-value less than for the null hypothesis of exchangeability with the calibration data. This interpretation is closely related to the classical permutation test [fisher1936design, pitman1937significance]. See [vovk2003testing, guan2019prediction, bates2021multiple]
+for more on this interpretation and other statistical properties of conformal outlier detection.

@@ -5,6 +5,12 @@
     "Yonatan Geifman",
     "Ran El-Yaniv"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:14:42.501791+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1705.08500"
+  },
+  "fulltext_sha256": "2f4c5679b0f8492f53f89e36abe3f586a092dcf1f263dc45fd98f4eba4980f68",
   "registrar": "arxiv",
   "retrieval": {
     "query": "curator arXiv ti:\"Selective classification for deep neural networks\"",

@@ -1,0 +1,27 @@
+Task cites: (Grover et al., 2019)
+
+word_unscrambling: Rylan Yang, The Harker School (rylyang@gmail.com), and Ethan A. Chi, Stanford University (ethanchi@cs.stanford.edu). Task cites: (Nishino et al., 2019; Rozner et al., 2021; Jones et al., 2020; Mays et al., 1991; Edizel et al., 2019; Sakaguchi et al., 2016; Kim et al., 2015; Xue et al., 2021a; Wu et al., 2020; Rust et al., 2020)
+
+yes_no_black_white: Marie Tolkiehn, University of Bristol and Center for Data and Computing in Natural Sciences (Universität Hamburg, DESY, TUHH) (marie.tolkiehn@desy.de)
+
+Brier score (this "task" measures the calibration of models on all other tasks): Sharon Zhou, Stanford University (sharon.Zhou.mail@gmail.com); Peter Eckersley, AI Objectives Institute (pde@objective.is); and Alex Gray, OpenAI (aray@openai.com)
+
+Acknowledgments
+
+We thank
+Austin Tarango,
+Behrooz Ghorbani,
+Ben Hutchinson,
+Ben Zevenbergen,
+Doug Eck,
+Ed Chi,
+Ian Wilbur,
+Kathy Meier-Hellstern,
+Orhan Firat,
+Robbie Gonzalez,
+Sergey Ioffe,
+Timothy Nguyen,
+and
+Will Carter
+for extensive discussion and feedback on the work. We thank
+Hossein Mobahi for help debugging the parsinlu_qa task.

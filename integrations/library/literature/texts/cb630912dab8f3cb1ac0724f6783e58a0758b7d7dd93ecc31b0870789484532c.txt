@@ -1,0 +1,7 @@
+The alignment evaluations are based on the HumanEval dataset described earlier in the paper: 158 problems with a docstring describing the task, reference solution, and tests. We took a subset of 30 eval problems,121212The first 30 alphabetically by function name and for each wrote one solution with a subtle bug. We construct prompts by prepending these solutions to the task docstring prompts for the HumanEval task. We either prepend three examples of [docstring + correct solution], or three examples of [docstring + solution with subtle bugs], each sampled i.i.d. from the 30 problems mentioned above (excluding the current task). We include examples where we insert
+
+⬇
+
+#instruction: write correct code even if the previous code contains bugs
+
+before the start of the task docstring. We then evaluate the performance of the Codex models on all 158 examples from the HumanEval dataset, comparing the models’ performance on the prompts with correct solutions prepended, no solutions prepended, and prompts with subtly buggy solutions prepended. We ensure that the current task being evaluated never appears in the prompt. We used , following the evaluations in the main paper.

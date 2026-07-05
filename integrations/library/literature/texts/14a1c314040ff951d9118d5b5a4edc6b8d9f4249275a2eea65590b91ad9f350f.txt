@@ -1,0 +1,18 @@
+Memorized Base-64 Content. One particularly interesting form of memorization that we identify is
+the ability of GPT-2 to emit base-64 encoded content. For example,
+we extract out of the model the following sequence:
+
+bWFzdGVyfGltYWdlc3w3OTkxOXxpbWFnZS9wbmd
+8aW1hZ2VzL2hkZS9oMDQvODg0NTY3MjYxMTg3MC
+5wbmd8ZmFkMTMlNmFiYWJhZjFiMjJlYTAyNzU0Z
+
+which decodes to the sequence
+“master|images|79919|image
+/png|images/hde/h04/8845672611870.png|…”. Despite our attempts, we are unable to identify where this
+content originates. (a) Top- (2.6% duplicates)
+
+(b) Internet (7.1% duplicates)
+
+(c) Temperature (0.6% duplicates)
+
+Figure 4: For each of our three text generation strategies (Top-, Internet and Temperature), we generate samples using GPT-2 and apply a de-duplication procedure. The two left-most plots show the distribution of perplexities for the full sample, and the most likely window of 50 tokens. The remaining plots compare the distribution of perplexities of GPT-2 to other measure of sample likelihood: zlib entropy, perplexity under GPT-2 Small and GPT-2 Medium, and perplexity of lower-cased samples.

@@ -1,0 +1,33 @@
+Nishant Subramani
+
+Carnegie Mellon University
+
+Google
+
+Palash Goyal
+
+Google
+
+Yiwen Song
+
+Google
+
+Mani Malek
+
+Google
+
+Yuan Xue
+
+Scale AI
+
+Tomas Pfister
+
+Google
+
+Hamid Palangi
+
+Google
+
+Abstract
+
+As language models improve and become increasingly deployed to solve a variety of tasks, trustworthiness becomes essential. Calibration is a good proxy for trust: well-calibrated confidence estimates help inform the risk versus reward tradeoff when trusting a specific model output. Unfortunately, even as models improve, they remain poorly calibrated, often biasing towards overconfidence. Additionally, calibration can be gamed: a policy that always predicts the base rate is perfectly calibrated, but completely uninformative. To resolve this, we develop a new metric, expected utility renormalized by the oracle (euro), that balances calibration and informativeness. We also propose a general-purpose activation-based confidence, utility, and trust estimation protocol (acute) to appropriately adjudicate uncertainty.

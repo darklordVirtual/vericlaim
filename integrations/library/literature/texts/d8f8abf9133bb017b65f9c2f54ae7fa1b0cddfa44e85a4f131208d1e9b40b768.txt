@@ -1,0 +1,7 @@
+Action 3: Finish[Captain Hans Geering]Observation 3: Answer is CORRECT
+
+Reflection: I searched the wrong title for the
+show, "’Allo ’Allo!", which resulted in no results. I
+should have searched the show’s main character, Gorden
+Kaye, to find the role he was best known for in the show. Figure 7: Two HotPotQA trials within the same environment and task. The Reflexion + ReAct agent uses self-reflection to determine
+a better search method for the next trial.

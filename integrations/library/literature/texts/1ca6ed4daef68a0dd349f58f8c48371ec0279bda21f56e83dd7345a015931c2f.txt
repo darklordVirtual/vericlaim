@@ -1,0 +1,16 @@
+That an independent model achieves equal or higher
+interception suggests that the benchmark captures genuine
+attack patterns rather than GPT-4o-mini-specific artifacts. Moreover, GPT-4o-mini’s lower interception on Chinese
+(93.0% vs. 96.5%) contradicts the circularity hypothesis:
+if same-source bias were dominant, GPT-4o-mini should consistently
+outperform, which it does not. On IR, GPT-4o-mini exceeds Qwen3.5-9B only on English
+(95.4% vs. 95.0%, +0.4 pp) while underperforming
+on Chinese (93.0% vs. 96.5%, pp); the inconsistent
+direction across languages indicates that any same-source IR
+inflation is small relative to the inter-model variance. On FPR, GPT-4o-mini’s lower rate (3.2–12.3% vs. 23.7–37.7%)
+could partly reflect familiarity with its own benign outputs;
+this effect cannot be isolated without regenerating the benchmark
+with an independent generator. We note that this analysis bounds output-distribution familiarity
+on IR; a deeper structural bias—whereby GPT-4o-mini may also
+recognize its own attack-pattern preferences embedded in the
+generation templates—is harder to bound and remains a limitation.

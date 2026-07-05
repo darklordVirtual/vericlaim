@@ -1,0 +1,14 @@
+Dill. Learning a SAT solver from single-bit supervision, 2018. URL https://arxiv.org/abs/1802.03685. Senel & Schütze (2021)
+
+Lutfi Kerem Senel and Hinrich Schütze. Does he wink or does he nod? A challenging benchmark for evaluating
+word understanding of language models, 2021. URL https://arxiv.org/abs/2102.03596. Sennhauser & Berwick (2018)
+
+Luzi Sennhauser and Robert C. Berwick. Evaluating the ability of LSTMs to learn context-free grammars,
+2018. URL https://arxiv.org/abs/1811.02611. Sennrich (2016)
+
+Rico Sennrich. How grammatical is character-level neural machine translation? Assessing MT quality with contrastive translation pairs, 2016. URL https://arxiv.org/abs/1612.04629. Sennrich & Zhang (2019)
+
+Rico Sennrich and Biao Zhang. Revisiting low-resource neural machine translation: A case study. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pp. 211--221, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1021. URL https://aclanthology.org/P19-1021. Sennrich et al. (2015)
+
+Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units, 2015.

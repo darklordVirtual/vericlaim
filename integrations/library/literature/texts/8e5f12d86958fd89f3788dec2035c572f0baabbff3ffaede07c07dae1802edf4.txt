@@ -1,0 +1,16 @@
+Kim et al. (2019)
+
+Andrew Kim, Maxim Ruzmaykin, Aaron Truong, and Adam Summerville. Cooperation and codenames: Understanding natural language processing
+via codenames. In Proceedings of the AAAI Conference on Artificial
+Intelligence and Interactive Digital Entertainment, volume 15, pp. 160--166, Menlo Park, CA, Oct. 2019. Association for the Advancement of
+Artificial Intelligence. URL https://ojs.aaai.org/index.php/AIIDE/article/view/5239. Kim et al. (2015)
+
+Yoon Kim, Yacine Jernite, David Sontag, and Alexander M. Rush. Character-aware neural language models, 2015. URL https://arxiv.org/abs/1508.06615. King & Cook (2020)
+
+Milton King and Paul Cook. Evaluating approaches to personalizing language models. In Proceedings of the 12th Language Resources and Evaluation
+Conference, pp. 2461--2469, Marseille, France, May 2020. European Language
+Resources Association. URL https://aclanthology.org/2020.lrec-1.299. Kirov & Cotterell (2018)
+
+Christo Kirov and Ryan Cotterell. Recurrent Neural Networks in Linguistic Theory: Revisiting Pinker
+and Prince (1988) and the Past Tense Debate. Transactions of the Association for Computational Linguistics,
+6:651--665, 12 2018. ISSN 2307-387X.

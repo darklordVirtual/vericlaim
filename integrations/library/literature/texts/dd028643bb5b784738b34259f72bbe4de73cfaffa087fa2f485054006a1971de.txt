@@ -1,0 +1,7 @@
+•
+
+GPT-J + CC: GPT-J finetuned on , our subset of CCNet without any API calls. •
+
+Toolformer: GPT-J finetuned on , our subset of CCNet augmented with API calls. •
+
+Toolformer (disabled): The same model as Toolformer, but API calls are disabled during decoding.555This is achieved by manually setting the probability of the <API> token to 0. For most tasks, we additionally compare to OPT (66B) (Zhang et al., 2022) and GPT-3666We use the original davinci variant that is not finetuned on any instructions. (175B) (Brown et al., 2020), two models that are about 10 and 25 times larger than our other baseline models, respectively.

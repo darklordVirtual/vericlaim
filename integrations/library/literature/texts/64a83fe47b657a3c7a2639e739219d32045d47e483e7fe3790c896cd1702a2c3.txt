@@ -1,0 +1,17 @@
+arXiv preprint arXiv:1612.01474, 2016. LeCun et al. (1998)
+
+LeCun, Yann, Bottou, Léon, Bengio, Yoshua, and Haffner, Patrick. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278–2324, 1998. MacKay (1992)
+
+MacKay, David JC. A practical bayesian framework for backpropagation networks. Neural computation, 4(3):448–472, 1992. Naeini et al. (2015)
+
+Naeini, Mahdi Pakdaman, Cooper, Gregory F, and Hauskrecht, Milos. Obtaining well calibrated probabilities using bayesian binning. In AAAI, pp. 2901, 2015. Netzer et al. (2011)
+
+Netzer, Yuval, Wang, Tao, Coates, Adam, Bissacco, Alessandro, Wu, Bo, and Ng,
+Andrew Y. Reading digits in natural images with unsupervised feature learning. In Deep Learning and Unsupervised Feature Learning Workshop,
+NIPS, 2011. Niculescu-Mizil & Caruana (2005)
+
+Niculescu-Mizil, Alexandru and Caruana, Rich. Predicting good probabilities with supervised learning. In ICML, pp. 625–632, 2005. Pereyra et al. (2017)
+
+Pereyra, Gabriel, Tucker, George, Chorowski, Jan, Kaiser, Łukasz, and
+Hinton, Geoffrey. Regularizing neural networks by penalizing confident output
+distributions. arXiv preprint arXiv:1701.06548, 2017. Platt et al.

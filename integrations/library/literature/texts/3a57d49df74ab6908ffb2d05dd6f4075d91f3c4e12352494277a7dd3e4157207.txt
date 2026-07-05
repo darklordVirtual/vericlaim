@@ -1,0 +1,15 @@
+1321--1330. PMLR,
+06--11 Aug. 2017. URL https://proceedings.mlr.press/v70/guo17a.html. Gupta et al. (2021)
+
+Aditya Gupta, Jiacheng Xu, Shyam Upadhyay, Diyi Yang, and Manaal Faruqui. Disfl-QA: A benchmark dataset for understanding disfluencies in
+question answering. In Findings of the Association for Computational Linguistics:
+ACL-IJCNLP 2021, pp. 3309--3319, Online, August 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.findings-acl.293. URL https://aclanthology.org/2021.findings-acl.293. Gvarjalaże & Mchedlishvili (1971)
+
+Isidor S. Gvarjalaże and Dzhuansher I. Mchedlishvili. English Proverbs and Sayings. Vysshaya shkola, Moscow, 1971. Gyasi Obeng (1996)
+
+Samuel Gyasi Obeng. The proverb as a mitigating and politeness strategy in Akan
+discourse. Anthropological Linguistics, 38(3):521--549, 1996. URL http://www.jstor.org/stable/30028601. Habernal et al. (2018)
+
+Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. The argument reasoning comprehension task: Identification and
+reconstruction of implicit warrants.

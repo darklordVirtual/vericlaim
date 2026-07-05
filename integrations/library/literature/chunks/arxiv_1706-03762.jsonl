@@ -1,0 +1,49 @@
+{"fsid": "arxiv_1706-03762", "n": 48, "overlap": 200, "source_sha256": "5385d5cee829354f24485e65f816804abb6ecc9f854c4cc91e811157227de049", "target": 1200}
+{"section": "", "seq": 0, "sha256": "946289f3fdb5748d37a4eb47ef36df3462028d1e4f6ca6a75d3f076a65b0e8f5"}
+{"section": "Attention Is All You Need", "seq": 1, "sha256": "86f42e2f33c14cc0ec50f1c2c2369a54ffb64362e3e1090a27ea1e8cbbd2f9ed"}
+{"section": "Attention Is All You Need", "seq": 2, "sha256": "35fc7a70a5671d017b3af083eaedfb14e138f1825cccce8cf20a01ec8589ae69"}
+{"section": "Attention Is All You Need", "seq": 3, "sha256": "c034ce8fd3149803d9fb52756f1ef0b26925fed778f4acceb4d1574ddf2d28db"}
+{"section": "1 Introduction", "seq": 4, "sha256": "52ea01b620e41263a6a60e63bff06cddb7aef859dd1281affc2df386df234ba7"}
+{"section": "1 Introduction", "seq": 5, "sha256": "f1b5311833fb011686d793f8bf428a51b641e70ddaec50f02d37bf7a79c84a75"}
+{"section": "2 Background", "seq": 6, "sha256": "66ea2dfcead8aea10094c46ded691d88bf19f818c03734e95a88a0990f1a53c7"}
+{"section": "2 Background", "seq": 7, "sha256": "bfbf9f5c863bedde98803a4713466bf2f25438a2873f54e23c9031c1bb173500"}
+{"section": "3 Model Architecture", "seq": 8, "sha256": "dc196130a1546c49f591ff3f4d5ea170f8965d4edff89db4044bba6c7ef00269"}
+{"section": "3.1 Encoder and Decoder Stacks", "seq": 9, "sha256": "08a9b713dc104316b0207b6dc26efb7844ad6f5e9cbcdc155536a15db48e63fe"}
+{"section": "3.1 Encoder and Decoder Stacks", "seq": 10, "sha256": "9ac1f8983981784be90166a4a8cbd2e24ab81a8098422d0fb9f478a670d5aa45"}
+{"section": "3.2 Attention", "seq": 11, "sha256": "bb726b99519f74b793cc21f7551753f103e93916b4719fd3ccafa6f96f27f088"}
+{"section": "3.2 Attention", "seq": 12, "sha256": "9ad1281782beb7efca143c4a79926a7909068f7661c0be435f80c6a2851a3179"}
+{"section": "3.2 Attention", "seq": 13, "sha256": "92735c89476afabb7549da59bf0e89e9de6ddb75b79c0c3c0db4457485868427"}
+{"section": "3.2 Attention", "seq": 14, "sha256": "cf2c4479145d5bfa8d5951e97709915a2f60047a08f19d868774c8a7999f8f9d"}
+{"section": "3.2 Attention", "seq": 15, "sha256": "3611ec274d3878ed19f4ced60b5684284b9832909d73a99dc13a256fea69ba2a"}
+{"section": "3.3 Position-wise Feed-Forward Networks", "seq": 16, "sha256": "47e9a05edcea8d45d854104171ceb02a678772380e736deceb3d3de6dd5cee23"}
+{"section": "3.4 Embeddings and Softmax", "seq": 17, "sha256": "88afe3cc42e9a0e804b177c68455a3ba32774857e0fd58b9a978bda56d72a0c7"}
+{"section": "3.5 Positional Encoding", "seq": 18, "sha256": "27a1f8407dcb17a7a4068f9f315563d129d289b685a441004f616d39e8c51be6"}
+{"section": "3.5 Positional Encoding", "seq": 19, "sha256": "7d1877b7255513f6dd09e4661d22d471954020f98251178aa4a7808e8a244cd4"}
+{"section": "4 Why Self-Attention", "seq": 20, "sha256": "295922d4b6686034099bf8b5fb6a95a05b766bfc36285fc331beb6c303267f62"}
+{"section": "4 Why Self-Attention", "seq": 21, "sha256": "4cee180f41784827bad9b6132729e2b0aea3a08ecb5fa8f32a719af2ebc165b1"}
+{"section": "4 Why Self-Attention", "seq": 22, "sha256": "9f3ddb565d0c451f77e414f0526fed60839f6cc82bb15ed2ad867d579137a5e4"}
+{"section": "4 Why Self-Attention", "seq": 23, "sha256": "7b2ae2347399d5ab0b17417cc09be863829569c75dd8cd8a187a9af00b4aa9cf"}
+{"section": "5 Training", "seq": 24, "sha256": "1e571c178bc81f0e69b07f8f489ea7a3a6d8f694e2020d2a79c09635ba08fd79"}
+{"section": "5.1 Training Data and Batching", "seq": 25, "sha256": "dd595aabd50a231ecfedf93cf9f2326c07cbe5ff7245aa1bbe786f01a73b1a52"}
+{"section": "5.2 Hardware and Schedule", "seq": 26, "sha256": "432fef0b24ee043a1eafc168eb903af77642737aafd97d26b621045c0ac01a59"}
+{"section": "5.3 Optimizer", "seq": 27, "sha256": "e98aae28984a0e4f4bdb076ebf3f179c92d41e72da63c06d79b8ab6d1cc455c0"}
+{"section": "5.4 Regularization", "seq": 28, "sha256": "998b28a686ba90aef643e22f7a6bb2595f17143f3551347a0f9e983af1585f80"}
+{"section": "6.1 Machine Translation", "seq": 29, "sha256": "a43e25ebbc8e54aaad8db4c0afa93ae1f513ba1e54de114bb83d2dc5751d9021"}
+{"section": "6.1 Machine Translation", "seq": 30, "sha256": "2e873350baf25c2b646c00a7a21a0bba4253cb3bdb74516c6e7155cadc4a7c59"}
+{"section": "6.1 Machine Translation", "seq": 31, "sha256": "807b758a3f45eaec57b7cb3f36b69b0363da0f3ca0769574da58001e3b767d78"}
+{"section": "6.2 Model Variations", "seq": 32, "sha256": "9f25ebf88436e46f47545e5c86c0ac953f6d524696e93fe0bac7edc42189e4d5"}
+{"section": "6.2 Model Variations", "seq": 33, "sha256": "65656d13c369e8a12b08bc20566652f3e8297c00619d0edbbf80b4b07d1f5a67"}
+{"section": "6.3 English Constituency Parsing", "seq": 34, "sha256": "2bbc663ca365b0785a276158a400dd138c50521998d65ab6311a690e4188cbd2"}
+{"section": "6.3 English Constituency Parsing", "seq": 35, "sha256": "de62e0f57f0889dbf7afac01463333c57db282a2521be0b113c91e18cb881642"}
+{"section": "6.3 English Constituency Parsing", "seq": 36, "sha256": "a157c1df36bc1c8d50b929d75350d18fa599887d8e6fb25c476d232862f8edd3"}
+{"section": "7 Conclusion", "seq": 37, "sha256": "4bd79e335a4635cfd60decf73ec8df68fa3294e3c23b8f2f5235cd9be2b4d05b"}
+{"section": "7 Conclusion", "seq": 38, "sha256": "5e993d34a43e092380f995d24da52d3082a3bd60aa24e2e945e94cd359c911e5"}
+{"section": "References", "seq": 39, "sha256": "16332d5299ab618ed8c4175bb02591daed6cc3e452229d1f0b60b5d82276451d"}
+{"section": "References", "seq": 40, "sha256": "f6a31f18630418c17df970def2551b60c742e5da78f832f93739de5a1ba464fa"}
+{"section": "References", "seq": 41, "sha256": "209345bb32a2261f25c6cff607fe11ca2eeccb23283b2e9fbe6cd276013243c8"}
+{"section": "References", "seq": 42, "sha256": "37a8dfa269f435407759b7e0e51e2b25a0deb793482a76ba2e1391d1d10cd83a"}
+{"section": "References", "seq": 43, "sha256": "85aeabaceec782dfd8906aed6e73df687a59ec3bf5c903ae0fda00847cf5ed68"}
+{"section": "References", "seq": 44, "sha256": "ee38971bb74d9cc2b2bd807ff4d8a072847cf05f96d194f438cfdb9adfe5714f"}
+{"section": "References", "seq": 45, "sha256": "dea1c15e555256ebb847a2f1b836099258c0d54e0cbc1d2cb33a8f18ed442d04"}
+{"section": "References", "seq": 46, "sha256": "3cee67192c8991b925bd9207ff18c104d0d156117e6f0161bc08abf760ad5167"}
+{"section": "Attention Visualizations", "seq": 47, "sha256": "03d3ecc3c781a379b6fc0e5e511cb28c050b80cfa5e1a7e370b1beec0fd35ea4"}

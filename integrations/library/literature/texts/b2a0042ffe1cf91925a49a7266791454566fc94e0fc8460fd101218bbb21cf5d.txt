@@ -1,0 +1,6 @@
+With these, it becomes possible to write useful provenance, and publish or embed it alongside the data it relates to. However, if something about which provenance is expressed is subject to change, then it is challenging to express its provenance precisely (e.g. the data from which a daily weather report is derived changes from day to day). This is addressed in a companion
+specification [PROV-CONSTRAINTS] by proposing formal constraints on
+the way that provenance is related to the things it
+describes (such as the use of attributes, temporal information and
+specialization of entities), and additional conclusions that are valid
+to infer.

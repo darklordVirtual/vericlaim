@@ -1,0 +1,11 @@
+This doesn't work everywhere: the arrival
+event can't source the prior Canadian state of its cargoes. What's deemed correct processing can also make a
+difference. In this system we have both arrival events and
+departure events for ships. Assuming all works correctly we should
+always get these interleaved. Thus a ship could reverse an arrival
+event by setting its port field to
+Port.OUT_TO_SEA. What happens when we get two arrival
+events in succession? To reverse this we need to store the prior
+port on the ship. Our alternative would be to declare a second
+arrival without a departure as an error, we don't need to do this
+storage.

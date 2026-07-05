@@ -10,6 +10,12 @@
     "Ofir Press",
     "Karthik Narasimhan"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:21.343659+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2310.06770"
+  },
+  "fulltext_sha256": "5d6deb00f0bfe2b683e7ea89509218e826cc3e52b2b9e67508d978d39ea2470e",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "swe-bench-2023",

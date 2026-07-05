@@ -1,0 +1,30 @@
+The polytopes are visualized
+in Figure 1. Lemma 4.3. A predictor is derived if and only if for all
+we have
+
+Proof. Since a derived predictor can only depend on and these
+variables are binary, the predictor is completely described by four
+parameters in corresponding to the probabilities
+for
+Each of these parameter choices leads to one of the points in and
+every point in the convex hull can be achieved by some parameter setting. ∎
+
+Figure 1: Finding the optimal equalized odds predictor (left), and equal
+opportunity predictor (right). Combining Lemma 4.2 with Lemma 4.3, we see that the
+following optimization problem gives the optimal derived predictor with
+equalized odds:
+
+(4.3)
+
+(derived)
+
+(equalized odds)
+
+Figure 1 gives a simple geometric picture for the solution of
+the linear program whose guarantees are summarized next. Proposition 4.4. The optimization problem (4.3) is a linear program in four
+variables whose coefficients can be computed from the joint distribution of
+Moreover, its solution is an optimal equalized odds predictor
+derived from and
+
+Proof of Proposition 4.4. The second claim follows by combining Lemma 4.2 with
+Lemma 4.3.

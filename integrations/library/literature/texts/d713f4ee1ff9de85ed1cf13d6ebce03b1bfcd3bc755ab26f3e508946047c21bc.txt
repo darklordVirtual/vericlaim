@@ -1,0 +1,19 @@
+We do not have a strong hypothesis for which direction should yield higher pass rates. While generating docstrings may be more forgiving because natural language syntax is less strict than code syntax, docstrings in our dataset may be lower quality because developers tend to devote less time to writing docstrings. Indeed, our model produces docstrings like “I just found this function online” and “This test is not correctly written and it’s not my solution.”
+
+Table 3: Pass rates for our docstring generating model Codex-D, which is evaluated by hand-grading 10 samples per task due to the lack of a ground-truth automatic evaluation. We find similar but lower pass-rates compared to Codex-S. Model
+pass@1
+pass@10
+
+Codex-S-12B
+
+32.2%
+
+59.5%
+
+Codex-D-12B
+
+20.3%
+
+46.5%
+
+Finally, with a docstring model, we have yet another way to choose a single sample from a set of samples. Instead of picking the sample with the best mean log probability as investigated in the previous two sections, we can choose the sample that maximizes the back-translation objective where is evaluated using Codex-D.

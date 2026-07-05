@@ -1,0 +1,12 @@
+You might be tempted to draw additional training data from the
+instances shown to users. For example, if a user marks an email as spam that
+your filter let through, you might want to learn from that. But this approach introduces sampling bias. You can gather cleaner data if
+instead during serving you label 1% of all traffic as "held out", and send all
+held out examples to the user. Now your filter is blocking at least 74% of the
+negative examples. These held out examples can become your training data. Note that if your filter is blocking 95% of the negative examples or more, this
+approach becomes less viable. Even so, if you wish to measure serving
+performance, you can make an even tinier sample (say 0.1% or 0.001%). Ten
+thousand examples is enough to estimate performance quite accurately. Rule #35: Beware of the inherent skew in ranking problems. When you switch your ranking algorithm radically enough that different results
+show up, you have effectively changed the data that your algorithm is going to
+see in the future. This kind of skew will show up, and you should design your
+model around it. There are multiple different approaches.

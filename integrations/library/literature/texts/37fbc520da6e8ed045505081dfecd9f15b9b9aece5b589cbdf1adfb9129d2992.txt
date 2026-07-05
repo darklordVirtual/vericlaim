@@ -1,0 +1,15 @@
+et al., 2019; Nadeem et al., 2020; Sheng et al., 2019; Zhang et al., 2020b)
+
+vitaminc_fact_verification: Tal Schuster, Google (talschuster@google.com), and Adam Fisch, MIT (adamfisch15@gmail.com). Task cites: (Schuster et al., 2021a)
+
+web_of_lies: Roman Novak, Google (romann@google.com)
+
+what_is_the_tao: Alice Xiang, Duke Kunshan University (alice.xiang@duke.edu), and Ekin Dogus Cubuk, Google Research, Brain Team (cubuk@google.com)
+
+which_wiki_edit: Nick Doiron, Tufts University (nick@mapmeld.com)
+
+winowhy: Xinran Zhao, Stanford University (xzhaoar@connect.ust.hk), and Hongming Zhang and Yangqiu Song, HKUST (hzhangal, yqsong)@cse.ust.hk. Task cites: (Zhang et al., 2020c; Devlin et al., 2018; Liu et al., 2019; Kocijan et al., 2019; Rahman & Ng, 2012; Sakaguchi et al., 2020)
+
+word_problems_on_sets_and_graphs: Benjamin Inden, Max Planck Institute for Mathematics in the Sciences (inden@mis.mpg.de). Task cites: (Bency et al., 2019; Mnih et al., 2013; Russell & Norvig, 2002; Besold et al., 2017; Clark et al., 2020; Wang et al., 2018; Lacker, 2020)
+
+word_sorting: Mo Tiwari, Medina Orduna Baitemirova, and Chris Waites, Stanford University (motiwari, medinab, waites)@stanford.edu.

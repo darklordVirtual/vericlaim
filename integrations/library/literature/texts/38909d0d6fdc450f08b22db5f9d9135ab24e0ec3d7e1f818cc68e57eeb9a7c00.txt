@@ -1,0 +1,1 @@
+This benchmark presents diverse and realistic scenarios, yielding a higher baseline ASR than externally available datasets. Its complexity highlights the need for robust defenses and offers a more rigorous testbed for evaluating agent vulnerabilities in practical, tool-using environments.

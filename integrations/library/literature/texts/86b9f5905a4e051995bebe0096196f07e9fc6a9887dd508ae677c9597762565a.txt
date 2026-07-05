@@ -1,0 +1,12 @@
+Gulwani, 2011; Singh & Gulwani, 2016)
+
+multiemo: Jan Kocoń, Piotr Miłkowski, and Kamil Kanclerz, Wrocław University of Science and Technology (jan.kocon, piotr.milkowski, kamil.kanclerz)@pwr.edu.pl. Task cites: (Kocoń et al., 2021)
+
+multistep_arithmetic: Pablo Antonio Moreno Casares, Universidad Complutense de Madrid (pabloamo@ucm.es). Task cites: (Flanagan & Dixon, 2014)
+
+muslim_violence_bias: Abubakar Abid and James Zou, Stanford University (a12d, jamesz)@stanford.edu; and Maheen Farooqi, McMaster University (faroom23@mcmaster.ca). Task cites: (Abid et al., 2021; Bender et al., 2021)
+
+natural_instructions: Swaroop Mishra and Chitta Baral, Arizona State University (srmishr1, chitta)@asu.edu; Daniel Khashabi, Allen Institute for AI
+(danielk@allenai.org); and Hannaneh Hajishirzi, University of Washington and Allen Institute for AI (hannaneh@cs.washington.edu). Task cites: (Mishra et al., 2021)
+
+navigate: Eric Chu, MIT Media Lab (echu@mit.edu), and Sneha Priscilla Makini, Google (smakini@google.com).

@@ -1,0 +1,12 @@
+[54]
+
+Valiant, L. G. A theory of the learnable. Communications of the ACM 27, 11 (1984), 1134–1142. [55]
+
+Vinterbo, S. Differentially private projected histograms: Construction and use for
+prediction. In ECML-PKDD (2012). [56]
+
+Šrndić, N., and Laskov, P. Practical evasion of a learning-based classifier: A case study. In Security and Privacy (SP) (2014), IEEE, pp. 197–211. [57]
+
+Zhang, J., Zhang, Z., Xiao, X., Yang, Y., and Winslett, M. Functional mechanism: regression analysis under differential privacy. In VLDB (2012). [58]
+
+Zhu, J., and Hastie, T. Kernel logistic regression and the import vector machine. In NIPS (2001), pp. 1081–1088.

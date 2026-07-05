@@ -1,0 +1,9 @@
+The difference between the performance on the holdout data and the "next­day"
+data. Again, this will always exist. You should tune your regularization to
+maximize the next-day performance. However, large drops in performance
+between holdout and next-day data may indicate that some features are
+time-sensitive and possibly degrading model performance. The difference between the performance on the "next-day" data and the live
+data. If you apply a model to an example in the training data and the same
+example at serving, it should give you exactly the same result (see
+Rule #5
+). Thus, a discrepancy here probably indicates an engineering error.

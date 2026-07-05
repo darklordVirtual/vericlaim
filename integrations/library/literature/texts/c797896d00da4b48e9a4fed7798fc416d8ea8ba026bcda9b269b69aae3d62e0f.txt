@@ -1,0 +1,1 @@
+We test how our acute methods scale to Qwen3-30B-A3B-Instruct-2507 on both APIGen and SCITLDR (yang2025qwen3). Table˜2 shows good generalization; our earlier conclusions continue to hold for this model. In fact, these results suggest that acute may have a larger confidence estimation boost for larger mixture-of-experts models.

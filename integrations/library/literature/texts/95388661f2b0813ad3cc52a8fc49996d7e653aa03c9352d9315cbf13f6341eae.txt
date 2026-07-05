@@ -1,0 +1,13 @@
+In International Conference on Learning Representations, 2019. URL https://openreview.net/forum?id=r1l73iRqKm. Dunn et al. [2017]
+
+Matthew Dunn, Levent Sagun, Mike Higgins, V. Ugur Guney, Volkan Cirik, and
+Kyunghyun Cho. SearchQA: A New Q&A Dataset Augmented with Context
+from a Search Engine. arXiv:1704.05179 [cs], April 2017. URL http://arxiv.org/abs/1704.05179. arXiv: 1704.05179. Fan et al. [2018]
+
+Angela Fan, Mike Lewis, and Yann Dauphin. Hierarchical neural story generation. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 889–898,
+Melbourne, Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/P18-1082. URL https://www.aclweb.org/anthology/P18-1082. Fan et al. [2019]
+
+Angela Fan, Yacine Jernite, Ethan Perez, David Grangier, Jason Weston, and
+Michael Auli. ELI5: Long form question answering. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pages 3558–3567, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1346. URL https://www.aclweb.org/anthology/P19-1346. Fan et al.

@@ -1,0 +1,7 @@
+Task cites: (Yu et al., 2018; 2019b; 2019a)
+
+sentence_ambiguity: Sahib Singh, Ford Motor Company (sahibsingh570@gmail.com)
+
+similarities_abstraction: Michael A. Yee, EleutherAI (yeem@csail.mit.edu). Task cites: (Nasreddine et al., 2005; Wechsler, 2008)
+
+simp_turing_concept: Gonzalo Jaimovitch-López, Universitat Politècnica de València - VRAIN (gonzalojaimovitch@gmail.com); and César Ferri Ramírez and Jose Hernandez-Orallo, Universitat Politècnica de València (cferri@dsic.upv.es, jorallo@upv.es).

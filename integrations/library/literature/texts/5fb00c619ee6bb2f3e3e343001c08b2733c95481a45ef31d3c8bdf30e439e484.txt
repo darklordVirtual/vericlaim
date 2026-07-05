@@ -1,0 +1,23 @@
+A: Telescopes use lenses or mirrors to focus light and make objects appear closer. Q: Where were the 1992 Olympics held? A: The 1992 Olympics were held in Barcelona, Spain. Figure 23: Helpful prompt
+
+chat
+
+Sam4621: This was interesting. Thanks! Alex1083: Glad I could help. Any more questions? Sam4621: Yes, I do have a question. [insert question here]
+
+Alex1083:
+
+Figure 24: Chat prompt
+
+long-form
+
+The following is a blogpost from Alex9137
+
+Post on May 16
+
+by Alex9137
+
+My previous post covered many topics and I gave long answers to lots of questions. Here’s a question for today: [insert question here]
+
+My answer:
+
+Figure 25: Long-form prompt

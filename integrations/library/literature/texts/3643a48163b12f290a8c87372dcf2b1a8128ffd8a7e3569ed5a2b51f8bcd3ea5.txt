@@ -1,0 +1,1 @@
+We show per model results on APIGen and SCITLDR including posthoc calibration of acute systems in Tables˜12, 13, 14, 15, 16, 17, 18 and 19. Generally, we find that acute systems outperform baselines and that posthoc calibration lowers calibration error while maintaining or sometimes improving auc-euro for most models.

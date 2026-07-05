@@ -1,0 +1,12 @@
+== cargo.RegistrationCode)
+return request;
+}
+return null;
+}
+
+The query log is generic, so we can issue a query to get a few
+items by using the Domain Event that was
+processed and the type of request. This gives us a small set that
+needs further checking in a gateway-specific manner. The log of requests will need to be persisted in the same way
+as the log of Domain Events is
+persisted as it's needed to rebuild the application state.

@@ -1,0 +1,8 @@
+behavior
+include those that are composite in nature, meaning that they require a model to apply several distinct skills
+or perform multiple discrete steps
+in order to come up with the correct answer. A clear example of this sort of task is modified_arithmetic, which involves applying a mathematical operator, defined in-context to certain inputs. We argue that repeat_copy_logic, figure_of_speech_detection, and codenames are also composite tasks. A task such as codenames, which deals with linguistic analogies and similarities, does not
+on the surface seem to
+belong in this category. However, inspection of the question formatting in this task shows that solving it requires following sequential instructions, in addition to basic language understanding. See Section 3.5
+for further analysis on the effect that
+question formatting can have on performance. These observations on the types of tasks associated with high linearity or breakthroughness are anecdotal. Although beyond the scope of the present work, it will be interesting to study whether they hold more generally.

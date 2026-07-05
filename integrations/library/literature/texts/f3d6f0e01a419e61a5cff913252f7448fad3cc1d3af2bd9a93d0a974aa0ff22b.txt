@@ -1,0 +1,712 @@
+Conformal Risk Control
+
+\addbibresource
+
+bibliography.bib
+\AtAppendix
+\AtAppendix
+
+## Conformal Risk Control
+
+Anastasios N. Angelopoulos1, Stephen Bates1, Adam Fisch2, Lihua Lei3, and Tal Schuster4
+
+(
+1University of California, Berkeley
+
+2Massachusetts Institute of Technology
+
+3Stanford University
+
+4Google Research
+
+)
+
+Abstract
+
+We extend conformal prediction to control the expected value of any monotone loss function.
+The algorithm generalizes split conformal prediction together with its coverage guarantee.
+Like conformal prediction, the conformal risk control procedure is tight up to an factor.
+We also introduce extensions of the idea to distribution shift, quantile risk control, multiple and adversarial risk control, and expectations of U-statistics.
+Worked examples from computer vision and natural language processing demonstrate the usage of our algorithm to bound the false negative rate, graph distance, and token-level F1-score.
+
+## 1 Introduction
+
+We seek to endow some pre-trained machine learning model with guarantees on its performance as to ensure its safe deployment.
+Suppose we have a base model that is a function mapping inputs to values in some other space, such as a probability distribution over classes.
+Our job is to design a procedure that takes the output of and post-processes it into quantities with desirable statistical guarantees.
+
+Split conformal prediction \citepvovk2005algorithmic,papadopoulos2002inductive, which we will henceforth refer to simply as “conformal prediction”, has been useful in areas such as computer vision \citepangelopoulos2020sets and natural language processing \citepfisch2020efficient to provide such a guarantee.
+By measuring the model’s performance on a calibration dataset of feature-response pairs, conformal prediction post-processes the model to construct prediction sets that bound the miscoverage,
+
+(1)
+
+where is a new test point, is a user-specified error rate (e.g., 10%), and is a function of the model and calibration data that outputs a prediction set.
+Note that is formed using the first data points, and the probability in (1) is over the randomness in all data points (i.e., the draw of both the calibration and test points).
+
+In this work, we extend conformal prediction to prediction tasks where the natural notion of error is not simply miscoverage.
+In particular,
+our main result is that a generalization of conformal prediction provides guarantees of the form
+
+(2)
+
+for any bounded loss function that shrinks as grows.
+We call this a conformal risk control guarantee.
+Note that (2) recovers the conformal miscoverage guarantee in (1) when using the miscoverage loss, .
+However, our algorithm also extends conformal prediction to situations where other loss functions, such as the false negative rate (FNR) or F1-score, are more appropriate.
+
+As an example, consider multilabel classification, where the are sets comprising a subset of classes.
+Given a trained multilabel classifier , we want to output sets that include a large fraction of the true classes in .
+To that end, we post-process the model’s raw outputs into the set of classes with sufficiently high scores, .
+Note that as the threshold grows, we include more classes in —i.e., it becomes more conservative.
+In this case, conformal risk control finds a threshold value that controls the fraction of missed classes, i.e., the expected value of .
+Setting would ensure that our algorithm produces sets containing of the true classes in on average.
+
+## 1.1 Algorithm and preview of main results
+
+Formally, we will consider post-processing the predictions of the model to create a function .
+The function has a parameter that
+encodes its level of conservativeness: larger values yield more conservative outputs (e.g., larger prediction sets).
+To measure the quality of the output of , we consider a loss function for some .
+We require the loss function to be non-increasing as a function of .
+Our goal is to choose based on the observed data so that risk control as in (2) holds.
+
+We now rewrite this same task in a more notationally convenient and abstract form.
+Consider an exchangeable collection of non-increasing, random functions , . Throughout the paper, we assume . We seek to use the first functions to choose a value of the parameter, , in such a way that the risk on the unseen function is controlled:
+
+(3)
+
+We are primarily motivated by the case where , in which case the guarantee in (3) coincides with risk control as in (2).
+
+Now we describe the algorithm.
+Let .
+Given any desired risk level upper bound , define
+
+(4)
+
+When the set is empty, we define .
+Our proposed conformal risk control algorithm is to deploy on the forthcoming test point.
+Our main result is that this algorithm satisfies (3).
+When the are i.i.d. from a continuous distribution, the algorithm satisfies a lower bound saying it is not too conservative,
+
+(5)
+
+We show the reduction from conformal risk control to conformal prediction in Section 2.3.
+Furthermore, if the risk is non-monotone, then this algorithm does not control the risk; we discuss this in Section 2.4.
+Finally, we provide both practical examples using real-world data and several theoretical extensions of our procedure in Sections 3 and 4, respectively.
+
+## 1.2 Related work
+
+Conformal prediction was developed by Vladimir Vovk and collaborators beginning in the late 1990s \citepvovk1999machine, vovk2005algorithmic, and has recently become a popular uncertainty estimation tool in the machine learning community, due to its favorable model-agnostic, distribution-free, finite-sample guarantees.
+See [angelopoulos-gentle] for a modern introduction to the area or [shafer2008tutorial] for a more classical alternative.
+As previously discussed, in this paper we primarily build on split conformal prediction \citeppapadopoulos2002inductive; statistical properties of this algorithm including the coverage upper bound were studied in [lei2018distribution].
+Recently there have been many extensions of the conformal algorithm, mainly targeting deviations from exchangeability \citeptibshirani2019conformal,gibbs2021adaptive,barber2022conformal,fannjiang2022conformal and improved conditional coverage \citepbarber2019limits,romano2019conformalized,guan2020conformal,romano2020classification,angelopoulos2020sets.
+Most relevant to us is recent work on risk control in high probability \citepvovk2012conditional, bates2021distribution,angelopoulos2021learn and its applications \citep[][inter alia]Park2020PAC,fisch2022conformal, schuster2021consistent, schuster2022confident, sankaranarayanan2022semantic, angelopoulos2022image, angelopoulos2022recommendation.
+Though these works closely relate to ours in terms of motivation, the algorithm presented herein differs greatly: it has a guarantee in expectation, and neither the algorithm nor its analysis share much technical similarity with these previous works.
+
+To elaborate on the difference between our work and previous literature, first consider conformal prediction.
+The purpose of conformal prediction is to provide coverage guarantees of the form in (1).
+The guarantee available through conformal risk control, (3), strictly subsumes that of conformal prediction; it is generally impossible to recast risk control as coverage control.
+As a second question, one might ask whether (3) can be achieved through standard statistical machinery, such as uniform concentration inequalities.
+Though it is possible to integrate a uniform concentration inequality to get a bound in expectation, this strategy tends to be excessively loose both in theory and in practice (see, e.g., the bound of [anthony1993result]).
+The technique herein avoids these complications; it is simpler than concentration-based approaches, practical to implement, and tight up to a factor of , which is comparatively faster than concentration would allow.
+Finally, herein we target distribution-free finite-sample control of (3), but as a side-note it is also worth pointing the reader to the rich literature on functional central limit theorems \citepdavidson2000functional, which are another way of estimating risk functions.
+
+## 2 Theory
+
+In this section, we establish the core theoretical properties of conformal risk control. All proofs, unless otherwise specified, are deferred to Appendix B.
+
+## 2.1 Risk control
+
+We first show that the proposed algorithm leads to risk control when the loss is monotone.
+
+Theorem 2.1.
+
+Assume that is non-increasing in , right-continuous, and
+
+(6)
+
+Then
+
+(7)
+
+Proof.
+
+Let and
+
+(8)
+
+Since , is well-defined almost surely.
+Since , we know .
+Thus,
+
+(9)
+
+This implies when the LHS holds for some . When the LHS is above for all , by definition, . Thus, almost surely. Since is non-increasing in ,
+
+(10)
+
+Let be the multiset of loss functions . Then is a function of , or, equivalently, is a constant conditional on .
+Additionally, ) by exchangeability.
+These facts combined with the right-continuity of imply
+
+(11)
+
+The proof is completed by the law of total expectation and (10).
+∎
+
+## 2.2 A risk lower bound
+
+Next we show that the conformal risk control procedure is tight up to a factor .
+Like the standard conformal coverage upper bound, the proof will rely on a form of continuity that prohibits large jumps in the risk function.
+Towards that end, we will define the jump function below, which quantifies the size of the discontinuity in a right-continuous input function at point :
+
+(12)
+
+The jump function measures the size of a discontinuity at .
+When there is a discontinuity and is non-increasing, .
+When there is no discontinuity, the jump function is zero.
+The next theorem will assume that the probability that has a discontinuity at any pre-specified is .
+Under this assumption the conformal risk control procedure is not too conservative.
+
+Theorem 2.2.
+
+In the setting of Theorem 2.1, further assume that the are i.i.d., ,
+and for any , .
+Then
+
+## 2.3 Conformal prediction reduces to risk control
+
+Conformal prediction can be thought of as controlling the expectation of an indicator loss function.
+Recall that the risk upper bound (2) specializes to the conformal coverage guarantee in (1) when the loss function is the indicator of a miscoverage event.
+The conformal risk control procedure specializes to conformal prediction under this loss function as well.
+However, the risk lower bound in Theorem 2.2 has a slightly worse constant than the usual conformal guarantee.
+We now describe these correspondences.
+
+First, we show the equivalence of the algorithms.
+In conformal prediction, we have conformal scores for some score function .
+Based on this score function, we create prediction sets for the test point as
+
+where is the conformal quantile, a parameter that is set based on the calibration data.
+In particular, conformal prediction chooses to be the sample quantile of .
+To formulate this in the language of risk control, we consider a miscoverage loss .
+Direct calculation of from (4) then shows the equivalence of the proposed procedure to conformal prediction:
+
+(13)
+
+Next, we discuss how the risk lower bound relates to its conformal prediction equivalent.
+In the setting of conformal prediction, [lei2018distribution] proves that when the conformal score function follows a continuous distribution.
+Theorem 2.2 recovers this guarantee with a slightly worse constant: .
+First, note that our assumption in Theorem 2.2 about the distribution of discontinuities specializes to the continuity of the score function when the miscoverage loss is used:
+
+(14)
+
+However, the bound for the conformal case is better than the bound for the general case in Theorem 2.2 by a factor of two.
+We do not know whether this factor of is improvable.
+However, this factor is of little practical importance, as the difference between and is small even for moderate values of .
+
+## 2.4 Controlling general loss functions
+
+We next show that the conformal risk control algorithm does not control the risk if the are not assumed to be monotone.
+In particular, (3) does not hold.
+We show this by example.
+
+Proposition 2.1.
+
+For any , there exists a non-monotone loss function such that
+
+(15)
+
+Notice that for any desired level , the expectation in (3) can be arbitrarily close to .
+Since the function values here are in , this means that even for bounded random variables, risk control can be violated by an arbitrary amount—unless further assumptions are placed on the .
+However, the algorithms developed may still be appropriate for near-monotone loss functions.
+Simply ‘monotonizing’ all loss functions and running conformal risk control will guarantee (3), but this strategy will only be powerful if the loss is near-monotone.
+For concreteness, we describe this procedure below as a corollary of Theorem 2.1.
+
+Corollary 1.
+
+Allow to be any (possibly non-monotone) function of satisfying 6.
+Take
+
+(16)
+
+Then,
+
+(17)
+
+If the loss function is already monotone, then reduces to .
+We propose a further algorithm for picking in Appendix A that provides an asymptotic risk-control guarantee for non-monotone loss functions.
+However, this algorithm again is only powerful when the risk is near-monotone and reduces to the standard conformal risk control algorithm when the loss is monotone.
+
+## 3 Examples
+
+To demonstrate the flexibility and empirical effectiveness of the proposed algorithm, we apply it to four tasks across computer vision and natural language processing.
+All four loss functions are non-binary, monotone losses bounded by .
+They are commonly used within their respective application domains.
+Our results validate that the procedure bounds the risk as desired and gives useful outputs to the end-user.
+We note that the choices of used herein are only for the purposes of illustration; any nested family of sets will work. For each example use case, for a representative (details provided for each task) we provide both qualitative results, as well as quantitative histograms of the risk and set sizes over 1000 random data splits that demonstrate valid risk control (i.e., with mean ).
+Code to reproduce our examples is available at the following GitHub link: https://github.com/aangelopoulos/conformal-risk.
+
+## 3.1 FNR control in tumor segmentation
+
+Figure 1: FNR control in tumor segmentation. The top figure shows examples of our procedure with correct pixels in white, false positives in blue, and false negatives in red. The bottom plots report FNR and set size over 1000 independent random data splits. The dashed gray line marks .
+
+In the tumor segmentation setting, our input is a image and our label is a set of pixels , where denotes the power set.
+We build on an image segmentation model outputting a probability for each pixel and measure loss as the fraction of false negatives,
+
+(18)
+
+The expected value of is the FNR.
+Since is monotone, so is the FNR.
+Thus, we use the technique in Section 2.1 to pick by (4) that controls the FNR on a new point, resulting in the following guarantee:
+
+(19)
+
+For evaluating the proposed procedure we pool data from several online open-source gut polyp segmentation datasets: Kvasir, Hyper-Kvasir, CVC-ColonDB, CVC-ClinicDB, and ETIS-Larib.
+We choose a PraNet \citepfan2020pranet as our base model and used , and evaluated risk control with the remaining validation data points.
+We report results with in Figure 1.
+The mean and standard deviation of the risk over 1000 trials are 0.0987 and 0.0114, respectively.
+
+## 3.2 FNR control in multilabel classification
+
+Figure 2: FNR control on MS COCO. The top figure shows examples of our procedure with correct classes in black, false positives in blue, and false negatives in red. The bottom plots report FNR and set size over 1000 independent random data splits. The dashed gray line marks .
+
+In the multilabel classification setting, our input is an image and our label is a set of classes for some number of classes .
+Using a multiclass classification model , we form prediction sets and calculate the number of false positives exactly as in (18).
+By Theorem 2.1, picking as in (4) again yields the FNR-control guarantee in (19).
+
+We use the Microsoft Common Objects in Context (MS COCO) computer vision dataset \citeplin2014microsoft, a large-scale 80-class multiclass classification baseline dataset commonly used in computer vision, to evaluate the
+proposed procedure.
+We choose a TResNet \citepridnik2020tresnet as our base model and used , and evaluated risk control with 1000 validation data points.
+We report results with in Figure 2.
+The mean and standard deviation of the risk over 1000 trials are 0.0996 and 0.0052, respectively.
+
+## 3.3 Control of graph distance in hierarchical image classification
+
+Figure 3: Control of graph distance on hierarchical ImageNet. The top figure shows examples of our procedure with correct classes in black, false positives in blue, and false negatives in red. The bottom plots report our minimum hierarchical distance loss and set size over 1000 independent random data splits. The dashed gray line marks .
+
+In the -class hierarchical classification setting, our input is an image and our label is a leaf node on a tree with nodes and edges .
+Using a single-class classification model , we calibrate a loss in graph distance between the interior node we select and the closest ancestor of the true class.
+For any , let be the class with the highest estimated probability.
+Further, let be the function that returns the length of the shortest path between two nodes, let be the function that returns the ancestors of its argument, and let be the function that returns the set of leaf nodes that are descendants of its argument.
+We also let be the sum of scores of leaves descended from .
+Further, define a hierarchical distance
+
+For a set of nodes , we then define the set-valued loss
+
+(20)
+
+This loss returns zero if is a child of any element in , and otherwise returns the minimum distance between any element of and any ancestor of , scaled by the depth .
+Thus, it is a monotone loss function and can be controlled by choosing as in (4) to achieve the guarantee
+
+(21)
+
+For this experiment, we use the ImageNet dataset \citepdeng2009imagenet, which comes with an existing label hierarchy, WordNet, of maximum depth .
+We choose a ResNet152 \citephe2016deep as our base model and used , and evaluated risk control with the remaining .
+We report results with in Figure 3.
+The mean and standard deviation of the risk over 1000 trials are 0.0499 and 0.0011, respectively.
+
+## 3.4 F1-score control in open-domain question answering
+
+Figure 4: F1-score control on Natural Questions. The top figure shows examples of our procedure with fully correct answers in green, partially correct answers in blue, and false positives in gray. Note that due to the nature of the evaluation, answers that are technically correct may still be down-graded if they do not match the reference. We treat this as part of the randomness in the task. The bottom plots report the F1 risk and average set size over 1000 independent random data splits. The dashed gray line marks .
+
+In the open-domain question answering setting, our input is a question and our label is a set of (possibly non-unique) correct answers. For example, the input
+
+could have the answer set
+
+Formally, here we treat all questions and answers as being composed of sequences (up to size ) of tokens in a vocabulary —i.e., assuming valid answers, we have and , where . Using an open-domain question answering model that individually scores candidate output answers , we calibrate the best token-based F1-score of the prediction set, taken over all pairs of predictions and answers:
+
+(22)
+
+We define the F1-score following popular QA evaluation metrics \citepsquad, where we treat predictions and ground truth answers as bags of tokens and compute the geometric average of their precision and recall (while ignoring punctuation and articles ). Since , as defined in this way, is monotone and upper bounded by , it can be controlled by choosing as in Section 2.1 to achieve the following guarantee:
+
+(23)
+
+We use the Natural Questions (NQ) dataset \citepnq, a popular open-domain question answering baseline, to evaluate our method. We use the splits distributed as part of the Dense Passage Retrieval (DPR) package \citepdpr. Our base model is the DPR Retriever-Reader model \citepdpr, which retrieves passages from Wikipedia that might contain the answer to the given query, and then uses a reader model to extract text sub-spans from the retrieved passages that serve as candidate answers. Instead of enumerating all possible answers to a given question (which is intractable), we retrieve the top several hundred candidate answers, extracted from the top 100 passages (which is sufficient to control all risks of interest). We use calibration points, and evaluate risk control with the remaining . We report results with (chosen empirically as the lowest F1 score which typically results in nearly correct answers) in Figure 4. The mean and standard deviation of the risk over 1000 trials are 0.2996 and 0.0150, respectively.
+
+## 4 Extensions
+
+In this section, we discuss several theoretical extensions of our procedure.
+
+## 4.1 Risk control under distributional shift
+
+Suppose the researcher wants to control the risk under a distribution shift.
+Then the goal in (3) can be redefined as
+
+(24)
+
+where denotes the test distribution that is different from the training distribution that are sampled from. Assuming that is absolutely continuous with respect to , the weighted objective (24) can be rewritten as
+
+(25)
+
+When is known and bounded, we can apply our procedure on the loss function , which is non-decreasing, bounded, and right-continuous in whenever is.
+Thus, Theorem 2.1 guarantees that the resulting satisfies (25).
+
+In the setting of transductive learning, is available to the user. If the conditional distribution of given remains the same in the training and test domains, the distributional shift reduces to a covariate shift and
+
+In this case, we can achieve the risk control even when is unbounded. In particular, assuming , for any potential value of the covariate, we define
+
+(26)
+
+When does not exist, we simply set .
+It is not hard to see that in the absence of covariate shifts.
+We can prove the following result.
+
+Proposition 4.1.
+
+In the setting of Theorem 2.1,
+
+(27)
+
+It is easy to show that the weighted conformal procedure \citeptibshirani2019conformal is a special case with where is the prediction set that thresholds the conformity score at . Thus, Proposition 4.1 generalizes [tibshirani2019conformal] to any monotone risk.
+When the covariate shift is unknown but unlabeled data in the test domain are available, it can be estimated, up to a multiplicative factor that does not affect , by any probabilistic classification algorithm; see [lei2020conformal] and [candes2023conformalized] in the context of missing and censored data, respectively. We leave the full investigation of weighted conformal risk control with an estimated covariate shift for future research.
+
+Total variation bound
+
+Finally, for arbitrary distribution shifts, we give a total variation bound describing the way standard (unweighted) conformal risk control degrades.
+The bound is analogous to that of [barber2022conformal]for independent but non-identically distributed data (see their Section 4.1), though the proof is different.
+Here we will use the notation , and to refer to that chosen in (4).
+
+Proposition 4.2.
+
+Let be a sequence of random variables.
+Then, under the conditions in Theorem 2.1,
+
+If further the assumptions of Theorem 2.2 hold,
+
+## 4.2 Quantile risk control
+
+[snell2022quantile] generalizes [bates2021distribution] to control the quantile of a monotone loss function conditional on with probability over the calibration dataset for any user-specified tolerance parameter . In some applications, it may be sufficient to control the unconditional quantile of the loss function, which alleviates the burden of the user to choose the tolerance parameter .
+
+For any random variable , let
+
+Analogous to (3), we want to find based on such that
+
+(28)
+
+By definition,
+
+As a consequence, quantile risk control is equivalent to expected risk control (3) with loss function . Let
+
+Proposition 4.3.
+
+In the setting of Theorem 2.1, (28) is achieved.
+
+[snell2022quantile] considers the high-probability control of a wider class of quantile-based risks which include the conditional value-at-risk (CVaR). It is unclear whether those more general risks can be controlled unconditionally. We leave this open problem for future research.
+
+## 4.3 Controlling multiple risks
+
+Let be a family of loss functions indexed by for some domain that may have infinitely many elements.
+A researcher may want to control at level .
+Equivalently, we need to find an based on such that
+
+(29)
+
+Though the above worst-case risk is not an expectation, it can still be controlled.
+Towards this end, we define
+
+(30)
+
+Then the risk is controlled.
+
+Proposition 4.4.
+
+In the setting of Theorem 2.1, (29) is satisfied.
+
+## 4.4 Adversarial risks
+
+We next show how to control risks defined by adversarial perturbations.
+We adopt the same notation as Section 4.3.
+[bates2021distribution] (Section 6.3) discusses the adversarial risk where parametrizes a class of perturbations of , e.g., and .
+A researcher may want to find an based on such that
+
+(31)
+
+This can be recast as a conformal risk control problem by taking .
+Then, the following choice of leads to risk control:
+
+(32)
+
+Proposition 4.5.
+
+In the setting of Theorem 2.1, (31) is satisfied.
+
+## 4.5 U-risk control
+
+For ranking and metric learning, [bates2021distribution] considered loss functions that depend on two test points. In general, for any and subset with , let be a loss function. Our goal is to find based on such that
+
+(33)
+
+We call the LHS a U-risk since, for any fixed , it is the expectation of an order- U-statistic. As a natural extension, we can define
+
+(34)
+
+Again, we define when the right-hand side is an empty set. Then we can prove the following result.
+
+Proposition 4.6.
+
+Assume that is non-increasing in , right-continuous, and
+
+Then (33) is achieved.
+
+## 5 Conclusion
+
+This generalization of conformal prediction broadens its scope to new applications, as shown in Section 3.
+The mathematical tools developed in Section 2, Section 4, and the Appendix may be of independent technical interest, since they provide a new and more general language for studying conformal prediction along with new results about its validity.
+
+## Acknowledgements
+
+The authors thank Christopher Yeh for pointing out that the factor of 2 in Theorem 2.2 may not be tight, correcting an error in an earlier draft.
+The incorrect proposition stating that it was tight has been removed; the tightness of this factor remains an open question.
+The authors would like to thank Nicolas Christianson, Amit Kohli, Sherrie Wang, and Tijana Zrnić for comments on early drafts.
+A. A. would like to thank Ziheng (Tony) Wang for helpful conversations.
+A. A. is funded by the NSF GRFP and a Berkeley Fellowship.
+S. B. is supported by the NSF FODSI fellowship and the Simons institute.
+A. F. is partially funded by the NSF GRFP and MIT MLPDS.
+
+\printbibliography
+
+## Appendix A Monotonizing non-monotone risks
+
+We next show that the proposed algorithm leads to asymptotic risk control for non-monotone risk functions when applied to a monotonized version of the empirical risk.
+We set the monotonized empirical risk to be
+
+(35)
+
+then define
+
+(36)
+
+Theorem A.1.
+
+Let the be right-continuous, i.i.d., bounded (both above and below) functions satisfying (6).
+Then,
+
+(37)
+
+Theorem A.1 implies that an analogous procedure to 4 also controls the risk asymptotically.
+In particular, taking
+
+(38)
+
+also results in asymptotic risk control (to see this, plug into Theorem A.1 and see that the risk level is bounded above by ).
+Note that in the case of a monotone loss function, .
+However, the counterexample in Proposition 2.1 does not apply to , and it is currently unknown whether this procedure does or does not provide finite-sample risk control.
+
+## Appendix B Proofs
+
+The proof of Theorem 2.2 uses the following lemma on the approximate continuity of the empirical risk.
+
+Lemma 1 (Jump Lemma).
+
+In the setting of Theorem 2.2, any jumps in the empirical risk are bounded, i.e.,
+
+(39)
+
+Proof of Jump Lemma, Lemma 1.
+
+By boundedness, the maximum contribution of any single point to the jump is , so
+
+(40)
+
+Call the sets of discontinuities in . Since is bounded monotone, has countably many points. The union bound then implies that
+
+(41)
+
+Rewriting each term of the right-hand side using tower property and law of total probability gives
+
+(42)
+
+(43)
+
+Where the second inequality is because the union of the events is the entire sample space, but they are not disjoint, and the third equality is due to the independence between and . Rewriting in terms of the jump function and applying the assumption ,
+
+(44)
+
+Chaining the above inequalities yields , so
+
+.
+∎
+
+Proof of Theorem 2.2.
+
+If , then . Throughout the rest of the proof, we assume that .
+Define the quantity
+
+(45)
+
+Since , exists almost surely. Deterministically, , which yields .
+Again since is non-increasing in ,
+
+(46)
+
+By exchangeability and the fact that is a symmetric function of ,
+
+(47)
+
+For the remainder of the proof we focus on lower-bounding .
+We begin with the following identity:
+
+(48)
+
+Rearranging the identity,
+
+(49)
+
+Using the Jump Lemma to bound below by gives
+
+(50)
+
+Finally, chaining together the above inequalities,
+
+(51)
+
+∎
+
+Proof of Proposition 2.1.
+
+Without loss of generality, we assume .
+Assume takes values in and . Let , be any positive integer, and be i.i.d. right-continuous piecewise constant (random) functions with
+
+(52)
+
+By definition, is independent of . Thus, for any ,
+
+(53)
+
+Then,
+
+(54)
+
+Note that
+
+(55)
+
+Since ,
+
+As a result,
+
+(56)
+
+Now let be sufficiently large such that
+
+(57)
+
+Then
+
+(58)
+
+For any , we can take close enough to to render the claim false.
+∎
+
+Proof of Theorem A.1.
+
+Define the monotonized population risk as
+
+(59)
+
+Note that the independence of and implies that for all ,
+
+(60)
+
+Since is bounded, monotone, and one-dimensional, a generalization of the Glivenko-Cantelli Theorem given in Theorem 1 of [dehardt1971generalizations] gives that uniformly over ,
+
+(61)
+
+As a result,
+
+(62)
+
+which implies that
+
+(63)
+
+By definition, almost surely and thus this directly implies
+
+(64)
+
+Finally, since for all , , by Fatou’s lemma,
+
+(65)
+
+∎
+
+Proposition 4.1.
+
+Let
+
+(66)
+
+Since , exists almost surely. Using the same argument as in the proof of Theorem 2.1, we can show that . Since is non-increasing in ,
+
+Let be the multiset of loss functions . Then is a function of , or, equivalently, is a constant conditional on . Lemma 3 of [tibshirani2019conformal] implies that
+
+where denotes the Dirac measure at . Together with the right-continuity of , the above result implies
+
+(67)
+
+The proof is then completed by the law of total expectation.
+∎
+
+Proposition 4.2.
+
+Define the vector , where for all .
+Let
+
+By sublinearity,
+
+(68)
+
+It is a standard fact that (68) implies
+
+(69)
+
+where .
+Let be a bounded loss function.
+Furthermore, let .
+Since ,
+
+(70)
+
+Furthermore, since are exchangeable, we can apply Theorems 2.1 and 2.2 to , recovering
+
+(71)
+
+A final step of triangle inequality implies the result:
+
+(72)
+
+∎
+
+Proposition 4.3.
+
+It is left to prove that satisfies the conditions of Theorem 2.1. It is clear that and is non-increasing in when is. Since is non-increasing and right-continuous, for any sequence ,
+
+Thus, is right-continuous. Finally, implies .
+∎
+
+Proposition 4.4.
+
+Examining (30), for each , we have
+
+(73)
+
+Thus, dividing both sides by and taking the supremum, we get that , and the worst-case risk is controlled.
+∎
+
+Proposition 4.5.
+
+Because is bounded and monotone in for all choices of , it is also true that is bounded and monotone.
+Furthermore, the pointwise supremum of right-continuous functions is also right-continuous.
+Therefore, the satisfy the assumptions of Theorem 2.1.
+∎
+
+Proposition 4.6.
+
+Let
+
+Since , exists almost surely. Since , we have
+
+Since is non-increasing in , we conclude that if the right-hand side of (34) is not empty; otherwise, by definition, . Thus, almost surely. Let be the multiset of loss functions . Using the same argument in the end of the proof of Theorem 2.1 and the right-continuity of , we can show that
+
+The proof is then completed by the law of iterated expectation.
+∎

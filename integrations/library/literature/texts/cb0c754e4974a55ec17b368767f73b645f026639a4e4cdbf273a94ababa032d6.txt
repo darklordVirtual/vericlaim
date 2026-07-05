@@ -1,0 +1,13 @@
+Thus, there is no guarantee that an optimal solution can be
+approximated or found, and the local minima found on each iteration can be
+different. This variation makes it hard to judge whether the impact of a
+change to your system is meaningful or random. By creating a model without
+deep features, you can get an excellent baseline performance. After this
+baseline is achieved, you can try more esoteric approaches. Rule #18: Explore with features of content that generalize across contexts. Often a machine learning system is a small part of a much bigger picture. For
+example, if you imagine a post that might be used in What’s Hot, many people
+will plus-one, reshare, or comment on a post before it is ever shown in What's
+Hot. If you provide those statistics to the learner, it can promote new posts
+that it has no data for in the context it is optimizing. YouTube Watch Next could use number of watches, or co-
+watches (counts of how many times one video was watched after another was
+watched) from YouTube search. You can also use explicit
+user ratings.

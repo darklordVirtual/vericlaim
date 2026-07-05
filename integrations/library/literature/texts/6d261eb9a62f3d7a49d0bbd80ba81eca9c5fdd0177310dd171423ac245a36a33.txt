@@ -1,0 +1,11 @@
+improving pattern matching; as the performance-vs-scale plot in Figure 17a shows, the largest model achieves similar performance on this task regardless of the number of shots it is presented with. In order to achieve this result, however, we needed to postprocess the model’s raw output by finding the first element name in the output; without this postprocessing, the model appeared to perform much worse in the zero-shot setting because it would often answer with a sentence like ‘‘The element with atomic number 1 is hydrogen’’ rather than simply ‘‘hydrogen.’’ Care must be taken with purely automatic evaluation of generative tasks. \begin{overpic}[width=411.93767pt]{figures/periodic_elements.pdf}
+\put(0.0,0.0){{\small(a)}}
+\end{overpic}
+
+\begin{overpic}[width=411.93767pt]{figures/elements/128b_0shot_elements_manual%
+.png}
+\put(0.0,0.0){{\small(b)}}
+\end{overpic}
+
+Figure 17:
+Performance on the periodic_elements task (a) Performance versus scale. (b) Elements that the largest model correctly identified. Elements colored green were identified correctly by the model, while elements colored white were not.

@@ -1,0 +1,3 @@
+those positions and with exactly those inputs that help predict future tokens, finetuning on enables the language model to decide when and how to use which tool, based purely on its own feedback. Inference
+
+When generating text with after finetuning with our approach, we perform regular decoding until produces the “” token, indicating that it next expects the response for an API call. At this point, we interrupt the decoding process, call the appropriate API to get a response, and continue the decoding process after inserting both the response and the </API> token.

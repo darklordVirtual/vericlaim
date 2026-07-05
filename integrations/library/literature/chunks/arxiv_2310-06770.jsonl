@@ -1,0 +1,143 @@
+{"fsid": "arxiv_2310-06770", "n": 142, "overlap": 200, "source_sha256": "5d6deb00f0bfe2b683e7ea89509218e826cc3e52b2b9e67508d978d39ea2470e", "target": 1200}
+{"section": "", "seq": 0, "sha256": "05e39dce8e2cb2f807b223da61270ec819d0f6474473c9b9bb69c81ed40778d0"}
+{"section": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?", "seq": 1, "sha256": "c5ab216e0752643ef293af9a4ffb1025ec8cb1c5fcfe6b26af10852e378d6d6e"}
+{"section": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?", "seq": 2, "sha256": "6d3e095462996944dc22a057623fe6422fe34d8d110a9c4b5c2ce913a7baad0d"}
+{"section": "1 Introduction", "seq": 3, "sha256": "5a8282e17988732384f22387d504924cb1eb7fcc29b3b64c5d6e30d95f21a101"}
+{"section": "1 Introduction", "seq": 4, "sha256": "8506d9a317380dcb312742a56e5d2c30ffa7c707094ccc60b22ec877c60cf848"}
+{"section": "1 Introduction", "seq": 5, "sha256": "79a156ce5c3a922329669af2c96e4b355996efd5f42a92b9aa2cb68e31753a68"}
+{"section": "1 Introduction", "seq": 6, "sha256": "80e887125483a8366c4a900c7afad40b957bce87007838db6bd22d9c30cb92ec"}
+{"section": "2 SWE-bench", "seq": 7, "sha256": "67130d2e2f90bd0c41cdfc6c7e847ae2c92854700a27e85d3c65549740353176"}
+{"section": "2.1 Benchmark Construction", "seq": 8, "sha256": "e29d7aab3f9ac151beb4ea790e28df1d786769138d3931c4a20bc5927150af3b"}
+{"section": "2.1 Benchmark Construction", "seq": 9, "sha256": "8292c6366034d55f831c158ea727f8b1dbf1f1d3bed1e0b889992435a1830985"}
+{"section": "2.2 Task Formulation", "seq": 10, "sha256": "f578f65090337bbd1b1b5587dc814391e352f737b46c85bfcee27502524832e4"}
+{"section": "2.3 Features of SWE-bench", "seq": 11, "sha256": "c95cfb65a21d547825aa31b3c3cf00f8508105f8bdfb90b73fdccb8c510eafc8"}
+{"section": "2.3 Features of SWE-bench", "seq": 12, "sha256": "5f2a69c0cd4bcb4c98cf58902b3a6f394841e148a4a15e2d887551cc268beac6"}
+{"section": "2.3 Features of SWE-bench", "seq": 13, "sha256": "3c19f3baefcd39ddd7bfbd94bfc4f0a2ecb23e150336c25294b6c1f0b7f066f6"}
+{"section": "3 SWE-Llama: Fine-tuning CodeLlama for SWE-bench", "seq": 14, "sha256": "9b3d00bd396cf0af70bd6e5b0d2219cd23b95f9d9edf73100064378017d136f3"}
+{"section": "3 SWE-Llama: Fine-tuning CodeLlama for SWE-bench", "seq": 15, "sha256": "ef67e5350f8d9d209b052dd8c28f9bf33d6291a61d47917dc8afc7e1817785c0"}
+{"section": "4 Experimental Setup", "seq": 16, "sha256": "e763f2b5026146e29541ed903f6a959cf362cb934e0cc194a3904edea702fd33"}
+{"section": "4.1 Retrieval-Based Approach", "seq": 17, "sha256": "d2f192d4cd682f19f129c156510afb78eaeb224108d87554b4ceb4eca5e9ad1a"}
+{"section": "4.1 Retrieval-Based Approach", "seq": 18, "sha256": "1d1093d87611444492da1c1141db8f1fb419161fd5e77adcaa44d192179684ae"}
+{"section": "4.2 Input Format", "seq": 19, "sha256": "efd56062371cabe07464cfa2747b58d13e3764adf265f4d4f321098e48c18c74"}
+{"section": "4.3 Models", "seq": 20, "sha256": "2b71bc058964c96db6b9e9fc8d164b8d17184b8060689d5727a14f8f3d43890d"}
+{"section": "5 Results", "seq": 21, "sha256": "18e65d65ab801dddc066de2a0d27f2384ff0b53a7f5182773643527d76230746"}
+{"section": "5 Results", "seq": 22, "sha256": "06c6a5ee7a817da8fb6685742702ec17c048c6d3450258351bf6cc1b30736869"}
+{"section": "5 Results", "seq": 23, "sha256": "0af830d54f19a1e7551332bcc26cfedd7efbd5227b4931ed823814cb8801dbf7"}
+{"section": "5 Results", "seq": 24, "sha256": "448cc350604f7df8ab2c97c19116e0b6e31b8f9f68b51ef7d47083ec601218bc"}
+{"section": "5 Results", "seq": 25, "sha256": "01a658c8c928ed49a26f21928f48db051ada533c7949ab0925239ed0a96348fe"}
+{"section": "5 Results", "seq": 26, "sha256": "6df42968152636548aa12a29e50e2b2167dced8c58ce2b011c2aecdffa255f1f"}
+{"section": "5 Results", "seq": 27, "sha256": "19db79d3cb61965d19720959a3e764c9b1774f23b63148ca152eaa743c08d6c3"}
+{"section": "5 Results", "seq": 28, "sha256": "b13e1e10fb2f2465b61285d9462a15e14d10a307096de9fff49517ae0009b782"}
+{"section": "5 Results", "seq": 29, "sha256": "0576e58ee63b418b1d02ffafd16da9d6516e8d5bb2fb0c38dda4139fdc2dd052"}
+{"section": "5.1 A Qualitative Analysis of SWE-Llama Generations", "seq": 30, "sha256": "758975976f783b9730eb6920cef4c4df2e75ccb7a1cd293a64ed96acbf6f6c65"}
+{"section": "5.1 A Qualitative Analysis of SWE-Llama Generations", "seq": 31, "sha256": "dba8262e4e7282cc6fb9ba425463bed342f7286bdda1caa8a5fb7d664e28f651"}
+{"section": "5.1 A Qualitative Analysis of SWE-Llama Generations", "seq": 32, "sha256": "95b941860ef0f5c94b02e85113adde64016c7f069484e74ae4fc81ce1d3659cf"}
+{"section": "6 Related Work", "seq": 33, "sha256": "c7c9f05bdce0b4936c15762e36439c6d12aa8993b9edd0d6db6b5da402fe167e"}
+{"section": "6 Related Work", "seq": 34, "sha256": "76c97d23b5971d0ad4506e573d27c01ea5e307e190ccc338e8b0c318136423a5"}
+{"section": "6 Related Work", "seq": 35, "sha256": "04bb410a92629ef04ec556bbc607617f4916b9a7364d235a6fd3a6b879f26e80"}
+{"section": "6 Related Work", "seq": 36, "sha256": "d571c749a7011c6bf4e6df78ecfc1643d3a8d8f3efaf68e177d49e71cf990c27"}
+{"section": "6 Related Work", "seq": 37, "sha256": "27e57ce06f5def5c319639f04db856539a9846f864550a8c879a11a011c02804"}
+{"section": "7 Discussion", "seq": 38, "sha256": "b680bb14fe4ad4d457986325b3d41f5878fa669420f23d9309b63e07fcffc483"}
+{"section": "7 Discussion", "seq": 39, "sha256": "4e9fb3fb125e78114ac504e681670d2dcb7fedfc59a27a6b0d22b043427a2e77"}
+{"section": "8 Ethics Statement", "seq": 40, "sha256": "b91e27c19854abfc19173a55dacff7e7cd22227c2d0191ff9af44b58de89797b"}
+{"section": "8 Ethics Statement", "seq": 41, "sha256": "24d6dd98230548438edb28cd04eacbbd1f16f7384e817ae28d5215625eb14fa2"}
+{"section": "9 Reproducibility Statement", "seq": 42, "sha256": "ca365e268937e029534d1e75439d29ee702011a00271194128fd0992ed4661fe"}
+{"section": "9 Reproducibility Statement", "seq": 43, "sha256": "798b3932ae155a9adb4602d21534b1f83e3a30cbf958333b6fbd645266746de8"}
+{"section": "10 Acknowledgements", "seq": 44, "sha256": "7732179c99c7486e686799253abe621f55ce35fb01617f6bab372deb22130615"}
+{"section": "References", "seq": 45, "sha256": "3b60a00df0e817a2ed629aaff336cc8714bfbf518033bb04f4d943d298c13024"}
+{"section": "References", "seq": 46, "sha256": "d564c8ea27ab50cada7cb3ab2796de0fa38ef34099817fc54595223e1a472ab5"}
+{"section": "References", "seq": 47, "sha256": "3431788818760715d9b4fe2c25bd3eb35d855fdbea34376f8548d3470194637c"}
+{"section": "References", "seq": 48, "sha256": "6cf4fd1cf4c35c8a6c0cf3025ce2312b6d66a7d452ece78016bba7222832746a"}
+{"section": "References", "seq": 49, "sha256": "7c094ba5241fdb6285295e47023ed08b3f8ab3bb63f2f239bf4bc651661ff3ab"}
+{"section": "References", "seq": 50, "sha256": "2bbc3b74d8bdb14b797351132e1268568cf3c5b6625e0241addfbf47dfb23d18"}
+{"section": "References", "seq": 51, "sha256": "02a691a6da7ab3a4c30aca95e99b1c8fcdfc08877708ce9247680ffa7706360b"}
+{"section": "References", "seq": 52, "sha256": "55713c56787f1ee900db63ae886c11cdcfd00fcdce9ae0c0f0ac6f7f94a47be5"}
+{"section": "References", "seq": 53, "sha256": "81acd0acd740cee670114b47fc334060d1aef10633db676c1fb313a30b222654"}
+{"section": "References", "seq": 54, "sha256": "cbe244b8a90d2c3e1dd9332357c91e4ffad30e35a76005564b35e8b08cf2082e"}
+{"section": "References", "seq": 55, "sha256": "a342739f6252f72dac3035cb8ca94fd06fa4b570859b0ee98e6becc71d1b47a6"}
+{"section": "References", "seq": 56, "sha256": "41cc0db491ce7267e267eca2e15168fbf2b6e3167f2c274866eda11227099c84"}
+{"section": "References", "seq": 57, "sha256": "0d7edbbd361fb3d39b6bf5fa6023de7bde20ac260c530ef72729005c1e2ba9ff"}
+{"section": "References", "seq": 58, "sha256": "68af9bc4207c49d7b48f27f630d5e80ae1828fbc387909ae4653384ff94801a8"}
+{"section": "Appendix", "seq": 59, "sha256": "64c0edcaabf0d246dfc92ebd5ddd1fba0778c3bd3de1375b48b5d05978e3b3f8"}
+{"section": "Appendix A Benchmark Details", "seq": 60, "sha256": "2a75e311345b7d126ad1b8fc2de08b11ae13b6d4a2fbfabdd9d45054279b5ee1"}
+{"section": "A.1 High Level Overview", "seq": 61, "sha256": "c4668f54722968e54ab59bbd04eced1917bc1fe1122a8239af9ee5286c160160"}
+{"section": "A.1 High Level Overview", "seq": 62, "sha256": "4c3ec0851e7e26295ce48fefb4f62c769801d169e39f5daa6bc92e7d26d15e7e"}
+{"section": "A.1 High Level Overview", "seq": 63, "sha256": "65696bfa189f5129218b5a70e6e3e38d038f340ab987b870b8250db403554341"}
+{"section": "A.1 High Level Overview", "seq": 64, "sha256": "77316464e566ae1af897d80c3e4a458b4f1dc333c6028a04435a72ee281fdf64"}
+{"section": "A.2 Construction Process", "seq": 65, "sha256": "b9df0f3b53960e912c454bf5e42561c38e074e7400cf05dbc0a4dd1b7e6a9e2b"}
+{"section": "A.2 Construction Process", "seq": 66, "sha256": "09499334f25cc9cc80c496e4b3e502932ac8b47c62487c80a23aa6aadb0ce36f"}
+{"section": "A.2 Construction Process", "seq": 67, "sha256": "38bf126279670e6554888f967d5f9f4ab3b9b3a30ed2738ebaf5c3fae34ce941"}
+{"section": "A.2 Construction Process", "seq": 68, "sha256": "cb764330b1d074d64b54e85bd76d462c1df0a340230ee53d784bc3973a67fd59"}
+{"section": "A.2 Construction Process", "seq": 69, "sha256": "bc2ea76bb080561214c77aa13500550128b466e9188f225cbe48172f97aa4a33"}
+{"section": "A.2 Construction Process", "seq": 70, "sha256": "7bcf5bb32daab9c73737df89a0882f0c10aa82bcfb117c50f7d9a7a6335b2b14"}
+{"section": "A.2 Construction Process", "seq": 71, "sha256": "c2be1901fd90cdc2e11ec75a07f5cf01de8d7b055c3b580dd0a569539845c200"}
+{"section": "A.2 Construction Process", "seq": 72, "sha256": "e8607bf7407dd080c5931ae46f3b9e26fdc5a462fa0155c31b2f38b525480662"}
+{"section": "A.2 Construction Process", "seq": 73, "sha256": "8370854248be78f24a0827f41718a453575f0e678f5e906ac3dcc6205d4aab61"}
+{"section": "A.3 Execution-Based Validation", "seq": 74, "sha256": "9b2d412f56702f3b654374fa2e6c7f6aa5dc9bf6c807a11509fd9735a6a68179"}
+{"section": "A.3 Execution-Based Validation", "seq": 75, "sha256": "1ff14c2eb45aece27d1fe19557ccea8be82dab7a9e3355d604d3076db77756ea"}
+{"section": "A.3 Execution-Based Validation", "seq": 76, "sha256": "c60304775ed3b6dc180e34f8ce181c8c7c9b33f5781383c6435fc640c7daedc5"}
+{"section": "A.3 Execution-Based Validation", "seq": 77, "sha256": "84ca8e323963662122258f9daa32724a540f68280375cd81ce298388da33e222"}
+{"section": "A.3 Execution-Based Validation", "seq": 78, "sha256": "0806f4f2db0ba81c10044035cb04086732c64dc424237d0bc0b01cfee294e0f2"}
+{"section": "A.3 Execution-Based Validation", "seq": 79, "sha256": "e85edf19669c6e53147cd130a7418a8571e33b39459dac8e23a0afecb04aec0b"}
+{"section": "A.4 Evaluation Procedure", "seq": 80, "sha256": "b7c2c843d1741de653d86bc0b1b5c545a791d28e381d00a6ee0c70eaf43b26f9"}
+{"section": "A.4 Evaluation Procedure", "seq": 81, "sha256": "4edd32dd60cd7864d6d018c9b573060360d69e006ed8d2f7b559eea9122370cc"}
+{"section": "A.4 Evaluation Procedure", "seq": 82, "sha256": "cb4d274f10e55d12bf6c361c4ae5fd5c4ad1b0cfdbd1c57ae4f9eb8ef7ff9ae7"}
+{"section": "A.5 Evaluation Characterization", "seq": 83, "sha256": "139ef99373242305155220dcdfc602ec90b15f2fc8dc2690e2dc7445385a7681"}
+{"section": "A.5 Evaluation Characterization", "seq": 84, "sha256": "a43dcbe596f3912309f97ba8a039ed8b5138a6bd4000ba903ad375f246db0169"}
+{"section": "A.5 Evaluation Characterization", "seq": 85, "sha256": "8966314598daf9512a659b9053bf08e36b7bdd483d64c6560dd9b10176400d89"}
+{"section": "A.5 Evaluation Characterization", "seq": 86, "sha256": "538d90b4aa30f3ebb4b79e2b31634a2bbc6ae9985de50a361e46473f6a8a165e"}
+{"section": "A.5 Evaluation Characterization", "seq": 87, "sha256": "b0db9c2e2507687a0c5ec5714405eb328f4da53ecbe2a8851ddf62db1b858886"}
+{"section": "A.5 Evaluation Characterization", "seq": 88, "sha256": "c63730ec04e298d9c67945fb8afdbe80d01be8e35d1fe77d134e95908369e623"}
+{"section": "A.5 Evaluation Characterization", "seq": 89, "sha256": "6e672898864eb49fe1761f1e3dbe8a09754bd8b09830556617300e4bad142877"}
+{"section": "A.5 Evaluation Characterization", "seq": 90, "sha256": "662a2e76eed55b8d3d174c0bd6fa38c7c1ee7591664e7e769630ccea4e05fa1e"}
+{"section": "B.1 Training Details", "seq": 91, "sha256": "354743e9e7bc7d21581bfa1f2a22fbd260db0f453761aba52cfcca803bf22ed4"}
+{"section": "Appendix C Additional Results", "seq": 92, "sha256": "b76d9c9e09d314f277d0af7902446a18aae635542b4f570b944fcb02aa3ce65f"}
+{"section": "D.1 Retrieval Details", "seq": 93, "sha256": "807d0b7923133d782a7eaf6b7337e8bb6a6d0c1b0bb919df6f92d86b8a8d918d"}
+{"section": "D.2 Inference Settings", "seq": 94, "sha256": "e7b4024d866942c8d43a37ac7f84f646f128475bf1e725f5977e25facbd9f52c"}
+{"section": "D.3 Prompt Template Example", "seq": 95, "sha256": "14e2ce968b34490a2b2029087c1c73cb7c52c6a52e0f099efa89c60dd951bd99"}
+{"section": "D.3 Prompt Template Example", "seq": 96, "sha256": "c6b08548ac4518508c9750b815d2d66f75945187089f77c22088bc058a7b8db6"}
+{"section": "D.3 Prompt Template Example", "seq": 97, "sha256": "8514f08fa2aa89acde75ce102de5a29913006b9e40ff856056fd6d015ea48c24"}
+{"section": "Appendix E Societal Impact", "seq": 98, "sha256": "8d19ee57c543ef4fc4e7060d5c6ada8cad7089a21c751a23d46e8682c0711228"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 99, "sha256": "5766413af4a3b2bbf06e1b93ebfe1de86dc0c5dcbcb9c2c136af682c4ace76d1"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 100, "sha256": "5ee946af5e719197281b8ffc14e3c8bc80e58a7146cbe0020adfa84aec3f9fb8"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 101, "sha256": "a755e134cd6074c608189db9b5ef381c009be84a5582dac8a33e117a09702243"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 102, "sha256": "ed2b79ba822d4c58256cc996a152dc38b73d1c29169242487ffa50e9cde5fa22"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 103, "sha256": "5211df1f78e6c3cca6cd4dc1881e3867f62e7cd263d835e0dfde4897940b9193"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 104, "sha256": "d549e167406d8a700e1d1c7935b33c92e725d79b43d0a54ff174465b11f39d90"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 105, "sha256": "73c4ba5322635ce5d1913afbb63b85c1d60f7b72e6caaf9d6db6455831159a95"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 106, "sha256": "8ed1021726fd60f89563464e1dab73aa7dcb92e9e8ff79c43182f54f904bf178"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 107, "sha256": "62612e06e913cdd73fc7ca3d80384ab62b99c6ebc94ae3b408845203b41780a5"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 108, "sha256": "719ecec5f5f999f8f859093850aacb93686cb436702238e8a6480edba7832d5e"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 109, "sha256": "2f6a990d85989915303075340dd965c8185f81d3227e9825de70b05ae76b8382"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 110, "sha256": "82b87a2cde4972e25657d44ea3714c050962a374c29324eed2b086318fd393c4"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 111, "sha256": "3507cebcbcdfbe86325fab3060e6064f0abf1123765142564d88b73c1164aa9f"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 112, "sha256": "8ef9b09ee8b8dcf47a7e5573d1ede0c6d277aad48da6ead2d84ed5e0a2eea00e"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 113, "sha256": "41910e21abc93840358527fde0cf93a8e61e751b429f4fe97e8ec201cea309dd"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 114, "sha256": "fb27ba2b78e3a138f319b6b239684668dc736a975de6a4a7572cf099dcc762b6"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 115, "sha256": "8790465ce54e105d646bf7f05ee1b30ca5779831d52a34d9fcf30a28d0f431d2"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 116, "sha256": "ae5a5e9753afef9ac7f6fab0cdf38cdfb361bfeb72886017919b868640fe24a3"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 117, "sha256": "dd73ce3b3603db1e3162802c06d9247e203fa73a53ec9d1d6a1d7f6b70b4f3d2"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 118, "sha256": "ad2ec77a8c56ecf80337acf011a4420157ffdde02b1fe783987d015cc2b9b8c3"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 119, "sha256": "f1f0c7dfa999f1d463d7f715c37e709b88c8b551a2a88d035bca8ab700eccebb"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 120, "sha256": "7879cb6023ef0c9aeab8992846494fe481df5aeb38784a659f6679635b5710cc"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 121, "sha256": "83fbe692906bb8adc138f1ad9fd26776265df010272d41d20e0cfc12f32d5a73"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 122, "sha256": "f74c50459a50c2292c906fd875000eb6438e1626a556bc40ad268e0723683e2a"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 123, "sha256": "74b2c81415d39023b0ace0e70738df3916142c3eb2ca0f34a95b77b5c52aa3e9"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 124, "sha256": "46a2123e61a4290873800aa4d1a2111728d6506aa853a02c45c454c60aadf5d1"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 125, "sha256": "d4f753e44ce3dfd17beb44c15e9ffa97411050ff0872c8e760e6e9bfdb004e08"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 126, "sha256": "b72ad6c2b22ff05f24292d15fa2c9647b92431e174a938a4bfbc9e1aee0337f8"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 127, "sha256": "632d601ac365893e7abd1f7d43bbeb9f464d1f4986bc4b66ec97ec049c0e70df"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 128, "sha256": "91cdf3f743cf392ebf51fc0014461d5cee3c53093db6554c139ec6932f007cf6"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 129, "sha256": "6f62cec5ccf7cb990b87d742d9dcf7c6ef2b5025c89eac66d93757cb2a44a403"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 130, "sha256": "a801a729e903ac20287b205fc2e88f4bc6bab2514d06495f6f81f2f2bb894492"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 131, "sha256": "a1b5ff5f6f04d0cc62745b723e9cc3f1cae2fe27907e11b2f2fc398cfd1d5db5"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 132, "sha256": "0a56c7e650d22e0cb9c2cf9c54ae00ad2e03b62dd334417229c818be78e51512"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 133, "sha256": "1efad6d32b897fdea9be028d66fd791f57bf50dc2c303952b090327feb9dd28b"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 134, "sha256": "e2a30cc1eea9cb7a9ccfae6753498333a5fd54e4ef66514f83cad007c959c5b5"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 135, "sha256": "8700cfd143e640f46292b338a4e378ce6e9794c44da174c0ba6679d2f66071a4"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 136, "sha256": "0346045f7899ae1a6e732e1718bb02a5258a436f89a03730f647d2fc466b3b21"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 137, "sha256": "1b7b3bea0e2c68c0b0bc25eebc4d463533972a4054ba869357692b61e4720857"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 138, "sha256": "d55a1d7e0b0e7ad531b508557070417b8f99c257b9b8c60a32fb768ecfbe8938"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 139, "sha256": "36af446aa5dfb9dfcb2b2f820991ab33d89cdde77c7ec49f517220c4ebaf4307"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 140, "sha256": "4dbc8ddcaea31ddcc8ca7eb0ba412005661d3a1d0b35bb1218e10ac22a275a8f"}
+{"section": "Appendix F In-depth Analysis of SWE-Llama Generations", "seq": 141, "sha256": "8c0f8a87624e41b0dc75b714e8359708c0e836c0d38ce11e707dafd5a161c0b3"}

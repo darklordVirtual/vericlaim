@@ -1,0 +1,17 @@
+ArXiv, abs/1707.02275, 2017. Barrington & Maciel (2000)
+
+Barrington, I. M. and Maciel, A. Lecture 3: Nondeterministic computation. https://people.clarkson.edu/~alexis/PCMI/Notes/lectureB03.pdf,
+2000. [Online; accessed 29-June-2000]. Bender et al. (2021)
+
+Bender, E. M., Gebru, T., McMillan-Major, A., and Shmitchell, S. On the dangers of stochastic parrots: Can language models be too big? In Proceedings of the 2021 ACM Conference on Fairness,
+Accountability, and Transparency, pp. 610–623, 2021. Black et al. (2021)
+
+Black, S., Gao, L., Wang, P., Leahy, C., and Biderman, S. GPT-Neo: Large scale autoregressive language modeling with
+mesh-tensorflow, 2021. URL http://github.com/eleutherai/gpt-neo. Blodgett et al. (2020)
+
+Blodgett, S. L., Barocas, S., Daumé III, H., and Wallach, H. Language (technology) is power: A critical survey of “bias” in nlp. arXiv preprint arXiv:2005.14050, 2020. Brown et al. (2020)
+
+Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P.,
+Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S.,
+Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler,
+D.

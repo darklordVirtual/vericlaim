@@ -1,0 +1,15 @@
+Here is a very simple example of Event Sourcing to get the basic idea
+over. For this example I'm deliberately being ultra-simple to act
+as a starting point - then I'll use further examples to explore
+some of the more complicated issues. The domain model is a simple one of ships that carry cargo and
+move between ports. There are four kinds of events that affect the model:
+
+Arrival: ship arrives at a port
+
+Departure: ship leaves a port
+
+Load: cargo is loaded on a ship
+
+Unload: cargo is unloaded from a ship
+
+Let's take a simple example of moving a ship around. class Tester...

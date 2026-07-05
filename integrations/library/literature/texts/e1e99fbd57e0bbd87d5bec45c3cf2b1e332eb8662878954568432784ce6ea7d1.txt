@@ -1,0 +1,18 @@
+[Detailed specification]
+
+Example 9 ◊
+
+A blog post can be attributed to an author, a mobile phone to its manufacturer. Agents are defined as having some kind of responsibility for activities. An activity association is an assignment of responsibility to an agent for an activity, indicating that the agent had a role in the activity. [Detailed specification]
+
+Example 10 ◊
+
+Examples of association between an activity and an agent are:
+
+creation of a web page under the guidance of a designer;
+
+various forms of participation in a panel discussion, including audience member, panelist, or panel chair;
+
+a public event, sponsored by a company, and hosted by a museum;
+
+Delegation is the assignment of authority and responsibility to an agent (by itself or by another agent) to carry out a specific activity as a delegate or representative, while the agent it acts on behalf of retains some responsibility for the outcome of the delegated work. [Detailed specification]
+The nature of this relation is intended to be broad, including contractual relation, but also altruistic initiative by the representative agent.

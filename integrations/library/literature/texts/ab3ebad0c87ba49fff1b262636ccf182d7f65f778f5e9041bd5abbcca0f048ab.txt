@@ -1,0 +1,15 @@
+info
+
+8
+
+High entropy
+
+6
+
+Lists of numbers
+
+6
+
+(c) Temperature (140 samples)
+
+Table 6: Memorized content found in samples produced by each of the our three text generation strategies. We show categories with at least 5 samples.

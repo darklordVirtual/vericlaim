@@ -1,0 +1,12 @@
+We proposed a fairness measure that accomplishes two important desiderata. First, it remedies the main conceptual shortcomings of demographic parity as a
+fairness notion. Second, it is fully aligned with the central goal of supervised
+machine learning, that is, to build higher accuracy classifiers. In light of our results, we draw several conclusions aimed to help interpret and
+apply our framework effectively. Choose reliable target variables. Our notion requires access to observed outcomes such as default rates in the
+loan setting. This is precisely the same requirement that supervised learning
+generally has. The broad success of supervised learning demonstrates that this
+requirement is met in many important applications. That said, having access
+to reliable “labeled data” is not always possible. Moreover, the measurement
+of the target variable might in itself be unreliable or biased. Domain-specific
+scrutiny is required in defining and collecting a reliable target variable. Measuring unfairness, rather than proving fairness. Due to the limitations we described, satisfying our notion (or any other
+oblivious measure) should not be considered a conclusive proof of
+fairness.

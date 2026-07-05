@@ -1,0 +1,5 @@
+with respect to the one-hot token indicators to find a set of promising candidates for replacement at each token position, and then evaluate all these replacements exactly via a forward pass. Specifically, we can compute the linearized approximation of replacing the th token in the prompt, , by evaluating the gradient
+
+(5)
+
+where denotes the one-hot vector representing the current value of the th token (i.e., a vector with a one at position and zeros in every other location). Note that because LLMs typically form embeddings for each token, they can be written as functions of this value , and thus we can immediately take the gradient with respect to this quantity; the same approach is adopted by the HotFlip (Ebrahimi et al., 2017) and AutoPrompt (Shin et al., 2020) methods. We then compute the top- values with the largest negative gradient as the candidate replacements for token . We compute this candidate set for all tokens , randomly select tokens from it, evaluate the loss exactly on this subset, and make the replacement with the smallest loss. This full method, which we term Greedy Coordinate Gradient (GCG) is shown in Algorithm 1.

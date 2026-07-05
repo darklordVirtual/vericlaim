@@ -1,0 +1,14 @@
+379--389, Lisbon, Portugal, September
+2015. Association for Computational Linguistics. doi: 10.18653/v1/D15-1044. URL https://aclanthology.org/D15-1044. Russell & Norvig (2002)
+
+Stuart J. Russell and Peter Norvig. Artificial Intelligence: A Modern Approach. Pearson, Hoboken, 2002. URL http://aima.cs.berkeley.edu/. Rust et al. (2020)
+
+Phillip Rust, Jonas Pfeiffer, Ivan Vulić, Sebastian Ruder, and Iryna Gurevych. How good is your tokenizer? On the monolingual performance of
+multilingual language models, 2020. URL https://arxiv.org/abs/2012.15613. Şahin et al. (2020)
+
+Gözde Gül Şahin, Yova Kementchedjhieva, Phillip Rust, and Iryna
+Gurevych. PuzzLing Machines: A challenge on learning from small data. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 1241--1254, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.115. URL https://aclanthology.org/2020.acl-main.115. Sakaguchi et al. (2016)
+
+Keisuke Sakaguchi, Kevin Duh, Matt Post, and Benjamin Van Durme. Robsut wrod reocginiton via semi-character recurrent neural network,
+2016. URL https://arxiv.org/abs/1608.02214. Sakaguchi et al.

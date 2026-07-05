@@ -1,0 +1,5 @@
+While different question formatting choices often lead to similar GPT-3 accuracies, we find that UnifiedQA is more sensitive. UnifiedQA’s input format is of the form
+
+QUESTION1 \\n (A) CHOICE1 (B) CHOICE2 (C) CHOICE3 (D) CHOICE4</s>
+
+where questions and choices are normalized and made lowercase. If we remove the </s> from the input, accuracy declines by several percentage points. Figure 10: As the number of few-shot instruction examples increases, the accuracy monotonically increases. Notably, zero-shot performance is only somewhat lower than -shot accuracy. Figure 11: While models are more calibrated in a few-shot setting than a zero-shot setting, they are still miscalibrated, with gap between accuracy and confidence reaching up to . Here the correlation between confidence and accuracy is , compared to in the zero-shot setting.

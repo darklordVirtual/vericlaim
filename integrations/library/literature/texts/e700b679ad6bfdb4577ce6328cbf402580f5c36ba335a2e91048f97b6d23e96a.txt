@@ -1,0 +1,18 @@
+We examine various fairness measures in the context of FICO scores
+with the protected attribute of race. FICO scores are a proprietary
+classifier widely used in the United States to predict credit
+worthiness. Our FICO data is based on a sample of TransUnion
+TransRisk scores from 2003 [Res07]. These scores, ranging
+from to , try to predict credit risk; they form our
+score . People were labeled as in default if they
+failed to pay a debt for at least days on at least one account in
+the ensuing 18-24 month period; this gives an outcome . Our
+protected attribute is race, which is restricted to four values:
+Asian, white non-Hispanic (labeled “white” in figures), Hispanic,
+and black. FICO scores are complicated proprietary classifiers based
+on features, like number of bank accounts kept, that could interact
+with culture—and hence race—in unfair ways. Figure 7: These two marginals, and the number of people per group,
+constitute our input data. A credit score cutoff of 620 is commonly used for prime-rate
+loans111http://www.creditscoring.com/pages/bar.htm
+(Accessed: 2016-09-20), which corresponds to an any-account default
+rate of 18%.

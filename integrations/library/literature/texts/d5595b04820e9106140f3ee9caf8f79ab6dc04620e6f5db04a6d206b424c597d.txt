@@ -1,0 +1,19 @@
+Dropout as a bayesian approximation: Representing model uncertainty
+in deep learning. In ICML, 2016. Girshick (2015)
+
+Girshick, Ross. Fast r-cnn. In ICCV, pp. 1440–1448, 2015. Hannun et al. (2014)
+
+Hannun, Awni, Case, Carl, Casper, Jared, Catanzaro, Bryan, Diamos, Greg, Elsen,
+Erich, Prenger, Ryan, Satheesh, Sanjeev, Sengupta, Shubho, Coates, Adam,
+et al. Deep speech: Scaling up end-to-end speech recognition. arXiv preprint arXiv:1412.5567, 2014. He et al. (2016)
+
+He, Kaiming, Zhang, Xiangyu, Ren, Shaoqing, and Sun, Jian. Deep residual learning for image recognition. In CVPR, pp. 770–778, 2016. Hendrycks & Gimpel (2017)
+
+Hendrycks, Dan and Gimpel, Kevin. A baseline for detecting misclassified and out-of-distribution
+examples in neural networks. In ICLR, 2017. Hinton et al. (2015)
+
+Hinton, Geoffrey, Vinyals, Oriol, and Dean, Jeff. Distilling the knowledge in a neural network. 2015. Huang et al. (2016)
+
+Huang, Gao, Sun, Yu, Liu, Zhuang, Sedra, Daniel, and Weinberger, Kilian. Deep networks with stochastic depth. In ECCV, 2016. Huang et al. (2017)
+
+Huang, Gao, Liu, Zhuang, Weinberger, Kilian Q, and van der Maaten, Laurens. Densely connected convolutional networks. In CVPR, 2017.

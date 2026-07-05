@@ -1,0 +1,19 @@
+Kenton et al. (2021)
+
+Zachary Kenton, Tom Everitt, Laura Weidinger, Iason Gabriel, Vladimir Mikulik,
+and Geoffrey Irving. 2021. Alignment of language
+agents. CoRR, abs/2103.14659. Khashabi et al. (2020)
+
+Daniel Khashabi, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord,
+Peter Clark, and Hannaneh Hajishirzi. 2020. UNIFIEDQA: Crossing format boundaries with a single QA system. In Findings of the Association for Computational Linguistics:
+EMNLP 2020, pages 1896–1907, Online. Association for Computational
+Linguistics. Kreps et al. (2020)
+
+Sarah Kreps, R. Miles McCain, and Miles Brundage. 2020. All the news that’s
+fit to fabricate: Ai-generated text as a tool of media misinformation. Journal of Experimental Political Science, page 1–14. Krishna et al. (2021)
+
+Kalpesh Krishna, Aurko Roy, and Mohit Iyyer. 2021. Hurdles to
+progress in long-form question answering. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pages 4940–4957, Online. Association for Computational
+Linguistics. Kwiatkowski et al.

@@ -1,0 +1,21 @@
+337–346, New York, NY, USA, 2011. Association for
+Computing Machinery. doi: 10.1145/1963405.1963455. URL https://doi.org/10.1145/1963405.1963455. Rae et al. (2021)
+
+Jack W. Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann,
+Francis Song, John Aslanides, Sarah Henderson, Roman Ring, Susannah Young,
+Eliza Rutherford, Tom Hennigan, Jacob Menick, Albin Cassirer, Richard Powell,
+George van den Driessche, Lisa Anne Hendricks, Maribeth Rauh, Po-Sen Huang,
+Amelia Glaese, Johannes Welbl, Sumanth Dathathri, Saffron Huang, Jonathan
+Uesato, John Mellor, Irina Higgins, Antonia Creswell, Nat McAleese, Amy Wu,
+Erich Elsen, Siddhant Jayakumar, Elena Buchatskaya, David Budden, Esme
+Sutherland, Karen Simonyan, Michela Paganini, Laurent Sifre, Lena Martens,
+Xiang Lorraine Li, Adhiguna Kuncoro, Aida Nematzadeh, Elena Gribovskaya,
+Domenic Donato, Angeliki Lazaridou, Arthur Mensch, Jean-Baptiste Lespiau,
+Maria Tsimpoukelli, Nikolai Grigorev, Doug Fritz, Thibault Sottiaux, Mantas
+Pajarskas, Toby Pohlen, Zhitao Gong, Daniel Toyama, Cyprien de Masson
+d’Autume, Yujia Li, Tayfun Terzi, Vladimir Mikulik, Igor Babuschkin, Aidan
+Clark, Diego de Las Casas, Aurelia Guy, Chris Jones, James Bradbury, Matthew
+Johnson, Blake Hechtman, Laura Weidinger, Iason Gabriel, William Isaac,
+Ed Lockhart, Simon Osindero, Laura Rimell, Chris Dyer, Oriol Vinyals, Kareem
+Ayoub, Jeff Stanway, Lorrayne Bennett, Demis Hassabis, Koray Kavukcuoglu, and
+Geoffrey Irving.

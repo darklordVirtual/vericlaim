@@ -1,0 +1,13 @@
+[N/A]
+
+3. If you ran experiments…
+
+(a)
+
+Did you include the code, data, and instructions needed to reproduce the main experimental results (either in the supplemental material or as a URL)? [Yes] We included inputs, outputs, and targets for LaMDA and GPT-3 in the supplementary material. Although we use proprietary models, we GPT-3 results are fully reproducible. Reproducibility is further discussed in Section E.1. (b)
+
+Did you specify all the training details (e.g., data splits, hyperparameters, how they were chosen)? [Yes] Data splits were specified, N/A for hyperparams. (c)
+
+Did you report error bars (e.g., with respect to the random seed after running experiments multiple times)? [Yes] Standard deviation for multiple seeds using LaMDA 137B, where each seed is a different random order of exemplars, is given in Table 6 and Table 7. (d)
+
+Did you include the total amount of compute and the type of resources used (e.g., type of GPUs, internal cluster, or cloud provider)? [Yes] Type of resources are described in Section E.2, though we did not estimate the total amount of compute. 4.

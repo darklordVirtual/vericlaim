@@ -1,0 +1,11 @@
+via such bounties in a timely fashion;363636Note that we specifically consider public bounty programs here, though instances of private bounty programs also exist in the computer security community. Even in the event of a publicly advertised bounty, however, submissions may be private, and as such there is a need for explicit policies for handling submissions in a timely and legitimate fashion–otherwise such programs will provide little assurance. •
+
+Designing appropriate interfaces for reporting of bias and safety problems in the context of deployed AI systems;
+
+•
+
+Defining processes for handling reported bugs and deploying fixes;
+
+•
+
+Avoiding creation of perverse incentives. There is not a perfect analogy between discovering and addressing traditional computer security vulnerabilities, on the one hand, and identifying and addressing limitations in AI systems, on the other. Work is thus needed to explore the factors listed above in order to adapt the bug bounty concept to the context of AI development.

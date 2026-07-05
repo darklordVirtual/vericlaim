@@ -1,0 +1,22 @@
+models’ near-zero interception suggests that zero-shot
+textual entailment, as instantiated by BART-MNLI and mDeBERTa-NLI,
+is insufficient for tool-call authorization without task-specific
+adaptation. ROC analysis on TC1/TC2 ( per language: 457 malicious + 464
+non-plugin benign; the 40 plugin hard negatives are excluded to
+match the FPR computation scope) confirms this gap:
+using each NLI model’s continuous entailment score as the
+ranking function (converted to a malicious-class score via
+, applied uniformly regardless of
+binary verdict), BART-MNLI
+achieves AUC = 0.75 (ZH) / 0.88 (EN)—the EN AUC indicates
+reasonable ranking, yet the optimal binary threshold still yields
+only 8.1% IR because both classes’ entailment scores overlap
+substantially in the decision-relevant range—and mDeBERTa-NLI
+AUC 0.50 (ZH) / 0.56 (EN; continuous scores only,
+no binary threshold evaluation; see Table 3
+footnote), near random;
+by contrast, the five LLM
+judges—which produce binary ALLOW/BLOCK verdicts—achieve
+single operating points in the upper-left region of ROC space
+(TPR 0.93, FPR 0.36), well above both
+NLI curves at every threshold.

@@ -1,0 +1,21 @@
+The implication here is that
+the resulting entity contains substantial content from the
+original. A revision ◊ relation is a kind of derivation relation from a revised entity to a preceding entity. The type of a revision relation is denoted by:
+prov:Revision ◊. PROV defines no revision-specific attributes. Example 31 ◊
+
+Revisiting the example of Section 4.2,
+we can now state that the report
+tr:WD-prov-dm-20111215 was a revision of
+the report tr:WD-prov-dm-20111018. entity(tr:WD-prov-dm-20111215, [ prov:type='rec54:WD' ])
+entity(tr:WD-prov-dm-20111018, [ prov:type='rec54:WD' ])
+wasDerivedFrom(tr:WD-prov-dm-20111215,
+tr:WD-prov-dm-20111018,
+[ prov:type='prov:Revision' ])
+
+5.2.3 Quotation
+
+A quotation ◊ is the repeat of (some or all of) an entity, such as text or image, by someone who may or may not be its original author. A quotation ◊ relation
+is a kind of derivation relation, for which an entity was derived from a preceding entity by copying, or "quoting", some or all of it. The type of a quotation relation is denoted by:
+prov:Quotation ◊. PROV defines no quotation-specific attributes. Example 32 ◊
+
+The following paragraph is a quote from one of the author's blogs.

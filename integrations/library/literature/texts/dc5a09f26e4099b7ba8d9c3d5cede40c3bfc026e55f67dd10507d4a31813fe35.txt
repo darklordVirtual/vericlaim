@@ -1,0 +1,16 @@
+(In contrast, in Section 4.1, we observed the group information as an input feature.)
+See the visualization below. Turning to the algorithm, given a conformal score function , stratify the scores on the calibration set by class,
+
+(24)
+
+Then, within each class, we calculate the conformal quantile,
+
+(25)
+
+Finally, we iterate through our classes and include them in the prediction set based on their quantiles:
+
+(26)
+
+Notice that in the preceding display, we take a provisional value of the response, ,
+and then use the conformal threshold to
+determine if it is included in the prediction set. This choice of satisfies (23), as proven by Vovk in [vovk2012conditional]; another version can be found in [Sadinle2016LeastAS]. Proposition 2 (Error control guarantee for class-balanced conformal prediction). Suppose are an i.i.d. sample from some distribution. Then the set defined above satisfies the error control property in (23).

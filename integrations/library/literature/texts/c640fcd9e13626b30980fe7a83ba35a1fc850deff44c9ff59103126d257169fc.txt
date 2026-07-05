@@ -1,0 +1,18 @@
+benchmark—provides evidence that the
+interception capability is not solely an artifact
+of same-source familiarity; the elevated FPR is a calibration issue,
+not a fundamental capability limitation. However, with 24–34% FPR, standalone Qwen3.5-9B is impractical
+for autonomous deployment—at a low attack prevalence (),
+its positive predictive value drops below 4%
+(2.8% ZH / 3.9% EN; see Table 7). Qwen3.5-9B is therefore best deployed as a high-recall first stage
+in a cascade or with human-in-the-loop escalation, rather than
+as a standalone gatekeeper. For data-sovereign scenarios requiring a single local judge,
+Qwen2.5-14B offers a substantially better alternative
+(98.2–98.5% IR, 9.7–20.1% FPR depending on language). To validate the cascading mitigation, we simulate a two-stage
+pipeline using existing per-sample predictions: Qwen3.5-9B
+serves as the first-stage filter, and calls it blocks are
+re-evaluated by GPT-4o-mini; the final verdict is BLOCK
+if and only if GPT-4o-mini also issues BLOCK. On the Chinese dataset, cascading reduces FPR from 34.1% to
+1.9% while retaining 91.9% IR (vs. 96.5% single-stage);
+on English, FPR drops from 23.7% to 6.7% with 92.6% IR
+(vs. 95.0%).

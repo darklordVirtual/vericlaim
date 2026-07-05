@@ -1,0 +1,10 @@
+An intriguing aspect of adversarial examples is that an example generated
+for one model is often misclassified by other models, even when they
+have different architecures or were trained on disjoint training sets. Moreover, when these different models misclassify an adversarial example, they often
+agree with each other on its class. Explanations based on extreme non-linearity and overfitting cannot readily account
+for this behavior—why should multiple extremely non-linear model with excess capacity
+consistently label out-of-distribution points in the same way? This behavior is especially surprising from the view of the hypothesis that adversarial
+examples finely tile space like the rational numbers among the reals, because in this
+view adversarial examples are common but occur only at very precise locations. Under the linear view, adversarial examples occur in broad subspaces. The direction
+need only have positive dot product with the gradient of the cost function,
+and need only be large enough. Fig. 4 demonstrates this phenomenon.

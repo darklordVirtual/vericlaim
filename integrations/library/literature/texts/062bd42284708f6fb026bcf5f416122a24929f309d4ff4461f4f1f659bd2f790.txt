@@ -1,0 +1,59 @@
+Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, &Andy Jones,
+Anna Chen,
+Anna Goldie,
+Azalia Mirhoseini,
+Cameron McKinnon,
+Correspondence to: {yuntao,jared}@anthropic.com
+
+Author contributions are detailed in 7. Carol Chen,
+Catherine Olsson,
+Christopher Olah,
+Danny Hernandez,
+Dawn Drain,
+
+Deep Ganguli,
+Dustin Li,
+Eli Tran-Johnson,
+Ethan Perez,
+Jamie Kerr,
+Jared Mueller,
+
+Jeffrey Ladish,
+Joshua Landau,
+Kamal Ndousse,
+Kamile Lukosuite,
+Liane Lovitt,
+
+Michael Sellitto,
+Nelson Elhage,
+Nicholas Schiefer,
+Noemi Mercado,
+Nova DasSarma,
+
+Robert Lasenby,
+Robin Larson,
+Sam Ringer,
+Scott Johnston,
+Shauna Kravec,
+
+Sheer El Showk,
+Stanislav Fort,
+Tamera Lanham,
+Timothy Telleen-Lawton,
+Tom Conerly,
+
+Tom Henighan,
+Tristan Hume,
+Samuel R. Bowman,
+Zac Hatfield-Dodds,
+Ben Mann,
+
+Dario Amodei,
+Nicholas Joseph, Sam McCandlish, Tom Brown,
+Jared Kaplan††footnotemark: \AND
+
+Anthropic
+
+Abstract
+
+As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs.

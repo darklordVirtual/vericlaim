@@ -1,0 +1,11 @@
+Saurous, Google (rif@google.com). Task cites: (Park et al., 2021)
+
+polish_sequence_labeling: Jarema Radom and Jan Kocoń, Wrocław University of Science and Technology (jarema.radom, jan.kocon)@pwr.edu.pl. Task cites: (Nguyen & Guo, 2007; Rei, 2017; Gu et al., 2018)
+
+presuppositions_as_nli: Alicia Parrish, Sebastian Schuster, Alex Warstadt, Omar Agha, Soo-Hwan Lee, Zhuoye Zhao, Samuel R. Bowman, and Tal Linzen, New York University (alicia.v.parrish, schuster, warstadt, agha, soohwan.lee, zz1731, bowman, linzen)@nyu.edu. Task cites: (Heim, 1983; de Marneffe et al., 2019; White et al., 2018; Jeretic et al., 2020)
+
+program_synthesis: Abhishek Rao, Google (abhishekrao@google.com). Task cites: (Gulwani et al., 2017b)
+
+protein_interacting_sites: Kaustubh D. Dhole, Amelia R&D, New York (kaustubhdhole@hotmail.com). Task cites: (Dhole et al., 2014; Singh et al., 2014; Li et al., 2020b; Murakami & Mizuguchi, 2010)
+
+python_programming_challenge: Kyle McDonell and Laria Reynolds, EleutherAI (kyle, laria)@eleuther.ai; Nicholas Cameron, Joseph Jones, Michael Ivanitskiy, John U.

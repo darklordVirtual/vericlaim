@@ -1,0 +1,13 @@
+Who pays the entity that will conduct the audit? Public transparency requirements? Is there a requirement that the contents of the audit be made available to the public? Rotation requirements? Is there a requirement that the auditors rotate off of the auditing process after a certain period of time? Table 1. Analyzed Audit Ecosystem Features
+
+Auditing program
+
+Description
+
+First Party Audits
+
+EPA Audit Policy
+
+The Environmental Protection Agency (EPA) issued its ”Audit Policy” in 1995. The Policy, which is designed to increase compliance with environmental regulations, eliminates or reduces civil penalties for violations that facilities discover as a result of a self-audit and voluntarily disclose. SQA Audits
+
+Software Quality Assurance (SQA) audits are conducted throughout the life cycle of a software program to quality-check the engineering processes and methods used in the software’s development. SQA audits are typically conducted in-house, and can include various audit types, including security audits and information systems audits.

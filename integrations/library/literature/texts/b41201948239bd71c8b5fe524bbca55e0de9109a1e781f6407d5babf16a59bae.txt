@@ -1,0 +1,8 @@
+In this paper, we will discuss and carefully examine specific
+memorized content that we find in our extraction attacks. This raises ethical considerations as some of the data that we extract contains information about individual users. As previously mentioned, we minimize ethical concerns by using data that is already public. We attack the GPT-2 model,
+which is available online. Moreover, the GPT-2 training data was
+collected from the public Internet [54], and is
+in principle available to anyone who performs the same
+(documented) collection process as OpenAI, e.g., see [23]. However, there are still ethical concerns even though the model and data are public. It is possible—and indeed we find it is the case—that we might extract personal information for individuals from the training data. For example, as shown in Figure 1, we recovered
+a person’s full name, address, and phone number. In this paper, whenever we succeed in extracting personally-identifying
+information (usernames, phone numbers, etc.) we partially mask out this content with the token \censor——.

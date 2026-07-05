@@ -1,0 +1,1 @@
+10: Comparison of Base Model (8B), Best, and Our Method across various benchmarks. We report Accuracy, AUROC, and ECE. Best results are highlighted in bold.

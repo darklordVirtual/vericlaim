@@ -1,0 +1,15 @@
+For
+example, if probabilities in training deviate from probabilities predicted in
+side­-by-­sides or by inspecting the production system, this deviation could
+reveal a problem. For example, in linear, logistic, or Poisson regression, there are subsets of
+the data where the average predicted expectation equals the average label (1-
+moment calibrated, or just calibrated). This is true assuming that you have no
+regularization and that your algorithm has converged, and it is approximately
+true in general. If you have a feature which is either 1 or 0 for each example,
+then the set of 3 examples where that feature is 1 is calibrated. Also, if you
+have a feature that is 1 for every example, then the set of all examples is
+calibrated. With simple models, it is easier to deal with feedback loops (see
+Rule #36). Often, we use these probabilistic predictions to make a decision: e.g. rank
+posts in decreasing expected value (i.e. probability of click/download/etc.). However, remember when it comes time to choose which model to use, the
+decision matters more than the likelihood of the data given the model (see
+Rule #27). Rule #15: Separate Spam Filtering and Quality Ranking in a Policy Layer.

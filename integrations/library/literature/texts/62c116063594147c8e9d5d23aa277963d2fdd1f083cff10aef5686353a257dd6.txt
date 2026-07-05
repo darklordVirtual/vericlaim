@@ -1,0 +1,16 @@
+URL https://doi.org/10.24963/ijcai.2018/356. Mendelsohn et al. (2020)
+
+Julia Mendelsohn, Yulia Tsvetkov, and Dan Jurafsky. A framework for the computational linguistic analysis of
+dehumanization. Frontiers in Artificial Intelligence, 3, 2020. doi: 10.3389/frai.2020.00055. URL
+https://www.frontiersin.org/article/10.3389/frai.2020.00055. Meng et al. (2017)
+
+Yuanliang Meng, Anna Rumshisky, and Alexey Romanov. Temporal information extraction for question answering using
+syntactic dependencies in an LSTM-based architecture. In Proceedings of the 2017 Conference on Empirical Methods in
+Natural Language Processing, pp. 887--896, Copenhagen, Denmark, September
+2017. Association for Computational Linguistics. doi: 10.18653/v1/D17-1092. URL https://aclanthology.org/D17-1092. Merity et al. (2016)
+
+Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. Pointer sentinel mixture models, 2016. URL https://arxiv.org/abs/1609.07843. Merrill (2020)
+
+William Merrill. On the linguistic capacity of real-time counter automata, 2020. URL https://arxiv.org/abs/2004.06866. Mieder (2019)
+
+Wolfgang Mieder.

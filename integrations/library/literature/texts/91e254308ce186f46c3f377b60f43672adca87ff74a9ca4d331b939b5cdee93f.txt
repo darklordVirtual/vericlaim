@@ -1,0 +1,48 @@
+We will consider binary targets and protected attributes taking values
+in and real valued features. We deviate from our convention of
+-values only to simplify the resulting expressions. In Scenario I, let:
+
+•
+
+, and
+
+•
+
+follows a logistic model parametrized based on :
+
+•
+
+is Gaussian with mean :
+
+•
+
+Optimal unconstrained and equalized odds scores are given by: and
+
+In Scenario II, let:
+
+•
+
+. •
+
+conditional on is a mixture of two Gaussians:
+with weight and
+with weight
+
+•
+
+follows a logistic model parametrized based on :
+
+•
+
+Optimal unconstrained and equalized odds scores are given by: and
+
+The following proposition establishes the equivalence
+between the scenarios and the optimality of the scores (proof at end of section):
+
+Proposition 6.1. The joint distributions of are identical in
+the above two scenarios. Moreover, and are
+optimal unconstrained and equalized odds scores respectively, in
+that their ROC curves are optimal and for any loss function an
+optimal (unconstrained or equalized odds) classifier can be derived
+from them by thresholding. Figure 6: Two possible directed dependency structures for the
+variables in scenarios I and II.

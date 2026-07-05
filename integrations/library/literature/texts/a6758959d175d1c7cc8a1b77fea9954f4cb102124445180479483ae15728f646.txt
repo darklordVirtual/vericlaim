@@ -1,0 +1,9 @@
+An end-to-end pipeline evaluation () demonstrates
+that all four layers operate in concert with 96% IR and a
+total P50 latency of
+980 ms, of which the non-judge layers contribute only
+18 ms. Generalization to the external InjecAgent benchmark yields
+99–100% interception, providing evidence of generalization beyond our
+synthetic data. autonomous agent, large language model, governance architecture, prompt injection, RAG poisoning, multi-agent security
+
+††journal: TOPS††journalyear: 2026††journalvolume: 0††journalnumber: 0††article: 0††ccs: Security and privacy Logic and verification††ccs: Security and privacy Access control††ccs: Computing methodologies Natural language processing

@@ -8,6 +8,12 @@
     "Michael K. Reiter",
     "Thomas Ristenpart"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:14:35.276863+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1609.02943"
+  },
+  "fulltext_sha256": "85c566b4b297a6a8da22ee4e35e7a44cf3c712af851bff773084b4432452fe8b",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "model-extraction-2016",

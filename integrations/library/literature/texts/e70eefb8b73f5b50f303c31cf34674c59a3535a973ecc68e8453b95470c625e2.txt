@@ -1,0 +1,33 @@
+Formally, given input , we train to sequentially generate textual outputs consisting of multiple segments , where indicates a sequence of tokens for the -th segment.333
+In this paper, we treat one sentence as a segment in our experiments, but our framework is applicable to any segment unit (i.e., sub-sentence). Generated tokens in include text from the original vocabulary as well as the reflection tokens (Table 1). Type
+
+Input
+
+Output
+
+Definitions
+
+\tikzmarknode[draw=myred,thick,inner sep=2pt]testRetrieve
+
+/
+
+{yes, no, continue}
+
+Decides when to retrieve with
+
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsRel
+
+{relevant, irrelevant}
+
+provides useful information to solve . \tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+{fully supported, partially supported, no support}
+
+All of the verification-worthy statement in is supported by . \tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsUse
+
+{5, 4, 3, 2, 1}
+
+is a useful response to . Table 1: Four types of reflection tokens used in Self-Rag. Each type uses several tokens to represent its output values.

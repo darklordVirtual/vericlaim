@@ -1,0 +1,13 @@
+Agent Description
+
+A coding agent assists developers by generating SQL-backed functionality. For example: “Add support for filtering users by email domain.” It retrieves example code from the web and iterates until its solution passes a built-in static analysis engine, CodeShield. Threat Scenario
+
+The agent scrapes a widely-upvoted post showing this insecure pattern:
+
+{verbbox}
+
+"SELECT * FROM users WHERE email LIKE ’" + domain + "’"
+
+\theverbbox
+
+This is not a prompt injection. The example is legitimate but insecure—concatenating untrusted input directly into SQL, which opens the door to injection attacks.

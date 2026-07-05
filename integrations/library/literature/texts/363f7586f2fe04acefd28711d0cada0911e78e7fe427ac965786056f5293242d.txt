@@ -1,0 +1,7 @@
+Bowman, New York University (alicia.v.parrish, ac5968, pmh330, nikitanangia, vp1271, zp489, jt4407, bowman)@nyu.edu. Task cites: (Crawford, 2017; Khashabi et al., 2020b; Li et al., 2020a)
+
+bbq_lite_json: Alicia Parrish, Angelica Chen, Phu Mon Htut, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, and Samuel R. Bowman, New York University (alicia.v.parrish, ac5968, pmh330, nikitanangia, vp1271, zp489, jt4407, bowman)@nyu.edu
+
+bias_from_probabilities: Yasaman Bahri and Jascha Sohl-Dickstein, Google (yasamanb, jaschasd)@google.com. Task cites: (Bender et al., 2021; Abid et al., 2021)
+
+boolean_expressions: Roman Novak, Google (romann@google.com).

@@ -1,0 +1,15 @@
+4.1.1 Binary logistic regression
+
+As a simple starting point, we consider the case of logistic regression (LR). A LR model performs binary classification ,
+by estimating the probability of a binary response, based on a number of independent
+features. LR is one of the most popular binary classifiers,
+due to its simplicity and efficiency. It is widely used in many
+scientific fields (e.g., medical and social sciences) and is supported by all the ML
+services we reviewed. Formally, a LR model is defined by parameters , , and outputs a probability
+, where . LR is a linear classifier: it defines a hyperplane in
+the feature space (defined by ), that separates the two classes. Given an oracle sample , we get a linear equation . Thus, samples
+are both necessary and sufficient (if the queried are linearly
+independent) to recover and . Note that the required samples are chosen non-adaptively, and can thus be
+obtained from a single batch request to the ML service. We stress that while this extraction attack is rather straightforward, it
+directly applies, with possibly devastating consequences, to all cloud-based ML
+services we considered.

@@ -1,0 +1,16 @@
+differences in the ROC curve do not indicate
+differences in default behavior but rather differences in prediction
+accuracy—lower curves indicate FICO scores are less predictive for
+those populations. This demonstrates, as one should expect, that the
+majority (white) group is classified more accurately than minority
+groups, even over-represented minority groups like Asians. The left side of Figure 11 shows the fraction of
+people that wouldn’t default that would qualify for loans by the
+various metrics. Under max-profit and race-blind thresholds, we find
+that black people that would not default have a significantly harder
+time qualifying for loans than others. Under demographic parity, the
+situation is reversed. Figure 11: On the left, we see the fraction of non-defaulters that
+would get loans. On the right, we see the profit achievable for
+each notion of fairness, as a function of the false
+positive/negative trade-off. The right side of Figure 11 gives the profit
+achieved by each method, as a fraction of the max profit achievable. We show this as a function of the non-default rate above which loans
+are profitable (i.e. 82% in the other figures).

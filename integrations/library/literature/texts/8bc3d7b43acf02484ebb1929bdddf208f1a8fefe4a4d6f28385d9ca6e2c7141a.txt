@@ -1,0 +1,25 @@
+In this case the cargo initiates the call to
+the external system and saves the value. (We'll assume we're going
+to actually do something useful with this value, but that's not
+relevant to this example.)
+
+class Cargo... public void HandleArrival(ArrivalEvent ev) {
+declaredValue = Registry.PricingGateway.GetPrice(this);
+}
+private Money declaredValue;
+
+As is my habit, I encapsulate all external system access
+through a Gateway that I control. The basic
+gateway will just translate the call into whatever is needed for
+the external interaction. To support replaying events I just wrap
+this with a class that logs these queries. Figure 6: Wrapping the
+gateway with a logging gateway to support proper rebuilding from
+events. The logging gateway checks each call to see if it has an old
+request that matches this one, if not it makes a new request. class LoggedPricingGateway... public Money GetPrice(Cargo cargo) {
+GetPriceRequest oldReq = oldRequest(cargo);
+if (null != oldReq) return (Money) oldReq.Result;
+else return newRequest(cargo);
+}
+
+If the request is a new one, it turns the request into an event
+object, invokes the external query, and stores it in the log. class LoggedPricingGateway...

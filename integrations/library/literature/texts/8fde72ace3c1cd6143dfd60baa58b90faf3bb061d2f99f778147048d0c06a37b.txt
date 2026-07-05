@@ -1,0 +1,15 @@
+On measuring gender bias in translation of gender-neutral pronouns. In Proceedings of the First Workshop on Gender Bias in Natural
+Language Processing, pp. 173--181, Florence, Italy, August 2019. Association for Computational Linguistics. doi: 10.18653/v1/W19-3824. URL https://aclanthology.org/W19-3824. Choi et al. (2018)
+
+Eunsol Choi, He He, Mohit Iyyer, Mark Yatskar, Wen-tau Yih, Yejin Choi, Percy
+Liang, and Luke Zettlemoyer. QuAC: Question answering in context, 2018. URL https://arxiv.org/abs/1808.07036. Chollet (2019)
+
+François Chollet. On the measure of intelligence, 2019. URL https://arxiv.org/abs/1911.01547. Chollet (2020)
+
+François Chollet. Abstraction and reasoning challenge, 2020. URL
+https://www.kaggle.com/c/abstraction-and-reasoning-challenge. Chomsky & Schützenberger (1959)
+
+Noam Chomsky and Marcel P. Schützenberger. The algebraic theory of context-free languages. In P. Braffort and D. Hirschberg (eds.), Computer Programming
+and Formal Systems, volume 26 of Studies in Logic and the Foundations
+of Mathematics, pp. 118--161. Elsevier, 1959. doi: https://doi.org/10.1016/S0049-237X(09)70104-1. URL
+https://www.sciencedirect.com/science/article/pii/S0049237X09701041.

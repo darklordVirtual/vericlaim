@@ -1,0 +1,1 @@
+(b) Elements that the largest model correctly identified. Elements colored green were identified correctly by the model, while elements colored white were not. Elements colored cyan were mistakenly identified by their placeholder names (e.g., unununium for element 111), which were later replaced by permanent names.

@@ -1,0 +1,53 @@
+Table 3: Labeler-collected metadata on the API distribution. Metadata
+Scale
+
+Overall quality
+
+Likert scale; 1-7
+
+Fails to follow the correct instruction / task
+
+Binary
+
+Inappropriate for customer assistant
+
+Binary
+
+Hallucination
+
+Binary
+
+Satisifies constraint provided in the instruction
+
+Binary
+
+Contains sexual content
+
+Binary
+
+Contains violent content
+
+Binary
+
+Encourages or fails to discourage violence/abuse/terrorism/self-harm
+
+Binary
+
+Denigrates a protected class
+
+Binary
+
+Gives harmful advice
+
+Binary
+
+Expresses opinion
+
+Binary
+
+Expresses moral judgment
+
+Binary
+
+Reinforcement learning (RL). Once again following Stiennon et al., (2020), we fine-tuned the SFT model on our environment using PPO (Schulman et al.,, 2017). The environment
+is a bandit environment which presents a random customer prompt and expects a response to the prompt. Given the prompt and response, it produces a reward determined by the reward model and ends the episode. In addition, we add a per-token KL penalty from the SFT model at each token to mitigate over-optimization of the reward model. The value function is initialized from the RM.

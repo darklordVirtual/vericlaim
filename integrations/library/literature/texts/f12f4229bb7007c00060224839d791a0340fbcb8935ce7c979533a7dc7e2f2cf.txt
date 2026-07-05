@@ -1,0 +1,16 @@
+Trends in Cognitive Sciences, 12:187--192, 2008. doi: 10.1016/j.tics.2008.02.010. URL https://doi.org/10.1016/j.tics.2008.02.010. Canfield (2010)
+
+Tracy Canfield. Machine translation of Klingon, 2010. URL
+http://klingonska.org/academic/canfield-2010-machine_translation_of_klingon.pdf. Carlini et al. (2021)
+
+Nicholas Carlini, Florian Tramèr, Eric Wallace, Matthew Jagielski, Ariel
+Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Úlfar
+Erlingsson, Alina Oprea, and Colin Raffel. Extracting training data from large language models. In 30th USENIX Security Symposium (USENIX Security 21), pp. 2633--2650. USENIX Association, August 2021. URL
+https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting. Chambers (2012)
+
+Nathanael Chambers. Labeling documents with timestamps: Learning from their time
+expressions. In Proceedings of the 50th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp. 98--106, Jeju
+Island, Korea, July 2012. Association for Computational Linguistics. URL https://aclanthology.org/P12-1011. Chandra Guntuku et al. (2019)
+
+Sharath Chandra Guntuku, Mingyang Li, Louis Tay, and Lyle H. Ungar.

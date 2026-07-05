@@ -1,0 +1,15 @@
+We model an autonomous agent system as a tuple
+
+where is a set of agents, a shared
+knowledge base, a set of executable tools, and
+the execution environment
+(L1 enforces OS-level isolation on ; see Sect. 5). Let
+denote the retrieval function returning knowledge entries for a query. Let denote the agent input domain and
+the global system state space. Each agent has a behavior function
+
+mapping inputs and system state () to sequences of tool invocations. Attacker Model. We consider a black-box, non-adaptive adversary who can inject
+content into agent inputs (TC1), poison knowledge-base entries (TC2),
+or publish malicious plugins (TC3), but has no knowledge of the
+deployed judge model or its parameters. Adaptive attacks—where the adversary iteratively optimizes inputs
+against a known judge—are outside the scope of this work and
+constitute an important direction for future work.

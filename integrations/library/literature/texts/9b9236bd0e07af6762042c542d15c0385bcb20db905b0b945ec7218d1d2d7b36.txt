@@ -1,0 +1,6 @@
+Zhan et al. (2024)
+
+Qiusi Zhan, Zhixiang
+Liang, Zifan Ying, and Daniel Kang. 2024. InjecAgent: Benchmarking Indirect Prompt
+Injections in Tool-Integrated LLM Agents. In
+Findings of ACL.

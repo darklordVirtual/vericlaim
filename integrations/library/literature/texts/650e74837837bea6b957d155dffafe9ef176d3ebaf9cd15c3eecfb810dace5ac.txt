@@ -1,0 +1,5 @@
+Chi, and William Zhang, Stanford University (ryanchi, iyhn8192, jk23541)@stanford.edu, (ethanchi, wxyz)@cs.stanford.edu. Task cites: (Brown et al., 2020; Devlin et al., 2018; Lan et al., 2019; Liu et al., 2019; Radford et al., 2019; Annamoradnejad & Zoghi, 2020; Chen & Soo, 2018; Mao & Liu, 2019; Weller & Seppi, 2019; Khodak et al., 2017; Ghosh et al., 2020; González-Ibáñez et al., 2011; Joshi et al., 2015; McCoy et al., 2019; Kaushik et al., 2019; Gardner et al., 2020; Sennrich, 2016; Burlot et al., 2018; Naik et al., 2018; Zhang et al., 2016; Felbo et al., 2017; Pant & Dadu, 2020; Pelser & Murrell, 2019)
+
+social_support: Zijian Wang, Amazon (zijwang@stanford.edu), and David Jurgens, University of Michigan (jurgens@umich.edu). Task cites: (Wang & Jurgens, 2018)
+
+social_iqa: Maarten Sap and Ronan Le Bras, Allen Institute for AI (maartens, ronanlb)@allenai.org; Hannah Rashkin, Google Research (hrashkin@google.com); Derek Chen, University of Washington (derekchen14@gmail.com); and Yejin Choi, University of Washington and AI2 (yejin@cs.washington.edu).

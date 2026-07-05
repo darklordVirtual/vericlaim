@@ -1,0 +1,8 @@
+So the answer is 04/20/1969. Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY? A: Today is 03/12/2002. So the date 24 hours later will be 03/13/2002. So the answer is 03/13/2002. Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY? A: The last day of February is the 28th, so Jane was born on 02/28/2001. Today is her 16-year old birthday, so today is 02/28/2017. So yesterday was 02/27/2017. So the answer is 02/27/2017. Table 27:
+Few-shot exemplars for full chain of thought prompt for Sports Understanding. Prompt for Sports Understanding
+
+Q: Is the following sentence plausible? “Kyle Palmieri was called for slashing.”
+
+A: Kyle Palmieri is a hockey player. Being called for slashing is part of hockey. So the answer is yes. Q: Is the following sentence plausible? “Joao Moutinho caught the screen pass in the NFC championship.”
+
+A: Joao Moutinho is a soccer player. The NFC championship is part of American football, not soccer. So the answer is no. Q: Is the following sentence plausible?

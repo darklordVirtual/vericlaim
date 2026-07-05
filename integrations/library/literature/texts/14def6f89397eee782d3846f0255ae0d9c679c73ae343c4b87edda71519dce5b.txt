@@ -1,0 +1,57 @@
+∎
+
+Proof of Theorem A.1. Define the monotonized population risk as
+
+(59)
+
+Note that the independence of and implies that for all ,
+
+(60)
+
+Since is bounded, monotone, and one-dimensional, a generalization of the Glivenko-Cantelli Theorem given in Theorem 1 of [dehardt1971generalizations] gives that uniformly over ,
+
+(61)
+
+As a result,
+
+(62)
+
+which implies that
+
+(63)
+
+By definition, almost surely and thus this directly implies
+
+(64)
+
+Finally, since for all , , by Fatou’s lemma,
+
+(65)
+
+∎
+
+Proposition 4.1. Let
+
+(66)
+
+Since , exists almost surely. Using the same argument as in the proof of Theorem 2.1, we can show that . Since is non-increasing in ,
+
+Let be the multiset of loss functions . Then is a function of , or, equivalently, is a constant conditional on . Lemma 3 of [tibshirani2019conformal] implies that
+
+where denotes the Dirac measure at . Together with the right-continuity of , the above result implies
+
+(67)
+
+The proof is then completed by the law of total expectation. ∎
+
+Proposition 4.2. Define the vector , where for all . Let
+
+By sublinearity,
+
+(68)
+
+It is a standard fact that (68) implies
+
+(69)
+
+where . Let be a bounded loss function. Furthermore, let .

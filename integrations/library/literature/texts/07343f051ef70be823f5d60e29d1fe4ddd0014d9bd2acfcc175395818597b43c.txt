@@ -1,0 +1,21 @@
+Brown et al. (2020)
+
+T. Brown, B. Mann, N. Ryder, M. Subbiah, J. D. Kaplan, P. Dhariwal,
+A. Neelakantan, P. Shyam, G. Sastry, A. Askell, et al. Language models are few-shot learners. Advances in neural information processing systems,
+33:1877–1901, 2020. Browne et al. (2012)
+
+C. Browne, E. J. Powley, D. Whitehouse, S. M. M. Lucas, P. I. Cowling,
+P. Rohlfshagen, S. Tavener, D. P. Liebana, S. Samothrakis, and S. Colton. A survey of monte carlo tree search methods. IEEE Transactions on Computational Intelligence and AI in
+Games, 4:1–43, 2012. Campbell et al. (2002)
+
+M. Campbell, A. J. Hoane Jr, and F.-h. Hsu. Deep blue. Artificial intelligence, 134(1-2):57–83,
+2002. Chen et al. (2023)
+
+X. Chen, M. Lin, N. Schärli, and D. Zhou. Teaching large language models to self-debug, 2023. Chowdhery et al. (2022)
+
+A. Chowdhery, S. Narang, J. Devlin, M. Bosma, G. Mishra, A. Roberts, P. Barham,
+H. W. Chung, C. Sutton, S. Gehrmann, et al. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311, 2022. Creswell and Shanahan (2022)
+
+A. Creswell and M. Shanahan. Faithful reasoning using large language models. arXiv preprint arXiv:2208.14271, 2022. Daw et al. (2005)
+
+N. D. Daw, Y.

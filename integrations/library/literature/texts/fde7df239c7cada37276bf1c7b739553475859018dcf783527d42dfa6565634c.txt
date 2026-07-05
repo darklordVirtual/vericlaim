@@ -1,0 +1,16 @@
+Evaluator
+
+The Evaluator component of the Reflexion framework plays a crucial role in assessing
+the quality of the generated outputs produced by the Actor. It takes as input a
+generated trajectory and computes a reward score that reflects its performance within
+the given task context. Defining effective value and reward functions that apply
+to semantic spaces is difficult, so we investigate several variants of the
+Evaluator model. For reasoning tasks, we explore reward functions based on exact
+match (EM) grading, ensuring that the generated output aligns closely with the
+expected solution. In decision-making tasks, we employ pre-defined heuristic
+functions that are tailored to specific evaluation criteria. Additionally, we
+experiment with using a different instantiation of an LLM itself as an Evaluator,
+generating rewards for decision-making and programming tasks. This multi-faceted
+approach to Evaluator design allows us to examine different strategies for scoring
+generated outputs, offering insights into their effectiveness and suitability
+across a range of tasks.

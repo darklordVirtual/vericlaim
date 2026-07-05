@@ -1,0 +1,9 @@
+Let be a family of loss functions indexed by for some domain that may have infinitely many elements. A researcher may want to control at level . Equivalently, we need to find an based on such that
+
+(29)
+
+Though the above worst-case risk is not an expectation, it can still be controlled. Towards this end, we define
+
+(30)
+
+Then the risk is controlled. Proposition 4.4. In the setting of Theorem 2.1, (29) is satisfied.

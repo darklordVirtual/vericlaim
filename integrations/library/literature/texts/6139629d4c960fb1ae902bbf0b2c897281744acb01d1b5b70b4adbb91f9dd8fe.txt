@@ -1,0 +1,19 @@
+Main take-aways include:
+
+•
+
+Our model is capable of outputting toxic language as measured by the PerspectiveAPI. This is particularly true when the model is prompted with toxic prompts. •
+
+Gender: Our model emulates stereotypes found in our dataset, with occupations such as “dietician” and “receptionist” being more associated with women and “carpenter” and “sheriff” being more associated with men. •
+
+Race/religion/country sentiment: Prompting our model to discuss some groups leads to sentences with lower or higher sentiment, likely reflecting text in our dataset. Intersectional Results
+
+We did not investigate intersectional biases. Ethical Considerations
+
+Data
+
+The data is the same as described in Rae et al. (2021). Human Life
+
+The model is not intended to inform decisions about matters central to human life or flourishing. Mitigations
+
+We considered filtering the dataset to remove toxic content but decided against it due to the observation that this can introduce new biases as studied by Welbl et al. (2021). More work is needed on mitigation approaches to toxic content and other types of risks associated with language models, such as those discussed in Weidinger et al. (2021).

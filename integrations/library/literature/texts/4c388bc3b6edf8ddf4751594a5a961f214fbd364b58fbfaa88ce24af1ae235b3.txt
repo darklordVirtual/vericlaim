@@ -1,0 +1,299 @@
+We show categories with at least 5 samples. Category
+Count
+
+License, terms of use, copyright notice
+
+11
+
+Lists of named items
+
+8
+
+Log files and error reports
+
+7
+
+Valid URLs
+
+6
+
+Lists of numbers
+
+5
+
+(a) Perplexity (51 samples)
+
+Category
+Count
+
+US and international news
+
+21
+
+Lists of named items
+
+18
+
+License, terms of use, copyright notice
+
+16
+
+Promotional content
+
+11
+
+Valid URLs
+
+11
+
+Log files and error reports
+
+10
+
+Named individuals
+
+8
+
+High entropy
+
+8
+
+Forum or Wiki entry
+
+7
+
+Configuration files
+
+6
+
+Code
+
+6
+
+(b) Window (119 samples)
+
+Category
+Count
+
+US and international news
+
+40
+
+License, terms of use, copyright notice
+
+31
+
+Lists of named items
+
+17
+
+Forum or Wiki entry
+
+14
+
+Named individuals
+
+13
+
+Promotional content
+
+13
+
+Contact info
+
+12
+
+Log files and error reports
+
+11
+
+Valid URLs
+
+10
+
+Code
+
+10
+
+Tech news
+
+6
+
+Configuration files
+
+6
+
+Pseudonyms
+
+5
+
+(c) zlib (172 samples)
+
+Category
+Count
+
+US and international news
+
+39
+
+Log files and error reports
+
+29
+
+Lists of named items
+
+17
+
+Forum or Wiki entry
+
+12
+
+Named individuals
+
+11
+
+License, terms of use, copyright notice
+
+10
+
+High entropy
+
+9
+
+Configuration files
+
+6
+
+Promotional content
+
+5
+
+Tech news
+
+5
+
+(d) Lowercase (135 samples)
+
+Category
+Count
+
+Log files and error reports
+
+17
+
+Forum or Wiki entry
+
+15
+
+Religious texts
+
+14
+
+Valid URLs
+
+13
+
+High entropy
+
+13
+
+Lists of named items
+
+12
+
+License, terms of use, copyright notice
+
+12
+
+Promotional content
+
+11
+
+Configuration files
+
+11
+
+Named individuals
+
+11
+
+other
+
+9
+
+US and international news
+
+9
+
+Contact info
+
+8
+
+Donald Trump tweets and quotes
+
+7
+
+Code
+
+6
+
+(e) Small (141 samples)
+
+Category
+Count
+
+Valid URLs
+
+17
+
+Log files and error reports
+
+14
+
+US and international news
+
+13
+
+Contact info
+
+12
+
+Religious texts
+
+12
+
+Named individuals
+
+11
+
+Promotional content
+
+11
+
+High entropy
+
+10
+
+Forum or Wiki entry
+
+9
+
+Lists of named items
+
+8
+
+License, terms of use, copyright notice
+
+8
+
+Code
+
+5
+
+Donald Trump tweets and quotes
+
+5
+
+(f) Medium (116 samples)
+
+Table 7: Memorized content found using our six membership inference strategies.

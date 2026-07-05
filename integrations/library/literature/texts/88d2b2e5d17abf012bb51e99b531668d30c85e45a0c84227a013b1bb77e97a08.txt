@@ -1,0 +1,6 @@
+We explore chain-of-thought prompting for various language models on multiple benchmarks. Benchmarks. We consider the following five math word problem benchmarks:
+(1) the GSM8K benchmark of math word problems (Cobbe et al., 2021),
+(2) the SVAMP dataset of math word problems with varying structures (Patel et al., 2021),
+(3) the ASDiv dataset of diverse math word problems (Miao et al., 2020),
+(4) the AQuA dataset of algebraic word problems, and
+(5) the MAWPS benchmark (Koncel-Kedziorski et al., 2016). Example problems are given in Appendix Table 12. Standard prompting. For the baseline, we consider standard few-shot prompting, popularized by Brown et al. (2020), in which a language model is given in-context exemplars of input–output pairs before outputting a prediction for a test-time example. Exemplars are formatted as questions and answers. The model gives the answer directly, as shown in Figure 1 (left). Chain-of-thought prompting. Our proposed approach is to augment each exemplar in few-shot prompting with a chain of thought for an associated answer, as illustrated in Figure 1 (right).

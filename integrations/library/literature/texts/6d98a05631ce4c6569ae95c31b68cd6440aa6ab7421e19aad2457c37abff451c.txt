@@ -1,0 +1,15 @@
+1192--1202, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1151. URL https://aclanthology.org/D18-1151. Marín et al. (2021)
+
+Javier Marín, Aritro Biswas, Ferda Ofli, Nicholas Hynes, Amaia Salvador, Yusuf
+Aytar, Ingmar Weber, and Antonio Torralba. Recipe1M+: A dataset for learning cross-modal embeddings for
+cooking recipes and food images. IEEE Transactions on Pattern Analysis and Machine
+Intelligence, 43(1):187--203, 2021. doi: 10.1109/TPAMI.2019.2927476. URL https://ieeexplore.ieee.org/abstract/document/8758197. Massey et al. (2015)
+
+Philip Massey, Patrick Xia, David Bamman, and Noah A. Smith. Annotating character relationships in literary texts, 2015. URL https://arxiv.org/abs/1512.00728. Matero et al. (2019)
+
+Matthew Matero, Akash Idnani, Youngseo Son, Salvatore Giorgi, Huy Vu, Mohammad
+Zamani, Parth Limbachiya, Sharath Chandra Guntuku, and H. Andrew Schwartz. Suicide risk assessment with multi-level dual-context language and
+BERT. In Proceedings of the Sixth Workshop on Computational
+Linguistics and Clinical Psychology, pp. 39--44, Minneapolis, Minnesota,
+June 2019. Association for Computational Linguistics.

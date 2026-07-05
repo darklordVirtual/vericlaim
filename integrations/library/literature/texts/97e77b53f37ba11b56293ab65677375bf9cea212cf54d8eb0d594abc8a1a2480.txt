@@ -1,0 +1,19 @@
+Win rate vs. ground truth
+
+Alg. Temp
+
+Temp
+
+DPO
+
+0.36
+
+0.31
+
+PPO
+
+0.26
+
+0.23
+
+Table 1: GPT-4 win rates vs. ground truth summaries for out-of-distribution CNN/DailyMail input articles. To further compare the performance of PPO and DPO under distribution shifts, we evaluate the PPO and DPO policies from our Reddit TL;DR summarization experiment on a different distribution, news articles in the test split of the CNN/DailyMail dataset [26], using the best sampling temperatures from TL;DR (0 and 0.25). The results are presented in Table 1. We computed the GPT-4 win rate against the ground-truth summaries in the datasets, using the same GPT-4 (C) prompt we used for Reddit TL;DR, but replacing the words “forum post” with “news article”. For this new distribution, DPO continues to outperform the PPO policy by a significant margin. This experiment provides initial evidence that DPO policies can generalize similarly well to PPO policies, even though DPO does not use the additional unlabeled Reddit TL;DR prompts that PPO uses.

@@ -1,0 +1,17 @@
+Merrill (2020)
+
+William Merrill. On the linguistic capacity of real-time counter automata, 2020. URL https://arxiv.org/abs/2004.06866. Mieder (2019)
+
+Wolfgang Mieder. "Andere zeiten, andere lehren": Sprach-und kulturgeschichtliche
+betrachtungen zum sprichwort. In K. Steyer (ed.), Wortverbindungen - mehr oder weniger fest,
+pp. 415--438. De Gruyter, Berlin, 2019. doi: 10.1515/9783110622768-020. URL https://doi.org/10.1515/9783110622768-020. Mihalcea & Strapparava (2005)
+
+Rada Mihalcea and Carlo Strapparava. Making computers laugh: Investigations in automatic humor
+recognition. In Proceedings of Human Language Technology Conference and
+Conference on Empirical Methods in Natural Language Processing, pp. 531--538, Vancouver, British Columbia, Canada, October 2005. Association for
+Computational Linguistics. URL https://aclanthology.org/H05-1067. Miller et al. (2020)
+
+John Miller, Karl Krauth, Benjamin Recht, and Ludwig Schmidt. The effect of natural distribution shift on question answering
+models. In Hal Daumé III and Aarti Singh (eds.), Proceedings of the
+37th International Conference on Machine Learning, volume 119 of
+Proceedings of Machine Learning Research, pp. 6905--6916.

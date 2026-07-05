@@ -1,0 +1,1 @@
+Figure 5: Sample complexity as the size of the training set varies of confidence estimators measured on the APIGen dataset on the gemma3-12b-it model. The error bands correspond to . Figure 6: auc-euro performance of our mean-pooled activation acute estimators on all 6 LLMs on MMLU across layers.

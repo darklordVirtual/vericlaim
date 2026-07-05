@@ -1,0 +1,17 @@
+1962--1979, Hong Kong,
+China, November 2019a. Association for Computational
+Linguistics. doi: 10.18653/v1/D19-1204. URL https://aclanthology.org/D19-1204. Yu et al. (2019b)
+
+Tao Yu, Rui Zhang, Michihiro Yasunaga, Yi Chern Tan, Xi Victoria Lin, Suyi Li,
+Heyang Er, Irene Li, Bo Pang, Tao Chen, Emily Ji, Shreya Dixit, David
+Proctor, Sungrok Shim, Jonathan Kraft, Vincent Zhang, Caiming Xiong, Richard
+Socher, and Dragomir Radev. SParC: Cross-domain semantic parsing in context. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pp. 4511--4523, Florence, Italy, July
+2019b. Association for Computational Linguistics. doi: 10.18653/v1/P19-1443. URL https://aclanthology.org/P19-1443. Yu et al. (2020)
+
+Weihao Yu, Zihang Jiang, Yanfei Dong, and Jiashi Feng. ReClor: A reading comprehension dataset requiring logical
+reasoning, 2020. URL https://arxiv.org/abs/2002.04326. Yu et al. (2019c)
+
+Xiang Yu, Ngoc Thang Vu, and Jonas Kuhn. Learning the Dyck language with attention-based Seq2Seq models. In Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing
+and Interpreting Neural Networks for NLP, pp. 138--146, Florence, Italy,
+August 2019c.

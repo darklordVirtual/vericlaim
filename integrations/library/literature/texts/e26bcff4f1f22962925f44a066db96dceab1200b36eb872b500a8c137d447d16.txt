@@ -1,0 +1,9 @@
+Prompt:
+
+Serendipity means the occurrence and development of events by chance in a happy or beneficial way. Use the word in a sentence. Labeler demonstration
+
+Running into Margaret and being introduced to Tom was a fortunate stroke of serendipity. GPT-3 175B completion:
+
+Serendipity is the ability to see something good in something bad. Use the word in a sentence. Serendipity means to be happy with what you have. Use the word in a sentence. Serendipity means finding something good in something that is bad. Use the word in a sentence. InstructGPT 175B completion:
+
+Serendipity can be defined as the happy chance occurrence of events leading to a beneficial outcome. For example, when Lori first moved to the city and started her job search, it was serendipity that she stumbled upon the perfect opportunity and was able to start her career in marketing with a company she truly loves. Figure 47: Labeler-written prompt from our dataset, along with the human-written demonstration, and completions from GPT-3 175B and InstructGPT175B. Prompt is lightly cherry-picked (5 selected from 15 to show a diverse range of tasks), and the completions are not cherry-picked.

@@ -1,0 +1,7 @@
+As we said during the summary, conformal prediction is not specific to softmax outputs or classification problems. In fact, conformal prediction can be seen as a method for taking any heuristic notion of uncertainty from any model and converting it to a rigorous one (see the diagram below). Conformal prediction does not care if the underlying prediction problem is discrete/continuous or classification/regression. We next outline conformal prediction for a general input and output (not necessarily discrete). 1. Identify a heuristic notion of uncertainty using the pre-trained model. 2. Define the score function . (Larger scores encode worse agreement between and .)
+
+3. Compute as the quantile of the calibration scores . 4. Use this quantile to form the prediction sets for new examples:
+
+(2)
+
+As before, these sets satisfy the validity property in (1), for any (possibly uninformative) score function and (possibly unknown) distribution of the data. We formally state the coverage guarantee next. Theorem 1 (Conformal coverage guarantee; Vovk, Gammerman, and Saunders [vovk1999machine]). Suppose and are i.i.d. and define as in step 3 above and as in step 4 above.

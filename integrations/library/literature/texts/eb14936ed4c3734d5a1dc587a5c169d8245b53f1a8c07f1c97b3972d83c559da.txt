@@ -1,0 +1,19 @@
+R. Zhang, H. Zhang, and Z. Zheng (2024)
+VL-uncertainty: detecting hallucination in large vision-language model via uncertainty estimation. arXiv preprint arXiv:2411.11919. Cited by: §1,
+§2,
+§5. Y. Zhao, K. Xiong, X. Ding, L. Du, YangouOuyang, Z. Sun, J. Guan, W. Zhang, B. Liu, D. Hu, B. Qin, and T. Liu (2025)
+UFO-RL: uncertainty-focused optimization for efficient reinforcement learning data selection. In The Thirty-ninth Annual Conference on Neural Information Processing Systems,
+
+External Links: Link
+
+Cited by: §2. Z. Zhou, T. Jin, J. Shi, and L. Qing (2025)
+SteerConf: steering LLMs for confidence elicitation. In The Thirty-ninth Annual Conference on Neural Information Processing Systems,
+
+External Links: Link
+
+Cited by: §4.1. C. Zou, X. Guo, R. Yang, J. Zhang, B. Hu, and H. Zhang (2024)
+DynaMath: a dynamic visual benchmark for evaluating mathematical reasoning robustness of vision language models. Cited by: 1st item. This Appendix for "VL-Calibration: Decoupled Verbalized Confidence for Large Vision-Language Models Reasoning" is organized as follows:
+
+•
+
+Experimental Setup and Reproducibility.

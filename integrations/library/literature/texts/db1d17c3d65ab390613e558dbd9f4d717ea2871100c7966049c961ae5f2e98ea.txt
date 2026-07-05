@@ -1,0 +1,51 @@
+B096H2P6G2 is fruit snacks, not freeze dried banana chips. B092JLLYK6 is banana crisps, not apple cinnamon. I can check
+
+B092JLLYK6 first. Observation: OK. Action: click[B092JLLYK6]
+
+Observation:
+
+[Back to Search]
+
+[Prev]
+
+flavor name [apple][apple cinnamon][banana][cantaloupe][peach][pear]
+
+[strawberry][strawberry banana][sampler variety pack][mega variety
+
+pack][orchard variety pack]
+
+size [0.53 ounce (pack of 6)][0.53 ounce (pack of 8)][0.53 ounce (pack
+
+of 16)]
+
+Nature’s Turn Freeze-Dried Fruit Snacks - Banana Crisps - Perfect
+
+For School Lunches or an On-The-Go Snack - No Sugar Added, Non
+
+GMO, Gluten Free, Nothing Artificial (0.53oz) 6-Pack
+
+Price: $12.99
+
+Rating: N.A. [Description]
+
+[Features]
+
+[Reviews]
+
+[Buy Now]
+
+Action: think[For sixteen pack of apple cinnamon freeze dried banana
+
+chips, the item has options ’apple cinnamon’ and ’0.53 ounce (pack of
+
+16)’ and seems good to buy.]
+
+Observation: OK. Action: click[apple cinnamon]
+
+Observation: You have clicked apple cinnamon. Action: click[0.53 ounce (pack of 16)]
+
+Observation: You have clicked 0.53 ounce (pack of 16). Action: click[Buy Now]
+
+Score: 0.125
+
+Score: 1.0

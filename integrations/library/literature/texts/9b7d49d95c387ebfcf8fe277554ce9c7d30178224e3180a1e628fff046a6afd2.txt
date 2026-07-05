@@ -1,0 +1,1 @@
+Note that this is the same expression as for the FSC metric, except that the definition of has changed. Unlike the FSC metric, the user does not have to define an important set of discrete features a-priori—it is a general metric that can apply to any example. See [cauchois2020knowing] and [feldman2021improving] for additional metrics of conditional coverage.

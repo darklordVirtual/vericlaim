@@ -1,0 +1,6 @@
+For the purpose of compliance, the normative sections of this document
+are
+Section 1.1,
+Section 1.3,
+Section 5., and
+Appendix A. Information in tables is normative if it appears in a normative section. All figures (including UML diagrams) are informative. Text in boxes labeled "Example" is informative.

@@ -1,0 +1,66 @@
+[38]
+
+✗
+
+✗
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+BigML [11]
+
+✓
+
+✓
+
+✓
+
+✓
+
+✗
+
+✗
+
+✓
+
+PredictionIO [44]
+
+✓
+
+✗
+
+✗
+
+✓
+
+✓
+
+✗
+
+✓
+
+Google [25]
+
+✗
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Table 2: Particularities of major MLaaS providers. ‘White-box’ refers to the ability to download and use a trained model locally, and ‘Monetize’ means that a user may charge other users for black-box access to her models. Model support for each service is obtained from available documentation. The models listed for Google’s API are a projection based on the announced support of models in standard PMML format [25]. Details on ML models are given in Appendix A. A model is white-box if a user may download a representation
+suitable for local use. It is black-box if accessible only via a prediction query interface. Amazon and Google, for example, provide black-box-only services. Google does not even specify what training algorithm their service uses, while Amazon provides only partial documentation for its feature extraction ex (see Section 5). Some services allow users to monetize trained models by charging others for prediction queries.

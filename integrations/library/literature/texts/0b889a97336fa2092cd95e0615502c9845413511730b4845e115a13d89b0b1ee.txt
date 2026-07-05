@@ -1,0 +1,14 @@
+607--613, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1060. URL https://aclanthology.org/D18-1060. Gao et al. (2021)
+
+Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles
+Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, Shawn Presser,
+and Connor Leahy. The pile: An 800GB dataset of diverse text for language modeling,
+2021. URL https://arxiv.org/abs/2101.00027. Gao et al. (2022)
+
+Leo Gao, Jonathan Tow, Stella Biderman, Jason Phang, Anish Thite, Fazz, Thomas
+Wang, Niklas Muennighoff, sdtblck, Jeffrey Hsu, Eric Tang, Charles Foster,
+uyhcire, Andy Zou, Ben Wang, researcher2, igor0, Kevin Wang, Nicholas Kross,
+and silentv0x. EleutherAI/lm-evaluation-harness: v0.2.0, March 2022. URL https://doi.org/10.5281/zenodo.6332975. Garcez & Lamb (2020)
+
+Artur d’Avila Garcez and Luis C. Lamb. Neurosymbolic AI: The 3rd wave, 2020. URL https://arxiv.org/abs/2012.05876. Gardner et al.

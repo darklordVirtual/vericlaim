@@ -1,0 +1,2 @@
+Figure 3:
+How GPT-3’s answer changes with model size in a concrete example. The smallest model produces a true but uninformative answer. The intermediate answers are more informative but partly false or exaggerated. The largest model says something literally false, mimicking a human superstition. More examples are shown in Figure 7.

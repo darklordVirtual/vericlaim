@@ -1,0 +1,18 @@
+BART-MNLI blocks everything on Chinese (100% IR / 100% FPR)
+yet reaches only 63.3% on English, suggesting that the tested NLI models
+cannot reliably detect permission-boundary violations. This gap is expected: plugin attacks perform their declared
+operation while adding a covert side-channel (e.g., telemetry
+exfiltration), so the tool call is partially consistent
+with the task, making the violation harder to detect from
+intent–action alignment alone. Table 6 reports the per-subtype breakdown
+( per subtype). Privilege escalation is the most reliably detected
+(86.7–93.3%), likely because system-level operations
+(file permission changes, admin API calls) diverge sharply
+from declared plugin scope. Supply-chain attacks are also well-detected (83.3–96.7%),
+as references to external downloads or out-of-scope URLs are
+typically anomalous. Exfiltration and persistence are harder
+(46.7–96.7%), as their malicious parameters blend into
+legitimate-looking telemetry or configuration fields. Per-subtype rates vary across languages and models
+(e.g., GPT-4o-mini EN achieves 90.0–96.7% across all
+subtypes, versus 46.7–90.0% on ZH),
+reinforcing the cross-lingual asymmetry discussed below.

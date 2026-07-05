@@ -1,0 +1,36 @@
+{"fsid": "arxiv_1705-08500", "n": 35, "overlap": 200, "source_sha256": "2f4c5679b0f8492f53f89e36abe3f586a092dcf1f263dc45fd98f4eba4980f68", "target": 1200}
+{"section": "", "seq": 0, "sha256": "9733ddd2f3fb35755c05a87536ad79381182ee84c252640ea56418ac9918e6af"}
+{"section": "Selective Classification for Deep Neural Networks", "seq": 1, "sha256": "522ba29e80fb299dea954609103f919d632951de7454a4a7cff20ea86389039e"}
+{"section": "1 Introduction", "seq": 2, "sha256": "018a5abbe2fbe837d83c58f3145ac6fe403b98083452e755b246a99c66fa1e00"}
+{"section": "1 Introduction", "seq": 3, "sha256": "6242fb61d8eb1d07cbc58d91806a774d1d7f8ed4f55a7a99b62d801be516f90e"}
+{"section": "1 Introduction", "seq": 4, "sha256": "8813f45ebd7e01c985b0a75b9085410283ca0b37bac4a700151a20b5620b5fad"}
+{"section": "1 Introduction", "seq": 5, "sha256": "d1ef5a549fdf62fa03dcd032802b7f9892ffb8eb1078f7d365ed173cccf20a9b"}
+{"section": "1 Introduction", "seq": 6, "sha256": "d9340a0719f6b5287e53cb1972fd8edd9b1f765426c0a598f8da3d46ac0ab1cd"}
+{"section": "1 Introduction", "seq": 7, "sha256": "8b53725dd4516397bb1316999bb5870d211423eec292ecd1d792fae64c324433"}
+{"section": "2 Problem Setting", "seq": 8, "sha256": "5f6136d8eedc663d938c2111b7084d3588f4372e7c189180b6b6911ff5b5bc7c"}
+{"section": "2 Problem Setting", "seq": 9, "sha256": "bea29cf25058a32531f376551cd97137fa9263fb73ccab3e0f69ab2d4fdb7181"}
+{"section": "3 Selection with Guaranteed Risk Control", "seq": 10, "sha256": "657c57427a4fc6a2f2b0ce794c7ad429921f102cbf1025a0292052788555aa95"}
+{"section": "3 Selection with Guaranteed Risk Control", "seq": 11, "sha256": "bdc42cbb820d74aa08cca8589b74759a09dacf716a286bad0f65ed766b6c3825"}
+{"section": "3 Selection with Guaranteed Risk Control", "seq": 12, "sha256": "d21bda99275761e55f0903fe4ab7c0f70bd55728d9cff6e11bff94ed467d9db3"}
+{"section": "3 Selection with Guaranteed Risk Control", "seq": 13, "sha256": "b9d4a4c2e4dea698aa1f89394dc99064b158b417fcd7c81133417d5b5e2801b5"}
+{"section": "4 Confidence-Rate Functions for Neural Networks", "seq": 14, "sha256": "3b12ec3bb0e3297034418dcf33fa184a8b0c05e88b14826a9a983eb065a35523"}
+{"section": "4 Confidence-Rate Functions for Neural Networks", "seq": 15, "sha256": "117f6335b29e93f6ab4b117c1a89c3cb066ab139e0158e0003c7e7e20610c047"}
+{"section": "4 Confidence-Rate Functions for Neural Networks", "seq": 16, "sha256": "dc6af3c2f013acf75d7007d5914a43d85de68ecee516ffa6ccceef1247a0d7f0"}
+{"section": "4 Confidence-Rate Functions for Neural Networks", "seq": 17, "sha256": "66e4112a500f33383b472d33a8246593af7b846499297ef369d7d609e8fa93c9"}
+{"section": "5 Empirical Results", "seq": 18, "sha256": "3b9e0d91b45d81a130667aa233efa56414fc80b5de9e497d5eebef4cd8bd9999"}
+{"section": "5 Empirical Results", "seq": 19, "sha256": "d7110dc1c78a1b02efebefa0ab5f99c27b5f3d14a6daffb6b28af632a97c0f19"}
+{"section": "5.1 Selective Guaranteed Risk for CIFAR-10", "seq": 20, "sha256": "f1bac57dca71d62bd9dd9c5699d32bd7fcdf07906879117e74fd989544b730c6"}
+{"section": "5.1 Selective Guaranteed Risk for CIFAR-10", "seq": 21, "sha256": "c53ccb4cdd6c032968dc158c47299c4e17e1cfd87eb8d98d1a6a34b594851b10"}
+{"section": "5.1 Selective Guaranteed Risk for CIFAR-10", "seq": 22, "sha256": "344b70dcb54cb28bd88e7f55d7239517e5b1fed009975f9476385272d582f8bc"}
+{"section": "5.2 Selective Guaranteed Risk for CIFAR-100", "seq": 23, "sha256": "a70bf1a9dcd745783f6342d6601a822942f2efd3c361f00ca0e44a8ea366af7d"}
+{"section": "5.2 Selective Guaranteed Risk for CIFAR-100", "seq": 24, "sha256": "b350a0c86b0889dcd39030aecafefabf60d882f73fcc158db14d4ee575645f55"}
+{"section": "5.3 Selective Guaranteed Risk for ImageNet", "seq": 25, "sha256": "8d774b2c6ca25ca2b94993a85a0a07fe6285fa240cf7e90d8a0582b818e39e12"}
+{"section": "5.3 Selective Guaranteed Risk for ImageNet", "seq": 26, "sha256": "61ed59648526dff61cb30d705b20113eed5978d0e36237a9b045eec5baa62034"}
+{"section": "5.3 Selective Guaranteed Risk for ImageNet", "seq": 27, "sha256": "b2cb782cea52336c80da5820b05d6ab90c548f6f0f85fa4b8812bb1cbae535d3"}
+{"section": "6 Concluding Remarks", "seq": 28, "sha256": "81a5f630543da5c676a114764a634e16c2149554c19841f9d8fef75b96e0c36c"}
+{"section": "6 Concluding Remarks", "seq": 29, "sha256": "afb4425e86279ff72ab4e2d40e10e0e8a2cbaefdb24da2338bafe3cd024e7166"}
+{"section": "Acknowledgments", "seq": 30, "sha256": "18e63a08a7c39f9c458ecfae740f21c33f4cde25cf9cfdfdcd19e9406199977b"}
+{"section": "References", "seq": 31, "sha256": "b886ef655ea4487c2697fe7ee9e410263b1705c57a6eb364a77a947ab3679e83"}
+{"section": "References", "seq": 32, "sha256": "a470a4bd3cb913a36f6bf2f0763ae0d04c983bc242aadbbb4f3bff0ac339e360"}
+{"section": "References", "seq": 33, "sha256": "3d7882ecd36ee128ef58f68fed042fe6aba43df6bf2d5789dfb5dfb164c2a316"}
+{"section": "References", "seq": 34, "sha256": "a9d9c8af598c1324c653daac094a0709921682499b4e3987b0aea8d3dc05b340"}

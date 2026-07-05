@@ -1,0 +1,14 @@
+505--516, Minneapolis,
+Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1050. URL https://aclanthology.org/N19-1050. Askell et al. (2021)
+
+Amanda Askell, Yuntao Bai, Anna Chen, Dawn Drain, Deep Ganguli, Tom Henighan,
+Andy Jones, Nicholas Joseph, Ben Mann, Nova DasSarma, Nelson Elhage, Zac
+Hatfield-Dodds, Danny Hernandez, Jackson Kernion, Kamal Ndousse, Catherine
+Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, and
+Jared Kaplan. A general language assistant as a laboratory for alignment, 2021. URL https://arxiv.org/abs/2112.00861. Atanasova et al. (2020)
+
+Pepa Atanasova, Jakob Grue Simonsen, Christina Lioma, and Isabelle Augenstein. Generating fact checking explanations. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 7352--7364, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.656. URL https://aclanthology.org/2020.acl-main.656. Attardo (2017)
+
+Salvatore Attardo. Humor in language. In Oxford Research Encyclopedia of Linguistics. Oxford
+University Press, 2017. doi: 10.1093/acrefore/9780199384655.013.342.

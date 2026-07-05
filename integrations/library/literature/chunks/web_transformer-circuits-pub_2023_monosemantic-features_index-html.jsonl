@@ -1,0 +1,182 @@
+{"fsid": "web_transformer-circuits-pub_2023_monosemantic-features_index-html", "n": 181, "overlap": 200, "source_sha256": "b7c20dbeda83555a7616297b98716d9786d709bb6a0afe18a5e36f340fc03459", "target": 1200}
+{"section": "", "seq": 0, "sha256": "6b1addd4faec5b85fcf503ea1dfb9266617dcbcfba25062c69bb97cd097ca85c"}
+{"section": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning", "seq": 1, "sha256": "1cac3a0cb3e9c804b0cc5a8e0462f5a5893328a93111fd5798f7b0391e80cd77"}
+{"section": "Authors", "seq": 2, "sha256": "4138a8816366b56dc54ff1f81f00a53d396a0cd9248952aeef38d1a4b1398f76"}
+{"section": "Affiliations", "seq": 3, "sha256": "744205e43529c1fc39bc4ed37dbcd1e91facc78d2a2d136bc893b023ac3c75f5"}
+{"section": "Published", "seq": 4, "sha256": "5f98f7e63cd6b389df055986eb47340593ae520b5a6370be14e22af83519bae8"}
+{"section": "Published", "seq": 5, "sha256": "d2443ad0fb57a807710762bf82f9cc744acbb87d969c37f4c4fd2fdc728c9d8c"}
+{"section": "Published", "seq": 6, "sha256": "6d68bce966dc29bf2228e2ca427eca45d6adb16b0c908f9d91a9f36eee5be8ff"}
+{"section": "Published", "seq": 7, "sha256": "f655c50d61ce82fa74b56b7e4a66fe7d2d1c90f83a30e86e939b3ec3de8d494b"}
+{"section": "Published", "seq": 8, "sha256": "444afb7b3379fe55b413691b3fe5d9e35558ab75e9afb25222cfc9d54a5f23b2"}
+{"section": "Published", "seq": 9, "sha256": "1d1a7bd12efaef36a448070d70295c656dadbf566df9c506604bc7f863cbfcfb"}
+{"section": "Summary of Results", "seq": 10, "sha256": "9713161a111d2f6e5fa8b12ccaf4f87519a88aa5d69e6de5b9fdf5dbcd9cd8a2"}
+{"section": "Summary of Results", "seq": 11, "sha256": "06cf7ef42405b4ce71b406694c541caf49e7f93df7e24f6a3dcfe88be94c7ea2"}
+{"section": "Summary of Results", "seq": 12, "sha256": "3f7a41b9f6a04ce7a660bd2c887e49816103eddc2350aa94fded282ca4c560a9"}
+{"section": "Problem Setup", "seq": 13, "sha256": "53984e351198ec9f6ebecabb8dc2db6caabd3481740fb5809b0c5700ad8769b3"}
+{"section": "Problem Setup", "seq": 14, "sha256": "9a710c12583e57929fab28326d1372faa433ef3d7cd3c15abf5753d562bab813"}
+{"section": "Features as a Decomposition", "seq": 15, "sha256": "9b806a4af6628e5f883e84523c5deac5a24310711843d4b3e65f5867c65b6aa5"}
+{"section": "Features as a Decomposition", "seq": 16, "sha256": "a3cc5a9fbd3388c7f0eaf9d79c78dcbb3efc1b2f4293f082b9773ac30ac4d060"}
+{"section": "Features as a Decomposition", "seq": 17, "sha256": "81e91c00f77592d614a709b0450e811c93255af5cf4b67f0ec80e241fed44a34"}
+{"section": "Features as a Decomposition", "seq": 18, "sha256": "e665bde1ec72b1595806c955d3563fcd7ab886abd5ac795114e518ce2804246b"}
+{"section": "What makes a good decomposition?", "seq": 19, "sha256": "6956171dbfd175797fa3332303454fc9932ca63f4a2c4b63849abb34fcfceff9"}
+{"section": "What makes a good decomposition?", "seq": 20, "sha256": "30d23e4c9d02fb42c171f2144f9feb4ed330dc44caabde8920b0f192a59af738"}
+{"section": "What makes a good decomposition?", "seq": 21, "sha256": "ccd275eb11e39da263c8da7059cfd3ac3db73b8c7fa76af955e598c5d9bb4279"}
+{"section": "Why not use architectural approaches?", "seq": 22, "sha256": "565b4d4da78888aa70b2ff9030b9bf35efa45362da32b29d2a4ae431a38c7f0b"}
+{"section": "Why not use architectural approaches?", "seq": 23, "sha256": "0f14afec0afafc0d85c52a77824225b375c552858d3f6e1ec3a743ac0d4611e9"}
+{"section": "Why not use architectural approaches?", "seq": 24, "sha256": "6d344f727884b84abe653aff06aa2e4f05b733c64312d6a67d272973d0fb74c8"}
+{"section": "Why not use architectural approaches?", "seq": 25, "sha256": "ac57321ba03200ed831dd73280a0f0fc54232d825f228885aff68029b5352bb8"}
+{"section": "Why not use architectural approaches?", "seq": 26, "sha256": "670a5320324af55ca5ecd61668ba12900464c2f0b0abd051705d6eb70c34cce3"}
+{"section": "Using Sparse Autoencoders To Find Good Decompositions", "seq": 27, "sha256": "3096d315626e5ef5ea28ccf0cf9f7f4db4626f3c01954b289e3ad321c9e80dca"}
+{"section": "Using Sparse Autoencoders To Find Good Decompositions", "seq": 28, "sha256": "010f59c58b07edb2c478bc049aca1f32ee3e4e2acab0b09694aedb3996f66c76"}
+{"section": "Using Sparse Autoencoders To Find Good Decompositions", "seq": 29, "sha256": "1ae2386f564e860f541dcd4861ccc34828168c8c1c4cce8a8d360982ce03707b"}
+{"section": "Sparse Autoencoder Setup", "seq": 30, "sha256": "92cbd255fe1f7e004af29fc824d3c58d5443f8c2c2a28b8c5d92dd384afcfe51"}
+{"section": "Sparse Autoencoder Setup", "seq": 31, "sha256": "24f69307cc6ec0214ee0f787f9435bc89e175ff5e9dce0b6e30189a9819da47d"}
+{"section": "Sparse Autoencoder Setup", "seq": 32, "sha256": "12b4f849b8499f549cd1577a5f2cc978dff024e8d444d491e234b4cc8487ed8c"}
+{"section": "Sparse Autoencoder Setup", "seq": 33, "sha256": "d90d958bff863d483823807cfdffdca06a40c39c664efc3f008efab0ddaa5d37"}
+{"section": "The (one-layer) model we're studying", "seq": 34, "sha256": "09a806106a58e9a8b3294c50659072e428b930199641ec9108eccbbc0ef8f5ee"}
+{"section": "The (one-layer) model we're studying", "seq": 35, "sha256": "fe277e9158692e278ef1d5c0188518874540deddb688c77117951ff8e2d12250"}
+{"section": "Notation for Features", "seq": 36, "sha256": "c57f4e5af3c00260b4d54dec95767baf4662cf0077fc2f5ae7c60d3ae735ed48"}
+{"section": "Interface for Exploring Features", "seq": 37, "sha256": "c6ba09890685671e6496c254c278805b74185218659908ae60172f50e83de89f"}
+{"section": "Detailed Investigations of Individual Features", "seq": 38, "sha256": "0b4ad98c8a5da9513a473aa794f0910d04c7c9674a652c8d11253aca19a4bd95"}
+{"section": "Detailed Investigations of Individual Features", "seq": 39, "sha256": "7a3dbcfc2bcba9df1c98b62ca1201b0a18d5ecae51db31738af85f613f514aa2"}
+{"section": "Detailed Investigations of Individual Features", "seq": 40, "sha256": "5ed588f9f89947651057447c12210f6639e338d65eb969ef9c648dd4e54fb010"}
+{"section": "Detailed Investigations of Individual Features", "seq": 41, "sha256": "ea269ae4e3c00fb37e3e2c3b94c6c7181154bbc29eb8a43334412617db70d258"}
+{"section": "Arabic Script Feature", "seq": 42, "sha256": "a537e1a54c50b88f996b595c90560805caaa6cbe40647b02cc87a89cfd8cac95"}
+{"section": "Arabic Script Feature", "seq": 43, "sha256": "94cb69d735ee49b0942d72b9be60b1caf9514a4e66d971a91370de77fab25f26"}
+{"section": "Arabic Script Feature", "seq": 44, "sha256": "ce6e8ffb61cd47de79d559102eff1d7238a7b815f4351849e0040243392282e4"}
+{"section": "Arabic Script Feature", "seq": 45, "sha256": "b743702e38a73c6663a363a23b4efeb0f0c8e6ab6cec781a7f114867eb88c534"}
+{"section": "Arabic Script Feature", "seq": 46, "sha256": "9272972fc2bfcceb64993e3b562b1c1068933a2fa2dbe3a62eed7bd2489c6208"}
+{"section": "Arabic Script Feature", "seq": 47, "sha256": "eebe69e68a5efb7ee5672414cba98a777fdf95535142032e4b77d66ea415bb77"}
+{"section": "Arabic Script Feature", "seq": 48, "sha256": "603cf64522b1edc1ef77e2d8c94945320d21a84b439f72474b9bb95fcc47a58e"}
+{"section": "Arabic Script Feature", "seq": 49, "sha256": "654a4c9d741ef892456014eb22138a1aa7220142816e819e3d7ff25415d23a55"}
+{"section": "Arabic Script Feature", "seq": 50, "sha256": "a9124a3940f97b61f65a25221d557855358f46ea508d26905932deb57d3e5963"}
+{"section": "Arabic Script Feature", "seq": 51, "sha256": "5d999a6cbc4afbf2336a5298407974b199e52583713760b2d6a947b15745d74e"}
+{"section": "Arabic Script Feature", "seq": 52, "sha256": "052c3f0a14fe35056c03baf314ff5329e156bc4d524339bf100c0306916c3b55"}
+{"section": "Arabic Script Feature", "seq": 53, "sha256": "15558922cbd09e9bfa4a88a35e05f3f8c1e0bede72ddf09a9d5e625e1ab73958"}
+{"section": "Arabic Script Feature", "seq": 54, "sha256": "592ddc221d3cd9a4eb7b6076f5637291a4781b14f76534859222a42ac618152c"}
+{"section": "Arabic Script Feature", "seq": 55, "sha256": "6ecaa71e5e6b00ac56d3c5bed4d277c9c970c3cd7c132b9aaac2867070ef411a"}
+{"section": "Arabic Script Feature", "seq": 56, "sha256": "4d7ca3573f22a871ce1ac5c1ebd8e2e7618013c30b55b32fba4669016e908268"}
+{"section": "Arabic Script Feature", "seq": 57, "sha256": "eea21c4f588ca25424a8893925c43b411f3284d663355f3789716cb460c532e5"}
+{"section": "DNA Feature", "seq": 58, "sha256": "e867c85593508d5b0208c9976c6e4203f7f4fea0f635a3f43df2995219fee93b"}
+{"section": "DNA Feature", "seq": 59, "sha256": "fae50bff187dfadb03eca1f2311fe67b627e5a9f88a43e3b84bbaacce9da94fa"}
+{"section": "DNA Feature", "seq": 60, "sha256": "9973205420c6dd2297f5157cfe480e7f11036b61658b2cb0e6e2fe126f0db9d1"}
+{"section": "DNA Feature", "seq": 61, "sha256": "c4adf90b7eae66471f6a0de4264124acfea5f22381ea5d7a134b61b9be3645e2"}
+{"section": "Base64 Feature", "seq": 62, "sha256": "db6d8701cb59a9e10ec78ff332834f1172afea8a4b1095c6f0eb81aa954cff4f"}
+{"section": "Base64 Feature", "seq": 63, "sha256": "0f579bf18e05d04fe88f6ab0f46d04cb145bbce984c7809dc5a0a5238d155d60"}
+{"section": "Base64 Feature", "seq": 64, "sha256": "e7343d2581a97edd910b0739624ce357b9290473d7d88318e23a0949d3a482bf"}
+{"section": "Base64 Feature", "seq": 65, "sha256": "1d45f5e997c0ef26ed5fcd897ac43b5d0f44b438b1b0f44bb22d8e518b0a8b39"}
+{"section": "Hebrew Feature", "seq": 66, "sha256": "1b3804ecf5bfe21ab26180c6ca98db4030be6dffccbaa59af7e73fc86547c2aa"}
+{"section": "Hebrew Feature", "seq": 67, "sha256": "eea74078392d201a7ea01d6661ba7d4125e3e10dc4a564e077fbaaea0e22f1c9"}
+{"section": "Global Analysis", "seq": 68, "sha256": "986ff88697b059d6fe5184eaaa980e5e2eed8229bb27522143482bb72983c116"}
+{"section": "Global Analysis", "seq": 69, "sha256": "475033bd12b560eb4864113d77d266c5d34ad9fe687dc8be9d31b850a56f0b08"}
+{"section": "How Interpretable is the Typical Feature?", "seq": 70, "sha256": "1418ae40ce16f3b6aee5cc4959fc3829412de9b0fb19409520d4ecdce34471f1"}
+{"section": "How Interpretable is the Typical Feature?", "seq": 71, "sha256": "36d9d9ff9558b5fbb8fbd552e442084f4b6974147681a9664305decae9f45646"}
+{"section": "How Interpretable is the Typical Feature?", "seq": 72, "sha256": "15be2909bccf624b1e33d2aba011c6f7d97271ba38d7b8943ba05045e6cb8788"}
+{"section": "How Interpretable is the Typical Feature?", "seq": 73, "sha256": "0eae751d7d0df398797ab6bf3682d21767fdce6748c7b4816b38941b4c85c626"}
+{"section": "How Interpretable is the Typical Feature?", "seq": 74, "sha256": "08a52cf3d272ab2fa6633e90398da3212fbeb74c7abfcc60ec020ab503ff7a9d"}
+{"section": "How Interpretable is the Typical Feature?", "seq": 75, "sha256": "a8ae21389a7d9f99e5ed309f321185c5f92924d25e5bdb3d64b21b4caefa7336"}
+{"section": "How Interpretable is the Typical Feature?", "seq": 76, "sha256": "3695f27b0187df1cbe176f71c146c8a802d9567e8b703dc4118bda9c2fd3d56b"}
+{"section": "How Interpretable is the Typical Feature?", "seq": 77, "sha256": "cea0205401c0324f25ed4656b7f71f90cafd989535207008575831dab4e0462c"}
+{"section": "How much of the model does our interpretation explain?", "seq": 78, "sha256": "3098aaeebea3417a61578dcecbca041eaaab7ab50c297a894603d2159e79c6ff"}
+{"section": "How much of the model does our interpretation explain?", "seq": 79, "sha256": "2a7b286167cef22067b28e8f974410f34c29e0196d3df249f0382b7a5ed50773"}
+{"section": "How much of the model does our interpretation explain?", "seq": 80, "sha256": "4023c43fdba13b3136a8a19d55491c574bf24c10737eddd09453fd5c84af59ad"}
+{"section": "How much of the model does our interpretation explain?", "seq": 81, "sha256": "1021796e1d018b462ad6dc5e2b4a32735746161139b614eca151f833fb5684c3"}
+{"section": "Do features tell us about the model or the data?", "seq": 82, "sha256": "4538e30ea3c62aa2c72e1df3a7554ee04001bbb0afc2bda9db2bc7492ee0f74a"}
+{"section": "Do features tell us about the model or the data?", "seq": 83, "sha256": "faf5b7c9b8b82153031ae2490f5a03d26096af847bd6afc1141df7a2b0edaba5"}
+{"section": "Do features tell us about the model or the data?", "seq": 84, "sha256": "e6c22ea95f4e25c6adf4048af12a56c3bc9d73bf0c82639f6b90efe9d5f2c1fb"}
+{"section": "Phenomenology", "seq": 85, "sha256": "7c35220325fd485da898f0663386ae6202c45ca3c2a1fa68f1fe0f5c6c19d9ec"}
+{"section": "Phenomenology", "seq": 86, "sha256": "d36c7690c81bac73b3ce8722802a3c246f534f8385442f759020bfeec05cb89d"}
+{"section": "Feature Motifs", "seq": 87, "sha256": "99de0426d57983d701bb4475e7552bdcac9669d3c5b7b62849f87638685fdcb4"}
+{"section": "Feature Motifs", "seq": 88, "sha256": "63e431d25c193f1e3543cd6d68593db9cb51301423d681a1c2e7c0f28e88dd37"}
+{"section": "Feature Motifs", "seq": 89, "sha256": "3bf534b47cce86ad14365955d3f34b69ce5af857738ff5dd6fabcad5f5be1fea"}
+{"section": "Feature Splitting", "seq": 90, "sha256": "bf0c74f999058d0504eff240a52491f6968dfd91333b1b09187509c8b0f3a125"}
+{"section": "Feature Splitting", "seq": 91, "sha256": "7306da6510031632844bbba374bd929db1d6d6f5730b5ecb701823b751e64601"}
+{"section": "Feature Splitting", "seq": 92, "sha256": "cb1993e556369e08de3bede297981bb47da7e1ae1fbd4a76cc472b30d5239f2b"}
+{"section": "Feature Splitting", "seq": 93, "sha256": "113bcc7928018f0393e199ab78828e2ace2f68b29de9e69dee3e9c473899b5eb"}
+{"section": "Feature Splitting", "seq": 94, "sha256": "cc298a7b16fa7c4aa47f61d973a3f45a88d555dc791dde75a0cdf9ceb5bfbba7"}
+{"section": "Feature Splitting", "seq": 95, "sha256": "e396f78b2fc2d849b2918b8b0e68541a31b6262fe0dd655a966d61ccee02ef93"}
+{"section": "Feature Splitting", "seq": 96, "sha256": "ac4668b8c0fc1c9283a9ba361fcd5c3e9c6319c2d689114a7abfd195e6e1bd60"}
+{"section": "Feature Splitting", "seq": 97, "sha256": "d01cccb1f9157751e634a14880a0e6e70b055e678a59532d461c0d81fe200ad8"}
+{"section": "Feature Splitting", "seq": 98, "sha256": "bf5e02fc8a76bc5c97eb34adf8c998e6b4d7abb135d8a305fb9a58ee29510495"}
+{"section": "Feature Splitting", "seq": 99, "sha256": "52e6a9a7f4379c9fd63a18517f50bfe6831e744dca190462585610d4e299acba"}
+{"section": "Feature Splitting", "seq": 100, "sha256": "bdfcec6b6b22504465caf33ca011968a2e87013b13a1368b812ea755b08501c0"}
+{"section": "Universality", "seq": 101, "sha256": "43de052320e52c3a3422a30f5bf7d0d245d460ed7064b8c983245661275285e4"}
+{"section": "Universality", "seq": 102, "sha256": "9ce02449dd0af08e876c989b7beb2a612f38e77594382a1a7fd06f9335fd0b6a"}
+{"section": "Universality", "seq": 103, "sha256": "9d6d9de48e882da4d8c6be7d9880c5dad923e17c2164d60a0b9ba4074d9a1a43"}
+{"section": "Universality", "seq": 104, "sha256": "c9fd8b4ee71798221e48822edab58015a52f13931b0a93585598b973fd14b2fd"}
+{"section": "Universality", "seq": 105, "sha256": "d09b2f93231eb6a27c6d34716c1cc3ca605ef64c6b997b8077979c2d35c249da"}
+{"section": "Universality", "seq": 106, "sha256": "21f9995527ab7680a969fb57de063df9f3d65805b95c8536e44452cc3f2b5837"}
+{"section": "Universality", "seq": 107, "sha256": "bd9b829baf6611651c27db46a32a49579cd2b02b71e1b8da7c855a5ed2c53cda"}
+{"section": "Universality", "seq": 108, "sha256": "b814d033fb51742f29bdc0dbc97f13c77b87f1116cf888bde9a69291bba90069"}
+{"section": "Universality", "seq": 109, "sha256": "7644eca9fdfcc39b04ca2186871d64c97b3ce610d6fa8555e8ccbc535b74b0a9"}
+{"section": "Universality", "seq": 110, "sha256": "3a0267634c603b5a4585979f0ecb3a102727f235b5b2a38bb9cef86972358639"}
+{"section": "Universality", "seq": 111, "sha256": "4e0696ed7598e34eb3aa3a0413d6265de11cb942ae9f2c2ba794f861c2ed7b5b"}
+{"section": "\"Finite State Automata\"", "seq": 112, "sha256": "de892b492d416da0b96c392696df92362420d311cf34df86bcf88d7d275cff6c"}
+{"section": "\"Finite State Automata\"", "seq": 113, "sha256": "bdca4505b541ee479ea5dfa992b3a15537f3ce90e2861180b966b44c6319c6fd"}
+{"section": "\"Finite State Automata\"", "seq": 114, "sha256": "6ffd5f4b98c98197ae2fc5a7d659fe558efe1733e6c5408b39f5c9b49090fcf7"}
+{"section": "\"Finite State Automata\"", "seq": 115, "sha256": "3e34b5810b88abebd5f2a1899d759ef9403e518ad77d574d3fe5fda011f3ac14"}
+{"section": "\"Finite State Automata\"", "seq": 116, "sha256": "3b743182200cd262bbb179c2a38ec8d2f7b37091450ffa709ca514d96aaf077a"}
+{"section": "\"Finite State Automata\"", "seq": 117, "sha256": "c89a68ef44cc8c8ab7fc9531c4a5871106e78069520683ec39be15421bed3f76"}
+{"section": "Related Work", "seq": 118, "sha256": "8ba744606be186de52a6bf608fbd9e2aee5f3db05a2228f30f5aa15441507af1"}
+{"section": "Related Work", "seq": 119, "sha256": "f988facbca63c9b12e7fcd437d03e5254112ad51f645d2e4741dae101b6837e0"}
+{"section": "Related Work", "seq": 120, "sha256": "48525be89101cbe0f702ce92ea49bc8c75f0c2bf45ce00854e6b2bd060882f3d"}
+{"section": "Related Work", "seq": 121, "sha256": "3565b7fa5b2ca4fe7d2b9658a52dd10bad77e46c6c6f6a61fec1119b38f8b3b3"}
+{"section": "Related Work", "seq": 122, "sha256": "757c622596fcbde1d661e91daf8adc592d752cb21f400a07199b545d7588a9dd"}
+{"section": "Related Work", "seq": 123, "sha256": "bf15f428d230e56477708cf174de19e5800de0d368bfb8e089749ea99f9d919a"}
+{"section": "Related Work", "seq": 124, "sha256": "a651fb58be833646c9e7c39d25bcf0bfbcd5dd5b4b483e28c8eae89577bd14f4"}
+{"section": "Related Work", "seq": 125, "sha256": "614b823322cb0443891db10e30c46f50fe4680ed5f6a90d7e115d7120d55d692"}
+{"section": "Theories of Superposition", "seq": 126, "sha256": "f4dd44aed17845e38aef79fa4b38000c00e5e610711555b986dc851446f3b52a"}
+{"section": "Theories of Superposition", "seq": 127, "sha256": "569d552754a470d861a31118907a5b8b468cee059832d6604c08df13b35f6209"}
+{"section": "Theories of Superposition", "seq": 128, "sha256": "2c9bc81d50c76149bfc43a4ff3e24f50aee39d1a139e8461f41b1b185b1fde82"}
+{"section": "Are \"Token in Context\" Features Real?", "seq": 129, "sha256": "84f62826626ccf909c1858549b11826984d7292f5c5043a89f5be9aa963fc311"}
+{"section": "Are \"Token in Context\" Features Real?", "seq": 130, "sha256": "3a627f951e398bfc657f2c2c8d7dbc9ce2856275b4db9bd4a4bef98571712734"}
+{"section": "Future Work", "seq": 131, "sha256": "31bffd24d6bd9675bf3afb172f2ff8920d7daeb1e90daea489eefd760baa69f5"}
+{"section": "Future Work", "seq": 132, "sha256": "ede471d26da4a9b980a2843bf7f7c9810b38574a026a7d9725e0076baf0f6133"}
+{"section": "Future Work", "seq": 133, "sha256": "f4673a80730d5193cc5a8ac753beaeace1658bd9cfcd251cdaaa4adaf1ed9113"}
+{"section": "Future Work", "seq": 134, "sha256": "6ff0114e08d2a8bddad7b039565147f14fe0cf6c41f0e23d2e92de45d4f5a0e8"}
+{"section": "Future Work", "seq": 135, "sha256": "1072919265c2a5bd692470175c075a233f3109f5eb62f1129f1408b763272b16"}
+{"section": "Comments & Replications", "seq": 136, "sha256": "f3bd9e24542f66b76bbbebd0fa453aa4e532b8a2ed1fd585fe49fbaec5f7122e"}
+{"section": "Replication & Tutorial", "seq": 137, "sha256": "57a50d01301ab6b21ccfa6947398193ac0b4546e44c773547918f0ad807b195f"}
+{"section": "Replication & Tutorial", "seq": 138, "sha256": "65264987caaa69161825a9e23a3cd184c65a0b389affd1c9e2c705b5631ab01d"}
+{"section": "Replication & Tutorial", "seq": 139, "sha256": "f1b13f343731536e45e3d440e332e7df941cf4d054a1ce13e0eec17ec29fb6e1"}
+{"section": "Author Contributions Statement", "seq": 140, "sha256": "3a2e49b44e328995895796647e7a622644d898bef58292b30535fc066fc20d3f"}
+{"section": "Author Contributions Statement", "seq": 141, "sha256": "5c2bb3d8706162115e186aef78e045e86733ea1f7b6f636431cc8970cfa8b3c1"}
+{"section": "Author Contributions Statement", "seq": 142, "sha256": "0a1c370b11926299be622776d52755e11b4a248d01ca55edfdafe6628aaa8174"}
+{"section": "Author Contributions Statement", "seq": 143, "sha256": "11a27baf3aff43b27ca20695701f7aca372222d46de25a515e20ef5aff33fba4"}
+{"section": "Author Contributions Statement", "seq": 144, "sha256": "b327c7e9127aca9966af43a6961578a43573ae1a23ad0b07d7f4082f8948ad9c"}
+{"section": "Author Contributions Statement", "seq": 145, "sha256": "1e21a636046985fac8446f2debdd6770fdf796f2ac3efa3ae0af48892957039e"}
+{"section": "Acknowledgments", "seq": 146, "sha256": "4d21bfbfd9ad5b44de2191a47c3394e448ed368ebb293f83b02025cf36999b0c"}
+{"section": "Citation Information", "seq": 147, "sha256": "47589defd259839514546866baf73935e02a033fb6dc8e8e00268443be71845b"}
+{"section": "Feature Proxies", "seq": 148, "sha256": "88726e8a7bb6b019b4b72a94e42426d2932b57e0b50a95ddfe49e44b70eb7168"}
+{"section": "Feature Proxies", "seq": 149, "sha256": "dd5587fb3862fad4e99a8b06a86042f31c81b9b4ea24d3d0f687d62d8303122a"}
+{"section": "Feature Proxies", "seq": 150, "sha256": "52a8c04c8d88ec6c662eefc3088666231d46afee0b8cff2dc6206d032e70e5d0"}
+{"section": "Feature Ablations", "seq": 151, "sha256": "c41bb87361a9b6b45578a885e9adf3747d01e495786109cce9c85d914efeaba3"}
+{"section": "Feature Interpretability Rubric", "seq": 152, "sha256": "2066c95fdc6906fedcc6f72880ee1ce58915dd0473f6aaa5dba969f21d952b7d"}
+{"section": "Feature Density Histograms", "seq": 153, "sha256": "84e54d9b9e14ddf37d7c2d386353a32e2e8e8c83f1881b280a389f4d0694fc7a"}
+{"section": "Feature Density Histograms", "seq": 154, "sha256": "a3a78542d706c2de0350bd773d3f18fb2d3ac8eb1d148cb8a4cd44b220d893fb"}
+{"section": "Feature Density Histograms", "seq": 155, "sha256": "c206fd3561deda413f6aaf20137e3acc7b62c50e80062425da20ab4e2670c6bb"}
+{"section": "Feature Density Histograms", "seq": 156, "sha256": "a34c01922ad1fca5139e4822e6973e3fbfc46bb254ef4360b1deb797c2a12203"}
+{"section": "Transformer Training and Preprocessing", "seq": 157, "sha256": "183c9bec59dbeeb78e3bde987361b707b4370b2b1acd76ec6d278a8c493fb6c1"}
+{"section": "Advice for Training Sparse Autoencoders: Autoencoder Dataset and Basic Training", "seq": 158, "sha256": "1307cab00b30fd0c9476a98db4bf03dbe3d0edf21a3c3053e70e647592dc9769"}
+{"section": "Advice for Training Sparse Autoencoders: Autoencoder Architecture", "seq": 159, "sha256": "cbf60acb1389ec0048dd7d0749b722bf15204fad4bace5c7235a0f57184dd82c"}
+{"section": "Advice for Training Sparse Autoencoders: Autoencoder Architecture", "seq": 160, "sha256": "55973e83f9017081300b1a0972f811955389306b8bfed330d392c4e85b018e02"}
+{"section": "Advice for Training Sparse Autoencoders: Autoencoder Architecture", "seq": 161, "sha256": "f32e1b3f5d00a96c9a9b394c343cc3add82c80a522a48af2dfeec4f1c5129729"}
+{"section": "Advice for Training Sparse Autoencoders: Autoencoder Architecture", "seq": 162, "sha256": "a524c0b8e0df59a0a7fa892ca0dd6500e2b35371fe3f4c020899d0006bc53b72"}
+{"section": "Advice for Training Sparse Autoencoders: Autoencoder Architecture", "seq": 163, "sha256": "9c9fe0b80b69790e9c2dba378e886d9f3fbbcd7bc6e701f2145468de3c7bb492"}
+{"section": "Advice for Training Sparse Autoencoders: Autoencoder Architecture", "seq": 164, "sha256": "69ee27435b2dc3dad1a4bbfa8ff91a8285eee37132ecb6c92e5ae40f023edb4b"}
+{"section": "Advice for Training Sparse Autoencoders: Autoencoder Architecture", "seq": 165, "sha256": "9be26e0f0fdc457d9f96c997e670e1fb53d320971f7ba848d8a4c1c022158877"}
+{"section": "Advice for Training Sparse Autoencoders: Autoencoder Architecture", "seq": 166, "sha256": "0f175a9d1d1e5cb6333e3aa8b475fdc01e828eb5c89997de0311b7fea6ac707f"}
+{"section": "Advice for Training Sparse Autoencoders: Hyperparameter Selection", "seq": 167, "sha256": "d1bcf2dca43cfffba8c6109febb2965894c1105f9651b08d6bad3a7b8d247691"}
+{"section": "Advice for Training Sparse Autoencoders: Hyperparameter Selection", "seq": 168, "sha256": "24a086843c3bd49958bd11f77cb0ceac47190b2d9acc69c349ff8973ece83401"}
+{"section": "Advice for Training Sparse Autoencoders: Hyperparameter Selection", "seq": 169, "sha256": "3369909b164feda7bef8956151bebc4a9276b3cf7ba351e3f7ff0c076322b404"}
+{"section": "Activation Visualization", "seq": 170, "sha256": "035e65a37de15b5249845097ddcb914dde4d72ace578bdee74b2bc03afde0c6f"}
+{"section": "Feature UMAPs", "seq": 171, "sha256": "51a4fecd8f2f2b959c0dfa7eefa98bc20ce81fb7ec28e993f2d6cc6ab8f4f34b"}
+{"section": "Automated Interpretability", "seq": 172, "sha256": "c96ac97ea2acac8971660bbe46a3fc661169ac8f2011ec35049e6eab64ae5dd7"}
+{"section": "Automated Interpretability", "seq": 173, "sha256": "a9864f354c2389b38f16572570a4459c34ba657444684fe19638162fa247460c"}
+{"section": "Automated Interpretability", "seq": 174, "sha256": "e595897b147a516237011e0829f443e8033740f94e7d316ccf4c2ca01d046291"}
+{"section": "Automated Interpretability", "seq": 175, "sha256": "0aef239bce12cc1e23525bd4cf9495b5a94735f47fc6d83d9d1bbb860e16bd21"}
+{"section": "Automated Interpretability", "seq": 176, "sha256": "567cc5c9829f65a5c9472aa42126f81aa75d69c32f67421796e25b6c1a812be4"}
+{"section": "Automated Interpretability", "seq": 177, "sha256": "5a0e93c5217d7c1d5a8d45ba6e1b27543185a5ed5c5435f0a832498a1e31de9e"}
+{"section": "Automated Interpretability", "seq": 178, "sha256": "0c7641884261b42e93ea35941a79141703b12e4b079f87f9536026fe6be50028"}
+{"section": "Automated Interpretability", "seq": 179, "sha256": "9e650d5b07b35dbeef2c504c2ba491cbd63ff5ee90ec88cf690f33a0411c8f20"}
+{"section": "Automated Interpretability", "seq": 180, "sha256": "7cfb0757c3f412fac0d71efbfac687a8ed042f3369af3a3a5348daac94306dd3"}

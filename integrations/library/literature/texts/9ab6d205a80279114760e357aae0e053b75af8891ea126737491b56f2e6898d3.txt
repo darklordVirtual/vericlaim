@@ -1,0 +1,15 @@
+(2015)
+
+Sumit Gulwani, José Hernández-Orallo, Emanuel Kitzelmann, Stephen H. Muggleton, Ute Schmid, and Benjamin Zorn. Inductive programming meets the real world. Commun. ACM, 58(11):90–99, Oct. 2015. doi: 10.1145/2736282. URL https://doi.org/10.1145/2736282. Gulwani et al. (2017a)
+
+Sumit Gulwani, Oleksandr Polozov, and Rishabh Singh. Program synthesis. Foundations and Trends in Programming Languages, 4(1–2):1--119, 2017a. doi: 10.1561/2500000010. URL http://dx.doi.org/10.1561/2500000010. Gulwani et al. (2017b)
+
+Sumit Gulwani, Oleksandr Polozov, and Rishabh Singh. Program Synthesis. NOW, Boston, 2017b. URL
+https://www.microsoft.com/en-us/research/wp-content/uploads/2017/10/program_synthesis_now.pdf. Guo et al. (2017)
+
+Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian Q. Weinberger. On calibration of modern neural networks. In Doina Precup and Yee Whye Teh (eds.), Proceedings of the
+34th International Conference on Machine Learning, volume 70 of
+Proceedings of Machine Learning Research, pp. 1321--1330. PMLR,
+06--11 Aug. 2017. URL https://proceedings.mlr.press/v70/guo17a.html. Gupta et al. (2021)
+
+Aditya Gupta, Jiacheng Xu, Shyam Upadhyay, Diyi Yang, and Manaal Faruqui.

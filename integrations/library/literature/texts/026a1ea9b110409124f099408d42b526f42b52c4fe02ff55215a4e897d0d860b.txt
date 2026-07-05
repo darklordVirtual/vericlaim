@@ -1,0 +1,15 @@
+Then, we compute a score function for i = 1,…,n and . This score function is exactly the same as those from Section 2, except that the model is now given as an argument because it is no longer fixed. Then, we calculate the conformal quantile,
+
+(53)
+
+Then, we collect all values of that are sufficiently consistent with the previous data are collected into a confidence set for the unknown value of :
+
+(54)
+
+This prediction set has the same validity guarantee as before:
+
+Theorem 5 (Full conformal coverage guarantee [vovk2005algorithmic]). Suppose are drawn i.i.d. from , and that is a symmetric algorithm. Then the choice of above satisfies
+
+(55)
+
+More generally, the above holds for exchangeable random variables ; the proof of Theorem 5 critically relies on the fact that the score is exchangeable with . We defer the proof to [vovk2005algorithmic], and note that upper bound in (1) also holds when the score function is continuous. What about computation? In principle, to compute (54), we must iterate over all , which leads to a substantial computational burden.

@@ -1,0 +1,14 @@
+This interpretation is supported by Qwen3.5-9B, which shows no
+such gap (77.5% on both languages), suggesting that models with
+stronger Chinese–English code-mixed training are not affected. To test whether the cross-lingual key mismatch is causal,
+we conduct an ablation ( malicious samples, 10 per
+subtype) in which JSON argument keys are translated to Chinese. We report results for the three judges with meaningful
+precision–recall balance; Llama-3.1-8B’s indiscriminate
+blocking (87.5% FPR) renders key-translation comparison
+uninformative; Qwen3.5-4B’s elevated plugin FPR (25.0% ZH)
+similarly confounds key-translation comparison. Subset baseline IRs differ slightly from the full-set values in
+Table 3 due to the fixed subset selected for this
+ablation (the first 10 samples per subtype in dataset order)
+(GPT-4o-mini: 62.5% vs. 75.0%; Qwen2.5-14B: 75.0% vs. 77.5%; Qwen3.5-9B: 72.5% vs. 77.5%). After key translation, GPT-4o-mini’s IR decreases to
+55.0% ( pp) rather than improving;
+Qwen2.5-14B drops from 75.0% to 70.0% ( pp).

@@ -1,0 +1,7 @@
+namely, improving the ability of financially disinterested parties such as academics to verify the claims made by AI developers in industry, especially in the context of compute-intensive systems. Example use cases include:
+
+•
+
+Providing open-source alternatives to commercial AI systems: given the current norm in AI development of largely-open publication of research, a limiting factor in providing open source alternatives to commercially trained AI models is often the computing resources required. As models become more compute-intensive, government support may be required to maintain a thriving open source AI ecosystem and the various benefits that accrue from it. •
+
+Increasing scrutiny of commercial models: as outlined in the institutional mechanisms section (see the subsections on red team exercises and bias and safety bounties), there is considerable value in independent third parties stress-testing the models developed by others.

@@ -1,0 +1,7 @@
+The general rule is "measure first, optimize second". Rule #28: Be aware that identical short-term behavior does not imply identical long-term behavior. Imagine that you have a new system that looks at every doc_id and exact_query,
+and then calculates the probability of click for every doc for every query. You find that its behavior is nearly identical to your current system in both
+side by sides and A/B testing, so given its simplicity, you launch it. However, you notice that no new apps are being shown. Why? Well, since your
+system only shows a doc based on its own history with that query, there is no
+way to learn that a new doc should be shown. The only way to understand how such a system would work long-term is to have
+it train only on data acquired when the model was live. This is very
+difficult.

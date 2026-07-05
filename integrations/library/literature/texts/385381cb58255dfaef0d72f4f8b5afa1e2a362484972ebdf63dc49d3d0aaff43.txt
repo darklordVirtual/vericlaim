@@ -1,0 +1,42 @@
+91.1 / 95.6
+
+—
+
+Cascade
+(Q14B)
+
+ZH
+
+95.6
+
+6.0
+
+94.8
+
+97.2 / 93.9 / 96.3
+
+—
+
+EN
+
+94.7
+
+9.7
+
+92.5
+
+96.5 / 92.8 / 95.6
+
+—
+
+IR=Interception Rate; FPR=False Positive Rate;
+=harmonic mean of IR and , in %. D/I/R: per-subtype IR for Direct injection / Indirect injection / RAG poisoning (TC1/TC2). Overall IR and : computed over all TC1/TC2 malicious samples (). FPR: computed over TC1/TC2 benign samples only (). P(%): TC3 plugin IR, evaluated on a separate TC3 malicious set ();
+see Sect. 7.4 for analysis. Cascade P(—): TC3 is excluded from cascade simulation; TC3 threats require
+
+Cascade P(—): Layer 1/3 enforcement (sandbox isolation, schema validation),
+not Layer 2 calibration. †Degenerate all-block behavior on TC3: blocks all 40 benign plugin samples (plugin FPR=100%),
+
+†inflating TC3 IR to 100%; TC1/TC2 FPR () remains 0% as those benign calls are not plugin-formatted. ‡Binary threshold evaluation on Chinese only; EN binary evaluation omitted as 0% ZH IR indicated
+
+‡negligible differentiation; EN continuous scores computed for ROC analysis (AUC = 0.56; Sect. 7.1.3). Figure 2 visualizes interception rates by
+attack subtype on the Chinese dataset. Figure 2.

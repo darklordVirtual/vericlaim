@@ -1,0 +1,16 @@
+In this section, we provide a set of questions designed to elicit the
+information that a datasheet for a dataset might contain, as well as a
+workflow for dataset creators to use when answering these
+questions. The questions are grouped into sections that roughly match
+the key stages of the dataset lifecycle: motivation, composition,
+collection process, preprocessing/cleaning/labeling, uses,
+distribution, and maintenance. This grouping encourages dataset
+creators to reflect on the process of creating, distributing, and
+maintaining a dataset, and even alter this process in response to
+their reflection. We note that not all questions will be applicable
+to all datasets; those that do not apply should be skipped. To illustrate how these questions might be answered in practice, we
+provide in the appendix an example datasheet for Pang and Lee’s
+polarity dataset (Pang and Lee, 2004). We answered some of the
+questions with “Unknown to the authors of the datasheet.” This is
+because we did not create the dataset ourselves and could not find the
+answers to these questions in the available documentation.

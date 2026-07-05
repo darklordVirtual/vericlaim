@@ -1,0 +1,23 @@
+CHI. Yan et al. (2020)
+
+Yujun Yan, Kevin Swersky, Danai Koutra, Parthasarathy Ranganathan, and Milad
+Hashemi. 2020. Neural execution engines:
+Learning to execute subroutines. NeurIPS. Yao et al. (2021)
+
+Huihan Yao, Ying Chen, Qinyuan Ye, Xisen Jin, and Xiang Ren. 2021. Refining language models with compositional explanations. NeurIPS. Ye and Durrett (2022)
+
+Xi Ye and Greg Durrett. 2022. The unreliability of
+explanations in few-shot in-context learning. arXiv preprint arXiv:2205.03401. Yordanov et al. (2021)
+
+Yordan Yordanov, Vid Kocijan, Thomas Lukasiewicz, and Oana-Maria Camburu. 2021. Few-shot out-of-domain
+transfer learning of natural language explanations. arXiv preprint arXiv:2112.06204. Zaidan et al. (2007)
+
+Omar Zaidan, Jason Eisner, and Christine Piatko. 2007. Using “annotator
+rationales” to improve machine learning for text categorization. NAACL. Zaremba and Sutskever (2014)
+
+Wojciech Zaremba and Ilya Sutskever. 2014. Learning to execute. arXiv preprint arXiv:1410.4615. Zelikman et al. (2022)
+
+Eric Zelikman, Yuhuai Wu, and Noah D. Goodman. 2022. STaR: Bootstrapping
+reasoning with reasoning. arXiv preprint arXiv:2203.14465. Zhao et al. (2021)
+
+Tony Z.

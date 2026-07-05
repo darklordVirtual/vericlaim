@@ -1,0 +1,32 @@
+class LoadEvent... internal override void Process() {
+Cargo.HandleLoad(this);
+}
+
+internal Port priorPort;
+
+class Cargo... internal void HandleLoad(LoadEvent ev) {
+ev.priorPort = _port;
+_port = null;
+_ship = ev.Ship;
+_ship.HandleLoad(ev);
+}
+
+To reverse the event we add a reverse method that mirrors the
+process method, calling a reversal method on the domain object. class LoadEvent... internal override void Reverse() {
+Cargo.ReverseLoad(this);
+}
+
+class Cargo... public void ReverseLoad(LoadEvent ev) {
+_ship.ReverseLoad(ev);
+_ship = null;
+_port = ev.priorPort;
+}
+
+In this case the event takes on a bunch of mutable prior data
+which is part of its processing data. In cases like this, simple
+fields suffice. Other cases can require a more sophisticated data
+structure. When the cargo handles an arrival event, it keeps track
+of whether it's been in Canada eh. It can do this with a simple
+boolean field. To store the prior value on the event needs more
+than a simple field since many cargoes can be affected by an
+arrival. So in this case I use a map indexed by the cargo. class Cargo...

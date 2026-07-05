@@ -1,0 +1,9 @@
+By contrast, prompt length alone accounts for only a
+3.5 difference (short prompts at
+num_predict=50: P50 574 ms vs. full-length 1,981 ms), confirming that output capping
+(6.5) is the dominant factor. (EN num_predict=10 latency was not separately measured;
+given the same model and serving configuration, a comparable
+speedup is expected.)
+The fourth cell (short prompts, num_predict=10)
+yields P50 280 ms ( probe), the fastest
+configuration. See limitation (v).

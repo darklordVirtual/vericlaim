@@ -1,0 +1,91 @@
+= s
+
+return longest_so_far
+
+def x_or_y(n, x, y):
+
+"""A␣simple␣program␣which␣should␣return␣the␣value␣of␣x␣if␣n␣is
+
+␣␣␣␣a␣prime␣number␣and␣should␣return␣the␣value␣of␣y␣otherwise. ␣␣␣␣Examples:
+
+␣␣␣␣for␣x_or_y(7,␣34,␣12)␣==␣34
+
+␣␣␣␣for␣x_or_y(15,␣8,␣5)␣==␣5
+
+␣␣␣␣"""
+
+### COMPLETION 1 (WRONG): ###
+
+return x if n % x == 0 else y
+
+### COMPLETION 2 (WRONG): ###
+
+if n > 1:
+
+return x if n%2 != 0 else y
+
+else:
+
+return "Error"
+
+### COMPLETION 3 (WRONG): ###
+
+if n%x == 0:
+
+return x
+
+else:
+
+return y
+
+### COMPLETION 4 (WRONG): ###
+
+return x if n % x == 0 else y
+
+### COMPLETION 5 (WRONG): ###
+
+if n < x:
+
+return n
+
+else:
+
+return y
+
+### COMPLETION 6 (WRONG): ###
+
+for i in range(2,n-1):
+
+if (n % i == 0):
+
+return y
+
+return x
+
+### COMPLETION 7 (WRONG): ###
+
+if n == 2:
+
+return x
+
+elif n == 3:
+
+return y
+
+else:
+
+return x_or_y(n-1, x, y)
+
+### COMPLETION 8 (WRONG): ###
+
+if n == x:
+
+return x
+
+elif n == y:
+
+return y
+
+else:
+
+return n

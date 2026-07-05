@@ -7,6 +7,12 @@
     "Colleen Honigsberg",
     "Daniel E. Ho"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:45.924929+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2206.04737"
+  },
+  "fulltext_sha256": "b937709f98ce5660010c6884d0276f2087163ccc174353e96c3bab08d7fb0551",
   "registrar": "arxiv",
   "retrieval": {
     "query": "bibliography of remora_paper.md",

@@ -1,0 +1,15 @@
+Also, it is best if the incoming models are
+semantically interpretable (for example, calibrated) so that changes of the
+underlying models do not confuse the ensemble model. Also, enforce that an
+increase in the predicted probability of an underlying classifier does not
+decrease the predicted probability of the ensemble. Rule #41: When performance plateaus, look for qualitatively new sources of information to add rather than refining existing signals. You’ve added some demographic information about the user. You've added some
+information about the words in the document. You have gone through template
+exploration, and tuned the regularization. You haven’t seen a launch with more
+than a 1% improvement in your key metrics in a few quarters. Now what? It is time to start building the infrastructure for radically different
+features, such as the history of documents that this user has accessed in the
+last day, week, or year, or data from a different property. Use
+wikidata
+entities or something internal to your company (such as Google’s
+knowledge graph). Use deep
+learning. Start to adjust your expectations on how much return
+you expect on investment, and expand your efforts accordingly.

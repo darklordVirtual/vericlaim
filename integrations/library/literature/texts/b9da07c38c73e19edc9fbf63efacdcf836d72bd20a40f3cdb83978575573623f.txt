@@ -1,0 +1,20 @@
+InstructGPT 175B completion:
+
+Bake, uncovered, at 350° for 20-25 minutes. - 8 zucchini squash, ends trimmed
+- 1 pound ground beef
+- 1 cup finely chopped zucchini pulp
+- 1 small onion, chopped
+- 8 ounces diced mushrooms
+- 1 sweet red or green pepper, diced
+- 1/2 cup grated cheese
+- 1/4 cup ketchup
+- Salt and pepper to taste
+- 1 cup shredded cheese
+
+Figure 49: Labeler-written prompt from our dataset, along with the human-written demonstration, and completions from GPT-3 175B and InstructGPT175B. Prompt is lightly cherry-picked (5 selected from 15 to show a diverse range of tasks), and the completions are not cherry-picked. Prompt:
+
+ELI5: What’s the cause of the "anxiety lump" in our chest during stressful or disheartening experiences? Labeler demonstration
+
+The änxiety lumpïn your throat is caused by muscular tension keeping your glottis dilated to maximize airflow. The c̈lenched chestör ḧeartachef̈eeling is caused by the vagus nerve which tells the organs to pump blood faster, stop digesting, and produce adrenaline and cortisol. GPT-3 175B completion:
+
+ANSWER: I will try to give you a full and complete answer to your question without jumping too far into the weeds.

@@ -1,0 +1,18 @@
+Constitutional ai: Harmlessness from ai feedback. arXiv preprint arXiv:2212.08073, 2022b. Biderman et al. (2023)
+
+Stella Biderman, Hailey Schoelkopf, Quentin Gregory Anthony, Herbie Bradley,
+Kyle O’Brien, Eric Hallahan, Mohammad Aflah Khan, Shivanshu Purohit,
+USVSN Sai Prashanth, Edward Raff, et al. Pythia: A suite for analyzing large language models across training
+and scaling. In International Conference on Machine Learning, pages
+2397–2430. PMLR, 2023. Biggio et al. (2013)
+
+Battista Biggio, Igino Corona, Davide Maiorca, Blaine Nelson, Nedim
+Šrndić, Pavel Laskov, Giorgio Giacinto, and Fabio Roli. Evasion attacks against machine learning at test time. In Machine Learning and Knowledge Discovery in Databases:
+European Conference, ECML PKDD 2013, Prague, Czech Republic, September 23-27,
+2013, Proceedings, Part III 13, pages 387–402. Springer, 2013. Carlini and Wagner (2017a)
+
+Nicholas Carlini and David Wagner. Adversarial examples are not easily detected: Bypassing ten detection
+methods. In Proceedings of the 10th ACM workshop on artificial
+intelligence and security, pages 3–14, 2017a. Carlini and Wagner (2017b)
+
+Nicholas Carlini and David Wagner.

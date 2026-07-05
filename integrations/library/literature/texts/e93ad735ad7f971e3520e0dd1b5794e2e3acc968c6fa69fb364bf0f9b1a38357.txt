@@ -1,0 +1,12 @@
+Achieving human parity in conversational speech recognition. arXiv preprint arXiv:1610.05256, 2016. Zadrozny & Elkan (2001)
+
+Zadrozny, Bianca and Elkan, Charles. Obtaining calibrated probability estimates from decision trees and
+naive bayesian classifiers. In ICML, pp. 609–616, 2001. Zadrozny & Elkan (2002)
+
+Zadrozny, Bianca and Elkan, Charles. Transforming classifier scores into accurate multiclass probability
+estimates. In KDD, pp. 694–699, 2002. Zagoruyko & Komodakis (2016)
+
+Zagoruyko, Sergey and Komodakis, Nikos. Wide residual networks. In BMVC, 2016. Zhang et al. (2017)
+
+Zhang, Chiyuan, Bengio, Samy, Hardt, Moritz, Recht, Benjamin, and Vinyals,
+Oriol. Understanding deep learning requires rethinking generalization. In ICLR, 2017.

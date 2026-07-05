@@ -1,0 +1,73 @@
+The Pacific Ocean is not the Atlantic Ocean. Answer:
+
+REFUTES
+
+Example 5908 (gt: SUPPORTS)
+
+\model
+
+Claim:
+
+Princess Mononoke is a film. Thought 1:
+
+I need to search Princess Mononoke and find if it is a film. Action 1:
+
+Search[Princess Mononoke]
+
+Observation 1:
+
+Princess Mononoke ... Thought 2:
+
+From the observation, it says that Princess Mononoke is a film. Action 2:
+
+Finish[SUPPORTS]
+
+Observation 2:
+
+Episode finished
+
+Act
+
+Claim:
+
+Princess Mononoke is a film. Action 1:
+
+Search[Princess Mononoke]
+
+Observation 1:
+
+Princess Mononoke ... Action 2:
+
+Finish[SUPPORTS]
+
+Observation 2:
+
+Episode finished
+
+CoT
+
+Claim:
+
+Princess Mononoke is a film. Thought:
+
+Let’s think step by step. Princess Mononoke is a movie, and movies are films. Answer:
+
+SUPPORTS
+
+Example 1951 (gt: REFUTES)
+
+\model
+
+Claim:
+
+Soyuz was part of the American space program. Thought 1:
+
+I need to search Soyuz and find if it was part of the American space program. Action 1:
+
+Search[Soyuz]
+
+Observation 1:
+
+Soyuz is a transliteration... Thought 2:
+
+It does not mention the American space program, so I need to search "American space program" to find if it was part of it.

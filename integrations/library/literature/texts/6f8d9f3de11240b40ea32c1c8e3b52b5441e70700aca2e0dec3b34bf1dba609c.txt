@@ -1,0 +1,11 @@
+In this section we derive the gradient of the DPO objective:
+
+(21)
+
+We can rewrite the RHS of Equation 21 as
+
+(22)
+
+where . Using the properties of sigmoid function and , we obtain the final gradient
+
+After using the reward substitution of we obtain the final form of the gradient from Section 4.

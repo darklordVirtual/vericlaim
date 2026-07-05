@@ -1,0 +1,47 @@
+Engineers v. United States :: 435 U.S. 679”, 1978
+
+URL: https://supreme.justia.com/cases/federal/us/435/679/
+
+[194]
+Federal Trade Commision and U.S. Department of Justice
+
+“Antitrust Guidelines for Collaborations Among Competitors”, 2000
+
+URL: https://www.ftc.gov/sites/default/files/documents/public%7B%5C_%7Devents/joint-venture-hearings-antitrust-guidelines-collaboration-among-competitors/ftcdojguidelines-2.pdf
+
+[195]
+Osbert Bastani, Carolyn Kim and Hamsa Bastani
+
+“Interpreting Blackbox Models via Model Extraction”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1705.08504
+
+[196]
+Luca Pulina and Armando Tacchella
+
+“An Abstraction-Refinement Approach to Verification of Artificial Neural Networks”
+
+In CEUR Workshop Proceedings, 2010, pp. 243–257
+
+URL: http://link.springer.com/10.1007/978-3-642-14295-6%7B%5C_%7D24
+
+[197]
+Changliu Liu et al. “Algorithms for Verifying Deep Neural Networks”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1903.06758
+
+[198]
+Daniel Selsam, Percy Liang and David L. Dill
+
+“Developing Bug-Free Machine Learning Systems With Formal Mathematics”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1706.08605
+
+[199]
+C Hutchison et al.

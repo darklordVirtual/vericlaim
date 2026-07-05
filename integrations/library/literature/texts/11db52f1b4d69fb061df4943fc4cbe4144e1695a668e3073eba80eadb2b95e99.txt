@@ -1,0 +1,4 @@
+Least-to-most prompting enables complex reasoning in large language
+models, 2022. URL https://arxiv.org/abs/2205.10625. Zhu et al. (2021)
+
+Yunchang Zhu, Liang Pang, Yanyan Lan, Huawei Shen, and Xueqi Cheng. Adaptive information seeking for open-domain question answering. arXiv preprint arXiv:2109.06747, 2021.

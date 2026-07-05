@@ -1,0 +1,16 @@
+URL http://arxiv.org/abs/1410.3916. Weston et al. [2018]
+
+Jason Weston, Emily Dinan, and Alexander Miller. Retrieve and refine: Improved sequence generation models for
+dialogue. In Proceedings of the 2018 EMNLP Workshop SCAI: The 2nd
+International Workshop on Search-Oriented Conversational AI, pages 87–92,
+Brussels, Belgium, October 2018. Association for Computational Linguistics. doi: 10.18653/v1/W18-5713. URL https://www.aclweb.org/anthology/W18-5713. Wolf et al. [2019]
+
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe
+Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien
+Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+and Alexander M. Rush. Huggingface’s transformers: State-of-the-art natural language
+processing. ArXiv, abs/1910.03771, 2019. Zhang and Bansal [2019]
+
+Shiyue Zhang and Mohit Bansal. Addressing semantic drift in question generation for semi-supervised
+question answering.

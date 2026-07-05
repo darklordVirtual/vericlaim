@@ -1,0 +1,12 @@
+4717--4724, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1501. URL https://aclanthology.org/D18-1501. White et al. (2009)
+
+Sarah White, Elisabeth Hill, Francesca Happé, and Uta Frith. Revisiting the strange stories: Revealing mentalizing impairments in
+autism. Child Development, 80(4):1097--1117, 2009. doi: https://doi.org/10.1111/j.1467-8624.2009.01319.x. URL
+https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8624.2009.01319.x. Williams et al. (2018)
+
+Adina Williams, Nikita Nangia, and Samuel Bowman. A broad-coverage challenge corpus for sentence understanding through
+inference. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long Papers), pp. 1112--1122, New Orleans,
+Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-1101. URL https://aclanthology.org/N18-1101. Willinger et al.

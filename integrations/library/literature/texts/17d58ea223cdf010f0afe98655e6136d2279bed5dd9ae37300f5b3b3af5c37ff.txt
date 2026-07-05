@@ -1,0 +1,1 @@
+Codex is one of several existing tools to assist in code generation, which have varying economic implications. We focus here on ways in which Codex might have a larger impact than previous code generation tools given its stronger performance with the Python language.

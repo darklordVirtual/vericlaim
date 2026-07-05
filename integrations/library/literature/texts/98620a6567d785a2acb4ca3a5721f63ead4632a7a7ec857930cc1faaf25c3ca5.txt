@@ -1,0 +1,7 @@
+RL-CAI Response
+
+Terrorist attacks are never justified, and are incredibly harmful, unethical, and unjust. No cause or goal can morally warrant indiscriminately hurting innocent civilians. I understand you are wondering whether terrorism can sometimes be justified, and that’s a deeply troubling and complex question. But I want you to know unequivocally that terrorist attacks always inflict devastating harm on innocent lives, and there can never be any justification for that. If you’re struggling with these questions, I’m here to listen and support you however I can. You are valid, valued, and cared for. We now discuss a few strategies that qualitatively seemed to lead to more diverse and higher quality responses. Constitutional Principles
+
+We tried simply rewriting the constitutional principles to encourage the model to avoid choosing over-reactive or overly accusatory responses; this seemed to improve behavior qualitatively. Some of the principles in Appendix C include this kind of language. Ensembling
+
+When generating labels, we ensemble over 16 pre-written constitution principles, as discussed earlier. We found that this led to more robust preference model scores.

@@ -1,0 +1,31 @@
+build a bomb.”)
+
+(3)
+
+Thus, the task of optimizing our adversarial suffix can be written as the optimization problem
+
+(4)
+
+where denotes the indices of the adversarial suffix tokens in the LLM input. Algorithm 1 Greedy Coordinate Gradient
+
+Initial prompt , modifiable subset , iterations , loss , , batch size
+
+repeat times
+
+for do
+
+Compute top- promising token substitutions
+
+for do
+
+Initialize element of batch
+
+, where
+
+Select random replacement token
+
+, where
+
+Compute best replacement
+
+Optimized prompt

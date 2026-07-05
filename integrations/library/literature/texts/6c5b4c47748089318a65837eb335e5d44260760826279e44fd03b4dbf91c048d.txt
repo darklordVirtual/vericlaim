@@ -1,0 +1,9 @@
+Thus, our reported ‘‘expert’’ scores are in actuality strong lower bounds to a theoretical maximum of human performance. \begin{overpic}[height=150.00023pt]{figures/evaluator_histogram_easy.pdf}
+\put(-10.0,0.0){{\small(a)}}
+\end{overpic}\begin{overpic}[height=150.00023pt]{figures/evaluator_histogram_medium.pdf}
+\put(-15.0,0.0){{\small(b)}}
+\end{overpic}\begin{overpic}[height=150.00023pt]{figures/evaluator_histogram_hard.pdf}
+\put(-2.0,0.0){{\small(c)}}
+\end{overpic}
+Figure App.9:
+Representative histograms of expert evaluators performance on an (a) easy, (b) intermediate, and (c) hard task. Identical colors represent repeated evaluation by the same evaluator.

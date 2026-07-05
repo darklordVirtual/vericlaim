@@ -1,0 +1,31 @@
+Fortunately the risk only
+occurs when actually in a port, just being in the waters is
+safe. So our arrival event has to keep track of this. class ArrivalEvent... Port _port;
+Ship _ship;
+internal ArrivalEvent (DateTime occurred, Port port, Ship ship) : base (occurred) {
+this._port = port;
+this._ship = ship;
+}
+internal Port Port {get {return _port;}}
+internal Ship Ship {get{return _ship;}}
+
+internal override void Process() {
+Ship.HandleArrival(this);
+}
+
+Again the handler is the Ship object. class Ship... IList cargo;
+public void HandleArrival (ArrivalEvent ev) {
+Port = ev.Port;
+foreach (Cargo c in cargo) c.HandleArrival(ev);
+}
+
+The ship isn't responsible for tracking Canadian visits so it
+passes the arrival notification on to the cargo. class Cargo... public bool HasBeenInCanada = false;
+public void HandleArrival(ArrivalEvent ev) {
+if (Country.CANADA == ev.Port.Country)
+HasBeenInCanada = true;
+}
+
+Consider the alternative of where the event process method
+holds the domain logic - it would need to have a lot of knowledge
+of the domain model as the domain logic gets more complex.

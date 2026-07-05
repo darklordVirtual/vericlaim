@@ -1,0 +1,5 @@
+used(ex:act2, email:2011Dec/0111, -)
+
+The activity was associated with the Consortium agent, and proceeded according to its publication policy: this is an Association. wasAssociatedWith(ex:act2, w3:Consortium, process:rec-advance)
+
+This relation is illustrated in Figure 3 with a multi-edge labelled wasAssociatedWith pointing to an agent and entity (representing a plan). This simple example has shown a variety of PROV concepts, such as Entity, Agent, Activity, Usage, Generation, Derivation, and Association. In this example, it happens that all entities were already Web resources, with readily available IRIs, which we used. We note that some of the resources are public, whereas others have restricted access: provenance statements only make use of their identifiers. If identifiers do not pre-exist, e.g. for activities, then they can be generated, for instance ex:act2, occurring in the namespace identified by prefix ex. We note that the IRI scheme developed by W3C is particularly suited for expressing provenance of these documents, since each IRI denotes a specific version of a document. It then becomes easy to relate the various versions with PROV relations.

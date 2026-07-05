@@ -1,0 +1,9 @@
+Thus, heterogeneous systems can export their native provenance into such a core data model, and applications that need to make sense of provenance can then import it,
+process it, and reason over it. The PROV data model distinguishes core structures from
+extended structures: core structures form the essence of
+provenance information, and are commonly found in various
+domain-specific vocabularies that deal
+with provenance or similar kinds of information [Mappings]. Extended structures enhance and refine core
+structures with more expressive capabilities to cater for more
+advanced uses of provenance. The PROV data model, comprising both core and extended structures, is a domain-agnostic model, but with clear extensibility points allowing further domain-specific and
+application-specific extensions to be defined.

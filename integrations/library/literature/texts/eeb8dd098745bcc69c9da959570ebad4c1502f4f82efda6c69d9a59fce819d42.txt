@@ -1,0 +1,1 @@
+A6: Chinchilla MMLU results. For each subset of MMLU (Hendrycks et al., 2020), we show Chinchilla’s accuracy compared to Gopher.

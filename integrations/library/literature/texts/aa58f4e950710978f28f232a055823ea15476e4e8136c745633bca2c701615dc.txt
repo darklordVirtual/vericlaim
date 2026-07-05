@@ -1,0 +1,5 @@
+Kernel Regression (NWKR):
+
+For our third baseline, we use the Nadaraya-Watson kernel regression estimator (nadaraya1964estimating; watson1964smooth), which is the method used to calculate smECE. NWKR uses the raw confidence emitted by the language model and learns a reflected Gaussian kernel to map how over or under-confident a confidence estimate is. Formally, to map from a confidence estimate emitted by the language model to a recalibrated confidence , we look up the NWKR estimate for and return that estimate: , like with HRE. Other Posthoc Calibration Baselines:
+
+We include three additional posthoc calibration baselines: Platt scaling (platt1999probabilistic), isotonic regression (barlow1972statistical), and beta calibration (pmlr-v54-kull17a). All of these methods recalibrate a single probability estimate by fitting a function on held-out calibration set. Platt scaling fits a sigmoid, isotonic regression fits a step function with no defined functional form, and beta calibration fits a family of sigmoid functions via the beta cumulative distribution function.

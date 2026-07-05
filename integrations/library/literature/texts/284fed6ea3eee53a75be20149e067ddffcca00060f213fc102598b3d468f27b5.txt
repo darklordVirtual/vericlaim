@@ -1,0 +1,10 @@
+URL https://arxiv.org/abs/1810.04805. Dhingra et al. (2017)
+
+Bhuwan Dhingra, Kathryn Mazaitis, and William W. Cohen. Quasar: Datasets for question answering by search and reading, 2017. URL https://arxiv.org/abs/1707.03904. Dhole et al. (2014)
+
+Kaustubh Dhole, Gurdeep Singh, Priyadarshini P. Pai, and Sukanta Mondal. Sequence-based prediction of protein--protein interaction sites with
+l1-logreg classifier. Journal of Theoretical Biology, 348:47--54, 2014. doi: 10.1016/j.jtbi.2014.01.028. URL https://pubmed.ncbi.nlm.nih.gov/24486250/. Dhole et al. (2021)
+
+Kaustubh D. Dhole, Varun Gangal, Sebastian Gehrmann, Aadesh Gupta, Zhenhao Li,
+Saad Mahamood, Abinaya Mahendiran, Simon Mille, Ashish Srivastava, Samson
+Tan, Tongshuang Wu, Jascha Sohl-Dickstein, Jinho D.

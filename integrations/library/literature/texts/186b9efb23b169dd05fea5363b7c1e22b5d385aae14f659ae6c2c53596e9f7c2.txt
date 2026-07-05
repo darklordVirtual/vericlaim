@@ -1,0 +1,6 @@
+This section introduces further elements of PROV-DM. 5.7.1 Identifier
+
+An identifier ◊ is a qualified
+name. Entity, Activity, and Agent have a mandatory identifier. Two entities (resp. activities, agents) are equal if they have the same identifier. Generation, Usage, Communication, Start, End, Invalidation, Derivation, Attribution, Association, Delegation, Influence have an optional identifier. Two generations (resp. usages, communications, etc.) are equal if they have the same identifier. 5.7.2 Attribute
+
+An attribute ◊ is a qualified name. The PROV data model introduces a pre-defined set of attributes in the PROV namespace, which we define below. This specification does not provide any interpretation for any attribute declared in any other namespace.

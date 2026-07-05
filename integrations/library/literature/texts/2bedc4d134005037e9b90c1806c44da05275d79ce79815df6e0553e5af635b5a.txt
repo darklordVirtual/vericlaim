@@ -1,0 +1,6 @@
+Stephanie Lin and Owain Evans, University of Oxford (sylin07, owaine)@gmail.com; and William Saunders, Jacob Hilton, and Elizabeth Barnes, OpenAI (william, jhilton, barnes)@openai.com. Task cites: (Brown et al., 2020; Sellam et al., 2020; Amodei et al., 2016; Leike et al., 2018; Kenton et al., 2021; Clark et al., 2018; Bhakthavatsalam et al., 2021; Hendrycks et al., 2021b; Khashabi et al., 2020b; Kreps et al., 2020; Maynez et al., 2020; Gabriel et al., 2020; Wang et al., 2020a; Stiennon et al., 2020; Lewis et al., 2020b; Krishna et al., 2021; Gehrmann et al., 2021; Xu et al., 2020a; Dinan et al., 2019; Tamkin et al., 2021; Bowman & Dahl, 2021)
+twenty_questions: Jascha Sohl-Dickstein, Google (jaschasd@google.com). Task cites: (Rajpurkar et al., 2016; Choi et al., 2018; Reddy et al., 2019; Aliannejadi et al., 2019; Clark et al., 2019; Zhang et al., 2019a)
+
+understanding_fables: Denis Emelin, University of Edinburgh (denis.emelin@gmail.com). Task cites: (Reimers & Gurevych, 2019; Salazar et al., 2020; Wolf et al., 2019)
+
+undo_permutation: Mukund Varma T, Indian Institute of Technology, Madras (mukundvarmat@gmail.com).

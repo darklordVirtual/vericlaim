@@ -1,0 +1,34 @@
+convolutional networks”
+
+In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+
+Springer Verlag, 2014, pp. 818–833
+
+DOI: 10.1007/978-3-319-10590-153
+
+[224]
+Ruth Fong and Andrea Vedaldi
+
+“Interpretable Explanations of Black Boxes by Meaningful Perturbation”
+
+In IEEE International Conference on Computer Vision, 2017
+
+arXiv: http://arxiv.org/abs/1704.03296%20http://dx.doi.org/10.1109/ICCV.2017.371
+
+[225]
+Ruth Fong, Mandela Patrick and Andrea Vedaldi
+
+“Understanding Deep Networks via Extremal Perturbations and Smooth Masks”
+
+In IEEE International Conference on Computer Vision, 2019
+
+URL: https://arxiv.org/abs/1910.08485
+
+[226]
+Piotr Dabkowski and Yarin Gal
+
+“Real Time Image Saliency for Black Box Classifiers”
+
+In Advances in Neural Information Processing Systems 30
+
+Curran Associates, Inc., 2017, pp.

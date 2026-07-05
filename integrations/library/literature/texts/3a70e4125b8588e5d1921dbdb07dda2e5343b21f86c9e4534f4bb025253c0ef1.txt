@@ -1,0 +1,16 @@
+Overview (Informative)
+
+5.3.1 Agent
+
+An agent ◊ is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity. An agent may be a particular type of entity or activity. This means that the model can be
+used to express provenance of the agents themselves. An agent ◊, written agent(id, [attr1=val1, ...]) in PROV-N, has:
+
+id: an identifier for an agent;
+
+attributes: a set of attribute-value pairs ((attr1, val1), ...) representing additional information about this agent. It is useful to define some basic categories of agents from an interoperability perspective. There are three types of agents that are common across most anticipated domains of use; it is acknowledged that these types do not cover all kinds of agent. SoftwareAgent
+
+A software agent ◊ is running software. The type of a software agent is denoted by prov:SoftwareAgent ◊. Organization
+
+An organization ◊ is a social or legal institution such as a company, society, etc. The type of an organization agent is denoted by prov:Organization ◊. Person
+
+Person ◊ agents are people. The type of a person agent is denoted by prov:Person ◊.

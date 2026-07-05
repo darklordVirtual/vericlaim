@@ -1,0 +1,14 @@
+Unified scaling laws for routed language models, 2022. URL https://arxiv.org/abs/2202.01169. Clark et al. (2019)
+
+Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael
+Collins, and Kristina Toutanova. BoolQ: Exploring the surprising difficulty of natural yes/no
+questions, 2019. URL https://arxiv.org/abs/1905.10044. Clark et al. (2018)
+
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa
+Schoenick, and Oyvind Tafjord. Think you have solved question answering? Try ARC, the AI2
+reasoning challenge, 2018. URL https://arxiv.org/abs/1803.05457. Clark et al. (2020)
+
+Peter Clark, Oyvind Tafjord, and Kyle Richardson. Transformers as soft reasoners over language, 2020. URL https://arxiv.org/abs/2002.05867. Clark & Jackson (1994)
+
+Robert J. Clark and Robert R. Jackson. Self recognition in a jumping spider: Portia labiata females
+discriminate between their own draglines and those of conspecifics. Ethology Ecology & Evolution, 6(3):371--375, 1994. doi: 10.1080/08927014.1994.9522987. URL https://doi.org/10.1080/08927014.1994.9522987. Cobbe et al.

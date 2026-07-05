@@ -1,0 +1,18 @@
+So the answer is 03/01/2020. ✗ (Ground truth is “02/03/2020”.)
+
+Table 18:
+Examples of correct and incorrect chains of thought produced by LaMDA 137B on Sports Understanding. Question: Is the following sentence plausible? “Joao Moutinho was out at third.”
+
+Model Answer (CORRECT): Joao Moutinho is a soccer player. Being out at third is part of baseball, not soccer. So the answer is no. ✓
+
+Question: Is the following sentence plausible? “Malcolm Brogdon eurostepped to the basket in the NBA Championship.”
+
+Model Answer (CORRECT): Malcolm Brogdon is a basketball player. Eurostepping to the basket is part of basketball. So the answer is yes. ✓
+
+Question: Is the following sentence plausible? “Derrick White backhanded a shot.”
+
+Model Answer (INCORRECT): Derrick White is a basketball player. Backhanding a shot is part of basketball. So the answer is yes. ✗ (Ground truth is “no”, backhanding a shot is part of hockey.)
+
+Question: Is the following sentence plausible? “Nazem Kadri was out at home.”
+
+Model Answer (INCORRECT): Nazem Kadri is a hockey player. Being out at home is part of hockey. So the answer is yes.

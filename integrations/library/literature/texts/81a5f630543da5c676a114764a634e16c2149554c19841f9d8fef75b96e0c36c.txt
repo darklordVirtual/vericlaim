@@ -1,0 +1,8 @@
+We presented an algorithm for learning a selective classifier whose risk can be fully controlled and guaranteed
+with high confidence. Our empirical study validated this algorithm on challenging image classification datasets,
+and showed that guaranteed risk-control is achievable. Our methods can be immediately used by
+deep learning practitioners, helping them in coping with mission-critical tasks. We believe that our work is only the first significant step in this direction, and many research questions are left open. The starting point in our approach is a trained neural classifier (supposedly trained to optimize risk under full coverage). While the rejection mechanisms we considered were extremely effective, it might be possible to identify
+superior mechanisms for a given classifier . We believe, however, that the most challenging open question would be to simultaneously train both the classifier
+and the selection function to optimize
+coverage for a given risk level. Selective classification is intimately related to active learning in the
+context of linear classifiers [6, 11].

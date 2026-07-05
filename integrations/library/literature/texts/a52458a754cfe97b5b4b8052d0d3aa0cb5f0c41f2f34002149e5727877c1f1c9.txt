@@ -1,0 +1,15 @@
+We discuss further potential countermeasures below. Rounding confidences. Applications might need
+confidences, but only at lower granularity. A possible defense is to round confidence scores to some
+fixed precision [23]. We note that ML APIs already work with
+some finite precision when answering queries. For instance,
+BigML reports confidences with decimal places, and Amazon provides values
+with significant digits. To understand the effects of limiting precision further, we
+re-evaluate equation-solving and decision tree path-finding attacks
+with confidence scores rounded to a
+fixed decimal place. For equation-solving attacks, rounding the class
+probabilities means that the solution to the obtained equation-system
+might not be the target , but some truncated version of it. For decision trees,
+rounding confidence scores increases the chance of node id
+collisions, and thus decreases our attacks’ success rate. Figure 8 shows the results of experiments on softmax models, with class probabilities rounded to
+– decimals. We plot only , the results for
+being similar.

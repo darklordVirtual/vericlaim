@@ -1,0 +1,11 @@
+For ranking and metric learning, [bates2021distribution] considered loss functions that depend on two test points. In general, for any and subset with , let be a loss function. Our goal is to find based on such that
+
+(33)
+
+We call the LHS a U-risk since, for any fixed , it is the expectation of an order- U-statistic. As a natural extension, we can define
+
+(34)
+
+Again, we define when the right-hand side is an empty set. Then we can prove the following result. Proposition 4.6. Assume that is non-increasing in , right-continuous, and
+
+Then (33) is achieved.

@@ -1,0 +1,7 @@
+the newly defined specifications mentioned above; and
+
+•
+
+Collaboration between ML and verification researchers resulting in deep learning systems that are more amenable to verification [202]. B Verifiable Data Policies in Distributed Computing Systems
+
+Current IT systems do not provide a mechanism to enforce a data policy (e.g., sharing restrictions, anonymity restrictions) on data that is shared with another party - individuals and organizations are required to trust that the data will be used according to their preferences. Google’s Project Oak108108108More detail on Oak’s technical aspects, including instructions for how to write programs targeting the current iteration of Oak, can be found on the Oak GitHub repo: https://github.com/project-oak aims to address this gap, by providing a reference implementation of open source infrastructure for the verifiably secure storage, processing, and exchange of any type of data. With Oak, data is collected and used as it is today, but it is also accompanied by enforceable policies that define appropriate access, collection, and use.

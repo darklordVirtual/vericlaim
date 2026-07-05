@@ -1,0 +1,3 @@
+The bound is analogous to that of [barber2022conformal]for independent but non-identically distributed data (see their Section 4.1), though the proof is different. Here we will use the notation , and to refer to that chosen in (4). Proposition 4.2. Let be a sequence of random variables. Then, under the conditions in Theorem 2.1,
+
+If further the assumptions of Theorem 2.2 hold,

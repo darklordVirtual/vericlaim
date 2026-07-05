@@ -1,0 +1,16 @@
+Mark Krass, Ranjay Krishna, Rohith Kuditipudi, Ananya Kumar, Faisal
+Ladhak, Mina Lee, Tony Lee, Jure Leskovec, Isabelle Levent, Xiang Lisa Li,
+Xuechen Li, Tengyu Ma, Ali Malik, Christopher D. Manning, Suvir Mirchandani,
+Eric Mitchell, Zanele Munyikwa, Suraj Nair, Avanika Narayan, Deepak
+Narayanan, Ben Newman, Allen Nie, Juan Carlos Niebles, Hamed Nilforoshan,
+Julian Nyarko, Giray Ogut, Laurel Orr, Isabel Papadimitriou, Joon Sung Park,
+Chris Piech, Eva Portelance, Christopher Potts, Aditi Raghunathan, Rob Reich,
+Hongyu Ren, Frieda Rong, Yusuf Roohani, Camilo Ruiz, Jack Ryan, Christopher
+Ré, Dorsa Sadigh, Shiori Sagawa, Keshav Santhanam, Andy Shih, Krishnan
+Srinivasan, Alex Tamkin, Rohan Taori, Armin W. Thomas, Florian Tramèr,
+Rose E. Wang, William Wang, Bohan Wu, Jiajun Wu, Yuhuai Wu, Sang Michael Xie,
+Michihiro Yasunaga, Jiaxuan You, Matei Zaharia, Michael Zhang, Tianyi Zhang,
+Xikun Zhang, Yuhui Zhang, Lucia Zheng, Kaitlyn Zhou, and Percy Liang. On the opportunities and risks of foundation models, 2021. URL https://arxiv.org/abs/2108.07258. Bordia & Bowman (2019)
+
+Shikha Bordia and Samuel R. Bowman. Identifying and reducing gender bias in word-level language models,
+2019.

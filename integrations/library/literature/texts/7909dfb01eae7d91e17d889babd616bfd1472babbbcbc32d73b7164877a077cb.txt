@@ -1,0 +1,11 @@
+A concept related to adversarial examples is the concept of examples drawn from a “rubbish class.”
+These examples are degenerate inputs that a human would classify as not belonging to any of the
+categories in the training set. If we call these classes in the training set “the positive classes,”
+then we want to be careful to avoid false positives on rubbish inputs–i.e., we do not want to classify
+a degenerate input as being something real. In the case of separate
+binary classifiers for each class, we want all classes output near zero probability of the class
+being present, and in the case of a multinoulli distribution over only the positive classes, we would prefer that the
+classifier output a high-entropy (nearly uniform) distribution over the classes. The traditional approach to reducing
+vulnerability to rubbish inputs is to introduce an extra, constant output to the model representing
+the rubbish class (LeCun+98). Nguyen et al. (2014) recently re-popularized the concept of the rubbish class in the context of computer vision
+under the name fooling images.

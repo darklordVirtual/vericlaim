@@ -1,0 +1,16 @@
+Learning multiple layers of features from tiny images. Technical report, University of Toronto, 2009. Nguyen et al. (2014)
+
+Nguyen, A., Yosinski, J., and Clune, J. Deep Neural Networks are Easily Fooled: High Confidence Predictions
+for Unrecognizable Images. ArXiv e-prints, December 2014. Rust et al. (2005)
+
+Rust, Nicole, Schwartz, Odelia, Movshon, J. Anthony, and Simoncelli, Eero. Spatiotemporal elements of macaque V1 receptive fields. Neuron, 46(6):945–956, 2005. Srivastava et al. (2014)
+
+Srivastava, Nitish, Hinton, Geoffrey, Krizhevsky, Alex, Sutskever, Ilya, and
+Salakhutdinov, Ruslan. Dropout: A simple way to prevent neural networks from overfitting. The Journal of Machine Learning Research, 15(1):1929–1958, 2014. Szegedy et al. (2014a)
+
+Szegedy, Christian, Liu, Wei, Jia, Yangqing, Sermanet, Pierre, Reed, Scott,
+Anguelov, Dragomir, Erhan, Dumitru, Vanhoucke, Vincent, and Rabinovich,
+Andrew. Going deeper with convolutions. Technical report, arXiv preprint arXiv:1409.4842, 2014a. Szegedy et al. (2014b)
+
+Szegedy, Christian, Zaremba, Wojciech, Sutskever, Ilya, Bruna, Joan, Erhan,
+Dumitru, Goodfellow, Ian J., and Fergus, Rob. Intriguing properties of neural networks.

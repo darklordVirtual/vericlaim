@@ -1,0 +1,68 @@
+The columns of the Tables show the error
+induced by distorted examples fed to the given model. The last column shows
+average distortion wrt. original training set. Still, this experiment leaves open the question of dependence over the training
+set. Does the hardness of the generated examples rely solely on the particular
+choice of our training set as a sample or does this effect generalize even to
+models trained on completely different training sets? Model
+Error on
+
+Error on
+
+Error on Test
+Min Av. Distortion
+
+FC100-100-10: 100-100-10 trained on
+
+0%
+
+2.4%
+
+2%
+
+0.062
+
+FC123-456-10: 123-456-10 trained on
+
+0%
+
+2.5%
+
+2.1%
+
+0.059
+
+FC100-100-10’ trained on
+
+2.3%
+
+0%
+
+2.1%
+
+0.058
+
+Table 3: Models trained to study cross-training-set generalization of the
+generated adversarial examples. Errors presented in Table correpond to original not-distorted data,
+to provide a baseline. FC100-100-10
+
+FC123-456-10
+
+FC100-100-10’
+
+Distorted for FC100-100-10 (av. stddev=0.062)
+
+100%
+
+26.2%
+
+5.9%
+
+Distorted for FC123-456-10 (av. stddev=0.059)
+
+6.25%
+
+100%
+
+5.1%
+
+Distorted for FC100-100-10’ (av.

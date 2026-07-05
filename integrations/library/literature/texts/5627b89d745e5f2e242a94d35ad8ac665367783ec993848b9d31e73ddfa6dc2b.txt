@@ -1,0 +1,5 @@
+al., 2018)
+
+diverse_social_bias: Paul Pu Liang, Louis-Philippe Morency, Ruslan Salakhutdinov, and Chiyu Wu, Carnegie Mellon University (pliang, morency, rsalakhu)@cs.cmu.edu, (chiyuwu23@gmail.com). Task cites: (Sheng et al., 2019; Nadeem et al., 2020; Hendrycks et al., 2020; Sap et al., 2020; Gehman et al., 2020; Bolukbasi et al., 2016; Caliskan et al., 2017; May et al., 2019; Liang et al., 2020a; Barocas & Selbst, 2016; Cho et al., 2019; Blodgett et al., 2020; Merity et al., 2016; Socher et al., 2013; Poria et al., 2019)
+
+dyck_languages: Mirac Suzgun, Stanford University (msuzgun@stanford.edu); Sebastian Gehrmann, Google (gehrmann@google.com); Yonatan Belinkov, Technion -- Israel Institute of Technology (belinkov@technion.ac.il); and Stuart M. Shieber, Harvard University (shieber@seas.harvard.edu).

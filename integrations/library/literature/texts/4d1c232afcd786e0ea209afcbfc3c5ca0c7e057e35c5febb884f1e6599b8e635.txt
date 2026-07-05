@@ -1,0 +1,45 @@
+Sahana Chennabasappa
+
+Cyrus Nikolaidis
+
+Daniel Song
+
+David Molnar
+
+Stephanie Ding
+
+Shengye Wan
+
+Spencer Whitman
+
+Lauren Deason
+
+Nicholas Doucette
+
+Abraham Montilla
+
+Alekhya Gampa
+
+Beto de Paola
+
+Dominik Gabi
+
+James Crnkovich
+
+Jean-Christophe Testud
+
+Kat He
+
+Rashnil Chaturvedi
+
+Wu Zhou
+
+Joshua Saxe
+
+joshuasaxe@meta.com
+
+(29 April 2025)
+
+Abstract
+
+Large language models (LLMs) have evolved from simple chatbots into autonomous agents capable of performing complex tasks such as editing production code, orchestrating workflows, and taking higher-stakes actions based on untrusted inputs like webpages and emails. These capabilities introduce new security risks that existing security measures, such as model fine-tuning or chatbot-focused guardrails, do not fully address. Given the higher stakes and the absence of deterministic solutions to mitigate these risks, there is a critical need for a real-time guardrail monitor to serve as a final layer of defense, and support system level, use case specific safety policy definition and enforcement.

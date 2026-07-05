@@ -1,0 +1,37 @@
+Yang
+
+“ABOUT ML: Annotation and Benchmarking on Understanding and Transparency of Machine Learning Lifecycles”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1912.06166
+
+[28]
+Margaret Mitchell et al. “Model Cards for Model Reporting”
+
+In FAT ’19: Proceedings of the Conference on Fairness, Accountability, and Transparency, 2019
+
+DOI: 10.1145/3287560.3287596
+
+[29]
+Timnit Gebru et al. “Datasheets for Datasets”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1803.09010
+
+[30]
+Cullen O’Keefe et al. “The Windfall Clause: Distributing the Benefits of AI for the Common Good”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1912.11595
+
+[31]
+James M. Buchanan
+
+“An Economic Theory of Clubs”
+
+In Economica 32.125
+
+JSTOR, 1965, pp.

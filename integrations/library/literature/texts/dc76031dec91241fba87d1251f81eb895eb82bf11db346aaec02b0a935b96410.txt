@@ -1,0 +1,7 @@
+Perhaps the most convincing reason to evaluate functional correctness is that it is used by human developers to judge code. A framework known as test-driven development dictates that software requirements be converted into test cases before any implementation begins, and success is defined by a program that passes these tests. While few organizations employ full test-driven development, integration of new code is usually dependent on creating and passing unit tests. Kulal et al. (2019) evaluate functional correctness using the pass@ metric, where code samples are generated per problem, a problem is considered solved if any sample passes the unit tests, and the total fraction of problems solved is reported. However, computing pass@ in this way can have high variance. Instead, to evaluate pass@, we generate samples per task (in this paper, we use and ), count the number of correct samples which pass unit tests, and calculate the unbiased estimator
+
+pass@
+
+(1)
+
+Calculating this estimator directly results in very large numbers and numerical instability.

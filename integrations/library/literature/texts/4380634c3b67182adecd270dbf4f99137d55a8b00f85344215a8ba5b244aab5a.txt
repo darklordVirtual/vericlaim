@@ -1,0 +1,4 @@
+For FEVER [56] fact verification, we achieve results within 4.3% of state-of-the-art pipeline models which use strong retrieval supervision. Finally, we demonstrate that the non-parametric memory can be replaced
+to update the models’ knowledge as the world changes.111Code to run experiments with RAG has been open-sourced as part of the HuggingFace Transformers Library [66] and can be found at https://github.com/huggingface/transformers/blob/master/examples/rag/. An interactive demo of RAG models can be found at https://huggingface.co/rag/
+
+Figure 1: Overview of our approach. We combine a pre-trained retriever (Query Encoder + Document Index) with a pre-trained seq2seq model (Generator) and fine-tune end-to-end. For query , we use Maximum Inner Product Search (MIPS) to find the top-K documents . For final prediction , we treat as a latent variable and marginalize over seq2seq predictions given different documents.

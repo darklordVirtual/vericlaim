@@ -1,0 +1,39 @@
+(RS)
+
+0.60
+
+0.68
+
+0.87
+
+0.37
+
+0.13
+
+0.63
+
+MBPP (RS)
+
+0.71
+
+0.75
+
+0.84
+
+0.51
+
+0.16
+
+0.49
+
+Table 2: Overall accuracy and test generation performance for HumanEval and
+MBPP. For Rust, HumanEval is the hardest 50 problems from HumanEval Python
+translated to Rust with MultiPL-E (Cassano et al.,, 2022). TP: unit
+tests pass, solution pass; FN: unit tests fail, solution pass; FP: unit
+tests pass, solution fail; TN: unit tests fail, solution fail. Reflexion outperforms all baseline accuracies and sets new state-of-the-art standards
+on all benchmarks for Python and Rust except for MBPP Python 1. We further investigate the inferior performance of Reflexion on MBPP Python. Analysis
+
+We acknowledge that self-reflecting code-generation agents are bound to their ability
+to write diverse, comprehensive tests. Therefore, in the case in which the model
+generates a flaky test suite, it is possible that all tests pass on an incorrect
+solution and lead to a false positive label on a code completion (Lam et al.,, 2020).

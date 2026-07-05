@@ -1,0 +1,8 @@
+In this paper, whenever we succeed in extracting personally-identifying
+information (usernames, phone numbers, etc.) we partially mask out this content with the token \censor——. We are aware of the fact that this does not provide complete mediation: disclosing that the vulnerability exists allows a malicious
+actor to perform these attacks on their own to recover
+this personal information. Just as responsible disclosure still causes some (limited) harm, we believe that
+the benefits of publicizing these attacks outweigh the potential harms. Further, to make our attacks public, we must
+necessarily reveal some sensitive information. We contacted the individual whose information is partially shown in Figure 1 to disclose this fact to them in advance and received permission to use this example. Our research findings have also been disclosed to OpenAI. Unfortunately, we cannot hope to contact all researchers
+who train large LMs in advance of our publication. We thus hope that this publication will spark further discussions on the ethics of memorization and extraction among other companies and research teams that train large
+LMs [55, 2, 63, 36].

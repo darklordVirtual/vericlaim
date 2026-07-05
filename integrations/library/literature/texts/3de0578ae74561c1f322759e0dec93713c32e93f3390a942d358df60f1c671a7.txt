@@ -1,0 +1,14 @@
+Association for Computing Machinery. doi: 10.1145/1978942.1979444. URL https://doi.org/10.1145/1978942.1979444. Kant (1781/1787)
+
+Immanuel Kant. Critique of Pure Reason. The Cambridge Edition of the Works of Immanuel Kant, edited by Paul
+Guyer and Allen W. Wood. Cambridge University Press, 1781/1787. doi: 10.1017/CBO9780511804649. URL https://doi.org/10.1017/CBO9780511804649. Kant (1783)
+
+Immanuel Kant. Prolegomena to Any Future Metaphysics. Cambridge Texts in the History of Philosophy, edited by Gary
+Hatfield. Cambridge University Press, 2nd edition, 1783. doi: 10.1017/CBO9780511808517. URL https://doi.org/10.1017/CBO9780511808517. Kaplan et al. (2020)
+
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon
+Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models, 2020. URL https://arxiv.org/abs/2001.08361. Karpathy (2015)
+
+Andrej Karpathy. The unreasonable effectiveness of recurrent neural networks. Andrej Karpathy’s blog, 21 May 2015. URL http://karpathy.github.io/2015/05/21/rnn-effectiveness/. Karttunen (2012)
+
+Lauri Karttunen. Simple and phrasal implicatives.

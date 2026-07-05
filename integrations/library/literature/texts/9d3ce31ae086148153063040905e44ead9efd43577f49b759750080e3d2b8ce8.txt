@@ -1,0 +1,13 @@
+I've seen some particularly strong examples of Event Sourcing (and
+consequent patterns) in the context of accounting systems. The
+two have a very good synergy between them, both in their
+requirements (audit is very important for accounting systems)
+and in their implementation. A key factor here is that you can
+arrange things so that all the accounting consequences of a
+Domain Event are the creation of Accounting Entrys and link these entries to
+the original event. This gives you a very good basis for
+tracking changes, reversal, and the like. In particular it
+simplified the various adjustment techniques. Indeed one way of thinking about accounts is that the
+Accounting Entrys are a log of
+all of the events that change the value of an Account, so that an Account is
+itself an example of Event Sourcing.

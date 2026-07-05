@@ -1,0 +1,6 @@
+The
+definition aligns nicely with the central goal of building highly
+accurate classifiers, since is always an acceptable
+solution. However, equalized odds enforces that the accuracy is
+equally high in all demographics, punishing models that perform
+well only on the majority.

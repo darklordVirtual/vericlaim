@@ -1,0 +1,11 @@
+Task cites: (Williams et al., 2018)
+
+international_phonetic_alphabet_transliterate: Oliver Zhang and Ethan A. Chi, Stanford University (ozhang, ethanchi)@cs.stanford.edu. Task cites: (Brown et al., 2020; Liu et al., 2020c; Williams et al., 2018)
+
+intersect_geometry: Paul Vicol, University of Toronto and Google (paulvicol@google.com), and Jascha Sohl-Dickstein, Google (jaschasd@google.com). Task cites: (Weston et al., 2015; Agrawal et al., 2015; Trask et al., 2018; Seo et al., 2014; Hosseini et al., 2014; Polu & Sutskever, 2020; Yang & Deng, 2019)
+
+irony_identification: Arfa Tabassum (atabassum.bee15seecs@seecs.edu.pk). Task cites: (Zhang et al., 2019b; Ghanem et al., 2020; Salas-Zárate et al., 2017)
+
+kanji_ascii: Hiromu Yakura, University of Tsukuba, Japan (hiromu.yakura@aist.go.jp); Riku Arakawa, Carnegie Mellon University (rarakawa@andrew.cmu.edu); and Shixiang Shane Gu, Google Brain (shanegu@google.com)
+
+kannada: Vinay Uday Prabhu, UnifyID labs (vinay@unify.id); Ryan Teehan, Charles River Analytics (rsteehan@gmail.com); Sanghyun Han, UnifyID labs (jjangsangy@gmail.com); and Nicholas Roberts, University of Wisconsin-Madison (nick11roberts@cs.wisc.edu).

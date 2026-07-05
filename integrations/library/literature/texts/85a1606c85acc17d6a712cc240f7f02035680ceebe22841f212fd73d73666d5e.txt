@@ -1,0 +1,32 @@
+Premier problème, trouver un moyen de transport. Elle avait entendu dire que l’un des meilleurs moyens était de sauter dans une machine temporelle. Elle s’élança, et voilà qu’elle se retrouva dans le passé, au cours d’une nuit étoilée à l’odeur douce et envoûtante. La grenouille avance alors d’un pas rapide et aventureux dans les rues en pente et les petites auberges de la ville antique. […]
+
+Prompt:
+
+What is the purpose of the list C in the code below? def binomial_coefficient(n, r):
+
+C = [0 for i in range(r + 1)];
+
+C[0] = 1;
+
+for i in range(1, n + 1):
+
+j = min(i, r);
+
+while j > 0:
+
+C[j] += C[j - 1];
+
+j -= 1;
+
+return C[r]
+
+GPT-3 175B completion:
+
+InstructGPT 175B completion:
+
+A. to store the value of C[0]
+B. to store the value of C[1]
+C. to store the value of C[i]
+D. to store the value of C[i - 1]
+
+The list C in this code is used to store the values of the binomial coefficient as the function iterates through the values of n and r. It is used to calculate the value of the binomial coefficient for a given value of n and r, and stores the result in the final return value of the function.

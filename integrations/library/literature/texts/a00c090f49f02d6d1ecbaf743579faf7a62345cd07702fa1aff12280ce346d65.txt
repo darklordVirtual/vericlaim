@@ -1,0 +1,7 @@
+The model may be viewed as a black box. The adversary may or may not know the model type (logistic regression, decision tree, etc.) or the distribution over the data used to train the model. The adversary’s goal is to extract an equivalent or near-equivalent ML model, i.e.,
+one that achieves (close to) 100% agreement on an input space of interest. We demonstrate successful model extraction attacks against a wide variety of ML model types,
+including decision trees, logistic regressions, SVMs, and deep neural networks,
+and against production ML-as-a-service (MLaaS) providers, including Amazon and BigML.111We simulated victims by training models in our
+own accounts. We have
+disclosed our results to affected services in February 2016. In nearly all cases, our attacks yield models that are functionally very close to the target. In some cases, our attacks extract the exact parameters of the target
+(e.g., the coefficients of a linear classifier or the paths of a decision tree). For some targets employing a model type, parameters or features unknown to the attacker, we additionally show a successful preliminary attack step involving reverse-engineering these model characteristics.

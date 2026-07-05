@@ -1,0 +1,13 @@
+Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.118. URL https://aclanthology.org/2020.acl-main.118. Osera & Zdancewic (2015)
+
+Peter-Michael Osera and Steve Zdancewic. Type-and-example-directed program synthesis. In Proceedings of the 36th ACM SIGPLAN Conference on
+Programming Language Design and Implementation, PLDI ’15, pp. 619–630,
+New York, NY, USA, 2015. Association for Computing Machinery. doi: 10.1145/2737924.2738007. URL https://doi.org/10.1145/2737924.2738007. Otterbacher et al. (2002)
+
+Jahna C. Otterbacher, Dragomir R. Radev, and Airong Luo. Revisions that improve cohesion in multi-document summaries: A
+preliminary study. In Proceedings of the ACL-02 Workshop on Automatic
+Summarization, pp. 27--44, Phildadelphia, Pennsylvania, USA, July 2002. Association for Computational Linguistics. doi: 10.3115/1118162.1118166. URL https://aclanthology.org/W02-0404. Ovadia et al. (2019)
+
+Yaniv Ovadia, Emily Fertig, Jie Ren, Zachary Nado, D. Sculley, Sebastian
+Nowozin, Joshua Dillon, Balaji Lakshminarayanan, and Jasper Snoek. Can you trust your model’s uncertainty? Evaluating predictive
+uncertainty under dataset shift. In H. Wallach, H. Larochelle, A.

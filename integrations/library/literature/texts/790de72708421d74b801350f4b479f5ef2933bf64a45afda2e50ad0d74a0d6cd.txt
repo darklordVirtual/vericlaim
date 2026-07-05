@@ -1,0 +1,4 @@
+At some level, the output of these two systems will have to be integrated. Keep
+in mind, filtering spam in search results should probably be more aggressive
+than filtering spam in email messages. Also, it is a standard practice to remove
+spam from the training data for the quality classifier.

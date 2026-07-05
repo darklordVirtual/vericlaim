@@ -1,0 +1,29 @@
+Summary
+
+Forging the provenance or evading verification requires an explicit “attack”,
+though this may be easy to perform. Deters unsophisticated adversaries or those
+who face legal or financial risk. In practice, this means that builds run on a hosted platform that generates and
+signs1 the provenance. Intended for
+
+Projects and organizations wanting to gain moderate security benefits of SLSA by
+switching to a hosted build platform, while waiting for changes to the build
+platform itself required by Build L3. Requirements
+
+All of Build L1, plus:
+
+Software producer:
+
+Run builds on a hosted build platform that meets Build L2
+requirements. Build platform:
+
+Generate and sign1 the provenance itself. This may be done
+during the original build, an after-the-fact reproducible build, or
+some equivalent system that ensures the trustworthiness of the
+provenance. Consumer:
+
+Validate the authenticity of the provenance. Benefits
+
+All of Build L1, plus:
+
+Prevents tampering after the build through digital signatures1. Deters adversaries who face legal or financial risk by evading security
+controls, such as employees who face risk of getting fired.

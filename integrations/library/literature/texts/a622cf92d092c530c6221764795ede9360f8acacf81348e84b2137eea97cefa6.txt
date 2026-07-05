@@ -1,0 +1,13 @@
+2368--2378,
+Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1246. URL https://aclanthology.org/N19-1246. Dugan et al. (2020)
+
+Liam Dugan, Daphne Ippolito, Arun Kirubarajan, and Chris Callison-Burch. RoFT: A tool for evaluating human detection of machine-generated
+text. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing: System Demonstrations, pp. 189--196, Online,
+October 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-demos.25. URL https://aclanthology.org/2020.emnlp-demos.25. Dunietz et al. (2020)
+
+Jesse Dunietz, Greg Burnham, Akash Bharadwaj, Owen Rambow, Jennifer
+Chu-Carroll, and Dave Ferrucci. To test machine comprehension, start by defining comprehension. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 7839--7859, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.701. URL https://aclanthology.org/2020.acl-main.701. Durmus et al. (2020)
+
+Esin Durmus, He He, and Mona Diab.

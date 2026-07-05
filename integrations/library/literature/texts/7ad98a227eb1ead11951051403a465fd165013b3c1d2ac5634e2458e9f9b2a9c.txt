@@ -1,0 +1,18 @@
+Protecting applications with automated software diversity, Sep 2018. URL
+https://galois.com/blog/2018/09/protecting-applications-with-automated-software-diversity. Dehghani et al. (2019)
+
+Dehghani, M., Gouws, S., Vinyals, O., Uszkoreit, J., and Łukasz Kaiser. Universal transformers, 2019. Devlin et al. (2017)
+
+Devlin, J., Uesato, J., Bhupatiraju, S., Singh, R., rahman Mohamed, A., and
+Kohli, P. Robustfill: Neural program learning under noisy i/o. In ICML, 2017. Devlin et al. (2018)
+
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. Bert: Pre-training of deep bidirectional transformers for language
+understanding. arXiv preprint arXiv:1810.04805, 2018. Dhariwal et al. (2020)
+
+Dhariwal, P., Jun, H., Payne, C., Kim, J. W., Radford, A., and Sutskever, I. Jukebox: A generative model for music. arXiv preprint arXiv:2005.00341, 2020. Drain et al. (2021)
+
+Drain, D., Wu, C., Svyatkovskiy, A., and Sundaresan, N. Generating bug-fixes using pretrained transformers. Proceedings of the 5th ACM SIGPLAN International Symposium on
+Machine Programming, 2021. Eghbal (2020)
+
+Eghbal, N. Working in public: the making and maintenance of open source
+software. Stripe Press, 2020. Feng et al.

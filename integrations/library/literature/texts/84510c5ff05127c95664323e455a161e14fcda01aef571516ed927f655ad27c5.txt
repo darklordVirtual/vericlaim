@@ -1,0 +1,7 @@
+only through a confidence gate: an escalation (an allow warn/block/review move) is taken only when the judge’s confidence clears a threshold ; below the action keeps the rule floor’s verdict. The gate is the load-bearing control that converts a high-recall but imperfectly-precise judge into a net-positive component — it preserves the judge’s catches on the semantic class while suppressing low-confidence over-escalation of benign traffic. Two properties of the gate matter for the system design:
+
+•
+
+The threshold is provider-dependent. Calibration differs across model families: Claude judges are well-calibrated and admit a loose gate, while a GPT-family judge is trigger-happy on ambiguous traffic and requires a tighter gate, but in both cases confidence cleanly separates real catches from over-flags, so a single per-provider recovers a net-positive operating point (§5.2). is a configuration parameter of the deployment, set per judge. •
+
+The gate is what bounds precision cost.

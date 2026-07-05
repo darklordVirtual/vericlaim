@@ -1,0 +1,13 @@
+Guu et al. [2020]
+
+Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. REALM: Retrieval-augmented language model pre-training. ArXiv, abs/2002.08909, 2020. URL https://arxiv.org/abs/2002.08909. Hashimoto et al. [2018]
+
+Tatsunori B Hashimoto, Kelvin Guu, Yonatan Oren, and Percy S Liang. A retrieve-and-edit framework for predicting structured outputs. In S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi,
+and R. Garnett, editors, Advances in Neural Information Processing
+Systems 31, pages 10052–10062. Curran Associates, Inc., 2018. URL
+http://papers.nips.cc/paper/8209-a-retrieve-and-edit-framework-for-predicting-structured-outputs.pdf. Hossain et al. [2020]
+
+Nabil Hossain, Marjan Ghazvininejad, and Luke Zettlemoyer. Simple and effective retrieve-edit-rerank text generation. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pages 2532–2538, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.228. URL https://www.aclweb.org/anthology/2020.acl-main.228. Johnson et al. [2017]
+
+Jeff Johnson, Matthijs Douze, and Hervé Jégou. Billion-scale similarity search with gpus.

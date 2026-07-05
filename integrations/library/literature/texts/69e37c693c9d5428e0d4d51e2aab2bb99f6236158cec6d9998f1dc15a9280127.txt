@@ -1,0 +1,20 @@
+Compared to the cloud cascade, the local variant trades a
+higher FPR (6.0% vs. 1.9% ZH; 9.7% vs. 6.7% EN) for
+higher IR (95.6% vs. 91.9% ZH; 94.7% vs. 92.6% EN),
+while achieving similar (within 0.1–0.4 pp);
+note that IR differences between the two cascades are
+statistically significant (Table 8),
+but is not separately tested as it compounds
+IR and FPR in opposite directions. This indicates that a viable local-only cascade exists for
+scenarios where cloud APIs are prohibited. 7.4.5. Limitations
+
+This evaluation has seven limitations:
+(i) the benchmark was synthetically generated using GPT-4o-mini
+and may not fully represent adversarial creativity in the wild;
+(ii) the generating model is also one of the evaluated
+judges, potentially inflating GPT-4o-mini’s metrics; this
+bias is bounded in the circularity analysis below;
+(iii) the end-to-end pipeline evaluation (Sect. 7.5)
+covers only 100 English samples with GPT-4o-mini as the judge;
+in particular, an end-to-end evaluation with a local judge
+(e.g., Qwen2.5-14B) for data-sovereign scenarios is absent.

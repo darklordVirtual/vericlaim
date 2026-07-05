@@ -1,0 +1,20 @@
+Talmor et al. (2019)
+
+Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. 2019. CommonsenseQA: A
+question answering challenge targeting commonsense knowledge. NAACL. Talmor et al. (2020)
+
+Alon Talmor, Oyvind Tafjord, Peter Clark, Yoav Goldberg, and Jonathan Berant. 2020. Leap-of-thought: Teaching
+pre-trained models to systematically reason over implicit knowledge. NeurIPS. Talmor et al. (2021)
+
+Alon Talmor, Ori Yoran, Ronan Le Bras, Chandra Bhagavatula, Yoav Goldberg,
+Yejin Choi, and Jonathan Berant. 2021. CommonsenseQA 2.0:
+Exposing the limits of ai through gamification. NeurIPS Track on Datasets and Benchmarks. Tay et al. (2022)
+
+Yi Tay, Mostafa Dehghani, Vinh Q Tran, Xavier Garcia, Dara Bahri, Tal Schuster,
+Huaixiu Steven Zheng, Neil Houlsby, and Donald Metzler. 2022. Unifying language learning
+paradigms. arXiv preprint arXiv:2205.05131. Thoppilan et al. (2022)
+
+Romal Thoppilan, Daniel De Freitas, Jamie Hall, Noam Shazeer, Apoorv
+Kulshreshtha, Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu Du,
+et al. 2022. LaMDA: Language models
+for dialog applications. arXiv preprint arXiv:2201.08239. Wang et al.

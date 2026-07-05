@@ -1,0 +1,12 @@
+Recent works such as ReAct Yao et al., (2023), SayCan Ahn et al., (2022),
+Toolformer Schick et al., (2023), HuggingGPT (Shen et al.,, 2023),
+generative agents (Park et al.,, 2023), and WebGPT (Nakano et al.,, 2021)
+have demonstrated the feasibility of
+autonomous decision-making agents that are built on top of a large language
+model (LLM) core. These methods use LLMs to generate text and ‘actions‘
+that can be used in API calls and executed in an environment. Since they
+rely on massive models with an enormous number of parameters, such approaches
+have been so far limited to using in-context examples as a way of teaching
+the agents, since more traditional optimization schemes like reinforcement
+learning with gradient descent require substantial amounts of compute and
+time. In this paper, we propose an alternative approach called Reflexion that uses verbal reinforcement to help agents learn from prior failings. Reflexion converts binary or scalar feedback from the environment into verbal feedback in the form of a textual summary, which is then added as additional context for the LLM agent in the next episode.

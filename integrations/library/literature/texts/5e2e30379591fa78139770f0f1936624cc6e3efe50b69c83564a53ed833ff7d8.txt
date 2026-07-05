@@ -1,0 +1,22 @@
+Robertson et al. (1995)
+
+Stephen E Robertson, Steve Walker, Susan Jones, Micheline M Hancock-Beaulieu,
+Mike Gatford, et al. 1995. Okapi at trec-3. Nist Special Publication Sp, 109:109. Schick et al. (2022)
+
+Timo Schick, Jane Dwivedi-Yu, Zhengbao Jiang, Fabio Petroni, Patrick Lewis,
+Gautier Izacard, Qingfei You, Christoforos Nalmpantis, Edouard Grave, and
+Sebastian Riedel. 2022. Peer: A
+collaborative language model. Schick and
+Schütze (2021a)
+
+Timo Schick and Hinrich Schütze. 2021a. Exploiting
+cloze-questions for few-shot text classification and natural language
+inference. In Proceedings of the 16th Conference of the European Chapter
+of the Association for Computational Linguistics: Main Volume, pages
+255–269, Online. Association for Computational Linguistics. Schick and
+Schütze (2021b)
+
+Timo Schick and Hinrich Schütze. 2021b. Generating
+datasets with pretrained language models. In Proceedings of the 2021 Conference on Empirical Methods in
+Natural Language Processing, pages 6943–6951, Online and Punta Cana,
+Dominican Republic. Association for Computational Linguistics. Shuster et al.

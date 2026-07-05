@@ -1,0 +1,7 @@
+abstract_narrative_understanding: Sayan Ghosh and Shashank Srivastava, UNC Chapel Hill (sayghosh, ssrivastava)@cs.unc.edu. Task cites: (Ghosh & Srivastava, 2021; Holyoak, 2012; Nippold et al., 2001; Tan et al., 2015; Wang et al., 2020b; Mostafazadeh et al., 2016)
+
+abstraction_and_reasoning_corpus: Evgenii Zheltonozhskii, Technion -- Israel Institute of Technology (evgeniizh@campus.technion.ac.il), and Francois Chollet, Google (fchollet@google.com). Task cites: (Chollet, 2019; Brown et al., 2020; Chollet, 2020)
+
+anachronisms: Peter Chang, Mike Cain, Spencer Torene, Eleanor Hagerman, Zachary Seid, Berk Ekmekci, and Blake Howald, Thomson Reuters Special Services (peter.chang, michael.cain, s.torene, eleanor.hagerman, zach.seid, berk.ekmekci, blake.howald)@thomsonreuters.com. Task cites: (Otterbacher et al., 2002; Popescu & Strapparava, 2015; Llorens et al., 2015; Meng et al., 2017; Geva et al., 2021)
+
+analogical_similarity: Denis Kleyko, UC Berkeley and Research Institutes of Sweden (denkle@berkeley.edu), and Cameron Diao, Rice University (cwd2@rice.edu).

@@ -1,0 +1,15 @@
+Sukhbaatar et al. [2015]
+
+Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-end memory networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett,
+editors, Advances in Neural Information Processing Systems 28, pages
+2440–2448. Curran Associates, Inc., 2015. URL
+http://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf. Thorne et al. [2018]
+
+James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mittal. FEVER: a large-scale dataset for fact extraction and
+VERification. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long Papers), pages 809–819, New Orleans,
+Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-1074. URL https://www.aclweb.org/anthology/N18-1074. Thorne and Vlachos [2020]
+
+James H. Thorne and Andreas Vlachos. Avoiding catastrophic forgetting in mitigating model biases in
+sentence-pair classification with elastic weight consolidation. ArXiv, abs/2004.14366, 2020. URL https://arxiv.org/abs/2004.14366. Vaswani et al.

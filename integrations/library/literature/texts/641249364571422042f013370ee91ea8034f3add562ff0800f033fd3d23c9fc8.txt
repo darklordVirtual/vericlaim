@@ -1,0 +1,64 @@
+Figure 2: PaLM-540B prompting results with respect to number of CoT-SC samples used. Type
+
+Definition
+
+\model
+
+CoT
+
+Success
+
+True positive
+
+Correct reasoning trace and facts
+
+94%
+
+86%
+
+False positive
+
+Hallucinated reasoning trace or facts
+
+6%
+
+14%
+
+Failure
+
+Reasoning error
+
+Wrong reasoning trace (including failing to recover from repetitive steps)
+
+47%
+
+16%
+
+Search result error
+
+Search return empty or does not contain useful information
+
+23%
+
+-
+
+Hallucination
+
+Hallucinated reasoning trace or facts
+
+0%
+
+56%
+
+Label ambiguity
+
+Right prediction but did not match the label precisely
+
+29%
+
+28%
+
+Table 2:
+Types of success and failure modes of \model and CoT on HotpotQA, as well as their percentages in randomly selected examples studied by human. \model vs. CoT
+
+On the other hand, \model outperforms CoT on Fever (60.9 vs. 56.3) and slightly lags behind CoT on HotpotQA (27.4 vs. 29.4). Fever claims for SUPPORTS/REFUTES might only differ by a slight amount (see Appendix D.1), so acting to retrieve accurate and up-to-date knowledge is vital.

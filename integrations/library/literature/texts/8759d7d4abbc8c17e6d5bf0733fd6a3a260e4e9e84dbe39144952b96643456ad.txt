@@ -1,0 +1,32 @@
+This is similar in spirit to a “step-wise” self-consistency strategy, i.e. cast “which state to explore” as a multi-choice QA, and use LM samples to vote for it. For both strategies, we could prompt the LM multiple times to aggregate the value or vote results to trade time/resource/cost for more faithful/robust heuristics. Algorithm 1 ToT-BFS()
+
+Input , LM , thought generator & size limit , states evaluator , step limit , breadth limit . for do
+
+end for
+
+return
+
+Algorithm 2 ToT-DFS()
+
+Current state , step , LM , thought generator and size limit , states evaluator , step limit , threshold
+
+if then
+record output
+
+end if
+
+for do sorted candidates
+
+if then pruning
+
+DFS
+
+end if
+
+end for
+
+4. Search algorithm. Finally, within the ToT framework, one can plug and play different search algorithms depending on the tree structure. We explore two relatively simple search algorithms and leave more advanced ones (e.g. A* Hart et al. (1968b), MCTS Browne et al. (2012)) for future work:
+
+(a)
+
+Breadth-first search (BFS) (Algorithm 1) maintains a set of the most promising states per step.

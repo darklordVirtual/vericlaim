@@ -1,0 +1,15 @@
+Real or fake? Learning to discriminate machine from human generated
+text, 2019. URL https://arxiv.org/abs/1906.03351. Balog et al. (2016)
+
+Matej Balog, Alexander L. Gaunt, Marc Brockschmidt, Sebastian Nowozin, and
+Daniel Tarlow. Deepcoder: Learning to write programs, 2016. URL https://arxiv.org/abs/1611.01989. Banerjee & Pedersen (2003)
+
+Satanjeev Banerjee and Ted Pedersen. Extended gloss overlaps as a measure of semantic relatedness. In IJCAI’03: Proceedings of the 18th International Joint
+Conference on Artificial Intelligence, pp. 805–810, San Francisco, 2003. Morgan Kaufmann. doi: 10.5555/1630659.1630775. URL https://dl.acm.org/doi/10.5555/1630659.1630775. Barkan & Koenigstein (2016)
+
+Oren Barkan and Noam Koenigstein. ITEM2VEC: Neural item embedding for collaborative filtering. In 2016 IEEE 26th International Workshop on Machine Learning
+for Signal Processing (MLSP), pp. 1--6, Piscataway, NJ, 2016. Institute of
+Electrical and Electronics Engineers. doi: 10.1109/MLSP.2016.7738886. URL https://ieeexplore.ieee.org/document/7738886. Barocas & Selbst (2016)
+
+Solon Barocas and Andrew D. Selbst. Big data’s disparate impact. California Law Review, 104(3):671--732,
+2016.

@@ -1,0 +1,30 @@
+2007. Labeled faces in the wild: A database for
+studying face recognition in unconstrained environments. Technical Report 07-49. University of Massachusetts Amherst. Krasin et al. (2017)
+
+Ivan Krasin, Tom Duerig,
+Neil Alldrin, Vittorio Ferrari,
+Sami Abu-El-Haija, Alina Kuznetsova,
+Hassan Rom, Jasper Uijlings,
+Stefan Popov, Shahab Kamali,
+Matteo Malloci, Jordi Pont-Tuset,
+Andreas Veit, Serge Belongie,
+Victor Gomes, Abhinav Gupta,
+Chen Sun, Gal Chechik,
+David Cai, Zheyun Feng,
+Dhyanesh Narayanan, and Kevin Murphy. 2017. OpenImages: A public dataset for large-scale
+multi-label and multi-class image classification. Lin (2012)
+
+Tom CW Lin. 2012. The new investor. UCLA Law Review 60
+(2012), 678. Mann and O’Neil (2016)
+
+G Mann and C O’Neil. 2016. Hiring Algorithms Are Not Neutral. https://hbr.org/2016/12/hiring-algorithms-are-not-neutral. Mitchell et al. (2019)
+
+Margaret Mitchell, Simone
+Wu, Andrew Zaldivar, Parker Barnes,
+Lucy Vasserman, Ben Hutchinson,
+Elena Spitzer, Inioluwa Deborah Raji,
+and Timnit Gebru. 2019. Model Cards for Model Reporting. In
+Proceedings of the Conference on Fairness,
+Accountability, and Transparency (FAT*). 220–229. O’Connor (2017)
+
+Mary Catherine O’Connor.

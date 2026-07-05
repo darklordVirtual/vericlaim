@@ -1,0 +1,19 @@
+5267--5275, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1530. URL https://aclanthology.org/D19-1530. Halpern (2016)
+
+Joseph Y. Halpern. Actual causality. MIT Press, Cambridge, MA, 2016. Han et al. (2020)
+
+Rujun Han, Xiang Ren, and Nanyun Peng. ECONET: Effective continual pretraining of language models for
+event temporal reasoning, 2020. URL https://arxiv.org/abs/2012.15283. Hanzén (2007)
+
+Maria Hanzén. When in Rome, do as the Romans do: Proverbs as a part of EFL
+teaching. Master’s thesis, Jönköping University, School of Education and
+Communication, Jönköping, 2007. URL
+http://www.diva-portal.org/smash/get/diva2:3499/fulltext01.pdf. Hao et al. (2018)
+
+Yiding Hao, William Merrill, Dana Angluin, Robert Frank, Noah Amsel, Andrew
+Benz, and Simon Mendelsohn. Context-free transductions with neural stacks, 2018. URL https://arxiv.org/abs/1809.02836. Happé (1994)
+
+Francesca G.E. Happé. An advanced test of theory of mind: Understanding of story characters
+thoughts and feelings by able autistic, mentally handicapped, and normal
+children and adults. Journal of Autism and Developmental Disorders, 24:129--154, 1994.

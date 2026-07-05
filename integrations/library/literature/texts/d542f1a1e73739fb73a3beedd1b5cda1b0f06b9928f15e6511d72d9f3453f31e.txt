@@ -1,0 +1,49 @@
+We include all training FLOPs, including those contributed to by the embedding matrices, in our analysis. Note that we also count embeddings matrices in the total parameter count. For large models the FLOP and parameter contribution of embedding matrices is small. We use a factor of 2 to describe the multiply accumulate cost. For the forward pass, we consider contributions from:
+
+•
+
+Embeddings
+
+–
+
+•
+
+Attention (Single Layer)
+
+–
+
+Key, query and value projections:
+
+–
+
+Key @ Query logits:
+
+–
+
+Softmax:
+
+–
+
+Softmax @ query reductions:
+
+–
+
+Final Linear:
+
+•
+
+Dense Block (Single Layer)
+
+–
+
+•
+
+Final Logits
+
+–
+
+•
+
+Total forward pass FLOPs: + logits
+
+As in Kaplan et al. (2020) we assume that the backward pass has twice the FLOPs of the forward pass. We show a comparison between our calculation and that using the common approximation (Kaplan et al., 2020) where is FLOPs, is the number of training tokens, and is the number of parameters in Table A4. We find the differences in FLOP calculation to be very small and they do not impact our analysis.

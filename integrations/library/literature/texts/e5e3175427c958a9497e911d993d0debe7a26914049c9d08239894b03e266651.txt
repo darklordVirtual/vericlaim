@@ -1,0 +1,15 @@
+But
+it is far harder to figure out why a user visits your site. How to predict the
+future success of a site as a whole is
+AI-complete: as hard as computer
+vision or natural language processing. Rule #40: Keep ensembles simple. Unified models that take in raw features and directly rank content are the
+easiest models to debug and understand. However, an ensemble of models (a
+"model" which combines the scores of other models) can work better. To keep
+things simple, each model should either be an ensemble only taking the input of
+other models, or a base model taking many features, but not both. If you have
+models on top of other models that are trained separately, then combining them
+can result in bad behavior. Use a simple model for ensembling that takes only the output of your "base"
+models as inputs. You also want to enforce properties on these ensemble models. For example, an increase in the score produced by a base model should not
+decrease the score of the ensemble. Also, it is best if the incoming models are
+semantically interpretable (for example, calibrated) so that changes of the
+underlying models do not confuse the ensemble model.

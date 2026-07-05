@@ -1,0 +1,15 @@
+This allows us to compute for any test input. Platt scaling
+
+(Platt et al., 1999) is a parametric approach to calibration, unlike the other approaches. The non-probabilistic predictions of a classifier are used as features for a logistic regression model, which is trained on the validation set to return probabilities. More specifically, in the context of neural networks (Niculescu-Mizil & Caruana, 2005), Platt scaling learns scalar parameters and outputs as the calibrated probability. Parameters and can be optimized using the NLL loss over the validation set. It is important to note that the neural network’s parameters are fixed during this stage. Dataset
+
+Model
+
+Uncalibrated
+
+Hist. Binning
+
+Isotonic
+
+BBQ
+
+Temp.

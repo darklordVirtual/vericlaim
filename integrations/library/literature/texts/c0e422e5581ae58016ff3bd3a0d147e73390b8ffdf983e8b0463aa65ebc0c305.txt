@@ -1,0 +1,12 @@
+Of the above choices, only fast food restaurants serve hamburgers. So the answer is (a). ✓
+
+Question: Aside from water and nourishment what does your dog need? Answer Choices: (a) bone (b) charm (c) petted (d) lots of attention (e) walked
+
+Model Answer (INCORRECT): The answer must be something that a dog needs. Of the above choices, only bone is something that a dog needs. So the answer is (a). ✗ (Ground truth is (d).)
+
+Question: What are you waiting alongside with when you’re in a reception area? Answer Choices: (a) motel (b) chair (c) hospital (d) people (e) hotels
+
+Model Answer (INCORRECT): The answer must be something that is waiting with you in a reception area. Of the above choices, only people are waiting with you in a reception area. So the answer is (e). ✗ (Ground truth is (d).)
+
+Table 16:
+Examples of correct and incorrect chains of thought produced by LaMDA 137B on StrategyQA. Question: Will The Exorcist stimulate limbic system? Model Answer (CORRECT): The Exorcist is a horror movie. Horror movies are scary. The limbic system is involved in fear. Thus, The Exorcist will stimulate the limbic system. So the answer is yes.

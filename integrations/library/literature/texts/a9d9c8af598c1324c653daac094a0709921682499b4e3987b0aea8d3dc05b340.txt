@@ -1,0 +1,14 @@
+Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556, 2014. [18]
+
+Kush R Varshney. A risk bound for ensemble classification with a reject option. In Statistical Signal Processing Workshop (SSP), 2011 IEEE,
+pages 769–772. IEEE, 2011. [19]
+
+Sergey Zagoruyko and Nikos Komodakis. Wide residual networks. arXiv preprint arXiv:1605.07146, 2016. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

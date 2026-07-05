@@ -1,0 +1,33 @@
+to sensitivity in private data analysis”
+
+In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 3876 LNCS, 2006, pp. 265–284
+
+URL: https://people.csail.mit.edu/asmith/PS/sensitiv%20ity-tcc-final.pdf
+
+[99]
+Aaron Roth and Michael Kearns
+
+“The Ethical Algorithm: The Science of Socially Aware Algorithm Design”
+
+Oxford University Press, 2019
+
+[100]
+Rachel Cummings and Deven Desai
+
+“The Role of Differential Privacy in GDPR Compliance”
+
+In FAT ’18: Proceedings of the Conference on Fairness, Accountability, and Transparency, 2018
+
+URL: https://piret.gitlab.io/fatrec2018/program/fatrec2018-cummings.pdf
+
+[101]
+Mihailo Isakov, Vijay Gadepally, Karen M. Gettings and Michel A. Kinsy
+
+“Survey of Attacks and Defenses on Edge-Deployed Neural Networks”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1911.11932
+
+[102]
+Nathan Dowlin et al.

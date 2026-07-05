@@ -1,0 +1,16 @@
+Le. LaMDA: Language models for dialog applications, 2022. URL https://arxiv.org/abs/2201.08239. Thorat et al. (2015)
+
+Poonam B. Thorat, Rajeshwari M. Goudar, and Sunita Barve. Survey on collaborative filtering, content-based filtering and hybrid
+recommendation system. International Journal of Computer Applications, 110:31--36, 2015. doi: 10.5120/19308-0760. URL
+https://www.ijcaonline.org/archives/volume110/number4/19308-0760. Thorne et al. (2018)
+
+James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mittal. FEVER: A large-scale dataset for fact extraction and
+VERification. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long Papers), pp. 809--819, New Orleans,
+Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-1074. URL https://aclanthology.org/N18-1074. Tong (2021)
+
+Xiaoyu Tong. Metaphor paraphrasing and word sense disambiguation: Toward a new
+approach to automated metaphor, 2021. URL https://scripties.uba.uva.nl/download?fid=681664. Tong et al. (2021)
+
+Xiaoyu Tong, Ekaterina Shutova, and Martha Lewis.

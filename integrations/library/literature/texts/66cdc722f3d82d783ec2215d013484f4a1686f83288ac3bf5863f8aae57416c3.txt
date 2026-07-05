@@ -1,0 +1,17 @@
+(2023). Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations. arXiv:2312.06674. •
+
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W., Rocktäschel, T., Riedel, S., and Kiela, D. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. NeurIPS 2020. arXiv:2005.11401. •
+
+Meta Prompt Guard. Prompt-Guard-86M / Llama-Prompt-Guard-2 (mDeBERTa-based prompt-injection & jailbreak classifier, released with Llama 3.1 / Llama 4). Meta / Hugging Face model card meta-llama/Prompt-Guard-86M. •
+
+Open Policy Agent (OPA). Open Policy Agent and the Rego policy language. CNCF graduated project. https://www.openpolicyagent.org/
+
+•
+
+OWASP (2025). OWASP Top 10 for Large Language Model Applications (2025). OWASP GenAI Security Project. https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/
+
+•
+
+ProtectAI. deberta-v3-base-prompt-injection-v2 (DeBERTa-v3 prompt-injection detector). Hugging Face model protectai/deberta-v3-base-prompt-injection-v2. •
+
+Rebedea, T., Dinu, R., Sreedhar, M. N., Parisien, C., and Cohen, J. (2023).

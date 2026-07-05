@@ -1,0 +1,57 @@
+Table 4 shows results for all benchmarks. While GPT-J and GPT-J + CC perform about the same, Toolformer achieves stronger results even when API calls are disabled. We surmise that this is because the model is finetuned on many examples of API calls and their results, improving its own mathematical capabilities. Nonetheless, allowing the model to make API calls more than doubles performance for all tasks, and also clearly outperforms the much larger OPT and GPT-3 models. This is because across all benchmarks, for 97.9% of all examples the model decides to ask the calculator tool for help. Model
+
+ASDiv
+
+SVAMP
+
+MAWPS
+
+GPT-J
+
+07.5
+
+05.2
+
+09.9
+
+GPT-J + CC
+
+09.6
+
+05.0
+
+09.3
+
+Toolformer (disabled)
+
+14.8
+
+06.3
+
+15.0
+
+Toolformer
+
+40.4
+
+29.4
+
+44.0
+
+OPT (66B)
+
+06.0
+
+04.9
+
+07.9
+
+GPT-3 (175B)
+
+14.0
+
+10.0
+
+19.8
+
+Table 4: Results for various benchmarks requiring mathematical reasoning. Toolformer makes use of the calculator tool for most examples, clearly outperforming even OPT (66B) and GPT-3 (175B).

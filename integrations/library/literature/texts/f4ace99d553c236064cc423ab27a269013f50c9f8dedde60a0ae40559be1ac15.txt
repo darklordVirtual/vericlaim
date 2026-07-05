@@ -1,0 +1,19 @@
+Our model is trained on English data. Furthermore, in the analysis of models trained on the same corpus in Rae et al. (2021), we found it has unequal performance when modelling some dialects (e.g., African American English). Our model is designed for research. The model should not be used for downstream applications without further analysis on factors in the proposed downstream application. Card Prompts – Evaluation Factors
+
+See the results in Rae et al. (2021) which analyzes models trained on the same text corpus. Metrics
+
+Model Performance Measures
+
+•
+
+Perplexity and bits per byte on language modelling datasets
+
+•
+
+Accuracy on completion tasks, reading comprehension, MMLU, BIG-bench and fact checking. •
+
+Exact match accuracy for question answering. •
+
+Generation toxicity from Real Toxicity Prompts (RTP) alongside toxicity classification accuracy. •
+
+Gender and occupation bias. Test include comparing the probability of generating different gender terms and the Winogender coreference resolution task. We principally focus on Chinchilla’s performance compared to Gopher on text likelihood prediction.

@@ -1,0 +1,7 @@
+Even AI developers who have the desire and/or incentives to make concrete, verifiable claims may not be equipped with the appropriate mechanisms to do so. The AI development community needs a robust "toolbox" of mechanisms to support the verification of claims about AI systems and development processes. This problem framing led some of the authors of this report to hold a workshop in April 2019, aimed at expanding the toolbox of mechanisms for making and assessing verifiable claims about AI development.555See Appendix I, ”Workshop and Report Writing Process.” This report builds on the ideas proposed at that workshop. The mechanisms outlined do two things:
+
+•
+
+They increase the options available to AI developers for substantiating claims they make about AI systems’ properties. •
+
+They increase the specificity and diversity of demands that can be made of AI developers by other stakeholders such as users, policymakers, and members of civil society. Each mechanism and associated recommendation discussed in this report addresses a specific gap preventing effective assessment of developers’ claims today.

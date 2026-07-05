@@ -1,0 +1,4 @@
+Many ML models we consider directly compute class probabilities as a continuous function of the input and real-valued model parameters. In this case, an API that reveals these class probabilities provides an adversary with samples that can be viewed as equations in the unknown model parameters. For a large class of models, these equation systems can be efficiently solved, thus recovering (or some good approximation of it). Our approach for evaluating attacks will primarily be experimental. We
+use a suite of synthetic or publicly available data sets to serve as
+stand-ins for proprietary data that might be the target of an extraction attack. Table 3 displays the data sets used in this section, which we obtained from various sources: the synthetic ones we generated;
+the others are taken from public surveys (Steak Survey [26] and GSS Survey [50]), from scikit [43] (Digits) or from the UCI ML library [35]. Mre details about these data sets are in Appendix B.

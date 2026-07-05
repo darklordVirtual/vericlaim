@@ -1,0 +1,15 @@
+Rule #1: Don’t be afraid to launch a product without machine learning. Machine learning is cool, but it requires data. Theoretically, you can take data
+from a different problem and then tweak the model for a new product, but this
+will likely underperform basic
+heuristics. If you think that
+machine learning will give you a 100% boost, then a heuristic will get you 50%
+of the way there. For instance, if you are ranking apps in an app marketplace, you could use the
+install rate or number of installs as heuristics. If you are detecting spam,
+filter out publishers that have sent spam before. Don’t be afraid to use human
+editing either. If you need to rank contacts, rank the most recently used
+highest (or even rank alphabetically). If machine learning is not absolutely
+required for your product, don't use it until you have data. Rule #2: First, design and implement metrics. Before formalizing what your machine learning system will do, track as much as
+possible in your current system. Do this for the following reasons:
+
+It is easier to gain permission from the system’s users earlier on. If you think that something might be a concern in the future, it is
+better to get historical data now.

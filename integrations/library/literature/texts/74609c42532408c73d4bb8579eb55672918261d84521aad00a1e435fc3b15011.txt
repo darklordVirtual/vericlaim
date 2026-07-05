@@ -1,0 +1,21 @@
+Recurrent neural network based language model. In Interspeech, 2010. [45]
+
+Randall Munroe. Predictive models. https://xkcd.com/2169/, 2019. [46]
+
+Milad Nasr, Reza Shokri, and Amir Houmansadr. Machine learning with membership privacy using adversarial
+regularization. In ACM SIGSAC, 2018. [47]
+
+Milad Nasr, Reza Shokri, and Amir Houmansadr. Comprehensive privacy analysis of deep learning: Passive and active
+white-box inference attacks against centralized and federated learning. In IEEE S&P, 2019. [48]
+
+Helen Nissenbaum. Privacy as contextual integrity. Washington Law Review, 2004. [49]
+
+OpenAI. Language models are few-shot learners. https://github.com/openai/gpt-3, 2020. [50]
+
+Matthew E Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+Kenton Lee, and Luke Zettlemoyer. Deep contextualized word representations. In NAACL, 2018. [51]
+
+Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu,
+Alexander H Miller, and Sebastian Riedel. Language models as knowledge bases? In EMNLP, 2019. [52]
+
+Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training, 2018.

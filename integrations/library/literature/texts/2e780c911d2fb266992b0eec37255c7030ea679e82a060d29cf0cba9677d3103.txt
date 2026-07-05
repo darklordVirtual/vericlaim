@@ -1,0 +1,23 @@
+act
+
+0.068
+
+0.907
+
+0.834
+
+0.870
+
+0.870
+
+0.084
+
+0.681
+
+0.722
+
+0.925
+
+0.775
+
+Table 19: Results on the APIGen test subset (left), and on the SCITLDR dev set (right) averaged across all 7 LLMs we tested. Lower smECE is better, while higher auc-euro is better.

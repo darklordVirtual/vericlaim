@@ -1,0 +1,69 @@
+Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost. Model
+
+BLEU
+
+Training Cost (FLOPs)
+
+EN-DE
+
+EN-FR
+
+EN-DE
+
+EN-FR
+
+ByteNet [18]
+
+23.75
+
+Deep-Att + PosUnk [39]
+
+39.2
+
+GNMT + RL [38]
+
+24.6
+
+39.92
+
+ConvS2S [9]
+
+25.16
+
+40.46
+
+MoE [32]
+
+26.03
+
+40.56
+
+Deep-Att + PosUnk Ensemble [39]
+
+40.4
+
+GNMT + RL Ensemble [38]
+
+26.30
+
+41.16
+
+ConvS2S Ensemble [9]
+
+26.36
+
+41.29
+
+Transformer (base model)
+
+27.3
+
+38.1
+
+Transformer (big)
+
+28.4
+
+41.8
+
+On the WMT 2014 English-to-German translation task, the big transformer model (Transformer (big) in Table 2) outperforms the best previously reported models (including ensembles) by more than BLEU, establishing a new state-of-the-art BLEU score of . The configuration of this model is listed in the bottom line of Table 3. Training took days on P100 GPUs. Even our base model surpasses all previously published models and ensembles, at a fraction of the training cost of any of the competitive models.

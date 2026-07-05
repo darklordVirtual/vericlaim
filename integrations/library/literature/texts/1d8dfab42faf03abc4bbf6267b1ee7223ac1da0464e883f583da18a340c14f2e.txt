@@ -1,0 +1,9 @@
+measuring the variance of to small, random input perturbations,
+
+4. measuring the variance of over different noise samples input to a generative model,
+
+5. measuring the magnitude of change in when applying an adversarial perturbation, etc. These cases will all be treated the same way. There will be some point prediction , and some uncertainty scalar that is large when the model is uncertain and small otherwise (in the residual setting, , and in the Gaussian setting, ). We will proceed with this notation for the sake of generality, but the reader should understand that can be replaced with any function. Now that we have our heuristic notion of uncertainty in hand, we can define a score function,
+
+(9)
+
+This score function has a natural interpretation: it is a multiplicative correction factor of the uncertainty scalar (i.e., ).

@@ -1,0 +1,19 @@
+Planning (2002)
+
+Planning, S. The economic impacts of inadequate infrastructure for software
+testing. National Institute of Standards and Technology, 2002. Python Software Foundation and JetBrains (2020)
+
+Python Software Foundation and JetBrains. Python developers survey 2020 results, 2020. URL
+https://www.jetbrains.com/lp/python-developers-survey-2020/. Qi et al. (2015)
+
+Qi, Z., Long, F., Achour, S., and Rinard, M. An analysis of patch plausibility and correctness for
+generate-and-validate patch generation systems. Proceedings of the 2015 International Symposium on Software
+Testing and Analysis, 2015. Radford et al. (2018)
+
+Radford, A., Narasimhan, K., Salimans, T., and Sutskever, I. Improving language understanding by generative pre-training. 2018. Radford et al. (2019)
+
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and Sutskever, I. Language models are unsupervised multitask learners. 2019. Radford et al. (2021)
+
+Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
+G., Askell, A., Mishkin, P., Clark, J., et al. Learning transferable visual models from natural language
+supervision. arXiv preprint arXiv:2103.00020, 2021. Raffel et al.

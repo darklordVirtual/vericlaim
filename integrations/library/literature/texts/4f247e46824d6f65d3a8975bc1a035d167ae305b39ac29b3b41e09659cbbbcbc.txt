@@ -1,0 +1,29 @@
+2023b. AgentBench: Evaluating LLMs as Agents. arXiv preprint arXiv:2308.03688
+(2023). https://arxiv.org/abs/2308.03688
+
+OpenClaw Contributors (2025)
+
+OpenClaw Contributors. 2025. OpenClaw: An Open-Source Local Agent Framework. https://github.com/openclaw/openclaw. Commit f014e25, accessed 2026-03-05. OWASP Foundation (2023)
+
+OWASP Foundation. 2023. OWASP Top 10 for Large Language Model
+Applications. https://owasp.org/www-project-top-10-for-large-language-model-applications/. Accessed: 2026-03-05. Perez and Ribeiro (2022)
+
+Fabio Perez and Ian
+Ribeiro. 2022. Ignore Previous Prompt: Attack Techniques for
+Language Models. arXiv preprint arXiv:2211.09527
+(2022). https://arxiv.org/abs/2211.09527
+
+Rebedea et al. (2023)
+
+Traian Rebedea, Razvan
+Dinu, Makesh Sreedhar, Christopher
+Parisien, and Jonathan Cohen. 2023. NeMo Guardrails: A Toolkit for Controllable and
+Safe LLM Applications with Programmable Rails. In
+Proceedings of EMNLP: System Demonstrations. Ruan et al. (2024)
+
+Yangjun Ruan, Honghua
+Dong, Andrew Wang, Silviu Pitis,
+Yongchao Zhou, Jimmy Ba,
+Yann Dubois, Chris J Maddison, and
+Tatsunori Hashimoto. 2024. Identifying the Risks of LM Agents with an
+LM-Emulated Sandbox. In ICLR.

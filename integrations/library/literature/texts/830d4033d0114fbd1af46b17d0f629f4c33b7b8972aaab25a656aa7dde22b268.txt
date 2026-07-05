@@ -1,0 +1,18 @@
+Proceedings of the National Academy of Sciences, 118(15), 2021. Rokon et al. (2020)
+
+Rokon, M. O. F., Islam, R., Darki, A., Papalexakis, E. E., and Faloutsos, M. Sourcefinder: Finding malware source-code from publicly available
+repositories in github. In 23rd International Symposium on Research in Attacks,
+Intrusions and Defenses (RAID 2020), pp. 149–163, San Sebastian,
+October 2020. USENIX Association. ISBN 978-1-939133-18-2. URL
+https://www.usenix.org/conference/raid2020/presentation/omar. Schuster et al. (2020)
+
+Schuster, R., Song, C., Tromer, E., and Shmatikov, V. You autocomplete me: Poisoning vulnerabilities in neural code
+completion. The Advanced Computing Systems Association, 2020. URL
+https://www.usenix.org/system/files/sec21summer_schuster.pdf. Schwartz et al. (2019)
+
+Schwartz, R., Dodge, J., Smith, N. A., and Etzioni, O. Green ai, 2019. Shin et al. (2018)
+
+Shin, E. C., Polosukhin, I., and Song, D. Improving neural program synthesis with inferred execution traces. Advances in Neural Information Processing Systems,
+31:8917–8926, 2018. Simon (1963)
+
+Simon, H. A. Experiments with a heuristic compiler. J. ACM, 10(4):493–506, October 1963. ISSN 0004-5411.

@@ -1,0 +1,5 @@
+Figure 16: Examples of toxic online comment identification with type-1 error control at level on the Jigsaw Multilingual Toxic Comment Classification dataset. We provide a type-1 error guarantee on a model that flags toxic online comments, such as threats, obscenity, insults, and identity-based hate. Suppose we are given non-toxic text samples and asked whether a new text sample is toxic. We also have a pre-trained toxicity prediction model , where values closer to 1 indicate a higher level of toxicity. The goal is to flag as many toxic comments as possible while not flagging more than proportion of non-toxic comments. The outlier detection procedure in Section 4.4 applies immediately. First, we run the model on each calibration point, yielding conformal scores . Taking the toxicity threshold to be the -smallest of the , we construct the function
+
+(48)
+
+This gives the guarantee in Proposition 3—no more than fraction of future nontoxic text will be classified as toxic.

@@ -1,0 +1,15 @@
+URL https://aclanthology.org/2020.lrec-1.125. Sileo et al. (2022)
+
+Damien Sileo, Wout Vossen, and Robbe Raymaekers. Zero-shot recommendation as language modeling. In Matthias Hagen, Suzan Verberne, Craig Macdonald, Christin Seifert,
+Krisztian Balog, Kjetil Nørvåg, and Vinay Setty (eds.), Advances
+in Information Retrieval: 44th European Conference on IR Research, ECIR 2022,
+Stavanger, Norway, April 10–14, 2022, Proceedings, Part II, pp. 223–230, Cham, 2022. Springer. doi: 10.1007/978-3-030-99739-7_26. URL https://doi.org/10.1007/978-3-030-99739-7_26. Singh et al. (2014)
+
+Gurdeep Singh, Kaustubh Dhole, Priyadarshini P. Pai, and Sukanta Mondal. SPRINGS: Prediction of protein-protein interaction sites using
+artificial neural networks. Journal of Proteomics & Computational Biology, 1:7,
+2014. URL
+https://www.avensonline.org/fulltextarticles/JPCB-2572-8679-01-0001.html. Singh & Gulwani (2015)
+
+Rishabh Singh and Sumit Gulwani. Predicting a correct program in programming by example. In Daniel Kroening and Corina S. Păsăreanu (eds.),
+Computer Aided Verification, pp. 398--414, Cham, 2015. Springer
+International Publishing. doi: 10.1007/978-3-319-21690-4_23.

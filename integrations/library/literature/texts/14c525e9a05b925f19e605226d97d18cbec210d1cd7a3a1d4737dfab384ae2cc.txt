@@ -1,0 +1,15 @@
+In the first phase of the lifecycle of a machine learning system, the
+important issues are to get the training data into the learning system, get any
+metrics of interest instrumented, and create a serving infrastructure. After
+you have a working end to end system with unit and system tests instrumented,
+Phase II begins. In the second phase, there is a lot of low-hanging fruit. There are a variety
+of obvious features that could be pulled into the system. Thus, the second
+phase of machine learning involves pulling in as many features as possible and
+combining them in intuitive ways. During this phase, all of the metrics should
+still be rising. There will be lots of launches, and it is a great time to
+pull in lots of engineers that can join up all the data that you need to
+create a truly awesome learning system. Rule #16: Plan to launch and iterate. Don’t expect that the model you are working on now will be the last one that
+you will launch, or even that you will ever stop launching models. Thus
+consider whether the complexity you are adding with this launch will slow down
+future launches. Many teams have launched a model per quarter or more for
+years.

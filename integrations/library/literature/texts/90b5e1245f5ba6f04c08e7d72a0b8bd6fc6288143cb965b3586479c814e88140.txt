@@ -1,0 +1,10 @@
+Formally, we will consider post-processing the predictions of the model to create a function . The function has a parameter that
+encodes its level of conservativeness: larger values yield more conservative outputs (e.g., larger prediction sets). To measure the quality of the output of , we consider a loss function for some . We require the loss function to be non-increasing as a function of . Our goal is to choose based on the observed data so that risk control as in (2) holds. We now rewrite this same task in a more notationally convenient and abstract form. Consider an exchangeable collection of non-increasing, random functions , . Throughout the paper, we assume . We seek to use the first functions to choose a value of the parameter, , in such a way that the risk on the unseen function is controlled:
+
+(3)
+
+We are primarily motivated by the case where , in which case the guarantee in (3) coincides with risk control as in (2). Now we describe the algorithm. Let . Given any desired risk level upper bound , define
+
+(4)
+
+When the set is empty, we define . Our proposed conformal risk control algorithm is to deploy on the forthcoming test point.

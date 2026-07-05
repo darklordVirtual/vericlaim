@@ -1,0 +1,17 @@
+When applying weight decay to the first layer, we found that even a coefficient of
+.0025 was too large, and caused the model to get stuck with over 5% error on
+the training set. Smaller weight decay coefficients permitted succesful training
+but conferred no regularization benefit. (a)
+
+(b)
+
+(c)
+
+(d)
+
+Figure 2:
+The fast gradient sign method applied to logistic regression (where it is not an approximation,
+but truly the most damaging adversarial example in the max norm box). a) The weights of a logistic regression model trained on MNIST. b) The sign of the weights of a logistic regression model trained on MNIST. This is the optimal
+perturbation. Even though the model has low capacity and is fit well, this perturbation is not
+readily recognizable to a human observer as having anything to do with the relationship between
+3s and 7s. c) MNIST 3s and 7s. The logistic regression model has a 1.6% error rate on the 3 versus 7 discrimination task on these examples. d) Fast gradient sign adversarial examples for the logistic regression model with . The logistic regression model has an error rate of 99% on these examples.

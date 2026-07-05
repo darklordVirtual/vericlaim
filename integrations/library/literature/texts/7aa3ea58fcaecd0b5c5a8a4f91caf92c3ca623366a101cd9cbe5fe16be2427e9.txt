@@ -1,0 +1,21 @@
+Newell et al. (1972)
+
+A. Newell, H. A. Simon, et al. Human problem solving. Prentice-Hall, 1972. OpenAI (2023)
+
+OpenAI. Gpt-4 technical report. ArXiv, abs/2303.08774, 2023. Paul et al. (2023)
+
+D. Paul, M. Ismayilzada, M. Peyrard, B. Borges, A. Bosselut, R. West, and
+B. Faltings. Refiner: Reasoning feedback on intermediate representations, 2023. Radford et al. (2018)
+
+A. Radford, K. Narasimhan, T. Salimans, I. Sutskever, et al. Improving language understanding by generative pre-training. OpenAI blog, 2018. Radford et al. (2019)
+
+A. Radford, J. Wu, R. Child, D. Luan, D. Amodei, I. Sutskever, et al. Language models are unsupervised multitask learners. OpenAI blog, 1(8):9, 2019. Schlag et al. (2023)
+
+I. Schlag, S. Sukhbaatar, A. Celikyilmaz, W. tau Yih, J. Weston,
+J. Schmidhuber, and X. Li. Large language model programs, 2023. Shinn et al. (2023)
+
+N. Shinn, B. Labash, and A. Gopinath. Reflexion: an autonomous agent with dynamic memory and
+self-reflection, 2023. Silver et al. (2017)
+
+D. Silver, J. Schrittwieser, K. Simonyan, I. Antonoglou, A. Huang, A. Guez,
+T. Hubert, L. Baker, M. Lai, A. Bolton, et al. Mastering the game of go without human knowledge. nature, 550(7676):354–359, 2017.

@@ -1,0 +1,2 @@
+Figure 3: Left: NQ performance as more documents are retrieved. Center:
+Retrieval recall performance in NQ. Right: MS-MARCO Bleu-1 and Rouge-L as more documents are retrieved.

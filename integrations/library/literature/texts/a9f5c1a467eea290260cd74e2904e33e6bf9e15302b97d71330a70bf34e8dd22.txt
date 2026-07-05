@@ -1,0 +1,44 @@
+Rudin
+
+“Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1811.10154
+
+[74]
+Zachary C. Lipton
+
+“The Mythos of Model Interpretability”
+
+In arXiv, 2016
+
+arXiv: http://arxiv.org/abs/1606.03490
+
+[75]
+Mukund Sundararajan, Ankur Taly and Qiqi Yan
+
+“Axiomatic Attribution for Deep Networks”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1703.01365
+
+[76]
+Mark Sendak et al. “"The Human Body is a Black Box": Supporting Clinical Decision-Making with Deep Learning”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1911.08089
+
+[77]
+Berk Ustun, Alexander Spangher and Yang Liu
+
+“Actionable Recourse in Linear Classification”
+
+In FAT ’19: Proceedings of the Conference on Fairness, Accountability, and Transparency, 2019
+
+DOI: 10.1145/3287560.3287566
+
+[78]
+Forough Poursabzi-Sangdeh et al.

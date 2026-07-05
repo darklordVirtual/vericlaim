@@ -1,0 +1,7 @@
+Please see the Responses to Public Comments on the Last Call Working Draft for more details about the justification of these changes. ISSUE-506: Updated role from author to contributor, in line with text. ISSUE-492: Fixed typos in Example 29. ISSUE-508: Clarified the bold names and parameters in text preceding Table 5. ISSUE-501: Put the example about driving a car to Boston in a box. ISSUE-450, ISSUE-514: added table with secondary objects in relations. ISSUE-512: simplied type of activity a2 to "fine paying"
+
+ISSUE-509: modified the introductory text to UML figures, so that they refer to relation names (e.g. WasStartedBy) as visualized in figures
+
+ISSUE-515: fixed typo
+
+ISSUE-531: added sentence on the use of prov:location attribute. ISSUE-519, ISSUE-523, ISSUE-524, ISSUE-529: changed UML diagram of figure 8 by removing explicit inheritance from influence for usage, start, end, generation, invalidation, communication, derivation, attribution, association, and delegation. Instead, introduced correspondance table 7.

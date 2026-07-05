@@ -1,0 +1,19 @@
+2022. Lamda: Language
+models for dialog applications. Wang and Komatsuzaki (2021)
+
+Ben Wang and Aran Komatsuzaki. 2021. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax. Wang et al. (2022)
+
+Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel
+Khashabi, and Hannaneh Hajishirzi. 2022. Self-instruct:
+Aligning language model with self generated instructions. Wei et al. (2022)
+
+Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian
+Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H. Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, and William
+Fedus. 2022. Emergent abilities
+of large language models. Wenzek et al. (2020)
+
+Guillaume Wenzek, Marie-Anne Lachaux, Alexis Conneau, Vishrav Chaudhary,
+Francisco Guzmán, Armand Joulin, and Edouard Grave. 2020. CCNet: Extracting
+high quality monolingual datasets from web crawl data. In Proceedings of the Twelfth Language Resources and Evaluation
+Conference, pages 4003–4012, Marseille, France. European Language Resources
+Association. Yao et al.

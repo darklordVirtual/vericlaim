@@ -1,0 +1,1 @@
+Questions are posed as multiple choice with ten possible answers. The vast majority of examples come from low-resource languages, with 1,000 languages covered in total. As shown in Figure 15c, performance is low, with the best models achieving around 17% accuracy. There is no clear trend of increasing performance with scale.

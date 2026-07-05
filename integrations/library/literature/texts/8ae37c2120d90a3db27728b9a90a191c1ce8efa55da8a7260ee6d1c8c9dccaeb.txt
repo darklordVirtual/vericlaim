@@ -1,0 +1,14 @@
+Task cites: (Kassner & Schütze, 2019; Talmor et al., 2019a; Betz et al., 2020)
+
+gem: Sebastian Gehrmann, Google Research (gehrmann@google.com). Task cites: (Gehrmann et al., 2021)
+
+gender_inclusive_sentences_german: Simon Thormeyer and Gerard de Melo, HPI/University of Potsdam (simon.thormeyer@student.hpi.de, gerard.demelo@hpi.de)
+
+gender_sensitivity_chinese: Xudong Shen, National University of Singapore (xudong.shen@u.nus.edu). Task cites: (on the Revision of the National Standard
+Occupational Classification, 2015; Household Management Research Center, 2021; 2020; 2019; Qimingtong, 2016; Ministry of the Interior, 2018)
+
+gender_sensitivity_english: Xudong Shen, National University of Singapore (xudong.shen@u.nus.edu). Task cites: (Bordia & Bowman, 2019; Marcus et al., 1994; Caliskan et al., 2017; Bolukbasi et al., 2016; Rudinger et al., 2018; Lu et al., 2020; Gonen & Goldberg, 2019; Hall Maudslay et al., 2019; Fellbaum, 1998)
+
+general_knowledge: Evgenii Zheltonozhskii, Technion -- Israel Institute of Technology (evgeniizh@campus.technion.ac.il). Task cites: (Shane, 2020; Dhingra et al., 2017; Rajpurkar et al., 2016; 2018; Lacker, 2020)
+
+geometric_shapes: Zijie J.

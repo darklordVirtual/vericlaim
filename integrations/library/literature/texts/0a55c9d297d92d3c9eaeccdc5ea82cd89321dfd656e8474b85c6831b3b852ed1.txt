@@ -1,0 +1,48 @@
+Algorithm 1 Reinforcement via self-reflection
+
+Initialize Actor, Evaluator, Self-Reflection:
+
+, ,
+
+Initialize policy ,
+
+Generate initial trajectory using
+
+Evaluate using
+
+Generate initial self-reflection using
+
+Set
+
+Set
+
+while not pass or max trials do
+
+Generate using
+
+Evaluate using
+
+Generate self-reflection using
+
+Append to
+
+Increment
+
+end while
+
+return
+
+Figure 2: (a) Diagram of Reflexion. (b) Reflexion reinforcement algorithm
+
+We develop a modular formulation for Reflexion, utilizing three distinct models:
+an Actor, denoted as , which generates text and actions;
+an Evaluator model, represented by , that scores the outputs produced
+by ; and a Self-Reflection model, denoted as ,
+which generates verbal reinforcement cues to assist the Actor in
+self-improvement. We provide a detailed description of each of these models and
+subsequently elucidate their collaborative functioning within the Reflexion
+framework. Actor
+
+The Actor is built upon a large language model (LLM) that is specifically
+prompted to generate the necessary text and actions conditioned on the state
+observations.

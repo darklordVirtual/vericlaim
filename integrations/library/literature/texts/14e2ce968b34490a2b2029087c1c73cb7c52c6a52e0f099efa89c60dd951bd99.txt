@@ -1,0 +1,25 @@
+Models are prompted with the following general template with slight variations depending on the model used. ⬇
+
+You will be provided with a partial code base and an issue statement explaining a problem to resolve. <issue>
+
+{ISSUE TEXT}
+
+</issue>
+
+<code>
+
+[start of README.md]
+
+{README.md text}
+
+[end of README.md]
+
+[start of file_1.py]
+
+{file_1.py text}
+
+[end of file_1.py]
+
+... </code>
+
+Here is an example of a patch file. It consists of changes to the code base. It specifies the file names, the line numbers of each change, and the removed and added lines. A single patch file can contain changes to multiple files.

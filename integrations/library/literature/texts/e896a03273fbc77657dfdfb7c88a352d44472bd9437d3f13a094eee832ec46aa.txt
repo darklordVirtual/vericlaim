@@ -1,0 +1,16 @@
+Journal of Autism and Developmental Disorders, 24:129--154, 1994. URL https://link.springer.com/article/10.1007/BF02172093. Harper & Konstan (2015)
+
+F. Maxwell Harper and Joseph A. Konstan. The MovieLens datasets: History and context. ACM Trans. Interact. Intell. Syst., 5(4), Dec. 2015. doi: 10.1145/2827872. URL https://doi.org/10.1145/2827872. Hedayatnia et al. (2020)
+
+Behnam Hedayatnia, Karthik Gopalakrishnan, Seokhwan Kim, Yang Liu, Mihail Eric,
+and Dilek Hakkani-Tur. Policy-driven neural response generation for knowledge-grounded
+dialog systems. In Proceedings of the 13th International Conference on Natural
+Language Generation, pp. 412--421, Dublin, Ireland, Dec. 2020. Association
+for Computational Linguistics. URL https://aclanthology.org/2020.inlg-1.46. Hedderich et al. (2021)
+
+Michael A. Hedderich, Lukas Lange, Heike Adel, Jannik Strötgen, and
+Dietrich Klakow. A survey on recent approaches for natural language processing in
+low-resource scenarios. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 2545--2568, Online, June 2021. Association for
+Computational Linguistics.

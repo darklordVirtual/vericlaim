@@ -1,0 +1,1 @@
+to NeuroLogic A*esque decoding (Lu et al., 2021), which is inspired by A* search but introduces look-ahead heuristics that are efficient for LMs to improve the beam-search or top-k sampling decoding. This method however is constrained to sentence generation tasks, whereas our framework are designed for complex, multi-step problem solving guarded by value feedback.

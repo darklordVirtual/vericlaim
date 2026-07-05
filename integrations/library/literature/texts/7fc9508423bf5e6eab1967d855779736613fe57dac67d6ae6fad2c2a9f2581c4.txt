@@ -1,0 +1,17 @@
+Aliannejadi et al. (2019)
+
+Mohammad Aliannejadi, Hamed Zamani, Fabio Crestani, and W. Bruce Croft. Asking clarifying questions in open-domain information-seeking
+conversations. In Proceedings of the 42nd International ACM SIGIR
+Conference on Research and Development in Information Retrieval, New York,
+NY, USA, July 2019. Association for Computing Machinery. doi: 10.1145/3331184.3331265. URL https://dl.acm.org/doi/10.1145/3331184.3331265. Allamanis et al. (2016)
+
+Miltiadis Allamanis, Pankajan Chanthirasegaran, Pushmeet Kohli, and Charles
+Sutton. Learning continuous semantic representations of symbolic expressions,
+2016. URL https://arxiv.org/abs/1611.01423. Allamanis et al. (2018)
+
+Miltiadis Allamanis, Earl T. Barr, Premkumar Devanbu, and Charles Sutton. A survey of machine learning for big code and naturalness. ACM Comput. Surv., 51(4), July 2018. doi: 10.1145/3212695. URL https://doi.org/10.1145/3212695. Alon et al. (2018)
+
+Uri Alon, Shaked Brody, Omer Levy, and Eran Yahav. code2seq: Generating sequences from structured representations of
+code, 2018. URL https://arxiv.org/abs/1808.01400. Alon et al. (2020)
+
+Uri Alon, Roy Sadaka, Omer Levy, and Eran Yahav.

@@ -1,0 +1,16 @@
+Havrilla, cat state,
+L. Castricato, Alan, D. V. Phung, A. Thakur, A. Bukhtiyarov, aaronrmm,
+F. Milo, Daniel, D. King, D. Shin, E. Kim, J. Wei, M. Romero, N. Pochinkov,
+O. Sanseviero, R. Adithyan, S. Siu, T. Simonini, V. Blagojevic, X. Song,
+Z. Witten, alexandremuzio, and crumb. CarperAI/trlx: v0.6.0: LLaMa (Alpaca), Benchmark Util, T5 ILQL,
+Tests, Mar. 2023. URL https://doi.org/10.5281/zenodo.7790115. Wang and Komatsuzaki [2021]
+
+B. Wang and A. Komatsuzaki. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax, May 2021. Welleck et al. [2019]
+
+S. Welleck, I. Kulikov, S. Roller, E. Dinan, K. Cho, and J. Weston. Neural text generation with unlikelihood training. arXiv preprint arXiv:1908.04319, 2019. Williams [1992]
+
+R. J. Williams. Simple statistical gradient-following algorithms for connectionist
+reinforcement learning. Mach. Learn., 8(3–4):229–256, may
+1992. ISSN 0885-6125. doi: 10.1007/BF00992696. URL https://doi.org/10.1007/BF00992696. Wu and Hu [2018]
+
+Y. Wu and B. Hu. Learning to extract coherent summary via deep reinforcement learning.

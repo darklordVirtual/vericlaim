@@ -1,0 +1,2 @@
+SyntaxGym (Gauthier et al., 2020) is an online platform designed to make targeted evaluations following the norms of psycholinguistic experimental design. New evaluations can be contributed as test suits on their project website.555https://syntaxgym.org/
+The Massive Multitask Language Understanding (MMLU) benchmark (Hendrycks et al., 2021b) is a collection of 57 diverse tasks, collated by 7 authors.

@@ -1,0 +1,20 @@
+We propose a simple, interpretable, and actionable framework for measuring and
+removing discrimination based on protected attributes. We argue that, unlike
+demographic parity, our framework provides a meaningful measure of
+discrimination, while demonstrating in theory and experiment that we also
+achieve much higher utility. Our key contributions are as follows:
+
+•
+
+We propose an easily checkable and interpretable notion of
+avoiding discrimination based on protected attributes. Our notion
+enjoys a natural interpretation in terms of graphical dependency
+models. It can also be viewed as shifting the burden of uncertainty
+in classification from the protected class to the decision maker. In
+doing so, our notion helps to incentivize the collection of better
+features, that depend more directly on the target rather then the
+protected attribute, and of data that allows better prediction for
+all protected classes. •
+
+We give a simple and effective framework for constructing classifiers
+satisfying our criterion from an arbitrary learned predictor.

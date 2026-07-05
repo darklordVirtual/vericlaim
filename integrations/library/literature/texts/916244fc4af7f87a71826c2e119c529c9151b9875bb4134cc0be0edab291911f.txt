@@ -1,0 +1,10 @@
+Output: But what are the risks during production of nanomaterials? [WikiSearch(”nanomaterial production risks”)] Some nanomaterials may give rise to various kinds of lung damage. Input: Metformin is the first-line drug for patients with type 2 diabetes and obesity. Output: Metformin is the first-line drug for [WikiSearch(”Metformin first-line drug”)] patients with type 2 diabetes and obesity. Input: x
+Output:
+
+Machine Translation
+
+We use the following prompt for the machine translation tool:
+
+{spverbatim}
+
+Your task is to complete a given piece of text by using a Machine Translation API. You can do so by writing ”[MT(text)]” where text is the text to be translated into English.

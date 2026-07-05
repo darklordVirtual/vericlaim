@@ -1,0 +1,37 @@
+Model
+
+OHE
+
+Binning
+
+Queries
+
+Time (s)
+
+Price ()
+
+Circles
+
+-
+
+Yes
+
+Digits
+
+-
+
+No
+
+Iris
+
+-
+
+Yes
+
+Adult
+
+Yes
+
+Yes
+
+Table 7: Results of model extraction attacks on Amazon. OHE stands for one-hot-encoding. The reported query count is the number used to find quantile bins (at a granularity of ), plus those queries used for equation-solving. Amazon charges per prediction [1]. Amazon uses logistic regression for classification, and provides black-box-only access to trained models [1]. By default, Amazon uses two feature extraction techniques: (1) Categorical features are one-hot-encoded, i.e., the input space is mapped to binary features encoding the input value. (2) Quantile binning is used for numeric features. The training data values are split into -quantiles ( equally-sized bins), and the input space is mapped to binary features encoding the bin that a value falls into. Note that , i.e., ex increases the number of features. If reverse-engineers ex, she can query the service on samples in input space, compute locally, and extract in feature-space using equation-solving. We apply this approach to models trained by Amazon. Our results are summarized in Table 7.

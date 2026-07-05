@@ -1,0 +1,13 @@
+Tables S1, S2, and S3 display the MCE, test error, and NLL for all the experimental settings outlined in Section 5. Dataset
+
+Model
+
+Uncalibrated
+
+Hist. Binning
+
+Isotonic
+
+BBQ
+
+Temp.

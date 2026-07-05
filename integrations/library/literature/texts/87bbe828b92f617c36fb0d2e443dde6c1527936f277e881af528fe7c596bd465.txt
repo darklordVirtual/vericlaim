@@ -1,0 +1,53 @@
+Ying Nian Wu
+
+“Interpreting CNNs via Decision Trees”
+
+In IEEE Conference on Computer Vision and Pattern Recognition, 2019
+
+URL: https://arxiv.org/abs/1802.00121
+
+[208]
+Himabindu Lakkaraju, Stephen H. Bach and Jure Leskovec
+
+“Interpretable decision sets: A joint framework for description and prediction”
+
+In Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 13-17-Augu
+
+Association for Computing Machinery, 2016, pp. 1675–1684
+
+URL: https://dl.acm.org/doi/10.1145/2939672.2939874
+
+[209]
+Sarah Tan et al. “Learning Global Additive Explanations for Neural Nets Using Model Distillation”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1801.08640
+
+[210]
+Quanshi Zhang et al. “Interpreting CNN Knowledge via an Explanatory Graph”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1708.01785
+
+[211]
+Wieland Brendel and Matthias Bethge
+
+“Approximating CNNs with Bag-of-local-Features models works surprisingly well on ImageNet”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1904.00760
+
+[212]
+Quanshi Zhang, Ying Nian Wu and Song-Chun Zhu
+
+“Interpretable Convolutional Neural Networks”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1710.00935
+
+[213]
+Xi Chen et al.

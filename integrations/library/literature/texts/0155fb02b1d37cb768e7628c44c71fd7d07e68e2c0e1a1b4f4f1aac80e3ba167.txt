@@ -1,0 +1,65 @@
+∎
+
+Proof of Theorem 2.2. If , then . Throughout the rest of the proof, we assume that . Define the quantity
+
+(45)
+
+Since , exists almost surely. Deterministically, , which yields . Again since is non-increasing in ,
+
+(46)
+
+By exchangeability and the fact that is a symmetric function of ,
+
+(47)
+
+For the remainder of the proof we focus on lower-bounding . We begin with the following identity:
+
+(48)
+
+Rearranging the identity,
+
+(49)
+
+Using the Jump Lemma to bound below by gives
+
+(50)
+
+Finally, chaining together the above inequalities,
+
+(51)
+
+∎
+
+Proof of Proposition 2.1. Without loss of generality, we assume . Assume takes values in and . Let , be any positive integer, and be i.i.d. right-continuous piecewise constant (random) functions with
+
+(52)
+
+By definition, is independent of . Thus, for any ,
+
+(53)
+
+Then,
+
+(54)
+
+Note that
+
+(55)
+
+Since ,
+
+As a result,
+
+(56)
+
+Now let be sufficiently large such that
+
+(57)
+
+Then
+
+(58)
+
+For any , we can take close enough to to render the claim false. ∎
+
+Proof of Theorem A.1.

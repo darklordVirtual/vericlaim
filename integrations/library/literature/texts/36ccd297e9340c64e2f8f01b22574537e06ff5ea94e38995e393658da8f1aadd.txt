@@ -1,0 +1,20 @@
+2022. LaMDA: Language models
+for dialog applications. arXiv preprint arXiv:2201.08239. Wang et al. (2022a)
+
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, and Denny Zhou. 2022a. Self-consistency improves
+chain of thought reasoning in language models. arXiv preprint arXiv:2203.11171. Wang et al. (2022b)
+
+Yizhong Wang, Swaroop Mishra, Pegah Alipoormolabashi, Yeganeh Kordi, Amirreza
+Mirzaei, Anjana Arunkumar, Arjun Ashok, Arut Selvan Dhanasekaran, Atharva
+Naik, David Stap, et al. 2022b. Benchmarking generalization
+via in-context instructions on 1,600+ language tasks. arXiv preprint arXiv:2204.07705. Wei et al. (2022a)
+
+Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian
+Lester, Nan Du, Andrew M. Dai, and Quoc V. Le. 2022a. Finetuned
+language models are zero-shot learners. ICLR. Wei et al. (2022b)
+
+Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian
+Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, et al. 2022b. Emergent
+abilities of large language models. Transactions on Machine Learning Research. Wiegreffe et al. (2022)
+
+Sarah Wiegreffe, Jack Hessel, Swabha Swayamdipta, Mark Riedl, and Yejin Choi. 2022.

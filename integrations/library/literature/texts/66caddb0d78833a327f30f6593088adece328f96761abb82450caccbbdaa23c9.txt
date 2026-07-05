@@ -1,0 +1,15 @@
+Scudellari (2017)
+
+Megan Scudellari. Cryopreservation aims to engineer novel ways to freeze, store, and
+thaw organs. Proceedings of the National Academy of Sciences, 114(50):13060--13062, 2017. doi: 10.1073/pnas.1717588114. URL https://www.pnas.org/doi/abs/10.1073/pnas.1717588114. See et al. (2017)
+
+Abigail See, Peter J. Liu, and Christopher D. Manning. Get to the point: Summarization with pointer-generator networks. In Proceedings of the 55th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp. 1073--1083,
+Vancouver, Canada, July 2017. Association for Computational Linguistics. doi: 10.18653/v1/P17-1099. URL https://www.aclweb.org/anthology/P17-1099. Sellam et al. (2020)
+
+Thibault Sellam, Dipanjan Das, and Ankur P. Parikh. BLEURT: Learning robust metrics for text generation, 2020. URL https://arxiv.org/abs/2004.04696. Selsam et al. (2018)
+
+Daniel Selsam, Matthew Lamm, Benedikt Bünz, Percy Liang, Leonardo de Moura,
+and David L. Dill. Learning a SAT solver from single-bit supervision, 2018. URL https://arxiv.org/abs/1802.03685. Senel & Schütze (2021)
+
+Lutfi Kerem Senel and Hinrich Schütze. Does he wink or does he nod?

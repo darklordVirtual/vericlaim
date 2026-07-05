@@ -1,0 +1,16 @@
+ChePT -- applying deep neural transformer models to chess move
+prediction and self-commentary, 2021. URL
+https://web.stanford.edu/class/cs224n/reports/final_reports/report087.pdf. Talat et al. (2022)
+
+Zeerak Talat, Aurélie Névéol, Stella Biderman, Miruna Clinciu,
+Manan Dey, Shayne Longpre, Sasha Luccioni, Maraim Masoud, Margaret Mitchell,
+Dragomir Radev, Shanya Sharma, Arjun Subramonian, Jaesung Tae, Samson Tan,
+Tunuguntla Deepak, and Oskar van der Wal. You reap what you sow: On the challenges of bias evaluation under
+multilingual settings. In Proceedings of the ACL Workshop on Challenges &
+Perspectives in Creating Large Language Models, 2022. URL https://openreview.net/forum?id=rK-7NhfSIW5. Talmor et al. (2019a)
+
+Alon Talmor, Yanai Elazar, Yoav Goldberg, and Jonathan Berant. oLMpics -- on what language model pre-training captures,
+2019a. URL https://arxiv.org/abs/1912.13283. Talmor et al. (2019b)
+
+Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. CommonsenseQA: A question answering challenge targeting commonsense
+knowledge.

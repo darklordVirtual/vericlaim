@@ -1,0 +1,17 @@
+It is interesting to consider how different oblivious measures apply
+to the scores and in these two scenarios. As discussed in Section 4.2, a score satisfies
+equalized odds iff the conditional ROC curves agree for both values of
+, which we refer to as having identical ROC curves. Definition 6.2 (Identical ROC Curves). We say that a score has identical conditional ROC curves if
+
+for all groups of and all . In particular, this property is achieved by an equalized odds
+score . Within each protected group, i.e. for each value , the score
+differs from by a fixed monotone transformation,
+namely an additive shift . Consider a derived
+threshold predictor based
+on . Any such predictor obeys equalized odds. We can also
+derive the same predictor deterministically from and as
+where . That is, in our
+particular example, is special in that optimal equalized odds
+predictors can be derived from it (and the protected attribute )
+deterministically, without the need to introduce randomness as in
+Section 4.2.

@@ -1,0 +1,14 @@
+making a join). At serving time, you are doing online processing, whereas
+training is a batch processing task. However, there are some things that you
+can do to re-use code. For example, you can create an object that is
+particular to your system where the result of any queries or joins can be
+stored in a very human readable way, and errors can be tested easily. Then,
+once you have gathered all the information, during serving or training, you
+run a common method to bridge between the human-readable object that is
+specific to your system, and whatever format the machine learning system
+expects. This eliminates a source of training-serving skew. As a
+corollary, try not to use two different programming languages between training
+and serving. That decision will make it nearly impossible for you to share
+code. Rule #33: If you produce a model based on the data until January 5th, test the model on the data from January 6th and after. In general, measure performance of a model on the data gathered after the data
+you trained the model on, as this better reflects what your system will do in
+production.

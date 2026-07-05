@@ -1,0 +1,26 @@
+Table 17:
+We provide another example where Claude-2 solves the issue correctly and develops a solution similar to the gold patch. However, the gold patch solution is more cognizant of avoiding future potential issues that could be related to this code. Setting
+
+•
+
+Model: Claude 2 with Oracle retrieval
+
+•
+
+Task Instance: matplotlib__matplotlib-24362
+
+–
+
+Link to Issue: https://github.com/matplotlib/matplotlib/issues/24349
+
+–
+
+Link to PR: https://github.com/matplotlib/matplotlib/pull/24362
+
+Issue
+
+[Bug]: sharex and sharey don’t accept 0 and 1 as bool values
+
+### Bug summary
+
+When using ‘0‘ or ‘1‘ in place of ‘False‘ or ‘True‘ in ‘sharex‘ or ‘sharex‘ arguments of ‘pyplot.subplots‘ an error is raised.

@@ -1,0 +1,16 @@
+Qin et al. (2021)
+
+Lianhui Qin, Aditya Gupta, Shyam Upadhyay, Luheng He, Yejin Choi, and Manaal
+Faruqui. TIMEDIAL: Temporal commonsense reasoning in dialog. In Proceedings of the 59th Annual Meeting of the Association
+for Computational Linguistics and the 11th International Joint Conference on
+Natural Language Processing (Volume 1: Long Papers), pp. 7066--7076,
+Online, August 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.549. URL https://aclanthology.org/2021.acl-long.549. Quine (1951)
+
+Willard V.O. Quine. Main trends in recent philosophy: Two dogmas of empiricism. The Philosophical Review, 60(1):20--43,
+1951. URL http://www.jstor.org/stable/2181906. Radev et al. (2008)
+
+Dragomir R. Radev, Lori Levin, and Thomas E. Payne. The North American computational linguistics olympiad (NACLO). In Proceedings of the Third Workshop on Issues in Teaching
+Computational Linguistics, pp. 87--96, Columbus, Ohio, June 2008. Association for Computational Linguistics. URL https://aclanthology.org/W08-0211. Radford et al. (2019)
+
+Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+Sutskever. Language models are unsupervised multitask learners.

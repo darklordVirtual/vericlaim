@@ -1,0 +1,13 @@
+Participatory research for low-resourced machine translation: A case
+study in African languages. In Findings of the Association for Computational Linguistics:
+EMNLP 2020, pp. 2144--2160, Online, November 2020. Association for
+Computational Linguistics. doi: 10.18653/v1/2020.findings-emnlp.195. URL https://aclanthology.org/2020.findings-emnlp.195. Nematzadeh et al. (2018)
+
+Aida Nematzadeh, Kaylee Burns, Erin Grant, Alison Gopnik, and Tom Griffiths. Evaluating theory of mind in question answering. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pp. 2392--2400, Brussels, Belgium,
+October--November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1261. URL https://aclanthology.org/D18-1261. Nguyen & O’Connor (2015)
+
+Khanh Nguyen and Brendan O’Connor. Posterior calibration and exploratory analysis for natural language
+processing models. In Proceedings of the 2015 Conference on Empirical Methods in
+Natural Language Processing, pp. 1587--1598, Lisbon, Portugal, September
+2015. Association for Computational Linguistics. doi: 10.18653/v1/D15-1182. URL https://aclanthology.org/D15-1182.

@@ -1,0 +1,13 @@
+The results for and the allocations can be predicted from the equation obtained in Section 5. Given our equation for , we can substitute and then find the minimum of the loss as a function of , while fixing the training compute. We carry out this procedure in detail in Appendix B, where we also provide some additional predictions. For the loss as a function of training compute, we predict that
+
+(6.3)
+
+where
+
+(6.4)
+
+in excellent agreement with the exponent of Figure 13. We also predict that
+
+(6.5)
+
+which also matches the scaling of Figure 14 to within a few percent. Our scaling laws provide a predictive framework for the performance of language modeling.

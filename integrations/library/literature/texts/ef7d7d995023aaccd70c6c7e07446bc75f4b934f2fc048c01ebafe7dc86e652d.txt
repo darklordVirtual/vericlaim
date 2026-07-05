@@ -1,0 +1,19 @@
+•
+
+Demographic parity picks for each group a threshold
+such that the fraction of group members that qualify for loans is the same. •
+
+Equal opportunity picks for each group a threshold such
+that the fraction of non-defaulting group members that qualify for loans is the
+same. •
+
+Equalized odds requires both the fraction of non-defaulters
+that qualify for loans and the fraction of defaulters that qualify
+for loans to be constant across groups. This cannot be achieved with
+a single threshold for each group, but requires randomization. There are many ways to do it; here, we pick two thresholds
+for each group, so above both thresholds people always qualify and
+between the thresholds people qualify with some probability. We could generalize the above constraints to allow non-threshold
+classifiers, but we can show that each profit-maximizing classifier
+will use thresholds. As shown in Section 4, the
+optimal thresholds can be computed efficiently; the results are shown
+in Figure 9. Figure 9: FICO thresholds for various definitions of fairness.

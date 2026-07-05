@@ -1,0 +1,7 @@
+models from the DeBERTa family, chosen for their balance of language understanding and low latency:
+
+•
+
+PromptGuard 2 86M is based on mDeBERTa-base, optimized for detecting multilingual jailbreaks. •
+
+PromptGuard 2 22M, a lightweight variant fine-tuned from DeBERTa-xsmall, offers a notable reduction in latency with only a slight performance trade-off, making it suitable for real-time, resource-constrained environments. Enhanced Training Objective: We improved the model’s precision on out-of-distribution inputs by adopting a modified energy-based loss function, inspired by Energy-Based Out-of-Distribution Detection (Liu et al., 2020). In addition to standard cross-entropy, the training penalizes overly confident negative predictions on benign prompts. This encourages better calibration and reduces the likelihood of false positives on previously unseen, benign inputs. Robust Tokenization for Adversarial Resilience: To further strengthen PromptGuard 2 against token-based adversarial attacks, we introduced a hardened tokenization mechanism.

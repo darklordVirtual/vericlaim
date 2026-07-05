@@ -1,0 +1,8 @@
+Selective classification is intimately related to active learning in the
+context of linear classifiers [6, 11]. It would be very interesting to explore this potential relationship in the context of (deep) neural classification. In this paper we only studied selective classification under the 0/1 loss. It would be of great importance to
+extend our techniques to other loss functions and specifically to regression, and to fully control false-positive and
+false-negative rates. This work has many applications. In general, any classification task where a controlled risk is critical would benefit by using
+our methods. An obvious example is that of medical applications where utmost precision is required and rejections should be handled by human experts. In such applications the existence of performance guarantees, as we propose here,
+is essential. Financial investment applications are also obvious, where there are great many opportunities
+from which one should cherry-pick the most certain ones. A more futuristic application is that of robotic sales representatives,
+where it could extremely harmful if the bot would try to answer questions it does not fully understand.

@@ -1,0 +1,15 @@
+To do this, we perform validation repository-by-repository, where for each repository’s set of task instances, we perform the following procedure:
+
+1. Create executable contexts as conda envs. based on latest task instance per version. 2. Group task instances by version. 3. Iterate across each task instances group, where for each task instance, we perform the following within the corresponding conda env. (a)
+
+Remove any file changes and checkout the task instance’s base_commit. This sets the repository to codebase . (b)
+
+Run the installation command to instantiate codebase . (c)
+
+Apply the test patch to codebase . (d)
+
+Run the testing script, determined from test patch , to generate test result logs . (e)
+
+Apply the solution patch to the codebase with tests . (f)
+
+Run the testing script from part (d) again to generate test result logs . The testing command consists of the testing framework used by the repository (e.g. pytest, tox) with paths specified in appended. The testing command would run any and all tests that are specified within the contents of each file path. If any of the steps through fails, the candidate task instance is discarded from consideration.

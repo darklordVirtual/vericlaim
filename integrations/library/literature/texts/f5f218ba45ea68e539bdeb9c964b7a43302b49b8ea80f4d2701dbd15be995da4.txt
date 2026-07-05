@@ -1,0 +1,29 @@
+notion of uncertainty in hand, we can define a score function,
+
+(9)
+
+This score function has a natural interpretation: it is a multiplicative correction factor of the uncertainty scalar (i.e., ). As before, taking to be the quantile of the calibration scores guarantees us that for a new example,
+
+(10)
+
+Naturally, we can then form prediction sets using the rule
+
+(11)
+
+⬇
+
+# model(X)[:,0]=E(Y|X), and model(X)[:,1]=stddev(Y|X)
+
+scores = abs(model(calib_X)[:,0]-calib_Y)/model(calib_X)[:,1]
+
+# Get the score quantile
+
+qhat = torch.quantile(scores,np.ceil((n+1)*(1-alpha))/n)
+
+# Deploy (represent sets as tuple of lower and upper endpoints)
+
+muhat, stdhat = (model(test_X)[:,0], model(test_X)[:,1])
+
+prediction_sets = (muhat-stdhat*qhat, muhat+stdhat*qhat)
+
+Figure 7: Python code for conformalized uncertainty scalars. Figure 8: A visualization of the uncertainty scalars algorithm in Eq. (11). We produce the set by adding and subtracting . The constant is picked during the calibration step. Let’s reflect a bit on the nature of these prediction sets. The prediction sets are valid, as we desired.

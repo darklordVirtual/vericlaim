@@ -1,0 +1,22 @@
+Gao et al. (2022)
+
+Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie
+Callan, and Graham Neubig. 2022. Pal: Program-aided
+language models. Guu et al. (2020)
+
+Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. 2020. Realm:
+Retrieval-augmented language model pre-training. He et al. (2020)
+
+Junxian He, Jiatao Gu, Jiajun Shen, and Marc’Aurelio Ranzato. 2020. Revisiting
+self-training for neural sequence generation. In International Conference on Learning Representations. Honovich et al. (2022)
+
+Or Honovich, Thomas Scialom, Omer Levy, and Timo Schick. 2022. Unnatural
+instructions: Tuning language models with (almost) no human labor. Izacard and Grave (2021)
+
+Gautier Izacard and Edouard Grave. 2021. Distilling
+knowledge from reader to retriever for question answering. In International Conference on Learning Representations. Izacard et al. (2022)
+
+Gautier Izacard, Patrick Lewis, Maria Lomeli, Lucas Hosseini, Fabio Petroni,
+Timo Schick, Jane Dwivedi-Yu, Armand Joulin, Sebastian Riedel, and Edouard
+Grave. 2022. Atlas: Few-shot
+learning with retrieval augmented language models. Ji et al.

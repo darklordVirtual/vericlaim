@@ -1,0 +1,118 @@
+{"fsid": "arxiv_2210-03629", "n": 117, "overlap": 200, "source_sha256": "ff9862bd0c9c0b003b26ba4074227db60c2784d480d3fb0a27c0aeead1bf0be2", "target": 1200}
+{"section": "", "seq": 0, "sha256": "79e191b199c1a168f0e620129871a67c58d9dc3464005f820f62e572969db9ea"}
+{"section": "\\model: Synergizing Reasoning and Acting in Language Models", "seq": 1, "sha256": "9ded1f0e11745782900b559ec18bcf0a969c797226ba24d7a72e680f141a3164"}
+{"section": "\\model: Synergizing Reasoning and Acting in Language Models", "seq": 2, "sha256": "1d97e94340cf815ea75ae38731c402cf08f3ddf29bef47f655000b57a52ee686"}
+{"section": "\\model: Synergizing Reasoning and Acting in Language Models", "seq": 3, "sha256": "8b719e1d7b284b40d5c6324a79f4e22ac9e524db44af02eedab7151ff2448435"}
+{"section": "1 Introduction", "seq": 4, "sha256": "4bd9d2b46a8406a074e8f0d44c7d4c8e5366cf57ad4d9ab7bc67c760f159bac0"}
+{"section": "1 Introduction", "seq": 5, "sha256": "2e8600b0b892de2403cd15605b67f20f51b4911a944194632d12fe4df6f27d3c"}
+{"section": "1 Introduction", "seq": 6, "sha256": "603ad3ccfc2293e32a9c8b6e25add9ac95ad627dcda6297da569f5eeefc8c91c"}
+{"section": "1 Introduction", "seq": 7, "sha256": "7f4811569f32bf4696b87ea02a79428cf2fcc7d8af5a12e6d07e4eb75170791e"}
+{"section": "1 Introduction", "seq": 8, "sha256": "13be2315ac0498fe54258d1192836dbd829d14193bb40580befccbb09499f109"}
+{"section": "1 Introduction", "seq": 9, "sha256": "faa79decde3f8caa271255c801cb53592843aab982cd10f2752a67c12e008322"}
+{"section": "1 Introduction", "seq": 10, "sha256": "5c4af4bc915ad68088d1a5a619b64bdd24a1bcac8f052f8e0b0a6be4eab11056"}
+{"section": "2 \\model: Synergizing Reasoning + Acting", "seq": 11, "sha256": "6f0b3d064a2d5b1b9ce3cad3abaddd7919d5d238444df16125a345b4b541c99b"}
+{"section": "2 \\model: Synergizing Reasoning + Acting", "seq": 12, "sha256": "c3317dfb7513a777ac816be5a490115df311b7057e8f193a060ac7232061e23e"}
+{"section": "2 \\model: Synergizing Reasoning + Acting", "seq": 13, "sha256": "06278fc04c945de5daacd478bd7e7062bd7f98f6c7a9d7031472fed01f6f0884"}
+{"section": "2 \\model: Synergizing Reasoning + Acting", "seq": 14, "sha256": "6e995b0ba13b37ba3436433ae0b37c872eab95e8f771e9c796a10385aaf872b9"}
+{"section": "3 Knowledge-Intensive Reasoning Tasks", "seq": 15, "sha256": "51b4aaf1de2928f9e67e81d6f9e48462a070ac62350214aad7ae20c65a306249"}
+{"section": "3.1 Setup", "seq": 16, "sha256": "c1b4bfe566ac9e4c6b82ff2d74e33c46251f28f9d4fbf98b9198d4f383e66ab1"}
+{"section": "3.1 Setup", "seq": 17, "sha256": "ee185aa79622ce38efba042b5508e61a19fe69c2aaf87dfc92c101f9339737d4"}
+{"section": "3.2 Methods", "seq": 18, "sha256": "8e791c0b430efe06595f162bd9c966a92e9fcf3208a0d5881d43aeb1a47cc96a"}
+{"section": "3.2 Methods", "seq": 19, "sha256": "ecc73f3732a9cac8333abd7f049e179e507e255bf388aeff95a14e9044ec2e89"}
+{"section": "3.2 Methods", "seq": 20, "sha256": "d3c1f4e79d0dee4f5b883a4963a094ba1c2ade229fd69348855fb5380dbc1794"}
+{"section": "3.2 Methods", "seq": 21, "sha256": "04ffa0e9c04aca8e8eaeff84216fcc9a4e6a8cfe8e7a0a3c57425fb2673ba074"}
+{"section": "3.3 Results and Observations", "seq": 22, "sha256": "d9a52626e51551f932eb9d15e0a9349a159dd6b78be5af98297adfa3222634e1"}
+{"section": "3.3 Results and Observations", "seq": 23, "sha256": "641249364571422042f013370ee91ea8034f3add562ff0800f033fd3d23c9fc8"}
+{"section": "3.3 Results and Observations", "seq": 24, "sha256": "4fbee3dec3001126874b1482b8b364fa2c8fa4741f7c4878dfb9707ce01ee4e0"}
+{"section": "3.3 Results and Observations", "seq": 25, "sha256": "3d437c96242583dbcf4e0e57f4596348636f82a0ac3d4c96c4cc282452860224"}
+{"section": "3.3 Results and Observations", "seq": 26, "sha256": "ae2459a348ed22a3bb77efe480edb32094adce0d5a89da45c89554e222aaca7a"}
+{"section": "3.3 Results and Observations", "seq": 27, "sha256": "31fdc345ca191fb018a5b011dc49b39e8d6fe913a236667961574cfec9b8b41f"}
+{"section": "4 Decision Making Tasks", "seq": 28, "sha256": "c4053ab5409c881697ae8c921aa99aedc41eb5257b4dc165fecd4cf5d76ff4f5"}
+{"section": "4 Decision Making Tasks", "seq": 29, "sha256": "0a87f6adb739622dbbfb4761b5e7d108c487145e308c45e49654a31ee6668b4a"}
+{"section": "4 Decision Making Tasks", "seq": 30, "sha256": "a9b566707b52650b3729ad9c8d8cf0907d0d6d9b9174bacd151c95d70bf6b2ec"}
+{"section": "4 Decision Making Tasks", "seq": 31, "sha256": "f179a538225978d864abc8cdf6072e99656d3dce8784dc469ae8df7410d990b7"}
+{"section": "4 Decision Making Tasks", "seq": 32, "sha256": "84d7f9e64966bd3f2a16fdb587334067f76b0c17030a3a529cbcdedc0e3df49e"}
+{"section": "4 Decision Making Tasks", "seq": 33, "sha256": "7761b8aac510d2365c00186fd4c8cf9edadac3fa9707b05db92e7f212592e3f3"}
+{"section": "4 Decision Making Tasks", "seq": 34, "sha256": "51869d540fc17aa8f192d424065143a52756dcd025d72dd77082619d65c2106e"}
+{"section": "4 Decision Making Tasks", "seq": 35, "sha256": "70975ca46e7eddb87bf46fb9079974619ccb8503a56b687f8c9c1bd0fac4c03e"}
+{"section": "4 Decision Making Tasks", "seq": 36, "sha256": "f50ceffdb31c9c589c1eba2feb4d08a9d48d5875081cf8694cf1f71130c0cb8b"}
+{"section": "5 Related Work", "seq": 37, "sha256": "9d6d7487a111e698833f6132e3fd5d5cd6e9b75b398caa51aacf423ebf362c30"}
+{"section": "5 Related Work", "seq": 38, "sha256": "bff42d420bbee92ef654af6973d5feb9aa6f5198a674b5c4348a016646e5610d"}
+{"section": "5 Related Work", "seq": 39, "sha256": "5a40c6e0dd0fbd1783683062b55f09d42506dee25cec9abcd1ba12e2412cbb52"}
+{"section": "5 Related Work", "seq": 40, "sha256": "531d8d23744bed56a075ad982baebb301e8fd0049679d8adbc051969b2b0a21a"}
+{"section": "5 Related Work", "seq": 41, "sha256": "eb2cf16028da935e02d7b307d6d71feebad870cfc7a102692e91fec8e4d165e0"}
+{"section": "6 Conclusion", "seq": 42, "sha256": "be5b43810117da4653c05405da140261ed43cb0a6e6b95fc5598ccc189ba9712"}
+{"section": "6 Conclusion", "seq": 43, "sha256": "81f5bfa7ce08b6e64c47edcb0cc84b66c2403c2b6f7a1f2c815abc38176b9ace"}
+{"section": "6 Conclusion", "seq": 44, "sha256": "8294c580090a1bd0846af4ed48677f3911b0642db6ee9463852b6e493d5c4a41"}
+{"section": "References", "seq": 45, "sha256": "8bfe4cdfd8478c0c6903b5391ef76c3173729c4d13021cf6bcbe98fa398cb788"}
+{"section": "References", "seq": 46, "sha256": "8d984aaf3d2a341daa5aa44c17e75e47c8b1f650ea42c6955391a5f87b46eab8"}
+{"section": "References", "seq": 47, "sha256": "4c1e1309f19db745007cdccdda1361159988ba207053eac19a7aee32e7f03809"}
+{"section": "References", "seq": 48, "sha256": "21510986e6f97ac33da2858dbb38326b6241f020fc412e6d4e49e50be520c19e"}
+{"section": "References", "seq": 49, "sha256": "f08ca892d24636f134fd0dd113967d70123a2326197dfddb8cfedd1da4929d8a"}
+{"section": "References", "seq": 50, "sha256": "fc4a513ee005ac2ccea87a72f6deb365efc639b66393e6e9810aeb637cb81ae0"}
+{"section": "References", "seq": 51, "sha256": "8c1c9ca01bc7cc8d4ab339cfccfe36e33fe0a5205c4ad87d07d47a27dd0b8e08"}
+{"section": "References", "seq": 52, "sha256": "1ca6041d4a0640a30d77184db8a57a11910ec9210ba3e700e0b277571fa4a61b"}
+{"section": "References", "seq": 53, "sha256": "045b8545310046cb1f109813dc830d7f77c9069afe3ef3e5c643982b66d5b100"}
+{"section": "References", "seq": 54, "sha256": "fea5ca799b83dbc10f76a4abe3840f4630c1e67fd61a85e617608b22c1ddff36"}
+{"section": "References", "seq": 55, "sha256": "55fe717cad3e49262f63061603bbbccf06b1a53b26fa2f4e6791911390edef90"}
+{"section": "References", "seq": 56, "sha256": "76d4b21b3330e4d312ecb596fb7a6f95882b8793a3d428e88e97902dec886651"}
+{"section": "References", "seq": 57, "sha256": "11db52f1b4d69fb061df4943fc4cbe4144e1695a668e3073eba80eadb2b95e99"}
+{"section": "A.1 GPT-3 Experiments", "seq": 58, "sha256": "f3c35b788129da26c1fbc814c4737029e08829a998d156f88e352b1a4a54b3da"}
+{"section": "A.2 \\model obtains up-to-date knowledge on HotpotQA", "seq": 59, "sha256": "1230934671e84af0f0a5c1dd085ecc0fc019c9c26f4f1fd518763be4aa62523d"}
+{"section": "A.3 Human-in-the-loop behavior correction on AlfWorld", "seq": 60, "sha256": "89aac4ccb684d8f703fb0183dd6be4c6d03abedad8c9d92cd1440019213ff893"}
+{"section": "A.3 Human-in-the-loop behavior correction on AlfWorld", "seq": 61, "sha256": "d1cb98f14d4b5e74b7017a17103b03f0a8b31469ed6d508ffc8c8dd9339c84ab"}
+{"section": "B.1 HotpotQA Finetuning Details", "seq": 62, "sha256": "4d3274d2d39d0149e7ba8a460d2df1a913ed7f273fe85c8c4b8af98573e13868"}
+{"section": "B.2 AlfWorld IM-Style Details", "seq": 63, "sha256": "689e000c2f7037b0e1917a5b1389f525d564bbbcb7b51a498f0456f9f8218a9c"}
+{"section": "C.1 HotpotQA", "seq": 64, "sha256": "16f3c77ba36c32cb0ef1c3f0fd8b803b83b67ccc09e9eb9b59209aaf73539357"}
+{"section": "C.1 HotpotQA", "seq": 65, "sha256": "a22f4e3854b3755c77e72708066c4c9530f2387b97e2b87292e3319790f2beff"}
+{"section": "C.1 HotpotQA", "seq": 66, "sha256": "b4aba4a474d0bb4f603c518b2e3400b94d8f363fd238f3a32820ef376c068e60"}
+{"section": "C.1 HotpotQA", "seq": 67, "sha256": "f3e068c2842efa8365bbc7d3514fff3983b217b013a8a11091b366435d9f1001"}
+{"section": "C.1 HotpotQA", "seq": 68, "sha256": "9800de3cf5a5325ec8ff34b74ecc10aa0849fbf5f3fcb5c4547bcfcfd1d313f3"}
+{"section": "C.1 HotpotQA", "seq": 69, "sha256": "426c72a9d81bd405de17f781180ec22ad859485e98003c17dce813c371eebd37"}
+{"section": "C.1 HotpotQA", "seq": 70, "sha256": "f114b3a0511cf2e41edce4ef08ed29526b5e7d1415163d3ed194fb6b71bb51d9"}
+{"section": "C.1 HotpotQA", "seq": 71, "sha256": "036ad0beb08630620e4608dd8179e74728b79b30123a9f522d991306f9afa642"}
+{"section": "C.1 HotpotQA", "seq": 72, "sha256": "fbc27308cab37e0b3c9a79c203c74272777fe49a7a81956313ea76aff12e23ed"}
+{"section": "C.1 HotpotQA", "seq": 73, "sha256": "b9619c02313879d31f9fdc8d45cb3f6239161895e7291825138375943309b4cc"}
+{"section": "C.1 HotpotQA", "seq": 74, "sha256": "65a7fdcc4c4d79cfcc41396628ed96a117582e78ea39a32d47597ee0e2feca28"}
+{"section": "C.1 HotpotQA", "seq": 75, "sha256": "98e92e3685b797cf95943fbd87a1fb452122985a83e972a73d22945a4ee45e7f"}
+{"section": "C.1 HotpotQA", "seq": 76, "sha256": "da0da655922be65b31464f7046bbfc84a67d9c3e1afaea505e3ad7700fc7fa55"}
+{"section": "C.2 Fever", "seq": 77, "sha256": "54188d58f27aa1ec9a7731a07a6233b4486a82bc554e02c57bc5783f9bce6929"}
+{"section": "C.2 Fever", "seq": 78, "sha256": "f0090634328a4d3b65e4ceb66e4ecfca172b596fb26ebab9225eca3faf6a89a4"}
+{"section": "C.2 Fever", "seq": 79, "sha256": "1ba0e701c3b49ce3cf504a42fee93d50f30c49d255a97f63f598ccba1092373a"}
+{"section": "C.2 Fever", "seq": 80, "sha256": "abda8367944bc0cb05e894b56f96c9e64813124d6561292325bb8a9ace2bc387"}
+{"section": "C.2 Fever", "seq": 81, "sha256": "2781682294db0cb640ef2fa6092471eb9e3b215c4d8405ba4ba368c64c96b351"}
+{"section": "C.2 Fever", "seq": 82, "sha256": "2cd18ffb6fd75743fe6b39a3192543579318ef553746a277a7c1c8b2b5435ebf"}
+{"section": "C.2 Fever", "seq": 83, "sha256": "62db048a08d93e1ceb63fb161e269f0fa2a2f9e42696abc2151f34a96a483d95"}
+{"section": "C.3 Webshop", "seq": 84, "sha256": "4392df34f18e11539fea327504d94509fe1d1b03cbc421a464d5196bfbe50fea"}
+{"section": "C.3 Webshop", "seq": 85, "sha256": "3d1f00b192b4c39228b08cbacd642504073220c063ae9a0df4688d624be8a4c1"}
+{"section": "C.3 Webshop", "seq": 86, "sha256": "c43db585b26a762c976e0a99b3f4fb2b3d35056af8d57514ecbbdb00c6ad9cd2"}
+{"section": "C.3 Webshop", "seq": 87, "sha256": "f14f6ca0c4264dbff44e60cefeb600b27d67dcfe5dd1df5a55452a407251cc88"}
+{"section": "C.3 Webshop", "seq": 88, "sha256": "693e5a8846ac4d00116ea66892883dbd902327fc2a4fd09c360648ba78182176"}
+{"section": "C.4 ALFWorld", "seq": 89, "sha256": "11b8d59f11aa64456e19d9ab7b4b9f2839060a9335771154221758cd77dffd8e"}
+{"section": "C.4 ALFWorld", "seq": 90, "sha256": "2a70e16610ac4f8f0cfce003a6d4c47d62e4040edafbb7130945e186ac61ce27"}
+{"section": "C.4 ALFWorld", "seq": 91, "sha256": "80c3834311ea1aff883c52c30eb5135e61e7f39df777883b6e6da82d9e1c7251"}
+{"section": "C.4 ALFWorld", "seq": 92, "sha256": "e5d2e637c7a2aab068017404871375a828864b9f6e8bd8ecee27c6adb92ab5d6"}
+{"section": "C.4 ALFWorld", "seq": 93, "sha256": "10ebc9be21c3939e79d2a3fbaf57765483f6f1aede5ae817fb3b13f8e32454fe"}
+{"section": "C.4 ALFWorld", "seq": 94, "sha256": "e9a9faea8be8f92c73d285b09d91830119f2ea773b3af519074dfb38b0f52ed1"}
+{"section": "C.4 ALFWorld", "seq": 95, "sha256": "86d913bc85fce4906a5dc8a8522ec3ec38e4fb4751937cde573577af131eaeb3"}
+{"section": "D.1 FEVER Trajectories", "seq": 96, "sha256": "fdfb8f246f28e73af78531af7a7c789e7ff3e7b80eebb61ae1a4907ffef19cfa"}
+{"section": "D.1 FEVER Trajectories", "seq": 97, "sha256": "fba225a01ad1083076c79f9c2dd272da41f4d19d7d0c22c1f944663f9ed1fda4"}
+{"section": "D.1 FEVER Trajectories", "seq": 98, "sha256": "efa270586fba733b2997853c7563e38e739c946cfb73d75172310e0c81b5f4df"}
+{"section": "D.1 FEVER Trajectories", "seq": 99, "sha256": "9bf3c698e4d99e2b8fdf5da59462db5f83d973847fff6e583c5a696f9d15aaa6"}
+{"section": "D.2 ALFWorld Trajectories", "seq": 100, "sha256": "d76d986527f222c63be1c509290107ed4eff61dce0c2ccd8fbdb1141aa308129"}
+{"section": "D.2 ALFWorld Trajectories", "seq": 101, "sha256": "cd007ff8d4ce4a4dd9c81192a04baf566c37b433b7a5084c605b9d75f5321732"}
+{"section": "D.2 ALFWorld Trajectories", "seq": 102, "sha256": "98923e82ecbafbd8b9a227cbc87c68998e7bf217d2902cbf3224ebfaa8ad495f"}
+{"section": "D.2 ALFWorld Trajectories", "seq": 103, "sha256": "16d1d699862bd535bb03f117d10b38e34f1f40bd7cf7743de344ad6d2c5662e3"}
+{"section": "D.2 ALFWorld Trajectories", "seq": 104, "sha256": "08b72402a4dbbabc100a80df565c98f4444dc0687618d3060b111b80cb69958a"}
+{"section": "D.2 ALFWorld Trajectories", "seq": 105, "sha256": "ba525842b82769b9f8bc7dc08292386ab14f6c161cafe92d07a03f1f843882a2"}
+{"section": "D.2 ALFWorld Trajectories", "seq": 106, "sha256": "b5f68e056c6a41e6788461d4a085f5e3834ea01be166d8f1e614736c18b40136"}
+{"section": "D.2 ALFWorld Trajectories", "seq": 107, "sha256": "cdc2e4149377d90ca47f259878c11bc4046aade54e84f30f295456e87ca6a9cd"}
+{"section": "D.3 Webshop Trajectories", "seq": 108, "sha256": "467a845faa846393a71be799b24567344752ce5d4c6b91cde1a411ec9b563bb5"}
+{"section": "D.3 Webshop Trajectories", "seq": 109, "sha256": "1c18c65573bffd50a0488fc07248e7c16de6f86f8d8a5f6eb575448c59754215"}
+{"section": "D.3 Webshop Trajectories", "seq": 110, "sha256": "db1d17c3d65ab390613e558dbd9f4d717ea2871100c7966049c961ae5f2e98ea"}
+{"section": "E.1 Success and Failure Modes Analysis", "seq": 111, "sha256": "69624d4fe360a8c9ff546bd3d573a115e599522568feeb9bfa92c295482b86a3"}
+{"section": "E.1 Success and Failure Modes Analysis", "seq": 112, "sha256": "2296f7afaea6f279f1f29d4a233af10bb5b6b31042d62d9963e5ec73deead05c"}
+{"section": "E.1 Success and Failure Modes Analysis", "seq": 113, "sha256": "d430c1d845916423ea4d0df04a423ca54e90c01b959f63e44d0954583e4d6fb0"}
+{"section": "E.1 Success and Failure Modes Analysis", "seq": 114, "sha256": "f395cd68778b665814a52c56f705fa1e1da0d66da903e062a6df7d49da2e4888"}
+{"section": "E.1 Success and Failure Modes Analysis", "seq": 115, "sha256": "26f528d05c5389a6b2d849b004fd7815f74ff48c52b0f865aab054233acd9d11"}
+{"section": "E.1 Success and Failure Modes Analysis", "seq": 116, "sha256": "fa7d91a52792607cb1886a4fcbb987709eaed50ca1ef5cd176b7ab55ca56ef40"}

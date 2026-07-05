@@ -1,0 +1,1 @@
+PROV-DM is a conceptual data model which can be serialized in various ways. The following table contains the PROV-O classes and properties, as described in [PROV-O], and PROV-N productions, as described in [PROV-N] that correspond to PROV-DM concepts.

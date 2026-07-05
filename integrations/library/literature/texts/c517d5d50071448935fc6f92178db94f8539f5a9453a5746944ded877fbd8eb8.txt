@@ -1,0 +1,14 @@
+URL https://www.aclweb.org/anthology/2020.acl-main.228. Johnson et al. [2017]
+
+Jeff Johnson, Matthijs Douze, and Hervé Jégou. Billion-scale similarity search with gpus. arXiv preprint arXiv:1702.08734, 2017. URL https://arxiv.org/abs/1702.08734. Joshi et al. [2017]
+
+Mandar Joshi, Eunsol Choi, Daniel Weld, and Luke Zettlemoyer. TriviaQA: A Large Scale Distantly Supervised Challenge
+Dataset for Reading Comprehension. In Proceedings of the 55th Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long
+Papers), pages 1601–1611, Vancouver, Canada, July 2017. Association for
+Computational Linguistics. doi: 10.18653/v1/P17-1147. URL https://www.aclweb.org/anthology/P17-1147. Joulin and Mikolov [2015]
+
+Armand Joulin and Tomas Mikolov. Inferring algorithmic patterns with stack-augmented recurrent nets. In Proceedings of the 28th International Conference on Neural
+Information Processing Systems - Volume 1, NIPS’15, page 190–198,
+Cambridge, MA, USA, 2015. MIT Press. URL
+https://papers.nips.cc/paper/5857-inferring-algorithmic-patterns-with-stack-augmented-recurrent-nets. Karpukhin et al.

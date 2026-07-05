@@ -1,0 +1,1 @@
+11: Results on the SCITLDR dev set evaluated at different Rouge-L thresholds to test threshold sensitivity on Qwen3-30B-A3B-Instruct-2507. Lower smECE is better, while higher auc-euro is better.

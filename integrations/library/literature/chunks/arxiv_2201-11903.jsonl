@@ -1,0 +1,149 @@
+{"fsid": "arxiv_2201-11903", "n": 148, "overlap": 200, "source_sha256": "882e9be0e310e9be14c3a380fd53f4514193c7943bb7f490526890c9527f2574", "target": 1200}
+{"section": "", "seq": 0, "sha256": "0aec5b8aff9a452c4ea82eed289cac6f28b11c0d4e5b2101e96bd2f27e82586e"}
+{"section": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models", "seq": 1, "sha256": "31084c271b80e395db8742c57e14a5fc603662b053994f2553b64d9ea9a0fa96"}
+{"section": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models", "seq": 2, "sha256": "f1a67c70664e8f417030a1bf3bdcd69631bf1e6d2f23c3d1872e688eb33e71eb"}
+{"section": "1 Introduction", "seq": 3, "sha256": "ad25040dabb735136d662d910b7ec84170d4b156e3e1c001a7a4ae820f866067"}
+{"section": "1 Introduction", "seq": 4, "sha256": "853647661b60a18901233248a931b4131c2de54875d7d07cfdfe11f85f638d5c"}
+{"section": "1 Introduction", "seq": 5, "sha256": "41d4bb5223e0581fb67f467cf9cbf7a0ebc44ae83b42416207aad20f1ac0f4aa"}
+{"section": "1 Introduction", "seq": 6, "sha256": "a06f91defa03b0288d3ecc123ccd04275da722eb104a3d7a338f07c73a5b86bc"}
+{"section": "2 Chain-of-Thought Prompting", "seq": 7, "sha256": "ffc19376bbbac4250fca7564690e3d07893b42f0c4efaf75b44940b9a469b3fe"}
+{"section": "2 Chain-of-Thought Prompting", "seq": 8, "sha256": "4b6fa93e940858c54edc01f97c9402dda66b389441bb3cc841a894250efe2ca5"}
+{"section": "2 Chain-of-Thought Prompting", "seq": 9, "sha256": "552c436b07c6704807622135374eb01678362bfeb370e2276d7b6963dc683dbc"}
+{"section": "3 Arithmetic Reasoning", "seq": 10, "sha256": "9a0404f305bd12ef7ab566d649fc0fa32dc649623eb65b56b04f10e114d463fa"}
+{"section": "3.1 Experimental Setup", "seq": 11, "sha256": "88d2b2e5d17abf012bb51e99b531668d30c85e45a0c84227a013b1bb77e97a08"}
+{"section": "3.1 Experimental Setup", "seq": 12, "sha256": "ffddd0a8661b7559c8dd2b50b6c52852baf30b74408d116e69664a64b811db48"}
+{"section": "3.1 Experimental Setup", "seq": 13, "sha256": "4e1d3c934fca287b4ed1b8cb80eb1858c32067b6c3a02f44ae20f8b91ad1acef"}
+{"section": "3.2 Results", "seq": 14, "sha256": "fa2b965e65d650c45d5413a2f75f0fd76e7e6bb66c1cc88c116f6715cbd74b25"}
+{"section": "3.2 Results", "seq": 15, "sha256": "19e939ff14ee5ba7d0322ea9882a9e8d74bcd24169be4f82e1a50c2a317f5ff0"}
+{"section": "3.2 Results", "seq": 16, "sha256": "77c7ea2d410d8844cf9a61961b039ba133d5037914f0de1093562d8d93c130e3"}
+{"section": "3.2 Results", "seq": 17, "sha256": "50c64da578d4765194276a73ebb66bfae1230e6f33d16ae3fed0040c61ab30f2"}
+{"section": "3.3 Ablation Study", "seq": 18, "sha256": "7a67da5e3c46b1e8855b1fecd78aa710be01ed390a14724862b1c1d50f7f8e12"}
+{"section": "3.3 Ablation Study", "seq": 19, "sha256": "8ef241107ee8384b303e4728b7cc399b4d2de1758723e63ae92e16ae33c91a80"}
+{"section": "3.3 Ablation Study", "seq": 20, "sha256": "a593cd05e1212ebd1812a87b772a6c75aee9a983554c39ef5af7ef5dc9613199"}
+{"section": "3.4 Robustness of Chain of Thought", "seq": 21, "sha256": "9bf29437dee7660d21a9ee96cc50d320dff78b65602fd1dc2c480f714e6bc874"}
+{"section": "3.4 Robustness of Chain of Thought", "seq": 22, "sha256": "37cfa3beb20f31845584ddad12a89a01eea77febfa1f0d53c71bde82cece8d7c"}
+{"section": "3.4 Robustness of Chain of Thought", "seq": 23, "sha256": "316bca27ca813c67dbab2e0d06a678ee454c439c830b57049a9468efd0da1bdc"}
+{"section": "4 Commonsense Reasoning", "seq": 24, "sha256": "2a8cb0ad451711e2dd1fbedb7849a63ffadc0802657456d829ae103823261521"}
+{"section": "4 Commonsense Reasoning", "seq": 25, "sha256": "17a142163841cd65256a40533696bce3fbbf8dd18881d0d10973c364f5a5cc7a"}
+{"section": "4 Commonsense Reasoning", "seq": 26, "sha256": "a49a275966d0b3a01464e47982fcd80c21625f3254ef00349e47af8b72af257a"}
+{"section": "4 Commonsense Reasoning", "seq": 27, "sha256": "783b3f9faad043b858fe61738eddf7ddbc8583c3109da8983099735c4c97e074"}
+{"section": "5 Symbolic Reasoning", "seq": 28, "sha256": "0f0c8a0bb6ff660986ab3feae2be289f98de3d1d53bd69c6b551b5348f59e5e6"}
+{"section": "5 Symbolic Reasoning", "seq": 29, "sha256": "ab92312b09ebdedb3859454d35055898e1b7ab124bc7aca05e2abc47afafe7a3"}
+{"section": "5 Symbolic Reasoning", "seq": 30, "sha256": "92f0a257e97c95e11b7301c537faefabea0d1da71dc29598226f81ce05a44d0f"}
+{"section": "5 Symbolic Reasoning", "seq": 31, "sha256": "476631a4fe09cc865c357a6fe01edd3de5cafe500e1368b9f035dbdaf990fbcc"}
+{"section": "6 Discussion", "seq": 32, "sha256": "2f510eb2141424f2539fefaeca43ac9df63dd6a70415635ff5417eed5c9ca562"}
+{"section": "6 Discussion", "seq": 33, "sha256": "8e360d70fbd45b55d16dc2bd8f774a599ffe811e5d9f855bc08a4e205bc2a44d"}
+{"section": "6 Discussion", "seq": 34, "sha256": "1af099305f3226fa09a7fe5bd3b56221b130094fd1cb667c9670b16e1fd49a84"}
+{"section": "7 Related Work", "seq": 35, "sha256": "c643f16cb6c19e9f34b22f933d893e8eb423a329fe2a253c45af84c2868cc580"}
+{"section": "7 Related Work", "seq": 36, "sha256": "9954eb5718e85ec6aab1ccea31de936be5d360d2c03647bb6ab48a2d3c2b509a"}
+{"section": "8 Conclusions", "seq": 37, "sha256": "ef752168b10ceb23beda40a7a236195643b11d4c2a4fa0278426d40d7886939e"}
+{"section": "Acknowledgements", "seq": 38, "sha256": "033b1ab485e9944053934c05f4a47195b19bc20200a05ed300132e37f8636a43"}
+{"section": "References", "seq": 39, "sha256": "fe5dda8181be8d0e303b41cf131f825d6709396f46767b663c2fb41f0215ceee"}
+{"section": "References", "seq": 40, "sha256": "1e31525572b6a73f86c0c197ef7f8efffc026d10a5536a32c2102abce64344b0"}
+{"section": "References", "seq": 41, "sha256": "7e1e8fcad2c4fdd030227c07f2db6a82b3cf35918fad71d4c78f3f65e6319e57"}
+{"section": "References", "seq": 42, "sha256": "14a5b8312442f59331a5076834c83f59b3aeaff2f9e7e03277c382bad2a4740d"}
+{"section": "References", "seq": 43, "sha256": "8451f38656400c6f31d4f080860f4830b5e2def2dbfe6bcd21c459d0776c107b"}
+{"section": "References", "seq": 44, "sha256": "442cbb68527f3b83aad6ef783d2515cdf9e1ed7003d187078165413bcf901526"}
+{"section": "References", "seq": 45, "sha256": "85fad737e23cb8320deca39006877ce42970b26521daba6d00167d2b1b4fca9a"}
+{"section": "References", "seq": 46, "sha256": "afcca08612a1417b5ff0b7a8fe2f20415864417709aa7376ed6d5ed417abca16"}
+{"section": "References", "seq": 47, "sha256": "78d60bf81b9790853fdd09116ddede270199042547434674e8b4a1e7e76fe7c2"}
+{"section": "References", "seq": 48, "sha256": "cbd230a47fbc484b4392e4287165ec9a95db53748698606330245434ab9670dd"}
+{"section": "References", "seq": 49, "sha256": "dcc560e66b8cd09363de8b5d8c2011bbe43201f3096c64d9bd6fc9634675dd96"}
+{"section": "References", "seq": 50, "sha256": "df5a138bfdd11937050ac18944ae5dc5ee581a10d39c0874239522306fac8911"}
+{"section": "References", "seq": 51, "sha256": "daa59ef8312a78bc047ce412cc00619fd1af03657cd24bee10e7dd50efa09f3a"}
+{"section": "References", "seq": 52, "sha256": "6de06294ab5fbaae4530f7310fc6fa535cbe5211ffd4500f04a1246f23db7829"}
+{"section": "References", "seq": 53, "sha256": "36ccd297e9340c64e2f8f01b22574537e06ff5ea94e38995e393658da8f1aadd"}
+{"section": "References", "seq": 54, "sha256": "b9852a961594bbbf0c4dcee8db16014c51ebf164a3cb89487c01c89f8e8a04d3"}
+{"section": "References", "seq": 55, "sha256": "c30a126fedf573f0218822c2de5e2accf602f69ac83b1fbe8b0cba7fc702c7bb"}
+{"section": "References", "seq": 56, "sha256": "a54e03b3e0ae911f60ed84753515235efd0cc325a3a9b40150e19c74bdb1fc33"}
+{"section": "Checklist", "seq": 57, "sha256": "18084049c1a460976205136b579037ab48c6da61a0ddb38b95c4152284f514e2"}
+{"section": "Checklist", "seq": 58, "sha256": "20da9e0267764e10ffb240c3fa804888c54bb31b0c68e6d6f102409786e621a5"}
+{"section": "Checklist", "seq": 59, "sha256": "4fc3c080f60f2383c5683318ba04498fa1d0017fbaed3b9ccaa387dfae622a4c"}
+{"section": "Checklist", "seq": 60, "sha256": "c4714e4990776f09ac4cc9e45cc15a65516bfc8f7f60ccf0efe7f88dcce5cd27"}
+{"section": "A.1 Why does increasing model scale improve chain-of-thought prompting?", "seq": 61, "sha256": "88e20a840d0a6d28a6e88d3c50b1bd66c6f4c3da032753447cf2420204212acb"}
+{"section": "A.1 Why does increasing model scale improve chain-of-thought prompting?", "seq": 62, "sha256": "7e18dc9aaf29b21182c97195419c0ee944e205918589cfe41088a9185a2ad61e"}
+{"section": "A.1 Why does increasing model scale improve chain-of-thought prompting?", "seq": 63, "sha256": "179d724289509cfc1ca0bffd7616b0e47f090bc734dd9db3ae8cd46eaaf58827"}
+{"section": "A.1 Why does increasing model scale improve chain-of-thought prompting?", "seq": 64, "sha256": "07832a1def1baae79764e3bd19ecd6c76bdacf1ee71942d41b8d63f6454ab79b"}
+{"section": "A.2 What is the role of prompt engineering?", "seq": 65, "sha256": "68eabfd847d798be322a8a64fd6905bbdef73585543216662749118930d994a7"}
+{"section": "A.2 What is the role of prompt engineering?", "seq": 66, "sha256": "5443bdfdb1228732440a5c13abd64ebd07aa83b4c3f7db9c056059137d2b577e"}
+{"section": "A.2 What is the role of prompt engineering?", "seq": 67, "sha256": "a2fafa9e7d3d7e179da6bdb4113452aabc2dc53272c16fe841f29e43c55f1e07"}
+{"section": "A.2 What is the role of prompt engineering?", "seq": 68, "sha256": "3241eab1578d3c5696c87e6106832c264dbd73756bc9543db50afb7b6a68c19e"}
+{"section": "A.2 What is the role of prompt engineering?", "seq": 69, "sha256": "13850ef608a1f3afe78aa6f4ec2ce1b1e42cd1117d95490b3ae3af72e7f78823"}
+{"section": "A.2 What is the role of prompt engineering?", "seq": 70, "sha256": "18b68d5a6d97b86692a77b380d1b8fae6821c706e66405dd5d00c48a183ef02e"}
+{"section": "A.3 Will chain-of-thought prompting improve performance for my task of interest?", "seq": 71, "sha256": "fca12cce53f1a028a42daf90b448c3470b918b2b5024f012f75be109739b6343"}
+{"section": "A.3 Will chain-of-thought prompting improve performance for my task of interest?", "seq": 72, "sha256": "ea99cf73b8dd3fcf33218dc9871b1f7fdc19ba2ecdf602c3aef2ba692af56bbf"}
+{"section": "A.4 Why is prompting with the equation only not enough for some arithmetic reasoning datasets?", "seq": 73, "sha256": "4fdc03c1cc32ca551cc89b0b84f299567255ef2ade687ae0f63822ad67b17c03"}
+{"section": "A.4 Why is prompting with the equation only not enough for some arithmetic reasoning datasets?", "seq": 74, "sha256": "463cea04ff483c94f982bf6d44eeaaa836d022326518718fb0d83b859aa44dbc"}
+{"section": "Appendix B All Experimental Results", "seq": 75, "sha256": "adfd7e02c052c1c38a0655b6d7c0c5f514ab35dddb0461031f644fdabf05846c"}
+{"section": "Appendix B All Experimental Results", "seq": 76, "sha256": "d56a5d9d9e0766c0afb5a2e817208f4a161bb995064fc0179ce663b708e811cc"}
+{"section": "Appendix B All Experimental Results", "seq": 77, "sha256": "b6510c00a44e6713bce4f6f7a8abeb9b21bc4a8d543b2f3e5a3d10cc76e22a41"}
+{"section": "Appendix B All Experimental Results", "seq": 78, "sha256": "4abce468fe760b8fed6378c46ed1a82b5169c3b279d1ce16ac747c956a77079b"}
+{"section": "Appendix B All Experimental Results", "seq": 79, "sha256": "be04b08402f6c936eb76316e952d1dbccf75846dc45107c60c6fb6d747bcf79d"}
+{"section": "Appendix B All Experimental Results", "seq": 80, "sha256": "4b827849a20d1435da420531394cdb16ff212b71aa42bec203fc4647d49fd508"}
+{"section": "Appendix B All Experimental Results", "seq": 81, "sha256": "9df0c984bae8fc5c7d0199306e52ff57528d1602b69a93f3a61135b17086443b"}
+{"section": "Appendix B All Experimental Results", "seq": 82, "sha256": "4d7bc30d4c4eed6e7deef2e63ba0185a34a4e34407478990062d70541cc5ebb2"}
+{"section": "Appendix B All Experimental Results", "seq": 83, "sha256": "002a1c913ef98017e4726c2eee5f973ec8a2e387baea17a01baa7918ab06b1ce"}
+{"section": "Appendix B All Experimental Results", "seq": 84, "sha256": "39ce5a0c60e1106fb3245d4c585aa3e1dec5e71d0c9c0dd712504e285bde9e33"}
+{"section": "Appendix B All Experimental Results", "seq": 85, "sha256": "1bf85d1814a25aadd1336255b48fab97982b1afc486d84da8fed205782e3da79"}
+{"section": "Appendix B All Experimental Results", "seq": 86, "sha256": "43e86e247004e3caec16b0f3d5b20c1ae7b5a413441101f183a4431704e3717c"}
+{"section": "Appendix C Extended Related Work", "seq": 87, "sha256": "b8d220ff19e9d0c88d492d182247480dbf9740055b60d99fbcf6dc94c9a1fe94"}
+{"section": "C.1 Prompting", "seq": 88, "sha256": "bc995e0ae9b853ce239f0d98938e934415522ec24b0126339473b40b611cc3e2"}
+{"section": "C.1 Prompting", "seq": 89, "sha256": "1792e26d4789595492499209185128a3f5efb648367caaf46b8db802096aff28"}
+{"section": "C.2 Natural language explanations", "seq": 90, "sha256": "6bd9e8001eeb3ce3f1bad94889f1432d38fa0a12e74f4a5ffe80d3d01b2e129c"}
+{"section": "C.3 Program synthesis and execution", "seq": 91, "sha256": "9f865d1a87d036ddaee0ef70f5e1e5c5f0484f7359b4b6c503fab3a6a9c80ef9"}
+{"section": "C.4 Numeric and logical reasoning", "seq": 92, "sha256": "9e7f0a17b013b36541393c9ec3cfe7fc5102328affa70915032736081351e9d8"}
+{"section": "C.5 Intermediate language steps", "seq": 93, "sha256": "9d2f100e312a253fc9306d3fc4b81d604b0d17f139c79761c50e94f3c983eff6"}
+{"section": "C.5 Intermediate language steps", "seq": 94, "sha256": "fa78a67d78a4255a2f6351634694cfee273a1c4a4e8cd287cf007a3b65c3f44b"}
+{"section": "D.1 Correct Chain of Thought Analysis", "seq": 95, "sha256": "6ede57d9a57f6cbb20d97557d006f7663a060b769baf8d7b9c96f6089217ffd1"}
+{"section": "D.1 Correct Chain of Thought Analysis", "seq": 96, "sha256": "4fb87a93c4772addcd55d7c51d4d3f78e5a4b9eb832dcb372ecfd59694d3010e"}
+{"section": "D.1 Correct Chain of Thought Analysis", "seq": 97, "sha256": "7e103c09447af34ad29eb663e1393e4afe84e4e6d71a47a8e96b836f5efd7d7c"}
+{"section": "D.1 Correct Chain of Thought Analysis", "seq": 98, "sha256": "cb8ab4ddca87477b8d1897b8d6433e1bef6498dfe23670a59141654bceca4967"}
+{"section": "D.1 Correct Chain of Thought Analysis", "seq": 99, "sha256": "4f4b84fbad34254431e8145c9e009dff05f0609305e5f914b65a7e9ebc38c409"}
+{"section": "D.1 Correct Chain of Thought Analysis", "seq": 100, "sha256": "99de668b87784b1390d06254024c453b342f466cd19ed36217bd419f8e40e565"}
+{"section": "D.2 Incorrect Chain of Thought Analysis", "seq": 101, "sha256": "2af2b3dcb4ee6402f8debf10c1ae28c92b25839adf8248ed40207519f14f20f9"}
+{"section": "D.2 Incorrect Chain of Thought Analysis", "seq": 102, "sha256": "c8610c90f7c52d7300ca0ec7b58bccfa936e6aa9d6a83ced7fbbe590371fee77"}
+{"section": "D.2 Incorrect Chain of Thought Analysis", "seq": 103, "sha256": "eeb7521fb174783d853ebf6e7e75a297d49fc2451b74585d1a2ebaa08d2619b9"}
+{"section": "D.2 Incorrect Chain of Thought Analysis", "seq": 104, "sha256": "ff5212d7d2d46712b72b0a6f87436d9486bad8322838f9afcef0b287f6c63fae"}
+{"section": "D.2 Incorrect Chain of Thought Analysis", "seq": 105, "sha256": "a45459b8852d8edb06c05b6b99c55c663e57bbaba81a9811b71f1c2569bf4ccb"}
+{"section": "D.2 Incorrect Chain of Thought Analysis", "seq": 106, "sha256": "1deb7b6d192e67a3449b3277882ea4d7fd4a022c3d37df8e32e52caa9dfe4aee"}
+{"section": "D.2 Incorrect Chain of Thought Analysis", "seq": 107, "sha256": "b3267ce4d9c251c0984695d171949edb72134c255aedd1415c8c2cbc2d8103dc"}
+{"section": "D.2 Incorrect Chain of Thought Analysis", "seq": 108, "sha256": "eda2681f57b4461c8c455086fdfef0553d7f726198b8c93d503bc965c5f00d89"}
+{"section": "D.3 Additional Robustness Analysis", "seq": 109, "sha256": "404ce1c4e12f8974c6ec20064c6fe4ceca7baebb23e2b44c7304d3b35af86780"}
+{"section": "D.3 Additional Robustness Analysis", "seq": 110, "sha256": "e7043d9b1b65cf1537934bb82166453589858ad06779ea434a7495fb1249bbec"}
+{"section": "D.3 Additional Robustness Analysis", "seq": 111, "sha256": "bd05b6a5d7f3cbe67e68fb19bbded1edd2c125837587903a9f99b6f3dabb05bc"}
+{"section": "Version Control", "seq": 112, "sha256": "d2998b42554c6338b6e15d1cbf8ef2fdb0b0c19d5c97b5abbe2b7ac954ccb251"}
+{"section": "E.1 Reproducibility Statement", "seq": 113, "sha256": "b5eae43a8bf0e0748023c83885dab6b8c5d78b95efad5e54110450be4e9def6f"}
+{"section": "E.2 Computational Resources", "seq": 114, "sha256": "e100205ffe5b4250b779884cf2d161b3d29871bbcdf32c2925d45624745acf73"}
+{"section": "E.3 Dataset Details and Licenses", "seq": 115, "sha256": "c1ab253fe3bba76e3750126eea0fa34c38d7945216df57956f3e400b2ac1a7a4"}
+{"section": "E.3 Dataset Details and Licenses", "seq": 116, "sha256": "677ec1ffb5feff6e706f95d64079e0cab0882b44d8191d4ea5d2321a6c71b233"}
+{"section": "Appendix F Appendix: Input/Output Examples", "seq": 117, "sha256": "fe60fbb15342227afbb89aa5d37298f1b5b23dbb13fbffa5f473c2ea656a0200"}
+{"section": "Appendix F Appendix: Input/Output Examples", "seq": 118, "sha256": "cf9fec0f9a32b95d3f022a486b4ea87026b310bea59a840ff62a6145c9513ecf"}
+{"section": "Appendix F Appendix: Input/Output Examples", "seq": 119, "sha256": "c0e422e5581ae58016ff3bd3a0d147e73390b8ffdf983e8b0463aa65ebc0c305"}
+{"section": "Appendix F Appendix: Input/Output Examples", "seq": 120, "sha256": "f038d08515f87c2dc37cabd7267651925c4bb5f30c92c0a89b696d1423ceea80"}
+{"section": "Appendix F Appendix: Input/Output Examples", "seq": 121, "sha256": "fe725bedcddb5f1da48771629c94cc157b248c415b7e4562ffa7b610ca81a0cd"}
+{"section": "Appendix F Appendix: Input/Output Examples", "seq": 122, "sha256": "bd3b7de27c148b67fee68b11cc073c5a69aee68719761ce1e6be017f6057222f"}
+{"section": "Appendix F Appendix: Input/Output Examples", "seq": 123, "sha256": "95534433ab5078066689c5c36fb4b719229bcfa2faa3d067f3bcfe865a08b614"}
+{"section": "Appendix F Appendix: Input/Output Examples", "seq": 124, "sha256": "db1e0cc4ce2a47d0b5fe409cde59a15a338257351fc18bf78aedfad139b2ee7c"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 125, "sha256": "8c0e47e755e3249004d31952dd4c12d89d1030ea223b6b0f83654c83dd6ebaa8"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 126, "sha256": "30a4132b7abee19c7f496d2496bbd3af4532ddd4d6e2c210d433907f8df45bc5"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 127, "sha256": "6b896a76adc127a339f38b02de2e24aee1a59c01841ce0fdc1c18b943e8574f1"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 128, "sha256": "670293d77dbc0de3ce62a45fa52fa92d6bcd22983465d5aa8e6ccc891d815103"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 129, "sha256": "6f5666054786626d1f07b61965d0d1fe8ce3eff3771c6d1c151e0ca9c86f2588"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 130, "sha256": "e7c8978f442e3ef8204d10a1123c478a3dc3fe4338dca02acb3bb2b40b71767a"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 131, "sha256": "1c19125be87f2a76533aa9b1c43d715b0fe05fd34684e980bf805b7d7167e1f9"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 132, "sha256": "ed0826e4b4326464674a9f97c48cedd6957415663125cfc42a1a8d3c234620db"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 133, "sha256": "c4f4468282c33b2e9a0d2f99c3d8f08d39676566b62443774da7c9c377b2a058"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 134, "sha256": "1882cdce7bc18e535c902b2caedbbdc40e8b08ade191edccf27357679ea72669"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 135, "sha256": "be1fa21edfb95eaa95b71f2528edcf55f4195d989eea3615e358d5e3ced15080"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 136, "sha256": "c9f05afbd7098691e7fe9c9e5b09f33eaa2cea98be4b9b5cfd64f362449fd926"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 137, "sha256": "e5ccf8b53783db03e1932fcfdb650c433575c017242dc45782529b66101496d5"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 138, "sha256": "f6117f5dd667feebb0e9df97d36b629873db2186b7305e4b98d172d63e1e2dd7"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 139, "sha256": "3c74876c621d99c79985d465708374df37fe44e402830285735367e1b950adcb"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 140, "sha256": "e7d3a8765f03956b85fd2f2bccadb5e00971eafb27e6b7414d47fdcff6e16fb2"}
+{"section": "Appendix G Appendix: Full Prompts", "seq": 141, "sha256": "33b8203f8abe966e368abe9bc60c18608973097d4bd26b572dca9a74a6de5711"}
+{"section": "Appendix H Appendix: Alternate Annotators for MWP", "seq": 142, "sha256": "6530f786accd81dcd6fd68e5d6c5705c04fc9df75813b5bc164458a3b40ab187"}
+{"section": "Appendix H Appendix: Alternate Annotators for MWP", "seq": 143, "sha256": "fe5b8c15d93f23185698fed065ceae3b5d48025fcfe3b64bb201e85b1aed8c99"}
+{"section": "Appendix H Appendix: Alternate Annotators for MWP", "seq": 144, "sha256": "746aacde54871e3966e082118ccf58c45eb7dafe3e79cb39ec0343e277e1f94c"}
+{"section": "Appendix H Appendix: Alternate Annotators for MWP", "seq": 145, "sha256": "f95a49d6519a11bb25e6da2b8937d2910495c92e6ccea8115f6eaeaa0e58f6e7"}
+{"section": "Appendix H Appendix: Alternate Annotators for MWP", "seq": 146, "sha256": "63d514a232b6e514c64e826989dd9f53dbdc04de832a4a944a84f80d6464f5c9"}
+{"section": "Appendix H Appendix: Alternate Annotators for MWP", "seq": 147, "sha256": "c336b6bef238d3a17b88ccce63a63673fedc5cb8f4b4438d3fe387d6bd8e3914"}

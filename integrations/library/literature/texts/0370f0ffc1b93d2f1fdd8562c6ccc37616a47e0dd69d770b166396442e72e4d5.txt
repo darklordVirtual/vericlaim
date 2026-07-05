@@ -1,0 +1,18 @@
+V., Bengio, S., Wallach, H., Fergus, R.,
+Vishwanathan, S., and Garnett, R. (eds.), Advances in Neural
+Information Processing Systems, volume 30. Curran Associates, Inc., 2017. URL
+https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf. Wang & Komatsuzaki (2021)
+
+Wang, B. and Komatsuzaki, A. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax, May 2021. Weston et al. (2015)
+
+Weston, J., Chopra, S., and Bordes, A. Memory networks, 2015. Woolf (2021)
+
+Woolf, M. Fun and dystopia with ai-based code generation using gpt-j-6b, June
+2021. URL https://minimaxir.com/2021/06/gpt-j-6b/. Xu et al. (2021)
+
+Xu, F. F., Vasilescu, B., and Neubig, G. In-ide code generation from natural language: Promise and challenges. arXiv preprint arXiv:2101.11149, 2021. Yin & Neubig (2017)
+
+Yin, P. and Neubig, G. A syntactic neural model for general-purpose code generation. In Proceedings of the 55th Annual Meeting of the Association
+for Computational Linguistics (ACL), pp. 440–450, 2017. Zaremba & Sutskever (2014)
+
+Zaremba, W. and Sutskever, I. Learning to execute. arXiv preprint arXiv:1410.4615, 2014.

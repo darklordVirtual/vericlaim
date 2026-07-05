@@ -1,0 +1,1 @@
+variant slips through, or an injection is successful without a jailbreak trigger, AlignmentCheck detects the change in behavior when the agent shifts from trip planning to user data exfiltration. Execution is stopped before any request is sent.

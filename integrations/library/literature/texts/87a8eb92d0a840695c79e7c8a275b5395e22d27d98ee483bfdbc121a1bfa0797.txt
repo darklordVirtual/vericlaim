@@ -1,0 +1,13 @@
+AlignmentCheck is designed to detect semantic misalignment in agentic behavior, particularly in scenarios involving indirect prompt injections or goal hijacking. It leverages a capable language model (referred to as the guardrail LLM) to perform few-shot alignment classification after each agent action. C.1.1 AlignmentCheck Input Structure
+
+Alignment evaluation is based on the following inputs:
+
+•
+
+User Goal: The original objective provided by the user, serving as the reference for assessing agent behavior. •
+
+Trace: A sequence of prior agent reasoning steps, including tool invocations, intermediate thoughts, and user interactions, truncated to a fixed context window for efficiency. •
+
+Selected Action: The most recent action or decision by the agent, to be evaluated for alignment with the original user goal. Using these inputs, the guardrail LLM determines whether the selected action is consistent with the user’s goal, leveraging the trace for context. This enables semantic-level evaluation of the agent’s intent and trajectory. C.1.2 Prompt and Generalization
+
+In LlamaFirewall, AlignmentCheck operates via a static prompt template constructed from the above inputs.

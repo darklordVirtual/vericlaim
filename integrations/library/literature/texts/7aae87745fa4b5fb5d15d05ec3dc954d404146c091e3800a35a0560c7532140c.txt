@@ -1,0 +1,19 @@
+Yuxu Ge
+
+zqr513@york.ac.uk
+
+0009-0008-2990-4886
+
+University of YorkDepartment of Computer ScienceYorkUnited Kingdom
+
+Abstract. Autonomous agents powered by large language models introduce
+a class of execution-layer vulnerabilities—prompt injection,
+retrieval poisoning, and uncontrolled tool
+invocation—that existing guardrails evaluated in our study do not address
+within a unified architecture. In this work, we propose the Layered Governance Architecture (LGA),
+a four-layer framework comprising execution sandboxing (L1),
+intent verification (L2), zero-trust inter-agent authorization (L3),
+and immutable audit logging (L4). To evaluate LGA, we construct a bilingual benchmark (Chinese original,
+English via machine translation) of 1,081 tool-call samples—covering
+prompt injection, RAG poisoning, and malicious skill plugins—and
+apply it to OpenClaw, a representative open-source agent framework.

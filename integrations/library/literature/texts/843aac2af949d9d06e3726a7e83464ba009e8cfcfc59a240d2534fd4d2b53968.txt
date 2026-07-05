@@ -1,0 +1,8 @@
+Thanks to David Westbrook, Peter Brandt, Samuel Ieong, Chenyu Zhao, Li Wei,
+Michalis Potamias, Evan Rosen, Barry Rosenberg, Christine Robson, James Pine,
+Tal Shaked, Tushar Chandra, Mustafa Ispir, Jeremiah Harmsen, Konstantinos
+Katsiapis, Glen Anderson, Dan Duckworth, Shishir Birmiwal, Gal Elidan, Su Lin
+Wu, Jaihui Liu, Fernando Pereira, and Hrishikesh Aradhye for many corrections,
+suggestions, and helpful examples for this document. Also, thanks to Kristen
+Lefevre, Suddha Basu, and Chris Berg who helped with an earlier version. Any
+errors, omissions, or (gasp!) unpopular opinions are my own.

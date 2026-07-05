@@ -1,0 +1,13 @@
+ClawHub is OpenClaw’s public skill registry. The workspace directory tree supports optional OS-level filesystem
+isolation via Docker containers—the closest component
+to LGA Layer 1 requirements, though sandboxing is opt-in and
+disabled by default. Skills declare permissions in their metadata
+(SKILL.md manifest), providing capability transparency. Governance Gap 2 (G2): Plugin permissions are
+self-declared; no independent runtime sandbox verifies that actual
+plugin behavior matches declared permissions. This leaves the Malicious Skill Plugin threat class unmitigated. Governance Gap 3 (G3): ClawHub lacks intra-directory
+fine-grained permission partitioning (e.g., a skill accessing only
+workspace/projects/ but not memory/), permitting
+intra-boundary lateral traversal. Governance Gap 4 (G4): OpenClaw’s audit log is stored in
+a mutable logs/ directory; a compromised agent can
+overwrite or delete log entries, undermining forensic attribution
+and compliance auditability.

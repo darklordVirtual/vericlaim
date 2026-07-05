@@ -1,0 +1,9 @@
+Deriving an optimal equal opportunity threshold predictor. The construction follows the same approach except that there is one fewer constraint. We only need to find points on the conditional ROC curves that have the same
+true positive rates in both groups. Assuming continuity of the conditional ROC
+curves, this means we can always find points on the boundary of the
+conditional ROC curves. In this case, no randomization is necessary. The
+optimal solution corresponds to two deterministic thresholds, one for each
+group. As before, the optimization problem can be solved efficiently using
+ternary search over the target true positive value. Here we use, as
+Figure 2 illustrates, that the cost of the best
+solution is convex as a function of its true positive rate.

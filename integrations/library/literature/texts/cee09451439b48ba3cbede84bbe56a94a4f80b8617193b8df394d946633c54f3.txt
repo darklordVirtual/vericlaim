@@ -1,0 +1,17 @@
+URL http://jmlr.org/papers/v22/20-1307.html. Fan et al. (2020)
+
+Xiaochao Fan, Hongfei Lin, Liang Yang, Yufeng Diao, Chen Shen, Yonghe Chu, and
+Yanbo Zou. Humor detection via an internal and external neural network. Neurocomputing, 394:105--111, 2020. doi: https://doi.org/10.1016/j.neucom.2020.02.030. URL
+https://www.sciencedirect.com/science/article/pii/S0925231220302058. Fedus et al. (2021)
+
+William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: Scaling to trillion parameter models with simple
+and efficient sparsity, 2021. URL https://arxiv.org/abs/2101.03961. Felbo et al. (2017)
+
+Bjarke Felbo, Alan Mislove, Anders Søgaard, Iyad Rahwan, and Sune Lehmann. Using millions of emoji occurrences to learn any-domain
+representations for detecting sentiment, emotion and sarcasm. In Proceedings of the 2017 Conference on Empirical Methods in
+Natural Language Processing. Association for Computational Linguistics,
+2017. doi: 10.18653/v1/d17-1169. URL https://doi.org/10.18653/v1/D17-1169. Fellbaum (1998)
+
+Christiane Fellbaum (ed.). WordNet: An Electronic Lexical Database. MIT Press, Cambridge, MA, 1998. Feser et al. (2015)
+
+John K. Feser, Swarat Chaudhuri, and Isil Dillig.

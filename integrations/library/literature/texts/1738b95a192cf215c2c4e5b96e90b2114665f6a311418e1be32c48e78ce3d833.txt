@@ -1,0 +1,14 @@
+URL https://arxiv.org/abs/1802.05368. Gulordava et al. (2018)
+
+Kristina Gulordava, Piotr Bojanowski, Edouard Grave, Tal Linzen, and Marco
+Baroni. Colorless green recurrent networks dream hierarchically. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long Papers), pp. 1195--1205, New Orleans,
+Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-1108. URL https://aclanthology.org/N18-1108. Gulwani (2011)
+
+Sumit Gulwani. Automating string processing in spreadsheets using input-output
+examples. SIGPLAN Not., 46(1):317–330, Jan. 2011. doi: 10.1145/1925844.1926423. URL https://doi.org/10.1145/1925844.1926423. Gulwani et al. (2012)
+
+Sumit Gulwani, William R. Harris, and Rishabh Singh. Spreadsheet data manipulation using examples. Commun. ACM, 55(8):97–105, Aug. 2012. doi: 10.1145/2240236.2240260. URL https://doi.org/10.1145/2240236.2240260. Gulwani et al. (2015)
+
+Sumit Gulwani, José Hernández-Orallo, Emanuel Kitzelmann, Stephen H. Muggleton, Ute Schmid, and Benjamin Zorn. Inductive programming meets the real world. Commun. ACM, 58(11):90–99, Oct.

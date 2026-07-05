@@ -1,0 +1,56 @@
+Table 5: Training Hyperparameters
+
+Hyperparameter
+
+Value
+
+Model
+
+Qwen3-VL
+
+Epochs
+
+15
+
+Learning Rate
+
+1e-6
+
+Train Batch Size
+
+256
+
+Temperature
+
+1.0
+
+Rollout per Prompt
+
+8
+
+Prompt Max Length
+
+4096
+
+Generation Max Length
+
+4096
+
+Precision
+
+BF16
+
+Max Pixels
+
+1000000
+
+1.0
+
+2.0
+
+0.4
+
+0.1
+
+We implement VL-Calibration using Qwen3-VL-4B, 8B, and 30B-A3B as our base models. Below, we detail our training setup and hyperparameters. General Training Hyperparameters. For VL-Calibration training, we use our 12K dataset with a learning rate of 1e-6, a batch size of 256. We set the maximum sequence length to 4096 for both prompts and generation, and apply BF16 precision throughout training. The training process runs for 15 epochs, requiring approximately 240 H200 GPU hours for Qwen3-VL-4B model, and 450 H200 GPU hours for Qwen3-VL-8B model, 1900 H200 GPU hours for Qwen3-VL-30B-A3B model. Method-specific Training Hyperparameters. For our reinforcement learning approach, we employ a temperature of 1.0, 8 rollouts per prompt. For the reward weights, we set accuracy reward weight , calibration reward weight
+and visual certainty reward weight . The mask ratio is 0.8. Computation Environment.

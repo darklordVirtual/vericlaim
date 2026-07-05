@@ -1,0 +1,91 @@
+calc
+
+49.6
+
+70.3
+
+71.1
+
+35.8
+
+87.5
+
+Codex
+
+Standard
+
+19.7
+
+69.9
+
+74.0
+
+29.5
+
+78.7
+
+(code-davinci-002)
+
+Chain of thought
+
+63.1 (+43.4)
+
+76.4 (+6.5)
+
+80.4 (+6.4)
+
+45.3 (+15.8)
+
+92.6 (+13.9)
+
++ ext. calc
+
+65.4
+
+77.0
+
+80.0
+
+45.3
+
+93.3
+
+PaLM 540B
+
+Standard
+
+17.9
+
+69.4
+
+72.1
+
+25.2
+
+79.2
+
+Chain of thought
+
+56.9 (+39.0)
+
+79.0 (+9.6)
+
+73.9 (+1.8)
+
+35.8 (+10.6)
+
+93.3 (+14.2)
+
++ ext. calc
+
+58.6
+
+79.8
+
+72.6
+
+35.8
+
+93.5
+
+Table 2: Standard prompting versus chain of thought prompting on five arithmetic reasoning benchmarks. Note that chain of thought prompting is an emergent ability of model scale—it does not positively impact performance until used with a model of sufficient scale.

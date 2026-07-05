@@ -1,0 +1,11 @@
+Nguyen et al. (2014) recently re-popularized the concept of the rubbish class in the context of computer vision
+under the name fooling images. As with adversarial examples, there has been a misconception that
+rubbish class false positives are hard to find, and that they are primarily a problem faced by deep networks. Our explanation of adversarial examples as the result of linearity and high dimensional spaces
+also applies to analyzing the behavior of the model on rubbish class examples. Linear models produce more extreme predictions at points that are
+far from the training data than at points that are near the training data. In order to find high
+confidence rubbish false positives for such a model, we need only generate a point that is far from
+the data, with larger norms yielding more confidence. RBF networks, which are not able to
+confidently predict the presence of any class
+far from the training data, are not fooled by this phenomenon. We generated 10,000 samples from and fed them into various classifiers
+on the MNIST dataset. In this context, we consider assigning a probability greater than 0.5 to any
+class to be an error.

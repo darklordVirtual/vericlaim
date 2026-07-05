@@ -1,0 +1,9 @@
+These attacks affect a
+wide variety of ML models that output confidence values. We show their success against Amazon’s service (using our own
+models as stand-ins for victims’), and also report successful reverse-engineering of the (only partially documented) model type employed by Amazon. A new path-finding algorithm for extracting decision trees
+that abuses confidence values as quasi-identifiers for paths. To our knowledge, this is the first example of practical “exact” decision tree
+learning. We demonstrate the attack’s efficacy via experiments on BigML. Model extraction attacks against models that output only class labels, the obvious countermeasure against extraction attacks that rely on confidence values. We show slower, but still potentially dangerous, attacks in this setting that build on prior work in learning theory. We additionally make a number of observations about the implications
+of extraction. For example, attacks against Amazon’s system
+indirectly leak various summary statistics about a private training
+set, while extraction against kernel logistic regression models [58]
+recovers significant information about individual training data points.

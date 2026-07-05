@@ -1,0 +1,17 @@
+URL https://arxiv.org/abs/2205.09712. Fan et al. (2019)
+
+Angela Fan, Yacine Jernite, Ethan Perez, David Grangier, Jason Weston, and
+Michael Auli. ELI5: Long form question answering. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pp. 3558–3567, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1346. URL https://aclanthology.org/P19-1346. Fernyhough (2010)
+
+Charles Fernyhough. Vygotsky, luria, and the social brain. Self and social regulation: Social interaction and the
+development of social understanding and executive functions, pp. 56–79,
+2010. Glaese et al. (2022)
+
+Amelia Glaese, Nat McAleese, Maja Trebacz, John Aslanides, Vlad Firoiu, Timo
+Ewalds, Maribeth Rauh, Laura Weidinger, Martin Chadwick, Phoebe Thacker, Lucy
+Campbell-Gillingham, Jonathan Uesato, Po-Sen Huang, Ramona Comanescu, Fan
+Yang, Abigail See, Sumanth Dathathri, Rory Greig, Charlie Chen, Doug Fritz,
+Jaume Sanchez Elias, Richard Green, Soňa Mokrá, Nicholas Fernando, Boxi Wu,
+Rachel Foley, Susannah Young, Iason Gabriel, William Isaac, John Mellor,
+Demis Hassabis, Koray Kavukcuoglu, Lisa Anne Hendricks, and Geoffrey Irving.

@@ -1,0 +1,43 @@
+␣␣␣␣␣␣␣␣If␣shift␣>␣number␣of␣digits,␣return␣digits␣reversed. ␣␣␣␣␣␣␣␣>>>␣circular_shift(12,␣1)
+
+␣␣␣␣␣␣␣␣"21"
+
+␣␣␣␣␣␣␣␣>>>␣circular_shift(12,␣2)
+
+␣␣␣␣␣␣␣␣"12"
+
+␣␣␣␣␣␣␣␣"""
+
+s = str(x)
+
+if shift > len(s):
+
+return s[::-1]
+
+else:
+
+return s[len(s) - shift :] + s[: len(s) - shift]
+
+def get_closest_vowel(word):
+
+"""You␣are␣given␣a␣word.␣Your␣task␣is␣to␣find␣the␣closest␣vowel␣that␣stands␣between␣two␣consonants␣from␣the␣right␣side␣of␣the␣word␣(case␣sensitive).␣Vowels␣in␣the␣beginning␣and␣ending␣doesn’t␣count.␣Return␣empty␣string␣if␣you␣didn’t␣find␣any␣vowel␣met␣the␣above␣condition.␣You␣may␣assume␣that␣the␣given␣string␣contains␣English␣letter␣only. ␣␣␣␣␣␣␣␣Example:
+
+␣␣␣␣␣␣␣␣get_closest_vowel("yogurt")␣==>␣"u"
+
+␣␣␣␣␣␣␣␣get_closest_vowel("FULL")␣==>␣"U"
+
+␣␣␣␣␣␣␣␣get_closest_vowel("quick")␣==>␣""
+
+␣␣␣␣␣␣␣␣get_closest_vowel("ab")␣==>␣""
+
+␣␣␣␣␣␣␣␣"""
+
+Example 2: sample prompt with bugs in context
+
+⬇
+
+def bf(planet1, planet2):
+
+"""
+
+␣␣␣␣There␣are␣eight␣planets␣in␣our␣solar␣system:␣the␣closerst␣to␣the␣Sun␣␣is␣Mercury,␣the␣next␣one␣is␣Venus,␣then␣Earth,␣Mars,␣Jupiter,␣Saturn,␣Uranus,␣Neptune. ␣␣␣␣Write␣a␣function␣that␣takes␣two␣planet␣names␣as␣strings␣planet1␣and␣planet2.

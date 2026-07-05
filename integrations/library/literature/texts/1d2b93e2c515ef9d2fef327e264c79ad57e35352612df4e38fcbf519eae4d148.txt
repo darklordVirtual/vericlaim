@@ -1,0 +1,13 @@
+URL https://arxiv.org/abs/2102.01293. Hernandez et al. (2020)
+
+Álvaro Hernandez, Suhan Woo, Héctor Corrales, Ignacio Parra, Euntai Kim,
+D. Fernández Llorca, and Miguel A. Sotelo. 3D-DEEP: 3-dimensional deep-learning based on elevation patterns
+for road scene interpretation. In 2020 IEEE Intelligent Vehicles Symposium (IV),
+Piscataway, NJ, Oct. 2020. Institute of Electrical and Electronics Engineers. doi: 10.1109/iv47402.2020.9304601. URL https://doi.org/10.48550/arXiv.2009.00330. Herzig et al. (2020)
+
+Jonathan Herzig, Pawel Krzysztof Nowak, Thomas Müller, Francesco Piccinno,
+and Julian Eisenschlos. TaPas: Weakly supervised table parsing via pre-training. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 4320--4333, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.398. URL https://aclanthology.org/2020.acl-main.398. Hestness et al. (2017)
+
+Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory F. Diamos, Heewoo Jun,
+Hassan Kianinejad, Md. Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. Deep learning scaling is predictable, empirically, 2017. URL http://arxiv.org/abs/1712.00409. Hestness et al.

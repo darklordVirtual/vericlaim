@@ -1,0 +1,15 @@
+Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.701. URL https://aclanthology.org/2020.acl-main.701. Durmus et al. (2020)
+
+Esin Durmus, He He, and Mona Diab. FEQA: A question answering evaluation framework for faithfulness
+assessment in abstractive summarization. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 5055--5070, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.454. URL https://aclanthology.org/2020.acl-main.454. Dziri et al. (2021)
+
+Nouha Dziri, Andrea Madotto, Osmar Zaiane, and Avishek Joey Bose. Neural path hunter: Reducing hallucination in dialogue systems via
+path grounding, 2021. URL https://arxiv.org/abs/2104.08455. Ebrahimi et al. (2020)
+
+Javid Ebrahimi, Dhruv Gelda, and Wei Zhang. How can self-attention networks recognize Dyck-n languages?, 2020. URL https://arxiv.org/abs/2010.04303. Edizel et al. (2019)
+
+Bora Edizel, Aleksandra Piktus, Piotr Bojanowski, Rui Ferreira, Edouard Grave,
+and Fabrizio Silvestri. Misspelling oblivious word embeddings, 2019. URL https://arxiv.org/abs/1905.09755. Edmiston & Stratos (2018)
+
+Daniel Edmiston and Karl Stratos.

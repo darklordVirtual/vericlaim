@@ -1,0 +1,18 @@
+[2019]
+
+Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur
+Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Matthew Kelcey,
+Jacob Devlin, Kenton Lee, Kristina N. Toutanova, Llion Jones, Ming-Wei Chang,
+Andrew Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov. Natural Questions: a Benchmark for Question Answering
+Research. Transactions of the Association of Computational Linguistics,
+2019. URL
+https://tomkwiat.users.x20web.corp.google.com/papers/natural-questions/main-1455-kwiatkowski.pdf. Lample et al. [2019]
+
+Guillaume Lample, Alexandre Sablayrolles, Marc’ Aurelio Ranzato, Ludovic
+Denoyer, and Herve Jegou. Large memory layers with product keys. In H. Wallach, H. Larochelle, A. Beygelzimer, F. d’ Alché-Buc,
+E. Fox, and R. Garnett, editors, Advances in Neural Information
+Processing Systems 32, pages 8548–8559. Curran Associates, Inc., 2019. URL
+http://papers.nips.cc/paper/9061-large-memory-layers-with-product-keys.pdf. Lee et al. [2019]
+
+Kenton Lee, Ming-Wei Chang, and Kristina Toutanova. Latent retrieval for weakly supervised open domain question
+answering.

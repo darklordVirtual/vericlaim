@@ -1,0 +1,2 @@
+Table 19:
+For this issue from the mwaskom/seaborn repository, the problem statement includes hyperlinks to images. As discussed in Section 5, a minor subset of SWE-bench tasks include images in them, making image understanding a small but important component to resolving issues that is unexplored by the initial baselines.

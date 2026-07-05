@@ -1,0 +1,16 @@
+Anastasios N. Angelopoulos1, Stephen Bates1, Adam Fisch2, Lihua Lei3, and Tal Schuster4
+
+(
+1University of California, Berkeley
+
+2Massachusetts Institute of Technology
+
+3Stanford University
+
+4Google Research
+
+)
+
+Abstract
+
+We extend conformal prediction to control the expected value of any monotone loss function. The algorithm generalizes split conformal prediction together with its coverage guarantee. Like conformal prediction, the conformal risk control procedure is tight up to an factor. We also introduce extensions of the idea to distribution shift, quantile risk control, multiple and adversarial risk control, and expectations of U-statistics. Worked examples from computer vision and natural language processing demonstrate the usage of our algorithm to bound the false negative rate, graph distance, and token-level F1-score.

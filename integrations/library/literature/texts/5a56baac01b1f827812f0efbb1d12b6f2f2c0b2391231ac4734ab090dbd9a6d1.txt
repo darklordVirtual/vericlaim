@@ -1,0 +1,19 @@
+correctable to be non-discriminating: If a predictor
+has matching conditional ROC curves, then for any loss function
+the optimal equalized odds derived predictor is a deterministic
+function of and . But as our examples show, having matching
+ROC curves does not at all mean the score is itself
+non-discriminatory: it can be biased according to , and a
+(deterministic) correction might be necessary in order to ensure
+equalized odds. Having identical or matching ROC curves are properties of the
+conditional distribution , also referred to as “model
+errors”. Oblivious measures can also depend on the conditional
+distribution , also referred to as “target population errors”. In particular, one might consider the following property:
+
+Definition 6.4 (Matching frequencies). We say that a score has matching conditional frequencies,
+if for all groups and all scores we have
+
+Matching conditional frequencies state that at a given score, both
+groups have the same probability of being labeled positive. The
+definition can also be phrased as requiring that the conditional
+distribution be independent of .

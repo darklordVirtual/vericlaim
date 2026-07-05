@@ -1,0 +1,9 @@
+Adversary’s Capabilities. We consider an adversary who has black-box input-output access to a language model. This allows the adversary to compute the probability of arbitrary sequences
+, and as a result allows the adversary to obtain next-word predictions, but it does not allow the adversary to inspect individual
+weights or hidden states (e.g., attention vectors) of the language model. This threat model is highly realistic as many LMs are available through black-box APIs. For example, the GPT-3 model [7] created by OpenAI is available through black-box API access. Auto-complete models trained on actual user data
+have also been made public,
+although they reportedly use privacy-protection measures during training [10]. Adversary’s Objective. The adversary’s objective is to extract memorized training data from the model. The strength of an attack is measured by how private (formalized as being -eidetic memorized)
+a particular example is. Stronger attacks
+extract more examples in total (both more total sequences, and longer sequences) and
+examples with lower values of . We do not aim to extract targeted pieces of training data,
+but rather indiscriminately extract training data.

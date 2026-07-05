@@ -1,0 +1,5 @@
+For example, a base64 feature increases the probability of tokens like Qg and zA – plausible continuations which would continue to activate it. It's worth noting that these examples are from A/0, a dictionary learning run which is not overcomplete (the dictionary dimensionality is 512, equal to the transformer MLP dimension). As we move to runs with larger numbers of features, the central feature will experience feature splitting, and become a more complex system. Let's now consider a two-node system for producing variables in "all caps snake case" (e.g. ARRAY_MAX_VALUE). One node (A/0/207) activates on the all caps text tokens, the other (A/0/358) on underscores:
+
+This type of two-node system is quite common for languages where Unicode characters are sometimes split into two tokens. (Again, with more feature splitting, these would expand into more complex systems.)
+
+For example, Tamil Unicode characters (block U+0B80–U+0BFF) are typically split into two tokens. For example, the character "ண" (U+0BA3) is tokenized as \xe0\xae followed by \xa3.

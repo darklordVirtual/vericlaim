@@ -1,0 +1,16 @@
+(2022). Codet: Code generation with generated tests. arXiv preprint arXiv:2207.10397. Chen et al., (2021)
+
+Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. d. O., Kaplan, J.,
+Edwards, H., Burda, Y., Joseph, N., Brockman, G., et al. (2021). Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374. Chen et al., (2023)
+
+Chen, X., Lin, M., Schärli, N., and Zhou, D. (2023). Teaching large language models to self-debug. arXiv preprint arXiv:2304.05128. Côté et al., (2019)
+
+Côté, M.-A., Kádár, A., Yuan, X., Kybartas, B., Barnes, T.,
+Fine, E., Moore, J., Hausknecht, M., El Asri, L., Adada, M., et al. (2019). Textworld: A learning environment for text-based games. In Computer Games: 7th Workshop, CGW 2018, Held in Conjunction
+with the 27th International Conference on Artificial Intelligence, IJCAI
+2018, Stockholm, Sweden, July 13, 2018, Revised Selected Papers 7, pages
+41–75. Springer. Goodman, (2023)
+
+Goodman, N. (2023). Meta-prompt: A simple self-improving language agent. noahgoodman.substack.com. Kim et al., (2023)
+
+Kim, G., Baldi, P., and McAleer, S. (2023). Language models can solve computer tasks. arXiv preprint arXiv:2303.17491.

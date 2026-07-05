@@ -1,0 +1,19 @@
+[28]
+
+Sorami Hisamoto, Matt Post, and Kevin Duh. Membership inference attacks on sequence-to-sequence models: Is my
+data in your machine translation system? In TACL, 2020. [29]
+
+Andrew Hoang, Antoine Bosselut, Asli Celikyilmaz, and Yejin Choi. Efficient adaptation of pretrained transformers for abstractive
+summarization. arXiv preprint arXiv:1906.00138, 2019. [30]
+
+Ari Holtzman, Jan Buys, Maxwell Forbes, and Yejin Choi. The curious case of neural text degeneration. In ICLR, 2020. [31]
+
+Jeremy Howard and Sebastian Ruder. Universal language model fine-tuning for text classification. In ACL, 2018. [32]
+
+Daphne Ippolito, Daniel Duckworth, Chris Callison-Burch, and Douglas Eck. Automatic detection of generated text is easiest when humans are
+fooled. In ACL. [33]
+
+Matthew Jagielski, Jonathan Ullman, and Alina Oprea. Auditing differentially private machine learning: How private is
+private SGD? In NeurIPS, 2020. [34]
+
+Bargav Jayaraman and David Evans. Evaluating differentially private machine learning in practice. In USENIX Security Symposium, 2019.

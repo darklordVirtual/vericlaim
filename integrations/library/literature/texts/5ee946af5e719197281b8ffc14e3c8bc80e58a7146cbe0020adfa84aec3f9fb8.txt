@@ -1,0 +1,26 @@
+Table 16:
+In this example, Claude 2 correctly addresses an issue from scikit-learn/scikit-learn. However, as demonstrated in the discussion, while the solution is correct, it demonstrates models’ tendency to write primitive Python and not employ existing methods within the codebase. Setting
+
+•
+
+Model: Claude 2 with Oracle retrieval
+
+•
+
+Task Instance: scikit-learn__scikit-learn-13328
+
+–
+
+Link to Issue: https://github.com/scikit-learn/scikit-learn/pull/13314
+
+–
+
+Link to PR: https://github.com/scikit-learn/scikit-learn/issues/13328
+
+Issue
+
+TypeError when supplying a boolean X to HuberRegressor fit
+
+#### Description
+
+‘TypeError’ when fitting ‘HuberRegressor’ with boolean predictors.

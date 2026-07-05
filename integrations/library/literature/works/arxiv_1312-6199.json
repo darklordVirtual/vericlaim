@@ -10,6 +10,12 @@
     "Ian Goodfellow",
     "Rob Fergus"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:14:27.814915+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1312.6199"
+  },
+  "fulltext_sha256": "ede231bcfdf22e6aa5daabc001941da40f48f2e2a2989e5cd304f92dd7fdc5fa",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "intriguing-2013",

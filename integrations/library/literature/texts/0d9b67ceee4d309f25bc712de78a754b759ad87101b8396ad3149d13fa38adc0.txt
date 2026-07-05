@@ -1,0 +1,17 @@
+Thus, this data is
+useless if we want to model why a particular post was not seen by the user,
+because all the negative examples have been dropped. A similar issue occurred in
+Play. While working on Play Apps Home, a new pipeline was created that also
+contained examples from the landing page for Play Games without any feature to
+disambiguate where each example came from. Rule #7: Turn heuristics into features, or handle them externally. Usually the problems that machine learning is trying to solve are not
+completely new. There is an existing system for ranking, or classifying, or
+whatever problem you are trying to solve. This means that there are a bunch of
+rules and heuristics. These same heuristics can give you a lift when tweaked
+with machine learning. Your heuristics should be mined for whatever
+information they have, for two reasons. First, the transition to a machine
+learned system will be smoother. Second, usually those rules contain a lot of
+the intuition about the system you don’t want to throw away. There are four
+ways you can use an existing heuristic:
+
+Preprocess using the heuristic. If the feature is incredibly awesome,
+then this is an option.

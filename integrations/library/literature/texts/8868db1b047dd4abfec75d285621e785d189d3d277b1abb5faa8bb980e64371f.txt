@@ -1,0 +1,6 @@
+It is an interesting question whether aha! moments in humans are similarly associated with smooth underlying improvements in understanding. Using smoother metrics. The exact_str_match metric can lead to apparent sudden breakthroughs because of its inherent all-or-nothing discontinuity. It only gives credit for a model output that exactly matches the target string. Examining other metrics, such as BLEU, BLEURT, or ROUGE, can reveal more gradual progress. See Figure App.4 for two examples of this. Multiple-choice questions scored with multiple_choice_grade can also lead to all-or-nothing effects, since credit is only given for an answer when a correct choice is assigned higher log probability than all incorrect choices. A smoother alternative metric can be the mean probability or mean log probability of the correct choice (see Figure 8). \begin{overpic}[width=230.18251pt]{figures/breakthrough_lp.pdf}
+\put(1.0,0.0){{(a)}}
+\end{overpic}\begin{overpic}[width=230.18251pt]{figures/periodic_elements_log_prob.pdf}
+\put(1.0,0.0){{(b)}}
+\end{overpic}
+Figure 8: Log probability of targets often improves smoothly across scales.

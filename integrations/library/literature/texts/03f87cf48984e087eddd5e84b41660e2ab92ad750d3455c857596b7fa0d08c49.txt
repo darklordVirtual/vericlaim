@@ -1,0 +1,5 @@
+as a function of the number of model parameters , and the number of training tokens, . Since the computational budget is a deterministic function of the number of seen training tokens and model parameters, we are interested in minimizing under the constraint :
+
+(1)
+
+The functions , and describe the optimal allocation of a computational budget . We empirically estimate these functions based on the losses of over 400 models, ranging from under M to over B parameters, and trained on B to over B tokens – with each model configuration trained for several different training horizons. Our approach leads to considerably different results than that of Kaplan et al. (2020). We highlight our results in Figure 1 and how our approaches differ in Section 2. Based on our estimated compute-optimal frontier, we predict that for the compute budget used to train Gopher, an optimal model should be 4 times smaller, while being training on 4 times more tokens. We verify this by training a more compute-optimal 70B model, called Chinchilla, on 1.4 trillion tokens.

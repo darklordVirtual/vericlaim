@@ -1,0 +1,5 @@
+We provide examples for each success and failure modes in Appendix E.1. We also find some HotpotQA questions may contain outdated answer labels, see Figure 4 for example. \model + CoT-SC perform best for prompting LLMs
+
+Also shown in Table 1, the best prompting method on HotpotQA and Fever are \model CoT-SC and CoT-SC \model respectively. Furthermore, Figure 1 shows how different methods perform with respect to the number of CoT-SC samples used. While two \model + CoT-SC methods are advantageous at one task each, they both significantly and consistently outperform CoT-SC across different number of samples, reaching CoT-SC performance with 21 samples using merely 3-5 samples. These results indicate the value of properly combining model internal knowledge and external knowledge for reasoning tasks. Figure 3: Scaling results for prompting and finetuning on HotPotQA with \model (ours) and baselines. \model performs best for fine-tuning
+
+Figure 3 shows the scaling effect of prompting/finetuning four methods (Standard, CoT, Act, \model) on HotpotQA.

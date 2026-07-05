@@ -1,0 +1,12 @@
+Deep neural networks are powerful learning models that achieve
+excellent performance on visual and speech recognition problems
+[9, 8]. Neural networks achieve high performance because they can express
+arbitrary computation that consists of a modest number of massively parallel
+nonlinear steps. But as the resulting computation is automatically discovered by backpropagation via supervised
+learning, it can be difficult to interpret and can have counter-intuitive properties. In this paper, we discuss two counter-intuitive properties of deep neural networks. The first property is concerned with the semantic meaning of individual units. Previous
+works [6, 13, 7] analyzed
+the semantic meaning of various units by finding the set of inputs
+that maximally activate a given unit. The inspection of individual units makes the implicit
+assumption that the units of the last feature layer form a distinguished basis which is
+particularly useful for extracting semantic information. Instead, we show in section 3 that random projections of are semantically
+indistinguishable from the coordinates of .

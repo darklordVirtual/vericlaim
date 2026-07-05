@@ -1,0 +1,11 @@
+Visual-Dominant Reasoning. •
+
+SuperClevr (Li et al., 2023) is a counting benchmark for testing the perception capability. •
+
+MathVerseV (Zhang et al., 2025) We also report MathVerse’s vision-dependent subset result, where the problem cannot be solved without its visual input. Multi-discipline Reasoning. •
+
+A-OKVQA (Schwenk et al., 2022) is a benchmark requiring a broad base of commonsense and world knowledge to answer. The questions generally cannot be answered by simply querying a knowledge base, and instead require some form of commonsense reasoning about the scene depicted in the image. •
+
+MMK12 (Meng et al., 2025) is a benchmark focused on K-12 level multimodal STEM problems. It provides a strong test of foundational scientific reasoning skills that are essential for more advanced applications. •
+
+MMMU-Pro (Yue et al., 2025) is a hardened version of the popular MMMU benchmark. It was specifically created to be unsolvable by text-only models by filtering out questions with textual shortcuts, augmenting the number of choices to reduce guessing, and introducing a vision-only format.

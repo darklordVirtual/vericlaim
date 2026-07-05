@@ -1,0 +1,47 @@
+Shahar Avin (sa478@cam.ac.uk), Jasmine Wang (jasminewang76@gmail.com), Haydn Belfield (hb492@cam.ac.uk), and Gretchen Krueger (gretchen@openai.com) contributed equally and are corresponding authors. Other authors are listed roughly in order of contribution., Shahar Avin3,2†, Jasmine Wang4,29†333Work conducted in part while at OpenAI., Haydn Belfield3,2†, Gretchen Krueger1†,
+
+Gillian Hadfield1,5,30, Heidy Khlaaf6, Jingying Yang7, Helen Toner8, Ruth Fong9,
+
+Tegan Maharaj4,28, Pang Wei Koh10, Sara Hooker11, Jade Leung12, Andrew Trask9,
+
+Emma Bluemke9, Jonathan Lebensold4,29, Cullen O’Keefe1, Mark Koren13, Théo Ryffel14,
+
+JB Rubinovitz15, Tamay Besiroglu16, Federica Carugati17, Jack Clark1, Peter Eckersley7,
+
+Sarah de Haas18, Maritza Johnson18, Ben Laurie18, Alex Ingerman18, Igor Krawczuk19,
+
+Amanda Askell1, Rosario Cammarota20, Andrew Lohn21, David Krueger4,27, Charlotte Stix22,
+
+Peter Henderson10, Logan Graham9, Carina Prunkl12, Bianca Martin1, Elizabeth Seger16,
+
+Noa Zilberman9,
+Seán Ó hÉigeartaigh2,3,
+Frens Kroeger23, Girish Sastry1, Rebecca Kagan8,
+
+Adrian Weller16,24, Brian Tse12,7, Elizabeth Barnes1, Allan Dafoe12,9, Paul Scharre25,
+
+Ariel Herbert-Voss1, Martijn Rasser25, Shagun Sodhani4,27, Carrick Flynn8,
+
+Thomas Krendl Gilbert26, Lisa Dyer7, Saif Khan8, Yoshua Bengio4,27, Markus Anderljung12
+
+1OpenAI, 2Leverhulme Centre for the Future of Intelligence, 3Centre for the Study of Existential Risk,
+
+4Mila, 5University of Toronto, 6Adelard, 7Partnership on AI, 8Center for Security and Emerging Technology,
+
+9University of Oxford, 10Stanford University, 11Google Brain, 12Future of Humanity Institute,
+
+13Stanford Centre for AI Safety, 14École Normale Supérieure (Paris), 15Remedy.AI,
+
+16University of Cambridge, 17Center for Advanced Study in the Behavioral Sciences,18Google Research,
+
+19École Polytechnique Fédérale de Lausanne, 20Intel, 21RAND Corporation,
+
+22Eindhoven University of Technology, 23Coventry University, 24Alan Turing Institute,
+
+25Center for a New American Security, 26University of California, Berkeley,
+
+27University of Montreal, 28Montreal Polytechnic, 29McGill University,
+
+30Schwartz Reisman Institute for Technology and Society
+
+(April 2020)

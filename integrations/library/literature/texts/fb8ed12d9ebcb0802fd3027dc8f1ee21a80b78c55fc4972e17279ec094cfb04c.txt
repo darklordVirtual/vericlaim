@@ -1,0 +1,18 @@
+2015. Association for Computational Linguistics. doi: 10.18653/v1/D15-1202. URL https://aclanthology.org/D15-1202. Shen et al. (2021a)
+
+J. Shen, Y. Yin, L. Li, L. Shang, X. Jiang, M. Zhang, and Q. Liu. Generate & rank: A multi-task framework for math word problems. arXiv preprint arXiv:2109.03034, 2021a. Shen et al. (2021b)
+
+J. T. Shen, M. Yamashita, E. Prihar, N. Heffernan, X. Wu, B. Graff, and D. Lee. Mathbert: A pre-trained language model for general nlp tasks in
+mathematics education, 08 2021b. Sutskever et al. (2014)
+
+I. Sutskever, O. Vinyals, and Q. V. Le. Sequence to sequence learning with neural networks. In Advances in neural information processing systems, pages
+3104–3112, 2014. Talmor et al. (2018)
+
+A. Talmor, J. Herzig, N. Lourie, and J. Berant. Commonsenseqa: A question answering challenge targeting commonsense
+knowledge. arXiv preprint arXiv:1811.00937, 2018. Vaswani et al. (2017)
+
+A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez,
+Ł. Kaiser, and I. Polosukhin. Attention is all you need. In Advances in neural information processing systems, pages
+5998–6008, 2017. Wang et al. (2019)
+
+A. Wang, Y. Pruksachatkun, N. Nangia, A. Singh, J. Michael, F.

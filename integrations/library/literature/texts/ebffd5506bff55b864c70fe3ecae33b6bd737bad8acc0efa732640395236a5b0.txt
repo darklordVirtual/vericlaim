@@ -1,0 +1,17 @@
+An action is the structured form of an agent tool-call: its type (shell, HTTP, cloud-SDK, package, SQL, …), the tool invoked, the raw content of the call, and its parameters. The layer maps each action to a verdict:
+
+•
+
+allow — execute the action;
+
+•
+
+warn — execute, but surface a caution to the operator;
+
+•
+
+block — refuse the action;
+
+•
+
+review — suspend the action for human adjudication. warn and review are soft outcomes: the benign twin of a semantic threat is never silently destroyed, only escalated for a human’s attention. This distinction is what the safety invariant (§4.6) is defined on, and it is what lets the system escalate aggressively on ambiguous traffic without ever catastrophically over-blocking.

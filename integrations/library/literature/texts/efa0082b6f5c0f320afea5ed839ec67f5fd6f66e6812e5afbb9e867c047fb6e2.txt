@@ -1,0 +1,53 @@
+Figure 4: A step of deliberate search in a randomly picked Creative Writing task. Given the input, the LM samples 5 different plans, then votes 5 times to decide which plan is best. The majority choice is used to consequently write the output passage with the same sample-vote procedure. Figure 5: Creative Writing results. Method
+Success Rate (%)
+
+Letter
+Word
+Game
+
+IO
+
+38.7
+
+14
+
+0
+
+CoT
+
+40.6
+
+15.6
+
+1
+
+ToT (ours)
+78
+60
+20
+
++best state
+
+82.4
+
+67.5
+
+35
+
+-prune
+
+65.4
+
+41.5
+
+5
+
+-backtrack
+
+54.6
+
+20
+
+5
+
+Figure 5: Creative Writing results. Table 3: Mini Crosswords results.

@@ -1,0 +1,12 @@
+The primary problem with external queries is that the data
+that they return has an effect on the results on handling an
+event. If I ask for an exchange rate on December 5th and replay
+that event on December 20th, I will need the exchange rate on
+Dec 5 not the later one. It may be that the external system can give me past data by
+asking for a value on a date. If it can, and we trust it to be
+reliable, then we can use that to ensure consistent replay. It also may be that we are using Event Collaboration, in which case all we have to ensure we retain the history of changes. If we can't use those simple plans then we have to do something a bit more involved. One approach is to design the
+gateway to the external system so that it remembers the
+responses to its queries and uses them during replay. To be
+complete this means that the response to every external query
+needs to be remembered. If the external data changes slowly it
+may be reasonable to only remember changes when values change.

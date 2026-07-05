@@ -1,0 +1,7 @@
+The notation means querying the leaf-identity oracle with an input and obtaining a response id. By we denote the query obtained from by replacing the value of by . We now present our path-finding attack (Algorithm 1), that assumes a leaf-identity oracle that returns unique identifiers for each leaf. We will relax the uniqueness assumption further on. The attack starts with a random input and gets the leaf id from the
+oracle. We then search for all constraints on
+that have to be satisfied to remain in that leaf, using procedures LINE_SEARCH (for continuous features) and
+CAT_SPLIT (for categorical features) described below. From this information, we then create new queries for unvisited leaves. Once all leaves have been
+found, the algorithm returns, for each leaf, the corresponding
+constraints on . We analyze the algorithm’s correctness
+and complexity in Appendix C. We illustrate our algorithm with a toy example of a tree over continuous feature Size and categorical feature Color (see Figure 4). The current query is and . Our goal is two-fold: (1) Find the predicates that has to satisfy to end up in leaf (i.e., ), and (2) create new inputs to explore other paths in the tree.

@@ -1,0 +1,8 @@
+Stinson, Queen’s University at Kingston
+(c.stinson@queensu.ca); Dimitri Coelho Mollo, Umeå University (dimitri.mollo@umu.se); and Charles Rathkopf, Juelich Research Center (c.rathkopf@fz-juelich.de). Task cites: (Fodor, 1975; Fodor & Pylyshyn, 1988; Smolensky, 1988; Lake et al., 2017; Lake & Murphy, 2020; Marcus, 2020; Henrich et al., 2010; Murphy, 1988)
+
+conlang_translation: James Koppel, MIT (jkoppel@mit.edu); Rowan Jacobs, Synthego (rowan.jacobs@synthego.com); and Mimee Xu, NYU (mimee@nyu.edu). Task cites: (Canfield, 2010; Şahin et al., 2020; Sennrich & Zhang, 2019)
+
+context_definition_alignment: Lütfi Kerem Şenel, Hinrich Schütze, and Timo Schick, LMU Munich (lksenel@gmail.com, inquiries@cislmu.org, and schickt93@gmail.com). Task cites: (Senel & Schütze, 2021; Reimers & Gurevych, 2019)
+
+convinceme: Cedrick Argueta and Jaime Fernández Fisac, Princeton University (cedrick, jfisac)@princeton.edu; and Vinay Ramasesh, Google (ramasesh@google.com).

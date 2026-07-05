@@ -1,0 +1,147 @@
+CodeRL (Le et al.,, 2022) sets the problem
+in an RL framework using an actor-critic setup to debug programs given
+feedback from an execution environment. AlphaCode, Self-Debugging and CodeRL
+are effective in fixing less-complex program bugs, but they rely
+upon ground truth test cases that invalidate pass@1 eligibility,
+and do not use self-reflection to bridge the gap between error
+identification and implementation improvement. CodeT does not access
+hidden test cases but does not implement a self-learning step to
+improve code writing. Related work on reasoning and decision-making
+
+Approach
+
+Self
+
+Hidden
+
+Decision
+
+Binary
+
+Memory
+
+refine
+
+constraints
+
+making
+
+reward
+
+Self-refine (Madaan et al.,, 2023)
+
+✓
+
+✗
+
+✗
+
+✗
+
+✗
+
+Beam search (Xie et al.,, 2023)
+
+✓
+
+✓
+
+✓
+
+✓
+
+✗
+
+Reflexion (ours)
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Related work on programming
+
+Approach
+
+Test
+
+Debugging
+
+Self-generated
+
+Multiple
+
+Self-reflection
+
+Test execution
+
+execution
+
+tests
+
+languages
+
+AlphaCode (Li et al.,, 2022)
+
+✓
+
+✗
+
+✗
+
+✓
+
+✗
+
+CodeT (Chen et al.,, 2022)
+
+✓
+
+✗
+
+✓
+
+✗
+
+✗
+
+Self-debugging (Chen et al.,, 2023)
+
+✓
+
+✓
+
+✗
+
+✗
+
+✗
+
+CodeRL (Le et al.,, 2022)
+
+✓
+
+✓
+
+✗
+
+✗
+
+✗
+
+Reflexion (ours)
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓

@@ -1,0 +1,6 @@
+Both queries and updates to external systems cause a lot of
+complication with Event Sourcing. You get the worst of both with
+interactions that involve both. Such an interaction might be a
+an external call that both returns a result (a query) but also
+causes a state change to the external system, such as submitting
+an order for delivery that return delivery information on that order.

@@ -1,0 +1,3 @@
+Evaluation
+
+To systematically evaluate the efficacy of VL-Calibration, we evaluate on thirteen benchmarks that cover diverse visual reasoning topics, and multi-disciplinary reasoning. Our evaluation metrics include Accuracy (ACC), Expected Calibration Error (ECE), and Area Under the Receiver Operating Characteristic Curve (AUROC) to evaluate models’ both reasoning and calibration capability. Details of evaluation benchmarks and metrics are provided in Appendix A.2.

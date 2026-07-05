@@ -1,0 +1,15 @@
+Proverb comprehension as a function of reading proficiency in
+preadolescents. Language Speech and Hearing Services in Schools, 32:90, 04 2001. doi: 10.1044/0161-1461(2001/009). URL
+https://www.researchgate.net/publication/285246680_Proverb_Comprehension_as_a_Function_of_Reading_Proficiency_in_Preadolescents. Nishino et al. (2019)
+
+Masaaki Nishino, Sho Takase, Tsutomu Hirao, and Masaaki Nagata. Generating natural anagrams: Towards language generation under hard
+combinatorial constraints. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 6408--6412, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1674. URL https://aclanthology.org/D19-1674. Noever et al. (2020)
+
+David Noever, Matt Ciolino, and Josh Kalin. The chess transformer: Mastering play using generative language
+models, 2020. URL https://arxiv.org/abs/2008.04057. Nolan & Mikami (2013)
+
+David Nolan and Akina Mikami. "The things that we have to do": Ethics and instrumentality in
+humanitarian communication.

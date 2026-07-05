@@ -1,0 +1,10 @@
+For our purposes, a ML model is a function . An input is a -dimensional vector in the feature space
+. Outputs lie in the range
+. We distinguish between categorical features, which assume one of a
+finite set of values (whose set size is the arity of the feature),
+and continuous features, which assume a value in a bounded subset of the
+real numbers. Without loss of generality, for a categorical feature of arity , we let . For a continuous feature taking values between bounds and , we let
+. Inputs to a model may be pre-processed to perform feature extraction. In this case, inputs come from a space , and feature extraction involves application of a function that maps inputs into a feature space. Model application then proceeds by composition in the natural way, taking the form . Generally, feature extraction is many-to-one. For example,
+may be a piece of English language text and the extracted features counts of individual words (so-called “bag-of-words” feature extraction). Other examples are input scaling and one-hot-encoding of categorical features. We focus primarily on classification settings in which
+predicts a nominal variable ranging over
+a set of classes.

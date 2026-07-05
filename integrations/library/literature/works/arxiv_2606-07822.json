@@ -10,6 +10,12 @@
     "Tomas Pfister",
     "Hamid Palangi"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:53.435832+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2606.07822"
+  },
+  "fulltext_sha256": "33e24dc7ae85450049bbaf772b8d0049dddd82ac887950bc40c8cad8f9886910",
   "registrar": "arxiv",
   "retrieval": {
     "query": "trust calibration overconfidence language model correctness inversion",

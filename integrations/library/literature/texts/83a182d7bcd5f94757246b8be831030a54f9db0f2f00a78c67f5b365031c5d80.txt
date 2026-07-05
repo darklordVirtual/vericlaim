@@ -1,0 +1,1 @@
+We compare the performance of standard Transformers to recurrent Transformers [DGV+18] in Figure 17. These models re-use parameters, and so perform slightly better as a function of , but slightly worse as a function of compute . We include several different different possibilities for parameter re-use.

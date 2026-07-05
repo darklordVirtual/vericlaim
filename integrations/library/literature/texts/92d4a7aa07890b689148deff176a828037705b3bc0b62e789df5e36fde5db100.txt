@@ -1,0 +1,17 @@
+(2019). Learning from dialogue after deployment: Feed yourself, chatbot! arXiv preprint arXiv:1901.05415. Henderson et al., (2018)
+
+Henderson, P., Sinha, K., Angelard-Gontier, N., Ke, N. R., Fried, G., Lowe, R.,
+and Pineau, J. (2018). Ethical challenges in data-driven dialogue systems. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics,
+and Society, pages 123–129. Huang et al., (2019)
+
+Huang, P.-S., Zhang, H., Jiang, R., Stanforth, R., Welbl, J., Rae, J., Maini,
+V., Yogatama, D., and Kohli, P. (2019). Reducing sentiment bias in language models via counterfactual
+evaluation. arXiv preprint arXiv:1911.03064. Ibarz et al., (2018)
+
+Ibarz, B., Leike, J., Pohlen, T., Irving, G., Legg, S., and Amodei, D. (2018). Reward learning from human preferences and demonstrations in atari. In Advances in neural information processing systems, pages
+8011–8023. Irving et al., (2018)
+
+Irving, G., Christiano, P., and Amodei, D. (2018). AI safety via debate. arXiv preprint arXiv:1805.00899. Jaques et al., (2019)
+
+Jaques, N., Ghandeharioun, A., Shen, J. H., Ferguson, C., Lapedriza, A., Jones,
+N., Gu, S., and Picard, R. (2019).

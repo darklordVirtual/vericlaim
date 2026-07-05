@@ -1,0 +1,5 @@
+This reduces to standard multiple choice accuracy when a single target is assigned a score of 1 and the rest score 0. •
+
+expected_calibration_error: A measure of a model’s calibration -- i.e. how well the model’s accuracy matches the probability it assigns to a response. expected_calibration_error is the absolute deviation between the assigned probability and average accuracy, after binning examples in terms of assigned probability (Naeini et al., 2015). •
+
+multiple_choice_brier_score: A measure of calibration given as the squared error between model assigned probabilities and 0, 1 targets across classes (Brier, 1950). API details and instructions for contributing new tasks or evaluations can be found in the online documentation. In terms of task specification, we believe JSON and programmatic tasks cover sufficiently wide tasks that probes capabilities of large language models with standard external API. Having said that, BIG-bench is designed for evaluating pure language models and has limits to cover multi-modal capabilities which would be an exciting future direction.

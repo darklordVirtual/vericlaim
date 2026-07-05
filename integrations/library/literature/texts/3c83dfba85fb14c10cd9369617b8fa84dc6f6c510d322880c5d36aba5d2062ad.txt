@@ -1,0 +1,9 @@
+same time, machine learning models are notorious for exposing information about their (potentially private) training data—both in general [65, 47] and in the specific case of language models [8, 45]. For instance,
+for certain models
+it is known that adversaries can apply membership inference attacks [65]
+to predict whether or not any particular example was in the training data. Such privacy leakage is typically associated with overfitting [75]—when a model’s training error is significantly lower than its test error—because overfitting often indicates that a model has memorized examples from its training set. Indeed, overfitting is a sufficient condition for privacy leakage [72] and many attacks work by exploiting overfitting [65]. The association between overfitting and memorization
+has—erroneously—led many to assume that
+state-of-the-art LMs will not leak information about their training data. Because these models
+are often trained on massive de-duplicated datasets
+only for a single epoch [7, 55],
+they exhibit little to no overfitting [53].

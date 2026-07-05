@@ -1,0 +1,10 @@
+Example 47 ◊
+
+In this example, c is a collection known to have e0, e1, and e2 as members, and may have other members. entity(e0)
+entity(e1)
+entity(e2)
+
+entity(c, [prov:type='prov:Collection' ]) // c is a collection, with unknown content
+hadMember(c, e0)
+hadMember(c, e1)
+hadMember(c, e2)

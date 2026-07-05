@@ -1,0 +1,5 @@
+But the malicious twin uses an approved host — the attack rides a sanctioned channel to an attacker-chosen path or payload. Here a destination rule is not merely insufficient; it licenses the attack. Only reasoning about what is being sent and why separates the pair. •
+
+SELECT vs COPY-exfil (row 3). One might hope to ban a token like COPY ... TO PROGRAM. But the dangerous behavior — turning a query into an out-of-band data transfer — has many surface forms (COPY, \{}copy, server-side functions, application-level pagination loops), while the benign SELECT shares the same tool and often the same tables. Banning one phrasing neither catches the others nor spares the legitimate query; the verdict turns on extraction intent and the presence of an egress sink, not on a keyword. •
+
+kubectl get secret debug vs theft (row 4). The two actions can be character-for-character identical. No transformation of the action’s text can distinguish them, because they differ only in why the secret is being read. This row is the purest statement of the semantic boundary: when the benign and malicious actions are the same string, no function of that string can separate them.

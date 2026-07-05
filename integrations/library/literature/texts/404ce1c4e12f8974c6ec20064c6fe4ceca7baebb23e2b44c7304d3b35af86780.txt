@@ -1,0 +1,15 @@
+As the experiments in the main paper use a fixed number of few-shot exemplars (8; as constrained by the input length of 1024 tokens), we verify that the chain-of-thought prompting is robust to various numbers of few-shot exemplars. We run experiments for LaMDA 137B, comparing chain-of-thought prompting with standard prompting for the five datasets where standard prompting had a mostly flat scaling curve (the largest model did not achieve high performance). As shown in Figure 11, the improvement of chain-of-thought prompting over standard prompting remains robust to varying the number of few-shot exemplars in the prompt. Figure 11:
+The improvement of chain of thought prompting over standard prompting appears robust to varying the number of few-shot exemplars in the prompt. Table 12:
+Summary of math word problem benchmarks we use in this paper with examples. : number of evaluation examples. Dataset
+
+Example problem
+
+GSM8K
+
+1,319
+
+Josh decides to try flipping a house. He buys a house for $80,000 and then puts in $50,000 in repairs. This increased the value of the house by 150%. How much profit did he make? SVAMP
+
+1,000
+
+Each pack of dvds costs 76 dollars.

@@ -1,0 +1,11 @@
+I’ll give you a refresher on arithmatic prefixes: you can think of them as an abbreviated way of describing a number by its first two significant digits. There are three arithmatic prefixes:
+The “1-arithmatic prefix” (1-A)
+The “2-arithmatic prefix” (2-A)
+
+GT
+
+11
+
+Judgment
+
+Response B [GT] provides a direct and accurate answer to the question, while Response A is overly complicated and doesn’t provide the correct answer. Table 10: GPT-4 chooses GT over DPO. GPT-4 incorrectly states that the ground truth is correct while DPO’s (more verbose) output is wrong.

@@ -1,0 +1,13 @@
+Let's now consider a very simple four node system which models HTML. The "main path" through it is:
+
+A/0/20 fires on open tags and predicts tag names
+
+A/0/0 fires on tag names and predicts tag closes
+
+A/0/30 fires on tag closes and predicts whitespace
+
+A/0/494 fires on whitespace and predicts new tag opens. A prototypical sample this might generate is something like <div>\n\t\t<span>. The full system can be seen below:
+
+Keep in mind that we're focusing on the A/0 features where this is very simple – if we looked at A/1, we'd find something much more complex! One particularly striking shortcoming of the A/0 features is that they don't describe what happens when A/0/0 emits a token like href, which leads to a more complex state. It's important to note that these features can be quite contextual. There are several features related to IRC transcripts which form a totally different finite state automata like system:
+
+A prototypical sample this might generate is something like <nickonia_> lol ubuntu ;). Presumably the Pile dataset heavily represents IRC transcripts about linux. One particularly interesting behavior is the apparent memorization of specific phrases.

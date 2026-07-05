@@ -1,0 +1,21 @@
+Association for Computational
+Linguistics. Kwiatkowski et al. (2019)
+
+Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur
+Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin,
+Kenton Lee, Kristina Toutanova, Llion Jones, Matthew Kelcey, Ming-Wei Chang,
+Andrew M. Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov. 2019. Natural questions: A
+benchmark for question answering research. Transactions of the Association for Computational Linguistics,
+7:452–466. Lewis et al. (2020)
+
+Patrick S. H. Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih,
+Tim Rocktäschel, Sebastian Riedel, and Douwe Kiela. 2020. Retrieval-augmented
+generation for knowledge-intensive NLP tasks. CoRR, abs/2005.11401. Lin (2004)
+
+Chin-Yew Lin. 2004. ROUGE: A package for
+automatic evaluation of summaries. In Text Summarization Branches Out, pages 74–81, Barcelona,
+Spain. Association for Computational Linguistics. Logan IV et al. (2019)
+
+Robert L Logan IV, Nelson F Liu, Matthew E Peters, Matt Gardner, and Sameer
+Singh. 2019.

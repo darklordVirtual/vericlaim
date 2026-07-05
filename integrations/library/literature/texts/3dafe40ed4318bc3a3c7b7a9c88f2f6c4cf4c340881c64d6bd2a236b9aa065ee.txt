@@ -1,0 +1,11 @@
+ArXiv, abs/1910.03771, 2019. Zhang and Bansal [2019]
+
+Shiyue Zhang and Mohit Bansal. Addressing semantic drift in question generation for semi-supervised
+question answering. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pages 2495–2509, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1253. URL https://www.aclweb.org/anthology/D19-1253. Zhong et al. [2019]
+
+Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai
+Wang, and Jian Yin. Reasoning over semantic-level graph for fact checking. ArXiv, abs/1909.03745, 2019. URL https://arxiv.org/abs/1909.03745. Appendices for
+Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks

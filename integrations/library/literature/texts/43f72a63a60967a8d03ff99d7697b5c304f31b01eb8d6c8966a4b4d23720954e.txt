@@ -1,0 +1,7 @@
+In addition, we add a per-token KL penalty from the SFT model at each token to mitigate over-optimization of the reward model. The value function is initialized from the RM. We call these models “PPO.”
+
+We also experiment with mixing the pretraining gradients into the PPO gradients, in order to fix the performance regressions on public NLP datasets. We call these models “PPO-ptx.” We maximize the following combined objective function in RL training:
+
+(2)
+
+where is the learned RL policy, is the supervised trained model, and is the pretraining distribution. The KL reward coefficient, , and the pretraining loss coefficient, , control the strength of the KL penalty and pretraining gradients respectively. For "PPO" models, is set to 0. Unless otherwise specified, in this paper InstructGPT refers to the PPO-ptx models. Baselines. We compare the performance of our PPO models to our SFT models and GPT-3. We also compare to GPT-3 when it is provided a few-shot prefix to ‘prompt’ it into an instruction-following mode (GPT-3-prompted).

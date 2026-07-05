@@ -1,0 +1,7 @@
+None of the extracted samples found using Internet conditioning
+can be reliably reproduced when using the same prefix initially provided to GPT-2
+that produced this sample. However, nearly all can be reproduced with high probability if we provided the entire sequence
+of data up to (but not including) the beginning of the memorized content. The important lesson here is that our work vastly under-estimates
+the true amount of content that GPT-2 memorized. There are likely prompts that would identify much more memorized
+content, but because we stick to simple prompts we do not
+find this memorized content.

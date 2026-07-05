@@ -1,0 +1,50 @@
+{"fsid": "arxiv_2110-14168", "n": 49, "overlap": 200, "source_sha256": "e8a29e2effe35d61a762880c51a1febc94059248575f6e78d503e05ab74bd418", "target": 1200}
+{"section": "", "seq": 0, "sha256": "0888a1591d7072fb22e1de29d8e2de17e74b6afd465d0c7fe67851b7b304299d"}
+{"section": "Training Verifiers to Solve Math Word Problems", "seq": 1, "sha256": "c8d1deb73e6a64e3246396dae0e8aeda3a2b4c2dcb7a981ed53858d68681d402"}
+{"section": "Training Verifiers to Solve Math Word Problems", "seq": 2, "sha256": "e86daf78f0384aabb83daabc4a77f33e8ffab5db4e8b3edd5b03d675278bbdcc"}
+{"section": "1 Introduction", "seq": 3, "sha256": "8210a27993667f3d9c2b6f0631b008784c7da7c286671dee5faaf3ac4fb6a3a0"}
+{"section": "1 Introduction", "seq": 4, "sha256": "c36cd1fc576e272886c2a80bbe5de409973114e2ef46dd83bc1097607142182f"}
+{"section": "1 Introduction", "seq": 5, "sha256": "b9c7bc582d33f6bdadb95287bba07fb14de4d3728fbf84a04c8531fae6f7a369"}
+{"section": "2 Dataset", "seq": 6, "sha256": "5c3a78f9889e5a53abebc6cf42520d9206ff2197d46de55378ebea7629c30064"}
+{"section": "2 Dataset", "seq": 7, "sha256": "eb9f116d8caa7fca9642c9f8d4fbcb643ea84d61c260318c3256e871a4c575a9"}
+{"section": "3.1 Related Datasets", "seq": 8, "sha256": "bc581a2c350e0cd098775b943a3b66aa415e74aa834c43a0a6897042a3f89adb"}
+{"section": "3.1 Related Datasets", "seq": 9, "sha256": "90b98d9f96acfe5f1fda1b1507ee1d717b40b3f22b3aadf6110f3c8fddaefce2"}
+{"section": "3.1 Related Datasets", "seq": 10, "sha256": "a14c88ceb7766f7cdfa59997265a7045e53e27fabcd5900d96ce762eb5d57a8a"}
+{"section": "3.2 Related Methods", "seq": 11, "sha256": "4121439104e4e679a55cd6b9b33dcd11fb4275340f88d6354d94c2034e3f9859"}
+{"section": "3.2 Related Methods", "seq": 12, "sha256": "ef1c6a0a982b3fe2f4a5d968180d818e76a0d16511a60a247077da06f26efd6d"}
+{"section": "4 Methods", "seq": 13, "sha256": "966c281e013f40d961f3c6cf423ca23e9a8b527cee575d3d51e839aff5d80a94"}
+{"section": "4 Methods", "seq": 14, "sha256": "3e3c1733410dee7433c7ea70c42f44ccc774bcc24861de82d0605d640620a120"}
+{"section": "4.1 Finetuning", "seq": 15, "sha256": "a0e1b8e0f2d1ed038e676bb49a91be3e87f4abbbf3fed320d01f5933a6b717be"}
+{"section": "4.1 Finetuning", "seq": 16, "sha256": "64793cf4aa0512ba9dc384444f29c27563b69368fd0f007aaf7146701d31d775"}
+{"section": "4.1 Finetuning", "seq": 17, "sha256": "662478064e6f4918ccca9bfba23bc3b296438e3606a82d9e62e7feb3f1ec6293"}
+{"section": "4.2 Verification", "seq": 18, "sha256": "80a44c25ead4a27b274e3e1cb0544eac61d23390172d5b456ccb1d4cd990d96a"}
+{"section": "4.2 Verification", "seq": 19, "sha256": "bc4994d909b16462b0b316fefff60f1176a9cee33669ffc20fe382fb4db727ae"}
+{"section": "4.2 Verification", "seq": 20, "sha256": "2aa273ec07f0b616e5242e810f334026e4a20994e2952e0005ab956f71320784"}
+{"section": "4.2 Verification", "seq": 21, "sha256": "2206126a94a091bb2256c9ef5e875b2ecf16b842b96d8fa2627f630c9c6bc8e3"}
+{"section": "4.3 Verification Ablations", "seq": 22, "sha256": "61bd66554331645f7f07b5fb82d95ad67de81bd3a6ded4a3a6731129c3ee1f88"}
+{"section": "4.3 Verification Ablations", "seq": 23, "sha256": "889410ef873c83c481a56dec148b195ab1dab65e0417af36eddf7e4565d279fe"}
+{"section": "4.3 Verification Ablations", "seq": 24, "sha256": "6f3bf6052ed9658005c92bb54d5247c8f9e609ec23da7e6418877bd085ed6552"}
+{"section": "5.1 Test Time Compute", "seq": 25, "sha256": "f6b9c92a4ad2ef959d8814a0bffa6128e30f1ff9804560be6d3244a3957948e7"}
+{"section": "5.1 Test Time Compute", "seq": 26, "sha256": "c2f07a4c9ec7868610f4aef836fcc6a275425a92fd8e5ed87554b26f30638ca4"}
+{"section": "5.2 Regularization", "seq": 27, "sha256": "1b738c83d108c622d3df691eeff838f25eeb1957bc9f9c72c7188a7e3a165482"}
+{"section": "5.2 Regularization", "seq": 28, "sha256": "15c5073af29645aa75b064326c24273a15770f1cbd7526e28cbcdfa09928ef83"}
+{"section": "6 Conclusion", "seq": 29, "sha256": "196ebf08042dd452be0383d82b20c3d27a05fec494d4cac04e5937785a292aca"}
+{"section": "Acknowledgements", "seq": 30, "sha256": "2853a348bc611060d32b73d0e8ffc95002ef616146509e1a198604d19d1c59d5"}
+{"section": "References", "seq": 31, "sha256": "07a92afd6adf1ad05222583df686c6e3c9b1f89437c24592e508de33830684ed"}
+{"section": "References", "seq": 32, "sha256": "606753e3a8329b02a983ca37d9ac8a533da2e822d10580c1cfecb642f6b024bf"}
+{"section": "References", "seq": 33, "sha256": "492a8acc43c2b4571270c7418681a292cb093808d3efbfd94de7c01766e0347a"}
+{"section": "References", "seq": 34, "sha256": "760ab25cd26a0dc9c852bad48fbca498c8bd6ce9bb919ee09a343c9b142ec5f2"}
+{"section": "References", "seq": 35, "sha256": "fb8ed12d9ebcb0802fd3027dc8f1ee21a80b78c55fc4972e17279ec094cfb04c"}
+{"section": "References", "seq": 36, "sha256": "d4e1a49f104c33c0eee6bbeac0bd565648ea8ada2e3a97f8940650bf9717a39f"}
+{"section": "Appendix A Dataset Details", "seq": 37, "sha256": "444c3cff306aaf4da0b6bf59744184776040e860dbf8f100829b7c972714bfbc"}
+{"section": "Appendix A Dataset Details", "seq": 38, "sha256": "d915f53c3af12b5d52ae28e849a2e08b9feab6004749bece72e6f9e47d86d374"}
+{"section": "Appendix B Hyperparameters", "seq": 39, "sha256": "bb2f1f49134ee0530add690651fbf6d3648fbb4d9b88f5315350a0e75e08720c"}
+{"section": "Appendix B Hyperparameters", "seq": 40, "sha256": "d6132054573fee88836acdb6fb1672e03b428b66fa5a5a3922f2bfb95ddb4586"}
+{"section": "Appendix C Calculator Annotations", "seq": 41, "sha256": "e4d54e02ce31a91a46d91516788478a2ecffe9f185d874269d716c5a00bd7591"}
+{"section": "Appendix C Calculator Annotations", "seq": 42, "sha256": "70d5a419ed4933d7812808804bdda1179b9068ce0fe7452af0e1f0ae73548b63"}
+{"section": "Appendix D Example Model Solutions", "seq": 43, "sha256": "37b48153dacd3c12b534605439b3fabf388a418df768305aa7ea28d8de06265f"}
+{"section": "Appendix E Verifier Details", "seq": 44, "sha256": "d6473b902a89f3fa2687ac5141a3ead4e6d1a09f77168b7a2dd2ee9a1f5c7ee5"}
+{"section": "Appendix E Verifier Details", "seq": 45, "sha256": "a1e70ecb3f440ed827b9be0f2b4cef97056bb4277dd3e3b3eda262a9e4f88a61"}
+{"section": "Appendix F Verifier Visualization", "seq": 46, "sha256": "dd50bd1452824a16f8a819523bffce63baeff1f1e28362f7bbba490ec3e216f5"}
+{"section": "Appendix F Verifier Visualization", "seq": 47, "sha256": "da6578278cbbd09cea83a71022d3dc4050a319a156595d5b29b3d95caab20618"}
+{"section": "Appendix F Verifier Visualization", "seq": 48, "sha256": "1c1641f33e0e825bbc8bd645d211827d4420b09373808163aee1a62863c54db7"}

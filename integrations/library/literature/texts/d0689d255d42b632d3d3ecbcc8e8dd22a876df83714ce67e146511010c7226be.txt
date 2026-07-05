@@ -1,0 +1,21 @@
+with respect to passage is updated with a critic score
+that is the linear weighted sum of the normalized probability of each \tikzmarknode[draw=myblue,thick,inner sep=2pt]testCritique token type. For each critique token group (e.g.,
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsRel
+
+), we denote its score at timestamp as ,
+and we compute a segment score as follows:
+
+(3)
+
+(4)
+
+where stands for the generation probability of the most desirable reflection token (e.g.,
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsRel
+
+=Relevant) for the critique token type with distinct tokens (that represent different possible values for ). The weights in Eq. 4 are hyperparameters that can be adjusted at inference time to enable customized behaviors at test time. For instance, to ensure that result is mostly supported by evidence, we can set a weight term for the
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+score higher, while relatively lowering weights for other aspects. Alternatively, we could further enforce hard constraints during decoding using \tikzmarknode[draw=myblue,thick,inner sep=2pt]testCritique. Instead of using a soft reward function in Eq.

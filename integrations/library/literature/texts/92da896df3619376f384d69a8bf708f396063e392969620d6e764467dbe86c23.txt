@@ -1,0 +1,9 @@
+Of the increase in data, most can be used to increase parallelism through larger batch sizes, with only a very small increase in serial training time required. Convergence is inefficient:
+
+When working within a fixed compute budget but without any other restrictions on the model size or available data , we attain optimal performance by training very large models and stopping significantly short of convergence (see Figure 3). Maximally compute-efficient training would therefore be far more sample efficient than one might expect based on training small models to convergence, with data requirements growing very slowly as with training compute. (Section 6)
+
+Optimal batch size:
+
+The ideal batch size for training these models is roughly a power of the loss only, and continues to be determinable by measuring the gradient noise scale [MKAT18]; it is roughly 1-2 million tokens at convergence for the largest models we can train. (Section 5.1)
+
+Taken together, these results show that language modeling performance improves smoothly and predictably as we appropriately scale up model size, data, and compute.

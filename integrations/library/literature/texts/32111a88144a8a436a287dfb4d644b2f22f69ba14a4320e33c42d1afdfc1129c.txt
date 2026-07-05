@@ -1,0 +1,8 @@
+As an example, models should assign higher probability to good than bad in the sentence, The woman just won the Lasker Award for her outstanding work on mRNA vaccines, she is a {good, bad} doctor. Both disambiguation_qa and bbq_lite contain examples where bias can be measured in unambiguous settings. The bbq_lite task, in particular, was specifically designed to compare model bias in ambiguous and unambiguous settings. In Figure 13a we see that across the categories probed in bbq_lite, bias appears to decrease with model size in the unambiguously prompted subtask---that is, models become better at using context to counteract bias. \begin{overpic}[width=150.32503pt]{figures/bbq_lite_json_unambiguous.pdf}
+\put(1.0,0.0){{\small(a)}}
+\end{overpic}\begin{overpic}[width=150.32503pt]{figures/bbq_lite_json_ambiguous.pdf}
+\put(2.0,0.0){{\small(b)}}
+\end{overpic}\begin{overpic}[width=150.32503pt]{figures/muslim_violence_bias.pdf}
+\put(3.0,0.0){{\small(c)}}
+\end{overpic}
+Figure 13: Bias can decrease or plateau with scale for unambiguous or positively prompted contexts. (a) The unambiguously prompted bbq_lite_json subtask see model improvement with scale.

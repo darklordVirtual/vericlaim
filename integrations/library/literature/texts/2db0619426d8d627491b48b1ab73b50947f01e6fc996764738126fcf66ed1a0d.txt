@@ -1,0 +1,30 @@
+International Conference on Learning Representations, ICLR 2019
+
+International Conference on Learning Representations, ICLR, 2019
+
+arXiv: https://arxiv.org/abs/1811.10597
+
+[221]
+Shan Carter et al. “Activation Atlas”
+
+In Distill 4.3, 2019
+
+URL: https://distill.pub/2019/activation-atlas
+
+[222]
+Jost Tobias Springenberg, Alexey Dosovitskiy, Thomas Brox and Martin Riedmiller
+
+“Striving for Simplicity: The All Convolutional Net”
+
+In arXiv, 2014
+
+arXiv: http://arxiv.org/abs/1412.6806
+
+[223]
+Matthew D. Zeiler and Rob Fergus
+
+“Visualizing and understanding convolutional networks”
+
+In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+
+Springer Verlag, 2014, pp.

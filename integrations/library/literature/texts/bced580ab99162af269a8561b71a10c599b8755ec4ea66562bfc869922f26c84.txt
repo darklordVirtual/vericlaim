@@ -1,0 +1,5 @@
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
+"OPTIONAL" in this document are to be interpreted as described in
+[RFC2119]. Examples throughout this document use the PROV-N Provenance
+Notation, briefly introduced in Section 3 and specified fully in a separate document [PROV-N].

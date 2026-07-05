@@ -1,0 +1,15 @@
+(2022)
+
+Xiang Gao, Yannic Noller, and Abhik Roychoudhury. Program repair, 2022. Gazzola et al. (2019)
+
+Luca Gazzola, Daniela Micucci, and Leonardo Mariani. Automatic software repair: A survey. IEEE Transactions on Software Engineering, 45(1):34–67, 2019. doi: 10.1109/TSE.2017.2755013. Goues et al. (2019)
+
+Claire Le Goues, Michael Pradel, and Abhik Roychoudhury. Automated program repair. Communications of the ACM, 62(12):56–65, 2019. Gros et al. (2023)
+
+David Gros, Prem Devanbu, and Zhou Yu. Ai safety subproblems for software engineering researchers, 2023. Gupta et al. (2017)
+
+Rahul Gupta, Soham Pal, Aditya Kanade, and Shirish Shevade. Deepfix: Fixing common c language errors by deep learning. In Proceedings of the aaai conference on artificial intelligence, volume 31, 2017. Hendrycks et al. (2021)
+
+Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn Song, and Jacob Steinhardt. Measuring coding challenge competence with apps, 2021. Hou et al. (2023)
+
+Xinyi Hou, Yanjie Zhao, Yue Liu, Zhou Yang, Kailong Wang, Li Li, Xiapu Luo, David Lo, John Grundy, and Haoyu Wang.

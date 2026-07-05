@@ -1,0 +1,44 @@
+{"fsid": "web_martinfowler-com_eaaDev_EventSourcing-html", "n": 43, "overlap": 200, "source_sha256": "1660ce72dc40c3565f4463f42cdc2d34fa807308f4178c87ef5e60d744cb8940", "target": 1200}
+{"section": "", "seq": 0, "sha256": "64753e2a1bd2ae9830e5530c23c9928d5199c6bb387b2554354af82b8b226a6a"}
+{"section": "Event Sourcing", "seq": 1, "sha256": "0376ab8e4d732f680b7bb07371cec82571f66b4eb7da8489e591c244588650fc"}
+{"section": "How it Works", "seq": 2, "sha256": "90a77d09aea2a02acc37b7e8e2960772df38496305422e97e8d505f57648d5fc"}
+{"section": "How it Works", "seq": 3, "sha256": "830cc0feed5de51fb03bf768c655b6d4d2a9e41169b5bd69d5435bc802c1f05a"}
+{"section": "How it Works", "seq": 4, "sha256": "caa8f93fdb6af70d314e511b93af74fc48cb0a3a559fab72ae50fbbcdbcf3ed8"}
+{"section": "How it Works", "seq": 5, "sha256": "6fc32e57705417e1c8faf47e2a34f31cff0b9b28ae798c50a417769d252db8d0"}
+{"section": "Application State Storage", "seq": 6, "sha256": "828486e4cf30ca085279c49184a16b99e495946f24c4cd7e8ae15ce0bbae45c8"}
+{"section": "Application State Storage", "seq": 7, "sha256": "57d0f55f5b5632d1d59000c11ca5133ec467fb7b79706b20f6a38c9662173957"}
+{"section": "Structuring the Event Handler Logic", "seq": 8, "sha256": "ce554b9d3f3ecde7dbfa9d44092025e9f4e5ec753e70b20ec80d0141c83408c0"}
+{"section": "Structuring the Event Handler Logic", "seq": 9, "sha256": "1f10328148b9a09a6749e3004f1251b1d438ab7245883167ef62bf56bf9ebfaf"}
+{"section": "Structuring the Event Handler Logic", "seq": 10, "sha256": "61b644a4497d5601db3720a7f37beada8ddf036074340ad5a6c481967ba29cd7"}
+{"section": "Reversing Events", "seq": 11, "sha256": "12833aac868191b657a9563c7d7a179050c14d0432568cce2b376fa4aa2b744c"}
+{"section": "Reversing Events", "seq": 12, "sha256": "0acfd3c41470dacc4af14ba61039d0762b0b579fa496ae39b4f98a34bd61befb"}
+{"section": "External Updates", "seq": 13, "sha256": "ecce0c48d229c4a4f3c4b2c19ce667d43b2aeaf522b049c464b04e439c48c0e3"}
+{"section": "External Updates", "seq": 14, "sha256": "1be5a15e2dc56bb7cc7df2ff4741b5d9073092d463a2ad04bad2386c66893ad0"}
+{"section": "External Queries", "seq": 15, "sha256": "7695c7e4d9e9a4ef9b5cbc0885211daf258d4f6048ae95ca6478aedbd4abb44f"}
+{"section": "External Interaction", "seq": 16, "sha256": "e352f98b088c9f6ee60f259571594344c9a9959ed6975901e702921b5f517038"}
+{"section": "Code Changes", "seq": 17, "sha256": "5d8b25c8810c0987362abe957d81089024821b824798be972b7291b3bc459eef"}
+{"section": "Code Changes", "seq": 18, "sha256": "d7b80e08611aca3170ff9e8d604f6c178e2ecadfbb70ab5a3dc1ec4c8ac5ff2c"}
+{"section": "Code Changes", "seq": 19, "sha256": "4306fe60f764786b376e9c8b4326245696f684e608d7955f84d6554e8e0f4fad"}
+{"section": "Code Changes", "seq": 20, "sha256": "77d71ee2764d7e7a66b0c3c6d7e048ff2ac19beb1669ab38d663f44e6f706223"}
+{"section": "Events and Accounts", "seq": 21, "sha256": "9d3ce31ae086148153063040905e44ead9efd43577f49b759750080e3d2b8ce8"}
+{"section": "When to Use It", "seq": 22, "sha256": "99f7804e79f8f1dd996cd905cb16a582f257e853639b0b668f3f5fbe8197aa11"}
+{"section": "When to Use It", "seq": 23, "sha256": "93b0425a7e8e201501f172c6e62dec56f2c5bed1addae7527f7a15b8175bbf8d"}
+{"section": "When to Use It", "seq": 24, "sha256": "7e5fbd2ebacbb8fe971835e944343ba7d0bdd12fb08c352cbaa1c2385b8a6b27"}
+{"section": "When to Use It", "seq": 25, "sha256": "b157b7d1730164deabf1b4de4c99e53c81229db17dc1b1b86dc9516816a5a6e9"}
+{"section": "Example: Tracking Ships (C#)", "seq": 26, "sha256": "d75303bd73417aecc53b67143a9a99595a92c8d0c1f839e9c20d1085c4293817"}
+{"section": "Example: Tracking Ships (C#)", "seq": 27, "sha256": "96b16c196fdf4dfaf46df00903d65c81ccc6f863708a3f07a3a94a24a5a3337b"}
+{"section": "Example: Tracking Ships (C#)", "seq": 28, "sha256": "857e829d0ee7350d1c8325d37c7e0bffe956b54119484dc4e6d5b2e26448ba61"}
+{"section": "Example: Tracking Ships (C#)", "seq": 29, "sha256": "ba15d724f23c1d0d7ac94c36cfbaf2c56537234606507c485b0af3742077f137"}
+{"section": "Example: Tracking Ships (C#)", "seq": 30, "sha256": "7733366d1f852d4ec99a39b3a658812fa7e166e013946b310e6f26172936a42a"}
+{"section": "Example: Tracking Ships (C#)", "seq": 31, "sha256": "fae02b6df9216ee2a667dc4b6fcc4851cc611c8753f09f721556a6e373eedf7b"}
+{"section": "Example: Tracking Ships (C#)", "seq": 32, "sha256": "77e6f057ebee3e99e5e0b83f12c88c25ab92a79e2654c236096b382a98649769"}
+{"section": "Example: Updating an External System (C#)", "seq": 33, "sha256": "d159cf3b7ce20f8fe42aa231a19694b0baa1e1774c028b299a2d7cfb5d2547a0"}
+{"section": "Example: Updating an External System (C#)", "seq": 34, "sha256": "3873e1d3b59d11cda9e1245933e5f34fd48a2e9565b6f939231db577dd46d471"}
+{"section": "Example: Reversing an Event (C#)", "seq": 35, "sha256": "1da34a960d04284f602867df4154e3d0b5704390db5d26360c7ef9fe411fce24"}
+{"section": "Example: Reversing an Event (C#)", "seq": 36, "sha256": "bb2e88b31fe43ef61fcd026ba8ff0a7a847238562ad872c082956413ce3ef853"}
+{"section": "Example: Reversing an Event (C#)", "seq": 37, "sha256": "1c15febbe7c7754bc967ba3cbc02bdc9242a511cd84d2c35ca435dd98f36dce8"}
+{"section": "Example: Reversing an Event (C#)", "seq": 38, "sha256": "5285ea97b928404d97bb59481e04e6b69a47bac09fc3ea830f134cc510e7f112"}
+{"section": "Example: External Query (C#)", "seq": 39, "sha256": "aaafcdf41b9a216968290f0c71c51233166fd6c58f638c7047713d633d3db60a"}
+{"section": "Example: External Query (C#)", "seq": 40, "sha256": "8bc3d7b43acf02484ebb1929bdddf208f1a8fefe4a4d6f28385d9ca6e2c7141a"}
+{"section": "Example: External Query (C#)", "seq": 41, "sha256": "7b02292f356e8290b5683dff0ab159add15f09f481791fcd2d572afb32f42533"}
+{"section": "Example: External Query (C#)", "seq": 42, "sha256": "d3ca5f01a08bdfdb129172653537c3c0555ecdc81d7b478c1782b3a99b56b393"}

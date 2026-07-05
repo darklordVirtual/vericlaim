@@ -1,0 +1,7 @@
+inputs to low-security outputs such as:
+
+–
+
+Noninterference: when the outputs observed by low-security users are the same as they would be in the absence of inputs submitted by high-security users. •
+
+Nondeterminism: In computational theory, a nondeterministic algorithm can provide different outputs for the same input on different executions. Unlike a deterministic algorithm which produces only a single output for the same input even on different runs, a non-deterministic algorithm travels in various routes to arrive at the different outcomes. A very simple and common example of this is a random number generator101010A randomized algorithm is actually probabilistic Turing Machine, but for practical intents and purpose it can be approximately considered non-deterministic given the determinism of real-world systems (see (Barrington & Maciel, 2000)). A more advanced and extreme example is ML algorithms themselves. Additionally, we note to the reader that there are a number of specification-independent coding practices that must be exhibited to achieve the aforementioned computational and state reasoning attributes.

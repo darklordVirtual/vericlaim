@@ -1,0 +1,16 @@
+TextWorld: A learning environment for text-based games, 2018. URL https://arxiv.org/abs/1806.11532. Daley (2021)
+
+Jim Daley. White Chicago cops use force more often than Black officers. Scientific American, 11 February 2021. URL
+https://www.scientificamerican.com/article/white-chicago-cops-use-force-more-often-than-black-officers/. Dambekodi et al. (2020)
+
+Sahith Dambekodi, Spencer Frazier, Prithviraj Ammanabrolu, and Mark O. Riedl. Playing text-based games with common sense, 2020. URL https://arxiv.org/abs/2012.02757. Dauphin et al. (2017)
+
+Yann N. Dauphin, Angela Fan, Michael Auli, and David Grangier. Language modeling with gated convolutional networks. In Proceedings of the 34th International Conference on Machine
+Learning, volume 70, pp. 933–941, New York, NY, USA, 2017. Association
+for Computing Machinery. doi: 10.5555/3305381.3305478. URL https://dl.acm.org/doi/10.5555/3305381.3305478. Davis (2019)
+
+Wayne Davis. Implicature. In Edward N. Zalta (ed.), The Stanford Encyclopedia of
+Philosophy. Metaphysics Research Lab, Stanford University, Fall 2019
+edition, 2019. de Marneffe et al. (2008)
+
+Marie-Catherine de Marneffe, Anna N. Rafferty, and Christopher D. Manning.

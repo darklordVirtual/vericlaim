@@ -10,6 +10,12 @@
     "Hal Daumé",
     "Kate Crawford"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:14:52.867966+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1803.09010"
+  },
+  "fulltext_sha256": "a77c983560e2b7e98abcd66644699030421dcb1a9e8af969f4c891f6e9a83ccd",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "datasheets-2018",

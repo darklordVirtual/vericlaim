@@ -1,0 +1,16 @@
+Hotpotqa: A dataset for diverse, explainable multi-hop question
+answering. arXiv preprint arXiv:1809.09600, 2018. Yao et al. (2020)
+
+Shunyu Yao, Rohan Rao, Matthew Hausknecht, and Karthik Narasimhan. Keep CALM and explore: Language models for action generation in
+text-based games. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 8736–8754, Online, November
+2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.704. URL https://aclanthology.org/2020.emnlp-main.704. Yao et al. (2022)
+
+Shunyu Yao, Howard Chen, John Yang, and Karthik Narasimhan. Webshop: Towards scalable real-world web interaction with grounded
+language agents. arXiv preprint arXiv:2207.01206, 2022. Zelikman et al. (2022)
+
+Eric Zelikman, Yuhuai Wu, Jesse Mu, and Noah D. Goodman. Star: Bootstrapping reasoning with reasoning, 2022. URL https://arxiv.org/abs/2203.14465. Zhou et al. (2022)
+
+Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang,
+Dale Schuurmans, Olivier Bousquet, Quoc Le, and Ed Chi. Least-to-most prompting enables complex reasoning in large language
+models, 2022. URL https://arxiv.org/abs/2205.10625.

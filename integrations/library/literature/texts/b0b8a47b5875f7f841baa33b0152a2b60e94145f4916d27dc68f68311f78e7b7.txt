@@ -1,0 +1,14 @@
+In 5, we briefly state that Reflexion struggles to overcome
+local minima choices that require extremely creative behavior to escape. We observe this
+shortcoming in an experiment on WebShop (Yao et al., rint, ). WebShop is a web-based
+problem-solving benchmark that tests agents to navigate
+an e-commerce website to locate and purchase products given requests from clients. We test a two-shot ReAct + Reflexion agent in 100 environments. However, after only
+four trials, we terminate the runs as the agent does not show signs of improvement
+6. Further, the agent does not generate helpful,
+intuitive self-reflections after failed attempts. We conclude that Reflexion is
+unable to solve tasks that require a significant amount of diversity and
+exploration. In AlfWorld, the agent is able to adequately explore new environments
+because the permissible actions can be seen in the observations. In HotPotQA,
+the agent faces a similar WebShop search query task but is more successful
+as the search space for Wikipedia articles is more diverse and requires less
+precise search queries.

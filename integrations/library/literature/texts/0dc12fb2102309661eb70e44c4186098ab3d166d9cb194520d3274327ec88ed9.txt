@@ -1,0 +1,7 @@
+OpenClaw’s model-selection layer resolves which LLM provider
+handles each request based on user configuration, provider
+availability, and per-agent allowlists. Combined with local-model support (Ollama), operators can
+keep all inference on-premise, providing architectural data
+sovereignty guarantees when configured accordingly. This directly instantiates the Data Sovereignty dimension of
+Sect. 3 and represents LGA Layer 1 at the data-flow
+level.

@@ -1,0 +1,37 @@
+Sample function signature:
+
+⬇
+
+1def minSubArraySum(nums):
+
+2 """
+
+3 Given an array of integers nums, find the minimum sum of any
+
+4 non-empty sub-array of nums. 5 Example
+
+6 minSubArraySum([2, 3, 4, 1, 2, 4]) == 1
+
+7 minSubArraySum([-1, -2, -3]) == -6
+
+8 """
+
+Sample function body implementation:
+
+⬇
+
+1 min_sum = float(’inf’)
+
+2 for i in range(len(nums)):
+
+3 current_sum = 0
+
+4 for j in range(i, len(nums)):
+
+5 current_sum += nums[j]
+
+6 if current_sum < min_sum:
+
+7 min_sum = current_sum
+
+8 return min_sum

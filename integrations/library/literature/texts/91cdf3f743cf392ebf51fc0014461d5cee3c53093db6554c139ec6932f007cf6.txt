@@ -1,0 +1,32 @@
+string formatting, the model’s decision to use more primitive Python to tackle this issue would likely not be well-received by a human reviewer due to its inconsistency with the rest of the codebase. Further inspection of the
+
+builtin_str
+function, not shown in this figure, also reveals that it handles additional string formatting cases beyond what was portrayed in the issue. While the model solves the task this time, it is questionable whether this solution is robust to future issues. Table 23: This is another example where SWE-Llama13b solves the task successfully. This example is interesting because the model develops a somewhat novel solution compared to the reference that is arguably more efficient and cleaner. Setting
+
+•
+
+Model: SWE-Llama 13B with Oracle retrieval
+
+•
+
+Task Instance: django__django-11727
+
+–
+
+Link to Issue: https://code.djangoproject.com/ticket/29376
+
+–
+
+Link to PR: https://github.com/django/django/pull/11727
+
+Issue
+
+Allow hiding the ”Save and Add Another” button with a
+
+show_save_and_add_another
+context variable
+
+To provide better adjustability, to introduce new context var -
+
+show_save_and_add_another
+. E.g.

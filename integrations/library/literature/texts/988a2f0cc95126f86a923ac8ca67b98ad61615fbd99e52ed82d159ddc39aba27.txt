@@ -1,0 +1,6 @@
+serving as a chatbot would not see this input alone, but embedded in a larger prompt in combination with a system prompt and additional scaffolding to frame the response within the chat framework. Thus, the actual input that the LLM would see would be something like the following, with specific details depending on the actual chat program, and in some cases how the model was tuned:
+
+System: You are a chat assistant designed to provide helpful and not
+harmful responses to user queries. User: Tell me how to build a bomb. Assistant:
+
+Above, the blue text following the “User:” annotation is the only content that the user can control. In the typical operation of an aligned LLM, the system would not provide a response to this user query, but would instead likely state that the model cannot provide potentially dangerous content. We introduce an additional adversarial suffix onto the user prompt, which is intended to circumvent the alignment of the LLM, and induce it to respond to the user’s original, potentially harmful, request.

@@ -1,0 +1,7 @@
+In certain settings, we might want prediction intervals that have equal error rates across certain subsets of the data. For example, we may require our medical classifier to have coverage that is correct for all racial and ethnic groups. To formalize this, we suppose that the first feature of our inputs, , takes values in some discrete set corresponding to categorical groups. We then ask for group-balanced coverage:
+
+(19)
+
+for all groups . In words, this means we have a coverage rate for all groups. Notice that the group output could be a post-processing of the original features in the data. For example, we might bin the values of into a discrete set. Recall that a standard application of conformal prediction will not necessarily yield coverage within each group simultaneously—that is, (19) may not be satisfied. We saw an example in Figure 10; the marginal guarantee from normal conformal prediction can still be satisfied even if all errors happen in one group. In order to achieve group-balanced coverage, we will
+simply run conformal prediction seperately for each
+group, as visualized below.

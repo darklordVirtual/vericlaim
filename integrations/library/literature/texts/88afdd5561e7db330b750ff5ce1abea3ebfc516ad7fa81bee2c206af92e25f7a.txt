@@ -1,0 +1,5 @@
+can increase the verifiability of one’s own claims, whereas in other cases the impact on trust is more indirect (i.e., a mechanism implemented by one actor enabling greater scrutiny of other actors). As such, collaboration across sectors and organizations will be critical in order to build an ecosystem in which claims about responsible AI development can be verified. •
+
+Institutional mechanisms largely pertain to values, incentives, and accountability. Institutional mechanisms shape or clarify the incentives of people involved in AI development and provide greater visibility into their behavior, including their efforts to ensure that AI systems are safe, secure, fair, and privacy-preserving. These mechanisms can also create or strengthen channels for holding AI developers accountable for harms associated with AI development. In this report, we provide an overview of some such mechanisms, and then discuss third party auditing, red team exercises, safety and bias bounties, and sharing of AI incidents in more detail. •
+
+Software mechanisms largely pertain to specific AI systems and their properties.

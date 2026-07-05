@@ -1,0 +1,30 @@
+Inioluwa Deborah Raji
+
+rajiinio@berkeley.edu
+
+University of California, BerkeleyBerkeleyCAUSA
+
+,
+Peggy Xu
+
+Stanford UniversityStanfordCAUSA
+
+peggyxu@stanford.edu
+
+,
+Colleen Honigsberg
+
+Stanford UniversityStanfordCAUSA
+
+colleenh@law.stanford.edu
+
+and
+Daniel Ho
+
+Stanford UniversityStanfordCAUSA
+
+dho@law.stanford.edu
+
+(2022)
+
+Abstract. Much attention has focused on algorithmic audits and impact assessments to hold developers and users of algorithmic systems accountable. But existing algorithmic accountability policy approaches have neglected the lessons from non-algorithmic domains: notably, the importance of interventions that allow for the effective participation of third parties. Our paper synthesizes lessons from other fields on how to craft effective systems of external oversight for algorithmic deployments. First, we discuss the challenges of third party oversight in the current AI landscape. Second, we survey audit systems across domains – e.g., financial, environmental, and health regulation – and show that the institutional design of such audits are far from monolithic.

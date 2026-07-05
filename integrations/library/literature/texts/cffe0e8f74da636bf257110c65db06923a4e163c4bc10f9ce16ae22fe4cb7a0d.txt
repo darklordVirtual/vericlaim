@@ -1,0 +1,6 @@
+We next manually analyze categories of memorized content that we find particularly compelling. (Additional examples are presented in Appendix C.)
+Recall that since GPT-2 is trained on public data,
+our attacks are not particularly severe. Nevertheless, we find it useful to analyze what we are able to extract to understand
+the categories of memorized content—with the understanding that
+attacking a model trained on a sensitive dataset would give stronger results. Personally Identifiable Information. We identify numerous examples of individual
+peoples’ names, phone numbers, addresses, and social media accounts. We find 46 examples that contain individual peoples’ names. When counting occurrences of named individuals, we omit memorized samples that relate to national and international news (e.g., if GPT-2 emits the name of a famous politician, we do not count this as a named individual here). We further find 32 examples that contain some form of contact information (e.g., a phone number or social media handle). Of these, 16 contain contact information for businesses, and 16 contain private individuals’ contact details.

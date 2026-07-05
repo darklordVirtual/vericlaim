@@ -1,0 +1,61 @@
+∗Due to budget constraints we evaluate GPT-4 on a % random subset of SWE-bench in the “oracle” and BM25 27K retriever settings only. BM25 Retrieval
+“Oracle” Retrieval
+
+Model
+% Resolved
+% Apply
+% Resolved
+% Apply
+
+ChatGPT-3.5
+
+0.20
+
+10.50
+
+0.52
+
+12.38
+
+Claude 2
+
+1.96
+
+29.86
+
+4.80
+
+47.00
+
+GPT-4∗
+
+0.00
+
+4.50
+
+1.74
+
+13.20
+
+SWE-Llama 7b
+
+0.70
+
+37.84
+
+3.00
+
+54.80
+
+SWE-Llama 13b
+
+0.70
+
+39.41
+
+4.00
+
+52.10
+
+Figure 4:
+Resolution rate for three models across the 12 repositories represented in SWE-bench. Difficulty differs across repositories. When breaking performance down by repository we observe that all models show similar trends across different repositories. Despite this, the issues resolved by each model do not necessarily overlap extensively. For example, in the “oracle” setting Claude 2 and SWE-Llama 13b perform comparably, with each model resolving and instances respectively. Yet of these instances, Claude 2 only solves of the instances solved by SWE-Llama. This may also be related to the presence of images in issues, which can be encoded into the issue markdown with embedded image links (i.e. ![image][https://...]).

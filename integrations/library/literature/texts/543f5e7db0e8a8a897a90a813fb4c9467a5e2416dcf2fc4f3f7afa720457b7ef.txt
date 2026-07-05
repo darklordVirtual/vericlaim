@@ -1,0 +1,9 @@
+Mathematical and Geometric Reasoning. •
+
+DynaMath (Zou et al., 2024) is a unique benchmark designed to test the robustness of visual mathematical reasoning. Instead of using a static set of questions, it employs program-based generation to create numerous variants of seed problems, systematically altering numerical values and function graphs to challenge a model’s ability to generalize rather than memorize. •
+
+Geo3k (Lu et al., 2021) is a large-scale benchmark focused on high-school level geometry. Its key feature is the dense annotation of problems in a formal language, making it particularly well-suited for evaluating interpretable, symbolic reasoning approaches. •
+
+MathVerse (Zhang et al., 2025) is specifically designed to answer the question: “Do MLLMs truly see the diagrams?” It tackles the problem of textual redundancy by providing six distinct versions of each problem, systematically shifting information from the text to the diagram. This allows for a fine-grained analysis of a model’s reliance on visual versus textual cues. •
+
+MathVista (Lu et al., 2024) is a benchmark designed to combine challenges from diverse mathematical and visual tasks.

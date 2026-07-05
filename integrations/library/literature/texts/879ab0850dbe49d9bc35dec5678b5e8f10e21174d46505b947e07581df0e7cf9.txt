@@ -1,0 +1,6 @@
+Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models
+
+\usetikzlibrary
+
+shapes.misc \tikzsetcross/.style=cross out, draw=black, minimum size=2*(#1-), inner sep=0pt, outer sep=0pt,
+cross/.default=1pt

@@ -1,0 +1,17 @@
+Gibson et al. (2017)
+
+Edward Gibson, Richard Futrell, Julian Jara-Ettinger, Kyle Mahowald, Leon
+Bergen, Sivalogeswaran Ratnasingam, Mitchell Gibson, Steven T. Piantadosi,
+and Bevil R. Conway. Color naming across languages reflects color use. Proceedings of the National Academy of Sciences, 114(40):10785--10790, 2017. doi: 10.1073/pnas.1619666114. URL https://www.pnas.org/doi/abs/10.1073/pnas.1619666114. Ginsberg (2014)
+
+Matthew L. Ginsberg. Dr.Fill: Crosswords and an implemented solver for singly weighted
+CSPs, 2014. URL http://arxiv.org/abs/1401.4597. Goldberg (2019)
+
+Yoav Goldberg. Assessing BERT’s syntactic abilities, 2019. URL https://arxiv.org/abs/1901.05287. Goldberger (1972)
+
+Arthur S. Goldberger. Structural equation methods in the social sciences. Econometrica, 40(6):979--1001, 1972. URL http://www.jstor.org/stable/1913851. Gonen & Goldberg (2019)
+
+Hila Gonen and Yoav Goldberg. Lipstick on a pig: Debiasing methods cover up systematic gender
+biases in word embeddings but do not remove them. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp.

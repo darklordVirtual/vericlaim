@@ -1,0 +1,26 @@
+Pass to Pass Tests omitted…
+
+Discussion. The baseline model’s inability to solve this issue can be directly attributed to a lack of an image input. We include this example to demonstrate that debugging real software issues may involve digesting images; this presents a whole separate body of understanding and reasoning-related challenges. Beyond the SWE-bench task, additional problems in software engineering, such as interpreting system design diagram, user interface specifications, and user feedback presents interesting vision-language challenges. Table 20:
+In this final example of a Claude 2 generation, the model must resolve an error related to resolving an error regarding cyclic dependencies. Claude 2’s solution under-delivers on an otherwise complex problem. Setting
+
+•
+
+Model: Claude 2 with Oracle retrieval
+
+•
+
+Task Instance: sympy__sympy-18211
+
+–
+
+Link to Issue: https://github.com/pylint-dev/pylint/issues/3525
+
+–
+
+Link to PR: https://github.com/pylint-dev/pylint/pull/4703
+
+Issue
+
+Imports within TYPE_CHECKING can induce “cyclic-import”
+
+Suppose you have two modules: a.py and b.py.

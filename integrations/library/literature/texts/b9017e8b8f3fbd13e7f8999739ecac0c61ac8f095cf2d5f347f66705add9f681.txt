@@ -1,0 +1,21 @@
+They can also help characterize the behavioral profile of a system over a domain of expected usage. Software mechanisms could support claims such as:
+
+•
+
+This system is robust to ’natural’ distributional shifts [49] [56];
+
+•
+
+This system is robust even to adversarial examples [57] [58];
+
+•
+
+This system has a well-characterized error surface and users have been informed of contexts in which the system would be unsafe to use;
+
+•
+
+This system’s decisions exhibit statistical parity with respect to sensitive demographic attributes424242Conceptions of, and measures for, fairness in machine learning, philosophy, law, and beyond vary widely. See, e.g., Xiang and Raji [59] and Binns [60].; and
+
+•
+
+This system provides repeatable or reproducible results. Below, we summarize several clusters of mechanisms which help to substantiate some of the claims above.

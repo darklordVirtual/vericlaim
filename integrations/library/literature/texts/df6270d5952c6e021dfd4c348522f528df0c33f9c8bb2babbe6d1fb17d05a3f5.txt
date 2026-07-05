@@ -1,0 +1,8 @@
+Every tool invocation—arguments, return value, timestamp, and
+executing agent identity—is recorded in an append-only store. Production deployments may use a Kafka topic
+(append-only by default) backed by write-once object storage
+(e.g., S3 Object Lock in compliance mode); our experimental prototype
+uses local append-only files with fsync
+(Sect. 7.5). This layer provides the forensic foundation for post-hoc
+attribution and is a prerequisite for building regulatory
+compliance infrastructure for agent systems.

@@ -1,0 +1,35 @@
+Low-resource language tasks are particularly challenging. Task Name
+Description
+Languages [mC4 rank]
+
+Conlang Translation Problems
+
+Decipher language rules and lexicon from a few examples
+
+English [1], German [4], Finnish [24], Abma [100+], Apinayé [100+], Inapuri [100+], Ndebele [100+], Palauan [100+]
+
+Kannada Riddles
+
+Answer Kannada riddles
+
+Kannada [65]
+
+Language Identification
+
+Identify the language a given sentence is written in
+
+1000 languages
+
+Swahili English Proverbs
+
+For a given proverb in Kiswahili, choose a proverb in English which is closest in meaning
+
+Swahili [67]
+
+Which Wiki Edit
+
+Match a recent Wikipedia revision to its corresponding edit message
+
+English [1], Russian [2], Spanish [3], German [4], French [5], Turkish [10], Japanese [11], Vietnamese [12], Chinese [15], Arabic [17], Norwegian [25], Tagalog [53]
+
+Table 2: BIG-bench tasks covering one or more low-resource language (bold). While most BIG-bench tasks only cover English or other high-resource languages, a handful also target lower-resource languages.

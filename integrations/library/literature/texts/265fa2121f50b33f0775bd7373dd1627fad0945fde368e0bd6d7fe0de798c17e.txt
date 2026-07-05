@@ -1,0 +1,7 @@
+For example, the sentence “my name my name my name” has two trigrams (“my name my” and ”name my name”) each of multiplicity . We mark a sample as a duplicate of another sample , if their trigram multisets are similar, specifically if . Evaluating Memorization Using Manual Inspection. For each of the selected samples, one of four authors manually determined whether the sample contains memorized text. Since the training data for GPT-2 was sourced from the public Web, our main tool is Internet searches. We mark a sample as memorized if we can identify a non-trivial substring that returns an exact match on a page found by a Google search. Validating Results on the Original Training Data. Finally, given the samples that we believe to be memorized,
+we work with the original authors of GPT-2 to obtain limited
+query access to their training dataset. To do this we sent them all sequences we selected for
+analysis. For efficiency, they then performed a fuzzy -gram match to account for memorization
+with different possible tokenizations. We marked samples as memorized if
+all -grams in the memorized sequence occurred in close proximity
+in the training dataset.

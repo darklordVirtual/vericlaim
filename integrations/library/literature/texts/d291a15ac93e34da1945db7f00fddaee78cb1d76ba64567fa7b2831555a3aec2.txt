@@ -1,0 +1,2 @@
+in-toto grants the end user the ability to verify the software’s supply chain from the project’s inception to its deployment. We demonstrate in-toto’s effectiveness on 30 software supply chain compromises that affected hundreds of million of users and showcase in-toto’s usage over cloud-native, hybrid-cloud and cloud-agnostic applications. in-toto is integrated into products and open source projects that are used by millions of people daily. USENIX Security '19 Open Access Videos Sponsored by
+King Abdullah University of Science and Technology (KAUST)

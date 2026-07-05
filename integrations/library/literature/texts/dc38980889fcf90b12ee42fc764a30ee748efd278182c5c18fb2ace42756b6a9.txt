@@ -1,0 +1,5 @@
+More formally, our calibration set contains exchangeable images and sets of classes . With the notation of Section 4.3, we set our loss function to be . Then, picking as in 29 yields a bound on the false negative rate,
+
+(44)
+
+Figure 13 gives results and code for FNR control on the Microsoft Common Objects in Context dataset [lin2014microsoft].

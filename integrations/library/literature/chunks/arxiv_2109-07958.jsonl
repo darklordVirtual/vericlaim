@@ -1,0 +1,93 @@
+{"fsid": "arxiv_2109-07958", "n": 92, "overlap": 200, "source_sha256": "3fac60310c7e10f6f4e1b3fb45b55554e82f44d0bf0fa6e789ebefac76e2292e", "target": 1200}
+{"section": "", "seq": 0, "sha256": "ef3eb4e917a9a957b2ee7bebebab6bc10791d436ae76c47f42ff98b0f5c80909"}
+{"section": "TruthfulQA: Measuring How Models Mimic Human Falsehoods", "seq": 1, "sha256": "baf3da1887f274a3f990e8abbcb467b4d16d422efd6a393113c6b0f40884ec1f"}
+{"section": "TruthfulQA: Measuring How Models Mimic Human Falsehoods", "seq": 2, "sha256": "18eaf3088601dd07d79b40fdc77789adb23f5f3e67ebe3a4179f0dc476d0f14b"}
+{"section": "1 Introduction", "seq": 3, "sha256": "2fb8b84ec6924da29d83a43a1002dd3fd32d5c6cd4d4dd250ea164eae7d710ba"}
+{"section": "1 Introduction", "seq": 4, "sha256": "50992ebf82767867697bedd0d2cf008b70b0679c9bb46e5e6fd6a6609096e2fa"}
+{"section": "1 Introduction", "seq": 5, "sha256": "63cd7c053893bdd63252226c225a471310711c697824b9a185c92ae9f9aece3b"}
+{"section": "1 Introduction", "seq": 6, "sha256": "d637bf28b402a387f9759b191fe5b4c430683d163945209b15f38fe993ab6b26"}
+{"section": "1 Introduction", "seq": 7, "sha256": "264280c401e03b203bbc9bdfa6504beeff4440815a603c1c7f17b0eb7f398272"}
+{"section": "1.1 Contributions", "seq": 8, "sha256": "784e4c7c8c105cf6534fe7af6c80c112ff584d262da0bd4a4c15b9a161d00893"}
+{"section": "1.1 Contributions", "seq": 9, "sha256": "c4155ac9d33f9f049a8a15aa4238d4793887dfcdc086787d3674c264f97b074b"}
+{"section": "2.1 Defining the truthfulness objective", "seq": 10, "sha256": "ef2273e846024f534f15e5717e8a711b228c0062fea09274bc674d5d41e28ddf"}
+{"section": "2.1 Defining the truthfulness objective", "seq": 11, "sha256": "01685b9e6d124c949f2b97c686ec582494a946154b86deb1ac63aaa04c4f5621"}
+{"section": "2.2 Constructing TruthfulQA", "seq": 12, "sha256": "ded4c674f4e95348c56427074bc969c0b74e56ce208508fa2a99946d9db2e2f2"}
+{"section": "2.2 Constructing TruthfulQA", "seq": 13, "sha256": "ca5a6fce298e6feec523d08dba120c0bc604645e26ec26677e467e655e0ec941"}
+{"section": "2.3 Validating TruthfulQA", "seq": 14, "sha256": "49b880ff04d9c93b06ef270bfee4a356c65aab1589de6269f671ecd936cc4640"}
+{"section": "2.3 Validating TruthfulQA", "seq": 15, "sha256": "6586f0c5907662edcb752b1ac953f0e5ac28d320eba479ecf1509f469c2f6868"}
+{"section": "3.1 Models and prompts", "seq": 16, "sha256": "92bc6a1e27cbb9e6338b12e7ad4b420a681d3fb37dda4f4c75f73545efee1320"}
+{"section": "3.1 Models and prompts", "seq": 17, "sha256": "a752ce088410a431715a95cb44de93d5adaa72e0cf34f5c8cd14740a794b6bff"}
+{"section": "3.1 Models and prompts", "seq": 18, "sha256": "a2a2bad80b23a04e59128fcffe1a413823a8cec5521bd34cbec3b2f03e62b1b1"}
+{"section": "3.2 Tasks and evaluation", "seq": 19, "sha256": "dd64924b3565ec82b902a2b191da0201d6acff69a3b984ff779a9f4993ad6591"}
+{"section": "3.2 Tasks and evaluation", "seq": 20, "sha256": "bdaca4c850e7fdcb167af2baec0574d8b4a2ecd8a07b52741be3684d4fc4b633"}
+{"section": "3.2 Tasks and evaluation", "seq": 21, "sha256": "597798086fcc25fad73052cb3286d1cdb46d2a614dc97b4464fd4ff04225b367"}
+{"section": "4.1 Truthfulness of models vs humans", "seq": 22, "sha256": "39562594c3d508ed6b2a7b26a2abb6319dbc219c0b1e9d2b8f7f154155220b6a"}
+{"section": "4.2 Larger models are less truthful", "seq": 23, "sha256": "e4c9e26df2229675f0afb0080f2d8e66c8c39bda6503790c8497695e8dd319e0"}
+{"section": "4.2 Larger models are less truthful", "seq": 24, "sha256": "19dafbf363096cc80146e7163acf0be93fd48190f299147b8c7fd7ad1b80fde5"}
+{"section": "4.3 Interpretation of results", "seq": 25, "sha256": "1f804c60dfcfbcc86b907ec47e0b0719e05f12103f8d29408874dd8c2c0df1ea"}
+{"section": "4.3 Interpretation of results", "seq": 26, "sha256": "84eac6543d239a4ec648f0d33739108053106f270b7d722f96148ca0ce8327b8"}
+{"section": "4.3 Interpretation of results", "seq": 27, "sha256": "335ef08636ad0a105ee3ee3068153379f4398ddfc4ab7c84ac9b5999c8f7c3a6"}
+{"section": "4.3 Interpretation of results", "seq": 28, "sha256": "e88d143ada1482518639593e14e06a3b73715d94df2936ea8b87b805a4a61525"}
+{"section": "4.4 Automated metrics vs human evaluation", "seq": 29, "sha256": "b2f313d4300c8503defd452b6ca13234744b17180e63b5e262369403bce3118c"}
+{"section": "5 Discussion", "seq": 30, "sha256": "121e6d6ee429aeb2b8e741ff11b5d1478df7cc14c6efecd9bab4b5ac2744f2f7"}
+{"section": "6 Related Work", "seq": 31, "sha256": "987fbb06e25fe065ba7c409454cb6f87929d4f5b6225a289c2cd5f7fd7325ea0"}
+{"section": "6 Related Work", "seq": 32, "sha256": "b696427f326196c0d1e21a6f266938d4b431f43ae2db73e3ffbbd9004f23e0d9"}
+{"section": "7 Conclusion", "seq": 33, "sha256": "053b6e0f78fad8a19bbb8e9ecbeb80bc4936ea18b23cab8e613d59b5cb2defdd"}
+{"section": "8 Ethics and Impact", "seq": 34, "sha256": "451f96b1a1c2061887ef2eeaa16537ae14c8b22867791bf695bb161e207bcbde"}
+{"section": "8 Ethics and Impact", "seq": 35, "sha256": "37b12277eb1b38acaee50e43da7fe3d128015e858888f1b32130aa21b26ed611"}
+{"section": "Acknowledgements", "seq": 36, "sha256": "525185e75d7922064ec6e0640f5a6d8c8dbd8e78bbe1a0607ce782a9ddd9c91d"}
+{"section": "References", "seq": 37, "sha256": "2f69bc6aee6bc9ad129673146a8fae62d1d2fb64a8bfaf49424905c83a8728dc"}
+{"section": "References", "seq": 38, "sha256": "2508f02923fee97515c2df1d845e8adf3aa80fd4ba206a10c7bcacf220529cbd"}
+{"section": "References", "seq": 39, "sha256": "ec4c9b063c867f04df5f2b4bbd720bda3c304131788ecc438d631790b14d6db6"}
+{"section": "References", "seq": 40, "sha256": "87116f9044a5aba5dbb07f978d57511929fb2626ff1d10a5dd95f8e523e2c2ec"}
+{"section": "References", "seq": 41, "sha256": "e227d69baa9601ac5ffe81fc60821aa489c4ed1421c8ebe6bc7dd34be2450b43"}
+{"section": "References", "seq": 42, "sha256": "5f0915c731b4feb07d86cc869e50af47b46778112fad10868a56af69bbffc2ce"}
+{"section": "References", "seq": 43, "sha256": "79f7c4c1a554ce48960cc2afea3fa5f45f6fb0672c646f766da53656a7f2256b"}
+{"section": "References", "seq": 44, "sha256": "ac80250cfdc4ddfd7ab6d47f94de46fad76ad3a42b95a3cd4cb9e1d97e4e40af"}
+{"section": "References", "seq": 45, "sha256": "631f42894ad3e0311bc2e04fff760da6c4c5a42641db0ad292757fdae25dbd8f"}
+{"section": "References", "seq": 46, "sha256": "008e96228a1c8c71624b1cbb49b4c1abab3134044b650d06beaf28b2580bd996"}
+{"section": "References", "seq": 47, "sha256": "c974f3145d7bfd4585ae55f305c08c534f3ad926592316278900cc296484067a"}
+{"section": "References", "seq": 48, "sha256": "20e3dc6ac6e9f5af93fca0f1b5e1bf807636e9a671ddf27706f212d624854635"}
+{"section": "References", "seq": 49, "sha256": "7877d00569a82dccd83d8d5ca3fb3265d2a936ce3c54ca3b252b020cfc61547e"}
+{"section": "References", "seq": 50, "sha256": "9646269f5f524fe7e459476203085b96f0acee0c0607a20e012fe6d1039a4f45"}
+{"section": "References", "seq": 51, "sha256": "2f75fc7248712aaabe5c3c17f4804d49c24576aad3f1281cb7b8d90df8015b22"}
+{"section": "References", "seq": 52, "sha256": "b8c569f6eff594df3ce28bb4a4db88ee8568a0c1c99fc9ef3a0265663aa1ce3f"}
+{"section": "References", "seq": 53, "sha256": "7e4158caf0b0f44b9143fe1b5c8ad0073ca423a307b63b37a1b79bbf128d22d2"}
+{"section": "References", "seq": 54, "sha256": "1d1d6a86171b6e9d6ee3c94b9418878ec9d7862ed6e8b23f3df431cdc3e36c5b"}
+{"section": "Appendix A Additional examples from TruthfulQA", "seq": 55, "sha256": "59b6e7b7e91bc91d742e487073c8b7991910ba9aec253df94aa43d16826891ce"}
+{"section": "B.1 Automated metrics vs human evaluation", "seq": 56, "sha256": "e6adb8920b2907f01181aa1e543528dde38277f65bb641389136746eeb6c1bff"}
+{"section": "B.1 Automated metrics vs human evaluation", "seq": 57, "sha256": "921317a3799b85e614de1ae21a6cbb8207fe726c5d0fe99da22febfa4043e8c2"}
+{"section": "B.1 Automated metrics vs human evaluation", "seq": 58, "sha256": "c162017ce569df4ce19b3d74e7c215550a8157f3f25e5a18507a7af63c15a264"}
+{"section": "B.1 Automated metrics vs human evaluation", "seq": 59, "sha256": "09f4ea6194267be2c815fdc7da53cef7a15b7f23686cd43223aa1fb350017b45"}
+{"section": "B.1 Automated metrics vs human evaluation", "seq": 60, "sha256": "e3089bd8734e6a158780ff2d523b1cd6d72aba3c4650178f1c637c31bd345b60"}
+{"section": "B.1 Automated metrics vs human evaluation", "seq": 61, "sha256": "49c90645e9d87658dd0e4f065f63fde4954a1dfd668f21a5f7af146f4be4d099"}
+{"section": "B.1 Automated metrics vs human evaluation", "seq": 62, "sha256": "972191aa72727543f4d45cf6d55ed1aac3ea3efcac2ab872f4a4a27a7de1ecb0"}
+{"section": "B.1 Automated metrics vs human evaluation", "seq": 63, "sha256": "38d59d272103fd8ca95b27a81b16eab094df5094e32180cf5e00a36ce4f26e61"}
+{"section": "B.2 Truthfulness and informativeness across all models", "seq": 64, "sha256": "2fde3b769a6d0ea61667cb429eece30034a4774e2ff7380e273492743811a82f"}
+{"section": "B.2 Truthfulness and informativeness across all models", "seq": 65, "sha256": "60d11c3169990b115555869e42dc72eb641471e32f6b2bea219dba7f4ac25dcc"}
+{"section": "B.3 Results on newer language models", "seq": 66, "sha256": "6c82955fea279d7602c2709dda82c9420f863ec450aace88e89d48c55b3f2867"}
+{"section": "B.3 Results on newer language models", "seq": 67, "sha256": "28d2410f686dfe330a25448ddcd1cd24c66a5e69a5ffeb5f2ab845be995fb763"}
+{"section": "B.3 Results on newer language models", "seq": 68, "sha256": "bd0050eddb1aeb3b33a992dc36af0552af9036c0b3a709e3cf2679694bf378e0"}
+{"section": "B.4 Adversarially filtered vs unfiltered sets of questions", "seq": 69, "sha256": "584ca49a7582d51870cb3f473cd1dbe438912aaf50a3a0f4357567b9251e26d6"}
+{"section": "B.5 Performance broken down by category of question", "seq": 70, "sha256": "0b25e9c75ebde884c806cce26ba45d153eda86d6118fc683b7b9269fff77378c"}
+{"section": "B.5 Performance broken down by category of question", "seq": 71, "sha256": "90c0c909fec2ae030e52efaa2bf93bd60028eb2a84e528c056b15114c1b58cf6"}
+{"section": "B.6 Performance of GPT-3-175B under different prompts", "seq": 72, "sha256": "7ddf3c36f3579c5a77ca3b3c0736ea9151d379730952062d85ba4baa81e9d8ad"}
+{"section": "B.7 Distribution of truthful models", "seq": 73, "sha256": "b3d27dbb1f50c1f8151f164fa437fe3f8e1e68585fafaaaa5540845afaac603c"}
+{"section": "B.8 Higher sampling temperatures", "seq": 74, "sha256": "877e35c61877fb0e3c2a1bc5defe9d52930430d60cdd3289e9973ba9a86434f1"}
+{"section": "B.9 Paraphrased questions", "seq": 75, "sha256": "b2fdceb174d18ae2d83e539a6eb5d6b27a1a08117f3fe47e0b8e86bcbeff8eb0"}
+{"section": "B.9 Paraphrased questions", "seq": 76, "sha256": "51604afd0251b027fe564625f7aa62ad98681571c97256969c8b6394cd522c3b"}
+{"section": "C.1 Reference answers", "seq": 77, "sha256": "2affc6a466511001f907e031ad1bcd272ed9aaeb4e7e0cf52c2bee664f4c8a61"}
+{"section": "C.1 Reference answers", "seq": 78, "sha256": "2b849c4ea26ffe5a51d7181b3e5baac2ed3610fbb17f0b3950f57bd559284ebd"}
+{"section": "C.2 Control questions", "seq": 79, "sha256": "7a98a382ff1982a49848ad5e2b49a948b55c79252d26e550a9a60a6a9a343c9e"}
+{"section": "C.2 Control questions", "seq": 80, "sha256": "ec0d05c4044b326dc14196c4b0d34db1abe9015a1895fbe7694e3db6d82587a5"}
+{"section": "Appendix D Human evaluations", "seq": 81, "sha256": "880cc28cc3d9abe633335213661344c7a1cf61e4129cfb94ec55b16effa7987d"}
+{"section": "Appendix D Human evaluations", "seq": 82, "sha256": "867a8d4f9a34b7a04a2ef2ca6173a6e33c303de5c4d7df49c5bd997d7f89eb70"}
+{"section": "Appendix D Human evaluations", "seq": 83, "sha256": "b0f092d3fd44d51508e1d332bc8ca82caa6b232f451b95d21a96083a74354ac7"}
+{"section": "Appendix D Human evaluations", "seq": 84, "sha256": "e425f4dc95c0a92b3fabb36b13b3f473c065c99a5cc99efeecd89994efe7ceb8"}
+{"section": "Appendix D Human evaluations", "seq": 85, "sha256": "9162227b271090d6da264b8c3e35300dfa3075c6e6091e76edf5e94a4aa8db87"}
+{"section": "Appendix E Prompts", "seq": 86, "sha256": "7237b17457b02ae6d907cda4ce6a6e0d21f6ecd9641f0e76829e317d8a6a9936"}
+{"section": "Appendix E Prompts", "seq": 87, "sha256": "41da9891cea8a6cbd82d2ce609d5922d2bd14d05f6b5204745891d2e76594818"}
+{"section": "Appendix E Prompts", "seq": 88, "sha256": "5fb00c619ee6bb2f3e3e343001c08b2733c95481a45ef31d3c8bdf30e439e484"}
+{"section": "Appendix F Checking for data quality and disagreement", "seq": 89, "sha256": "9a42f73661fb8aec4dd5cd19c7cd67bc12168401b020dfc0ad2545bdc58a7c72"}
+{"section": "Appendix F Checking for data quality and disagreement", "seq": 90, "sha256": "524070441537a28c25f45d93966c58a0840f586f8020d27468f8a0892ffc1410"}
+{"section": "Appendix F Checking for data quality and disagreement", "seq": 91, "sha256": "5d016c10eb6f3636342461cd1db63fcd60326cd45228ac51bf186c1a3a8fcfad"}

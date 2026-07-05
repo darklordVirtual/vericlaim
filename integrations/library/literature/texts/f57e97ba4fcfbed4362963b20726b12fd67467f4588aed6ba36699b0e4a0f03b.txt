@@ -1,0 +1,19 @@
+Example 44 ◊
+
+A given news item on the BBC News site
+bbc:news/science-environment-17526723 for desktop
+is an alternate of a
+bbc:news/mobile/science-environment-17526723 for mobile devices. entity(bbc:news/science-environment-17526723,
+[ prov:type="a news item for desktop"])
+entity(bbc:news/mobile/science-environment-17526723,
+[ prov:type="a news item for mobile devices"])
+alternateOf(bbc:news/science-environment-17526723,
+bbc:news/mobile/science-environment-17526723)
+
+Example 45 ◊
+
+Considering again the two versions of the technical report tr:WD-prov-dm-20111215 (second working draft) and tr:WD-prov-dm-20111018 (first working draft). They are alternates of each other. entity(tr:WD-prov-dm-20111018)
+entity(tr:WD-prov-dm-20111215)
+alternateOf(tr:WD-prov-dm-20111018, tr:WD-prov-dm-20111215)
+
+They are both specializations of the page http://www.w3.org/TR/prov-dm/.

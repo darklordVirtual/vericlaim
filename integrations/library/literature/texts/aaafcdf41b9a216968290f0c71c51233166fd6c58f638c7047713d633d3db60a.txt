@@ -1,0 +1,17 @@
+External queries are awkward even for basic Event Sourcing because if
+you want to rebuild the application state you need to do this
+using external query responses that were made in the past. Let's imagine a case where a ship has to determine the value of
+its cargoes when it enters a port. This valuation is done by an
+external service. If a ship enters a port on November 3rd and I
+process the event immediately, I'll get the value of that cargo as
+at November 3rd. If I rebuild my application state on December 5th
+I'll want the same value of the cargo, even if its value has
+changed in the meantime. For this example I'll show one way of handling this by keeping
+a record of external queries and using them to provide values when
+reprocessing an event. In many ways it's a similar approach to
+that you use with an external update - turn the interaction into
+events at the boundary of the system and use the record of events
+to remember what happened. Using a similar style to event handling that I'm using
+elsewhere in these examples, we pass the event to the domain
+objects to handle. In this case the cargo initiates the call to
+the external system and saves the value.

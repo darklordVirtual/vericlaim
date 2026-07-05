@@ -6,6 +6,12 @@
     "Xinchi Xu",
     "Leilei Gan"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:47.093889+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2604.09529"
+  },
+  "fulltext_sha256": "b06c884aa69a0bc88367f54866824aa3583694ccf5ef337e04f41cb24c248c60",
   "registrar": "arxiv",
   "retrieval": {
     "query": "confidence signal temperature calibration selective classification slice accuracy",

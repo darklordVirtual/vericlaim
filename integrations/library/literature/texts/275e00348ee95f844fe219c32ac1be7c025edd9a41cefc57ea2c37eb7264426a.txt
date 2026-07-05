@@ -1,0 +1,9 @@
+So far, we have used conformal prediction to construct prediction sets that bound the miscoverage,
+
+(27)
+
+However, for many machine learning problems, the natural notion of error is not miscoverage. Here we show that conformal prediction can also provide guarantees of the form
+
+(28)
+
+for any bounded loss function that shrinks as grows. This is called a conformal risk control guarantee. Note that (28) recovers (27) when using the miscoverage loss, . However, this algorithm also extends conformal prediction to situations where other loss functions, such as the false negative rate (FNR), are more appropriate. As an example, consider multilabel classification. Here, the response a subset of classes. Given a trained model , we wish to output sets that include a large fraction of the true classes in . To that end, we post-process the model’s raw outputs into the set of classes with sufficiently high scores, . Note that as the threshold grows, we include more classes in —it becomes more conservative in that we are less likely to omit true classes. Conformal risk control can be used to find a threshold value that controls the fraction of missed classes.

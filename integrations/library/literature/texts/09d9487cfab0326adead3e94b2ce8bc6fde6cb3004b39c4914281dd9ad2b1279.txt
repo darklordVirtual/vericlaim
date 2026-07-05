@@ -1,0 +1,17 @@
+As shown in Section 4, the
+optimal thresholds can be computed efficiently; the results are shown
+in Figure 9. Figure 9: FICO thresholds for various definitions of fairness. The equal odds method does not give a single
+threshold, but instead increases over some
+not uniquely defined range; we pick the one containing the fewest people. Observe that, within each race, the equal opportunity threshold
+and average equal odds threshold lie between the max profit
+threshold and equal demography thresholds. Our proposed fairness
+definitions give thresholds between those of max-profit/race-blind
+thresholds and of demographic parity. Figure 10: The ROC curve for using FICO score to identify
+non-defaulters. Within a group, we can achieve any convex
+combination of these outcomes. Equality of opportunity picks
+points along the same horizontal line. Equal odds picks a point
+below all lines. Figure 10 plots the ROC curves for each group. It
+should be emphasized that differences in the ROC curve do not indicate
+differences in default behavior but rather differences in prediction
+accuracy—lower curves indicate FICO scores are less predictive for
+those populations.

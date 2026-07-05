@@ -1,0 +1,47 @@
+Action 3
+
+Finish[The Saimaa Gesture]
+
+Question
+
+What profession does Nicholas Ray and Elia Kazan have in common? Action 1
+
+Search[Nicholas Ray]
+
+Observation 1
+
+Nicholas Ray (born Raymond Nicholas Kienzle Jr., August 7, 1911 – June 16, 1979) was an American film director, screenwriter, and actor best known for the 1955 film Rebel Without a Cause. Action 2
+
+Search[Elia Kazan]
+
+Observation 2
+
+Elia Kazan was an American film and theatre director, producer, screenwriter and actor. Continued on next page
+
+Hotpot QA Prompts – Continued from previous page
+
+Action 3
+
+Finish[director, screenwriter, actor]
+
+Question
+
+Which magazine was started first Arthur’s Magazine or First for Women? Action 1
+
+Search[Arthur’s Magazine]
+
+Observation 1
+
+Arthur’s Magazine (1844--1846) was an American literary periodical published in Philadelphia in the 19th century. Action 2
+
+Search[First for Women]
+
+Observation 2
+
+First for Women is a woman’s magazine published by Bauer Media Group in the USA.[1] The magazine was started in 1989. Action 3
+
+Finish[Arthur’s Magazine]
+
+Question
+
+Were Pavel Urysohn and Leonid Levin known for the same type of work?

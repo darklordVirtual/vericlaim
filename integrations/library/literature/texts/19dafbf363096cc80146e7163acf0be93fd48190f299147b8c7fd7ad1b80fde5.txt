@@ -1,0 +1,1 @@
+task and the multiple-choice task suggests that the tendency of larger models to perform worse is not an artifact of human evaluation or of the hyperparameters we used for generating answers. Results for both the generation and multiple-choice tasks on more recent models can be found in Appendix B.3.

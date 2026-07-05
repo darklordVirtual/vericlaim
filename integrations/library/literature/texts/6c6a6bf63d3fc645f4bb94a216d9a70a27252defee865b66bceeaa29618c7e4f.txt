@@ -1,0 +1,16 @@
+On the Chinese dataset, cascading reduces FPR from 34.1% to
+1.9% while retaining 91.9% IR (vs. 96.5% single-stage);
+on English, FPR drops from 23.7% to 6.7% with 92.6% IR
+(vs. 95.0%). Note that these results are based on simulated cascading
+(post-hoc composition of independent per-sample predictions),
+not live two-stage inference; actual cascade latency and
+decision coupling may differ slightly. Nevertheless, the cascaded scores—94.9% (Chinese) and
+92.9% (English)—match or slightly exceed single-model GPT-4o-mini
+(94.9% and 91.4% respectively; the ZH values are equal after rounding),
+showing that cascading reduces FPR from 34.1% to 1.9% while retaining 91.9% IR, achieving comparable to standalone GPT-4o-mini. For fully data-sovereign deployments, we also evaluate a
+local-only cascade (Qwen3.5-9BQwen2.5-14B)
+using the same post-hoc composition method. On Chinese, this achieves 95.6% IR with 6.0% FPR
+(); on English, 94.7% IR with 9.7% FPR
+(). Compared to the cloud cascade, the local variant trades a
+higher FPR (6.0% vs. 1.9% ZH; 9.7% vs. 6.7% EN) for
+higher IR (95.6% vs. 91.9% ZH; 94.7% vs.

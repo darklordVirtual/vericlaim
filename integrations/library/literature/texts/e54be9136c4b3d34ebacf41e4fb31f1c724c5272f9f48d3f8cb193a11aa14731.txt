@@ -1,0 +1,9 @@
+We generated 10,000 samples from and fed them into various classifiers
+on the MNIST dataset. In this context, we consider assigning a probability greater than 0.5 to any
+class to be an error. A naively trained maxout network with a softmax layer on top had an error rate
+of 98.35% on Gaussian rubbish examples with an average confidence of 92.8% on mistakes. Changing the top layer to independent sigmoids dropped the error rate to 68% with an average
+confidence on mistakes of 87.9%. On CIFAR-10, using 1,000 samples from , a convolutional maxout net
+obtains an error rate of 93.4%, with an average confidence of 84.4%. These experiments suggest that the optimization algorithms employed by Nguyen et al. (2014)
+are overkill (or perhaps only needed on ImageNet), and that the rich geometric structure in
+their fooling images are due to the priors encoded
+in their search procedures, rather than those structures being uniquely able to cause false positives. Though Nguyen et al. (2014) focused their attention on deep networks, shallow linear models have the same problem.

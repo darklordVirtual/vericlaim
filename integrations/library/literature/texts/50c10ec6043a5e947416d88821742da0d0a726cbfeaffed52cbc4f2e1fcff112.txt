@@ -1,0 +1,27 @@
+Autogrow: Automatic layer growing in deep convolutional networks,
+2019, 1906.02909. [YDY+19]
+
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov,
+and Quoc V. Le. Xlnet: Generalized autoregressive pretraining for language
+understanding, 2019,
+arXiv:1906.08237. [ZK16]
+
+Sergey Zagoruyko and Nikos Komodakis. Wide residual networks. Procedings of the British Machine Vision Conference 2016, 2016. doi:10.5244/c.30.87. [ZKZ+15]
+
+Yukun Zhu, Ryan Kiros, Rich Zemel, Ruslan Salakhutdinov, Raquel Urtasun,
+Antonio Torralba, and Sanja Fidler. Aligning books and movies: Towards story-like visual explanations by
+watching movies and reading books. 2015 IEEE International Conference on Computer Vision (ICCV),
+Dec 2015. doi:10.1109/iccv.2015.11. [ZLN+19]
+
+Guodong Zhang, Lala Li, Zachary Nado, James Martens, Sushant Sachdeva,
+George E. Dahl, Christopher J. Shallue, and Roger B. Grosse. Which algorithmic choices matter at which batch sizes? insights from
+a noisy quadratic model. CoRR, abs/1907.04164, 2019,
+1907.04164. URL http://arxiv.org/abs/1907.04164. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

@@ -1,0 +1,29 @@
+Summary
+
+Forging the provenance or evading verification requires exploiting a
+vulnerability that is beyond the capabilities of most adversaries. In practice, this means that builds run on a hardened build platform that offers
+strong tamper protection. Intended for
+
+Most software releases. Build L3 usually requires significant changes to
+existing build platforms. Requirements
+
+All of Build L2, plus:
+
+Software producer:
+
+Run builds on a hosted build platform that meets Build L3
+requirements. Build platform:
+
+Implement strong controls to:
+
+prevent runs from influencing one another, even within the same
+project. prevent secret material used to sign the provenance from being
+accessible to the user-defined build steps. Benefits
+
+All of Build L2, plus:
+
+Prevents tampering during the build—by insider threats, compromised
+credentials, or other tenants. Greatly reduces the impact of compromised package upload credentials by
+requiring the attacker to perform a difficult exploit of the build process. Provides strong confidence that the package was built from the official
+source and build process. Alternate means of verifying the authenticity of the provenance are
+also acceptable.

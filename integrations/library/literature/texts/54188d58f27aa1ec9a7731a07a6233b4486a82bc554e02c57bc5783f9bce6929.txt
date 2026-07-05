@@ -1,0 +1,33 @@
+FEVER Prompts
+
+Original
+
+Determine if there is Observation that SUPPORTS or REFUTES a Claim, or if there is NOT ENOUGH INFORMATION. Claim
+
+Nikolaj Coster-Waldau worked with the Fox Broadcasting Company. Answer
+
+SUPPORTS
+
+Claim
+
+Stranger Things is set in Bloomington, Indiana. Answer
+
+REFUTES
+
+Claim
+
+Beautiful reached number two on the Billboard Hot 100 in 2003. Answer
+
+NOT ENOUGH INFO
+
+Act
+
+Determine if there is Observation that SUPPORTS or REFUTES a Claim, or if there is NOT ENOUGH INFORMATION. Claim
+
+Nikolaj Coster-Waldau worked with the Fox Broadcasting Company. Action2
+
+Search[Nikolaj Coster-Waldau]
+
+Observation 1
+
+Nikolaj William Coster-Waldau (born 27 July 1970) is a Danish actor and producer. He graduated from the Danish National School of Performing Arts in Copenhagen in 1993,[1] and had his breakthrough role in Denmark with the film Nightwatch (1994). He played Jaime Lannister in the HBO fantasy drama series Game of Thrones, for which he received two Primetime Emmy Award nominations for Outstanding Supporting Actor in a Drama Series..

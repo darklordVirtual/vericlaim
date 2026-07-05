@@ -1,0 +1,8 @@
+2018. How to Prevent Discriminatory Outcomes in Machine
+Learning. https://www.weforum.org/whitepapers/how-to-prevent-discriminatory-outcomes-in-machine-learning. Yagcioglu et al. (2018)
+
+Semih Yagcioglu, Aykut
+Erdem, Erkut Erdem, and Nazli
+Ikizler-Cinbis. 2018. RecipeQA: A Challenge Dataset for Multimodal
+Comprehension of Cooking Recipes. In Proceedings
+of the 2018 Conference on Empirical Methods in Natural Language Processing.

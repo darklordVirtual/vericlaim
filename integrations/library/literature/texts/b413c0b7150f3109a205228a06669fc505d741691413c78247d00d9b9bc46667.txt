@@ -1,0 +1,7 @@
+It is not hard to see that in the absence of covariate shifts. We can prove the following result. Proposition 4.1. In the setting of Theorem 2.1,
+
+(27)
+
+It is easy to show that the weighted conformal procedure \citeptibshirani2019conformal is a special case with where is the prediction set that thresholds the conformity score at . Thus, Proposition 4.1 generalizes [tibshirani2019conformal] to any monotone risk. When the covariate shift is unknown but unlabeled data in the test domain are available, it can be estimated, up to a multiplicative factor that does not affect , by any probabilistic classification algorithm; see [lei2020conformal] and [candes2023conformalized] in the context of missing and censored data, respectively. We leave the full investigation of weighted conformal risk control with an estimated covariate shift for future research. Total variation bound
+
+Finally, for arbitrary distribution shifts, we give a total variation bound describing the way standard (unweighted) conformal risk control degrades. The bound is analogous to that of [barber2022conformal]for independent but non-identically distributed data (see their Section 4.1), though the proof is different.

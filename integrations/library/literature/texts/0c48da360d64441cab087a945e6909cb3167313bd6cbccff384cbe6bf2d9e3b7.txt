@@ -1,0 +1,16 @@
+While each of id, trigger, ender, time, and attributes is OPTIONAL, at least one of them MUST be present. Example 26 ◊
+
+The following example is a description of an activity a1 (editing) that was ended following an approval document e1. entity(e1, [ prov:type="approval document" ])
+activity(a1, [ prov:type="Editing" ])
+wasEndedBy(a1, e1, -, -)
+
+5.1.8 Invalidation
+
+Invalidation ◊ is the start of the destruction, cessation, or expiry of an existing entity by an activity. The entity is no longer available for use (or further invalidation) after invalidation. Any generation or usage of an entity precedes its invalidation. Given that an invalidation is the start of destruction, cessation, or
+expiry, it is instantaneous. Entities have a duration. Generation marks the beginning of an entity, whereas invalidation marks its end. An entity's lifetime can end for different reasons:
+
+an entity was destroyed: e.g. a painting was destroyed by fire; a Web page is taken out of a site;
+
+an entity was consumed: e.g. Bob ate all his soup, Alice ran out of gas when driving to work;
+
+an entity expires: e.g.

@@ -1,0 +1,13 @@
+We regularize all our models with 10% dropout, and by tracking test loss and stopping once it is no longer decreasing. The results are displayed in Figure 9, including a fit to the four parameters in Equation (1.5):
+
+Parameter
+
+Value
+
+Table 2: Fits to
+
+We obtain an excellent fit, with the exception of the runs where the dataset has been reduced by a factor of , to about tokens. With such a small dataset, an epoch consists of only 40 parameter updates. Perhaps such a tiny dataset represents a different regime for language modeling, as overfitting happens very early in training (see Figure 16). Also note that the parameters differ very slightly from those obtained in Section 3, as here we are fitting the full rather than just or . To chart the borderlands of the infinite data limit, we can directly study the extent of overfitting. For all but the largest models, we see no sign of overfitting when training with the full 22B token WebText2 dataset, so we can take it as representative of . Thus we can compare finite to the infinite data limit by defining
+
+(4.2)
+
+and studying it as a function of .

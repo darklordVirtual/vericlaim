@@ -1,0 +1,43 @@
+raw-text 58% ( majority/chance); neural (MiniLM) did not rescue it; no 95% high-precision regime at any coverage a semantic verdict-cache keyed on the action is not viable (surface-twins collapse). RAG (works, with a guard):
+
+condition
+
+semantic acc
+
+vs no-RAG
+
+dangerous leaks
+
+no-RAG (baseline)
+
+70
+
+—
+
+0
+
+RAG, clean-memory (truth precedents = ceiling)
+
+79
+
++8
+
+0
+
+RAG, realistic (judge-verdict precedents, ungated)
+
+72
+
++2 (useless; poisons observability 8178)
+
+0
+
+RAG, realistic + corroboration guard
+
+84
+
++13
+
+0
+
+Guard: admit a precedent only where two judges agree (Sonnet-4.6-noRAG == Opus-4.8). Corroboration rate 62%; memory correctness 70% ungated 97% guarded. Guarded per-category jumps: cloud_iam 5575, data_db 7186, observability 8193, network 7078.

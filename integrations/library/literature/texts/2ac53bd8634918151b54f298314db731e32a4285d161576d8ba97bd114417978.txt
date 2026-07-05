@@ -1,0 +1,15 @@
+Sources of Hierarchical Inductive
+Bias in Sequence-to-Sequence Networks. Transactions of the Association for Computational Linguistics,
+8:125--140, 01 2020. ISSN 2307-387X. doi: 10.1162/tacl_a_00304. URL https://doi.org/10.1162/tacl_a_00304. McGrath et al. (2021)
+
+Thomas McGrath, Andrei Kapishnikov, Nenad Tomašev, Adam Pearce, Demis
+Hassabis, Been Kim, Ulrich Paquet, and Vladimir Kramnik. Acquisition of chess knowledge in AlphaZero, 2021. URL https://arxiv.org/abs/2111.09259. McMillan-Major et al. (2022)
+
+Angelina McMillan-Major, Zaid Alyafeai, Stella Biderman, Kimbo Chen, Francesco
+De Toni, Gérard Dupont, Hady Elsahar, Chris Emezue, Alham Fikri Aji,
+Suzana Ilić, Nurulaqilla Khamis, Colin Leong, Maraim Masoud, Aitor Soroa,
+Pedro Ortiz Suarez, Zeerak Talat, Daniel van Strien, and Yacine Jernite. Documenting geographically and contextually diverse data sources: The
+BigScience catalogue of language data and resources, 2022. URL https://arxiv.org/abs/2201.10066. Mehri & Eskenazi (2020)
+
+Shikib Mehri and Maxine Eskenazi. USR: An unsupervised and reference free evaluation metric for
+dialog generation.

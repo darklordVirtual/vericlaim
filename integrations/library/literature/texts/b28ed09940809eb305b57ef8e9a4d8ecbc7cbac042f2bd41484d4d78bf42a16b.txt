@@ -1,0 +1,47 @@
+Noah Shinn
+
+Northeastern University
+
+noahshinn024@gmail.com
+
+Federico Cassano
+
+Northeastern University
+
+cassano.f@northeastern.edu
+
+Edward Berman
+
+Northeastern University
+
+berman.ed@northeastern.edu
+
+Ashwin Gopinath
+
+Massachusetts Institute of Technology
+
+agopi@mit.edu
+
+Karthik Narasimhan
+
+Princeton University
+
+karthikn@princeton.edu
+
+Shunyu Yao
+
+Princeton University
+
+shunyuy@princeton.edu
+
+Abstract
+
+Large language models (LLMs) have been increasingly used to interact with external
+environments (e.g., games, compilers, APIs) as goal-driven agents. However, it
+remains challenging for these language agents to quickly and efficiently learn from
+trial-and-error as traditional reinforcement learning methods require extensive
+training samples and expensive model fine-tuning. We propose Reflexion, a
+novel framework to reinforce language agents not by updating weights, but instead
+through linguistic feedback. Concretely, Reflexion agents verbally reflect on
+task feedback signals, then maintain their own reflective text in an episodic
+memory buffer to induce better decision-making in subsequent trials.

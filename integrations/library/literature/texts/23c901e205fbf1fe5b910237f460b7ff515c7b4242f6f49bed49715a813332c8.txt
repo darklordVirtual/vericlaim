@@ -1,0 +1,9 @@
+As an obvious diagnostic, the user will want to assess whether the conformal procedure has the correct coverage. This can be accomplished by running the procedure over trials with new calibration and validation sets, and then calculating the empirical coverage for each,
+
+(17)
+
+where is the size of the validation set, is the th validation example in trial , and is calibrated using the calibration data from the th trial. A histogram of the should be centered at roughly , as in Figure 11. Likewise, the mean value,
+
+(18)
+
+should be approximately . With real datasets, we only have data points total to evaluate our conformal algorithm and therefore cannot draw new data for each of the rounds. So, we compute the coverage values by randomly splitting the data points times into calibration and validation datasets, then running conformal. Notice that rather than splitting the data points themselves many times, we can instead first cache all conformal scores and then compute the coverage values over many random splits, as in the code sample in Figure 12.

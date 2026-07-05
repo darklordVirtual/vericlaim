@@ -1,0 +1,16 @@
+In the second line, a type attribute is also provided. wasDerivedFrom(e2, e1)
+wasDerivedFrom(e2, e1, [ prov:type="physical transform" ])
+
+The following description expresses that activity a,
+using the entity e1 according to usage u1,
+derived the
+entity e2 and generated it according to generation
+g2. It is followed by descriptions for generation g2 and usage u1. wasDerivedFrom(e2, e1, a, g2, u1)
+wasGeneratedBy(g2; e2, a, -)
+used(u1; a, e1, -)
+
+With such a comprehensive description of derivation, a program that analyzes provenance can identify the activity underpinning the derivation, it can identify how the preceding entity e1 was used by the activity (e.g. for instance, which argument it was passed as, if the activity is the result of a function invocation), and which output the derived entity e2 was obtained from (say, for a function returning multiple results). 5.2.2 Revision
+
+A revision ◊ is a derivation for which the resulting entity is a revised version of some original. The implication here is that
+the resulting entity contains substantial content from the
+original. A revision ◊ relation is a kind of derivation relation from a revised entity to a preceding entity.

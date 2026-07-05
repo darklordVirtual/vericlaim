@@ -1,0 +1,7 @@
+al., 2018; Le et al., 2019; Jiang & de Marneffe, 2019; Ross & Pavlick, 2019; Bowman et al., 2015; de Marneffe et al., 2012; Jeretic et al., 2020)
+
+evaluating_information_essentiality: Anantharaman S. Iyer, National Public School - HSR Layout (i.anantharaman.s@gmail.com), and Niveditha S. Iyer, Stanford University (nivsiyer@stanford.edu). Task cites: (Rajpurkar et al., 2018; Hosseini et al., 2014; Levy et al., 2017; Yin & Pei, 2015; de Marneffe et al., 2008; Zhu et al., 2019)
+
+fact_checker: Genta Indra Winata, Nayeon Lee, Andrea Madotto, and Pascale Fung, HKUST (giwinata, nyleeaa, amadotto)@connect.ust.hk, (pascale@ust.hk); Jason Yosinski, ML Collective (jason@yosinski.com); and Rosanne Liu, Google and ML Collective (rosanneliu@google.com). Task cites: (Thorne et al., 2018; Lee et al., 2021)
+
+factuality_of_summary: Colin Raffel, Derek Tam, and Mohit Bansal, UNC Chapel Hill (craffel@gmail.com), (dtredsox, mbansal)@cs.unc.edu.

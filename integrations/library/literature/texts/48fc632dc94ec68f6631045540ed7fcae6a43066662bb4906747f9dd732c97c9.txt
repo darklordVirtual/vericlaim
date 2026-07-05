@@ -1,0 +1,14 @@
+Sometimes you find
+tables that are months out of date, and a simple refresh improves performance
+more than any other launch that quarter! The coverage of a
+feature may change due to implementation changes: for example a feature column
+could be populated in 90% of the examples, and suddenly drop to 60% of the
+examples. Play once had a table that was stale for 6 months, and refreshing
+the table alone gave a boost of 2% in install rate. If you track statistics of
+the data, as well as manually inspect the data on occasion, you can reduce
+these kinds of failures. Rule #11: Give feature columns owners and documentation. If the system is large, and there are many feature columns, know who created
+or is maintaining each feature column. If you find that the person who
+understands a feature column is leaving, make sure that someone has the
+information. Although many feature columns have descriptive names, it's good
+to have a more detailed description of what the feature is, where it came
+from, and how it is expected to help.

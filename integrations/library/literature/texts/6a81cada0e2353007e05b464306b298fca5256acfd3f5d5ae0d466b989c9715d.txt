@@ -1,0 +1,14 @@
+Mixed precision training. In ICLR, 2018. URL https://openreview.net/forum?id=r1gs9JgRZ. Moghe et al. [2018]
+
+Nikita Moghe, Siddhartha Arora, Suman Banerjee, and Mitesh M. Khapra. Towards exploiting background knowledge for building conversation
+systems. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pages 2322–2332, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1255. URL https://www.aclweb.org/anthology/D18-1255. Nema and Khapra [2018]
+
+Preksha Nema and Mitesh M. Khapra. Towards a better metric for evaluating question generation systems. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pages 3950–3959, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1429. URL https://www.aclweb.org/anthology/D18-1429. Nguyen et al. [2016]
+
+Tri Nguyen, Mir Rosenberg, Xia Song, Jianfeng Gao, Saurabh Tiwary, Rangan
+Majumder, and Li Deng. MS MARCO: A human generated machine reading comprehension
+dataset. In Tarek Richard Besold, Antoine Bordes, Artur S.

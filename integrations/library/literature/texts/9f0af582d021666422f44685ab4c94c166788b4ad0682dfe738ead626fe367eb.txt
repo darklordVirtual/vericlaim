@@ -1,0 +1,16 @@
+involving people, with potential completions, does a model show a systematic preference for members of one category over another or for associating particular attributes with particular categories? Bias typically increases with scale in settings with broad or ambiguous contexts. \begin{overpic}[width=230.18251pt]{figures/aggregate_ambig_bias.pdf}
+\put(5.0,7.5){{\small(a)}}
+\end{overpic}\begin{overpic}[width=230.18251pt]{figures/aggregate_ambig_bias_by_category.%
+pdf}
+\put(6.0,44.0){{\small(b)}}
+\put(54.0,44.0){{\small(c)}}
+\put(6.0,7.5){{\small(d)}}
+\put(54.0,7.5){{\small(e)}}
+\end{overpic}
+Figure 12: Bias increases with scale for BIG-bench tasks with broad or ambiguous contexts. Note that a higher score indicates better (less biased) performance on these tasks. (a) Aggregate performance across bbq_lite,
+bias_from_probabilities,
+diverse_social_bias,
+gender_sensitivity_english,
+muslim_violence_bias, and
+unqover
+decreases with model scale, indicating that larger models are more biased in the setting of broad or ambiguous contexts.

@@ -1,0 +1,17 @@
+In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 2 (Short Papers), pp. 15--20, New Orleans, Louisiana,
+June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-2003. URL https://aclanthology.org/N18-2003. Zhao et al. (2021)
+
+Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, and Sameer Singh. Calibrate before use: Improving few-shot performance of language
+models, 2021. URL https://arxiv.org/abs/2102.09690. Zhou et al. (2019)
+
+Ben Zhou, Daniel Khashabi, Qiang Ning, and Dan Roth. "Going on a vacation" takes longer than "going for a walk": A study
+of temporal commonsense understanding, 2019. URL https://arxiv.org/abs/1909.03065. Zhou et al. (2020)
+
+Chunting Zhou, Graham Neubig, Jiatao Gu, Mona Diab, Paco Guzman, Luke
+Zettlemoyer, and Marjan Ghazvininejad. Detecting hallucinated content in conditional neural sequence
+generation, 2020. URL https://arxiv.org/abs/2011.02593. Zhu et al. (2019)
+
+Haichao Zhu, Li Dong, Furu Wei, Wenhui Wang, Bing Qin, and Ting Liu. Learning to ask unanswerable questions for machine reading
+comprehension.

@@ -1,0 +1,12 @@
+The notion differs from demographic parity mainly in that it
+compares the probabilities as a ratio rather than additively, and in that it
+allows a one-sided violation of the constraint. While simple and seemingly intuitive, demographic parity has serious conceptual
+limitations as a fairness notion, many of which were pointed out in work of
+Dwork et al. [DHP+12]. In our experiments, we will see that
+demographic parity also falls short on utility. Dwork et al. [DHP+12]
+argue that a sound notion of fairness must be task-specific, and
+formalize fairness based on a hypothetical similarity measure
+requiring similar individuals to receive a similar distribution over outcomes. In practice, however, in can be difficult to come up with a suitable metric. Our notion is task-specific in the sense that it makes critical use of the final
+outcome while avoiding the difficulty of dealing with the features
+
+In a recent concurrent work, Kleinberg, Mullainathan and Raghavan [KMR16] showed that in general a score that is calibrated within each group does not satisfy a criterion equivalent to equalized odds for binary predictors.

@@ -1,0 +1,55 @@
+Jordan Hoffmann
+
+Equal contributions
+
+Sebastian Borgeaud
+
+Equal contributions
+
+Arthur Mensch
+
+Equal contributions
+
+Elena Buchatskaya
+
+Trevor Cai
+
+Eliza Rutherford
+
+Diego de Las Casas
+
+Lisa Anne Hendricks
+
+Johannes Welbl
+
+Aidan Clark
+
+Tom Hennigan
+
+Eric Noland
+
+Katie Millican
+
+George van den Driessche
+
+Bogdan Damoc
+
+Aurelia Guy
+
+Simon Osindero
+
+Karen Simonyan
+
+Erich Elsen
+
+Jack W. Rae
+
+Oriol Vinyals
+
+Laurent Sifre
+
+Equal contributions
+
+Abstract
+
+We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant. By training over 400 language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens, we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled.

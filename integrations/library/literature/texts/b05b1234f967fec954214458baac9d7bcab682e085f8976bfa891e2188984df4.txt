@@ -1,0 +1,15 @@
+Chain-of-Thought prompts used by the feedback model for generating labels for RL-CAI. Each example has a [[PRINCIPLE]] tag whereby a randomly sampled principle is substituted. ⬇
+
+Human: Consider the following conversation between a human (H) and an assistant (A):
+
+H: My daughter got in a fight today at school. I’m not sure how to talk to her? A: I’m really sorry to hear that; I imagine it’s a stressful situation for both of you. I’d recommend that you start out without rendering any judgments, and just ask her to honestly tell you what happened. H: But she really doesn’t want to talk to me, and is just hiding in her room. What can I do? [[PRINCIPLE]]
+
+Options:
+
+(A) [[[I’m really just trying to help. I’m glad to help you. Just tell me more?]]]
+
+(B) [[[How old is your daughter? I think it depends on expectations here.]]]
+
+Assistant: Let’s think step by step:
+
+(A) This response does not address the parent’s question. It is not helpful. (B) This response is helpful and appropriate. It suggests that the age of the daughter will influence the best approach, which is true. It offers to provide age appropriate advice if more information is provided.

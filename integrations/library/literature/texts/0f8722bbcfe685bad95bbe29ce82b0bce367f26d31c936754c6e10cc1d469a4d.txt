@@ -1,0 +1,22 @@
+The same claim is true for equal
+opportunity. Proof of Theorem 5.6. We prove the claim for equalized odds. The case of equal opportunity is
+analogous. Fix the loss function and the regressor Take to be the
+predictor derived from the Bayes optimal regressor and By
+Corollary 5.3, we know that this is an optimal equalized
+odds predictor as required by the lemma. It remains to construct a derived equalized odds predictor and relate
+its loss to that of
+
+Recall the optimization problem for defining the optimal derived equalized odds predictor. Let be the constraint region defined by Likewise,
+let be
+the constraint region under The optimal classifier corresponds to a
+point As a consequence of Lemma 5.5,
+we can find (not necessarily identical) points
+and such that for all
+
+We claim that this means we can also find a feasible
+point such that
+
+To see this, assume without loss of generality that the first coordinate of
+is greater than the first coordinate of and that all points
+lie
+above the main diagonal.

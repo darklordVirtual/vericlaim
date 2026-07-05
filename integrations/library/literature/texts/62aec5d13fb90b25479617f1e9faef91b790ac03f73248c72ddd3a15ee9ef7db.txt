@@ -1,0 +1,15 @@
+low-risk tool calls (read-only, sandboxed) through BART-MNLI
+as a fast pre-filter, and escalate high-risk calls (delete,
+external network, transactional write) to LLM-based verification. In data-sovereign environments where cloud APIs are prohibited,
+Qwen3.5-9B provides a viable local alternative despite its higher
+false positive rate, which can be mitigated by cascading with
+a second local model (see Sect. 7.4 for
+empirical validation with Qwen2.5-14B) or flagged for human review. 7.4.2. Attack Subtype Variation
+
+The representative LLM judges (GPT-4o-mini and Qwen3.5-9B) show high interception across all attack subtypes. GPT-4o-mini exhibits relatively uniform rates: 92.9% (direct),
+92.8% (indirect), and 93.4% (RAG-poisoning). Qwen3.5-9B achieves even higher rates on direct injection (97.2%)
+and RAG-poisoning (98.5%), but slightly lower on indirect
+injection (94.4%). Interestingly, BART-MNLI shows the opposite pattern:
+RAG-poisoning attacks are intercepted at 17.6% versus only
+4.3% for direct injection; this pattern holds in English
+(11.8% vs. 4.3%) though the gap is smaller.

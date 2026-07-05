@@ -1,0 +1,1 @@
+In this section, we report more detailed main results. We report detailed baseline results on all benchmarks in Figure 15 and Figure 16. We observe that, RLCR is the strongest baseline, outperforming other methods in both reasoning and calibration performance.

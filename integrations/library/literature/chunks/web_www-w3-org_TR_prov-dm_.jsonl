@@ -1,0 +1,139 @@
+{"fsid": "web_www-w3-org_TR_prov-dm_", "n": 138, "overlap": 200, "source_sha256": "b1ba3de80f08e92da515ee7322034facdaf64c4fda69fe3faf967280b1954b89", "target": 1200}
+{"section": "", "seq": 0, "sha256": "0136ddb06fac804628ae6db8818c5fb37ed7bd937e4707917ce8f4c13b85aaab"}
+{"section": "W3C Recommendation 30 April 2013", "seq": 1, "sha256": "d3649b1dd2a50e207325aa10bdcdd0248cf9e5d52e48de7d163e6d92e391b20c"}
+{"section": "W3C Recommendation 30 April 2013", "seq": 2, "sha256": "993b6bb0d8c333b8ce357afa84f6fde9c740dd8a8d8daaf7c05ffb57e3b88021"}
+{"section": "Abstract", "seq": 3, "sha256": "06a4c8bcb9fa521c09c18d6c5b480bd31156a3a199043a55b65becb035d6c741"}
+{"section": "Abstract", "seq": 4, "sha256": "f7e373079ec8d53f56f46319ffef0685ffa58ef49f2fd175986cf1796d904377"}
+{"section": "Status of This Document", "seq": 5, "sha256": "36b02fde3a652c1cba1d4f751629418c47ef0edeb6b11ac600b7b060b439a512"}
+{"section": "Status of This Document", "seq": 6, "sha256": "4be525b2187e1ddd18a8ab7168099dfcc6201ebdc5f7e809c7b40ee8cfe4e922"}
+{"section": "Status of This Document", "seq": 7, "sha256": "aebc0d2fb8f630eff4d560486791a070804926ff529a083185e85c3dfeabab8a"}
+{"section": "Status of This Document", "seq": 8, "sha256": "a318640f40ea125b91a91ddb52e7c841eca9bbba477aab40aa86634f0f11a9bc"}
+{"section": "Table of Contents", "seq": 9, "sha256": "b9dc51bfef34404ffe35f47e8e51d1d506dd2d5654dc1a54764282c21eb84dac"}
+{"section": "Table of Contents", "seq": 10, "sha256": "f199b9755ef54c94d294c3db95accb9803c659f7fe0beb8baec00fdf04d58f3b"}
+{"section": "Table of Contents", "seq": 11, "sha256": "ae8601b7394f9639444931e60ee074525f07a2a0b4027fc740ac7e7de39dfee9"}
+{"section": "1. Introduction", "seq": 12, "sha256": "bb01dbbef3f472df149e0e463d7f8140947aac89d20b3c6648f5470245cc9c84"}
+{"section": "1. Introduction", "seq": 13, "sha256": "7f89aa5d457aff06275bb896182f0ddaf8470a3f18e4db5b8db9185ef1c35ab3"}
+{"section": "1. Introduction", "seq": 14, "sha256": "0d9ddbd0eb335282c271dab7614baec093e83e67098bdc988b583812ad6eefd5"}
+{"section": "1. Introduction", "seq": 15, "sha256": "b2a0042ffe1cf91925a49a7266791454566fc94e0fc8460fd101218bbb21cf5d"}
+{"section": "1.1 Compliance with this Document", "seq": 16, "sha256": "e1fa38c2515769ea8774e0ee84b469a6b6ea02be4e83527eb7c3783b86149a9e"}
+{"section": "1.2 Structure of this Document", "seq": 17, "sha256": "0c53ead8ae4125ac6598a64f7bcbc0dc2c06e178a38fc91069061da88d522ea0"}
+{"section": "1.3 Notational Conventions", "seq": 18, "sha256": "bced580ab99162af269a8561b71a10c599b8755ec4ea66562bfc869922f26c84"}
+{"section": "1.4 Namespaces", "seq": 19, "sha256": "a94510922fea728f8f32ffaf0378e3f3b98dbf2f7b0ec48f24d8f4ccd957bf55"}
+{"section": "2. PROV Overview", "seq": 20, "sha256": "586bcc3faafeecd2d9a697d64e89824e7c773f7e4b34e746cb8572c989d11c91"}
+{"section": "2.1 PROV Core Structures", "seq": 21, "sha256": "3d05f17be9c414d023ed20579cdbd1866817a09f3dcbfe155e2b0aacb6b3fe65"}
+{"section": "2.1 PROV Core Structures", "seq": 22, "sha256": "49ae51b9f41afde455478450eebb3134976a41dc0076f0fd0deb39b4e25d72f6"}
+{"section": "2.1 PROV Core Structures", "seq": 23, "sha256": "9b0ba33d15b69ae0d3d402f36fe96ef4cda1e8d924dd912e6010bfdaffbda3df"}
+{"section": "2.1 PROV Core Structures", "seq": 24, "sha256": "4173869595dbd27bc1b765a526a7e86e7eba72dd71678ebb1d8ba8e76f32fcca"}
+{"section": "2.1 PROV Core Structures", "seq": 25, "sha256": "0dfb1ffdc2e5270830dd07b831913a14c7706646d87a230c2ef5e4d0f9116cd0"}
+{"section": "2.1 PROV Core Structures", "seq": 26, "sha256": "1c4d0558666f3430a12ba1bb170fab76cd3f40edb9f2d6bdebd6da9244f85c84"}
+{"section": "2.1 PROV Core Structures", "seq": 27, "sha256": "b040fbeea036cbf2b66e161e344607fca09874ff9498418e3832f09190f1e2cc"}
+{"section": "2.1 PROV Core Structures", "seq": 28, "sha256": "a62cc2d84d9040702f7f24f28831401e3bf8a5fcc1bc038289478bee674d1628"}
+{"section": "2.1 PROV Core Structures", "seq": 29, "sha256": "be5cf0129d3a5c38581388e9b34381f83386900476e786b13f02e8ea1f10a551"}
+{"section": "2.1 PROV Core Structures", "seq": 30, "sha256": "356f3a1c6f5b6cd9104f1d5d40bf787e76e402377fe64538e95a519d64b2c1d0"}
+{"section": "2.1 PROV Core Structures", "seq": 31, "sha256": "e1e99fbd57e0bbd87d5bec45c3cf2b1e332eb8662878954568432784ce6ea7d1"}
+{"section": "2.1 PROV Core Structures", "seq": 32, "sha256": "673906ffca4733310db6741be74d0136c5288a7499c55258bbbbdcdc9a26922c"}
+{"section": "2.2 PROV Extended Structures", "seq": 33, "sha256": "58e7eee8b7139ba4a6557fc107a3c61c3da3802a29191d85287db7972b1b8826"}
+{"section": "2.2 PROV Extended Structures", "seq": 34, "sha256": "e33c42e91dd2191c8dbb896b389cb2a2ba39587ed229ca28f50e4a4cb32ee21e"}
+{"section": "2.2 PROV Extended Structures", "seq": 35, "sha256": "8f342eeb8aaec7177bb6d1484a56935589152e5e44bc94932f6b561385f64d7a"}
+{"section": "2.2 PROV Extended Structures", "seq": 36, "sha256": "bddb4aa6cf65c9e2d6374e470c5ae5aa619bafefaf995e90f14004855ed0083f"}
+{"section": "2.2 PROV Extended Structures", "seq": 37, "sha256": "162ca41f67dbb503e08b1be15bef031f6e1e2cc4ec19f5f3f9a3588348627b45"}
+{"section": "2.2 PROV Extended Structures", "seq": 38, "sha256": "63793f0274b8156b8e0954222eabb74f5524cf5efe35637ff7a94406ebd3a08d"}
+{"section": "2.3 Modular Organization", "seq": 39, "sha256": "4b17fc1788a453b5778cd2aac6d05febbfe60d052946d259eb0bae136adf05a6"}
+{"section": "3. The Provenance Notation", "seq": 40, "sha256": "02189c11522afd6bebd3532f8621a98e696eb6429b0308a750bfadef9e4615e4"}
+{"section": "3. The Provenance Notation", "seq": 41, "sha256": "df9b8a35e545828636cd6690c02c0701985ba739b572effa48c0c1673d60a0b7"}
+{"section": "3. The Provenance Notation", "seq": 42, "sha256": "1cef6c174a6b9042e1b8db5104d742bb4046ab83ab1a48e8b893bc3f84d750b1"}
+{"section": "4. Illustration of PROV-DM by an Example", "seq": 43, "sha256": "1113ef0eaf062369f5104d45f95cfcb327ecc55f29b79f2747d25fe52fc25839"}
+{"section": "4. Illustration of PROV-DM by an Example", "seq": 44, "sha256": "8cd2f7221e158db25e9d897046d128e5a261403654e3f46740135b92b4b942c6"}
+{"section": "4.1 Example: The Authors View", "seq": 45, "sha256": "858765a84c641d15ce99f67100ffba854ee22cff7f1188a4c310edd73537217c"}
+{"section": "4.1 Example: The Authors View", "seq": 46, "sha256": "d87f09cca80090830e8f11103cc035a35c0462ab039059e80b5c02e9621c8516"}
+{"section": "4.1 Example: The Authors View", "seq": 47, "sha256": "6344ff204f23ec02e748268fadc1741c4f2565e2dd94e8cbea7123616479f624"}
+{"section": "4.2 Example: The Process View", "seq": 48, "sha256": "25569e58d9305737f492a6c4f0edb689d9e31a48a7d8e4207e46aa2e38cee5b6"}
+{"section": "4.2 Example: The Process View", "seq": 49, "sha256": "440304fe2cf5ee9d520c1ce288a8b611a86b6eb1cafde7f8513810d67d2835bf"}
+{"section": "4.2 Example: The Process View", "seq": 50, "sha256": "369b1f137374d81dda0e0bff62d8f1c1050eb4488cc7e13635cf869b8d8a65ca"}
+{"section": "4.2 Example: The Process View", "seq": 51, "sha256": "5e3154030224184686c15189c6a96d18897ef00e7fe681f4db96b8151807f2ff"}
+{"section": "4.2 Example: The Process View", "seq": 52, "sha256": "4c12a9ca6010c2b28e7e2d3ea4ccda94eaa4dc7f44ccd6019be5a1a98d6d115b"}
+{"section": "4.3 Example: Attribution of Provenance", "seq": 53, "sha256": "b017c0ef743a451487589a10445221bdd685396d7f498b51e13317b4b14c6a0c"}
+{"section": "4.3 Example: Attribution of Provenance", "seq": 54, "sha256": "7a4ff892332783035e680e705691ed96589e751d2521f2a09480145789dc72e9"}
+{"section": "5. PROV-DM Types and Relations", "seq": 55, "sha256": "2ccce017980d632cf133696f9693c1084b3a6b7c070e67d2c7df7ee19c573b35"}
+{"section": "5. PROV-DM Types and Relations", "seq": 56, "sha256": "43787e4cc1a99f73914881ddd49340fd7f5481cb8d9b3133064e9e8c072a17d0"}
+{"section": "5. PROV-DM Types and Relations", "seq": 57, "sha256": "f3d69bc7fabedb1eb4b6e16e841ebe758a584c10a2abed8145260bdf6d81824b"}
+{"section": "5. PROV-DM Types and Relations", "seq": 58, "sha256": "0d87c29552c091fac6a7b92f47e4ba131d74839d3a29844b09bdfd39d2f340ab"}
+{"section": "5. PROV-DM Types and Relations", "seq": 59, "sha256": "3054f0edd05f6a7606b14601bf5b3ab25191105063527f3fd614315f46499ec1"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 60, "sha256": "408923edfc715cb16e7a22b85fab13b2cb5812edf706687c7eae01add20fba4e"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 61, "sha256": "0c0219019dd03295573946d255996d0ecc14732df4db4904803a7200316e4751"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 62, "sha256": "037d6b25deed69b9c784906f93131b0e53190011b5ca559bd5510f340bacb4c6"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 63, "sha256": "5e585c2c0d9dba280740bf2bd91be5e9353e0219835ccf69e736642418b04eb2"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 64, "sha256": "ef651ef9febf91133ce513478d3c6afe0b927f6a8ed8e40747e96b0614ba6387"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 65, "sha256": "2ce6d67e21bf0510acfd302aeb0ff2906eed4723c1a6a1e6692357cdb7c5f3e1"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 66, "sha256": "d2fe13fe928825ddfeff7e9861da6c2908aafbd1ef82130f818838d876e1eef4"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 67, "sha256": "1385e7f75d7028099bfa0804330bbf7bb7219d5ad6a1695417f9a322d6a3a7e5"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 68, "sha256": "5ae29d7c93df9e2086c3d7f5270b2ec617f6762edf34c3d81e9d96d1ef6e8455"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 69, "sha256": "bb50a0491572290568abe713306a66fe306ceb81909b650d60fcb23c62a495e6"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 70, "sha256": "a912b4b8a07b52ab9251c796b2d2b78c49eb75e248a3282bdf457922b402cbf6"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 71, "sha256": "7f8727383a6ed0b2f2260156826bf4850a21dc0b80fb902cc428395bdd5441bb"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 72, "sha256": "0c48da360d64441cab087a945e6909cb3167313bd6cbccff384cbe6bf2d9e3b7"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 73, "sha256": "c0f6c950dd3e2fa9162e1cefc48d9266cc7214f4a3c9f1d5b546a31a83f6daa4"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 74, "sha256": "2c78a8a5cdcd7b16d753a6e3d6cce7913fcb71765f1775fa7876e4319761d1a6"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 75, "sha256": "3dbcf0ce8e1580240abd8673a43104a200081af45891474579f285de487e0495"}
+{"section": "5.1 Component 1: Entities and Activities", "seq": 76, "sha256": "dc1cdd2d524183177dd951acd9461eadf130a5445771196494ab6526ee5e6ca3"}
+{"section": "5.2 Component 2: Derivations", "seq": 77, "sha256": "3c4b0d1b24202a2f0d2c47f4b8536e21dead73a35640523eac73de05b5bbb1fb"}
+{"section": "5.2 Component 2: Derivations", "seq": 78, "sha256": "4d724ea2b52f882b5cf1dd453da08a78485e060b55a144d3beedcdf3fc121d2d"}
+{"section": "5.2 Component 2: Derivations", "seq": 79, "sha256": "a247fbb0ec0faea8706f30b631d62a67537e827c87707cebb389f9fb3d39015e"}
+{"section": "5.2 Component 2: Derivations", "seq": 80, "sha256": "85e0285ad7c5bdb96b9fbffc8c520fce333df42180b22e0741e1ceb61a7ff8d5"}
+{"section": "5.2 Component 2: Derivations", "seq": 81, "sha256": "a8694086f62b73a9fccee43cf3fea1c794f1996022eb961fb77cf41a5c7ca846"}
+{"section": "5.2 Component 2: Derivations", "seq": 82, "sha256": "873a9b461ec13b65516169e72883ccd586ee9e4f6af3be7b01e0b454ef1bb16c"}
+{"section": "5.2 Component 2: Derivations", "seq": 83, "sha256": "c6f8facab0df1932caf8f6b7d4f1112f2ac6a4df18621e543a753de0d907231c"}
+{"section": "5.2 Component 2: Derivations", "seq": 84, "sha256": "065b06273397f16f567fd279005f25d6c7f801562cf43106db245787acb91cd7"}
+{"section": "5.2 Component 2: Derivations", "seq": 85, "sha256": "4abcfc1576830dfe829dfa05ce1e8b992f95dbc42f6b3de1726ba4a103bb0363"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 86, "sha256": "659875462f6d8f7cb5f55be46fea003a7d16c6f15ce34ff54763a121fcb03aee"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 87, "sha256": "3a70e4125b8588e5d1921dbdb07dda2e5343b21f86c9e4534f4bb025253c0ef1"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 88, "sha256": "8c597914bfbb380e52c267a941742227ebcd831d90880fefb7ed90aaad7f7191"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 89, "sha256": "89ed3dffc190b3fbdc26d2fc9895030df45a84e3a734c0d716a1255b50fd190d"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 90, "sha256": "41dab4713e5b69d61a0018f915490ede78ec01e82142b4bbc13b617175c11ee0"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 91, "sha256": "b6ccb737af5da817fdc6a178c95d38ac52d3cdb8ced02561582159664d3a3853"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 92, "sha256": "30f87dbf45c1e265a501aa7a367aa6e33612136d5af4cd5772a9d919d75ad6c0"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 93, "sha256": "2ad25b51569362770ec11fc5a2d2c62307305525b3c457dfc5bdfdb4df3d09fb"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 94, "sha256": "123de60f362b551b7d2e9ad39f8235240bc91ee90a578150bcf8f59d566c365c"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 95, "sha256": "4f3dc25aaaf9cf93f9259fc0e0ee7ace9044235bde9a1e14f866ffc467f66cbd"}
+{"section": "5.3 Component 3: Agents, Responsibility, and Influence", "seq": 96, "sha256": "829cac53968f3bb3fd0c70531ea5287c0dc8f9525c2aed1be89dff319bb9d0b6"}
+{"section": "5.4 Component 4: Bundles", "seq": 97, "sha256": "d395e1de5b105ce4c98db5ba2de3a39a4e57d669488a908a800436da40ec8c24"}
+{"section": "5.4 Component 4: Bundles", "seq": 98, "sha256": "03495c59982a0d5fcf20d5a7e503a7c785d775e0d064d1f7b4a3277bab0d5603"}
+{"section": "5.4 Component 4: Bundles", "seq": 99, "sha256": "5d93bbf0569dd43b284fbc55342b1cf3231c9c0d7d1b7b151f7b2e569df2cd23"}
+{"section": "5.4 Component 4: Bundles", "seq": 100, "sha256": "c4931bebbda1a1dedec5ac851f98023b198da73b2c57901b7de1f29e90ff3bf7"}
+{"section": "5.5 Component 5: Alternate Entities", "seq": 101, "sha256": "9308c22f7caf0ec5c003f65758129a0a5d67e787dc70a2862b77883fb882d2e8"}
+{"section": "5.5 Component 5: Alternate Entities", "seq": 102, "sha256": "c4af455fcaf25853cf6272dcdf2c955e68f7e3d80c117166c611447db756605a"}
+{"section": "5.5 Component 5: Alternate Entities", "seq": 103, "sha256": "76b4bec2995bfadaa818b98a7b9595f7ebdc4fcaef91606a8fcdd46645932576"}
+{"section": "5.5 Component 5: Alternate Entities", "seq": 104, "sha256": "f57e97ba4fcfbed4362963b20726b12fd67467f4588aed6ba36699b0e4a0f03b"}
+{"section": "5.6 Component 6: Collections", "seq": 105, "sha256": "d4271e38cd15f73abe69353e363e2075ffc601a024c330708c851fffc47ebd9e"}
+{"section": "5.6 Component 6: Collections", "seq": 106, "sha256": "a2ed67b13a9c1ddeb74544930c76c9f9f8bb37cc423a55e062996c666b695074"}
+{"section": "5.6 Component 6: Collections", "seq": 107, "sha256": "88a86b28d2e31dc4f83216244bb27167891e897e338c9c5bef039fd2a4a31c63"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 108, "sha256": "186b9efb23b169dd05fea5363b7c1e22b5d385aae14f659ae6c2c53596e9f7c2"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 109, "sha256": "cb0c1cbca4430dc2f1bd2402e04e0492092cc58b0b71ee9bc75585ab5d513ff3"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 110, "sha256": "7df412342d2d7c3f12cdafd32b4970af30edbfdeddea0e3c558da09668199d76"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 111, "sha256": "391b14d8116cdfb046f395001b0c03566d149a44f56db7332c88e83a60ab3d6b"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 112, "sha256": "e4350cdd22082ce0bf219c57b664ddfd9003b8f0550ce8b2756f93bbea46de06"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 113, "sha256": "2f2fbf617254f4e0b4ae5adcf0a11e59317e1f29ac5429dfd4e0f0ddba5f87e2"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 114, "sha256": "0ad351065105e950de0654a40457619b8e290e2773c7340f1104c94f833fdda4"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 115, "sha256": "88542d3b7f0511f5bb0ddc6a00be73c6bbe179b5a10546a4c784b2c504528923"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 116, "sha256": "ceff624df18f4d6703795b172e7c41ebaaa0de8baa166d86de65b7400ccf0b43"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 117, "sha256": "1c0334e2524c91bbb0cd9c5864bf8fc363d14dff6d6047e802fd8e915317a399"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 118, "sha256": "6b0b1220946eb29065995843b366736285aa7a61cd0b2ee06ec20c1e6ee51b29"}
+{"section": "5.7 Further Elements of PROV-DM", "seq": 119, "sha256": "f0bb880ef12e8e5621b66507c64ee21c524ae259443eb3d15a0fead5b1c33f36"}
+{"section": "6. PROV-DM Extensibility Points", "seq": 120, "sha256": "91e8b9780b886e5d9abf115640a4f89a55b8047f8c36264a08e8f31fa1bf42b2"}
+{"section": "6. PROV-DM Extensibility Points", "seq": 121, "sha256": "04af45e5fce03d3a48f988e4d93a6f4ceb816d0bc53e8571a518686a5c3c1eb6"}
+{"section": "7. Creating Valid Provenance", "seq": 122, "sha256": "6c3a87e16e606d5c8478f6756e30b3c79a28be791869a762aceb617f7911d23d"}
+{"section": "7. Creating Valid Provenance", "seq": 123, "sha256": "8ff27d27b8c8260e3afcd034d557a5c9035343937816f596897b2f6f3bef7a39"}
+{"section": "A. Cross-References to PROV-O and PROV-N", "seq": 124, "sha256": "0ceb6f703c136252411eae8cf8a33fea0e60dcbd231e22bc96f41ae6de959dc7"}
+{"section": "A. Cross-References to PROV-O and PROV-N", "seq": 125, "sha256": "df2140bd077b186bd2fbfe96f7368c8a76918d3811b9aca96858535e6a91df97"}
+{"section": "B.1 Changes since Proposed Recommendation", "seq": 126, "sha256": "791135aa35e0fa220c98f3fd153bab802261c7bc95798e3c995bfee19fd65e2c"}
+{"section": "B.2 Changes since Candidate Recommendation", "seq": 127, "sha256": "0a5678a3eef360f042abf28082279409dfcd4abd3e50b59768ad2d71b5815290"}
+{"section": "B.3 Changes since Last Call", "seq": 128, "sha256": "ea7ded448bf78e966cb492d0db6d50964a424f8d016c49aca76ea4315283f4c4"}
+{"section": "B.3 Changes since Last Call", "seq": 129, "sha256": "3a096c6582f8091623a41d90c2192b63ab98666c1abeefe7cfc16fbfdb9d8886"}
+{"section": "B.3 Changes since Last Call", "seq": 130, "sha256": "171af91b21d0623eaa08fd225894fb3c125472b67f6b40e1d6717bfc2520c68f"}
+{"section": "C. Acknowledgements", "seq": 131, "sha256": "18e2592b8446d39ed8fb3399e886522d5443e296f1f698bb3fed7e84006ef66b"}
+{"section": "C. Acknowledgements", "seq": 132, "sha256": "4badc40e81d5ff47da47d08c5e7f72de56ae6533951439d3b69009d0ba0f2e59"}
+{"section": "C. Acknowledgements", "seq": 133, "sha256": "9326755c76c788df31ba3327761979d1cca7c3db0e8c50dd3de4788c77c78229"}
+{"section": "D.1 Normative references", "seq": 134, "sha256": "8813c97a133327b539c7aba4aa7a8479bf5a15014188285202515c1344cccd71"}
+{"section": "D.1 Normative references", "seq": 135, "sha256": "97ddba05397b8677c03734009691d50ff5618e67784d9ed5a77ff51fda2712b8"}
+{"section": "D.2 Informative references", "seq": 136, "sha256": "cbcbb2ac0259cba8e6dc2b67edf6e8891925349153c03d09e59b1a79db5f1a74"}
+{"section": "D.2 Informative references", "seq": 137, "sha256": "0385690277fafde84f813b950f04e9fbba2fdc6ddbd733aca017cdd8432bedc1"}

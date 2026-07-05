@@ -1,0 +1,8 @@
+Teams at Google have gotten a lot of traction from taking a model predicting the
+closeness of a connection in one product, and having it work well on another. Your friends are who they are. On the other hand, I have watched several teams
+struggle with personalization features across product divides. Yes, it seems
+like it should work. For now, it doesn’t seem like it does. What has sometimes
+worked is using raw data from one property to predict behavior on another. Also,
+keep in mind that even knowing that a user has a history on another property can
+help. For instance, the presence of user activity on two products may be
+indicative in and of itself.

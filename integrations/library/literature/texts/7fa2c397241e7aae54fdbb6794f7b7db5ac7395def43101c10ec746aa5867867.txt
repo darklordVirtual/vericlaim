@@ -1,0 +1,29 @@
+across three configurations: only PromptGuard V2 86M, only AlignmentCheck with Llama 4 Maverick, and the combined setup using both PromptGuard 2 86M and AlignmentCheck powered with Llama 4 Maverick. No Guardrail (Baseline)
+
+PromptGuard V2 86M
+
+AlignmentCheck Llama 4 Maverick
+
+Combined
+
+ASR (Lower is better)
+
+.1763
+
+.0753
+
+.0289
+
+.0175
+
+Utility (Higher is better)
+
+.4773
+
+.4701
+
+.4309
+
+.4268
+
+The baseline AgentDojo Eval set without any defense exhibited an attack success rate (ASR) of 17.6% and a task utility of 47.7%. Applying PromptGuard V2 86M alone reduced the ASR to 7.5%, a 57% drop, while maintaining utility at 47.0%, demonstrating that lightweight, pattern-based detection offers solid protection with negligible performance tradeoff. However, it is important to note that the AgentDojo evaluation set focuses primarily on a narrow class of attacks—specifically those targeting ’important instructions’. In more generalized or diverse adversarial settings, PromptGuard alone may not suffice, leaving gaps in protection that AlignmentCheck effectively addresses by detecting more subtle, semantic forms of goal hijacking.

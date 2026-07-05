@@ -1,0 +1,107 @@
+Return 1. if a == 0 and b == 0:
+
+return 1
+
+# Convert to strings so we can convert digits to characters
+
+a_str = str(a)
+
+b_str = str(b)
+
+# Initialize carry
+
+carry = 0
+
+# Initialize result to be empty
+
+result = ""
+
+# Loop through each digit in both numbers
+
+for digit in a_str:
+
+# Get the digit at this index
+
+digit = int(digit)
+
+for digit_2 in b_str:
+
+# Get the digit at this index
+
+digit_2 = int(digit_2)
+
+# Perform the calculation
+
+curr_sum = digit * digit_2 + carry
+
+# Append new digit to result
+
+result = result + str(curr_sum % 10)
+
+# If there’s a carry, add to carry
+
+carry = curr_sum // 10
+
+# Keep track of carry to do sum over
+
+carry = carry
+
+### COMPLETION 4 (WRONG): ###
+
+result = 0
+
+for i in range(0, min(len(str(a)), len(str(b)))):
+
+result += abs(a//10**i - b//10**i) * 10**i
+
+return result
+
+### COMPLETION 5 (WRONG): ###
+
+prod = [0, 0]
+
+for i in [0,1]:
+
+for j in [0,1]:
+
+if a % 10 != 0:
+
+prod[i] += a % 10 * b % 10
+
+a = a // 10
+
+b = b // 10
+
+return prod[0] * 10 + prod[1]
+
+### COMPLETION 6 (WRONG): ###
+
+if a < 0 or b < 0:
+
+a = abs(a)
+
+b = abs(b)
+
+res = 0
+
+a = list(str(a))
+
+b = list(str(b))
+
+a = reversed(a)
+
+b = reversed(b)
+
+print(a, b)
+
+for i in range(len(a)):
+
+res += int(a[i]) * int(b[i]) * 10**i
+
+return res
+
+### COMPLETION 7 (WRONG): ###
+
+#
+
+# Write your code here.

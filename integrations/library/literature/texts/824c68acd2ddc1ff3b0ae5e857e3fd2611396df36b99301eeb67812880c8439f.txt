@@ -1,0 +1,32 @@
+We emphasize that while this model extraction attack is simple and non-adaptive, it affects all of the ML services we have investigated. Such equation-solving attacks extend to multiclass logistic regressions and neural networks, but do not work for decision trees, a popular model
+choice. (BigML, for example, initially offered only decision trees.) For decision trees, a confidence value reflects the number of training data points labeled correctly on an input’s path in the tree; simple equation-solving is thus inapplicable. We show how confidence values can nonetheless be exploited as pseudo-identifiers for paths in the tree, facilitating discovery of the tree’s structure. We demonstrate successful model extraction attacks that use adaptive, iterative search algorithms to discover paths in a tree. Service
+
+Model Type
+
+Data set
+
+Queries
+
+Time (s)
+
+Amazon
+
+Logistic Regression
+
+Digits
+
+Logistic Regression
+
+Adult
+
+BigML
+
+Decision Tree
+
+German Credit
+
+Decision Tree
+
+Steak Survey
+
+Table 1: Results of model extraction attacks on ML services. For each target model, we report the number of prediction queries made to the ML API in an attack that extracts a 100% equivalent model.

@@ -1,0 +1,5 @@
+Unlike in classical learning theory settings, ML-as-a-service offerings may accept partial feature vectors as inputs and include confidence values with predictions. Given these practices, we show simple, efficient attacks that extract target ML models with near-perfect fidelity for popular model classes including logistic regression, neural networks, and decision trees. We demonstrate these attacks against the online services of BigML and Amazon Machine Learning. We further show that the natural countermeasure of omitting confidence
+values from model outputs still admits potentially harmful
+model extraction attacks. Our results highlight the need for careful
+ML model deployment and new model extraction countermeasures. 00footnotetext: This is an extended version of a paper that appeared at USENIX
+Security, 2016.

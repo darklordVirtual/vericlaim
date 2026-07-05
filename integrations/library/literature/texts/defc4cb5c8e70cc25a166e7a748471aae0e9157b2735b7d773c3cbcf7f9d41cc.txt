@@ -1,0 +1,11 @@
+In
+particular, it does not evaluate the features in nor the
+functional form of the predictor nor how it was derived. This matches other tests recently proposed and conducted, including
+demographic parity and different analyses of common risk scores. In
+many cases, only oblivious analysis is possible as the functional form
+of the score and underlying training data are not public. The only
+information about the score is the score itself, which can then be
+correlated with the target and protected attribute. Furthermore, even
+if the features or the functional form are available, going beyond
+oblivious analysis essentially requires subjective interpretation or
+casual assumptions about specific features, which we aim to avoid.

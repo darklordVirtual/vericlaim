@@ -1,0 +1,31 @@
+It is also worth noting the similarity between matching frequencies
+and a binary predictor having equal conditional precision,
+that is . Viewing as a score that takes two
+possible values, the notions agree. But having matching
+conditional frequencies does not imply the threshold predictors
+will have matching precision—the
+conditional distributions might be different, and these are
+involved in marginalizing over and . To summarize, the properties of the scores in our scenarios are:
+
+•
+
+is optimal based on the features and protected attribute,
+without any constraints. •
+
+is optimal among all equalized odds scores. •
+
+does satisfy equal odds, does not satisfy equal odds. •
+
+has identical (thus matching) ROC curves,
+has matching but non-identical ROC curves. •
+
+has matching conditional frequencies, while
+does not. Proof of Proposition 6.1
+
+First consider Scenario I. The score obeys equalized
+odds due to the dependency structure. More broadly, if a score
+obeys equalized odds, for some randomized function
+, it cannot depend on : conditioned on , is
+independent of , and so any dependency of on would
+create a statistical dependency on (still conditioned on
+) which is not allowed.

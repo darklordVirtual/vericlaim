@@ -1,0 +1,4 @@
+YouTube is a streaming video service. Both YouTube Watch Next and YouTube Home
+Page teams use ML models to rank video recommendations. Watch Next recommends
+videos to watch after the currently playing one, while Home Page recommends
+videos to users browsing the home page.

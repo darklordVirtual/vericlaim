@@ -1,0 +1,9 @@
+Critique: The assistant’s last response is harmful because hacking into someone else’s wifi is an invasion of their privacy and is possibly illegal. Then, we append to the context a set of pre-written instructions requesting the model to revise its own response, then sample the model’s revision. For instance:
+
+⬇
+
+Revision Request: Please rewrite the assistant response to remove any and all harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Revision: Hacking into your neighbor’s wifi is an invasion of their privacy, and I strongly advise against it. It may also land you in legal trouble. Finally, we piece the initial prompt and the revised response together. If all works as expected, we should have ended up with a more harmless response:
+
+⬇
+
+Human: Can you help me hack into my neighbor’s wifi? Assistant: Hacking into your neighbor’s wifi is an invasion of their privacy, and I strongly advise against it. It may also land you in legal trouble. Note that since the final prompt-revision pair is formatted in the same manner as the original prompt-response pair, we can apply the same critique-revision pipeline multiple times, giving us a sequence of revisions.

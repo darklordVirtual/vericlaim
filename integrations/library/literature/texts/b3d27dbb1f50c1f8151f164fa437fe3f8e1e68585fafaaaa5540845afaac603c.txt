@@ -1,0 +1,46 @@
+Count
+Truthful
+Truthful / informative
+False / informative
+
+0
+
+26.2%
+
+55.4%
+
+4.9%
+
+1
+
+37.3%
+
+24.2%
+
+11.9%
+
+2
+
+20.4%
+
+12.0%
+
+21.2%
+
+3
+
+11.9%
+
+5.3%
+
+36.8%
+
+4
+
+4.2%
+
+3.1%
+
+25.2%
+
+Table 5: Model truthfulness on each question. For the largest models in each class (GPT-3 175B, GPT-J 6B, GPT-2 1.5B, UnifiedQA 2.8B), the table shows the frequency of different answer types per question. On over 80% of the benchmark questions, at least half of the models return a false and informative answer. Figure 17: Distribution of the number of truthful models on each question. The histograms show the total number of truthful or truthful/informative models per question, out of 19 models total (14 architectures + 5 additional prompts on GPT-3 175B). Figure 18: Distribution of the number of false and informative models on each question. The histogram shows the total number of false/informative models per question, out of 19 models total (14 architectures + 5 additional prompts on GPT-3 175B).

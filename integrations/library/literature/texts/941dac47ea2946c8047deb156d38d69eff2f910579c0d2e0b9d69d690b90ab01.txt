@@ -1,0 +1,11 @@
+777--789, Jeju Island, Korea, July 2012. Association for
+Computational Linguistics. URL https://aclanthology.org/D12-1071. Rai & Chakraverty (2020)
+
+Sunny Rai and Shampa Chakraverty. A survey on computational metaphor processing. ACM Comput. Surv., 53(2), mar 2020. doi: 10.1145/3373265. URL https://doi.org/10.1145/3373265. Rajpurkar et al. (2016)
+
+Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. SQuAD: 100,000+ questions for machine comprehension of text. In Proceedings of the 2016 Conference on Empirical Methods in
+Natural Language Processing, pp. 2383--2392, Austin, Texas, November 2016. Association for Computational Linguistics. doi: 10.18653/v1/D16-1264. URL https://aclanthology.org/D16-1264. Rajpurkar et al. (2018)
+
+Pranav Rajpurkar, Robin Jia, and Percy Liang. Know what you don’t know: Unanswerable questions for SQuAD. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 2: Short Papers), pp. 784--789,
+Melbourne, Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/P18-2124. URL https://aclanthology.org/P18-2124. Rasmy et al.

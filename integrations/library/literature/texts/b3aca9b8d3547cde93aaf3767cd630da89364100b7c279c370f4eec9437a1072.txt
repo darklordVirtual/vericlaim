@@ -1,0 +1,9 @@
+. In the same setting, a maxout network misclassifies 89.4%
+of our adversarial examples with an average confidence of 97.6%. Similarly, using , we obtain an error rate of 87.15% and an average probability of
+96.6% assigned to the incorrect labels
+when using
+a convolutional maxout network on a preprocessed version of the CIFAR-10 (Krizhevsky & Hinton, 2009) test set222
+See https://github.com/lisa-lab/pylearn2/tree/master/pylearn2/scripts/papers/maxout. for the preprocessing code, which yields a standard deviation of roughly 0.5. . Other simple methods of generating adversarial examples are possible. For example, we also found that rotating
+by a small angle in the direction of the gradient reliably produces adversarial examples. The fact that these simple, cheap algorithms are able to generate misclassified examples serves as evidence in favor of our interpretation of adversarial
+examples as a result of linearity. The algorithms are also useful as a way of speeding up adversarial training or
+even just analysis of trained networks.

@@ -1,0 +1,5 @@
+We used the Adam optimizer [20] with , and . We varied the learning rate over the course of training, according to the formula:
+
+(3)
+
+This corresponds to increasing the learning rate linearly for the first training steps, and decreasing it thereafter proportionally to the inverse square root of the step number. We used .

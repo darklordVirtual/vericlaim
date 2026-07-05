@@ -1,0 +1,7 @@
+A* Hart et al. (1968b), MCTS Browne et al. (2012)) for future work:
+
+(a)
+
+Breadth-first search (BFS) (Algorithm 1) maintains a set of the most promising states per step. This is used for Game of 24 and Creative Writing where the tree depth is limit (), and initial thought steps can be evaluated and pruned to a small set (). (b)
+
+Depth-first search (DFS) (Algorithm 2) explores the most promising state first, until the final output is reached (), or the state evaluator deems it impossible to solve the problem from the current ( for a value threshold ). In the latter case, the subtree from is pruned to trade exploration for exploitation. In both cases, DFS backtracks to the parent state of to continue exploration. Conceptually, ToT has several benefits as a method for general problem-solving with LMs: (1) Generality. IO, CoT, CoT-SC, and self-refinement can be seen as special cases of ToT (i.e. trees of limited depth and breadth; Figure 1). (2) Modularity. The base LM, as well as the thought decomposition, generation, evaluation, and search procedures can all be varied independently. (3) Adaptability.

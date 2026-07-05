@@ -1,0 +1,15 @@
+URL
+https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html. Bugnyar et al. (2016)
+
+Thomas Bugnyar, Stephan A. Reber, and Cameron Buckner. Ravens attribute visual access to unseen competitors. Nature Communications, 7:article 10506, 2016. URL https://www.nature.com/articles/ncomms10506. Burlot et al. (2018)
+
+Franck Burlot, Yves Scherrer, Vinit Ravishankar, Ondřej Bojar, Stig-Arne
+Grönroos, Maarit Koponen, Tommi Nieminen, and François Yvon. The WMT’18 morpheval test suites for English-Czech,
+English-German, English-Finnish and Turkish-English. In Proceedings of the Third Conference on Machine Translation:
+Shared Task Papers, pp. 546--560, Belgium, Brussels, October 2018. Association for Computational Linguistics. doi: 10.18653/v1/W18-6433. URL https://aclanthology.org/W18-6433. Böhm (1964)
+
+Corrado Böhm. On a family of Turing machines and the related programming
+language. ICC Bulletin, 3:187--194, 1964. Cain & Oakhill (1999)
+
+Kate Cain and Jane V. Oakhill. Inference making ability and its relation to comprehension failure. Reading and Writing, 11(5–6):489--503,
+1999. doi: 10.1023/A:1008084120205.

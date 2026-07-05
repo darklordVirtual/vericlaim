@@ -1,0 +1,15 @@
+(b) Classification of AlfWorld trajectories by reason of
+failure. ReAct + Reflexion significantly outperforms ReAct by completing 130 out of 134 tasks
+using the simple heuristic to detect hallucinations and inefficient planning. Further,
+ReAct + Reflexion learns to solve additional tasks by learning in 12 consecutive
+trials. In the ReAct-only approach, we see that performance increase halts between
+trials 6 and 7. Analysis
+
+A common error in baseline failed AlfWorld trajectories is when an agent
+thinks that it has possession of an item but does not actually have the item. The
+agent proceeds to execute several actions in a long trajectory and is not able to
+backtrack its actions to find the mistake. Reflexion eliminates almost all of
+these cases by using self-reflection to distill long, failed trajectories
+into relevant experiences that can are used as "self-hints" in the future. There are two main cases in which long-term memory helps an agent in AlfWorld:
+1) An early mistake in a long trajectory can be easily identified. The agent
+can suggest a new action choice or even a new long-term plan. 2) There are too many surfaces/containers to check for an item.

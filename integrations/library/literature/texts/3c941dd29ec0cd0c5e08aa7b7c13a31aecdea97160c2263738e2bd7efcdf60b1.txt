@@ -1,0 +1,11 @@
+Here we show the distribution of keywords for BIG-bench (gray) and for BIG-bench Lite (maroon). \begin{overpic}[width=150.32503pt]{figures/BIG-G_T0_vs_BIG-G_sparse_%
+performance_by_keyword_averaged_over_overlapping_model_sizes.pdf}
+\put(0.0,1.0){{\small(a)}}
+\end{overpic}\begin{overpic}[width=150.32503pt]{figures/BIG-G_T0_vs_GPT_performance_by_%
+keyword_averaged_over_overlapping_model_sizes.pdf}
+\put(0.0,1.0){{\small(b)}}
+\end{overpic}\begin{overpic}[width=150.32503pt]{figures/BIG-G_T0_large_vs_BIG-G_T0_small_%
+performance_by_keyword.pdf}
+\put(0.0,1.0){{\small(c)}}
+\end{overpic}
+Figure App.6: Comparing different model classes across keywords. Box plots show the relative performance of (a) BIG-G and BIG-G sparse models, (b) BIG-G and GPT models, and (c) the largest and smallest BIG-G models. Comparisons are restricted to keywords with at least ten associated tasks, and for (a) and (b) are also restricted to models of similar scales (specifically, model sizes included cannot exceed the largest or smallest model sizes in the paired model class by more than a factor of two).

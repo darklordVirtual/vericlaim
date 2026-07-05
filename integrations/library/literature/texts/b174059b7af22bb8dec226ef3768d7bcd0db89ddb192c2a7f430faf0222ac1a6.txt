@@ -1,0 +1,3 @@
+leak various summary statistics about a private training
+set, while extraction against kernel logistic regression models [58]
+recovers significant information about individual training data points. The source code for our attacks is available online at https://github.com/ftramer/Steal-ML.

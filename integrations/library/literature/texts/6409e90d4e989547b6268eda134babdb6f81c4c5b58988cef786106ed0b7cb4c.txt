@@ -1,0 +1,8 @@
+Traditional computer vision systems rely on feature extraction:
+often a single feature is easily interpretable, e.g. a histogram of colors, or quantized local derivatives. This allows one to
+inspect the individual coordinates of the feature space, and link them back to meaningful variations in the input domain. Similar reasoning was used in previous work that attempted to analyze neural networks that were applied to computer vision problems. These works interpret an activation of a hidden unit as
+a meaningful feature. They look for input images which maximize the activation value of this single feature [6, 13, 7, 4]. The aforementioned technique can be formally stated as visual inspection of images , which satisfy (or are close to maximum attainable value):
+
+where is a held-out set of images from the data distribution that the network
+was not trained on and is the natural basis vector associated with the -th hidden unit. Our experiments show that any random direction gives rise to similarly interpretable
+semantic properties.

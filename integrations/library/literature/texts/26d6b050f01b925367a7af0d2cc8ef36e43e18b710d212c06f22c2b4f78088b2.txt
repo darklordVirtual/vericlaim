@@ -1,0 +1,9 @@
+As Table 1 shows, depending on different problems, a thought could be a couple of words (Crosswords), a line of equation (Game of 24), or a whole paragraph of writing plan (Creative Writing). In general, a thought should be “small” enough so that LMs can generate promising and diverse samples (e.g. generating a whole book is usually too “big” to be coherent), yet “big” enough so that LMs can evaluate its prospect toward problem solving (e.g. generating one token is usually too “small” to evaluate). 2. Thought generator . Given a tree state , we consider two strategies to generate candidates for the next thought step:
+
+(a)
+
+Sample i.i.d. thoughts from a CoT prompt (Creative Writing, Figure 4): . This works better when the thought space is rich (e.g. each thought is a paragraph), and i.i.d. samples lead to diversity;
+
+(b)
+
+Propose thoughts sequentially using a “propose prompt” (Game of 24, Figure 2; Crosswords, Figure 6): . This works better when the thought space is more constrained (e.g. each thought is just a word or a line), so proposing different thoughts in the same context avoids duplication. 3. State evaluator .

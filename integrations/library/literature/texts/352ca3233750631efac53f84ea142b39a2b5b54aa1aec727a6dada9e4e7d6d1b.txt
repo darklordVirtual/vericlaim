@@ -1,0 +1,8 @@
+This makes them more dangerous, e.g., they can extract secrets such as verbatim social security numbers or passwords. Training data extraction attacks have until now been limited to small LMs
+trained on academic datasets under artificial training setups (e.g., for more epochs than typical) [8, 66, 68, 73],
+or settings where the adversary has a priori knowledge of the secret they want to extract (e.g., a social security number) [8, 27]. Protecting Privacy. An approach to minimizing memorization of training data is to apply differentially-private training techniques
+[60, 9, 64, 1, 43]. Unfortunately, training models with differentially-private mechanisms
+often reduces accuracy [34] because
+it causes models to fail to capture the long tails of the data distribution [67, 19, 20]. Moreover, it increases training time, which can further reduce accuracy because
+current LMs are limited by the cost of training [35, 38, 55]. As a result, state-of-the-art LMs such as GPT-2 [53], GPT-3 [7], and T5 [55] do not apply these
+privacy-preserving techniques.

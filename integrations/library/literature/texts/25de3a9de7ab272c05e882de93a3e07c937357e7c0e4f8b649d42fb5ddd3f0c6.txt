@@ -1,0 +1,7 @@
+70--76, Online,
+July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-demos.10. URL https://aclanthology.org/2020.acl-demos.10. Gehman et al. (2020)
+
+Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah A. Smith. RealToxicityPrompts: Evaluating neural toxic degeneration in
+language models. In Findings of the Association for Computational Linguistics:
+EMNLP 2020, pp. 3356--3369, Online, November 2020. Association for
+Computational Linguistics. doi: 10.18653/v1/2020.findings-emnlp.301. URL https://aclanthology.org/2020.findings-emnlp.301. Gehrmann et al.

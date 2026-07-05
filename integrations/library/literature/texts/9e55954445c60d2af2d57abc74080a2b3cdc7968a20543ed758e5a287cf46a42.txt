@@ -1,0 +1,20 @@
+Springer, 2014. Clement et al. (2020)
+
+Clement, C., Drain, D., Timcheck, J., Svyatkovskiy, A., and Sundaresan, N. Pymt5: Multi-mode translation of natural language and python code
+with transformers. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 9052–9065, 2020. Crawford (2017)
+
+Crawford, K. The trouble with bias. NIPS 2017 Keynote, 2017. URL https://www.youtube.com/watch?v=fMym_BKWQzk. Crawford (2021)
+
+Crawford, K. Atlas of AI: Power, Politics, and the Planetary Costs of
+Artificial Intelligence. Yale University Press, 2021. Dai & Le (2015)
+
+Dai, A. M. and Le, Q. V. Semi-supervised sequence learning. Advances in neural information processing systems,
+28:3079–3087, 2015. Das et al. (2017)
+
+Das, A., Kottur, S., Gupta, K., Singh, A., Yadav, D., Moura, J. M., Parikh, D.,
+and Batra, D. Visual dialog. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pp. 326–335, 2017. Davis (2018)
+
+Davis, B. Protecting applications with automated software diversity, Sep 2018. URL
+https://galois.com/blog/2018/09/protecting-applications-with-automated-software-diversity. Dehghani et al.

@@ -1,0 +1,86 @@
+{"fsid": "arxiv_2302-04761", "n": 85, "overlap": 200, "source_sha256": "d00e95493c6a8dd249ab352b30a0d84bb72e533cfa177e7a33aa1f381f98b49f", "target": 1200}
+{"section": "", "seq": 0, "sha256": "f8f776f547a2e24f187a1a403196f8462e344637a12d0f8e3a8919b58f7b352b"}
+{"section": "Toolformer: Language Models Can Teach Themselves to Use Tools", "seq": 1, "sha256": "a78ee54c5824b799e43e2569909871237415d717de32f5b3a914032d8baf3217"}
+{"section": "Toolformer: Language Models Can Teach Themselves to Use Tools", "seq": 2, "sha256": "c83b75ee5516632304323db261e91734b9667d618d771d98d764db83d164aeb1"}
+{"section": "1 Introduction", "seq": 3, "sha256": "2a146b086bc0851f169813f754caf779961cee47b03d808b531cee2605ca9b27"}
+{"section": "1 Introduction", "seq": 4, "sha256": "e8d7281cf75f07c0f8231280f6e77154315eea21eb82e03b5c2171f8e94adf81"}
+{"section": "1 Introduction", "seq": 5, "sha256": "b93b747755bf3535cb482b18c061684ba50fe5018050efa95844312542543014"}
+{"section": "1 Introduction", "seq": 6, "sha256": "8826decf56f7226cc1a6ee5b25324b23ae1b56389b4f62595f2ec1d09defd253"}
+{"section": "1 Introduction", "seq": 7, "sha256": "671bf940c99dbac6ac68265660ae525d34df371cb9a9644af2021fd71d5aa442"}
+{"section": "2 Approach", "seq": 8, "sha256": "78664e6f220c7df8dc0d00a39f7269ad1a4634f422a56de99f29b97d5d944d49"}
+{"section": "2 Approach", "seq": 9, "sha256": "69714ced1643eb12068c4c47a19d5b0970139b652c10d59334f3bd6377f48fb7"}
+{"section": "2 Approach", "seq": 10, "sha256": "c5b89dbe273cd213db7a2563055380060da0dc6566d81d9673bc778ac79a63c4"}
+{"section": "2 Approach", "seq": 11, "sha256": "d3d584dd8e01f0286285b0842dde2dd91d7ac2ead80ed123009d976c8056b9f5"}
+{"section": "2 Approach", "seq": 12, "sha256": "965315fa7ef482461f21a012b15508fc1f83b10d3807cfdcf21420b650cd82d0"}
+{"section": "2 Approach", "seq": 13, "sha256": "7c8c13c4c814c6e69a586a4fda44d8ace32adaceccbe6b9db64f126455667a98"}
+{"section": "3 Tools", "seq": 14, "sha256": "04393a195e17c084860a22c1a233abb35ad373bbab0f871dc4b819b6f8938854"}
+{"section": "3 Tools", "seq": 15, "sha256": "baba0be9f32a0c9a2799d73607c3643cf642fffd07519402edea156ebc2516a6"}
+{"section": "3 Tools", "seq": 16, "sha256": "db36b3c5890d4f0d14d83ca2d272d98b143deb8a28b7e309498c0e5e0526d92d"}
+{"section": "4 Experiments", "seq": 17, "sha256": "6f2737e4b2b24e30062f9b5f25923e9cb42c3b4675dab25570fe25fe9cfdc2c0"}
+{"section": "4.1 Experimental Setup", "seq": 18, "sha256": "638398407ce2e7c449d08ad7923379d00a7a409043c1e910f38248eca698d5bb"}
+{"section": "4.1 Experimental Setup", "seq": 19, "sha256": "0fdd95424d7bbb42e3e715ef1b98011484cd50243ebae97c53b4dbc2aaf390d5"}
+{"section": "4.1 Experimental Setup", "seq": 20, "sha256": "dd028643bb5b784738b34259f72bbe4de73cfaffa087fa2f485054006a1971de"}
+{"section": "4.2 Downstream Tasks", "seq": 21, "sha256": "5a1dcf6c5d083cae44d58617c7d77ac64cf72e0bae4f8790e497368287e91eec"}
+{"section": "4.2 Downstream Tasks", "seq": 22, "sha256": "64f329691b862bf9568c9560b8c792c8295f4fb913224f9d2cdad60a18662ba0"}
+{"section": "4.2 Downstream Tasks", "seq": 23, "sha256": "223f159ebff10aeaec199f46112f5e99ffbbd33e3ba45646e8cf3c7fd19adf41"}
+{"section": "4.2 Downstream Tasks", "seq": 24, "sha256": "5e5d664e1b10507dbedeef4d64a282a187c999ed6b5d4461c8762b841872c889"}
+{"section": "4.2 Downstream Tasks", "seq": 25, "sha256": "97ced9fb72b274d55977d2705381cda98fc6c11ff3eb25bc1a888b878eafc881"}
+{"section": "4.2 Downstream Tasks", "seq": 26, "sha256": "a6a54b3667a9b9e796a186cafe30dfa0016d902e663aed8dbd4c99ccef84631b"}
+{"section": "4.2 Downstream Tasks", "seq": 27, "sha256": "afea63f56cc5b2789e245f4fcb63506f6de64f88996facaad1065e6e32586ac2"}
+{"section": "4.2 Downstream Tasks", "seq": 28, "sha256": "3cdcb0f7df54147f5940020c731a10dc92c87de58791585ada47e474b91ab906"}
+{"section": "4.2 Downstream Tasks", "seq": 29, "sha256": "bdb356425292e318887cae0fb421363d5d63d85cdba537aa4c109682613ab1c5"}
+{"section": "4.2 Downstream Tasks", "seq": 30, "sha256": "27bf0990c7b03c21e0172cef7a4e58ef33aa7eb57992e1b9bdc9e5fcdbdd5e7b"}
+{"section": "4.2 Downstream Tasks", "seq": 31, "sha256": "36194abcb2281ec1d5b6b3a3cd01346430f2563550c9f82d58c858776e9470f4"}
+{"section": "4.2 Downstream Tasks", "seq": 32, "sha256": "765f07716bc7ead5463310dea4b4f07cc6c5e92722e9e18a25c5c4b231895cd3"}
+{"section": "4.2 Downstream Tasks", "seq": 33, "sha256": "92edddd5a66da107842ca2ac1f15b14f45fc38cd6a98285bdd32364a1c0d39b7"}
+{"section": "4.3 Language Modeling", "seq": 34, "sha256": "2ec2e80cf5552899a515fcbff3a3a7c9c7435728a1bee0b78e0930744d8dced9"}
+{"section": "4.3 Language Modeling", "seq": 35, "sha256": "db7043ef54bf46f14169ca42421ed2cef2ac1a43ff166f2f795439f1b996e8ab"}
+{"section": "4.4 Scaling Laws", "seq": 36, "sha256": "728203642a0014140f990a5f67c2e4440a86ceb330ee8f2c6ba1b0fd5061209e"}
+{"section": "4.4 Scaling Laws", "seq": 37, "sha256": "a8618dafeaa7ff9f44eb2897de3988d3e085e2db779a765e0ad5185625d645b2"}
+{"section": "5 Analysis", "seq": 38, "sha256": "06cbc3eb600f1f53493e7428328dfb5766f77354b66abeeb8fd33e75ca93fed4"}
+{"section": "5 Analysis", "seq": 39, "sha256": "90974e7f35888e919d36b09a025934b2f8a9a236f2c3932e640e2f351f054a14"}
+{"section": "5 Analysis", "seq": 40, "sha256": "445b818ccf8d267582dc72905379da50019ad24253a22a334967cdda64c6072a"}
+{"section": "5 Analysis", "seq": 41, "sha256": "35d630f7099c6c7dc007815b4203b7e193c5fd06d89a0cd9679c43416beb0c0f"}
+{"section": "5 Analysis", "seq": 42, "sha256": "33477f895f7c7eb91af6a0347affc68fcae59fe3d99719ff77c961184b7d6d36"}
+{"section": "6 Related Work", "seq": 43, "sha256": "0325ca870e1d056d42e84bb870a53f9c20fcfac9020aea536d29e6a13fe11990"}
+{"section": "6 Related Work", "seq": 44, "sha256": "1b1ac26696b6ce6e53a660566d205fb06076e57fce90c6ff9b27eaef0fa45050"}
+{"section": "6 Related Work", "seq": 45, "sha256": "c4b9d2fecc31e4b7e4677fa55a57766ec8388f3daa1654905a26a68afc4b9ed9"}
+{"section": "7 Limitations", "seq": 46, "sha256": "bb3d36274d5cfe12b9448bd9585c0cb6997b5e96276824b96977a00239e57bd8"}
+{"section": "7 Limitations", "seq": 47, "sha256": "6bc3d03b481e8b50407cb21c62a1cc1f570383a0af8cd7a3cfab9981b2d511da"}
+{"section": "8 Conclusion", "seq": 48, "sha256": "e7000b575ad192ff03f4af290f4ad40e4e81dd45e16230b10b39c1e95aeec602"}
+{"section": "References", "seq": 49, "sha256": "8afe9479e1cc7358c8204d8692d0602516f29c6f10bb6ae1c21c7e01e77f7275"}
+{"section": "References", "seq": 50, "sha256": "ec72d1ad482d149878b4bd544888a68515f49cbdbbe3fb6b6afe59f6ef623ecd"}
+{"section": "References", "seq": 51, "sha256": "ea737f09945120ee7223611631ecd0698b2d09f94c296090a220b63e9d485289"}
+{"section": "References", "seq": 52, "sha256": "0e908843cd503d077b8ba41c2279bba1cc3891bbde52103f031b71f89e4b246e"}
+{"section": "References", "seq": 53, "sha256": "919856a6344d2c345a0b15ed2b350872f7a547cc46ffbb23de3ba05593e414e2"}
+{"section": "References", "seq": 54, "sha256": "fe3a55c09046e08e57c61fea8b42122a182bef43752b5511bee10fd7fa2b9c6c"}
+{"section": "References", "seq": 55, "sha256": "64be5f62b52cc9e34f5f51e24dacdbb02c8a01c9f3c97f7fcc4780a107fa6b84"}
+{"section": "References", "seq": 56, "sha256": "44a83aa40f087a47ae46446c8dcef8d4d2094fca393db93ce5dd3910b31e771a"}
+{"section": "References", "seq": 57, "sha256": "9061afcdf45bb2c8e40b255061a4af29cadb39c699c9b76a158420d0612866df"}
+{"section": "References", "seq": 58, "sha256": "00d8e554704ebb39ffab3a6448f2ec066de005edb60213aa8d4a4339fd641583"}
+{"section": "References", "seq": 59, "sha256": "471452241f0dff1053e78a759e20bfa0b8479d8d3b6cd6544d7b8aeb0f62bead"}
+{"section": "References", "seq": 60, "sha256": "0c1ba4174c8825ec32a251498ceae1b764df6848c73d1ee5c545637ea819e05f"}
+{"section": "References", "seq": 61, "sha256": "215c23a13042a8b0a84eaea3fabbb8c0c9efff76404b49af0b7a4523a1c92d14"}
+{"section": "References", "seq": 62, "sha256": "d0e500697ea0363291d0c125f7afd81352f83a9dde248bf61ef11a59fb67d2c0"}
+{"section": "References", "seq": 63, "sha256": "5e2e30379591fa78139770f0f1936624cc6e3efe50b69c83564a53ed833ff7d8"}
+{"section": "References", "seq": 64, "sha256": "6c51b578ac77cee585dcc06cfb8d3e594b80c36855fee29e402f4a7fb07da61b"}
+{"section": "References", "seq": 65, "sha256": "3933ded4f4648be3852b5d02cd248760d48646edbd0711970d42f0595cd5698f"}
+{"section": "References", "seq": 66, "sha256": "42c269199be145207a4ab9a8e9238589cc3645c91b3008fb787c4543de68add6"}
+{"section": "References", "seq": 67, "sha256": "89fb1583a0f883390305b88d1cfd8faf07a3b66302d5d23304dc18543ec3d0f8"}
+{"section": "Appendix A API Details", "seq": 68, "sha256": "535a0d7e5c86dc70bd9af5255478e6a920ce6eebeb891e58d32a518642269b49"}
+{"section": "A.1 Implementation", "seq": 69, "sha256": "721bdb803efc06b1bd62ade988dfbe95c4474b2517488872d91f03d7ba21cffb"}
+{"section": "A.1 Implementation", "seq": 70, "sha256": "6543c5625c7bebe433780d4891ea1f420bc555d3f3e2e850c8cd5a65df47044d"}
+{"section": "A.1 Implementation", "seq": 71, "sha256": "b9df920819b6274b10c696a62a8f16083c47a23e6bcffaa9246aec0a484341f7"}
+{"section": "A.2 Prompts", "seq": 72, "sha256": "1d868d45958d2284a2f7d42dacdd51fce756a34138c97a03b5521223a39810a5"}
+{"section": "A.2 Prompts", "seq": 73, "sha256": "5afe5a89a52b9dceea0ec7259c5497f320452cd5950ab300b469f5e632879f61"}
+{"section": "A.2 Prompts", "seq": 74, "sha256": "da33466f754b87fe43c9eae9dda6a607b966de3adca217d20a249b8cd7ebab5b"}
+{"section": "A.2 Prompts", "seq": 75, "sha256": "916244fc4af7f87a71826c2e119c529c9151b9875bb4134cc0be0edab291911f"}
+{"section": "A.2 Prompts", "seq": 76, "sha256": "a967416f25858bc2c2c293a80cba6da4b24db836da5c304db2b34f7d673b0946"}
+{"section": "A.2 Prompts", "seq": 77, "sha256": "4530209030e6de48088467b32cef57be943434d71622b9a606c8d63aa099b808"}
+{"section": "Appendix B Toolformer Training", "seq": 78, "sha256": "f4396cf356582652871b5f88142751b263d026b9c782b695b119d178d9905378"}
+{"section": "C.1 LAMA and TempLAMA", "seq": 79, "sha256": "abd07846bba4e45a9a8de3bbb2ccea606d5d86447dfd621b411a3c83ba1fdd75"}
+{"section": "C.2 Math Benchmarks", "seq": 80, "sha256": "14f2f2bf17098b8ddfdaa87f6fd3092c1f394aca5a5dfec9eaa4a1650e7ae3b0"}
+{"section": "C.3 Question Answering", "seq": 81, "sha256": "1d02b4b52340c2e41ea9791fd7b95b00a1556aac6d73e26faea3e8adbbb9da22"}
+{"section": "C.4 Multilingual Question Answering", "seq": 82, "sha256": "0b9ce44475727bf793a2a006d12f4c943d2ba9c86016e2af3de4490a50b410e8"}
+{"section": "Appendix D Dateset", "seq": 83, "sha256": "126e69f36de51d27be18011e51706dae02ce93ddaffb7f287f5a352184d5b95c"}
+{"section": "Appendix D Dateset", "seq": 84, "sha256": "d574501596272083ff07e2e2d9a229bc423748038132e85249a9673b439a5ab1"}

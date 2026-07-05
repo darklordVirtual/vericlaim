@@ -1,0 +1,17 @@
+3356--3369, Online, November 2020. Association for
+Computational Linguistics. doi: 10.18653/v1/2020.findings-emnlp.301. URL https://aclanthology.org/2020.findings-emnlp.301. Gehrmann et al. (2021)
+
+Sebastian Gehrmann, Tosin Adewumi, Karmanya Aggarwal, Pawan Sasanka
+Ammanamanchi, Anuoluwapo Aremu, Antoine Bosselut, Khyathi Raghavi Chandu,
+Miruna-Adriana Clinciu, Dipanjan Das, Kaustubh Dhole, Wanyu Du, Esin Durmus,
+Ondřej Dušek, Chris Chinenye Emezue, Varun Gangal, Cristina
+Garbacea, Tatsunori Hashimoto, Yufang Hou, Yacine Jernite, Harsh Jhamtani,
+Yangfeng Ji, Shailza Jolly, Mihir Kale, Dhruv Kumar, Faisal Ladhak, Aman
+Madaan, Mounica Maddela, Khyati Mahajan, Saad Mahamood, Bodhisattwa Prasad
+Majumder, Pedro Henrique Martins, Angelina McMillan-Major, Simon Mille, Emiel
+van Miltenburg, Moin Nadeem, Shashi Narayan, Vitaly Nikolaev, Andre
+Niyongabo Rubungo, Salomey Osei, Ankur Parikh, Laura Perez-Beltrachini,
+Niranjan Ramesh Rao, Vikas Raunak, Juan Diego Rodriguez, Sashank Santhanam,
+João Sedoc, Thibault Sellam, Samira Shaikh, Anastasia Shimorina,
+Marco Antonio Sobrevilla Cabezudo, Hendrik Strobelt, Nishant Subramani, Wei
+Xu, Diyi Yang, Akhila Yerukola, and Jiawei Zhou.

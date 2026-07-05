@@ -1,0 +1,9 @@
+At the end of the working
+day a new snapshot can be made of the state. New snapshots can be made
+at any time in parallel without bringing down the running
+application. The official system of record can either be the event logs or
+the current application state. If the current application state is
+held in a database, then the event logs may only be there for audit
+and special processing. Alternatively the event logs can be the
+official record and databases can be built from them whenever
+needed.

@@ -1,0 +1,9 @@
+Szegedy et al. (2014b) made an intriguing discovery: several machine learning models,
+including state-of-the-art neural networks, are vulnerable to adversarial examples. That is, these machine learning models misclassify examples that are only slightly different
+from correctly classified examples drawn from the data distribution. In many cases, a wide variety of models with different architectures trained
+on different subsets of the training data misclassify the same adversarial example. This suggests that adversarial examples expose
+fundamental blind spots in our training algorithms. The cause of these adversarial examples was a mystery, and speculative explanations have
+suggested it is due to extreme nonlinearity of deep neural networks, perhaps combined
+with insufficient model averaging and insufficient regularization of the purely supervised
+learning problem. We show that these speculative hypotheses are unnecessary. Linear behavior in high-dimensional spaces is sufficient to cause adversarial examples. This view enables us to design a fast method of generating adversarial examples that
+makes adversarial training practical.

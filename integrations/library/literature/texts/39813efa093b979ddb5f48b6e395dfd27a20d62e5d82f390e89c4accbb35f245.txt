@@ -1,0 +1,32 @@
+Christian Szegedy
+
+Google Inc. &Wojciech Zaremba
+
+New York University
+
+&Ilya Sutskever
+
+Google Inc. &Joan Bruna
+
+New York University
+
+&Dumitru Erhan
+
+Google Inc. &Ian Goodfellow
+
+University of Montreal
+
+&Rob Fergus
+
+New York University
+
+Facebook Inc. Abstract
+
+Deep neural networks are highly expressive models that have recently
+achieved state of the art performance on speech and visual recognition
+tasks. While their expressiveness is the reason they succeed, it also causes
+them to learn uninterpretable solutions that could have counter-intuitive properties. In this paper we report two such properties. First, we find that there is no distinction between individual high level units and random linear
+combinations of high level units, according to various methods of unit analysis. It suggests
+that it is the space, rather than the individual units, that contains the semantic information
+in the high layers of neural networks. Second, we find that deep neural networks learn input-output mappings that are fairly discontinuous
+to a significant extent.

@@ -1,0 +1,12 @@
+Your output should be of the following format:
+
+Strategy:
+Your strategy about how to answer the question. Answer:
+Your answer to the question. It should end with {format}. ’’’
+
+# define zero-shot voting used for zero-shot tot
+vote_prompt = ‘‘‘Given an instruction and several choices,
+decide which choice is most promising. Analyze each choice in detail, then conclude in the last line
+"The best choice is {s}", where s the integer id of the choice. ’’’
+
+We evaluated on a subset of 100 random GSM8K test and StrategyQA dev questions. As shown in Table B and as expected, ToT improves over CoT on both tasks (but only slightly, given GPT-4 + CoT is already very good on such tasks, and StrategyQA’s bottleneck is external knowledge, not reasoning). Considering computational costs, it is more suitable to try smaller LLMs + ToT for traditional NLP tasks, or GPT-4 + ToT for hard tasks that challenge GPT-4 + CoT’s reasoning.

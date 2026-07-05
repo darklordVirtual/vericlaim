@@ -1,0 +1,19 @@
+arXiv preprint arXiv:1803.05355, 2018. Vygotsky (1987)
+
+Lev S Vygotsky. Thinking and speech. The collected works of LS Vygotsky, 1:39–285, 1987. Wang et al. (2022a)
+
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang,
+Aakanksha Chowdhery, and Denny Zhou. Self-consistency improves chain of thought reasoning in language
+models, 2022a. URL https://arxiv.org/abs/2203.11171. Wang et al. (2022b)
+
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, and Denny Zhou. Rationale-augmented ensembles in language models. arXiv preprint arXiv:2207.00747, 2022b. Wei et al. (2022)
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and
+Denny Zhou. Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903, 2022. Yang et al. (2018)
+
+Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William W Cohen, Ruslan
+Salakhutdinov, and Christopher D Manning. Hotpotqa: A dataset for diverse, explainable multi-hop question
+answering. arXiv preprint arXiv:1809.09600, 2018. Yao et al. (2020)
+
+Shunyu Yao, Rohan Rao, Matthew Hausknecht, and Karthik Narasimhan.

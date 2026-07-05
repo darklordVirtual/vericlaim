@@ -1,0 +1,14 @@
+Focus on your system infrastructure for your first pipeline. While it is fun
+to think about all the imaginative machine learning you are going to do, it
+will be hard to figure out what is happening if you don’t first trust your
+pipeline. Rule #4: Keep the first model simple and get the infrastructure right. The first model provides the biggest boost to your product, so it doesn't need
+to be fancy. But you will run into many more infrastructure issues than you
+expect. Before anyone can use your fancy new machine learning system, you have
+to determine:
+
+How to get examples to your learning algorithm. A first cut as to what "good" and "bad" mean to your system. How to integrate your model into your application. You can either apply
+the model live, or
+pre­compute the model on examples offline and store the results in a table. For example, you might want to pre­classify web pages and store the results
+in a table, but you might want to classify chat messages live. Choosing simple features makes it easier to ensure that:
+
+The features reach your learning algorithm correctly. The model learns reasonable weights. The features reach your model in the server correctly.

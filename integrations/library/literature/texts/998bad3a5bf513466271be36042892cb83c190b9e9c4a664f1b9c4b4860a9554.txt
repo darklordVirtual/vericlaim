@@ -1,0 +1,15 @@
+Several benchmarks have emerged to evaluate agent safety. AgentBench (Liu et al., 2023b) provides a multi-dimensional
+evaluation of LLM agents across eight environments but focuses on
+task completion rather than adversarial robustness. ToolEmu (Ruan et al., 2024) emulates tool execution in a
+sandboxed LLM environment, enabling safety evaluation without
+real-world side effects; however, its threat model covers
+only single-agent tool misuse, not multi-agent lateral propagation. InjecAgent (Zhan et al., 2024) specifically benchmarks
+indirect prompt injection in tool-integrated agents, demonstrating
+that state-of-the-art models remain highly vulnerable
+without dedicated defenses
+(attack success rates above 60% on ReAct-style agents);
+while not directly comparable (the 60%+ figure measures
+end-to-end agent compromise, whereas our metric is judge-level
+interception), our evaluation in Sect. 7.6
+shows that adding an LGA Layer 2 judge reduces missed attacks
+to 0–1% (GPT-4o-mini: 0%; Qwen3.5-9B: 1%).

@@ -1,0 +1,39 @@
+Redesigning performance analysis tools for machine learning”
+
+In Conference on Human Factors in Computing Systems - Proceedings 2015-April
+
+Association for Computing Machinery, 2015, pp. 337–346
+
+DOI: 10.1145/2702123.2702509
+
+[218]
+Tongshuang Wu, Marco Tulio Ribeiro, Jeffrey Heer and Daniel Weld
+
+“Errudite: Scalable, Reproducible, and Testable Error Analysis”
+
+In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics
+
+Stroudsburg, PA, USA: Association for Computational Linguistics, 2019, pp. 747–763
+
+URL: https://www.aclweb.org/anthology/P19-1073
+
+[219]
+Jesse Vig
+
+“A Multiscale Visualization of Attention in the Transformer Model”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1906.05714
+
+[220]
+David Bau et al. “GaN dissection: Visualizing and understanding generative adversarial networks”
+
+In 7th International Conference on Learning Representations, ICLR 2019
+
+International Conference on Learning Representations, ICLR, 2019
+
+arXiv: https://arxiv.org/abs/1811.10597
+
+[221]
+Shan Carter et al.

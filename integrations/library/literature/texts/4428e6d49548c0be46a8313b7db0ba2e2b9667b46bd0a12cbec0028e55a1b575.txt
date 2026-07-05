@@ -1,0 +1,35 @@
+The judge is the component that generalizes. Table 2 — Gated HYBRID (rules floor + judge escalate-only), best net-positive point
+
+dataset
+
+rules-only (acc / FPR / FNR)
+
+best operating point (acc / FPR / FNR)
+
+fusion policy
+
+internal 300
+
+94.7 / 2.3 / 6.2
+
+Opus-4.8 96.7 / 2.3 / 1.6
+
+rules floor + gated escalate-only
+
+independent 630
+
+95.4 / 2.1 / 6.1
+
+Sonnet-4.6 98.3 / 2.1 / 0.9
+
+rules floor + gated escalate-only
+
+external 189 (OOD)
+
+48.1 / 22.4 / 52.9
+
+Opus-4.8 85.2 / 1.7 / 4.6
+
+judge-led (gated-replace)
+
+All four judge tiers (Haiku-4.5, Sonnet-4.6, Opus-4.8, GPT-5.5) are net-positive in-distribution; the table lists the single best operating point per dataset (full acc/FPR/FNR). In-distribution the confidence-gated escalate-only judge is net-positive (beats rules on all axes, FPR held). OOD: the rule floor is harmful (22% FPR) the judge leads (gated-replace, not escalate-only).

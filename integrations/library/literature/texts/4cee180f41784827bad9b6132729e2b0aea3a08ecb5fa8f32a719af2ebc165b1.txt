@@ -1,0 +1,17 @@
+Hence we also compare the maximum path length between any two input and output positions in networks composed of the different layer types. Table 1:
+Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. is the sequence length, is the representation dimension, is the kernel size of convolutions and the size of the neighborhood in restricted self-attention. Layer Type
+Complexity per Layer
+Sequential
+Maximum Path Length
+
+Operations
+
+Self-Attention
+
+Recurrent
+
+Convolutional
+
+Self-Attention (restricted)
+
+As noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires sequential operations. In terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence length is smaller than the representation dimensionality , which is most often the case with sentence representations used by state-of-the-art models in machine translations, such as word-piece [38] and byte-pair [31] representations.

@@ -1,0 +1,15 @@
+4: Complete results for all models and sizes. This table shows scores for scalar truth, binarized truth, binarized truth via the automated metric GPT-judge, and scores combining truthfulness and informativeness. •
+
+“Truth score” is the average over scalar truth scores (Section 2.2). •
+
+“Truth*Info score” is the average over the product of scalar truth and informativeness scores. •
+
+“% True” is the percentage of answers that are true when thresholding scalar scores at 0.5. •
+
+“% Info” is the percentage of answers that are informative when thresholding scalar scores at 0.5. •
+
+“% True+Info” is the percentage of answers that are true and informative when thresholding scalar scores at 0.5. •
+
+“% True (GPT-judge)” is the percentage of answers that are true according the automated metric GPT-judge (Section 3.2). •
+
+“Truth score unf.” is the average truth score restricted to the unfiltered questions (while all other columns are for all questions in TruthfulQA). See Section 2.2.

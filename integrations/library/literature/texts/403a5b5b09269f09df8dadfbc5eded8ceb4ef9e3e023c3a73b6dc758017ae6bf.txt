@@ -1,0 +1,19 @@
+Andreas (2025)
+Beyond binary rewards: training lms to reason about their uncertainty. External Links: 2507.16806,
+Link
+
+Cited by: §1,
+§2,
+§3.1,
+§4.1. S. Farquhar, J. Kossen, L. Kuhn, and Y. Gal (2024)
+Detecting hallucinations in large language models using semantic entropy. Nature 630 (8017), pp. 625–630. Cited by: §2. W. B. Glenn et al. (1950)
+Verification of forecasts expressed in terms of probability. Monthly weather review 78 (1), pp. 1–3. Cited by: §1,
+§3.1. D. Guo, D. Yang, H. Zhang, J. Song, R. Zhang, R. Xu, Q. Zhu, S. Ma, P. Wang, X. Bi, et al. (2025)
+Deepseek-r1: incentivizing reasoning capability in llms via reinforcement learning. arXiv preprint arXiv:2501.12948. Cited by: §4.1. Y. Hu, L. Gan, W. Xiao, K. Kuang, and F. Wu (2025)
+Fine-tuning large language models for improving factuality in legal question answering. In Proceedings of the 31st international conference on computational linguistics,
+
+pp. 4410–4427. Cited by: §1. C. Jing, Y. Wu, X. Zhang, Y. Jia, and Q. Wu (2020)
+Overcoming language priors in vqa via decomposed linguistic representations. In Proceedings of the AAAI conference on artificial intelligence,
+
+Vol. 34, pp. 11181–11188. Cited by: §1,
+§3.3. S.

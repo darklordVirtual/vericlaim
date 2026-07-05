@@ -1,0 +1,15 @@
+2368--2378,
+Berlin, Germany, August 2016. Association for Computational Linguistics. doi: 10.18653/v1/P16-1224. URL https://aclanthology.org/P16-1224. Wang & Jurgens (2018)
+
+Zijian Wang and David Jurgens. It’s going to be okay: Measuring access to support in online
+communities. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pp. 33--45, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1004. URL https://aclanthology.org/D18-1004. Wang & Potts (2019)
+
+Zijian Wang and Christopher Potts. TalkDown: A corpus for condescension detection in context. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 3711--3719, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1385. URL https://aclanthology.org/D19-1385. Weber & Jaimes (2011)
+
+Ingmar Weber and Alejandro Jaimes. Who uses web search for what: And how. In Proceedings of the Fourth ACM International Conference on
+Web Search and Data Mining, WSDM ’11, pp.

@@ -1,0 +1,14 @@
+URL https://arxiv.org/abs/2105.11447. Perez Almendros et al. (2020)
+
+Carla Perez Almendros, Luis Espinosa Anke, and Steven Schockaert. Don’t patronize me! An annotated dataset with patronizing and
+condescending language towards vulnerable communities. In Proceedings of the 28th International Conference on
+Computational Linguistics, pp. 5891--5902, Barcelona, Spain (Online),
+December 2020. International Committee on Computational Linguistics. doi: 10.18653/v1/2020.coling-main.518. URL https://aclanthology.org/2020.coling-main.518. Petroni et al. (2019)
+
+Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu,
+Alexander H. Miller, and Sebastian Riedel. Language models as knowledge bases?, 2019. URL https://arxiv.org/abs/1909.01066. Petrova-Antonova & Tancheva (2020)
+
+Dessislava Petrova-Antonova and Rumyana Tancheva. Data cleaning: A case study with OpenRefine and Trifacta
+Wrangler. In Martin Shepperd, Fernando Brito e Abreu, Alberto Rodrigues da
+Silva, and Ricardo Pérez-Castillo (eds.), Quality of Information
+and Communications Technology, pp. 32--40, Cham, 2020. Springer. doi: 10.1007/978-3-030-58793-2_3. URL https://doi.org/10.1007/978-3-030-58793-2_3. Pham et al.

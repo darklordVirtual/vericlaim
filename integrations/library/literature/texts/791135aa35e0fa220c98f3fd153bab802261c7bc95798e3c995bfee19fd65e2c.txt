@@ -1,0 +1,1 @@
+Changed the status of this document section. Changed all URLs to PROV documents. ISSUE-653: Fixed typo in example to ensure compatibility with prov-n grammar. Fixed capitalization in definition of software agent, organization, and person. Fixed some typos and incorrect link.

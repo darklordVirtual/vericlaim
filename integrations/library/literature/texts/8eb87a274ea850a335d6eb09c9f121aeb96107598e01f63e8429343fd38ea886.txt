@@ -1,0 +1,6 @@
+Figure 6:
+Left: When we include embedding parameters, performance appears to depend strongly on the number of layers in addition to the number of parameters. Right: When we exclude embedding parameters, the performance of models with different depths converge to a single trend. Only models with fewer than 2 layers or with extreme depth-to-width ratios deviate significantly from the trend. In Figure 6 we display the performance of a wide variety of models, ranging from small models with shape through billion-parameter models, ranging in shape from through . Here we have trained to near convergence on the full WebText2 dataset and observe no overfitting (except possibly for the very largest models). As shown in Figure 1, we find a steady trend with non-embedding parameter count , which can be fit to the first term of Equation (1.5), so that
+
+(3.1)
+
+To observe these trends it is crucial to study performance as a function of ; if we instead use the total parameter count (including the embedding parameters) the trend is somewhat obscured (see Figure 6). This suggests that the embedding matrix can be made smaller without impacting performance, as has been seen in recent work [LCG+19].

@@ -1,0 +1,10 @@
+parallelism ([MKAT18]), also roughly obeys a power law in :
+
+(1.4)
+
+Figure 4:
+Left: The early-stopped test loss varies predictably with the dataset size and model size according to Equation (1.5). Right: After an initial transient period, learning curves for all model sizes can be fit with Equation (1.6), which is parameterized in terms of , the number of steps when training at large batch size (details in Section 5.1). Equation (1.1) and (1.2) together suggest that as we increase the model size, we should increase the dataset size sublinearly according to . In fact, we find that there is a single equation combining (1.1) and (1.2) that governs the simultaneous dependence on and and governs the degree of overfitting:
+
+(1.5)
+
+with fits pictured on the left in figure 4. We conjecture that this functional form may also parameterize the trained log-likelihood for other generative modeling tasks.

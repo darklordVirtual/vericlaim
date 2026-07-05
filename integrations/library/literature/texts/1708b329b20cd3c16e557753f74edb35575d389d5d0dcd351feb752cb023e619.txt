@@ -1,0 +1,11 @@
+In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 644--656, Online, June 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.53. URL https://aclanthology.org/2021.naacl-main.53. Thomason et al. (2015)
+
+Jesse Thomason, Shiqi Zhang, Raymond Mooney, and Peter Stone. Learning to interpret natural language commands through human-robot
+dialog. In Proceedings of the Twenty-Fourth International Joint
+Conference on Artificial Intelligence, IJCAI-15, pp. 1923--1929, 2015. URL
+https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/view/10957/10931. Thomson (1976)
+
+Judith Jarvis Thomson. Killing, letting die, and the trolley problem. The Monist, 59(2):204--217, 1976. doi: 10.5840/monist197659224. URL https://doi.org/10.5840/monist197659224. Thoppilan et al.

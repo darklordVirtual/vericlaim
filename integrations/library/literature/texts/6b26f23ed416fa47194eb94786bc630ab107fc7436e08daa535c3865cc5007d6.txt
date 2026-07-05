@@ -1,0 +1,17 @@
+instances for two of the networks used in this experiment
+The general conclusion is that adversarial examples tend to stay hard
+even for models trained with different hyperparameters. Although the autoencoder based version seems most resilient to
+adversarial examples, it is not fully immune either. (a) Even columns: adversarial examples for a linear (FC) classifier (stddev=0.06)
+
+(b) Even columns: adversarial examples for a 200-200-10 sigmoid network (stddev=0.063)
+
+(c) Randomly distorted samples by Gaussian noise with stddev=1. Accuracy: 51%. Figure 7: Adversarial examples for a randomly chosen subset of MNIST compared with
+randomly distorted examples. Odd columns correspond to original images,
+and even columns correspond to distorted counterparts. The adversarial examples
+generated for the specific model have accuracy 0% for the respective model. Note that while the randomly distorted examples are hardly readable,
+still they are classified correctly in half of the cases, while the
+adversarial examples are never classified correctly. Model Name
+Description
+Training error
+Test error
+Av. min.

@@ -1,0 +1,16 @@
+URL https://arxiv.org/abs/2006.07264. Malmi et al. (2018)
+
+Eric Malmi, Daniele Pighin, Sebastian Krause, and Mikhail Kozhevnikov. Automatic prediction of discourse connectives. In Proceedings of the Eleventh International Conference on
+Language Resources and Evaluation (LREC 2018), Miyazaki, Japan, May 2018. European Language Resources Association. URL https://aclanthology.org/L18-1260. Malmi et al. (2019)
+
+Eric Malmi, Sebastian Krause, Sascha Rothe, Daniil Mirylenka, and Aliaksei
+Severyn. Encode, tag, realize: High-precision text editing, 2019. URL https://arxiv.org/abs/1909.01187. Mao & Liu (2019)
+
+Jihang Mao and Wanli Liu. A BERT-based approach for automatic humor detection and scoring. In Proceedings of the Iberian Languages Evaluation Forum
+(IberLEF 2019), pp. 197--202, 2019. URL http://ceur-ws.org/Vol-2421/HAHA_paper_8.pdf. Marcus (2020)
+
+Gary Marcus. The next decade in AI: Four steps towards robust artificial
+intelligence, 2020. URL https://arxiv.org/abs/2002.06177. Marcus & Davis (2020)
+
+Gary Marcus and Ernest Davis. GPT-3, bloviator: OpenAI’s language generator has no idea what
+it’s talking about. MIT Technology Review, 22 August 2020.

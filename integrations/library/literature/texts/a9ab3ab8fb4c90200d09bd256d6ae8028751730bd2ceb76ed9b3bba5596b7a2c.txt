@@ -1,0 +1,17 @@
+URL https://doi.org/10.5281/zenodo.6332975. Garcez & Lamb (2020)
+
+Artur d’Avila Garcez and Luis C. Lamb. Neurosymbolic AI: The 3rd wave, 2020. URL https://arxiv.org/abs/2012.05876. Gardner et al. (2020)
+
+Matt Gardner, Yoav Artzi, Victoria Basmova, Jonathan Berant, Ben Bogin, Sihao
+Chen, Pradeep Dasigi, Dheeru Dua, Yanai Elazar, Ananth Gottumukkala, Nitish
+Gupta, Hanna Hajishirzi, Gabriel Ilharco, Daniel Khashabi, Kevin Lin,
+Jiangming Liu, Nelson F. Liu, Phoebe Mulcaire, Qiang Ning, Sameer Singh,
+Noah A. Smith, Sanjay Subramanian, Reut Tsarfaty, Eric Wallace, Ally Zhang,
+and Ben Zhou. Evaluating models’ local decision boundaries via contrast sets, 2020. URL https://arxiv.org/abs/2004.02709. Gatt et al. (2009)
+
+Albert Gatt, Anja Belz, and Eric Kow. The TUNA-REG challenge 2009: Overview and evaluation results. In Proceedings of the 12th European Workshop on Natural
+Language Generation (ENLG 2009), pp. 174--182, Athens, Greece, March
+2009. Association for Computational Linguistics. URL https://aclanthology.org/W09-0629. Gaunt et al. (2016)
+
+Alexander L. Gaunt, Marc Brockschmidt, Rishabh Singh, Nate Kushman, Pushmeet
+Kohli, Jonathan Taylor, and Daniel Tarlow.

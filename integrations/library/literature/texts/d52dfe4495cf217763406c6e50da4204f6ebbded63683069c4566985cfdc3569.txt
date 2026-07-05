@@ -1,0 +1,3 @@
+•
+
+User-based: We had a number of use-cases stated in applications to the OpenAI API. We asked labelers to come up with prompts corresponding to these use cases. In order to preserve the anonymity of the application information, we had a separate labeler create vague high level tasks based on looking at a list of applications, modifying the task descriptions to eliminate any information that were specific to a given application. This data was used to train the first InstructGPT model via supervised learning, which was deployed in beta in the API in early 2021.

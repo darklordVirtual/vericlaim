@@ -1,0 +1,75 @@
+{"fsid": "arxiv_2604-09529", "n": 74, "overlap": 200, "source_sha256": "b06c884aa69a0bc88367f54866824aa3583694ccf5ef337e04f41cb24c248c60", "target": 1200}
+{"section": "", "seq": 0, "sha256": "911a432749dd344933b32f1f82165f5c47086b307826635859c64c9e29edd4f4"}
+{"section": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning", "seq": 1, "sha256": "d0c9d72bad9292ab7143208e5bd34507321cc861105b1629e5647772b00c0129"}
+{"section": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning", "seq": 2, "sha256": "65c58480c57752735d4f684dff5f9f8add060a1e773b35142218ad99172f121e"}
+{"section": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning", "seq": 3, "sha256": "abc6349f627c21ce1af1f6c7393ce1281ebe4b3f822505409081343da0cf34e7"}
+{"section": "1 Introduction", "seq": 4, "sha256": "1308c50551d35b94f2f8d25ccd5c9455450d625a80d5a09176ed1892de247d23"}
+{"section": "1 Introduction", "seq": 5, "sha256": "4f4d818269dbc207c84d554733d6c39e9a96ec2393666952120dc154da2ee954"}
+{"section": "1 Introduction", "seq": 6, "sha256": "fc3f1547cd717a91d33ddf723b0f3659569d43a995dda6b4784a7cdc394c5ad7"}
+{"section": "1 Introduction", "seq": 7, "sha256": "6b495352d4684a8a6a7c20b83b8f53f37f5920eac86b2ea4670cc59760d93ea6"}
+{"section": "1 Introduction", "seq": 8, "sha256": "27ce563d6d0a8b393e38e7aafa03d14c566281856a1e6aa9b4514b99a80a45de"}
+{"section": "1 Introduction", "seq": 9, "sha256": "e49176b77754f071ec3bf570c87cc57d5a928414e4efda7ff0b055b861a301d2"}
+{"section": "1 Introduction", "seq": 10, "sha256": "04ac9a57ae6fb6e42fd1f2d136876e5e502abc210ae09843e3df9ee0d2367cc4"}
+{"section": "2 Related Work", "seq": 11, "sha256": "950214d7c7e33b183ae97511d788b15c34423b1dcc1ae9cae55975c195407ad7"}
+{"section": "2 Related Work", "seq": 12, "sha256": "b02f258f8bd9618477bbf318f083f7d7ce5180963442d6b95b6a8916b775fd7b"}
+{"section": "3.1 Preliminary", "seq": 13, "sha256": "216cc62730225b0bd862a4d59c8b222cf2ff7d3bae7fd9e1f579ead2ee814a01"}
+{"section": "3.1 Preliminary", "seq": 14, "sha256": "63b826a6ce7e27bcd400a212d01df5c15c4060a029f20625d8fbecc456797b96"}
+{"section": "3.2 Decoupling Visual and Reasoning Verbalized Confidence", "seq": 15, "sha256": "755c59d4daed0afbcf56e485c38a465b0c623dee0bf220a8f92a288f5e0afa1c"}
+{"section": "3.3 Visual Certainty Estimation", "seq": 16, "sha256": "ec2f1ba821ea44bd295349a96e170d81c8140ab1dc5d572fbfc76675e452b378"}
+{"section": "3.3 Visual Certainty Estimation", "seq": 17, "sha256": "c1345b29931204e89d2719ce43bc393aa0e5e541df81408acbc620e624fa35f8"}
+{"section": "3.4 Reinforcement Learning with Certainty-Aware Calibration", "seq": 18, "sha256": "f752d8c1d6b69aaa0cdbfd4a0696c1c1e4bc8aa122cda127fe0a6dbafc02274c"}
+{"section": "3.4 Reinforcement Learning with Certainty-Aware Calibration", "seq": 19, "sha256": "37615bae239a0cc1f64031413519fc246ed2915f7ef2de38e391947454e76332"}
+{"section": "3.4 Reinforcement Learning with Certainty-Aware Calibration", "seq": 20, "sha256": "8072793cca4136cd8f013af5d96853d389323507a3cd7e4797d4cedf275a774b"}
+{"section": "3.4 Reinforcement Learning with Certainty-Aware Calibration", "seq": 21, "sha256": "1082869068389316334bfc81fb3fc431e6bb1397bf0da4d14cb5c197a93853d2"}
+{"section": "4.1 Experimental Setup", "seq": 22, "sha256": "edafefab1320a3ec48834b6428fe1355ef6c149165622aa23c71126bbb79f389"}
+{"section": "4.1 Experimental Setup", "seq": 23, "sha256": "42b880c75c54bbb924ab3a2cea7add96e21d1bb0f54d5d09454782badecd9884"}
+{"section": "4.2 Main Results", "seq": 24, "sha256": "8e72a3c01ed79236143862542be6bd21a4b20ad436cbef1ad945cd4f5374dc31"}
+{"section": "4.2 Main Results", "seq": 25, "sha256": "ae0f6f8b335d42bc84d44592f4d86c2f248d78a399406789ae78adeb46bb70a2"}
+{"section": "4.3 Ablations", "seq": 26, "sha256": "c8f59a6eeba08cfdb5c1dffedd3c9cb0e6681ad0eccc2b8ef05c73eadc0b873d"}
+{"section": "4.3 Ablations", "seq": 27, "sha256": "1e70a35ca8f9def6419178c28295fcaa273affea7da2443bf6116621bce7a295"}
+{"section": "5 Analyses", "seq": 28, "sha256": "c484b8b49aacf72c11bc5415aa67752d6475c367df7b5ab3e43602c9bd834bcc"}
+{"section": "5 Analyses", "seq": 29, "sha256": "0ae7d52984a07bf7dba8a995d1f00139fe5ec2ecc5900805fd92f48bc5998049"}
+{"section": "5 Analyses", "seq": 30, "sha256": "0eac1a9eb2dee84fa680837ef4adff9cec7983631028e3073210341a573bd09a"}
+{"section": "5 Analyses", "seq": 31, "sha256": "13a9bdffbbcd193c06ee30cee0deccd82bae3b9f223f3072a1fd9a14c8cb3dd7"}
+{"section": "5 Analyses", "seq": 32, "sha256": "e6d3f3ce90ec213d31ce373ae5b79fec3aa7614cdfc7dd12a4854d302111312e"}
+{"section": "5 Analyses", "seq": 33, "sha256": "14b8932bda4e26e60bf2785da19ed760eaafdd4ce613d61579603ab89267cb3e"}
+{"section": "6 Conclusion", "seq": 34, "sha256": "5ccf84753079262e3a75e71f665f206e17168930ae4d890af94c53731b1eaa94"}
+{"section": "7 Limitations", "seq": 35, "sha256": "cf3a048718a7156063d6dfc14706dc817d653a6fcd046966256775532498b00d"}
+{"section": "References", "seq": 36, "sha256": "cc12df3a42fd145b5d68ecf2e9436b922d3faadefd63b54a9489a4d7e7be2e03"}
+{"section": "References", "seq": 37, "sha256": "403a5b5b09269f09df8dadfbc5eded8ceb4ef9e3e023c3a73b6dc758017ae6bf"}
+{"section": "References", "seq": 38, "sha256": "b115a7e9ec9e30323fbe3883cd3ceb49fcff0af98dcba5f176ef63f533ef85a6"}
+{"section": "References", "seq": 39, "sha256": "cd59fa0a2d30f15b7426501e6310196794e48b1bee3f1669043319aea0290473"}
+{"section": "References", "seq": 40, "sha256": "ca6f139662c19489e00ddea6266c2ba498ba6e75b472c694ed1c72c88413df79"}
+{"section": "References", "seq": 41, "sha256": "478d7388c369983443208d6d633fc387b1babd159e2f9fc564f4cebcc9f0d62b"}
+{"section": "References", "seq": 42, "sha256": "1c5ed7c75f26709b7abde29630b15950b45f024ab0a212bfc4ae2aa39dfc13eb"}
+{"section": "References", "seq": 43, "sha256": "50559461e4207a7ae8b454c8b6f779ff89c438926aeeb6dba26a1a641b41f8b2"}
+{"section": "References", "seq": 44, "sha256": "1c8ae9d1404ff1c3fc9320dcaea8ec7221fb7c33291168a5a8a87fefd20ec4e8"}
+{"section": "References", "seq": 45, "sha256": "50269314956b1c05129dbad384abda6c00a68aa8ee5e46b155118982d7761fff"}
+{"section": "References", "seq": 46, "sha256": "152843d19ee2b8fbf41f0baee5594a8511a345a253c1ded3c1446f339bf164bf"}
+{"section": "References", "seq": 47, "sha256": "eb14936ed4c3734d5a1dc587a5c169d8245b53f1a8c07f1c97b3972d83c559da"}
+{"section": "References", "seq": 48, "sha256": "779bb148a55376f6922832e5f7cf7f8fc68f3234943bd176c6b42af47113395a"}
+{"section": "A.1 Training Details", "seq": 49, "sha256": "9b140d1467b99aff7100e6ba399123bd2a54ade9d632b2c4e07a512ac0360148"}
+{"section": "A.1 Training Details", "seq": 50, "sha256": "5a096b74f2088cc5326daa20f887be614b8c16c27f378a517ca7722fbc2e5f91"}
+{"section": "A.2 Evaluation Details", "seq": 51, "sha256": "df4eced13c467a727e3da087f1c7afd21ca02687a3ffc5d8b825cea0d85a615d"}
+{"section": "A.2 Evaluation Details", "seq": 52, "sha256": "543f5e7db0e8a8a897a90a813fb4c9467a5e2416dcf2fc4f3f7afa720457b7ef"}
+{"section": "A.2 Evaluation Details", "seq": 53, "sha256": "5b816f99377cfbb9ee549223c49ce3de7f063c5166d16aa85af31e6321b05f46"}
+{"section": "A.2 Evaluation Details", "seq": 54, "sha256": "f6b3bcdd372261a5a9699697038af06fc9a15614eb0fa72906cfb95f7518df29"}
+{"section": "A.2 Evaluation Details", "seq": 55, "sha256": "b23da15ad7723c087c8577ccbaecde271a7409900102e84eb5b45cf3cd6a7aeb"}
+{"section": "Appendix C Statistical Significance Analysis", "seq": 56, "sha256": "1b6eb0e147e34766d99a6db8fba479e00c37b638f1375f955db602edd10b2adb"}
+{"section": "Appendix C Statistical Significance Analysis", "seq": 57, "sha256": "60fcf11de7bba13d379614b1b20f347af62af051e27108ce39c39510b4012f05"}
+{"section": "D.1 Detailed Main Results", "seq": 58, "sha256": "9b8473b78540fb175715a1ee04142e887bda7d488fb2f5d79edb2c6768f70995"}
+{"section": "E.1 Visual Certainty Estimation", "seq": 59, "sha256": "6d705ffd85f9866615390dd2b0229a4df9a881be87c0298315fce1278b60029f"}
+{"section": "E.1 Visual Certainty Estimation", "seq": 60, "sha256": "65fe13b72e949eb8fb42cbba73b8119270ae7f3de37c2afa71623c27bd4035f2"}
+{"section": "E.1 Visual Certainty Estimation", "seq": 61, "sha256": "18fae3ea78137a45526c236782c0dc5ddc701bb78621d873a4e65d2d59ddca67"}
+{"section": "E.1 Visual Certainty Estimation", "seq": 62, "sha256": "d989e5ea4c654749c7b2da93d482e0003d4fe5cec3921ff1e793dd41d6839e51"}
+{"section": "E.1 Visual Certainty Estimation", "seq": 63, "sha256": "2eeb150fd6802eb6df40b2e0fc6e8d84d86fc3a6ac491c21f56d3c9285e7bfc3"}
+{"section": "E.2 Reliability Diagrams", "seq": 64, "sha256": "a44805a7bf6ce0e509e183957066b000575ac27a762c0b54cc070459a7f39d06"}
+{"section": "E.3 Visually Unanswerable Problems", "seq": 65, "sha256": "5f2786828788dcf8d5f20cfacf587d38da549f759ef318448d6b13c788da0086"}
+{"section": "E.4 Training Dynamics", "seq": 66, "sha256": "382be98342516d77bba1f13aa49b0775f9730afa2e27d36d0df9291d4cfc91fd"}
+{"section": "E.5 Failure Mode Analysis", "seq": 67, "sha256": "798cd0070155d0273fd8dc45e4262582449b48c818e74625aba0c17f85d56fbf"}
+{"section": "E.5 Failure Mode Analysis", "seq": 68, "sha256": "6441f7a5e4eca10cdb3ae795cfb83566e7d11eb240b4fb5b4096e47007f33681"}
+{"section": "E.5 Failure Mode Analysis", "seq": 69, "sha256": "6c6ff9e4e5c8a07af8df8183fc3a4dbe307c0efd732e3adf0c19e7843b3c06d9"}
+{"section": "E.5 Failure Mode Analysis", "seq": 70, "sha256": "0591d722c66752af6777cd7b9982af07659abdafa768f1c928e0da854d0c3065"}
+{"section": "E.5 Failure Mode Analysis", "seq": 71, "sha256": "4ddc58409dd8898843d096c2abeeff56af955b5e828210faffc1487087777fc4"}
+{"section": "E.5 Failure Mode Analysis", "seq": 72, "sha256": "8fd824e005ad1453af14e7132af52c32180e432dcb97b89c972ce282c03b0075"}
+{"section": "E.5 Failure Mode Analysis", "seq": 73, "sha256": "59b00be72a84e5fc1dcfd9e708e28cb0230a49ffc97316f122a7ba770bb2f371"}

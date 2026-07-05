@@ -1,0 +1,16 @@
+doi: 10.18653/v1/2021.findings-acl.78. URL https://aclanthology.org/2021.findings-acl.78. Sinha et al. (2019)
+
+Koustuv Sinha, Shagun Sodhani, Jin Dong, Joelle Pineau, and William L. Hamilton. CLUTRR: A diagnostic benchmark for inductive reasoning from text,
+2019. URL https://arxiv.org/abs/1908.06177. Skachkova et al. (2018)
+
+Natalia Skachkova, Thomas Trost, and Dietrich Klakow. Closing brackets with recurrent neural networks. In Proceedings of the 2018 EMNLP Workshop BlackboxNLP:
+Analyzing and Interpreting Neural Networks for NLP, pp. 232--239,
+Brussels, Belgium, November 2018. Association for Computational Linguistics. doi: 10.18653/v1/W18-5425. URL https://aclanthology.org/W18-5425. Smith (1984)
+
+Douglas R. Smith. The synthesis of LISP programs from examples: A survey. In Alan W. Biermann, Gerhard Guiho, and Yves Kodratoff (eds.),
+Automatic Program Construction Techniques, pp. 307--324. Macmillan,
+New York, 1984. Smolensky (1988)
+
+Paul Smolensky. On the proper treatment of connectionism. Behavioral and Brain Sciences, 11(1):1–23, 1988. doi: 10.1017/S0140525X00052432. Socher et al. (2013)
+
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D.

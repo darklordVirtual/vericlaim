@@ -1,0 +1,20 @@
+width=2pt,draw=blue](f6)--(g7);
+
+Figure App.7:
+The six positions (out of 1,024) in which the largest model found and correctly annotated the checkmating move in a zero-shot setting. All of them use the queen to perform the mate; the top four are variants of the well-known ‘‘scholar’s mate.’’
+
+0
+
+0
+
+{tikzpicture}\node
+
+[anchor=south west,inner sep=0] (board) at (0,0)
+
+\newgame\fenboard
+rnbqk2r/pppp1p1p/6pb/4p3/2B1P3/3P1Q2/PPP2PPP/RN2K1NR w KQkq - 0 6
+\showboard
+;
+\coordinate(f3) at (3.6,2.3);
+\coordinate(f7) at (3.6,4.4);
+\draw[arrows=->,line width=2pt,draw=blue](f3)--(f7);

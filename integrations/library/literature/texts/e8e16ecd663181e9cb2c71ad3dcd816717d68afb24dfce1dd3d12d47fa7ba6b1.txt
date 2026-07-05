@@ -1,0 +1,18 @@
+In International Conference on Learning Representations, 2018. Aye et al. (2021)
+
+Aye, G. A., Kim, S., and Li, H. Learning autocompletion from real-world datasets. 2021 IEEE/ACM 43rd International Conference on Software
+Engineering: Software Engineering in Practice (ICSE-SEIP), pp. 131–139,
+2021. Baevski et al. (2020)
+
+Baevski, A., Zhou, H., Mohamed, A., and Auli, M. wav2vec 2.0: A framework for self-supervised learning of speech
+representations. arXiv preprint arXiv:2006.11477, 2020. Balog et al. (2017)
+
+Balog, M., Gaunt, A., Brockschmidt, M., Nowozin, S., and Tarlow, D. Deepcoder: Learning to write programs. In 5th International Conference on Learning Representations
+(ICLR), 2017. Bao et al. (2021)
+
+Bao, H., Dong, L., and Wei, F. Beit: Bert pre-training of image transformers. arXiv preprint arXiv:2106.08254, 2021. Barone & Sennrich (2017)
+
+Barone, A. V. M. and Sennrich, R. A parallel corpus of python functions and documentation strings for
+automated code documentation and code generation. ArXiv, abs/1707.02275, 2017. Barrington & Maciel (2000)
+
+Barrington, I. M. and Maciel, A. Lecture 3: Nondeterministic computation.

@@ -1,0 +1,87 @@
+Using the same VGG architechture (now adapted to 100 classes) we trained a model for
+CIFAR-100 while applying the same data augmentation routine as in the CIFAR-10 experiment. Following precisly the same experimental design as in the CFAR-10 case, we obtained the results
+of Table 2
+
+Table 2: Risk control results for CIFAR-100 for
+
+Desired risk ()
+Train risk
+Train coverage
+Test risk
+Test coverage
+Risk bound ()
+
+0.02
+
+0.0119
+
+0.2010
+
+0.0187
+
+0.2134
+
+0.0197
+
+0.05
+
+0.0425
+
+0.4286
+
+0.0413
+
+0.4450
+
+0.0499
+
+0.10
+
+0.0927
+
+0.5736
+
+0.0938
+
+0.5952
+
+0.0998
+
+0.15
+
+0.1363
+
+0.6546
+
+0.1327
+
+0.6752
+
+0.1498
+
+0.20
+
+0.1872
+
+0.7650
+
+0.1810
+
+0.7778
+
+0.1999
+
+0.25
+
+0.2380
+
+0.8716
+
+0.2395
+
+0.8826
+
+0.2499
+
+Here again, SGR generated tight bounds, very close to the desired target risk, and the bounds were never violated by the true risk. Also, we see again that it is possible to dramatically reduce the risk with only moderate compromise of the coverage. While the architecture we used is not state-of-the art, with a coverage of 67%, we easily surpassed the best known result for CIFAR-100, which currently stands on 18.85% using the wide residual network
+architecture [19].

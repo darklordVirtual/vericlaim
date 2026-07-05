@@ -1,0 +1,44 @@
+“SGX-LKL: Securing the Host OS Interface for Trusted Execution”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1908.11143
+
+[114]
+Ehsan Hesamifard, Hassan Takabi, Mehdi Ghasemi and Rebecca N. Wright
+
+“Privacy-preserving Machine Learning as a Service”
+
+In Proceedings on Privacy Enhancing Technologies, 2018, pp. 123–142
+
+arXiv: https://petsymposium.org/2018/files/papers/issue3/popets-2018-0024.pdf
+
+[115]
+Stavros Volos, Kapil Vaswani and Rodrigo Bruno
+
+“Graviton: Trusted Execution Environments on GPUs”
+
+In Proceedings of the 12th USENIX Conference on Operating Systems Design and Implementation, OSDI’18
+
+USA: USENIX Association, 2018, pp. 681–696
+
+URL: https://www.microsoft.com/en-us/research/uploads/prod/2018/09/Graviton-Trusted-Execution-Environments-on-GPUs.pdf
+
+[116]
+Florian Tramèr and Dan Boneh
+
+“Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1806.03287
+
+[117]
+Zhongshu Gu et al. “YerbaBuena: Securing Deep Learning Inference Data via Enclave-based Ternary Model Partitioning”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1807.00969
+
+[118]
+Dario Amodei et al.

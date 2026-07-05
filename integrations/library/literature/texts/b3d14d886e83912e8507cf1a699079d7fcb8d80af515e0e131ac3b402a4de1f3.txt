@@ -1,0 +1,4 @@
+However, one may
+also conclude that the model families we use are intrinsically flawed. Ease of optimization has come at the cost of models that are
+easily misled. This motivates the development of optimization procedures that are able to train models whose behavior is more locally
+stable.

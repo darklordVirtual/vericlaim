@@ -9,6 +9,12 @@
     "Karthik Narasimhan",
     "Shunyu Yao"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:07.537412+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2303.11366"
+  },
+  "fulltext_sha256": "8e8711ff9c122b9663ad1531c308192233538be4b659a007fbbd0f521b51c165",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "reflexion-2023",

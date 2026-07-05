@@ -1,0 +1,31 @@
+Action 2
+
+Lookup[named after]
+
+Observation 2
+
+(Result 1 / 1) Milhouse was named after U.S. president Richard Nixon, whose middle name was Milhous. Action 3
+
+Finish[Richard Nixon]
+
+Question
+
+Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture? Action 1
+
+Search[Adam Clayton Powell]
+
+Observation 1
+
+Could not find [Adam Clayton Powell]. Similar: [’Adam Clayton Powell III’, ’Seventh Avenue (Manhattan)’, ’Adam Clayton Powell Jr. State Office Building’, ’Isabel Washington Powell’, ’Adam Powell’, ’Adam Clayton Powell (film)’, ’Giancarlo Esposito’]. Action 2
+
+Search[Adam Clayton Powell (film)]
+
+Observation 2
+
+Adam Clayton Powell is a 1989 American documentary film directed by Richard Kilberg. The film is about the rise and fall of influential African-American politician Adam Clayton Powell Jr.[3][4] It was later aired as part of the PBS series The American Experience. Action 3
+
+Finish[The Saimaa Gesture]
+
+Question
+
+What profession does Nicholas Ray and Elia Kazan have in common?

@@ -1,0 +1,11 @@
+6. Organizations developing AI and funding bodies should support research into the interpretability of AI systems, with a focus on supporting risk assessment and auditing. 7. AI developers should develop, share, and use suites of tools for privacy-preserving machine learning that include measures of performance against common standards. Hardware Mechanisms and Recommendations
+
+8. Industry and academia should work together to develop hardware security features for AI accelerators or otherwise establish best practices for the use of secure hardware (including secure enclaves on commodity hardware) in machine learning contexts. 9. One or more AI labs should estimate the computing power involved in a single project in great detail (high-precision compute measurement), and report on the potential for wider adoption of such methods. 10. Government funding bodies should substantially increase funding of computing power resources for researchers in academia, in order to improve the ability of those researchers to verify claims made by industry. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

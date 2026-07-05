@@ -1,0 +1,9 @@
+The agent
+can suggest a new action choice or even a new long-term plan. 2) There are too many surfaces/containers to check for an item. The agent can
+exploit its experience memory over several trials to thoroughly search a room. In 3, the learning curve suggests that
+the learning process occurs over several experiences, meaning that the agent
+is successfully balancing cases 1 and 2 shown in the immediate spike in
+the improvement between the first two trials, then a steady increase over the
+next 11 trials to a near-perfect performance. On the other hand, 3
+shows a ReAct-only agent converging at a hallucination rate of 22% with
+no signs of long-term recovery.

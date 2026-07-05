@@ -1,0 +1,15 @@
+757--762,
+Beijing, China, July 2015. Association for Computational Linguistics. doi: 10.3115/v1/P15-2124. URL https://aclanthology.org/P15-2124. Joshi et al. (2017)
+
+Aditya Joshi, Pushpak Bhattacharyya, and Mark J. Carman. Automatic sarcasm detection: A survey. ACM Comput. Surv., 50(5), Sep. 2017. doi: 10.1145/3124420. URL https://doi.org/10.1145/3124420. Joshi et al. (2017)
+
+Mandar Joshi, Eunsol Choi, Daniel Weld, and Luke Zettlemoyer. TriviaQA: A large scale distantly supervised challenge dataset for
+reading comprehension, 2017. URL https://arxiv.org/abs/1705.03551. Joulin & Mikolov (2015)
+
+Armand Joulin and Tomas Mikolov. Inferring algorithmic patterns with stack-augmented recurrent nets. In Proceedings of the 28th International Conference on Neural
+Information Processing Systems, NIPS’15, volume 1, pp. 190–198,
+Cambridge, MA, USA, 2015. MIT Press. doi: 10.5555/2969239.2969261. URL https://dl.acm.org/doi/10.5555/2969239.2969261. Kale & Rastogi (2020)
+
+Mihir Kale and Abhinav Rastogi. Template guided text generation for task-oriented dialogue. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 6505--6520, Online, November
+2020.

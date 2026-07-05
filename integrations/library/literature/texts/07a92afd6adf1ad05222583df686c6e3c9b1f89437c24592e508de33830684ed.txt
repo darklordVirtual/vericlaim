@@ -1,0 +1,18 @@
+Amini et al. (2019)
+
+A. Amini, S. Gabriel, P. Lin, R. Koncel-Kedziorski, Y. Choi, and H. Hajishirzi. Mathqa: Towards interpretable math word problem solving with
+operation-based formalisms. arXiv preprint arXiv:1905.13319, 2019. Brown et al. (2020)
+
+T. B. Brown, B. Mann, N. Ryder, M. Subbiah, J. Kaplan, P. Dhariwal,
+A. Neelakantan, P. Shyam, G. Sastry, A. Askell, et al. Language models are few-shot learners. arXiv preprint arXiv:2005.14165, 2020. Chen et al. (2020)
+
+K. Chen, Q. Huang, H. Palangi, P. Smolensky, K. D. Forbus, and J. Gao. Mapping natural-language problems to formal-language solutions using
+structured neural representations. In ICML, 2020. Chen et al. (2019)
+
+X. Chen, C. Liang, A. W. Yu, D. Zhou, D. Song, and Q. V. Le. Neural symbolic reader: Scalable integration of distributed and
+symbolic representations for reading comprehension. In International Conference on Learning Representations, 2019. Chiang and Chen (2018)
+
+T.-R. Chiang and Y.-N. Chen. Semantically-aligned equation generation for solving and reasoning
+math word problems. arXiv preprint arXiv:1811.00720, 2018. Hendrycks et al. (2021)
+
+D. Hendrycks, C. Burns, S. Kadavath, A. Arora, S. Basart, E. Tang, D.

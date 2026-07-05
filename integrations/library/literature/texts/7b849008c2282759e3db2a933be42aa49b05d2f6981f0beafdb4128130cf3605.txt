@@ -1,0 +1,16 @@
+Test getting models out of the training algorithm. Make sure that the
+model in your training environment gives the same score as the model
+in your serving environment (see
+Rule #37). Machine learning has an element of unpredictability, so make sure that you
+have tests for the code for creating examples in training and serving, and
+that you can load and use a fixed model during serving. Also, it is important
+to understand your data: see
+Practical Advice for Analysis of Large, Complex Data Sets. Rule #6: Be careful about dropped data when copying pipelines. Often we create a pipeline by copying an existing pipeline (i.e.,
+cargo cult programming
+), and the old pipeline drops data that we need for the new pipeline. For example, the pipeline for Google Plus What’s Hot
+drops older posts (because it is trying to rank fresh posts). This pipeline was
+copied to use for Google Plus Stream, where older posts
+are still meaningful, but the pipeline was still dropping old posts. Another
+common pattern is to only log data that was seen by the user. Thus, this data is
+useless if we want to model why a particular post was not seen by the user,
+because all the negative examples have been dropped.

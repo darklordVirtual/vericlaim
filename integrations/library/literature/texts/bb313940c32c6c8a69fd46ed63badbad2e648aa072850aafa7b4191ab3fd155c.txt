@@ -1,0 +1,15 @@
+URL https://github.com/metagol/metagol. Cropper et al. (2016)
+
+Andrew Cropper, Alireza Tamaddoni-Nezhad, and Stephen H. Muggleton. Meta-interpretive learning of data transformation programs. In Katsumi Inoue, Hayato Ohwada, and Akihiro Yamamoto (eds.),
+Inductive Logic Programming, pp. 46--59, Cham, 2016. Springer. doi: 10.1007/978-3-319-40566-7_4. URL https://doi.org/10.1007/978-3-319-40566-7_4. Cropper et al. (2020)
+
+Andrew Cropper, Rolf Morel, and Stephen Muggleton. Learning higher-order logic programs. Machine Learning, 109:1289--1322, 2020. doi: 10.1007/s10994-019-05862-7. URL https://doi.org/10.1007/s10994-019-05862-7. Cruse (2015)
+
+Joe Cruse. Emoji usage in TV conversation. Twitter blog, 18 Nov 2015. URL
+https://blog.twitter.com/en_us/a/2015/emoji-usage-in-tv-conversation. Côté et al. (2018)
+
+Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes,
+Emery Fine, James Moore, Ruo Yu Tao, Matthew Hausknecht, Layla El Asri,
+Mahmoud Adada, Wendy Tay, and Adam Trischler. TextWorld: A learning environment for text-based games, 2018. URL https://arxiv.org/abs/1806.11532. Daley (2021)
+
+Jim Daley. White Chicago cops use force more often than Black officers.

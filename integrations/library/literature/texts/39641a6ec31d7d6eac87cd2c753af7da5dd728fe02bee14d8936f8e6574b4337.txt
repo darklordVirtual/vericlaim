@@ -1,0 +1,171 @@
+COMPLETION 7 (WRONG): ###
+
+return s.split(’,’)
+
+### COMPLETION 8 (WRONG): ###
+
+return s.split(sep=None)
+
+def is_prime(n):
+
+"""Return␣true␣if␣a␣given␣number␣is␣prime,␣and␣false␣otherwise. ␣␣␣␣>>>␣is_prime(6)
+
+␣␣␣␣False
+
+␣␣␣␣>>>␣is_prime(101)
+
+␣␣␣␣True
+
+␣␣␣␣>>>␣is_prime(11)
+
+␣␣␣␣True
+
+␣␣␣␣>>>␣is_prime(13441)
+
+␣␣␣␣True
+
+␣␣␣␣>>>␣is_prime(61)
+
+␣␣␣␣True
+
+␣␣␣␣>>>␣is_prime(4)
+
+␣␣␣␣False
+
+␣␣␣␣>>>␣is_prime(1)
+
+␣␣␣␣False
+
+␣␣␣␣"""
+
+### COMPLETION 1 (WRONG): ###
+
+for i in range(2, n):
+
+if n % i == 0:
+
+return False
+
+return True
+
+### COMPLETION 2 (WRONG): ###
+
+for i in range(2, n):
+
+if n % i == 0:
+
+return False
+
+return True
+
+### COMPLETION 3 (WRONG): ###
+
+# TODO: implement this function
+
+pass
+
+### COMPLETION 4 (CORRECT): ###
+
+if n < 2: return False
+
+if n == 2: return True
+
+if n%2 == 0: return False
+
+return not any(n%k == 0 for k in range(3,int(n**0.5)+1,2))
+
+### COMPLETION 5 (WRONG): ###
+
+def helper(n):
+
+# check if an odd number is multiple of any integer up to the square root of the number
+
+# if this is true, n is not prime
+
+for i in range(2, int(n**0.5 + 1)):
+
+if n % i == 0:
+
+return False
+
+return True
+
+# if helper returns true, then n is prime, else n is not prime
+
+if helper(n):
+
+return True
+
+else:
+
+return False
+
+### COMPLETION 6 (CORRECT): ###
+
+prime = True
+
+if n == 1:
+
+return False
+
+for i in range(2, n):
+
+if n % i == 0:
+
+prime = False
+
+return prime
+
+### COMPLETION 7 (WRONG): ###
+
+for i in range(2, n):
+
+if n % i == 0:
+
+return False
+
+return True
+
+### COMPLETION 8 (CORRECT): ###
+
+if n == 2 or n == 3:
+
+return True
+
+if n < 2 or n % 2 == 0:
+
+return False
+
+if n < 9:
+
+return True
+
+if n % 3 == 0:
+
+return False
+
+r = int(n**0.5)
+
+f = 5
+
+while f <= r:
+
+if n % f == 0:
+
+return False
+
+if n % (f+2) == 0:
+
+return False
+
+f += 6
+
+return True
+
+def add_elements(arr, k):
+
+"""
+
+␣␣␣␣Given␣a␣non-empty␣array␣of␣integers␣arr␣and␣an␣integer␣k,␣return
+
+␣␣␣␣the␣sum␣of␣the␣first␣k␣element␣that␣has␣at␣most␣two␣digits.

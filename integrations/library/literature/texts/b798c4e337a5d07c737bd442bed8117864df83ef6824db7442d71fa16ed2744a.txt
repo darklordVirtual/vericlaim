@@ -1,0 +1,5 @@
+It appears to imply that compute-efficient training will eventually run into a problem with overfitting, even if the training process never re-uses any data! According to Figure 1, we expect that when we are bottlenecked by the dataset size (ie by overfitting), the loss should scale as . This implies that the loss would scale with compute as once we are data-limited. Once again, we have a contradiction, as this will eventually intersect with our prediction for from Figure 13, where we found a scaling . The intersection point of and occurs at
+
+(6.8)
+
+though the numerical values are highly uncertain, varying by an order or magnitude in either direction depending on the precise values of the exponents from the power-law fits. The most obvious interpretation is that our scaling laws break down at or before we reach this point, which is still many orders of magnitude away in both compute and model size. One might also conjecture that this intersection point has a deeper meaning.

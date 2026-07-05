@@ -1,0 +1,15 @@
+A survey of reinforcement learning informed by natural language. In Proceedings of the Twenty-Eighth International Joint
+Conference on Artificial Intelligence, IJCAI-19, pp. 6309–6317, 2019. URL https://www.ijcai.org/proceedings/2019/0880.pdf. Ma et al. (2021)
+
+Mingyu Derek Ma, Jiao Sun, Mu Yang, Kung-Hsiang Huang, Nuan Wen, Shikhar Singh,
+Rujun Han, and Nanyun Peng. EventPlus: A temporal event understanding pipeline, 2021. URL https://arxiv.org/abs/2101.04922. Madotto et al. (2020)
+
+Andrea Madotto, Zihan Liu, Zhaojiang Lin, and Pascale Fung. Language models as few-shot learner for task-oriented dialogue
+systems, 2020. URL https://arxiv.org/abs/2008.06239. Madotto et al. (2021)
+
+Andrea Madotto, Zhaojiang Lin, Genta Indra Winata, and Pascale Fung. Few-shot bot: Prompt-based learning for dialogue systems, 2021. URL https://arxiv.org/abs/2110.08118. Magueresse et al. (2020)
+
+Alexandre Magueresse, Vincent Carles, and Evan Heetderks. Low-resource languages: A review of past work and future
+challenges, 2020. URL https://arxiv.org/abs/2006.07264. Malmi et al. (2018)
+
+Eric Malmi, Daniele Pighin, Sebastian Krause, and Mikhail Kozhevnikov. Automatic prediction of discourse connectives.

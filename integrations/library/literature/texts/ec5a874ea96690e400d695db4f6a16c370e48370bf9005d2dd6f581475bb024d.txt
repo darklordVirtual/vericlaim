@@ -1,0 +1,17 @@
+bQ14B shares the same first-stage (65% ZH / 59% EN ),
+
+bso the same P50 approximation applies; measured P50 is 7–10% below the sum of individual P50s. cDefault config (num_predict=50); with num_predict=10 on the same full-length ZH prompts, P50=303 ms, FPR=29.3% (); see Sects. 7.3 and 7.4.5 (v). The latency results reveal six distinct operating regimes:
+BART-MNLI provides sub-second verification (200 ms) but
+negligible security benefit;
+Qwen3.5-4B offers the fastest LLM-grade verification
+(490 ms, 94.3–95.8% IR);
+Llama-3.1-8B occupies a mid-range position (P50: 639–723 ms)
+with the highest IR among mid-latency models (97.8–98%)
+but also the highest FPR (37.5–37.7%); see Sect. 7.4;
+Qwen2.5-14B (P50: 883–1,163 ms) and GPT-4o-mini
+(P50: 1,023–1,127 ms) occupy overlapping low-second ranges
+with the best precision–recall balance;
+Qwen3.5-9B achieves 95–96.5% IR with full data sovereignty
+but at 2,000–2,200 ms latency cost. The two cascade conditions (QG: 2,800–3,000 ms;
+Q14B: 2,700–3,000 ms) form a sixth, high-latency
+regime that trades throughput for reduced FPR.

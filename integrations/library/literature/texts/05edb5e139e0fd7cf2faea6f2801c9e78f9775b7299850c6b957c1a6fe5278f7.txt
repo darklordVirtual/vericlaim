@@ -1,0 +1,86 @@
+*Approximate message count assuming a preprompt of 1k tokens, and an average message size of 50 tokens (250 characters). ‘Open’ means the model is open-source or open-weights (vs only available behind an API). Context Window
+
+Model / API name
+Open? Tokens
+
+∗Messages
+
+Llama (1)
+
+✓
+
+2k
+
+20
+
+Llama 2
+
+✓
+
+4k
+
+60
+
+GPT-3.5 Turbo (release)
+
+✗
+
+4k
+
+60
+
+Mistral 7B
+
+✓
+
+8k
+
+140
+
+GPT-4 (release)
+
+✗
+
+8k
+
+140
+
+GPT-3.5 Turbo
+
+✗
+
+16k
+
+300
+
+GPT-4
+
+✗
+
+32k
+
+600
+
+Claude 2
+
+✗
+
+100k
+
+2000
+
+GPT-4 Turbo
+
+✗
+
+128k
+
+2600
+
+Yi-34B-200k
+
+✓
+
+200k
+
+4000

@@ -1,0 +1,33 @@
+An end-to-end attestation framework for deep neural networks”
+
+In Proceedings of the International Symposium on Computer Architecture
+
+Institute of ElectricalElectronics Engineers Inc., 2019, pp. 487–498
+
+URL: https://www.microsoft.com/en-us/research/uploads/prod/2019/05/DeepAttest.pdf
+
+[107]
+Zahra Ghodsi, Tianyu Gu and Siddharth Garg
+
+“SafetyNets: Verifiable Execution of Deep Neural Networks on an Untrusted Cloud”
+
+In Conference on Neural Information Processing Systems, 2017
+
+URL: https://papers.nips.cc/paper/7053-safetynets-verifiable-execution-of-deep-neural-networks-on-an-untrusted-cloud.pdf
+
+[108]
+Seyyed Ahmad Javadi et al. “Monitoring Misuse for Accountable ’Artificial Intelligence as a Service”’
+
+In arXiv, 2020
+
+arXiv: http://arxiv.org/abs/2001.09723
+
+[109]
+Frank Mckeen et al. “Innovative Instructions and Software Model for Isolated Execution”
+
+In HASP ’13: Proceedings of the 2nd International Workshop on Hardware and Architectural Support for Security and Privacy, 2013
+
+DOI: 10.1145/2487726.2488368
+
+[110]
+Jo Van Bulck et al.

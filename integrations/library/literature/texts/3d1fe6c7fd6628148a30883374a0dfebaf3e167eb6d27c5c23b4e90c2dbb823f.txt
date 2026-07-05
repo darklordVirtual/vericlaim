@@ -1,0 +1,17 @@
+T. Ribeiro,
+and Y. Zhang. Sparks of artificial general intelligence: Early experiments with
+GPT-4, 2023. arXiv preprint arXiv:2303.12712. Busa-Fekete et al. [2014]
+
+R. Busa-Fekete, B. Szörényi, P. Weng, W. Cheng, and
+E. Hüllermeier. Preference-based reinforcement learning: evolutionary direct policy
+search using a preference-based racing algorithm. Machine Learning, 97(3):327–351, July
+2014. doi: 10.1007/s10994-014-5458-8. URL https://doi.org/10.1007/s10994-014-5458-8. Chen et al. [2023]
+
+Y. Chen, R. Wang, H. Jiang, S. Shi, and R.-L. Xu. Exploring the use of large language models for reference-free text
+quality evaluation: A preliminary empirical study. ArXiv, abs/2304.00723, 2023. Chowdhery et al. [2022]
+
+A. Chowdhery, S. Narang, J. Devlin, M. Bosma, G. Mishra, A. Roberts, P. Barham,
+H. W. Chung, C. Sutton, S. Gehrmann, et al. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311, 2022. Christiano et al. [2017]
+
+P. F. Christiano, J. Leike, T. Brown, M. Martic, S. Legg, and D. Amodei. Deep reinforcement learning from human preferences. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus,
+S. Vishwanathan, and R.

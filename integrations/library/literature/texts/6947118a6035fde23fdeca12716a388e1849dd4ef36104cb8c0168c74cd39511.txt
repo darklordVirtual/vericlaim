@@ -1,0 +1,21 @@
+Language models as knowledge bases? In EMNLP, 2019. [52]
+
+Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training, 2018. [53]
+
+Alec Radford, Jeffrey Wu, Dario Amodei, Daniela Amodei, Jack Clark, Miles
+Brundage, and Ilya Sutskever. Better language models and their implications. OpenAI Blog, 2019. [54]
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+Sutskever. Language models are unsupervised multitask learners, 2019. [55]
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer. In JMLR, 2020. [56]
+
+Swaroop Ramaswamy, Om Thakkar, Rajiv Mathews, Galen Andrew, H Brendan McMahan,
+and Françoise Beaufays. Training production language models without memorizing user data. arXiv preprint arXiv:2009.10031, 2020. [57]
+
+Roger Ratcliff. Connectionist models of recognition memory: constraints imposed by
+learning and forgetting functions. Psychological review, 1990. [58]
+
+Jingjing Ren, Ashwin Rao, Martina Lindorfer, Arnaud Legout, and David Choffnes.

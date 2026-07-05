@@ -1,0 +1,20 @@
+(2021)
+
+Piotr Piękos, Mateusz Malinowski, and Henryk Michalewski. 2021. Measuring and
+improving BERT’s mathematical abilities by predicting the order of
+reasoning. ACL. Rae et al. (2021)
+
+Jack W. Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann,
+Francis Song, John Aslanides, Sarah Henderson, Roman Ring, Susannah Young,
+et al. 2021. Scaling language models:
+Methods, analysis & insights from training Gopher. arXiv preprint arXiv:2112.11446. Raffel et al. (2020)
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J Liu. 2020. Exploring the limits of
+transfer learning with a unified text-to-text transformer. Journal of Machine Learning Research, 21:1–67. Rajagopal et al. (2021)
+
+Dheeraj Rajagopal, Vidhisha Balachandran, Eduard H. Hovy, and Yulia Tsvetkov. 2021. SelfExplain: A self-explaining architecture for neural text classifiers. EMNLP. Rajani et al. (2019)
+
+Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong, and Richard Socher. 2019. Explain yourself! Leveraging language models for commonsense reasoning. ACL. Ran et al. (2019)
+
+Qiu Ran, Yankai Lin, Peng Li, Jie Zhou, and Zhiyuan Liu. 2019.

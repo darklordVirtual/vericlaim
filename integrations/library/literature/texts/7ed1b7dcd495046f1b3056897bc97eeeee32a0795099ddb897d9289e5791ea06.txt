@@ -1,0 +1,23 @@
+In RAID (2006), Springer, pp. 81–105. [41]
+
+Nocedal, J., and Wright, S. Numerical optimization. Springer Science & Business Media, 2006. [42]
+
+Papernot, N., McDaniel, P., Goodfellow, I., Jha, S., Celik, Z. B., and
+Swami, A. Practical black-box attacks against deep learning systems using
+adversarial examples. arXiv preprint arXiv:1602.02697 (2016). [43]
+
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B.,
+Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V.,
+Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., and
+Duchesnay, E. Scikit-learn: Machine learning in Python. JMLR 12 (2011), 2825–2830. [44]
+
+PredictionIO. http://prediction.io. Accessed Feb. 10, 2016. [45]
+
+Rubinstein, B. I., Bartlett, P. L., Huang, L., and Taft, N. Learning in a large function space: Privacy-preserving mechanisms for
+SVM learning. JPC 4, 1 (2012), 4. [46]
+
+Rubinstein, B. I., Nelson, B., Huang, L., Joseph, A. D., Lau, S.-h., Rao,
+S., Taft, N., and Tygar, J. Antidote: understanding and defending against poisoning of anomaly
+detectors. In IMC (2009), ACM, pp. 1–14. [47]
+
+Saar-Tsechansky, M., and Provost, F.

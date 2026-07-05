@@ -1,0 +1,18 @@
+(2017). Deep reinforcement learning from human preferences. [Christiano et al., 2018]
+
+Christiano, P., Shlegeris, B., and Amodei, D. (2018). Supervising strong learners by amplifying weak experts. [Ganguli et al., 2022]
+
+Ganguli, D., Lovitt, L., Kernion, J., Askell, A., Bai, Y., Kadavath, S., Mann,
+B., Perez, E., Schiefer, N., Ndousse, K., Jones, A., Bowman, S., Chen, A.,
+Conerly, T., DasSarma, N., Drain, D., Elhage, N., El-Showk, S., Fort, S.,
+Dodds, Z. H., Henighan, T., Hernandez, D., Hume, T., Jacobson, J., Johnston,
+S., Kravec, S., Olsson, C., Ringer, S., Tran-Johnson, E., Amodei, D., Brown,
+T., Joseph, N., McCandlish, S., Olah, C., Kaplan, J., and Clark, J. (2022). Red teaming language models to reduce harms: Methods, scaling
+behaviors, and lessons learned. [Gao et al., 2022]
+
+Gao, L., Schulman, J., and Hilton, J. (2022). Scaling laws for reward model overoptimization. [Glaese et al., 2022]
+
+Glaese, A., McAleese, N., Trębacz, M., Aslanides, J., Firoiu, V., Ewalds,
+T., Rauh, M., Weidinger, L., Chadwick, M., Thacker, P., Campbell-Gillingham,
+L., Uesato, J., Huang, P.-S., Comanescu, R., Yang, F., See, A., Dathathri,
+S., Greig, R., Chen, C., Fritz, D., Elias, J.

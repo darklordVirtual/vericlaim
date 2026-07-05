@@ -1,0 +1,21 @@
+The algorithms are also useful as a way of speeding up adversarial training or
+even just analysis of trained networks. “panda”
+
+“nematode”
+
+“gibbon”
+
+57.7% confidence
+
+8.2% confidence
+
+99.3 % confidence
+
+Figure 1:
+A demonstration of fast adversarial example generation applied to GoogLeNet
+(Szegedy et al., 2014a)
+on ImageNet. By adding an imperceptibly small vector whose elements are equal to the sign of the elements
+of the gradient of the cost function with respect to the input, we can
+change GoogLeNet’s classification of the image. Here our of .007
+corresponds to the magnitude of the smallest bit of an 8 bit image encoding
+after GoogLeNet’s conversion to real numbers.

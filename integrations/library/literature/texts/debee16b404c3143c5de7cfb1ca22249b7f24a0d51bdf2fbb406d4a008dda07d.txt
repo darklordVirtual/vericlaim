@@ -1,0 +1,11 @@
+Because these models
+are often trained on massive de-duplicated datasets
+only for a single epoch [7, 55],
+they exhibit little to no overfitting [53]. Accordingly,
+the prevailing wisdom has been that
+“the degree of
+copying with respect to any given work is likely to be, at most, de minimis” [71]
+and that models do not significantly memorize any particular training example. Contributions. In this work, we demonstrate that large language models memorize and leak individual training examples. In particular, we propose a simple and efficient method for extracting verbatim sequences from a language model’s training set using only black-box query access. Our key insight is that, although
+training examples do not have noticeably lower losses than test examples on average,
+certain worst-case training examples are indeed memorized. In our attack, we first generate a large, diverse set of high-likelihood samples from the model,
+using one of three general-purpose sampling strategies.

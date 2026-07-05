@@ -1,0 +1,77 @@
+Names of relations have a verbal form in the past tense to express what happened in the past, as opposed to what may or will happen. In the core of PROV, all relations are binary. Table 2 ◊: Mapping of PROV core concepts to types and relations
+
+PROV Concepts
+
+PROV-DM types or relations
+
+Name
+
+Overview
+
+Entity
+
+PROV-DM Types
+
+Entity
+
+Section 2.1.1
+
+Activity
+
+Activity
+
+Section 2.1.1
+
+Agent
+
+Agent
+
+Section 2.1.3
+
+Generation
+
+PROV-DM Relations
+
+WasGeneratedBy
+
+Section 2.1.1
+
+Usage
+
+Used
+
+Section 2.1.1
+
+Communication
+
+WasInformedBy
+
+Section 2.1.1
+
+Derivation
+
+WasDerivedFrom
+
+Section 2.1.2
+
+Attribution
+
+WasAttributedTo
+
+Section 2.1.3
+
+Association
+
+WasAssociatedWith
+
+Section 2.1.3
+
+Delegation
+
+ActedOnBehalfOf
+
+Section 2.1.3
+
+2.1.1 Entity and Activity
+This section is non-normative. In PROV, things we want to describe the provenance of are called entities and have some fixed aspects. The term "things" encompasses a broad diversity of notions, including digital objects such as a file or web page,
+physical things such as a mountain, a building, a printed book, or a car as well as abstract concepts and ideas.

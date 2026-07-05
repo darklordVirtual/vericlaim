@@ -1,0 +1,43 @@
++ CC
+
+19.2
+
+05.6
+
+33.2
+
+Toolformer (disabled)
+
+22.1
+
+06.3
+
+34.9
+
+Toolformer
+
+33.8
+
+11.5
+
+53.5
+
+OPT (66B)
+
+21.6
+
+02.9
+
+30.1
+
+GPT-3 (175B)
+
+26.8
+
+07.0
+
+39.8
+
+Table 3: Results on subsets of LAMA. Toolformer uses the question answering tool for most examples, clearly outperforming all baselines of the same size and achieving results competitive with GPT-3 (175B). 4.2.2 Math Datasets
+
+We test mathematical reasoning abilities on ASDiv (Miao et al., 2020), SVAMP (Patel et al., 2021) and the MAWPS benchmark (Koncel-Kedziorski et al., 2016). We again account for the fact that we test all models in a zero-shot setup by using a more lenient evaluation criterion: As the required output is always a number, we simply check for the first number predicted by the model.777An exception to this is if the model’s prediction contains an equation (e.g., “The correct answer is 5+3=8”), in which case we consider the first number after the “=” sign to be its prediction. Table 4 shows results for all benchmarks. While GPT-J and GPT-J + CC perform about the same, Toolformer achieves stronger results even when API calls are disabled.

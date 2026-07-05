@@ -1,0 +1,35 @@
+In the generated patch, the model adds and as acceptable values. However, the gold patch adds the acceptable values into a list
+
+["all", "row", "col", "none", False, True]
+. It also removes the
+
+Integral
+related warning tied to this issue. This clean up along with the clarity of the
+
+check_in_list
+argument makes the code more concise and readable. Table 18:
+In this example, we show an issue from astropy/astropy that Claude 2 does not solve correctly. The error is primarily due to the patch generation’s attempt to directly solve the issue. Setting
+
+•
+
+Model: Claude 2 with Oracle retrieval
+
+•
+
+Task Instance: astropy__astropy-14365
+
+–
+
+Link to Issue: https://github.com/astropy/astropy/issues/14363
+
+–
+
+Link to PR: https://github.com/astropy/astropy/pull/14365
+
+Issue
+
+ascii.qdp Table format assumes QDP commands are upper case
+
+### Description
+
+ascii.qdp assumes that commands in a QDP file are upper case, for example, for errors they must be “READ SERR 1 2” whereas QDP itself is not case sensitive and case use “read serr 1 2”. As many QDP files are created by hand, the expectation that all commands be all-caps should be removed.

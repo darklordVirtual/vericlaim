@@ -1,0 +1,19 @@
+Here we outline contributions by members of the BIG-bench core project team. The reader is encouraged to attribute credit generously! Everyone who contributed to more than one item spent between weeks and months of their time working on BIG-bench, and in some cases those that contributed the most spoke the most softly about their contributions. The BIG-bench github code infrastructure and documentation was developed by
+Guy Gur-Ari,
+Ethan Dyer,
+Ambrose Slone,
+Jascha Sohl-Dickstein,
+Noah Fiedel, Jaehoon Lee,
+Daniel Freeman,
+Aitor Lewkowycz, Anders Andreassen, Gaurav Mishra, and Vedant Misra. The Google-internal code infrastructure for BIG-bench was built by
+Ambrose Slone,
+Ethan Dyer, Gaurav Mishra, Jaehoon Lee,
+Daniel Freeman,
+Aitor Lewkowycz, and Anders Andreassen. The OpenAI-internal code infrastructure for BIG-bench was built by
+Alex Ray,
+Vedant Misra,
+and Alethea Power. Public interfaces for BIG-bench -- especially the SeqIO Bridge and Hugging Face dataset implementations were developed by
+Gaurav Mishra,
+Noah Fiedel,
+Ethan Dyer,
+and Anders Andreassen.

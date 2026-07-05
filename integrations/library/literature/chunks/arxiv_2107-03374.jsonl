@@ -1,0 +1,177 @@
+{"fsid": "arxiv_2107-03374", "n": 176, "overlap": 200, "source_sha256": "a2dff214d08a6e826fc4f238ab71917a18c802ad8f2128c1b8971ec822aefb34", "target": 1200}
+{"section": "", "seq": 0, "sha256": "db1f62e4a6d90df59977fcb5f9a1cfe8652ec8f3866e1d755bf4cbc0b20a1ee4"}
+{"section": "Evaluating Large Language Models Trained on Code", "seq": 1, "sha256": "a98afc5c9c6c87bcf0c306cbb62ce026e721f444478fab937171cf617eb488f0"}
+{"section": "Evaluating Large Language Models Trained on Code", "seq": 2, "sha256": "a53002b876334d9ca03dc932133e7cd2326e7ac3787e1f3d98597f0dc09ef24f"}
+{"section": "1 Introduction", "seq": 3, "sha256": "931fc3e1a6f3baa85fd053ff249d470066a436ca40db3c73f18d73566702ebb7"}
+{"section": "1 Introduction", "seq": 4, "sha256": "01f2326bb3416b5139768ca8af15005a529526ffb2ebb27c7812bb693ab09e44"}
+{"section": "1 Introduction", "seq": 5, "sha256": "72676918c4566f437bd0bd4734712675225cd76b2853e8118fe96398df341c17"}
+{"section": "1 Introduction", "seq": 6, "sha256": "fb7e65c91a9774c9e3584130c9cd078216aec07fbae044e8ea4c8d892160b2de"}
+{"section": "1 Introduction", "seq": 7, "sha256": "004399284335258aa181dab1a6b90932435c1c9287437e7749d04287f6350a77"}
+{"section": "1 Introduction", "seq": 8, "sha256": "8b07d4aa941d100ce3c0d230e552a785b9718ef4cb2ddebe8bf590cef850dba3"}
+{"section": "2 Evaluation Framework", "seq": 9, "sha256": "9ce5e17ce067d13493225ca41b5bde8969633db567e566395073fb8373cc461c"}
+{"section": "2.1 Functional Correctness", "seq": 10, "sha256": "bab9b6767df86967981efecee812e00a7cdba03e2e033ff59533ea3ea7382915"}
+{"section": "2.1 Functional Correctness", "seq": 11, "sha256": "dc76031dec91241fba87d1251f81eb895eb82bf11db346aaec02b0a935b96410"}
+{"section": "2.1 Functional Correctness", "seq": 12, "sha256": "dedbee483ea26054171ae7d0fc4729bffd78a306985b8a83d384f978ebc34c90"}
+{"section": "2.2 HumanEval: Hand-Written Evaluation Set", "seq": 13, "sha256": "d000a9d9c18072ffe6518120a05ad9cfe74740e5e9ea1a8ce2c7a95bfe437972"}
+{"section": "2.3 Sandbox for Executing Generated Programs", "seq": 14, "sha256": "ff0b5b07f334051b1a6920981f45a38d88dd47d5a6dcbec867d3e40d6c3f46d5"}
+{"section": "2.3 Sandbox for Executing Generated Programs", "seq": 15, "sha256": "fb37f3eee3eb954e0361123eee748c1dad91d790210c58218f18b4a8af6f6168"}
+{"section": "3 Code Fine-Tuning", "seq": 16, "sha256": "1136f48fee91544ce4edee1cb2d21a66ca7377944ec6c0690f21347f4bda4b31"}
+{"section": "3.1 Data Collection", "seq": 17, "sha256": "440363e4e512cfdbf839c5b96d1cef7dce86c83a34e228b5756d789cde947802"}
+{"section": "3.2 Methods", "seq": 18, "sha256": "9fb0e4215ce642293135ef66557de99edb7d60e4f42fcc7fc28a5ada4fb49531"}
+{"section": "3.2 Methods", "seq": 19, "sha256": "5e5c01488e78c9b2f1c17470a911210b4946a46d40539b8c962b9cc69c1b5ec7"}
+{"section": "3.3 Results", "seq": 20, "sha256": "67ac664765512dfb560804dcf039f89ba22573fa3033759e0b719aac41fddfc8"}
+{"section": "3.3 Results", "seq": 21, "sha256": "caa0ef485ed742c05c94978a637e85a2d35f6e1b8abfc0bbc510cf357214f3ed"}
+{"section": "3.3 Results", "seq": 22, "sha256": "9efd56e1219ca5cd0545f256881c435f54c16edadc20ed119ad363866f590ca3"}
+{"section": "3.3 Results", "seq": 23, "sha256": "e247b36295c747f501b6f2cb7522a1aa84a5dc29d6959d2bbc6caf828ef733f9"}
+{"section": "3.4 Comparative Analysis of Related Models and Systems", "seq": 24, "sha256": "ac135e27a3d4ee6cfd28207e22cef9317114ce4b456e88e7b6517683ecc40616"}
+{"section": "3.4 Comparative Analysis of Related Models and Systems", "seq": 25, "sha256": "f2a57e367a79b64aca342eeaf354c99300d0267db6f4e216bbc50f83a8c56b62"}
+{"section": "3.5 Results on the APPS Dataset", "seq": 26, "sha256": "47176a5a54020ce9a022d03d933d809abfcb5b1f503e96af23d75639fe180da0"}
+{"section": "3.5 Results on the APPS Dataset", "seq": 27, "sha256": "e06c2ed531c7829e02188fadae26d310518e1568793803cfd37beb05e0eb997f"}
+{"section": "3.5 Results on the APPS Dataset", "seq": 28, "sha256": "2ed4a328cd0d06942f1faa7d1e0ba953a75501e45d9f4582506d78ad6282fc49"}
+{"section": "3.5 Results on the APPS Dataset", "seq": 29, "sha256": "3468c00783c1e43015665f645afc1b2f08bf7628c2be219766240df4fb1f1def"}
+{"section": "4 Supervised Fine-Tuning", "seq": 30, "sha256": "d95e61884c3c85e8a7c160ffda6e70f91a0663f7cccfde4841b0e7df36be20d3"}
+{"section": "4.1 Problems from Competitive Programming", "seq": 31, "sha256": "e9711620fad67cc99a4f825da5a0212940017a885c0a51e6cf6b7a6255651cc8"}
+{"section": "4.2 Problems from Continuous Integration", "seq": 32, "sha256": "9318f38aae971247bb2f26c254abd5a94fefca7f365c8472fb31ec5342552010"}
+{"section": "4.2 Problems from Continuous Integration", "seq": 33, "sha256": "aafb09c88d89e80c69f6168710a4cbe6581b14a69ef243d411efdb02a89828d7"}
+{"section": "4.3 Filtering Problems", "seq": 34, "sha256": "e47c361cc14861b1b6996f8ceb76ad66107a6012014f4f7d75073f4e00b428dc"}
+{"section": "4.4 Methods", "seq": 35, "sha256": "0a0e6f6c1fd086c117a2b0ec07f41a34cbf5247868339825ce77c518080cefed"}
+{"section": "4.5 Results", "seq": 36, "sha256": "90c38e561022c57ed9c965c87fea52ab9cfb58fabd744d578007c5b5562e6b31"}
+{"section": "4.5 Results", "seq": 37, "sha256": "7faa5ee5e3b758af8bed42442e735e1f88ef65b61236380ee8aeb9128f5eccd2"}
+{"section": "5 Docstring Generation", "seq": 38, "sha256": "87d4a84e2d813f2e5a4bfdd8ee316b725ac15433b485976743013c8080ba8a73"}
+{"section": "5 Docstring Generation", "seq": 39, "sha256": "ddc0321e5a56076c0782a0effe226a36bc335481e8a0d802e1a67602d393abe7"}
+{"section": "5 Docstring Generation", "seq": 40, "sha256": "d713f4ee1ff9de85ed1cf13d6ebce03b1bfcd3bc755ab26f3e508946047c21bc"}
+{"section": "5 Docstring Generation", "seq": 41, "sha256": "5f0fcf25a7c528e673d604875e92714884c76c534dbcfb366c8c3ef88caeb522"}
+{"section": "6 Limitations", "seq": 42, "sha256": "41068c3270f6244f1dce89c44783bfa5a16f009ecfe21b81a7f3b3e134c466e8"}
+{"section": "6 Limitations", "seq": 43, "sha256": "162df665970919388fb4a1ce23ce72b8fcad3634e5c9afbc0c37cc071b1cdc68"}
+{"section": "6 Limitations", "seq": 44, "sha256": "5751abfd9ff709734a6a7556b3b83d3b3730cb606ff7fb33256cd506e518df8c"}
+{"section": "6 Limitations", "seq": 45, "sha256": "db6d9b3005b421f61fe9d880f39353c50224d6746a2f6069698c777fde31e6bb"}
+{"section": "7 Broader Impacts and Hazard Analysis", "seq": 46, "sha256": "37b0a7831d04457220442f466f62ca746c23f3a9bc1830bcef0080e7bab21f24"}
+{"section": "7 Broader Impacts and Hazard Analysis", "seq": 47, "sha256": "0ab6d2a5c18d1ca6042efeeef3e3bd79b15d43f1446e77fa401ea545e53849a1"}
+{"section": "7 Broader Impacts and Hazard Analysis", "seq": 48, "sha256": "2a41ee856fcf1faeed0f73801faeeea99828f21b32e94ab11ff2f008480e373a"}
+{"section": "7.1 Over-reliance", "seq": 49, "sha256": "7745cca0c9e0ed47200f8824fbcdd67e37826c6849ec1554c7857b3845c6abf2"}
+{"section": "7.1 Over-reliance", "seq": 50, "sha256": "ee3a2608245b1f1a9d8b00e5199a899e1bddf9055864f7bf79a7ae9875c0fc7f"}
+{"section": "7.2 Misalignment", "seq": 51, "sha256": "bd4cba56648d241dba03dd9251caff15a02f0e91745c25836259507629aa455c"}
+{"section": "7.2 Misalignment", "seq": 52, "sha256": "0dde7bc6e1b9ba2e30f3c2f5c98fcf36d1c21257d67ae2f732130037ab6f2597"}
+{"section": "7.3 Bias and representation", "seq": 53, "sha256": "afb7745860e7b5cd4f149ac3e095ad6310676c56547b73824d11278b54c4462e"}
+{"section": "7.4 Economic and labor market impacts", "seq": 54, "sha256": "06cae9bef1746f9f0dad203bd5726225f2cf6d616b863c3a19ed0481e9cb8c4b"}
+{"section": "7.4 Economic and labor market impacts", "seq": 55, "sha256": "eed0b03d8696f0bef367bd8c5e5b3735e5631b37afd8dae0d58a975c7e344636"}
+{"section": "7.5 Security implications", "seq": 56, "sha256": "22fcb7f8b6d6543f9596186dbcade8fea4d1fd7069a69767e9cd0c8a5d66e5ec"}
+{"section": "7.5 Security implications", "seq": 57, "sha256": "b3261b6b936614323f5451de391a88151d1b01dabb98bfc845893201d87ddf3c"}
+{"section": "7.5 Security implications", "seq": 58, "sha256": "8acdcc05e5391eb5f7c89706e8707c4c72fe2d21ed1b2e72089643318c1dc9c6"}
+{"section": "7.6 Environmental impacts", "seq": 59, "sha256": "4100d9f151ee51fbd0d1e562e454623889e2b0dd5a3b6128c578d395b3b217a5"}
+{"section": "7.6 Environmental impacts", "seq": 60, "sha256": "065173c0cde66a2e5ebb057827c173e182504cb0fc5bd5cd0284384c5ae3935b"}
+{"section": "7.7 Legal implications", "seq": 61, "sha256": "5b267d2a548ef68bac08e4cee0fa697593f849257e7ae3b8477cd1df74de9980"}
+{"section": "7.7 Legal implications", "seq": 62, "sha256": "8a709895365a3f56880d18b733f0f861b2f95e85596d4fe467baa28ad0aa4920"}
+{"section": "7.8 Risk mitigation", "seq": 63, "sha256": "4c9839df71dbf457f0634608c84971a670ffbea0d00549f361699ab5a7fa64f9"}
+{"section": "8 Related Work", "seq": 64, "sha256": "d9a1f9af0d3a4dc791104d5b05dd1cf422fc6ba01cd17fde5ff1649bb23d4d13"}
+{"section": "8 Related Work", "seq": 65, "sha256": "2afc4d72a99345f710978d1681132d521123057ee52f68a4609d6f6a243940b5"}
+{"section": "8 Related Work", "seq": 66, "sha256": "f07fb10f533892731976d896d25a3c4000885dfd83d01bfd1d782233936623cb"}
+{"section": "8 Related Work", "seq": 67, "sha256": "f557efdd94e6002ace0a884377138226a4beed7895ed4ded235fef0dde34462e"}
+{"section": "8 Related Work", "seq": 68, "sha256": "d2df36cf2c0c09c2719cd50944b21ac226b36263bb2e318a4ed2204d09976634"}
+{"section": "8 Related Work", "seq": 69, "sha256": "3feac874b05d2f6a915ac3630f42ff21e500d1e49b94b92cd434a90003636e54"}
+{"section": "8 Related Work", "seq": 70, "sha256": "1b5a2cae1f75afd9a82b75686482bb693c818d2919cd694c7098caa3f8a78c4e"}
+{"section": "9 Conclusion", "seq": 71, "sha256": "d88ae23b019da7b704bdefe2d699a293c03b985c6e1d0d7e79ff8621961e80d0"}
+{"section": "Acknowledgements", "seq": 72, "sha256": "6bf7863bba033ca5c9726ec5e1595b523eb2560f3d6352ea46d169485e025719"}
+{"section": "References", "seq": 73, "sha256": "57a69197f7c31867e525c4c03df5b05a0eb974266de2664b05c1478b62025602"}
+{"section": "References", "seq": 74, "sha256": "270370d664fe42aa92357ff0031af9a021cc5167c8372b1f300274b687658009"}
+{"section": "References", "seq": 75, "sha256": "e8e16ecd663181e9cb2c71ad3dcd816717d68afb24dfce1dd3d12d47fa7ba6b1"}
+{"section": "References", "seq": 76, "sha256": "76acc2d93ebc72f8231618e6d58420ecd642a91c1b8bd48dd329c8c1c459a434"}
+{"section": "References", "seq": 77, "sha256": "06a97be423519d93fbce0fe124f05717dda3f38e10bbefd0f8984a22f36774c9"}
+{"section": "References", "seq": 78, "sha256": "e6ca94af6a1ddc93b13b2d7f6e50edbc51b88e56bafb40bc33f81a5646c022fe"}
+{"section": "References", "seq": 79, "sha256": "9e55954445c60d2af2d57abc74080a2b3cdc7968a20543ed758e5a287cf46a42"}
+{"section": "References", "seq": 80, "sha256": "7ad98a227eb1ead11951051403a465fd165013b3c1d2ac5634e2458e9f9b2a9c"}
+{"section": "References", "seq": 81, "sha256": "61f7569587c60e248cf385bdc6dd2f781becf031698757ec3607f33ed85b925a"}
+{"section": "References", "seq": 82, "sha256": "06feb87fffe732c29b219ffd4d37614d73f9226ce04f1f7195aecca022016530"}
+{"section": "References", "seq": 83, "sha256": "be94ea734448d3227b508a09ac6a10188e460ddad3d0abc1e2ae3ab59eeecf34"}
+{"section": "References", "seq": 84, "sha256": "8df65026abf785d0b003f21a8ea58ca8ba2dce10129a721e2c46cb57a8ae6b8a"}
+{"section": "References", "seq": 85, "sha256": "3bdb5df62c64711b0f4b85b07dc091e672fbcf723e3779c28d24cb9579fd4340"}
+{"section": "References", "seq": 86, "sha256": "d3e68cd291f36ced8574901c0f87b14bb36491a495deddb0a9112b19245ad0b4"}
+{"section": "References", "seq": 87, "sha256": "a80da4ed6cd0cc9c0c6b6c0c52a5312fe1ddded80caa11822560ca5a896b8730"}
+{"section": "References", "seq": 88, "sha256": "f35c7e3f00f5668e0c1f14a92a8e2ba9cbfc6779b2d2d10c9d5cde8d0a41cbfe"}
+{"section": "References", "seq": 89, "sha256": "f8a0cd5a8e82a687c42f9b8b2d55967ac1075903aebe6216c377330896ca4101"}
+{"section": "References", "seq": 90, "sha256": "c017f05d19279529f17cf4b62760bf546f6672690ebeeb3c15585ede38f70bbe"}
+{"section": "References", "seq": 91, "sha256": "6a38af5bf24295fce4fd51ad6a332351adc0547bf3202741cdd56a57d7c4c8c9"}
+{"section": "References", "seq": 92, "sha256": "836d8330eed72748adebc0431f4a7ff30bc86b066cd77c79eade65f84e124542"}
+{"section": "References", "seq": 93, "sha256": "830d4033d0114fbd1af46b17d0f629f4c33b7b8972aaab25a656aa7dde22b268"}
+{"section": "References", "seq": 94, "sha256": "7e4a2884b035c480087b65810e93f371294230a4c10200a5d7ed84f30fbc29b2"}
+{"section": "References", "seq": 95, "sha256": "a1c5c344066c4f3b5735a5c47c732e6c8d8e762cefbadd69e8fed76699d0c984"}
+{"section": "References", "seq": 96, "sha256": "0370f0ffc1b93d2f1fdd8562c6ccc37616a47e0dd69d770b166396442e72e4d5"}
+{"section": "References", "seq": 97, "sha256": "907addad5817cda046a8cdc972d69edf51034a54a81c9eee21352fa07766475c"}
+{"section": "Appendix A Estimating pass@", "seq": 98, "sha256": "166c5b5115ba745c17b1aa436c4bded35f63533a114902fd4dcbdd137b100358"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 99, "sha256": "7777f4925a9f7057b0dc6e246a183f993d9503a8eca155c472856cd0838489b0"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 100, "sha256": "dfc036e70df643514d3e19f9ce15e1ae63b8b0f31da0b71fd683f1ff5a72576f"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 101, "sha256": "39641a6ec31d7d6eac87cd2c753af7da5dd728fe02bee14d8936f8e6574b4337"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 102, "sha256": "8c72b4d81b1234a16163bb2f8c6a9a99cac752bdd90b3a3bba37c1ce0cc1e193"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 103, "sha256": "83a430b77e81ab3dc7fdb98fc8ae8ef5ffa0babdfcecd7df2f0f3d93d3de6580"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 104, "sha256": "93103f43719ae7e7452a1d7e55e48024a2ea6f504373e4418748d5e353d50429"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 105, "sha256": "fa2c66a8fc8b24866a7211ba2519247156e92e172875938addb98f98c4e931b2"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 106, "sha256": "a9d77513ca6d41668106c5da6450d672c691d348e0e915cd8513770ff7b8e292"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 107, "sha256": "bee59f0fc095dddf855661664c2bfedc408e74bb2a3388d0668872870e8a7d63"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 108, "sha256": "09f65fa50252b5b1301097b3e4c77ccd14e93260941698a17b7cf93873e59f2c"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 109, "sha256": "6ecc9573ce4b5e61878b622a9f780711174f52c8b2066272d61bd38365db1e99"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 110, "sha256": "0cc181afee78cdf22af8d4dc9e27cdd0e38f7388c14d52fca3e7009055981167"}
+{"section": "Appendix B Random Problems and Solutions from Codex-12B", "seq": 111, "sha256": "1b0dc3cf590d53093022435758432f14eeb73964ca732e732b6a259cc441b9c3"}
+{"section": "Appendix C Building Blocks for Synthetic Tasks", "seq": 112, "sha256": "7aab87ea1a8ca03022c3e3d29c0dbc44e68e58e1403704c197378c3749f8d4b7"}
+{"section": "Appendix C Building Blocks for Synthetic Tasks", "seq": 113, "sha256": "525885a3a0ee4b43e3849fa7ffde2e3b3fc055f9ab3407cbe62f0290bf4ab6a6"}
+{"section": "Appendix D Details of Specification-based Evaluation Framework", "seq": 114, "sha256": "a237da880fffb32eb3a049870f70b55212880b9790eee34f13f022a0cb84bb57"}
+{"section": "Appendix D Details of Specification-based Evaluation Framework", "seq": 115, "sha256": "e702ac47fef99e836d2fccff02d5473e206d037468996801b0edd12607402c1a"}
+{"section": "Appendix D Details of Specification-based Evaluation Framework", "seq": 116, "sha256": "3dc3f5543cfc20e044919e615e1262c6f9c3e756b8efbbbac6e727124a0c4372"}
+{"section": "Appendix D Details of Specification-based Evaluation Framework", "seq": 117, "sha256": "dcbb73bf15310253b325960d912f7aeb74438d790d59e83e2c0cce17790c3283"}
+{"section": "Appendix D Details of Specification-based Evaluation Framework", "seq": 118, "sha256": "55240de8ddcbd2a576a1de9e68a0aec514e7ffd16cb43e30d4c67f217b30ae31"}
+{"section": "Appendix D Details of Specification-based Evaluation Framework", "seq": 119, "sha256": "a0b5f93d5679a616423c4f3bbf802a2e5979b0bf7a459dbb17a6daf8a221956f"}
+{"section": "Appendix D Details of Specification-based Evaluation Framework", "seq": 120, "sha256": "dd264df1dd7a6e8c85c8fb265b3b7027916a168801f5d770dffadbb25524f601"}
+{"section": "Appendix D Details of Specification-based Evaluation Framework", "seq": 121, "sha256": "f58c13b73146c37fd42e528c3e4b8cfad7a39ba98d2902a3e36d79efeadeb010"}
+{"section": "E.1 Why evaluate alignment?", "seq": 122, "sha256": "d7c3c73d274f00bb22256d1d8e05769e28617b51f28fb11a57ade52c789b78b1"}
+{"section": "E.1 Why evaluate alignment?", "seq": 123, "sha256": "14b4589325c9947ddda4df2e29819900079939c9d17bc2d3bcd8392f473c4d15"}
+{"section": "E.2 How can alignment be defined and evaluated in models like Codex?", "seq": 124, "sha256": "6cd39e1af9290b079384edc8a2764f41ec08f76de31b3131ad5ff021b3325ba8"}
+{"section": "E.2 How can alignment be defined and evaluated in models like Codex?", "seq": 125, "sha256": "8ec5de2e0ad31929b240688902b284eb4deb3492e02f98a58995a9dd7ec33596"}
+{"section": "E.3 Results of alignment evaluations", "seq": 126, "sha256": "eec800597b75541120dd014d2e26179fc045c9ce7d6373c7837f65b3ce386528"}
+{"section": "E.3 Results of alignment evaluations", "seq": 127, "sha256": "d0dbc233c4cf9f4e604df874a96379f281afeeeff5e520a2af6f82cc9b3552ed"}
+{"section": "E.4 Areas for Further Work", "seq": 128, "sha256": "4560b00fe87642d1f4a9c5c99bb39b04b61b030424c552d0f424dfeb6dbfa9d9"}
+{"section": "E.4 Areas for Further Work", "seq": 129, "sha256": "8894cdcda79c84d4d44ca2203cbc268f708d3d9c10f950d39df78b90fb65416b"}
+{"section": "E.4 Areas for Further Work", "seq": 130, "sha256": "22912840b0e4bd870fcf1e145030d5cc58f7e291f5c94d7de9e6787d2372fed5"}
+{"section": "E.5 Experiment Details", "seq": 131, "sha256": "cb630912dab8f3cb1ac0724f6783e58a0758b7d7dd93ecc31b0870789484532c"}
+{"section": "E.5 Experiment Details", "seq": 132, "sha256": "893e6914a4d9ebf5aee0a55587f9a3cf474bf3e9f7a4e52669b26be6175c14d1"}
+{"section": "E.5 Experiment Details", "seq": 133, "sha256": "88e0cdccd79e98962cb65e70db38f9470e76f2165696697ff112cbe78b1eb8f6"}
+{"section": "E.5 Experiment Details", "seq": 134, "sha256": "7bca752cd5e3833d03b3315d23d14c481b01fe4c7c5fed60152e33fe052e2391"}
+{"section": "E.5 Experiment Details", "seq": 135, "sha256": "57cb1644104d3554aa8b0eda1182509613ba23e9f224a8a5727077617e5bfb44"}
+{"section": "E.5 Experiment Details", "seq": 136, "sha256": "184b41b164a3cedd086de4b12ffa655d69e8cd035911aece81413bd258b5b0c7"}
+{"section": "E.5 Experiment Details", "seq": 137, "sha256": "5b76c42d3bdfd01068461f72f7178e6999fb25dbb6a75a3264e66a149f2664c4"}
+{"section": "E.5 Experiment Details", "seq": 138, "sha256": "c9db1e93f83efc9ed0af3424b9469044a4ac4f7de16d9c4d6ad1b8c689d1395a"}
+{"section": "Appendix F Supplemental Bias Analysis", "seq": 139, "sha256": "2ea05acf78fd623d0d0ca69b6a7aa925c7a9cd783ec932e554a3212d0e4ddf1e"}
+{"section": "Appendix F Supplemental Bias Analysis", "seq": 140, "sha256": "97ecaf1d790952dd98216d79edffc008ed0dab5a2ccc69a3ae5a05c01acc5d29"}
+{"section": "F.1 Probes for classification prompts and completions that encode bias", "seq": 141, "sha256": "04d2a599dcd935e848d720245a67e2043052a577977e38ade8f2fc9939341c0a"}
+{"section": "F.1 Probes for classification prompts and completions that encode bias", "seq": 142, "sha256": "88f2b00ec6e7877e134cd88353d3366b818cb44091d44cdf322312d539437e3b"}
+{"section": "F.1 Probes for classification prompts and completions that encode bias", "seq": 143, "sha256": "901071797a19770c3c63c17bd0739209d30b2cbaf931719a69e8ed191fbdbb6e"}
+{"section": "F.2 Analyzing bias in text generated by Codex", "seq": 144, "sha256": "0557326bccaacd7efcc6ff8b80adb0ffb2ce971f9bff31ca0921381e63c52bbb"}
+{"section": "F.2 Analyzing bias in text generated by Codex", "seq": 145, "sha256": "17c115933387b5c634ddb4f143707da63e347a9493ee8526d99090073118b34d"}
+{"section": "F.2 Analyzing bias in text generated by Codex", "seq": 146, "sha256": "1a7bf524c1ebee9764c67e3524c31faa05f4930443e0e9004aa4dfc61be3cea6"}
+{"section": "G.1 Threat actors", "seq": 147, "sha256": "f13d20e80a187593a43688ffeec1b8362e88c48637f14ea95169a157ab718ee1"}
+{"section": "G.2 Potential misuse applications", "seq": 148, "sha256": "6ac8c5c37239744e9cc037e1702fadbf1cc588ed445a05ac8fdb31711e58fd28"}
+{"section": "G.2 Potential misuse applications", "seq": 149, "sha256": "f421a7cf478e99b079a1b0ccdfb65ea95e25ea3d15539329ad24a851088e0662"}
+{"section": "G.2 Potential misuse applications", "seq": 150, "sha256": "27d31048a7103cb0ea2b5468b2635ab78c1ca99529c7a3c9fc36e74a08b68bc6"}
+{"section": "G.2 Potential misuse applications", "seq": 151, "sha256": "40060efa5cdf12629d29f49ab76cca84758f32840a767086c502e520930a9756"}
+{"section": "G.2 Potential misuse applications", "seq": 152, "sha256": "09bb6f537dfa7e69be04a7e047f8ed0db03744beefff55c4b68ed00af1165578"}
+{"section": "G.2 Potential misuse applications", "seq": 153, "sha256": "39a1d38871f3a58c6e48b5fef318576da4906155e679ec4090154f3304d58c95"}
+{"section": "G.2 Potential misuse applications", "seq": 154, "sha256": "39d433f123f49213f6f15ba606bb7753be613d5e73a26cfe5c85f5d11e35f6c3"}
+{"section": "G.3 Insecure code generation", "seq": 155, "sha256": "9376e3892005c79003594d75faa253dff10459335a2630da106b4fac986f0914"}
+{"section": "G.3 Insecure code generation", "seq": 156, "sha256": "749e43f0120f056551b69d4fdada6770461ca352dcd7d7e609505f417ef20372"}
+{"section": "G.3 Insecure code generation", "seq": 157, "sha256": "ad11e20e190d6e296d1ad1d22dbd3cb031a43451a2e288a9208aa74adf872720"}
+{"section": "G.3 Insecure code generation", "seq": 158, "sha256": "374d3b9be93a99cd5ad521fc916d86ff43514fe2f46b1a1e8b98b8ea53546df6"}
+{"section": "Appendix H Supplemental economic analysis", "seq": 159, "sha256": "1ec4215e9389947542a22f6e95c05fc39db483b6b65195b0dcccd61da4b0b5a5"}
+{"section": "Appendix H Supplemental economic analysis", "seq": 160, "sha256": "17d58ea223cdf010f0afe98655e6136d2279bed5dd9ae37300f5b3b3af5c37ff"}
+{"section": "H.1 Impacts on programmers and engineers", "seq": 161, "sha256": "825cd1123b4284a32612390bbe0f9f5a6eabfd55d8c280e9bb3586fe62212b39"}
+{"section": "H.1 Impacts on programmers and engineers", "seq": 162, "sha256": "ad9b0e10282a915a00c23ab3dafd5ec5046c10ca4a02dc6320203a80e56a278d"}
+{"section": "H.1 Impacts on programmers and engineers", "seq": 163, "sha256": "926564f314d03b8c7096be06d1fff0312af5f44c8e7fa7038bc4d0eb29004142"}
+{"section": "H.2 Differential impacts among engineers", "seq": 164, "sha256": "91eb8b1b78461fe5d380d794175ecb6b9faf60b5c8f895e72a79da71b614fe74"}
+{"section": "H.2 Differential impacts among engineers", "seq": 165, "sha256": "18e79300654877cd93b770121ce7126632521bc297482e68a7c831209c2d531e"}
+{"section": "H.2 Differential impacts among engineers", "seq": 166, "sha256": "3bb0fcb776e46012cdb114dea4a8bfe834906c4798385577f22b967c6cd35821"}
+{"section": "H.3 Impacts on non-engineers", "seq": 167, "sha256": "db1ae24b5eb6af150c6c6a688d9742c79c86dc47194d24a29ebb3547bdfb56db"}
+{"section": "H.4 Effects of differential package import rates", "seq": 168, "sha256": "f19ff12dfbdee26a8ae2cb29eb0e6d81942760c9049ee45c3e7424438e050ebe"}
+{"section": "H.4 Effects of differential package import rates", "seq": 169, "sha256": "78e892eac14c81e7b0e98355c37cf051c2f2e5195451582c4400b946d0c14bb1"}
+{"section": "H.4 Effects of differential package import rates", "seq": 170, "sha256": "c0080f0e68b6459a8dc839fda7afe82b06db1601f8b9ff604743d07e7d70182d"}
+{"section": "H.4 Effects of differential package import rates", "seq": 171, "sha256": "51f55655ff9ef97f32afee537f6acad57a2cdf3f4cf8738822b89ec52c3e57fa"}
+{"section": "H.4 Effects of differential package import rates", "seq": 172, "sha256": "7cef495adf556cf035cfc5fda1111989a21836c14a833588fd8a71d97fe93a0d"}
+{"section": "H.5 Future directions", "seq": 173, "sha256": "667f294b8a86573650ea98e1d9f1e771ba071a40c8e22f73b35a1ac35f0ba409"}
+{"section": "H.5 Future directions", "seq": 174, "sha256": "a86bf5f46a49e5b6552963cbcf27acfcbc45c3436f19aa71b1f337f9fea82286"}
+{"section": "H.5 Future directions", "seq": 175, "sha256": "f405b1b43176518c6d664ac485657d89a3c656edbd28eaf842e5075749193c3d"}

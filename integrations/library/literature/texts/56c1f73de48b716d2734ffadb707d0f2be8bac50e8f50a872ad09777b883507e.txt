@@ -1,0 +1,14 @@
+URL https://ieeexplore.ieee.org/document/1209005. Liang et al. (2018)
+
+Chao-Chun Liang, Yu-Shiang Wong, Yi-Chung Lin, and Keh-Yih Su. A meaning-based statistical English math word problem solver. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long Papers), pp. 652--662, New Orleans,
+Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-1060. URL https://aclanthology.org/N18-1060. Liang et al. (2020a)
+
+Paul Pu Liang, Irene Mengze Li, Emily Zheng, Yao Chong Lim, Ruslan
+Salakhutdinov, and Louis-Philippe Morency. Towards debiasing sentence representations. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 5502--5515, Online, July
+2020a. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.488. URL https://aclanthology.org/2020.acl-main.488. Liang et al. (2020b)
+
+Zujie Liang, Weitao Jiang, Haifeng Hu, and Jiaying Zhu. Learning to contrast the counterfactual samples for robust visual
+question answering.

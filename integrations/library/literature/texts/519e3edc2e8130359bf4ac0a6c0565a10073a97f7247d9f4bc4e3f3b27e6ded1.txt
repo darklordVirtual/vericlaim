@@ -1,0 +1,14 @@
+URL https://aclanthology.org/2020.emnlp-main.21. Dev et al. (2020)
+
+Sunipa Dev, Tao Li, Jeff M. Phillips, and Vivek Srikumar. On measuring and mitigating biased inferences of word embeddings. In Proceedings of the AAAI Conference on Artificial
+Intelligence, volume 34, pp. 7659--7666, Menlo Park, CA, Apr. 2020. Association for the Advancement of Artificial Intelligence. doi: 10.1609/aaai.v34i05.6267. URL https://ojs.aaai.org/index.php/AAAI/article/view/6267. Devlin et al. (2017)
+
+Jacob Devlin, Jonathan Uesato, Surya Bhupatiraju, Rishabh Singh, Abdel-rahman
+Mohamed, and Pushmeet Kohli. RobustFill: Neural program learning under noisy I/O. In Proceedings of the 34th International Conference on Machine
+Learning, volume 70, pp. 990--998, New York, NY, USA, 2017. Association
+for Computing Machinery. doi: 10.5555/3305381.3305484. URL https://dl.acm.org/doi/10.5555/3305381.3305484. Devlin et al. (2018)
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for language
+understanding, 2018. URL https://arxiv.org/abs/1810.04805. Dhingra et al. (2017)
+
+Bhuwan Dhingra, Kathryn Mazaitis, and William W. Cohen.

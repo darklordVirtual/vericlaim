@@ -1,0 +1,18 @@
+Abstractive text summarization using sequence-to-sequence rnns and
+beyond. arXiv preprint arXiv:1602.06023. Nangia et al., (2020)
+
+Nangia, N., Vania, C., Bhalerao, R., and Bowman, S. R. (2020). CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in
+Masked Language Models. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing, Online. Association for Computational
+Linguistics. Ngo et al., (2021)
+
+Ngo, H., Raterink, C., Araújo, J. G., Zhang, I., Chen, C., Morisot, A., and
+Frosst, N. (2021). Mitigating harm in language models with conditional-likelihood
+filtration. arXiv preprint arXiv:2108.07790. Perez et al., (2019)
+
+Perez, E., Karamcheti, S., Fergus, R., Weston, J., Kiela, D., and Cho, K. (2019). Finding generalizable evidence by learning to convince q&a models. arXiv preprint arXiv:1909.05863. Qian et al., (2019)
+
+Qian, Y., Muaz, U., Zhang, B., and Hyun, J. W. (2019). Reducing gender bias in word-level language models with a
+gender-equalizing loss function. arXiv preprint arXiv:1905.12801. Radford et al., (2019)
+
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and Sutskever, I. (2019).

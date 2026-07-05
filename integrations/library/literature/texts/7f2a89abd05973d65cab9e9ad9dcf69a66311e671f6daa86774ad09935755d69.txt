@@ -1,0 +1,9 @@
+We demonstrate constitutional methods to utilize a helpful RLHF model to train helpful and harmless models (as discussed and defined in [Askell et al., 2021, Bai et al., 2022]) without using any human feedback labels for harmlessness:
+
+•
+
+We find that as language model capabilities improve, AI identification of harms improves significantly. Furthermore, chain-of-thought reasoning improves this ability, and leads to evaluations that are becoming competitive with preference models trained on human feedback labels (see Figure 4). •
+
+We show that model-generated critiques and revisions can be applied repeatedly to progressively reduce harmfulness (see Figure 5). Generating critiques improves harmlessness compared to simply generating revisions directly (Figure 7). We use this method to specifically address the evasiveness of our prior human feedback based model [Bai et al., 2022]. •
+
+Using self-supervised preference labels for RL further improves model behavior as evaluated by crowdworkers (see Figures 2 and 3), equaling or exceeding the performance when using human feedback to evaluate harmlessness.

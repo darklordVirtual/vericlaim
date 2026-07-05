@@ -1,0 +1,18 @@
+We can furthermore show that if we can approximate the (unconstrained)
+Bayes optimal regressor well enough, then we can also construct a
+nearly optimal non-discriminating classifier. To state the result, we introduce the following distance measure on random
+variables. Definition 5.4. We define the conditional Kolmogorov distance
+between two random variables in the same probability space
+as and as:
+
+(5.1)
+
+Without the conditioning on and this definition coincides with the
+standard Kolmogorov distance. Closeness in Kolmogorov distance is a rather weak
+requirement. We need the slightly stronger condition that the Kolmogorov
+distance is small for each of the four conditionings on and This
+captures the distance between the restricted ROC curves, as formalized next. Lemma 5.5. Let be random variables in the same probability space as and
+Then, for any point on a restricted ROC curve of there is a point
+on the corresponding restricted ROC curve of such that
+
+Proof.

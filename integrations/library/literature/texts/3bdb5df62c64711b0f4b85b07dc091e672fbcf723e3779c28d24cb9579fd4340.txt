@@ -1,0 +1,19 @@
+Kenton et al. (2021)
+
+Kenton, Z., Everitt, T., Weidinger, L., Gabriel, I., Mikulik, V., and Irving,
+G. Alignment of language agents. arXiv preprint arXiv:2103.14659, 2021. Keskar et al. (2019)
+
+Keskar, N. S., McCann, B., Varshney, L. R., Xiong, C., and Socher, R. Ctrl: A conditional transformer language model for controllable
+generation, 2019. Korel & Rilling (1997)
+
+Korel, B. and Rilling, J. Application of dynamic slicing in program debugging. In AADEBUG, 1997. Koza et al. (1999)
+
+Koza, J. R., Andre, D., Keane, M. A., and Bennett III, F. H. Genetic programming III: Darwinian invention and problem
+solving, volume 3. Morgan Kaufmann, 1999. Kulal et al. (2019)
+
+Kulal, S., Pasupat, P., Chandra, K., Lee, M., Padon, O., Aiken, A., and Liang,
+P. S. Spoc: Search-based pseudocode to code. In Wallach, H., Larochelle, H., Beygelzimer, A., d'Alché-Buc, F., Fox, E., and Garnett, R. (eds.), Advances in Neural
+Information Processing Systems, volume 32. Curran Associates, Inc., 2019. URL
+https://proceedings.neurips.cc/paper/2019/file/7298332f04ac004a0ca44cc69ecf6f6b-Paper.pdf. Lacasse (2018)
+
+Lacasse, N. Open-sourcing gvisor, a sandboxed container runtime, 2018. Lachaux et al.

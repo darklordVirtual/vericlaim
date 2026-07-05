@@ -1,0 +1,18 @@
+This lets us optimize it efficiently with ternary search. The feasible set of false/true positive rates of possible equalized
+odds predictors is thus the intersection of the areas under the
+-conditional ROC curves, and above the main diagonal (see Figure
+2). Since for any loss function the optimal
+false/true-positive rate will always be on the upper-left boundary of
+this feasible set, this is effectively the ROC curve of the equalized odds
+predictors. This ROC curve is the pointwise minimum of all -conditional
+ROC curves. The performance of an equalized odds predictor is thus
+determined by the minimum performance among all protected groups. Said differently, requiring equalized odds incentivizes the learner to
+build good predictors for all classes. For a given loss function, finding the optimal tradeoff amounts to
+optimizing (assuming w.l.o.g. ):
+
+(4.5)
+
+This is no longer a linear program, since are not polytopes, or
+at least are not specified as such. Nevertheless,
+(4.5) can be efficiently optimized numerically using
+ternary search. Deriving an optimal equal opportunity threshold predictor. The construction follows the same approach except that there is one fewer constraint.

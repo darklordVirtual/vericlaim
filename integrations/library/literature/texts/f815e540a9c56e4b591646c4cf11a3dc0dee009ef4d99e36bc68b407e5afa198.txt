@@ -1,0 +1,15 @@
+As machine learning increasingly affects decisions in domains
+protected by anti-discrimination law, there is much interest in
+algorithmically measuring and ensuring fairness in machine learning. In domains such as advertising, credit, employment, education, and criminal
+justice, machine learning could help obtain more accurate predictions,
+but its effect on existing biases is not well understood. Although reliance on
+data and quantitative measures can help quantify and eliminate existing biases,
+some scholars caution that algorithms can also introduce new biases or
+perpetuate existing ones [BS16]. In May 2014, the Obama
+Administration’s Big Data Working Group released a report [PPM+14]
+arguing that discrimination can sometimes “be the inadvertent outcome of the
+way big data technologies are structured and used” and pointed toward “the
+potential of encoding discrimination in automated decisions”. A subsequent
+White House report [Whi16] calls for “equal opportunity by design”
+as a guiding principle in domains such as credit scoring. Despite the demand, a vetted methodology for avoiding discrimination against
+protected attributes in machine learning is lacking.

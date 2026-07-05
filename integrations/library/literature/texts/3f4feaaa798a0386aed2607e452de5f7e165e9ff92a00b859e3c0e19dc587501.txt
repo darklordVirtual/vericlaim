@@ -1,0 +1,18 @@
+multi-faceted
+approach to Evaluator design allows us to examine different strategies for scoring
+generated outputs, offering insights into their effectiveness and suitability
+across a range of tasks. Self-reflection
+
+The Self-Reflection model instantiated as an LLM, plays a crucial role in the
+Reflexion framework by generating verbal self-reflections to provide valuable
+feedback for future trials. Given a sparse reward signal, such as a binary
+success status (success/fail), the current trajectory, and its persistent memory
+mem, the self-reflection model generates nuanced and specific feedback. This feedback, which is more informative than scalar rewards, is then stored
+in the agent’s memory (mem). For instance, in a multi-step decision-making
+task, when the agent receives a failure signal, it can infer that a specific
+action led to subsequent incorrect actions and . The
+agent can then verbally state that it should have taken a different action,
+, which would have resulted in and , and store
+this experience in its memory. In subsequent trials, the agent can leverage
+its past experiences to adapt its decision-making approach at time by
+choosing action .

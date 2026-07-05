@@ -1,0 +1,5 @@
+Supervising the decoupled presents a challenge due to the absence of ground-truth labels ( and ). To achieve effective visual certainty estimation as a reliable pseudo label, we propose a composite metric that evaluates visual certainty from two complementary dimensions: Visual Grounding and Internal Certainty. Visual Grounding. Visual grounding measures the extent to which the model’s generation relies on the input image rather than hallucinating from language priors (Zhang et al., 2025; Jing et al., 2020). We quantify this via sensitivity analysis: if an LVLM effectively grounds its rationale in the image, perturbing visual features should significantly alter the output distribution. Conversely, insensitivity implies possible hallucination. We calculate the KL-divergence between the logits of the original image and a perturbed version via random patch masking with a ratio = 0.8:
+
+(7)
+
+Here, a high indicates strong grounding, confirming that the generation is actively conditioned on visual tokens. Internal Certainty. However, visual grounding alone is insufficient.

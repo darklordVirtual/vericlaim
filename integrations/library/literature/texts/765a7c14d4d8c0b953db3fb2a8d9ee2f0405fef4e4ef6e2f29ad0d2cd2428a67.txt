@@ -1,0 +1,18 @@
+ArXiv, abs/2004.14366, 2020. URL https://arxiv.org/abs/2004.14366. Vaswani et al. [2017]
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Ł ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus,
+S. Vishwanathan, and R. Garnett, editors, Advances in Neural
+Information Processing Systems 30, pages 5998–6008. Curran Associates,
+Inc., 2017. URL
+http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf. Vijayakumar et al. [2018]
+
+Ashwin Vijayakumar, Michael Cogswell, Ramprasaath Selvaraju, Qing Sun, Stefan
+Lee, David Crandall, and Dhruv Batra. Diverse beam search for improved description of complex scenes. AAAI Conference on Artificial Intelligence, 2018. URL
+https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17329. Wang et al. [2018a]
+
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel
+Bowman. GLUE: A multi-task benchmark and analysis platform for natural
+language understanding. In Proceedings of the 2018 EMNLP Workshop BlackboxNLP:
+Analyzing and Interpreting Neural Networks for NLP, pages 353–355,
+Brussels, Belgium, November 2018a.

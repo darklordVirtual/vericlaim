@@ -1,0 +1,17 @@
+In Proceedings of the Sixth Workshop on Computational
+Linguistics and Clinical Psychology, pp. 34--38, Minneapolis, Minnesota,
+June 2019. Association for Computational Linguistics. doi: 10.18653/v1/W19-3004. URL https://aclanthology.org/W19-3004. Mohler et al. (2016)
+
+Michael Mohler, Mary Brunson, Bryan Rink, and Marc Tomlinson. Introducing the LCC metaphor datasets. In Proceedings of the Tenth International Conference on
+Language Resources and Evaluation (LREC’16), pp. 4221--4227,
+Portorož, Slovenia, May 2016. European Language Resources Association. URL https://aclanthology.org/L16-1668. Morris & Hirst (1991)
+
+Jane Morris and Graeme Hirst. Lexical cohesion computed by thesaural relations as an indicator of
+the structure of text. Computational Linguistics, 17(1):21--48,
+1991. URL https://aclanthology.org/J91-1002. Mostafazadeh et al. (2016)
+
+Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra,
+Lucy Vanderwende, Pushmeet Kohli, and James Allen. A corpus and evaluation framework for deeper understanding of
+commonsense stories, 2016. URL https://arxiv.org/abs/1604.01696. Mulligan et al. (2021)
+
+Karl Mulligan, Robert Frank, and Tal Linzen.

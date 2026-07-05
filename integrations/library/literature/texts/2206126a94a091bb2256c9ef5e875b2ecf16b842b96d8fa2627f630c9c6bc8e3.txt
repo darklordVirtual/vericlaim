@@ -1,0 +1,5 @@
+See Appendix D for example solutions found by verifiers and Appendix F for a visualization of verifier confidence. (a) Comparison between a verifier trained to predict correctness after every token (token-level) and one trained to predict correctness after only the final token (solution-level)
+
+(b) Comparison between a verifier trained jointly to predict correctness and perform language modeling (joint) and one trained only to predict correctness (verification-only)
+
+(c) Performance when varying the size of the generator and the verifier in isolation. Increasing the size of the generator has a larger impact than increasing the size of the verifier. Figure 6: Verification ablations

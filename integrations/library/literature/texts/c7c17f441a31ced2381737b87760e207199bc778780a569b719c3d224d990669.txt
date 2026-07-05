@@ -1,0 +1,12 @@
+In general, measure performance of a model on the data gathered after the data
+you trained the model on, as this better reflects what your system will do in
+production. If you produce a model based on the data until January 5th, test
+the model on the data from January 6th. You will expect that the performance
+will not be as good on the new data, but it shouldn’t be radically worse. Since there might be daily effects, you might not predict the average click
+rate or conversion rate, but the area under the curve, which represents the
+likelihood of giving the positive example a score higher than a negative
+example, should be reasonably close. Rule #34: In binary classification for filtering (such as spam detection or determining interesting emails), make small short-term sacrifices in performance for very clean data. In a filtering task, examples which are marked as negative are not shown to
+the user. Suppose you have a filter that blocks 75% of the negative examples
+at serving. You might be tempted to draw additional training data from the
+instances shown to users. For example, if a user marks an email as spam that
+your filter let through, you might want to learn from that.

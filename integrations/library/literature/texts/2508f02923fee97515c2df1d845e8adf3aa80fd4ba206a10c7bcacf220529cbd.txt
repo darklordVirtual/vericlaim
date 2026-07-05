@@ -1,0 +1,18 @@
+Association for Computational Linguistics. Bender et al. (2021)
+
+Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell. 2021. On the dangers of
+stochastic parrots: Can language models be too big? In Proceedings of the 2021 ACM Conference on Fairness,
+Accountability, and Transparency, FAccT ’21, page 610–623, New York, NY,
+USA. Association for Computing Machinery. Bhakthavatsalam et al. (2021)
+
+Sumithra Bhakthavatsalam, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra,
+Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, and
+Peter Clark. 2021. Think you have solved
+direct-answer question answering? try arc-da, the direct-answer AI2
+reasoning challenge. CoRR, abs/2102.03315. Black et al. (2021)
+
+Sid Black, Gao Leo, Phil Wang, Connor Leahy, and Stella Biderman. 2021. GPT-Neo: Large Scale
+Autoregressive Language Modeling with Mesh-Tensorflow. If you use this software, please cite it using these metadata. Bommasani et al. (2021)
+
+Rishi Bommasani, Drew A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney
+von Arx, Michael S.

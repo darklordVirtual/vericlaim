@@ -1,0 +1,12 @@
+We start with a conformal score (note that
+since we are in the unsupervised setting, the score only depends on the features). Next, we compute the conformal score on the clean data: for . Then, we compute the conformal threshold in the usual way:
+
+Lastly, when we encounter a test point, we declare it to be an outlier if the
+score exceeds :
+
+This construction guarantees error control, as we record next. Proposition 3 (Error control guarantee for outlier detection). Suppose are an i.i.d. sample from some distribution. Then the set defined above satisfies the error control property in (32). As with standard conformal prediction, the score function is very important for
+the method to perform well—that is, to be effective at flagging outliers. Here, we wish to
+choose the score function to effectively distinguish the type of outliers that we expect
+to see in the test data from the clean data. The general problem of training models
+to distinguish outliers is sometimes called anomaly detection, novelty detection, or one-class classification, and there are good out-of-the box methods for doing this; see [pimental2014review]
+for an overview of outlier detection.

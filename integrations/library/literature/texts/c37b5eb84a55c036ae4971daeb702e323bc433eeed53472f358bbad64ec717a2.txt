@@ -1,0 +1,5 @@
+Google Plus used machine learning in a variety of situations: ranking posts in
+the "stream" of posts being seen by the user, ranking "What’s Hot" posts (posts
+that are very popular now), ranking people you know, et cetera. Google Plus
+closed down all personal accounts in 2019, and was replaced by Google Currents
+for business accounts on July 6, 2020. Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates. Last updated 2025-08-25 UTC. [[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2025-08-25 UTC."],[],[]]

@@ -1,0 +1,60 @@
+47.1
+
+New York, NY, USA: Association for Computing Machinery, 2012, pp. 31–44
+
+URL: https://doi.org/10.1145/2103621.2103663
+
+[202]
+Lindsey Kuper et al. “Toward Scalable Verification for Safety-Critical Deep Networks”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1801.05950
+
+[203]
+Pang Wei Koh and Percy Liang
+
+“Understanding Black-box Predictions via Influence Functions”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1703.04730
+
+[204]
+Rajiv Khanna, Been Kim, Joydeep Ghosh and Oluwasanmi Koyejo
+
+“Interpreting Black Box Predictions using Fisher Kernels”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1810.10118
+
+[205]
+Boris Sharchilev, Yury Ustinovsky, Pavel Serdyukov and Maarten Rijke
+
+“Finding Influential Training Samples for Gradient Boosted Decision Trees”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1802.06640
+
+[206]
+Chih-Kuan Yeh, Joon Sik Kim, Ian E H Yen and Pradeep Ravikumar
+
+“Representer Point Selection for Explaining Deep Neural Networks”
+
+In Conference on Neural Information Processing Systems, 2018
+
+URL: https://papers.nips.cc/paper/8141-representer-point-selection-for-explaining-deep-neural-networks.pdf
+
+[207]
+Quanshi Zhang, Yu Yang, Haotian Ma and Ying Nian Wu
+
+“Interpreting CNNs via Decision Trees”
+
+In IEEE Conference on Computer Vision and Pattern Recognition, 2019
+
+URL: https://arxiv.org/abs/1802.00121
+
+[208]
+Himabindu Lakkaraju, Stephen H.

@@ -1,0 +1,16 @@
+Szegedy et al. (2014)
+
+Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan,
+Ian J Goodfellow, and Rob Fergus. Intriguing properties of neural networks. In International Conference on Learning Representations, 2014. Team (2023)
+
+MosaicML NLP Team. Introducing mpt-7b: A new standard for open-source, commercially
+usable llms, 2023. URL www.mosaicml.com/blog/mpt-7b. Accessed: 2023-05-05. Touvron et al. (2023)
+
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine
+Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale,
+et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023. Tramèr et al. (2017)
+
+Florian Tramèr, Nicolas Papernot, Ian Goodfellow, Dan Boneh, and Patrick
+McDaniel. The space of transferable adversarial examples. arXiv preprint arXiv:1704.03453, 2017. Wallace et al. (2019)
+
+Eric Wallace, Shi Feng, Nikhil Kandpal, Matt Gardner, and Sameer Singh. Universal adversarial triggers for attacking and analyzing nlp. arXiv preprint arXiv:1908.07125, 2019. Wang et al.

@@ -1,0 +1,15 @@
+75.0%; Qwen2.5-14B: 75.0% vs. 77.5%; Qwen3.5-9B: 72.5% vs. 77.5%). After key translation, GPT-4o-mini’s IR decreases to
+55.0% ( pp) rather than improving;
+Qwen2.5-14B drops from 75.0% to 70.0% ( pp). We hypothesize that translating JSON keys disrupts the
+structural patterns judges rely on for permission-boundary
+reasoning: English keys (e.g., file_path)
+carry semantic cues that aid anomaly detection, and replacing
+them with Chinese equivalents removes this signal while
+introducing an unfamiliar code-mixed format. Qwen3.5-9B shows negligible change (+2.5 pp, within sampling
+variance at ). The key-translation ablation reinforces this conclusion:
+translating JSON keys to Chinese does not improve
+GPT-4o-mini’s ZH IR ( pp), ruling out key-language
+mismatch as the primary cause. The ZH–EN gap instead reflects inherent model-level
+differences in Chinese TC3 reasoning; the ablation is limited
+to key translation and does not cover value-level translation. This finding highlights that multilingual plugin permission
+verification warrants dedicated investigation. 7.4.4. Interception vs.

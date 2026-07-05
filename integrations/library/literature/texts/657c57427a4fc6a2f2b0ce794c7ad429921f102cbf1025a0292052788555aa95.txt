@@ -1,0 +1,18 @@
+In this section, we present a general technique for constructing a selection function with guaranteed performance,
+based on a given classifier
+, and a confidence-rate function for . We do not assume anything on , and the interpretation is that can rank in the sense that
+if , for ,
+the confidence function indicates that the confidence in the prediction is not higher than the confidence in
+the prediction . In this section we are not concerned with the question of what is a good (which is discussed in
+Section 4); our goal is to generate a selection function , with guaranteed performance for a given . For the reminder of this paper, the loss function is taken to be the standard 0/1 loss function (unless explicitly mentioned otherwise). Let
+be a training set, assumed to be sampled i.i.d. from
+an unknown distribution . Given also are a confidence parameter , and a desired risk target . Based on , our goal is to learn a selection function such that the
+selective risk of the classifier satisfies (2). For , we define the selection function as
+
+(3)
+
+For any selective classifier , we define its empirical selective risk with respect to the labeled sample
+,
+
+where is the empirical coverage,
+.

@@ -1,0 +1,14 @@
+minimizing such risk on a restricted functional space
+
+(7)
+
+When we observe a dataset of size , we do not have access to , but instead to the empirical expectation over the empirical distribution . What happens when we are given datapoints that we can only see once, and when we constrain the size of the hypothesis space to be -dimensional ? We are making steps toward minimizing the empirical risk within a finite-dimensional functional space :
+
+(8)
+
+We are never able to obtain as we typically perform a single epoch over the dataset of size . Instead, be obtain
+, which is the result of applying a certain number of gradient steps based on the datapoints—the number of steps to perform depends on the gradient batch size, for which we use well-tested heuristics. Using the Bayes-classifier , the expected-risk minimizer and the “single-epoch empirical-risk minimizer” , we can finally decompose the loss into
+
+(9)
+
+The loss comprises three terms: the Bayes risk, i.e.

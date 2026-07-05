@@ -1,0 +1,23 @@
+While each of id, activity, time, and attributes is OPTIONAL, at least one of them MUST be present. Example 27 ◊
+
+The Painter, a Picasso painting, is known to have been destroyed in a plane accident. entity(ex:The-Painter)
+agent(ex:Picasso)
+wasAttributedTo(ex:The-Painter, ex:Picasso)
+activity(ex:crash)
+wasInvalidatedBy(ex:The-Painter, ex:crash, 1998-09-03T01:31:00, [ ex:circumstances="plane accident" ])
+
+Example 28 ◊
+
+The BBC news home page on 2012-04-03 ex:bbcNews2012-04-03
+contained a reference to a given news item
+bbc:news/uk-17595024,
+but the BBC news home page on the next day did not. entity(ex:bbcNews2012-04-03)
+hadMember(ex:bbcNews2012-04-03, bbc:news/uk-17595024)
+wasGeneratedBy (ex:bbcNews2012-04-03, -, 2012-04-03T00:00:01)
+wasInvalidatedBy(ex:bbcNews2012-04-03, -, 2012-04-03T23:59:59)
+
+We refer to example
+Example 43
+for further descriptions of the BBC Web site, and to Section 5.6.2 for a description of the relation hadMember. Example 29 ◊
+
+In this example, the "buy one beer, get one free" offer expired at the end of the happy hour.

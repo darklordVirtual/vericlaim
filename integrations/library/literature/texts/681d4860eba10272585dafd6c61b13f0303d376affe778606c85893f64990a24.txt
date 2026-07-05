@@ -1,0 +1,11 @@
+4. We will show that a reward function from the equivalence class of can be represented using the reparameterization given above. We define the projection as
+
+(8)
+
+The operator simply normalizes the reward function with the logarithm of the partition function of . Since the added normalization term is only a function of the prefix , is a reward function in the equivalence class of . Finally, replacing with the RHS of Eq. 5 (which holds for any reward function), we have . That is, the projection produces a member of the equivalence class of with the desired form, and we do not lose any generality in our reward model from the proposed reparameterization. ∎
+
+We can alternatively view Theorem 1 as specifying exactly which reward function within each equivalence class the DPO reparameterization selects, that is, the reward function satisfying:
+
+(9)
+
+i.e., is a valid distribution (probabilities are positive and sum to 1). However, following Eq. 4, we can see that Eq. 9 is the partition function of the optimal policy induced by the reward function .

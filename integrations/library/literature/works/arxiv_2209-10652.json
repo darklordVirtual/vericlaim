@@ -19,6 +19,12 @@
     "Martin Wattenberg",
     "Christopher Olah"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:52.875139+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2209.10652"
+  },
+  "fulltext_sha256": "4dbbd48033e815d6908e9a9084235770b1108d87c08e18c4f3a2bde9efc2a945",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "superposition-2022",

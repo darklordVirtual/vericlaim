@@ -1,0 +1,7 @@
+AgentTrust v2 is a trust layer that sits between an agent and the world: every consequential action the agent attempts — a shell command, a cloud API call, a package install, a database query — is routed through the layer, which returns a verdict in {allow, warn, block, review} before the action executes. The design follows directly from the threat taxonomy of §3. Threats split cleanly into two kinds, and the two kinds demand structurally different machinery:
+
+•
+
+Lexical / fixed-signature threats carry their danger in a stable token — rm -rf /, a reverse shell, a hard-coded key, iam create-access-key, --acl public-read, a metadata-service IP. These are decidable by a pattern matcher: cheap, deterministic, and high-precision. •
+
+Semantic / intent-dependent threats share a surface with a benign twin and differ only in destination, content, or scope — a telemetry curl versus an exfiltration curl (even to an allow-listed endpoint), a debug kubectl get secret versus secret theft, a SELECT versus a COPY-to-exfil. No pattern matcher can separate these without false-positiving on the benign twin; resolving them requires reading intent. A single mechanism cannot serve both kinds well.

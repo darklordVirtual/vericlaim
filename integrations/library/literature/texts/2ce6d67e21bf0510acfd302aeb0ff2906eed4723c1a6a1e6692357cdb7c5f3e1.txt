@@ -1,0 +1,19 @@
+Hence, the following expression indicates the time at which an entity is generated, without naming the activity that did it. wasGeneratedBy(e, -, 2001-10-26T21:32:52)
+
+5.1.4 Usage
+
+Usage ◊ is the beginning of utilizing an entity by an activity. Before usage, the activity had not begun to utilize this entity and could not have been affected by the entity. (Note: This definition is formulated for a given usage; it is permitted for an activity to have used a same entity multiple times.)
+
+Given that a usage is the beginning of utilizing an entity, it is
+instantaneous. Usage ◊, written used(id; a, e, t, attrs) in PROV-N, has:
+
+id: an OPTIONAL identifier for a usage;
+
+activity: an identifier (a) for the activity that used an entity;
+
+entity: an OPTIONAL identifier (e) for the entity being used;
+
+time: an OPTIONAL "usage time" (t), the time at which the entity started to be used;
+
+attributes: an OPTIONAL set (attrs) of attribute-value pairs representing additional information about this usage. While each of id, entity, time, and attributes is OPTIONAL, at least one of them MUST be present. A reference to a given entity MAY appear in multiple usages that share
+a given activity identifier.

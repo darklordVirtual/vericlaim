@@ -1,0 +1,23 @@
+we note to the reader that there are a number of specification-independent coding practices that must be exhibited to achieve the aforementioned computational and state reasoning attributes. Such attributes have long been discussed by the genetic programming community (Koza et al., 1999), and we note the relevant properties to modern day synthesis techniques below:
+
+•
+
+Code and parameterized reuse
+
+•
+
+Automatic determination of program architecture
+
+•
+
+Wide range of programming constructs
+
+•
+
+Well-defined
+
+•
+
+Wide applicability
+
+Note that many of the attributes and metrics defined regard implementation level design. Increasingly higher level specifications should not need to specify which programming constructs are required by implementation, and a code generation algorithm should be able to infer this instead. Indeed, such constructs are required by developers when solving for increasingly complex and higher-level specifications. Without them, it is unlikely that a code generation technique can tackle increasingly complex specifications describing and requiring the computational and state reasoning attributes noted.

@@ -1,0 +1,17 @@
+Reflexion outperforms all baseline approaches by significant margins over several
+learning steps. Furthermore, ReAct-only, CoT-only, and CoT (GT)-only implementations
+fail to probabilistically improve on any tasks, meaning that no failed
+tasks from the first trial from any of the baseline approaches were able to be solved
+in subsequent trials using a temperature of 0.7
+In the Reflexion runs, we allowed the agent to gather
+experience and retry on failed tasks until it produced 3 consecutive failed attempts
+on the particular task. Naturally, the CoT (GT) achieved higher accuracy scores
+as it was given access to the ground truth context of the question. Still,
+the CoT (GT) agent is unable to correctly infer the correct answer for 39% of
+the questions, but Reflexion helps the agent to correct its mistakes without
+access to the ground truth answer to improve its accuracy by 14%. Analysis
+
+We perform an ablation experiment to isolate the advantage of the self-reflective
+step for reasoning using CoT (GT) as the baseline approach 4. Recall that CoT (GT)
+uses Chain-of-Thought reasoning with provided ground truth context, which tests
+reasoning ability over long contexts.

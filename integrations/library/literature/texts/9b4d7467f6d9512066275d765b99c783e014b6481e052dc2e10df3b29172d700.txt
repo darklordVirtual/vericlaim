@@ -1,0 +1,9 @@
+In this section we consider two examples demonstrating that even large language models can be ‘‘brittle’’---that is, they are sensitive to the precise phrasing of natural language questions, sometimes in unintuitive ways. We first consider the presentation of multiple-choice questions. By default, the input query of these tasks includes the question’s answer choices. For example, here is a one-shot query of the simple_arithmetic_json_multiple_choice task:
+
+Q: 5 + 2 = option: 4 option: 7 option: 3 option: 6
+A: 7
+
+Q: 4 + 9 = option: 3 option: 6 option: 13 option: 4
+A:
+
+Figure 10 compares the performance of the BIG-G models on all the multiple-choice JSON tasks, presented with and without options appended to the query. The default formatting allows the model to compare the choices before scoring each one, which we naively think should improve performance. Instead, we find that including the choices hurts performance, even in a few-shot context. Figure 10: Model sensitivity to multiple choice formatting. Models do substantially better on multiple-choice questions when the choices are not included in the input query.

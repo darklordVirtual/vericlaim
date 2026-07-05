@@ -1,0 +1,20 @@
+2022. Talm: Tool
+augmented language models. Patel et al. (2021)
+
+Arkil Patel, Satwik Bhattamishra, and Navin Goyal. 2021. Are NLP
+models really able to solve simple math word problems? In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pages 2080–2094, Online. Association for Computational
+Linguistics. Petroni et al. (2021)
+
+Fabio Petroni, Aleksandra Piktus, Angela Fan, Patrick Lewis, Majid Yazdani,
+Nicola De Cao, James Thorne, Yacine Jernite, Vladimir Karpukhin, Jean
+Maillard, Vassilis Plachouras, Tim Rocktäschel, and Sebastian Riedel. 2021. KILT: a
+benchmark for knowledge intensive language tasks. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pages 2523–2544, Online. Association for Computational
+Linguistics. Petroni et al. (2019)
+
+Fabio Petroni, Tim Rocktäschel, Sebastian Riedel, Patrick Lewis, Anton
+Bakhtin, Yuxiang Wu, and Alexander Miller. 2019. Language models as
+knowledge bases?

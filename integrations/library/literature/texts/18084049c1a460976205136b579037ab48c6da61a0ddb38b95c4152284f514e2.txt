@@ -1,0 +1,29 @@
+1. For all authors…
+
+(a)
+
+Do the main claims made in the abstract and introduction accurately reflect the paper’s contributions and scope? [Yes]
+
+(b)
+
+Did you describe the limitations of your work? [Yes] See Section 6 and Section A.2. (c)
+
+Did you discuss any potential negative societal impacts of your work? [Yes] We don’t expect negative societal impacts as a direct result of the contributions in our paper. One consideration, however, is that generated chain of thought is not always factual, which is noted as a limitation in Section D.1 (and note that we do not suggest using such chains of thought in a factual manner or in any real-world scenario). (d)
+
+Have you read the ethics review guidelines and ensured that your paper conforms to them? [Yes]
+
+2. If you are including theoretical results…
+
+(a)
+
+Did you state the full set of assumptions of all theoretical results? [N/A]
+
+(b)
+
+Did you include complete proofs of all theoretical results? [N/A]
+
+3. If you ran experiments…
+
+(a)
+
+Did you include the code, data, and instructions needed to reproduce the main experimental results (either in the supplemental material or as a URL)?

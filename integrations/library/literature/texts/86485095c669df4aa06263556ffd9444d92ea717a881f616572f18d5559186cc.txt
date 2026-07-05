@@ -1,0 +1,11 @@
+This area of the SCSC website hosts Goal Structuring Notation (GSN) standardisation information and related guidance. It can be reached through scsc.uk/gsn or goalstructuringnotation.info. The GSN information is created and maintained by the GSN Standard Working Group (GSN_SWG), a sub-group of the SCSC's Assurance Case Working Group (ACWG). The principal objective of this site is to disseminate information and resources related to GSN. Goal Structuring Notation Standard Working Group
+
+The Goal Structuring Notation Standard Working Group (GSN_SWG) members include:
+
+experienced practitioners, who have used and continue to use GSN on major projects;
+
+academics and industry specialists, who have researched and developed the theory and principles behind the notation;
+
+tool vendors, who have supported the realisation of tool support for the notation;
+
+liaison with the organisation responsible for publication of the Structured Assurance Case Metamodel (SACM).

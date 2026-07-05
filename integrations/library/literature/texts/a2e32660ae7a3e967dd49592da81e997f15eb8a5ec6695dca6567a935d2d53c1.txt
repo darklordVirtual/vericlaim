@@ -1,0 +1,37 @@
+Next,
+
+•
+
+a person surf on the waves created by the boat, after the man water ski jumping and flipping high. •
+
+a woman is standing next to an ocean and the man and woman water ski. •
+
+the boat slows down and the woman and man fall on the rock surface. •
+
+more people take off their clothing and do half jumps in the river. Dataset features
+
+•
+
+10,042 multiple choice completion prompts
+
+•
+
+In the few-shot setting, there are an additional 15 paragraphs. Figure 21: Hellaswag: prompting, examples, and dataset features. RTE (Recognizing Textual Entailment)
+
+Example prompt
+
+Passage: It appears that the super-conducting maglev system is technically ready to be used commercially as a very high-speed, large-capacity transportation system. Question: From this passage can one reasonably conclude that Maglev is commercially used? Answer: [Yes / No]
+
+Dataset features
+
+•
+
+277 binary multiple choice questions, part of SuperGLUE
+
+•
+
+In the few-shot setting, there are 15 additional question / answer pairs. Figure 22: RTE: prompting, examples, and dataset features. SST (Stanford Sentiment Treebank)
+
+Example prompt
+
+For each snippet of text, label the sentiment of the text as positive or negative.

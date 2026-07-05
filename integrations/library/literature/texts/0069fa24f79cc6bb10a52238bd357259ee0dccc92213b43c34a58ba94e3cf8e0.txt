@@ -1,0 +1,31 @@
+In addition, we create train, validation, and test splits based on organization IDs, so that e.g. the validation set contains different use cases than the training set. We conceptualized API requests as belonging to one of ten use cases: generation, open QA, closed QA, brainstorming, chat, rewriting, summarization, classification, extraction, or other. Below, we show fictional but realistic prompts from a variety of use cases:
+
+A.2.1 Illustrative user prompts from InstructGPT distribution
+
+Use Case
+
+Example
+
+brainstorming
+
+List five ideas for how to regain enthusiasm for my career
+
+brainstorming
+
+What are some key points I should know when studying Ancient Greece? brainstorming
+
+What are 4 questions a user might have after reading the instruction manual for a trash compactor? {user manual}
+
+1. brainstorming
+
+What are 10 science fiction books I should read next? classification
+
+Take the following text and rate, on a scale from 1-10, how sarcastic the person is being (1 = not at all, 10 = extremely sarcastic). Also give an explanation
+
+{text}
+
+Rating:
+
+classification
+
+This is a list of tweets and the sentiment categories they fall into.

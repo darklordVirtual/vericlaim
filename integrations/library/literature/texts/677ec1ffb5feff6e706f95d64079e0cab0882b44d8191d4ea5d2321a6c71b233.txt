@@ -1,0 +1,11 @@
+Commonsense reasoning
+
+•
+
+CSQA (Talmor et al., 2019): https://www.tau-nlp.org/commonsenseqa, https://github.com/jonathanherzig/commonsenseqa. •
+
+StrategyQA (Geva et al., 2021): we use the open-domain setting (question-only set) from BIG-bench collaboration (2021): https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/strategyqa. The original dataset is from https://github.com/eladsegal/strategyqa, MIT license: https://github.com/eladsegal/strategyqa/blob/main/LICENSE. •
+
+Date understanding and sports understanding from BIG-Bench (BIG-bench collaboration, 2021): Apache License v.2: https://github.com/google/BIG-bench/blob/main/LICENSE. •
+
+SayCan (Ahn et al., 2022): SayCan dataset can be accessed at https://say-can.github.io/ under CC BY 4.0 license.

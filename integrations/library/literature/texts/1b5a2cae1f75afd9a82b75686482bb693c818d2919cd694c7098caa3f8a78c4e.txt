@@ -1,0 +1,1 @@
+(2015)’s finding that most of the proposed solutions by genetic search in (Goues et al., 2012) passed through weak test suites by deleting functionality that failed. Human developers often write test suites with limited but targeted coverage, but this does not always work well against an algorithm, highlighting the challenges of evaluating correctness of programs.

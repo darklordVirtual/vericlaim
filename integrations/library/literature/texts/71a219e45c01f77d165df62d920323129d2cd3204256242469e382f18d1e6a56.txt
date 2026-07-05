@@ -1,0 +1,6 @@
+2009; Radinsky et al., 2011; Cilibrasi & Vitanyi, 2007; Deerwester et al., 1990; Reisinger & Mooney, 2010; El-Yaniv & Yanay, 2013)
+
+operators: Jos Rozen, Naver Labs Europe (jos.rozen@naverlabs.com). Task cites: (Brown et al., 2020; Kassner et al., 2020; Hendrycks et al., 2021c; Saxton et al., 2019)
+paragraph_segmentation: Michał Swędrowski, Piotr Miłkowski, Bartłomiej Bojanowski, and Jan Kocoń, Wrocław University of Science and Technology (michal.swedrowski, piotr.milkowski, bartlomiej.bojanowski, jan.kocon)@pwr.edu.pl
+
+parsinlu_qa: Pouya Pezeshkpour and Ali Tazarv, University of California, Irvine (pezeshkp, atazarv)@uci.edu; Moin Aminnaseri, Facebook (moin.aminnaseri@gmail.com); Arash Gholamidavoodi (agholamidavoodi@gmail.com); and Daniel Khashabi, Allen Institute for AI (danielk@allenai.org).

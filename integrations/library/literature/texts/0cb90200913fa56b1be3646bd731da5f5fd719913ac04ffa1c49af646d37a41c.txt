@@ -1,0 +1,25 @@
+AI developers regularly make claims regarding the properties of AI systems they develop as well as their associated societal consequences. Claims related to AI development might include, e.g.:
+
+•
+
+We will adhere to the data usage protocols we have specified;
+
+•
+
+The cloud services on which our AI systems run are secure;
+
+•
+
+We will evaluate risks and benefits of publishing AI systems in partnership with appropriately qualified third parties;
+
+•
+
+We will not create or sell AI systems that are intended to cause harm;
+
+•
+
+We will assess and report any harmful societal impacts of AI systems that we build; and
+
+•
+
+Broadly, we will act in a way that aligns with society’s interests. The verification of claims about AI development is difficult in part due to the inherent complexity and heterogeneity of AI and its supporting infrastructure. The highly dispersed ecosystem means there are many actors and sets of incentives to keep track of and coordinate. Further, the speed of development also means there is less time for claims to be carefully expressed, defended, and evaluated.

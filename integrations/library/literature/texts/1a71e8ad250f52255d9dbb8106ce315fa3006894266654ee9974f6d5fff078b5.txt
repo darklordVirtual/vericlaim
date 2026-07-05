@@ -1,0 +1,12 @@
+At its core, Reflexion is an optimization technique that uses natural language
+to do policy optimization. Policy optimization is a powerful approach to improve
+action choice through experience, but it may still succumb to non-optimal local
+minima solutions. In this study, we limit long-term memory
+to a sliding window with maximum capacity, but we encourage future work to
+extend the memory component of Reflexion with more advanced structures
+such as vector embedding databases or traditional SQL databases. Specific to code
+generation, there are many practical limitations to test-driven
+development in specifying accurate input-output mappings such as non-deterministic
+generator functions, impure functions that interact with
+APIs, functions that vary output according to hardware specifications, or functions
+that invoke parallel or concurrent behavior that may be difficult to predict.

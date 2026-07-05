@@ -1,0 +1,63 @@
+Jared Kaplan
+
+Johns Hopkins University, OpenAI
+
+jaredk@jhu.edu
+
+&Sam McCandlish∗
+
+OpenAI
+
+sam@openai.com
+
+\ANDTom Henighan
+
+OpenAI
+
+henighan@openai.com
+
+&Tom B. Brown
+
+OpenAI
+
+tom@openai.com
+
+&Benjamin Chess
+
+OpenAI
+
+bchess@openai.com
+
+&Rewon Child
+
+OpenAI
+
+rewon@openai.com
+
+&Scott Gray
+
+OpenAI
+
+scott@openai.com
+
+&Alec Radford
+
+OpenAI
+
+alec@openai.com
+
+&Jeffrey Wu
+
+OpenAI
+
+jeffwu@openai.com
+
+&Dario Amodei
+
+OpenAI
+
+damodei@openai.com
+
+Equal contribution. Contributions: Jared Kaplan and Sam McCandlish led the research. Tom Henighan contributed the LSTM experiments. Tom Brown, Rewon Child, and Scott Gray, and Alec Radford developed the optimized Transformer implementation. Jeff Wu, Benjamin Chess, and Alec Radford developed the text datasets. Dario Amodei provided guidance throughout the project. Abstract
+
+We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range.

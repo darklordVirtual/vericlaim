@@ -1,0 +1,15 @@
+Askell, P. Welinder, P. F. Christiano, J. Leike, and R. Lowe. Training language models to follow instructions with human feedback. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh,
+editors, Advances in Neural Information Processing Systems, volume 35,
+pages 27730–27744. Curran Associates, Inc., 2022. URL
+https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf. Paulus et al. [2018]
+
+R. Paulus, C. Xiong, and R. Socher. A deep reinforced model for abstractive summarization. In International Conference on Learning Representations, 2018. URL https://openreview.net/forum?id=HkAClQgA-. Peng et al. [2019]
+
+X. B. Peng, A. Kumar, G. Zhang, and S. Levine. Advantage-weighted regression: Simple and scalable off-policy
+reinforcement learning. arXiv preprint arXiv:1910.00177, 2019. Peters and Schaal [2007]
+
+J. Peters and S. Schaal. Reinforcement learning by reward-weighted regression for operational
+space control. In Proceedings of the 24th international conference on Machine
+learning, pages 745–750, 2007. Plackett [1975]
+
+R. L. Plackett. The analysis of permutations. Journal of the Royal Statistical Society.

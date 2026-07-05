@@ -1,0 +1,8 @@
+Task cites: (Zhao et al., 2018; Rudinger et al., 2018)
+
+discourse_marker_prediction : Damien Sileo, KU Leuven (damien.sileo@kuleuven.be). Task cites: (Malmi et al., 2018; Nie et al., 2019; Sileo et al., 2019; 2020)
+
+disfl_qa: Aditya Gupta, Manaal Faruqui, and Shyam Upadhyay, Google (gaditya, mfaruqui, shyamupa)@google.com;
+Jiacheng Xu, The University of Texas at Austin (jcxu@utexas.edu); and Diyi Yang, Georgia Tech (diyi.yang@cc.gatech.edu). Task cites: (Gupta et al., 2021; Rajpurkar et al., 2018)
+
+diverse_social_bias: Paul Pu Liang, Louis-Philippe Morency, Ruslan Salakhutdinov, and Chiyu Wu, Carnegie Mellon University (pliang, morency, rsalakhu)@cs.cmu.edu, (chiyuwu23@gmail.com).

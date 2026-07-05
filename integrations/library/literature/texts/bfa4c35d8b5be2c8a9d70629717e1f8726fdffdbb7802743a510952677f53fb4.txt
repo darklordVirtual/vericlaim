@@ -1,0 +1,1 @@
+1: Results on the MMLU test set averaged across all 57 subtasks (left), on the APIGen test subset (middle), and on the SCITLDR dev set (right). All results for all tasks are averaged across the 6 LLMs we test. Lower smECE is better, while higher auc-euro is better. Bold indicates the best result and underline indicates the second best result in each column.

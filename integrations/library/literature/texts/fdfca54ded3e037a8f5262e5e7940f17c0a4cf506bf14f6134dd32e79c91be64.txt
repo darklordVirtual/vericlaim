@@ -1,0 +1,10 @@
+An open-source implementation of our attack process is available at https://github.com/ftramer/LM_Memorization. 5.1.1 Sampling With A Decaying Temperature
+
+As described in Section 2.1, an LM outputs the probability of the next token given the prior tokens . In practice, this is achieved by evaluating the
+neural network to obtain
+the “logit” vector , and then computing
+the output probability distribution as
+defined by
+. One can artificially “flatten” this probability distribution to make the model less confident by replacing the output with , for . Here, is called the temperature. A higher temperature causes the model to be less confident and more diverse in its output. However, maintaining a high temperature throughout the generation process would mean that even if the sampling process began to emit a memorized example, it would likely randomly step off the path of the memorized
+output. Thus, we use a softmax temperature that decays over time, starting at and decaying down to
+over a period of the first tokens (10% of the length of the sequence).

@@ -1,0 +1,44 @@
+Can it remember relevant facts, preferences, and events from past interactions to maintain coherence? (2) Does MemGPT produce more engaging dialogue by taking advantage of memory? Does it spontaneously incorporate long-range user information to personalize messages? By evaluating on consistency and engagement, we can determine how well MemGPT handles the challenges of long-term conversational interaction compared to fixed-context baselines. Its ability to satisfy these criteria will demonstrate whether unbounded context provides meaningful benefits for conversational agents. Table 2:
+Deep memory retrieval (DMR) performance. In this task, the agent is asked a specific question about a topic discussed in a prior conversation (sessions 1–5). The agent’s response is scored against the gold answer. MemGPT significantly outperforms the fixed-context baselines. Model
+
+Accuracy
+
+ROUGE-L (R)
+
+GPT-3.5 Turbo
+
+38.7%
+
+0.394
+
+MemGPT
+
+66.9%
+
+0.629
+
+GPT-4
+
+32.1%
+
+0.296
+
+MemGPT
+
+92.5%
+
+0.814
+
+GPT-4 Turbo
+
+35.3%
+
+0.359
+
+MemGPT
+
+93.4%
+
+0.827
+
+Dataset. We evaluate MemGPT and our fixed-context baselines on the Multi-Session Chat (MSC) dataset introduced by Xu et al.

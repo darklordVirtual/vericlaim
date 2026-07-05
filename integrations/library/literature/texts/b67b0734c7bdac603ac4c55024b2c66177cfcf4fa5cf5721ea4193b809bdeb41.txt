@@ -1,0 +1,14 @@
+Unfortunately, as was already argued by Dwork et al. [DHP+12], the
+notion is seriously flawed on two counts. First, it doesn’t ensure fairness. Indeed, the notion permits that we accept qualified applicants in the
+demographic , but unqualified individuals in so long as the
+percentages of acceptance match. This behavior can arise naturally, when there
+is little or no training data available within Second, demographic parity
+often cripples the utility that we might hope to achieve. Just imagine the
+common scenario in which the target variable —whether an individual
+actually defaults or not—is correlated with Demographic parity would not
+allow the ideal predictor which can hardly be considered
+discriminatory as it represents the actual outcome. As a result, the loss in
+utility of introducing demographic parity can be substantial. In this paper, we consider non-discrimination from the perspective of supervised
+learning, where the goal is to predict a true outcome from features
+based on labeled training data, while ensuring they are “non-discriminatory”
+with respect to a specified protected attribute .

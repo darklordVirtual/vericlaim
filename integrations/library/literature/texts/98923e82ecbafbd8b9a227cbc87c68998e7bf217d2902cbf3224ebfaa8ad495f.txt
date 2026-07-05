@@ -1,0 +1,11 @@
+> clean knife 1 with sinkbasin 1
+
+You clean the knife 1 using the sinkbasin 1. > think: Now I clean a knife (1). Next, I need to put it in/on countertop 1. OK. > go to countertop 1
+
+On the countertop 1, you see a lettuce 2, a mug 2, a peppershaker 1, and a spoon 2. > put knife 1 in/on countertop 1
+
+You put the knife 1 in/on the countertop 1. D.2.2 Act trajectory
+
+Act is able to correctly find the knife, but tries to clean it using a sinkbasin before actually going to the sinkbasin. From there on, the model is unable to recover, and is stuck repeating the same sequence of commands. With \model, an existing thought would have concretely identified that the knife had been taken, and that the next subgoal was to go to a sinkbasin to clean it. Act ALFWorld trajectory
+
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.

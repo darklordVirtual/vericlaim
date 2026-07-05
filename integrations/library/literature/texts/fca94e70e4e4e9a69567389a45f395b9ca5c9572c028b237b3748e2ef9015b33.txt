@@ -1,0 +1,1 @@
+We improve this to 96.0%: all 30 models are now benchmarked under the same standardized conditions. Our evaluation surfaces 25 top‐level findings. For full transparency, we release all raw model prompts and completions publicly. HELM is a living benchmark for the community, continuously updated with new scenarios, metrics, and models https://crfm.stanford.edu/helm/latest/.

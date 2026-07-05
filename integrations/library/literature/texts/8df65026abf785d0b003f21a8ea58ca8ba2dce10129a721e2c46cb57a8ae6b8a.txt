@@ -1,0 +1,19 @@
+Husain et al. (2019)
+
+Husain, H., Wu, H.-H., Gazit, T., Allamanis, M., and Brockschmidt, M. Codesearchnet challenge: Evaluating the state of semantic code
+search. ArXiv, abs/1909.09436, 2019. Jain et al. (2020)
+
+Jain, P., Jain, A., Zhang, T., Abbeel, P., Gonzalez, J., and Stoica, I. Contrastive code representation learning. ArXiv, abs/2007.04973, 2020. Jeffrey et al. (2009)
+
+Jeffrey, D., Feng, M., Gupta, N., and Gupta, R. Bugfix: A learning-based tool to assist developers in fixing bugs. 2009 IEEE 17th International Conference on Program
+Comprehension, pp. 70–79, 2009. Jones & Bonsignour (2011)
+
+Jones, C. and Bonsignour, O. The economics of software quality. Addison-Wesley Professional, 2011. Kaiser & Sutskever (2015)
+
+Kaiser, Ł. and Sutskever, I. Neural gpus learn algorithms. arXiv preprint arXiv:1511.08228, 2015. Kaplan et al. (2020)
+
+Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R.,
+Gray, S., Radford, A., Wu, J., and Amodei, D. Scaling laws for neural language models, 2020. Kenton et al. (2021)
+
+Kenton, Z., Everitt, T., Weidinger, L., Gabriel, I., Mikulik, V., and Irving,
+G. Alignment of language agents. arXiv preprint arXiv:2103.14659, 2021.

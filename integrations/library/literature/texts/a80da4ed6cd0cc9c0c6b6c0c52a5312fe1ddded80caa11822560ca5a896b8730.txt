@@ -1,0 +1,17 @@
+Roberta: A robustly optimized bert pretraining approach. ArXiv, abs/1907.11692, 2019. Lu et al. (2019)
+
+Lu, J., Batra, D., Parikh, D., and Lee, S. Vilbert: Pretraining task-agnostic visiolinguistic representations
+for vision-and-language tasks. arXiv preprint arXiv:1908.02265, 2019. Lu et al. (2021)
+
+Lu, S., Guo, D., Ren, S., Huang, J., Svyatkovskiy, A., Blanco, A., Clement, C.,
+Drain, D., Jiang, D., Tang, D., Li, G., Zhou, L., Shou, L., Zhou, L., Tufano,
+M., Gong, M., Zhou, M., Duan, N., Sundaresan, N., Deng, S. K., Fu, S., and
+Liu, S. Codexglue: A machine learning benchmark dataset for code
+understanding and generation. ArXiv, abs/2102.04664, 2021. Maddison & Tarlow (2014)
+
+Maddison, C. J. and Tarlow, D. Structured generative models of natural source code. In Proceedings of the 31st International Conference on
+International Conference on Machine Learning (ICML), pp. II–649, 2014. Manna & Waldinger (1971)
+
+Manna, Z. and Waldinger, R. J. Toward automatic program synthesis. 14(3):151–165, March 1971. ISSN 0001-0782. doi: 10.1145/362566.362568. URL https://doi.org/10.1145/362566.362568. Masanet et al. (2020)
+
+Masanet, E., Shehabi, A., Lei, N., Smith, S., and Koomey, J.

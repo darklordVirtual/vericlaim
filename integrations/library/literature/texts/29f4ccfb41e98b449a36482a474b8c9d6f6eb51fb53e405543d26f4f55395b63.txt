@@ -1,0 +1,13 @@
+would require the following resources:
+
+•
+
+Transparent and robust processes to protect organizations from undue reputational harm brought about by the publication of previously unshared incidents. This could be achieved by anonymizing incident information to protect the identity of the organization sharing it. Other information-sharing methods should be explored that would mitigate reputational risk to organizations, while preserving the usefulness of information shared;
+
+•
+
+A trusted neutral third party that works with each organization under a non-disclosure agreement to collect and anonymize private information;
+
+•
+
+An organization that maintains and administers an online platform where users can easily access the incident database, including strong encryption and password protection for private incidents as well as a way to submit new information.

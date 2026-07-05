@@ -1,0 +1,79 @@
+correspondence between
+the attributes influencee and influencer, and attributes of
+Usage, Start, End, Generation, Invalidation, Communication, Derivation, Attribution, Association, and Delegation. Table 7 ◊: Mapping Relations to Influence
+
+Relation Name
+
+influencee
+
+influencer
+
+Generation
+
+entity
+
+activity
+
+Usage
+
+activity
+
+entity
+
+Communication
+
+informed
+
+informant
+
+Start
+
+activity
+
+trigger
+
+End
+
+activity
+
+trigger
+
+Invalidation
+
+entity
+
+activity
+
+Derivation
+
+generatedEntity
+
+usedEntity
+
+Attribution
+
+entity
+
+agent
+
+Association
+
+activity
+
+agent
+
+Delegation
+
+delegate
+
+responsible
+
+Example 39 ◊
+
+We refer to the example of Section 4.2, and specifically to Figure 3. We could have expressed that the influence of
+w3:Consortium
+on tr:WD-prov-dm-20111215. wasInfluencedBy(tr:WD-prov-dm-20111215, w3:Consortium)
+
+Instead, it is recommended to express the more specific description:
+
+wasAttributedTo(tr:WD-prov-dm-20111215, w3:Consortium)

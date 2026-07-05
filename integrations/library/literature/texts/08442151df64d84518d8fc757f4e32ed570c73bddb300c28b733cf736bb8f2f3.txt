@@ -1,0 +1,31 @@
+Grained
+
+TreeLSTM
+
+27.85%
+
+28.35%
+
+19.0%
+
+8.67%
+
+44.75%
+
+11.47%
+
+11.78%
+
+Table S1: MCE (%) (with bins) on standard vision and NLP datasets before calibration and with various calibration methods. The number following a model’s name denotes the network depth. MCE seems very sensitive to the binning scheme and is less suited for small test sets. Dataset
+
+Model
+
+Uncalibrated
+
+Hist. Binning
+
+Isotonic
+
+BBQ
+
+Temp.

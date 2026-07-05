@@ -1,0 +1,17 @@
+In Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on, pages 1–8. IEEE, 2008. [6]
+
+Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. Rich feature hierarchies for accurate object detection and semantic
+segmentation. arXiv preprint arXiv:1311.2524, 2013. [7]
+
+Ian Goodfellow, Quoc Le, Andrew Saxe, Honglak Lee, and Andrew Y Ng. Measuring invariances in deep networks. Advances in neural information processing systems, 22:646–654,
+2009. [8]
+
+Geoffrey E. Hinton, Li Deng, Dong Yu, George E. Dahl, Abdel rahman Mohamed,
+Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N. Sainath, and Brian Kingsbury. Deep neural networks for acoustic modeling in speech recognition: The
+shared views of four research groups. IEEE Signal Process. Mag., 29(6):82–97, 2012. [9]
+
+Alex Krizhevsky, Ilya Sutskever, and Geoff Hinton. Imagenet classification with deep convolutional neural networks. In Advances in Neural Information Processing Systems 25, pages
+1106–1114, 2012. [10]
+
+Quoc V Le, Marc’Aurelio Ranzato, Rajat Monga, Matthieu Devin, Kai Chen, Greg S
+Corrado, Jeff Dean, and Andrew Y Ng.

@@ -1,0 +1,16 @@
+(2020). Language models are few-shot learners. arXiv preprint arXiv:2005.14165. Buchanan et al., (2021)
+
+Buchanan, B., Lohn, A., Musser, M., and Sedova, K. (2021). Truth, lies, and automation. Technical report, Center for the Study of Emerging Technology. Caliskan et al., (2017)
+
+Caliskan, A., Bryson, J. J., and Narayanan, A. (2017). Semantics derived automatically from language corpora contain
+human-like biases. Science, 356(6334):183–186. Carlini et al., (2021)
+
+Carlini, N., Tramer, F., Wallace, E., Jagielski, M., Herbert-Voss, A., Lee, K.,
+Roberts, A., Brown, T., Song, D., Erlingsson, U., et al. (2021). Extracting training data from large language models. In 30th USENIX Security Symposium (USENIX Security 21), pages
+2633–2650. Chen et al., (2021)
+
+Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. d. O., Kaplan, J.,
+Edwards, H., Burda, Y., Joseph, N., Brockman, G., et al. (2021). Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374. Cho et al., (2018)
+
+Cho, W. S., Zhang, P., Zhang, Y., Li, X., Galley, M., Brockett, C., Wang, M.,
+and Gao, J. (2018). Towards coherent and cohesive long-form text generation. arXiv preprint arXiv:1811.00511.

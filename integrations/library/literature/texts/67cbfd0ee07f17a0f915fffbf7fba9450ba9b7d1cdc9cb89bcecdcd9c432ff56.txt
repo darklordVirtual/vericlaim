@@ -1,0 +1,17 @@
+Our “minimimum distortion” function has the following intriguing
+properties which we will support by informal evidence and quantitative
+experiments in this section:
+
+1. For all the networks we studied (MNIST, QuocNet [10],
+AlexNet [9]), for each
+sample, we have always managed to generate very close, visually hard to
+distinguish, adversarial examples that are misclassified by the original
+network (see figure 5 and http://goo.gl/huaGPb
+for examples). 2. Cross model generalization: a relatively large fraction of examples will
+be misclassified by networks trained from scratch with different
+hyper-parameters (number of layers, regularization or initial weights). 3. Cross training-set generalization a relatively large fraction of examples
+will be misclassified by networks trained from scratch on a disjoint
+training set. The above observations suggest that adversarial examples are somewhat universal
+and not just the results of overfitting to a particular model or to the specific
+selection of the training set. They also suggest that back-feeding
+adversarial examples to training might improve generalization of the resulting models.

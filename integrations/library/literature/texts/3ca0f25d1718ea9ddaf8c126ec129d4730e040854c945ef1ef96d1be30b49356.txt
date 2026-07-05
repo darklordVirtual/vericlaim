@@ -1,0 +1,9 @@
+Prior
+attacks such as model inversion [24, 23, 4] have shown that
+access to a model can be abused to infer information about training set points. Many of these attacks work better in white-box settings;
+model extraction may thus be a stepping stone to such privacy-abusing
+attacks. Looking ahead, we will see that in some cases, significant information
+about training data is leaked trivially by successful model extraction, because
+the model itself directly incorporates training set points. Stepping stone to evasion. In settings
+where an ML model serves to detect adversarial behavior, such as identification of
+spam, malware classification, and network anomaly detection, model extraction can facilitate evasion attacks. An adversary may use knowledge of the ML model to avoid detection by it [4, 29, 36, 9, 56]. In all of these settings, there is an inherent assumption of secrecy of the ML model in use. We show that this assumption is broken for all ML APIs that we investigate. Threat model in detail. Two distinct adversarial models arise in practice. An adversary may be able to make direct queries, providing an arbitrary input to a model and obtaining the output .

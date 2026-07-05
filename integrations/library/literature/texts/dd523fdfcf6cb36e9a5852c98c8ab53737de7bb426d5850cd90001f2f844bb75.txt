@@ -1,0 +1,16 @@
+We show this as a function of the non-default rate above which loans
+are profitable (i.e. 82% in the other figures). At 82%, we find
+that a race blind threshold gets 99.3% of the maximal profit, equal
+opportunity gets 92.8%, equalized odds gets 80.2%, and demographic
+parity gets 69.8%. So equal opportunity fairness costs less than a
+quarter what demographic parity costs—and if the classifier
+improves, this would reduce further. The difference between equal odds and equal opportunity is that under
+equal opportunity, the classifier can make use of its better accuracy
+among whites. Under equal odds this is viewed as unfair, since it
+means that white people who wouldn’t pay their loans have a harder
+time getting them than minorities who wouldn’t pay their loans. An
+equal odds classifier must classify everyone as poorly as the hardest
+group, which is why it costs over twice as much in this case. This
+also leads to more conservative lending, so it is slightly harder for
+non-defaulters of all groups to get loans. The equal opportunity classifier does make it easier for defaulters to
+get loans if they are minorities, but the incentives are aligned properly.

@@ -1,0 +1,9 @@
+Here we develop a different method called adaptive prediction sets (APS) that avoids this problem. We will follow [romano2020classification] and [angelopoulos2020sets]. As motivation for this new procedure, note that if the softmax outputs were a perfect model of , we would greedily include the top-scoring classes until their total mass just exceeded . Formally, we can describe this oracle algorithm as
+
+(3)
+
+and is the permutation of that sorts from most likely to least likely. In practice, however, this procedure fails to provide coverage, since is not perfect; it only provides us a heuristic notion of uncertainty. Therefore, we will use conformal prediction to turn this into a rigorous notion of uncertainty. To proceed, we define a score function inspired by the oracle algorithm:
+
+(4)
+
+In other words, we greedily include classes in our set until we reach the true label, then we stop. Unlike the score from Section 1, this one utilizes the softmax outputs of all classes, not just the true class. The next step, as in all conformal procedures, is to set .

@@ -1,0 +1,13 @@
+YouTube Watch Next could use number of watches, or co-
+watches (counts of how many times one video was watched after another was
+watched) from YouTube search. You can also use explicit
+user ratings. Finally, if you have a user action that you are using as a label,
+seeing that action on the document in a different context can be a great
+feature. All of these features allow you to bring new content into the context. Note that this is not about personalization: figure out if someone likes the
+content in this context first, then figure out who likes it more or less. Rule #19: Use very specific features when you can. With tons of data, it is simpler to learn millions of simple features than a
+few complex features. Identifiers of documents being retrieved and
+canonicalized queries do not provide much generalization, but align your
+ranking with your labels on head queries. Thus, don’t be afraid of groups of
+features where each feature applies to a very small fraction of your data, but
+overall coverage is above 90%. You can use regularization to eliminate the
+features that apply to too few examples.

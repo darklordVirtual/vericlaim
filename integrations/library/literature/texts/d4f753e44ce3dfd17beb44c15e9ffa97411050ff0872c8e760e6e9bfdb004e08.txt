@@ -1,0 +1,54 @@
+url=u’http://httpbin.org/post’,
+
+files=files)
+
+⬇
+Traceback (most recent call last):
+
+[Full stack trace hidden]
+
+File "/System/Library/Frameworks/Python.framework/Versions/2.7/... ␣␣␣␣msg␣+=␣message_body
+
+UnicodeDecodeError:␣’ascii’␣codec␣can’t␣decode␣byte␣0xcf␣in␣position␣140:
+
+␣␣␣␣ordinal␣not␣in␣range(128)"
+
+My guess is that ‘u’POST’‘ is infecting the header with unicode when it should be a string. This is because ‘sessions.py:313‘ is simply:
+⬇
+req.method = method.upper()
+
+[Additional lines hidden…]
+
+Gold Patch
+⬇
+diff --git a/requests/sessions.py b/requests/sessions.py
+
+--- a/requests/sessions.py
+
++++ b/requests/sessions.py
+
+@@ -12,7 +12,7 @@
+
+from collections import Mapping
+
+from datetime import datetime
+
+-from .compat import cookielib, OrderedDict, [3 more omitted]
+
++from .compat import cookielib, OrderedDict, [3 omitted,
+
++ builtin_str
+
+from .cookies import cookiejar_from_dict, extract_cookies_to_jar,
+
+RequestsCookieJar
+
+from .models import Request, PreparedRequest
+
+from .hooks import default_hooks, dispatch_hook
+
+@@ -309,6 +309,9 @@ def request(self, method, url,
+
+:param cert: (optional) if String, path to ssl client cert
+
+file (.pem). If Tuple, (’cert’, ’key’) pair.

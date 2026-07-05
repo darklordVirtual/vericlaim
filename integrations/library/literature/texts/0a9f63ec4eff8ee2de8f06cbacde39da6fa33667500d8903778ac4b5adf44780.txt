@@ -1,0 +1,11 @@
+The Plackett-Luce model [32, 23] is a generalization of the Bradley-Terry model over rankings (rather than just pair-wise comparisons). Similar to to the Bradley-Terry model, it stipulates that when presented with a set of possible choices, people prefer a choice with probability proportional to the value of some latent reward function for that choice. In our context, when presented with a prompt and a set of answers a user would output a permutation , giving their ranking of the answers. The Plackett-Luce model stipulates that
+
+(18)
+
+Notice that when , Equation 18 reduces to the Bradley-Terry model. However, for the general Plackett-Luce model, we can still utilize the results of Eq. 5 and substitute the reward function parameterized by its optimal policy. Similarly to Appendix A.2, the normalization constant cancels out and we’re left with:
+
+(19)
+
+Similarly to the approach of Section 4, if we have access to a dataset of prompts and user-specified rankings, we can use a parameterized model and optimize this objective with maximum-likelihood.:
+
+(20)

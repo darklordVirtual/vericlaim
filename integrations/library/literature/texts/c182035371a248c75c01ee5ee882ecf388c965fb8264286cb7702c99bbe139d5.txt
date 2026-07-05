@@ -1,0 +1,7 @@
+Figure 5: Adversarial examples generated for AlexNet [9].(Left) is a correctly predicted sample, (center) difference between correct image, and image predicted incorrectly magnified by 10x (values shifted by 128 and clamped), (right) adversarial example. All images in the right column are predicted to be an “ostrich, Struthio camelus”. Average distortion based on 64 examples is 0.006508. Plase refer to http://goo.gl/huaGPb for full resolution images. The examples are strictly randomly chosen. There is not any postselection involved. Figure 6: Adversarial examples for QuocNet [10]. A binary car classifier was trained on top of the last layer features without fine-tuning. The randomly chosen examples on the left are recognized correctly as cars,
+while the images in the middle are not recognized. The rightmost column is the magnified absolute value of the difference between
+the two images. Our “minimimum distortion” function has the following intriguing
+properties which we will support by informal evidence and quantitative
+experiments in this section:
+
+1.

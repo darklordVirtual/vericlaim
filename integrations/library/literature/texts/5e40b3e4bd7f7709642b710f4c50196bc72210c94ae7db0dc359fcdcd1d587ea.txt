@@ -1,0 +1,21 @@
+3). (2)
+
+We formalize three execution-layer threat classes
+(prompt injection, RAG poisoning, malicious plugins) and
+provide a unified threat model with an explicit attacker
+capability definition (Sect. 4). (3)
+
+We propose LGA, a four-layer governance architecture
+(Sect. 5), and evaluate Layer 2 intent verification
+with four local LLM judges, two NLI baselines (one evaluated
+bilingually, one on Chinese only; see Sect. 7.1), and one cloud judge across all three threat classes on a
+1,081-sample bilingual benchmark, showing that a two-stage
+cascade achieves 91.9–92.6% interception with 1.9–6.7% false
+positives, and a fully local cascade achieves 94.7–95.6% IR
+with 6.0–9.7% FPR (Sect. 7; RQ1, RQ2). (4)
+
+We present an end-to-end pipeline evaluation demonstrating
+that all four layers operate in concert with
+18 ms combined non-judge overhead (Sect. 7.5; RQ3),
+and validate generalization on the external InjecAgent
+benchmark (Sect. 7.6).

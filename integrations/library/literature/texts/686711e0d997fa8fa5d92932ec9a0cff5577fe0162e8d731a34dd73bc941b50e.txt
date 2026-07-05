@@ -1,0 +1,17 @@
+Before turning to analyzing data, we pause to consider to what extent
+“black box” oblivious tests like ours can identify discriminatory
+predictions. To shed light on this issue, we introduce two possible scenarios
+for the dependency structure of the score, the target and the protected
+attribute. We will argue that while these two scenarios can have fundamentally
+different interpretations from the point of view of fairness, they can be
+indistinguishable from their joint distribution. In particular, no oblivious
+test can resolve which of the two scenarios applies. Scenario I
+
+Figure 4: Graphical model for Scenario I. Consider the dependency structure depicted in
+Figure 4. Here, is a feature highly (even
+deterministically) correlated with the protected attribute , but
+independent of the target given . For example, might be
+“languages spoken at home” or “great great grandfather’s
+profession”. The target has a statistical correlation with the
+protected attribute. There’s a second real-valued feature
+correlated with , but only related to through .

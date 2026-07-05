@@ -1,0 +1,8 @@
+= true;
+}
+
+Consider the alternative of where the event process method
+holds the domain logic - it would need to have a lot of knowledge
+of the domain model as the domain logic gets more complex. In this
+approach the domain objects pass the event around to relevant
+objects so they can handle it to do what they need in response.

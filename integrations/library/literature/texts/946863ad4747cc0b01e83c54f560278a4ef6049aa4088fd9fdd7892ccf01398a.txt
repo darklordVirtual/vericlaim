@@ -1,0 +1,79 @@
+E.g., we do not count names of politicians or journalists within news articles
+
+Promotional content
+
+45
+
+Descriptions of products, subscriptions, newsletters, etc. High entropy
+
+35
+
+Random content with high entropy, e.g., UUIDs Base64 data, etc. Category
+
+Count
+
+Description
+
+Contact info
+
+32
+
+Physical addresses, email addresses, phone numbers, twitter handles, etc. Code
+
+31
+
+Snippets of source code, including JavaScript
+
+Configuration files
+
+30
+
+Structured configuration data, mainly for software products
+
+Religious texts
+
+25
+
+Extracts from the Bible, the Quran, etc. Pseudonyms
+
+15
+
+Valid usernames that do not appear to be tied to a physical name
+
+Donald Trump tweets and quotes
+
+12
+
+Quotes and tweets from Donald Trump, often from news articles
+
+Web forms
+
+11
+
+Lists of user menu items, Website instructions, navigation prompts (e.g., “please enter your email to continue”)
+
+Tech news
+
+11
+
+News related to technology
+
+Lists of numbers
+
+10
+
+Lists of dates, number sequences, , etc. Sports news
+
+9
+
+News related to sports
+
+Movie synopsis, cast
+
+5
+
+List of actors, writers, producers. Plot synopsis. Pornography
+
+5
+
+Content of pornographic nature, often lists of adult film actors.

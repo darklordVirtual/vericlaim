@@ -1,0 +1,7 @@
+reddit.com/r/The_Donald/comments/
+
+The reddit.com URL above is completed by a specific 6-character article ID and a title. We located URLs in this specific format in a single document on pastebin.com. Each URL appears a varying number of times in this document, and hence in the GPT-2 training dataset.111111The purpose of this text dump was to tag users of Reddit who posted frequently on specific topics. In doing so, this page repeats some of the same links many times because many users comment on the same links. Table 4 shows a subset of the URLs that appear more than once, and their respective counts in the document.121212We confirmed with OpenAI that the counts here are within 5% of the true counts of these URLs in the training data. This allows us to ask the question: how many times must an
+example appear in the
+training dataset for us to extract it? Occurrences
+
+Memorized?

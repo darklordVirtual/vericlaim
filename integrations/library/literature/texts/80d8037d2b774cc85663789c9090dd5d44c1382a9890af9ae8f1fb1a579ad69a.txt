@@ -1,0 +1,49 @@
+apply to AI systems released under free and open-source licences, unless they are placed on the market or put into service as high-risk AI systems or as an AI system that falls under Article 5 or 50. Article 3
+
+Definitions
+
+For the purposes of this Regulation, the following definitions apply:
+
+(1)
+
+‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments;
+
+(2)
+
+‘risk’ means the combination of the probability of an occurrence of harm and the severity of that harm;
+
+(3)
+
+‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge;
+
+(4)
+
+‘deployer’ means a natural or legal person, public authority, agency or other body using an AI system under its authority except where the AI system is used in the course of a personal non-professional activity;
+
+(5)
+
+‘authorised representative’ means a natural or legal person located or established in the Union who has received and accepted a written mandate from a provider of an AI system or a general-purpose AI model to, respectively, perform and carry out on its behalf the obligations and procedures established by this Regulation;
+
+(6)
+
+‘importer’ means a natural or legal person located or established in the Union that places on the market an AI system that bears the name or trademark of a natural or legal person established in a third country;
+
+(7)
+
+‘distributor’ means a natural or legal person in the supply chain, other than the provider or the importer, that makes an AI system available on the Union market;
+
+(8)
+
+‘operator’ means a provider, product manufacturer, deployer, authorised representative, importer or distributor;
+
+(9)
+
+‘placing on the market’ means the first making available of an AI system or a general-purpose AI model on the Union market;
+
+(10)
+
+‘making available on the market’ means the supply of an AI system or a general-purpose AI model for distribution or use on the Union market in the course of a commercial activity, whether in return for payment or free of charge;
+
+(11)
+
+‘putting into service’ means the supply of an

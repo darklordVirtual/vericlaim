@@ -1,0 +1,17 @@
+Indeed, we expect that
+datasheets will necessarily vary depending on factors such as the
+domain or existing organizational infrastructure and workflows. For
+example,
+some the questions are appropriate for academic researchers publicly
+releasing datasets for the purpose of enabling future research, but
+less relevant for product teams creating internal datasets for
+training proprietary models. As another example, Bender and
+Friedman (2018)
+outline a proposal similar to datasheets for
+datasets specifically intended for language-based
+datasets. Their questions may be naturally integrated into a
+datasheet for a language-based dataset as appropriate. We emphasize that the process of creating a datasheet is not intended
+to be automated. Although automated documentation processes are
+convenient, they run counter to our objective of encouraging dataset
+creators to carefully reflect on the process of creating,
+distributing, and maintaining a dataset.

@@ -1,0 +1,12 @@
+On some tasks model performance improves reliably with scale, while on other tasks models show no improvement with scale. On yet other tasks, models exhibit sudden breakthroughs in score at a particular scale. In order to quantify these qualitative behaviors, we introduce two heuristic metrics for categorizing tasks, detailed in Appendix B:
+
+•
+
+Linearity : intended to measure the extent to which performance on the task improves reliably with scale. •
+
+Breakthroughness : intended to measure to what extent a model is able to learn the task only once the model grows beyond a critical scale. Figure 7 shows the normalized performance scores of the tasks with the most extreme scores on these metrics. \begin{overpic}[width=469.75499pt]{figures/linearities.pdf}
+\put(2.0,1.0){{\small(a)}}
+\put(35.0,1.0){{\small(b)}}
+\put(68.0,1.0){{\small(c)}}
+\end{overpic}
+Figure 7: Benchmark tasks that achieve the highest and lowest scores on the metrics linearity and breakthroughness (see Appendix B). (a) Tasks that achieve the highest linearity scores see model performance improve predictably with scale, and typically rely on knowledge and simple textual manipulations.

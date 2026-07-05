@@ -1,0 +1,65 @@
+prov:type='prov:Revision' ... Quotation
+
+... prov:type='prov:Quotation' ... Primary Source
+
+... prov:type='prov:PrimarySource' ... Agent
+
+agent(id, [ attr1=val1, ...])
+
+Component 3: Agents, Responsibility, Influence
+
+Attribution
+
+wasAttributedTo(id;e,ag,attr)
+
+Association
+
+wasAssociatedWith(id;a,ag,pl,attrs)
+
+Delegation
+
+actedOnBehalfOf(id;ag2,ag1,a,attrs)
+
+Plan
+
+... prov:type='prov:Plan' ... Person
+
+... prov:type='prov:Person' ... Organization
+
+... prov:type='prov:Organization' ... SoftwareAgent
+
+... prov:type='prov:SoftwareAgent' ... Influence
+
+wasInfluencedBy(id;e2,e1,attrs)
+
+Bundle constructor
+
+bundle id description_1 ... description_n endBundle
+
+Component 4: Bundles
+
+Bundle type
+
+... prov:type='prov:Bundle' ... Alternate
+
+alternateOf(alt1, alt2)
+
+Component 5: Alternate
+
+Specialization
+
+specializationOf(infra, supra)
+
+Collection
+
+... prov:type='prov:Collection' ... Component 6: Collections
+
+EmptyCollection
+
+... prov:type='prov:EmptyCollection' ... Membership
+
+hadMember(c,e)
+
+In the rest of the section, each type and relation is defined informally,
+followed by a summary of the information used to represent the concept, and
+illustrated with PROV-N examples.

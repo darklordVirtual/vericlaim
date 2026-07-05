@@ -1,0 +1,11 @@
+m.giulianelli, c.n.siro, m.a.terhoeve)@uva.nl, (aga.kluska1404, jeroen1749, schubertmatyas, omarelb, dilyar.muslem.977, jellebosscher)@gmail.com, (email@amanhussain.com), (rahel@habacker.de). Task cites: (Wang et al., 2019a; 2018; McCann et al., 2018; Bhagavatula et al., 2019; Lourie et al., 2021; Liu et al., 2020a; Saxton et al., 2019; Clark et al., 2018; Yu et al., 2019d; Zhang et al., 2018a; Johnson et al., 2016)
+
+few_shot_nlg: Mihir Kale and Abhinav Rastogi, Google (mihirkale, abhirast)@google.com. Task cites: (Rastogi et al., 2020; Kale & Rastogi, 2020)
+
+figure_of_speech_detection: Sriharsha Hatwar (sriharsha02hatwar@gmail.com). Task cites: (Potamias et al., 2020)
+
+forecasting_subquestions: William Saunders, work done while at Ought (william@williamsaunders.net) and Andreas Stuhlmüller, Ought (andreas@ought.org)
+
+formal_fallacies_syllogisms_negation: Gregor Betz and Christian Voigt, Karlsruhe Institute of Technology (gregor.betz, christian.voigt)@kit.edu, and Kyle Richardson, Allen Institute for AI (kyler@allenai.org). Task cites: (Kassner & Schütze, 2019; Talmor et al., 2019a; Betz et al., 2020)
+
+gem: Sebastian Gehrmann, Google Research (gehrmann@google.com).

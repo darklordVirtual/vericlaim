@@ -1,0 +1,9 @@
+As such, even though the final answer in the model completion was correct, the natural language explanation was incorrect, and so the verifier correctly assigned a low score. In the fourth row we see the verifier score a model completion that starts out correct, but where the verifier gradually becomes less confident in the solution as the solution progresses. After the solution makes a clear mistake (saying that $64 dollars were spent, instead of the ), the verifier judges the solution as incorrect with a high degree of confidence. The final row contains a false positive, where the model makes a mistake on the second step, where it subtracts 400 from the price of a diamond jewel instead of a gold one. Verifiers occasionally make mistakes with performing this variable binding of quantities to their relationships. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

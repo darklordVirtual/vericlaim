@@ -10,6 +10,12 @@
     "Dawn Song",
     "Jacob Steinhardt"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:09.053855+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2009.03300"
+  },
+  "fulltext_sha256": "d513a7057f6921ac09f84ae0c6c394fd7aaaf022add282a8040efcfedfc17ecd",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "mmlu-2020",

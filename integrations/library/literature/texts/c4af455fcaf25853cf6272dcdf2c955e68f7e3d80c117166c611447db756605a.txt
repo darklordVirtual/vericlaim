@@ -1,0 +1,14 @@
+In particular, the lifetime of the entity being specialized contains that of any specialization. Examples of aspects include a time period, an abstraction, and a context associated with the entity. A specialization ◊ relation, written specializationOf(infra, supra) in PROV-N, has:
+
+specificEntity: an identifier (infra)
+of the entity that is a specialization of the general entity (supra);
+
+generalEntity: an identifier (supra) of the entity that is being specialized. A specialization is not, as defined here, also an influence, and therefore does not have an id and attributes. Example 43 ◊
+
+The BBC news home page on 2012-03-23 ex:bbcNews2012-03-23
+is a specialization of the BBC news page in general
+bbc:news/. This can be expressed as follows. specializationOf(ex:bbcNews2012-03-23, bbc:news/)
+
+We have created a new qualified name, ex:bbcNews2012-03-23, in the namespace ex, to identify the specific page carrying this day's news, which would otherwise be the generic bbc:news/ page. 5.5.2 Alternate
+
+Two alternate ◊ entities present aspects of the same thing. These aspects may be the same or different, and the alternate entities may or may not overlap in time.

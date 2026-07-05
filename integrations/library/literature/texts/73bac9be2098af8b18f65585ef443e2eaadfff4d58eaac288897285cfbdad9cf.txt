@@ -1,0 +1,13 @@
+Our key findings for Transformer language models are are as follows:
+
+Performance depends strongly on scale, weakly on model shape:
+
+Model performance depends most strongly on scale, which consists of three factors: the number of model parameters (excluding embeddings), the size of the dataset , and the amount of compute used for training. Within reasonable limits, performance depends very weakly on other architectural hyperparameters such as depth vs. width. (Section 3)
+
+Smooth power laws:
+
+Performance has a power-law relationship with each of the three scale factors when not bottlenecked by the other two, with trends spanning more than six orders of magnitude (see Figure 1). We observe no signs of deviation from these trends on the upper end, though performance must flatten out eventually before reaching zero loss. (Section 3)
+
+Universality of overfitting:
+
+Performance improves predictably as long as we scale up and in tandem, but enters a regime of diminishing returns if either or is held fixed while the other increases.

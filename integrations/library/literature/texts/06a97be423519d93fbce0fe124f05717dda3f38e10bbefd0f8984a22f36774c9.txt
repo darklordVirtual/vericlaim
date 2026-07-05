@@ -1,0 +1,17 @@
+B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P.,
+Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S.,
+Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler,
+D. M., Wu, J., Winter, C., Hesse, C., Chen, M., Sigler, E., Litwin, M., Gray,
+S., Chess, B., Clark, J., Berner, C., McCandlish, S., Radford, A., Sutskever,
+I., and Amodei, D. Language models are few-shot learners. ArXiv, abs/2005.14165, 2020. Bureau of
+Labor Statistics (2021a)
+
+Bureau of Labor Statistics, U. D. o. L. Computer programmers. Occupational Outlook Handbook, 2021a. URL
+https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm. Bureau of Labor Statistics (2021b)
+
+Bureau of Labor Statistics, U. D. o. L. Bls - software developers. Occupational Outlook Handbook, 2021b. URL
+https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm. Carlini et al. (2021)
+
+Carlini, N., Tramèr, F., Wallace, E., Jagielski, M., Herbert-Voss, A., Lee,
+K., Roberts, A., Brown, T., Song, D., Erlingsson, U., Oprea, A., and Raffel,
+C. Extracting training data from large language models. In 30th USENIX Security Symposium (USENIX Security 21).

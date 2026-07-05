@@ -1,0 +1,51 @@
+Systems - Proceedings
+
+Association for Computing Machinery, 2019
+
+URL: https://www.microsoft.com/en-us/research/uploads/prod/2019/01/19%7B%5C_%7Dgamut%7B%5C_%7Dchi.pdf
+
+[82]
+Isaac Lage et al. “An Evaluation of the Human-Interpretability of Explanation”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1902.00006
+
+[83]
+Berkeley J. Dietvorst, Joseph P. Simmons and Cade Massey
+
+“Algorithm aversion: People erroneously avoid algorithms after seeing them err”
+
+In Journal of Experimental Psychology: General 144.1
+
+American Psychological Association Inc., 2015, pp. 114–126
+
+DOI: 10.1037/xge0000033
+
+[84]
+Umang Bhatt et al. “Explainable Machine Learning in Deployment”
+
+In arXiv, 2019
+
+URL: https://arxiv.org/abs/1909.06342
+
+[85]
+Julius Adebayo et al. “Sanity Checks for Saliency Maps”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1810.03292
+
+[86]
+Aravindh Mahendran and Andrea Vedaldi
+
+“Salient deconvolutional networks”
+
+In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 9910 LNCS
+
+Springer Verlag, 2016, pp. 120–135
+
+DOI: 10.1007/978-3-319-46466-4_8
+
+[87]
+Pieter-Jan Kindermans et al.

@@ -1,0 +1,16 @@
+Goodman, (2023) perform a qualitative evaluation step that
+proposes optimizations to the previous generation. In this paper, we show that several
+of these concepts can be enhanced with self-reflection to
+build a persisting memory of self-reflective experiences which allows
+an agent to identify its own errors and self-suggest lessons to learn
+from its mistakes over time. Programming
+
+Several past and recent works employ variations of test-driven development
+or code debugging practices. AlphaCode (Li et al.,, 2022)
+evaluates a set of generations on hidden test cases. CodeT (Chen et al.,, 2022)
+uses self-generated unit tests that are used to score generated function
+implementations. Self-Debugging (Chen et al.,, 2023) employs a debugging component that is used
+to improve existing implementations given feedback from a code
+execution environment. CodeRL (Le et al.,, 2022) sets the problem
+in an RL framework using an actor-critic setup to debug programs given
+feedback from an execution environment.

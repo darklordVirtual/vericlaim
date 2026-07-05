@@ -1,0 +1,15 @@
+As such, it is
+important for secondary sources to reference those primary sources
+from which they were derived, so that their reliability can be
+investigated. It is also important to note that a given entity might be a primary source for one entity but not another. It is the reason why Primary Source is defined as a relation as opposed to a subtype of Entity. A primary source ◊ relation is a kind of a derivation relation from
+secondary materials to their primary sources. It is recognized that
+the determination of primary sources can be up to interpretation, and
+should be done according to conventions accepted within the
+application's domain. The type of a primary source relation is denoted by:
+prov:PrimarySource ◊. PROV defines no attributes specific to primary source. Example 33 ◊
+
+Let us consider Charles Joseph Minard's flow map of Napoleon's March in
+1812, which was published in 1869. Although the map is not a primary source,
+Minard probably used the journal of Pierre-Irénée Jacob, pharmacist
+to Napoleon's army during the Russian campaign. This primary source relation
+can be encoded as follows.

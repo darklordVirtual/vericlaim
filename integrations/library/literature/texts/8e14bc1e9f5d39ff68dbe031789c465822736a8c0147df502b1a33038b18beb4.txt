@@ -1,0 +1,11 @@
+One reason that the existence of adversarial examples can seem counter-intuitive is that most
+of us have poor intuitions for high dimensional spaces. We live in three dimensions, so we are
+not used to small effects in hundreds of dimensions adding up to create a large effect. There is another way that our intuitions serve us poorly. Many people think of models with low
+capacity as being unable to make many different confident predictions. This is not correct. Some models with low capacity do exhibit this behavior. For example shallow RBF networks with
+
+are only able to confidently predict that the positive class is present in the vicinity of
+. Elsewhere, they default to predicting the class is absent, or have low-confidence
+predictions. RBF networks are naturally immune to adversarial examples, in the sense that they have low
+confidence when they are fooled. A shallow RBF network with no hidden layers gets an error
+rate of 55.4% on MNIST using adversarial examples generated with the fast gradient sign
+method and . However, its confidence on mistaken examples is only . Its average confidence on clean test examples is %.

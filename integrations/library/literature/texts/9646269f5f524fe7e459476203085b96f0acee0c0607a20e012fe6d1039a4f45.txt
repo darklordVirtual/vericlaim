@@ -1,0 +1,19 @@
+2021. Recipes for
+building an open-domain chatbot. In Proceedings of the 16th Conference of the European Chapter
+of the Association for Computational Linguistics: Main Volume, pages
+300–325, Online. Association for Computational Linguistics. Schuster et al. (2019)
+
+Tal Schuster, Roei Schuster, Darsh J. Shah, and Regina Barzilay. 2019. Are we safe yet? the
+limitations of distributional features for fake news detection. CoRR, abs/1908.09805. Sellam et al. (2020)
+
+Thibault Sellam, Dipanjan Das, and Ankur Parikh. 2020. BLEURT:
+Learning robust metrics for text generation. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pages 7881–7892, Online. Association for
+Computational Linguistics. Shuster et al. (2021)
+
+Kurt Shuster, Spencer Poff, Moya Chen, Douwe Kiela, and Jason Weston. 2021. Retrieval augmentation reduces hallucination in conversation. arXiv preprint arXiv:2104.07567. Solaiman and Dennison (2021)
+
+Irene Solaiman and Christy Dennison. 2021. Process for adapting language models to society (palms) with
+values-targeted datasets. https://cdn.openai.com/palms.pdf. Stiennon et al. (2020)
+
+Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M.

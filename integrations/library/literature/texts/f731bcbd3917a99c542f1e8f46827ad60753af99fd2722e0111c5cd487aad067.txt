@@ -1,0 +1,24 @@
+Classifies each
+(task, tool call) pair as safe and consistent or
+dangerous / beyond scope, instantiating
+in Eq. (1) as a
+threshold on the entailment score. (3)
+
+Qwen3.5-4B: Smallest local LLM judge
+(Q4_K_M quantization, 3.4 GB) served via Ollama,
+using non-thinking mode (i.e., chain-of-thought reasoning disabled) for low latency. (4)
+
+Llama-3.1-8B: Local LLM judge using
+Meta’s Llama-3.1-8B-Instruct (Q4_K_M quantization, 4.9 GB) via Ollama. (5)
+
+Qwen3.5-9B: Local LLM judge using the
+Qwen3.5-9B model (Q4_K_M quantization, 6.6 GB) served
+via Ollama. The judge prompt instructs the model to respond with
+ALLOW or BLOCK followed by a one-sentence rationale. Inference also uses non-thinking mode for low latency. (6)
+
+Qwen2.5-14B: Largest local LLM judge
+(Q4_K_M quantization, 9.7 GB) via Ollama, representing
+an older but larger model for cross-generation comparison. (7)
+
+GPT-4o-mini: Cloud LLM judge via OpenAI API. Same prompt template as all local LLM judges. All local LLM judges share the same prompt template, requesting
+an ALLOW/BLOCK decision with a one-sentence rationale.

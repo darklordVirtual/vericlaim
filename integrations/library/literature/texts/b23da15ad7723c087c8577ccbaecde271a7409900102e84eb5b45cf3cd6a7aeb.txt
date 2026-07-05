@@ -1,0 +1,3 @@
+specifically created to be unsolvable by text-only models by filtering out questions with textual shortcuts, augmenting the number of choices to reduce guessing, and introducing a vision-only format. It serves as a strong test of a model’s ability to seamlessly integrate visual and textual information in a high-stakes, academic context. •
+
+ViRL-39K-Test (Wang et al., 2025a) is a holdout dataset containing 1,800 problems from ViRL-39K excluding VL-Calibration-12K, covering comprehensive topics and categories: from grade school problems to broader STEM and Social topics; reasoning with charts, diagrams, tables, documents, spatial relationships, etc.

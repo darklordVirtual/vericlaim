@@ -1,0 +1,8 @@
+We comprehensively evaluate
+our extraction attack
+to understand the factors that contribute to
+its success. Worryingly, we find that larger models
+are more vulnerable than smaller models. We conclude by drawing lessons
+and discussing possible safeguards
+for
+training large language models.

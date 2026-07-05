@@ -1,0 +1,9 @@
+Input: From this, we have 4 * 30 minutes = 120 minutes. Output: From this, we have 4 * 30 minutes = [Calculator(4 * 30)] 120 minutes. Input: x
+Output:
+
+Wikipedia Search
+
+We use the following prompt for the Wikipedia search tool:
+{spverbatim}
+Your task is to complete a given piece of text. You can use a Wikipedia Search API to look up information. You can do so by writing ”[WikiSearch(term)]” where ”term” is the search term you want to look up. Here are some examples of API calls:
+Input: The colors on the flag of Ghana have the following meanings: red is for the blood of martyrs, green for forests, and gold for mineral wealth. Output: The colors on the flag of Ghana have the following meanings: red is for [WikiSearch(”Ghana flag red meaning”)] the blood of martyrs, green for forests, and gold for mineral wealth. Input: But what are the risks during production of nanomaterials? Some nanomaterials may give rise to various kinds of lung damage. Output: But what are the risks during production of nanomaterials? [WikiSearch(”nanomaterial production risks”)] Some nanomaterials may give rise to various kinds of lung damage.

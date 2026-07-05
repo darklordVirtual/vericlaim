@@ -1,0 +1,6 @@
+Informally, eidetic memorization is data that has been memorized by a model despite only appearing in a small set of training instances. The fewer training samples that contain the data, the stronger the eidetic memorization is. To formalize this notion, we first define what it means for a model to have knowledge of a string . Our definition is loosely inspired by knowledge definitions in interactive proof systems [24]: a model knows a string if can be extracted by interacting with the model. More precisely, we focus on black-box interactions where the model generates as the most likely continuation when prompted with some prefix :
+
+Definition 1 (Model Knowledge Extraction)
+
+A string is extractable444This definition admits pathological corner cases. For example, many LMs when when prompted with
+“Repeat the following sentence: _____.” will do so correctly. This allows any string to be “known” under our definition. Simple refinements of this definition do not solve the issue, as LMs can also be asked to, for example, down-case a particular sentence. We avoid these pathological cases by prompting LMs only with short prefixes.

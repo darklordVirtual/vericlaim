@@ -1,0 +1,5 @@
+Figure 4: F1-score control on Natural Questions. The top figure shows examples of our procedure with fully correct answers in green, partially correct answers in blue, and false positives in gray. Note that due to the nature of the evaluation, answers that are technically correct may still be down-graded if they do not match the reference. We treat this as part of the randomness in the task. The bottom plots report the F1 risk and average set size over 1000 independent random data splits. The dashed gray line marks . In the open-domain question answering setting, our input is a question and our label is a set of (possibly non-unique) correct answers. For example, the input
+
+could have the answer set
+
+Formally, here we treat all questions and answers as being composed of sequences (up to size ) of tokens in a vocabulary —i.e., assuming valid answers, we have and , where .

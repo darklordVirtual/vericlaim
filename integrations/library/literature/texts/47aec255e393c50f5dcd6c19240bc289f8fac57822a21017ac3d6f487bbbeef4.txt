@@ -1,0 +1,6 @@
+= model(val_X).softmax(dim=1).numpy()
+
+prediction_sets = val_smx >= (1-qhat) # 3: form prediction sets
+
+Figure 2: Illustration of conformal prediction with matching Python code. To construct from and the calibration data, we will perform a simple calibration step that requires only a few lines of code; see the right panel of Figure 2. We now describe the calibration step in more detail, introducing some terms that will be helpful later on. First, we set the conformal score to be one minus the softmax output of the true class. The score is high when the softmax output of the true class is low, i.e., when the model is badly wrong. Next comes the critical step: define to be the empirical quantile of , where is the ceiling function
+( is essentially the quantile, but with a small correction). Finally, for a new test data point (where is known but is not), create a prediction set that includes all classes with a high enough softmax output (see Figure 2). Remarkably, this algorithm gives prediction sets that are guaranteed to satisfy (1), no matter what (possibly incorrect) model is used or what the (unknown) distribution of the data is.

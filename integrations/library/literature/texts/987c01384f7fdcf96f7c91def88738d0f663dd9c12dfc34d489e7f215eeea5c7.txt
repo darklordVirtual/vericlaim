@@ -1,0 +1,17 @@
+You may be looking for a particular aspect of the posts, or you are
+simply too emotionally involved (e.g. confirmation bias). The second is that
+your time is too valuable. Consider the cost of nine engineers sitting in a one
+hour meeting, and think of how many contracted human labels that buys on a
+crowdsourcing platform. If you really want to have user feedback, use user experience
+methodologies. Create user personas (one description is in Bill Buxton’s
+Sketching User Experiences)
+early in a process and do usability testing (one
+description is in Steve Krug’s
+Don’t Make Me Think)
+later. User personas
+involve creating a hypothetical user. For instance, if your team is all male,
+it might help to design a 35-year-old female user persona (complete with user
+features), and look at the results it generates rather than 10 results for
+25-to-40 year old males. Bringing in actual people to watch their reaction to
+your site (locally or remotely) in usability testing can also get you a fresh
+perspective. Rule #24: Measure the delta between models.

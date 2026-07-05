@@ -1,0 +1,22 @@
+2020. Language models are few-shot learners. NeurIPS. Cai et al. (2017)
+
+Jonathon Cai, Richard Shin, and Dawn Song. 2017. Making neural programming
+architectures generalize via recursion. ICLR. Camburu et al. (2018)
+
+Oana-Maria Camburu, Tim Rocktäschel, Thomas Lukasiewicz, and Phil Blunsom. 2018. e-SNLI: Natural
+language inference with natural language explanations. NeurIPS. Chen et al. (2022)
+
+Howard Chen, Jacqueline He, Karthik Narasimhan, and Danqi Chen. 2022. Can rationalization improve
+robustness? NAACL. Chen et al. (2021)
+
+Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira
+Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg
+Brockman, et al. 2021. Evaluating large language
+models trained on code. arXiv preprint arXiv:2107.03374. Chen et al. (2019)
+
+Xinyun Chen, Chen Liang, Adams Wei Yu, Denny Zhou, Dawn Song, and Quoc V. Le. 2019. Neural symbolic
+reader: Scalable integration of distributed and symbolic representations for
+reading comprehension. ICLR. Chiang and Chen (2019)
+
+Ting-Rui Chiang and Yun-Nung Chen. 2019. Semantically-aligned
+equation generation for solving and reasoning math word problems.

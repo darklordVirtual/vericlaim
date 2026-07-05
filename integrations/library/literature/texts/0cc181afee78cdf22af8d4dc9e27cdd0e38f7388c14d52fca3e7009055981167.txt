@@ -1,0 +1,121 @@
+-> Optional[str]:
+
+"""␣Out␣of␣list␣of␣strings,␣return␣the␣longest␣one.␣Return␣the␣first␣one␣in␣case␣of␣multiple
+
+␣␣␣␣strings␣of␣the␣same␣length.␣Return␣None␣in␣case␣the␣input␣list␣is␣empty. ␣␣␣␣>>>␣longest([])
+
+␣␣␣␣>>>␣longest([’a’,␣’b’,␣’c’])
+
+␣␣␣␣’a’
+
+␣␣␣␣>>>␣longest([’a’,␣’bb’,␣’ccc’])
+
+␣␣␣␣’ccc’
+
+␣␣␣␣"""
+
+### COMPLETION 1 (CORRECT): ###
+
+return max(strings, key=len) if strings else None
+
+### COMPLETION 2 (WRONG): ###
+
+if not strings:
+
+return None
+
+strings = sorted(strings, key=len)
+
+return strings[-1]
+
+### COMPLETION 3 (WRONG): ###
+
+longest_string = strings[0]
+
+# if len(strings) > 1:
+
+# # longest_string = ’’
+
+# longest_string = max(strings, key=lambda a: len(a))
+
+# else:
+
+# return strings[0]
+
+for s in strings:
+
+if len(s) > len(longest_string):
+
+longest_string = s
+
+return longest_string
+
+### COMPLETION 4 (WRONG): ###
+
+if not strings:
+
+return None
+
+else:
+
+return sorted(strings)[-1]
+
+### COMPLETION 5 (CORRECT): ###
+
+lengths = [len(string) for string in strings]
+
+if len(lengths) == 0:
+
+return None
+
+max_length = max(lengths)
+
+max_indices = [i for i, v in enumerate(lengths) if v == max_length]
+
+if len(max_indices) == 1:
+
+return strings[max_indices[0]]
+
+else:
+
+return strings[max_indices[0]]
+
+### COMPLETION 6 (CORRECT): ###
+
+if not strings:
+
+return None
+
+return max(strings, key=len)
+
+### COMPLETION 7 (WRONG): ###
+
+# CODE GOES HERE
+
+lens = [len(s) for s in strings]
+
+i = max(lens)
+
+return strings[lens.index(i)] if lens else None
+
+### COMPLETION 8 (WRONG): ###
+
+if strings is None:
+
+return None
+
+longest_so_far = strings[0]
+
+for s in strings:
+
+if len(s) > len(longest_so_far):
+
+longest_so_far = s
+
+return longest_so_far
+
+def x_or_y(n, x, y):
+
+"""A␣simple␣program␣which␣should␣return␣the␣value␣of␣x␣if␣n␣is
+
+␣␣␣␣a␣prime␣number␣and␣should␣return␣the␣value␣of␣y␣otherwise.

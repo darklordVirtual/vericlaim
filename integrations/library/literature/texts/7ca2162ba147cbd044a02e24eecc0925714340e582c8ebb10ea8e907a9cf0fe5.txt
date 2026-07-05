@@ -1,0 +1,16 @@
+The second claim follows by combining Lemma 4.2 with
+Lemma 4.3. To argue the first claim, we saw
+in the proof of Lemma 4.3 that a derived
+predictor is specified by four parameters and the constraint region is an
+intersection of two-dimensional linear constraints. It remains to show that the objective function is a linear function in these
+parameters. Writing out the objective, we have
+
+Further,
+
+All probabilities in the last line that do not involve can be computed
+from the joint distribution. The probabilities that do involve are each
+a linear function of the parameters that specify
+∎
+
+The corresponding optimization problem for equation opportunity is the same
+except that it has a weaker constraint . The proof is analogous to that of Proposition 4.4. Figure 1 explains the solution geometrically.

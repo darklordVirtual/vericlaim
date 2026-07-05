@@ -1,0 +1,5 @@
+their correctness derives from legal and contractual
+requirements rather than optimizable objectives (e.g., at
+1% attack prevalence even the best local judge achieves only
+22.7% PPV; see Table 7). Sect. 5 operationalizes this principle into
+a concrete four-layer architecture.

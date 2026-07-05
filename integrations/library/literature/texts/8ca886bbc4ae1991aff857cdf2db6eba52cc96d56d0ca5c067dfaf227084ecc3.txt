@@ -1,0 +1,5 @@
+We do not aim to extract targeted pieces of training data,
+but rather indiscriminately extract training data. While targeted attacks have the potential to be more adversarially harmful,
+our goal is to study the ability of LMs to
+memorize data generally, not to create an attack that can be operationalized by real adversaries to target specific users. Attack Target. We select GPT-2 [54] as a representative LM to study for our attacks. GPT-2 is nearly a perfect target. First, from an ethical standpoint, the model and data are public, and so any memorized data that we extract is already public.555Since the training data is sourced from the public Web, all the outputs of our extraction attacks can also be found via Internet searches. Indeed, to evaluate whether we have found memorized content, we search for the content on the Internet and are able to find these examples relatively easily. Second, from a research standpoint, the dataset (despite being collected from public sources) was never actually released by OpenAI. Thus, it is not possible for us to unintentionally “cheat” and develop attacks that make use of knowledge of
+the GPT-2 training dataset.

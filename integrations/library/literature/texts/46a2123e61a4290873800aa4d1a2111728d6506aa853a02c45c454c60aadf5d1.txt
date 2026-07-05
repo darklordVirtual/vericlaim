@@ -1,0 +1,44 @@
+Table 22:
+Example of a SWE-Llama 13b generation that correctly solves a SWE-bench task instance. In this example, the SWE-Llama generation is different from the gold patch. Setting
+
+•
+
+Model: SWE-Llama 13B with Oracle retrieval
+
+•
+
+Task Instance: psf__requests-1724
+
+–
+
+Link to Issue: https://github.com/psf/requests/issues/1723
+
+–
+
+Link to PR: https://github.com/psf/requests/pull/1724
+
+Issue
+
+Unicode method names cause UnicodeDecodeError for some requests in Python 2.7.2
+The following example works fine:
+⬇
+files = {u’file’: open(u’/usr/bin/diff’, u’rb’)}
+
+response = requests.request(method=’POST’, url=u’http://httpbin.org/post’,
+
+files=files)
+
+But the following example (using ‘method=u’POST’‘ instead of ‘method=’POST’‘) produces a UnicodeDecodeError:
+⬇
+files = {u’file’: open(u’/usr/bin/diff’, u’rb’)}
+
+response = requests.request(method=u’POST’, url=u’http://httpbin.org/post’,
+
+files=files)
+
+⬇
+Traceback (most recent call last):
+
+[Full stack trace hidden]
+
+File "/System/Library/Frameworks/Python.framework/Versions/2.7/...

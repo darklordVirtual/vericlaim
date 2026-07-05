@@ -1,0 +1,13 @@
+The framework we now call conformal prediction was hatched by Vladimir Vovk, Alexander Gammerman, Craig Saunders, and Vladimir Vapnik in the years 1996-1999, first using e-values [gammerman1998learning] and then with p-values [saunders1999transduction, vovk1999machine]. For decades, Vovk and collaborators developed the theory and applications of conformal prediction. Key moments include:
+
+•
+
+the 2002 proof that in online conformal prediction, the probability of error is independent across time-steps [vovk2002line];
+
+•
+
+the 2002 development, along with Harris Papadopoulos and Kostas Proedrou, of split-conformal predictors [papadopoulos2002inductive];
+
+•
+
+Glenn Shafer coins the term “conformal predictor” on December 1, 2003 while writing Algorithmic Learning in a Random World with Vovk [vovk2005algorithmic].

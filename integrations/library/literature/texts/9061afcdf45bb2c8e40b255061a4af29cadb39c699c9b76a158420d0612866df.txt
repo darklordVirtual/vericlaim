@@ -1,0 +1,19 @@
+2016. Fasttext. zip: Compressing text classification models. arXiv preprint arXiv:1612.03651. Keskar et al. (2019)
+
+Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, and
+Richard Socher. 2019. Ctrl: A
+conditional transformer language model for controllable generation. Koehn (2005)
+
+Philipp Koehn. 2005. Europarl: A parallel corpus for statistical machine translation. In Proceedings of machine translation summit x: papers, pages
+79–86. Komeili et al. (2022)
+
+Mojtaba Komeili, Kurt Shuster, and Jason Weston. 2022. Internet-augmented dialogue generation. In Proceedings of the 60th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 8460–8478,
+Dublin, Ireland. Association for Computational Linguistics. Koncel-Kedziorski et al. (2016)
+
+Rik Koncel-Kedziorski, Subhro Roy, Aida Amini, Nate Kushman, and Hannaneh
+Hajishirzi. 2016. MAWPS: A math word
+problem repository. In Proceedings of the 2016 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pages 1152–1157, San Diego, California. Association for
+Computational Linguistics. Kwiatkowski et al.

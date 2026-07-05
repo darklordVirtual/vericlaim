@@ -1,0 +1,9 @@
+Yet, we found that
+adversarial examples are relatively robust, and are shared by neural networks
+with varied number of layers, activations or trained on different subsets
+of the training data. That is, if we use one neural net to generate a set of adversarial examples, we find
+that these examples are still statistically hard for another neural network
+even when it was trained with different hyperparameters or, most surprisingly,
+when it was trained on a different set of examples. These results suggest that the deep neural networks that are learned by
+backpropagation have nonintuitive characteristics and intrinsic blind spots, whose structure
+is connected to the data distribution in a non-obvious way.

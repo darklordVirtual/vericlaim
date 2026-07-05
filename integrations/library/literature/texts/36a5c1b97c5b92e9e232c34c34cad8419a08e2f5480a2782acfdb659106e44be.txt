@@ -1,0 +1,16 @@
+Habernal et al. (2018)
+
+Ivan Habernal, Henning Wachsmuth, Iryna Gurevych, and Benno Stein. The argument reasoning comprehension task: Identification and
+reconstruction of implicit warrants. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long Papers), pp. 1930--1940, New Orleans,
+Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-1175. URL https://aclanthology.org/N18-1175. Hahn (2020)
+
+Michael Hahn. Theoretical limitations of self-attention in neural sequence models. Transactions of the Association for Computational Linguistics,
+8:156--171, Dec. 2020. doi: 10.1162/tacl_a_00306. URL https://doi.org/10.1162/tacl_a_00306. Hall Maudslay et al. (2019)
+
+Rowan Hall Maudslay, Hila Gonen, Ryan Cotterell, and Simone Teufel. It’s all in the name: Mitigating gender bias with name-based
+counterfactual data substitution. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 5267--5275, Hong Kong,
+China, November 2019.

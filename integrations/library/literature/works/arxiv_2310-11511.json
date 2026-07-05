@@ -8,6 +8,12 @@
     "Avirup Sil",
     "Hannaneh Hajishirzi"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:29.050325+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2310.11511"
+  },
+  "fulltext_sha256": "6be0d6addc774a1da090f466de353db88790c348b1732d5a717c7edc1cd75827",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "self-rag-2023",

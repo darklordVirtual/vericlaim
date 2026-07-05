@@ -1,0 +1,13 @@
+Recall that without
+adversarial training, this same kind of model had an error rate of 89.4% on adversarial
+examples based on the fast gradient sign method. With adversarial training, the error rate
+fell to 17.9%. Adversarial examples are transferable between the two models but with the
+adversarially trained model showing greater robustness. Adversarial examples generated via
+the original model yield an error rate of 19.6% on the adversarially trained model, while
+adversarial examples generated via the new model yield an error rate of 40.9% on the original
+model. When the adversarially trained model does misclassify an adversarial example, its
+predictions are unfortunately still highly confident. The average confidence on a misclassified
+example was 81.4%. We also found that the weights of the learned model changed significantly,
+with the weights of the adversarially trained model being significantly more localized and
+interpretable (see Fig. 3). Figure 3: Weight visualizations of maxout networks trained on MNIST. Each row shows
+the filters for a single maxout unit. Left) Naively trained model. Right) Model with adversarial training.

@@ -1,0 +1,27 @@
+2019. Model Cards for Model Reporting. In
+Proceedings of the Conference on Fairness,
+Accountability, and Transparency (FAT*). 220–229. O’Connor (2017)
+
+Mary Catherine O’Connor. 2017. How AI Could Smarten Up Our Water System. [Online; accessed 14-March-2018]. Pang and Lee (2004)
+
+Bo Pang and Lillian
+Lee. 2004. A sentimental education: Sentiment analysis using
+subjectivity summarization based on minimum cuts. In
+Proceedings of the 42nd Annual Meeting of the
+Association for Computational Linguistics. 271. Seck
+et al. (2018)
+
+Ismaïla Seck,
+Khouloud Dahmane, Pierre Duthon, and
+Gaëlle Loosli. 2018. Baselines and a datasheet for the Cerema AWP
+dataset. CoRR abs/1806.04016
+(2018). http://arxiv.org/abs/1806.04016
+
+Systems (2017)
+
+Doha Suppy Systems. 2017. Facial Recognition. [Online; accessed 14-March-2018]. World Economic Forum Global Future Council on
+Human Rights 2016–2018 (2018)
+
+World Economic Forum Global Future Council
+on Human Rights 2016–2018. 2018. How to Prevent Discriminatory Outcomes in Machine
+Learning. https://www.weforum.org/whitepapers/how-to-prevent-discriminatory-outcomes-in-machine-learning. Yagcioglu et al.

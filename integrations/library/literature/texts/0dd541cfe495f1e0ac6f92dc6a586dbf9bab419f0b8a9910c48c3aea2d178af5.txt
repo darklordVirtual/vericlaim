@@ -1,0 +1,5 @@
+Following prior works [17, 18], the optimization is formulated as
+
+(3)
+
+where is a parameter controlling the deviation from the base reference policy , namely the initial SFT model . In practice, the language model policy is also initialized to . The added constraint is important, as it prevents the model from deviating too far from the distribution on which the reward model is accurate, as well as maintaining the generation diversity and preventing mode-collapse to single high-reward answers. Due to the discrete nature of language generation, this objective is not differentiable and is typically optimized with reinforcement learning. The standard approach [51, 40, 1, 28] has been to construct the reward function , and maximize using PPO [39].

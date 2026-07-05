@@ -1,0 +1,40 @@
+The fully connected case is trivial since the norm is directly given
+by the largest singular value of the fully connected matrix. Let us describe the convolutional case. If denotes a generic -tensor, implementing a convolutional layer with
+input features, output features, support and spatial stride ,
+
+where denotes the -th input feature image,
+and is the spatial kernel corresponding to input feature and output feature ,
+by applying Parseval’s formula we obtain that
+its operator norm is given by
+
+(1)
+
+where is a matrix whose rows are
+
+and is the 2-D Fourier transform of :
+
+Layer
+
+Size
+
+Stride
+
+Upper bound
+
+Conv. Conv. Conv. Conv. Conv. FC. 1
+
+N/A
+
+FC. 2
+
+N/A
+
+FC. 3
+
+N/A
+
+Table 5: Frame Bounds of each rectified layer of the network from [9]. Table 5 shows the upper Lipschitz bounds computed from the ImageNet deep
+convolutional network of [9], using (1). It shows that instabilities can appear as soon as in the first
+convolutional layer. These results are consistent with the exsitence of blind spots
+constructed in the previous section, but they don’t attempt to explain why
+these examples generalize across different hyperparameters or training sets.

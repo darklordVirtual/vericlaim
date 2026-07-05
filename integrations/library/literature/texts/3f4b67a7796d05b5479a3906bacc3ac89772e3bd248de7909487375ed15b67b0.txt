@@ -1,0 +1,15 @@
+The model learns reasonable weights. The features reach your model in the server correctly. Once you have a system that does these three things reliably, you have done
+most of the work. Your simple model provides you with baseline metrics and a
+baseline behavior that you can use to test more complex models. Some teams aim
+for a "neutral" first launch: a first launch that explicitly de­prioritizes
+machine learning gains, to avoid getting distracted. Rule #5: Test the infrastructure independently from the machine learning. Make sure that the infrastructure is testable, and that the learning parts of
+the system are encapsulated so that you can test everything around it. Specifically:
+
+Test getting data into the algorithm. Check that feature columns that
+should be populated are populated. Where privacy permits, manually
+inspect the input to your training algorithm. If possible, check
+statistics in your pipeline in comparison to statistics for the same data
+processed elsewhere. Test getting models out of the training algorithm. Make sure that the
+model in your training environment gives the same score as the model
+in your serving environment (see
+Rule #37).

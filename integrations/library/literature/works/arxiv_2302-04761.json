@@ -11,6 +11,12 @@
     "Nicola Cancedda",
     "Thomas Scialom"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:04.299069+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2302.04761"
+  },
+  "fulltext_sha256": "d00e95493c6a8dd249ab352b30a0d84bb72e533cfa177e7a33aa1f381f98b49f",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "toolformer-2023",

@@ -1,0 +1,30 @@
+They need to care about engagement, 1 day active users (DAU), 30
+DAU, revenue, and advertiser’s return on investment. These metrics that are
+measureable in A/B tests in themselves are only a proxy for more long­term
+goals: satisfying users, increasing users, satisfying partners, and profit,
+which even then you could consider proxies for having a useful, high quality
+product and a thriving company five years from now. The only easy launch decisions are when all metrics get better (or at least do
+not get worse). If the team has a choice between a sophisticated machine
+learning algorithm, and a simple heuristic, if the simple heuristic does a
+better job on all these metrics, it should choose the heuristic. Moreover, there
+is no explicit ranking of all possible metric values. Specifically, consider the
+following two scenarios:
+
+Experiment
+Daily Active Users
+Revenue/Day
+
+A
+
+1 million
+
+$4 million
+
+B
+
+2 million
+
+$2 million
+
+If the current system is A, then the team would be unlikely to switch to B. If
+the current system is B, then the team would be unlikely to switch to A.

@@ -1,0 +1,19 @@
+We begin by presenting the assistant model with a prompt, and generating a pair of responses. We then present the prompt and response pair to the feedback model with a principle for choosing the more harmless response, in a format like
+
+⬇
+
+Consider the following conversation between a human and an assistant:
+
+[HUMAN/ASSISTANT CONVERSATION]
+
+[PRINCIPLE FOR MULTIPLE CHOICE EVALUATION]
+
+Options:
+
+(A) [RESPONSE A]
+
+(B) [RESPONSE B]
+
+The answer is:
+
+We then compute the log probability of the responses (A) and (B), and we make a labeled, preference modeling comparison example with the normalized probabilities as targets (and we expect these targets will be fairly well-calibrated [Kadavath et al., 2022], since they are multiple choice responses). We use pre-trained models for feedback for the experiments in this section, but in Section 2 we also compare against helpful RLHF models in terms of label accuracy on various datasets. Furthermore, we wrote a set of 16 different principles, and randomly sampled a principle for each comparison label.

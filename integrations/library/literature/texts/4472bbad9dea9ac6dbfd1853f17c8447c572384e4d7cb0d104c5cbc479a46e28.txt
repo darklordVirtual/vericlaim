@@ -1,0 +1,17 @@
+Transactions of the Association of Computational Linguistics,
+2019. Lai et al. (2017)
+
+G. Lai, Q. Xie, H. Liu, Y. Yang, and E. Hovy. RACE: Large-scale ReAding comprehension dataset from
+examinations. In Proceedings of the 2017 Conference on Empirical Methods in
+Natural Language Processing, pages 785–794, Copenhagen, Denmark, Sept. 2017. Association for Computational Linguistics. 10.18653/v1/D17-1082. URL https://aclanthology.org/D17-1082. Levine et al. (2020)
+
+Y. Levine, N. Wies, O. Sharir, H. Bata, and A. Shashua. The depth-to-width interplay in self-attention. arXiv preprint arXiv:2006.12467, 2020. Lewis et al. (2020)
+
+P. Lewis, E. Perez, A. Piktus, F. Petroni, V. Karpukhin, N. Goyal,
+H. Küttler, M. Lewis, W.-t. Yih, T. Rocktäschel, S. Riedel, and
+D. Kiela. Retrieval-augmented generation for knowledge-intensive nlp tasks. In Advances in Neural Information Processing Systems,
+volume 33, pages 9459–9474, 2020. Lieber et al. (2021)
+
+O. Lieber, O. Sharir, B. Lenz, and Y. Shoham. Jurassic-1: Technical details and evaluation. White Paper. AI21 Labs, 2021. Lin et al. (2021)
+
+S. Lin, J. Hilton, and O. Evans. TruthfulQA: Measuring how models mimic human falsehoods.

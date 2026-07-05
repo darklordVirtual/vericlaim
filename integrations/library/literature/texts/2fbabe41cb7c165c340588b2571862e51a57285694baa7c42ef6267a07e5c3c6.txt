@@ -1,0 +1,5 @@
+⬇
+
+"Answer the following multiple choice question by giving the most appropriate response. Answer with a single letter: either ’A’, ’B’, ’C’, or ’D’. Even though the answer choices may have a period at the end, answer with just the letter. The following are multiple choice questions (with answers) about {CURR_SUBJECT} Question: {ICL EXAMPLE1} Answer: {ICL ANSWER1} ... Question: {ICL EXAMPLE 5} Answer: {ICL ANSWER5} Now answer the following multiple choice question with a single letter. Question: {QUESTION} Answer: "
+
+Listing 1: System Prompt for all models for MMLU

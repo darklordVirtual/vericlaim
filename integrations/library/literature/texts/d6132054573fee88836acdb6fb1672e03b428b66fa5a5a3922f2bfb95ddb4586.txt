@@ -1,0 +1,1 @@
+Notable exceptions include Figure 8(c), which uses 4x more tokens per batch and 300 completions at both training and test time. All dropout experiments in Figure 8 use 20% dropout. Figure 7(a) uses verifiers trained on 100 completions, but searching over more completions at test time.

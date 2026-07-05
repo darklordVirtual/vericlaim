@@ -1,0 +1,33 @@
+that despite models having been exposed to some version of an repository’s codebase, they are unlikely to “cheat” to address issues simply by generating a more recent version of the repository. Table 7:
+We compare model performance on task instances from before or after 2023. Most models show little difference in performance. ∗Due to budget constraints, GPT-4 is evaluated on a random subset of SWE-bench tasks, which may impact performance here. Claude 2
+ChatGPT-3.5
+GPT-4∗
+
+SWE-Llama 7b
+SWE-Llama 13b
+
+Before 2023
+
+4.87
+
+0.49
+
+1.63
+
+3.98
+
+2.95
+
+From 2023
+
+4.23
+
+0.77
+
+0.0
+
+3.85
+
+3.46
+
+Finetuned models are sensitive to context distribution shifts. The finetuned models SWE-Llama 7b and 13b perform surprisingly poorly with BM25 retrieved context. As these models were finetuned using the “oracle” retrieval as context, we suspect this shift in context makes it difficult for the model to perform reliably. For instance, SWE-Llama was trained to edit every file included as context whereas in the BM25 setting many files provided in context are not expected to be changed. Generating patches is easier than generating whole files.

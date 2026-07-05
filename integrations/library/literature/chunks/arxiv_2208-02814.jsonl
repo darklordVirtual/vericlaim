@@ -1,0 +1,43 @@
+{"fsid": "arxiv_2208-02814", "n": 42, "overlap": 200, "source_sha256": "f3d6f0e01a419e61a5cff913252f7448fad3cc1d3af2bd9a93d0a974aa0ff22b", "target": 1200}
+{"section": "", "seq": 0, "sha256": "13accf0a33f975ba1bba1e584b4f3a48d7317eeee830e157a680cda0749d8b3c"}
+{"section": "Conformal Risk Control", "seq": 1, "sha256": "4c753881987dfbbfad06ce32e310aaf016865819c2a93bd2e9bae71d1702682d"}
+{"section": "1 Introduction", "seq": 2, "sha256": "2fe90ec5e99f5f172505e4f053e48bbed3d146135904bed1ebf396a6c2a18916"}
+{"section": "1 Introduction", "seq": 3, "sha256": "738989f65696089ef6413bcbe46942f2036db3336ea63263876163cc4d037dca"}
+{"section": "1 Introduction", "seq": 4, "sha256": "be9b582f1c1c1680e4ddc179752facd49a338b403c4d22d0c5c1e5b03ba17aa4"}
+{"section": "1.1 Algorithm and preview of main results", "seq": 5, "sha256": "90b5e1245f5ba6f04c08e7d72a0b8bd6fc6288143cb965b3586479c814e88140"}
+{"section": "1.1 Algorithm and preview of main results", "seq": 6, "sha256": "a6bd00fcfe9d9b77ed81f83b66136355ccac53b8b3c90c093c9c987113d46bed"}
+{"section": "1.2 Related work", "seq": 7, "sha256": "246aa7dc81565c5d8ea0e52a3d5218060af238c798058c915c580ed42e730a41"}
+{"section": "1.2 Related work", "seq": 8, "sha256": "fd1c7bb5938b2668f7c8c0e222b8644619a457a774b857452a293fceaea5ca30"}
+{"section": "1.2 Related work", "seq": 9, "sha256": "c6b36ca7c11fb9bffc2c96d44920311584a2a0e338a1ee7a12a383ce44d343b6"}
+{"section": "2 Theory", "seq": 10, "sha256": "827bc0d3a4a3421d663434ed630750654d065a55eec5e202115b0a7b3ee077f5"}
+{"section": "2.1 Risk control", "seq": 11, "sha256": "438d0ff0b314cdb6156c0f928a3422deaba508b0b543daabc3d14b03eb17d517"}
+{"section": "2.2 A risk lower bound", "seq": 12, "sha256": "f4cc2e060fdc6e4abd4b9bcec751d47c1bda39ce1bf277746e98f0c532ee37de"}
+{"section": "2.3 Conformal prediction reduces to risk control", "seq": 13, "sha256": "aedc83a8efbbce5a587f50978fa14685efeaf7d01d2b5e426ecbf7f5ac21bf80"}
+{"section": "2.3 Conformal prediction reduces to risk control", "seq": 14, "sha256": "3d0280b8e90fe6a88ac6d67a6b7a2651f761769b043cb7bb9a5646b39d4b1139"}
+{"section": "2.4 Controlling general loss functions", "seq": 15, "sha256": "77c9bdbc9dbeb0d75decbc4fe8fb6bb61259d51dccaf0747aecc03886a5c6f1b"}
+{"section": "2.4 Controlling general loss functions", "seq": 16, "sha256": "91c32ab1eff77f589a4235b7b8a09f494d8f45d073104a32c9267ad8e04e21e2"}
+{"section": "3 Examples", "seq": 17, "sha256": "7c008481f4ffd375097b77298e6f75d79f693641d8f6a4943d6df69d930f87de"}
+{"section": "3.1 FNR control in tumor segmentation", "seq": 18, "sha256": "c56e4bc5cfb5729d7c4b9f3e0f448aa3fcca188f4dad00a7f8599d2548524677"}
+{"section": "3.1 FNR control in tumor segmentation", "seq": 19, "sha256": "4de6c9d14bb10b4409f2978bcec3aed5cdadbc1c0127dcb85580dbb649cdf020"}
+{"section": "3.2 FNR control in multilabel classification", "seq": 20, "sha256": "dfc9b2375d14a08d02e6f52faf2f2b40849cf92620cfdf1cc3a329695290b1bb"}
+{"section": "3.3 Control of graph distance in hierarchical image classification", "seq": 21, "sha256": "8b14252a5383e8e6ade3049ef454088991caed10f7048f1661042993705d73b2"}
+{"section": "3.3 Control of graph distance in hierarchical image classification", "seq": 22, "sha256": "85a5af65c8d279028cfe607522ec4578c4ee23fc2c08ae3ae67335f40fc2a125"}
+{"section": "3.4 F1-score control in open-domain question answering", "seq": 23, "sha256": "fbacdd718470cccc04018067d58b4eb633cd5468aee16614c80c59267a3b701a"}
+{"section": "3.4 F1-score control in open-domain question answering", "seq": 24, "sha256": "1ac4af75f377996d863d6c6db8f900813765082b0c7dd4ab9c45b662010da688"}
+{"section": "3.4 F1-score control in open-domain question answering", "seq": 25, "sha256": "bebf41ee6f818552ecdd7ae46a61968e3ea6934e98179a266cd7ec7a351af7fa"}
+{"section": "4 Extensions", "seq": 26, "sha256": "0191d525fb3724ab9d3750632f49918c73ba8acbbfe20257b5f802fd871dfba5"}
+{"section": "4.1 Risk control under distributional shift", "seq": 27, "sha256": "0c061177325f63970bfe6ef015f9849e0f28371b9fd5e4d5b1ced4f1431330e3"}
+{"section": "4.1 Risk control under distributional shift", "seq": 28, "sha256": "b413c0b7150f3109a205228a06669fc505d741691413c78247d00d9b9bc46667"}
+{"section": "4.1 Risk control under distributional shift", "seq": 29, "sha256": "57ae9222c245beb33cb3063a973bedf398e1596a65ea416c910a74f6044ff395"}
+{"section": "4.2 Quantile risk control", "seq": 30, "sha256": "a593745d46a04eace340f627948e2d01683d3b2c01c5c22a56707b4c39288890"}
+{"section": "4.3 Controlling multiple risks", "seq": 31, "sha256": "fa41d2fcd62250566426f8d69a0ef939f319f9180eeace7bf919ad41db7bf45f"}
+{"section": "4.4 Adversarial risks", "seq": 32, "sha256": "f5eed0887da60755d75b7a96295c2f47c04d83a341222eedf8afea290fc0c0a7"}
+{"section": "4.5 U-risk control", "seq": 33, "sha256": "84d59a8e4cd2408430cb08eb47381a95a6b92141beaafbdfa17ecad8e5493ca9"}
+{"section": "5 Conclusion", "seq": 34, "sha256": "0b8671b125f6a9b1bb598739b8aade88b15760e3cef3f225a085600c03fdf264"}
+{"section": "Acknowledgements", "seq": 35, "sha256": "157ef7760b12b295d673d96c01caf3c40cebc30a9f7716d1b4a8b18348551b4b"}
+{"section": "Appendix A Monotonizing non-monotone risks", "seq": 36, "sha256": "49a1d335f94ad5aa409a410010c9402dff06a053516c8aa3bc0aa53b22952909"}
+{"section": "Appendix B Proofs", "seq": 37, "sha256": "3585b0062eb95f4d25b1f401d9643d970afc8b5657c42ac2206059a03b1fbc2b"}
+{"section": "Appendix B Proofs", "seq": 38, "sha256": "0155fb02b1d37cb768e7628c44c71fd7d07e68e2c0e1a1b4f4f1aac80e3ba167"}
+{"section": "Appendix B Proofs", "seq": 39, "sha256": "14def6f89397eee782d3846f0255ae0d9c679c73ae343c4b87edda71519dce5b"}
+{"section": "Appendix B Proofs", "seq": 40, "sha256": "a16d1ecee66a682c186bf2ac235248f90623124923e8e32232fc9ff50489ba20"}
+{"section": "Appendix B Proofs", "seq": 41, "sha256": "495a2672e3d135e2b7b16a1c3986b968653418781b55ede7d053dfb9c1937a41"}

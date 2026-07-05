@@ -1,0 +1,10 @@
+The second component of PROV-DM is concerned with: derivations of entities from other entities and derivation subtypes WasRevisionOf (Revision), WasQuotedFrom (Quotation), and HasPrimarySource (Primary Source). Figure 6 depicts the third component
+with PROV core structures in the yellow area, including two classes
+(Entity, Activity) and binary association WasDerivedFrom
+(Derivation). PROV extended structures are found outside this
+area. UML association classes express expanded n-ary relations. The subclasses are marked by the UML stereotype "prov:type" to indicate that the corresponding types are valid values for the attribute prov:type. Figure 6 ◊: Derivation Component Overview (Informative)
+
+5.2.1 Derivation
+
+A derivation ◊ is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity. According to Section 2, for an entity to be transformed from, created from, or resulting from an update to another, there must be some
+underpinning activity or activities performing the necessary action(s) resulting in such a derivation. A derivation can be described at various levels of precision.

@@ -1,0 +1,3 @@
+diningtable 1, you see a apple 1, a bread 1, a butterknife 2, a cup 2, a fork 2, a knife 2, a knife 1, a ladle 1, a mug 2, a mug 1, a pan 2, a peppershaker 1, a spatula 3, a tomato 2, and a tomato 1. > think: I need to put this cleaned lettuce (1) in/on diningtable 1. OK. > put lettuce 1 in/on diningtable 1
+
+You put the lettuce 1 in/on the diningtable 1.

@@ -1,0 +1,16 @@
+SVMs do not directly generalize to
+multiclass settings , nor do they output class probabilities. Logistic regression (LR) is a popular
+classifier that does. A binary LR model
+is defined as and . A class label is chosen as 1 iff . When , one fixes weight vectors
+each in , thresholds
+in and defines
+
+for . The class label is taken to be . Multiclass regression is referred to as multinomial or softmax regression. An alternative approach to softmax regression is to build a binary model per class in a one-vs-rest fashion and then set . These are log-linear models, and may not be suitable for data that is not
+linearly separable in . Again, one may use kernel techniques to deal with
+more complex data relationships (c.f., [58]). Then, one replaces
+with . As written, this uses the entire set of
+training data points as so-called representors (here
+analogous to support vectors). Unlike with SVMs, where most training data set
+points will never end up as support vectors, here all training set points are
+potentially representors. In practice one uses a size random subset
+of training data [58]. Deep neural networks.

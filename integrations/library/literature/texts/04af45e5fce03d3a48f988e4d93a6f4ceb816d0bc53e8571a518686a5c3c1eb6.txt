@@ -1,0 +1,6 @@
+ex:laptop4, [prov:role="day-to-day machine"])
+used(ex:work, ex:desktop9, [prov:role="backup machine"])
+
+Attribute-value lists occur in all types and most relations of the data model. Applications designers are free to introduce further application-specific attributes. Attributes for a given application can be distinguished by qualifying them with a prefix denoting a namespace
+declared in a namespace declaration. New namespaces and associated prefixes can be declared, allowing attributes and names to be qualified. The PROV data model is designed to be application and technology independent, but implementers are welcome and encouraged to specialize PROV-DM to specific domains and applications. To ensure interoperability, specializations of
+the PROV data model that exploit the extensibility points summarized in this section must preserve the semantics specified in this document and in [PROV-CONSTRAINTS].

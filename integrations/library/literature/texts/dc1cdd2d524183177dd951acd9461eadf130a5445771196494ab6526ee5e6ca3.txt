@@ -1,0 +1,22 @@
+Example 29 ◊
+
+In this example, the "buy one beer, get one free" offer expired at the end of the happy hour. entity(buy_one_beer_get_one_free_offer_during_happy_hour)
+wasAttributedTo(buy_one_beer_get_one_free_offer_during_happy_hour, proprietor)
+wasInvalidatedBy(buy_one_beer_get_one_free_offer_during_happy_hour,
+-,2012-03-10T18:00:00)
+
+In contrast, in the following descriptions, Bob redeemed the offer 45 minutes before it expired, and got two beers. entity(buy_one_beer_get_one_free_offer_during_happy_hour)
+wasAttributedTo(buy_one_beer_get_one_free_offer_during_happy_hour, proprietor)
+activity(redeemOffer)
+entity(twoBeers)
+
+wasAssociatedWith(redeemOffer, bob)
+used(redeemOffer,
+buy_one_beer_get_one_free_offer_during_happy_hour,
+2012-03-10T17:15:00)
+wasInvalidatedBy(buy_one_beer_get_one_free_offer_during_happy_hour,
+redeemOffer,
+2012-03-10T17:15:00)
+wasGeneratedBy(twoBeers,redeemOffer)
+
+We see that the offer was both used to be converted into twoBeers and invalidated by the redeemOffer activity: in other words, the combined usage and invalidation indicate consumption of the offer.

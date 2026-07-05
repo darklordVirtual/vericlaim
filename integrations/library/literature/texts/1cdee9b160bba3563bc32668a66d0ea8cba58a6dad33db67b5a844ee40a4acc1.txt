@@ -1,0 +1,18 @@
+ALFWorld: Aligning Text and Embodied Environments for Interactive
+Learning. In Proceedings of the International Conference on Learning
+Representations (ICLR). Sutton and Barto, (2018)
+
+Sutton, R. S. and Barto, A. G. (2018). Reinforcement Learning: An Introduction. The MIT Press, second edition. Wei et al., (2022)
+
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Chi, E., Le, Q., and Zhou, D. (2022). Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903. Xie et al., (2023)
+
+Xie, Y., Kawaguchi, K., Zhao, Y., Zhao, X., Kan, M.-Y., He, J., and Xie, Q. (2023). Decomposition enhances reasoning via self-evaluation guided decoding. arXiv preprint arXiv:2305.00633. Yang et al., (2018)
+
+Yang, Z., Qi, P., Zhang, S., Bengio, Y., Cohen, W. W., Salakhutdinov, R., and
+Manning, C. D. (2018). HotpotQA: A dataset for diverse, explainable multi-hop question
+answering. In Conference on Empirical Methods in Natural Language
+Processing (EMNLP). (29)
+
+Yao, S., Chen, H., Yang, J., and Narasimhan, K. (preprint). Webshop: Towards scalable real-world web interaction with grounded
+language agents. In ArXiv.

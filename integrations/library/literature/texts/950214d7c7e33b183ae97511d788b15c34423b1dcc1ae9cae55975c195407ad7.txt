@@ -1,0 +1,5 @@
+LLM and LVLM Uncertainty Estimation
+
+Sampling-based methods derive uncertainty estimation by aggregating multiple outputs. Self-Consistency (Wang et al., 2023) selects the most frequent answer via majority voting, while Semantic Entropy (Farquhar et al., 2024; Aichberger et al., 2025) measures meaning-level consistency across response clusters. For LVLMs, VL-Uncertainty (Zhang et al., 2024)) estimate uncertainty across multiple samples with semantically equivalent but perturbed inputs. Internal-state approaches leverage internal signals to quantify certainty. This includes both statistical metrics derived from logits, such as log-probabilities (Vashurin et al., 2025), perplexity (Zhao et al., 2025), Self-Certainty (i.e., logits divergence against uniform distribution) (Kang et al., 2025), and the probability assigned to a designated true token (Kadavath et al., 2022). Verbalized Confidence Calibration
+
+Recent studies have explored various alignment strategies to calibrate verbalized confidence (Stengel-Eskin et al., 2024; Leng et al., 2025; Xu et al., 2024; Stangel et al., 2025; Damani et al., 2025).

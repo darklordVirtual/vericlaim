@@ -1,0 +1,13 @@
+Thus we can compare finite to the infinite data limit by defining
+
+(4.2)
+
+and studying it as a function of . In fact, we see empirically that depends only a specific combination of and , as shown in Figure 16. This follows from the scaling law of Equation (1.5), which implies
+
+(4.3)
+
+Note that at large this formula also has a series expansion in powers of . We estimate that the variation in the loss with different random seeds is roughly , which means that to avoid overfitting when training to within that threshold of convergence we require
+
+(4.4)
+
+With this relation, models smaller than parameters can be trained with minimal overfitting on the 22B token WebText2 dataset, but our largest models will encounter some mild overfitting. More generally, this relation shows that dataset size may grow sub-linearly in model size while avoiding overfitting. Note however that this does not typically represent maximally compute-efficient training. We should also emphasize that we have not optimized regularization (eg the dropout probability) while varying dataset and model size.

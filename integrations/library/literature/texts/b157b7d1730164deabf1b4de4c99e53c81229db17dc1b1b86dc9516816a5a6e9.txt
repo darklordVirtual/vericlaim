@@ -1,0 +1,16 @@
+(or a tighter cluster of servers
+around a single database or message queue) which applies the
+updates to the system of record and then broadcasts the resulting
+events to the wider cluster of readers. Even when the system of
+record is the application state in a database this could be a very
+appealing structure. If the system of record is the event log,
+there is are plenty of options for very high performance since the
+event log is a purely additive structure that requires minimal locking. Such an architecture isn't flawless, of course. The reader
+systems are liable to be out of sync with the master (and each
+other) due to differences in timing with event
+propagation. However this broad style of architecture is used and
+I've heard almost entirely favorable comment about it. Using event streams like this also allows new applications to
+be added easily by tapping into the event streams and populating
+their own models, which don't need to be the same for all
+systems. It's an approach that fits in very well with a messaging
+approach to integration.

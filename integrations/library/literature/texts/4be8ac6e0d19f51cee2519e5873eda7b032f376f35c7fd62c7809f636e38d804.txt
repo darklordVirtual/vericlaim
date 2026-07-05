@@ -1,0 +1,22 @@
+as they existed at
+the time the dataset was created); c) are there any restrictions
+(e.g., licenses, fees) associated with any of the external
+resources that might apply to a dataset consumer? Please provide
+descriptions of all external resources and any restrictions
+associated with them, as well as links or other access points, as
+appropriate. •
+
+Does the dataset contain data that might be considered
+confidential (e.g., data that is protected by legal privilege or
+by doctor–patient confidentiality, data that includes the content
+of individuals’ non-public communications)? If so, please provide
+a description. •
+
+Does the dataset contain data that, if viewed directly,
+might be offensive, insulting, threatening, or might otherwise
+cause anxiety? If so, please describe why. If the dataset does not relate to people, you may skip the remaining questions in this section. •
+
+Does the dataset identify any subpopulations (e.g., by
+age, gender)? If so, please describe how these subpopulations are
+identified and provide a description of their respective
+distributions within the dataset.

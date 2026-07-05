@@ -1,0 +1,14 @@
+URL https://arxiv.org/abs/1409.3215. Sutton (2019)
+
+Rich Sutton. The bitter lesson. Incomplete Ideas, 2019. URL http://www.incompleteideas.net/IncIdeas/BitterLesson.html. Suzgun et al. (2019a)
+
+Mirac Suzgun, Yonatan Belinkov, Stuart Shieber, and Sebastian Gehrmann. LSTM networks can perform dynamic counting. In Proceedings of the Workshop on Deep Learning and Formal
+Languages: Building Bridges, pp. 44--54, Florence, August
+2019a. Association for Computational Linguistics. doi: 10.18653/v1/W19-3905. URL https://aclanthology.org/W19-3905. Suzgun et al. (2019b)
+
+Mirac Suzgun, Sebastian Gehrmann, Yonatan Belinkov, and Stuart M. Shieber. Memory-augmented recurrent neural networks can learn generalized
+Dyck languages, 2019b. URL https://arxiv.org/abs/1911.03329. Swingle et al. (2021)
+
+Colton Swingle, Henry Mellsop, and Alex Langshur. ChePT -- applying deep neural transformer models to chess move
+prediction and self-commentary, 2021. URL
+https://web.stanford.edu/class/cs224n/reports/final_reports/report087.pdf. Talat et al.

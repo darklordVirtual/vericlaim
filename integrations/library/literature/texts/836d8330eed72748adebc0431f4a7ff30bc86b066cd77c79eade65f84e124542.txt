@@ -1,0 +1,20 @@
+Learning transferable visual models from natural language
+supervision. arXiv preprint arXiv:2103.00020, 2021. Raffel et al. (2020)
+
+Raffel, C., Shazeer, N. M., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou,
+Y., Li, W., and Liu, P. J. Exploring the limits of transfer learning with a unified text-to-text
+transformer. ArXiv, abs/1910.10683, 2020. Ramesh et al. (2021)
+
+Ramesh, A., Pavlov, M., Goh, G., Gray, S., Voss, C., Radford, A., Chen, M., and
+Sutskever, I. Zero-shot text-to-image generation. ArXiv, abs/2102.12092, 2021. Reed & de Freitas (2016)
+
+Reed, S. and de Freitas, N. Neural programmer-interpreters, 2016. Ren et al. (2020)
+
+Ren, S., Guo, D., Lu, S., Zhou, L., Liu, S., Tang, D., Sundaresan, N., Zhou,
+M., Blanco, A., and Ma, S. Codebleu: a method for automatic evaluation of code synthesis. arXiv preprint arXiv:2009.10297, 2020. Rives et al. (2021)
+
+Rives, A., Meier, J., Sercu, T., Goyal, S., Lin, Z., Liu, J., Guo, D., Ott, M.,
+Zitnick, C. L., Ma, J., et al. Biological structure and function emerge from scaling unsupervised
+learning to 250 million protein sequences. Proceedings of the National Academy of Sciences, 118(15), 2021. Rokon et al. (2020)
+
+Rokon, M. O.

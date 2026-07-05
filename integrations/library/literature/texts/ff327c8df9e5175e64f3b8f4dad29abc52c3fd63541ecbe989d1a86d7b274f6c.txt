@@ -1,0 +1,12 @@
+Summary
+
+No requirements—L0 represents the lack of SLSA. Intended for
+
+Development or test builds of software that are built and run on the same
+machine, such as unit tests. Requirements
+
+n/a
+
+Benefits
+
+n/a

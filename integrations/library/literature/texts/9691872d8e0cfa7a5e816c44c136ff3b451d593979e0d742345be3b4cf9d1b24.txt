@@ -1,0 +1,16 @@
+Kreutzer et al. [2018]
+
+J. Kreutzer, J. Uyheng, and S. Riezler. Reliability and learnability of human bandit feedback for
+sequence-to-sequence reinforcement learning. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 1777–1788,
+Melbourne, Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/P18-1165. URL https://aclanthology.org/P18-1165. Kupcsik et al. [2018]
+
+A. Kupcsik, D. Hsu, and W. S. Lee. Learning Dynamic Robot-to-Human Object Handover from Human
+Feedback, pages 161–176. Springer International Publishing, 01 2018. ISBN 978-3-319-51531-1. doi: 10.1007/978-3-319-51532-8_10. Levine [2018]
+
+S. Levine. Reinforcement learning and control as probabilistic inference:
+Tutorial and review, 2018. Luce [2012]
+
+R. D. Luce. Individual choice behavior: A theoretical analysis. Courier Corporation, 2012. Maas et al. [2011]
+
+A. L. Maas, R. E. Daly, P. T. Pham, D. Huang, A. Y. Ng, and C. Potts. Learning word vectors for sentiment analysis.

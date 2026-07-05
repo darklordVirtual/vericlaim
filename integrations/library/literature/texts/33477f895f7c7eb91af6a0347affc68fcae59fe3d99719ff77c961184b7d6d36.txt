@@ -1,0 +1,7 @@
+1.23
+
+✗
+
+Table 10: Examples of API calls for different tools, sorted by the value of that is used as a filtering criterion. High values typically correspond to API calls that are intuitively useful for predicting future tokens. Data Quality
+
+We qualitatively analyze some API calls generated with our approach for different APIs. Table 10 shows some examples of texts from CCNet augmented with API calls, as well as the corresponding score that is used as a filtering criterion, and whether the API calls made by the model are intuitively useful in the given context. As can be seen, high values of typically correspond to useful API calls, whereas low values correspond to API calls that do not provide any information that is useful for predicting future tokens. There are some exceptions, e.g., an API call for “Fast train success” in the fourth example that does not give any relevant information but still reduces perplexity. However, some amount of noise in the API calls that are not filtered can actually be useful as it forces the model finetuned on to not always blindly follow the results of each call it makes.

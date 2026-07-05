@@ -1,0 +1,45 @@
+The following compliance gaps were identified through
+static analysis of OpenClaw’s publicly available source
+code (commit f014e25). Table 1 summarizes OpenClaw’s compliance with
+the four LGA layers. Compliance levels are assessed as follows:
+Full—the layer requirement is architecturally enforced;
+Partial—some mechanisms exist but do not cover the full
+threat surface;
+None—no corresponding mechanism is implemented. Table 1. OpenClaw LGA Compliance Assessment
+
+Layer
+Requirement
+OpenClaw Status
+Level
+
+L1 Sandbox
+
+OS-level isolation
+
+Docker (opt-in)
+
+Partial
+
+L2 Intent
+
+Hard-coded tool checks
+
+SOUL.md soft semantics
+
+None
+
+L3 Zero-Trust
+
+Min-privilege tokens
+
+Not implemented
+
+None
+
+L4 Audit
+
+Append-only immutable
+
+logs/ dir (mutable)
+
+Partial

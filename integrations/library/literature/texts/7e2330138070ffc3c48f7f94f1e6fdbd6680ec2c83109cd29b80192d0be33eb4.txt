@@ -1,0 +1,16 @@
+Talmor et al. (2019b)
+
+Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. CommonsenseQA: A question answering challenge targeting commonsense
+knowledge. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 4149--4158,
+Minneapolis, Minnesota, June 2019b. Association for
+Computational Linguistics. doi: 10.18653/v1/N19-1421. URL https://aclanthology.org/N19-1421. Tamkin et al. (2021)
+
+Alex Tamkin, Miles Brundage, Jack Clark, and Deep Ganguli. Understanding the capabilities, limitations, and societal impact of
+large language models, 2021. URL https://arxiv.org/abs/2102.02503. Tan et al. (2015)
+
+Jiwei Tan, Xiaojun Wan, and Jianguo Xiao. Learning to recommend quotes for writing. In Proceedings of the Twenty-Ninth AAAI Conference on
+Artificial Intelligence, AAAI’15, pp. 2453–2459, Menlo Park, CA, 2015. Association for the Advancement of Artificial Intelligence. URL https://dl.acm.org/doi/10.5555/2886521.2886662. Telle et al. (2019)
+
+Jan Arne Telle, José Hernández-Orallo, and Cèsar Ferri.

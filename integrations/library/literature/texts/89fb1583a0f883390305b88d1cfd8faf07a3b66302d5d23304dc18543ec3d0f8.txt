@@ -1,0 +1,21 @@
+In Proceedings of the Twelfth Language Resources and Evaluation
+Conference, pages 4003–4012, Marseille, France. European Language Resources
+Association. Yao et al. (2022)
+
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
+and Yuan Cao. 2022. React: Synergizing
+reasoning and acting in language models. Yarowsky (1995)
+
+David Yarowsky. 1995. Unsupervised word
+sense disambiguation rivaling supervised methods. In 33rd Annual Meeting of the Association for Computational
+Linguistics, pages 189–196, Cambridge, Massachusetts, USA. Association for
+Computational Linguistics. Zelikman et al. (2022)
+
+Eric Zelikman, Yuhuai Wu, Jesse Mu, and Noah D. Goodman. 2022. Star:
+Bootstrapping reasoning with reasoning. Zhang et al. (2022)
+
+Susan Zhang, Stephen Roller, Naman Goyal, Mikel Artetxe, Moya Chen, Shuohui
+Chen, Christopher Dewan, Mona Diab, Xian Li, Xi Victoria Lin, Todor Mihaylov,
+Myle Ott, Sam Shleifer, Kurt Shuster, Daniel Simig, Punit Singh Koura, Anjali
+Sridhar, Tianlu Wang, and Luke Zettlemoyer. 2022. Opt: Open
+pre-trained transformer language models.

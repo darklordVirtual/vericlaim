@@ -1,0 +1,23 @@
+In this appendix, we will derive Eq. 4. Analogously to Eq. 3, we optimize the following objective:
+
+(11)
+
+under any reward function , reference model and a general non-parametric policy class. We now have:
+
+(12)
+
+where we have partition function:
+
+Note that the partition function is a function of only and the reference policy , but does not depend on the policy . We can now define
+
+which is a valid probability distribution as for all and . Since is not a function of , we can then re-organize the final objective in Eq A.1 as:
+
+(13)
+
+(14)
+
+Now, since does not depend on , the minimum is achieved by the policy that minimizes the first KL term. Gibbs’ inequality tells us that the KL-divergence is minimized at 0 if and only if the two distributions are identical. Hence we have the optimal solution:
+
+(15)
+
+for all . This completes the derivation.

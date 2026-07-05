@@ -1,0 +1,14 @@
+Natural reference to objects in a visual domain. In Proceedings of the 6th International Natural Language
+Generation Conference. Association for Computational Linguistics, July 2010. URL https://aclanthology.org/W10-4210. Mitchell et al. (2013)
+
+Margaret Mitchell, Kees van Deemter, and Ehud Reiter. Generating expressions that refer to visible objects. In Proceedings of the 2013 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 1174--1184, Atlanta, Georgia, June 2013. Association for
+Computational Linguistics. URL https://aclanthology.org/N13-1137. Mnih et al. (2013)
+
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis
+Antonoglou, Daan Wierstra, and Martin Riedmiller. Playing Atari with deep reinforcement learning, 2013. URL https://arxiv.org/abs/1312.5602. Mohammadi et al. (2019)
+
+Elham Mohammadi, Hessam Amini, and Leila Kosseim. CLaC at CLPsych 2019: Fusion of neural features and predicted
+class probabilities for suicide risk assessment based on online posts. In Proceedings of the Sixth Workshop on Computational
+Linguistics and Clinical Psychology, pp.

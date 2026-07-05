@@ -1,0 +1,42 @@
+Significant effort was spent actively soliciting BIG-bench task contributions by
+Jascha Sohl-Dickstein, Ethan Dyer,
+Rosanne Liu,
+and Vinay Ramasesh. Data analysis was performed by
+Ethan Dyer,
+Vinay Ramasesh,
+Ambrose Slone,
+Jaehoon Lee,
+Guy Gur-Ari,
+Noah Constant,
+Aitor Lewkowycz,
+Daniel Freeman,
+Jascha Sohl-Dickstein,
+Rosanne Liu,
+Noah Fiedel,
+Gaurav Mishra, and Vedant Misra. Measurement of human performance on BIG-bench tasks was organized by
+Daniel Freeman and Danielle Perszyk. The humans who performed BIG-bench tasks, and whose scores are reported in this paper, are
+Vinay Ramasesh,
+Daniel Freeman,
+Vedant Misra,
+and an expert evaluation team consisting of
+Andrew La,
+Angela Jiang,
+Stephen Prasad,
+Joseph Boudeman,
+Joseph Guerr,
+Joyce Chua,
+Melvin McElrath,
+Ryan Stovall,
+Melody Arnaud,
+Katerina Ignatyeva,
+Tyler Shultz,
+Michael Starritt,
+Sean Casey,
+Cindy Ramirez,
+Hayden Bogar,
+Anh Vuong,
+Cameron Dour,
+Michael Gu,
+and
+Theodore Rothschild,
+and managed by Courtney Ashcraft. The initial project idea was developed in conversation between Guy Gur-Ari, Ethan Dyer, and Jascha Sohl-Dickstein.

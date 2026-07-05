@@ -1,0 +1,7 @@
+targets employing a model type, parameters or features unknown to the attacker, we additionally show a successful preliminary attack step involving reverse-engineering these model characteristics. Our most successful attacks rely on the information-rich outputs returned by the ML prediction
+APIs of all cloud-based services we investigated. Those of Google, Amazon, Microsoft, and
+BigML all return high-precision confidence values in addition to class labels. They also respond to partial queries lacking one or more features. Our setting thus differs from traditional learning-theory settings
+[54, 36, 33, 30, 7, 3, 15, 8] that assume
+only membership queries, outputs consisting of a class label only. For example, for logistic regression, the confidence value is a simple log-linear function of the -dimensional
+input vector . By querying random -dimensional inputs, an attacker can with high probability solve for the unknown parameters and defining the
+model. We emphasize that while this model extraction attack is simple and non-adaptive, it affects all of the ML services we have investigated.

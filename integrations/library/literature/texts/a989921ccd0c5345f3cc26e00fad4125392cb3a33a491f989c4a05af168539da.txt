@@ -1,0 +1,20 @@
+arXiv preprint arXiv:2304.03442. Paul et al., (2023)
+
+Paul, D., Ismayilzada, M., Peyrard, M., Borges, B., Bosselut, A., West, R., and
+Faltings, B. (2023). Refiner: Reasoning feedback on intermediate representations. arXiv preprint arXiv:2304.01904. Pryzant et al., (2023)
+
+Pryzant, R., Iter, D., Li, J., Lee, Y. T., Zhu, C., and Zeng, M. (2023). Automatic prompt optimization with" gradient descent" and beam
+search. arXiv preprint arXiv:2305.03495. Schick et al., (2023)
+
+Schick, T., Dwivedi-Yu, J., Dessì, R., Raileanu, R., Lomeli, M.,
+Zettlemoyer, L., Cancedda, N., and Scialom, T. (2023). Toolformer: Language models can teach themselves to use tools. arXiv preprint arXiv:2302.04761. Shen et al., (2023)
+
+Shen, Y., Song, K., Tan, X., Li, D., Lu, W., and Zhuang, Y. (2023). Hugginggpt: Solving ai tasks with chatgpt and its friends in
+huggingface. arXiv preprint arXiv:2303.17580. Shridhar et al., (2021)
+
+Shridhar, M., Yuan, X., Côté, M.-A., Bisk, Y., Trischler, A., and
+Hausknecht, M. (2021). ALFWorld: Aligning Text and Embodied Environments for Interactive
+Learning. In Proceedings of the International Conference on Learning
+Representations (ICLR). Sutton and Barto, (2018)
+
+Sutton, R. S.

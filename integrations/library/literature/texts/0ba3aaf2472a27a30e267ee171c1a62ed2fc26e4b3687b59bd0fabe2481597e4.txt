@@ -1,0 +1,4 @@
+Evaluating these attacks, as well as more refined countermeasures, on production-grade ML services is an interesting avenue for future work. Acknowledgments. We thank Martín Abadi and the anonymous reviewers for their
+comments. This work was supported by NSF grants
+1330599, 1330308, and 1546033, as well as a generous gift
+from Microsoft.

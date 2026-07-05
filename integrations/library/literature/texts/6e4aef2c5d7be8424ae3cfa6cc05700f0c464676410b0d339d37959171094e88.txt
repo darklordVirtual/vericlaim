@@ -1,0 +1,13 @@
+We start with explaining the existence of adversarial examples for linear models. In many problems, the precision of an individual input feature is limited. For example, digital images often use only
+8 bits per pixel so they discard all information below of the dynamic range. Because
+the precision of the features is limited, it is not rational for the classifier to
+respond differently to an input than to an adversarial input
+if every element of the perturbation is smaller than the precision of the features. Formally,
+for problems with well-separated classes,
+we expect the classifier to assign the same class to and so long as
+, where is small enough to be discarded by the
+sensor or data storage apparatus associated with our problem. Consider the dot product between a weight vector and an adversarial example :
+
+The adversarial perturbation causes the activation to grow by .We can maximize this increase subject to the max norm constraint on by assigning
+. If has dimensions and the average magnitude of an element
+of the weight vector is , then the activation will grow by .

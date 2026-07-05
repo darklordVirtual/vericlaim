@@ -1,0 +1,25 @@
+We first show that the proposed algorithm leads to risk control when the loss is monotone. Theorem 2.1. Assume that is non-increasing in , right-continuous, and
+
+(6)
+
+Then
+
+(7)
+
+Proof. Let and
+
+(8)
+
+Since , is well-defined almost surely. Since , we know . Thus,
+
+(9)
+
+This implies when the LHS holds for some . When the LHS is above for all , by definition, . Thus, almost surely. Since is non-increasing in ,
+
+(10)
+
+Let be the multiset of loss functions . Then is a function of , or, equivalently, is a constant conditional on . Additionally, ) by exchangeability. These facts combined with the right-continuity of imply
+
+(11)
+
+The proof is completed by the law of total expectation and (10). ∎

@@ -1,0 +1,19 @@
+95.4%). One cascade FPR comparison (QG vs. GPT-4o-mini ZH,
+) reaches significance at but not
+at ; all other comparisons satisfy . Notably, Qwen2.5-14B’s IR advantage over GPT-4o-mini is
+highly significant on both languages (), supporting
+the conclusion that local judges can match or exceed cloud-level
+interception. The cascade rows confirm that Q14B achieves significantly
+higher IR than QG on both languages (; ZH: ,
+EN: ), while
+Q14B significantly reduces FPR below standalone Qwen2.5-14B
+(). The QG cascade also reduces FPR significantly below
+standalone GPT-4o-mini (EN: ; ZH: ),
+demonstrating that two-stage filtering provides a measurable
+precision advantage over either judge alone. Table 8. McNemar Test: Pairwise Significance of Key Comparisons
+
+Comparison
+
+Metric
+
+Sig.

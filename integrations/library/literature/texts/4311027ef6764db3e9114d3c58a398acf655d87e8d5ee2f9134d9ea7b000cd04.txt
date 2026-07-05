@@ -1,0 +1,15 @@
+Typically the bin boundaries are either chosen to be equal length intervals
+or to equalize the number of samples in each bin. The predictions are chosen to minimize the bin-wise squared loss:
+
+(7)
+
+where is the indicator function. Given fixed bins boundaries, the solution to (7) results in that correspond to the average number of positive-class samples in bin . Isotonic regression
+
+(Zadrozny & Elkan, 2002), arguably the most common non-parametric calibration method,
+learns a piecewise constant function to transform uncalibrated outputs; i.e. . Specifically, isotonic regression produces to minimize the square loss . Because is constrained to be piecewise constant, we can write the optimization problem as:
+
+subject to
+
+where is the number of intervals; are the interval boundaries; and are the function values. Under this parameterization, isotonic regression is a strict generalization of histogram binning in which the bin boundaries and bin predictions are jointly optimized. Bayesian Binning into Quantiles (BBQ)
+
+(Naeini et al., 2015) is a extension of histogram binning using Bayesian model averaging. Essentially, BBQ marginalizes out all possible binning schemes to produce .

@@ -1,0 +1,20 @@
+Bai et al. [2022a]
+
+Y. Bai, A. Jones, K. Ndousse, A. Askell, A. Chen, N. DasSarma, D. Drain,
+S. Fort, D. Ganguli, T. Henighan, N. Joseph, S. Kadavath, J. Kernion,
+T. Conerly, S. El-Showk, N. Elhage, Z. Hatfield-Dodds, D. Hernandez, T. Hume,
+S. Johnston, S. Kravec, L. Lovitt, N. Nanda, C. Olsson, D. Amodei, T. Brown,
+J. Clark, S. McCandlish, C. Olah, B. Mann, and J. Kaplan. Training a helpful and harmless assistant with reinforcement learning
+from human feedback, 2022a. Bai et al. [2022b]
+
+Y. Bai, S. Kadavath, S. Kundu, A. Askell, J. Kernion, A. Jones, A. Chen,
+A. Goldie, A. Mirhoseini, C. McKinnon, C. Chen, C. Olsson, C. Olah,
+D. Hernandez, D. Drain, D. Ganguli, D. Li, E. Tran-Johnson, E. Perez,
+J. Kerr, J. Mueller, J. Ladish, J. Landau, K. Ndousse, K. Lukosuite,
+L. Lovitt, M. Sellitto, N. Elhage, N. Schiefer, N. Mercado, N. DasSarma,
+R. Lasenby, R. Larson, S. Ringer, S. Johnston, S. Kravec, S. E. Showk,
+S. Fort, T. Lanham, T. Telleen-Lawton, T. Conerly, T. Henighan, T. Hume,
+S. R. Bowman, Z. Hatfield-Dodds, B. Mann, D. Amodei, N. Joseph,
+S. McCandlish, T. Brown, and J. Kaplan. Constitutional ai: Harmlessness from ai feedback, 2022b. Biderman et al. [2023]
+
+S. Biderman, H.

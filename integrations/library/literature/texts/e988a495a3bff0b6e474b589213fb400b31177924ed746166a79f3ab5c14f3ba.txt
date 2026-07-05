@@ -1,0 +1,1 @@
+Throughout this appendix all values of and are adjusted for training at the critical batch size . We have left off the ‘adj’ label to avoid cluttering the notation.

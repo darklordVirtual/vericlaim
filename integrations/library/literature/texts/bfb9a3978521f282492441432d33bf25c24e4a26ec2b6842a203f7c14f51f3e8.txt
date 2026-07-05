@@ -1,0 +1,15 @@
+(2022). Training a helpful and harmless assistant with reinforcement learning
+from human feedback. [Bowman et al., 2022]
+
+Bowman, S. R., Hyun, J., Perez, E., Chen, E., Pettit, C., Heiner, S.,
+Lukosuite, K., Askell, A., Jones, A., Chen, A., Goldie, A., Mirhoseini, A.,
+McKinnon, C., Olah, C., Amodei, D., Amodei, D., Drain, D., Li, D.,
+Tran-Johnson, E., Kernion, J., Kerr, J., Mueller, J., Ladish, J., Landau, J.,
+Ndousse, K., Lovitt, L., Elhage, N., Schiefer, N., Joseph, N., Mercado, N.,
+DasSarma, N., Larson, R., McCandlish, S., Kundu, S., Johnston, S., Kravec,
+S., Showk, S. E., Fort, S., Telleen-Lawton, T., Brown, T., Henighan, T.,
+Hume, T., Bai, Y., Hatfield-Dodds, Z., Mann, B., and Kaplan, J. (2022). Measuring progress on scalable oversight for large language models. [Christiano et al., 2017]
+
+Christiano, P., Leike, J., Brown, T. B., Martic, M., Legg, S., and Amodei, D. (2017). Deep reinforcement learning from human preferences. [Christiano et al., 2018]
+
+Christiano, P., Shlegeris, B., and Amodei, D. (2018). Supervising strong learners by amplifying weak experts.

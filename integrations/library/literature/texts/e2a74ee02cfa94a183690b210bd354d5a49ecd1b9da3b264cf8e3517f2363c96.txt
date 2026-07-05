@@ -1,0 +1,4 @@
+We see that the unnormalized log probabilities for each class are conspicuously piecewise linear with and that
+the wrong classifications are stable across a wide region of values. Moreover, the predictions become very extreme as we
+increase enough to move into the regime of rubbish inputs. Right) The inputs used to generate the curve (upper left = negative , lower right = positive , yellow boxes indicate
+correctly classified inputs).

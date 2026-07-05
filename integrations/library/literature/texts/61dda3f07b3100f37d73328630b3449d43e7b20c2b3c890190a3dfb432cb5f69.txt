@@ -1,0 +1,7 @@
+How the rule floor and the judge are combined depends on whether the incoming traffic resembles the distribution the rules were authored for. The two stores are fused by a distribution-aware policy:
+
+•
+
+In-distribution: rules floor + escalate-only judge. When the traffic matches the rules’ design distribution, the floor is trustworthy on the lexical class, so the floor decides and the judge is allowed only to escalate an allow warn/block/review through the confidence gate. This is the net-positive hybrid of §4.3. •
+
+Out-of-distribution: the judge leads. When the traffic is off the rules’ distribution, the floor is no longer a safe foundation — on the realistic held-out corpus the rule floor not only collapses in accuracy but its false-positive rate climbs to 22.4% (§5.2), so building on it as a floor would drag down a capable judge. Here the policy hands leadership to the judge (gated-replace rather than escalate-only): the judge, which lands 83.6–85.2% across the two providers with near-zero false-block on that same corpus, decides and the floor is demoted to an advisory signal.

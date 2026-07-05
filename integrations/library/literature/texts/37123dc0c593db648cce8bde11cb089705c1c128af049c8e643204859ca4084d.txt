@@ -1,0 +1,17 @@
+Folk psychology as a theory. In Edward N. Zalta (ed.), The Stanford Encyclopedia of
+Philosophy. Metaphysics Research Lab, Stanford University, Summer 2019
+edition, 2019. Reddy et al. (2019)
+
+Siva Reddy, Danqi Chen, and Christopher D. Manning. CoQA: A conversational question answering challenge. Transactions of the Association for Computational Linguistics,
+7:249--266, 2019. doi: 10.1162/tacl_a_00266. URL https://aclanthology.org/Q19-1016. Reed & de Freitas (2015)
+
+Scott Reed and Nando de Freitas. Neural programmer-interpreters, 2015. URL https://arxiv.org/abs/1511.06279. Rei (2017)
+
+Marek Rei. Semi-supervised multitask learning for sequence labeling, 2017. URL https://arxiv.org/abs/1704.07156. Reimers & Gurevych (2019)
+
+Nils Reimers and Iryna Gurevych. Sentence-BERT: Sentence embeddings using siamese BERT-networks,
+2019. URL https://arxiv.org/abs/1908.10084. Reisinger & Mooney (2010)
+
+Joseph Reisinger and Raymond J. Mooney. Multi-prototype vector-space models of word meaning. In Human Language Technologies: The 2010 Annual Conference of
+the North American Chapter of the Association for Computational
+Linguistics, pp. 109--117, Los Angeles, California, June 2010.

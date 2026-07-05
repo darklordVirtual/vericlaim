@@ -1,0 +1,6 @@
+We regard the knowledge of this flaw as an opportunity
+to fix it. Indeed,
+Gu & Rigazio (2014) and Chalupka et al. (2014)
+have already begun the first steps toward designing models that resist adversarial perturbation,
+though no model has yet succesfully done so while maintaining state of the art accuracy on
+clean inputs.

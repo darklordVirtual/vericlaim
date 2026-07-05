@@ -1,0 +1,12 @@
+Task cites: (Brown et al., 2020; Saxton et al., 2019)
+
+ascii_word_recognition: Nitish Shirish Keskar, Salesforce (nkeskar@salesforce.com). Task cites: (Child et al., 2019; Chen et al., 2020)
+
+authorship_verification: Niklas Deckers and Martin Potthast, Leipzig University and ScaDS.AI (niklas.deckers, martin.potthast)@uni-leipzig.de;
+Sebastian Bischoff, Leipzig University, ScaDS.AI and University of Tübingen (sebastian@salzreute.de); Benno Stein, Bauhaus-Universität Weimar (benno.stein@uni-weimar.de); and Matthias Hagen, Friedrich-Schiller-Universität Jena (matthias.hagen@uni-jena.de). Task cites: (Bischoff et al., 2020; Koppel & Schler, 2004)
+
+auto_categorization: Fanyue Xia, Carnegie Mellon University (fanyuex@andrew.cmu.edu)
+
+auto_debugging: Mo Tiwari, Medina Orduna Baitemirova, and Chris Waites, Stanford University (motiwari, medinab, waites)@stanford.edu. Task cites: (Zaremba & Sutskever, 2014)
+
+bbq_lite: Alicia Parrish, Angelica Chen, Phu Mon Htut, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, and Samuel R. Bowman, New York University (alicia.v.parrish, ac5968, pmh330, nikitanangia, vp1271, zp489, jt4407, bowman)@nyu.edu.

@@ -1,0 +1,18 @@
+arXiv preprint arXiv:2009.03300, 2020. Hennigan et al. (2020)
+
+T. Hennigan, T. Cai, T. Norman, and I. Babuschkin. Haiku: Sonnet for JAX. 2020. URL http://github.com/deepmind/dm-haiku. Hernandez et al. (2021)
+
+D. Hernandez, J. Kaplan, T. Henighan, and S. McCandlish. Scaling laws for transfer, 2021. Huber (1964)
+
+P. J. Huber. Robust Estimation of a Location Parameter. The Annals of Mathematical Statistics, 35(1):73–101, Mar. 1964. ISSN 0003-4851, 2168-8990. 10.1214/aoms/1177703732. URL
+https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-35/issue-1/Robust-Estimation-of-a-Location-Parameter/10.1214/aoms/1177703732.full. Izacard and Grave (2020)
+
+G. Izacard and E. Grave. Distilling knowledge from reader to retriever for question answering,
+2020. Joshi et al. (2017)
+
+M. Joshi, E. Choi, D. Weld, and L. Zettlemoyer. TriviaQA: A Large Scale Distantly Supervised Challenge Dataset
+for Reading Comprehension. arXiv e-prints, art. arXiv:1705.03551, 2017. Jouppi et al. (2017)
+
+N. P. Jouppi, C. Young, N. Patil, D. Patterson, G. Agrawal, R. Bajwa, S. Bates,
+S. Bhatia, N. Boden, A. Borchers, R. Boyle, P.-l. Cantin, C. Chao, C. Clark,
+J. Coriell, M. Daley, M. Dau, J. Dean, B.

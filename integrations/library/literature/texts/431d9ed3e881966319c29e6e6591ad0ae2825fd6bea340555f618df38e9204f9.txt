@@ -1,0 +1,9 @@
+and
+unqover
+decreases with model scale, indicating that larger models are more biased in the setting of broad or ambiguous contexts. (b–e) This trend appears robust across tasks probing bias with respect to gender, religion, race/ethnicity, and nationality (these constitute all the bias categories with more than one relevant BIG-bench task). Un-normalized individual task scores are shown in Supplementary Figure App.3. In Figure 12 we show data from six tasks
+(bbq_lite,
+bias_from_probabilities,
+diverse_social_bias,
+gender_sensitivity_english,
+muslim_violence_bias, and
+unqover) attempting to quantify bias with respect to age, disability status, gender identity, nationality, physical appearance, race/ethnicity, religion, socio-economic status, and sexual orientation. These tasks present a context where the completion is ambiguous given the available evidence, or where the model is asked to make generalizations about broad classes.

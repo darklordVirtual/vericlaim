@@ -1,0 +1,17 @@
+Spreadsheet data manipulation using examples. Commun. ACM, 55:97–105, 2012. He et al. (2020)
+
+He, P., Liu, X., Gao, J., and Chen, W. Deberta: Decoding-enhanced bert with disentangled attention. arXiv preprint arXiv:2006.03654, 2020. Helmuth & Spector (2015)
+
+Helmuth, T. and Spector, L. General program synthesis benchmark suite. In Proceedings of the 2015 Annual Conference on Genetic and
+Evolutionary Computation, pp. 1039–1046, 2015. Hendrycks et al. (2021)
+
+Hendrycks, D., Basart, S., Kadavath, S., Mazeika, M., Arora, A., Guo, E.,
+Burns, C., Puranik, S., He, H., Song, D., et al. Measuring coding challenge competence with apps. arXiv preprint arXiv:2105.09938, 2021. Hindle et al. (2012)
+
+Hindle, A., Barr, E. T., Su, Z., Gabel, M., and Devanbu, P. On the naturalness of software. In 2012 34th International Conference on Software Engineering
+(ICSE), pp. 837–847. IEEE, 2012. Holtzman et al. (2020)
+
+Holtzman, A., Buys, J., Du, L., Forbes, M., and Choi, Y. The curious case of neural text degeneration, 2020. Husain et al. (2019)
+
+Husain, H., Wu, H.-H., Gazit, T., Allamanis, M., and Brockschmidt, M. Codesearchnet challenge: Evaluating the state of semantic code
+search.

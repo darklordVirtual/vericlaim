@@ -1,0 +1,4 @@
+the VGG and RESNET architectures,
+our selective classifiers are extremely effective,
+and with appropriate coverage compromise, our classifier easily surpasses the best known results for ImageNet. Not surprisingly, RESNET, which is known to achieve better results than VGG on this set, preserves its relative advantage
+relative to VGG through all values.

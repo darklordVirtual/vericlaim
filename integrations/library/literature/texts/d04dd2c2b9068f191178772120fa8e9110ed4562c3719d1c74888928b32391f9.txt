@@ -1,0 +1,18 @@
+A.,
+Shtedritski, A., and Asano, Y. M. (2021). How true is gpt-2? an empirical analysis of intersectional
+occupational biases. arXiv preprint arXiv:2102.04130. Krause et al., (2020)
+
+Krause, B., Gotmare, A. D., McCann, B., Keskar, N. S., Joty, S., Socher, R.,
+and Rajani, N. F. (2020). Gedi: Generative discriminator guided sequence generation. arXiv preprint arXiv:2009.06367. Kreutzer et al., (2018)
+
+Kreutzer, J., Khadivi, S., Matusov, E., and Riezler, S. (2018). Can neural machine translation be improved with user feedback? arXiv preprint arXiv:1804.05958. Lawrence and Riezler, (2018)
+
+Lawrence, C. and Riezler, S. (2018). Improving a neural semantic parser by counterfactual learning from
+human bandit feedback. arXiv preprint arXiv:1805.01252. Leike et al., (2018)
+
+Leike, J., Krueger, D., Everitt, T., Martic, M., Maini, V., and Legg, S. (2018). Scalable agent alignment via reward modeling: a research direction. arXiv preprint arXiv:1811.07871. Leike et al., (2017)
+
+Leike, J., Martic, M., Krakovna, V., Ortega, P. A., Everitt, T., Lefrancq, A.,
+Orseau, L., and Legg, S. (2017). AI safety gridworlds. arXiv preprint arXiv:1711.09883. Liang et al., (2021)
+
+Liang, P.

@@ -1,0 +1,13 @@
+For example, attribution methods for explaining individual predictions of computer vision models are arguably one of the most well-developed research areas. As such, we suggest that the following under-explored directions would be useful for the development of interpretability tools that could support verifiable claims about system properties:
+
+•
+
+Developing and establishing consensus on the criteria, objectives, and frameworks for interpretability research;
+
+•
+
+Studying the provenance of a learned model (e.g., as a function of the distribution of training data, choice of particular model families, or optimization) instead of treating models as fixed; and
+
+•
+
+Constraining models to be interpretable by default, in contrast to the standard setting of trying to interpret a model post-hoc. This list is not intended to be exhaustive, and we recognize that there is uncertainty about which research directions will ultimately bear fruit. We discuss the landscape of interpretability research further in Appendix VI(C).

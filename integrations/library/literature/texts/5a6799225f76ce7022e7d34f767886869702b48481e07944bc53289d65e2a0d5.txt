@@ -1,0 +1,9 @@
+We first give slightly more details on our prompt boostrapping process. As previously mentioned, for the majority of the project, we obtained prompts directly from external users of the instruct beta models in the OpenAI API. However, this strategy only works once you have a model that accepts instruction-like prompts. In order to train the very first such model, we asked contractors to write prompts themselves. We asked labelers to write three kinds of prompts:
+
+•
+
+Plain: We simply ask the labelers to come up with an arbitrary task, while ensuring diversity of tasks. •
+
+Few-shot: We ask the labelers to come up with an instruction, and multiple query/response pairs for that instruction. For example, the instruction could be “Give the sentiment for a tweet,” and the queries would be tweets and the responses either “Positive” or “Negative.” We can then format these as few-shot prompts like those in Brown et al., (2020). With K query-response pairs, we create K training examples using the other K-1 in the context. •
+
+User-based: We had a number of use-cases stated in applications to the OpenAI API. We asked labelers to come up with prompts corresponding to these use cases.

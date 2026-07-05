@@ -1,0 +1,53 @@
+{"fsid": "arxiv_1412-6572", "n": 52, "overlap": 200, "source_sha256": "61ac11fa755d0333518ea60851d279aff97128a14ca0119d4eacfd8ba1080139", "target": 1200}
+{"section": "", "seq": 0, "sha256": "86eaa758eb75e7ce82d3066df83a407f93b4b6745771e5161f9f626ad0b4b846"}
+{"section": "Explaining and Harnessing Adversarial Examples", "seq": 1, "sha256": "3055ec5c2217821f23d4c31d0375810485cea2a1bc96f9eb8b937fd20cda7144"}
+{"section": "1 Introduction", "seq": 2, "sha256": "6db243723c421f1c5c6fc152d1405ab25f70e947373eb82d56276bb28f8471e8"}
+{"section": "1 Introduction", "seq": 3, "sha256": "9755eede4920951361d10c7888a93af3f19f3754b1f9f0b269ff47aa826189c3"}
+{"section": "2 Related work", "seq": 4, "sha256": "948b4bf9469924abbe43da91489fa83e3b910a538d7420cbe17b0056ff501d15"}
+{"section": "2 Related work", "seq": 5, "sha256": "814ab19b78a4c023df4785b8dc79eb02b7c1af87de5fd5f73116b712f5203762"}
+{"section": "2 Related work", "seq": 6, "sha256": "da4018373548c6becc1c98f63b8f75f185576cea30263041686762680d1a94d4"}
+{"section": "3 The linear explanation of adversarial examples", "seq": 7, "sha256": "6e4aef2c5d7be8424ae3cfa6cc05700f0c464676410b0d339d37959171094e88"}
+{"section": "3 The linear explanation of adversarial examples", "seq": 8, "sha256": "e8f367db3f5646370f59eaaee08d1311e652b8ff3df55796faab01159e6e5e01"}
+{"section": "4 Linear perturbation of non-linear models", "seq": 9, "sha256": "d9fbda3d44a450a6bf26a7517532e72cfe58d0149a8f7ceaaa01c83797577bcc"}
+{"section": "4 Linear perturbation of non-linear models", "seq": 10, "sha256": "467339395ccfea2c901e602d97988265d17e493a2037f3a35031982e7d09ac66"}
+{"section": "4 Linear perturbation of non-linear models", "seq": 11, "sha256": "b3aca9b8d3547cde93aaf3767cd630da89364100b7c279c370f4eec9437a1072"}
+{"section": "4 Linear perturbation of non-linear models", "seq": 12, "sha256": "2f02cbac27e1f634d309036a0838599f52528b643f4229eb3597919585cb4ebe"}
+{"section": "5 Adversarial training of linear models versus weight decay", "seq": 13, "sha256": "819897c6807ea9131abb6fd0bfcd0385d62e14a01e65f3fc1a29dad207973dd6"}
+{"section": "5 Adversarial training of linear models versus weight decay", "seq": 14, "sha256": "4cb3b20bd5cbe0f0024e6520fbdc297843a81d52b9ac4308a836045d4f8b9d36"}
+{"section": "5 Adversarial training of linear models versus weight decay", "seq": 15, "sha256": "3daf0ff9e959546f7c6eabfde04d30524fa407e428a29501ac0784797658f9ec"}
+{"section": "6 Adversarial training of deep networks", "seq": 16, "sha256": "cacd75c5383949335c50dc857157c42ded08ba26b9696494d080d7293557578d"}
+{"section": "6 Adversarial training of deep networks", "seq": 17, "sha256": "a068877d120c5717c52d10abf0595d64c78913603b59bd129681cd5cf1737009"}
+{"section": "6 Adversarial training of deep networks", "seq": 18, "sha256": "7db0aeda8432f526b39912b1ad7a06c347802ecb3bc13fbfd856e1aca191cec3"}
+{"section": "6 Adversarial training of deep networks", "seq": 19, "sha256": "846257235e283f5653a483beb85494d002c59f30a2aca231c92bdbeb0f3dda28"}
+{"section": "6 Adversarial training of deep networks", "seq": 20, "sha256": "b674fd27621412dced6286b4b72c13e6f883d5fa1c7e7817456140ead752d1b6"}
+{"section": "6 Adversarial training of deep networks", "seq": 21, "sha256": "a2ee6c9a05e39724a322583f00a25a698a43169ad9bb033b960721700b1f9bf6"}
+{"section": "6 Adversarial training of deep networks", "seq": 22, "sha256": "cbf9f1b20a1cc6273df16de4459f84452c61093ec4ac4ea2c0f0b854034f0a38"}
+{"section": "6 Adversarial training of deep networks", "seq": 23, "sha256": "102f55840bf272a280a96d035276b5fa6555d7e5683d17cef315c4c85b61a0e5"}
+{"section": "6 Adversarial training of deep networks", "seq": 24, "sha256": "9e64873dd8132455934a5f53896fea4307c647fb3f7dafd4cc7da5968522d024"}
+{"section": "6 Adversarial training of deep networks", "seq": 25, "sha256": "07ac0d3aca34bc4f41ff45416dbc4917f588383f62c24be97ca1e853bbcbbb52"}
+{"section": "7 Different kinds of model capacity", "seq": 26, "sha256": "8e14bc1e9f5d39ff68dbe031789c465822736a8c0147df502b1a33038b18beb4"}
+{"section": "7 Different kinds of model capacity", "seq": 27, "sha256": "9132a6921fdd26ecdbbb9ed9f8e5551410868869b62fecaefe5d949c4cd87240"}
+{"section": "8 Why do adversarial examples generalize?", "seq": 28, "sha256": "3878beeaeaaea5e34dac6d5d80c47dea34c1e4e4bb36754d0b8534a533cba130"}
+{"section": "8 Why do adversarial examples generalize?", "seq": 29, "sha256": "d20402544762b6c373cece0a01dfe71bd6ac92a0d5cc7b064073ec684b68bcbc"}
+{"section": "8 Why do adversarial examples generalize?", "seq": 30, "sha256": "ec51632c35440af24b0b752bcf3af0339d31cd1fce0a8d0bf9cff94d67b34101"}
+{"section": "8 Why do adversarial examples generalize?", "seq": 31, "sha256": "79842a470bab5b29fbb12f0fe1b5723d4881ab3f3dbe40b01cf99f361940a360"}
+{"section": "8 Why do adversarial examples generalize?", "seq": 32, "sha256": "e2a74ee02cfa94a183690b210bd354d5a49ecd1b9da3b264cf8e3517f2363c96"}
+{"section": "9 Alternative hypotheses", "seq": 33, "sha256": "b14dfd1b602879a5898a90bd8a9a3170e816fef06a639d852c4a09f655a133dd"}
+{"section": "9 Alternative hypotheses", "seq": 34, "sha256": "395beda836e030716c54fb1da14f6c0c7d10dd0840afe738600d2c8a78c1c4c4"}
+{"section": "10 Summary and discussion", "seq": 35, "sha256": "75346af765a9a3f4d7fa67376ff6491de791f7c549aeb2aaefa1874669cb8d0b"}
+{"section": "10 Summary and discussion", "seq": 36, "sha256": "df73571fbebe54e4f04d485ee52c3d5897ccd1c2fa52b730e3b37965631dbc12"}
+{"section": "10 Summary and discussion", "seq": 37, "sha256": "4dbafdf8d3c2fa8e386c6b23b8edddd889ff9b98e6f3903ccd9a84d316451be1"}
+{"section": "10 Summary and discussion", "seq": 38, "sha256": "b3d14d886e83912e8507cf1a699079d7fcb8d80af515e0e131ac3b402a4de1f3"}
+{"section": "Acknowledgments", "seq": 39, "sha256": "c027a3244fcb4a5353969084c5bc3e222eae48f028bc71510411d4ef698aa4d5"}
+{"section": "References", "seq": 40, "sha256": "f0c5f0896e43202724f2efb54d1aa43fe0135cb3d941be5396d6b3118df6295d"}
+{"section": "References", "seq": 41, "sha256": "c703d8c87a4bf0316c64dae5d1c1b42e7548f24e5a5ad2c19bc7829d45bc0415"}
+{"section": "References", "seq": 42, "sha256": "8bd69aaf55df3ba60f0703428bc70abe2ad738e3ea0863e318f910094ba3063d"}
+{"section": "References", "seq": 43, "sha256": "91187e46ad99053903861cf2b4c856c8b98730ef8d440bd1ff70b845b9faecef"}
+{"section": "References", "seq": 44, "sha256": "63a3e3945186ca4a51a61bc7a0f081a8a85e5c19b3b101ec9f34b5db9ed89fd9"}
+{"section": "Appendix A Rubbish class examples", "seq": 45, "sha256": "7909dfb01eae7d91e17d889babd616bfd1472babbbcbc32d73b7164877a077cb"}
+{"section": "Appendix A Rubbish class examples", "seq": 46, "sha256": "2fa080f5e3705318afc6b8a726b3a361d720ba1445b959708bfe2ea79d6a704c"}
+{"section": "Appendix A Rubbish class examples", "seq": 47, "sha256": "e54be9136c4b3d34ebacf41e4fb31f1c724c5272f9f48d3f8cb193a11aa14731"}
+{"section": "Appendix A Rubbish class examples", "seq": 48, "sha256": "ab8c0b1e951d62aab4eb47a4c1b55560ae539d2640797b9395908622ee823905"}
+{"section": "Appendix A Rubbish class examples", "seq": 49, "sha256": "fc74eaed509cd28bac64999028b9a417e78fa104f5d76f2c79a2f9668a1438af"}
+{"section": "Appendix A Rubbish class examples", "seq": 50, "sha256": "ecfe88985b19618b5e37bebbd4e991940445cba003b2e1e65c50ff547df269a8"}
+{"section": "Appendix A Rubbish class examples", "seq": 51, "sha256": "056ab184a8279ae53edc6d675e94ff4675d217e818022bf336214cee14bf0c6d"}

@@ -1,0 +1,11 @@
+CoRR, abs/2102.04664, 2021. Maniatis et al. (2023)
+
+Petros Maniatis, Daniel Tarlow, and Google DeepMind. Large sequence models for software development activities, 2023. URL https://blog.research.google/2023/05/large-sequence-models-for-software.html. Martínez-Plumed et al. (2021)
+
+Fernando Martínez-Plumed, Pablo Barredo, Seán Ó hÉigeartaigh, and José Hernández-Orallo. Research community dynamics behind popular ai benchmarks. Nature Machine Intelligence, 3:581 – 589, 2021. URL https://api.semanticscholar.org/CorpusID:236610014. Monperrus (2018)
+
+Martin Monperrus. Automatic software repair. ACM Computing Surveys, 51(1):1–24, jan 2018. doi: 10.1145/3105906. URL https://doi.org/10.1145%2F3105906. Motwani & Brun (2023)
+
+Manish Motwani and Yuriy Brun. Better automatic program repair by using bug reports and tests together, 2023. Muennighoff et al. (2023)
+
+Niklas Muennighoff, Qian Liu, Armel Zebaze, Qinkai Zheng, Binyuan Hui, Terry Yue Zhuo, Swayam Singh, Xiangru Tang, Leandro von Werra, and Shayne Longpre. Octopack: Instruction tuning code large language models, 2023. Orlanski et al.

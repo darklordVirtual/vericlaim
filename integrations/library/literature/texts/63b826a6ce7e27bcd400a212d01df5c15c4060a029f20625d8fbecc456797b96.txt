@@ -1,0 +1,5 @@
+The overall objective maximizes the surrogate of with a KL constraint. Let denote the token probability ratio between and , and denote . The objective is defined as:
+
+(3)
+
+where and are the clipping hyperparameter and the coefficient controlling the KL regularization.

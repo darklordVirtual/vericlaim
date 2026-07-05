@@ -1,0 +1,21 @@
+2021. Webgpt: Browser-assisted
+question-answering with human feedback. CoRR, abs/2112.09332. OpenAI (2020)
+
+OpenAI. 2020. Openai api. https://openai.com/blog/openai-api/. Accessed: 2021-08-19. OpenAI (2021)
+
+OpenAI. 2021. Gpt-3 powers the next generation of apps. https://openai.com/blog/gpt-3-apps/. Accessed: 2021-09-06. Ouyang et al. (2021)
+
+Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almieda, Carroll L. Wainwright, Pamela
+Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John
+Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda
+Askell, Peter Welinder, Paul Christiano, Jan Leike, and Ryan Lowe. 2021. Training language models to
+follow instructions with human feedback. CoRR, abs/2203.02155. Perez et al. (2021)
+
+Ethan Perez, Douwe Kiela, and Kyunghyun Cho. 2021. True few-shot learning with
+language models. CoRR, abs/2105.11447. Radford et al. (2019)
+
+Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+Sutskever. 2019. Language models are unsupervised multitask learners. Rae et al. (2021)
+
+Jack W. Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann,
+H.

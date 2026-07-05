@@ -1,0 +1,15 @@
+870--878, Denver, Colorado, June 2015. Association for Computational Linguistics. doi: 10.18653/v1/S15-2147. URL https://aclanthology.org/S15-2147. Poria et al. (2019)
+
+Soujanya Poria, Devamanyu Hazarika, Navonil Majumder, Gautam Naik, Erik
+Cambria, and Rada Mihalcea. MELD: A multimodal multi-party dataset for emotion recognition in
+conversations. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pp. 527--536, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1050. URL https://aclanthology.org/P19-1050. Potamias et al. (2020)
+
+Rolandos Alexandros Potamias, Georgios Siolas, and Andreas-Georgios
+Stafylopatis. A transformer-based approach to irony and sarcasm detection. Neural Computing and Applications, 32:17309--17320,
+2020. doi: 10.1007/s00521-020-05102-3. URL
+https://link.springer.com/article/10.1007/s00521-020-05102-3. Prabhumoye et al. (2021)
+
+Shrimai Prabhumoye, Rafal Kocielnik, Mohammad Shoeybi, Anima Anandkumar, and
+Bryan Catanzaro. Few-shot instruction prompts for pretrained language models to detect
+social biases, 2021. URL https://doi.org/10.48550/arXiv.2112.07868.

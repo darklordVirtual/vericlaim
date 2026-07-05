@@ -1,0 +1,11 @@
+Zelikman et al. (2022)
+
+Eric Zelikman, Yuhuai Wu, and Noah D. Goodman. 2022. STaR: Bootstrapping
+reasoning with reasoning. arXiv preprint arXiv:2203.14465. Zhao et al. (2021)
+
+Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, and Sameer Singh. 2021. Calibrate before use:
+Improving few-shot performance of language models. ICML. Zhou et al. (2020)
+
+Wangchunshu Zhou, Jinyi Hu, Hanlin Zhang, Xiaodan Liang, Maosong Sun, Chenyan
+Xiong, and Jian Tang. 2020. Towards interpretable natural language understanding with explanations as
+latent variables. NeurIPS.

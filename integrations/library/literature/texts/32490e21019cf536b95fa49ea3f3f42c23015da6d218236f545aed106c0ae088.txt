@@ -1,0 +1,15 @@
+2545--2568, Online, June 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.201. URL https://aclanthology.org/2021.naacl-main.201. Heim (1983)
+
+Irene Heim. On the projection problem for presuppositions. In Paul Portner and Barbara H. Partee (eds.), Formal Semantics
+- The Essential Readings, pp. 249--260. Blackwell, Oxford, 1983. Henaff et al. (2016)
+
+Mikael Henaff, Jason Weston, Arthur Szlam, Antoine Bordes, and Yann LeCun. Tracking the world state with recurrent entity networks, 2016. URL https://arxiv.org/abs/1612.03969. Hendricks et al. (2018)
+
+Lisa Anne Hendricks, Kaylee Burns, Kate Saenko, Trevor Darrell, and Anna
+Rohrbach. Women also snowboard: Overcoming bias in captioning models. In Proceedings of the European Conference on Computer Vision
+(ECCV), pp. 771--787, Cham, 2018. Springer. URL
+https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Lisa_Anne_Hendricks_Women_also_Snowboard_ECCV_2018_paper.pdf. Hendrycks & Gimpel (2017)
+
+Dan Hendrycks and Kevin Gimpel. A baseline for detecting misclassified and out-of-distribution
+examples in neural networks. In International Conference on Learning Representations, 2017.

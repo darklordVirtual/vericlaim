@@ -1,0 +1,9 @@
+We show 8 random problems from HumanEval along with 8 random samples per problem generated from Codex-12B at temperature 0.8. ⬇
+
+def words_string(s):
+
+"""
+
+␣␣␣␣You␣will␣be␣given␣a␣string␣of␣words␣separated␣by␣commas␣or␣spaces.␣Your␣task␣is
+
+␣␣␣␣to␣split␣the␣string␣into␣words␣and␣return␣an␣array␣of␣the␣words.

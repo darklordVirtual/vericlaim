@@ -1,0 +1,59 @@
+We further investigated the applicability of trial-and-error problem-solving with
+models of various strengths. We found that the ability to specify self-corrections
+is an emergent quality of stronger, larger models. Approach
+Pass@1 accuracy (avg over 8 trials)
+Pass@1 accuracy (std)
+
+Baseline
+
+0.26
+
+0.00481
+
+Reflexion
+
+0.26
+
+0.00305
+
+Table 4: Pass@1 accuracy on HumanEval Python using starchat-beta (Li et al.,, 2023). Model
+Baseline accuracy
+Reflexion accuracy
+
+CoT (GT) + text-davinci-003
+
+0.60
+
+0.77
+
+CoT (GT) + gpt-3.5-turbo
+
+0.57
+
+0.71
+
+CoT (GT) + gpt-4
+
+0.68
+
+0.80
+
+ReAct + text-davinci-003
+
+0.30
+
+0.55
+
+ReAct + gpt-3.5-turbo
+
+0.26
+
+0.38
+
+ReAct + gpt-4
+
+0.39
+
+0.51
+
+Table 5: Pass@1 accuracy on 100 HotPotQA using various models.

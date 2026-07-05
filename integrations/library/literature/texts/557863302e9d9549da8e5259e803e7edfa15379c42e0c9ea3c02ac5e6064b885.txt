@@ -1,0 +1,6 @@
+With verification, prevents mistakes during the release process, such as
+building from a commit that is not present in the upstream repo. Aids organizations in creating an inventory of software and build platforms
+used across a variety of teams. Notes
+
+Provenance may be incomplete and/or unsigned at L1. Higher levels require
+more complete and trustworthy provenance.

@@ -1,0 +1,6 @@
+This definition allows us to define memorization as a spectrum. While there is no definitive value of at which we might say that memorization
+is unintentional and potentially harmful, smaller values are more likely to be so. For any given , memorizing longer strings is also “worse” than shorter strings, although our definition omits this distinction for simplicity. For example, under this definition, memorizing the correct spellings of
+one particular word is not severe if the word occurs in many training examples (i.e., is large). Memorizing the zip code of a particular city might be eidetic memorization, depending on
+whether the city was mentioned in many training examples (e.g., webpages) or just a few. Referring back to Figure 1,
+memorizing an individual person’s name and phone number clearly (informally) violates privacy expectations,
+and also satisfies our formal definition: it is contained in just a few documents on the Internet—and hence the training data.

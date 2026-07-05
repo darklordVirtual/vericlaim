@@ -1,0 +1,7 @@
+There are many ways to define memorization in language modeling. As mentioned earlier, memorization is in many ways an essential component of language models
+because the training objective is to assign high overall likelihood to the training dataset. LMs must, for example, “memorize” the correct spelling of individual words. Indeed, there is a research direction that analyzes neural networks
+as repositories of (memorized) knowledge [51, 59]. For example, when GPT-2 is prompted to complete the sentence
+“My address is 1 Main Street, San Francisco CA”, it generates “94107”:
+a correct zip code for San Francisco, CA. While this is clearly memorization in some abstract form,we aim to formalize our definition of memorization in order to restrict it to cases that we might consider “unintended” [8]. 3.1.1 \titlecapeidetic memorization of Text
+
+We define eidetic memorization as a particular type of memorization.333Eidetic memory (more commonly called photographic memory) is the ability to recall information after seeing it only once. Informally, eidetic memorization is data that has been memorized by a model despite only appearing in a small set of training instances.

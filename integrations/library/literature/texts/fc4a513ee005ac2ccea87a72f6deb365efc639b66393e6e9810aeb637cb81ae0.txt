@@ -1,0 +1,16 @@
+Inner monologue: Embodied reasoning through planning with language
+models. arXiv preprint arXiv:2207.05608, 2022b. Karamcheti et al. (2021)
+
+Siddharth Karamcheti, Megha Srivastava, Percy Liang, and Dorsa Sadigh. Lila: Language-informed latent actions. In CoRL, pp. 1379–1390, 2021. URL https://proceedings.mlr.press/v164/karamcheti22a.html. Kojima et al. (2022)
+
+Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke
+Iwasawa. Large language models are zero-shot reasoners. arXiv preprint arXiv:2205.11916, 2022. Lazaridou et al. (2022)
+
+Angeliki Lazaridou, Elena Gribovskaya, Wojciech Stokowiec, and Nikolai
+Grigorev. Internet-augmented language models through few-shot prompting for
+open-domain question answering. arXiv preprint arXiv:2203.05115, 2022. Lewis et al. (2020)
+
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim
+Rocktäschel, et al. Retrieval-augmented generation for knowledge-intensive nlp tasks. Advances in Neural Information Processing Systems,
+33:9459–9474, 2020. Li et al.

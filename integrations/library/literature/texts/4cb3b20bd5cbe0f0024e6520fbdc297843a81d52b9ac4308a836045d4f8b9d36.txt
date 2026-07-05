@@ -1,0 +1,12 @@
+This is not guaranteed to happen—in
+the underfitting regime, adversarial training will simply worsen underfitting. We can thus view weight decay as being more “worst case” than adversarial training, because
+it fails to deactivate in the case of good margin. If we move beyond logistic regression to multiclass softmax regression, weight decay becomes
+even more pessimistic, because it treats each of the softmax’s outputs as independently perturbable,
+when in fact it is usually not possible to find a single that aligns with all of the class’s
+weight vectors. Weight decay overestimates the damage achievable with perturbation even more in the
+case of a deep network with multiple hidden units. Because weight decay overestimates the
+amount of damage an adversary can do, it is necessary to use a smaller weight decay coefficient than the
+associated with the precision of our features. When training maxout networks on MNIST, we obtained good results using
+adversarial training with . When applying weight decay to the first layer, we found that even a coefficient of
+.0025 was too large, and caused the model to get stuck with over 5% error on
+the training set.

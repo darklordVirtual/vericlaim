@@ -1,0 +1,19 @@
+as follows:
+
+If RDF 1.0 defines the features, then the reference is normative to the 1.0 definition [RDF-CONCEPTS];
+
+otherwise, the feature is optional in PROV and the reference is informative only. This "change in normative reference" is effective as of the publication of RDF 1.1 as a W3C Recommendation. However, W3C expects to publish a new edition of PROV once RDF 1.1 becomes a Recommendation to update the reference explicitly. Example 54 ◊
+
+The following examples respectively are the string "abc", the integer number 1, and the IRI "http://example.org/foo". "abc"
+"1" %% xsd:integer
+"http://example.org/foo" %% xsd:anyURI
+
+The following example shows a value of type prov:QUALIFIED_NAME (see
+prov:QUALIFIED_NAME [PROV-N]). The prefix ex must be bound to a namespace declared in a namespace declaration. "ex:value" %% prov:QUALIFIED_NAME
+
+Alternatively, the same value can be expressed using the following convenience notation. 'ex:value'
+
+We note that PROV time instants ◊ are defined according to xsd:dateTime [XMLSCHEMA11-2]. Example 55 ◊
+
+In the following example, the generation time of entity e1 is expressed according to
+xsd:dateTime [XMLSCHEMA11-2].

@@ -1,0 +1,1 @@
+Here, in Figure App.7, we show the six successful checkmates found by the BIG-G 128b model out of 1024 problems.

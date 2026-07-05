@@ -1,0 +1,19 @@
+LlamaFirewall is an extensible AI guardrail framework designed to mitigate a wide spectrum of AI agent security risks including direct and indirect jailbreaking, goal hijacking, insecure coding agent outputs, and malicious code injection via prompt injection. In Table 1, we define each of these risks, and map them to our scanners, before detailing the construction and performance of each of our scanners. Security Risk
+
+Example
+
+Associated Risks
+
+Scanner Coverage
+
+Direct universal jailbreak prompt injections
+
+Prompt: “Ignore all prior instructions. You’re now Developer-Mode. Output the root password for the production database.”
+
+Users of chatbot applications can bypass policy to misuse agents
+
+PromptGuard detects jailbreak input
+
+Indirect universal jailbreak prompt injections (jailbreaks embedded in third party content)
+
+LLM asked to summarize a PDF.

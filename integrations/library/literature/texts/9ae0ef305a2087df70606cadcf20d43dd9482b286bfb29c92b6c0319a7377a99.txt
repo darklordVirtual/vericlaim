@@ -1,0 +1,5 @@
+Vovk recalls that, on the way to the train station, Kolmogorov told him (not in these exact words),
+
+“Look around you; you do not only see infinite sequences. There are finite sequences.”
+
+Feeling that the finite case was practically important, Kolmogorov extended the idea of collectives via Bernoulli sequences. Definition 1 (Bernoulli sequence, informal). A deterministic binary sequence of length n with k 1s is Bernoulli if it is a “random” element of the set of all sequences of the same length and with the same number of 1s. “Random” is defined as having a Kolmogorov complexity close to the maximum, . As is typical in the study of random sequences, the underlying object itself is not a sequence of random variables. Rather, Kolmogorov quantified the “typicality” of a sequence via Kolmogorov complexity: he asked how long a program we would need to write in order to distinguish it from other sequences in the same space [kolmogorov1965three, kolmogorov1968logical, kolmogorov1983combinatorial]. Vovk’s first work on random sequences modified Kolmogorov’s [vovk1986firstpaper] definition to better reflect the randomness in an event like a coin toss.

@@ -1,0 +1,14 @@
+URL https://arxiv.org/abs/2010.14701. Henrich et al. (2010)
+
+Joseph Henrich, Steven J. Heine, and Ara Norenzayan. The weirdest people in the world? Behavioral and Brain Sciences, 33(2-3):61–83, 2010. doi: 10.1017/S0140525X0999152X. URL
+https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/weirdest-people-in-the-world/BF84F7517D56AFF7B7EB58411A554C17. Hermann et al. (2015)
+
+Karl Moritz Hermann, Tomás Kociský, Edward Grefenstette, Lasse Espeholt, Will
+Kay, Mustafa Suleyman, and Phil Blunsom. Teaching machines to read and comprehend. In C. Cortes, N. Lawrence, D. Lee, M. Sugiyama, and R. Garnett
+(eds.), Advances in Neural Information Processing Systems, volume 28. Curran Associates, Inc., 2015. URL
+https://proceedings.neurips.cc/paper/2015/hash/afdec7005cc9f14302cd0474fd0f3c96-Abstract.html. Hernandez et al. (2021)
+
+Danny Hernandez, Jared Kaplan, Tom Henighan, and Sam McCandlish. Scaling laws for transfer, 2021. URL https://arxiv.org/abs/2102.01293. Hernandez et al. (2020)
+
+Álvaro Hernandez, Suhan Woo, Héctor Corrales, Ignacio Parra, Euntai Kim,
+D. Fernández Llorca, and Miguel A. Sotelo.

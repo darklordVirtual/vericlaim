@@ -1,0 +1,8 @@
+Given a set of samples from the model, the problem of training data extraction reduces to one of membership
+inference: predict whether each sample was present in the training data [65]. In their most basic form, past membership inference attacks rely on the observation that models tend to assign higher confidence to examples that are present in the training data [46]. Therefore, a potentially high-precision membership inference classifier is to simply choose examples that are assigned the highest likelihood by the model. Since LMs are probabilistic generative models, we follow prior
+work [8] and use a natural likelihood measure:
+the perplexity of a sequence measures how
+well the LM “predicts” the tokens in that sequence. Concretely, given a sequence of tokens , the perplexity is defined as
+
+That is, if the perplexity is low, then the model is not very “surprised” by the sequence and has assigned on average a high
+probability to each subsequent token in the sequence.

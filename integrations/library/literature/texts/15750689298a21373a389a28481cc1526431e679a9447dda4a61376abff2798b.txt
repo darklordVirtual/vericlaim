@@ -1,0 +1,5 @@
+We begin our study of extraction attacks by focusing on prediction APIs that return confidence values. As per Section 2, the output
+of a query to thus falls in a range where
+is the number of classes. To motivate this, we recall that most ML APIs reveal confidence values for
+models that support them (see Table 2). This includes logistic regressions (LR), neural networks, and decision trees, defined formally in Appendix A. We first introduce a generic equation-solving
+attack that applies to all logistic models (LR and neural networks). In Section 4.2, we present two novel path-finding attacks on decision trees.

@@ -1,0 +1,13 @@
+in the case in which the model
+generates a flaky test suite, it is possible that all tests pass on an incorrect
+solution and lead to a false positive label on a code completion (Lam et al.,, 2020). On the other hand, if the model produces an incorrectly written test suite, it is
+possible for some of the tests to fail on a correct solution, leading to a
+self-reflection generation that is conditioned on a false negative code completion. Given the implementation of Reflexion, false negatives are preferred over false
+positives as the agent may be able to use self-reflection to identify the incorrect
+test(s) and prompt itself to keep the original code completion intact. On the other
+hand, if an invalid test suite returns a false positive completion (all internal
+test cases pass but the implementation is incorrect), the agent will prematurely
+report an invalid submission. In 2, various conditions
+are measured to analyze performance beyond pass@1 accuracy. Previously, we
+displayed the inferior performance of Reflexion to the baseline GPT-4 on MBPP
+Python.

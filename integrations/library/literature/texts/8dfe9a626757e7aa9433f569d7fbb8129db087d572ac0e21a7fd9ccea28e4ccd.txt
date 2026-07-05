@@ -1,0 +1,13 @@
+Bradley-Terry (BT) [5] model being a popular choice (although more general Plackett-Luce ranking models [32, 23] are also compatible with the framework if we have access to several ranked answers). The BT model stipulates that the human preference distribution can be written as:
+
+(1)
+
+Assuming access to a static dataset of comparisons sampled from , we can parametrize a reward model and estimate the parameters via maximum likelihood. Framing the problem as a binary classification we have the negative log-likelihood loss:
+
+(2)
+
+where is the logistic function. In the context of LMs, the network is often initialized from the SFT model with the addition of a linear layer on top of the final transformer layer that produces a single scalar prediction for the reward value [51]. To ensure a reward function with lower variance, prior works normalize the rewards, such that for all . RL Fine-Tuning Phase: During the RL phase, the learned reward function is used to provide feedback to the language model. Following prior works [17, 18], the optimization is formulated as
+
+(3)
+
+where is a parameter controlling the deviation from the base reference policy , namely the initial SFT model .

@@ -1,0 +1,8 @@
+on a scale with respect to the Oracle policy (), a system that only gets true positives and true negatives, and the Anti-Oracle policy (), a system that only gets false positives and false negatives. Since the Oracle policy should get the highest possible utility and the Anti-Oracle policy get the lowest possible utility, we normalize the utility of an estimator accordingly:
+, approaching 0 as gets closer to the policy and approaching 1 as gets closer to the policy. For a confidence estimator , euro is:
+
+(5)
+
+Area under the euro curve
+
+Since euro is parametrized by , each value is a setting for the net utility of correctly abstaining from trusting an incorrect candidate. We can compute the euro for each of these, which traces a curve. To compare confidence estimators across all possible settings, we summarize euro by taking the area under this curve and term this auc-euro. Since euro () , . 666AUC metrics are used widely in science (e.g., Wagner1977BioavailabilityAM; geifman2019biasreduceduncertaintyestimationdeep; subramani-etal-2025-simba).

@@ -1,0 +1,15 @@
+(C) having the option to enhance will lead to fewer instances of people who require the assistance of others. (D) all of the above
+
+Figure 56: A Moral Disputes example. For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong? Scenario 1 | I drive very fast when I’m on a racetrack. Scenario 2 | I drive very fast when I’m in the suburbs. (A) Wrong, Wrong
+(B) Wrong, Not wrong
+(C) Not wrong, Wrong
+
+(D) Not wrong, Not wrong
+
+Figure 57: A Moral Scenarios example. The formatting of this task hinders UnifiedQA performance substantially. Which of the following is the most plausible explanation for the protective effect of dietary fibre against cancer of the colon? (A) Propionic acid, formed during colonic fibre fermentation inhibits liver fatty acid synthesis
+(B) Butyric acid, formed during colonic fibre fermentation stimulates "silencing" of the SLC5A8 tumour suppressor gene
+(C) Butyric acid, formed during colonic fibre fermentation stimulates anti-oxidant defences in the colon
+
+(D) None of these options are correct
+
+Figure 58: A Nutrition example.

@@ -1,0 +1,16 @@
+Wang et al. (2019b)
+
+Jianfeng Wang, Rong Xiao, Yandong Guo, and Lei Zhang. Learning to count objects with few exemplar annotations,
+2019b. URL https://arxiv.org/abs/1905.07898. Wang et al. (2020b)
+
+Lingzhi Wang, Jing Li, Xingshan Zeng, Haisong Zhang, and Kam-Fai Wong. Continuity of topic, interaction, and query: Learning to quote in
+online conversations. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 6640--6650, Online, November
+2020b. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.538. URL https://aclanthology.org/2020.emnlp-main.538. Wang et al. (2019c)
+
+Po-Wei Wang, Priya L. Donti, Bryan Wilder, and Zico Kolter. SATNet: Bridging deep learning and logical reasoning using a
+differentiable satisfiability solver, 2019c. URL https://arxiv.org/abs/1905.12149. Wang et al. (2016)
+
+Sida I. Wang, Percy Liang, and Christopher D. Manning. Learning language games through interaction. In Proceedings of the 54th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp. 2368--2378,
+Berlin, Germany, August 2016. Association for Computational Linguistics.

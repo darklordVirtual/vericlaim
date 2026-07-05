@@ -1,0 +1,196 @@
+The following table contains the PROV-O classes and properties, as described in [PROV-O], and PROV-N productions, as described in [PROV-N] that correspond to PROV-DM concepts. Table 10 ◊: Cross-References to PROV-O and PROV-N
+
+PROV-DM
+
+PROV-O
+
+PROV-N
+
+Component
+
+Entity
+
+Entity
+
+entityExpression
+
+Component 1:
+Entities/Activities
+
+Activity
+
+Activity
+
+activityExpression
+
+Generation
+
+wasGeneratedBy, Generation
+
+generationExpression
+
+Usage
+
+used, Usage
+
+usageExpression
+
+Communication
+
+wasInformedBy, Communication
+
+communicationExpression
+
+Start
+
+wasStartedBy, Start
+
+startExpression
+
+End
+
+wasEndedBy, End
+
+endExpression
+
+Invalidation
+
+wasInvalidatedBy, Invalidation
+
+invalidationExpression
+
+Derivation
+
+wasDerivedFrom, Derivation
+
+derivationExpression
+
+Component 2:
+Derivations
+
+Revision
+
+wasRevisionOf, Revision
+
+type Revision
+
+Quotation
+
+wasQuotedFrom, Quotation
+
+type Quotation
+
+Primary Source
+
+hadPrimarySource, PrimarySource
+
+type PrimarySource
+
+Agent
+
+Agent
+
+agentExpression
+
+Component 3:
+Agents, Responsibility,
+Influence
+
+Attribution
+
+wasAttributedTo, Attribution
+
+attributionExpression
+
+Association
+
+wasAssociatedWith, Association
+
+associationExpression
+
+Delegation
+
+actedOnBehalfOf, Delegation
+
+delegationExpression
+
+Plan
+
+Plan
+
+type Plan
+
+Person
+
+Person
+
+type Person
+
+Organization
+
+Organization
+
+type Organization
+
+SoftwareAgent
+
+SoftwareAgent
+
+type SoftwareAgent
+
+Influence
+
+wasInfluencedBy, Influence
+
+influenceExpression
+
+Bundle constructor
+
+bundle description
+
+bundle
+
+Component 4:
+Bundles
+
+Bundle type
+
+Bundle
+
+type Bundle
+
+Alternate
+
+alternateOf
+
+alternateExpression
+
+Component 5:
+Alternate
+
+Specialization
+
+specializationOf
+
+specializationExpression
+
+Collection
+
+Collection
+
+type Collection
+
+Component 6:
+Collections
+
+EmptyCollection
+
+EmptyCollection
+
+type EmptyCollection
+
+Membership
+
+hadMember
+
+membershipExpression

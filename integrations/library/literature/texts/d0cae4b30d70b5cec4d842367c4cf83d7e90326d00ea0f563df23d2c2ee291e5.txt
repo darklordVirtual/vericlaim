@@ -1,0 +1,11 @@
+The successful attacks given in Sections 4 and 5 show the
+danger of revealing confidence values. While current ML services have been designed to reveal rich information,
+our attacks may suggest that returning only labels would be safer. Here we explore model extraction in a setting with no confidence scores. We will discuss further countermeasures in Section 7. We primarily focus on settings where can make direct queries to an API, i.e., queries for arbitrary inputs . We briefly discuss indirect queries in the context of linear classifiers. The Lowd-Meek attack. We start with the prior work of Lowd and
+Meek [36]. They present an attack on any linear classifier,
+assuming black-box oracle access with
+membership queries that return just the predicted class label. A linear classifier is defined by a vector and a constant , and classifies an instance as
+positive if and negative
+otherwise. SVMs with linear kernels and binary LRs are examples
+of linear classifiers. Their attack uses line searches to find
+points arbitrarily close to ’s decision boundary (points for which
+), and extracts and from these samples. This attack only works for linear binary models.

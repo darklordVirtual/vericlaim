@@ -1,0 +1,9 @@
+we find that networks with hidden units
+whose activations are unbounded simply respond by making their hidden unit activations very large, so it is
+usually better to just perturb the original input. On saturating models such as the Rust model we found that
+perturbation of the input performed comparably to perturbation of the hidden layers. Perturbations based on rotating the hidden layers solve the problem of unbounded activations growing to
+make additive perturbations smaller by comparison. We were able to succesfully train maxout networks with
+rotational perturbations of the hidden layers. However, this did not yield nearly as strong of a regularizing
+effect as additive perturbation of the input layer. Our view of adversarial training is that it is only clearly useful when the model has the capacity to
+learn to resist adversarial examples. This is only clearly the case when a universal approximator theorem
+applies.

@@ -1,0 +1,17 @@
+This finding highlights that multilingual plugin permission
+verification warrants dedicated investigation. 7.4.4. Interception vs. False Positive Trade-off
+
+A notable finding is the divergence between Qwen3.5-9B’s high
+interception rate and its elevated false positive rate
+(34.1% on Chinese, 23.7% on English). This conservatism likely reflects the model’s safety alignment:
+Qwen3.5-9B tends to block ambiguous tool calls as a precaution,
+whereas GPT-4o-mini shows better calibration between security
+and usability. In production systems, this trade-off can be addressed through
+LGA’s layered design: Layer 1 (sandbox) provides physical
+containment for false negatives, while Layer 2’s false positives
+are recoverable via human-in-the-loop escalation or cascaded
+verification. Notably, Qwen3.5-9B’s high interception rate—achieved without
+any same-source advantage over the benchmark—provides evidence that the
+interception capability is not solely an artifact
+of same-source familiarity; the elevated FPR is a calibration issue,
+not a fundamental capability limitation.

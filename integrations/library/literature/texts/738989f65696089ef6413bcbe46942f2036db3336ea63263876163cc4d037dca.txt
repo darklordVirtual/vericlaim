@@ -1,0 +1,10 @@
+sets that bound the miscoverage,
+
+(1)
+
+where is a new test point, is a user-specified error rate (e.g., 10%), and is a function of the model and calibration data that outputs a prediction set. Note that is formed using the first data points, and the probability in (1) is over the randomness in all data points (i.e., the draw of both the calibration and test points). In this work, we extend conformal prediction to prediction tasks where the natural notion of error is not simply miscoverage. In particular,
+our main result is that a generalization of conformal prediction provides guarantees of the form
+
+(2)
+
+for any bounded loss function that shrinks as grows. We call this a conformal risk control guarantee. Note that (2) recovers the conformal miscoverage guarantee in (1) when using the miscoverage loss, . However, our algorithm also extends conformal prediction to situations where other loss functions, such as the false negative rate (FNR) or F1-score, are more appropriate. As an example, consider multilabel classification, where the are sets comprising a subset of classes.

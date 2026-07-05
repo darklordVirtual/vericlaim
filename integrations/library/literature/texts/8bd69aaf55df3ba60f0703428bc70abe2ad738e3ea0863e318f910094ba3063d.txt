@@ -1,0 +1,17 @@
+Maxout networks. In Dasgupta, Sanjoy and McAllester, David (eds.), International
+Conference on Machine Learning, pp. 1319–1327, 2013c. Gu & Rigazio (2014)
+
+Gu, Shixiang and Rigazio, Luca. Towards deep neural network architectures robust to adversarial
+examples. In NIPS Workshop on Deep Learning and Representation Learning,
+2014. Hochreiter & Schmidhuber (1997)
+
+Hochreiter, S. and Schmidhuber, J. Long short-term memory. Neural Computation, 9(8):1735–1780, 1997. Hornik et al. (1989)
+
+Hornik, Kurt, Stinchcombe, Maxwell, and White, Halbert. Multilayer feedforward networks are universal approximators. Neural Networks, 2:359–366, 1989. Jarrett et al. (2009)
+
+Jarrett, Kevin, Kavukcuoglu, Koray, Ranzato, Marc’Aurelio, and LeCun, Yann. What is the best multi-stage architecture for object recognition? In Proc. International Conference on Computer Vision
+(ICCV’09), pp. 2146–2153. IEEE, 2009. Krizhevsky & Hinton (2009)
+
+Krizhevsky, Alex and Hinton, Geoffrey. Learning multiple layers of features from tiny images. Technical report, University of Toronto, 2009. Nguyen et al. (2014)
+
+Nguyen, A., Yosinski, J., and Clune, J.

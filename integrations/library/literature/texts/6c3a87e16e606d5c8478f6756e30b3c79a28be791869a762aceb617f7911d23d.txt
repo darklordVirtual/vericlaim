@@ -1,0 +1,10 @@
+This specification defines PROV-DM, a data model that allows
+descriptions of the people, institutions, entities, and activities,
+involved in producing, influencing, or delivering a piece of data or a
+thing to be expressed. However, with this data model, it is also possible to compose
+descriptions that would not make sense: for instance, one could
+express that an entity was used before it was generated, or that the
+activity that generated an entity started after the entity
+generation. A set of constraints have been defined for PROV and
+can be found in a companion specification [PROV-CONSTRAINTS]. They SHOULD be used by developers to compose provenance descriptions that are valid, and
+by implementers of reasoning engines aiming to check whether provenance descriptions have problems. The example of section 3 contains identifiers such as tr:WD-prov-dm-20111215, which denotes a specific version of a technical report. On the other hand, an IRI such as http://www.w3.org/TR/prov-dm/ denotes the latest version of a document. One needs to ensure that provenance descriptions for the latter resource remain valid as the resource state changes.

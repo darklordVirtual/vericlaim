@@ -1,0 +1,6 @@
+In classification problems, we might similarly ask for coverage on every ground truth class. For example, if we had a medical classifier assigning inputs to class normal or class cancer, we might ask that the prediction sets are 95% accurate both when the ground truth is class cancer and also when the ground truth is class normal. Formally, we return to the classification setting, where . We seek to achieve class-balanced coverage,
+
+(23)
+
+for all classes . To achieve class-balanced coverage, we will calibrate within each class separately. The algorithm will be similar to the group-balanced coverage of Section 4.1, but we must modify it because we do not know the correct class at test time. (In contrast, in Section 4.1, we observed the group information as an input feature.)
+See the visualization below.

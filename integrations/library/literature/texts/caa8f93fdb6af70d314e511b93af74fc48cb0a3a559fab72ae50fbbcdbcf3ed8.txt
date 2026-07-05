@@ -1,0 +1,17 @@
+Not just can we see where each
+ship is, we can see where it's been. However this is a small
+gain. We could also do this by keeping a history of past ports in
+the ship object, or by writing to a log file whenever a ship
+moves. Both of these can give us an adequate history. The key to Event Sourcing is that we guarantee that all changes to the
+domain objects are initiated by the event objects. This leads to a
+number of facilities that can be built on top of the event log:
+
+Complete Rebuild: We can discard the application state
+completely and rebuild it by re-running the events from the event log
+on an empty application. Temporal Query: We can determine the application state at
+any point in time. Notionally we do this by starting with a blank
+state and rerunning the events up to a particular time or event. We
+can take this further by considering multiple time-lines (analogous to
+branching in a version control system). Event Replay: If we find a past event was incorrect, we can
+compute the consequences by reversing it and later events and then
+replaying the new event and later events.

@@ -1,0 +1,7 @@
+Here we give some more information about the data sets we used
+in this work. Refer back to Table 3 and
+Table 5. Synthetic data sets. We used 4 synthetic data sets from scikit [43]. The first two data sets are classic examples of non-linearly separable
+data, consisting of two concentric Circles, or two interleaving
+Moons. The next two synthetic data sets, Blobs and
+5-Class, consist of Gaussian clusters of points assigned to
+either or classes. Public data sets. We gathered a varied set of data sets representative of the type of data we would expect ML service users to use to train logistic and SVM based models. These include famous data sets used for supervised learning, obtained from the UCI ML repository (Adult, Iris, Breast Cancer, Mushrooms, Diabetes). We also consider the Steak and GSS data sets used in prior work on model inversion [23]. Finally, we add a data set of digits available in scikit, to visually illustrate training data leakage in kernelized logistic models (c.f. Section 4.1.3). Public data sets and models from BigML. For experiments on decision trees, we chose a varied set of models publicly available on BigML’s platform.

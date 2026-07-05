@@ -1,0 +1,13 @@
+a broad diversity of notions, including digital objects such as a file or web page,
+physical things such as a mountain, a building, a printed book, or a car as well as abstract concepts and ideas. An entity is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary. [Detailed specification]
+
+Example 1 ◊
+
+An entity may be the document at IRI http://www.bbc.co.uk/news/science-environment-17526723, a file in a file system, a car, or an idea. An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities. [Detailed specification]
+Just as entities cover a broad range of notions,
+activities can cover a broad range of
+notions:
+information processing activities
+may for example move, copy, or duplicate digital entities;
+physical activities can include
+driving a car between two locations or printing a book.

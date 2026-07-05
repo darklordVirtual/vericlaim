@@ -1,0 +1,23 @@
+We explore a variety of tools to address different shortcomings of regular LMs. The only constraints we impose on these tools is that (i) both their inputs and outputs can be represented as text sequences, and (ii) we can obtain a few demonstrations of their intended use. Concretely, we explore the following five tools: a question answering system, a Wikipedia search engine, a calculator, a calendar, and a machine translation system. Some examples of potential calls and return strings for the APIs associated with each of these tools are shown in Table 1. We briefly discuss all tools below; further details can be found in Appendix A. API Name
+
+Example Input
+
+Example Output
+
+Question Answering
+
+Where was the Knights of Columbus founded? New Haven, Connecticut
+
+Wikipedia Search
+
+Fishing Reel Types
+
+Spin fishing ¿ Spin fishing is distinguished between fly fishing and bait cast fishing by the type of rod and reel used. There are two types of reels used when spin fishing, the open faced reel and the closed faced reel. Calculator
+
+27 + 4 * 2
+
+35
+
+Calendar
+
+Today is Monday, January 30, 2023.

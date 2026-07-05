@@ -1,0 +1,8 @@
+model class, kernel
+logistic regression [58], that illustrates
+how extraction attacks can leak private training data, when a
+model’s outputs are directly computed as a function of that data. Kernel methods are commonly used to efficiently extend support vector machines (SVM) to nonlinear classifiers [14], but similar techniques can be applied to logistic regression [58]. Compared to kernel SVMs, kernel logistic regressions (KLR) have the advantage of computing class probabilities, and of naturally extending to multiclass problems. Yet, KLRs have not reached the popularity of kernel SVMs or standard LRs, and are not provided by any MLaaS provider at the time. We note that KLRs could easily be constructed in any ML library that supports both kernel functions and LR models. (a)
+
+(b)
+
+Figure 3: Training data leakage in KLR models. (a) Displays of training samples used as representers in a KLR model (top) and of extracted representers (bottom). (b) For a second model, shows the average of all representers that the model classifies as a or (top) and of extracted representers (bottom). A KLR model is a softmax model, where we replace the linear components by a mapping .

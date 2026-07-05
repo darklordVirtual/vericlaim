@@ -1,0 +1,16 @@
+Example 37 ◊
+
+In some cases, one wants to indicate a plan was followed, without having to specify which agent was involved. activity(ex:a, [ prov:type="workflow execution" ])
+wasAssociatedWith(ex:a, -, ex:wf)
+entity(ex:wf, [ prov:type='prov:Plan',
+ex:label="Workflow 1",
+ex:url="http://example.org/workflow1.bpel" %% xsd:anyURI])
+
+In this case, it is assumed that an agent exists, but it has not been specified. 5.3.4 Delegation
+
+Delegation ◊ is the assignment of authority and responsibility to an agent (by itself or by another agent) to carry out a specific activity as a delegate or representative, while the agent it acts on behalf of retains some responsibility for the outcome of the delegated work. For example, a
+student acted on behalf of his or her supervisor, who acted on behalf of the
+department chair, who acted on behalf of the university; all those
+agents are responsible in some way for the activity that took place but
+we do not say explicitly who bears responsibility and to what
+degree.

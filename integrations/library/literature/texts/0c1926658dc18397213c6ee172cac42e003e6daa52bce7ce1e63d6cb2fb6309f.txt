@@ -1,0 +1,15 @@
+1112--1122, New Orleans,
+Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-1101. URL https://aclanthology.org/N18-1101. Willinger et al. (2017)
+
+Ulrike Willinger, Andreas Hergovich, Michaela Schmoeger, Matthias Deckert,
+Susanne Stoettner, Iris Bunda, Andrea Witting, Melanie Seidler, Reinhilde
+Moser, Stefanie Kacena, David Jaeckle, Benjamin Loader, Christian Mueller,
+and Eduard Auff. Cognitive and emotional demands of black humour processing: The role
+of intelligence, aggressiveness and mood. Cognitive Processing, 18:159--167, 2017. doi: https://doi.org/10.1007/s10339-016-0789-y. URL https://doi.org/10.1007/s10339-016-0789-y. Winata et al. (2021)
+
+Genta Indra Winata, Andrea Madotto, Zhaojiang Lin, Rosanne Liu, Jason Yosinski,
+and Pascale Fung. Language models are few-shot multilingual learners. In Proceedings of the 1st Workshop on Multilingual
+Representation Learning, pp. 1--15, Punta Cana, Dominican Republic,
+November 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.mrl-1.1. URL https://aclanthology.org/2021.mrl-1.1. Winograd (1972)
+
+Terry Winograd. Understanding natural language. Cognitive Psychology, 3(1):1--191, 1972.

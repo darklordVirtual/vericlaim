@@ -1,0 +1,19 @@
+Fine Grained
+
+TreeLSTM
+
+6.71%
+
+2.09%
+
+1.65%
+
+2.61%
+
+2.56%
+
+2.98%
+
+2.39%
+
+Table 1: ECE (%) (with bins) on standard vision and NLP datasets before calibration and with various calibration methods. The number following a model’s name denotes the network depth.

@@ -1,0 +1,16 @@
+Henighan, R. Child, A. Ramesh, D. Ziegler, J. Wu, C. Winter,
+C. Hesse, M. Chen, E. Sigler, M. Litwin, S. Gray, B. Chess, J. Clark,
+C. Berner, S. McCandlish, A. Radford, I. Sutskever, and D. Amodei. Language models are few-shot learners. In H. Larochelle, M. Ranzato, R. Hadsell, M. F. Balcan, and H. Lin,
+editors, Advances in Neural Information Processing Systems, volume 33,
+pages 1877–1901. Curran Associates, Inc., 2020. URL
+https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf. Bubeck (2015)
+
+S. Bubeck. Convex Optimization: Algorithms and Complexity. Foundations and Trends in Machine Learning, 8(3-4):231–357, 2015. URL http://www.nowpublishers.com/article/Details/MAL-050. Clark et al. (2022)
+
+A. Clark, D. d. l. Casas, A. Guy, A. Mensch, M. Paganini, J. Hoffmann,
+B. Damoc, B. Hechtman, T. Cai, S. Borgeaud, G. v. d. Driessche,
+E. Rutherford, T. Hennigan, M. Johnson, K. Millican, A. Cassirer, C. Jones,
+E. Buchatskaya, D. Budden, L. Sifre, S. Osindero, O. Vinyals, J. Rae,
+E. Elsen, K. Kavukcuoglu, and K. Simonyan. Unified scaling laws for routed language models, 2022. URL https://arxiv.org/abs/2202.01169. Clark et al. (2019)
+
+C. Clark, K. Lee, M.-W.

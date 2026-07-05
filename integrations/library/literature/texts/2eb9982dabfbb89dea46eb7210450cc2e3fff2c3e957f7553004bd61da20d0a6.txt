@@ -1,0 +1,5 @@
+Identifying audit targets and scope is critical to ensuring that audits are applied to relevant parties, and conducted for the right issues. 4.1.1. Evidence Base
+
+Audit Selection
+
+Table 1 shows that a fair number of audit schemes are universal (i.e., they are mandatory for all entities subject to the jurisdiction of the regulator). When audit resources are scarce, however, it may not be possible to select all parties for an audit. In those instances, risk-based or complaint-based selection of audit targets can help to allocate attention where needed the most. Similar resource constraints prompted the development of “syndromic surveillance systems” in public health (Henning, 2004), adverse event reporting systems for pharmaceuticals (Sakaeda et al., 2013), and financial fraud complaint databases (Littwin, 2014), with the goal of providing a real-time signal about potential problems and thus focusing audit efforts. FDA’s “Adverse Event Reporting System,” for example, serves as a kind of post-marketing safety surveillance program for drugs and devices, flagging products with repeated complaints for secondary inspection.

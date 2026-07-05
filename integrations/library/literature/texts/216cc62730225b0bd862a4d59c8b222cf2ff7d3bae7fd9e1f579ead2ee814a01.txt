@@ -1,0 +1,12 @@
+Let denote an LVLM, a multimodal input consisting of an image and a textual query , a generation trajectory sampled from the policy conditioned on the multimodal input , where denotes the reasoning and the answer. Reinforcement Learning with Verifiable Rewards (RLVR; (Shao et al., 2024)) optimizes the model using a binary correctness reward:
+, where is indicator function for correctness against the ground-truth . To teach the model to verbalize their confidence alongside the answers, recent work (Damani et al., 2025) extends the trajectory to include a holistic confidence score :
+
+(1)
+
+In addition to correctness reward, it jointly optimizes accuracy and confidence calibration with an additional Brier-based calibration term (Glenn and others, 1950):
+
+(2)
+
+Optimization Objective
+
+We employ GRPO to optimize . For each query , we sample a group of outputs from the old policy . First, we calculate the composite reward for each output and the advantage by normalizing rewards within the group. The overall objective maximizes the surrogate of with a KL constraint. Let denote the token probability ratio between and , and denote .

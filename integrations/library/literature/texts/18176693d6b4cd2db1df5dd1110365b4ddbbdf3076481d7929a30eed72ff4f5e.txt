@@ -1,0 +1,17 @@
+Shi et al. (2020)
+
+Shaoyun Shi, Hanxiong Chen, Weizhi Ma, Jiaxin Mao, Min Zhang, and Yongfeng
+Zhang. Neural logic reasoning, 2020. URL https://arxiv.org/abs/2008.09514. Shing et al. (2018)
+
+Han-Chin Shing, Suraj Nair, Ayah Zirikly, Meir Friedenberg, Hal Daumé III,
+and Philip Resnik. Expert, crowdsourced, and machine assessment of suicide risk via
+online postings. In Proceedings of the Fifth Workshop on Computational
+Linguistics and Clinical Psychology: From Keyboard to Clinic, pp. 25--36,
+New Orleans, LA, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/W18-0603. URL https://aclanthology.org/W18-0603. Shoeb & de Melo (2020)
+
+Abu Awal Md Shoeb and Gerard de Melo. EmoTag1200: Understanding the association between emojis and
+emotions. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 8957--8967, Online, November
+2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.720. URL https://aclanthology.org/2020.emnlp-main.720. Shuster et al. (2021)
+
+Kurt Shuster, Spencer Poff, Moya Chen, Douwe Kiela, and Jason Weston. Retrieval augmentation reduces hallucination in conversation, 2021.

@@ -1,0 +1,13 @@
+such as publish best practices, collectively analyze particular case studies, organize workshops on emerging issues, or advocate for policies that would enable red teaming to be more effective. Doing red teaming in a more collaborative fashion, as a community of focused professionals across organizations, has several potential benefits:
+
+•
+
+Participants in such a community would gain useful, broad knowledge about the AI ecosystem, allowing them to identify common attack vectors and make periodic ecosystem-wide recommendations to organizations that are not directly participating in the core community;
+
+•
+
+Collaborative red teaming distributes the costs for such a team across AI developers, allowing those who otherwise may not have utilized a red team of similarly high quality or one at all to access its benefits (e.g., smaller organizations with less resources);
+
+•
+
+Greater collaboration could facilitate sharing of information about security-related AI incidents.292929This has a precedent from cybersecurity; MITRE’s ATT&CK is a globally accessible knowledge base of adversary tactics and techniques based on real-world observations, which serves as a foundation for development of more specific threat models and methodologies to improve cybersecurity (https://attack.mitre.org/).

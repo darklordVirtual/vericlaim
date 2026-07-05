@@ -1,0 +1,7 @@
+(a) Finetuning
+
+(b) Solution-level verifiers
+
+(c) Token-level verifiers
+
+Figure 8: 6B finetuning and verification dropout ablations. We find that both finetuning and verification strongly benefit from the use of dropout as a regularizer. Specifically, we apply residual dropout (Vaswani et al., 2017) along the residual paths of each layer in the network. We use 20% dropout for all dropout experiments, chosen based on the results of a hyperparameters sweep. We note that GPT-3 models are not pretrained with dropout. For experiments involving dropout, we therefore perform additional pretraining with dropout before subsequently finetuning the models. This mitigates the distribution shift the model experiences during finetuning. We first investigate the effect of dropout on finetuning across various training set sizes. Figure 8(a) shows that dropout leads to a significant improvement over baseline. We next investigate the effect of dropout on verifiers, considering both the solution-level and token-level variants. In Figure 8(b), we see that dropout significantly improves solution-level verifiers, mitigating the overfitting that occurs in the unregularized baseline.

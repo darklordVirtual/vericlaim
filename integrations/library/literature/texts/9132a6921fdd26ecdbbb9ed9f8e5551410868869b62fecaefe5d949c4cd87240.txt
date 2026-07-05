@@ -1,0 +1,12 @@
+However, its confidence on mistaken examples is only . Its average confidence on clean test examples is %. We can’t expect a model with such low capacity to get the right answer at all points of space,
+but it does correctly respond by reducing its confidence considerably on points it does not
+“understand.”
+
+RBF units are unfortunately not invariant to any significant transformations
+so they cannot generalize very well. We can view linear units and RBF units as different points on
+a precision-recall tradeoff curve. Linear units achieve high recall by responding to every input in
+a certain direction, but may have low precision due to responding too strongly in unfamiliar situations. RBF units achieve high precision by responding only to a specific point in space, but in doing so
+sacrifice recall. Motivated by this idea, we decided to explore a variety of models involving quadratic units,
+including deep RBF networks. We found this to be a difficult task—very model with sufficient
+quadratic inhibition to resist adversarial perturbation obtained high training set error when trained
+with SGD.

@@ -1,0 +1,27 @@
+Benchmarks such as InjecAgent (Zhan et al., 2024) and
+AgentDojo (Debenedetti et al., 2024) quantify attack success
+rates but do not propose deployable mitigations. To our knowledge, no existing work simultaneously addresses all three threat classes—prompt
+injection, RAG poisoning, and malicious skill plugins—within
+a unified governance architecture; Sect. 2 surveys the closest prior art. This paper addresses three research questions:
+
+RQ1:
+
+Can LLM-based intent verification judges reliably
+intercept execution-layer threats across all three threat
+classes, and how do they compare to lightweight NLI baselines? RQ2:
+
+What is the security–latency trade-off between local
+and cloud-based judge models, and can a cascade architecture
+reconcile the two? RQ3:
+
+Does the full four-layer LGA stack impose acceptable
+runtime overhead when deployed end-to-end? The contribution of this paper is fourfold:
+
+(1)
+
+We identify a systematic gap in existing agent defenses—they
+operate at the text-generation layer and cannot intercept
+execution-layer threats—and argue that the resulting
+governance concern motivates a shift from defect
+remediation toward system-level
+invariants (Sect. 3).

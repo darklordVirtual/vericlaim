@@ -1,0 +1,19 @@
+04,000
+
+What {day of the week, day of the month, month} {is, was} this year? 01,800
+
+How many {days, weeks, months, years} {ago was, are there until} this year? 01,200
+
+Total
+
+09,400
+
+Table 11: Templates used to create Dateset where a current_date is randomly selected. For each current_date, a random past_date and future_date is generated and used to fill each template, if relevant. The federal holidays in the United States (e.g., Thanksgiving) were used in the templates involving holidays. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

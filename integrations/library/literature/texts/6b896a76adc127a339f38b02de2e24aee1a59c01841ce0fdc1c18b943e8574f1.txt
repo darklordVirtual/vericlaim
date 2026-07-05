@@ -1,0 +1,8 @@
+After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33. Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left? A: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8. Table 21:
+Few-shot exemplars for full chain of thought prompt for AQuA. Prompt for AQuA algebraic word problems
+
+Q: John found that the average of 15 numbers is 40. If 10 is added to each number then the mean of the numbers is? Answer Choices: (a) 50 (b) 45 (c) 65 (d) 78 (e) 64
+
+A: If 10 is added to each number, then the mean of the numbers also increases by 10. So the new mean would be 50. The answer is (a). Q: If a / b = 3/4 and 8a + 5b = 22,then find the value of a. Answer Choices: (a) 1/2 (b) 3/2 (c) 5/2 (d) 4/2 (e) 7/2
+
+A: If a / b = 3/4, then b = 4a / 3. So 8a + 5(4a / 3) = 22. This simplifies to 8a + 20a / 3 = 22, which means 44a / 3 = 22. So a is equal to 3/2. The answer is (b). Q: A person is traveling at 20 km/hr and reached his destiny in 2.5 hr then find the distance?

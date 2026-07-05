@@ -1,0 +1,16 @@
+Administrative support was provided by
+Kristen Chiafullo
+and Vedant Misra. Meta-review of task submissions was performed by
+Vinay Ramasesh,
+Jascha Sohl-Dickstein,
+Guy Gur-Ari,
+Ethan Dyer,
+Anders Andreassen,
+Aitor Lewkowycz,
+Daniel Freeman,
+Jaehoon Lee,
+Vedant Misra,
+Rosanne Liu,
+Noah Fiedel,
+Gaurav Mishra,
+and Ambrose Slone. Vinay Ramsesh, Kristen Chiafullo, Guy Gur-Ari, and Jascha Sohl-Dickstein acted at various times as meta-meta reviewers, and coordinated the review process. Review of BIG-bench tasks was performed by Abhishek Rao, Adam Brown, Aditya Gupta, Adrià Garriga-Alonso, Aitor Lewkowycz, Akshat Agarwal, Alethea Power, Alicia Parrish, Allen Nie, Ambrose Slone, Anders Andreassen, Andrea Madotto, Andrew Dai, Anna Golubeva, Avia Efrat, Behnam Hedayatnia, Behnam Neyshabur, Behrooz Ghorbani, Boris Hanin, Chandan Singh, Charles Rathkopf, Colin Raffel, Daniel Freeman, Daniel Khashabi, Dar Gilboa, David Dohan, Denis Emelin, Derek Tam, Ernie Chang, Ethan Dyer, Gaurav Mishra, Genta Indra Winata, Gerard de Melo, Gregor Betz, Guy Gur-Ari, Harsh Mehta, Hongming Zhang, Igor Babuschkin, Ilan Buzzetti, Isaac Noble, Jack Geissinger, Jaehoon Lee, James B.

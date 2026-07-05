@@ -1,0 +1,104 @@
+A data owner has a model
+trained on its data and allows others to make prediction queries. An adversary uses prediction queries to extract an . Machine learning services. A number of companies have launched or
+are planning to launch cloud-based ML services. A common denominator is the
+ability of users to upload data sets, have the provider
+run training algorithms on the data, and make the resulting models generally available
+for prediction queries. Simple-to-use Web APIs handle the entire interaction. This service model lets users capitalize on their data without having to
+set up their own large-scale ML infrastructure. Details vary greatly across services. We summarize a number of them in
+Table 2 and now explain some of the salient features. Service
+
+White-box
+
+Monetize
+
+Confidence Scores
+
+Logistic Regression
+
+SVM
+
+Neural Network
+
+Decision Tree
+
+Amazon [1]
+
+✗
+
+✗
+
+✓
+
+✓
+
+✗
+
+✗
+
+✗
+
+Microsoft [38]
+
+✗
+
+✗
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+BigML [11]
+
+✓
+
+✓
+
+✓
+
+✓
+
+✗
+
+✗
+
+✓
+
+PredictionIO [44]
+
+✓
+
+✗
+
+✗
+
+✓
+
+✓
+
+✗
+
+✓
+
+Google [25]
+
+✗
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Table 2: Particularities of major MLaaS providers.

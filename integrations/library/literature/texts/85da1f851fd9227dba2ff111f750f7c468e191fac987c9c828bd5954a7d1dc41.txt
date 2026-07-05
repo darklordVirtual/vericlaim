@@ -1,0 +1,21 @@
+Train large, then compress: Rethinking model size for efficient
+training and inference of transformers. In ICML, 2020. [39]
+
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. RoBERTa: A robustly optimized BERT pretraining approach. arXiv preprint arXiv:1907.11692, 2019. [40]
+
+Yunhui Long, Vincent Bindschaedler, Lei Wang, Diyue Bu, Xiaofeng Wang, Haixu
+Tang, Carl A Gunter, and Kai Chen. Understanding membership inferences on well-generalized learning
+models. arXiv preprint arXiv:1802.04889, 2018. [41]
+
+Jean loup Gailly and Mark Adler. zlib compression library. [42]
+
+Michael McCloskey and Neal J Cohen. Catastrophic interference in connectionist networks: The sequential
+learning problem. In Psychology of learning and motivation. 1989. [43]
+
+H Brendan McMahan, Daniel Ramage, Kunal Talwar, and Li Zhang. Learning differentially private recurrent language models. In ICLR, 2018. [44]
+
+Tomas Mikolov, Martin Karafiát, Lukas Burget, Jan Cernockỳ, and Sanjeev
+Khudanpur. Recurrent neural network based language model. In Interspeech, 2010. [45]
+
+Randall Munroe. Predictive models. https://xkcd.com/2169/, 2019.

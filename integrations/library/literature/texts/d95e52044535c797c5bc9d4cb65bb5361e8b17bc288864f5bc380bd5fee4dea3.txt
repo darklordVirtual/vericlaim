@@ -1,0 +1,20 @@
+[70]
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In NIPS, 2017. [71]
+
+Kit Walsh. USPTO request for comments on intellectual property protection for
+artificial intelligence innovation – public comment by the electronic
+frontier foundation. https://www.uspto.gov/sites/default/files/documents/Electronic%20Frontier%20Foundation_RFC-84-FR-58141.PDF,
+2020. [72]
+
+Samuel Yeom, Irene Giacomelli, Matt Fredrikson, and Somesh Jha. Privacy risk in machine learning: Analyzing the connection to
+overfitting. In IEEE CSF, 2018. [73]
+
+Santiago Zanella-Béguelin, Lukas Wutschitz, Shruti Tople, Victor Rühle,
+Andrew Paverd, Olga Ohrimenko, Boris Köpf, and Marc Brockschmidt. Analyzing information leakage of updates to natural language models. In ACM CCS, 2020. [74]
+
+Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi,
+Franziska Roesner, and Yejin Choi. Defending against neural fake news. In NeurIPS, 2019. [75]
+
+Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, and Oriol Vinyals. Understanding deep learning requires rethinking generalization. ICLR, 2017.

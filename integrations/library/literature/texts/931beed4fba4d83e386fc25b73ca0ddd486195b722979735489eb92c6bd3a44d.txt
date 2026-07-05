@@ -1,0 +1,24 @@
+[1]
+
+Amazon Web Services. https://aws.amazon.com/machine-learning. Accessed Feb. 10, 2016. [2]
+
+Andrews, R., Diederich, J., and Tickle, A. Survey and critique of techniques for extracting rules from trained
+artificial neural networks. KBS 8, 6 (1995), 373–389. [3]
+
+Angluin, D. Queries and concept learning. Machine learning 2, 4 (1988), 319–342. [4]
+
+Ateniese, G., Mancini, L. V., Spognardi, A., Villani, A., Vitali, D., and
+Felici, G. Hacking smart machines with smarter ones: How to extract meaningful
+data from machine learning classifiers. IJSN 10, 3 (2015), 137–150. [5]
+
+AT&T Laboratories Cambridge. The ORL database of faces. http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html. [6]
+
+Barreno, M., Nelson, B., Sears, R., Joseph, A. D., and Tygar, J. D. Can machine learning be secure? In ASIACCS (2006), ACM, pp. 16–25. [7]
+
+Bellare, M. A technique for upper bounding the spectral norm with applications to
+learning. In COLT (1992), ACM, pp. 62–70. [8]
+
+Benedek, G. M., and Itai, A. Learnability with respect to fixed distributions. TCS 86, 2 (1991), 377–389. [9]
+
+Biggio, B., Corona, I., Maiorca, D., Nelson, B., Šrndić, N.,
+Laskov, P., Giacinto, G., and Roli, F.

@@ -62,6 +62,12 @@
     "Yoshua Bengio",
     "Markus Anderljung"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:02.333978+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2004.07213"
+  },
+  "fulltext_sha256": "9303c243acdf3424a9820e9278eb159c05abfed63dab8362724e9b66b923525a",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "verifiable-claims-2020",

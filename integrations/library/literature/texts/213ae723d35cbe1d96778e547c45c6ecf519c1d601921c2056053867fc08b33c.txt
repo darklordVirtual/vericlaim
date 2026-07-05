@@ -1,0 +1,13 @@
+Scientific Reports, 10:no. 4489, 2020. URL https://doi.org/10.1038/s41598-020-61081-4. Trask et al. (2018)
+
+Andrew Trask, Felix Hill, Scott Reed, Jack Rae, Chris Dyer, and Phil Blunsom. Neural arithmetic logic units, 2018. URL https://arxiv.org/abs/1808.00508. Tsatsaronis et al. (2009)
+
+George Tsatsaronis, Iraklis Varlamis, Michalis Vazirgiannis, and Kjetil
+Nørvåg. Omiotis: A thesaurus-based measure of text relatedness. In Wray Buntine, Marko Grobelnik, Dunja Mladenić, and John
+Shawe-Taylor (eds.), Machine Learning and Knowledge Discovery in
+Databases, pp. 742--745, Berlin, 2009. Springer. Tsatsaronis et al. (2010)
+
+George Tsatsaronis, Iraklis Varlamis, and Michalis Vazirgiannis. Text relatedness based on a word thesaurus. Journal of Artificial Intelligence Research, 37(1):1–40, Jan. 2010. doi: 10.5555/1861751.1861752. URL https://dl.acm.org/doi/10.5555/1861751.1861752. Tsvetkov et al. (2014)
+
+Yulia Tsvetkov, Leonid Boytsov, Anatole Gershman, Eric Nyberg, and Chris Dyer. Metaphor detection with cross-lingual model transfer. In Proceedings of the 52nd Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp.

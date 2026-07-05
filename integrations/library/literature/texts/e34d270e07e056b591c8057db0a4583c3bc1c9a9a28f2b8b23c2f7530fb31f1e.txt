@@ -1,0 +1,13 @@
+URL https://arxiv.org/abs/2103.15025. Xu et al. (2020a)
+
+Jing Xu, Da Ju, Margaret Li, Y-Lan Boureau, Jason Weston, and Emily Dinan. Recipes for safety in open-domain chatbots, 2020a. URL https://arxiv.org/abs/2010.07079. Xu et al. (2020b)
+
+Silei Xu, Sina Semnani, Giovanni Campagna, and Monica Lam. AutoQA: From databases to QA semantic parsers with only synthetic
+training data. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 422--434, Online, November
+2020b. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.31. URL https://aclanthology.org/2020.emnlp-main.31. Xu et al. (2018)
+
+Yang Xu, Jiawei Liu, Wei Yang, and Liusheng Huang. Incorporating latent meanings of morphological compositions to
+enhance word embeddings. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp. 1232--1242,
+Melbourne, Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/P18-1114. URL https://aclanthology.org/P18-1114. Xue et al.

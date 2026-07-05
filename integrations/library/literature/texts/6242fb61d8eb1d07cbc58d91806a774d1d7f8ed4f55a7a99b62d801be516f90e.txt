@@ -1,0 +1,5 @@
+Consider, for example, autonomous driving. Since we cannot rely on the advent of “singularity”, where AI is superhuman, we must manage with standard machine learning, which sometimes errs. But what if our deep autonomous driving network were capable of knowing that it doesn’t know how to respond in a certain situation, disengaging itself in advance and alerting the human driver (hopefully not sleeping at that time) to take over? There are plenty of other mission-critical applications that would likewise greatly benefit from effective selective prediction. The literature on the reject option is quite extensive and mainly discusses rejection mechanisms for
+various hypothesis classes and learning algorithms, such as SVM, boosting, and nearest-neighbors [8, 13, 3]. The reject option has rarely been discussed in the context of neural networks (NNs), and so far has not
+been considered for deep
+NNs (DNNs). Existing NN works consider a cost-based rejection model [2, 4], whereby the costs of misclassification and abstaining
+must be specified, and a rejection mechanism is optimized for these costs.

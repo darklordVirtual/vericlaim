@@ -1,0 +1,124 @@
+Results here are shown for LaMDA 137B, as additional queries for GPT-3 and PaLM are both limited and expensive. GSM8K
+
+SVAMP
+
+ASDiv
+
+MAWPS
+
+Standard prompting
+
+6.5 0.4
+
+29.5 0.6
+
+40.1 0.6
+
+43.2 0.9
+
+Chain of thought prompting
+
+14.3 0.4
+
+36.7 0.4
+
+46.6 0.7
+
+57.9 1.5
+
+Ablations
+
+equation only
+
+5.4 0.2
+
+35.1 0.4
+
+45.9 0.6
+
+50.1 1.0
+
+variable compute only
+
+6.4 0.3
+
+28.0 0.6
+
+39.4 0.4
+
+41.3 1.1
+
+reasoning after answer
+
+6.1 0.4
+
+30.7 0.9
+
+38.6 0.6
+
+43.6 1.0
+
+Robustness
+
+different annotator (B)
+
+15.5 0.6
+
+35.2 0.4
+
+46.5 0.4
+
+58.2 1.0
+
+different annotator (C)
+
+17.6 1.0
+
+37.5 2.0
+
+48.7 0.7
+
+60.1 2.0
+
+intentionally concise style
+
+11.1 0.3
+
+38.7 0.8
+
+48.0 0.3
+
+59.6 0.7
+
+exemplars from GSM8K ()
+
+12.6 0.6
+
+32.8 1.1
+
+44.1 0.9
+
+53.9 1.1
+
+exemplars from GSM8K ()
+
+12.7 0.5
+
+34.8 1.1
+
+46.9 0.6
+
+60.9 0.8
+
+exemplars from GSM8K ()
+
+12.6 0.7
+
+35.6 0.5
+
+44.4 2.6
+
+54.2 4.7
+
+Table 7:
+Ablation and robustness results for four datasets in commonsense and symbolic reasoning. Chain of thought generally outperforms ablations by a large amount.

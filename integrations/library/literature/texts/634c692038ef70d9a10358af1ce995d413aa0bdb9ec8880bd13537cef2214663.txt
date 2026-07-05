@@ -1,0 +1,13 @@
+We avoid these pathological cases by prompting LMs only with short prefixes. from an LM if there exists a prefix such that:
+
+We abuse notation slightly here to denote by the likelihood of an entire sequence . Since computing the most likely sequence is intractable for large , the in Definition 1 can be replaced by an appropriate sampling strategy (e.g., greedy sampling) that reflects the way in which the model generates text in practical applications. We then define eidetic memorization as follows:
+
+Definition 2 (-\titlecapeidetic memorization)
+
+A string is -eidetic memorized (for ) by an LM if
+is extractable from
+and appears in at most examples in the training data :
+
+Key to this definition is what “examples” means. For GPT-2, each webpage is used (in its entirety) as one training example. Since this definition counts the number of distinct training examples containing a given string,
+and not the total number of times the string occurs,
+a string may appear multiple times on one page while still counting as memorization. This definition allows us to define memorization as a spectrum.

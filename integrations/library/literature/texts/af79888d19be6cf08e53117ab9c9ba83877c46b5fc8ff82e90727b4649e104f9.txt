@@ -1,0 +1,7 @@
+Rule and Steven T. Piantadosi, UC Berkeley (rule, stp)@berkeley.edu, and Joshua B. Tenenbaum, MIT (jbt@mit.edu). Task cites: (Rule et al., 2020; Rule, 2020; Green et al., 1974; Shaw et al., 1975; Biermann, 1978; Green, 1981; Smith, 1984; Feser et al., 2015; Osera & Zdancewic, 2015; Polikarpova et al., 2016; Cropper et al., 2020; Graves et al., 2014; Reed & de Freitas, 2015; Joulin & Mikolov, 2015; Balog et al., 2016; Bošnjak et al., 2017; Gaunt et al., 2016; Chen et al., 2019b; Kitzelmann, 2010; Flener & Schmid, 2008; Gulwani et al., 2017a; Devlin et al., 2017; Ellis et al., 2020; Cropper & Muggleton, 2016; Piantadosi, 2020)
+
+logic_grid_puzzle: William Zhang, Ethan A. Chi, Jillian Tang, Jeremy Kim, Rhythm Garg, and Rohan Sikand, Stanford University (wxyz, ethanchi, jiltang)@cs.stanford.edu, (jk23541, rhythmg, rsikand)@stanford.edu
+
+logical_args: Shubh Pachchigar (shubhpachchigar@gmail.com)
+
+logical_deduction: James B.

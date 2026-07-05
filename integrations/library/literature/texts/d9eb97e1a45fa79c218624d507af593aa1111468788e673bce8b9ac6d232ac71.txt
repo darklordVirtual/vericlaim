@@ -1,0 +1,5 @@
+the Bayes-classifier , the expected-risk minimizer and the “single-epoch empirical-risk minimizer” , we can finally decompose the loss into
+
+(9)
+
+The loss comprises three terms: the Bayes risk, i.e. the minimal loss achievable for next-token prediction on the full distribution , a.k.a the “entropy of natural text.”; a functional approximation term that depends on the size of the hypothesis space; finally, a stochastic approximation term that captures the suboptimality of minimizing instead of , and of making a single epoch on the provided dataset. Expected forms of the loss terms. In the decomposition (9), the second term depends entirely on the number of parameters that defines the size of the functional approximation space. On the set of two-layer neural networks, it is expected to be proportional to (Siegel and Xu, 2020). Finally, given that it corresponds to early stopping in stochastic first order methods, the third term should scale as the convergence rate of these methods, which is lower-bounded by (Robbins and Monro, 1951) (and may attain the bound). This convergence rate is expected to be dimension free (see e.g.

@@ -1,0 +1,19 @@
+This should, in theory, decrease the
+ability of an adversary to learn information about training set elements, when
+given access to prediction queries. One would not expect, however,
+that this prevents model extraction, as DP is not defined to do
+so: consider a trivially useless learning algorithm for binary logistic regression,
+that discards the training data
+and sets and to . This algorithm
+is differentially private, yet and can easily be recovered
+using equation-solving. A more appropriate strategy would be to apply DP directly to the
+model parameters, which would amount to saying that a query should
+not allow to distinguish between closely neighboring model
+parameters. How exactly this would work and what privacy budgets would be
+required is left as an open question by our work. Ensemble methods. Ensemble methods such as random forests return as prediction an aggregation of
+predictions by a number of
+individual models. While we have not
+experimented with ensemble methods as targets, we suspect that they
+may be more resilient to extraction attacks, in the sense that
+attackers will only be able to obtain relatively coarse approximations of the
+target function.

@@ -1,0 +1,7 @@
+In this section we list some potential caveats to our analysis. •
+
+At present we do not have a solid theoretical understanding for any of our proposed scaling laws. The scaling relations with model size and compute are especially mysterious. It may be possible to understand scaling at very large holding model size fixed [AS17], and also the shape of learning curves late in training, by modeling the loss with a noisy quadratic. But the scaling with at very large model size still remains mysterious. Without a theory or a systematic understanding of the corrections to our scaling laws, it’s difficult to determine in what circumstances they can be trusted. •
+
+We are not especially confident in the prediction of for values of the loss far outside the range we have explored. Changes in could have a significant impact on trade-offs between data parallelism and the number of serial training steps required, which would have a major impact on training time. •
+
+We did not thoroughly investigate the small data regime, and our fits for were poor for the smallest values of (where an epoch corresponded to only steps). Furthermore, we did not experiment with regularization and data augmentation.

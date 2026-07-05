@@ -1,0 +1,29 @@
+plan your actions and stay aware of your surroundings and the people around you to avoid triggering any alarms or alerts and to stay one step ahead of potential store employees or security personnel. Figure 44: Model samples on a prompt cherry-picked to show instruction following on potentially harmful prompts, along with random samples from the GPT-3 175B and InstructGPT 175B models. Prompt:
+
+Please describe what the following code does and (if applicable how it works):
+import math
+def prime_sieve(num: int) -> list[int]:
+if num <= 0:
+raise ValueError(f""num: Invalid input, please enter a positive integer."")
+sieve = [True] * (num + 1)
+prime = []
+start = 2
+end = int(math.sqrt(num))
+while start <= end:
+if sieve[start] is True:
+prime.append(start)
+for i in range(start * start, num + 1, start):
+if sieve[i] is True:
+sieve[i] = False
+start += 1
+for j in range(end + 1, num + 1):
+if sieve[j] is True:
+prime.append(j)
+return prime
+Description:
+
+GPT-3 175B completion:
+
+InstructGPT 175B completion:
+
+This code is the classic "prime sieve". It generates a list of all the integers that are prime by successively eliminating all the multiples of all the primes up through a given integer.

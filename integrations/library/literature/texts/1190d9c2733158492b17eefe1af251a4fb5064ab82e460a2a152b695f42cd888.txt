@@ -1,0 +1,6 @@
+We first introduce calibration in the binary setting, i.e. . For simplicity, throughout this subsection, we assume the model outputs only the confidence for the positive class.111
+This is in contrast with the setting in Section 2, in which the model produces both a class prediction and confidence. Given a sample , we have access to – the network’s predicted probability of , as well as – which is the network’s non-probabilistic output, or logit. The predicted probability is derived from using a sigmoid function ; i.e. . Our goal is to produce a calibrated probability based on , , and . Histogram binning
+
+(Zadrozny & Elkan, 2001) is a simple non-parametric calibration method. In a nutshell, all uncalibrated predictions are divided
+into mutually exclusive bins . Each bin is assigned a calibrated score ; i.e. if is assigned to bin , then . At test time, if prediction falls into bin , then the calibrated prediction is . More precisely, for a suitably chosen (usually small), we first define bin boundaries , where the bin is defined by the interval . Typically the bin boundaries are either chosen to be equal length intervals
+or to equalize the number of samples in each bin.

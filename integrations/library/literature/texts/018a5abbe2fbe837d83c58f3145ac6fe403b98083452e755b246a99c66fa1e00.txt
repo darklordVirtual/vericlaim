@@ -1,0 +1,5 @@
+While self-awareness remains an illusive, hard to define concept, a rudimentary kind of self-awareness, which is
+much easier to grasp, is the ability to know what you don’t know, which can make you smarter. The subfield dealing with such capabilities
+in machine learning is called selective prediction (also known as prediction with a reject option), which has been around for 60 years [1, 5]. The main motivation for selective prediction is to reduce the error rate by abstaining from prediction
+when in doubt, while keeping coverage as high as possible. An ultimate manifestation of selective prediction is a classifier equipped with a “dial” that allows for precise control of the
+desired true error rate (which should be guaranteed with high probability), while keeping the coverage of the classifier as high as possible. Many present and future tasks performed by (deep) predictive models can be dramatically enhanced by high quality selective prediction. Consider, for example, autonomous driving. Since we cannot rely on the advent of “singularity”, where AI is superhuman, we must manage with standard machine learning, which sometimes errs.

@@ -1,0 +1,16 @@
+In general, practice good alerting hygiene, such as making alerts actionable
+and having a dashboard page. Rule #8: Know the freshness requirements of your system. How much does performance degrade if you have a model that is a day old? A week
+old? A quarter old? This information can help you to understand the priorities
+of your monitoring. If you lose significant product
+quality if the model is not updated
+for a day, it makes sense to have an engineer watching it continuously. Most ad
+serving systems have new advertisements to handle every day, and must update
+daily. For instance, if the ML model for
+Google Play Search is not updated, it can have a
+negative impact in under a month. Some models for What’s Hot in
+Google Plus have no post identifier in their model so
+they can
+export these models infrequently. Other models that have post identifiers are
+updated much more frequently. Also notice that freshness can change over time,
+especially when feature columns are added or removed from your model. Rule #9: Detect problems before exporting models. Many machine learning systems have a stage where you export the model to
+serving.

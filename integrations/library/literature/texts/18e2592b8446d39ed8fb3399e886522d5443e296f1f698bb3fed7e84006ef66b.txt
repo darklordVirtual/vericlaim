@@ -1,0 +1,13 @@
+This document has been produced by the Provenance Working Group, and its contents reflect extensive discussion within the Working Group as a whole. The editors extend special thanks to Sandro Hawke (W3C/MIT) and Ivan Herman (W3C/ERCIM), W3C contacts for the Provenance Working Group. The editors acknowledge valuable contributions from the following:
+Tom Baker,
+David Booth,
+Robert Freimuth,
+Satrajit Ghosh,
+Ralph Hodgson,
+Renato Iannella,
+Jacek Kopecky,
+James Leigh,
+Jacco van Ossenbruggen,
+Alan Ruttenberg,
+Reza Samavi, and
+Antoine Zimmermann.

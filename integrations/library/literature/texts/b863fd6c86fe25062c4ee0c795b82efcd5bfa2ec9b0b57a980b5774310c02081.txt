@@ -1,0 +1,19 @@
+Attardo (2017)
+
+Salvatore Attardo. Humor in language. In Oxford Research Encyclopedia of Linguistics. Oxford
+University Press, 2017. doi: 10.1093/acrefore/9780199384655.013.342. URL
+https://oxfordre.com/linguistics/view/10.1093/acrefore/9780199384655.001.0001/acrefore-9780199384655-e-342. Austin et al. (2021)
+
+Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski,
+David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc V. Le, and Charles
+Sutton. Program synthesis with large language models, 2021. URL https://arxiv.org/abs/2108.07732. Baayen et al. (1995)
+
+R H. Baayen, R Piepenbrock, and L Gulikers. Celex2 ldc96l14, 1995. URL https://doi.org/10.35111/gs6s-gm48. Bahri et al. (2021)
+
+Yasaman Bahri, Ethan Dyer, Jared Kaplan, Jaehoon Lee, and Utkarsh Sharma. Explaining neural scaling laws, 2021. URL https://arxiv.org/abs/2102.06701. Bakhtin et al. (2019)
+
+Anton Bakhtin, Sam Gross, Myle Ott, Yuntian Deng, Marc’Aurelio Ranzato, and
+Arthur Szlam. Real or fake? Learning to discriminate machine from human generated
+text, 2019. URL https://arxiv.org/abs/1906.03351. Balog et al. (2016)
+
+Matej Balog, Alexander L.

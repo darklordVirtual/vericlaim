@@ -1,0 +1,13 @@
+Lipton. Learning the difference that makes a difference with
+counterfactually-augmented data, 2019. URL https://arxiv.org/abs/1909.12434. Kenton et al. (2021)
+
+Zachary Kenton, Tom Everitt, Laura Weidinger, Iason Gabriel, Vladimir Mikulik,
+and Geoffrey Irving. Alignment of language agents, 2021. URL https://arxiv.org/abs/2103.14659. Keyes (2018)
+
+Os Keyes. The misgendering machines: Trans/HCI implications of automatic
+gender recognition. In Proceedings of the ACM on human-computer interaction,
+volume 2, New York, NY, USA, Nov. 2018. Association for Computing Machinery. doi: 10.1145/3274357. URL https://doi.org/10.1145/3274357. Khan et al. (2011)
+
+Faisal Khan, Bilge Mutlu, and Jerry Zhu. How do humans teach: On curriculum learning and teaching dimension. In J. Shawe-Taylor, R. Zemel, P. Bartlett, F. Pereira, and K.Q. Weinberger (eds.), Advances in Neural Information Processing Systems,
+volume 24. Curran Associates, Inc., 2011. URL
+https://proceedings.neurips.cc/paper/2011/file/f9028faec74be6ec9b852b0a542e2f39-Paper.pdf. Khashabi et al.

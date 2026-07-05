@@ -1,0 +1,10 @@
+Task cites: (Bender et al., 2021; Abid et al., 2021)
+
+boolean_expressions: Roman Novak, Google (romann@google.com). Task cites: (Habernal et al., 2018; Yu et al., 2020; Dua et al., 2019; Liu et al., 2020a; Sinha et al., 2019; Wang et al., 2019a; Steinbach & Kohut, 2002; Saxton et al., 2019; Payani & Fekri, 2019; Trask et al., 2018; Selsam et al., 2018; Allamanis et al., 2016; Evans et al., 2018; Shi et al., 2020)
+
+bridging_anaphora_resolution_barqa: Yufang Hou, IBM Research Europe, Ireland (bnuxiaofang@gmail.com); Katja Markert, Heidelberg University (markert@cl.uni-heidelberg.de); and Michael Strube, Heidelberg Institute for Theoretical Studies (michael.strube@h-its.org). Task cites: (Hou, 2020; Hou et al., 2013; Markert et al., 2012; Rajpurkar et al., 2016)
+causal_judgment: Allen Nie, Tatsu Hashimoto, and Tobias Gerstenberg, Stanford University (anie, thashim, gerstenberg)@stanford.edu. Task cites: (Gordon, 2010; Bosselut et al., 2019; Halpern, 2016; Knobe, 2003)
+
+cause_and_effect: Guy Gur-Ari, Google (guyga@google.com), and Neta Gur-Ari Krakover (krakover@gmail.com). Task cites: (Gordon, 2010)
+
+checkmate_in_one: Nitish Shirish Keskar, Salesforce (nkeskar@salesforce.com).

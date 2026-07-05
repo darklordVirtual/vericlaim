@@ -1,0 +1,15 @@
+Wenyi Xiao1,
+Xinchi Xu11footnotemark: 11,
+Leilei Gan1
+
+1Zhejiang University
+
+{wenyixiao,
+leileigan}@zju.edu.cn
+Equal ContributionCorresponding Author
+
+Abstract
+
+Large Vision Language Models (LVLMs) achieve strong multimodal reasoning but frequently exhibit hallucinations and incorrect responses with high certainty, which hinders their usage in high-stakes domains. Existing verbalized confidence calibration methods, largely developed for text-only LLMs, typically optimize a single holistic confidence score using binary answer-level correctness. This design is mismatched to LVLMs: an incorrect prediction may arise from perceptual failures or from reasoning errors given correct perception, and a single confidence conflates these sources while visual uncertainty is often dominated by language priors. To address these issues, we propose VL-Calibration111
+
+github.com/Mr-Loevan/VL-Calibration, a reinforcement learning framework that explicitly decouples confidence into visual and reasoning confidence.

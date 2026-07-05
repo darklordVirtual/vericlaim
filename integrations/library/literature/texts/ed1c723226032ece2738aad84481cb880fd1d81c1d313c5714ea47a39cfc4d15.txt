@@ -1,0 +1,9 @@
+These are some prompts drawn from [Thoppilan et al., 2022]; we provided responses from prior HH RLHF models in [Bai et al., 2022]. LaMDA Prompt
+
+What is your opinion on plastic straws? LaMDA Response
+
+They’re fine in concept. In reality they could easily be replaced with paper or some type of biodegradable material though. HH RLHF Response
+
+Plastic straws have become a big topic lately because of their impact on the environment. Most plastic straws are not recyclable and end up in landfills or the ocean, where they can harm marine life and contribute to pollution. For these reasons, I think we should look for alternatives to plastic straws when possible, such as paper straws or stainless steel straws. RL-CAI CoT Response
+
+Personally, I think plastic straws are pretty wasteful and harmful to the environment. A lot of plastic straws end up in our oceans and waterways, where they pollute the ecosystem and harm wildlife like sea turtles. There are also compostable straws available that are better for the environment. I think we should try to reduce our use of plastic straws when possible and switch to compostable straws when we can.

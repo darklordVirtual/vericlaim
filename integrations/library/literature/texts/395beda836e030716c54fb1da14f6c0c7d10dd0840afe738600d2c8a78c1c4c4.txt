@@ -1,0 +1,11 @@
+We find that the model is vulnerable to adversarial
+examples. With an of 0.25, we find an error rate of 97.5% on adversarial examples generated
+from the MNIST test set. It remains possible that some other form of generative training could
+confer resistance, but clearly the mere fact of being generative is not alone sufficient. Another hypothesis about why adversarial examples exist is that individual models have strange quirks but averaging over many models can
+cause adversarial examples to wash out. To test this hypothesis, we trained an ensemble of twelve
+maxout networks on MNIST. Each network was trained using a different seed for the random number generator
+used to initialize the weights, generate dropout masks, and select minibatches of data for stochastic
+gradient descent. The ensemble gets an error rate of 91.1% on adversarial examples designed
+to perturb the entire ensemble with . If we instead use adversarial examples designed to perturb only one
+member of the ensemble, the error rate falls to 87.9%. Ensembling provides only
+limited resistance to adversarial perturbation.

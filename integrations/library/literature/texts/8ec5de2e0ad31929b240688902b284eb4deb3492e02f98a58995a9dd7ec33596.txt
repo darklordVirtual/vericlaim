@@ -1,0 +1,16 @@
+model rather than adding new capabilities; or
+
+•
+
+We can construct some other task Y, for which we know the model needs to do X in order to solve Y, and we observe that the model is capable of Y
+
+2. We say a model is intent misaligned if it outputs B, in some case where the user would prefer it outputs A, and where the model is both:
+
+(a)
+
+capable of outputting A instead, and
+
+(b)
+
+capable of distinguishing between situations where the user wants it to do A and situations where the user wants it to do B
+111111This definition has various problems and subtleties, which this margin is too small to contain. Figure 14: When the prompt includes subtle bugs, Codex tends to produce worse code than it is capable of producing. This gap increases with model size. Including an instruction to write correct code helps a little but does not fix the problem. Even with no examples in the context, Codex produces significantly worse code than it is capable of.

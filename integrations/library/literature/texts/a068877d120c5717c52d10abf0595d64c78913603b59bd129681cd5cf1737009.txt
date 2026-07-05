@@ -1,0 +1,11 @@
+This must be
+encoded in the training procedure somehow. Szegedy et al. (2014b) showed that by training on a mixture of adversarial and clean examples, a
+neural network could be regularized somewhat. Training on adversarial examples is somewhat different from other data augmentation schemes; usually, one augments
+the data with transformations such as translations that are expected to actually occur in the
+test set. This form of data augmentation instead uses inputs that are unlikely to occur naturally
+but that expose flaws in the ways that the model conceptualizes its decision function. At the time, this procedure was never demonstrated to improve beyond dropout on a state of the art benchmark. However, this was partially because it was difficult to experiment extensively with expensive adversarial examples
+based on L-BFGS. We found that training with an adversarial objective function based on the fast gradient sign method
+was an effective regularizer:
+
+In all of our experiments, we used . Other values may work better; our initial guess
+of this hyperparameter worked well enough that we did not feel the need to explore more.

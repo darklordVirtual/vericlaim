@@ -1,0 +1,17 @@
+Association for
+Computational Linguistics. Sakaguchi et al. (2020)
+
+K. Sakaguchi, R. Le Bras, C. Bhagavatula, and Y. Choi. Winogrande: An adversarial winograd schema challenge at scale. In Proceedings of the AAAI Conference on Artificial
+Intelligence, volume 34, pages 8732–8740, 2020. Sap et al. (2019)
+
+M. Sap, H. Rashkin, D. Chen, R. LeBras, and Y. Choi. SocialIQA: Commonsense reasoning about social interactions. Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing, 2019. Shallue et al. (2018)
+
+C. J. Shallue, J. Lee, J. Antognini, J. Sohl-Dickstein, R. Frostig, and G. E. Dahl. Measuring the effects of data parallelism on neural network training. arXiv preprint arXiv:1811.03600, 2018. Siegel and Xu (2020)
+
+J. W. Siegel and J. Xu. Approximation rates for neural networks with general activation
+functions. Neural Networks, 128:313–321, Aug. 2020. URL
+https://www.sciencedirect.com/science/article/pii/S0893608020301891. Smith et al. (2022)
+
+S. Smith, M. Patwary, B. Norick, P. LeGresley, S. Rajbhandari, J. Casper,
+Z. Liu, S. Prabhumoye, G. Zerveas, V. Korthikanti, E. Zhang, R. Child, R. Y. Aminabadi, J. Bernauer, X. Song, M. Shoeybi, Y. He, M.

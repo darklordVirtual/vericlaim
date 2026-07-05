@@ -1,0 +1,1 @@
+This generalization of conformal prediction broadens its scope to new applications, as shown in Section 3. The mathematical tools developed in Section 2, Section 4, and the Appendix may be of independent technical interest, since they provide a new and more general language for studying conformal prediction along with new results about its validity.

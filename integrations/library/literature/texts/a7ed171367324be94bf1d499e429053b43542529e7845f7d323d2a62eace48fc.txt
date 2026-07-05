@@ -1,0 +1,5 @@
+methods as targets, we suspect that they
+may be more resilient to extraction attacks, in the sense that
+attackers will only be able to obtain relatively coarse approximations of the
+target function. Nevertheless, ensemble methods may still be
+vulnerable to other attacks such as model evasion [56].

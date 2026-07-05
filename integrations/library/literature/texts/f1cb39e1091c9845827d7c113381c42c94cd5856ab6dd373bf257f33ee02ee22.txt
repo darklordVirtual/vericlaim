@@ -1,0 +1,15 @@
+Rothman & Greenland (2005)
+
+Kenneth J. Rothman and Sander Greenland. Causation and causal inference in epidemiology. American Journal of Public Health, 95(S1):S144--S150, 2005. URL
+https://ajph.aphapublications.org/doi/10.2105/AJPH.2004.059204. Rozner et al. (2021)
+
+Joshua Rozner, Christopher Potts, and Kyle Mahowald. Decrypting cryptic crosswords: Semantically complex wordplay puzzles
+as a target for NLP, 2021. URL https://arxiv.org/abs/2104.08620. Ruder et al. (2021)
+
+Sebastian Ruder, Noah Constant, Jan Botha, Aditya Siddhant, Orhan Firat, Jinlan
+Fu, Pengfei Liu, Junjie Hu, Dan Garrette, Graham Neubig, and Melvin Johnson. XTREME-R: Towards more challenging and nuanced multilingual
+evaluation. In Proceedings of the 2021 Conference on Empirical Methods in
+Natural Language Processing, pp. 10215--10245, Online and Punta Cana,
+Dominican Republic, November 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.emnlp-main.802. URL https://aclanthology.org/2021.emnlp-main.802. Rudinger et al. (2018)
+
+Rachel Rudinger, Jason Naradowsky, Brian Leonard, and Benjamin Van Durme. Gender bias in coreference resolution.

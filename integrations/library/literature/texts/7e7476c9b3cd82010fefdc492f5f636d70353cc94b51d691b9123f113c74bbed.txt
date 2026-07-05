@@ -1,0 +1,15 @@
+In Proceedings of the Sixth Workshop on Computational
+Linguistics and Clinical Psychology, pp. 39--44, Minneapolis, Minnesota,
+June 2019. Association for Computational Linguistics. doi: 10.18653/v1/W19-3005. URL https://aclanthology.org/W19-3005. May et al. (2019)
+
+Chandler May, Alex Wang, Shikha Bordia, Samuel R. Bowman, and Rachel Rudinger. On measuring social biases in sentence encoders. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 622--628, Minneapolis,
+Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1063. URL https://aclanthology.org/N19-1063. Mayne (2020)
+
+Andrew Mayne. OpenAI API alchemy: Emoji storytelling. Andrew Mayne blog, 24 June 2020. URL
+https://andrewmayneblog.wordpress.com/2020/06/24/open-ai-alchemy-emoji-storytelling/. Maynez et al. (2020)
+
+Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. On faithfulness and factuality in abstractive summarization, 2020. URL https://arxiv.org/abs/2005.00661. Mays et al. (1991)
+
+Eric Mays, Fred J. Damerau, and Robert L. Mercer.

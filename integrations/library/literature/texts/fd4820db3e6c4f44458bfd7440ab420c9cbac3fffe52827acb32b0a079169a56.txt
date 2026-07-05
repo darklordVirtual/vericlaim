@@ -1,0 +1,12 @@
+LlamaFirewall: An open source guardrail system for building secure AI agents
+
+\metadata
+
+[Author Legend]
+*Co-equal primary author, †Contributor
+
+\correspondenceJoshua Saxe at
+\metadata[Code]
+https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall
+\metadata[Blogpost]
+https://ai.meta.com/blog/ai-defenders-program-llama-protection-tools/

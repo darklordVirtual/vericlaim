@@ -1,0 +1,17 @@
+In Proceedings of the 24th international conference on Machine
+learning, pages 745–750, 2007. Plackett [1975]
+
+R. L. Plackett. The analysis of permutations. Journal of the Royal Statistical Society. Series C (Applied
+Statistics), 24(2):193–202, 1975. doi: https://doi.org/10.2307/2346567. Radford et al. [2019]
+
+A. Radford, J. Wu, R. Child, D. Luan, D. Amodei, and I. Sutskever. Language models are unsupervised multitask learners, 2019. Ms., OpenAI. Ramamurthy et al. [2023]
+
+R. Ramamurthy, P. Ammanabrolu, K. Brantley, J. Hessel, R. Sifa, C. Bauckhage,
+H. Hajishirzi, and Y. Choi. Is reinforcement learning (not) for natural language processing:
+Benchmarks, baselines, and building blocks for natural language policy
+optimization. In The Eleventh International Conference on Learning
+Representations, 2023. URL https://openreview.net/forum?id=8aHzds2uUyB. Ranzato et al. [2015]
+
+M. Ranzato, S. Chopra, M. Auli, and W. Zaremba. Sequence level training with recurrent neural networks. CoRR, abs/1511.06732, 2015. Sadigh et al. [2017]
+
+D. Sadigh, A. D. Dragan, S. Sastry, and S. A. Seshia. Active preference-based learning of reward functions. In Robotics: Science and Systems (RSS), 2017.

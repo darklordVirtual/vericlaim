@@ -1,0 +1,9 @@
+Let . Given any desired risk level upper bound , define
+
+(4)
+
+When the set is empty, we define . Our proposed conformal risk control algorithm is to deploy on the forthcoming test point. Our main result is that this algorithm satisfies (3). When the are i.i.d. from a continuous distribution, the algorithm satisfies a lower bound saying it is not too conservative,
+
+(5)
+
+We show the reduction from conformal risk control to conformal prediction in Section 2.3. Furthermore, if the risk is non-monotone, then this algorithm does not control the risk; we discuss this in Section 2.4. Finally, we provide both practical examples using real-world data and several theoretical extensions of our procedure in Sections 3 and 4, respectively.

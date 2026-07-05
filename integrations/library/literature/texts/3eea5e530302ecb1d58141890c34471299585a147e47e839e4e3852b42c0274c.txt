@@ -1,0 +1,20 @@
+(2022)
+
+E. Wallace, N. Tomlin, A. Xu, K. Yang, E. Pathak, M. Ginsberg, and D. Klein. Automated crossword solving. arXiv preprint arXiv:2205.09665, 2022. Wang et al. (2023a)
+
+L. Wang, W. Xu, Y. Lan, Z. Hu, Y. Lan, R. K.-W. Lee, and E.-P. Lim. Plan-and-solve prompting: Improving zero-shot chain-of-thought
+reasoning by large language models, 2023a. Wang et al. (2022)
+
+X. Wang, J. Wei, D. Schuurmans, Q. Le, E. Chi, and D. Zhou. Self-consistency improves chain of thought reasoning in language
+models. arXiv preprint arXiv:2203.11171, 2022. Wang et al. (2023b)
+
+Z. Wang, S. Cai, A. Liu, X. Ma, and Y. Liang. Describe, explain, plan and select: Interactive planning with large
+language models enables open-world multi-task agents, 2023b. Wei et al. (2022)
+
+J. Wei, X. Wang, D. Schuurmans, M. Bosma, E. Chi, Q. Le, and D. Zhou. Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903, 2022. Xie et al. (2023)
+
+Y. Xie, K. Kawaguchi, Y. Zhao, X. Zhao, M.-Y. Kan, J. He, and Q. Xie. Decomposition enhances reasoning via self-evaluation guided decoding,
+2023. Yang et al. (2023)
+
+S. Yang, O. Nachum, Y. Du, J. Wei, P. Abbeel, and D. Schuurmans.

@@ -1,0 +1,15 @@
+Moreover, we reformat the feedback principles in a conversational manner (i.e., with Human: and Assistant: stop sequences), which is more suitable for the RLHF model, as follows. ⬇
+
+Human: Consider the following conversation between a human and an assistant:
+
+[HUMAN/ASSISTANT CONVERSATION]
+
+[PRINCIPLE FOR MULTIPLE CHOICE EVALUATION]
+
+(A) [RESPONSE A]
+
+(B) [RESPONSE B]
+
+Assistant: Let’s think step-by-step: [CHAIN-OF-THOUGHT]
+
+In particular, we use the “Let’s think step-by-step” prompt from [Kojima et al., 2022] to elicit the chain-of-thought. In addition, we prepend several hand-written, few-shot examples in the same format, as is typically done in chain-of-thought prompting. Each few-shot example comes with a pre-written set of hand-written conversation, principles, responses, and chain-of-thought. See Appendix E for the full list of examples. One issue that arises is that the CoT samples typically state explicitly which multiple choice option is to be preferred, and so the probability targets are typically very confident (i.e., close to 0 or 1) and are not well-calibrated.

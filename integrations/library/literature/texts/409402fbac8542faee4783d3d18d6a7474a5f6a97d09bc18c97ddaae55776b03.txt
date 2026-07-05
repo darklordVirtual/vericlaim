@@ -1,0 +1,14 @@
+Learning
+IMPlicature and PRESupposition. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 8690--8705, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.768. URL https://aclanthology.org/2020.acl-main.768. Jiang & Conrath (1997)
+
+Jay J. Jiang and David W. Conrath. Semantic similarity based on corpus statistics and lexical taxonomy. In Proceedings of the 10th Research on Computational
+Linguistics International Conference, pp. 19--33, Taipei, Taiwan, August
+1997. The Association for Computational Linguistics and Chinese Language
+Processing (ACLCLP). URL https://aclanthology.org/O97-1002. Jiang & de Marneffe (2019)
+
+Nanjiang Jiang and Marie-Catherine de Marneffe. Do you know that Florence is packed with visitors? Evaluating
+state-of-the-art models of speaker commitment. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pp. 4208--4213, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1412. URL https://aclanthology.org/P19-1412. Jiang et al. (2020)
+
+Zhengbao Jiang, Frank F. Xu, Jun Araki, and Graham Neubig.

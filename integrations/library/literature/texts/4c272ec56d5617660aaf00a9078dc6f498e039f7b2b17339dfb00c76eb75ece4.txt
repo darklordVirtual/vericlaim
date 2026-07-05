@@ -1,0 +1,35 @@
+Hacker-Powered Security Report 2017”, 2017
+
+URL: https://www.hackerone.com/sites/default/files/2017-06/The%20Hacker-Powered%20Security%20Report.pdf
+
+[46]
+J.. Rubinovitz
+
+“Bias Bounty Programs as a Method of Combatting Bias in AI”
+
+In Tumblr, 2018
+
+URL: https://rubinovitz.com/post/187669528132/bias-bounty-programs-as-a-method-of-combatting
+
+[47]
+Ziad Obermeyer, Brian Powers, Christine Vogeli and Sendhil Mullainathan
+
+“Dissecting racial bias in an algorithm used to manage the health of populations”
+
+In Science 366.6464
+
+American Association for the Advancement of Science, 2019, pp. 447–453
+
+URL: https://science.sciencemag.org/content/366/6464/447
+
+[48]
+Taylor Telford
+
+“Apple Card algorithm sparks gender bias allegations against Goldman Sachs”
+
+In The Washington Post, 2019
+
+URL: https://www.washingtonpost.com/business/2019/11/11/apple-card-algorithm-sparks-gender-bias-allegations-against-goldman-sachs/
+
+[49]
+Dario Amodei et al.

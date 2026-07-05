@@ -1,0 +1,11 @@
+7.6
+shows that adding an LGA Layer 2 judge reduces missed attacks
+to 0–1% (GPT-4o-mini: 0%; Qwen3.5-9B: 1%). AgentDojo (Debenedetti et al., 2024) proposes a dynamic
+evaluation framework combining realistic task environments with
+adaptive attack generation, enabling continuous security assessment
+as agent capabilities evolve. Our benchmark complements these efforts by evaluating
+defense mechanisms (the judge function) rather than attack
+success rates, and by covering bilingual scenarios that surface
+potential language-dependent vulnerability patterns (noting that
+the English dataset is machine-translated; cross-lingual findings
+warrant validation with independently authored samples).

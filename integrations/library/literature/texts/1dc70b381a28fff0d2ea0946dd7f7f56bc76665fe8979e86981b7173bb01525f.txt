@@ -1,0 +1,56 @@
+Here we show results from early experiments when adding raw confidence as a feature to our acute systems. These are averaged across 6 LLMs we test (all models not including Qwen3-30B-A3B-Instruct-2507 and result in a negligibly positive differences. Estimator
+Dataset
+
+smECE ()
+
+auc-euro ()
+
+acute pca10
+
+MMLU (all)
+
+0.0
+
+0.002
+
+acute pca20
+
+MMLU (all)
+
+0.0
+
+0.001
+
+acute pca10
+
+APIGen
+
+0.0
+
+0.0
+
+acute pca20
+
+APIGen
+
+0.002
+
+0.0
+
+acute pca10
+
+SCITLDR
+
+0
+
+0.0
+
+acute pca20
+
+SCITLDR
+
+0.001
+
+0.0
+
+Table 3: Here we show the difference in smECE and auc-euro when adding the confidence feature for acute pca10 and acute pca20 across all three datasets. Deltas are very small indicating that the feature is not vital to include.

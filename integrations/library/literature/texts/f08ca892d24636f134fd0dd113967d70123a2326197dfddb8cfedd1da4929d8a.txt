@@ -1,0 +1,16 @@
+Green, Soňa Mokrá, Nicholas Fernando, Boxi Wu,
+Rachel Foley, Susannah Young, Iason Gabriel, William Isaac, John Mellor,
+Demis Hassabis, Koray Kavukcuoglu, Lisa Anne Hendricks, and Geoffrey Irving. Improving alignment of dialogue agents via targeted human judgements,
+2022. URL
+https://storage.googleapis.com/deepmind-media/DeepMind.com/Authors-Notes/sparrow/sparrow-final.pdf. Hosseini-Asl et al. (2020)
+
+Ehsan Hosseini-Asl, Bryan McCann, Chien-Sheng Wu, Semih Yavuz, and Richard
+Socher. A simple language model for task-oriented dialogue. Advances in Neural Information Processing Systems,
+33:20179–20191, 2020. Huang et al. (2022a)
+
+Wenlong Huang, Pieter Abbeel, Deepak Pathak, and Igor Mordatch. Language models as zero-shot planners: Extracting actionable
+knowledge for embodied agents. arXiv preprint arXiv:2201.07207, 2022a. Huang et al. (2022b)
+
+Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy
+Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, et al. Inner monologue: Embodied reasoning through planning with language
+models. arXiv preprint arXiv:2207.05608, 2022b. Karamcheti et al.

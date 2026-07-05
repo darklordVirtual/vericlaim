@@ -1,0 +1,9 @@
+Though Nguyen et al. (2014) focused their attention on deep networks, shallow linear models have the same problem. A softmax regression model has an error rate of 59.8%
+on the rubbish examples, with an average confidence on mistakes of 70.8%. If we use instead an RBF network, which does not behave like a linear function,
+we find an error rate of 0%. Note that when the error rate is zero the average confidence on a mistake
+is undefined. Nguyen et al. (2014) focused on the problem of generating fooling images for a specific class,
+which is a harder problem than simply finding points that the network confidently classifies
+as belonging to any one class despite being defective. The above methods on MNIST and CIFAR-10 tend to have a very skewed distribution over classes. On MNIST, 45.3% of a naively trained maxout network’s false positives were classified as 5s,
+and none were classified as 8s. Likewise, on CIFAR-10, 49.7% of the convolutional network’s
+false positives were classified as frogs, and none
+were classified as airplanes, automobiles, horses, ships, or trucks. To solve the problem introduced by Nguyen et al.

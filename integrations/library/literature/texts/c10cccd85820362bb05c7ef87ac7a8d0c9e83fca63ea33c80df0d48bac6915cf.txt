@@ -1,0 +1,42 @@
+1–5
+
+arXiv: http://www.jmlr.org/papers/volume18/16-365/16-365.pdf
+
+[65]
+Aleksander Madry et al. “Towards Deep Learning Models Resistant to Adversarial Attacks”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1706.06083
+
+[66]
+Matthias Hein and Maksym Andriushchenko
+
+“Formal Guarantees on the Robustness of a Classifier against Adversarial Manipulation”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1705.08475
+
+[67]
+Mathias Lecuyer et al. “Certified Robustness to Adversarial Examples with Differential Privacy”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1802.03471
+
+[68]
+Jeremy M Cohen, Elan Rosenfeld and J. Kolter
+
+“Certified Adversarial Robustness via Randomized Smoothing”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1902.02918
+
+[69]
+Guy Katz et al. “Reluplex: An efficient smt solver for verifying deep neural networks”
+
+In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 10426 LNCS
+
+Springer Verlag, 2017, pp.

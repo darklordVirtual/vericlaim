@@ -1,0 +1,13 @@
+Diamos, Heewoo Jun,
+Hassan Kianinejad, Md. Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. Deep learning scaling is predictable, empirically, 2017. URL http://arxiv.org/abs/1712.00409. Hestness et al. (2019)
+
+Joel Hestness, Newsha Ardalani, and Gregory Diamos. Beyond human-level accuracy: Computational challenges in deep
+learning. In Proceedings of the 24th Symposium on Principles and Practice
+of Parallel Programming, PPoPP ’19, pp. 1–14, New York, NY, USA, 2019. Association for Computing Machinery. doi: 10.1145/3293883.3295710. URL https://doi.org/10.1145/3293883.3295710. Hewitt et al. (2020)
+
+John Hewitt, Michael Hahn, Surya Ganguli, Percy Liang, and Christopher D. Manning. RNNs can generate bounded hierarchical languages with optimal
+memory, 2020. URL https://arxiv.org/abs/2010.07515. Hildebrandt (2018)
+
+Mireille Hildebrandt. Algorithmic regulation and the rule of law. Philosophical Transactions of the Royal Society A:
+Mathematical, Physical and Engineering Sciences, 376(2128):20170355, 2018. doi: 10.1098/rsta.2017.0355. URL
+https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2017.0355. Hoffmann et al.

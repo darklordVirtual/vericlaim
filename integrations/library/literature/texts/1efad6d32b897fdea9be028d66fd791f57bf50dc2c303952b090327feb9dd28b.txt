@@ -1,0 +1,45 @@
+The difference in the model’s generation and the gold patch here demonstrates how models tend to under-generate the necessary fixes. Setting
+
+•
+
+Model: SWE-Llama 13B with Oracle retrieval
+
+•
+
+Task Instance: sphinx-doc__sphinx-11445
+
+–
+
+Link to Issue: https://github.com/sphinx-doc/sphinx/issues/11437
+
+–
+
+Link to PR: https://github.com/sphinx-doc/sphinx/pull/11445
+
+Issue
+
+Using
+
+rst_prolog
+removes top level headings containing a domain directive
+
+### Describe the bug
+If
+
+rst_prolog
+is set, then any documents that contain a domain directive as the first heading (eg
+
+:mod:
+) do not render the heading correctly or include the heading in the toctree. In the example below, if the heading of
+
+docs/mypackage.rst
+were
+
+mypackage2
+instead of
+
+:mod:mypackage2
+then the heading displays correctly. Similarly, if you do not set
+
+rst_prolog
+then the heading will display correctly.

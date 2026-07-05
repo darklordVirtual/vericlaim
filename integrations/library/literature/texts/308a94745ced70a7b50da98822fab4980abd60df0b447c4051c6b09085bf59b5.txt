@@ -1,0 +1,1 @@
+We measure the critical batch size using the data displayed in figure 18. This made it possible to estimate in figure 10. Figure 18: These figures demonstrate fits to Equation (5.1) for a large number of values of the loss , and for two different Transformer model sizes. These fits were used to measure for Figure 10.

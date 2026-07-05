@@ -1,0 +1,17 @@
+4.1.4 Model Inversion Attacks on Extracted Models
+
+Access to a model may enable inference of privacy-damaging information,
+particularly about the training
+set [24, 23, 4]. The model
+inversion attack explored by Fredrikson et al. [23] uses access
+to a classifier to find the input that maximizes the class
+probability for class , i.e., . This was shown to allow recovery of recognizable images of training
+set members’ faces when is a facial recognition model. Their attacks work best in a white-box setting, where the attacker knows and its
+parameters. Yet, the authors also note that in a
+black-box setting, remote queries to a prediction API, combined with numerical
+approximation techniques, enable successful, albeit much less
+efficient, attacks. Furthermore, their black-box attacks inherently require to be
+queried adaptively. They leave as an open question making black-box attacks more
+efficient. We explore composing an attack that first
+attempts to extract a model , and then uses it with the [23] white-box inversion attack. Our extraction techniques replace adaptive queries with a non-adaptive
+“batch” query to , followed by local computation.

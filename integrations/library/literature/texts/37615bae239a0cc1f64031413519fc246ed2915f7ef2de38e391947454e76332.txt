@@ -1,0 +1,7 @@
+This term explicitly anchors the model’s verbalized visual confidence to its actual perceptual certainty, preventing ungrounded hallucinations. Token-Level Advantage Reweighting
+
+Standard GRPO employs uniform credit assignment, treating all errors equally. However, we posit that ungrounded hallucinations, where errors arising from high visual uncertainty, indicate a severe perception failure and warrant stricter penalties than other visual errors. To address this, we propose Token-Level Advantage Reweighting (TAR) to dynamically reweight the advantage based on the error source and visual certainty. Specifically, we calculate the visual certainty for each specific token. Following the aforementioned Z-score standardization and sigmoid transformation, we normalize these token-wise scores within a single sample to to obtain . We then introduce a reweighting mechanism derived from this token-wise to reweight the advantage of tokens within with :
+
+(12)
+
+Intuitively, when the model errs () under low visual certainty (), the penalty is amplified to discourage blind guessing. Conversely, if the model is well-grounded (), the penalty is softened to preserve valid perception.

@@ -1,0 +1,4 @@
+Model: A statistical representation of a prediction task. You train a model on
+examples then use the model to make predictions. Metric: A number that you care about. May or may not be directly optimized. Objective: A metric that your algorithm is trying to optimize. Pipeline: The infrastructure surrounding a machine learning algorithm. Includes gathering the data from the front end, putting it into training data
+files, training one or more models, and exporting the models to production. Click-through Rate The percentage of visitors to a web page who click a
+link in an ad.

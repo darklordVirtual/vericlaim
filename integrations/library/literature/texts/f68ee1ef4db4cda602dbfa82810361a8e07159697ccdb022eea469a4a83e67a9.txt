@@ -1,0 +1,17 @@
+The power-law fit to the learning curves implies a simple prescription for compute-efficient training. In this appendix, we will derive the optimal performance, model size, and number of training steps as a function of the compute budget. We start with the Equation (1.6), repeated here for convenience:
+
+(B.1)
+
+Here, represents the number of parameter updates when training at the critical batch size [MKAT18], which was defined in Equation (5.2)888There is a slight ambiguity here: we can imagine training either at a constant batch size , or we could instead train at a variable batch size , where is the instantaneous critical batch size (as opposed to , which is the averaged version). These two prescriptions result in the same number of steps, so we can ignore this subtlety (see [MKAT18]).:
+
+(B.2)
+
+We would like to determine optimal training parameters for a fixed compute budget, so we replace , where is the number of FLOPs used in the training run:
+
+(B.3)
+
+Now, we set to find the condition for optimality:
+
+(B.4)
+
+Equation (B.3) and (B.4) together determine the compute-efficient frontier.

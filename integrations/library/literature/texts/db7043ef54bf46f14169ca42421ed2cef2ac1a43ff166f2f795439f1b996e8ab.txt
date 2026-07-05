@@ -1,0 +1,24 @@
+of Toolformer with API calls enabled as computing the probability of token given would require marginalizing over all potential API calls that the model could make at position , which is intractable. Model
+
+WikiText
+CCNet
+
+GPT-J
+
+09.9
+
+10.6
+
+GPT-J + CC
+
+10.3
+
+10.5
+
+Toolformer (disabled)
+
+10.3
+
+10.5
+
+Table 8: Perplexities of different models on WikiText and our validation subset of CCNet. Adding API calls comes without a cost in terms of perplexity for language modeling without any API calls.

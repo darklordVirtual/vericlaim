@@ -1,0 +1,8 @@
+The normative definitions of these datatypes are provided by their respective specifications. Conformance to RDF Datatypes As of the publication of this document, RDF 1.1 Concepts and Abstract Syntax [RDF-CONCEPTS11] is not yet a W3C Recommendation (see http://www.w3.org/TR/rdf11-concepts/ for the latest version). Both the Provenance Working Group and the RDF Working Group are confident that there will be only minor changes before it becomes a W3C Recommendation. In order to take advantage of the anticipated corrections and new features sooner, while also providing stability in case the specification does not advance as expected, conformance to PROV as it relates to RDF Datatypes is defined as follows:
+
+If RDF 1.1 Concepts and Abstract Syntax becomes a W3C Recommendation, all references in PROV to
+RDF Concepts and Abstract Syntax will be normative references to the 1.1 Recommendation. Until that time, references in PROV to RDF Concepts and Abstract Syntax features operate as follows:
+
+If RDF 1.0 defines the features, then the reference is normative to the 1.0 definition [RDF-CONCEPTS];
+
+otherwise, the feature is optional in PROV and the reference is informative only.

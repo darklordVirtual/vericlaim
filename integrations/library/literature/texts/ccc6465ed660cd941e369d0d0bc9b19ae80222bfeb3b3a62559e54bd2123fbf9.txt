@@ -1,0 +1,16 @@
+1369--1379, Held
+Online, September 2021. INCOMA Ltd. URL https://aclanthology.org/2021.ranlp-1.153. Stowe et al. (2020)
+
+Kevin Stowe, Leonardo Ribeiro, and Iryna Gurevych. Metaphoric paraphrase generation, 2020. URL https://arxiv.org/abs/2002.12854. Strube & Ponzetto (2006)
+
+Michael Strube and Simone Paolo Ponzetto. Wikirelate! Computing semantic relatedness using Wikipedia. In AAAI’06: Proceedings of the 21st National Conference on
+Artificial Intelligence, volume 2, pp. 1419–1424. Association for the
+Advancement of Artificial Intelligence, 2006. doi: 10.5555/1597348.1597414. URL https://dl.acm.org/doi/10.5555/1597348.1597414. Sugawara et al. (2017)
+
+Saku Sugawara, Hikaru Yokono, and Akiko Aizawa. Prerequisite skills for reading comprehension: Multi-perspective
+analysis of MCTest datasets and systems. In Proceedings of the AAAI Conference on Artificial
+Intelligence, volume 31, Menlo Park, CA, Feb. 2017. Association for the
+Advancement of Artificial Intelligence. URL https://ojs.aaai.org/index.php/AAAI/article/view/10957. Suhr et al. (2019)
+
+Alane Suhr, Claudia Yan, Jack Schluger, Stanley Yu, Hadi Khader, Marwa
+Mouallem, Iris Zhang, and Yoav Artzi.

@@ -1,0 +1,13 @@
+DailyDialog: A manually labelled multi-turn dialogue dataset. In Proceedings of the Eighth International Joint Conference on
+Natural Language Processing (Volume 1: Long Papers), pp. 986--995, Taipei,
+Taiwan, November 2017. Asian Federation of Natural Language Processing. URL https://aclanthology.org/I17-1099. Li et al. (2020b)
+
+Yiwei Li, G Brian Golding, and Lucian Ilie. DELPHI: Accurate deep ensemble model for protein interaction sites
+prediction. Bioinformatics, 37(7):896--904, 08
+2020b. doi: 10.1093/bioinformatics/btaa750. URL https://doi.org/10.1093/bioinformatics/btaa750. Li et al. (2003)
+
+Yuhua Li, Zuhair A. Bandar, and David Mclean. An approach for measuring semantic similarity between words using
+multiple information sources. IEEE Transactions on Knowledge and Data Engineering,
+15(4):871--882, 2003. doi: 10.1109/TKDE.2003.1209005. URL https://ieeexplore.ieee.org/document/1209005. Liang et al. (2018)
+
+Chao-Chun Liang, Yu-Shiang Wong, Yi-Chung Lin, and Keh-Yih Su. A meaning-based statistical English math word problem solver.

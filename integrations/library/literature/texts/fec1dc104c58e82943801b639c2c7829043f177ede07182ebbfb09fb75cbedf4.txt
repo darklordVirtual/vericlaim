@@ -1,0 +1,5 @@
+We apply the acute protocol on 6 models across 3 tasks and measure the degree to which calibration (via smECE) and utility (via euro) improve over strong, efficient baselines. 101010See Appendix C for a more detailed discussion. Models
+
+In our experiments, we evaluate 6 different models that come from 4 model families: gemma-3-4b-it, gemma-3-12b-it (team2025gemma), Qwen3-4B-Instruct-2507, Qwen3-14B (yang2025qwen3), phi-4 (abdin2024phi), and SmolLM3-3B (bakouch2025smollm3). We apply the acute protocol to each LLM separately and evaluate performance relative to strong baselines independently. Datasets & Tasks
+
+To measure how acute generalizes, we choose three distinct tasks: language understanding (MMLU; 5-shot in-context learning), tool-calling (APIGen; zeroshot), and scientific document summarization (SCITLDR; zeroshot). MMLU is a multiple choice English-language benchmark with 57 distinct subtasks ranging from elementary school mathematics and sciences to college and post-graduate level medicine and law (Hendrycks2020MeasuringMM). Crucially, these subtasks are all multiple choice, so LLMs generate a single token corresponding to the answer choice.

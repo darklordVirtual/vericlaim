@@ -1,0 +1,5 @@
+It is also referred to as the cross entropy loss in the context of deep learning (Bengio et al., 2015). Given a probabilistic model and samples, NLL is defined as:
+
+(6)
+
+It is a standard result (Friedman et al., 2001) that, in expectation, NLL is minimized if and only if recovers the ground truth conditional distribution .

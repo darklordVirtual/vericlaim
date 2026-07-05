@@ -1,0 +1,5 @@
+By creating each individual problem to be relatively unique, held-out test performance becomes a far more relevant metric. •
+
+Moderate Difficulty We choose a problem distribution that is challenging for large state-of-the-art language models, without being completely intractable. GSM8K will help us better understand the data scaling trends of different models and methods in this difficulty sweet spot. Problems require no concepts beyond the level of early Algebra, and the vast majority of problems can be solved without explicitly defining a variable. •
+
+Natural Language Solutions We collect solutions in natural language rather than as pure math expressions. We believe this is the most generally useful data format, and we expect it to shed light on the properties of large language models’ internal monologues. We instructed problem writers to explain their work as much as possible, but we allowed them to write solutions in their own diverse linguistic styles. The full GSM8K dataset can be found at https://github.com/openai/grade-school-math. Example problems are shown in Figure 1, and we discuss additional dataset details in Appendix A.

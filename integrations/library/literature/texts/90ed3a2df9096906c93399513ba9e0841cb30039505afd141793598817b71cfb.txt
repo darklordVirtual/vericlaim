@@ -1,0 +1,11 @@
+Figure 6: Two possible directed dependency structures for the
+variables in scenarios I and II. The undirected (infrastructure
+graph) versions of both graphs are also possible. Not only can an oblivious test (based only on ) not
+distinguish between the two scenarios, but even having access to the
+features is not of much help. Suppose we have access to all three
+feature, i.e. to a joint distribution over —since
+the distributions over agree, we can construct
+such a joint distribution with and . The features are correlated with each other, with . Without attaching meaning to the features or making causal assumptions
+about them, we do not gain any further insight on the two scores. In
+particular, both causal structures depicted in Figure 6 are
+possible.

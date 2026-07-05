@@ -1,0 +1,6 @@
+The latter line of work, initiated by Lowd and Meek [36], studies strategies for model evasion, in the context of spam or fraud detectors [9, 56, 29, 36, 37]. Intuitively, model extraction seems harder than evasion, and this is corroborated by results from theory [39, 51, 36] and practice [56, 36]. Evasion attacks fall into the larger field of adversarial machine learning, that studies machine learning in general adversarial settings [6, 29]. In that context, a number of authors have considered strategies and defenses for poisoning attacks, that consist in injecting maliciously crafted samples into a model’s train or test data, so as to decrease the learned model’s accuracy [21, 10, 32, 40, 46]. In a concurrent work, Papernot et al. [42]
+make use of improper model extraction techniques in the context of model evasion
+attacks against deep neural networks. They first extract a “substitute” network using data-augmentation techniques
+similar in spirit to our adaptive retraining strategy (Section 6). This
+substitute is then in turn used to craft adversarial samples likely to fool the
+target black-box model.

@@ -1,0 +1,1 @@
+In this section we move from a focus on aggregate trends to instead performing careful analysis of model and human-rater performance on select individual tasks. This deep dive can help build an understanding of the ways in which models fail or succeed, and what they find challenging.

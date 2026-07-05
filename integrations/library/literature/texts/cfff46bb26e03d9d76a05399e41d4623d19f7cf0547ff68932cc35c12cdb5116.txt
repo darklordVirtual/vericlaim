@@ -1,0 +1,37 @@
+We will first develop an intuitive geometric solution in the case where we
+adjust a binary predictor and is a binary protected attribute The
+proof generalizes directly to the case of a discrete protected attribute with
+more than two values. For convenience, we introduce the notation
+
+(4.1)
+
+The first component of is the false positive rate of
+within the demographic satisfying Similarly, the second
+component is the true positive rate of within
+Observe that we can calculate given the
+joint distribution of
+The definitions of equalized odds and equal opportunity can be
+expressed in terms of , as formalized in the following
+straight-forward Lemma:
+
+Lemma 4.2. A predictor satisfies:
+
+1. equalized odds if and only if
+and
+
+2. equal opportunity
+if and only if and
+agree in the second component, i.e.,
+
+For consider the two-dimensional convex polytope defined as the
+convex hull of four vertices:
+
+(4.2)
+
+Our next lemma shows that and characterize exactly
+the trade-offs between false positives and true positives that we can achieve
+with any derived classifier. The polytopes are visualized
+in Figure 1. Lemma 4.3. A predictor is derived if and only if for all
+we have
+
+Proof.

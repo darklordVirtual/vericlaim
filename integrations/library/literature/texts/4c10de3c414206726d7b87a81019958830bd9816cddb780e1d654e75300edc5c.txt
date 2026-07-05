@@ -1,0 +1,10 @@
+For many of these samples, we can also extend their length and recover thousands of lines of (near verbatim) source code (see Section 6.4). Unnatural Text. Memorization is not limited to natural-looking
+text. We find
+instances of random number sequences with at least
+50 bits of entropy.101010We estimate the entropy through manual analysis by guessing the entropy space given the format of the string. For example, we extract the following UUID:
+
+1e4bd2a8-e8c8-4a62-adcd-40a936480059
+
+from the model; a Google search for this string identifies
+just 3 documents containing this UUID, and it is contained in just one GPT-2 training document (i.e., it is -eidetic memorized). Other memorized random number sequences include
+UUIDs contained in only a few documents (not listed to preserve privacy), git commit hashes, random IDs used for ad tracking, and product model numbers. Table 3 gives nine examples of eidetic memorized content, each of which is a random sequences between and characters long. In each of these cases, the memorized example is contained in exactly one training document, and the total number of occurrences within that single document varies between just 10 and 311.

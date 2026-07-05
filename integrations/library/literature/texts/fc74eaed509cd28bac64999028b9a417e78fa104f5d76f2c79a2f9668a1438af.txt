@@ -1,0 +1,13 @@
+To solve the problem introduced by Nguyen et al. (2014) of generating a fooling image for a particular
+class, we propose adding to a Gaussian sample as
+a fast method of generating a fooling image classified as class . If we repeat this
+sampling process until it succeeds, we a randomized algorithm
+with variable runtime. On CIFAR-10, we found that one sampling step had a 100% success rate for
+frogs and trucks, and the hardest class was airplanes, with a success rate of 24.7% per sampling
+step. Averaged over all ten classes, the method has an average per-step success rate of 75.3%. We can thus generate any desired class with a handful of samples and no special priors,
+rather than tens of thousands of generations of evolution. To confirm that the resulting examples
+are indeed fooling images, and not images of real classes rendered by the gradient sign method,
+see Fig. 5. The success rate of this method in terms of generating members of
+class may degrade for datasets with more classes, since the risk of inadvertently increasing
+the activation of a different class increases in that case. Figure 5:
+Randomly generated fooling images for a convolutional network trained on CIFAR-10.

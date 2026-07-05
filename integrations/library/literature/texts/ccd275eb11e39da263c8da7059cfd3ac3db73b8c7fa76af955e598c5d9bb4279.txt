@@ -1,0 +1,1 @@
+Design inputs meant to activate a given feature and elicit certain outputs. Of course, decomposing models into components is just the beginning of the work of mechanistic interpretability! It provides a foothold on the inner workings of models, allowing us to start in earnest on the task of unraveling circuits and building a larger-scale understanding of models.

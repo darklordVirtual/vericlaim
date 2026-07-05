@@ -1,0 +1,1 @@
+Robust Tokenization for Adversarial Resilience: To further strengthen PromptGuard 2 against token-based adversarial attacks, we introduced a hardened tokenization mechanism. This modification addresses vulnerabilities such as token fragmentation, whitespace manipulation, and other evasion tactics designed to bypass conventional token-level classifiers.

@@ -1,0 +1,16 @@
+Betz et al. (2020)
+
+Gregor Betz, Christian Voigt, and Kyle Richardson. Critical thinking for language models, 2020. URL https://arxiv.org/abs/2009.07185. Bhagavatula et al. (2019)
+
+Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari
+Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, and Yejin Choi. Abductive commonsense reasoning, 2019. URL https://arxiv.org/abs/1908.05739. Bhakthavatsalam et al. (2021)
+
+Sumithra Bhakthavatsalam, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra,
+Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, and
+Peter Clark. Think you have solved direct-answer question answering? Try
+ARC-DA, the direct-answer AI2 reasoning challenge, 2021. URL https://arxiv.org/abs/2102.03315. Bhattamishra et al. (2020a)
+
+Satwik Bhattamishra, Kabir Ahuja, and Navin Goyal. On the ability and limitations of transformers to recognize formal
+languages. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 7096--7116, Online, November
+2020a. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.576. URL https://aclanthology.org/2020.emnlp-main.576.

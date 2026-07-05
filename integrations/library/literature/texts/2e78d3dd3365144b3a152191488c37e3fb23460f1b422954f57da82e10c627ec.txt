@@ -1,0 +1,4 @@
+Second, we find that deep neural networks learn input-output mappings that are fairly discontinuous
+to a significant extent. We can cause the network to misclassify an image by applying a certain
+hardly perceptible perturbation, which is found by maximizing the network’s prediction error. In addition, the specific nature of these perturbations is not a random artifact of learning: the same perturbation
+can cause a different network, that was trained on a different subset of the dataset, to misclassify the same input.

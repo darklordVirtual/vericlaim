@@ -1,0 +1,103 @@
+{"fsid": "arxiv_2305-18290", "n": 102, "overlap": 200, "source_sha256": "58c97368e7dbf89c4d16a03ae6addcdc5bf6db7c8d665589d18b12d7e5638832", "target": 1200}
+{"section": "", "seq": 0, "sha256": "d6cd594f2f909843d12b2514eb510a19a66333ebd78d0bac9125779bceb5294f"}
+{"section": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model", "seq": 1, "sha256": "e2c3f1b75be09885a031c23622dd6967e4fdd6ae38257ab4bf91a492609c92ab"}
+{"section": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model", "seq": 2, "sha256": "38666364f4e6ae9096e7886314480a68583461a3537ee28cdc13c9a43ad4621a"}
+{"section": "1 Introduction", "seq": 3, "sha256": "d439fad0dafafe372fcfe24f775b00d7110c775cd3b96a5e1f4c709a133e6ddb"}
+{"section": "1 Introduction", "seq": 4, "sha256": "f1b07195236a40e7a3385f806c1c72fba02d9fc8ef66214dbb854b312e3a8fa2"}
+{"section": "1 Introduction", "seq": 5, "sha256": "eac135b3e6c1510487dc1609acf21a4aef40558474565e4a0def45e9a5908c68"}
+{"section": "1 Introduction", "seq": 6, "sha256": "c37f4f016586374d5e7afe2c637c8af1e5b2fdd6fbe515f823f5db55f9a72205"}
+{"section": "1 Introduction", "seq": 7, "sha256": "c900bcb4f31c850b1e80cabc68a18193f13babf7840820fb68f29962a2281b67"}
+{"section": "1 Introduction", "seq": 8, "sha256": "fd2fa0d12bcbb5b925ac44312d090a9d7ddec37dde094b3af9acb4df7e70f505"}
+{"section": "2 Related Work", "seq": 9, "sha256": "35cfc2cf6cec69348ead980b719851db2f6e272e9a23c2d2a02dce94a68d7bd9"}
+{"section": "2 Related Work", "seq": 10, "sha256": "f77e950320e2b1f4d22a58e227449f561703df6e34967b949481b114aff85b1f"}
+{"section": "2 Related Work", "seq": 11, "sha256": "e3202de3b1c9b7a16aa34a9ea7879c9eb83c783703d2196a2aa0a818d300d54f"}
+{"section": "2 Related Work", "seq": 12, "sha256": "67aeec456d45006b5637bc7d8d1e93a3ea1c12f52960d1eca051a49310421943"}
+{"section": "3 Preliminaries", "seq": 13, "sha256": "381e2325c60f5579d00978694af77285ecb161258716ea4e07604efa478387bd"}
+{"section": "3 Preliminaries", "seq": 14, "sha256": "8dfe9a626757e7aa9433f569d7fbb8129db087d572ac0e21a7fd9ccea28e4ccd"}
+{"section": "3 Preliminaries", "seq": 15, "sha256": "0dd541cfe495f1e0ac6f92dc6a586dbf9bab419f0b8a9910c48c3aea2d178af5"}
+{"section": "4 Direct Preference Optimization", "seq": 16, "sha256": "cc6fa832f065b84bf59fe3069113ec5a7d229134ce6fd0904238a7928d2a4ddd"}
+{"section": "4 Direct Preference Optimization", "seq": 17, "sha256": "f106c3e57603a46a91073acfbbb1270d165c007fc82bd1a0558eb66650fc8f3d"}
+{"section": "4 Direct Preference Optimization", "seq": 18, "sha256": "b438298b758b57f60ee287f43a751a0a6e913fa443f099da1677a737adf4bf1d"}
+{"section": "4 Direct Preference Optimization", "seq": 19, "sha256": "818e5b114e1366d78361bdf6b623b7431316cc1d2c3ecf36b8d4098bd3af7605"}
+{"section": "4 Direct Preference Optimization", "seq": 20, "sha256": "732f179339753d8d69c239400ce34305bfd1f1b8d30501d4127f21cbc424fd3d"}
+{"section": "4 Direct Preference Optimization", "seq": 21, "sha256": "e67f0676a6996444faec83ecf71438526a0e2f2542841b394f9c0d0eb23dbbb2"}
+{"section": "5 Theoretical Analysis of DPO", "seq": 22, "sha256": "afb4189d9edfbd561c2cca9de8a9e762b6644a58b0f91f008516b01c4896f294"}
+{"section": "5.1 Your Language Model Is Secretly a Reward Model", "seq": 23, "sha256": "d38ef715808fdda403316f8238695aa7a1ad002196f538c7ceaf64c17e7b59d4"}
+{"section": "5.1 Your Language Model Is Secretly a Reward Model", "seq": 24, "sha256": "c8c9ff98d6adfa5cb9ebe201e03935ad69b97b56f8301870127bb1d63f889dc0"}
+{"section": "5.1 Your Language Model Is Secretly a Reward Model", "seq": 25, "sha256": "681d4860eba10272585dafd6c61b13f0303d376affe778606c85893f64990a24"}
+{"section": "5.1 Your Language Model Is Secretly a Reward Model", "seq": 26, "sha256": "f983eaf3e453c3c686295414da7fc50c6f17ab7b2093a4bbd1f30ab00abedb5c"}
+{"section": "5.2 Instability of Actor-Critic Algorithms", "seq": 27, "sha256": "250c19f686745e56f1182f4e8be39a52460f81e6e8fc25b115cce63f50f93155"}
+{"section": "5.2 Instability of Actor-Critic Algorithms", "seq": 28, "sha256": "53a055f077f5c350545f998dc4a55c40394c8359a8032a0f681cc5a67106e351"}
+{"section": "6 Experiments", "seq": 29, "sha256": "0a321204369e318182970de85105fb58e525acc0589c6900e5ae51ed766edfba"}
+{"section": "6 Experiments", "seq": 30, "sha256": "c8f4813fb99a6ab941bd8bf9bea83b4318c28005f2facf7eb45cd5d27e2e7bcc"}
+{"section": "6 Experiments", "seq": 31, "sha256": "03e7cd3fd0d8546fbec885a48c6c7ea9e9d9e28b085c03d39d64718e74860de2"}
+{"section": "6 Experiments", "seq": 32, "sha256": "73f37a9649f092d39a91810e5fff4b818789eb06bdfab63872b133c1a2515ee0"}
+{"section": "6 Experiments", "seq": 33, "sha256": "5504e7d08b612fa5e29512dbd6ca16f2c52b458e16a607b91ef05a82a6d95997"}
+{"section": "6 Experiments", "seq": 34, "sha256": "e9dc061e35d7de6a8c7031f0192db992753292850cc291e9bed6d2e152d195f5"}
+{"section": "6 Experiments", "seq": 35, "sha256": "840543f9e1d2b21405dd3934c4089506eb67ce9e713d34332b57a861610281d3"}
+{"section": "6.1 How well can DPO optimize the RLHF objective?", "seq": 36, "sha256": "9079671797da5d4bc2640fec0fe5b4cf602a995bcaf7aca3e82a017e30357ea1"}
+{"section": "6.1 How well can DPO optimize the RLHF objective?", "seq": 37, "sha256": "33e3a0dda6cb8c8440cf2e4964c435fcba10b4defa1c4ecea35c7ff006cb5205"}
+{"section": "6.2 Can DPO scale to real preference datasets?", "seq": 38, "sha256": "dd72112430d378ab26ac330d61e2c2375cc9e3ae49977ae93918f5f0b189631c"}
+{"section": "6.2 Can DPO scale to real preference datasets?", "seq": 39, "sha256": "ae1458e6e5fdb6b59eabb75443a643c99782e41274e9fb1735f9a68ad14592b0"}
+{"section": "6.2 Can DPO scale to real preference datasets?", "seq": 40, "sha256": "203ab45afc21e463f5f2a19a9cec133021ed441df210b6992a80b7b1f3a157e1"}
+{"section": "6.2 Can DPO scale to real preference datasets?", "seq": 41, "sha256": "242ffcc66e5fa29a93e1eb35dd89722fe0b8fc5186c203cec7e45e0f1d4ec459"}
+{"section": "6.3 Generalization to a new input distribution", "seq": 42, "sha256": "97e77b53f37ba11b56293ab65677375bf9cea212cf54d8eb0d594abc8a1a2480"}
+{"section": "6.4 Validating GPT-4 judgments with human judgments", "seq": 43, "sha256": "09e7c427df36cecc83fc90370ed4bcf4f1b71b00a91f608830dd7926aabc0178"}
+{"section": "6.4 Validating GPT-4 judgments with human judgments", "seq": 44, "sha256": "53743294f8ce050f66dac650f53a39b944486546fd55cf206461ce48e3d661da"}
+{"section": "7 Discussion", "seq": 45, "sha256": "497bfb1618e5875b0132213527d7e6df282e8a518b1ba28d37520cb40387c7f0"}
+{"section": "7 Discussion", "seq": 46, "sha256": "a1323ea847a13dc4e0465b74a59093849f6e44080128e66909a4f03a1f5f115f"}
+{"section": "Acknowledgements", "seq": 47, "sha256": "d7693e4d34456fda438be4416ff98e74b7c6a0dbecc6052d28dc1f88e016fe7f"}
+{"section": "References", "seq": 48, "sha256": "d592c920c97164a36f95dcf18d08f4024714e52873efebb24a8d05e7c7e81a9e"}
+{"section": "References", "seq": 49, "sha256": "683e5d5c84b88a8099d182418f6a2f4623ae3069803d9bc64f4293d168b3a081"}
+{"section": "References", "seq": 50, "sha256": "7f2df80e9ee1263724d765c6cabe6b6e3c75122353cf5a1e596c3102e0e1c400"}
+{"section": "References", "seq": 51, "sha256": "3d1fe6c7fd6628148a30883374a0dfebaf3e167eb6d27c5c23b4e90c2dbb823f"}
+{"section": "References", "seq": 52, "sha256": "97bd96139f05ee53281ce3b17476df64e8b37e8a226f36d3523b643bf4b5f64f"}
+{"section": "References", "seq": 53, "sha256": "c384b6b8d8e123b6f45b7c46afd55e4a5cfa98290811d0542378734186c59f02"}
+{"section": "References", "seq": 54, "sha256": "39dc7747e4f6cef089470bce842b4aa367e7fee063a0815c1dc24230e50772b2"}
+{"section": "References", "seq": 55, "sha256": "9691872d8e0cfa7a5e816c44c136ff3b451d593979e0d742345be3b4cf9d1b24"}
+{"section": "References", "seq": 56, "sha256": "3d5f5346d6ea0eb98f03e5b61cffaf7982bebcb984e44e4b9d67359b77006f7a"}
+{"section": "References", "seq": 57, "sha256": "d5abb8ad0028a3a0eef065079144294d54f1f4109165851b005fdaedfed9f25a"}
+{"section": "References", "seq": 58, "sha256": "bb7b5042be20ae4a8abec155f7e0652b9f9c270714a5c07335542ffeb62e2500"}
+{"section": "References", "seq": 59, "sha256": "744cba0a0d65d45039a094b9ffb40381438e9536ad5c9d1f8b44e9ec62619a04"}
+{"section": "References", "seq": 60, "sha256": "cef7750ecc6ba0a7999d5b41ad4c173658627647f917468ed8ae3b661c84f2dd"}
+{"section": "References", "seq": 61, "sha256": "09e8ebace52819af23102094b461cd66a116cb2ee76186373090d2f0024c2fb3"}
+{"section": "References", "seq": 62, "sha256": "070de530d518b4ab7d686aee89b7b05a972284e6e637a473355a8fe73f0a5226"}
+{"section": "References", "seq": 63, "sha256": "f39a572a41bcacb4acc123e356041c4a03212dd1b70a0d8195f1b33836270c34"}
+{"section": "References", "seq": 64, "sha256": "ee1930a39169972d8539f68b0d7933cace92ceb0d18c1c98454ff61ac2fd6ae1"}
+{"section": "References", "seq": 65, "sha256": "822c7dbffa4101c96e720f3365b9481166a610997012fe7c7e6ba060b198f4e1"}
+{"section": "Author Contributions", "seq": 66, "sha256": "f173b35b4e8591101faf7b1b13c0b5b7704ad9f21a2011ecca9056b0c19b5159"}
+{"section": "Author Contributions", "seq": 67, "sha256": "20b4ed50aa15b4e0ed1c94d8e235b588521028e9b7713f255f763bcc5d39dedc"}
+{"section": "A.1 Deriving the Optimum of the KL-Constrained Reward Maximization Objective", "seq": 68, "sha256": "eb42a1fb893a28d9dac78665a22f5ff67b0a6b84c8c7e2522e613bab01d4ea7e"}
+{"section": "A.2 Deriving the DPO Objective Under the Bradley-Terry Model", "seq": 69, "sha256": "9a83348ad85e395a2c3e02ca31b0b3dbf3d2fab83761e72bee775330cc6ab6d3"}
+{"section": "A.3 Deriving the DPO Objective Under the Plackett-Luce Model", "seq": 70, "sha256": "0a9f63ec4eff8ee2de8f06cbacde39da6fa33667500d8903778ac4b5adf44780"}
+{"section": "A.4 Deriving the Gradient of the DPO Objective", "seq": 71, "sha256": "6f8d9f3de11240b40ea32c1c8e3b52b5441e70700aca2e0dec3b34bf1dba609c"}
+{"section": "A.5 Proof of Lemma 1 and 2", "seq": 72, "sha256": "0048fbabad994dd58d7823c766bf0240a5fdbf28f892be24cbf5122167fc1fd2"}
+{"section": "A.6 Proof of Theorem 1", "seq": 73, "sha256": "cc661cbf1f942c415ff43b6a232870f16caf721bbb5797797f55578d7c28a7ad"}
+{"section": "A.6 Proof of Theorem 1", "seq": 74, "sha256": "12168ab49f473c337e7fcc2cd13a8d84c4a5bd026143cb4d117699024d88e9ff"}
+{"section": "Appendix B DPO Implementation Details and Hyperparameters", "seq": 75, "sha256": "ffd6a6a2709ec61e322efa1547b9c1e5764113a90ecd8567dc6b6e6091128eac"}
+{"section": "Appendix C Further Details on the Experimental Set-Up", "seq": 76, "sha256": "2e559132a7cf69efce64d065221058eada70d5f53ef5b0558167d7fd62a31761"}
+{"section": "C.1 IMDb Sentiment Experiment and Baseline Details", "seq": 77, "sha256": "bdcb4ecb74e5f5af795f02a14f9b710d982cdeae6bd0dd2301c7ab8e0b7c76d8"}
+{"section": "C.2 GPT-4 prompts for computing summarization and dialogue win rates", "seq": 78, "sha256": "0ba76322d525b708d2bc8f9aa3cf7776ea0d76920b35662de1512adf7e0fe203"}
+{"section": "C.2 GPT-4 prompts for computing summarization and dialogue win rates", "seq": 79, "sha256": "a95fa153b9210849be56c7a3bd5f9caf41d8e935b400135ccde7bc783c336820"}
+{"section": "C.3 Unlikelihood baseline", "seq": 80, "sha256": "fcddabbbc57ebb1d668b4368caf9e36796eaab45d8a37f2894aa577e4cdceab3"}
+{"section": "C.3 Unlikelihood baseline", "seq": 81, "sha256": "34003a096d50dff6f6f62fb1ac4db37df160c9b3a513d1593dcf4924389c9d89"}
+{"section": "C.3 Unlikelihood baseline", "seq": 82, "sha256": "0158f1de305555a6c126905576b4da8fa0a3014f4eac1261e949ba51f3ca7e23"}
+{"section": "C.3 Unlikelihood baseline", "seq": 83, "sha256": "a376596c42320068d6372375d7798a13c6ee2d546a666933778389e36169d196"}
+{"section": "D.1 Performance of Best of baseline for Various", "seq": 84, "sha256": "6c1caaee676f01d87d496d89e6bef14f8453e36d10cddc8dc27f6aca74c21776"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 85, "sha256": "9aff037bce45db548a57a8f81efc3c1677a1d6fdf3a35f38c0b786675e766e49"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 86, "sha256": "775ccd55bc2fc200dd9ae695466d5b2bceab2d77f9a8b8e2d432e6535a34954c"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 87, "sha256": "7e69149da5310af59755db174cd028d63fd8a0bb76d05a252cddd37981337866"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 88, "sha256": "c8595cdb253c95b55623367e52b15969921732e891920ebea173cd89ee9f1c0e"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 89, "sha256": "915518479d22a399b956e4441a745b08f75e1327154653765931d9e6de2e50cc"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 90, "sha256": "b0aa64f01e4d1d97b650c99f0121160921fad40ab0bacdc646909712991cc84c"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 91, "sha256": "f8987d729f3eed1576ce55c85aaf48424675df72884398b97933081591014b19"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 92, "sha256": "58f073efd4b523d22649afebdfa15eaa895bcb0e2bc9a27035153d6c1ce1b0a7"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 93, "sha256": "aa0987ee2e8d3ce6bfbbce545fd0a74cc356832b17849adaa2efb191649684b2"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 94, "sha256": "2614389b089c0a524e0bef3f328a0e5e5249002f03c28f5ae370602eccfbba3d"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 95, "sha256": "1cc55226c4bee65b005444cb331180acd5a41aff9dbf45c8ad41473a98beb83a"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 96, "sha256": "92e53d9c378fb3cb29034f5a712bdc402e3a8f1e0fbde933664ed848c278dac0"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 97, "sha256": "b1a3694fa2d4e5c1c746935ed6eefccfddfd1e4f51af339d10df5cb0ad9a9ea8"}
+{"section": "D.2 Sample Responses and GPT-4 Judgments", "seq": 98, "sha256": "b20ae671089a04cb180cf07305ad847905d9c769d396a9d82743f017762b0dd8"}
+{"section": "D.3 Human study details", "seq": 99, "sha256": "445e1abdf5fdce54724371cf64ac0bf9985d6e39a949dea3a6e52853a4f867a4"}
+{"section": "D.3 Human study details", "seq": 100, "sha256": "a24ee19c82779fd24e175bd88a839966fd7373f9bfa8398d6fe5a15dac9af124"}
+{"section": "D.3 Human study details", "seq": 101, "sha256": "95fc4b74cf8cb5a15c80a46a53540217dd25dbee791db161cb723d97abf39f2a"}

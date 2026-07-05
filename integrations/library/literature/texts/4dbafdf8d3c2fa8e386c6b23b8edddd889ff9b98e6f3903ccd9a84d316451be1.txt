@@ -1,0 +1,13 @@
+•
+
+Shallow linear models are not resistant to rubbish class examples. •
+
+RBF networks are resistant to rubbish class examples. Gradient-based optimization is the workhorse of modern AI. Using a network that has been designed to be sufficiently
+linear–whether it is a ReLU or maxout network, an LSTM, or a sigmoid network that has been carefully configured not to saturate too much–
+we are able to fit most problems we care about, at least on the training set. The existence of adversarial examples suggests that being
+able to explain the training data or even being able to correctly label the test data does not imply that our models truly understand
+the tasks we have asked them to perform. Instead, their linear responses are overly confident at points that do not
+occur in the data distribution, and these confident predictions are often highly incorrect. This work has shown we can partially correct
+for this problem by explicitly identifying problematic points and correcting the model at each of these points. However, one may
+also conclude that the model families we use are intrinsically flawed. Ease of optimization has come at the cost of models that are
+easily misled.

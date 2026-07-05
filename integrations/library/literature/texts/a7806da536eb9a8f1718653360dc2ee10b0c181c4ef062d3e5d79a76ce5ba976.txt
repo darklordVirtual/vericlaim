@@ -1,0 +1,2 @@
+This results in a low-entropy softmax distribution over classes (blue line), which explains the model’s overconfidence. Temperature scaling not only lowers the NLL but also raises the entropy of the distribution (green line). Figure S1: Entropy and NLL for CIFAR-100 before and after calibration. The optimal selected by temperature scaling rises throughout optimization, as the pre-calibration entropy decreases steadily. The post-calibration entropy and NLL on the validation set coincide
+(which can be derived from the gradient optimality condition of ).

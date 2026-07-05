@@ -1,0 +1,11 @@
+In general, cost and efficiency of ToT highly depend on the prompts and search algorithms used, and could require 5-100 times more generated tokens than CoT. Some actionable insights:
+
+•
+
+We recommend using ToT on tasks requiring deliberate reasoning, on which CoT struggles. •
+
+Flexibility of ToT allows some performance-cost tradeoff, e.g., change beam size or vote number in BFS, few-shot vs. zero-shot prompting, GPT-3.5 vs. GPT-4, etc. One could configure the setup based on some resource constraints or performance goal. •
+
+There is much space for improving efficiency, e.g., BFS could early stop when solution is found, or trim down beam size to when some thoughts are ”impossible”. •
+
+We believe that more computation is indeed required in order for the model to achieve stronger intelligence, and this should not become a blocking issue as in the long run, (open-source) LMs will become much cheaper and more efficient. It is also a great direction how to better train/finetune LMs for thought generation and/or evaluation.

@@ -1,0 +1,13 @@
+In this setting, we have a time series , where the are tabular covariates and the are temperatures in degrees Celsius. Note that these data points are not exchangeable or i.i.d.; adjacent data points will be correlated. We start with a pretrained model taking features and predicting temperature and an uncertainty model takes features and outputs a scalar notion of uncertainty. Following Section 2.3, we compute the conformal scores
+
+(45)
+
+Since we observe the data points sequentially, we also observe the scores sequentially, and we will need to pick a different conformal quantile for each incoming data point. More formally, consider the task of predicting the temperature at time . We use the weighted conformal technique in Section 5.3 with the fixed -sized window for all . This yields the quantiles
+
+(46)
+
+With these adjusted quantiles in hand, we form prediction sets at each time step in the usual way,
+
+(47)
+
+We run this procedure on the Yandex Weather Prediction dataset. This dataset is part of the Shifts Project [malinin2021shifts], which also provides an ensemble of 10 pretrained CatBoost [dorogush2018catboost] models for making the temperature predictions.

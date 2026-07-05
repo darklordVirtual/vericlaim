@@ -1,0 +1,49 @@
+To this end, a SWE-bench task instance consists of the following fields, presented in the following Table 9. Collectively, the fields correspond to the four task instance modules. Field
+
+Description
+
+base_commit
+
+(str) The commit ID that the original PR is applied on top of
+
+created_at
+
+(date) Datetime object of when PR was first created (not merged)
+
+hints_text
+
+(str) Natural language suggestions for how to solve problem
+
+instance_id
+
+(str) A unique identifier created from repo and pull_number
+
+issue_numbers
+
+(list) List of issue numbers that the original pull request resolves
+
+patch
+
+(str) .patch-format styled string that is a reference solution
+
+to the problem, extracted from the original PR’s code changes
+
+problem_statement
+
+(str) Natural language description of desired change to codebase
+
+pull_number
+
+(int) The pull number of the original pull request
+
+test_patch
+
+(str) .patch-format styled string containing unseen tests
+
+for checking if a task was solved, extracted from the original
+
+PR’s code changes
+
+version
+
+(str) Release version (w.r.t.

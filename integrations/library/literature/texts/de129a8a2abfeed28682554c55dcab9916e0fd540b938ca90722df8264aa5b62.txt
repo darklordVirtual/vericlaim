@@ -1,0 +1,15 @@
+In Hal Daumé III and Aarti Singh (eds.), Proceedings of the
+37th International Conference on Machine Learning, volume 119 of
+Proceedings of Machine Learning Research, pp. 6905--6916. PMLR,
+13--18 July 2020. URL https://proceedings.mlr.press/v119/miller20a.html. Miller & Gurevych (2015)
+
+Tristan Miller and Iryna Gurevych. Automatic disambiguation of English puns. In Proceedings of the 53rd Annual Meeting of the Association
+for Computational Linguistics and the 7th International Joint Conference on
+Natural Language Processing (Volume 1: Long Papers), pp. 719--729,
+Beijing, China, July 2015. Association for Computational Linguistics. doi: 10.3115/v1/P15-1070. URL https://aclanthology.org/P15-1070. Miller et al. (2017)
+
+Tristan Miller, Christian Hempelmann, and Iryna Gurevych. SemEval-2017 task 7: Detection and interpretation of English
+puns. In Proceedings of the 11th International Workshop on Semantic
+Evaluation (SemEval-2017), pp. 58--68, Vancouver, Canada, August 2017. Association for Computational Linguistics. doi: 10.18653/v1/S17-2005. URL https://aclanthology.org/S17-2005. Milne & Witten (2008)
+
+David Milne and Ian H. Witten.

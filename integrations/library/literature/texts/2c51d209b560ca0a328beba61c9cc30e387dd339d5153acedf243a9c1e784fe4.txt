@@ -1,0 +1,22 @@
+Qasc: A dataset for question answering via sentence composition,
+2019. Kumar et al. (2019)
+
+A. Kumar, P. Liang, and T. Ma. Verified uncertainty calibration, 2019. Lai et al. (2017)
+
+G. Lai, Q. Xie, H. Liu, Y. Yang, and E. Hovy. Race: Large-scale reading comprehension dataset from examinations,
+2017. Lan et al. (2020)
+
+Z. Lan, M. Chen, S. Goodman, K. Gimpel, P. Sharma, and R. Soricut. Albert: A lite bert for self-supervised learning of language
+representations. ArXiv, abs/1909.11942, 2020. Liu et al. (2019)
+
+Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M. Lewis,
+L. Zettlemoyer, and V. Stoyanov. Roberta: A robustly optimized bert pretraining approach. ArXiv, abs/1907.11692, 2019. Mihaylov et al. (2018)
+
+T. Mihaylov, P. Clark, T. Khot, and A. Sabharwal. Can a suit of armor conduct electricity? a new dataset for open book
+question answering. In EMNLP, 2018. Ovadia et al. (2019)
+
+Y. Ovadia, E. Fertig, J. Ren, Z. Nado, D. Sculley, S. Nowozin, J. V. Dillon,
+B. Lakshminarayanan, and J. Snoek. Can you trust your model’s uncertainty? Evaluating predictive
+uncertainty under dataset shift. NeurIPS, 2019. Petroni et al. (2019)
+
+F. Petroni, T. Rocktäschel, P. Lewis, A.

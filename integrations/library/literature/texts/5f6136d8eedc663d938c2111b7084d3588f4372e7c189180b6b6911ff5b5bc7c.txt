@@ -1,0 +1,19 @@
+We consider a standard multi-class classification problem. Let be some feature space (e.g., raw image data) and , a finite label set, ,
+representing classes. Let be a distribution over . A classifier is a function , and the true risk of w.r.t. is
+, where is a given loss function, for example
+the 0/1 error. Given a labeled set
+sampled i.i.d. from ,
+the empirical risk of the classifier is
+. A selective classifier [5] is a pair , where is a classifier, and is a selection function, which serves as a binary qualifier
+for as follows,
+
+Thus, the selective classifier abstains from prediction at a point iff . The performance of a selective classifier is quantified using coverage and risk. Fixing , coverage, defined to be
+is the probability mass of the non-rejected region in . The selective risk of is
+
+(1)
+
+Clearly, the risk of a selective classifier can be traded-off for coverage. The entire performance profile
+of such a classifier can be specified by its risk-coverage curve, defined to be risk as a function of coverage
+[5]. Consider the following problem. We are given a classifier , a training sample
+,
+a confidence parameter , and a desired risk target .

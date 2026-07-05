@@ -1,0 +1,7 @@
+(2020)
+
+0.73
+
+0.27
+
+Table A2: Estimated parameter and data scaling with increased training compute on two alternate datasets. The listed values are the exponents, and , on the relationship and . Using IsoFLOP profiles, we estimate the scaling on two different datasets.

@@ -1,0 +1,1 @@
+a category, whereas the corroboration-guarded memory raises semantic accuracy from 70 to 84 (a +13pp lift) with zero dangerous leaks, and lifts the memory’s own correctness from 70% to 97% (§5.4). The guard admits a 62% corroboration rate — strict enough to keep memory clean, loose enough to keep it growing.

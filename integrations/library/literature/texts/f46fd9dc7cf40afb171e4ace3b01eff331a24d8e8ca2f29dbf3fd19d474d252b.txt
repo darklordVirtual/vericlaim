@@ -1,0 +1,7 @@
+Calculating the Relative Utility:
+
+To calculate the relative utility between two confidence estimators and , remember that the rewards (, , , and ) and language model generations () are fixed. The only differences are the confusion matrices, i.e., the counts of true positives, true negatives, false positives, and false negatives between the two systems based on equation˜3. The relative utility between two systems is the difference in total utility, . The fixed generations ensure that the number of correct and incorrect samples are preserved: and . Thus, simplifying and normalizing with respect to and yields: 555See Appendix § A.3 for all the euro derivations. (4)
+
+Renormalizing with respect to the Oracle and Anti-Oracle:
+
+We want to put relative utilities on a scale with respect to the Oracle policy (), a system that only gets true positives and true negatives, and the Anti-Oracle policy (), a system that only gets false positives and false negatives.

@@ -1,0 +1,6 @@
+In this work, we present Reflexion, an approach that leverages verbal reinforcement
+to teach agents to learn from past mistakes. We empirically show that Reflexion agents
+significantly outperform currently widely-used decision-making approaches by utilizing
+self-reflection. In future work, Reflexion could be used to employ more advanced
+techniques that have been thoroughly studied in traditional RL settings, such as value
+learning in natural language or off-policy exploration techniques.

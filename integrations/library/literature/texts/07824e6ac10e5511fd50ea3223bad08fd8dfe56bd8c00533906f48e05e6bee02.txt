@@ -1,0 +1,11 @@
+2023) for initialization. The critic achieves a higher than 90% agreement with GPT-4-based predictions on most reflection token categories (Appendix Table 4). Figure 2: Self-Rag training examples. The left example does not require retrieval while the right one requires retrieval; thus, passages are inserted. More examples are in Appendix Table 4. 3.2.2 Training the Generator Model
+
+Data collection for generator. Given an input-output pair , we augment the original output using the retrieval and critic models to create supervised data that precisely mimics the Self-Rag inference-time process (Section 3.1). For each segment , we run to assess whether additional passages could help to enhance generation. If retrieval is required, the retrieval special token \tikzmarknode[draw=myred,thick,inner sep=2pt]testRetrieve =Yes is added, and retrieves the top passages, . For each passage, further evaluates whether the passage is relevant and predicts
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsRel
+
+. If a passage is relevant, further evaluates whether the passage supports the model generation and predicts
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+.

@@ -1,0 +1,19 @@
+Association for
+Computational Linguistics. Wang and Komatsuzaki (2021)
+
+Ben Wang and Aran Komatsuzaki. 2021. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax. Wei et al. (2021)
+
+Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian
+Lester, Nan Du, Andrew M. Dai, and Quoc V. Le. 2021. Finetuned language models
+are zero-shot learners. Wolf et al. (2020)
+
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+Anthony Moi, Pierric Cistac, Tim Rault, Remi Louf, Morgan Funtowicz, Joe
+Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien
+Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+and Alexander Rush. 2020. Transformers:
+State-of-the-art natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing: System Demonstrations, pages 38–45, Online. Association for Computational Linguistics. Xu et al. (2020)
+
+Jing Xu, Da Ju, Margaret Li, Y-Lan Boureau, Jason Weston, and Emily Dinan. 2020. Recipes for safety in
+open-domain chatbots. CoRR, abs/2010.07079. Zellers et al.

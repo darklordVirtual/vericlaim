@@ -1,0 +1,15 @@
+Same prompt template as all local LLM judges. All local LLM judges share the same prompt template, requesting
+an ALLOW/BLOCK decision with a one-sentence rationale. Additionally, mDeBERTa-NLI (mDeBERTa-v3-base-xnli,
+280 MB, CPU) was evaluated with binary threshold on the
+Chinese dataset only: its Chinese result already yielded 0%
+interception (identical to BART-MNLI’s near-zero baseline),
+making an additional English binary evaluation unlikely to yield
+actionable differentiation. However, continuous entailment scores were computed on both
+languages ( each) for the ROC analysis in
+Sect. 7.4 (EN AUC = 0.56; see Table 3
+footnote). It is included in the results tables for completeness. We also simulate a two-stage Cascade
+(Qwen3.5-9BGPT-4o-mini) as a post-hoc composition analysis
+in Sect. 7.4; it is not a primary inference
+condition but is included in Tables 3
+and 4 for comparison. A second cascade (Qwen3.5-9BQwen2.5-14B) is similarly
+evaluated for data-sovereign scenarios requiring no cloud dependency.

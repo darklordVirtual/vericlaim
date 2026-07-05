@@ -1,0 +1,2 @@
+We highly advise others to use isolated execution environments when running autonomous code
+writing experiments as the generated code is not validated before execution.

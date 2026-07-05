@@ -1,0 +1,18 @@
+TC3 comparisons ( malicious, benign per language)
+are not included in Table 8; McNemar’s test on
+this subset remains future work due to the smaller sample size. 7.4.9. Comparison with Existing Defense Approaches
+
+LGA differs from existing defense systems in two key dimensions. First, content-safety systems like Llama
+Guard (Inan et al., 2023) and NeMo
+Guardrails (Rebedea et al., 2023) operate at the
+text generation layer, filtering harmful model outputs
+before they reach the user. LGA operates one layer deeper, at the tool execution
+layer, intercepting unauthorized actions regardless of whether
+the generating text appears benign. A prompt injection that produces innocuous-looking text but
+triggers a malicious shell_exec call would evade content
+filters but be caught by LGA Layer 2. Second, existing agent security benchmarks
+(InjecAgent (Zhan et al., 2024),
+AgentDojo (Debenedetti et al., 2024))
+primarily measure attack success rates under various
+agent architectures, quantifying the problem without proposing
+a deployable mitigation.

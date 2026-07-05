@@ -1,0 +1,27 @@
+With similar procedures as described previously, we extract the root’s splitting criterion, and recursively search lower layers of the tree. Duplicate identities. As we verify empirically, our attacks are resilient to some nodes or leaves sharing the same id. We can modify line 7 in Algorithm 1 to detect id duplicates, by checking not only whether a leaf with the current id was already visited, but also whether the current query violates that leaf’s predicates. The main issue with duplicate ids comes from the LINE_SEARCH and CATEGORY_SPLIT procedures: if two queries and differ in a single feature and reach different leaves with the same id, the split on that feature will be missed. 4.2.2 Attack Evaluation
+
+Data set
+
+# records
+
+# classes
+
+# features
+
+IRS Tax Patterns
+
+Steak Survey
+
+GSS Survey
+
+Email Importance
+
+Email Spam
+
+German Credit
+
+Medical Cover
+
+Bitcoin Price
+
+Table 5: Data sets used for decision tree extraction. Trained trees for these data sets are available in BigML’s public gallery. The last two data sets are used to train regression trees.

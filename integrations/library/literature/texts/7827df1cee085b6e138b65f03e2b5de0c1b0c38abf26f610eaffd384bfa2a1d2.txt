@@ -1,0 +1,13 @@
+We show only the special case of controlling selective classification accuracy here. We pick the threshold using based on the empirical estimate of selective accuracy on the calibration set,
+
+(50)
+
+Since this function is not monotone in , we will choose differently than in Section 4.3. In particular, we will scan across values of looking at a conservative upper bound for the true risk (i.e., the top end of a confidence interval for the selective misclassification rate). Realizing that is a Binomial random variable with trials, we upper-bound the misclassification error as
+
+(51)
+
+for some user-specified failure rate . Then, scan the upper bound until the last time the bound exceeds ,
+
+(52)
+
+Deploying the threshold will satisfy (49) with high probability. Proposition 4. Assume the and are i.i.d. and is chosen as above. Then (49) is satisfied with probability . See results on Imagenet at level in Figure 17. For a deeper dive into this procedure and techniques for controlling other non-monotone risks, see Appendix LABEL:app:ltt.

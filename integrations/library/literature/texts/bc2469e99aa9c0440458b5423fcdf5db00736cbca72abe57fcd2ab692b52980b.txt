@@ -1,0 +1,14 @@
+Scalable agent alignment via reward modeling: A research direction,
+2018. URL https://arxiv.org/abs/1811.07871. Lev et al. (2004)
+
+Iddo Lev, Bill MacCartney, Christopher Manning, and Roger Levy. Solving logic puzzles: From robust processing to precise semantics. In Proceedings of the 2nd Workshop on Text Meaning and
+Interpretation, pp. 9--16, Barcelona, Spain, July 2004. Association for
+Computational Linguistics. URL https://aclanthology.org/W04-0902. Levy et al. (2017)
+
+Omer Levy, Minjoon Seo, Eunsol Choi, and Luke Zettlemoyer. Zero-shot relation extraction via reading comprehension. In Proceedings of the 21st Conference on Computational Natural
+Language Learning (CoNLL 2017), pp. 333--342, Vancouver, Canada, August
+2017. Association for Computational Linguistics. doi: 10.18653/v1/K17-1034. URL https://aclanthology.org/K17-1034. Levy et al. (2015)
+
+Ran Levy, Liat Ein-Dor, Shay Hummel, Ruty Rinott, and Noam Slonim. TR9856: A multi-word term relatedness benchmark. In Proceedings of the 53rd Annual Meeting of the Association
+for Computational Linguistics and the 7th International Joint Conference on
+Natural Language Processing (Volume 2: Short Papers), pp.

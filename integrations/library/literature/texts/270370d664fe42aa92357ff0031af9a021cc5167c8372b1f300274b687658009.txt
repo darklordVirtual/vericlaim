@@ -1,0 +1,15 @@
+E. Fault localization using execution slices and dataflow tests. Proceedings of Sixth International Symposium on Software
+Reliability Engineering. ISSRE’95, pp. 143–151, 1995. Allamanis et al. (2015)
+
+Allamanis, M., Tarlow, D., Gordon, A., and Wei, Y. Bimodal modelling of source code and natural language. In Bach, F. and Blei, D. (eds.), Proceedings of the 32nd
+International Conference on Machine Learning, volume 37 of Proceedings
+of Machine Learning Research, pp. 2123–2132, Lille, France, 07–09 Jul
+2015. PMLR. URL http://proceedings.mlr.press/v37/allamanis15.html. Alley et al. (2019)
+
+Alley, E. C., Khimulya, G., Biswas, S., AlQuraishi, M., and Church, G. M. Unified rational protein engineering with sequence-based deep
+representation learning. Nature methods, 16(12):1315–1322, 2019. Alon et al. (2018)
+
+Alon, U., Brody, S., Levy, O., and Yahav, E. code2seq: Generating sequences from structured representations of
+code. In International Conference on Learning Representations, 2018. Aye et al. (2021)
+
+Aye, G. A., Kim, S., and Li, H. Learning autocompletion from real-world datasets.

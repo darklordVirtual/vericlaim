@@ -1,0 +1,17 @@
+Xu et al. (2020)
+
+Jing Xu, Da Ju, Margaret Li, Y-Lan Boureau, Jason Weston, and Emily Dinan. 2020. Recipes for safety in
+open-domain chatbots. CoRR, abs/2010.07079. Zellers et al. (2019)
+
+Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi,
+Franziska Roesner, and Yejin Choi. 2019. Defending against neural
+fake news. CoRR, abs/1905.12616. Zhang et al. (2019)
+
+Jingqing Zhang, Yao Zhao, Mohammad Saleh, and Peter J. Liu. 2019. PEGASUS: pre-training with
+extracted gap-sentences for abstractive summarization. CoRR, abs/1912.08777. Zhou et al. (2021)
+
+Chunting Zhou, Graham Neubig, Jiatao Gu, Mona Diab, Francisco Guzmán, Luke
+Zettlemoyer, and Marjan Ghazvininejad. 2021. Detecting
+hallucinated content in conditional neural sequence generation. In Findings of the Association for Computational Linguistics:
+ACL-IJCNLP 2021, pages 1393–1404, Online. Association for Computational
+Linguistics.

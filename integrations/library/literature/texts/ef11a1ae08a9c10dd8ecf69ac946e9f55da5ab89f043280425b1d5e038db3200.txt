@@ -1,0 +1,17 @@
+arXiv preprint arXiv:1707.07328, 2017. Jones et al. (2023)
+
+Erik Jones, Anca Dragan, Aditi Raghunathan, and Jacob Steinhardt. Automatically auditing large language models via discrete
+optimization. arXiv preprint arXiv:2303.04381, 2023. Korbak et al. (2023)
+
+Tomasz Korbak, Kejian Shi, Angelica Chen, Rasika Vinayak Bhalerao, Christopher
+Buckley, Jason Phang, Samuel R Bowman, and Ethan Perez. Pretraining language models with human preferences. In International Conference on Machine Learning, pages
+17506–17533. PMLR, 2023. Leike et al. (2018)
+
+Jan Leike, David Krueger, Tom Everitt, Miljan Martic, Vishal Maini, and Shane
+Legg. Scalable agent alignment via reward modeling: a research direction. arXiv preprint arXiv:1811.07871, 2018. Leino et al. (2021)
+
+Klas Leino, Zifan Wang, and Matt Fredrikson. Globally-robust neural networks. In International Conference on Machine Learning. PMLR, 2021. Lester et al. (2021)
+
+Brian Lester, Rami Al-Rfou, and Noah Constant. The power of scale for parameter-efficient prompt tuning. arXiv preprint arXiv:2104.08691, 2021. Li et al. (2023)
+
+Linyi Li, Tao Xie, and Bo Li. Sok: Certified robustness for deep neural networks.

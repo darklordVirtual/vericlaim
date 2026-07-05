@@ -1,0 +1,17 @@
+We warn readers that some of the samples from InstructGPT [Ouyang et al., 2022] were likely cherry picked to display poor model behavior, on purpose, and so may be unrepresentative. Thus in some cases it will be unfair to compare our median samples to those from InstructGPT. InstructGPT Prompt
+
+What is the purpose of the list C in the code below? def binomial_coefficient(n, r):
+C = [0 for i in range(r + 1)];
+C[0] = 1;
+for i in range(1, n + 1):
+j = min(i, r);
+while j > 0:
+C[j] += C[j - 1];
+j -= 1;
+return C[r]
+
+InstructGPT Response
+
+The list C in this code is used to store the values of the binomial coefficient as the function iterates through the values of n and r. It is used to calculate the value of the binomial coefficient for a given value of n and r, and stores the result in the final return value of the function. HH RLHF Response
+
+C in the code above is an array that stores partial results for calculating a binomial coefficient. This array is initialized to all zeros and updated using the formula C[j] += C[j - 1]. Finally, the binomial coefficient is returned using C[r].

@@ -1,0 +1,53 @@
+The estimates for Approach 2 & 3 are similar (shown in Section D.3)
+
+. Parameters
+FLOPs
+FLOPs (in Gopher unit)
+Tokens
+
+400 Million
+1.92e+19
+
+8.0 Billion
+
+1 Billion
+1.21e+20
+
+20.2 Billion
+
+10 Billion
+1.23e+22
+
+205.1 Billion
+
+67 Billion
+5.76e+23
+
+1.5 Trillion
+
+175 Billion
+3.85e+24
+
+3.7 Trillion
+
+280 Billion
+9.90e+24
+
+5.9 Trillion
+
+520 Billion
+3.43e+25
+
+11.0 Trillion
+
+1 Trillion
+1.27e+26
+
+21.2 Trillion
+
+10 Trillion
+1.30e+28
+
+216.2 Trillion
+
+In Table 3 we show the estimated number of FLOPs and tokens that would ensure that a model of a given size lies on the compute-optimal frontier. Our findings suggests that the current generation of large language models are considerably over-sized, given their respective compute budgets, as shown in Figure 1. For example, we find that a 175 billion parameter model should be trained with a compute budget of FLOPs and on over 4.2 trillion tokens. A 280 billion Gopher-like model is the optimal model to train given a compute budget of approximately FLOPs and should be trained on 6.8 trillion tokens.

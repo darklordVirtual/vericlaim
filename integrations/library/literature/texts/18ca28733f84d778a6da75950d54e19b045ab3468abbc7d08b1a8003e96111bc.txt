@@ -1,0 +1,1 @@
+On some tasks, model scores can be less than 0 (e.g., if a model does worse than random guessing on multiple-choice tasks), or greater than 100. Human experts would be expected to achieve scores close to 100. In plots of aggregate performance, this normalized preferred metric is averaged over all tasks. The best performing language models achieved a score of less than 20.

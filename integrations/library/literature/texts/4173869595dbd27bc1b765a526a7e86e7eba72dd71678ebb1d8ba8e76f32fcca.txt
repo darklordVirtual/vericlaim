@@ -1,0 +1,8 @@
+range of
+notions:
+information processing activities
+may for example move, copy, or duplicate digital entities;
+physical activities can include
+driving a car between two locations or printing a book. Example 2 ◊
+
+An activity may be the publishing of a document on the Web, sending a twitter message, extracting metadata embedded in a file, driving a car from Boston to Cambridge, assembling a data set based on a set of measurements, performing a statistical analysis over a data set, sorting news items according to some criteria, running a SPARQL query over a triple store, or editing a file. Activities and entities are associated with each other in two different ways: activities utilize entities and activities produce entities. The act of utilizing or producing an entity may have a duration. The term 'generation' refers to the completion of the act of producing; likewise, the term 'usage' refers to the beginning of the act of utilizing entities. Thus, we define the following concepts of generation and usage. Generation is the completion of production of a new entity by an activity. This entity did not exist before generation and becomes available for usage after this generation.

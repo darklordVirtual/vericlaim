@@ -1,0 +1,22 @@
+from , and consider an application of the SGR procedure. For , let and , , be the
+selective classifier and bound computed by SGR in its th iterations. Then,
+
+Proof Sketch:
+
+For any , let be the random variable giving the size of accepted examples from on the th
+iteration of SGR. For any fixed value of , by Lemma 3.1, applied with the
+projected distribution , and a sample , consisting of examples drawn from the product distribution ,
+
+(5)
+
+The sampling distribution of labeled examples in SGR is determined by the following process: sample a
+set of
+examples from the product distribution and then use to filter , resulting in
+a (randon) number of examples. Therefore,
+the left-hand side of (5) equals
+
+Clearly,
+
+Therefore,
+
+An application of the union bound completes the proof.

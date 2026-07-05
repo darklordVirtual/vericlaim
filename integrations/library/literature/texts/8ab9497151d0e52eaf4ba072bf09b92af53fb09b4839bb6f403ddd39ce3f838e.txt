@@ -1,0 +1,14 @@
+Sedoc, Thibault Sellam, Samira Shaikh, Anastasia Shimorina,
+Marco Antonio Sobrevilla Cabezudo, Hendrik Strobelt, Nishant Subramani, Wei
+Xu, Diyi Yang, Akhila Yerukola, and Jiawei Zhou. The GEM benchmark: Natural language generation, its evaluation and
+metrics. In Proceedings of the 1st Workshop on Natural Language
+Generation, Evaluation, and Metrics (GEM 2021), pp. 96--120, Online,
+August 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.gem-1.10. URL https://aclanthology.org/2021.gem-1.10. Gentner et al. (1993)
+
+Dedre Gentner, Mary Jo Rattermann, and Kenneth D. Forbus. The roles of similarity in transfer: Separating retrievability from
+inferential soundness. Cognitive Psychology, 25(4):524--575,
+1993. doi: https://doi.org/10.1006/cogp.1993.1013. URL
+https://www.sciencedirect.com/science/article/pii/S0010028583710133. George & Mamidi (2020)
+
+Elizabeth Jasmi George and Radhika Mamidi. Conversational implicatures in English dialogue: Annotated dataset. Procedia Computer Science, 171:2316--2323, 2020. doi: https://doi.org/10.1016/j.procs.2020.04.251. URL
+https://www.sciencedirect.com/science/article/pii/S1877050920312436.

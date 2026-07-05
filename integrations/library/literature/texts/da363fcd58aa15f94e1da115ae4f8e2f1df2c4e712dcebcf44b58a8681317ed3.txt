@@ -1,0 +1,13 @@
+Marcus & Davis (2020)
+
+Gary Marcus and Ernest Davis. GPT-3, bloviator: OpenAI’s language generator has no idea what
+it’s talking about. MIT Technology Review, 22 August 2020. URL
+https://www.technologyreview.com/2020/08/22/1007539/gpt3-openai-language-generator-artificial-intelligence-ai-opinion/. Marcus et al. (1994)
+
+Mitchell Marcus, Grace Kim, Mary Ann Marcinkiewicz, Robert MacIntyre, Ann Bies,
+Mark Ferguson, Karen Katz, and Britta Schasberger. The Penn Treebank: Annotating predicate argument structure. In Human Language Technology: Proceedings of a Workshop
+held at Plainsboro, New Jersey, March 8-11, 1994, 1994. URL https://aclanthology.org/H94-1020. Markert et al. (2012)
+
+Katja Markert, Yufang Hou, and Michael Strube. Collective classification for fine-grained information status. In Proceedings of the 50th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp. 795--804, Jeju
+Island, Korea, July 2012. Association for Computational Linguistics. URL https://aclanthology.org/P12-1084. Marriott et al.

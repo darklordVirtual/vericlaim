@@ -1,0 +1,16 @@
+URL https://arxiv.org/abs/2006.00850. Park et al. (2021)
+
+Tae Jin Park, Naoyuki Kanda, Dimitrios Dimitriadis, Kyu J. Han, Shinji
+Watanabe, and Shrikanth Narayanan. A review of speaker diarization: Recent advances with deep learning,
+2021. URL https://arxiv.org/abs/2101.09624. Parrish et al. (2021)
+
+Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang,
+Jana Thompson, Phu Mon Htut, and Samuel R. Bowman. BBQ: A hand-built bias benchmark for question answering, 2021. URL https://arxiv.org/abs/2110.08193. Patel et al. (2021)
+
+Arkil Patel, Satwik Bhattamishra, and Navin Goyal. Are NLP models really able to solve simple math word problems? In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 2080--2094, Online, June 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.168. URL https://aclanthology.org/2021.naacl-main.168. Patterson et al. (2021)
+
+David Patterson, Joseph Gonzalez, Quoc V. Le, Chen Liang, Lluis-Miquel Munguia,
+Daniel Rothchild, David So, Maud Texier, and Jeff Dean. Carbon emissions and large neural network training, 2021.

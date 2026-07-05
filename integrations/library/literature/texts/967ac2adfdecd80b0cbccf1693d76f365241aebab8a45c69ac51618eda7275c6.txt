@@ -1,0 +1,5 @@
+The results for can be used to derive a lower-bound (and rough estimate) of the step at which early stopping should occur when training is data limited. It is motivated by the idea that finite and infinite learning curves for a given model will be very similar until we reach . Thus overfitting should be proportional to the correction from simply ending training at . This will underestimate , because in reality the test loss will decrease more slowly when we have a finite , and therefore we will require more training steps to reach the optimal test loss at finite . This line of reasoning leads to the inequality
+
+(5.7)
+
+where is the converged loss, evaluated with infinite available data. This inequality and its comparison to the empirical data is displayed in Figure 16 in the appendix. In that figure, the values of and are empirical (though is adjusted to mimic training at ), while is computed from the fit to evaluated at . Figure 12: Left: Given a fixed compute budget, a particular model size is optimal, though somewhat larger or smaller models can be trained with minimal additional compute.

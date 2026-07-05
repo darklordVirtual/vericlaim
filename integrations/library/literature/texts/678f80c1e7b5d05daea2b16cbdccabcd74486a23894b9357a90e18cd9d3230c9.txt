@@ -1,0 +1,21 @@
+The Data
+Nutrition Project incorporated some of the questions provided in the
+previous section into the latest release of their Dataset Nutrition
+Label (Chmielinski et al., 2020). Finally, the Partnership on AI, a
+multi-stakeholder organization focused on studying and
+formulating best practices for developing and deploying AI
+technologies, is working on industry-wide documentation guidance that
+builds on datasheets for datasets, model cards, and
+factsheets.333https://www.partnershiponai.org/about-ml/
+
+These initial successes have also revealed implementation challenges
+that may need to be addressed to support wider adoption. Chief among
+them is the need for dataset creators to modify the questions and
+workflow provided in the previous section based on their existing
+organizational infrastructure and workflows. We also note
+that the questions and workflow
+may pose problems for dynamic datasets. If a dataset
+changes only infrequently, we recommend accompanying updated versions
+with updated datasheets. Datasheets for datasets do not provide a complete solution to
+mitigating unwanted societal biases or potential risks or
+harms.

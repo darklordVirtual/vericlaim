@@ -1,0 +1,12 @@
+Finally, creating datasheets for datasets will necessarily impose
+overhead on dataset creators. Although datasheets may reduce the
+amount of time that dataset creators spend answering one-off questions
+about datasets, the process of creating a datasheet will always take
+time, and organizational infrastructure and workflows—not to mention
+incentives—will need to be modified to accommodate this investment. Despite these implementation challenges, there are many benefits to
+creating datasheets for datasets. In addition to facilitating better
+communication between dataset creators and dataset consumers,
+datasheets provide an opportunity for dataset creators to distinguish
+themselves as prioritizing transparency and
+accountability. Ultimately, we believe that the benefits to the
+machine learning community outweigh the costs.

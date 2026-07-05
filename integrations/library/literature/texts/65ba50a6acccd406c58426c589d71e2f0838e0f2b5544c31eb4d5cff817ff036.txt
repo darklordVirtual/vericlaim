@@ -1,0 +1,1 @@
+We then trained two types of models via RLHF: (1) helpful models which are trained only on the helpfulness data, and (2) ‘HH’ models which are trained on both helpfulness and harmlessness. Past experiments [Bai et al., 2022] showed that RLHF significantly improves the models’ ability to follow instructions, and the HH model is significantly more harmless than the helpful model.

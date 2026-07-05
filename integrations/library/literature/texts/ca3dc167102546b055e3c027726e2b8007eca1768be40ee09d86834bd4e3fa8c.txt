@@ -1,0 +1,13 @@
+Before going on to the third phase of machine learning, it is important to
+focus on something that is not taught in any machine learning class: how to
+look at an existing model, and improve it. This is more of an art than a
+science, and yet there are several anti­patterns that it helps to avoid. Rule #23: You are not a typical end user. This is perhaps the easiest way for a team to get bogged down. While there are
+a lot of benefits to fishfooding (using a prototype within your team) and
+dogfooding (using a prototype within your company), employees should look at
+whether the performance is correct. While a change which is obviously bad
+should not be used, anything that looks reasonably near production should be
+tested further, either by paying laypeople to answer questions on a
+crowdsourcing platform, or through a live experiment on real users. There are two reasons for this. The first is that you are too close to the
+code. You may be looking for a particular aspect of the posts, or you are
+simply too emotionally involved (e.g. confirmation bias). The second is that
+your time is too valuable.

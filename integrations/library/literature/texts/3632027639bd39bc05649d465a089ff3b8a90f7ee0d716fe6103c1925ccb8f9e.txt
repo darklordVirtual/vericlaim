@@ -1,0 +1,16 @@
+If the underlying
+score was close to optimal, then the derived predictor will be close to optimal
+among all predictors satisfying our definition. However, this does not mean that
+the predictor is necessarily good in an absolute sense. It also does not mean
+that the loss compared to the original predictor is always small. An
+alternative to using our post-processing step is always to invest in better
+features and more data. Only when this is no longer an option, should our
+post-processing step be applied. Predictive affirmative action. In some situations, including Scenario II in
+Section 6, the equalized odds predictor can be thought of as
+introducing some sort of affirmative action: the optimally predictive
+score is shifted based on . This shift compensates for the fact that,
+due to uncertainty, the score is in a sense more biased then the target label
+(roughly, is more correlated with then is correlated with ). Informally speaking, our approach transfers the burden of uncertainty
+from the protected class to the decision maker. We believe this is a reasonable
+proposal, since it incentivizes the decision maker to invest additional
+resources toward building a better model.

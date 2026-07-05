@@ -1,0 +1,3 @@
+Chen, Stanford University (yifuchen@stanford.edu); Francesca Happé, King’s College London (francesca.happe@kcl.ac.uk); and Aitor Lewkowycz, Google Research, Blueshift Team (alewkowycz@google.com). Task cites: (Happé, 1994; White et al., 2009)
+
+strategyqa: Mor Geva and Jonathan Berant, Tel Aviv University and Allen Institute for AI (morgeva, joberant)@cs.tau.ac.il; Elad Segal, Tel Aviv University (elad.segal@gmail.com); Dan Roth, University of Pennsylvania (danroth@seas.upenn.edu); and Daniel Khashabi and Tushar Khot, Allen Institute for AI (danielk, tushark)@allenai.org.

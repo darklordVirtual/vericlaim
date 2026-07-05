@@ -1,0 +1,7 @@
+Association for Computational Linguistics. Shuster et al. (2022)
+
+Kurt Shuster, Jing Xu, Mojtaba Komeili, Da Ju, Eric Michael Smith, Stephen
+Roller, Megan Ung, Moya Chen, Kushal Arora, Joshua Lane, Morteza Behrooz,
+William Ngan, Spencer Poff, Naman Goyal, Arthur Szlam, Y-Lan Boureau, Melanie
+Kambadur, and Jason Weston. 2022. Blenderbot 3: a
+deployed conversational agent that continually learns to responsibly engage. Thoppilan et al.

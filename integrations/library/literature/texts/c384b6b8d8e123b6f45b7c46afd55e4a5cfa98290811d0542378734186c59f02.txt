@@ -1,0 +1,18 @@
+Hazan, and S. Kale, editors, Proceedings of
+The 28th Conference on Learning Theory, volume 40 of Proceedings of
+Machine Learning Research, pages 563–587, Paris, France, 03–06 Jul 2015. PMLR. URL https://proceedings.mlr.press/v40/Dudik15.html. Go et al. [2023]
+
+D. Go, T. Korbak, G. Kruszewski, J. Rozen, N. Ryu, and M. Dymetman. Aligning language models with preferences through f-divergence
+minimization. In Proceedings of the 40th International Conference on Machine
+Learning, ICML’23. JMLR.org, 2023. Jain et al. [2013]
+
+A. Jain, B. Wojcik, T. Joachims, and A. Saxena. Learning trajectory preferences for manipulators via iterative
+improvement. In C. Burges, L. Bottou, M. Welling, Z. Ghahramani, and
+K. Weinberger, editors, Advances in Neural Information Processing
+Systems, volume 26. Curran Associates, Inc., 2013. URL
+https://proceedings.neurips.cc/paper_files/paper/2013/file/c058f544c737782deacefa532d9add4c-Paper.pdf. Jaques et al. [2017]
+
+N. Jaques, S. Gu, D. Bahdanau, J. M. Hernández-Lobato, R. E. Turner, and
+D. Eck. Sequence tutor: Conservative fine-tuning of sequence generation
+models with kl-control. In International Conference on Machine Learning, pages
+1645–1654. PMLR, 2017.

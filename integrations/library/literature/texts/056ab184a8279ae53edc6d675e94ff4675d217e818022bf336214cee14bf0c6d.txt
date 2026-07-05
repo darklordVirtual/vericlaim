@@ -1,0 +1,14 @@
+Unfortunately, unlike
+training on adversarial examples, this did not result in any significant reduction of the model’s
+test set error rate. In conclusion, it appears that a randomly selected input to deep or shallow models built from
+linear parts is overwhelmingly
+likely to be processed incorrectly, and that these models only behave reasonably on a very
+thin manifold encompassing the training data. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

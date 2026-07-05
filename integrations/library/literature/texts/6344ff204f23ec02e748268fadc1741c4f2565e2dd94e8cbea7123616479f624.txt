@@ -1,0 +1,3 @@
+Usage,
+Generation, Derivation, and Association are represented as directed edges. Entities are laid out according to the ordering of their generation. We endeavor to show time progressing from left to right. This means that edges for Usage, Generation,
+Derivation, Association typically point leftwards

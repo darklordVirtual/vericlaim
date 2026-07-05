@@ -1,0 +1,23 @@
+Emergent
+abilities of large language models. Transactions on Machine Learning Research. Wiegreffe et al. (2022)
+
+Sarah Wiegreffe, Jack Hessel, Swabha Swayamdipta, Mark Riedl, and Yejin Choi. 2022. Reframing human-AI
+collaboration for generating free-text explanations. NAACL. Wiegreffe and Marasović (2021)
+
+Sarah Wiegreffe and Ana Marasović. 2021. Teach me to explain: A
+review of datasets for explainable NLP. NeurIPS. Wiegreffe et al. (2021)
+
+Sarah Wiegreffe, Ana Marasović, and Noah A. Smith. 2021. Measuring
+association between labels and free-text rationales. EMNLP. Wu et al. (2022a)
+
+Tongshuang Wu, Ellen Jiang, Aaron Donsbach, Jeff Gray, Alejandra Molina,
+Michael Terry, and Carrie J Cai. 2022a. PromptChainer: Chaining large language model prompts through visual
+programming. CHI Extended Abstracts. Wu et al. (2022b)
+
+Tongshuang Wu, Michael Terry, and Carrie Jun Cai. 2022b. AI
+chains: Transparent and controllable human-AI interaction by chaining large
+language model prompts. CHI. Yan et al. (2020)
+
+Yujun Yan, Kevin Swersky, Danai Koutra, Parthasarathy Ranganathan, and Milad
+Hashemi. 2020. Neural execution engines:
+Learning to execute subroutines. NeurIPS. Yao et al.

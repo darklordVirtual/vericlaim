@@ -1,0 +1,31 @@
+The proof of Theorem 2.2 uses the following lemma on the approximate continuity of the empirical risk. Lemma 1 (Jump Lemma). In the setting of Theorem 2.2, any jumps in the empirical risk are bounded, i.e.,
+
+(39)
+
+Proof of Jump Lemma, Lemma 1. By boundedness, the maximum contribution of any single point to the jump is , so
+
+(40)
+
+Call the sets of discontinuities in . Since is bounded monotone, has countably many points. The union bound then implies that
+
+(41)
+
+Rewriting each term of the right-hand side using tower property and law of total probability gives
+
+(42)
+
+(43)
+
+Where the second inequality is because the union of the events is the entire sample space, but they are not disjoint, and the third equality is due to the independence between and . Rewriting in terms of the jump function and applying the assumption ,
+
+(44)
+
+Chaining the above inequalities yields , so
+
+. ∎
+
+Proof of Theorem 2.2. If , then . Throughout the rest of the proof, we assume that . Define the quantity
+
+(45)
+
+Since , exists almost surely. Deterministically, , which yields .

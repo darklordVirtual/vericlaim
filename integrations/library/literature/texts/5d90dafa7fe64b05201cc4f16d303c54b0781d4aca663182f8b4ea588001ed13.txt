@@ -1,0 +1,13 @@
+and temporarily allocated data not freed, leading to unpredictable behavior, crashes, and corrupted data;
+
+•
+
+A large number of calls to free where the validity of the returned data is not checked. This could lead to incorrect (but potentially plausible) weights being loaded to the network;
+
+•
+
+Potential "divide by zeros" in the training code. This could lead to crashes during online training, if the system were to be used in such a way; and
+
+•
+
+Potential floating-point "divide by zeros," some of which were located in the network cost calculation function. As noted above, this could be an issue during online training. We note that many of the above errors are only applicable to languages such as C and C++ (i.e., statically typed languages), and not Python, a language widely used in the implementation of numerous ML libraries and frameworks. As a dynamically typed language, Python brings about a different set of program errors not typically exhibited by statically typed languages (e.g., type errors).

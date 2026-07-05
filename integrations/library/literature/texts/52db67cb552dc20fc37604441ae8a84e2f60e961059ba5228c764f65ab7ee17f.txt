@@ -1,0 +1,150 @@
+Table 8. McNemar Test: Pairwise Significance of Key Comparisons
+
+Comparison
+
+Metric
+
+Sig. Qwen2.5-14B vs GPT ZH
+
+IR
+
+22.0
+
+Yes
+
+Qwen3.5-9B vs GPT ZH
+
+IR
+
+8.7
+
+.003
+
+Yes
+
+GPT vs BART-MNLI ZH
+
+IR
+
+379.0
+
+Yes
+
+Qwen2.5-14B vs GPT EN
+
+IR
+
+12.1
+
+Yes
+
+Qwen3.5-9B vs GPT EN
+
+IR
+
+0.04
+
+.838
+
+No
+
+GPT vs BART-MNLI EN
+
+IR
+
+397.0
+
+Yes
+
+GPT vs Qwen2.5-14B ZH
+
+FPR
+
+19.2
+
+Yes
+
+GPT vs Qwen3.5-9B ZH
+
+FPR
+
+130.1
+
+Yes
+
+GPT vs Qwen2.5-14B EN
+
+FPR
+
+20.1
+
+Yes
+
+GPT vs Qwen3.5-9B EN
+
+FPR
+
+25.8
+
+Yes
+
+Q14B vs QG ZH
+
+IR
+
+15.1
+
+Yes
+
+Q14B vs QG EN
+
+IR
+
+8.1
+
+.004
+
+Yes
+
+Q14B vs Qwen2.5-14B ZH
+
+FPR
+
+17.1
+
+Yes
+
+Q14B vs Qwen2.5-14B EN
+
+FPR
+
+48.0
+
+Yes
+
+QG vs GPT-4o-mini ZH
+
+FPR
+
+4.2
+
+.041
+
+Yes
+
+QG vs GPT-4o-mini EN
+
+FPR
+
+24.0
+
+Yes
+
+McNemar’s test with continuity correction (conservative; without correction,
+
+all comparisons except Qwen3.5-9B vs. GPT EN IR remain significant at );
+
+(IR), (FPR). QG: Qwen3.5-9BGPT-4o-mini cascade;
+Q14B: Qwen3.5-9BQwen2.5-14B cascade; GPT: GPT-4o-mini. TC3 comparisons ( malicious, benign per language)
+are not included in Table 8; McNemar’s test on
+this subset remains future work due to the smaller sample size. 7.4.9.

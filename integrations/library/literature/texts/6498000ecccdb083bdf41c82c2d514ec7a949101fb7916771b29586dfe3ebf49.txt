@@ -1,0 +1,18 @@
+Steinberg. Progress report on program-understanding systems (AIM-240), 1974. URL
+http://infolab.stanford.edu/pub/cstr/reports/cs/tr/74/444/CS-TR-74-444.pdf. Green (1981)
+
+Cordell Green. Application of theorem proving to problem solving. In Bonnie Lynn Webber and Nils J. Nilsson (eds.), Readings in
+Artificial Intelligence, pp. 202--222. Morgan Kaufmann, 1981. doi: https://doi.org/10.1016/B978-0-934613-03-3.50019-2. URL
+https://www.sciencedirect.com/science/article/pii/B9780934613033500192. Grice & Strawson (1956)
+
+H. Paul Grice and Peter F. Strawson. In defense of a dogma. The Philosophical Review, 65(2):141--158,
+1956. URL http://www.jstor.org/stable/2182828. Grover et al. (2019)
+
+Aditya Grover, Eric Wang, Aaron Zweig, and Stefano Ermon. Stochastic optimization of sorting networks via continuous
+relaxations, 2019. URL https://arxiv.org/abs/1903.08850. Gu et al. (2018)
+
+Jiatao Gu, Hany Hassan, Jacob Devlin, and Victor O. K. Li. Universal neural machine translation for extremely low resource
+languages, 2018. URL https://arxiv.org/abs/1802.05368. Gulordava et al. (2018)
+
+Kristina Gulordava, Piotr Bojanowski, Edouard Grave, Tal Linzen, and Marco
+Baroni.

@@ -1,0 +1,19 @@
+doi: 10.18653/v1/2021.mrl-1.1. URL https://aclanthology.org/2021.mrl-1.1. Winograd (1972)
+
+Terry Winograd. Understanding natural language. Cognitive Psychology, 3(1):1--191, 1972. doi: https://doi.org/10.1016/0010-0285(72)90002-3. URL
+https://www.sciencedirect.com/science/article/pii/0010028572900023. Wittgenstein (1953)
+
+Ludwig Wittgenstein. Philosophical investigations. Basil Blackwell, Oxford, 1953. Wolf (2019)
+
+Thomas Wolf. Some additional experiments extending the tech report ‘‘assessing
+BERT’s syntactic abilities’’ by Yoav Goldberg, 2019. URL
+https://huggingface.co/bert-syntax/extending-bert-syntax.pdf. Wolf et al. (2019)
+
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe
+Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien
+Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+and Alexander M. Rush. Huggingface’s transformers: State-of-the-art natural language
+processing, 2019. URL https://arxiv.org/abs/1910.03771. Won et al. (2021)
+
+Min-Sub Won, YunSeok Choi, Samuel Kim, CheolWon Na, and Jee-Hyong Lee.

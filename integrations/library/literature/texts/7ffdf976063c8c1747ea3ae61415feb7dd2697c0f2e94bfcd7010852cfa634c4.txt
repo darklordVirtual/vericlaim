@@ -1,0 +1,12 @@
+There will be certain indications that the second phase is reaching a close. First of all, your monthly gains will start to diminish. You will start to have
+tradeoffs between metrics: you will see some rise and others fall in some
+experiments. This is where it gets interesting. Since the gains are harder to
+achieve, the machine learning has to get more sophisticated. A caveat: this
+section has more blue-sky rules than earlier sections. We have seen many teams
+go through the happy times of Phase I and Phase II machine learning. Once Phase
+III has been reached, teams have to find their own path. Rule #38: Don’t waste time on new features if unaligned objectives have become the issue. As your measurements plateau, your team will start to look at issues that are
+outside the scope of the objectives of your current machine learning system. As
+stated before, if the product goals are not covered by the existing algorithmic
+objective, you need to change either your objective or your product goals. For
+instance, you may optimize clicks, plus-ones, or downloads, but make launch
+decisions based in part on human raters. Rule #39: Launch decisions are a proxy for long-term product goals.

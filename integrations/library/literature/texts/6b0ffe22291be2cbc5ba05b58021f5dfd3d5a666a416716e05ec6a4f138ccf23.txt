@@ -1,0 +1,3 @@
+The retrieval component is based on DPR [26]. DPR follows a bi-encoder architecture:
+
+where is a dense representation of a document produced by a BERTBASE document encoder [8], and a query representation produced by a query encoder, also based on BERTBASE. Calculating , the list of documents with highest prior probability , is a Maximum Inner Product Search (MIPS) problem, which can be approximately solved in sub-linear time [23]. We use a pre-trained bi-encoder from DPR to initialize our retriever and to build the document index. This retriever was trained to retrieve documents which contain answers to TriviaQA [24] questions and Natural Questions [29]. We refer to the document index as the non-parametric memory.

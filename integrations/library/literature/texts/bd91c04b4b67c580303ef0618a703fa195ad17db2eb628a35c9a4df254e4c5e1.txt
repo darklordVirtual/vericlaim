@@ -1,0 +1,39 @@
+documentation referred to in Article 11(1)
+
+The technical documentation referred to in Article 11(1) shall contain at least the following information, as applicable to the relevant AI system:
+
+1. A general description of the AI system including:
+
+(a)
+
+its intended purpose, the name of the provider and the version of the system reflecting its relation to previous versions;
+
+(b)
+
+how the AI system interacts with, or can be used to interact with, hardware or software, including with other AI systems, that are not part of the AI system itself, where applicable;
+
+(c)
+
+the versions of relevant software or firmware, and any requirements related to version updates;
+
+(d)
+
+the description of all the forms in which the AI system is placed on the market or put into service, such as software packages embedded into hardware, downloads, or APIs;
+
+(e)
+
+the description of the hardware on which the AI system is intended to run;
+
+(f)
+
+where the AI system is a component of products, photographs or illustrations showing external features, the marking and internal layout of those products;
+
+(g)
+
+a basic description of the user-interface provided to the deployer;
+
+(h)
+
+instructions for use for the deployer, and a basic description of the user-interface provided to the deployer, where applicable;
+
+2.

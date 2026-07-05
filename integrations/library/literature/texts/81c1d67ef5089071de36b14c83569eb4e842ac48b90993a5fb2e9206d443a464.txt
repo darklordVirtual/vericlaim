@@ -1,0 +1,11 @@
+(c) Retrieval frequency and normalized accuracy on PubHealth and PopQA. Table 12: Instructions and demonstrations for
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsUse
+
+tokens. HTML conversions sometimes display errors due to content that did not convert correctly from the source. This paper uses the following packages that are not yet supported by the HTML conversion tool. Feedback on these issues are not necessary; they are known and are being worked on. failed: mwe
+
+failed: titletoc
+
+failed: arydshln
+
+Authors: achieve the best HTML results from your LaTeX submissions by selecting from this list of supported packages.

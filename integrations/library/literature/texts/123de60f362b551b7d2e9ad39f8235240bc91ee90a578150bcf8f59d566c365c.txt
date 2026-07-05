@@ -1,0 +1,16 @@
+acts on behalf
+of the researcher (line-management) encoding the commands specified by the researcher; the researcher acts on behalf of the funder, who has a contractual agreement with the researcher. The terms
+'line-management' and 'contract' used in this example are domain specific. activity(a,[ prov:type="workflow" ])
+agent(ag1, [ prov:type="programmer" ])
+agent(ag2, [ prov:type="researcher" ])
+agent(ag3, [ prov:type="funder" ])
+wasAssociatedWith(a, ag1, [ prov:role="loggedInUser" ])
+wasAssociatedWith(a, ag2)
+wasAssociatedWith(a, ag3)
+actedOnBehalfOf(ag1, ag2, a, [ prov:type="line-management" ])
+actedOnBehalfOf(ag2, ag3, a, [ prov:type="contract" ])
+
+5.3.5 Influence
+
+Influence ◊ is the capacity of an entity, activity, or agent to have an effect on the character, development, or behavior of another by means of usage, start, end, generation, invalidation, communication, derivation, attribution, association, or delegation. An influence relation between two objects o2 and o1 is a generic dependency of o2
+on o1 that signifies some form of influence of o1 on o2.

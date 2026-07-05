@@ -1,0 +1,17 @@
+A corpus and evaluation framework for deeper understanding of
+commonsense stories, 2016. URL https://arxiv.org/abs/1604.01696. Mulligan et al. (2021)
+
+Karl Mulligan, Robert Frank, and Tal Linzen. Structure here, bias there: Hierarchical generalization by jointly
+learning syntactic transformations. In Proceedings of the Society for Computation in Linguistics
+2021, pp. 125--135, Online, February 2021. Association for Computational
+Linguistics. URL https://aclanthology.org/2021.scil-1.12. Murakami & Mizuguchi (2010)
+
+Yoichi Murakami and Kenji Mizuguchi. Applying the naïve Bayes classifier with kernel density estimation
+to the prediction of protein–protein interaction sites. Bioinformatics, 26(15):1841--1848, 06
+2010. doi: 10.1093/bioinformatics/btq302. URL https://doi.org/10.1093/bioinformatics/btq302. Murphy (1988)
+
+Gregory L. Murphy. Comprehending complex concepts. Cognitive Science, 12(4):529--562, 1988. doi: https://doi.org/10.1207/s15516709cog1204_2. URL
+https://onlinelibrary.wiley.com/doi/abs/10.1207/s15516709cog1204_2. Nadeem et al. (2020)
+
+Moin Nadeem, Anna Bethke, and Siva Reddy. StereoSet: Measuring stereotypical bias in pretrained language
+models, 2020.

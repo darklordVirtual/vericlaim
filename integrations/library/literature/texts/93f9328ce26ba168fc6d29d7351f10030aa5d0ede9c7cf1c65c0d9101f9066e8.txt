@@ -1,0 +1,12 @@
+fully data-sovereign deployments, a local-only cascade
+(Qwen3.5-9BQwen2.5-14B) achieves 94.7–95.6% IR with
+6.0–9.7% FPR (), indicating that a viable
+local alternative exists without cloud dependency. Qwen3.5-4B (3.4 GB, 490 ms) offers a viable
+edge-deployment option with 94.3–95.8% IR, though its
+elevated FPR (27.5–29.2%) limits suitability to
+risk-tolerant or human-in-the-loop settings, while
+Qwen2.5-14B approaches cloud-level precision on Chinese
+(FPR 9.7% vs. GPT-4o-mini’s 3.2%) at local-deployment cost. RQ3 (End-to-end overhead). The full four-layer pipeline achieves 96% IR with a total
+P50 latency of 980 ms, of which Layers 1, 3, and 4 contribute
+only 18 ms. The LLM judge dominates runtime cost,
+confirming that LGA’s overhead is effectively one inference call.

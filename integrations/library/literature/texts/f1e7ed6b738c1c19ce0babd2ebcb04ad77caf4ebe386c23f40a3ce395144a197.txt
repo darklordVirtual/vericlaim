@@ -1,0 +1,3 @@
+Programming LLM calls require strict instructions to produce function bodies only,
+due to the extensive dialogue training of the LLMs. A few programming examples are reported
+below with instructions highlighted in blue and templates. See the full implementation at https://github.com/noahshinn024/reflexion.

@@ -1,0 +1,22 @@
+(2021)
+
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+Tang, Dawn Song, and Jacob Steinhardt. 2021. Measuring mathematical
+problem solving with the math dataset. arXiv preprint arXiv:2103.03874. Hosseini et al. (2014)
+
+Mohammad Javad Hosseini, Hannaneh Hajishirzi, Oren Etzioni, and Nate Kushman. 2014. Learning to solve
+arithmetic word problems with verb categorization. EMNLP. Jie et al. (2022)
+
+Zhanming Jie, Jierui Li, and Wei Lu. 2022. Learning to reason
+deductively: Math word problem solving as complex relation extraction. arXiv preprint arXiv:2203.10316. Kaplan et al. (2020)
+
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon
+Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. 2020. Scaling laws for neural
+language models. arXiv preprint arXiv:2001.08361. Koncel-Kedziorski et al. (2016)
+
+Rik Koncel-Kedziorski, Subhro Roy, Aida Amini, Nate Kushman, and Hannaneh
+Hajishirzi. 2016. MAWPS: A math word
+problem repository. NAACL. Lampinen et al. (2022)
+
+Andrew K. Lampinen, Ishita Dasgupta, Stephanie C.Y. Chan, Kory Matthewson,
+Michael Henry Tessler, Antonia Creswell, James L. McClelland, Jane X.

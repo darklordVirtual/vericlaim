@@ -1,0 +1,1 @@
+Similar to CommonsenseQA, GSM8K includes questions that require basic background knowledge, like the number of days in a week. Similar to LogiQA, which requires a mix of reading comprehension and logical reasoning, GSM8K’s main difficulty lies in both properly interpreting a question and reasoning through the steps to solve it.

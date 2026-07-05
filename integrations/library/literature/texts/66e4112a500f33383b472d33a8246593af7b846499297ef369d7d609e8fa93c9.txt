@@ -1,0 +1,5 @@
+class "8" on the MNIST dataset; green squares, true positives, red circles, false negatives
+
+The MC-dropout technique we consider was recently proposed to quantify uncertainty in neural networks [9]. To estimate uncertainty for a given instance , we run a number of
+feed-forward iterations over , each applied with dropout in the last fully connected layer. Uncertainty is taken as the
+variance in the responses of the neuron corresponding to the most probable class. We consider minus uncertainty as the MC-dropout confidence rate.

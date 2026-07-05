@@ -1,0 +1,21 @@
+Language models are few-shot learners. arXiv preprint arXiv:2005.14165, 2020. [8]
+
+Nicholas Carlini, Chang Liu, Úlfar Erlingsson, Jernej Kos, and Dawn Song. The secret sharer: Evaluating and testing unintended memorization in
+neural networks. In USENIX Security Symposium, 2019. [9]
+
+Kamalika Chaudhuri and Claire Monteleoni. Privacy-preserving logistic regression. In NIPS, 2009. [10]
+
+Mia Xu Chen, Benjamin N Lee, Gagan Bansal, Yuan Cao, Shuyuan Zhang, Justin Lu,
+Jackie Tsay, Yinan Wang, Andrew M Dai, Zhifeng Chen, Timothy Sohn, and
+Yonghui Wu. Gmail smart compose: Real-Time assisted writing. In KDD, 2019. [11]
+
+Andrea Continella, Yanick Fratantonio, Martina Lindorfer, Alessandro Puccetti,
+Ali Zand, Christopher Kruegel, and Giovanni Vigna. Obfuscation-Resilient Privacy Leak Detection for Mobile Apps Through
+Differential Analysis. In NDSS, 2017. [12]
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for
+language understanding. In NAACL, 2019. [13]
+
+C Dwork, F McSherry, K Nissim, and A Smith. Calibrating noise to sensitivity in private data analysis. In TCC, 2006. [14]
+
+Cynthia Dwork.

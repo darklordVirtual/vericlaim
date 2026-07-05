@@ -1,0 +1,8 @@
+This document introduces the provenance concepts found in
+PROV and defines PROV-DM types and
+relations. The PROV data model is domain-agnostic, but is equipped with
+extensibility points allowing domain-specific information to be included. Two further documents complete the specification of PROV-DM. First, a companion document specifies the set of constraints that
+provenance should follow. Second,
+a separate document describes a provenance notation for expressing
+instances of provenance for human consumption; this notation is used in examples in
+this document. The PROV Document Overview describes the overall state of PROV, and should be read before other PROV documents.

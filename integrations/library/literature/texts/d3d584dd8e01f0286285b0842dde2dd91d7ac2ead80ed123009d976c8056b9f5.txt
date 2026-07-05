@@ -1,0 +1,7 @@
+Further, given a sequence of weights, let
+
+be the weighted cross entropy loss for over the tokens if the model is prefixed with . We compare two different instantiations of this loss:
+
+where denotes an empty sequence. The former is the weighted loss over all tokens if the API call and its result are given to as a prefix;333We provide as a prefix instead of inserting it at position because is not yet finetuned on any examples containing API calls, so inserting it in the middle of would interrupt the flow and not align with patterns in the pretraining corpus, thus hurting perplexity. the latter is the minimum of the losses obtained from (i) doing no API call at all and (ii) doing an API call, but not providing the response. Intuitively, an API call is helpful to if providing it with both the input and the output of this call makes it easier for the model to predict future tokens, compared to not receiving the API call at all, or receiving only its input. Given a filtering threshold , we thus only keep API calls for which
+
+holds, i.e., adding the API call and its result reduces the loss by at least , compared to not doing any API call or obtaining no result from it.

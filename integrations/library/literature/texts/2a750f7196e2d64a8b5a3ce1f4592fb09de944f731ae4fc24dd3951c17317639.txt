@@ -1,0 +1,9 @@
+Thus far, we have shown that language models can memorize verbatim training strings, even when they are trained for few epochs and achieve small train-test accuracy gaps. A natural question is how many times a string must appear for it to be memorized (i.e., in Definition 2). Prior work has investigated LM memorization by
+varying the number of times particular “canary” tokens were inserted into a
+training dataset [8]. The main limitation of this approach is that it is synthetic:
+canaries are inserted artificially after the dataset has been collected and may not be representative of natural data. Here, we study how well GPT-2 memorizes
+naturally occurring canaries in the training data. In particular, we consider a piece of memorized content with the following prefix:
+
+{"color":"fuchsia","link":"https://www. reddit.com/r/The_Donald/comments/
+
+The reddit.com URL above is completed by a specific 6-character article ID and a title. We located URLs in this specific format in a single document on pastebin.com.

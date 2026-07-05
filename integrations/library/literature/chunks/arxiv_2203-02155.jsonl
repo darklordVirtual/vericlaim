@@ -1,0 +1,201 @@
+{"fsid": "arxiv_2203-02155", "n": 200, "overlap": 200, "source_sha256": "e5510c0ec02704c4c4a2b74af70eafcbee8e0c8fc77a2b2e1fb07fd0b194fbc7", "target": 1200}
+{"section": "", "seq": 0, "sha256": "e54f40af0a6f554f7065f34fe3a305c84fc38a5dea9faf9d13808897765a702c"}
+{"section": "Training language models to follow instructions with human feedback", "seq": 1, "sha256": "1691583a839359d0ea09fc2709a76bc10aace330c634d927c12b8d5426b67f87"}
+{"section": "Training language models to follow instructions with human feedback", "seq": 2, "sha256": "cfc6c7a63032ec376d019e19dfeede5de7db80ac82ba7e1bc7c03369b595cf23"}
+{"section": "Training language models to follow instructions with human feedback", "seq": 3, "sha256": "d68776805d6f3386d8ff57e9910bc1129117d46a0900e9099d7a6f3a8acb34a5"}
+{"section": "1 Introduction", "seq": 4, "sha256": "2db6f7afe52210099d9ee382cb7c3949b3784fbc5acc27fea507c63551b884b8"}
+{"section": "1 Introduction", "seq": 5, "sha256": "2dbcd96c139cddba00d74140c134ba94e64265b5420ce1224b37abfb95fdd534"}
+{"section": "1 Introduction", "seq": 6, "sha256": "68195d7a32414729fffe813319d08406b75c6d1155a7a0b720ec12cedcd4210f"}
+{"section": "1 Introduction", "seq": 7, "sha256": "e5ba5026b1df9f40a89626d620de7ca880ddbf48dec5f3b243942007d5bc6664"}
+{"section": "1 Introduction", "seq": 8, "sha256": "51d43dd326d9c5a6af62d09617e1f94d39301f0fa611d6a2cb3baeb1489f1e4a"}
+{"section": "1 Introduction", "seq": 9, "sha256": "a95fa9f5177005341ab226bffd5f19f2b016173efd6fb2d7d1952f4025a6ce3f"}
+{"section": "1 Introduction", "seq": 10, "sha256": "1ad8614f71942dc4756a69893f6ae0cde51bcffb08fb10b49e08a674783f2254"}
+{"section": "1 Introduction", "seq": 11, "sha256": "e4971aaf82c54d82718249df7f3f43a6324af20b42e333a596a9136cc66f80c6"}
+{"section": "1 Introduction", "seq": 12, "sha256": "93bcb9dbf9a6eb2f78c9a40ca336fe0e83c987e17862c52c54967f02b6902bee"}
+{"section": "1 Introduction", "seq": 13, "sha256": "7ce0001b5703814d42d9320affd52d90c69ad0b2f3c46e8e44fd481d799180b5"}
+{"section": "2 Related work", "seq": 14, "sha256": "4db1ed4f20073a994114c4716e6d14eac61f595b687a917bfdfaa57367fb05fc"}
+{"section": "2 Related work", "seq": 15, "sha256": "84e9f0e9964469a5170ae9bbcfc88f1fc8d0a0e3d25346b72528868810dbccaa"}
+{"section": "2 Related work", "seq": 16, "sha256": "b64bfdee70dce37f186ac231b7c088572b04c8cfdcbf59b9acdce58064ddf81c"}
+{"section": "2 Related work", "seq": 17, "sha256": "f8817ea381f4ff5958f8007102d8008e64926400f64fa1a0dc34fe16a5ec3059"}
+{"section": "2 Related work", "seq": 18, "sha256": "eab13558d419698ccaf4f0019f54b074a722513a1e6a9b8a081a7d482234b9ce"}
+{"section": "2 Related work", "seq": 19, "sha256": "639819c8734c14dd2cbe16f52fd3139a3e77fd49a35a55cde045b44b442ed7e6"}
+{"section": "2 Related work", "seq": 20, "sha256": "66f2d853a3764cbd6215973bdbd96145cd447625c2eb58512a8b9f4f40b9bd87"}
+{"section": "3.1 High-level methodology", "seq": 21, "sha256": "01e8d7c6d987da054009d9fb15556b18cb1c0636f256fd47145213d2fc1dec74"}
+{"section": "3.1 High-level methodology", "seq": 22, "sha256": "996fb13de68ea2d7e24d88b105bf3ed3fa857029403e002a7815b41d135dea4c"}
+{"section": "3.1 High-level methodology", "seq": 23, "sha256": "a8fd3e0ee1d7e46be39d23bfe54538f687709fb05ee212cda2ecb372357fd42c"}
+{"section": "3.2 Dataset", "seq": 24, "sha256": "630c846c36e024e93cd3254710f69f806d50408eec02a1e9065eea47c22edda6"}
+{"section": "3.2 Dataset", "seq": 25, "sha256": "09099f7e01b6d22f534e3a253a03b7ad150705e90558528d3269f7df790c29bf"}
+{"section": "3.2 Dataset", "seq": 26, "sha256": "d2dd9dbf1211c752d9c161a908bab2e7e4acbd0f11241d1ef422cbe2d2d81d0c"}
+{"section": "3.3 Tasks", "seq": 27, "sha256": "d551de3c30302ff339c5602a95e60d96db25c67893bbe602bb278354f16f7a25"}
+{"section": "3.3 Tasks", "seq": 28, "sha256": "4c50a00c3047cea53515af056c572c22aebfe3ceda2b4c28dfc302d7f4a15f37"}
+{"section": "3.4 Human data collection", "seq": 29, "sha256": "b4498b70b3f97681fe65f3f01da28e469675f2c49131b75725a51f4687c333b1"}
+{"section": "3.4 Human data collection", "seq": 30, "sha256": "58b24358cb5f481c78a82742b601844ea83995acb5d63eb7ed818f44063954b8"}
+{"section": "3.5 Models", "seq": 31, "sha256": "0403f87890c5bb784d4fbb344157dc4cdca8510d8ebb7324a32a04594cefb794"}
+{"section": "3.5 Models", "seq": 32, "sha256": "94897609157bf8bdeef4f08920a8665ead1e8038a25d8b925af7387df2fa0fec"}
+{"section": "3.5 Models", "seq": 33, "sha256": "da48de34e887e8890b973705eac1c2d9d69462c688070daf2270e19a8ed7838e"}
+{"section": "3.5 Models", "seq": 34, "sha256": "b301f007921e90e33b4cbcd5069df7a863b935be9c75dca61c886b14c0e0c0dc"}
+{"section": "3.5 Models", "seq": 35, "sha256": "765ca1b4b4e377d906216eb0de255a56df422500da9896ae128a0be45a4be901"}
+{"section": "3.5 Models", "seq": 36, "sha256": "43f72a63a60967a8d03ff99d7697b5c304f31b01eb8d6c8966a4b4d23720954e"}
+{"section": "3.5 Models", "seq": 37, "sha256": "66cf76dd1ca1f2d508ed42cee2bc0bee2da1679cb645b21c3436743e631f5566"}
+{"section": "3.6 Evaluation", "seq": 38, "sha256": "8d98a1435849533dcf6f3e3ecb54c6bf35b5247bd696eaf4febbdc283d6daf36"}
+{"section": "3.6 Evaluation", "seq": 39, "sha256": "618b2925e7a88b4f28d024f3472fe640364f03b61e1c0237692d2b115333cdfc"}
+{"section": "3.6 Evaluation", "seq": 40, "sha256": "3e2b6bb3a2a31378a30ead6368eae54c49fbb98fe7151d757a8b630bb821b9ef"}
+{"section": "3.6 Evaluation", "seq": 41, "sha256": "e02bb1657b395e8e38fc5142562668d92834ab3f835403db97d3861d8a2352ad"}
+{"section": "3.6 Evaluation", "seq": 42, "sha256": "407aa93413b935699aba1eb2624b56e9db9dcd0f8e9e7b01170d7332a9d18d29"}
+{"section": "4 Results", "seq": 43, "sha256": "5fe639e2244acf3f468db7a71817db23effdaca6067ef453e2a445361d328f1a"}
+{"section": "4.1 Results on the API distribution", "seq": 44, "sha256": "63d6c811fde893d5d8fbbb66eaebe96f49f39572e32bea880af7fee7812cc355"}
+{"section": "4.1 Results on the API distribution", "seq": 45, "sha256": "9c7d7584fa57a839ba86bce07d5cffe0f31779ccf6affb099973dd76b22b9b00"}
+{"section": "4.1 Results on the API distribution", "seq": 46, "sha256": "b0fa9cd5d255ff6985566f246dca9a3ad3644beafa20e4ce33e05e11869dc012"}
+{"section": "4.1 Results on the API distribution", "seq": 47, "sha256": "4e7c67f466908498408963ce843056de267deab35f07606213d1fb099cf8467a"}
+{"section": "4.1 Results on the API distribution", "seq": 48, "sha256": "3c97c1bbc32d638f1470b14609aa22cd19da49430d67b10158d995121718738b"}
+{"section": "4.2 Results on public NLP datasets", "seq": 49, "sha256": "d9916a69c7d0269bd184c74ce17054f614e4f5b5ccaff7433b90c6501e8192cd"}
+{"section": "4.2 Results on public NLP datasets", "seq": 50, "sha256": "f2f1c4fe473ced96690bd9005f5a4aadc935c196974571219f6f07e473ca37f2"}
+{"section": "4.2 Results on public NLP datasets", "seq": 51, "sha256": "01d3cc956687e7ee5f656a0aa50874b00e29b1efb85b037ab40179883b1225e9"}
+{"section": "4.2 Results on public NLP datasets", "seq": 52, "sha256": "d8a967ce1f504d727da3c4698eaaaa8681fa92fde820a05fbf94c0795694ca06"}
+{"section": "4.2 Results on public NLP datasets", "seq": 53, "sha256": "85a1606c85acc17d6a712cc240f7f02035680ceebe22841f212fd73d73666d5e"}
+{"section": "4.2 Results on public NLP datasets", "seq": 54, "sha256": "4899879d46da5efc9c81db5fe75fbfbbe0fe7cd29f579834620cf5989bda6da1"}
+{"section": "4.2 Results on public NLP datasets", "seq": 55, "sha256": "3cdd75e6aed426897ae0dd60faf0e993854f56eef8a422714f0a251383a61a64"}
+{"section": "4.2 Results on public NLP datasets", "seq": 56, "sha256": "3813e71456ad0785e89298188e547cbb9ea37deac77f3f71e067b02ecd3a9eb9"}
+{"section": "4.2 Results on public NLP datasets", "seq": 57, "sha256": "1940c2e7780466bc31834e35ffae253d407d406ec6d58b31ee4aacad8751ca2d"}
+{"section": "4.2 Results on public NLP datasets", "seq": 58, "sha256": "4355425981fa47443c67abf3048610079b9a6ad46a1bafbc2776f3f6c4dd39c3"}
+{"section": "4.2 Results on public NLP datasets", "seq": 59, "sha256": "3b4388f4138fecb91a6220785fa8090790bebc0220606610198e7426923d5bf3"}
+{"section": "4.2 Results on public NLP datasets", "seq": 60, "sha256": "2ac4e386b956f8039aa6e59676d6d7e113c703da75baf140cc29d0e587d84460"}
+{"section": "4.3 Qualitative results", "seq": 61, "sha256": "2b2e3cbfbcf52fb27ef2424d19ded69e32aec8ca278efbe51c118d95eb2cc795"}
+{"section": "4.3 Qualitative results", "seq": 62, "sha256": "939124617f9aed529e2a3941eab8d58d6b2fb81dcdc5f44843ab977e4c61c812"}
+{"section": "4.3 Qualitative results", "seq": 63, "sha256": "a5a7045487c9178d837453db44f590540e3b3a0ff2d2e77b9c3b85d8c98ff0f3"}
+{"section": "5.1 Implications for alignment research", "seq": 64, "sha256": "7c5a04943b60aa9cffe398a3a144bf1231677fee0fd4c55c1315024e506c0351"}
+{"section": "5.1 Implications for alignment research", "seq": 65, "sha256": "ce99b9fd9e41c4dde3b7d39c0fcc61b77ae428b23a74eb83e54329b5f5963ee5"}
+{"section": "5.1 Implications for alignment research", "seq": 66, "sha256": "49e1d39542bae5c837ed98356cd30935e43dda9a91b8221722a3ed7bd63f679b"}
+{"section": "5.1 Implications for alignment research", "seq": 67, "sha256": "412cdd9fbe19159e58f1fdebc083d49cf003d54481a140505e46112ee7358dd2"}
+{"section": "5.1 Implications for alignment research", "seq": 68, "sha256": "be11838003e936b7c757d543447e5927845f315ddb0d592926bd59233f61a096"}
+{"section": "5.2 Who are we aligning to?", "seq": 69, "sha256": "4c56aeb3205d27d91687d152cefabf60eeecf28023b71297c427d2f6241845ab"}
+{"section": "5.2 Who are we aligning to?", "seq": 70, "sha256": "3394bdeb34f44253f8ae4840340ee3616a0438ed4586bf229c6761a85550e886"}
+{"section": "5.2 Who are we aligning to?", "seq": 71, "sha256": "7e66d5a39e09ef12e0a4124efa6894d48d271b7ac80e264d33396dd521c08b7c"}
+{"section": "5.2 Who are we aligning to?", "seq": 72, "sha256": "519f31acd643b08b24f674e0cb45584c55e8b6cd905a1535fcf310ca2a2ada4d"}
+{"section": "5.2 Who are we aligning to?", "seq": 73, "sha256": "a00a4775d17fbcf1f29da883a17e95405093bb07f06eb0371cb376e948caed3d"}
+{"section": "5.3 Limitations", "seq": 74, "sha256": "6bd3b335d0598ca6a10d07c87b4451a981c11bcd1081519259ebbc43ccb447b9"}
+{"section": "5.3 Limitations", "seq": 75, "sha256": "2ae8453a94e22c72fade5b099ec2207929ea75fbc8093a2ee7a50251083aa4ea"}
+{"section": "5.3 Limitations", "seq": 76, "sha256": "aced587c2b8e4f853d258e15b89fb557991d3b02319da18786072089764c7b84"}
+{"section": "5.4 Open questions", "seq": 77, "sha256": "fcc7456c332be97713152cd6c3ff3576eb43a80eb93f7d478f27960a094e11d3"}
+{"section": "5.4 Open questions", "seq": 78, "sha256": "a523138d495513d6712fc2bce1360fbe976275657974a2a77e2d75c4f919d34e"}
+{"section": "5.4 Open questions", "seq": 79, "sha256": "a5dbf716715e4c47dfd3ab7dd8890126c20c0264b5a43ee495ca6009e3432eaf"}
+{"section": "5.4 Open questions", "seq": 80, "sha256": "0617194a35c7023fe75e07691125915c30873cb02035d4547fe824a87435a667"}
+{"section": "5.4 Open questions", "seq": 81, "sha256": "4c381c6497a858c21f0bdc95bea22d35b5386461e3902e3a22407aa486e7e493"}
+{"section": "5.5 Broader impacts", "seq": 82, "sha256": "8a722a1e373a04145858178f6975ba12158cf104a3c1b9cfbb13b2c69722947b"}
+{"section": "5.5 Broader impacts", "seq": 83, "sha256": "5a31d771ccde1948f20b644bc6613baad8fb30cf525bb012e98688e0c3b322d5"}
+{"section": "5.5 Broader impacts", "seq": 84, "sha256": "7ad6e596bd2d25d4b1223c9ec36abcefc802c550f947cae87e25a31bfa2cd1ec"}
+{"section": "Acknowledgements", "seq": 85, "sha256": "5b4366798280d19c389a3463d3b0f444825102f6d82bbe589ff42f8bb74b51a6"}
+{"section": "Acknowledgements", "seq": 86, "sha256": "6c4584e54758ab3fafe471c372a17bbb92d2f2395266fa34c6e4b5f7228b99de"}
+{"section": "Acknowledgements", "seq": 87, "sha256": "f22679a2756ea71aeb2836093a7e89f409bda9faec8d4b2891811d3419c99c23"}
+{"section": "References", "seq": 88, "sha256": "e27548fe46425b775d3bc8127cfb04409bb85319324f9aac211fc4bcaca2caac"}
+{"section": "References", "seq": 89, "sha256": "9a71d92c0a012ee87ecc37fc969da9a79d58b09915c5f26c9ed86b01c0171447"}
+{"section": "References", "seq": 90, "sha256": "25e646e5361974afee22323ad1d4b9599b7aa31e22e5c8ff5d95a38d522c1ae3"}
+{"section": "References", "seq": 91, "sha256": "ce4c78fbd69e4db09e5b536d29ff9fd88a7a3caa0abfb6d85aa2f16679b9ffd0"}
+{"section": "References", "seq": 92, "sha256": "3060b9fa15d7125bbbf691b3a1266dba145c92f5f1ddc6bae25d35791bbc89f0"}
+{"section": "References", "seq": 93, "sha256": "2a79a258cad12b895c3e040e6355817a81e7d4bf7e81c5829f4929b0950b5010"}
+{"section": "References", "seq": 94, "sha256": "a4240a176ece56e22298dc2c1951463005f919321f366dbd4dd152e66e53aca2"}
+{"section": "References", "seq": 95, "sha256": "92d4a7aa07890b689148deff176a828037705b3bc0b62e789df5e36fde5db100"}
+{"section": "References", "seq": 96, "sha256": "cf39f40f97df497c651a7c6d378e57ad4d27cde91d56d7609645d54fd68b00d2"}
+{"section": "References", "seq": 97, "sha256": "d04dd2c2b9068f191178772120fa8e9110ed4562c3719d1c74888928b32391f9"}
+{"section": "References", "seq": 98, "sha256": "bda01ef58557946681572ac2137fc53aba186f38901f8858bfecb020d27ecf2b"}
+{"section": "References", "seq": 99, "sha256": "e9bd79d7e63641828241a9a85c4d6182831d47eb28337a6a85eeb073d5ad6769"}
+{"section": "References", "seq": 100, "sha256": "446715e72f29d8c6412c2d50b49b099b5f9e134f8200ee89a15d8546c2b97c73"}
+{"section": "References", "seq": 101, "sha256": "17a3076eae6286de748cf50632cbe95ffcdc7b88ec2f1352a318092587c27410"}
+{"section": "References", "seq": 102, "sha256": "5c75bfee0f677a5c3aad20b19baa04ca4bf168fbef6ee91ac3b92fb764e8669e"}
+{"section": "References", "seq": 103, "sha256": "db4e0c85b40c927a4722eb2328b379db8ad92f7a4af38963477c89ca1ee3cc33"}
+{"section": "References", "seq": 104, "sha256": "477401856a2e8224b056b5f17857f9b57c903fcf8548172bd02783945a839bc5"}
+{"section": "References", "seq": 105, "sha256": "9b8486f4014857e9c397936a0027351aacc4cf8369bb1863ec709f49dbddb38a"}
+{"section": "References", "seq": 106, "sha256": "956b89a837e621606a101490ae651267199a7ac95d83589915734b9bc34d2d15"}
+{"section": "References", "seq": 107, "sha256": "af6c5d9622fcb7eb04710557cfe6adb3f13a29341b6e34fedfa75ca7fa9fa2fa"}
+{"section": "A.1 Labeler-written prompts", "seq": 108, "sha256": "5a6799225f76ce7022e7d34f767886869702b48481e07944bc53289d65e2a0d5"}
+{"section": "A.1 Labeler-written prompts", "seq": 109, "sha256": "d52dfe4495cf217763406c6e50da4204f6ebbded63683069c4566985cfdc3569"}
+{"section": "A.2 API user prompts", "seq": 110, "sha256": "8d5f5e148761007fb0a1c03188dbb13fe67857482ddbdfbda1b47c840e2839fc"}
+{"section": "A.2 API user prompts", "seq": 111, "sha256": "0069fa24f79cc6bb10a52238bd357259ee0dccc92213b43c34a58ba94e3cf8e0"}
+{"section": "A.2 API user prompts", "seq": 112, "sha256": "5d78e6018f6543e583318fac015eded2a7b28518f6fa2bb3b78837ea8953542d"}
+{"section": "A.2 API user prompts", "seq": 113, "sha256": "4f0195c01b26d1b84a7e41645b6d57b98536b748b5156928e41c45fea70cbd44"}
+{"section": "A.2 API user prompts", "seq": 114, "sha256": "b28579c3ea81bbcbedd566db09dae12d37877ba5534fc541750c48125f7f6c6f"}
+{"section": "A.2 API user prompts", "seq": 115, "sha256": "1ef12130d6926b7a71d819fef0d6e50787205e7aace25cc02f3da7291a0fbcb0"}
+{"section": "A.2 API user prompts", "seq": 116, "sha256": "9e3f400a9bd92ca52aafd7280e47e1cf96084b383102b7361eec0484195bd021"}
+{"section": "A.2 API user prompts", "seq": 117, "sha256": "96d800fb1117e736f449342c6066b9eeae5ed41924538fcfc5c5889a98b8bedf"}
+{"section": "A.2 API user prompts", "seq": 118, "sha256": "31644fa770fce05b9dec54b0e0c8568ed54c94c563cdf5adf18728efcf2aaf94"}
+{"section": "A.2 API user prompts", "seq": 119, "sha256": "7a8c21326200b56729b51e767f824a4f4d0ade3b5a3bf443e383853454a9fa56"}
+{"section": "A.3 Dataset sizes", "seq": 120, "sha256": "95e37d629f3be4a6b347468184be9a5ea9f6c34260b60fd9ecf01cdab5103cbc"}
+{"section": "A.3 Dataset sizes", "seq": 121, "sha256": "a0615e25c6f8df7ba354dee7c498e8da0be2322bdc75c504433948421229ffb1"}
+{"section": "A.4 Data diversity", "seq": 122, "sha256": "f0f27e16de7ae178b6f057288da2fbc4a59d45f0ba31a677404e315e3dd3b8f3"}
+{"section": "A.4 Data diversity", "seq": 123, "sha256": "6ea5a5f3ed8924557cd01f4cb7bb3d83cb6945393327d545429813118b8119e3"}
+{"section": "A.4 Data diversity", "seq": 124, "sha256": "934015b5022fe2fe0e9493ae9ac6d72b6abc18d5135187586c396528958aa545"}
+{"section": "B.1 Labeler selection", "seq": 125, "sha256": "091a9ae4aa87e546a2c05744fdb9dd7ad7de0a9a3e2a4f568dd9502db7b7cf80"}
+{"section": "B.1 Labeler selection", "seq": 126, "sha256": "7fa020ccf3a459f1d05c4050b2163461d091bd709c2044f919c37c398f824e83"}
+{"section": "B.1 Labeler selection", "seq": 127, "sha256": "8bebf8976ca265b861716dd90e1d21933b1d96343f52f10d1337bc0bcdb4e1fd"}
+{"section": "B.1 Labeler selection", "seq": 128, "sha256": "4197a4e3d1fb4ff7fbef1b9d4968fa66af57116359b5c51c6d21dfe283a59686"}
+{"section": "B.1 Labeler selection", "seq": 129, "sha256": "c1c595a7dda3a19771955a796114d370a33b200d65f1c8b805b2b60cdc3ca5f5"}
+{"section": "B.1 Labeler selection", "seq": 130, "sha256": "19ac1119a51e91041fd2fc75a9306e6534584fd89f3894a26cbb79a0737b2702"}
+{"section": "B.1 Labeler selection", "seq": 131, "sha256": "729e7f71777d687b11ac4a64d98a4184b7c80d9494c551603bc78ff71d03fd6d"}
+{"section": "B.1 Labeler selection", "seq": 132, "sha256": "8557e47ec7fb2be9ac2a9fe9b5bf998b471e3040bbf310162774faa6b32ad73f"}
+{"section": "B.1 Labeler selection", "seq": 133, "sha256": "0f704a3ea51309ab6517a6a9a36942179d56b35d6b64f6ed1311aec20ffb6f37"}
+{"section": "B.1 Labeler selection", "seq": 134, "sha256": "44e4cea776c5aab213d0b5f0a69a8c229ed6a4af3572a332478cc2999c58d967"}
+{"section": "B.2 Labeling instructions", "seq": 135, "sha256": "7ab84eca935a38d1ec54f70f1e70bfed673a91f3129fb81341a6240a0e876f83"}
+{"section": "B.2 Labeling instructions", "seq": 136, "sha256": "2d06fd3802bb29e0754e80066b1800c5ed27302b804e10094acfcf675e02a689"}
+{"section": "B.3 Labeler demographic data", "seq": 137, "sha256": "700ec33e149bc1b32ad585d39ce178554307f00e51c038f97543f73240cee96d"}
+{"section": "B.4 Labeler satisfaction survey", "seq": 138, "sha256": "ae90937491fce155734cd5e593732b7d914f3306a0695ded61c062e5db585379"}
+{"section": "B.5 Web interface", "seq": 139, "sha256": "aaa27f92b1c44b99b322c6f20ab6820bc0b22c059a61227ca1398df689a18056"}
+{"section": "Appendix C Additional model details", "seq": 140, "sha256": "fb48b8c69bda8b21b2afd1a0fabea4fce239fb0484ffdeca67673bd50927faf1"}
+{"section": "C.1 Details of SFT training", "seq": 141, "sha256": "f709b51834a4302b02e02a83613af532cce10ed3550e233078bb2e95a5813b74"}
+{"section": "C.2 Details of RM training", "seq": 142, "sha256": "b4acb99d9d70a9c6323b127ed11fc859b3c6d0c9091ae8593d538a6000b45483"}
+{"section": "C.2 Details of RM training", "seq": 143, "sha256": "3d5fdc57ab320117f4066c77f8a8c5975632419fd77b3c74f759fcbee1f48dce"}
+{"section": "C.3 Details of the initialization models for RLHF", "seq": 144, "sha256": "99d9844f351c2d97eb3eb88d07e927973da5d4411e1431fae03c4dfcf85bd6e2"}
+{"section": "C.4 Details of RLHF training", "seq": 145, "sha256": "4f524a93f0a78e0e45bfe3cc064caa42ec7860feb8cc38cef83b3984314bcc69"}
+{"section": "C.4 Details of RLHF training", "seq": 146, "sha256": "0731b929f5a5f839a2de54493a4539b40c5e7746003544520fc95cad858db17b"}
+{"section": "C.5 FLAN and T0 models", "seq": 147, "sha256": "9738cea40955f85fb3136d2d4e00a554c983dd73a9645f617092751866f9075b"}
+{"section": "C.5 FLAN and T0 models", "seq": 148, "sha256": "1a479cee84db4e11935a7ebe61a21a9aedd700ab97ec39490781cae32742c43f"}
+{"section": "Appendix D Automatic evaluation details", "seq": 149, "sha256": "685dcc51601cbc07c8d4fc0175b84fe9399d3e5db30113af7352a9530248527f"}
+{"section": "D.1 Toxicity and bias evaluation details", "seq": 150, "sha256": "bbb83e88ca29c2da195b7899dd8c6736e9ffd3ac50d845c7cc702a5235edf260"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 151, "sha256": "9fa3ed760fb8e602eea52d46b9a05ce6693558ee6b4b30f2475d5a77c76b2896"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 152, "sha256": "c4ae9fce6955851de6f010ff789a89911fda7abf8fffbb95b8c2d70f179fbc36"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 153, "sha256": "8ce3faa03551c05eddc2d89703dd4fc7c41c9202abcd4aa0dee316d27c96d6db"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 154, "sha256": "c86b1abce95aef211471d453a5a10ece8436f72f7e4c79b6dccf6aed4280c364"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 155, "sha256": "547a34e83b75679d3ce4dcbce7e1865929b81a70d3e5b1dd1be08711e9f9f434"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 156, "sha256": "2d8b13e88f10eecab2f71f45e136a9570629253e97950b34c46d6a5c92f26833"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 157, "sha256": "a2e32660ae7a3e967dd49592da81e997f15eb8a5ec6695dca6567a935d2d53c1"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 158, "sha256": "0db1ef4b3643caa44ccfd7d74c2b2ce161e2f981f96bdb8333b045207ca17398"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 159, "sha256": "2737594669d622c6da20aa617ffe6fc43a1f15c5241024fdf5e9c2d9effe51fd"}
+{"section": "D.2 Prompt structure and evaluation features for each eval dataset", "seq": 160, "sha256": "340bf3736f80076151dd8fc79cba0cb5686bea35deb1e6f4916df8c6119906df"}
+{"section": "Appendix E Additional results", "seq": 161, "sha256": "3a4e002879fbb081003f9027b15d85ba090ba1efc6f9c3846a6fab49b78849f3"}
+{"section": "E.1 Performance on public NLP datasets", "seq": 162, "sha256": "62ee52e52ab070001b87beba6fd961bd8be91767df3e282dc98aaadc2b5e66ee"}
+{"section": "E.2 Reward model generalization across sets of labelers", "seq": 163, "sha256": "95da1719463a3d9fd57bfff8972cec997ce1f89dc081e844a54ccdc033d767ae"}
+{"section": "E.3 Metadata results as a function of model size", "seq": 164, "sha256": "0ae010323a3eecd0933dd3339afd76cb2a31313542534aae54c6e624d7d51f87"}
+{"section": "E.4 Likert scores", "seq": 165, "sha256": "dbc8f314bdc6c6347bb99d66d76d648f28f383120bbcd35d9f13ad3935230c17"}
+{"section": "E.5 Measuring bias", "seq": 166, "sha256": "78b973c2514723a956dbf31579e0a2353344e7145bb4dcf0229820007b162dcb"}
+{"section": "E.5 Measuring bias", "seq": 167, "sha256": "5f7d5a98572aa66e701e1c6ae09fc08e12b5176c53ee49c98a62e12b0041c754"}
+{"section": "E.5 Measuring bias", "seq": 168, "sha256": "6c40887aede8cb1be75995d6ebae89caac3072158652552d6fdb5c58c4485bce"}
+{"section": "E.6 Fixing regressions on public NLP datasets", "seq": 169, "sha256": "941588597afce7b3e1cb1fba105f3b00bdf4cdedbb3824ab38bcb89abdf1e8d8"}
+{"section": "E.6 Fixing regressions on public NLP datasets", "seq": 170, "sha256": "6e2787d6ac8890870cbfd396b4ebc0ac2b00a1693c2b0698b31dec9873c6d5db"}
+{"section": "E.6 Fixing regressions on public NLP datasets", "seq": 171, "sha256": "eb2e1de75391b046b7c85d96a08ec20eb44e32f9de0c6ac3222f1bb3042763b9"}
+{"section": "E.7 Optimal KL reward coefficient", "seq": 172, "sha256": "ea51b9c5e052ed40e50f9a351911e518563413d64eab9a92d3bed893df815b56"}
+{"section": "E.8 PPO init models", "seq": 173, "sha256": "a8135844d284a16f1e9f13f94cefc21ab7dfa4e54bd34591f6f55a9a2eef0224"}
+{"section": "E.9 Learning rate optimization for PPO models", "seq": 174, "sha256": "653e207a9a79abc9546a75a3ea7dc83d0259c57537ac834596f2c6f7b399418a"}
+{"section": "E.10 RealToxicityPrompts results as a function of input toxicity", "seq": 175, "sha256": "c805b135c8e2b77df2c248d415470a9882e202b2e875792abe96c0e6d4537fb7"}
+{"section": "E.11 Additional ablations", "seq": 176, "sha256": "a892311f30a327d46a50b9eff84245784e90bf589a6f8e9031182fb15fe39d6f"}
+{"section": "E.11 Additional ablations", "seq": 177, "sha256": "77f9fc2fcca73df2efc6f258464786a122f76eb929038ce0ea20f80e8acca03a"}
+{"section": "Appendix F Model samples", "seq": 178, "sha256": "20a22094888bf7eed6a7d4921c61467059ae66c030636eeb19d3ac90e61577e7"}
+{"section": "Appendix F Model samples", "seq": 179, "sha256": "71d01aeb1b9a07bfad09d28a2010c0e336c34fd7d53b8aa6fefe4a62bf6032bd"}
+{"section": "Appendix F Model samples", "seq": 180, "sha256": "93081715a9c8b5aa1066cdf1312238744a0cf01fe86720aa04fdaf83753f0f22"}
+{"section": "Appendix F Model samples", "seq": 181, "sha256": "d7e52797e053221dac427b784f5160d7fc79744b0b361ee79688107e7eead550"}
+{"section": "Appendix F Model samples", "seq": 182, "sha256": "0943f93c3c6605ee974acf1aa1a2e0bf6bda21ef50cb92e92d4e418102224a12"}
+{"section": "Appendix F Model samples", "seq": 183, "sha256": "dcb9596c46aad8979677e6125378330ed834807f4fd0b93cadc4a1234329448f"}
+{"section": "Appendix F Model samples", "seq": 184, "sha256": "8e22610c030cb7261fb753befb473359b7c9e3251b1fe3489667057527f2e189"}
+{"section": "Appendix F Model samples", "seq": 185, "sha256": "fd2dd9e0bd998e72d02d1e59cbe542054344fc9a3c6e7c02a0a2ff9a61e486e4"}
+{"section": "Appendix F Model samples", "seq": 186, "sha256": "833d0d254d981270088843d299ad854109cc0f15f86e5910d6026b5902862108"}
+{"section": "Appendix F Model samples", "seq": 187, "sha256": "0e76edba2c267169abb2d1502517d47dd93fcb0d1745ef798fdb9a39090df236"}
+{"section": "Appendix F Model samples", "seq": 188, "sha256": "f2eab31a401a9560fb68a3d235f455cb722ac208f335866989027ad2e75f8dbb"}
+{"section": "Appendix F Model samples", "seq": 189, "sha256": "9cbd6b4b78cafefd2a34a22517d2e83139527e294ff053d357df62bc93a58aed"}
+{"section": "Appendix F Model samples", "seq": 190, "sha256": "e26bcff4f1f22962925f44a066db96dceab1200b36eb872b500a8c137d447d16"}
+{"section": "Appendix F Model samples", "seq": 191, "sha256": "09e9c2733acce52915b949468f5ed9fd1628f2b81ec38ffdd357b38b31baa646"}
+{"section": "Appendix F Model samples", "seq": 192, "sha256": "928e0b552db32bee36c1e8c6d8ff009a490699ec623696b0ab334539882735fb"}
+{"section": "Appendix F Model samples", "seq": 193, "sha256": "04e571aa7896694bd6f2bfd697f879a7e110ef57da99df0ee080484d301c5c21"}
+{"section": "Appendix F Model samples", "seq": 194, "sha256": "346b565446354e9e95c9a34985188c0cbdf801ef0bd2646f17539b6ce942c12b"}
+{"section": "Appendix F Model samples", "seq": 195, "sha256": "3ef1fa394dcce12edec9657ba5a63deaf6dd3fc45a93992bd60957c921780e79"}
+{"section": "Appendix F Model samples", "seq": 196, "sha256": "b9da07c38c73e19edc9fbf63efacdcf836d72bd20a40f3cdb83978575573623f"}
+{"section": "Appendix F Model samples", "seq": 197, "sha256": "b7d0e9c7f40d32f761b26a1b02ebb9c0e2277830553395fb33e096d8fbade700"}
+{"section": "Appendix F Model samples", "seq": 198, "sha256": "8998388a8a201ae319728600937a5018ed89c131f4ef8f06f8e01c716fdf0702"}
+{"section": "Appendix F Model samples", "seq": 199, "sha256": "eadc600c4c9d4735818f4d412b6555e00774df2abda36ae59c8d4f04e6bf0cf0"}

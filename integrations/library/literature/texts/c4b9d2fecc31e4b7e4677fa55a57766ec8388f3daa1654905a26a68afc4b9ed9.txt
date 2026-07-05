@@ -1,0 +1,4 @@
+that uses a similar self-supervised objective for teaching a model to use a calculator and a search engine, but explores this only in settings where a model is finetuned for downstream tasks. Bootstrapping
+
+The idea of using self-training and bootstrapping techniques to improve models has been investigated in various contexts, ranging from word sense disambiguation (Yarowsky, 1995), relation extraction (Brin, 1999; Agichtein and Gravano, 2000), parsing (McClosky et al., 2006; Reichart and Rappoport, 2007), sequence generation (He et al., 2020), few-shot text classification (Schick and
+Schütze, 2021a) and retrieval (Izacard and Grave, 2021) to reasoning (Zelikman et al., 2022). In a similar spirit to these approaches, Toolformer is trained on its own predictions after applying a perplexity-based filtering step.

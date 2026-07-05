@@ -1,0 +1,54 @@
+However, the false positive test execution rate for MBPP Python is 16.3% while
+the rate for HumanEval Python is a mere 1.4%, leading to 91% overall accuracy
+1. Ablation study
+
+Approach
+Test Generation
+Self-reflection
+Pass@1 (Acc)
+
+Base model
+
+False
+
+False
+
+0.60
+
+Test generation omission
+
+False
+
+True
+
+0.52
+
+Self-reflection omission
+
+True
+
+False
+
+0.60
+
+Reflexion
+
+True
+
+True
+
+0.68
+
+Table 3: Pass@1 accuracy for various compromised approaches on the
+Reflexion approach using GPT-4 as the base model on HumanEval Rust
+- 50 hardest problems
+
+We test the composite approach of Reflexion for test generation and self-reflection
+cooperation on a subset of the 50 hardest HumanEval Rust problems. Our Rust
+compiler environment provides verbose error logs and helpful debugging hints,
+therefore serving as a good playground for compromised approaches. First, we
+omit internal test generation and execution steps, which test the agent to
+self-reflect without guidance from
+current implementations. 3 shows an inferior
+52% vs 60% (baseline) accuracy, which suggests that the agent
+is unable to determine if the current implementation is correct without unit tests.

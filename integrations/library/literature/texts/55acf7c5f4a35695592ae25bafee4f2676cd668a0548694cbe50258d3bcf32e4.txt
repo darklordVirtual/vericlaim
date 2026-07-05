@@ -1,0 +1,16 @@
+Lakretz et al. (2019)
+
+Yair Lakretz, German Kruszewski, Theo Desbordes, Dieuwke Hupkes, Stanislas
+Dehaene, and Marco Baroni. The emergence of number and syntax units in LSTM language models. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 11--20, Minneapolis,
+Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1002. URL https://aclanthology.org/N19-1002. Lakretz et al. (2021a)
+
+Yair Lakretz, Théo Desbordes, Jean-Rémi King, Benoît Crabbé, Maxime Oquab,
+and Stanislas Dehaene. Can RNNs learn recursive nested subject-verb agreements?,
+2021a. URL https://arxiv.org/abs/2101.02258. Lakretz et al. (2021b)
+
+Yair Lakretz, Dieuwke Hupkes, Alessandra Vergallito, Marco Marelli, Marco
+Baroni, and Stanislas Dehaene. Mechanisms for handling nested dependencies in neural-network
+language models and humans. Cognition, 213:104699, 2021b. doi: https://doi.org/10.1016/j.cognition.2021.104699. URL
+https://www.sciencedirect.com/science/article/pii/S0010027721001189.

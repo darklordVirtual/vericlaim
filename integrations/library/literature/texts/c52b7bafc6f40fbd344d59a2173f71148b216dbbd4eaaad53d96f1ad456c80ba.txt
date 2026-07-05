@@ -1,0 +1,13 @@
+3 shows an inferior
+52% vs 60% (baseline) accuracy, which suggests that the agent
+is unable to determine if the current implementation is correct without unit tests. Therefore, the agent must participate in all
+iterations of the run without the option to return early, performing
+harmful edits to the implementation. Next, we test self-reflection contribution by omitting the natural
+language explanation step following failed unit test suite evaluations. Intuitively,
+this challenges the agent to combine the tasks of error identification and implementation
+improvement across all failed unit tests. Interestingly, the compromised agent
+does not improve performance over the baseline run. We observe that the test
+generation and code compilation steps are able to catch syntax and logic
+errors, but the implementation fixes do not reflect these indications. These empirical results suggest that several recent works that propose blind
+trial and error debugging techniques without self-reflection are ineffective
+on harder tasks such as writing complex programs in Rust.

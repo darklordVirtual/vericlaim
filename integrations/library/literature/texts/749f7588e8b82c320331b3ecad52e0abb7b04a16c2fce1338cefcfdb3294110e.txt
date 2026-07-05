@@ -1,0 +1,7 @@
+We include a guardrail specific to this application:
+
+•
+
+CodeShield, an online static-analysis engine for LLM-generated code that supports both Semgrep and regex-based rules. CodeShield is easily extensible to provide syntax-aware pattern matching across 8 programming languages to catch risks. We previously released CodeShield as part of the Llama 3 launch, and now include it in this unified framework. LlamaFirewall incorporates these guardrails into a unified policy engine. With LlamaFirewall, developers can construct custom pipelines, define conditional remediation strategies, and plug in new detectors. Like Snort, Zeek, or Sigma in traditional cybersecurity, LlamaFirewall aims to provide a collaborative security foundation—one where researchers, developers, and operators can share policies, compose defenses, and adapt to new threats in real time. The remainder of this paper is structured as follows:
+
+1. First, we discuss prior work on LLM security, including prompt injection defenses, static code analysis, agent alignment, and distinctions between open and proprietary systems. 2. Second, we introduce our guardrails framework, LlamaFirewall, and its architecture.

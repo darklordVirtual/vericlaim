@@ -1,0 +1,16 @@
+doi: 10.18653/v1/D19-1598. URL https://aclanthology.org/D19-1598. Lee et al. (2020)
+
+Nayeon Lee, Belinda Z. Li, Sinong Wang, Wen-tau Yih, Hao Ma, and Madian Khabsa. Language models as fact checkers? In Proceedings of the Third Workshop on Fact Extraction and
+VERification (FEVER), pp. 36--41, Online, July 2020. Association for
+Computational Linguistics. doi: 10.18653/v1/2020.fever-1.5. URL https://aclanthology.org/2020.fever-1.5. Lee et al. (2021)
+
+Nayeon Lee, Yejin Bang, Andrea Madotto, and Pascale Fung. Towards few-shot fact-checking via perplexity. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 1971--1981, Online, June 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.158. URL https://aclanthology.org/2021.naacl-main.158. Leike et al. (2018)
+
+Jan Leike, David Krueger, Tom Everitt, Miljan Martic, Vishal Maini, and Shane
+Legg. Scalable agent alignment via reward modeling: A research direction,
+2018. URL https://arxiv.org/abs/1811.07871. Lev et al. (2004)
+
+Iddo Lev, Bill MacCartney, Christopher Manning, and Roger Levy.

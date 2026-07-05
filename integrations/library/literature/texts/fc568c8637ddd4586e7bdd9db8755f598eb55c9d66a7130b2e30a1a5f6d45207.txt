@@ -1,0 +1,8 @@
+We evaluate various natural language RL setups on decision-making, reasoning,
+and code generation tasks. Specifically, we challenge an agent to perform
+search-based question answering on HotPotQA (Yang et al.,, 2018), multi-step
+tasks in common household environments in AlfWorld (Shridhar et al.,, 2021), and code
+writing tasks in competition-like environments with interpreters and
+compilers in HumanEval (Chen et al.,, 2021), MBPP (Austin et al.,, 2021),
+and LeetcodeHard, a new benchmark. Most notably, Reflexion improves performance
+over strong baselines by 22% in AlfWorld, 20% in HotPotQA, and 11% on HumanEval.

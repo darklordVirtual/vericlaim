@@ -1,0 +1,9 @@
+al. [76] which focuses on building trust in a hospital context, and contextualizes the role of interpretability in this process. where an incorrect prediction adversely impacts human welfare) or when it is important for end-users to have actionable recourse (e.g., bank loans) [77];
+
+•
+
+Less emphasis given historical performance data (e.g., a model with sufficient historical performance may be used even if it’s not interpretable); and
+
+•
+
+Less emphasis if improving interpretability incurs other costs (e.g., compromising privacy). In the longer term, for sensitive domains where human rights and/or welfare can be harmed, we anticipate that interpretability will be a key component of AI system audits, and that certain applications of AI will be gated on the success of providing adequate intuition to auditors about the model behavior. This is already the case in regulated domains such as finance [78].575757In New York, an investigation is ongoing into apparent gender discrimination associated with the Apple Card’s credit line allowances. This case illustrates the interplay of (a lack of) interpretability and the potential harms associated with automated decision-making systems [79].

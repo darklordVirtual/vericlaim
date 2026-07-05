@@ -1,0 +1,15 @@
+Datasheets for datasets are intended to address the needs of two key
+stakeholder groups: dataset creators and dataset consumers. For
+dataset creators, the primary objective is to encourage careful
+reflection on the process of creating, distributing, and maintaining a
+dataset, including any underlying assumptions, potential risks or
+harms, and implications of use. For dataset consumers, the primary
+objective is to ensure they have the information they need to make
+informed decisions about using a dataset. Transparency on the
+part of dataset creators is necessary for dataset consumers to
+be sufficiently well informed that they can select appropriate
+datasets for their
+chosen tasks and avoid unintentional misuse.111We note that in
+some cases, the people creating a datasheet for a dataset may not be
+the dataset creators, as was the case with the example datasheets that
+we created as part of our development process.

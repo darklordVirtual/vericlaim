@@ -1,0 +1,20 @@
+CoRR, 2015,
+1508.07909. [SLA+18]
+
+Christopher J. Shallue, Jaehoon Lee, Joe Antognini, Jascha Sohl-Dickstein, Roy
+Frostig, and George E. Dahl. Measuring the effects of data parallelism on neural network training,
+2018, arXiv:1811.03600. [SS18]
+
+Noam Shazeer and Mitchell Stern. Adafactor: Adaptive learning rates with sublinear memory cost. CoRR, abs/1804.04235, 2018,
+1804.04235. URL http://arxiv.org/abs/1804.04235. [THK18]
+
+Stefan Thurner, Rudolf Hanel, and Peter Klimek. Introduction to the theory of complex systems. Oxford University Press, 2018. [TL19]
+
+Mingxing Tan and Quoc V. Le. Efficientnet: Rethinking model scaling for convolutional neural
+networks. CoRR, abs/1905.11946, 2019,
+1905.11946. URL http://arxiv.org/abs/1905.11946. [VSP+17]
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Ł ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus,
+S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information
+Processing Systems 30, pages 5998–6008. Curran Associates, Inc., 2017. URL http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf.

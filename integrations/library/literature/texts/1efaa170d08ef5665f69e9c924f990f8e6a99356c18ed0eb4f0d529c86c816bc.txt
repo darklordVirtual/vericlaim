@@ -1,0 +1,9 @@
+These are tasks submitted and accepted to BIG-bench after the analysis of the paper has been performed. wino_x_german: Denis Emelin and Rico Sennrich (denis.emelin@gmail.com, sennrich@cl.uzh.ch)
+
+indic_cause_and_effect: Reshmika Sreenath Nambiar (reshmikasnambiar@gmail.com), Preeti Shubham (preeti_shubham@yahoo.com), Manan Dey (manandey1@gmail.com), Shanya Sharma (sharmashanya1297@gmail.com)
+
+rhyming: Oscar Knagg (oknagg@gmail.com)
+
+tellmewhy: Yash Kumar Lal (ylal@cs.stonybrook.edu), Nathanael Chambers (nchamber@usna.edu), Raymond Mooney (mooney@cs.utexas.edu), Niranjan Balasubramanian (niranjan@cs.stonybrook.edu)
+
+medical_questions_russian: Pavel Blinov (blinoff.pavel@gmail.com), Vladimir Kokh (kokh.v.n@gmail.com), Galina Zubkova (Galina.v.zubkova@gmail.com) and Aleksandr Nesterov (newnestor@mail.ru)

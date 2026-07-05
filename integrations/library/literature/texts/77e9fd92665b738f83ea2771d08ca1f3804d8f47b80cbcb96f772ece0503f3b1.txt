@@ -1,0 +1,9 @@
+This motivates the need for empirical approximations that capture the essence of (1). Reliability Diagrams
+
+(e.g. Figure 1 bottom)
+are a visual representation of model calibration (DeGroot & Fienberg, 1983; Niculescu-Mizil & Caruana, 2005). These diagrams plot expected sample accuracy as a function of confidence. If the model is perfectly calibrated – i.e. if (1) holds – then the diagram should plot the identity function. Any deviation from a perfect diagonal represents miscalibration. To estimate the expected accuracy from finite samples, we group predictions into interval bins (each of size ) and calculate the accuracy of each bin. Let be the set of indices of samples whose prediction confidence falls into the interval . The accuracy of is
+
+where and are the predicted and true class labels for
+sample . Basic probability tells us that is an unbiased and consistent estimator of . We define the average confidence within bin as
+
+where is the confidence for sample . and approximate the left-hand and right-hand sides of (1) respectively for bin . Therefore, a perfectly calibrated model will have for all .

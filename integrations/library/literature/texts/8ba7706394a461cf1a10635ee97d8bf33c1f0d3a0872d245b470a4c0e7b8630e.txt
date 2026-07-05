@@ -1,0 +1,5 @@
+toxicity threshold to be the -smallest of the , we construct the function
+
+(48)
+
+This gives the guarantee in Proposition 3—no more than fraction of future nontoxic text will be classified as toxic. Figure 16 shows results of this procedure using the Unitary Detoxify BERT-based model [hanu2020detoxify, devlin2018bert] on the Jigsaw Multilingual Toxic Comment Classification dataset from the WILDS benchmark [koh2021wilds]. It is composed of comments from the talk channels of Wikipedia pages. With a type-1 error of , the system correctly flags of all toxic comments.

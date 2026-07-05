@@ -1,0 +1,12 @@
+Threat model in detail. Two distinct adversarial models arise in practice. An adversary may be able to make direct queries, providing an arbitrary input to a model and obtaining the output . Or the adversary may be able to make only indirect
+queries, i.e., queries on points in input space yielding outputs . The feature extraction mechanism ex may be unknown to the adversary. In Section 5, we show how ML APIs can further be exploited to “learn” feature extraction mechanisms. Both direct and indirect
+access to arise in ML services. (Direct query interfaces arise when clients are expected to perform feature extraction locally.) In either case, the output value can be a class label, a
+confidence value vector, or some data structure revealing various
+levels of information, depending on the exposed API. We model the adversary, denoted by , as a
+randomized algorithm. The adversary’s goal is to
+use as few queries as possible to in order to efficiently compute an
+approximation that closely matches . We formalize “closely matching” using two different error measures:
+
+Test error : This is the average error over
+a test set , given by
+.

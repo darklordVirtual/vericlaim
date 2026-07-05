@@ -1,0 +1,8 @@
+Training Objective. A language model is trained to maximize the probability of the data in a training set . In this paper, each training example is a text document—for example, a specific news article or webpage from the internet. Formally, training involves minimizing the loss function
+
+over each training example in the training dataset . Because of this training setup, the “optimal” solution to the task of language modeling is to memorize the answer to the question “what token follows the
+sequence ?” for every prefix in the training set. However, state-of-the-art LMs are trained with massive datasets, which causes them to not exhibit significant forms of memorization: empirically, the training loss and the test loss are nearly identical [53, 55, 7]. Generating Text. A language model can generate new text (potentially conditioned
+on some prefix ) by iteratively sampling
+
+and then feeding back into the model to sample
+. This process is repeated until a desired stopping criterion is reached.

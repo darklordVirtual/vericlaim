@@ -1,0 +1,21 @@
+Association for Computational Linguistics. Merity et al. (2017)
+
+Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. 2017. Pointer sentinel
+mixture models. In International Conference on Learning Representations. Miao et al. (2020)
+
+Shen-yun Miao, Chao-Chun Liang, and Keh-Yih Su. 2020. A diverse
+corpus for evaluating and developing English math word problem solvers. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pages 975–984, Online. Association for
+Computational Linguistics. Nakano et al. (2021)
+
+Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina
+Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders,
+Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew
+Knight, Benjamin Chess, and John Schulman. 2021. Webgpt:
+Browser-assisted question-answering with human feedback. Parisi et al. (2022)
+
+Aaron Parisi, Yao Zhao, and Noah Fiedel. 2022. Talm: Tool
+augmented language models. Patel et al. (2021)
+
+Arkil Patel, Satwik Bhattamishra, and Navin Goyal. 2021. Are NLP
+models really able to solve simple math word problems?

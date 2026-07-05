@@ -1,0 +1,15 @@
+[ prov:type="authorship" ])
+
+5.3.3 Association
+
+An activity association ◊ is an assignment of responsibility to an agent for an activity, indicating that the agent had a role in the activity. It further allows for a plan to be specified, which is the plan intended by the agent to achieve some goals in the context of this activity. An association ◊, written wasAssociatedWith(id; a, ag, pl, attrs) in PROV-N, has:
+
+id: an OPTIONAL identifier for the association between an activity and an agent;
+
+activity: an identifier (a) for the activity;
+
+agent: an OPTIONAL identifier (ag) for the agent associated with the activity;
+
+plan: an OPTIONAL identifier (pl) for the plan the agent relied on in the context of this activity;
+
+attributes: an OPTIONAL set (attrs) of attribute-value pairs representing additional information about this association of this activity with this agent. While each of id, agent, plan, and attributes is OPTIONAL, at least one of them MUST be present. A plan ◊ is an entity that represents a set of actions or steps intended by one or more agents to achieve some goals. The type of a Plan entity is denoted by prov:Plan ◊. PROV defines no plan-specific attributes.

@@ -1,0 +1,17 @@
+doi: 10.1162/tacl_a_00276. URL https://doi.org/10.1162/tacl_a_00276. Kühl et al. (2020)
+
+Niklas Kühl, Marc Goutier, Lucas Baier, Clemens Wolff, and Dominik Martin. Human vs. supervised machine learning: Who learns patterns faster?,
+2020. URL https://arxiv.org/abs/2012.03661. Küttler et al. (2020)
+
+Heinrich Küttler, Nantas Nardelli, Alexander H. Miller, Roberta Raileanu,
+Marco Selvatici, Edward Grefenstette, and Tim Rocktäschel. The NetHack learning environment, 2020. URL https://arxiv.org/abs/2006.13760. Lacker (2020)
+
+Kevin Lacker. Giving GPT-3 a Turing test. Kevin Lacker’s blog, July 2020. URL
+https://lacker.io/ai/2020/07/06/giving-gpt-3-a-turing-test.html. Lai et al. (2017)
+
+Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. RACE: Large-scale ReAding comprehension dataset from
+examinations. In Proceedings of the 2017 Conference on Empirical Methods in
+Natural Language Processing, pp. 785--794, Copenhagen, Denmark, September
+2017. Association for Computational Linguistics. doi: 10.18653/v1/D17-1082. URL https://aclanthology.org/D17-1082. Lake & Baroni (2017)
+
+Brenden M. Lake and Marco Baroni.

@@ -1,0 +1,16 @@
+You have many metrics, or measurements about the system that you care about,
+but your machine learning algorithm will often require a single objective, a
+number that your algorithm is "trying" to optimize. I distinguish here
+between objectives and metrics: a metric is any number that your system
+reports, which may or may not be important. See also
+Rule #2. Rule #12: Don’t overthink which objective you choose to directly optimize. You want to make money, make your users happy, and make the world a better
+place. There are tons of metrics that you care about, and you should measure
+them all (see Rule #2). However,
+early in the machine learning process, you will notice them all going up, even
+those that you do not directly optimize. For instance, suppose you care about
+number of clicks and time spent on the site. If you optimize for number of
+clicks, you are likely to see the time spent increase. So, keep it simple and don’t think too hard about balancing different metrics
+when you can still easily increase all the metrics. Don’t take this rule too
+far though: do not confuse your objective with the ultimate health of the
+system (see
+Rule #39).

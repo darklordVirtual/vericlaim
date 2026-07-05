@@ -1,0 +1,40 @@
+120–135
+
+DOI: 10.1007/978-3-319-46466-4_8
+
+[87]
+Pieter-Jan Kindermans et al. “The (Un)reliability of saliency methods”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1711.00867
+
+[88]
+Sara Hooker, Dumitru Erhan, Pieter-Jan Kindermans and Been Kim
+
+“A Benchmark for Interpretability Methods in Deep Neural Networks”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1806.10758
+
+[89]
+Tianyu Gu, Brendan Dolan-Gavitt and Siddharth Garg
+
+“BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1708.06733
+
+[90]
+Juyeon Heo, Sunghwan Joo and Taesup Moon
+
+“Fooling Neural Network Interpretations via Adversarial Model Manipulation”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1902.02041
+
+[91]
+Dylan Slack et al. “How can we fool LIME and SHAP?

@@ -1,0 +1,5 @@
+Next, we show that for every equivalence class of reward functions, the reward function that has the reparameterization outlined in Theorem 1 is unique. Proposition 1. Assume, we have a reference model, such that for all pairs of prompts and answers and a parameter . Then every equivalence class of reward functions, as defined in Section 5, has a unique reward function , which can be reparameterized as for some model . Proof. We will proceed using proof by contradiction. Assume we have two reward functions from the same class, such that . Moreover, assume that for some model and for some model , such that . We then have
+
+for all prompts and completions . Then we must have . Since these are distributions, summing over on both sides, we obtain that and since , we must have for all . Therefore . This completes the proof. ∎
+
+We have now shown that every reward class has a unique reward function that can be represented as outlined in Theorem 1, which is given by for any reward function in that class.

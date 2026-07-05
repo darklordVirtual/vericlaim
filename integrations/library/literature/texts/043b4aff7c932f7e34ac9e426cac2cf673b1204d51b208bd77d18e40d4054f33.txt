@@ -1,0 +1,12 @@
+The Beyond the Imitation Game benchmark (BIG-bench) GitHub repository includes:
+
+•
+
+A set of 204 or more language tasks. As reflected in the BIG-bench review criteria, benchmark tasks are novel, cover a diverse range of topics and languages, and are not fully solvable by current models. Figure 3 shows a word-cloud of task keywords and the distribution of task sizes, and Table App.3 lists the most frequent keywords in the benchmark. See also the list of descriptive task keywords. •
+
+BIG-bench Lite: a small, representative, and canonical subset of tasks that allows for faster evaluation than on the whole benchmark. See Table 1 for a list of the tasks included in BIG-bench Lite, and see Section 2.2 for further details. •
+
+Code that implements the benchmark API (described below in Section 2.1), supports task evaluation on publicly available models, and enables lightweight creation of new tasks. •
+
+Detailed evaluation results on dense and sparse language models with sizes that span six
+orders of magnitude, as well as baseline results established by human evaluators.

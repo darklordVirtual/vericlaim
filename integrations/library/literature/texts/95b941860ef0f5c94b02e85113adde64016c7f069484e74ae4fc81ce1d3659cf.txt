@@ -1,0 +1,13 @@
+use_param
+were always True instead of checking the config setting first and copying what the
+
+_parse_parameters_section
+does, like the gold patch. In the tests,
+
+test_parameters
+
+_with_class_reference
+directly compares the documentation produced using a config where
+
+napoleon_use_param
+is set to False, which catches the model’s error immediately. Comparing results across all the examples we consider, we notice a few prominent trends in behavior. Models tend to write primitive Python code and do not leverage existing third-party libraries or the rest of the codebase for their solutions. Models’ generations also reflect a “greedy” approach of solving the problem exactly, with little regard for code style or logical constraints that might be reflected by the codebase (i.e. using relative instead of absolute imports). In contrast, we observe that many gold patches will make structural improvements that cover a much larger scope of the codebase; these edits not only resolve the issue, but also anticipate and solve obvious potential future issues. We present additional case studies and identify more nuanced discrepancies in Appendix F.

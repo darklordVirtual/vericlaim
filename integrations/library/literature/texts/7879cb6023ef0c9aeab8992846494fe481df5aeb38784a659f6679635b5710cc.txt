@@ -1,0 +1,21 @@
+ts/test_func.py::test_functionality[func_i0022.py]
+
+tests/test_func.py::test_functionality[func_w0401.py]
+
+tests/test_func.py::test_functionality[func_w0801.py]
+
+tests/test_func.py::test_functionality [func_w0401_package]
+
+Additional Pass to Pass Tests omitted…
+
+Discussion. In this problem, the model is being asked to provide
+
+TYPE_CHECKING
+based handling for resolving cyclic imports, which pylint currently throws an error for. The gold patch has a detailed solution that involves conditional handling within the
+
+TYPE_CHECKING
+block, excludes the cyclic import messages, and has generally more specific handling. The model generated patch employs a “Stack Overlow” like solution; while creating a
+
+TYPE_CHECKING
+block is a popular solution for resolving imports, solving this issue for the codebase in particular requires a more nuanced solution than a general answer that may be available online. Table 21:
+Example of a SWE-Llama 13b generation that correctly solves a SWE-bench task instance. In this example, the SWE-Llama generation is exactly the same as the solution.

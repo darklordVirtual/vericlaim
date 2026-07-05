@@ -1,0 +1,16 @@
+and workflow
+provided in the next section: We added and removed
+questions,
+refined the content of the questions, and reordered the questions
+to better match the key stages of the dataset lifecycle. Based on our
+experiences with product teams, we reworded the questions to
+discourage yes/no answers, added a section on “Uses,” and
+deleted a section on “Legal and Ethical Considerations.” We found
+that product teams were more likely to answer questions about legal
+and ethical considerations if they were integrated into sections about
+the relevant stages of the dataset
+lifecycle rather than grouped together. Finally, following feedback
+from the team of lawyers, we removed questions that explicitly
+asked about compliance with regulations, and introduced factual
+questions intended to elicit relevant information about compliance
+without requiring dataset creators to make legal judgments.

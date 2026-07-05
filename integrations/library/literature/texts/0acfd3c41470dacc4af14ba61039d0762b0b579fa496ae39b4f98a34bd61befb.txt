@@ -1,0 +1,9 @@
+In this case it's best to design the domain
+model to be aware of events and to be able to use them in order to
+store prior values. It's worth remembering that all the capabilities of reversing
+events can be done instead by reverting to a past snapshot and
+replaying the event stream. As a result reversal is never
+absolutely needed for functionality. However it may make a big
+difference to efficiency since you may often be in a position
+where reversing a few events is much more efficient than using
+forward play on a lot of events.

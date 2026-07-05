@@ -1,0 +1,12 @@
+The fourth component of PROV-DM is concerned with bundles, a mechanism to support provenance of provenance. Figure 9 depicts a UML class diagram for the fourth component. It comprises a Bundle class defined as a subclass of Entity. Figure 9 ◊: Bundle Component Overview (Informative)
+
+5.4.1 Bundle constructor
+
+A bundle ◊ is a named set of provenance descriptions, and is itself an entity, so allowing provenance of provenance to be expressed. A bundle constructor ◊ allows the content and the name of a bundle to be specified; it is written bundle id description_1 ... description_n endBundle and consists of:
+
+id: an identifier for the bundle;
+
+descriptions: a set of provenance descriptions
+description_1, ..., description_n. A bundle's identifier id identifies a unique set of descriptions. There may be other kinds of bundles not directly expressible by this constructor, such as provenance descriptions handwritten on a letter or a whiteboard, etc. Whatever the means by which bundles are expressed, all can be described, as in the following section. 5.4.2 Bundle Type
+
+A bundle is a named set of descriptions, but it is also an entity so that its provenance can be described.

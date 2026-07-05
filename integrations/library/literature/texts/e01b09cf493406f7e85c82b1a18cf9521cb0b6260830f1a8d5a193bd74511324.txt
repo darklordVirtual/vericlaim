@@ -1,0 +1,23 @@
+Conditional on the predictor behaves as
+
+where is a randomized threshold assuming the
+value with probability and the
+value with probability . In other
+words, to construct an equalized odds predictor, we should choose a
+point in the intersection of these convex hulls,
+, and then for each
+protected group realize the true/false-positive rates with a
+(possible randomized) predictor
+resulting in the predictor . For each
+group , we either use a fixed threshold or a mixture of
+two thresholds . In the latter case,
+if and we always set , if
+we always set , but if
+, we flip a coin and set
+with probability . Figure 2: Finding the optimal equalized odds threshold predictor
+(middle), and equal opportunity threshold predictor (right). For
+the equal opportunity predictor, within each group the cost for a
+given true positive rate is proportional to the horizontal gap between the ROC
+curve and the profit-maximizing tangent line (i.e., the two curves
+on the left plot), so it is a convex function of the true positive
+rate (right). This lets us optimize it efficiently with ternary search.

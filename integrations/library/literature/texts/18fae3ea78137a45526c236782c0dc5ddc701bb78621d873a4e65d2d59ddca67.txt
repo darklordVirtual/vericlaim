@@ -1,0 +1,73 @@
+In contrast, Center Crop underperforms because preserving central objects fails to sufficiently disrupt visual cues. Table 7: Robustness evaluation of Qwen3-VL-4B across different perturbation types and severities. Perturbation Type
+Settings
+
+Accuracy ()
+
+AUROC ()
+
+ECE ()
+
+Random Masking (Ours)
+Ratio = 80%
+
+0.727
+
+0.763
+
+0.098
+
+Random Masking
+Ratio = 20%
+
+0.650
+
+0.688
+
+0.188
+
+Random Masking
+Ratio = 50%
+
+0.682
+
+0.711
+
+0.151
+
+Random Masking
+Ratio = 100%
+
+0.691
+
+0.722
+
+0.142
+
+Gaussian Blur
+
+0.708
+
+0.758
+
+0.105
+
+Gaussian Noise
+
+0.714
+
+0.749
+
+0.110
+
+Center Crop
+Crop 50%
+
+0.699
+
+0.706
+
+0.148
+
+Regarding mask ratio, performance improves as the ratio increases from 20% to 80%, since weaker masks leave excessive visual information that trivializes the grounding evaluation. However, complete masking (100%) slightly degrades performance, aligning with Figure 3 where optimal certainty estimation peaks at a 0.8 ratio. Overall, these results confirm that our metric is robust across perturbation designs. Aggregation Function Analysis
+
+To justify using the Harmonic Mean for aggregating visual () and reasoning () confidences, we compare it against alternative aggregation functions.

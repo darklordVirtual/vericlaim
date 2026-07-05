@@ -1,0 +1,2 @@
+It is our hope that BIG-bench will remain
+a benchmark that can measure progress well beyond the current state of the art. We therefore end by emphasizing that BIG-bench is a living benchmark. We continue to accept submission of new tasks for peer review on a rolling basis, and new evaluations to be included in the BIG-bench leaderboard. BIG-bench tasks can be specified using a lightweight human-readable JSON format, or defined by Python code. Contributors of accepted tasks will qualify for authorship on future BIG-bench papers and releases.

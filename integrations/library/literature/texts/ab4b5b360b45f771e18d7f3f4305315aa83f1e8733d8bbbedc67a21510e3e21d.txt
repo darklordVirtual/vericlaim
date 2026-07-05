@@ -1,0 +1,17 @@
+Torch7: A matlab-like environment for machine learning. In BigLearn Workshop, NIPS, 2011. Cosmides & Tooby (1996)
+
+Cosmides, Leda and Tooby, John. Are humans good intuitive statisticians after all? rethinking some
+conclusions from the literature on judgment under uncertainty. cognition, 58(1):1–73, 1996. DeGroot & Fienberg (1983)
+
+DeGroot, Morris H and Fienberg, Stephen E. The comparison and evaluation of forecasters. The statistician, pp. 12–22, 1983. Deng et al. (2009)
+
+Deng, Jia, Dong, Wei, Socher, Richard, Li, Li-Jia, Li, Kai, and Fei-Fei, Li. Imagenet: A large-scale hierarchical image database. In CVPR, pp. 248–255, 2009. Denker & Lecun (1990)
+
+Denker, John S and Lecun, Yann. Transforming neural-net output levels to probability distributions. In NIPS, pp. 853–859, 1990. Friedman et al. (2001)
+
+Friedman, Jerome, Hastie, Trevor, and Tibshirani, Robert. The elements of statistical learning, volume 1. Springer series in statistics Springer, Berlin, 2001. Gal & Ghahramani (2016)
+
+Gal, Yarin and Ghahramani, Zoubin. Dropout as a bayesian approximation: Representing model uncertainty
+in deep learning. In ICML, 2016. Girshick (2015)
+
+Girshick, Ross. Fast r-cnn. In ICCV, pp.

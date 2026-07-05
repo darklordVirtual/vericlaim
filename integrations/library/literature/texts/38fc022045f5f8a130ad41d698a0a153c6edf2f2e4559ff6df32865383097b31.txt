@@ -1,0 +1,13 @@
+is safe, secure, or fair, and it is important to avoid creating perverse incentives (e.g., encouraging work on poorly-specified bounties and thereby negatively affecting talent pipelines) [50]. Some system properties can be difficult to discover even with bounties, and the bounty hunting community might be too small to create strong assurances. However, relative to the status quo, bounties might increase the amount of scrutiny applied to AI systems. Recommendation: AI developers should pilot bias and safety bounties for AI systems to strengthen incentives and processes for broad-based scrutiny of AI systems. Issues to be addressed in setting up such a bounty program include [46]:
+
+•
+
+Setting compensation rates for different scales/severities of issues discovered;
+
+•
+
+Determining processes for soliciting and evaluating bounty submissions;
+
+•
+
+Developing processes for disclosing issues discovered via such bounties in a timely fashion;363636Note that we specifically consider public bounty programs here, though instances of private bounty programs also exist in the computer security community.

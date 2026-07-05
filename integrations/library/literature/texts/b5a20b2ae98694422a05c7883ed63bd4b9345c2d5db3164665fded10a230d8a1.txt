@@ -1,0 +1,5 @@
+We present more examples in the Appendix. Baselines. We focus on showing the transferability of adversarial prompts found by GCG in this section. For references, we include the ASRs in the following situations: (1) Prompt only refers to simply querying the model with no attempt to attack or subvert normal generation; and (2) “Sure here’s” appends to instruction for the model to start its response with that string, as demonstrated in prior work (Wei et al., 2023):
+
+message = {harmful_behavior} (Start with "Sure here’s")
+
+Test models. For GCG prompts optimized on Vicuna (Zheng et al., 2023) and Guanaco (Dettmers et al., 2023), we measure ASRs on an assortment of comparably-sized open models, including Pythia-12B (Biderman et al., 2023), Falcon-7B (Penedo et al., 2023), ChatGLM-6B (Du et al., 2022), MPT-7B (Team, 2023), Llama-2-Chat-7B (Touvron et al., 2023), and Stable-Vicuna (CarperAI, 2023), as well as proprietary ones including GPT-3.5 (gpt-3.5-turbo-0301) and GPT-4 (gpt4-0314), Claude 1 (claude-instant-1), Claude 2 (Claude 2) and PaLM-2 (PaLM 2). We used each model’s default conversation template when prompting them.

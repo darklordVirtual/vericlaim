@@ -1,0 +1,19 @@
+We find that the three approaches, despite using different fitting methodologies and different trained models, yield comparable predictions for the optimal scaling in parameters and tokens with FLOPs (shown in Table 2). Table 2: Estimated parameter and data scaling with increased training compute. The listed values are the exponents, and , on the relationship and . Our analysis suggests a near equal scaling in parameters and data with increasing compute which is in clear contrast to previous work on the scaling of large models. The 10 and 90 percentiles are estimated via bootstrapping data (80% of the dataset is sampled 100 times) and are shown in parenthesis. Approach
+
+Coeff. where
+
+Coeff. where
+
+1. Minimum over training curves
+
+2. IsoFLOP profiles
+
+3. Parametric modelling of the loss
+
+Kaplan et al. (2020)
+
+0.73
+
+0.27
+
+All three approaches suggest that as compute budget increases, model size and the amount of training data should be increased in approximately equal proportions. The first and second approaches yield very similar predictions for optimal model sizes, as shown in Figure 1 and Figure A3.

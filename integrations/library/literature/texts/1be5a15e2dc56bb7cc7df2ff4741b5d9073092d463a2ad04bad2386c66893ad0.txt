@@ -1,0 +1,16 @@
+You want to do this in a way that's invisible to the
+domain logic. If the domain logic calls PaymentGateway.send it
+should do so whether or not you are in replay mode. The
+gateway should handle that distinction by having a reference to
+the event processor and checking the whether it's in replay mode
+before passing the external call off to the outside world. External updates get more complicated if you are using
+Retroactive Event see the discussion there
+for gory details. Another tactic that you might see with external systems is
+buffering the external notifications by time. It may be that we
+don't need to make the external notification right away, instead
+we only need to do it at the end of the month. In this case we
+can reprocess more freely until that time appears. We can deal
+with this either by having gateways that store external messages
+till the release date, or triggering the external messages
+through a notification domain event rather than doing the
+notification immediately.

@@ -1,0 +1,65 @@
+{"fsid": "arxiv_1610-02413", "n": 64, "overlap": 200, "source_sha256": "b2e7be961173bc0da3dde6662ffd233337feae966146b729bd8b9157ecdeae2c", "target": 1200}
+{"section": "", "seq": 0, "sha256": "fec1ffa326a7286345d99132c1b39b1c8128bed66c6d0bbae2fd8a582fcd6f4d"}
+{"section": "Equality of Opportunity in Supervised Learning", "seq": 1, "sha256": "f6fbb69805e97c1985c487492e5c6c36b666f074f9294bdf5db90932bb8e168e"}
+{"section": "1 Introduction", "seq": 2, "sha256": "f815e540a9c56e4b591646c4cf11a3dc0dee009ef4d99e36bc68b407e5afa198"}
+{"section": "1 Introduction", "seq": 3, "sha256": "b44917f9b46e0ff7a101474e4abea01bf394c276b9256558f141f74cc8dd6412"}
+{"section": "1 Introduction", "seq": 4, "sha256": "b67b0734c7bdac603ac4c55024b2c66177cfcf4fa5cf5721ea4193b809bdeb41"}
+{"section": "1 Introduction", "seq": 5, "sha256": "5d7871b8aa68f54ea78f6f51af3b778da71dc93bec978f0cfecd5183cc978120"}
+{"section": "1 Introduction", "seq": 6, "sha256": "defc4cb5c8e70cc25a166e7a748471aae0e9157b2735b7d773c3cbcf7f9d41cc"}
+{"section": "1.1 Summary of our contributions", "seq": 7, "sha256": "cdc0e88536cd5bab369cad7de27c32bfeb37cf0d52b652389d70a90940255f99"}
+{"section": "1.1 Summary of our contributions", "seq": 8, "sha256": "0d12a7e8c11e0c52a6ff443fd953a729113ab3c0dfd34bdd96aac1ddf8b525c1"}
+{"section": "1.1 Summary of our contributions", "seq": 9, "sha256": "6f9be612b13a40e0a54f49b2a9e926d399e57d9869ef2b10fb6e52deeb4a92eb"}
+{"section": "2 Equalized odds and equal opportunity", "seq": 10, "sha256": "869cb9f961707c860d4a60752bda0a32bbb7f57044d066d4104f20930a5e8ec2"}
+{"section": "2 Equalized odds and equal opportunity", "seq": 11, "sha256": "d1c55c329c3b18850ed825f581a24ec3164d5258a9e68670a9e094326057e3d8"}
+{"section": "2.1 Equal opportunity", "seq": 12, "sha256": "8cdae1f2ee977861d4af419130b24bf90e6e6f8238d40586b91daf8d695a8d23"}
+{"section": "2.2 Real-valued scores", "seq": 13, "sha256": "9d57c653948e0ecbe2831e6fc0588ea57c010b95b007db066cd7f1625787eddd"}
+{"section": "2.3 Oblivious measures", "seq": 14, "sha256": "537974d57a82b1bc5756f5706fed2d17316dc4163d5b8cd009e0b92fa20df255"}
+{"section": "3 Comparison with related work", "seq": 15, "sha256": "086fbdc4192db763085a757e4205ff3d4d887a79cde3b9564631d4618a61466e"}
+{"section": "3 Comparison with related work", "seq": 16, "sha256": "4135ea687f107f2719314199a63ab7f8c0122647de47d9ea5a63eac73abc8e5b"}
+{"section": "3 Comparison with related work", "seq": 17, "sha256": "536d6b4297c5f5146bbecbbc9307a15f01964dc1772cf902935e6e81e677d073"}
+{"section": "4 Achieving equalized odds and equality of opportunity", "seq": 18, "sha256": "92bba50c6c31897eb66fd90fa75021e0f0f0f5d88d51f3111f84e6a129b4ffdc"}
+{"section": "4 Achieving equalized odds and equality of opportunity", "seq": 19, "sha256": "838e438c62bf4cac3ed3aa3c8ee915431cc61d169f1f259d29acc34781ad3ee8"}
+{"section": "4.1 Deriving from a binary predictor", "seq": 20, "sha256": "cfff46bb26e03d9d76a05399e41d4623d19f7cf0547ff68932cc35c12cdb5116"}
+{"section": "4.1 Deriving from a binary predictor", "seq": 21, "sha256": "00d237b204469f598c683b9e9c90a53af9a7d6c25f3c77785674eefccc66b115"}
+{"section": "4.1 Deriving from a binary predictor", "seq": 22, "sha256": "7ca2162ba147cbd044a02e24eecc0925714340e582c8ebb10ea8e907a9cf0fe5"}
+{"section": "4.2 Deriving from a score function", "seq": 23, "sha256": "82a46259b23f96c8af138fc78c05c6840f644a3148298c839baf91b68b1e8b8c"}
+{"section": "4.2 Deriving from a score function", "seq": 24, "sha256": "84fb4fc02c44838c1bcb3766410d8aeffb35111dbb5c88b175f2f5b416af4ad1"}
+{"section": "4.2 Deriving from a score function", "seq": 25, "sha256": "88798f441e4489dd49a932250822a31daea8ea19e0d5b6c65053b9699c17cacf"}
+{"section": "4.2 Deriving from a score function", "seq": 26, "sha256": "6578bb4702d612438de1e838b866028d16ef61dbb283cb206660437d5846874c"}
+{"section": "4.2 Deriving from a score function", "seq": 27, "sha256": "e01b09cf493406f7e85c82b1a18cf9521cb0b6260830f1a8d5a193bd74511324"}
+{"section": "4.2 Deriving from a score function", "seq": 28, "sha256": "2030558aa84885a31dca84d3590fa41530d07229a6c49dd45a9f21e09e5a0ed8"}
+{"section": "4.2 Deriving from a score function", "seq": 29, "sha256": "e9be199441bc890454610276202b2019d2980990bd9092f74c7c8840f778c02f"}
+{"section": "5 Bayes optimal predictors", "seq": 30, "sha256": "8ba64d64387797002c70a97e81002a11e2fef927b0a2c66e3cde63a6b61d5865"}
+{"section": "5 Bayes optimal predictors", "seq": 31, "sha256": "01839bc325fd276fe94f45df47cd85e94a9d0a1e3b9b046428ee923d7a70a78a"}
+{"section": "5.1 Near optimality", "seq": 32, "sha256": "ac039e1896d746478185fe93da9c2aff7e384cccc7c5985e95805dbe3f3aebe6"}
+{"section": "5.1 Near optimality", "seq": 33, "sha256": "bc6c9e2d400d56be25b621ad57c5260e9d31e2633917eb2abfd6430a21de344e"}
+{"section": "5.1 Near optimality", "seq": 34, "sha256": "0f8722bbcfe685bad95bbe29ce82b0bce367f26d31c936754c6e10cc1d469a4d"}
+{"section": "5.1 Near optimality", "seq": 35, "sha256": "b7c17df7739379f30b33b315d73e18f94654d301003271db7669eadcc1c6ed6e"}
+{"section": "6 Oblivious identifiability of discrimination", "seq": 36, "sha256": "686711e0d997fa8fa5d92932ec9a0cff5577fe0162e8d731a34dd73bc941b50e"}
+{"section": "6 Oblivious identifiability of discrimination", "seq": 37, "sha256": "b70e13e74888bfa85685ee14cb55ad373e41d6eaa0ba09e788223f13f8bbca58"}
+{"section": "6 Oblivious identifiability of discrimination", "seq": 38, "sha256": "5963d03fa7604db8e2f27605108a9ccda2a370dd41be030e9129bf508c8384a5"}
+{"section": "6.1 Unidentifiability", "seq": 39, "sha256": "43863c7b814f81d58cd4a15d0a356d045e94d081d7f52e441fa36ec3989210d1"}
+{"section": "6.1 Unidentifiability", "seq": 40, "sha256": "91e254308ce186f46c3f377b60f43672adca87ff74a9ca4d331b939b5cdee93f"}
+{"section": "6.1 Unidentifiability", "seq": 41, "sha256": "90ed3a2df9096906c93399513ba9e0841cb30039505afd141793598817b71cfb"}
+{"section": "6.2 Comparison of different oblivious measures", "seq": 42, "sha256": "bfa8cf21c636e946609ea78047bee844e673b14d7c5cc87a157c83a8faa011b2"}
+{"section": "6.2 Comparison of different oblivious measures", "seq": 43, "sha256": "041ab6e2e7b30dbc9683d3d45f1834b0fb5cf8829dc71c7246f66309f2f86baf"}
+{"section": "6.2 Comparison of different oblivious measures", "seq": 44, "sha256": "5a56baac01b1f827812f0efbb1d12b6f2f2c0b2391231ac4734ab090dbd9a6d1"}
+{"section": "6.2 Comparison of different oblivious measures", "seq": 45, "sha256": "489de7377ed56b288b4b6522336e5090038ba3f3ca488fd634bc7fa227696247"}
+{"section": "6.2 Comparison of different oblivious measures", "seq": 46, "sha256": "9cec8ef51d0c1009e150956c3faa8b0a614eb287d0b7266dcaf82ae82c9114c6"}
+{"section": "6.2 Comparison of different oblivious measures", "seq": 47, "sha256": "a38deae3e875c8c7ab040375a8a57a5f616a0f27aa6bb6a7eeee9490ddea8615"}
+{"section": "6.2 Comparison of different oblivious measures", "seq": 48, "sha256": "90bbd2bf74007363bec7d7a5b9b5b691731e9ad27969b3a07b1d639ee8e45b85"}
+{"section": "7 Case study: FICO scores", "seq": 49, "sha256": "e700b679ad6bfdb4577ce6328cbf402580f5c36ba335a2e91048f97b6d23e96a"}
+{"section": "7 Case study: FICO scores", "seq": 50, "sha256": "a89ce9fc9ff21bd4ff3fd96372392ed0bd5f7c000243a8012745ff58903dfaf9"}
+{"section": "7 Case study: FICO scores", "seq": 51, "sha256": "89bfdf5f8ebb0c1152781fe09896f05ed886f978fe0d4c64412660a572d39eb5"}
+{"section": "7 Case study: FICO scores", "seq": 52, "sha256": "ef7d7d995023aaccd70c6c7e07446bc75f4b934f2fc048c01ebafe7dc86e652d"}
+{"section": "7 Case study: FICO scores", "seq": 53, "sha256": "09d9487cfab0326adead3e94b2ce8bc6fde6cb3004b39c4914281dd9ad2b1279"}
+{"section": "7 Case study: FICO scores", "seq": 54, "sha256": "6359adb06914e8e776d65970ca8b19fbc71e7bfb6824aa1b8ed1f98fadc7dc30"}
+{"section": "7 Case study: FICO scores", "seq": 55, "sha256": "dd523fdfcf6cb36e9a5852c98c8ab53737de7bb426d5850cd90001f2f844bb75"}
+{"section": "7 Case study: FICO scores", "seq": 56, "sha256": "d5429087a1ced0b19dfab874da08b2a9a2912b6790b304a7de4a027a8a8ebd15"}
+{"section": "8 Conclusions", "seq": 57, "sha256": "952c65f5da49aa980377216568ddb38862db5a961d2162e87ea7b1ad9d69c16f"}
+{"section": "8 Conclusions", "seq": 58, "sha256": "ffe24ac27d80f6dd5003ba621793309674df1bd0b9bcc54f5bb69064b36ff5b0"}
+{"section": "8 Conclusions", "seq": 59, "sha256": "34abd1a7224b35f9df8f783a9a01a7ae34f9215754198cbadfc587793b759f8d"}
+{"section": "8 Conclusions", "seq": 60, "sha256": "3632027639bd39bc05649d465a089ff3b8a90f7ee0d716fe6103c1925ccb8f9e"}
+{"section": "References", "seq": 61, "sha256": "801e796dceeee5b4109cfa459119cd0284c55b42d4bef89649f76a22f910383e"}
+{"section": "References", "seq": 62, "sha256": "05c8ccbd514dbd3df73f8292d13c5ed93886bf858e5ad1c360bc33315821d80e"}
+{"section": "References", "seq": 63, "sha256": "94e382c6b285b8a38c3a3b1469837e45b086b7f6cf8fc0194d1af8aac4e4e072"}

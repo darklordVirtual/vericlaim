@@ -1,0 +1,36 @@
+In some sense, this is the simplest language model we profoundly don't understand. And so it makes a natural target for our paper. We aim to take its MLP activations – the activations we can't avoid needing to decompose – and decompose them into "features":
+
+Crucially, we decompose into more features than there are neurons. This is because we believe that the MLP layer likely uses superposition to represent more features than it has neurons (and correspondingly do more useful non-linear work!). In fact, in our largest experiments we'll expand to have 256 times more features than neurons, although we'll primarily focus on a more modest 8× expansion. Transformer
+
+Sparse Autoencoder
+
+Layers
+
+1 Attention Block
+1 MLP Block (ReLU)
+
+1 ReLU (up)
+1 Linear (down)
+
+MLP Size
+
+512
+
+512 (1×) – 131,072 (256×)
+
+Dataset
+
+The Pile
+(100 billion tokens)
+
+Transformer MLP Activations
+(8 billion samples)
+
+Loss
+
+Autoregressive Log-Likelihood
+
+L2 reconstruction
++ L1 on hidden layer activation
+
+In the following subsections, we will motivate this setup at more length. Additionally, a more detailed discussion of the architectural details and training of these models can be found in the appendix.

@@ -1,0 +1,5 @@
+•
+
+Software mechanisms largely pertain to specific AI systems and their properties. Software mechanisms can be used to provide evidence for both formal and informal claims regarding the properties of specific AI systems, enabling greater understanding and oversight. The software mechanisms we highlight below are audit trails, interpretability, and privacy-preserving machine learning. •
+
+Hardware mechanisms largely pertain to physical computational resources and their properties. Hardware mechanisms can support verifiable claims by providing greater assurance regarding the privacy and security of AI systems, and can be used to substantiate claims about how an organization is using their general-purpose computing capabilities. Further, the distribution of resources across different actors can influence the types of AI systems that are developed and which actors are capable of assessing other actors’ claims (including by reproducing them). The hardware mechanisms we focus on in this report are hardware security features for machine learning, high-precision compute measurement, and computing power support for academia.

@@ -1,0 +1,2 @@
+In Torch7 (Collobert et al., 2011), for example, we implement temperature scaling by inserting a nn.MulConstant between the logits and the softmax, whose parameter is . We set during training, and subsequently find its optimal value on the validation set.444
+For an example implementation, see http://github.com/gpleiss/temperature_scaling.

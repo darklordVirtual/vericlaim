@@ -1,0 +1,9 @@
+All agent code execution is confined within OS-level isolation. A full production deployment would employ Linux containers with
+seccomp syscall filtering, read-only filesystem mounts,
+and path-whitelist enforcement; our experimental prototype uses
+the lighter-weight unshare namespace isolation
+(Sect. 7.5). The key design principle is that isolation should be
+implemented at the OS layer rather than the software layer: software-layer
+access controls are subject to semantic manipulation (as demonstrated
+in (Zhan et al., 2024)), whereas OS-level isolation operates
+independently of the agent’s language processing.

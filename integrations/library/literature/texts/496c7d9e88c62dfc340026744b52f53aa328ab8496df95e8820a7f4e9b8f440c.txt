@@ -1,0 +1,5 @@
+Extraction Attacks Are a Practical Threat. Prior work shows that ( to smaller) language models potentially memorize training data in semi-realistic settings [8, 73]. Our results show that state-of-the-art LMs do
+memorize their training data in practice, and that adversaries can extract this data with simple techniques. Our attacks are practical even when the data contains a given sequence only a
+few times. As our attacks interact with a language model as a black-box, our results approximate the worst-case behavior of language models when interacting with benign users. In particular, among (honestly) generated samples, our attacks find that at least (or ) contain memorized text. Note that this is likely an extremely loose lower bound. We only manually inspected potential candidate memorized samples;
+if we had started with
+more candidates we would likely have identified significantly more memorized content. Developing improved techniques for extracting memorized data, including attacks that are targeted towards specific content, is an interesting area for future work. Memorization Does Not Require Overfitting.

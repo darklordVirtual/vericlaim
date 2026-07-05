@@ -1,0 +1,17 @@
+(2022). Language models (mostly) know what they know. [Kojima et al., 2022]
+
+Kojima, T., Gu, S. S., Reid, M., Matsuo, Y., and Iwasawa, Y. (2022). Large language models are zero-shot reasoners. arXiv preprint arXiv:2205.11916. [Nye et al., 2021]
+
+Nye, M., Andreassen, A. J., Gur-Ari, G., Michalewski, H., Austin, J., Bieber,
+D., Dohan, D., Lewkowycz, A., Bosma, M., Luan, D., Sutton, C., and Odena, A. (2021). Show your work: Scratchpads for intermediate computation with
+language models. [Ouyang et al., 2022]
+
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P.,
+Zhang, C., Agarwal, S., Slama, K., Ray, A., et al. (2022). Training language models to follow instructions with human feedback. arXiv preprint arXiv:2203.02155. [Perez et al., 2022]
+
+Perez, E., Huang, S., Song, F., Cai, T., Ring, R., Aslanides, J., Glaese, A.,
+McAleese, N., and Irving, G. (2022). Red teaming language models with language models. [Saunders et al., 2022]
+
+Saunders, W., Yeh, C., Wu, J., Bills, S., Ouyang, L., Ward, J., and Leike, J. (2022). Self-critiquing models for assisting human evaluators. [Scheurer et al., ]
+
+Scheurer, J., Campos, J. A., Chan, J. S., Chen, A., Cho, K., and Perez, E.

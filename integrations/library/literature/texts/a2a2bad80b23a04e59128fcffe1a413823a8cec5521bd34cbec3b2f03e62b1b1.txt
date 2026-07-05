@@ -1,0 +1,1 @@
+No prompt is used for UnifiedQA, as it is already fine-tuned for question-answering. Additional prompts are tested on GPT-3-175B only. Appendix E contains the set of all prompts. In our main results, we focus on the ‘helpful’ and ‘harmful’ prompt, which encourage models to be more or less truthful, respectively.

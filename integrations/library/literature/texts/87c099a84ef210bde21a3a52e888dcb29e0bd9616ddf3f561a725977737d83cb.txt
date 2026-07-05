@@ -1,0 +1,24 @@
+Notation We denote by
+an input image, and activation values of some layer. We first examine properties
+of the image of , and then we search for its blind spots. We perform a number of experiments on a few different networks and three datasets :
+
+•
+
+For the MNIST dataset, we used the following architectures [11]
+
+–
+
+A simple fully connected network with one or more hidden layers and a Softmax classifier. We refer to this network as “FC”. –
+
+A classifier trained on top of an autoencoder. We refer to this network as “AE”. •
+
+The ImageNet dataset [3]. –
+
+Krizhevsky et. al architecture [9]. We refer to it as “AlexNet”. •
+
+M image samples from Youtube (see [10])
+
+–
+
+Unsupervised trained network with 1 billion learnable parameters. We refer to it as “QuocNet”. For the MNIST experiments, we use regularization with a weight decay of . Moreover, in some experiments we
+split the MNIST training dataset into two disjoint datasets , and , each with 30000 training cases.

@@ -1,0 +1,60 @@
+Here, in Figure App.7, we show the six successful checkmates found by the BIG-G 128b model out of 1024 problems. {tikzpicture}\node
+
+[anchor=south west,inner sep=0] (board) at (0,0)
+
+\newgame\fenboard
+r1bqkbnr/ppp2ppp/2np4/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 2 4
+\showboard
+;
+\coordinate(f3) at (3.6,2.3);
+\coordinate(f7) at (3.6,4.4);
+\draw[arrows=->,line width=2pt,draw=blue](f3)--(f7);
+
+[anchor=south west,inner sep=0] (board) at (0,0)
+
+\newgame\fenboard
+r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4
+\showboard
+;
+\coordinate(h5) at (4.66,3.44);
+\coordinate(f7) at (3.7,4.4);
+\draw[arrows=->,line width=2pt,draw=blue](h5)--(f7);
+
+{tikzpicture}\node
+
+[anchor=south west,inner sep=0] (board) at (0,0)
+
+\newgame\fenboard
+r1bqk2r/1ppp1ppp/2n4B/p1b1p3/2B1P3/3P1Q2/PPP2PPP/RN2K1NR w KQkq - 1 6
+\showboard
+;
+\coordinate(f3) at (3.6,2.3);
+\coordinate(f7) at (3.6,4.4);
+\draw[arrows=->,line width=2pt,draw=blue](f3)--(f7);
+
+{tikzpicture}\node
+
+[anchor=south west,inner sep=0] (board) at (0,0)
+
+\newgame\fenboard
+5B1k/2P3q1/p4Qp1/3p1bN1/P1pn1P2/1r6/5K1P/R7 w - - 10 38
+\showboard
+;
+\coordinate(f6) at (3.8,4.1);
+\coordinate(g7) at (4.2,4.5);
+\draw[arrows=->,line width=2pt,draw=blue](f6)--(g7);
+
+{tikzpicture}\node
+
+[anchor=south west,inner sep=0] (board) at (0,0)
+
+\newgame\fenboard
+7k/5brp/5Q2/p1p5/1p1p4/3P3P/PPP2P1K/6R1 w - - 5 31
+\showboard
+;
+\coordinate(f6) at (3.8,4.1);
+\coordinate(g7) at (4.2,4.5);
+\draw[arrows=->,line width=2pt,draw=blue](f6)--(g7);
+
+Figure App.7:
+The six positions (out of 1,024) in which the largest model found and correctly annotated the checkmating move in a zero-shot setting.

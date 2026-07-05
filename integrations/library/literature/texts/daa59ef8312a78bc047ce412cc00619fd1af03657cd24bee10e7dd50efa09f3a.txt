@@ -1,0 +1,23 @@
+Extended Abstracts of the 2021 CHI Conference on Human Factors
+in Computing Systems. Roy and Roth (2015)
+
+Subhro Roy and Dan Roth. 2015. Solving general
+arithmetic word problems. EMNLP. Roy et al. (2015)
+
+Subhro Roy, Tim Vieira, and Dan Roth. 2015. Reasoning about
+Quantities in Natural Language. TACL. Saeed et al. (2021)
+
+Mohammed Saeed, Naser Ahmadi, Preslav Nakov, and Paolo Papotti. 2021. RuleBERT: Teaching soft rules to pre-trained language models. EMNLP. Sanh et al. (2022)
+
+Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika,
+Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja,
+et al. 2022. Multitask prompted training
+enables zero-shot task generalization. ICLR. Shen et al. (2021)
+
+Jianhao Shen, Yichun Yin, Lin Li, Lifeng Shang, Xin Jiang, Ming Zhang, and Qun
+Liu. 2021. Generate
+& rank: A multi-task framework for math word problems. In Findings of the Association for Computational Linguistics:
+EMNLP 2021. Talmor et al. (2019)
+
+Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. 2019. CommonsenseQA: A
+question answering challenge targeting commonsense knowledge. NAACL. Talmor et al.

@@ -1,0 +1,1 @@
+Since generations are relatively expensive, we only generate a single patch file per instance. Following precedent in code generation for evaluation in Pass@ (Chen et al., 2021; Rozière et al., 2023), we simply use greedy decoding for all models.

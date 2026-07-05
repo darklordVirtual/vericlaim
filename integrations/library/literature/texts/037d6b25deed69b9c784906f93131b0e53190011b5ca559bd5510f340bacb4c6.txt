@@ -1,0 +1,18 @@
+The attribute ex:version is application specific, whereas the attribute type (see Section 5.7.4.4) is reserved in the PROV namespace. 5.1.2 Activity
+
+An activity ◊ is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities. An activity ◊, written activity(id, st, et, [attr1=val1, ...]) in PROV-N, has:
+
+id: an identifier for an activity;
+
+startTime: an OPTIONAL time (st) for the start of the activity;
+
+endTime: an OPTIONAL time (et) for the end of the activity;
+
+attributes: an OPTIONAL set of attribute-value pairs ((attr1, val1), ...) representing additional information about this activity. Example 18 ◊
+
+The following expression
+
+activity(a1, 2011-11-16T16:05:00, 2011-11-16T16:06:00,
+[ ex:host="server.example.org", prov:type='ex:edit' ])
+
+states the existence of an activity with identifier a1, start time 2011-11-16T16:05:00, and end time 2011-11-16T16:06:00, running on host server.example.org, and of type edit. The attribute host is application specific (declared in some namespace with prefix ex).

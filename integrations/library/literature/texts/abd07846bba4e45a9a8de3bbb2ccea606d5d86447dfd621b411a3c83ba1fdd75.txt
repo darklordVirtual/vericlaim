@@ -1,0 +1,1 @@
+For both LAMA and TempLAMA, given an input text , we use the following prompt: Please complete the following text so that it is factually correct: .

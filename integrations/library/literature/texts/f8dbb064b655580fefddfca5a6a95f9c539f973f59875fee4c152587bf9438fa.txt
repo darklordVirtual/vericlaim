@@ -1,0 +1,20 @@
+As AI code generation tools improve—through adversarial
+verification, formal-methods assistance, and execution-feedback
+loops—engineering effort is shifting from defect
+remediation toward system governance: defining
+invariants, enforcing data sovereignty, and specifying
+correctness criteria that derive their authority from legal
+frameworks (e.g., GDPR Article 25 “Data Protection by Design and by Default”)
+and commercial contracts rather than optimizable
+objective functions. This shift motivates LGA’s design: the four layers encode
+governance boundaries (sandbox isolation, intent verification,
+zero-trust protocols, audit logging) that must be specified by
+system architects, not learned from data. These governance boundaries are enforced through
+architectural mechanisms rather than statistical generalization,
+and cannot be relaxed without explicit policy changes:
+current model capability improvements do not substitute for
+execution-layer isolation or cryptographic authorization,
+because their correctness derives from legal and contractual
+requirements rather than optimizable objectives (e.g., at
+1% attack prevalence even the best local judge achieves only
+22.7% PPV; see Table 7).

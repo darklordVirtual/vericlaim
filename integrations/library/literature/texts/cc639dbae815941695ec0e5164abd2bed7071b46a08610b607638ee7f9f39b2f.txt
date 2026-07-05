@@ -1,0 +1,85 @@
+OOD: the rule floor is harmful (22% FPR) the judge leads (gated-replace, not escalate-only). Table 3 — Rules steelman, per-category accuracy on external held-out (rules-only +cloud Opus-4.8-judge)
+
+category (threat type)
+
+rules-only
+
++cloud pack
+
+Opus-4.8-judge
+
+shell_persistence (lexical)
+
+73
+
+77
+
+82
+
+fs_config (mixed)
+
+50
+
+58
+
+79
+
+network_egress (semantic)
+
+52
+
+65
+
+83
+
+cloud_iam_secrets (mixed)
+
+40
+
+70
+
+100
+
+cicd_iac (semantic)
+
+36
+
+48
+
+96
+
+supply_chain_pkg (semantic)
+
+50
+
+50
+
+80
+
+observability_benign_hard (semantic)
+
+59
+
+59
+
+78
+
+data_db (semantic)
+
+29
+
+29
+
+86
+
+OVERALL
+
+48
+
+56
+
+85
+
+Steelman: hand-authored cloud pack (written on dev external sets, tested held-out) lifts overall 4856 but moves data_db/observability/supply_chain by 0pp — the semantic boundary is structural. Max-tuned "cheat" rules also = 47.6% overall (in-dist tuning doesn’t transfer). Table 4 — Semantic memory (external semantic slice, n=98)
+
+Verdict-CACHE (dead end): retrieval-verdict accuracy raw-text 58% ( majority/chance); neural (MiniLM) did not rescue it; no 95% high-precision regime at any coverage a semantic verdict-cache keyed on the action is not viable (surface-twins collapse).

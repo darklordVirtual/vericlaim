@@ -1,0 +1,11 @@
+Suppose for some task, we have language model that outputs predictions and has 50% accuracy on these (i.e., ). Consider the following estimators:
+
+1. oracle (1 if is correct and 0 otherwise)
+
+2. probabilistic oracle (0.75 correct, 0.25 incorrect)
+
+3. baserate (0.5 regardless of what is)
+
+4. noisy baserate ( regardless of )
+
+The oracle is perfect and the probabilistic oracle is indistinguishable from the oracle as long as the probability threshold (i.e., for emit by the estimator, trust if ). Both base rate and noisy base rate estimators are uninformative for decision-making: they generate middling probabilities that are uncorrelated with correctness. In Figure˜1, we plot the reliability diagrams for these four estimators and their associated ECE, smECE, and our metric auc-euro, and find two concerning trends with both ECE and smECE. 111See § 2.3 for details on how to calculate auc-euro. First, they cannot distinguish between the oracle estimator and the perfectly uninformative base rate estimator (ECE=smECE=0). Our metric, auc-euro, however, does distinguish between them (oracle gets a score of 1, while the baserate estimator gets a score of 0.75).

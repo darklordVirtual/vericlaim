@@ -1,0 +1,16 @@
+Achieving better prediction with equalized odds requires collecting
+features that more directly capture the target , unrelated to its
+correlation with the protected attribute. Deriving an equalized
+odds predictor from a score involves considering the pointwise minimum
+ROC curve among different protected groups, encouraging constructing
+of predictors that are accurate in all groups, e.g., by collecting data
+appropriately or basing prediction on features predictive in all
+groups. When to use our post-processing step. An important feature of our notion is that it can be achieved via a simple and
+efficient post-processing step. In fact, this step requires only aggregate
+information about the data and therefore could even be carried out in a
+privacy-preserving manner (formally, via Differential Privacy). In contrast,
+many other approaches require changing a usually complex machine learning
+training pipeline, or require access to raw data. Despite its simplicity, our
+post-processing step exhibits a strong optimality principle. If the underlying
+score was close to optimal, then the derived predictor will be close to optimal
+among all predictors satisfying our definition.

@@ -1,0 +1,63 @@
+We describe the 13 building blocks used to create synthetic tasks for evaluating model performance as a function of docstring complexity. Each building block is specified by a line of text and a line of code:
+
+1. “remove all instances of the letter e from the string”
+
+⬇
+
+s = s.replace("e", "")
+
+2. “replace all spaces with exclamation points in the string”
+
+⬇
+
+s = s.replace("␣", "!")
+
+3. “convert the string s to lowercase”
+
+⬇
+
+s = s.lower()
+
+4. “remove the first and last two characters of the string”
+
+⬇
+
+s = s[2:-2]
+
+5. “removes all vowels from the string”
+
+⬇
+
+s = "".join(char for char in s if char not in "aeiouAEIOU")
+
+6. “remove every third character from the string”
+
+⬇
+
+s = "".join(char for i, char in enumerate(s) if i % 3 != 0)
+
+7. “drop the last half of the string, as computed by characters”
+
+⬇
+
+s = s[: len(s) // 2]
+
+8. “replace spaces with triple spaces”
+
+⬇
+
+s = s.replace("␣", "␣␣␣")
+
+9. “reverse the order of words in the string”
+
+⬇
+
+s = "␣".join(s.split()[::-1])
+
+10. “drop the first half of the string, as computed by number of words”
+
+⬇
+
+s = "␣".join(s.split()[len(s.split()) // 2 :])
+
+11.

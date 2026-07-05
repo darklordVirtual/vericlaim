@@ -1,0 +1,12 @@
+You can use regularization to eliminate the
+features that apply to too few examples. Rule #20: Combine and modify existing features to create new features in human­-understandable ways. There are a variety of ways to combine and modify features. Machine learning
+systems such as TensorFlow allow you to pre-process your data through
+transformations. The two most standard approaches are "discretizations" and "crosses". Discretization consists of taking a continuous feature and creating many
+discrete features from it. Consider a continuous feature such as age. You can
+create a feature which is 1 when age is less than 18, another feature which is
+1 when age is between 18 and 35, et cetera. Don’t overthink the boundaries of
+these histograms: basic quantiles will give you most of the impact. Crosses combine two or more feature columns. A feature column, in TensorFlow's
+terminology, is a set of homogenous features, (e.g. {male, female}, {US,
+Canada, Mexico}, et cetera). A cross is a new feature column with features in,
+for example, {male, female} × {US,Canada, Mexico}. This new feature column
+will contain the feature (male, Canada).

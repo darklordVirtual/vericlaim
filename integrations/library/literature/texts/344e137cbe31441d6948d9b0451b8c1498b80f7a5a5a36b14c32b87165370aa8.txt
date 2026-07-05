@@ -1,0 +1,36 @@
+Game of 24 is a mathematical reasoning challenge, where the goal is to use 4 numbers and basic arithmetic operations (+-*/) to obtain 24. For example, given input “4 9 10 13”, a solution output could be “(10 - 4) * (13 - 9) = 24”. Figure 2: ToT in a game of 24. The LM is prompted for (a) thought generation and (b) valuation. Table 2: Game of 24 Results. Method
+Success
+
+IO prompt
+
+7.3%
+
+CoT prompt
+
+4.0%
+
+CoT-SC (k=100)
+
+9.0%
+
+ToT (ours) (b=1)
+
+45%
+
+ToT (ours) (b=5)
+
+74%
+
+IO + Refine (k=10)
+
+27%
+
+IO (best of 100)
+
+33%
+
+CoT (best of 100)
+
+49%
+
+Table 2: Game of 24 Results. Figure 3: Game of 24 (a) scale analysis & (b) error analysis. Task Setup. We scrape data from 4nums.com, which has 1,362 games that are sorted from easy to hard by human solving time, and use a subset of relatively hard games indexed 901-1,000 for testing. For each task, we consider the output as success if it is a valid equation that equals 24 and uses the input numbers each exactly once. We report the success rate across 100 games as the metric. Baselines. We use a standard input-output (IO) prompt with 5 in-context examples.

@@ -1,0 +1,10 @@
+Amirkabir University Of Technology (Fatemeh.siar@gmail.com)
+
+phrase_relatedness: Luis Oliveros Colón (luis.oliveros.colon@gmail.com); Shima Asaadi, Fraunhofer IIS (shima.asaadi@gmail.com); Saif M. Mohammad and Svetlana Kiritchenko, National Research Council Canada (saif.mohammad, svetlana.kiritchenko)@nrc-cnrc.gc.ca; and Gerard de Melo, HPI/University of Potsdam (gerard.demelo@hpi.de). Task cites: (Asaadi et al., 2019; Levy et al., 2015; Ein Dor et al., 2018)
+
+physical_intuition: James B. Simon, Sajant Anand, and Elizabeth Donoway, UC Berkeley (james.simon, sajant, elizabeth.donoway)@berkeley.edu; Peter Chang, Thomson Reuters Special Services (pchang534@gmail.com); and Jack Geissinger, Carnegie Robotics (jack.geissinger7@gmail.com)
+
+physics: Gloria Wang, Illinois Mathematics and Science Academy (gwang1@imsa.edu), and Zirui Wang, Google Brain (ziruiw@google.com)
+
+physics_questions: Zijian Wang and Xinyi Wu, Amazon (zijwang@stanford.edu, xinyiwu.nlp@gmail.com). Task cites: (Ling et al., 2017; Amini et al., 2019)
+play_dialog_same_or_different: Ethan Dyer and Vinay Ramasesh, Google Research, Blueshift (edyer, ramasesh)@google.com; and Rif A. Saurous, Google (rif@google.com).

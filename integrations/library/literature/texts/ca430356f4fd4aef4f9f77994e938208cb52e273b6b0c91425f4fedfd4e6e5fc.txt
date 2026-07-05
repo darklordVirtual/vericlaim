@@ -1,0 +1,13 @@
+Swartout, and C. Cordell Green. Inferring LISP programs from examples. In IJCAI’75: Proceedings of the 4th International Joint
+Conference on Artificial Intelligence, volume 1, pp. 260--267. Artificial
+Intelligence Laboratory, Cambridge, MA, 1975. doi: 10.7916/D89K4K6X. URL https://academiccommons.columbia.edu/doi/10.7916/D89K4K6X. Shazeer & Stern (2018)
+
+Noam Shazeer and Mitchell Stern. Adafactor: Adaptive learning rates with sublinear memory cost, 2018. URL http://arxiv.org/abs/1804.04235. Sheng et al. (2019)
+
+Emily Sheng, Kai-Wei Chang, Premkumar Natarajan, and Nanyun Peng. The woman worked as a babysitter: On biases in language generation. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 3407--3412, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1339. URL https://aclanthology.org/D19-1339. Shi et al. (2020)
+
+Shaoyun Shi, Hanxiong Chen, Weizhi Ma, Jiaxin Mao, Min Zhang, and Yongfeng
+Zhang. Neural logic reasoning, 2020. URL https://arxiv.org/abs/2008.09514. Shing et al.

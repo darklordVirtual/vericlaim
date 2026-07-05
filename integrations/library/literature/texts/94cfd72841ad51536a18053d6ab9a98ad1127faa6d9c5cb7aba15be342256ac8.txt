@@ -1,0 +1,14 @@
+Shuster et al. (2021)
+
+Kurt Shuster, Spencer Poff, Moya Chen, Douwe Kiela, and Jason Weston. Retrieval augmentation reduces hallucination in conversation, 2021. URL https://arxiv.org/abs/2104.07567. Shutova (2010)
+
+Ekaterina Shutova. Automatic metaphor interpretation as a paraphrasing task. In Human Language Technologies: The 2010 Annual Conference of
+the North American Chapter of the Association for Computational
+Linguistics, pp. 1029--1037, Los Angeles, California, June 2010. Association for Computational Linguistics. URL https://aclanthology.org/N10-1147. Shutova & Teufel (2010)
+
+Ekaterina Shutova and Simone Teufel. Metaphor corpus annotated for source-target domain mappings. In Proceedings of the Seventh International Conference on
+Language Resources and Evaluation (LREC’10), Valletta, Malta, May 2010. European Language Resources Association. URL
+http://www.lrec-conf.org/proceedings/lrec2010/pdf/612_Paper.pdf. Sileo et al. (2019)
+
+Damien Sileo, Tim Van De Cruys, Camille Pradel, and Philippe Muller. Mining discourse markers for unsupervised sentence representation
+learning.

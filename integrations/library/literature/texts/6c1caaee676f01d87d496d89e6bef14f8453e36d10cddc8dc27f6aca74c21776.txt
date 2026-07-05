@@ -1,0 +1,1 @@
+We find that the Best of baseline is a strong (although computationally expensive, requiring sampling many times) baseline in our experiments. We include an evaluation of the Best of baseline for various for the Anthropic-HH dialogue and TL;DR summarization; the results are shown in Figure 4. Figure 4: Best of baseline for . Performance plateaus after roughly 64-128 samples.

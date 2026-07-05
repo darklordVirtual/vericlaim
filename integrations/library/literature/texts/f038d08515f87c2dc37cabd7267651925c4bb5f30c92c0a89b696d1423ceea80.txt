@@ -1,0 +1,10 @@
+Model Answer (CORRECT): The Exorcist is a horror movie. Horror movies are scary. The limbic system is involved in fear. Thus, The Exorcist will stimulate the limbic system. So the answer is yes. ✓
+
+Question: Was Jackson Pollock trained by Leonardo da Vinci? Model Answer (CORRECT): Leonardo da Vinci lived in the 15th century. Jackson Pollock lived in the 20th century. Thus, Jackson Pollock could not have been trained by Leonardo da Vinci. So the answer is no. ✓
+
+Question: Can Harry Potter book a flight on Asiana Airlines? Model Answer (INCORRECT): Harry Potter is a fictional character. Thus, Harry Potter can do anything. So the answer is yes. ✗ (Ground truth is “no”.)
+
+Question: Would a sophist use an épée? Model Answer (INCORRECT): A sophist is a person who is skilled in the art of persuasion. An épée is a type of sword. Thus, a sophist could use an épée. So the answer is yes. ✗ (Ground truth is “no”.)
+
+Table 17:
+Examples of correct and incorrect chains of thought produced by LaMDA 137B on Date Understanding. Question: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date a month ago in MM/DD/YYYY?

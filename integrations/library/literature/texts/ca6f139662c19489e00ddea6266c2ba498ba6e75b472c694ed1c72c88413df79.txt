@@ -1,0 +1,13 @@
+P. Lu, R. Gong, S. Jiang, L. Qiu, S. Huang, X. Liang, and S. Zhu (2021)
+Inter-GPS: interpretable geometry problem solving with formal language and symbolic reasoning. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), C. Zong, F. Xia, W. Li, and R. Navigli (Eds.),
+
+Online, pp. 6774–6786. External Links: Link,
+Document
+
+Cited by: 2nd item. F. Meng, L. Du, Z. Liu, Z. Zhou, Q. Lu, D. Fu, B. Shi, W. Wang, J. He, K. Zhang, et al. (2025)
+MM-eureka: exploring visual aha moment with rule-based large-scale reinforcement learning. arXiv preprint arXiv:2503.07365. Cited by: 2nd item. R. Qiao, Q. Tan, G. Dong, M. Wu, C. Sun, X. Song, Z. Gongque, S. Lei, Z. Wei, M. Zhang, R. Qiao, Y. Zhang, X. Zong, Y. Xu, M. Diao, Z. Bao, C. Li, and H. Zhang (2024)
+We-math: does your large multimodal model achieve human-like mathematical reasoning?. CoRR abs/2407.01284. External Links: Link,
+Document,
+2407.01284
+
+Cited by: 6th item. R. Rafailov, A. Sharma, E. Mitchell, C. D. Manning, S. Ermon, and C.

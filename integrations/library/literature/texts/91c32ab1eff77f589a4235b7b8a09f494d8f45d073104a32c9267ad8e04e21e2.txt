@@ -1,0 +1,1 @@
+We propose a further algorithm for picking in Appendix A that provides an asymptotic risk-control guarantee for non-monotone loss functions. However, this algorithm again is only powerful when the risk is near-monotone and reduces to the standard conformal risk control algorithm when the loss is monotone.

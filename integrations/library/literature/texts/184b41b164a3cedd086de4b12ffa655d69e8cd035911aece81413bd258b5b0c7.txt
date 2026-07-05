@@ -1,0 +1,45 @@
+␣␣␣␣Write␣a␣function␣that␣takes␣two␣planet␣names␣as␣strings␣planet1␣and␣planet2. ␣␣␣␣The␣function␣should␣return␣a␣tuple␣containing␣all␣planets␣whose␣orbits␣are␣located␣between␣the␣orbit␣of␣planet1␣and␣the␣orbit␣of␣planet2,␣sorted␣by␣the␣proximity␣to␣the␣sun. ␣␣␣␣The␣function␣should␣return␣an␣empty␣tuple␣if␣planet1␣or␣planet2␣are␣not␣correct␣planet␣names. ␣␣␣␣Examples
+
+␣␣␣␣bf("Jupiter",␣"Neptune")␣==>␣("Saturn",␣"Uranus")
+
+␣␣␣␣bf("Earth",␣"Mercury")␣==>␣("Venus")
+
+␣␣␣␣bf("Mercury",␣"Uranus")␣==>␣("Venus",␣"Earth",␣"Mars",␣"Jupiter",␣"Saturn")
+
+␣␣␣␣"""
+
+planet_names = (
+
+"Mercury",
+
+"Venus",
+
+"Earth",
+
+"Mars",
+
+"Jupiter",
+
+"Saturn",
+
+"Uranus",
+
+"Neptune",
+
+)
+
+if planet1 not in planet_names or planet2 not in planet_names or planet1 == planet2:
+
+return ()
+
+planet1_index = planet_names.index(planet1)
+
+planet2_index = planet_names.index(planet2)
+
+return planet_names[planet1_index + 1 : planet2_index]
+
+def anti_shuffle(s):
+
+"""
+
+␣␣␣␣Write␣a␣function␣that␣takes␣a␣string␣and␣returns␣an␣ordered␣version␣of␣it. ␣␣␣␣Ordered␣version␣of␣string,␣is␣a␣string␣where␣all␣words␣(separated␣by␣space)␣are␣replaced␣by␣a␣new␣word␣where␣all␣the␣characters␣arranged␣in␣ascending␣order␣based␣on␣ascii␣value.

@@ -1,0 +1,6 @@
+Provides strong confidence that the package was built from the official
+source and build process. Alternate means of verifying the authenticity of the provenance are
+also acceptable. ↩
+
+‹ Terminology
+Producing artifacts ›

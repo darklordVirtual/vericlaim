@@ -1,0 +1,13 @@
+4837--4842, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1478. URL https://aclanthology.org/P19-1478. Kočiský et al. (2018)
+
+Tomáš Kočiský, Jonathan Schwarz, Phil Blunsom, Chris Dyer,
+Karl Moritz Hermann, Gábor Melis, and Edward Grefenstette. The NarrativeQA reading comprehension challenge. Transactions of the Association for Computational Linguistics,
+6:317--328, 2018. doi: 10.1162/tacl_a_00023. URL https://aclanthology.org/Q18-1023. Kocoń et al. (2021)
+
+Jan Kocoń, Piotr Miłkowski, and Kamil Kanclerz. MultiEmo: Multilingual, multilevel, multidomain sentiment analysis
+corpus of consumer reviews. In Maciej Paszynski, Dieter Kranzlmüller, Valeria V. Krzhizhanovskaya, Jack J. Dongarra, and Peter M. A. Sloot (eds.),
+Computational Science -- ICCS 2021, pp. 297--312, Cham, 2021. Springer. doi: 10.1007/978-3-030-77964-1_24. URL https://doi.org/10.1007/978-3-030-77964-1_24. Kocurek & Jerzak (2021)
+
+Alexander W. Kocurek and Ethan Jerzak. Counterlogicals as counterconventionals. Journal of Philosophical Logic, 50:673--704, 2021. doi: 10.1007/s10992-020-09581-6. URL https://doi.org/10.1007/s10992-020-09581-6. Kocurek et al. (2020)
+
+Alexander W.

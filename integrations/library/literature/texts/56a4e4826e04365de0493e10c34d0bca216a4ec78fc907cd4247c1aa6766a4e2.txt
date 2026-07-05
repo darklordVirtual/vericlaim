@@ -1,0 +1,5 @@
+Within the multi-agent system, inter-agent communication follows
+zero-trust principles. Each agent holds only the minimum-privilege capability token
+required for its current subtask. Tokens carry strict TTL and scope constraints. Structured data passed between agents is authenticated with
+HMAC-SHA256 and validated against a JSON Schema, preventing lateral movement
+attacks where one compromised agent manipulates another.

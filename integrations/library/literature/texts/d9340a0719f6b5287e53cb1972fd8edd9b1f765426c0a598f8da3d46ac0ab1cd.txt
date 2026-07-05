@@ -1,0 +1,7 @@
+It is reasonable to assume that this optimal performance
+can only be obtained if the pair is trained together. As a first step, however, we consider a simpler setting where a (deep) neural classifier is already given, and our goal is to
+learn a rejection function that will guarantee with high probability a desired error rate. To this end, we consider the above two known techniques for rejection (SR and MC-dropout), and
+devise a learning method that chooses an appropriate threshold that ensures the desired risk. For a given classifier , confidence level , and desired risk , our method outputs a selective classifier
+whose test error will be no larger than with probability of at least . Using the well-known VGG-16 architecture, we apply our method on CIFAR-10, CIFAR-100 and ImageNet
+(on ImageNet we also apply the RESNET-50 architecture). We show that both SR and dropout lead to extremely effective selective classification. On both the CIFAR datasets, these two mechanisms achieve nearly identical results. However, on ImageNet,
+the simpler SR mechanism is significantly superior.

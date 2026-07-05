@@ -1,0 +1,31 @@
+We present the Chinchilla model card in LABEL:tab:chinchilla-model-card, following the framework presented by Mitchell et al. (2019). Table A8: Chinchilla model card. We follow the framework presented in Mitchell et al. (2019). Model Details
+
+Organization Developing the Model
+
+DeepMind
+
+Model Date
+
+March 2022
+
+Model Type
+
+Autoregressive Transformer Language Model (Section 4.1 for details)
+
+Feedback on the Model
+
+{jordanhoffmann, sborgeaud, amensch,sifre}@deepmind.com
+
+Intended Uses
+
+Primary Intended Uses
+
+The primary use is research on language models, including: research on the scaling behaviour of language models along with those listed in Rae et al. (2021). Primary Intended Users
+
+DeepMind researchers. We will not make this model available publicly. Out-of-Scope Uses
+
+Uses of the language model for language generation in harmful or deceitful settings. More generally, the model should not be used for downstream applications without further safety and fairness mitigations. Factors
+
+Card Prompts – Relevant Factor
+
+Relevant factors include which language is used. Our model is trained on English data. Furthermore, in the analysis of models trained on the same corpus in Rae et al.

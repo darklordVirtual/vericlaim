@@ -1,0 +1,18 @@
+(2020)
+
+Preetum Nakkiran, Behnam Neyshabur, and Hanie Sedghi. The deep bootstrap framework: Good online learners are good offline
+generalizers. arXiv preprint arXiv:2010.08127, 2020. Nakkiran et al. (2021)
+
+Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, and Ilya
+Sutskever. Deep double descent: Where bigger models and more data hurt. Journal of Statistical Mechanics: Theory and Experiment,
+2021(12):124003, 2021. Narasimhachar (1988)
+
+Ramanujapuram Narasimhachar. History of Kannada Literature: Readership Lectures. Asian Educational Services, New Dehli, 1988. Narayan et al. (2018)
+
+Shashi Narayan, Shay B. Cohen, and Mirella Lapata. Don’t give me the details, just the summary! Topic-aware
+convolutional neural networks for extreme summarization. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pp. 1797--1807, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1206. URL https://aclanthology.org/D18-1206. Nasreddine et al. (2005)
+
+Ziad S. Nasreddine, Natalie A. Phillips, Valérie Bédirian, Simon Charbonneau,
+Victor Whitehead, Isabelle Collin, Jeffrey L.

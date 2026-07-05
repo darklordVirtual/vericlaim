@@ -1,0 +1,13 @@
+For classification trees, we re-evaluated
+our top-down attack, with confidence scores rounded to
+fewer than decimal places. The attacks on the ‘IRS Tax Patterns’ and ‘Email Importance’ models are
+the most resilient, and suffer no success degradation before scores
+are rounded to decimal places. For the other models, rounding confidences to or decimal places severely undermines our attack. Differential privacy. Differential privacy (DP) [22] and its variants [34] have been explored as mechanisms for
+protecting, in particular, the privacy of ML training data [55]. DP learning has been applied to regressions [57, 17],
+SVMs [45],
+decision trees [31] and neural networks [49]. As some of our extraction attacks leak training data information (Section 4.1.3), one may ask whether
+DP can prevent extraction, or at least reduce the severity of the privacy violations
+that extraction enables. Consider naïve application of DP to protect
+individual training data elements. This should, in theory, decrease the
+ability of an adversary to learn information about training set elements, when
+given access to prediction queries.

@@ -1,0 +1,21 @@
+Le, and Zhifeng Chen. Gpipe: Efficient training of giant neural networks using pipeline
+parallelism. CoRR, abs/1811.06965, 2018,
+1811.06965. URL http://arxiv.org/abs/1811.06965. [HNA+17]
+
+Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun,
+Hassan Kianinejad, Md. Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. Deep learning scaling is predictable, empirically, 2017,
+1712.00409. [JGH18]
+
+Arthur Jacot, Franck Gabriel, and Clément Hongler. Neural tangent kernel: Convergence and generalization in neural
+networks. In Advances in neural information processing systems, pages
+8571–8580, 2018. [KB14]
+
+Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization, 2014,
+1412.6980. [Kom19]
+
+Aran Komatsuzaki. One epoch is all you need, 2019,
+arXiv:1906.06669. [KSH12]
+
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton. Imagenet classification with deep convolutional neural networks. In Proceedings of the 25th International Conference on Neural
+Information Processing Systems - Volume 1, NIPS’12, pages 1097–1105, USA,
+2012. Curran Associates Inc. URL http://dl.acm.org/citation.cfm?id=2999134.2999257.

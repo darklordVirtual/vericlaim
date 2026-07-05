@@ -1,0 +1,16 @@
+There are a number of choices about where to put the logic
+for handling events. The primary choice is whether to put the
+logic in Transaction Scripts or Domain Model. As usual Transaction Scripts are better for simple
+logic and a Domain Model is better when things get more
+complicated. In general I have noticed a tendency to use Transaction Scripts with applications that
+drive changes through events or commands. Indeed some people
+believe that this is a necessary way of structuring systems that
+are driven this way. This is, however, an
+illusion. A good way to think of this is that there are two
+responsibilities involved. Processing domain logic is the
+business logic that manipulates the application. Processing
+selection logic is the logic that chooses which chunk of
+processing domain logic should run depending on the incoming event. You can combine these together, essentially this is the Transaction Script approach, but you can also separate
+them by putting the processing selection logic in the event
+processing system, and it calls a method in the domain model
+that contains the processing domain logic.

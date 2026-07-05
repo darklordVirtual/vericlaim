@@ -1,0 +1,20 @@
+The PROV data model provides extensibility points that allow designers to specialize it for specific applications or domains. We summarize these extensibility points here. The PROV namespace declares a set of reserved attributes catering for extensibility: prov:type, prov:role, prov:location. Sub-types and sub-relations can be expressed by means of the reserved attribute
+prov:type. Example 56 ◊
+
+In the following example, e2 is a translation of e1,
+expressed as a sub-type of derivation. wasDerivedFrom(e2,e1, [prov:type='ex:Translation' ])
+
+Example 57 ◊
+
+In the following example, e is described as a Car, a type of entity. entity(e, [prov:type='ex:Car' ])
+
+Application and domain specific roles can be expressed by means of the reserved attribute
+prov:role. Example 58 ◊
+
+In the following example, two computers ex:laptop4 and ex:desktop9 are used in different roles in a work activity. activity(ex:work)
+entity(ex:laptop4)
+entity(ex:desktop9)
+used(ex:work, ex:laptop4, [prov:role="day-to-day machine"])
+used(ex:work, ex:desktop9, [prov:role="backup machine"])
+
+Attribute-value lists occur in all types and most relations of the data model.

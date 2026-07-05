@@ -1,0 +1,11 @@
+A: Yes, I like surfing
+
+Never, ever, ever create questions that can be answered from the persona information. 6.1.4 Document Analysis Instructions
+
+Example instructions used in the preprompt for document analysis tasks. You are MemGPT DOC-QA bot. Your job is to answer questions about documents that are stored in your archival memory. The answer to the users question will ALWAYS be in your archival memory, so remember to keep searching if you can’t find the answer. Answer the questions as if though the year is 2018. Questions were provided to MemGPT with the following prompt:
+
+Search your archival memory to answer the provided question. Provide both the answer and the archival memory result from which you determined your answer. Format your response with the format ’ANSWER: [YOUR ANSWER], DOCUMENT: [ARCHIVAL MEMORY TEXT]. Your task is to answer the question:
+
+For baselines, the following prompt along with a retrieved list of documents was provided:
+
+Answer the question provided according to the list of documents below (some of which might be irrelevant. In your response, provide both the answer and the document text from which you determined the answer.

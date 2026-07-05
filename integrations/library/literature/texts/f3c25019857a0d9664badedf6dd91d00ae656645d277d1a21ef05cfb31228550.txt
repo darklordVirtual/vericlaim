@@ -1,0 +1,18 @@
+At 1% prevalence, even the best single model (GPT-4o-mini ZH,
+FPR=3.2%) yields only 22.7% PPV—meaning roughly 3 out of 4
+blocks are false alarms. The cloud cascade (QG) improves this to 32.8% by reducing
+FPR to 1.9%; the local cascade (Q14B) achieves 13.9% PPV
+at (ZH). The fundamental base-rate problem remains. This underscores that Layer 2 should not operate as the sole
+gatekeeper: LGA’s layered design uses Layer 1 (sandbox) as the
+always-on containment boundary, with Layer 2 escalations triaged
+by human review or automated rollback rather than silent blocking. 7.4.8. Statistical Significance
+
+To confirm that the observed IR and FPR differences are not due
+to chance, we apply McNemar’s test (with continuity correction)
+to paired per-sample predictions on TC1/TC2 ( malicious,
+benign). Table 8 reports the key comparisons. All IR and FPR differences are statistically significant
+() except Qwen3.5-9B vs. GPT-4o-mini on English IR
+(, ), where the two judges perform
+comparably (95.0% vs. 95.4%). One cascade FPR comparison (QG vs. GPT-4o-mini ZH,
+) reaches significance at but not
+at ; all other comparisons satisfy .

@@ -1,0 +1,8 @@
+take mug 1 from desk 1You pick up the mug 1 from the desk 1. think: To solve the task, I need to find and take a mug, then find
+and use a desklamp. use desklamp 1You turn on the desklamp 1.Status: Success
+
+Figure 5: [Top] An AlfWorld trajectory in which the agent failed due to
+inefficient planning. In the reflection, the agent recognizes that it
+should have looked for the desklamp then the mug, not the mug then the
+desklamp. [Bottom] The agent is able to correct its reasoning trace and
+execute a sequence of actions in a concise manner.

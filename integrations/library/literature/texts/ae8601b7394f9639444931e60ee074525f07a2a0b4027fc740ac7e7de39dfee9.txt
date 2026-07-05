@@ -1,0 +1,19 @@
+PROV-DM Extensibility Points
+
+7. Creating Valid Provenance
+
+A. Cross-References to PROV-O and PROV-N
+
+B. Change Log
+B.1 Changes since Proposed Recommendation
+
+B.2 Changes since Candidate Recommendation
+
+B.3 Changes since Last Call
+
+C. Acknowledgements
+
+D. References
+D.1 Normative references
+
+D.2 Informative references

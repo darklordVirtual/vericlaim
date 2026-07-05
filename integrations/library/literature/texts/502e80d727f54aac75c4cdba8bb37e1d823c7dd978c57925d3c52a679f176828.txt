@@ -1,0 +1,18 @@
+(2022). Competition-level code generation with alphacode. Science, 378(6624):1092–1097. Madaan et al., (2023)
+
+Madaan, A., Tandon, N., Gupta, P., Hallinan, S., Gao, L., Wiegreffe, S., Alon,
+U., Dziri, N., Prabhumoye, S., Yang, Y., et al. (2023). Self-refine: Iterative refinement with self-feedback. arXiv preprint arXiv:2303.17651. Nair et al., (2023)
+
+Nair, V., Schumacher, E., Tso, G., and Kannan, A. (2023). Dera: Enhancing large language model completions with dialog-enabled
+resolving agents. arXiv preprint arXiv:2303.17071. Nakano et al., (2021)
+
+Nakano, R., Hilton, J., Balaji, S., Wu, J., Ouyang, L., Kim, C., Hesse, C.,
+Jain, S., Kosaraju, V., Saunders, W., et al. (2021). Webgpt: Browser-assisted question-answering with human feedback. arXiv preprint arXiv:2112.09332. OpenAI, (2023)
+
+OpenAI (2023). Gpt-4 technical report. ArXiv. Park et al., (2023)
+
+Park, J. S., O’Brien, J. C., Cai, C. J., Morris, M. R., Liang, P., and
+Bernstein, M. S. (2023). Generative agents: Interactive simulacra of human behavior. arXiv preprint arXiv:2304.03442. Paul et al., (2023)
+
+Paul, D., Ismayilzada, M., Peyrard, M., Borges, B., Bosselut, A., West, R., and
+Faltings, B. (2023).

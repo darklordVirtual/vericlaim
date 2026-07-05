@@ -1,0 +1,5 @@
+Mean-pooled Activations
+
+Since we suspect that the activation spaces contain decipherable information for confidence estimation, the raw activations themselves are the most natural place to start. Consider a language model that processes an input query and produces a candidate generation . At each layer , we extract the activations for the output sequence: . We collapse this activation into a single vector by mean pooling across the sequence such that for every layer , we have a single activation vector per query: . These become the input features to our confidence estimators. We train separate confidence estimators at each layer, but present the performance of the best performing estimator at different layer depths (early, middle, and late) rather than at all layers for simplicity. Layer-wise Cosine Similarities with the Final Layer
+
+Activations at a single layer are high-dimensional and can be limited in the information it could contain. Layers tend to specialize; activations at earlier layers are better at probing word or subword-level phenomenon and those at layer layers are better at higher-level, sequence-level phenomenon (rogers-etal-2020-primer).

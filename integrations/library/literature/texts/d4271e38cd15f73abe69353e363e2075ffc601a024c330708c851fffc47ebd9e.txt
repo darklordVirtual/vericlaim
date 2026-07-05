@@ -1,0 +1,8 @@
+The sixth component of PROV-DM is concerned with the notion of collections. A collection is an entity that has some members. The members are themselves entities, and therefore their provenance can be expressed. Some applications need to be able to express the provenance of the collection itself: e.g. who maintains the collection (attribution), which members it contains as it evolves, and how it was assembled. The purpose of Component 6 is to define the types and relations that are useful to express the provenance of collections. Figure 11 depicts
+the sixth component with two new classes (Collection, Empty Collection) and one association HadMember (Membership). Figure 11 ◊: Collections Component Overview (Informative)
+
+5.6.1 Collection
+
+A collection ◊ is an entity that provides a structure to some constituents that must themselves be entities. These constituents are said to be member ◊ of the collections. An empty collection ◊ is a collection without members. PROV-DM defines the following types related to collections:
+
+prov:Collection ◊ denotes an entity of type Collection, i.e.

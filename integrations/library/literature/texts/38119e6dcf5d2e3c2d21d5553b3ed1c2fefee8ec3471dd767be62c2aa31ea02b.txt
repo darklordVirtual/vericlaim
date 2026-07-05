@@ -1,0 +1,16 @@
+LLM-driven agent systems are transitioning from
+conversational to executive: frameworks such as
+AutoGen (Wu et al., 2024), LangChain (Chase, 2022),
+and OpenClaw111OpenClaw: https://github.com/openclaw/openclaw;
+see Sect. 6 for a detailed case study. now grant models the ability to write files, execute
+shell commands, and invoke transactional APIs. This shift moves the consequence of failure from incorrect text output
+to potentially irreversible system state changes. Concurrently, AI-assisted programming tools (Chen et al., 2021)
+are reshaping the value distribution of software engineers. A common argument holds that low-level systems expertise is
+amplified by AI because models generate code containing
+leaky abstractions (Spolsky, 2002)—semantic
+failures that may surface under production conditions. While empirically supported in the short term, we argue this
+framing overlooks a convergence trend: multi-agent adversarial
+verification, formal-methods assistance, and execution-feedback
+loops are systematically reducing AI defect rates, shifting the
+locus of engineering effort from defect remediation toward
+system governance.

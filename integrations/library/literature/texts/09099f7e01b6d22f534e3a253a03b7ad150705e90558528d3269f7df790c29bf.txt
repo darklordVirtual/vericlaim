@@ -1,0 +1,9 @@
+To train the very first InstructGPT models, we asked labelers to write prompts themselves. This is because we needed an initial source of instruction-like prompts to bootstrap the process, and these kinds of prompts weren’t often submitted to the regular GPT-3 models on the API. We asked labelers to write three kinds of prompts:
+
+•
+
+Plain: We simply ask the labelers to come up with an arbitrary task, while ensuring the tasks had sufficient diversity. •
+
+Few-shot: We ask the labelers to come up with an instruction, and multiple query/response pairs for that instruction. •
+
+User-based: We had a number of use-cases stated in waitlist applications to the OpenAI API. We asked labelers to come up with prompts corresponding to these use cases. From these prompts, we produce three different datasets used in our fine-tuning procedure: (1) our SFT dataset, with labeler demonstrations used to train our SFT models, (2) our RM dataset, with labeler rankings of model outputs used to train our RMs, and (3) our PPO dataset, without any human labels, which are used as inputs for RLHF fine-tuning.

@@ -1,0 +1,12 @@
+For
+instance, you may optimize clicks, plus-ones, or downloads, but make launch
+decisions based in part on human raters. Rule #39: Launch decisions are a proxy for long-term product goals. Alice has an idea about reducing the logistic loss of predicting installs. She
+adds a feature. The logistic loss drops. When she does a live experiment, she
+sees the install rate increase. However, when she goes to a launch review
+meeting, someone points out that the number of daily active users drops by 5%. The team decides not to launch the model. Alice is disappointed, but now
+realizes that launch decisions depend on multiple criteria, only some of which
+can be directly optimized using ML. The truth is that the real world is not dungeons and dragons: there are no "hit
+points" identifying the health of your product. The team has to use the
+statistics it gathers to try to effectively predict how good the system will be
+in the future. They need to care about engagement, 1 day active users (DAU), 30
+DAU, revenue, and advertiser’s return on investment.

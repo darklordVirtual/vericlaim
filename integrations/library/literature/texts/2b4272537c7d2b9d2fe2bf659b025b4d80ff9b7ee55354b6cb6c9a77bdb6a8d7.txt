@@ -1,0 +1,23 @@
+SVMs. Support vector machines (SVMs) perform binary classification
+()
+by defining a maximally separating hyperplane in -dimensional feature
+space. A linear SVM is a function
+where ‘’ outputs 0 for all
+negative inputs and 1 otherwise. Linear SVMs are
+not suitable for non-linearly separable data. Here one uses instead kernel
+techniques [14]. A kernel is a function . Typical
+kernels include the quadratic kernel and the Gaussian radial basis function (RBF) kernel
+, parameterized by a value . A kernel’s projection function is a map
+defined by . We do not
+use explicitly, indeed for RBF kernels this produces an
+infinite-dimension vector. Instead,
+classification is defined using a “kernel trick”:
+where is again a learned threshold, are
+learned weights, and are feature
+vectors of inputs from a training set. The for which
+are called support vectors. Note that for non-zero , it is
+the case that if
+the training-set label of was zero and otherwise. Logistic regression. SVMs do not directly generalize to
+multiclass settings , nor do they output class probabilities. Logistic regression (LR) is a popular
+classifier that does. A binary LR model
+is defined as and .

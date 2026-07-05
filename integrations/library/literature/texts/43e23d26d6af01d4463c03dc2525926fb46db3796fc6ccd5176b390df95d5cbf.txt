@@ -1,0 +1,13 @@
+Another common form of distribution shift is distribution drift: slowly varying changes in the data distribution. For example, when collecting time-series data, the data distribution may change—furthermore, it may change in a way that is unknown or difficult to estimate. Here, one can imagine using weights that give more weight to recent conformal scores. The following theory provides some justification for such weighted conformal procedures; in particular, they always satisfy marginal coverage, and are exact when the magnitude of the distribution shift is known. More formally, suppose the calibration data are drawn independently from different distributions and the test point is drawn from . Given some weight schedule , , we will consider the calculation of weighted quantiles using the calibration data:
+
+(38)
+
+where the are normalized weights,
+
+(39)
+
+Then we can construct prediction sets in the usual way,
+
+(40)
+
+We now state a theorem showing that when the distribution is shifting, it is a good idea to apply a discount factor to old samples. In particular, let be the TV distance between the th data point and the test data point.

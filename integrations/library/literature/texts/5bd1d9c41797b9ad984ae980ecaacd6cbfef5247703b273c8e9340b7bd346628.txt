@@ -1,0 +1,34 @@
+For example, given the following chat log and persona summaries:
+
+old chat between user A and user B
+
+A: Are you into surfing? I’m super into surfing myself
+
+B: Actually I’m looking to learn. Maybe you could give me a basic lesson some time! A: Yeah for sure! We could go to Pacifica, the waves there are pretty light and easy
+
+B: That sounds awesome
+
+A: There’s even a cool Taco Bell right by the beach, could grab a bite after
+B: What about this Sunday around noon? A: Yeah let’s do it! user A persona:
+
+I like surfing
+
+I grew up in Santa Cruz
+
+user B persona:
+
+I work in tech
+
+I live in downtown San Francisco
+
+Here’s an example of a good question that sounds natural, and an answer that cannot be directly inferred from user A’s persona:
+
+User B’s question for user A
+
+B: Remember that one time we went surfing? What was that one place we went to for lunch called? A: Taco Bell! This is an example of a bad question, where the question comes across as unnatural, and the answer can be inferred directly from user A’s persona:
+
+User B’s question for user A
+
+B: Do you like surfing? A: Yes, I like surfing
+
+Never, ever, ever create questions that can be answered from the persona information.

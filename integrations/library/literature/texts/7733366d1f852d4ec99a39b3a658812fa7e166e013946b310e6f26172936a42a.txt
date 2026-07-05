@@ -1,0 +1,16 @@
+So my perfect book shipping system would be able to detect if a
+cargo had passed through Canada. class Tester... [Test]
+public void VisitingCanadaMarksCargo() {
+eProc.Process(new LoadEvent(new DateTime(2005,11,1), refact, kr));
+eProc.Process(new ArrivalEvent(new DateTime(2005,11,2), yyv, kr));
+eProc.Process(new DepartureEvent(new DateTime(2005,11,3), yyv, kr ));
+eProc.Process(new ArrivalEvent(new DateTime(2005,11,4), sfo, kr));
+eProc.Process(new UnloadEvent(new DateTime(2005,11,5), refact, kr));
+Assert.IsTrue(refact.HasBeenInCanada);
+}
+
+Since the cargo may be moved between ships and offloaded, it's
+the cargo that has the responsibility of knowing whether it's been
+exposed to these northern dangers. Fortunately the risk only
+occurs when actually in a port, just being in the waters is
+safe. So our arrival event has to keep track of this. class ArrivalEvent...

@@ -1,0 +1,37 @@
+Anthony Corso and Mykel Kochenderfer
+
+“The Adaptive Stress Testing Formulation”
+
+In RSS 2019: Workshop on Safe Autonomy, 2019
+
+URL: https://openreview.net/pdf?id=rJgoNK-oaE
+
+[62]
+Ritchie Lee et al. “Adaptive stress testing of airborne collision avoidance systems”
+
+In AIAA/IEEE Digital Avionics Systems Conference - Proceedings
+
+Institute of ElectricalElectronics Engineers Inc., 2015
+
+DOI: 10.1109/DASC.2015.7311613
+
+[63]
+N.. Chawla, K.. Bowyer, L.. Hall and W.. Kegelmeyer
+
+“SMOTE: Synthetic Minority Over-sampling Technique”
+
+In Journal of Artificial Intelligence Research, 2002
+
+DOI: 10.1613/jair.953
+
+[64]
+Guillaume Lemaître, Fernando Nogueira and Christos K. Aridas
+
+“Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning”
+
+In Journal of Machine Learning Research 7, 2016, pp. 1–5
+
+arXiv: http://www.jmlr.org/papers/volume18/16-365/16-365.pdf
+
+[65]
+Aleksander Madry et al.

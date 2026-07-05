@@ -1,0 +1,11 @@
+3). Figure 3: Weight visualizations of maxout networks trained on MNIST. Each row shows
+the filters for a single maxout unit. Left) Naively trained model. Right) Model with adversarial training. The adversarial training procedure can be seen as minimizing the worst case error when the data is perturbed by an
+adversary. That can be interpreted as learning to play an adversarial game, or as minimizing an
+upper bound on the expected cost over noisy samples with noise from added to the
+inputs. Adversarial training can also be seen as a form of active learning, where the model is
+able to request labels on new points. In this case the human labeler is replaced with a heuristic
+labeler that copies labels from nearby points. We could also regularize the model to be insensitive to changes in its features that are smaller than the
+precision simply by training on all points within the max norm box, or sampling many
+points within this box. This corresponds to adding noise with max norm during training. However, noise with
+zero mean and zero covariance is very inefficient at preventing adversarial examples. The expected dot product
+between any reference vector and such a noise vector is zero.

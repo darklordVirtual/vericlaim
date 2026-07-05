@@ -1,0 +1,16 @@
+Biermann (1978)
+
+Alan W. Biermann. The inference of regular LISP programs from examples. IEEE Transactions on Systems, Man, and Cybernetics, 8(8):585--600, 1978. doi: 10.1109/TSMC.1978.4310035. URL https://ieeexplore.ieee.org/document/4310035. Birhane et al. (2021)
+
+Abeba Birhane, Vinay Uday Prabhu, and Emmanuel Kahembwe. Multimodal datasets: Misogyny, pornography, and malignant
+stereotypes, 2021. URL https://arxiv.org/abs/2110.01963. Birke & Sarkar (2006)
+
+Julia Birke and Anoop Sarkar. A clustering approach for nearly unsupervised recognition of
+nonliteral language. In 11th Conference of the European Chapter of the Association
+for Computational Linguistics, pp. 329--336, Trento, Italy, April 2006. Association for Computational Linguistics. URL https://aclanthology.org/E06-1042. Bischoff et al. (2020)
+
+Sebastian Bischoff, Niklas Deckers, Marcel Schliebs, Ben Thies, Matthias Hagen,
+Efstathios Stamatatos, Benno Stein, and Martin Potthast. The importance of suppressing domain style in authorship analysis,
+2020. URL https://arxiv.org/abs/2005.14714. Bisk et al. (2020)
+
+Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, and Yejin Choi.

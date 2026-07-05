@@ -1,0 +1,47 @@
+Action 1
+
+Search[Colorado orogeny]
+
+Observation 1
+
+The Colorado orogeny was an episode of mountain building (an orogeny) in Colorado and surrounding areas. Action 2
+
+Lookup[eastern sector]
+
+Observation 2
+
+(Result 1 / 1) The eastern sector extends into the High Plains and is called the Central Plains orogeny. Action 3
+
+Search[High Plains]
+
+Observation 3
+
+High Plains refers to one of two distinct land regions:
+
+Action 4
+
+Search[High Plains (United States)]
+
+Observation 4
+
+The High Plains are a subregion of the Great Plains. From east to west, the High Plains rise in elevation from around 1,800 to 7,000 ft (550 to 2,130 m).[3]
+
+Action 5
+
+Finish[1,800 to 7,000 ft]
+
+Question
+
+Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who? Action 1
+
+Search[Milhouse]
+
+Observation 1
+
+Milhouse Mussolini Van Houten is a recurring character in the Fox animated television series The Simpsons voiced by Pamela Hayden and created by Matt Groening. Action 2
+
+Lookup[named after]
+
+Observation 2
+
+(Result 1 / 1) Milhouse was named after U.S. president Richard Nixon, whose middle name was Milhous.

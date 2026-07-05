@@ -1,0 +1,42 @@
+For , we define the selection function as
+
+(3)
+
+For any selective classifier , we define its empirical selective risk with respect to the labeled sample
+,
+
+where is the empirical coverage,
+. For any selection function , denote by the -projection of ,
+. The selection with guaranteed risk (SGR) learning algorithm appears in Algorithm 1. The algorithm receives as input a classifier , a confidence-rate function , a confidence parameter , a target risk , and a training set . The algorithm performs a binary search to find the optimal bound
+guaranteeing the required risk with sufficient confidence. The SGR algorithm outputs a selective classifier and a risk bound . In the rest of this section we analyze the SGR algorithm. We make use of the following lemma, which gives the tightest possible numerical generalization bound for a single
+classifier, based on a test over a labeled sample. Algorithm 1 Selection with Guaranteed Risk (SGR)
+
+1: SGR(,,,,)
+
+2: Sort according to , (and now assume w.l.o.g. that indices reflect this ordering). 3: ;
+
+4: for to do
+
+5:
+
+6:
+
+7: {(see (3))}
+
+8:
+
+9: {see Lemma 3.1 }
+
+10: if then
+
+11:
+
+12: else
+
+13:
+
+14: end if
+
+15: end for
+
+16: Output- and the bound .

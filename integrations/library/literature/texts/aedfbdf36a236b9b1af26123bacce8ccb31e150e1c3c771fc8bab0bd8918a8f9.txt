@@ -1,0 +1,13 @@
+Dhole, Amelia R&D, New York (kaustubhdhole@hotmail.com). Task cites: (Hildebrandt, 2018; Daley, 2021; King & Cook, 2020)
+
+self_evaluation_tutoring: Jascha Sohl-Dickstein, Google (jaschasd@google.com). Task cites: (Zhang et al., 2019a; Irving et al., 2018)
+
+semantic_parsing_in_context_sparc: Tao Yu, The University of Hong Kong (tyu@cs.hku.hk); Michihiro Yasunaga, Stanford University
+(myasu@cs.stanford.edu); and Rui Zhang, Penn State University (r.zhang@psu.edu). Task cites: (Yu et al., 2019b; 2018; a)
+
+semantic_parsing_spider: Tao Yu, The University of Hong Kong (tyu@cs.hku.hk); Michihiro Yasunaga, Stanford University
+(myasu@cs.stanford.edu); and Rui Zhang, Penn State University (r.zhang@psu.edu). Task cites: (Yu et al., 2018; 2019b; 2019a)
+
+sentence_ambiguity: Sahib Singh, Ford Motor Company (sahibsingh570@gmail.com)
+
+similarities_abstraction: Michael A. Yee, EleutherAI (yeem@csail.mit.edu).

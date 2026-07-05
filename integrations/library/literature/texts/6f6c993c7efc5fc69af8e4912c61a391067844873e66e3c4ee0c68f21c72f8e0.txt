@@ -1,0 +1,7 @@
+(dillavou@sas.upenn.edu)
+
+suicide_risk: Jekaterina Novikova, NoOverfitting Lab (novikova.jekaterina@gmail.com), and Ksenia Shkaruta, NoOverfitting Lab and Georgia Tech (ksenia@shkaruta.com). Task cites: (Gaur et al., 2019; Mohammadi et al., 2019; Matero et al., 2019; Shing et al., 2018)
+
+swahili_english_proverbs: Kevin Omondi, Eunice Engefu Manyasi, Victoria Nyamai, Joan Waweru, Titus Tunduny, and Tiberius Nkinyili, Strathmore University, (kevochi09, eunismanyasi, victorianyamai12, jowambui123, ttunduny, ttnkinyili)@gmail.com; and Clara Rivera, Google (rivera@google.com). swedish_to_german_proverbs: Marie Tolkiehn, University of Bristol and Center for Data and Computing in Natural Sciences (Universität Hamburg, DESY, TUHH) (marie.tolkiehn@desy.de). Task cites: (Hanzén, 2007; Korhonen, 2009; Meister, 2007; Mieder, 2019)
+
+symbol_interpretation: Emanuele Rodola, Luca Moschella, Giorgio Mariani, Antonio Norelli, Andrea Santilli, and Simone Melzi, Sapienza University of Rome (rodola, moschella, mariani, norelli, santilli, melzi)@di.uniroma1.it; and Giambattista Parascandolo, MPI for Intelligent Systems and ETH Zurich (gparascandolo@tue.mpg.de).

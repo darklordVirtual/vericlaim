@@ -1,0 +1,17 @@
+Cognition, 213:104699, 2021b. doi: https://doi.org/10.1016/j.cognition.2021.104699. URL
+https://www.sciencedirect.com/science/article/pii/S0010027721001189. Special Issue in Honour of Jacques Mehler, Cognition’s founding
+editor. Lample & Charton (2019)
+
+Guillaume Lample and François Charton. Deep learning for symbolic mathematics, 2019. URL https://arxiv.org/abs/1912.01412. Lan et al. (2019)
+
+Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and
+Radu Soricut. ALBERT: A lite BERT for self-supervised learning of language
+representations, 2019. URL https://arxiv.org/abs/1909.11942. Le et al. (2019)
+
+Matthew Le, Y-Lan Boureau, and Maximilian Nickel. Revisiting the evaluation of theory of mind through question
+answering. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 5872--5877, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1598. URL https://aclanthology.org/D19-1598. Lee et al. (2020)
+
+Nayeon Lee, Belinda Z. Li, Sinong Wang, Wen-tau Yih, Hao Ma, and Madian Khabsa.

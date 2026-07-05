@@ -1,0 +1,12 @@
+Rule #25: When choosing models, utilitarian performance trumps predictive power. Your model may try to predict click-through rate. However, in the end, the key
+question is what you do with that prediction. If you are using it to rank
+documents, then the quality of the final ranking matters more than the
+prediction itself. If you predict the probability that a document is spam and
+then have a cutoff on what is blocked, then the precision of what is allowed
+through matters more. Most of the time, these two things should be in
+agreement: when they do not agree, it will likely be on a small gain. Thus, if
+there is some change that improves log loss but degrades the performance of
+the system, look for another feature. When this starts happening more often,
+it is time to revisit the objective of your model. Rule #26: Look for patterns in the measured errors, and create new features. Suppose that you see a training example that the model got "wrong". In a
+classification task, this error could be a false positive or a false negative. In a ranking task, the error could be a pair where a positive was ranked lower
+than a negative.

@@ -1,0 +1,7 @@
+We avoid this metric and only focus on “strict accuracy”, and - as in the previous sections - we report pass@ numbers for various (Table 2). There are 2 additional factors, well-known from coding competitions, that we take into account:
+
+•
+
+In coding competitions and in the APPS datasets, tasks are provided with 3 input/output examples included in the task description. We utilize this by sampling 1000 solutions from the model and filtering out only those that pass these 3 unit tests (if such solutions exist). We then calculate pass rates in this filtered set, and call it filtered pass@. Results without filtering are presented as raw pass@. •
+
+It is often the case both in coding competitions and in the results from Codex that a correct solution is found, but it is not algorithmically efficient enough to be considered passing. While this is not acceptable in the competitions, we also report the number of solutions that Codex produces that do not fail on any unit test, but that do time-out on some of them. We use a timeout of 3 seconds in our evaluation.

@@ -1,0 +1,33 @@
+a legitimate operation with a
+covert side-channel (e.g., sending file contents to an external
+telemetry endpoint), while the corresponding benign counterpart
+performs only the declared operation. All samples were generated using structured prompt templates with
+gpt-4o-mini and verified for label correctness
+via manual inspection of a stratified random 10% sample (, preserving class proportions),
+which showed 100% agreement with the assigned labels
+(single-inspector verification by the author; future releases
+will incorporate independent annotation). An English version was produced by machine-translating the
+Chinese dataset with the same model, preserving all labels and
+tool-call structures (note that machine translation may
+introduce artifacts that affect detection rates; see
+Sect. 7.4.5 (iv) for a native-English ablation). Table 2 shows representative examples from the
+benchmark, illustrating the contrast between benign and malicious
+tool calls for the same task context. Table 2. Representative Benchmark Samples
+
+Type
+
+Task
+
+Tool Call
+
+Label
+
+Benign
+
+“Read project config file”
+
+file_read("/workspace/ config.yml")
+
+ALLOW
+
+Direct Inj.

@@ -1,0 +1,6 @@
+Instead, introduced correspondance table 7. Furthermore, in response to these issues, it was made clear that PROV defines no attribute specific to subtypes such as SoftwareAgent, ..., Plan, Revision, Bundle, Collection. ISSUE-495: made explicit which section, figure, table was informative or normative. ISSUE-521: now states that "an agent relied on a plan" instead of "an agent adopted a plan". ISSUE-499: Made explicit that generation/usage/invalidation/start/end are implicit. ISSUE-449: Clarified definition of prov:value attribute and added an example. ISSUE-495: added paragraph about 'relations opening up'. Clarified the role of '-' in example. Fixed dates in biblio. Fixed space issue in prov-n examples
+
+ISSUE-516: Stating that there moust be some underpinning activity or activities for a derivation, instead of just activities. ISSUE-525: Made it explicit that Membership, Alternate, Specialization are not Influence
+
+Copied the sentence " An agent may be a particular type of entity or activity. This means that the model can be
+used to express provenance of the agents themselves. " from the informative section into the normative section. ISSUE-504: Updated definition of collection.

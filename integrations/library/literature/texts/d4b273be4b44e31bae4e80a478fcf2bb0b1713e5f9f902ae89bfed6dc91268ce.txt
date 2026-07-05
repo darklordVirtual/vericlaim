@@ -1,0 +1,13 @@
+Polikarpova et al. (2016)
+
+Nadia Polikarpova, Ivan Kuraj, and Armando Solar-Lezama. Program synthesis from polymorphic refinement types. In Proceedings of the 37th ACM SIGPLAN Conference on
+Programming Language Design and Implementation, PLDI ’16, pp. 522–538,
+New York, NY, USA, 2016. Association for Computing Machinery. doi: 10.1145/2908080.2908093. URL https://doi.org/10.1145/2908080.2908093. Polu & Sutskever (2020)
+
+Stanislas Polu and Ilya Sutskever. Generative language modeling for automated theorem proving, 2020. URL https://arxiv.org/abs/2009.03393. Ponzetto & Strube (2007)
+
+Simone Paolo Ponzetto and Michael Strube. Knowledge derived from Wikipedia for computing semantic
+relatedness. Journal of Artificial Intelligence Research, 30:181--212, 2007. URL https://jair.org/index.php/jair/article/view/10513. Popescu & Strapparava (2015)
+
+Octavian Popescu and Carlo Strapparava. SemEval 2015, task 7: Diachronic text evaluation. In Proceedings of the 9th International Workshop on Semantic
+Evaluation (SemEval 2015), pp. 870--878, Denver, Colorado, June 2015. Association for Computational Linguistics. doi: 10.18653/v1/S15-2147. URL https://aclanthology.org/S15-2147. Poria et al.

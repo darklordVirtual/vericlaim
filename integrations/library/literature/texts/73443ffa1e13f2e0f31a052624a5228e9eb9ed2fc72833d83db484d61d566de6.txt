@@ -1,0 +1,6 @@
+Figure 17: Results using selective classification on Imagenet with . In many situations, we only want to show a model’s predictions when it is confident. For example, we may only want to make medical diagnoses when the model will be 95% accurate, and otherwise to say “I don’t know.”
+We next demonstrate a system that strategically abstains in order to achieve a higher accuracy than the base model in the problem of image classification. More formally, given image-class pairs and an image classifier , we seek to ensure
+
+(49)
+
+where , , and is a threshold chosen using the calibration data. This is called a selective accuracy guarantee, because the accuracy is only computed over a subset of high-confidence predictions. This quantity cannot be controlled with techniques we’ve seen so far, since we are not guaranteed that model accuracy is monotone in the cutoff . Nonetheless, it can be handled with Learn then Test—a framework for controlling arbitrary risks (see Appendix LABEL:app:ltt). We show only the special case of controlling selective classification accuracy here.

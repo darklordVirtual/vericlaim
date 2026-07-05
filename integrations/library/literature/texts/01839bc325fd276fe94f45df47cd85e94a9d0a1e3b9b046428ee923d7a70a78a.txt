@@ -1,0 +1,20 @@
+For any source distribution over
+with Bayes optimal regressor , any loss function,
+and any oblivious property , there exists a predictor
+such that:
+
+1. is an optimal predictor satisfying . That is,
+for any predictor
+which satisfies . 2. is derived from
+
+Figure 3: Graphical model for the proof of Proposition 5.2. Proof. Consider an arbitrary classifier on the attributes ,
+defined by a (possibly randomized) function Given
+, we can draw a fresh from the distribution , and set . This satisfies (2). Moreover, since is binary with expectation , is
+independent of conditioned on . Hence
+and have identical distributions, so and
+also have identical distributions. This implies
+satisfies (1) as desired. ∎
+
+Corollary 5.3 (Optimality characterization). An optimal equalized odds predictor can be derived from the Bayes
+optimal regressor and the protected attribute The same is true for
+an optimal equal opportunity predictor.

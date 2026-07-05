@@ -1,0 +1,16 @@
+Trial #1: Question: Grown-Ups starred the actor who was
+best known for which role on "’Allo ’Allo!"? Thought 1: I need to search Grown-Ups and "’Allo ’Allo!", find the actor
+who starred in Grown-Ups, then find the role he was best known for in
+"’Allo ’Allo!". Action 1: Search[Grown-Ups]
+Observation 1: Grown-Ups is a 1980 British BBC television film devised
+and directed by Mike Leigh. It stars Lesley Manville, Philip Davis,
+Brenda Blethyn, Janine Duvitski, Lindsay Duncan and Sam Kelly. It was
+edited by Robin Sales and produced by Louis Marks for the BBC, and
+originally shown on BBC 2 on 28 November 1980. Thought 2: Grown-Ups starred Lesley Manville, Philip Davis, Brenda
+Blethyn, Janine Duvitski, Lindsay Duncan and Sam Kelly. I need to
+search "’Allo ’Allo!" and find which actor was best known for which
+role. Action 2: Search["’Allo ’Allo!"]
+Observation 2: Could not find ["’Allo ’Allo!"]. Similar: ["’Allo
+’Allo!", "List of ’Allo ’Allo! characters", ’Gorden Kaye’, "’Allo
+’Allo! (series 2)", ’Allô, allô’, ’Francesca Gonshaw’, "’Allo
+’Allo! (series 4)", ’Kim Hartman’, "’Allo ’Allo!

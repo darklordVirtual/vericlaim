@@ -1,0 +1,22 @@
+We now formally introduce our first criterion. Definition 2.1 (Equalized odds). We say that a predictor satisfies equalized odds with
+respect to protected attribute and outcome if
+and are independent conditional on
+
+Unlike demographic parity, equalized odds allows to depend
+on but only through the target variable As such, the
+definition encourages the use of features that allow to directly
+predict but prohibits abusing as a proxy for
+
+As stated, equalized odds applies to targets and protected attributes taking
+values in any space, including binary, multi-class, continuous or structured
+settings. The case of binary random variables and is of central
+importance in many applications, encompassing the main conceptual and technical
+challenges. As a result, we focus most of our attention on this case, in which
+case equalized odds are equivalent to:
+
+For the outcome the constraint requires that has equal true
+positive rates across the two demographics and For
+the constraint equalizes false positive rates. The
+definition aligns nicely with the central goal of building highly
+accurate classifiers, since is always an acceptable
+solution.

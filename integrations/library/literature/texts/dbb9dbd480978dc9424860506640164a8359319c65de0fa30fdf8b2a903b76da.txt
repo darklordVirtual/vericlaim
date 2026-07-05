@@ -1,0 +1,14 @@
+Thus
+consider whether the complexity you are adding with this launch will slow down
+future launches. Many teams have launched a model per quarter or more for
+years. There are three basic reasons to launch new models:
+
+You are coming up with new features. You are tuning regularization and combining old features in new ways. You are tuning the objective. Regardless, giving a model a bit of love can be good: looking over the data
+feeding into the example can help find new signals as well as old, broken
+ones. So, as you build your model, think about how easy it is to add or remove
+or recombine features. Think about how easy it is to create a fresh copy of
+the pipeline and verify its correctness. Think about whether it is possible to
+have two or three copies running in parallel. Finally, don’t worry about
+whether feature 16 of 35 makes it into this version of the pipeline. You’ll
+get it next quarter. Rule #17: Start with directly observed and reported features as opposed to learned features. This might be a controversial point, but it avoids a lot of pitfalls. First of
+all, let’s describe what a learned feature is.

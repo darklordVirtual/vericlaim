@@ -1,0 +1,9 @@
+In Figure App.3 we present the results by individual task and category of the analysis of social bias in ambiguous contexts aggregated in Figure 12. Figure App.3:
+Social bias performance on individual tasks and categories. Here we show the performance on the tasks aggregated in Figure 12 by task and category of bias. \begin{overpic}[width=173.44534pt]{figures/word_sorting_exact_str_vs_rouge.pdf%
+}
+\put(0.0,1.0){{\small(a)}}
+\end{overpic}\begin{overpic}[width=173.44534pt]{figures/gender_inclusive_sentences_german_%
+exact_str_vs_rouge.pdf}
+\put(0.0,1.0){{\small(b)}}
+\end{overpic}
+Figure App.4: Performance on tasks is often driven by the precise formulation of the task metric. When carefully characterized, the underlying capabilities supporting the task can increase smoothly with model size. For example, the exact_str_match metric requires a model to get every word correct and often shows minimal improvements at smaller scales, while the ROUGE metric instead increases as longer blocks of words are correctly ordered, and performance improves gradually with model size.

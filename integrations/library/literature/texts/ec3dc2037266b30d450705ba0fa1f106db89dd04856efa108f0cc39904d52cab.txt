@@ -1,0 +1,16 @@
+In subsequent trials, the agent can leverage
+its past experiences to adapt its decision-making approach at time by
+choosing action . This iterative process of trial, error, self-reflection,
+and persisting memory enables the agent to rapidly improve its decision-making
+ability in various environments by utilizing informative feedback signals. Memory
+
+Core components of the Reflexion process are the notion of short-term and
+long-term memory. At inference time, the Actor conditions its decisions on
+short and long-term memory, similar to the way that humans remember fine-grain
+recent details while also recalling distilled important experiences from long-term memory. In the RL setup, the trajectory history serves as the short-term memory while
+outputs from the Self-Reflection model are stored in long-term memory. These two
+memory components work together to provide context that is specific but
+also influenced by lessons learned over several trials, which is a key
+advantage of Reflexion agents over other LLM action choice works. The Reflexion process
+
+Reflexion is formalized as an iterative optimization process in 1.

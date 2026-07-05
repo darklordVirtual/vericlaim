@@ -1,0 +1,6 @@
+For classification problems involving classes, we return to the original problem formulation. The network outputs a class prediction and confidence score for each input . In this case, the network logits are vectors, where , and is typically derived using the softmax function :
+
+The goal is to produce a calibrated confidence and (possibly new) class prediction
+based on , , , and . Extension of binning methods. One common way of extending binary calibration methods to the multiclass setting is by treating the problem as one-versus-all problems (Zadrozny & Elkan, 2002). For , we form a binary calibration problem where the label is and the predicted probability is . This gives us calibration models, each for a particular class. At test time, we obtain an unnormalized probability vector , where is the calibrated probability for class . The new class prediction is the argmax of the vector, and the new confidence is the max of the vector normalized by . This extension can be applied to histogram binning, isotonic regression, and BBQ. Matrix and vector scaling
+
+are two multi-class extensions of Platt scaling. Let be the logits vector produced before the softmax layer for input .

@@ -1,0 +1,15 @@
+In Proceedings of the 2018 EMNLP Workshop BlackboxNLP:
+Analyzing and Interpreting Neural Networks for NLP, pages 353–355,
+Brussels, Belgium, November 2018a. Association for Computational
+Linguistics. doi: 10.18653/v1/W18-5446. URL https://www.aclweb.org/anthology/W18-5446. Wang et al. [2019]
+
+Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael,
+Felix Hill, Omer Levy, and Samuel Bowman. SuperGLUE: A Stickier Benchmark for General-Purpose
+Language Understanding Systems. In H. Wallach, H. Larochelle, A. Beygelzimer,
+F. d\textquotesingle Alché-Buc, E. Fox, and R. Garnett,
+editors, Advances in Neural Information Processing Systems 32,
+pages 3261–3275. Curran Associates, Inc., 2019. URL https://arxiv.org/abs/1905.00537. Wang et al. [2018b]
+
+Shuohang Wang, Mo Yu, Xiaoxiao Guo, Zhiguo Wang, Tim Klinger, Wei Zhang, Shiyu
+Chang, Gerry Tesauro, Bowen Zhou, and Jing Jiang. R: Reinforced ranker-reader for open-domain question
+answering. In Sheila A. McIlraith and Kilian Q.

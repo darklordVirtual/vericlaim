@@ -1,0 +1,15 @@
+Can you trust your model’s uncertainty? Evaluating predictive
+uncertainty under dataset shift. In H. Wallach, H. Larochelle, A. Beygelzimer, F. d'Alché-Buc, E. Fox, and R. Garnett (eds.), Advances in Neural
+Information Processing Systems, volume 32. Curran Associates, Inc., 2019. URL
+https://proceedings.neurips.cc/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-Abstract.html. Pagnoni et al. (2021)
+
+Artidoro Pagnoni, Vidhisha Balachandran, and Yulia Tsvetkov. Understanding factuality in abstractive summarization with FRANK: A
+benchmark for factuality metrics. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 4812--4829, Online, June 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.383. URL https://aclanthology.org/2021.naacl-main.383. Pant & Dadu (2020)
+
+Kartikey Pant and Tanvi Dadu. Sarcasm detection using context separators in online discourse, 2020. URL https://arxiv.org/abs/2006.00850. Park et al. (2021)
+
+Tae Jin Park, Naoyuki Kanda, Dimitrios Dimitriadis, Kyu J. Han, Shinji
+Watanabe, and Shrikanth Narayanan.

@@ -1,0 +1,18 @@
+doi: 10.1162/tacl_a_00115. URL https://doi.org/10.1162/tacl_a_00115. Liu et al. (2021a)
+
+Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, and Weizhu
+Chen. What makes good in-context examples for GPT-3?, 2021a. URL https://arxiv.org/abs/2101.06804. Liu et al. (2020a)
+
+Jian Liu, Leyang Cui, Hanmeng Liu, Dandan Huang, Yile Wang, and Yue Zhang. LogiQA: A challenge dataset for machine reading comprehension with
+logical reasoning, 2020a. URL https://arxiv.org/abs/2007.08124. Liu et al. (2021b)
+
+Nelson F. Liu, Tony Lee, Robin Jia, and Percy Liang. Can small and synthetic benchmarks drive modeling innovation? A
+retrospective study of question answering modeling approaches,
+2021b. URL https://arxiv.org/abs/2102.01065. Liu et al. (2021c)
+
+Tianyu Liu, Yizhe Zhang, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, and
+Bill Dolan. A token-level reference-free hallucination detection benchmark for
+free-form text generation, 2021c. URL https://arxiv.org/abs/2104.08704. Liu et al. (2020b)
+
+Ye Liu, Shaika Chowdhury, Chenwei Zhang, Cornelia Caragea, and Philip S. Yu. Interpretable multi-step reasoning with knowledge extraction on
+complex healthcare question answering, 2020b.

@@ -1,0 +1,17 @@
+Huang (2025)
+Taming overconfidence in llms: reward calibration in rlhf. In The Thirteenth International Conference on Learning Representations,
+
+Cited by: §1,
+§2,
+§4.1. Y. Li, M. Xiong, J. Wu, and B. Hooi (2025)
+ConfTuner: training large language models to express their confidence verbally. In The Thirty-ninth Annual Conference on Neural Information Processing Systems,
+
+Cited by: §2,
+§4.1. Z. Li, X. Wang, E. Stengel-Eskin, A. Kortylewski, W. Ma, B. Van Durme, and A. L. Yuille (2023)
+Super-clevr: a virtual benchmark to diagnose domain robustness in visual reasoning. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition,
+
+pp. 14963–14973. Cited by: 1st item. P. Lu, H. Bansal, T. Xia, J. Liu, C. Li, H. Hajishirzi, H. Cheng, K. Chang, M. Galley, and J. Gao (2024)
+MathVista: evaluating mathematical reasoning of foundation models in visual contexts. In International Conference on Learning Representations (ICLR),
+
+Cited by: 4th item. P. Lu, R. Gong, S. Jiang, L. Qiu, S. Huang, X. Liang, and S. Zhu (2021)
+Inter-GPS: interpretable geometry problem solving with formal language and symbolic reasoning.

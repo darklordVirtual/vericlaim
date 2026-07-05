@@ -1,0 +1,63 @@
+in descending order
+
+indices = self.lambdas_.argsort()[::-1]
+
+self.lambdas_ = self.lambdas_[indices]
+
+Model Generated Patch
+⬇
+diff --git a/sklearn/decomposition/kernel_pca.py b/sklearn/decompos... --- a/sklearn/decomposition/kernel_pca.py
+
++++ b/sklearn/decomposition/kernel_pca.py
+
+@@ -220,7 +220,7 @@ def _fit_transform(self, K):
+
+self.alphas_ = self.alphas_[:, self.lambdas_ > 0]
+
+self.lambdas_ = self.lambdas_[self.lambdas_ > 0]
+
+- return K
+
++ return K / self.lambdas_
+
+def _fit_inverse_transform(self, X_transformed, X):
+
+if hasattr(X, "tocsr"):
+
+Tests
+
+Fail to Pass (1)
+
+sklearn/tests/test_kernel_pca.py::test_kernel_pca_deterministic_output
+
+Pass to Pass (54)
+
+sklearn/tests/test_kernel_pca.py::test_kernel_pca
+
+sklearn/tests/test_kernel_pca.py::test_kernel_pca_consistent_transform
+
+sklearn/tests/test_kernel_pca.py::test_kernel_pca_deterministic_output
+
+sklearn/tests/test_kernel_pca.py::test_kernel_pca_sparse
+
+sklearn/tests/test_kernel_pca.py::test_kernel_pca_linear_kernel
+
+sklearn/tests/test_kernel_pca.py::test_kernel_pca_n_components
+
+sklearn/tests/test_kernel_pca.py::test_remove_zero_eig
+
+sklearn/tests/test_kernel_pca.py::test_kernel_pca_precomputed
+
+sklearn/tests/test_kernel_pca.py::test_gridsearch_pipeline
+
+sklearn/tests/test_kernel_pca.py::test_gridsearch_pipeline_precomputed
+
+sklearn/tests/test_pca.py::test_pca_dtype_preservation[randomized]
+
+sklearn/tests/test_pca.py::test_pca_dtype_preservation[auto]
+
+sklearn/tests/test_pca.py::test_pca_deterministic_output
+
+Additional Pass to Pass Tests omitted…
+
+Discussion.

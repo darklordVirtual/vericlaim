@@ -1,0 +1,18 @@
+Steen et al. (2010)
+
+Gerard J. Steen, Aletta G. Dorst, J. Berenike Herrmann, Anna A. Kaal, Tina
+Krennmayr, and Tryntje Pasma. A Method for Linguistic Metaphor Identification: From MIP to
+MIPVU. Converging Evidence in Language and Communication Research 14. John
+Benjamins, Amsterdam, 2010. Steinbach & Kohut (2002)
+
+Bernd Steinbach and Roman Kohut. Neural networks -- a model of boolean functions. 5th International Workshop on Boolean Problems, Freiburg, Sept. 2002., 2002. URL
+https://www.researchgate.net/publication/246931125_Neural_Networks_-_A_Model_of_Boolean_Functions. Stiennon et al. (2020)
+
+Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M. Ziegler, Ryan Lowe, Chelsea
+Voss, Alec Radford, Dario Amodei, and Paul Christiano. Learning to summarize from human feedback, 2020. URL https://arxiv.org/abs/2009.01325. Stöckl (2021)
+
+Andreas Stöckl. Watching a language model learning chess. In Proceedings of the International Conference on Recent
+Advances in Natural Language Processing (RANLP 2021), pp. 1369--1379, Held
+Online, September 2021. INCOMA Ltd. URL https://aclanthology.org/2021.ranlp-1.153. Stowe et al. (2020)
+
+Kevin Stowe, Leonardo Ribeiro, and Iryna Gurevych.

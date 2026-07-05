@@ -1,0 +1,11 @@
+Task cites: (Mishra et al., 2021)
+
+navigate: Eric Chu, MIT Media Lab (echu@mit.edu), and Sneha Priscilla Makini, Google (smakini@google.com). Task cites: (Graves et al., 2016; Henaff et al., 2016; Geva et al., 2020b; Chen et al., 2019a; Kryscinski et al., 2020; Côté et al., 2018; Luketina et al., 2019; Thawani et al., 2021; Lake & Baroni, 2017)
+
+nonsense_words_grammar: David Drakard, ML Collective (research@ddrakard.com), and Rosanne Liu, Google and ML Collective (rosanneliu@google.com)
+
+novel_concepts: Andrew Lampinen, Kory Mathewson, and Adam Santoro, DeepMind (lampinen, korymath, adamsantoro)@deepmind.com. Task cites: (Santoro et al., 2021)
+
+object_counting: Maarten Bosma and Andrew Dai, Google Research (bosma, adai)@google.com. Task cites: (Rugani et al., 2015; Wang et al., 2019b; Zhang et al., 2018b; Brown et al., 2020)
+
+odd_one_out: Daniel Moseguí González (d.mosegui@gmail.com).

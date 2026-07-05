@@ -1,0 +1,5 @@
+in an embedding matrix, and use parameters for positional embeddings, but we do not include these when discussing the ‘model size’ ; we will see that this produces significantly cleaner scaling laws. Evaluating a forward pass of the Transformer involves roughly
+
+(2.2)
+
+add-multiply operations, where the factor of two comes from the multiply-accumulate operation used in matrix multiplication. A more detailed per-operation parameter and compute count is included in Table 1. For contexts and models with , the context-dependent computational cost per token is a relatively small fraction of the total compute. Since we primarily study models where , we do not include context-dependent terms in our training compute estimate. Accounting for the backwards pass (approximately twice the compute as the forwards pass), we then define the estimated non-embedding compute as floating point operators per training token.

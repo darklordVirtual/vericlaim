@@ -1,0 +1,3 @@
+work, Kleinberg, Mullainathan and Raghavan [KMR16] showed that in general a score that is calibrated within each group does not satisfy a criterion equivalent to equalized odds for binary predictors. This result highlights that calibration alone does not imply non-discrimination according to our measure. Conversely, achieving equalized odds may in general compromise other desirable properties of a score. Early work of Pedreshi et al. [PRT08] and several follow-up works
+explore a logical rule-based approach to non-discrimination. These approaches
+don’t easily relate to our statistical approach.

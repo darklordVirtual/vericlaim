@@ -1,0 +1,11 @@
+Consider a state-of-the-art
+deep neural network that generalizes well on an object recognition task. We expect such network to be robust to small perturbations of its input,
+because small perturbation cannot change the object category of an image. However, we find that applying an imperceptible
+non-random perturbation to a test image, it is possible to arbitrarily change
+the network’s prediction (see figure 5). These perturbations are found by optimizing the input to maximize
+the prediction error. We term the so perturbed examples “adversarial examples”. It is natural to expect that the precise configuration of the minimal
+necessary perturbations is a random artifact of the normal variability that
+arises in different runs of backpropagation learning. Yet, we found that
+adversarial examples are relatively robust, and are shared by neural networks
+with varied number of layers, activations or trained on different subsets
+of the training data.

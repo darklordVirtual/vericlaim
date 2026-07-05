@@ -1,0 +1,31 @@
+Figure 22: RTE: prompting, examples, and dataset features. SST (Stanford Sentiment Treebank)
+
+Example prompt
+
+For each snippet of text, label the sentiment of the text as positive or negative. Text: this film seems thirsty for reflection, itself taking on adolescent qualities. Label: [positive / negative]
+
+Dataset features
+
+•
+
+872 binary multiple choice sentiment analysis questions
+
+•
+
+In the few-shot setting, there are 15 additional text / label pairs. Figure 23: SST: prompting, examples, and dataset features. WSC (Winograd Schema Challenge)
+
+Example prompt
+
+Final Exam with Answer Key
+
+Instructions: Please carefully read the following passages. For each passage, you must identify which noun the pronoun marked in bold refers to. Passage: Jane gave Joan candy because she was hungry. Question: In the passage above, what does the pronoun ‘‘she’’ refer to? Answer: [target completion: ‘‘Joan’’]
+
+Dataset features
+
+•
+
+104 binary multiple choice questions. •
+
+In the few-shot setting, there are 15 additional question/answer pairs. •
+
+Note that the task as originally constructed in the SuperGLUE is in the format of a binary question (e.g. “the pronoun she refers to Joan, True or False?”).

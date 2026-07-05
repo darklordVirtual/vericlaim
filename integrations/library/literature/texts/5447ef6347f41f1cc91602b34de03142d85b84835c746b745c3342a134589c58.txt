@@ -1,0 +1,14 @@
+Behavioral and Brain Sciences, 11(1):1–23, 1988. doi: 10.1017/S0140525X00052432. Socher et al. (2013)
+
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning,
+Andrew Ng, and Christopher Potts. Recursive deep models for semantic compositionality over a sentiment
+treebank. In Proceedings of the 2013 Conference on Empirical Methods in
+Natural Language Processing, pp. 1631--1642, Seattle, Washington, USA,
+October 2013. Association for Computational Linguistics. URL https://aclanthology.org/D13-1170. Solaiman et al. (2019)
+
+Irene Solaiman, Miles Brundage, Jack Clark, Amanda Askell, Ariel Herbert-Voss,
+Jeff Wu, Alec Radford, Gretchen Krueger, Jong Wook Kim, Sarah Kreps, Miles
+McCain, Alex Newhouse, Jason Blazakis, Kris McGuffie, and Jasmine Wang. Release strategies and the social impacts of language models, 2019. URL https://arxiv.org/abs/1908.09203. Soltani Firouz et al. (2021)
+
+Mahmoud Soltani Firouz, Ali Farahmandi, and Soleiman Hosseinpour. Early detection of freeze damage in navel orange fruit using
+nondestructive low intensity ultrasound coupled with machine learning. Food Analytical Methods, 14:1140--1149, 2021.

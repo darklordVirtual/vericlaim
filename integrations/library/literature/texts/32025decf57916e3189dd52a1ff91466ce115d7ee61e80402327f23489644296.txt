@@ -1,0 +1,14 @@
+Deerwester et al. (1990)
+
+Scott Deerwester, Susan T. Dumais, George W. Furnas, Thomas K. Landauer, and
+Richard Harshman. Indexing by latent semantic analysis. Journal of the American Society for Information Science,
+41(6):391--407, 1990. doi: 10.1002/(SICI)1097-4571(199009)41:6<391::AID-ASI1>3.0.CO;2-9. URL
+https://doi.org/10.1002/(SICI)1097-4571(199009)41:6<391::AID-ASI1>3.0.CO;2-9. Degen et al. (2020)
+
+Judith Degen, Robert D. Hawkins, Caroline Graf, Elisa Kreiss, and Noah D. Goodman. When redundancy is useful: A Bayesian approach to
+“overinformative” referring expressions. Psychological Review, 127:591--621, 2020. doi: 10.1037/rev0000186. URL https://doi.org/10.1037/rev0000186. Desai & Durrett (2020)
+
+Shrey Desai and Greg Durrett. Calibration of pre-trained transformers. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 295--302, Online, November 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.21. URL https://aclanthology.org/2020.emnlp-main.21. Dev et al. (2020)
+
+Sunipa Dev, Tao Li, Jeff M. Phillips, and Vivek Srikumar. On measuring and mitigating biased inferences of word embeddings.

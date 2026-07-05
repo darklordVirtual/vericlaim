@@ -1,0 +1,7 @@
+Analogous to the reward modeling approach (i.e. Eq. 2), our policy objective becomes:
+
+(7)
+
+This way, we fit an implicit reward using an alternative parameterization, whose optimal policy is simply . Moreover, since our procedure is equivalent to fitting a reparametrized Bradley-Terry model, it enjoys certain theoretical properties, such as consistencies under suitable assumption of the preference data distribution [4]. In Section 5, we further discuss theoretical properties of DPO in relation to other works. What does the DPO update do? For a mechanistic understanding of DPO, it is useful to analyze the gradient of the loss function . The gradient with respect to the parameters can be written as:
+
+where is the reward implicitly defined by the language model and reference model (more in Section 5). Intuitively, the gradient of the loss function increases the likelihood of the preferred completions and decreases the likelihood of dispreferred completions .

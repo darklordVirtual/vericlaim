@@ -1,0 +1,38 @@
+MemGPT is able to exceed the performance of the human-created conversation opener with a variety of underlying models. Method
+
+SIM-1
+
+SIM-3
+SIM-H
+
+Human
+0.800
+0.800
+1.000
+
+GPT-3.5 Turbo
+
+0.830
+
+0.812
+
+0.817
+
+GPT-4
+
+0.868
+
+0.843
+
+0.773
+
+GPT-4 Turbo
+
+0.857
+
+0.828
+
+0.767
+
+MemGPT utilizes memory to maintain coherence:
+Table 2 shows the performance of MemGPT vs the fixed-memory baselines. We compare MemGPT using different underlying LLMs, and compare against using the base LLM without MemGPT as a baseline. The baselines are able to see a lossy summarization of the past five conversations to mimic an extended recursive summarization procedure, while MemGPT instead has access to the full conversation history but must access it via paginated search queries to recall memory (in order to bring them into main context). In this task, we see that MemGPT clearly improves the performance of the underlying base LLM: there is a clear drop in both accuracy and ROUGE scores when going from MemGPT to the corresponding LLM baselines. 3.1.2 Conversation opener task (engagement).

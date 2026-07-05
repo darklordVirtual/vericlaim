@@ -1,0 +1,14 @@
+In Vivek Nigam, Tajana Ban Kirigin, Carolyn Talcott, Joshua Guttman,
+Stepan Kuznetsov, Boon Thau Loo, and Mitsuhiro Okada (eds.), Logic,
+Language, and Security. Springer, Cham, 2020. URL
+https://www.springerprofessional.de/en/gender-bias-in-neural-natural-language-processing/18531692. Luccioni & Viviano (2021)
+
+Alexandra Luccioni and Joseph Viviano. What’s in the box? An analysis of undesirable content in the
+Common Crawl corpus. In Proceedings of the 59th Annual Meeting of the Association
+for Computational Linguistics and the 11th International Joint Conference on
+Natural Language Processing (Volume 2: Short Papers), pp. 182--189,
+Online, August 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-short.24. URL https://aclanthology.org/2021.acl-short.24. Luketina et al. (2019)
+
+Jelena Luketina, Nantas Nardelli, Gregory Farquhar, Jakob N. Foerster, Jacob
+Andreas, Edward Grefenstette, Shimon Whiteson, and Tim Rocktäschel. A survey of reinforcement learning informed by natural language. In Proceedings of the Twenty-Eighth International Joint
+Conference on Artificial Intelligence, IJCAI-19, pp. 6309–6317, 2019.

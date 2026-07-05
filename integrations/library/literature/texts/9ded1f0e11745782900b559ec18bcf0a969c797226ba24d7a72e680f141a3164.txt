@@ -1,0 +1,30 @@
+Shunyu Yao
+Work during Google internship. Projet page with code: https://react-lm.github.io/. {shunyuy,karthikn}@princeton.edu
+
+Jeffrey Zhao
+
+{jeffreyzhao,dianyu,dunan,izhak,yuancao}@google.com
+
+Dian Yu
+
+{jeffreyzhao,dianyu,dunan,izhak,yuancao}@google.com
+
+Nan Du
+
+{jeffreyzhao,dianyu,dunan,izhak,yuancao}@google.com
+
+Izhak Shafran
+
+{jeffreyzhao,dianyu,dunan,izhak,yuancao}@google.com
+
+Karthik Narasimhan
+
+{shunyuy,karthikn}@princeton.edu
+
+Yuan Cao
+
+{jeffreyzhao,dianyu,dunan,izhak,yuancao}@google.com
+
+Abstract
+
+While large language models (LLMs) have demonstrated impressive performance across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics.

@@ -1,0 +1,7 @@
+Sonnet-4.6 98.3 / 2.1 / 0.9 on the 630 set), and a deployment on a new model or provider would need to re-tune it. Auto-calibrating the gate is left to future work. We also state the boundaries of our argument as plainly as its content, to forestall misreading:
+
+•
+
+We do not claim the judge alone beats rules in-distribution. On exact-verdict match, in-distribution rules are competitive or better (rules 95.4 vs. the strongest judge-alone 91.0 on the 630 set, Table 1); the residual gap is largely the subjective warn class. The in-distribution win is the gated hybrid (rules floor + escalate-only judge), not the judge in isolation. The judge-alone advantage is an out-of-distribution phenomenon. •
+
+We do not claim that "adding rules" is a contribution, nor that more rules close the gap. The opposite is our point. A determined, hand-authored cloud rule pack — written on dev external sets and tested held-out — lifts overall external accuracy only 4856% and moves the semantic categories by 0pp (Table 3); a maximally token-tuned "cheat" rule set still scores 47.6% out-of-distribution. The boundary is structural, not an artifact of insufficient engineering effort.

@@ -1,0 +1,14 @@
+Association for Computational Linguistics. doi: 10.18653/v1/P19-1346. URL https://www.aclweb.org/anthology/P19-1346. Fan et al. [2020]
+
+Angela Fan, Claire Gardent, Chloe Braud, and Antoine Bordes. Augmenting transformers with KNN-based composite memory, 2020. URL https://openreview.net/forum?id=H1gx1CNKPH. Févry et al. [2020]
+
+Thibault Févry, Livio Baldini Soares, Nicholas FitzGerald, Eunsol Choi, and
+Tom Kwiatkowski. Entities as experts: Sparse memory access with entity supervision. ArXiv, abs/2004.07202, 2020. URL https://arxiv.org/abs/2004.07202. Ghazvininejad et al. [2018]
+
+Marjan Ghazvininejad, Chris Brockett, Ming-Wei Chang, Bill Dolan, Jianfeng Gao,
+Wen tau Yih, and Michel Galley. A knowledge-grounded neural conversation model. In AAAI Conference on Artificial Intelligence, 2018. URL
+https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16710. Grace et al. [2017]
+
+Katja Grace, John Salvatier, Allan Dafoe, Baobao Zhang, and Owain Evans. When will AI exceed human performance? evidence from AI experts. CoRR, abs/1705.08807, 2017. URL http://arxiv.org/abs/1705.08807. Gu et al. [2018a]
+
+Jiatao Gu, Yong Wang, Kyunghyun Cho, and Victor O.K. Li.

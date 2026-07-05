@@ -1,0 +1,21 @@
+-, 2012-05-25T11:15:00)
+wasAttributedTo(alice:bundle2, ex:Alice)
+
+Example 41 ◊
+
+A provenance aggregator could merge two bundles, resulting in a novel bundle, whose provenance is described as follows. bundle agg:bundle3
+entity(ex:report1, [ prov:type="report", ex:version=1 ])
+wasGeneratedBy(ex:report1, -, 2012-05-24T10:00:01)
+
+entity(ex:report2, [ prov:type="report", ex:version=2 ])
+wasGeneratedBy(ex:report2, -, 2012-05-25T11:00:01)
+wasDerivedFrom(ex:report2, ex:report1)
+endBundle
+
+entity(agg:bundle3, [ prov:type='prov:Bundle' ])
+agent(ex:aggregator01, [ prov:type='ex:Aggregator' ])
+wasAttributedTo(agg:bundle3, ex:aggregator01)
+wasDerivedFrom(agg:bundle3, bob:bundle1)
+wasDerivedFrom(agg:bundle3, alice:bundle2)
+
+The new bundle is given a new identifier agg:bundle3 and is attributed to the ex:aggregator01 agent.

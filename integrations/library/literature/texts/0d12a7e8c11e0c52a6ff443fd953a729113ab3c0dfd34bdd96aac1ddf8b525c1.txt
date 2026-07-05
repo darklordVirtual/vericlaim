@@ -1,0 +1,20 @@
+•
+
+We give a simple and effective framework for constructing classifiers
+satisfying our criterion from an arbitrary learned predictor. Rather than
+changing a possibly complex training pipeline, the result follows via a simple
+post-processing step that minimizes the loss in utility. •
+
+We show that the Bayes optimal non-discriminating (according to
+our definition) classifier is the classifier derived from any Bayes
+optimal (not necessarily non-discriminating) regressor using our
+post-processing step. Moreover, we quantify the loss that follows
+from imposing our non-discrimination condition in case the score we
+start from deviates from Bayesian optimality. This result helps to
+justify the approach of deriving a fair classifier via
+post-processing rather than changing the original training process. •
+
+We capture the inherent limitations of our approach, as well as any other
+oblivious approach, through a non-identifiability result showing that different
+dependency structures with possibly different intuitive notions of fairness
+cannot be separated based on any oblivious notion or test.

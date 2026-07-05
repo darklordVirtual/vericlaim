@@ -1,0 +1,9 @@
+Internal Certainty. However, visual grounding alone is insufficient. A model may rely on the image yet remain conflicted among multiple plausible interpretations (e.g., due to visual ambiguity). To capture this internal state, we measure the average token entropy over the visual rationale :
+
+(8)
+
+A low indicates a sharp probability distribution, reflecting that the model is internally certain about its generated token. Visual Certainty Score. Intuitively, a high visual certainty score should indicate both well-grounded (high ) and internally certain (low ). Therefore, we integrate two metrics to formulate the . Considering the diffirent scale of two metrics, we define as a log-ratio signal:
+
+(9)
+
+Compared with sampling-based and internal-state estimation methods, including the KL (visual grounding), Entropy (internal certainty), Self-Consistency, Semantic Entropy, VL-Uncertainty, and Self-Certainty, our proposed visual certainty estimation shows superior correlation with Gemini-3-pro-preview perception judgement. Detailed discussion refers to §5.

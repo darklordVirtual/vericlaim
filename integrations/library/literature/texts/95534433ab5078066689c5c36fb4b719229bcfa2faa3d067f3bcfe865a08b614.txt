@@ -1,0 +1,10 @@
+“Nazem Kadri was out at home.”
+
+Model Answer (INCORRECT): Nazem Kadri is a hockey player. Being out at home is part of hockey. So the answer is yes. ✗ (Ground truth is “no”, being out at home is part of baseball.)
+
+Table 19:
+Examples of correct and incorrect chains of thought produced by PaLM 540B on SayCan robot planning tasks. Question: I spilled my coke on the table, could you throw it away and then bring me something to help clean? Model Answer (CORRECT): Explanation: The user has spilled their coke on the table. I will throw away the coke and then bring the user a sponge. Plan: find(coke), pick(coke), find(trash), put(coke), find(sponge), pick(sponge), find(table), put(sponge). ✓
+
+Question: Could you compost that apple for me? Model Answer (CORRECT): Explanation: The user would like me to compost the apple. I will move the apple to the compost. Plan: find(apple), pick(apple), find(trash), put(apple). ✓
+
+Question: Can you bring me a drink that is not coke? Model Answer (INCORRECT): Explanation: The user asked me to bring a drink that is not coke, I will bring a sprite. Plan: find(sprite), pick(sprite), find(user), put(sprite).

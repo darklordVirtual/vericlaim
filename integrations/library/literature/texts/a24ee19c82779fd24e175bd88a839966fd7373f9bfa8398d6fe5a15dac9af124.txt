@@ -1,0 +1,41 @@
+and 200 judgments for PPO-PPO. We sample 125 SFT comparisons, assigning a single human to each. We ignore judgments that humans labeled as ties (which amount to only about 1% of judgments), and measure the raw agreement percentage between human A and human B (for comparisons where we have two human annotators, i.e., not SFT) as well as between each human and GPT-4. Participants. We have 25 volunteer human raters in total, each comparing 25 summaries (one volunteer completed the survey late and was not included in the final analysis, but is listed here). The raters were Stanford students (from undergrad through Ph.D.), or recent Stanford graduates or visitors, with a STEM (mainly CS) focus. See Figure 5 for a screenshot of the survey interface. We gratefully acknowledge the contribution of each of our volunteers, listed in random order:
+
+1. Gordon Chi
+
+2. Virginia Adams
+
+3. Max Du
+
+4. Kaili Huang
+
+5. Ben Prystawski
+
+6. Ioanna Vavelidou
+
+7. Victor Kolev
+
+8. Karel D’Oosterlinck
+
+9. Ananth Agarwal
+
+10. Tyler Lum
+
+11. Mike Hardy
+
+12. Niveditha Iyer
+
+13. Helena Vasconcelos
+
+14. Katherine Li
+
+15. Chenchen Gu
+
+16. Moritz Stephan
+
+17. Swee Kiat Lim
+
+18. Ethan Chi
+
+19. Kaien Yang
+
+20.

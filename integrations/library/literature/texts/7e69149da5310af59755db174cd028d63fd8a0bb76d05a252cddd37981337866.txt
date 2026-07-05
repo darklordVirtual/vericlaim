@@ -1,0 +1,6 @@
+Table 4: Sample summaries to a post from the TL;DR test set. DPO sample generated with a temperature 0.25; PPO sample generated at a temperature of 0. The order in which summaries are presented in randomized when evaluating with GPT-4, so the order in the Judgment may not correspond to the order in the table. For clarity, post-hoc annotations are included in bold, formatted as [annotation]. These annotations are not part of the model generations. Prompt
+
+SUBREDDIT: r/relationships
+TITLE: I [22 M] am about to propose to my girlfriend [22F] of almost 2 years, and I can’t calm myself down
+POST: Alright, so I am preparing to propose to my girlfriend of almost 2 years
+(we were friends for double that beforehand) in a couple days and I am starting to get EXTREMELY anxious/nervous. We have talked about this for months, and I know she will say yes, but I can’t seem to relax. The other day I bought the ring, which I fell in love with myself and know she will too. And then two days ago, I asked her dad’s blessing. Everything has gone great so far, but now leading up to it I can’t think about anything else. I can’t sleep.

@@ -1,0 +1,14 @@
+Science, 347(6221):534--536, 2015. doi: 10.1126/science.aaa1379. URL https://www.science.org/doi/abs/10.1126/science.aaa1379. Rule (2020)
+
+Joshua S. Rule. The child as hacker: Building more human-like models of
+learning. PhD thesis, Massachusetts Institute of Technology, Cambridge, MA,
+2020. URL https://hdl.handle.net/1721.1/129232. Rule et al. (2020)
+
+Joshua S. Rule, Joshua B. Tenenbaum, and Steven T. Piantadosi. The child as hacker. Trends in Cognitive Sciences, 24(11):900--915, 2020. doi: https://doi.org/10.1016/j.tics.2020.07.005. URL
+https://www.sciencedirect.com/science/article/pii/S1364661320301741. Rumelhart et al. (1986)
+
+D. E. Rumelhart, J. L. McClelland, and PDP Research Group (eds.). Parallel Distributed Processing. Volume 1: Foundations. MIT Press, Cambridge, MA, 1986. Rush et al. (2015)
+
+Alexander M. Rush, Sumit Chopra, and Jason Weston. A neural attention model for abstractive sentence summarization. In Proceedings of the 2015 Conference on Empirical Methods in
+Natural Language Processing, pp. 379--389, Lisbon, Portugal, September
+2015. Association for Computational Linguistics. doi: 10.18653/v1/D15-1044. URL https://aclanthology.org/D15-1044.

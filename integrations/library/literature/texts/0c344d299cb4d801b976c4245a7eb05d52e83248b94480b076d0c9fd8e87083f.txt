@@ -1,0 +1,15 @@
+In Proceedings of the 2007 Joint Conference on Empirical
+Methods in Natural Language Processing and Computational Natural Language
+Learning (EMNLP-CoNLL), pp. 581--589, Prague, Czech Republic, June
+2007. Association for Computational Linguistics. URL https://aclanthology.org/D07-1061. Hume (1739–1740)
+
+David Hume. A Treatise of Human Nature. John Noon, London, 1739–1740. Hupkes et al. (2020)
+
+Dieuwke Hupkes, Verna Dankers, Mathijs Mul, and Elia Bruni. Compositionality decomposed: How do neural networks generalise? Journal of Artificial Intelligence Research, 67:757--795, 2020. doi: 10.1613/jair.1.11674. URL https://doi.org/10.1613/jair.1.11674. Huttunen et al. (2017)
+
+Annamarie W. Huttunen, Geoffrey K. Adams, and Michael L. Platt. Can self-awareness be taught? Monkeys pass the mirror test --
+again. Proceedings of the National Academy of Sciences, 114(13):3281--3283, 2017. doi: 10.1073/pnas.1701676114. URL https://www.pnas.org/doi/abs/10.1073/pnas.1701676114. Huynh & Mazzocchi (2012)
+
+David Huynh and Stefano Mazzocchi. OpenRefine. https://openrefine.org/, 2012. Instagram Engineering (2015)
+
+Instagram Engineering. Emojineering part 1: Machine learning for emoji trends.

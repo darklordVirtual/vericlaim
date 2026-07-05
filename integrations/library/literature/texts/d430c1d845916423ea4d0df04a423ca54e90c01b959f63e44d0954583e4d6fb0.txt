@@ -1,0 +1,29 @@
+Vanderbilt University was founded in 1873. Emory University was founded in 1836. 1873 (Vanderbilt University) > 1836 (Emory University), so Vanderbilt University was founded first. Answer:
+
+Emory University
+
+Failure: Reasoning error
+
+\model
+
+Question:
+
+What was the middle name of the actress who was cast alongside Harvey Fierstein, Linda Hart, Dick Latessa, Clarke Thorell, Mary Bond Davis, Laura Bell Bundy, Matthew Morrison, Corey Reynolds, and Marissa Jaret Winokur in Hairspray? Thought 1:
+
+I need to search Harvey Fierstein, Linda Hart, Dick Latessa, Clarke Thorell, Mary Bond Davis, Laura Bell Bundy, Matthew Morrison, Corey Reynolds, and Marissa Jaret Winokur, find the actress that was cast alongside them in Hairspray, then find its middle name. Action 1:
+
+Search[Harvey Fierstein]
+
+Observation 1:
+
+Harvey Forbes Fierstein ... Thought 2:
+
+Harvey Fierstein is an actor, playwright, and screenwriter. I need to search Linda Hart next... Action 2:
+
+Search[Linda Hart]... CoT
+
+Question:
+
+Who is older Danny Green or James Worthy? Thought:
+
+Let’s think step by step. Danny Green was born in 1987. James Worthy was born in 1961.

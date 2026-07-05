@@ -1,0 +1,28 @@
+“Advances and Open Problems in Federated Learning”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1912.04977
+
+[96]
+Nicholas Carlini et al. “The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1802.08232
+
+[97]
+H. McMahan, Daniel Ramage, Kunal Talwar and Li Zhang
+
+“Learning Differentially Private Recurrent Language Models”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1710.06963
+
+[98]
+Cynthia Dwork, Frank McSherry, Kobbi Nissim and Adam Smith
+
+“Calibrating noise to sensitivity in private data analysis”
+
+In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 3876 LNCS, 2006, pp.

@@ -1,0 +1,21 @@
+The target has a statistical correlation with the
+protected attribute. There’s a second real-valued feature
+correlated with , but only related to through . For example,
+might capture an applicant’s driving record if applying for insurance,
+financial activity if applying for a loan, or criminal history in
+criminal justice situations. An intuitively “fair” predictor here is
+to use only the feature through the score . The score satisfies equalized odds, since and are
+independent conditional on . Because of the statistical
+correlation between and , a better statistical predictor, with
+greater power, can be obtained by taking into account also the
+protected attribute , or perhaps its surrogate . The
+statistically optimal predictor would have the form
+, biasing the score according to the protected
+attribute . The score does not satisfy equalized odds,
+and in a sense seems to be “profiling” based on
+
+Scenario II
+
+Figure 5: Graphical model for Scenario II. Now consider the dependency structure depicted in Figure 5. Here is a feature, e.g. “wealth” or
+“annual income”, correlated with the protected attribute and
+directly predictive of the target .

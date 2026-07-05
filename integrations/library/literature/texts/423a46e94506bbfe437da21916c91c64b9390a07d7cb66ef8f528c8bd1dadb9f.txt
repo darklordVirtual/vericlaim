@@ -1,0 +1,16 @@
+Task cites: (Gordon, 2010)
+
+checkmate_in_one: Nitish Shirish Keskar, Salesforce (nkeskar@salesforce.com). Task cites: (Alexander, 2020; Ammanabrolu et al., 2019; Dambekodi et al., 2020; Ammanabrolu et al., 2020)
+
+chess_state_tracking: Karen Livescu, Kevin Gimpel, and Shubham Toshniwal, TTI Chicago (klivescu, kgimpel, shtoshni)@ttic.edu; and
+Sam Wiseman, Duke University (swiseman@cs.duke.edu). Task cites: (Weston et al., 2015; Côté et al., 2018; Toshniwal et al., 2021; Alexander, 2020; Chen, 2020; Noever et al., 2020; Swingle et al., 2021)
+
+chinese_remainder_theorem: Jiaming Song, Chenlin Meng, and Stefano Ermon, Stanford University (jiaming.tsong, chenlin, ermon)@cs.stanford.edu
+
+cifar10_classification: Peiyuan Liao, Carnegie Mellon University, Praxis Pioneering (peiyuanl@cs.cmu.edu)
+
+code_line_description: Rabin Banjade and Priti Oli, University of Memphis (rbnjade1, poli)@memphis.edu. Task cites: (Alon et al., 2018)
+
+codenames: Isaac Noble and Lucy Noble, Google (isaacn, lucynoble)@google.com, Emma Lam (emmas.email1720@gmail.com), and Lucas Lam (lucas06lam@gmail.com). Task cites: (Kim et al., 2019)
+
+color: Zijie J. Wang, Georgia Tech (jayw@gatech.edu).

@@ -1,0 +1,15 @@
+To evaluate the statistical significance of our method on the qwen3-VL-4B model, we conducted 5 independent inference runs with different random seeds. For each run, we recorded the following metrics on the evaluation set: Accuracy, AUROC, and ECE. The average results across the 5 runs are reported in the main paper (ACC = 0.727, AUROC = 0.763, ECE = 0.098). To assess the stability and significance of these results, we computed the mean and standard deviation for each metric as follows:
+
+Table 6: Stability Analysis across 5 Random Seeds. We report the Mean Standard Deviation. Metric
+
+Acc ()
+
+AUROC ()
+
+ECE ()
+
+Ours
+
+RLCR
+
+To confirm whether the improvements over the baseline are statistically significant, we performed paired t-tests on the metrics collected from the 5 independent runs. The significance level was set to . The resulting p-values for Accuracy, AUROC, and ECE were , , and , respectively, indicating statistically significant improvements in all three metrics.

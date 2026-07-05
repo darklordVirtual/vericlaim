@@ -1,0 +1,21 @@
+example, is special in that optimal equalized odds
+predictors can be derived from it (and the protected attribute )
+deterministically, without the need to introduce randomness as in
+Section 4.2. In terms of the -conditional ROC
+curves, this happens because the images of the conditional ROC curves
+and overlap, making it possible to choose points in the
+true/false-positive rate plane that are on both ROC curves. However,
+the same point on the conditional ROC curves correspond to different
+thresholds! Instead of , for we have
+. We refer to this property as “matching”
+conditional ROC curves:
+
+Definition 6.3 (Matching ROC curves). We say that a score has matching conditional ROC curves if
+the images of all -conditional ROC curves are the same, i.e.,
+for all groups
+
+Having matching conditional ROC curves corresponds to being
+deterministically correctable to be non-discriminating: If a predictor
+has matching conditional ROC curves, then for any loss function
+the optimal equalized odds derived predictor is a deterministic
+function of and .

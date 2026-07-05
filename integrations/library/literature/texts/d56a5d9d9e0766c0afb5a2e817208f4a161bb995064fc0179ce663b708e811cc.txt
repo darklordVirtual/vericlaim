@@ -1,0 +1,171 @@
+All metrics are accuracy (%). Ext. calc.: post-hoc external calculator for arithmetic computations only. Prior best numbers are from the following. : Cobbe et al. (2021). & : Pi et al. (2022), : Lan et al. (2021), : Piękos et al. (2021). Prompting
+
+GSM8K
+
+SVAMP
+
+ASDiv
+
+AQuA
+
+MAWPS
+
+Prior best
+
+N/A (finetuning)
+
+55a
+
+57.4b
+
+75.3c
+
+37.9d
+
+88.4e
+
+UL2 20B
+
+Standard
+
+4.1
+
+10.1
+
+16.0
+
+20.5
+
+16.6
+
+Chain of thought
+
+4.4 (+0.3)
+
+12.5 (+2.4)
+
+16.9 (+0.9)
+
+23.6 (+3.1)
+
+19.1 (+2.5)
+
++ ext. calc
+
+6.9
+
+28.3
+
+34.3
+
+23.6
+
+42.7
+
+LaMDA 137B
+
+Standard
+
+6.5
+
+29.5
+
+40.1
+
+25.5
+
+43.2
+
+Chain of thought
+
+14.3 (+7.8)
+
+37.5 (+8.0)
+
+46.6 (+6.5)
+
+20.6 (-4.9)
+
+57.9 (+14.7)
+
++ ext. calc
+
+17.8
+
+42.1
+
+53.4
+
+20.6
+
+69.3
+
+GPT-3 175B
+
+Standard
+
+15.6
+
+65.7
+
+70.3
+
+24.8
+
+72.7
+
+(text-davinci-002)
+
+Chain of thought
+
+46.9 (+31.3)
+
+68.9 (+3.2)
+
+71.3 (+1.0)
+
+35.8 (+11.0)
+
+87.1 (+14.4)
+
++ ext. calc
+
+49.6
+
+70.3
+
+71.1
+
+35.8
+
+87.5
+
+Codex
+
+Standard
+
+19.7
+
+69.9
+
+74.0
+
+29.5
+
+78.7
+
+(code-davinci-002)
+
+Chain of thought
+
+63.1 (+43.4)
+
+76.4 (+6.5)
+
+80.4 (+6.4)
+
+45.3 (+15.8)
+
+92.6 (+13.9)
+
++ ext.

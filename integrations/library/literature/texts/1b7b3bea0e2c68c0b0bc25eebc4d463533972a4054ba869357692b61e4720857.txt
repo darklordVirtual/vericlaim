@@ -1,0 +1,26 @@
+However, where the model and oracle retrieval setting collectively fall short is mainly due to the significant use of additional modules from both the codebase itself and third party libraries. This example highlights the importance and potential for training language models and designing inference procedures that allow for the automated discovery of such information. Table 25:
+In this final example, SWE-Llama 13b not only does not solve the task, but also corrupts existing behavior in the model. This example demonstrates the need for models to understand the codebase beyond the scope of the required edits. Setting
+
+•
+
+Model: SWE-Llama 13B with Oracle retrieval
+
+•
+
+Task Instance: scikit-learn__scikit-learn-13241
+
+–
+
+Link to Issue: https://github.com/scikit-learn/scikit-learn/issues/8798
+
+–
+
+Link to PR: https://github.com/scikit-learn/scikit-learn/pull/13241
+
+Issue
+
+Differences among the results of KernelPCA with rbf kernel
+
+#### Description
+
+When I run KernelPCA for dimension reduction for the same datasets, the results are different in signs.

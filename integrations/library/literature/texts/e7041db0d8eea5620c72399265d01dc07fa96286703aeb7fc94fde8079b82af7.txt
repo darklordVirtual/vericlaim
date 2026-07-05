@@ -1,0 +1,41 @@
+2. Recall at 1% FPR (False Positive Rate): Evaluates the model’s detection capability at conservative thresholds, ensuring minimal impact on real-world usability. Specifically, it measures the percentage of sample attacks detected when the model maintains a 1% detection rate on benign prompts. Model
+
+AUC (English)
+
+Recall @ 1% FPR (English)
+
+AUC (Multilingual)
+
+Latency per classification (A100 GPU, 512 tokens)
+
+PromptGuard 1
+
+.987
+
+21.2%
+
+.983
+
+92.4ms
+
+PromptGuard 2 86M
+
+.98
+
+97.5%
+
+.995
+
+92.4ms
+
+PromptGuard 2 22M
+
+.995
+
+88.7%
+
+.942
+
+19.3ms
+
+Indirect prompt injection detection evaluation using AgentDojo. We evaluated PromptGuard and other jailbreak detectors in agentic environments using AgentDojo debenedetti2024agentdojodynamicenvironmentevaluate, an open benchmark that evaluates the ability of AI Systems to resist prompt injection attacks, including those facilitated by direct jailbreaks. See Section 4.3 for a more detailed explanation of the methodology behind this benchmark. For this evaluation, we use the standard AgentDojo benchmarks of Utility and Attack Success Rate (ASR).

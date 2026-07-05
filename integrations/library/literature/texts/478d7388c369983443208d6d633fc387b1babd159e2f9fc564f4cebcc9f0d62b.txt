@@ -1,0 +1,13 @@
+CoRR abs/2407.01284. External Links: Link,
+Document,
+2407.01284
+
+Cited by: 6th item. R. Rafailov, A. Sharma, E. Mitchell, C. D. Manning, S. Ermon, and C. Finn (2023)
+Direct preference optimization: your language model is secretly a reward model. Advances in neural information processing systems 36, pp. 53728–53741. Cited by: §2. S. Ramakrishnan, A. Agrawal, and S. Lee (2018)
+Overcoming language priors in visual question answering with adversarial regularization. Advances in neural information processing systems 31. Cited by: §1. J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov (2017)
+Proximal policy optimization algorithms. arXiv preprint arXiv:1707.06347. Cited by: §2. D. Schwenk, A. Khandelwal, C. Clark, K. Marino, and R. Mottaghi (2022)
+A-okvqa: a benchmark for visual question answering using world knowledge. In European conference on computer vision,
+
+pp. 146–162. Cited by: 1st item. Z. Shao, P. Wang, Q. Zhu, R. Xu, J. Song, X. Bi, H. Zhang, M. Zhang, Y. Li, Y. Wu, et al. (2024)
+Deepseekmath: pushing the limits of mathematical reasoning in open language models. arXiv preprint arXiv:2402.03300. Cited by: §2,
+§3.1. G. Sheng, C. Zhang, Z. Ye, X. Wu, W. Zhang, R.

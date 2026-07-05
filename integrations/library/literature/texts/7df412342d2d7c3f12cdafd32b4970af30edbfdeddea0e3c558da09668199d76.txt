@@ -1,0 +1,8 @@
+entity(ex:e1, [ prov:label="This is a human-readable label" ])
+
+The following entity has two label attributes, in French and English. entity(ex:car01, [ prov:label="Voiture 01"@fr, prov:label="Car 01"@en ])
+
+5.7.2.2 prov:location
+
+A location ◊ can be an identifiable geographic place (ISO 19112), but it can also be a non-geographic place such as a directory, row, or column. As such, there are numerous ways in which location can be expressed, such as by a coordinate,
+address, landmark, and so forth. This document does not specify how to concretely express locations, but instead provide a mechanism to introduce locations, by means of a reserved attribute. The attribute prov:location is an OPTIONAL attribute of Entity, Activity, Agent, Usage, Generation, Invalidation, Start, and End. The value associated with the attribute prov:location MUST be a PROV-DM Value, expected to denote a location. While the attribute prov:location is allowed for several PROV concepts, it may not make sense to use it in some cases. For example, an activity that describes the relocation of an entity will have start and end locations, as well as every place in between those points.

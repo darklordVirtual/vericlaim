@@ -1,0 +1,26 @@
+In NAACL, 2019. [13]
+
+C Dwork, F McSherry, K Nissim, and A Smith. Calibrating noise to sensitivity in private data analysis. In TCC, 2006. [14]
+
+Cynthia Dwork. Differential privacy: A survey of results. In TAMC, 2008. [15]
+
+Úlfar Erlingsson, Vasyl Pihur, and Aleksandra Korolova. RAPPOR: Randomized aggregatable privacy-preserving ordinal
+response. In ACM CCS, 2014. [16]
+
+Andre Esteva, Brett Kuprel, Roberto A Novoa, Justin Ko, Susan M Swetter,
+Helen M Blau, and Sebastian Thrun. Dermatologist-level classification of skin cancer with deep neural
+networks. Nature, 2017. [17]
+
+Facebook. Opacus. https://github.com/pytorch/opacus. [18]
+
+Angela Fan, Mike Lewis, and Yann Dauphin. Hierarchical neural story generation. In ACL, 2018. [19]
+
+Vitaly Feldman. Does learning require memorization? A short tale about a long tail. In STOC, 2020. [20]
+
+Vitaly Feldman and Chiyuan Zhang. What neural networks memorize and why: Discovering the long tail
+via influence estimation. In NeurIPS, 2020. [21]
+
+Matt Fredrikson, Somesh Jha, and Thomas Ristenpart. Model inversion attacks that exploit confidence information and basic
+countermeasures. In ACM CCS, 2015. [22]
+
+Philip Gage.

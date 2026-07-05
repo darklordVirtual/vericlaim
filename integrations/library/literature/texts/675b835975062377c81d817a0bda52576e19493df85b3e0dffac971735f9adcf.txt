@@ -1,0 +1,15 @@
+This kind of skew will show up, and you should design your
+model around it. There are multiple different approaches. These approaches are
+all ways to favor data that your model has already seen. Have higher regularization on features that cover more queries as opposed to
+those features that are on for only one query. This way, the model will favor
+features that are specific to one or a few queries over features that
+generalize to all queries. This approach can help prevent very popular
+results from leaking into irrelevant queries. Note that this is opposite the
+more conventional advice of having more regularization on feature columns
+with more unique values. Only allow features to have positive weights. Thus, any good feature will be
+better than a feature that is "unknown". Don’t have document-only features. This is an extreme version of #1. For
+example, even if a given app is a popular download regardless of what the
+query was, you don’t want to show it everywhere. Not having document-only
+features keeps that simple. The reason you don’t want to show a specific
+popular app everywhere has to do with the importance of
+making all the desired apps reachable.

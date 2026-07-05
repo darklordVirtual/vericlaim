@@ -1,0 +1,16 @@
+Vaswani et al. (2017)
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus,
+S. Vishwanathan, and R. Garnett (eds.), Advances in Neural Information
+Processing Systems, volume 30, pp. 5998–--6008. Curran Associates, Inc.,
+2017. URL
+https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf. Viethen & Dale (2008)
+
+Jette Viethen and Robert Dale. The use of spatial relations in referring expression generation. In Proceedings of the Fifth International Natural Language
+Generation Conference, pp. 59--67, Salt Fork, Ohio, USA, June 2008. Association for Computational Linguistics. URL https://aclanthology.org/W08-1109. Vinyals et al. (2019)
+
+Oriol Vinyals, Igor Babuschkin, Wojciech M. Czarnecki, Michaël Mathieu, Andrew
+Dudzik, Junyoung Chung, David H. Choi, Richard Powell, Timo Ewalds, Petko
+Georgiev, Junhyuk Oh, Dan Horgan, Manuel Kroiss, Ivo Danihelka, Aja Huang,
+Laurent Sifre, Trevor Cai, John P. Agapiou, Max Jaderberg, Alexander S.

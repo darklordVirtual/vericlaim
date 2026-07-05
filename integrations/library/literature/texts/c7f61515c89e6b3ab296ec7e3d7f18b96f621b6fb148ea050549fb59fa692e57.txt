@@ -1,0 +1,22 @@
+The previous section showed examples
+of deep networks resulting from
+purely supervised training
+which are unstable with respect to a peculiar
+form of small perturbations. Independently of their generalisation properties across
+networks and training sets, the adversarial examples
+show that there exist small additive perturbations of the input (in Euclidean sense)
+that produce large perturbations at the output of the last layer. This section describes a simple procedure to
+measure and control the additive stability of the network
+by measuring the spectrum of each rectified layer. Mathematically, if denotes the output of a network
+of layers corresponding to input and trained parameters ,
+we write
+
+where denotes the operator mapping layer to layer . The unstability of can be explained by inspecting the upper Lipschitz constant
+of each layer , defined as the constant such that
+
+The resulting network thus satsifies , with
+. A half-rectified layer (both convolutional or fully connected) is defined by the mapping
+. Let denote the operator norm of (i.e., its largest singular value). Since the non-linearity is contractive, i.e. satisfies
+for all ; it follows that
+
+and hence .

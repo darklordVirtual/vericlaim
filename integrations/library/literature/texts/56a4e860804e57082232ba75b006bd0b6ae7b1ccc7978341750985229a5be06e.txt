@@ -1,0 +1,18 @@
+There are four
+ways you can use an existing heuristic:
+
+Preprocess using the heuristic. If the feature is incredibly awesome,
+then this is an option. For example, if, in a spam filter, the sender
+has already been blacklisted, don’t try to relearn what "blacklisted"
+means. Block the message. This approach makes the most sense in binary
+classification tasks. Create a feature. Directly creating a feature from the heuristic is great. For example, if you use a heuristic to compute a relevance score for a query
+result, you can include the score as the value of a feature. Later on you
+may want to use machine learning techniques to massage the value
+(for example, converting the value into one of a finite set of discrete
+values, or combining it with other features) but start by using the raw
+value produced by the heuristic. Mine the raw inputs of the heuristic. If there is a heuristic for apps
+that combines the number of installs, the number of characters in the
+text, and the day of the week, then consider pulling these pieces apart,
+and feeding these inputs into the learning separately. Some techniques
+that apply to ensembles apply here (see
+Rule #40). Modify the label.

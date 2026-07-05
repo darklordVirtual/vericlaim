@@ -1,0 +1,8 @@
+This approach would place model extraction back in the membership query setting of prior work in learning theory [54, 36, 3, 8]. We demonstrate a generalization of an adaptive algorithm by Lowd and Meek [36] from binary linear classifiers to more complex model types, and also propose an attack inspired by the agnostic learning algorithm of Cohn et al. [18]. Our new attacks extract models matching targets on 99% of the input space for a variety of model classes, but need up to more queries than equation-solving attacks (specifically for multiclass linear regression and neural networks). While less effective than equation-solving, these attacks remain attractive for certain types of adversary. We thus discuss further ideas for
+countermeasures. In summary, we explore model extraction attacks, a practical kind of learning
+task that, in particular, affects emerging cloud-based ML services being built by Amazon,
+Google, Microsoft, BigML, and others. We show:
+
+Simple equation-solving model extraction attacks that use non-adaptive, random queries to solve for the
+parameters of a target model. These attacks affect a
+wide variety of ML models that output confidence values.

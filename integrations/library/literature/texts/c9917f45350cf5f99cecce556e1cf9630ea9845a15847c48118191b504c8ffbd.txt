@@ -1,0 +1,9 @@
+of Rome (marco.maru, bevilacqua)@di.uniroma1.it
+
+language_identification: Luis Oliveros Colón (luis.oliveros.colon@gmail.com) and Gerard de Melo, HPI/University of Potsdam (gerard.demelo@hpi.de). Task cites: (Brown, 2014)
+
+linguistic_mappings: Aarohi Srivastava, University of Notre Dame (asrivas2@nd.edu), and Robert Frank, Hana Galijasevic, Pinyu Hwang, Ayla Karakaş, and Yiding Hao, Yale University (bob.frank, hana.galijasevic, pearl.hwang, ayla.karakas, yiding.hao)@yale.edu Task cites: (McCoy et al., 2018; 2020; Mulligan et al., 2021; Rumelhart et al., 1986; Kirov & Cotterell, 2018; Berko, 1958; Baayen et al., 1995)
+
+linguistics_puzzles: Nathan Chi, De Anza (nathanachi@gmail.com). Task cites: (Bozhanov & Derzhanski, 2013; Radev et al., 2008; Sennrich & Zhang, 2019; Clark et al., 2018; Şahin et al., 2020)
+
+list_functions: Joshua S. Rule and Steven T. Piantadosi, UC Berkeley (rule, stp)@berkeley.edu, and Joshua B. Tenenbaum, MIT (jbt@mit.edu).

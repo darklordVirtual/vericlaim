@@ -1,0 +1,16 @@
+The distortion is measure by between
+the original and distorted images, where is the number of
+image pixels. The pixel intensities are scaled to be in the range . In our first experiment, we generated a set of adversarial instances for a given
+network and fed these examples for each other network to measure the
+proportion of misclassified instances. The last column shows the average
+minimum distortion that was necessary to reach 0% accuracy on the
+whole training set. The experimental results are presented in
+Table 2. The columns of Table 2 show the
+error (proportion of misclassified instances) on the so distorted training
+sets. The last two rows are given for reference showing the error induced
+when distorting by the given amounts of Gaussian noise. Note that even
+the noise with stddev 0.1 is greater than the stddev of our adversarial noise
+for all but one of the models. Figure 7 shows a visualization of the generated
+adversarial instances for two of the networks used in this experiment
+The general conclusion is that adversarial examples tend to stay hard
+even for models trained with different hyperparameters.

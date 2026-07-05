@@ -1,0 +1,17 @@
+Bug fixes occur when you look at past processing and realize
+it was incorrect. For internal stuff this is really easy to fix,
+all you need to do is make the fix and reprocess the
+events. Your application state is now fixed to what it should
+have been. For many situations this is really rather nice. Again external gateways bring the complexity. Essentially the
+gateways need to track the difference between what happened with
+the bug, and what happens without it. The idea is similar to
+what needs to happen with Retroactive Events. Indeed if there's
+a lot of reprocessing to consider it would be worth actually
+using the Retroactive Event mechanism to
+replace an event with itself, although to do that you'll need to
+ensure the event can correctly reverse the buggy event as well
+as the correct one. The third case is where the logic itself changes over time, a
+rule along the lines of “charge $10 before November 18 and $15
+afterwords”. This kind of stuff needs to actually go into the domain
+model itself. The domain model should be able to run events at any
+time with the correct rules for the event processing.

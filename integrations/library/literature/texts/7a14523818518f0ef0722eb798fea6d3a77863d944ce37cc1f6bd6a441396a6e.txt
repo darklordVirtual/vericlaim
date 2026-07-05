@@ -1,0 +1,19 @@
+on our calibration set and setting , we can form valid prediction intervals by taking
+
+(7)
+
+Intuitively, the set just grows or shrinks the distance between the quantiles by to achieve coverage. ⬇
+
+# Get scores
+
+cal_scores = np.maximum(cal_labels-model_upper(cal_X), model_lower(cal_X)-cal_labels)
+
+# Get the score quantile
+
+qhat = np.quantile(cal_scores, np.ceil((n+1)*(1-alpha))/n, interpolation=’higher’)
+
+# Deploy (output=lower and upper adjusted quantiles)
+
+prediction_sets = [val_lower - qhat, val_upper + qhat]
+
+Figure 5: Python code for conformalized quantile regression. Figure 6: A visualization of the conformalized quantile regrssion algorithm in Eq. (7). We adjust the quantiles by the constant , picked during the calibration step. As before, satisfies the coverage property in Eq. (1). However, unlike our previous example in Section 1, is no longer a set of classes, but instead a continuous interval in . Quantile regression is not the only way to get such continuous-valued intervals. However, it is often the best way, especially if is known in advance. The reason is that the intervals generated via quantile regression even without conformal prediction, i.e.

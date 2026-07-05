@@ -1,0 +1,9 @@
+Therefore, the satisfy the assumptions of Theorem 2.1. ∎
+
+Proposition 4.6. Let
+
+Since , exists almost surely. Since , we have
+
+Since is non-increasing in , we conclude that if the right-hand side of (34) is not empty; otherwise, by definition, . Thus, almost surely. Let be the multiset of loss functions . Using the same argument in the end of the proof of Theorem 2.1 and the right-continuity of , we can show that
+
+The proof is then completed by the law of iterated expectation. ∎

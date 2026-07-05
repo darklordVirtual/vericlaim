@@ -1,0 +1,13 @@
+[Yes] Type of resources are described in Section E.2, though we did not estimate the total amount of compute. 4. If you are using existing assets (e.g., code, data, models) or curating/releasing new assets…
+
+(a)
+
+If your work uses existing assets, did you cite the creators? [Yes] We used two models that we anonymized based on the recommendation of the NeurIPS chairs. These models will be cited in the camera-ready version of the paper. (b)
+
+Did you mention the license of the assets? [Yes] See Section E.3. (c)
+
+Did you include any new assets either in the supplemental material or as a URL? [Yes] The coinflip and last letter concatenation datasets are the only new assets, and they are given in the Supplementary Materials. (d)
+
+Did you discuss whether and how consent was obtained from people whose data you’re using/curating? [N/A] No human data collected. (e)
+
+Did you discuss whether the data you are using/curating contains personally identifiable information or offensive content? [N/A] No human data collected. 5.

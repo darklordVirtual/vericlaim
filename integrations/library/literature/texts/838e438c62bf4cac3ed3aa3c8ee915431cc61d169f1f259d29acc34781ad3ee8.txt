@@ -1,0 +1,22 @@
+is independent of
+conditional on
+
+The definition asks that the value of a derived predictor
+should only depend on and the protected attribute, though it may
+introduce additional randomness. But the formulation of
+(that is, the function applied to the values of and ), depends
+on information about the joint distribution of In other
+words, this joint distribution (or an empirical estimate of it) is
+required at training time in order to construct the
+predictor , but at prediction time we only have access to
+values of . No further data about the underlying features
+, nor their distribution, is required. Loss minimization. It is always easy to construct a trivial predictor satisfying
+equalized odds, by making decisions independent of and . For
+example, using the constant predictor or . The
+goal, of course, is to obtain a good predictor satisfying the
+condition. To quantify the notion of “good”, we consider a loss
+function that takes a pair
+of labels and returns a real number which
+indicates the loss (or cost, or undesirability) of predicting
+when the correct label is Our goal is then to design derived
+predictors that minimize the expected loss subject to one of our definitions.

@@ -1,0 +1,1 @@
+We showcase a handful of samples comparing finetuning and verification at both 6B and 175B scale. Samples were slightly cherry-picked for diversity.

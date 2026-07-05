@@ -1,0 +1,28 @@
+2024. Identifying the Risks of LM Agents with an
+LM-Emulated Sandbox. In ICLR. Significant Gravitas (2023)
+
+Significant Gravitas. 2023. AutoGPT. https://github.com/Significant-Gravitas/AutoGPT. Accessed: 2026-03-05. Spolsky (2002)
+
+Joel Spolsky. 2002. The Law of Leaky Abstractions. https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/. Accessed: 2026-03-05. Wu et al. (2024)
+
+Qingyun Wu, Gagan Bansal,
+Jieyu Zhang, Yiran Wu,
+Beibin Li, Erkang Zhu,
+Li Jiang, Xiaoyun Zhang,
+Shaokun Zhang, Jiale Liu,
+Ahmed Hassan Awadallah, Ryen W. White,
+Doug Burger, and Chi Wang. 2024. AutoGen: Enabling Next-Gen LLM Applications via
+Multi-Agent Conversation. In First Conference on
+Language Modeling (COLM). Yi et al. (2025)
+
+Jingwei Yi, Yueqi Xie,
+Bin Zhu, Keegan Hines,
+Emre Kiciman, Guangzhong Sun,
+Xing Xie, and Fangzhao Wu. 2025. Benchmarking and Defending Against Indirect Prompt
+Injection Attacks on Large Language Models. In
+Proceedings of the 31st ACM SIGKDD Conference on
+Knowledge Discovery and Data Mining (KDD). Zhan et al. (2024)
+
+Qiusi Zhan, Zhixiang
+Liang, Zifan Ying, and Daniel Kang. 2024. InjecAgent: Benchmarking Indirect Prompt
+Injections in Tool-Integrated LLM Agents.

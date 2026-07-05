@@ -1,0 +1,16 @@
+Alfworld: Aligning text and embodied environments for interactive
+learning. arXiv preprint arXiv:2010.03768, 2020b. Shuster et al. (2022a)
+
+Kurt Shuster, Mojtaba Komeili, Leonard Adolphs, Stephen Roller, Arthur Szlam,
+and Jason Weston. Language models that seek for knowledge: Modular search & generation
+for dialogue and prompt completion. arXiv preprint arXiv:2203.13224, 2022a. Shuster et al. (2022b)
+
+Kurt Shuster, Jing Xu, Mojtaba Komeili, Da Ju, Eric Michael Smith, Stephen
+Roller, Megan Ung, Moya Chen, Kushal Arora, Joshua Lane, Morteza Behrooz,
+William Ngan, Spencer Poff, Naman Goyal, Arthur Szlam, Y-Lan Boureau, Melanie
+Kambadur, and Jason Weston. Blenderbot 3: a deployed conversational agent that continually learns
+to responsibly engage, 2022b. URL https://arxiv.org/abs/2208.03188. Thorne et al. (2018)
+
+James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mittal. Fever: a large-scale dataset for fact extraction and verification. arXiv preprint arXiv:1803.05355, 2018. Vygotsky (1987)
+
+Lev S Vygotsky. Thinking and speech. The collected works of LS Vygotsky, 1:39–285, 1987. Wang et al.

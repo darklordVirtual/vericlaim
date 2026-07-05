@@ -1,0 +1,13 @@
+Training data and settings. Our training data consists of diverse instruction-following input-output pairs. In particular, we sample instances from Open-Instruct processed data (Wang et al., 2023) and knowledge-intensive datasets (Petroni et al., 2021; Stelmakh et al., 2022; Mihaylov et al., 2018). In total, we use 150k instruction-output pairs. We use Llama2 7B and 13B (Touvron et al., 2023) as our generator base LM, and we use Llama2 7B as our base critic LM. For the retriever model , we use off-the-shelf Contriever-MS MARCO (Izacard et al., 2022a) by default and retrieve up to ten documents for each input. More training details are in the Appendix Section B.1. Inference settings. As a default configuration, we assign the weight terms
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsRel
+
+,
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+,
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsUse
+
+values of 1.0, 1.0 and 0.5, respectively. To encourage frequent retrieval, we set the retrieval threshold to 0.2 for most tasks and to 0 for ALCE (Gao et al., 2023) due to citation requirements. We speed up inference using vllm (Kwon et al., 2023).

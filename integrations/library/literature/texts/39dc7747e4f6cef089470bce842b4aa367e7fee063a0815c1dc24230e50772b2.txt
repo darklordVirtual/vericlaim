@@ -1,0 +1,16 @@
+E. Turner, and
+D. Eck. Sequence tutor: Conservative fine-tuning of sequence generation
+models with kl-control. In International Conference on Machine Learning, pages
+1645–1654. PMLR, 2017. Jaques et al. [2020]
+
+N. Jaques, J. H. Shen, A. Ghandeharioun, C. Ferguson, A. Lapedriza, N. Jones,
+S. S. Gu, and R. Picard. Human-centric dialog training via offline reinforcement learning. arXiv preprint arXiv:2010.05848, 2020. Korbak et al. [2022]
+
+T. Korbak, H. Elsahar, G. Kruszewski, and M. Dymetman. On reinforcement learning and distribution matching for fine-tuning
+language models with no catastrophic forgetting. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh,
+editors, Advances in Neural Information Processing Systems, volume 35,
+pages 16203–16220. Curran Associates, Inc., 2022. URL
+https://proceedings.neurips.cc/paper_files/paper/2022/file/67496dfa96afddab795530cc7c69b57a-Paper-Conference.pdf. Kreutzer et al. [2018]
+
+J. Kreutzer, J. Uyheng, and S. Riezler. Reliability and learnability of human bandit feedback for
+sequence-to-sequence reinforcement learning.

@@ -1,0 +1,24 @@
+Li and Liang (2021)
+
+Xiang Lisa Li and Percy Liang. 2021. Prefix-tuning:
+Optimizing continuous prompts for generation. ACL. Liang et al. (2021)
+
+Zhengzhong Liang, Steven Bethard, and Mihai Surdeanu. 2021. Explainable
+multi-hop verbal reasoning through internal monologue. NAACL. Ling et al. (2017)
+
+Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom. 2017. Program induction by
+rationale generation: Learning to solve and explain algebraic word problems. ACL. Liu et al. (2021)
+
+Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and
+Graham Neubig. 2021. Pre-train, prompt, and
+predict: A systematic survey of prompting methods in natural language
+processing. arXiv preprint arXiv:2107.13586. Majumder et al. (2021)
+
+Bodhisattwa Prasad Majumder, Oana-Maria Camburu, Thomas Lukasiewicz, and Julian
+McAuley. 2021. Rationale-inspired natural
+language explanations with commonsense. arXiv preprint arXiv:2106.13876. Marasović et al. (2022)
+
+Ana Marasović, Iz Beltagy, Doug Downey, and Matthew E Peters. 2022. Few-shot
+self-rationalization with natural language prompts. NAACL Findings. Maynez et al. (2020)
+
+Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. 2020.

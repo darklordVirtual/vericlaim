@@ -1,0 +1,5 @@
+333Often , and , because getting a classification decision correct generally yields a positive reward and getting it incorrect yields at most 0 reward. In a standard binary classification task and and thus . Setting four values that have large ranges can be challenging, unintuitive, and difficult to analyze. To remedy this, we introduce two intuitive and tightly bounded quantities that help reparametrize this setup without loss of generality to have just one degree of freedom. Reparametrization:
+
+We are interested in comparing confidence estimators and on the outputs of the same language model on the same dataset . Crucially, generates and and both estimate the confidences of these candidate generations. , , , and are based on the dataset, not the LLM or confidence estimator. When comparing and and the probabilities they emit, we only care about from equation˜1. Net Utility of Correctly Trusting ():
+
+When the model generates a correct answer ( is correct), we want our confidence estimator to emit . We assign a reward or based on whether or not. Recall that . Our reformulation looks at their difference, the net utility of trusting a correct generation.

@@ -1,0 +1,14 @@
+Rule #15: Separate Spam Filtering and Quality Ranking in a Policy Layer. Quality ranking is a fine art, but spam filtering is a war. The signals that
+you use to determine high quality posts will become obvious to those who use
+your system, and they will tweak their posts to have these properties. Thus,
+your quality ranking should focus on ranking content that is posted in good
+faith. You should not discount the quality ranking learner for ranking spam
+highly. Similarly, "racy" content should be handled separately from Quality
+Ranking. Spam filtering is a different story. You have to expect that the
+features that you need to generate will be constantly changing. Often, there
+will be obvious rules that you put into the system (if a post has more than
+three spam votes, don’t retrieve it, et cetera). Any learned model will have
+to be updated daily, if not faster. The reputation of the creator of the
+content will play a great role. At some level, the output of these two systems will have to be integrated. Keep
+in mind, filtering spam in search results should probably be more aggressive
+than filtering spam in email messages.

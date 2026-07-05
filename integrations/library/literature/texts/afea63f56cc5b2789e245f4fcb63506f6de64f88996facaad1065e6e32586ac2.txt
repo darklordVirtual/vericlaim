@@ -1,0 +1,59 @@
+However, Toolformer still lags behind the much larger GPT-3 (175B) model. This is likely due to both the simplicity of our search engine (in many cases, it returns results that are clearly not a good match for a given query) and the inability of Toolformer to interact with it, e.g., by reformulating its query if results are not helpful or by browsing through multiple of the top results. We believe that adding this functionality is an exciting direction for future work. Model
+
+WebQS
+
+NQ
+
+TriviaQA
+
+GPT-J
+
+18.5
+
+12.8
+
+43.9
+
+GPT-J + CC
+
+18.4
+
+12.2
+
+45.6
+
+Toolformer (disabled)
+
+18.9
+
+12.6
+
+46.7
+
+Toolformer
+
+26.3
+
+17.7
+
+48.8
+
+OPT (66B)
+
+18.6
+
+11.4
+
+45.7
+
+GPT-3 (175B)
+
+29.0
+
+22.6
+
+65.9
+
+Table 5: Results for various question answering dataset. Using the Wikipedia search tool for most examples, Toolformer clearly outperforms baselines of the same size, but falls short of GPT-3 (175B). 4.2.4 Multilingual Question Answering
+
+We evaluate Toolformer and all baseline models on MLQA (Lewis et al., 2019), a multilingual question-answering benchmark.

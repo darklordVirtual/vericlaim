@@ -1,0 +1,21 @@
+7.5)
+covers only 100 English samples with GPT-4o-mini as the judge;
+in particular, an end-to-end evaluation with a local judge
+(e.g., Qwen2.5-14B) for data-sovereign scenarios is absent. Larger-scale, multi-language pipeline evaluation with diverse
+judge models remains future work;
+(iv) the English dataset was machine-translated from Chinese,
+which may introduce translation artifacts—a preliminary native-English
+TC3 ablation ( malicious; no confidence intervals
+computed at this sample size) shows IR 11–17 pp lower
+than translated samples (GPT-4o-mini: 82.5% vs. 94.2%,
+pp; Qwen2.5-14B: 75.0% vs. 88.3%, pp;
+Qwen3.5-9B: 60.0% vs. 77.5%, pp), providing
+a preliminary indication that translation artifacts may
+inflate translated-EN detection rates;
+(v) Qwen3.5-9B latency in Tables 3–4 reflects unoptimized Ollama
+serving with a generous output budget (num_predict=50);
+a full-scale re-evaluation of all 921 ZH samples with
+num_predict=10 yields P50 = 303 ms
+(6.5 vs. Table 4’s ZH P50 = 1,981 ms),
+IR = 96.3% (vs. 96.5% at ),
+FPR = 29.3% (vs.

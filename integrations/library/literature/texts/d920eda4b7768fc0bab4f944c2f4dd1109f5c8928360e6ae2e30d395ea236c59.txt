@@ -1,0 +1,6 @@
+In our attack, we first generate a large, diverse set of high-likelihood samples from the model,
+using one of three general-purpose sampling strategies. We then sort each sample using one of six different metrics
+that estimate the likelihood of each sample using a separate reference model (e.g., another LM), and rank highest the samples with an abnormally high likelihood ratio between the two models. Our attacks directly apply to any language model, including those trained on sensitive and non-public data [10, 16]. We use the GPT-2 model [54] released by OpenAI as a representative language model
+in our experiments. We choose to attack GPT-2 to minimize real-world harm—the GPT-2 model and original training data source are already public. To make our results quantitative, we define a testable definition of memorization. We then generate candidate memorized samples, under each of the
+attack configurations, and find that over of them are verbatim samples from the GPT-2 training data (confirmed
+in collaboration with the creators of GPT-2). In the best attack configuration, 67% of candidate samples are verbatim training examples.

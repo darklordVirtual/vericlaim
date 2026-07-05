@@ -1,0 +1,81 @@
+{"fsid": "arxiv_2009-03300", "n": 80, "overlap": 200, "source_sha256": "d513a7057f6921ac09f84ae0c6c394fd7aaaf022add282a8040efcfedfc17ecd", "target": 1200}
+{"section": "", "seq": 0, "sha256": "0d704a2ae1d9ce4330451537859a8f7ca92a9d0a6cf1adc4ed9c1685bd9e18fe"}
+{"section": "Measuring Massive Multitask Language Understanding", "seq": 1, "sha256": "5c58c86d2850b89123dd1488a4edd394f9cd5ad9b9f138feca83bbb994f4e9da"}
+{"section": "1 Introduction", "seq": 2, "sha256": "a68577b17c29e51edb83f9adb2ae945bbd6849c2bb098112440af24326395b10"}
+{"section": "1 Introduction", "seq": 3, "sha256": "3bc57e328fba8e815970a09bdecac660f6d8db3b3cd3cc99561e8f46d3c37481"}
+{"section": "1 Introduction", "seq": 4, "sha256": "a5acc9370e4861f2a207d751f62455447c604688890413f6f8570f38de8f37e5"}
+{"section": "1 Introduction", "seq": 5, "sha256": "afa32c644ee25da95e0f8246a54ebddf500fd73469c755dd5688c8eb517c9d02"}
+{"section": "1 Introduction", "seq": 6, "sha256": "7652e0e0b1cc22677861a6ebbf2a3b05bcad1b649d39786491ffc700822639fd"}
+{"section": "2 Related Work", "seq": 7, "sha256": "fec1cc215eaba115266108b5e01d344803327e289ae567eeec5d8c8426314ed9"}
+{"section": "2 Related Work", "seq": 8, "sha256": "6024b51986cff4684245efc84eb552b8868f216effdbe5d61234af25d80752fb"}
+{"section": "2 Related Work", "seq": 9, "sha256": "0bfb969a60472ce6da33e0fdfa26063615c6ff92767eeb2adc7490ee5afa4055"}
+{"section": "3 A Multitask Test", "seq": 10, "sha256": "a431c7474526709a5ef0b710448be7e86204aaca125b315e96275448d301bb51"}
+{"section": "3 A Multitask Test", "seq": 11, "sha256": "cc529fe70f7d05668259f01289bffe4b3ac924748e0d500570b7add10344f7ce"}
+{"section": "3 A Multitask Test", "seq": 12, "sha256": "45399565885d5d70c55d81b773d9542c9130db4b08b85588b624ea2a838a2ba2"}
+{"section": "3 A Multitask Test", "seq": 13, "sha256": "3abcb3e2c5d4230444ec392b2af10e97d046e48df9b1a97106a031c3c473571a"}
+{"section": "3.1 Humanities", "seq": 14, "sha256": "8f8470ca9641309c5fc917850794cc84a7e4057b7c9092fb3336a891ff8920fc"}
+{"section": "3.2 Social Science", "seq": 15, "sha256": "621d15d84d82bec5d6517d74d45e264d76aee6b474d108211938e074b7e4551a"}
+{"section": "3.3 Science, Technology, Engineering, and Mathematics (STEM)", "seq": 16, "sha256": "05da72ed9cfaef2df2cda628a218a91cedeab5bb8f4913bca1d9595d74c8455e"}
+{"section": "3.4 Other", "seq": 17, "sha256": "f24871b6f1fcd7c51b77b02a7db5df4335d756ca06ea61f51860080e4f39deeb"}
+{"section": "4 Experiments", "seq": 18, "sha256": "f05740d4e29c1ba5fc723b39ee027d721b568c67858bd85a12ade7be680e5c09"}
+{"section": "4.1 Setup", "seq": 19, "sha256": "7905e74d555e3f4834e72293d9349b1178cfc8a49dd5d96250e7190b8f022298"}
+{"section": "4.1 Setup", "seq": 20, "sha256": "e4fc2eae7e940dfd097f34ad2fa5ffb30200b58d7bee32897b4fca1a9ea73625"}
+{"section": "4.2 Results", "seq": 21, "sha256": "df781e6ca6d81ebf64228fb91f18795186b0cfe353bf416c647bde158de28e16"}
+{"section": "4.2 Results", "seq": 22, "sha256": "86ba703e345f595ddc7df14a61f6f566285a7d5bc49aaef01d10d1660c5982da"}
+{"section": "4.2 Results", "seq": 23, "sha256": "72ebee4770ae151884693be71defbad1bcf8019e62d7ab17f9fbcf540db778bd"}
+{"section": "4.2 Results", "seq": 24, "sha256": "e8b611548a6bc10b7cee8a03fb0fe03032de74dc857f8f9df9463c1af1f8a4ba"}
+{"section": "4.2 Results", "seq": 25, "sha256": "2033a64a8dc60b9254a1705deb8e170590b97de5b3a0838ebc226355a349d6db"}
+{"section": "5 Discussion", "seq": 26, "sha256": "afee5055f35a11584be5a06fde896d9af90b51cd1594edbf35c3823766a13d1a"}
+{"section": "5 Discussion", "seq": 27, "sha256": "7703b6305f582a836903d22c73841134d238972ccc6749459addd348cb9c8487"}
+{"section": "5 Discussion", "seq": 28, "sha256": "d62d2d44ef6bbd961f2483254d11f4ee89a40f502af900cbd948a3088d4536fa"}
+{"section": "5 Discussion", "seq": 29, "sha256": "f28c9eb87675762b08cf3ea7d655d0021840f35949aee82da8a01774e3765d01"}
+{"section": "5 Discussion", "seq": 30, "sha256": "493dd5dba2b8d3a065c90d510c3dabdc72d7ee85d68e7bb05c04b103836fae54"}
+{"section": "6 Conclusion", "seq": 31, "sha256": "3e045797bca5aca332d7d437306efc9ca97fde9c3ab135d28c8417f2d7fc8543"}
+{"section": "Acknowledgements", "seq": 32, "sha256": "d40d0bb3739631260643244dff67af581b389625b9ddc2feb0e6bfb6eab62f47"}
+{"section": "References", "seq": 33, "sha256": "6eb169016c9b64e9b87eef0236174fe906968d5e6286ee922f56f71b8da5b737"}
+{"section": "References", "seq": 34, "sha256": "5b3b6659863887129e28c6254902151fee2f8e08c7eb27e31dbb7b9c5284112a"}
+{"section": "References", "seq": 35, "sha256": "cdf08f2a169c1774e65f776d7353209725d467741f98aa8f5fe900f4803c2cf3"}
+{"section": "References", "seq": 36, "sha256": "2c51d209b560ca0a328beba61c9cc30e387dd339d5153acedf243a9c1e784fe4"}
+{"section": "References", "seq": 37, "sha256": "e4d22acab8f1bbf27d530298c4df002725b0d1b77d2388d655de0aa48287aa55"}
+{"section": "References", "seq": 38, "sha256": "0d0de7c4e2ea76afe89c444d92981cd47a15a8660c274797ee6a48caa59b5c92"}
+{"section": "Appendix A Additional Analysis", "seq": 39, "sha256": "5f840fb8bc09a722a179763f59029c5574952073e71f7f9a803e5ff705e60538"}
+{"section": "A.1 Analysis with More Fine-Tuned Models", "seq": 40, "sha256": "16754134d99528bfb421308300c9510d39e944cc5697c60d991e3e96d5cec94e"}
+{"section": "A.1 Analysis with More Fine-Tuned Models", "seq": 41, "sha256": "4823606b44b74ba5659795e6247b3cc9245d1449b1fe1a841251b66af0106f72"}
+{"section": "A.2 Error Analysis", "seq": 42, "sha256": "a762e0e8c9d469fe52e5beeafeafe466c029a90f5a825a3970b34e2ea397dc43"}
+{"section": "A.3 Format Sensitivity", "seq": 43, "sha256": "69d1912712592eb7198bc47b0b8671661150f0a151b9994b2e64e578495675ba"}
+{"section": "B.1 Task Descriptions and Examples", "seq": 44, "sha256": "8a4e72b9f995a2d9eb6f17545a6f3ba4364674ec8cf9fb79cce559dde447fdc5"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 45, "sha256": "8bfad87e90c2b7504356e1fb0e462ea5f5b9dfd5548114fe6df24dde1f3d31c5"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 46, "sha256": "206638fad7fc768115e72e5cbb0ff9c5ed7f14417d238d67176d1c4ffcf41c9a"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 47, "sha256": "61b6a05b4abebdde8ed6e4db0ba0b565864b60a8f28ad8958b5f0cc2bb7685e8"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 48, "sha256": "8b169b6c33401deac412a9d0e4e3ee09de048412e28799ca67006947284e9b2f"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 49, "sha256": "9f57399aec19730dc8415382b0b75c9929e7449e85bf869fe051c78de7a2e4c6"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 50, "sha256": "ff18603baa1e25054e4c3a7d90569aa17dbec8218c4dfba922b857b27d11d55d"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 51, "sha256": "046cce5842aa34d621a08a32d8d2a7497b8a6c3da7de1443d781e4e80d9c4336"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 52, "sha256": "f122c1c79a9a7293f19dd55cf6cec6a7cd054280cfd9c7b3b3420b4c810d9c53"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 53, "sha256": "5daaa2fe0b9024cf379c57e7f5c8e45de3705d3d55faee275ea5cee8e5d91fc3"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 54, "sha256": "b2f1cd6ca0dda69f7b799b9c70e17fd1f7f30676f621800d510eca3c0cc0a0ed"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 55, "sha256": "94503e23f3e3bb83ba59cebe8148bd69d8b3b34f70699c8b9c91d7c6ffd3b6f6"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 56, "sha256": "e9f64a3ed2b99e319f6c5c4e2fca7ca074a58150004976066aea3da3d86dd2f6"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 57, "sha256": "7d7310a8b6eaa54511a75cb19a546dd03c207a2f170a2167fa728125d8465021"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 58, "sha256": "27baae7c8171995962047382840a94b262bf5f7f616daa04f3826b333bb2abd4"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 59, "sha256": "87c76a14953ff37e67a1dc06cf8c70b3c7b2cef8a1d15944027e1457d764d7ea"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 60, "sha256": "895212126f00a112e35e68b0a7e0ce617b1a054d0544e233734c6abd300a3d18"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 61, "sha256": "fbdcb627b9a8fec218bda51563d5e06b29e192de1d42a2be3bc16d56e66187d9"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 62, "sha256": "f60d0470e661f0a45d8e9345c1647482a8aae6ec78bd2272ee2717b582a11072"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 63, "sha256": "53e90d355e9bbd444dc1ed246dd9e6e86eaaafdf8c487182b86876626f57c92b"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 64, "sha256": "c88a2b613a334308b36b4c19b73e1ff67d0c6d490ce6653567ab5a59b32a2072"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 65, "sha256": "df36b1f917276128412f7d321a390ebb89458618a8ee506dbe7379ee9ebe7ec7"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 66, "sha256": "2ad612ff11ae74d7978c0031621f7772cfce414664e274540f2e40d6343d80c6"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 67, "sha256": "a8c3170b7f9b4f1fe0343efb441e6c552f0620d3c1ff39bb3edfd854dcbcb7c0"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 68, "sha256": "fa03fc61849663d95757531c12166ffa3e35b12f8967e7063e94de48e101510c"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 69, "sha256": "f4fd67e05b7fbdc8f876d1bf66543696ae659de25b92679801d6592082537ec1"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 70, "sha256": "604048952185554cc495e222075ba774ecb621b2ab9062524ffbc3663108f1b9"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 71, "sha256": "61e9d682c97366cf2a63d6525db85b3c7557a81801fad14218bfa12ce77ce8fe"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 72, "sha256": "30b1cdca2a5c75f5aca32e940bcda4563cf72a963193b138ef8aff79aa19830e"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 73, "sha256": "2289611a0556009eb90d7344cb0b75f977b292409bc9b7d818c82787fe474817"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 74, "sha256": "3fe2490e507b2f30ec6e099ee8e6624d659e67faa4eaf9b0274f2f323ca2d583"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 75, "sha256": "6ac0fae7e22d9c9d7c550a895addfc546f9b0bd18291a492da7822c096707d7a"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 76, "sha256": "94713ad6b2c8d0108a56e8f3cb235017a40f652f4ab61f67fee60cfb6170695e"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 77, "sha256": "93f11e1ea99817bdeb1d6bfbc1e755a5f07a279084d9766ce5c1245d5802c793"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 78, "sha256": "03c8df267d8d8dc69e7418946d8040b73ad32d24cc004621a81075aa796557c7"}
+{"section": "B.2 Exact Question and Answer Contamination", "seq": 79, "sha256": "38e034a01888c95bc09d0df1a64933e82da54b669fd8635001ed63ec855e0940"}

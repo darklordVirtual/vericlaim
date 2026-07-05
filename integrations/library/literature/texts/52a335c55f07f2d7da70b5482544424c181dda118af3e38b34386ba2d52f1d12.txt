@@ -1,0 +1,8 @@
+This task is easier in two ways: we have first provided more context and additionally use a higher recall sampling
+strategy. Results. Table 4 summarizes the key results. Under the more difficult of the two approaches,
+the full-sized 1.5 billion parameter GPT-2 model emits all examples that are inserted
+33 times or more, the medium-sized 345 million parameter memorizes half of the
+URLs, and the smallest 117 million parameter model memorizes none of these
+URLs. When given the additional context and using beam search, the medium model can emit four more URLs, and the small model only emits the one URL that was inserted 359 times. These results illustrate two fundamental lessons in LM memorization. First, larger models memorize significantly more training data: even hundreds of millions of parameters are not enough to memorize some of the training points. The ability of LMs to improve with model size
+has been extensively studied [35, 38]; we show a negative trend where these improvements come at the cost of decreased privacy. Second, for the largest LM,
+complete memorization occurs after just insertions.

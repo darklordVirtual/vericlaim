@@ -1,0 +1,12 @@
+Measuring unfairness, rather than proving fairness. Due to the limitations we described, satisfying our notion (or any other
+oblivious measure) should not be considered a conclusive proof of
+fairness. Similarly, violations of our condition are not meant to be a proof of
+unfairness. Rather we envision our framework as providing a reasonable way of
+discovering and measuring potential concerns that require further scrutiny. We
+believe that resolving fairness concerns is ultimately impossible without
+substantial domain-specific investigation. This realization echoes earlier
+findings in “Fairness through Awareness” [DHP+12] describing the
+task-specific nature of fairness. Incentives. Requiring equalized odds creates an incentive structure for the entity
+building the predictor that aligns well with achieving fairness. Achieving better prediction with equalized odds requires collecting
+features that more directly capture the target , unrelated to its
+correlation with the protected attribute.

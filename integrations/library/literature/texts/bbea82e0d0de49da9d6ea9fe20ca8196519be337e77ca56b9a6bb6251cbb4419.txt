@@ -1,0 +1,6 @@
+We will
+investigate a variety of settings in this work corresponding to different APIs seen in practice. We assume that has no more information about a model’s training data,
+than what is provided by an ML API (e.g., summary statistics). For simplicity, we focus
+on proper model extraction: If believes that belongs to some model class, then ’s goal is to extract a model from the
+same class. We discuss some intuition in favor of proper extraction in Appendix D,
+and leave a broader treatment of improper extraction strategies as an interesting open problem.

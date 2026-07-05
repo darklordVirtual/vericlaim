@@ -1,0 +1,42 @@
+“Synthesizing the preferred inputs for neurons in neural networks via deep generator networks”
+
+In Advances in Neural Information Processing Systems 29
+
+Curran Associates, Inc., 2016, pp. 3387–3395
+
+URL: http://papers.nips.cc/paper/6519-synthesizing-the-preferred-inputs-for-neurons-in-neural-networks-via-deep-generator-networks.pdf
+
+[231]
+David Bau et al. “Network Dissection: Quantifying Interpretability of Deep Visual Representations”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1704.05796
+
+[232]
+Chris Olah, Alexander Mordvintsev and Ludwig Schubert
+
+“Feature Visualization”
+
+In Distill 2.11, 2017
+
+DOI: 10.23915/distill.00007
+
+[233]
+Dmitry Ulyanov, Andrea Vedaldi and Victor Lempitsky
+
+“Deep Image Prior”
+
+In The IEEE Conference on Computer Vision and Pattern Recognition, 2018
+
+URL: https://arxiv.org/abs/1711.10925
+
+[234]
+Chris Olah et al. “The Building Blocks of Interpretability”
+
+In Distill 3.3, 2018
+
+DOI: 10.23915/distill.00010
+
+[235]
+Ari S. Morcos, David G.. Barrett, Neil C.

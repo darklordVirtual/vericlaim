@@ -1,0 +1,11 @@
+The difference between and for a given bin represents the calibration gap (red bars in reliability diagrams – e.g. Figure 1). We use ECE as the primary empirical metric to measure calibration. See Section S1 for more analysis of this metric. Maximum Calibration Error (MCE). In high-risk applications where reliable confidence measures are absolutely necessary, we may wish to minimize the worst-case deviation between confidence and accuracy:
+
+(4)
+
+The Maximum Calibration Error (Naeini et al., 2015) – or MCE – estimates this deviation. Similarly to ECE, this approximation involves binning:
+
+(5)
+
+We can visualize MCE and ECE on reliability diagrams. MCE is the largest calibration gap (red bars) across all bins, whereas ECE is a weighted average of all gaps. For perfectly calibrated classifiers, MCE and ECE both equal 0. Negative log likelihood
+
+is a standard measure of a probabilistic model’s quality (Friedman et al., 2001). It is also referred to as the cross entropy loss in the context of deep learning (Bengio et al., 2015).

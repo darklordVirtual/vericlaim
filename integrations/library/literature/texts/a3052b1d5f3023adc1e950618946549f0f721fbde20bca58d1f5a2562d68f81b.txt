@@ -1,0 +1,15 @@
+The power of scale for parameter-efficient prompt tuning. arXiv preprint arXiv:2104.08691, 2021. Li et al. (2023)
+
+Linyi Li, Tao Xie, and Bo Li. Sok: Certified robustness for deep neural networks. In 2023 IEEE Symposium on Security and Privacy (SP), 2023. Lu et al. (2021)
+
+Zhiyun Lu, Wei Han, Yu Zhang, and Liangliang Cao. Exploring targeted universal adversarial perturbations to end-to-end
+asr models. arXiv preprint arXiv:2104.02757, 2021. Madry et al. (2018)
+
+Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, and
+Adrian Vladu. Towards deep learning models resistant to adversarial attacks. In International Conference on Learning Representations, 2018. URL https://openreview.net/forum?id=rJzIBfZAb. Maus et al. (2023)
+
+Natalie Maus, Patrick Chao, Eric Wong, and Jacob Gardner. Adversarial prompting for black box foundation models. arXiv preprint arXiv:2302.04237, 2023. Moosavi-Dezfooli et al. (2017)
+
+Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Omar Fawzi, and Pascal
+Frossard. Universal adversarial perturbations. In Proceedings of the IEEE conference on computer vision and
+pattern recognition (CVPR), pages 1765–1773, 2017. Neekhara et al.

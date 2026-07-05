@@ -1,0 +1,6 @@
+(Rasmy et al., 2021), and translating between languages (Sutskever et al., 2014), though they are currently less capable at all of these things than human beings with modest domain knowledge. These breakthrough capabilities
+(Ganguli et al., 2022)
+have been observed empirically,
+but we
+are unable to reliably predict the scale at which new breakthroughs will happen. We may also be unaware of additional breakthroughs that have already occurred but not yet been noticed experimentally. The quantitative and qualitative changes that occur in language models as they become larger
+are potentially transformative (Bommasani et al., 2021; Black et al., 2022). Large language models may augment or replace humans for broad sets of tasks that can be framed in terms of textual response. They may enable entirely new applications. Without proper care, they may also embed undesirable social bias deep into technology stacks and decision-making processes—but with proper care, they may enable decision-making to be automated with less human bias.

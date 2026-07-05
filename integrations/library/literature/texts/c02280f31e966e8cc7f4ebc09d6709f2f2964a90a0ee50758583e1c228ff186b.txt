@@ -1,0 +1,7 @@
+GPT-4o-mini (93.0–95.4% IR, 3.2–12.3% FPR, 1,100 ms)
+remains the most precise option but requires cloud connectivity. The two cascade conditions (2,800–3,000 ms) occupy the
+highest-latency, lowest-FPR region of the trade-off space,
+offering the best precision at the cost of throughput. The NLI models’ near-zero interception suggests that zero-shot
+textual entailment, as instantiated by BART-MNLI and mDeBERTa-NLI,
+is insufficient for tool-call authorization without task-specific
+adaptation.

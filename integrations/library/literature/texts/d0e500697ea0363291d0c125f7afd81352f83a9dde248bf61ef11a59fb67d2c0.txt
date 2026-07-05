@@ -1,0 +1,19 @@
+Petroni et al. (2019)
+
+Fabio Petroni, Tim Rocktäschel, Sebastian Riedel, Patrick Lewis, Anton
+Bakhtin, Yuxiang Wu, and Alexander Miller. 2019. Language models as
+knowledge bases? In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pages 2463–2473, Hong Kong,
+China. Association for Computational Linguistics. Radford et al. (2019)
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya
+Sutskever, et al. 2019. Language models are unsupervised multitask learners. OpenAI blog, 1(8):9. Reichart and Rappoport (2007)
+
+Roi Reichart and Ari Rappoport. 2007. Self-training for
+enhancement and domain adaptation of statistical parsers trained on small
+datasets. In Proceedings of the 45th Annual Meeting of the Association of
+Computational Linguistics, pages 616–623, Prague, Czech Republic. Association for Computational Linguistics. Robertson et al. (1995)
+
+Stephen E Robertson, Steve Walker, Susan Jones, Micheline M Hancock-Beaulieu,
+Mike Gatford, et al. 1995. Okapi at trec-3. Nist Special Publication Sp, 109:109. Schick et al.

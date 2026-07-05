@@ -1,0 +1,101 @@
+Table 4 reports latency statistics for both
+Chinese and English experiments. Table 4. Latency Overhead of Intent Verification (ZH / EN)
+
+Condition
+
+P50 (ms)
+
+P99 (ms)
+
+Deploy
+
+Baseline
+
+/
+
+/
+
+—
+
+mDeBERTaa
+
+126 / —
+
+722 / —
+
+Local CPU
+
+BART-MNLI
+
+204 / 258
+
+1473 / 1445
+
+Local CPU
+
+Qwen3.5-4B
+
+482 / 497
+
+732 / 737
+
+Local GPU
+
+Llama-3.1-8B
+
+639 / 723
+
+1024 / 1022
+
+Local GPU
+
+Qwen3.5-9Bc
+
+1981 / 2166
+
+3207 / 3386
+
+Local GPU
+
+Qwen2.5-14B
+
+883 / 1163
+
+1499 / 1849
+
+Local GPU
+
+GPT-4o-mini
+
+1023 / 1127
+
+2887 / 3671
+
+Cloud API
+
+Cascade (QG)b
+
+2779 / 3001
+
+4610 / 5411
+
+Local+Cloud
+
+Cascade (Q14B)b
+
+2658 / 2979
+
+4172 / 4583
+
+Local
+
+aChinese data only; EN not applicable (—). bCascade P50/P99 are measured end-to-end. =fraction of samples where Qwen3.5-9B
+
+bissues BLOCK (passing to GPT-4o-mini stage):
+65% ZH / 59% EN (measured from Table 3
+
+bas
+,
+where and ). Since , P50 P50 + P50. bMeasured P50 is 7–9% below this estimate, likely due to GPU scheduling efficiencies in sequential two-stage inference. bQ14B shares the same first-stage (65% ZH / 59% EN ),
+
+bso the same P50 approximation applies; measured P50 is 7–10% below the sum of individual P50s.

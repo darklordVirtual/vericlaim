@@ -1,0 +1,17 @@
+Duke, J. Soraker, B. Zevenbergen,
+V. Prabhakaran, M. Diaz, B. Hutchinson, K. Olson, A. Molina, E. Hoffman-John,
+J. Lee, L. Aroyo, R. Rajakumar, A. Butryna, M. Lamm, V. Kuzmina, J. Fenton,
+A. Cohen, R. Bernstein, R. Kurzweil, B. Aguera-Arcas, C. Cui, M. Croak,
+E. Chi, and Q. Le. Lamda: Language models for dialog applications, 2022. Touvron et al. [2023]
+
+H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux, T. Lacroix,
+B. Rozière, N. Goyal, E. Hambro, F. Azhar, et al. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023. Völske et al. [2017]
+
+M. Völske, M. Potthast, S. Syed, and B. Stein. TL;DR: Mining Reddit to learn automatic summarization. In Proceedings of the Workshop on New Frontiers in
+Summarization, pages 59–63, Copenhagen, Denmark, Sept. 2017. Association
+for Computational Linguistics. doi: 10.18653/v1/W17-4508. URL https://aclanthology.org/W17-4508. von Werra et al. [2023]
+
+L. von Werra, J. Tow, reciprocated, S. Matiana, A. Havrilla, cat state,
+L. Castricato, Alan, D. V. Phung, A. Thakur, A. Bukhtiyarov, aaronrmm,
+F. Milo, Daniel, D. King, D. Shin, E. Kim, J. Wei, M. Romero, N. Pochinkov,
+O. Sanseviero, R. Adithyan, S.

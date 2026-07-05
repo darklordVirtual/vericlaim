@@ -1,0 +1,8 @@
+The second part is about deploying your
+first pipeline. The third part is about launching and
+iterating while adding new features to your pipeline, how to evaluate models
+and training-serving skew. The
+final part
+is about what to do when you reach a plateau. Afterwards, there is a list of related work and an
+appendix with some
+background on the systems commonly used as examples in this document.

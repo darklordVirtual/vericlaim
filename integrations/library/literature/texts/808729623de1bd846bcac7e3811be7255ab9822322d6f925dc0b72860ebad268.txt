@@ -1,0 +1,12 @@
+Figure 1
+shows the aggregate performance of models ranging over five orders of magnitude in size on all BIG-bench tasks. \begin{overpic}[height=130.08731pt]{figures/superGLUE-SOTA.pdf}
+\put(-9.0,1.0){{\small(a)}}
+\end{overpic}\begin{overpic}[height=130.08731pt]{figures/linear_extrapolation_GPT.pdf}
+\put(0.0,1.0){{\small(b)}}
+\end{overpic}
+Figure 2: Existing benchmarks have narrow scope and show rapidly saturating performance. (a) SuperGLUE (Wang et al., 2019a) is a leading recent benchmark for evaluating large language models. Superhuman performance
+was achieved on this benchmark within 18 months of its introduction. Each point corresponds to a leaderboard submission achieving a new state-of-the-art score. (b) Naive extrapolation of performance across all accuracy-based benchmarks reported in Brown et al. (2020) suggests that GPT language models would achieve human-level performance if made 3 to 4 orders of magnitude larger. However, we find that
+this optimistic extrapolation
+relies on
+the limitations of current benchmarks, which
+do not capture many capabilities that separate humans from language models. See Figure 1 for a similar plot showing overall performance vs.

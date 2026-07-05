@@ -1,0 +1,3 @@
+The different size autoencoders offer different "resolutions" for understanding the same object. (See Feature Splitting.)
+
+Just 512 neurons can represent tens of thousands of features. Despite the MLP layer being very small, we continue to find new features as we scale the sparse autoencoder. Features connect in "finite-state automata"-like systems that implement complex behaviors. For example, we find features that work together to generate valid HTML. (See "Finite State Automata".)

@@ -1,0 +1,6 @@
+Extensive prior work has shown the benefits of endowing neural networks with the ability to produce intermediate steps via training or finetuning confers various benefits in a range of scenarios. As examples, it has been shown that natural language intermediate steps can
+improve performance (Zaidan et al., 2007; Yao et al., 2021; Hase and Bansal, 2022; Gu et al., 2022),
+improve robustness (Chen et al., 2022),
+speed up training (Hancock et al., 2018),
+mitigate bias (Dua et al., 2020),
+and even help in image and reinforcement learning settings (Andreas et al., 2018). To endow models with the ability to produce intermediate steps, prior work typically finetunes models on either manually annotated training datasets (Camburu et al., 2018; Rajani et al., 2019, inter alia) or generates synthetic datasets (Talmor et al., 2020; Zelikman et al., 2022). Compared with these training or finetuning methods, our work shows that various natural language reasoning abilities can be elicited in off-the-shelf language models of sufficient scale simply via prompting.

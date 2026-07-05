@@ -1,0 +1,16 @@
+Language models are a fundamental building block of current
+state-of-the-art natural language processing pipelines [52, 12, 31, 50, 55]. While the unsupervised objectives used to train these models vary,
+one popular choice is a “next-step prediction” objective [5, 44, 31, 52]. This approach constructs a generative model of the distribution
+
+where is a sequence of tokens from a vocabulary
+by applying the chain rule of probability
+
+State-of-the-art LMs use neural networks to estimate this probability distribution. We let denote the likelihood of
+token when evaluating the neural network
+with parameters . While recurrent neural networks (RNNs) [44, 26] used to be a common choice for the neural network architecture of LMs,
+attention-based models [4] have
+recently replaced RNNs in state-of-the-art models. In particular,
+Transformer LMs [70] consist of a sequence of
+attention layers and are the current model architecture of choice. Because we believe our results are independent of the exact architecture used, we will not describe the Transformer architecture
+in detail here and instead refer to existing work
+[3]. Training Objective.

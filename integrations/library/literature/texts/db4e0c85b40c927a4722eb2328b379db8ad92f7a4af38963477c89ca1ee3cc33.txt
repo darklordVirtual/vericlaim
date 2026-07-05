@@ -1,0 +1,18 @@
+Sheng et al., (2019)
+
+Sheng, E., Chang, K.-W., Natarajan, P., and Peng, N. (2019). The woman worked as a babysitter: On biases in language generation. arXiv preprint arXiv:1909.01326. Silver et al., (2017)
+
+Silver, D., Hubert, T., Schrittwieser, J., Antonoglou, I., Lai, M., Guez, A.,
+Lanctot, M., Sifre, L., Kumaran, D., Graepel, T., et al. (2017). Mastering chess and shogi by self-play with a general reinforcement
+learning algorithm. arXiv preprint arXiv:1712.01815. Soares et al., (2015)
+
+Soares, N., Fallenstein, B., Armstrong, S., and Yudkowsky, E. (2015). Corrigibility. In Workshops at the Twenty-Ninth AAAI Conference on Artificial
+Intelligence. Socher et al., (2013)
+
+Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A. Y., and
+Potts, C. (2013). Recursive deep models for semantic compositionality over a sentiment
+treebank. In Proceedings of the 2013 conference on empirical methods in
+natural language processing, pages 1631–1642. Solaiman et al., (2019)
+
+Solaiman, I., Brundage, M., Clark, J., Askell, A., Herbert-Voss, A., Wu, J.,
+Radford, A., Krueger, G., Kim, J. W., Kreps, S., et al. (2019). Release strategies and the social impacts of language models.

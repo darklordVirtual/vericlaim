@@ -1,0 +1,22 @@
+In ICDMW (2009), IEEE, pp. 114–121. [32]
+
+Kloft, M., and Laskov, P. Online anomaly detection under adversarial impact. In AISTATS (2010), pp. 405–412. [33]
+
+Kushilevitz, E., and Mansour, Y. Learning decision trees using the Fourier spectrum. SICOMP 22, 6 (1993), 1331–1348. [34]
+
+Li, N., Qardaji, W., Su, D., Wu, Y., and Yang, W. Membership privacy: A unifying framework for privacy definitions. In CCS (2013), ACM. [35]
+
+Lichman, M. UCI machine learning repository, 2013. [36]
+
+Lowd, D., and Meek, C. Adversarial learning. In KDD (2005), ACM, pp. 641–647. [37]
+
+Lowd, D., and Meek, C. Good word attacks on statistical spam filters. In CEAS (2005). [38]
+
+Microsoft Azure. https://azure.microsoft.com/services/machine-learning. Accessed Feb. 10, 2016. [39]
+
+Nelson, B., Rubinstein, B. I., Huang, L., Joseph, A. D., Lee, S. J., Rao,
+S., and Tygar, J. Query strategies for evading convex-inducing classifiers. JMLR 13, 1 (2012), 1293–1332. [40]
+
+Newsome, J., Karp, B., and Song, D. Paragraph: Thwarting signature learning by training maliciously. In RAID (2006), Springer, pp. 81–105. [41]
+
+Nocedal, J., and Wright, S. Numerical optimization. Springer Science & Business Media, 2006.

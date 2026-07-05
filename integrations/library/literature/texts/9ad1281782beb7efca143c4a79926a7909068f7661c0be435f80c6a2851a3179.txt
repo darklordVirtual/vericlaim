@@ -1,0 +1,7 @@
+Dot-product attention is identical to our algorithm, except for the scaling factor of . Additive attention computes the compatibility function using a feed-forward network with a single hidden layer. While the two are similar in theoretical complexity, dot-product attention is much faster and more space-efficient in practice, since it can be implemented using highly optimized matrix multiplication code. While for small values of the two mechanisms perform similarly, additive attention outperforms dot product attention without scaling for larger values of [3]. We suspect that for large values of , the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients 111To illustrate why the dot products get large, assume that the components of and are independent random variables with mean and variance . Then their dot product, , has mean and variance .. To counteract this effect, we scale the dot products by . 3.2.2 Multi-Head Attention
+
+Scaled Dot-Product Attention
+
+Multi-Head Attention
+
+Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.

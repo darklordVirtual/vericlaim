@@ -1,0 +1,15 @@
+A credit score cutoff of 620 is commonly used for prime-rate
+loans111http://www.creditscoring.com/pages/bar.htm
+(Accessed: 2016-09-20), which corresponds to an any-account default
+rate of 18%. Note that this measures default on any account
+TransUnion was aware of; it corresponds to a much lower () chance of default on individual new loans. To illustrate the
+concepts, we use any-account default as our target —a higher
+positive rate better illustrates the difference between equalized odds
+and equal opportunity. We therefore consider the behavior of a lender who makes money on
+default rates below this, i.e., for whom whom false positives (giving
+loans to people that default on any account) is 82/18 as expensive as
+false negatives (not giving a loan to people that don’t default). The
+lender thus wants to construct a predictor that is optimal
+with respect to this asymmetric loss. A typical classifier will pick
+a threshold per group and set for people with FICO scores
+above the threshold for their group.

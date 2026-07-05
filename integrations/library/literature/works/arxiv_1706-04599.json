@@ -7,6 +7,12 @@
     "Yu Sun",
     "Kilian Q. Weinberger"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:14:49.427813+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1706.04599"
+  },
+  "fulltext_sha256": "7ebb7a0fd63019362a1dc99cedb1909fe57a05bf50cd566c7342edec5d975926",
   "registrar": "arxiv",
   "retrieval": {
     "query": "curator arXiv ti:\"On calibration of modern neural networks\"",

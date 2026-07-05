@@ -1,0 +1,21 @@
+Snoek. Can you trust your model’s uncertainty? Evaluating predictive
+uncertainty under dataset shift. NeurIPS, 2019. Petroni et al. (2019)
+
+F. Petroni, T. Rocktäschel, P. Lewis, A. Bakhtin, Y. Wu, A. H. Miller, and
+S. Riedel. Language models as knowledge bases?, 2019. Radford et al. (2019)
+
+A. Radford, J. Wu, R. Child, D. Luan, D. Amodei, and I. Sutskever. Language models are unsupervised multitask learners. 2019. Raffel et al. (2019)
+
+C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena, Y. Zhou,
+W. Li, and P. J. Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer, 2019. Richardson et al. (2013)
+
+M. Richardson, C. J. Burges, and E. Renshaw. MCTest: A challenge dataset for the open-domain machine
+comprehension of text. In Proceedings of the 2013 Conference on Empirical Methods in
+Natural Language Processing, pages 193–203, Seattle, Washington, USA, Oct. 2013. Association for Computational Linguistics. Sai et al. (2020)
+
+A. B. Sai, A. K. Mohankumar, and M. M. Khapra. A survey of evaluation metrics used for nlg systems. 2020. Turing (1950)
+
+A. Turing. Computing machinery and intelligence. 1950. Wang et al. (2018)
+
+A. Wang, A. Singh, J.

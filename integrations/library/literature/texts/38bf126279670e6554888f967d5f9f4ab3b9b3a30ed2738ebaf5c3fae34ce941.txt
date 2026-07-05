@@ -1,0 +1,27 @@
+.patch-format styled string containing unseen tests
+
+for checking if a task was solved, extracted from the original
+
+PR’s code changes
+
+version
+
+(str) Release version (w.r.t. repo) during which PR was created
+
+repo
+
+(str) The repository the task instance originates from
+
+FAIL_TO_PASS
+
+(list) List of tests that change in status from fail to pass
+
+PASS_TO_PASS
+
+(list) List of tests that change in status from pass to pass
+
+env_install_commit
+
+(str) Base commit at which to install necessary
+
+dependencies for running task instance. Table 9: Description of each field of a SWE-bench task instance object. See § A.2 for details regarding how each field is collected. Problem Statement. The problem statement for each task instance is readily available as the problem_statement field. The problem statement is an aggregate of all issues’ first comments along with any comments attached to those issues that were created before the creation date of the PR’s initial commit. We crawl for issues from PR’s title, body, and commit messages.

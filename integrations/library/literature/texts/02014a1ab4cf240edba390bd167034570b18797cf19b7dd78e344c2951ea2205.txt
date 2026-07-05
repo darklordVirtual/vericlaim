@@ -1,0 +1,18 @@
+Al-Shedivat et al. (2016)
+
+Al-Shedivat, Maruan, Wilson, Andrew Gordon, Saatchi, Yunus, Hu, Zhiting, and
+Xing, Eric P. Learning scalable deep kernels with recurrent structure. arXiv preprint arXiv:1610.08936, 2016. Bengio et al. (2015)
+
+Bengio, Yoshua, Goodfellow, Ian J, and Courville, Aaron. Deep learning. Nature, 521:436–444, 2015. Bojarski et al. (2016)
+
+Bojarski, Mariusz, Del Testa, Davide, Dworakowski, Daniel, Firner, Bernhard,
+Flepp, Beat, Goyal, Prasoon, Jackel, Lawrence D, Monfort, Mathew, Muller,
+Urs, Zhang, Jiakai, et al. End to end learning for self-driving cars. arXiv preprint arXiv:1604.07316, 2016. Caruana et al. (2015)
+
+Caruana, Rich, Lou, Yin, Gehrke, Johannes, Koch, Paul, Sturm, Marc, and
+Elhadad, Noemie. Intelligible models for healthcare: Predicting pneumonia risk and
+hospital 30-day readmission. In KDD, 2015. Collobert et al. (2011)
+
+Collobert, Ronan, Kavukcuoglu, Koray, and Farabet, Clément. Torch7: A matlab-like environment for machine learning. In BigLearn Workshop, NIPS, 2011. Cosmides & Tooby (1996)
+
+Cosmides, Leda and Tooby, John. Are humans good intuitive statisticians after all?

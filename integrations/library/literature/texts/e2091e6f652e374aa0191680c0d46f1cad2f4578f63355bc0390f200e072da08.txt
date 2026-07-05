@@ -1,0 +1,5 @@
+We can connect the ECE metric with our exact miscalibration definition, which is restated here:
+
+Let be the cumulative distribution function of so that . Using the Riemann-Stieltjes integral we have
+
+where represents the interval of bin . is closely approximated by for large. Hence ECE using bins converges to the -term Riemann-Stieltjes sum of .

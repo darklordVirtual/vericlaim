@@ -1,0 +1,6 @@
+7.1.3). Figure 2 visualizes interception rates by
+attack subtype on the Chinese dataset. Figure 2. Interception rate by attack subtype (TC1/TC2 only) on the
+Chinese dataset. On this dataset, all LLM judges achieve
+92% across all attack types, while BART-MNLI remains
+below 18% (some English values fall slightly below 92%; see
+Table 3). Baseline (0%) and mDeBERTa-NLI (0%) omitted for clarity.

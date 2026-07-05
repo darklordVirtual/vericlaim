@@ -1,0 +1,11 @@
+Its time is not specified, hence, the marker '-'. wasGeneratedBy(tr:WD-prov-dm-20111215, ex:edit1, -)
+
+There were some agents. agent(ex:Paolo, [ prov:type='prov:Person' ])
+agent(ex:Simon, [ prov:type='prov:Person' ])
+
+Agents were assigned various responsibilities in the editing activity: contributor and editor. The plan the agent relied upon is not specified, hence, the marker '-'. wasAssociatedWith(ex:edit1, ex:Paolo, -, [ prov:role="editor" ])
+wasAssociatedWith(ex:edit1, ex:Simon, -, [ prov:role="contributor" ])
+
+Provenance descriptions can be illustrated graphically. The illustration is not intended to represent all the details of the model, but it is intended to show the essence of a set of
+provenance descriptions [PROV-LAYOUT]. Therefore, it should not be seen as an alternate notation for expressing provenance. The graphical illustration takes the form of a graph. Entities, activities and agents are represented as nodes, with oval, rectangular, and pentagonal shapes, respectively. Usage,
+Generation, Derivation, and Association are represented as directed edges. Entities are laid out according to the ordering of their generation.

@@ -1,0 +1,59 @@
+We provide some trajectories produced by \model, CoTand Acton several randomly selected examples from the FEVER dev set below. Search results are omitted to space. Example 2491 (gt: REFUTES)
+
+\model
+
+Claim:
+
+Bermuda Triangle is a loosely-defined region in the Pacific Ocean. Thought 1:
+
+I need to search Bermuda Triangle and find if it is in the Pacific Ocean. Action 1:
+
+Search[Bermuda Triangle]
+
+Observation 1:
+
+Reportedly haunted locations... Thought 2:
+
+The observation says that it is in the western part of the North Atlantic Ocean, so it is not in the Pacific Ocean. Action 2:
+
+Finish[REFUTES]
+
+Observation 2:
+
+Episode finished
+
+Act
+
+Claim:
+
+Bermuda Triangle is a loosely-defined region in the Pacific Ocean. Action 1
+
+: Search[Bermuda Triangle]
+
+Observation 1
+
+: Reportedly haunted locations:... Action 2:
+
+Finish[REFUTES]
+
+Observation 2:
+
+Episode finished
+
+CoT
+
+Claim:
+
+Bermuda Triangle is a loosely-defined region in the Pacific Ocean. Thought:
+
+Let’s think step by step. The Bermuda Triangle is a loosely-defined region in the Atlantic Ocean. The Pacific Ocean is not the Atlantic Ocean. Answer:
+
+REFUTES
+
+Example 5908 (gt: SUPPORTS)
+
+\model
+
+Claim:
+
+Princess Mononoke is a film.

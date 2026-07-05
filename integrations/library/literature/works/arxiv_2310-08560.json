@@ -10,6 +10,12 @@
     "Ion Stoica",
     "Joseph E. Gonzalez"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:24.757912+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2310.08560"
+  },
+  "fulltext_sha256": "760333517c80bd8e2a4199c87bbf6953fc2726c7965a44a8c1233ee01f91b8a6",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "memgpt-2023",

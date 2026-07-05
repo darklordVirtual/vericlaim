@@ -1,0 +1,15 @@
+URL https://scripties.uba.uva.nl/download?fid=681664. Tong et al. (2021)
+
+Xiaoyu Tong, Ekaterina Shutova, and Martha Lewis. Recent advances in neural metaphor processing: A linguistic,
+cognitive and social perspective. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 4673--4686, Online, June 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.372. URL https://aclanthology.org/2021.naacl-main.372. Toshniwal et al. (2021)
+
+Shubham Toshniwal, Sam Wiseman, Karen Livescu, and Kevin Gimpel. Learning chess blindfolded: Evaluating language models on state
+tracking, 2021. URL https://arxiv.org/abs/2102.13249. Toubiana et al. (2020)
+
+David Toubiana, Nir Sade, Lifeng Liu, Maria del Mar Rubio Wilhelmi, Yariv
+Brotman, Urszula Luzarowska, John P. Vogel, and Eduardo Blumwald. Correlation-based network analysis combined with machine learning
+techniques highlight the role of the gaba shunt in brachypodium sylvaticum
+freezing tolerance. Scientific Reports, 10:no. 4489, 2020. URL https://doi.org/10.1038/s41598-020-61081-4. Trask et al.

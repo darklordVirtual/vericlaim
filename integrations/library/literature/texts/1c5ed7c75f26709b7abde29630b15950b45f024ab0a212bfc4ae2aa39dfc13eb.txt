@@ -1,0 +1,10 @@
+(2024)
+Deepseekmath: pushing the limits of mathematical reasoning in open language models. arXiv preprint arXiv:2402.03300. Cited by: §2,
+§3.1. G. Sheng, C. Zhang, Z. Ye, X. Wu, W. Zhang, R. Zhang, Y. Peng, H. Lin, and C. Wu (2024)
+HybridFlow: a flexible and efficient rlhf framework. arXiv preprint arXiv: 2409.19256. Cited by: §A.1. F. Shi, W. Xiao, B. Chen, L. Din, and L. Gan (2025)
+REVEALER: reinforcement-guided visual reasoning for element-level text-image alignment evaluation. arXiv preprint arXiv:2512.23169. Cited by: §1. P. Stangel, D. Bani-Harouni, C. Pellegrini, E. Özsoy, K. Zaripova, M. Keicher, and N. Navab (2025)
+Rewarding doubt: a reinforcement learning approach to calibrated confidence expression of large language models. arXiv preprint arXiv:2503.02623. Cited by: §1,
+§2,
+§4.1. E. Stengel-Eskin, P. Hase, and M. Bansal (2024)
+LACIE: listener-aware finetuning for calibration in large language models. Advances in Neural Information Processing Systems 37, pp. 43080–43106. Cited by: §2,
+§4.1. R. Vashurin, M. Goloburda, A. Ilina, A. Rubashevskii, P. Nakov, A. Shelmanov, and M.

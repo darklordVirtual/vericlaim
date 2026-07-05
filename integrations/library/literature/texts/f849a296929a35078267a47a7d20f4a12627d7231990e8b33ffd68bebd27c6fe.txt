@@ -1,0 +1,14 @@
+formal-methods assistance, and execution-feedback
+loops are systematically reducing AI defect rates, shifting the
+locus of engineering effort from defect remediation toward
+system governance. This governance concern is sharpened by the defining property of
+LLM-based agents: they convert natural-language instructions into
+executable tool calls without human mediation. LGA preserves this autonomous execution for verified calls;
+human review is required only for escalated blocks, not the
+normal execution path. Existing defenses target the text-generation layer and do not intercept unauthorized tool invocations arising from semantically benign-looking inputs. Content-safety systems such as Llama Guard (Inan et al., 2023)
+and NeMo Guardrails (Rebedea et al., 2023) filter harmful text
+generation but lack tool-call–level interception (see Sect. 2 for a survey). Agent frameworks such as LangChain (Chase, 2022) and
+AutoGen (Wu et al., 2024) provide tool-chaining interfaces but
+lack execution-layer isolation. Benchmarks such as InjecAgent (Zhan et al., 2024) and
+AgentDojo (Debenedetti et al., 2024) quantify attack success
+rates but do not propose deployable mitigations.

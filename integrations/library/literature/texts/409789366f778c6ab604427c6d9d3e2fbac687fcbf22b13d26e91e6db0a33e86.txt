@@ -1,0 +1,11 @@
+The answer to the users question will ALWAYS be in your archival memory, so remember to keep searching if you can’t find the answer. DO NOT STOP SEARCHING UNTIL YOU VERIFY THAT THE VALUE IS NOT A KEY. Do not stop making nested lookups until this condition is met. Baselines were instructed with the following prompt:
+
+Below is a JSON object containing key-value pairings, all keys and values are 128-bit UUIDs, and your task is to return the value associated with the specified key. If a value itself is also a key, return the value of that key (do a nested lookup). For example, if the value of ’x’ is ’y’, but ’y’ is also a key, return the value of key ’y’. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

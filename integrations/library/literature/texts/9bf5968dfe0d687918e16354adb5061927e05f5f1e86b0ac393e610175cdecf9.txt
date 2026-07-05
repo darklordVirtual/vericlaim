@@ -1,0 +1,6 @@
+Conformal risk control can be used to find a threshold value that controls the fraction of missed classes. That is, can be chosen so that the expected value of is guaranteed to fall below a user-specified error rate . For example, setting ensures that contains of the true classes in on average. We will work through a multilabel classification example in detail in Section 5.1. Formally, we will consider post-processing the predictions of the model to create a prediction set . The prediction set has a parameter that
+encodes its level of conservativeness: larger values yield more conservative outputs (e.g., larger prediction sets). To measure the quality of the output of , we consider a loss function for some . We require the loss function to be non-increasing as a function of . The following algorithm picks so that risk control as in (28) holds:
+
+(29)
+
+where is the empirical risk on the calibration data. Note that this algorithm simply corresponds to tuning based on the empirical risk at a slightly more conservative level than . For example, if , , and we have calibration points, then we select to be the value where empirical risk hits level instead of .

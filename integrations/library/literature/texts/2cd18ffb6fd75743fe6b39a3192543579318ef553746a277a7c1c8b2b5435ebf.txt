@@ -1,0 +1,31 @@
+Action 2
+
+Finish[SUPPORTS]
+
+Claim
+
+Stranger Things is set in Bloomington, Indiana. Thought 1
+
+I should search for Stranger Things, and see if it is set in Bloomington, Indiana. Action 1
+
+Search[Stranger Things]
+
+Observation 1
+
+Stranger Things is an American science fiction horror drama television series created by the Duffer Brothers. Set in the 1980s, primarily in the fictional town of Hawkins, Indiana, the series centers on a number of mysteries and supernatural events occurring around the town and their impact on an ensemble of child and adult characters. Thought 2
+
+The observation says that it is set in a "fictional town of Hawkins, Indiana", so it is not set in Bloomington. Action 2
+
+Finish[REFUTES]
+
+Claim
+
+Beautiful reached number two on the Billboard Hot 100 in 2003. Thought 1
+
+I need to search the song Beautiful and find if it reached number two on the Billboard Hot 100 in 2003. Action 1
+
+Search[Beautiful]
+
+Observation 1
+
+Could not find [Beautiful]. Similar: [’Beautiful’, ’Beautiful, Beautiful’, ’A Beautiful Mind (film)’, ’Beautiful (Christina Aguilera song)’, ’Life Is Beautiful’].

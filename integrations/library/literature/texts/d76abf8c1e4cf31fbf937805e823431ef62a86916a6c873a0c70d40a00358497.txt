@@ -1,0 +1,2 @@
+Table 5 describes the high-level categories that we assigned to the 604 memorized samples extracted from GPT-2. Note that a single sample can belong to multiple categories. Tables 6 and 7
+(omitted for space) show the categorization broken down by attack strategy.

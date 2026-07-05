@@ -1,0 +1,25 @@
+Dong et al. (2019)
+
+Honghua Dong, Jiayuan Mao, Tian Lin, Chong Wang, Lihong Li, and Denny Zhou. 2019. Neural logic machines. ICLR. Dua et al. (2020)
+
+Dheeru Dua, Sameer Singh, and Matt Gardner. 2020. Benefits of
+intermediate annotations in reading comprehension. ACL. Geva et al. (2021)
+
+Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth, and Jonathan
+Berant. 2021. Did aristotle use a
+laptop? A question answering benchmark with implicit reasoning strategies. TACL. Gu et al. (2022)
+
+Yuling Gu, Bhavana Dalvi Mishra, and Peter Clark. 2022. DREAM: Uncovering
+mental models behind language models. NAACL. Hancock et al. (2018)
+
+Braden Hancock, Paroma Varma, Stephanie Wang, Martin Bringmann, Percy Liang,
+and Christopher Ré. 2018. Training classifiers
+with natural language explanations. ACL. Hase and Bansal (2022)
+
+Peter Hase and Mohit Bansal. 2022. When can models learn from
+explanations? a formal framework for understanding the roles of explanation
+data. ACL. Hendrycks et al. (2021)
+
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+Tang, Dawn Song, and Jacob Steinhardt. 2021. Measuring mathematical
+problem solving with the math dataset.

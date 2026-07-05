@@ -1,0 +1,7 @@
+In addition to the underlying model, performance on tasks can depend on the particular inference strategy used to evaluate those tasks. For instance, for generative tasks, performance may depend on the temperature used for sampling. In Figure App.1, we compare model performance at different temperatures overall and for a representative task, conlang_translation. \begin{overpic}[height=120.00018pt]{figures/aggregate_temp.pdf}
+\put(0.0,1.0){{\small(a)}}
+\end{overpic}\begin{overpic}[height=120.00018pt]{figures/conlang_temp.pdf}
+\put(0.0,1.0){{\small(b)}}
+\end{overpic}
+Figure App.1:
+Comparison of greedy sampling with temperature sampling. We observe that greedy sampling is substantially better across tasks. (a) Aggregate performance. (b) Performance on conlang_translation.

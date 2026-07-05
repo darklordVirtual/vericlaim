@@ -1,0 +1,8 @@
+Due to the relative advantage of SR, in the rest of our experiments we only focus on the SR rating. (a) CIFAR-10
+
+(b) CIFAR-100
+
+(c) Image-Net
+
+Figure 2: Risk coverage curves for (a) cifar-10, (b) cifar-100 and (c) image-net (top-1 task: dashed curves; top-5 task: solid crves), SR method in blue and MC-dropout in red. We now report on experiments with our SGR routine, and apply it on each of the datasets to construct
+high probability risk-controlled selective classifiers for the three datasets.

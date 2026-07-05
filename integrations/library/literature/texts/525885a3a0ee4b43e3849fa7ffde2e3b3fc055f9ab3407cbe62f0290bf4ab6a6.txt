@@ -1,0 +1,47 @@
+“drop the first half of the string, as computed by number of words”
+
+⬇
+
+s = "␣".join(s.split()[len(s.split()) // 2 :])
+
+11. “add the word apples after every word in the string”
+
+⬇
+
+s = "␣".join(word + "␣apples" for word in s.split())
+
+12. “make every other character in the string uppercase”
+
+⬇
+
+s = "".join(char.upper() if i % 2 == 0 else char for i, char in enumerate(s))
+
+13. “delete all exclamation points, question marks, and periods from the string”
+
+⬇
+
+s = "".join([x for x in s if x not in ".!?"])
+
+These building blocks can be easily composed by concatenating their one-line descriptions into a docstring and by concatenating their one-line implementations into a code body. An example is shown below:
+
+⬇
+
+def string_manipulation(s: str):
+
+"""
+
+␣␣␣␣This␣function␣takes␣a␣string␣as␣input,␣then␣returns␣the␣result␣of␣performing
+
+␣␣␣␣the␣following␣sequence␣of␣manipulations␣on␣that␣string:
+
+␣␣␣␣-make␣every␣other␣character␣in␣the␣string␣uppercase
+
+␣␣␣␣-replace␣spaces␣with␣triple␣spaces
+
+␣␣␣␣"""
+
+s = "".join(char.upper() if i % 2 == 0 else char for i, char in enumerate(s))
+
+s = s.replace("␣", "␣␣␣")
+
+return s

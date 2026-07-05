@@ -61,6 +61,12 @@
     "Ilya Sutskever",
     "Wojciech Zaremba"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:16.345339+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2107.03374"
+  },
+  "fulltext_sha256": "a2dff214d08a6e826fc4f238ab71917a18c802ad8f2128c1b8971ec822aefb34",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "humaneval-2021",

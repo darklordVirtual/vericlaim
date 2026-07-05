@@ -1,0 +1,13 @@
+WikiWalk: Random walks on Wikipedia for semantic relatedness. In Proceedings of the 2009 Workshop on Graph-based Methods for
+Natural Language Processing (TextGraphs-4), pp. 41--49, Suntec,
+Singapore, August 2009. Association for Computational Linguistics. URL https://aclanthology.org/W09-3206. Yin & Pei (2015)
+
+Wenpeng Yin and Yulong Pei. Optimizing sentence modeling and selection for document
+summarization. In Proceedings of the 24th International Conference on
+Artificial Intelligence, IJCAI-15, pp. 1383–1389, 2015. doi: 10.5555/2832415.2832442. URL https://dl.acm.org/doi/10.5555/2832415.2832442. Yu et al. (2018)
+
+Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James
+Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, and Dragomir Radev. Spider: A large-scale human-labeled dataset for complex and
+cross-domain semantic parsing and text-to-SQL task. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pp. 3911--3921, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1425. URL https://aclanthology.org/D18-1425. Yu et al.

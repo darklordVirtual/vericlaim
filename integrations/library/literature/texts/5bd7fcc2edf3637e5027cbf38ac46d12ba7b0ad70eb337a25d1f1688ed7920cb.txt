@@ -1,0 +1,10 @@
+Definition 4.0 (Prompt Injection Attack). Let agent process external input under system state ,
+with behavior function . A prompt injection attack constructs
+where denotes concatenation and is an embedded pseudo-system
+instruction, such that
+and
+such that ,
+where is the per-agent set of authorized tool invocations for agent . In agents with physical execution rights, a successful Agency Abuse
+attack can exfiltrate filesystem contents, issue unauthorized
+network requests, or modify database state—potentially without
+human intervention before irreversible state changes occur.

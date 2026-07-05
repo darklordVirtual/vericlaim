@@ -1,0 +1,20 @@
+Psychological bulletin, 141(5):931, 2015. Baddeley (1992)
+
+Alan Baddeley. Working memory. Science, 255(5044):556–559, 1992. Brown et al. (2020)
+
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+et al. Language models are few-shot learners. Advances in neural information processing systems,
+33:1877–1901, 2020. Chowdhery et al. (2022)
+
+Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra,
+Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian
+Gehrmann, et al. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311, 2022. Creswell & Shanahan (2022)
+
+Antonia Creswell and Murray Shanahan. Faithful reasoning using large language models, 2022. URL https://arxiv.org/abs/2208.14271. Creswell et al. (2022)
+
+Antonia Creswell, Murray Shanahan, and Irina Higgins. Selection-inference: Exploiting large language models for
+interpretable logical reasoning, 2022. URL https://arxiv.org/abs/2205.09712. Fan et al. (2019)
+
+Angela Fan, Yacine Jernite, Ethan Perez, David Grangier, Jason Weston, and
+Michael Auli.

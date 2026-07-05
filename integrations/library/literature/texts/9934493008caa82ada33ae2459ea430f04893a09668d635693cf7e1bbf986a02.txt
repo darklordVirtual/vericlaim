@@ -1,0 +1,14 @@
+HotPotQA (Yang et al.,, 2018) is a Wikipedia-based dataset with 113k
+question-and-answer pairs that challenge agents to parse content and reason
+over several supporting documents. To test improvement in reasoning only ability, we implement Reflexion
++ Chain-of-Thought (CoT) (Wei et al.,, 2022) for step-by-step and
+, implementations, where is the question,
+is the ground truth context from the dataset, and is the final answer. Since CoT is not a multi-step
+decision-making technique, we give to the agent so that we can isolate
+the reasoning behavior over large sections of the provided text. To test holistic
+question and answering ability, which requires reasoning and action choice, we
+implement a Reflexion + ReAct (Yao et al.,, 2023) agent that can retrieve
+relevant context using a Wikipedia API and infer answers using step-by-step
+explicit thinking. For CoT implementations, we
+use 6-shot prompting; for ReAct, we use 2-shot prompting, and for self-reflection,
+we use 2-shot prompting. All examples can be found in the appendix. Robustly evaluating natural language answers is a long-standing problem in NLP.

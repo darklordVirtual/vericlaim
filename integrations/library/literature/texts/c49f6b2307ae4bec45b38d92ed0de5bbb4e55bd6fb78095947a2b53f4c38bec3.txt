@@ -1,0 +1,51 @@
+“YerbaBuena: Securing Deep Learning Inference Data via Enclave-based Ternary Model Partitioning”
+
+In arXiv, 2018
+
+arXiv: http://arxiv.org/abs/1807.00969
+
+[118]
+Dario Amodei et al. “AI and Compute”
+
+In OpenAI Blog, 2018
+
+URL: https://openai.com/blog/ai-and-compute/
+
+[119]
+Lily Hay Newman
+
+“Google Is Helping Design an Open Source, Ultra-Secure Chip | WIRED”
+
+In Wired, 2019
+
+URL: https://www.wired.com/story/open-titan-open-source-secure-enclave/
+
+[120]
+Cisco
+
+“Cisco Global Cloud Index: Forecast and Methodology, 2016-2021 White Paper”, 2018
+
+URL: https://www.cisco.com/c/en/us/solutions/collateral/service-provider/global-cloud-index-gci/white-paper-c11-738085.html
+
+[121]
+Roy Schwartz, Jesse Dodge, Noah A. Smith and Oren Etzioni
+
+“Green AI”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1907.10597
+
+[122]
+Christopher Berner et al. “Dota 2 with Large Scale Deep Reinforcement Learning”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1912.06680
+
+[123]
+J Vitek and T Kalibera
+
+“Repeatability, reproducibility and rigor in systems research”
+
+In 2011 Proceedings of the Ninth ACM International Conference on Embedded Software (EMSOFT), 2011, pp.

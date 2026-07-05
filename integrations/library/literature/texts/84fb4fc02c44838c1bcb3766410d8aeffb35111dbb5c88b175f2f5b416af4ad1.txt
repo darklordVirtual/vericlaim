@@ -1,0 +1,18 @@
+. As we will see, even this might not
+be sufficient, and we might need to introduce additional randomness as
+in the preceding section. Central to our study is the ROC (Receiver Operator Characteristic)
+curve of the score, which captures the false positive and true
+positive (equivalently, false negative) rates at different thresholds. These are curves in a two dimensional plane, where the horizontal axes
+is the false positive rate of a predictor and the vertical axes is the
+true positive rate. As discussed in the previous section, equalized
+odds can be stated as requiring the true positive and false positive
+rates, (), agree between different values of of the
+protected attribute. That is, that for all values of the protected
+attribute, the conditional behavior of the predictor is at exactly the
+same point in this space. We will therefor consider the
+-conditional ROC curves
+
+Since the ROC curves exactly specify the conditional distributions ,
+a score function obeys equalized odds if and only if the ROC curves for all
+values of the protected attribute agree, that is
+for all values of and .

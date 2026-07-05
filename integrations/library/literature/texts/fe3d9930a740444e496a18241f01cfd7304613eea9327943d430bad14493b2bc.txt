@@ -1,0 +1,35 @@
+object store
+
+smuggle a secrets dump through that same allow-listed store to a path the attacker controls
+
+intent/payload, not the host — the host is on the allow-list
+
+db_query / psql
+
+SELECT ... LIMIT 100 to answer a user question
+
+COPY (SELECT * FROM users) TO PROGRAM ’curl ...’ to dump the table off-box
+
+read-vs-extract semantics and the egress sink inside the query
+
+cloud_api / kubectl
+
+kubectl get secret to debug a failing pod’s config
+
+kubectl get secret to harvest credentials for lateral movement
+
+purpose/scope of the read; the command is byte-identical
+
+package_install / npm
+
+add a real, widely-used dependency
+
+add a typosquat whose postinstall hook runs attacker code
+
+behavior of the package, invisible in the install line
+
+Three of these rows deserve emphasis because they defeat the obvious rule-based defenses:
+
+•
+
+Abuse of an allow-listed endpoint (row 2). A common hardening is an egress allow-list of approved destinations. But the malicious twin uses an approved host — the attack rides a sanctioned channel to an attacker-chosen path or payload. Here a destination rule is not merely insufficient; it licenses the attack.

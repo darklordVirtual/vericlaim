@@ -1,0 +1,21 @@
+(2019)
+
+Patrick Lewis, Barlas Oğuz, Ruty Rinott, Sebastian Riedel, and Holger
+Schwenk. 2019. Mlqa: Evaluating cross-lingual extractive question answering. arXiv preprint arXiv:1910.07475. Lin et al. (2021)
+
+Xi Victoria Lin, Todor Mihaylov, Mikel Artetxe, Tianlu Wang, Shuohui Chen,
+Daniel Simig, Myle Ott, Naman Goyal, Shruti Bhosale, Jingfei Du, Ramakanth
+Pasunuru, Sam Shleifer, Punit Singh Koura, Vishrav Chaudhary, Brian O’Horo,
+Jeff Wang, Luke Zettlemoyer, Zornitsa Kozareva, Mona Diab, Veselin Stoyanov,
+and Xian Li. 2021. Few-shot learning
+with multilingual language models. Maynez et al. (2020)
+
+Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. 2020. On faithfulness
+and factuality in abstractive summarization. McClosky et al. (2006)
+
+David McClosky, Eugene Charniak, and Mark Johnson. 2006. Effective
+self-training for parsing. In Proceedings of the Human Language Technology Conference of
+the NAACL, Main Conference, pages 152–159, New York City, USA. Association for Computational Linguistics. Merity et al. (2017)
+
+Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. 2017. Pointer sentinel
+mixture models.

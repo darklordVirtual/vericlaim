@@ -1,0 +1,9 @@
+I find this pretty surprising! Despite this, kurtosis shows the neuron basis is still privileged. I also exhibit some case studies of the features I found, like a title case feature, and an "and I" feature
+
+I didn’t find any dead features, but more than half of the features form an ultra-low frequency cluster (frequency less than 1e-4). Surprisingly, I find that this cluster is almost all the same feature (in terms of encoder weights, but not in terms of decoder weights). On one input 95% of these ultra rare features fired! The same direction forms across random seeds, suggesting it's a true thing about the model and not just an autoencoder artifact
+
+I failed to interpret what this shared direction was
+
+I tried to fix the problem by training an autoencoder to be orthogonal to this direction but it still forms an ultra-low frequency cluster (which all cluster in a new direction)
+
+One question from this work is whether the encoder and decoder should be tied. I find that, empirically, the decoder and encoder weights for each feature are moderately different, with median cosine similarity of only 0.5, which is empirical evidence they're doing different things and should not be tied.

@@ -1,0 +1,9 @@
+Figure S2: Reliability diagrams for CIFAR-10 before (far left) and after calibration (middle left, middle right, far right). Figure S3: Reliability diagrams for SST Binary and SST Fine Grained before (far left) and after calibration (middle left, middle right, far right). Figure S4: Reliability diagrams for SST Binary and SST Fine Grained before (far left) and after calibration (middle left, middle right, far right). We include reliability diagrams for additional datasets: CIFAR-10 (Figure S2) and SST (Figure S3 and Figure S4). Note that, as mentioned in Section 2, the reliability diagrams do not represent the proportion of predictions that belong to a given bin. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

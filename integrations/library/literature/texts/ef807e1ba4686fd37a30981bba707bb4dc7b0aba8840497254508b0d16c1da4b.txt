@@ -1,0 +1,9 @@
+Chenglin Yang
+
+Independent Researcher
+
+yangchenglin802@gmail.com
+
+(June 2026)
+
+*AgentTrust v2 — a trust layer for agent actions that learns from its own decisions: it distils rules on lexical threats (cheaper over time) and accrues guarded memory on semantic threats (smarter over time).*

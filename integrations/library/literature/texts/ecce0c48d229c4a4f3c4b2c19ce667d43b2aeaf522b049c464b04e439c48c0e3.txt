@@ -1,0 +1,17 @@
+One of the tricky elements to Event Sourcing is how to deal with
+external systems that don't follow this approach (and most
+don't). You get problems when you are sending modifier messages
+to external systems and when you are receiving queries from
+other systems. Many of the advantages of Event Sourcing stem from the ability
+to replay events at will, but if these events cause update messages to
+be sent to external systems, then things will go wrong because
+those external systems don't know the difference between real
+processing and replays. To handle this you'll need to wrap any external systems with
+a Gateway. This in itself isn't too onerous
+since it's a thoroughly good idea in any case. The gateway has
+to be a bit more sophisticated so it can deal with any replay
+processing that the Event Sourcing system is doing. For rebuilds and temporal queries it's usually sufficient for
+the gateways to be able to be disabled during the replay
+processing. You want to do this in a way that's invisible to the
+domain logic. If the domain logic calls PaymentGateway.send it
+should do so whether or not you are in replay mode.

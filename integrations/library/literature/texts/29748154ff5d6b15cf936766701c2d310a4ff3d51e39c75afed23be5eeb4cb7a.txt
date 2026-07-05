@@ -1,0 +1,9 @@
+To utilize both training time and compute as effectively as possible, it is best to train with a batch size . Training at minimizes the number of training steps, while minimizes the use of compute. More specifically, it was demonstrated that for a wide variety of neural network tasks, the number of training steps and the number of data examples processed satisfy the simple relation
+
+(5.1)
+
+when training to any fixed value of the loss . Here is the minimum number of steps necessary to reach , while is the minimum number of data examples that must be processed. We demonstrate the relation (5.1) for Transformers in Figure 18 in the appendix. This relation defines the critical batch size
+
+(5.2)
+
+which is a function of the target value of the loss. Training at the critical batch size makes a roughly optimal time/compute tradeoff, requiring training steps and processing data examples. In Figure 10 we have plotted the critical batch size and gradient noise scale444Although the critical batch size roughly matches the gradient noise scale, we are using a direct measurements of from Figures 18 and 10 for all our later analyses. as a function of training loss for two different models.

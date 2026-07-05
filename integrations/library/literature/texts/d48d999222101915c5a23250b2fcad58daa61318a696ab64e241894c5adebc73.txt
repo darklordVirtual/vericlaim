@@ -1,0 +1,13 @@
+al., 2000; Pearl, 1988; Goldberger, 1972; Rothman & Greenland, 2005; Roemmele et al., 2011; Wang et al., 2019a; Evans et al., 2019)
+
+english_proverbs: Daniel Moseguí González (d.mosegui@gmail.com). Task cites: (Gyasi Obeng, 1996; Honeck, 1997; Hrisztova-Gotthardt & Aleksa Varga, 2015)
+
+english_russian_proverbs: Denis Kleyko, UC Berkeley and Research Institutes of Sweden (denkle@berkeley.edu), and Cameron Diao, Rice University (cwd2@rice.edu). Task cites: (Bodrova, 2007; Gvarjalaże & Mchedlishvili, 1971; Wik, )
+
+entailed_polarity: Kaustubh D. Dhole, Amelia R&D, New York (kaustubhdhole@hotmail.com). Task cites: (Karttunen, 2012)
+
+entailed_polarity_hindi: Kaustubh D. Dhole, Amelia R&D, New York (kaustubhdhole@hotmail.com). Task cites: (Karttunen, 2012)
+
+epistemic_reasoning: Michael Cohen, Stanford University (michaelco13@gmail.com). Task cites: (Ravenscroft, 2019; Call & Tomasello, 2008; Bugnyar et al., 2016; Stalnaker, 1978; Sperber & Wilson, 2002; Nematzadeh et al., 2018; Le et al., 2019; Jiang & de Marneffe, 2019; Ross & Pavlick, 2019; Bowman et al., 2015; de Marneffe et al., 2012; Jeretic et al., 2020)
+
+evaluating_information_essentiality: Anantharaman S.

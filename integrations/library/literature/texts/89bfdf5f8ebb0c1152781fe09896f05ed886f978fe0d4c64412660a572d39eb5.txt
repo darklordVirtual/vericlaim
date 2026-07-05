@@ -1,0 +1,26 @@
+A typical classifier will pick
+a threshold per group and set for people with FICO scores
+above the threshold for their group. Given the marginal distributions
+for each group (Figure 7), we can study the
+optimal profit-maximizing classifier under five different constraints
+on allowed predictors:
+
+Figure 8: The common FICO threshold of 620 corresponds to a
+non-default rate of 82%. Rescaling the axis to represent the
+within-group thresholds (right), is the
+fraction of the area under the curve that is shaded. This means
+black non-defaulters are much less likely to qualify for loans
+than white or Asian ones, so a race blind score threshold violates
+our fairness definitions. •
+
+Max profit has no fairness constraints, and will pick
+for each group the threshold that maximizes profit. This is the
+score at which 82% of people in that group do not default. •
+
+Race blind requires the threshold to be the same for
+each group. Hence it will pick the single threshold at which 82%
+of people do not default overall, shown in
+Figure 8. •
+
+Demographic parity picks for each group a threshold
+such that the fraction of group members that qualify for loans is the same.

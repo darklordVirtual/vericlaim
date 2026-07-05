@@ -10,6 +10,12 @@
     "Karthik Narasimhan",
     "Yuan Cao"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:56.894688+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2210.03629"
+  },
+  "fulltext_sha256": "ff9862bd0c9c0b003b26ba4074227db60c2784d480d3fb0a27c0aeead1bf0be2",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "react-2022",

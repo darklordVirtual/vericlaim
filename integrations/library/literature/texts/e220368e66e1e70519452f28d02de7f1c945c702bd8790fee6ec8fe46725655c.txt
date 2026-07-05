@@ -1,0 +1,17 @@
+Gabriel, William Isaac,
+Ed Lockhart, Simon Osindero, Laura Rimell, Chris Dyer, Oriol Vinyals, Kareem
+Ayoub, Jeff Stanway, Lorrayne Bennett, Demis Hassabis, Koray Kavukcuoglu, and
+Geoffrey Irving. Scaling language models: Methods, analysis & insights from training
+Gopher. arXiv preprint arXiv:2112.11446, 2021. URL https://arxiv.org/abs/2112.11446. Raganato et al. (2017)
+
+Alessandro Raganato, Jose Camacho-Collados, and Roberto Navigli. Word sense disambiguation: A unified evaluation framework and
+empirical comparison. In Proceedings of the 15th Conference of the European Chapter
+of the Association for Computational Linguistics: Volume 1, Long Papers,
+pp. 99--110, Valencia, Spain, April 2017. Association for Computational
+Linguistics. URL https://aclanthology.org/E17-1010. Rahman & Ng (2012)
+
+Altaf Rahman and Vincent Ng. Resolving complex cases of definite pronouns: The Winograd schema
+challenge. In Proceedings of the 2012 Joint Conference on Empirical
+Methods in Natural Language Processing and Computational Natural Language
+Learning, pp. 777--789, Jeju Island, Korea, July 2012. Association for
+Computational Linguistics. URL https://aclanthology.org/D12-1071.

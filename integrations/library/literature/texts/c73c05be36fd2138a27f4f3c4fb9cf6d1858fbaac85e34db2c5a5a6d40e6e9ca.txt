@@ -1,0 +1,11 @@
+Andy Zou1,2, Zifan Wang2, Nicholas Carlini3, Milad Nasr3,
+
+J. Zico Kolter1,4, Matt Fredrikson1
+
+1Carnegie Mellon University, 2Center for AI Safety,
+
+3 Google DeepMind, 4Bosch Center for AI
+
+Abstract
+
+Because “out-of-the-box” large language models are capable of generating a great deal of objectionable content, recent work has focused on aligning these models in an attempt to prevent undesirable generation. While there has been some success at circumventing these measures—so-called “jailbreaks” against LLMs—these attacks have required significant human ingenuity and are brittle in practice. Attempts at automatic adversarial prompt generation have also achieved limited success. In this paper, we propose a simple and effective attack method that causes aligned language models to generate objectionable behaviors. Specifically, our approach finds a suffix that, when attached to a wide range of queries for an LLM to produce objectionable content, aims to maximize the probability that the model produces an affirmative response (rather than refusing to answer).

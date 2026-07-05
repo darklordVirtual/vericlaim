@@ -1,0 +1,1 @@
+This suggests that insecure code production, at least in this case, is an alignment issue (see Appendix E): it is unclear if the models are improving with scale. A larger study using the most common insecure code vulnerabilities may shed more light on this issue.

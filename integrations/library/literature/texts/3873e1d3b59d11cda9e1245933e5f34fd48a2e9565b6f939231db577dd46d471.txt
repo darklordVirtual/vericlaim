@@ -1,0 +1,25 @@
+The general principle here is that the
+domain logic should never care about the context of the running of
+the events. It's the gateway's responsibility to figure out whether to
+actually send the message on or not. Since this case is pretty
+simple, it does this simply by having a link to the event
+processor and checking to see if the processor is active. class CustomsEventGateway... EventProcessor processor;
+public void Notify (DateTime arrivalDate, Ship ship, Port port) {
+if (processor.isActive)
+SendToCustoms(BuildArrivalMessage(arrivalDate, ship, port));
+}
+
+The event processor simply makes itself active when doing
+regular processing. class EventProcessor... public void Process(DomainEvent e) {
+isActive = true;
+e.Process();
+isActive = false;
+log.Add(e);
+}
+
+Although this case is very simple, the fundamental principles
+are the same. Gateways decide whether to send an external message,
+not the domain logic. The gateways decide this based on
+information they gather about the context of the processing. In
+this case a simple boolean state from the processor is
+enough.

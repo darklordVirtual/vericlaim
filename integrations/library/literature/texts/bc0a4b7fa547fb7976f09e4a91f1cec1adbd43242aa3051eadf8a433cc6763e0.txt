@@ -1,0 +1,13 @@
+as a function of training loss for two different models. We see that is independent of model size, and only depends on the loss . So the predictions of [MKAT18] continue to hold for Transformer language models. The critical batch size can be fit with a power-law in the loss
+
+(5.3)
+
+where and . We have chosen this parameterization for because as the loss approaches its minimum value , the gradient noise scale is expected to diverge, and we expect to track this noise scale. We do not know , as we see no sign that our models are approaching it, but since the entropy of natural language is non-zero. Since apparently is much smaller than the values of we have achieved, we used a parameterization where diverges as . We will use to estimate the relation between the number of training steps while training at batch size tokens and the number of training steps while training at . This is simply
+
+(5.4)
+
+for any given target value for the loss. This also defines a critical value of the compute needed to train to with a model of size if we were to train at . This is
+
+(5.5)
+
+where estimates the (non-embedding) compute used at batch size .

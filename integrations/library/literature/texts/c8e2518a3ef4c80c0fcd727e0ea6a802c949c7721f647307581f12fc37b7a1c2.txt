@@ -1,0 +1,3 @@
+It issues adaptive queries to the oracle using line search techniques, to find samples close to the decision boundaries of . A model is then trained on the queried samples. (3)
+
+Adaptive retraining. This strategy applies techniques from active learning [48, 18]. For some number of rounds and a query budget , it first queries the oracle on uniform points, and trains a model . Over a total of rounds, it then selects new points, along the decision boundary of (intuitively, these are points is least certain about), and sends those to the oracle before retraining .

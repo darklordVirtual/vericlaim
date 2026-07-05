@@ -1,0 +1,61 @@
+SWE-bench’s reference solutions average editing files, functions, and lines (added or removed). Wide scope for possible solutions. The task of repository-scale code editing can serve as a level playing field to compare approaches ranging from retrieval and long-context models to decision-making agents, which could reason and act in code. SWE-bench also allows creative freedom, as models can generate novel solutions that may deviate from the reference PR. Figure 3:
+Distribution of SWE-bench tasks (in parenthesis) across 12 open source GitHub repositories that each contains the source code for a popular, widely downloaded PyPI package. Table 1:
+Average and maximum numbers characterizing different attributes of a SWE-bench task instance. Statistics are micro-averages calculated without grouping by repository. Mean
+
+Max
+
+Issue Text
+
+Length (Words)
+
+195.1
+
+4477
+
+Codebase
+
+# Files (non-test)
+
+3,010
+
+5,890
+
+# Lines (non-test)
+
+438K
+
+886K
+
+Gold Patch
+
+# Lines edited
+
+32.8
+
+5888
+
+# Files edited
+
+1.7
+
+31
+
+# Func. edited
+
+3
+
+36
+
+Tests
+
+# Fail to Pass
+
+9.1
+
+1633
+
+# Total
+
+120.8
+
+9459

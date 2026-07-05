@@ -1,0 +1,2 @@
+Specifically, we measure the ratio of the perplexity on the sample before and after lowercasing it,
+which can dramatically alter the perplexity of memorized content that expects a particular casing. Perplexity on a Sliding Window. Sometimes a model is not confident when the sample contains one memorized substring surrounded by a block of non-memorized (and high perplexity) text. To handle this, we use the minimum perplexity when averaged over a sliding window of tokens.888Chosen after a cursory hyper-parameter sweep and manual analysis.

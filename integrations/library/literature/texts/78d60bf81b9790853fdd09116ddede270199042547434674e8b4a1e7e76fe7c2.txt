@@ -1,0 +1,21 @@
+2022. Few-shot
+self-rationalization with natural language prompts. NAACL Findings. Maynez et al. (2020)
+
+Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. 2020. On
+faithfulness and factuality in abstractive summarization. In ACL. Miao et al. (2020)
+
+Shen Yun Miao, Chao Chun Liang, and Keh Yih Su. 2020. A diverse
+corpus for evaluating and developing English math word problem solvers. ACL. Min et al. (2022)
+
+Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh
+Hajishirzi, and Luke Zettlemoyer. 2022. Rethinking the role of
+demonstrations: What makes in-context learning work? arXiv preprint arXiv:2202.12837. Narang et al. (2020)
+
+Sharan Narang, Colin Raffel, Katherine Lee, Adam Roberts, Noah Fiedel, and
+Karishma Malkan. 2020. WT5?! Training
+text-to-text models to explain their predictions. arXiv preprint arXiv:2004.14546. Nye et al. (2021)
+
+Maxwell Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob
+Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David
+Luan, et al. 2021. Show your work: Scratchpads
+for intermediate computation with language models. arXiv preprint arXiv:2112.00114. Ouyang et al.

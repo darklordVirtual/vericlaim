@@ -1,0 +1,14 @@
+Datasheets for datasets do not provide a complete solution to
+mitigating unwanted societal biases or potential risks or
+harms. Dataset creators cannot anticipate every possible use of a
+dataset, and identifying unwanted societal biases often requires
+additional labels indicating demographic information about
+individuals, which may not be available to dataset creators for
+reasons including those individuals’ data protection and
+privacy (Holstein et al., 2019). When creating datasets that relate to people, and hence their
+accompanying datasheets, it may be necessary for dataset creators to
+work with experts in other domains such as anthropology, sociology,
+and science and technology studies. There are complex and contextual
+social, historical, and geographical factors that influence how best
+to collect data from individuals in a manner that is respectful. Finally, creating datasheets for datasets will necessarily impose
+overhead on dataset creators.

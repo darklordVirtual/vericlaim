@@ -1,0 +1,7 @@
+The boundary is structural, not an artifact of insufficient engineering effort. •
+
+We do not claim a deployed or production system, nor a real-traffic evaluation. Every result is from the replay harness over curated corpora, as detailed above. The self-improving loop is demonstrated, not shipped. •
+
+We do not headline the rules’ internal-vs-external accuracy gap. A naive reading of that gap invites the rebuttal that the benchmark is simply "too hard" or that one should "write more rules." We deliberately keep that gap in the appendix and stand instead on the threat-type claim — that the semantic categories are unreachable by rules regardless of effort — which is the structural, rebuttal-resistant version of the same observation. •
+
+We do not claim universality of the absolute numbers across models or providers. What generalizes, on our evidence, is the shape: across Haiku-4.5, Sonnet-4.6, Opus-4.8, and GPT-5.5, recall on the semantic attacks that rules miss saturates even at the weakest tier, while capability buys precision (lower FPR), not recall — and a gated hybrid is net-positive in-distribution while the judge leads out-of-distribution.

@@ -1,0 +1,32 @@
+Buolamwini and
+Gebru (2018)
+
+Joy Buolamwini and
+Timnit Gebru. 2018. Gender Shades: Intersectional Accuracy Disparities
+in Commercial Gender Classification. In
+Proceedings of the Conference on Fairness,
+Accountability, and Transparency (FAT*). 77–91. Cao and Daumé (2020)
+
+Yang Trista Cao and Hal
+Daumé. 2020. Toward Gender-Inclusive Coreference Resolution. In
+Proceedings of the Conference of the Association
+for Computational Linguistics (ACL). abs/1910.13913. Cao and Daumé (2020)
+
+Yang Trista Cao and Hal
+Daumé, III. 2020. Toward Gender-Inclusive Coreference Resolution. In
+Proceedings of the Conference of the Association
+for Computational Linguistics (ACL). Cheney
+et al. (2009)
+
+James Cheney, Laura
+Chiticariu, and Wang-Chiew Tan. 2009. Provenance in databases: Why, how, and where. Foundations and Trends in Databases
+1, 4 (2009),
+379–474. Chmielinski et al. (2020)
+
+Kasia Chmielinski, Sarah
+Newman, Matt Taylor, Josh Joseph,
+Kemi Thomas, Jessica Yurkofsky, and
+Yue Chelsea Qiu. 2020. The Dataset Nutrition Label (2nd Gen): Leveraging
+Context to Mitigate Harms in Artificial Intelligence. In
+NeurIPS Workshop on Dataset Curation and
+Security. Choi et al.

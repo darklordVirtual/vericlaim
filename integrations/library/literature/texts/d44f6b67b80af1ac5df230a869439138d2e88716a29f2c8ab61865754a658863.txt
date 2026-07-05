@@ -1,0 +1,16 @@
+Actor
+
+The Actor is built upon a large language model (LLM) that is specifically
+prompted to generate the necessary text and actions conditioned on the state
+observations. Analogous to traditional policy-based RL setups, we sample an action
+or generation, , from the current policy at time , receive
+an observation from the environment . We explore various Actor models,
+including Chain of Thought Wei et al., (2022) and ReAct Yao et al., (2023). These diverse generation models allow us to explore different aspects of text and
+action generation within the Reflexion framework, providing valuable insights into
+their performance and effectiveness. In addition, we also add a memory component
+mem that provides additional context to this agent. This adaption
+was inspired by Brooks et al., (2022), who suggest a policy iteration approach using in-context learning. Details on how this
+is populated are provided below. Evaluator
+
+The Evaluator component of the Reflexion framework plays a crucial role in assessing
+the quality of the generated outputs produced by the Actor.

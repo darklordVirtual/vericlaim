@@ -1,0 +1,21 @@
+(2024a)
+A comprehensive survey of direct preference optimization: datasets, theories, variants, and applications. arXiv preprint arXiv:2410.15595. Cited by: §2. Y. Xiao, E. Sun, T. Liu, and W. Wang (2024b)
+LogicVista: multimodal llm logical reasoning benchmark in visual contexts. External Links: 2407.04973,
+Link
+
+Cited by: 1st item. M. Xiong, Z. Hu, X. Lu, Y. LI, J. Fu, J. He, and B. Hooi (2024)
+Can llms express their uncertainty? an empirical evaluation of confidence elicitation in llms. In The Twelfth International Conference on Learning Representations,
+
+Cited by: §1,
+§1,
+Table 1,
+§4.1. T. Xu, S. Wu, S. Diao, X. Liu, X. Wang, Y. Chen, and J. Gao (2024)
+SaySelf: teaching LLMs to express confidence with self-reflective rationales. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, Y. Al-Onaizan, M. Bansal, and Y. Chen (Eds.),
+
+Miami, Florida, USA, pp. 5985–5998. External Links: Link,
+Document
+
+Cited by: §1,
+§2,
+§4.1. X. Yue, T. Zheng, Y. Ni, Y. Wang, K. Zhang, S. Tong, Y. Sun, B. Yu, G. Zhang, H. Sun, et al. (2025)
+Mmmu-pro: a more robust multi-discipline multimodal understanding benchmark.

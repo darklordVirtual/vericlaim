@@ -1,0 +1,19 @@
+Bastien et al. (2012)
+
+Bastien, Frédéric, Lamblin, Pascal, Pascanu, Razvan, Bergstra,
+James, Goodfellow, Ian J., Bergeron, Arnaud, Bouchard, Nicolas, and Bengio,
+Yoshua. Theano: new features and speed improvements. Deep Learning and Unsupervised Feature Learning NIPS 2012 Workshop,
+2012. Bergstra et al. (2010)
+
+Bergstra, James, Breuleux, Olivier, Bastien, Frédéric, Lamblin,
+Pascal, Pascanu, Razvan, Desjardins, Guillaume, Turian, Joseph, Warde-Farley,
+David, and Bengio, Yoshua. Theano: a CPU and GPU math expression compiler. In Proceedings of the Python for Scientific Computing
+Conference (SciPy), June 2010. Oral Presentation. Chalupka et al. (2014)
+
+Chalupka, K., Perona, P., and Eberhardt, F. Visual Causal Feature Learning. ArXiv e-prints, December 2014. Dean et al. (2012)
+
+Dean, Jeffrey, Corrado, Greg S., Monga, Rajat, Chen, Kai, Devin, Matthieu, Le,
+Quoc V., Mao, Mark Z., Ranzato, Marc’Aurelio, Senior, Andrew, Tucker, Paul,
+Yang, Ke, and Ng, Andrew Y. Large scale distributed deep networks. In NIPS, 2012. Deng et al. (2009)
+
+Deng, Jia, Dong, Wei, Socher, Richard, jia Li, Li, Li, Kai, and Fei-fei, Li. Imagenet: A large-scale hierarchical image database. In In CVPR, 2009.

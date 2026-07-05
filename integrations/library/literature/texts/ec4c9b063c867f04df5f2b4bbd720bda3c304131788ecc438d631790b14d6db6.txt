@@ -1,0 +1,15 @@
+If you use this software, please cite it using these metadata. Bommasani et al. (2021)
+
+Rishi Bommasani, Drew A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney
+von Arx, Michael S. Bernstein, Jeannette Bohg, Antoine Bosselut, Emma
+Brunskill, Erik Brynjolfsson, Shyamal Buch, Dallas Card, Rodrigo Castellon,
+Niladri Chatterji, Annie S. Chen, Kathleen Creel, Jared Quincy Davis,
+Dorottya Demszky, Chris Donahue, Moussa Doumbouya, Esin Durmus, Stefano
+Ermon, John Etchemendy, Kawin Ethayarajh, Li Fei-Fei, Chelsea Finn, Trevor
+Gale, Lauren Gillespie, Karan Goel, Noah D. Goodman, Shelby Grossman, Neel
+Guha, Tatsunori Hashimoto, Peter Henderson, John Hewitt, Daniel E. Ho, Jenny
+Hong, Kyle Hsu, Jing Huang, Thomas Icard, Saahil Jain, Dan Jurafsky,
+Pratyusha Kalluri, Siddharth Karamcheti, Geoff Keeling, Fereshte Khani, Omar
+Khattab, Pang Wei Koh, Mark S. Krass, Ranjay Krishna, Rohith Kuditipudi, and
+et al. 2021. On the opportunities and
+risks of foundation models. CoRR, abs/2108.07258. Brown et al.

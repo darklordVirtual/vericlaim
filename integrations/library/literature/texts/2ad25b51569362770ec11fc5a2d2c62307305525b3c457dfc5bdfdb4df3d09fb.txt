@@ -1,0 +1,18 @@
+chair, who acted on behalf of the university; all those
+agents are responsible in some way for the activity that took place but
+we do not say explicitly who bears responsibility and to what
+degree. A delegation ◊ link, written actedOnBehalfOf(id; ag2, ag1, a, attrs) in PROV-N, has:
+
+id: an OPTIONAL identifier for the delegation link between delegate and responsible;
+
+delegate: an identifier (ag2) for the agent associated with an activity, acting on behalf of the responsible
+agent;
+
+responsible: an identifier (ag1) for the agent, on behalf of which the delegate agent acted;
+
+activity: an OPTIONAL identifier (a) of an activity for which the delegation link holds;
+
+attributes: an OPTIONAL set (attrs) of attribute-value pairs representing additional information about this delegation link. Example 38 ◊
+
+The following fragment describes three agents: a programmer, a researcher, and a funder. The programmer and researcher are associated with a workflow activity. The programmer acts on behalf
+of the researcher (line-management) encoding the commands specified by the researcher; the researcher acts on behalf of the funder, who has a contractual agreement with the researcher.

@@ -1,0 +1,11 @@
+[snell2022quantile] generalizes [bates2021distribution] to control the quantile of a monotone loss function conditional on with probability over the calibration dataset for any user-specified tolerance parameter . In some applications, it may be sufficient to control the unconditional quantile of the loss function, which alleviates the burden of the user to choose the tolerance parameter . For any random variable , let
+
+Analogous to (3), we want to find based on such that
+
+(28)
+
+By definition,
+
+As a consequence, quantile risk control is equivalent to expected risk control (3) with loss function . Let
+
+Proposition 4.3. In the setting of Theorem 2.1, (28) is achieved. [snell2022quantile] considers the high-probability control of a wider class of quantile-based risks which include the conditional value-at-risk (CVaR). It is unclear whether those more general risks can be controlled unconditionally. We leave this open problem for future research.

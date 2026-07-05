@@ -1,0 +1,15 @@
+Hugging Face model protectai/deberta-v3-base-prompt-injection-v2. •
+
+Rebedea, T., Dinu, R., Sreedhar, M. N., Parisien, C., and Cohen, J. (2023). NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails. EMNLP 2023 (System Demonstrations), ACL Anthology 2023.emnlp-demo.40. arXiv:2310.10501. •
+
+Rebuff. Rebuff: A self-hardening prompt-injection detector (heuristics + LLM classifier + vector-DB of past attacks). https://github.com/protectai/rebuff
+
+•
+
+Ruan, Y., Dong, H., Wang, A., Pitis, S., Zhou, Y., Ba, J., Dubois, Y., Maddison, C., and Hashimoto, T. (2024). Identifying the Risks of LM Agents with an LM-Emulated Sandbox (ToolEmu). ICLR 2024 (Spotlight). arXiv:2309.15817. •
+
+Shalev-Shwartz, S. (2012). Online Learning and Online Convex Optimization. Foundations and Trends in Machine Learning, 4(2), 107–194. •
+
+Shi, T., He, J., Wang, Z., Li, H., Wu, L., Guo, W., and Song, D. (2025). Progent: Programmable Privilege Control for LLM Agents. arXiv:2504.11703. •
+
+Vigil. Vigil: detect prompt injections, jailbreaks, and other risky LLM inputs (YARA signatures, transformer classifiers, and vector similarity).

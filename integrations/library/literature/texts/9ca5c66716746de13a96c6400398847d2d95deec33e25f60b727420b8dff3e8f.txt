@@ -1,0 +1,1 @@
+Because BIG-bench is expensive to fully evaluate, we release a curated set of 24 small but diverse and difficult tasks that can be rapidly evaluated, called BIG-bench Lite (Section 2.2). To enable easy follow-up work, we also release analysis Colab notebooks, as well as data files containing scores and logs of model interactions on each task.

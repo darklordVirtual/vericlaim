@@ -1,0 +1,18 @@
+Ahn et al. (2022)
+
+Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron
+David, Chelsea Finn, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog,
+et al. 2022. Do as I can, not as I
+say: Grounding language in robotic affordances. arXiv preprint arXiv:2204.01691. Amini et al. (2019)
+
+Aida Amini, Saadia Gabriel, Shanchuan Lin, Rik Koncel-Kedziorski, Yejin Choi,
+and Hannaneh Hajishirzi. 2019. MathQA: Towards
+interpretable math word problem solving with operation-based formalisms. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), Minneapolis, Minnesota. Association for Computational Linguistics. Andor et al. (2019)
+
+Daniel Andor, Luheng He, Kenton Lee, and Emily Pitler. 2019. Giving BERT a
+calculator: Finding operations and arguments with reading comprehension. EMNLP. Andreas et al. (2018)
+
+Jacob Andreas, Dan Klein, and Sergey Levine. 2018. Learning with latent
+language. NAACL. Austin et al.

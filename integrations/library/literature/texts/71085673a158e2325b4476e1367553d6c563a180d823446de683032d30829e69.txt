@@ -1,0 +1,13 @@
+On the dangers of stochastic parrots: Can language models be too big? In Proceedings of the 2021 ACM Conference on Fairness,
+Accountability, and Transparency, FAccT ’21, pp. 610–623, New York,
+NY, USA, 2021. Association for Computing Machinery. doi: 10.1145/3442188.3445922. URL https://doi.org/10.1145/3442188.3445922. Berko (1958)
+
+Jean Berko. The child’s learning of english morphology. <i>WORD</i>, 14(2-3):150--177, 1958. doi: 10.1080/00437956.1958.11659661. URL https://doi.org/10.1080/00437956.1958.11659661. Besold et al. (2017)
+
+Tarek R. Besold, Artur d’Avila Garcez, Sebastian Bader, Howard Bowman, Pedro
+Domingos, Pascal Hitzler, Kai-Uwe Kuehnberger, Luis C. Lamb, Daniel Lowd,
+Priscila Machado Vieira Lima, Leo de Penning, Gadi Pinkas, Hoifung Poon, and
+Gerson Zaverucha. Neural-symbolic learning and reasoning: A survey and interpretation,
+2017. URL https://arxiv.org/abs/1711.03902. Betz et al. (2020)
+
+Gregor Betz, Christian Voigt, and Kyle Richardson. Critical thinking for language models, 2020. URL https://arxiv.org/abs/2009.07185. Bhagavatula et al.

@@ -1,0 +1,15 @@
+All entities involved in this example are Web resources, with well-defined IRIs (some of which refer to archived email messages, available to W3C Members). Two versions of a document were involved: tr:WD-prov-dm-20111215 (second working draft) and tr:WD-prov-dm-20111018 (first working draft);
+
+Both tr:WD-prov-dm-20111215 and tr:WD-prov-dm-20111018 were published by the WWW Consortium (w3:Consortium);
+
+The publication activity for tr:WD-prov-dm-20111215 was ex:act2;
+
+The publication activity for tr:WD-prov-dm-20111018 was ex:act1;
+
+The document tr:WD-prov-dm-20111215 was derived from tr:WD-prov-dm-20111018;
+
+The publication activity ex:act1 used a publication request (email:2011Oct/0141) and a transition request (chairs:2011OctDec/0004);
+
+The publication activity ex:act2 used a publication request (email:2011Dec/0111);
+
+Documents were published according to the process rules (process:rec-advance), a plan in PROV terminology. We now paraphrase some PROV descriptions, and express them with the PROV-N notation, and depict them with a graphical illustration (see Figure 3). Full details of the provenance record can be found here.

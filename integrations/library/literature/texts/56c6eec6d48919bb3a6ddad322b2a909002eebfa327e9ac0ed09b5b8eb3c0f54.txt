@@ -1,0 +1,18 @@
+Patwary, B. Norick, P. LeGresley, S. Rajbhandari, J. Casper,
+Z. Liu, S. Prabhumoye, G. Zerveas, V. Korthikanti, E. Zhang, R. Child, R. Y. Aminabadi, J. Bernauer, X. Song, M. Shoeybi, Y. He, M. Houston, S. Tiwary,
+and B. Catanzaro. Using Deepspeed and Megatron to Train Megatron-turing NLG
+530b, A Large-Scale Generative Language Model. arXiv preprint arXiv:2201.11990, 2022. Steinhardt (2021)
+
+J. Steinhardt. Updates and lessons from AI forecasting, 2021. URL https://bounded-regret.ghost.io/ai-forecasting/. Tay et al. (2021)
+
+Y. Tay, M. Dehghani, J. Rao, W. Fedus, S. Abnar, H. W. Chung, S. Narang,
+D. Yogatama, A. Vaswani, and D. Metzler. Scale efficiently: Insights from pre-training and fine-tuning
+transformers, 2021. Thoppilan et al. (2022)
+
+R. Thoppilan, D. D. Freitas, J. Hall, N. Shazeer, A. Kulshreshtha, H.-T. Cheng,
+A. Jin, T. Bos, L. Baker, Y. Du, Y. Li, H. Lee, H. S. Zheng, A. Ghafouri,
+M. Menegali, Y. Huang, M. Krikun, D. Lepikhin, J. Qin, D. Chen, Y. Xu,
+Z. Chen, A. Roberts, M. Bosma, Y. Zhou, C.-C. Chang, I. Krivokon, W. Rusch,
+M. Pickett, K. Meier-Hellstern, M. R. Morris, T. Doshi, R. D. Santos,
+T. Duke, J. Soraker, B. Zevenbergen, V. Prabhakaran, M. Diaz, B. Hutchinson,
+K.

@@ -1,0 +1,17 @@
+1232--1242,
+Melbourne, Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/P18-1114. URL https://aclanthology.org/P18-1114. Xue et al. (2021a)
+
+Linting Xue, Aditya Barua, Noah Constant, Rami Al-Rfou, Sharan Narang, Mihir
+Kale, Adam Roberts, and Colin Raffel. ByT5: Towards a token-free future with pre-trained byte-to-byte
+models, 2021a. URL https://arxiv.org/abs/2105.13626. Xue et al. (2021b)
+
+Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya
+Siddhant, Aditya Barua, and Colin Raffel. mT5: A massively multilingual pre-trained text-to-text transformer. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 483--498, Online, June 2021b. Association
+for Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.41. URL https://aclanthology.org/2021.naacl-main.41. Yan & Pedersen (2017)
+
+Xinru Yan and Ted Pedersen. Who’s to say what’s funny? A computer using language models and
+deep learning, that’s who!, 2017. URL https://arxiv.org/abs/1705.10272. Yang et al. (2015)
+
+Diyi Yang, Alon Lavie, Chris Dyer, and Eduard Hovy.

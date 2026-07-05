@@ -1,0 +1,2 @@
+We would like to thank Geoffrey Hinton and Ilya Sutskever for helpful discussions. We would also like to thank Jeff Dean, Greg Corrado, and Oriol Vinyals
+for their feedback on drafts of this article. We would like to thank the developers of Theano(Bergstra et al., 2010; Bastien et al., 2012), Pylearn2(Goodfellow et al., 2013b), and DistBelief (Dean et al., 2012).

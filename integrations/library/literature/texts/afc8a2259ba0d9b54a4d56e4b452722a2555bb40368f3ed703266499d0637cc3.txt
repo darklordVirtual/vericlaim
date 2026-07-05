@@ -1,0 +1,11 @@
+Harsh Mehta, Google Research (harshm@google.com), and Behnam Neyshabur, Google Research, Blueshift (neyshabur@google.com)
+
+cycled_letters: Sam Shleifer, Facebook AI Research (sshleifer@gmail.com). Task cites: (Brown et al., 2020)
+
+dark_humor_detection: Ernie Chang, Jesujoba Alabi, and Vera Demberg, Saarland University (cychang, s8jealab, vera)@coli.uni-saarland.de. Task cites: (Weller & Seppi, 2019; Fan et al., 2020; Willinger et al., 2017; Yang et al., 2015; Mihalcea & Strapparava, 2005)
+
+date_understanding: Xinyi Wu and Zijian Wang, Amazon (xinyiwu.nlp@gmail.com, zijwang@stanford.edu). Task cites: (Vashishth et al., 2018; Chambers, 2012; Kotsakos et al., 2014; Vashishtha et al., 2020; 2019)
+
+disambiguation_qa: Nick Doiron, Tufts University (nick@mapmeld.com). Task cites: (Zhao et al., 2018; Rudinger et al., 2018)
+
+discourse_marker_prediction : Damien Sileo, KU Leuven (damien.sileo@kuleuven.be).

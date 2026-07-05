@@ -1,0 +1,2 @@
+The GPT-2 model family was trained on data scraped from the public Internet. The authors collected a dataset by following outbound links from the social media website Reddit. The webpages were cleaned of HTML, with only the document text retained, and then de-duplicated at the document level. This resulted in a final dataset of GB of text data,
+over which the model was trained for approximately 12 epochs.222Personal communication with the GPT-2 authors. As a result, GPT-2 does not overfit: the training loss is only roughly smaller than the test loss across all model sizes.

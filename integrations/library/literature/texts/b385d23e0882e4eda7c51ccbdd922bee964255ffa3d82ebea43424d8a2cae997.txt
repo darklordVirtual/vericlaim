@@ -1,0 +1,17 @@
+(2018)
+
+Liat Ein Dor, Alon Halfon, Yoav Kantor, Ran Levy, Yosi Mass, Ruty Rinott, Eyal
+Shnarch, and Noam Slonim. Semantic relatedness of Wikipedia concepts -- benchmark data and a
+working solution. In Proceedings of the Eleventh International Conference on
+Language Resources and Evaluation (LREC 2018), Miyazaki, Japan, May 2018. European Language Resources Association. URL https://aclanthology.org/L18-1408. Eisner et al. (2016)
+
+Ben Eisner, Tim Rocktäschel, Isabelle Augenstein, Matko Bošnjak, and
+Sebastian Riedel. emoji2vec: Learning emoji representations from their description. In Proceedings of The Fourth International Workshop on Natural
+Language Processing for Social Media, pp. 48--54, Austin, TX, USA,
+November 2016. Association for Computational Linguistics. doi: 10.18653/v1/W16-6208. URL https://aclanthology.org/W16-6208. El-Kishky et al. (2019)
+
+Ahmed El-Kishky, Frank Xu, Aston Zhang, and Jiawei Han. Parsimonious morpheme segmentation with an application to enriching
+word embeddings, 2019. URL https://arxiv.org/abs/1908.07832. El-Yaniv & Yanay (2013)
+
+Ran El-Yaniv and David Yanay. Semantic sort: A supervised approach to personalized semantic
+relatedness, 2013.

@@ -1,0 +1,18 @@
+2021. Process for adapting language models to society (palms) with
+values-targeted datasets. https://cdn.openai.com/palms.pdf. Stiennon et al. (2020)
+
+Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M. Ziegler, Ryan Lowe, Chelsea
+Voss, Alec Radford, Dario Amodei, and Paul F. Christiano. 2020. Learning to summarize from
+human feedback. CoRR, abs/2009.01325. Talmor et al. (2019)
+
+Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. 2019. CommonsenseQA: A
+question answering challenge targeting commonsense knowledge. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pages 4149–4158,
+Minneapolis, Minnesota. Association for Computational Linguistics. Tamkin et al. (2021)
+
+Alex Tamkin, Miles Brundage, Jack Clark, and Deep Ganguli. 2021. Understanding the
+capabilities, limitations, and societal impact of large language models. CoRR, abs/2102.02503. Thorne et al. (2018)
+
+James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mittal. 2018. FEVER: a large-scale
+dataset for fact extraction and VERification.

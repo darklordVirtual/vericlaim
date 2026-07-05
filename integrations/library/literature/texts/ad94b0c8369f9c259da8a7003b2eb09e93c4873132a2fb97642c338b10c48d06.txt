@@ -1,0 +1,183 @@
+Keyword
+No. of Tasks
+
+free response
+
+78
+
+logical reasoning
+
+58
+
+common sense
+
+44
+
+programmatic
+
+40
+
+reading comprehension
+
+36
+
+context-free question-answering
+
+24
+
+mathematics
+
+23
+
+contextual question-answering
+
+21
+
+human-like behavior
+
+19
+
+analogical reasoning
+
+19
+
+social reasoning
+
+18
+
+non-English
+
+16
+
+out of distribution
+
+16
+
+arithmetic
+
+16
+
+non-language
+
+16
+
+emotional understanding
+
+15
+
+creativity
+
+15
+
+paraphrase
+
+14
+
+causal reasoning
+
+14
+
+visual reasoning
+
+14
+
+Table App.3: The most frequently used keywords in BIG-bench tasks
+
+Keyword
+No. of Tasks
+
+self-awareness
+
+1
+
+text simplification
+
+1
+
+segmentation
+
+1
+
+paragraph
+
+1
+
+dialogue system
+
+1
+
+toxicity
+
+1
+
+accommodation to reader
+
+1
+
+inclusion
+
+1
+
+probabilistic reasoning
+
+1
+
+conversational question-answering
+
+1
+
+cheating
+
+1
+
+morphology
+
+1
+
+semantic parsing
+
+2
+
+chemistry
+
+2
+
+physical reasoning
+
+2
+
+instructions
+
+2
+
+intent recognition
+
+2
+
+grammar
+
+2
+
+question generation
+
+2
+
+humor
+
+2
+
+medicine
+
+2
+
+biology
+
+2
+
+writing style
+
+2
+
+Table App.4: The least frequently used keywords in BIG-bench tasks
+
+Figure App.5: Keyword distribution. Here we show the distribution of keywords for BIG-bench (gray) and for BIG-bench Lite (maroon).

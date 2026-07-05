@@ -1,0 +1,11 @@
+Parth Doshi, UC San Diego (pdoshi@ucsd.edu); and Animesh Gupta, Thapar University (animeshgupta.thapar@gmail.com)
+
+crass_ai: Jörg Frohberg, Apergo UG (j.frohberg@apergo.ai). Task cites: (Schölkopf et al., 2021; Teney et al., 2020; Liang et al., 2020b; Pearl, 2000; Shahid & Zheleva, 2021; Xia et al., 2021; Priol et al., 2020)
+
+cryobiology_spanish: Marco Baturan (marco.baturan@gmail.com), Roman Sitelew (sitelewr@gmail.com), and Ramón Risco Delgado (ramon@us.es). Task cites: (Scudellari, 2017; Soltani Firouz et al., 2021; Toubiana et al., 2020; Mbogba et al., 2018)
+
+cryptonite: Avia Efrat, Uri Shaham, Omer Levy, and Dan Kilman, Tel Aviv University (avia.efrat, uri.shaham1, omerlevy, dankilman)@gmail.com. Task cites: (Efrat et al., 2021; Raganato et al., 2017; Sakaguchi et al., 2020; Miller & Gurevych, 2015; Miller et al., 2017; Joshi et al., 2017; Oprea & Magdy, 2020; Friedlander & Fine, 2018; Lewis et al., 2020c)
+
+cs_algorithms: Harsh Mehta, Google Research (harshm@google.com), and Behnam Neyshabur, Google Research, Blueshift (neyshabur@google.com)
+
+cycled_letters: Sam Shleifer, Facebook AI Research (sshleifer@gmail.com).

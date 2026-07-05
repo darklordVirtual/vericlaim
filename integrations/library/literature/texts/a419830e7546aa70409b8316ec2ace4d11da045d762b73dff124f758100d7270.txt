@@ -1,0 +1,16 @@
+IEEE Transactions on Pattern Analysis & Machine Intelligence,
+42(09):2287--2305, Sep. 2020a. doi: 10.1109/TPAMI.2019.2914054. Zhang et al. (2020b)
+
+Haoran Zhang, Amy X. Lu, Mohamed Abdalla, Matthew McDermott, and Marzyeh
+Ghassemi. Hurtful words: Quantifying biases in clinical contextual word
+embeddings. In Proceedings of the ACM Conference on Health, Inference, and
+Learning, CHIL ’20, pp. 110–120, New York, NY, USA,
+2020b. Association for Computing Machinery. doi: 10.1145/3368555.3384448. URL https://doi.org/10.1145/3368555.3384448. Zhang et al. (2020c)
+
+Hongming Zhang, Xinran Zhao, and Yangqiu Song. WinoWhy: A deep diagnosis of essential commonsense knowledge for
+answering Winograd schema challenge. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 5736--5745, Online, July
+2020c. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.508. URL https://aclanthology.org/2020.acl-main.508. Zhang et al. (2019a)
+
+Kaiqing Zhang, Zhuoran Yang, and Tamer Başar. Multi-agent reinforcement learning: A selective overview of theories
+and algorithms, 2019a. URL https://arxiv.org/abs/1911.10635. Zhang et al.

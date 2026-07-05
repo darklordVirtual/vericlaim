@@ -1,0 +1,10 @@
+Agents may rely on plans, i.e. sets of actions or steps, to achieve their
+goals in the context of an activity. Hence, an expanded form of
+association relation allows for a plan to be specified. Plan is defined by subtyping and
+full association by an expanded relation, as follows. A plan is an entity that represents a set of actions or steps intended by one or more agents to achieve some goals. An activity association is an assignment of responsibility to an agent for an activity, indicating that the agent had a role in the activity. It further allows for a plan to be specified, which is the plan intended by the agent to achieve some goals in the context of this activity. There exist no
+prescriptive requirements on the nature of plans, their representation, the
+actions or steps they consist of, or their intended goals. Since plans may evolve over time,
+it may become necessary to track their provenance, so plans themselves are
+entities. Representing the plan explicitly in the provenance can be useful for various tasks: for example, to
+validate the execution as represented in the provenance record, to
+manage expectation failures, or to provide explanations.

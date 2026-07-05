@@ -1,0 +1,14 @@
+On faithfulness and factuality in abstractive summarization, 2020. URL https://arxiv.org/abs/2005.00661. Mays et al. (1991)
+
+Eric Mays, Fred J. Damerau, and Robert L. Mercer. Context based spelling correction. Information Processing & Management, 27(5):517--522, 1991. doi: https://doi.org/10.1016/0306-4573(91)90066-U. URL
+https://www.sciencedirect.com/science/article/pii/030645739190066U. Mbogba et al. (2018)
+
+Momoh Karmah Mbogba, Zeeshan Haider, S.M. Chapal Hossain, Daobin Huang, Kashan
+Memon, Fazil Panhwar, Zeling Lei, and Gang Zhao. The application of convolution neural network based cell segmentation
+during cryopreservation. Cryobiology, 85:95--104, 2018. doi: https://doi.org/10.1016/j.cryobiol.2018.09.003. URL
+https://www.sciencedirect.com/science/article/pii/S0011224018301937. McAuley et al. (2015)
+
+Julian McAuley, Christopher Targett, Qinfeng Shi, and Anton van den Hengel. Image-based recommendations on styles and substitutes, 2015. URL https://arxiv.org/abs/1506.04757. McCann et al. (2018)
+
+Bryan McCann, Nitish Shirish Keskar, Caiming Xiong, and Richard Socher. The natural language decathlon: Multitask learning as question
+answering, 2018.

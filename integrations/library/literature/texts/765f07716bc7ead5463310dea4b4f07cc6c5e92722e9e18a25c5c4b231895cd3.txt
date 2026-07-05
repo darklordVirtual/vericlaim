@@ -1,0 +1,44 @@
+on TempLAMA can not be attributed to the calendar tool, which is only used for 0.2% of all examples, but mostly to the Wikipedia search and question answering tools, which Toolformer calls the most. This makes sense given that
+named entities in TempLama are often so specific and rare that even knowing the exact date alone would be of little help. The best course of action for this dataset – first querying the calendar API to get the current date, and then querying the question answering system with this date – is not only prohibited by our restriction of using at most one API call per example, but also hard to learn for Toolformer given that all API calls in its training data are sampled independently. For Dateset, on the other hand, the considerable improvement of Toolformer compared to other models can be fully accredited to the calendar tool, which it makes use of for 54.8% of all examples. Model
+
+TempLAMA
+
+Dateset
+
+GPT-J
+
+13.7
+
+03.9
+
+GPT-J + CC
+
+12.9
+
+02.9
+
+Toolformer (disabled)
+
+12.7
+
+05.9
+
+Toolformer
+
+16.3
+
+27.3
+
+OPT (66B)
+
+14.5
+
+01.3
+
+GPT-3 (175B)
+
+15.5
+
+00.8
+
+Table 7: Results for the temporal datasets.

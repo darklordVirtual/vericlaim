@@ -1,0 +1,7 @@
+Figure 2: The effect of network depth (far left), width (middle left), Batch Normalization (middle right), and weight decay (far right) on miscalibration, as measured by ECE (lower is better). The problem we address in this paper is supervised multi-class classification with neural networks. The input and label are random variables that follow a ground truth joint distribution . Let be a neural network with , where is a class prediction and is its associated confidence, i.e. probability of correctness. We would like the confidence estimate to be calibrated, which intuitively means that represents a true probability. For example, given 100 predictions, each with confidence of , we expect that should be correctly classified. More formally, we define perfect calibration as
+
+(1)
+
+where the probability is over the joint distribution. In all practical settings, achieving perfect calibration is impossible. Additionally, the probability in (1) cannot be computed using finitely many samples since is a continuous random variable. This motivates the need for empirical approximations that capture the essence of (1). Reliability Diagrams
+
+(e.g.

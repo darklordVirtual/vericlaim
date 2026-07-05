@@ -1,0 +1,11 @@
+We have shown in Sections 4 and 5 that adversarial clients can effectively
+extract ML models given access to rich prediction APIs. Given that this undermines
+the financial models targeted by some ML cloud services, and potentially leaks
+confidential training data, we believe researchers should
+seek countermeasures. In Section 6, we analyzed the most obvious defense against our attacks:
+prediction API minimization. The constraint here is that the resulting API must still be useful in (honest) applications. For example, it is simple to change
+APIs to not return confidences and not respond to incomplete queries,
+assuming applications can get by without it. This will prevent many of our
+attacks, most notably the ones described in Section 4 as well as the feature discovery techniques used in our
+Amazon case study (Section 5). Yet, we showed that even if we strip an API to only provide class labels, successful attacks remain possible (Section 6), albeit at a much higher query cost. We discuss further potential countermeasures below. Rounding confidences. Applications might need
+confidences, but only at lower granularity.

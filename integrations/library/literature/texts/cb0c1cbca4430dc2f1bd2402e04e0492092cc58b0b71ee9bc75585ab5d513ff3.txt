@@ -1,0 +1,57 @@
+This specification does not provide any interpretation for any attribute declared in any other namespace. Table 8 ◊: PROV-DM Attributes At a Glance
+
+Attribute
+
+Allowed In
+
+value
+
+Section
+
+prov:label
+
+any construct
+
+A Value of type xsd:string
+
+Section 5.7.2.1
+
+prov:location
+
+Entity, Activity, Agent, Usage, Generation, Invalidation, Start, and End
+
+A Value
+
+Section 5.7.2.2
+
+prov:role
+
+Usage, Generation, Invalidation, Association, Start, and End
+
+A Value
+
+Section 5.7.2.3
+
+prov:type
+
+any construct
+
+A Value
+
+Section 5.7.2.4
+
+prov:value
+
+Entity
+
+A Value
+
+Section 5.7.2.5
+
+5.7.2.1 prov:label
+
+The attribute prov:label ◊ provides a human-readable representation of an instance of a PROV-DM type or relation. The value associated with the attribute prov:label MUST be a string. Example 48 ◊
+
+The following entity is provided with a label attribute. entity(ex:e1, [ prov:label="This is a human-readable label" ])
+
+The following entity has two label attributes, in French and English.

@@ -1,0 +1,14 @@
+URL https://arxiv.org/abs/2201.10066. Mehri & Eskenazi (2020)
+
+Shikib Mehri and Maxine Eskenazi. USR: An unsupervised and reference free evaluation metric for
+dialog generation. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 681--707, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.64. URL https://aclanthology.org/2020.acl-main.64. Meister (2007)
+
+Christine Palm Meister. Phraseologie des schwedischen. In H. Burger et al. (ed.), Phraseologie/Phrasology, volume 2,
+pp. 673--681. De Gruyter Mouton, 2007. doi: 10.1515/9783110190762.673. URL https://doi.org/10.1515/9783110190762.673. Melo et al. (2018)
+
+Francisco S. Melo, Carla Guerra, and Manuel Lopes. Interactive optimal teaching with unknown learners. In Proceedings of the Twenty-Seventh International Joint
+Conference on Artificial Intelligence, IJCAI-18, pp. 2567--2573, 2018. doi: 10.24963/ijcai.2018/356. URL https://doi.org/10.24963/ijcai.2018/356. Mendelsohn et al. (2020)
+
+Julia Mendelsohn, Yulia Tsvetkov, and Dan Jurafsky. A framework for the computational linguistic analysis of
+dehumanization.

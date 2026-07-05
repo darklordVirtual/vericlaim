@@ -1,0 +1,46 @@
+Thought:
+
+Let’s think step by step. The first year a scientific journal published by an organization located in the Bronx was published was 1916. Answer:
+
+1916 (Label: 1909)
+
+Failure: Label ambiguity
+
+\model
+
+Question:
+
+What nationality is the man who developed the dictator game? Thought 1:
+
+I need to search dictator game, find the man who developed it, then find his nationality. Action 1:
+
+Search[dictator game]
+
+Observation 1:
+
+The dictator game is a popular experimental instrument in social psychology and economics... Action 3:
+
+Search[Amos Tversky]
+
+Observation 3:
+
+Amos Nathan Tversky... Thought 4:
+
+Amos Tversky is an Israeli cognitive and mathematical psychologist. So the man who developed the dictator game is Israeli. Action 4:
+
+Finish[Israeli] (label: Israel-American)
+
+CoT
+
+Question:
+
+Kurt Fuller from Stockton, CA appeared in which American Detective Comedy Drama television series created by Steve Franks? Thought:
+
+Let’s think step by step. Kurt Fuller from Stockton, CA appeared in Psych. Psych is an American Detective Comedy Drama television series created by Steve Franks. Answer:
+
+Psych (label: Psych is an American detective comedy-drama)
+
+◄
+
+Feeling
+lucky?

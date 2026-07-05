@@ -454,6 +454,12 @@
     "Zirui Wang",
     "Ziyi Wu"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:42.286968+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2206.04615"
+  },
+  "fulltext_sha256": "a0bc714ffff45704b54d9e93e0b1e171c7fce2348a67fb1bccbf3615f14e71eb",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "big-bench-2022",

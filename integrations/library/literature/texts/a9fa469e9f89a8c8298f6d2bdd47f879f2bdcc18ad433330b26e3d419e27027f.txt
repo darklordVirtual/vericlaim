@@ -1,0 +1,15 @@
+A Formal Verification
+
+Formal verification techniques for ML-based AI systems are still in their infancy. Challenges include:
+
+•
+
+Generating formal claims and corresponding proofs regarding the behavior of ML models, given that their output behavior may not always be clear or expected relative to the inputs (e.g., an ML model will not necessarily display the same behavior in the field that it exhibited under a testing environment). As a consequence, traditional formal properties must be reconceived and redeveloped for ML models;
+
+•
+
+The difficulty of correctly modeling certain ML systems as mathematical objects, especially if their building blocks cannot be formalised within mathematical domains utilized by existing verification techniques; and
+
+•
+
+The size of real-world ML models, which are usually larger than existing verification techniques can work with. Some preliminary research [195] has attempted to find ways of specifying types of ML robustness that would be amenable to formal verification: for example, pointwise robustness.

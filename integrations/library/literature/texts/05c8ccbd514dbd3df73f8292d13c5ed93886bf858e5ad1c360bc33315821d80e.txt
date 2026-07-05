@@ -1,0 +1,21 @@
+[LSL+15]
+
+Christos Louizos, Kevin Swersky, Yujia Li, Max Welling, and Richard S. Zemel. The variational fair autoencoder. CoRR, abs/1511.00830, 2015. [PPM+14]
+
+John Podesta, Penny Pritzker, Ernest J. Moniz, John Holdren, and Jefrey Zients. Big data: Seizing opportunities and preserving values. Executive Office of the President, May 2014. [PRT08]
+
+Dino Pedreshi, Salvatore Ruggieri, and Franco Turini. Discrimination-aware data mining. In Proc. th ACM SIGKDD, 2008. [Res07]
+
+US Federal Reserve. Report to the congress on credit scoring and its effects on the
+availability and affordability of credit, 2007. [RR14]
+
+Andrea Romei and Salvatore Ruggieri. A multidisciplinary survey on discrimination analysis. The Knowledge Engineering Review, 29:582–638, 11 2014. [Was10]
+
+Larry Wasserman. All of Statistics: A Concise Course in Statistical Inference. Springer, 2010. [Whi16]
+
+Big data: A report on algorithmic systems, opportunity, and civil rights. Executive Office of the President, May 2016. [Zli15]
+
+Indre Zliobaite. On the relation between accuracy and fairness in binary
+classification. CoRR, abs/1505.05723, 2015. [ZWS+13]
+
+Richard S.

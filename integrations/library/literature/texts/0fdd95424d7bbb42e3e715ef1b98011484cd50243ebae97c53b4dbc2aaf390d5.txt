@@ -1,0 +1,57 @@
+For the weighting function, we use
+
+to make sure that API calls happen close to where the information provided by the API is actually helpful for the model. The thresholds and are chosen individually for each tool to ensure a sufficiently larger number of examples; see Appendix A for details. Table 2 shows relevant statistics of our final dataset augmented with API calls. Number of Examples
+
+API
+
+Question Answering
+
+051,987
+
+018,526
+
+005,135
+
+Wikipedia Search
+
+207,241
+
+060,974
+
+013,944
+
+Calculator
+
+003,680
+
+000,994
+
+000,138
+
+Calendar
+
+061,811
+
+020,587
+
+003,007
+
+Machine Translation
+
+003,156
+
+001,034
+
+000,229
+
+Table 2: Number of examples with API calls in for different values of our filtering threshold . Model Finetuning
+
+We finetune on using a batch size of 128 and a learning rate of with linear warmup for the first 10% of training. Details of our finetuning procedure are given in Appendix B. Baseline Models
+
+Throughout the remainder of this section, we mainly compare the following models:
+
+•
+
+GPT-J: A regular GPT-J model without any finetuning. •
+
+GPT-J + CC: GPT-J finetuned on , our subset of CCNet without any API calls.

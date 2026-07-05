@@ -1,0 +1,14 @@
+Packaging up every change to an application as an event
+is an interface style that not everyone is comfortable with, and many
+find to be awkward. As a result it's not a natural choice and to use
+it means that you expect to get some form of return. One obvious form of return is that it's easy to serialize the
+events to make an Audit Log.Such an audit
+trail is useful for audit, no shocks there, but also has other usages. I chatted with someone who got their online accounts into an awkward
+state and phoned in for help. He was impressed that the helper was
+able to tell him exactly what he did and thus was able to figure out
+how to fix it. To provide such a capability means exposing the audit
+trail to the support group so they can walk through a user's
+interaction. While Event Sourcing is a good way of doing this, you could
+also do this with more regular logging mechanisms, and that way not
+have to deal with the odd interface. Another use for this kind of complete Audit Log is to help with debugging. Of course, it's old hat
+to use log files for debugging production problems.

@@ -1,0 +1,13 @@
+For a given query , a language model generates a candidate solution ; a confidence estimator assigns a probability to the example. There are four outcomes based on the Minimum Bayes Risk (MBR) decision:
+
+1. True Positives (tp) := and is correct
+
+2. False Positives (fp) := and is incorrect
+
+3. False Negatives (fn) := and is correct
+
+4. True Negatives (tn) := and is incorrect
+
+Each of these four outcomes has an associated reward or utility: , , , that can be set by the user based on the task at hand. Given the number of true positives, false positives, false negatives, and true negatives (), the total utility . As a result, the MBR decision threshold for is defined as: 222See the Appendix Appendix A for a detailed derivation. (1)
+
+In our setting, the confidence estimator trusts the output generation if , and abstains if because it is Bayes-optimal to do so. Since a confidence estimator should get a greater reward for trusting when the generation is correct and abstaining when incorrect than the opposite, and . 333Often , and , because getting a classification decision correct generally yields a positive reward and getting it incorrect yields at most 0 reward.

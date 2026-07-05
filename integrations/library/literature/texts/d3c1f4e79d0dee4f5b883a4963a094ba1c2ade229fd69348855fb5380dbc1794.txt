@@ -1,0 +1,6 @@
+problem solving process demonstrated by \model is more factual and grounded, whereas CoT is more accurate in formulating reasoning structure but can easily suffer from hallucinated facts or thoughts. We therefore propose to incorporate \model and CoT-SC, and let the model decide when to switch to the other method based on the following heuristics:
+A)
+\model CoT-SC: when \model fails to return an answer within given steps, back off to CoT-SC. We set 7 and 5 steps for HotpotQA and FEVER respectively as we find more steps will not improve \model performance333Of all trajectories with correct final answers, those with 7 steps on HotpotQA and 5 steps on FEVER only take up 0.84% and 1.33% respectively.. B)
+CoT-SC \model: when the majority answer among CoT-SC samples occurs less than times (i.e. internal knowledge might not support the task confidently), back off to \model. Finetuning
+
+Due to the challenge of manually annotating reasoning traces and actions at scale, we consider a bootstraping approach similar to Zelikman et al.

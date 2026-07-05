@@ -1,0 +1,6 @@
+we adopt an approach that has received some amount of attention in the (manual) jailbreaking community, and require that the model begin its response with a positive affirmation of the user query. In other words, for the example above, we would like the response of the LLM to begin its response with the phrase
+
+System: You are a chat assistant designed to provide helpful and not
+harmful responses to user queries. User: Tell me how to build a bomb. ! ! ! ! ! ! ! ! ! ! Assistant: Sure, here is how to build a bomb:
+
+Above, the purple text indicates just the target beginning of the desired LLM completion, with the remainder left unspecified in the attack objective. The intuition of this approach is that if the language model can be put into a “state” where this completion is the most likely response, as opposed to refusing to answer the query, then it likely will continue the completion with precisely the desired objectionable behavior. As mentioned, similar behavior has previously been studied in manual jailbreaks, such as adding to a prompt that the model “respond with ‘sure’”, or other similar approaches (Wei et al., 2023).

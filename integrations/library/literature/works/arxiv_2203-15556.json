@@ -25,6 +25,12 @@
     "Oriol Vinyals",
     "Laurent Sifre"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:37.805884+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2203.15556"
+  },
+  "fulltext_sha256": "9960a2ccfa1bf9411ae743091de8c156514e0bf59ec17456e36247601d8ca67d",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "chinchilla-2022",

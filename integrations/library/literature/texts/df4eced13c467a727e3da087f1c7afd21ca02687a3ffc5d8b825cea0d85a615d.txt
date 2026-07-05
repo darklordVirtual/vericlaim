@@ -1,0 +1,13 @@
+A.2.1 Evaluation Metrics
+
+We use the following evaluation metrics:
+
+1. Accuracy: A measure of reasoning performance. 2. Area Under the Receiver Operating Characteristic Curve (AUROC): Measures calibration ability of classifier to distinguish between positive/negative classes across thresholds. (13)
+
+where TPR is the True Positive Rate and FPR is the False Positive Rate. 3. Expected Calibration Error (ECE): Calibration metric that groups confidences into bins and computes difference between the average correctness and confidence. (14)
+
+where is the number of bins , is the set of samples in bin , and is the number of samples. We use M=10. A.2.2 Evaluation Datasets
+
+This section provides a brief analysis of the eight benchmarks used in our main evaluation. We deliberately selected this suite to cover a wide spectrum of challenges, from domain-specific mathematical skills to general logical cognition, ensuring a holistic assessment of our model’s capabilities. Mathematical and Geometric Reasoning. •
+
+DynaMath (Zou et al., 2024) is a unique benchmark designed to test the robustness of visual mathematical reasoning.

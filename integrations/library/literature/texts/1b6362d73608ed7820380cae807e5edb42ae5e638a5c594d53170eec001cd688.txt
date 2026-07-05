@@ -1,0 +1,9 @@
+We display empirical trends for the test loss as a function of dataset size (in tokens) and training compute in Figure 1. For the trend with we trained a model with on fixed subsets of the WebText2 dataset. We stopped training once the test loss ceased to decrease. We see that the resulting test losses can be fit with simple power-law
+
+(3.2)
+
+in the dataset size. The data and fit appear in Figure 1. The total amount of non-embedding compute used during training can be estimated as , where is the batch size, is the number of parameter updates, and the factor of accounts for the forward and backward passes. Thus for a given value of we can scan over all models with various to find the model with the best performance on step . Note that in these results the batch size remains fixed for all models, which means that these empirical results are not truly optimal. We will account for this in later sections using an adjusted to produce cleaner trends. The result appears as the heavy black line on the left-hand plot in Figure 1. It can be fit with
+
+(3.3)
+
+The figure also includes images of individual learning curves to clarify when individual models are optimal.

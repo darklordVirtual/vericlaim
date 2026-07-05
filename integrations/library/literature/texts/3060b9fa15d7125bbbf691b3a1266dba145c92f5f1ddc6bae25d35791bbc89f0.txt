@@ -1,0 +1,13 @@
+S., Zhang, P., Zhang, Y., Li, X., Galley, M., Brockett, C., Wang, M.,
+and Gao, J. (2018). Towards coherent and cohesive long-form text generation. arXiv preprint arXiv:1811.00511. Choi et al., (2018)
+
+Choi, E., He, H., Iyyer, M., Yatskar, M., Yih, W.-t., Choi, Y., Liang, P., and
+Zettlemoyer, L. (2018). Quac: Question answering in context. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pages 2174–2184. Christiano et al., (2021)
+
+Christiano, P., Cotra, A., and Xu, M. (2021). Eliciting latent knowledge: How to tell if your eyes deceive you. https://www.alignmentforum.org/posts/qHCDysDnvhteW7kRd/arc-s-first-technical-report-eliciting-latent-knowledge. Christiano et al., (2018)
+
+Christiano, P., Shlegeris, B., and Amodei, D. (2018). Supervising strong learners by amplifying weak experts. arXiv preprint arXiv:1810.08575. Christiano et al., (2017)
+
+Christiano, P. F., Leike, J., Brown, T., Martic, M., Legg, S., and Amodei, D. (2017). Deep reinforcement learning from human preferences. In Advances in Neural Information Processing Systems, pages
+4299–4307.

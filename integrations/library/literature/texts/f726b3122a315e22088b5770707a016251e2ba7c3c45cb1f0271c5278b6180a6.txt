@@ -1,0 +1,31 @@
+Fine Grained
+
+TreeLSTM
+
+49.5%
+
+49.91%
+
+48.55%
+
+49.86%
+
+49.5%
+
+49.77%
+
+48.51%
+
+Table S2: Test error (%) on standard vision and NLP datasets before calibration and with various calibration methods. The number following a model’s name denotes the network depth. Error with temperature scaling is exactly the same as uncalibrated. Dataset
+
+Model
+
+Uncalibrated
+
+Hist. Binning
+
+Isotonic
+
+BBQ
+
+Temp.

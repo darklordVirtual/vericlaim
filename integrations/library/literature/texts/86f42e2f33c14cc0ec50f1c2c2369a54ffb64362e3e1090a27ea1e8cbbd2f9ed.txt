@@ -1,0 +1,46 @@
+Ashish Vaswani
+
+Google Brain
+
+avaswani@google.com
+
+&Noam Shazeer11footnotemark: 1
+
+Google Brain
+
+noam@google.com
+
+&Niki Parmar11footnotemark: 1
+
+Google Research
+
+nikip@google.com
+
+&Jakob Uszkoreit11footnotemark: 1
+
+Google Research
+
+usz@google.com
+
+&Llion Jones11footnotemark: 1
+
+Google Research
+
+llion@google.com
+
+&Aidan N. Gomez11footnotemark: 1
+
+University of Toronto
+
+aidan@cs.toronto.edu
+&Łukasz Kaiser11footnotemark: 1
+
+Google Brain
+
+lukaszkaiser@google.com
+
+&Illia Polosukhin11footnotemark: 1
+
+illia.polosukhin@gmail.com
+
+Equal contribution. Listing order is random. Jakob proposed replacing RNNs with self-attention and started the effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and has been crucially involved in every aspect of this work. Noam proposed scaled dot-product attention, multi-head attention and the parameter-free position representation and became the other person involved in nearly every detail. Niki designed, implemented, tuned and evaluated countless model variants in our original codebase and tensor2tensor.

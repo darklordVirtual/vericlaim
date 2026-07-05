@@ -1,0 +1,14 @@
+Teams that have made this
+measurement at Google were sometimes surprised by the results. YouTube home page
+switched to logging features at serving time with significant quality
+improvements and a reduction in code complexity, and many teams are switching
+their infrastructure as we speak. Rule #30: Importance-weight sampled data, don’t arbitrarily drop it! When you have too much data, there is a temptation to take files 1-12, and
+ignore files 13-99. This is a mistake. Although data that was
+never shown to the user can be dropped, importance weighting is best for the
+rest. Importance weighting means that if you decide that you are going to
+sample example X with a 30% probability, then give it a weight of 10/3. With
+importance weighting, all of the calibration properties discussed in
+Rule #14
+still hold. Rule #31: Beware that if you join data from a table at training and serving time, the data in the table may change. Say you join doc ids with a table containing features for those docs (such as
+number of comments or clicks). Between training and serving time, features in
+the table may be changed.

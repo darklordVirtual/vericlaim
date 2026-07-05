@@ -1,0 +1,15 @@
+Polozov, Katherine Lee, Zongwei Zhou, Xuezhi
+Wang, Brennan Saeta, Mark Diaz, Orhan Firat, Michele Catasta, Jason Wei,
+Kathy Meier-Hellstern, Douglas Eck, Jeff Dean, Slav Petrov, and Noah Fiedel. PaLM: Scaling language modeling with pathways, 2022. URL https://arxiv.org/abs/2204.02311. Chu et al. (2017)
+
+Casey Chu, Andrey Zhmoginov, and Mark Sandler. CycleGAN, a master of steganography, 2017. URL https://arxiv.org/abs/1712.02950. Cilibrasi & Vitanyi (2007)
+
+Rudi L. Cilibrasi and Paul M.B. Vitanyi. The Google similarity distance. IEEE Transactions on Knowledge and Data Engineering,
+19(3):370--383, 2007. doi: 10.1109/TKDE.2007.48. Clark et al. (2022)
+
+Aidan Clark, Diego de las Casas, Aurelia Guy, Arthur Mensch, Michela Paganini,
+Jordan Hoffmann, Bogdan Damoc, Blake Hechtman, Trevor Cai, Sebastian
+Borgeaud, George van den Driessche, Eliza Rutherford, Tom Hennigan, Matthew
+Johnson, Katie Millican, Albin Cassirer, Chris Jones, Elena Buchatskaya,
+David Budden, Laurent Sifre, Simon Osindero, Oriol Vinyals, Jack Rae, Erich
+Elsen, Koray Kavukcuoglu, and Karen Simonyan. Unified scaling laws for routed language models, 2022. URL https://arxiv.org/abs/2202.01169. Clark et al.

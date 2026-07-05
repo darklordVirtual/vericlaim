@@ -6,6 +6,12 @@
     "Eric Price",
     "Nathan Srebro"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:14:39.020314+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1610.02413"
+  },
+  "fulltext_sha256": "b2e7be961173bc0da3dde6662ffd233337feae966146b729bd8b9157ecdeae2c",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "equality-opportunity-2016",

@@ -1,0 +1,18 @@
+Jing, S. Ye, J. Shao, et al. (2025b)
+InternVL3.5: advancing open-source multimodal models in versatility, reasoning, and efficiency. arXiv preprint arXiv:2508.18265. Cited by: §1,
+§4.1. X. Wang, J. Wei, D. Schuurmans, Q. Le, E. Chi, S. Narang, A. Chowdhery, and D. Zhou (2023)
+Self-consistency improves chain of thought reasoning in language models. External Links: 2203.11171,
+Link
+
+Cited by: §1,
+§2,
+§5. W. Xiao and L. Gan (2025)
+Fast-slow thinking GRPO for large vision-language model reasoning. In The Thirty-ninth Annual Conference on Neural Information Processing Systems,
+
+External Links: Link
+
+Cited by: §2. W. Xiao, Z. Huang, L. Gan, W. He, H. Li, Z. Yu, F. Shu, H. Jiang, and L. Zhu (2025)
+Detecting and mitigating hallucination in large vision language models via fine-grained ai feedback. In Proceedings of the AAAI Conference on Artificial Intelligence,
+
+Vol. 39, pp. 25543–25551. Cited by: §1. W. Xiao, Z. Wang, L. Gan, S. Zhao, Z. Li, R. Lei, W. He, L. A. Tuan, L. Chen, H. Jiang, et al. (2024a)
+A comprehensive survey of direct preference optimization: datasets, theories, variants, and applications. arXiv preprint arXiv:2410.15595. Cited by: §2. Y. Xiao, E. Sun, T. Liu, and W.

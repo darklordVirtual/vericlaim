@@ -1,0 +1,11 @@
+The BIG-bench API defines how benchmark tasks interact with the model and measure its performance. It provides a high-level and framework-agnostic representation of language models. BIG-bench supports two types of tasks: JSON and programmatic. About 80% of benchmark tasks are JSON tasks. They are defined by
+a JSON file, which contains a list of examples made up of inputs and targets. Performance is evaluated by
+comparing generated model outputs to targets using standard metrics (e.g., ROUGE), or based on model-assigned probabilities (e.g., in answering multiple-choice questions). The example-based specification of JSON tasks also allows for easy few-shot evaluation (Brown et al., 2020). About 20% of benchmark tasks are programmatic. They are written in Python and have the ability to interact directly with the model over multiple query rounds, as well as to measure performance using custom metrics. A programmatic task is
+called with
+a model object, and can query the model using the following methods:
+
+•
+
+generate_text: Generates text continuations for given inputs. •
+
+cond_log_prob: Computes conditional log probabilities of targets given inputs.

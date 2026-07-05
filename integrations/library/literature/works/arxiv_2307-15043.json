@@ -9,6 +9,12 @@
     "J. Zico Kolter",
     "Matt Fredrikson"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:17.716208+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2307.15043"
+  },
+  "fulltext_sha256": "a3a2dd4822b9725510e1d00969b896d210b5a45aa86bc0d6a1f5923656f7319c",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "universal-attacks-2023",

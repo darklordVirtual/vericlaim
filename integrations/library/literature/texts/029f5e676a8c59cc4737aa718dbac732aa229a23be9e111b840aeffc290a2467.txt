@@ -1,0 +1,9 @@
+At test time, RAG-Sequence and RAG-Token require different ways to approximate . RAG-Token
+
+The RAG-Token model can be seen as a standard, autoregressive seq2seq generator with transition probability:
+
+To decode, we can plug into a standard beam decoder. RAG-Sequence
+
+For RAG-Sequence, the likelihood does not break into a conventional per- token likelihood, hence we cannot solve it with a single beam search. Instead, we run beam search for each document , scoring each hypothesis using . This yields a set of hypotheses , some of which may not have appeared in the beams of all documents. To estimate the probability of an hypothesis
+we run an additional forward pass for each document for which does not appear in the beam, multiply generator probability with and then sum the probabilities across beams for the marginals. We refer to this decoding procedure as “Thorough Decoding.”
+For longer output sequences, can become large, requiring many forward passes. For more efficient decoding, we can make a further approximation that where was not generated during beam search from . This avoids the need to run additional forward passes once the candidate set has been generated.

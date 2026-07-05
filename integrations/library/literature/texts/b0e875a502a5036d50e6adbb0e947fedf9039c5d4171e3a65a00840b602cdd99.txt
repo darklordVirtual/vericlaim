@@ -1,0 +1,12 @@
+Your model
+thus gives less weight to other factors for examples with "1st­position=true". Then at serving you don't give any instances the positional feature, or you give
+them all the same default feature, because you are scoring candidates before you
+have decided the order in which to display them. Note that it is important to keep any positional features somewhat separate from
+the rest of the model because of this asymmetry between training and testing. Having the model be the sum of a function of the positional features and a
+function of the rest of the features is ideal. For example, don’t cross the
+positional features with any document feature. Rule #37: Measure Training/Serving Skew. There are several things that can cause skew in the most general sense. Moreover, you can divide it into several parts:
+
+The difference between the performance on the training data and the holdout
+data. In general, this will always exist, and it is not always bad. The difference between the performance on the holdout data and the "next­day"
+data. Again, this will always exist. You should tune your regularization to
+maximize the next-day performance.

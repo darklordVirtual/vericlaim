@@ -1,0 +1,9 @@
+By using in
+white-box model inversion attacks, we obtain results that are visually
+indistinguishable from the ones obtained using the true . Given the
+extracted model , we can recover all faces using white-box
+attacks, incurring around fewer remote queries to than with
+black-box attacks. For black-box attacks, the authors of [23] estimate a query
+latency of milliseconds (a little less than in our own measurements of ML services, see Table 1). Thus, it takes minutes to recover a single face (the inversion attack runs in seconds), and hours to recover all images. In contrast, solving the large equation system
+underlying our model-extraction attack took hours. The online queries would take under one hour if executed sequentially and even less with a batch query. The cost of the local white-box attacks is negligible. Thus, if the goal is to reconstruct faces for all training individuals,
+performing model inversion over a previously extracted model results in an attack that is both faster and requires fewer online queries.

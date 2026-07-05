@@ -1,0 +1,19 @@
+Lemma 5.5. Let be random variables in the same probability space as and
+Then, for any point on a restricted ROC curve of there is a point
+on the corresponding restricted ROC curve of such that
+
+Proof. Assume the point is achieved by thresholding at Let be
+the point on the ROC curve achieved by thresholding at the same threshold
+After applying the definition to bound the distance in each coordinate,
+the claim follows from Pythagoras’ theorem. ∎
+
+We can now show that an equalized odds predictor derived from a nearly optimal
+regressor is still nearly optimal among all equal odds predictors, while
+quantifying the loss in terms of the conditional Kolmogorov distance. Theorem 5.6 (Near optimality). Assume that is a bounded loss function, and let be an
+arbitrary random variable. Then, there is an optimal equalized odds
+predictor and an equalized odds predictor derived from
+such that
+
+where is the Bayes optimal regressor. The same claim is true for equal
+opportunity. Proof of Theorem 5.6. We prove the claim for equalized odds. The case of equal opportunity is
+analogous.

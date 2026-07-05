@@ -1,0 +1,15 @@
+The test loss of a Transformer trained to autoregressively model language can be predicted using a power-law when performance is limited by only either the number of non-embedding parameters , the dataset size , or the optimally allocated compute budget (see Figure 1):
+
+1. For models with a limited number of parameters, trained to convergence on sufficiently large datasets:
+
+(1.1)
+
+2. For large models trained with a limited dataset with early stopping:
+
+(1.2)
+
+3. When training with a limited amount of compute, a sufficiently large dataset, an optimally-sized model, and a sufficiently small batch size (making optimal222We also observe an empirical power-law trend with the training compute (Figure 1) while training at fixed batch size, but it is the trend with that should be used to make predictions. They are related by equation (5.5). use of compute):
+
+(1.3)
+
+These relations hold across eight orders of magnitude in , six orders of magnitude in , and over two orders of magnitude in .

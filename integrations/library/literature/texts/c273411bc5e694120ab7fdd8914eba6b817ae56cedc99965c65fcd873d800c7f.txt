@@ -1,0 +1,27 @@
+OUP Oxford. Raghavan et al. (2020)
+
+Manish Raghavan, Solon
+Barocas, Jon Kleinberg, and Karen
+Levy. 2020. Mitigating bias in algorithmic hiring: Evaluating
+claims and practices. In Proceedings of the 2020
+conference on fairness, accountability, and transparency. 469–481. Raji and Buolamwini (2019)
+
+Inioluwa Deborah Raji and
+Joy Buolamwini. 2019. Actionable auditing: Investigating the impact of
+publicly naming biased performance results of commercial ai products. In
+Proceedings of the 2019 AAAI/ACM Conference on AI,
+Ethics, and Society. 429–435. Raji et al. (2020a)
+
+Inioluwa Deborah Raji,
+Timnit Gebru, Margaret Mitchell,
+Joy Buolamwini, Joonseok Lee, and
+Emily Denton. 2020a. Saving face: Investigating the ethical concerns of
+facial recognition auditing. In Proceedings of the
+AAAI/ACM Conference on AI, Ethics, and Society. 145–151. Raji et al. (2020b)
+
+Inioluwa Deborah Raji,
+Andrew Smart, Rebecca N White,
+Margaret Mitchell, Timnit Gebru,
+Ben Hutchinson, Jamila Smith-Loud,
+Daniel Theron, and Parker Barnes. 2020b. Closing the AI accountability gap: Defining an
+end-to-end framework for internal algorithmic auditing.

@@ -1,0 +1,17 @@
+A., Everitt, T., Lefrancq, A.,
+Orseau, L., and Legg, S. (2017). AI safety gridworlds. arXiv preprint arXiv:1711.09883. Liang et al., (2021)
+
+Liang, P. P., Wu, C., Morency, L.-P., and Salakhutdinov, R. (2021). Towards understanding and mitigating social biases in language
+models. In International Conference on Machine Learning, pages
+6565–6576. PMLR. Lin et al., (2021)
+
+Lin, S., Hilton, J., and Evans, O. (2021). Truthfulqa: Measuring how models mimic human falsehoods. arXiv preprint arXiv:2109.07958. Liu et al., (2019)
+
+Liu, H., Dacon, J., Fan, W., Liu, H., Liu, Z., and Tang, J. (2019). Does gender matter? towards fairness in dialogue systems. arXiv preprint arXiv:1910.10486. Madaan et al., (2022)
+
+Madaan, A., Tandon, N., Clark, P., and Yang, Y. (2022). Memory-assisted prompt editing to improve gpt-3 after deployment. arXiv preprint arXiv:2201.06009. Manela et al., (2021)
+
+Manela, D. d. V., Errington, D., Fisher, T., van Breugel, B., and Minervini, P. (2021). Stereotype and skew: Quantifying gender bias in pre-trained and
+fine-tuned language models. arXiv preprint arXiv:2101.09688. Mishra et al., (2021)
+
+Mishra, S., Khashabi, D., Baral, C., and Hajishirzi, H. (2021).

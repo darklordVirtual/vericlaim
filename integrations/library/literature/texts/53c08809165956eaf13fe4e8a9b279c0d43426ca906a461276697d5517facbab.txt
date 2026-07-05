@@ -1,0 +1,29 @@
+in product safety;
+
+(k)
+
+the extent to which existing Union law provides for:
+
+(i)
+
+effective measures of redress in relation to the risks posed by an AI system, with the exclusion of claim s for damages;
+
+(ii)
+
+effective measures to prevent or substantially minimise those risks. 3. The Commission is empowered to adopt delegated acts in accordance with Article 97 to amend the list in Annex III by removing high-risk AI systems where both of the following conditions are fulfilled:
+
+(a)
+
+the high-risk AI system concerned no longer poses any significant risks to fundamental rights, health or safety, taking into account the criteria listed in paragraph 2;
+
+(b)
+
+the deletion does not decrease the overall level of protection of health, safety and fundamental rights under Union law. SECTION 2
+
+Requirements for high-risk AI systems
+
+Article 8
+
+Compliance with the requirements
+
+1. High-risk AI systems shall comply with the requirements laid down in this Section, taking into account their intended purpose as well as the generally acknowledged state of the art on AI and AI-related technologies.

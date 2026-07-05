@@ -1,0 +1,14 @@
+A cross is a new feature column with features in,
+for example, {male, female} × {US,Canada, Mexico}. This new feature column
+will contain the feature (male, Canada). If you are using TensorFlow and you
+tell TensorFlow to create this cross for you, this (male, Canada) feature will
+be present in examples representing male Canadians. Note that it takes massive
+amounts of data to learn models with crosses of three, four, or more base
+feature columns. Crosses that produce very large feature columns may overfit. For instance,
+imagine that you are doing some sort of search, and you have a feature column
+with words in the query, and you have a feature column with words in the
+document. You can combine these with a cross, but you will end up with a lot of
+features (see Rule #21). When working with text there are two alternatives. The most draconian is a
+dot product. A dot product in its simplest form simply counts the number of
+words in common between the query and the document. This feature can then be
+discretized.

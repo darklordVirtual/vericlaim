@@ -1,0 +1,16 @@
+As well as events playing themselves forwards, it's also
+often useful for them to be able to reverse themselves. Reversal is the most straightforward when the event is cast
+in the form of a difference. An example of this would be “add $10 to
+Martin's account” as opposed to “set Martin's account to $110”. In
+the former case I can reverse by just subtracting $10, but in the
+latter case I don't have enough information to recreate the past value
+of the account. If the input events don't follow the difference approach,
+then the event should ensure it stores everything needed for reversal
+during processing. You can do this by storing the previous values on
+any value that is changed, or by calculating and storing differences
+on the event. This requirement to store has a significant consequence when
+the processing logic is inside a domain model, since the domain model
+may alter its internal state in ways which shouldn't be visible to the
+event object's processing. In this case it's best to design the domain
+model to be aware of events and to be able to use them in order to
+store prior values.

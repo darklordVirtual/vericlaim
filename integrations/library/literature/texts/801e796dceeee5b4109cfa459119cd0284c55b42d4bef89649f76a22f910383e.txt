@@ -1,0 +1,20 @@
+[BS16]
+
+Solon Barocas and Andrew Selbst. Big data’s disparate impact. California Law Review, 104, 2016. [BZVGRG15]
+
+Muhammad Bilal Zafar, Isabel Valera, Manuel Gomez Rodriguez, and Krishna P
+Gummadi. Learning fair classifiers. CoRR, abs:1507.05259, 2015. [CKP09]
+
+T. Calders, F. Kamiran, and M. Pechenizkiy. Building classifiers with independency constraints. In In Proc. IEEE International Conference on Data Mining
+Workshops, pages 13–18, 2009. [DHP+12]
+
+Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard S. Zemel. Fairness through awareness. In Proc. ACM ITCS, pages 214–226, 2012. [FFM+15]
+
+Michael Feldman, Sorelle A. Friedler, John Moeller, Carlos Scheidegger, and
+Suresh Venkatasubramanian. Certifying and removing disparate impact. In Proc. st ACM SIGKDD, pages 259–268. ACM, 2015. [KMR16]
+
+Jon M. Kleinberg, Sendhil Mullainathan, and Manish Raghavan. Inherent trade-offs in the fair determination of risk scores. CoRR, abs/1609.05807, 2016. [LSL+15]
+
+Christos Louizos, Kevin Swersky, Yujia Li, Max Welling, and Richard S. Zemel. The variational fair autoencoder. CoRR, abs/1511.00830, 2015. [PPM+14]
+
+John Podesta, Penny Pritzker, Ernest J.

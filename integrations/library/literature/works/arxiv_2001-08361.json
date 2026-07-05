@@ -13,6 +13,12 @@
     "Jeffrey Wu",
     "Dario Amodei"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:14:56.787038+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2001.08361"
+  },
+  "fulltext_sha256": "88aca43b32f0ab13d1ab97b9e571cf976433d3ace5d1aae750655e432023e66a",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "scaling-laws-2020",

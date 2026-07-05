@@ -1,0 +1,37 @@
+Action 2:
+
+Search[Linda Hart]... CoT
+
+Question:
+
+Who is older Danny Green or James Worthy? Thought:
+
+Let’s think step by step. Danny Green was born in 1987. James Worthy was born in 1961. 1987 (Danny Green) > 1961 (James Worthy), so Danny Green is older. Answer:
+
+Danny Green
+
+Failure: Search error
+
+\model
+
+Question:
+
+What does the goddess associated with the goddess frigg consists of what tales? Thought 1:
+
+I need to search goddess frigg and find its associated goddess. Action 1:
+
+Search[goddess frigg]
+
+Observation 1:
+
+Could not find goddess frigg. Similar: [’Frigg’, ’Frigg and Freyja common origin hypothesis’, ’Freyja (section Relation to Frigg and other goddesses and figures)’, ’Eir (redirect from Eir (goddess))’, ’Baldr’]. Thought 2:
+
+I need to search Frigg instead... Failure: Hallucination
+
+CoT
+
+Question:
+
+What was the first year a scientific journal published by an organization located in the Bronx was published? Thought:
+
+Let’s think step by step. The first year a scientific journal published by an organization located in the Bronx was published was 1916.

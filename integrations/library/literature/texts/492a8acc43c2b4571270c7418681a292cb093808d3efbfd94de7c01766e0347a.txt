@@ -1,0 +1,18 @@
+Kim et al. (2020)
+
+B. Kim, K. S. Ki, D. Lee, and G. Gweon. Point to the expression: Solving algebraic word problems using the
+expression-pointer transformer model. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pages 3768–3779, 2020. Kushman et al. (2014)
+
+N. Kushman, Y. Artzi, L. Zettlemoyer, and R. Barzilay. Learning to automatically solve algebra word problems. In Proceedings of the 52nd Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 271–281, 2014. Lample and Charton (2019)
+
+G. Lample and F. Charton. Deep learning for symbolic mathematics. arXiv preprint arXiv:1912.01412, 2019. Li et al. (2020)
+
+S. Li, L. Wu, S. Feng, F. Xu, F. Xu, and S. Zhong. Graph-to-tree neural networks for learning structured input-output
+translation with applications to semantic parsing and math word problem. EMNLP, 2020. Liang et al. (2021)
+
+Z. Liang, J. Zhang, J. Shao, and X. Zhang. Mwp-bert: A strong baseline for math word problems, 07 2021. Ling et al. (2017)
+
+W. Ling, D. Yogatama, C. Dyer, and P. Blunsom. Program induction by rationale generation: Learning to solve and
+explain algebraic word problems.

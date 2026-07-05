@@ -1,0 +1,13 @@
+URL https://arxiv.org/abs/1910.03771. Won et al. (2021)
+
+Min-Sub Won, YunSeok Choi, Samuel Kim, CheolWon Na, and Jee-Hyong Lee. An embedding method for unseen words considering contextual
+information and morphological information. In Proceedings of the 36th Annual ACM Symposium on Applied
+Computing, SAC ’21, pp. 1055–1062, New York, NY, USA, 2021. Association for Computing Machinery. doi: 10.1145/3412841.3441982. URL https://doi.org/10.1145/3412841.3441982. Wu et al. (2012)
+
+Bo Wu, Pedro Szekely, and Craig A. Knoblock. Learning data transformation rules through examples: Preliminary
+results. In Proceedings of the Ninth International Workshop on
+Information Integration on the Web, IIWeb ’12, New York, NY, USA, 2012. Association for Computing Machinery. doi: 10.1145/2331801.2331809. URL https://doi.org/10.1145/2331801.2331809. Wu et al. (2020)
+
+Shijie Wu, Ryan Cotterell, and Mans Hulden. Applying the transformer to character-level transduction, 2020. URL https://arxiv.org/abs/2005.10213. Wu et al. (2016)
+
+Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V.

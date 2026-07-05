@@ -1,0 +1,9 @@
+Understanding social bias in machine learning systems in general and language models in particular is an important, multifaceted challenge, and it has been the subject of much prior work (Bolukbasi et al., 2016; Keyes, 2018; Spiel et al., 2019; Parrish et al., 2021; Luccioni & Viviano, 2021; Birhane et al., 2021; Talat et al., 2022). A thorough discussion and quantification of bias is beyond the scope of this overview paper. However, evaluation of BIG-bench tasks designed to measure social bias provides several high-level takeaways:
+
+•
+
+Bias often increases with scale in settings with broad or ambiguous context. •
+
+Bias can decrease with scale in settings with narrow, unambiguous context. •
+
+Bias can potentially be steered through appropriately chosen prompting. What is meant by social bias? Social bias is a widely used term and can take on different meanings in different contexts. Most BIG-bench tasks focus on a narrow, yet precise, notion of bias: Given a fixed context involving people, with potential completions, does a model show a systematic preference for members of one category over another or for associating particular attributes with particular categories?

@@ -1,0 +1,143 @@
+As discussed below, during the writing process, we shifted our focus to verifiable claims in particular, rather than trust more broadly. Workshop attendees are listed below in alphabetical order:
+
+•
+
+Amanda Askell
+
+•
+
+Andrew Critch
+
+•
+
+Andrew Lohn
+
+•
+
+Andrew Reddie
+
+•
+
+Andrew Trask
+
+•
+
+Ben Garfinkel
+
+•
+
+Brian Tse
+
+•
+
+Catherine Olsson
+
+•
+
+Charina Chou
+
+•
+
+Chris Olah
+
+•
+
+David Luan
+
+•
+
+Dawn Song
+
+•
+
+Emily Oehlsen
+
+•
+
+Eric Sigler
+
+•
+
+Genevieve Fried
+
+•
+
+Gillian Hadfield
+
+•
+
+Heidy Khlaaf
+
+•
+
+Helen Toner
+
+•
+
+Ivan Vendrov
+
+•
+
+Jack Clark
+
+•
+
+Jeff Alstott
+
+•
+
+Jeremy Nixon
+
+•
+
+Jingying Yang
+
+•
+
+Joshua Kroll
+
+•
+
+Lisa Dyer
+
+•
+
+Miles Brundage
+
+•
+
+Molly Welch
+
+•
+
+Paul Christiano
+
+•
+
+Peter Eckersley
+
+•
+
+Seán Ó hÉigeartaigh
+
+•
+
+Shahar Avin
+
+•
+
+Shixiong (Austin) Zhang
+
+•
+
+Teddy Collins
+
+•
+
+Tim Hwang
+
+•
+
+William Isaac
+
+Given our initial focus on synthesizing and extending existing work, we brought together experts in dimensions of trust that were identified in a pre-workshop white paper, several of which are discussed in this report (such as secure enclaves, third party auditing, and privacy-preserving machine learning). However, a number of voices were missing from that conversation.

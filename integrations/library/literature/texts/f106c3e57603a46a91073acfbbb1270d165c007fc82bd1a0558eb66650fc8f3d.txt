@@ -1,0 +1,9 @@
+Deriving the DPO objective. We start with the same RL objective as prior work, Eq. 3, under a general reward function . Following prior work [31, 30, 19, 15], it is straightforward to show that the optimal solution to the KL-constrained reward maximization objective in Eq. 3 takes the form:
+
+(4)
+
+where is the partition function. See Appendix A.1 for a complete derivation. Even if we use the MLE estimate of the ground-truth reward function , it is still expensive to estimate the partition function [19, 15], which makes this representation hard to utilize in practice. However, we can rearrange Eq. 4 to express the reward function in terms of its corresponding optimal policy , the reference policy , and the unknown partition function . Specifically, we first take the logarithm of both sides of Eq. 4 and then with some algebra we obtain:
+
+(5)
+
+We can apply this reparameterization to the ground-truth reward and corresponding optimal model . Fortunately, the Bradley-Terry model depends only on the difference of rewards between two completions, i.e., . Substituting the reparameterization in Eq. 5 for into the preference model Eq.

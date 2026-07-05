@@ -1,0 +1,11 @@
+the
+questions with “Unknown to the authors of the datasheet.” This is
+because we did not create the dataset ourselves and could not find the
+answers to these questions in the available documentation. For an
+example of a datasheet that was created by the creators of the
+corresponding dataset, please see that of Cao and
+Daumé (Cao and Daumé, 2020).222See https://github.com/TristaCao/into_inclusivecoref/blob/master/GICoref/datasheet-gicoref.md. We
+note that even dataset creators may be unable to answer all of the
+questions provided in this section. We recommend answering as many
+questions as possible rather than skipping the datasheet creation
+process entirely.

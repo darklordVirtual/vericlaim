@@ -1,0 +1,16 @@
+URL https://aclanthology.org/N19-1395. Faltings et al. (2020)
+
+Felix Faltings, Michel Galley, Gerold Hintz, Chris Brockett, Chris Quirk,
+Jianfeng Gao, and Bill Dolan. Text editing by command, 2020. URL https://arxiv.org/abs/2010.12826. Fan et al. (2018)
+
+Angela Fan, Mike Lewis, and Yann Dauphin. Hierarchical neural story generation. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp. 889--898,
+Melbourne, Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/P18-1082. URL https://aclanthology.org/P18-1082. Fan et al. (2021)
+
+Angela Fan, Shruti Bhosale, Holger Schwenk, Zhiyi Ma, Ahmed El-Kishky,
+Siddharth Goyal, Mandeep Baines, Onur Celebi, Guillaume Wenzek, Vishrav
+Chaudhary, Naman Goyal, Tom Birch, Vitaliy Liptchinsky, Sergey Edunov,
+Michael Auli, and Armand Joulin. Beyond English-centric multilingual machine translation. Journal of Machine Learning Research, 22(107):1--48, 2021. URL http://jmlr.org/papers/v22/20-1307.html. Fan et al. (2020)
+
+Xiaochao Fan, Hongfei Lin, Liang Yang, Yufeng Diao, Chen Shen, Yonghe Chu, and
+Yanbo Zou.

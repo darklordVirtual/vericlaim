@@ -1,0 +1,21 @@
+Association for Computational Linguistics. Logan IV et al. (2019)
+
+Robert L Logan IV, Nelson F Liu, Matthew E Peters, Matt Gardner, and Sameer
+Singh. 2019. Barack’s wife hillary: Using knowledge-graphs for fact-aware language
+modeling. arXiv preprint arXiv:1906.07241. Maynez et al. (2020)
+
+Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. 2020. On
+faithfulness and factuality in abstractive summarization. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pages 1906–1919, Online. Association for
+Computational Linguistics. McGuffie and Newhouse (2020)
+
+Kris McGuffie and Alex Newhouse. 2020. The radicalization risks of
+GPT-3 and advanced neural language models. CoRR, abs/2009.06807. Nakano et al. (2021)
+
+Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina
+Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders,
+Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew
+Knight, Benjamin Chess, and John Schulman. 2021. Webgpt: Browser-assisted
+question-answering with human feedback. CoRR, abs/2112.09332. OpenAI (2020)
+
+OpenAI. 2020. Openai api.

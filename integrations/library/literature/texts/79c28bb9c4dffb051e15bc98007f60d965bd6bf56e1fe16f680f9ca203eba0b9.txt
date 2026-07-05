@@ -1,0 +1,17 @@
+Association for Computing Machinery. ISBN 9781450348928. 10.1145/3079856.3080246. URL https://doi.org/10.1145/3079856.3080246. Kaplan et al. (2020)
+
+J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,
+S. Gray, A. Radford, J. Wu, and D. Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020. Kingma and Ba (2014)
+
+D. P. Kingma and J. Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014. Kudo and Richardson (2018)
+
+T. Kudo and J. Richardson. SentencePiece: A simple and language independent subword tokenizer
+and detokenizer for neural text processing. arXiv preprint arXiv:1808.06226, 2018. Kwiatkowski et al. (2019)
+
+T. Kwiatkowski, J. Palomaki, O. Redfield, M. Collins, A. Parikh, C. Alberti,
+D. Epstein, I. Polosukhin, M. Kelcey, J. Devlin, K. Lee, K. N. Toutanova,
+L. Jones, M.-W. Chang, A. Dai, J. Uszkoreit, Q. Le, and S. Petrov. Natural questions: a benchmark for question answering research. Transactions of the Association of Computational Linguistics,
+2019. Lai et al. (2017)
+
+G. Lai, Q. Xie, H. Liu, Y. Yang, and E. Hovy. RACE: Large-scale ReAding comprehension dataset from
+examinations.

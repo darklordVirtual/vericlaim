@@ -1,0 +1,3 @@
+is a configuration parameter of the deployment, set per judge. •
+
+The gate is what bounds precision cost. Quantitatively, with a calibrated gate the escalate-only judge is net-positive in-distribution across every model tier we test; the best in-distribution operating point on the independent 630 corpus is a Sonnet-4.6 gated hybrid at 98.3 / 2.1 / 0.9 (accuracy / FPR / FNR), versus the rule floor’s 95.4 / 2.1 / 6.1 — the judge closes the recall gap with the false-positive rate held flat (§5.2).

@@ -1,0 +1,17 @@
+FPR computation),
+GPT-4o-mini achieves 2.5% FPR on Chinese and 7.5% on English;
+Qwen2.5-14B and Qwen3.5-9B show complementary patterns
+(Qwen2.5-14B: 0% ZH / 2.5% EN; Qwen3.5-9B: 20.0% ZH / 2.5% EN). Notably, Qwen2.5-14B’s plugin-specific FPR (0% ZH) is lower
+than its TC1/TC2 FPR (9.7%), suggesting it is less prone to
+over-blocking plugin-formatted calls than general tool calls. In contrast, Llama-3.1-8B blocks 87.5% of benign plugins on Chinese
+and 55.0% on English (), confirming that
+its high TC3 IR partly reflects indiscriminate rejection of
+plugin-formatted calls rather than genuine semantic analysis. Qwen3.5-4B shows a similar pattern to Qwen3.5-9B
+(25.0% ZH / 17.5% EN plugin FPR), consistent with its
+elevated TC1/TC2 FPR (27.5%). These results provide a preliminary indication (given
+benign and malicious per language)
+that GPT-4o-mini and Qwen2.5-14B distinguish malicious
+side-channels from legitimate plugin telemetry, while
+smaller or less capable judges require the structural
+enforcement of Layer 3 to avoid excessive false positives
+on plugin workloads. Table 6.

@@ -1,0 +1,5 @@
+A [DPO] more effectively summarizes the main points of the post, concisely conveying the asker’s anxiety and goal of finding ways to relax. Table 5: Sample summaries to a post from the TL;DR test set. DPO sample generated with a temperature 0.25; PPO sample generated at a temperature of 0. The order in which summaries are presented in randomized when evaluating with GPT-4, so the order in the Judgment may not correspond to the order in the table. For clarity, post-hoc annotations are included in bold, formatted as [annotation]. These annotations are not part of the model generations. Prompt
+
+SUBREDDIT: r/loseit
+TITLE: Is It Bullshit?: Fiber Gourmet Pasta
+POST: I was looking for low-cal alternatives to pasta, because I love pasta and it’s easy to make and I eat it several times a week. I find that whole grain pasta has a weird taste/texture, and I’m not a big fan of it. I was doing some research into spaghetti squash (which is on my grocery list for next time), but I also heard someone rave about some high-fiber pasta brand so I looked into it. What sorcery is this?

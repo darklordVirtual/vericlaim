@@ -1,0 +1,17 @@
+Weber & Jaimes (2011)
+
+Ingmar Weber and Alejandro Jaimes. Who uses web search for what: And how. In Proceedings of the Fourth ACM International Conference on
+Web Search and Data Mining, WSDM ’11, pp. 15–24, New York, NY, USA,
+2011. Association for Computing Machinery. doi: 10.1145/1935826.1935839. URL https://doi.org/10.1145/1935826.1935839. Wechsler (2008)
+
+David Wechsler. Wechsler Adult Intelligence Scale–Fourth Edition
+(WAIS–IV). Pearson, San Antonio, 2008. Wei et al. (2021)
+
+Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian
+Lester, Nan Du, Andrew M Dai, and Quoc V. Le. Finetuned language models are zero-shot learners, 2021. URL https://arxiv.org/abs/2109.01652. Wei et al. (2022)
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc V. Le, and
+Denny Zhou. Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903, 2022. URL https://arxiv.org/abs/2201.11903. Weller & Seppi (2019)
+
+Orion Weller and Kevin Seppi. Humor detection: A transformer gets the last laugh.

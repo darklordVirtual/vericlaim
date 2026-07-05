@@ -1,0 +1,17 @@
+4.3%) though the gap is smaller. This suggests that RAG-poisoning attacks produce more
+semantically anomalous tool calls that even shallow NLI models
+can partially detect, while direct injections craft more
+plausible-looking tool calls. Notably, Qwen2.5-14B achieves perfect direct-injection
+interception (100% D on both ZH and EN), the only perfect
+subtype score in Table 3; this likely reflects
+the high semantic anomaly of direct injections for larger models
+rather than a data artifact. 7.4.3. Threat Class 3: Malicious Skill Plugins
+
+The Plugin column (P) in Table 3 reveals a
+markedly lower interception rate compared to TC1/TC2 subtypes:
+GPT-4o-mini achieves 75.0% (ZH) and 94.2% (EN),
+Qwen2.5-14B reaches 77.5% (ZH) and 88.3% (EN), and
+Qwen3.5-9B reaches 77.5% on both languages—versus
+92–100% on direct/indirect injection and RAG poisoning. BART-MNLI blocks everything on Chinese (100% IR / 100% FPR)
+yet reaches only 63.3% on English, suggesting that the tested NLI models
+cannot reliably detect permission-boundary violations.

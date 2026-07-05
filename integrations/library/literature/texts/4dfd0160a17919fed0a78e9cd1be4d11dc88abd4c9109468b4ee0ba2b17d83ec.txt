@@ -1,0 +1,1 @@
+Table 1: Four types of reflection tokens used in Self-Rag. Each type uses several tokens to represent its output values. The bottom three rows are three types of \tikzmarknode[draw=myblue,thick,inner sep=2pt]testCritique tokens, and the bold text indicates the most desirable critique tokens. indicate input, output, and a relevant passage, respectively.

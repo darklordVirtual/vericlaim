@@ -1,0 +1,15 @@
+where the goal is to predict a true outcome from features
+based on labeled training data, while ensuring they are “non-discriminatory”
+with respect to a specified protected attribute . As in the usual supervised
+learning setting, we assume that we have access to labeled training data, in our
+case indicating also the protected attribute . That is, to samples from the
+joint distribution of . This data is used to construct a predictor
+or , and we also use such data to test whether it is
+unfairly discriminatory. Unlike demographic parity, our notion always allows for the perfectly accurate
+solution of More broadly, our criterion is easier to achieve the more
+accurate the predictor is, aligning fairness with the central goal in
+supervised learning of building more accurate predictors. The notion we propose is “oblivious”, in that it is based only on
+the joint distribution, or joint statistics, of the true target ,
+the predictions , and the protected attribute . In
+particular, it does not evaluate the features in nor the
+functional form of the predictor nor how it was derived.

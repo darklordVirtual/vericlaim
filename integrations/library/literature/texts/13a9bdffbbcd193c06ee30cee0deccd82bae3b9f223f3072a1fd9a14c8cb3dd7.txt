@@ -1,0 +1,30 @@
+Detailed reliability diagrams of each benchmark are provided in Appendix E.2. Unanswerable
+Answerable
+
+Qwen3-VL-4B
+
+0.698
+
+0.926
+
+0.228
+
+RLCR
+
+0.532
+
+0.937
+
+0.405
+
+Ours
+
+0.218
+
+0.834
+
+0.616
+
+Table 4: Comparison of Qwen3-VL-4B, RLCR, and Ours of Confidence Gap () in visual unanswerable and answerable problems of DynaMath. Figure 5: Visual confidence distribution comparison of visually correct and incorrect responses. Base Model: Qwen3-VL-4B. Effect of Proposed Visual Confidence
+
+To further investigate the effect of decoupled visual confidence, first, we randomly sample 1,000 problems across all benchmarks to evaluate Qwen3-VL-4B and our model, then manually label responses as visually correct or incorrect. As shown in Figure 5, the base model assigns high visual confidence to both visually correct and incorrect responses. However, decoupled visual confidence substantially lowers confidence on visually incorrect ones while maintaining relatively high confidence on visually correct ones, effectively distinguishing visual errors. Second, we further evaluate our model’s performance on curated visually unanswerable problems.

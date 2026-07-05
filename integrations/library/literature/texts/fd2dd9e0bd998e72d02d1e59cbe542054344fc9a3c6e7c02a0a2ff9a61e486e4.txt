@@ -1,0 +1,10 @@
+It generates a list of all the integers that are prime by successively eliminating all the multiples of all the primes up through a given integer. Solution:
+We start by defining a function that will generate the list of primes:
+def prime_sieve(num: int) -> list[int]:
+The first thing we do is check that the input is positive:
+if num <= 0: raise ValueError(f""num: Invalid input, please enter a positive integer.")
+Next, we declare a set of Boolean flags:
+sieve = [True] * (num + 1)
+Next, we declare a variable called prime, which will be our list of primes. Then we declare a variable called start, which will represent the largest prime we have found so far. We set it to 2 and pass it to the sqrt function, which returns the largest prime less than or equal to the value passed to it. […]
+
+The code above defines a function called prime_sieve(), which takes a numeric value num as an argument, and returns a list containing all prime numbers between 2 and num. The function first checks the input argument to ensure that it is a positive integer. Then, it creates an array sieve made up of True values, with one value in each index from 2 to num.

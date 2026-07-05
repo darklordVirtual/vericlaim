@@ -1,0 +1,16 @@
+14(3):151–165, March 1971. ISSN 0001-0782. doi: 10.1145/362566.362568. URL https://doi.org/10.1145/362566.362568. Masanet et al. (2020)
+
+Masanet, E., Shehabi, A., Lei, N., Smith, S., and Koomey, J. Recalibrating global data center energy-use estimates. Science, 367(6481):984–986, 2020. Menezes et al. (2018)
+
+Menezes, A., van Oorschot, P., and Vanstone, S. Handbook of Applied Cryptography. Discrete Mathematics and Its Applications. CRC Press, 2018. ISBN 9780429881329. URL https://books.google.com/books?id=YyCyDwAAQBAJ. Menick & Kalchbrenner (2018)
+
+Menick, J. and Kalchbrenner, N. Generating high fidelity images with subscale pixel networks and
+multidimensional upscaling, 2018. Mikolov et al. (2013)
+
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., and Dean, J. Distributed representations of words and phrases and their
+compositionality. In Advances in neural information processing systems, pp. 3111–3119, 2013. Ohm et al. (2020)
+
+Ohm, M., Plate, H., Sykosch, A., and Meier, M. Backstabber’s knife collection: A review of open source software
+supply chain attacks, 2020. O’Keefe et al. (2019)
+
+O’Keefe, C., Lansky, D., Clark, J., and Payne, C.

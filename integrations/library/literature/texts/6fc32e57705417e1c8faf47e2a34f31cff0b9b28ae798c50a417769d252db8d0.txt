@@ -1,0 +1,14 @@
+Event Replay: If we find a past event was incorrect, we can
+compute the consequences by reversing it and later events and then
+replaying the new event and later events. (Or indeed by throwing away
+the application state and replaying all events with the correct event
+in sequence.) The same technique can handle events received in the
+wrong sequence - a common problem with systems that communicate with
+asynchronous messaging. A common example of an application that uses Event Sourcing is a
+version control system. Such a system uses temporal queries quite
+often. Subversion uses complete rebuilds whenever you use dump and
+restore to move stuff between repository files. I'm not aware of
+any that do event replay since they are not particularly
+interested in that information. Enterprise applications that use
+Event Sourcing are rarer, but I have seen a few applications (or parts of
+applications) that use it.

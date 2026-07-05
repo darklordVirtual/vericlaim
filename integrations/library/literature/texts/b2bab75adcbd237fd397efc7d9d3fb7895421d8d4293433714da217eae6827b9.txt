@@ -1,0 +1,14 @@
+Kotsakos et al. (2014)
+
+Dimitrios Kotsakos, Theodoros Lappas, Dimitrios Kotzias, Dimitrios Gunopulos,
+Nattiya Kanhabua, and Kjetil Nørvåg. A burstiness-aware approach for document dating. In Proceedings of the 37th International ACM SIGIR Conference
+on Research & Development in Information Retrieval, SIGIR ’14, pp. 1003–1006, New York, NY, USA, 2014. Association for Computing Machinery. doi: 10.1145/2600428.2609495. URL https://doi.org/10.1145/2600428.2609495. Kounev et al. (2017)
+
+Samuel Kounev, Jeffrey O. Kephart, Aleksandar Milenkoski, and Xiaoyun Zhu
+(eds.). Self-Aware Computing Systems. Springer, Cham, 2017. URL https://link.springer.com/book/10.1007/978-3-319-47474-8. Kounios & Beeman (2009)
+
+John Kounios and Mark Beeman. The aha! moment: The cognitive neuroscience of insight. Current Directions in Psychological Science, 18(4):210--216, 2009. doi: 10.1111/j.1467-8721.2009.01638.x. URL https://doi.org/10.1111/j.1467-8721.2009.01638.x. Koupaee & Wang (2018)
+
+Mahnaz Koupaee and William Yang Wang. WikiHow: A large scale text summarization dataset, 2018. URL https://arxiv.org/abs/1810.09305. Kreps et al. (2020)
+
+Sarah E. Kreps, Miles McCain, and Miles Brundage.

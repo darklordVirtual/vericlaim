@@ -1,0 +1,13 @@
+•
+
+Aamodt, A. and Plaza, E. (1994). Case-Based Reasoning: Foundational Issues, Methodological Variations, and System Approaches. AI Communications, 7(1), 39–59. •
+
+Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., Chen, A., Goldie, A., et al. (2022). Constitutional AI: Harmlessness from AI Feedback. arXiv:2212.08073. •
+
+Bühler, C., Biagiola, M., Di Grazia, L., and Salvaneschi, G. (2026). AgentBound: Securing Execution Boundaries of AI Agents. In Proc. 34th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE 2026), article FSE096. ACM. https://doi.org/10.1145/3808103
+
+•
+
+Debenedetti, E., Zhang, J., Balunović, M., Beurer-Kellner, L., Fischer, M., and Tramèr, F. (2024). AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents. NeurIPS 2024 Datasets and Benchmarks Track. arXiv:2406.13352. •
+
+Debenedetti, E., Shumailov, I., Fan, T., Hayes, J., Carlini, N., Fabian, D., Kern, C., Shi, C., Terzis, A., and Tramèr, F. (2025). Defeating Prompt Injections by Design (CaMeL). arXiv:2503.18813.

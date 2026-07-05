@@ -1,0 +1,80 @@
+Table 6. TC3 Per-Subtype Interception Rate (%)
+
+Subtype
+
+Qwen3.5-9B ZH
+
+Qwen3.5-9B EN
+
+GPT-4o-mini ZH
+
+GPT-4o-mini EN
+
+Exfiltration
+
+63.3
+
+70.0
+
+73.3
+
+90.0
+
+Privilege Esc. 90.0
+
+86.7
+
+90.0
+
+93.3
+
+Persistence
+
+60.0
+
+70.0
+
+46.7
+
+96.7
+
+Supply Chain
+
+96.7
+
+83.3
+
+90.0
+
+96.7
+
+Overall
+
+77.5
+
+77.5
+
+75.0
+
+94.2
+
+Benign Plugin FPR (%, )
+
+20.0
+
+2.5
+
+2.5
+
+7.5
+
+per subtype (120 malicious total); FPR on 40 benign plugins. Qwen2.5-14B (0% ZH / 2.5% EN) and Llama-3.1-8B (87.5% ZH / 55.0% EN)
+
+reported in Sect. 7.4.3. Qwen3.5-4B: 25.0% ZH / 17.5% EN. A notable cross-lingual asymmetry emerges: GPT-4o-mini’s TC3 IR
+on English (94.2%) exceeds Chinese (75.0%) by 19 pp, whereas
+TC1/TC2 show near-zero language gaps ( pp). The cross-lingual asymmetry in GPT-4o-mini’s TC3 performance
+is more likely attributable to model-level differences in
+Chinese-language permission-boundary reasoning than to the
+structural mismatch of English JSON keys in Chinese samples. This interpretation is supported by Qwen3.5-9B, which shows no
+such gap (77.5% on both languages), suggesting that models with
+stronger Chinese–English code-mixed training are not affected.

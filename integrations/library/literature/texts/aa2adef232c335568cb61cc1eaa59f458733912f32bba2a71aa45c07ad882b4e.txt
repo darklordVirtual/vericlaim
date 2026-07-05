@@ -1,0 +1,13 @@
+For deeper alignment enforcement, we recommend integrating AlignmentCheck, which complements PromptGuard 2 by capturing more subtle semantic deviations. Expanded and Diversified Training Data: PromptGuard 2 was trained on a significantly expanded dataset, improving both detection accuracy and resilience to novel attacks. The training corpus combines:
+
+•
+
+Open-source datasets of benign web content, user prompts, and standard LLM instructions. •
+
+Curated datasets of malicious prompt injection and jailbreak examples. •
+
+Newly generated synthetic attack cases and red-teaming data from iterative testing on earlier PromptGuard versions. This enriched dataset helped reduce false positives and improved the model’s ability to generalize across diverse threat scenarios. Model Architecture and Efficiency Improvements: PromptGuard 2 continues to utilize models from the DeBERTa family, chosen for their balance of language understanding and low latency:
+
+•
+
+PromptGuard 2 86M is based on mDeBERTa-base, optimized for detecting multilingual jailbreaks.

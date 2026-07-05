@@ -1,0 +1,1 @@
+Moreover, SWE-bench isolates the changes at the function level, and can be easily extended to new programming languages and other software modalities. SWE-bench is compatible with such works, but provides a significantly more realistic and challenging arena to carry out future experiments towards augmenting LMs with software engineering tools and practices.

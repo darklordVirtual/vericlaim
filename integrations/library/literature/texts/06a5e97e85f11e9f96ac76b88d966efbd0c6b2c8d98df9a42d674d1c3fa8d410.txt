@@ -1,0 +1,10 @@
+Thus, we use a softmax temperature that decays over time, starting at and decaying down to
+over a period of the first tokens (10% of the length of the sequence). This gives a sufficient amount of time for the model to “explore” a diverse set of
+prefixes while also allowing it to follow a high-confidence paths that it finds. 5.1.2 Conditioning on Internet Text
+
+Even when applying temperature sampling, there are still some prefixes
+that are unlikely to be sampled but nevertheless occur in actual data. As a final strategy,
+our third sampling strategy
+seeds the model with prefixes from our own scrapes of the Internet. This sampling strategy ensures that we will generate samples with a diverse set of
+prefixes that are similar in nature to the type of data GPT-2 was trained on. We follow a different data collection process as used in GPT-2 (which follows Reddit links) in order to reduce the likelihood that our dataset
+has any intersection with the model’s training data.

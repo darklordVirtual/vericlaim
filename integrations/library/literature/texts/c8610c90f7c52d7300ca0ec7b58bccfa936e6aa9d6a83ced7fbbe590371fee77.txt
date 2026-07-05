@@ -1,0 +1,5 @@
+Also, 34% of the examples contained calculator errors in addition to other types of errors. However, we perform the rest of the error categorization independently of calculator errors. •
+
+Symbol mapping error. We next found that 16% percent of the chains of thought were correct except for what we call symbol mapping errors. We define a symbol mapping error as when the chain of thought is correct except for the number symbols, and it could be made totally correct by modifying only the equations and not the words. As one might argue that they could simply place the correct final equation in any chain of thought, we constrain this category to chains of thought where the chain of thought can be modified to be a completely correct reasoning process (not just final answer). An example of this error category is shown in Table 10: “symbol mapping error”. •
+
+One step missing error. Our next category of error is chains of thought which were correct except that they were missing a single step. In other words, these chains of thoughts could be rewritten to be correct by adding in an additional reasoning step that was missed by the model.

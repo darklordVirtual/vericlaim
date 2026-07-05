@@ -1,0 +1,18 @@
+R: Reinforced ranker-reader for open-domain question
+answering. In Sheila A. McIlraith and Kilian Q. Weinberger, editors,
+Proceedings of the Thirty-Second AAAI Conference on Artificial
+Intelligence, (AAAI-18), the 30th innovative Applications of Artificial
+Intelligence (IAAI-18), and the 8th AAAI Symposium on Educational Advances
+in Artificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February
+2-7, 2018, pages 5981–5988. AAAI Press, 2018b. URL
+https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16712. Wang et al. [2018c]
+
+Shuohang Wang, Mo Yu, Jing Jiang, Wei Zhang, Xiaoxiao Guo, Shiyu Chang, Zhiguo
+Wang, Tim Klinger, Gerald Tesauro, and Murray Campbell. Evidence aggregation for answer re-ranking in open-domain question
+answering. In ICLR, 2018c. URL https://openreview.net/forum?id=rJl3yM-Ab. Weston et al. [2015]
+
+Jason Weston, Sumit Chopra, and Antoine Bordes. Memory networks. In Yoshua Bengio and Yann LeCun, editors, 3rd International
+Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May
+7-9, 2015, Conference Track Proceedings, 2015. URL http://arxiv.org/abs/1410.3916. Weston et al. [2018]
+
+Jason Weston, Emily Dinan, and Alexander Miller.

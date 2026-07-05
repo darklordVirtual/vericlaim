@@ -1,0 +1,17 @@
+The fundamental idea of Event Sourcing is that of ensuring every
+change to the state of an application is captured in an event
+object, and that these event objects are themselves stored in the
+sequence they were applied for the same lifetime as the
+application state itself. Let's consider a simple example to do with shipping
+notifications. In this example we have many ships on the high
+seas, and we need to know where they are. A simple way to do this
+is to have a tracking application with methods to allow us to tell
+when a ship arrives or leaves at a port. Figure 1: A simple interface
+for tracking shipping movements. In this case when the service is called, it finds the relevant
+ship and updates its location. The ship objects record the current
+known state of the ships. Introducing Event Sourcing adds a step to this process. Now the
+service creates an event object to record the change and processes
+it to update the ship. Figure 2: Using an event to
+capture the change. Looking at just the processing, this is just an unnecessary
+level of indirection. The interesting difference is when we look
+at what persists in the application after a few changes.

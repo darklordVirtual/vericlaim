@@ -1,0 +1,14 @@
+URL https://arxiv.org/abs/2209.07686. Micheli & Fleuret (2021)
+
+Vincent Micheli and François Fleuret. Language models are few-shot butlers. arXiv preprint arXiv:2104.07972, 2021. Nakano et al. (2021)
+
+Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina
+Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders,
+Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew
+Knight, Benjamin Chess, and John Schulman. Webgpt: Browser-assisted question-answering with human feedback,
+2021. URL https://arxiv.org/abs/2112.09332. Nye et al. (2021)
+
+Maxwell Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob
+Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David
+Luan, Charles Sutton, and Augustus Odena. Show your work: Scratchpads for intermediate computation with
+language models, 2021. URL https://arxiv.org/abs/2112.00114. Reed et al.

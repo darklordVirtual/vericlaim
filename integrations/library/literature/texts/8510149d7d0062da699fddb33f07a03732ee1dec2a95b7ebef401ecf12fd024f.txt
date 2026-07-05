@@ -1,0 +1,16 @@
+The experimental findings in this paper support the architectural
+argument that governance boundaries—sandbox isolation, intent
+verification, zero-trust protocols, audit logging—are necessary
+complements to model capability improvements in autonomous agent
+deployments. We formalize three security threat classes in multi-agent
+systems—Agency Abuse, RAG Data Poisoning, and Malicious Skill
+Plugins—and propose LGA, a four-layer governance architecture
+with empirical evaluation across all three. RQ1 (Intent verification effectiveness). Across four local LLM judges, two NLI baselines, and one cloud judge evaluated on
+a 1,081-sample bilingual benchmark, all five LLM-based judges achieve at least
+93% overall interception on TC1/TC2, while lightweight NLI
+baselines remain below 10%. Qwen2.5-14B achieves the best local balance (98.2–98.5% IR,
+9.7–20.1% FPR), approaching GPT-4o-mini (93.0–95.4% IR, 3.2–12.3% FPR). On TC3 (malicious skill plugins), interception among judges with
+meaningful precision–recall balance drops to 75–94%; judges
+at the high end of the raw range (e.g., Llama-3.1-8B ZH at 99.2%)
+achieve this via conservative blocking bias (87.5% FPR on benign
+plugin calls; see Sect.

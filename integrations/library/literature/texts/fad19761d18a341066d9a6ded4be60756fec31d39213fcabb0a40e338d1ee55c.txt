@@ -1,0 +1,18 @@
+The maximum error rate for lighter-skinned males is 0.8%. The substantial disparities in the accuracy of classifying darker females, lighter females, darker males, and lighter males in gender classification systems require urgent attention if commercial companies are to build genuinely fair, transparent and accountable facial analysis algorithms. Cite this Paper
+
+BibTeX
+
+@InProceedings{pmlr-v81-buolamwini18a,
+title = {Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification},
+author = {Buolamwini, Joy and Gebru, Timnit},
+booktitle = {Proceedings of the 1st Conference on Fairness, Accountability and Transparency},
+pages = {77--91},
+year = {2018},
+editor = {Friedler, Sorelle A. and Wilson, Christo},
+volume = {81},
+series = {Proceedings of Machine Learning Research},
+month = {23--24 Feb},
+publisher = {PMLR},
+pdf = {http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf},
+url = {https://proceedings.mlr.press/v81/buolamwini18a.html},
+abstract = {Recent studies demonstrate that machine learning algorithms can discriminate based on classes like race and gender.

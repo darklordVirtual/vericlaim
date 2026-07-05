@@ -1,0 +1,7 @@
+Question Answering
+
+We use the Atlas model of Izacard et al. (2022) finetuned on Natural Questions (Kwiatkowski et al., 2019) as our question answering system. For creating we use Atlas-large, enabling us to efficiently process millions of API calls; during inference, we use the larger Atlas-xxl model. Calculator
+
+Our calculator is based on a simple Python script and only supports the operators “”, “”, “”, and “”. It does not return any result for syntactically invalid equations. For sampling API calls, we apply heuristic filters to our subset of CCNet and only process documents that either (i) contain at least three numbers within a window of 100 tokens, where one of these numbers is the result of applying a mathematical operation to the other two, (ii) contain one of the sequences “=”, “equals”, “equal to”, “total of”, “average of” followed by a number, or (iii) contain at least three numbers; for texts that only match the last criterion, we only keep a random subset of 1%. Calendar
+
+For creating our dataset , we operate under the assumption that the calendar date in such cases should be the date that the document was created.

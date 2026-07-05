@@ -1,0 +1,103 @@
+{"fsid": "arxiv_2107-07511", "n": 102, "overlap": 200, "source_sha256": "0705c51398621fed3b84784a61b1b674dd8a695d4cfe068bec22be6dad4aee5f", "target": 1200}
+{"section": "", "seq": 0, "sha256": "91eb2b7e0a6ec8c8dc9bcbead490f5449c1d94b143fc2146a81b0a4317fc9582"}
+{"section": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification", "seq": 1, "sha256": "c334b7e74f191e83e3cf4baedbe1feb2cd4a7ee7381896fe05f71af9f396dcab"}
+{"section": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification", "seq": 2, "sha256": "18638184bed51bdb55a79ced973cfa053946cc4e204df69100a94fefa95c14bc"}
+{"section": "1 Conformal Prediction", "seq": 3, "sha256": "d7117a48331c38f72ba01fb59b19a37896cf8127ed20c48f6d7967265a35d494"}
+{"section": "1 Conformal Prediction", "seq": 4, "sha256": "048b3219ea8eb753b1094b05dbd03110f89b3d5b76b3ffec6b92dbc41b351fd1"}
+{"section": "1 Conformal Prediction", "seq": 5, "sha256": "47aec255e393c50f5dcd6c19240bc289f8fac57822a21017ac3d6f487bbbeef4"}
+{"section": "1 Conformal Prediction", "seq": 6, "sha256": "4760ce8918c4b1dc8a15b181e53936c89c4d2e7623b93f05644333495122feb9"}
+{"section": "1 Conformal Prediction", "seq": 7, "sha256": "af93abaccd356fd4ca7f62b2def6c77ebc03ee4abafa89bf9632fda4ff4a9a29"}
+{"section": "1 Conformal Prediction", "seq": 8, "sha256": "6af4779e75047a428bc156c461837237948330b585fe71edf4dae408012fc913"}
+{"section": "1.1 Instructions for Conformal Prediction", "seq": 9, "sha256": "f384c9ce0de6c2397ab66d3113f20ee5efc4e46fabf62bdf40083348e9a529f0"}
+{"section": "1.1 Instructions for Conformal Prediction", "seq": 10, "sha256": "5da368fe6b38deee7bf36ab4fa6471a063351799b5e46931a824831456ed0415"}
+{"section": "1.1 Instructions for Conformal Prediction", "seq": 11, "sha256": "ae326eb1ebdb4295c9d1845899b2c027cee2c091b07aa2c44d99aa67bb085e9b"}
+{"section": "1.1 Instructions for Conformal Prediction", "seq": 12, "sha256": "b256875fc25eb1f8e1581baa5d6ee0f47d57a26f9c117abab2d14f05161311bf"}
+{"section": "2 Examples of Conformal Procedures", "seq": 13, "sha256": "96685eb460b59e826860bc22bdc597fa24abc75853022aa207b8457982240ac9"}
+{"section": "2.1 Classification with Adaptive Prediction Sets", "seq": 14, "sha256": "4890fbb381112651885bf76d39f8922f2b7838b0067620e8e18d6ab612c9967d"}
+{"section": "2.1 Classification with Adaptive Prediction Sets", "seq": 15, "sha256": "4a8bd60142d76a0747032b99f81c9803fe3025e894caf5fc013f04d94ba20933"}
+{"section": "2.1 Classification with Adaptive Prediction Sets", "seq": 16, "sha256": "18a3b348409360aa0346c61269c84c1d008e94f1afe52886ba85c739f51e0a15"}
+{"section": "2.2 Conformalized Quantile Regression", "seq": 17, "sha256": "d5c9d0ae9f9e4f08c03cad4f74605d713be7c1d1b354f509e64dceed27c254a0"}
+{"section": "2.2 Conformalized Quantile Regression", "seq": 18, "sha256": "7a14523818518f0ef0722eb798fea6d3a77863d944ce37cc1f6bd6a441396a6e"}
+{"section": "2.2 Conformalized Quantile Regression", "seq": 19, "sha256": "0304e6b80069f9e12b4fc1ab5b513c5ee7566dce635a3a2877980c7431806b21"}
+{"section": "2.3 Conformalizing Scalar Uncertainty Estimates", "seq": 20, "sha256": "58dfdbc32ae2f7f7adf6fe19e424821d799202ee7e2db9e59350d1f20d80c803"}
+{"section": "2.3 Conformalizing Scalar Uncertainty Estimates", "seq": 21, "sha256": "994ca1cdc772a49af6fe899d84c81386a3760cd9d503bc91ad44481ff9e3db4a"}
+{"section": "2.3 Conformalizing Scalar Uncertainty Estimates", "seq": 22, "sha256": "1d8dfab42faf03abc4bbf6267b1ee7223ac1da0464e883f583da18a340c14f2e"}
+{"section": "2.3 Conformalizing Scalar Uncertainty Estimates", "seq": 23, "sha256": "f5f218ba45ea68e539bdeb9c964b7a43302b49b8ea80f4d2701dbd15be995da4"}
+{"section": "2.3 Conformalizing Scalar Uncertainty Estimates", "seq": 24, "sha256": "603bd857172187b1c33c8e185d32fa94b02a588703f3d3f0937a07e50f2490c4"}
+{"section": "2.4 Conformalizing Bayes", "seq": 25, "sha256": "02b35f2acb6b6c44f6246da2d697b4d7402296547410ff652598127a38e41b7c"}
+{"section": "2.4 Conformalizing Bayes", "seq": 26, "sha256": "09b1be2f8811b2cad98a4f852ed32735093286f390bbfa5418333468e4e2f51a"}
+{"section": "2.4 Conformalizing Bayes", "seq": 27, "sha256": "dc9a8636acab263d230f2fa8e9ff4e4061f360656aaab20c29521fe95f466de5"}
+{"section": "2.4 Conformalizing Bayes", "seq": 28, "sha256": "8239b6ac5b2727fdeaacc15350247783f631f3dd513c2ede67cf5f2252fd8d4a"}
+{"section": "3 Evaluating Conformal Prediction", "seq": 29, "sha256": "3977f9f6f945650829e6e15d020883548369e0c2d4efc5828e9bdbe44f9bbb3a"}
+{"section": "3 Evaluating Conformal Prediction", "seq": 30, "sha256": "be2357b42165dcb8930bca61d31f5b5aca5b2e1ef1a52ec052011e0428d71b9b"}
+{"section": "3.1 Evaluating Adaptivity", "seq": 31, "sha256": "816ce166664c6c636b51613b1d8937bc4bdac04a5da1beb0c856333f500d7133"}
+{"section": "3.1 Evaluating Adaptivity", "seq": 32, "sha256": "95d61db6dc34b633b51181878d1c44f542126f87e987dd3c0fc346345864ade9"}
+{"section": "3.1 Evaluating Adaptivity", "seq": 33, "sha256": "d869081bbdff2153b5c569e620a9e7428eb679d8a62c0662be047b72fd0695aa"}
+{"section": "3.1 Evaluating Adaptivity", "seq": 34, "sha256": "13bcd7afece7f88356c129fdbc212ae3cf34ec9cfa599fc42b9232399fb68be3"}
+{"section": "3.1 Evaluating Adaptivity", "seq": 35, "sha256": "d5edc753e5bff06b9ed3b86b858e319cdfd3aa2e195140b89166f04def504c18"}
+{"section": "3.1 Evaluating Adaptivity", "seq": 36, "sha256": "9b7d49d95c387ebfcf8fe277554ce9c7d30178224e3180a1e628fff046a6afd2"}
+{"section": "3.2 The Effect of the Size of the Calibration Set", "seq": 37, "sha256": "202bbfd8d135690aef8caf7644c95ea9104949a325cf4124e538a6f430d75244"}
+{"section": "3.2 The Effect of the Size of the Calibration Set", "seq": 38, "sha256": "bf0043909ebdff93f30f4c0905b57485ae6ee39803ebf05a176b5830da850f61"}
+{"section": "3.2 The Effect of the Size of the Calibration Set", "seq": 39, "sha256": "51049200ebbc3a845a25e54dea00295976252d08f88c76ba2bfaaeb83eb35ff5"}
+{"section": "3.3 Checking for Correct Coverage", "seq": 40, "sha256": "23c901e205fbf1fe5b910237f460b7ff515c7b4242f6f49bed49715a813332c8"}
+{"section": "3.3 Checking for Correct Coverage", "seq": 41, "sha256": "a389ae8f97f8b9b9ae409fa7777dd07504e3c317ee53256e35214f47f51095dd"}
+{"section": "3.3 Checking for Correct Coverage", "seq": 42, "sha256": "fe52dc83ba1d61cd89bd250804216021f3d6f317e1b26888c8bcfec4d77fcd6f"}
+{"section": "4 Extensions of Conformal Prediction", "seq": 43, "sha256": "ffc115cf85926e7fa7670e744634257487c4b2527e7e793258de2f92e83b6da3"}
+{"section": "4.1 Group-Balanced Conformal Prediction", "seq": 44, "sha256": "222076b0a0ae383725e53794a0bd161f26e27dc16461ffcc3151e5f4517fc475"}
+{"section": "4.1 Group-Balanced Conformal Prediction", "seq": 45, "sha256": "19d56eb5902d80be21795b896ad8d3b6933a8c5e8bf00f79dc98ad4c44423c03"}
+{"section": "4.2 Class-Conditional Conformal Prediction", "seq": 46, "sha256": "835401d6338860c09566c9fdb918fb6a6b8d08810903e9db50a4e130df6e211f"}
+{"section": "4.2 Class-Conditional Conformal Prediction", "seq": 47, "sha256": "dc5a09f26e4099b7ba8d9c3d5cede40c3bfc026e55f67dd10507d4a31813fe35"}
+{"section": "4.3 Conformal Risk Control", "seq": 48, "sha256": "275e00348ee95f844fe219c32ac1be7c025edd9a41cefc57ea2c37eb7264426a"}
+{"section": "4.3 Conformal Risk Control", "seq": 49, "sha256": "9bf5968dfe0d687918e16354adb5061927e05f5f1e86b0ac393e610175cdecf9"}
+{"section": "4.3 Conformal Risk Control", "seq": 50, "sha256": "4cc6fa8eb9a26ac5d628fc42d2a304c6ab5c7cb01e571b42656b14e63f8d78fd"}
+{"section": "4.4 Outlier Detection", "seq": 51, "sha256": "9a9b1e18398e4a80978c9345c9003872820f84267a396d6aa8736d873442f532"}
+{"section": "4.4 Outlier Detection", "seq": 52, "sha256": "30ff61a1ab5f4de6a15490799fa5ff822ddb6fc248ba8deca0fd847a9dd6c0ac"}
+{"section": "4.4 Outlier Detection", "seq": 53, "sha256": "39be471f8acd5da9cdb6f655280d910df70339ee45cf7ed31cbffccf78192e55"}
+{"section": "4.5 Conformal Prediction Under Covariate Shift", "seq": 54, "sha256": "15bbb94fc6503b19624625ebb1c7fffafaa1baec7e2b49fff936ad1a12fe46a4"}
+{"section": "4.5 Conformal Prediction Under Covariate Shift", "seq": 55, "sha256": "15922f2bc30bb58febe52237bc1cb2b51275f3a6f1cd341eeab1bec363eb3321"}
+{"section": "4.5 Conformal Prediction Under Covariate Shift", "seq": 56, "sha256": "676c4af04d3e8ecc21544564e5e5a2c61cc27eaaf40f04989cc8651b8c398d55"}
+{"section": "4.5 Conformal Prediction Under Covariate Shift", "seq": 57, "sha256": "decc8179bdf8bae5cd463bf937d9d7bd2a0d064669cfdd88c73b49f39c30d195"}
+{"section": "4.6 Conformal Prediction Under Distribution Drift", "seq": 58, "sha256": "43e23d26d6af01d4463c03dc2525926fb46db3796fc6ccd5176b390df95d5cbf"}
+{"section": "4.6 Conformal Prediction Under Distribution Drift", "seq": 59, "sha256": "ba7f22561fee43fa6b8c6a91e67db5619b1a05ec688acb2daa94e16b4ae10a11"}
+{"section": "4.6 Conformal Prediction Under Distribution Drift", "seq": 60, "sha256": "10a421ae467ddb9d7a1c031c3848fbcea054472ce70b8a4cffd2a4f2d2c1f319"}
+{"section": "5 Worked Examples", "seq": 61, "sha256": "a3c9b29e9512022bf18de9986c42e0e8534a0884dd2844eb94ba8af8b9c57dec"}
+{"section": "5.1 Multilabel Classification", "seq": 62, "sha256": "5c273448aeac12c65521da7f7d08bd92481ef10efca6102ce9ee3955d6d95ae7"}
+{"section": "5.1 Multilabel Classification", "seq": 63, "sha256": "dc38980889fcf90b12ee42fc764a30ee748efd278182c5c18fb2ace42756b6a9"}
+{"section": "5.2 Tumor Segmentation", "seq": 64, "sha256": "e055b74052613e688fa6f4b760e8156ed9084f10db78e372a2709de82db6f04f"}
+{"section": "5.3 Weather Prediction with Time-Series Distribution Shift", "seq": 65, "sha256": "5972fb719ec89cb2c32910e79e22398a550be768b41ea6b9bcb425129938f571"}
+{"section": "5.3 Weather Prediction with Time-Series Distribution Shift", "seq": 66, "sha256": "b536f27a5ef2486251f40a310daec402444178bc8fb6f6c5ffce0dce159b73b9"}
+{"section": "5.3 Weather Prediction with Time-Series Distribution Shift", "seq": 67, "sha256": "a6c595978504887a8e534ed0941d22dc2f3ac925ada25ecc1eee7d24c14da3ba"}
+{"section": "5.3 Weather Prediction with Time-Series Distribution Shift", "seq": 68, "sha256": "7357ee870eb9aaa6bd58472964bf291823ee55fdd3a6c94e138cd16e0d5b149a"}
+{"section": "5.4 Toxic Online Comment Identification via Outlier Detection", "seq": 69, "sha256": "4e00073481aba96a62be1e6f507440999cbd097e68d6972545f71ad1608a0b76"}
+{"section": "5.4 Toxic Online Comment Identification via Outlier Detection", "seq": 70, "sha256": "8ba7706394a461cf1a10635ee97d8bf33c1f0d3a0872d245b470a4c0e7b8630e"}
+{"section": "5.5 Selective Classification", "seq": 71, "sha256": "73443ffa1e13f2e0f31a052624a5228e9eb9ed2fc72833d83db484d61d566de6"}
+{"section": "5.5 Selective Classification", "seq": 72, "sha256": "7827df1cee085b6e138b65f03e2b5de0c1b0c38abf26f610eaffd384bfa2a1d2"}
+{"section": "6 Full conformal prediction", "seq": 73, "sha256": "894ce04552c20df32ac7999c96f9e276240a29418c74f40779e9be5d47557934"}
+{"section": "6.1 Full Conformal Prediction", "seq": 74, "sha256": "8c4657d1f748e115d474bc0453295e1630cacf1228ed606e53713ebd9d73313c"}
+{"section": "6.1 Full Conformal Prediction", "seq": 75, "sha256": "026a1ea9b110409124f099408d42b526f42b52c4fe02ff55215a4e897d0d860b"}
+{"section": "6.1 Full Conformal Prediction", "seq": 76, "sha256": "e43b099b41567b7d221d061b0d920293c6dd0d404fdd383681576903f6e1f290"}
+{"section": "6.1 Full Conformal Prediction", "seq": 77, "sha256": "0d0f1723567cf4dc40542618d10dd48496d2fa7fdc98882b800b03d6d10e7e3d"}
+{"section": "6.2 Cross-Conformal Prediction, CV+, and Jackknife+", "seq": 78, "sha256": "d207daab3f06d16de043c21f45745d166ad04f7d5f4832d20460404317893950"}
+{"section": "7 Historical Notes on Conformal Prediction", "seq": 79, "sha256": "b46bf0b51c7aa4d8a870fd3fae8be2bb46a4b1fd9a060b4501439cef77249a9b"}
+{"section": "Origins", "seq": 80, "sha256": "d093aaf0049651e5f27ff3ff1880ed53c4e056399a77bda6f839cca7ee59cb7e"}
+{"section": "Origins", "seq": 81, "sha256": "219688555efa3cb3f3290165d61c5ac5069e014d9b543fbb0e579474b06ec9d4"}
+{"section": "Origins", "seq": 82, "sha256": "3c137d317e65829a127f1dbdfb7fa51450189e08e0623483cf2d906a316de1be"}
+{"section": "Origins", "seq": 83, "sha256": "481f18645d50123ae861135c27189be2450f4035d7f4920e301ae85178849deb"}
+{"section": "Origins", "seq": 84, "sha256": "9ae0ef305a2087df70606cadcf20d43dd9482b286bfb29c92b6c0319a7377a99"}
+{"section": "Origins", "seq": 85, "sha256": "57b113689d673885bae518568bfe13c13c77de9286e05a7be3d01bd6fcd49807"}
+{"section": "Origins", "seq": 86, "sha256": "b402a3db2160ec693e24436ab84106153fc15d4b385b8d957827adfe656abb2d"}
+{"section": "Origins", "seq": 87, "sha256": "1823f247f7b84c48417c1a4c475f4b2ac90369342f76861327c918b9bac8876c"}
+{"section": "Enter Conformal Prediction", "seq": 88, "sha256": "baf63d441277fbfa98f6dc68639a200ff4782f0110a34167553a1b39220cf324"}
+{"section": "Enter Conformal Prediction", "seq": 89, "sha256": "96cc3b1468405ac11dbf127a2fbe7a6952bbd4daf6ebb4afe28f181a8ca40eba"}
+{"section": "Enter Conformal Prediction", "seq": 90, "sha256": "df8f8eef52b1780aa27d6e93f96d8cd4e0f6a3d01801e0735cb0e80e3f97af4b"}
+{"section": "Enter Conformal Prediction", "seq": 91, "sha256": "b506c14d85fd84deaf2ea3f1528258138d9d3e815e71d3739b4a8404f32ce5ab"}
+{"section": "Enter Conformal Prediction", "seq": 92, "sha256": "f8b74cd466244c5fe9228f6d96be34e726e0970ecf058e4b3407a3b99aa9bc21"}
+{"section": "Current Trends", "seq": 93, "sha256": "6a5c00bf0c8a38f9f2e9667d84e2d8a121f1cc863d27a4d036aa28fb46853142"}
+{"section": "Current Trends", "seq": 94, "sha256": "0dd01dd529f8cbe57b933719758e2812f52d6d0849185b536fec481e34a7f769"}
+{"section": "Current Trends", "seq": 95, "sha256": "5bc5f003bfa64c58087eb63aa9d53b7a41866a76d8944b7c6131d698a1b7895f"}
+{"section": "Current Trends", "seq": 96, "sha256": "9ef47bc1743ca2a6c036994d4e64910e391ce7787fb97f6a0396001d097f5d8f"}
+{"section": "Current Trends", "seq": 97, "sha256": "c799e9b7c4a9e14769f532d4183b34fd4939724d782ec5db733aa26eed589326"}
+{"section": "Current Trends", "seq": 98, "sha256": "c8ad9894b2064e57fa2a48f93b8c70d84aee03d91346d398f8cc05091472a54c"}
+{"section": "Current Trends", "seq": 99, "sha256": "ed57df00dfe009115ef9758080809dfba7ff2d9d40c516f1ace21eac0bf85561"}
+{"section": "Current Trends", "seq": 100, "sha256": "709f2b3e79c7e07d1c7a07e99cecef82a336998453f3139a2568e9fe3935b301"}
+{"section": "Current Trends", "seq": 101, "sha256": "2585debe4b8e4aa45a551703b28d4c119802b027937ab943dc1124b0cdf04647"}

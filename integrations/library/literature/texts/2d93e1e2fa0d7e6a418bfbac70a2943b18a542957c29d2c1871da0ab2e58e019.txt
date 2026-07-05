@@ -1,0 +1,19 @@
+Artetxe et al. (2021)
+
+M. Artetxe, S. Bhosale, N. Goyal, T. Mihaylov, M. Ott, S. Shleifer, X. V. Lin,
+J. Du, S. Iyer, R. Pasunuru, G. Anantharaman, X. Li, S. Chen, H. Akin,
+M. Baines, L. Martin, X. Zhou, P. S. Koura, B. O’Horo, J. Wang,
+L. Zettlemoyer, M. Diab, Z. Kozareva, and V. Stoyanov. Efficient Large Scale Language Modeling with Mixtures of
+Experts. arXiv:2112.10684, 2021. Bender et al. (2021)
+
+E. M. Bender, T. Gebru, A. McMillan-Major, and S. Shmitchell. On the dangers of stochastic parrots: Can language models be too big? In Proceedings of the 2021 ACM Conference on Fairness,
+Accountability, and Transparency, pages 610–623, 2021. BIG-bench collaboration (2021)
+
+BIG-bench collaboration. Beyond the imitation game: Measuring and extrapolating the
+capabilities of language models. In preparation, 2021. URL https://github.com/google/BIG-bench/. Bisk et al. (2020)
+
+Y. Bisk, R. Zellers, J. Gao, Y. Choi, et al. PIQA: Reasoning about physical commonsense in natural language. In Proceedings of the AAAI Conference on Artificial
+Intelligence, volume 34, pages 7432–7439, 2020. Borgeaud et al. (2021)
+
+S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican,
+G.

@@ -1,0 +1,13 @@
+Stanford University (wxyz, ethanchi, jiltang)@cs.stanford.edu, (jk23541, rhythmg, rsikand)@stanford.edu
+
+logical_args: Shubh Pachchigar (shubhpachchigar@gmail.com)
+
+logical_deduction: James B. Simon and Chandan Singh, UC Berkeley (james.simon, chandan.singh)@berkeley.edu
+
+logical_fallacy_detection: John Burden, Henry Shevlin, and Bao Sheng Loe, University of Cambridge (jjb205, hfs35)@cam.ac.uk, (a.loe@jbs.cam.ac.uk); and Jose Hernandez-Orallo, Universitat Politècnica de València (jorallo@upv.es). Task cites: (Brown et al., 2020; Hendrycks et al., 2021b; Bender et al., 2021; Wachsmuth et al., 2017; Yu et al., 2020; Copi et al., 2018; Oberauer et al., 2005; Oberauer & Wilhelm, 2000)
+
+logical_sequence: Trishala Neeraj, Cornell (tn338@cornell.edu), and Debajyoti Datta, University of Virginia (dd3ar@virginia.edu). Task cites: (Saxton et al., 2019; Lin et al., 2020; Bowman & Dahl, 2021)
+
+long_context_integration: Jascha Sohl-Dickstein, Google (jaschasd@google.com)
+
+mathematical_induction: Ryan Lee, Bloomberg (seungjaeryanlee@gmail.com).

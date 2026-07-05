@@ -1,0 +1,10 @@
+2020b; Murakami & Mizuguchi, 2010)
+
+python_programming_challenge: Kyle McDonell and Laria Reynolds, EleutherAI (kyle, laria)@eleuther.ai; Nicholas Cameron, Joseph Jones, Michael Ivanitskiy, John U. Balis, and Ameet Rahane, KNC Neural Calculus (nick.scott.cameron@gmail.com), (josephjones87040@hotmail.com), (miv, balis, ameetr)@knc.ai. Task cites: (Allamanis et al., 2018; Alon et al., 2020; Hendrycks et al., 2021a)
+qa_wikidata: Thomas Phan, University of Washington (thomphan@uw.edu). Task cites: (Radford et al., 2019; Kwiatkowski et al., 2019; Weber & Jaimes, 2011)
+
+question_answer_creation: Aitor Lewkowycz, Google Research Blueshift Team (alewkowycz@google.com)
+
+question_selection: Kaustubh D. Dhole, Amelia R&D, New York (kaustubhdhole@hotmail.com). Task cites: (Rajpurkar et al., 2016)
+
+real_or_fake_text: Liam Dugan, Arun Kirubarajan, Daphne Ippolito, Chris Callison-Burch, and Sherry Shi, University of Pennsylvania (ldugan, kiruba, daphnei, ccb, shershi)@seas.upenn.edu.

@@ -1,0 +1,10 @@
+As stated before, our notions of non-discrimination are oblivious
+in the following formal sense. Definition 2.3. A property of a predictor or score is said to be
+oblivious if it only depends on the joint distribution of
+or , respectively. As a consequence of being oblivious, all the information we need to verify our
+definitions is contained in the joint distribution of predictor,
+protected group and outcome, In the binary case, when and
+are reasonably well balanced, the joint distribution of is
+determined by parameters that can be estimated to very high accuracy from
+samples. We will therefore ignore the effect of finite sample perturbations and
+instead assume that we know the joint distribution of

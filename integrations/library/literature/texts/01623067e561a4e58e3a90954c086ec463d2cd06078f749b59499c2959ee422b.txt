@@ -1,0 +1,17 @@
+agent executes the
+same action and receives the same response for more than 3 cycles, or if the
+number of actions taken in the current environment exceeds 30 (inefficient
+planning), we self-reflect. In the baseline runs, if self-reflection is suggested, we
+skip the self-reflection process, reset the environment, and start a new trial. In the Reflexion runs, the agent uses self-reflection to find its mistake,
+update its memory, reset the environment, and start a new trial. To avoid
+very long prompt windows that may exceed the maximum limit, we truncate the
+agent’s memory to the last 3 self-reflections (experiences). To avoid syntactic errors, we provide two
+domain-specific few-shot trajectories to the agent. We use the same few-shot
+trajectory examples as Yao et al., (2023) with GPT-3 for the LLM. AlfWorld
+tasks, ReAct few-shot prompts, and Reflexion examples are included in the
+appendix. Results
+
+Figure 3: (a) AlfWorld performance across 134 tasks showing cumulative
+proportions of solved tasks using self-evaluation techniques of (Heuristic)
+and (GPT) for binary classification. (b) Classification of AlfWorld trajectories by reason of
+failure.

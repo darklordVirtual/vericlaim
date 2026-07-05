@@ -1,0 +1,23 @@
+Florian Tramèr
+
+EPFL
+
+Fan Zhang
+
+Cornell University
+
+Ari Juels
+
+Cornell Tech, Jacobs Institute
+
+Michael K. Reiter
+
+UNC Chapel Hill
+
+Thomas Ristenpart
+
+Cornell Tech
+
+Abstract
+
+Machine learning (ML) models may be deemed confidential due to their sensitive training data, commercial value, or use in security applications. Increasingly often, confidential ML models are being deployed with publicly accessible query interfaces. ML-as-a-service (“predictive analytics”) systems are an example: Some allow users to train models on potentially sensitive data and charge others for access on a pay-per-query basis. The tension between model confidentiality and public access motivates our investigation of model extraction attacks. In such attacks, an adversary with black-box access, but no prior knowledge of an ML model’s parameters or training data, aims to duplicate the functionality of (i.e., “steal”) the model. Unlike in classical learning theory settings, ML-as-a-service offerings may accept partial feature vectors as inputs and include confidence values with predictions.

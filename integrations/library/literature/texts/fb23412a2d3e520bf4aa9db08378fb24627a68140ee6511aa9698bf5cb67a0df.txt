@@ -1,0 +1,5 @@
+the credit assignment problem (Sutton and Barto,, 2018)) as well as the ability to generate a summary containing actionable insights for improvement. We explore three ways for
+doing this – simple binary environment feedback, pre-defined heuristics for common failure
+cases, and self-evaluation such as binary classification using LLMs (decision-making) or
+self-written unit tests (programming). In all implementations, the evaluation signal is
+amplified to natural language experience summaries which can be stored in long-term memory. Reflexion has several advantages compared to more traditional RL approaches like policy or value-based learning: 1) it is lightweight and doesn’t require finetuning the LLM, 2) it allows for more nuanced forms of feedback (e.g. targeted changes in actions), compared to scalar or vector rewards that are challenging to perform accurate credit assignment with, 3) it allows for a more explicit and interpretable form of episodic memory over prior experiences, and 4) it provides more explicit hints for actions in future episodes.

@@ -1,0 +1,5 @@
+Ensembling
+
+When generating labels, we ensemble over 16 pre-written constitution principles, as discussed earlier. We found that this led to more robust preference model scores. Preference Labels (Soft vs. Hard vs. Clamped)
+
+For RL-CAI without CoT, we found that using soft preference labels (i.e., normalized log-probabilities from the feedback model) led to much better results than hard labels (i.e., 0’s and 1’s). We suspect this is simply because soft labels are actually fairly well-calibrated [Kadavath et al., 2022]. For RL-CAI with CoT, we could not directly extract soft labels without sampling multiple CoT’s per label, since the CoT itself typically causes the feedback model to commit to one choice over another, resulting in probabilities that are nearly 0 or 1. Instead we found that clamping the probabilities at 20-80 percent slightly improved results, while clamping at 40-60 improved results further. We settled on using 40-60 for the main results of the paper.

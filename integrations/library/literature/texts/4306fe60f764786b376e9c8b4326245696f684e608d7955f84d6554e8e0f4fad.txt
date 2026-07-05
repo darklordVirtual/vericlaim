@@ -1,0 +1,17 @@
+This kind of stuff needs to actually go into the domain
+model itself. The domain model should be able to run events at any
+time with the correct rules for the event processing. You can do this
+with conditional logic, but this will get messy if you have much
+temporal logic. The better route is to hook strategy objects into a
+Temporal Property: something like
+chargingRules.get(aDate).process(anEvent). Take a look at
+Agreement Dispatcher for this kind of style. There is potentially an overlap between dealing with bugs and
+temporal logic when old events need to be processed using the
+the buggy code. This may lead into bi-temporal
+behavior: “reverse this event according to the rules for Aug 1
+that we had on Oct 1 and replace it according to the rules for
+Aug 1 that we have now”. Clearly this stuff can get very messy,
+don't go down this path unless you really need to. Some of these issues can be handled by putting the code in
+the data. Using Adaptive Object Models that figure out the
+processing using configurations of objects is one way to do
+this.

@@ -1,0 +1,23 @@
+arXiv preprint arXiv:2107.03374. Clark et al. (2018)
+
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa
+Schoenick, and Oyvind Tafjord. 2018. Think you have solved
+question answering? try arc, the AI2 reasoning challenge. CoRR, abs/1803.05457. CohereAI (2021)
+
+CohereAI. 2021. co:here api. https://cohere.ai/api. Accessed: 2021-08-19. Dinan et al. (2020)
+
+Emily Dinan, Angela Fan, Adina Williams, Jack Urbanek, Douwe Kiela, and Jason
+Weston. 2020. Queens are
+powerful too: Mitigating gender bias in dialogue generation. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pages 8173–8188, Online. Association
+for Computational Linguistics. Dou et al. (2021)
+
+Yao Dou, Maxwell Forbes, Rik Koncel-Kedziorski, Noah A. Smith, and Yejin
+Choi. 2021. Scarecrow: A framework for
+scrutinizing machine text. CoRR, abs/2107.01294. Evans et al. (2021)
+
+Owain Evans, Owen Cotton-Barratt, Lukas Finnveden, Adam Bales, Avital Balwit,
+Peter Wills, Luca Righetti, and William Saunders. 2021. Truthful AI: developing
+and governing AI that does not lie. CoRR, abs/2110.06674. Fedus et al. (2021)
+
+William Fedus, Barret Zoph, and Noam Shazeer.

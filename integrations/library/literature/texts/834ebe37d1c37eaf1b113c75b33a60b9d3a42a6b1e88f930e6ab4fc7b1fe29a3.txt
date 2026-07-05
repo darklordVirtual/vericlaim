@@ -1,0 +1,37 @@
+Dill
+
+“Developing Bug-Free Machine Learning Systems With Formal Mathematics”
+
+In arXiv, 2017
+
+arXiv: http://arxiv.org/abs/1706.08605
+
+[199]
+C Hutchison et al. “Robustness Testing of Autonomy Software”
+
+In 2018 IEEE/ACM 40th International Conference on Software Engineering: Software Engineering in Practice Track (ICSE-SEIP), 2018, pp. 276–285
+
+URL: https://users.ece.cmu.edu/%7B~%7Dkoopman/pubs/hutchison18%7B%5C_%7Dicse%7B%5C_%7Drobustness%7B%5C_%7Dtesting%7B%5C_%7Dautonomy%7B%5C_%7Dsoftware.pdf
+
+[200]
+Joe Gibbs Politz et al. “Python: The Full Monty”
+
+In Proceedings of the 2013 ACM SIGPLAN International Conference on Object Oriented Programming Systems Languages & Applications, OOPSLA ’13
+
+New York, NY, USA: Association for Computing Machinery, 2013, pp. 217–232
+
+DOI: 10.1145/2509136.2509536
+
+[201]
+Philippa Anne Gardner, Sergio Maffeis and Gareth David Smith
+
+“Towards a Program Logic for JavaScript”
+
+In SIGPLAN Not. 47.1
+
+New York, NY, USA: Association for Computing Machinery, 2012, pp. 31–44
+
+URL: https://doi.org/10.1145/2103621.2103663
+
+[202]
+Lindsey Kuper et al.

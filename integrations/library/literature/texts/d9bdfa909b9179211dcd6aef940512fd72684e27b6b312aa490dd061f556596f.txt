@@ -1,0 +1,16 @@
+Since circulating an initial draft of this paper in March 2018,
+datasheets for datasets have already gained traction in a number of
+settings. Academic researchers have adopted our proposal and released
+datasets with accompanying datasheets (e.g., Yagcioglu et al., 2018; Seck
+et al., 2018; Choi et al., 2018; Cao and Daumé, 2020). Microsoft, Google, and IBM
+have begun to pilot datasheets for datasets internally within product
+teams. Researchers at Google published follow-up work on model
+cards that document machine learning models (Mitchell et al., 2019) and
+released a data card (a lightweight version of a datasheet)
+along with the Open Images dataset (Krasin et al., 2017). Researchers at
+IBM proposed factsheets (Hind et al., 2018) that document various
+characteristics of AI services, including whether the datasets used to
+develop the services are accompanied with datasheets. The Data
+Nutrition Project incorporated some of the questions provided in the
+previous section into the latest release of their Dataset Nutrition
+Label (Chmielinski et al., 2020).

@@ -1,0 +1,27 @@
+Thought 1
+
+I need to search Nicholas Ray and Elia Kazan, find their professions, then find the profession they have in common. Action 1
+
+Search[Nicholas Ray]
+
+Observation 1
+
+Nicholas Ray (born Raymond Nicholas Kienzle Jr., August 7, 1911 – June 16, 1979) was an American film director, screenwriter, and actor best known for the 1955 film Rebel Without a Cause. Thought 2
+
+Professions of Nicholas Ray are director, screenwriter, and actor. I need to search Elia Kazan next and find his professions. Action 2
+
+Search[Elia Kazan]
+
+Observation 2
+
+Elia Kazan was an American film and theatre director, producer, screenwriter and actor. Thought 3
+
+Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor. Action 3
+
+Finish[director, screenwriter, actor]
+
+Question
+
+Which magazine was started first Arthur’s Magazine or First for Women? Thought 1
+
+I need to search Arthur’s Magazine and First for Women, and find which was started first.

@@ -1,0 +1,7 @@
+OpenClaw replaces cloud vector databases with a two-layer local
+store: SQLite FTS5 full-text index over local Markdown files. This achieves zero external dependency while maintaining retrieval
+latency below 10 ms on million-document corpora
+(as reported in the project documentation (OpenClaw Contributors, 2025)). All memory content is human-readable and auditable by system
+administrators without specialized tooling. The semantic search gap can be addressed by the
+sqlite-vss extension, adding local vector search
+without violating the Zero-Ops principle.

@@ -1,0 +1,15 @@
+We formalize “closely matching” using two different error measures:
+
+Test error : This is the average error over
+a test set , given by
+. A low test error implies
+that matches well for inputs distributed
+like the training data samples. 222Note that for some , it is possible that
+predicts true labels better than , yet is large, because does not closely match . Uniform error :
+For a set of vectors uniformly chosen in , let . Thus estimates the fraction of the full feature space on which
+and disagree. (In our experiments, we found was sufficiently large to obtain stable error estimates for the models we analyzed.)
+
+We define the extraction accuracy under test and uniform error as and . Here we implicitly refer to accuracy under 0-1 distance. When assessing how close the class probabilities output by are to those of (with the total-variation distance) we use the notations and . An adversary may know any of a number of pieces of information about a target : What training algorithm
+generated , the hyper-parameters used with ,
+the feature extraction function ex, etc. We will
+investigate a variety of settings in this work corresponding to different APIs seen in practice.

@@ -1,0 +1,12 @@
+See Ovadia et al. (2019) for discussion of properties and drawbacks of various calibration metrics. \begin{overpic}[height=108.405pt]{figures/aggregate_multiple_choice_grade} %
+\put(0.0,1.0){{\small(a)}}
+\end{overpic}\begin{overpic}[height=108.405pt]{figures/aggregate_brier}
+\put(0.0,1.0){{\small(b)}}
+\end{overpic}\begin{overpic}[height=108.405pt]{figures/aggregate_ece_dense_vs_sparse} \put(%
+0.0,1.0){{\small(c)}}
+\end{overpic}
+Figure 5: Language models make poorly calibrated predictions, but calibration improves as the models are made larger. (a) Performance is shown aggregated across all JSON multiple-choice tasks, along with the associated (b) Brier score and (c) expected calibration error (ECE) measures of model calibration. Error bars are obtained by 10-bootstrap sampling over evaluated tasks. In Figure 5, we show multiple_choice_grade,
+expected_calibration_error,
+and multiple_choice_brier_score for 109 multiple-choice JSON tasks in BIG-bench. Both Brier and ECE scores are relatively large
+(0.2--0.3
+Brier score, 0.25--0.45 ECE), indicating poorly calibrated predictions from all models.

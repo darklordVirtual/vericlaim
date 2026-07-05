@@ -1,0 +1,11 @@
+2019; Lin et al., 2020; Bowman & Dahl, 2021)
+
+long_context_integration: Jascha Sohl-Dickstein, Google (jaschasd@google.com)
+
+mathematical_induction: Ryan Lee, Bloomberg (seungjaeryanlee@gmail.com). Task cites: (Hendrycks et al., 2021c; Patel et al., 2021)
+
+matrixshapes: Niklas Muennighoff, Peking University (muennighoff@stu.pku.edu.cn)
+
+metaphor_boolean: Kaustubh D. Dhole, Amelia R&D, New York (kaustubhdhole@hotmail.com). Task cites: (Lakoff & Johnson, 2008; Bizzoni & Lappin, 2018)
+
+metaphor_understanding: Hugh Mee Wong, Jaap Jumelet, Mario Giulianelli, Xiaoyu Tong, Clemencia Siro, Maartje ter Hoeve, Agnieszka Kluska, Jeroen Taal, Mátyás Schubert, Ekaterina Shutova, Dilyar Buzan, Jelle Bosscher, Omar Elbaghdadi, Rahel Habacker, and Aman Hussain, University of Amsterdam (hughmee.wong@student.uva.nl), (j.w.d.jumelet, m.giulianelli, x.tong, c.n.siro, m.a.terhoeve)@uva.nl, (aga.kluska1404, jeroen1749, schubertmatyas, shutova.e, dilyar.muslem.977, jellebosscher, omarelb)@gmail.com, (rahel@habacker.de), (email@amanhussain.com); and Martha Lewis, University of Bristol (martha.lewis@bristol.ac.uk).

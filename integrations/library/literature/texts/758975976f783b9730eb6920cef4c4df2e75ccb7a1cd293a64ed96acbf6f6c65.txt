@@ -1,0 +1,5 @@
+We select generations from SWE-Llama and Claude 2 collectively to better understand the quality of the task and generated patches under the “oracle” retrieval setting. Here we discuss one example from SWE-Llama and summarize our overall findings, with in-depth analyses for the remaining examples shown in Appendix F. Figure 6:
+We show an example of an formatted task instance, a model prediction, and the testing framework logs. Results and inputs are stylized for readability. In the gold and generated patch file, red-highlighted lines represent deletions and green-highlighted lines represent additions. We’ll consider the task instance sphinx-doc__sphinx-8713 from the Sphinx documentation generator, shown in Figure 6. The issue states that the napoleon extension of Sphinx is not properly formatting the documentation keyword “Other Parameters” when the config setting
+
+napoleon.use_param
+is set to True. The issue text further provides a detailed code snippet of where the problematic source code is suspected to be, as well as some code examples for reproducing the error and additional information related to package versions.

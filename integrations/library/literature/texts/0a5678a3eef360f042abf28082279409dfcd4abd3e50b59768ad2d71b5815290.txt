@@ -1,0 +1,3 @@
+Checked all internal fragments resolved. Changed the status of this document section: added new documents to the PROV Family of Document, and removed the how to read section, referring instead to PROV-OVERVIEW. Changed all URLs to PROV documents. Fixed links to internal anchors, following change in respec.js
+
+Added anchors for prov:Bundle, prov:Collection, prov:Emptycollection, prov:Plan, prov:Person, prov:SoftwareAgent, prov:Organization, to facilitate systematic cross-referencing. Likewise, added anchor for Bundle Type. Table 9: fixed section number where plan is defined. Added html link to provenance.

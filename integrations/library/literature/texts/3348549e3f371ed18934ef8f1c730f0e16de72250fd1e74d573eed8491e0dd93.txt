@@ -1,0 +1,33 @@
+Public interfaces for BIG-bench -- especially the SeqIO Bridge and Hugging Face dataset implementations were developed by
+Gaurav Mishra,
+Noah Fiedel,
+Ethan Dyer,
+and Anders Andreassen. BIG-G and BIG-G sparse models were trained specifically for use with BIG-bench by
+Ambrose Slone,
+William Fedus,
+Guy Gur-Ari,
+Barret Zoph,
+and Jaehoon Lee. Debugging and improvement of tasks after merging was performed by
+Ethan Dyer,
+Ambrose Slone,
+Jascha Sohl-Dickstein,
+Guy Gur-Ari,
+Anders Andreassen,
+Rosanne Liu,
+Daniel Freeman,
+Jaehoon Lee,
+Vinay Ramasesh,
+and Vedant Misra. Professional English language editing of task content was performed by
+Sarah A. Rous,
+with support from Anders Andreassen, Vinay Ramasesh, and Kristen Chiafullo. BIG-bench Lite was developed by
+Ethan Dyer. Significant effort was spent liaising with other teams, both inside and external to Google, by
+Noah Fiedel,
+Ethan Dyer,
+Guy Gur-Ari,
+Rosanne Liu,
+Gaurav Mishra, Vedant Misra,
+Jascha Sohl-Dickstein,
+and Ambrose Slone. Significant effort was spent actively soliciting BIG-bench task contributions by
+Jascha Sohl-Dickstein, Ethan Dyer,
+Rosanne Liu,
+and Vinay Ramasesh.

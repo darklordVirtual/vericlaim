@@ -1,0 +1,10 @@
+SLSA • Security levels
+
+✕
+
+Version 1.2 is the current version. See the Version 1.2 documentation. SLSA is organized into a series of levels that provide increasing supply chain
+security guarantees. This gives you confidence that software hasn’t been
+tampered with and can be securely traced back to its source. This page is a descriptive overview of the SLSA levels and tracks, describing
+their intent. For the prescriptive requirements for each level, see
+Requirements. For a general overview of SLSA, see
+About SLSA.

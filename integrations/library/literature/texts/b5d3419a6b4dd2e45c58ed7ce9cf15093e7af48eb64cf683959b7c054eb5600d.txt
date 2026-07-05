@@ -1,0 +1,14 @@
+Dohan, Google Research (ddohan@google.com)
+
+hindi_question_answering: Kumar Shridhar, NeuralSpace and ETH Zurich (kmr.shridhr@gmail.com), and Akshat Agarwal, NeuralSpace (akshat@neuralspace.ai). Task cites: (Brown et al., 2020; Radford et al., 2019; Jain et al., 2020; Lewis et al., 2020a; Artetxe et al., 2020; Rajpurkar et al., 2016)
+
+hindu_knowledge: Vinay Ramasesh, Google (ramasesh@google.com), and Piyush Patil, Georgia Tech (ppatil@gatech.edu)
+
+hinglish_toxicity: Kumar Shridhar, NeuralSpace and ETH Zurich (shridhar.kumar@inf.ethz.ch), and Akshat Agarwal, NeuralSpace (akshat@neuralspace.ai)
+
+human_organs_senses: Fatemeh Siar, Amirkabir University Of Technology (Fatemeh.siar@gmail.com)
+
+hyperbaton: Nicholas Roberts, University of Wisconsin-Madison (nick11roberts@cs.wisc.edu); Ryan Teehan, Charles River Analytics
+(rsteehan@gmail.com); and Vinay Uday Prabhu, UnifyID Labs (vinay@unify.id). Task cites: (Forsyth, 2014)
+
+identify_math_theorems: Stella Biderman and Leo Gao, EleutherAI (stella, lg)@eleuther.ai, and Austin Herrick, University of Pennsylvania (aherrick@wharton.upenn.edu).

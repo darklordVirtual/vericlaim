@@ -1,0 +1,5 @@
+threshold , we thus only keep API calls for which
+
+holds, i.e., adding the API call and its result reduces the loss by at least , compared to not doing any API call or obtaining no result from it. Model Finetuning
+
+After sampling and filtering calls for all APIs, we finally merge the remaining API calls and interleave them with the original inputs. That is, for an input text with a corresponding API call and result at position , we construct the new sequence ; we proceed analogously for texts with multiple API calls. Doing this for all results in the new dataset augmented with API calls. We use this new dataset to finetune , using a standard language modeling objective. Crucially, apart from inserted API calls the augmented dataset contains the exact same texts as , the original dataset. As a consequence, finetuning on exposes it to the same content as finetuning on . Moreover, as API calls are inserted in exactly those positions and with exactly those inputs that help predict future tokens, finetuning on enables the language model to decide when and how to use which tool, based purely on its own feedback.

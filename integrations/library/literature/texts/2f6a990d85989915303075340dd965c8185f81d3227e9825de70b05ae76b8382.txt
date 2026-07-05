@@ -1,0 +1,51 @@
+This check should go away
+
+- # once sharex becomes kwonly. - if isinstance(sharex, Integral):
+
+- _api.warn_external(
+
+- "sharex␣argument␣to␣subplots()␣was␣an␣integer.␣␣Did␣you␣"
+
+- "intend␣to␣use␣subplot()␣(without␣’s’)?")
+
+- _api.check_in_list(["all", "row", "col", "none"],
+
++
+
++ _api.check_in_list(["all", "row", "col", "none", False, True],
+
+sharex=sharex, sharey=sharey)
+
+Tests
+
+Fail to Pass (1)
+
+lib/matplotlib/tests/test_subplots.py::test_shared
+
+Pass to Pass (39)
+
+lib/matplotlib/tests/test_subplots.py::test_label_outer_span
+
+lib/matplotlib/tests/test_subplots.py::test_label_outer_non_gridspec
+
+lib/matplotlib/tests/test_subplots.py::test_shared_and_moved
+
+lib/matplotlib/tests/test_subplots.py::test_exceptions
+
+lib/matplotlib/tests/test_subplots.py::test_subplots_offsettext[png]
+
+Additional Pass to Pass Tests omitted…
+
+Discussion. This example asks for and to be treated as boolean values for the
+
+sharex
+and
+
+sharey
+arguments of the
+
+pyplot.subplots
+function. The current code raises an error. In the generated patch, the model adds and as acceptable values. However, the gold patch adds the acceptable values into a list
+
+["all", "row", "col", "none", False, True]
+.

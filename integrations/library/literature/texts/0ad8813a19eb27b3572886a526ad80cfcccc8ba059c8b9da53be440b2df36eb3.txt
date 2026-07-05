@@ -1,0 +1,24 @@
+Figure A2: C4 and GitHub IsoFLOP curves. Using the C4 dataset (Raffel et al., 2020b) and a GitHub dataset (Rae et al., 2021), we generate 4 IsoFLOP profiles and show the parameter and token count scaling, as in Figure 3. Scaling coefficients are shown in Table A2. We show scaling results from an IsoFLOP (Approach 2) analysis after training on two different datasets: C4 (Raffel et al., 2020b) and GitHub code (we show results with data from Rae et al. (2021)), results are shown in Table A2. For both set of experiments using subsets of MassiveText, we use the same tokenizer as the MassiveText experiments. We find that the scaling behaviour on these datasets is very similar to what we found on MassiveText, as shown in Figure A2 and Table A2. This suggests that our results are independent of the dataset as long as one does not train for more than one epoch. Approach
+Coef. where
+
+Coef. where
+
+C4
+
+0.50
+
+0.50
+
+GitHub
+
+0.53
+
+0.47
+
+Kaplan et al. (2020)
+
+0.73
+
+0.27
+
+Table A2: Estimated parameter and data scaling with increased training compute on two alternate datasets. The listed values are the exponents, and , on the relationship and .

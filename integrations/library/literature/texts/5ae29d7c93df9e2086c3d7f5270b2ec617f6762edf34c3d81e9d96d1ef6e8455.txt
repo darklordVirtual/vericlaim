@@ -1,0 +1,16 @@
+5.1.6 Start
+
+Start ◊ is when an activity is deemed to have been started by an entity, known as trigger ◊. The activity did not exist before its start. Any usage, generation, or invalidation involving an activity follows the activity's start. A start may refer to a trigger entity that set off the activity, or to an activity, known as starter ◊, that generated the trigger. Given that a start is when an activity is deemed to have started, it
+is instantaneous. An activity start ◊, written wasStartedBy(id; a2, e, a1, t, attrs) in PROV-N, has:
+
+id: an OPTIONAL identifier for the activity start;
+
+activity: an identifier (a2) for the started activity;
+
+trigger: an OPTIONAL identifier (e) for the entity triggering the activity;
+
+starter: an OPTIONAL identifier (a1) for the activity that generated the (possibly unspecified) entity (e);
+
+time: the OPTIONAL time (t) at which the activity was started;
+
+attributes: an OPTIONAL set (attrs) of attribute-value pairs representing additional information about this activity start. While each of id, trigger, starter, time, and attributes is OPTIONAL, at least one of them MUST be present.

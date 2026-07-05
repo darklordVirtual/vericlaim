@@ -1,0 +1,6 @@
+What about computation? In principle, to compute (54), we must iterate over all , which leads to a substantial computational burden. (When is continuous, we would typically first discretize the space and then check each element in a finite set.)
+For example, if , then computing (54) requires model fits. For some specific score functions, the set in (54) can actually be computed exactly even for continuous , and we refer the reader to [vovk2005algorithmic] and [shafer2008tutorial] for a summary of such cases and [ndiaye2019, Ndiaye2022root-finding] for recent developments. Still, full conformal prediction is generally computationally costly. Lastly, we give a statistical interpretation for the prediction set in (54). The condition
+
+(56)
+
+is equivalent to the acceptance condition of a certain permutation test. To see this, consider a level permutation test for the exchangeability of and the test score , rejecting when the score function is large. The values of such that the test does not reject are exactly those in (54). In words, the confidence set is all values of such that the hypothetical data point is consistent with the other data, as judged by this permutation test.

@@ -1,0 +1,13 @@
+This might be a controversial point, but it avoids a lot of pitfalls. First of
+all, let’s describe what a learned feature is. A learned feature is a feature
+generated either by an external system (such as an unsupervised clustering
+system) or by the learner itself (e.g. via a factored model or deep learning). Both of these can be useful, but they can have a lot of issues, so they should
+not be in the first model. If you use an external system to create a feature, remember that the external
+system has its own objective. The external system's objective may be only weakly
+correlated with your current objective. If you grab a snapshot of the external
+system, then it can become out of date. If you update the features from the
+external system, then the meanings may change. If you use an external system to
+provide a feature, be aware that this approach requires a great deal of care. The primary issue with factored models and deep models is that they are
+non­convex. Thus, there is no guarantee that an optimal solution can be
+approximated or found, and the local minima found on each iteration can be
+different.

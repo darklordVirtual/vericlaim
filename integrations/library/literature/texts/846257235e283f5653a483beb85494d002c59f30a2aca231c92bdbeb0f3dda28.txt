@@ -1,0 +1,14 @@
+The original
+maxout result uses early stopping, and terminates learning after the validation set error
+rate has not decreased for 100 epochs. We found that while the validation set error was
+very flat, the adversarial validation set error was not. We therefore used early
+stopping on the adversarial validation set error. Using this criterion to choose
+the number of epochs to train for, we then retrained on all 60,000 examples. Five different
+training runs using different seeds for the random number generators used to select minibatches
+of training examples, initialize model weights, and generate dropout masks result in
+four trials that each had an error rate of 0.77% on the test set and one trial that had
+an error rate of 0.83%. The average of 0.782% is the best result reported on the permutation
+invariant version of MNIST, though statistically indistinguishable from the result obtained
+by fine-tuning DBMs with dropout (Srivastava et al., 2014) at 0.79%. The model also became somewhat resistant to adversarial examples. Recall that without
+adversarial training, this same kind of model had an error rate of 89.4% on adversarial
+examples based on the fast gradient sign method.

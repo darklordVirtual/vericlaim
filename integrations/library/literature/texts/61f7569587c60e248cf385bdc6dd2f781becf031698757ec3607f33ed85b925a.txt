@@ -1,0 +1,20 @@
+Eghbal (2020)
+
+Eghbal, N. Working in public: the making and maintenance of open source
+software. Stripe Press, 2020. Feng et al. (2020)
+
+Feng, Z., Guo, D., Tang, D., Duan, N., Feng, X., Gong, M., Shou, L., Qin, B.,
+Liu, T., Jiang, D., et al. Codebert: A pre-trained model for programming and natural languages. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 1536–1547, 2020. Frey (2019)
+
+Frey, C. B. The technology trap. Princeton University Press, 2019. Gao et al. (2020)
+
+Gao, L., Biderman, S., Black, S., Golding, L., Hoppe, T., Foster, C., Phang,
+J., He, H., Thite, A., Nabeshima, N., Presser, S., and Leahy, C. The pile: An 800gb dataset of diverse text for language modeling. 2020. Goldblum et al. (2021)
+
+Goldblum, M., Tsipras, D., Xie, C., Chen, X., Schwarzschild, A., Song, D.,
+Madry, A., Li, B., and Goldstein, T. Dataset security for machine learning: Data poisoning, backdoor
+attacks, and defenses, 2021. Goues et al. (2012)
+
+Goues, C. L., Dewey-Vogt, M., Forrest, S., and Weimer, W. A systematic study of automated program repair: Fixing 55 out of 105
+bugs for $8 each.

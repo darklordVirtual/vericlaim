@@ -1,0 +1,62 @@
+{"fsid": "arxiv_1706-04599", "n": 61, "overlap": 200, "source_sha256": "7ebb7a0fd63019362a1dc99cedb1909fe57a05bf50cd566c7342edec5d975926", "target": 1200}
+{"section": "", "seq": 0, "sha256": "99af6267587407e877fa157a2e237b1464d72ffdefe03ceb5f2f4515a2dcda15"}
+{"section": "On Calibration of Modern Neural Networks", "seq": 1, "sha256": "e84cc9f38ae1ed7d23a9162238c83f2f0dae69379f7ebca186652e4ef4c892b4"}
+{"section": "Supplementary Materials for: On Calibration of Modern Neural Networks", "seq": 2, "sha256": "be464c49b4e9176ff5c204fab7a9d83436dc374ccd3319828bf93c45a1f88e49"}
+{"section": "1 Introduction", "seq": 3, "sha256": "ca9f9c0ae9e7b6fa4cab059adc3cb2bce9241c67712e4bc3b3661691e547ce30"}
+{"section": "1 Introduction", "seq": 4, "sha256": "62303d01d5c1f1ceb16b5f7d56cbd2a27339db52677beb361845989f1fb312ad"}
+{"section": "1 Introduction", "seq": 5, "sha256": "21904e9fd3df4ddb70df41ff3d2fa9d6a5be51ccdc1ed4c72ad9d14a98f27647"}
+{"section": "1 Introduction", "seq": 6, "sha256": "6f0f1b3f6cc3ebb46851c7aa43bb20fd40dbe9e91a01952766e38a412d41f554"}
+{"section": "1 Introduction", "seq": 7, "sha256": "5674c69e9745b8d519ca0bc3dba7a452597fdd08585fc0edeaeeb5ffd5bc7467"}
+{"section": "2 Definitions", "seq": 8, "sha256": "1d99d8be05abbe0f257bfb2486bb0d36478d3d6df19ae504fc91b68133af474b"}
+{"section": "2 Definitions", "seq": 9, "sha256": "77e9fd92665b738f83ea2771d08ca1f3804d8f47b80cbcb96f772ece0503f3b1"}
+{"section": "2 Definitions", "seq": 10, "sha256": "d6f2ab9db9ef3e197df0f5c6214aec66de8377d4ffe8839e1fb99a263fe33cae"}
+{"section": "2 Definitions", "seq": 11, "sha256": "76765a69593b92c56febbb3484aa42ae1e775a5485f39b0b2ce280df45c52cf0"}
+{"section": "2 Definitions", "seq": 12, "sha256": "b7333a150f8054ed4808a246a556904bebd1e88abc443493b43875bf9eeb1422"}
+{"section": "3 Observing Miscalibration", "seq": 13, "sha256": "875174e7be3df8482942e425964576453f7255f5044aeda9ea0a97eef9b08d7e"}
+{"section": "3 Observing Miscalibration", "seq": 14, "sha256": "7f4227838f2e9c005a89262f35f1429a41c2c83ac4f97322c643c6076b650184"}
+{"section": "3 Observing Miscalibration", "seq": 15, "sha256": "e94d9f2b44c7766c5456b12914b9bf132764c5ff0b22921ceeb828fc34d5db1f"}
+{"section": "3 Observing Miscalibration", "seq": 16, "sha256": "b82b774654d898e84a04d66e7a234aa570abd5bc823f37e45b9a75d218046bc9"}
+{"section": "3 Observing Miscalibration", "seq": 17, "sha256": "6f5be368277903609df2981f611d7055dda8982284d8d8be74da5d2546571424"}
+{"section": "3 Observing Miscalibration", "seq": 18, "sha256": "e295a11b95664836592396dbd84e8e369ae5a73d7ad1aa031a5cd605141acd92"}
+{"section": "4 Calibration Methods", "seq": 19, "sha256": "99d0dcff51d7663c347b4145594f64faf0202e2f2d87e135e23de9812b442f1d"}
+{"section": "4.1 Calibrating Binary Models", "seq": 20, "sha256": "1190d9c2733158492b17eefe1af251a4fb5064ab82e460a2a152b695f42cd888"}
+{"section": "4.1 Calibrating Binary Models", "seq": 21, "sha256": "4311027ef6764db3e9114d3c58a398acf655d87e8d5ee2f9134d9ea7b000cd04"}
+{"section": "4.1 Calibrating Binary Models", "seq": 22, "sha256": "c02642f82e0dadbb3debd9df1db38b3ee2f2746e67ea29f98df7532d6ad482ae"}
+{"section": "4.1 Calibrating Binary Models", "seq": 23, "sha256": "28e33e794f4fd00640c7dce01082a111f024b653472230d25e20eb87dd87a2d6"}
+{"section": "4.1 Calibrating Binary Models", "seq": 24, "sha256": "e490fe00d9816138f2b2253713489cf9b4bde640c39e1c295ca34421bc9843cb"}
+{"section": "4.1 Calibrating Binary Models", "seq": 25, "sha256": "ed0a352e2e956fd3e448c8936860cc7d2d2999858139c6d0520cee2e18d2ddde"}
+{"section": "4.2 Extension to Multiclass Models", "seq": 26, "sha256": "7ac17a6008ac5c99bd654e97c6cf7365fa70ce25e7ffeeb05d70fe9ec6fc9e61"}
+{"section": "4.2 Extension to Multiclass Models", "seq": 27, "sha256": "9831bfa030b222c375a19e40d2c4bf8bc3db11bbf08a07d94800ffddc3a32f04"}
+{"section": "4.2 Extension to Multiclass Models", "seq": 28, "sha256": "1c1caf6669efaaec6ad58e56d9295e695d8552a98ef47e852bbf208e86ecf74e"}
+{"section": "4.3 Other Related Works", "seq": 29, "sha256": "609efcc9642f25b48f10ab39090c0775af15e5d66fbb845e3517da53fd26c4c5"}
+{"section": "4.3 Other Related Works", "seq": 30, "sha256": "05a0499f7e3af6ea0a072dde00104bc21197aada7e9a3154c4662f28f34b67ef"}
+{"section": "5 Results", "seq": 31, "sha256": "340ddc6cb9325dd849acf8d21bd47479a6a613275894331e3cf9611cd5ef4227"}
+{"section": "5 Results", "seq": 32, "sha256": "6dc96d15052719fd2d948f18a8939ef2bc0f22cfee6c9087e15b69d6a179cf6c"}
+{"section": "5 Results", "seq": 33, "sha256": "3a300a277509fdcd74db52e39d31b5f7f5ea5281240e49ec219b9c78d79f4b42"}
+{"section": "5 Results", "seq": 34, "sha256": "61ed039704f04030f9aae14ba889b5f569b98dcf57f25ae16f6256d172d5b6e9"}
+{"section": "5 Results", "seq": 35, "sha256": "87f876631e5797969b720412aded7a24c609a4b1d815b653fc4205200d6386d6"}
+{"section": "5 Results", "seq": 36, "sha256": "05a6e34b5361d8fb9f4dbc7126c8d32ef3e72265524fafc1f1b554cad6417c8c"}
+{"section": "5 Results", "seq": 37, "sha256": "f5163784456897e20da1eb641c02385a13f3350238031f4ec249fb024a00f4a7"}
+{"section": "5 Results", "seq": 38, "sha256": "86455f9afe23d2b65911aaf786809b3745daa0121832dae03a2402a43c4a563c"}
+{"section": "6 Conclusion", "seq": 39, "sha256": "66f86a6dc6f0f9e38e7d008f3e09eb89654c7b8451de8a6a5631003ccdb4b8c5"}
+{"section": "Acknowledgments", "seq": 40, "sha256": "1713d0f929bccd0203d11f7eba90dc6baac3ee38824dbaedc41f034ad30d5950"}
+{"section": "References", "seq": 41, "sha256": "02014a1ab4cf240edba390bd167034570b18797cf19b7dd78e344c2951ea2205"}
+{"section": "References", "seq": 42, "sha256": "ab4b5b360b45f771e18d7f3f4305315aa83f1e8733d8bbbedc67a21510e3e21d"}
+{"section": "References", "seq": 43, "sha256": "d5595b04820e9106140f3ee9caf8f79ab6dc04620e6f5db04a6d206b424c597d"}
+{"section": "References", "seq": 44, "sha256": "3fec3abac36d6a08fbdf8c2b408e68124b935042669b389de0d86a71a99168be"}
+{"section": "References", "seq": 45, "sha256": "4783523b8f6072cc5b00be964abda2ac85779ac5a8712a9a75c514e39677b368"}
+{"section": "References", "seq": 46, "sha256": "64a83fe47b657a3c7a2639e739219d32045d47e483e7fe3790c896cd1702a2c3"}
+{"section": "References", "seq": 47, "sha256": "d68f17dde2201277795ddf9f0aaa10c02401b5cbada57d748c296ee451e0650a"}
+{"section": "References", "seq": 48, "sha256": "03d21126ed6876bf1cf83e3f4e4eafc678d177160c306c59ebe36994bf623ba9"}
+{"section": "References", "seq": 49, "sha256": "e93ad735ad7f971e3520e0dd1b5794e2e3acc968c6fa69fb364bf0f9b1a38357"}
+{"section": "S1 Further Information on Calibration Metrics", "seq": 50, "sha256": "e2091e6f652e374aa0191680c0d46f1cad2f4578f63355bc0390f200e072da08"}
+{"section": "S2 Further Information on Temperature Scaling", "seq": 51, "sha256": "ef61249f9a8b115fd92e1302bdaa97b64b0780e3002fe608adcef80e32c7fbfe"}
+{"section": "S2 Further Information on Temperature Scaling", "seq": 52, "sha256": "a7806da536eb9a8f1718653360dc2ee10b0c181c4ef062d3e5d79a76ce5ba976"}
+{"section": "S3 Additional Tables", "seq": 53, "sha256": "339d45b2e22ff193896f2cf05e652d7dd767c55470161e25470736c85ddc9bce"}
+{"section": "S3 Additional Tables", "seq": 54, "sha256": "3952f9a35f94596607497c9a90a100fba2746e33978d3ddf6dce855d0b510778"}
+{"section": "S3 Additional Tables", "seq": 55, "sha256": "08442151df64d84518d8fc757f4e32ed570c73bddb300c28b733cf736bb8f2f3"}
+{"section": "S3 Additional Tables", "seq": 56, "sha256": "2f04e7e74f38912272d201bfab54caa84b33066d8a87bc4678be284242b96077"}
+{"section": "S3 Additional Tables", "seq": 57, "sha256": "f726b3122a315e22088b5770707a016251e2ba7c3c45cb1f0271c5278b6180a6"}
+{"section": "S3 Additional Tables", "seq": 58, "sha256": "aacc0729dd2b56bfc00ed03bdc0989633bbe7977b75ca7ccce030457bab258cf"}
+{"section": "S3 Additional Tables", "seq": 59, "sha256": "340adb9467ac066702cab737cf28c9101ee1f80d25a983f97d9fe54c9591cbb3"}
+{"section": "S4 Additional Reliability Diagrams", "seq": 60, "sha256": "39960609488ab1000c9ec998c3848202e47e016ddd91efe2a32edda979d08fd8"}

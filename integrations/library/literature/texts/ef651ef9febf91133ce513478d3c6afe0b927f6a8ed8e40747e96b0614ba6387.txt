@@ -1,0 +1,13 @@
+"generation time" (t), the time at which the entity was completely created;
+
+attributes: an OPTIONAL set (attrs) of attribute-value pairs representing additional information about this generation. While each of id, activity, time, and attributes is OPTIONAL, at least one of them MUST be present. Example 19 ◊
+
+The following expressions
+
+wasGeneratedBy(e1, a1, 2001-10-26T21:32:52, [ ex:port="p1" ])
+wasGeneratedBy(e2, a1, 2001-10-26T10:00:00, [ ex:port="p2" ])
+
+state the existence of two generations (with respective times 2001-10-26T21:32:52 and 2001-10-26T10:00:00), at which new entities, identified by e1 and e2, were created by an
+activity, identified by a1. The first one was available on port p1, whereas the other was available on port p2. The semantics of port are application specific. Example 20 ◊
+
+In some cases, we may want to record the time at which an entity was generated without having to specify the activity that generated it. To support this requirement, the activity element in generation is optional. Hence, the following expression indicates the time at which an entity is generated, without naming the activity that did it.

@@ -1,0 +1,10 @@
+The stability of the underlying classification weights in turn results in the stability
+of adversarial examples. To test this hypothesis, we generated adversarial examples on a deep maxout network
+and classified these examples using a shallow softmax network and a shallow RBF network. On examples that were misclassified by the maxout network, the RBF network predicted
+the maxout network’s class assignment only 16.0% of the time, while the softmax classifier
+predict the maxout network’s class correctly 54.6% of the time. These numbers are largely
+driven by the differing error rate of the different models though. If we exclude our
+attention to cases where both models being compared make a mistake, then softmax regression
+predict’s maxout’s class 84.6% of the time, while the RBF network is able to predict maxout’s
+class only 54.3% of the time. For comparison, the RBF network can predict softmax regression’s
+class 53.6% of the time, so it does have a strong linear component to its own behavior.

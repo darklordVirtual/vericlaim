@@ -1,0 +1,15 @@
+arXiv preprint arXiv:2112.04359. Welbl et al., (2021)
+
+Welbl, J., Glaese, A., Uesato, J., Dathathri, S., Mellor, J., Hendricks, L. A.,
+Anderson, K., Kohli, P., Coppin, B., and Huang, P.-S. (2021). Challenges in detoxifying language models. arXiv preprint arXiv:2109.07445. Wu et al., (2021)
+
+Wu, J., Ouyang, L., Ziegler, D. M., Stiennon, N., Lowe, R., Leike, J., and
+Christiano, P. (2021). Recursively summarizing books with human feedback. arXiv preprint arXiv:2109.10862. Xu et al., (2021)
+
+Xu, A., Pathak, E., Wallace, E., Gururangan, S., Sap, M., and Klein, D. (2021). Detoxifying language models risks marginalizing minority voices. arXiv preprint arXiv:2104.06390. Xu et al., (2020)
+
+Xu, J., Ju, D., Li, M., Boureau, Y.-L., Weston, J., and Dinan, E. (2020). Recipes for safety in open-domain chatbots. arXiv preprint arXiv:2010.07079. Yi et al., (2019)
+
+Yi, S., Goel, R., Khatri, C., Cervone, A., Chung, T., Hedayatnia, B.,
+Venkatesh, A., Gabriel, R., and Hakkani-Tur, D. (2019). Towards coherent and engaging spoken dialog response generation using
+automatic conversation evaluators. arXiv preprint arXiv:1904.13015.

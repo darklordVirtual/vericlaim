@@ -1,0 +1,8 @@
+Consider the following problem. We are given a classifier , a training sample
+,
+a confidence parameter , and a desired risk target . Our goal is to use to create a selection function such that the
+selective risk of satisfies
+
+(2)
+
+where the probability is over training samples, , sampled i.i.d. from the unknown underlying distribution . Among all classifiers satisfying (2), the best ones are those that maximize the coverage.

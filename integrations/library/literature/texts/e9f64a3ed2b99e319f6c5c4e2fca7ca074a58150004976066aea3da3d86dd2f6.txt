@@ -1,0 +1,19 @@
+(A) 80%
+
+(B) 60%
+(C) 40%
+(D) 20%
+
+Figure 31: A Global Facts example. Homologous structures are often cited as evidence for the process of natural selection. All of the following are examples of homologous structures EXCEPT
+(A) the wings of a bird and the wings of a bat
+(B) the flippers of a whale and the arms of a man
+(C) the pectoral fins of a porpoise and the flippers of a seal
+(D) the forelegs of an insect and the forelimbs of a dog
+
+Figure 32: A High School Biology example. From the solubility rules, which of the following is true? (A) All chlorides, bromides, and iodides are soluble
+(B) All sulfates are soluble
+(C) All hydroxides are soluble
+(D) All ammonium-containing compounds are soluble
+
+Figure 33: A High School Chemistry example. A list of numbers has n elements, indexed from 1 to n. The following algorithm is intended to display the number of elements in the list that have a value greater than 100. The algorithm uses the variables count and position. Steps 3 and 4 are missing. Step 1: Set count to 0 and position to 1. Step 2: If the value of the element at index position is greater
+than 100, increase the value of count by 1.

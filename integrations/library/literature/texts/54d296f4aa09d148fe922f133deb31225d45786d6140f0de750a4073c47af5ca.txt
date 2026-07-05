@@ -1,0 +1,15 @@
+Let denote the operator norm of (i.e., its largest singular value). Since the non-linearity is contractive, i.e. satisfies
+for all ; it follows that
+
+and hence . On the other hand, a max-pooling layer is contractive:
+
+since its Jacobian is a projection onto a subset of the input coordinates
+and hence does not expand the gradients. Finally, if is a contrast-normalization layer
+
+one can verify that
+
+for , which corresponds to most common operating
+regimes. It results that a conservative measure of the
+unstability of the network can be obtained by simply computing
+the operator norm of each fully connected and convolutional layer. The fully connected case is trivial since the norm is directly given
+by the largest singular value of the fully connected matrix. Let us describe the convolutional case.

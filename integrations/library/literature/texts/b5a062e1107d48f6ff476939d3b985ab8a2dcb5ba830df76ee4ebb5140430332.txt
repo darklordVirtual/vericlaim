@@ -1,0 +1,5 @@
+Task cites: (Thorne et al., 2018; Lee et al., 2021)
+
+factuality_of_summary: Colin Raffel, Derek Tam, and Mohit Bansal, UNC Chapel Hill (craffel@gmail.com), (dtredsox, mbansal)@cs.unc.edu. Task cites: (Eyal et al., 2019; Wang et al., 2020a; Durmus et al., 2020; Vasilyev et al., 2020; See et al., 2017; Hermann et al., 2015; Narayan et al., 2018; Pagnoni et al., 2021; Kryscinski et al., 2020)
+
+fantasy_reasoning: Hugh Mee Wong, Jaap Jumelet, Mario Giulianelli, Clemencia Siro, Maartje ter Hoeve, Agnieszka Kluska, Jeroen Taal, Mátyás Schubert, Omar Elbaghdadi, Dilyar Buzan, Jelle Bosscher, Aman Hussain, and Rahel Habacker, University of Amsterdam (hughmee.wong@student.uva.nl), (j.w.d.jumelet, m.giulianelli, c.n.siro, m.a.terhoeve)@uva.nl, (aga.kluska1404, jeroen1749, schubertmatyas, omarelb, dilyar.muslem.977, jellebosscher)@gmail.com, (email@amanhussain.com), (rahel@habacker.de).

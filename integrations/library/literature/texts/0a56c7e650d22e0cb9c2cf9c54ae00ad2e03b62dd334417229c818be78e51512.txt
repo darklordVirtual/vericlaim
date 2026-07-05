@@ -1,0 +1,11 @@
+produces a much more efficient solution in terms of lines edited, as it makes the smallest edit necessary to incorporate
+
+context
+as a flag for setting the
+
+show_save_and_add_another
+hidden status. However, similar to the discussion in Table 22, stylistically, the gold patch edits are much more consistent with the codebase, and additional changes that are not explicitly discussed in the issue are also made to adhere to what has been done in the codebase (i.e. the addition of a
+
+can_save_and_add_another field
+. This task is an example of a potentially exciting direction where via human guidance or better understanding of a codebase in general, models would then adjust their generations to not just make the functionally correct changes, but also the stylistically right ones, too. Table 24:
+This is an example where SWE-Llama13b writes an incorrect solution, but maintains prior behavior successfully. The difference in the model’s generation and the gold patch here demonstrates how models tend to under-generate the necessary fixes.

@@ -1,0 +1,102 @@
+{"fsid": "arxiv_1609-02943", "n": 101, "overlap": 200, "source_sha256": "85c566b4b297a6a8da22ee4e35e7a44cf3c712af851bff773084b4432452fe8b", "target": 1200}
+{"section": "", "seq": 0, "sha256": "aa06710d177a8e25c80bd2e02841171b1d790d340a8fd432261f98bb32d00f2e"}
+{"section": "Stealing Machine Learning Models via Prediction APIs", "seq": 1, "sha256": "e3e1b4088be18bc7d319814115bf8b5bf99f512f3091ec52f583f801a29d0f96"}
+{"section": "Stealing Machine Learning Models via Prediction APIs", "seq": 2, "sha256": "dc0266c1ad0bb4d3f87ce44776b05fa8f316156b44e59dcf41d0775c02d3d395"}
+{"section": "1 Introduction", "seq": 3, "sha256": "2f293ec5764456279ef3580563055246c3b3c040b7e7297f589e820779cf4663"}
+{"section": "1 Introduction", "seq": 4, "sha256": "afa7d02655bb60b036f729b9523d0869acefd416f3cabd8abb1712f5db12a5a2"}
+{"section": "1 Introduction", "seq": 5, "sha256": "a00c090f49f02d6d1ecbaf743579faf7a62345cd07702fa1aff12280ce346d65"}
+{"section": "1 Introduction", "seq": 6, "sha256": "b3c772feac9a0ca7d0e6f794b73a20b0e854f7855fbcf824cd6fdaa47a4e296b"}
+{"section": "1 Introduction", "seq": 7, "sha256": "824c68acd2ddc1ff3b0ae5e857e3fd2611396df36b99301eeb67812880c8439f"}
+{"section": "1 Introduction", "seq": 8, "sha256": "d6db11e8d0506db8d029dcbf5f6e8bb53c5f37079fe6607385c0af8f540b73dd"}
+{"section": "1 Introduction", "seq": 9, "sha256": "ee5788a9ee9767566b5b0c5abfe21a91a706e4bd42ad09651d9164ee0ed6b1f6"}
+{"section": "1 Introduction", "seq": 10, "sha256": "ab8f7f609f356c2a31edd4e3270412a633a5e177a8a5dfbb1aededbe2b4ed2c5"}
+{"section": "1 Introduction", "seq": 11, "sha256": "b174059b7af22bb8dec226ef3768d7bcd0db89ddb192c2a7f430faf0222ac1a6"}
+{"section": "2 Background", "seq": 12, "sha256": "2cc8f5d35a723c13b725977178d7a9dd7929bdc4a4ed7153e47f6894927ebdbf"}
+{"section": "2 Background", "seq": 13, "sha256": "e26ded5dc1ad10c8d097858a74c97fb050a4bd5b1b83c311c09e40c73fef47f8"}
+{"section": "2 Background", "seq": 14, "sha256": "1d8d8b4e040a7faf90569a34c3ec0b78bb849daf9f7aa2e06172cbf837931d5b"}
+{"section": "3 Model Extraction Attacks", "seq": 15, "sha256": "2e1a745b08ec7af51bb45f2398efc55b52a0eb74edc9764c1e46654c11f1e5b5"}
+{"section": "3 Model Extraction Attacks", "seq": 16, "sha256": "b64185cecab1bfdc099757d475f6026bcf1e1b4072dd5f398f169c05c18ba667"}
+{"section": "3 Model Extraction Attacks", "seq": 17, "sha256": "98aa908c105667541827d6f884ffdfc19f8e4f5b6516144283e1e384b1bf98a1"}
+{"section": "3 Model Extraction Attacks", "seq": 18, "sha256": "ed4b6569ab98c27b254fe27bf664fd383ff9f2ecf544f7500e01a12ebc2f9d0b"}
+{"section": "3 Model Extraction Attacks", "seq": 19, "sha256": "9359859053c889af3be7febbdf23023f74a504dbf4747e85dd1fa6dd5d110a1b"}
+{"section": "3 Model Extraction Attacks", "seq": 20, "sha256": "485e30c040cd80f897c266e1e0f631f22c6d4f9bf8d1c9d431ca9e83291e18bc"}
+{"section": "3 Model Extraction Attacks", "seq": 21, "sha256": "3ca0f25d1718ea9ddaf8c126ec129d4730e040854c945ef1ef96d1be30b49356"}
+{"section": "3 Model Extraction Attacks", "seq": 22, "sha256": "cf08195ef958524e0ff4185481d646b52aaee47757c62ad72308e3d190283837"}
+{"section": "3 Model Extraction Attacks", "seq": 23, "sha256": "adaa7e28017da67c2a95f967acd87fac608368d5023e2e1a05d74b2d6b697d8c"}
+{"section": "3 Model Extraction Attacks", "seq": 24, "sha256": "bbea82e0d0de49da9d6ea9fe20ca8196519be337e77ca56b9a6bb6251cbb4419"}
+{"section": "4 Extraction with Confidence Values", "seq": 25, "sha256": "15750689298a21373a389a28481cc1526431e679a9447dda4a61376abff2798b"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 26, "sha256": "9363d435ba88333d31c166dc2d2bb51253b3c84e13a2c369aa8ce61406da19e3"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 27, "sha256": "3f55285532b627862d74e7031bf1d4cad620b489ab3ad0f1a8ddadcaf650481b"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 28, "sha256": "30a478d33e6fc96fc34832cbc8d27f001f6f3b6ea7dc6b3d8bd997389f3e6c3a"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 29, "sha256": "e8e85e28b7cb8ead88c147c35c1ee146d11f3c954ca027f6aded9f135ea41155"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 30, "sha256": "8674095885e656e729b5122fd61ec44a079a4fc502787496c50a13a929fe2cbd"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 31, "sha256": "1bffabce1d3e37a275cf76cc612ba05f53ad550c71e0e2a16de5d521014a2776"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 32, "sha256": "d48dffa7c01c63495d4ba607c5652a21935a275c2e5b8a5a75d74380bff8fd01"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 33, "sha256": "408213ae712005167e1d91cf5866d8ffd80aab9f9967aa48b101d98dd7d29513"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 34, "sha256": "d69a77d882e748b2a552f55d4ee0d3e099aeb902aaeeab8c15bf11d74f30af2d"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 35, "sha256": "1ef80f99a59b44bb9ec7e779a199c34d164bcdf86bbebc9d8a883d61262d63af"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 36, "sha256": "72ab57887a1518deb71ab5743498f8e1c2161a5301cf2cb0bdbe358812487e0b"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 37, "sha256": "084efb076d5d1a8fb329eca5f0f70cc7d7013f0d8f0641eecb6ad4243be37474"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 38, "sha256": "a44f86d81d5d879b0c98d30039b1ac199ed3c511653a1417b67b24c34aa36188"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 39, "sha256": "da9080992a473af7375532a49013845e29d9bfffb85e081ea6770fea1994eab3"}
+{"section": "4.1 Equation-Solving Attacks", "seq": 40, "sha256": "7f02e0cc1a980b4b97806158f764bcbb6992ef770fb33766f7c435de75deee27"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 41, "sha256": "9aa806d37651d7be470e90c6e53ca8fa7f222d1929e15bd6aabe94f07291344a"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 42, "sha256": "4a399fdb0ee745b11d3e1c55e246350c364f584977d0993dbb545c2027e82db1"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 43, "sha256": "84e09684be7a9b10210bdcff2849affda1287eec0d492e5f3cc8713477f6b11d"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 44, "sha256": "d20aad83013bce1372a2d798505cc1a8eee30d16e2a95d5b6acdba2cf1d2e588"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 45, "sha256": "c105f8d9000b5cd60761cd5dd0ed904215efdfb97db33dd305feff92a3a22fae"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 46, "sha256": "2323bd228f197e8ddff1df35b81296150176bf3eff81f1d39299c4976aa7a7c0"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 47, "sha256": "5d0b9518b7e1afde011a5a1828e7dfb1d962d5f19a81a956b81ed54e3e685c48"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 48, "sha256": "17c9a05ebe88a4da7791103fd3d64ee7bb34b7170b27565c9579231231c256da"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 49, "sha256": "f2ceda1af46f25c6944abf8dfb9116564bbc796fefcb2e19bb4aac305f863ac0"}
+{"section": "4.2 Decision Tree Path-Finding Attacks", "seq": 50, "sha256": "65ef39332e73b61f7807dc4608021419d1b97b58def4c4b94e0af61f36641eea"}
+{"section": "5 Online Model Extraction Attacks", "seq": 51, "sha256": "b56e957cbedb84151e013dfbcf040f556e86cda830b2dff1633eadf4ca753626"}
+{"section": "5.1 Case Study 1: BigML", "seq": 52, "sha256": "e0d3d55caeab8c6006fe928a92a8da74d4f7823431faaf3aa13a8a22adec5334"}
+{"section": "5.2 Case Study 2: Amazon Web Services", "seq": 53, "sha256": "f004629486538136a4e6577fe15b0cb20b73e6799f70ef110f33a849badd9bfb"}
+{"section": "5.2 Case Study 2: Amazon Web Services", "seq": 54, "sha256": "2b35a8ab0f1eb7633642bae06c606296e4ef1e82f998a956934c82d8a1057f42"}
+{"section": "5.2 Case Study 2: Amazon Web Services", "seq": 55, "sha256": "af50324d104f3b45c53594d839c6cc4b4b94ee0d8c42dddf8ceab99595366c3a"}
+{"section": "5.2 Case Study 2: Amazon Web Services", "seq": 56, "sha256": "079fb5ef0b66f41ecbba0b62d9ff820d18859b3693cee5be4bb6275061d52965"}
+{"section": "5.3 Discussion", "seq": 57, "sha256": "b3fbd02ea3eac05ca27fe50e105376ff7fa9927ecbe30065471f8a80faba13e6"}
+{"section": "5.3 Discussion", "seq": 58, "sha256": "b4eb271b89a33833eaec7c53aafee573247e6c59eedd3cd5ca190e73962cd01f"}
+{"section": "5.3 Discussion", "seq": 59, "sha256": "866ded82a694e2787e067786518ac00a91bf4300bec6e7a584593d8028049f84"}
+{"section": "6 Extraction Given Class Labels Only", "seq": 60, "sha256": "d0cae4b30d70b5cec4d842367c4cf83d7e90326d00ea0f563df23d2c2ee291e5"}
+{"section": "6 Extraction Given Class Labels Only", "seq": 61, "sha256": "84a3c3030d0776ea9652b8ad90e8dbee95a4e8d247a2067eceff7b2f7b68985d"}
+{"section": "6 Extraction Given Class Labels Only", "seq": 62, "sha256": "4241b597fd823a4b7e9ed1b497f36a98fe4ea0674ea6d06aea53d0f18ae3d998"}
+{"section": "6 Extraction Given Class Labels Only", "seq": 63, "sha256": "c8e2518a3ef4c80c0fcd727e0ea6a802c949c7721f647307581f12fc37b7a1c2"}
+{"section": "6.1 Linear Binary Models", "seq": 64, "sha256": "da97bbe2f5463a90ff62e28a8557c329317a773063ab08647d6a1c1f53b5fe20"}
+{"section": "6.1 Linear Binary Models", "seq": 65, "sha256": "012d2fbae10932d605c2d4ec673711d5e79a5edef848b1fe3bb5b4c26e755d49"}
+{"section": "6.2 Multiclass LR Models", "seq": 66, "sha256": "dfb90570ce725f0b6803fedb57b386d7c5f054c970870c4bfccf509ee8175f37"}
+{"section": "6.2 Multiclass LR Models", "seq": 67, "sha256": "c3cd3d6b7b772b30de5408c3dc852e0e566fac92cef0b31111113d697359557e"}
+{"section": "6.3 Neural Networks", "seq": 68, "sha256": "a6570c9bdb2af75b9e562f77e97b1cb7875a2313578d7419f0b32bf9c2efc2dd"}
+{"section": "6.4 RBF Kernel SVMs", "seq": 69, "sha256": "8f4fc2a8edb1f955e3a39d941fceabbf57aec01b26e9ab9e5872efc8e4cd60b8"}
+{"section": "6.4 RBF Kernel SVMs", "seq": 70, "sha256": "6866b170fbc49d3ecc64c1c4373614f3eaefd9f57b0f72e0602228c373267881"}
+{"section": "7 Extraction Countermeasures", "seq": 71, "sha256": "156fd40febfa36f097127004a9411466854b1a1ce8fd54389e8a536392dd36ef"}
+{"section": "7 Extraction Countermeasures", "seq": 72, "sha256": "a52458a754cfe97b5b4b8052d0d3aa0cb5f0c41f2f34002149e5727877c1f1c9"}
+{"section": "7 Extraction Countermeasures", "seq": 73, "sha256": "34f933619453c8defded0c9a25c5d56ca2a24901645039cc742418117709e22b"}
+{"section": "7 Extraction Countermeasures", "seq": 74, "sha256": "04c078b2da27f282c63fafa3654970bc17260450f57874f1d8915b3a62b3a1cd"}
+{"section": "7 Extraction Countermeasures", "seq": 75, "sha256": "0730d3b8e9c47346508cd9b1ef1b6b9dc0f7d1f436392cfef6af54ecd4cdea29"}
+{"section": "7 Extraction Countermeasures", "seq": 76, "sha256": "a7ed171367324be94bf1d499e429053b43542529e7845f7d323d2a62eace48fc"}
+{"section": "8 Related Work", "seq": 77, "sha256": "4de53b04bd9b4a1d3a4db142a68d0fb7b906305c2cdf79af7577be804bca1a56"}
+{"section": "8 Related Work", "seq": 78, "sha256": "136f2ffbf23f6fb1737416fcef9f993e09b78c0116eb2877b48e2dba5777be7f"}
+{"section": "8 Related Work", "seq": 79, "sha256": "c2b749f9980934e4c00856a5e7e380425318f903fa0788acdc6cc2f4f32c6582"}
+{"section": "9 Conclusion", "seq": 80, "sha256": "62c481e297618d1a8e73d79cf9828edb459077f3eb910ff1f9b5413d85ee9cc0"}
+{"section": "9 Conclusion", "seq": 81, "sha256": "0ba3aaf2472a27a30e267ee171c1a62ed2fc26e4b3687b59bd0fabe2481597e4"}
+{"section": "References", "seq": 82, "sha256": "931beed4fba4d83e386fc25b73ca0ddd486195b722979735489eb92c6bd3a44d"}
+{"section": "References", "seq": 83, "sha256": "c3d4a50886929fd6784b2358204526d6ca3b50be97dd9df535fe04aace926522"}
+{"section": "References", "seq": 84, "sha256": "598b1196a8e3f34f3fb9854e52d86c75f0bc43d2bbddefa4df98dbe7973ec9e6"}
+{"section": "References", "seq": 85, "sha256": "cf4ae92c02fac33bbd34ac72982972849c19ea633aeecc265d476502acd1295b"}
+{"section": "References", "seq": 86, "sha256": "8777e83b15bf837101b45516656173b1422e99d0c54749422942246c4ddc4482"}
+{"section": "References", "seq": 87, "sha256": "7ed1b7dcd495046f1b3056897bc97eeeee32a0795099ddb897d9289e5791ea06"}
+{"section": "References", "seq": 88, "sha256": "ce45b05331ce6b4fae64c50b723303d4482d2a9603b81d56ab731db9ca712c78"}
+{"section": "References", "seq": 89, "sha256": "0b198808886f292e3d28cdbd69f2498cdf2d4a06b1f1b1bc3767cd59301f0bb1"}
+{"section": "Appendix A Some Details on Models", "seq": 90, "sha256": "2b4272537c7d2b9d2fe2bf659b025b4d80ff9b7ee55354b6cb6c9a77bdb6a8d7"}
+{"section": "Appendix A Some Details on Models", "seq": 91, "sha256": "326bd6edc012e6377e105d9c9ca88476a7609e50c53f989943218a2f17d988e2"}
+{"section": "Appendix A Some Details on Models", "seq": 92, "sha256": "da88d85d128c620912d5363cf20f525a93534e00dcd3c2b19a9b7637bece8f14"}
+{"section": "Appendix A Some Details on Models", "seq": 93, "sha256": "9e72e8c8d4090bdd3154fe5556dc6d2e38b5dc1a047c27093262ef01f4585820"}
+{"section": "Appendix B Details on Data Sets", "seq": 94, "sha256": "3e982f183201ba6a8a54ac7d7f806155c98157b7987b2434218c57a92e4aff69"}
+{"section": "Appendix B Details on Data Sets", "seq": 95, "sha256": "ab41cffd7414953519a2c913215d39c09fb5a9eaf62f420e8b7ee2979a3f9921"}
+{"section": "Appendix C Analysis of the Path-Finding Algorithm", "seq": 96, "sha256": "e557bbde0958ef1a1b786d996f2236d9493319557a317c134cc8f9991adfcd4c"}
+{"section": "Appendix C Analysis of the Path-Finding Algorithm", "seq": 97, "sha256": "522b03648f90f8a06d7d0e592b9407237fdb2b24d4bc7a71df6d4e44b28f0ca6"}
+{"section": "Appendix C Analysis of the Path-Finding Algorithm", "seq": 98, "sha256": "2b4220c30007dea1a66fb6280dc8e951f79e296a955e56c80922656ed0e14070"}
+{"section": "Appendix D A Note on Improper Extraction", "seq": 99, "sha256": "ddbe3c96140e511cd347baa10d7089c95b73db835d8ec009d2c4a90e7e35a34b"}
+{"section": "Appendix D A Note on Improper Extraction", "seq": 100, "sha256": "8f6d3705fb1288b687f00dae23aea8d1ac63581c1f9f9701f1c04d3f8e098e83"}

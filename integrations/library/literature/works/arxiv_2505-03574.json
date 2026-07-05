@@ -22,6 +22,12 @@
     "Wu Zhou",
     "Joshua Saxe"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:39.003198+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2505.03574"
+  },
+  "fulltext_sha256": "4b6f8e1c8bc2f5055efe432a1162eee157188c19965eea3c3e4d70ec0f4ea918",
   "registrar": "arxiv",
   "retrieval": {
     "query": "curator pass over source bibliography",

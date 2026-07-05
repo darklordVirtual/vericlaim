@@ -1,0 +1,7 @@
+The type of a quotation relation is denoted by:
+prov:Quotation ◊. PROV defines no quotation-specific attributes. Example 32 ◊
+
+The following paragraph is a quote from one of the author's blogs. "During the workshop, it became clear to me that the consensus based models (which are often graphical in nature) can not only be formalized but also be directly connected to these database focused formalizations. I just needed to get over the differences in syntax. This could imply that we could have nice way to trace provenance across systems and through databases and be able to understand the mathematical properties of this interconnection."
+
+If wp:thoughts-from-the-dagstuhl-principles-of-provenance-workshop/ denotes the original blog by agent ex:Paul, and
+dm:bl-dagstuhl denotes the above paragraph, then the following descriptions express that the above paragraph was copied by agent ex:Luc from a part of the blog, attributed to the agent ex:Paul.

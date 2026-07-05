@@ -1,0 +1,5 @@
+Task cites: (Rugani et al., 2015; Wang et al., 2019b; Zhang et al., 2018b; Brown et al., 2020)
+
+odd_one_out: Daniel Moseguí González (d.mosegui@gmail.com). Task cites: (Resnik, 1995; 1999; Jiang & Conrath, 1997; Li et al., 2003; Banerjee & Pedersen, 2003; Jarmasz, 2012; Hughes & Ramage, 2007; Tsatsaronis et al., 2010; 2009; Morris & Hirst, 1991; Strube & Ponzetto, 2006; Ponzetto & Strube, 2007; Gabrilovich & Markovitch, 2007; Milne & Witten, 2008; Yeh et al., 2009; Radinsky et al., 2011; Cilibrasi & Vitanyi, 2007; Deerwester et al., 1990; Reisinger & Mooney, 2010; El-Yaniv & Yanay, 2013)
+
+operators: Jos Rozen, Naver Labs Europe (jos.rozen@naverlabs.com).

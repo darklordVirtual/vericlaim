@@ -1,0 +1,22 @@
+While each of id, trigger, starter, time, and attributes is OPTIONAL, at least one of them MUST be present. Example 23 ◊
+
+The following example contains the description of an activity a1 (a discussion), which was started at a specific time, and was triggered by an email message e1. entity(e1, [ prov:type="email message"] )
+activity(a1, [ prov:type="Discuss" ])
+wasStartedBy(a1, e1, -, 2011-11-16T16:05:00)
+
+Furthermore, if the message is also an input to the activity, this can be described as follows:
+
+used(a1, e1, -)
+
+Alternatively, one can also describe the activity that generated the email message. activity(a0, [ prov:type="Write" ])
+wasGeneratedBy(e1, a0)
+wasStartedBy(a1, e1, a0, 2011-11-16T16:05:00)
+
+If e1 is not known, it would also be valid to write:
+
+wasStartedBy(a1, -, a0, 2011-11-16T16:05:00)
+
+Example 24 ◊
+
+In the following example, a race is started by a bang, and responsibility for this trigger is attributed to an agent
+ex:Bob.

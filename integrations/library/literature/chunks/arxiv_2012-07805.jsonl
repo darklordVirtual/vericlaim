@@ -1,0 +1,104 @@
+{"fsid": "arxiv_2012-07805", "n": 103, "overlap": 200, "source_sha256": "9fac002b90d4fea0090aab540541a897d8074f99376433b872bd143f20c861f2", "target": 1200}
+{"section": "", "seq": 0, "sha256": "9f45324bb6e3078b13a660bd2f71d0601158c6bc6206018d38e9651ba445f13a"}
+{"section": "Extracting Training Data from Large Language Models", "seq": 1, "sha256": "623a74d4a5b9272f56a8ab729f0f745c89ac775e45f77572f0a7b8f801546414"}
+{"section": "Extracting Training Data from Large Language Models", "seq": 2, "sha256": "166b4963fdd647392b05a6be35021ea9a8d4a87619aa4a7cd8bb1e37e6c69214"}
+{"section": "1 Introduction", "seq": 3, "sha256": "39c7040b52f9125875809ce30c96aa227c698d8b7be4d7a7897e0b73834ebe48"}
+{"section": "1 Introduction", "seq": 4, "sha256": "3c83dfba85fb14c10cd9369617b8fa84dc6f6c510d322880c5d36aba5d2062ad"}
+{"section": "1 Introduction", "seq": 5, "sha256": "debee16b404c3143c5de7cfb1ca22249b7f24a0d51bdf2fbb406d4a008dda07d"}
+{"section": "1 Introduction", "seq": 6, "sha256": "d920eda4b7768fc0bab4f944c2f4dd1109f5c8928360e6ae2e30d395ea236c59"}
+{"section": "1 Introduction", "seq": 7, "sha256": "479e6f3187e8ae8f3057d03f9aac36b356660ed876edb9de92fc470c7484dfb2"}
+{"section": "2 Background & Related Work", "seq": 8, "sha256": "13c047d6b5cb1adb58201e213e589e68b1c4327ee48a0d6c1d7f1f1e6ea12b37"}
+{"section": "2.1 Language Modeling", "seq": 9, "sha256": "dbcf47871e095f68348c692c9ba8d87929a5c068d5f9e0b8f21ccd867217719f"}
+{"section": "2.1 Language Modeling", "seq": 10, "sha256": "fa58fd4826a3d85286b1574a881510b25ad38874cd17f64d4a0f81a13d99180d"}
+{"section": "2.1 Language Modeling", "seq": 11, "sha256": "73134daf8d9292a4f0b41b0d7ad6950662b67da5f2ed359a48d210d2f2581190"}
+{"section": "2.1 Language Modeling", "seq": 12, "sha256": "1e4f2d3b855ca14dca8a9ecd74cb65fea2eb87f9f1423f53f89a554f472c5b21"}
+{"section": "2.2 Training Data Privacy", "seq": 13, "sha256": "18a73f907a69d29ee8a7c81f8b613b5ccc54ebbf12e7944d0a5f227d8ce57e11"}
+{"section": "2.2 Training Data Privacy", "seq": 14, "sha256": "352ca3233750631efac53f84ea142b39a2b5b54aa1aec727a6dada9e4e7d6d1b"}
+{"section": "3 Threat Model & Ethics", "seq": 15, "sha256": "17b6b83c2c8ea76e867a5b9e407c6a645de359488d0fc4c48da3eb48749ee59b"}
+{"section": "3.1 Defining Language Model Memorization", "seq": 16, "sha256": "57a79af9c6ac55336147b04b7c92cdcbfdb89097dc5377e4c779a7f72df5744f"}
+{"section": "3.1 Defining Language Model Memorization", "seq": 17, "sha256": "8aeed93de278552e0011b965dd7a3d8464de2ff222e0ea340cb7e95ccfab7ce1"}
+{"section": "3.1 Defining Language Model Memorization", "seq": 18, "sha256": "634c692038ef70d9a10358af1ce995d413aa0bdb9ec8880bd13537cef2214663"}
+{"section": "3.1 Defining Language Model Memorization", "seq": 19, "sha256": "3f23444177fc23cd9632cba616857aecfd76140faedfe85479f9216adaff5d37"}
+{"section": "3.2 Threat Model", "seq": 20, "sha256": "5caae8b20488004f33e602e7ac107d5322416bbf8c3aceaa90c4bd520af4bb6f"}
+{"section": "3.2 Threat Model", "seq": 21, "sha256": "8ca886bbc4ae1991aff857cdf2db6eba52cc96d56d0ca5c067dfaf227084ecc3"}
+{"section": "3.3 Risks of Training Data Extraction", "seq": 22, "sha256": "f732d40090a1dc8eb99dda6681d8437eada9c243e4db84c3efa5a8446b7bb0c8"}
+{"section": "3.3 Risks of Training Data Extraction", "seq": 23, "sha256": "adeed9bf0e3736f08afd0abccb74487647e2a885b7809722d471a318fa357716"}
+{"section": "3.3 Risks of Training Data Extraction", "seq": 24, "sha256": "44a4de36fad60ba5e7744d531f760fa401f250d9cf678dd1a65d3fc4514b7a61"}
+{"section": "3.4 Ethical Considerations", "seq": 25, "sha256": "b41201948239bd71c8b5fe524bbca55e0de9109a1e781f6407d5babf16a59bae"}
+{"section": "3.4 Ethical Considerations", "seq": 26, "sha256": "67550222e743b2cafa2c7edcc4aff64e312e9972090d1bf3a782df9b26d354df"}
+{"section": "4 Initial Training Data Extraction Attack", "seq": 27, "sha256": "7c4f71054762694eb3ed6ad36d1b86e71e45b9b8337d1c7604f487565e0937f4"}
+{"section": "4.1 Initial Text Generation Scheme", "seq": 28, "sha256": "b8288ecd4f6dc1539ecf5f4c651b520bed0c5ea319ec3085a4883ae7f911d7f6"}
+{"section": "4.2 Initial Membership Inference", "seq": 29, "sha256": "2003fdb7135859fc26bb0219a7493a7e5dd1d1b94328c0fccf0bd7436408b421"}
+{"section": "4.3 Initial Extraction Results", "seq": 30, "sha256": "0e5e0119a2e3b7ba89538128f0e6e783255ef713ea0da495a367b16f870db118"}
+{"section": "4.3 Initial Extraction Results", "seq": 31, "sha256": "ab3232e08d33568b91f5096cb3ae6c3ab952249d57a2d7dd4544c6d1d3fa3a51"}
+{"section": "5 Improved Training Data Extraction Attack", "seq": 32, "sha256": "19f3c361896f15a33aeb31fd2f3aab6851eed45251f972f052b0529b3e80a131"}
+{"section": "5.1 Improved Text Generation Schemes", "seq": 33, "sha256": "2d4326cd6ee724c792165105e2e0108e81eaf8c9962cff75a814388aecc49f7a"}
+{"section": "5.1 Improved Text Generation Schemes", "seq": 34, "sha256": "fdfca54ded3e037a8f5262e5e7940f17c0a4cf506bf14f6134dd32e79c91be64"}
+{"section": "5.1 Improved Text Generation Schemes", "seq": 35, "sha256": "06a5e97e85f11e9f96ac76b88d966efbd0c6b2c8d98df9a42d674d1c3fa8d410"}
+{"section": "5.1 Improved Text Generation Schemes", "seq": 36, "sha256": "cb48177a58021f44c566b6770675c3e21752a300992f127a14630e9155b66568"}
+{"section": "5.2 Improved Membership Inference", "seq": 37, "sha256": "e0d9a5ff6ab64a456ee746a577c83a5d80d6267eb6b7fbf3fa1e28ea209ae0c4"}
+{"section": "5.2 Improved Membership Inference", "seq": 38, "sha256": "0ab89449209d0ec18494c4c5af1757d12297dfb5b3f5add9a669f68939fa5f4a"}
+{"section": "5.2 Improved Membership Inference", "seq": 39, "sha256": "976dbfe643e3997e8bb672d5a56870b04f208d5d074b068cf9997968d179806c"}
+{"section": "5.2 Improved Membership Inference", "seq": 40, "sha256": "9eba9a98337a72b283d6d3254acb3791eae72d51df29a2a56b48dbefef539421"}
+{"section": "6 Evaluating Memorization", "seq": 41, "sha256": "ed1442bd9cc55d4ec61bae7b432b890d72d19c656c4d8b43b502503039d6b55a"}
+{"section": "6.1 Methodology", "seq": 42, "sha256": "5938f2ed8a4f354e53ee2666768c4c0cea846399034f7e4260ccc12639104a47"}
+{"section": "6.1 Methodology", "seq": 43, "sha256": "f84b9e2101e48dbcea3d9c99ff868b1c3c8b5b2a21191af694e50e5d2b0f0451"}
+{"section": "6.1 Methodology", "seq": 44, "sha256": "265fa2121f50b33f0775bd7373dd1627fad0945fde368e0bd6d7fe0de798c17e"}
+{"section": "6.1 Methodology", "seq": 45, "sha256": "26b477b52ebb58ada915621da7fc7cbeac586db13df279d2f001f29cfbd7b3a3"}
+{"section": "6.1 Methodology", "seq": 46, "sha256": "ba9f865df139eb88fed02d90a0308666ead924f37e283c19c2401dcb7ff94041"}
+{"section": "6.2 Results", "seq": 47, "sha256": "f0417a4a293cb54a79441612dca7b21fb03593232ea2b5d3a6329f418d63147d"}
+{"section": "6.2 Results", "seq": 48, "sha256": "883c9679a2bd018a6e66acc374fa29064a110411faa80217f3d4b43d57de332a"}
+{"section": "6.2 Results", "seq": 49, "sha256": "19531c6b791a1fe469202552725f430d73cd40f85a523d0e22abb390c4b4275e"}
+{"section": "6.2 Results", "seq": 50, "sha256": "96e54be9456af37f262ca5dc0bc9b25fe87972f073f54ca7fa794293987f2446"}
+{"section": "6.2 Results", "seq": 51, "sha256": "d57cefa3f8cb0591b4b64cd5c1b98a86a983b90208c1bcb991bb855a2577cc30"}
+{"section": "6.3 Examples of Memorized Content", "seq": 52, "sha256": "cffe0e8f74da636bf257110c65db06923a4e163c4bc10f9ce16ae22fe4cb7a0d"}
+{"section": "6.3 Examples of Memorized Content", "seq": 53, "sha256": "91b8d22e565dd47b46a5b2259b86390a7a86b5d80aebd0a3ee49c5658263118d"}
+{"section": "6.3 Examples of Memorized Content", "seq": 54, "sha256": "4c10de3c414206726d7b87a81019958830bd9816cddb780e1d654e75300edc5c"}
+{"section": "6.3 Examples of Memorized Content", "seq": 55, "sha256": "8022e42f0aaff5cf66f66ca8b39330421205c7241f112cb883a705816c902441"}
+{"section": "6.3 Examples of Memorized Content", "seq": 56, "sha256": "708485d1f11a61158da8185c692194572ebaccb90ac081ed9f204d4924b34e82"}
+{"section": "6.4 Extracting Longer Verbatim Sequences", "seq": 57, "sha256": "1fd0011c1e7be4a60d615062ff7f034d14339ceaf1da1614b9e23dfd94791c35"}
+{"section": "6.5 Memorization is Context-Dependent", "seq": 58, "sha256": "58c552f648389660f730db3114083c09bb98a5756f4f472984b58c74369e534f"}
+{"section": "6.5 Memorization is Context-Dependent", "seq": 59, "sha256": "9b80f486600ad2a2df04492d81b34fe80f5fb38ac0d03c92369746683b0bae59"}
+{"section": "7 Correlating Memorization with Model Size & Insertion Frequency", "seq": 60, "sha256": "2a750f7196e2d64a8b5a3ce1f4592fb09de944f731ae4fc24dd3951c17317639"}
+{"section": "7 Correlating Memorization with Model Size & Insertion Frequency", "seq": 61, "sha256": "8e825ad9ad26a2f1a0787243495f6141532b62fc4222d8c210f2db28babc16a5"}
+{"section": "7 Correlating Memorization with Model Size & Insertion Frequency", "seq": 62, "sha256": "53ee6bd5432bf3caae9958c35a1a4cdad9781dec3dcf7841955bac28a51176f9"}
+{"section": "7 Correlating Memorization with Model Size & Insertion Frequency", "seq": 63, "sha256": "c4cd37c9911b9b4c11d09433eec8f3175bcc44a1ada2b9e07ac6bcacffc3f585"}
+{"section": "7 Correlating Memorization with Model Size & Insertion Frequency", "seq": 64, "sha256": "52a335c55f07f2d7da70b5482544424c181dda118af3e38b34386ba2d52f1d12"}
+{"section": "7 Correlating Memorization with Model Size & Insertion Frequency", "seq": 65, "sha256": "a5a9b95aa8dacdd17f9fa70a01ec194b37d023827c57fe92cdba7415d0935b3d"}
+{"section": "8 Mitigating Privacy Leakage in LMs", "seq": 66, "sha256": "bc2bd60992153e241a689b6bafe4db36f7f77509fe8b5a6a256692fd64fe0a81"}
+{"section": "8 Mitigating Privacy Leakage in LMs", "seq": 67, "sha256": "01a87c1294275336a2e198c05c772fc63b1230e66f7e15daacf2de56bdff65b0"}
+{"section": "8 Mitigating Privacy Leakage in LMs", "seq": 68, "sha256": "256f73839b9d5d18551dac76881739fc84cf8c9457a44f1f7f5cb726595ac5d2"}
+{"section": "8 Mitigating Privacy Leakage in LMs", "seq": 69, "sha256": "c6d8bc21e22572b4a1540af22dd11346c38afabc1d0daf9dfbfefe8e65d34b97"}
+{"section": "9 Lessons and Future Work", "seq": 70, "sha256": "496c7d9e88c62dfc340026744b52f53aa328ab8496df95e8820a7f4e9b8f440c"}
+{"section": "9 Lessons and Future Work", "seq": 71, "sha256": "cd21e70501b6124908d0300af6a093d482bc62e5bca1e3a08564392eb561a970"}
+{"section": "9 Lessons and Future Work", "seq": 72, "sha256": "4d0a03cd5af3850a306b664412492ba4cae664693f4dba2dbab8402a6e8ad310"}
+{"section": "10 Conclusion", "seq": 73, "sha256": "b8e43419acd941004f22555d0767d02b3495a7bb19264db6b9fb8e1bab2d52d2"}
+{"section": "10 Conclusion", "seq": 74, "sha256": "b9920d9f6df0b8e35ed2a0e8a87c9be336d48ae9a717273aa42e0a0b32c7fffa"}
+{"section": "Acknowledgements", "seq": 75, "sha256": "ed4a5474bc2bb6da63b4849981078dc248be81a5594e82aaf5d5c9daca35ee8e"}
+{"section": "Summary of Contributions", "seq": 76, "sha256": "a8f1aa58171a56568a347cdeea8e17fe4c110cdf6a800d3e511e4add6c161d5f"}
+{"section": "References", "seq": 77, "sha256": "06e558ef3031f463a84d5f03a3a6e2f67245e8f9eb8326ff36e974391169bee7"}
+{"section": "References", "seq": 78, "sha256": "7f8b4b458450b5d0fc20ede41f8998424c9e7f3bd121b7db7b454997a6ee76aa"}
+{"section": "References", "seq": 79, "sha256": "106afcadf9e7159bbe9db024f8439d20c710514c1852bea2e5c1a63d702589e3"}
+{"section": "References", "seq": 80, "sha256": "682d30ab47d0098870e0dec86669320b7937aa19a246def2de661b03685220d5"}
+{"section": "References", "seq": 81, "sha256": "092fe598f2aa8942f38f2c11987bd5c56ec83f0847671632bb5c06533fccf181"}
+{"section": "References", "seq": 82, "sha256": "ab18a43380c627811bd21383c583d24655033f423c9fd4bd7e97dc73704801ab"}
+{"section": "References", "seq": 83, "sha256": "85da1f851fd9227dba2ff111f750f7c468e191fac987c9c828bd5954a7d1dc41"}
+{"section": "References", "seq": 84, "sha256": "74609c42532408c73d4bb8579eb55672918261d84521aad00a1e435fc3b15011"}
+{"section": "References", "seq": 85, "sha256": "6947118a6035fde23fdeca12716a388e1849dd4ef36104cb8c0168c74cd39511"}
+{"section": "References", "seq": 86, "sha256": "10d310c5dc8cfc41c8e5cc7cd141584a23b856d2732b6eb4db2d903974c157f6"}
+{"section": "References", "seq": 87, "sha256": "58b71dba1b98c8e66c8cad3c36a8a0a0e7825edf868748e1f24be0098ac22a96"}
+{"section": "References", "seq": 88, "sha256": "d95e52044535c797c5bc9d4cb65bb5361e8b17bc288864f5bc380bd5fee4dea3"}
+{"section": "References", "seq": 89, "sha256": "ac3fccea336239f7d557a76f0704aeb35c30a12b3340c6a5997a2a5c42098719"}
+{"section": "Appendix A Categorization of Memorized Data", "seq": 90, "sha256": "d76abf8c1e4cf31fbf937805e823431ef62a86916a6c873a0c70d40a00358497"}
+{"section": "Appendix B Distribution of Model Perplexities", "seq": 91, "sha256": "3b55056cea19ce6e51d5c131024b7bf9fb90927ca36cbc7c5e87b3d40202b4cc"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 92, "sha256": "f425456d7c8df7ba7ea59d7866c24423bd1e4e2867cdaae366ca1b62456de5b8"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 93, "sha256": "914b0436618bdc5dbce3518debc73664e6c27ade5610e6dda7806dc34a4e2910"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 94, "sha256": "3403d823254ffad5b714bd33225725c16f989b924f235b03e7fa03420c411984"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 95, "sha256": "14a1c314040ff951d9118d5b5a4edc6b8d9f4249275a2eea65590b91ad9f350f"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 96, "sha256": "d033abdd0c7416eb1f16cf028a6034afcb91c6a14fa42bead22d8a6d113b1edf"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 97, "sha256": "946863ad4747cc0b01e83c54f560278a4ef6049aa4088fd9fdd7892ccf01398a"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 98, "sha256": "13b7d3a526060ab81eaa05a6ae71ad12033dd0d7234a9fea7dca0cf247b0e3bc"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 99, "sha256": "8aa6e5ad940530018b7f7df6cf17d92c8434078ccf38cbcc201a2a8e86bb9491"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 100, "sha256": "ab3ebad0c87ba49fff1b262636ccf182d7f65f778f5e9041bd5abbcca0f048ab"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 101, "sha256": "4c388bc3b6edf8ddf4751594a5a961f214fbd364b58fbfaa88ce24af1ae235b3"}
+{"section": "Appendix C Additional Case Studies of Memorization", "seq": 102, "sha256": "8d72b1154871c5adae6aefd3ea6595754711f9c64dbfd32fd4968f80f0919425"}

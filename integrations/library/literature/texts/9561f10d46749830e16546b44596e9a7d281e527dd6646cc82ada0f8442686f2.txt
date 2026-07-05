@@ -1,0 +1,7 @@
+al., 2016)
+
+real_or_fake_text: Liam Dugan, Arun Kirubarajan, Daphne Ippolito, Chris Callison-Burch, and Sherry Shi, University of Pennsylvania (ldugan, kiruba, daphnei, ccb, shershi)@seas.upenn.edu. Task cites: (Dugan et al., 2020; Ippolito et al., 2020; Solaiman et al., 2019; Zellers et al., 2019b; Brown et al., 2020; Bakhtin et al., 2019; Sandhaus, 2008; Fan et al., 2018; Marín et al., 2021)
+
+reasoning_about_colored_objects: Daphne Ippolito and Chris Callison-Burch, University of Pennsylvania (daphnei, ccb)@seas.upenn.edu. Task cites: (Hendricks et al., 2018; Hosseini et al., 2014; Winograd, 1972; Wang et al., 2016; Jayannavar et al., 2020; Suhr et al., 2019; Thomason et al., 2015; Mitchell et al., 2010; Viethen & Dale, 2008; Gatt et al., 2009; Mitchell et al., 2013; Liang et al., 2018)
+
+repeat_copy_logic: Noah Fiedel, Google (nfiedel@gmail.com).

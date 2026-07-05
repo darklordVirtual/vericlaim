@@ -1,0 +1,17 @@
+which people were doubtful that
+anything can be learned from one thousand examples, or that you would ever
+need more than one million examples, because they get stuck in a certain method
+of learning. The key is to scale your learning to the size of your data:
+
+If you are working on a search ranking system, and there are millions
+of different words in the documents and the query and you have 1000
+labeled examples, then you should use a dot product between document
+and query features, TF-IDF,
+and a half-dozen other highly human-engineered
+features. 1000 examples, a dozen features. If you have a million examples, then intersect the document and query
+feature columns, using regularization and possibly feature selection. This will give you millions of features, but with regularization you
+will have fewer. Ten million examples, maybe a hundred thousand features. If you have billions or hundreds of billions of examples, you can cross
+the feature columns with document and query tokens, using feature selection
+and regularization. You will have a billion examples, and 10 million
+features. Statistical learning theory rarely gives tight bounds, but gives
+great guidance for a starting point.

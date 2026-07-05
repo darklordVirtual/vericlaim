@@ -1,0 +1,57 @@
+In practice, we instantiate these oracles using prediction API peculiarities. Definition 1 (Identity Oracles). Let each node of a tree be assigned some identifier . A leaf-identity oracle takes as input a query and returns the identifier of the leaf of the tree that is reached on input . A node-identity oracle takes as input a query and returns the identifier of the node or leaf of at which the tree computation halts. 4.2.1 Extraction Algorithms
+
+1: random initial query
+
+2: Set of unprocessed queries
+
+3: Set of explored leaves with their predicates
+
+4:while not empty do
+
+5: pop()
+
+6: Call to the leaf identity oracle
+
+7: if then Check if leaf already visited
+
+8: continue
+
+9: end if
+
+10: for do Test all features
+
+11: if is_continuous() then
+
+12: for do
+
+13: if then
+
+14: Current interval
+
+15: else
+
+16: push() New leaf to visit
+
+17: end if
+
+18: end for
+
+19: else
+
+20:
+
+21: Values for current leaf
+
+22: for do
+
+23: push() New leaves to visit
+
+24: end for
+
+25: end if
+
+26: end for
+
+27:end while
+
+Algorithm 1 The path-finding algorithm. The notation means querying the leaf-identity oracle with an input and obtaining a response id.

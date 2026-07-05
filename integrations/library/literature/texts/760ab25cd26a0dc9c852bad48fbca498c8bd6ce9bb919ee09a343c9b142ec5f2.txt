@@ -1,0 +1,17 @@
+Ling et al. (2017)
+
+W. Ling, D. Yogatama, C. Dyer, and P. Blunsom. Program induction by rationale generation: Learning to solve and
+explain algebraic word problems. arXiv preprint arXiv:1705.04146, 2017. Liu et al. (2020)
+
+J. Liu, L. Cui, H. Liu, D. Huang, Y. Wang, and Y. Zhang. Logiqa: A challenge dataset for machine reading comprehension with
+logical reasoning. In IJCAI, 2020. Miao et al. (2021)
+
+S.-Y. Miao, C.-C. Liang, and K.-Y. Su. A diverse corpus for evaluating and developing english math word
+problem solvers. arXiv preprint arXiv:2106.15772, 2021. Nichols et al. (2020)
+
+E. Nichols, L. Gao, and R. Gomez. Collaborative storytelling with large-scale neural language models. arXiv preprint arXiv:2011.10208, 2020. Peng et al. (2021)
+
+S. Peng, K. Yuan, L. Gao, and Z. Tang. Mathbert: A pre-trained model for mathematical formula understanding. ArXiv, abs/2105.00377, 2021. Roy and Roth (2015)
+
+S. Roy and D. Roth. Solving general arithmetic word problems. In Proceedings of the 2015 Conference on Empirical Methods in
+Natural Language Processing, pages 1743–1752, Lisbon, Portugal, Sept. 2015. Association for Computational Linguistics. doi: 10.18653/v1/D15-1202.

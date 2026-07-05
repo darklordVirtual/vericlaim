@@ -1,0 +1,10 @@
+based on modern machine learning techniques, even
+those that obtain excellent performance on the test set, are not learning the true underlying
+concepts that determine the correct output label. Instead, these algorithms
+have built a Potemkin village that works well on naturally occuring data, but is exposed as
+a fake when one visits points in space that do not have high probability in the data distribution. This is particularly disappointing because a popular approach in computer vision is to use
+convolutional network features as a space where Euclidean distance approximates perceptual distance. This resemblance is clearly flawed if images that have an immeasurably small perceptual distance
+correspond to completely different classes in the network’s representation. These results have often been interpreted as being a flaw in deep networks in particular, even
+though linear classifiers have the same problem. We regard the knowledge of this flaw as an opportunity
+to fix it. Indeed,
+Gu & Rigazio (2014) and Chalupka et al.

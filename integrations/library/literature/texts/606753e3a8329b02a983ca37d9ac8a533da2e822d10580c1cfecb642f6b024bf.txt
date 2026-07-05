@@ -1,0 +1,17 @@
+arXiv preprint arXiv:1811.00720, 2018. Hendrycks et al. (2021)
+
+D. Hendrycks, C. Burns, S. Kadavath, A. Arora, S. Basart, E. Tang, D. Song, and
+J. Steinhardt. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874, 2021. Huang et al. (2016)
+
+D. Huang, S. Shi, C.-Y. Lin, J. Yin, and W.-Y. Ma. How well do computers solve math word problems? large-scale dataset
+construction and evaluation. In Proceedings of the 54th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 887–896, 2016. Huang et al. (2018)
+
+D. Huang, J. Liu, C.-Y. Lin, and J. Yin. Neural math word problem solver with reinforcement learning. In Proceedings of the 27th International Conference on
+Computational Linguistics, pages 213–223, 2018. Kaplan et al. (2020)
+
+J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,
+S. Gray, A. Radford, J. Wu, and D. Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020. Kim et al. (2020)
+
+B. Kim, K. S. Ki, D. Lee, and G. Gweon. Point to the expression: Solving algebraic word problems using the
+expression-pointer transformer model.

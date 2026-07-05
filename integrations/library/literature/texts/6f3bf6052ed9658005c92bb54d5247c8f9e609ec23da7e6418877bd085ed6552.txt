@@ -1,0 +1,1 @@
+(a) 6B verification test performance when given varying numbers of completions per problem to rank. (b) 6B verification test performance when varying the number of top ranked samples allowed to vote on the answer. Figure 7: Performance as the amount of test time compute varies.

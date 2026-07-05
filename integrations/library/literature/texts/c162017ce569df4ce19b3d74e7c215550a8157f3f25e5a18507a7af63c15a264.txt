@@ -1,0 +1,1 @@
+It also outperforms all alternate metrics in evaluating model answers. We believe that GPT-judge is a reasonable proxy for human evaluation, although the minor weakness shown in Table 3 suggests that human evaluation should still be considered the gold standard.

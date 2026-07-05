@@ -1,0 +1,21 @@
+Szegedy et al. (2014b) demonstrated a variety of intriguing properties of neural networks
+and related models. Those most relevant to this paper include:
+
+•
+
+Box-constrained L-BFGS can reliably find adversarial examples. •
+
+On some datasets, such as ImageNet (Deng et al., 2009), the adversarial examples
+were so close to the original examples that the differences were indistinguishable
+to the human eye. •
+
+The same adversarial example is often misclassified by a variety of
+classifiers with different architectures or trained on different subsets of the training data. •
+
+Shallow softmax regression models are also vulnerable to adversarial examples. •
+
+Training on adversarial examples can regularize the model—however, this was not
+practical at the time due to the need for expensive constrained optimization
+in the inner loop. These results suggest that classifiers based on modern machine learning techniques, even
+those that obtain excellent performance on the test set, are not learning the true underlying
+concepts that determine the correct output label.

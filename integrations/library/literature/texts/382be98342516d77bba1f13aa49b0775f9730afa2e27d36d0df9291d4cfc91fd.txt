@@ -1,0 +1,1 @@
+We present the training dynamics of Qwen3-VL-4B and Qwen3-VL-8B in Figure 14. Figure 9: Confidence of overconfident wrong answers. Figure 10: Confidence of underconfident correct answers.

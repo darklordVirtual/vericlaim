@@ -1,0 +1,18 @@
+In practice, (Def. 4.1)
+cannot be exhaustively enumerated for natural-language task
+descriptions; Layer 2 therefore approximates the authorization
+check via semantic consistency. Before invoking any high-risk tool (e.g., shell execution,
+HTTP request, file write), an independent judge model verifies
+that the tool call is consistent with the original task
+(in production, low-risk calls such as read-only file access
+may bypass Layer 2 via risk-stratified routing; our benchmark
+evaluates all tool types for experimental completeness):
+
+(1)
+
+where is the proposed tool invocation, the original task
+description, a prompt template that renders and
+into a judge input, and the judge function. The judge may be instantiated as an NLI classifier
+(mapping entailment scores to a binary decision via a threshold)
+or as an LLM that directly outputs a verdict with a rationale. Out-of-scope operations are intercepted, blocked, and
+recorded to the audit log.

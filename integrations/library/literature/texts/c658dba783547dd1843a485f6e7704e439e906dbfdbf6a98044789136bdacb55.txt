@@ -1,0 +1,13 @@
+We assign a reward or based on whether or not. Recall that . Our reformulation looks at their difference, the net utility of trusting a correct generation. Net Utility of Correctly Abstaining ():
+
+Similarly when generates an incorrect answer, we want the confidence estimator to output and assign or accordingly. We look again to their difference, the net utility of abstaining from trusting an incorrect generation. Normalizing and Recomputing the MBR Threshold:
+
+To simplify further, we calculate a normalized version of both utilities , that are bounded between 0 and 1:
+
+(2)
+
+Using and , equation˜1 can then be rewritten as: 444Given the normalization scheme we chose, = 1 - . (3)
+
+We can now use as precisely the risk level associated with a task (i.e., high risk means that an estimator gets a larger penalty for a false positive than reward for a true positive). Calculating the Relative Utility:
+
+To calculate the relative utility between two confidence estimators and , remember that the rewards (, , , and ) and language model generations () are fixed.

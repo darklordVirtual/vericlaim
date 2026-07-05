@@ -1,0 +1,15 @@
+For instance, if the system seems to be
+demoting longer posts, then add post length. Don’t be too specific about the
+features you add. If you are going to add post length, don’t try to guess what
+long means, just add a dozen features and the let model figure out what to do
+with them (see
+Rule #21
+). That is the easiest way to get what you want. Rule #27: Try to quantify observed undesirable behavior. Some members of your team will start to be frustrated with properties of the
+system they don’t like which aren’t captured by the existing loss function. At
+this point, they should do whatever it takes to turn their gripes into solid
+numbers. For example, if they think that too many "gag apps" are being shown
+in Play Search, they could have human raters identify gag apps. (You can
+feasibly use human­labelled data in this case because a relatively small
+fraction of the queries account for a large fraction of the traffic.) If your
+issues are measurable, then you can start using them as features, objectives,
+or metrics. The general rule is "measure first, optimize second". Rule #28: Be aware that identical short-term behavior does not imply identical long-term behavior.

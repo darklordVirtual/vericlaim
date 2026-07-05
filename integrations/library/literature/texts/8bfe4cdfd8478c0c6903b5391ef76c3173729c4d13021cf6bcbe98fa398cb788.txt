@@ -1,0 +1,8 @@
+Abramson et al. (2020)
+
+Josh Abramson, Arun Ahuja, Iain Barr, Arthur Brussee, Federico Carnevale, Mary
+Cassin, Rachita Chhaparia, Stephen Clark, Bogdan Damoc, Andrew Dudzik, Petko
+Georgiev, Aurelia Guy, Tim Harley, Felix Hill, Alden Hung, Zachary Kenton,
+Jessica Landon, Timothy Lillicrap, Kory Mathewson, Soňa Mokrá, Alistair
+Muldal, Adam Santoro, Nikolay Savinov, Vikrant Varma, Greg Wayne, Duncan
+Williams, Nathaniel Wong, Chen Yan, and Rui Zhu. Imitating interactive intelligence, 2020. URL https://arxiv.org/abs/2012.05672. Ahn et al.

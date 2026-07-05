@@ -1,0 +1,10 @@
+Figure 8 shows a multiple-choice version of the periodic_elements task, discussed in detail in Section 4.2, where a model is asked to identify the name of an element from its atomic number. In this task, log probabilities for right and wrong answers track each other up to 1010 parameters, indicating that the model cannot distinguish the right element from any other elements. The dramatic improvement in accuracy at that scale correlates with a sudden divergence of the log likelihood curves beyond 1010 parameters. \begin{overpic}[width=230.18251pt]{figures/emoji_movie_exact_str_match.pdf} %
+\put(5.0,1.0){{\small(a)}}
+\end{overpic}\begin{overpic}[width=230.18251pt]{figures/emoji_movie_multiple_choice_grade.%
+pdf} \put(5.0,1.0){{\small(b)}}
+\end{overpic}
+
+\begin{overpic}[width=281.85585pt]{figures/emoji_movie_text.pdf} \put(-8.0,0.0%
+){{\small(c)}}
+\end{overpic}
+Figure 9: Performance on emoji_movie identification can appear abrupt or gradual depending on the precise task metric. (a) The ability to correctly identify movies seems to appear at a critical scale when measured via exact_string_match. (b) Multiple-choice performance on this task appears to improve more continuously.

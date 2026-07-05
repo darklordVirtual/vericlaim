@@ -1,0 +1,17 @@
+Tenenbaum. Dreamcoder: Growing generalizable, interpretable knowledge with
+wake-sleep Bayesian program learning, 2020. URL https://arxiv.org/abs/2006.08381. Evans et al. (2018)
+
+Richard Evans, David Saxton, David Amos, Pushmeet Kohli, and Edward
+Grefenstette. Can neural networks understand logical entailment?, 2018. URL https://arxiv.org/abs/1802.08535. Evans et al. (2019)
+
+Richard Evans, Jose Hernandez-Orallo, Johannes Welbl, Pushmeet Kohli, and Marek
+Sergot. Making sense of sensory input, 2019. URL https://arxiv.org/abs/1910.02227. Eyal et al. (2019)
+
+Matan Eyal, Tal Baumel, and Michael Elhadad. Question answering as an automatic evaluation metric for news article
+summarization. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 3938--3948,
+Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1395. URL https://aclanthology.org/N19-1395. Faltings et al. (2020)
+
+Felix Faltings, Michel Galley, Gerold Hintz, Chris Brockett, Chris Quirk,
+Jianfeng Gao, and Bill Dolan. Text editing by command, 2020.

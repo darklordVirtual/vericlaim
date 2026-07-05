@@ -1,0 +1,12 @@
+Other values may work better; our initial guess
+of this hyperparameter worked well enough that we did not feel the need to explore more. This approach means that we continually update our supply of adversarial examples, to make them
+resist the current version of the model. Using this approach to train a maxout network that was also regularized with dropout, we were
+able to reduce the error rate from 0.94% without adversarial training to 0.84% with adversarial
+training. We observed that we were not reaching zero error rate on adversarial examples on the
+training set. We fixed this problem by making two changes. First, we made the model
+larger, using 1600 units per layer rather than the 240 used by the original maxout network
+for this problem. Without adversarial training, this causes the model to overfit slightly,
+and get an error rate of 1.14% on the test set. With adversarial training, we found that
+the validation set error leveled off over time, and made very slow progress. The original
+maxout result uses early stopping, and terminates learning after the validation set error
+rate has not decreased for 100 epochs.

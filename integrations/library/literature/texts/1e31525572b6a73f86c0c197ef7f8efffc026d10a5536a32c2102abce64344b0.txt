@@ -1,0 +1,22 @@
+EMNLP. Andreas et al. (2018)
+
+Jacob Andreas, Dan Klein, and Sergey Levine. 2018. Learning with latent
+language. NAACL. Austin et al. (2021)
+
+Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski,
+David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, et al. 2021. Program synthesis with
+large language models. arXiv preprint arXiv:2108.07732. BIG-bench collaboration (2021)
+
+BIG-bench collaboration. 2021. Beyond the imitation
+game: Measuring and extrapolating the capabilities of language models. In preparation. Bostrom et al. (2021)
+
+Kaj Bostrom, Xinyu Zhao, Swarat Chaudhuri, and Greg Durrett. 2021. Flexible
+generation of natural language deductions. EMNLP. Brown et al. (2020)
+
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon
+Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris
+Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess,
+Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever,
+and Dario Amodei. 2020.

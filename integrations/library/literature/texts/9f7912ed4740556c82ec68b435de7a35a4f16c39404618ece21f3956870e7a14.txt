@@ -1,0 +1,8 @@
+and Jack Geissinger, Carnegie Robotics (jack.geissinger7@gmail.com)
+
+unnatural_in_context_learning: Frieda Rong and Percy Liang, Stanford University (rongf@stanford.edu, pliang@cs.stanford.edu). Task cites: (Brown et al., 2020; Kaplan et al., 2020; Henighan et al., 2020; Hernandez et al., 2021; Bahri et al., 2021; Wang et al., 2019a; Hernandez et al., 2020; Hendrycks et al., 2021c; a; Liu et al., 2021a; Zhao et al., 2021; Perez et al., 2021)
+
+unqover: Tao Li, University of Utah (tlI@cs.utah.edu); Tushar Khot, Daniel Khashabi, and Ashish Sabharwal,
+Allen Instituite for AI (tushark, danielk, ashishs)@allenai.org; and Vivek Srikumar, University of Utah (svivek@cs.utah.edu). Task cites: (Li et al., 2020a; Caliskan et al., 2017; Rudinger et al., 2018; Zhao et al., 2018; Dev et al., 2020; Stanovsky et al., 2019; Nadeem et al., 2020; Sheng et al., 2019; Zhang et al., 2020b)
+
+vitaminc_fact_verification: Tal Schuster, Google (talschuster@google.com), and Adam Fisch, MIT (adamfisch15@gmail.com).

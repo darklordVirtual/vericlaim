@@ -1,0 +1,10 @@
+The criticism of deep networks as vulnerable to adversarial examples is somewhat misguided, because
+unlike shallow linear models, deep networks are at least able to represent functions that resist
+adversarial perturbation. The universal approximator theorem (Hornik et al., 1989) guarantees that a neural network
+with at least one hidden layer can represent any function to an arbitary degree of accuracy so long as its hidden layer is permitted to
+have enough units. Shallow linear models are not able to become constant near training points while
+also assigning different outputs to different training points. Of course, the universal approximator theorem does not say anything about whether a training algorithm
+will be able to discover a function with all of the desired properties. Obviously, standard supervised
+training does not specify that the chosen function be resistant to adversarial examples. This must be
+encoded in the training procedure somehow. Szegedy et al. (2014b) showed that by training on a mixture of adversarial and clean examples, a
+neural network could be regularized somewhat.

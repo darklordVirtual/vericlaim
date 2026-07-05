@@ -1,0 +1,1 @@
+Our reported test performance is therefore a slight underestimate, though the magnitude of this discrepancy is less than 1% in most experiments. Fixing the calculator improves verification test performance by about 1% when using the full GSM8K training set. Figure 9: A diagram of the calculator sampling procedure.

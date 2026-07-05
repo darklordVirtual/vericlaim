@@ -1,0 +1,20 @@
+In ECCV, 2016. Huang et al. (2017)
+
+Huang, Gao, Liu, Zhuang, Weinberger, Kilian Q, and van der Maaten, Laurens. Densely connected convolutional networks. In CVPR, 2017. Ioffe & Szegedy (2015)
+
+Ioffe, Sergey and Szegedy, Christian. Batch normalization: Accelerating deep network training by reducing
+internal covariate shift. 2015. Iyyer et al. (2015)
+
+Iyyer, Mohit, Manjunatha, Varun, Boyd-Graber, Jordan, and Daumé III, Hal. Deep unordered composition rivals syntactic methods for text
+classification. In ACL, 2015. Jaynes (1957)
+
+Jaynes, Edwin T. Information theory and statistical mechanics. Physical review, 106(4):620, 1957. Jiang et al. (2012)
+
+Jiang, Xiaoqian, Osl, Melanie, Kim, Jihoon, and Ohno-Machado, Lucila. Calibrating predictive model estimates to support personalized
+medicine. Journal of the American Medical Informatics Association,
+19(2):263–274, 2012. Kendall & Cipolla (2016)
+
+Kendall, Alex and Cipolla, Roberto. Modelling uncertainty in deep learning for camera relocalization. 2016. Kendall & Gal (2017)
+
+Kendall, Alex and Gal, Yarin. What uncertainties do we need in bayesian deep learning for computer
+vision? arXiv preprint arXiv:1703.04977, 2017. Krause et al.

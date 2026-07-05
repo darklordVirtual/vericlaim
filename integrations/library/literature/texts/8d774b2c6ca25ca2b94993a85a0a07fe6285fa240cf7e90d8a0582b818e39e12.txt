@@ -1,0 +1,5 @@
+We used an already trained Image-Net VGG-16 model based on ILSVRC2014 [16]. We repeated the same experimental design but now the sizes of the training and test set were
+approximately 25,000. The SGR results for both the top-1 and top-5 classification tasks are summarized in Tables 3
+and 4, respectively. We also implemented the RESNET-50 architecture [12] in order to
+see if qualitatively similar results can be obtained with a different architecture. The RESNET-50 results for ImageNet top-1 and top-5 classification tasks are summarized in
+Tables 5 and 6, respectively.

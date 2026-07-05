@@ -1,0 +1,112 @@
+{"fsid": "arxiv_2606-08539", "n": 111, "overlap": 200, "source_sha256": "d0cbe785e5ff7d348f853272c353d7ae646178c88b9ccaad2100c41a58d2d773", "target": 1200}
+{"section": "", "seq": 0, "sha256": "9978b5f8dbfff8358cb8bc88ca5c7ddfd8c802badf374d085329a57242accf05"}
+{"section": "AgentTrust: A Self-Improving Trust Layer for AI-Agent Actions", "seq": 1, "sha256": "ef807e1ba4686fd37a30981bba707bb4dc7b0aba8840497254508b0d16c1da4b"}
+{"section": "Abstract", "seq": 2, "sha256": "5c3151ec50d3d9fdd39fa21993aa45ec2419a23ad75ba848aff52c460364e43d"}
+{"section": "Abstract", "seq": 3, "sha256": "91682031dff57bc7829c37a587cae78503ac5c4511e2d6c60e3c5ffff874230f"}
+{"section": "1. Introduction", "seq": 4, "sha256": "7656bf8db3e789e96ba865c8831469e588ff6053f31837b59d521cfc34cc80f6"}
+{"section": "A threat-type decomposition: lexical vs. semantic", "seq": 5, "sha256": "ac1da4aac7e022dd37d15be88f14bcb98172c64388268c67900edcb2dc257022"}
+{"section": "A threat-type decomposition: lexical vs. semantic", "seq": 6, "sha256": "cc5a5fbddedad9936fea52011ad6f9f2d1c4a2e6f3f784a1004f5b451061b288"}
+{"section": "A threat-type decomposition: lexical vs. semantic", "seq": 7, "sha256": "6eb9f4b9a67747163e98d9dad0a4ff1db083b0b79fed35340fbd83974c7b240f"}
+{"section": "The judge handles what rules cannot \u2014 but its trade-offs are uncharacterized", "seq": 8, "sha256": "abf11a6921a02f2c928367c8f19ccec264a6e2934b001433490f3aca945b3b02"}
+{"section": "The judge handles what rules cannot \u2014 but its trade-offs are uncharacterized", "seq": 9, "sha256": "088e27e5ed1bcb4af5bb1442368e45b0c1f6798bd055bd48257ab1a02e19fdc8"}
+{"section": "From a better judge to a system that learns", "seq": 10, "sha256": "1d0a2bedab9b851c1eb1c1db8a6eb7e96ca1a3a0ef8f192defcbd2a73fa478dd"}
+{"section": "From a better judge to a system that learns", "seq": 11, "sha256": "469c672ffa78aae657cfd461ea58c35292aa776aad95d35e92e0a60c801f6a0e"}
+{"section": "From a better judge to a system that learns", "seq": 12, "sha256": "40c9e33b9db3af6c57d9e72fdc572f6961cdc954fd67ed18c4c4aad43f25abbe"}
+{"section": "Contributions", "seq": 13, "sha256": "6159f110ace7728e568bc7e094a1e3b4812d348c01285b92e3e964af83b84457"}
+{"section": "Contributions", "seq": 14, "sha256": "af218d60bd89598011cff7e9be843b0d10cb64cd3024a864e25c53266e8382ba"}
+{"section": "Contributions", "seq": 15, "sha256": "86eff486e38693408c02cf0f71f72fae212164cbcb870f9654dbbe2a0d62d13e"}
+{"section": "Contributions", "seq": 16, "sha256": "89cf3a73a6d85886e804803256586480823d413848604163d66e857dd5fa79d8"}
+{"section": "Contributions", "seq": 17, "sha256": "5dea621977c1587a99c95e69ffbfa79b59680eb3622bf480029b2da6705ee0d3"}
+{"section": "2. Related Work", "seq": 18, "sha256": "b3395ecc5b7d408559083da4a10537e2d7921d8fe4a5374970c2ee725a85e302"}
+{"section": "2. Related Work", "seq": 19, "sha256": "ce3289c7075c937c6f2bda2131aca37e154db3535d0504d18e4752fe3cb6d779"}
+{"section": "2.1 Rule- and policy-based static guardrails", "seq": 20, "sha256": "c4e526399792d1f44770a761caad45a3b83573636d5b30acdd1121e90e997489"}
+{"section": "2.1 Rule- and policy-based static guardrails", "seq": 21, "sha256": "3a20630a08f455335d12aa6187f5f983e21b33c2238155b43ad6f09464fc5373"}
+{"section": "2.1 Rule- and policy-based static guardrails", "seq": 22, "sha256": "9ef9cfa33eb36d271aa85d2846e71fee7b095e1b13eef8ab5b416edc0166a980"}
+{"section": "2.2 Model-based guardrails and LLM-as-judge", "seq": 23, "sha256": "907f2d0efd7582cd730cf1e394a84c532232a446a54b17647911bb524acf699d"}
+{"section": "2.2 Model-based guardrails and LLM-as-judge", "seq": 24, "sha256": "f0f769507631b07380b285f1dbe4da8fdbf795840c7e715e6ac6f0624dfa1656"}
+{"section": "2.2 Model-based guardrails and LLM-as-judge", "seq": 25, "sha256": "1e84fd823523a4f080169549ea3ea5d59e6f648cdf474b34810b6bd3923bc4f3"}
+{"section": "2.2 Model-based guardrails and LLM-as-judge", "seq": 26, "sha256": "1091dc7105f8e067f01dab09af86d4ab2a4d432b6415757d5acf5833d0a29999"}
+{"section": "2.3 Distillation, retrieval/case-based reasoning, and online learning", "seq": 27, "sha256": "b2ba298e5abc41ca1a4b161805a25688f041e389ddec3263a052903699473210"}
+{"section": "2.3 Distillation, retrieval/case-based reasoning, and online learning", "seq": 28, "sha256": "87d550bd060003c6e1052231ae0c1f39fa7bf070ccbf055b6d52f097752f8540"}
+{"section": "2.3 Distillation, retrieval/case-based reasoning, and online learning", "seq": 29, "sha256": "5f98286ec8863f6a99727b1c9b0bbfa63cb3202cebc4c68e40a850fbef40fc5f"}
+{"section": "2.3 Distillation, retrieval/case-based reasoning, and online learning", "seq": 30, "sha256": "6218d45c702e573b9e8465fcb6716f06ef53a66540d0528800e702f715f6f500"}
+{"section": "2.4 Relationship to AgentTrust v1", "seq": 31, "sha256": "de03793e5b23596d639d1a4efe4b5ed2becac490a4686658441026f023c839c6"}
+{"section": "2.4 Relationship to AgentTrust v1", "seq": 32, "sha256": "4bfcbadb6c4e2a18554f0e06ed2aa10126ff45552700deb27928ed7261ee960c"}
+{"section": "3. Threat Model and Action Representation", "seq": 33, "sha256": "5bc9513367246cf5b3ff94c80f56ea16839d791408395233a7c879fef2c4c0c0"}
+{"section": "3.1 Actions and verdicts", "seq": 34, "sha256": "a65c1aa31994e815fc5063be8b485f791e0d07da47fd79f2b03449c7e0f0c2c8"}
+{"section": "3.1 Actions and verdicts", "seq": 35, "sha256": "70757f767e56db21b6da306380a0b1b930e12bccc6d76e060fff4561cba96db6"}
+{"section": "3.1 Actions and verdicts", "seq": 36, "sha256": "78bbf57702d9e5801f2c27c85d91666454757c6e0b46e12b2a9829e08de163cf"}
+{"section": "3.2 The central decomposition: lexical vs semantic threats", "seq": 37, "sha256": "7eadd54205ea0124f08e6d103a3e85b3da0aa79a75512d15dcc440044e2b5441"}
+{"section": "3.2 The central decomposition: lexical vs semantic threats", "seq": 38, "sha256": "94b4cf6bfac3bda904c42ae1449f1a080635d3e95acabc806dcef8c388cfe5fa"}
+{"section": "3.2 The central decomposition: lexical vs semantic threats", "seq": 39, "sha256": "60c219f18cf83f2e36ed9ad4efb386a7fa4a2e547c85c55df27a12583ff1e3ea"}
+{"section": "3.2 The central decomposition: lexical vs semantic threats", "seq": 40, "sha256": "2fad65e5ced134d8a512b6854014ac98964cd125ebc7601aaac12e1f5f15bfeb"}
+{"section": "3.2 The central decomposition: lexical vs semantic threats", "seq": 41, "sha256": "389908c7bfee50e961b2f2cd03f17679497fefd18e60868d2c535c0022ea793f"}
+{"section": "3.3 Twin examples: same surface, opposite verdict", "seq": 42, "sha256": "fd732848332bd5a1f72964f2148ef6ef0b38e7695b07f0b40b70c0720888e3eb"}
+{"section": "3.3 Twin examples: same surface, opposite verdict", "seq": 43, "sha256": "399b3362c5827b5fc2ab4d03a8916346ee528ee225421a230343d08c6013fdcf"}
+{"section": "3.3 Twin examples: same surface, opposite verdict", "seq": 44, "sha256": "fe3d9930a740444e496a18241f01cfd7304613eea9327943d430bad14493b2bc"}
+{"section": "3.3 Twin examples: same surface, opposite verdict", "seq": 45, "sha256": "746d31059eb3a6f008b134de4dee9880dc4fddbb37cb2e73c98ebea69fb69a90"}
+{"section": "3.3 Twin examples: same surface, opposite verdict", "seq": 46, "sha256": "c3ef7925aa3ebf391ee6e5d705b7e5105fc108a253d0b65ea81053072bcb954d"}
+{"section": "3.4 Consequences for system design", "seq": 47, "sha256": "b0f970e37e82034f58781381187c8c49dc9f189b4436f2a842da20fc9d4d19cc"}
+{"section": "3.4 Consequences for system design", "seq": 48, "sha256": "b6d0ddedced26e2166d3fbbe0ded30f98be7aea7709def7ab2b2c265610837ce"}
+{"section": "4. System: AgentTrust v2", "seq": 49, "sha256": "227ac76a0194ac81e17a6d3b8bd6793d92e18fe34de597f8af570c7517aa8048"}
+{"section": "4. System: AgentTrust v2", "seq": 50, "sha256": "10b01199d4c0c89d97956f0fd34e6991f51e50d85b4ba341eab43f8536eb7c5d"}
+{"section": "4. System: AgentTrust v2", "seq": 51, "sha256": "8e48180e7668a6e3991613281891a6d23c2985dfe84b2d86fa8c5be11d177812"}
+{"section": "4.1 Action representation and verdicts", "seq": 52, "sha256": "ebffd5506bff55b864c70fe3ecae33b6bd737bad8acc0efa732640395236a5b0"}
+{"section": "4.2 The deterministic rule floor (lexical store)", "seq": 53, "sha256": "3da32810ad36f2999f5806c6e8a5fa48e3ba624fcb5cffd3d3bc88948c4e9770"}
+{"section": "4.2 The deterministic rule floor (lexical store)", "seq": 54, "sha256": "8d8e0cb0e6b79eeebf074cad9deffa697b07c0defc3f66f097964a0f3d688b2e"}
+{"section": "4.3 The confidence-gated semantic judge", "seq": 55, "sha256": "28c7a1c228d0d2b3f19cc1aa6b704c4ffb937e90a00759a9c5fe4a8f905bec1c"}
+{"section": "4.3 The confidence-gated semantic judge", "seq": 56, "sha256": "84510c5ff05127c95664323e455a161e14fcda01aef571516ed927f655ad27c5"}
+{"section": "4.3 The confidence-gated semantic judge", "seq": 57, "sha256": "03a3975d3fd9b3f78b15cea0c06ff1c58f368ba8b3f28b3c3c34fd1c8dd55625"}
+{"section": "4.4 The guarded RAG memory (semantic store)", "seq": 58, "sha256": "0013a387d4088eda770e780c2defe73b1684d14be7a2ffe5ec127598a255a766"}
+{"section": "4.4 The guarded RAG memory (semantic store)", "seq": 59, "sha256": "84da03b6c50feeeebf39b29e2d68a5fe140cf2c1a7fef01bafede3b2e78dc0ce"}
+{"section": "4.4 The guarded RAG memory (semantic store)", "seq": 60, "sha256": "9f100479518828adc82c0ca6eaeae0fb79b43c43e0d69d456df8c760d2147b90"}
+{"section": "4.5 The self-improving loop: judge as teacher", "seq": 61, "sha256": "a15e10cbb150bda0bed3ae72e2e0c938c1480cf98d46e243d472059aa812105c"}
+{"section": "4.5 The self-improving loop: judge as teacher", "seq": 62, "sha256": "717787c0c248dfda8416f23843bf915a7f89a7129841782835724100d56e07c1"}
+{"section": "4.6 Distribution-aware fusion", "seq": 63, "sha256": "61dda3f07b3100f37d73328630b3449d43e7b20c2b3c890190a3dfb432cb5f69"}
+{"section": "4.6 Distribution-aware fusion", "seq": 64, "sha256": "166816a953d70a756acd927ed29d87fb857f2446f5445753bd5fe51e7a16984f"}
+{"section": "4.7 The safety invariant", "seq": 65, "sha256": "9a9eba40f450a2a97a427cd583c053dbf54ccd156768722ad11ea1e05f3abb0a"}
+{"section": "5. Evaluation", "seq": 66, "sha256": "84d4f39dae56ff11879cb76c9579c52652c236c14214860496a86b6e7e164786"}
+{"section": "5. Evaluation", "seq": 67, "sha256": "b30a1e91a2a091bb8dfd5b65999afa11cfaf7b34a782a354eca1260198bdc215"}
+{"section": "5.1 Experimental setup", "seq": 68, "sha256": "a54d4c51282d0546dcd5621339a0232b2ff7c90d9ce702088f1b3d0676d1c6dc"}
+{"section": "5.1 Experimental setup", "seq": 69, "sha256": "98a326aec1971e6d130fc7c71af73090ece6f302f798bb3c325f029cc67d2584"}
+{"section": "5.1 Experimental setup", "seq": 70, "sha256": "f3e35ef9f1ea961f2c28ee326dd9514f13840b7999a6064d20e8256315d6498e"}
+{"section": "5.1 Experimental setup", "seq": 71, "sha256": "04336916697517855f65a81a988b63ca8c213ba37ca85ddec4da572dbf04066a"}
+{"section": "5.1 Experimental setup", "seq": 72, "sha256": "da77651be4ae86722cb2aeeba853cdceeb4ac84701d3638191298d213a4b85ad"}
+{"section": "5.2 Pillar 1 \u2014 the judge is the component that generalizes", "seq": 73, "sha256": "db6f20f882b911086645c551f4b0b500ef8beec1624f20e12e3c457088a3f046"}
+{"section": "5.2 Pillar 1 \u2014 the judge is the component that generalizes", "seq": 74, "sha256": "5cad538ba91f47d17b5bdb963b5d2f5ab01af98e7f83add0bf02356b62f218f4"}
+{"section": "5.2 Pillar 1 \u2014 the judge is the component that generalizes", "seq": 75, "sha256": "be19a632d97027b05bb4327f26c8a555d06f7f7c466da430da7d6215c6a053ad"}
+{"section": "5.2 Pillar 1 \u2014 the judge is the component that generalizes", "seq": 76, "sha256": "f23084758098813da5ac2deaf62043557691d1a880d995dcf9a14ef3094aa341"}
+{"section": "5.2 Pillar 1 \u2014 the judge is the component that generalizes", "seq": 77, "sha256": "26b3e68badc519b29aabe032e3c97afb2b056c4925b20237c8c01fe8bcaa31bb"}
+{"section": "5.3 Pillar 2 \u2014 rules cannot cross the semantic boundary [HEADLINE]", "seq": 78, "sha256": "7c7694faa80f8b94d956705f6134526f04b0f9289f65cfcd6046dad9913d1d6e"}
+{"section": "5.3 Pillar 2 \u2014 rules cannot cross the semantic boundary [HEADLINE]", "seq": 79, "sha256": "ab5d3160a6c3dbb1542b278c8fde94be4855bdd8d020bf4aa0f494e86ae241b8"}
+{"section": "5.3 Pillar 2 \u2014 rules cannot cross the semantic boundary [HEADLINE]", "seq": 80, "sha256": "abe7f63614acead888d3a883fe403823673fcd66ba28b7f43fbc3de182454254"}
+{"section": "5.3 Pillar 2 \u2014 rules cannot cross the semantic boundary [HEADLINE]", "seq": 81, "sha256": "66110e98ef73bc5fc22fd32304204441df69f8ce1f0ca2b40169f47f94d99a28"}
+{"section": "5.4 Pillar 3 \u2014 a self-improving dual-store [NOVELTY]", "seq": 82, "sha256": "700bf00ad3a9cba3c02a8716d59eabd7a3d5efda5d9e51543e1e7ccaf0eca405"}
+{"section": "5.4 Pillar 3 \u2014 a self-improving dual-store [NOVELTY]", "seq": 83, "sha256": "679c1a01d8d5b94f9dbe850eb622de680324df7ad8cd1cd82784609d31ad2f08"}
+{"section": "5.4 Pillar 3 \u2014 a self-improving dual-store [NOVELTY]", "seq": 84, "sha256": "19ba196c137b3af4913d5992286a29ecc8b648e5fcab257e47e83ec4a524f966"}
+{"section": "5.4 Pillar 3 \u2014 a self-improving dual-store [NOVELTY]", "seq": 85, "sha256": "107720d1804abd731f2997b15f4d324ca869d8c05576b9d0402572ba8af901cc"}
+{"section": "5.4 Pillar 3 \u2014 a self-improving dual-store [NOVELTY]", "seq": 86, "sha256": "8f7eb8bfa653a5132e1b8f758fc8b4a60c45632c59bc29f3db4501fe83aba554"}
+{"section": "5.5 Invariants and ablations", "seq": 87, "sha256": "fba0a2907468b0a3a7244585046aee2d2e41b60a75810cc00c7a86409f3ecf11"}
+{"section": "5.5 Invariants and ablations", "seq": 88, "sha256": "5690213d68b965d1bb729760058459b2ddfd8392c26c961849d5e1653bdc330f"}
+{"section": "5.5 Invariants and ablations", "seq": 89, "sha256": "14be099af16bf50ae9aff61306100c1602381788f8e5b8d4a0482baa92d95b0a"}
+{"section": "5.5 Invariants and ablations", "seq": 90, "sha256": "4428e6d49548c0be46a8313b7db0ba2e2b9667b46bd0a12cbec0028e55a1b575"}
+{"section": "5.5 Invariants and ablations", "seq": 91, "sha256": "cc639dbae815941695ec0e5164abd2bed7071b46a08610b607638ee7f9f39b2f"}
+{"section": "5.5 Invariants and ablations", "seq": 92, "sha256": "203e17b1c31cf941dc3547e98f28498af426e517b9c9728d0f4bc09c27d6525e"}
+{"section": "5.5 Invariants and ablations", "seq": 93, "sha256": "37030a5ace653df66f19c32557cf4a7ddc28514a86c95771c302ca4ee39a2100"}
+{"section": "6. Limitations", "seq": 94, "sha256": "7025a00c6ecbe88044a374962e35a10b32d1e26823d590b93466cd91c0edaaa7"}
+{"section": "6. Limitations", "seq": 95, "sha256": "10d743bc66fe2567ad89d326b8d696ced01125816dae9caed0048172ad9d39f8"}
+{"section": "6. Limitations", "seq": 96, "sha256": "358b0c8c36209a3827cb551fbc29ac5ffdea5de7432ec75e5dd28a16e29ee2b1"}
+{"section": "6. Limitations", "seq": 97, "sha256": "c1da65dee54dcb49927bb2c3ce5dd368cdfb334b8b2c4ba2bd8a659ff458127b"}
+{"section": "6. Limitations", "seq": 98, "sha256": "d313f5fc44b1948f962f38638493d1160fc36b6ec7a8c17f5a7c135252ea9d69"}
+{"section": "6. Limitations", "seq": 99, "sha256": "c30c393209ed55d285ff2a0acdbbcbd58bdd7e80d266c0142c2e1207e9faf90a"}
+{"section": "6. Limitations", "seq": 100, "sha256": "ac5bae5f5f968bbd23d401fe3ad1022c0c5b8e5b5d411685283c6e2a5cf9b879"}
+{"section": "6. Limitations", "seq": 101, "sha256": "ec8a35b1517467562b0629b1657860e47198cac5fac9fddb4a80e2e7aea4ff03"}
+{"section": "6. Limitations", "seq": 102, "sha256": "486c7805db9dd191d69c93fa2637f764669f9006e6c0ce1c226a26dd9c60d3ce"}
+{"section": "7. Conclusion", "seq": 103, "sha256": "caf126d81d2f0014a866ea72ad9760061281f2c7f36de9f9d2ce149242e4528c"}
+{"section": "7. Conclusion", "seq": 104, "sha256": "47bde96765958e69ac187f2f160e04cdd30beab9b81fe40dd647a2e8e6f994ce"}
+{"section": "7. Conclusion", "seq": 105, "sha256": "fc37fe3e59878323ec48a2a8cfa60aebe6ed1418f66cea5f5ed320b994fea036"}
+{"section": "References", "seq": 106, "sha256": "a3ed886ed50463e7d8e564525bc05d134cc6473712d15848d95f149c7a2d9199"}
+{"section": "References", "seq": 107, "sha256": "8fcddfcf391f565d3e509d02b85fb9a23a1bc83e8f900307e635493433c759ff"}
+{"section": "References", "seq": 108, "sha256": "66cdc722f3d82d783ec2215d013484f4a1686f83288ac3bf5863f8aae57416c3"}
+{"section": "References", "seq": 109, "sha256": "50c83797df08c2eddf24de79e827dd1d262fbbdb29e89a3ee323022dd9966a1a"}
+{"section": "References", "seq": 110, "sha256": "b7aa449f287047a0078b5e19eb29fe326cb6822f3b1b7c17ba103b95777c2da8"}

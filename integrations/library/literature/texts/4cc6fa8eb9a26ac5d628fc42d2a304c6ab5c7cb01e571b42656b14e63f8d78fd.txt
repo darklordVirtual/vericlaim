@@ -1,0 +1,9 @@
+For example, if , , and we have calibration points, then we select to be the value where empirical risk hits level instead of . Then the prediction set satisfies (28). Theorem 2 (Conformal Risk Control [angelopoulos2022conformal]). Suppose are an i.i.d. sample from some distribution. Further, suppose is a monotone function of , i.e., one satisfying
+
+(30)
+
+for all and . Then
+
+(31)
+
+where is picked as in (29). Theory and worked examples of conformal risk control are presented in [angelopoulos2022conformal]. In Sections 5.1 and 5.2 we show a worked example of conformal risk control applied to tumor segmentation. Furthermore, Appendix LABEL:app:ltt describes a more powerful technique called Learn then Test [angelopoulos2021learn] capable of controlling general risks that do not satisfy (30).

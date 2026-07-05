@@ -1,0 +1,9 @@
+For each binary data set shown in Table 3, we train a LR model
+and extract it given predictions. In all cases, we achieve . If we
+compare the probabilities output by and , and are lower
+than . For these models, the attack requires
+only queries on average, and at most. On Google’s platform for example, an extraction attack
+would cost less than , and subvert any further model monetization. 4.1.2 Multiclass LRs and Multilayer Perceptrons
+
+We now show that such equation-solving attacks broadly extend to all model classes with a ‘logistic’ layer, including multiclass LR and deeper neural networks. We define these models formally in Appendix A. A multiclass logistic regression (MLR) combines binary models, each with parameters , to form a multiclass model. MLRs are available in all ML services we reviewed. We consider two types of MLR models: softmax and one-vs-rest (OvR),
+that differ in how the binary models are trained and combined: A softmax model fits a joint multinomial distribution to all training samples, while a OvR model trains a separate binary LR for each class, and then normalizes the class probabilities. A MLR model is defined by parameters , .

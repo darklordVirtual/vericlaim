@@ -1,0 +1,19 @@
+Schrittwieser, K. Simonyan, I. Antonoglou, A. Huang, A. Guez,
+T. Hubert, L. Baker, M. Lai, A. Bolton, et al. Mastering the game of go without human knowledge. nature, 550(7676):354–359, 2017. Sloman (1996)
+
+S. A. Sloman. The empirical case for two systems of reasoning. Psychological bulletin, 119(1):3, 1996. Stanovich (1999)
+
+K. E. Stanovich. Who is rational? Studies of individual differences in
+reasoning. Psychology Press, 1999. Touvron et al. (2023)
+
+H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux, T. Lacroix,
+B. Rozière, N. Goyal, E. Hambro, F. Azhar, et al. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023. Verma et al. (2022)
+
+S. Verma, J. Fu, S. Yang, and S. Levine. Chai: A chatbot ai for task-oriented dialogue with offline
+reinforcement learning. In Proceedings of the 2022 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pages 4471–4491, 2022. Wallace et al. (2022)
+
+E. Wallace, N. Tomlin, A. Xu, K. Yang, E. Pathak, M. Ginsberg, and D. Klein. Automated crossword solving. arXiv preprint arXiv:2205.09665, 2022. Wang et al. (2023a)
+
+L. Wang, W. Xu, Y.

@@ -1,0 +1,103 @@
+{"fsid": "arxiv_2606-07822", "n": 102, "overlap": 200, "source_sha256": "33e24dc7ae85450049bbaf772b8d0049dddd82ac887950bc40c8cad8f9886910", "target": 1200}
+{"section": "", "seq": 0, "sha256": "930f9fbc34f371c1c70e776bf3f89d0ee599a133b287dde707e66be22f0294c2"}
+{"section": "The acute Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust", "seq": 1, "sha256": "ae2b73e78b33c3e21386e1fd3320c2ae3bd957d234c3cd9cf2a81bc7856ee601"}
+{"section": "The acute Protocol: Operationalizing Language Model Activations for Better Calibration, Utility, and Trust", "seq": 2, "sha256": "53ff9b03c066ff16704ef1c61a19aa2cc7efbd540bbb086a8003cd0e6031afd1"}
+{"section": "1 Introduction", "seq": 3, "sha256": "b355dd215f4af92e6d8d92ece21abfa527cb73fd0c2abf73bf3c561cafe9d9e4"}
+{"section": "1 Introduction", "seq": 4, "sha256": "ec0ec31170c36c69e83c11efa3ade88bec95309a0a24e02e967763cfe5246bd1"}
+{"section": "1 Introduction", "seq": 5, "sha256": "bc8f3018d4ba79dc1dda80cc049559e79c8f93aabe7a7cfa8c0d81c0582bb423"}
+{"section": "1 Introduction", "seq": 6, "sha256": "9744835796d02ee94e162ccca958137985c171a2768a253e67f80d4984b5e48c"}
+{"section": "2 Expected Utility Renormalized by the Oracle (euro)", "seq": 7, "sha256": "73616a107976a3d085d5ff289bbfe3bc0cdb563d8aa6312bfca6170d74363dec"}
+{"section": "2.1 Calibration, ECE, and Smooth ECE", "seq": 8, "sha256": "30b731aa52a821b39c0ccde28137583b72b6d0dd05ff5db86ae41dc9d4a74d48"}
+{"section": "2.1 Calibration, ECE, and Smooth ECE", "seq": 9, "sha256": "6449772dcc53473cf87a555e9033bd198dc88577a9d6a04c87579de83b777877"}
+{"section": "2.2 Calibration Alone is Insufficient", "seq": 10, "sha256": "efdad08f41950f9e914b32f58c177ab34132a95e71e8c6881c54c652024f4d01"}
+{"section": "2.2 Calibration Alone is Insufficient", "seq": 11, "sha256": "067a9e01a3601b39b18338f1c9fbd73a2cd7f754ed0d5ed5c6058e4319edf262"}
+{"section": "2.2 Calibration Alone is Insufficient", "seq": 12, "sha256": "dc100ab3fbfa6a2159df43346713f81f5f58aea7405ba4917c24d33717436a89"}
+{"section": "2.3 euro", "seq": 13, "sha256": "93d0176bb765ccb57873aca6c0e2eb7b1e3ec2aebbdaf7c2c49c4efef945b46b"}
+{"section": "2.3 euro", "seq": 14, "sha256": "690b463ca978b444232bd00f929df489a1ef8f0375fa5955aa51ad777c667389"}
+{"section": "2.3 euro", "seq": 15, "sha256": "c658dba783547dd1843a485f6e7704e439e906dbfdbf6a98044789136bdacb55"}
+{"section": "2.3 euro", "seq": 16, "sha256": "f46fd9dc7cf40afb171e4ace3b01eff331a24d8e8ca2f29dbf3fd19d474d252b"}
+{"section": "2.3 euro", "seq": 17, "sha256": "78ac8e49ed8765c77122c447e23b6d2c9bc2c007dea316844cdd116c488a0ba7"}
+{"section": "2.3 euro", "seq": 18, "sha256": "292b0a9a20d948dc220699779673dcdf8efbe0dd0eb222b159298873ab91ecf5"}
+{"section": "3 acute", "seq": 19, "sha256": "8ae0c4c69cd4010c30cbde0c6c68fce67439a69d63dc64fd902b8e3f4f685e4a"}
+{"section": "3 acute", "seq": 20, "sha256": "6b415319e3b5c0f5d58c6c72f15c86bdc65cc357e0a6a8b0fdf2db802c757d44"}
+{"section": "3.1 Input features", "seq": 21, "sha256": "da2220b46a927418ad2a027352e122e15447be0b1dccf1025aca890f961201b0"}
+{"section": "3.1 Input features", "seq": 22, "sha256": "cd00939e72cfcff227c188991a27e4ab8c2fd6988c6fd364b2a2f5ce1190bd00"}
+{"section": "3.1 Input features", "seq": 23, "sha256": "559ea783810cbca7ea041e9cbc1b9df63512bbe97bb62709897898cc20b225d0"}
+{"section": "3.2 acute models", "seq": 24, "sha256": "ebce997927a3cb5d7b790435c76dd5e57c7de53a83e95247ddca39c9564d6812"}
+{"section": "3.2 acute models", "seq": 25, "sha256": "13db69b0e7788401bad18d705750be5458efc87da129ca480d236514a2348288"}
+{"section": "3.2 acute models", "seq": 26, "sha256": "bfa4c35d8b5be2c8a9d70629717e1f8726fdffdbb7802743a510952677f53fb4"}
+{"section": "4 Experiments", "seq": 27, "sha256": "fec1dc104c58e82943801b639c2c7829043f177ede07182ebbfb09fb75cbedf4"}
+{"section": "4 Experiments", "seq": 28, "sha256": "0bd0bc5d4b77da1befa498b05ef60e68599edbe494db288eda4749da875706c9"}
+{"section": "4 Experiments", "seq": 29, "sha256": "3aebd8a066bb70b58cc9b157711b78f26e11290b81bee9f1cdda5e9d4eeb5197"}
+{"section": "4.1 Baseline Confidence Estimators", "seq": 30, "sha256": "f88bf2e1f9b6e065e9a32abee8fc57587a574af65c839a20f6895104c62a6e66"}
+{"section": "4.1 Baseline Confidence Estimators", "seq": 31, "sha256": "aa58f4e950710978f28f232a055823ea15476e4e8136c745633bca2c701615dc"}
+{"section": "4.2 acute Estimators", "seq": 32, "sha256": "ee55b4cb05abbcfd3ad9cd9a2c66fea815ed039e74e77d15227f767252c9bbc8"}
+{"section": "4.2 acute Estimators", "seq": 33, "sha256": "e6d7cd043ec3ddce095ff68876cf2541838f0b363d2ce499f09321c33fed8a15"}
+{"section": "5.1 Main Results", "seq": 34, "sha256": "9dd48e22e12a8ca6559796d8df6c4615ea5b32aae99ed37b3fe081a1c2e9350c"}
+{"section": "5.1 Main Results", "seq": 35, "sha256": "fa44f9c93ba60ea9354d7b84066cb58e4453061e0fd9bd189980d5c39dced2f3"}
+{"section": "5.1 Main Results", "seq": 36, "sha256": "e3b34126b40ed6afdf8fd7d549b13afcb20a2398613ac5383332fff99a065ae7"}
+{"section": "5.2 Does acute have strong sample complexity?", "seq": 37, "sha256": "c0789e9805e99724ab668141a0dd8e9a8db2482c0e94b7f0f65e8d915fea2e10"}
+{"section": "5.2 Does acute have strong sample complexity?", "seq": 38, "sha256": "f006273f537ed358e4a11105dfa333401f177f401cad40cf3443824f0b4ae03b"}
+{"section": "5.3 Which layers are best for acute?", "seq": 39, "sha256": "0ee4134f6985420de0a2aea636411f8b8f8b5afd6558bcdec2655fc5ad8820fc"}
+{"section": "5.4 Intrinsic Dimension Analysis", "seq": 40, "sha256": "7b3488e5f44e61bfa22c8679fdaf38c60d0a43755265a7591ef1b7b78d0ab0f6"}
+{"section": "5.5 Does acute generalize to larger MoE models?", "seq": 41, "sha256": "c797896d00da4b48e9a4fed7798fc416d8ea8ba026bcda9b269b69aae3d62e0f"}
+{"section": "5.5 Does acute generalize to larger MoE models?", "seq": 42, "sha256": "f0be784c19447fbeb1c199eb03f9727160237aa4dc50a19c159fa510bde9a443"}
+{"section": "5.5 Does acute generalize to larger MoE models?", "seq": 43, "sha256": "683f8db4a934dc5e50128a7bb4179da98a2718b82f7cb74eb240d6341448844a"}
+{"section": "5.6 Can posthoc calibration further improve acute?", "seq": 44, "sha256": "48a66b526834cf199730df060cb800786ceeb9ec06ffc69788a8ec993a2cb28b"}
+{"section": "6 Related Work", "seq": 45, "sha256": "63773f6620fdc66b05b900a2204c656dd82e4a0ca03a74ef014d428c561e4dbf"}
+{"section": "6 Related Work", "seq": 46, "sha256": "7f4b54f76c6e8d39aea6b2d0d6c4212e3f7edd02427ac6bfe0e7030ac0dcdbdf"}
+{"section": "6 Related Work", "seq": 47, "sha256": "62962453e023df81a5defdb77d90283b6534b5eddb052f7a0ea55761f79b819a"}
+{"section": "7 Conclusion", "seq": 48, "sha256": "22b34c97dd6ee2b567d391c0c6b9e45473c83d91d222fa6673da1806d9736980"}
+{"section": "Impact Statement", "seq": 49, "sha256": "d5add06ad1d8ba7ed0f2646d5b41394e6888cb421cdae25acd40113dda233e0b"}
+{"section": "Impact Statement", "seq": 50, "sha256": "7bce5abf70a7d26f60c4e46d6be4432740b61c02760b86e0812cd3bb16c1f26a"}
+{"section": "Acknowledgments", "seq": 51, "sha256": "d572660167b825abc34f8e7c6fd950973f6e6d72cc945cc80bd271f267fa6c69"}
+{"section": "Appendix A euro derivations", "seq": 52, "sha256": "f61410df308c4460fa18aebed9307aee274aa1069990ab64190628a7cc4e387c"}
+{"section": "A.1 Bayes Optimality of the MBR Threshold", "seq": 53, "sha256": "6a1082a98468b1670f9a0a9cd35de68fe2081f2598db2a7bfaa0cff7a663375c"}
+{"section": "A.2 Recomputing the MBR Threshold", "seq": 54, "sha256": "ea70a28cfe43539b25c68b973bf50f3c40ea8a1875082a26943b34de0a721770"}
+{"section": "A.3 Calculating the Relative Utility", "seq": 55, "sha256": "8d58eec724aae3e4bfee5b064f7b9f29797dd2565bbbdaf4538dab26c8e980b4"}
+{"section": "A.4 Renormalizing with respect to the Oracle and Anti-Oracle Derivation", "seq": 56, "sha256": "dc60664421758c6c1a4a642586c822e2c855ed7b138c8b1c2a188568124cba50"}
+{"section": "Appendix B How euro relates to other measures", "seq": 57, "sha256": "57be3bfc8bc7f8d3cecd4f1c69483e5e667f11a7d7561dc3dc53a2311e060027"}
+{"section": "Appendix B How euro relates to other measures", "seq": 58, "sha256": "081a484dde8dafe90d45aa6dc76b517c2c5a0eb5d4a97bff326edac63e78511c"}
+{"section": "Appendix C Confidence Estimators can be Computationally Infeasible", "seq": 59, "sha256": "74bbf657192bfbe8b8e31fb7c9ae75caad25d685434054bcdeadea857a7540ef"}
+{"section": "Appendix C Confidence Estimators can be Computationally Infeasible", "seq": 60, "sha256": "fdb0fa82013e47358e73d4502edf01b9d33c41a1e53727ec3cd74c0d29772825"}
+{"section": "Appendix D Connection to Selective Prediction", "seq": 61, "sha256": "8bce92bdce9388b1989dcfd22182b0845274d1abee6fcdd49ac8c02cfa5219a4"}
+{"section": "E.1 MMLU", "seq": 62, "sha256": "2fbabe41cb7c165c340588b2571862e51a57285694baa7c42ef6267a07e5c3c6"}
+{"section": "E.2 APIGen", "seq": 63, "sha256": "dbc20fca826209297e1bca0eed94d104a3568694c69a06cc06d29b2a2692ce73"}
+{"section": "E.3 SCITLDR", "seq": 64, "sha256": "564d8eb9db112c84dc027e221251bede188d106eaf92a227fcd5f01c7f7c31b4"}
+{"section": "Appendix F Dataset Information", "seq": 65, "sha256": "bb40f769b85e0b8bd2ddecbb174ef8687af28db30a0d1e294113d7f60ba101f2"}
+{"section": "Appendix G Confidence Feature Ablation", "seq": 66, "sha256": "1dc70b381a28fff0d2ea0946dd7f7f56bc76665fe8979e86981b7173bb01525f"}
+{"section": "Appendix H Noise Ablation", "seq": 67, "sha256": "b8e979e37ce8cc57b0fd2ca01dc58665b0063d0e688cb7d049c8640ec16843b9"}
+{"section": "Appendix I MMLU results across LLMs", "seq": 68, "sha256": "51f67d5c667bd5276c746243d6869faf0e58f4981bdab33e509a249c8b00640d"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 69, "sha256": "b58e77ca8d4c917a2c0a5614364dd610c1381ba98a38591d6685be43b5b1c5f9"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 70, "sha256": "222e89eed4001c949ddb582c0a919a1e5d23b601671486bc776b9268de382b50"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 71, "sha256": "2fa46134ee3be4a8aab4e6a37097503c703219fcdbb26a39a29513b34ddd7522"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 72, "sha256": "82637cddbf2b793bb58fa9df16ca6101bca89348b794f28bd8e3010ad8a122d2"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 73, "sha256": "4c3c612a17bee97866c7a5552383ff394d52e959cbcb8d019937a82d21c3f16f"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 74, "sha256": "ad9dc8e6bb2d7f59b95c1011697585c8d8115365130d1faa6590dec083c93f90"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 75, "sha256": "9975bc2cf3768327954789c31e82ac5f23b546400d6f89b8261e41cd891a9c0a"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 76, "sha256": "088fa829b4113208e26f229daa7d88e41fed12e9add48f5be01d1c1b4dd987e6"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 77, "sha256": "9e7c6cd7df7fde4547b6638059b44a43b3294eb1e0fc59922940ad5ff8901284"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 78, "sha256": "c2ad64c3eba3e90b990c4ee844f53d1d18f056e24dc4614e36fa5ff263d0b08f"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 79, "sha256": "e354fd87011b5e16145286b5c7d09cc922b6b4b97a1757736b71196ed53e2ca0"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 80, "sha256": "aa6a8ae96e06a4086fac3ee622f97a49e78bcd46486108868f526bddc4fef00c"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 81, "sha256": "3361b3bfcc946203bd48bb785261ee46103972b50dd330d8e8c895ebc4f6fc82"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 82, "sha256": "9a32f101a8ee4188186d9d1b12bf5db589138de18730294f3ff41f0521fdd2a8"}
+{"section": "Appendix J SCITLDR Threshold Analysis", "seq": 83, "sha256": "daa0b0f00d5e16f8b1094fa9a9276876c4470fd6bc184b3a9efada0eb0a16f7e"}
+{"section": "Appendix K Per Model Results", "seq": 84, "sha256": "3643a48163b12f290a8c87372dcf2b1a8128ffd8a7e3569ed5a2b51f8bcd3ea5"}
+{"section": "Appendix K Per Model Results", "seq": 85, "sha256": "8ea2acc2cf350b683a300a8b57db8315ff15c887570b9c365c804486184a69da"}
+{"section": "Appendix K Per Model Results", "seq": 86, "sha256": "4e6a913dcaf19642eaa76fa410e13a574aa0527b3bd606b5206f37a1b70f5c7d"}
+{"section": "Appendix K Per Model Results", "seq": 87, "sha256": "45fc3224a99d9d94fdca9c9e842d8673fcd4b41690e69e58b247901df005f6f6"}
+{"section": "Appendix K Per Model Results", "seq": 88, "sha256": "ac49ee7dcc2d694514e2c273235e3b47bd1cdc1f73ecfe3aee5cd21b87f6a7ac"}
+{"section": "Appendix K Per Model Results", "seq": 89, "sha256": "4b8c8286acc47780e89feda08d06d3b8e24069e505ac288eab002de340ddb1fc"}
+{"section": "Appendix K Per Model Results", "seq": 90, "sha256": "7df461276e66a5da6cf2df35424232a7daee1803daad44fe29fe2992a13562cf"}
+{"section": "Appendix K Per Model Results", "seq": 91, "sha256": "90ceb0d337893ff049518e7c78267f88c4dafbbdb63b1c67eee5080cc627a9d9"}
+{"section": "Appendix K Per Model Results", "seq": 92, "sha256": "287c62b1e75c03e479758b6953570da1252fead5f088eef0c1bbba5fbbfa049e"}
+{"section": "Appendix K Per Model Results", "seq": 93, "sha256": "49d5b2485434c3d001452a51af8fcf44e28ce8ef884eb722f4ad8cf0371c4ae7"}
+{"section": "Appendix K Per Model Results", "seq": 94, "sha256": "b4b623cb475e5ecc66b539faf01e5ed368c0c98d099c0d63f396a73b50378e13"}
+{"section": "Appendix K Per Model Results", "seq": 95, "sha256": "61a096ed86f59148f32ac2c81753de9c5d453bc4d0063c68d3e3b436d0995f87"}
+{"section": "Appendix K Per Model Results", "seq": 96, "sha256": "aa9401d6136bd2ac258618bd82fb06dc76d3ed82c4ea61a797f59ac06ad52266"}
+{"section": "Appendix K Per Model Results", "seq": 97, "sha256": "9fb318526c17fc8c05d7ad8920a1c089e243074d41137aa46e63a8fa36d0e01a"}
+{"section": "Appendix K Per Model Results", "seq": 98, "sha256": "0c612c2c67a87dda70f055382ca8cb430c0975845862033a8e5004da78798d70"}
+{"section": "Appendix K Per Model Results", "seq": 99, "sha256": "a00fc64107dccfd1ecb699fc8ad5e6d4f483ffffef77750d53f38b3d867d42fb"}
+{"section": "Appendix K Per Model Results", "seq": 100, "sha256": "2e780c911d2fb266992b0eec37255c7030ea679e82a060d29cf0cba9677d3103"}
+{"section": "Appendix L Additional Limitations", "seq": 101, "sha256": "042175ac128b2de951d5bdd33a643be59d6a3f17fac767805e92de012639acb2"}

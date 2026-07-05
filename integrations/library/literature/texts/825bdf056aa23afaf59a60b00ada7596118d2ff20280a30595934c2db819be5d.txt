@@ -1,0 +1,15 @@
+Evaluating large language models trained on code, 2021. URL https://arxiv.org/abs/2107.03374. Chen & Soo (2018)
+
+Peng-Yu Chen and Von-Wun Soo. Humor recognition using deep learning. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 2 (Short Papers), pp. 113--117, New Orleans,
+Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-2018. URL https://aclanthology.org/N18-2018. Chen (2020)
+
+Ricson Chen. Transformers play chess, 2020. URL https://github.com/ricsonc/transformers-play-chess. Chen et al. (2019b)
+
+Xinyun Chen, Chang Liu, and Dawn Song. Execution-guided neural program synthesis. https://openreview.net/pdf?id=H1gfOiAqYm, 2019b. Child et al. (2019)
+
+Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers, 2019. URL https://arxiv.org/abs/1904.10509. Cho et al. (2019)
+
+Won Ik Cho, Ji Won Kim, Seok Min Kim, and Nam Soo Kim. On measuring gender bias in translation of gender-neutral pronouns. In Proceedings of the First Workshop on Gender Bias in Natural
+Language Processing, pp.

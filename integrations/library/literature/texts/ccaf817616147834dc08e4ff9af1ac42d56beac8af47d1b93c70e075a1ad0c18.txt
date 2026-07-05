@@ -1,0 +1,18 @@
+H. S., Ananya B. Sai, Robin M. Schmidt, Thomas Scialom,
+Tshephisho Sefara, Saqib N. Shamsi, Xudong Shen, Haoyue Shi, Yiwen Shi, Anna
+Shvets, Nick Siegel, Damien Sileo, Jamie Simon, Chandan Singh, Roman Sitelew,
+Priyank Soni, Taylor Sorensen, William Soto, Aman Srivastava, KV Aditya
+Srivatsa, Tony Sun, Mukund Varma T, A Tabassum, Fiona Anting Tan, Ryan
+Teehan, Mo Tiwari, Marie Tolkiehn, Athena Wang, Zijian Wang, Gloria Wang,
+Zijie J. Wang, Fuxuan Wei, Bryan Wilie, Genta Indra Winata, Xinyi Wu, Witold
+Wydmański, Tianbao Xie, Usama Yaseen, M. Yee, Jing Zhang, and Yue Zhang. NL-Augmenter: A framework for task-sensitive natural language
+augmentation, 2021. URL https://arxiv.org/abs/2112.02721. Dinan et al. (2019)
+
+Emily Dinan, Angela Fan, Adina Williams, Jack Urbanek, Douwe Kiela, and Jason
+Weston. Queens are powerful too: Mitigating gender bias in dialogue
+generation, 2019. URL https://arxiv.org/abs/1911.03842. Dong et al. (2020)
+
+Tiansi Dong, Chengjiang Li, Christian Bauckhage, Juanzi Li, Stefan Wrobel, and
+Armin B. Cremers. Learning syllogism with Euler neural-networks, 2020. URL https://arxiv.org/abs/2007.07320. Du et al. (2021)
+
+Nan Du, Yanping Huang, Andrew M.

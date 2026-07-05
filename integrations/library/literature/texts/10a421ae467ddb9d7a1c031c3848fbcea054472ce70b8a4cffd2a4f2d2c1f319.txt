@@ -1,0 +1,9 @@
+The are never known exactly in advance—we only have some heuristic sense of their size. In practice, for time-series problems, it often suffices to pick either a rolling window of size or a smooth decay using some domain knowledge about the speed of the drift:
+
+(42)
+
+We give a worked example of this procedure for a distribution shifting over time in Section 5.3. As a final point on this algorithm, we note that there is some cost to using this or any other weighted conformal procedure. In particular, the weights determine the effective sample size of the distribution:
+
+(43)
+
+This is quite important in practice, since the variance of the weighted conformal procedure can explode when is small; as in Section 3, the variance of coverage scales as , which can be large if too many of the are small. To see more of the theory of weighted conformal prediction under distribution drift, see [barber2022conformal].

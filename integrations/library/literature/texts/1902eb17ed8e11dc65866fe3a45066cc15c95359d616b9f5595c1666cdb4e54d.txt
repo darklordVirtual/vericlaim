@@ -1,0 +1,15 @@
+Association for the Advancement of Artificial Intelligence. URL https://dl.acm.org/doi/10.5555/2886521.2886662. Telle et al. (2019)
+
+Jan Arne Telle, José Hernández-Orallo, and Cèsar Ferri. The teaching size: Computable teachers and learners for universal
+languages. Machine Learning, 108:1653--1675, 2019. doi: 10.1007/s10994-019-05821-2. URL https://doi.org/10.1007/s10994-019-05821-2. Teney et al. (2020)
+
+Damien Teney, Ehsan Abbasnedjad, and Anton van den Hengel. Learning what makes a difference from counterfactual examples and
+gradient supervision, 2020. URL https://arxiv.org/abs/2004.09034. Thagard et al. (1990)
+
+Paul Thagard, Keith J. Holyoak, Greg Nelson, and David Gochfeld. Analog retrieval by constraint satisfaction. Artificial Intelligence, 46(3):259--310,
+1990. doi: https://doi.org/10.1016/0004-3702(90)90018-U. URL
+https://www.sciencedirect.com/science/article/pii/000437029090018U. Thawani et al. (2021)
+
+Avijit Thawani, Jay Pujara, Filip Ilievski, and Pedro Szekely. Representing numbers in NLP: A survey and a vision. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp.

@@ -1,0 +1,17 @@
+Goodfellow et al. (2014)
+
+Ian J Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572, 2014. Guo et al. (2021)
+
+Chuan Guo, Alexandre Sablayrolles, Hervé Jégou, and Douwe Kiela. Gradient-based adversarial attacks against text transformers. arXiv preprint arXiv:2104.13733, 2021. Hendrycks et al. (2021)
+
+Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song,
+and Jacob Steinhardt. Aligning {ai} with shared human values. In International Conference on Learning Representations, 2021. URL https://openreview.net/forum?id=dNy_RKzJacY. Ilyas et al. (2019)
+
+Andrew Ilyas, Shibani Santurkar, Dimitris Tsipras, Logan Engstrom, Brandon
+Tran, and Aleksander Madry. Adversarial examples are not bugs, they are features. In Advances in Neural Information Processing Systems
+(NeurIPS), 2019. Jia and Liang (2017)
+
+Robin Jia and Percy Liang. Adversarial examples for evaluating reading comprehension systems. arXiv preprint arXiv:1707.07328, 2017. Jones et al. (2023)
+
+Erik Jones, Anca Dragan, Aditi Raghunathan, and Jacob Steinhardt. Automatically auditing large language models via discrete
+optimization.

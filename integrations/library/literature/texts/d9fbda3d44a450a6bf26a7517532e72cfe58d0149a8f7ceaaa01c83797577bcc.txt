@@ -1,0 +1,11 @@
+The linear view of adversarial examples suggests a fast way of generating them. We hypothesize that neural networks are too linear to resist linear adversarial
+perturbation. LSTMs (Hochreiter & Schmidhuber, 1997), ReLUs (Jarrett et al., 2009; Glorot et al., 2011),
+and maxout networks (Goodfellow et al., 2013c) are all intentionally
+designed to behave in very linear ways, so that they are easier to optimize. More nonlinear models such as sigmoid networks are carefully tuned to spend
+most of their time in the non-saturating, more linear regime for the same reason. This linear behavior suggests that cheap, analytical perturbations of a linear model
+should also damage neural networks. Let be the parameters of a model, the input to the model, the targets associated with
+(for machine learning tasks that have targets) and be the cost used to train the
+neural network. We can linearize the cost function around the current value of , obtaining
+an optimal max-norm constrained pertubation of
+
+We refer to this as the “fast gradient sign method” of generating adversarial examples. Note that the required gradient can be computed efficiently using backpropagation.

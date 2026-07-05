@@ -1,0 +1,20 @@
+Schoenholz, Yasaman Bahri, Roman Novak,
+Jascha Sohl-Dickstein, and Jeffrey Pennington. Wide neural networks of any depth evolve as linear models under
+gradient descent, 2019,
+arXiv:1902.06720. [MKAT18]
+
+Sam McCandlish, Jared Kaplan, Dario Amodei, and OpenAI Dota Team. An empirical model of large-batch training, 2018,
+arXiv:1812.06162. [Pap18]
+
+Vardan Papyan. The full spectrum of deep net hessians at scale: Dynamics with sample
+size. CoRR, abs/1811.07062, 2018,
+1811.07062. URL http://arxiv.org/abs/1811.07062. [RNSS18]
+
+Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training. URL https://s3-us-west-2. amazonaws. com/openai-assets/research-covers/languageunsupervised/language understanding
+paper. pdf, 2018. [RRBS19a]
+
+Jonathan S. Rosenfeld, Amir Rosenfeld, Yonatan Belinkov, and Nir Shavit. A constructive prediction of the generalization error across scales,
+2019, 1909.12673. [RRBS19b]
+
+Jonathan S. Rosenfeld, Amir Rosenfeld, Yonatan Belinkov, and Nir Shavit. A constructive prediction of the generalization error across scales,
+2019, arXiv:1909.12673.

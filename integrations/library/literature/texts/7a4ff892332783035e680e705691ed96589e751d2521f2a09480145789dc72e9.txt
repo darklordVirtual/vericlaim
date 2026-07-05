@@ -1,0 +1,5 @@
+In the example below, ex:author-view is attributed to the agent ex:Simon, whereas ex:process-view to w3:Consortium. entity(ex:author-view, [ prov:type='prov:Bundle' ])
+wasAttributedTo(ex:author-view, ex:Simon)
+
+entity(ex:process-view, [ prov:type='prov:Bundle' ])
+wasAttributedTo(ex:process-view, w3:Consortium)

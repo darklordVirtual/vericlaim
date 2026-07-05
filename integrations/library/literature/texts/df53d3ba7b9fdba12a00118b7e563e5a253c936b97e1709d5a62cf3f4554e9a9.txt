@@ -1,0 +1,17 @@
+Zhao, M.-Y. Kan, J. He, and Q. Xie. Decomposition enhances reasoning via self-evaluation guided decoding,
+2023. Yang et al. (2023)
+
+S. Yang, O. Nachum, Y. Du, J. Wei, P. Abbeel, and D. Schuurmans. Foundation models for decision making: Problems, methods, and
+opportunities, 2023. Yao et al. (2022)
+
+S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y. Cao. ReAct: Synergizing reasoning and acting in language models. arXiv preprint arXiv:2210.03629, 2022. Zhang et al. (2023)
+
+S. Zhang, Z. Chen, Y. Shen, M. Ding, J. B. Tenenbaum, and C. Gan. Planning with large language models for code generation. In The Eleventh International Conference on Learning
+Representations, 2023. URL https://openreview.net/forum?id=Lr8cOOtYbfL. Zhou et al. (2022)
+
+D. Zhou, N. Schärli, L. Hou, J. Wei, N. Scales, X. Wang, D. Schuurmans,
+C. Cui, O. Bousquet, Q. Le, et al. Least-to-most prompting enables complex reasoning in large language
+models. arXiv preprint arXiv:2205.10625, 2022. Zhu et al. (2022)
+
+X. Zhu, J. Wang, L. Zhang, Y. Zhang, R. Gan, J. Zhang, and Y. Yang. Solving math word problem via cooperative reasoning induced language
+models. arXiv preprint arXiv:2210.16257, 2022.

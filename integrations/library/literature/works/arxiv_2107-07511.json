@@ -5,6 +5,12 @@
     "Anastasios N. Angelopoulos",
     "Stephen Bates"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:19.609004+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2107.07511"
+  },
+  "fulltext_sha256": "0705c51398621fed3b84784a61b1b674dd8a695d4cfe068bec22be6dad4aee5f",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "gentle-conformal-2021",

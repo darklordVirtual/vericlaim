@@ -1,0 +1,9 @@
+While the core of PROV focuses on essential provenance structures commonly found in provenance descriptions, extended structures
+are designed to support more advanced uses of provenance. The purpose of this section is twofold. First, mechanisms to specify these extended structures are introduced. Second, two further kinds of provenance structures are overviewed: they cater for provenance of provenance and collections, respectively. 2.2.1 Mechanisms to Define Extended Structures
+
+Extended structures are defined by a variety of mechanisms
+outlined in this section: subtyping, expanded relations, optional
+identification, and new relations. 2.2.1.1 Subtyping
+This section is non-normative. Subtyping can be applied to core types. For example, a software agent is special kind of agent, defined as follows. A software agent is running software. Subtyping can also be applied to core relations. For example, a revision is a special kind of derivation, defined as follows. A revision is a derivation for which the resulting entity is a revised version of some original. 2.2.1.2 Expanded Relations
+
+Section 2.1 shows that seven concepts are mapped to binary relations in the core of PROV.

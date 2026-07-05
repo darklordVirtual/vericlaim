@@ -1,0 +1,16 @@
+URL https://arxiv.org/abs/1908.07832. El-Yaniv & Yanay (2013)
+
+Ran El-Yaniv and David Yanay. Semantic sort: A supervised approach to personalized semantic
+relatedness, 2013. URL https://arxiv.org/abs/1311.2252. Elazar et al. (2021)
+
+Yanai Elazar, Nora Kassner, Shauli Ravfogel, Abhilasha Ravichander, Eduard
+Hovy, Hinrich Schütze, and Yoav Goldberg. Measuring and improving consistency in pretrained language models,
+2021. URL https://arxiv.org/abs/2102.01017. Ellis & Gulwani (2017)
+
+Kevin Ellis and Sumit Gulwani. Learning to learn programs from examples: Going beyond program
+structure. In Proceedings of the Twenty-Sixth International Joint
+Conference on Artificial Intelligence, IJCAI-17, pp. 1638--1645, 2017. doi: 10.24963/ijcai.2017/227. URL https://doi.org/10.24963/ijcai.2017/227. Ellis et al. (2020)
+
+Kevin Ellis, Catherine Wong, Maxwell Nye, Mathias Sable-Meyer, Luc Cary, Lucas
+Morales, Luke Hewitt, Armando Solar-Lezama, and Joshua B. Tenenbaum. Dreamcoder: Growing generalizable, interpretable knowledge with
+wake-sleep Bayesian program learning, 2020. URL https://arxiv.org/abs/2006.08381. Evans et al.

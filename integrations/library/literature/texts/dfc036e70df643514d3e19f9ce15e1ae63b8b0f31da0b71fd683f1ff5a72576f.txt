@@ -1,0 +1,89 @@
+⬇
+
+def words_string(s):
+
+"""
+
+␣␣␣␣You␣will␣be␣given␣a␣string␣of␣words␣separated␣by␣commas␣or␣spaces.␣Your␣task␣is
+
+␣␣␣␣to␣split␣the␣string␣into␣words␣and␣return␣an␣array␣of␣the␣words. ␣␣␣␣For␣example:
+
+␣␣␣␣words_string("Hi, my name is John")␣==␣["Hi",␣"my",␣"name",␣"is",␣"John"]
+
+␣␣␣␣words_string("One, two, three, four, five, six")␣==␣["One",␣"two",␣"three",␣"four",␣"five",␣"six"]
+
+␣␣␣␣"""
+
+### COMPLETION 1 (CORRECT): ###
+
+words = []
+
+splitted_word = ""
+
+for char in s:
+
+if char == "␣":
+
+if splitted_word != "":
+
+words.append(splitted_word)
+
+splitted_word = ""
+
+elif char != ",":
+
+splitted_word += char
+
+if splitted_word != "":
+
+words.append(splitted_word)
+
+return words
+
+### COMPLETION 2 (WRONG): ###
+
+return s.split()
+
+### COMPLETION 3 (WRONG): ###
+
+words = s.split("␣")
+
+words = [w.strip(",") for w in words]
+
+words = [w.strip() for w in words]
+
+return words
+
+### COMPLETION 4 (WRONG): ###
+
+# Split the string into words
+
+words = s.split(’,’)
+
+# Remove any whitespace around each element
+
+words = [w.strip() for w in words]
+
+# Return an array of the words in the string
+
+return words
+
+### COMPLETION 5 (WRONG): ###
+
+return s.split()
+
+### COMPLETION 6 (WRONG): ###
+
+return s.split()
+
+### COMPLETION 7 (WRONG): ###
+
+return s.split(’,’)
+
+### COMPLETION 8 (WRONG): ###
+
+return s.split(sep=None)
+
+def is_prime(n):
+
+"""Return␣true␣if␣a␣given␣number␣is␣prime,␣and␣false␣otherwise.

@@ -1,0 +1,10 @@
+This section is non-normative. At its core, provenance describes the use and production of
+entities by activities, which may be
+influenced in
+various ways by agents. These core types and their relationships
+are illustrated
+by
+the UML diagram of Figure 1. Figure 1 ◊: PROV Core Structures (Informative)
+
+The concepts found in the core of PROV are introduced in the rest of this section. They are summarized in Table 2, where they are categorized as
+type or relation. The first column lists concepts, the second column indicates whether a concept maps to a type or a relation, whereas the third column contains the corresponding name, as it appears in Figure 1. Names of relations have a verbal form in the past tense to express what happened in the past, as opposed to what may or will happen. In the core of PROV, all relations are binary.

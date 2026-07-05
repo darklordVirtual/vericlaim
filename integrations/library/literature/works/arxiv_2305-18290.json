@@ -9,6 +9,12 @@
     "Christopher D. Manning",
     "Chelsea Finn"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:16:14.237609+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2305.18290"
+  },
+  "fulltext_sha256": "58c97368e7dbf89c4d16a03ae6addcdc5bf6db7c8d665589d18b12d7e5638832",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "dpo-2023",

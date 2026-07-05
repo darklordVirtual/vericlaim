@@ -1,0 +1,11 @@
+Ryan Teehan, Charles River Analytics (rsteehan@gmail.com); Nicholas Roberts, University of Wisconsin-Madison (nick11roberts@cs.wisc.edu); and Vinay Uday Prabhu, UnifyID Labs (vinay@unify.id). Task cites: (Attardo, 2017; Ren & Yang, 2017; Amin & Burghardt, 2020; Annamoradnejad & Zoghi, 2020; Blinov et al., 2019; Yan & Pedersen, 2017; Frolovs, 2019)
+
+salient_translation_error_detection: Vikas Raunak and Arul Menezes, Microsoft (viraunak, arulm)@microsoft.com
+
+scientific_press_release: Cristina Garbacea and Qiaozhu Mei, University of Michigan (garbacea, qmei)@umich.edu
+
+self_awareness: Roman Sitelew (sitelewr@gmail.com) and Jascha Sohl-Dickstein, Google (jaschasd@google.com). Task cites: (Yudkowsky, 2008; Chella et al., 2020; Schick et al., 2021; Kounev et al., 2017; Huttunen et al., 2017; Wallace et al., 2020; Clark & Jackson, 1994; Horowitz, 2017; Branwen, 2020; Chu et al., 2017)
+
+self_evaluation_courtroom: Kaustubh D. Dhole, Amelia R&D, New York (kaustubhdhole@hotmail.com). Task cites: (Hildebrandt, 2018; Daley, 2021; King & Cook, 2020)
+
+self_evaluation_tutoring: Jascha Sohl-Dickstein, Google (jaschasd@google.com).

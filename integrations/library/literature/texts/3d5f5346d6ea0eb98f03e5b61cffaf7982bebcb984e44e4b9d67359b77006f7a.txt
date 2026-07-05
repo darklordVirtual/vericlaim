@@ -1,0 +1,14 @@
+Courier Corporation, 2012. Maas et al. [2011]
+
+A. L. Maas, R. E. Daly, P. T. Pham, D. Huang, A. Y. Ng, and C. Potts. Learning word vectors for sentiment analysis. In Proceedings of the 49th Annual Meeting of the Association
+for Computational Linguistics: Human Language Technologies, pages 142–150,
+Portland, Oregon, USA, June 2011. Association for Computational Linguistics. URL http://www.aclweb.org/anthology/P11-1015. Mishra et al. [2022]
+
+S. Mishra, D. Khashabi, C. Baral, and H. Hajishirzi. Cross-task generalization via natural language crowdsourcing
+instructions. In Proceedings of the 60th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 3470–3487,
+Dublin, Ireland, May 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.244. URL https://aclanthology.org/2022.acl-long.244. Nallapati et al. [2016]
+
+R. Nallapati, B. Zhou, C. dos Santos, Ç. Gulçehre, and B. Xiang. Abstractive text summarization using sequence-to-sequence RNNs and
+beyond. In Proceedings of the 20th SIGNLL Conference on Computational
+Natural Language Learning, pages 280–290, Berlin, Germany, Aug. 2016. Association for Computational Linguistics.

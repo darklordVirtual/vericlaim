@@ -1,0 +1,9 @@
+Building upon the decoupled confidence and visual certainty estimation, we introduce Visual Certainty Reward to provide visual confidence supervision and Token-Level Advantage Reweighting to penalize ungrounded hallucinations while preserving valid visual perception. Reward Shaping. To address the lack of a visual confidence label, we integrate visual certainty estimation via reward shaping. We reformulate the reward function in Eq. 6 as
+
+(10)
+
+where , , and are coefficients. Beyond binary accuracy reward: where denotes semantical equivalence, and holistic confidence calibration reward: , we propose the Visual Certainty Reward (). Specifically, we use as a proxy of . Since the raw visual certainty (Eq. 9) varies in scale across batches, we first normalize the raw visual certainty score by applying batch-wise z-score standardization and then mapping it to via a sigmoid transform . Therefore we derive as :
+
+(11)
+
+where denotes the stop-gradient operator. This term explicitly anchors the model’s verbalized visual confidence to its actual perceptual certainty, preventing ungrounded hallucinations.

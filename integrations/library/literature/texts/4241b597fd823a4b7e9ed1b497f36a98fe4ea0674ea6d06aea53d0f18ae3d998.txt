@@ -1,0 +1,11 @@
+In addition to evaluating the
+Lowd-Meek attack against ML APIs, we introduce a number of other approaches
+based on the broad strategy of re-training a model locally, given input-output
+examples. Informally, our hope is that by extracting a model that achieves
+low training error over the queried samples, we would effectively
+approximate the target model’s decision boundaries. We consider three retraining strategies, described below. We apply these to the model classes that we previously
+extracted using equation-solving attacks, as well as to SVMs.444We do not expect retraining attacks to work well for decision trees, because of the greedy approach taken by learning algorithms. We have not evaluated extraction of trees, given class labels only, in this work. (1)
+
+Retraining with uniform queries. This baseline strategy simply consists in sampling points uniformly at random, querying the oracle, and training a model on these samples. (2)
+
+Line-search retraining. This strategy can be seen as a model-agnostic generalization of the Lowd-Meek attack. It issues adaptive queries to the oracle using line search techniques, to find samples close to the decision boundaries of .

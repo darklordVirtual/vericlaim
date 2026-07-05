@@ -1,0 +1,16 @@
+(2020b)
+
+Ye Liu, Shaika Chowdhury, Chenwei Zhang, Cornelia Caragea, and Philip S. Yu. Interpretable multi-step reasoning with knowledge extraction on
+complex healthcare question answering, 2020b. URL https://arxiv.org/abs/2008.02434. Liu et al. (2019)
+
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. RoBERTa: A robustly optimized BERT pretraining approach, 2019. URL https://arxiv.org/abs/1907.11692. Liu et al. (2020c)
+
+Yinhan Liu, Jiatao Gu, Naman Goyal, Xian Li, Sergey Edunov, Marjan
+Ghazvininejad, Mike Lewis, and Luke Zettlemoyer. Multilingual denoising pre-training for neural machine translation,
+2020c. URL https://arxiv.org/abs/2001.08210. Llorens et al. (2015)
+
+Hector Llorens, Nathanael Chambers, Naushad UzZaman, Nasrin Mostafazadeh, James
+Allen, and James Pustejovsky. SemEval-2015 task 5: QA TempEval - evaluating temporal
+information understanding with question answering. In Proceedings of the 9th International Workshop on Semantic
+Evaluation (SemEval 2015), pp. 792--800, Denver, Colorado, June 2015. Association for Computational Linguistics. doi: 10.18653/v1/S15-2134.

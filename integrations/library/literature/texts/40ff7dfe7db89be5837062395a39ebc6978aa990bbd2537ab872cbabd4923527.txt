@@ -1,0 +1,16 @@
+code2seq: Generating sequences from structured representations of
+code, 2018. URL https://arxiv.org/abs/1808.01400. Alon et al. (2020)
+
+Uri Alon, Roy Sadaka, Omer Levy, and Eran Yahav. Structural language models of code. In Hal Daumé III and Aarti Singh (eds.), Proceedings of the
+37th International Conference on Machine Learning, volume 119 of
+Proceedings of Machine Learning Research, pp. 245--256. PMLR, 13--18
+July 2020. URL https://proceedings.mlr.press/v119/alon20a.html. Amin & Burghardt (2020)
+
+Miriam Amin and Manuel Burghardt. A survey on approaches to computational humor generation. In Proceedings of the 4th Joint SIGHUM Workshop on
+Computational Linguistics for Cultural Heritage, Social Sciences, Humanities
+and Literature, pp. 29--41, Online, December 2020. International Committee
+on Computational Linguistics. URL https://aclanthology.org/2020.latechclfl-1.4. Amini et al. (2019)
+
+Aida Amini, Saadia Gabriel, Shanchuan Lin, Rik Koncel-Kedziorski, Yejin Choi,
+and Hannaneh Hajishirzi. MathQA: Towards interpretable math word problem solving with
+operation-based formalisms.

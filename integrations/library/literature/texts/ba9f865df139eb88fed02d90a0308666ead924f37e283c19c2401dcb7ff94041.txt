@@ -1,0 +1,77 @@
+We obtained these counts by asking the GPT-2 authors to perform a
+separate grep over the entire dataset to get an exact count. Category
+Count
+
+US and international news
+
+109
+
+Log files and error reports
+
+79
+
+License, terms of use, copyright notices
+
+54
+
+Lists of named items (games, countries, etc.)
+
+54
+
+Forum or Wiki entry
+
+53
+
+Valid URLs
+
+50
+
+Named individuals (non-news samples only)
+
+46
+
+Promotional content (products, subscriptions, etc.)
+
+45
+
+High entropy (UUIDs, base64 data)
+
+35
+
+Contact info (address, email, phone, twitter, etc.)
+
+32
+
+Code
+
+31
+
+Configuration files
+
+30
+
+Religious texts
+
+25
+
+Pseudonyms
+
+15
+
+Donald Trump tweets and quotes
+
+12
+
+Web forms (menu items, instructions, etc.)
+
+11
+
+Tech news
+
+11
+
+Lists of numbers (dates, sequences, etc.)
+
+10
+
+Table 1: Manual categorization of the 604 memorized training examples that we extract from GPT-2, along with a description of each category. Some samples correspond to multiple categories (e.g., a URL may contain base-64 data). Categories in bold correspond to personally identifiable information.

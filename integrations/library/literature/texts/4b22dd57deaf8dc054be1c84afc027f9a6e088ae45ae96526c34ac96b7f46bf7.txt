@@ -1,0 +1,8 @@
+Notice a problem? Add a metric to track it! Excited about some
+quantitative change on the last release? Add a metric to track it! Rule #3: Choose machine learning over a complex heuristic. A simple heuristic can get your product out the door. A complex heuristic is
+unmaintainable. Once you have data and a basic idea of what you are trying to
+accomplish, move on to machine learning. As in most software engineering
+tasks, you will want to be constantly updating your approach, whether it is a
+heuristic or a machine­-learned model, and you will find that the
+machine­-learned model is easier to update and maintain (see
+Rule #16).

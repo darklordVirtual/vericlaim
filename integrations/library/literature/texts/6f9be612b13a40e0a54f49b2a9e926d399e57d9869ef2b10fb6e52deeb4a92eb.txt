@@ -1,0 +1,11 @@
+through a non-identifiability result showing that different
+dependency structures with possibly different intuitive notions of fairness
+cannot be separated based on any oblivious notion or test. Throughout our work, we assume a source distribution over , where
+is the target or true outcome (e.g. “default on loan”), are the available
+features, and is the protected attribute. Generally, the features may be
+an arbitrary vector or an abstract object, such as an image. Our work does not
+refer to the particular form has. The objective of supervised learning is to construct a (possibly randomized)
+predictor that predicts as is typically measured through a
+loss function. Furthermore, we would like to require that does not
+discriminate with respect to , and the goal of this paper is to formalize
+this notion.

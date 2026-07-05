@@ -1,0 +1,16 @@
+(2017)
+
+Adam Santoro, David Raposo, David G. T. Barrett, Mateusz Malinowski, Razvan
+Pascanu, Peter Battaglia, and Timothy Lillicrap. A simple neural network module for relational reasoning, 2017. URL https://arxiv.org/abs/1706.01427. Santoro et al. (2021)
+
+Adam Santoro, Andrew Lampinen, Kory Mathewson, Timothy Lillicrap, and David
+Raposo. Symbolic behaviour in artificial intelligence, 2021. URL https://arxiv.org/abs/2102.03406. Sap et al. (2019)
+
+Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, and Yejin Choi. Social IQa: Commonsense reasoning about social interactions. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 4463--4473, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1454. URL https://aclanthology.org/D19-1454. Sap et al. (2020)
+
+Maarten Sap, Saadia Gabriel, Lianhui Qin, Dan Jurafsky, Noah A. Smith, and
+Yejin Choi. Social bias frames: Reasoning about social and power implications of
+language.

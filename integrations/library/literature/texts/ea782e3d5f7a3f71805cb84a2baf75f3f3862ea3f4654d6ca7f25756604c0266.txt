@@ -1,0 +1,6 @@
+Section D.2 details the fitting procedure and the loss decomposition. Efficient frontier. We can approximate the functions and by minimizing the parametric loss under the constraint
+(Kaplan et al., 2020). The resulting and balance the two terms in Equation (3) that depend on model size and data. By construction, they have a power-law form:
+
+(4)
+
+We show contours of the fitted function in Figure 4 (left), and the closed-form efficient computational frontier in blue. From this approach, we find that and —as summarized in Table 2. Figure 4: Parametric fit. We fit a parametric modelling of the loss and display contour (left) and isoFLOP slices (right). For each isoFLOP slice, we include a corresponding dashed line in the left plot. In the left plot, we show the efficient frontier in blue, which is a line in log-log space. Specifically, the curve goes through each iso-loss contour at the point with the fewest FLOPs. We project the optimal model size given the Gopher FLOP budget to be 40B parameters.

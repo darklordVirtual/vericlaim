@@ -1,0 +1,19 @@
+Similar: ["’Allo
+’Allo!", "List of ’Allo ’Allo! characters", ’Gorden Kaye’, "’Allo
+’Allo! (series 2)", ’Allô, allô’, ’Francesca Gonshaw’, "’Allo
+’Allo! (series 4)", ’Kim Hartman’, "’Allo ’Allo! (series 6)", ’Jeremy
+Lloyd’]
+Thought 3: To find the actor who was best known for which role on
+"’Allo ’Allo!", I can search Gorden Kaye. Action 3: Search[Gorden Kaye]
+Observation 3: Gordon Irving Kaye (7 April 1941 – 23 January 2017),
+known professionally as Gorden Kaye, was an English actor, best
+known for playing womanising café owner René Artois in the television
+comedy series ’Allo ’Allo!. Thought 4: Gorden Kaye was best known for playing womanising café
+owner René Artois in the television comedy series "’Allo ’Allo!". So the answer is Rene Artois. Action 4: Finish[Rene Artois]Observation 4: Answer is INCORRECT
+
+Trial #2: Question: Grown-Ups starred the actor
+who was best known for which role on "’Allo ’Allo!"? Thought 1: I need to search the actor who was best known for a
+role on "’Allo ’Allo!" and find out what role they were best
+known for. Action 1: Search[Grown-Ups]
+Observation 1: Grown-Ups is a 1980 British BBC television film
+devised and directed by Mike Leigh.

@@ -1,0 +1,7 @@
+Our experiments show that any random direction gives rise to similarly interpretable
+semantic properties. More formally, we find that images are semantically related to each
+other, for many such that
+
+This suggests that the natural basis is not better than a random basis for inspecting the properties of . This puts into question the notion that neural networks disentangle variation factors across coordinates. First, we evaluated the above claim using a convolutional neural network trained on MNIST. We used the MNIST test set for . Figure 1
+shows images that maximize the activations in the natural basis, and Figure 2 shows images
+that maximize the activation in random directions. In both cases the resulting images share many high-level similarities. Next, we repeated our experiment on an AlexNet, where we used the validation set as . Figures 3 and 4 compare the natural basis to the random basis on the trained network. The rows appear to be semantically meaningful for both the single unit and the combination of units. (a) Unit sensitive to lower round stroke. (b) Unit sensitive to upper round stroke, or lower straight stroke. (c) Unit senstive to left, upper round stroke.

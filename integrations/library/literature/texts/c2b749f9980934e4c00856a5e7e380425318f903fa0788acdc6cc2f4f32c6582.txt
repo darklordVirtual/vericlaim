@@ -1,0 +1,8 @@
+This
+substitute is then in turn used to craft adversarial samples likely to fool the
+target black-box model. For their attacks to remain tractable despite the
+complexity of the targeted models, they aim for lower extraction accuracy
+(), yet show that this suffices for adversarial samples
+to “transfer” from one model to the other with high probability. In a non-adversarial setting, improper model extraction techniques have been
+applied for interpreting [19, 53, 2] and compressing [16, 27]
+complex neural networks.

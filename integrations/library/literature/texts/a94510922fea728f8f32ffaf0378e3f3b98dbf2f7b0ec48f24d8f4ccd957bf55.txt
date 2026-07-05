@@ -1,0 +1,32 @@
+This section is non-normative. The following namespaces prefixes are used throughout this document. Table 1 ◊: Prefix and Namespaces used in this specification
+
+prefix
+
+namespace IRI
+
+definition
+
+prov
+
+http://www.w3.org/ns/prov#
+
+The PROV namespace (see Section 5.7.4)
+
+xsd
+
+http://www.w3.org/2000/10/XMLSchema#
+
+XML Schema Namespace [XMLSCHEMA11-2]
+
+rdf
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#
+
+The RDF namespace [RDF-CONCEPTS]
+
+(others)
+
+(various)
+
+All other namespace prefixes are used in examples only. In particular, IRIs starting with "http://example.com" represent
+some application-dependent IRI [RFC3987]

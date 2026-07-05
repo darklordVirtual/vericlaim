@@ -1,0 +1,18 @@
+CoRR, abs/2102.02503. Thorne et al. (2018)
+
+James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mittal. 2018. FEVER: a large-scale
+dataset for fact extraction and VERification. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long Papers), pages 809–819, New Orleans,
+Louisiana. Association for Computational Linguistics. Wallace and Boyd-Graber (2018)
+
+Eric Wallace and Jordan Boyd-Graber. 2018. Trick me if you can:
+Adversarial writing of trivia challenge questions. In Proceedings of ACL 2018, Student Research Workshop, pages
+127–133, Melbourne, Australia. Association for Computational Linguistics. Wang et al. (2020)
+
+Alex Wang, Kyunghyun Cho, and Mike Lewis. 2020. Asking and
+answering questions to evaluate the factual consistency of summaries. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pages 5008–5020, Online. Association for
+Computational Linguistics. Wang and Komatsuzaki (2021)
+
+Ben Wang and Aran Komatsuzaki. 2021. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model.

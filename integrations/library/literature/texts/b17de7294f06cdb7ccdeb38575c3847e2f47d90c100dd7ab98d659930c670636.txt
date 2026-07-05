@@ -1,0 +1,11 @@
+We include three guardrails tailored to the needs of LLM agent workflows. These fall into two categories: prompt injection/agent misalignment and insecure/dangerous code. First, we address prompt injection and agent misalignment risks:
+
+•
+
+PromptGuard 2, a fine-tuned BERT-style model that detects direct jailbreak attempts with high accuracy and low latency. It operates in real-time on user prompts and untrusted data sources. The new generation of these models features several performance improvements in our 86M parameter variation and a lower latency, 22M parameter variant. •
+
+AlignmentCheck, an experimental few-shot prompting-based chain-of-thought auditor that inspects agent reasoning for signs of goal hijacking or prompt-injection induced misalignment. This is the first open source guardrail, to our knowledge, to audit an LLM chain-of-thought in real time intended for injection defense. Second, we focus on the growing area of coding agents, LLM agents that write code on behalf of the user. We include a guardrail specific to this application:
+
+•
+
+CodeShield, an online static-analysis engine for LLM-generated code that supports both Semgrep and regex-based rules.

@@ -1,0 +1,43 @@
+'R' and 'L' appearing in the right-hand side of some cells of Table 4 indicate that attributes
+prov:role (Section 5.7.2.3)
+and
+prov:location (Section 5.7.2.2)
+are permitted for these relations. The letter 'T' indicates an OPTIONAL time is also permitted. Some PROV-DM relations are not binary and involve extra optional element. They are summarized in Table 5 grouping secondary objects, according to their type. The table also adopts the same color scheme as Figure 4, allowing components to be readily identified. None of these relations correspond to the core structures introduced
+in Section 2.1. Table 5 ◊: Secondary optional elements in PROV-DM Relations
+
+Secondary Object
+
+Entity
+
+Activity
+
+Agent
+
+Subject
+
+Entity
+
+—
+
+WasDerivedFrom (activity)
+
+—
+
+Activity
+
+WasAssociatedWith (plan)
+
+WasStartedBy (starter)
+WasEndedBy (ender)
+
+—
+
+Agent
+
+—
+
+ActedOnBehalfOf (activity)
+
+—
+
+Table 6 is a complete index of all the types and relations of PROV-DM, color-coded according to the component they belong to. In the first column, concept names link to their informal definition, whereas, in the second column, representations link to the information used to represent the concept.

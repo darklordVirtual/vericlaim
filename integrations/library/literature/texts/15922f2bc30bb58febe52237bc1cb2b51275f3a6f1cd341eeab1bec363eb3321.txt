@@ -1,0 +1,11 @@
+This was a covariate shift in age. •
+
+You are trying to do instance segmentation, i.e., to segment each object in an image from the background. You collected your calibration images in the morning but seek to deploy your system in the afternoon. The amount of sunlight has changed, and more people are eating lunch. This was a covariate shift in the time of day. To address the covariate shift from to , one can form valid prediction sets with weighted conformal prediction, first developed in [tibshirani2019conformal]. In weighted conformal prediction, we account for covariate shift by upweighting conformal scores from calibration points that would be more likely under the new distribution. We will be using the likelihood ratio
+
+(33)
+
+usually this is just the ratio of the new PDF to the old PDF at the point . Now we define our weights,
+
+(34)
+
+Intuitively, the weight is large when is likely under the new distribution, and is large when the input is likely under the new distribution.

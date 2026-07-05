@@ -1,0 +1,90 @@
+There is a trailing whitespace in the first line of output which is ”DatasetGroupBy, grouped over ‘letters’ ”. This can be seen more clearly by converting the object to a string (note the whitespace before
+
+n
+):
+⬇
+>>> str(ds.groupby("letters"))
+
+"DatasetGroupBy,␣grouped␣over␣’letters’␣\n2␣groups␣with␣labels␣’a’,␣’b’."
+
+While this isn’t a problem in itself, it causes an issue for us because we use flake8 in continuous integration to verify that our code is correctly formatted… [20 more lines]
+
+Gold Patch
+⬇
+diff --git a/xarray/core/groupby.py b/xarray/core/groupby.py
+
+--- a/xarray/core/groupby.py
+
++++ b/xarray/core/groupby.py
+
+@@ -436,7 +436,7 @@ def __iter__(self):
+
+return zip(self._unique_coord.values, self._iter_grouped())
+
+def __repr__(self):
+
+- return "{},␣grouped␣over␣{!r}␣\n{!r}␣groups␣with␣labels␣{}.".format(
+
++ return "{},␣grouped␣over␣{!r}\n{!r}␣groups␣with␣labels␣{}.".format(
+
+self.__class__.__name__,
+
+Model Generated Patch
+⬇
+diff --git a/xarray/core/groupby.py b/xarray/core/groupby.py
+
+--- a/xarray/core/groupby.py
+
++++ b/xarray/core/groupby.py
+
+@@ -436,7 +436,7 @@ def __iter__(self):
+
+return zip(self._unique_coord.values, self._iter_grouped())
+
+def __repr__(self):
+
+- return "{},␣grouped␣over␣{!r}␣\n{!r}␣groups␣with␣labels␣{}.".format(
+
++ return "{},␣grouped␣over␣{!r}\n{!r}␣groups␣with␣labels␣{}.".format(
+
+self.__class__.__name__,
+
+Tests
+
+Fail to Pass (10)
+
+xarray/tests/test_groupby.py::test_groupby_repr[obj0-x]
+
+xarray/tests/test_groupby.py::test_groupby_repr[obj0-y]
+
+xarray/tests/test_groupby.py::test_groupby_repr[obj0-z]
+
+xarray/tests/test_groupby.py::test_groupby_repr[obj0-month]
+
+xarray/tests/test_groupby.py::test_groupby_repr[obj1-x]
+
+xarray/tests/test_groupby.py::test_groupby_repr[obj1-y]
+
+xarray/tests/test_groupby.py::test_groupby_repr[obj1-z]
+
+xarray/tests/test_groupby.py::test_groupby_repr[obj1-month]
+
+xarray/tests/test_groupby.py::test_groupby_repr_datetime[obj0]
+
+xarray/tests/test_groupby.py::test_groupby_repr_datetime[obj1]
+
+Pass to Pass (16)
+
+xarray/tests/test_groupby.py::test_consolidate_slices
+
+xarray/tests/test_groupby.py::test_groupby_da_datetime
+
+xarray/tests/test_groupby.py::test_groupby_duplicate_coordinate_labels
+
+xarray/tests/test_groupby.py::test_groupby_input_mutation
+
+xarray/tests/test_groupby.py::test_groupby_map_shrink_groups[obj0]
+
+Additional Pass to Pass Tests omitted…
+
+Discussion.

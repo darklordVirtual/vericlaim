@@ -1,0 +1,12 @@
+(2019). Towards coherent and engaging spoken dialog response generation using
+automatic conversation evaluators. arXiv preprint arXiv:1904.13015. Zellers et al., (2019)
+
+Zellers, R., Holtzman, A., Bisk, Y., Farhadi, A., and Choi, Y. (2019). Hellaswag: Can a machine really finish your sentence? In Association for Computational Linguistics, pages 4791–4800. Zhao et al., (2021)
+
+Zhao, M., Anderson, P., Jain, V., Wang, S., Ku, A., Baldridge, J., and Ie, E. (2021). On the evaluation of vision-and-language navigation instructions. arXiv preprint arXiv:2101.10504. Zhou and Xu, (2020)
+
+Zhou, W. and Xu, K. (2020). Learning to compare for better training and evaluation of open domain
+natural language generation models. arXiv preprint arXiv:2002.05058. Ziegler et al., (2019)
+
+Ziegler, D. M., Stiennon, N., Wu, J., Brown, T. B., Radford, A., Amodei, D.,
+Christiano, P., and Irving, G. (2019). Fine-tuning language models from human preferences. arXiv preprint arXiv:1909.08593.

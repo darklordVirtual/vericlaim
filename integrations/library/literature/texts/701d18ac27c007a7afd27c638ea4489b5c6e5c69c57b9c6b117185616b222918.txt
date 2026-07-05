@@ -1,0 +1,19 @@
+To assess whether our judges generalize beyond the synthetic
+benchmark (RQ1), we evaluate on
+InjecAgent (Zhan et al., 2024), an external indirect prompt
+injection benchmark with 1,054 test cases spanning 17 user tools
+and 62 attacker tools. All 1,054 InjecAgent cases are adversarial (no benign baseline);
+we uniformly sample 100 of these (fixed seed = 42; covering InjecAgent’s “direct
+harm” and “data stealing” categories—both involving
+indirect prompt injection via poisoned tool outputs,
+corresponding to TC1 indirect injection in our taxonomy),
+and convert them to our (task, tool_call)
+format by mapping each sample’s User Instruction field
+to the task description and the attacker’s injected
+tool_name/tool_parameters to the proposed
+tool call. Note that this conversion extracts the injected tool call
+in isolation, which may simplify detection compared to a
+full multi-turn pipeline where the injection is embedded in
+legitimate context; the resulting IR should therefore be
+interpreted as an upper bound under this evaluation protocol. We then run both GPT-4o-mini and Qwen3.5-9B judges with
+the same prompt template used in our main experiments. Table 10.

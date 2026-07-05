@@ -1,0 +1,81 @@
+{"fsid": "arxiv_2505-03574", "n": 80, "overlap": 200, "source_sha256": "4b6f8e1c8bc2f5055efe432a1162eee157188c19965eea3c3e4d70ec0f4ea918", "target": 1200}
+{"section": "", "seq": 0, "sha256": "fd4820db3e6c4f44458bfd7440ab420c9cbac3fffe52827acb32b0a079169a56"}
+{"section": "LlamaFirewall: An open source guardrail system for building secure AI agents", "seq": 1, "sha256": "4d1c232afcd786e0ea209afcbfc3c5ca0c7e057e35c5febb884f1e6599b8e635"}
+{"section": "LlamaFirewall: An open source guardrail system for building secure AI agents", "seq": 2, "sha256": "dd621067fe0b7cdbe13ab4a75545203018841f34911f899cdc05b82f6a4b3cd1"}
+{"section": "LlamaFirewall: An open source guardrail system for building secure AI agents", "seq": 3, "sha256": "abd3197fab2504f076553772f01418fe8b8444ae4509c620d24f598afaa4794e"}
+{"section": "1 Introduction", "seq": 4, "sha256": "03460864ed8eccd37d2a76f6f9d6db4b7bafd3228bf231675bda2f16a28c0df3"}
+{"section": "1 Introduction", "seq": 5, "sha256": "c90bae0226506000980a9a93f73233b120c965b62d72a9122aefb1c3dc5f2e26"}
+{"section": "1 Introduction", "seq": 6, "sha256": "b17de7294f06cdb7ccdeb38575c3847e2f47d90c100dd7ab98d659930c670636"}
+{"section": "1 Introduction", "seq": 7, "sha256": "749f7588e8b82c320331b3ecad52e0abb7b04a16c2fce1338cefcfdb3294110e"}
+{"section": "1 Introduction", "seq": 8, "sha256": "ae4ff7ce44058b70e5707396cb4119effa0a6e8902fe2d7666de7fcad7037745"}
+{"section": "2.1 Prompt Injection and Guardrail Systems", "seq": 9, "sha256": "fa3aa23e5dc147214e35cec5415965136fec8ad1ebfedcc95a1a58ec129147f4"}
+{"section": "2.1 Prompt Injection and Guardrail Systems", "seq": 10, "sha256": "e30926dd41cdaf50081435f08b0fb579669a1dad61c66bac3a4b9f7873f2d8bc"}
+{"section": "2.2 Static Analysis of LLM-Generated Code", "seq": 11, "sha256": "397ea2901bb40ef9a3a3945c11052bcdf9d5ce2103b38f647fa55ecca25bb8a5"}
+{"section": "2.3 Alignment and Agent Behavior Monitoring", "seq": 12, "sha256": "d747726913bd090e736bd279fff4f0d1ec8dc7aa367099017d6941e5248c37f1"}
+{"section": "2.3 Alignment and Agent Behavior Monitoring", "seq": 13, "sha256": "2b3215c9ecd6e0e47f99537082c5fae8349cb27292917fe0f4c9795fab9cdb5c"}
+{"section": "2.4 Open-Source vs. Proprietary Approaches", "seq": 14, "sha256": "5968a0dd48f2bedf1fa06360b898f313ed94c520c86f8f22ca3e9ad8cbfe3581"}
+{"section": "3 LLamaFirewall workflow and detection components", "seq": 15, "sha256": "e4fa896c36ec7334e474ea99a447b767e00c7b8fbf07b59621ec45a61ea7b01d"}
+{"section": "3 LLamaFirewall workflow and detection components", "seq": 16, "sha256": "1a71854a704c68624c260444a9ac4851f3117307803883c2ccb9bc07756b71c4"}
+{"section": "3 LLamaFirewall workflow and detection components", "seq": 17, "sha256": "952051b9276a69bf5f1fd1b08ecbb21cf78918406ee062f3c0612d9a36d73d85"}
+{"section": "3.1 Scenario 1: Preventing Goal Hijacking and Data Exfiltration", "seq": 18, "sha256": "3e3997569095103ccb6a68e30d630c6ff532e079a52442475640db87ee649775"}
+{"section": "3.1 Scenario 1: Preventing Goal Hijacking and Data Exfiltration", "seq": 19, "sha256": "f358474b04cc26e12565565341756ef4485a1576d4fc28eafe37d564b6043446"}
+{"section": "3.1 Scenario 1: Preventing Goal Hijacking and Data Exfiltration", "seq": 20, "sha256": "3a74fd981fd263002fb0746f195170e7eade16ad4af2d51120a522a6200ea0eb"}
+{"section": "3.2 Scenario 2: Preventing Accidental SQL Injection in Code Generation", "seq": 21, "sha256": "48a461541a5de6a22a95537a2e65aa7e27faa6f5a6b240bc3a961cc1faf96211"}
+{"section": "3.2 Scenario 2: Preventing Accidental SQL Injection in Code Generation", "seq": 22, "sha256": "3d16059e2233b485ba216f4776fd5915963e569687be850a9091ed7fce3df539"}
+{"section": "4 LlamaFirewall Scanners: Design and Evaluation", "seq": 23, "sha256": "5c01193a0422e21703d5329e92353d0047226b5e386d4df69e915f0ada1e9ff8"}
+{"section": "4.1 PromptGuard 2", "seq": 24, "sha256": "469acd786a3b593757fdd2235803f2e3e23c506a34c6bca97a45d11249997ee0"}
+{"section": "4.1 PromptGuard 2", "seq": 25, "sha256": "5e150263f83b2aff3a3452fd36044e290311113137ab0251dc092164eb09da80"}
+{"section": "4.1 PromptGuard 2", "seq": 26, "sha256": "5b3788d5d01e601eb9fecad574c00b5a5b4acac88b715833cb9304442889c82e"}
+{"section": "4.1 PromptGuard 2", "seq": 27, "sha256": "e7041db0d8eea5620c72399265d01dc07fa96286703aeb7fc94fde8079b82af7"}
+{"section": "4.1 PromptGuard 2", "seq": 28, "sha256": "9a21ff4de88c1155163a68d9e0cb4c38b370324cd5a03b1336ab291700553cca"}
+{"section": "4.2 AlignmentCheck", "seq": 29, "sha256": "53ba7861a2beb5e0bf88ca8aba21f7c85d7f56f9465e42671dc2f00fd41ecabd"}
+{"section": "4.2 AlignmentCheck", "seq": 30, "sha256": "080effd010708165b2a0b689814dfddbd24dffd6eb49a67dd3296b45bf9119c5"}
+{"section": "4.2 AlignmentCheck", "seq": 31, "sha256": "b2f2b2a2528fe77a6ff9b30ab53f9660460f7d3b3494b4590fd51954bf757df9"}
+{"section": "4.3 Evaluating Combined Prompt Injection Defenses with PromptGuard and AlignmentCheck", "seq": 32, "sha256": "f7612ae7d17773c8787771761577933d3b2b05f7c8a33c78888474c02a6cf4cc"}
+{"section": "4.3 Evaluating Combined Prompt Injection Defenses with PromptGuard and AlignmentCheck", "seq": 33, "sha256": "527be0af252ad1f284ed52816e0c50d87a83c7090666c1f790ba5b6988c324a8"}
+{"section": "4.3 Evaluating Combined Prompt Injection Defenses with PromptGuard and AlignmentCheck", "seq": 34, "sha256": "7fa2c397241e7aae54fdbb6794f7b7db5ac7395def43101c10ec746aa5867867"}
+{"section": "4.3 Evaluating Combined Prompt Injection Defenses with PromptGuard and AlignmentCheck", "seq": 35, "sha256": "5db007ded981feb6e9dadc52a90633566f2b5227ddaca1f25483a5d97546f390"}
+{"section": "4.3 Evaluating Combined Prompt Injection Defenses with PromptGuard and AlignmentCheck", "seq": 36, "sha256": "f4ca12349ff5fee90037a4a044b2f9e3d960056e9704cdd6a3d1603e5ef5b33a"}
+{"section": "4.4 CodeShield", "seq": 37, "sha256": "e05843cfc6acea5f24848faa8aa2077025e0c00689fd7f04b11624947273f84d"}
+{"section": "4.4 CodeShield", "seq": 38, "sha256": "93bfbe4190a69646080b25afb26aa7f096e6568a4b5fd503199398ac42615c60"}
+{"section": "5 Limitations and future Work", "seq": 39, "sha256": "a5e1fd47b4a3ce8015433c23c6892f406e1f72f784831677b6f6fdfc2216bbb4"}
+{"section": "5 Limitations and future Work", "seq": 40, "sha256": "57a7cf535453a2ef2b04b31778ef019b98f19ed5e773e3a14f2157b2d3f6c353"}
+{"section": "6 Conclusion", "seq": 41, "sha256": "92830f58b137ff1e95c7ee6ea96bedc833b40f9d450837e9e2499801e6905b92"}
+{"section": "7 Acknowledgements", "seq": 42, "sha256": "c07c1dd94ab341fc5e99355226a179bf68284eb9684fe3cd267bc05df2ebb4ee"}
+{"section": "A.1 Tool-use agentic prompt injection benchmark", "seq": 43, "sha256": "2ea8c8ed9f36aefedbdbe3512272cdab597268ee7fedc42314cb81de8dc0e5f9"}
+{"section": "A.1 Tool-use agentic prompt injection benchmark", "seq": 44, "sha256": "b4600dd0671ec060ddd8a79fbbae12bd989eadffd299e31eef7fd6f6a0c71d94"}
+{"section": "A.1 Tool-use agentic prompt injection benchmark", "seq": 45, "sha256": "38909d0d6fdc450f08b22db5f9d9135ab24e0ec3d7e1f818cc68e57eeb9a7c00"}
+{"section": "A.2 Direct Jailbreak Evaluation Dataset", "seq": 46, "sha256": "44d9d0eb9cc4527a3bb91ddc9505c69dfd253e21d0f65243167cc3f104f0a7b0"}
+{"section": "B.1 Development Methodology", "seq": 47, "sha256": "0ceca573ec3686d520c9ef5f9f6b9a6161ded2e76094a08582d556dfdd43414d"}
+{"section": "B.1 Development Methodology", "seq": 48, "sha256": "aa2adef232c335568cb61cc1eaa59f458733912f32bba2a71aa45c07ad882b4e"}
+{"section": "B.1 Development Methodology", "seq": 49, "sha256": "6a5d22b673a67ee7ad920558871a0b8429f0604ce36b163f3bc2c0ac25d5cf94"}
+{"section": "B.1 Development Methodology", "seq": 50, "sha256": "b6f6a1d2744ac3f2b29f2976ad55d26dd7f435229a9d9df642d9858c9c6e95b5"}
+{"section": "B.2 Evaluating PromptGuard in an Agentic Environment", "seq": 51, "sha256": "5c28659620f6aaae2ec6de63abc07272e78fc5bc3f6af570cec5ea69942a8147"}
+{"section": "B.2 Evaluating PromptGuard in an Agentic Environment", "seq": 52, "sha256": "81bf6532da57306e1c75abed893c289197df2b9da917a1e483e6f3e0bc8cd2af"}
+{"section": "B.2 Evaluating PromptGuard in an Agentic Environment", "seq": 53, "sha256": "55c187f7f78cb9473c25124e5fd99a51573418d7200ff3ec5cc582c8eb7c5ed9"}
+{"section": "C.1 Implementation Methodology", "seq": 54, "sha256": "87a8eb92d0a840695c79e7c8a275b5395e22d27d98ee483bfdbc121a1bfa0797"}
+{"section": "C.1 Implementation Methodology", "seq": 55, "sha256": "b1ca701f134d32b90573a1a01dd2e887cf7231433fcb8c58a8fb200d9559f900"}
+{"section": "C.1 Implementation Methodology", "seq": 56, "sha256": "e9013e9ff949e1982f847e86fb4a1b3a0eaf7717b1f14592d509563ec4f8c4b8"}
+{"section": "C.1 Implementation Methodology", "seq": 57, "sha256": "6236620d0dc6655ed922a97e9928d2ce3ce130556b037543e95b95d660686fec"}
+{"section": "C.2 Comparison of Effectiveness of diffent Llama Models backing AlignmentCheck", "seq": 58, "sha256": "816a12e84e3187ee81179c177c9e5528f2a9ada30d01fbfbdf58b8c36aacb62b"}
+{"section": "C.2 Comparison of Effectiveness of diffent Llama Models backing AlignmentCheck", "seq": 59, "sha256": "f96cf5c3d33bfc006b640a5321f987d782588d5013a2d7a588911aff7a5706ec"}
+{"section": "C.2 Comparison of Effectiveness of diffent Llama Models backing AlignmentCheck", "seq": 60, "sha256": "cd8bd27e70eb837cf368a0cee977d105a2be1f8edc1e69f7152f166706ad57bd"}
+{"section": "C.3 Recommended Use Cases", "seq": 61, "sha256": "955b1a10e2bb9bbca09d7370ab6f3a0d17acc428223726191ea934f8bd8db5c1"}
+{"section": "C.4 Limitations and Risks", "seq": 62, "sha256": "e7506827c27619eac03721974347cdd912af73c4a9cb267898c73f537464a91e"}
+{"section": "C.5 Example Trace", "seq": 63, "sha256": "a0725a3a506349cdbcc1673480726908ef91727b632cdb320be684b81af88da8"}
+{"section": "C.5 Example Trace", "seq": 64, "sha256": "1d189ef592cdd47c6218bebf616d4042c61f4744afef2c3ffa27ec5ac2407a41"}
+{"section": "C.5 Example Trace", "seq": 65, "sha256": "f114478d739c54e1b3d98b7b721d625cbb2a34e29894a39b82f8958e50420527"}
+{"section": "C.5 Example Trace", "seq": 66, "sha256": "bc6ec4c9a2c66ffb97fd4c39261050f34f4e4b4683450fb8ee8aaa30971bd281"}
+{"section": "C.5 Example Trace", "seq": 67, "sha256": "2cc8edf0dcaa4780f3fc5a5afb680ff2f7b88295f25ecbbeee60b62f3d36f5d6"}
+{"section": "C.5 Example Trace", "seq": 68, "sha256": "b5c6538a0fe24a8a66ded22c1ac1a386cd68d50ab847f456c83e175c60b63d28"}
+{"section": "C.5 Example Trace", "seq": 69, "sha256": "b2068d08c28ea0588b7ca8b885cdeb66d9e1d35cd7a6a8c1f728b2d598e356b4"}
+{"section": "C.5 Example Trace", "seq": 70, "sha256": "031bbfea0c258b51e4a94da2f487356bb1d2fb8713a93c92cdb1e6d3cceb87ff"}
+{"section": "C.5 Example Trace", "seq": 71, "sha256": "c829ef4da0b6e84c470016149afa5c74d1ef101c18dd5e7522afb09b0528eda1"}
+{"section": "C.5 Example Trace", "seq": 72, "sha256": "cf8f8ebc7355e8b00dbfb5a33d8786394bd2790a601bd0779e438fbb6e97dd96"}
+{"section": "C.5 Example Trace", "seq": 73, "sha256": "fca5a464dddf63284d00809af319ebeca4707a6aa39e14a8bc640f3689f4a3e2"}
+{"section": "C.6 AlignmentCheck System and User Prompts", "seq": 74, "sha256": "e159f355c1e5af82f5160148d956df6a5931d9c39de915343f813eb98d37a963"}
+{"section": "C.6 AlignmentCheck System and User Prompts", "seq": 75, "sha256": "4f3d41c55b9bdc50f2d7d6ceb4e601a15e6329f30fcfcc75cab6ff4e8f14ba61"}
+{"section": "C.6 AlignmentCheck System and User Prompts", "seq": 76, "sha256": "839e8163668e2918ca2f162d7df527bdbd9025b60ea6d429dbdf060a462f78ac"}
+{"section": "C.6 AlignmentCheck System and User Prompts", "seq": 77, "sha256": "e1b870d6d1a21adbd5f45d8fb885eb66ff53ac2369f0819989c17783cc301916"}
+{"section": "C.6 AlignmentCheck System and User Prompts", "seq": 78, "sha256": "048a0239c5925095f9dfce204b5e6ed43b25bf4381f21a6aa718d027148ceb74"}
+{"section": "C.6 AlignmentCheck System and User Prompts", "seq": 79, "sha256": "0fc282ae3f7d623f1391710a518e76670e75204de9f3776846301b69c1eadd32"}

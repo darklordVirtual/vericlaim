@@ -1,0 +1,1 @@
+VL-Calibration reduces the Expected Calibration Error (ECE) on Qwen3-VL models from 0.421 to 0.098 and simultaneously improves average accuracy by 2.3%–3.0% over the strongest baselines. We further observe consistent gains across model scales, model architectures, and out-of-distribution benchmarks, validating the effectiveness of our proposed paradigm.

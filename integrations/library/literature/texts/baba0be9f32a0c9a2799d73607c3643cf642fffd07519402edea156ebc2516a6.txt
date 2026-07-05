@@ -1,0 +1,21 @@
+There are two types of reels used when spin fishing, the open faced reel and the closed faced reel. Calculator
+
+27 + 4 * 2
+
+35
+
+Calendar
+
+Today is Monday, January 30, 2023. Machine Translation
+
+sûreté nucléaire
+
+nuclear safety
+
+Table 1: Examples of inputs and outputs for all APIs used. Question Answering
+
+Our first tool is a question answering system based on another LM that can answer simple factoid questions. Specifically, we use Atlas (Izacard et al., 2022), a retrieval-augmented LM finetuned on Natural Questions (Kwiatkowski et al., 2019). Calculator
+
+As a second tool, we use a calculator that can perform simple numeric calculations; we only support the four basic arithmetic operations. Results are always rounded to two decimal places. Wikipedia Search
+
+Our third tool is a search engine that, given a search term, returns short text snippets from Wikipedia. Compared to our question answering tool, this search enables a model to get more comprehensive information on a subject, but requires it to extract the relevant parts by itself.

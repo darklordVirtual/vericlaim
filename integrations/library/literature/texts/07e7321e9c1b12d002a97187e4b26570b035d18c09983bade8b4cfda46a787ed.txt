@@ -1,0 +1,18 @@
+familiarity
+on IR; a deeper structural bias—whereby GPT-4o-mini may also
+recognize its own attack-pattern preferences embedded in the
+generation templates—is harder to bound and remains a limitation. An analogous bias on FPR, whereby GPT-4o-mini may more reliably
+classify its own benign outputs as safe, cannot be excluded;
+bounding either effect would require regenerating the benchmark
+with an independent model (e.g., Claude or Gemini). 7.4.7. Real-World Distribution Analysis
+
+Our benchmark uses a near-balanced distribution (504 benign vs. 577 malicious across all three threat classes), but production
+environments exhibit much lower attack prevalence. Under a low-prevalence assumption (, representative
+of typical production deployments), the positive
+predictive value (PPV, i.e., precision) of each judge changes
+significantly due to the base rate effect. Applying Bayes’ theorem with IR as sensitivity and FPR as
+the false positive rate:
+
+(2)
+
+where is the attack prevalence. Table 7 reports PPV under three prevalence assumptions. Table 7.

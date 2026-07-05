@@ -1,0 +1,10 @@
+Some techniques
+that apply to ensembles apply here (see
+Rule #40). Modify the label. This is an option when you feel that the heuristic
+captures information not currently contained in the label. For example,
+if you are trying to maximize the number of downloads, but you also want
+quality content, then maybe the solution is to multiply the label by the
+average number of stars the app received. There is a lot of leeway here. See "Your First Objective". Do be mindful of the added complexity when using heuristics in an ML
+system. Using old heuristics in your new machine learning algorithm can
+help to create a smooth transition, but think about whether there is a
+simpler way to accomplish the same effect.

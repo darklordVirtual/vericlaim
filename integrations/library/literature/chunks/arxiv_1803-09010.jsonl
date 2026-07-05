@@ -1,0 +1,44 @@
+{"fsid": "arxiv_1803-09010", "n": 43, "overlap": 200, "source_sha256": "a77c983560e2b7e98abcd66644699030421dcb1a9e8af969f4c891f6e9a83ccd", "target": 1200}
+{"section": "", "seq": 0, "sha256": "62ede32431a65e294de1f15979999098609fad5875936ca25498857871014141"}
+{"section": "Datasheets for Datasets", "seq": 1, "sha256": "f8459965d093007b537fabbf1ccbba45fd0ddc5b9984df4ba0b2f6540905a467"}
+{"section": "1. Introduction", "seq": 2, "sha256": "ff70b890e6e7d5cfe475d20419e2e3516e719046777deb4102518db2eab5aa0c"}
+{"section": "1. Introduction", "seq": 3, "sha256": "80ebd2843deb28211b88de3deb2da0bed0146575188cd2a1f6ac8ce561a968b6"}
+{"section": "1. Introduction", "seq": 4, "sha256": "cf440de46d2c374ee258c9a846cb51dae6513f90bbbb6146f055b36f500195ad"}
+{"section": "1.1. Objectives", "seq": 5, "sha256": "14a451aebf1971b419b2bb8375182e0cb33eee5e99deacec181f71f97cc3fdce"}
+{"section": "1.1. Objectives", "seq": 6, "sha256": "5829f3670132969c6c02f5b35e0322af1e52e599f942769a0eb0fd4abaa8b31e"}
+{"section": "1.1. Objectives", "seq": 7, "sha256": "8faa32f499258170b79f0615001e0a5a63bd5cac7ae74b3154293b52a2978912"}
+{"section": "2. Development Process", "seq": 8, "sha256": "4a70fd7b92e8f36b6b2018e441da3646b6c8261d9b0ea10334119741e1028eeb"}
+{"section": "2. Development Process", "seq": 9, "sha256": "c902879dd59be2937218b9f905e01184cf2eb7ef082b02959d1b7f484d8bf2c9"}
+{"section": "2. Development Process", "seq": 10, "sha256": "c28b90b65d9b988b16a9688f7fd6cd2ffd3ab0bca371456a4c3fc0db130e401f"}
+{"section": "3. Questions and Workflow", "seq": 11, "sha256": "c824bb60b67e6f47212ec99e552e040866b3f196b97ea9a254a6f7e93774edaa"}
+{"section": "3. Questions and Workflow", "seq": 12, "sha256": "01ad8f257c5ccb20d27ffbce774c79176f7a32073f116fadb2ddefa2dfe4ec94"}
+{"section": "3.1. Motivation", "seq": 13, "sha256": "492c1572f234d81998cfaa3b17b14ec8949c577c1ad0ea93b5a6f87d0ee133a0"}
+{"section": "3.2. Composition", "seq": 14, "sha256": "e55cf7898948e5650d8bd348c583f5828920da0a9b1fe3c1dd16aa8cbfea741f"}
+{"section": "3.2. Composition", "seq": 15, "sha256": "793de0d13fd066311897023834eb93656d1de67c99b6be83ac9af1edd7df68a5"}
+{"section": "3.2. Composition", "seq": 16, "sha256": "67af6c4f41a7f65ed389d34fe654d2886bfb4aa53260e4a14ce6c4e807ab73f8"}
+{"section": "3.2. Composition", "seq": 17, "sha256": "4be8ac6e0d19f51cee2519e5873eda7b032f376f35c7fd62c7809f636e38d804"}
+{"section": "3.2. Composition", "seq": 18, "sha256": "644d7b374e833b614db9c9862505367abf70586554403f6b54330e940e54c15e"}
+{"section": "3.3. Collection Process", "seq": 19, "sha256": "468fe49751a4a6bbb1d092b8328d82744612e05e335febcbbe0b8e98ec9971b1"}
+{"section": "3.3. Collection Process", "seq": 20, "sha256": "9dbf3e880efb96ab947398e15a3de9b7591598edf0d3e6e87ea508c457d21e8b"}
+{"section": "3.3. Collection Process", "seq": 21, "sha256": "13f56aea8e72d56ef31292cf346009ca63135e8a07068ad3c1dd9b3a2e09008a"}
+{"section": "3.3. Collection Process", "seq": 22, "sha256": "a35efd5277f120a15bf95830b18108b4a25cf888edeb7f9b64d02b6438d7b6d4"}
+{"section": "3.4. Preprocessing/cleaning/labeling", "seq": 23, "sha256": "0066b99cfcdaa471275446210217e0b3ed3666994d0db4d99099cce35e3a6201"}
+{"section": "3.5. Uses", "seq": 24, "sha256": "003da57c1673b5e0908ed5a7fa6ddb007797b4bbf2325e68d3cfafdaa7ea2abf"}
+{"section": "3.5. Uses", "seq": 25, "sha256": "05b105aa937885103ca81e64a50cec4195a02f4add04970625db9e3893f03125"}
+{"section": "3.6. Distribution", "seq": 26, "sha256": "fb3c4e0d6df6c42743855862ce5cd277a6dd0c84778f8190f836fce678e2aea8"}
+{"section": "3.6. Distribution", "seq": 27, "sha256": "956d4c2424707fb1fe75be8ccf79fbf93419f96aefdea690868b6e5a6f5d056d"}
+{"section": "3.7. Maintenance", "seq": 28, "sha256": "becfd6eb5c24602d661b2bf0965e83783a5d4c6e67e227030be984704aa4b0af"}
+{"section": "3.7. Maintenance", "seq": 29, "sha256": "9a89dfb0ee3c69b37f7c3a2be3018d6180b038f8619210f597f03bd44873a78b"}
+{"section": "4. Impact and Challenges", "seq": 30, "sha256": "d9bdfa909b9179211dcd6aef940512fd72684e27b6b312aa490dd061f556596f"}
+{"section": "4. Impact and Challenges", "seq": 31, "sha256": "678f80c1e7b5d05daea2b16cbdccabcd74486a23894b9357a90e18cd9d3230c9"}
+{"section": "4. Impact and Challenges", "seq": 32, "sha256": "7e6c6043adf92c13376bc8be23dfa80e4659dab00799f291229e622e83c9eebb"}
+{"section": "4. Impact and Challenges", "seq": 33, "sha256": "5a397ca8f3728d036388bf47b17a8529a993b16af09835e391972c782fd2a3d6"}
+{"section": "Acknowledgments", "seq": 34, "sha256": "23b57f3f3bd4cf3fc216527f80db6867dce548d923178dc6b970c0ff889ed74b"}
+{"section": "References", "seq": 35, "sha256": "c9c43ceb1bdb0c242c96c756fef74dc80c6d74d67ab12e6d942f1376589ae3fc"}
+{"section": "References", "seq": 36, "sha256": "d537add8062a64862d6d5df582dfb96be451e63763f6bc6d93ed0ecea4a02101"}
+{"section": "References", "seq": 37, "sha256": "43ec3e21f88a700c2581651c430fe3659039ee296d2348bb668ebffca8c51768"}
+{"section": "References", "seq": 38, "sha256": "832359b2a16c7a9cea1fc3d459dd7d775e588f6a03e8e7a269176f64e3076d54"}
+{"section": "References", "seq": 39, "sha256": "a7fd6448a2c510bd8b7f239cf668a6caafdb2530450d1f1946023e7ca5c44369"}
+{"section": "References", "seq": 40, "sha256": "af3ba80b034e59ebd7e342de1b356d0eee97a09396b0077fbacdf5d6a2748e38"}
+{"section": "References", "seq": 41, "sha256": "522d3364388846680340bc2d6b71110db03d88d5ff9e349f90a7d64a5c1d8005"}
+{"section": "Appendix A Appendix", "seq": 42, "sha256": "f090831d4cf7a87a22ea405fe626864fa53550edd8b1890fd39559a4a77c1f5f"}

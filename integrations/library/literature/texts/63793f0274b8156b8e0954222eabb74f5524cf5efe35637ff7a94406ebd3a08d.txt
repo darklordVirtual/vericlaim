@@ -1,0 +1,7 @@
+Example 14 ◊
+
+In a decision making situation, decision makers may be presented with the same piece of knowledge, issued by multiple sources. In order to validate this piece of knowledge, decision makers can consider its provenance, but also the provenance of its provenance, which may help determine whether it can be trusted. 2.2.3 Collections
+
+A collection is an entity that provides a structure to some constituents that must themselves be entities. These constituents are said to be member of the collections. Many different types of collections exist, such as sets, dictionaries, or lists. Using Collections, one can express the provenance of the collection itself in addition to that of the members. Example 15 ◊
+
+An example of collection is an archive of documents. Each document has its own provenance, but the archive itself also has some provenance: who maintained it, which documents it contained at which point in time, how it was assembled, etc.

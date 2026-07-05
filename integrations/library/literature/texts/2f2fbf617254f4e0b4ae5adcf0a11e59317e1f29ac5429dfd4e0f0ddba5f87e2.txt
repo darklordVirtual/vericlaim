@@ -1,0 +1,75 @@
+agent(ag, [ prov:type='prov:SoftwareAgent' ])
+
+The following types are pre-defined in PROV, and are valid values for the prov:type attribute. Table 9 ◊: PROV-DM Predefined Types
+
+Type
+
+Specification
+
+Core concept
+
+prov:Bundle
+
+Section 5.4.1
+
+Entity
+
+prov:Collection
+
+Section 5.6.1
+
+Entity
+
+prov:EmptyCollection
+
+Section 5.6.1
+
+Entity
+
+prov:Organization
+
+Section 5.3.1
+
+Agent
+
+prov:Person
+
+Section 5.3.1
+
+Agent
+
+prov:Plan
+
+Section 5.3.3
+
+Entity
+
+prov:PrimarySource
+
+Section 5.2.4
+
+Derivation
+
+prov:Quotation
+
+Section 5.2.3
+
+Derivation
+
+prov:Revision
+
+Section 5.2.2
+
+Derivation
+
+prov:SoftwareAgent
+
+Section 5.3.1
+
+Agent
+
+5.7.2.5 prov:value
+
+The attribute prov:value ◊ provides a value that is a direct representation of an entity as a PROV-DM Value. The attribute prov:value is an OPTIONAL attribute of entity. The value associated with the attribute prov:value MUST be a PROV-DM Value. The attribute prov:value MAY occur at most once in a set of attribute-value pairs. Example 52 ◊
+
+The following example illustrates the provenance of the number 4 obtained by an activity that computed the length of an input string "abcd".

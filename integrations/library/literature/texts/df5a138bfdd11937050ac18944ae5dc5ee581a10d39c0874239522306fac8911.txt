@@ -1,0 +1,22 @@
+2019. Explain yourself! Leveraging language models for commonsense reasoning. ACL. Ran et al. (2019)
+
+Qiu Ran, Yankai Lin, Peng Li, Jie Zhou, and Zhiyuan Liu. 2019. NumNet: Machine
+reading comprehension with numerical reasoning. EMNLP. Rashkin et al. (2021)
+
+Hannah Rashkin, Vitaly Nikolaev, Matthew Lamm, Michael Collins, Dipanjan Das,
+Slav Petrov, Gaurav Singh Tomar, Iulia Turc, and David Reitter. 2021. Measuring attribution in
+natural language generation models. arXiv preprint arXiv:2112.12870. Recchia (2021)
+
+Gabriel Recchia. 2021. Teaching autoregressive
+language models complex tasks by demonstration. arXiv preprint arXiv:2109.02102. Reif et al. (2022)
+
+Emily Reif, Daphne Ippolito, Ann Yuan, Andy Coenen, Chris Callison-Burch, and
+Jason Wei. 2022. A recipe for arbitrary text
+style transfer with large language models. ACL. Reynolds and McDonell (2021)
+
+Laria Reynolds and Kyle McDonell. 2021. Prompt programming for
+large language models: Beyond the few-shot paradigm. Extended Abstracts of the 2021 CHI Conference on Human Factors
+in Computing Systems. Roy and Roth (2015)
+
+Subhro Roy and Dan Roth. 2015. Solving general
+arithmetic word problems. EMNLP. Roy et al.

@@ -1,0 +1,14 @@
+Environment: You are in the middle of a room. Looking quickly
+around you, you see a bed 1, a desk 2, a desk 1, a drawer 6, a drawer 5, a
+drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a laundryhamper
+1, a safe 1, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, and a
+shelf 1.Task: examine the mug with the desklamp. Trial #1
+think: To solve the task, I need to find and take a mug, then find
+and use a desklamp. think: First I need to find a mug. A mug is more likely to appear in
+drawer (1-6), desk (1-2), shelf (1-6), garbagecan (1), laundryhamper (1). I can check one by one, starting with drawer 1. go to drawer 1
+The drawer 1 is closed. …
+open drawer 6
+You open the drawer 6. The drawer 6 is open. In it, you see a keychain 2. go to desk 1On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a
+pen 1, and a pencil 1. think: Now I find a mug (1). Next, I need to take it. take mug 1 from desk 1You pick up the mug 1 from the desk 1. think: Now I take a mug (1). Next, I need to find a desklamp. A desklamp
+is more likely to appear in desk (1-2), sidetable (1-2), shelf (1-6),
+bed (1), drawer (1-6). I can check one by one, starting with desk 1.

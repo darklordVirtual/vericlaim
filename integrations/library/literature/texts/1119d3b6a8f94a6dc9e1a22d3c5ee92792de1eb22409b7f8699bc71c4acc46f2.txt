@@ -1,0 +1,17 @@
+Nadeem et al. (2020)
+
+Moin Nadeem, Anna Bethke, and Siva Reddy. StereoSet: Measuring stereotypical bias in pretrained language
+models, 2020. URL https://arxiv.org/abs/2004.09456. Naeini et al. (2015)
+
+Mahdi Pakdaman Naeini, Gregory Cooper, and Milos Hauskrecht. Obtaining well calibrated probabilities using Bayesian binning. In Proceedings of the AAAI Conference on Artificial
+Intelligence, pp. 2901--2907, Menlo Park, CA, 2015. Association for the
+Advancement of Artificial Intelligence. URL
+https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9667. Naik et al. (2018)
+
+Aakanksha Naik, Abhilasha Ravichander, Norman Sadeh, Carolyn Rose, and Graham
+Neubig. Stress test evaluation for natural language inference, 2018. URL https://arxiv.org/abs/1806.00692. Nakkiran (2019)
+
+Preetum Nakkiran. More data can hurt for linear regression: Sample-wise double descent. arXiv preprint arXiv:1912.07242, 2019. Nakkiran et al. (2020)
+
+Preetum Nakkiran, Behnam Neyshabur, and Hanie Sedghi. The deep bootstrap framework: Good online learners are good offline
+generalizers. arXiv preprint arXiv:2010.08127, 2020. Nakkiran et al.

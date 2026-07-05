@@ -1,0 +1,6 @@
+For certain non-English tasks, we observe performance gains with scale, but this is often not the case (see below). Overall, we believe that stronger multilingual performance will require careful attention to language coverage and data gathering, regardless of scale. Performance on non-English tasks is worse than on English tasks. \begin{overpic}[height=120.00018pt]{figures/entailed_polarity.pdf}
+\put(0.0,0.0){{\small(a)}}
+\end{overpic}\begin{overpic}[height=120.00018pt]{figures/entailed_polarity_hindi.pdf}
+\put(0.0,0.0){{\small(b)}}
+\end{overpic}
+Figure 14: Performance on entailed polarity increases with model scale for (a) the English version (entailed_polarity) of the task, but not for (b) the Hindi version (entailed_polarity_hindi) of the task. In some cases, parallel tasks are defined in English and another language, enabling direct comparison across languages. The clearest such cases are the entailed polarity tasks, which test understanding of entailment properties of different verbs in English and Hindi. Results are shown in Figure 14.

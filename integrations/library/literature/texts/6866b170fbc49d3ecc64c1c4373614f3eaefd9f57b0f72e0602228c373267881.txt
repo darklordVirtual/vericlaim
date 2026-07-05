@@ -1,0 +1,1 @@
+Kernel SVMs models are overall harder to retrain than models with linear decision boundaries. Yet, for our largest budgets ( queries on average), we do extract models with over 99% accuracy, which may suffice in certain adversarial settings.

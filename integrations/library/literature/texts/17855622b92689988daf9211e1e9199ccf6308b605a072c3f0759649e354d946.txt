@@ -1,0 +1,11 @@
+(Zhan et al., 2024),
+AgentDojo (Debenedetti et al., 2024))
+primarily measure attack success rates under various
+agent architectures, quantifying the problem without proposing
+a deployable mitigation. LGA provides both the architectural framework and empirical
+evidence for a specific defense mechanism (intent verification),
+bridging the gap between threat characterization and practical
+deployment. Moreover, the cascade architecture significantly reduces false
+positives below standalone cloud-judge performance
+(Table 8), offering a quantifiable usability
+advantage for deployment.

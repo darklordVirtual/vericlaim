@@ -1,0 +1,92 @@
+{"fsid": "arxiv_2001-08361", "n": 91, "overlap": 200, "source_sha256": "88aca43b32f0ab13d1ab97b9e571cf976433d3ace5d1aae750655e432023e66a", "target": 1200}
+{"section": "", "seq": 0, "sha256": "6a2110c005dce8f20ff39e18f947f82613486601cf9cf54d5d8a2e998f738800"}
+{"section": "Scaling Laws for Neural Language Models", "seq": 1, "sha256": "c20935cf0594f621b2723724fb3962ce15c4134439487445fe50b82b87bd96b9"}
+{"section": "Scaling Laws for Neural Language Models", "seq": 2, "sha256": "f75b1f38698da7788255bdd0bec8df88bb8b7e3c0e74cd62e1a770f56cf9ed19"}
+{"section": "1 Introduction", "seq": 3, "sha256": "a3c93a99bd6f8fa5d9b46c96e61e738acedc58c9457ec48f3fe35b8b1c1901f5"}
+{"section": "1 Introduction", "seq": 4, "sha256": "94600ab590501285eb6b0e90823c346c1796ca5d60698255390eba164ddb1dc3"}
+{"section": "1.1 Summary", "seq": 5, "sha256": "73bac9be2098af8b18f65585ef443e2eaadfff4d58eaac288897285cfbdad9cf"}
+{"section": "1.1 Summary", "seq": 6, "sha256": "cd3e3eb378f143fbc533933c74a423869fb0662d733b4737b2562ffa0677eca0"}
+{"section": "1.1 Summary", "seq": 7, "sha256": "c92348e20f268ac45536591667b208a3657a8891f000056cffb1bedf51cf0c47"}
+{"section": "1.1 Summary", "seq": 8, "sha256": "92da896df3619376f384d69a8bf708f396063e392969620d6e764467dbe86c23"}
+{"section": "1.1 Summary", "seq": 9, "sha256": "9ba82194ed2a8209b289068aedda2e3c001c31473002eb659ab965cd74fee9ff"}
+{"section": "1.2 Summary of Scaling Laws", "seq": 10, "sha256": "b89e4c0a8de0495f5ff60b5bfb9d45523fbb886c40c44efca53d33154246774d"}
+{"section": "1.2 Summary of Scaling Laws", "seq": 11, "sha256": "f7b9dd92bea084f74ebe99518895d5b96aaf24cc24aff7b8b45ca23c0a66729b"}
+{"section": "1.2 Summary of Scaling Laws", "seq": 12, "sha256": "370e5e370d39bea7c59718f432bca93b02e2041f29d086212c11ef377acd9ffe"}
+{"section": "1.2 Summary of Scaling Laws", "seq": 13, "sha256": "f3c65378dbec653245e0431ccc4fe5e73fa8da5e4fd472ad5b56a6553a98b21b"}
+{"section": "1.2 Summary of Scaling Laws", "seq": 14, "sha256": "e1c01fcc75aed79ddb2afb68b937b07378f0dbe965eabb254d1e8dd710e14db0"}
+{"section": "1.3 Notation", "seq": 15, "sha256": "cbbe3c231ab5c052ef07d7d1cc7b29b13350470f126bb4100141ca0d7fa18e98"}
+{"section": "1.3 Notation", "seq": 16, "sha256": "c42cdb71e76066b2e2933edfe5caa6beeec2013c874e18b890dc0970261d8b44"}
+{"section": "2 Background and Methods", "seq": 17, "sha256": "52f5d254896b77dc0f758004619234da1573a35db8e6552b921a8d081c7fdc8f"}
+{"section": "2.1 Parameter and Compute Scaling of Transformers", "seq": 18, "sha256": "e17154a46f748e8c9c2a531f3704e970aa7003f52491569d52cc5f6c0c88912e"}
+{"section": "2.1 Parameter and Compute Scaling of Transformers", "seq": 19, "sha256": "d8741950e8030f9d88e56bf10ab0138ec5c357e5a6e5c19c02d06c7617cec43a"}
+{"section": "2.2 Training Procedures", "seq": 20, "sha256": "6d0f00436af331c0cc33da52837e568e42e27305afb3071dbf5372c33633ee43"}
+{"section": "2.3 Datasets", "seq": 21, "sha256": "24a59c638300b381c9a9f61660f01d839b71d5e4f0a18932b536af77bb2a1082"}
+{"section": "3 Empirical Results and Basic Power Laws", "seq": 22, "sha256": "b9a5c2a7acab9a113b0aac1749acd43311cecb3c6ddc47f8133f5148bd755ff3"}
+{"section": "3.1 Approximate Transformer Shape and Hyperparameter Independence", "seq": 23, "sha256": "e334303f3905d6c9c8ed15381da341fb108165560dd3ed33ed832f86e5c055c5"}
+{"section": "3.2 Performance with Non-Embedding Parameter Count", "seq": 24, "sha256": "8eb87a274ea850a335d6eb09c9f121aeb96107598e01f63e8429343fd38ea886"}
+{"section": "3.2 Performance with Non-Embedding Parameter Count", "seq": 25, "sha256": "6ea19447fd72b0f4213acc810f5ef6320ed14cf9c87e89369e9d2ffd9495feb4"}
+{"section": "3.2 Performance with Non-Embedding Parameter Count", "seq": 26, "sha256": "f0bf3f977ea75a0727b48c7262268bcf83afc1ece9948610212c0f65a4492590"}
+{"section": "3.2 Performance with Non-Embedding Parameter Count", "seq": 27, "sha256": "89c07d4281448f66ec1dae211e9f2ad27bced950f537b63176a7f6840d6d6f2a"}
+{"section": "3.3 Performance with Dataset Size and Compute", "seq": 28, "sha256": "1b6362d73608ed7820380cae807e5edb42ae5e638a5c594d53170eec001cd688"}
+{"section": "3.3 Performance with Dataset Size and Compute", "seq": 29, "sha256": "e4d421d0a7643705cfa8163f64fe789afbd43a07257b00a1231b65471cb04ce1"}
+{"section": "4 Charting the Infinite Data Limit and Overfitting", "seq": 30, "sha256": "8efaf90344e8e0244bea3ebb5694dd2443472168b759188425b9966dcb0714de"}
+{"section": "4.1 Proposed Equation", "seq": 31, "sha256": "3744cd557ca4ba125975ec64ec96aa704cf7fdac3e996f4d37b1c6f9770fde78"}
+{"section": "4.1 Proposed Equation", "seq": 32, "sha256": "ac5e8eb2052149064bb847cb9808c5e980cd9f247a788cdad55aef50a14b7bb6"}
+{"section": "4.1 Proposed Equation", "seq": 33, "sha256": "6bd81ff76896732ca736296791fb5ed5ec00e4be63c8e8e3b9648dce00f716e8"}
+{"section": "4.2 Results", "seq": 34, "sha256": "42601f1877c6a8483871b029e5771883587f4c4a850604019bce816a9d95371b"}
+{"section": "4.2 Results", "seq": 35, "sha256": "0e951b967459256021c474b40be3e147e8ba519482dc46b677cc35347d99455f"}
+{"section": "5 Scaling Laws with Model Size and Training Time", "seq": 36, "sha256": "e41867815096347305a753a69502e71385e4155a1585f2338986bfbf3c8a286e"}
+{"section": "5.1 Adjustment for Training at", "seq": 37, "sha256": "c59acc10ea38fde432191b8c2a62d002d59374b52cb03dfb4755a28da1ed542c"}
+{"section": "5.1 Adjustment for Training at", "seq": 38, "sha256": "29748154ff5d6b15cf936766701c2d310a4ff3d51e39c75afed23be5eeb4cb7a"}
+{"section": "5.1 Adjustment for Training at", "seq": 39, "sha256": "bc0a4b7fa547fb7976f09e4a91f1cec1adbd43242aa3051eadf8a433cc6763e0"}
+{"section": "5.2 Results for and Performance with Model Size and Compute", "seq": 40, "sha256": "cc25b34a93ba7dbadc7487194521598bc254e57a4b1a5c994e60380591c22b33"}
+{"section": "5.2 Results for and Performance with Model Size and Compute", "seq": 41, "sha256": "95efe3f0ec62c5967114e094bb84e8f253aafeb0f1ba21a9f7608d27495cf285"}
+{"section": "5.3 Lower Bound on Early Stopping Step", "seq": 42, "sha256": "967ac2adfdecd80b0cbccf1693d76f365241aebab8a45c69ac51618eda7275c6"}
+{"section": "5.3 Lower Bound on Early Stopping Step", "seq": 43, "sha256": "cb0c9537f905d13d0baf2d8f7f61b12a914b5b9db31064dacab2e88e399efb07"}
+{"section": "6 Optimal Allocation of the Compute Budget", "seq": 44, "sha256": "c7ebbbe16cda880e763cb76dce69e26ad8065596721c15629307ec3d08234108"}
+{"section": "6 Optimal Allocation of the Compute Budget", "seq": 45, "sha256": "15d5d56a8b345df074a73b0122355d007e613da2cdb99f565de837c1b7b2ad66"}
+{"section": "6.1 Optimal Performance and Allocations", "seq": 46, "sha256": "f686716c99342ec5c594bb2770119b4c76d91dccfed12bdd6de69509e3d2620e"}
+{"section": "6.1 Optimal Performance and Allocations", "seq": 47, "sha256": "938632199ae71baef8671b9d3eebde779feeedd1574650535c10e0d601b55d8d"}
+{"section": "6.2 Predictions from", "seq": 48, "sha256": "60c1309c68e43a78172cb7cac717df781d4d8d7d32f9efe4cedd3e534646c4dc"}
+{"section": "6.3 Contradictions and a Conjecture", "seq": 49, "sha256": "1454ebc1a988171a161ff211bb315d1910086a21285556f3c7483258b48dde75"}
+{"section": "6.3 Contradictions and a Conjecture", "seq": 50, "sha256": "e6370bf0685805c6f8077501c479afd3dd1f411e59cac1c9d28760f72014011a"}
+{"section": "6.3 Contradictions and a Conjecture", "seq": 51, "sha256": "b798c4e337a5d07c737bd442bed8117864df83ef6824db7442d71fa16ed2744a"}
+{"section": "6.3 Contradictions and a Conjecture", "seq": 52, "sha256": "3bab22731ba1db2e7b8a7d2e17d17a5bde61bf2c1b3800a6984f2c537d764dc2"}
+{"section": "6.3 Contradictions and a Conjecture", "seq": 53, "sha256": "41d4ccd7b2e2de413c2b8695f037ba9e1a87e8d7637a057aafb4b4364279fcc7"}
+{"section": "7 Related Work", "seq": 54, "sha256": "979a1570a71dfaf59e838c6b7f4aa79ab9475893b11ffe57a5e15b77a77b1403"}
+{"section": "7 Related Work", "seq": 55, "sha256": "4331f0038520db34dbab133f91b5f8177e74f5a86549453174476c488b165080"}
+{"section": "7 Related Work", "seq": 56, "sha256": "7438e3c458b3572f27c9d56cb8a7081a75b5b211d6443c5f2e7ba43ed1026c13"}
+{"section": "8 Discussion", "seq": 57, "sha256": "02761c85cca2b9d6dd530861111cacf1478bc06dd2d60738ee1f91dacd45e002"}
+{"section": "8 Discussion", "seq": 58, "sha256": "75d3713fab5cff45adb8eb7c96a5d5c995141740a5d271078b8e4119f18606a0"}
+{"section": "8 Discussion", "seq": 59, "sha256": "b9c905b9ef4829f3474f938f51db5c33123bb089125f80165ed2a2e58df6215f"}
+{"section": "8 Discussion", "seq": 60, "sha256": "f9270470df249a48e72096e01603d5684cfb648acac18b1bd89a8313ef83a874"}
+{"section": "Acknowledgements", "seq": 61, "sha256": "b9faaee87ef38c5e8ff2c7f1e19646ac05461240c74df1f82b1e94a9b928812e"}
+{"section": "Appendix A Summary of Power Laws", "seq": 62, "sha256": "13f099a5a74c03b3f685fca371eea00ce7dce84fc5432985c5c956bca23549bf"}
+{"section": "Appendix B Empirical Model of Compute-Efficient Frontier", "seq": 63, "sha256": "e988a495a3bff0b6e474b589213fb400b31177924ed746166a79f3ab5c14f3ba"}
+{"section": "B.1 Defining Equations", "seq": 64, "sha256": "f68ee1ef4db4cda602dbfa82810361a8e07159697ccdb022eea469a4a83e67a9"}
+{"section": "B.2 Efficient Training", "seq": 65, "sha256": "8cc88455809724accaf8a446e2a97be50aae85717a1e547ddbe9178eea1da2d4"}
+{"section": "B.3 Comparison to Inefficient", "seq": 66, "sha256": "ed886c5100bd83a490060b8ef03aa3309474ce0912d13468e9faf93dd7b733e4"}
+{"section": "B.4 Suboptimal Model Sizes", "seq": 67, "sha256": "da15434738b77e6360ccd95bb71335a59f94765c2b29d429d6d1e9b4c60d139d"}
+{"section": "Appendix C Caveats", "seq": 68, "sha256": "43c6c81435b3476b7a57be0d8b308b97c6d63042e53faa650beb4e41c9c747d1"}
+{"section": "Appendix C Caveats", "seq": 69, "sha256": "e52da2d14f802612754e6441091448441d20450ebcb95f6c68777961d41baf01"}
+{"section": "Appendix D Supplemental Figures", "seq": 70, "sha256": "a5290190c2f23d81c812cb55871a49b19024d8f6d87328410d228b997f33f796"}
+{"section": "D.1 Early Stopping and Test vs Train", "seq": 71, "sha256": "de8035cd367c5a5b5b7a01cc8656a7cb72f3073b5b1583148ac546c60ba5cd70"}
+{"section": "D.2 Universal Transformers", "seq": 72, "sha256": "83a182d7bcd5f94757246b8be831030a54f9db0f2f00a78c67f5b365031c5d80"}
+{"section": "D.3 Batch Size", "seq": 73, "sha256": "308a94745ced70a7b50da98822fab4980abd60df0b447c4051c6b09085bf59b5"}
+{"section": "D.4 Sample Efficiency vs Model Size", "seq": 74, "sha256": "b1ec91ddc4528024332722a709580e9d62096ceb5f655e80e4f264d571d0ff5c"}
+{"section": "D.5 Context Dependence", "seq": 75, "sha256": "8894e6d446ac685dfb4834e4362bcd6d37545d353e9f57ad7557e5d3a9253ebb"}
+{"section": "D.5 Context Dependence", "seq": 76, "sha256": "193a5f48f2379a23ed25a97f40460b196613bb4a1a74458bb2a93e274de27df7"}
+{"section": "D.5 Context Dependence", "seq": 77, "sha256": "48805e2f8b3df05d6976b00fe5a73d65431535c1ad7b4748a119401a539f7b5d"}
+{"section": "D.6 Learning Rate Schedules and Error Analysis", "seq": 78, "sha256": "4f71ed8483e07bbc045768607a34fd62ba4d9021ff2959b87e1793f05f6fec52"}
+{"section": "D.7 Fit Details and Power Law Quality", "seq": 79, "sha256": "c2a654f148caa3ae7ccc6e8187a24b4dc5170ab8b5c3e67ac4dc778f0021a202"}
+{"section": "D.8 Generalization and Architecture", "seq": 80, "sha256": "17139ac9119f72da702253fdd438b245c2e0521b600163ddc6f2b91e523d5728"}
+{"section": "References", "seq": 81, "sha256": "c50301bb2e01da43add32d319e07c24241eb339755063eef15992b710f80b6c5"}
+{"section": "References", "seq": 82, "sha256": "62b5e8f74f63b3f0dbe6e4173b8a24349e626a57218bab17b194cc308e3251c3"}
+{"section": "References", "seq": 83, "sha256": "b8cdb9ec92f5132748fa3c6fc2fa0526da0491e8d484808c6e5353a95b5f1160"}
+{"section": "References", "seq": 84, "sha256": "7286adb2d4624bbb9f02221c3ab0fef0cf16004cc7f4d86dfb07c0f6bc9f50af"}
+{"section": "References", "seq": 85, "sha256": "d78d098b9e8f32ffaa452f99fb28592b586d1cbcedae2c17b98c63b3e0d573e3"}
+{"section": "References", "seq": 86, "sha256": "cc906227295a498147b06b1c1d08e33b2c307b51970027f6264fa0c6ffa70397"}
+{"section": "References", "seq": 87, "sha256": "70a954ca4841de08c0c3c5d202038243b05b8a67e2d6f10fa92a5c89e5afcf0d"}
+{"section": "References", "seq": 88, "sha256": "ac8b51a50682caa9416eb94935e250ec02c0f01a0b9c54edc779a1e9b6a52316"}
+{"section": "References", "seq": 89, "sha256": "983e399e046fb5ba2e33902e63e397501d36249918545fdf8f883a0c4e0fddb7"}
+{"section": "References", "seq": 90, "sha256": "50c10ec6043a5e947416d88821742da0d0a726cbfeaffed52cbc4f2e1fcff112"}

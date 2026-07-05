@@ -1,0 +1,52 @@
+Running ToT requires significantly more computations than IO or CoT prompting. For example, in Game of 24 (Table 7 below), solving a problem with ToT requires 5.5k completion tokens, close to 100 CoT trials (6.7k tokens). But the performance of ToT is better than best of 100 independent CoT trials. Game of 24
+Generate/Prompt tokens
+Cost per case
+Success
+
+IO (best of 100)
+
+1.8k / 1.0k
+
+$0.13
+
+33%
+
+CoT (best of 100)
+
+6.7k / 2.2k
+
+$0.47
+
+49%
+
+ToT
+
+5.5k / 1.4k
+
+$0.74
+
+74%
+
+Table 7: Cost analysis on Game of 24. On Creative Writing (Table 8 below), we found ToT takes around 5x completion tokens and money cost, which is intuitive as and most tokens are generated passages. Creative Writing
+Generate/Prompt tokens
+Cost per case
+
+IO
+
+0.9k / 0.4k
+
+$0.06
+
+CoT
+
+0.9k / 0.4k
+
+$0.07
+
+ToT
+
+4k / 2.9k
+
+$0.32
+
+Table 8: Cost analysis on Game of 24. So completing Game of 24 and Creative Writing’s main ToT experiments cost around dollars. Crosswords’ DFS experiments should be also within dollars. In general, cost and efficiency of ToT highly depend on the prompts and search algorithms used, and could require 5-100 times more generated tokens than CoT.

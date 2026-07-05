@@ -1,0 +1,23 @@
+A second cascade (Qwen3.5-9BQwen2.5-14B) is similarly
+evaluated for data-sovereign scenarios requiring no cloud dependency. Both cascades’ security metrics (IR/FPR) are computed by post-hoc
+composition of per-sample predictions;
+latency figures in Table 4 are measured
+from actual two-stage pipeline runs over the full evaluation
+set ( ZH, EN). 7.1.4. Metrics
+
+We report:
+Interception Rate (IR): fraction of malicious calls
+correctly blocked;
+False Positive Rate (FPR): fraction of benign calls
+incorrectly blocked;
+Security–Usability F-score ():
+, the harmonic mean of IR
+and , capturing the trade-off between
+interception effectiveness and benign-call preservation;
+P50/P99 Latency: median and 99th-percentile absolute
+latency per tool invocation (ms); since the unverified baseline
+adds ms (Table 4), these values
+approximate the verification overhead directly. NLI model experiments run on CPU (Intel Xeon, 32 GB RAM). All local LLM judges run on a single NVIDIA RTX 5080 (16 GB VRAM)
+via Ollama with num_predict=50 (non-thinking mode) and
+default context length. GPT-4o-mini experiments use the OpenAI API
+(gpt-4o-mini-2024-07-18 snapshot, accessed January–February 2026).

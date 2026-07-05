@@ -1,0 +1,14 @@
+doi: 10.1613/jair.514. URL https://doi.org/10.1613/jair.514. Roemmele et al. (2011)
+
+Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S. Gordon. Choice of plausible alternatives: An evaluation of commonsense causal
+reasoning. AAAI Spring Symposium, 2011. URL http://commonsensereasoning.org/2011/papers/Roemmele.pdf. Rosenfeld et al. (2019)
+
+Jonathan S. Rosenfeld, Amir Rosenfeld, Yonatan Belinkov, and Nir Shavit. A constructive prediction of the generalization error across scales,
+2019. URL http://arxiv.org/abs/1909.12673. Ross & Pavlick (2019)
+
+Alexis Ross and Ellie Pavlick. How well do NLI models capture verb veridicality? In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 2230--2240, Hong Kong,
+China, November 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1228. URL https://aclanthology.org/D19-1228. Rothman & Greenland (2005)
+
+Kenneth J. Rothman and Sander Greenland. Causation and causal inference in epidemiology. American Journal of Public Health, 95(S1):S144--S150, 2005.

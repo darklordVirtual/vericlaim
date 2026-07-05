@@ -1,0 +1,6 @@
+Linking Across Provenance Bundles. 30 April 2013, W3C Note. URL: http://www.w3.org/TR/2013/NOTE-prov-links-20130430/
+[PROV-OVERVIEW]Paul Groth; Luc Moreau; eds. PROV-OVERVIEW: An Overview of the PROV Family of Documents. 30 April 2013, W3C Note. URL: http://www.w3.org/TR/2013/NOTE-prov-overview-20130430/
+[PROV-PRIMER]Yolanda Gil; Simon Miles; eds. PROV Model Primer. 30 April 2013, W3C Note. URL: http://www.w3.org/TR/2013/NOTE-prov-primer-20130430/
+[PROV-SEM]James Cheney; ed. Semantics of the PROV Data Model. 30 April 2013, W3C Note. URL: http://www.w3.org/TR/2013/NOTE-prov-sem-20130430. [PROV-XML]Hook Hua; Curt Tilmes; Stephan Zednik; eds. PROV-XML: The PROV XML Schema. 30 April 2013, W3C Note. URL: http://www.w3.org/TR/2013/NOTE-prov-xml-20130430/
+[RDF-CONCEPTS11]Richard Cyganiak; David Wood; eds. RDF 1.1 Concepts and Abstract Syntax. Working Draft. URL: http://www.w3.org/TR/rdf11-concepts/
+[UML]Object Management Group Unified Modeling Language: Superstructure. version 2.0, 2005 URL: http://www.omg.org/spec/UML/2.0/Superstructure/PDF/

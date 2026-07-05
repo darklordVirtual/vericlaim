@@ -1,0 +1,14 @@
+They also suggest that back-feeding
+adversarial examples to training might improve generalization of the resulting models. Our preliminary experiments have yielded positive evidence on MNIST to
+support this hypothesis as well: We have successfully trained a two layer
+100-100-10 non-convolutional neural network with a test error below by
+keeping a pool of adversarial examples a random subset of which is continuously
+replaced by newly generated adversarial examples and which is mixed into the
+original training set all the time. We used weight decay, but no dropout for
+this network. For comparison, a network of this size gets to errors
+when regularized by weight decay alone and can be improved to around
+by using carefully applied dropout. A subtle, but essential
+detail is that we only got improvements by generating adversarial examples for
+each layer outputs which were used to train all the layers above. The network was trained in an alternating fashion, maintaining and updating
+a pool of adversarial examples for each layer separately in addition to the
+original training set.

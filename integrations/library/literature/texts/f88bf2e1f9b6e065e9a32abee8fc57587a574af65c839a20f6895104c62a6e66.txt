@@ -1,0 +1,7 @@
+Raw Confidences:
+
+Raw confidences are the default baseline that our language models emit. For an output sequence of length , the raw confidence is the joint probability that the language model assigns to : . Computing this does not require any supervised training data or training an auxiliary confidence estimator as these are emitted directly from the language model. Raw confidence is used as an auxiliary feature for all of our acute estimators because in early experiments, we saw a small performance gain when added. See Appendix˜G for a more detailed discussion. Histogram Regression Estimator (HRE):
+
+Our second baseline, HRE, is a standard recalibration method. We construct a histogram of confidences based on a training set with equal sized bins. To recalibrate a raw confidence estimate, we look up the bin associated with that estimate and return the average accuracy of all the samples in that bin. See subramani-etal-2025-mice for more details. Nadaraya-Watson Kernel Regression (NWKR):
+
+For our third baseline, we use the Nadaraya-Watson kernel regression estimator (nadaraya1964estimating; watson1964smooth), which is the method used to calculate smECE.

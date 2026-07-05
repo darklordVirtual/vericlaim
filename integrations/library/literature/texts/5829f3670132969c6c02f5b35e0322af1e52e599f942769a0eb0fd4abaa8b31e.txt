@@ -1,0 +1,15 @@
+note that in
+some cases, the people creating a datasheet for a dataset may not be
+the dataset creators, as was the case with the example datasheets that
+we created as part of our development process. Beyond these two key stakeholder groups, datasheets for datasets may
+be valuable to policy makers, consumer advocates, investigative
+journalists, individuals whose data is included in datasets, and
+individuals who may be impacted by models trained or evaluated using datasets. They also serve a secondary objective of facilitating
+greater reproducibility of machine learning results: researchers and
+practitioners without access to a dataset may be able to use the
+information in its datasheet to create alternative datasets with
+similar characteristics. Although we provide a set of questions designed to elicit the
+information that a datasheet for a dataset might contain, these
+questions are not intended to be prescriptive. Indeed, we expect that
+datasheets will necessarily vary depending on factors such as the
+domain or existing organizational infrastructure and workflows.

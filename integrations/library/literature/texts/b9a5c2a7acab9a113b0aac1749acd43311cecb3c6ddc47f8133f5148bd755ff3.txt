@@ -1,0 +1,23 @@
+To characterize language model scaling we train a wide variety of models, varying a number of factors including:
+
+•
+
+Model size (ranging in size from 768 to 1.5 billion non-embedding parameters)
+
+•
+
+Dataset size (ranging from 22 million to 23 billion tokens)
+
+•
+
+Shape (including depth, width, attention heads, and feed-forward dimension)
+
+•
+
+Context length (1024 for most runs, though we also experiment with shorter contexts)
+
+•
+
+Batch size ( for most runs, but we also vary it to measure the critical batch size)
+
+In this section we will display data along with empirically-motivated fits, deferring theoretical analysis to later sections.

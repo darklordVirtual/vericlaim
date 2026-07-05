@@ -1,0 +1,14 @@
+(Note), a declarative specification in terms of first-order logic of the PROV data model [PROV-SEM];
+
+PROV-LINKS (Note) introduces a mechanism to link across bundles [PROV-LINKS]. Endorsed By W3C
+
+This document has been reviewed by W3C Members, by software developers, and by other W3C groups and interested parties, and is endorsed by the Director as a W3C Recommendation. It is a stable document and may be used as reference material or cited from another document. W3C's role in making the Recommendation is to draw attention to the specification and to promote its widespread deployment. This enhances the functionality and interoperability of the Web. Please Send Comments
+
+This document was published by the Provenance Working Group as a Recommendation. If you wish to make comments regarding this document, please send them to
+public-prov-comments@w3.org
+(subscribe,
+archives). All comments are welcome. This document was produced by a group operating under the
+5 February 2004 W3C Patent Policy. W3C maintains a public list of any patent disclosures
+
+made in connection with the deliverables of the group; that page also includes instructions for
+disclosing a patent.

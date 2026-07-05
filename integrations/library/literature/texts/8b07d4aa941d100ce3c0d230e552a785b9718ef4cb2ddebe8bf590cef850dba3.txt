@@ -1,0 +1,1 @@
+Indeed, we find that the sample with highest mean log-probability passes unit tests for 44.5% of the problems. We conclude by discussing the limitations and potential broader impacts of these Codex models and of increasingly powerful code generating models more generally.

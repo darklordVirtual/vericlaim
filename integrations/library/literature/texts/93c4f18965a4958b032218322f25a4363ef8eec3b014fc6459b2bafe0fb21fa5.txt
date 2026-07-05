@@ -1,0 +1,19 @@
+URL https://arxiv.org/abs/2108.07258. Bordia & Bowman (2019)
+
+Shikha Bordia and Samuel R. Bowman. Identifying and reducing gender bias in word-level language models,
+2019. URL https://arxiv.org/abs/1904.03035. Bosselut et al. (2019)
+
+Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli
+Celikyilmaz, and Yejin Choi. COMET: Commonsense transformers for automatic knowledge graph
+construction, 2019. URL https://arxiv.org/abs/1906.05317. Bostock et al. (2011)
+
+Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer. D data-driven documents. IEEE Transactions on Visualization and Computer Graphics,
+17(12):2301--2309, 2011. doi: 10.1109/TVCG.2011.185. URL https://ieeexplore.ieee.org/document/6064996. Bowman & Dahl (2021)
+
+Samuel R. Bowman and George Dahl. What will it take to fix benchmarking in natural language
+understanding? In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 4843--4855, Online, June 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.385. URL https://aclanthology.org/2021.naacl-main.385. Bowman et al. (2015)
+
+Samuel R.

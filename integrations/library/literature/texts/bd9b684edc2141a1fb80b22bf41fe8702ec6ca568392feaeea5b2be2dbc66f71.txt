@@ -1,0 +1,23 @@
+IEEE transactions on Systems Science and Cybernetics,
+4(2):100–107, 1968b. Huang et al. (2022a)
+
+W. Huang, P. Abbeel, D. Pathak, and I. Mordatch. Language models as zero-shot planners: Extracting actionable
+knowledge for embodied agents, 2022a. Huang et al. (2022b)
+
+W. Huang, F. Xia, T. Xiao, H. Chan, J. Liang, P. Florence, A. Zeng, J. Tompson,
+I. Mordatch, Y. Chebotar, et al. Inner monologue: Embodied reasoning through planning with language
+models. arXiv preprint arXiv:2207.05608, 2022b. Jung et al. (2022)
+
+J. Jung, L. Qin, S. Welleck, F. Brahman, C. Bhagavatula, R. L. Bras, and
+Y. Choi. Maieutic prompting: Logically consistent reasoning with recursive
+explanations. arXiv preprint arXiv:2205.11822, 2022. Kahneman (2011)
+
+D. Kahneman. Thinking, fast and slow. Macmillan, 2011. Kahneman et al. (2002)
+
+D. Kahneman, S. Frederick, et al. Representativeness revisited: Attribute substitution in intuitive
+judgment. Heuristics and biases: The psychology of intuitive judgment,
+49(49-81):74, 2002. Kim et al. (2023)
+
+G. Kim, P. Baldi, and S. McAleer. Language models can solve computer tasks, 2023. Liu et al. (2023)
+
+B. Liu, Y. Jiang, X. Zhang, Q. Liu, S. Zhang, J. Biswas, and P. Stone.

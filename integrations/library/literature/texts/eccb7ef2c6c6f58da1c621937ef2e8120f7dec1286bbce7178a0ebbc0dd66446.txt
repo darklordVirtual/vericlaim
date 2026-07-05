@@ -1,0 +1,6 @@
+AutoGPT (Significant Gravitas, 2023) and AutoGen (Wu et al., 2024)
+represent two dominant design philosophies: single-agent
+autonomous loops versus multi-agent orchestration. LangChain (Chase, 2022) provides standardized
+tool-chaining interfaces but relies on input filtering at the
+application layer, lacking physical execution-layer isolation. These frameworks do not provide a unified governance
+architecture, a gap that LGA aims to address.

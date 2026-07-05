@@ -1,0 +1,5 @@
+Characterizing desiderata for interpretable models is a helpful way to formalize interpretability [74] [75]. Useful interpretability tools for building trust are also highly dependent on the target user and the downstream task. For example, a model developer or regulator may be more interested in understanding model behavior over the entire input distribution whereas a novice layperson may wish to understand why the model made a particular prediction for their individual case.555555While definitions in this area are contested, some would distinguish between ”interpretability” and ”explainability” as categories for these two directions, respectively. Crucially, an "interpretable" model may not be necessary for all situations. The weight we place upon a model being interpretable may depend upon a few different factors, for example:
+
+•
+
+More emphasis in sensitive domains (e.g., autonomous driving or healthcare,565656See, e.g., Sendak et. al. [76] which focuses on building trust in a hospital context, and contextualizes the role of interpretability in this process.

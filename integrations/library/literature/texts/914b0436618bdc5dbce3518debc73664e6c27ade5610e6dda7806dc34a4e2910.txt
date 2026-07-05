@@ -1,0 +1,10 @@
+Memorized Promotional Content. We extract memorized samples of promotional content, such as advertisements for books, beauty products, software products. One of these samples includes a link to an author’s valid Patreon account, along with a list of named and pseudonymous prior donors. Memorized Number Sequences. We identify many examples where GPT-2 emits common number
+sequences. Nearly ten examples contain the integers counting up
+from some specific value. We also find examples of GPT-2
+counting the squares
+1, 2, 4, 8, 16, 25, 36,
+Fibonacci numbers
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987,
+or digits of ,
+3.14159265358979323846264. None of these examples should be unexpected, but the quantity
+of memorized number sequences was surprising to us. Memorized News Headlines. Numerous memorized text snippets are verbatim copies of news articles and headlines. A large number of these memorized samples are attributed to a single source: thehill.com, an American news website.

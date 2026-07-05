@@ -1,0 +1,12 @@
+doi: 10.3389/frobt.2020.00016. URL
+https://www.frontiersin.org/article/10.3389/frobt.2020.00016. Chen et al. (2019a)
+
+Howard Chen, Alane Suhr, Dipendra Misra, Noah Snavely, and Yoav Artzi. Touchdown: Natural language navigation and spatial reasoning in
+visual street environments. In 2019 IEEE/CVF Conference on Computer Vision and Pattern
+Recognition (CVPR), pp. 12530--12539, Piscataway, NJ, 2019a. Institute of Electrical and Electronics Engineers. doi: 10.1109/CVPR.2019.01282. URL https://ieeexplore.ieee.org/document/8954308. Chen et al. (2020)
+
+Mark Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, and
+Ilya Sutskever. Generative pretraining from pixels. In Hal Daumé III and Aarti Singh (eds.), Proceedings of the
+37th International Conference on Machine Learning, volume 119 of
+Proceedings of Machine Learning Research, pp. 1691--1703. PMLR,
+13--18 July 2020. URL https://proceedings.mlr.press/v119/chen20s.html. Chen et al.

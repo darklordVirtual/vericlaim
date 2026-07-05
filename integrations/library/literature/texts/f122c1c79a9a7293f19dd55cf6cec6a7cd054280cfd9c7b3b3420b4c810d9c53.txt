@@ -1,0 +1,5 @@
+When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors? (A) 1/50 (B) 1/27 (C) 1/25 (D) 2/27
+
+Figure 21: A College Computer Science example. Let be a real matrix. Which of the following statements must be true? I. All of the entries of are nonnegative. II. The determinant of is nonnegative. III. If A has two distinct eigenvalues, then has two distinct eigenvalues. (A) I only (B) II only (C) III only (D) II and III only
+
+Figure 22: A College Mathematics example. In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?

@@ -1,0 +1,50 @@
+Gettings and Michel A. Kinsy
+
+“Survey of Attacks and Defenses on Edge-Deployed Neural Networks”
+
+In arXiv, 2019
+
+arXiv: http://arxiv.org/abs/1911.11932
+
+[102]
+Nathan Dowlin et al. “CryptoNets: Applying Neural Networks to Encrypted Data with High Throughput and Accuracy”
+
+In Proceedings of the 33rd International Conference on Machine Learning, 2016
+
+URL: http://sealcrypto.codeplex.com
+
+[103]
+Tim Hwang
+
+“Computational Power and the Social Impact of Artificial Intelligence”
+
+In SSRN Electronic Journal
+
+Elsevier BV, 2018
+
+DOI: 10.2139/ssrn.3147971
+
+[104]
+Rich Sutton
+
+“The Bitter Lesson”
+
+In Incomplete Ideas Blog, 2019
+
+URL: http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+
+[105]
+Rodney Brooks
+
+“A Better Lesson”
+
+In Rodney Brooks Blog, 2019
+
+URL: https://rodneybrooks.com/a-better-lesson/
+
+[106]
+Huili Chen et al. “DeepAttest: An end-to-end attestation framework for deep neural networks”
+
+In Proceedings of the International Symposium on Computer Architecture
+
+Institute of ElectricalElectronics Engineers Inc., 2019, pp.

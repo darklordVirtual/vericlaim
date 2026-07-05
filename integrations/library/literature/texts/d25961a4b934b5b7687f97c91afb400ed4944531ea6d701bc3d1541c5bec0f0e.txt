@@ -1,0 +1,11 @@
+2019; Thomason et al., 2015; Mitchell et al., 2010; Viethen & Dale, 2008; Gatt et al., 2009; Mitchell et al., 2013; Liang et al., 2018)
+
+repeat_copy_logic: Noah Fiedel, Google (nfiedel@gmail.com). Task cites: (Graves et al., 2014)
+
+rephrase: Marie Tolkiehn, University of Bristol and Center for Data and Computing in Natural Sciences (Universität Hamburg, DESY, TUHH) (marie.tolkiehn@desy.de)
+
+riddle_sense: Bill Yuchen Lin, Ziyi Wu, Xiang Ren, Dong-Ho Lee, and Yichi Yang, University of Southern California (yuchen.lin, ziyiwu, xiangren, dongho.lee, yichiyan)@usc.edu. Task cites: (Lin et al., 2021a; Talmor et al., 2019b)
+
+roots_optimization_and_games: Daniel Levy, Stanford University (danilevy@stanford.edu). Task cites: (Lample & Charton, 2019; Polu & Sutskever, 2020; Amos & Kolter, 2017; Agrawal et al., 2020)
+
+ruin_names: Ryan Teehan, Charles River Analytics (rsteehan@gmail.com); Nicholas Roberts, University of Wisconsin-Madison (nick11roberts@cs.wisc.edu); and Vinay Uday Prabhu, UnifyID Labs (vinay@unify.id).

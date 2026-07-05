@@ -1,0 +1,18 @@
+In NIPS, 2012. Deng et al. (2009)
+
+Deng, Jia, Dong, Wei, Socher, Richard, jia Li, Li, Li, Kai, and Fei-fei, Li. Imagenet: A large-scale hierarchical image database. In In CVPR, 2009. Glorot et al. (2011)
+
+Glorot, Xavier, Bordes, Antoine, and Bengio, Yoshua. Deep sparse rectifier neural networks. In JMLR W&CP: Proceedings of the Fourteenth International
+Conference on Artificial Intelligence and Statistics (AISTATS 2011), April
+2011. Goodfellow et al. (2013a)
+
+Goodfellow, Ian J., Mirza, Mehdi, Courville, Aaron, and Bengio, Yoshua. Multi-prediction deep Boltzmann machines. In Neural Information Processing Systems, December
+2013a. Goodfellow et al. (2013b)
+
+Goodfellow, Ian J., Warde-Farley, David, Lamblin, Pascal, Dumoulin, Vincent,
+Mirza, Mehdi, Pascanu, Razvan, Bergstra, James, Bastien,
+Frédéric, and Bengio, Yoshua. Pylearn2: a machine learning research library. arXiv preprint arXiv:1308.4214, 2013b. Goodfellow et al. (2013c)
+
+Goodfellow, Ian J., Warde-Farley, David, Mirza, Mehdi, Courville, Aaron, and
+Bengio, Yoshua. Maxout networks. In Dasgupta, Sanjoy and McAllester, David (eds.), International
+Conference on Machine Learning, pp. 1319–1327, 2013c.

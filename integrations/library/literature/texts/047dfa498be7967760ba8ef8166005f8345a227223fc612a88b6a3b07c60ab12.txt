@@ -1,0 +1,15 @@
+Sidor, X. Liu, D. Farhi, N. Ryder,
+J. Pachocki, W. Chen, and J. Gao. Tuning large neural networks via zero-shot hyperparameter transfer. In A. Beygelzimer, Y. Dauphin, P. Liang, and J. W. Vaughan, editors,
+Advances in Neural Information Processing Systems, 2021. URL https://openreview.net/forum?id=Bx6qKuBM2AD. Zellers et al. (2019)
+
+R. Zellers, A. Holtzman, Y. Bisk, A. Farhadi, and Y. Choi. HellaSwag: Can a machine really finish your sentence? In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, 2019. Zhang et al. (2019)
+
+G. Zhang, L. Li, Z. Nado, J. Martens, S. Sachdeva, G. Dahl, C. Shallue, and
+R. B. Grosse. Which algorithmic choices matter at which batch sizes? insights from
+a noisy quadratic model. In H. Wallach, H. Larochelle, A. Beygelzimer, F. d'Alché-Buc, E. Fox, and R. Garnett, editors, Advances in Neural
+Information Processing Systems, volume 32. Curran Associates, Inc., 2019. URL
+https://proceedings.neurips.cc/paper/2019/file/e0eacd983971634327ae1819ea8b6214-Paper.pdf. Zoph et al. (2022)
+
+B. Zoph, I. Bello, S. Kumar, N. Du, Y. Huang, J. Dean, N. Shazeer, and
+W. Fedus. Designing effective sparse expert models, 2022.

@@ -1,0 +1,13 @@
+•
+
+cond_log_prob: Computes conditional log probabilities of targets given inputs. The code that defines the task can query the model
+repeatedly,
+enabling the evaluation of models over multiple rounds of “dialog,” such as in the
+twenty_questions
+task. Performance is then evaluated using task-defined metrics (with common metrics provided for convenience). Task authors may report multiple metrics for both JSON and programmatic tasks, but must specify a unique preferred metric and high and low scores for this task. We use this metric when computing aggregate scores. The full list of available metrics for JSON tasks can be found on the BIG-bench repo. All figures in this paper showing performance on individual metrics use one of the following: (as is standard practice, we usually report scores in the range 0-100 unless stated otherwise)
+
+•
+
+exact_string_match: Accuracy on exact. •
+
+multiple_choice_grade: A weighted multiple choice accuracy between 0-100, where a set of targets and scores for each potential target are specified. This reduces to standard multiple choice accuracy when a single target is assigned a score of 1 and the rest score 0.

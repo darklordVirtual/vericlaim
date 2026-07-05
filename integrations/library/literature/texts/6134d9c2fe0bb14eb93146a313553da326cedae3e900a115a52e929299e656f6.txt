@@ -1,0 +1,12 @@
+The end-to-end pipeline achieves 96.0% IR with 16.0% FPR,
+consistent with standalone L2 performance (GPT-4o-mini:
+95.4% IR, 12.3% FPR on the full English dataset). The FPR increase of +3.7 pp is within the expected sampling
+variance: with benign samples, the Clopper–Pearson 95%
+confidence interval for the observed 16% FPR spans
+, covering the full-dataset estimate of 12.3%. The wide CI reflects limited FPR precision at ;
+a larger-scale pipeline evaluation would be needed to
+precisely characterize end-to-end FPR. All blocks occur at Layer 2; Layers 1, 3, and 4 collectively
+add only 18 ms to total latency (P50), confirming that
+the non-judge layers impose negligible overhead. The dominant latency contributor remains the LLM judge
+(966 ms), reinforcing that LGA’s runtime cost is
+effectively the cost of a single inference call.

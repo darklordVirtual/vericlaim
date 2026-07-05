@@ -1,0 +1,11 @@
+However, noise with
+zero mean and zero covariance is very inefficient at preventing adversarial examples. The expected dot product
+between any reference vector and such a noise vector is zero. This means that in many cases the noise will have
+essentially no effect rather than yielding a more difficult input. In fact, in many cases the noise will actualy result
+in a lower objective function value. We can think of adversarial training as doing hard example mining among the set
+of noisy inputs, in order to train more efficiently by considering only those noisy points that strongly resist
+classification. As control experiments, we trained training a maxout network with noise based on randomly adding
+to each pixel, or adding noise in to each pixel. These obtained an error rate of 86.2% with confidence
+97.3% and an error rate of 90.4% with a confidence of 97.8% respectively on fast gradient sign adversarial examples. Because the derivative of the sign function is zero or undefined everywhere, gradient descent on
+the adversarial objective function based on the fast gradient sign method does
+not allow the model to anticipate how the adversary will react to changes in the parameters.

@@ -1,0 +1,69 @@
+{"fsid": "web_developers-google-com_machine-learning_guides_rules-of-ml", "n": 68, "overlap": 200, "source_sha256": "45fd2971d0852aa8a292e04420035e61addd7e7fc8858f35e6ad2104554d5893", "target": 1200}
+{"section": "", "seq": 0, "sha256": "f41ea452dd0bc05d1416a2c0719e4799940697271f1cc762127b3c620e514f89"}
+{"section": "Page Summary", "seq": 1, "sha256": "91bd008b2c84f1d8d83a13524ffd2006add9aa7fab51d7111451d531b5739c7c"}
+{"section": "Best Practices for ML Engineering", "seq": 2, "sha256": "eef3bb2144b51a1b8b0bd19ee68f3a195c47fe2653e103c447609c96e6e79839"}
+{"section": "Terminology", "seq": 3, "sha256": "5c9ab639c81f55dee3da2043135dc5382374d5bb283ada9fd795a49f0c511167"}
+{"section": "Terminology", "seq": 4, "sha256": "ed6d89ee21e067ec9f21173cfccd8cee15a5a4a419fb2bb9288c5780f4f9b1b3"}
+{"section": "Overview", "seq": 5, "sha256": "04198ceb42df7a1800898b83a6d8eb6c7e206f8aaf6269a95b085efc43a77272"}
+{"section": "Overview", "seq": 6, "sha256": "bb685382cb379d2e13708cb595b7426a9dcdce9d38c101e23f133f2fc03abd41"}
+{"section": "Before Machine Learning", "seq": 7, "sha256": "fbd2850e6a3a76c4907f39ae651ddabc34dc1af9444eaa252b3541d6032a96a0"}
+{"section": "Before Machine Learning", "seq": 8, "sha256": "a721bb0ec5ee21947e363281df59be2d439ed5ffa874e55d38731e7c0cb35856"}
+{"section": "Before Machine Learning", "seq": 9, "sha256": "4b22dd57deaf8dc054be1c84afc027f9a6e088ae45ae96526c34ac96b7f46bf7"}
+{"section": "ML Phase I: Your First Pipeline", "seq": 10, "sha256": "88237bdad926b89a0db23466665d9e2c397ba40b133fbe7568a650ae709a717e"}
+{"section": "ML Phase I: Your First Pipeline", "seq": 11, "sha256": "3f4b67a7796d05b5479a3906bacc3ac89772e3bd248de7909487375ed15b67b0"}
+{"section": "ML Phase I: Your First Pipeline", "seq": 12, "sha256": "7b849008c2282759e3db2a933be42aa49b05d2f6981f0beafdb4128130cf3605"}
+{"section": "ML Phase I: Your First Pipeline", "seq": 13, "sha256": "0d9b67ceee4d309f25bc712de78a754b759ad87101b8396ad3149d13fa38adc0"}
+{"section": "ML Phase I: Your First Pipeline", "seq": 14, "sha256": "56a4e860804e57082232ba75b006bd0b6ae7b1ccc7978341750985229a5be06e"}
+{"section": "ML Phase I: Your First Pipeline", "seq": 15, "sha256": "36749508f9e6973d678f01f7b808e37c978becf3aee10b347c2904f65950b3dc"}
+{"section": "Monitoring", "seq": 16, "sha256": "fb90b31b2b6d6ef9a0be7813cb52186b64cdd1de23a22f9f70a9048672653436"}
+{"section": "Monitoring", "seq": 17, "sha256": "34666335e14eb34cf25085fedc6f4738037d9a784fb5913105e636ada7c51405"}
+{"section": "Monitoring", "seq": 18, "sha256": "48fc632dc94ec68f6631045540ed7fcae6a43066662bb4906747f9dd732c97c9"}
+{"section": "Your First Objective", "seq": 19, "sha256": "a07909b516f2eb5dfdd06479b3a7ef7005a8e31f768bc84605c1ef9610096127"}
+{"section": "Your First Objective", "seq": 20, "sha256": "6a0deecf6f46f75b846e445e7e35d84125d6fe38f778645745af6cd5faa8cc8f"}
+{"section": "Your First Objective", "seq": 21, "sha256": "6189f54382f245cacbe56ddfbf80ef10db42a9b3760bf87382a2029b00b6b973"}
+{"section": "Your First Objective", "seq": 22, "sha256": "34ebe4a47413c6f9c62ea599a8dc05046caf6d3095455b403b59aba76802ab80"}
+{"section": "Your First Objective", "seq": 23, "sha256": "cc210d9cda55227a201540184a68eb33b86305a50197570093cb1c56d34b790e"}
+{"section": "Your First Objective", "seq": 24, "sha256": "9bcad9e3a80e6145b812aa5d2fb4e9e51bd4ab1280d965963a7d597c1ee59d7b"}
+{"section": "Your First Objective", "seq": 25, "sha256": "790de72708421d74b801350f4b479f5ef2933bf64a45afda2e50ad0d74a0d6cd"}
+{"section": "ML Phase II: Feature Engineering", "seq": 26, "sha256": "14c525e9a05b925f19e605226d97d18cbec210d1cd7a3a1d4737dfab384ae2cc"}
+{"section": "ML Phase II: Feature Engineering", "seq": 27, "sha256": "dbb9dbd480978dc9424860506640164a8359319c65de0fa30fdf8b2a903b76da"}
+{"section": "ML Phase II: Feature Engineering", "seq": 28, "sha256": "29070e275e84558bc0c55ae3f014cd738fa9a1ef4993b74da3bb50e4f8c0bb84"}
+{"section": "ML Phase II: Feature Engineering", "seq": 29, "sha256": "cb0c754e4974a55ec17b368767f73b645f026639a4e4cdbf273a94ababa032d6"}
+{"section": "ML Phase II: Feature Engineering", "seq": 30, "sha256": "eccfc9d30e2ee9a745d89c40dc0d9b47c7a03b8bc05d9bd260f5f3280fed949e"}
+{"section": "ML Phase II: Feature Engineering", "seq": 31, "sha256": "7952236ea3f499317a6e4ddaa2ae7ab665578895fc448f4ff2e714a1dd2898ae"}
+{"section": "ML Phase II: Feature Engineering", "seq": 32, "sha256": "5b45f725a9cc82593f677d275927d9bc68321a425949451b35d62c9010eb0965"}
+{"section": "ML Phase II: Feature Engineering", "seq": 33, "sha256": "d2ea4a48be6574c8736fba70cb57849847941fe9da67516565ecdf866381d3b4"}
+{"section": "ML Phase II: Feature Engineering", "seq": 34, "sha256": "842f3cc2887a63559c7a507c14e749a96ff177771ed3e3a227e567b86573b8a1"}
+{"section": "ML Phase II: Feature Engineering", "seq": 35, "sha256": "f39324b27a8ec5f37c012169d2fa30478d9d99126177428956877d00fb2d5f48"}
+{"section": "Human Analysis of the System", "seq": 36, "sha256": "ca3dc167102546b055e3c027726e2b8007eca1768be40ee09d86834bd4e3fa8c"}
+{"section": "Human Analysis of the System", "seq": 37, "sha256": "987c01384f7fdcf96f7c91def88738d0f663dd9c12dfc34d489e7f215eeea5c7"}
+{"section": "Human Analysis of the System", "seq": 38, "sha256": "10416218af95f199e652153b82cc351be48c1d4ecb33807beaf80cfccd020ffa"}
+{"section": "Human Analysis of the System", "seq": 39, "sha256": "22a190f7e914a26f840ad39cddb27b02954cc61540d6ffee5bc2657c79ce3e27"}
+{"section": "Human Analysis of the System", "seq": 40, "sha256": "5fe80b12319203f46711dbbdba0e31793f862bad05ed7f2a47e79d5a8b6d1526"}
+{"section": "Human Analysis of the System", "seq": 41, "sha256": "3a82b637577706836c487cbcb93ff032719fbb6e24aea0f45ec79b17fda8cf5b"}
+{"section": "Human Analysis of the System", "seq": 42, "sha256": "45555989f0c5a21fc484bb9fd5106516c9e6c1093cade5f1cecd2328ce7bde02"}
+{"section": "Training-Serving Skew", "seq": 43, "sha256": "4102264a61897de19be7ac4a71f46f124acb854b152446a0d5d694ba75c25125"}
+{"section": "Training-Serving Skew", "seq": 44, "sha256": "faaf02b10d876f8c19f2cb1195c39d2481c14d84877e6c991c39ae8925548c40"}
+{"section": "Training-Serving Skew", "seq": 45, "sha256": "eeca7fd09932d2a7cb35f525517067d1919456fd554cdd9f903fd9f829b14ae7"}
+{"section": "Training-Serving Skew", "seq": 46, "sha256": "4b2bf0096de93b34f348c0555db0d365151186b2b9eaf24309aa286c1a143543"}
+{"section": "Training-Serving Skew", "seq": 47, "sha256": "c7c17f441a31ced2381737b87760e207199bc778780a569b719c3d224d990669"}
+{"section": "Training-Serving Skew", "seq": 48, "sha256": "40ca75b4b5db60bb463c4be22b9ce958a63a8842218da29487e3d562719fa6b2"}
+{"section": "Training-Serving Skew", "seq": 49, "sha256": "675b835975062377c81d817a0bda52576e19493df85b3e0dffac971735f9adcf"}
+{"section": "Training-Serving Skew", "seq": 50, "sha256": "8c2c52a0f4043fff020c375279779c58569874adc7b2620bf9d65e6a47ff1b8d"}
+{"section": "Training-Serving Skew", "seq": 51, "sha256": "b0e875a502a5036d50e6adbb0e947fedf9039c5d4171e3a65a00840b602cdd99"}
+{"section": "Training-Serving Skew", "seq": 52, "sha256": "8b929398b952b4309ee73b09a279d1b0c50929a0c20bc897a59e905438bd5d8d"}
+{"section": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models", "seq": 53, "sha256": "7ffdf976063c8c1747ea3ae61415feb7dd2697c0f2e94bfcd7010852cfa634c4"}
+{"section": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models", "seq": 54, "sha256": "08e222894d3104924ad66b4056974345bd037675c5a9bf1a511398b239aa9e02"}
+{"section": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models", "seq": 55, "sha256": "98b2050ede113f5086acbcdfda006c97362ca9d9e1661d202304cc1ed022c177"}
+{"section": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models", "seq": 56, "sha256": "2efe4925de5d0337eb0109022534ed83354b0678b8936db35c3aaf5a355a9888"}
+{"section": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models", "seq": 57, "sha256": "e5e3175427c958a9497e911d993d0debe7a26914049c9d08239894b03e266651"}
+{"section": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models", "seq": 58, "sha256": "0166ab804de1477122151d5ea059602536a6111c57011f12f5a8ac93c07c4365"}
+{"section": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models", "seq": 59, "sha256": "be0f1968a9c42a40295f530c35af6869f7ddb0b7156ab64ae1df93f6019a3356"}
+{"section": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models", "seq": 60, "sha256": "1f6eaace14b854c918b5cef1f1f1f7ae2fd50ee657ee9b657ad7e775c2243197"}
+{"section": "ML Phase III: Slowed Growth, Optimization Refinement, and Complex Models", "seq": 61, "sha256": "1dbe5904c5b429a8dc3fa7e8745e7d30f27ea2a514a351aa76f55cccf3e9f8a0"}
+{"section": "Related Work", "seq": 62, "sha256": "2593a92d24b9172507b99ba783dbc0958da51e3238f65229f2812100a9e00237"}
+{"section": "Acknowledgements", "seq": 63, "sha256": "843aac2af949d9d06e3726a7e83464ba009e8cfcfc59a240d2534fd4d2b53968"}
+{"section": "Appendix", "seq": 64, "sha256": "ad81728c3c45ee737553c4a584df27c50e4ef1b36b00c68eff8124c400c34b3a"}
+{"section": "YouTube Overview", "seq": 65, "sha256": "0443544f819eac236b580ef07fb95c11c1f52f297a0effbf6de25f01a76cac73"}
+{"section": "Google Play Overview", "seq": 66, "sha256": "3082f7ca3690a8545a1aa29bb0ee51532227e30f2bd349377ee41f1233b233f5"}
+{"section": "Google Plus Overview", "seq": 67, "sha256": "c37b5eb84a55c036ae4971daeb702e323bc433eeed53472f358bbad64ec717a2"}

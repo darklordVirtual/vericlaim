@@ -1,0 +1,93 @@
+Applying Bayes’ theorem with IR as sensitivity and FPR as
+the false positive rate:
+
+(2)
+
+where is the attack prevalence. Table 7 reports PPV under three prevalence assumptions. Table 7. Positive Predictive Value Under Varying Attack Prevalence
+
+Condition
+
+Qwen3.5-9B (ZH)
+
+73.9%
+
+13.0%
+
+2.8%
+
+Qwen2.5-14B (ZH)
+
+91.0%
+
+34.8%
+
+9.3%
+
+GPT-4o-mini (ZH)
+
+96.7%
+
+60.5%
+
+22.7%
+
+Cascade QG (ZH)
+
+98.0%
+
+71.8%
+
+32.8%
+
+Cascade Q14B (ZH)
+
+94.1%
+
+45.6%
+
+13.9%
+
+Qwen3.5-9B (EN)
+
+80.0%
+
+17.4%
+
+3.9%
+
+Qwen2.5-14B (EN)
+
+83.1%
+
+20.5%
+
+4.7%
+
+GPT-4o-mini (EN)
+
+88.6%
+
+29.0%
+
+7.3%
+
+Cascade QG (EN)
+
+93.3%
+
+42.1%
+
+12.3%
+
+Cascade Q14B (EN)
+
+90.7%
+
+33.9%
+
+9.0%
+
+Computed via Bayes’ theorem
+(Eq. (2)) using IR and FPR from Table 3 (default num_predict=50). Under the optimized num_predict=10 config (FPR=29.3%), Qwen3.5-9B (ZH) PPV improves to 3.2%. PPV computed for TC1/TC2 only; TC3 IR (75–94%) is substantially lower and would reduce PPV further in mixed-threat deployments. At 1% prevalence, even the best single model (GPT-4o-mini ZH,
+FPR=3.2%) yields only 22.7% PPV—meaning roughly 3 out of 4
+blocks are false alarms.

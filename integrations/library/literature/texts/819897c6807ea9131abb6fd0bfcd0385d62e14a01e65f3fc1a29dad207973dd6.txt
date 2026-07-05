@@ -1,0 +1,14 @@
+Perhaps the simplest possible model we can consider is logistic regression. In this case, the fast
+gradient sign method is exact. We can use this case to gain some intuition for how adversarial examples
+are generated in a simple setting. See Fig. 2 for instructive images. If we train a single model
+to recognize labels with where
+is the logistic sigmoid function, then training consists of gradient descent on
+
+where is the softplus function. We can derive a simple analytical form for training on the worst-case adversarial perturbation of
+rather than itself, based on gradient sign perturbation. Note that the sign of the gradient is just , and that . The adversarial version of
+logistic regression is therefore to minimize
+
+This is somewhat similar to regularization. However, there are some important differences. Most significantly, the penalty is subtracted off the model’s activation during training, rather than
+added to the training cost. This means that the penalty can eventually start to disappear if the model
+learns to make confident enough predictions that saturates. This is not guaranteed to happen—in
+the underfitting regime, adversarial training will simply worsen underfitting.

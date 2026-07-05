@@ -1,0 +1,21 @@
+properties should be considered that would be practiced by developers at various degrees of expertise and thus would implicitly be expressed in natural language prompts and specifications. These include:
+
+•
+
+Variable Interdependencies: Tracking state of more than one variable, their interdependencies and nesting, all possible permutations of state, and the relationship between input and output parameters
+
+•
+
+Temporal Reasoning: as consideration of future and past program states including
+
+–
+
+Safety properties entailing that a defined “bad” state never occurs
+
+–
+
+Liveness properties entailing progress towards a specific goal or state
+
+•
+
+Concurrency and Parallelism: Correct and sound reasoning over computational interleavings (for various specification granularities).

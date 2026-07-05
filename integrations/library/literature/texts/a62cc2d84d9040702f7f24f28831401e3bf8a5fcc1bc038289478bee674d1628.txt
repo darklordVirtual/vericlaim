@@ -1,0 +1,14 @@
+A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity. [Detailed specification]
+
+Example 7 ◊
+
+Examples of derivation include the transformation of a relational table into a
+linked data set, the transformation of a canvas into a painting, the transportation of a work of art from London to New York, and a physical transformation such as the melting of ice into water. The focus of derivation is on connecting a generated entity to a used
+entity. While the basic idea is simple, the concept of derivation can be quite
+subtle: implicit is the notion that the generated entity was affected
+in some way by the used entity. If an artifact
+was used by an activity that also generated a new artifact, it does not always follow
+that the second artifact was derived from the first. In the activity
+of creating a painting, an artist may have mixed some paint that was
+never actually applied to the canvas: the painting would typically
+not be considered a derivation from the unused paint.

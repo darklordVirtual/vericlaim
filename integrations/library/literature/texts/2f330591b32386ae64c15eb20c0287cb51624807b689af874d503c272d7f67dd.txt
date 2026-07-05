@@ -1,0 +1,16 @@
+Bowman. SuperGLUE: A stickier benchmark for general-purpose language
+understanding systems. In H. Wallach, H. Larochelle, A. Beygelzimer, F. d'Alché-Buc, E. Fox, and R. Garnett (eds.), Advances in Neural
+Information Processing Systems, volume 32. Curran Associates, Inc.,
+2019a. URL
+https://proceedings.neurips.cc/paper/2019/hash/4496bf24afe7fab6f046bf4923da8de6-Abstract.html. Wang et al. (2020a)
+
+Alex Wang, Kyunghyun Cho, and Mike Lewis. Asking and answering questions to evaluate the factual consistency of
+summaries. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 5008--5020, Online, July
+2020a. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.450. URL https://aclanthology.org/2020.acl-main.450. Wang & Komatsuzaki (2021)
+
+Ben Wang and Aran Komatsuzaki. GPT-J-6B: A 6 billion parameter autoregressive language model, May
+2021. URL https://github.com/kingoflolz/mesh-transformer-jax. Wang et al. (2019b)
+
+Jianfeng Wang, Rong Xiao, Yandong Guo, and Lei Zhang. Learning to count objects with few exemplar annotations,
+2019b. URL https://arxiv.org/abs/1905.07898. Wang et al.

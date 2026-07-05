@@ -1,0 +1,5 @@
+Following v1’s formalism [Yang 2026, Def. 1], we model an action as the tuple
+
+a = (type, tool, description, content, params, session, timestamp),
+
+whose verdict-relevant core is (type, tool, content, params); the session identifier supports the multi-step (RiskChain) view and the per-session memory of §4, and the timestamp orders a session’s stream. We center the discussion on the four core fields. Here type is the channel of effect (e.g., shell, db_query, cloud_api, package_install, http_request, file_write); tool is the specific instrument invoked within that channel (e.g., bash, psql, kubectl, aws, npm, curl); content is the raw, executable payload as the agent emitted it (the literal command line, query string, request body, or file contents); and params is the structured metadata the agent supplies alongside the content (destination host, target resource, scope, flags, credentials referenced). The trust layer sees a exactly as it will be executed — it is an interposition point on the agent’s effector path, not a post-hoc log analyzer.

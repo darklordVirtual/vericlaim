@@ -1,0 +1,14 @@
+7096--7116, Online, November
+2020a. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.576. URL https://aclanthology.org/2020.emnlp-main.576. Bhattamishra et al. (2020b)
+
+Satwik Bhattamishra, Kabir Ahuja, and Navin Goyal. On the practical ability of recurrent neural networks to recognize
+hierarchical languages. In Proceedings of the 28th International Conference on
+Computational Linguistics, pp. 1481--1494, Barcelona, Spain (Online),
+December 2020b. International Committee on Computational
+Linguistics. doi: 10.18653/v1/2020.coling-main.129. URL https://aclanthology.org/2020.coling-main.129. Bhupatiraju et al. (2017)
+
+Surya Bhupatiraju, Rishabh Singh, Abdel-rahman Mohamed, and Pushmeet Kohli. Deep API programmer: Learning to program with APIs, 2017. URL https://arxiv.org/abs/1704.04327. Biderman & Raff (2022)
+
+Stella Biderman and Edward Raff. Neural language models are effective plagiarists, 2022. URL https://arxiv.org/abs/2201.07406. Biermann (1978)
+
+Alan W. Biermann. The inference of regular LISP programs from examples. IEEE Transactions on Systems, Man, and Cybernetics, 8(8):585--600, 1978. doi: 10.1109/TSMC.1978.4310035.

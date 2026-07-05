@@ -1,0 +1,9 @@
+We next show how to control risks defined by adversarial perturbations. We adopt the same notation as Section 4.3. [bates2021distribution] (Section 6.3) discusses the adversarial risk where parametrizes a class of perturbations of , e.g., and . A researcher may want to find an based on such that
+
+(31)
+
+This can be recast as a conformal risk control problem by taking . Then, the following choice of leads to risk control:
+
+(32)
+
+Proposition 4.5. In the setting of Theorem 2.1, (31) is satisfied.

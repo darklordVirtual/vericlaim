@@ -1,0 +1,13 @@
+We can solve A.1 to find an expression for the amount of compute needed to reach a given value of the loss with a model of size :
+
+(B.15)
+
+Using A.6 and A.9, we can eliminate in favor of , the model size which reaches most efficiently. From there, we find an expression for the excess compute needed as a consequence of using a suboptimal model size:
+
+(B.16)
+
+The result is shown in Figure X. Models between 0.6x and 2.2x the optimal size can be used with only a 20% increase in compute budget. Using a smaller model is useful when accounting for the cost inference. A larger model can be trained the the same level of performance in fewer steps, allowing for more parallelism and faster training if sufficient harware is available (see Figure Y):
+
+(B.17)
+
+A 2.2x larger model requires 45% fewer steps at a cost of 20% more training compute. Note that this equation should not be trusted for very large models, as it is only valid in the power-law region of the learning curve after initial transient effects.

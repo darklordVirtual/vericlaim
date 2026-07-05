@@ -1,0 +1,4 @@
+You can call the API by writing ”[Calendar()]” Here are some examples of API calls:
+
+Input: Today is the first Friday of the year. Output: Today is the first [Calendar()] Friday of the year. Input: The president of the United States is Joe Biden. Output: The president of the United States is [Calendar()] Joe Biden. Input: The current day of the week is Wednesday. Output: The current day of the week is [Calendar()] Wednesday. Input: The number of days from now until Christmas is 30. Output: The number of days from now until Christmas is [Calendar()] 30. Input: The store is never open on the weekend, so today it is closed. Output: The store is never open on the weekend, so today [Calendar()] it is closed. Input: x
+Output:

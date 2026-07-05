@@ -11,6 +11,12 @@
     "Lukasz Kaiser",
     "Illia Polosukhin"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:14:45.712394+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/1706.03762"
+  },
+  "fulltext_sha256": "5385d5cee829354f24485e65f816804abb6ecc9f854c4cc91e811157227de049",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "attention-2017",

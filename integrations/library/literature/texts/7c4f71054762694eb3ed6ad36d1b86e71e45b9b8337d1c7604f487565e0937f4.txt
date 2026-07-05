@@ -1,0 +1,6 @@
+We begin with a simple strawman baseline for extracting training data from a language model in a two-step procedure. •
+
+Generate text. We generate a large quantity of data by unconditionally sampling from the model (Section 4.1). •
+
+Predict which outputs contain memorized text. We next remove the generated samples that are unlikely to contain memorized text using a membership inference attack (Section 4.2). These two steps correspond directly to extracting model knowledge (Definition 1),
+and then predicting which strings might be -eidetic memorization (Definition 2).

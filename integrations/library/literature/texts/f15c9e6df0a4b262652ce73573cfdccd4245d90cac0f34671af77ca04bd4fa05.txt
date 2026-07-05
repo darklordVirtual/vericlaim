@@ -1,0 +1,13 @@
+The task of programming presents a unique opportunity to use more grounded
+self-evaluation practices such as self-generated unit test suites. Thus, our
+Reflexion-based programming task implementation is eligible for pass@1
+accuracy reporting. To generate a test suite, we use Chain-of-Thought prompting
+(Wei et al.,, 2022)
+to produce diverse, extensive tests with corresponding natural language descriptions. Then, we filter for syntactically valid test statements by attempting to
+construct a valid abstract syntax tree (AST) for each proposed test. Finally, we
+sample tests from the collection of generated unit tests to produce a
+test suite , denoted as . We set to a maximum
+of 6 unit tests. Aside from the unit test suite component,
+the setup for the learning loop for a Reflexion programming agent is identical
+to the reasoning and decision-making agents with a max memory limit of 1
+experience.

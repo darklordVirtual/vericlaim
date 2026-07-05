@@ -1,0 +1,15 @@
+The figure also makes explicit associations with time for these concepts (time being marked with the primitive stereotype). When not specified, cardinality is assumed to be 0..*. Figure 5 ◊: Entities and Activities Component Overview (Informative)
+
+5.1.1 Entity
+
+An entity ◊ is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary. An entity ◊, written entity(id, [attr1=val1, ...]) in PROV-N, has:
+
+id: an identifier for an entity;
+
+attributes: an OPTIONAL set of attribute-value pairs ((attr1, val1), ...) representing additional information about the fixed aspects of this entity. Example 17 ◊
+
+The following expression
+
+entity(tr:WD-prov-dm-20111215, [ prov:type="document", ex:version="2" ])
+
+states the existence of an entity, denoted by identifier tr:WD-prov-dm-20111215, with type document and version number 2. The attribute ex:version is application specific, whereas the attribute type (see Section 5.7.4.4) is reserved in the PROV namespace.

@@ -1,0 +1,15 @@
+URL https://arxiv.org/abs/2007.01282. Jain et al. (2020)
+
+Kushal Jain, Adwait Deshpande, Kumar Shridhar, Felix Laumann, and Ayushman
+Dash. Indic-transformers: An analysis of transformer language models for
+indian languages, 2020. URL https://arxiv.org/abs/2011.02323. Jarmasz (2012)
+
+Mario Jarmasz. Roget’s Thesaurus as a lexical resource for natural language
+processing. Master’s thesis, University of Ottawa, Ottawa, 2012. URL https://arxiv.org/abs/1204.0140. Jayannavar et al. (2020)
+
+Prashant Jayannavar, Anjali Narayan-Chen, and Julia Hockenmaier. Learning to execute instructions in a Minecraft dialogue. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 2589--2602, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.232. URL https://aclanthology.org/2020.acl-main.232. Jeretic et al. (2020)
+
+Paloma Jeretic, Alex Warstadt, Suvrat Bhooshan, and Adina Williams. Are natural language inference models IMPPRESsive? Learning
+IMPlicature and PRESupposition. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 8690--8705, Online, July 2020.

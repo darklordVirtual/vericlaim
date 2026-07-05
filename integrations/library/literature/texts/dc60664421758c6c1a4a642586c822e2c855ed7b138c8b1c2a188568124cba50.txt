@@ -1,0 +1,5 @@
+Recall that we want our relative utilities to be scaled with respect to the Oracle () and Anti-Oracle () policies, with and . For a confidence estimator , euro is calculated as follows:
+
+(10)
+
+Notice that the is a constant in both relative utilities, so we can cancel those out. The Anti-Oracle policy has no true positives or true negatives (). Also recall that = 1 - .

@@ -1,0 +1,120 @@
+energy, torque, fluid pressure, …
+STEM
+
+High School Psychology
+Behavior, personality, emotions, learning, …
+Social Sciences
+
+High School Statistics
+Random variables, sampling distributions, chi-s quare tests, …
+STEM
+
+High School US History
+Civil War, the Great Depression, The Great Society, …
+Humanities
+
+High School World History
+Ottoman empire, economic imperialism, World War I, …
+Humanities
+
+Human Aging
+Senescence, dementia, longevity, personality changes, …
+Other
+
+Human Sexuality
+Pregnancy, sexual differentiation, sexual orientation, …
+Social Sciences
+
+International Law
+Human rights, sovereignty, law of the sea, use of force, …
+Humanities
+
+Jurisprudence
+Natural law, classical legal positivism, legal realism, …
+Humanities
+
+Logical Fallacies
+No true Scotsman, base rate fallacy, composition fallacy, …
+Humanities
+
+Machine Learning
+SVMs, VC dimension, deep learning architectures, …
+STEM
+
+Management
+Organizing, communication, organizational structure, …
+Other
+
+Marketing
+Segmentation, pricing, market research, …
+Other
+
+Medical Genetics
+Genes and cancer, common chromosome disorders, …
+Other
+
+Miscellaneous
+Agriculture, Fermi estimation, pop culture, …
+Other
+
+Moral Disputes
+Freedom of speech, addiction, the death penalty, …
+Humanities
+
+Moral Scenarios
+Detecting physical violence, stealing, externalities, …
+Humanities
+
+Nutrition
+Metabolism, water-soluble vitamins, diabetes, …
+Other
+
+Philosophy
+Skepticism, phronesis, skepticism, Singer’s Drowning Child, …
+Humanities
+
+Prehistory
+Neanderthals, Mesoamerica, extinction, stone tools, …
+Humanities
+
+Professional Accounting
+Auditing, reporting, regulation, valuation, …
+Other
+
+Professional Law
+Torts, criminal law, contracts, property, evidence, …
+Humanities
+
+Professional Medicine
+Diagnosis, pharmacotherapy, disease prevention, …
+Other
+
+Professional Psychology
+Diagnosis, biology and behavior, lifespan development, …
+Social Sciences
+
+Public Relations
+Media theory, crisis management, intelligence gathering, …
+Social Sciences
+
+Security Studies
+Environmental security, terrorism, weapons of mass destruction, …
+Social Sciences
+
+Sociology
+Socialization, cities and community, inequality and wealth, …
+Social Sciences
+
+US Foreign Policy
+Soft power, Cold War foreign policy, isolationism, …
+Social Sciences
+
+Virology
+Epidemiology, coronaviruses, retroviruses, herpesviruses, …
+Other
+
+World Religions
+Judaism, Christianity, Islam, Buddhism, Jainism, …
+Humanities
+
+Table 2: Summary of all tasks.

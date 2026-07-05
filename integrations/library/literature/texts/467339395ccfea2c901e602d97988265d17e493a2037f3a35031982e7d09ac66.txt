@@ -1,0 +1,6 @@
+Note that the required gradient can be computed efficiently using backpropagation. We find that this method reliably causes a wide variety of models to misclassify their input. See Fig. 1 for a demonstration on ImageNet. We find that using , we cause a shallow softmax classifier to have an error rate of 99.9% with an average confidence of
+79.3% on the MNIST (LeCun+98) test set111This is using MNIST pixel values in the interval [0, 1]. MNIST data
+does contain values other than 0 or 1, but the images are essentially binary. Each pixel roughly encodes
+“ink” or “no ink”. This justifies expecting the classifier to be able to handle perturbations
+within a range of width 0.5, and indeed human observers can read such images without difficulty. . In the same setting, a maxout network misclassifies 89.4%
+of our adversarial examples with an average confidence of 97.6%.

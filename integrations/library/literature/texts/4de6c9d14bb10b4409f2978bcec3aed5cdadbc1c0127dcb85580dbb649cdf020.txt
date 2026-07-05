@@ -1,0 +1,1 @@
+We choose a PraNet \citepfan2020pranet as our base model and used , and evaluated risk control with the remaining validation data points. We report results with in Figure 1. The mean and standard deviation of the risk over 1000 trials are 0.0987 and 0.0114, respectively.

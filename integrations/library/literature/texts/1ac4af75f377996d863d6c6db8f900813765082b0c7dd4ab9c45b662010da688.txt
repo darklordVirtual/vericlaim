@@ -1,0 +1,11 @@
+have the answer set
+
+Formally, here we treat all questions and answers as being composed of sequences (up to size ) of tokens in a vocabulary —i.e., assuming valid answers, we have and , where . Using an open-domain question answering model that individually scores candidate output answers , we calibrate the best token-based F1-score of the prediction set, taken over all pairs of predictions and answers:
+
+(22)
+
+We define the F1-score following popular QA evaluation metrics \citepsquad, where we treat predictions and ground truth answers as bags of tokens and compute the geometric average of their precision and recall (while ignoring punctuation and articles ). Since , as defined in this way, is monotone and upper bounded by , it can be controlled by choosing as in Section 2.1 to achieve the following guarantee:
+
+(23)
+
+We use the Natural Questions (NQ) dataset \citepnq, a popular open-domain question answering baseline, to evaluate our method. We use the splits distributed as part of the Dense Passage Retrieval (DPR) package \citepdpr.

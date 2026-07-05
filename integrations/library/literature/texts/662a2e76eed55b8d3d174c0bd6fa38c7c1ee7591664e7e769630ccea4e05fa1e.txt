@@ -1,0 +1,68 @@
+apply successfully, and of the ones that do, a greater percentage require the post-generation fix, suggesting that models still struggle with patch generation and structured outputs in general. Model
+Retrieval Setting
+Generations
+Applies
+Fixed
+Patch Fix %
+
+ChatGPT-3.5
+BM25 k
+
+%
+
+ChatGPT-3.5
+“Oracle”
+
+%
+
+ChatGPT-3.5
+“Oracle”-collapsed
+
+%
+
+Claude 2
+BM25 k
+
+%
+
+Claude 2
+“Oracle”
+
+%
+
+Claude 2
+“Oracle”-collapsed
+
+%
+
+GPT-4
+“Oracle”
+
+%
+
+GPT-4
+“Oracle”-collapsed
+
+%
+
+SWE-Llama 13b
+BM25 k
+
+%
+
+SWE-Llama 13b
+“Oracle”
+
+%
+
+SWE-Llama 7b
+BM25 k
+
+%
+
+SWE-Llama 7b
+“Oracle”
+
+%
+
+Table 14: Statistics for how many patches for task instances were generated, applied successfully, and required a post-generation fix to apply successfully for each [model, retrieval setting] combination during evaluation.

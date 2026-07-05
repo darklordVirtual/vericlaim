@@ -1,0 +1,13 @@
+Sileo et al. (2019)
+
+Damien Sileo, Tim Van De Cruys, Camille Pradel, and Philippe Muller. Mining discourse markers for unsupervised sentence representation
+learning. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 3477--3486,
+Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1351. URL https://aclanthology.org/N19-1351. Sileo et al. (2020)
+
+Damien Sileo, Tim Van de Cruys, Camille Pradel, and Philippe Muller. DiscSense: Automated semantic analysis of discourse markers. In Proceedings of the 12th Language Resources and Evaluation
+Conference, pp. 991--999, Marseille, France, May 2020. European Language
+Resources Association. URL https://aclanthology.org/2020.lrec-1.125. Sileo et al. (2022)
+
+Damien Sileo, Wout Vossen, and Robbe Raymaekers. Zero-shot recommendation as language modeling.

@@ -1,0 +1,13 @@
+Matrix and vector scaling
+
+are two multi-class extensions of Platt scaling. Let be the logits vector produced before the softmax layer for input . Matrix scaling applies a linear transformation to the logits:
+
+(8)
+
+The parameters and are optimized with respect to NLL on the validation set. As the number of parameters for matrix scaling grows quadratically with the number of classes , we define vector scaling as a variant where is restricted to be a diagonal matrix. Temperature scaling,
+
+the simplest extension of Platt scaling, uses a single scalar parameter for all classes. Given the logit vector , the new confidence prediction is
+
+(9)
+
+is called the temperature, and it “softens” the softmax (i.e. raises the output entropy) with . As , the probability approaches , which represents maximum uncertainty. With , we recover the original probability . As , the probability collapses to a point mass (i.e. ). is optimized with respect to NLL on the validation set. Because the parameter does not change the maximum of the softmax function, the class prediction remains unchanged. In other words, temperature scaling does not affect the model’s accuracy.

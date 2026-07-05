@@ -1,0 +1,9 @@
+Meng et al., 2017; Geva et al., 2021)
+
+analogical_similarity: Denis Kleyko, UC Berkeley and Research Institutes of Sweden (denkle@berkeley.edu), and Cameron Diao, Rice University (cwd2@rice.edu). Task cites: (Plate, 2003; 1994; Thagard et al., 1990; Gentner et al., 1993)
+
+analytic_entailment: Rachel Etta Rudolph, Auburn University (rer0037@auburn.edu); Alexander W. Kocurek, Cornell University (awk78@cornell.edu); and Ethan Jerzak, National University of Singapore (phiejj@nus.edu.sg). Task cites: (Hume, 1739–1740; Kant, 1781/1787; Wittgenstein, 1953; Quine, 1951; Grice & Strawson, 1956; Bolukbasi et al., 2016; Kocurek et al., 2020; Rudolph & Kocurek, 2020; Kocurek & Jerzak, 2021)
+
+arithmetic: Guy Gur-Ari, Google (guyga@google.com). Task cites: (Brown et al., 2020; Saxton et al., 2019)
+
+ascii_word_recognition: Nitish Shirish Keskar, Salesforce (nkeskar@salesforce.com).

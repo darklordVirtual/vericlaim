@@ -1,0 +1,20 @@
+Pass to Pass Tests omitted…
+
+Discussion. In this example from the scikit-learn/scikit-learn library, a model is given an observation that the parities of the output from a call to the
+
+fit_transform
+function are flipped. The model is also given lines of Python code and its standard output that recreates the issue. The gold patch imports and uses the
+
+svd_flip
+function to solve this issue within a different line of the
+
+_fit_transform
+function. What’s different about the model’s failure for this task beyond the points discussed for the Table 24 example is that, in addition to understanding third party dependencies that its edits rely on, it is also important for a model to understand what other parts of the codebase in turn depend on the function it is changing. This example presents a different facet as to why processing long contexts extend beyond the local edit scope is a difficult but worthwhile challenge. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

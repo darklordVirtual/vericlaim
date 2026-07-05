@@ -1,0 +1,5 @@
+Vovk’s first work on random sequences modified Kolmogorov’s [vovk1986firstpaper] definition to better reflect the randomness in an event like a coin toss. Vovk discusses the history of Bernoulli sequences, including the important work done by Martin-Löf and Levin, in the Appendix of [vovk2021testing]. Learning the theory of Bernoulli sequences brought Vovk closer to understanding finite-sample exchangeability and its role in prediction problems. We will make a last note about the contributions of the early probabilists before moving to the modern day. The concept of a nonconformity score came from the idea of (local) randomness deficiency. Consider the sequence
+
+(57)
+
+With a computer, we could write a very short program to identify the ‘1’ in the sequence, since it is atypical — it has a large randomness deficiency. But to identify any particular ‘0’ in the sequence, we must specify its location, because it is so typical — it has a small randomness deficiency. A heuristic understanding suffices here, and we defer the formal definition of randomness deficiency to [mota2013sophistication], avoiding the notation of Turing machines and Kolmogorov complexity.

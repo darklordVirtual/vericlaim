@@ -1,0 +1,39 @@
+equidistant␣from␣two␣integers,␣the␣one␣you␣should␣return␣is␣the␣one␣that␣is␣the␣farthest␣from␣zero.␣For␣example␣closest_integer("14.5")␣should␣return␣15␣and␣closest_integer("-14.5")␣should␣return␣-15. ␣␣␣␣␣␣␣␣"""
+
+from math import floor, ceil
+
+if value.count(".") == 1:
+
+# remove trailing zeros
+
+while value[-1] == "0":
+
+value = value[:-1]
+
+num = float(value)
+
+if value[-2:] == ".5":
+
+if num > 0:
+
+res = ceil(num)
+
+else:
+
+res = floor(num)
+
+elif len(value) > 0:
+
+res = int(round(num))
+
+else:
+
+res = 0
+
+return res
+
+from typing import List
+
+def below_zero(operations: List[int]) -> bool:
+
+"""␣You’re␣given␣a␣list␣of␣deposit␣and␣withdrawal␣operations␣on␣a␣bank␣account␣that␣starts␣with␣zero␣balance.␣Your␣task␣is␣to␣detect␣if␣at␣any␣point␣the␣balance␣of␣account␣fallls␣below␣zero,␣and␣at␣that␣point␣function␣should␣return␣True.␣Otherwise␣it␣should␣return␣False.

@@ -1,0 +1,18 @@
+industry, every component, no matter how simple or
+complex, is accompanied with a datasheet describing its operating
+characteristics, test results, recommended usage, and other
+information. By analogy, we propose that every dataset be accompanied
+with a datasheet that documents its motivation, composition,
+collection process, recommended uses, and so on. Datasheets for
+datasets have the potential to increase transparency and
+accountability within the machine learning community, mitigate
+unwanted societal biases in machine learning models,
+facilitate greater reproducibility of machine learning results, and
+help researchers and practitioners to select more appropriate datasets
+for their chosen tasks. After outlining our objectives below, we describe the process by which
+we developed datasheets for datasets. We then provide a set of
+questions designed to elicit the information that a datasheet for a
+dataset might contain, as well as a workflow for dataset creators to
+use when answering these questions. We conclude with a summary of the
+impact to date of datasheets for datasets and a discussion of
+implementation challenges and avenues for future work.

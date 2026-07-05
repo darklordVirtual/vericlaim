@@ -1,0 +1,1 @@
+We synthetically constructed multiple SFT datapoints from the same instruction by sampling different sets of few-shot examples. For the RM, recall that for every prompt, we collected rankings for outputs (ranging from 4 to 9) and trained the model on all , so the number of ranked pairs we trained the model on is an order of magnitude larger than the number of prompts.

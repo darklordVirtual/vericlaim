@@ -1,0 +1,15 @@
+Reasoning and decision-making
+
+Self-Refine (Madaan et al.,, 2023) employs an iterative framework for
+self-refinement to autonomously improve generation through self-evaluation. These self-evaluation and self-improvement steps are conditioned on
+given task constraints, such as "How can this generation be written
+in a more positive way". Self-Refine is effective
+but is limited to single-generation reasoning tasks. Pryzant et al., (2023)
+performs a similar semantic prompt-writing optimization, but is
+also limited to single-generation tasks. Paul et al., (2023) fine-tune critic models to provide intermediate
+feedback within trajectories to improve reasoning responses. Xie et al., (2023) use stochastic beam search over actions to
+perform a more efficient decision-making search strategy which allows
+the agent to use foresight advantage due to its self-evaluation component. Yoran et al., (2023) and Nair et al., (2023) use decider models
+to reason over several generations. Kim et al., (2023) use a
+retry pattern over a fixed number of steps without an evaluation step. Goodman, (2023) perform a qualitative evaluation step that
+proposes optimizations to the previous generation.

@@ -1,0 +1,10 @@
+Now we define our weights,
+
+(34)
+
+Intuitively, the weight is large when is likely under the new distribution, and is large when the input is likely under the new distribution. We can then express our conformal quantile as the quantile of a reweighted distribution,
+
+(35)
+
+where above for notational convenience we assume that the scores are ordered from smallest to largest a-priori. The choice of quantile is the key step in this algorithm, so we pause to parse it. First of all, notice that the quantile is now a function of an input , although the dependence is only minor. Choosing gives the familiar case of conformal prediction—all points are equally weighted, so we end up choosing the th-smallest score as our quantile. When there is covariate shift, we instead re-weight the calibration
+points with non-equal weights to match the test distribution. If the covariate shift makes easier values of more likely, it makes our quantile smaller. This happens because the covariate shift puts more weight on small scores—see the diagram below. Of course, the opposite holds the covariate shift upweights difficult values of : so the covariate-shift-adjusted quantile grows.

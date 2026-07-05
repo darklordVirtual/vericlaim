@@ -1,0 +1,14 @@
+Robsut wrod reocginiton via semi-character recurrent neural network,
+2016. URL https://arxiv.org/abs/1608.02214. Sakaguchi et al. (2020)
+
+Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. WINOGRANDE: An adversarial Winograd schema challenge at scale. In The Thirty-Fourth AAAI Conference on Artificial
+Intelligence, AAAI-20, pp. 8732--8734, Menlo Park, CA, 2020. Association
+for the Advancement of Artificial Intelligence. URL https://ojs.aaai.org/index.php/AAAI/article/view/6399/6255. Salas-Zárate et al. (2017)
+
+María del Pilar Salas-Zárate, Mario Andrés Paredes-Valverde, Miguel Ángel
+Rodriguez-García, Rafael Valencia-García, and Giner Alor-Hernández. Automatic detection of satire in Twitter: A psycholinguistic-based
+approach. Knowledge-Based Systems, 128:20--33, 2017. doi: https://doi.org/10.1016/j.knosys.2017.04.009. URL
+https://www.sciencedirect.com/science/article/pii/S0950705117301855. Salazar et al. (2020)
+
+Julian Salazar, Davis Liang, Toan Q. Nguyen, and Katrin Kirchhoff. Masked language model scoring. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 2699--2712, Online, July 2020.

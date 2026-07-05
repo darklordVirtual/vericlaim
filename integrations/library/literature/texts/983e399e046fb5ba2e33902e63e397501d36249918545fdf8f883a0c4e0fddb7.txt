@@ -1,0 +1,22 @@
+Garnett, editors, Advances in Neural Information
+Processing Systems 30, pages 5998–6008. Curran Associates, Inc., 2017. URL http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf. [VWB16]
+
+Andreas Veit, Michael Wilber, and Serge Belongie. Residual networks behave like ensembles of relatively shallow
+networks, 2016,
+arXiv:1605.06431. [Was06]
+
+Larry Wasserman. All of nonparametric statistics. Springer Science & Business Media, 2006. [WPN+19]
+
+Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael,
+Felix Hill, Omer Levy, and Samuel R. Bowman. Superglue: A stickier benchmark for general-purpose language
+understanding systems, 2019,
+1905.00537. [WRH17]
+
+Yu-Xiong Wang, Deva Ramanan, and Martial Hebert. Growing a brain: Fine-tuning by increasing model capacity. 2017 IEEE Conference on Computer Vision and Pattern Recognition
+(CVPR), Jul 2017. doi:10.1109/cvpr.2017.323. [WYL19]
+
+Wei Wen, Feng Yan, and Hai Li. Autogrow: Automatic layer growing in deep convolutional networks,
+2019, 1906.02909. [YDY+19]
+
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov,
+and Quoc V. Le.

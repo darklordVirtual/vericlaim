@@ -1,0 +1,13 @@
+We next show that the conformal risk control algorithm does not control the risk if the are not assumed to be monotone. In particular, (3) does not hold. We show this by example. Proposition 2.1. For any , there exists a non-monotone loss function such that
+
+(15)
+
+Notice that for any desired level , the expectation in (3) can be arbitrarily close to . Since the function values here are in , this means that even for bounded random variables, risk control can be violated by an arbitrary amount—unless further assumptions are placed on the . However, the algorithms developed may still be appropriate for near-monotone loss functions. Simply ‘monotonizing’ all loss functions and running conformal risk control will guarantee (3), but this strategy will only be powerful if the loss is near-monotone. For concreteness, we describe this procedure below as a corollary of Theorem 2.1. Corollary 1. Allow to be any (possibly non-monotone) function of satisfying 6. Take
+
+(16)
+
+Then,
+
+(17)
+
+If the loss function is already monotone, then reduces to . We propose a further algorithm for picking in Appendix A that provides an asymptotic risk-control guarantee for non-monotone loss functions.

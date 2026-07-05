@@ -1,0 +1,17 @@
+arXiv preprint arXiv:1905.12801. Radford et al., (2019)
+
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and Sutskever, I. (2019). Language models are unsupervised multitask learners. OpenAI Blog, 1(8):9. Rae et al., (2021)
+
+Rae, J. W., Borgeaud, S., Cai, T., Millican, K., Hoffmann, J., Song, F.,
+Aslanides, J., Henderson, S., Ring, R., Young, S., et al. (2021). Scaling language models: Methods, analysis & insights from training
+gopher. arXiv preprint arXiv:2112.11446. Rajpurkar et al., (2018)
+
+Rajpurkar, P., Jia, R., and Liang, P. (2018). Know what you don’t know: Unanswerable questions for squad. arXiv preprint arXiv:1806.03822. Rudinger et al., (2018)
+
+Rudinger, R., Naradowsky, J., Leonard, B., and Van Durme, B. (2018). Gender bias in coreference resolution. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, New Orleans, Louisiana. Association for Computational
+Linguistics. Sanh et al., (2021)
+
+Sanh, V., Webson, A., Raffel, C., Bach, S. H., Sutawika, L., Alyafeai, Z.,
+Chaffin, A., Stiegler, A., Scao, T. L., Raja, A., et al. (2021).

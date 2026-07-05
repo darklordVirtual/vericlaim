@@ -1,0 +1,11 @@
+of overfitting:
+
+Performance improves predictably as long as we scale up and in tandem, but enters a regime of diminishing returns if either or is held fixed while the other increases. The performance penalty depends predictably on the ratio , meaning that every time we increase the model size 8x, we only need to increase the data by roughly 5x to avoid a penalty. (Section 4)
+
+Universality of training:
+
+Training curves follow predictable power-laws whose parameters are roughly independent of the model size. By extrapolating the early part of a training curve, we can roughly predict the loss that would be achieved if we trained for much longer. (Section 5)
+
+Transfer improves with test performance:
+
+When we evaluate models on text with a different distribution than they were trained on, the results are strongly correlated to those on the training validation set with a roughly constant offset in the loss – in other words, transfer to a different distribution incurs a constant penalty but otherwise improves roughly in line with performance on the training set.

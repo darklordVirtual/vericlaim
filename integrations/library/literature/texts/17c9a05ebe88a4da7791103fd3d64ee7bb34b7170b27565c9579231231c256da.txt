@@ -1,0 +1,33 @@
+Trained trees for these data sets are available in BigML’s public gallery. The last two data sets are used to train regression trees. Without incomplete queries
+
+With incomplete queries
+
+Model
+
+Leaves
+
+Unique IDs
+
+Depth
+
+Queries
+
+Queries
+
+IRS Tax Patterns
+
+Steak Survey
+
+GSS Survey
+
+Email Importance
+
+Email Spam
+
+German Credit
+
+Medical Cover
+
+Bitcoin Price
+
+Table 6: Performance of extraction attacks on public models from BigML. For each model, we report the number of leaves in the tree, the number of unique identifiers for those leaves, and the maximal tree depth. The chosen granularity for continuous features is . Our tree model (see Appendix A) is the one used by BigML. Other ML services use similar tree models. For our experiments, we downloaded eight public decision trees from BigML (see Table 5), and queried them locally using available API bindings. More details on these models are in Appendix B. We show online extraction attacks on black-box models from BigML in Section 5. To emulate black-box model access, we first issue online queries to BigML, to determine the information contained in the service’s responses.

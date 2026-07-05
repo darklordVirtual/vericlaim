@@ -1,0 +1,24 @@
+An overview of our experimental setup is shown in Figure 2. We first build three datasets of generated samples (each of which is tokens long) using one of our strategies:
+
+•
+
+Top- (§4.1) samples naively from the empty sequence. •
+
+Temperature (§5.1.1) increases diversity during sampling. •
+
+Internet (§5.1.2) conditions the LM on Internet text. We order each of these three datasets
+according to each of our six membership inference metrics:
+
+•
+
+Perplexity: the perplexity of the largest GPT-2 model. •
+
+Small: the ratio of log-perplexities of the largest GPT-2 model and the Small GPT-2 model. •
+
+Medium: the ratio as above, but for the Medium GPT-2. •
+
+zlib: the ratio of the (log) of the GPT-2 perplexity and the zlib entropy (as computed by compressing the text). •
+
+Lowercase: the ratio of perplexities of the GPT-2 model on the original sample and on the lowercased sample. •
+
+Window: the minimum perplexity of the largest GPT-2 model across any sliding window of 50 tokens.

@@ -1,0 +1,9 @@
+to be made with regard to the verification of deep neural networks, but formal verification can still be effectively utilised to reinforce non-ML software employed to construct the ML model itself. For example, researchers have demonstrated a methodology in which developers can use an interactive proof assistant to implement their ML system and prove formal theorems that their implementation is free of errors [198]. Others have shown that overflow and underflow errors within supporting software can propagate and affect the functionality of an ML model [199]. Additionally, researchers have identified a number of different run-time errors using a traditional formal methods-based static-analysis tool to analyze YOLO, a commonly used open source ML vision software [140]. Issues identified include:
+
+•
+
+A number of memory leaks, such as files opened and not closed, and temporarily allocated data not freed, leading to unpredictable behavior, crashes, and corrupted data;
+
+•
+
+A large number of calls to free where the validity of the returned data is not checked.

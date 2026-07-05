@@ -1,0 +1,1 @@
+In Figure 31, we show Likert scores for each of our models on our prompt distribution. The results largely track with our preference results in Section 4.1. Figure 31: Likert scores for each of our models

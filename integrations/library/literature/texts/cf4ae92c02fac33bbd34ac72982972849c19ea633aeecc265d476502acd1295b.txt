@@ -1,0 +1,20 @@
+Privacy in pharmacogenetics: An end-to-end case study of personalized
+Warfarin dosing. In USENIX Security (2014), pp. 17–32. [25]
+
+Google Prediction API. https://cloud.google.com/prediction. Accessed Feb. 10, 2016. [26]
+
+Hickey, W. How Americans Like their Steak. http://fivethirtyeight.com/datalab/how-americans-like-their-steak,
+2014. Accessed Feb. 10, 2016. [27]
+
+Hinton, G., Vinyals, O., and Dean, J. Distilling the knowledge in a neural network. arXiv:1503.02531 (2015). [28]
+
+Hornik, K., Stinchcombe, M., and White, H. Multilayer feedforward networks are universal approximators. Neural networks 2, 5 (1989), 359–366. [29]
+
+Huang, L., Joseph, A. D., Nelson, B., Rubinstein, B. I., and Tygar, J. Adversarial machine learning. In AISec (2011), ACM, pp. 43–58. [30]
+
+Jackson, J. An efficient membership-query algorithm for learning DNF with
+respect to the uniform distribution. In FOCS (1994), IEEE, pp. 42–53. [31]
+
+Jagannathan, G., Pillaipakkamnatt, K., and Wright, R. N. A practical differentially private random decision tree classifier. In ICDMW (2009), IEEE, pp. 114–121. [32]
+
+Kloft, M., and Laskov, P. Online anomaly detection under adversarial impact. In AISTATS (2010), pp. 405–412.

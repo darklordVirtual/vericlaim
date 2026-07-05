@@ -1,0 +1,14 @@
+Figure 11:
+When we hold either total compute or number of training steps fixed, performance follows from Equation (5.6). Each value of compute budget has an associated optimal model size that maximizes performance. Mediocre fits at small are unsurprising, as the power-law equation for the learning curves breaks down very early in training. Now we will use defined in Equation (5.4) to obtain a simple and universal fit for the dependence of the loss on model size and training time in the infinite data limit. We will fit the stable, Adam-optimized training runs using Equation (1.6), repeated here for convenience:
+
+(5.6)
+
+for the loss. We include all training steps after the warmup period of the learning rate schedule, and find a fit to the data with the parameters:
+
+Parameter
+
+Value
+
+Table 3: Fits to
+
+With these parameters, we obtain the learning curve fits in Figure 4. Though the fits are imperfect, we believe they are quite compelling given the simplicity of Equation (5.6). The data and fits can be visualized in a different and more interesting way, as shown in Figure 11.

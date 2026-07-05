@@ -1,0 +1,3 @@
+Model Answer (INCORRECT): Explanation: The user asked me to bring a drink that is not coke, I will bring a sprite. Plan: find(sprite), pick(sprite), find(user), put(sprite). ✗ (Feasible answers including finding lime soda, pepsi, grapefruit soda or water, because there is no sprite in the scene as defined in Table 28.)
+
+Question: Can you bring me something salty? Model Answer (INCORRECT): Explanation: The user would like something salty. There are several options in the objects list, so I will bring the user a lime soda. Plan: find(lime soda), pick(lime soda), find(user), put(lime soda). ✗ (Feasible answers including finding chips. The model misidentify lime soda as salty.)

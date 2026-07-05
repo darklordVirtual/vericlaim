@@ -1,0 +1,3 @@
+when when when when when when when when when when when when when when when when when when when when when when when when
+
+Table 3: Unlikelihood samples from TL;DR prompts sampled at temperature 1.0. In general, we find unlikelihood fails to generate meaningful responses for more complex problems such as summarization and dialogue.

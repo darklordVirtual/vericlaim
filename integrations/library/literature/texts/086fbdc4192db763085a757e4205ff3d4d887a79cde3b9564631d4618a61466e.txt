@@ -1,0 +1,17 @@
+There is much work on this topic in the social sciences and legal scholarship;
+we point the reader to Barocas and Selbst [BS16] for an excellent
+entry point to this rich literature. See also the survey by Romei and
+Ruggieri [RR14], and the references at
+http://www.fatml.org/resources.html. In its various equivalent notions, demographic parity
+appears in many papers, such
+as [CKP09, Zli15, BZVGRG15] to name a few. Zemel et al. [ZWS+13] propose an interesting way of achieving
+demographic parity by aiming to learn a representation of the data that is
+independent of the protected attribute, while retaining as much information
+about the features as possible. Louizos et al. [LSL+15] extend
+on this approach with deep variational auto-encoders. Feldman et al. [FFM+15] propose a formalization of “limiting
+disparate impact”. For binary classifiers, the condition states that
+
+The authors argue that this corresponds to the “80% rule” in the legal
+literature. The notion differs from demographic parity mainly in that it
+compares the probabilities as a ratio rather than additively, and in that it
+allows a one-sided violation of the constraint.

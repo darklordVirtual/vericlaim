@@ -1,0 +1,25 @@
+Here we'll take the shipping example and see how to reverse the
+events. The critical thing we need for reversal is to ensure that
+we can accurately calculate the prior state of any object that
+has changed state due to the event. A good place to store this prior data is on the event itself,
+something that works quite well with the example's approach of
+passing the event around the domain objects. Since the domain
+objects have the event to hand, they can easily store information
+on the event for them. The load event makes a simple example. The event carries the
+following source data. class LoadEvent... int _shipCode;
+string _cargoCode;
+internal LoadEvent(DateTime occurred, string cargo, int ship) : base(occurred){
+this._shipCode = ship;
+this._cargoCode = cargo;
+}
+internal Ship Ship {get { return Ship.Find(_shipCode); }}
+internal Cargo Cargo {get { return Cargo.Find(_cargoCode); }}
+
+The processing is handed off to the cargo object, which needs
+to store the port that was the prior location of the cargo. class LoadEvent... internal override void Process() {
+Cargo.HandleLoad(this);
+}
+
+internal Port priorPort;
+
+class Cargo...

@@ -1,0 +1,15 @@
+Suppose the researcher wants to control the risk under a distribution shift. Then the goal in (3) can be redefined as
+
+(24)
+
+where denotes the test distribution that is different from the training distribution that are sampled from. Assuming that is absolutely continuous with respect to , the weighted objective (24) can be rewritten as
+
+(25)
+
+When is known and bounded, we can apply our procedure on the loss function , which is non-decreasing, bounded, and right-continuous in whenever is. Thus, Theorem 2.1 guarantees that the resulting satisfies (25). In the setting of transductive learning, is available to the user. If the conditional distribution of given remains the same in the training and test domains, the distributional shift reduces to a covariate shift and
+
+In this case, we can achieve the risk control even when is unbounded. In particular, assuming , for any potential value of the covariate, we define
+
+(26)
+
+When does not exist, we simply set . It is not hard to see that in the absence of covariate shifts. We can prove the following result. Proposition 4.1.

@@ -1,0 +1,10 @@
+In 2, various conditions
+are measured to analyze performance beyond pass@1 accuracy. Previously, we
+displayed the inferior performance of Reflexion to the baseline GPT-4 on MBPP
+Python. In 2, we observe a notable discrepancy between
+the false positive labels produced by internal test execution, P(not pass@1
+generation correct | tests pass). That is, the probability that a submission
+will fail given that it passes all unit tests. For HumanEval and MBPP Python,
+the baseline pass@1 accuracies are relatively similar, 82% and 80%, respectively. However, the false positive test execution rate for MBPP Python is 16.3% while
+the rate for HumanEval Python is a mere 1.4%, leading to 91% overall accuracy
+1.

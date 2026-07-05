@@ -1,0 +1,13 @@
+Let us first describe what a Bayesian would do, given a Bayesian model , which estimates the value of the posterior distribution of at label with input . If one believed all the necessary assumptions—mainly, a correctly specified model and asymptotically large —the following would be the optimal prediction set:
+
+(12)
+
+However, because we cannot make assumptions on the model and data, we can only consider to be a heuristic notion of uncertainty. Following our now-familiar checklist, we can define a conformal score,
+
+(13)
+
+which is high when the model is uncertain and otherwise low. After computing over the calibration data, we can then construct prediction sets:
+
+(14)
+
+Figure 9: A visualization of the conformalized Bayes algorithm in Eq. (14). The prediction set is a superlevel set of the posterior predictive density. This set is valid because we chose the threshold via conformal prediction. Furthermore, when certain technical assumptions are satisfied, it has the best Bayes risk among all prediction sets with coverage.

@@ -1,0 +1,16 @@
+URL https://arxiv.org/abs/1908.10747. Schuster et al. (2021a)
+
+Tal Schuster, Adam Fisch, and Regina Barzilay. Get your vitamin C! Robust fact verification with contrastive
+evidence. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 624--643, Online, June 2021a. Association
+for Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.52. URL https://aclanthology.org/2021.naacl-main.52. Schuster et al. (2021b)
+
+Tal Schuster, Ashwin Kalyan, Alex Polozov, and Adam Tauman Kalai. Programming puzzles. In Thirty-fifth Conference on Neural Information Processing
+Systems Datasets and Benchmarks Track (Round 1), 2021b. URL https://openreview.net/forum?id=fe_hCc4RBrg. Schölkopf et al. (2021)
+
+Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal
+Kalchbrenner, Anirudh Goyal, and Yoshua Bengio. Towards causal representation learning, 2021. URL https://arxiv.org/abs/2102.11107. Scudellari (2017)
+
+Megan Scudellari. Cryopreservation aims to engineer novel ways to freeze, store, and
+thaw organs. Proceedings of the National Academy of Sciences, 114(50):13060--13062, 2017.

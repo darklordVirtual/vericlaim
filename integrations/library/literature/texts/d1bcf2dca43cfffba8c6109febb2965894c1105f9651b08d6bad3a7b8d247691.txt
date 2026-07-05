@@ -1,0 +1,7 @@
+The ultimate goal of dictionary learning is to produce features that are interpretable and also accurately represent the underlying model. Quantitatively measuring interpretability is currently difficult and slow, so we frequently look at proxy metrics when testing changes or optimizing hyperparameters. Our methods for optimizing hyperparameters are far from perfect, but we want to share insights that may be useful for other researchers doing similar work. We most frequently look at the following proxy metrics:
+
+Training loss: This is the simplest metric, and useful for testing changes such as optimizers or learning rates. Unfortunately, it isn’t meaningful to compare training loss across hyperparameters that change the loss function, such as L1 coefficients. Feature Density Histograms: Specific metrics from these histograms include:
+
+The number of alive features outside of the ultralow density cluster
+
+The minimum feature density at which we see a significant number of non-ultralow-density-cluster features. The number of features with density above 1%. A significant number of features above this level seems to correspond to an L1 coefficient that is too low.

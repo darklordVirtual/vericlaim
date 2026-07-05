@@ -1,0 +1,57 @@
+accessible space’ means any publicly or privately owned physical place accessible to an undetermined number of natural persons, regardless of whether certain conditions for access ma y apply, and regardless of the potential capacity restrictions;
+
+(45)
+
+‘law enforcement authority’ means:
+
+(a)
+
+any public authority competent for the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security; or
+
+(b)
+
+any other body or entity entrusted by Member State law to exercise public authority and public powers for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security;
+
+(46)
+
+‘law enforcement’ means activities carried out by law enforcement authorities or on their behalf for the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including safeguarding against and preventing threats to public security;
+
+(47)
+
+‘AI Office’ means the Commission’s function of contributing to the implementation, monitoring and supervision of AI systems and general-purpose AI models, and AI governance, provided for in Commission Decision of 24 January 2024; references in this Regulation to the AI Office shall be construed as references to the Commission;
+
+(48)
+
+‘national competent authority’ means a notifying authority or a market surveillance authority; as regards AI systems put into service or used by Union institutions, agencies, offices and bodies, references to national competent authorities or market surveillance authorities in this Regulation shall be construed as references to the European Data Protection Supervisor;
+
+(49)
+
+‘serious incident’ means an incident or malfunctioning of an AI system that directly or indirectly leads to any of the following:
+
+(a)
+
+the death of a person, or serious harm to a person’s health;
+
+(b)
+
+a serious and irreversible disruption of the management or operation of critical infrastructure;
+
+(c)
+
+the infringement of obligations under Union law intended to protect fundamental rights;
+
+(d)
+
+serious harm to property or the environment;
+
+(50)
+
+‘personal data’ means personal data as defined in Article 4, point (1), of Regulation (EU) 2016/679;
+
+(51)
+
+‘non-personal data’ means data other than personal data as defined in Article 4, point (1), of Regulation (EU) 2016/679;
+
+(52)
+
+‘profiling

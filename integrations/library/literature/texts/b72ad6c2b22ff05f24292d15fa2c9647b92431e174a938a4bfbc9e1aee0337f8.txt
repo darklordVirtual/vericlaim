@@ -1,0 +1,59 @@
+If Tuple, (’cert’, ’key’) pair. """
+
++
+
++␣␣␣␣␣␣␣␣method␣=␣builtin_str(method)"
+
+Model Generated Patch
+⬇
+diff --git a/requests/sessions.py b/requests/sessions.py
+
+--- a/requests/sessions.py
+
++++ b/requests/sessions.py
+
+@@ -254,7 +254,7 @@ def prepare_request(self, request):
+
+p = PreparedRequest()
+
+p.prepare(
+
+- method=request.method.upper(),
+
++ method=str(request.method).upper(),
+
+url=request.url,
+
+files=request.files,
+
+data=request.data,
+
+Tests
+
+Fail to Pass (6)
+
+test_requests.py::RequestsTestCase::test_DIGEST_AUTH_RETURNS_COOKIE
+
+test_requests.py::RequestsTestCase::test_DIGEST_HTTP_200_OK_GET
+
+test_requests.py::RequestsTestCase::test_different_encodings_dont_break
+
+test_requests.py::RequestsTestCase::test_generic_cookiejar_works
+
+test_requests.py::RequestsTestCase::test_uppercase_scheme_redirect
+
+Pass to Pass (75)
+
+test_requests.py::RequestsTestCase::test_DIGEST_AUTH_SETS_SESSION_COOKIES
+
+test_requests.py::RequestsTestCase::test_DIGEST_STREAM
+
+test_requests.py::RequestsTestCase::test_HTTP_200_OK_GET_ALTERNATIVE
+
+test_requests.py::RequestsTestCase::test_HTTP_200_OK_GET_WITH_PARAMS
+
+test_requests.py::RequestsTestCase::test_HTTP_200_OK_HEAD
+
+Additional Pass to Pass Tests omitted…
+
+Discussion.

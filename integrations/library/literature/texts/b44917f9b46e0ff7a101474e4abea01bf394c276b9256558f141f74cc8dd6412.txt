@@ -1,0 +1,14 @@
+Despite the demand, a vetted methodology for avoiding discrimination against
+protected attributes in machine learning is lacking. A naïve approach might
+require that the algorithm should ignore all protected attributes such as
+race, color, religion, gender, disability, or family status. However, this idea
+of “fairness through unawareness” is ineffective due to the existence of
+redundant encodings, ways of predicting protected attributes from other
+features [PRT08]. Another common conception of non-discrimination is demographic parity. Demographic parity requires that a decision—such as accepting or denying a
+loan application—be independent of the protected attribute. In the case of a
+binary decision and a binary protected
+attribute this constraint can be formalized by asking that
+In other words, membership in a
+protected class should have no correlation with the decision. Through its
+various equivalent formalizations this idea appears in numerous papers. Unfortunately, as was already argued by Dwork et al. [DHP+12], the
+notion is seriously flawed on two counts. First, it doesn’t ensure fairness.

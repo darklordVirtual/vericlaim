@@ -1,0 +1,16 @@
+Few-shot instruction prompts for pretrained language models to detect
+social biases, 2021. URL https://doi.org/10.48550/arXiv.2112.07868. Prentice & Fathman (1975)
+
+Norman M. Prentice and Robert E. Fathman. Joking riddles: A developmental index of children’s humor. Developmental Psychology, 11:210--216, 1975. doi: 10.1037/h0076455. URL https://doi.org/10.1037/h0076455. Priol et al. (2020)
+
+Rémi Le Priol, Reza Babanezhad Harikandeh, Yoshua Bengio, and Simon
+Lacoste-Julien. An analysis of the adaptation speed of causal models, 2020. URL https://arxiv.org/abs/2005.09136. Pustejovsky et al. (2004)
+
+James Pustejovsky, Robert Ingria, Roser Saurí, José Castaño, Jessica
+Littman, Rob Gaizauskas, Andrea Setzer, Graham Katz, and Inderjeet Mani. The specification language TimeML, 2004. URL http://xml.coverpages.org/TimeML-SpecLang200401.pdf. Qimingtong (2016)
+
+Qimingtong. What are the most popular names chinese parents give their babies? a
+perspective from big data. 2016. https://www.qimingtong.com/article/0 (Accessed 3 March 2021). Qin et al. (2021)
+
+Lianhui Qin, Aditya Gupta, Shyam Upadhyay, Luheng He, Yejin Choi, and Manaal
+Faruqui. TIMEDIAL: Temporal commonsense reasoning in dialog.

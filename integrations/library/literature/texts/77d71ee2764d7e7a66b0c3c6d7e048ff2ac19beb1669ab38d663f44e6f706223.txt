@@ -1,0 +1,11 @@
+Some of these issues can be handled by putting the code in
+the data. Using Adaptive Object Models that figure out the
+processing using configurations of objects is one way to do
+this. Another might be embed scripts into your data using some
+directly executable language that doesn't require compilation -
+embedding JRuby into a Java app for example. Of course the
+danger here is keeping under proper configuration control. I
+would be inclined to do it by ensuring any change to the
+processing scripts was handled in the same way as any other
+update - through an event. (Although by now I'm certainly drifting away
+from observation to speculation.)

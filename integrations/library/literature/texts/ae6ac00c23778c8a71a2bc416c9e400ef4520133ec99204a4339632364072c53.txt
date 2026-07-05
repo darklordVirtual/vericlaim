@@ -1,0 +1,29 @@
+USENIX is committed to Open Access to the research presented at our events. Papers and proceedings are freely available to everyone once the event begins. Any video, audio, and/or slides that are posted after the event are also free and open to everyone. Support USENIX and our commitment to Open Access. BibTeX
+
+@inproceedings {236322,
+
+author = {Santiago Torres-Arias and Hammad Afzali and Trishank Karthik Kuppusamy and Reza Curtmola and Justin Cappos},
+
+title = {in-toto: Providing farm-to-table guarantees for bits and bytes},
+
+booktitle = {28th USENIX Security Symposium (USENIX Security 19)},
+
+year = {2019},
+
+isbn = {978-1-939133-06-9},
+
+address = {Santa Clara, CA},
+
+pages = {1393--1410},
+
+url = {https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias},
+
+publisher = {USENIX Association},
+
+month = aug
+
+}
+
+Download
+
+Torres-Arias PDF

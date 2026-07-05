@@ -1,0 +1,15 @@
+In a
+classification task, this error could be a false positive or a false negative. In a ranking task, the error could be a pair where a positive was ranked lower
+than a negative. The most important point is that this is an example that the
+machine learning system knows it got wrong and would like to fix if given the
+opportunity. If you give the model a feature that allows it to fix the error,
+the model will try to use it. On the other hand, if you try to create a feature based upon examples the
+system doesn’t see as mistakes, the feature will be ignored. For instance,
+suppose that in Play Apps Search, someone searches for "free games". Suppose
+one of the top results is a less relevant gag app. So you create a feature for
+"gag apps". However, if you are maximizing number of installs, and people
+install a gag app when they search for free games, the "gag apps" feature
+won’t have the effect you want. Once you have examples that the model got wrong, look for trends that are
+outside your current feature set. For instance, if the system seems to be
+demoting longer posts, then add post length. Don’t be too specific about the
+features you add.

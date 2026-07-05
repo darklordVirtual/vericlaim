@@ -1,0 +1,14 @@
+As mentioned in the main text, we analyze 50 chains of thought from LaMDA 137B that led to correct answers in the GSM8K dataset. Of these 50, only one arrived at the correct answer through incorrect reasoning (shown in Table 9: “correct by chance”). The other 49 had correct logic and math, with examples shown in Table 8. Five had minor imperfections while maintaining coherent and understandable logic:
+
+•
+
+One had underspecified statements (shown in Table 9: “correct but underspecified statements”). •
+
+One made an unrelated but correct statement (shown in Table 9: “correct but unrelated statement”). •
+
+Two had the correct logic but omitted specific steps in the equation, though it was still understandable (shown in Table 9: “correct but imperfect equation”). •
+
+One had the correct math but inverted the semantics (shown in Table 9: “correct but inverted semantics”)
+
+Table 8:
+Example of correct chains of thought produced by the model for the GSM8K dataset. Question: James decides to run 3 sprints 3 times a week. He runs 60 meters each sprint. How many total meters does he run a week? Model Answer (CORRECT): James decides to run 3 sprints 3 times a week. He runs 60 meters each sprint.

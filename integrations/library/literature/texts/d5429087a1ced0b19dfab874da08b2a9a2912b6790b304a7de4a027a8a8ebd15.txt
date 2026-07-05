@@ -1,0 +1,14 @@
+The equal opportunity classifier does make it easier for defaulters to
+get loans if they are minorities, but the incentives are aligned properly. Under max profit, a small group may not be worth figuring out how to
+classify and so be treated poorly, since the classifier can’t identify
+the qualified individuals. Under equal opportunity, such
+poorly-classified groups are instead treated better than
+well-classified groups. The cost is thus born by the company using
+the classifier, which can decide to invest in better classification,
+rather than the classified group, which cannot. Equalized odds gives
+a similar, but much stronger, incentive since the cost for a small
+group is not proportional to its size. While race blindness achieves high profit, the fairness guarantee is
+quite weak. As with max profit, small groups may be classified poorly
+and so treated poorly, and the company has little incentive to improve
+the accuracy. Furthermore, when race is redundantly encoded, race
+blindness degenerates into max profit.

@@ -1,0 +1,86 @@
+Llama2-FT, which is the baseline LM trained on the same instruction-output pairs as Self-Rag without retrieval or self-reflection and is retrieval-augmented at test time only, lags behind Self-Rag. This result indicates Self-Rag gains are not solely from training data and demonstrate the effectiveness of Self-Rag framework. (a) Ablation
+
+PQA
+
+Med
+
+AS
+
+(acc)
+
+(acc)
+
+(em)
+
+Self-Rag (50k)
+
+45.5
+
+73.5
+
+32.1
+
+\hdashlineTraining
+
+No Retriever
+
+43.6
+
+67.8
+
+31.0
+
+No Critic
+
+42.6
+
+72.0
+
+18.1
+
+\hdashlineTest
+
+No retrieval
+
+24.7
+
+73.0
+
+–
+
+Hard constraints
+
+28.3
+
+72.6
+
+–
+
+Retrieve top1
+
+41.8
+
+73.1
+
+28.6
+
+Remove
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsSup
+
+44.1
+
+73.2
+
+30.6
+
+(b) Customization
+
+(c) Retrieval
+
+(a) Ablation
+(d) Analysis on Self-Rag: (a) Ablation studies for key components of Self-Rag training and inference based on our 7B model. (b) Effects of soft weights on ASQA citation precision and Mauve (fluency). (c) Retrieval frequency and normalized accuracy on PubHealth and PopQA. Table 12: Instructions and demonstrations for
+\tikzmarknode[draw=myblue,thick,inner sep=2pt]test
+IsUse
+
+tokens.

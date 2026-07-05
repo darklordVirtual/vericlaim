@@ -1,0 +1,71 @@
+Mre details about these data sets are in Appendix B. Data set
+
+Synthetic
+
+# records
+
+# classes
+
+# features
+
+Circles
+
+Yes
+
+Moons
+
+Yes
+
+Blobs
+
+Yes
+
+-Class
+
+Yes
+
+Adult (Income)
+
+No
+
+Adult (Race)
+
+No
+
+Iris
+
+No
+
+Steak Survey
+
+No
+
+GSS Survey
+
+No
+
+Digits
+
+No
+
+Breast Cancer
+
+No
+
+Mushrooms
+
+No
+
+Diabetes
+
+No
+
+Table 3: Data sets used for extraction attacks. We train two models on the Adult data, with targets ‘Income’ and ‘Race’. SVMs and binary logistic regressions are trained on data sets with classes. Multiclass regressions and neural networks are trained on multiclass data sets. For decision trees, we use a set of public models shown in Table 5. Before training, we remove rows with missing
+values, apply one-hot-encoding to categorical features, and scale all
+numeric features to the range . We train our models
+over a randomly chosen subset of of the data, and keep the rest for
+evaluation (i.e., to calculate ). We discuss the impact of different
+pre-processing and feature extraction steps in Section 5, when we evaluate equation-solving attacks
+on production ML services. 4.1.1 Binary logistic regression
+
+As a simple starting point, we consider the case of logistic regression (LR).

@@ -1,0 +1,21 @@
+Goues et al. (2012)
+
+Goues, C. L., Dewey-Vogt, M., Forrest, S., and Weimer, W. A systematic study of automated program repair: Fixing 55 out of 105
+bugs for $8 each. 2012 34th International Conference on Software Engineering
+(ICSE), pp. 3–13, 2012. Graves (2014)
+
+Graves, A. Generating sequences with recurrent neural networks, 2014. Graves et al. (2014)
+
+Graves, A., Wayne, G., and Danihelka, I. Neural turing machines. arXiv preprint arXiv:1410.5401, 2014. Graves et al. (2016)
+
+Graves, A., Wayne, G., Reynolds, M., Harley, T., Danihelka, I.,
+Grabska-Barwińska, A., Colmenarejo, S. G., Grefenstette, E., Ramalho, T.,
+Agapiou, J., et al. Hybrid computing using a neural network with dynamic external memory. Nature, 538(7626):471–476, 2016. Gulwani (2011)
+
+Gulwani, S. Automating string processing in spreadsheets using input-output
+examples. In PoPL’11, January 26-28, 2011, Austin, Texas, USA, January
+2011. Gulwani et al. (2012)
+
+Gulwani, S., Harris, W. R., and Singh, R. Spreadsheet data manipulation using examples. Commun. ACM, 55:97–105, 2012. He et al. (2020)
+
+He, P., Liu, X., Gao, J., and Chen, W. Deberta: Decoding-enhanced bert with disentangled attention.

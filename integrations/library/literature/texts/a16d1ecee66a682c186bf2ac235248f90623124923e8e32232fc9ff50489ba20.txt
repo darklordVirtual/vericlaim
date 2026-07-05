@@ -1,0 +1,41 @@
+∎
+
+Proposition 4.2. Define the vector , where for all . Let
+
+By sublinearity,
+
+(68)
+
+It is a standard fact that (68) implies
+
+(69)
+
+where . Let be a bounded loss function. Furthermore, let . Since ,
+
+(70)
+
+Furthermore, since are exchangeable, we can apply Theorems 2.1 and 2.2 to , recovering
+
+(71)
+
+A final step of triangle inequality implies the result:
+
+(72)
+
+∎
+
+Proposition 4.3. It is left to prove that satisfies the conditions of Theorem 2.1. It is clear that and is non-increasing in when is. Since is non-increasing and right-continuous, for any sequence ,
+
+Thus, is right-continuous. Finally, implies . ∎
+
+Proposition 4.4. Examining (30), for each , we have
+
+(73)
+
+Thus, dividing both sides by and taking the supremum, we get that , and the worst-case risk is controlled. ∎
+
+Proposition 4.5. Because is bounded and monotone in for all choices of , it is also true that is bounded and monotone. Furthermore, the pointwise supremum of right-continuous functions is also right-continuous. Therefore, the satisfy the assumptions of Theorem 2.1. ∎
+
+Proposition 4.6. Let
+
+Since , exists almost surely.

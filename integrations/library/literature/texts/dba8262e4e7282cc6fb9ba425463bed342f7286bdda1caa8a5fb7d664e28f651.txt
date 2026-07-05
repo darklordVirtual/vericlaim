@@ -1,0 +1,13 @@
+a detailed code snippet of where the problematic source code is suspected to be, as well as some code examples for reproducing the error and additional information related to package versions. For this particular instance, the model did not resolve the task, failing to pass some of the tests resolved by the gold solution. In the “oracle” retrieval setting, the model input provides this issue text along with some instructions, the full contents of files edited by the gold patch, and an example of the diff format we expect the answer to be in. The total model input consists of lines of context or tokens. When comparing the gold patch and the model’s patch, we find an obvious mistake. While the model edits the correct function,
+
+_parse_other_parameters_section
+at line in
+
+sphinx/ext/napoleon/docstring.py
+, it changes the function to behave as if
+
+napoleon. use_param
+were always True instead of checking the config setting first and copying what the
+
+_parse_parameters_section
+does, like the gold patch.

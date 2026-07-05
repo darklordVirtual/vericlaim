@@ -1,0 +1,15 @@
+comprising both core and extended structures, is a domain-agnostic model, but with clear extensibility points allowing further domain-specific and
+application-specific extensions to be defined. The PROV data model has a modular design and is structured according to six components covering various facets of provenance:
+
+component 1: entities and activities, and the time at which they were created, used, or ended;
+
+component 2: derivations of entities from others;
+
+component 3: agents bearing responsibility for entities that were generated and activities that happened;
+
+component 4: bundles, a mechanism to support provenance of provenance;
+
+component 5: properties to link entities that refer to the same thing;
+
+component 6: collections forming a logical structure for its members. This specification presents the concepts of the PROV data model, and
+provenance types and relations, without specific concern for how they are applied. With these, it becomes possible to write useful provenance, and publish or embed it alongside the data it relates to.

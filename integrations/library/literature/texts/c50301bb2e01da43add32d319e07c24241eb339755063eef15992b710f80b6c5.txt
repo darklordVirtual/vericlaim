@@ -1,0 +1,22 @@
+[ACDE12]
+
+Eduardo G Altmann, Giampaolo Cristadoro, and Mirko Degli Esposti. On the origin of long-range correlations in texts. Proceedings of the National Academy of Sciences,
+109(29):11582–11587, 2012. [AS17]
+
+Madhu S. Advani and Andrew M. Saxe. High-dimensional dynamics of generalization error in neural networks. arXiv, 2017,
+1710.03667. [BB01]
+
+Michele Banko and Eric Brill. Scaling to very very large corpora for natural language
+disambiguation. In Proceedings of the 39th annual meeting on association for
+computational linguistics, pages 26–33. Association for Computational
+Linguistics, 2001. [BHMM18]
+
+Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal. Reconciling modern machine learning and the bias-variance trade-off. arXiv, 2018,
+1812.11118. [Bia12]
+
+GÃŠrard Biau. Analysis of a random forests model. Journal of Machine Learning Research, 13(Apr):1063–1095, 2012. [CGRS19]
+
+Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. CoRR, abs/1904.10509, 2019,
+1904.10509. URL http://arxiv.org/abs/1904.10509. [DCLT18]
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.

@@ -1,0 +1,19 @@
+arXiv preprint arXiv:1909.08053, 2019. [64]
+
+Reza Shokri and Vitaly Shmatikov. Privacy-preserving deep learning. In ACM CCS, 2015. [65]
+
+Reza Shokri, Marco Stronati, Congzheng Song, and Vitaly Shmatikov. Membership inference attacks against machine learning models. In IEEE S&P, 2017. [66]
+
+Congzheng Song and Ananth Raghunathan. Information leakage in embedding models. In ACM CCS, 2020. [67]
+
+Congzheng Song and Vitaly Shmatikov. Auditing data provenance in text-generation models. In KDD, 2018. [68]
+
+Om Thakkar, Swaroop Ramaswamy, Rajiv Mathews, and Françoise Beaufays. Understanding unintended memorization in federated learning. arXiv preprint arXiv:2006.07490, 2020. [69]
+
+Abhradeep Guha Thakurta, Andrew H. Vyrros, Umesh S. Vaishampayan, Gaurav
+Kapoor, Julien Freudiger, Vivek Rangarajan Sridhar, and Doug Davidson. Learning new words, 2017. US Patent 9,594,741. [70]
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In NIPS, 2017. [71]
+
+Kit Walsh.

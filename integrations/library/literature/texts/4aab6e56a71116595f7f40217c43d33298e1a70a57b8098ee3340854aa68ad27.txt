@@ -1,0 +1,15 @@
+(2019)
+
+Aida Amini, Saadia Gabriel, Shanchuan Lin, Rik Koncel-Kedziorski, Yejin Choi,
+and Hannaneh Hajishirzi. MathQA: Towards interpretable math word problem solving with
+operation-based formalisms. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 2357--2367,
+Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1245. URL https://aclanthology.org/N19-1245. Ammanabrolu et al. (2019)
+
+Prithviraj Ammanabrolu, William Broniec, Alex Mueller, Jeremy Paul, and Mark O. Riedl. Toward automated quest generation in text-adventure games, 2019. URL https://arxiv.org/abs/1909.06283. Ammanabrolu et al. (2020)
+
+Prithviraj Ammanabrolu, Wesley Cheung, Dan Tu, William Broniec, and Mark O. Riedl. Bringing stories alive: Generating interactive fiction worlds, 2020. URL https://arxiv.org/abs/2001.10161. Amodei et al. (2016)
+
+Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and
+Dan Mané. Concrete problems in AI safety, 2016. URL https://arxiv.org/abs/1606.06565.

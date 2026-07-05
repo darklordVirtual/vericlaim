@@ -1,0 +1,7 @@
+and approximate the left-hand and right-hand sides of (1) respectively for bin . Therefore, a perfectly calibrated model will have for all . Note that reliability diagrams do not display the proportion of samples in a given bin, and thus cannot be used to estimate how many samples are calibrated. Expected Calibration Error (ECE). While reliability diagrams are useful visual tools, it is more convenient to have a scalar summary statistic of calibration. Since statistics comparing two distributions cannot be comprehensive, previous works have proposed variants, each with a unique emphasis. One notion of miscalibration is the difference in expectation between confidence and accuracy, i.e. (2)
+
+Expected Calibration Error (Naeini et al., 2015) – or ECE – approximates (S1) by partitioning predictions into equally-spaced bins (similar to the reliability diagrams) and taking a weighted average of the bins’ accuracy/confidence difference. More precisely,
+
+(3)
+
+where is the number of samples. The difference between and for a given bin represents the calibration gap (red bars in reliability diagrams – e.g. Figure 1). We use ECE as the primary empirical metric to measure calibration.

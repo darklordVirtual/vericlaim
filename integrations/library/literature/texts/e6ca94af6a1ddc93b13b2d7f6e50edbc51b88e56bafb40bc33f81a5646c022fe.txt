@@ -1,0 +1,16 @@
+Extracting training data from large language models. In 30th USENIX Security Symposium (USENIX Security 21). USENIX Association, August 2021. URL
+https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting. Chen et al. (2020)
+
+Chen, M., Radford, A., Child, R., Wu, J., Jun, H., Luan, D., and Sutskever, I. Generative pretraining from pixels. In International Conference on Machine Learning, pp. 1691–1703. PMLR, 2020. Child et al. (2019)
+
+Child, R., Gray, S., Radford, A., and Sutskever, I. Generating long sequences with sparse transformers. ArXiv, abs/1904.10509, 2019. Christiano (2018)
+
+Christiano, P. Clarifying ”ai alignment”. AI Alignment Forum, 2018. URL
+https://www.alignmentforum.org/posts/ZeE7EKHTFMBs8eMxn/clarifying-ai-alignment. Clarkson et al. (2014)
+
+Clarkson, M. R., Finkbeiner, B., Koleini, M., Micinski, K. K., Rabe, M. N., and
+Sánchez, C. Temporal logics for hyperproperties. In International Conference on Principles of Security and
+Trust, pp. 265–284. Springer, 2014. Clement et al. (2020)
+
+Clement, C., Drain, D., Timcheck, J., Svyatkovskiy, A., and Sundaresan, N. Pymt5: Multi-mode translation of natural language and python code
+with transformers.

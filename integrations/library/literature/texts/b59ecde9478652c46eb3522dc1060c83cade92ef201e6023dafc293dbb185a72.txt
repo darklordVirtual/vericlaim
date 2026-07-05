@@ -1,0 +1,16 @@
+Liang et al. (2020b)
+
+Zujie Liang, Weitao Jiang, Haifeng Hu, and Jiaying Zhu. Learning to contrast the counterfactual samples for robust visual
+question answering. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 3285--3292, Online, November
+2020b. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.265. URL https://aclanthology.org/2020.emnlp-main.265. Lin et al. (2020)
+
+Bill Yuchen Lin, Seyeon Lee, Rahul Khanna, and Xiang Ren. Birds have four legs?! NumerSense: probing numerical commonsense
+knowledge of pre-trained language models. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 6862--6868, Online, November
+2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.557. URL https://aclanthology.org/2020.emnlp-main.557. Lin et al. (2021a)
+
+Bill Yuchen Lin, Ziyi Wu, Yichi Yang, Dong-Ho Lee, and Xiang Ren. Riddlesense: Reasoning about riddle questions featuring linguistic
+creativity and commonsense knowledge, 2021a. URL https://arxiv.org/abs/2101.00376. Lin et al. (2019)
+
+Kevin Lin, Oyvind Tafjord, Peter Clark, and Matt Gardner.

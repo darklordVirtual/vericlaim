@@ -1,0 +1,17 @@
+Show your work: Scratchpads for intermediate computation with
+language models, 2021. URL https://arxiv.org/abs/2112.00114. Reed et al. (2022)
+
+Scott Reed, Konrad Zolna, Emilio Parisotto, Sergio Gomez Colmenarejo, Alexander
+Novikov, Gabriel Barth-Maron, Mai Gimenez, Yury Sulsky, Jackie Kay,
+Jost Tobias Springenberg, Tom Eccles, Jake Bruce, Ali Razavi, Ashley Edwards,
+Nicolas Heess, Yutian Chen, Raia Hadsell, Oriol Vinyals, Mahyar Bordbar, and
+Nando de Freitas. A generalist agent, 2022. URL https://arxiv.org/abs/2205.06175. Shridhar et al. (2020a)
+
+Mohit Shridhar, Jesse Thomason, Daniel Gordon, Yonatan Bisk, Winson Han,
+Roozbeh Mottaghi, Luke Zettlemoyer, and Dieter Fox. Alfred: A benchmark for interpreting grounded instructions for
+everyday tasks. In Proceedings of the IEEE/CVF conference on computer vision
+and pattern recognition, pp. 10740–10749, 2020a. Shridhar et al. (2020b)
+
+Mohit Shridhar, Xingdi Yuan, Marc-Alexandre Côté, Yonatan Bisk, Adam
+Trischler, and Matthew Hausknecht. Alfworld: Aligning text and embodied environments for interactive
+learning. arXiv preprint arXiv:2010.03768, 2020b. Shuster et al.

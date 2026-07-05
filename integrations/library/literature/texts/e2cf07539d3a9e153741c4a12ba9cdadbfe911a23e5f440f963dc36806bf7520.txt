@@ -1,0 +1,16 @@
+Raffel et al. [2019]
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer. arXiv e-prints, 2019. URL https://arxiv.org/abs/1910.10683. Roberts et al. [2020]
+
+Adam Roberts, Colin Raffel, and Noam Shazeer. How much knowledge can you pack into the parameters of a language
+model? arXiv e-prints, 2020. URL https://arxiv.org/abs/2002.08910. Robertson and Zaragoza [2009]
+
+Stephen Robertson and Hugo Zaragoza. The probabilistic relevance framework: Bm25 and beyond. Found. Trends Inf. Retr., 3(4):333–389,
+April 2009. ISSN 1554-0669. doi: 10.1561/1500000019. URL https://doi.org/10.1561/1500000019. Solaiman et al. [2019]
+
+Irene Solaiman, Miles Brundage, Jack Clark, Amanda Askell, Ariel Herbert-Voss,
+Jeff Wu, Alec Radford, and Jian-Bing Wang. Release strategies and the social impacts of language models. ArXiv, abs/1908.09203, 2019. Sukhbaatar et al. [2015]
+
+Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-end memory networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R.

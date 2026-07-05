@@ -1,0 +1,1 @@
+Table 6: Prompts used for the Webshop experiments in Section 4. We use the prompt on the left for Act, and use the prompt on the right (add reasoning) for \model.

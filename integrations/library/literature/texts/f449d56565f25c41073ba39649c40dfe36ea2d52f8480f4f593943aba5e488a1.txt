@@ -1,0 +1,8 @@
+(gaditya, mfaruqui, shyamupa, luheng)@google.com; Yejin Choi, University of Washington and AI2 (yejin@cs.washington.edu); and Lianhui Qin, University of Washington (lianhuiq@cs.washington.edu). Task cites: (Qin et al., 2021; Li et al., 2017; Zhou et al., 2019)
+
+topical_chat: Behnam Hedayatnia, Karthik Gopalakrishnan, Anu Venkatesh, Anna Gottardi, and Raefer Gabriel, Amazon (behnam, karthgop, anuvenk, gottardi, raeferg)@amazon.com; Sanjeev Kwatra, Bluevine (sanjeevkwatra0@gmail.com), and Qinlang Chen, Google (qinlangchen@gmail.com). Task cites: (Gopalakrishnan et al., 2019; Mehri & Eskenazi, 2020; Gopalakrishnan et al., 2020; Hedayatnia et al., 2020)
+
+tracking_shuffled_objects: James B. Simon, UC Berkeley (james.simon@berkeley.edu). Task cites: (Liu et al., 2020b; Dong et al., 2020)
+
+training_on_test_set: Jascha Sohl-Dickstein, Google (jaschasd@google.com)
+truthful_qa: Stephanie Lin and Owain Evans, University of Oxford (sylin07, owaine)@gmail.com; and William Saunders, Jacob Hilton, and Elizabeth Barnes, OpenAI (william, jhilton, barnes)@openai.com.

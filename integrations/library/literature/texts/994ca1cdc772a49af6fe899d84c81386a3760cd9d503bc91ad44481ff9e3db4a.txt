@@ -1,0 +1,13 @@
+We can use conformal prediction to turn this heuristic uncertainty notion into rigorous prediction intervals of the form . 2.3.2 Other 1-D Uncertainty Estimates
+
+More generally, we assume there is a function such that larger values encode more uncertainty. This single number can have many interpretations beyond the standard deviation. For example, one instance of an uncertainty scalar simply involves the user creating a model for the magnitude of the residual. In that setting, the user would first fit a model that predicts from . Then, they would fit a second model (possibly the same neural network), that predicts . If were perfect, we would expect the set to have perfect coverage. However, our learned model of the error is often poor in practice. There are many more such uncertainty scalars than we can discuss in this document in detail, including
+
+1. measuring the variance of across an ensemble of models,
+
+2. measuring the variance of when randomly dropping out a fraction of nodes in a neural net,
+
+3. measuring the variance of to small, random input perturbations,
+
+4. measuring the variance of over different noise samples input to a generative model,
+
+5.

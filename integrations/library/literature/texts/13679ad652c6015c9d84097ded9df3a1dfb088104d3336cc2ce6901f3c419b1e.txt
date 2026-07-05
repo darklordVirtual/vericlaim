@@ -1,0 +1,10 @@
+Instead, we show in section 3 that random projections of are semantically
+indistinguishable from the coordinates of . This puts into question
+the conjecture that neural networks disentangle variation factors across coordinates. Generally, it seems that it is the entire space of activations,
+rather than the individual units, that contains the bulk of the semantic information. A similar, but even stronger conclusion was reached recently by Mikolov et al. [12] for word representations, where the various directions
+in the vector space representing the words are shown to give rise to a
+surprisingly rich semantic encoding of relations and analogies. At the same time, the vector representations are stable up to a rotation of the
+space, so the individual units of the vector representations are unlikely to
+contain semantic information. The second property is concerned with the stability of neural networks with respect to small
+perturbations to their inputs. Consider a state-of-the-art
+deep neural network that generalizes well on an object recognition task.

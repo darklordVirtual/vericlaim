@@ -1,0 +1,15 @@
+The two previous sections offer two different perspectives on the provenance of a document. PROV allows for multiple sources to provide the provenance of a subject. For users to decide whether they can place their trust in the document, they may want to analyze its provenance, but also determine who the provenance is attributed to, and when it was
+generated, etc. In other words, we need to be able to express the provenance of provenance. PROV-DM offers a construct to name a bundle of provenance descriptions (full details: ex:author-view). bundle ex:author-view
+
+agent(ex:Paolo, [ prov:type='prov:Person' ])
+agent(ex:Simon, [ prov:type='prov:Person' ])
+
+... endBundle
+
+Likewise, the process view can be expressed as a separate named bundle (full details: ex:process-view). bundle ex:process-view
+
+agent(w3:Consortium, [ prov:type='prov:Organization' ])
+
+... endBundle
+
+To express their respective provenance, these bundles must be seen as entities, and all PROV constructs are now available to express their provenance. In the example below, ex:author-view is attributed to the agent ex:Simon, whereas ex:process-view to w3:Consortium.

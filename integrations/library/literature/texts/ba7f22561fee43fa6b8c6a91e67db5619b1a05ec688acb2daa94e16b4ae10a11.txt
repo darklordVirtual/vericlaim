@@ -1,0 +1,5 @@
+In particular, let be the TV distance between the th data point and the test data point. The TV distance is a measure of how much the distribution has shifted—a large (close to ) means the th data point is not representative of the new test point. The result states that if discounts those points with large shifts, the coverage remains close to . Theorem 4 (Conformal prediction under distribution drift [barber2022conformal]). Suppose . Then the choice of above satisfies
+
+(41)
+
+When either factor in the product is small, that means that the th data point doesn’t result in loss of coverage. In other words, if there isn’t much distribution shift, we can place a high weight on that data point without much penalty, and vice versa. Setting above, we can also see that when there is no distribution shift, there is no loss in coverage regardless of what choice of weights is used—this fact had been observed previously in [guan2020conformal, tibshirani2019conformal]. The are never known exactly in advance—we only have some heuristic sense of their size.

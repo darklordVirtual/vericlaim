@@ -1,0 +1,7 @@
+Naver Labs Europe (german.kruszewski@naverlabs.com); Marco Marelli, University of Milano-Bicocca (marco.marelli@unimib.it); and Stanislas Dehaene, NeuroSpin, France (stanislas.dehaene@gmail.com). Task cites: (Lakretz et al., 2021b; 2019; Linzen et al., 2016; Gulordava et al., 2018; Marvin & Linzen, 2018; Goldberg, 2019; Lakretz et al., 2021a; Wolf, 2019)
+
+sudoku: Adrià Garriga-Alonso, University of Cambridge (adria.garriga@gmail.com). Task cites: (Wang et al., 2019c; Russell & Norvig, 2002; Garcez & Lamb, 2020; Huang et al., 2018; Hendrycks et al., 2021c)
+
+sufficient_information: Sam Dillavou, University of Pennsylvania (dillavou@sas.upenn.edu)
+
+suicide_risk: Jekaterina Novikova, NoOverfitting Lab (novikova.jekaterina@gmail.com), and Ksenia Shkaruta, NoOverfitting Lab and Georgia Tech (ksenia@shkaruta.com).

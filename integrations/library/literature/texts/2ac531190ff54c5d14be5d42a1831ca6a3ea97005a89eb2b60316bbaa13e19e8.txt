@@ -1,0 +1,17 @@
+In Proceedings of the AAAI Conference on Artificial
+Intelligence, volume 34, pages 7432–7439, 2020. Borgeaud et al. (2021)
+
+S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican,
+G. van den Driessche, J.-B. Lespiau, B. Damoc, A. Clark, D. de Las Casas,
+A. Guy, J. Menick, R. Ring, T. Hennigan, S. Huang, L. Maggiore, C. Jones,
+A. Cassirer, A. Brock, M. Paganini, G. Irving, O. Vinyals, S. Osindero,
+K. Simonyan, J. W. Rae, E. Elsen, and L. Sifre. Improving language models by retrieving from trillions of tokens. arXiv 2112.04426, 2021. Bradbury et al. (2018)
+
+J. Bradbury, R. Frostig, P. Hawkins, M. J. Johnson, C. Leary, D. Maclaurin,
+G. Necula, A. Paszke, J. VanderPlas, S. Wanderman-Milne, and Q. Zhang. JAX: composable transformations of Python+NumPy programs. 2018. URL http://github.com/google/jax. Brown et al. (2020)
+
+T. Brown, B. Mann, N. Ryder, M. Subbiah, J. D. Kaplan, P. Dhariwal,
+A. Neelakantan, P. Shyam, G. Sastry, A. Askell, S. Agarwal, A. Herbert-Voss,
+G. Krueger, T. Henighan, R. Child, A. Ramesh, D. Ziegler, J. Wu, C. Winter,
+C. Hesse, M. Chen, E. Sigler, M. Litwin, S. Gray, B. Chess, J. Clark,
+C. Berner, S. McCandlish, A. Radford, I. Sutskever, and D.

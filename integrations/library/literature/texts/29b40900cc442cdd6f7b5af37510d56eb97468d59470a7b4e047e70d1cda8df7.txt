@@ -1,0 +1,13 @@
+by IEC 61508) for several decades, and have more recently been adopted by some tech companies for specific applications.107107107See Infer, an open source static analyzer (https://fbinfer.com/). However, the rapid introduction of machine learning in these environments has posed a great challenge from both a regulatory and system assurance point of view. The lack of applicable formal verification techniques for AI systems stifles the assurance avenues required to build trust (i.e., regulations, verification, and validation), curbing the potential innovation and benefits to be gained from their deployment. The following open research problems must thus be addressed to allow formal verification to contribute to trust in AI development:
+
+•
+
+Creation of specifications unique to AI, with corresponding mathematical frameworks, to contribute to assurance of AI systems;
+
+•
+
+Creation of novel formal verification techniques which can address the newly defined specifications mentioned above; and
+
+•
+
+Collaboration between ML and verification researchers resulting in deep learning systems that are more amenable to verification [202].

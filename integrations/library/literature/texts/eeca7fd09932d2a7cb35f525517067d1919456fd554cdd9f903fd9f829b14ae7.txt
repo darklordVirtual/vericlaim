@@ -1,0 +1,14 @@
+Say you join doc ids with a table containing features for those docs (such as
+number of comments or clicks). Between training and serving time, features in
+the table may be changed. Your model's prediction for the same document may
+then differ between training and serving. The easiest way to avoid this sort
+of problem is to log features at serving time (see
+Rule #32
+). If the table is
+changing only slowly, you can also snapshot the table hourly or daily to get
+reasonably close data. Note that this still doesn’t completely resolve the
+issue. Rule #32: Re-use code between your training pipeline and your serving pipeline whenever possible. Batch processing is different than online processing. In online processing,
+you must handle each request as it arrives (e.g. you must do a separate lookup
+for each query), whereas in batch processing, you can combine tasks (e.g. making a join). At serving time, you are doing online processing, whereas
+training is a batch processing task. However, there are some things that you
+can do to re-use code.

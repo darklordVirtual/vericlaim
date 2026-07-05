@@ -1,0 +1,1 @@
+5: Results on the SCITLDR dev set evaluated at different Rouge-L thresholds to test threshold sensitivity on gemma3-12b-it. Lower smECE is better, while higher auc-euro is better.

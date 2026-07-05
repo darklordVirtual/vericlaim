@@ -1,0 +1,5 @@
+Some examples of linearized API calls inserted into text sequences are shown in Figure 1. Given a dataset of plain texts, we first convert this dataset into a dataset augmented with API calls. This is done in three steps, illustrated in Figure 2: First, we exploit the in-context learning ability of to sample a large number of potential API calls. We then execute these API calls and finally check whether the obtained responses are helpful for predicting future tokens; this is used as a filtering criterion. After filtering, we merge API calls for different tools, resulting in the augmented dataset , and finetune itself on this dataset. Each of these steps is described in more detail below. Sampling API Calls
+
+For each API, we write a prompt that encourages the LM to annotate an example with API calls. An example of such a prompt for a question answering tool is shown in Figure 3; all prompts used are shown in Appendix A.2. Let be the probability that assigns to token as a continuation for the sequence . We first sample up to candidate positions for doing API calls by computing, for each , the probability
+
+that assigns to starting an API call at position .

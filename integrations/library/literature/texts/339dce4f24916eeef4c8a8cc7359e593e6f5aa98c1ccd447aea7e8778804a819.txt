@@ -1,0 +1,10 @@
+On the defense side, Llama Guard (Inan et al., 2023) fine-tunes
+an LLM as an input–output safety classifier, achieving strong
+performance on content safety taxonomies but not addressing
+tool-call authorization. NeMo Guardrails (Rebedea et al., 2023) provides a programmable
+rail system for controlling LLM dialogue flows using Colang
+scripts; while effective for conversational safety, it operates
+at the dialogue layer and does not enforce execution-layer isolation. These systems address complementary concerns to LGA:
+Llama Guard and NeMo Guardrails focus on content safety
+(preventing harmful text generation), whereas LGA targets
+execution safety (preventing unauthorized tool invocations). A complete agent governance stack would integrate both.

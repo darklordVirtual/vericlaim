@@ -1,0 +1,13 @@
+capability to serve a variety of purposes, both for direct use as well as for integration in other AI systems;
+
+(67)
+
+‘floating-point operation’ means any mathematical operation or assignment involvi ng floating-point numbers, which are a subset of the real numbers typically represented on computers by an integer of fixed precision scaled by an integer exponent of a fixed base;
+
+(68)
+
+‘downstream provider’ means a provider of an AI system, including a general-purpose AI system, which integrates an AI model, regardless of whether the AI model is provided by themselves and vertically integrated or provided by another entity based on contractual relations. Article 4
+
+AI literacy
+
+Providers and deployers of AI systems shall take measures to ensure, to their best extent, a sufficient level of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf, taking into account their technical knowledge, experience, education and training and the context the AI systems are to be used in, and considering the persons or groups of persons on whom the AI systems are to be used.

@@ -1,0 +1,20 @@
+five LLM
+judges—which produce binary ALLOW/BLOCK verdicts—achieve
+single operating points in the upper-left region of ROC space
+(TPR 0.93, FPR 0.36), well above both
+NLI curves at every threshold. While our experiments focus on Layer 2, microbenchmarks on the
+same hardware confirm that the remaining layers add negligible
+overhead:
+Layer 1 (process-level isolation via unshare) adds
+ms per sandbox spawn (P50=0.95 ms, P99=2.6 ms);
+Layer 3 (HMAC-SHA256 token signing/verification plus JSON
+schema validation) completes in ms per call;
+Layer 4 (append-only audit log with fsync) adds
+4–12 ms per durable write (P50=4.1 ms, P99=11.6 ms),
+or ms if buffered.333The higher L4 P50 in the end-to-end pipeline
+(16.5 ms, Table 9) reflects increased
+fsync latency under concurrent I/O; the
+microbenchmark value (4.1 ms) measures isolated writes. Thus, the dominant latency contributor in a full LGA deployment
+is Layer 2 intent verification (–2,200 ms at default
+configuration; with output capping, Qwen3.5-9B reduces to
+303 ms, see Sect.

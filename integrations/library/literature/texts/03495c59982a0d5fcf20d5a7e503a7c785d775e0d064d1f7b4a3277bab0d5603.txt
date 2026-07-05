@@ -1,0 +1,19 @@
+5.4.2 Bundle Type
+
+A bundle is a named set of descriptions, but it is also an entity so that its provenance can be described. PROV defines the following type for bundles ◊:
+
+prov:Bundle ◊ is the type that denotes Bundle entities. PROV defines no bundle-specific attributes. A bundle description is of the form entity(id, [ prov:type='prov:Bundle', attr1=val1, ...] )
+where id is an identifier denoting a bundle,
+a type prov:Bundle and
+an OPTIONAL set of attribute-value pairs ((attr1, val1), ...) representing additional information about this bundle. The provenance of provenance can then be described using PROV constructs, as illustrated by
+Example 40
+and
+Example 41. Example 40 ◊
+
+Let us consider two entities ex:report1 and ex:report2. entity(ex:report1, [ prov:type="report", ex:version=1 ])
+wasGeneratedBy(ex:report1, -, 2012-05-24T10:00:01)
+entity(ex:report2, [ prov:type="report", ex:version=2])
+wasGeneratedBy(ex:report2, -, 2012-05-25T11:00:01)
+wasDerivedFrom(ex:report2, ex:report1)
+
+Let us assume that Bob observed the creation of ex:report1. A first bundle can be expressed.

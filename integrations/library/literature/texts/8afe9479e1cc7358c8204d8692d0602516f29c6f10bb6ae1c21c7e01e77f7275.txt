@@ -1,0 +1,16 @@
+Aghajanyan et al. (2021)
+
+Armen Aghajanyan, Dmytro Okhonko, Mike Lewis, Mandar Joshi, Hu Xu, Gargi Ghosh,
+and Luke Zettlemoyer. 2021. Htlm: Hyper-text
+pre-training and prompting of language models. Agichtein and Gravano (2000)
+
+Eugene Agichtein and Luis Gravano. 2000. Snowball: Extracting
+relations from large plain-text collections. In Proceedings of the Fifth ACM Conference on Digital
+Libraries, DL ’00, page 85–94, New York, NY, USA. Association for
+Computing Machinery. Baeza-Yates et al. (1999)
+
+Ricardo Baeza-Yates, Berthier Ribeiro-Neto, et al. 1999. Modern information retrieval, volume 463. ACM press New York. Berant et al. (2013)
+
+Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang. 2013. Semantic parsing on
+Freebase from question-answer pairs. In Proceedings of the 2013 Conference on Empirical Methods in
+Natural Language Processing, pages 1533–1544, Seattle, Washington, USA. Association for Computational Linguistics. Borgeaud et al.

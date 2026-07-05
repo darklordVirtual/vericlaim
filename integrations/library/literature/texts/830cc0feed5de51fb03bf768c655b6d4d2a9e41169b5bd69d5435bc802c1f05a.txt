@@ -1,0 +1,22 @@
+Looking at just the processing, this is just an unnecessary
+level of indirection. The interesting difference is when we look
+at what persists in the application after a few changes. Let's
+imagine some simple changes:
+
+The Ship 'King Roy' departs San Francisco
+
+The Ship 'Prince Trevor' arrives at Los Angeles
+
+The Ship 'King Roy' arrives in Hong Kong
+
+With the basic service, we see just the final state captured by
+the ship objects. I'll refer to this as the application state. Figure 3: State after a few
+movements tracked by simple tracker. With Event Sourcing we also capture each event. If we are using a
+persistent store the events will be persisted just the same as the
+ship objects are. I find it useful to say that we are persisting
+two different things an application state
+and an event log. Figure 4: State after a few
+movements tracked by event sourced tracker. The most obvious thing we've gained by using Event Sourcing is that we
+now have a log of all the changes. Not just can we see where each
+ship is, we can see where it's been. However this is a small
+gain.

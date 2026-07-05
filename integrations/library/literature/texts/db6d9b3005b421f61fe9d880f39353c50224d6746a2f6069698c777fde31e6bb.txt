@@ -1,0 +1,19 @@
+For instance, in the following prompt, Codex-12B does not decrement the variable w and also fails to return the product of all numbers. ⬇
+
+def do_work(x, y, z, w):
+
+"""␣Add␣3␣to␣y,␣then␣subtract␣4
+
+␣␣␣␣from␣both␣x␣and␣w.␣Return␣the
+
+␣␣␣␣product␣of␣the␣four␣numbers.␣"""
+
+t = y + 3
+
+u = x - 4
+
+v = z * w
+
+return v
+
+This understanding of Codex’s limited system-level synthesis capabilities helps inform our assessment of the potential hazards of using it in a generative capacity, as well as the broader societal impacts that such systems could have.

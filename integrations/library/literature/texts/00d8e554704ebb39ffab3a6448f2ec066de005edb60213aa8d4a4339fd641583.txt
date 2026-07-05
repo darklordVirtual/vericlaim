@@ -1,0 +1,16 @@
+Association for
+Computational Linguistics. Kwiatkowski et al. (2019)
+
+Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur
+Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin,
+Kenton Lee, Kristina Toutanova, Llion Jones, Matthew Kelcey, Ming-Wei Chang,
+Andrew M. Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov. 2019. Natural questions: A
+benchmark for question answering research. Transactions of the Association for Computational Linguistics,
+7:452–466. Lazaridou et al. (2022)
+
+Angeliki Lazaridou, Elena Gribovskaya, Wojciech Stokowiec, and Nikolai
+Grigorev. 2022. Internet-augmented language models through few-shot prompting for
+open-domain question answering. arXiv preprint arXiv:2203.05115. Lewis et al. (2019)
+
+Patrick Lewis, Barlas Oğuz, Ruty Rinott, Sebastian Riedel, and Holger
+Schwenk. 2019. Mlqa: Evaluating cross-lingual extractive question answering. arXiv preprint arXiv:1910.07475. Lin et al.

@@ -1,0 +1,15 @@
+Women’s participation in open source software: A survey of the
+literature. arXiv preprint arXiv:2105.08777, 2021. Tufano et al. (2019)
+
+Tufano, M., Watson, C., Bavota, G., Penta, M. D., White, M., and Poshyvanyk, D. An empirical study on learning bug-fixing patches in the wild via
+neural machine translation. ACM Transactions on Software Engineering and Methodology
+(TOSEM), 28:1 – 29, 2019. Tufano et al. (2020)
+
+Tufano, M., Drain, D., Svyatkovskiy, A., Deng, S. K., and Sundaresan, N. Unit test case generation with transformers and focal context. 2020. Van Oord et al. (2016)
+
+Van Oord, A., Kalchbrenner, N., and Kavukcuoglu, K. Pixel recurrent neural networks. In International Conference on Machine Learning, pp. 1747–1756. PMLR, 2016. Vaswani et al. (2017)
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N.,
+Kaiser, L. u., and Polosukhin, I. Attention is all you need. In Guyon, I., Luxburg, U. V., Bengio, S., Wallach, H., Fergus, R.,
+Vishwanathan, S., and Garnett, R. (eds.), Advances in Neural
+Information Processing Systems, volume 30. Curran Associates, Inc., 2017.

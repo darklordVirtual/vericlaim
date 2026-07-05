@@ -1,0 +1,17 @@
+third party (whether an individual researcher, regulatory body, or consumer advocacy group) can examine Oak’s source code and confirm that the implementation matches the expected behavior. With the correctness of Oak confirmed insofar as possible, a given Oak virtual machine needs to be able to attest that it is running the "correct" binary of Oak. This attestation makes it possible for the client (or sending enclave) to assure itself that the requesting enclave will follow any policies on the data, because it knows that the Oak policy enforcement system is running on that enclave and is "truly" Oak - that is: matches the binary of Oak known from the open source repository. Usability and independent auditability are crucial to an Oak system’s utility. Four types of actors are expected to interact with Oak:
+
+•
+
+End users: people who will use Oak apps;
+
+•
+
+Application developers: people who will build Oak apps;
+
+•
+
+Policy authors: people who will define and manage the policies that accompany the data in an Oak app;
+
+•
+
+Verifiers: people who will add credibility to an Oak app by verifying that the policy is upheld.

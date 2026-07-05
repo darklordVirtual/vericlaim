@@ -1,0 +1,29 @@
+GCG could be further improved by e.g., building a version of ARCA (Jones et al., 2023) that adopts a similar all-coordinates strategy, but we here focus on the more basic approach for simplicity. Algorithm 2 Universal Prompt Optimization
+
+Prompts , initial suffix , losses , iterations , , batch size
+
+Start by optimizing just the first prompt
+
+repeat times
+
+for do
+
+Compute aggregate top- substitutions
+
+for do
+
+Initialize element of batch
+
+, where
+
+Select random replacement token
+
+, where
+
+Compute best replacement
+
+if succeeds on and then
+
+Add the next prompt
+
+Optimized prompt suffix

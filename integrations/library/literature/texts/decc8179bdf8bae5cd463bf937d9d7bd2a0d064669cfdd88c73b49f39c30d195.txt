@@ -1,0 +1,9 @@
+Of course, the opposite holds the covariate shift upweights difficult values of : so the covariate-shift-adjusted quantile grows. With this quantile function in hand, we form our prediction set in the standard way,
+
+(36)
+
+By accounting for the covariate shift in our choice of , we were able to make our calibration data look exchangeable with the test point, achieving the following guarantee. Theorem 3 (Conformal prediction under covariate shift [tibshirani2019conformal]). Suppose are drawn i.i.d. from and that is drawn independently from . Then the choice of above satisfies
+
+(37)
+
+Conformal prediction under various distribution shifts is an active and important area of research with many open challenges. This algorithm addresses a somewhat restricted case—that of a known covariate shift—but is nonetheless quite practical.

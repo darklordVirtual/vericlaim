@@ -1,0 +1,16 @@
+The reason we trained two networks for is to study the
+cumulative effect of changing the hypermarameters and the training sets at
+the same time. Models FC100-100-10 and FC100-100-10 share the same
+hyperparameters: both of them are 100-100-10 networks, while FC123-456-10 has
+different number of hidden units. In this experiment, we were distorting the
+elements of the test set rather than the training set. Table 3 summarizes the
+basic facts about these models. After we generate adversarial examples with
+error rates with minimum distortion for the test set, we feed these examples to
+the each of the models. The error for each model is displayed in the corresponding
+column of the upper part of Table 4. In the last experiment, we magnify the effect of our distortion by using the
+examples rather than . This magnifies the
+distortion on average by 40%, from stddev to . The so distorted examples
+are fed back to each of the models and the error rates are displayed in the
+lower part of Table 4. The intriguing conclusion is
+that the adversarial examples remain hard for models trained even on a disjoint
+training set, although their effectiveness decreases considerably.

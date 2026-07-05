@@ -1,0 +1,5 @@
+However, it is often the best way, especially if is known in advance. The reason is that the intervals generated via quantile regression even without conformal prediction, i.e. , have good coverage to begin with. Furthermore, they have asymptotically valid conditional coverage (a concept we will explain in Section 3). These properties propagate through the conformal procedure and lead to prediction sets with good performance. One attractive feature of quantile regression is that it can easily be added on top of any base model simply by changing the loss function to a quantile loss (informally referred to as a pinball loss),
+
+(8)
+
+The reader can think of quantile regression as a generalization of L1-norm regression: when , the loss function reduces to , which encourages to converge to the conditional median. Changing just modifies the L1 norm as in the illustration above to target other quantiles. In practice, one can just use a quantile loss instead of MSE at the end of any algorithm, like a neural network, in order to regress to a quantile.

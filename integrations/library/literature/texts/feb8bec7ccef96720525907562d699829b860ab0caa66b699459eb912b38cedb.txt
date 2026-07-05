@@ -1,0 +1,35 @@
+The vocabulary is very similar– 94.15% of tokens are the same as those used for training Gopher. We find that this particularly helps with the representation of mathematics and chemistry, for example. •
+
+Whilst the forward and backward pass are computed in bfloat16, we store a float32 copy of the weights in the distributed optimiser state (Rajbhandari et al., 2020). See Lessons Learned from Rae et al. (2021) for additional details. Model
+Layers
+Number Heads
+Key/Value Size
+dmodel
+Max LR
+Batch Size
+
+Gopher 280B
+
+80
+
+128
+
+128
+
+16,384
+
+3M 6M
+
+Chinchilla 70B
+
+80
+
+64
+
+128
+
+8,192
+
+1.5M 3M
+
+Table 4: Chinchilla architecture details. We list the number of layers, the key/value size, the bottleneck activation size d, the maximum learning rate, and the training batch size (# tokens). The feed-forward size is always set to . Note that we double the batch size midway through training for both Chinchilla and Gopher. In Appendix G we show the impact of the various optimiser related changes between Chinchilla and Gopher. All models in this analysis have been trained on TPUv3/TPUv4 (Jouppi et al., 2017) with JAX (Bradbury et al., 2018) and Haiku (Hennigan et al., 2020).

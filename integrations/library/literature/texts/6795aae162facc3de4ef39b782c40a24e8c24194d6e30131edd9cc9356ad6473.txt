@@ -1,0 +1,6 @@
+Anders Andreassen, David Dohan, Aitor Lewkowycz, Isaac Noble, Noah Fiedel, and Kristen Chiafullo, Google (ajandreassen, ddohan, alewkowycz, isaacn, nfiedel, chiafullo)@google.com; Kaustubh D. Dhole, Amelia R&D (kaustubhdhole@hotmail.com); Adrià Garriga-Alonso, University of Cambridge (adria.garriga@gmail.com); Stella Biderman, EleutherAI (stella@eleuther.ai); and Tariq Ali (tra38@nau.edu). Task cites: (Hendrycks et al., 2020; Lourie et al., 2020)
+
+simple_text_editing: Timofei Kornev, University of Potsdam and TomTom GmbH (timofei.kornev.1996@gmail.com); and
+Roman Sitelew (sitelewr@gmail.com). Task cites: (Branwen, 2020; Malmi et al., 2019; Faltings et al., 2020)
+
+snarks: Trenton Chang, University of Michigan (ctrenton@umich.edu), and Ryan Chi, Ian Ng, Jeremy Kim, Ethan A. Chi, and William Zhang, Stanford University (ryanchi, iyhn8192, jk23541)@stanford.edu, (ethanchi, wxyz)@cs.stanford.edu.

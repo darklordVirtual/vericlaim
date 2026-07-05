@@ -1,0 +1,15 @@
+The simplest way to think of using Event Sourcing is to calculate a
+requested application state by starting from a blank application state
+and then applying the events to reach the desired state. It's equally
+simple to see why this is a slow process, particularly if there are
+many events. In many applications it's more common to request recent
+application states, if so a faster alternative is to store the current
+application state and if someone wants the special features that
+Event Sourcing offers then that additional capability is built on top. Application states can be stored either in memory or on disk. Since an application state is purely derivable from the event log, you
+can cache it anywhere you like. A system in use during a working day
+could be started at the beginning of the day from an overnight snapshot
+and hold the current application state in memory. Should it crash it
+replays the events from the overnight store. At the end of the working
+day a new snapshot can be made of the state. New snapshots can be made
+at any time in parallel without bringing down the running
+application.

@@ -1,0 +1,16 @@
+A computer using language models and
+deep learning, that’s who!, 2017. URL https://arxiv.org/abs/1705.10272. Yang et al. (2015)
+
+Diyi Yang, Alon Lavie, Chris Dyer, and Eduard Hovy. Humor recognition and humor anchor extraction. In Proceedings of the 2015 Conference on Empirical Methods in
+Natural Language Processing, pp. 2367--2376, Lisbon, Portugal, September
+2015. Association for Computational Linguistics. doi: 10.18653/v1/D15-1284. URL https://aclanthology.org/D15-1284. Yang & Deng (2019)
+
+Kaiyu Yang and Jia Deng. Learning to prove theorems via interacting with proof assistants,
+2019. URL https://arxiv.org/abs/1905.09381. Yang & Shafto (2017)
+
+Scott Cheng-Hsin Yang and Patrick Shafto. Explainable artificial intelligence via Bayesian teaching. Workshop on Teaching Machines, Robots, and Humans, NIPS 2017,
+2017. URL
+http://shaftolab.com/assets/papers/yangShafto_NIPS_2017_machine_teaching.pdf. Yeh et al. (2009)
+
+Eric Yeh, Daniel Ramage, Christopher D. Manning, Eneko Agirre, and Aitor Soroa. WikiWalk: Random walks on Wikipedia for semantic relatedness. In Proceedings of the 2009 Workshop on Graph-based Methods for
+Natural Language Processing (TextGraphs-4), pp.

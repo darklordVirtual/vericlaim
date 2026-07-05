@@ -1,0 +1,7 @@
+The details are subtle, so we carefully work through them here. The key idea is that the coverage of conformal prediction conditionally on the calibration set is a random quantity. That is, if we run the conformal prediction algorithm twice, each time sampling a new calibration dataset, then check the coverage on an infinite number of validation points, those two numbers will not be equal. The coverage property in (1) says that coverage will be at least on average over the randomness in the calibration set, but with any one fixed calibration set, the coverage on an infinite validation set will be some number that is not exactly . Nonetheless, we can choose large enough to control these fluctuations in coverage by analyzing its distribution. In particular, the distribution of coverage has an analytic form, first introduced by Vladimir Vovk in [vovk2012conditional], namely,
+
+(16)
+
+where
+
+Notice that the conditional expectation above is the coverage with an infinite validation data set, holding the calibration data fixed. A simple proof of this fact is available in [vovk2012conditional]. We plot the distribution of coverage for several values of in Figure 11.

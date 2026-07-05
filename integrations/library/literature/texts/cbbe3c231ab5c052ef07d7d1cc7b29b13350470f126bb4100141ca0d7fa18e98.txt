@@ -1,0 +1,21 @@
+We use the following notation:
+
+•
+
+– the cross entropy loss in nats. Typically it will be averaged over the tokens in a context, but in some cases we report the loss for specific tokens within the context. •
+
+– the number of model parameters, excluding all vocabulary and positional embeddings
+
+•
+
+– an estimate of the total non-embedding training compute, where is the batch size, and is the number of training steps (ie parameter updates). We quote numerical values in PF-days, where one PF-day floating point operations. •
+
+– the dataset size in tokens
+
+•
+
+– the critical batch size [MKAT18], defined and discussed in Section 5.1. Training at the critical batch size provides a roughly optimal compromise between time and compute efficiency. •
+
+– an estimate of the minimum amount of non-embedding compute to reach a given value of the loss. This is the training compute that would be used if the model were trained at a batch size much less than the critical batch size. •
+
+– an estimate of the minimal number of training steps needed to reach a given value of the loss.

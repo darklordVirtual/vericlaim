@@ -1,0 +1,9 @@
+On BigML, queries consume at least credits, costing –, depending on the user’s subscription. Attack scenarios. We now describe possible motivations for adversaries to perform model extraction attacks. We then present a
+more detailed threat model informed by characteristics of the aforementioned ML services. Avoiding query charges. Successful monetization of
+prediction queries by the owner of an ML model requires confidentiality of . A malicious user may seek to launch what we call a cross-user model extraction attack, stealing
+for subsequent free use. More subtly, in black-box-only settings (e.g., Google and Amazon),
+a service’s business model may involve
+amortizing up-front training costs by charging users for future predictions. A model extraction attack will undermine the provider’s business
+model if a malicious user pays less for training and extracting than for paying per-query charges. Violating training-data privacy. Model extraction could, in turn, leak information about sensitive training data. Prior
+attacks such as model inversion [24, 23, 4] have shown that
+access to a model can be abused to infer information about training set points.

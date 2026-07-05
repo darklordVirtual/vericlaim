@@ -1,0 +1,14 @@
+Other examples are input scaling and one-hot-encoding of categorical features. We focus primarily on classification settings in which
+predicts a nominal variable ranging over
+a set of classes. Given classes, we use as class labels the set
+. If , the model returns only the predicted class label. In some
+applications, however, additional information is often helpful, in the form of
+real-valued measures of confidence on the labels output by the model; these measures are called confidence values. The output space is then . For a given and , we denote by the
+component of . The value
+is a model-assigned probability that has associated class label . The model’s predicted class is defined by the value , i.e., the most probable label. We associate with a distance measure
+. We drop the subscript when it is clear from
+context. For
+we use 0-1 distance, meaning if and otherwise. For ,
+we use the 0-1 distance when comparing predicted classes; when comparing class probabilities directly, we instead use the total
+variation distance, given by . In the rest of
+this paper, unless explicitly specified otherwise, refers to the 0-1 distance over class labels. Training algorithms.

@@ -1,0 +1,3 @@
+On both the CIFAR datasets, these two mechanisms achieve nearly identical results. However, on ImageNet,
+the simpler SR mechanism is significantly superior. More importantly, we show that almost any desirable risk level can be guaranteed with a surprisingly high coverage. For example, an unprecedented 2% error in top-5 ImageNet classification can be
+guaranteed with probability 99.9%, and almost 60% test coverage.

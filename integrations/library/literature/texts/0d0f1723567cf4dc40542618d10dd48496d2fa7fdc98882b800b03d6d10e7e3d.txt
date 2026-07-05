@@ -1,0 +1,1 @@
+In words, the confidence set is all values of such that the hypothetical data point is consistent with the other data, as judged by this permutation test. We again refer the reader to [vovk2005algorithmic] for more on this viewpoint on conformal prediction.

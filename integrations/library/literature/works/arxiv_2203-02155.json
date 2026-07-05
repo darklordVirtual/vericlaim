@@ -23,6 +23,12 @@
     "Jan Leike",
     "Ryan Lowe"
   ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-05T13:15:33.764367+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2203.02155"
+  },
+  "fulltext_sha256": "e5510c0ec02704c4c4a2b74af70eafcbee8e0c8fc77a2b2e1fb07fd0b194fbc7",
   "registrar": "arxiv",
   "retrieval": {
     "canon_id": "instructgpt-2022",

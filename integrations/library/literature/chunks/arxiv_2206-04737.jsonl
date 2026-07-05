@@ -1,0 +1,115 @@
+{"fsid": "arxiv_2206-04737", "n": 114, "overlap": 200, "source_sha256": "b937709f98ce5660010c6884d0276f2087163ccc174353e96c3bab08d7fb0551", "target": 1200}
+{"section": "", "seq": 0, "sha256": "4a8e1d8953dba9039502c6639d790477ed698636de0d1062376ff71906542c47"}
+{"section": "Outsider Oversight: Designing a Third Party Audit Ecosystem for AI Governance", "seq": 1, "sha256": "3c935a856f56ff94c7ce1f45319b70664ca11549ede54531a98a2efe8228405a"}
+{"section": "Outsider Oversight: Designing a Third Party Audit Ecosystem for AI Governance", "seq": 2, "sha256": "fd3f5ab3c632094f9c31e3b6cdcfb0d64647c143468a8b47800bb8e97e4fcd71"}
+{"section": "1. Introduction", "seq": 3, "sha256": "ad2e1a2624f48698559c55f074b57475b96f0c19d920600fe6a0feb1eb0bdfa7"}
+{"section": "1. Introduction", "seq": 4, "sha256": "fb268a45a60d3301ea546c364b4317765e73c1b198489a9d6dd8cbea95e75a54"}
+{"section": "1. Introduction", "seq": 5, "sha256": "413232ab9560619056642609d21f0f538b96c1e3fa0fe0118e01ba7f61388c46"}
+{"section": "1. Introduction", "seq": 6, "sha256": "c3402cacd062b8ab99418beefaf1e37d655f5aadaf427c6f28cf5a44b1629bf9"}
+{"section": "1. Introduction", "seq": 7, "sha256": "6bfa4baa4dfcc6f15aa466bff338e91f1f70d111dfd0de36eee11009556b4c45"}
+{"section": "1. Introduction", "seq": 8, "sha256": "64e18807bf19f6966dd93a07fb2bcc4c49718ac2b2c563edd55c4a6a1bec3ee9"}
+{"section": "1. Introduction", "seq": 9, "sha256": "be8a9d41fae254cda1939ad0f13870b4f9fe32109345ef143103879367e9e6ce"}
+{"section": "2. The Current U.S. AI Audit Policy Landscape", "seq": 10, "sha256": "298c2f80c5f9525c83770b5d3a4229990093fbf2cd074b068f164f7a22535b59"}
+{"section": "2.1. Terminology", "seq": 11, "sha256": "d5d6a6a0e3ca0386324976743d05ff3a4b3bd317b1fd0c696a0635614376d3bb"}
+{"section": "2.1. Terminology", "seq": 12, "sha256": "9b83b312c1ef9cf168a127eea0bbd47bcd7f213ebc3aa35a3615a80d150c7da6"}
+{"section": "2.1. Terminology", "seq": 13, "sha256": "3bca43243989a6bc3f5f4a75409787fb1b0088ec11b3433552ba0e4aac8c0096"}
+{"section": "2.1. Terminology", "seq": 14, "sha256": "33ab972ca9a59c742155c3976ed631f40253b8066f71cb4243db94d3ef57458c"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 15, "sha256": "2979cbd8924aaac0c9ccb9f8ffa2a0ea9429cf5d1892078ad3c50161fcbaeca6"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 16, "sha256": "9e9c3d23613bc0d49e846a9b657201e87fa6f6ac6a988ac0a7999d56dde6046d"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 17, "sha256": "977e3c5ed1776c02eb7ede41803bf71558fb5d20bea3f3553c4a7d96ac0cf425"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 18, "sha256": "a113c55269d6ffcc4a123c9242b892607e73e3500e433f1b6c77ada9965b0818"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 19, "sha256": "ae5ee1162fd6b79030b3ce144bf006aba9c4f09ab886c1766c204387a7778163"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 20, "sha256": "70b61b522b2914fd80d719d3c55c164e137b24e8311294d68eee2e550bc3184b"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 21, "sha256": "7c73974db497f85f98cf0edf7f2053bbe16228605f30b27a5c5944fc9ec79287"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 22, "sha256": "00d1cc818c96839a5300d6659d1978816b938a81c437aed6fa1e6a6c8c5bf22d"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 23, "sha256": "9110773783ff3db70dacfc7b88e90687888ae372ef2985ffe43c89f53b0aec34"}
+{"section": "2.2. The Outsized Focus on Internal Audits", "seq": 24, "sha256": "23ffd73a3c4e66352ac6627abb5cb2d0aeb30ab6be72356e9d08108368cc1112"}
+{"section": "3. The Institutional Design of Audit Systems", "seq": 25, "sha256": "34da99666f159586b4abeeb4c251af0c0c9a32f0f6ab0eeb006c4b3b48271700"}
+{"section": "3. The Institutional Design of Audit Systems", "seq": 26, "sha256": "97bae017f9702cfc79c9ab8163d22e404cf9fa0a16fe78c5189db4c22b6378b9"}
+{"section": "3. The Institutional Design of Audit Systems", "seq": 27, "sha256": "2e5c5ca7f3dd470e1f31e4e48247aef585ab17b5834b7d35eaa5f5fe767c002f"}
+{"section": "3. The Institutional Design of Audit Systems", "seq": 28, "sha256": "6ebf0d927119fdb458c1c6cdb6d99440ba2a52b7842c3bfa73e7a01b24a9d94b"}
+{"section": "3. The Institutional Design of Audit Systems", "seq": 29, "sha256": "04ff1bed06a5df797cbdffe47bd20a9f118fd578da3851753e52d0b96143858d"}
+{"section": "3. The Institutional Design of Audit Systems", "seq": 30, "sha256": "0c667c915580615da0e98ee93059537479b684bee0ae207a344cd51becd4f98e"}
+{"section": "4. The Evidence Base for Effective Audits", "seq": 31, "sha256": "5c353b6ad6f494dff3fe9d959ec4b9f7a8469980f0606b4a69a17fd646102378"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 32, "sha256": "2eb9982dabfbb89dea46eb7210450cc2e3fff2c3e957f7553004bd61da20d0a6"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 33, "sha256": "fdfbbb262889fb50a28aabb3f95c8c61938667960cc51ea11c1478be349d5cfd"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 34, "sha256": "d6159daac0b0abea3d73020a5b89dc9d1e77d31551742e8763ac3c1d099799b6"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 35, "sha256": "d9ffacda17f88a7c0fc1e36f8640290de5e0683f9b70e49d91b8adb3a83de38c"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 36, "sha256": "c5d080dfbab533aa47f1fff1f05d6bc9bbb46593e5c4043017f004beaf0a48f9"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 37, "sha256": "5d031bc1eeed53fa7cb2717335f430ca6f33324eb833af53c02a5162bc09854d"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 38, "sha256": "32adfd5f46b36de260da17548ab212c20d3c98db2e5d0743229a4c3b43980b39"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 39, "sha256": "ee16078983c656223537ea059e92a437e107ed668cd751e3507163ade5e77005"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 40, "sha256": "48849c2370246eb0433460c20b081347a9bbc83ceb38146e333d9d0d9ef4098b"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 41, "sha256": "dd887b63a3704a00939b366717d5a9fd3b10015a96d0514d670a32b0b880a41f"}
+{"section": "4.1. Target Identification & Audit Scope", "seq": 42, "sha256": "2f1bc0faaa809fe2711349ec4b05226283d137c76a2ec6b4e51c9f6b512013b4"}
+{"section": "4.2. Independence", "seq": 43, "sha256": "7c92085f62628f108d382ca007e1213213b8d380cc99f7a8dced346f25cca06e"}
+{"section": "4.2. Independence", "seq": 44, "sha256": "20f3b35551fdda637700da5184755e9b7ace35f13c593d91f819c49299b0ef75"}
+{"section": "4.2. Independence", "seq": 45, "sha256": "345b4ebaa097453b3443a66a042a80d71d78849d58a2457207655fd52796c035"}
+{"section": "4.2. Independence", "seq": 46, "sha256": "709586b78396abf058dfeef07870bf6a1439859bdbb420aa3628aa4e5d73bc86"}
+{"section": "4.2. Independence", "seq": 47, "sha256": "cfc3d03595eb6959bbc637ae263853b9e113769ff34a6c8a64fd46d66917f6fe"}
+{"section": "4.2. Independence", "seq": 48, "sha256": "25853c2a787731029bc15737af8e514ecb3aad72391451fced03913af5b81651"}
+{"section": "4.2. Independence", "seq": 49, "sha256": "8a5b65cf14c4fd49105899e67d53126073a363db96e6389ea3a7b88ae28da6a4"}
+{"section": "4.2. Independence", "seq": 50, "sha256": "6e1fa70fd0581e7f35ca92ff9e876ea4198ce350dcabd4c282d502eba154ef64"}
+{"section": "4.3. Auditor Access", "seq": 51, "sha256": "f5fb37646352abca7caf69e2fadfd2ff2f062b603fb523565c29a9d6f8eabf42"}
+{"section": "4.3. Auditor Access", "seq": 52, "sha256": "c2ce19a9610fb67f1fb3210a2c9260a334ff4681a2f97d46ba3bf01f8929ed28"}
+{"section": "4.3. Auditor Access", "seq": 53, "sha256": "c9b47f41fbcb0c764503dfb1bcab9e60fcfc3958998c77604bfbc0a70b7b3460"}
+{"section": "4.3. Auditor Access", "seq": 54, "sha256": "a696c68856e21003f9f201481e732dd65f7bc9d3faa02eac1feaa9842717d718"}
+{"section": "4.3. Auditor Access", "seq": 55, "sha256": "c19b56a9ebe8e1453761a522bcbb3ec0162f04b574e3d999a47de6bb42007628"}
+{"section": "4.3. Auditor Access", "seq": 56, "sha256": "e8393bb39be4648dc12cb52b75008f00746aaaa609137191d46ca4258290be34"}
+{"section": "4.3. Auditor Access", "seq": 57, "sha256": "2b674a28f1859b08b35e3e03c9d4634da375f09ccfaf8d8324f5cefc7229e91c"}
+{"section": "4.4. Professionalization", "seq": 58, "sha256": "1170353e758bbc7633f969967e559ce1568ea12d32bedb16f9d9ab053f63a9e2"}
+{"section": "4.4. Professionalization", "seq": 59, "sha256": "933e3a9bf3595ebcaccf4d415aa8c6bb72df3c6e91f34d0cc377b63557d1c74c"}
+{"section": "4.4. Professionalization", "seq": 60, "sha256": "e896f1f8feff64165b6de9b4b8d4a2a7111863cb37235be9e44f8f02d6dfa3b8"}
+{"section": "4.4. Professionalization", "seq": 61, "sha256": "5576c9ba52a1576548ef9b28929e4381322819efef0d657249e726c41426b115"}
+{"section": "4.4. Professionalization", "seq": 62, "sha256": "22539f1a347e008eb58f8c4ad93c6695592a3b64ab66a8b835ea4b4fdb99736c"}
+{"section": "4.4. Professionalization", "seq": 63, "sha256": "aa9f0af951e8cd18e77914bdc766d80ba489945a84c4ca51051551a7ee4ca6e4"}
+{"section": "4.4. Professionalization", "seq": 64, "sha256": "71e49c6c33073d2ffe276252165d29e7ea3a255bbf92e4d45e53b259754b75f9"}
+{"section": "4.5. Post-Audit Actions", "seq": 65, "sha256": "eb047d10960173fd132c9c33ba0acc0345b068802af33483b54c1762cb062264"}
+{"section": "4.5. Post-Audit Actions", "seq": 66, "sha256": "4961ea654b20e69169298aa30efe202788898f4bfcb6b3695190f941ff247e6f"}
+{"section": "4.5. Post-Audit Actions", "seq": 67, "sha256": "9f6276c8067a1fd6e34c062226e8e840f978e665e487003887a5c727c9d1aa0d"}
+{"section": "4.5. Post-Audit Actions", "seq": 68, "sha256": "9adca83fedde09851d4ef765b44581bb038447f57173b5d08065dad400d8f0f4"}
+{"section": "4.5. Post-Audit Actions", "seq": 69, "sha256": "3d63fb2c8488bd54988c75905bed3f85db8cefa8a498727a9af1be14e21ca52d"}
+{"section": "4.5. Post-Audit Actions", "seq": 70, "sha256": "f4c20cc2e5f16eafed506be2791c9eb9a1be673caa214fc512267f303b144e15"}
+{"section": "4.5. Post-Audit Actions", "seq": 71, "sha256": "ecfb82867d983be03b22b232611dd48f6782316c149ed6362e4dff94239c96dc"}
+{"section": "5. Limitations", "seq": 72, "sha256": "bdd6e8c205334effc03db63c55c2c1e8646c4e31c3dbece7934ea33a7e17b18f"}
+{"section": "5. Limitations", "seq": 73, "sha256": "13a3b8be1752b33198a127063e524b4dee9cf77dac036ffb76e5e84abcf94e66"}
+{"section": "6. Conclusion", "seq": 74, "sha256": "6adf7d765242644411153e8b59044032f5780fb456dd00f41b6141a47a5fd49f"}
+{"section": "6. Conclusion", "seq": 75, "sha256": "6035967570e5abf023ed28395c2c70c9afd0f840ff72122ac35eac4bf1f4a15d"}
+{"section": "References", "seq": 76, "sha256": "473e0038c5ce980faa1ace6123e8bebdb93cf288064fbafd8e690cdaf11e5d56"}
+{"section": "References", "seq": 77, "sha256": "432a902f17c75c4bba83a9a79473fab71a0a8a5cb3a977332e5f5cc84a0ee62b"}
+{"section": "References", "seq": 78, "sha256": "65bb9d1aa68c62307b814967e221bc0e36d1c2c459b51c4d793ec26896ac64b5"}
+{"section": "References", "seq": 79, "sha256": "9b774fe6f0094e8fabcab8a577d6375624510db1cdb99fa41eaf8a1a26f129eb"}
+{"section": "References", "seq": 80, "sha256": "e3809de7cb01790919e6186b23c0bc001ed3e7d7c316705c44debfade23f98d0"}
+{"section": "References", "seq": 81, "sha256": "d3a005100b6e1b9af3343794b97cf11d6c3fe41abb400e4b05df2d8d47988635"}
+{"section": "References", "seq": 82, "sha256": "3edd390e2ef4c651a20b22a765050dd94da6604731c17ccbdc37b035ac15b99d"}
+{"section": "References", "seq": 83, "sha256": "b31238c02dafff4ecd927965372b3159bd4424161c33b894af990dc4212e24e9"}
+{"section": "References", "seq": 84, "sha256": "7bc562fbd6a52498f6809332fdee7d117b9931943b6e9f3594309566a1aa447b"}
+{"section": "References", "seq": 85, "sha256": "0b3fddda07acf8db1858146b6d05fba27f525f665dc9f88cdf223e3f38ae39a7"}
+{"section": "References", "seq": 86, "sha256": "e1fc83b0a9bbc2a4bcab46fcb2104e52c4614f71e3b2db51f4605c21f49fa4ac"}
+{"section": "References", "seq": 87, "sha256": "22d39cd13d3655b73c8025dd53a04384668cc688d2da931448d6f89fa95ddc7d"}
+{"section": "References", "seq": 88, "sha256": "c7f2d0b422df78bfc6023bd7b33cf9d8dc0f73b97f0cd4a415c288ce6841fe16"}
+{"section": "References", "seq": 89, "sha256": "871d8fa9c4e08be797fa8bffe6a182c73efbdc13c6d125e569f4c793b8afcef2"}
+{"section": "References", "seq": 90, "sha256": "ddaa16cf4b65b88ec744b8536c0ebe2d99c8fe435a0e96d85ca30e6e49627fb1"}
+{"section": "References", "seq": 91, "sha256": "88ca616671fe04e1aeda090f71c05af06e07d205afae954882ac02ce337c65e6"}
+{"section": "References", "seq": 92, "sha256": "8ef0b2639e2d8ebad3518ec0976fb627daf84acafb4430afd12bebd6cc3da749"}
+{"section": "References", "seq": 93, "sha256": "0966702265f0daa34a949bc3ac526bced60d183cb5b0c5f658fce6aaaa2268bd"}
+{"section": "References", "seq": 94, "sha256": "b99561a4a701fa8e61237f356864a480dd3ba01f4c5e6f0e8fcd6a9c3ccfdfa8"}
+{"section": "References", "seq": 95, "sha256": "c27604c32df3f7df0b4fb963e882145906c4e807bc4ef7ff64e33e2961095b0a"}
+{"section": "References", "seq": 96, "sha256": "f6f50d60d4238c3be2edf7426688f1ade2fd6d0670e5821ef57c86351e2a3235"}
+{"section": "References", "seq": 97, "sha256": "a15243e5113f1569d8da6e80ac6c4d15a111df3a17b92d0b778ea35cc5d6d493"}
+{"section": "References", "seq": 98, "sha256": "e6c1693a5f760d9846ea76c63c1c5826c494b1fd01530664d997cb1f84208cb3"}
+{"section": "References", "seq": 99, "sha256": "c273411bc5e694120ab7fdd8914eba6b817ae56cedc99965c65fcd873d800c7f"}
+{"section": "References", "seq": 100, "sha256": "543f498c5892d94bfc4c78feeade3f8b3d7af65845bba576d253151d3ba05c69"}
+{"section": "References", "seq": 101, "sha256": "a0b4167313e08a3582f898a464e50f390245016c342f083731b8662cbb60004a"}
+{"section": "References", "seq": 102, "sha256": "b53dd21b3946acfb05e20c58c7cbd25b17ee7f5f4cb266447b7ec4eb9a2295fb"}
+{"section": "References", "seq": 103, "sha256": "a4cd67eb5d9eb3e046b317e64577ccca1b86e9f07c8cbf0c2a7c9ddd8af7bee7"}
+{"section": "References", "seq": 104, "sha256": "16fcc5cc7ff69ec8ec8a34461d4b626d8bf371777c7d5e56743e6aef2ed6541b"}
+{"section": "References", "seq": 105, "sha256": "62a9880d830aff4db48018a85b2abcc0cacb59cc67d44569448ecd8d097cfdde"}
+{"section": "References", "seq": 106, "sha256": "3fd302ff3174affadfe35bbd78885ad8a46e12c10b8561fc687dc73e2e6be463"}
+{"section": "Appendix A Appendix", "seq": 107, "sha256": "300f3b70e11f27732ed88afa5bfe4276e777cbb35e9e9d265526186cd882ba8f"}
+{"section": "Appendix A Appendix", "seq": 108, "sha256": "900b64d77df0bfa9246396edb712e8a2a64c8796f4f644863bcc85bbf4873ab7"}
+{"section": "Appendix A Appendix", "seq": 109, "sha256": "e5f4b4ae4f5ce00af88868d49520b31daf130d802934a305485c0af52921cdab"}
+{"section": "Appendix A Appendix", "seq": 110, "sha256": "76595ee1e63908ecc2fc608aa635ce3286c31aaa527eec184e4fe9c2203bfe9d"}
+{"section": "Appendix A Appendix", "seq": 111, "sha256": "bd06163f1a3fba204dd989592ea968461bfe6e35a04a41d5a525c7cbb8ee13fa"}
+{"section": "Appendix A Appendix", "seq": 112, "sha256": "94fee10b390dc6409f03abcbc3d2e6364250236f9a394ac60ad76b6dae601763"}
+{"section": "Appendix A Appendix", "seq": 113, "sha256": "fec525a685b7d3cf6eb0df2dfe7d822269e548ca783c66c06adf6abed5254583"}

@@ -1,0 +1,23 @@
+NAACL. Lampinen et al. (2022)
+
+Andrew K. Lampinen, Ishita Dasgupta, Stephanie C.Y. Chan, Kory Matthewson,
+Michael Henry Tessler, Antonia Creswell, James L. McClelland, Jane X. Wang,
+and Felix Hill. 2022. Can language models learn
+from explanations in context? arXiv preprint arXiv:2204.02329. Lan et al. (2021)
+
+Yihuai Lan, Lei Wang, Qiyuan Zhang, Yunshi Lan, Bing Tian Dai, Yan Wang,
+Dongxiang Zhang, and Ee-Peng Lim. 2021. MWPToolkit: An
+open-source framework for deep learning-based math word problem solvers. arXiv preprint arXiv:2109.00799. Le Scao and Rush (2021)
+
+Teven Le Scao and Alexander Rush. 2021. How many
+data points is a prompt worth? NAACL. Lester et al. (2021)
+
+Brian Lester, Rami Al-Rfou, and Noah Constant. 2021. The power of
+scale for parameter-efficient prompt tuning. EMNLP. Lev et al. (2004)
+
+Iddo Lev, Bill MacCartney, Christopher Manning, and Roger Levy. 2004. Solving logic puzzles:
+From robust processing to precise semantics. Proceedings of the 2nd Workshop on Text Meaning and
+Interpretation. Li and Liang (2021)
+
+Xiang Lisa Li and Percy Liang. 2021. Prefix-tuning:
+Optimizing continuous prompts for generation. ACL. Liang et al.

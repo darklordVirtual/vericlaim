@@ -1,0 +1,18 @@
+Toyama, Cyprien
+de Masson d’Autume, Yujia Li, Tayfun Terzi, Vladimir Mikulik, Igor
+Babuschkin, Aidan Clark, Diego de Las Casas, Aurelia Guy, Chris Jones, James
+Bradbury, Matthew Johnson, Blake A. Hechtman, Laura Weidinger, Iason Gabriel,
+William S. Isaac, Edward Lockhart, Simon Osindero, Laura Rimell, Chris Dyer,
+Oriol Vinyals, Kareem Ayoub, Jeff Stanway, Lorrayne Bennett, Demis Hassabis,
+Koray Kavukcuoglu, and Geoffrey Irving. 2021. Scaling language models:
+Methods, analysis & insights from training gopher. CoRR, abs/2112.11446. Raffel et al. (2019)
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. 2019. Exploring the limits of
+transfer learning with a unified text-to-text transformer. CoRR, abs/1910.10683. Rajauria (2020)
+
+Arpit Rajauria. 2020. tuner007/pegasus_paraphrase. https://huggingface.co/tuner007/pegasus_paraphrase. Accessed: 2021-08-16. Roller et al. (2021)
+
+Stephen Roller, Emily Dinan, Naman Goyal, Da Ju, Mary Williamson, Yinhan Liu,
+Jing Xu, Myle Ott, Eric Michael Smith, Y-Lan Boureau, and Jason Weston. 2021. Recipes for
+building an open-domain chatbot.

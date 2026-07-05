@@ -1,0 +1,1 @@
+Compared to the Geometric Mean, the Harmonic Mean serves as a more conservative penalty. Empirically, we evaluate these functions during the RL training of Qwen3-VL-4B. As shown in Table 8, the Harmonic Mean achieves the optimal balance, yielding the highest accuracy and AUROC, along with the lowest ECE.
