@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "research_layer.json",
+  "artifact_sha256": "0010fe86bf1aeef75aef7bd529bd6102bd7b3a5df725c77c5b6b291a7ce49aa2",
+  "script": "python3 integrations/library/evidence_research_layer.py",
+  "git_commit": "f31c68ed7c5b88201f061e9a64c27c2e10960ab6",
+  "generated_at": "2026-07-05T13:32:32.527176+00:00",
+  "produced_by": "human"
+}

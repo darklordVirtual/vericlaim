@@ -1,0 +1,13 @@
+{
+  "canon_dropped": 6,
+  "canon_fulltext": 33,
+  "canon_total": 93,
+  "canon_vectorized": 87,
+  "canon_verified": 87,
+  "catalog_works": 96,
+  "catalog_works_fulltext": 40,
+  "chunked_works": 96,
+  "chunks_pushed": 5022,
+  "chunks_total": 5022,
+  "undocumented_gaps": 0
+}

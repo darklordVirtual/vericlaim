@@ -1,0 +1,14 @@
+{
+  "all_passed": true,
+  "checks_passed": 20,
+  "checks_total": 20,
+  "date": "2026-07-05",
+  "research_checks": {
+    "mcp search_literature_rag": true,
+    "research oracle grounds an answer": true,
+    "research oracle refuses the off-corpus": true,
+    "research search finds conformal risk control": true,
+    "research summary": true
+  },
+  "url": "https://vericlaim-claims.razorsharp.workers.dev"
+}

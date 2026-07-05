@@ -264,6 +264,42 @@ It is opt-in and deploys to your own account; search and answers are discovery
 aids and do **not** change what the gate proves. See its
 [README](integrations/cloudflare-ai/README.md).
 
+### The research layer: a RAG that refuses to guess
+
+Most RAG pipelines answer confidently from whatever they half-retrieved — and
+you cannot tell a grounded answer from a fluent guess. The consequence: one
+fabricated "the literature says…" in a design review costs you the meeting.
+This layer makes the corpus itself vetted: a machine-readable canonical
+research map is the coverage contract, every work enters the catalog only
+through a registrar guard or an explicit hash-locked snapshot, chunks are
+content-addressed, and the oracle **refuses** when no cataloged excerpt
+supports an answer.
+
+<!-- claim:CLAIM-LIB-RAG-001 canon_total canon_verified canon_dropped -->
+The canonical research map holds <!-- v:CLAIM-LIB-RAG-001.canon_total -->**93**
+works across 10 collections (uncertainty/conformal, agents, evaluation, agent
+security, governance, MLOps, provenance/supply-chain, formal methods,
+fairness, assurance cases); <!-- v:CLAIM-LIB-RAG-001.canon_verified -->**87**
+are verified into the hash-locked catalog and
+<!-- v:CLAIM-LIB-RAG-001.canon_dropped -->**6** are documented drops with
+reasons — coverage is checked fail-closed, so a gap can be honest but never
+silent (verification binds registrar metadata or a snapshot, not the truth of
+a work's content; see the register caveat).
+
+<!-- claim:CLAIM-LIB-RAG-002 catalog_works chunks_total -->
+All <!-- v:CLAIM-LIB-RAG-002.catalog_works -->**96** catalog works are
+deterministically chunked into
+<!-- v:CLAIM-LIB-RAG-002.chunks_total -->**5022** content-addressed chunks
+and pushed to a separate Vectorize index — full text where an open arXiv
+rendering exists, registrar abstracts or page snapshots otherwise (the
+committed push manifest is what "pushed" means; the live index can lag until
+the next push).
+
+Ask it over HTTP (`/research/ask`) or MCP (`ask_research`,
+`search_literature_rag`). Retrieval is never evidence: a hit proves the text
+was cataloged and hash-locked — the claims register still decides what this
+project has *proven*.
+
 ## Citation
 
 Claim-Oriented Programming and vericlaim are by **Stian Skogbrott**. Please cite

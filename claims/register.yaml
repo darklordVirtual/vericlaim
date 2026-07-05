@@ -114,3 +114,61 @@ claims:
       boundary ambiguity. It is not a proof of correctness over all bills and
       tip rates; floating-point rounding can differ on half-cent boundaries.
     reproduce: "python3 examples/tipcalc/evidence.py"
+
+  - id: CLAIM-LIB-RAG-001
+    statement: >
+      The canonical research map (integrations/library/research/canon.toml)
+      contains 93 works across 10 collections; 87 are verified into the
+      hash-locked literature catalog (registrar metadata or explicit web
+      snapshot) and the remaining 6 are documented drops with reasons —
+      0 undocumented gaps.
+    evidence_level: measured
+    artifact:
+      - "integrations/library/artifacts/research_layer.json"
+    metrics:
+      canon_total: 93
+      canon_verified: 87
+      canon_dropped: 6
+      undocumented_gaps: 0
+    caveat: >
+      "Verified" means the title+author+year guard bound a registrar record,
+      or a curator snapshotted an explicit URL (tier "web-snapshot",
+      accredited=false). It proves the work is cataloged and hash-locked —
+      never that the work's content is true.
+    reproduce: "python3 integrations/library/evidence_research_layer.py"
+
+  - id: CLAIM-LIB-RAG-002
+    statement: >
+      All 96 catalog works are deterministically chunked into 5022
+      content-addressed chunks, and 5022 of 5022 chunks are recorded as
+      pushed to the live research index.
+    evidence_level: measured
+    artifact:
+      - "integrations/library/artifacts/research_layer.json"
+    metrics:
+      catalog_works: 96
+      chunks_total: 5022
+      chunks_pushed: 5022
+    caveat: >
+      "Pushed" is what the committed push manifest records; the live index
+      is a mirror that can lag the catalog until the next push. Full text is
+      fetched only for open arXiv HTML renderings — other works are chunked
+      from registrar abstracts or page snapshots (the hybrid content policy).
+    reproduce: "python3 integrations/library/evidence_research_layer.py"
+
+  - id: CLAIM-LIB-RAG-003
+    statement: >
+      A live round-trip against the deployed Worker on 2026-07-05 passed all
+      checks, including: research search finds Conformal Risk Control, the
+      research oracle answers a supported question with work-id citations,
+      and it refuses an off-corpus question.
+    evidence_level: measured
+    artifact:
+      - "integrations/cloudflare-ai/test/artifacts/research_live.json"
+    metrics:
+      all_passed: 1
+    caveat: >
+      A dated snapshot of a live deployment — not reproducible offline and
+      not re-run by `vericlaim reproduce`. The refusal check proves the
+      oracle refused one off-corpus question that day, not that it can never
+      be induced to overclaim.
