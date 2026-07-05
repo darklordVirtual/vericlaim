@@ -56,6 +56,36 @@ chains and witnesses stay valid. Consequences:
   history is never deleted, only de-emphasized in discovery;
 - `POST /library/prune` (bearer) is the idempotent maintenance/backfill.
 
+## The research layer (literature RAG)
+
+The claims library answers *"what has been proven?"*. The research layer
+answers *"what does the literature actually say?"* — with the same honesty
+rules. A machine-readable **canonical research map**
+(`research/canon.toml`, 10 collections from uncertainty/conformal through
+assurance cases) is the coverage contract; `litcoverage.py --check` fails
+closed on any canon entry that is neither verified in the catalog nor a
+documented drop (`research/drops.toml`, reason required).
+
+Acquisition has three honesty tiers, all ending in the hash-locked catalog:
+
+1. **registrar** (`acquire_canon.py`): arXiv/Crossref/DOI, title+author+year
+   guard; optional DOI fields in the canon are *seeds* — searched, never
+   trusted.
+2. **official document**: DOI-carrying institutional docs (NIST, EUR-Lex).
+3. **web snapshot** (`webfetch.py`): specs with no registrar record (SLSA,
+   PROV-DM, C4…) — sha256-locked page text, always `accredited=false`,
+   curator supplies the URL explicitly.
+
+`fulltext.py` fetches arXiv HTML full text (ar5iv fallback, honest
+abstract-only fallback recorded); `chunker.py` splits deterministically into
+content-addressed, section-aware chunks (manifests refuse silent re-chunks);
+`push_literature.py` re-verifies every hash before the wire and pushes
+idempotently to the Worker's `/research/*` layer (separate Vectorize index,
+D1 mirror, shared R2 vault). `/research/ask` — and the MCP tools
+`search_literature_rag` / `ask_research` — answer ONLY from retrieved
+excerpts and **refuse** otherwise. Retrieval, never evidence: a hit proves
+the text was cataloged and hash-locked, not that it is true.
+
 ## External anchoring
 
 The Worker's hash chains are witnessed in this repo's public git history

@@ -36,7 +36,9 @@ def _work_in(work_id: str, w: dict, links: dict[str, list[str]]) -> dict:
         "year": w.get("year"),
         "venue": w.get("venue", ""),
         "kind": w.get("kind") or w.get("source_type", "paper"),
-        "tier": (w.get("retrieval") or {}).get("method", "unknown"),
+        # pre-canon works (REMORA curation) recorded a query but no method
+        "tier": (w.get("retrieval") or {}).get(
+            "method", "curated" if w.get("retrieval") else "unknown"),
         "accredited": bool(w.get("accredited")),
         "url": w.get("url", ""),
         "linked_claims": sorted(links.get(work_id, [])),
