@@ -1,0 +1,789 @@
+<title>VeriClaim — Truth is earned</title>
+<style>
+  :root{
+    --bg:#101823; --panel:#17212e; --line:#243244; --paper:#f5f7f9;
+    --ink:#e8edf2; --mut:#8fa0b2; --dim:#5c6c7e;
+    --tq:#35d0ba; --tq-soft:rgba(53,208,186,.13);
+    --red:#ff6b6b; --red-soft:rgba(255,107,107,.12);
+    --amber:#f0b25f;
+  }
+  *{box-sizing:border-box}
+  html{scroll-snap-type:y mandatory;scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:400 17px/1.55 "Helvetica Neue",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .slide{min-height:100vh;scroll-snap-align:start;display:flex;align-items:center;
+    padding:64px 7vw;position:relative;border-bottom:1px solid var(--line)}
+  .wrap{width:100%;max-width:1060px;margin:0 auto}
+  .kick{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--tq);
+    margin:0 0 22px;font-weight:600}
+  .kick .n{color:var(--dim);margin-right:14px;font-variant-numeric:tabular-nums}
+  h1{font-size:clamp(40px,6.5vw,84px);line-height:1.02;font-weight:200;
+    letter-spacing:-.02em;margin:0 0 18px;text-wrap:balance}
+  h1 b{font-weight:700;color:var(--tq)}
+  h2{font-size:clamp(30px,4vw,52px);line-height:1.06;font-weight:250;
+    letter-spacing:-.015em;margin:0 0 14px;text-wrap:balance}
+  h2 b{font-weight:650}
+  .lede{color:var(--mut);max-width:60ch;margin:0 0 34px;font-size:18px}
+  .lede b{color:var(--ink);font-weight:600}
+  mark{background:none;color:var(--tq)}
+  code,.mono{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.92em}
+
+  /* vertical flows */
+  .flow{display:flex;flex-direction:column;align-items:center;gap:0;margin:8px 0}
+  .fn{border:1px solid var(--line);background:var(--panel);border-radius:10px;
+    padding:12px 26px;min-width:210px;text-align:center;font-weight:500}
+  .fn small{display:block;color:var(--mut);font-weight:400;font-size:12.5px;margin-top:2px}
+  .fn.t{border-color:rgba(53,208,186,.55);background:var(--tq-soft);color:var(--tq)}
+  .fn.r{border-color:rgba(255,107,107,.5);background:var(--red-soft);color:var(--red)}
+  .fn.w{background:var(--paper);color:#18222e;border-color:var(--paper);font-weight:600}
+  .fn.g{background:transparent;border-style:dashed;color:var(--mut)}
+  .fa{color:var(--dim);padding:7px 0;line-height:1;font-size:15px}
+  .fa.t{color:var(--tq)}
+  .frow{display:flex;gap:clamp(18px,4vw,64px);justify-content:center;flex-wrap:wrap;align-items:flex-start}
+
+  .chips{display:flex;flex-wrap:wrap;gap:10px;max-width:640px}
+  .chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;
+    padding:9px 18px;color:var(--mut);font-size:15px}
+  .chip.r{color:var(--red);border-color:rgba(255,107,107,.4)}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,64px);align-items:center}
+  @media (max-width:820px){.grid2{grid-template-columns:1fr}}
+
+  .paper{background:var(--paper);color:#212b36;border-radius:12px;padding:26px 30px;
+    font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:14px;line-height:1.75;
+    overflow-x:auto;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+  .paper .k{color:#5b7186}.paper .v{color:#0d8a76;font-weight:600}
+  .paper .c{color:#9aa8b5}.paper .id{color:#1a2b3c;font-weight:700}
+
+  .stat{font-size:clamp(46px,6vw,80px);font-weight:200;letter-spacing:-.02em;line-height:1;
+    font-variant-numeric:tabular-nums}
+  .stat b{color:var(--tq);font-weight:600}
+  .statlab{color:var(--mut);font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin-top:8px}
+  .stats{display:flex;gap:clamp(28px,5vw,80px);flex-wrap:wrap;margin-top:30px}
+
+  .quote{font-size:clamp(34px,5.5vw,72px);font-weight:200;line-height:1.12;
+    letter-spacing:-.02em;text-wrap:balance;margin:0}
+  .quote b{font-weight:650;color:var(--tq)}
+
+  .pyr{display:flex;flex-direction:column;align-items:center;gap:6px}
+  .pyr div{background:var(--panel);border:1px solid var(--line);border-radius:8px;
+    text-align:center;padding:10px 0;font-size:15px;color:var(--mut)}
+  .pyr .p6{width:34%;min-width:230px;border-color:var(--tq);color:var(--tq);background:var(--tq-soft)}
+  .pyr .p5{width:46%;min-width:250px;border-color:rgba(53,208,186,.6);color:var(--tq)}
+  .pyr .p4{width:58%;min-width:270px;color:var(--ink)}
+  .pyr .p3{width:70%;min-width:290px}
+  .pyr .p2{width:82%;min-width:310px}
+  .pyr .p1{width:94%;min-width:330px;border-style:dashed;color:var(--dim)}
+  .pyr small{display:block;font-size:11.5px;color:var(--dim);letter-spacing:.05em}
+
+  table{border-collapse:collapse;width:100%;font-size:16px}
+  th,td{padding:13px 18px;text-align:center;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:500;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+  td:first-child,th:first-child{text-align:left}
+  td .y{color:var(--tq);font-weight:700}
+  td .n{color:var(--dim)}
+  td .p{color:var(--amber)}
+  tr.hl td{background:var(--tq-soft);border-bottom-color:rgba(53,208,186,.4)}
+  tr.hl td:first-child{color:var(--tq);font-weight:700}
+  .tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+  .tblwrap table{margin:0}
+
+  .stopgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:6px 0 26px}
+  .stop{border:1px solid rgba(255,107,107,.4);background:var(--red-soft);border-radius:10px;
+    padding:18px 20px}
+  .stop em{display:block;font-style:normal;color:var(--mut);font-size:14.5px;margin-bottom:10px}
+  .stop b{color:var(--red);letter-spacing:.14em;font-size:13px}
+
+  .math{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:clamp(17px,2.6vw,26px);
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:22px 28px;display:inline-block;color:var(--ink)}
+  .math i{color:var(--tq);font-style:normal}
+  sub{font-size:.62em}
+
+  .illus{width:100%;max-width:440px;height:auto;display:block;margin:0 auto}
+  .illus text{font-family:inherit;font-size:13px;fill:var(--mut)}
+  .illus .lab{font-size:11.5px;letter-spacing:.08em;fill:var(--dim)}
+  .illus .tq{fill:var(--tq)}
+  .foot{color:var(--dim);font-size:13.5px;margin-top:30px}
+  .foot a{color:var(--mut)}
+  #bar{position:fixed;top:0;left:0;height:2px;background:var(--tq);width:0;z-index:9}
+  #pg{position:fixed;bottom:18px;right:22px;color:var(--dim);font-size:12px;z-index:9;
+    font-variant-numeric:tabular-nums;letter-spacing:.1em}
+  .hint{color:var(--dim);font-size:13px;position:absolute;bottom:22px;left:7vw}
+</style>
+
+<div id="bar"></div><div id="pg"></div>
+
+<!-- ═══ 1 · TITTEL ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">VERICLAIM · REMORA RESEARCH · 2026</span></p>
+  <h1>Sannhet er ikke<br>noe man påstår.<br><b>Den opptjenes.</b></h1>
+  <p class="lede">VeriClaim innfører et <b>evidence-first utviklingsparadigme</b>: dokumentasjon,
+  kode, litteratur og reproduksjon — kryptografisk bundet sammen, håndhevet i CI.</p>
+  <p class="hint">↓ eller piltaster</p>
+</div></section>
+
+<!-- ═══ 2 · DEL 1 PROBLEMET ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 01</span>PROBLEMET</p>
+  <div class="grid2">
+    <div>
+      <h2>AI har et <b>tillitsproblem</b></h2>
+      <div class="chips">
+        <span class="chip r">Hallusinasjoner</span><span class="chip r">Fabrikkerte sitater</span>
+        <span class="chip">Ingen proveniens</span><span class="chip">Ingen reproduksjon</span>
+        <span class="chip">Utdatert dokumentasjon</span><span class="chip">Manipulerbare benchmarks</span>
+      </div>
+    </div>
+    <div>
+      <svg class="illus" viewBox="0 0 440 320" role="img" aria-label="En LLM som svart boks: prompt inn, terningkast ut">
+        <!-- prompt inn -->
+        <rect x="18" y="120" width="96" height="34" rx="8" fill="none" stroke="#5c6c7e" stroke-width="2"/>
+        <text x="66" y="142" text-anchor="middle">Prompt</text>
+        <line x1="114" y1="137" x2="152" y2="137" stroke="#5c6c7e" stroke-width="2"/>
+        <path d="M152 137 l-9 -5 v10 z" fill="#5c6c7e"/>
+        <!-- svart boks -->
+        <rect x="158" y="80" width="120" height="114" rx="14" fill="#17212e" stroke="#8fa0b2" stroke-width="2.5"/>
+        <text x="218" y="147" text-anchor="middle" style="font-size:44px;fill:#8fa0b2">?</text>
+        <text x="218" y="215" text-anchor="middle" class="lab">SVART BOKS</text>
+        <!-- ut: snakkeboble med terning -->
+        <line x1="278" y1="137" x2="314" y2="137" stroke="#5c6c7e" stroke-width="2"/>
+        <path d="M314 137 l-9 -5 v10 z" fill="#5c6c7e"/>
+        <path d="M322 96 h96 a10 10 0 0 1 10 10 v58 a10 10 0 0 1 -10 10 h-62 l-16 18 v-18 h-18 a10 10 0 0 1 -10 -10 v-58 a10 10 0 0 1 10 -10 z"
+              fill="none" stroke="#ff6b6b" stroke-width="2.5"/>
+        <!-- terning -->
+        <rect x="352" y="112" width="40" height="40" rx="8" fill="none" stroke="#ff6b6b" stroke-width="2.5"/>
+        <circle cx="362" cy="122" r="3" fill="#ff6b6b"/><circle cx="382" cy="122" r="3" fill="#ff6b6b"/>
+        <circle cx="372" cy="132" r="3" fill="#ff6b6b"/>
+        <circle cx="362" cy="142" r="3" fill="#ff6b6b"/><circle cx="382" cy="142" r="3" fill="#ff6b6b"/>
+        <text x="370" y="205" text-anchor="middle" style="fill:#ff6b6b">Terningkast om sannhet</text>
+        <text x="370" y="224" text-anchor="middle" class="lab">INGEN KILDE · INGEN GARANTI</text>
+      </svg>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 3 · DEL 2 REMORA ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 02</span>REMORA</p>
+  <div class="grid2">
+    <div>
+      <h2>REMORA:<br><b>Decision Intelligence</b></h2>
+      <p class="lede">Beslutninger rutes etter tillit, ikke selvsikkerhet.</p>
+      <div class="chips">
+        <span class="chip">Trust routing</span><span class="chip">DecisionEnvelope</span>
+        <span class="chip">Hash-kjedet audit</span><span class="chip">Policy-as-code-gulv</span>
+      </div>
+    </div>
+    <div class="flow">
+      <div class="fn">Evidens</div><div class="fa t">▼</div>
+      <div class="fn">Verifikasjon</div><div class="fa t">▼</div>
+      <div class="fn">Tillit</div><div class="fa t">▼</div>
+      <div class="fn t">Beslutning</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 4 · DEL 3 CREDO ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 03</span>VERICLAIM</p>
+  <p class="quote">«Every statement must<br><b>earn the right to exist.</b>»</p>
+  <div class="flow" style="margin-top:44px">
+    <div class="frow">
+      <div class="fn g">Claim</div><div class="fa" style="align-self:center">→</div>
+      <div class="fn g">Evidens</div><div class="fa" style="align-self:center">→</div>
+      <div class="fn g">Verifikasjon</div><div class="fa" style="align-self:center">→</div>
+      <div class="fn g">Dokumentasjon</div><div class="fa" style="align-self:center">→</div>
+      <div class="fn t">Publisering</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 5 · DEL 4 ARKITEKTUR ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 04</span>ARKITEKTUR</p>
+  <h2>Ett register. <b>Én sannhetskilde.</b></h2>
+  <div class="flow" style="margin-top:26px">
+    <div class="fn">Utvikler</div><div class="fa">▼</div>
+    <div class="fn mono">vericlaim</div><div class="fa">▼</div>
+    <div class="fn w">Claim-register</div><div class="fa">▼</div>
+    <div class="frow" style="max-width:760px">
+      <div class="fn g">Evidens</div><div class="fn g">Metrics</div><div class="fn g">Artefakter</div>
+      <div class="fn g">Litteratur</div><div class="fn g">Reproduce</div><div class="fn g">Caveats</div>
+    </div>
+    <div class="fa">▼</div>
+    <div class="fn">Gate <small>kjører i CI, hver commit</small></div><div class="fa">▼</div>
+    <div class="frow">
+      <div class="fn t">PASS</div><div class="fn r">FAIL — eksakt fil:linje</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 6 · DEL 5 REGISTER ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 05</span>CLAIM-REGISTERET</p>
+  <div class="grid2">
+    <div>
+      <h2>En claim er en <b>kontrakt</b></h2>
+      <p class="lede">Ekte eksempel fra vericlaim-repoet. Tallet finnes bare fordi
+      artefaktet finnes. <b>Caveaten er en del av claimen.</b></p>
+    </div>
+    <div class="paper">
+<span class="c"># claims/register.yaml — kilden dokumentene bindes til</span><br>
+- id: <span class="id">CLAIM-EX-001</span><br>
+&nbsp;&nbsp;<span class="k">statement:</span> RLE-enkoderen oppnår <span class="v">8.0584×</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;kompresjon på det faste korpuset (4 filer)<br>
+&nbsp;&nbsp;<span class="k">evidence_level:</span> <span class="v">benchmarked</span><br>
+&nbsp;&nbsp;<span class="k">artifact:</span> [rle_bench.json]<br>
+&nbsp;&nbsp;<span class="k">metrics:</span> { overall_ratio: <span class="v">8.0584</span> }<br>
+&nbsp;&nbsp;<span class="k">caveat:</span> håndplukket korpus — RLE kan<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>ekspandere</b> virkelige data<br>
+&nbsp;&nbsp;<span class="k">reproduce:</span> python3 examples/rle/bench.py
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 7 · DEL 6 LIVSSYKLUS ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 06</span>CLAIM-LIVSSYKLUSEN</p>
+  <div class="grid2">
+    <div>
+      <h2>Evidens <b>først.</b> Alltid.</h2>
+      <p class="lede">Dokumentet skriver ikke tallet — det <b>ankres</b> til beviset.
+      Ryker kjettingen, ryker bygget.</p>
+      <svg class="illus" viewBox="0 0 440 300" role="img" aria-label="Et dokument ankret med kjetting til en evidensblokk">
+        <!-- dokument -->
+        <rect x="140" y="16" width="160" height="104" rx="10" fill="#f5f7f9"/>
+        <line x1="160" y1="44" x2="280" y2="44" stroke="#9aa8b5" stroke-width="3"/>
+        <line x1="160" y1="64" x2="262" y2="64" stroke="#c3ccd4" stroke-width="3"/>
+        <rect x="160" y="82" width="66" height="18" rx="4" fill="rgba(53,208,186,.25)" stroke="#0d8a76" stroke-width="1.5"/>
+        <text x="193" y="95" text-anchor="middle" style="font-size:11px;fill:#0d8a76;font-weight:700">8.0584×</text>
+        <text x="220" y="12" text-anchor="middle" class="lab">DOKUMENTASJON</text>
+        <!-- kjetting -->
+        <ellipse cx="220" cy="134" rx="7" ry="11" fill="none" stroke="#35d0ba" stroke-width="3"/>
+        <ellipse cx="220" cy="156" rx="7" ry="11" fill="none" stroke="#35d0ba" stroke-width="3"/>
+        <ellipse cx="220" cy="178" rx="7" ry="11" fill="none" stroke="#35d0ba" stroke-width="3"/>
+        <!-- evidensblokk -->
+        <rect x="120" y="196" width="200" height="66" rx="10" fill="#17212e" stroke="#35d0ba" stroke-width="2.5"/>
+        <text x="220" y="224" text-anchor="middle" class="tq" style="font-weight:600">rle_bench.json</text>
+        <text x="220" y="246" text-anchor="middle" class="lab">SHA-256 · 7856…69c7</text>
+        <text x="220" y="288" text-anchor="middle" class="lab">EVIDENS — PRODUSERT, ALDRI SKREVET</text>
+      </svg>
+    </div>
+    <div>
+  <div class="flow" style="margin-top:26px">
+    <div class="fn">Skriv claimen</div><div class="fa">▼</div>
+    <div class="fn">Generér evidens <small>deterministisk skript, aldri håndskrevet</small></div><div class="fa">▼</div>
+    <div class="fn">Hash evidensen <small>SHA-256 + provenance-sidecar</small></div><div class="fa">▼</div>
+    <div class="fn">Bind dokumentasjonen <small>ankre og value-tokens</small></div><div class="fa">▼</div>
+    <div class="fn">CI-gate <small>register · artefakter · docs · litteratur enige?</small></div><div class="fa t">▼</div>
+    <div class="fn t">Publisér</div>
+  </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 8 · DEL 7 FAIL CLOSED ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 07</span>FAIL CLOSED</p>
+  <div class="grid2">
+    <div>
+      <h2 style="color:var(--red)">Systemet feiler <b style="color:var(--red)">med vilje</b></h2>
+      <p class="lede">En sjekk man ikke kan stole på er verre enn ingen. Alt uklart stopper bygget.</p>
+    </div>
+    <svg class="illus" viewBox="0 0 440 250" role="img" aria-label="En senket bom foran veien til publisering">
+      <!-- vei -->
+      <line x1="10" y1="210" x2="430" y2="210" stroke="#243244" stroke-width="4"/>
+      <text x="30" y="238" class="lab">COMMIT</text>
+      <text x="352" y="238" class="lab">PUBLISERING</text>
+      <!-- stolpe -->
+      <rect x="96" y="96" width="16" height="114" rx="4" fill="#17212e" stroke="#8fa0b2" stroke-width="2"/>
+      <!-- bom, senket -->
+      <g>
+        <rect x="104" y="118" width="280" height="18" rx="9" fill="#17212e" stroke="#ff6b6b" stroke-width="2.5"/>
+        <rect x="130" y="121" width="26" height="12" rx="6" fill="#ff6b6b"/>
+        <rect x="186" y="121" width="26" height="12" rx="6" fill="#ff6b6b"/>
+        <rect x="242" y="121" width="26" height="12" rx="6" fill="#ff6b6b"/>
+        <rect x="298" y="121" width="26" height="12" rx="6" fill="#ff6b6b"/>
+      </g>
+      <!-- varsellys -->
+      <circle cx="104" cy="80" r="12" fill="rgba(255,107,107,.18)" stroke="#ff6b6b" stroke-width="2.5"/>
+      <circle cx="104" cy="80" r="4.5" fill="#ff6b6b"/>
+      <text x="244" y="172" text-anchor="middle" style="fill:#ff6b6b;font-weight:600">Gaten er stengt til evidensen stemmer</text>
+    </svg>
+  </div>
+  <div class="stopgrid">
+    <div class="stop"><em>Manglende artefakt</em><b>STOPP</b></div>
+    <div class="stop"><em>Feil tall i dokumentet</em><b>STOPP</b></div>
+    <div class="stop"><em>Sitat som ikke hasher</em><b>STOPP</b></div>
+    <div class="stop"><em>Overdrevet evidensnivå</em><b>STOPP</b></div>
+    <div class="stop"><em>Malformet register</em><b>STOPP</b></div>
+    <div class="stop"><em>Artefakt utenfor repoet</em><b>STOPP</b></div>
+  </div>
+</div></section>
+
+<!-- ═══ 9 · DEL 8 EVIDENSSTIGEN ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 08</span>EVIDENSSTIGEN</p>
+  <div class="grid2">
+    <div>
+      <h2>Tillit i <b>seks trinn</b></h2>
+      <p class="lede">En claim beskrives aldri over nivået den har gjort seg fortjent til.
+      Degradering er alltid lov. <b>Oppgradering krever ny evidens.</b></p>
+    </div>
+    <div class="pyr">
+      <div class="p6">Externally validated<small>bekreftet utenfor prosjektet</small></div>
+      <div class="p5">Machine checked<small>bevist — Lean-kjerne eller uttømmende sjekk</small></div>
+      <div class="p4">Reproduced<small>uavhengig reprodusert</small></div>
+      <div class="p3">Benchmarked<small>målt på definert korpus, reproduserbart</small></div>
+      <div class="p2">Measured<small>observert én gang, in-house</small></div>
+      <div class="p1">Theoretical<small>argument — ennå ikke målt</small></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 10 · DEL 9 VALUE TOKENS ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 09</span>VALUE TOKENS</p>
+  <h2>Tallet som <b>ikke kan drifte</b></h2>
+  <p class="lede">Et avsnittsanker beviser at tallet finnes <i>et sted</i>.
+  «Target 180 ms; actual 900 ms» inneholder 180 — og passerer. Value-tokenet pinner <b>akkurat dét</b> tallet.</p>
+  <div class="frow">
+    <div class="flow">
+      <div class="fn">Benchmark: <b>180 ms</b></div><div class="fa">▼</div>
+      <div class="fn r">Dokumentasjon: 900 ms</div><div class="fa">▼</div>
+      <div class="fn r">passerte før</div>
+    </div>
+    <div class="flow">
+      <div class="fn">Benchmark: <b>180 ms</b></div><div class="fa t">▼</div>
+      <div class="fn t mono">&lt;!-- v:CLAIM.p95_ms --&gt;</div><div class="fa t">▼</div>
+      <div class="fn t">Dokumentasjon: 180 ms — <b>eneste mulige tall</b></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 11 · DEL 10 LITTERATURMOTOREN ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 10</span>LITTERATURMOTOREN</p>
+  <div class="grid2">
+    <div>
+      <h2>Sitater kan ikke <b>fabrikkeres</b></h2>
+      <p class="lede">Metadata kommer kun fra registraren — aldri fra modellens hukommelse.
+      Tre vakter må alle passeres: <b>tittel + forfatter + årstall.</b>
+      Et frø uten registrar-treff <b>dør ærlig.</b></p>
+      <svg class="illus" viewBox="0 0 440 240" role="img" aria-label="Et papir med tre godkjenningsstempler">
+        <!-- papir -->
+        <rect x="60" y="20" width="230" height="190" rx="8" fill="#f5f7f9"/>
+        <line x1="82" y1="52" x2="250" y2="52" stroke="#9aa8b5" stroke-width="4"/>
+        <line x1="82" y1="76" x2="268" y2="76" stroke="#dfe5ea" stroke-width="3"/>
+        <line x1="82" y1="94" x2="268" y2="94" stroke="#dfe5ea" stroke-width="3"/>
+        <line x1="82" y1="112" x2="230" y2="112" stroke="#dfe5ea" stroke-width="3"/>
+        <text x="82" y="188" style="font-size:11px;fill:#5b7186" class="mono">doi:10.1007/bf01700692</text>
+        <!-- tre stempler -->
+        <g>
+          <circle cx="316" cy="70" r="30" fill="rgba(53,208,186,.12)" stroke="#35d0ba" stroke-width="2.5" transform="rotate(-8 316 70)"/>
+          <text x="316" y="66" text-anchor="middle" class="tq" style="font-weight:700">✓</text>
+          <text x="316" y="84" text-anchor="middle" class="lab">TITTEL</text>
+        </g>
+        <g>
+          <circle cx="352" cy="132" r="30" fill="rgba(53,208,186,.12)" stroke="#35d0ba" stroke-width="2.5"/>
+          <text x="352" y="128" text-anchor="middle" class="tq" style="font-weight:700">✓</text>
+          <text x="352" y="146" text-anchor="middle" class="lab">FORFATTER</text>
+        </g>
+        <g>
+          <circle cx="310" cy="192" r="30" fill="rgba(53,208,186,.12)" stroke="#35d0ba" stroke-width="2.5" transform="rotate(7 310 192)"/>
+          <text x="310" y="188" text-anchor="middle" class="tq" style="font-weight:700">✓</text>
+          <text x="310" y="206" text-anchor="middle" class="lab">ÅRSTALL</text>
+        </g>
+      </svg>
+    </div>
+    <div class="flow">
+      <div class="fn g">Frø: tittel / DOI</div><div class="fa">▼</div>
+      <div class="fn">Crossref · arXiv</div><div class="fa">▼</div>
+      <div class="fn">Vakt: tittel+forfatter+år</div><div class="fa">▼</div>
+      <div class="fn">SHA-256 av ekstrakt</div><div class="fa t">▼</div>
+      <div class="fn t">Verifisert sitering</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 12 · DEL 11 BIBLIOTEKET ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 11</span>CLAIMS-BIBLIOTEKET</p>
+  <div class="grid2">
+    <div>
+      <h2>Kunnskap som <b>komponderer</b></h2>
+      <p class="lede">Immutable bundles: claim + evidens + kode + litteratur,
+      adressert av sin egen hash. Biblioteket er <b>distribusjon — aldri sannhet</b>;
+      alt verifiseres lokalt, offline.</p>
+      <div class="stats">
+        <div><div class="stat"><b>90</b></div><div class="statlab">gjeldende claims</div></div>
+        <div><div class="stat">455</div><div class="statlab">immutable versjoner</div></div>
+        <div><div class="stat">4</div><div class="statlab">kilderepoer</div></div>
+      </div>
+      <svg class="illus" viewBox="0 0 440 170" style="margin-top:26px" role="img" aria-label="Forseglede kasser på en hylle, hver med hengelås og hash-etikett">
+        <line x1="14" y1="140" x2="426" y2="140" stroke="#243244" stroke-width="4"/>
+        <!-- tre kasser -->
+        <g>
+          <rect x="30" y="62" width="110" height="78" rx="8" fill="#17212e" stroke="#8fa0b2" stroke-width="2"/>
+          <path d="M74 62 v-12 a11 11 0 0 1 22 0 v12" fill="none" stroke="#8fa0b2" stroke-width="2.5"/>
+          <text x="85" y="108" text-anchor="middle" class="lab">fa9c…9f63</text>
+        </g>
+        <g>
+          <rect x="165" y="62" width="110" height="78" rx="8" fill="rgba(53,208,186,.1)" stroke="#35d0ba" stroke-width="2.5"/>
+          <path d="M209 62 v-12 a11 11 0 0 1 22 0 v12" fill="none" stroke="#35d0ba" stroke-width="2.5"/>
+          <text x="220" y="100" text-anchor="middle" class="tq" style="font-weight:600">claim + kode</text>
+          <text x="220" y="118" text-anchor="middle" class="lab">+ litteratur</text>
+        </g>
+        <g>
+          <rect x="300" y="62" width="110" height="78" rx="8" fill="#17212e" stroke="#8fa0b2" stroke-width="2"/>
+          <path d="M344 62 v-12 a11 11 0 0 1 22 0 v12" fill="none" stroke="#8fa0b2" stroke-width="2.5"/>
+          <text x="355" y="108" text-anchor="middle" class="lab">724d…fb8e</text>
+        </g>
+        <text x="220" y="164" text-anchor="middle" class="lab">FORSEGLET AV SIN EGEN HASH — ENHVER ENDRING ER EN NY KASSE</text>
+      </svg>
+    </div>
+    <div class="flow">
+      <div class="fn">Prosjekt A <small>egen gate: grønn</small></div><div class="fa">▼</div>
+      <div class="fn mono">bundle = sha256(manifest)</div><div class="fa">▼</div>
+      <div class="fn t">Claims-bibliotek</div><div class="fa">▼</div>
+      <div class="fn mono">hash-verifisert import</div><div class="fa">▼</div>
+      <div class="fn">Prosjekt B <small>egen gate vokter innholdet</small></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 13 · DEL 12 HARVEST ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 12</span>HARVEST</p>
+  <h2>Tillit avgjøres av hva repoet <b>er</b> —<br>aldri av hvor selvsikkert det høres ut</h2>
+  <div class="flow" style="margin-top:26px">
+    <div class="fn">Repo-URL</div><div class="fa">▼</div>
+    <div class="fn">Inspeksjon</div><div class="fa">▼</div>
+    <div class="frow">
+      <div class="flow"><div class="fn t">Native<small>egen gate må være grønn</small></div><div class="fa t">▼</div><div class="fn t">Verified bundles</div></div>
+      <div class="flow"><div class="fn">Mapped<small>nedskrevet kurateringspolicy</small></div><div class="fa">▼</div><div class="fn">Verified — aldri oppgradert</div></div>
+      <div class="flow"><div class="fn g">Ungated<small>assertion-mining</small></div><div class="fa">▼</div><div class="fn r">Karantene: candidate</div></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 14 · DEL 13 KODE-VENDORING ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 13</span>KODE-VENDORING</p>
+  <div class="grid2">
+    <div>
+      <h2>Koden du kjører <b>er</b> koden<br>som lagde evidensen</h2>
+      <p class="lede">Byte-eksakt vendoring med generert bindingstest:
+      redigerer du den importerte koden, feiler din egen testsuite.
+      <b>Forking blir et eksplisitt valg.</b></p>
+    </div>
+    <div class="flow">
+      <div class="fn">Evidens i kilderepo</div><div class="fa">▼</div>
+      <div class="fn">Eksakt kildekode i bundle</div><div class="fa">▼</div>
+      <div class="fn mono">sha256 per fil</div><div class="fa">▼</div>
+      <div class="fn">Generert bindingstest</div><div class="fa t">▼</div>
+      <div class="fn t">Importert — og voktet</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 15 · DEL 14 REPRODUCE ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 14</span>REPRODUCE</p>
+  <div class="grid2">
+    <div>
+      <h2>Tallet er fortsatt sant — <b>i dag</b></h2>
+      <p class="lede"><code>vericlaim reproduce</code> kjører hvert evidensskript på nytt
+      og krever <b>byte-identiske</b> artefakter. Koden gikk videre, men benchmarken
+      endret seg i stillhet? Bygget blir rødt.</p>
+      <svg class="illus" viewBox="0 0 440 210" role="img" aria-label="To identiske fingeravtrykk: samme hash i går og i dag">
+        <!-- i går -->
+        <g>
+          <rect x="42" y="30" width="130" height="130" rx="14" fill="#17212e" stroke="#8fa0b2" stroke-width="2"/>
+          <path d="M107 65 a30 30 0 1 1 -0.1 0" fill="none" stroke="#8fa0b2" stroke-width="2.5"/>
+          <path d="M107 78 a17 17 0 1 1 -0.1 0" fill="none" stroke="#8fa0b2" stroke-width="2.5"/>
+          <circle cx="107" cy="95" r="5" fill="#8fa0b2"/>
+          <text x="107" y="182" text-anchor="middle" class="lab">I GÅR · a41f…</text>
+        </g>
+        <!-- likhet -->
+        <line x1="192" y1="86" x2="248" y2="86" stroke="#35d0ba" stroke-width="4"/>
+        <line x1="192" y1="102" x2="248" y2="102" stroke="#35d0ba" stroke-width="4"/>
+        <!-- i dag -->
+        <g>
+          <rect x="268" y="30" width="130" height="130" rx="14" fill="rgba(53,208,186,.08)" stroke="#35d0ba" stroke-width="2.5"/>
+          <path d="M333 65 a30 30 0 1 1 -0.1 0" fill="none" stroke="#35d0ba" stroke-width="2.5"/>
+          <path d="M333 78 a17 17 0 1 1 -0.1 0" fill="none" stroke="#35d0ba" stroke-width="2.5"/>
+          <circle cx="333" cy="95" r="5" fill="#35d0ba"/>
+          <text x="333" y="182" text-anchor="middle" class="tq" style="font-size:11.5px;letter-spacing:.08em">I DAG · a41f… — SAMME AVTRYKK</text>
+        </g>
+      </svg>
+    </div>
+    <div class="flow">
+      <div class="fn g">I går</div><div class="fa">▼</div>
+      <div class="fn mono">benchmark.json · sha256 a41f…</div><div class="fa">▼</div>
+      <div class="fn g">I dag</div><div class="fa">▼</div>
+      <div class="fn">Reproduce — kjør skriptet igjen</div><div class="fa t">▼</div>
+      <div class="fn mono">sha256 a41f… — identisk</div><div class="fa t">▼</div>
+      <div class="fn t">PASS</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 16 · DEL 15 CLOUDFLARE ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 15</span>CLOUDFLARE TRUTH LAYER</p>
+  <h2>Sannhetslaget <b>på kanten</b></h2>
+  <p class="lede">Live på Workers. Oraklet <b>nekter</b> å svare når ingen claim dekker spørsmålet.</p>
+  <div class="flow">
+    <div class="fn">Bruker / agent</div><div class="fa">▼</div>
+    <div class="fn">API</div><div class="fa">▼</div>
+    <div class="frow" style="max-width:820px">
+      <div class="fn g">Orakel<small>nekter uten dekning</small></div>
+      <div class="fn g">Semantisk søk<small>Vectorize</small></div>
+      <div class="fn g">Ledger<small>hash-kjedet D1</small></div>
+      <div class="fn g">Vault<small>innholdsadressert R2</small></div>
+      <div class="fn g">Passport<small>offentlig tillitsside</small></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 17 · DEL 16 MCP ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 16</span>MCP — AGENTENE KOBLES PÅ</p>
+  <div class="grid2">
+    <div>
+      <h2>Claude spør <b>registeret</b>,<br>ikke hukommelsen</h2>
+      <p class="lede">Seks skrivebeskyttede verktøy over Model Context Protocol.
+      Et søketreff er aldri bevis — claimen er troverdig fordi <b>gaten</b> verifiserte den.</p>
+    </div>
+    <div class="flow">
+      <div class="fn t">Claude</div><div class="fa t">▼</div>
+      <div class="fn mono">search_claims() · ask_claims()</div><div class="fa">▼</div>
+      <div class="fn mono">verify_claim() · get_claim_history()</div><div class="fa">▼</div>
+      <div class="fn mono">search_library() · get_bundle()</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 18 · DEL 17 TRUST GRAPH ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 17</span>TILLITSGRAFEN</p>
+  <div class="grid2">
+    <div>
+      <h2>Hvert ledd <b>peker på beviset</b><br>for det neste</h2>
+      <p class="lede">Fra påstand til offentlig vitne: én ubrutt, etterprøvbar kjede.
+      Bryt ett ledd — og gaten navngir bruddet.</p>
+    </div>
+    <div class="flow">
+      <div class="fn">Claim</div><div class="fa t">▼</div>
+      <div class="fn">Evidens</div><div class="fa t">▼</div>
+      <div class="fn">Artefakt</div><div class="fa t">▼</div>
+      <div class="fn">Litteratur</div><div class="fa t">▼</div>
+      <div class="fn mono">Hash</div><div class="fa t">▼</div>
+      <div class="fn">Vitne i git-historikk</div><div class="fa t">▼</div>
+      <div class="fn t">Ledger</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 19 · DEL 18 KOMPOSISJON ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 18</span>TILLITSKOMPOSISJON</p>
+  <div class="flow">
+    <div class="frow">
+      <div class="fn">DecisionEnvelope<small>REMORA</small></div>
+      <div class="fa" style="align-self:center">+</div>
+      <div class="fn">Claim-integritet<small>VeriClaim</small></div>
+      <div class="fa" style="align-self:center">+</div>
+      <div class="fn">Evidens<small>artefakter · litteratur</small></div>
+    </div>
+    <div class="fa t">▼</div>
+    <div class="fn t" style="font-size:20px;padding:16px 40px">Beslutning man kan stole på</div>
+  </div>
+  <p class="quote" style="font-size:clamp(24px,3.4vw,40px);margin-top:44px">
+  VeriClaim er <b>evidensmotoren</b> som kompletterer<br>REMORAs beslutningsmotor.</p>
+</div></section>
+
+<!-- ═══ 20 · DEL 19 MATEMATIKK I ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 19</span>MATEMATIKKEN · KRYPTOGRAFI</p>
+  <h2>Manipulasjon <b>etterlater brudd</b></h2>
+  <p class="lede">Hver ledger-rad kjeder den forrige. Kjedehodene vitnes i offentlig git-historikk
+  og re-verifiseres <b>klient-side</b> — en gjenoppbygd database avsløres av ethvert tidligere vitne.</p>
+  <svg style="width:100%;max-width:780px;height:auto;display:block;margin:10px 0 18px" viewBox="0 0 780 150" role="img" aria-label="Fem kjedede blokker; blokk tre er endret og alle etterfølgende ledd brister">
+    <!-- intakte blokker 1-2 -->
+    <rect x="10" y="40" width="110" height="60" rx="10" fill="#17212e" stroke="#35d0ba" stroke-width="2.5"/>
+    <text x="65" y="75" text-anchor="middle" style="fill:#35d0ba;font-weight:600;font-family:inherit;font-size:14px">H₁</text>
+    <ellipse cx="140" cy="70" rx="12" ry="7" fill="none" stroke="#35d0ba" stroke-width="3"/>
+    <rect x="160" y="40" width="110" height="60" rx="10" fill="#17212e" stroke="#35d0ba" stroke-width="2.5"/>
+    <text x="215" y="75" text-anchor="middle" style="fill:#35d0ba;font-weight:600;font-family:inherit;font-size:14px">H₂</text>
+    <ellipse cx="290" cy="70" rx="12" ry="7" fill="none" stroke="#35d0ba" stroke-width="3"/>
+    <!-- tuklet blokk 3 -->
+    <rect x="310" y="40" width="110" height="60" rx="10" fill="rgba(255,107,107,.12)" stroke="#ff6b6b" stroke-width="2.5" transform="rotate(-2 365 70)"/>
+    <text x="365" y="70" text-anchor="middle" style="fill:#ff6b6b;font-weight:700;font-family:inherit;font-size:14px">H₃′</text>
+    <text x="365" y="88" text-anchor="middle" style="fill:#ff6b6b;font-family:inherit;font-size:11px">endret</text>
+    <!-- brutte ledd -->
+    <path d="M432 64 a12 7 0 0 1 12 7" fill="none" stroke="#ff6b6b" stroke-width="3"/>
+    <path d="M456 77 a12 7 0 0 1 -8 -6" fill="none" stroke="#ff6b6b" stroke-width="3"/>
+    <line x1="438" y1="84" x2="452" y2="56" stroke="#ff6b6b" stroke-width="2.5"/>
+    <rect x="466" y="40" width="110" height="60" rx="10" fill="#17212e" stroke="#5c6c7e" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="521" y="75" text-anchor="middle" style="fill:#5c6c7e;font-family:inherit;font-size:14px">H₄ ✗</text>
+    <ellipse cx="596" cy="70" rx="12" ry="7" fill="none" stroke="#5c6c7e" stroke-width="2.5" stroke-dasharray="5 5"/>
+    <rect x="616" y="40" width="110" height="60" rx="10" fill="#17212e" stroke="#5c6c7e" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="671" y="75" text-anchor="middle" style="fill:#5c6c7e;font-family:inherit;font-size:14px">H₅ ✗</text>
+    <text x="368" y="132" text-anchor="middle" style="fill:#8fa0b2;font-family:inherit;font-size:13px">Én endret rad — og hvert eneste ledd etterpå brister synlig</text>
+  </svg>
+  <div class="frow" style="justify-content:flex-start">
+    <span class="math">H<sub>i</sub> = SHA-256( H<sub>i−1</sub> <i>‖</i> Record<sub>i</sub> )</span>
+    <span class="math">bundle_id = SHA-256( <i>kanonisk manifest</i> )</span>
+  </div>
+  <div class="stats">
+    <div><div class="stat"><b>16</b></div><div class="statlab">vitner — alle forlenget</div></div>
+    <div><div class="stat">0</div><div class="statlab">omskrivinger av historikken</div></div>
+  </div>
+</div></section>
+
+<!-- ═══ 21 · DEL 19 MATEMATIKK II ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 19</span>MATEMATIKKEN · TEOREMENE</p>
+  <h2>Fable foreslår. <b>Kjernen dømmer.</b></h2>
+  <p class="lede">Modell-seedet kunnskap slippes inn kun etter maskinell dom:
+  Lean 4-kjernen for universelle teoremer, uttømmende eksakt aritmetikk for bounded batterier —
+  med <b>aksiom-fotavtrykk</b> registrert per bevis.</p>
+  <div class="frow" style="justify-content:flex-start">
+    <span class="math">⌈(n+1)(1−α)⌉ / (n+1) ≥ 1−α</span>
+    <span class="math">P(A|B)·P(B) = P(B|A)·P(A)</span>
+  </div>
+  <div class="stats">
+    <div><div class="stat"><b>20</b></div><div class="statlab">Lean-kjerneverifiserte teoremer</div></div>
+    <div><div class="stat">10</div><div class="statlab">fullt konstruktive</div></div>
+    <div><div class="stat">880</div><div class="statlab">eksakte konform-sjekker</div></div>
+    <div><div class="stat">1</div><div class="statlab">Lean-3-isme avvist av kjernen</div></div>
+  </div>
+</div></section>
+
+<!-- ═══ 22 · DEL 20 BENCHMARK ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 20</span>SAMMENLIGNING</p>
+  <h2>Hva andre systemer <b>ikke</b> håndhever</h2>
+  <div class="tblwrap" style="margin-top:24px">
+  <table>
+    <tr><th>System</th><th>Proveniens</th><th>Reproduce</th><th>Hash-binding</th><th>Sitatintegritet</th><th>Fail closed</th></tr>
+    <tr><td>README</td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td></tr>
+    <tr><td>Wiki</td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td></tr>
+    <tr><td>Fagartikler</td><td><span class="p">delvis</span></td><td><span class="p">delvis</span></td><td><span class="n">—</span></td><td><span class="y">✓</span></td><td><span class="n">—</span></td></tr>
+    <tr class="hl"><td>VeriClaim</td><td><span class="y">✓</span></td><td><span class="y">✓</span></td><td><span class="y">✓</span></td><td><span class="y">✓</span></td><td><span class="y">✓</span></td></tr>
+  </table>
+  </div>
+  <p class="foot">Kvalitativ egenskapssammenligning — ikke en målt benchmark.</p>
+</div></section>
+
+<!-- ═══ 23 · DEL 21 TRUSTGATE ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 21</span>TRUSTGATE — BEVISET</p>
+  <h2>Første system <b>komponert</b> av<br>verifiserte claims fra uavhengige kilder</h2>
+  <p class="lede">Konform prediksjon fra teorembiblioteket + REMORAs anytime-valide selvmonitor —
+  hash-låst import, byte-eksakt kode, <b>uten å oppgradere ett eneste evidensnivå.</b>
+  Byggingen fanget dessuten en ekte defekt i biblioteket.</p>
+  <div class="grid2" style="align-items:end">
+    <div class="stats" style="flex-direction:column;gap:22px">
+      <div><div class="stat">373<span style="color:var(--dim)">/</span>400</div><div class="statlab">dekning — mål ≥ 0,90</div></div>
+      <div><div class="stat"><b>94</b></div><div class="statlab">sertifisert ved runde (datadrevet, lovlig)</div></div>
+      <div><div class="stat">0</div><div class="statlab">alarmer · eksakt CLAIM-011-kryssjekk</div></div>
+    </div>
+    <svg class="illus" style="max-width:520px" viewBox="0 0 520 260" role="img" aria-label="Monitorkurve: øvre feilgrense faller under terskelen ved runde 94">
+      <!-- akser -->
+      <line x1="52" y1="18" x2="52" y2="212" stroke="#243244" stroke-width="2"/>
+      <line x1="52" y1="212" x2="500" y2="212" stroke="#243244" stroke-width="2"/>
+      <text x="30" y="216" text-anchor="middle" class="lab">0</text>
+      <text x="26" y="120" text-anchor="middle" class="lab">0,2</text>
+      <text x="26" y="42" text-anchor="middle" class="lab">0,4</text>
+      <text x="276" y="242" text-anchor="middle" class="lab">RUNDE →</text>
+      <!-- terskel -->
+      <line x1="52" y1="116" x2="500" y2="116" stroke="#f0b25f" stroke-width="2" stroke-dasharray="7 6"/>
+      <text x="498" y="106" text-anchor="end" style="fill:#f0b25f;font-size:12px">sertifiseringsterskel 0,20</text>
+      <!-- øvre grense: bred tidlig, faller -->
+      <polyline points="60,26 84,44 108,74 136,92 168,104 200,112 232,120 280,130 340,140 420,148 496,153"
+        fill="none" stroke="#35d0ba" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- sertifiseringspunkt -->
+      <circle cx="232" cy="120" r="8" fill="#101823" stroke="#35d0ba" stroke-width="3.5"/>
+      <line x1="232" y1="128" x2="232" y2="212" stroke="#35d0ba" stroke-width="1.5" stroke-dasharray="3 5"/>
+      <text x="232" y="196" text-anchor="middle" class="tq" style="font-weight:600">runde 94 — SERTIFISERT</text>
+      <text x="120" y="36" class="lab">TIDSUNIFORM ØVRE GRENSE PÅ FEILRATEN</text>
+      <text x="120" y="54" class="lab">(bred tidlig — det er prisen for å kunne titte hele tiden)</text>
+    </svg>
+  </div>
+</div></section>
+
+<!-- ═══ 24 · DEL 22 FILOSOFI ═══ -->
+<section class="slide" style="justify-content:center"><div class="wrap" style="text-align:center">
+  <p class="kick" style="justify-content:center"><span class="n">DEL 22</span>FILOSOFIEN</p>
+  <p class="quote">Truth is not asserted.<br><b>Truth is earned.</b></p>
+</div></section>
+
+<!-- ═══ 25 · DEL 23 BEGRENSNINGER ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">DEL 23</span>BEGRENSNINGER</p>
+  <h2>Hva VeriClaim <b>ikke</b> beviser</h2>
+  <p class="lede">Et anti-overclaim-verktøy må være presist om sin egen grense.</p>
+  <div class="grid2" style="align-items:start">
+    <div>
+      <p class="kick" style="color:var(--tq)">Beviser</p>
+      <div class="chips">
+        <span class="chip" style="color:var(--ink)">Intern konsistens</span>
+        <span class="chip" style="color:var(--ink)">Reproduksjon</span>
+        <span class="chip" style="color:var(--ink)">Proveniens</span>
+        <span class="chip" style="color:var(--ink)">Dokumentintegritet</span>
+        <span class="chip" style="color:var(--ink)">Sitatintegritet</span>
+      </div>
+    </div>
+    <div>
+      <p class="kick" style="color:var(--red)">Beviser ikke</p>
+      <div class="chips">
+        <span class="chip">At benchmarks representerer produksjon</span>
+        <span class="chip">At en algoritme er optimal</span>
+        <span class="chip">At en modell har rett</span>
+        <span class="chip">At prosa er semantisk sann</span>
+      </div>
+    </div>
+  </div>
+  <p class="foot">Grensen står i README-en, i skillen og i hver caveat — og systemet har fanget
+  sine egne overclaims tre ganger. Det er håndhevelsen, demonstrert.</p>
+</div></section>
+
+<!-- ═══ 26 · SLUTT ═══ -->
+<section class="slide"><div class="wrap">
+  <p class="kick"><span class="n">VERICLAIM · REMORA RESEARCH</span></p>
+  <h1>Alt her er<br><b>etterprøvbart.</b></h1>
+  <p class="lede">Tre offentlige repoer, live truth-layer, offentlig forankrede ledgere.
+  Kjør gaten selv — det er hele poenget.</p>
+  <div class="chips">
+    <span class="chip mono">github.com/darklordVirtual/vericlaim</span>
+    <span class="chip mono">github.com/darklordVirtual/claimlib-seeds</span>
+    <span class="chip mono">github.com/darklordVirtual/trustgate-demo</span>
+    <span class="chip mono">vericlaim-claims.razorsharp.workers.dev/passport</span>
+  </div>
+  <p class="foot">Stian Skogbrott · Apache-2.0 · Alle tall i denne presentasjonen er claims
+  med committede artefakter bak seg.</p>
+</div></section>
+
+<script>
+  const slides=[...document.querySelectorAll('.slide')],pg=document.getElementById('pg'),
+        bar=document.getElementById('bar');
+  const upd=()=>{const y=scrollY,h=document.body.scrollHeight-innerHeight;
+    bar.style.width=(h?100*y/h:0)+'%';
+    let i=slides.findIndex(s=>s.offsetTop>y+innerHeight/2);
+    if(i<0)i=slides.length; pg.textContent=String(i).padStart(2,'0')+' / '+slides.length;};
+  addEventListener('scroll',upd,{passive:true});upd();
+  addEventListener('keydown',e=>{
+    if(e.key!=='ArrowDown'&&e.key!=='ArrowRight'&&e.key!=='ArrowUp'&&e.key!=='ArrowLeft'&&e.key!=='PageDown'&&e.key!=='PageUp')return;
+    e.preventDefault();
+    const fwd=e.key==='ArrowDown'||e.key==='ArrowRight'||e.key==='PageDown';
+    const cur=slides.findIndex(s=>s.offsetTop>=scrollY-10);
+    const nxt=Math.min(Math.max(cur+(fwd?1:-1),0),slides.length-1);
+    slides[nxt].scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+  });
+</script>

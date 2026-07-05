@@ -1,0 +1,311 @@
+<title>VeriClaim — Whitepaper</title>
+<style>
+  :root{--ink:#16202b;--mut:#5a6b7d;--dim:#8b99a7;--tq:#0b9c88;--tq-wash:#e7f4f1;
+    --red:#c94f4f;--amber:#b07f2e;--line:#dde4e9;--paper:#fdfefe}
+  body{margin:0;background:#eef1f4;color:var(--ink);
+    font:400 16.5px/1.68 "Helvetica Neue",-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  .page{max-width:820px;margin:0 auto;padding:70px 34px 100px;background:var(--paper)}
+  .kick{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--tq);font-weight:700;margin:0 0 12px}
+  h1{font-size:clamp(36px,6vw,58px);font-weight:230;letter-spacing:-.02em;line-height:1.04;margin:0 0 14px;text-wrap:balance}
+  h1 b{font-weight:700;color:var(--tq)}
+  .sub{color:var(--mut);font-size:18px;max-width:62ch;margin:0 0 30px}
+  h2{font-size:24px;font-weight:650;letter-spacing:-.01em;margin:58px 0 4px}
+  h2 .n{color:var(--tq);font-variant-numeric:tabular-nums;margin-right:10px;font-weight:300}
+  h3{font-size:16px;font-weight:700;margin:26px 0 6px}
+  p{max-width:68ch;margin:10px 0}
+  .mut{color:var(--mut)} b{font-weight:650}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.88em;background:#eef1f4;padding:1px 6px;border-radius:5px}
+  .exec{background:var(--tq-wash);border:1px solid #bfe2db;border-radius:14px;padding:26px 30px;margin:34px 0}
+  .exec h2{margin:0 0 10px;font-size:16px;letter-spacing:.14em;text-transform:uppercase;color:var(--tq)}
+  .exec p{margin:0 0 12px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin:18px 0 0}
+  .kpi b{display:block;font-size:32px;font-weight:250;letter-spacing:-.02em;color:var(--ink);font-variant-numeric:tabular-nums}
+  .kpi b i{font-style:normal;color:var(--tq);font-weight:600}
+  .kpi span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+  .fig{margin:26px 0;padding:22px;border:1px solid var(--line);border-radius:14px;background:#fff}
+  .fig svg{width:100%;height:auto;display:block}
+  .figcap{font-size:13px;color:var(--mut);margin:12px 0 0}
+  .figcap b{color:var(--ink)}
+  svg text{font-family:inherit;font-size:12.5px;fill:var(--mut)}
+  svg .lab{font-size:11px;letter-spacing:.07em;fill:var(--dim)}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;margin:14px 0}
+  th,td{padding:10px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);font-weight:600}
+  td.num{font-variant-numeric:tabular-nums}
+  .tbl{overflow-x:auto}
+  .find{border-left:3px solid var(--tq);padding:4px 0 4px 20px;margin:20px 0}
+  .find b{color:var(--tq)}
+  .limits{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:18px 0}
+  @media(max-width:700px){.limits{grid-template-columns:1fr}}
+  .limits div{border:1px solid var(--line);border-radius:12px;padding:18px 22px}
+  .limits h3{margin-top:0}
+  .limits .no h3{color:var(--red)}
+  .limits ul{margin:8px 0;padding-left:20px}
+  .refs{font-size:14px;color:var(--mut)}
+  .refs li{margin-bottom:7px}
+  .quote{font-size:clamp(24px,4vw,34px);font-weight:250;line-height:1.25;margin:44px 0;
+    padding:26px 30px;border-left:4px solid var(--tq);text-wrap:balance}
+  .quote b{font-weight:650;color:var(--tq)}
+  @media print{body{background:#fff}.page{max-width:none}}
+</style>
+<div class="page">
+
+<p class="kick">Whitepaper · Remora Research · Juli 2026</p>
+<h1>VeriClaim: et <b>evidence-first</b> utviklingsparadigme</h1>
+<p class="sub">Dokumentasjon, kode, litteratur og reproduksjon — kryptografisk bundet sammen
+og håndhevet i CI. Med et tverrprosjekt-bibliotek der verifisert kunnskap komponderer,
+og en casestudie som komponerer garantier fra uavhengige kilder.</p>
+
+<div class="exec">
+  <h2>Executive summary</h2>
+  <p>AI skriver kode og prosa raskere enn noen verifiserer den. Resultatet er en ny klasse
+  systemfeil: prosjekter som <b>beskriver seg selv feil</b> — tall som drifter fra målingene,
+  sitater som aldri fantes, dokumentasjon som var sann i fjor. Testing fanger kode som
+  oppfører seg feil; ingenting konvensjonelt fanger dette.</p>
+  <p>VeriClaim løfter Design by Contract fra funksjoner til hele repositoriet: hver faktapåstand
+  registreres som en <b>claim</b> med committet evidens, ærlig gradert bevisstyrke og obligatorisk
+  forbehold. En fail-closed gate håndhever kontrakten på hver commit; <code>reproduce</code>
+  beviser at tallene fortsatt stemmer i dag; ledgere forankres i offentlig git-historikk.
+  Oppå kjernen: et bibliotek av immutable, hash-adresserte kunnskapsbundles — inkludert
+  20 teoremer bevist av Lean 4-kjernen fra modell-seedede forslag — og TrustGate,
+  et kjørende system komponert av garantier fra to uavhengige kilder.</p>
+  <div class="kpis">
+    <div class="kpi"><b><i>90</i></b><span>gjeldende claims · 4 repoer</span></div>
+    <div class="kpi"><b>455</b><span>immutable bundle-versjoner</span></div>
+    <div class="kpi"><b>20</b><span>Lean-kjerneverifiserte teoremer</span></div>
+    <div class="kpi"><b>16</b><span>offentlige vitner — alle intakte</span></div>
+    <div class="kpi"><b>3</b><span>egne overclaims fanget av systemet</span></div>
+  </div>
+</div>
+
+<h2><span class="n">1</span>Problemet: prosjekter som misdescriber seg selv</h2>
+<p>En LLM i utviklingsløpet produserer tre artefakter samtidig: kode, tall og prosa.
+Kun den første har et modent kontrollapparat. Tallene og prosaen — README-er, benchmarks,
+changelogs, siteringer — lever uten kontrakt, og drifter i stillhet. Vår erfaring fra
+REMORA-arbeidet var entydig: selv med disiplinerte prosesser gjenoppstår korrigerte
+formuleringer, benchmarks-tall overlever koden de målte, og plausible referanser viser seg
+å være fabrikkerte. Problemet er strukturelt, ikke moralsk: <b>det finnes ingen håndhevet
+binding mellom påstand og bevis.</b></p>
+
+<h2><span class="n">2</span>Paradigmet: én regel</h2>
+<p class="quote">Ingen tall uten artefakt. Ingen dokumenttall som ikke er bundet til registeret.
+Ingen claim beskrevet over evidensen den har. <b>Og alt håndheves — fail closed.</b></p>
+<p>En claim er en kontrakt med seks elementer: <b>statement</b> (påstanden),
+<b>evidence_level</b> (ærlig gradert styrke), <b>artifact</b> (committede bevisfiler),
+<b>metrics</b> (tallene dokumenter binder seg til), <b>caveat</b> (forbeholdet — en del av
+claimen, aldri valgfritt) og <b>reproduce</b> (kommandoen som gjenskaper beviset).
+Evidensstigen har seks trinn — theoretical, measured, benchmarked, reproduced,
+machine_checked, externally_validated — med én asymmetri som bærer ærligheten:
+degradering er alltid lov; oppgradering krever ny evidens.</p>
+
+<h2><span class="n">3</span>Gaten: ni sjekker, hver commit</h2>
+<div class="tbl"><table>
+<tr><th>Sjekk</th><th>Garanti</th></tr>
+<tr><td>Registerintegritet</td><td>Fail-closed parsing — en formatfeil kan aldri stille avskru gaten</td></tr>
+<tr><td>Artefakt-eksistens</td><td>Ingen claim uten committet bevis; stier kan ikke rømme repoet</td></tr>
+<tr><td>Proveniens</td><td>Hvert produserte artefakt vet hvilket skript som lagde det</td></tr>
+<tr><td>Manifest-hasher</td><td>Et stille redigert resultat oppdages byte for byte</td></tr>
+<tr><td>Dokument-ankre</td><td>Prosatall bundet til registerverdier</td></tr>
+<tr><td>Kode-ankre</td><td>Kodekommentarer holdes til samme kontrakt som prosa</td></tr>
+<tr><td>Value-tokens</td><td>Pinner ett spesifikt tall-literal — «target 180 / actual 900» kan ikke passere</td></tr>
+<tr><td>Evidensnivå-sitering</td><td>Docs kan aldri omtale en claim over dens earned nivå</td></tr>
+<tr><td>Litteraturintegritet</td><td>Hver sitering hash-låst til et committet ekstrakt</td></tr>
+</table></div>
+<div class="fig">
+<svg viewBox="0 0 760 200" role="img" aria-label="Dokument ankret med kjetting til hashet evidens">
+  <rect x="60" y="24" width="220" height="120" rx="10" fill="#f2f5f7" stroke="#c6d0d8" stroke-width="1.5"/>
+  <line x1="84" y1="56" x2="250" y2="56" stroke="#9aa8b5" stroke-width="3.5"/>
+  <line x1="84" y1="78" x2="232" y2="78" stroke="#d5dde3" stroke-width="3"/>
+  <rect x="84" y="98" width="82" height="22" rx="5" fill="#e7f4f1" stroke="#0b9c88" stroke-width="1.5"/>
+  <text x="125" y="113" text-anchor="middle" style="fill:#0b9c88;font-weight:700;font-size:12px">8.0584×</text>
+  <text x="170" y="170" text-anchor="middle" class="lab">DOKUMENTASJON</text>
+  <ellipse cx="320" cy="72" rx="11" ry="6" fill="none" stroke="#0b9c88" stroke-width="2.5"/>
+  <ellipse cx="342" cy="84" rx="11" ry="6" fill="none" stroke="#0b9c88" stroke-width="2.5"/>
+  <ellipse cx="364" cy="96" rx="11" ry="6" fill="none" stroke="#0b9c88" stroke-width="2.5"/>
+  <rect x="392" y="52" width="300" height="86" rx="10" fill="#fff" stroke="#0b9c88" stroke-width="2"/>
+  <text x="542" y="86" text-anchor="middle" style="fill:#0b9c88;font-weight:650">rle_bench.json — produsert, aldri tastet</text>
+  <text x="542" y="110" text-anchor="middle" class="lab">SHA-256 7856…69C7 · PROVENANCE-SIDECAR · REPRODUCE-KOMMANDO</text>
+  <text x="542" y="166" text-anchor="middle" class="lab">EVIDENS</text>
+</svg>
+<p class="figcap"><b>Figur 1.</b> Ankermodellen: dokumentet skriver ikke tallet — det henger i
+det, via anker og value-token, ned til den hashede evidensfilen. Ryker ett ledd, feiler bygget
+med eksakt fil og linje.</p></div>
+
+<h2><span class="n">4</span>Kryptografisk forankring: tamper-evidens mot alle — inkludert eieren</h2>
+<p>Alle hendelser — claims og bibliotekbundles — appendes i hash-kjedede ledgere:
+<code>H<sub>i</sub> = SHA-256(H<sub>i−1</sub> ‖ Record<sub>i</sub>)</code>. Én endret rad
+brekker hvert etterfølgende ledd. Men en kjede alene beskytter ikke mot den som eier
+databasen: hele kjeden kan bygges om og selv-verifisere. Derfor <b>vitnes</b> kjedehodene i
+offentlig git-historikk, og verifikasjon skjer klient-side: hele eksporten lastes ned, hver
+hash regnes om lokalt, og dagens kjeder må <i>forlenge</i> hvert tidligere vitne. En ombygd,
+redigert eller trunkert historikk avsløres av ethvert eldre vitne.</p>
+<div class="fig">
+<svg viewBox="0 0 760 140" role="img" aria-label="Fem kjedede blokker der en endret blokk brekker alle etterfølgende ledd">
+  <rect x="8" y="34" width="108" height="56" rx="9" fill="#fff" stroke="#0b9c88" stroke-width="2"/>
+  <text x="62" y="67" text-anchor="middle" style="fill:#0b9c88;font-weight:650">H₁</text>
+  <ellipse cx="134" cy="62" rx="11" ry="6" fill="none" stroke="#0b9c88" stroke-width="2.5"/>
+  <rect x="152" y="34" width="108" height="56" rx="9" fill="#fff" stroke="#0b9c88" stroke-width="2"/>
+  <text x="206" y="67" text-anchor="middle" style="fill:#0b9c88;font-weight:650">H₂</text>
+  <ellipse cx="278" cy="62" rx="11" ry="6" fill="none" stroke="#0b9c88" stroke-width="2.5"/>
+  <rect x="296" y="34" width="108" height="56" rx="9" fill="#fbecec" stroke="#c94f4f" stroke-width="2" transform="rotate(-2 350 62)"/>
+  <text x="350" y="60" text-anchor="middle" style="fill:#c94f4f;font-weight:700">H₃′</text>
+  <text x="350" y="78" text-anchor="middle" style="fill:#c94f4f;font-size:10.5px">endret</text>
+  <path d="M416 56 a11 6 0 0 1 11 6" fill="none" stroke="#c94f4f" stroke-width="2.5"/>
+  <path d="M438 68 a11 6 0 0 1 -8 -5" fill="none" stroke="#c94f4f" stroke-width="2.5"/>
+  <line x1="420" y1="76" x2="434" y2="48" stroke="#c94f4f" stroke-width="2"/>
+  <rect x="448" y="34" width="108" height="56" rx="9" fill="#f6f8f9" stroke="#b9c4cd" stroke-width="1.8" stroke-dasharray="6 5"/>
+  <text x="502" y="67" text-anchor="middle" style="fill:#8b99a7">H₄ ✗</text>
+  <ellipse cx="574" cy="62" rx="11" ry="6" fill="none" stroke="#b9c4cd" stroke-width="2" stroke-dasharray="5 5"/>
+  <rect x="592" y="34" width="108" height="56" rx="9" fill="#f6f8f9" stroke="#b9c4cd" stroke-width="1.8" stroke-dasharray="6 5"/>
+  <text x="646" y="67" text-anchor="middle" style="fill:#8b99a7">H₅ ✗</text>
+  <text x="380" y="126" text-anchor="middle">Én endret rad — hvert etterfølgende ledd brister synlig; vitner i git-historikk fanger full ombygging</text>
+</svg>
+<p class="figcap"><b>Figur 2.</b> Tamper-evidens i to lag: kjeden fanger redigering,
+de offentlige vitnene fanger ombygging. Status: 16 vitner, alle forlenget, null omskrivinger.</p></div>
+
+<h2><span class="n">5</span>Biblioteket: kunnskap som komponderer</h2>
+<p>Verifisert kunnskap pakkes i <b>bundles</b> — claim + evidens + genererende kode +
+litteratur — adressert av <code>bundle_id = SHA-256(kanonisk manifest)</code>. Immutabelt:
+enhver endring er en ny versjon; supersession <i>utledes</i> av det append-only registeret,
+så søk viser gjeldende versjoner mens hele historikken består. Tre tillitsprinsipper:</p>
+<p><b>1) Tillit avgjøres av hva kilden er.</b> Native repoer må ha grønn egen gate ved høsting;
+kartlagte repoer høstes under nedskrevet policy der evidensnivåer aldri oppgraderes; alt annet
+karantenesettes som <i>kandidater</i> — synlige, merkede, umulige å importere som claims.
+<b>2) Biblioteket er distribusjon, aldri sannhet.</b> Import verifiserer hver hash offline, og
+vendret innhold hash-låses gjennom mottakerprosjektets egen gate. <b>3) Koden du kjører er
+koden som lagde beviset.</b> Byte-eksakt vendoring med generert bindingstest gjør forking til
+et eksplisitt, synlig valg.</p>
+
+<h2><span class="n">6</span>Automatisert litteraturkuratering — og missiteringsfangstene</h2>
+<p>Bibliografisk metadata hentes utelukkende fra registrarer (Crossref, arXiv) ved
+oppslagstid — aldri fra modellhukommelse. Et frø (tittel eller DOI) må passere tre vakter
+samtidig: <b>tittel-overlapp, forfatteretternavn og årstall (±2)</b>. Vaktene er ikke
+teoretiske — de herdet seg selv i drift:</p>
+<div class="tbl"><table>
+<tr><th>Frøet søkte</th><th>Registraren returnerte</th><th>Utfall</th></tr>
+<tr><td>Attention Is All You Need (2017)</td><td>«Is Attention All You Need?» — kritikk, 2025</td><td>Avvist på forfatter+år → korrekt arXiv-post funnet</td></tr>
+<tr><td>On Calibration of Modern Neural Networks</td><td>Sensor-kalibrerings-paper, 1989</td><td>Avvist etter vaktherding; regresjonstest skrevet</td></tr>
+<tr><td>Gödel, Escher, Bach (1979)</td><td>Bokanmeldelse i tidsskrift, 1983</td><td>Avvist på forfatter; ekte bokpost verifiserte senere</td></tr>
+<tr><td>8 bok-frø (bl.a. CLRS, Vovk)</td><td>Ingen post besto alle tre vaktene</td><td><b>Døde ærlig</b> — ingen sitering fremfor feil sitering</td></tr>
+</table></div>
+<p class="mut">Fravær dokumenteres like høyt som nærvær: claims hvis standardreferanse ikke
+verifiserte, sier det eksplisitt i caveaten.</p>
+
+<h2><span class="n">7</span>Modell-seedet kunnskap: Fable foreslår, maskinen dømmer</h2>
+<p>Kan en LLM fylle et kunnskapsbibliotek uten å forgifte det? Ja — hvis modellen aldri er
+autoritet. <b>Seeding-kontrakten:</b> modellforslag er frø; en uavhengig verifikator
+avgjør; det som feiler, blir aldri en claim. I praksis fire dommere: uttømmende decision
+procedures (12 tautologier), en fail-closed Hilbert-checker (7-stegs derivasjon), eksakt
+aritmetikk (25 bounded teorembatterier — fra Bayes-identiteten over 455 eksakte fordelinger
+til Max-Flow=Min-Cut over alle 4096 småneettverk), og <b>Lean 4-kjernen</b>: 20 teoremer
+bevist universelt — for alle proposisjoner, typer og naturlige tall — med
+<b>aksiom-fotavtrykk</b> registrert per bevis (10 fullt konstruktive). Kjernen avviste
+underveis et Lean-3-idiom fra modellens hukommelse; avvisningen står i historikken som
+kontraktens bevis.</p>
+
+<h2><span class="n">8</span>Casestudie: TrustGate</h2>
+<p>TrustGate er første system <b>komponert</b> av verifiserte claims fra uavhengige kilder —
+uten å oppgradere ett evidensnivå. Konform prediksjon (fra teorembiblioteket; dekningsidentiteten
+maskinsjekket eksakt) bygger intervaller per svar; REMORAs anytime-valide confidence sequence
+(CLAIM-011) overvåker miscoverage kontinuerlig. Fordi grensen er tidsuniform, er sertifisering
+på et <i>datadrevet</i> tidspunkt matematisk gyldig — nøyaktig bruken som ugyldiggjør
+klassiske fixed-N-intervaller.</p>
+<div class="fig">
+<svg viewBox="0 0 760 250" role="img" aria-label="Monitorkurve som faller under sertifiseringsterskelen ved runde 94">
+  <line x1="60" y1="16" x2="60" y2="206" stroke="#dde4e9" stroke-width="2"/>
+  <line x1="60" y1="206" x2="740" y2="206" stroke="#dde4e9" stroke-width="2"/>
+  <text x="42" y="211" text-anchor="middle" class="lab">0</text>
+  <text x="38" y="122" text-anchor="middle" class="lab">0,2</text>
+  <text x="38" y="40" text-anchor="middle" class="lab">0,4</text>
+  <line x1="60" y1="118" x2="740" y2="118" stroke="#b07f2e" stroke-width="1.8" stroke-dasharray="7 6"/>
+  <text x="736" y="108" text-anchor="end" style="fill:#b07f2e;font-size:11.5px">sertifiseringsterskel 0,20</text>
+  <polyline points="70,24 106,46 142,76 190,94 238,106 286,114 334,122 406,132 500,142 610,150 732,155"
+    fill="none" stroke="#0b9c88" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="334" cy="122" r="8" fill="#fff" stroke="#0b9c88" stroke-width="3.5"/>
+  <line x1="334" y1="130" x2="334" y2="206" stroke="#0b9c88" stroke-width="1.4" stroke-dasharray="3 5"/>
+  <text x="334" y="196" text-anchor="middle" style="fill:#0b9c88;font-weight:650">runde 94 — sertifisert</text>
+  <text x="150" y="34" class="lab">95 % TIDSUNIFORM ØVRE GRENSE — BRED TIDLIG, PRISEN FOR LOVLIG KONTINUERLIG TITTING</text>
+  <text x="400" y="240" text-anchor="middle" class="lab">RUNDE →</text>
+</svg>
+<p class="figcap"><b>Figur 3.</b> TrustGate-kjøringen: 400 runder, dekning 373/400 mot 0,90-mål,
+sertifisert i runde 94, null alarmer — og det importerte REMORA-artefaktet reproduserte eksakt
+under den vendrede koden.</p></div>
+
+<h2><span class="n">9</span>Funn</h2>
+<div class="find"><b>F1 — Systemet disiplinerer sin egen skaper.</b> Tre overclaims fra
+modellen som bygde systemet ble fanget av systemets egne mekanismer: en bundle-caveat som
+lovet kode bundelen ikke bar (fanget av demo-byggingen; fikset ved å gjøre påstanden sann),
+en foreldet «referansen er fraværende»-caveat (fanget etter re-kuratering), og et
+lint-hull i verifiseringsritualet. Håndhevelse er ikke aspirasjon.</div>
+<div class="find"><b>F2 — Tittel-match alene er utilstrekkelig for sitatintegritet.</b>
+Tre plausible feiltreff passerte tittelvakten i drift; forfatter+år-vaktene er nødvendige,
+og «ingen sitering» må være et førsteklasses, dokumentert utfall.</div>
+<div class="find"><b>F3 — Modell-seeding er trygg under maskinell dom.</b> 100+ modellforeslåtte
+matematiske utsagn ble claims kun via uavhengig verifisering; forslagene som feilet
+(Lean-3-idiom, feil truth-tabell-konvensjon, feilhusket tillukningsstørrelse) ble avvist av
+sjekkerne — to av dem korrigerte skaperens forventning, ikke omvendt.</div>
+<div class="find"><b>F4 — Garantier komponerer på tvers av prosjekter uten tillits-inflasjon.</b>
+TrustGate kombinerte claims fra to kilder med bevart proveniens og uendrede evidensnivåer —
+og komposisjonens matematikk (tidsuniformitet) formet gate-semantikken: sertifisér under
+terskel, ikke alarm over.</div>
+<div class="find"><b>F5 — Utledet versjonering bevarer både renhet og historie.</b>
+Supersession beregnet fra append-only-registeret ga eksakt regnskap (81, senere 90 gjeldende
+identiteter) uten skjemaendring — hash-kjeder og eldre vitner forble gyldige.</div>
+
+<h2><span class="n">10</span>Begrensninger — presist</h2>
+<div class="limits">
+  <div><h3>VeriClaim beviser</h3><ul>
+    <li>Intern konsistens register ↔ evidens ↔ docs</li>
+    <li>Reproduksjon — tallet holder i dag</li>
+    <li>Proveniens — hvor hvert tall kom fra</li>
+    <li>Dokument- og kodeintegritet</li>
+    <li>Sitatintegritet — hash-låst litteratur</li>
+    <li>Historikk-integritet — vitnet, klient-verifisert</li>
+  </ul></div>
+  <div class="no"><h3>VeriClaim beviser ikke</h3><ul>
+    <li>At en benchmark representerer produksjon</li>
+    <li>At en algoritme er optimal</li>
+    <li>At en modell har rett</li>
+    <li>At prosa er semantisk sann</li>
+    <li>At evidens ikke ble manipulert <i>før</i> første commit</li>
+  </ul></div>
+</div>
+<p class="mut">Grensen er en del av produktet: den står i README-en, i Claude-skillen og i
+hver caveat. Et anti-overclaim-verktøy som overclaimer seg selv, er verdiløst.</p>
+
+<h2><span class="n">11</span>Verifiserte nøkkeltall</h2>
+<div class="tbl"><table>
+<tr><th>Tall</th><th>Hva</th><th>Kilde</th></tr>
+<tr><td class="num">90 / 455</td><td>Gjeldende claims / immutable versjoner, 4 kilderepoer</td><td><code>/library/summary</code>, live</td></tr>
+<tr><td class="num">20 (10)</td><td>Lean-kjerneverifiserte teoremer (fullt konstruktive)</td><td>THM-LEAN-001..003, claimlib-seeds</td></tr>
+<tr><td class="num">880</td><td>Eksakte konform-garantisjekker (identitet, ties, p-verdi)</td><td>THM-CONF-001..003</td></tr>
+<tr><td class="num">373/400 · 94</td><td>TrustGate-dekning · sertifiseringsrunde</td><td>DEMO-001/002, trustgate-demo</td></tr>
+<tr><td class="num">16</td><td>Offentlige ledger-vitner, alle forlenget klient-side</td><td><code>claims/witness.jsonl</code>, vericlaim</td></tr>
+<tr><td class="num">131</td><td>Tester i vericlaim-kjernen (TDD, alle grønne ved release)</td><td>vericlaim v0.3.0</td></tr>
+</table></div>
+
+<h2><span class="n">12</span>Utvalgte referanser <span style="font-weight:300;font-size:14px;color:var(--mut)">(alle registrar-verifiserte i biblioteket)</span></h2>
+<ol class="refs">
+<li>Howard, Ramdas, McAuliffe &amp; Sekhon (2021). Time-uniform, nonparametric, nonasymptotic confidence sequences. <i>Annals of Statistics</i>. doi:10.1214/20-aos1991</li>
+<li>Angelopoulos &amp; Bates (2021). A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification. arXiv:2107.07511</li>
+<li>Andriushchenko et al. (2024). AgentHarm. arXiv:2410.09024 · Geifman &amp; El-Yaniv (2017). arXiv:1705.08500 · Guo et al. (2017). arXiv:1706.04599</li>
+<li>Gödel (1931). Über formal unentscheidbare Sätze… doi:10.1007/bf01700692 · Rice (1953). doi:10.1090/s0002-9947-1953-0053041-6</li>
+<li>Shannon (1948). A Mathematical Theory of Communication. doi:10.1002/j.1538-7305.1948.tb00917.x · Ford &amp; Fulkerson (1956). doi:10.4153/cjm-1956-045-5</li>
+<li>de Moura &amp; Ullrich (2021). The Lean 4 Theorem Prover and Programming Language. doi:10.1007/978-3-030-79876-5_37</li>
+<li>Wolpert (1996). doi:10.1162/neco.1996.8.7.1341 · Vapnik &amp; Chervonenkis (1971). doi:10.1137/1116025 · Johnson &amp; Lindenstrauss (1984). doi:10.1090/conm/026/737400</li>
+<li>Lipman et al. (2022). Flow Matching. arXiv:2210.02747 · Bronstein et al. (2021). Geometric Deep Learning. arXiv:2104.13478 · Carlsson (2009). Topology and Data. doi:10.1090/s0273-0979-09-01249-x</li>
+</ol>
+
+<h2><span class="n">13</span>Etterprøvbarhet</h2>
+<p>Alt i dette dokumentet er offentlig og re-verifiserbart:
+<code>github.com/darklordVirtual/vericlaim</code> (rammeverket, v0.3.0, Apache-2.0),
+<code>…/claimlib-seeds</code> (den seedede kunnskapen),
+<code>…/trustgate-demo</code> (casestudien), og truth-layeret live på
+<code>vericlaim-claims.razorsharp.workers.dev/passport</code>.
+Kjør <code>vericlaim &amp;&amp; vericlaim reproduce</code> i hvert repo —
+det er hele poenget.</p>
+<p class="mut" style="border-top:2px solid var(--ink);padding-top:18px;margin-top:40px">
+VeriClaim og Claim-Oriented Programming: Stian Skogbrott, Remora Research · 2026 ·
+Hvert tall i dette dokumentet er en registrert claim med committet artefakt;
+tabellen i §11 angir kilden per tall.</p>
+</div>
