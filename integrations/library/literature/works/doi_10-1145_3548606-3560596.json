@@ -1,0 +1,22 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Zachary Newman",
+    "John Speed Meyers",
+    "Santiago Torres-Arias"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "sigstore-2022",
+    "fetched_at": "2026-07-05T13:13:08.325762+00:00",
+    "method": "doi"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "fb6446b2f2ee62b2ddd044e78628fb738ae1d6acf222f2f74bc2c941e4b34de9",
+  "title": "Sigstore",
+  "url": "https://doi.org/10.1145/3548606.3560596",
+  "venue": "Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security",
+  "work_id": "doi:10.1145/3548606.3560596",
+  "year": 2022
+}

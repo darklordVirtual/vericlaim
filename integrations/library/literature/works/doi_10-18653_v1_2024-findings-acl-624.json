@@ -1,0 +1,23 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Qiusi Zhan",
+    "Zhixiang Liang",
+    "Zifan Ying",
+    "Daniel Kang"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "injecagent-2024",
+    "fetched_at": "2026-07-05T13:03:52.125122+00:00",
+    "method": "crossref-title"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "aff951707819df277fa7df29dcab145fe04a2c51b0692d7216235e8c2e6feabf",
+  "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+  "url": "https://doi.org/10.18653/v1/2024.findings-acl.624",
+  "venue": "Findings of the Association for Computational Linguistics ACL 2024",
+  "work_id": "doi:10.18653/v1/2024.findings-acl.624",
+  "year": 2024
+}

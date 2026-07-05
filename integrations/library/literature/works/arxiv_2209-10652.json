@@ -1,0 +1,35 @@
+{
+  "abstract": "Neural networks often pack many unrelated concepts into a single neuron - a puzzling phenomenon known as 'polysemanticity' which makes interpretability much more challenging. This paper provides a toy model where polysemanticity can be fully understood, arising as a result of models storing additional sparse features in \"superposition.\" We demonstrate the existence of a phase change, a surprising connection to the geometry of uniform polytopes, and evidence of a link to adversarial examples. We also discuss potential implications for mechanistic interpretability.",
+  "accredited": false,
+  "authors": [
+    "Nelson Elhage",
+    "Tristan Hume",
+    "Catherine Olsson",
+    "Nicholas Schiefer",
+    "Tom Henighan",
+    "Shauna Kravec",
+    "Zac Hatfield-Dodds",
+    "Robert Lasenby",
+    "Dawn Drain",
+    "Carol Chen",
+    "Roger Grosse",
+    "Sam McCandlish",
+    "Jared Kaplan",
+    "Dario Amodei",
+    "Martin Wattenberg",
+    "Christopher Olah"
+  ],
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "superposition-2022",
+    "fetched_at": "2026-07-05T13:02:37.989339+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "05cc9e433a2c8d0a7fb011046cfb06177066c4d863240d9f9384b7ebf0e9309b",
+  "title": "Toy Models of Superposition",
+  "url": "https://arxiv.org/abs/2209.10652",
+  "venue": "arXiv",
+  "work_id": "arxiv:2209.10652",
+  "year": 2022
+}

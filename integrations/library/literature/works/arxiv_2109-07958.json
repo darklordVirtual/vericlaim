@@ -1,0 +1,22 @@
+{
+  "abstract": "We propose a benchmark to measure whether a language model is truthful in generating answers to questions. The benchmark comprises 817 questions that span 38 categories, including health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model. The best model was truthful on 58% of questions, while human performance was 94%. Models generated many false answers that mimic popular misconceptions and have the potential to deceive humans. The largest models were generally the least truthful. This contrasts with other NLP tasks, where performance improves with model size. However, this result is expected if false answers are learned from the training distribution. We suggest that scaling up models alone is less promising for improving truthfulness than fine-tuning using training objectives other than imitation of text from the web.",
+  "accredited": false,
+  "authors": [
+    "Stephanie Lin",
+    "Jacob Hilton",
+    "Owain Evans"
+  ],
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "truthfulqa-2021",
+    "fetched_at": "2026-07-05T13:02:59.001023+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "83e014cfe869b720316e207b1fc33ded32017b31ebbc5bc5003274ae65bdfa64",
+  "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+  "url": "https://arxiv.org/abs/2109.07958",
+  "venue": "arXiv",
+  "work_id": "arxiv:2109.07958",
+  "year": 2021
+}

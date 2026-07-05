@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "B. Meyer"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "dbc-1992",
+    "fetched_at": "2026-07-05T13:06:12.624577+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "e0cd8dff634d54c66d49c525cb241805a9fe3baaa9f4e321299320ac3f2c51a6",
+  "title": "Applying 'design by contract'",
+  "url": "https://doi.org/10.1109/2.161279",
+  "venue": "Computer",
+  "work_id": "doi:10.1109/2.161279",
+  "year": 1992
+}

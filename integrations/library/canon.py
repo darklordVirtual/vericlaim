@@ -69,5 +69,9 @@ def load(path: Path) -> list[dict]:
             "kind": kind, "registrar": registrar,
             "p0": bool(work.get("p0", False)),
             "top15": bool(work.get("top15", False)),
+            # optional acquisition seeds — NEVER trusted, only searched;
+            # the title+author+year guard decides against the registrar
+            "doi": work.get("doi"),
+            "url": work.get("url"),
         })
     return entries

@@ -1,0 +1,24 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Andrew D. Selbst",
+    "Danah Boyd",
+    "Sorelle A. Friedler",
+    "Suresh Venkatasubramanian",
+    "Janet Vertesi"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "fairness-abstraction-2019",
+    "fetched_at": "2026-07-05T13:07:04.823144+00:00",
+    "method": "doi"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "c6751ecd2b7576345ee56d916510dfd414e34480dd2cc336e4d43c591d44ee09",
+  "title": "Fairness and Abstraction in Sociotechnical Systems",
+  "url": "https://doi.org/10.1145/3287560.3287598",
+  "venue": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+  "work_id": "doi:10.1145/3287560.3287598",
+  "year": 2019
+}

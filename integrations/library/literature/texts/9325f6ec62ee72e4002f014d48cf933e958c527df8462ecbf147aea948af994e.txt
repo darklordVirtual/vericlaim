@@ -1,0 +1,43 @@
+GSN
+
+## Goal Structuring Notation
+
+This area of the SCSC website hosts Goal Structuring Notation (GSN) standardisation information and related guidance. It can be reached through scsc.uk/gsn or goalstructuringnotation.info.
+
+The GSN information is created and maintained by the GSN Standard Working Group (GSN_SWG), a sub-group of the SCSC's Assurance Case Working Group (ACWG).
+
+The principal objective of this site is to disseminate information and resources related to GSN.
+
+Goal Structuring Notation Standard Working Group
+
+The Goal Structuring Notation Standard Working Group (GSN_SWG) members include:
+
+experienced practitioners, who have used and continue to use GSN on major projects;
+
+academics and industry specialists, who have researched and developed the theory and principles behind the notation;
+
+tool vendors, who have supported the realisation of tool support for the notation;
+
+liaison with the organisation responsible for publication of the Structured Assurance Case Metamodel (SACM).
+
+Contact Information:
+
+The GSN_SWG can be contacted through the Assurance Cases Working Group
+
+Comments or suggestions for the GSN standard can be made through the GSN Standard Forum
+
+Liability
+
+While the authors and the publishers have used reasonable endeavours to ensure that the information and guidance given in this work is correct, all parties must rely on their own skill and judgement when making use of this work and obtain professional or specialist advice before taking, or refraining from, any action on the basis of the content of this work. Neither the authors nor the publishers make any representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to such information and guidance for any purpose, and they will not be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever (including as a result of negligence) arising out of, or in connection with, the use of this work. The views and opinions expressed in this publication are those of the authors and do not necessarily reflect those of their employers, the SCSC or other organisations.
+
+Licencing
+
+The work of the Assurance Case Working Group and in particular the Goal Structuring Notation Standard Working Group outputs is made available for use and reuse by the system safety community. This is supported by publishing under the Creative Commons Attribution License.
+
+All content of this GSN area of the SCSC website is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit Creative Commons Attribution 4.0 International License or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+You are free to share the material in any form and adapt the material for any purpose providing you attribute the material to the SCSC ACWG (GSN_SWG), reference the source material, include the licence details above and indicate if any changes were made. See the license for full details.
+
+Contributors
+
+See the Contributors page for a list of those individuals and organisations that have contributed to the development of the GSN standard

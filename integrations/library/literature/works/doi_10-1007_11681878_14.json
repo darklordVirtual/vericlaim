@@ -1,0 +1,23 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Cynthia Dwork",
+    "Frank McSherry",
+    "Kobbi Nissim",
+    "Adam Smith"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "calibrating-noise-2006",
+    "fetched_at": "2026-07-05T13:07:19.176363+00:00",
+    "method": "doi"
+  },
+  "source_type": "book-chapter",
+  "text_sha256": "d261510e16e993120977f15dab118739cf0cb1b891983df63bb3011c48d5fbbe",
+  "title": "Calibrating Noise to Sensitivity in Private Data Analysis",
+  "url": "https://doi.org/10.1007/11681878_14",
+  "venue": "Lecture Notes in Computer Science",
+  "work_id": "doi:10.1007/11681878_14",
+  "year": 2006
+}

@@ -1,0 +1,20 @@
+{
+  "abstract": "in-toto: Providing farm-to-table guarantees for bits and bytes | USENIX\n\n## in-toto: Providing farm-to-table guarantees for bits and bytes\n\nSantiago Torres-Arias, New York University; Hammad Afzali, New Jersey Institute of Technology; Trishank Karthik Kuppusamy, Datadog; Reza Curtmola, New Jersey Institute of Technology; Justin Cappos, New York University\n\nThe software development process is quite complex and involves a number of independent actors. Developers check source code into a version control system, the code is compiled into software at a build farm, and CI/CD systems run multiple tests to ensure the software’s quality among a myriad of other operations. Finally, the software is packaged for distribution into a delivered product, to be consumed by end users. An attacker that is able to compromise any single step in the process can maliciously modify the software and harm any of the software’s users.\n\nTo address these issues, we designed in-toto, a framework that cryptographically ensures the integrity of the software supply chain. in-toto grants the end user the ability to verify the software’s supply chain from the project’s inception to its deployment. We demonstrate in-toto’s effectiveness on 30 software supply chain compromises that affected hundreds of million of users and showcase in-toto’s usage over cloud-native, hybrid-cloud and cloud-agnostic applications. in-toto is integrated into products and open source projects that are used by millions of people daily.\n\nUSENIX Security '19 Open Access Videos Sponsored by\nKing Abdullah University of Science and Technology (KAUST)\n\n## Open Access Media\n\nUSENIX is committed to Open Access to the research presented at our events. Papers and proceedings are freely available to everyone once the event begins. Any video, audio, and/or slides that are posted after the event are also free and open to everyone. Support USENIX and our commitment to Open Access.\n\nBibTeX\n\n@inproceedings {236322,\n\nauthor = {Santiago Torres-Arias and Hammad Afzali and Trishank Karthik Kuppusamy and Reza Curtmola and Justin Cappos},\n\ntitle = {in-toto: Providing farm-to-table guarantees for bits and bytes},\n\nbooktitle = {28th USENIX Security Symposium (USENIX Security 19)},\n\nyear = {2019},\n\nisbn = {978-1-939133-06-9},\n\naddress = {Santa Clara, CA},\n\npages = {1393--1410},\n\nurl = {https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias},\n\npublisher = {USENIX Association},\n\nmonth = aug\n\n}\n\nDownload\n\nTorres-Arias PDF\n\n## Presentation Video\n",
+  "accredited": false,
+  "authors": [
+    "USENIX (Torres-Arias et al.)"
+  ],
+  "registrar": "web-snapshot",
+  "retrieval": {
+    "fetched_at": "2026-07-05T13:10:21.647892+00:00",
+    "method": "web-snapshot",
+    "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias"
+  },
+  "source_type": "web-snapshot",
+  "text_sha256": "029e000370e5eca0715b4e851d68903f7bd42cbf74e8d5ed386d844ea2c0fe03",
+  "title": "in-toto: Providing farm-to-table guarantees for bits and bytes",
+  "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias",
+  "venue": "USENIX (Torres-Arias et al.)",
+  "work_id": "web:www.usenix.org/conference/usenixsecurity19/presentation/torres-arias",
+  "year": 2019
+}

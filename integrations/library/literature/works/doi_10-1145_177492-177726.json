@@ -1,0 +1,20 @@
+{
+  "abstract": "The temporal logic of actions (TLA) is a logic for specifying and reasoning about concurrent systems. Systems and their properties are represented in the same logic, so the assertion that a system meets its specification and the assertion that one system implements another are both expressed by logical implication. TLA is very simple; its syntax and complete formal semantics are summarized in about a page. Yet, TLA is not just a logician's toy; it is extremely powerful, both in principle and in practice. This report introduces TLA and describes how it is used to specify and verify concurrent algorithms. The use of TLA to specify and reason about open systems will be described elsewhere.",
+  "accredited": true,
+  "authors": [
+    "Leslie Lamport"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "tla-1994",
+    "fetched_at": "2026-07-05T13:06:17.397066+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "ed31912414db3616c8fc6677d505be1be2e5e07c5fbea8b479508eca95993b90",
+  "title": "The temporal logic of actions",
+  "url": "https://doi.org/10.1145/177492.177726",
+  "venue": "ACM Transactions on Programming Languages and Systems",
+  "work_id": "doi:10.1145/177492.177726",
+  "year": 1994
+}

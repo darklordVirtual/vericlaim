@@ -1,0 +1,26 @@
+{
+  "abstract": "We propose a new test to measure a text model's multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability. We find that while most recent models have near random-chance accuracy, the very largest GPT-3 model improves over random chance by almost 20 percentage points on average. However, on every one of the 57 tasks, the best models still need substantial improvements before they can reach expert-level accuracy. Models also have lopsided performance and frequently do not know when they are wrong. Worse, they still have near-random accuracy on some socially important subjects such as morality and law. By comprehensively evaluating the breadth and depth of a model's academic and professional understanding, our test can be used to analyze models across many tasks and to identify important shortcomings.",
+  "accredited": false,
+  "authors": [
+    "Dan Hendrycks",
+    "Collin Burns",
+    "Steven Basart",
+    "Andy Zou",
+    "Mantas Mazeika",
+    "Dawn Song",
+    "Jacob Steinhardt"
+  ],
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "mmlu-2020",
+    "fetched_at": "2026-07-05T13:03:01.337293+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "c7e3ed209190abd3fc748e6e1e8a9b82bb419cef97f1e78ff428c51720b29161",
+  "title": "Measuring Massive Multitask Language Understanding",
+  "url": "https://arxiv.org/abs/2009.03300",
+  "venue": "arXiv",
+  "work_id": "arxiv:2009.03300",
+  "year": 2020
+}

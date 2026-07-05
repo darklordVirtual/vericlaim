@@ -1,0 +1,20 @@
+{
+  "abstract": "Abstract Dear Sir, I Now send you an essay which I have found among the papers of our deceased friend Mr. Bayes, and which, in my opinion, has great merit, and well deserves to be preserved.",
+  "accredited": true,
+  "authors": [
+    "Thomas Bayes"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "bayes-1763",
+    "fetched_at": "2026-07-05T13:12:31.905769+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "abc069ab1c48160199ce94196bfb8e2a089c3063528a0381e134dedbae50231a",
+  "title": "LII. An essay towards solving a problem in the doctrine of chances. By the late Rev. Mr. Bayes, F. R. S. communicated by Mr. Price, in a letter to John Canton, A. M. F. R. S",
+  "url": "https://doi.org/10.1098/rstl.1763.0053",
+  "venue": "Philosophical Transactions of the Royal Society of London",
+  "work_id": "doi:10.1098/rstl.1763.0053",
+  "year": 1763
+}

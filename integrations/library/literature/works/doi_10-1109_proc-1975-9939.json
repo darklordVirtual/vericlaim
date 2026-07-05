@@ -1,0 +1,21 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "J.H. Saltzer",
+    "M.D. Schroeder"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "saltzer-schroeder-1975",
+    "fetched_at": "2026-07-05T13:03:56.798101+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "8c15a4e07b8611436e16411d3f3da99c9b645b44b84cfd35dfa2919bacea8093",
+  "title": "The protection of information in computer systems",
+  "url": "https://doi.org/10.1109/proc.1975.9939",
+  "venue": "Proceedings of the IEEE",
+  "work_id": "doi:10.1109/proc.1975.9939",
+  "year": 1975
+}

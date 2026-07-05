@@ -1,0 +1,1 @@
+Design and synthesis of synchronization skeletons using branching time temporal logic

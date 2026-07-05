@@ -1,0 +1,25 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Nithya Sambasivan",
+    "Shivani Kapania",
+    "Hannah Highfill",
+    "Diana Akrong",
+    "Praveen Paritosh",
+    "Lora M Aroyo"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "data-cascades-2021",
+    "fetched_at": "2026-07-05T13:05:20.491362+00:00",
+    "method": "doi"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "d8ec38d4c978c528b37bf711170f193faf20f1035f734b206fd3aacefff5264b",
+  "title": "“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI",
+  "url": "https://doi.org/10.1145/3411764.3445518",
+  "venue": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+  "work_id": "doi:10.1145/3411764.3445518",
+  "year": 2021
+}

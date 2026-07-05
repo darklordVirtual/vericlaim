@@ -1,0 +1,22 @@
+{
+  "abstract": "Few software development life cycle (SDLC) models explicitly address software security in detail, so secure software development practices usually need to be added to each SDLC model to ensure that the software being developed is well-secured. This document recommends the Secure Software Development Framework (SSDF) a core set of high-level secure software development practices that can be integrated into each SDLC implementation. Following such practices should help software producers reduce the number of vulnerabilities in released software, mitigate the potential impact of the exploitation of undetected or unaddressed vulnerabilities, and address the root causes of vulnerabilities to prevent future recurrences. Because the framework provides a common vocabulary for secure software development, software acquirers can also use it to foster communications with suppliers in acquisition processes and other management activities.",
+  "accredited": false,
+  "authors": [
+    "Murugiah Souppaya",
+    "Karen Scarfone",
+    "Donna Dodson"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "nist-ssdf-2022",
+    "fetched_at": "2026-07-05T13:13:11.935326+00:00",
+    "method": "doi"
+  },
+  "source_type": "report",
+  "text_sha256": "6f1ab3d746edc720482eebbe1d2f497da3397c3d5060d3066a570a0e22925b43",
+  "title": "Secure Software Development Framework (SSDF) version 1.1 :",
+  "url": "https://doi.org/10.6028/nist.sp.800-218",
+  "venue": "",
+  "work_id": "doi:10.6028/nist.sp.800-218",
+  "year": 2022
+}

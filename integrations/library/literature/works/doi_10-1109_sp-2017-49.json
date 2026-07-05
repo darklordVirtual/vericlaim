@@ -1,0 +1,21 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Nicholas Carlini",
+    "David Wagner"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "carlini-wagner-2017",
+    "fetched_at": "2026-07-05T13:04:17.995315+00:00",
+    "method": "crossref-title"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "da5be243723bfe06590a66aeb19688d57896889cd53625c637f1b00fee82a3b4",
+  "title": "Towards Evaluating the Robustness of Neural Networks",
+  "url": "https://doi.org/10.1109/sp.2017.49",
+  "venue": "2017 IEEE Symposium on Security and Privacy (SP)",
+  "work_id": "doi:10.1109/sp.2017.49",
+  "year": 2017
+}

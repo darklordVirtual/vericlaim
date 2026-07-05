@@ -1,0 +1,23 @@
+{
+  "abstract": "Existing benchmarks do not test language agents on their interaction with human users or ability to follow domain-specific rules, both of which are vital for deploying them in real world applications. We propose $τ$-bench, a benchmark emulating dynamic conversations between a user (simulated by language models) and a language agent provided with domain-specific API tools and policy guidelines. We employ an efficient and faithful evaluation process that compares the database state at the end of a conversation with the annotated goal state. We also propose a new metric (pass^k) to evaluate the reliability of agent behavior over multiple trials. Our experiments show that even state-of-the-art function calling agents (like gpt-4o) succeed on <50% of the tasks, and are quite inconsistent (pass^8 <25% in retail). Our findings point to the need for methods that can improve the ability of agents to act consistently and follow rules reliably.",
+  "accredited": false,
+  "authors": [
+    "Shunyu Yao",
+    "Noah Shinn",
+    "Pedram Razavi",
+    "Karthik Narasimhan"
+  ],
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "tau-bench-2024",
+    "fetched_at": "2026-07-05T13:13:40.722376+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "966ffa41610a1be69eb5feeb1daa23d83fd30aa7f3884091ce0063dad7f1982e",
+  "title": "$τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+  "url": "https://arxiv.org/abs/2406.12045",
+  "venue": "arXiv",
+  "work_id": "arxiv:2406.12045",
+  "year": 2024
+}

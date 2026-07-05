@@ -1,1 +1,26 @@
-drop = []
+# Honest drops: canon entries no registrar record or lawful snapshot can
+# stand in for. Each drop is a visible, reversible curator decision.
+
+[[drop]]
+id = "iso-42001-2023"
+reason = "paywalled standard; ISO catalog page blocks automated retrieval (HTTP 403) and no registrar record passes the guard"
+
+[[drop]]
+id = "anderson-monitor-1972"
+reason = "primary source is a scanned PDF only (no HTML rendering to snapshot); no registrar record"
+
+[[drop]]
+id = "isabelle-2002"
+reason = "Crossref book record (10.1007/3-540-45949-9) carries no author list, so the title+author+year guard cannot bind it"
+
+[[drop]]
+id = "dataset-shift-2009"
+reason = "Crossref edited-book record (10.7551/mitpress/9780262170055.001.0001) carries no author list, so the guard cannot bind it"
+
+[[drop]]
+id = "ddd-2003"
+reason = "trade book; no registrar record with an agreeing title+author, and no lawful full-text page to snapshot"
+
+[[drop]]
+id = "nist-genai-2024"
+reason = "Crossref record for doi:10.6028/nist.ai.600-1 resolves with a generic RMF title and an empty author list; the guard cannot bind it"

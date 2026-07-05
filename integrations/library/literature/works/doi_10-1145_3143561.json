@@ -1,0 +1,26 @@
+{
+  "abstract": "Metamorphic testing is an approach to both test case generation and test result verification. A central element is a set of metamorphic relations, which are necessary properties of the target function or algorithm in relation to multiple inputs and their expected outputs. Since its first publication, we have witnessed a rapidly increasing body of work examining metamorphic testing from various perspectives, including metamorphic relation identification, test case generation, integration with other software engineering techniques, and the validation and evaluation of software systems. In this article, we review the current research of metamorphic testing and discuss the challenges yet to be addressed. We also present visions for further improvement of metamorphic testing and highlight opportunities for new research.",
+  "accredited": true,
+  "authors": [
+    "Tsong Yueh Chen",
+    "Fei-Ching Kuo",
+    "Huai Liu",
+    "Pak-Lok Poon",
+    "Dave Towey",
+    "T. H. Tse",
+    "Zhi Quan Zhou"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "metamorphic-2018",
+    "fetched_at": "2026-07-05T13:13:19.100683+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "ce1dc3b2e79496c344fdcd2d4ea8218f4f85303eab25cd61f2e7cd18bcd61ef7",
+  "title": "Metamorphic Testing",
+  "url": "https://doi.org/10.1145/3143561",
+  "venue": "ACM Computing Surveys",
+  "work_id": "doi:10.1145/3143561",
+  "year": 2018
+}

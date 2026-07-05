@@ -1,0 +1,21 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Robin Bloomfield",
+    "Peter Bishop"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "assurance-cases-2010",
+    "fetched_at": "2026-07-05T13:07:25.103421+00:00",
+    "method": "crossref-title"
+  },
+  "source_type": "book-chapter",
+  "text_sha256": "27e4fb7b7d6fa0b75b2aa920e84487ecd0ea76b22a25806c192883cd8ebb45e7",
+  "title": "Safety and Assurance Cases: Past, Present and Possible Future – an Adelard Perspective",
+  "url": "https://doi.org/10.1007/978-1-84996-086-1_4",
+  "venue": "Making Systems Safer",
+  "work_id": "doi:10.1007/978-1-84996-086-1_4",
+  "year": 2009
+}

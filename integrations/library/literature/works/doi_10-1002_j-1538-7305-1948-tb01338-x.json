@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "C. E. Shannon"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "shannon-1948",
+    "fetched_at": "2026-07-05T13:02:01.805561+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "38aa76e6b482d381a1465a3d14297cea78c2cd35f5bb452c66260f34e85e825e",
+  "title": "A Mathematical Theory of Communication",
+  "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+  "venue": "Bell System Technical Journal",
+  "work_id": "doi:10.1002/j.1538-7305.1948.tb01338.x",
+  "year": 1948
+}

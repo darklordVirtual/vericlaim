@@ -1,0 +1,26 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Martin Abadi",
+    "Andy Chu",
+    "Ian Goodfellow",
+    "H. Brendan McMahan",
+    "Ilya Mironov",
+    "Kunal Talwar",
+    "Li Zhang"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "dp-sgd-2016",
+    "fetched_at": "2026-07-05T13:07:16.831591+00:00",
+    "method": "crossref-title"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "24186b524678f0d7d9b972b0d5a4e942f732fd2bc6b251d0e433b04dac6640d1",
+  "title": "Deep Learning with Differential Privacy",
+  "url": "https://doi.org/10.1145/2976749.2978318",
+  "venue": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
+  "work_id": "doi:10.1145/2976749.2978318",
+  "year": 2016
+}

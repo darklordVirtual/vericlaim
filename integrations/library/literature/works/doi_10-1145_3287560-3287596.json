@@ -1,0 +1,28 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Margaret Mitchell",
+    "Simone Wu",
+    "Andrew Zaldivar",
+    "Parker Barnes",
+    "Lucy Vasserman",
+    "Ben Hutchinson",
+    "Elena Spitzer",
+    "Inioluwa Deborah Raji",
+    "Timnit Gebru"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "model-cards-2019",
+    "fetched_at": "2026-07-05T13:04:56.298231+00:00",
+    "method": "crossref-title"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "19843fbb654901ebad5df30fd9f5f60198fded21be10a6194d6ab2755447ac9f",
+  "title": "Model Cards for Model Reporting",
+  "url": "https://doi.org/10.1145/3287560.3287596",
+  "venue": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+  "work_id": "doi:10.1145/3287560.3287596",
+  "year": 2019
+}

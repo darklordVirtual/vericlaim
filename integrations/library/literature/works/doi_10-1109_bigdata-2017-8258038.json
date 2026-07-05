@@ -1,0 +1,24 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Eric Breck",
+    "Shanqing Cai",
+    "Eric Nielsen",
+    "Michael Salib",
+    "D. Sculley"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "ml-test-score-2017",
+    "fetched_at": "2026-07-05T13:05:18.044985+00:00",
+    "method": "doi"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "6cdfd988ff1115fb76a4fa1d7b675dc4eaa5eaa73609fc968bdfbe2197417688",
+  "title": "The ML test score: A rubric for ML production readiness and technical debt reduction",
+  "url": "https://doi.org/10.1109/bigdata.2017.8258038",
+  "venue": "2017 IEEE International Conference on Big Data (Big Data)",
+  "work_id": "doi:10.1109/bigdata.2017.8258038",
+  "year": 2017
+}

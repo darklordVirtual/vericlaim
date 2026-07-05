@@ -1,0 +1,21 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Leonardo de Moura",
+    "Nikolaj Bjørner"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "z3-2008",
+    "fetched_at": "2026-07-05T13:06:22.373992+00:00",
+    "method": "doi"
+  },
+  "source_type": "book-chapter",
+  "text_sha256": "7621742da73e272068d463c8ec5d0fcf8b8c9909a5449db119238f02fe6d515a",
+  "title": "Z3: An Efficient SMT Solver",
+  "url": "https://doi.org/10.1007/978-3-540-78800-3_24",
+  "venue": "Lecture Notes in Computer Science",
+  "work_id": "doi:10.1007/978-3-540-78800-3_24",
+  "year": 2008
+}

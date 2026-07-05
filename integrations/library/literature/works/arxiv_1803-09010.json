@@ -1,0 +1,26 @@
+{
+  "abstract": "The machine learning community currently has no standardized process for documenting datasets, which can lead to severe consequences in high-stakes domains. To address this gap, we propose datasheets for datasets. In the electronics industry, every component, no matter how simple or complex, is accompanied with a datasheet that describes its operating characteristics, test results, recommended uses, and other information. By analogy, we propose that every dataset be accompanied with a datasheet that documents its motivation, composition, collection process, recommended uses, and so on. Datasheets for datasets will facilitate better communication between dataset creators and dataset consumers, and encourage the machine learning community to prioritize transparency and accountability.",
+  "accredited": false,
+  "authors": [
+    "Timnit Gebru",
+    "Jamie Morgenstern",
+    "Briana Vecchione",
+    "Jennifer Wortman Vaughan",
+    "Hanna Wallach",
+    "Hal Daumé",
+    "Kate Crawford"
+  ],
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "datasheets-2018",
+    "fetched_at": "2026-07-05T13:13:03.560053+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "9681b4d15f87d78f8d724aacc9e3ca8a6be69535b9210eefd7581c967f7dcd89",
+  "title": "Datasheets for Datasets",
+  "url": "https://arxiv.org/abs/1803.09010",
+  "venue": "arXiv",
+  "work_id": "arxiv:1803.09010",
+  "year": 2018
+}

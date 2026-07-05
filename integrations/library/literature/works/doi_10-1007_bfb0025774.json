@@ -1,0 +1,21 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Edmund M. Clarke",
+    "E. Allen Emerson"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "model-checking-1981",
+    "fetched_at": "2026-07-05T13:06:20.035779+00:00",
+    "method": "doi"
+  },
+  "source_type": "book-chapter",
+  "text_sha256": "86f396d87f58866e4ec696773dbcc47449f099553aa584ebcb0c0d34b9f52192",
+  "title": "Design and synthesis of synchronization skeletons using branching time temporal logic",
+  "url": "https://doi.org/10.1007/bfb0025774",
+  "venue": "Lecture Notes in Computer Science",
+  "work_id": "doi:10.1007/bfb0025774",
+  "year": null
+}

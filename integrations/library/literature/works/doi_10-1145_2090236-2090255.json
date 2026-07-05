@@ -1,0 +1,24 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Cynthia Dwork",
+    "Moritz Hardt",
+    "Toniann Pitassi",
+    "Omer Reingold",
+    "Richard Zemel"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "fairness-awareness-2012",
+    "fetched_at": "2026-07-05T13:06:49.417316+00:00",
+    "method": "doi"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "81aaba85530506e5230dcf55f6fa62a03013c6a15d523bc8fa3e0c2153555189",
+  "title": "Fairness through awareness",
+  "url": "https://doi.org/10.1145/2090236.2090255",
+  "venue": "Proceedings of the 3rd Innovations in Theoretical Computer Science Conference",
+  "work_id": "doi:10.1145/2090236.2090255",
+  "year": 2012
+}

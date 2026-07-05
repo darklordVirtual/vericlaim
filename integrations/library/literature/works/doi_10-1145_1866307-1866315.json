@@ -1,0 +1,23 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Justin Samuel",
+    "Nick Mathewson",
+    "Justin Cappos",
+    "Roger Dingledine"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "tuf-2010",
+    "fetched_at": "2026-07-05T13:05:50.850321+00:00",
+    "method": "doi"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "576937dcfaacd0113d16503c16e0d3d47757686d5c36b2ffe4e51461e65732b7",
+  "title": "Survivable key compromise in software update systems",
+  "url": "https://doi.org/10.1145/1866307.1866315",
+  "venue": "Proceedings of the 17th ACM conference on Computer and communications security",
+  "work_id": "doi:10.1145/1866307.1866315",
+  "year": 2010
+}

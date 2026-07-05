@@ -1,0 +1,20 @@
+{
+  "abstract": "In Search of an Understandable Consensus Algorithm | USENIX\n\nSkip to main content\n\nBack to USENIX\n\n2014 USENIX Federated Conferences Week · June 17-20, 2014\n\nOverview\n\nConference Organizers\n\nRegistration Information\nRegistration Discounts\n\nVenue, Hotel, and Travel\n\nTechnical Sessions\n\nFCW '14 Training Program\n\nActivities\nATC and ICAC Poster Session\n\nBirds-of-a-Feather Sessions\n\nSponsorship\n\nStudents and Grants\nGrants for Women\n\nQuestions\n\nHelp Promote!\n\nFor Participants\n\nCall for Papers\n\nPast Conferences\n\n## sponsors\n\nGold Sponsor\n\nGold Sponsor\n\nGold Sponsor\n\nSilver Sponsor\n\nSilver Sponsor\n\nBronze Sponsor\n\nBronze Sponsor\n\nBronze Sponsor\n\nMedia Sponsor\n\nMedia Sponsor\n\nMedia Sponsor\n\nMedia Sponsor\n\nMedia Sponsor\n\nMedia Sponsor\n\nMedia Sponsor\n\nMedia Sponsor\n\nIndustry Partner\n\n## USENIX Conference Policies\n\nEvent Code of Conduct\n\nConference Network Policy\n\nStatement on Environmental Responsibility Policy\n\n## In Search of an Understandable Consensus Algorithm\n\nDiego Ongaro and John Ousterhout, Stanford University\n\nAwarded Best Paper!\n\nRaft is a consensus algorithm for managing a replicated log. It produces a result equivalent to (multi-)Paxos, and it is as efficient as Paxos, but its structure is different from Paxos; this makes Raft more understandable than Paxos and also provides a better foundation for building practical systems. In order to enhance understandability, Raft separates the key elements of consensus, such as leader election, log replication, and safety, and it enforces a stronger degree of coherency to reduce the number of states that must be considered. Results from a user study demonstrate that Raft is easier for students to learn than Paxos. Raft also includes a new mechanism for changing the cluster membership, which uses overlapping majorities to guarantee safety.\n\n## Diego Ongaro, Stanford University\n\n## John Ousterhout, Stanford University\n\n## Open Access Media\n\nUSENIX is committed to Open Access to the research presented at our events. Papers and proceedings are freely available to everyone once the event begins. Any video, audio, and/or slides that are posted after the event are also free and open to everyone. Support USENIX and our commitment to Open Access.\n\nBibTeX\n\n@inproceedings {184040,\n\nauthor = {Diego Ongaro and John Ousterhout},\n\ntitle = {In Search of an Understandable Consensus Algorithm},\n\nbooktitle = {2014 USENIX Annual Technical Conference (USENIX ATC 14)},\n\nyear = {2014},\n\nisbn = {978-1-931971-10-2},\n\naddress = {Philadelphia, PA},\n\npages = {305--319},\n\nurl = {https://www.usenix.org/conference/atc14/technical-sessions/presentation/ongaro},\n\npublisher = {USENIX Association},\n\nmonth = jun\n\n}\n\nDownload\n\nOngaro PDF\n\n## Presentation Video\nPresentation Audio\n\nMP3 Download\nOGG Download\n\nDownload Audio\n\nLog in or register to post comments\n\n## Gold Sponsors\n\n## Silver Sponsors\n\n## Bronze Sponsors\n\n## Media Sponsors & Industry Partners\n\n© USENIX\n\nEIN 13-3055038\n\nPrivacy Policy\n\nContact Us\n",
+  "accredited": false,
+  "authors": [
+    "USENIX (Ongaro, Ousterhout)"
+  ],
+  "registrar": "web-snapshot",
+  "retrieval": {
+    "fetched_at": "2026-07-05T13:10:18.590832+00:00",
+    "method": "web-snapshot",
+    "url": "https://www.usenix.org/conference/atc14/technical-sessions/presentation/ongaro"
+  },
+  "source_type": "web-snapshot",
+  "text_sha256": "3d56f05ade6ecc4716903fb0a6fd13ecd6cd6b9017106aa30f51f787e5784907",
+  "title": "In Search of an Understandable Consensus Algorithm",
+  "url": "https://www.usenix.org/conference/atc14/technical-sessions/presentation/ongaro",
+  "venue": "USENIX (Ongaro, Ousterhout)",
+  "work_id": "web:www.usenix.org/conference/atc14/technical-sessions/presentation/ongaro",
+  "year": 2014
+}

@@ -1,0 +1,20 @@
+{
+  "abstract": "To what extent should one trust a statement that a program is free of Trojan horses? Perhaps it is more important to trust the people who wrote the software.",
+  "accredited": true,
+  "authors": [
+    "Ken Thompson"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "trusting-trust-1984",
+    "fetched_at": "2026-07-05T13:06:14.964094+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "554473c57fd0d5776faa83a403909d608edad648f412ba21b1416e09f380338a",
+  "title": "Reflections on trusting trust",
+  "url": "https://doi.org/10.1145/358198.358210",
+  "venue": "Communications of the ACM",
+  "work_id": "doi:10.1145/358198.358210",
+  "year": 1984
+}

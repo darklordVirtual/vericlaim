@@ -1,0 +1,23 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Reza Shokri",
+    "Marco Stronati",
+    "Congzheng Song",
+    "Vitaly Shmatikov"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "membership-inference-2017",
+    "fetched_at": "2026-07-05T13:07:10.566116+00:00",
+    "method": "crossref-title"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "f98112aa155ee58805fdd05f901e49fb788cc01ce362a4456a538e2b0094fed5",
+  "title": "Membership Inference Attacks Against Machine Learning Models",
+  "url": "https://doi.org/10.1109/sp.2017.41",
+  "venue": "2017 IEEE Symposium on Security and Privacy (SP)",
+  "work_id": "doi:10.1109/sp.2017.41",
+  "year": 2017
+}

@@ -1,0 +1,25 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Edoardo Debenedetti",
+    "Jie Zhang",
+    "Mislav Balunovic",
+    "Luca Beurer-Kellner",
+    "Marc Fischer",
+    "Florian Tramèr"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "agentdojo-2024",
+    "fetched_at": "2026-07-05T13:03:33.617167+00:00",
+    "method": "crossref-title"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "89273bb38f88a23fef11d4ab136846001e10645cb57622d37052bcb56b4b384d",
+  "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+  "url": "https://doi.org/10.52202/079017-2636",
+  "venue": "Advances in Neural Information Processing Systems 37",
+  "work_id": "doi:10.52202/079017-2636",
+  "year": 2024
+}

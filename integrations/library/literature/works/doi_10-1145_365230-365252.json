@@ -1,0 +1,21 @@
+{
+  "abstract": "The semantics are defined for a number of meta-instructions which perform operations essential to the writing of programs in multiprogrammed computer systems. These meta-instructions relate to parallel processing, protecting of separate computations, program debugging, and the sharing among users of memory segments and other computing objects, the names of which are hierarchically structured. The language sophistication contemplated is midway between an assembly language and an advanced algebraic language.",
+  "accredited": true,
+  "authors": [
+    "Jack B. Dennis",
+    "Earl C. Van Horn"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "capabilities-1966",
+    "fetched_at": "2026-07-05T13:03:54.461924+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "72a4d15bea02f2570608ebc33993dc69963671725dcd9dfa7211d123fd7bdad1",
+  "title": "Programming semantics for multiprogrammed computations",
+  "url": "https://doi.org/10.1145/365230.365252",
+  "venue": "Communications of the ACM",
+  "work_id": "doi:10.1145/365230.365252",
+  "year": 1966
+}

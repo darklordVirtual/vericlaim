@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "L. G. Valiant"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "valiant-pac-1984",
+    "fetched_at": "2026-07-05T13:02:11.602513+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "9c8fcf46814db214db10daf460508fd9b975a43b6682a228016e710684023735",
+  "title": "A theory of the learnable",
+  "url": "https://doi.org/10.1145/1968.1972",
+  "venue": "Communications of the ACM",
+  "work_id": "doi:10.1145/1968.1972",
+  "year": 1984
+}

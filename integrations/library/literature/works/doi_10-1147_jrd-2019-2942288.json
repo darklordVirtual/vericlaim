@@ -1,0 +1,33 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "M. Arnold",
+    "R. K. E. Bellamy",
+    "M. Hind",
+    "S. Houde",
+    "S. Mehta",
+    "A. Mojsilović",
+    "R. Nair",
+    "K. Natesan Ramamurthy",
+    "A. Olteanu",
+    "D. Piorkowski",
+    "D. Reimer",
+    "J. Richards",
+    "J. Tsay",
+    "K. R. Varshney"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "factsheets-2019",
+    "fetched_at": "2026-07-05T13:05:07.159098+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "52e2b31de49704835f57eecdadc4b48c09fa86bd256365db124a3a4a912ec314",
+  "title": "FactSheets: Increasing trust in AI services through supplier's declarations of conformity",
+  "url": "https://doi.org/10.1147/jrd.2019.2942288",
+  "venue": "IBM Journal of Research and Development",
+  "work_id": "doi:10.1147/jrd.2019.2942288",
+  "year": 2019
+}

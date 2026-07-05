@@ -1,0 +1,21 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Koen Claessen",
+    "John Hughes"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "quickcheck-2000",
+    "fetched_at": "2026-07-05T13:13:16.663405+00:00",
+    "method": "doi"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "1ba59a04ade0cf8088a4106095ba8707f6a15176ca4a98b46c652a24fb582e91",
+  "title": "QuickCheck",
+  "url": "https://doi.org/10.1145/351240.351266",
+  "venue": "Proceedings of the fifth ACM SIGPLAN international conference on Functional programming",
+  "work_id": "doi:10.1145/351240.351266",
+  "year": 2000
+}
