@@ -52,6 +52,12 @@ export interface Env {
   // write access — the gap plain hash-chaining leaves open.
   LEDGER_HMAC_KEY?: string;
   VERICLAIM_MCP: DurableObjectNamespace; // backing store for the MCP agent
+  // Optional single-writer serializer for POST /index. When SINGLE_WRITER==="true"
+  // AND this binding exists, /index is routed through one IndexWriter instance so
+  // concurrent pushes cannot interleave. Off by default (direct path). DEPLOY-ONLY:
+  // add the binding + migration in wrangler.toml and verify in staging first.
+  INDEX_WRITER?: DurableObjectNamespace;
+  SINGLE_WRITER?: string; // "true" to route /index through INDEX_WRITER
 }
 
 export interface Claim {

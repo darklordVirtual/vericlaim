@@ -44,15 +44,33 @@ bucket_name = "vericlaim-evidence"
 name = "VERICLAIM_MCP"
 class_name = "VericlaimMCP"
 
+# Optional single-writer serializer for POST /index (opt-in; SINGLE_WRITER=true).
+# ⚠️ Written + type-checked but NOT deploy-tested against real bindings. Enable and
+# verify in a staging Worker before trusting it. Leave commented to keep the tested
+# direct path; uncomment (and keep the v2 migration below) to route /index through
+# one serialized IndexWriter instance.
+[[durable_objects.bindings]]
+name = "INDEX_WRITER"
+class_name = "IndexWriter"
+
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["VericlaimMCP"]
+
+[[migrations]]
+tag = "v2"
+new_classes = ["IndexWriter"] # stateless serializer; no SQLite storage needed
 
 [vars]
 # Set to "true" to expose the MCP endpoint at POST /mcp. Off by default.
 # (Enable it, redeploy, then: claude mcp add --transport http --scope user \
 #  vericlaim-claims https://<your-worker>.workers.dev/mcp )
 ENABLE_MCP = "false"
+
+# Set to "true" to route POST /index through the single-writer IndexWriter DO
+# (requires the INDEX_WRITER binding + v2 migration above). Off by default: the
+# direct, tested path runs. DEPLOY-ONLY — verify in staging first.
+SINGLE_WRITER = "false"
 
 # The Agents SDK client bundle has a dynamic import("ai") we never execute (we
 # only use agents/mcp). Alias it to a local stub so the bundler can resolve it.

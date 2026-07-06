@@ -56,9 +56,14 @@ Status: 🟡 partially implemented · ⏳ designed, not built.
   HMAC head, CORS preflight, error boundary + no message leak, reconcile-wipe
   guard, central `authz.ts` policy, request limits + paginated `/ledger/export`,
   auth/limits unit tests in CI.)
-- 🟡 **`/index` atomicity + single-writer** (Durable Object, staging snapshot,
-  atomic swap, ingest receipt). Reconcile-wipe guard exists; full single-writer
-  serialization is not built.
+- 🟡 **`/index` atomicity + single-writer.** Done: snapshot-integrity guard
+  (`expected_claim_count` / `register_sha256` / `full_snapshot`, unit-tested) so a
+  truncated export cannot prune the index, a verifiable ingest receipt, and an
+  **opt-in** `IndexWriter` Durable Object (`SINGLE_WRITER=true`) that serializes
+  writes — type-checked and it bundles cleanly (`wrangler deploy --dry-run`), but
+  its runtime concurrency behavior is NOT deploy-tested. Still ⏳: Vectorize
+  staging-namespace + atomic active-snapshot swap (a mid-ingest failure can still
+  leave the search index partial); needs a real Cloudflare env to verify.
 - ⏳ **Full Miniflare route tests** (real D1/R2/Vectorize/AI bindings end-to-end).
   Auth + limit *decision* logic is now unit-tested; binding-level route tests
   need the workerd harness.

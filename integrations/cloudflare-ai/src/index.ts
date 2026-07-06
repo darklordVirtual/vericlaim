@@ -16,11 +16,9 @@
 //   GET  /passport         public HTML trust page
 //   GET  /badge.svg        dynamic SVG badge
 //   POST /mcp              MCP (Streamable HTTP) — only when ENABLE_MCP=true
-import {
-  type Claim, type Env, b64ToBytes, indexClaims, reconcileClaims, searchClaims,
-} from "./lib";
-import { getEvidence, putEvidence, verifyEvidence } from "./vault";
-import { appendClaim, history, summary, verifyChain, verifyChainCached } from "./ledger";
+import { type Claim, type Env, searchClaims } from "./lib";
+import { getEvidence, verifyEvidence } from "./vault";
+import { history, summary, verifyChain, verifyChainCached } from "./ledger";
 import { hmacHex } from "./hashchain";
 import {
   type BundleIn, getBundle, indexBundles, librarySummary, pruneSuperseded,
@@ -39,7 +37,9 @@ import {
   LEDGER_PAGE_DEFAULT, LEDGER_PAGE_MAX,
   clampLimit, declaredBodyTooLarge, parseCursor, queryTooLong,
 } from "./limits";
-import { type SnapshotMeta, buildReceipt, validateSnapshot } from "./snapshot";
+import { type IngestCounts, type SnapshotMeta, buildReceipt, validateSnapshot } from "./snapshot";
+import { IngestError, ingestSnapshot } from "./ingest";
+export { IndexWriter } from "./ingest"; // Durable Object entrypoint (opt-in single-writer)
 
 export { VericlaimMCP };
 
@@ -137,25 +137,24 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
           "to wipe on purpose" }, 400);
       }
       const ts = new Date().toISOString();
-      let appended = 0, unchanged = 0, vaulted = 0;
-      for (const c of claims) {
-        let artifact_sha256: string | null = null;
-        if (c.artifact_b64) {
-          let bytes: Uint8Array;
-          try { bytes = b64ToBytes(c.artifact_b64); }
-          catch { return json({ error: `claim ${c.id}: artifact_b64 is not valid base64` }, 400); }
-          artifact_sha256 = await putEvidence(env, bytes);
-          vaulted++;
+      let counts: IngestCounts;
+      if (env.SINGLE_WRITER === "true" && env.INDEX_WRITER) {
+        // Opt-in single-writer: serialize the whole ingest through one DO
+        // instance so concurrent pushes cannot interleave. (Deploy-only path.)
+        const stub = env.INDEX_WRITER.get(env.INDEX_WRITER.idFromName("index-writer"));
+        const r = await stub.fetch("https://do/ingest", {
+          method: "POST", body: JSON.stringify({ claims, reconcile, ts }),
+        });
+        const b = await r.json() as { ok: boolean; counts?: IngestCounts; error?: string };
+        if (!b.ok || !b.counts) return json({ error: b.error ?? "ingest failed" }, r.status === 200 ? 500 : r.status);
+        counts = b.counts;
+      } else {
+        try { counts = await ingestSnapshot(env, claims, reconcile, ts); }
+        catch (e) {
+          if (e instanceof IngestError) return json({ error: e.message }, 400);
+          throw e;
         }
-        const r = await appendClaim(env, c, { git_commit: c.git_commit, artifact_sha256, ts });
-        r === "appended" ? appended++ : unchanged++;
       }
-      const indexed = await indexClaims(env, claims);
-      const withdrawn = reconcile
-        ? await reconcileClaims(env, new Set(claims.map((c) => c.id)))
-        : [];
-      const counts = { indexed, ledger_appended: appended,
-        ledger_unchanged: unchanged, vaulted, withdrawn: withdrawn.length };
       return json({ ...counts, ...buildReceipt(meta, counts, claims.length, ts) });
     }
 

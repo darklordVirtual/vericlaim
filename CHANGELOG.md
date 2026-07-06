@@ -59,6 +59,13 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
   added request limits (`src/limits.ts`): `?q=` length cap, POST body-size cap,
   and paginated `/ledger/export` so it cannot be forced into an unbounded dump
   (P1). Regression tests run on Node's built-in test runner and in CI.
+- `/index` snapshot integrity (`src/snapshot.ts`, unit-tested): a push may declare
+  `expected_claim_count` / `register_sha256` / `full_snapshot`; the writer refuses
+  to reconcile on a mismatch, so a truncated export cannot prune the index, and
+  returns a verifiable ingest receipt (P1). Plus an **opt-in** single-writer
+  `IndexWriter` Durable Object (`src/ingest.ts`, `SINGLE_WRITER=true`) that
+  serializes `/index` — type-checked, bundles clean via `wrangler --dry-run`, but
+  runtime behavior is not deploy-tested (off by default).
 - Closed drift-past-the-gate vectors (unbalanced fence, unverified provenance
   hash, unchecked register metrics).
 - See the security findings table in the implementation report.

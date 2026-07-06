@@ -154,8 +154,15 @@ claude mcp get vericlaim-claims        # ✔ Connected
   the edge (Cloudflare rate-limit / WAF), and per-token quotas + scoped
   `LEDGER_EXPORT_TOKEN` are a tracked follow-up.
 - **Single-writer:** `/index` assumes one trusted, serial caller (the CI pusher).
-  Do not fan it out across concurrent callers; a true multi-writer setup needs a
-  single-writer serializer (Durable Object) in front of D1.
+  An **opt-in** serializer exists: set `SINGLE_WRITER="true"` (with the
+  `INDEX_WRITER` Durable Object binding + v2 migration) to route every `/index`
+  through one `IndexWriter` instance so concurrent pushes cannot interleave. It is
+  off by default and **not deploy-tested** — verify in a staging Worker first.
+- **Snapshot integrity:** a `/index` push may declare `expected_claim_count`,
+  `register_sha256`, and `full_snapshot` in its JSON body; the writer refuses to
+  reconcile if the received valid-claim count does not match, so a truncated or
+  defective export cannot silently prune the rest of the index. The response
+  includes a `receipt` (snapshot_id, register_sha256, claim_count, change counts).
 - The oracle treats the question as **untrusted** (ignores injected instructions)
   and returns a constant refusal — never the model's ungrounded text — when no
   claim supports an answer.
