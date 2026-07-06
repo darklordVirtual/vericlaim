@@ -24,7 +24,7 @@ asks you to prove a decision was sound, a binder of reassurance is not a defense
 ## The idea, in one sentence
 
 Treat every factual statement your organization makes about an AI system as a
-**claim** — bound to evidence, graded by how strong that evidence is, and carrying
+*claim* — bound to evidence, graded by how strong that evidence is, and carrying
 its own limits — and refuse to make a claim you cannot back.
 
 That refusal is the whole method. A governance program that *cannot* quietly

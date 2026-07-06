@@ -24,7 +24,7 @@ forsvarlig, er en perm med betryggelser ikke et forsvar.
 
 ## Ideen, i én setning
 
-Behandle hver faktapåstand virksomheten gjør om et AI-system som en **claim**: en
+Behandle hver faktapåstand virksomheten gjør om et AI-system som en *claim*: en
 påstand bundet til evidens, gradert etter evidensstyrke og avgrenset av
 eksplisitte forbehold. Ikke gjør påstander du ikke kan stå inne for. (*Claim*
 brukes her som fagterm for nettopp en slik evidensbundet påstand, slik
