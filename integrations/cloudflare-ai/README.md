@@ -114,7 +114,11 @@ claude mcp get vericlaim-claims        # ✔ Connected
 
 - **Proves:** the hash chain detects any **partial** edit to ledger history (a
   changed byte breaks the chain at that row); the vaulted evidence is retrievable
-  and re-hashable; the oracle answers only from registered claims or refuses.
+  and re-hashable; the oracle either grounds an answer in real claim ids or
+  refuses. Grounding is **answer-level** — at least one valid cited id marks the
+  answer grounded; it does not verify each individual sentence entails the claim
+  beside it. The hard guarantee is the refusal: no valid citation → a constant
+  refusal string, never the model's ungrounded text.
 - **Does not:** change what the gate proves; and it does **not** prove history was
   never rewritten. The chain is unkeyed, so an actor who can write the whole D1
   table can rewrite it and recompute every hash — `/ledger/verify` would still

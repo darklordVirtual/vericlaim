@@ -9,12 +9,10 @@
 // registrar-verified (or honestly snapshotted, tier "web-snapshot") and
 // hash-locked — not that its contents are true. Tier travels with every hit,
 // and the research oracle REFUSES when no chunk clears the relevance bar.
-import { type Env, embed } from "./lib";
+import { type Env, GEN_MODEL, RERANK_MODEL, embed } from "./lib";
 import { getEvidence, putEvidence } from "./vault";
 import { searchLibrary } from "./library";
 
-const RERANK_MODEL = "@cf/baai/bge-reranker-base";
-const GEN_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
 // Retrieve wide (composite questions often find their answering excerpt
 // outside the top few cosine hits — the reranker decides), use narrow.
 // Note: returnMetadata caps Vectorize topK at 20.

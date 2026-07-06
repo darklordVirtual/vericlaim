@@ -13,7 +13,7 @@
 // bundle. Verified and candidate bundles are both preserved, but candidates
 // are always labeled — search output must never let an unverified assertion
 // masquerade as a gate-verified claim.
-import { type Env, embed } from "./lib";
+import { type Env, b64ToBytes, embed } from "./lib";
 import { canonical, entryHash, sha256Hex } from "./hashchain";
 import { putEvidence, verifyEvidence } from "./vault";
 
@@ -37,13 +37,6 @@ export interface BundleRow {
   source_repo: string; source_claim_id: string;
   claim: string; manifest: string; provenance: string;
   prev_hash: string; entry_hash: string;
-}
-
-function b64ToBytes(b64: string): Uint8Array {
-  const bin = atob(b64);
-  const out = new Uint8Array(bin.length);
-  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
-  return out;
 }
 
 // Must mirror bundlefmt._bundle_id: sha256 of the canonical manifest object.

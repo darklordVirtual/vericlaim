@@ -16,9 +16,12 @@
 //   GET  /passport         public HTML trust page
 //   GET  /badge.svg        dynamic SVG badge
 //   POST /mcp              MCP (Streamable HTTP) — only when ENABLE_MCP=true
-import { type Claim, type Env, indexClaims, reconcileClaims, searchClaims } from "./lib";
+import {
+  type Claim, type Env, b64ToBytes, indexClaims, reconcileClaims, searchClaims,
+  timingSafeEqual,
+} from "./lib";
 import { getEvidence, putEvidence, verifyEvidence } from "./vault";
-import { appendClaim, history, summary, verifyChain } from "./ledger";
+import { appendClaim, history, summary, verifyChain, verifyChainCached } from "./ledger";
 import { hmacHex } from "./hashchain";
 import {
   type BundleIn, getBundle, indexBundles, librarySummary, pruneSuperseded,
@@ -35,14 +38,30 @@ import { VericlaimMCP } from "./mcp";
 
 export { VericlaimMCP };
 
+// CORS: reads are cross-origin; a browser client that sends Authorization on a
+// write must also survive the preflight, so advertise the header and methods.
+const CORS: Record<string, string> = {
+  "access-control-allow-origin": "*",
+  "access-control-allow-methods": "GET, POST, OPTIONS",
+  "access-control-allow-headers": "authorization, content-type",
+  "access-control-max-age": "86400",
+};
+
 const json = (data: unknown, status = 200) =>
   new Response(JSON.stringify(data, null, 2), {
-    status, headers: { "content-type": "application/json", "access-control-allow-origin": "*" },
+    status, headers: { "content-type": "application/json", ...CORS },
   });
 
+// Constant-time bearer check: compare the whole token, never short-circuit on
+// the first mismatch (which would leak how many characters were right).
+function bearerMatches(req: Request, token: string | undefined): boolean {
+  if (!token) return false; // fail closed
+  const auth = req.headers.get("authorization") ?? "";
+  return timingSafeEqual(auth, `Bearer ${token}`);
+}
+
 function authorized(req: Request, env: Env): boolean {
-  if (!env.INDEX_TOKEN) return false; // fail closed
-  return req.headers.get("authorization") === `Bearer ${env.INDEX_TOKEN}`;
+  return bearerMatches(req, env.INDEX_TOKEN);
 }
 
 // The generative endpoints (/ask, /research/ask) drive Workers AI on every call
@@ -51,24 +70,29 @@ function authorized(req: Request, env: Env): boolean {
 // backward compatible). INDEX_TOKEN also satisfies it, so the CI pusher is fine.
 function generativeAllowed(req: Request, env: Env): boolean {
   if (!env.READ_TOKEN) return true; // reads are public unless a token is set
-  const auth = req.headers.get("authorization");
-  return auth === `Bearer ${env.READ_TOKEN}` ||
-    (!!env.INDEX_TOKEN && auth === `Bearer ${env.INDEX_TOKEN}`);
-}
-
-function b64ToBytes(b64: string): Uint8Array {
-  const bin = atob(b64);
-  const out = new Uint8Array(bin.length);
-  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
-  return out;
+  return bearerMatches(req, env.READ_TOKEN) || bearerMatches(req, env.INDEX_TOKEN);
 }
 
 const mcpHandler = VericlaimMCP.serve("/mcp", { binding: "VERICLAIM_MCP" });
 
 export default {
   async fetch(req: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+    try {
+      return await handle(req, env, ctx);
+    } catch (err) {
+      // Error boundary: any unhandled throw becomes a JSON 500 WITH CORS headers,
+      // never a bare framework 500 that a browser client cannot even read.
+      return json({ error: "internal error", detail: String((err as Error)?.message ?? err) }, 500);
+    }
+  },
+};
+
+async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(req.url);
     const p = url.pathname;
+
+    // CORS preflight for browser clients (esp. an authorized POST /index).
+    if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
 
     if (p === "/mcp") {
       if (env.ENABLE_MCP !== "true") return json({ error: "MCP disabled" }, 404);
@@ -76,7 +100,7 @@ export default {
     }
 
     if (p === "/") {
-      const chain = await verifyChain(env).catch(() => ({ ok: null, entries: 0 }));
+      const chain = await verifyChainCached(env).catch(() => ({ ok: null, entries: 0 }));
       return json({
         service: "vericlaim-cloudflare-ai",
         capabilities: ["search", "ask", "ledger", "evidence-vault", "passport", "badge",
@@ -94,12 +118,24 @@ export default {
       let payload: { claims?: Claim[] };
       try { payload = await req.json(); } catch { return json({ error: "invalid JSON" }, 400); }
       const claims = (payload.claims ?? []).filter((c) => c && c.id && c.statement && c.evidence_level);
+      // Reconcile-wipe guard: a full-snapshot push with ZERO valid claims would
+      // prune every indexed claim and take /search and /ask dark. That is almost
+      // always a mistake (bad export, wrong file); require ?allow_empty=1 to mean
+      // it on purpose. History in the ledger is untouched either way.
+      const reconcile = url.searchParams.get("reconcile") !== "0";
+      if (reconcile && claims.length === 0 && url.searchParams.get("allow_empty") !== "1") {
+        return json({ error: "refusing to reconcile an empty push (would prune " +
+          "all indexed claims); pass ?reconcile=0 for a delta, or ?allow_empty=1 " +
+          "to wipe on purpose" }, 400);
+      }
       const ts = new Date().toISOString();
       let appended = 0, unchanged = 0, vaulted = 0;
       for (const c of claims) {
         let artifact_sha256: string | null = null;
         if (c.artifact_b64) {
-          const bytes = b64ToBytes(c.artifact_b64);
+          let bytes: Uint8Array;
+          try { bytes = b64ToBytes(c.artifact_b64); }
+          catch { return json({ error: `claim ${c.id}: artifact_b64 is not valid base64` }, 400); }
           artifact_sha256 = await putEvidence(env, bytes);
           vaulted++;
         }
@@ -107,10 +143,6 @@ export default {
         r === "appended" ? appended++ : unchanged++;
       }
       const indexed = await indexClaims(env, claims);
-      // The push is a full snapshot: prune claims that are no longer registered
-      // so withdrawn claims can never surface in /search or /ask (history stays
-      // in the ledger). Opt out with ?reconcile=0 for a partial/delta push.
-      const reconcile = url.searchParams.get("reconcile") !== "0";
       const withdrawn = reconcile
         ? await reconcileClaims(env, new Set(claims.map((c) => c.id)))
         : [];
@@ -320,5 +352,4 @@ export default {
     if (p === "/summary") return json(await summary(env));
 
     return json({ error: "not found" }, 404);
-  },
-};
+}

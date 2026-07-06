@@ -104,6 +104,33 @@ export async function verifyChain(env: Env): Promise<
   return { ok: true, entries: rows.length, brokenAt: null };
 }
 
+// verifyChain is O(n) crypto over the whole ledger. The health page, passport,
+// and badge render it on every hit — so cache the last-verified result keyed by
+// the tip (count + head hash), which is a single cheap row. When nothing has
+// been appended, the cached verdict is returned without re-walking. Correctness
+// is preserved: any append changes the tip and invalidates the cache. The cache
+// lives per Worker isolate (module scope), so a cold isolate simply recomputes.
+let _chainCache: { entries: number; head: string;
+  result: { ok: boolean; entries: number; brokenAt: number | null } } | null = null;
+
+export async function verifyChainCached(env: Env): Promise<
+  { ok: boolean; entries: number; brokenAt: number | null }
+> {
+  const tip = await env.DB.prepare(
+    "SELECT seq, entry_hash FROM claim_events ORDER BY seq DESC LIMIT 1").first() as
+    { entry_hash: string } | null;
+  const countRow = await env.DB.prepare(
+    "SELECT COUNT(*) AS c FROM claim_events").first() as { c: number } | null;
+  const entries = Number(countRow?.c ?? 0);
+  const head = tip?.entry_hash ?? "";
+  if (_chainCache && _chainCache.entries === entries && _chainCache.head === head) {
+    return _chainCache.result;
+  }
+  const result = await verifyChain(env);
+  _chainCache = { entries, head, result };
+  return result;
+}
+
 export async function summary(env: Env): Promise<{
   claims: number; events: number; by_level: Record<string, number>;
   latest: { claim_id: string; evidence_level: string; ts: string; artifact_sha256: string | null }[];

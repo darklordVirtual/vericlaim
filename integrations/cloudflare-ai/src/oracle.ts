@@ -6,10 +6,8 @@
 // relevant enough, REFUSE -> otherwise a grounded answer that cites claim ids,
 // carries the caveats, and never invents a number. A vericlaim oracle that
 // hallucinated a claim would defeat the entire purpose, so refusal is a feature.
-import { type Env, type SearchHit, embed } from "./lib";
+import { type Env, type SearchHit, GEN_MODEL, RERANK_MODEL, embed } from "./lib";
 
-const RERANK_MODEL = "@cf/baai/bge-reranker-base";
-const GEN_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
 const RETRIEVE_K = 8;
 const USE_K = 4;
 const REFUSE_COSINE = 0.42; // below this, no claim is relevant enough to ground an answer
@@ -116,6 +114,13 @@ export async function ask(env: Env, query: string): Promise<OracleAnswer> {
 
   // Truthful citations: the claim ids the answer ACTUALLY cites, not merely the
   // ones retrieved. An anti-overclaim tool must not over-attribute either.
+  //
+  // HONEST LIMIT: this is ANSWER-LEVEL grounding — the presence of at least one
+  // real cited id marks the whole answer grounded. It does NOT verify that every
+  // individual sentence is supported by the claim it sits next to; a model could
+  // wrap an unsupported sentence around one valid citation. Per-fact entailment
+  // checking is out of scope; the caveat is carried and the refusal below is the
+  // hard guarantee (no valid id at all -> constant refusal, no leaked text).
   const cited = ordered.filter((h) => answer.includes(h.id));
   if (cited.length === 0) {
     // A fluent answer that grounds in no real claim id is a refusal — and the

@@ -3,7 +3,7 @@
 // claims about itself — counts, evidence-level distribution, and whether the
 // tamper-evident ledger still verifies.
 import { type Env } from "./lib";
-import { summary, verifyChain } from "./ledger";
+import { summary, verifyChainCached } from "./ledger";
 
 const LEVEL_COLORS: Record<string, string> = {
   theoretical: "#9aa0b4", measured: "#4a86e8", benchmarked: "#7c4dff",
@@ -16,7 +16,7 @@ function esc(s: string): string {
 
 export async function passportHTML(env: Env): Promise<string> {
   const s = await summary(env);
-  const chain = await verifyChain(env);
+  const chain = await verifyChainCached(env);
   const levels = ["theoretical", "measured", "benchmarked", "reproduced", "externally_validated"];
   const bars = levels.map((lv) => {
     const n = s.by_level[lv] ?? 0;
@@ -77,7 +77,7 @@ endrer ikke hva gaten beviser. · <a href="/badge.svg">badge</a></p>
 
 export async function badgeSVG(env: Env): Promise<string> {
   const s = await summary(env);
-  const chain = await verifyChain(env);
+  const chain = await verifyChainCached(env);
   const label = "vericlaim";
   const strong = (s.by_level.benchmarked ?? 0) + (s.by_level.reproduced ?? 0) +
     (s.by_level.externally_validated ?? 0);

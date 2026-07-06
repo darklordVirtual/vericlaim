@@ -10,6 +10,29 @@
 // artifact, provenance and doc-binding — not because it turned up in a search.
 
 export const EMBED_MODEL = "@cf/baai/bge-base-en-v1.5"; // 768 dims, cosine
+// Shared Workers-AI model ids (used by both the claims and research oracles).
+export const RERANK_MODEL = "@cf/baai/bge-reranker-base";
+export const GEN_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
+
+// Decode base64 to bytes. Throws on malformed input (atob) — callers on request
+// paths must guard it so a bad payload becomes a 400, not an unhandled 500.
+export function b64ToBytes(b64: string): Uint8Array {
+  const bin = atob(b64);
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+
+// Constant-time string comparison for bearer tokens: compare every character so
+// the time taken does not leak how many leading characters matched. Both the
+// length and the content are folded into one accumulator.
+export function timingSafeEqual(a: string, b: string): boolean {
+  let diff = a.length ^ b.length;
+  for (let i = 0; i < a.length; i++) {
+    diff |= a.charCodeAt(i) ^ b.charCodeAt(i % b.length);
+  }
+  return diff === 0;
+}
 
 export interface Env {
   AI: Ai;
