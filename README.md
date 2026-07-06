@@ -255,9 +255,11 @@ what the gate proves, and each has its own README.
 1. **The Cloudflare truth layer** — [`integrations/cloudflare-ai/`](integrations/cloudflare-ai/).
    Mirrors your register to the edge: semantic **search** over claims, a
    tamper-evident **ledger** (`/ledger/verify` names where a chain breaks), a
-   content-addressed evidence **vault**, an **oracle** that answers only from
-   registered claims and refuses otherwise, and a public `/passport` + MCP
-   server (`search_claims`, `ask_claims`, `verify_claim`).
+   content-addressed evidence **vault**, a retrieval-grounded **oracle**
+   designed to answer from registered claims and refuse unsupported questions
+   (grounding is enforced by retrieval + a citation check, not a proof that
+   every sentence is claim-bound — see the add-on README), and a public
+   `/passport` + MCP server (`search_claims`, `ask_claims`, `verify_claim`).
 
 2. **The research RAG** — a literature corpus that *refuses to guess*. Every
    work enters only through a registrar guard or an explicit hash-locked

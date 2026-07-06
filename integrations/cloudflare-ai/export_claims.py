@@ -68,6 +68,9 @@ def main() -> int:
     ap.add_argument("--root", default=".", type=Path, help="repo root (has vericlaim.toml)")
     ap.add_argument("--push", metavar="URL", help="Worker base URL to POST /index to")
     ap.add_argument("--token", help="INDEX_TOKEN bearer secret (required with --push)")
+    ap.add_argument("--no-gate", action="store_true",
+                    help="skip the pre-push gate (NOT recommended; use only when "
+                         "the gate was already run in this CI job)")
     args = ap.parse_args()
 
     claims = export(args.root)
@@ -80,6 +83,24 @@ def main() -> int:
     if not args.token:
         print("error: --token is required with --push", file=sys.stderr)
         return 2
+
+    # Never push an ungated register: refuse to publish a state the gate has
+    # not accepted (audit P1 — the exporter is a publish step, so the same
+    # fail-closed discipline applies). --no-gate is an explicit opt-out for
+    # callers that already ran the gate in the same job.
+    if not args.no_gate:
+        try:
+            from vericlaim.config import load_config
+            from vericlaim.gate import run as run_gate
+            if run_gate(load_config(args.root), quiet=True) != 0:
+                print("error: gate failed — refusing to push an ungated register "
+                      "(fix the drift, or pass --no-gate if already gated in CI)",
+                      file=sys.stderr)
+                return 3
+        except Exception as exc:  # noqa: BLE001 — gate must not be silently skipped
+            print(f"error: could not run the pre-push gate ({exc}); "
+                  "pass --no-gate only if the gate already ran", file=sys.stderr)
+            return 3
     body = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
         args.push.rstrip("/") + "/index", data=body, method="POST",
