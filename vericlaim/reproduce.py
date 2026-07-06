@@ -23,14 +23,46 @@ from pathlib import Path
 
 from .config import Config
 from .register import RegisterError, load_register
+from .repro import ReproError, ReproSpec, run_declarative
 
 
 def _sha256(p: Path) -> str | None:
     return hashlib.sha256(p.read_bytes()).hexdigest() if p.exists() else None
 
 
+def _run_legacy(cfg: Config, cmd: str, arts: list[str], failures: list[str],
+                *, quiet: bool) -> None:
+    """The legacy byte-compare path (adopt only): run the shell string in the
+    repo and check the artifact is unchanged. WEAKER than declarative — a no-op
+    passes because the old artifact is still there. Documented as such."""
+    before = {a: _sha256(cfg.path(a)) for a in arts}
+    if not quiet:
+        print(f"[run:legacy] {cmd}")
+    try:
+        r = subprocess.run(cmd, shell=True, cwd=cfg.root,  # noqa: S602 (adopt-only, trusted register)
+                           capture_output=True, text=True, timeout=600)
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        failures.append(f"{cmd!r} did not run ({type(exc).__name__}: {exc})")
+        return
+    if r.returncode != 0:
+        failures.append(f"{cmd!r} exited {r.returncode}: {(r.stderr or r.stdout).strip()[:200]}")
+        return
+    for a in arts:
+        after = _sha256(cfg.path(a))
+        if before[a] is None:
+            failures.append(f"{a}: not produced by `{cmd}`")
+        elif after != before[a]:
+            failures.append(f"{a}: changed after re-running `{cmd}` — stale artifact "
+                            f"or non-deterministic script.")
+
+
 def reproduce(cfg: Config, *, quiet: bool = False) -> int:
-    """Run every claim's reproduce command; fail if any artifact changed."""
+    """Re-run each claim's reproduction and fail if any does not hold.
+
+    Declarative specs run in an isolated output dir (from-scratch or fail);
+    legacy string commands use the weaker byte-compare path and are allowed only
+    under the adopt profile with allow_legacy_shell. strict/enterprise reject
+    legacy commands outright."""
     reg = cfg.path(cfg.register)
     if not reg.exists():
         print(f"[FAIL] missing claim register: {cfg.register}")
@@ -41,55 +73,52 @@ def reproduce(cfg: Config, *, quiet: bool = False) -> int:
         print(f"[FAIL] {cfg.register}: {exc}")
         return 1
 
-    # Group artifacts by their reproduce command (skip claims without one).
-    by_cmd: dict[str, list[str]] = {}
+    failures: list[str] = []
+    n_declarative = n_legacy = 0
+    legacy_by_cmd: dict[str, list[str]] = {}
+
     for c in claims:
-        cmd = c.get("reproduce")
+        raw = c.get("reproduce")
+        if raw is None:
+            continue
         arts = c.get("artifact") or []
         if isinstance(arts, str):
             arts = [arts]
-        if isinstance(cmd, str) and cmd.strip() and arts:
-            by_cmd.setdefault(cmd.strip(), [])
-            for a in arts:
-                if a not in by_cmd[cmd.strip()]:
-                    by_cmd[cmd.strip()].append(a)
-
-    if not by_cmd:
-        if not quiet:
-            print("[NOTE] no claims have a `reproduce` command with artifacts.")
-        return 0
-
-    failures: list[str] = []
-    for cmd, arts in by_cmd.items():
-        before = {a: _sha256(cfg.path(a)) for a in arts}
-        if not quiet:
-            print(f"[run] {cmd}")
         try:
-            r = subprocess.run(cmd, shell=True, cwd=cfg.root,
-                               capture_output=True, text=True, timeout=600)
-        except (OSError, subprocess.TimeoutExpired) as exc:
-            failures.append(f"{cmd!r} did not run ({type(exc).__name__}: {exc})")
+            spec = ReproSpec.parse(raw, allow_legacy_shell=cfg.legacy_shell_allowed)
+        except ReproError as exc:
+            failures.append(f"{c.get('id', '?')}: {exc}")
             continue
-        if r.returncode != 0:
-            failures.append(f"{cmd!r} exited {r.returncode}: "
-                            f"{(r.stderr or r.stdout).strip()[:200]}")
+        if spec.is_legacy:
+            # Group identical legacy commands so a shared producer runs once.
+            legacy_by_cmd.setdefault(spec.legacy_shell, [])
+            for a in arts:
+                if a not in legacy_by_cmd[spec.legacy_shell]:
+                    legacy_by_cmd[spec.legacy_shell].append(a)
             continue
-        for a in arts:
-            after = _sha256(cfg.path(a))
-            if before[a] is None:
-                failures.append(f"{a}: not produced by `{cmd}`")
-            elif after != before[a]:
-                failures.append(
-                    f"{a}: changed after re-running `{cmd}` — the committed "
-                    f"artifact is stale or the script is non-deterministic. "
-                    f"Commit the regenerated artifact (and update docs the gate flags).")
+        n_declarative += 1
+        if not quiet:
+            print(f"[run] {' '.join(spec.argv)}")
+        res = run_declarative(cfg, spec)
+        if not res.ok:
+            failures.append(f"{c.get('id', '?')}: {res.reason}")
+
+    for cmd, arts in legacy_by_cmd.items():
+        n_legacy += 1
+        _run_legacy(cfg, cmd, arts, failures, quiet=quiet)
 
     if failures:
         print("Reproduce FAILED:")
         for f in failures:
             print(f" - {f}")
         return 1
+    total = n_declarative + n_legacy
+    if total == 0:
+        if not quiet:
+            print("[NOTE] no claims have a `reproduce` spec.")
+        return 0
     if not quiet:
-        print(f"[OK] reproduce: {len(by_cmd)} command(s) re-run, "
-              f"all artifacts byte-identical — every registered number still holds.")
+        legacy_note = f" ({n_legacy} legacy, weaker)" if n_legacy else ""
+        print(f"[OK] reproduce: {total} spec(s) re-run{legacy_note}, "
+              f"every registered number still holds.")
     return 0

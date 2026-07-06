@@ -4,6 +4,16 @@
 # claim register and verified in CI.
 
 [vericlaim]
+# Policy profile: adopt (permissive onboarding) | strict (recommended) |
+# enterprise (regulated). This repo is mid-migration to declarative reproduce
+# specs; until every claim is converted it stays on `adopt` with the explicit
+# legacy-shell opt-in below. `strict`/`enterprise` would force provenance +
+# git-tracking on and reject legacy shell reproduction.
+profile             = "adopt"
+# Migration setting: the register still uses legacy string `reproduce` commands.
+# This flag is honored ONLY under adopt; strict/enterprise ignore it and reject
+# legacy shell. Roadmap: convert all claims to declarative and drop this.
+allow_legacy_shell  = true
 register        = "claims/register.yaml"
 baseline        = "claims/baseline.json"
 manifest        = "claims/manifest.md"
