@@ -45,6 +45,7 @@ import re
 from pathlib import Path
 
 from .config import Config
+from .pathsafe import PathSafetyError, safe_join
 from .register import RegisterError, load_register
 
 ANCHOR_RE = re.compile(r"<!--\s*claim:([A-Za-z0-9_.-]+)((?:\s+[A-Za-z0-9_.-]+)+)\s*-->")
@@ -116,17 +117,17 @@ def _claim_ids_in_line(line: str, by_id: dict[str, dict]) -> set[str]:
 def _resolve_within_root(cfg: Config, rel: str) -> Path | None:
     """Resolve *rel* under the repo root, or None if it escapes the root.
 
-    Blocks absolute paths, ``..`` traversal, and symlinks that point outside the
-    repository — so "committed artifact" cannot quietly mean a file in another
-    project or outside the checkout.
+    Delegates to the single, adversarially-tested `pathsafe.safe_join` policy so
+    the gate, the manifest, literature paths, and the bundle tooling all share
+    one definition of "safe path" — blocking absolute paths, ``..`` traversal,
+    backslashes, Windows drives, non-canonical strings, and symlinks that point
+    outside the repository. Returns None (rather than raising) to preserve the
+    gate's finding-based control flow.
     """
-    root = cfg.root.resolve()
-    candidate = (cfg.root / rel).resolve()
-    if candidate == root:
+    try:
+        return safe_join(cfg.root, rel)
+    except PathSafetyError:
         return None
-    if root not in candidate.parents:
-        return None
-    return candidate
 
 
 # --------------------------------------------------------------------------- #

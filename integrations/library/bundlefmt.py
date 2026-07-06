@@ -21,7 +21,11 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, for vericlaim.*
+from vericlaim.pathsafe import PathSafetyError, check_relpath  # noqa: E402
 
 SCHEMA = "bundle_v1"
 _META = ("claim.json", "provenance.json")
@@ -102,6 +106,16 @@ def verify_bundle(bdir: Path) -> dict:
     for rel in _META:
         if rel not in files:
             raise BundleError(f"{bdir.name}: manifest does not list {rel}")
+    # Every manifest key is UNTRUSTED. Validate it against the shared path policy
+    # BEFORE building any path from it — a key like '../x' or an absolute path is
+    # rejected here, on the READ side, so a malicious manifest cannot make
+    # verify_bundle read (or later import_bundle write) outside the bundle dir.
+    # "Never trust a remote manifest merely because it later verifies."
+    for rel in files:
+        try:
+            check_relpath(rel)
+        except PathSafetyError as exc:
+            raise BundleError(f"{bdir.name}: unsafe manifest path {rel!r}: {exc}") from exc
     for rel, expected in sorted(files.items()):
         p = bdir / rel
         if not p.is_file():
