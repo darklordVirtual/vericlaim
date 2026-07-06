@@ -6,6 +6,16 @@
 
 ---
 
+*An AI agent is about to act in the world — read a record, send a message, run a
+command. Someone signed off on letting it. Now a reviewer asks the only question
+that matters: "What did you actually know when you allowed that?" If the answer
+is a policy document that says the right things, you have reassurance. If the
+answer is a claim, bound to evidence, at a stated level of confidence, with its
+limits written down — you have a case. This book is about the difference, and
+about how to build governance that can be attacked and still stand.*
+
+---
+
 ## Preface — what this book is, and is not
 
 **Who it is for.** Technical AI-governance practitioners, security and enterprise

@@ -6,6 +6,16 @@
 
 ---
 
+*En AI-agent skal til å handle i verden — lese en journal, sende en melding,
+kjøre en kommando. Noen godkjente at den fikk lov. Så stiller en revisor det
+eneste spørsmålet som betyr noe: «Hva visste du egentlig da du tillot det?» Er
+svaret et policy-dokument som sier de riktige tingene, har du betryggelse. Er
+svaret en claim, bundet til evidens, på et oppgitt tillitsnivå, med grensene
+skrevet ned — har du en sak. Denne boken handler om forskjellen, og om hvordan
+man bygger governance som kan angripes og likevel står.*
+
+---
+
 ## Forord — hva denne boken er, og ikke er
 
 **Hvem den er for.** Tekniske governance-fagfolk, sikkerhets- og
@@ -251,8 +261,9 @@ enterprise) og *praksisen* (hvordan du faktisk gjør det daglig).
 ▶ **Enkelt forklart:** det meste av AI-governance er en bunke selvsikre
 setninger i en PDF. Denne håndboken viser hvordan governance kan gjøres
 *falsifiserbar* — hver påstand bundet til evidens en skeptiker kan sjekke — og
-argumenterer for at falsifiserbar governance er kategorisk sterkere enn
-overbevisende governance.
+argumenterer for at falsifiserbar governance gir en sterkere *revisjonsposisjon*
+enn overbevisende governance, fordi påstandene kan angripes mekanisk og ikke lar
+seg bryte (ikke «bedre» i en umålt, generell forstand).
 
 ▷ **I dybden.** Når du kombinerer alt i biblioteket — de regulatoriske
 rammeverkene, usikkerhetsteorien, verifikasjonsmatematikken,
@@ -278,8 +289,8 @@ slår et overbevisende ett fordi en fiendtlig anmelder kan angripe det og
   rutetabeller [THM-ROUTE-001] — med flertallsstemme-amplifikasjonen bevist *og*
   dens ærlige konvers (stemmegivning *degraderer* en dårligere-enn-tilfeldig
   velger) bevist også [THM-VOTE-002].
-- **En fail-closed policy-floor gir en hard sikkerhetsgaranti — og samme
-  evidensbase navngir grensen.** REMORAs gate ga **0,0 %** usikker-kjørerate på
+- **En fail-closed policy-floor gir et hardt, benchmark-avgrenset sikkerhetsgulv
+  — og samme evidensbase navngir grensen.** REMORAs gate ga **0,0 %** usikker-kjørerate på
   en 700-oppgavers adversariell benchmark mot 10–20 % for heuristikker [REMORA
   CLAIM-001], og blokkerte **alle 208** uavhengige AgentHarm-scenarier,
   *eksternt validert* [REMORA CLAIM-002]. AROMER-negativresultatet viser ærlig
@@ -977,13 +988,13 @@ men aldri stille oppgradere**. Eksempelmål: den konforme innpakningen
 ▷ **I dybden.**
 
 [Figure 15]
-    Regulatoriske plikter sporet til kontroller CLAIM-GOV-001 → Et frontier-AI-system styrt til den høyeste tilgjengelige standard — og hver klausul er falsifiserbar
-    Hver kontroll verifisert på et oppgitt nivå §§8-11 → Et frontier-AI-system styrt til den høyeste tilgjengelige standard — og hver klausul er falsifiserbar
-    Runtime fail-closed + eksternt validert REMORA CLAIM-002 → Et frontier-AI-system styrt til den høyeste tilgjengelige standard — og hver klausul er falsifiserbar
-    Grenser oppgitt REMORA CLAIM-009 · §24 → Et frontier-AI-system styrt til den høyeste tilgjengelige standard — og hver klausul er falsifiserbar
-    Hele kjeden reproduce-sjekket + hash-kjedet §5-6 → Et frontier-AI-system styrt til den høyeste tilgjengelige standard — og hver klausul er falsifiserbar
+    Regulatoriske plikter sporet til kontroller CLAIM-GOV-001 → Et frontier-AI-system styrt til en evidensforankret referansestandard — og hver klausul er falsifiserbar
+    Hver kontroll verifisert på et oppgitt nivå §§8-11 → Et frontier-AI-system styrt til en evidensforankret referansestandard — og hver klausul er falsifiserbar
+    Runtime fail-closed + eksternt validert REMORA CLAIM-002 → Et frontier-AI-system styrt til en evidensforankret referansestandard — og hver klausul er falsifiserbar
+    Grenser oppgitt REMORA CLAIM-009 · §24 → Et frontier-AI-system styrt til en evidensforankret referansestandard — og hver klausul er falsifiserbar
+    Hele kjeden reproduce-sjekket + hash-kjedet §5-6 → Et frontier-AI-system styrt til en evidensforankret referansestandard — og hver klausul er falsifiserbar
 
-> *Et frontier-AI-system er styrt til den høyeste tilgjengelige standard når hver
+> *Et frontier-AI-system når denne evidensforankrede referansestandarden når hver
 > regulatorisk plikt er sporet til en kontroll [CLAIM-GOV-001], hver kontroll er
 > verifisert på et oppgitt evidensnivå (§§8–11), runtime er fail-closed med en
 > eksternt-validert sikkerhets-floor [REMORA CLAIM-002] hvis grenser er oppgitt

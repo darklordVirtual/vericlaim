@@ -6,6 +6,16 @@
 
 ---
 
+*An AI agent is about to act in the world — read a record, send a message, run a
+command. Someone signed off on letting it. Now a reviewer asks the only question
+that matters: "What did you actually know when you allowed that?" If the answer
+is a policy document that says the right things, you have reassurance. If the
+answer is a claim, bound to evidence, at a stated level of confidence, with its
+limits written down — you have a case. This book is about the difference, and
+about how to build governance that can be attacked and still stand.*
+
+---
+
 ## Preface — what this book is, and is not
 
 **Who it is for.** Technical AI-governance practitioners, security and enterprise
@@ -251,7 +261,9 @@ enterprise), and the *practice* (how you actually do it day to day).
 ▶ **In plain terms:** most AI governance is a stack of confident sentences in a
 PDF. This handbook shows how to make governance *falsifiable* — every claim
 tied to evidence a skeptic can check — and argues that falsifiable governance
-is categorically stronger than persuasive governance.
+gives a stronger *audit position* than persuasive governance, because its claims
+can be attacked mechanically and fail to break (not "better" in some unmeasured,
+general sense).
 
 ▷ **In depth.** When you combine everything in this library — the regulatory
 frameworks, the uncertainty theory, the verification mathematics, the runtime
@@ -276,8 +288,8 @@ break it*. Four verified findings compose that thesis:
   cost/accuracy — over 87 380 exhaustive routing tables [THM-ROUTE-001] — with
   the majority-vote amplification proven *and* its honest converse (voting
   *degrades* a worse-than-chance voter) proven too [THM-VOTE-002].
-- **A fail-closed policy floor delivers a hard safety guarantee — and the same
-  evidence base names its limit.** REMORA's gate produced a **0.0%** unsafe-
+- **A fail-closed policy floor delivers a hard, benchmark-scoped safety floor —
+  and the same evidence base names its limit.** REMORA's gate produced a **0.0%** unsafe-
   execution rate on a 700-task adversarial benchmark vs 10–20% for heuristics
   [REMORA CLAIM-001], and blocked **all 208** independent AgentHarm scenarios,
   *externally validated* [REMORA CLAIM-002]. The AROMER negative result honestly
@@ -998,13 +1010,13 @@ can attack.
 ▷ **In depth.**
 
 [Figure 15]
-    Regulatory obligations traced to controls CLAIM-GOV-001 → A frontier-AI system governed to the highest available standard — and every clause is falsifiable
-    Each control verified at a stated level §§8-11 → A frontier-AI system governed to the highest available standard — and every clause is falsifiable
-    Runtime fail-closed + externally validated REMORA CLAIM-002 → A frontier-AI system governed to the highest available standard — and every clause is falsifiable
-    Limits disclosed REMORA CLAIM-009 · §24 → A frontier-AI system governed to the highest available standard — and every clause is falsifiable
-    Whole chain reproduce-checked + hash-chained §5-6 → A frontier-AI system governed to the highest available standard — and every clause is falsifiable
+    Regulatory obligations traced to controls CLAIM-GOV-001 → A frontier-AI system governed to an evidence-backed reference standard — and every clause is falsifiable
+    Each control verified at a stated level §§8-11 → A frontier-AI system governed to an evidence-backed reference standard — and every clause is falsifiable
+    Runtime fail-closed + externally validated REMORA CLAIM-002 → A frontier-AI system governed to an evidence-backed reference standard — and every clause is falsifiable
+    Limits disclosed REMORA CLAIM-009 · §24 → A frontier-AI system governed to an evidence-backed reference standard — and every clause is falsifiable
+    Whole chain reproduce-checked + hash-chained §5-6 → A frontier-AI system governed to an evidence-backed reference standard — and every clause is falsifiable
 
-> *A frontier-AI system is governed to the highest available standard when every
+> *A frontier-AI system reaches this evidence-backed reference standard when every
 > regulatory obligation is traced to a control [CLAIM-GOV-001], each control is
 > verified at a stated evidence level (§§8–11), the runtime is fail-closed with
 > an externally-validated safety floor [REMORA CLAIM-002] whose limits are

@@ -6,6 +6,16 @@
 
 ---
 
+*En AI-agent skal til å handle i verden — lese en journal, sende en melding,
+kjøre en kommando. Noen godkjente at den fikk lov. Så stiller en revisor det
+eneste spørsmålet som betyr noe: «Hva visste du egentlig da du tillot det?» Er
+svaret et policy-dokument som sier de riktige tingene, har du betryggelse. Er
+svaret en claim, bundet til evidens, på et oppgitt tillitsnivå, med grensene
+skrevet ned — har du en sak. Denne boken handler om forskjellen, og om hvordan
+man bygger governance som kan angripes og likevel står.*
+
+---
+
 ## Forord — hva denne boken er, og ikke er
 
 **Hvem den er for.** Tekniske governance-fagfolk, sikkerhets- og

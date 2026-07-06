@@ -143,7 +143,9 @@ mindmap
 ▶ **In plain terms:** most AI governance is a stack of confident sentences in a
 PDF. This handbook shows how to make governance *falsifiable* — every claim
 tied to evidence a skeptic can check — and argues that falsifiable governance
-is categorically stronger than persuasive governance.
+gives a stronger *audit position* than persuasive governance, because its claims
+can be attacked mechanically and fail to break (not "better" in some unmeasured,
+general sense).
 
 ▷ **In depth.** When you combine everything in this library — the regulatory
 frameworks, the uncertainty theory, the verification mathematics, the runtime
@@ -171,8 +173,8 @@ flowchart TB
   cost/accuracy — over 87 380 exhaustive routing tables [THM-ROUTE-001] — with
   the majority-vote amplification proven *and* its honest converse (voting
   *degrades* a worse-than-chance voter) proven too [THM-VOTE-002].
-- **A fail-closed policy floor delivers a hard safety guarantee — and the same
-  evidence base names its limit.** REMORA's gate produced a **0.0%** unsafe-
+- **A fail-closed policy floor delivers a hard, benchmark-scoped safety floor —
+  and the same evidence base names its limit.** REMORA's gate produced a **0.0%** unsafe-
   execution rate on a 700-task adversarial benchmark vs 10–20% for heuristics
   [REMORA CLAIM-001], and blocked **all 208** independent AgentHarm scenarios,
   *externally validated* [REMORA CLAIM-002]. The AROMER negative result honestly
@@ -975,10 +977,10 @@ flowchart BT
     L3[Runtime fail-closed + externally validated<br/>REMORA CLAIM-002] --> TOP
     L4[Limits disclosed<br/>REMORA CLAIM-009 · §24] --> TOP
     L5[Whole chain reproduce-checked + hash-chained<br/>§5-6] --> TOP
-    TOP(["A frontier-AI system governed to the<br/>highest available standard —<br/>and every clause is falsifiable"])
+    TOP(["A frontier-AI system governed to an<br/>evidence-backed reference standard —<br/>and every clause is falsifiable"])
 ```
 
-> *A frontier-AI system is governed to the highest available standard when every
+> *A frontier-AI system reaches this evidence-backed reference standard when every
 > regulatory obligation is traced to a control [CLAIM-GOV-001], each control is
 > verified at a stated evidence level (§§8–11), the runtime is fail-closed with
 > an externally-validated safety floor [REMORA CLAIM-002] whose limits are

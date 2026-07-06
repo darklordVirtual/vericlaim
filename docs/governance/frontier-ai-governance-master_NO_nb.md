@@ -144,8 +144,9 @@ mindmap
 ▶ **Enkelt forklart:** det meste av AI-governance er en bunke selvsikre
 setninger i en PDF. Denne håndboken viser hvordan governance kan gjøres
 *falsifiserbar* — hver påstand bundet til evidens en skeptiker kan sjekke — og
-argumenterer for at falsifiserbar governance er kategorisk sterkere enn
-overbevisende governance.
+argumenterer for at falsifiserbar governance gir en sterkere *revisjonsposisjon*
+enn overbevisende governance, fordi påstandene kan angripes mekanisk og ikke lar
+seg bryte (ikke «bedre» i en umålt, generell forstand).
 
 ▷ **I dybden.** Når du kombinerer alt i biblioteket — de regulatoriske
 rammeverkene, usikkerhetsteorien, verifikasjonsmatematikken,
@@ -174,8 +175,8 @@ flowchart TB
   rutetabeller [THM-ROUTE-001] — med flertallsstemme-amplifikasjonen bevist *og*
   dens ærlige konvers (stemmegivning *degraderer* en dårligere-enn-tilfeldig
   velger) bevist også [THM-VOTE-002].
-- **En fail-closed policy-floor gir en hard sikkerhetsgaranti — og samme
-  evidensbase navngir grensen.** REMORAs gate ga **0,0 %** usikker-kjørerate på
+- **En fail-closed policy-floor gir et hardt, benchmark-avgrenset sikkerhetsgulv
+  — og samme evidensbase navngir grensen.** REMORAs gate ga **0,0 %** usikker-kjørerate på
   en 700-oppgavers adversariell benchmark mot 10–20 % for heuristikker [REMORA
   CLAIM-001], og blokkerte **alle 208** uavhengige AgentHarm-scenarier,
   *eksternt validert* [REMORA CLAIM-002]. AROMER-negativresultatet viser ærlig
@@ -955,10 +956,10 @@ flowchart BT
     L3[Runtime fail-closed + eksternt validert<br/>REMORA CLAIM-002] --> TOP
     L4[Grenser oppgitt<br/>REMORA CLAIM-009 · §24] --> TOP
     L5[Hele kjeden reproduce-sjekket + hash-kjedet<br/>§5-6] --> TOP
-    TOP(["Et frontier-AI-system styrt til den<br/>høyeste tilgjengelige standard —<br/>og hver klausul er falsifiserbar"])
+    TOP(["Et frontier-AI-system styrt til en<br/>evidensforankret referansestandard —<br/>og hver klausul er falsifiserbar"])
 ```
 
-> *Et frontier-AI-system er styrt til den høyeste tilgjengelige standard når hver
+> *Et frontier-AI-system når denne evidensforankrede referansestandarden når hver
 > regulatorisk plikt er sporet til en kontroll [CLAIM-GOV-001], hver kontroll er
 > verifisert på et oppgitt evidensnivå (§§8–11), runtime er fail-closed med en
 > eksternt-validert sikkerhets-floor [REMORA CLAIM-002] hvis grenser er oppgitt
