@@ -23,7 +23,7 @@ evidence without provenance; no drift; no claim above its earned level.*
 |-------|------|--------|
 | 1.1 | Central path-validation utility (`vericlaim/pathsafe.py`) + adversarial tests; wired into the gate and bundle modules | ✅ |
 | 1.2 | Declarative reproduce spec + isolated-workspace runner with pre-exec output removal (no-op detection); legacy shell allowed only under `adopt`, rejected under `strict` | ✅ |
-| 2 | Schema-v2 typed structures + explicit metric bindings (JSON Pointer + comparators + Decimal); zero-dependency parser contract documented | 🟡 (metric bindings + parser contract ✅; full typed dataclass migration ⏳) |
+| 2 | Schema-v2 typed structures + explicit metric bindings (JSON Pointer + comparators + Decimal); zero-dependency parser contract documented | 🟡 (key-based register↔artifact metric check ✅; JSON-Pointer/comparator bindings, typed-dataclass migration, and the parser contract ⏳ — see ROADMAP) |
 | 3 | Policy profiles `adopt`/`strict`/`enterprise` in config + gate wiring | ✅ (adopt/strict ✅; enterprise controls 🟡/⏳) |
 | 4 | Documentation architecture (architecture/security/operations/reference/tutorials/adr) + policy files | 🟡 (core pages + policy files ✅; full 21-doc set ⏳) |
 | 5 | Mermaid diagram system + CI render validation | 🟡 (key diagrams + explanatory prose ✅; pinned mermaid-CLI CI render ⏳) |
