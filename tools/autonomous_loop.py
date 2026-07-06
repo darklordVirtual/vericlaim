@@ -62,8 +62,9 @@ def run_round(n: int, prev: Snapshot | None) -> tuple[Snapshot | None, bool, lis
     gate_strict, _ = _cli(["--profile", "strict", "--quiet"])
     repro_ok, _ = _cli(["reproduce", "--quiet"])
     tests_ok, test_count = _pytest()
-    with contextlib.redirect_stdout(io.StringIO()):
-        cycle = run_demo(Path(tempfile.mkdtemp(prefix="vericlaim-loop-")))
+    with tempfile.TemporaryDirectory(prefix="vericlaim-loop-") as tmp:
+        with contextlib.redirect_stdout(io.StringIO()):
+            cycle = run_demo(Path(tmp))
     cycle_ok = bool(cycle.get("ALL_SAFE"))
 
     print(f"  gate(adopt)={_m(gate_adopt)}  gate(strict)={_m(gate_strict)}  "
