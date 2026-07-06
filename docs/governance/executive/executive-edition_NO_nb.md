@@ -61,8 +61,8 @@ setning og en claim du kan forsvare.
 Ikke all evidens er lik, og å late som den er det er hvordan programmer
 overclaimer. Grader hver claim på en enkel stige, svakest til sterkest:
 
-> en teori · en engangs-måling · et benchmark · et reprodusert benchmark ·
-> et maskinsjekket bevis · et eksternt validert resultat
+> *en teori* · *en engangs-måling* · *et benchmark* · *et reprodusert benchmark* ·
+> *et maskinsjekket bevis* · *et eksternt validert resultat*
 
 En claim beskrives kun på nivået den har fortjent. Du kan ta i bruk denne stigen
 i morgen, på papir, uten noe verktøy — og den vil umiddelbart endre hvordan

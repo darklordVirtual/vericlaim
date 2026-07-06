@@ -58,8 +58,8 @@ reassuring sentence and a claim you can defend.
 Not all evidence is equal, and pretending it is is how programs overclaim. Grade
 every claim on a simple ladder, weakest to strongest:
 
-> a theory · a one-off measurement · a benchmark · a reproduced benchmark ·
-> a machine-checked proof · an externally-validated result
+> *a theory* · *a one-off measurement* · *a benchmark* · *a reproduced benchmark* ·
+> *a machine-checked proof* · *an externally-validated result*
 
 A claim is described only at the level it has earned. You can adopt this ladder
 tomorrow, on paper, without any tooling — and it will immediately change how your
