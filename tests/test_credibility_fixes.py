@@ -66,6 +66,27 @@ def test_in_repo_artifact_ok(tmp_path):
     assert check_artifacts([{"id": "C-1", "artifact": ["r.json"]}], cfg) == []
 
 
+def test_symlink_escaping_root_is_flagged(tmp_path):
+    """A symlink inside the repo pointing OUTSIDE it must not launder an
+    external file into a 'committed artifact' — this is the reason
+    _resolve_within_root calls .resolve() (it was previously untested)."""
+    import os
+
+    secret = tmp_path.parent / "outside_secret.json"
+    secret.write_text('{"leaked": true}')
+    proj = tmp_path / "proj"
+    proj.mkdir()
+    link = proj / "artifact.json"
+    try:
+        os.symlink(secret, link)
+    except (OSError, NotImplementedError):
+        import pytest
+        pytest.skip("symlinks not supported on this platform")
+    cfg = Config(root=proj)
+    ids = [e for e, _ in check_artifacts([{"id": "C-1", "artifact": ["artifact.json"]}], cfg)]
+    assert ids == ["artifact-escapes-root:C-1:artifact.json"]
+
+
 def test_untracked_artifact_flagged_when_required(tmp_path):
     (tmp_path / "r.json").write_text("{}")  # not a git repo -> not tracked
     cfg = Config(root=tmp_path, require_git_tracked=True)

@@ -48,3 +48,26 @@ highest levels — reproduced, externally-validated — are the ones a reviewer
 trusts, and they are exactly the ones a project cannot grant itself. Keeping the
 distinction in the register makes the strength of each claim legible at a
 glance.
+
+## Which levels vericlaim's own register uses (and which it does not)
+
+The full six-level ladder is the taxonomy the tool *offers*; vericlaim's own
+[`claims/register.yaml`](../claims/register.yaml) deliberately uses only the
+levels it has honestly earned — `measured`, `benchmarked`, and one
+`machine_checked` (the theorem). The other three are defined but unused **by
+this repo's own claims**, on purpose:
+
+- **`theoretical`** — unused because every self-claim here is backed by a
+  committed artifact, not just an argument.
+- **`reproduced`** — means *independent* reproduction (another machine, person,
+  or configuration). `vericlaim reproduce` re-runs each evidence script and
+  confirms the artifact is byte-identical *here*, which is continuous
+  self-verification — it is **not** the independent reproduction this rung
+  requires, so no self-claim claims it.
+- **`externally_validated`** — a project cannot grant itself an external party's
+  confirmation. It appears in the governance reference only when citing an
+  *external* result (e.g. `[REMORA CLAIM-002]`), never for a vericlaim self-claim.
+
+This is the discipline working as intended: the top rungs stay empty until real
+independent or external evidence exists. Adopting projects use whichever rungs
+their evidence earns.

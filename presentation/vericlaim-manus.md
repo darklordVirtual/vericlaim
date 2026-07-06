@@ -152,4 +152,4 @@ Alt dere har sett er offentlig: tre repoer på GitHub, truth-layeret live, ledge
 - **«Hva koster dette i utviklerfart?»** — Evidensskriptet er ofte testen du burde skrevet uansett; baseline-mekanismen gjør adopsjon inkrementell.
 - **«Kan ikke eieren jukse?»** — Innenfor repoet: gaten fanger det. Historieomskriving: vitnene i offentlig git-historikk fanger det, klient-side. Det som gjenstår er evidens manipulert *før* første commit — det står ærlig i begrensningene.
 - **«Fungerer det med LLM-utvikling?»** — Det er bygget for det: en Claude-skill håndhever disiplinen, og hele teorembiblioteket er modell-seedet og maskinverifisert — inkludert avvisningene.
-- **«EverClaim eller VeriClaim?»** — Produktnavnet i repoene og releasen er VeriClaim; hold presentasjonen konsistent på det.
+- **«EverClaim eller VeriClaim?»** — «VeriClaim» er merke-/metodikknavnet i denne presentasjonen; selve repoet, pakken og CLI-en heter `vericlaim` (små bokstaver). Hold presentasjonen konsistent, men ikke påstå at repoene bruker stor V.

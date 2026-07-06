@@ -160,3 +160,9 @@ two new tests. Result: **1000 claims now verify in 0.33 s instead of 102 s
 (~300×)**, and the gate scales linearly through 2000+ claims. The lesson, again
 the method applied to itself: an anti-drift tool must not itself fall over at
 scale — and only a test at scale finds it.
+
+> These timings are from a one-off local stress run (machine-dependent) and are
+> **not** gate-bound claims like the numbers in the register — `docs/design-notes/`
+> sits outside `doc_globs` by design (it is narrative, not a result surface).
+> Treat them as illustrative of the fix's order of magnitude, not a benchmarked
+> claim.
