@@ -37,9 +37,9 @@ that the book applies its own discipline to itself: every strong statement here
 is a registered claim at a stated evidence level, not a slogan.
 
 **How to read it.** The next two pages are a one-page primer and a terminology
-note, read them first. After that, Parts I to III build the method and its
-knowledge base; Parts IV and V put it into enterprise architecture and practice;
-Part VI states the limits; Parts VII and VIII cover identity/policy across clouds and
+note. Read them first. After that, Parts I to III build the method and its
+knowledge base; Parts IV to V put it into enterprise architecture and practice;
+Part VI states the limits; Parts VII to VIII cover identity/policy across clouds and
 security operations. The appendices are reference material. Five worked case
 studies at the back show the method end to end; a hurried reader can start
 there.
@@ -56,17 +56,17 @@ cosmetic one, because both read the same. Confidence is not evidence.
 **claim** (a contract between what is said and evidence on disk), and refuse to
 write a claim you cannot back. Five words carry the method:
 
-- **Claim**: a one-line statement with a stated evidence level and a caveat
+- **Claim.** A one-line statement with a stated evidence level and a caveat
   (its scope and limitation). *"The gate blocked all 208 adversarial scenarios,
   externally validated, but only on that benchmark."*
-- **Artifact**: the committed file that establishes the claim: a benchmark
+- **Artifact.** The committed file that establishes the claim, such as a benchmark
   result, a proof object, a checker's output. No number without an artifact.
-- **Register**: the list of all claims. The single source of truth; when a
+- **Register.** The list of all claims. The single source of truth; when a
   document and the register disagree, the register wins.
-- **Gate**: an automated check, run on every change, that fails the build if a
+- **Gate.** An automated check, run on every change, that fails the build if a
   claim drifts from its artifact, a document states a number the register does
   not back, or a claim is described above the evidence it has earned.
-- **Fail-closed**: when in doubt, the gate refuses. A malformed register does
+- **Fail-closed.** When in doubt, the gate refuses. A malformed register does
   not silently pass as "zero claims"; it stops the build. Safety is the default.
 
 **What it buys, precisely.** Internal consistency and reproducibility: the
@@ -91,22 +91,22 @@ can adopt it without adopting anything else.
 This book grew from a working system, and it names its parts. To keep the main
 text readable, here is the vocabulary once, plainly:
 
-- **VeriClaim**: the tool that implements the method: the register format, the
+- **VeriClaim.** The tool that implements the method: the register format, the
   gate, and the reproduce step.
-- **Claim-Oriented Programming (COP)**: the practice of designing by claims,
+- **Claim-Oriented Programming (COP).** The practice of designing by claims,
   the way Design by Contract designs by pre/post-conditions, lifted from single
   functions to a whole project.
-- **Gate / reproduce**: the side-effect-free check (gate) and the step that
+- **Gate / reproduce.** The side-effect-free check (gate) and the step that
   re-runs each evidence script to confirm a number still holds (reproduce).
-- **Ledger / witness**: an append-only, hash-chained history of claims (the
+- **Ledger / witness.** An append-only, hash-chained history of claims (the
   ledger) and the act of recording a tamper-evident checkpoint of it (a witness).
-- **Claims library**: a shared catalogue of reusable, evidence-bound building
+- **Claims library.** A shared catalogue of reusable, evidence-bound building
   blocks that projects can search and vendor.
-- **REMORA / AROMER**: a research programme on *runtime enforcement*: a
+- **REMORA / AROMER.** A research programme on *runtime enforcement*: a
   fail-closed policy layer that blocks unsafe agent actions (REMORA) and an
   honest negative result about its limits under neutral metadata (AROMER). When
   the book cites their findings, it cites them as evidence with stated scope.
-- **Cloudflare truth layer / RAG / MCP**: an optional hosted service that
+- **Cloudflare truth layer / RAG / MCP.** An optional hosted service that
   mirrors the register into a searchable, tamper-evident form; retrieval-
   augmented generation (RAG) over that corpus; and the tool protocol (MCP) an
   assistant uses to query it. Everything in the book works without it.
@@ -267,7 +267,7 @@ general sense).
 
 ▷ **In depth.** When you combine everything in this library (the regulatory
 frameworks, the uncertainty theory, the verification mathematics, the runtime
-enforcement experiments, and the honest negative results) one thesis emerges:
+enforcement experiments, and the honest negative results), one thesis emerges:
 **governance can be made falsifiable**, and a falsifiable governance program
 beats a persuasive one because a hostile reviewer can attack it and *fail to
 break it*. Four verified findings compose that thesis:
@@ -285,7 +285,7 @@ break it*. Four verified findings compose that thesis:
   calibration and you *mechanically* reward honesty.
 - **Capability comes from verification, not only from scale.** A verifier-gated
   cascade lets a cheap generator plus a selective check dominate a monolith on
-  cost/accuracy (over 87 380 exhaustive routing tables [THM-ROUTE-001]) with
+  cost/accuracy (over 87 380 exhaustive routing tables [THM-ROUTE-001]), with
   the majority-vote amplification proven *and* its honest converse (voting
   *degrades* a worse-than-chance voter) proven too [THM-VOTE-002].
 - **A fail-closed policy floor delivers a hard, benchmark-scoped safety floor,
@@ -377,10 +377,10 @@ not write the number. There is no fourth move.
     Commit the artifact it writes + provenance stamp → Register the claim level + metrics + caveat
     Register the claim level + metrics + caveat → Bind the doc number with an anchor
     Bind the doc number with an anchor → S5
-    S5 -[FAIL: names the drift]→ Fix the DRIFT, never the gate
+    S5 → Fix the DRIFT, never the gate (FAIL: names the drift)
     Fix the DRIFT, never the gate → S5
-    S5 -[OK]→ vericlaim reproduce byte-identical?
-    vericlaim reproduce byte-identical? -[still true today]→ Refresh mirror · witness · push
+    S5 → vericlaim reproduce byte-identical? (OK)
+    vericlaim reproduce byte-identical? → Refresh mirror · witness · push (still true today)
 
 **Worked example (the shape of every claim):**
 
@@ -390,7 +390,7 @@ not write the number. There is no fourth move.
   evidence_level: benchmarked   # see the ladder, §4
   artifact: [results/example.json]
   metrics: { value: 42 }        # the numbers the docs may quote
-  caveat: "Scope and limitation, part of the claim, not a footnote."
+  caveat: "Scope and limitation: part of the claim, not a footnote."
   reproduce: "python3 bench/example.py"
 ```
 
@@ -487,7 +487,7 @@ register + gate remain the source of truth; the edge can be stale and never
 blocks.
 
 [Figure 7]
-    Register authoritative -[export/push]→ D1 metadata
+    Register authoritative → D1 metadata (export/push)
     Register authoritative → Ledger hash-chained + witness
     D1 metadata → Vectorize embeddings
     R2 vault content-addressed → Research oracle rerank + REFUSE
@@ -596,8 +596,8 @@ producer. This is *why* "route hard cases to stronger review" works.
 [Figure 9]
     Input → Cheap model answers
     Cheap model answers → V
-    V -[yes]→ Accept cheap answer
-    V -[no]→ Escalate to strong model / human
+    V → Accept cheap answer (yes)
+    V → Escalate to strong model / human (no)
     Escalate to strong model / human → Accept escalated answer
 
 **Why governance needs this.** It is the formal licence for the human-oversight
@@ -639,7 +639,7 @@ optimal strategy*.
 ## 11. Building block family 4: runtime enforcement (REMORA/AROMER)
 
 ▶ **In plain terms:** a policy-as-code gate that blocks unsafe agent actions
-*before* they run: proven to work, and honest about exactly where it stops
+*before* they run, proven to work, and honest about exactly where it stops
 working.
 
 ▷ **In depth.** The REMORA-research project supplies the runtime-governance
@@ -664,9 +664,9 @@ RESULT that "must NOT be removed or suppressed".
 
 [Figure 10]
     Agent proposes a tool call → P
-    P -[violates invariant]→ DENY: fail-closed 0.0% unsafe on benchmark
-    M -[neutral / adversarial]→ Residual 30.7% FA needs runtime monitoring
-    M -[accurate high-risk]→ VERIFY / ABSTAIN routing
+    P → DENY, fail-closed 0.0% unsafe on benchmark (violates invariant)
+    M → Residual 30.7% FA needs runtime monitoring (neutral / adversarial)
+    M → VERIFY / ABSTAIN routing (accurate high-risk)
     Residual 30.7% FA needs runtime monitoring → Runtime execution monitoring + anytime-valid drift
     VERIFY / ABSTAIN routing → Allow / escalate
     Runtime execution monitoring + anytime-valid drift → Allow / escalate
@@ -694,7 +694,7 @@ interpretability) and deliberately includes the *skeptical* papers too.
 | World models | MuZero; DreamerV3; decision transformer | planning agents internalize objectives; oversight must reach inside the loop |
 | Architectures | Mamba/S4; RWKV; ViT; CLIP; Flamingo | long-context + multimodal expand capability *and* attack surface |
 | Interpretability | induction heads; representation engineering; influence functions; Platonic hypothesis | make transparency (Art. 13) + oversight (Art. 14) tractable |
-| AGI framing + limits | Sparks (arxiv:2303.12712); Levels (arxiv:2311.02462); scalable oversight (arxiv:2211.03540); *"Emergent Abilities a Mirage?"* | the skeptical paper sits next to the AGI-claims paper: same discipline as publishing the AROMER negative result |
+| AGI framing + limits | Sparks (arxiv:2303.12712); Levels (arxiv:2311.02462); scalable oversight (arxiv:2211.03540); *"Emergent Abilities a Mirage?"* | the skeptical paper sits next to the AGI-claims paper, same discipline as publishing the AROMER negative result |
 
 The verifiable-claims agenda this whole system operationalizes is itself in the
 canon: "Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable
@@ -714,24 +714,24 @@ underlying control objectives.
 
 ▷ **In depth.** The regimes this handbook maps (canon collections 05 and 06):
 
-- **NIST AI RMF 1.0**: a *voluntary, risk-based* US framework. Four functions:
+- **NIST AI RMF 1.0**, a *voluntary, risk-based* US framework. Four functions:
   **GOVERN** (culture/accountability), **MAP** (context/risk framing),
   **MEASURE** (analyze/track), **MANAGE** (prioritize/respond). Not a
-  checklist: a lifecycle.
-- **EU AI Act**: *binding EU law*, risk-tiered. For **high-risk** systems,
-  Articles 9 to 15 require a risk-management system, data governance, technical
+  checklist, but a lifecycle.
+- **EU AI Act**, *binding EU law*, risk-tiered. For **high-risk** systems,
+  Articles 9-15 require a risk-management system, data governance, technical
   documentation, record-keeping, transparency, human oversight, and
   accuracy/robustness/cybersecurity. This is the most prescriptive regime here.
-- **ISO/IEC 42001**: a *certifiable AI management system standard* (like ISO
-  27001 for infosec). Plan-Do-Check-Act across clauses 4 to 10 (context,
+- **ISO/IEC 42001**, a *certifiable AI management system standard* (like ISO
+  27001 for infosec). Plan-Do-Check-Act across clauses 4-10 (context,
   leadership, planning, support, operation, performance evaluation,
   improvement).
-- **NIST CSF 2.0**: the *cybersecurity* framework, now with a GOVERN function:
+- **NIST CSF 2.0**, the *cybersecurity* framework, now with a GOVERN function:
   GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER. AI systems are software
   systems; CSF still applies.
-- **NIST Privacy Framework**: privacy-risk companion to CSF: IDENTIFY-P,
+- **NIST Privacy Framework**, privacy-risk companion to CSF: IDENTIFY-P,
   GOVERN-P, CONTROL-P, COMMUNICATE-P, PROTECT-P.
-- **GDPR / NIS2** (canon collection 05): EU data-protection and network/
+- **GDPR / NIS2** (canon collection 05), EU data-protection and network/
   information-security law; the legal floor under data governance and
   security.
 
@@ -769,7 +769,7 @@ Appendix C.)*
 
 **What it is / is not.** A reusable traceability building block a project
 vendors to see which objectives each regime demands and check its own control
-set: **not** legal advice, **not** certification, **not** proof any control is
+set, **not** legal advice, **not** certification, **not** proof any control is
 correctly implemented. Article/clause specifics below the top level are out of
 scope. That boundary is part of the claim.
 
@@ -849,13 +849,13 @@ language*. Governance succeeds when it plugs into whichever the enterprise
 already uses.
 
 ▷ **In depth.**
-- **TOGAF ADM**: the Architecture Development Method, a cycle of phases
-  (Preliminary, A to H) with Requirements Management at the centre. It answers
+- **TOGAF ADM**, the Architecture Development Method, a cycle of phases
+  (Preliminary, A-H) with Requirements Management at the centre. It answers
   *how* to develop and govern architecture over time.
-- **Zachman Framework**: a 6×6 grid (What/How/Where/Who/When/Why ×
+- **Zachman Framework**, a 6×6 grid (What/How/Where/Who/When/Why ×
   perspectives). It answers *what artifacts* a complete architecture description
   contains, useful as a completeness checklist.
-- **ArchiMate**: a notation with business/application/technology layers. It
+- **ArchiMate**, a notation with business/application/technology layers. It
   answers *how to draw* the architecture unambiguously.
 
 This handbook maps the VeriClaim building blocks onto **TOGAF ADM** (§17)
@@ -899,7 +899,7 @@ its Requirements Management spine maps onto the register.
 
 ## 18. A reference architecture for a governed AI system
 
-▶ **In plain terms:** the blueprint: data comes in, a model acts, a fail-closed
+▶ **In plain terms:** the blueprint. Data comes in, a model acts, a fail-closed
 gate stands between the model and the world, and everything is logged to a
 tamper-evident ledger and continuously re-verified.
 
@@ -908,9 +908,9 @@ tamper-evident ledger and continuously re-verified.
 [Figure 13]
     Governed data provenance · quality → Model / agent
     Model / agent → CONF
-    CONF -[no]→ Abstain / escalate human oversight
-    PEP -[deny]→ Blocked + logged
-    PEP -[allow]→ Action in the world
+    CONF → Abstain / escalate human oversight (no)
+    PEP → Blocked + logged (deny)
+    PEP → Action in the world (allow)
     Action in the world → Runtime monitoring + drift detection
     Blocked + logged → Hash-chained ledger audit trail
     Action in the world → Hash-chained ledger audit trail
@@ -1010,11 +1010,11 @@ can attack.
 ▷ **In depth.**
 
 [Figure 15]
-    Regulatory obligations traced to controls CLAIM-GOV-001 → A frontier-AI system governed to an evidence-backed reference standard, and every clause is falsifiable
-    Each control verified at a stated level §§8-11 → A frontier-AI system governed to an evidence-backed reference standard, and every clause is falsifiable
-    Runtime fail-closed + externally validated REMORA CLAIM-002 → A frontier-AI system governed to an evidence-backed reference standard, and every clause is falsifiable
-    Limits disclosed REMORA CLAIM-009 · §24 → A frontier-AI system governed to an evidence-backed reference standard, and every clause is falsifiable
-    Whole chain reproduce-checked + hash-chained §5-6 → A frontier-AI system governed to an evidence-backed reference standard, and every clause is falsifiable
+    Regulatory obligations traced to controls CLAIM-GOV-001 → A frontier-AI system governed to an evidence-backed reference standard , and every clause is falsifiable
+    Each control verified at a stated level §§8-11 → A frontier-AI system governed to an evidence-backed reference standard , and every clause is falsifiable
+    Runtime fail-closed + externally validated REMORA CLAIM-002 → A frontier-AI system governed to an evidence-backed reference standard , and every clause is falsifiable
+    Limits disclosed REMORA CLAIM-009 · §24 → A frontier-AI system governed to an evidence-backed reference standard , and every clause is falsifiable
+    Whole chain reproduce-checked + hash-chained §5-6 → A frontier-AI system governed to an evidence-backed reference standard , and every clause is falsifiable
 
 > *A frontier-AI system reaches this evidence-backed reference standard when every
 > regulatory obligation is traced to a control [CLAIM-GOV-001], each control is
@@ -1110,9 +1110,9 @@ identity, **mTLS with X.509** (RFC 8705, certificate-bound tokens) and
 service-to-service calls.
 
 [Figure 16]
-    Workload -[1 · OIDC ID token (JWT)]→ OIDC issuer + JWKS
-    OIDC issuer + JWKS -[2 · token exchange · RFC 8693]→ Cloud STS AWS · Azure · GCP
-    Cloud STS AWS · Azure · GCP -[3 · short-lived, scoped credential]→ Cloud resource
+    Workload → OIDC issuer + JWKS (1 · OIDC ID token (JWT))
+    OIDC issuer + JWKS → Cloud STS AWS · Azure · GCP (2 · token exchange · RFC 8693)
+    Cloud STS AWS · Azure · GCP → Cloud resource (3 · short-lived, scoped credential)
 
 *One issuer, three clouds, the same standard, no distributed static keys. The
 security rests on audience restriction, claim conditions and short TTLs; a
@@ -1144,19 +1144,19 @@ evaluate.
 
 [Figure 17]
     Request + identity claims / SPIFFE ID → PEP mesh · gateway · admission
-    PEP mesh · gateway · admission -[query]→ PDP · policy-as-code OPA/Rego · Cedar · CEL
-    PDP · policy-as-code OPA/Rego · Cedar · CEL -[allow / deny + obligations]→ PEP mesh · gateway · admission
-    PEP mesh · gateway · admission -[decision log]→ Audit · OpenTelemetry
+    PEP mesh · gateway · admission → PDP · policy-as-code OPA/Rego · Cedar · CEL (query)
+    PDP · policy-as-code OPA/Rego · Cedar · CEL → PEP mesh · gateway · admission (allow / deny + obligations)
+    PEP mesh · gateway · admission → Audit · OpenTelemetry (decision log)
 
-*The PDP identifies nothing and the PEP decides nothing. That separation is
+*The PDP identifies nothing and the PEP decides nothing; that separation is
 what lets one Rego policy be the governance rule on every platform. A policy is
 only as good as its tests and its input; decision logging makes it auditable.*
 
 ## 28. Cross-cloud coupling points: the vendor-neutral seams
 
 ▶ **In plain terms:** an enterprise rarely lives on one cloud. If governance is
-wired with each cloud's proprietary buttons, it has to be rebuilt, and will
-drift, on the next cloud. The escape is to couple on the open standards every
+wired with each cloud's proprietary buttons, it has to be rebuilt (and will
+drift) on the next cloud. The escape is to couple on the open standards every
 cloud already speaks, and treat each cloud's native service as an *adapter*.
 
 ▷ **In depth.** CLAIM-COUPLE-001 encodes this as a fail-closed crosswalk: across
@@ -1202,7 +1202,7 @@ CLAIM-COUPLE-001:
     Open-standard coupling layer (portable → One governed control plane write once · enforce everywhere
 
 **What this is and is not.** It is an architecture-traceability aid over
-publicly documented mechanisms: not a security design review, not a
+publicly documented mechanisms, not a security design review, not a
 certification, and not evidence that any deployment is correctly configured.
 Native service names are current at authoring time; clouds rename and add
 services. The checkable property is internal completeness and cross-cloud
@@ -1358,20 +1358,20 @@ every objective covered by ≥2 frameworks, checked fail-closed [CLAIM-GOV-001].
 
 ## Appendix D: glossary
 
-- **Claim**: a contract between a stated fact and a committed artifact, checked
+- **Claim**, a contract between a stated fact and a committed artifact, checked
   by the gate.
-- **Evidence level**: the honesty rung a claim earned: theoretical < measured
+- **Evidence level**, the honesty rung a claim earned: theoretical < measured
   < benchmarked < reproduced < machine_checked < externally_validated.
-- **Fail-closed**: the default on any unrecognized input is deny/refuse.
-- **Control objective**: one of the 10 shared themes [CLAIM-GOV-001].
-- **Canon**: the hash-locked literature catalog (180 works) served as the RAG.
-- **Ledger / witness**: the append-only, hash-chained public record of every
+- **Fail-closed**, the default on any unrecognized input is deny/refuse.
+- **Control objective**, one of the 10 shared themes [CLAIM-GOV-001].
+- **Canon**, the hash-locked literature catalog (180 works) served as the RAG.
+- **Ledger / witness**, the append-only, hash-chained public record of every
   library claim; independently verifiable.
-- **Building block**: a reusable, pre-verified claim + code, consumed via
+- **Building block**, a reusable, pre-verified claim + code, consumed via
   `import_bundle` / `use_code` with its level and caveat intact.
-- **PDP / PEP**: Policy Decision Point / Policy Enforcement Point; the
+- **PDP / PEP**, Policy Decision Point / Policy Enforcement Point; the
   fail-closed gate in the action path.
-- **TOGAF ADM**: the Architecture Development Method; the phase cycle this
+- **TOGAF ADM**, the Architecture Development Method; the phase cycle this
   handbook maps building blocks onto (§17).
 
 ## Appendix E: claim-ID quick reference
@@ -1419,7 +1419,7 @@ authoritative. Claim-Oriented Programming and VeriClaim by Stian Skogbrott.*
 Each case follows the same arc: what is *claimed*, what *evidence* the claim
 needs, how the claim is *registered*, how the *gate* would fail on drift, how it
 is *fixed*, and what remains *unproven*. They are illustrative composites, not
-reports on named deployments: the discipline is the point, not the numbers.
+reports on named deployments. The discipline is the point, not the numbers.
 
 ## Case 1: A bank's AI customer-service agent
 
@@ -1464,7 +1464,7 @@ reports on named deployments: the discipline is the point, not the numbers.
   fail-closed; caveat that the crosswalk maps *public structure*, not clause
   specifics, and is not certification.
 - **Gate fails when.** A control is removed but the coverage claim is not
-  updated: the coverage checker reports an uncovered objective and the build
+  updated, and the coverage checker reports an uncovered objective and the build
   stops.
 - **Fixed by.** Restoring the control or honestly narrowing the claim.
 - **Still unproven.** That each control is correctly *implemented* in the

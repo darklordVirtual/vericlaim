@@ -71,8 +71,10 @@ def _mermaid_to_text(block: str) -> str:
         a, mid, b = m.group(1), m.group(2), m.group(3)
         if a not in labels and b not in labels:
             continue  # skip style/class lines that look edge-ish
-        arrow = f" —[{mid.strip()}]→" if mid else " →"
-        out.append(f"    {labels.get(a, a)}{arrow} {labels.get(b, b)}")
+        if mid:
+            out.append(f"    {labels.get(a, a)} → {labels.get(b, b)} ({mid.strip()})")
+        else:
+            out.append(f"    {labels.get(a, a)} → {labels.get(b, b)}")
         seen = True
     if not seen:
         for lbl in labels.values():

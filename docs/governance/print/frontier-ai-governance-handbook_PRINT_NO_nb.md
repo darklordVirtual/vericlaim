@@ -38,8 +38,8 @@ oppgitt evidensnivå, ikke et slagord.
 
 **Hvordan lese den.** De neste sidene er et forord på én side og en
 begrepsnote. Les dem først. Deretter bygger Del I til III metoden og
-kunnskapsbasen; Del IV og V setter den inn i enterprise-arkitektur og praksis; Del
-VI oppgir grensene; Del VII og VIII dekker identitet/policy på tvers av skyer og
+kunnskapsbasen; Del IV til V setter den inn i enterprise-arkitektur og praksis; Del
+VI oppgir grensene; Del VII til VIII dekker identitet/policy på tvers av skyer og
 sikkerhetsdrift. Appendiksene er oppslagsstoff. Fem gjennomgående case-studier
 bakerst viser metoden fra ende til ende; en travel leser kan begynne der.
 
@@ -55,17 +55,17 @@ fra et kosmetisk, fordi begge leses likt. Selvtillit er ikke evidens.
 **claim** (en kontrakt mellom det som sies og evidens på disk), og nekt å
 skrive en claim du ikke kan stå inne for. Fem ord bærer metoden:
 
-- **Claim**: en énlinjes påstand med et oppgitt evidensnivå og et forbehold
+- **Claim.** En énlinjes påstand med et oppgitt evidensnivå og et forbehold
   (dens omfang og begrensning).
-- **Artefakt**: den committede filen som etablerer claimen: et
+- **Artefakt.** Den committede filen som etablerer claimen: et
   benchmark-resultat, et bevisobjekt, en sjekkers utdata. Ingen tall uten en
   artefakt.
-- **Register**: listen over alle claims. Den eneste sannhetskilden; når et
+- **Register.** Listen over alle claims. Den eneste sannhetskilden; når et
   dokument og registeret er uenige, vinner registeret.
-- **Gate**: en automatisk sjekk, kjørt ved hver endring, som feiler bygget hvis
+- **Gate.** En automatisk sjekk, kjørt ved hver endring, som feiler bygget hvis
   en claim drifter fra artefakten sin, et dokument oppgir et tall registeret
   ikke støtter, eller en claim beskrives over evidensnivået den har fortjent.
-- **Fail-closed**: i tvil nekter gaten. Et malformet register passerer ikke
+- **Fail-closed.** I tvil nekter gaten. Et malformet register passerer ikke
   stille som «null claims»; det stopper bygget. Sikkerhet er standarden.
 
 **Hva den kjøper, presist.** Intern konsistens og reproduserbarhet: tallene er
@@ -90,24 +90,24 @@ idé: du kan ta den i bruk uten å ta i bruk noe annet.
 Denne boken vokste ut av et fungerende system, og den navngir delene sine. For å
 holde hovedteksten lesbar, her er vokabularet én gang, enkelt:
 
-- **VeriClaim**: verktøyet som implementerer metoden: registerformatet, gaten
+- **VeriClaim.** Verktøyet som implementerer metoden: registerformatet, gaten
   og reproduce-steget.
-- **Claim-Oriented Programming (COP)**: praksisen med å designe etter claims,
+- **Claim-Oriented Programming (COP).** Praksisen med å designe etter claims,
   slik Design by Contract designer etter pre-/post-betingelser, løftet fra
   enkeltfunksjoner til et helt prosjekt.
-- **Gate / reproduce**: den bivirkningsfrie sjekken (gate) og steget som
+- **Gate / reproduce.** Den bivirkningsfrie sjekken (gate) og steget som
   re-kjører hver evidens-script for å bekrefte at et tall fortsatt holder
   (reproduce).
-- **Ledger / witness**: en append-only, hash-kjedet historikk over claims
+- **Ledger / witness.** En append-only, hash-kjedet historikk over claims
   (ledger) og handlingen med å registrere et tamper-evident kontrollpunkt av den
   (et witness).
-- **Claims-bibliotek**: en delt katalog av gjenbrukbare, evidensbundne
+- **Claims-bibliotek.** En delt katalog av gjenbrukbare, evidensbundne
   byggesteiner som prosjekter kan søke i og vendore.
-- **REMORA / AROMER**: et forskningsprogram om *runtime-håndheving*: et
+- **REMORA / AROMER.** Et forskningsprogram om *runtime-håndheving*: et
   fail-closed policy-lag som blokkerer utrygge agent-handlinger (REMORA) og et
   ærlig negativresultat om grensene under nøytral metadata (AROMER). Når boken
   siterer funnene, siteres de som evidens med oppgitt omfang.
-- **Cloudflare-sannhetslag / RAG / MCP**: en valgfri hostet tjeneste som
+- **Cloudflare-sannhetslag / RAG / MCP.** En valgfri hostet tjeneste som
   speiler registeret til en søkbar, tamper-evident form; retrieval-augmentert
   generering (RAG) over den korpusen; og verktøyprotokollen (MCP) en assistent
   bruker for å spørre den. Alt i boken virker uten den.
@@ -213,7 +213,7 @@ enterprise) og *praksisen* (hvordan du faktisk gjør det daglig).
 11. Byggestein-familie 4: runtime-håndhevelse (REMORA/AROMER) (see section 11)
 12. Frontier- og AGI-litteratur som governance-input (see section 12)
 
-**Del III: Regler: regulering og standarder**
+**Del III. Regler: regulering og standarder**
 13. Det regulatoriske landskapet forklart (see section 13)
 14. Governance-kryssreferansen (CLAIM-GOV-001) (see section 14)
 15. De ti kontrollmålene: oppslag (see section 15)
@@ -286,7 +286,7 @@ slår et overbevisende ett fordi en fiendtlig anmelder kan angripe det og
 - **Kapabilitet kommer fra verifisering, ikke bare fra skala.** En
   verifiser-gated kaskade lar en billig generator pluss en selektiv sjekk
   dominere en monolitt på kost/nøyaktighet (over 87 380 uttømmende
-  rutetabeller [THM-ROUTE-001]), med flertallsstemme-amplifikasjonen bevist *og*
+  rutetabeller [THM-ROUTE-001]) med flertallsstemme-amplifikasjonen bevist *og*
   dens ærlige konvers (stemmegivning *degraderer* en dårligere-enn-tilfeldig
   velger) bevist også [THM-VOTE-002].
 - **En fail-closed policy-floor gir et hardt, benchmark-avgrenset sikkerhetsgulv,
@@ -321,7 +321,7 @@ Tradisjonell governance svarer i prosa: en policy-perm, et modellkort, en
 etikk-erklæring. Feilmodusen er strukturell: prosa akkumulerer *beroligelse*
 uten *evidens*. Et modellkort kan si «overvåket for drift» enten noe overvåker
 noe eller ikke. En revisor kan ikke skille et samvittighetsfullt program fra et
-kosmetisk ved å lese dokumentet: begge leser likt.
+kosmetisk ved å lese dokumentet. Begge leser likt.
 
 Innsikten denne håndboken operasjonaliserer er å gjøre hver
 governance-påstand til en **claim** med en committed artefakt, et evidensnivå og
@@ -343,7 +343,7 @@ egenskap slår ut en klassisk kontroll: agens slår ut «gjennomgå outputen»
 (handlingen har alt skjedd), ugjennomsiktighet slår ut «forklar beslutningen»
 (det finnes ingen lesbar regel), fart slår ut «sertifiser én gang» (det
 sertifiserte systemet er alt utdatert). Svaret er ikke mer prosa: det er
-*runtime*-håndhevelse (del II, familie 4), *selektiv* autonomi (familie 1-3) og
+*runtime*-håndhevelse (del II, familie 4), *selektiv* autonomi (familie 1 til 3) og
 *kontinuerlig* verifisering (gaten, §5).
 
 ---
@@ -378,10 +378,10 @@ ikke skriv tallet. Det finnes ikke et fjerde trekk.
     Commit artefakten det skriver + provenance-stempel → Registrer claimen nivå + metrikker + forbehold
     Registrer claimen nivå + metrikker + forbehold → Bind dok-tallet med et anker
     Bind dok-tallet med et anker → S5
-    S5 -[FEIL: navngir driften]→ Fiks DRIFTEN, aldri gaten
+    S5 → Fiks DRIFTEN, aldri gaten (FEIL: navngir driften)
     Fiks DRIFTEN, aldri gaten → S5
-    S5 -[OK]→ vericlaim reproduce byte-identisk?
-    vericlaim reproduce byte-identisk? -[fortsatt sant i dag]→ Oppdater speil · vitne · push
+    S5 → vericlaim reproduce byte-identisk? (OK)
+    vericlaim reproduce byte-identisk? → Oppdater speil · vitne · push (fortsatt sant i dag)
 
 **Formen på hver claim:**
 
@@ -463,8 +463,8 @@ feiler med mindre artefakten er byte-identisk: tallet er *fortsatt sant i dag*.
 **Hva gaten beviser, og ikke.** Den beviser *intern konsistens og
 reproduserbarhet*. Den beviser **ikke** at en benchmark er
 produksjonsrealistisk, at evidens ikke ble manipulert før commit, at
-`externally_validated` faktisk var eksternt, eller at en *setning* er korrekt.
-Dok-binding beviser at et tall er **til stede og register-matchet**, ikke at
+`externally_validated` faktisk var eksternt, eller at en *setning* er korrekt:
+dok-binding beviser at et tall er **til stede og register-matchet**, ikke at
 den omkringliggende prosaen er sann. Å holde seg innenfor den grensen er selv en
 del av disiplinen (§24).
 
@@ -473,7 +473,7 @@ del av disiplinen (§24).
 ## 6. Cloudflare-sannhetslaget: RAG, hvelv, hovedbok, orakel
 
 ▶ **Enkelt forklart:** en valgfri edge-tjeneste som gjør registeret om til en
-søkbar, tamper-evident, hash-kjedet post, pluss en litteratur-RAG som *nekter*
+søkbar, tamper-evident, hash-kjedet post: pluss en litteratur-RAG som *nekter*
 å svare når den ikke har grunnlag.
 
 ▷ **I dybden.** Sannhetslaget speiler det autoritative registeret inn i en
@@ -482,7 +482,7 @@ registeret + gaten forblir sannhetens kilde; edge kan være utdatert og blokkere
 aldri.
 
 [Figure 7]
-    Register autoritativt -[eksport/push]→ D1 metadata
+    Register autoritativt → D1 metadata (eksport/push)
     Register autoritativt → Hovedbok hash-kjedet + vitne
     D1 metadata → Vectorize embeddings
     R2-hvelv innholdsadressert → Forsknings-orakel rerank + NEKT
@@ -557,7 +557,7 @@ ikke. Det innløser EU AI Act artikkel 15-kravet til nøyaktighet/robusthet og
 NIST AI RMF MEASURE-funksjonen.
 
 > **Nykommerens intuisjon.** Tenk deg en værapp som, i stedet for alltid å si
-> «70 % regn», av og til sier «denne klarer jeg ikke å kalle, spør et
+> «70 % regn», av og til sier «denne klarer jeg ikke å kalle. Spør et
 > menneske». En konform innpakning er den prinsippfaste versjonen: den er
 > *garantert* å ha rett om hvor ofte den har rett, så avståelsene er til å stole
 > på.
@@ -593,8 +593,8 @@ gjennomgang» virker.
 [Figure 9]
     Input → Billig modell svarer
     Billig modell svarer → V
-    V -[ja]→ Aksepter billig svar
-    V -[nei]→ Eskaler til sterk modell / menneske
+    V → Aksepter billig svar (ja)
+    V → Eskaler til sterk modell / menneske (nei)
     Eskaler til sterk modell / menneske → Aksepter eskalert svar
 
 **Hvorfor governance trenger dette.** Det er den formelle lisensen for
@@ -662,14 +662,14 @@ NEGATIVT RESULTAT som «må IKKE fjernes eller undertrykkes».
 
 [Figure 10]
     Agent foreslår et verktøykall → P
-    P -[bryter invariant]→ NEKT: fail-closed 0,0% usikker på benchmark
-    M -[nøytral / adversariell]→ Residual 30,7% FA trenger runtime-overvåking
-    M -[nøyaktig høyrisiko]→ VERIFY / ABSTAIN ruting
+    P → NEKT, fail-closed 0,0% usikker på benchmark (bryter invariant)
+    M → Residual 30,7% FA trenger runtime-overvåking (nøytral / adversariell)
+    M → VERIFY / ABSTAIN ruting (nøyaktig høyrisiko)
     Residual 30,7% FA trenger runtime-overvåking → Runtime-kjøringsovervåking + anytime-valid drift
     VERIFY / ABSTAIN ruting → Tillat / eskaler
     Runtime-kjøringsovervåking + anytime-valid drift → Tillat / eskaler
 
-**Den sammensatte lærdommen, en styrt claim, ikke en mening:** forsvar i
+**Den sammensatte lærdommen (en styrt claim, ikke en mening):** forsvar i
 dybden. En fail-closed floor er *nødvendig* for en hard garanti, men
 *utilstrekkelig* mot motstandere som leverer godartet-utseende metadata, så den
 må parres med runtime-overvåking og drift-deteksjon: nøyaktig art. 15 + art. 14
@@ -689,11 +689,11 @@ inkluderer bevisst også de *skeptiske* artiklene.
 | Tema | Representative verk | Governance-relevans |
 |---|---|---|
 | Resonnering / test-time compute | zero-shot reasoning; DeepSeek-R1 (arxiv:2501.12948); RAP; graph-of-thoughts | risiko flyttes fra trening til inferens: overvåking må følge |
-| Agenter | Voyager; generative agents; SWE-agent; AutoGen | autonom verktøybruk er flaten REMORA styrer (trusselmodellen) |
+| Agenter | Voyager; generative agents; SWE-agent; AutoGen | autonom verktøybruk er flaten REMORA styrer: trusselmodellen |
 | Verdensmodeller | MuZero; DreamerV3; decision transformer | planleggende agenter internaliserer mål: tilsyn må nå inn i loopen |
 | Arkitekturer | Mamba/S4; RWKV; ViT; CLIP; Flamingo | lang kontekst + multimodal utvider kapabilitet *og* angrepsflate |
 | Tolkbarhet | induction heads; representation engineering; influence functions; Platonic-hypotesen | gjør transparens (art. 13) + tilsyn (art. 14) håndterbart |
-| AGI-framing + grenser | Sparks (arxiv:2303.12712); Levels (arxiv:2311.02462); scalable oversight (arxiv:2211.03540); *«Emergent Abilities a Mirage?»* | den skeptiske artikkelen står ved siden av AGI-påstands-artikkelen, samme disiplin som å publisere AROMER-negativresultatet |
+| AGI-framing + grenser | Sparks (arxiv:2303.12712); Levels (arxiv:2311.02462); scalable oversight (arxiv:2211.03540); *«Emergent Abilities a Mirage?»* | den skeptiske artikkelen står ved siden av AGI-påstands-artikkelen: samme disiplin som å publisere AROMER-negativresultatet |
 
 Den verifiserbare-claims-agendaen hele systemet operasjonaliserer er selv i
 kanon: «Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable
@@ -703,7 +703,7 @@ AI Governance» (arxiv:2407.14981) [REF-057].
 ---
 ---
 
-# Del III: Regler: regulering og standarder
+# Del III. Regler: regulering og standarder
 
 ## 13. Det regulatoriske landskapet forklart
 
@@ -716,13 +716,13 @@ underliggende kontrollmålene.
 - **NIST AI RMF 1.0**: et *frivillig, risikobasert* amerikansk rammeverk. Fire
   funksjoner: **GOVERN** (kultur/ansvar), **MAP** (kontekst/risikoforståelse),
   **MEASURE** (analyser/spor), **MANAGE** (prioriter/respons). Ikke en
-  sjekkliste, men en livssyklus.
+  sjekkliste, en livssyklus.
 - **EU AI Act**: *bindende EU-lov*, risiko-lagdelt. For **høyrisiko**-systemer
-  krever artikkel 9-15 et risikostyringssystem, datastyring, teknisk
+  krever artikkel 9 til 15 et risikostyringssystem, datastyring, teknisk
   dokumentasjon, journalføring, transparens, menneskelig tilsyn og
   nøyaktighet/robusthet/cybersikkerhet. Det mest preskriptive regimet her.
 - **ISO/IEC 42001**: en *sertifiserbar AI-styringssystem-standard* (som ISO
-  27001 for infosikkerhet). Plan-Do-Check-Act over klausul 4-10 (kontekst,
+  27001 for infosikkerhet). Plan-Do-Check-Act over klausul 4 til 10 (kontekst,
   ledelse, planlegging, støtte, drift, ytelsesevaluering, forbedring).
 - **NIST CSF 2.0**: *cybersikkerhets*-rammeverket, nå med en GOVERN-funksjon:
   GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER. AI-systemer er
@@ -747,8 +747,8 @@ eller noe mål udekket.
 
 ▷ **I dybden.** [CLAIM-GOV-001] koder den offentlige toppstrukturen til fem
 regimer (29 elementer) og avbilder dem til 10 delte kontrollmål via 42 kanter,
-verifisert for **full toveis-dekning**: ingen foreldreløse elementer, ingen
-udekte mål, hvert mål krevet av ≥2 rammeverk, fail-closed.
+verifisert for **full toveis-dekning** (ingen foreldreløse elementer, ingen
+udekte mål, hvert mål krevet av ≥2 rammeverk), fail-closed.
 
 [Figure 11]
     NIST AI RMF → Risikostyring
@@ -828,7 +828,7 @@ allerede bruker.
 
 ▷ **I dybden.**
 - **TOGAF ADM**: Architecture Development Method, en syklus av faser
-  (Preliminary, A til H) med Requirements Management i sentrum. Svarer på *hvordan*
+  (Preliminary, A-H) med Requirements Management i sentrum. Svarer på *hvordan*
   utvikle og styre arkitektur over tid.
 - **Zachman-rammeverket**: et 6×6-rutenett (Hva/Hvordan/Hvor/Hvem/Når/Hvorfor ×
   perspektiver). Svarer på *hvilke artefakter* en komplett arkitekturbeskrivelse
@@ -886,9 +886,9 @@ tamper-evident hovedbok og re-verifiseres kontinuerlig.
 [Figure 13]
     Styrte data provenance · kvalitet → Modell / agent
     Modell / agent → CONF
-    CONF -[nei]→ Avstå / eskaler menneskelig tilsyn
-    PEP -[nekt]→ Blokkert + logget
-    PEP -[tillat]→ Handling i verden
+    CONF → Avstå / eskaler menneskelig tilsyn (nei)
+    PEP → Blokkert + logget (nekt)
+    PEP → Handling i verden (tillat)
     Handling i verden → Runtime-overvåking + drift-deteksjon
     Blokkert + logget → Hash-kjedet hovedbok revisjonsspor
     Handling i verden → Hash-kjedet hovedbok revisjonsspor
@@ -943,7 +943,7 @@ ta deg hvis du drifter.
    `claims/witness.jsonl`.
 
 > **Refleksen som betyr mest:** når du er i ferd med å skrive et tall og ingen
-> artefakt finnes: stopp. Produser den, eller registrer på `theoretical` og si
+> artefakt finnes, stopp. Produser den, eller registrer på `theoretical` og si
 > det, eller ikke skriv det.
 
 ---
@@ -988,11 +988,11 @@ men aldri stille oppgradere**. Eksempelmål: den konforme innpakningen
 ▷ **I dybden.**
 
 [Figure 15]
-    Regulatoriske plikter sporet til kontroller CLAIM-GOV-001 → Et frontier-AI-system styrt til en evidensforankret referansestandard, og hver klausul er falsifiserbar
-    Hver kontroll verifisert på et oppgitt nivå §§8-11 → Et frontier-AI-system styrt til en evidensforankret referansestandard, og hver klausul er falsifiserbar
-    Runtime fail-closed + eksternt validert REMORA CLAIM-002 → Et frontier-AI-system styrt til en evidensforankret referansestandard, og hver klausul er falsifiserbar
-    Grenser oppgitt REMORA CLAIM-009 · §24 → Et frontier-AI-system styrt til en evidensforankret referansestandard, og hver klausul er falsifiserbar
-    Hele kjeden reproduce-sjekket + hash-kjedet §5-6 → Et frontier-AI-system styrt til en evidensforankret referansestandard, og hver klausul er falsifiserbar
+    Regulatoriske plikter sporet til kontroller CLAIM-GOV-001 → Et frontier-AI-system styrt til en evidensforankret referansestandard , og hver klausul er falsifiserbar
+    Hver kontroll verifisert på et oppgitt nivå §§8-11 → Et frontier-AI-system styrt til en evidensforankret referansestandard , og hver klausul er falsifiserbar
+    Runtime fail-closed + eksternt validert REMORA CLAIM-002 → Et frontier-AI-system styrt til en evidensforankret referansestandard , og hver klausul er falsifiserbar
+    Grenser oppgitt REMORA CLAIM-009 · §24 → Et frontier-AI-system styrt til en evidensforankret referansestandard , og hver klausul er falsifiserbar
+    Hele kjeden reproduce-sjekket + hash-kjedet §5-6 → Et frontier-AI-system styrt til en evidensforankret referansestandard , og hver klausul er falsifiserbar
 
 > *Et frontier-AI-system når denne evidensforankrede referansestandarden når hver
 > regulatorisk plikt er sporet til en kontroll [CLAIM-GOV-001], hver kontroll er
@@ -1065,7 +1065,7 @@ perimeter er det som er verdt å stole på innenfor det.
 ## 26. Identitet, autentisering og arbeidslast-føderasjon
 
 ▶ **Enkelt forklart:** før et system kan håndheve *hva* som er tillatt, må det
-vite *hvem* som spør, enten «hvem» er et menneske som logger inn eller én
+vite *hvem* som spør: enten «hvem» er et menneske som logger inn eller én
 arbeidslast som kaller en annen. Trikset som gjør dette portabelt er å aldri
 sende langlevde hemmeligheter: en arbeidslast beviser hvem den er med et
 kortlevd, signert token som alle skyer allerede forstår.
@@ -1092,9 +1092,9 @@ hver implementerer. Der sertifikater er identiteten gir **mTLS med X.509**
 SVID-er) samme garanti for tjeneste-til-tjeneste-kall.
 
 [Figure 16]
-    Arbeidslast -[1 · OIDC ID-token (JWT)]→ OIDC-utsteder + JWKS
-    OIDC-utsteder + JWKS -[2 · token exchange · RFC 8693]→ Sky-STS AWS · Azure · GCP
-    Sky-STS AWS · Azure · GCP -[3 · kortlevd, scoped credential]→ Sky-ressurs
+    Arbeidslast → OIDC-utsteder + JWKS (1 · OIDC ID-token (JWT))
+    OIDC-utsteder + JWKS → Sky-STS AWS · Azure · GCP (2 · token exchange · RFC 8693)
+    Sky-STS AWS · Azure · GCP → Sky-ressurs (3 · kortlevd, scoped credential)
 
 *Én utsteder, tre skyer, samme standard: ingen distribuerte statiske nøkler.
 Sikkerheten hviler på publikums-begrensning, claim-betingelser og korte TTL-er;
@@ -1125,9 +1125,9 @@ naturlig her: et kontrollmål blir en policy en maskin kan evaluere.
 
 [Figure 17]
     Forespørsel + identitets-claims / SPIFFE-ID → PEP mesh · gateway · admission
-    PEP mesh · gateway · admission -[spør]→ PDP · policy-as-code OPA/Rego · Cedar · CEL
-    PDP · policy-as-code OPA/Rego · Cedar · CEL -[tillat / nekt + forpliktelser]→ PEP mesh · gateway · admission
-    PEP mesh · gateway · admission -[beslutningslogg]→ Revisjon · OpenTelemetry
+    PEP mesh · gateway · admission → PDP · policy-as-code OPA/Rego · Cedar · CEL (spør)
+    PDP · policy-as-code OPA/Rego · Cedar · CEL → PEP mesh · gateway · admission (tillat / nekt + forpliktelser)
+    PEP mesh · gateway · admission → Revisjon · OpenTelemetry (beslutningslogg)
 
 *PDP-en identifiserer ingenting og PEP-en bestemmer ingenting: det skillet er
 det som lar én Rego-policy være governance-regelen på hver plattform. En policy
@@ -1137,7 +1137,7 @@ reviderbar.*
 ## 28. Fler-sky-koblingspunkter: de leverandørnøytrale skjøtene
 
 ▶ **Enkelt forklart:** en virksomhet lever sjelden på én sky. Hvis governance er
-koblet med hver skys proprietære knapper, må den bygges på nytt (og vil drifte)
+koblet med hver skys proprietære knapper, må den bygges på nytt, og vil drifte,
 på neste sky. Utveien er å koble på de åpne standardene hver sky allerede
 snakker, og behandle hver skys native tjeneste som en *adapter*.
 
@@ -1184,12 +1184,12 @@ CLAIM-COUPLE-001:
     Åpen-standard koblingslag (portabelt → Ett styrt kontrollplan skriv én gang · håndhev overalt
 
 **Hva dette er og ikke er.** Det er et arkitektur-sporbarhetshjelpemiddel over
-offentlig dokumenterte mekanismer, ikke en sikkerhets-designgjennomgang, ikke
+offentlig dokumenterte mekanismer: ikke en sikkerhets-designgjennomgang, ikke
 en sertifisering, og ikke bevis for at en gitt utrulling er riktig konfigurert.
 Native tjenestenavn er gjeldende ved skrivetidspunkt; skyer omdøper og legger
 til tjenester. Den sjekkbare egenskapen er intern fullstendighet og
 standard-deling på tvers av skyer; standardene er autoriteten. Brukt ærlig er
-det det konkrete svaret på leverandøruavhengighets-kravet i §18 og §19: samme
+det det konkrete svaret på leverandøruavhengighets-kravet i §18-§19: samme
 governance, beviselig portabel.
 
 ---
@@ -1402,7 +1402,7 @@ VeriClaim av Stian Skogbrott.*
 Hvert case følger samme bue: hva som *påstås*, hvilken *evidens* claimen
 trenger, hvordan claimen *registreres*, hvordan *gaten* ville feile ved drift,
 hvordan den *fikses*, og hva som fortsatt er *ubevist*. De er illustrerende
-sammensetninger, ikke rapporter om navngitte utrullinger: disiplinen er poenget,
+sammensetninger, ikke rapporter om navngitte utrullinger. Disiplinen er poenget,
 ikke tallene.
 
 ## Case 1: En banks AI-kundeserviceagent
@@ -1414,7 +1414,7 @@ ikke tallene.
   forbehold om at benchmarket er adversarisk-men-endelig og ikke dekker ny
   formulering.
 - **Gaten feiler når.** Noen redigerer markedssiden til å si «kan beviselig ikke
-  lekke data»: en påstand over evidensen. Gaten flagger setningen.
+  lekke data», en påstand over evidensen. Gaten flagger setningen.
 - **Fikses ved.** Å omformulere til «ingen lekkasje observert over N adversariske
   sonder (se forbeholdet)», eller å produsere sterkere evidens.
 - **Fortsatt ubevist.** At benchmarket reflekterer reell angriperatferd; at
@@ -1447,10 +1447,10 @@ ikke tallene.
   fail-closed; forbehold om at kryssreferansen kartlegger *offentlig struktur*,
   ikke klausul-spesifikk innhold, og ikke er sertifisering.
 - **Gaten feiler når.** En kontroll fjernes, men dekningspåstanden oppdateres
-  ikke: dekningssjekkeren rapporterer et udekket mål og bygget stopper.
+  ikke, og dekningssjekkeren rapporterer et udekket mål og bygget stopper.
 - **Fikses ved.** Å gjenopprette kontrollen eller ærlig innsnevre claimen.
 - **Fortsatt ubevist.** At hver kontroll er riktig *implementert* i den kliniske
-  settingen: det er per-utrullings-evidens (en assurance case), og klinisk
+  settingen. Det er per-utrullings-evidens (en assurance case), og klinisk
   validering er en separat, høyere terskel.
 
 ## Case 4: Et fler-sky enterprise-AI-kontrollplan
@@ -1481,8 +1481,8 @@ ikke tallene.
   verifisert ende-til-ende; forbehold om at grunning håndheves av retrieval pluss
   en siteringssjekk, ikke et bevis for at hver setning følger av kilden sin.
 - **Gaten feiler når.** README-en påstår at assistenten «svarer kun fra claims»
-  som en garanti. Den ærlige formuleringen, *designet for å* svare fra kilder,
-  med grunning *håndhevet av* retrieval og en siteringssjekk, er det som
+  som en garanti. Den ærlige formuleringen (*designet for å* svare fra kilder,
+  med grunning *håndhevet av* retrieval og en siteringssjekk) er det som
   passerer.
 - **Fikses ved.** Å matche formuleringen til mekanismen.
 - **Fortsatt ubevist.** At retrieval aldri overser en relevant kilde; at en
