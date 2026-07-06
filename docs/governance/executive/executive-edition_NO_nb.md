@@ -2,7 +2,7 @@
 
 ### Hvorfor evidensbundet governance er en sterkere posisjon enn dokumentbasert governance
 
-*En ti-minutters lederledsager til Håndbok i frontier-AI-governance. Ingen
+*En ti-minutters lederintroduksjon til Håndbok i frontier-AI-governance. Ingen
 teorem-identifikatorer, ingen verktøydetaljer — bare ideen, hvorfor den betyr noe
 for virksomheten, og hvordan begynne i det små.*
 
@@ -30,15 +30,15 @@ eksplisitte forbehold. Ikke gjør påstander du ikke kan stå inne for. (*Claim*
 brukes her som fagterm for nettopp en slik evidensbundet påstand, slik
 hovedhåndboken bruker begrepet.)
 
-Den nektelsen er hele metoden. Et governance-program som ikke stilltiende kan
-akkumulere ustøttede forsikringer, er ett en revisor kan stole mer på, fordi
+Den nektelsen er hele metoden. Et governance-program som ikke kan samle opp
+ustøttede forsikringer i det stille, gir en sterkere revisjonsposisjon, fordi
 delene som er svake er navngitt i stedet for skjult.
 
 **Et konkret eksempel.** Sier en policy at en kundeserviceagent «overvåkes for
-drift», må registeret kunne vise hvilken drift som måles, hvor ofte, med hvilken
-terskel, hvilken artefakt som dokumenterer målingen, og hvilket evidensnivå
-påstanden faktisk har. Det er forskjellen mellom en betryggende setning og en
-claim du kan forsvare.
+modelldrift», må registeret kunne vise hvilken modelldrift som måles, hvor ofte,
+med hvilken terskel, hvilken artefakt som dokumenterer målingen, og hvilket
+evidensnivå påstanden faktisk har. Det er forskjellen mellom en betryggende
+setning og en claim du kan forsvare.
 
 ## Hvorfor det betyr noe for virksomheten
 
@@ -70,14 +70,17 @@ teamene dine snakker om hva de vet.
 
 ## Hva det er — og ikke er
 
-**Det er** en måte å gjøre governance sjekkbar: tall bundet til evidens,
+**Det er:** en måte å gjøre governance sjekkbar på — tall bundet til evidens,
 dokumenter som feiler gjennomgang hvis de drifter fra registeret, og grenser som
-sies høyt. **Det er ikke** juridisk rådgivning, en sertifisering eller en garanti
-for at et system er trygt. Metoden viser at påstandene dine er konsistente med
-evidensen din — ikke at et benchmark fullt ut reflekterer virkeligheten, eller at
-enhver prosasetning er sann. Å kjenne den grensen er det som holder metoden
-ærlig, og det er hvorfor tilnærmingen er troverdig der høylytte forsikringer ikke
-er det.
+sies høyt.
+
+**Det er ikke:** juridisk rådgivning, en sertifisering eller en garanti for at et
+system er trygt.
+
+Metoden viser at påstandene dine er konsistente med evidensen din — ikke at et
+benchmark fullt ut reflekterer virkeligheten, eller at enhver prosasetning er
+sann. Å kjenne den grensen er det som holder metoden ærlig, og det er hvorfor
+tilnærmingen er troverdig der høylytte forsikringer ikke er det.
 
 ## Minimum levedyktig adopsjon — begynn uten hele stacken
 
@@ -114,7 +117,7 @@ troverdig enn en som hevder å ha ingen.
 
 ---
 
-## Til baksideteksten
+## Baksidetekst
 
 > De fleste AI-governance-programmer består av dokumenter som ber deg stole på
 > dem. Denne boken viser en annen vei: behandle hver faktapåstand om et AI-system
@@ -133,4 +136,6 @@ troverdig enn en som hevder å ha ingen.
 
 *Denne lederutgaven er en ledsager til hele håndboken, som bærer evidensen,
 byggesteinene, de gjennomgående case-studiene og de ærlige grensene i dybden.
-VeriClaim er referanseimplementasjonen av metoden; metoden står på egne ben.*
+VeriClaim er referanseimplementasjonen av metoden; metoden står på egne ben.
+Poenget er ikke å stole mer på dokumentene — men å kunne teste påstandene de
+inneholder.*

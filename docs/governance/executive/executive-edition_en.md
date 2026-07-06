@@ -32,7 +32,7 @@ accumulate unsupported reassurance is one an auditor can trust, because the part
 that are weak are named rather than hidden.
 
 **A concrete example.** If a policy says a customer-service agent is "monitored
-for drift", the register must be able to show *which* drift is measured, how
+for model drift", the register must be able to show *which* drift is measured, how
 often, at what threshold, which artifact records the measurement, and what
 evidence level the claim actually holds. That is the difference between a
 reassuring sentence and a claim you can defend.
@@ -67,13 +67,17 @@ teams talk about what they know.
 
 ## What it is — and is not
 
-**It is** a way to make governance checkable: numbers bound to evidence,
-documents that fail review if they drift, and limits stated out loud. **It is
-not** legal advice, a certification, or a guarantee that a system is safe. It
-proves that your *claims are consistent with your evidence* — not that a
-benchmark reflects the real world or that a sentence of prose is true. Knowing
-that boundary is what keeps the method honest, and it is why the approach is
-credible where louder assurances are not.
+**It is:** a way to make governance checkable — numbers bound to evidence,
+documents that fail review if they drift from the register, and limits stated out
+loud.
+
+**It is not:** legal advice, a certification, or a guarantee that a system is
+safe.
+
+It proves that your claims are consistent with your evidence — not that a
+benchmark fully reflects the real world or that every sentence of prose is true.
+Knowing that boundary is what keeps the method honest, and it is why the approach
+is credible where louder assurances are not.
 
 ## Minimum viable adoption — start without the full stack
 
@@ -109,7 +113,7 @@ trustworthy than one that claims none.
 
 ---
 
-## For the back cover
+## Back-cover copy
 
 > Most AI-governance programs are documents that ask you to trust them. This book
 > shows another way: treat every factual statement about an AI system as a *claim*
@@ -129,4 +133,5 @@ trustworthy than one that claims none.
 *This executive edition is a companion to the full handbook, which carries the
 evidence, the building blocks, the worked case studies, and the honest limits in
 depth. VeriClaim is the reference implementation of the method; the method stands
-on its own.*
+on its own. The point is not to trust the documents more — it is to be able to
+test the claims they contain.*
