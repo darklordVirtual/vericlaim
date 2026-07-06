@@ -10,7 +10,7 @@
     "deploy": "wrangler deploy",
     "typecheck": "tsc --noEmit",
     "create-index": "wrangler vectorize create vericlaim-claims --dimensions=768 --metric=cosine",
-    "test": "node --experimental-strip-types --test test/authz.test.ts",
+    "test": "node --experimental-strip-types --test test/authz.test.ts test/limits.test.ts",
     "test:live": "python3 test/live_test.py"
   },
   "dependencies": {

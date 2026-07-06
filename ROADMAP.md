@@ -50,10 +50,18 @@ Status: 🟡 partially implemented · ⏳ designed, not built.
 - ⏳ **SSRF controls** for `webfetch.py` (HTTPS-only, host allowlist, block
   loopback/RFC1918/link-local/metadata, redirect validation, size caps).
 - ⏳ **Cloudflare scoped-token model** (separate tokens for index / read /
-  ledger-export / evidence-download / admin) and exact CORS allowlist for
-  authenticated endpoints. (Done earlier: refusal integrity, read-token guard on
-  generative endpoints, HMAC head, CORS preflight, error boundary, reconcile-wipe
-  guard.)
+  ledger-export / evidence-download / admin), per-token quotas/rate limits, and
+  exact CORS allowlist for authenticated endpoints. (Done: refusal integrity,
+  read-token guard on generative endpoints INCLUDING `/mcp` — the P0-1 bypass —
+  HMAC head, CORS preflight, error boundary + no message leak, reconcile-wipe
+  guard, central `authz.ts` policy, request limits + paginated `/ledger/export`,
+  auth/limits unit tests in CI.)
+- 🟡 **`/index` atomicity + single-writer** (Durable Object, staging snapshot,
+  atomic swap, ingest receipt). Reconcile-wipe guard exists; full single-writer
+  serialization is not built.
+- ⏳ **Full Miniflare route tests** (real D1/R2/Vectorize/AI bindings end-to-end).
+  Auth + limit *decision* logic is now unit-tested; binding-level route tests
+  need the workerd harness.
 
 Nothing here is claimed as a current capability. See
 [`docs/security/security-model.md`](docs/security/security-model.md) for what the

@@ -35,6 +35,10 @@ import {
 import { badgeSVG, passportHTML } from "./passport";
 import { VericlaimMCP } from "./mcp";
 import { authorized, generativeAllowed } from "./authz";
+import {
+  LEDGER_PAGE_DEFAULT, LEDGER_PAGE_MAX,
+  clampLimit, declaredBodyTooLarge, parseCursor, queryTooLong,
+} from "./limits";
 
 export { VericlaimMCP };
 
@@ -105,6 +109,7 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     // --- write: index + ledger + vault --------------------------------------
     if (p === "/index" && req.method === "POST") {
       if (!authorized(req, env)) return json({ error: "unauthorized" }, 401);
+      if (declaredBodyTooLarge(req)) return json({ error: "payload too large" }, 413);
       let payload: { claims?: Claim[] };
       try { payload = await req.json(); } catch { return json({ error: "invalid JSON" }, 400); }
       const claims = (payload.claims ?? []).filter((c) => c && c.id && c.statement && c.evidence_level);
@@ -143,6 +148,7 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     if (p === "/search" && req.method === "GET") {
       const q = url.searchParams.get("q");
       if (!q) return json({ error: "missing query parameter 'q'" }, 400);
+      if (queryTooLong(q)) return json({ error: "query too long" }, 400);
       const topK = Math.min(20, Math.max(1, Number(url.searchParams.get("topK")) || 5));
       return json({ query: q, hits: await searchClaims(env, q, topK) });
     }
@@ -151,6 +157,7 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
       if (!generativeAllowed(req, env)) return json({ error: "unauthorized" }, 401);
       const q = url.searchParams.get("q");
       if (!q) return json({ error: "missing query parameter 'q'" }, 400);
+      if (queryTooLong(q)) return json({ error: "query too long" }, 400);
       return json(await ask(env, q));
     }
 
@@ -212,16 +219,30 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     }
 
     if (p === "/ledger/export" && req.method === "GET") {
+      // Paginated so one request cannot force an unbounded dump of the whole
+      // ledger (P1). A witness pages with ?after_seq=<next_after_seq> until
+      // next_after_seq is null; the full chain is still exportable, just bounded
+      // per response. (Scoped auth / signed snapshots are a tracked follow-up.)
+      const limit = clampLimit(url.searchParams.get("limit"), LEDGER_PAGE_DEFAULT, LEDGER_PAGE_MAX);
+      const after = parseCursor(url.searchParams.get("after_seq"));
       const claims = await env.DB.prepare(
-        "SELECT * FROM claim_events ORDER BY seq ASC").all();
+        "SELECT * FROM claim_events WHERE seq > ?1 ORDER BY seq ASC LIMIT ?2").bind(after, limit).all();
       const library = await env.DB.prepare(
-        "SELECT * FROM library_bundles ORDER BY seq ASC").all();
-      return json({ claims: claims.results ?? [], library: library.results ?? [] });
+        "SELECT * FROM library_bundles WHERE seq > ?1 ORDER BY seq ASC LIMIT ?2").bind(after, limit).all();
+      const cr = (claims.results ?? []) as Array<{ seq?: number }>;
+      const lr = (library.results ?? []) as Array<{ seq?: number }>;
+      const maxSeq = (rows: Array<{ seq?: number }>) =>
+        rows.reduce((m, r) => Math.max(m, Number(r.seq) || 0), after);
+      const more = cr.length === limit || lr.length === limit;
+      const next = more ? Math.max(maxSeq(cr), maxSeq(lr)) : null;
+      return json({ claims: cr, library: lr,
+        page: { after_seq: after, limit, next_after_seq: next } });
     }
 
     // --- the research layer: vectorized literature (retrieval, not truth) ---
     if (p === "/research/index" && req.method === "POST") {
       if (!authorized(req, env)) return json({ error: "unauthorized" }, 401);
+      if (declaredBodyTooLarge(req)) return json({ error: "payload too large" }, 413);
       let payload: { works?: WorkIn[]; chunks?: ChunkIn[] };
       try { payload = await req.json(); } catch { return json({ error: "invalid JSON" }, 400); }
       const result = await ingestLiterature(
@@ -232,6 +253,7 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     if (p === "/research/search" && req.method === "GET") {
       const q = url.searchParams.get("q");
       if (!q) return json({ error: "missing query parameter 'q'" }, 400);
+      if (queryTooLong(q)) return json({ error: "query too long" }, 400);
       const topK = Math.min(20, Math.max(1, Number(url.searchParams.get("topK")) || 5));
       return json({
         query: q, hits: await searchResearch(env, q, topK),
@@ -244,6 +266,7 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
       if (!generativeAllowed(req, env)) return json({ error: "unauthorized" }, 401);
       const q = url.searchParams.get("q");
       if (!q) return json({ error: "missing query parameter 'q'" }, 400);
+      if (queryTooLong(q)) return json({ error: "query too long" }, 400);
       return json(await askResearch(env, q));
     }
 
@@ -260,6 +283,7 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     // --- the claims library: cross-project bundle preservation & reuse ------
     if (p === "/library/index" && req.method === "POST") {
       if (!authorized(req, env)) return json({ error: "unauthorized" }, 401);
+      if (declaredBodyTooLarge(req)) return json({ error: "payload too large" }, 413);
       let payload: { bundles?: BundleIn[] };
       try { payload = await req.json(); } catch { return json({ error: "invalid JSON" }, 400); }
       const result = await indexBundles(env, payload.bundles ?? [], new Date().toISOString());
@@ -269,6 +293,7 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     if (p === "/library/search" && req.method === "GET") {
       const q = url.searchParams.get("q");
       if (!q) return json({ error: "missing query parameter 'q'" }, 400);
+      if (queryTooLong(q)) return json({ error: "query too long" }, 400);
       const topK = Math.min(20, Math.max(1, Number(url.searchParams.get("topK")) || 5));
       return json({
         query: q, hits: await searchLibrary(env, q, topK),

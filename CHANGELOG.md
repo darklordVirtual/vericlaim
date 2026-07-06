@@ -55,6 +55,10 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
   generative endpoint on `/mcp` (P0-1).
 - Stopped leaking internal `err.message` to clients from the Worker error
   boundary — logged server-side, generic 500 returned (P1).
+- Extracted Worker auth into one central, unit-tested policy (`src/authz.ts`) and
+  added request limits (`src/limits.ts`): `?q=` length cap, POST body-size cap,
+  and paginated `/ledger/export` so it cannot be forced into an unbounded dump
+  (P1). Regression tests run on Node's built-in test runner and in CI.
 - Closed drift-past-the-gate vectors (unbalanced fence, unverified provenance
   hash, unchecked register metrics).
 - See the security findings table in the implementation report.

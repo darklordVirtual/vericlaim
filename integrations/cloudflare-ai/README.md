@@ -146,6 +146,13 @@ claude mcp get vericlaim-claims        # ✔ Connected
   and per-token quotas are a tracked follow-up (see the repo `ROADMAP.md`).
 - **`LEDGER_HMAC_KEY` (optional):** an operator secret (not stored in D1) used to
   sign the ledger head — see "What it proves" above.
+- **Request limits (in-app):** `?q=` queries over ~4k chars are rejected (400),
+  POST bodies whose declared `Content-Length` exceeds ~2 MB are rejected (413),
+  and `/ledger/export` is **paginated** (`?after_seq=&limit=`, capped) so one
+  call cannot force an unbounded dump — page until `next_after_seq` is null.
+  These bound cost/abuse cheaply; hard per-client rate limiting still belongs at
+  the edge (Cloudflare rate-limit / WAF), and per-token quotas + scoped
+  `LEDGER_EXPORT_TOKEN` are a tracked follow-up.
 - **Single-writer:** `/index` assumes one trusted, serial caller (the CI pusher).
   Do not fan it out across concurrent callers; a true multi-writer setup needs a
   single-writer serializer (Durable Object) in front of D1.
