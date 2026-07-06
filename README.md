@@ -124,7 +124,8 @@ era. The full argument: [`docs/manifesto.md`](docs/manifesto.md) (5-minute read)
 |-------|-----------|
 | **Artifact existence** | Every file a claim cites exists — *no claim without an artifact.* |
 | **Path containment** | Artifacts must live inside the repo (no absolute paths, `..`, or symlink escapes); optionally, must be git-tracked. |
-| **Provenance** | Every produced artifact records *how it was made* (script, commit, its own SHA-256) — *no anonymous number.* |
+| **Provenance** | Every produced artifact records *how it was made* (script, commit, its own SHA-256), and that recorded hash must still match the file — *no anonymous, no stale number.* |
+| **Register ↔ evidence** | Every register metric equals the value in its JSON artifact — a mistyped number is caught even when the artifact still reproduces byte-for-byte. |
 | **Register integrity** | Required fields present, valid evidence level, no duplicate ids. |
 | **Manifest hashes** | Result artifacts match their SHA-256 — a silently edited number is caught. |
 | **Doc binding** | Claim anchors tie prose numbers to the register; drift fails the build. |
@@ -212,6 +213,26 @@ registered as `CLAIM-EX-001`, backed by
 and bound to [`examples/rle/docs/results.md`](examples/rle/docs/results.md). Edit
 `8.0584` in either the doc or the register without the other, and the gate fails.
 
+### Applied domain modules
+
+Beyond the toy examples, [`domains/`](domains/) holds five larger, self-contained
+modules — each a real, deterministic, `reproduce`-backed artifact that
+demonstrates a technique, not roadmap prose. Every number they state is computed
+by the code, written to a JSON artifact, and bound to the register (evidence
+levels `measured`/`benchmarked`).
+
+| Domain | What it demonstrates | Claim |
+|--------|----------------------|-------|
+| [`eval_harness/`](domains/eval_harness/) | grounding precision/recall/F1 + refusal accuracy for a cited-answer system, over a fixed gold set | `CLAIM-EVAL-001` |
+| [`evidence_graph/`](domains/evidence_graph/) | register-as-a-graph integrity (orphan-claim detection, evidence depth) | `CLAIM-GRAPH-001` |
+| [`multitenant/`](domains/multitenant/) | tenant-isolation invariant: no cross-tenant reads, no ledger interleave | `CLAIM-TENANT-001` |
+| [`ontologies/`](domains/ontologies/) | a machine-readable claim ontology + register conformance | `CLAIM-ONTO-001` |
+| [`cost_routing/`](domains/cost_routing/) | cost-aware model routing under per-request quality floors | `CLAIM-ROUTE-001` |
+
+Their fixtures are synthetic (each module's `docs/results.md` states the scope):
+they grade the *method*, not any live model — but the pipeline (evidence →
+artifact → claim → bound doc, verified by `reproduce`) is the real thing.
+
 ---
 
 ## Explore this repo (it dogfoods itself)
@@ -230,7 +251,8 @@ vericlaim/            the zero-dependency gate (register parser, checks, CLI)
 claims/               register.yaml (source of truth) · baseline.json · manifest.md
 docs/                 manifesto · getting-started · register spec · evidence levels
 examples/             four tiny worked examples (capability, correctness, benchmark, proof)
-tests/                tests for the gate and the example
+domains/              five larger applied modules (eval-harness, evidence-graph, multi-tenant, ontologies, cost-routing)
+tests/                tests for the gate, the examples, and the domain modules
 .claude/skills/       a Claude skill that enforces the discipline while you work
 integrations/         optional add-ons (not part of the zero-dep core)
 .github/workflows/    claim-gate.yml — the gate in CI
