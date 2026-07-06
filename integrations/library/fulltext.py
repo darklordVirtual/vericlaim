@@ -39,9 +39,16 @@ def fetch_arxiv_html(arxiv_id: str, opener=urllib.request.urlopen
         try:
             with opener(req, timeout=60) as resp:
                 text = strip_html(resp.read())
-            if len(text) >= _MIN_FULLTEXT_CHARS or "## " in text:
+            # Fail-closed: require the length floor, full stop. A short
+            # error/redirect/conversion-failure page can still carry a single
+            # h1 ("## " line), so heading presence must NEVER be an escape
+            # hatch — that junk would become the work's permanent, immutable
+            # fulltext (first-snapshot-wins) and get chunked, pushed and cited
+            # as the paper. A real paper body clears 2000 chars; anything
+            # shorter falls back honestly to abstract-only.
+            if len(text) >= _MIN_FULLTEXT_CHARS:
                 return text, url
-            last = f"{url}: too short to be a paper body"
+            last = f"{url}: too short to be a paper body ({len(text)} chars)"
         except (urllib.error.HTTPError, urllib.error.URLError, OSError) as e:
             last = f"{url}: {e}"
     raise LookupError(f"no HTML rendering for {arxiv_id} ({last})")

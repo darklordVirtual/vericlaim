@@ -1,9 +1,9 @@
 {
   "schema": "vericlaim_provenance_v2",
   "artifact": "research_live.json",
-  "artifact_sha256": "b0d44818c3ea02b2d656fdca817794542253acad20e61b512012f37c9f062d06",
-  "script": "python3 integrations/cloudflare-ai/test/save_live_evidence.py --url https://vericlaim-claims.razorsharp.workers.dev --date 2026-07-05",
-  "git_commit": "b058845949c2682563258c46ee782107dab210e5",
-  "generated_at": "2026-07-05T14:30:04.176034+00:00",
+  "artifact_sha256": "7345d304cf0c108df87a7d096d1fe7d5f3b550ad9b877ea94f3b190cb9776376",
+  "script": "python3 integrations/cloudflare-ai/test/save_live_evidence.py --url https://vericlaim-claims.razorsharp.workers.dev --date 2026-07-06",
+  "git_commit": "70440366a69a13d5a500f73b67c7d3193d6843c2",
+  "generated_at": "2026-07-06T01:35:30.382673+00:00",
   "produced_by": "live-test"
 }

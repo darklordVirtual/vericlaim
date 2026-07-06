@@ -27,9 +27,15 @@ WORK = {"work_id": "arxiv:1706.04599", "registrar": "arxiv",
         "year": 2017, "venue": "arXiv", "source_type": "preprint",
         "accredited": False, "url": "https://arxiv.org/abs/1706.04599"}
 
-PAPER_HTML = b"""<html><body><h1>On calibration</h1>
-<p>Intro paragraph.</p><h2>2 Methods</h2><p>Temperature scaling.</p>
-</body></html>"""
+# A realistic paper body clears the 2000-char floor; heading presence alone
+# must NOT let a short page through (that was a fail-closed hole).
+_BODY = "Temperature scaling calibrates the softmax outputs. " * 60
+PAPER_HTML = (b"<html><body><h1>On calibration</h1>"
+              b"<p>Intro paragraph.</p><h2>2 Methods</h2><p>"
+              + _BODY.encode() + b"</p></body></html>")
+
+SHORT_ERROR_HTML = b"""<html><body><h1>HTML is not available</h1>
+<p>Conversion failed for this paper.</p></body></html>"""
 
 
 def test_add_fulltext_first_wins_and_verifies(tmp_path):
@@ -89,6 +95,24 @@ def test_fetch_arxiv_html_falls_back_to_ar5iv():
 def test_fetch_arxiv_html_both_fail_raises():
     def opener(req, timeout=60):
         raise urllib.error.HTTPError(req.get_full_url(), 404, "nf", {}, None)
+
+    with pytest.raises(LookupError):
+        fulltext.fetch_arxiv_html("1706.04599", opener=opener)
+
+
+def test_short_error_page_with_heading_is_rejected():
+    """A conversion-failure page carrying a single h1 must NOT pass the floor
+    just because it has a '## ' line — heading presence is not an escape
+    hatch, else junk would become the work's permanent hash-locked text."""
+    def opener(req, timeout=60):
+        class R:
+            def read(self):
+                return SHORT_ERROR_HTML
+            def __enter__(self):
+                return self
+            def __exit__(self, *a):
+                return False
+        return R()
 
     with pytest.raises(LookupError):
         fulltext.fetch_arxiv_html("1706.04599", opener=opener)
