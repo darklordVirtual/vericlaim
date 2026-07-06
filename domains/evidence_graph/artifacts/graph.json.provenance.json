@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "graph.json",
+  "artifact_sha256": "b0cec0ac245d850be07e44c080663d33a3250ae173fb7988e967a3c11092aeb7",
+  "script": "python3 domains/evidence_graph/evidence.py",
+  "git_commit": "fae46f7f8bd6b968c32c14c77724cbdb1d119088",
+  "generated_at": "2026-07-06T15:25:12.812256+00:00",
+  "produced_by": "human"
+}

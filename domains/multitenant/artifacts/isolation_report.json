@@ -1,0 +1,7 @@
+{
+  "schema": "multitenant_v1",
+  "n_tenants": 5,
+  "n_isolation_checks": 85,
+  "cross_tenant_leaks": 0,
+  "n_chain_forks": 0
+}

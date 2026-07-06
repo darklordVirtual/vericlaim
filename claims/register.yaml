@@ -191,3 +191,100 @@ claims:
       not re-run by `vericlaim reproduce`. The refusal check proves the
       oracle refused one off-corpus question that day, not that it can never
       be induced to overclaim.
+
+  # ── domains/: applied knowledge modules (each a real, reproduce-backed
+  # artifact demonstrating a domain technique — evidence, not roadmap). ──
+
+  - id: CLAIM-EVAL-001
+    statement: >
+      The eval-harness domain scores a committed system-under-test against a
+      10-case gold standard, reporting micro-averaged grounding F1 of 0.9 and
+      refusal accuracy of 0.6667 (2 of 3 off-corpus questions correctly refused).
+    evidence_level: benchmarked
+    artifact:
+      - "domains/eval_harness/artifacts/eval_report.json"
+    n: 10
+    metrics:
+      n_cases: 10
+      grounding_f1: 0.9
+      refusal_accuracy: 0.6667
+    caveat: >
+      A fixed gold set and a fixed, deliberately-imperfect answer set exercise
+      the SCORER (citation precision/recall/F1 + refusal accuracy) — not any
+      live model. The numbers grade the harness, not an LLM; point it at real
+      oracle outputs to grade them.
+    reproduce: "python3 domains/eval_harness/evidence.py"
+
+  - id: CLAIM-GRAPH-001
+    statement: >
+      The evidence-graph domain models a claim register as a directed graph
+      (18 nodes, 15 edges across 6 claims) and proves an integrity property a
+      flat list cannot express: 0 orphan claims — every claim is backed by at
+      least one artifact.
+    evidence_level: measured
+    artifact:
+      - "domains/evidence_graph/artifacts/graph.json"
+    metrics:
+      n_nodes: 18
+      n_edges: 15
+      orphan_claims: 0
+    caveat: >
+      Built over a committed fixture (data/sample_claims.json), not the live
+      register, so the counts stay byte-stable. The same builder runs on a real
+      register exported to the same node/edge shape.
+    reproduce: "python3 domains/evidence_graph/evidence.py"
+
+  - id: CLAIM-TENANT-001
+    statement: >
+      The multi-tenant domain models tenant isolation with a row-scoped store
+      and one hash chain per tenant; across 5 tenants a battery of 85 isolation
+      checks finds 0 cross-tenant leaks (and 0 chain forks).
+    evidence_level: benchmarked
+    artifact:
+      - "domains/multitenant/artifacts/isolation_report.json"
+    metrics:
+      n_tenants: 5
+      n_isolation_checks: 85
+      cross_tenant_leaks: 0
+    caveat: >
+      Models the isolation invariant in memory only — no authn, transport, or
+      persistence. It proves the scoping/chaining logic is sound; a real SaaS
+      must still enforce the same boundary at the auth and storage layers.
+    reproduce: "python3 domains/multitenant/evidence.py"
+
+  - id: CLAIM-ONTO-001
+    statement: >
+      The ontology domain defines a machine-readable claim ontology (6 ordered
+      evidence levels, 5 claim types) and validates a register against it: over
+      a 6-claim fixture, 0 claims are non-conforming.
+    evidence_level: measured
+    artifact:
+      - "domains/ontologies/artifacts/ontology_conformance.json"
+    metrics:
+      n_levels: 6
+      n_claim_types: 5
+      nonconforming: 0
+    caveat: >
+      The taxonomy is a PROPOSAL, not a standard, and conformance is checked
+      over a committed fixture (data/sample_register.json). It demonstrates
+      ontology-driven validation, not that this vocabulary is canonical.
+    reproduce: "python3 domains/ontologies/evidence.py"
+
+  - id: CLAIM-ROUTE-001
+    statement: >
+      The cost-aware routing domain routes 8 requests over a 4-model catalogue
+      to the cheapest model clearing each request's quality floor, achieving a
+      savings ratio of 0.8059 versus an always-premium baseline with 0 quality
+      violations.
+    evidence_level: benchmarked
+    artifact:
+      - "domains/cost_routing/artifacts/routing_report.json"
+    metrics:
+      n_requests: 8
+      savings_ratio: 0.8059
+      quality_violations: 0
+    caveat: >
+      The price table, quality scores and workload are SYNTHETIC and fixed. It
+      demonstrates the routing policy and its saving/soundness guarantees, not
+      real model prices or real model quality.
+    reproduce: "python3 domains/cost_routing/evidence.py"

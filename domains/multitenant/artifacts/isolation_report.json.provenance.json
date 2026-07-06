@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "isolation_report.json",
+  "artifact_sha256": "106507742af9aa9323246c56920f20d0647e572bc1dbc8220daea6e15c962148",
+  "script": "python3 domains/multitenant/evidence.py",
+  "git_commit": "fae46f7f8bd6b968c32c14c77724cbdb1d119088",
+  "generated_at": "2026-07-06T15:25:12.886031+00:00",
+  "produced_by": "human"
+}

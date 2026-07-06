@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "routing_report.json",
+  "artifact_sha256": "9cadc90077058792f31b8bb12c70a06be6d1da40be76b7c572ce6246f729006c",
+  "script": "python3 domains/cost_routing/evidence.py",
+  "git_commit": "fae46f7f8bd6b968c32c14c77724cbdb1d119088",
+  "generated_at": "2026-07-06T15:25:12.992668+00:00",
+  "produced_by": "human"
+}
