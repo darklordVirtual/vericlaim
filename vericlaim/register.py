@@ -71,6 +71,17 @@ def _scalar(value: str) -> Any:
         return True
     if value.lower() == "false":
         return False
+    # The bundled parser implements block style only. An UNQUOTED value opening a
+    # flow collection ('[a, b]', '{k: v}', or a malformed '[broken') is NOT valid
+    # here — reject it (fail closed) instead of silently mis-reading it as a plain
+    # string, which is fail-OPEN. Empty [] / {} are allowed; quote the value if you
+    # really mean a literal starting with a bracket. (With PyYAML installed, full
+    # flow syntax is supported and this path is not used.)
+    if value[0] in "[{" and value not in ("[]", "{}"):
+        raise RegisterError(
+            f"unsupported flow collection {value!r}: the zero-dependency parser "
+            f"uses block style only. Rewrite in block style, quote a literal "
+            f"bracket, or install PyYAML for full YAML support.")
     unquoted = _strip_quotes(value)
     if unquoted != value:
         return unquoted
