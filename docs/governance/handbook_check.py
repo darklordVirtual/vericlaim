@@ -4,16 +4,25 @@
 The handbook lives OUTSIDE doc_globs on purpose (it is a synthesis over the
 registers, not a source of primary claims). But that means it could drift in
 exactly the way vericlaim exists to prevent. This checker closes that gap
-without forcing the whole narrative into numeric anchors. It verifies, for both
-the English and Norwegian editions:
+without forcing the whole narrative into numeric anchors.
 
-  1. Register-derived numbers agree — every metric the handbook quotes from the
-     CLAIM-LIB-RAG family (canon works, verified, drops, chunks) appears with
-     the register's current value, and NO stale value of it appears.
+It walks EVERY governance edition RECURSIVELY (`docs/governance/**/*.md`) — the
+English and Norwegian masters, the print editions, and the executive/board/case-
+study/front-matter editions — so a new or variant edition is validated
+automatically and cannot drift uncaught. Per edition it verifies:
+
+  1. Register-derived numbers agree — for a *full handbook* (master or print),
+     every metric the handbook quotes from the CLAIM-LIB-RAG family (canon works,
+     verified, drops, chunks) appears with the register's current value.
   2. The collection index is internally consistent — the Appendix A per-
-     collection counts sum to the catalog_works total.
-  3. Internal navigation is intact — every in-page link `](#slug)` resolves to
-     a real heading.
+     collection counts sum to the catalog_works total (full handbooks).
+  3. Internal navigation is intact — every in-page link `](#slug)` resolves to a
+     real heading (ALL editions).
+  4. The coupling / SecOps crosswalks are internally consistent wherever they
+     appear (self-guarded by claim id).
+
+The shorter editions get checks 3–4 only: they were never meant to restate every
+register metric, so requiring it would be a false failure, not a real one.
 
 Run directly (`python3 docs/governance/handbook_check.py`) or via
 tests/test_handbook_check.py in CI. It raises on any drift.
@@ -29,8 +38,6 @@ sys.path.insert(0, str(ROOT))
 
 from vericlaim.register import load_register  # noqa: E402
 
-EDITIONS = ["frontier-ai-governance-master.md",
-            "frontier-ai-governance-master_NO_nb.md"]
 HERE = Path(__file__).resolve().parent
 
 
@@ -53,26 +60,40 @@ def _slugify(heading: str) -> str:
     return re.sub(r"\s", "-", s)
 
 
+def _is_full_handbook(text: str) -> bool:
+    """A "full handbook" (master or print edition) restates every register metric
+    and carries the Appendix A collection table. The shorter editions (executive,
+    board note, case studies, front matter) do not, so they get the universal
+    checks only — never a false 'metric absent' failure for a number they were
+    never meant to quote."""
+    return bool(re.search(r"^\|\s*\d{2}\s*\|[^|]+\|\s*\d+\s*\|$", text, re.MULTILINE))
+
+
 def check_edition(path: Path, metrics: dict[str, str]) -> list[str]:
     problems: list[str] = []
     text = path.read_text(encoding="utf-8")
-    name = path.name
+    try:
+        name = path.relative_to(HERE).as_posix()  # stable, folder-aware label
+    except ValueError:
+        name = path.name
+    full = _is_full_handbook(text)
 
-    # 1. every register metric value must appear at least once.
-    for key, val in metrics.items():
-        if not re.search(rf"(?<!\d){re.escape(val)}(?!\d)", text):
-            problems.append(f"{name}: register value {val} for {key} is absent "
-                            f"(handbook may have drifted)")
+    if full:
+        # 1. every register metric value must appear at least once.
+        for key, val in metrics.items():
+            if not re.search(rf"(?<!\d){re.escape(val)}(?!\d)", text):
+                problems.append(f"{name}: register value {val} for {key} is absent "
+                                f"(handbook may have drifted)")
 
-    # 2. Appendix A collection counts sum to catalog_works.
-    counts = [int(m) for m in re.findall(r"^\|\s*\d{2}\s*\|[^|]+\|\s*(\d+)\s*\|$",
-                                         text, re.MULTILINE)]
-    total = metrics.get("CLAIM-LIB-RAG-002.catalog_works")
-    if total and counts and str(sum(counts)) != total:
-        problems.append(f"{name}: collection counts sum to {sum(counts)} but "
-                        f"catalog_works is {total}")
+        # 2. Appendix A collection counts sum to catalog_works.
+        counts = [int(m) for m in re.findall(r"^\|\s*\d{2}\s*\|[^|]+\|\s*(\d+)\s*\|$",
+                                             text, re.MULTILINE)]
+        total = metrics.get("CLAIM-LIB-RAG-002.catalog_works")
+        if total and counts and str(sum(counts)) != total:
+            problems.append(f"{name}: collection counts sum to {sum(counts)} but "
+                            f"catalog_works is {total}")
 
-    # 3. internal links resolve to a heading.
+    # 3. internal links resolve to a heading (EVERY edition, recursively).
     headings = {_slugify(h) for h in re.findall(r"^#{1,6}\s+(.*)$", text,
                                                 re.MULTILINE)}
     for target in re.findall(r"\]\(#([^)]+)\)", text):
@@ -156,20 +177,31 @@ def _check_coupling(text: str, name: str) -> list[str]:
     return out
 
 
+def _editions() -> list[Path]:
+    """Every governance markdown file, discovered RECURSIVELY — so a new edition
+    (or a print/executive variant) is validated automatically and cannot drift
+    uncaught. 'Gold standard, recursively.'"""
+    return sorted(HERE.rglob("*.md"))
+
+
 def main() -> int:
     metrics = _register_metrics()
+    editions = _editions()
     problems: list[str] = []
-    for ed in EDITIONS:
-        p = HERE / ed
-        if p.exists():
-            problems += check_edition(p, metrics)
+    n_full = 0
+    for p in editions:
+        text = p.read_text(encoding="utf-8")
+        if _is_full_handbook(text):
+            n_full += 1
+        problems += check_edition(p, metrics)
     if problems:
         print("[FAIL] handbook drift:")
         for pr in problems:
             print(f" - {pr}")
         return 1
-    print(f"[OK] handbook editions consistent with the register "
-          f"({len(metrics)} bound metrics checked)")
+    print(f"[OK] {len(editions)} governance edition(s) consistent with the register "
+          f"({n_full} full handbook(s) × {len(metrics)} bound metrics; links + "
+          f"crosswalks checked in all).")
     return 0
 
 
