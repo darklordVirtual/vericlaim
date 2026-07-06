@@ -1,0 +1,42 @@
+name: Cloudflare Add-on
+
+# CI contract for the optional Cloudflare Worker (integrations/cloudflare-ai).
+# The Python gate does not cover the TypeScript layer, so this job holds the
+# add-on to the same hygiene as the core: a lockfile in sync with package.json
+# (npm ci fails on drift) and a clean type check. Runs only when the add-on
+# changes. Worker route/unit tests (Miniflare) are a tracked follow-up; the
+# live test (test/live_test.py) needs a deployed Worker and runs out of band.
+
+on:
+  push:
+    branches: [main, master]
+    paths: ["integrations/cloudflare-ai/**"]
+  pull_request:
+    paths: ["integrations/cloudflare-ai/**"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cf-addon-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: integrations/cloudflare-ai
+
+jobs:
+  addon:
+    name: npm ci + typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: integrations/cloudflare-ai/package-lock.json
+      - name: Install (reproducible — fails if the lockfile drifts from package.json)
+        run: npm ci
+      - name: Type check
+        run: npm run typecheck

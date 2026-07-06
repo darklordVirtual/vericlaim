@@ -5,12 +5,11 @@ name: Claim Gate
 # project's own version drifts, or a registered number stops reproducing, the
 # build fails with the exact file:line. Runs on every push and PR.
 #
-# Two jobs, on purpose:
-#   gate      — SIDE-EFFECT-FREE. Reads files only (gate + tests + lint). Safe to
-#               run anywhere, never needs secrets.
-#   reproduce — EXECUTES each claim's reproduce script (same trust level as the
-#               test suite). Separated so it can be reasoned about independently
-#               and never shares a job with deploy secrets.
+# Hardened for reproducibility: Actions are SHA-pinned (a moving tag can change
+# under you), the dev toolchain is version-locked (.github/requirements-ci.txt),
+# and the gate runs on every supported Python (3.11+, per pyproject). Two jobs:
+#   gate      — SIDE-EFFECT-FREE (gate + tests + lint), matrixed over Python.
+#   reproduce — EXECUTES each reproduce script; separated from any deploy secret.
 
 on:
   push:
@@ -26,18 +25,24 @@ concurrency:
 
 jobs:
   gate:
-    name: Gate + tests + lint (side-effect-free)
+    name: Gate + tests + lint (py ${{ matrix.python }})
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5.3.0
         with:
-          python-version: "3.12"
-      - name: Install (dev)
-        run: pip install -e ".[dev]"
+          python-version: ${{ matrix.python }}
+      - name: Install (package + pinned dev toolchain)
+        run: |
+          python -m pip install -e .
+          python -m pip install -r .github/requirements-ci.txt
       - name: Claim gate — artifacts exist, provenance present, docs + code bound
         run: python -m vericlaim
-      - name: Tests (incl. drift-detection + version-consistency guarantees)
+      - name: Tests (incl. drift-detection + version-consistency + handbook)
         run: pytest -q
       - name: Lint
         run: ruff check .
@@ -46,11 +51,13 @@ jobs:
     name: Reproduce oracle (every number still true today)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5.3.0
         with:
           python-version: "3.12"
-      - name: Install (dev)
-        run: pip install -e ".[dev]"
+      - name: Install (package + pinned dev toolchain)
+        run: |
+          python -m pip install -e .
+          python -m pip install -r .github/requirements-ci.txt
       - name: Reproduce — re-run each evidence script, artifact must be byte-identical
         run: python -m vericlaim reproduce

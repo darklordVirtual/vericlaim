@@ -1,0 +1,6 @@
+# Pinned dev/CI toolchain — the gate that verifies reproducibility must itself
+# run on a fixed toolchain, so a CI result is a property of the code, not of
+# whatever pytest/ruff floated in that day. Bump deliberately, in this file.
+# (The vericlaim PACKAGE stays zero-dependency; these are dev-only.)
+pytest==9.0.3
+ruff==0.15.16
