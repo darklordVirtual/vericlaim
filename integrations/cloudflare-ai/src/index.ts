@@ -81,8 +81,11 @@ export default {
       return await handle(req, env, ctx);
     } catch (err) {
       // Error boundary: any unhandled throw becomes a JSON 500 WITH CORS headers,
-      // never a bare framework 500 that a browser client cannot even read.
-      return json({ error: "internal error", detail: String((err as Error)?.message ?? err) }, 500);
+      // never a bare framework 500 that a browser client cannot even read. Do NOT
+      // leak the internal message to the client — log it server-side (wrangler
+      // tail) and return a generic error.
+      console.error("unhandled error", err);
+      return json({ error: "internal error" }, 500);
     }
   },
 };
@@ -96,6 +99,13 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
 
     if (p === "/mcp") {
       if (env.ENABLE_MCP !== "true") return json({ error: "MCP disabled" }, 404);
+      // MCP exposes GENERATIVE tools (ask_claims / ask_research drive Workers AI),
+      // so it MUST pass the same generative authorization as /ask. Without this an
+      // ENABLE_MCP deployment is an unauthenticated cost/access bypass AROUND
+      // READ_TOKEN — you could set READ_TOKEN, believe /ask is protected, and still
+      // have an open generative endpoint on /mcp. (When no READ_TOKEN is set the
+      // posture matches /ask: public. Scoped MCP_TOKEN is a tracked follow-up.)
+      if (!generativeAllowed(req, env)) return json({ error: "unauthorized" }, 401);
       return mcpHandler.fetch(req, env, ctx);
     }
 

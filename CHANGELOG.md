@@ -43,7 +43,18 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
   (EN+NO), and the library caveats (the two-180s / registrar false-match).
 
 ### Security
-- Closed the bundle traversal-write vector (read + write side).
+- Closed the bundle traversal-write vector on ALL three surfaces: `verify_bundle`
+  (read), `import_bundle` (vendor write), and now `fetch_bundle` (network
+  download) — the download path staged in a private temp dir, safe-joins every
+  manifest path before writing, verifies, then atomically moves into place
+  (P0-2). Adversarial tests for `../`, absolute, backslash, and Windows-drive
+  manifest paths.
+- Closed the MCP generative-auth bypass: `/mcp` now passes the same
+  `generativeAllowed()` gate as `/ask`, because it exposes `ask_claims` /
+  `ask_research` (Workers AI). Setting `READ_TOKEN` no longer leaves an open
+  generative endpoint on `/mcp` (P0-1).
+- Stopped leaking internal `err.message` to clients from the Worker error
+  boundary — logged server-side, generic 500 returned (P1).
 - Closed drift-past-the-gate vectors (unbalanced fence, unverified provenance
   hash, unchecked register metrics).
 - See the security findings table in the implementation report.

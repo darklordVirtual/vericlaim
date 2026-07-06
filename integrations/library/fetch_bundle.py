@@ -15,12 +15,16 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 import sys
+import tempfile
 import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, for vericlaim.*
 from bundlefmt import verify_bundle  # noqa: E402
+from vericlaim.pathsafe import PathSafetyError, check_bundle_id, safe_join  # noqa: E402
 
 
 def _get(url: str) -> bytes:
@@ -34,16 +38,43 @@ def _get(url: str) -> bytes:
 
 def fetch(url: str, bundle_id: str, out_root: Path) -> Path:
     base = url.rstrip("/")
+    # The bundle id names a directory — it is UNTRUSTED input. Validate it as
+    # strict sha256 hex before it ever touches the filesystem.
+    check_bundle_id(bundle_id)
     meta = json.loads(_get(f"{base}/library/bundle/{bundle_id}"))
-    bdir = Path(out_root) / bundle_id
-    for rel, sha in meta["manifest"]["files"].items():
-        dest = bdir / rel
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(_get(f"{base}/library/file/{sha}"))
-    (bdir / "MANIFEST.json").write_text(
-        json.dumps(meta["manifest"], sort_keys=True, indent=2) + "\n",
-        encoding="utf-8")
-    report = verify_bundle(bdir)  # fail-closed: raises on any mismatch
+    files = meta.get("manifest", {}).get("files")
+    if not isinstance(files, dict):
+        raise ValueError("bundle response has no manifest.files map")
+
+    out_root = Path(out_root)
+    final = out_root / bundle_id
+    # Download into a PRIVATE staging dir named <bundle_id>, so a manifest path
+    # can never be written before it is validated and the bundle verified. Every
+    # manifest key is resolved with safe_join (rejects ../, absolute, backslash,
+    # Windows drive, symlink escape) BEFORE any byte is written. Only after full
+    # verification is the staged bundle moved into place atomically.
+    staging_parent = Path(tempfile.mkdtemp(prefix="vericlaim-fetch-"))
+    stage = staging_parent / bundle_id
+    stage.mkdir(parents=True)
+    try:
+        for rel, sha in files.items():
+            try:
+                dest = safe_join(stage, str(rel))
+            except PathSafetyError as exc:
+                raise ValueError(f"unsafe manifest path {rel!r}: {exc}") from exc
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(_get(f"{base}/library/file/{sha}"))
+        (stage / "MANIFEST.json").write_text(
+            json.dumps(meta["manifest"], sort_keys=True, indent=2) + "\n",
+            encoding="utf-8")
+        report = verify_bundle(stage)  # fail-closed: raises on any mismatch
+        out_root.mkdir(parents=True, exist_ok=True)
+        if final.exists():
+            shutil.rmtree(final)
+        shutil.move(str(stage), str(final))
+    finally:
+        shutil.rmtree(staging_parent, ignore_errors=True)
+    bdir = final
     print(f"[OK] fetched + locally verified bundle {report['bundle_id'][:12]}… "
           f"({report['n_files']} files, status {report['status']}) -> {bdir}")
     if meta.get("superseded_by"):
