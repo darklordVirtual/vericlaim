@@ -88,23 +88,25 @@ export async function searchClaims(
   env: Env, query: string, topK = 5,
 ): Promise<SearchHit[]> {
   const [vector] = await embed(env, [query]);
-  // Over-fetch and drop library vectors (`lib:*`) so project-claim search and
-  // library search stay separate surfaces (see library.ts for the latter).
-  // Over-fetch generously: library vectors (`lib:*`) share this index and
-  // can outnumber project claims 50:1, so a small topK*2 window can come
-  // back all-library and filter down to zero real hits.
-  const res = await env.VECTORIZE.query(vector, {
-    topK: Math.min(50, Math.max(20, topK * 2)), returnMetadata: "all",
+  // Library vectors (`lib:*`) share this index and outnumber project claims
+  // ~50:1, and returnMetadata caps topK at 20 — a metadata query can come
+  // back all-library and filter down to zero real hits. So: wide id-only
+  // query, drop `lib:*` by id prefix, fetch metadata for the survivors.
+  const res = await env.VECTORIZE.query(vector, { topK: 100 });
+  const kept = res.matches.filter((m) => !m.id.startsWith("lib:")).slice(0, topK);
+  if (!kept.length) return [];
+  const byId = new Map(
+    (await env.VECTORIZE.getByIds(kept.map((m) => m.id)))
+      .map((v) => [v.id, v.metadata ?? {}] as const));
+  return kept.map((m) => {
+    const md = byId.get(m.id) ?? {};
+    return {
+      id: m.id,
+      score: m.score,
+      statement: String(md.statement ?? ""),
+      evidence_level: String(md.evidence_level ?? ""),
+      caveat: String(md.caveat ?? ""),
+      artifact: String(md.artifact ?? ""),
+    };
   });
-  return res.matches
-    .filter((m) => String(m.metadata?.library ?? "") !== "true")
-    .slice(0, topK)
-    .map((m) => ({
-    id: m.id,
-    score: m.score,
-    statement: String(m.metadata?.statement ?? ""),
-    evidence_level: String(m.metadata?.evidence_level ?? ""),
-    caveat: String(m.metadata?.caveat ?? ""),
-    artifact: String(m.metadata?.artifact ?? ""),
-  }));
 }

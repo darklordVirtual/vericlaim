@@ -1,8 +1,16 @@
 name: Claim Gate
 
-# Claim-Oriented Programming enforcement. This workflow is the executable
-# contract: it fails the build if any claim drifts from its committed evidence
-# or if the docs drift from the claim register. Runs on every push and PR.
+# Claim-Oriented Programming enforcement — the executable contract. If any claim
+# drifts from its committed evidence, the docs drift from the register, the
+# project's own version drifts, or a registered number stops reproducing, the
+# build fails with the exact file:line. Runs on every push and PR.
+#
+# Two jobs, on purpose:
+#   gate      — SIDE-EFFECT-FREE. Reads files only (gate + tests + lint). Safe to
+#               run anywhere, never needs secrets.
+#   reproduce — EXECUTES each claim's reproduce script (same trust level as the
+#               test suite). Separated so it can be reasoned about independently
+#               and never shares a job with deploy secrets.
 
 on:
   push:
@@ -12,28 +20,37 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: claim-gate-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   gate:
-    name: Vericlaim gate + tests
+    name: Gate + tests + lint (side-effect-free)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Install (dev)
         run: pip install -e ".[dev]"
-
-      - name: Claim gate (artifacts exist, provenance present, docs bound)
+      - name: Claim gate — artifacts exist, provenance present, docs + code bound
         run: python -m vericlaim
-
-      - name: Reproduce oracle (every registered number still holds)
-        run: python -m vericlaim reproduce
-
-      - name: Tests
+      - name: Tests (incl. drift-detection + version-consistency guarantees)
         run: pytest -q
-
       - name: Lint
         run: ruff check .
+
+  reproduce:
+    name: Reproduce oracle (every number still true today)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install (dev)
+        run: pip install -e ".[dev]"
+      - name: Reproduce — re-run each evidence script, artifact must be byte-identical
+        run: python -m vericlaim reproduce

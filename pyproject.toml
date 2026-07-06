@@ -4,7 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "vericlaim"
-version = "0.3.0"
+# Version is single-sourced from vericlaim/__init__.py (see [tool.hatch.version]).
+dynamic = ["version"]
 description = "A Claim-Oriented Programming gate: verify a project's claims against committed artifacts and keep AI-authored code and docs from drifting. Design by Contract for the whole repository, enforced in CI."
 readme = "README.md"
 license = { text = "Apache-2.0" }
@@ -28,6 +29,9 @@ vericlaim = "vericlaim.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/darklordVirtual/vericlaim"
+
+[tool.hatch.version]
+path = "vericlaim/__init__.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["vericlaim"]

@@ -1,0 +1,66 @@
+name: Edge Sync
+
+# Keeps the OPTIONAL Cloudflare truth layer in lock-step with the register, so
+# the live search / oracle / passport can never drift from what the gate just
+# verified. Runs only on the canonical repo's default branch, only after the
+# gate is green, and only if the sync secrets are configured — otherwise it
+# skips cleanly (forks and unconfigured repos are never failed by it).
+#
+# It NEVER pushes a red mirror: the side-effect-free gate runs first and the
+# refresh step is gated on it passing. The register + local gate remain
+# authoritative; this only refreshes the derived, additive edge mirror.
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: edge-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    name: Refresh edge mirror from the register
+    runs-on: ubuntu-latest
+    # Canonical repo only — never attempt to push from a fork.
+    if: github.repository == 'darklordVirtual/vericlaim'
+    env:
+      WORKER_URL: ${{ secrets.WORKER_URL }}
+      INDEX_TOKEN: ${{ secrets.INDEX_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -e .
+
+      - name: Guard — are the sync secrets configured?
+        id: guard
+        run: |
+          if [ -z "$INDEX_TOKEN" ] || [ -z "$WORKER_URL" ]; then
+            echo "::notice::WORKER_URL / INDEX_TOKEN not set — skipping edge refresh (register + gate remain the source of truth)."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Gate — never refresh from a red register
+        if: steps.guard.outputs.skip != 'true'
+        run: python -m vericlaim
+
+      - name: Refresh claim mirror (register -> live search / oracle / passport)
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          python3 integrations/cloudflare-ai/export_claims.py \
+            --push "$WORKER_URL" --token "$INDEX_TOKEN"
+
+      - name: Verify the live ledger chain is intact
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          python3 integrations/cloudflare-ai/witness.py \
+            --url "$WORKER_URL" --verify || \
+            echo "::warning::ledger verify unavailable; mirror refreshed regardless"

@@ -10,5 +10,8 @@ from .config import Config, load_config
 from .gate import run
 from .register import load_register
 
-__version__ = "0.1.0"
+# SINGLE SOURCE OF TRUTH for the version. pyproject.toml reads it via
+# [tool.hatch.version]; CITATION.cff and the README are held to it by
+# tests/test_version_consistency.py and CLAIM-META-001. Bump here, nowhere else.
+__version__ = "0.4.0"
 __all__ = ["Config", "load_config", "run", "load_register", "__version__"]

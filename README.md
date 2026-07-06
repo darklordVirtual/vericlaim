@@ -246,65 +246,39 @@ discipline automatically: produce evidence first, register every number as an
 artifact-backed claim, bind docs with anchors, run the gate, and never state a
 figure it cannot source.
 
-## Optional: Cloudflare AI add-on
+## Beyond the gate: the claim ecosystem
 
-The core needs no network and no dependencies. If you *want* a verifiable,
-queryable, tamper-evident **truth layer** for your claims on the edge, an
-**optional** add-on lives in
-[`integrations/cloudflare-ai/`](integrations/cloudflare-ai/). It gives you five
-capabilities against your own Cloudflare account:
+The zero-dependency gate above is the whole product — it needs no network and
+stands alone. Three **optional, additive** layers build on it; none changes
+what the gate proves, and each has its own README.
 
-- **Semantic search** over claims (Workers AI + Vectorize) — *"what has this project proven about X?"*
-- **A tamper-evident claim ledger** (D1) — append-only, hash-chained history; change any past entry and `/ledger/verify` names where the chain breaks.
-- **A content-addressed evidence vault** (R2) — retrieve and re-hash the exact bytes that backed a claim.
-- **An AI oracle that refuses to overclaim** (Workers AI) — answers only from registered claims, cites claim ids, and refuses when none support the answer.
-- **A public trust surface** — a shareable `/passport` page and `/badge.svg`, plus an optional **MCP server** (`search_claims`, `ask_claims`, `get_claim_history`, `verify_claim`) for Claude Code and other agents.
+1. **The Cloudflare truth layer** — [`integrations/cloudflare-ai/`](integrations/cloudflare-ai/).
+   Mirrors your register to the edge: semantic **search** over claims, a
+   tamper-evident **ledger** (`/ledger/verify` names where a chain breaks), a
+   content-addressed evidence **vault**, an **oracle** that answers only from
+   registered claims and refuses otherwise, and a public `/passport` + MCP
+   server (`search_claims`, `ask_claims`, `verify_claim`).
 
-It is opt-in and deploys to your own account; search and answers are discovery
-aids and do **not** change what the gate proves. See its
-[README](integrations/cloudflare-ai/README.md).
+2. **The research RAG** — a literature corpus that *refuses to guess*. Every
+   work enters only through a registrar guard or an explicit hash-locked
+   snapshot; the oracle refuses when no cataloged excerpt supports an answer.
+   <!-- claim:CLAIM-LIB-RAG-001 canon_total canon_verified canon_dropped -->
+   It holds <!-- v:CLAIM-LIB-RAG-001.canon_total -->**180** works across 15
+   collections, of which <!-- v:CLAIM-LIB-RAG-001.canon_verified -->**171** are
+   verified into the hash-locked catalog and
+   <!-- v:CLAIM-LIB-RAG-001.canon_dropped -->**9** are documented drops —
+   coverage is checked fail-closed, so a gap can be honest but never silent.
+   <!-- claim:CLAIM-LIB-RAG-002 catalog_works chunks_total -->
+   All <!-- v:CLAIM-LIB-RAG-002.catalog_works -->**180** works are chunked into
+   <!-- v:CLAIM-LIB-RAG-002.chunks_total -->**9805** content-addressed chunks
+   (ask it via `/research/ask` or MCP `ask_research`). Retrieval is never
+   evidence: a hit proves the text was cataloged, not that it is true.
 
-### The research layer: a RAG that refuses to guess
-
-Most RAG pipelines answer confidently from whatever they half-retrieved — and
-you cannot tell a grounded answer from a fluent guess. The consequence: one
-fabricated "the literature says…" in a design review costs you the meeting.
-This layer makes the corpus itself vetted: a machine-readable canonical
-research map is the coverage contract, every work enters the catalog only
-through a registrar guard or an explicit hash-locked snapshot, chunks are
-content-addressed, and the oracle **refuses** when no cataloged excerpt
-supports an answer.
-
-<!-- claim:CLAIM-LIB-RAG-001 canon_total canon_verified canon_dropped -->
-The canonical research map holds <!-- v:CLAIM-LIB-RAG-001.canon_total -->**180**
-works across 15 collections (uncertainty/conformal, agents, evaluation, agent
-security, governance — including the EU AI Act, GDPR, NIS2 and the NIST
-risk stack — MLOps, provenance/supply-chain, formal methods, fairness,
-assurance cases, the frontier-engineering stack — training your own
-models, software-engineering/SaaS systems, marketing science and finance —
-and the latest AGI research: reasoning models, agents, world models,
-state-space architectures, multimodal learning and mechanistic
-interpretability, with honest counterpoints);
-<!-- v:CLAIM-LIB-RAG-001.canon_verified -->**171**
-are verified into the hash-locked catalog and
-<!-- v:CLAIM-LIB-RAG-001.canon_dropped -->**9** are documented drops with
-reasons — coverage is checked fail-closed, so a gap can be honest but never
-silent (verification binds registrar metadata or a snapshot, not the truth of
-a work's content; see the register caveat).
-
-<!-- claim:CLAIM-LIB-RAG-002 catalog_works chunks_total -->
-All <!-- v:CLAIM-LIB-RAG-002.catalog_works -->**180** catalog works are
-deterministically chunked into
-<!-- v:CLAIM-LIB-RAG-002.chunks_total -->**9805** content-addressed chunks
-and pushed to a separate Vectorize index — full text where an open arXiv
-rendering exists, registrar abstracts or page snapshots otherwise (the
-committed push manifest is what "pushed" means; the live index can lag until
-the next push).
-
-Ask it over HTTP (`/research/ask`) or MCP (`ask_research`,
-`search_literature_rag`). Retrieval is never evidence: a hit proves the text
-was cataloged and hash-locked — the claims register still decides what this
-project has *proven*.
+3. **The claims library + governance handbook** — reusable, pre-verified claims
+   (machine-checked theorems, runtime controls) that other projects vendor via
+   `import_bundle` / `use_code` with the evidence level and caveat intact, plus
+   a citation-grounded governance reference at
+   [`docs/governance/`](docs/governance/) (English + Norwegian).
 
 ## Citation
 
@@ -312,8 +286,12 @@ Claim-Oriented Programming and vericlaim are by **Stian Skogbrott**. Please cite
 it — see [`CITATION.cff`](CITATION.cff) (GitHub renders a "Cite this repository"
 button from it):
 
-> Skogbrott, S. (2026). *vericlaim: A Claim-Oriented Programming gate* (v0.3.0).
+> Skogbrott, S. (2026). *vericlaim: A Claim-Oriented Programming gate* (v0.4.0).
 > https://github.com/darklordVirtual/vericlaim
+
+<sub>The version above is held equal to `vericlaim/__init__.__version__`
+(single source of truth) by `tests/test_version_consistency.py` and recorded as
+`CLAIM-META-001` — vericlaim refuses to let its own version drift.</sub>
 
 ## License
 

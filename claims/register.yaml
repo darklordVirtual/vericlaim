@@ -12,6 +12,25 @@ schema_version: "1"
 
 claims:
 
+  - id: CLAIM-META-001
+    statement: >
+      vericlaim's own version is single-sourced from vericlaim/__init__.py and
+      is 0.4.0; pyproject.toml derives it (hatch), and CITATION.cff, the README
+      and the package metadata are held identical to it by
+      tests/test_version_consistency.py. The tool refuses to let its own
+      version drift — the failure it exists to prevent.
+    evidence_level: measured
+    artifact:
+      - "claims/version.json"
+    metrics:
+      version: "0.4.0"
+    caveat: >
+      "Single-sourced" means __init__.__version__ is authoritative and every
+      other occurrence is checked equal to it by the test suite and this bound
+      README line. It asserts consistency, not that 0.4.0 is the "right" release
+      number — that is the maintainer's call, bumped in one place.
+    reproduce: "python3 tools/version_evidence.py"
+
   - id: CLAIM-CORE-001
     statement: >
       The vericlaim gate has zero third-party runtime dependencies: it runs on
