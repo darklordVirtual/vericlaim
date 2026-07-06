@@ -104,19 +104,26 @@ def _m(ok: bool) -> str:
 def main() -> int:
     rounds = int(sys.argv[1]) if len(sys.argv) > 1 else 3
     interval = float(sys.argv[2]) if len(sys.argv) > 2 else 0.0
+    max_seconds = float(sys.argv[3]) if len(sys.argv) > 3 else 0.0
     print("Autonomous governance loop — verbose; propose-only; envelope-guarded")
-    print(f"rounds={'until stopped' if rounds == 0 else rounds}  interval={interval}s")
+    print(f"rounds={'until stopped' if rounds == 0 else rounds}  interval={interval}s"
+          f"  max_seconds={'none' if max_seconds <= 0 else max_seconds}")
     print(f"Operator stop: create {ROOT / 'claims' / 'STOP_SELF_IMPROVEMENT'} or interrupt.")
     print("=" * 68)
+    start = time.monotonic()
     prev: Snapshot | None = None
     n = 0
     while rounds == 0 or n < rounds:
+        elapsed = time.monotonic() - start
+        if max_seconds > 0 and elapsed >= max_seconds:
+            print(f"\n[DONE] time budget reached ({max_seconds:g}s) after {n} round(s).")
+            break
         n += 1
         cfg = load_config(ROOT)
         if stopped(cfg):
             print(f"[HALT] round {n}: kill-switch present — operator stopped the loop.")
-            return 0
-        print(f"\n── round {n} ──", flush=True)
+            break
+        print(f"\n── round {n} (t+{elapsed:.0f}s) ──", flush=True)
         snap, healthy, notes = run_round(n, prev)
         if not healthy:
             print(f"[HALT] round {n} failed closed: {notes}")
@@ -124,12 +131,17 @@ def main() -> int:
             return 1
         prev = snap
         if interval > 0 and (rounds == 0 or n < rounds):
-            print(f"  … sleeping {interval:g}s until next round (kill-switch honored on wake)",
+            remaining = (max_seconds - (time.monotonic() - start)) if max_seconds > 0 else interval
+            if max_seconds > 0 and remaining <= 0:
+                continue
+            nap = min(interval, remaining) if max_seconds > 0 else interval
+            print(f"  … sleeping {nap:g}s until next round (kill-switch honored on wake)",
                   flush=True)
-            time.sleep(interval)
+            time.sleep(nap)
+    total = time.monotonic() - start
     print("\n" + "=" * 68)
-    print(f"[OK] {n} round(s) completed; every round green and non-weakening. "
-          f"Loop is stoppable and applied nothing (propose-only).")
+    print(f"[OK] {n} round(s) over {total:.0f}s; every round green and non-weakening. "
+          f"Loop applied nothing (propose-only).")
     return 0
 
 
