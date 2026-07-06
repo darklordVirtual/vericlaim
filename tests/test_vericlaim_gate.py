@@ -271,3 +271,113 @@ def test_init_never_overwrites(tmp_path):
 
     init(tmp_path)
     assert (tmp_path / "vericlaim.toml").read_text() == "KEEP ME"
+
+
+# ── audit hardening: metrics <-> artifact JSON binding ──────────────────────
+
+def test_metrics_match_artifact_passes_and_catches_mismatch(tmp_path):
+    from vericlaim.gate import check_metrics_match_artifact
+    (tmp_path / "a.json").write_text('{"overall_ratio": 8.0584, "n_files": 4}')
+    claims = [{"id": "C-1", "artifact": ["a.json"],
+               "metrics": {"overall_ratio": 8.0584}}]
+    cfg = _cfg(tmp_path)
+    assert check_metrics_match_artifact(claims, cfg) == []
+    # A register metric that disagrees with the artifact JSON fails — even
+    # though the artifact reproduces byte-identically and the doc would bind.
+    claims[0]["metrics"]["overall_ratio"] = 9.9
+    ids = [e for e, _ in check_metrics_match_artifact(claims, cfg)]
+    assert any(e.startswith("metrics-artifact-mismatch") for e in ids)
+
+
+def test_metrics_match_artifact_ignores_keys_absent_from_artifact(tmp_path):
+    from vericlaim.gate import check_metrics_match_artifact
+    (tmp_path / "a.json").write_text('{"n_files": 4}')
+    # runtime_dependencies is a doc-only aggregate not stored in the artifact.
+    claims = [{"id": "C-1", "artifact": ["a.json"],
+               "metrics": {"runtime_dependencies": 0}}]
+    assert check_metrics_match_artifact(claims, _cfg(tmp_path)) == []
+
+
+def test_metrics_match_artifact_treats_bool_as_one(tmp_path):
+    from vericlaim.gate import check_metrics_match_artifact
+    (tmp_path / "a.json").write_text('{"all_passed": true}')
+    claims = [{"id": "C-1", "artifact": ["a.json"], "metrics": {"all_passed": 1}}]
+    assert check_metrics_match_artifact(claims, _cfg(tmp_path)) == []
+
+
+def test_metrics_match_artifact_finds_nested_value(tmp_path):
+    from vericlaim.gate import check_metrics_match_artifact
+    (tmp_path / "a.json").write_text('{"per_file": {"runs": {"ratio": 42.5}}}')
+    claims = [{"id": "C-1", "artifact": ["a.json"], "metrics": {"ratio": 42.5}}]
+    assert check_metrics_match_artifact(claims, _cfg(tmp_path)) == []
+
+
+# ── audit hardening: unbalanced code fence must fail loudly ─────────────────
+
+def test_unbalanced_fence_is_flagged(tmp_path):
+    from vericlaim.gate import check_fence_balance
+    doc = tmp_path / "d.md"
+    doc.write_text("intro\n```\ncode\nno closing fence\n")
+    ids = [e for e, _ in check_fence_balance(_cfg(tmp_path), doc, doc.read_text())]
+    assert any(e.startswith("unbalanced-code-fence") for e in ids)
+
+
+def test_balanced_fence_is_ok(tmp_path):
+    from vericlaim.gate import check_fence_balance
+    doc = tmp_path / "d.md"
+    doc.write_text("intro\n```\ncode\n```\nafter\n")
+    assert check_fence_balance(_cfg(tmp_path), doc, doc.read_text()) == []
+
+
+def test_unclosed_fence_no_longer_silently_hides_drift(tmp_path):
+    """An unclosed fence used to disable every downstream anchor; the balance
+    check now fails the build so the drift can't hide behind it."""
+    doc = tmp_path / "d.md"
+    doc.write_text(
+        "```\nan unclosed fence\n\n"
+        "<!-- claim:C-1 ratio -->\nThe ratio is 9.9 now.\n")
+    from vericlaim.gate import check_fence_balance
+    ids = [e for e, _ in check_fence_balance(_cfg(tmp_path), doc, doc.read_text())]
+    assert any(e.startswith("unbalanced-code-fence") for e in ids)
+
+
+# ── audit hardening: non-numeric metric must not crash the gate ─────────────
+
+def test_non_numeric_metric_binds_by_string_not_crash(tmp_path):
+    doc = tmp_path / "d.md"
+    doc.write_text("<!-- claim:V version -->\nThe version is 0.4.0 today.\n")
+    by = {"V": {"id": "V", "metrics": {"version": "0.4.0"}}}
+    cfg = _cfg(tmp_path)
+    # A string metric ("0.4.0") must not raise float("0.4.0"); it binds by
+    # substring and passes when present, fails when absent.
+    assert check_doc_anchors(cfg, doc, doc.read_text(), by) == []
+    doc.write_text("<!-- claim:V version -->\nThe version is 0.3.0 today.\n")
+    ids = [e for e, _ in check_doc_anchors(cfg, doc, doc.read_text(), by)]
+    assert any(e.startswith("anchor-value-drift") for e in ids)
+
+
+def test_percentage_string_metric_does_not_crash(tmp_path):
+    doc = tmp_path / "d.md"
+    doc.write_text("<!-- claim:P rate -->\nThe rate is 95% overall.\n")
+    by = {"P": {"id": "P", "metrics": {"rate": "95%"}}}
+    # "95%" is non-numeric; the gate must report/bind, never traceback.
+    assert check_doc_anchors(_cfg(tmp_path), doc, doc.read_text(), by) == []
+
+
+# ── audit hardening: provenance hash must match the artifact ─────────────────
+
+def test_provenance_hash_mismatch_flagged(tmp_path):
+    import hashlib
+    from vericlaim.gate import check_provenance
+    art = tmp_path / "a.json"
+    art.write_text('{"x": 1}')
+    good = hashlib.sha256(art.read_bytes()).hexdigest()
+    sidecar = tmp_path / "a.json.provenance.json"
+    sidecar.write_text(f'{{"script": "s", "artifact_sha256": "{good}"}}')
+    claims = [{"id": "C-1", "artifact": ["a.json"], "reproduce": "s"}]
+    cfg = _cfg(tmp_path, require_provenance=True)
+    assert check_provenance(claims, cfg) == []
+    # Edit the artifact after stamping: the recorded hash no longer matches.
+    art.write_text('{"x": 2}')
+    ids = [e for e, _ in check_provenance(claims, cfg)]
+    assert any(e.startswith("provenance-hash-mismatch") for e in ids)

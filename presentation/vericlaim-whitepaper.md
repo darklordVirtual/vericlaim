@@ -119,7 +119,7 @@ Grensen er en del av produktet: den står i README-en, i Claude-skillen og i hve
  | 880 | Eksakte konform-garantisjekker (identitet, ties, p-verdi) | THM-CONF-001..003 |
  | 373/400 · 94 | TrustGate-dekning · sertifiseringsrunde | DEMO-001/002, trustgate-demo |
  `claims/witness.jsonl`| 16 | Offentlige ledger-vitner, alle forlenget klient-side | , vericlaim |
- | 131 | Tester i vericlaim-kjernen (TDD, alle grønne ved release) | vericlaim v0.3.0 |
+ | 187 | Tester i vericlaim-kjernen (TDD, alle grønne ved release) | vericlaim v0.4.0 |
 
 ## 12. Utvalgte referanser (alle registrar-verifiserte i biblioteket)
 
@@ -133,6 +133,6 @@ Grensen er en del av produktet: den står i README-en, i Claude-skillen og i hve
 - Lipman et al. (2022). Flow Matching. arXiv:2210.02747 · Bronstein et al. (2021). Geometric Deep Learning. arXiv:2104.13478 · Carlsson (2009). Topology and Data. doi:10.1090/s0273-0979-09-01249-x
 ## 13. Etterprøvbarhet
 
-Alt i dette dokumentet er offentlig og re-verifiserbart: `github.com/darklordVirtual/vericlaim` (rammeverket, v0.3.0, Apache-2.0), `…/claimlib-seeds` (den seedede kunnskapen), `…/trustgate-demo` (casestudien), og truth-layeret live på `vericlaim-claims.razorsharp.workers.dev/passport`. Kjør `vericlaim && vericlaim reproduce` i hvert repo — det er hele poenget.
+Alt i dette dokumentet er offentlig og re-verifiserbart: `github.com/darklordVirtual/vericlaim` (rammeverket, v0.4.0, Apache-2.0), `…/claimlib-seeds` (den seedede kunnskapen), `…/trustgate-demo` (casestudien), og truth-layeret live på `vericlaim-claims.razorsharp.workers.dev/passport`. Kjør `vericlaim && vericlaim reproduce` i hvert repo — det er hele poenget.
 
- VeriClaim og Claim-Oriented Programming: Stian Skogbrott, Remora Research · 2026 · Hvert tall i dette dokumentet er en registrert claim med committet artefakt; tabellen i §11 angir kilden per tall.
+ VeriClaim og Claim-Oriented Programming: Stian Skogbrott, Remora Research · 2026 · Tallene i dette dokumentet er hentet fra registrene i vericlaim, claimlib-seeds og trustgate-demo (ikke alle vendored/gate-verifisert i ett repo); tabellen i §11 angir kilden per tall. Selve dette dokumentet ligger utenfor vericlaim-gaten.

@@ -24,4 +24,4 @@ Each example follows the same loop:
 
 Pick any one, edit the number in its doc (or its code, then re-run the
 evidence), and run `python3 -m vericlaim` from the repo root — the gate points at
-the exact drift. That is the whole idea, in three domains.
+the exact drift. That is the whole idea, in four domains.

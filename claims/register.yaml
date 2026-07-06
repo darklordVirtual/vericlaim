@@ -177,7 +177,7 @@ claims:
 
   - id: CLAIM-LIB-RAG-003
     statement: >
-      A live round-trip against the deployed Worker on 2026-07-05 passed all
+      A live round-trip against the deployed Worker on 2026-07-06 passed all
       checks, including: research search finds Conformal Risk Control, the
       research oracle answers a supported question with work-id citations,
       and it refuses an off-corpus question.

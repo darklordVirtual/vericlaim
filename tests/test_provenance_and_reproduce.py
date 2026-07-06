@@ -29,6 +29,21 @@ def test_stamp_and_load_roundtrip(tmp_path):
     assert sidecar_path(art).name == "r.json" + SUFFIX
 
 
+def test_stamp_is_idempotent_when_artifact_unchanged(tmp_path):
+    """Re-stamping an unchanged artifact must not churn the sidecar, so running
+    an evidence script (or `vericlaim reproduce`) leaves a clean working tree."""
+    art = tmp_path / "r.json"
+    art.write_text("{}")
+    stamp(art, script="python3 bench.py", produced_by="ci")
+    first = sidecar_path(art).read_text()
+    stamp(art, script="python3 bench.py", produced_by="ci")
+    assert sidecar_path(art).read_text() == first  # byte-identical, no drift
+    # A real change to the artifact does move the stamp.
+    art.write_text('{"x": 1}')
+    stamp(art, script="python3 bench.py", produced_by="ci")
+    assert sidecar_path(art).read_text() != first
+
+
 def test_require_provenance_flags_missing_for_produced_claim(tmp_path):
     art = tmp_path / "r.json"
     art.write_text("{}")

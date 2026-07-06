@@ -31,7 +31,7 @@ AI-authored code and prose (that is the point).
 ## Watch it stop a lie (60 seconds)
 
 ```bash
-pip install vericlaim        # or copy the zero-dependency vericlaim/ folder in
+pip install git+https://github.com/darklordVirtual/vericlaim   # or copy the zero-dependency vericlaim/ folder in
 cd your-project
 vericlaim init               # scaffolds config + register + baseline; overwrites nothing
 vericlaim                    # runs the gate — a fresh project passes immediately

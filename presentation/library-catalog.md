@@ -2,7 +2,7 @@
 
 Generert fra `https://vericlaim-claims.razorsharp.workers.dev/ledger/export` 2026-07-05T11:27:12+00:00 av `integrations/library/catalog.py` — **kun nyeste versjon per claim** (supersederte versjoner ligger i ledgeren som historikk). Unike oppføringer: **114** fra 4 kilderepoer. Regenerér fremfor å håndredigere.
 
-## /Users/stian/claimlib-seeds — 92 oppføringer
+## claimlib-seeds — 92 oppføringer
 
 | Claim | Nivå | Påstand |
 |---|---|---|
@@ -104,7 +104,7 @@ Generert fra `https://vericlaim-claims.razorsharp.workers.dev/ledger/export` 202
 | `REF-061` | Artificial Intelligence Risk Management Framework (AI RMF 1.0) | 2023 | `doi:10.6028/nist.ai.100-1` |
 | `REF-063` | Design - Who needs an architect? | 2003 | `doi:10.1109/ms.2003.1231144` |
 
-## /Users/stian/trustgate-demo — 5 oppføringer
+## trustgate-demo — 5 oppføringer
 
 | Claim | Nivå | Påstand |
 |---|---|---|
