@@ -18,3 +18,4 @@ on mismatch, so a silently-edited result artifact is caught in CI. On a Windows
 | `domains/ontologies/artifacts/ontology_conformance.json` | `381cdccac18af18a0346e5ca9b709fc10b4e232ac352bbb9cfcffc8bfe202622` |
 | `domains/cost_routing/artifacts/routing_report.json` | `9cadc90077058792f31b8bb12c70a06be6d1da40be76b7c572ce6246f729006c` |
 | `claims/selfimprove_envelope.json` | `3bb6fe76fdd276f52e768e0440768e42c95bd978bf8205ffc32348a366d86bfb` |
+| `claims/autonomous_cycle.json` | `7efd2cbcec7ba1511e93d5d011cfd54e6a654e0f427d73844bb2dc7f432c1ab6` |
