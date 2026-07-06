@@ -82,5 +82,11 @@ separate opt-in.
   loop is intentionally absent; the boundary is the safety mechanism.
 - The envelope guards the repository's *declared guarantees*. It does not make
   the tool smarter and does not prove semantic truth.
+- The envelope is a **pure comparator** over two snapshots — it trusts the
+  `gate_ok` / `test_count` recorded in the candidate rather than re-running the
+  gate itself. `Snapshot.capture` derives those from the real repo, but a caller
+  that fabricates a snapshot can defeat it. That is precisely why this is
+  propose-only and human-gated: it is a guardrail against accidental regression,
+  not an autonomous gatekeeper that withstands a dishonest caller.
 - `CLAIM-RSI-001` is `measured`: the property is demonstrated on a fixed, finite
   battery, not proven for all inputs.

@@ -143,7 +143,6 @@ def test_malicious_manifest_path_is_rejected(tmp_path):
     (bdir / "provenance.json").write_bytes(_canonical({}))
     (tmp_path / "escape.json").write_bytes(evil_data)  # plant the escape target
     man = _manifest_dict(files, "verified")
-    bid = _sha256(_canonical(man))
     (bdir / "MANIFEST.json").write_text(_json.dumps(man, sort_keys=True, indent=2) + "\n")
     # Even though hashes/id are internally consistent, the unsafe key is rejected.
     with pytest.raises(BundleError):

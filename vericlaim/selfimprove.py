@@ -90,15 +90,27 @@ class Snapshot:
                 claim_levels = {}
                 gate_ok = False  # an unparseable register is not a passing state
         baseline_count = _baseline_count(cfg)
-        core_hashes = {rel: _hash_file(cfg.path(rel)) for rel in PROTECTED_CORE}
+        # Hash the ENTIRE trusted core package, not a hardcoded subset — so a
+        # self-proposed change that ADDS a new core module or DELETES one is
+        # detected too, not only edits to known files.
+        core_hashes = _hash_tree(cfg.path("vericlaim"))
         return cls(claim_levels, test_count, baseline_count, core_hashes, gate_ok)
 
 
 def check_non_weakening(before: Snapshot, after: Snapshot) -> list[str]:
     """Return the list of ways *after* WEAKENS *before*. Empty list == safe to
-    consider. This is the safety envelope: a self-proposed change may be applied
-    (by a human) only if this returns no violations. Fail closed — any doubt is a
-    violation."""
+    consider. A self-proposed change may be applied (by a human) only if this
+    returns no violations. Fail closed — any doubt is a violation.
+
+    TRUST MODEL (important): this is a pure comparator over two snapshots. It does
+    NOT itself run the gate or count tests — it trusts the ``gate_ok`` and
+    ``test_count`` recorded in *after*. Its guarantee is therefore only as honest
+    as the capture that produced *after*; ``Snapshot.capture`` derives them from
+    the real repo (and forces ``gate_ok=False`` on an unparseable register), but a
+    caller that hand-builds a snapshot with ``gate_ok=True`` can defeat it. This is
+    why self-improvement is PROPOSE-ONLY and human-gated: the envelope is a
+    guardrail against accidental regression, not an autonomous gatekeeper that can
+    withstand a dishonest caller."""
     violations: list[str] = []
 
     # 1. The candidate must itself pass the gate. A red gate is never an
@@ -126,11 +138,23 @@ def check_non_weakening(before: Snapshot, after: Snapshot) -> list[str]:
         violations.append(
             f"baseline (known_violations) grew ({before.baseline_count} -> {after.baseline_count})")
 
-    # 6. The trusted verifier core must be byte-unchanged.
-    for rel, h in before.core_hashes.items():
-        if after.core_hashes.get(rel) != h:
-            violations.append(f"protected verifier core modified: {rel} "
-                              f"(a self-improvement may not edit its own checker)")
+    # 6. The trusted verifier core must be byte-identical — no file under the
+    #    vericlaim/ package may be modified, ADDED, or REMOVED by a self-proposed
+    #    change (it must not edit, extend, or delete its own checker).
+    if before.core_hashes != after.core_hashes:
+        b, a = before.core_hashes, after.core_hashes
+        added = sorted(set(a) - set(b))
+        removed = sorted(set(b) - set(a))
+        modified = sorted(k for k in set(a) & set(b) if a[k] != b[k])
+        detail = []
+        if modified:
+            detail.append(f"modified={modified}")
+        if added:
+            detail.append(f"added={added}")
+        if removed:
+            detail.append(f"removed={removed}")
+        violations.append("trusted verifier core changed (" + ", ".join(detail) +
+                          ") — a self-improvement may not edit, extend, or delete its own checker")
     return violations
 
 
@@ -200,3 +224,18 @@ def _hash_file(p: Path) -> str:
     if not p.exists():
         return "MISSING"
     return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+def _hash_tree(root: Path) -> dict[str, str]:
+    """Map every source file under *root* (posix relpath) to its sha256. Skips
+    __pycache__ and compiled artifacts. Empty dict if *root* does not exist."""
+    if not root.is_dir():
+        return {}
+    out: dict[str, str] = {}
+    for p in sorted(root.rglob("*")):
+        if not p.is_file():
+            continue
+        if "__pycache__" in p.parts or p.suffix == ".pyc":
+            continue
+        out[p.relative_to(root).as_posix()] = hashlib.sha256(p.read_bytes()).hexdigest()
+    return out

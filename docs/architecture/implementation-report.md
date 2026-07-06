@@ -23,8 +23,11 @@ dependency:
    enterprise force provenance + git-tracking on and reject legacy shell
    reproduction, regardless of what the config file requests.
 
-Everything is verified green: **257 tests**, gate passes under both `adopt` and
-`strict`, `ruff check` clean.
+Everything is verified green: the full test suite passes, the gate passes under
+both `adopt` and `strict`, and `ruff check` is clean. (Exact counts drift as the
+repo grows — run the commands below for current numbers rather than trusting a
+figure quoted here; this doc lives outside `doc_globs` so the gate does not bind
+its numbers.)
 
 ## Changed files by phase
 
@@ -82,10 +85,10 @@ alt-text narrative. Pinned-CLI CI render validation is a roadmap item.
 ## Commands that must pass
 
 ```bash
-python3 -m vericlaim                       # gate, adopt      -> [OK] 15 claims
+python3 -m vericlaim                       # gate, adopt      -> [OK]
 python3 -m vericlaim --profile strict      # gate, strict     -> [OK]
 python3 -m vericlaim reproduce             # adopt, legacy allowed -> [OK]
-python3 -m pytest -q                       # 257 passed
+python3 -m pytest -q                       # all tests pass
 python3 -m ruff check .                    # clean
 ```
 

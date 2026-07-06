@@ -318,7 +318,13 @@ claims:
       for all inputs. The capability is propose-only: it never applies, commits,
       pushes, or merges. It guards the repository's declared guarantees, not
       semantic truth. See docs/architecture/self-improvement.md.
-    reproduce: "python3 tools/selfimprove_evidence.py"
+    reproduce_argv:
+      - python3
+      - tools/selfimprove_evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - claims/selfimprove_envelope.json
 
   - id: CLAIM-RSI-002
     statement: >
@@ -338,4 +344,10 @@ claims:
       proof of safety for all possible autonomous changes. It demonstrates that
       the non-weakening envelope plus the real gate block the tested drift
       vectors and admit safe development. Self-improvement remains propose-only.
-    reproduce: "python3 tools/autonomous_cycle_evidence.py"
+    reproduce_argv:
+      - python3
+      - tools/autonomous_cycle_evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - claims/autonomous_cycle.json

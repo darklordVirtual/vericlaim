@@ -57,7 +57,19 @@ def test_growing_baseline_is_refused():
 def test_editing_the_verifier_core_is_refused():
     hacked = {**_CORE, "vericlaim/gate.py": "HACKED"}
     v = check_non_weakening(BASE, _snap({"C-1": 3, "C-2": 1}, core=hacked))
-    assert any("protected verifier core modified" in m for m in v)
+    assert any("trusted verifier core changed" in m and "modified" in m for m in v)
+
+
+def test_adding_a_new_core_file_is_refused():
+    extended = {**_CORE, "vericlaim/backdoor.py": "new"}
+    v = check_non_weakening(BASE, _snap({"C-1": 3, "C-2": 1}, core=extended))
+    assert any("added" in m for m in v), v
+
+
+def test_removing_a_core_file_is_refused():
+    reduced = {k: v for k, v in list(_CORE.items())[1:]}  # drop one core file
+    v = check_non_weakening(BASE, _snap({"C-1": 3, "C-2": 1}, core=reduced))
+    assert any("removed" in m for m in v), v
 
 
 def test_red_gate_candidate_is_refused():
@@ -97,8 +109,8 @@ def test_capture_reads_register_and_hashes_core(tmp_path):
     snap = Snapshot.capture(cfg, gate_ok=True, test_count=42)
     assert snap.claim_levels.get("X-1") == cfg.evidence_levels.index("benchmarked")
     assert snap.test_count == 42 and snap.baseline_count == 0
-    # protected core files don't exist under tmp -> recorded as MISSING, not crash
-    assert all(h == "MISSING" for h in snap.core_hashes.values())
+    # no vericlaim/ package under tmp -> empty core-hash tree, not a crash
+    assert snap.core_hashes == {}
 
 
 def test_unparseable_register_is_not_a_passing_state(tmp_path):

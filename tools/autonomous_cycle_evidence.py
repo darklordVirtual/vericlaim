@@ -9,6 +9,7 @@ Writes claims/autonomous_cycle.json.
 from __future__ import annotations
 
 import contextlib
+import argparse
 import io
 import json
 import sys
@@ -24,6 +25,11 @@ ART = Path(__file__).resolve().parents[1] / "claims" / "autonomous_cycle.json"
 
 
 def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--output-dir", default=None,
+                    help="write the artifact here (basename) instead of the "
+                         "committed path — used by declarative `vericlaim reproduce`")
+    args = ap.parse_args()
     with tempfile.TemporaryDirectory(prefix="vericlaim-autocycle-") as tmp:
         # Silence the inner scaffold/gate chatter; we only record the verdicts.
         with contextlib.redirect_stdout(io.StringIO()):
@@ -35,9 +41,15 @@ def main() -> int:
         "failures": sum(1 for v in props.values() if not v),
         "all_safe": bool(result["ALL_SAFE"]),
     }
-    ART.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
-    stamp(ART, script="python3 tools/autonomous_cycle_evidence.py")
-    print(f"[OK] wrote {ART}")
+    text = json.dumps(artifact, indent=2) + "\n"
+    if args.output_dir:
+        out = Path(args.output_dir) / ART.name
+        out.write_text(text, encoding="utf-8")
+    else:
+        ART.write_text(text, encoding="utf-8")
+        stamp(ART, script="python3 tools/autonomous_cycle_evidence.py")
+        out = ART
+    print(f"[OK] wrote {out}")
     for k, v in artifact.items():
         if k != "schema":
             print(f"     {k}={v}")

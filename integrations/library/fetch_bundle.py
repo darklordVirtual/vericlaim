@@ -47,13 +47,15 @@ def fetch(url: str, bundle_id: str, out_root: Path) -> Path:
         raise ValueError("bundle response has no manifest.files map")
 
     out_root = Path(out_root)
+    out_root.mkdir(parents=True, exist_ok=True)
     final = out_root / bundle_id
     # Download into a PRIVATE staging dir named <bundle_id>, so a manifest path
     # can never be written before it is validated and the bundle verified. Every
     # manifest key is resolved with safe_join (rejects ../, absolute, backslash,
-    # Windows drive, symlink escape) BEFORE any byte is written. Only after full
-    # verification is the staged bundle moved into place atomically.
-    staging_parent = Path(tempfile.mkdtemp(prefix="vericlaim-fetch-"))
+    # Windows drive, symlink escape) BEFORE any byte is written. The staging dir
+    # is created INSIDE out_root (same filesystem) so the final move is a true
+    # atomic rename, not a cross-filesystem copy+delete.
+    staging_parent = Path(tempfile.mkdtemp(prefix=".vericlaim-fetch-", dir=out_root))
     stage = staging_parent / bundle_id
     stage.mkdir(parents=True)
     try:
@@ -68,10 +70,9 @@ def fetch(url: str, bundle_id: str, out_root: Path) -> Path:
             json.dumps(meta["manifest"], sort_keys=True, indent=2) + "\n",
             encoding="utf-8")
         report = verify_bundle(stage)  # fail-closed: raises on any mismatch
-        out_root.mkdir(parents=True, exist_ok=True)
         if final.exists():
             shutil.rmtree(final)
-        shutil.move(str(stage), str(final))
+        shutil.move(str(stage), str(final))  # same filesystem -> atomic rename
     finally:
         shutil.rmtree(staging_parent, ignore_errors=True)
     bdir = final

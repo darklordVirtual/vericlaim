@@ -32,7 +32,7 @@ import {
 } from "./research";
 import { badgeSVG, passportHTML } from "./passport";
 import { VericlaimMCP } from "./mcp";
-import { authorized, generativeAllowed } from "./authz";
+import { authorized, routeAuthError } from "./authz";
 import {
   LEDGER_PAGE_DEFAULT, LEDGER_PAGE_MAX,
   clampLimit, declaredBodyTooLarge, parseCursor, queryTooLong,
@@ -82,15 +82,16 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     // CORS preflight for browser clients (esp. an authorized POST /index).
     if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
 
+    // Single generative-auth choke point: every Workers-AI route (/ask,
+    // /research/ask, /mcp) passes the same gate here, before any handler runs, so
+    // the P0-1 MCP bypass cannot recur by editing one route in isolation.
+    const authErr = routeAuthError(p, req, env);
+    if (authErr) return json({ error: authErr.error }, authErr.status);
+
     if (p === "/mcp") {
       if (env.ENABLE_MCP !== "true") return json({ error: "MCP disabled" }, 404);
-      // MCP exposes GENERATIVE tools (ask_claims / ask_research drive Workers AI),
-      // so it MUST pass the same generative authorization as /ask. Without this an
-      // ENABLE_MCP deployment is an unauthenticated cost/access bypass AROUND
-      // READ_TOKEN — you could set READ_TOKEN, believe /ask is protected, and still
-      // have an open generative endpoint on /mcp. (When no READ_TOKEN is set the
-      // posture matches /ask: public. Scoped MCP_TOKEN is a tracked follow-up.)
-      if (!generativeAllowed(req, env)) return json({ error: "unauthorized" }, 401);
+      // Generative auth already enforced centrally (routeAuthError) — /mcp exposes
+      // ask_claims / ask_research, so it is in requiresGenerativeAuth.
       return mcpHandler.fetch(req, env, ctx);
     }
 
@@ -167,7 +168,6 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     }
 
     if (p === "/ask" && req.method === "GET") {
-      if (!generativeAllowed(req, env)) return json({ error: "unauthorized" }, 401);
       const q = url.searchParams.get("q");
       if (!q) return json({ error: "missing query parameter 'q'" }, 400);
       if (queryTooLong(q)) return json({ error: "query too long" }, 400);
@@ -276,7 +276,6 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     }
 
     if (p === "/research/ask" && req.method === "GET") {
-      if (!generativeAllowed(req, env)) return json({ error: "unauthorized" }, 401);
       const q = url.searchParams.get("q");
       if (!q) return json({ error: "missing query parameter 'q'" }, 400);
       if (queryTooLong(q)) return json({ error: "query too long" }, 400);

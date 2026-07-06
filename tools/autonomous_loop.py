@@ -10,9 +10,10 @@ Runs round after round. Each round is a full governance heartbeat:
 The loop keeps going only while everything is green AND the round did not weaken
 the previous round. It fails closed: any regression, red gate, or inter-round
 weakening HALTS the loop and reports — autonomy is only extended while it stays
-defensible. Development stays propose-only: the loop never applies, commits,
-pushes, or merges. A human acts on proposals; the envelope guards whatever they
-apply.
+defensible. Development stays propose-only: the loop never commits, pushes, or
+merges, and leaves the git-tracked tree unchanged (the reproduce step regenerates
+artifacts, but byte-identically, so git sees no change). A human acts on
+proposals; the envelope guards whatever they apply.
 
 Operator stop:
   * create claims/STOP_SELF_IMPROVEMENT (the kill switch), or
@@ -141,7 +142,8 @@ def main() -> int:
     total = time.monotonic() - start
     print("\n" + "=" * 68)
     print(f"[OK] {n} round(s) over {total:.0f}s; every round green and non-weakening. "
-          f"Loop applied nothing (propose-only).")
+          f"Loop committed nothing and left the git-tracked tree unchanged "
+          f"(propose-only; reproduce regenerates artifacts byte-identically).")
     return 0
 
 

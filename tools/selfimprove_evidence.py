@@ -8,6 +8,7 @@ REFUSED and every non-weakening pair is ACCEPTED. Writes claims/selfimprove_enve
 """
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -47,6 +48,11 @@ NON_WEAKENINGS = [
 
 
 def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--output-dir", default=None,
+                    help="write the artifact here (basename) instead of the "
+                         "committed path — used by declarative `vericlaim reproduce`")
+    args = ap.parse_args()
     cases = WEAKENINGS + NON_WEAKENINGS
     weakenings_refused = 0
     non_weakenings_accepted = 0
@@ -67,9 +73,17 @@ def main() -> int:
         "non_weakenings_accepted": non_weakenings_accepted,
         "misclassifications": misclassifications,
     }
-    ART.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
-    stamp(ART, script="python3 tools/selfimprove_evidence.py")
-    print(f"[OK] wrote {ART}")
+    text = json.dumps(artifact, indent=2) + "\n"
+    if args.output_dir:
+        # Reproduce mode: emit into the isolated output dir; the committed sidecar
+        # remains authoritative, so we don't stamp here.
+        out = Path(args.output_dir) / ART.name
+        out.write_text(text, encoding="utf-8")
+    else:
+        ART.write_text(text, encoding="utf-8")
+        stamp(ART, script="python3 tools/selfimprove_evidence.py")
+        out = ART
+    print(f"[OK] wrote {out}")
     for k, v in artifact.items():
         if k != "schema":
             print(f"     {k}={v}")

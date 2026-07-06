@@ -78,9 +78,18 @@ def reproduce(cfg: Config, *, quiet: bool = False) -> int:
     legacy_by_cmd: dict[str, list[str]] = {}
 
     for c in claims:
-        raw = c.get("reproduce")
-        if raw is None:
-            continue
+        # Declarative form (parser-friendly flat fields the zero-dep parser can
+        # express): reproduce_argv + reproduce_outputs. Falls back to the legacy
+        # `reproduce` string when absent.
+        argv = c.get("reproduce_argv")
+        if argv is not None:
+            raw: object = {"argv": argv, "outputs": c.get("reproduce_outputs") or []}
+            if c.get("reproduce_timeout"):
+                raw["timeout_seconds"] = c["reproduce_timeout"]  # type: ignore[index]
+        else:
+            raw = c.get("reproduce")
+            if raw is None:
+                continue
         arts = c.get("artifact") or []
         if isinstance(arts, str):
             arts = [arts]

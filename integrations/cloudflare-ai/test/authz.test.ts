@@ -13,6 +13,7 @@ import {
   bearerMatches,
   generativeAllowed,
   requiresGenerativeAuth,
+  routeAuthError,
 } from "../src/authz.ts";
 import { b64ToBytes, timingSafeEqual } from "../src/lib.ts";
 
@@ -84,4 +85,25 @@ test("bearerMatches fails closed on an unset token", () => {
 test("b64ToBytes decodes valid base64 and throws on invalid", () => {
   assert.deepEqual(Array.from(b64ToBytes("aGk=")), [104, 105]); // "hi"
   assert.throws(() => b64ToBytes("!!!not base64!!!"));
+});
+
+// ── the central choke point the router actually calls ───────────────────────
+
+test("routeAuthError: generative paths (incl. /mcp) are gated when READ_TOKEN set", () => {
+  const env = { READ_TOKEN: "s3cret" } as any;
+  for (const p of ["/ask", "/research/ask", "/mcp"]) {
+    assert.deepEqual(routeAuthError(p, req(), env), { status: 401, error: "unauthorized" }, `${p} no token`);
+    assert.equal(routeAuthError(p, req("s3cret"), env), null, `${p} with token`);
+  }
+});
+
+test("routeAuthError: cheap reads and writes are never blocked by the generative gate", () => {
+  const env = { READ_TOKEN: "s3cret" } as any;
+  for (const p of ["/search", "/passport", "/badge.svg", "/", "/index", "/ledger/verify"]) {
+    assert.equal(routeAuthError(p, req(), env), null, p);
+  }
+});
+
+test("routeAuthError: generative paths stay open when no READ_TOKEN is set", () => {
+  assert.equal(routeAuthError("/mcp", req(), {} as any), null);
 });

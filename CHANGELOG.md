@@ -70,7 +70,29 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
   hash, unchecked register metrics).
 - See the security findings table in the implementation report.
 
+### Self-review hardening
+Fixes from an adversarial self-review of this cycle's own work:
+- **Declarative reproduce is now dogfooded.** Parser-friendly flat fields
+  (`reproduce_argv` / `reproduce_outputs`, identical under the bundled parser and
+  PyYAML) let real claims use the isolated-workspace runner; CLAIM-RSI-001/002 are
+  converted and verified "re-created from scratch and byte-identical" — so CI's
+  `reproduce` now exercises the declarative path, not only legacy shell.
+- **Self-improvement envelope now diffs the whole `vericlaim/` tree** (added /
+  removed / modified), not a hardcoded file list — a self-proposed change can no
+  longer add or delete a core module undetected.
+- **Central generative-auth choke point** (`routeAuthError`): every Workers-AI
+  route incl. `/mcp` passes one gate up front; removes the dead `requiresGenerativeAuth`
+  and the per-route duplicates. +3 tests.
+- **`fetch_bundle` now stages inside `out_root`** so the final move is a true
+  atomic rename, not a cross-filesystem copy.
+- Honesty: the envelope's docstring/doc now state it is a pure comparator that
+  trusts the captured snapshot (not an autonomous gatekeeper); the loop no longer
+  says "applied nothing" (reproduce rewrites artifacts byte-identically); stale
+  hard-coded counts removed from the implementation report; the gold-standard plan
+  is marked a point-in-time snapshot.
+
 ### Deferred
-- See [`ROADMAP.md`](ROADMAP.md). Notably: full strict-reproduce dogfooding
-  (parser-blocked), schema-v2 metric bindings, sandboxed runner, signed
-  attestation, SSRF controls, full CI render/scan pipeline.
+- See [`ROADMAP.md`](ROADMAP.md). Notably: converting the remaining 13 legacy
+  reproduce commands to declarative (strict-reproduce across the whole register),
+  schema-v2 metric bindings, sandboxed runner, signed attestation, SSRF controls,
+  full Miniflare route tests, CI render/scan pipeline.

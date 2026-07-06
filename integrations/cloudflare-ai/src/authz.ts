@@ -36,3 +36,16 @@ export function generativeAllowed(req: Request, env: Env): boolean {
 export function requiresGenerativeAuth(pathname: string): boolean {
   return pathname === "/ask" || pathname === "/research/ask" || pathname === "/mcp";
 }
+
+// The SINGLE generative-auth choke point. The router calls this once, up front,
+// for every request — so a generative route (including /mcp) cannot be reached
+// without the gate, and there is exactly one place to get it right. Returns an
+// error descriptor to reject with, or null to continue.
+export function routeAuthError(
+  pathname: string, req: Request, env: Env,
+): { status: number; error: string } | null {
+  if (requiresGenerativeAuth(pathname) && !generativeAllowed(req, env)) {
+    return { status: 401, error: "unauthorized" };
+  }
+  return null;
+}
