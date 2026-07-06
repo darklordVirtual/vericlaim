@@ -126,6 +126,14 @@ export async function indexBundles(env: Env, bundles: BundleIn[], ts: string): P
       if ((b.manifest.status ?? "verified") !== b.status) {
         throw new Error("status differs between bundle and manifest");
       }
+      // Status is a closed vocabulary: a `verified` bundle is import-eligible,
+      // a `candidate` is quarantined. Reject anything else so an authorized
+      // ingest cannot invent a status ("approved", "experimental") that
+      // discovery, UI and policy would then interpret inconsistently.
+      if (b.status !== "verified" && b.status !== "candidate") {
+        throw new Error(`invalid bundle status ${JSON.stringify(b.status)} ` +
+          `(must be "verified" or "candidate")`);
+      }
       if (await getBundleRow(env, b.bundle_id)) { unchanged++; continue; } // immutable
 
       // Every listed file must arrive and hash to its manifest entry.

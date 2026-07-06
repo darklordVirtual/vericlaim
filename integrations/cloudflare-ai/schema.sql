@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS library_bundles (
   seq             INTEGER PRIMARY KEY AUTOINCREMENT,
   ts              TEXT    NOT NULL,
   bundle_id       TEXT    NOT NULL UNIQUE,
-  status          TEXT    NOT NULL,
+  status          TEXT    NOT NULL CHECK (status IN ('verified', 'candidate')),
   source_repo     TEXT    NOT NULL,
   source_claim_id TEXT    NOT NULL,
   claim           TEXT    NOT NULL,   -- canonical JSON of the bundled claim

@@ -84,6 +84,27 @@ export async function indexClaims(env: Env, claims: Claim[]): Promise<number> {
   return count;
 }
 
+// Reconcile the search surface to the pushed snapshot. `export_claims` sends the
+// FULL current register, so any claim id in the ledger that is absent from the
+// push has been withdrawn or deleted: remove its vector so /search and /ask can
+// never surface a claim the project no longer stands behind. History is kept —
+// claim_events is append-only and untouched; only the live index is pruned.
+// This is what lets the Worker be described as a CURRENT truth layer.
+export async function reconcileClaims(
+  env: Env, receivedIds: Set<string>,
+): Promise<string[]> {
+  const rows = await env.DB.prepare(
+    "SELECT DISTINCT claim_id FROM claim_events").all();
+  const known = (rows.results ?? [])
+    .map((r) => String((r as { claim_id: string }).claim_id));
+  const withdrawn = known.filter((id) => !receivedIds.has(id));
+  for (let i = 0; i < withdrawn.length; i += 100) {
+    // deleteByIds is idempotent — re-deleting an already-gone id is a no-op.
+    await env.VECTORIZE.deleteByIds(withdrawn.slice(i, i + 100));
+  }
+  return withdrawn;
+}
+
 export async function searchClaims(
   env: Env, query: string, topK = 5,
 ): Promise<SearchHit[]> {

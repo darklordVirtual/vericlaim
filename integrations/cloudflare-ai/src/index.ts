@@ -16,7 +16,7 @@
 //   GET  /passport         public HTML trust page
 //   GET  /badge.svg        dynamic SVG badge
 //   POST /mcp              MCP (Streamable HTTP) — only when ENABLE_MCP=true
-import { type Claim, type Env, indexClaims, searchClaims } from "./lib";
+import { type Claim, type Env, indexClaims, reconcileClaims, searchClaims } from "./lib";
 import { getEvidence, putEvidence, verifyEvidence } from "./vault";
 import { appendClaim, history, summary, verifyChain } from "./ledger";
 import {
@@ -95,7 +95,15 @@ export default {
         r === "appended" ? appended++ : unchanged++;
       }
       const indexed = await indexClaims(env, claims);
-      return json({ indexed, ledger_appended: appended, ledger_unchanged: unchanged, vaulted });
+      // The push is a full snapshot: prune claims that are no longer registered
+      // so withdrawn claims can never surface in /search or /ask (history stays
+      // in the ledger). Opt out with ?reconcile=0 for a partial/delta push.
+      const reconcile = url.searchParams.get("reconcile") !== "0";
+      const withdrawn = reconcile
+        ? await reconcileClaims(env, new Set(claims.map((c) => c.id)))
+        : [];
+      return json({ indexed, ledger_appended: appended,
+        ledger_unchanged: unchanged, vaulted, withdrawn: withdrawn.length });
     }
 
     if (p === "/search" && req.method === "GET") {
