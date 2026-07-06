@@ -38,7 +38,9 @@ class TenantStore:
     def put(self, tenant: str, key: str, value: str) -> str:
         self._rows[(tenant, key)] = value
         prev = self._heads.get(tenant, "genesis")
-        entry = _canon({"key": key, "value": value, "prev": prev})
+        # Bind the tenant into the chain entry so two tenants with identical
+        # write sequences still get distinct heads — the ledger is per-tenant.
+        entry = _canon({"tenant": tenant, "key": key, "value": value, "prev": prev})
         head = hashlib.sha256(entry.encode()).hexdigest()
         self._heads[tenant] = head
         return head
