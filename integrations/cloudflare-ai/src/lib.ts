@@ -19,6 +19,15 @@ export interface Env {
   EVIDENCE: R2Bucket; // the content-addressed evidence vault
   INDEX_TOKEN?: string; // bearer token required to (re)build the index
   ENABLE_MCP?: string; // "true" to expose the /mcp endpoint
+  // Optional: when set, the generative endpoints (/ask, /research/ask) require
+  // this bearer token — a guard against anonymous, unbounded Workers-AI cost.
+  // Unset = reads stay public (the passport/search/badge remain open).
+  READ_TOKEN?: string;
+  // Optional: an HMAC key (a secret NOT stored in D1) used to sign the ledger
+  // head at /ledger/head. A witness holding this key can then confirm a head
+  // was endorsed by the operator, not merely recomputed by anyone with D1
+  // write access — the gap plain hash-chaining leaves open.
+  LEDGER_HMAC_KEY?: string;
   VERICLAIM_MCP: DurableObjectNamespace; // backing store for the MCP agent
 }
 

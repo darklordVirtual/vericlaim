@@ -19,6 +19,7 @@
 import { type Claim, type Env, indexClaims, reconcileClaims, searchClaims } from "./lib";
 import { getEvidence, putEvidence, verifyEvidence } from "./vault";
 import { appendClaim, history, summary, verifyChain } from "./ledger";
+import { hmacHex } from "./hashchain";
 import {
   type BundleIn, getBundle, indexBundles, librarySummary, pruneSuperseded,
   searchLibrary, verifyBundle as verifyLibraryBundle, verifyLibraryChain,
@@ -42,6 +43,17 @@ const json = (data: unknown, status = 200) =>
 function authorized(req: Request, env: Env): boolean {
   if (!env.INDEX_TOKEN) return false; // fail closed
   return req.headers.get("authorization") === `Bearer ${env.INDEX_TOKEN}`;
+}
+
+// The generative endpoints (/ask, /research/ask) drive Workers AI on every call
+// — an anonymous caller can otherwise run up unbounded cost. When READ_TOKEN is
+// configured they require it; when it is unset they stay public (opt-in guard,
+// backward compatible). INDEX_TOKEN also satisfies it, so the CI pusher is fine.
+function generativeAllowed(req: Request, env: Env): boolean {
+  if (!env.READ_TOKEN) return true; // reads are public unless a token is set
+  const auth = req.headers.get("authorization");
+  return auth === `Bearer ${env.READ_TOKEN}` ||
+    (!!env.INDEX_TOKEN && auth === `Bearer ${env.INDEX_TOKEN}`);
 }
 
 function b64ToBytes(b64: string): Uint8Array {
@@ -114,6 +126,7 @@ export default {
     }
 
     if (p === "/ask" && req.method === "GET") {
+      if (!generativeAllowed(req, env)) return json({ error: "unauthorized" }, 401);
       const q = url.searchParams.get("q");
       if (!q) return json({ error: "missing query parameter 'q'" }, 400);
       return json(await ask(env, q));
@@ -158,17 +171,22 @@ export default {
         "SELECT seq, entry_hash FROM library_bundles ORDER BY seq DESC LIMIT 1").first();
       const libCount = await env.DB.prepare(
         "SELECT COUNT(*) AS c FROM library_bundles").first();
-      return json({
-        ts: new Date().toISOString(),
-        claims: {
-          entries: Number((claimsCount as { c: number })?.c ?? 0),
-          head: (claimsRows as { entry_hash: string } | null)?.entry_hash ?? "",
-        },
-        library: {
-          entries: Number((libCount as { c: number })?.c ?? 0),
-          head: (libRows as { entry_hash: string } | null)?.entry_hash ?? "",
-        },
-      });
+      const claimsHead = (claimsRows as { entry_hash: string } | null)?.entry_hash ?? "";
+      const libHead = (libRows as { entry_hash: string } | null)?.entry_hash ?? "";
+      const ts = new Date().toISOString();
+      const body: Record<string, unknown> = {
+        ts,
+        claims: { entries: Number((claimsCount as { c: number })?.c ?? 0), head: claimsHead },
+        library: { entries: Number((libCount as { c: number })?.c ?? 0), head: libHead },
+      };
+      // Optional operator signature over the heads: a witness holding the key
+      // can verify these heads came from the key-holder, not just anyone with
+      // D1 write access. hmac = HMAC(key, ts|claimsHead|libHead).
+      if (env.LEDGER_HMAC_KEY) {
+        body.head_hmac_sha256 = await hmacHex(
+          env.LEDGER_HMAC_KEY, `${ts}|${claimsHead}|${libHead}`);
+      }
+      return json(body);
     }
 
     if (p === "/ledger/export" && req.method === "GET") {
@@ -201,6 +219,7 @@ export default {
     }
 
     if (p === "/research/ask" && req.method === "GET") {
+      if (!generativeAllowed(req, env)) return json({ error: "unauthorized" }, 401);
       const q = url.searchParams.get("q");
       if (!q) return json({ error: "missing query parameter 'q'" }, 400);
       return json(await askResearch(env, q));

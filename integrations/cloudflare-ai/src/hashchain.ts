@@ -2,9 +2,18 @@
 //
 // Each ledger row carries entry_hash = sha256(prev_hash + canonical(row)). The
 // chain means altering any past row changes its entry_hash, which breaks the
-// prev_hash link of every row after it — so tampering is detectable by re-walking
-// the chain (see verifyChain). This is the Certificate-Transparency / Rekor idea
-// applied to a project's claims about itself.
+// prev_hash link of every row after it — so a PARTIAL edit is detectable by
+// re-walking the chain (see verifyChain). This is the Certificate-Transparency /
+// Rekor idea applied to a project's claims about itself.
+//
+// HONEST LIMIT: the hash is unkeyed, so an actor who can write the whole D1
+// table can rewrite history AND recompute every entry_hash from genesis — then
+// verifyChain passes. Internal consistency is not proof against a full rewrite.
+// Two things raise the bar: (1) external witnesses re-walk /ledger/export and
+// check the chain still EXTENDS a previously-seen head (length + head pinned
+// off-box); (2) the optional HMAC head signature (hmacHex, keyed by a secret
+// not in D1) that only the operator can produce. Use one or both when the D1
+// writer is not fully trusted.
 
 // Deterministic JSON: object keys sorted recursively, so the same logical value
 // always hashes the same regardless of field order.
@@ -45,4 +54,15 @@ export async function contentHash(claim: {
 // exclude entry_hash/prev_hash themselves.
 export async function entryHash(prevHash: string, row: Record<string, unknown>): Promise<string> {
   return sha256Hex(prevHash + "\n" + canonical(row));
+}
+
+// HMAC-SHA256 of a message under a secret key, hex-encoded. Used to sign the
+// ledger head: unlike the unkeyed chain, a valid signature cannot be produced
+// by an attacker who only has D1 write access — they lack the key.
+export async function hmacHex(key: string, message: string): Promise<string> {
+  const cryptoKey = await crypto.subtle.importKey(
+    "raw", new TextEncoder().encode(key),
+    { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const sig = await crypto.subtle.sign("HMAC", cryptoKey, new TextEncoder().encode(message));
+  return [...new Uint8Array(sig)].map((b) => b.toString(16).padStart(2, "0")).join("");
 }

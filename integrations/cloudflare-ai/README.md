@@ -112,18 +112,38 @@ claude mcp get vericlaim-claims        # ✔ Connected
 
 ## What it proves — and what it does not
 
-- **Proves:** the ledger is tamper-evident (a single changed byte breaks the
-  chain); the vaulted evidence is retrievable and re-hashable; the oracle answers
-  only from registered claims or refuses.
-- **Does not:** change what the gate proves. Search and answers are **discovery
-  aids** over already-verified claims. Evidence level is the project's own honest
-  assertion. A claim is trustworthy because the gate verified it — not because it
-  was found, answered, or vaulted here.
+- **Proves:** the hash chain detects any **partial** edit to ledger history (a
+  changed byte breaks the chain at that row); the vaulted evidence is retrievable
+  and re-hashable; the oracle answers only from registered claims or refuses.
+- **Does not:** change what the gate proves; and it does **not** prove history was
+  never rewritten. The chain is unkeyed, so an actor who can write the whole D1
+  table can rewrite it and recompute every hash — `/ledger/verify` would still
+  pass. Internal consistency ≠ rewrite-proof. To close that gap: external
+  witnesses re-walk `/ledger/export` and check the chain still **extends** a
+  previously-seen head (`/ledger/head`), and/or set `LEDGER_HMAC_KEY` so
+  `/ledger/head` returns an operator signature (`head_hmac_sha256`) no D1-only
+  attacker can forge. Search and answers are **discovery aids**; a claim is
+  trustworthy because the gate verified it — not because it was found here.
 
 ## Security
 
-`POST /index` is bearer-token protected and fails closed. `/search`, `/ask`,
-`/passport`, `/badge.svg` and `/mcp` are public reads over already-public claims.
+- `POST /index` (and the other writes) is bearer-token protected (`INDEX_TOKEN`)
+  and fails closed.
+- **`READ_TOKEN` (optional):** the generative endpoints `/ask` and
+  `/research/ask` drive Workers AI on every call, so an anonymous caller can run
+  up unbounded cost. Set `READ_TOKEN` to require a bearer token on those two
+  endpoints (`INDEX_TOKEN` also satisfies it). Unset = they stay public. The
+  cheap reads (`/search`, `/passport`, `/badge.svg`) stay open either way; add a
+  Cloudflare rate-limit / WAF rule for hard limits.
+- **`LEDGER_HMAC_KEY` (optional):** an operator secret (not stored in D1) used to
+  sign the ledger head — see "What it proves" above.
+- **Single-writer:** `/index` assumes one trusted, serial caller (the CI pusher).
+  Do not fan it out across concurrent callers; a true multi-writer setup needs a
+  single-writer serializer (Durable Object) in front of D1.
+- The oracle treats the question as **untrusted** (ignores injected instructions)
+  and returns a constant refusal — never the model's ungrounded text — when no
+  claim supports an answer.
+
 For non-public projects put the Worker behind
 [Cloudflare Access](https://developers.cloudflare.com/agents/model-context-protocol/protocol/authorization/).
 Committed default is `ENABLE_MCP=false`.

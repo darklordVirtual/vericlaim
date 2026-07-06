@@ -2,8 +2,17 @@
 //
 // append() records a new event for a claim only when its content changed since
 // the last event for that claim id, so the ledger is a true timeline. Every row
-// chains the previous row's entry_hash, making the whole history tamper-evident
-// (verifyChain re-walks it).
+// chains the previous row's entry_hash, so a PARTIAL edit is detectable by
+// re-walking (verifyChain). See hashchain.ts for the honest limit (a full
+// rewrite by a D1 writer is not detectable by verifyChain alone).
+//
+// SINGLE-WRITER MODEL: appendClaim does read-tip-then-insert, which is NOT
+// atomic. The deployment assumes ONE trusted writer — the CI pusher holding
+// INDEX_TOKEN — calling /index serially. Two concurrent /index calls could read
+// the same tip and insert rows with the same prev_hash, which verifyChain would
+// then report as a break (a self-inflicted false alarm, not a security hole).
+// Do not fan /index out across concurrent callers; a true multi-writer setup
+// needs a single-writer serializer (e.g. a Durable Object) in front of D1.
 import { type Claim, type Env } from "./lib";
 import { contentHash, entryHash } from "./hashchain";
 

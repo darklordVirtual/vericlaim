@@ -31,7 +31,7 @@ export async function passportHTML(env: Env): Promise<string> {
       <td class="mono sha">${c.artifact_sha256 ? esc(c.artifact_sha256).slice(0, 16) + "…" : "—"}</td>
       <td class="mono">${esc(c.ts).slice(0, 10)}</td></tr>`).join("");
   const integrity = chain.ok
-    ? `<span class="ok">✔ Ledger intakt</span> · ${chain.entries} hendelser, hash-kjede verifisert`
+    ? `<span class="ok">✔ Ledger internt konsistent</span> · ${chain.entries} hendelser, hash-kjeden re-walket (bevis mot delvise endringer; ikke mot en full omskriving — se ekstern-vitne/HMAC)`
     : `<span class="bad">✘ Ledger brutt ved #${chain.brokenAt}</span>`;
 
   return `<!DOCTYPE html><html lang="no"><head><meta charset="utf-8">
@@ -57,7 +57,7 @@ th{color:#556;font-weight:600;font-size:12px}
 a{color:#4a6}
 </style></head><body>
 <h1>Claim-pass</h1>
-<p class="sub">Hva dette prosjektet påstår om seg selv — og hva som backer det. Levert fra en tamper-evident hovedbok på kanten.</p>
+<p class="sub">Hva dette prosjektet påstår om seg selv — og hva som backer det. Levert fra en append-only, hash-kjedet hovedbok på kanten (bevis mot delvise endringer; ekstern-vitne re-walk for full tamper-evidens).</p>
 <div class="cards">
   <div class="card"><span class="n">${s.claims}</span><span class="l">registrerte claims</span></div>
   <div class="card"><span class="n">${s.events}</span><span class="l">hendelser i hovedboka</span></div>
