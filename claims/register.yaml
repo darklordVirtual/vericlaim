@@ -173,6 +173,14 @@ claims:
       is a mirror that can lag the catalog until the next push. Full text is
       fetched only for open arXiv HTML renderings — other works are chunked
       from registrar abstracts or page snapshots (the hybrid content policy).
+      NOTE — this catalog's 180 works are NOT the same set as CLAIM-LIB-RAG-001's
+      180 canon works: the catalog additionally contains works harvested from
+      external bibliographies that lie outside the canonical coverage map,
+      including a known registrar false-match (doi:10.1109/ijcnn.1989.118324, a
+      1989 sensor-calibration record) and some unvetted recent-arXiv works. All
+      catalog text is retrieval-only and hash-locked, never evidence; the
+      false-match is a tracked defect flagged for removal — see
+      integrations/library/KNOWN_ISSUES.md.
     reproduce: "python3 integrations/library/evidence_research_layer.py"
 
   - id: CLAIM-LIB-RAG-003
