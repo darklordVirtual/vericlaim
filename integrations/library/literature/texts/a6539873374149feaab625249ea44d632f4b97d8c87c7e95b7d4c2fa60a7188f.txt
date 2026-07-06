@@ -1,0 +1,61 @@
+This document describes CSF 2.0, its components, and some of the many ways that it can be used. Hide full abstract
+
+Keywords
+
+cybersecurity; Cybersecurity Framework (CSF); cybersecurity risk governance; cybersecurity risk management; enterprise risk management; Profiles; Tiers
+
+Control Families
+
+None selected
+
+Documentation
+
+Publication:
+
+https://doi.org/10.6028/NIST.CSWP.29
+
+Download URL
+
+Supplemental Material:
+
+NIST news article
+
+Blog post
+
+NIST CSF Website
+
+CSF 2.0 Quick-Start Guides
+
+CSF 2.0 Reference Tool
+
+CSF 2.0 Dataset on CPRT
+
+CSF 1.1 to 2.0 Core Transition Changes Overview
+
+Translations
+
+Related NIST Publications:
+
+SP 1299
+
+SP 1300
+
+SP 1301
+
+IR 8286 Rev. 1
+
+Document History:
+
+08/08/23: CSWP 29 (Draft)
+
+02/26/24: CSWP 29 (Final)
+
+Topics
+
+Security and Privacy
+
+cybersecurity supply chain risk management, privacy, risk management, security programs & operations
+
+Applications
+
+cybersecurity framework, enterprise, small & medium business

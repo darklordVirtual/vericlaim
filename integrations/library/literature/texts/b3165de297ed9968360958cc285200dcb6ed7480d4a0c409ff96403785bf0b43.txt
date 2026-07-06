@@ -1,0 +1,8 @@
+collaboration index template supports information security and privacy program collaboration to help ensure that the objectives of both disciplines are met and that risks are appropriately managed. It is an optional tool for information security and privacy programs to identify the degree of collaboration needed between security and privacy programs with respect to the selection and/or implementation of controls in Rev. 5. OSCAL version of 800-53 Rev. 5 controls
+Rev. 5 controls are provided using the Open Security Controls Assessment Language (OSCAL); currently available in JSON, XML, and YAML. Author(s)
+
+Joint Task Force
+
+Abstract
+
+This publication provides a catalog of security and privacy controls for information systems and organizations to protect organizational operations and assets, individuals, other organizations, and the Nation from a diverse set of threats and risks, including hostile attacks, human errors, natural disasters, structural failures, foreign intelligence entities, and privacy risks. The controls are flexible and customizable and implemented as part of an organization-wide process to manage risk.

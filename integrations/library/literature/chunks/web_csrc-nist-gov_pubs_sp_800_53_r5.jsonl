@@ -1,0 +1,10 @@
+{"fsid": "web_csrc-nist-gov_pubs_sp_800_53_r5", "n": 9, "overlap": 200, "source_sha256": "da588832cb84eee18f5a32b8d8671d0af16068b01c2d77eec45e5006869634c2", "target": 1200}
+{"section": "", "seq": 0, "sha256": "d69932284e6b56bce5064529d4f816916d345d3c208a50843720fd1b000f95a3"}
+{"section": "Security and Privacy Controls for Information Systems and Organizations", "seq": 1, "sha256": "8215c031360f425f260c2098ee45d8867655f1ab2bf5916fd1d3086af04d239d"}
+{"section": "Security and Privacy Controls for Information Systems and Organizations", "seq": 2, "sha256": "3c61f6836e366c43253cc41f7250f9770061bab313cd9baaa56c2fcf59056301"}
+{"section": "Security and Privacy Controls for Information Systems and Organizations", "seq": 3, "sha256": "b3165de297ed9968360958cc285200dcb6ed7480d4a0c409ff96403785bf0b43"}
+{"section": "Security and Privacy Controls for Information Systems and Organizations", "seq": 4, "sha256": "ed13bfc944ffc3b6c5de3859b7c6fffd80dd4496a588051f2dfbb427e8b89a9e"}
+{"section": "Security and Privacy Controls for Information Systems and Organizations", "seq": 5, "sha256": "a04badbb20d0b01fe1ced206e4f14c3fa78d783293f57d86d37d374ab421bdac"}
+{"section": "Security and Privacy Controls for Information Systems and Organizations", "seq": 6, "sha256": "9a09305bf4543c48cb99cfffc3ad35df490124d292c0a0275fc9e1ee93b3bc58"}
+{"section": "Security and Privacy Controls for Information Systems and Organizations", "seq": 7, "sha256": "3f2beb3404e32c8b3bd8cec2c770df9c0ecd36cb6fd48d67e1fd536ac239b45d"}
+{"section": "Security and Privacy Controls for Information Systems and Organizations", "seq": 8, "sha256": "765456c2b44a4efa91c7a80961e645f7999188f6e605819828ae734bef0fd5ea"}

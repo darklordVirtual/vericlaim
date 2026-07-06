@@ -1000,4 +1000,177 @@ kind = "paper"
 registrar = "crossref"
 p0 = true
 # seed only — the registrar guard decides
-doi = "10.1007/978-3-642-13556-9_7"
+doi = "10.1007/978-3-642-13556-9_7"# ---------------------------------------------------------------------------
+# Enterprise batch (2026-07-06): what a principal AI architect needs in a
+# regulated enterprise (energy-sector example) — EU law, the NIST stack,
+# AI auditing, MLOps at scale, industrial digital twins, privacy engineering.
+
+[[work]]
+id = "gdpr-2016"
+collection = "05_ai_governance"
+title = "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+authors = ["European Parliament", "Council"]
+year = 2016
+kind = "standard"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "nis2-2022"
+collection = "05_ai_governance"
+title = "Directive (EU) 2022/2555 (NIS2)"
+authors = ["European Parliament", "Council"]
+year = 2022
+kind = "standard"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "edpb-dpia-2017"
+collection = "05_ai_governance"
+title = "Guidelines on Data Protection Impact Assessment (DPIA) (WP248 rev.01)"
+authors = ["Article 29 Working Party"]
+year = 2017
+kind = "report"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "nist-csf-2024"
+collection = "05_ai_governance"
+title = "The NIST Cybersecurity Framework (CSF) 2.0"
+authors = ["NIST"]
+year = 2024
+kind = "standard"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "nist-privacy-2020"
+collection = "05_ai_governance"
+title = "NIST Privacy Framework 1.0"
+authors = ["NIST"]
+year = 2020
+kind = "standard"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "nist-rmf-37-2018"
+collection = "05_ai_governance"
+title = "Risk Management Framework for Information Systems and Organizations (SP 800-37 Rev. 2)"
+authors = ["NIST"]
+year = 2018
+kind = "standard"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "nist-800-53-2020"
+collection = "05_ai_governance"
+title = "Security and Privacy Controls for Information Systems and Organizations (SP 800-53 Rev. 5)"
+authors = ["NIST"]
+year = 2020
+kind = "standard"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "raji-audit-2020"
+collection = "05_ai_governance"
+title = "Closing the AI accountability gap"
+authors = ["Raji"]
+year = 2020
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1145/3351095.3372873"
+
+[[work]]
+id = "iso-23894-2023"
+collection = "05_ai_governance"
+title = "ISO/IEC 23894:2023 Artificial intelligence — Guidance on risk management"
+authors = ["ISO"]
+year = 2023
+kind = "standard"
+registrar = "web"
+
+[[work]]
+id = "mlops-2023"
+collection = "06_mlops_and_enterprise_architecture"
+title = "Machine Learning Operations (MLOps): Overview, Definition, and Architecture"
+authors = ["Kreuzberger"]
+year = 2023
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1109/access.2023.3262138"
+
+[[work]]
+id = "digital-twin-2020"
+collection = "06_mlops_and_enterprise_architecture"
+title = "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective"
+authors = ["Rasheed", "Kvamsdal"]
+year = 2020
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1109/access.2020.2970143"
+
+[[work]]
+id = "pinn-2021"
+collection = "06_mlops_and_enterprise_architecture"
+title = "Physics-informed machine learning"
+authors = ["Karniadakis"]
+year = 2021
+kind = "paper"
+registrar = "crossref"
+# seed only — the registrar guard decides
+doi = "10.1038/s42254-021-00314-5"
+
+[[work]]
+id = "nist-800-82-2023"
+collection = "07_provenance_and_supply_chain"
+title = "Guide to Operational Technology (OT) security"
+authors = ["Stouffer"]
+year = 2023
+kind = "standard"
+registrar = "doi"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.6028/nist.sp.800-82r3"
+
+[[work]]
+id = "iec-62443"
+collection = "07_provenance_and_supply_chain"
+title = "IEC 62443 Industrial communication networks — Network and system security"
+authors = ["IEC"]
+kind = "standard"
+registrar = "web"
+
+[[work]]
+id = "dwork-roth-2014"
+collection = "09_fairness_privacy_and_human_impact"
+title = "The Algorithmic Foundations of Differential Privacy"
+authors = ["Dwork", "Roth"]
+year = 2014
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1561/0400000042"
+
+[[work]]
+id = "k-anonymity-2002"
+collection = "09_fairness_privacy_and_human_impact"
+title = "k-ANONYMITY: A MODEL FOR PROTECTING PRIVACY"
+authors = ["Sweeney"]
+year = 2002
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1142/s0218488502001648"

@@ -1,0 +1,5 @@
+{"fsid": "web_csrc-nist-gov_pubs_cswp_29", "n": 4, "overlap": 200, "source_sha256": "e677d38c225c10834bd2103d7feb819f1d21f49049f4f9e74392089d2a10c19e", "target": 1200}
+{"section": "", "seq": 0, "sha256": "7b424b0f3df3df911805317c00fdb2ba05259232b280b2532aacb4c2c048a7b3"}
+{"section": "The NIST Cybersecurity Framework (CSF) 2.0", "seq": 1, "sha256": "369112c27f92003b553067e194f0de3b05daa84e715197f8f50c210f5a253b5f"}
+{"section": "The NIST Cybersecurity Framework (CSF) 2.0", "seq": 2, "sha256": "6ac6de70aa527da95f1e341dc387523364b4f2483f3ea9a9c3ba63fe1544d056"}
+{"section": "The NIST Cybersecurity Framework (CSF) 2.0", "seq": 3, "sha256": "a6539873374149feaab625249ea44d632f4b97d8c87c7e95b7d4c2fa60a7188f"}

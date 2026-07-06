@@ -1,0 +1,15 @@
+{"fsid": "web_nist-gov_privacy-framework", "n": 14, "overlap": 200, "source_sha256": "084b30a4decf90bb3068df8b304f925f2c72ba50535a2e29146f2c0e54d74d0b", "target": 1200}
+{"section": "", "seq": 0, "sha256": "55369e2b9cbd4d6bb978940134e7003ab230d70126474d1be9d89b4af521cb4b"}
+{"section": "Privacy Framework", "seq": 1, "sha256": "0511747bc31b89a96710b8ead91c7af728e4b95bf1b66fa200dcfc019c64b4d6"}
+{"section": "About", "seq": 2, "sha256": "dfb9fcb5d09b26554624534042eb883b23ce338b981ddfdbb4c6da7854cf9ef5"}
+{"section": "PF 1.1 IPD", "seq": 3, "sha256": "ea30c3624e904da516625ee7c3cf273ca42b43d8f8ecb2c7bad79e653f2f4891"}
+{"section": "Mapping of PF 1.0 Core to PF 1.1 Core", "seq": 4, "sha256": "4a071e65b979a0e2f008e10008e7fd9a7f7e9db104c58e6546543e544948fd91"}
+{"section": "Quick Start Guide", "seq": 5, "sha256": "7b8ac0f78c6b60e5236f44bdb77bc442c3cc6105303b024e6b4f68b66b6edec2"}
+{"section": "Learning Center", "seq": 6, "sha256": "6d2186bc9d0f20447d109c68f775cd5ee054076c9574564cf140461325d59126"}
+{"section": "Video", "seq": 7, "sha256": "3d367c2a460ccde623b516625da2fda6d5e8588f49600395843bd8bc3cb36a9e"}
+{"section": "Privacy Framework 1.1 Initial Public Draft Highlights", "seq": 8, "sha256": "1c87f362259d12f0d619e67074f21ef13e64f15d1cca33e36462d4ce261020b0"}
+{"section": "Events", "seq": 9, "sha256": "2d23c55c70b5e1e06963738bbcba3fd3b1727354d349d1beebf26ba6887390c8"}
+{"section": "Mailing List", "seq": 10, "sha256": "1e5dcfa1a5bb3335a55baf83c21bc120353e759241cef05b64b5f10c252b7be1"}
+{"section": "Resource Repository", "seq": 11, "sha256": "8ff4a5f529b185c1b7d1436453d2bcab48fc16a40309138453ccb46ac7e81753"}
+{"section": "Adoption", "seq": 12, "sha256": "cd99344d79f9719b727f3463f6d2d3ea47b052f6b634df5ac00c423b70da9510"}
+{"section": "Contacts", "seq": 13, "sha256": "973560b760de82b050636356fb3be3d8e55a3380baf2c2e6f8112c87834d6d68"}

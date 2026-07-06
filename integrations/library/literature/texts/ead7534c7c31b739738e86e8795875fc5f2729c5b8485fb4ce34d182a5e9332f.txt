@@ -1,0 +1,5 @@
+Those measures should be consistent with Directive (EU) 2022/2557. (80)
+
+For the purpose of demonstrating compliance with cybersecurity risk-management measures and in the absence of appropriate European cybersecurity certification schemes adopted in accordance with Regulation (EU) 2019/881 of the European Parliament and of the Council (18), Member States should, in consultation with the Cooperation Group and the European Cybersecurity Certification Group, promote the use of relevant European and international standards by essential and important entities or may require entities to use certified ICT products, ICT services and ICT processes. (81)
+
+In order to avoid imposing a disproportionate financial and administrative burden on essential and important entities, the cybersecurity risk-management measures should be proportionate to the risks posed to the network and information system concerned, taking into account the state-of-the-art of such measures, and, where applicable, relevant European and international standards, as well as the cost for their implementation.

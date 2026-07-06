@@ -1,0 +1,6 @@
+Mapping of Appendix J Privacy Controls (Rev. 4) to Rev. 5
+Supports organizations using the privacy controls in Appendix J of SP 800-53 Rev. 4 that are transitioning to the integrated control catalog in Rev. 5. Mappings and crosswalks between 800-53 Rev. 5 and other frameworks and standards (NIST Cybersecurity Framework and NIST Privacy Framework; ISO/IEC 27001:2022)
+Mappings and crosswalks provide a general indication of SP 800-53 control coverage with respect to other frameworks and standards. When leveraging these relationships, consider the scope and intended use of each publication. Do not assume equivalency based solely on relationship tables; mappings and crosswalks are not always one-to-one and relationship analysis can be subjective. Also available:
+
+Security and Privacy Control Collaboration Index Template (Excel & Word)
+The collaboration index template supports information security and privacy program collaboration to help ensure that the objectives of both disciplines are met and that risks are appropriately managed.

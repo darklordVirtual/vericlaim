@@ -118,17 +118,17 @@ claims:
   - id: CLAIM-LIB-RAG-001
     statement: >
       The canonical research map (integrations/library/research/canon.toml)
-      contains 93 works across 10 collections; 87 are verified into the
+      contains 109 works across 10 collections; 101 are verified into the
       hash-locked literature catalog (registrar metadata or explicit web
-      snapshot) and the remaining 6 are documented drops with reasons —
+      snapshot) and the remaining 8 are documented drops with reasons —
       0 undocumented gaps.
     evidence_level: measured
     artifact:
       - "integrations/library/artifacts/research_layer.json"
     metrics:
-      canon_total: 93
-      canon_verified: 87
-      canon_dropped: 6
+      canon_total: 109
+      canon_verified: 101
+      canon_dropped: 8
       undocumented_gaps: 0
     caveat: >
       "Verified" means the title+author+year guard bound a registrar record,
@@ -139,16 +139,16 @@ claims:
 
   - id: CLAIM-LIB-RAG-002
     statement: >
-      All 96 catalog works are deterministically chunked into 5022
-      content-addressed chunks, and 5022 of 5022 chunks are recorded as
+      All 110 catalog works are deterministically chunked into 5744
+      content-addressed chunks, and 5744 of 5744 chunks are recorded as
       pushed to the live research index.
     evidence_level: measured
     artifact:
       - "integrations/library/artifacts/research_layer.json"
     metrics:
-      catalog_works: 96
-      chunks_total: 5022
-      chunks_pushed: 5022
+      catalog_works: 110
+      chunks_total: 5744
+      chunks_pushed: 5744
     caveat: >
       "Pushed" is what the committed push manifest records; the live index
       is a mirror that can lag the catalog until the next push. Full text is

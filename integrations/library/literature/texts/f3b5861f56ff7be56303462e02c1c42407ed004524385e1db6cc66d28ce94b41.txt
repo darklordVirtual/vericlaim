@@ -1,0 +1,61 @@
+incident;
+
+(9)
+
+‘risk’ means the potential for loss or disruption caused by an incident and is to be expressed as a combination of the magnitude of such loss or disruption and the likelihood of occu rrence of the incident;
+
+(10)
+
+‘cyber threat’ means a cyber threat as defined in Article 2, point (8), of Regulation (EU) 2019/881;
+
+(11)
+
+‘significant cyber threat’ means a cyber threat which, based on its technical characteristics, can be assumed to have the potential to have a severe impact on the network and information systems of an entity or the users of the entity’s services by causing considerable material or non-material damage;
+
+(12)
+
+‘ICT product’ means an ICT product as defined in Article 2, point (12), of Regulation (EU) 2019/881;
+
+(13)
+
+‘ICT service’ means an ICT service as defined in Article 2, point (13), of Regulation (EU) 2019/881;
+
+(14)
+
+‘ICT process’ means an ICT process as defined in Article 2, point (14), of Regulation (EU) 2019/881;
+
+(15)
+
+‘vulnerability’ means a weakness, susceptibility or flaw of ICT products or ICT services that can be exploited by a cyber threat;
+
+(16)
+
+‘standard’ means a standard as defined in Article 2, point (1), of Regulation (EU) No 1025/2012 of the European Parliament and of the Council (29);
+
+(17)
+
+‘technical specification’ means a technical specification as defined in Article 2, point (4), of Regulation (EU) No 1025/2012;
+
+(18)
+
+‘internet exchange point’ means a network facility which enables the interconnection of more than two independent networks (autonomous systems), primarily for the purpose of facilitating the exchange of internet traffic, which provides interconnection only for autonomous systems and which neither requires the internet traffic passing between any pair of participating autonomous systems to pass through any third autonomous system nor alters or otherwise interferes with such traffic;
+
+(19)
+
+‘domain name system’ or ‘DNS’ means a hierarchical distributed naming system which enables the identification of internet services and resources, allowing end-user devices to use internet routing and connectivity services to reach those services and resources;
+
+(20)
+
+‘DNS service provider’ means an entity that provides:
+
+(a)
+
+publicly available recursive domain name resolution services for internet end-users; or
+
+(b)
+
+authoritative domain name resolution services for third-party use, with the exception of root name servers;
+
+(21)
+
+‘top-level domain name registry’ or ‘TLD name registry’ means an entity which has been delegated a specific TLD and is responsible for administering the TLD including the

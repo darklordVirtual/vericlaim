@@ -1,0 +1,17 @@
+4. The CSIRTs shall establish cooperation relationships with relevant stakeholders in the private sector, with a view to achieving the objectives of this Directive. 5. In order to facilitate cooperation referred to in paragraph 4, the CSIRTs shall promote the adoption and use of common or standardised practices, classification schemes and taxonomies in relation to:
+
+(a)
+
+incident-handling procedures;
+
+(b)
+
+crisis management; and
+
+(c)
+
+coordinated vulnerability disclosure under Article 12(1). Article 12
+
+Coordinated vulnerability disclosure and a European vulnerability database
+
+1. Each Member State shall designate one of its CSIRTs as a coordinator for the purposes of coordinated vulnerability disclosure. The CSIRT designated as coordinator shall act as a trusted intermediary, facilitating, where necessary, the interaction between the natural or legal person reporting a vulnerability and the manufacturer or provider of the potentially vulnerable ICT products or ICT services, upon the request of either party.

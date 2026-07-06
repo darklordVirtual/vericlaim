@@ -1,0 +1,5 @@
+to multiple users who share a common access to the service, but where the processing is carried out separately for each user, although the service is provided from the same electronic equipment. The term ‘distributed’ is used to describe computing resources that are located on different networked computers or devices and which communicate and coordinate among themselves by message passing. (34)
+
+Given the emergence of innovative technologies and new business models, new cloud computing service and deployment models are expected to appear in the internal market in response to evolving customer needs. In that context, cloud computing services may be delivered in a highly distributed form, even closer to where data are being generated or collected, thus moving from the traditional model to a highly distributed one (edge computing). (35)
+
+Services offered by data centre service providers may not always be provided in the form of a cloud computing service. Accordingly, data centres may not always constitute a part of cloud computing infrastructure.

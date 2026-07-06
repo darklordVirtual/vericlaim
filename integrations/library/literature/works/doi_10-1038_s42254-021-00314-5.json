@@ -1,0 +1,25 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "George Em Karniadakis",
+    "Ioannis G. Kevrekidis",
+    "Lu Lu",
+    "Paris Perdikaris",
+    "Sifan Wang",
+    "Liu Yang"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "pinn-2021",
+    "fetched_at": "2026-07-06T00:56:18.302289+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "ccb8238da61fd2dfaced86c591a45556c0dbff64c865dfac2bc7e8de7ff58f2a",
+  "title": "Physics-informed machine learning",
+  "url": "https://doi.org/10.1038/s42254-021-00314-5",
+  "venue": "Nature Reviews Physics",
+  "work_id": "doi:10.1038/s42254-021-00314-5",
+  "year": 2021
+}

@@ -1,0 +1,17 @@
+All stakeholders shall be provided access to the information about the vulnerabilities contained in the European vulnerability database. That database shall include:
+
+(a)
+
+information describing the vulnerability;
+
+(b)
+
+the affected ICT products or ICT services and the severity of the vulnerability in terms of the circumstances under which it may be exploited;
+
+(c)
+
+the availability of related patches and, in the absence of available patches, guidance provided by the competent authorities or the CSIRTs addressed to users of vulnerable ICT products and ICT services as to how the risks resulting from disclosed vulnerabilities can be mitigated. Article 13
+
+Cooperation at national level
+
+1. Where they are separate, the competent authorities, the single point of contact and the CSIRTs of the same Member State shall cooperate with each other with regard to the fulfilment of the obligations laid down in this Directive. 2. Member States shall ensure that their CSIRTs or, where applicable, their competent authorities, receive notifications of significant incidents pursuant to Article 23, and incidents, cyber threats and near misses pursuant to Article 30. 3.

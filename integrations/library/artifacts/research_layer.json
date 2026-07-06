@@ -1,13 +1,13 @@
 {
-  "canon_dropped": 6,
+  "canon_dropped": 8,
   "canon_fulltext": 33,
-  "canon_total": 93,
-  "canon_vectorized": 87,
-  "canon_verified": 87,
-  "catalog_works": 96,
+  "canon_total": 109,
+  "canon_vectorized": 101,
+  "canon_verified": 101,
+  "catalog_works": 110,
   "catalog_works_fulltext": 40,
-  "chunked_works": 96,
-  "chunks_pushed": 5022,
-  "chunks_total": 5022,
+  "chunked_works": 110,
+  "chunks_pushed": 5744,
+  "chunks_total": 5744,
   "undocumented_gaps": 0
 }

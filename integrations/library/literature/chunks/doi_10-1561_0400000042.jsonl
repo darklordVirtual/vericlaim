@@ -1,0 +1,4 @@
+{"fsid": "doi_10-1561_0400000042", "n": 3, "overlap": 200, "source_sha256": "d1781083986239ef27d3b93cffdc0862880b5855cf97f93f101d2a2159b43e74", "target": 1200}
+{"section": "", "seq": 0, "sha256": "a23aa3bed9275ae196068ee5b637ba1ac024ff73e23ba99e85c6a338834a6930"}
+{"section": "", "seq": 1, "sha256": "cd5749fd94fcffab6d6fe0a5d791485812f1dab47728bd31e8eabcdfb7300a2c"}
+{"section": "", "seq": 2, "sha256": "aff4480a2d79ff9fa914d3bdf27df9e1ecdc59792c4bcbc47a3079fcc7852616"}

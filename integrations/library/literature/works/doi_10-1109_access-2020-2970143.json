@@ -1,0 +1,22 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Adil Rasheed",
+    "Omer San",
+    "Trond Kvamsdal"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "digital-twin-2020",
+    "fetched_at": "2026-07-06T00:56:15.749953+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "48944c0cd1644bd7edb3e4ad85c1867a5efc6ff867b7689f636fb904b0a4c7e6",
+  "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+  "url": "https://doi.org/10.1109/access.2020.2970143",
+  "venue": "IEEE Access",
+  "work_id": "doi:10.1109/access.2020.2970143",
+  "year": 2020
+}

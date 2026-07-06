@@ -1,0 +1,45 @@
+officer; senior agency official for privacy; supply chain risk management; system development life cycle; system owner; system privacy officer; system security officer; system-specific control. Control Families
+
+Assessment, Authorization and Monitoring; Configuration Management; Planning; Program Management; Risk Assessment
+
+Documentation
+
+Publication:
+
+https://doi.org/10.6028/NIST.SP.800-37r2
+
+Download URL
+
+Supplemental Material:
+
+None available
+
+Related NIST Publications:
+
+ITL Bulletin
+
+SP 1314
+
+Document History:
+
+09/28/17: SP 800-37 Rev. 2 (Draft)
+
+05/09/18: SP 800-37 Rev. 2 (Draft)
+
+10/02/18: SP 800-37 Rev. 2 (Draft)
+
+12/20/18: SP 800-37 Rev. 2 (Final)
+
+Topics
+
+Security and Privacy
+
+audit & accountability, continuous monitoring, controls, planning, risk assessment
+
+Applications
+
+cybersecurity framework
+
+Laws and Regulations
+
+Executive Order 13800, Federal Information Security Modernization Act, Homeland Security Presidential Directive 7, OMB Circular A-130

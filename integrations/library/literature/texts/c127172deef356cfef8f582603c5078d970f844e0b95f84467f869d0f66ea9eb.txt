@@ -1,0 +1,5 @@
+system concerned, taking into account the state-of-the-art of such measures, and, where applicable, relevant European and international standards, as well as the cost for their implementation. (82)
+
+Cybersecurity risk-management measures should be proportionate to the degree of the essential or important entity’s exposure to risks and to the societal and economic impact that an incident would have. When establishing cybersecurity risk-management measures adapted to essential and important entities, due account should be taken of the divergent risk exposure of essential and important entities, such as the criticality of the entity, the risks, including societal risks, to which it is exposed, the entity’s size and the likelihood of occurrence of incidents and their severity, including their societal and economic impact. (83)
+
+Essential and important entities should ensure the security of the network and information systems which they use in their activities. Those systems are primarily private network and information systems managed by the essential and important entities’ internal IT staff or the security of which has been outsourced.

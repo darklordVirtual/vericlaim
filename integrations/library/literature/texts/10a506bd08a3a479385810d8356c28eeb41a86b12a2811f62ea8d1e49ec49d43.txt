@@ -1,0 +1,49 @@
+of root name servers;
+
+(21)
+
+‘top-level domain name registry’ or ‘TLD name registry’ means an entity which has been delegated a specific TLD and is responsible for administering the TLD including the  registration of domain names under the TLD and the technical operation of the TLD, including the operation of its name servers, the maintenance of its databases and the distribution of TLD zone files across name servers, irrespective of whether any of those operations are carried out by the entity itself or are outsourced, but excluding situations where TLD names are used by a registry only for its own use;
+
+(22)
+
+‘entity providing domain name registration services’ means a registrar or an agent acting on behalf of registrars, such as a privacy or proxy registration service provider or reseller;
+
+(23)
+
+‘digital service’ means a service as defined in Article 1(1), point (b), of Directive (EU) 2015/1535 of the European Parliament and of the Council (30);
+
+(24)
+
+‘trust service’ means a trust service as defined in Article 3, point (16), of Regulation (EU) No 910/2014;
+
+(25)
+
+‘trust service provider’ means a trust service provider as defined in Article 3, point (19), of Regulation (EU) No 910/2014;
+
+(26)
+
+‘qualified trust service’ means a qualified trust service as defined in Article 3, point (17), of Regulation (EU) No 910/2014;
+
+(27)
+
+‘qualified trust service provider’ means a qualified trust service provider as defined in Article 3, point (20), of Regulation (EU) No 910/2014;
+
+(28)
+
+‘online marketplace’ means an online marketplace as defined in Article 2, point (n), of Directive 2005/29/EC of the European Parliament and of the Council (31);
+
+(29)
+
+‘online search engine’ means an online search engine as defined in Article 2, point (5), of Regulation (EU) 2019/1150 of the European Parliament and of the Council (32);
+
+(30)
+
+‘cloud computing service’ means a digital service that enables on-demand administration and broad remote access to a scalable and elastic pool of shareable computing resources, including where such resources are distributed across several locations;
+
+(31)
+
+‘data centre service’ means a service that encompasses structures, or groups of structures, dedicated to the centralised accommodation, interconnection and operation of IT and network equipment providing data storage, processing and transport services together with all the facilities and infrastructures for power distribution and environmental control;
+
+(32)
+
+‘content delivery network’ means a network of geographically distributed servers for the purpose of ensuring high availability, acces

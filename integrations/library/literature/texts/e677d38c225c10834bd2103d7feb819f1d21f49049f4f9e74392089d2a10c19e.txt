@@ -1,0 +1,122 @@
+CSWP 29, The NIST Cybersecurity Framework (CSF) 2.0 | CSRC
+
+You are viewing this page in an unauthorized frame window.
+
+This is a potential security issue, you are being redirected to https://csrc.nist.gov.
+
+Official websites use .gov
+
+A
+.gov website belongs to an official government
+organization in the United States.
+
+Secure .gov websites use HTTPS
+
+A
+lock (
+
+) or https:// means you’ve safely connected to
+the .gov website. Share sensitive information only on official,
+secure websites.
+
+Information Technology Laboratory
+
+Computer Security Resource Center
+
+Publications
+
+## NIST CSWP 29
+
+## The NIST Cybersecurity Framework (CSF) 2.0
+
+Share to Facebook
+Share to X
+Share to LinkedIn
+Share ia Email
+
+Documentation
+
+Topics
+
+Date Published: February 26, 2024
+
+Planning Note (09/24/2024):
+
+Now available: a new spreadsheet, CSF 1.1 to 2.0 Core Transition Changes Overview.
+
+See other links to CSF 2.0 resources on this page. Send inquiries about this publication to [email protected].
+
+Author(s)
+
+National Institute of Standards and Technology
+
+Abstract
+
+The NIST Cybersecurity Framework (CSF) 2.0 provides guidance to industry, government agencies, and other organizations to manage cybersecurity risks. It offers a taxonomy of high-level cybersecurity outcomes that can be used by any organization — regardless of its size, sector, or maturity — to better understand, assess, prioritize, and communicate its cybersecurity efforts. The CSF does not prescribe how outcomes should be achieved. Rather, it links to online resources that provide additional guidance on practices and controls that could be used to achieve those outcomes. This document describes CSF 2.0, its components, and some of the many ways that it can be used.
+
+The NIST Cybersecurity Framework (CSF) 2.0 provides guidance to industry, government agencies, and other organizations to manage cybersecurity risks. It offers a taxonomy of high-level cybersecurity outcomes that can be used by any organization — regardless of its size, sector, or maturity — to...
+See full abstract
+
+The NIST Cybersecurity Framework (CSF) 2.0 provides guidance to industry, government agencies, and other organizations to manage cybersecurity risks. It offers a taxonomy of high-level cybersecurity outcomes that can be used by any organization — regardless of its size, sector, or maturity — to better understand, assess, prioritize, and communicate its cybersecurity efforts. The CSF does not prescribe how outcomes should be achieved. Rather, it links to online resources that provide additional guidance on practices and controls that could be used to achieve those outcomes. This document describes CSF 2.0, its components, and some of the many ways that it can be used.
+
+Hide full abstract
+
+Keywords
+
+cybersecurity; Cybersecurity Framework (CSF); cybersecurity risk governance; cybersecurity risk management; enterprise risk management; Profiles; Tiers
+
+Control Families
+
+None selected
+
+Documentation
+
+Publication:
+
+https://doi.org/10.6028/NIST.CSWP.29
+
+Download URL
+
+Supplemental Material:
+
+NIST news article
+
+Blog post
+
+NIST CSF Website
+
+CSF 2.0 Quick-Start Guides
+
+CSF 2.0 Reference Tool
+
+CSF 2.0 Dataset on CPRT
+
+CSF 1.1 to 2.0 Core Transition Changes Overview
+
+Translations
+
+Related NIST Publications:
+
+SP 1299
+
+SP 1300
+
+SP 1301
+
+IR 8286 Rev. 1
+
+Document History:
+
+08/08/23: CSWP 29 (Draft)
+
+02/26/24: CSWP 29 (Final)
+
+Topics
+
+Security and Privacy
+
+cybersecurity supply chain risk management, privacy, risk management, security programs & operations
+
+Applications
+
+cybersecurity framework, enterprise, small & medium business

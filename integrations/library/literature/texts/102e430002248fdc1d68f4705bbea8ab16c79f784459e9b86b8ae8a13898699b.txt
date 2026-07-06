@@ -1,0 +1,37 @@
+4. Member States shall ensure that, for the purpose of notification under paragraph 1, the entities concerned submit to the CSIRT or, where applicable, the competent authority:
+
+(a)
+
+without undue delay and in any event within 24 hours of becoming aware of the significant incident, an early warning, which, where applicable, shall indicate whether the significant incident is suspected of being caused by unlawful or malicious acts or could have a cross-border impact;
+
+(b)
+
+without undue delay and in any event within 72 hours of becoming aware of the significant incident, an incident notification, which, where applicable, shall update the information referred to in point (a) and indicate an initial assessment of the significant incident, including its severity and impact, as well as, where available, the indicators of compromise;
+
+(c)
+
+upon the request of a CSIRT or, where applicable, the competent authority, an intermediate report on relevant status updates;
+
+(d)
+
+a final report not later than one month after the submission of the incident notification under point (b), including the following:
+
+(i)
+
+a detailed description of the incident, including its severity and impact;
+
+(ii)
+
+the type of threat or root cause that is likely to have triggered the incident;
+
+(iii)
+
+applied and ongoing mitigation measures;
+
+(iv)
+
+where applicable, the cross-border impact of the incident;
+
+(e)
+
+in the event of an ongoing incident at the time of the submission of the final report referred to in point (d), Member States shall ensure that entities concerned provide a progress report at that time and a final report within one month of their handling of the incident.

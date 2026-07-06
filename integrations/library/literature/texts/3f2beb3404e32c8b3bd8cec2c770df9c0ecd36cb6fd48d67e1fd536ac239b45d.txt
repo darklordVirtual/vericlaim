@@ -1,0 +1,25 @@
+Addressing functionality and assurance helps to ensure that information technology products and the systems that rely on those products are sufficiently trustworthy. Hide full abstract
+
+Keywords
+
+assurance; availability; computer security; confidentiality; control; cybersecurity; FISMA; information security; information system; integrity; personally identifiable information; Privacy Act; privacy controls; privacy functions; privacy requirements; Risk Management Framework; security controls; security functions; security requirements; system; system security
+
+Control Families
+
+Access Control; Awareness and Training; Audit and Accountability; Assessment, Authorization and Monitoring; Configuration Management; Contingency Planning; Identification and Authentication; Incident Response; Maintenance; Media Protection; Physical and Environmental Protection; Planning; Program Management; Personnel Security; PII Processing and Transparency; Risk Assessment; System and Services Acquisition; System and Communications Protection; System and Information Integrity; Supply Chain Risk Management
+
+Documentation
+
+Publication:
+
+https://doi.org/10.6028/NIST.SP.800-53r5
+
+Download URL
+
+Supplemental Material:
+
+SP 800-53 Release 5.2.0
+
+Summary of Changes SP 800-53 Release 5.2.0 (pdf)
+
+Analysis of updates between 800-53 Rev.

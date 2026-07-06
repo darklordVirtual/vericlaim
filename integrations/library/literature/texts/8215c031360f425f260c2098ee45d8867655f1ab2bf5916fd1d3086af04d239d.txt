@@ -1,0 +1,33 @@
+Share to Facebook
+Share to X
+Share to LinkedIn
+Share ia Email
+
+Documentation
+
+Topics
+
+Date Published: September 2020 (includes updates as of Dec. 10, 2020)
+
+Supersedes:
+
+SP 800-53 Rev. 5 (09/23/2020)
+
+Planning Note (08/27/2025):
+
+On August 27, 2025, NIST issued a minor release of SP 800-53 (Release 5.2.0) that includes:
+
+New Control/Control Enhancements: SA-15(13), SA-24, SI-02(07)
+
+Revisions to Existing Controls: SI-07(12)
+
+Updates to Control Discussion: SA-04, SA-05, SA-08, SA-08(14), SI-02, SI-02(05)
+
+Updates to Related Controls: All -01 Controls, AU-02, AU-03, CA-07, IR-04, IR-06, IR-08, SA-15, SI-02, SI-07
+
+A list of all the changes in the patch release is available under Supplemental Material. ***
+
+Summary of supplemental files:
+
+Analysis of updates between 800-53 Rev. 5 and Rev. 4 (Updated 1/07/22)
+Describes the changes to each control and control enhancement, provides a brief summary of the changes, and includes an assessment of the significance of the changes. Note that this comparison was authored by The MITRE Corporation for the Director of National Intelligence (DNI) and is being shared with permission by DNI. Mapping of Appendix J Privacy Controls (Rev. 4) to Rev.

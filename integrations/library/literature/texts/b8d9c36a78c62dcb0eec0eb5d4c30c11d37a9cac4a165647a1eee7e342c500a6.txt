@@ -1,0 +1,110 @@
+SP 800-37 Rev. 2, Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy | CSRC
+
+You are viewing this page in an unauthorized frame window.
+
+This is a potential security issue, you are being redirected to https://csrc.nist.gov.
+
+Official websites use .gov
+
+A
+.gov website belongs to an official government
+organization in the United States.
+
+Secure .gov websites use HTTPS
+
+A
+lock (
+
+) or https:// means you’ve safely connected to
+the .gov website. Share sensitive information only on official,
+secure websites.
+
+Information Technology Laboratory
+
+Computer Security Resource Center
+
+Publications
+
+## NIST SP 800-37 Rev. 2
+
+## Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy
+
+Share to Facebook
+Share to X
+Share to LinkedIn
+Share ia Email
+
+Documentation
+
+Topics
+
+Date Published: December 2018
+
+Supersedes:
+
+SP 800-37 Rev. 1 (06/05/2014); CSWP 3 (06/03/2014)
+
+Author(s)
+
+Joint Task Force
+
+Abstract
+
+This publication describes the Risk Management Framework (RMF) and provides guidelines for applying the RMF to information systems and organizations. The RMF provides a disciplined, structured, and flexible process for managing security and privacy risk that includes information security categorization; control selection, implementation, and assessment; system and common control authorizations; and continuous monitoring. The RMF includes activities to prepare organizations to execute the framework at appropriate risk management levels. The RMF also promotes near real-time risk management and ongoing information system and common control authorization through the implementation of continuous monitoring processes; provides senior leaders and executives with the necessary information to make efficient, cost-effective, risk management decisions about the systems supporting their missions and business functions; and incorporates security and privacy into the system development life cycle. Executing the RMF tasks links essential risk management processes at the system level to risk management processes at the organization level. In addition, it establishes responsibility and accountability for the controls implemented within an organization’s information systems and inherited by those systems.
+
+This publication describes the Risk Management Framework (RMF) and provides guidelines for applying the RMF to information systems and organizations. The RMF provides a disciplined, structured, and flexible process for managing security and privacy risk that includes information security...
+See full abstract
+
+This publication describes the Risk Management Framework (RMF) and provides guidelines for applying the RMF to information systems and organizations. The RMF provides a disciplined, structured, and flexible process for managing security and privacy risk that includes information security categorization; control selection, implementation, and assessment; system and common control authorizations; and continuous monitoring. The RMF includes activities to prepare organizations to execute the framework at appropriate risk management levels. The RMF also promotes near real-time risk management and ongoing information system and common control authorization through the implementation of continuous monitoring processes; provides senior leaders and executives with the necessary information to make efficient, cost-effective, risk management decisions about the systems supporting their missions and business functions; and incorporates security and privacy into the system development life cycle. Executing the RMF tasks links essential risk management processes at the system level to risk management processes at the organization level. In addition, it establishes responsibility and accountability for the controls implemented within an organization’s information systems and inherited by those systems.
+
+Hide full abstract
+
+Keywords
+
+assess; authorization to operate; authorization to use; authorizing official; categorize; common control; common control authorization; common control provider; continuous monitoring; control assessor; control baseline; cybersecurity framework profile; hybrid control; information owner or steward; information security; monitor; ongoing authorization; plan of action and milestones; privacy; privacy assessment report; privacy control; privacy plan; privacy risk; risk assessment; risk executive function; risk management; risk management framework; security; security assessment report; security control; security engineering; security plan; security risk; senior agency information security officer; senior agency official for privacy; supply chain risk management; system development life cycle; system owner; system privacy officer; system security officer; system-specific control.
+
+Control Families
+
+Assessment, Authorization and Monitoring; Configuration Management; Planning; Program Management; Risk Assessment
+
+Documentation
+
+Publication:
+
+https://doi.org/10.6028/NIST.SP.800-37r2
+
+Download URL
+
+Supplemental Material:
+
+None available
+
+Related NIST Publications:
+
+ITL Bulletin
+
+SP 1314
+
+Document History:
+
+09/28/17: SP 800-37 Rev. 2 (Draft)
+
+05/09/18: SP 800-37 Rev. 2 (Draft)
+
+10/02/18: SP 800-37 Rev. 2 (Draft)
+
+12/20/18: SP 800-37 Rev. 2 (Final)
+
+Topics
+
+Security and Privacy
+
+audit & accountability, continuous monitoring, controls, planning, risk assessment
+
+Applications
+
+cybersecurity framework
+
+Laws and Regulations
+
+Executive Order 13800, Federal Information Security Modernization Act, Homeland Security Presidential Directive 7, OMB Circular A-130

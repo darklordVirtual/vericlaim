@@ -1,0 +1,22 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Dominik Kreuzberger",
+    "Niklas Kühl",
+    "Sebastian Hirschl"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "mlops-2023",
+    "fetched_at": "2026-07-06T00:56:13.140533+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "0a680e288a17c3ae5c51199c223923f06b4085e1ec474eba73b0241f0fb30d69",
+  "title": "Machine Learning Operations (MLOps): Overview, Definition, and Architecture",
+  "url": "https://doi.org/10.1109/access.2023.3262138",
+  "venue": "IEEE Access",
+  "work_id": "doi:10.1109/access.2023.3262138",
+  "year": 2023
+}

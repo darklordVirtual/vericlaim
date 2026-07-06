@@ -1,0 +1,22 @@
+Share to Facebook
+Share to X
+Share to LinkedIn
+Share ia Email
+
+Documentation
+
+Topics
+
+Date Published: December 2018
+
+Supersedes:
+
+SP 800-37 Rev. 1 (06/05/2014); CSWP 3 (06/03/2014)
+
+Author(s)
+
+Joint Task Force
+
+Abstract
+
+This publication describes the Risk Management Framework (RMF) and provides guidelines for applying the RMF to information systems and organizations. The RMF provides a disciplined, structured, and flexible process for managing security and privacy risk that includes information security categorization; control selection, implementation, and assessment; system and common control authorizations; and continuous monitoring. The RMF includes activities to prepare organizations to execute the framework at appropriate risk management levels.

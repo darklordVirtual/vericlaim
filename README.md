@@ -276,20 +276,21 @@ content-addressed, and the oracle **refuses** when no cataloged excerpt
 supports an answer.
 
 <!-- claim:CLAIM-LIB-RAG-001 canon_total canon_verified canon_dropped -->
-The canonical research map holds <!-- v:CLAIM-LIB-RAG-001.canon_total -->**93**
+The canonical research map holds <!-- v:CLAIM-LIB-RAG-001.canon_total -->**109**
 works across 10 collections (uncertainty/conformal, agents, evaluation, agent
-security, governance, MLOps, provenance/supply-chain, formal methods,
-fairness, assurance cases); <!-- v:CLAIM-LIB-RAG-001.canon_verified -->**87**
+security, governance — including the EU AI Act, GDPR, NIS2 and the NIST
+risk stack — MLOps, provenance/supply-chain, formal methods, fairness,
+assurance cases); <!-- v:CLAIM-LIB-RAG-001.canon_verified -->**101**
 are verified into the hash-locked catalog and
-<!-- v:CLAIM-LIB-RAG-001.canon_dropped -->**6** are documented drops with
+<!-- v:CLAIM-LIB-RAG-001.canon_dropped -->**8** are documented drops with
 reasons — coverage is checked fail-closed, so a gap can be honest but never
 silent (verification binds registrar metadata or a snapshot, not the truth of
 a work's content; see the register caveat).
 
 <!-- claim:CLAIM-LIB-RAG-002 catalog_works chunks_total -->
-All <!-- v:CLAIM-LIB-RAG-002.catalog_works -->**96** catalog works are
+All <!-- v:CLAIM-LIB-RAG-002.catalog_works -->**110** catalog works are
 deterministically chunked into
-<!-- v:CLAIM-LIB-RAG-002.chunks_total -->**5022** content-addressed chunks
+<!-- v:CLAIM-LIB-RAG-002.chunks_total -->**5744** content-addressed chunks
 and pushed to a separate Vectorize index — full text where an open arXiv
 rendering exists, registrar abstracts or page snapshots otherwise (the
 committed push manifest is what "pushed" means; the live index can lag until

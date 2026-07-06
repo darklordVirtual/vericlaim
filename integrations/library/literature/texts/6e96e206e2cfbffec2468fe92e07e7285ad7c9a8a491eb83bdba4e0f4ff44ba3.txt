@@ -1,0 +1,53 @@
+Member States from adopting or maintaining provisions ensuring a higher level of cybersecurity, provided that such provisions are consistent with Member States’ obligations laid down in Union law. Article 6
+
+Definitions
+
+For the purposes of this Directive, the following definitions apply:
+
+(1)
+
+‘network and information system’ means:
+
+(a)
+
+an electronic communications network as defined in Article 2, point (1), of Directive (EU) 2018/1972;
+
+(b)
+
+any device or group of interconnected or related devices, one or more of which, pursuant to a programme, carry out automatic processing of digital data; or
+
+(c)
+
+digital data stored, processed, retrieved or transmitted by elements covered under points (a) and (b) for the purposes of their operation, use, protection and maintenance;
+
+(2)
+
+‘security of network and information systems’ means the ability of network and information systems to resist, at a given level of confidence, any event that may compromise the availability, authenticity, integrity or confidentiality of stored, transmitted or processed data or of the services offered by, or accessible via, those network and information systems;
+
+(3)
+
+‘cybersecurity’ means cybersecurity as defined in Article 2, point (1), of Regulation (EU) 2019/881;
+
+(4)
+
+‘national cybersecurity strategy ’ means a coherent framework of a Member State providing strategic objectives and priorities in the area of cybersecurity and the governance to achieve them in that Member State;
+
+(5)
+
+‘near miss’ means an event that could have compromised the availability, authenticity, integrity or confidentiality of stored, transmitted or processed data or of the services offered by, or accessible via, network and information systems, but that was successfully prevented from materialising or that did not materialise;
+
+(6)
+
+‘incident’ means an event compromising the availability, authenticity, integrity or confidentiality of stored, transmitted or processed data or of the services offered by, or accessible via, network and information systems;
+
+(7)
+
+‘large-scale cybersecurity incident’ means an incident which causes a level of disruption that exceeds a Member State’s capacity to respond to it or which has a significant impact on at least two Member States;
+
+(8)
+
+‘incident handling’ means any actions and procedures aiming to prevent, detect, analyse, and contain or to respond to and recover from an incident;
+
+(9)
+
+‘risk’ means the potential for loss or disruption caused by an incident and is to be expressed as a combination of the magnitude of such loss or disruption and the likelihood of occu

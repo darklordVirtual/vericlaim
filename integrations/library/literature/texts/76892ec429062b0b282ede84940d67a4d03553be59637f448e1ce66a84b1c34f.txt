@@ -1,0 +1,29 @@
+10. Member States may request the assistance of ENISA in developing their CSIRTs. Article 11
+
+Requirements, technical capabilities and tasks of CSIRTs
+
+1. The CSIRTs shall comply with the following requirements:
+
+(a)
+
+the CSIRTs shall ensure a high level of availability of their communication channels by avoiding single points of failure, and shall have several means for being contacted and for contacting others at all times; they shall clearly specify the communication channels and make them known to constituency and cooperative partners;
+
+(b)
+
+the CSIRTs’ premises and the supporting information systems shall be located at secure sites;
+
+(c)
+
+the CSIRTs shall be equipped with an appropriate system for managing and routing requests, in particular to facilitate effective and efficient handovers;
+
+(d)
+
+the CSIRTs shall ensure the confidentiality and trustworthiness of their operations;
+
+(e)
+
+the CSIRTs shall be adequately staffed to ensure availability of their services at all times and they shall ensure that their staff is trained appropriately;
+
+(f)
+
+the CSIRTs shall be equipped with redundant systems and backup working space to ensure continuity of their services.

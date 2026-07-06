@@ -1,0 +1,33 @@
+Member States shall ensure that sufficient resources are allocated to their CSIRTs to ensure adequate staffing levels for the purpose of enabling the CSIRTs to develop their technical capabilities. 3. The CSIRTs shall have the following tasks:
+
+(a)
+
+monitoring and analysing cyber threats, vulnerabilities and incidents at national level and, upon request, providing assistance to essential and important entities concerned regarding real-time or near real-time monitoring of their network and information systems;
+
+(b)
+
+providing early warnings, alerts, announcements and dissemination of information to essential and important entities concerned as well as to the competent authorities and other relevant stakeholders on cyber threats, vulnerabilities and incidents, if possible in near real-time;
+
+(c)
+
+responding to incidents and providing assistance to the essential and important entities concerned, where applicable;
+
+(d)
+
+collecting and analysing forensic data and providing dynamic risk and incident analysis and situational awareness regarding cybersecurity;
+
+(e)
+
+providing, upon the request of an essential or important entity, a proactive scanning of the network and information systems of the entity concerned to detect vulnerabilities with a potential significant impact;
+
+(f)
+
+participating in the CSIRTs network and providing mutual assistance in accordance with their capacities and competencies to other members of the CSIRTs network upon their request;
+
+(g)
+
+where applicable, acting as a coordinator for the purposes of the coordinated vulnerability disclosure under Article 12(1);
+
+(h)
+
+contributing to the deployment of secure information-sharing tools pursuant to Article 10(3).

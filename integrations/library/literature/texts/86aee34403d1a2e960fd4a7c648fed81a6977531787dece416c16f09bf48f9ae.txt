@@ -1,0 +1,5 @@
+Directive should not apply to the provision of trust services that are used exclusively within closed systems resulting from national law or from agreements between a defined set of participants. (12)
+
+Postal service providers as defined in Directive 97/67/EC of the European Parliament and of the Council (7), including providers of courier services, should be subject to this Directive if they provide at least one of the steps in the postal delivery chain, in particular clearance, sorting, transport or distribution of postal items, including pick-up services, while taking account of the degree of their dependence on network and information systems. Transport services that are not undertaken in conjunction with one of those steps should be excluded from the scope of postal services. (13)
+
+Given the intensification and increased sophistication of cyber threats, Member States should strive to ensure that entities that are excluded from the scope of this Directive achieve a high level of cybersecurity and to support the implementation of equivalent cybersecurity risk-management measures that reflect the sensitive nature of those entities.

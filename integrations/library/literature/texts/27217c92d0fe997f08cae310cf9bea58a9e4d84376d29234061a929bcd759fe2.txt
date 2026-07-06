@@ -1,0 +1,9 @@
+notify the competent authority of a significant incident under the first subparagraph, the Member State shall ensure that that competent authority forwards the notification to the CSIRT upon receipt. In the case of a cross-border or cross-sectoral significant incident, Member States shall ensure that their single points of contact are provided in due time with relevant information notified in accordance with paragraph 4. 2. Where applicable, Member States shall ensure that essential and important entities communicate, without undue delay, to the recipients of their services that are potentially affected by a significant cyber threat any measures or remedies that those recipients are able to take in response to that threat. Where appropriate, the entities shall also inform those recipients of the significant cyber threat itself. 3. An incident shall be considered to be significant if:
+
+(a)
+
+it has caused or is capable of causing severe operational disruption of the services or financial loss for the entity concerned;
+
+(b)
+
+it has affected or is capable of affecting other natural or legal persons by causing considerable material or non-material damage. 4.

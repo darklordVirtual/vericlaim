@@ -1,0 +1,47 @@
+URL
+
+Supplemental Material:
+
+SP 800-53 Release 5.2.0
+
+Summary of Changes SP 800-53 Release 5.2.0 (pdf)
+
+Analysis of updates between 800-53 Rev. 5 and Rev. 4, by MITRE Corp. for ODNI (xlsx)
+
+Mapping: Appendix J Privacy Controls (Rev. 4) to Rev. 5 (xlsx)
+
+Mappings: Cybersecurity Framework and Privacy Framework to Rev. 5 (xlsx)
+
+Crosswalk: 800-53 Rev. 5 to ISO/IEC 27001:2022 (OLIR)
+
+OSCAL Version of Rev. 5 controls
+
+Control Collaboration Index Template (xlsx)
+
+Control Collaboration Index Template (docx)
+
+Blog post
+
+Publication Parts:
+
+SP 800-53A Rev. 5
+
+SP 800-53B
+
+Related NIST Publications:
+
+IR 8170
+
+Document History:
+
+12/10/20: SP 800-53 Rev. 5 (Final)
+
+Topics
+
+Security and Privacy
+
+privacy controls, security controls, security programs & operations
+
+Laws and Regulations
+
+E-Government Act, Executive Order 14306, Federal Information Security Modernization Act, Homeland Security Presidential Directive 12, Homeland Security Presidential Directive 7, OMB Circular A-11, OMB Circular A-130

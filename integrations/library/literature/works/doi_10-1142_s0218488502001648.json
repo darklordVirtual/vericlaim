@@ -1,0 +1,20 @@
+{
+  "abstract": "Consider a data holder, such as a hospital or a bank, that has a privately held collection of person-specific, field structured data. Suppose the data holder wants to share a version of the data with researchers. How can a data holder release a version of its private data with scientific guarantees that the individuals who are the subjects of the data cannot be re-identified while the data remain practically useful? The solution provided in this paper includes a formal protection model named k-anonymity and a set of accompanying policies for deployment. A release provides k-anonymity protection if the information for each person contained in the release cannot be distinguished from at least k-1 individuals whose information also appears in the release. This paper also examines re-identification attacks that can be realized on releases that adhere to k-anonymity unless accompanying policies are respected. The k-anonymity protection model is important because it forms the basis on which the real-world systems known as Datafly, μ-Argus and k-Similar provide guarantees of privacy protection.",
+  "accredited": true,
+  "authors": [
+    "LATANYA SWEENEY"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "k-anonymity-2002",
+    "fetched_at": "2026-07-06T00:56:25.446716+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "a2313d26c29c3c83de7414897cc0faaccebdacdd310aa0a555e155f48b6c83f2",
+  "title": "k-ANONYMITY: A MODEL FOR PROTECTING PRIVACY",
+  "url": "https://doi.org/10.1142/s0218488502001648",
+  "venue": "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems",
+  "work_id": "doi:10.1142/s0218488502001648",
+  "year": 2002
+}

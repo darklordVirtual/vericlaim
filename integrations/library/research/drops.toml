@@ -24,3 +24,11 @@ reason = "trade book; no registrar record with an agreeing title+author, and no 
 [[drop]]
 id = "nist-genai-2024"
 reason = "Crossref record for doi:10.6028/nist.ai.600-1 resolves with a generic RMF title and an empty author list; the guard cannot bind it"
+
+[[drop]]
+id = "iso-23894-2023"
+reason = "paywalled standard; ISO catalog page blocks automated retrieval (HTTP 403), same as ISO 42001; no registrar record passes the guard"
+
+[[drop]]
+id = "iec-62443"
+reason = "paywalled standard series; IEC webstore has no stable retrievable HTML overview (HTTP 404 on the series page) and no registrar record with an author list"
