@@ -24,6 +24,13 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
   parity (earlier in this cycle).
 - **Five applied domain modules** under `domains/` (eval-harness, evidence-graph,
   multi-tenant, ontologies, cost-routing), each a reproduce-backed claim.
+- **Bounded self-improvement** (`vericlaim/selfimprove.py`, `vericlaim improve`):
+  a defensible, propose-only take on recursive self-improvement. A non-weakening
+  safety envelope (`check_non_weakening`) refuses any self-proposed change that
+  removes a claim, demotes evidence, shrinks tests, grows the baseline, edits the
+  verifier core, or fails the gate; an advisory proposer suggests honest,
+  evidence-backed improvements and edits nothing; a kill-switch sentinel disables
+  it. Dogfooded as `CLAIM-RSI-001`. See `docs/architecture/self-improvement.md`.
 - Documentation architecture, `SECURITY.md`, `ROADMAP.md`, `CODE_OF_CONDUCT.md`,
   `SUPPORT.md`, and diagram sources with explanatory prose.
 

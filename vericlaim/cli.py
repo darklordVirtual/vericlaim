@@ -43,6 +43,9 @@ def main(argv: list[str] | None = None) -> int:
                    help="run the gate (default when no command is given)")
     sub.add_parser("reproduce", parents=[common],
                    help="re-run each claim's reproduction and verify it still holds")
+    sub.add_parser("improve", parents=[common],
+                   help="PROPOSE-ONLY: audit this repo's own claims and print honest, "
+                        "non-weakening improvement suggestions (never edits anything)")
     args = parser.parse_args(argv)
 
     root = args.root.resolve()
@@ -55,11 +58,36 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     if args.command == "reproduce":
         return reproduce(cfg, quiet=args.quiet)
+    if args.command == "improve":
+        return _improve(cfg)
     if not args.quiet:
         print(f"[profile] {cfg.profile}"
               + ("" if cfg.strict_mode else " (permissive onboarding profile; "
                  "'strict' is the recommended destination)"))
     return run(cfg, quiet=args.quiet)
+
+
+def _improve(cfg) -> int:
+    """Propose-only self-improvement: audit our own claims, suggest honest,
+    non-weakening improvements, and STOP. It edits nothing, commits nothing.
+    A human decides what to act on. This is the defensible boundary — see
+    docs/architecture/self-improvement.md."""
+    from .selfimprove import propose, stopped
+    if stopped(cfg):
+        print("[HALT] self-improvement kill-switch present "
+              "(claims/STOP_SELF_IMPROVEMENT) — refusing to run.")
+        return 0
+    suggestions = propose(cfg)
+    print("vericlaim improve — PROPOSE-ONLY (no files changed, nothing committed)")
+    if not suggestions:
+        print("[OK] no improvements proposed; the register looks well-formed.")
+        return 0
+    print(f"[NOTE] {len(suggestions)} honest, non-weakening suggestion(s):")
+    for s in suggestions:
+        print(f"  - {s.claim_id} [{s.kind}]: {s.detail}")
+    print("\nThese are proposals only. Produce real evidence and apply changes "
+          "yourself; the gate and the non-weakening envelope guard any change.")
+    return 0
 
 
 if __name__ == "__main__":

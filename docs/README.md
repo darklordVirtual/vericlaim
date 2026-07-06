@@ -11,6 +11,7 @@
 ## Architecture
 - [Gold-standard plan](architecture/gold-standard-plan.md) — phased lift, status legend
 - [Reproduction model](architecture/reproduction-model.md) — declarative reproduce + honest limits
+- [Bounded self-improvement](architecture/self-improvement.md) — the defensible, propose-only RSI boundary
 
 ## Security
 - [Security model](security/security-model.md) — **what it proves and what it does not**
