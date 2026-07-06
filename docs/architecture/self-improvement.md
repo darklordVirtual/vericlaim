@@ -57,6 +57,25 @@ claims missing a reproduce spec or metrics. It **never** fabricates evidence,
 anything. Promotion always requires new evidence a human/agent produces in a
 gated repo — the same COP rule as everywhere else.
 
+## Running it regularly (the autonomous loop)
+
+`tools/autonomous_loop.py [rounds] [interval_s]` runs the governance heartbeat
+round after round: gate (adopt + strict), reproduce, the full test suite, the
+autonomous-cycle safety test, then a `Snapshot` compared to the *previous* round
+with `check_non_weakening`, then the propose-only improver — all verbose.
+
+It is **bounded autonomy in waves**: the loop continues only while every round is
+green **and** non-weakening vs the last. Any regression, red gate, or inter-round
+weakening **halts** it ("autonomy withdrawn — a human must review"). It applies
+nothing — development stays propose-only; a human acts on the proposals and the
+envelope guards whatever they apply. `rounds=0` runs until stopped.
+
+**Operator stop** (two ways): create `claims/STOP_SELF_IMPROVEMENT` (honored at
+the top of every round, including on wake from the sleep interval), or interrupt
+the process. For unattended cadence, use a large interval or a scheduled CI job;
+raising autonomy to guarded auto-apply-to-a-PR (never `main`) is a deliberate,
+separate opt-in.
+
 ## Honest limits
 
 - Propose-only carries no autonomy risk to bound — that is the point. The apply
