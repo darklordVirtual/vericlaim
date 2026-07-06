@@ -118,3 +118,33 @@ def test_double_import_is_refused(tmp_path):
     import_bundle(bdir, target)
     with pytest.raises(ImportRefused, match="already"):
         import_bundle(bdir, target)
+
+
+# ── adversarial: a manifest path that tries to escape the bundle dir ──────────
+
+def test_malicious_manifest_path_is_rejected(tmp_path):
+    """A crafted bundle whose MANIFEST lists a '../escape' file must be refused
+    on the READ side (verify_bundle) — before import_bundle ever writes it. This
+    is the traversal-write vector: 'never trust a remote manifest merely because
+    it later verifies'."""
+    import json as _json
+    from bundlefmt import BundleError, verify_bundle, _sha256, _canonical, _manifest_dict
+
+    bdir = tmp_path / "b"
+    bdir.mkdir()
+    evil_data = b"pwned"
+    # A malicious relative key that escapes the bundle directory.
+    files = {
+        "claim.json": _sha256(_canonical({"id": "X"})),
+        "provenance.json": _sha256(_canonical({})),
+        "../escape.json": _sha256(evil_data),
+    }
+    (bdir / "claim.json").write_bytes(_canonical({"id": "X"}))
+    (bdir / "provenance.json").write_bytes(_canonical({}))
+    (tmp_path / "escape.json").write_bytes(evil_data)  # plant the escape target
+    man = _manifest_dict(files, "verified")
+    bid = _sha256(_canonical(man))
+    (bdir / "MANIFEST.json").write_text(_json.dumps(man, sort_keys=True, indent=2) + "\n")
+    # Even though hashes/id are internally consistent, the unsafe key is rejected.
+    with pytest.raises(BundleError):
+        verify_bundle(bdir)

@@ -25,7 +25,9 @@ import textwrap
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, for vericlaim.*
 from bundlefmt import load_bundle  # noqa: E402
+from vericlaim.pathsafe import PathSafetyError, check_bundle_id, safe_join  # noqa: E402
 
 
 class ImportRefused(ValueError):
@@ -90,12 +92,23 @@ def import_bundle(bundle_dir: Path, target: Path, *,
         raise ImportRefused(f"claim id {cid} already present in the target "
                             f"register")
 
+    check_bundle_id(bid)  # strict sha256 hex before it names a directory
     files = b["manifest"]["files"]
     src_dir = Path(bundle_dir)
+    # Every manifest key is UNTRUSTED: validate each against the shared path
+    # policy and resolve BOTH the source (inside the bundle) and the destination
+    # (inside the vendor dir) with containment checks BEFORE any read or write —
+    # a manifest path like '../../etc/x' or an absolute path is rejected, never
+    # written. A malformed key aborts the whole import (fail closed, nothing
+    # partial: vend does not yet exist at this point).
     for rel in list(files) + ["MANIFEST.json"]:
-        dest = vend / rel
+        try:
+            src = safe_join(src_dir, rel)
+            dest = safe_join(vend, rel)
+        except PathSafetyError as exc:
+            raise ImportRefused(f"unsafe manifest path {rel!r}: {exc}") from exc
         dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes((src_dir / rel).read_bytes())
+        dest.write_bytes(src.read_bytes())
 
     # Register entry: vendored artifact paths + hash-locking literature.
     prov = b["provenance"]

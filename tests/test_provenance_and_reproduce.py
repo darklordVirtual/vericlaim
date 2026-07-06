@@ -74,7 +74,10 @@ def _project(tmp_path: Path, script_body: str) -> Config:
         "    reproduce: \"" + f"{sys.executable} gen.py" + "\"\n")
     (tmp_path / "claims" / "baseline.json").write_text('{"known_violations": []}')
     (tmp_path / "gen.py").write_text(script_body)
-    return Config(root=tmp_path, manifest=None, doc_globs=(), baseline="claims/baseline.json")
+    # These fixtures exercise the LEGACY string reproduce path, which is now an
+    # explicit opt-in (adopt migration setting). strict would reject it.
+    return Config(root=tmp_path, manifest=None, doc_globs=(),
+                  baseline="claims/baseline.json", allow_legacy_shell=True)
 
 
 def test_reproduce_passes_for_deterministic_script(tmp_path):

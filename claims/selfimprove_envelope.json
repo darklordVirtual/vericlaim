@@ -1,0 +1,7 @@
+{
+  "schema": "selfimprove_envelope_v1",
+  "total_cases": 11,
+  "weakenings_refused": 6,
+  "non_weakenings_accepted": 5,
+  "misclassifications": 0
+}

@@ -139,6 +139,11 @@ claude mcp get vericlaim-claims        # ✔ Connected
   endpoints (`INDEX_TOKEN` also satisfies it). Unset = they stay public. The
   cheap reads (`/search`, `/passport`, `/badge.svg`) stay open either way; add a
   Cloudflare rate-limit / WAF rule for hard limits.
+  **`/mcp` is gated by the same generative authorization** — because MCP exposes
+  `ask_claims` / `ask_research` (which drive Workers AI), it requires `READ_TOKEN`
+  whenever one is set. Otherwise setting `READ_TOKEN` would protect `/ask` while
+  leaving an open generative endpoint on `/mcp`. A dedicated scoped `MCP_TOKEN`
+  and per-token quotas are a tracked follow-up (see the repo `ROADMAP.md`).
 - **`LEDGER_HMAC_KEY` (optional):** an operator secret (not stored in D1) used to
   sign the ledger head — see "What it proves" above.
 - **Single-writer:** `/index` assumes one trusted, serial caller (the CI pusher).

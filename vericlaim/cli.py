@@ -18,31 +18,76 @@ from .scaffold import init
 
 
 def main(argv: list[str] | None = None) -> int:
+    # Common flags live on a parent parser so they are accepted both before AND
+    # after the subcommand (e.g. `vericlaim reproduce --profile strict`).
+    common = argparse.ArgumentParser(add_help=False)
+    common.add_argument("--root", type=Path, default=Path.cwd(),
+                        help="project root (default: current directory)")
+    common.add_argument("--config", type=Path, default=None,
+                        help="path to vericlaim.toml (default: <root>/vericlaim.toml)")
+    common.add_argument("--quiet", action="store_true", help="only print on failure")
+    common.add_argument("--profile", choices=("adopt", "strict", "enterprise"),
+                        default=None,
+                        help="policy profile override (adopt|strict|enterprise); "
+                             "strict is the recommended secure-by-default destination")
+
     parser = argparse.ArgumentParser(
-        prog="vericlaim",
+        prog="vericlaim", parents=[common],
         description="Claim-Oriented Programming gate: verify a project's claims "
                     "against its committed artifacts and keep docs from drifting.",
     )
-    parser.add_argument("--root", type=Path, default=Path.cwd(),
-                        help="project root (default: current directory)")
-    parser.add_argument("--config", type=Path, default=None,
-                        help="path to vericlaim.toml (default: <root>/vericlaim.toml)")
-    parser.add_argument("--quiet", action="store_true", help="only print on failure")
     sub = parser.add_subparsers(dest="command")
-    sub.add_parser("init", help="scaffold Claim-Oriented Programming into this project")
-    sub.add_parser("check", help="run the gate (default when no command is given)")
-    sub.add_parser("reproduce",
-                   help="re-run each claim's reproduce command and verify the "
-                        "artifact is unchanged (executes shell commands)")
+    sub.add_parser("init", parents=[common],
+                   help="scaffold Claim-Oriented Programming into this project")
+    sub.add_parser("check", parents=[common],
+                   help="run the gate (default when no command is given)")
+    sub.add_parser("reproduce", parents=[common],
+                   help="re-run each claim's reproduction and verify it still holds")
+    sub.add_parser("improve", parents=[common],
+                   help="PROPOSE-ONLY: audit this repo's own claims and print honest, "
+                        "non-weakening improvement suggestions (never edits anything)")
     args = parser.parse_args(argv)
 
     root = args.root.resolve()
     if args.command == "init":
         return init(root)
-    cfg = load_config(root, args.config)
+    try:
+        cfg = load_config(root, args.config, profile_override=args.profile)
+    except ValueError as exc:
+        print(f"[FAIL] {exc}")
+        return 1
     if args.command == "reproduce":
         return reproduce(cfg, quiet=args.quiet)
+    if args.command == "improve":
+        return _improve(cfg)
+    if not args.quiet:
+        print(f"[profile] {cfg.profile}"
+              + ("" if cfg.strict_mode else " (permissive onboarding profile; "
+                 "'strict' is the recommended destination)"))
     return run(cfg, quiet=args.quiet)
+
+
+def _improve(cfg) -> int:
+    """Propose-only self-improvement: audit our own claims, suggest honest,
+    non-weakening improvements, and STOP. It edits nothing, commits nothing.
+    A human decides what to act on. This is the defensible boundary — see
+    docs/architecture/self-improvement.md."""
+    from .selfimprove import propose, stopped
+    if stopped(cfg):
+        print("[HALT] self-improvement kill-switch present "
+              "(claims/STOP_SELF_IMPROVEMENT) — refusing to run.")
+        return 0
+    suggestions = propose(cfg)
+    print("vericlaim improve — PROPOSE-ONLY (no files changed, nothing committed)")
+    if not suggestions:
+        print("[OK] no improvements proposed; the register looks well-formed.")
+        return 0
+    print(f"[NOTE] {len(suggestions)} honest, non-weakening suggestion(s):")
+    for s in suggestions:
+        print(f"  - {s.claim_id} [{s.kind}]: {s.detail}")
+    print("\nThese are proposals only. Produce real evidence and apply changes "
+          "yourself; the gate and the non-weakening envelope guard any change.")
+    return 0
 
 
 if __name__ == "__main__":

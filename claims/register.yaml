@@ -296,3 +296,46 @@ claims:
       demonstrates the routing policy and its saving/soundness guarantees, not
       real model prices or real model quality.
     reproduce: "python3 domains/cost_routing/evidence.py"
+
+  - id: CLAIM-RSI-001
+    statement: >
+      The bounded self-improvement safety envelope (check_non_weakening) refuses
+      every weakening change and accepts every non-weakening one over a fixed
+      adversarial battery of 11 cases: 6 weakenings all refused, 5 non-weakenings
+      all accepted, 0 misclassifications.
+    evidence_level: measured
+    artifact:
+      - "claims/selfimprove_envelope.json"
+    metrics:
+      total_cases: 11
+      weakenings_refused: 6
+      non_weakenings_accepted: 5
+      misclassifications: 0
+    caveat: >
+      Demonstrated over a FIXED, finite battery (claim removal, evidence
+      demotion, test-count reduction, baseline growth, verifier-core edit, red
+      gate, and their non-weakening opposites) — not a formal proof of soundness
+      for all inputs. The capability is propose-only: it never applies, commits,
+      pushes, or merges. It guards the repository's declared guarantees, not
+      semantic truth. See docs/architecture/self-improvement.md.
+    reproduce: "python3 tools/selfimprove_evidence.py"
+
+  - id: CLAIM-RSI-002
+    statement: >
+      Autonomous drift is bounded: an end-to-end cycle on a throwaway repo checks
+      8 safety properties — safe development admitted, evidence demotion / claim
+      removal / test-count reduction / verifier-core edit all blocked, the real
+      gate fails closed on register corruption, and the envelope refuses a
+      red-gate candidate — with 0 failures.
+    evidence_level: measured
+    artifact:
+      - "claims/autonomous_cycle.json"
+    metrics:
+      properties_checked: 8
+      failures: 0
+    caveat: >
+      Runs on a scaffolded throwaway repo over a FIXED set of 8 properties, not a
+      proof of safety for all possible autonomous changes. It demonstrates that
+      the non-weakening envelope plus the real gate block the tested drift
+      vectors and admit safe development. Self-improvement remains propose-only.
+    reproduce: "python3 tools/autonomous_cycle_evidence.py"
