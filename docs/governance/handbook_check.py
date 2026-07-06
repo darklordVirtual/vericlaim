@@ -87,7 +87,36 @@ def check_edition(path: Path, metrics: dict[str, str]) -> list[str]:
     # consistency is the anti-drift guarantee for these numbers.
     if "CLAIM-COUPLE-001" in text:
         problems += _check_coupling(text, name)
+    if "CLAIM-SECOPS-001" in text:
+        problems += _check_secops(text, name)
     return problems
+
+
+# Expected structure of the SecOps crosswalk, matching CLAIM-SECOPS-001.
+_SECOPS = {"domains": 8, "standards": 13, "practices": 33}
+
+
+def _check_secops(text: str, name: str) -> list[str]:
+    out: list[str] = []
+    s = _SECOPS
+    m = re.search(r"^#{1,3}\s*29\.\s.*?(?=\n---\n---|\Z)",
+                  text, re.MULTILINE | re.DOTALL)
+    chapter = m.group(0) if m else ""
+    if not chapter:
+        out.append(f"{name}: SecOps chapter (29) not found")
+        return out
+    # the crosswalk table: rows whose last column names a control objective.
+    dom_rows = re.findall(r"^\|[^|\n]+\|[^|\n]+\|[^|\n]+\|"
+                          r"[^|\n]*(?:Accountability|Monitoring|Privacy|"
+                          r"Robustness|Logging|oversight|risk)[^|\n]*\|$",
+                          chapter, re.MULTILINE | re.IGNORECASE)
+    if len(dom_rows) != s["domains"]:
+        out.append(f"{name}: SecOps crosswalk has {len(dom_rows)} domain rows, "
+                   f"expected {s['domains']}")
+    for key in ("domains", "standards", "practices"):
+        if not re.search(rf"(?<!\d){s[key]}(?!\d)", chapter):
+            out.append(f"{name}: SecOps {key}={s[key]} not stated in chapter")
+    return out
 
 
 # Expected structure of the coupling crosswalk, matching CLAIM-COUPLE-001.

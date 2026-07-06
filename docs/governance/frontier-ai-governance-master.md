@@ -121,6 +121,10 @@ mindmap
 27. [Policy-as-code and the decision/enforcement split](#27-policy-as-code-and-the-decisionenforcement-split)
 28. [Cross-cloud coupling points — the vendor-neutral seams](#28-cross-cloud-coupling-points--the-vendor-neutral-seams)
 
+**Part VIII — Security operations and data protection**
+29. [Security operations — keeping the promise](#29-security-operations--keeping-the-promise)
+30. [PII scrubbing and data protection](#30-pii-scrubbing-and-data-protection)
+
 **Appendices**
 - [A — Collection index](#appendix-a--collection-index)
 - [B — Verified-theorem index](#appendix-b--verified-theorem-index)
@@ -1191,6 +1195,101 @@ governance, provably portable.
 ---
 ---
 
+# Part VIII — Security operations and data protection
+
+> Governance names the promise; security operations *keeps* it, day to day. This
+> part gives every control objective an operational home and treats personal
+> data as a first-class hazard. Its numbers are verified by **CLAIM-SECOPS-001**
+> (`governance/security_operations.py` in the claims library); its standards are
+> preserved hash-locked as literature.
+
+## 29. Security operations — keeping the promise
+
+▶ **In plain terms:** a control objective like "we log everything" or "we detect
+incidents" is only real if someone actually *runs* the operation behind it —
+every day, against a recognized standard. This section maps each operational
+domain (service management, observability, logging, vulnerability management,
+detection, secrets, resilience) to the practices and standards that keep it.
+
+▷ **In depth.** CLAIM-SECOPS-001 encodes a fail-closed coverage crosswalk:
+**8** operational domains name **33** concrete practices run against **13** public
+standards, and the checker verifies that every *operational* control objective
+has at least one domain that keeps it — so "logging & traceability" is not a
+sentence in a policy but a log-management practice against NIST SP 800-92, and
+"monitoring & post-market" is observability against NIST SP 800-137 plus
+detection mapped to MITRE ATT&CK.
+
+| Domain | Key practices | Standards | Keeps objective |
+|---|---|---|---|
+| IT service management (ITSM) | Incident · change · problem · SLM | ISO/IEC 20000-1 · ITIL 4 · NIST SP 800-61 | Accountability · monitoring |
+| Observability | Metrics · tracing · SLOs · drift detection | OpenTelemetry · NIST SP 800-137 | Monitoring · robustness |
+| Logging & audit | Central logs · tamper-evident trail · retention · time-sync | NIST SP 800-92 · ISO/IEC 27001 · OpenTelemetry | Logging & traceability |
+| PII data protection | Discovery · scrubbing · minimization · DSAR | ISO/IEC 27701 · GDPR · NIST SP 800-53 | Privacy · data governance |
+| Vulnerability management | Scanning · patch SLAs · SBOM · pentest | CIS Controls v8 · OWASP ASVS · NIST SP 800-53 | Robustness · risk |
+| Detection & response | SIEM detections · SOAR · IR drills | MITRE ATT&CK · NIST SP 800-61 · CIS v8 | Monitoring · human oversight |
+| Secrets & key management | Rotation · HSM-backed keys · short-lived creds | NIST SP 800-53 · CIS v8 | Robustness · accountability |
+| Resilience & backup/DR | Immutable backups · restore testing · RTO/RPO | ISO/IEC 27001 · NIST SP 800-53 | Robustness · risk |
+
+```mermaid
+flowchart LR
+    subgraph OBJ["Control objectives (the promise)"]
+        O1[Logging & traceability]
+        O2[Monitoring & post-market]
+        O3[Privacy & data protection]
+        O4[Robustness & accuracy]
+    end
+    subgraph OPS["Security operations (keeping it)"]
+        D1[Logging & audit<br/>NIST 800-92]
+        D2[Observability + detection<br/>OTel · 800-137 · ATT&CK]
+        D3[PII protection<br/>ISO 27701 · GDPR]
+        D4[Vuln mgmt + resilience<br/>CIS · 800-53]
+    end
+    O1 --- D1
+    O2 --- D2
+    O3 --- D3
+    O4 --- D4
+    style OPS fill:#eefaef,stroke:#33aa55
+    style OBJ fill:#e8f0ff,stroke:#3366cc
+```
+
+*Four objectives — transparency, human oversight, fairness, and accountability —
+are governance/disclosure themes owned by the control register (§15), not
+operational domains; the crosswalk states that exclusion explicitly rather than
+pretending every objective is an ops task.*
+
+## 30. PII scrubbing and data protection
+
+▶ **In plain terms:** personal data is radioactive — useful, but dangerous if it
+leaks into logs, prompts, or a model's memory. Treat it as a hazard with its own
+pipeline: find it, remove or mask it before it is stored or sent to a model, keep
+only what you must, and honor people's rights over it.
+
+▷ **In depth.** For an AI system, PII enters through prompts, retrieved context,
+and logs — three surfaces a traditional data-protection program often misses. A
+defensible pipeline runs, in order: **discovery and classification** (know where
+PII is), **scrubbing/redaction or pseudonymization** before storage or model
+input, **minimization and retention** (keep the least, for the shortest time),
+and **data-subject rights** (DSAR, deletion). ISO/IEC 27701 extends an ISO 27001
+ISMS into a privacy management system mapped to **GDPR**; NIST SP 800-53 supplies
+the detailed privacy controls.
+
+```mermaid
+flowchart LR
+    IN["Prompts · context · logs"] --> DISC[Discover & classify PII]
+    DISC --> SCRUB[Scrub / redact / pseudonymize]
+    SCRUB --> STORE[(Minimized store<br/>retention enforced)]
+    STORE --> DSAR[DSAR & deletion]
+    style SCRUB fill:#eefaef,stroke:#33aa55
+```
+
+*Redaction is best-effort and must be tested against realistic data;
+pseudonymization is not anonymization, and telemetry/logs are a common leak path
+(§29's logging domain and this one share responsibility). The honest posture:
+minimize what you collect so the scrubbing pipeline has less to catch.*
+
+---
+---
+
 # Appendices
 
 ## Appendix A — collection index
@@ -1285,6 +1384,7 @@ every objective covered by ≥2 frameworks, checked fail-closed [CLAIM-GOV-001].
 | CLAIM-LIB-RAG-003 | live research endpoints verified end-to-end | measured |
 | CLAIM-GOV-001 | 5 frameworks → 10 objectives, full coverage, fail-closed | measured |
 | CLAIM-COUPLE-001 | 4 clouds × 6 coupling dimensions → 13 open standards, every seam vendor-neutral, fail-closed | measured |
+| CLAIM-SECOPS-001 | 8 security-ops domains × 33 practices → 13 standards, every operational objective has a home, fail-closed | measured |
 | THM-SCORE-001 | Brier properness — honesty is optimal (1028 pairs) | machine_checked |
 | THM-ROUTE-001 | verifier-gated cascade dominance (87 380 tables) | machine_checked |
 | THM-VOTE-001/002 | best-of-n identity; amplification + honest degradation | machine_checked |

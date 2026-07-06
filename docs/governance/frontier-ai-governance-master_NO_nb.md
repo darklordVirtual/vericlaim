@@ -122,6 +122,10 @@ mindmap
 27. [Policy-as-code og skillet mellom beslutning og håndheving](#27-policy-as-code-og-skillet-mellom-beslutning-og-håndheving)
 28. [Fler-sky-koblingspunkter — de leverandørnøytrale skjøtene](#28-fler-sky-koblingspunkter--de-leverandørnøytrale-skjøtene)
 
+**Del VIII — Sikkerhetsdrift og databeskyttelse**
+29. [Sikkerhetsdrift — å holde løftet](#29-sikkerhetsdrift--å-holde-løftet)
+30. [PII-skrubbing og databeskyttelse](#30-pii-skrubbing-og-databeskyttelse)
+
 **Appendikser**
 - [A — Kolleksjonsindeks](#appendiks-a--kolleksjonsindeks)
 - [B — Indeks over verifiserte teoremer](#appendiks-b--indeks-over-verifiserte-teoremer)
@@ -1175,6 +1179,102 @@ governance, beviselig portabel.
 ---
 ---
 
+# Del VIII — Sikkerhetsdrift og databeskyttelse
+
+> Governance navngir løftet; sikkerhetsdrift *holder* det, dag for dag. Denne
+> delen gir hvert kontrollmål et driftsmessig hjem og behandler persondata som
+> en førsteklasses fare. Tallene er verifisert av **CLAIM-SECOPS-001**
+> (`governance/security_operations.py` i claims-biblioteket); standardene er
+> bevart hash-låst som litteratur.
+
+## 29. Sikkerhetsdrift — å holde løftet
+
+▶ **Enkelt forklart:** et kontrollmål som «vi logger alt» eller «vi oppdager
+hendelser» er bare ekte hvis noen faktisk *kjører* driften bak det — hver dag,
+mot en anerkjent standard. Denne seksjonen kobler hvert driftsdomene
+(tjenestestyring, observabilitet, logging, sårbarhetshåndtering, deteksjon,
+hemmeligheter, robusthet) til praksisene og standardene som holder det.
+
+▷ **I dybden.** CLAIM-SECOPS-001 koder en fail-closed dekningskryssreferanse:
+**8** driftsdomener navngir **33** konkrete praksiser kjørt mot **13** offentlige
+standarder, og sjekkeren verifiserer at hvert *driftsmessige* kontrollmål har
+minst ett domene som holder det — så «logging & sporbarhet» er ikke en setning i
+en policy, men en loggstyrings-praksis mot NIST SP 800-92, og «overvåking &
+etter-marked» er observabilitet mot NIST SP 800-137 pluss deteksjon kartlagt mot
+MITRE ATT&CK.
+
+| Domene | Nøkkelpraksiser | Standarder | Holder mål |
+|---|---|---|---|
+| IT-tjenestestyring (ITSM) | Hendelse · endring · problem · SLM | ISO/IEC 20000-1 · ITIL 4 · NIST SP 800-61 | Accountability · monitoring |
+| Observabilitet | Metrikker · tracing · SLO-er · driftdeteksjon | OpenTelemetry · NIST SP 800-137 | Monitoring · robustness |
+| Logging & revisjon | Sentrale logger · tamper-evident spor · retensjon · tidssync | NIST SP 800-92 · ISO/IEC 27001 · OpenTelemetry | Logging & traceability |
+| PII databeskyttelse | Oppdagelse · skrubbing · minimering · DSAR | ISO/IEC 27701 · GDPR · NIST SP 800-53 | Privacy · data governance |
+| Sårbarhetshåndtering | Skanning · patch-SLA-er · SBOM · pentest | CIS Controls v8 · OWASP ASVS · NIST SP 800-53 | Robustness · risk |
+| Deteksjon & respons | SIEM-deteksjoner · SOAR · IR-øvelser | MITRE ATT&CK · NIST SP 800-61 · CIS v8 | Monitoring · human oversight |
+| Hemmeligheter & nøkler | Rotasjon · HSM-nøkler · kortlevde creds | NIST SP 800-53 · CIS v8 | Robustness · accountability |
+| Robusthet & backup/DR | Immutable backups · restore-testing · RTO/RPO | ISO/IEC 27001 · NIST SP 800-53 | Robustness · risk |
+
+```mermaid
+flowchart LR
+    subgraph OBJ["Kontrollmål (løftet)"]
+        O1[Logging & sporbarhet]
+        O2[Overvåking & etter-marked]
+        O3[Personvern & databeskyttelse]
+        O4[Robusthet & nøyaktighet]
+    end
+    subgraph OPS["Sikkerhetsdrift (holder det)"]
+        D1[Logging & revisjon<br/>NIST 800-92]
+        D2[Observabilitet + deteksjon<br/>OTel · 800-137 · ATT&CK]
+        D3[PII-beskyttelse<br/>ISO 27701 · GDPR]
+        D4[Sårbarhet + robusthet<br/>CIS · 800-53]
+    end
+    O1 --- D1
+    O2 --- D2
+    O3 --- D3
+    O4 --- D4
+    style OPS fill:#eefaef,stroke:#33aa55
+    style OBJ fill:#e8f0ff,stroke:#3366cc
+```
+
+*Fire mål — transparens, menneskelig tilsyn, rettferdighet og ansvarlighet — er
+governance/avslørings-temaer eid av kontrollregisteret (§15), ikke driftsdomener;
+kryssreferansen oppgir den utelatelsen eksplisitt i stedet for å late som om
+hvert mål er en driftsoppgave.*
+
+## 30. PII-skrubbing og databeskyttelse
+
+▶ **Enkelt forklart:** persondata er radioaktivt — nyttig, men farlig hvis det
+lekker inn i logger, prompter eller en modells minne. Behandle det som en fare
+med sin egen pipeline: finn det, fjern eller masker det før det lagres eller
+sendes til en modell, behold kun det du må, og respekter folks rettigheter over
+det.
+
+▷ **I dybden.** For et AI-system kommer PII inn via prompter, hentet kontekst og
+logger — tre flater et tradisjonelt databeskyttelsesprogram ofte overser. En
+forsvarlig pipeline kjører, i rekkefølge: **oppdagelse og klassifisering** (vit
+hvor PII er), **skrubbing/redaksjon eller pseudonymisering** før lagring eller
+modell-input, **minimering og retensjon** (behold minst mulig, kortest mulig),
+og **den registrertes rettigheter** (DSAR, sletting). ISO/IEC 27701 utvider et
+ISO 27001-ISMS til et personverns-styringssystem kartlagt mot **GDPR**; NIST SP
+800-53 leverer de detaljerte personvern-kontrollene.
+
+```mermaid
+flowchart LR
+    IN["Prompter · kontekst · logger"] --> DISC[Oppdag & klassifiser PII]
+    DISC --> SCRUB[Skrubb / rediger / pseudonymiser]
+    SCRUB --> STORE[(Minimert lager<br/>retensjon håndhevet)]
+    STORE --> DSAR[DSAR & sletting]
+    style SCRUB fill:#eefaef,stroke:#33aa55
+```
+
+*Redaksjon er best-effort og må testes mot realistiske data; pseudonymisering er
+ikke anonymisering, og telemetri/logger er en vanlig lekkasjevei (§29s
+loggingsdomene og dette deler ansvar). Den ærlige holdningen: minimer det du
+samler inn slik at skrubbe-pipelinen har mindre å fange.*
+
+---
+---
+
 # Appendikser
 
 ## Appendiks A — kolleksjonsindeks
@@ -1269,6 +1369,7 @@ mål, hvert mål dekket av ≥2 rammeverk, sjekket fail-closed [CLAIM-GOV-001].
 | CLAIM-LIB-RAG-003 | live forsknings-endepunkter verifisert ende-til-ende | measured |
 | CLAIM-GOV-001 | 5 rammeverk → 10 mål, full dekning, fail-closed | measured |
 | CLAIM-COUPLE-001 | 4 skyer × 6 koblingsdimensjoner → 13 åpne standarder, hver skjøt leverandørnøytral, fail-closed | measured |
+| CLAIM-SECOPS-001 | 8 sikkerhetsdrift-domener × 33 praksiser → 13 standarder, hvert driftsmål har et hjem, fail-closed | measured |
 | THM-SCORE-001 | Brier-properness — ærlighet er optimalt (1028 par) | machine_checked |
 | THM-ROUTE-001 | verifiser-gated kaskade-dominans (87 380 tabeller) | machine_checked |
 | THM-VOTE-001/002 | best-of-n-identitet; amplifikasjon + ærlig degradering | machine_checked |
