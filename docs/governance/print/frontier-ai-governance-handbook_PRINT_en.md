@@ -428,7 +428,7 @@ gate that refuses drift.
 | **theoretical** | argued from principles or a bibliographic pointer; no measurement | a literature reference [REF-051] |
 | **measured** | a deterministic measurement over a committed artifact | the governance crosswalk coverage [CLAIM-GOV-001] |
 | **benchmarked** | measured on a defined benchmark with a stated protocol | REMORA's 700-task result [REMORA CLAIM-001] |
-| **reproduced** | re-run and byte-identical (`vericlaim reproduce`) | every gate-green claim, on each release |
+| **reproduced** | reproduced *independently* (another machine, person, or configuration) | not asserted for a self-claim; `vericlaim reproduce` re-verifies byte-identity continuously, but that is self-verification, not the independent reproduction this rung requires |
 | **machine_checked** | verified by exhaustive/exact computation | the theorem batteries [THM-ROUTE-001] |
 | **externally_validated** | confirmed by an independent party or independent data | AgentHarm dataset-independence [REMORA CLAIM-002] |
 
