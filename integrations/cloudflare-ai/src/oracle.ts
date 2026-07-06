@@ -24,19 +24,8 @@ export interface OracleAnswer {
 
 async function retrieve(env: Env, query: string): Promise<SearchHit[]> {
   const [vector] = await embed(env, [query]);
-  // Library vectors (`lib:*`) share this index and outnumber project claims
-  // ~50:1 — a narrow metadata query can come back all-library and leave the
-  // oracle with nothing to ground on. Wide id-only query, drop `lib:*` by
-  // id prefix, then fetch metadata for the survivors.
-  const res = await env.VECTORIZE.query(vector, { topK: 100 });
-  const kept = res.matches
-    .filter((m) => !m.id.startsWith("lib:")).slice(0, RETRIEVE_K);
-  if (!kept.length) return [];
-  const byId = new Map(
-    (await env.VECTORIZE.getByIds(kept.map((m) => m.id)))
-      .map((v) => [v.id, v.metadata ?? {}] as const));
-  return kept.map((m) => {
-    const md = byId.get(m.id) ?? {};
+  const toHit = (m: { id: string; score: number; metadata?: Record<string, unknown> }) => {
+    const md = m.metadata ?? {};
     return {
       id: m.id, score: m.score,
       statement: String(md.statement ?? ""),
@@ -44,7 +33,24 @@ async function retrieve(env: Env, query: string): Promise<SearchHit[]> {
       caveat: String(md.caveat ?? ""),
       artifact: String(md.artifact ?? ""),
     };
+  };
+  // Library bundles (`lib:*`) share this index and outnumber project claims —
+  // filter to kind="claim" so the oracle grounds only on project claims,
+  // exactly, at any library size.
+  const res = await env.VECTORIZE.query(vector, {
+    topK: 20, returnMetadata: "all", filter: { kind: "claim" },
   });
+  if (res.matches?.length) return res.matches.slice(0, RETRIEVE_K).map(toHit);
+
+  // Fallback for vectors written before the metadata index existed.
+  const wide = await env.VECTORIZE.query(vector, { topK: 100 });
+  const kept = wide.matches
+    .filter((m) => !m.id.startsWith("lib:")).slice(0, RETRIEVE_K);
+  if (!kept.length) return [];
+  const byId = new Map(
+    (await env.VECTORIZE.getByIds(kept.map((m) => m.id)))
+      .map((v) => [v.id, v.metadata ?? {}] as const));
+  return kept.map((m) => toHit({ id: m.id, score: m.score, metadata: byId.get(m.id) }));
 }
 
 async function rerank(env: Env, query: string, hits: SearchHit[]): Promise<SearchHit[]> {

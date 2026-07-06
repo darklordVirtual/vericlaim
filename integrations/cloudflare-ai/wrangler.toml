@@ -11,6 +11,10 @@ binding = "AI"
 
 # Vectorize — the vector database that stores one vector per claim.
 # Create it first:  npx wrangler vectorize create vericlaim-claims --dimensions=768 --metric=cosine
+# Project claims and library bundles share this index; searchClaims/oracle
+# filter to kind="claim". Create the metadata index once:
+#   npx wrangler vectorize create-metadata-index vericlaim-claims \
+#       --property-name=kind --type=string
 [[vectorize]]
 binding = "VECTORIZE"
 index_name = "vericlaim-claims"

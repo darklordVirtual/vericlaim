@@ -72,6 +72,10 @@ export async function indexClaims(env: Env, claims: Claim[]): Promise<number> {
       id: c.id,
       values: vectors[j],
       metadata: {
+        // Positive marker so search can exclude library bundles (`lib:*`),
+        // which share this index and now outnumber project claims — a metadata
+        // index on `kind` makes the exclusion exact at any library size.
+        kind: "claim",
         statement: c.statement,
         evidence_level: c.evidence_level,
         caveat: c.caveat ?? "",
@@ -109,25 +113,32 @@ export async function searchClaims(
   env: Env, query: string, topK = 5,
 ): Promise<SearchHit[]> {
   const [vector] = await embed(env, [query]);
-  // Library vectors (`lib:*`) share this index and outnumber project claims
-  // ~50:1, and returnMetadata caps topK at 20 — a metadata query can come
-  // back all-library and filter down to zero real hits. So: wide id-only
-  // query, drop `lib:*` by id prefix, fetch metadata for the survivors.
-  const res = await env.VECTORIZE.query(vector, { topK: 100 });
-  const kept = res.matches.filter((m) => !m.id.startsWith("lib:")).slice(0, topK);
-  if (!kept.length) return [];
-  const byId = new Map(
-    (await env.VECTORIZE.getByIds(kept.map((m) => m.id)))
-      .map((v) => [v.id, v.metadata ?? {}] as const));
-  return kept.map((m) => {
-    const md = byId.get(m.id) ?? {};
+  // Library bundles (`lib:*`) share this index and now outnumber project
+  // claims heavily, so a plain nearest-neighbour query can come back
+  // all-library. Filter to kind="claim" at query time (exact, via a metadata
+  // index) — this scales no matter how large the library grows.
+  const hit = (m: { id: string; score: number; metadata?: Record<string, unknown> }): SearchHit => {
+    const md = m.metadata ?? {};
     return {
-      id: m.id,
-      score: m.score,
+      id: m.id, score: m.score,
       statement: String(md.statement ?? ""),
       evidence_level: String(md.evidence_level ?? ""),
       caveat: String(md.caveat ?? ""),
       artifact: String(md.artifact ?? ""),
     };
+  };
+  const res = await env.VECTORIZE.query(vector, {
+    topK: 20, returnMetadata: "all", filter: { kind: "claim" },
   });
+  if (res.matches?.length) return res.matches.slice(0, topK).map(hit);
+
+  // Fallback for claim vectors written before the metadata index existed:
+  // wide id-only query, drop `lib:*` by prefix, fetch metadata for survivors.
+  const wide = await env.VECTORIZE.query(vector, { topK: 100 });
+  const kept = wide.matches.filter((m) => !m.id.startsWith("lib:")).slice(0, topK);
+  if (!kept.length) return [];
+  const byId = new Map(
+    (await env.VECTORIZE.getByIds(kept.map((m) => m.id)))
+      .map((v) => [v.id, v.metadata ?? {}] as const));
+  return kept.map((m) => hit({ id: m.id, score: m.score, metadata: byId.get(m.id) }));
 }
