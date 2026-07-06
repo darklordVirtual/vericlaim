@@ -5,7 +5,7 @@ Adopt Claim-Oriented Programming in an existing project in about 15 minutes.
 ## 1. Install and scaffold — one command each
 
 ```bash
-pip install vericlaim        # or copy the zero-dependency vericlaim/ folder in
+pip install git+https://github.com/darklordVirtual/vericlaim   # or copy the zero-dependency vericlaim/ folder in
 vericlaim init               # creates vericlaim.toml + claims/ (won't overwrite)
 ```
 

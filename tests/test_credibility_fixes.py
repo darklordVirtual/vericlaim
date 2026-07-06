@@ -99,6 +99,39 @@ def test_bundled_parser_undercount_fails_closed(monkeypatch):
         load_register("claims:\n- id: C-1\n  statement: x\n")
 
 
+def test_bundled_parser_strips_inline_comments(monkeypatch):
+    """The bundled parser must agree with PyYAML on inline comments, or the same
+    register parses to different values depending on whether PyYAML is installed
+    (and `n: 2.5  # ratio` would parse to a string that later crashes numerics)."""
+    import sys
+    monkeypatch.setitem(sys.modules, "yaml", None)  # force the bundled parser
+    claims = load_register(
+        "claims:\n"
+        "  - id: C-1\n"
+        "    statement: >\n      s\n"
+        "    evidence_level: measured\n"
+        "    artifact:\n      - a.json\n"
+        "    metrics:\n"
+        "      ratio: 2.5  # the overall compression ratio\n"
+        "    caveat: x\n")
+    assert claims[0]["metrics"]["ratio"] == 2.5  # number, not "2.5  # ..."
+
+
+def test_bundled_parser_keeps_hash_without_leading_space(monkeypatch):
+    import sys
+    monkeypatch.setitem(sys.modules, "yaml", None)
+    claims = load_register(
+        "claims:\n"
+        "  - id: C-1\n"
+        "    statement: >\n      s\n"
+        "    evidence_level: measured\n"
+        "    artifact:\n      - a.json\n"
+        "    metrics:\n"
+        "      tag: v1#2\n"          # no space before '#': part of the scalar
+        "    caveat: x\n")
+    assert claims[0]["metrics"]["tag"] == "v1#2"
+
+
 def test_gate_fails_closed_on_bad_register(tmp_path):
     (tmp_path / "claims").mkdir()
     (tmp_path / "claims" / "register.yaml").write_text(

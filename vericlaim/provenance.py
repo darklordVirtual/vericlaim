@@ -53,16 +53,30 @@ def stamp(artifact: str | Path, *, script: str, produced_by: str = "human") -> P
     art = Path(artifact)
     art_sha = (hashlib.sha256(art.read_bytes()).hexdigest()
                if art.exists() else None)
+    out = sidecar_path(art)
+    # Idempotent re-stamp: if the artifact bytes are unchanged, preserve the
+    # existing timestamp and commit so re-running an evidence script (or
+    # `vericlaim reproduce`) does not churn the sidecar and dirty the working
+    # tree. The stamp only moves when the artifact it describes actually moved.
+    prev = load(art)
+    if (prev is not None and art_sha is not None
+            and prev.get("artifact_sha256") == art_sha
+            and prev.get("script") == script
+            and prev.get("produced_by") == produced_by):
+        generated_at = prev.get("generated_at", datetime.now(timezone.utc).isoformat())
+        git_commit = prev.get("git_commit")
+    else:
+        generated_at = datetime.now(timezone.utc).isoformat()
+        git_commit = _git_commit(art.resolve().parent)
     record = {
         "schema": "vericlaim_provenance_v2",
         "artifact": art.name,
         "artifact_sha256": art_sha,   # what was produced (self-describing)
         "script": script,             # how it was produced
-        "git_commit": _git_commit(art.resolve().parent),
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "git_commit": git_commit,
+        "generated_at": generated_at,
         "produced_by": produced_by,
     }
-    out = sidecar_path(art)
     out.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
     return out
 

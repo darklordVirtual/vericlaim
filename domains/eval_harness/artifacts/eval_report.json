@@ -1,0 +1,8 @@
+{
+  "schema": "eval_harness_v1",
+  "n_cases": 10,
+  "grounding_precision": 0.9,
+  "grounding_recall": 0.9,
+  "grounding_f1": 0.9,
+  "refusal_accuracy": 0.6667
+}

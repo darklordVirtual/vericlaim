@@ -1,0 +1,11 @@
+{
+  "schema": "ontology_fixture_v1",
+  "claims": [
+    {"id": "T-1", "evidence_level": "machine_checked", "metrics": {"steps_verified": 5}},
+    {"id": "C-1", "evidence_level": "benchmarked", "metrics": {"cases_total": 12, "cases_passing": 12}},
+    {"id": "CAP-1", "evidence_level": "measured", "metrics": {"n_languages": 6}},
+    {"id": "B-1", "evidence_level": "benchmarked", "metrics": {"overall_ratio": 8.0584}},
+    {"id": "R-1", "evidence_level": "theoretical", "metrics": {}},
+    {"id": "CAP-2", "evidence_level": "measured", "metrics": {"runtime_dependencies": 0}}
+  ]
+}

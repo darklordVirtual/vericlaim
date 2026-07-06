@@ -1,0 +1,8 @@
+{
+  "schema": "evidence_graph_v1",
+  "n_nodes": 18,
+  "n_edges": 15,
+  "n_claims": 6,
+  "orphan_claims": 0,
+  "max_evidence_depth": 2
+}

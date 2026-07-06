@@ -62,6 +62,25 @@ NUMBER_RE = re.compile(r"-?\d+(?:\.\d+)?")
 Finding = tuple[str, str]  # (error_id, human message)
 
 
+def _as_number(value: object) -> float | None:
+    """Coerce a register value to a float, or None if it is not numeric.
+
+    Booleans map to 1.0/0.0 (an artifact may store ``true`` where a metric is
+    ``1``). A non-numeric metric (e.g. a version string ``"0.4.0"`` or a
+    percentage ``"95%"``) returns None so callers can fall back to a string
+    comparison instead of raising ``ValueError`` — a non-numeric metric must
+    never crash the gate with a traceback.
+    """
+    if isinstance(value, bool):
+        return 1.0 if value else 0.0
+    if isinstance(value, (int, float)):
+        return float(value)
+    try:
+        return float(str(value))
+    except (TypeError, ValueError):
+        return None
+
+
 def _compile_id_matcher(by_id: dict[str, dict]) -> re.Pattern | None:
     """Compile ONE regex that matches any registered id as a whole token.
 
@@ -199,11 +218,23 @@ def check_provenance(claims: list[dict], cfg: Config) -> list[Finding]:
                 out.append((f"provenance-missing:{cid}:{rel}",
                             f"{cid}: artifact {rel} has no provenance sidecar "
                             f"({rel}.provenance.json) — record how it was produced"))
-            elif not prov.get("script"):
+                continue
+            if not prov.get("script"):
                 # `script` (how it was produced) is essential. `git_commit` is
                 # best-effort — it is null when produced outside a git checkout.
                 out.append((f"provenance-incomplete:{cid}:{rel}",
                             f"{cid}: provenance for {rel} is missing 'script'"))
+            # If the sidecar self-reports the artifact's SHA-256, it must still
+            # match the file — a free integrity check the gate was leaving on
+            # the table (a stale/edited artifact with an untouched sidecar).
+            recorded = prov.get("artifact_sha256")
+            if recorded:
+                actual = _sha256(art.read_bytes())
+                if actual != recorded:
+                    out.append((f"provenance-hash-mismatch:{cid}:{rel}",
+                                f"{cid}: artifact {rel} hashes to {actual[:12]}… but "
+                                f"its provenance records {str(recorded)[:12]}… — the "
+                                f"artifact changed since it was stamped; regenerate it"))
     return out
 
 
@@ -364,6 +395,109 @@ def check_manifest_coverage(claims: list[dict], cfg: Config) -> list[Finding]:
     return out
 
 
+def _collect_json_values(obj: object, into: dict[str, set]) -> None:
+    """Index every scalar leaf in a JSON structure by its key.
+
+    A key may occur more than once (e.g. ``ratio`` per file), so values are
+    accumulated into a set: a register metric matches if it equals ANY value
+    the artifact records under that key.
+    """
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if isinstance(v, (dict, list)):
+                _collect_json_values(v, into)
+            else:
+                into.setdefault(k, set()).add(v if not isinstance(v, bool) else int(v))
+    elif isinstance(obj, list):
+        for v in obj:
+            _collect_json_values(v, into)
+
+
+def check_metrics_match_artifact(claims: list[dict], cfg: Config) -> list[Finding]:
+    """Bind each register ``metrics`` value to the number actually in its JSON
+    artifact.
+
+    The gate already ties docs->register (anchors) and register->artifact-bytes
+    (manifest hash), but nothing asserted that ``metrics.overall_ratio: 8.0584``
+    is the value the artifact JSON records. A mistyped metric could bind the
+    docs, reproduce byte-identically, and pass green — the one edge left to
+    human trust. This closes it: for every JSON artifact, a metric whose key
+    appears in the artifact must equal a value stored under that key. Keys not
+    present in the artifact are skipped (they may be doc-only aggregates).
+    """
+    out: list[Finding] = []
+    for c in claims:
+        cid = c.get("id", "<missing-id>")
+        metrics = c.get("metrics")
+        if not isinstance(metrics, dict) or not metrics:
+            continue
+        arts = c.get("artifact") or []
+        if isinstance(arts, str):
+            arts = [arts]
+        json_arts = [a for a in arts if str(a).endswith(".json")]
+        if not json_arts:
+            continue
+        # Union the leaves of every JSON artifact the claim cites, so a metric
+        # may be established by any one of them.
+        index: dict[str, set] = {}
+        loaded_any = False
+        for rel in json_arts:
+            resolved = _resolve_within_root(cfg, rel)
+            if resolved is None or not resolved.exists():
+                continue  # existence/containment reported elsewhere
+            try:
+                data = json.loads(resolved.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                out.append((f"metrics-artifact-unreadable:{cid}:{rel}",
+                            f"{cid}: artifact {rel} is not readable JSON — "
+                            f"cannot verify its metrics"))
+                continue
+            loaded_any = True
+            _collect_json_values(data, index)
+        if not loaded_any:
+            continue
+        for key, mval in metrics.items():
+            if key not in index:
+                continue  # doc-only / aggregate metric, not stored in artifact
+            present = index[key]
+            mnum = _as_number(mval)
+            matched = (
+                any(_as_number(a) == mnum for a in present) if mnum is not None
+                else str(mval) in {str(a) for a in present}
+            )
+            if not matched:
+                shown = sorted(str(a) for a in present)
+                out.append((f"metrics-artifact-mismatch:{cid}:{key}",
+                            f"{cid}: register metric {key}={mval!r} does not match "
+                            f"the artifact, which records {key}={shown} — update "
+                            f"the register from the evidence, not by hand"))
+    return out
+
+
+def check_fence_balance(cfg: Config, path: Path, text: str) -> list[Finding]:
+    """A doc's code fences must balance.
+
+    The anchor and value-token scanners skip lines inside ``` / ~~~ fences
+    (anchors shown as examples are illustrative, not live). An UNCLOSED fence
+    would silently put the rest of the file "inside a fence" and disable every
+    downstream binding check — a real drift-past-the-gate vector triggered by
+    ordinary prose. Counting the exact lines those scanners toggle on and
+    failing on an odd count makes an unbalanced fence loud instead of silent.
+    """
+    rel = _display(cfg, path)
+    opens = 0
+    for line in text.splitlines():
+        stripped = line.lstrip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            opens += 1
+    if opens % 2 != 0:
+        return [(f"unbalanced-code-fence:{rel}",
+                 f"{rel}: {opens} code-fence markers (odd) — an unclosed fence "
+                 f"would disable anchor/value-token checks for the rest of the "
+                 f"file; close the fence")]
+    return []
+
+
 def _display(cfg: Config, p: Path) -> str:
     try:
         return p.relative_to(cfg.root).as_posix()
@@ -400,7 +534,15 @@ def _check_anchor_fields(rel: str, lineno: int, cid: str, blob: str,
                         f"{rel}:{lineno}: anchor metric '{key}' not defined "
                         f"in register for {cid}"))
             continue
-        if float(expected) not in found:
+        num = _as_number(expected)
+        if num is not None:
+            drifted = num not in found
+        else:
+            # A non-numeric metric (e.g. a version string) binds by exact
+            # substring rather than by numeric value — and never crashes the
+            # gate the way float("0.4.0") would.
+            drifted = str(expected) not in paragraph
+        if drifted:
             out.append((f"anchor-value-drift:{rel}:{cid}:{key}",
                         f"{rel}:{lineno}: register says {cid}.{key}={expected} "
                         f"but that value is not in the anchored paragraph"))
@@ -479,13 +621,23 @@ def check_value_tokens(cfg: Config, path: Path, text: str,
             window = scan[m.end():]
             if not NUMBER_RE.search(window) and idx + 1 < len(lines):
                 window += " " + lines[idx + 1]
+            expected_num = _as_number(expected)
+            if expected_num is None:
+                # Non-numeric metric (e.g. a version string): the token pins the
+                # next whitespace-delimited literal, compared as a string.
+                literal = window.strip().split()[0] if window.strip() else ""
+                if literal.strip("`*_'\".,;:()") != str(expected):
+                    out.append((f"value-token-drift:{rel}:{cid}:{key}",
+                                f"{rel}:{idx+1}: pinned value {literal!r} != "
+                                f"register {cid}.{key}={expected}"))
+                continue
             num = NUMBER_RE.search(window)
             if num is None:
                 out.append((f"value-token-no-number:{rel}:{cid}:{key}",
                             f"{rel}:{idx+1}: value token for {cid}.{key} is "
                             f"not followed by a number"))
                 continue
-            if float(num.group(0)) != float(expected):
+            if float(num.group(0)) != expected_num:
                 out.append((f"value-token-drift:{rel}:{cid}:{key}",
                             f"{rel}:{idx+1}: pinned value {num.group(0)} != "
                             f"register {cid}.{key}={expected} — the literal "
@@ -666,9 +818,11 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
     findings += check_literature(claims, cfg)
     findings += check_manifest(cfg, notes)
     findings += check_manifest_coverage(claims, cfg)
+    findings += check_metrics_match_artifact(claims, cfg)
     docs = _doc_paths(cfg)
     for doc in docs:
         text = doc.read_text(encoding="utf-8", errors="replace")
+        findings += check_fence_balance(cfg, doc, text)
         findings += check_doc_anchors(cfg, doc, text, by_id)
         findings += check_value_tokens(cfg, doc, text, by_id)
         findings += check_evidence_citations(cfg, doc, text, by_id)

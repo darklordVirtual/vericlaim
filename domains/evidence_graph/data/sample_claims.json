@@ -1,0 +1,11 @@
+{
+  "schema": "evidence_graph_fixture_v1",
+  "claims": [
+    {"id": "CLAIM-A", "artifacts": ["a.json"], "literature": ["doi:10.1/x"], "docs": ["a.md"]},
+    {"id": "CLAIM-B", "artifacts": ["b.json"], "literature": [], "docs": ["a.md"]},
+    {"id": "CLAIM-C", "artifacts": ["c.json", "c2.json"], "literature": [], "docs": ["c.md"]},
+    {"id": "CLAIM-D", "artifacts": ["d.json"], "literature": ["doi:10.1/y"], "docs": ["d.md"]},
+    {"id": "CLAIM-E", "artifacts": ["a.json"], "literature": [], "docs": ["e.md"]},
+    {"id": "CLAIM-F", "artifacts": ["f.json"], "literature": [], "docs": ["d.md"]}
+  ]
+}

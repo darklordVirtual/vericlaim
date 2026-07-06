@@ -71,7 +71,8 @@ proof obligation; the CI gate is the runtime.
    neither.
 
 4. **Evidence has levels, and they can only be earned.** A claim is graded
-   (theoretical → measured → benchmarked → reproduced → externally-validated).
+   (theoretical → measured → benchmarked → reproduced → machine-checked →
+   externally-validated).
    You may not describe a claim above its earned level, and a demotion is
    always allowed.
 

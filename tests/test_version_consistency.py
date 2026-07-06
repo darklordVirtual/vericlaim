@@ -26,6 +26,19 @@ def test_pyproject_derives_version_dynamically():
     assert data["tool"]["hatch"]["version"]["path"] == "vericlaim/__init__.py"
 
 
+def test_zero_runtime_dependencies():
+    """CLAIM-CORE-001's headline promise, enforced. The gate binds the '0' in
+    prose but nothing asserted pyproject actually declares no runtime deps —
+    adding one would leave the README saying 'zero-dependency' while it lied.
+    This is exactly the drift vericlaim exists to prevent, on its own flagship
+    claim."""
+    data = tomllib.loads((ROOT / "pyproject.toml").read_text())
+    deps = data["project"].get("dependencies", [])
+    assert deps == [], (
+        f"CLAIM-CORE-001 says zero runtime dependencies but pyproject declares "
+        f"{deps}; PyYAML must stay an OPTIONAL extra, never a runtime dep")
+
+
 def test_citation_matches_source():
     text = (ROOT / "CITATION.cff").read_text()
     m = re.search(r"^version:\s*(\S+)\s*$", text, re.MULTILINE)

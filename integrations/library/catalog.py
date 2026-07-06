@@ -16,7 +16,7 @@ import json
 import re
 import urllib.request
 from datetime import datetime, timezone
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 REF_RE = re.compile(r"^(.*?) \((\d{4}|None)\) is a registrar-verified work "
                     r"\(([^)]+)\)")
@@ -61,7 +61,10 @@ def render(rows: list[dict], url: str) -> str:
         claims = [r for r in items
                   if not r["source_claim_id"].startswith("REF-")]
         refs = [r for r in items if r["source_claim_id"].startswith("REF-")]
-        out.append(f"## {repo} — {len(items)} oppføringer")
+        # Show only the repo NAME, never the curator's local absolute path —
+        # `source_repo` may be a full filesystem path from where it was ingested.
+        repo_name = PurePosixPath(repo.replace("\\", "/")).name or repo
+        out.append(f"## {repo_name} — {len(items)} oppføringer")
         out.append("")
         if claims:
             out.append("| Claim | Nivå | Påstand |")

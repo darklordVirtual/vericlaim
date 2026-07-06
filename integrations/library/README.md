@@ -61,8 +61,8 @@ chains and witnesses stay valid. Consequences:
 The claims library answers *"what has been proven?"*. The research layer
 answers *"what does the literature actually say?"* — with the same honesty
 rules. A machine-readable **canonical research map**
-(`research/canon.toml`, 10 collections from uncertainty/conformal through
-assurance cases) is the coverage contract; `litcoverage.py --check` fails
+(`research/canon.toml`, 15 collections from uncertainty/conformal through
+frontier reasoning) is the coverage contract; `litcoverage.py --check` fails
 closed on any canon entry that is neither verified in the catalog nor a
 documented drop (`research/drops.toml`, reason required).
 

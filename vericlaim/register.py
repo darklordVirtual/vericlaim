@@ -40,8 +40,31 @@ def _strip_quotes(value: str) -> str:
     return value
 
 
+def _strip_inline_comment(value: str) -> str:
+    """Drop a trailing YAML inline comment (whitespace + ``#``), respecting quotes.
+
+    PyYAML treats ` #...` as a comment; the bundled parser must agree, or the
+    same register parses to different values depending on whether PyYAML happens
+    to be installed (and a value like ``2.5  # ratio`` would parse to a string
+    that later crashes numeric checks). A ``#`` with no preceding whitespace, or
+    one inside quotes, is part of the scalar and is preserved.
+    """
+    s = value.strip()
+    if not s:
+        return s
+    if s[0] in "\"'":
+        end = s.find(s[0], 1)
+        if end == -1:
+            return s  # unterminated quote — leave untouched
+        head, tail = s[: end + 1], s[end + 1:]
+        m = re.search(r"\s#", tail)
+        return (head + (tail[: m.start()] if m else tail)).strip()
+    m = re.search(r"\s#", s)
+    return (s[: m.start()] if m else s).strip()
+
+
 def _scalar(value: str) -> Any:
-    value = value.strip()
+    value = _strip_inline_comment(value.strip())
     if value in ("null", "~", ""):
         return None
     if value.lower() == "true":

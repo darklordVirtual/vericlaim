@@ -70,12 +70,14 @@ the provenance so a reviewer trusts the origin even against a malicious writer.
 *Status:* proposed enterprise tier; the v2 sidecar (with artifact/script hashes)
 is the substrate a DSSE envelope would wrap.
 
-### ○ Structured claim tokens (bind value *in place*, not just present)
-*Origin:* templating / single-sourced docs. *For AI:* today an anchor proves the
-number is *somewhere* in the paragraph; a token like
-`{{ claim:CLAIM-PERF-001.metrics.p95_ms }}` would pin it to the exact position
-(and could generate or substitute the value in CI), closing the
-"number-present-but-prose-wrong" gap. *Status:* the planned v0.2 direction.
+### ✅ Structured claim tokens (bind value *in place*, not just present)
+*Origin:* templating / single-sourced docs. *For AI:* an anchor proves the
+number is *somewhere* in the paragraph; a **value token** `<!-- v:CLAIM.field -->`
+pins the NEXT literal to the exact position, so "target is 180; actual is 900"
+cannot pass by containing 180 elsewhere — closing the
+"number-present-but-prose-wrong" gap. *Status:* built and enforced
+(`check_value_tokens` in `gate.py`; see the register spec). The richer
+generate/substitute-in-CI form remains future work.
 
 ### ○ Property-based & metamorphic claims (QuickCheck / Hypothesis)
 *Origin:* instead of one example, assert a property over *generated* inputs; when
