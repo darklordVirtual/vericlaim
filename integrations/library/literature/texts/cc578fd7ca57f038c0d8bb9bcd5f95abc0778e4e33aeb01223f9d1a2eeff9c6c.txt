@@ -1,0 +1,9 @@
+These difficulties
+have meant that mixtures of experts are rarely used in the regime
+where they might be most beneficial: tasks with huge datasets that
+contain distinctly different subsets. It is much easier to parallelize the training of multiple specialists. We first train a generalist model and then use the confusion matrix to
+define the subsets that the specialists are trained on. Once these
+subsets have been defined the specialists can be trained entirely
+independently. At test time we can use the predictions from the
+generalist model to decide which specialists are relevant and only
+these specialists need to be run.

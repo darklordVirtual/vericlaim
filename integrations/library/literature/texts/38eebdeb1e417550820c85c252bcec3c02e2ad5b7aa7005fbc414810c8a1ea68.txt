@@ -1,0 +1,19 @@
+Pile
+
+1.2253
+
+1.0928
+
+1.0828
+
+1.0468
+
+0.9631
+
+0.8718
+
+0.7980
+
+0.7177
+
+Table 2: Test perplexity of the Pile using GPT-2 and GPT-3, converted to bits per UTF-8 encoded byte (bpb). Evaluation is performed on one-tenth of the test data of the Pile, on a per-document basis. Bold indicates the best-performing model in each row.

@@ -1,0 +1,36 @@
+{
+  "abstract": "Deep neural networks have enabled progress in a wide variety of applications. Growing the size of the neural network typically results in improved accuracy. As model sizes grow, the memory and compute requirements for training these models also increases. We introduce a technique to train deep neural networks using half precision floating point numbers. In our technique, weights, activations and gradients are stored in IEEE half-precision format. Half-precision floating numbers have limited numerical range compared to single-precision numbers. We propose two techniques to handle this loss of information. Firstly, we recommend maintaining a single-precision copy of the weights that accumulates the gradients after each optimizer step. This single-precision copy is rounded to half-precision format during training. Secondly, we propose scaling the loss appropriately to handle the loss of information with half-precision gradients. We demonstrate that this approach works for a wide variety of models including convolution neural networks, recurrent neural networks and generative adversarial networks. This technique works for large scale models with more than 100 million parameters trained on large datasets. Using this approach, we can reduce the memory consumption of deep learning models by nearly 2x. In future processors, we can also expect a significant computation speedup using half-precision hardware units.",
+  "accredited": false,
+  "authors": [
+    "Paulius Micikevicius",
+    "Sharan Narang",
+    "Jonah Alben",
+    "Gregory Diamos",
+    "Erich Elsen",
+    "David Garcia",
+    "Boris Ginsburg",
+    "Michael Houston",
+    "Oleksii Kuchaiev",
+    "Ganesh Venkatesh",
+    "Hao Wu"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T01:12:09.217697+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1710.03740"
+  },
+  "fulltext_sha256": "103e947d13722b36af8d720d8da16c2f22d43a9bd2f79a76bafc1c8f123c064a",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "mixed-precision-2017",
+    "fetched_at": "2026-07-06T01:05:36.422724+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "77cb22d16e8d94fdf5095b9e67d855bef59b06440adb7bbeaacb020b00c65ee3",
+  "title": "Mixed Precision Training",
+  "url": "https://arxiv.org/abs/1710.03740",
+  "venue": "arXiv",
+  "work_id": "arxiv:1710.03740",
+  "year": 2017
+}

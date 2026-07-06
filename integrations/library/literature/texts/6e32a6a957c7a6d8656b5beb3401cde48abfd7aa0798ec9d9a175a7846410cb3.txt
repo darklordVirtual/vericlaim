@@ -1,0 +1,17 @@
+Datasheet for the Pile. arXiv preprint arXiv. Biderman and Scheirer (2020)
+
+Stella Biderman and Walter J. Scheirer. 2020. Pitfalls in machine learning research: Reexamining the development
+cycle. NeurIPS “I Can’t Believe It’s Not Better!” Workshop. Blei et al. (2003)
+
+David M Blei, Andrew Y Ng, and Michael I Jordan. 2003. Latent dirichlet allocation. Journal of machine Learning research, 3(Jan):993–1022. Blodgett et al. (2020)
+
+Su Lin Blodgett, Solon Barocas, Hal Daumé III, and Hanna Wallach. 2020. Language (technology) is power: A critical survey of “bias” in
+NLP. arXiv preprint arXiv:2005.14050. Bostrom (2014)
+
+Nick Bostrom. 2014. Superintelligence: Paths, Dangers, Strategies. Oxford University Press, Inc. Bostrom and Yudkowsky (2014)
+
+Nick Bostrom and Eliezer Yudkowsky. 2014. The ethics of artificial intelligence. The Cambridge handbook of artificial intelligence, 1:316–334. Brown et al. (2020)
+
+Tom B Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+et al. 2020. Language models are few-shot learners. arXiv preprint arXiv:2005.14165. Brundage et al.

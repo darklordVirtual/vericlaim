@@ -1,0 +1,19 @@
+In Proceedings of the 13th ACM SIGGRAPH Conference on Motion,
+Interaction and Games, pages 1–10, 2020. Nye et al. (2021)
+
+M. Nye, A. J. Andreassen, G. Gur-Ari, H. Michalewski, J. Austin, D. Bieber,
+D. Dohan, A. Lewkowycz, M. Bosma, D. Luan, et al. Show your work: Scratchpads for intermediate computation with
+language models. arXiv preprint arXiv:2112.00114, 2021. OpenAI (2023)
+
+OpenAI. Gpt-4 technical report. arXiv preprint arXiv:2303.08774, 2023. Ouyang et al. (2022)
+
+L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. L. Wainwright, P. Mishkin, C. Zhang,
+S. Agarwal, K. Slama, A. Ray, et al. Training language models to follow instructions with human feedback. arXiv preprint arXiv:2203.02155, 2022. Shen et al. (2021)
+
+J. Shen, Y. Yin, L. Li, L. Shang, X. Jiang, M. Zhang, and Q. Liu. Generate & rank: A multi-task framework for math word problems. arXiv preprint arXiv:2109.03034, 2021. Stiennon et al. (2020)
+
+N. Stiennon, L. Ouyang, J. Wu, D. Ziegler, R. Lowe, C. Voss, A. Radford,
+D. Amodei, and P. F. Christiano. Learning to summarize with human feedback. Advances in Neural Information Processing Systems,
+33:3008–3021, 2020. Stuhlmüller and Byun (2022)
+
+A. Stuhlmüller and J. Byun.

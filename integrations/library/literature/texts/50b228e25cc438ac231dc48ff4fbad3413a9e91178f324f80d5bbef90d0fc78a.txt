@@ -1,0 +1,37 @@
+Cost / million requests
+Requests / second
+Hourly cost of VM
+
+SW Ranking
+
+$39.26
+
+2.9
+
+$0.39
+
+Matrix Factorization
+
+$3.32
+
+155.16
+
+$0.8
+
+BERT
+
+$3.19
+
+69.62
+
+$0.8
+
+Causal LLM
+
+$5.23
+
+42.46
+
+$0.8
+
+Table 7: Cost and inference overhead of different routers. As compared to the cost of LLM generation, the cost of deploying a router is small while also able being able to support real-world workloads. A concern with LLM routing is the overhead of routing as compared to using a single model. Therefore, we measure and report the overhead of our routers in Table 7 using randomly-sampled conversations from Chatbot Arena. For each router, we first profile the rate at which it can process requests, then use the VM’s hourly cost to calculate the cost overhead. For routers that require embeddings, we also include the cost of embedding generation based on the average input length of the training set. For routers that use GPUs, namely matrix factorization and the classifier methods, we utilize Google Cloud’s g2-standard-4 VM containing a single NVIDIA L4 GPU. For similarity-weighted ranking, we use Google Cloud’s CPU-only n2-standard-8 VM.

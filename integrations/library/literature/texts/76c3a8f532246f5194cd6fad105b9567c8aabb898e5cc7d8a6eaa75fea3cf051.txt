@@ -1,0 +1,5 @@
+In addition to MP and PP, there are multiple lines of work that target reducing memory overheads of DL training. 2.2.1 Reducing Activation Memory
+
+Multiple efforts have focused on reducing the memory footprint of activations through compression [13], activation checkpointing [7, 14], or live analysis [15]. These efforts are complimentary and can work together with ZeRO. In fact, activation memory reduction in ZeRO-R works in parallel with activation checkpointing. 2.2.2 CPU Offload
+
+[16, 17] exploit heterogeneous nature of today’s compute nodes, offloading model states to CPU memory through algorithmic design or virtualized memory, respectively. Up to of training time can be spent on GPU-CPU-GPU transfers [16]. ZeRO differs in that it reduces the memory consumption significantly without storing the model states to CPU memory whose bandwidth is severely constrained due to PCI-E. On rare cases, ZeRO-R may offload just the activation checkpoints for very large models to improve performance (see Sec. 6.1 for details).

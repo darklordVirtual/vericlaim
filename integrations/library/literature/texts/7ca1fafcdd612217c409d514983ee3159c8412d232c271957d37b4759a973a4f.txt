@@ -1,0 +1,16 @@
+Gabriel, William Isaac,
+Ed Lockhart, Simon Osindero, Laura Rimell, Chris Dyer, Oriol Vinyals, Kareem
+Ayoub, Jeff Stanway, Lorrayne Bennett, Demis Hassabis, Koray Kavukcuoglu, and
+Geoffrey Irving. 2021. Scaling language models:
+Methods, analysis & insights from training gopher. Raffel et al. (2020)
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J Liu. 2020. Exploring the limits of transfer learning with a unified text-to-text
+transformer. The Journal of Machine Learning Research, 21(1):5485–5551. Rosenfeld et al. (2019)
+
+Jonathan S Rosenfeld, Amir Rosenfeld, Yonatan Belinkov, and Nir Shavit. 2019. A constructive prediction of the generalization error across scales. arXiv preprint arXiv:1909.12673. Rudinger et al. (2018)
+
+Rachel Rudinger, Jason Naradowsky, Brian Leonard, and Benjamin Van Durme. 2018. Gender bias in coreference
+resolution. In NAACL-HLT 2018. Sakaguchi et al. (2021)
+
+Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. 2021. Winogrande: An adversarial winograd schema challenge at scale. Communications of the ACM, 64(9):99–106. Sap et al.

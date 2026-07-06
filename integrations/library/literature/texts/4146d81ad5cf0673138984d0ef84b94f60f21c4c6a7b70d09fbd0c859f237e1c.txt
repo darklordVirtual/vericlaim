@@ -1,0 +1,11 @@
+Positive connotation
+
+Meaningless acronym. Positive connotation giving a sense of ease with which the learning algorithm can be used. Well-known
+
+Not a well-known acronym. Close to the word sequence which is a well-known word. Total score
+
+5/25
+
+20/25
+
+Table 18: Comparison of acronyms for input = “Sequence to Sequence Learning with Neural Networks”

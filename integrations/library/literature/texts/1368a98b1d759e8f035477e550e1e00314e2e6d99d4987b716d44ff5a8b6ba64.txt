@@ -1,0 +1,9 @@
+Problem 9. Generator pass-rate: . The generator makes a subtle counting error in step 9. On the surface, it appears reasonable to claim that there are 5 ways to exchange the same colored ball since there are 5 colors. However, this undercounts by a factor of 2, since Bob has 2 choices for which ball to return to Alice. The reward model is fooled by this mistake. Problem 10. Generator pass-rate: . In step 13, the generator attempts to simplify the equation by combining like terms. It correctly moves and combines the linear terms to the left-hand side, but then mistakenly leaves the right-hand side untouched. The reward model is fooled by this mistake. Problem 11. Generator pass-rate: . The generator attempts to perform long division, but in step 16, it forgets to include the leading zeros in the repeating part of the decimal. The reward model is fooled by this mistake. Problem 12. Generator pass-rate: . In step 4, the generator falsely claims that the sequence repeats itself every 12 terms, when it’s in fact every 10 terms. This sort of counting mistake occasionally fools the reward model. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

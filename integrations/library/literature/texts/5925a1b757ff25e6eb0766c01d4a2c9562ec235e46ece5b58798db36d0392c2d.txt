@@ -1,0 +1,6 @@
+We use an architecture with 8 hidden layers each containing 2560 rectified linear units and a final softmax layer with
+14,000 labels (HMM targets ). The input is 26 frames of 40 Mel-scaled filterbank coefficients with a 10ms advance
+per frame and we predict the HMM state of 21st frame. The total number of parameters is about 85M. This is a
+slightly outdated version of the acoustic model used by Android voice search, and should be considered as a very strong
+baseline. To train the DNN acoustic model we use about 2000 hours of spoken English data, which yields about 700M
+training examples. This system achieves a frame accuracy of 58.9%, and a Word Error Rate (WER) of 10.9% on our development set.

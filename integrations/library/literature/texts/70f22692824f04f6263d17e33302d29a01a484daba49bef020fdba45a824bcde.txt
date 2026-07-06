@@ -1,0 +1,1 @@
+In this section, we present an empirical study on the FrugalGPT LLM cascade. Our goals are three-fold: (i) understand what a simple instantiation of LLM cascade learns, (ii) quantify the cost savings attained by FrugalGPT while matching the best individual LLM API’s performance, and (iii) measure the trade-offs between performance and cost enabled by FrugalGPT.

@@ -1,0 +1,16 @@
+WW Norton & Company. Ciobanu et al. (2017)
+
+Alina Maria Ciobanu, Liviu P Dinu, and Andrea Sgarro. 2017. Towards a map of the syntactic similarity of languages. In International Conference on Computational Linguistics and
+Intelligent Text Processing, pages 576–590. Springer. Conneau et al. (2020)
+
+Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
+Wenzek, Francisco Guzmán, Edouard Grave, Myle Ott, Luke Zettlemoyer, and
+Veselin Stoyanov. 2020. Unsupervised cross-lingual representation learning at scale. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pages 8440–8451, Online. Association for
+Computational Linguistics. Costa-jussà et al. (2020)
+
+Marta R Costa-jussà, Roger Creus, Oriol Domingo, Albert Domínguez,
+Miquel Escobar, Cayetana López, Marina Garcia, and Margarita Geleta. 2020. Mt-adapted datasheets for datasets: Template and repository. arXiv preprint arXiv:2005.13156. Critch and Krueger (2020)
+
+Andrew Critch and David Krueger. 2020. AI Research Considerations for Human Existential Safety (ARCHES). Preprint at
+acritch.com/arches. Dai et al.

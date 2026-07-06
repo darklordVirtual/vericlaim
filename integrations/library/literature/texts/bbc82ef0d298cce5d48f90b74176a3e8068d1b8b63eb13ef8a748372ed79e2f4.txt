@@ -1,0 +1,16 @@
+1143–1156, Punta Cana, Dominican Republic, November
+2021a. Association for Computational Linguistics. URL https://aclanthology.org/2021.findings-emnlp.99. Xu et al. (2021b)
+
+Yichong Xu, Chenguang Zhu, Shuohang Wang, Siqi Sun, Hao Cheng, Xiaodong Liu,
+Jianfeng Gao, Pengcheng He, Michael Zeng, and Xuedong Huang. Human parity on commonsenseqa: Augmenting self-attention with
+external attention, 2021b. URL https://arxiv.org/abs/2112.03254. Yang et al. (2018)
+
+Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan
+Salakhutdinov, and Christopher D. Manning. HotpotQA: A dataset for diverse, explainable multi-hop question
+answering. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pp. 2369–2380, Brussels, Belgium,
+October-November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1259. URL https://aclanthology.org/D18-1259. Ye & Durrett (2022)
+
+Xi Ye and Greg Durrett. The unreliability of explanations in few-shot prompting for textual
+reasoning. In Alice H. Oh, Alekh Agarwal, Danielle Belgrave, and Kyunghyun Cho
+(eds.), Advances in Neural Information Processing Systems, 2022.

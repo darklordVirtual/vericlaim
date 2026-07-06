@@ -1,0 +1,8 @@
+For large sequence lengths , is often set to
+[11] or
+[92, 3, 17], resulting in or
+IO complexity. For downstream experiments, we use the fixed butterfly sparsity
+pattern [17], which has been shown to be able to approximate
+arbitrary sparsity [16]. In Fig. 2 (right), we validate that as the sparsity increases, the
+runtime of block-sparse FlashAttention improves proportionally. On the LRA benchmark, block-sparse FlashAttention achieves 2.8
+speedup, while performing on par with standard attention (Section 4).

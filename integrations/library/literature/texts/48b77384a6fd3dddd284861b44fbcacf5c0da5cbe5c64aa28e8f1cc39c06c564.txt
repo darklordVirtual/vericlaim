@@ -1,0 +1,29 @@
+The examples were subsampled and presented to the crowdworkers:
+
+⬇
+
+Q: Who is likely yo have a caring heart? Answer Choices:
+
+(a) person
+
+(b) species
+
+(c) artichoke
+
+(d) all mammals
+
+(e) live animal
+
+A: The answer must be a person. All mammals have a caring heart. Therefore, the answer is person (a). A: The answer must be someone who is likely to have a caring heart. Humans are the most likely to have a caring heart. Therefore, the answer is person (a). A: A person is the only human being capable of having a caring heart. Therefore, the answer is person (a). Q: If a person wanted to become a good writer what should they do in college? Answer Choices:
+
+(a) word sentence
+
+(b) own animal
+
+(c) read the newspaper
+
+(d) catch cold
+
+(e) study literature
+
+A: The answer must be something that would help a person become a good writer. The answer is study literature (e). A: The answer must be something that would help a person become a good writer. Literature is a form of study. Therefore, the answer is study literature (e). A: studying literature will give one skills of writing. Therefore, the answer is study literature (e). Q: The human always would have fun making up questions for the A.I.

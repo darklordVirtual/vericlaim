@@ -1,0 +1,9 @@
+In this section, we define evaluation metrics to capture the trade-off between cost and performance in the LLM routing problem. We begin with metrics that independently assess the cost efficiency and performance of a router model routing between two models and , and then introduce two compounded metrics used in our experimental evaluations. We measure the cost efficiency of by calculating the percentage of calls to strong models:
+
+(4)
+
+since models are significantly more costly than models. For performance, we calculate the average response quality:
+
+(5)
+
+where represents an individual response quality score, such as correctness on golden-labeled datasets (e.g., MMLU) or a numerical rating (e.g., 1-5 or 1-10), with higher values indicating better quality. Similarly, and can be defined for the strong and weak model respectively. Since the router model’s performance falls between that of the weak and strong models, we quantify its performance relative to the gap between them.

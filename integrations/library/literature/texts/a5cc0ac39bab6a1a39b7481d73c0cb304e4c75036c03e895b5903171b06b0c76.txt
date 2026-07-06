@@ -1,0 +1,7 @@
+Why can multiple LLM APIs potentially produce better performance than the best individual LLM? In essence, this is due to generation diversity: even an inexpensive LLM can sometimes correctly answer queries on which a more expensive LLM fails. To measure this diversity, we use the maximum performance improvement, or MPI. The MPI of LLM A with respect to LLM B is the probability that LLM A generates the correct answer while LLM B provides incorrect ones. This metric essentially measures the maximum performance gains achievable by invoking LLM A in addition to LLM B. (a) HEADLINES
+
+(b) OVERRULING
+
+(c) COQA
+
+Figure 4: Maximum performance improvement (MPI) of each pair of LLMs. (a), (b), and (c) correspond to the three datasets, separately. One entry indicates the percent of cases that the LLM on its row is wrong but the LLM on its column gives the right answer. Overall, we observe that cheap LLMs can be complementary to the expensive ones quite often. For example, for about 6% of the data, GPT-4 makes a mistake but GPJ-J (or J-L or GPT-C) gives the right answer on HEADLINES. MPI between each pair of LLM APIs for all datasets is displayed in Figure 4.

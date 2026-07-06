@@ -1,0 +1,11 @@
+ablations in Section 4.2 suggest that this active learning strategy, which favors labelling high-scoring wrong-answer solutions, improves performance despite the resulting imbalance in the dataset. phase
+
+phase
+
+combined
+
+end in correct solution
+
+correct steps
+
+Table 3: Distribution of positive/negative steps/solutions. Some of our phase 2 questions are intended for quality control. For a quality control question, researchers mark which steps are reasonable to label as incorrect. Then we assess that labelers are able to consistently mark those steps as incorrect. Prior to starting on phase 2, we required all labelers to label 30 quality control questions. This served as a screening test, and we only admitted labelers that agreed with our gold labels at least of the time. We then designated - problems per generation as additional quality control questions, and we randomly served them to labelers as they worked through the task. We used the results of this continuous quality control to remove labelers whose quality slipped too far, as well as to prepare educational material on common mistakes in order to improve labeler alignment with our instructions.

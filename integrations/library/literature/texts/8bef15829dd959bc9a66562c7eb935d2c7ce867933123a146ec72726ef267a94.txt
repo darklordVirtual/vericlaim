@@ -1,0 +1,27 @@
+A: 1.4 million in the metropolitan area
+
+Q: what percent of the foreign companies that operate in Finland are in Helsinki? A: 75%
+
+Q: what towns are a part of the metropolitan area? A:
+
+Target Completion
+
+Helsinki, Espoo, Vantaa, Kauniainen, and surrounding commuter towns
+
+Figure G.18: Formatted dataset example for CoQA
+
+Context
+
+Please unscramble the letters into a word, and write that word:
+
+asinoc =
+
+Target Completion
+
+casino
+
+Figure G.19: Formatted dataset example for Cycled Letters
+
+Context
+
+Passage: Saint Jean de Brébeuf was a French Jesuit missionary who travelled to New France in 1625. There he worked primarily with the Huron for the rest of his life, except for a few years in France from 1629 to 1633. He learned their language and culture, writing extensively about each to aid other missionaries. In 1649, Brébeuf and another missionary were captured when an Iroquois raid took over a Huron village . Together with Huron captives, the missionaries were ritually tortured and killed on March 16, 1649. Brébeuf was beatified in 1925 and among eight Jesuit missionaries canonized as saints in the Roman Catholic Church in 1930.

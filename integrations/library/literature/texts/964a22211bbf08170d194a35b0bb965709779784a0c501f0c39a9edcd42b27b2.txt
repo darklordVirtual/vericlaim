@@ -1,0 +1,18 @@
+Neural Computation, 1992. MBXS [17]
+
+Bryan McCann, James Bradbury, Caiming Xiong, and Richard Socher. Learned in translation: Contextualized word vectors. In Advances in Neural Information Processing Systems, pages
+6294–6305, 2017. MCCD [13]
+
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781, 2013. MCH+ [16]
+
+Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra,
+Lucy Vanderwende, Pushmeet Kohli, and James Allen. A corpus and evaluation framework for deeper understanding of
+commonsense stories. arXiv preprint arXiv:1604.01696, 2016. MCKS [18]
+
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a new dataset for open book
+question answering. ArXiv, abs/1809.02789, 2018. MKAT [18]
+
+Sam McCandlish, Jared Kaplan, Dario Amodei, and OpenAI Dota Team. An empirical model of large-batch training, 2018. MKM+ [94]
+
+Mitchell Marcus, Grace Kim, Mary Ann Marcinkiewicz, Robert MacIntyre, Ann Bies,
+Mark Ferguson, Karen Katz, and Britta Schasberger. The penn treebank: annotating predicate argument structure.

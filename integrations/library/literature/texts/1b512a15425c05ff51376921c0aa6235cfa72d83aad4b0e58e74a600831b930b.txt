@@ -1,0 +1,13 @@
+s\ANDHugo Touvron, Thibaut Lavril11footnotemark: 1, Gautier Izacard11footnotemark: 1, Xavier Martinet
+\ANDMarie-Anne Lachaux, Timothee Lacroix, Baptiste Rozière, Naman Goyal
+\ANDEric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin
+\ANDEdouard Grave11footnotemark: 1, Guillaume Lample11footnotemark: 1
+\AND
+s
+
+Meta AI
+Equal contribution. Correspondence: {htouvron, thibautlav,gizacard,egrave,glample}@meta.com
+
+Abstract
+
+We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community111https://github.com/facebookresearch/llama.

@@ -1,0 +1,19 @@
+Tandon et al. (2022)
+
+Niket Tandon, Aman Madaan, Peter Clark, and Yiming Yang. 2022. Learning to repair: Repairing model output errors after deployment
+using a dynamic memory of feedback. In Findings of the Association for Computational Linguistics:
+NAACL 2022, pages 339–352. Touvron et al. (2023)
+
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne
+Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric
+Hambro, Faisal Azhar, et al. 2023. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971. Wei et al. (2022)
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and
+Denny Zhou. 2022. Chain of Thought Prompting
+Elicits Reasoning in Large Language Models. arXiv preprint arXiv:2201.11903. Welleck et al. (2022)
+
+Sean Welleck, Ximing Lu, Peter West, Faeze Brahman, Tianxiao Shen, Daniel
+Khashabi, and Yejin Choi. 2022. Generating sequences by learning to self-correct. arXiv preprint arXiv:2211.00053. Yang et al. (2022)
+
+Kevin Yang, Nanyun Peng, Yuandong Tian, and Dan Klein. 2022. Re3: Generating longer stories with recursive reprompting and
+revision.

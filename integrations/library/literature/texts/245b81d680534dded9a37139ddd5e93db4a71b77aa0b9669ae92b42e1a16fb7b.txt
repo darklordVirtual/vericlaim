@@ -1,0 +1,4 @@
+On rare cases, ZeRO-R may offload just the activation checkpoints for very large models to improve performance (see Sec. 6.1 for details). 2.2.3 Memory Efficient Optimizer
+
+[18, 19] focus on reducing memory consumption of adaptive optimization methods by maintaining coarser-grained statistics of model parameters and gradients, with potential impact on model convergence guarantees. ZeRO is orthogonal to these efforts, and its optimizations
+do not change the model optimization method or affect model convergence, but effectively reduce memory footprint of optimizer states and gradients per device.

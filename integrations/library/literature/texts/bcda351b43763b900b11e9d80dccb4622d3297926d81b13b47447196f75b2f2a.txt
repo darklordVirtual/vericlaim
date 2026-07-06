@@ -1,0 +1,2 @@
+On the official GLUE leaderboard111111https://gluebenchmark.com/leaderboard,
+BERT obtains a score of 80.5, compared to OpenAI GPT, which obtains 72.8 as of the date of writing. We find that BERT significantly outperforms BERT across all tasks, especially those with very little training data. The effect of model size is explored more thoroughly in Section 5.2.

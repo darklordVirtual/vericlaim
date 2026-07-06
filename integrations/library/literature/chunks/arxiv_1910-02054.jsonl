@@ -1,0 +1,78 @@
+{"fsid": "arxiv_1910-02054", "n": 77, "overlap": 200, "source_sha256": "d1d5a1381a8ed49b5d30ddc98b4677ac5d620c72038e5770396bb03d9874474e", "target": 1200}
+{"section": "", "seq": 0, "sha256": "c198d7b151465e367dc1ae5a60b8ba083dfb0b3b254db3adfd4791db8b22ea1a"}
+{"section": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models", "seq": 1, "sha256": "851d2f381a8885adacb8521efcbfb7c0ee9bf3815993f5a033e446fc9d0fccbf"}
+{"section": "Abstract", "seq": 2, "sha256": "42ec813691ea3af98663d7e0db041b9dd5f8680694547960750edf909bbcd5a2"}
+{"section": "Abstract", "seq": 3, "sha256": "e1d81652ee0a86a93328f58ba4b8fe2afc684ead4a94bce46427f33fe5e293b8"}
+{"section": "1 Extended Introduction", "seq": 4, "sha256": "b808b49ff9d123efbf55bcb4750531b4d45d7e3f9a6b625e66b53a7ee09ac981"}
+{"section": "1 Extended Introduction", "seq": 5, "sha256": "2ccbb1b9bef17957a1ba923466d32aca0004d4c3626d80845ac1e7348c80b790"}
+{"section": "1 Extended Introduction", "seq": 6, "sha256": "3ab21354cb4313af4bcdca11e3924fee56c810c277e25191da07fd0d38359fe5"}
+{"section": "1 Extended Introduction", "seq": 7, "sha256": "07f9300d087952315ae606009c08f5eaf6f3326301adf67d5599062e4d0b270d"}
+{"section": "1 Extended Introduction", "seq": 8, "sha256": "da629bbdf85262eb70fac70bd4fb0cf2c92d7788f188bda75e078537cc51cc66"}
+{"section": "1 Extended Introduction", "seq": 9, "sha256": "ea22c4f563ae6c1353b354d33166104be01119b7ab33bd79a7228080865e5eb4"}
+{"section": "1 Extended Introduction", "seq": 10, "sha256": "4d249d9466b7b255c9b5a5c886cb1b733cd75c0d2e8684a1c4219c811cdb0684"}
+{"section": "1 Extended Introduction", "seq": 11, "sha256": "bbc9537b8bb7d6dc04a71fcbae90de4cdcfd320a4d04fa4eb29dbbd352069ca4"}
+{"section": "1 Extended Introduction", "seq": 12, "sha256": "03077c13c46b997cf2b1cd35ed3e3e4b61baeec445b5857b6961cdf0781f56b2"}
+{"section": "1 Extended Introduction", "seq": 13, "sha256": "5f112bd727f6ed460c87c3a8d40ac3f4c1db33e160d5052f0a1a613643d655d7"}
+{"section": "1 Extended Introduction", "seq": 14, "sha256": "f793cf5c225796aafba6a3f47edc44e701c8b2ad454a91cc2891d943b626e26b"}
+{"section": "1 Extended Introduction", "seq": 15, "sha256": "63dd565c24bacb2daf898839bdf9936fd4258ea7c3e52dadec5ed0bc1c501873"}
+{"section": "2.1 Data, Model and Pipeline Parallelism", "seq": 16, "sha256": "ff5ed5647f67a2ac52b9f1a58de643bb89a5b0e91e4d07cc8e9199bd181df9d7"}
+{"section": "2.1 Data, Model and Pipeline Parallelism", "seq": 17, "sha256": "c8e60d854164704fd8115b81f98d1cc5c2835041f1fc682f7b99caa578438010"}
+{"section": "2.2 Non-parallelism based approach to reduce memory", "seq": 18, "sha256": "76c3a8f532246f5194cd6fad105b9567c8aabb898e5cc7d8a6eaa75fea3cf051"}
+{"section": "2.2 Non-parallelism based approach to reduce memory", "seq": 19, "sha256": "245b81d680534dded9a37139ddd5e93db4a71b77aa0b9669ae92b42e1a16fb7b"}
+{"section": "2.3 Training Optimizers", "seq": 20, "sha256": "84aac71903d4d000fc5a8402595336d35c7d1388889cabb7e7d72efcb4ca7fb5"}
+{"section": "3 Where Did All the Memory Go?", "seq": 21, "sha256": "810b6ec7ea054eb9ebc6fafecb864450b203b3e87e615e13804fe97b283e9913"}
+{"section": "3.1 Model States: Optimizer States, Gradients and Parameters", "seq": 22, "sha256": "d08fa9287acc7a1abb5a6f3572088596af5a8c90ad50bc8edd1b656d862a0425"}
+{"section": "3.1 Model States: Optimizer States, Gradients and Parameters", "seq": 23, "sha256": "13c535c71b0b7e9b1f6dd90701b3be4e7ec22e365a21e17a6c4ab3a87f35e658"}
+{"section": "3.2 Residual Memory Consumption", "seq": 24, "sha256": "a1ed8eb1ff1d6919509e62ce9f8259718cfebc60ed9913a778163f99b1ca6080"}
+{"section": "3.2 Residual Memory Consumption", "seq": 25, "sha256": "e2383b4b7063eeece18d8ff8a23ae52511c477b31bef40e360cd1e7c5b73686f"}
+{"section": "3.2 Residual Memory Consumption", "seq": 26, "sha256": "a7f585afdafec03934d87dd0c9acc5e5c0e10926a448944aef1654fcfd443ef3"}
+{"section": "4 ZeRO: Insights and Overview", "seq": 27, "sha256": "725297e6d47dbbe714f54a450df52062d431c0450d075e06930a5aef12626ecf"}
+{"section": "4.1 Insights and Overview: ZeRO-DP", "seq": 28, "sha256": "b34d02e9c0f896dab20ff9a6ff1ce4d6bda88dd1c4a325340d88b8f837a47caa"}
+{"section": "4.1 Insights and Overview: ZeRO-DP", "seq": 29, "sha256": "f4edac279aa0589e040ef87d3dce147d858b6159db2b6f037a95ca03d7e5a1d1"}
+{"section": "4.2 Insights and Overview: ZeRO-R", "seq": 30, "sha256": "23bfeaf498b59c3377bf0c068a5ab3ee3f30c836f8ad2271278bae3ecaf9494f"}
+{"section": "4.2 Insights and Overview: ZeRO-R", "seq": 31, "sha256": "666b22cc6b02e02816368f71dcd30b2a5a1a051cb22ae14aec51bb37978679fd"}
+{"section": "5 Deep Dive into ZeRO-DP", "seq": 32, "sha256": "560ff168d75589edec44256e37934d7cc8098fcee27d1db64e8ac618d2fbac0a"}
+{"section": "5.1 Pos : Optimizer State Partitioning", "seq": 33, "sha256": "517e50022d86c61581b7c1efa98e228ae189370e520cc41449286974aa378eb7"}
+{"section": "5.2 Pg: Gradient Partitioning", "seq": 34, "sha256": "bd738b0f0976d786b6932cd8bb2065e096da41248fb7eda470664b0120fa0cc5"}
+{"section": "5.2 Pg: Gradient Partitioning", "seq": 35, "sha256": "16cc8e26322b4ab3769c0026a365ed08836bcf3c463d04a8b129585a388d45af"}
+{"section": "5.3 Pp: Parameter Partitioning", "seq": 36, "sha256": "2fc8ccccbed8a3f398affcca7089a7a65fd38c0bf9eca1448aa44509464d482b"}
+{"section": "5.4 Implication on Model Size", "seq": 37, "sha256": "509d8fa8f3e84e96009076b5e276edc0f443db9c82cb2af227415901bdeb2919"}
+{"section": "6.1 : Partitioned Activation Checkpointing", "seq": 38, "sha256": "3159fc15b0368bc5bd961a2d27f837f2425f6d20bcbbe341fac72c531affd09a"}
+{"section": "6.1 : Partitioned Activation Checkpointing", "seq": 39, "sha256": "631210fac11245573d6e3bf78363b176da6377a37e742e0364e75e3c1e7e28e9"}
+{"section": "6.2 CB: Constant Size Buffers", "seq": 40, "sha256": "71f70b6dea718582bd591ecd3387d4971ab95d6836f6fd4f21fcaa387cd47fd9"}
+{"section": "6.3 MD: Memory Defragmentation", "seq": 41, "sha256": "f50b177617650e81d011246439806a6f73da06c4dd06185ce2bf4dda7e420b6d"}
+{"section": "6.3 MD: Memory Defragmentation", "seq": 42, "sha256": "72f042b4cc672536563f53edb24971230c9c53d8bad9d27d3403e71f269d7bd8"}
+{"section": "7 Communication Analysis of ZeRO-DP", "seq": 43, "sha256": "34ebb37c8a93f53aafff6c425bd4ace5a93b68ea1ce1e7875c406551056bfafb"}
+{"section": "7.1 Data Parallel Communication Volume", "seq": 44, "sha256": "ea8a3480d45da6d4d7f1ed265c7ec82f446097a6362dcf25d7ed078af9116866"}
+{"section": "7.1 Data Parallel Communication Volume", "seq": 45, "sha256": "7b9e589845568805446f987acecd93503657aa80e68b52181c05222dd2db1a2f"}
+{"section": "7.2 ZeRO-DP Communication Volume", "seq": 46, "sha256": "a68741a94d12155fa5c17d65ab7524e9ca1fb10044d7d082fef47dc851df0632"}
+{"section": "7.2 ZeRO-DP Communication Volume", "seq": 47, "sha256": "5528c621923dde64a0161a2c95425da0b5aa44c07c47ffd912263ddb089314f0"}
+{"section": "8 Communication Analysis of ZeRO-R", "seq": 48, "sha256": "62260dedf6b7239425ce8c2f792ab38c79694ab5344766b48dd50e15a9c42e4e"}
+{"section": "8 Communication Analysis of ZeRO-R", "seq": 49, "sha256": "89c99bc854a610e48f22e221032f5683e039fae695b9dd9860ec501fddd1b029"}
+{"section": "8 Communication Analysis of ZeRO-R", "seq": 50, "sha256": "153434800c60f4faf074fb0dbf7a2d1c70ce319ff9422c14d7a4b78dc2584ca2"}
+{"section": "9 Step Towards 1 Trillion Parameters", "seq": 51, "sha256": "cb68abbd0362ac6048731292c644cfe97b4c9db68f50d72c20f58b3db6f14d26"}
+{"section": "9 Step Towards 1 Trillion Parameters", "seq": 52, "sha256": "b303bf0415eab7356027afa2fec1e6273a0eae6bb3a7eeaad92860101be11ef5"}
+{"section": "9 Step Towards 1 Trillion Parameters", "seq": 53, "sha256": "11acc98925da4f5ab64f8d9586b591e42dd8d2302c2e1bc6ba577b1677a70dc2"}
+{"section": "10 Implementation and Evaluation", "seq": 54, "sha256": "c80c4ecb723495e7ad6aad4ef2eb2b6a952528afaff52a8fac0b4e0c9186d8c3"}
+{"section": "10.1 Implementation and Methodology", "seq": 55, "sha256": "be5f02de2bf80873effa33d1bb022d40bcae507b828b59747accfbac0b58d8af"}
+{"section": "10.1 Implementation and Methodology", "seq": 56, "sha256": "94b845047e6dc48f06403513ff2f8e2771bd78f3b35c6bbe651fa57154418055"}
+{"section": "10.2 Speed and Model Size", "seq": 57, "sha256": "c045549cfd67950afc0940d5f654fe096b2df3d39c3cd4bdfe1ad94091a1b812"}
+{"section": "10.3 Super-Linear Scalability", "seq": 58, "sha256": "175148109bb0e71f8a831eb2b6686fdfbb46cf853dacbc09c014c7943c274d41"}
+{"section": "10.4 Democratizing Large Model Training", "seq": 59, "sha256": "c4b531f74b44c3ff795694364119c5b2be8cea9a37787aee740847a636643dad"}
+{"section": "10.5 Memory and Performance Analysis", "seq": 60, "sha256": "2310015963c981a988485f6a819eabc94b18644f81856772489b43fb62c5b092"}
+{"section": "10.5 Memory and Performance Analysis", "seq": 61, "sha256": "8ca53f0485629f76bcc8f479c303dfee1fb45b6a8b9bf000091e1244c572a981"}
+{"section": "10.5 Memory and Performance Analysis", "seq": 62, "sha256": "511e0ce02cd4cc4cbb66722e4971d31eb5fc77170102a45a15cfac18d46e692c"}
+{"section": "10.6 Turing-NLG, the SOTA language model with 17B parameters", "seq": 63, "sha256": "72eae71f7c8e0ef531febacc72deef582166d6df31b2d0e34d20c00317d840e4"}
+{"section": "11 Concluding Remarks", "seq": 64, "sha256": "a68d5943a42a92170d09e4b1dfe3248b09324e20875d3aaab88a778c63c507da"}
+{"section": "Acknowledgement", "seq": 65, "sha256": "1abed0c12dfe51865a99b47c31d0470185a8425e568908107ad965b9ff525705"}
+{"section": "References", "seq": 66, "sha256": "be5b1d2571bb1ded3430009a4143592a7dd2c5c9fe3812036836373cf0be914d"}
+{"section": "References", "seq": 67, "sha256": "ed4395996f0e6d1c3e7683b21550ce6d5d408e41697e550c9af32038acc70efc"}
+{"section": "References", "seq": 68, "sha256": "1ba006bb86c8e8eb860d83937b20d534b251a3eb306e41541cc42277dda1acaa"}
+{"section": "References", "seq": 69, "sha256": "6eafa327560d8a84d6c18fc565779c59488cce00701bb14fa4912608c591a9ef"}
+{"section": "References", "seq": 70, "sha256": "60a57bb6729046318653028ce956b6d8aaa20d2212e5a51dcc950ae35888539e"}
+{"section": "References", "seq": 71, "sha256": "5a72af6e0cf338a379d12088d015490180139e167a5d9a405183beda1e943e99"}
+{"section": "References", "seq": 72, "sha256": "ba75287cec3a5a6a7432fac2f366b4e37f2f5c1359c13f52f8a725886405534f"}
+{"section": "References", "seq": 73, "sha256": "9ae497bf1cff188762e60a3644bbe9141c65841763c1a65690debae960c1065d"}
+{"section": "References", "seq": 74, "sha256": "3952162b2b30bede70ce64c403461dd8de52cedfbc0ef1a7c7b507e1287779da"}
+{"section": "References", "seq": 75, "sha256": "4bcb6b81ff7ab2fc84a0a9cd1cdb102deb8cdfc08207edf46be481ad1639403b"}
+{"section": "References", "seq": 76, "sha256": "025f87a82a8b44091313afce63cd5a46f252620141902b33805d4d838cadef91"}

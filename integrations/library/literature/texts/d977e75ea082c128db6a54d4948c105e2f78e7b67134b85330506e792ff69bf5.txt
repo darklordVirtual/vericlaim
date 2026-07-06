@@ -1,0 +1,30 @@
+2018. Swag: A large-scale adversarial dataset for grounded commonsense
+inference. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing (EMNLP). Zhu et al. (2015)
+
+Yukun Zhu, Ryan Kiros, Rich Zemel, Ruslan Salakhutdinov, Raquel Urtasun,
+Antonio Torralba, and Sanja Fidler. 2015. Aligning books and movies: Towards story-like visual explanations by
+watching movies and reading books. In Proceedings of the IEEE international conference on computer
+vision, pages 19–27. Appendix for “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding”
+
+We organize the appendix into three sections:
+
+•
+
+Additional implementation details for BERT are presented in Appendix A;
+
+•
+
+Additional details for our experiments are presented in Appendix B; and
+
+•
+
+Additional ablation studies are presented in Appendix C. We present additional ablation studies for BERT including:
+
+–
+
+Effect of Number of Training Steps; and
+
+–
+
+Ablation for Different Masking Procedures.

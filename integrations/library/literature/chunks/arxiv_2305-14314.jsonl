@@ -1,0 +1,100 @@
+{"fsid": "arxiv_2305-14314", "n": 99, "overlap": 200, "source_sha256": "3f5763ad200356afbe05250b4b9f7edd69a51a3ebf965f507f9c73d841de29a7", "target": 1200}
+{"section": "", "seq": 0, "sha256": "b2f11963f8320f68ff6b82d4104999ba410287c2723077f90794a8591069c4c4"}
+{"section": "QLoRA: Efficient Finetuning of Quantized LLMs", "seq": 1, "sha256": "3fb47836d45e9613c6a8295eaf340d42be47b771e390104e8313e1ac997a4903"}
+{"section": "QLoRA: Efficient Finetuning of Quantized LLMs", "seq": 2, "sha256": "1f5a01a13060832c0963a0b215d096da748973bd974e5fe46e89a639c540ac21"}
+{"section": "QLoRA: Efficient Finetuning of Quantized LLMs", "seq": 3, "sha256": "b28a8110def6a3ed599481d4d41948a538fbd4bd17919efae26f8f9d4e3abdf4"}
+{"section": "1 Introduction", "seq": 4, "sha256": "c03792bf30a8b1ad639b9a3b243c79c44caba29cf38a9d5ed20328881fb0b95e"}
+{"section": "1 Introduction", "seq": 5, "sha256": "8e7c485e088d304dd207d32347926e99d74a7a7307bf019691a914f933078824"}
+{"section": "1 Introduction", "seq": 6, "sha256": "71994f2a7b0ac32a3590fc184e7b64267abd6804f341a3d793446e7061c17386"}
+{"section": "1 Introduction", "seq": 7, "sha256": "4e8df2e8280628a6b75959927b7363433eacf80de2f5b06a8d84eea67873c1a2"}
+{"section": "1 Introduction", "seq": 8, "sha256": "3a22124f5068af6f800e3a370b595ce9f904edda2cd568bfa8653b59a1befbc3"}
+{"section": "1 Introduction", "seq": 9, "sha256": "d6d82a84095cf0e56708a3d86f149a3428fb1a306602a3766e16238454ccb4c2"}
+{"section": "2 Background", "seq": 10, "sha256": "7edbb2e308f2b2bb6123fb0919a7302c9211f81c1f2bf1da23a9f0694960402e"}
+{"section": "2 Background", "seq": 11, "sha256": "b6a4ea2b1c3115135d5c2ffe8a09b52aaade33ae1dc26bad3c5b7a0f890d725c"}
+{"section": "2 Background", "seq": 12, "sha256": "522f0cdfac35da5e85786b1b484b5a1008a40220c1d909ff74bee6a053cd31eb"}
+{"section": "2 Background", "seq": 13, "sha256": "606ef23f2b68a572771e856a3a8ef610b79b32fae84c4a69ac207a1418b88a79"}
+{"section": "3 QLoRA Finetuning", "seq": 14, "sha256": "cf290049e78f816bb893b26becd1425d80484a8b0b1d282ca48ed47fd6ac35a2"}
+{"section": "3 QLoRA Finetuning", "seq": 15, "sha256": "67533e4aa0870ad8ac8fa416a3040284c3862ab352a5e092fc6faa2ba6060a0c"}
+{"section": "3 QLoRA Finetuning", "seq": 16, "sha256": "c68715bcf7ff7730f87395e8031e048eb610a602c2b716ac927cedec2ef0cd76"}
+{"section": "3 QLoRA Finetuning", "seq": 17, "sha256": "8159a9ae0c96b42cdc673f4b59595e2d0040283612d6bf9334c08327059f7949"}
+{"section": "3 QLoRA Finetuning", "seq": 18, "sha256": "d54b9c3c7633f2999ff71d82b3d5ac74c0959ec7569eaf3af023726fe7076f18"}
+{"section": "3 QLoRA Finetuning", "seq": 19, "sha256": "c0b36d9bdb604095c2c6bc7fcae60361c8389ab2e34318b1c66e026e2e11ead9"}
+{"section": "3 QLoRA Finetuning", "seq": 20, "sha256": "a2ff4089d780df6bc78e3243d719070acf553ff4f9ae8ba07f9d2a7779ddf394"}
+{"section": "4 QLoRA vs. Standard Finetuning", "seq": 21, "sha256": "bdf593808cc0e05ad1ff6717db6276562a609e9783711c98b4e758246bd46054"}
+{"section": "4 QLoRA vs. Standard Finetuning", "seq": 22, "sha256": "076e24b1fe48d1445bddcd889dad24e77bec62cca6138b43c3490db854678128"}
+{"section": "4 QLoRA vs. Standard Finetuning", "seq": 23, "sha256": "e8a7e973431da4f0d5f7eb9807fd9c754eb75154729360f81f7007212caac554"}
+{"section": "4 QLoRA vs. Standard Finetuning", "seq": 24, "sha256": "d3ef0d7cdaa6dacb1e448d4e9278c39e0c54a4ee1643a80db79d829747373610"}
+{"section": "4 QLoRA vs. Standard Finetuning", "seq": 25, "sha256": "8fe865cbe5dac5f773d03ed548e6e9d61e7d9543336a79f475a7db7e57f90671"}
+{"section": "4 QLoRA vs. Standard Finetuning", "seq": 26, "sha256": "f4b7de708dbabff3e666c605c0c7156bee1c56e1b9271f723e72a0619eb0c9b1"}
+{"section": "4 QLoRA vs. Standard Finetuning", "seq": 27, "sha256": "3fc2eb85f565c9e2635b93cc6aac9ee495f8a3437c1c9b331fe214de76025ace"}
+{"section": "4 QLoRA vs. Standard Finetuning", "seq": 28, "sha256": "82d01d236d88533255ef9b3c94e36c45a827ff97b54142b3a9cc4cf9844e3fb7"}
+{"section": "4 QLoRA vs. Standard Finetuning", "seq": 29, "sha256": "3fc95a45be0d504dae2fdc6e89f5d75e4db4b8eab3886ec9d5140b60e90fb771"}
+{"section": "5 Pushing the Chatbot State-of-the-art with QLoRA", "seq": 30, "sha256": "3d7da7f591572d7c99078321822a0a59185cc27569aee37441cd38f8cb7677bc"}
+{"section": "5.1 Experimental setup", "seq": 31, "sha256": "fd6bea4e2e9bbeac9e84378f352db006c81c8078fc1a81a62ddcc70985d5d56d"}
+{"section": "5.1 Experimental setup", "seq": 32, "sha256": "12aaf30ecc1ee59a640b6a5d8357aa275200b0b78e98fc7e6e11ae5d406f25a4"}
+{"section": "5.2 Evaluation", "seq": 33, "sha256": "5651d2f10fac2dec3d10c5d5671d7f73a72110221eff29eaea0657ad64b43862"}
+{"section": "5.2 Evaluation", "seq": 34, "sha256": "be7e24bb9c52cabfef56022972cea4ecb42cdb8087cc4823c2bf4d5d9cd8a7a5"}
+{"section": "5.2 Evaluation", "seq": 35, "sha256": "ab039563e5fbeef5d64516e8128e5b4bfbd93af83025179e8c40727383607820"}
+{"section": "5.2 Evaluation", "seq": 36, "sha256": "609565f6feb6734d86f48b9de61d0547f3824d1e3b798b9d0ac08c2e419dba7d"}
+{"section": "5.2 Evaluation", "seq": 37, "sha256": "bc736b44467fc723feeee0e25a5e4688985bb3f09c1d6ff32be889777d4ecad6"}
+{"section": "5.2 Evaluation", "seq": 38, "sha256": "fdd1fdfe7ab5431dab29237e0584da991ea09e4b653907f1cf29664e38945e9a"}
+{"section": "5.2 Evaluation", "seq": 39, "sha256": "1d4a0e002ebf02c4038f7829328b0c4c0f42e73a7d03c035eafc969fa4e77d96"}
+{"section": "5.3 Guanaco: QLoRA trained on OASST1 is a State-of-the-art Chatbot", "seq": 40, "sha256": "a6061e15d364176742bd7fbaa544576d3b2838858ecd3fd7dfd102cf7eb6a728"}
+{"section": "5.3 Guanaco: QLoRA trained on OASST1 is a State-of-the-art Chatbot", "seq": 41, "sha256": "edde19057bd4a788aa629054d05a07eb346e118e6fc4684341ff86a3c413d8a4"}
+{"section": "5.3 Guanaco: QLoRA trained on OASST1 is a State-of-the-art Chatbot", "seq": 42, "sha256": "82e74b5316c8842ad148135e749ab7911b3d30e57928224ee132519ae555f554"}
+{"section": "5.3 Guanaco: QLoRA trained on OASST1 is a State-of-the-art Chatbot", "seq": 43, "sha256": "a21a2ffff08f7e54a463860506bf72d06a885b8bd2e7cf5731afecfac344e211"}
+{"section": "5.3 Guanaco: QLoRA trained on OASST1 is a State-of-the-art Chatbot", "seq": 44, "sha256": "e4a0e2c3ab2741b734d71e3ffd67383171e6525c82bd0dc29f60c27d45aad809"}
+{"section": "6 Qualitative Analysis", "seq": 45, "sha256": "b1ac76ef536da7148f22b74c5d8649011cdb2469bdf72941f640b4549acd759d"}
+{"section": "6.1 Qualitative Analysis of Example Generations", "seq": 46, "sha256": "0f9ab1a8d52cb92c816ead0e9854dae3e39a29eb2193572e696fa97aba87ed84"}
+{"section": "6.1 Qualitative Analysis of Example Generations", "seq": 47, "sha256": "f8e0fc2bd9a466af5931d936d63a3993e3ffb735d456bf6e284ffd6d151ab12c"}
+{"section": "6.1 Qualitative Analysis of Example Generations", "seq": 48, "sha256": "c48d40575c41074262bd44ca4ac1520a75172f80562bae15af580bcb76eb9978"}
+{"section": "6.1 Qualitative Analysis of Example Generations", "seq": 49, "sha256": "8416fcaf549fca79da411cc30ea41bf1826e1cc7fadc361c4992ceb6adfbfef3"}
+{"section": "6.1 Qualitative Analysis of Example Generations", "seq": 50, "sha256": "d590487c9b7943d4b18faec02557954fb4874eb81c01226be8144638424ac4c0"}
+{"section": "6.1 Qualitative Analysis of Example Generations", "seq": 51, "sha256": "f6cc9cf19d47bf3ac44e727a79e2125d83fecc60722b7f149832020f70b8433a"}
+{"section": "6.1 Qualitative Analysis of Example Generations", "seq": 52, "sha256": "00fde809925cad3f9d359235a9ebfb352cc65d6d705eca3b265878cc335d9fc6"}
+{"section": "6.1 Qualitative Analysis of Example Generations", "seq": 53, "sha256": "5adeea5134bbef709f00b6620dcd3fc68c0c2be7e98d13fab936590979d52a39"}
+{"section": "6.2 Considerations", "seq": 54, "sha256": "3be5fbe611b7ee97290086fa88557ae9232e515fc614eaa186cbd24d6d9a4a97"}
+{"section": "6.2 Considerations", "seq": 55, "sha256": "1b34c108cb5e2af2a36f1c9eb722c22b4d8ec911150857a53fe6039b1d479589"}
+{"section": "6.2 Considerations", "seq": 56, "sha256": "55ffe9752b370f873cf7a009b53b0bfa375444244b47f65bdc06ef98145a918c"}
+{"section": "7 Related Work", "seq": 57, "sha256": "4cf6707befb78bca73623dd28e95db8666f5f253f83c023b8c206adba1fa1037"}
+{"section": "7 Related Work", "seq": 58, "sha256": "89386e9daad2c3566463d6fbec936d8d8cfe4d019310a02c67c968a96ffeb968"}
+{"section": "7 Related Work", "seq": 59, "sha256": "9a7cc70fed530a15f61272acf3c17e7a689d90b1c0508ede0086ec6ab4bb9311"}
+{"section": "8 Limitations and Discussion", "seq": 60, "sha256": "1bb615077175ce6701045b9e9379832d17e9122bd130a2a422a88957a4e8549b"}
+{"section": "8 Limitations and Discussion", "seq": 61, "sha256": "507f449a55d68632ce57cdd91663462a8e5b82ca76973697dd493b2af353d9fd"}
+{"section": "8 Limitations and Discussion", "seq": 62, "sha256": "49f082aeac2c2fa5f00432d55ed867a79cc399af0c8e794f7c83fc44f8402ec9"}
+{"section": "8 Limitations and Discussion", "seq": 63, "sha256": "b58c3c14febf1a26972fec7051155c709e421d48ca18bb26ef1804187144e438"}
+{"section": "9 Broader Impacts", "seq": 64, "sha256": "043bf46f60789b8c8b537e950e60cbe52a453dedc974e07f6c7cfa5410dae448"}
+{"section": "9 Broader Impacts", "seq": 65, "sha256": "76df90cd9550104efe80016f6f8ac3b50cd9e8ddb60082a6738af38fe120677e"}
+{"section": "Acknowledgements", "seq": 66, "sha256": "f49c6481620ec5b958ad4ea849bc64db119fa6436cb63b5fe035071bf9ae2a4c"}
+{"section": "References", "seq": 67, "sha256": "0dd44f1657d0854d3116d1896a877259d0a0ae71b9614364c32b2b6799171290"}
+{"section": "References", "seq": 68, "sha256": "7c4328e13034ab3ec5eb4ba57966572e29fa034236a0924c121f0420c83b5afa"}
+{"section": "References", "seq": 69, "sha256": "3250fdb62baebc0da02dda2a5f74f7e7c8fc9142692f7b32a121aaf7e0cc8424"}
+{"section": "References", "seq": 70, "sha256": "9d083b4400ae327db9927d11442af7c27a42ca33473be4dec6a09b1820006ce5"}
+{"section": "References", "seq": 71, "sha256": "9303eb58ce0d2a64c2441eeaacc216d7f471dcb26a7cbda41fa943c47c361ff3"}
+{"section": "References", "seq": 72, "sha256": "8feed6529de3dc117f6787e5cdc49c76fdcecc9e25526c15649245bb371d3ee8"}
+{"section": "References", "seq": 73, "sha256": "4022b3a1dd243f0bb2f143cd87f7f6a25a4bde07d5ce6fc8cc0f438171a38576"}
+{"section": "References", "seq": 74, "sha256": "58ffa886170d2dfc826b4112d097f0b8f365178a76325e9a5833ba2adcf33148"}
+{"section": "References", "seq": 75, "sha256": "c5c0d6c8f5436add0aca2428f72e935b67b5f31db252c811e2b8eb7725a202a4"}
+{"section": "References", "seq": 76, "sha256": "ff65804af71f2437b6d6daf51e8b1ccdd87d2a44b06c54174b3bd47d941cd6ed"}
+{"section": "References", "seq": 77, "sha256": "268d074c0b00adf902d640f7db30d160e63974f08c174930ceba367bef690ed7"}
+{"section": "References", "seq": 78, "sha256": "87ee598f1148f11eaaf598c5b34f08ae71d987652b4c3db350cfe47436057936"}
+{"section": "References", "seq": 79, "sha256": "2fc687a2e18c456fa65e3f9a48f385843915a01d71a9fef0b24cc3f93c5d3d53"}
+{"section": "References", "seq": 80, "sha256": "e2463b81d32bdf10d35c0220f046762b5b926d1b2715c6995af0f046394de4da"}
+{"section": "References", "seq": 81, "sha256": "b46f61e718a54fffc474852455fccebfb478a2b27c1a315c7b48140661f4fcbe"}
+{"section": "References", "seq": 82, "sha256": "52f89c7a5441a4e9c9ace615f51888fae466d59541e93a1975f9ad04b62e45b4"}
+{"section": "A.1 Hyperparameters for QLoRA", "seq": 83, "sha256": "03b7b3f4ae605c2bda996e496d60f56ca9e7117fb9b2b0c7c9ac4a69bb7a527e"}
+{"section": "A.2 Super-Natural Instructions Experimental Setup Details", "seq": 84, "sha256": "85228a4be6362d551b8b689cf68dde5a1720372c6b23d575d4b3a7fe55928d34"}
+{"section": "B.1 Datasets", "seq": 85, "sha256": "8d0dc7d20eadca18a535b139f94256f4e91229957b6eefa3e6a30f62859bbf16"}
+{"section": "B.1 Datasets", "seq": 86, "sha256": "384bf8e2e1fb8d088beebf0778826a4740ad7ea9ed8b456e5ab400d827f4fd16"}
+{"section": "B.1 Datasets", "seq": 87, "sha256": "c2a7bac15e44774814da3875a4a8022f8274c34d4698421db60ae9bf3891aa26"}
+{"section": "B.2 Hyperparameters", "seq": 88, "sha256": "4e0ca8fe8ce4dddce55bca43d61cc648285ebf348748cdcdf8170e6190b2f9c5"}
+{"section": "B.2 Hyperparameters", "seq": 89, "sha256": "c56acae3bc5f8302348a6fb8792315b6d01e0e89c987390f3c7b03ede12cda9c"}
+{"section": "B.3 Ablations", "seq": 90, "sha256": "8af5a7e58fb7eefea82d4ac61cbc55545a6c21cb3719bbbeb7ea4a3ef32b3a54"}
+{"section": "B.4 What is more important: instruction finetuning dataset size or dataset quality?", "seq": 91, "sha256": "314b5524d5d64a62e66e8b23e22da1c6080e9ce454d892567afebaf9b62b4de2"}
+{"section": "B.4 What is more important: instruction finetuning dataset size or dataset quality?", "seq": 92, "sha256": "8e636a913b33e052a4a0fc59900cc9c6d46945e3d5c1ad7b2f58f2ef461a2a82"}
+{"section": "Appendix C Human Evaluation", "seq": 93, "sha256": "805acb601b7432acef74481826d6036295afeaac50da2f7c3bfb8b32d043bb07"}
+{"section": "Appendix D Pairwise Evaluation with GPT-4", "seq": 94, "sha256": "71b391f9c7b09bf172f0911aa7d5e1db68e57b71a25fdcfd12871f1551ca505f"}
+{"section": "Appendix D Pairwise Evaluation with GPT-4", "seq": 95, "sha256": "f98e3b52d439d49b51eb12c3165c858176db65a11466751cc31fe0a139b525c2"}
+{"section": "Appendix E NormalFloat 4-bit data type", "seq": 96, "sha256": "c75ad35ce7b55edea1750751c324db45b1d9aa90be96a48528d383c34495f3d2"}
+{"section": "Appendix F Normality of Trained Neural Network Weights", "seq": 97, "sha256": "5b1205669fa90534de4a926915fd36e62eb8753faf0fea3f797ce27603fac837"}
+{"section": "Appendix G Memory Footprint", "seq": 98, "sha256": "09aed5f51ef8bfb6a34a56b7f9727b9a5967929d2255442d53b8c396281f6e0e"}

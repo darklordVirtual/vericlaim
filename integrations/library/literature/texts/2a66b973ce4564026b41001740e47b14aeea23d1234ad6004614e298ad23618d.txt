@@ -1,0 +1,29 @@
+Self-Correct (round 1)
+3
+
+46.5
+
+26.0
+
+Self-Correct (round 2)
+5
+
+30.5
+
+37.0
+
+Feedback Prompt: Verify whether your answer is correct, and provide an explanation. Self-Correct (round 1)
+3
+
+58.0
+
+24.0
+
+Self-Correct (round 2)
+5
+
+41.5
+
+43.0
+
+Let’s take another look at the results presented in Table 2. These results use ground-truth labels to prevent the model from altering a correct answer to an incorrect one. However, determining how to prevent such mischanges is, in fact, the key to ensuring the success of self-correction. Intuitive Explanation. If the model is well-aligned and paired with a thoughtfully designed initial prompt, the initial response should already be optimal relative to the prompt and the specific decoding algorithm. Introducing feedback can be viewed as adding an additional prompt, potentially skewing the model towards generating a response that is tailored to this combined input. In an intrinsic self-correction setting, on the reasoning tasks, this supplementary prompt may not offer any extra advantage for answering the question. In fact, it might even bias the model away from producing an optimal response to the initial prompt, resulting in a performance drop.

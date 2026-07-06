@@ -1,0 +1,89 @@
+We also tested the same model on a Google’s Production English to French data. Table 2: Results on WMT’14 En Fr newstest2014 (bold values represent best results). Model
+
+Test
+
+Test
+
+ops/timenstep
+
+Total
+
+Training
+
+Perplexity
+
+BLEU
+
+#Parameters
+
+Time
+
+MoE with 2048 Experts
+
+2.69
+
+40.35
+
+85M
+
+8.7B
+
+3 days/64 k40s
+
+MoE with 2048 Experts (longer training)
+
+2.63
+
+40.56
+
+85M
+
+8.7B
+
+6 days/64 k40s
+
+GNMT (Wu et al., 2016)
+
+2.79
+
+39.22
+
+214M
+
+278M
+
+6 days/96 k80s
+
+GNMT+RL (Wu et al., 2016)
+
+2.96
+
+39.92
+
+214M
+
+278M
+
+6 days/96 k80s
+
+PBMT (Durrani et al., 2014)
+
+37.0
+
+LSTM (6-layer) (Luong et al., 2015b)
+
+31.5
+
+LSTM (6-layer+PosUnk) (Luong et al., 2015b)
+
+33.1
+
+DeepAtt (Zhou et al., 2016)
+
+37.7
+
+DeepAtt+PosUnk (Zhou et al., 2016)
+
+39.2
+
+Table 3: Results on WMT’14 En De newstest2014 (bold values represent best results).

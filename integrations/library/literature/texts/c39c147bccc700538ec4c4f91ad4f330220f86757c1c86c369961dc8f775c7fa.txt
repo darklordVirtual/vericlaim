@@ -1,0 +1,5 @@
+The transfer set that is used to train the small model could consist entirely of unlabeled data [1] or we could use
+the original training set. We have found that using the original training set works well, especially if we add a small
+term to the objective function that encourages the small model to predict the true targets as well as matching the soft
+targets provided by the cumbersome model. Typically, the small model cannot exactly match the soft targets and erring
+in the direction of the correct answer turns out to be helpful.

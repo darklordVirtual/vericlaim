@@ -1,0 +1,1 @@
+When generating the samples, the base model is prompted to output answers in newline separated a step-by-step format, as done in Lightman et al. [22]. We then separate each of the answers into steps using a simple newline splitting procedure. We include details about our prompt in Appendix G.

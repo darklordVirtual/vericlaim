@@ -1,0 +1,20 @@
+Suárez et al. (2019b)
+
+Pedro Javier Ortiz Suárez, Benoît Sagot, and Laurent Romary. 2019b. Asynchronous pipeline for processing huge corpora on medium to low
+resource infrastructures. In 7th Workshop on the Challenges in the Management of Large
+Corpora (CMLC-7). Leibniz-Institut für Deutsche Sprache. Thieme et al. (2020)
+
+Anja Thieme, Danielle Belgrave, and Gavin Doherty. 2020. Machine learning in mental health: A systematic review of the HCI
+literature to support the development of effective and implementable ML
+systems. ACM Transactions on Computer-Human Interaction (TOCHI),
+27(5):1–53. Tiedemann (2016)
+
+J. Tiedemann. 2016. Finding alternative translations in a large corpus of movie
+subtitles. Proceedings of the 10th International Conference on Language
+Resources and Evaluation (LREC 2016). Trinh and Le (2018)
+
+Trieu H. Trinh and Quoc V. Le. 2018. A simple method for
+commonsense reasoning. CoRR, abs/1806.02847. Van Halteren (2008)
+
+Hans Van Halteren. 2008. Source language markers in Europarl translations. In Proceedings of the 22nd International Conference on
+Computational Linguistics (Coling 2008), pages 937–944. Vitak et al.

@@ -1,0 +1,3 @@
+We sample six examples from the training set of Constrained Generation and create variants with missing concepts or incoherent outputs. The missing concepts and the reason for incoherence form . •
+
+TODO: Add relevant information for the remaining task.

@@ -1,0 +1,16 @@
+arXiv preprint arXiv:2205.11916, 2022. Lewkowycz et al. (2022)
+
+A. Lewkowycz, A. Andreassen, D. Dohan, E. Dyer, H. Michalewski, V. Ramasesh,
+A. Slone, C. Anil, I. Schlag, T. Gutman-Solo, et al. Solving quantitative reasoning problems with language models. arXiv preprint arXiv:2206.14858, 2022. Li et al. (2022)
+
+Y. Li, Z. Lin, S. Zhang, Q. Fu, B. Chen, J.-G. Lou, and W. Chen. On the advance of making language models better reasoners. arXiv preprint arXiv:2206.02336, 2022. Maynez et al. (2020)
+
+J. Maynez, S. Narayan, B. Bohnet, and R. McDonald. On faithfulness and factuality in abstractive summarization. arXiv preprint arXiv:2005.00661, 2020. Nakano et al. (2021)
+
+R. Nakano, J. Hilton, S. Balaji, J. Wu, L. Ouyang, C. Kim, C. Hesse, S. Jain,
+V. Kosaraju, W. Saunders, et al. Webgpt: Browser-assisted question-answering with human feedback. arXiv preprint arXiv:2112.09332, 2021. Nichols et al. (2020)
+
+E. Nichols, L. Gao, and R. Gomez. Collaborative storytelling with large-scale neural language models. In Proceedings of the 13th ACM SIGGRAPH Conference on Motion,
+Interaction and Games, pages 1–10, 2020. Nye et al. (2021)
+
+M. Nye, A. J. Andreassen, G. Gur-Ari, H. Michalewski, J.

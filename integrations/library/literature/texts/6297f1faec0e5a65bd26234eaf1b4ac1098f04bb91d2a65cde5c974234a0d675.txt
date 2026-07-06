@@ -1,0 +1,11 @@
+•
+
+4 digit subtraction (4D-) – Same as 3 digit subtraction, except uniformly sampled from . •
+
+5 digit addition (5D+) – Same as 3 digit addition, except uniformly sampled from . •
+
+5 digit subtraction (5D-) – Same as 3 digit subtraction, except uniformly sampled from . •
+
+2 digit multiplication (2Dx) – The model is asked to multiply two integers sampled uniformly from , e.g. “Q: What is 24 times 42? A: 1008”. •
+
+One-digit composite (1DC) – The model is asked to perform a composite operation on three 1 digit numbers, with parentheses around the last two. For example, “Q: What is 6+(4*8)? A: 38”. The three 1 digit numbers are selected uniformly on and the operations are selected uniformly from {+,-,*}. In all 10 tasks the model must generate the correct answer exactly. For each task we generate a dataset of 2,000 random instances of the task and evaluate all models on those instances. First we evaluate GPT-3 in the few-shot setting, for which results are shown in Figure 3.10.

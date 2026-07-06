@@ -1,0 +1,7 @@
+1) method, a scalable bootstrapping method allowing models to learn to generate their own rationales, while also learning to solve increasingly difficult problems. In our method, we repeat the following process: in each iteration, first construct a finetuning dataset by attempting to solve the dataset using the current model’s rationale generation ability; then, augment this dataset using rationalization, justifying ground-truth answers to problems the model failed to solve; finally, finetune the large language model on the combined dataset. Applying STaR on arithmetic, math word problems, and commonsense reasoning, we observe it is able to effectively translate a small number of few-shot prompts into a large rationale dataset, yielding dramatic performance improvements. On CommonsenseQA [10], we find STaR improves over both a few-shot baseline
+(+35.9%)
+and a baseline fine-tuned to directly predict answers
+(+12.5%)
+, and performs comparably to a fine-tuned model that is 30 larger (72.5% vs. 73.0%). Thus, we make the following contributions:
+
+1.

@@ -1,0 +1,9 @@
+We then aggregate across answers to determine the best answer (inter-answer aggregation). Concretely, we handle step-wise and inter-answer aggregation as follows:
+
+•
+
+Step-wise aggregation. Rather than aggregating the per-step scores by taking the product or minimum [45, 22], we instead use the PRM’s prediction at the last step as the full-answer score. We found this to perform the best out of all aggregation methods we studied (see Appendix E). •
+
+Inter-answer aggregation. We follow Li et al. [21] and apply “best-of-N weighted” selection rather than standard best-of-N. Best-of-N weighted selection marginalizes the verifier’s correctness scores across all solutions with the same final answer, selecting final answer with the greatest total sum. 5.2 Search Methods Against a PRM
+
+Figure 2: Comparing different PRM search methods. Left: Best-of-N samples N full answers and then selects the best answer according to the PRM final score. Center: Beam search samples N candidates at each step, and selects the top M according to the PRM to continue the search from.

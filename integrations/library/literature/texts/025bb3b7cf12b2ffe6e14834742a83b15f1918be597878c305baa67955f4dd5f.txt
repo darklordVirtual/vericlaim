@@ -1,0 +1,9 @@
+Since the router model’s performance falls between that of the weak and strong models, we quantify its performance relative to the gap between them. We define the router’s overall performance improvement using the performance gap recovered (PGR):
+
+(6)
+
+This metric captures how much of the performance difference between the weak and strong models is recovered by the router model. Neither of the above metrics alone is sufficient to capture the quality-cost trade-off in routing. For example, a trivial router that always sends queries to the strong model achieves a perfect but with no cost savings. To address this, we compute a call-performance graph for a router by varying the threshold values . We then define the average performance gap recovered (APGR) as an overall measure of the router’s ability to recover the performance gap under different cost constraints:
+
+(7)
+
+In Figure 1-(right), APGR corresponds to the area between the router’s performance curve and the weak model’s performance curve. Empirically, we discretize the percentage of calls over the interval into . For each , we determine the threshold that satisfies the cost constraint.

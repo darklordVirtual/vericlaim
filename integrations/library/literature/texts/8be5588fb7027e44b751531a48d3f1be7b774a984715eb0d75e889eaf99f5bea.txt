@@ -1,0 +1,23 @@
+We follow the standard procedure and sum over all the words including the end of sentence symbol. Results are reported in Table 7. For each model, we report the test perplexity, the computational budget, the parameter counts, the value of , and the computational efficiency. Table 7: Model comparison on 1 Billion Word Language Modeling Benchmark. Models marked with * are from (Jozefowicz et al., 2016). Model
+
+Test
+
+Test
+
+ops/timestep
+
+#Params excluding
+
+Total
+
+-
+
+TFLOPS
+
+Perplexity
+
+Perplexity
+
+(millions)
+
+embed.

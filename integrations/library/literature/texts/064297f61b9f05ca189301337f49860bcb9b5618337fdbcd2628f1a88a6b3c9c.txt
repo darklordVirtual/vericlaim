@@ -1,0 +1,7 @@
+Since each gift bag costs $2, the total amount Christina will spend on gift bags is: 12 * $2 = $<<12*2=24>>24. Therefore, Christina will spend $24 on gift bags. Answer: \boxed{24}. (Correct)
+
+Figure 3: Example on GSM8K where self-correction changes an incorrect answer to a correct one. Text in bold denotes user prompts. ⬇
+
+|\textbf{Can you solve the following math problem? Terry eats 2 yogurts a day. They are currently on sale at 4 yogurts for \$5.00. How much does he spend on yogurt over 30 days? Explain your reasoning. Your final answer should be a single numerical number, in the form $\backslash$boxed\{answer\}, at the end of your response.}|
+
+\parFirst, we need to calculate how many sets of 4 yogurts Terry buys in 30 days. Since Terry eats 2 yogurts a day, he will need 2/4 = 0.5 sets of 4 yogurts per day. Next, we multiply the number of sets by the price of each set to calculate how much Terry spends per day. Each set of 4 yogurts costs $5.00, so Terry spends 0.5 * $5.00 = $<<0.5*5=2.50>>2.50 on yogurt per day. Finally, we multiply the amount Terry spends per day by the number of days to find the total amount he spends on yogurt over 30 days.

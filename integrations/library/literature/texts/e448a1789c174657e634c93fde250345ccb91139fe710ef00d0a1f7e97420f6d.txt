@@ -1,0 +1,3 @@
+URL https://openreview.net/forum?id=uccHPGDlao. Zhu et al. (2023)
+
+Banghua Zhu, Evan Frick, Tianhao Wu, Hanlin Zhu, and Jiantao Jiao. Starling-7b: Improving llm helpfulness & harmlessness with rlaif, November 2023.

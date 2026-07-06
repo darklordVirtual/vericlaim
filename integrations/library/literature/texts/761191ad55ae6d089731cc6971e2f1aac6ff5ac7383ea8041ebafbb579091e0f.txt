@@ -1,0 +1,72 @@
+Setting
+PTB
+
+SOTA (Zero-Shot)
+
+35.8a
+
+GPT-3 Zero-Shot
+
+20.5
+
+Table 3.1: Zero-shot results on PTB language modeling dataset. Many other common language modeling datasets are omitted because they are derived from Wikipedia or other sources which are included in GPT-3’s training data. a[117]
+
+3.1.2 LAMBADA
+
+Setting
+
+LAMBADA
+(acc)
+
+LAMBADA
+(ppl)
+
+StoryCloze
+(acc)
+
+HellaSwag
+(acc)
+
+SOTA
+
+68.0a
+
+8.63b
+
+91.8c
+
+85.6d
+
+GPT-3 Zero-Shot
+
+76.2
+
+3.00
+
+83.2
+
+78.9
+
+GPT-3 One-Shot
+
+72.5
+
+3.35
+
+84.7
+
+78.1
+
+GPT-3 Few-Shot
+
+86.4
+
+1.92
+
+87.7
+
+79.3
+
+Table 3.2: Performance on cloze and completion tasks. GPT-3 significantly improves SOTA on LAMBADA while achieving respectable performance on two difficult completion prediction datasets. a[132] b[117] c[64] d[63]
+
+Figure 3.2: On LAMBADA, the few-shot capability of language models results in a strong boost to accuracy. GPT-3 2.7B outperforms the SOTA 17B parameter Turing-NLG [132] in this setting, and GPT-3 175B advances the state of the art by 18%. Note zero-shot uses a different format from one-shot and few-shot as described in the text.

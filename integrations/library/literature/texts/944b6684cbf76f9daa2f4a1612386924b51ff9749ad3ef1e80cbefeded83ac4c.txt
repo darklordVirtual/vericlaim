@@ -1,0 +1,5 @@
+2022. Using deepspeed and
+megatron to train megatron-turing nlg 530b, a large-scale generative language
+model. Su et al. (2021)
+
+Jianlin Su, Yu Lu, Shengfeng Pan, Ahmed Murtadha, Bo Wen, and Yunfeng Liu. 2021. Roformer: Enhanced transformer with rotary position embedding. arXiv preprint arXiv:2104.09864. Thoppilan et al.

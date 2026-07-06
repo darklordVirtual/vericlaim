@@ -1,0 +1,1 @@
+We introduce the key techniques for training with FP16 while still matching the model accuracy of FP32 training session: single-precision master weights and updates, loss-scaling, and accumulating FP16 products into FP32. Results of training with these techniques are presented in Section 4. Figure 1: Mixed precision training iteration for a layer.

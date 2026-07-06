@@ -1,0 +1,8 @@
+We are excited about future work in this direction, to reduce the computational
+requirement of large models and improve their wall-block runtime. Kernel machine learning. Our approach in FlashAttention relies on the fact that the attention matrix is
+a function of a low-rank matrix (of rank ). As a result, we can repeatedly load the inputs and recompute the
+block of the attention matrix that we need, significantly reducing HBM access. As similar scenario happens in kernel machine learning: each element of the
+kernel matrix is a function of two vectors of size , as it
+measures the similarity between two datapoints and . The KeOps library [26, 8] is a successful example of how
+reducing memory reads/writes can speed up kernel operations. We hope that this will motivate kernel methods that focus more on reducing IOs
+instead of just FLOPs.

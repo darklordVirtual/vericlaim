@@ -1,0 +1,463 @@
+Figure 14: The average sentiment co-occurrence with each religious word across all datasets. Each dataset’s sentiments have been normalized by the maximum norm sentiment for that dataset. Component
+
+Topic #1
+
+Topic #2
+
+Topic #3
+
+Topic #4
+
+Topic #5
+
+Topic #6
+
+Topic #7
+
+Topic #8
+
+Pile-CC
+
+Generic
+
+Politics
+
+Generic
+
+Technical
+
+Leisure
+
+Generic
+
+Plants
+
+Entertainment
+
+PubMed Central
+
+Cells
+
+Cells
+
+Cells
+
+Cells
+
+Cells
+
+Cells
+
+Cells
+
+Cells
+
+Books3
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+OpenWebText2
+
+US Politics
+
+Law
+
+Sports
+
+Education
+
+Business
+
+Tech
+
+US Religion
+
+Generic
+
+ArXiv
+
+Data
+
+Math
+
+Modeling
+
+Math
+
+Physics
+
+Physics
+
+Math
+
+Dynamics
+
+Github
+
+Unknown
+
+Programming
+
+Unknown
+
+Java
+
+C/C++
+
+Unknown
+
+Go
+
+Unknown
+
+FreeLaw
+
+Appeals
+
+Appeals
+
+Legal
+
+Legal
+
+Appeals
+
+Legal
+
+Legal
+
+Appeals
+
+Stack Exchange
+
+Software
+
+Unknown
+
+Server
+
+Programming
+
+Applications
+
+File System
+
+Programming
+
+Users
+
+USPTO Backgrounds
+
+Data
+
+Electronics
+
+Devices
+
+Unknown
+
+Data
+
+Unknown
+
+Chemistry
+
+Data
+
+PubMed Abstracts
+
+Organ Transplant
+
+Nervous System
+
+Animal Study
+
+Animal Study
+
+Ophthalmology
+
+Bacteria
+
+Pulmonology
+
+Fluids
+
+Gutenberg (PG-19)
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknowne
+
+OpenSubtitles
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Wikipedia (en)
+
+Education
+
+International Politics
+
+Sports
+
+Sports
+
+Entertainment
+
+Entertainment
+
+Logistics
+
+Science
+
+DM Mathematics
+
+Calculation
+
+Probability
+
+Calculation
+
+Solving
+
+Calculation
+
+Calculation
+
+Probability
+
+Calculation
+
+Ubuntu IRC
+
+Bugs
+
+Pull Requests
+
+Bugs
+
+Bugs
+
+Bugs
+
+Bugs
+
+Bugs
+
+Pull Requests
+
+BookCorpus2
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+EuroParl
+
+International Politics
+
+International Politics
+
+International Politics
+
+International Politics
+
+International Politics
+
+International Politics
+
+International Politics
+
+International Politics
+
+HackerNews
+
+Generic
+
+Software
+
+Generic
+
+Generic
+
+Software
+
+Generic
+
+Generic
+
+Generic
+
+YoutubeSubtitles
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknown
+
+Unknowne
+
+PhilPapers
+
+Logic
+
+Science
+
+Science
+
+Mind
+
+Science
+
+Epistemology
+
+Logic
+
+Science
+
+NIH ExPorter
+
+Cells
+
+Disease
+
+Cells
+
+Cells
+
+Clinical
+
+Clinical
+
+Unknown
+
+Clinical
+
+Enron Emails
+
+Email
+
+Email
+
+Email
+
+Email
+
+Email
+
+Email
+
+Email
+
+Business
+
+Table 14: Topic Summaries
+
+Component
+
+Topic #9
+
+Topic #10
+
+Topic #11
+
+Topic #12
+
+Topic #13
+
+Topic #14
+
+Topic $15
+
+Topic #16
+
+Pile-CC
+
+Education
+
+Politics
+
+Home
+
+Business
+
+Geography
+
+Sports
+
+Medicine
+
+Generic
+
+PubMed Central
+
+Cells
+
+Cells
+
+Cells
+
+Cells
+
+C

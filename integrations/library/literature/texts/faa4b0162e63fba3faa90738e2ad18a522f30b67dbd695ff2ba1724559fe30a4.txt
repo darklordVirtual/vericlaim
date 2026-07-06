@@ -1,0 +1,10 @@
+A more abstract view of the knowledge, that frees it from any
+particular instantiation, is that it is a learned mapping from input vectors to output vectors. For cumbersome models
+that learn to discriminate between a large number of classes, the normal training objective is to maximize the average log
+probability of the correct answer, but a side-effect of the learning is that the trained model assigns
+probabilities to all of the incorrect answers and even when these probabilities are very small, some of them are much
+larger than others. The relative probabilities of incorrect answers tell us a lot about how the cumbersome model
+tends to generalize. An image of a BMW, for example, may only have a very small chance of being mistaken for a garbage
+truck, but that mistake is still many times more probable than mistaking it for a carrot. It is generally accepted that the objective function used for training should reflect the true objective of the user as
+closely as possible. Despite this, models are usually trained to optimize performance on the training data when the real
+objective is to generalize well to new data.

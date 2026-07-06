@@ -1,0 +1,15 @@
+⬇
+
+class f(torch.autograd.Function):
+
+def forward(ctx, x):
+
+return x
+
+def backward(ctx, gradient):
+
+all_reduce(gradient)
+
+return gradient
+
+Code 1: Implementation of operator. is similar to with identity in the backward and all-reduce in the forward functions. As shown in Figure 3b, for the self attention block we exploit inherent parallelism in the multihead attention operation, partitioning the GEMMs associated with key (), query (), and value () in a column parallel fashion such that the matrix multiply corresponding to each attention head is done locally on one GPU. This allows us to split per attention head parameters and workload across the GPUs, and doesn’t require any immediate communication to complete the self-attention. The subsequent GEMM from the output linear layer (after self attention) is parallelized along its rows and takes the output of the parallel attention layer directly, without requiring communication between the GPUs. This approach for both the MLP and self attention layer fuses groups of two GEMMs, eliminates a synchronization point in between, and results in better scaling.

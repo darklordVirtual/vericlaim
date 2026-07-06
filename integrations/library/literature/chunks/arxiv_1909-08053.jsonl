@@ -1,0 +1,77 @@
+{"fsid": "arxiv_1909-08053", "n": 76, "overlap": 200, "source_sha256": "628f1ee4e49449ede4b1adba9cf48293dfd62296529fa3cf5ff943146e592ce0", "target": 1200}
+{"section": "", "seq": 0, "sha256": "5c02710e13132e3b088864cf27a92b986e88bf44833602c127248bcf5a9f5471"}
+{"section": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism", "seq": 1, "sha256": "c974a8920495260a1d3747f858e7dbe6be75d2091d5819b9d91ce404d7f9b67b"}
+{"section": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism", "seq": 2, "sha256": "325162762eb96b41fc2a474e5383516eea8bc88391286503184922513e41228a"}
+{"section": "1 Introduction", "seq": 3, "sha256": "d76182ea5a08b4ba7cda4a492bedba762de99d2025c594d479d2f72121927f7f"}
+{"section": "1 Introduction", "seq": 4, "sha256": "c22f616e2139cf88b554493638bdf7bdbd3299f389408cf165146f683767bea7"}
+{"section": "1 Introduction", "seq": 5, "sha256": "5ae0bb6b94d834f546f7e99a63efb5b73ce3553ee6c58acc8266f9c60b0bb669"}
+{"section": "1 Introduction", "seq": 6, "sha256": "506ac630fe7c42030aa6d6d4e5c357009ca54e85822f13aeccb3f4b71a8f0749"}
+{"section": "1 Introduction", "seq": 7, "sha256": "1e6a3d72c547e35b7706a277d9f2dfdc595c946bc2aefc04d8080d7c8e0f0f4d"}
+{"section": "2.1 Neural Language Model Pretraining", "seq": 8, "sha256": "d34b3f5a3508a0b672d87832f8b2acfc1105476152cab7c93ef9f491828ec8f7"}
+{"section": "2.1 Neural Language Model Pretraining", "seq": 9, "sha256": "ad47cc3d3f0f860f3e8cd7fc102a190b08f512c2174317f1f451de556f1fede4"}
+{"section": "2.2 Transformer Language Models and Multi-Head Attention", "seq": 10, "sha256": "3560cff5d611434a62c9ec7f7398c91ffa97a7b3b81fcbaa383b6095b35ca0a3"}
+{"section": "2.2 Transformer Language Models and Multi-Head Attention", "seq": 11, "sha256": "914d2fef2686cc68e1be11c1c9c2e5ad763269ef0ae8462b7dce3607d5160610"}
+{"section": "2.3 Data and Model Parallelism in Deep Learning", "seq": 12, "sha256": "d21a4501866c9c94ec3d3286c8b90fb363fea3c8f3becb51b6f045c07e2f510d"}
+{"section": "2.3 Data and Model Parallelism in Deep Learning", "seq": 13, "sha256": "f2cb1d32b9c11d3621df23f9c3e88c36888e0850e22d51cca440ea7300d1bf97"}
+{"section": "2.3 Data and Model Parallelism in Deep Learning", "seq": 14, "sha256": "3df411a7fca0a4c1f9d282060017c6e51c674997afac9ce8d2f7aea9477f6f66"}
+{"section": "2.3 Data and Model Parallelism in Deep Learning", "seq": 15, "sha256": "7c85fb099e33de01582870e27579468b14246e844415e474455080e850819424"}
+{"section": "3 Model Parallel Transformers", "seq": 16, "sha256": "de3a2322af0c85547c3b1c7fc999b2025318da4661f8a6d6dda97d07fedaf7e1"}
+{"section": "3 Model Parallel Transformers", "seq": 17, "sha256": "e30cca034806d252deaf459c9a56e011e6be8602691a4fe03fd1bb7267912f33"}
+{"section": "3 Model Parallel Transformers", "seq": 18, "sha256": "7f8b8d77e26369bef98b777cafae85638149307bebe4d50df4150d7a5b2f2019"}
+{"section": "3 Model Parallel Transformers", "seq": 19, "sha256": "9d7aab92a11e3e4c853d83a33862f774066e0a33cd97b1cf6c44338d41536669"}
+{"section": "3 Model Parallel Transformers", "seq": 20, "sha256": "d5af48cdac4f43b5dadc660909f751f38cffad1904b9a46c3e5ef8684de973f7"}
+{"section": "3 Model Parallel Transformers", "seq": 21, "sha256": "de9eecfff44c190829c766ef5fa5918c5ea7d5fc690f30713d771a964d94c0d8"}
+{"section": "4 Setup", "seq": 22, "sha256": "0abf58f93a031b8f0c96b997c94fd808a5dd8ac0fb2e388161fdb427c044e7cd"}
+{"section": "4.1 Training Dataset", "seq": 23, "sha256": "da16e6b328974205435ab6607c83e115d887e1491819dec87651c15058dabede"}
+{"section": "4.2 Training Optimization and Hyperparameters", "seq": 24, "sha256": "7a5b73ea90fcac5c0a3136cc81da0b2871cbdd046bcf4fe4cc2c9c477dba7624"}
+{"section": "4.2 Training Optimization and Hyperparameters", "seq": 25, "sha256": "975491c367502e933d63ec8564d975b09298f99e1186ffcd27ea34fd9d36ca87"}
+{"section": "5 Experiments", "seq": 26, "sha256": "3957ab2b18e788a2137fa8eb46b9e8b93ec0d1eca43744ff86b279e04d2384d5"}
+{"section": "5.1 Scaling Analysis", "seq": 27, "sha256": "bed28a075b0a7d99a70c498379c4b7aea93336e4a1f47dc856683cd5e99f44d3"}
+{"section": "5.1 Scaling Analysis", "seq": 28, "sha256": "a4c9b19b61c3ac25bff5fc13d78fef4fa19ffc030773d40d396461e35ccd2b8f"}
+{"section": "5.1 Scaling Analysis", "seq": 29, "sha256": "ec359f1204e79af0a83511d4f036492d55708f143eba88f93546f8386e537125"}
+{"section": "5.2 Language Modeling Results Using GPT-2", "seq": 30, "sha256": "0631e780928d9b5a152fd59949996d7c5d055f5932d8163ade942b981b29d239"}
+{"section": "5.2 Language Modeling Results Using GPT-2", "seq": 31, "sha256": "ae0b7149f89e0a2645f46ea1ebaf19abe811d366ddab0f55a1889814e5e901cc"}
+{"section": "5.2 Language Modeling Results Using GPT-2", "seq": 32, "sha256": "d856a564e264ad2f509cc2c15caf3598c29860de514d1ce0c07d02da533f0259"}
+{"section": "5.2 Language Modeling Results Using GPT-2", "seq": 33, "sha256": "7ef4d7d9cfc86ad705cfd6abda049a5b98b90d31b9bfcb8e7087a0a7e7b427e3"}
+{"section": "5.2 Language Modeling Results Using GPT-2", "seq": 34, "sha256": "3dddffb6cd5b6eeb7cf9e7ea780641807ec45de0a3bb73075a9b644fa755284d"}
+{"section": "5.3 Bi-directional Transformer Results Using BERT", "seq": 35, "sha256": "ab0a1ba63b8a783a3fcaa4196afe50869e35c0e55e79311923a58553521d9dc1"}
+{"section": "5.3 Bi-directional Transformer Results Using BERT", "seq": 36, "sha256": "3eafab680a2378559d17cad7961e0477f1bbcf6ee95fc47d4272642b3e339af7"}
+{"section": "5.3 Bi-directional Transformer Results Using BERT", "seq": 37, "sha256": "d032869d751a3b80bdfe202c3b8c091df89f074de2090319315922b7e81f593d"}
+{"section": "5.3 Bi-directional Transformer Results Using BERT", "seq": 38, "sha256": "acbe86197f854f5ffb1f2c34028fa3550b50fa6ba97a9e98cd1851691dadb381"}
+{"section": "6 Conclusion and Future Work", "seq": 39, "sha256": "2a76b5b209f4bf41382c48572cca8be3cae5695f5770e76b9ca44aa75441752e"}
+{"section": "6 Conclusion and Future Work", "seq": 40, "sha256": "b45d556f2e979837cdbd13f052c88dc0dbd3f5ad98580fcd84880d93f0963565"}
+{"section": "References", "seq": 41, "sha256": "b7ec0773ed37e0046ac911f38eeb8474b3750c4a11e6083c3a23610c00308289"}
+{"section": "References", "seq": 42, "sha256": "d27539aa88c892c55841a6916e3fcbbf7514e22cacbff800f28e342fca20cd28"}
+{"section": "References", "seq": 43, "sha256": "5f785d1b9bb7f09cec6331bfeaa6b04beb6f1e1af15b01dba91c462e34a4619c"}
+{"section": "References", "seq": 44, "sha256": "7cf35f08aa6e7e4370c598dd7945782a14cbfc97b31cc7f36148f17c6cf3b23f"}
+{"section": "References", "seq": 45, "sha256": "c5afeefefa297e732007165301b0668b9736f1e1159a5a3249ea37c6eba1ef01"}
+{"section": "References", "seq": 46, "sha256": "4f96973d6c7c02fe8b1682f3351a418d1366a73677ea35ac9236c3af5ba84a70"}
+{"section": "References", "seq": 47, "sha256": "9c1494deb2f7756bdadbe301bf8505a69756555c91bb0dedb1deabf5eb8db19f"}
+{"section": "References", "seq": 48, "sha256": "b67a5413972cba7d9f8cd2ce625a519064a06e275a864024953165b32ad7b9b9"}
+{"section": "References", "seq": 49, "sha256": "b24f076e7cd77d1722dedae6aa683898c4ecd6ade0e056a1d9ac9dae3dcc1bf9"}
+{"section": "References", "seq": 50, "sha256": "ba208f0b65407546ced7937236310ede2199af6b5553ca019ab6ead995cceae0"}
+{"section": "References", "seq": 51, "sha256": "3eb1f43625131501afef28333caf6876d93b719e603839c898d4ff1d0c2838bd"}
+{"section": "Appendix A BERT Finetuning Hyperparameters", "seq": 52, "sha256": "f1196ff3a2edf5d58c3d8a3be33eda7d1cbced00423753eaf3eb6541973dd399"}
+{"section": "Appendix B Model Parallel Supplementary Material", "seq": 53, "sha256": "22fafec66f3636bee723b92343bad820d3ef90bcccdb9640c02f18b23b533710"}
+{"section": "B.1 Hybrid Model and Data Parallelism", "seq": 54, "sha256": "5f0c7b24a6c4d5dfe4ef3b49954ab874cc4a5c82c2b18732b689325e5a572e63"}
+{"section": "B.1 Hybrid Model and Data Parallelism", "seq": 55, "sha256": "1058eb9fd9045ca44b077786aaf65595853dadab88cd88ff89fd6422b8fda4e1"}
+{"section": "B.2 Model Parallel Random Number Generation", "seq": 56, "sha256": "f6c025fc35abf637bc837698f9f76da52530efaa875a9aebeb0f16bbe0474c0c"}
+{"section": "Appendix C Text Samples", "seq": 57, "sha256": "76974272cdde5007b5648ca8fe404ce0836d697d9f43dade686b45001fe94b17"}
+{"section": "Appendix C Text Samples", "seq": 58, "sha256": "c6ee524b52f26ad5a7fed385261673de44b794959378cac0edd5e17c09b4283c"}
+{"section": "Appendix C Text Samples", "seq": 59, "sha256": "55676cba4e9104424e553fe0a22dad8cdb11254cb640d7cb7205365201b9d626"}
+{"section": "Appendix C Text Samples", "seq": 60, "sha256": "421029dd3c2503bcd63212bc6c39eb85816e16829dccc87fb861594c0682dbd0"}
+{"section": "Appendix C Text Samples", "seq": 61, "sha256": "d9730c9e732ccdf9e50040c4e3717d1dc6e3283aab916e6bbdf01370839010f1"}
+{"section": "Appendix C Text Samples", "seq": 62, "sha256": "3772d05dfbffaf00b679f3be4a237780d6f36577a69a5fd82eb3a31688e03aa5"}
+{"section": "Appendix C Text Samples", "seq": 63, "sha256": "a2578a00472f546e5ef2e56c0996ec2919bd33f9468851012f04019ec0f91ad5"}
+{"section": "Appendix C Text Samples", "seq": 64, "sha256": "7464376d989d4f24fee689797970adc95bb7e40fd9b1cfebee3066cb4f1d45c3"}
+{"section": "Appendix C Text Samples", "seq": 65, "sha256": "cc54a66761c150b2213361857e952f030a93a6cb722272ca10758b5afa33a781"}
+{"section": "Appendix C Text Samples", "seq": 66, "sha256": "f2e346e3f09773339a3a0305d06a16d855551569cb1637e2ce68bdb3a9f75056"}
+{"section": "Appendix C Text Samples", "seq": 67, "sha256": "cfd36af6bd5f045416d578597823a13c644bd4804523d707ccd62bdd665000d3"}
+{"section": "Appendix D Further Scaling Analysis", "seq": 68, "sha256": "a8458824c0faa4d8e4b7803cd8672b936c761cc13ed5781695c8b77e3548dc78"}
+{"section": "D.1 Attention Heads and Scaling", "seq": 69, "sha256": "5a0b3c9a4dd0632dcd79200345d04b27fe6c3c99813a85a2dc9a55ab842b7203"}
+{"section": "D.2 Strong Scaling", "seq": 70, "sha256": "b69f463cad896512e1163cd0d8a4fc1d71b789615d81e16e224fa91637231a51"}
+{"section": "Appendix E Evaluating Language Models Using WikiText103 and LAMBADA", "seq": 71, "sha256": "820bc6e8bcc8592238a8a0201c3c914b35b4ac872a9019009f8345c84bc5bc05"}
+{"section": "E.1 Wikitext103 Perplexity", "seq": 72, "sha256": "8d6e2e1ee80a46f83d3c855da54fd957f1453b131057601642e1e5a6206707b9"}
+{"section": "E.1 Wikitext103 Perplexity", "seq": 73, "sha256": "2c37ebc7477aae05435b5d7fad03819bdc32ebeae6694fdc3fcafe3fddcc9a5c"}
+{"section": "E.2 LAMBADA Cloze Accuracy", "seq": 74, "sha256": "acfb015af980984bf4755389dfc91c1adbdd1f489776cdb27c0ca12ebaa8507e"}
+{"section": "E.2 LAMBADA Cloze Accuracy", "seq": 75, "sha256": "ca946d62910b01c8f5aac6d86fafe2404e9d6a89c0953c117ea71f105facbe0b"}

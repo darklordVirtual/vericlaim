@@ -1,0 +1,5 @@
+We conduct a set of additional studies and show that self-consistency significantly outperforms existing methods including sample-and-rank, beam search, and ensemble-based approaches. Comparison to Sample-and-Rank
+
+One commonly used approach to improve generation quality is sample-and-rank, where multiple sequences are sampled from the decoder and then ranked according to each sequence’s log probability (Adiwardana et al., 2020). We compare self-consistency with sample-and-rank on GPT-3 code-davinci-001, by sampling the same number of sequences from the decoder as self-consistency and taking the final answer from the top-ranked sequence. The results are shown in Figure 3. While sample-and-rank does improve the accuracy with additionally sampled sequences and ranking, the gain is much smaller compared to self-consistency. Figure 3: Self-consistency significantly outperforms sample-and-rank with the same # of samples. Comparison to Beam Search
+
+In Table 6, we compare self-consistency with beam search decoding on the UL2-20B model. For a fair comparison we report the accuracy under the same number of beams and reasoning paths.

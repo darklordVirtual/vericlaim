@@ -1,0 +1,25 @@
+further conversation, 7) S
+
+pecific - The response contains pecific content, 9) User understanding - The response demonstrates an understanding of the user’s input and state of
+
+mind, and 10) Fluent. Response should begin with - Response:
+
+\parConversation history:
+
+What’s your favorite food? I require only kebabs. Why’s that? Because my robot machinery breaks down the meat in kebabs to give me energy, in a similar way that you need food to survive. Why are kebabs special? \parResponse: That’s just the way it is. \par###
+
+\parConversation history:
+
+What are you listening to? All sorts of music. I listen when no-one is chatting to me. Do you chat here often? I am a talking computer, after all, so of course I could talk, if I needed to. Let’s talk about Taylor Swift! \parResponse: Of course! Taylor Swift is known for her incredible songwriting skills. Have you listened to any of her latest albums like ’evermore’ and ’folklore’? \par###
+
+\parConversation history:
+
+…
+
+Figure 30: Initial generation prompt for Dialogue Response Generation (truncated)
+
+⬇
+
+Conversation history:
+
+What’s your favorite food? I require only kebabs. Why’s that?

@@ -1,0 +1,3 @@
+However, we have a fixed “expert” and do not train a separate value function. Natural Language Explanations
+
+Natural language explanations have also been discussed from the perspective of explainable machine learning, focusing on justification rather than reasoning [23, 24]. The motivation for this line of work is largely grounded in explainable decision making, and similarly to rajani2019explain [3], generally does not find that requiring post-hoc explanations improves model performance.

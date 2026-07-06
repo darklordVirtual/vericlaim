@@ -1,0 +1,54 @@
+Table 1: ILSVRC12 classification top-1 accuracy. Model
+Baseline
+Mixed Precision
+Reference
+
+AlexNet
+
+56.77%
+
+56.93%
+
+(Krizhevsky et al., 2012)
+
+VGG-D
+
+65.40%
+
+65.43%
+
+(Simonyan and Zisserman, 2014)
+
+GoogLeNet (Inception v1)
+
+68.33%
+
+68.43%
+
+(Szegedy et al., 2015)
+
+Inception v2
+
+70.03%
+
+70.02%
+
+(Ioffe and Szegedy, 2015)
+
+Inception v3
+
+73.85%
+
+74.13%
+
+(Szegedy et al., 2016)
+
+Resnet50
+
+75.92%
+
+76.04%
+
+(He et al., 2016b)
+
+Loss-scaling technique was not required for successful mixed precision training of these networks. While all tensors in the forward and backward passes were in FP16, a master copy of weights was updated in FP32 as outlined in Section 3.1.

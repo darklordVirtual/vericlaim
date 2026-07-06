@@ -1,0 +1,15 @@
+Our model parallelism is primarily designed to enable training models larger than what can fit in the memory of a single GPU, but it can also accelerate the training of smaller models without increasing the batch size. To measure this acceleration we train a model with a fixed 1.2 billion parameters. We use a fixed batch size of 8 samples per iteration and increase the number of GPUs using model parallelism. The results are listed in Table 8. Using two GPUs makes training faster. Above that we see diminishing returns as the per-GPU computation decreases and the memory bandwidth and communication overheads begin to dominate. Table 8: Speedup obtained for the 1.2 billion parameters model using model parallelism while keeping the batch size constant. # of GPUs
+1
+2
+4
+8
+
+Speedup
+
+1.0
+
+1.64
+
+2.34
+
+2.98

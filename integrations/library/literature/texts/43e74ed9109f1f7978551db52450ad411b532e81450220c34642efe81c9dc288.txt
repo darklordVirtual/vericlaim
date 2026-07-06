@@ -1,0 +1,15 @@
+URL https://aclanthology.org/D14-1058. Khashabi et al. (2020)
+
+Daniel Khashabi, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord,
+Peter Clark, and Hannaneh Hajishirzi. UNIFIEDQA: Crossing format boundaries with a single QA system. In Findings of the Association for Computational Linguistics:
+EMNLP 2020, pp. 1896–1907, Online, November 2020. Association for
+Computational Linguistics. doi: 10.18653/v1/2020.findings-emnlp.171. URL https://aclanthology.org/2020.findings-emnlp.171. Kojima et al. (2022)
+
+Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke
+Iwasawa. Large language models are zero-shot reasoners. In Alice H. Oh, Alekh Agarwal, Danielle Belgrave, and Kyunghyun Cho
+(eds.), Advances in Neural Information Processing Systems, 2022. URL https://openreview.net/forum?id=e2TBb5y0yFf. Koncel-Kedziorski et al. (2016)
+
+Rik Koncel-Kedziorski, Subhro Roy, Aida Amini, Nate Kushman, and Hannaneh
+Hajishirzi. MAWPS: A math word problem repository. In Proceedings of the 2016 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, 2016. doi: 10.18653/v1/N16-1136.

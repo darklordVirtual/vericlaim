@@ -1,0 +1,18 @@
+Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023. [VJ04]
+
+Paul Viola and Michael J Jones. Robust real-time face detection. International journal of computer vision, 57:137–154, 2004. [WK21]
+
+Ben Wang and Aran Komatsuzaki. Gpt-j-6b: A 6 billion parameter autoregressive language model, 2021. [WLM11]
+
+Lidan Wang, Jimmy Lin, and Donald Metzler. A cascade ranking model for efficient ranked retrieval. In Proceedings of the 34th international ACM SIGIR conference on
+Research and development in Information Retrieval, pages 105–114, 2011. [WRG+22]
+
+Carole-Jean Wu, Ramya Raghavendra, Udit Gupta, Bilge Acun, Newsha Ardalani,
+Kiwan Maeng, Gloria Chang, Fiona Aga, Jinshi Huang, Charles Bai, et al. Sustainable ai: Environmental implications, challenges and
+opportunities. Proceedings of Machine Learning and Systems, 4:795–813, 2022. [WWS+22]
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and
+Denny Zhou. Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903, 2022. [XLS+22]
+
+Guangxuan Xiao, Ji Lin, Mickael Seznec, Julien Demouth, and Song Han.

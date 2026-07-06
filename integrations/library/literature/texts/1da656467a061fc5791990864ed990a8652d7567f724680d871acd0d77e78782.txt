@@ -1,0 +1,17 @@
+2019. Quantifying social biases in contextual word representations. In 1st ACL Workshop on Gender Bias for Natural Language
+Processing. Kwiatkowski et al. (2019)
+
+Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur
+Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin,
+Kenton Lee, et al. 2019. Natural questions: a benchmark for question answering research. Transactions of the Association for Computational Linguistics,
+7:453–466. Lai et al. (2017)
+
+Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. 2017. Race: Large-scale reading comprehension dataset from examinations. arXiv preprint arXiv:1704.04683. Lewkowycz et al. (2022)
+
+Aitor Lewkowycz, Anders Johan Andreassen, David Dohan, Ethan Dyer, Henryk
+Michalewski, Vinay Venkatesh Ramasesh, Ambrose Slone, Cem Anil, Imanol
+Schlag, Theo Gutman-Solo, Yuhuai Wu, Behnam Neyshabur, Guy Gur-Ari, and
+Vedant Misra. 2022. Solving
+quantitative reasoning problems with language models. In Advances in Neural Information Processing Systems. Lieber et al. (2021)
+
+Opher Lieber, Or Sharir, Barak Lenz, and Yoav Shoham. 2021. Jurassic-1: Technical details and evaluation. White Paper.

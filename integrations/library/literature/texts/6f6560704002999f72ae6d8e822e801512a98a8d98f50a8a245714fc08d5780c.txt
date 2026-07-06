@@ -1,0 +1,9 @@
+The results are presented in Table 8. In the table,
+Mask means that we replace the target token with the [MASK] symbol
+for MLM; Same means that we keep the target token as is; Rnd
+means that we replace the target token with another random token. The numbers in the left part of the table represent the probabilities of the specific strategies used during MLM pre-training (BERT uses 80%, 10%, 10%). The right part of the paper represents the Dev set results. For the feature-based
+approach, we concatenate the last 4 layers of BERT as the features, which
+was shown to be the best approach in Section 5.3. From the table it can be seen that fine-tuning is surprisingly robust to
+different masking strategies. However, as expected, using only the Mask strategy
+was problematic when applying the feature-based approach to NER. Interestingly,
+using only the Rnd strategy performs much worse than our strategy as well.

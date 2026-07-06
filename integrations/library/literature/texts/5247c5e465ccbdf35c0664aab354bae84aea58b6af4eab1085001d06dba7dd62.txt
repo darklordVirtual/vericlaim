@@ -1,0 +1,15 @@
+For convenience, we include the rationale generation bootstrapping algorithm alone here. However, it is simply Algorithm 1, with the blue components removed. Algorithm 2 Rationale Generation Bootstrapping (STaR without rationalization)
+
+Input : a pretrained LLM; dataset (w/ few-shot prompts)
+
+1: # Copy the original model
+
+2:for in do # Outer loop
+
+3: # Perform rationale generation
+
+4: # Filter rationales using ground truth answers
+
+5: # Finetune the original model on the correct solutions - inner loop
+
+6:end for

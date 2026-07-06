@@ -1,0 +1,9 @@
+Tasks and datasets. We evaluate self-consistency on the following reasoning benchmarks.333By default we use the test split for all datasets if the labels are available for evaluation. For CommonsenseQA we use the dev split; for StrategyQA we use the question-only set from BIG-bench collaboration (2021): https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/strategyqa. •
+
+Arithmetic reasoning. For these tasks, we used the Math Word Problem Repository (Koncel-Kedziorski et al., 2016), including AddSub (Hosseini et al., 2014), MultiArith (Roy & Roth, 2015), and ASDiv (Miao et al., 2020). We also included AQUA-RAT (Ling et al., 2017), a recently published benchmark of grade-school-math problems (GSM8K; Cobbe et al., 2021), and a challenge dataset over math word problems (SVAMP; Patel et al., 2021). •
+
+Commonsense reasoning. For these tasks, we used CommonsenseQA (Talmor et al., 2019),
+StrategyQA (Geva et al., 2021),
+and the AI2 Reasoning Challenge (ARC) (Clark et al., 2018). •
+
+Symbolic Reasoning.

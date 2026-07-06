@@ -1,0 +1,23 @@
+Suppose that the claim holds for some . We want to show that the claim also holds for . Indeed, when we update the statistics in the inner loop
+(Algorithm 1 line 10) on the
+-th iteration of the outer loop,
+we update where is the
+row-max of , the slice of from column to column
+. This implies that
+
+Similarly, we update
+
+where . By the same algebraic manipulation in Section 3.1, we obtain:
+
+Let be the slice of from column to column ,
+we also update:
+
+We then see that the claim is also true for . By induction, the claim is true for all . When , we conclude that the final value of in HBM is
+. ∎
+
+Proof of Theorem 2. We first analyze the IO complexity of standard attention implementation. The inputs reside in HBM, and
+the at the end of the algorithm the output is
+written to HBM. In the first step of computing the matrix multiply , the inputs
+are read from HBM and the output is
+written to HBM (Algorithm line 1). This incurs HBM accesses. In the second step of computing , the input is read from
+HBM and the output is written to HBM (Algorithm line 2). This incurs HBM accesses.

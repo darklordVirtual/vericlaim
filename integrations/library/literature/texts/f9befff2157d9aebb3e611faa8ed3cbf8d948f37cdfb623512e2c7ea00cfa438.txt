@@ -1,0 +1,19 @@
+McCann et al. (2017)
+
+Bryan McCann, James Bradbury, Caiming Xiong, and Richard Socher. 2017. Learned in translation: Contextualized word vectors. In NIPS. Melamud et al. (2016)
+
+Oren Melamud, Jacob Goldberger, and Ido Dagan. 2016. context2vec: Learning generic context embedding with bidirectional
+LSTM. In CoNLL. Mikolov et al. (2013)
+
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S Corrado, and Jeff Dean. 2013. Distributed representations of words and phrases and their
+compositionality. In Advances in Neural Information Processing Systems 26, pages
+3111–3119. Curran Associates, Inc. Mnih and Hinton (2009)
+
+Andriy Mnih and Geoffrey E Hinton. 2009. A scalable hierarchical distributed language model. In D. Koller, D. Schuurmans, Y. Bengio, and L. Bottou, editors,
+Advances in Neural Information Processing Systems 21, pages
+1081–1088. Curran Associates, Inc. Parikh et al. (2016)
+
+Ankur P Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit. 2016. A decomposable attention model for natural language inference. In EMNLP. Pennington et al. (2014)
+
+Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. Glove: Global
+vectors for word representation.

@@ -1,0 +1,49 @@
+{"fsid": "arxiv_2305-05176", "n": 48, "overlap": 200, "source_sha256": "420237f55efebd86bedc96f915c2963c25a2b0a41bff57fc08f8be2ae0d1791a", "target": 1200}
+{"section": "", "seq": 0, "sha256": "48a9692e3f8e0c0df4fbdc79e0c711ffaff88ac71ceab25e4517aa2ed45d5678"}
+{"section": "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance", "seq": 1, "sha256": "779048a6a5b9a2c3f1543e06b1380bf7ee3d7f967207c6797c21d7f77758dda0"}
+{"section": "1 Introduction", "seq": 2, "sha256": "f25c2bc41f46ed39bf0529da4b70cc9016795ded2a96fea5a5ef1f02c2a47684"}
+{"section": "1 Introduction", "seq": 3, "sha256": "87959c05e2065910d8e5975d0605a6d1c4f05f500bbaa3e6f69a49bb2cf6ec3b"}
+{"section": "1 Introduction", "seq": 4, "sha256": "4abb736cde1b5c7be3323f34ce379abf04a7889c9c44f8c84301884b21421a6d"}
+{"section": "Our contributions.", "seq": 5, "sha256": "e0aeb357d58d27b7da4361e10dbac5ab61e1448906c95fc0a6c62785eaace041"}
+{"section": "Our contributions.", "seq": 6, "sha256": "6290e99e4a0a270bc5d7e962c1ce0c3e81c0c1ba7927090dafe1bc21787337ce"}
+{"section": "Related Works.", "seq": 7, "sha256": "e75bde7ac5f1961409569e441d98c5957ebe7908b5518005fedd718f9f7c215a"}
+{"section": "Related Works.", "seq": 8, "sha256": "2eb1334ebaef4153adb29d485ac63428dab5f2c2b173459fac5cf9f8b51bdf9e"}
+{"section": "Related Works.", "seq": 9, "sha256": "bfa361b486fd7e2a0ed735e8b6fd844199e2ced2a157b9d3013329a742abc373"}
+{"section": "Natural language query answering.", "seq": 10, "sha256": "e9e6539d99aabb5edeacc5d2e05aaf674a5a984a0ffc52d5ca5be0a7da81de35"}
+{"section": "LLM marketplace.", "seq": 11, "sha256": "802566ffb128ff0b3b25e808a661c6d65f1f11023739b579fda945e497389cb6"}
+{"section": "An illustrative example.", "seq": 12, "sha256": "0600584aa8acdd6daa40da2755903f35972a4efc41beffa34dd8918a7c1472db"}
+{"section": "Problem statement: budget-aware LLM API usage.", "seq": 13, "sha256": "cbabeb4e888c99a878db847b8d9e4eaa1f95b1520d8eea2d6f1506ad87a9711e"}
+{"section": "3 How to Use LLMs Affordably and Accurately", "seq": 14, "sha256": "a848a19c7cc94e6e79d9284a69ff83cb8e07c97138005a07d27ea97400ec874c"}
+{"section": "Strategy 1: Prompt adaptation.", "seq": 15, "sha256": "18b18417e72026b0fb5dd26aa3e829ada733d67bf4c28e36aee067e202b79e70"}
+{"section": "Strategy 1: Prompt adaptation.", "seq": 16, "sha256": "49d4ba4e00c5f3cd2f0c3e866f5d83973396acbfbc0e7c983a610299df51c137"}
+{"section": "Strategy 2: LLM approximation.", "seq": 17, "sha256": "ce21f28c0e12d8cce79106862cd1612ca5cddd0675c2072db91b362fad46556e"}
+{"section": "Strategy 2: LLM approximation.", "seq": 18, "sha256": "f795ae07f27b763fba4fb3fafa1c5628ad49d929590fbd062c00f69fed7a4761"}
+{"section": "Strategy 3: LLM cascade.", "seq": 19, "sha256": "d80f8574a8944b601054f43b415a29d72f7f2e06a49fb4954667bcf4cbb0e217"}
+{"section": "Strategy 3: LLM cascade.", "seq": 20, "sha256": "60bdc24e5c15819ef98b1381628ba49fd6c0914920a40e3530ff04e26da5ebff"}
+{"section": "Strategy 3: LLM cascade.", "seq": 21, "sha256": "08bf7da2fee310c4e012a4ef0717facb80026d0f734dcb44223800378dab1677"}
+{"section": "Compositions.", "seq": 22, "sha256": "2ac62d00af17a4d108cc19e83384d9273c618318a25ddf03bcc9ae8ac207a1af"}
+{"section": "4 LLM Cascade Reduces Cost and Improves Accuracy", "seq": 23, "sha256": "70f22692824f04f6263d17e33302d29a01a484daba49bef020fdba45a824bcde"}
+{"section": "Setups: LLM APIs, Tasks, Datasets, and FrugalGPT instances.", "seq": 24, "sha256": "a142189155b7bcba2ab475eb099652e1496f35f720a6000f822185dfdcbf04da"}
+{"section": "Setups: LLM APIs, Tasks, Datasets, and FrugalGPT instances.", "seq": 25, "sha256": "c3c5451953faa164305d8e8b4ad41e5dd10ee0c101451df560b0e37c72b6f0d0"}
+{"section": "Setups: LLM APIs, Tasks, Datasets, and FrugalGPT instances.", "seq": 26, "sha256": "5ee628745403ae2a9d1d5eded8dcffb8b9b53c19a9679ffca90d92eb85bcef4e"}
+{"section": "A Case Study.", "seq": 27, "sha256": "25c8f85256acd69ed1d960e32dbd470e9c509de1cb4a45458ce5da0ddddc69bd"}
+{"section": "A Case Study.", "seq": 28, "sha256": "6a4d4d968534a9ffefe863949d8b2366e6fa186baf0ceb6b9fb28a142f1dc6d8"}
+{"section": "LLM diversity.", "seq": 29, "sha256": "a5cc0ac39bab6a1a39b7481d73c0cb304e4c75036c03e895b5903171b06b0c76"}
+{"section": "LLM diversity.", "seq": 30, "sha256": "4a41af3c126b4c099bebc41416a05d9b793d7d34681752852ca2d707212239a0"}
+{"section": "Cost Savings.", "seq": 31, "sha256": "6999e560478edcf97176af1dc257a19fbcdd9b04408d4c107f307bc7ae111d8a"}
+{"section": "Performance and Cost Trade-offs.", "seq": 32, "sha256": "f9547e35a9f16db2fb4be739ee79b079d7b92b83b994d4d7ae3ca2467756176d"}
+{"section": "Performance and Cost Trade-offs.", "seq": 33, "sha256": "64115e2a3fc00b6d3d378359ed626bf920bff7652f72e147dabff9229e3979e3"}
+{"section": "Performance and Cost Trade-offs.", "seq": 34, "sha256": "31ce041027359005e1b7c91dcb36559875c41b3f46ce8baa17bd7444f1a5b6ef"}
+{"section": "5 Discussions, Limitations and Future Prospects", "seq": 35, "sha256": "d665e1a22ccc55c4e4d77a428eb36dc5320235a871769a1a20249288cc1f647b"}
+{"section": "5 Discussions, Limitations and Future Prospects", "seq": 36, "sha256": "310ad9d962bbb36c020566a262713e1d750df475a63256a15cd6a4f40ae0e4e0"}
+{"section": "5 Discussions, Limitations and Future Prospects", "seq": 37, "sha256": "c73183e3809e73f4bb600cd22dd4ed874da9471a14fd53e9fdc44bd16153b749"}
+{"section": "References", "seq": 38, "sha256": "1d2aa2e1e93d3920f39a301977ae24523dddc6844063f66dfcb7dfdcd2c6d6cd"}
+{"section": "References", "seq": 39, "sha256": "7b28c4b988da1ce1acc707d79b150c6688c04643253e8689de105845c283bebe"}
+{"section": "References", "seq": 40, "sha256": "3ffdf79dd32ea32960b7894a76d894ae3171ff8e0a52bf41e2150007d08fcdce"}
+{"section": "References", "seq": 41, "sha256": "e46a06765a9ed5a0a1a4fae2b895ef974f30fd43052c63999116f830296c9268"}
+{"section": "References", "seq": 42, "sha256": "425a22e910fe853060563abb1710783e8f92e5a6a626cacc15c25c8330dd6844"}
+{"section": "References", "seq": 43, "sha256": "2f8f48b5626649954423d386538f7926f16dbe3a0c320d523591f94d32930a37"}
+{"section": "References", "seq": 44, "sha256": "0ec6bade8661db5d4ce99414b37ce068b348488ff9d06d081fb93dff07ced23c"}
+{"section": "References", "seq": 45, "sha256": "c07c718d6eab2430470e99c19694830f5a4008865d1c917a74956c414414f8a1"}
+{"section": "References", "seq": 46, "sha256": "0623eab04fe8baeec4df408f05381daf4c303afe94466d2b05923f51ffb31ae0"}
+{"section": "References", "seq": 47, "sha256": "56e581f47c2b033fef7a22b47d1d4cd2cbc3e88f176f2f3ce83bcfca59341fe8"}

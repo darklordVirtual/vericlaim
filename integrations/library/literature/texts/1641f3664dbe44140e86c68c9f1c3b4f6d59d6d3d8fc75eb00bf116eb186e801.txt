@@ -1,0 +1,1 @@
+We exclude entries that use BERT as one of their components. 99footnotetext: See (10) in https://gluebenchmark.com/faq.

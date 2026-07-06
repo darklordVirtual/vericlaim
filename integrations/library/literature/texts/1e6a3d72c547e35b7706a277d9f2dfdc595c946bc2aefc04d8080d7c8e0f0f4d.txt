@@ -1,0 +1,15 @@
+In addition, we show that our models achieve test set state of the art (SOTA) results on WikiText103, cloze-style prediction accuracy on LAMBADA, and reading comprehension RACE datasets. In summary, our contributions are as follows:
+
+•
+
+We implement a simple and efficient model parallel approach by making only a few targeted modifications to an existing PyTorch transformer implementation. •
+
+We perform an in-depth empirical analysis of our model and data parallel technique and demonstrate up to 76% scaling efficiency using 512 GPUs. •
+
+We show that careful attention to the placement of layer normalization in BERT-like models is critical to achieving increased accuracies as the model grows. •
+
+We demonstrate that scaling the model size results in improved accuracies for both GPT-2 (studied up to 8.3 billion parameters) and BERT (studied up to 3.9B parameters) models. •
+
+We showcase that our models achieve state of the art results on test sets: perplexity on WikiText103 (10.8 ppl), accuracy on LAMBADA (66.5%), and accuracy on RACE (90.9%). •
+
+We open source our code along with the training and evaluation pipelines at https://github.com/NVIDIA/Megatron-LM

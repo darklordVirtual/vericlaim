@@ -1,0 +1,6 @@
+In this section, we show some examples of generations obtained with LLaMA-65B (without instruction finetuning). Prompts are in bold. 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+Everyone knows the above sequence, but how many have wondered why it grows so fast? It seems to be the fastest growing sequence in mathematics. The sequence was discovered by Leonardo of Pisa around 1200. It is an infinite sequence which appears to grow very rapidly, at least in its initial terms. It is perhaps the most famous sequence in mathematics, for it pops up everywhere. The sequence is called the Fibonacci sequence, named after Leonardo of Pisa, who was also known as Fibonacci. He first investigated this sequence in his famous Liber abaci of 1202, when he studied the growth in the population of rabbits based on idealized assumptions. See the Fibonacci rabbits page for the details. Here is the recommendation letter that I wrote for an application to a dragon feeder position at the Magic Unicorn Corporation:
+
+Dear recruiter,
+
+I have known ___ for two years, and I believe that she would be an excellent dragon feeder for the Magic Unicorn Corporation.

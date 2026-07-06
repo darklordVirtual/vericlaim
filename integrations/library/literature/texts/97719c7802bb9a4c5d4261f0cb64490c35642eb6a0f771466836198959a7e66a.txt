@@ -1,0 +1,10 @@
+A related but stronger version of the previous failure case, while less common, is particularly uninsightful. Sometimes the model will imply the answer that it has chosen in its question. Q: The christian rock band was on a large stage, the singer’s foot got caught
+on a wire and he had a small what? Answer Choices:
+(a) commit sin
+(b) fail
+(c) disobey
+(d) stumble
+(e) boo boo
+A: The answer must be something that would cause the singer to stumble. The
+singer’s foot got caught on a wire, so he would stumble. Therefore, the
+answer is stumble (d).

@@ -1,0 +1,17 @@
+Bengio. Quantized neural networks: Training neural networks with low
+precision weights and activations. arXiv preprint arXiv:1609.07061, 2016b. Ioffe and Szegedy [2015]
+
+S. Ioffe and C. Szegedy. Batch normalization: Accelerating deep network training by reducing
+internal covariate shift. In F. R. Bach and D. M. Blei, editors, ICML, volume 37 of
+JMLR Workshop and Conference Proceedings, pages 448–456. JMLR.org,
+2015. URL
+http://dblp.uni-trier.de/db/conf/icml/icml2015.html#IoffeS15. Jia et al. [2014]
+
+Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick,
+S. Guadarrama, and T. Darrell. Caffe: Convolutional architecture for fast feature embedding. arXiv preprint arXiv:1408.5093, 2014. Jozefowicz et al. [2016]
+
+R. Jozefowicz, O. Vinyals, M. Schuster, N. Shazeer, and Y. Wu. Exploring the limits of language modeling, 2016. URL https://arxiv.org/pdf/1602.02410.pdf. Krizhevsky et al. [2012]
+
+A. Krizhevsky, I. Sutskever, and G. E. Hinton. Imagenet classification with deep convolutional neural networks. In F. Pereira, C. J. C. Burges, L. Bottou, and K. Q. Weinberger,
+editors, Advances in Neural Information Processing Systems 25, pages
+1097–1105. Curran Associates, Inc., 2012.

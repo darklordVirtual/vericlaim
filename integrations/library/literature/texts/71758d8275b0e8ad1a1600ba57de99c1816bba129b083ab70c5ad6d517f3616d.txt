@@ -1,0 +1,33 @@
+As in our ImageNet classification training (Sec. 3.4), we randomly sample 224224 crops for data augmentation. We use a mini-batch size of 256 images for fine-tuning. To avoid negative samples being dominate, 8 anchors are randomly sampled for each image, where the sampled positive and negative anchors have a ratio of 1:1 [32]. For testing, the network is applied on the image fully-convolutionally. method
+
+top-5 localization err
+
+val
+
+test
+
+OverFeat [40] (ILSVRC’13)
+
+30.0
+
+29.9
+
+GoogLeNet [44] (ILSVRC’14)
+
+-
+
+26.7
+
+VGG [41] (ILSVRC’14)
+
+26.9
+
+25.3
+
+ours (ILSVRC’15)
+
+8.9
+
+9.0
+
+Table 14: Comparisons of localization error (%) on the ImageNet dataset with state-of-the-art methods. Table 13 compares the localization results. Following [41], we first perform “oracle” testing using the ground truth class as the classification prediction. VGG’s paper [41] reports a center-crop error of 33.1% (Table 13) using ground truth classes. Under the same setting, our RPN method using ResNet-101 net significantly reduces the center-crop error to 13.3%. This comparison demonstrates the excellent performance of our framework.

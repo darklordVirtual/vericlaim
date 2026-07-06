@@ -1,0 +1,17 @@
+Long range arena: A benchmark for efficient transformers. In International Conference on Learning Representations,
+2020a. Tay et al. [2020b]
+
+Yi Tay, Mostafa Dehghani, Dara Bahri, and Donald Metzler. Efficient transformers: A survey. arXiv preprint arXiv:2009.06732, 2020b. Vaswani et al. [2017]
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017. Wang et al. [2022]
+
+Hongyu Wang, Shuming Ma, Li Dong, Shaohan Huang, Dongdong Zhang, and Furu Wei. Deepnet: Scaling transformers to 1,000 layers. arXiv preprint arXiv:2203.00555, 2022. Wang et al. [2020]
+
+Sinong Wang, Belinda Z Li, Madian Khabsa, Han Fang, and Hao Ma. Linformer: Self-attention with linear complexity. arXiv preprint arXiv:2006.04768, 2020. Williams et al. [2009]
+
+Samuel Williams, Andrew Waterman, and David Patterson. Roofline: an insightful visual performance model for multicore
+architectures. Communications of the ACM, 52(4):65–76,
+2009. Wolf and Lam [1991]
+
+Michael E Wolf and Monica S Lam. A data locality optimizing algorithm.

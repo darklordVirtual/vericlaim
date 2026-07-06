@@ -1,0 +1,6 @@
+Algorithm 0 Standard Attention Implementation
+
+0: Matrices in HBM. 1: Load by blocks from HBM, compute
+, write to HBM. 2: Read from HBM, compute , write to
+HBM. 3: Load and by blocks from HBM, compute , write to
+HBM. 4: Return .

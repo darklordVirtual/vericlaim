@@ -1,0 +1,32 @@
+which might not always be available, while self-consistency only requires one single model to “self-ensemble”;
+2) If one of the models is much weaker, it can actually hurt the final performance. Method
+
+GSM8K accuracy
+
+Single model
+
+PaLM-540B, greedy / self-consistency
+
+56.5 / 74.4
+
+Ensemble of models
+
+LaMDA-137B + PaLM-540B
+
+36.9 0.5
+
+PaLM-540B + GPT-3 (code-davinci-001, 175B)
+
+36.6 0.4
+
+LaMDA-137B + GPT-3 (code-davinci-001, 175B)
+
+16.0 0.8
+
+LaMDA-137B + PaLM-540B + GPT-3 (code-davinci-001, 175B)
+
+33.3 0.7
+
+Table 10: Comparison of GSM8K accuracy over multiple-model ensembles. A.1.4 Combining self-consistency with other ensembling strategies
+
+Self-consistency is completely compatible with other ensemble strategies, although the gains achieved by self-consistency are significantly higher than other ensemble strategies (and can “override” the performance gains achieved by other ensemble strategies). We further performed experiments and include the results in Table 11 (for a fair comparison, we use 40 sets of prompts, or 40 prompt permutations to compare with self-consistency with 40 paths, all experiments are based on PaLM-540B).

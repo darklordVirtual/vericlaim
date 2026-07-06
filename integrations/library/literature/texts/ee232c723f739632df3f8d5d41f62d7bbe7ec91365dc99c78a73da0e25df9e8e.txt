@@ -1,0 +1,17 @@
+URL https://aclanthology.org/N19-1421. Tay et al. (2022)
+
+Yi Tay, Mostafa Dehghani, Vinh Q. Tran, Xavier Garcia, Jason Wei, Xuezhi Wang,
+Hyung Won Chung, Dara Bahri, Tal Schuster, Steven Zheng, Denny Zhou, Neil
+Houlsby, and Donald Metzler. Unifying language learning paradigms, 2022. URL https://arxiv.org/abs/2205.05131. Thoppilan et al. (2022)
+
+Romal Thoppilan, Daniel De Freitas, Jamie Hall, Noam Shazeer, Apoorv
+Kulshreshtha, Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu Du,
+et al. Lamda: Language models for dialog applications. arXiv preprint arXiv:2201.08239, 2022. URL https://arxiv.org/abs/2201.08239. Vijayakumar et al. (2018)
+
+Ashwin Vijayakumar, Michael Cogswell, Ramprasaath Selvaraju, Qing Sun, Stefan
+Lee, David Crandall, and Dhruv Batra. Diverse beam search for improved description of complex scenes. Proceedings of the AAAI Conference on Artificial Intelligence,
+32, Apr. 2018. URL https://ojs.aaai.org/index.php/AAAI/article/view/12340. Wei et al. (2022)
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia,
+Ed Chi, Quoc Le, and Denny Zhou. Chain of thought prompting elicits reasoning in large language
+models.

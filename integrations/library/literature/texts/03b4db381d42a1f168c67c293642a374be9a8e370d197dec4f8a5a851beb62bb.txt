@@ -1,0 +1,17 @@
+177–190. Springer, 2005. Eikema & Aziz (2020)
+
+Bryan Eikema and Wilker Aziz. Is MAP decoding all you need? the inadequacy of the mode in neural
+machine translation. In Proceedings of the 28th International Conference on
+Computational Linguistics, pp. 4506–4520, Barcelona, Spain (Online),
+December 2020. International Committee on Computational Linguistics. URL https://aclanthology.org/2020.coling-main.398. Elazar et al. (2021)
+
+Yanai Elazar, Nora Kassner, Shauli Ravfogel, Abhilasha Ravichander, Eduard
+Hovy, Hinrich Schütze, and Yoav Goldberg. Measuring and improving consistency in pretrained language models. Transactions of the Association for Computational Linguistics,
+9:1012–1031, 2021. doi: 10.1162/tacl_a_00410. URL https://aclanthology.org/2021.tacl-1.60. Evans (2010)
+
+Jonathan St BT Evans. Intuition and reasoning: A dual-process perspective. Psychological Inquiry, 21(4):313–326,
+2010. Fan et al. (2018)
+
+Angela Fan, Mike Lewis, and Yann Dauphin. Hierarchical neural story generation. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp. 889–898,
+Melbourne, Australia, July 2018.

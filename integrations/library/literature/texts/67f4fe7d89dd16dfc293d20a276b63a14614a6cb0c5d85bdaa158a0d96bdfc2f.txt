@@ -1,0 +1,7 @@
+The cost of a cup is not the same as the cost of a plate. # The cost of a cup is $1200 less than the total cost of half a dozen plates sold at $6000 each. half_dozen_plate_cost = 6 * plate_cost
+
+cup_cost = half_dozen_plate_cost - 1200
+
+\ours
+
+is thus instantiated naturally: the generator generates an initial solution, and feedback scans the solution to spot errors on which to provide feedback. The feedback is supplied to refine to create a new solution. Following Welleck et al. (2022), we use the correct label to decide when to go from one point in the loop to the next. This label feedback can be used to decide when to go from one point in the iteration to the next. We show results using \oursin Figure 17. Figure 17: Improvements in accuracy on the GSM-8k math reasoning benchmark as a function of the # of iterations of \ours.

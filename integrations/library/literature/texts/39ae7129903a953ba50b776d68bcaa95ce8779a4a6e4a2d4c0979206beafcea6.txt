@@ -1,0 +1,28 @@
+to:
+
+Finally, we need the block of size to
+fit into on-chip memory, which translates to:
+
+We therefore set:
+
+We then have:
+
+As a result, the number of HBM accesses is:
+
+∎
+
+Proof of Proposition 3. For contradiction, suppose that there exists an algorithm that computes
+exact attention where the number for HBM access for all is
+
+In the regime of , this results in the number of HBM accesses:
+
+However, the input to attention (matrices ) and the output have
+size and they start out being in HBM, so if the algorithm computes exact
+attention it must incur at least HBM accesses. This is a contradiction. ∎
+
+Proof of Theorem 5. The IO complexity of the attention backward is very similar to the IO
+complexity of the attention forward (Theorem 2). Here we provide a sketch of the proof. We first analyze the IO complexity of standard attention backward pass. The inputs reside in HBM, and
+the at the end of the algorithm the outputs are
+written to HBM. At each step of the standard attention backward pass, one needs to load inputs
+of size or from HBM, and needs to write the outputs of size
+or to HBM. This incurs HBM accesses. We now analyze the IO complexity of FlashAttention backward pass.

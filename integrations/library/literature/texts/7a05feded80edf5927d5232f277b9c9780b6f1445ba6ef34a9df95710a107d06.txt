@@ -1,0 +1,7 @@
+We express this formally as:
+
+(1)
+
+where denotes the ground-truth correct response for , and represents the test-time compute-optimal scaling strategy for the problem with compute budget . 3.2 Estimating Question Difficulty for Compute-Optimal Scaling
+
+In order to effectively analyze the test-time scaling properties of the different mechanisms discussed in Section 2 (e.g. the proposal distribution and the verifier), we will prescribe an approximation to this optimal strategy as a function of a statistic of a given prompt. This statistic estimates a notion of difficulty for a given prompt. The compute-optimal strategy is defined as a function of the difficulty of this prompt. Despite being only an approximate solution to the problem shown in Equation 1, we find that it can still induce substantial improvements in performance over a baseline strategy of allocating this inference-time compute in an ad-hoc or uniformly-sampled manner. Our estimate of the question difficulty assigns a given question to one of five difficulty levels. We can then use this discrete difficulty categorization to estimate on a validation set for a given test-time compute budget.

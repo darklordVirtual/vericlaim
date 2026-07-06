@@ -1,0 +1,17 @@
+Abadi et al. (2015)
+
+Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado,
+G. S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I., Harp,
+A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur, M.,
+Levenberg, J., Mané, D., Monga, R., Moore, S., Murray, D., Olah, C.,
+Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P.,
+Vanhoucke, V., Vasudevan, V., Viégas, F., Vinyals, O., Warden, P.,
+Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X. TensorFlow: Large-scale machine learning on heterogeneous systems,
+2015. URL http://tensorflow.org/. Software available from tensorflow.org. Ba et al. (2016)
+
+Ba, J. L., Kiros, J. R., and Hinton, G. E. Layernorm. CoRR, abs/1607.06450, 2016. URL http://arxiv.org/abs/1607.06450. Chen et al. (2018)
+
+Chen, C.-C., Yang, C.-L., and Cheng, H.-Y. Efficient and robust parallel dnn training through model parallelism
+on multi-gpu platform. arXiv:1809.02839, 2018. Chen et al. (2016)
+
+Chen, T., Xu, B., Zhang, C., and Guestrin, C. Training deep nets with sublinear memory cost. CoRR, abs/1604.06174, 2016. URL http://arxiv.org/abs/1604.06174. Dai et al.

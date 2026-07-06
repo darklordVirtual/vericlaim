@@ -1,0 +1,9 @@
+So the answer is (d). The process that takes the longest time to complete is the formation of fossil fuels, which happens over millions of years. So the answer is (d). Table 12: Additional examples where self-consistency helps repair the errors over greedy decode on LaMDA-137B. Two sampled reasoning paths that are consistent with the ground truth are shown. Question
+
+Greedy Decode
+
+Sampled Path 1
+
+Sampled Path 2
+
+[GSM8K] Kyle bought last year’s best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book? The book was sold for $19.50. This is 25% less than the original price. This means the original price was 100%. 25% of 100% is 25%. So the original price was 100% - 25% = 75%. The original price was 75% of $19.50. 75% of $19.50 is 75% * $19.50 = $14.625. The answer is $14.625. The original price of the book is $19.50. Since it was discounted by 25%, the original price was 19.50 / 0.75 = 26. The answer is 26. Kyle bought a book that is sold for $19.50. With a 25% discount, the original price must be higher. If we call the original price x, then the discounted price is 0.75x.

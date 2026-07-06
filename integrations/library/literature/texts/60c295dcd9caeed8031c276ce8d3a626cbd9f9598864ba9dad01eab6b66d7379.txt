@@ -1,0 +1,22 @@
+We describe the full details of FlashAttention forward pass. Given input sequences , we want to
+compute the attention output :
+
+where is some softmax scaling (typically ),
+mask is some masking function that sets some entries of the input to
+and keep other entries the same (e.g., key padding mask when sequences
+in the batch don’t have the same lengths and are padded), and
+applies dropout to elementwise (i.e., output
+with probability and output 0 with probability for each element ). The full algorithm is in Algorithm 2. We save the output , the softmax statistics and , and the pseudo-random
+number generator state for the backward pass. Algorithm 2 FlashAttention Forward Pass
+
+0: Matrices in HBM, on-chip SRAM of
+size , softmax scaling constant , masking function
+mask, dropout probability . 1: Initialize the pseudo-random number generator state and save to HBM. 2: Set block sizes . 3: Initialize in HBM. 4: Divide into blocks of size each,
+and divide in to blocks and
+, of size each. 5: Divide into blocks of size
+each, divide into blocks of size
+each, divide into blocks of size each. 6: for do
+
+7: Load from HBM to on-chip SRAM. 8: for do
+
+9: Load from HBM to on-chip SRAM.

@@ -1,0 +1,16 @@
+2008. Source language markers in Europarl translations. In Proceedings of the 22nd International Conference on
+Computational Linguistics (Coling 2008), pages 937–944. Vitak et al. (2016)
+
+Jessica Vitak, Katie Shilton, and Zahra Ashktorab. 2016. Beyond the Belmont principles: Ethical challenges, practices, and
+beliefs in the online data research community. In Proceedings of the 19th ACM Conference on Computer-Supported
+Cooperative Work & Social Computing, pages 941–953. Wenzek et al. (2019)
+
+Guillaume Wenzek, Marie-Anne Lachaux, Alexis Conneau, Vishrav Chaudhary,
+Francisco Guzmán, Armand Joulin, and Edouard Grave. 2019. CCNet: Extracting high quality monolingual datasets from web crawl
+data. arXiv preprint arXiv:1911.00359. Wolf et al. (2020)
+
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe
+Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien
+Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+and Alexander M. Rush. 2020. Transformers: State-of-the-art natural language processing.

@@ -1,0 +1,7 @@
+We provide an outline of this algorithm in Algorithm 1. STaR can be seen as an approximation to an RL-style policy gradient objective. To see this, note that can be viewed as a discrete latent variable model ; in other words, first samples a latent rationale before predicting . Now, given the indicator reward function , the total expected reward across the dataset is
+
+(1)
+
+(2)
+
+where the gradient is obtained via the standard log-derivative trick for policy gradients. Note that the indicator function discards the gradient for all sampled rationales that do not lead to the correct answer : this is the filtering process in STaR (Line 5). Thus, STaR approximates by (1) greedily decoding samples of to reduce variance of this estimate (at the cost of potentially biased exploration of rationales), and (2) taking multiple gradient steps on the same batch of data (similar to some policy gradient algorithms [25]). These approximations make STaR a simple and broadly applicable method that can be implemented with standard LLM training machinery; future work should more closely investigate the link between STaR and the RL objective above.

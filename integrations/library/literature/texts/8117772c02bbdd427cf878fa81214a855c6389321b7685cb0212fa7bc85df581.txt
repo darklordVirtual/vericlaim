@@ -1,0 +1,159 @@
+Table 5: Multilingual Machine Translation (bold values represent best results). GNMT-Mono
+
+GNMT-Multi
+
+MoE-Multi
+
+MoE-Multi vs. GNMT-Multi
+
+Parameters
+
+278M / model
+
+278M
+
+8.7B
+
+ops/timestep
+
+212M
+
+212M
+
+102M
+
+training time, hardware
+
+various
+
+21 days, 96 k20s
+
+12 days, 64 k40s
+
+Perplexity (dev)
+
+4.14
+
+3.35
+
+-19%
+
+French English Test BLEU
+
+36.47
+
+34.40
+
+37.46
+
++3.06
+
+German English Test BLEU
+
+31.77
+
+31.17
+
+34.80
+
++3.63
+
+Japanese English Test BLEU
+
+23.41
+
+21.62
+
+25.91
+
++4.29
+
+Korean English Test BLEU
+
+25.42
+
+22.87
+
+28.71
+
++5.84
+
+Portuguese English Test BLEU
+
+44.40
+
+42.53
+
+46.13
+
++3.60
+
+Spanish English Test BLEU
+
+38.00
+
+36.04
+
+39.39
+
++3.35
+
+English French Test BLEU
+
+35.37
+
+34.00
+
+36.59
+
++2.59
+
+English German Test BLEU
+
+26.43
+
+23.15
+
+24.53
+
++1.38
+
+English Japanese Test BLEU
+
+23.66
+
+21.10
+
+22.78
+
++1.68
+
+English Korean Test BLEU
+
+19.75
+
+18.41
+
+16.62
+
+-1.79
+
+English Portuguese Test BLEU
+
+38.40
+
+37.35
+
+37.90
+
++0.55
+
+English Spanish Test BLEU
+
+34.50
+
+34.25
+
+36.21
+
++1.96

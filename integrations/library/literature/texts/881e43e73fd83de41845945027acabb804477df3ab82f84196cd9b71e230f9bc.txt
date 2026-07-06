@@ -1,0 +1,2 @@
+FlashAttention instead simplifies the backward pass analytically (Sections B.2 and B.4). It only recomputes the attention matrix and does not recompute the
+temporary output of each block. This reduces the memory requirement for the backward pass and yields speedup.

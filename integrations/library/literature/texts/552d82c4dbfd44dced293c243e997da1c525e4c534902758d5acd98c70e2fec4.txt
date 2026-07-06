@@ -1,0 +1,15 @@
+Figure G.13: Formatted dataset example for Winograd. The ‘partial’ evaluation method we use compares the probability of the completion given a correct and incorrect context. Correct Context
+
+Johnny likes fruits more than vegetables in his new keto diet because the fruits
+
+Incorrect Context
+
+Johnny likes fruits more than vegetables in his new keto diet because the vegetables
+
+Target Completion
+
+are saccharine. Figure G.14: Formatted dataset example for Winogrande. The ‘partial’ evaluation method we use compares the probability of the completion given a correct and incorrect context. Context
+
+READING COMPREHENSION ANSWER KEY
+
+While this process moved along, diplomacy continued its rounds. Direct pressure on the Taliban had proved unsuccessful. As one NSC staff note put it, "Under the Taliban, Afghanistan is not so much a state sponsor of terrorism as it is a state sponsored by terrorists." In early 2000, the United States began a high-level effort to persuade Pakistan to use its influence over the Taliban.

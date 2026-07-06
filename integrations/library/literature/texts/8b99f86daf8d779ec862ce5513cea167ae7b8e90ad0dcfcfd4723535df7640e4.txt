@@ -1,0 +1,43 @@
+Direct Finetuned [29]
+
+73.0
+
+100
+
+Few-shot Direct GPT-J
+
+20.9
+
+0
+
+Few-shot CoT GPT-J 333We use the same few-shot rationales as described in Section 4.1 - namely fixing typos and improving clarity. 36.6
+
+0
+
+Few-shot CoT LaMDA 137B [6]
+
+55.6
+
+0
+
+GPT-J Direct Finetuned
+
+60.0
+
+100
+
+STaR without rationalization
+
+68.8
+
+69.7
+
+STaR with rationalization
+
+72.5
+
+86.7
+
+Human Evaluation
+
+Based on the observation that STaR may improve reasoning quality for problems even when they were initially answered correctly via few-shot prompting, we performed a preliminary qualitative analysis. We randomly selected 50 rationales generated from few-shot CoT and STaR-generated rationales on questions which they both answered correctly, as well as human-generated rationales for these problems from [3]. We then presented a random subset of 10 questions and rationales to each of 20 crowdworkers on Prolific [31] with the rationales in a randomized order, asking them to rank the rationales based on which they felt best justified the answer. The participants were 30% more likely to rank the STaR-generated rationales higher than the few-shot rationales ().

@@ -1,0 +1,17 @@
+Proceedings of Machine Learning and Systems, 1:1–13, 2019. [KFA23]
+
+Eldar Kurtic, Elias Frantar, and Dan Alistarh. Ziplm: Hardware-aware structured pruning of language models. arXiv preprint arXiv:2302.04089, 2023. [KNL+20]
+
+Allison Koenecke, Andrew Nam, Emily Lake, Joe Nudell, Minnie Quartey, Zion
+Mengesha, Connor Toups, John R Rickford, Dan Jurafsky, and Sharad Goel. Racial disparities in automated speech recognition. Proceedings of the National Academy of Sciences,
+117(14):7684–7689, 2020. [KSL+22]
+
+Omar Khattab, Keshav Santhanam, Xiang Lisa Li, David Hall, Percy Liang,
+Christopher Potts, and Matei Zaharia. Demonstrate-search-predict: Composing retrieval and language models
+for knowledge-intensive nlp. arXiv preprint arXiv:2212.14024, 2022. [KTF+22]
+
+Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, Kyle Richardson, Peter
+Clark, and Ashish Sabharwal. Decomposed prompting: A modular approach for solving complex tasks. arXiv preprint arXiv:2210.02406, 2022. [LLL+21]
+
+Jiacheng Liu, Alisa Liu, Ximing Lu, Sean Welleck, Peter West, Ronan Le Bras,
+Yejin Choi, and Hannaneh Hajishirzi. Generated knowledge prompting for commonsense reasoning. arXiv preprint arXiv:2110.08387, 2021.

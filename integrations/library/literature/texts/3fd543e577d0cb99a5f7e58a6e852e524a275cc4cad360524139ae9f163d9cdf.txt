@@ -1,0 +1,13 @@
+Neural networks typically produce class probabilities by using a “softmax” output layer that converts the logit,
+, computed for each class into a probability, , by comparing with the other logits. (1)
+
+where is a temperature that is normally set to . Using a higher value for produces a softer probability
+distribution over classes. In the simplest form of distillation, knowledge is transferred to the distilled model by training it on a transfer set
+and using a soft target distribution for each case in the transfer set that is produced by using the cumbersome model
+with a high temperature in its softmax. The same high temperature is used when training the distilled model, but after
+it has been trained it uses a temperature of 1. When the correct labels are known for all or some of the transfer set,
+this method can be significantly improved by also training the
+distilled model to produce the correct labels. One way to do this is
+to use the correct labels to modify the soft targets, but we found
+that a better way is to simply use a weighted average of two different
+objective functions.

@@ -32,3 +32,7 @@ reason = "paywalled standard; ISO catalog page blocks automated retrieval (HTTP 
 [[drop]]
 id = "iec-62443"
 reason = "paywalled standard series; IEC webstore has no stable retrievable HTML overview (HTTP 404 on the series page) and no registrar record with an author list"
+
+[[drop]]
+id = "out-of-tar-pit-2006"
+reason = "primary source is PDF-only (no HTML rendering to snapshot); no registrar record — summaries by third parties are not the work"

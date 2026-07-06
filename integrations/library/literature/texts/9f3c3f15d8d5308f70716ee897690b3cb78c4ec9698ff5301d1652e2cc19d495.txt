@@ -1,0 +1,19 @@
+(+2.2)
+
+100.0 (+3.8)
+
+87.8 (+7.6)
+
+52.0 (+12.2)
+
+86.8 (+11.0)
+
+78.0 (+17.9)
+
+Table 2: Arithmetic reasoning accuracy by self-consistency compared to chain-of-thought prompting (Wei et al., 2022). The previous SoTA baselines are obtained from:
+: Relevance and LCA operation classifier (Roy & Roth, 2015),
+: Lan et al. (2021),
+: Amini et al. (2019),
+: Pi et al. (2022),
+: GPT-3 175B finetuned with 7.5k examples (Cobbe et al., 2021),
+: GPT-3 175B finetuned plus an additional 175B verifier (Cobbe et al., 2021). The best performance for each task is shown in bold.

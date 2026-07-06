@@ -1,0 +1,7 @@
+Instead of keeping the top values per example, we keep the top values per expert across the training batch, where , so that each example is sent to an average of experts. (18)
+
+As our experiments suggest and also observed in (Ioffe & Szegedy, 2015), using a batchwise function during training (such as ) requires modifications to the inference when we may not have a large batch of examples. Our solution to this is to train a vector of per-expert threshold values to approximate the effects of the batchwise mask. We use the following mask at inference time:
+
+(19)
+
+To learn the threshold values, we apply an additional loss at training time which is minimized when the batchwise mask and the threshold mask are identical. (20)

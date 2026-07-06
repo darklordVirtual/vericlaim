@@ -1,0 +1,10 @@
+We evaluate \ourson 7 diverse tasks:
+Dialogue Response Generation (Appendix M; Mehri and Eskenazi, 2020),
+Code Optimization (Appendix N; Madaan et al., 2023),
+Code Readability Improvement (Appendix L; Puri et al., 2021),
+Math Reasoning (Appendix O; Cobbe et al., 2021),
+Sentiment Reversal (Appendix P; Zhang et al., 2015),
+and we introduce two new tasks: Acronym Generation (Appendix Q) and
+Constrained Generation (a harder version of Lin et al. (2020) with 20-30 keyword constraints instead of 3-5; Appendix R)
+
+Examples for all tasks and dataset statistics are provided in Table 4 (Appendix A).

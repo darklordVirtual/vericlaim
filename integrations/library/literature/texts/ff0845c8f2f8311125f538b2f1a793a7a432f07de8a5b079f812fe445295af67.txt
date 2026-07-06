@@ -1,0 +1,13 @@
+Scaling language models: Methods, analysis & insights from training
+gopher. arXiv preprint arXiv:2112.11446, 2021. Ran et al. (2019)
+
+Qiu Ran, Yankai Lin, Peng Li, Jie Zhou, and Zhiyuan Liu. NumNet: Machine reading comprehension with numerical reasoning. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), 2019. doi: 10.18653/v1/D19-1251. URL https://aclanthology.org/D19-1251. Roy & Roth (2015)
+
+Subhro Roy and Dan Roth. Solving general arithmetic word problems. In Proceedings of the 2015 Conference on Empirical Methods in
+Natural Language Processing, 2015. doi: 10.18653/v1/D15-1202. URL https://aclanthology.org/D15-1202. Shen et al. (2021)
+
+Jianhao Shen, Yichun Yin, Lin Li, Lifeng Shang, Xin Jiang, Ming Zhang, and Qun
+Liu. Generate & rank: A multi-task framework for math word problems. In Findings of the Association for Computational Linguistics:
+EMNLP 2021, pp. 2269–2279, Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics. URL https://aclanthology.org/2021.findings-emnlp.195. Shi et al.

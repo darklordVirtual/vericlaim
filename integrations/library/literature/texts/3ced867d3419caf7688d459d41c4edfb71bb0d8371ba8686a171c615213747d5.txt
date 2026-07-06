@@ -1,0 +1,15 @@
+1987. Estimation of probabilities from sparse data for the language model
+component of a speech recognizer. IEEE transactions on acoustics, speech, and signal processing,
+35(3):400–401. Kneser and Ney (1995)
+
+Reinhard Kneser and Hermann Ney. 1995. Improved backing-off for m-gram language modeling. In 1995 international conference on acoustics, speech, and
+signal processing, volume 1, pages 181–184. IEEE. Korthikanti et al. (2022)
+
+Vijay Korthikanti, Jared Casper, Sangkug Lym, Lawrence McAfee, Michael
+Andersch, Mohammad Shoeybi, and Bryan Catanzaro. 2022. Reducing activation recomputation in large transformer models. arXiv preprint arXiv:2205.05198. Kudo and Richardson (2018)
+
+Taku Kudo and John Richardson. 2018. Sentencepiece: A simple and language independent subword tokenizer
+and detokenizer for neural text processing. arXiv preprint arXiv:1808.06226. Kurita et al. (2019)
+
+Keita Kurita, Nidhi Vyas, Ayush Pareek, Alan W Black, and Yulia Tsvetkov. 2019. Quantifying social biases in contextual word representations. In 1st ACL Workshop on Gender Bias for Natural Language
+Processing. Kwiatkowski et al.

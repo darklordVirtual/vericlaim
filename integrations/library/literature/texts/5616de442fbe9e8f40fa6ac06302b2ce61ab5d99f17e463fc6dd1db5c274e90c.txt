@@ -1,0 +1,20 @@
+[4]
+
+R. Girshick. Faster r-cnn github repository. https://github.com/rbgirshick/py-faster-rcnn. [5]
+
+Google. Tensorflow tutorial: Sequence-to-sequence models. URL https://www.tensorflow.org/tutorials/seq2seq. Graves et al. [2006]
+
+A. Graves, S. Fernández, F. Gomez, and J. Schmidhuber. Connectionist temporal classification: labelling unsegmented sequence
+data with recurrent neural networks. In Proceedings of the 23rd international conference on Machine
+learning, pages 369–376. ACM, 2006. Gupta et al. [2015]
+
+S. Gupta, A. Agrawal, K. Gopalakrishnan, and P. Narayanan. Deep learning with limited numerical precision. In Proceedings of the 32nd International Conference on Machine
+Learning (ICML-15), pages 1737–1746, 2015. Hannun et al. [2014]
+
+A. Hannun, C. Case, J. Casper, B. Catanzaro, G. Diamos, E. Elsen, R. Prenger,
+S. Satheesh, S. Sengupta, A. Coates, et al. Deep speech: Scaling up end-to-end speech recognition. arXiv preprint arXiv:1412.5567, 2014. He et al. [2016a]
+
+K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pages 770–778, 2016a. He et al. [2016b]
+
+K. He, X.

@@ -1,0 +1,74 @@
+{"fsid": "arxiv_1810-04805", "n": 73, "overlap": 200, "source_sha256": "0fec03b442955c395546134db5e59a78a5f74c4bf330b96b5439c237cd31ac38", "target": 1200}
+{"section": "", "seq": 0, "sha256": "bd886acc449c5d32d461d756a744382690bf1a34691fba998bff8e7a6349455d"}
+{"section": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "seq": 1, "sha256": "40fb1208626aa0d9540a2373d0ba7cbb5b39bfa6dec6eae8969c6032e8aab5a9"}
+{"section": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "seq": 2, "sha256": "986fc5335e996b1e716301452cd8ed17d583453e897592dca9d6e9b4a1043d72"}
+{"section": "1 Introduction", "seq": 3, "sha256": "e60871ffb136cd9067b8e37e55d9ad368ecc0430ee589a81bea8c0b54c79c975"}
+{"section": "1 Introduction", "seq": 4, "sha256": "d118cadedabf813cbdbdfdb4183488d7d74157957f6c00d95f53ded0ffee3e57"}
+{"section": "1 Introduction", "seq": 5, "sha256": "f26beed42bac8817654558a072f347e7f4635fbc5b206e2088dac26c6bf199ac"}
+{"section": "1 Introduction", "seq": 6, "sha256": "bfe451f616f9c0cf688903c322d792b011c95e5b0c40acc2585ec0eac5bb5d93"}
+{"section": "2 Related Work", "seq": 7, "sha256": "18f350b0cca5ee5dc15ff25e9041e4e7b32f53c51ef0bb547b42b464cce2dc9f"}
+{"section": "2.1 Unsupervised Feature-based Approaches", "seq": 8, "sha256": "ef3c04baef2ed06590e8c779b3741620ff8109dbd4df7085d8d73cf730050902"}
+{"section": "2.1 Unsupervised Feature-based Approaches", "seq": 9, "sha256": "7e5bc52d8deee9c5571503437da2a8421a13a7335bcfa445b002818ab69f7f97"}
+{"section": "2.1 Unsupervised Feature-based Approaches", "seq": 10, "sha256": "e28d3f0b451d781540a84e83c1beb99e81ac3f004f57dbabe5e3693781b14a3b"}
+{"section": "2.2 Unsupervised Fine-tuning Approaches", "seq": 11, "sha256": "6b652394169f7a504454c67e3c8a691aceeb277b4c815deff4fa992d91178142"}
+{"section": "2.3 Transfer Learning from Supervised Data", "seq": 12, "sha256": "6a460eedca85fe29512a64d84797ecc2ed17d898216a5d06d786b60291f601c0"}
+{"section": "3 BERT", "seq": 13, "sha256": "62d56e95250b56d3f1f311f1d7a9ba6238dfa4d9d82867d3bca93b9826a2e077"}
+{"section": "3 BERT", "seq": 14, "sha256": "24e28366dc92fa8f5ba9e6742f421da156cd8daeece0e1ad52fb61657c9d187d"}
+{"section": "3 BERT", "seq": 15, "sha256": "342d814b891d8809760905511abc5cc323d4da6959ba523af8afe75397de1cd3"}
+{"section": "3 BERT", "seq": 16, "sha256": "2237fe19321b07f948fcc34949641155682009d2f730ecfaf405e6959afb6ba1"}
+{"section": "3.1 Pre-training BERT", "seq": 17, "sha256": "85ad408e9c9e70510f9411526c330375e8372e41f607c55b2add3cb51f9b574f"}
+{"section": "3.1 Pre-training BERT", "seq": 18, "sha256": "f79317044aaf6b840e6af1d04e7ecdbb12f5ad9d4ab1a0f068164cd52ffa1367"}
+{"section": "3.1 Pre-training BERT", "seq": 19, "sha256": "21bfe3de07df1b43186edc4488ba5e1cdf38bcd98a610fd5c72e8429ce79826d"}
+{"section": "3.1 Pre-training BERT", "seq": 20, "sha256": "773f361ec762da6433472b392e3a51411b2ec0ccd952e5af7a628c1724b32b80"}
+{"section": "3.2 Fine-tuning BERT", "seq": 21, "sha256": "16461b63b7e045eeb5a1d5deb7642cb68df68ef5275776abfd3cbc5017b3a301"}
+{"section": "3.2 Fine-tuning BERT", "seq": 22, "sha256": "96ce787fa399d3b8617b77f84bb786f0fa17789dbffe4f2fa2674dc35f456ed8"}
+{"section": "3.2 Fine-tuning BERT", "seq": 23, "sha256": "459a23b4d50d99b919dc59c191231b3778557a52f6f7d9ced5bf377bb1bb5d50"}
+{"section": "3.2 Fine-tuning BERT", "seq": 24, "sha256": "1641f3664dbe44140e86c68c9f1c3b4f6d59d6d3d8fc75eb00bf116eb186e801"}
+{"section": "4 Experiments", "seq": 25, "sha256": "8144c573a092dd2bb4e55d526c53d2e625b24a652388732a44e4ef1e6b2cb4ef"}
+{"section": "4.1 GLUE", "seq": 26, "sha256": "948af843a1109d153b2acb4d7a795afc76c90931982fc969cb45315677026741"}
+{"section": "4.1 GLUE", "seq": 27, "sha256": "52ebb9a503e0a1119507ecc8156affd5a79528c7ad3f5aadd0f743bb3ca37a26"}
+{"section": "4.1 GLUE", "seq": 28, "sha256": "bcda351b43763b900b11e9d80dccb4622d3297926d81b13b47447196f75b2f2a"}
+{"section": "4.2 SQuAD v1.1", "seq": 29, "sha256": "10595d1bbdc796dadd98af803388064dd8cfd6f22e41985ecafd10604e9efc6a"}
+{"section": "4.2 SQuAD v1.1", "seq": 30, "sha256": "109fb5a21c82614c78f8117877d59ec4485d8c65a70ac46cb1b257a4870bf09b"}
+{"section": "4.2 SQuAD v1.1", "seq": 31, "sha256": "71f2b8c252942739819f7a2a42fc82667d8a6bcef7efce46839007535712671f"}
+{"section": "4.3 SQuAD v2.0", "seq": 32, "sha256": "8c779d547dcad7f67e2b8684cd1a0297d2ef993122544b9f3256dd8bea828fd2"}
+{"section": "4.4 SWAG", "seq": 33, "sha256": "515067b58793ff988210f920aad5eaa164007dc7a5abdc6606b9e230d2c64c0b"}
+{"section": "5 Ablation Studies", "seq": 34, "sha256": "cffad0754f1d9bd092ad0a61d37708882d02cda2122915c83a627e26e2202ebe"}
+{"section": "5.1 Effect of Pre-training Tasks", "seq": 35, "sha256": "b90802f215f2e72ebbb59867879f6d921a70f0f5bdc3406fd1afa104fbc04031"}
+{"section": "5.1 Effect of Pre-training Tasks", "seq": 36, "sha256": "6d64a9fbd8df425f690e0d6ceec4ff9ff374ca4649ec4249f2731f4f72d6c82b"}
+{"section": "5.1 Effect of Pre-training Tasks", "seq": 37, "sha256": "a4d4516d3d61169c003d7972ea0725b3c335b6ae248f81050799b2ceb73649f6"}
+{"section": "5.2 Effect of Model Size", "seq": 38, "sha256": "21afe6d57f1d013a8473522ff85d2c5d7ffea30f83908ba9b0acc62f128b6dda"}
+{"section": "5.2 Effect of Model Size", "seq": 39, "sha256": "0c1ca463dd8ba4b40ba9f548a503efa602bd2eb6d64065a553fe60c60d256ad2"}
+{"section": "5.2 Effect of Model Size", "seq": 40, "sha256": "5e1a2d94df840f5e729cc5291f182a97d30f5c05e6a06fa973ba80c6e129a5d9"}
+{"section": "5.3 Feature-based Approach with BERT", "seq": 41, "sha256": "9b51e30897754c0a2216cf722f3bafdffc8d3915b8e3334418ec14b5e8c6a008"}
+{"section": "5.3 Feature-based Approach with BERT", "seq": 42, "sha256": "5d20ca716d5fc35eeea51079b1f95ad4a576627870840248048e40a5547ab5a7"}
+{"section": "5.3 Feature-based Approach with BERT", "seq": 43, "sha256": "edf1cbabb38cdd5b951a70c1422ad9e25e098420437c3fac5adcc9813ee35248"}
+{"section": "6 Conclusion", "seq": 44, "sha256": "740d697f216dc91b1ef62ea38d7ade28507091f43d79a5c0355c71b922ffdd03"}
+{"section": "References", "seq": 45, "sha256": "7f37683002e425406ecfe565a590fd0c621b6affaa5cf307ba3e3d98e4b7a431"}
+{"section": "References", "seq": 46, "sha256": "52a1eae4f23db762d60740d0fc2929de9e2f8b4d6a19c061553a928035275136"}
+{"section": "References", "seq": 47, "sha256": "33d94af364ab4da0aa24c2f00546a2f22645d898e9e15ded97fc364ba2479042"}
+{"section": "References", "seq": 48, "sha256": "e652704f42803fa9530e8ac786401d0a676c564c59ea172215f685f6d700de55"}
+{"section": "References", "seq": 49, "sha256": "0ef630135cb9a256c9e98136c050a5595351473c0c8b495d6873a8bea0ce79d4"}
+{"section": "References", "seq": 50, "sha256": "a1b52b9a47afe8df19773befe3414f3537cbe58319ec51d4488a2d5e11f79b7d"}
+{"section": "References", "seq": 51, "sha256": "f9befff2157d9aebb3e611faa8ed3cbf8d948f37cdfb623512e2c7ea00cfa438"}
+{"section": "References", "seq": 52, "sha256": "c234b89613ade62d68bbe33845292d35642f101804ff73d5bea13a88a1917fa6"}
+{"section": "References", "seq": 53, "sha256": "50ea4b2006a7ec8f56d03ee8899864e8ae4841303880711c3c459b03aff5f4fd"}
+{"section": "References", "seq": 54, "sha256": "d2c11ee1e681d6e457a2970e80398585465b7242bf3b7332b819ca917d6419b8"}
+{"section": "References", "seq": 55, "sha256": "3d3461c76dca4102bd34518fd40f2580c110413a7102485b3fea5c8516d6da2b"}
+{"section": "References", "seq": 56, "sha256": "15e4766a4d1bf954359697b0e56dd52ceb8e3940c67d9952cf24299bb239373b"}
+{"section": "References", "seq": 57, "sha256": "d977e75ea082c128db6a54d4948c105e2f78e7b67134b85330506e792ff69bf5"}
+{"section": "Appendix A Additional Details for BERT", "seq": 58, "sha256": "b7717bf8cce76d5d5cb6fd50a1897a7a32298d91f0889310cdd91b2f3f1e1627"}
+{"section": "A.1 Illustration of the Pre-training Tasks", "seq": 59, "sha256": "ad4449942eb95999233adb09c3997b6a486a6599bb8a01aa11c6af942e0b12bc"}
+{"section": "A.1 Illustration of the Pre-training Tasks", "seq": 60, "sha256": "f98be149dbcfc14ab47e56981e91094b6fe237efcd8ff0993cc7ff395ff6de17"}
+{"section": "A.2 Pre-training Procedure", "seq": 61, "sha256": "fd52c625424a5364ac97e4b1e553f13eda5c87c082303aa0db47a3fdcd7b5574"}
+{"section": "A.2 Pre-training Procedure", "seq": 62, "sha256": "12895e5505dc661799936daca0103e7cd4efad7ba02899d159b02014587b8458"}
+{"section": "A.3 Fine-tuning Procedure", "seq": 63, "sha256": "1b1fe5983c1877532f596314336813c33e03174404ee9fb6028654c09901e3cb"}
+{"section": "A.4 Comparison of BERT, ELMo ,and OpenAI GPT", "seq": 64, "sha256": "d85100dc853595adbc0f4737e31d6f17cea73608a8ded6b5746a13bb2ab5ae57"}
+{"section": "A.4 Comparison of BERT, ELMo ,and OpenAI GPT", "seq": 65, "sha256": "c6a45d09d6121d3930c94db519069494b3bb6f111cf5f1daf95e61a0fc8e60ab"}
+{"section": "A.5 Illustrations of Fine-tuning on Different Tasks", "seq": 66, "sha256": "d6db3bfb8c4d224680b36f3fbda3953bc34c0b75c7cc65c3bb6ad6d3578d3c82"}
+{"section": "B.1 Detailed Descriptions for the GLUE Benchmark Experiments.", "seq": 67, "sha256": "7125ddc2315ff0803a74ade1c14e64f95d45e5a3a8684545f4026bbd12eb66ed"}
+{"section": "B.1 Detailed Descriptions for the GLUE Benchmark Experiments.", "seq": 68, "sha256": "d362f9521024efe4cb660247bcda55d7253b73321714b469b90d757ce7dc807e"}
+{"section": "B.1 Detailed Descriptions for the GLUE Benchmark Experiments.", "seq": 69, "sha256": "94d5d97d94a98911dc2000c33ad5739b21e225b923ae73d0a605f4bdc5002cf6"}
+{"section": "C.1 Effect of Number of Training Steps", "seq": 70, "sha256": "03110499da48937ec8af16ab8279c44f73d5d35ba1875469fcf0593d63cab9d4"}
+{"section": "C.2 Ablation for Different Masking Procedures", "seq": 71, "sha256": "b45e1ec2106c630a56964925082b49d77e60cd9b195117fa65f7fc691930485d"}
+{"section": "C.2 Ablation for Different Masking Procedures", "seq": 72, "sha256": "6f6560704002999f72ae6d8e822e801512a98a8d98f50a8a245714fc08d5780c"}

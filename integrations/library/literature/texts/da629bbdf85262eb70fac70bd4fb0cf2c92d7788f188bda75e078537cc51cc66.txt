@@ -1,0 +1,7 @@
+Based on these observations, we develop ZeRO-DP, ZeRO-powered data parallelism, that achieves the computation/communication efficiency of DP while achieving memory efficiency of MP. ZeRO-DP removes the memory state redundancies across data-parallel processes by partitioning the model states instead of replicating them, and it retains the compute/communication efficiency by retaining the computational granularity and communication volume of DP using a dynamic communication schedule during training. ZeRO-DP has three main optimization stages (as depicted in Figure 1), which correspond to the partitioning of optimizer states, gradients, and parameters. When enabled cumulatively:
+
+1) Optimizer State Partitioning (): 4x memory reduction, same communication volume as DP;
+
+2) Add Gradient Partitioning (): 8x memory reduction, same communication volume as DP;
+
+3) Add Parameter Partitioning (): Memory reduction is linear with DP degree . For example, splitting across 64 GPUs ( = 64) will yield a 64x memory reduction. There is a modest 50% increase in communication volume. ZeRO-DP eliminates memory redundancies and makes the full aggregate memory capacity of a cluster available.

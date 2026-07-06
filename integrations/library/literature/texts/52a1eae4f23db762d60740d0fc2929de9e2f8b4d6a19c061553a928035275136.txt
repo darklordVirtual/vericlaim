@@ -1,0 +1,20 @@
+Association for Computational
+Linguistics. Bowman et al. (2015)
+
+Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. 2015. A large annotated corpus for learning natural language inference. In EMNLP. Association for Computational Linguistics. Brown et al. (1992)
+
+Peter F Brown, Peter V Desouza, Robert L Mercer, Vincent J Della Pietra, and
+Jenifer C Lai. 1992. Class-based n-gram models of natural language. Computational linguistics, 18(4):467–479. Cer et al. (2017)
+
+Daniel Cer, Mona Diab, Eneko Agirre, Inigo Lopez-Gazpio, and Lucia Specia. 2017. Semeval-2017 task 1:
+Semantic textual similarity multilingual and crosslingual focused
+evaluation. In Proceedings of the 11th International Workshop on Semantic
+Evaluation (SemEval-2017), pages 1–14, Vancouver, Canada. Association for
+Computational Linguistics. Chelba et al. (2013)
+
+Ciprian Chelba, Tomas Mikolov, Mike Schuster, Qi Ge, Thorsten Brants, Phillipp
+Koehn, and Tony Robinson. 2013. One billion word benchmark for measuring progress in statistical
+language modeling. arXiv preprint arXiv:1312.3005. Chen et al. (2018)
+
+Z. Chen, H. Zhang, X. Zhang, and L. Zhao. 2018. Quora
+question pairs.

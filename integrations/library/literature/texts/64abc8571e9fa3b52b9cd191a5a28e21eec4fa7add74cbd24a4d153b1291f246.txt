@@ -1,0 +1,20 @@
+[2021]
+
+Albert Gu, Isys Johnson, Karan Goel, Khaled Saab, Tri Dao, Atri Rudra, and
+Christopher Ré. Combining recurrent, convolutional, and continuous-time models with
+linear state space layers. Advances in Neural Information Processing Systems, 34, 2021. Gu et al. [2022]
+
+Albert Gu, Karan Goel, and Christopher Ré. Efficiently modeling long sequences with structured state spaces. In The International Conference on Learning Representations
+(ICLR), 2022. Han et al. [2015]
+
+Song Han, Jeff Pool, John Tran, and William J Dally. Learning both weights and connections for efficient neural networks. arXiv preprint arXiv:1506.02626, 2015. Han et al. [2016]
+
+Song Han, Huizi Mao, and William J Dally. Deep compression: Compressing deep neural networks with pruning,
+trained quantization and huffman coding. In International Conference on Learning Representations, 2016. Hennessy and Patterson [2003]
+
+John Hennessy and David Patterson. Memory hierarchy design. Computer Architecture: A Quantitative Approach, pages
+390–525, 2003. Hooker [2020]
+
+Sara Hooker. The hardware lottery. arXiv preprint arXiv:2009.06489, 2020. Hua et al. [2022]
+
+Weizhe Hua, Zihang Dai, Hanxiao Liu, and Quoc V Le.

@@ -1,0 +1,18 @@
+Nltk: The natural language toolkit, 2002. LC [19]
+
+Guillaume Lample and Alexis Conneau. Cross-lingual language model pretraining. arXiv preprint arXiv:1901.07291, 2019. LCG+ [19]
+
+Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and
+Radu Soricut. ALBERT: A lite BERT for self-supervised learning of language
+representations. arXiv preprint arXiv:1909.11942, 2019. LCH+ [20]
+
+Xiaodong Liu, Hao Cheng, Pengcheng He, Weizhu Chen, Yu Wang, Hoifung Poon, and
+Jianfeng Gao. Adversarial training for large neural language models. arXiv preprint arXiv:2004.08994, 2020. LDL [19]
+
+Zhongyang Li, Xiao Ding, and Ting Liu. Story ending prediction by transferable bert. arXiv preprint arXiv:1905.07504, 2019. LDM [12]
+
+Hector Levesque, Ernest Davis, and Leora Morgenstern. The Winograd schema challenge. In Thirteenth International Conference on the Principles of
+Knowledge Representation and Reasoning, 2012. LGG+ [20]
+
+Yinhan Liu, Jiatao Gu, Naman Goyal, Xian Li, Sergey Edunov, Marjan
+Ghazvininejad, Mike Lewis, and Luke Zettlemoyer. Multilingual denoising pre-training for neural machine translation. arXiv preprint arXiv:2001.08210, 2020.

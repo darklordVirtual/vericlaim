@@ -1,0 +1,1 @@
+[1909.08053] Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism

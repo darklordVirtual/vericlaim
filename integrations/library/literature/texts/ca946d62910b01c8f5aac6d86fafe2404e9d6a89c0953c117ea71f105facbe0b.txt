@@ -1,0 +1,9 @@
+We use teacher forcing, and consider an answer correct only when all output predictions are correct. This formulation is equivalent to the original task of word token prediction. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

@@ -1,0 +1,11 @@
+heuristic-based evaluation metrics,
+
+•
+
+Meaningful Variable Names: In order to understand the flow of a program, having semantically meaningful variable names can offer much useful information. We compute the ratio of meaningful variables, the number of distinct variables with meaningful names to the total number of distinct variables. We automate the process of extracting distinct variables and the meaningful subset of variables using a few-shot prompted language model. •
+
+Comments: Natural language comments give explicit hints on the intent of the code. We compute the average number of comment pieces per code line. •
+
+Function Units: Long functions are hard to parse. Seasoned programmers will often refactor and modularize code into smaller functional units. Result
+
+For each automatic evaluation metric, the ratio of meaningful variable, of comment, and the number of function units, we compute for each iteration averaged across all test examples and plot for each \oursiteration in 14(a), 14(b) and 14(c) respectively. The two curves each correspond to critique with temperature and . The iteration 0 number is measured from the original input code piece from CodeNet.

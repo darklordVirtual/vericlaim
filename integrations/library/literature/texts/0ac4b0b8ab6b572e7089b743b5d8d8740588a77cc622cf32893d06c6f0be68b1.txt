@@ -1,0 +1,6 @@
+In Fig. 4, we plot of the validation perplexity throughout training of GPT-2 small/medium,
+using either HuggingFace implementation or our FlashAttention implementation. We see that FlashAttention behaves the same as the baseline implementation
+and the validation perplexity curves of the two implementations almost lie on
+top of each other. Figure 4: Validation perplexity of GPT-2
+small/medium using two implementations. We confirm that FlashAttention yields the same validation curves as the baseline
+implementation from HuggingFace. Long Document Classification. For MIMIC-III and ECtHR, we follow the hyperparameters of Dai et al. [13].

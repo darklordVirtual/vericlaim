@@ -1,0 +1,33 @@
+The three main steps of \oursare feedback, refine, and repeating them iteratively. In this section, we perform additional experiments to analyze the importance of each of these steps. Task
+
+\oursfeedback
+Generic feedback
+No feedback
+
+Code Optimization
+
+27.5
+
+26.0
+
+24.8
+
+Sentiment Reversal
+
+43.2
+
+31.2
+
+0
+
+Acronym Generation
+
+56.4
+
+54.0
+
+48.0
+
+Table 2: Prompting to generate generic feedback (or having the model generate no feedback at all) leads to reduced scores, indicating the importance of the feedback step of \ours. These experiments were performed with ChatGPT (Code Optimization and Sentiment Reversal) and GPT-3.5 (Acronym Generation), and metrics used are defined in Section 3.2. The impact of the feedback quality
+
+Feedback quality plays a crucial role in \ours. To quantify its impact, we compare \ours, which utilizes specific, actionable feedback, with two ablations: one using generic feedback and another without feedback (the model may still iteratively refine its generations, but is not explicitly provided feedback to do so).

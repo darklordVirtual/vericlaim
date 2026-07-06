@@ -1,0 +1,9 @@
+We train the model on a 8GB GPU for 10 epochs, using batch size 64 and the Adam optimizer (Kingma & Ba, 2017) with learning rate and weight decay . BERT classifier
+
+We explore using a standard text classification method with a higher number of parameters compared to previous methods. We use a architecture (Devlin et al., 2018), to give a contextualized embedding of the user query, and define win probability as:
+
+(13)
+
+where is an embedding corresponding to the special classification token (CLS) summarizing the input query . and are parameters of the logistic regression head, while is the sigmoid function. We perform full-parameter fine-tuning on . We train the model on 2xL4 24GB GPUs for steps using a batch size of 16, maximum sequence length of 512, learning rate of and a weight decay of 0.01. Causal LLM classifier
+
+We finally expand the capacity of our router by parameterizing it with Llama 3 8B (AI@Meta, 2024b). We use an instruction-following paradigm (Wei et al., 2021), i.e. we provide as input an instruction prompt containing the user query and output the win probability in a next-token prediction fashion, instead of using a separate classification head.

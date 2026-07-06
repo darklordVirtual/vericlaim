@@ -1,0 +1,22 @@
+Centering neural network gradient factors. In Neural Networks: Tricks of the Trade, pages 207–226. Springer, 1998. [40]
+
+P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun. Overfeat: Integrated recognition, localization and detection using
+convolutional networks. In ICLR, 2014. [41]
+
+K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. In ICLR, 2015. [42]
+
+R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks. arXiv:1505.00387, 2015. [43]
+
+R. K. Srivastava, K. Greff, and J. Schmidhuber. Training very deep networks. 1507.06228, 2015. [44]
+
+C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan,
+V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions. In CVPR, 2015. [45]
+
+R. Szeliski. Fast surface interpolation using hierarchical basis functions. TPAMI, 1990. [46]
+
+R. Szeliski. Locally adapted hierarchical basis preconditioning. In SIGGRAPH, 2006. [47]
+
+T. Vatanen, T. Raiko, H. Valpola, and Y. LeCun. Pushing stochastic gradient towards second-order
+methods–backpropagation learning with transformations in nonlinearities. In Neural Information Processing, 2013. [48]
+
+A. Vedaldi and B.

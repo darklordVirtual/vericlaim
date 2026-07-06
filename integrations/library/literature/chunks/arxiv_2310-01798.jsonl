@@ -1,0 +1,67 @@
+{"fsid": "arxiv_2310-01798", "n": 66, "overlap": 200, "source_sha256": "f1a627b08c0375f627e315772d11582a0deef598aac3ae885c737b0e4b841563", "target": 1200}
+{"section": "", "seq": 0, "sha256": "8a0ac976a3271763291db43bebff6ed121e1b72ac820780b9662ab49be7b889d"}
+{"section": "Large Language Models Cannot Self-Correct Reasoning Yet", "seq": 1, "sha256": "8dcb29e0e92a104b5433ed73e56f4a86cea07d04a715025ee6578db6745a8ed3"}
+{"section": "Large Language Models Cannot Self-Correct Reasoning Yet", "seq": 2, "sha256": "4202fe1b25aab4b86c5674f3fbcb7b058ae8e5b7dedcc0ae6be796362d7f4fe8"}
+{"section": "1 Introduction", "seq": 3, "sha256": "abe22d8d019a87f17aa3ce2809989cc4b32bda095588d7ada1c427316515b9eb"}
+{"section": "1 Introduction", "seq": 4, "sha256": "9abb113c928bf1912f941ea3585aca526afb4b9385816bcbef2ae35f380c05d2"}
+{"section": "1 Introduction", "seq": 5, "sha256": "d1568e49eaf42c2833f23f3765e2928cf537902db64ade67de19186af63352f1"}
+{"section": "1 Introduction", "seq": 6, "sha256": "9b45749038f248825b5832d803cf8d710d6ad948103b7a984443c6c33eaf6c17"}
+{"section": "1 Introduction", "seq": 7, "sha256": "adb0c611049741cd4235b74bfd390dacc75860d3719989a4cf2065c2b3058a9c"}
+{"section": "2 Background and Related Work", "seq": 8, "sha256": "660ff9d4d70b3aff725d87d13be89be72154c698a010be9399c06026d3397f03"}
+{"section": "2 Background and Related Work", "seq": 9, "sha256": "1beb7319860b5aaabe4217d0ea507ab44936d63a8e985e0b732321355347272f"}
+{"section": "2 Background and Related Work", "seq": 10, "sha256": "d53d8c59d8371ec19f868e1c658226cc3461899eb1b0e5ca2cb7df37f5dc5d5d"}
+{"section": "2 Background and Related Work", "seq": 11, "sha256": "d6033daa45ded239e8221feb7d414ab2cea78aa0373817185cc56ef85b719b90"}
+{"section": "3 LLMs Cannot Self-Correct Reasoning Intrinsically", "seq": 12, "sha256": "2279e3850d37843a5918ec776383acdb8b666598e135e9700a2cd951b3f81efc"}
+{"section": "3.1 Experimental Setup", "seq": 13, "sha256": "b2c18e2fb22974028d0ed42068eded8e25b89f61e5bdc26b95cd13c3d65afdf1"}
+{"section": "3.1 Experimental Setup", "seq": 14, "sha256": "b49a19c8a9a6f75293983c96f75a8216560d91c47950c0a38430350fa85b3358"}
+{"section": "3.1 Experimental Setup", "seq": 15, "sha256": "1172e3dd422f91466e0360b76dc7348b55a9bb463b4663a9dce060be81aba5e6"}
+{"section": "3.1 Experimental Setup", "seq": 16, "sha256": "abc95b92cc5b2874b52a0ecb07d299d9e495d460350703af25707e8f4e732602"}
+{"section": "3.2 Results", "seq": 17, "sha256": "5ae982ee5d6773c2a00af31e7cd6abbeb416540772a3008c64a6e48bb795ea09"}
+{"section": "3.2 Results", "seq": 18, "sha256": "000a086ec7ce2b900554549dd99490296c31da81749cf761850d3887092ef4a0"}
+{"section": "3.3 Why does the performance not increase, but instead decrease?", "seq": 19, "sha256": "3e02a72152a962a86109d736c189810eeaf30d95d61b9906a9bc4ee3e0c5b6d3"}
+{"section": "3.3 Why does the performance not increase, but instead decrease?", "seq": 20, "sha256": "3b86a029a73ed767a8ddd8283930a5ebaa43216854bb1d5a9af611d890c810c0"}
+{"section": "3.3 Why does the performance not increase, but instead decrease?", "seq": 21, "sha256": "b2ce37d577897d0942dc010a7a59146e36773a5071dfee8f840e6876b6b03921"}
+{"section": "3.3 Why does the performance not increase, but instead decrease?", "seq": 22, "sha256": "2a66b973ce4564026b41001740e47b14aeea23d1234ad6004614e298ad23618d"}
+{"section": "3.3 Why does the performance not increase, but instead decrease?", "seq": 23, "sha256": "9124e0184f79bb599ae8554238b27f3995a71e11c7f18380eb021c1eee050cb7"}
+{"section": "4 Multi-Agent Debate does not Outperform Self-Consistency", "seq": 24, "sha256": "4888d72889698833cc0e9cfa0eac44f2abfe1cb4c923cbe1798eb8284d5d64f2"}
+{"section": "4 Multi-Agent Debate does not Outperform Self-Consistency", "seq": 25, "sha256": "50a83326a3c15018d3c9182a6bed00478062362339bf6bcf0b3c3d0308d75e88"}
+{"section": "4 Multi-Agent Debate does not Outperform Self-Consistency", "seq": 26, "sha256": "da7ccad656c0279b4a00c1d9fac712285c0f6af47ee5783d7d04094e9a9949a6"}
+{"section": "5 Prompt Design Issues in Self-Correction Evaluation", "seq": 27, "sha256": "b38636f4f75fcea5e3a0a9a642dd2d289aa9d3356fdccba8cf88bda5628fdb3b"}
+{"section": "5 Prompt Design Issues in Self-Correction Evaluation", "seq": 28, "sha256": "5b1f0c75b25e417b127ee405b7f92e9c4533d42dd891cdd702825cfc11534bc3"}
+{"section": "5 Prompt Design Issues in Self-Correction Evaluation", "seq": 29, "sha256": "2dccefa7045db287f3a2b0024cfa244fc25f07d9ffc64015bf616bae28915aad"}
+{"section": "6 Conclusion and Discussion", "seq": 30, "sha256": "a40cb9423ab27ba45534d473c62ae0797c9d41b98a95881b73fb0b1cc0ab91e3"}
+{"section": "6 Conclusion and Discussion", "seq": 31, "sha256": "b1b59a6af3a96e68eac8493f240ae1dd895411fb91e5fc4267b0404c6b11c89b"}
+{"section": "6 Conclusion and Discussion", "seq": 32, "sha256": "82c07ab1616dc1fef7066161421c0267324aa19a0abefbede35ffdbe2f58a727"}
+{"section": "6 Conclusion and Discussion", "seq": 33, "sha256": "cd29a35f95da386f2e97a09decfbb5ff8bc702c9210459a2d8ae4f265198c76d"}
+{"section": "7 Limitations and Broader Impact", "seq": 34, "sha256": "490ddad455738027239b40d77aff1d798c276847e65544f8a37c678de86f9946"}
+{"section": "7 Limitations and Broader Impact", "seq": 35, "sha256": "56d014277a1024520ff145a6108fa83daab6235c624910303236a25210570322"}
+{"section": "Reproducibility Statement", "seq": 36, "sha256": "9c38e81c2212d60bb93735068621708212627efb4f86565bfbdb814f89c4cf27"}
+{"section": "Acknowledgement", "seq": 37, "sha256": "e9f166d85c8ad89abc4c947961fc94008583aaf18a25a5cf4dccaf37b2720589"}
+{"section": "References", "seq": 38, "sha256": "9209b143c0549f5562394628522d7c163c56d2f418f13f692af603256052954d"}
+{"section": "References", "seq": 39, "sha256": "17be5ac133bb0bb86a7c10b1588c2d848291fbac146f8f1d66a28cd252f3589e"}
+{"section": "References", "seq": 40, "sha256": "13791149ea10ed0ee8efe054bc22a5438f5129af1b5e7b371fe6531caf914af8"}
+{"section": "References", "seq": 41, "sha256": "788896abfb044b07b79a448bb694ca5ce0bd983b1a9836bcb0994879e027c0cd"}
+{"section": "References", "seq": 42, "sha256": "a6ee614259e570bfc8ae1372baba9a65b68f1beb13c85e4161ae9fe7f2cfb44d"}
+{"section": "References", "seq": 43, "sha256": "e65816710d637c0a080eb0f144c8e6a7324994984dbaeb065ecdaae339ed60ae"}
+{"section": "References", "seq": 44, "sha256": "49354b09ed215c072a3ab80451b7338d811dc73acda6059aa6eeba1cf7b890ed"}
+{"section": "References", "seq": 45, "sha256": "a0675c3c3d7a0c51f0b80c088837963c0142f4edb985733ce09d383c576180f1"}
+{"section": "References", "seq": 46, "sha256": "a19aad30505a80a3211df00e93c92efd5da62999d7ed73fad2e38bd88294d096"}
+{"section": "References", "seq": 47, "sha256": "a2d448e5847c84f7eed4e5404ddf8ea592bfdf4c21076f1cbf93153680fa8e87"}
+{"section": "References", "seq": 48, "sha256": "dfb402b564d71e0677781ffcd27f6b1a7eb11dae10cc23e476ed6a7baeb26380"}
+{"section": "References", "seq": 49, "sha256": "507a77863fc864cf2c9cedce1f01e67fb4398f4683c6f740e572162508455083"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 50, "sha256": "8a6aefa80979a80a3df24a1062ff3972502340b597fc5955bf5add339806688b"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 51, "sha256": "c43e86875a551aa6c5204b8a391fe418ff594cc3753e6e3321c29570a1cb981f"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 52, "sha256": "4362565936f69e3302b4e871cae4c8fa5ecd66abb981265071a2f641116c8826"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 53, "sha256": "064297f61b9f05ca189301337f49860bcb9b5618337fdbcd2628f1a88a6b3c9c"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 54, "sha256": "48cfa956635017d2ced33f0e9e42a3e0eaa1379eab11ebd7d7cee8a9430d3305"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 55, "sha256": "b28b6aac5446998f80fcaeca863abe54e389c4622f683234f96dcb1e7a558762"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 56, "sha256": "61334e6d456fa2528bb58b7931064c2566568cafe94c517c7f65c6189d459565"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 57, "sha256": "06eee79c03e4764aaa3f5de93bb64db431f9d50bc0e3ffc8a102bc19a8af8cd6"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 58, "sha256": "963ace90598a52b5a43981b8705c4eaa3ada7add8b817a286816e60d8ea1a153"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 59, "sha256": "365e27e6e7fc9548586f86d5c9ee86d3c11125910844aa772f2de08dd5f86d01"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 60, "sha256": "025a973983022bb141c4d5fc630afcdb0fc04da5b56f8131e446421cd632c594"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 61, "sha256": "220a34013eb7439c7ab79d83aad7a67ec5a3adaa35b1fc4941ddf3c611bc18c3"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 62, "sha256": "1f52cd284c156fa77336a3e8e0c857e36be8105b66444c94652fdb2077809c7c"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 63, "sha256": "f7549068ca180054e264ca9a681c8e0015fba64de5bbb8bea161c54068f2cb91"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 64, "sha256": "d84c44c5c3ece690e7555b4e471071903952817ae66ecc52ff4f8d16a2df0fe0"}
+{"section": "Appendix A Prompts and Example Outputs", "seq": 65, "sha256": "2582c2879cd40965791e3653f6c344d4e479e07ced99708d7a325fbd7efdc121"}

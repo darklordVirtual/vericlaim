@@ -1,0 +1,12 @@
+Zaheer et al. [2020]
+
+Manzil Zaheer, Guru Guruganesh, Kumar Avinava Dubey, Joshua Ainslie, Chris
+Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang,
+et al. Big bird: Transformers for longer sequences. Advances in Neural Information Processing Systems, 33, 2020. Zhai et al. [2021]
+
+Shuangfei Zhai, Walter Talbott, Nitish Srivastava, Chen Huang, Hanlin Goh,
+Ruixiang Zhang, and Josh Susskind. An attention free transformer. arXiv preprint arXiv:2105.14103, 2021. Zhu et al. [2021]
+
+Chen Zhu, Wei Ping, Chaowei Xiao, Mohammad Shoeybi, Tom Goldstein, Anima
+Anandkumar, and Bryan Catanzaro. Long-short transformer: Efficient transformers for language and
+vision. Advances in Neural Information Processing Systems, 34, 2021.

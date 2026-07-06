@@ -1,0 +1,19 @@
+Due to some peculiarities in our infrastructure which have since been fixed, at the time we ran some of the machine translation experiments, our models ran faster if every expert received exactly the same batch size. To accommodate this, we used a different gating function which we describe below. Recall that we define the softmax gating function to be:
+
+(15)
+
+Sparse Gating (alternate formulation):
+
+To obtain a sparse gating vector, we multiply component-wise with a sparse mask and normalize the output. The mask itself is a function of and specifies which experts are assigned to each input example:
+
+(16)
+
+Top-K Mask:
+
+To implement top-k gating in this formulation, we would let , where:
+
+(17)
+
+Batchwise Mask:
+
+To force each expert to receive the exact same number of examples, we introduce an alternative mask function, , which operates over batches of input vectors. Instead of keeping the top values per example, we keep the top values per expert across the training batch, where , so that each example is sent to an average of experts.

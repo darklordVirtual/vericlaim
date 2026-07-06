@@ -1,0 +1,23 @@
+(2022); Le et al. (2022a); Welleck et al. (2022)). Alternative sources such as compilers
+Yasunaga and Liang (2020) or Wikipedia edits Schick et al. (2022b) can provide domain-specific feedback. Recently, LLMs have been used to generate feedback for general domains Fu et al. (2023); Peng et al. (2023); Yang et al. (2022),
+However, ours
+is the only method that generates
+feedback using an LLM on its own output, for the purpose of refining with the same LLM. Supervision-free refiner
+
+Supervision-free feedback
+
+Multi-aspect feedback
+
+Iterative
+
+Learned refiners: PEER Schick et al. (2022b), Self-critique
+Saunders et al. (2022b), CodeRL Le et al. (2022b), Self-correction Welleck et al. (2022). or
+
+or
+
+Prompted refiners:
+Augmenter Peng et al. (2023), Re3 Yang et al. (2022), Reflexion Shinn et al. (2023). or
+
+\ours (this work)
+
+Table 3: A comparison of \oursto closely related prior refinement approaches. Representation of feedback. The form of feedback can be generally divided into natural language (NL) and non-NL feedback. Non-NL feedback can come in human-provided example pairs Dasgupta et al. (2019) or scalar rewards Liu et al. (2022); Le et al. (2022b).

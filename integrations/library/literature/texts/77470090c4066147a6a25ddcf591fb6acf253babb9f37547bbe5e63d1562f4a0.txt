@@ -1,0 +1,17 @@
+In Proceedings of the 55th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), 2017. doi: 10.18653/v1/P17-1015. URL https://aclanthology.org/P17-1015. Lu et al. (2021)
+
+Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, and Pontus Stenetorp. Fantastically ordered prompts and where to find them: Overcoming
+few-shot prompt order sensitivity. ArXiv, abs/2104.08786, 2021. Meister et al. (2022)
+
+Clara Meister, Tiago Pimentel, Gian Wiher, and Ryan Cotterell. Typical decoding for natural language generation. arXiv preprint arXiv:2202.00666, 2022. Miao et al. (2020)
+
+Shen Yun Miao, Chao Chun Liang, and Keh Yih Su. A diverse corpus for evaluating and developing English math word
+problem solvers. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, 2020. URL https://aclanthology.org/2020.acl-main.92. Nie et al. (2020)
+
+Yixin Nie, Adina Williams, Emily Dinan, Mohit Bansal, Jason Weston, and Douwe
+Kiela. Adversarial NLI: A new benchmark for natural language
+understanding. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics. Association for Computational Linguistics,
+2020.

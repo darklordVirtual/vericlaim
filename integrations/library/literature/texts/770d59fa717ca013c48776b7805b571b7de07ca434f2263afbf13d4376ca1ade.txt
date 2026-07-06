@@ -1,0 +1,21 @@
+Edward Hu, Ellie Pavlick,
+Aaron Steven White, and Benjamin Van Durme. Collecting diverse natural language inference problems for sentence
+representation evaluation. In Proceedings of EMNLP, 2018. PKL+ [16]
+
+Denis Paperno, Germán Kruszewski, Angeliki Lazaridou, Quan Ngoc Pham,
+Raffaella Bernardi, Sandro Pezzelle, Marco Baroni, Gemma Boleda, and Raquel
+Fernández. The lambada dataset: Word prediction requiring a broad discourse
+context. arXiv preprint arXiv:1606.06031, 2016. PNZtY [18]
+
+Matthew E. Peters, Mark Neumann, Luke Zettlemoyer, and Wen tau Yih. Dissecting contextual word embeddings: Architecture and
+representation, 2018. Pos [18]
+
+Matt Post. A call for clarity in reporting BLEU scores. arXiv preprint arXiv:1804.08771, 2018. PSM [14]
+
+Jeffrey Pennington, Richard Socher, and Christopher Manning. GloVe: Global vectors for word representation. In Proceedings of the 2014 conference on empirical methods in
+natural language processing (EMNLP), 2014. QIA [20]
+
+QIANXIN. Sa-net on albert (ensemble), April 2020. QMZH [19]
+
+Yusu Qian, Urwa Muaz, Ben Zhang, and Jae Won Hyun. Reducing gender bias in word-level language models with a
+gender-equalizing loss function.

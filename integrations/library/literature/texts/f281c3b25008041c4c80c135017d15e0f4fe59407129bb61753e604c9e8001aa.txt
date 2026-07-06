@@ -1,0 +1,17 @@
+Andor et al. (2019)
+
+Daniel Andor, Luheng He, Kenton Lee, and Emily Pitler. Giving BERT a calculator: Finding operations and arguments with
+reading comprehension. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), 2019. URL https://aclanthology.org/D19-1609. Asai et al. (2020)
+
+Akari Asai, Kazuma Hashimoto, Hannaneh Hajishirzi, Richard Socher, and Caiming
+Xiong. Learning to retrieve reasoning paths over wikipedia graph for
+question answering. In International Conference on Learning Representations, 2020. URL https://openreview.net/forum?id=SJgVHkrYDH. Bar-Haim et al. (2006)
+
+Roy Bar-Haim, Ido Dagan, Bill Dolan, Lisa Ferro, Danilo Giampiccolo, Bernardo
+Magnini, and Idan Szpektor. The second pascal recognising textual entailment challenge. In Proceedings of the second PASCAL challenges workshop on
+recognising textual entailment, 2006. Batra et al. (2012)
+
+Dhruv Batra, Payman Yadollahpour, Abner Guzman-Rivera, and Gregory
+Shakhnarovich. Diverse m-best solutions in markov random fields.

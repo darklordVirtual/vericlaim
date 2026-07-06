@@ -1,0 +1,19 @@
+Optimal space lower bounds for all frequency moments. In SODA, volume 4, pages 167–175. Citeseer, 2004. Wu et al. [2019]
+
+Felix Wu, Angela Fan, Alexei Baevski, Yann N Dauphin, and Michael Auli. Pay less attention with lightweight and dynamic convolutions. In The International Conference on Learning Representations
+(ICLR), 2019. Xiong et al. [2021]
+
+Yunyang Xiong, Zhanpeng Zeng, Rudrasis Chakraborty, Mingxing Tan, Glenn Fung,
+Yin Li, and Vikas Singh. Nyströmformer: A nystöm-based algorithm for approximating
+self-attention. In Proceedings of the AAAI Conference on Artificial
+Intelligence. AAAI Conference on Artificial Intelligence, volume 35, page
+14138, 2021. Yuan et al. [2021]
+
+Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi, Zi-Hang Jiang,
+Francis EH Tay, Jiashi Feng, and Shuicheng Yan. Tokens-to-token vit: Training vision transformers from scratch on
+imagenet. In Proceedings of the IEEE/CVF International Conference on
+Computer Vision, pages 558–567, 2021. Zaheer et al. [2020]
+
+Manzil Zaheer, Guru Guruganesh, Kumar Avinava Dubey, Joshua Ainslie, Chris
+Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang,
+et al.

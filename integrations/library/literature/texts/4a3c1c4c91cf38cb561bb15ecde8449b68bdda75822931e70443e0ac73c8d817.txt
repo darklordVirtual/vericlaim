@@ -1,0 +1,2 @@
+is provided in Appendix F
+We used the same prompts from previous work when available (such as for Code Optimization and Math Reasoning); otherwise, we created prompts as detailed in Appendix S. We use greedy decoding with a temperature of 0.7 for all setups.

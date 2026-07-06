@@ -1,0 +1,251 @@
+{"fsid": "arxiv_2005-14165", "n": 250, "overlap": 200, "source_sha256": "c861e04813cdc038d9763651e06706f4c65846d1471da8e09f7ba1bdef35e722", "target": 1200}
+{"section": "", "seq": 0, "sha256": "fe316b6a58b8ee7744e25feefddd4900bf2de73837e442606dacd0ebc380707f"}
+{"section": "Language Models are Few-Shot Learners", "seq": 1, "sha256": "fd2dc08be5d5699e318760175280456c7ef8e5144bbda3e427a659010e6ce531"}
+{"section": "Language Models are Few-Shot Learners", "seq": 2, "sha256": "f8a24c28a2c25994fcab90ca42f21025ed020db007cfb962bc4c7ffcd183b180"}
+{"section": "Language Models are Few-Shot Learners", "seq": 3, "sha256": "7701ea3af9620a1fea3321cacc8fec3b28e321e2bd9701aaaef1a98f3e0da878"}
+{"section": "1 Introduction", "seq": 4, "sha256": "c863b6c9bb4cda9c2e87e48c4764f1de1babda74559f7dec679d67fd6b0824bd"}
+{"section": "1 Introduction", "seq": 5, "sha256": "d07cb34d59622e3c28c4f25958a3aacd8f8eea60cf644cd6ecee4a384e313ecd"}
+{"section": "1 Introduction", "seq": 6, "sha256": "6a8f0de53377603afce8d1060ab4e101a44f91e8ef2c82332df4776309407d4f"}
+{"section": "1 Introduction", "seq": 7, "sha256": "bc31dfac42bb2713c8603280ebea62e082936179fbeda299e8f0c72964f1ca00"}
+{"section": "1 Introduction", "seq": 8, "sha256": "2558114e79ad5c022b282358baf620c37f6254937456ecd0614a8ccfa0ef2eb5"}
+{"section": "1 Introduction", "seq": 9, "sha256": "37ede6c62c4376daeb3195f4cea1b769362f6ada7035d731f424cadb87b18616"}
+{"section": "1 Introduction", "seq": 10, "sha256": "7cf42c13ce460c894628698517db6cd63772373a33dc09fa532b644d704b3709"}
+{"section": "1 Introduction", "seq": 11, "sha256": "18fd1116bed34813ab3bcd815d35a1cf77c7191534bcdb39babb2b9aed5849fe"}
+{"section": "1 Introduction", "seq": 12, "sha256": "faddd4b8c951ead11990d6b0ed51f1c924098945f41b966d1c09dd60645e07ee"}
+{"section": "1 Introduction", "seq": 13, "sha256": "bfbe4f4aa20664503aafe662da08a8be5cd971ceec412b287dbeddb88b71a994"}
+{"section": "1 Introduction", "seq": 14, "sha256": "2787c55d2fd4c7e12061dd63519074214a2b5d1f3ddbedf7ea2cc11898b113d9"}
+{"section": "1 Introduction", "seq": 15, "sha256": "8650ba3d842f7ee562eea8561dcc02723474cc861a37013e9fa487c272231f5d"}
+{"section": "1 Introduction", "seq": 16, "sha256": "17eac63a5390436319e2d9648a930aad0400324df23285c1eea89d9e092255a9"}
+{"section": "1 Introduction", "seq": 17, "sha256": "1a1f3d38204455eec34f696f96e434d22e1cda4d7f838131bcf222fe457415dc"}
+{"section": "2 Approach", "seq": 18, "sha256": "38f3314264dc5be4018e67f615a4c08a4f735b2073bcc2f24c3fa42550fb541b"}
+{"section": "2 Approach", "seq": 19, "sha256": "a19e0d34104b7b437b15377377eef7bc081aefa66a265871e16c04a1a6c30b29"}
+{"section": "2 Approach", "seq": 20, "sha256": "0c0fadbe18b319f543364c0de6ec3e60d22392324286c335176e1ac7b0fcff23"}
+{"section": "2 Approach", "seq": 21, "sha256": "36194b037e2bdadc55adfec24d39a18b544a925ea8eb0ef96fb34a2829473c7f"}
+{"section": "2 Approach", "seq": 22, "sha256": "9a12a81600f1f0939220389388ac31a0b794a00ba4989d960b4fea17c199b61c"}
+{"section": "2 Approach", "seq": 23, "sha256": "afc814fd2199e887248e053d4732553f89b1af5710a8675f652985bf88f2d5f8"}
+{"section": "2.1 Model and Architectures", "seq": 24, "sha256": "320138c09af086d3930551c9704feb003efe968b115c038adf7260400a9c328e"}
+{"section": "2.1 Model and Architectures", "seq": 25, "sha256": "82992c9a50f909888cdb905736aaf6ddd26bb4e022c8832a4cb70479418e1628"}
+{"section": "2.1 Model and Architectures", "seq": 26, "sha256": "7614fbc37f2502d016933a57b4905eb2a5f008c8d0f1d52cb37804507a38f8ee"}
+{"section": "2.2 Training Dataset", "seq": 27, "sha256": "d9e6aefaba32a066cdc9a5de5b4f9c0debdf04954d15aea4c27432bd0ecfa487"}
+{"section": "2.2 Training Dataset", "seq": 28, "sha256": "9fe012d5f7f7a385dc306cd53950bca0197234a05a20db29f1462c9c4f30985a"}
+{"section": "2.2 Training Dataset", "seq": 29, "sha256": "a1068c1e3e70fd0b3ce64887b82e2c01438ad6d965436ba31740d2d491386f0f"}
+{"section": "2.2 Training Dataset", "seq": 30, "sha256": "1f8acec5ec4a56acf8b874b24f2012bf379f22c11c444bde172a9edbd85c21f8"}
+{"section": "2.3 Training Process", "seq": 31, "sha256": "126efe9894ef7357e5a4be386811a03f8f88d55f9b29d7d29f9aeb492a8a0a9c"}
+{"section": "2.4 Evaluation", "seq": 32, "sha256": "420cc422c278b42e2922d3847d954aebf890fea5a60168c8442f11657babe4ff"}
+{"section": "2.4 Evaluation", "seq": 33, "sha256": "62c5c9fb8adc6a8df5c46b29648ab1859841f1e39b412956fab363e74698c3c9"}
+{"section": "2.4 Evaluation", "seq": 34, "sha256": "96b9271c4a01387b6caba2be0f4c99d6f953cd9e6fc554f748f8e909021bea64"}
+{"section": "3 Results", "seq": 35, "sha256": "7140e7870a2366adbe6d6c58212e9b2e03e0d33fbc85a87cd158f9d21f82e65d"}
+{"section": "3 Results", "seq": 36, "sha256": "c218fb673c0bac9c19e8cff406ab6e24d99e8b5d041ee07d7b288220fe7645f7"}
+{"section": "3 Results", "seq": 37, "sha256": "200f1f241f55060b3dcb0e49f4e7507b31e0d3950fd7da44d27de8fb54f1a65b"}
+{"section": "3.1 Language Modeling, Cloze, and Completion Tasks", "seq": 38, "sha256": "59b43a6b784c7ba41df8a77ce8247b22576c3234e1815bcea72681b88805e2e0"}
+{"section": "3.1 Language Modeling, Cloze, and Completion Tasks", "seq": 39, "sha256": "761191ad55ae6d089731cc6971e2f1aac6ff5ac7383ea8041ebafbb579091e0f"}
+{"section": "3.1 Language Modeling, Cloze, and Completion Tasks", "seq": 40, "sha256": "1f55fe458e4a2c83861e53da012c2a6bc20b69026787023f98deb564997b9dd5"}
+{"section": "3.1 Language Modeling, Cloze, and Completion Tasks", "seq": 41, "sha256": "5957267ef7d853b77eec6a6cd115aecd03978945bfe3d7ba15f360ef60d78527"}
+{"section": "3.1 Language Modeling, Cloze, and Completion Tasks", "seq": 42, "sha256": "c4f1e87c4f0dbb0a11c993a8ba14a3594f13736d7f1be356d27ace84bbcbc2c3"}
+{"section": "3.1 Language Modeling, Cloze, and Completion Tasks", "seq": 43, "sha256": "1aee00b3a9c019341dccfc7c4312e2dff780e2e68041135c2d9b0516cfc655a8"}
+{"section": "3.2 Closed Book Question Answering", "seq": 44, "sha256": "d02359aaae22e9e80bbccfb4658dbc86d2cf77df04d0f552caa65362cd6df35c"}
+{"section": "3.2 Closed Book Question Answering", "seq": 45, "sha256": "2641935fd18735e57d43c844e495a124a4228d69c1a31f6e282d7b32810a5684"}
+{"section": "3.2 Closed Book Question Answering", "seq": 46, "sha256": "4845f982f789571b949b7a6536338cdd179d382f19deb1510570b866b97ce6cd"}
+{"section": "3.2 Closed Book Question Answering", "seq": 47, "sha256": "8a0d25b3a8a1f5454dd65d908eb942db6fac43846d469d2a7925c59881d85bd4"}
+{"section": "3.2 Closed Book Question Answering", "seq": 48, "sha256": "1b64046ba6ffda1e11a5d5ae5022495606368a3fb0238e3bad532fbd7c9f6170"}
+{"section": "3.3 Translation", "seq": 49, "sha256": "f74a260791dc89b570adcd461afe646a5152034fc9e7616c1b27698f9bfb1d0f"}
+{"section": "3.3 Translation", "seq": 50, "sha256": "e777696402dbda9fe2fe9013b8377dcbf2a79bf1f3aa291ca28280a811356cf5"}
+{"section": "3.3 Translation", "seq": 51, "sha256": "81c64d5a855928bbb7eb533fc7be6cc4501c65fac882c520f6f57cf6466199ba"}
+{"section": "3.3 Translation", "seq": 52, "sha256": "ba6dd7a40b0110f2e489408b5468beafdf86c3306f76dbb0e358cb04ec104fc0"}
+{"section": "3.3 Translation", "seq": 53, "sha256": "e0d644a42f290e725ad23573c7e7d6dfb9c7419eef440f9e59f7b02e73faeefc"}
+{"section": "3.4 Winograd-Style Tasks", "seq": 54, "sha256": "c1dfe46f1f2152b7d1fd91b1e2bf14636c23abf56d6638773575eab3330df3d4"}
+{"section": "3.4 Winograd-Style Tasks", "seq": 55, "sha256": "9fcfc9a58df555b67cca84f5e8991fbcb68483686d9b431efd1e00eb90f87aec"}
+{"section": "3.4 Winograd-Style Tasks", "seq": 56, "sha256": "866798e0d20cf15b9a94243b03fc06167a943a73472e935008157eb226d198b4"}
+{"section": "3.5 Common Sense Reasoning", "seq": 57, "sha256": "0151dd25ac35fcbe0ace9ae2f3efdd7d3278bbcf28a66462968e377659404faf"}
+{"section": "3.5 Common Sense Reasoning", "seq": 58, "sha256": "f9adb1f22f6bd798f0c063bb62904d10cea9b8b866ca6a859d4731cbd8d99487"}
+{"section": "3.5 Common Sense Reasoning", "seq": 59, "sha256": "6db2b2b967ca78e9d73064ebf6428decf3ee187a9519aff36af7b7c2f2d6045d"}
+{"section": "3.6 Reading Comprehension", "seq": 60, "sha256": "9234037cba2b7c67f7ff10d73fbcfa5797d7c7f15cbd467aaacd689ac156e41d"}
+{"section": "3.6 Reading Comprehension", "seq": 61, "sha256": "d9cdf1535a6766b605b29966d87acba46479ed4459c6f3f2715b0aee0a125377"}
+{"section": "3.6 Reading Comprehension", "seq": 62, "sha256": "b237d505a5ccc016e6e6520414ebce7e6253b97f6722125068e3974bb40a9267"}
+{"section": "3.6 Reading Comprehension", "seq": 63, "sha256": "28887a5c1dbbb8470b436a5917d683e9861eda94614f8d065c5ca8f1516d6f9f"}
+{"section": "3.7 SuperGLUE", "seq": 64, "sha256": "a76ea7bb0f02758ca9bbd2b1c658dde2fc70173cad970fbd30564fbc63d24fb1"}
+{"section": "3.7 SuperGLUE", "seq": 65, "sha256": "fa81a6bf5683f95f558a390f855bc034af732d6e2a9d438cb15e5271f81cedb3"}
+{"section": "3.7 SuperGLUE", "seq": 66, "sha256": "92f8c112438af57665aeadd3a16a886a17b6d35df6ee8974d1349780f3f2f0b3"}
+{"section": "3.7 SuperGLUE", "seq": 67, "sha256": "f9ee3a53d3c65d55d6e72cc797f0f46b9736fa0881b604f5c547ba7da0286c04"}
+{"section": "3.8 NLI", "seq": 68, "sha256": "85bc027a0760665a944a8b37f06ab0701f66c791587a4c25cb590a6849379780"}
+{"section": "3.8 NLI", "seq": 69, "sha256": "d4117a4ec16adaef38849cabc04827c7adc2b696393b81e04b9aa22cef793180"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 70, "sha256": "fd4afbdcbafdc2b52e2076c1bd2708e6752882eaa440d76d0a8c8bf3c38bdadd"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 71, "sha256": "6f907e2135588aa78fb3558dd0138e455a71d0f67ec8a1b5a9f129bb8f14d876"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 72, "sha256": "6297f1faec0e5a65bd26234eaf1b4ac1098f04bb91d2a65cde5c974234a0d675"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 73, "sha256": "4d22baa0ba3821957d57e77a58d424bb2ec8a47e44db0acda609b58f9560c80c"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 74, "sha256": "8d85e1c76ab7966d8cc45e803599dcdfe5cb1395e026ba33c00f1c5f484a76bb"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 75, "sha256": "906a85cd3e2ab95db6397186b7172e88bdae608be575f53f08949f4198a3aaa2"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 76, "sha256": "d76f161999c40696e02b75a4efd3c6b3ad245fd93934fcfabee47359d286bfec"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 77, "sha256": "79e2ee8d66b5c2f2e91d94c93b4f83f7905e6bab0884857405420ddbe3bdd838"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 78, "sha256": "45c28294d2fe94011e42a4dccf011349fd8969e1a83ef79f51ebc1fb9678d70d"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 79, "sha256": "0d8d2cbf0fc4cc2c7e4c8914499dd3a3f721c5ba485f9aa2b86600cba24a000e"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 80, "sha256": "b558db3d2e3a1dc2ec4a8345f8fc7e9a4f2641f70be9a2b5672ff01435990c82"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 81, "sha256": "5cb5b38e1882cfbf917d8af473d40bc5dfe01780f03690625dd613bc3a9c9b55"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 82, "sha256": "9f4ceedb82300b5e8ac823441b4540d5b85870309326d93400d45f38f01d69fa"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 83, "sha256": "ad8be8257d33690a186d48507c7c6bff54730911a2b8a5fc341d89e732fa81b4"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 84, "sha256": "3a6f17a6bc9b0adf420e6a3e2d522baf4c14834c6234b9c138dfb0d563e79d3e"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 85, "sha256": "990d478c83cd63c89a79534cb04bf1f83b1056b7783630a95d834898f7ff0b80"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 86, "sha256": "b2845f69f69499d0069c283042bcb57d05b7578e76894171dfaced784acb8ab8"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 87, "sha256": "832951618897b6e209deff945d9761632a55ecb9a912adae056ce1bc9e8ed264"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 88, "sha256": "5e2df3d2ad4bb04fc0a045f6e28d9d31f9d00517ec602c529adca986cbdcd54d"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 89, "sha256": "b5232cb62b879e74091b99ab3bee2a5acb6b69973766f33227962dd5bf339056"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 90, "sha256": "d686d9a488efb75e2aae5ddc5a990f49cd3bd2e27b61bbd0235185b2417be0d6"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 91, "sha256": "9cc223d9f962d81ef23d74d13a0e5aec077b311afbd6c7377c7f21264c0cf215"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 92, "sha256": "1f40258f3893a4b4a6a9cccbe1c606b3d870658b8b2516e71d7b2945a1248414"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 93, "sha256": "7082e17e76836e1a275fed0d2ed00243923272bf96dd754c1691b7cd598e5f88"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 94, "sha256": "27473c48f908a69958b44f3e93fa7ac8853ac974cad41d5c9639edd0550faa61"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 95, "sha256": "a8df5928d1bbeae0e31fcf39bbb9f4b6e081ebec231f39bbcfbfc1734e34a45d"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 96, "sha256": "487edaaa3d2826fb86541aeb34744bededadb45cd8ea742e2bfeec55cc826d5e"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 97, "sha256": "220603812341d588d0842bb500c5c5206fb74e8e48e51a463f8803f31175a14b"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 98, "sha256": "432f248273df49e9d11482e8e367f4daf1e1c179c302fa3e169e84b14cc1a57f"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 99, "sha256": "32c778d193a2497aa606dc3b7659f69a9f7760ef7c449910a312b8300cb7f519"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 100, "sha256": "e6f94ce32df7e120f06af3efd80c80cc0db012e29e0a10f973a8654fdf85a0ba"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 101, "sha256": "53d32c41cc273f12c62ac895254a18d5f4f415f82ff0a6b62fb5ff71ec7844f8"}
+{"section": "3.9 Synthetic and Qualitative Tasks", "seq": 102, "sha256": "93e493a97a60a6983b406426d0a3b6f81bb5a383063fa5127a7403c53db0a383"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 103, "sha256": "58734110d7a0cfe52c971ab46775ee3f0f7e8db411f2edc9f1cb9584caaddf6f"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 104, "sha256": "372b5cb5248555740fc0fd7ced3088470365f5228092e216180a0f0f8350ae0b"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 105, "sha256": "8ac23a3c9b137f4f2e31b2221e78ac7a63ddca6f1bf10ef57c8bf84e61ca1c65"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 106, "sha256": "c2fc2c68f7f1b32d75a551aefe34a118b02977283d00cede9f7ff7dd01c945db"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 107, "sha256": "818eb25aa876cfed8644f17bda7023f953e541436c6b642217f24c87cb213715"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 108, "sha256": "2319285667b8631f9d7334d1452d288f62a348c9539d80eb338f34dd48ceed9d"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 109, "sha256": "f1e9e981e67e150723a83563589ea355277d6cf50d93fae6c33b6ad576b93f6f"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 110, "sha256": "8776e2bd7c76bbc03cf469c6b78ff46b29ac65c68fe76307b6b581275cba4e59"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 111, "sha256": "fc11b51969338671f4180731ec457a3cfd3bc0f242f230183e5b2aff2170ef95"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 112, "sha256": "6ec13d92592fc49e4013e9a0f2692a4bc5a4e38c7662917c4cfaddeec5e745a3"}
+{"section": "4 Measuring and Preventing Memorization Of Benchmarks", "seq": 113, "sha256": "d20f0377a9fa59574f823ec0046f85bcfad6bc46f0cf1b55193a72f607f6d187"}
+{"section": "5 Limitations", "seq": 114, "sha256": "ac8140b39b1de8afa0a1ac9bec7f88a6070180f4d8a80ac2dcd93062cc76f397"}
+{"section": "5 Limitations", "seq": 115, "sha256": "2534bb154621ca0316d440b8cf780d2df0ffea7c3d86c50f5414232cf2d6df6f"}
+{"section": "5 Limitations", "seq": 116, "sha256": "0f717c7fb685dda0cb1870564ee6751988a905fdafde022470e400840984c686"}
+{"section": "5 Limitations", "seq": 117, "sha256": "cbadb41e01869fa7cf429bbc526e00a77e012a68bb8f1958cce1a85f2aa69c52"}
+{"section": "5 Limitations", "seq": 118, "sha256": "4edd6a2516a188f32f34a1576e5cd6c209c92ae7884218d2fa098ce073c04c77"}
+{"section": "5 Limitations", "seq": 119, "sha256": "d2e6c32a7b656f5422d391b8b1c63a736a8e4b7d1a1e5691fe73497dff7faa92"}
+{"section": "5 Limitations", "seq": 120, "sha256": "90fed4d839fcdd97e79980deb8d04dd84379aacdf32e1538c95eb771982ad78b"}
+{"section": "5 Limitations", "seq": 121, "sha256": "db9e9244d1b0f13e17e2aee09a188699c9fae574d804c1e1e1a06a91ac791028"}
+{"section": "6 Broader Impacts", "seq": 122, "sha256": "1591955f6deebec0413ef3b0a802112425ec0c9bf636afe5dba066be3b9abf0d"}
+{"section": "6.1 Misuse of Language Models", "seq": 123, "sha256": "4a3e0d90ba2b311da950f512adfed8cf87754785aea0fd43ebaa7758bb62034c"}
+{"section": "6.1 Misuse of Language Models", "seq": 124, "sha256": "c33ea1e6c37d87948499fe5abfc8b2280d2123cff2c1eacc956d83c214774f57"}
+{"section": "6.1 Misuse of Language Models", "seq": 125, "sha256": "0289f51883b849b4897864abfe9063ade2a4e2df73ed4c3164ac934a3fbb6401"}
+{"section": "6.1 Misuse of Language Models", "seq": 126, "sha256": "2154ded93dc5af1995152c806c0eb184c470b1760d1d8e907bcb3212072c2717"}
+{"section": "6.1 Misuse of Language Models", "seq": 127, "sha256": "f22e566efd513ef498fac78ce3ea92a2d4de467ee5c0fe3e3365b64070adbcd0"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 128, "sha256": "623124651cf3a9df72bca76228c6cf5d53dc6335385ab13862e5d4d646bcc292"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 129, "sha256": "ca348df6210aa67f72c598adb83492edb42d51508e28ddb65986e21f1aaef2a8"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 130, "sha256": "3c8b931933c68dcb2ab4cb0b3f3829809041f291d33d744f4617d357ed2ec3d5"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 131, "sha256": "93f92fccb04c6652015ad15fa48544f76790a78421a43c4837ff78f17b1d8b87"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 132, "sha256": "0fe5ac01ee475a9c1e3f036c16467fec40f9b9e39050a1f101f833408f654685"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 133, "sha256": "78c0158918d9f2689d6a6f94c0a3645a956c47e751d8da37a978c122e781daec"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 134, "sha256": "c643673eb557ee2988f48f570f7a4025d3b3ea2264ba206ef8cb0f1a31d49bbc"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 135, "sha256": "8fcb314b6560e4350b2d599c87acf9e48db02ece479ebcc746549a27d5280bc1"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 136, "sha256": "9b88bb0ec60771428c05e6a4b340225f4a3568585f5cc07b17a9ce4bc968d9d2"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 137, "sha256": "43504f699f8749b4d62cb52b56e9011e60cacf3c3c865020b07095b45cac1741"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 138, "sha256": "4e512f6f64205e94844b51a09cd7619877a7758210d799c8cd0fd0919e5aab47"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 139, "sha256": "030cc3a488227fc4b2e5402ef84dcae37394a2d0c522f74aa13ccf58a3a4beaf"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 140, "sha256": "0d4aefce033897ade3264f4a681f1785c3c1f1b966247419c830174c94de7523"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 141, "sha256": "d3c929bb64ff003c51b23004dd273d0077d8a0c3b887a1c8fdeb91f2c85f8177"}
+{"section": "6.2 Fairness, Bias, and Representation", "seq": 142, "sha256": "e553f17092eb8bda8b38fa4ccef937d14f8ce1620b1ec736663377f504a4ccbd"}
+{"section": "6.3 Energy Usage", "seq": 143, "sha256": "2f83f1fa54c9087196f0664a9b67a6a0a42e630be3a5e3c8743c5c362a8d8d0b"}
+{"section": "6.3 Energy Usage", "seq": 144, "sha256": "b71b73451ec19a06e92bef4922eee210b55f52fa5dc2507a45ecbd58e3bd13df"}
+{"section": "7 Related Work", "seq": 145, "sha256": "396993ef34596ffdd209779c6611a4ee5120bdb15f1f8e8e3eab5b2287048202"}
+{"section": "7 Related Work", "seq": 146, "sha256": "90b0dc708ab185e9bc145eda45ade86b461b64df6697f847535d4ee1d016556e"}
+{"section": "7 Related Work", "seq": 147, "sha256": "0bf05c3f18877d49906fd706617d89882f54af52c7767eb6c0ace65ce6754f60"}
+{"section": "7 Related Work", "seq": 148, "sha256": "cd798727a558d3dba52b694358fcb376eaf8ae1e74d600f4f6fedddbe2b1040e"}
+{"section": "7 Related Work", "seq": 149, "sha256": "7d4feb4716602c9035daed2869ce84a2fc2624e7de4da5e4ff2b95853cd0a273"}
+{"section": "7 Related Work", "seq": 150, "sha256": "240e02c12ef312f4b4d8174b85dfa806ac0c32f46b21e7232f1d55a57d380886"}
+{"section": "7 Related Work", "seq": 151, "sha256": "6e66a7c01cd67dbe5d2c16b504152c8d65efd7c7fb4a6a58d374707a79636131"}
+{"section": "7 Related Work", "seq": 152, "sha256": "fd422c83656fdcb7e871d2ec748e2e84ddd2c6469208784d5dd19c6bb9eebc31"}
+{"section": "8 Conclusion", "seq": 153, "sha256": "d83bbb9b05d2250b26b038487218ca7bf1d9082d63754cfd742d03c67f3c3361"}
+{"section": "Acknowledgements", "seq": 154, "sha256": "c7fe256eff5ef216dbbc594736168375cd6a1a6f4f492457f0ee8512e8e528f6"}
+{"section": "Contributions", "seq": 155, "sha256": "2cbe1839ed19f96dd6b3c84f8cafd86b0d012a6e2e27609e01c989a521cf5f2c"}
+{"section": "Contributions", "seq": 156, "sha256": "e4b98ab1b31073284f66868bf39e001b2fa604cf8d4b959c81c12a8aae57f383"}
+{"section": "Contributions", "seq": 157, "sha256": "96db9e03b08a2f94d7624b447c0ba5356f4ae42a0e222c3ec4af9fb84a7cf448"}
+{"section": "Contributions", "seq": 158, "sha256": "866c99b6b7218c459502d98bd86dc39de84910a0ad0b38682c1cc04ee6dde15c"}
+{"section": "Appendix A Details of Common Crawl Filtering", "seq": 159, "sha256": "641dc31a7ea6e72c84e06523dd76909a31148a3a61a8a70b1b310a1fc067b946"}
+{"section": "Appendix A Details of Common Crawl Filtering", "seq": 160, "sha256": "73e66ec3c87f9deafd9d726e11393fbbdee4d433735515d70355b343bbb744e9"}
+{"section": "Appendix B Details of Model Training", "seq": 161, "sha256": "e194d42fe8c09c0ddf8f075e88b73bb796c08a46f7848bab7fb18aece337c430"}
+{"section": "Appendix B Details of Model Training", "seq": 162, "sha256": "d3a4e994ebc7036341e5f28e29d14d5717f734c7c66629ab33982c23901f72dc"}
+{"section": "Appendix C Details of Test Set Contamination Studies", "seq": 163, "sha256": "ec59f3d06ba6b6a18d2e3e0e5f7189f46076127b064f5959c0d2e5f33abdc03a"}
+{"section": "Appendix C Details of Test Set Contamination Studies", "seq": 164, "sha256": "93e2af490610df491cd30f3cb8ff7474bf1975e206e6b1d895167d8e9cad2da7"}
+{"section": "Appendix C Details of Test Set Contamination Studies", "seq": 165, "sha256": "94fd2146f1f03aa39fc675daa17aed37bf28d6ea3a8fb144195abe289ae4cd9d"}
+{"section": "Appendix C Details of Test Set Contamination Studies", "seq": 166, "sha256": "22f80406552d709f226089e2c33617b7aec6b68a624a107f70ee7d27bd98914e"}
+{"section": "Appendix C Details of Test Set Contamination Studies", "seq": 167, "sha256": "08c6f082551130bd561e5c919677e65ead825060842ae20611ae7dc5b14cd619"}
+{"section": "Appendix C Details of Test Set Contamination Studies", "seq": 168, "sha256": "26aa7faa462732b4be3f1124d536e036c3775de2b8878c89b3a87c5ca08dfd09"}
+{"section": "Appendix C Details of Test Set Contamination Studies", "seq": 169, "sha256": "5b416122e7c008f7bbc58fad53eed862f73c9adcf0521f829e9b6a625cec7e94"}
+{"section": "Appendix C Details of Test Set Contamination Studies", "seq": 170, "sha256": "fdc4f6365bafacc41136039c153a1d49cfea8c9fb37d40b36de1446833dce8f5"}
+{"section": "Appendix D Total Compute Used to Train Language Models", "seq": 171, "sha256": "2cf3a07f0be65d47708dc5e835ea00ae07c4fe9c46755be58e4b5ffb25e19aa5"}
+{"section": "Appendix D Total Compute Used to Train Language Models", "seq": 172, "sha256": "5a8330ec6e63b64c5b5e86ed44dbc8191a4d62b40edc7da99dcb343d2bc23ee4"}
+{"section": "Appendix D Total Compute Used to Train Language Models", "seq": 173, "sha256": "4aa9a1093a7ff636ff9601d4bf0989bd1867a20da5b9f3a4b8a3121b29dae354"}
+{"section": "Appendix E Human Quality Assessment of Synthetic News Articles", "seq": 174, "sha256": "f962f17dad8c3ae6fcf0ea60a815a6f48f8736b328e320a51ff174b2f1bf619a"}
+{"section": "Appendix E Human Quality Assessment of Synthetic News Articles", "seq": 175, "sha256": "3af30b24505f4575b99166af18e869cd68f87c7373aa239c8d60255baaa2399a"}
+{"section": "Appendix E Human Quality Assessment of Synthetic News Articles", "seq": 176, "sha256": "33cf6fb8ca9c849aee01443f1f33c57ea98f33734e10fb341c8f6c2798b5b52a"}
+{"section": "Appendix E Human Quality Assessment of Synthetic News Articles", "seq": 177, "sha256": "3b65b9442631b9c2fc811ef6dfad084a0bef8bfb43bbbc3ad692181c13bb115a"}
+{"section": "Appendix E Human Quality Assessment of Synthetic News Articles", "seq": 178, "sha256": "ce16ff0928d68c2a50dca6cb14e7b1d850de87a4f2cd5a4265c9bbc3f529ebae"}
+{"section": "Appendix E Human Quality Assessment of Synthetic News Articles", "seq": 179, "sha256": "8175ce6c4058ae39dccf5f9c438fa02daf98a05494c244aa22ad294963d7fd5c"}
+{"section": "Appendix F Additional Samples from GPT-3", "seq": 180, "sha256": "2dd7f11dec328e0930cc6b7d4824f39b1d6e04b346012fe7b70f6db80a6207af"}
+{"section": "Appendix F Additional Samples from GPT-3", "seq": 181, "sha256": "b64fb8853afa59d1c4963490c2aeb3817592a069b3f94eacfb245eeb27dbd4c9"}
+{"section": "Appendix F Additional Samples from GPT-3", "seq": 182, "sha256": "174bd7b79c7bd9f6953a2077ade06e632db8f3d699f3286ce386d8de4609ce3a"}
+{"section": "Appendix F Additional Samples from GPT-3", "seq": 183, "sha256": "c7279f838e5cb7b16379601fbcf69b304b3c8395ebf13176c4ddbaffa168bf64"}
+{"section": "Appendix F Additional Samples from GPT-3", "seq": 184, "sha256": "6f7299629458ca8544a0eb8ef96cd74fa3cfc0c171d570f1a4128981b5908613"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 185, "sha256": "20a6c6b994bb39e84ad2e40f9e6c12786025673878f342eab5d56eb034723d51"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 186, "sha256": "19b861167f4a620f4eb98d4c25116c5210ed18c36f741390b334bbe98d54579d"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 187, "sha256": "361cdcc6bb5fc81c7328ad35a822be5ac3d6e34d5fc1197d797334574e58f8fd"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 188, "sha256": "c1f7497b233504312626e780c83fc1373ce1adc1d0ee38d5a8a6ac1a1747dae0"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 189, "sha256": "6f2f04695635710088f7714000b9039cc99f24b3ed6b88a48c91d7e1bdfc5d55"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 190, "sha256": "f1e34aab3e57aff45bf1e475fdb0b5a0329e89d6f4b34dceef356947c5ca896c"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 191, "sha256": "49c98239e4f7a1c1b0b2f940025c20055d167990b375ea88c78217525d140f3b"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 192, "sha256": "6edb482c37314c3991350a45048c67762cbfd94271a24e490edb5eb8f2635735"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 193, "sha256": "ec061ce1af0b15fb2f0f3e61499292bbdf2dabaac3c924679d8bb42d8cc6a5d9"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 194, "sha256": "ae5d2f2553ad4eeaeaca66025563b972bd9cd469510beb9ac0d27897cd100715"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 195, "sha256": "2d3e8c9ac6bfd64f225333e687d842ffa78d39d4081f4103e5faa6b357710a97"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 196, "sha256": "552d82c4dbfd44dced293c243e997da1c525e4c534902758d5acd98c70e2fec4"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 197, "sha256": "b2ad7397d1766fa6ab8246052dc52fbaa63d0930633c55d70bd04530330dc3ae"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 198, "sha256": "c975753ae00d0cf627ee4208768bab55c0a5684773d2bd99403b7101821bb68e"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 199, "sha256": "23b9fae4d52a917b9f36dbbd66464e7c83b8cdbe984a3e466d2adaf680f2fc59"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 200, "sha256": "f2c5cf86c17d892f18699c7e8b2a652a75d03f19a65085651b83ae89e6d5217c"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 201, "sha256": "114ec3ce18093605126876813d9ae3b3d356700c17a031dd95bb335bdd20f3cb"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 202, "sha256": "8bef15829dd959bc9a66562c7eb935d2c7ce867933123a146ec72726ef267a94"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 203, "sha256": "b312b0648d3e40b352c2d160a813c6afdcc09546bc36d68c44207886156bd0f6"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 204, "sha256": "4762c3d35bd4f0a28b1c68c7f3f2391f1d5386ea42d42097ac5d0879dcd909d9"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 205, "sha256": "f4620d80fa3dc0a63729959f3aa3beef97342cf7440046fc3f359a94e27fe9e8"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 206, "sha256": "504f29e9198623a92ad3de455c7ddb50278e6f8a5525bf0c8d22bfe52c291215"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 207, "sha256": "1e90934149991ac741811f9185dc5c486f3307b5a66f305de07d07adeabf7c2f"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 208, "sha256": "019436c29863fe86ffe8fdef5690bfa052a93d058a406730bcb74303e02e2b2b"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 209, "sha256": "19d39b4456ea7ba5f3438a9b6d00c67a0df3c0f8c231ab57243be22f457e49f4"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 210, "sha256": "4372304847fa9191ff42d8e8c3cc2104dc0413ac25bbaf36516b615303f1ac19"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 211, "sha256": "8d104a4f01d699ad1025405ecf6fd7c67c88d8f419caad7bed0cfb3c13663456"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 212, "sha256": "83df7c4b1348b1cd16d2482d522c5952579ac8f9533df9d1beef2b0ef0e9edf5"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 213, "sha256": "9621c6dc0611b0bb736c469b7846c1ac0a4d77acc709a410e1a0ef70490a759c"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 214, "sha256": "d4cd7eab663e2379e63a112a9d4ee900df6095ae6b8774e1a54d81a9801dd854"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 215, "sha256": "954422d8b0ba1b736aa9c70d96176a6f06d95ba1146f5e94b0c36c3d0b91a6fb"}
+{"section": "Appendix G Details of Task Phrasing and Specifications", "seq": 216, "sha256": "73e52e499730d311ccd675f40b39a4d0c854091b1f780f4df045a671881159ab"}
+{"section": "Appendix H Results on All Tasks for All Model Sizes", "seq": 217, "sha256": "282395278b2b11b6ede927adb103ee4191a5e90a99c809f532d9330364d3ec84"}
+{"section": "Appendix H Results on All Tasks for All Model Sizes", "seq": 218, "sha256": "a45234479352c179e08a14f35985038870332c73ab8237df921a9a6b57a728f0"}
+{"section": "Appendix H Results on All Tasks for All Model Sizes", "seq": 219, "sha256": "c2a06ffbf0541a9a21bf04a048bfb66e0f06c3234c9c77849ba0c502c123c296"}
+{"section": "Appendix H Results on All Tasks for All Model Sizes", "seq": 220, "sha256": "84d6c679ddd43e59dbcea6bf265f692db83ca1fcbf0a7395cb4cdb925458ea97"}
+{"section": "Appendix H Results on All Tasks for All Model Sizes", "seq": 221, "sha256": "b12f6a0cc6eaf12353b3f6c8157960eb0493699e26b429d07c612f7f643cc3f3"}
+{"section": "Appendix H Results on All Tasks for All Model Sizes", "seq": 222, "sha256": "1ba79079075449df2a83f6060adec8609e7b2d5ba802dd676e3b9988155a0ced"}
+{"section": "References", "seq": 223, "sha256": "0a383807002927383e603c7f04ceb79024be5bc4cd3d5e4e1c04e97192615174"}
+{"section": "References", "seq": 224, "sha256": "2a7c13386d935d0dd0a916d186e84ecd2f76dbeedda55edc14d8e76aa95f5c32"}
+{"section": "References", "seq": 225, "sha256": "72983ef720f3579c35eb9c94ef1392b2b338392378dc3ae3a6ed53adff48d684"}
+{"section": "References", "seq": 226, "sha256": "b6cf3b464607f77cdcf006cc8876013849822815e8f88ff3e7d2af4742372212"}
+{"section": "References", "seq": 227, "sha256": "f3e16644ae9033159a7684a56da03f879be7dcba7d8b486b2f9700b8d38afe55"}
+{"section": "References", "seq": 228, "sha256": "830f8acca855e58fb6c198799424e1886eb4e07e2e7c95c684ee3d7c19d1363c"}
+{"section": "References", "seq": 229, "sha256": "bfcbf2b1d1fe377d17dcff1e4549b5a62a736a1d2f2da8351932510457931c9a"}
+{"section": "References", "seq": 230, "sha256": "cbb1a9bafc6f4a359cbafe924d3663415a04dc8be18179e5d94fbe84e66cecfb"}
+{"section": "References", "seq": 231, "sha256": "4010feed8b2534cbdf4bb2422391050293a8ddfb935b0b0f700fa23e981f7acb"}
+{"section": "References", "seq": 232, "sha256": "e0b52403850740aa5b6e05a7ef99ad2453f42462fecd77ab1ebd9fd0e4c7b26c"}
+{"section": "References", "seq": 233, "sha256": "f6e74256695926dba454075cc85e1a81a9670c0e97d3ec05b29b7d9bc6537b57"}
+{"section": "References", "seq": 234, "sha256": "cf6c35607313a6a9cefbaaac6903ea80bd694bad97c89421e21a49a03a8301cd"}
+{"section": "References", "seq": 235, "sha256": "11841aea6af37e0b2453ca67921a4e1d22149ad37f66a1bf667a54101dc8a64d"}
+{"section": "References", "seq": 236, "sha256": "4b447379644df61c38a823c75948bba49b0e4fc8322eee0b5001acc58c03cfe2"}
+{"section": "References", "seq": 237, "sha256": "19b8b0708fd9f7c193cdc77effc9e88a7e4ec86f80eecc8b10ed9fec0ab28d7e"}
+{"section": "References", "seq": 238, "sha256": "964a22211bbf08170d194a35b0bb965709779784a0c501f0c39a9edcd42b27b2"}
+{"section": "References", "seq": 239, "sha256": "21a0cd0c163ca3c349e08033478397a005dd98940703a1beced5a7d79cd2320b"}
+{"section": "References", "seq": 240, "sha256": "18c5126bbd28368936480d7478f05b6cfc6a46e708aa6a5e66f5e35dbfaa951f"}
+{"section": "References", "seq": 241, "sha256": "770d59fa717ca013c48776b7805b571b7de07ca434f2263afbf13d4376ca1ade"}
+{"section": "References", "seq": 242, "sha256": "681c203d9aeeb3ac738152272d35bc13856ba46f9f9b127fc5658ea794903b78"}
+{"section": "References", "seq": 243, "sha256": "ee756844e482d4a9706fe8c5cd4bbb11e8ad21f858cc380d3d27745abfd2a212"}
+{"section": "References", "seq": 244, "sha256": "5d9422f62ea30068a1a1689b041280c0fd7fefe21ddbe29d4729298a71526c24"}
+{"section": "References", "seq": 245, "sha256": "d8af1cec24ab5ba5f5e08e0b7e1f21adbf1d7666de1c9b6de0e87c390caf315a"}
+{"section": "References", "seq": 246, "sha256": "88cfa84cf8bf3e3e4716f842b5d3b27473d375c54bb4d34a27892945305c6cff"}
+{"section": "References", "seq": 247, "sha256": "8773cf9e9afd6a0292f4ecc19ecef181ab03b47dece0c42ef758edda26b414e5"}
+{"section": "References", "seq": 248, "sha256": "11154af0f2c344b27d5bfbf20e169f3683be434cc86a5af089f37a53f3efa550"}
+{"section": "References", "seq": 249, "sha256": "2188d593a9bf900863c9be888d623aea785cad4cd18ed09b8fef248c9473d036"}

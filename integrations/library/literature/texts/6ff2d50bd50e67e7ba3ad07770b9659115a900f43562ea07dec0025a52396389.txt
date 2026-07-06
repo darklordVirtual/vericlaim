@@ -1,0 +1,15 @@
+We now discuss several methods to define the win prediction model introduced in Eq 1. Similarity-weighted (SW) ranking
+
+We adopt a Bradley-Terry (BT) model (Bradley & Terry, 1952) similar to Chiang et al. (2024). Given a user query , we compute its cosine similarity to each query in the train set, scaled according to the maximum cosine similarity for in the dataset:
+
+(9)
+
+where and denote text embeddings for and respectively. This similarity score is used to compute
+a weight scalar for each training query . 555We find that exponential scale works best in practice and choose . We learn BT coefficients , for the strong and weak models by solving:
+
+(10)
+
+where is a binary cross-entropy loss. These coefficients allow us to estimate the win probability as:
+. In this approach, no training is required—solving is performed at inference time. Matrix factorization
+
+Drawing inspiration from matrix factorization models used in recommendation systems to capture low-rank structures in user-item interactions (Koren et al., 2009; Töscher et al., 2009), we apply this approach to learn from preference data.

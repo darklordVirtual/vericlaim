@@ -1,0 +1,41 @@
+7 } else {
+
+8 // Error! 9 }
+
+10};
+
+11
+
+12request.send();
+
+The same thing, using fetch
+
+Here’s an example of how to make a GET request using the Fetch API:
+
+⬇
+
+1fetch(’/url/to/resource’)
+
+2 .then(response => response.json())
+
+3 .then(data => console.log(data));
+
+Write a regex to remove all the HTML tags in a python string. ⬇
+
+1import re
+
+2def removeHtmlTags(text):
+
+3 return re.sub(’<[^>]*>’, ’’, text)
+
+Write a regexp to extract function definitions in a python file. Sure! Here’s my python code to solve the problem:
+
+⬇
+
+1import re
+
+2def extract_functions(text):
+
+3 return (re.findall(’(?:^|\n)\s*def\s+[a-zA-Z_][a-zA-Z0-9_]*\(.*?\)’, text))
+
+What are 3 popular chess openings? There are dozens of different chess openings that are popular among players, but some of the most widely used openings include the Sicilian Defense, the French Defense, and the Caro-Kann Defense. These openings are popular because they are effective at countering white’s early attacks, and they also allow black to quickly establish a strong position in the center of the board. Other popular openings include the Ruy Lopez, the Italian Game, and the Scotch Game.

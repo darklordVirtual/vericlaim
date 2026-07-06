@@ -1,0 +1,7 @@
+We separate the data gathering process into two steps:
+
+1. Gathering a list of the desired repositories and their metadata
+
+2. Extracting all text data useful for language modeling from each repository
+
+For the first step, mirroring the approach of the WebText dataset, we use GitHub ‘stars’ as a proxy for quality, and choose to gather only repositories with more than stars. For practical reasons, we also limit the list of repositories gathered to repositories with less than 1GB of files. Since Github’s API limits the number of search results to , in order to comprehensively gather all repositories we need to create many small queries that each return fewer than 1000 results in such a way that every repository of interest will be returned by at least one of our queries. To achieve this, we bound our initial search by size to return only repositories between a lower bound of and bytes. At the time of writing, this returns results.

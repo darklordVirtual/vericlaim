@@ -1,0 +1,15 @@
+2018. Improving language understanding with unsupervised learning. Technical report, OpenAI. Rajpurkar et al. (2016)
+
+Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. 2016. Squad: 100,000+ questions for machine comprehension of text. In Proceedings of the 2016 Conference on Empirical Methods in
+Natural Language Processing, pages 2383–2392. Seo et al. (2017)
+
+Minjoon Seo, Aniruddha Kembhavi, Ali Farhadi, and Hannaneh Hajishirzi. 2017. Bidirectional attention flow for machine comprehension. In ICLR. Socher et al. (2013)
+
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D Manning,
+Andrew Ng, and Christopher Potts. 2013. Recursive deep models for semantic compositionality over a sentiment
+treebank. In Proceedings of the 2013 conference on empirical methods in
+natural language processing, pages 1631–1642. Sun et al. (2018)
+
+Fu Sun, Linyang Li, Xipeng Qiu, and Yang Liu. 2018. U-net: Machine reading comprehension with unanswerable questions. arXiv preprint arXiv:1810.06638. Taylor (1953)
+
+Wilson L Taylor. 1953. “Cloze procedure”: A new tool for measuring readability. Journalism Bulletin, 30(4):415–433.

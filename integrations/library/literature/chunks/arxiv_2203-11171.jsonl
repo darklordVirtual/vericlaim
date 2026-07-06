@@ -1,0 +1,97 @@
+{"fsid": "arxiv_2203-11171", "n": 96, "overlap": 200, "source_sha256": "344bb05cfec4aa099f2d3e4a006f0992517438c084fa2c35c0a0082993a6c7e8", "target": 1200}
+{"section": "", "seq": 0, "sha256": "b47be1d871b14561d814310f7319878cbf1f8fb5c68e4741e8d1a6e960b02e21"}
+{"section": "Self-Consistency Improves Chain of Thought Reasoning in Language Models", "seq": 1, "sha256": "4294be856de29f4aaa29affdc1459323c82be82cea02cd2ea5b86b89b2d7d2dd"}
+{"section": "1 Introduction", "seq": 2, "sha256": "5f32a1db4b0d95d2f40aaa12a32f0d63f51c717a07a13b5cc49c7e49357165a6"}
+{"section": "1 Introduction", "seq": 3, "sha256": "2326d271d936929210c04089c623895166b228c0356f1173bb32f37643decfbf"}
+{"section": "1 Introduction", "seq": 4, "sha256": "effd6ec985fb254a98f0ecbb90f51c0aa40e2e39a3f3ed807a9f2c70f0c172cd"}
+{"section": "1 Introduction", "seq": 5, "sha256": "0a8e081fd2e6ab8088402a05e2a1a36555ffba6205db6d8be25d7ff72748ada4"}
+{"section": "1 Introduction", "seq": 6, "sha256": "4e1c658ba5978019d704e38c63bff77dac337927d3070cc1cc3a922c6d766bbd"}
+{"section": "1 Introduction", "seq": 7, "sha256": "485388cc29f4ae67d7fc2caad0db9a160783d0a3d6ff6034ffe238d6649e6c31"}
+{"section": "2 Self-Consistency over Diverse Reasoning Paths", "seq": 8, "sha256": "c0fe6e35fbddb38b34371cc8af34f5f09d1b819db05a95781a3f71c563e5605a"}
+{"section": "2 Self-Consistency over Diverse Reasoning Paths", "seq": 9, "sha256": "e7066ce7858186527b90a804da4f4991dc813ab9411f7bbbd3adbb68741770a8"}
+{"section": "2 Self-Consistency over Diverse Reasoning Paths", "seq": 10, "sha256": "d3bcfd323d84fea81d142fea6b2f1dad75f48102c5e56423422e5a66986c1f87"}
+{"section": "2 Self-Consistency over Diverse Reasoning Paths", "seq": 11, "sha256": "40269bb69c22f2c9a6ac0a938c7b3b14c6c0ed532e062660cb7c6100ca30df26"}
+{"section": "2 Self-Consistency over Diverse Reasoning Paths", "seq": 12, "sha256": "dfff7ebd4cfe749fc2fc16870fb79b97298ff719491b4b44aa9cc550634eb3a6"}
+{"section": "2 Self-Consistency over Diverse Reasoning Paths", "seq": 13, "sha256": "7174fb6d59e56db95a5fe2be1c344edbec422ee45d5421205240f2342de6692b"}
+{"section": "2 Self-Consistency over Diverse Reasoning Paths", "seq": 14, "sha256": "c92bc9c35d64f8288d2f9c30df86237e8e0e04bc9b03d5f91cac87a9e78d37c2"}
+{"section": "3 Experiments", "seq": 15, "sha256": "5b73fecbdf70d1468751da7f439dd2f87edb3d02517c93570c5380b1ca3a9765"}
+{"section": "3.1 Experiment setup", "seq": 16, "sha256": "f03820a8b51e9bac8a7cfbc860e065ee84b060a747c42dbd48191bf8d52c373b"}
+{"section": "3.1 Experiment setup", "seq": 17, "sha256": "9e8e03f68b046ca9e19e78492bca6287065935e81d95b6dd9589d22617458103"}
+{"section": "3.1 Experiment setup", "seq": 18, "sha256": "17130f2af55ffc908521e43d3085dbb49b6597450de8a228b920b0f9eb0a315f"}
+{"section": "3.1 Experiment setup", "seq": 19, "sha256": "5ff826245e86626f1aa69b26e1f375607ad882fc3301f3f1d948c499376e6936"}
+{"section": "3.2 Main Results", "seq": 20, "sha256": "8fbb92b8421f458f2808af33e5bb2e11b49e49e4a50dc9eef295c68251d3c224"}
+{"section": "3.2 Main Results", "seq": 21, "sha256": "6dc942735bc608ff62c662c8edfe3346b3ab7deff13c78ab472e1367d3efae64"}
+{"section": "3.2 Main Results", "seq": 22, "sha256": "ecf8a6c8524253bed15e3716d0fdac594c855440deb7094b86e213738abe1554"}
+{"section": "3.2 Main Results", "seq": 23, "sha256": "9f3c3f15d8d5308f70716ee897690b3cb78c4ec9698ff5301d1652e2cc19d495"}
+{"section": "3.2 Main Results", "seq": 24, "sha256": "8e5054f2b130650f506980fa9b5ec56ac0f912b315f8e3c125025109ad456306"}
+{"section": "3.2 Main Results", "seq": 25, "sha256": "ee0ef502ed912f2c49c45ce0db4ddbd2cf173f6d3e6530e02d0615b7ece47dee"}
+{"section": "3.2 Main Results", "seq": 26, "sha256": "943b0f4e113be3e47511a8a2865494ebbd206a188a35d9f4cd6eee274ae9c14b"}
+{"section": "3.2 Main Results", "seq": 27, "sha256": "92092e492aa8dd4b6fe4b7e928b2f4bd2ecaebc44e2862809d90cc34b8e80265"}
+{"section": "3.2 Main Results", "seq": 28, "sha256": "7c0f7891e97d35830586777f86ebdc444c9ba9887932f9dec6329c251a37abe6"}
+{"section": "3.3 Self-Consistency Helps When Chain-of-Thought Hurts Performance", "seq": 29, "sha256": "d19e04f9d02e588f2a6799c4d8e9e3dbd84369786adb08980275205fd8807ddc"}
+{"section": "3.3 Self-Consistency Helps When Chain-of-Thought Hurts Performance", "seq": 30, "sha256": "c6671b0e8ea348ae6907895349ba6662f10617e40fb9e761028df86e58c2713a"}
+{"section": "3.4 Compare to other existing approaches", "seq": 31, "sha256": "fddaa3837c799cd749834dbfd0e232e7abfcc2b764a6c67f24af5b40093ad7d0"}
+{"section": "3.4 Compare to other existing approaches", "seq": 32, "sha256": "01883ef61ee7d5146ff127437e81b6989196671a36a6037571c95bf747810b69"}
+{"section": "3.4 Compare to other existing approaches", "seq": 33, "sha256": "1df1f14c8775ad1a635583a2e5d6824b4cc9c7bb66a99d7e0990675b93b08cf5"}
+{"section": "3.4 Compare to other existing approaches", "seq": 34, "sha256": "6ff9f52b3e3756f484c85ecdcd3fde65b20edde57322c4a5fe9e488eeaf758e2"}
+{"section": "3.5 Additional Studies", "seq": 35, "sha256": "27e0cdb3fdb1c5488c99b316805e71e65e3fbb504e4eb9573e0ef03f62e51314"}
+{"section": "3.5 Additional Studies", "seq": 36, "sha256": "9017489a87230a1fe35f58edf6199e4626db7989594792cfb45a6d008dd03970"}
+{"section": "3.5 Additional Studies", "seq": 37, "sha256": "102bec367798b62c0eb6d742b8ffa8f4ecd92dee7ccafb2a564574982c1a5bae"}
+{"section": "3.5 Additional Studies", "seq": 38, "sha256": "639554c9ab9dff5c7e9410f17f3c0a32d3c9d70662bd1dd12e30a9433eb422eb"}
+{"section": "4 Related work", "seq": 39, "sha256": "e82083e27d363bc6a49a7c85029eaab671594f9af181abcedc9f6755bc76e2f4"}
+{"section": "4 Related work", "seq": 40, "sha256": "99e9e990da2250f9496edd318a34647bd259ef21a18e8515118150d7af08c84c"}
+{"section": "4 Related work", "seq": 41, "sha256": "6d0aeba09fd567816c80c162a31fd51e8966c9053fd127ea4206fa875305f9b1"}
+{"section": "4 Related work", "seq": 42, "sha256": "12ce03083047749a87387d7f755eda9c5fd431ea9559c5783cb288dd7638e3e3"}
+{"section": "5 Conclusion and Discussion", "seq": 43, "sha256": "9a5271e70060d2fd0771cbcbdf01c2ae9fef8567b2108d1257e0851042e67458"}
+{"section": "5 Conclusion and Discussion", "seq": 44, "sha256": "fb059f67e83c40825a327ca5d2d899c037d5fc26a151d3452db9e6d638604bae"}
+{"section": "Reproducibility Statement", "seq": 45, "sha256": "279bb2cdaefc728f35ba886d4ed3d2eed8d32e36013be879a991238a944c1efb"}
+{"section": "Ethics Statement", "seq": 46, "sha256": "b881eeeccd131c933ecfc3212e02bf98641bf6dc3fbf3b26636a080aac1a8f35"}
+{"section": "References", "seq": 47, "sha256": "18e35f6562dbbd20fa26a3bd21c5089b23dfde4e0830ed313bf3d57bce5bea1b"}
+{"section": "References", "seq": 48, "sha256": "f281c3b25008041c4c80c135017d15e0f4fe59407129bb61753e604c9e8001aa"}
+{"section": "References", "seq": 49, "sha256": "4f38b2dad8ab11153c690e0ef842031ca945f7d8de90d5642d5efbaaf7b62467"}
+{"section": "References", "seq": 50, "sha256": "a2ec49fd548d4ae92c6be2f090a0e1cc0525f87b682335ec40c4fcc2190ffdd3"}
+{"section": "References", "seq": 51, "sha256": "e46c2d041f37f58269ccd44df441361b548523dcb69c021a9efb406f6e7a5f33"}
+{"section": "References", "seq": 52, "sha256": "d56b1a4d8945c72e12e07a0bcecca4bef06acffe4c98e4031462fcb8392ea503"}
+{"section": "References", "seq": 53, "sha256": "58efff26f9ddab8d2c746b05a66241778356f35a44c5d2b84522d58085ef6f90"}
+{"section": "References", "seq": 54, "sha256": "03b4db381d42a1f168c67c293642a374be9a8e370d197dec4f8a5a851beb62bb"}
+{"section": "References", "seq": 55, "sha256": "5c42bdbe424eea03e77d4ab99cc293d51117fff098b242db09b210445083492c"}
+{"section": "References", "seq": 56, "sha256": "71a38a79d73bfa91fcde356d5be501c22a9316a3022b72ea7b51b5624ce4ff0c"}
+{"section": "References", "seq": 57, "sha256": "e02b163855770a7eef198b683506d83dbc62d23466ba6886b6051e275284495f"}
+{"section": "References", "seq": 58, "sha256": "43e74ed9109f1f7978551db52450ad411b532e81450220c34642efe81c9dc288"}
+{"section": "References", "seq": 59, "sha256": "e01dd104308f202c1d26830d94dd8802cebc343c9a4575187aff17d98377a38b"}
+{"section": "References", "seq": 60, "sha256": "77470090c4066147a6a25ddcf591fb6acf253babb9f37547bbe5e63d1562f4a0"}
+{"section": "References", "seq": 61, "sha256": "79774a1051c307fca117fec7dcfb0dca576a34652d93692c231aef22393b83e7"}
+{"section": "References", "seq": 62, "sha256": "f438b883e07b80a6e7f6dadac679ca1958bde0ba52facc94501207cf8d76eb1a"}
+{"section": "References", "seq": 63, "sha256": "ff0845c8f2f8311125f538b2f1a793a7a432f07de8a5b079f812fe445295af67"}
+{"section": "References", "seq": 64, "sha256": "62c3ee1d8316512b0bef6b5900f6aa5d6038348a36ab109a82aaac17d864992d"}
+{"section": "References", "seq": 65, "sha256": "ee232c723f739632df3f8d5d41f62d7bbe7ec91365dc99c78a73da0e25df9e8e"}
+{"section": "References", "seq": 66, "sha256": "dc3fc9804bab433bd5640917e77582543a564ce53e294091092b419b2e9e0def"}
+{"section": "References", "seq": 67, "sha256": "bbc82ef0d298cce5d48f90b74176a3e8068d1b8b63eb13ef8a748372ed79e2f4"}
+{"section": "References", "seq": 68, "sha256": "9370f2604826024e53501ef6cd612389e4fa441e20bcdc0526232dba41b43936"}
+{"section": "A.1 Additional Experiment Results", "seq": 69, "sha256": "08f0a7c331855b8524c370cf0d317f493da7a9e2e81f4747be1766e3890a2b7b"}
+{"section": "A.1 Additional Experiment Results", "seq": 70, "sha256": "cc2c57c1dd3022c1bc8e8dc1cb870b8fb2ebc5b85c6c2d4772d73251a0bf8674"}
+{"section": "A.1 Additional Experiment Results", "seq": 71, "sha256": "5a49098d122ba01a4bba3245189890bbd6f84c69e411b5c759731dca6c2f0e6d"}
+{"section": "A.1 Additional Experiment Results", "seq": 72, "sha256": "99cdc810844fda252ed6abd0386658ab70df2be7ef278c06f431cb03f092d946"}
+{"section": "A.1 Additional Experiment Results", "seq": 73, "sha256": "4c25d52a063aae3560942d080da9e32530de17026c301bf84f1e41cfec0759dd"}
+{"section": "A.2 Details on Resources and Inference", "seq": 74, "sha256": "1378e7b6c3c9162a22bafe6a8d6e79f0caa1e034a51a3dcc16e36100dda65906"}
+{"section": "A.2 Details on Resources and Inference", "seq": 75, "sha256": "bb0acc187e1dc1d3eb5033fb1f91b2d9077f731bea0c6edefab684719b946a92"}
+{"section": "A.2 Details on Resources and Inference", "seq": 76, "sha256": "7fbf77b49bcca5d27ab5ee900a3f6449adc264cc81282e376545ea279023c9d3"}
+{"section": "A.2 Details on Resources and Inference", "seq": 77, "sha256": "68c4ee176661c5b863fb136d886694f463e2b8f55d9b0e3f096e64549a9920a0"}
+{"section": "A.2 Details on Resources and Inference", "seq": 78, "sha256": "c783178410961d681672821e19deb6c068f26676b3beccd715e27459cc824653"}
+{"section": "A.2 Details on Resources and Inference", "seq": 79, "sha256": "335191613941268540384a14c47de94245e471e2749b4ba216c803be148c82c2"}
+{"section": "A.2 Details on Resources and Inference", "seq": 80, "sha256": "0f2cc40cbbe7367b42a624596e3146addfd6ca5c6a73aea36ebdaf1c0e6f4467"}
+{"section": "A.2 Details on Resources and Inference", "seq": 81, "sha256": "b11a640a37057fae896ab89b6c5ae387a90bf94f35a4741cd6f20770478b9b96"}
+{"section": "A.3 Full Sets of Prompts", "seq": 82, "sha256": "5f20b835a12afa2c50ec4535445446f095f43968ba39e88ba4f484dc75d87b05"}
+{"section": "A.3 Full Sets of Prompts", "seq": 83, "sha256": "92e875756e7c50a94936c438445071bc07d669f05852d0cbbb5a2ea03ea9a012"}
+{"section": "A.3 Full Sets of Prompts", "seq": 84, "sha256": "e6ffb331248a6a9f22137a280cf71086b2d055825a1a37dbe412b2f65869b34c"}
+{"section": "A.3 Full Sets of Prompts", "seq": 85, "sha256": "647f4ddbf54435dd1af17e7ebcb1d0ec97f2273a7db0a0245f55ae7bbeeee515"}
+{"section": "A.3 Full Sets of Prompts", "seq": 86, "sha256": "896b914868a514324efa2f26b3aa8503ca459fc3fb5f84f332a1399221a84b77"}
+{"section": "A.3 Full Sets of Prompts", "seq": 87, "sha256": "ed6a0547d538171dbb40b651dbd85e9619e188632826339340816ed31f8bc714"}
+{"section": "A.3 Full Sets of Prompts", "seq": 88, "sha256": "94715e70747375478cfad7de5f3e49156f4abf656cdbe5cacbac785af31ada69"}
+{"section": "A.3 Full Sets of Prompts", "seq": 89, "sha256": "061b6fb9e474267a8c0288943509d51ff64e701bd4bfdcf8373252c798434e7d"}
+{"section": "A.3 Full Sets of Prompts", "seq": 90, "sha256": "9a87536644c72268053f71c93c32c5b4462de6ccaa3f10389f81b6ec0a8530e3"}
+{"section": "A.3 Full Sets of Prompts", "seq": 91, "sha256": "e95557d0dba546a74b0145b4c29b96e3e3d07aff79da38fb22ef55fb5b5557cf"}
+{"section": "A.3 Full Sets of Prompts", "seq": 92, "sha256": "a83479550814e35fb1ced390959123d1d0bd6d7d67cd7b052692317bf368de2f"}
+{"section": "A.3 Full Sets of Prompts", "seq": 93, "sha256": "670e9bc210dedcea7b9945b637cafd2aa739fb2af83eb53cbdae4a805c7a01e7"}
+{"section": "A.3 Full Sets of Prompts", "seq": 94, "sha256": "93a38f438dcaaee13ba2ab1a3f2b91d31684a486f4d4d40519cf1cf407036d47"}
+{"section": "A.3 Full Sets of Prompts", "seq": 95, "sha256": "310da35c7ed97a3674f6b632ffd128f7cb784e7d2b3bb0956f67780cd4578958"}

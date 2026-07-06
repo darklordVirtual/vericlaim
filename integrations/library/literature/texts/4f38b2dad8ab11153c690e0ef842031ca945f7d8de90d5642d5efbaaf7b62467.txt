@@ -1,0 +1,10 @@
+Batra et al. (2012)
+
+Dhruv Batra, Payman Yadollahpour, Abner Guzman-Rivera, and Gregory
+Shakhnarovich. Diverse m-best solutions in markov random fields. In Proceedings of the 12th European Conference on Computer
+Vision - Volume Part V, ECCV’12, pp. 1–16, Berlin, Heidelberg, 2012. Springer-Verlag. ISBN 9783642337147. URL https://doi.org/10.1007/978-3-642-33715-4_1. Bentivogli et al. (2009)
+
+Luisa Bentivogli, Peter Clark, Ido Dagan, and Danilo Giampiccolo. The fifth pascal recognizing textual entailment challenge. In TAC, 2009. BIG-bench collaboration (2021)
+
+BIG-bench collaboration. Beyond the imitation game: Measuring and extrapolating the
+capabilities of language models. In preparation, 2021. URL https://github.com/google/BIG-bench/. Brown et al.

@@ -1,0 +1,19 @@
+(2017)
+
+Keskar, N. S., Mudigere, D., Nocedal, J., Smelyanskiy, M., and Tang, P. T. P. On large- batch training for deep learning: Generalization gap and
+sharp minima. ICLR, 2017. Khandelwal et al. (2019)
+
+Khandelwal, U., Levy, O., Jurafsky, D., Zettlemoyer, L., and Lewis, M. Generalization through memorization: Nearest neighbor language
+models. arXiv:1911.00172, 2019. Kingma & Ba (2014)
+
+Kingma, D. P. and Ba, J. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014. Lai et al. (2017)
+
+Lai, G., Xie, Q., Liu, H., Yang, Y., and Hovy, E. Race: Large-scale reading comprehension dataset from examinations. arXiv:1704.04683, 2017. Lan et al. (2019)
+
+Lan, Z., Chen, M., Goodman, S., Gimpel, K., and Soricut, P. S. R. Albert: A lite bert for self-supervised learning of language
+representations. arXiv:1909.11942, 2019. Li et al. (2014)
+
+Li, M., Andersen, D. G., Park, J. W., Smola, A. J., Ahmed, A., Josifovski, V.,
+Long, J., Shekita, E. J., and Su, B.-Y. Scaling distributed machine learning with the parameter server, 2014. Liu et al. (2019a)
+
+Liu, X., He, P., Chen, W., and Gao, J. Multi-task deep neural networks for natural language understanding.

@@ -1,0 +1,21 @@
+BDD+ [09]
+
+Luisa Bentivogli, Ido Dagan, Hoa Trang Dang, Danilo Giampiccolo, and Bernardo
+Magnini. The fifth PASCAL recognizing textual entailment challenge. 2009. BES [10]
+
+Stefano Baccianella, Andrea Esuli, and Fabrizio Sebastiani. Sentiwordnet 3.0: an enhanced lexical resource for sentiment analysis
+and opinion mining. In Lrec, volume 10, pages 2200–2204, 2010. BHDD+ [06]
+
+Roy Bar Haim, Ido Dagan, Bill Dolan, Lisa Ferro, Danilo Giampiccolo, Bernardo
+Magnini, and Idan Szpektor. The second PASCAL recognising textual entailment challenge. 2006. BHT+ [20]
+
+Yonatan Bisk, Ari Holtzman, Jesse Thomason, Jacob Andreas, Yoshua Bengio, Joyce
+Chai, Mirella Lapata, Angeliki Lazaridou, Jonathan May, Aleksandr Nisnevich,
+et al. Experience grounds language. arXiv preprint arXiv:2004.10151, 2020. BLC [13]
+
+Yoshua Bengio, Nicholas Léonard, and Aaron C. Courville. Estimating or propagating gradients through stochastic neurons for
+conditional computation. Arxiv, 2013. BZB+ [19]
+
+Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, and Yejin Choi. Piqa: Reasoning about physical commonsense in natural language. arXiv preprint arXiv:1911.11641, 2019. Car [97]
+
+Rich Caruana. Multitask learning.

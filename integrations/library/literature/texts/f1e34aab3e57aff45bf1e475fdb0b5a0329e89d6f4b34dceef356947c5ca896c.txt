@@ -1,0 +1,39 @@
+A:
+
+Correct Answer
+
+names
+
+Incorrect Answer
+
+numbers
+
+Incorrect Answer
+
+time
+
+Incorrect Answer
+
+places
+
+Figure G.3: Formatted dataset example for RACE-m. When predicting, we normalize by the unconditional probability of each answer as described in 2. Context
+
+How to apply sealant to wood. Correct Answer
+
+Using a brush, brush on sealant onto wood until it is fully saturated with the sealant. Incorrect Answer
+
+Using a brush, drip on sealant onto wood until it is fully saturated with the sealant. Figure G.4: Formatted dataset example for PIQA
+
+Context
+
+My body cast a shadow over the grass because
+
+Correct Answer
+
+the sun was rising. Incorrect Answer
+
+the grass was cut. Figure G.5: Formatted dataset example for COPA
+
+Context
+
+(CNN) Yuval Rabin, whose father, Yitzhak Rabin, was assassinated while serving as Prime Minister of Israel, criticized Donald Trump for appealing to "Second Amendment people" in a speech and warned that the words that politicians use can incite violence and undermine democracy. "Trump’s words are an incitement to the type of political violence that touched me personally," Rabin wrote in USAToday.

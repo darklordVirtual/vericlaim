@@ -1,0 +1,92 @@
+compare the MT Bench performance of our routers against existing commercial routing systems in Appendix E, demonstrating how our routers achieve substantial improvements over other available systems. Training data
+Method
+
+Improvement
+
+Random (95% CI)
+50.07(0)%
+79.93(0)%
+0.500(0)
+(+0%)
+
+BERT
+
+49.43%
+
+77.80%
+
+0.502
+
+(+0.5%)
+
+Causal LLM
+
+48.88%
+
+77.93%
+
+0.499
+
+(-0.2%)
+
+Matrix Factorization
+
+45.00%
+
+76.86%
+
+0.524
+
+(+4.9%)
+
+SW Ranking
+
+55.82%
+
+80.25%
+
+0.473
+
+(-5.4%)
+
+BERT
+
+41.30%
+
+72.20%
+
+0.572
+
+(+14.4%)
+
+Causal LLM
+
+35.49%
+
+70.31%
+
+0.600
+
+(+19.9%)
+
+Matrix Factorization
+
+35.46%
+
+71.40%
+
+0.597
+
+(+19.5%)
+
+SW Ranking
+
+35.40%
+
+71.55%
+
+0.603
+
+(+20.7%)
+
+Table 2: 5-shot MMLU results for our routers. Note that the MMLU score at CPT(50%), 75, is 92% that of GPT-4’s score (81). Routers trained only on perform poorly due to most questions being out-of-distribution, but dataset augmentation with is highly effective, leading to significant improvement in router performance even with a small number of samples.

@@ -1,0 +1,15 @@
+o 1 p0.9cm | p7.8cm | p4.7cm
+
+GSM8K
+
+StrategyQA
+
+Question
+
+Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops? Yes or no: Is Albany, Georgia the most populous US Albany? Greedy Decode
+
+He traveled 60 miles in total. He stopped after 20 miles, so he traveled 60 - 20 = 40 miles between the first and second stops. The answer is 40. Albany, Georgia is the most populous US Albany. Thus, the answer is yes. Sampled Path 1
+
+Henry travelled a total of 60 miles. His first stop was 20 miles in, and his second stop was 15 miles before the end. So between his first and second stops he travelled 60 - 20 -15 = 25 miles. The answer is 25. The most populous US Albany is Albany, New York. Thus, Albany, Georgia is not the most populous US Albany. So the answer is no. Sampled Path 2
+
+He made two stops during a 60-mile trip. The first was 20 miles into the trip. The second was 15 miles before the end of the trip. This means the second stop was 60 - 15 = 45 miles into the trip.

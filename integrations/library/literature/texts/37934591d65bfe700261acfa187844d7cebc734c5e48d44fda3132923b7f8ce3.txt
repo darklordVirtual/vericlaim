@@ -1,0 +1,21 @@
+[1]
+
+William James, Frederick Burkhardt, Fredson Bowers, and Ignas K Skrupskelis. The principles of psychology, volume 1. Macmillan London, 1890. [2]
+
+K Anders Ericsson and Herbert A Simon. Protocol analysis: Verbal reports as data. the MIT Press, 1984. [3]
+
+Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong, and Richard Socher. Explain yourself! leveraging language models for commonsense
+reasoning. ACL, 2019. [4]
+
+Vered Shwartz, Peter West, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. Unsupervised commonsense question answering with self-talk. EMNLP 2020, 2020. [5]
+
+Maxwell Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob
+Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David
+Luan, et al. Show your work: Scratchpads for intermediate computation with
+language models. arXiv preprint arXiv:2112.00114, 2021. [6]
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and
+Denny Zhou. Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903, 2022. [7]
+
+Ana Marasović, Iz Beltagy, Doug Downey, and Matthew E Peters. Few-shot self-rationalization with natural language prompts.

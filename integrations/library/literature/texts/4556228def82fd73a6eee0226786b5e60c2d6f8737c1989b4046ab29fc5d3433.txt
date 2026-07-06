@@ -1,0 +1,7 @@
+score, the MoE model significantly beats the multilingual GNMT model on 11 of the 12 language pairs (by as much as 5.84 points), and even beats the monolingual GNMT models on 8 of 12 language pairs. The poor performance on English Korean seems to be a result of severe overtraining, as for the rarer language pairs a small number of real examples were highly oversampled in the training corpus. Table 5: Multilingual Machine Translation (bold values represent best results). GNMT-Mono
+
+GNMT-Multi
+
+MoE-Multi
+
+MoE-Multi vs.

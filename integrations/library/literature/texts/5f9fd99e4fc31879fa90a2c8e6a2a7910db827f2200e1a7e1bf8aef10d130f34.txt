@@ -1,0 +1,3 @@
+13: Average sentiment co-occurence of each demographic
+
+Figure 13: The average sentiment co-occurrence with each gender across all datasets. Figure 14: The average sentiment co-occurrence with each religious word across all datasets. Each dataset’s sentiments have been normalized by the maximum norm sentiment for that dataset.

@@ -1,0 +1,21 @@
+[1]
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: pre-training of deep bidirectional transformers for language
+understanding. CoRR, abs/1810.04805, 2018. [2]
+
+Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+Sutskever. Language models are unsupervised multitask learners. 2019. [3]
+
+Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper,
+and Bryan Catanzaro. Megatron-lm: Training multi-billion parameter language models using
+model parallelism, 2019. [4]
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer, 2019. [5]
+
+Noam Shazeer, Youlong Cheng, Niki Parmar, Dustin Tran, Ashish Vaswani, Penporn
+Koanantakool, Peter Hawkins, HyoukJoong Lee, Mingsheng Hong, Cliff Young,
+Ryan Sepassi, and Blake A. Hechtman. Mesh-tensorflow: Deep learning for supercomputers. CoRR, abs/1811.02084, 2018. [6]
+
+Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization.

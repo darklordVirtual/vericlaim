@@ -1,0 +1,19 @@
+Dai et al. [2022]
+
+Xiang Dai, Ilias Chalkidis, Sune Darkner, and Desmond Elliott. Revisiting transformer-based models for long document classification. arXiv preprint arXiv:2204.06683, 2022. Dai et al. [2019]
+
+Zihang Dai, Zhilin Yang, Yiming Yang, Jaime G Carbonell, Quoc Le, and Ruslan
+Salakhutdinov. Transformer-XL: Attentive language models beyond a fixed-length
+context. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pages 2978–2988, 2019. Dao et al. [2019]
+
+Tri Dao, Albert Gu, Matthew Eichhorn, Atri Rudra, and Christopher Ré. Learning fast algorithms for linear transforms using butterfly
+factorizations. In International Conference on Machine Learning (ICML), 2019. Dao et al. [2020]
+
+Tri Dao, Nimit Sohoni, Albert Gu, Matthew Eichhorn, Amit Blonder, Megan
+Leszczynski, Atri Rudra, and Christopher Ré. Kaleidoscope: An efficient, learnable representation for all
+structured linear maps. In International Conference on Learning Representations
+(ICLR), 2020. Dao et al. [2022a]
+
+Tri Dao, Beidi Chen, Kaizhao Liang, Jiaming Yang, Zhao Song, Atri Rudra, and
+Christopher Ré.

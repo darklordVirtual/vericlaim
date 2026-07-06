@@ -1,0 +1,19 @@
+Amodei, and P. F. Christiano. Learning to summarize with human feedback. Advances in Neural Information Processing Systems,
+33:3008–3021, 2020. Stuhlmüller and Byun (2022)
+
+A. Stuhlmüller and J. Byun. Supervise process, not outcomes. https://ought.org/updates/2022-04-06-process, 2022. Uesato et al. (2022)
+
+J. Uesato, N. Kushman, R. Kumar, F. Song, N. Siegel, L. Wang, A. Creswell,
+G. Irving, and I. Higgins. Solving math word problems with process-and outcome-based feedback. arXiv preprint arXiv:2211.14275, 2022. Wang et al. (2022)
+
+X. Wang, J. Wei, D. Schuurmans, Q. Le, E. Chi, and D. Zhou. Self-consistency improves chain of thought reasoning in language
+models. arXiv preprint arXiv:2203.11171, 2022. Wei et al. (2022)
+
+J. Wei, X. Wang, D. Schuurmans, M. Bosma, E. Chi, Q. Le, and D. Zhou. Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903, 2022. Zelikman et al. (2022)
+
+E. Zelikman, Y. Wu, J. Mu, and N. Goodman. Star: Bootstrapping reasoning with reasoning. Advances in Neural Information Processing Systems,
+35:15476–15488, 2022. Ziegler et al. (2019)
+
+D. M. Ziegler, N. Stiennon, J. Wu, T. B. Brown, A. Radford, D. Amodei,
+P.

@@ -1,0 +1,13 @@
+We take advantage of the structure of transformer networks to create a simple model parallel implementation by adding a few synchronization primitives. A transformer layer consists of a self attention block followed by a two-layer, multi-layer perceptron (MLP) as shown in Figure 2. We introduce model parallelism in both of these blocks separately. We start by detailing the MLP block. The first part of the block is a GEMM followed by a GeLU nonlinearity:
+
+(1)
+
+One option to parallelize the GEMM is to split the weight matrix along its rows and input along its columns as:
+
+(2)
+
+This partitioning will result in . Since GeLU is a nonlinear function, and this approach will require a synchronization point before the GeLU function. Another option is to split along its columns . This partitioning allows the GeLU nonlinearity to be independently applied to the output of each partitioned GEMM:
+
+(3)
+
+This is advantageous as it removes a synchronization point. Hence, we partition the first GEMM in this column parallel fashion and split the second GEMM along its rows so it takes the output of the GeLU layer directly without requiring any communication as shown in Figure 3a.

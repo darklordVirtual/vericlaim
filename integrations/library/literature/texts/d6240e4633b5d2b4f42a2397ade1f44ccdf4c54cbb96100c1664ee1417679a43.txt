@@ -1,0 +1,18 @@
+Proof of Theorem 1. We first count the number of FLOPs and extra memory required. The dominating FLOPs are from matrix multiplication. In the inner loop, (Algorithm 1 line 9), we
+compute for and
+, which takes FLOPs. We also compute (Algorithm 1 line 12) for
+and , which takes FLOPs. We execute the inner loops
+times. Therefore the total number of FLOPs is
+
+In terms of extra memory required, we see that we need memory to store
+the statistics . We now prove the algorithm’s correctness by induction on for
+. Let be the first rows of , and similarly
+the the first rows of . Let , and
+(softmax applied row-wise). Let be the values of in HBM after the
+-th iteration of the outer loop (Algorithm 1 line 5). (Note that these values of are updated after each iteration of the outer loop.)
+We want to show that after the -th iteration of the outer loop, we have
+computed in HBM:
+
+Based on our initialization (Algorithm 1 line
+2), this claim is true for (i.e., before the
+any iteration of the outer loop is executed). Suppose that the claim holds for some . We want to show that the claim also holds for .

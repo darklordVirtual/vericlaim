@@ -1,0 +1,18 @@
+Aggarwal and Vitter [1988]
+
+Alok Aggarwal and S Vitter, Jeffrey. The input/output complexity of sorting and related problems. Communications of the ACM, 31(9):1116–1127, 1988. Bello [2021]
+
+Irwan Bello. LambdaNetworks: Modeling long-range interactions without attention. arXiv preprint arXiv:2102.08602, 2021. Beltagy et al. [2020]
+
+Iz Beltagy, Matthew E Peters, and Arman Cohan. Longformer: The long-document transformer. arXiv preprint arXiv:2004.05150, 2020. Blackford et al. [2002]
+
+L Susan Blackford, Antoine Petitet, Roldan Pozo, Karin Remington, R Clint
+Whaley, James Demmel, Jack Dongarra, Iain Duff, Sven Hammarling, Greg Henry,
+et al. An updated set of basic linear algebra subprograms (blas). ACM Transactions on Mathematical Software, 28(2):135–151, 2002. Brown et al. [2020]
+
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+et al. Language models are few-shot learners. Advances in neural information processing systems,
+33:1877–1901, 2020. Chalkidis et al. [2019]
+
+Ilias Chalkidis, Ion Androutsopoulos, and Nikolaos Aletras. Neural legal judgment prediction in English.

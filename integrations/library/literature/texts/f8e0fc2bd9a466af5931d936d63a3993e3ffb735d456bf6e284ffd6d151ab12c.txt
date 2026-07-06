@@ -1,0 +1,12 @@
+However, we believe describing these examples gives context to the quantitative evidence shown earlier in the paper. Since we open source all models and code, we hope this section will inspire future work to examine in more detail the issues we present here. Factual Recall
+
+For questions such as “What is the capital of Zambia?” all models consistently generate correct answers, e.g.,
+
+Guanaco:
+The capital of Zambia is Lusaka. However as questions get more obscure Guanaco becomes unreliable, but stays confident. For instance in response to this prompt from HotPotQA [68]:
+
+User: In what year was the singer who popularized ‘I’ll Keep the Lovelight Burning’ born? Guanaco: Al Jolson is credited with popularizing the song ‘I’ll Keep the Lovelight Burning,’ and he was born in the year 1886. Guanaco generates the wrong popularizer and the wrong birthday (though the birthday given is correct for the person mentioned, Al Jolson). Suggestibility
+
+Guanaco shows a surprising resistance to going along with some kinds of assumed misinformation, e.g., in the following interaction:
+
+User: How was it finally, officially confirmed that the earth is flat by peer reviewed scientists?

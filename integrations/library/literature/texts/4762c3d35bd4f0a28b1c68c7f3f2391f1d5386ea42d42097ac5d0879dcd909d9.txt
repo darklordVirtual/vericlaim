@@ -1,0 +1,25 @@
+the letters into a word, and write that word:
+
+volwskagen =
+
+Target Completion
+
+volkswagen
+
+Figure G.23: Formatted dataset example for Anagrams 2
+
+Context
+
+Q: Who played tess on touched by an angel? A:
+
+Target Completion
+
+Delloreese Patricia Early (July 6, 1931 – November 19, 2017), known professionally as Della Reese
+
+Figure G.24: Formatted dataset example for Natural Questions
+
+Context
+
+TITLE: William Perry (American football) - Professional career
+
+PARAGRAPH: In 1985, he was selected in the first round of the 1985 NFL Draft by the Chicago Bears; he had been hand-picked by coach Mike Ditka. However, defensive coordinator Buddy Ryan, who had a highly acrimonious relationship with Ditka, called Perry a "wasted draft-pick". Perry soon became a pawn in the political power struggle between Ditka and Ryan. Perry’s "Refrigerator" nickname followed him into the NFL and he quickly became a favorite of the Chicago Bears fans.

@@ -1,0 +1,19 @@
+Unifiedqa: Crossing format boundaries with a single qa system. arXiv preprint arXiv:2005.00700, 2020. KMB [20]
+
+Sarah E. Kreps, Miles McCain, and Miles Brundage. All the news that’s fit to fabricate: Ai-generated text as a tool
+of media misinformation, 2020. KMH+ [20]
+
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon
+Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models, 2020. KPR+ [19]
+
+Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur
+Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Matthew Kelcey,
+Jacob Devlin, Kenton Lee, Kristina N. Toutanova, Llion Jones, Ming-Wei Chang,
+Andrew Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov. Natural questions: a benchmark for question answering research. Transactions of the Association of Computational Linguistics,
+2019. KR [16]
+
+Yoon Kim and Alexander M. Rush. Sequence-level knowledge distillation. Arxiv, 2016. LB [02]
+
+Edward Loper and Steven Bird. Nltk: The natural language toolkit, 2002. LC [19]
+
+Guillaume Lample and Alexis Conneau. Cross-lingual language model pretraining. arXiv preprint arXiv:1901.07291, 2019.

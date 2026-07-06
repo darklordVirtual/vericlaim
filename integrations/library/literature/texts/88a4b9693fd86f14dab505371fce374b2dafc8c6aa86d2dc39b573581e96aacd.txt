@@ -1,0 +1,11 @@
+If the number of experts is very large, we can reduce the branching factor by using a two-level hierarchical MoE. In a hierarchical MoE, a primary gating network chooses a sparse weighted combination of “experts", each of which is itself a secondary mixture-of-experts with its own gating network.333 We have not found the need for deeper hierarchies. If the hierarchical MoE consists of groups of experts each, we denote the primary gating network by , the secondary gating networks by , and the expert networks by . The output of the MoE is given by:
+
+(12)
+
+Our metrics of expert utilization change to the following:
+
+(13)
+
+(14)
+
+and deonte the functions for the primary gating network and secondary gating network respectively. denotes the subset of for which . It would seem simpler to let , but this would not have a gradient with respect to the primary gating network, so we use the formulation above.

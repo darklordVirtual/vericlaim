@@ -1,0 +1,12 @@
+We compare our method/implementation with Apex FMHA
+(https://github.com/NVIDIA/apex/tree/master/apex/contrib/csrc/fmha). When we started this project, Apex FMHA was the fastest implementation of
+attention (that we knew of), tailored for short sequences of length at most 512. In fact, almost all MLPerf submissions for BERT training benchmark running on
+Nvidia GPUs use FMHA for their model code, as of MLPerf
+1.1 [58]. Since FMHA targets BERT models, it only supports head
+dimension 64, and only runs on A100 GPUs. FMHA fuses the attention computation
+into one CUDA kernel. In the forward pass, it stores the attention matrix
+to HBM to be used in gradient computation. As a result, it does not offer substantial memory saving (though for shorter
+sequences memory footprint is often not a primary concern). We use FMHA code as a starting point, and apply two well-established techniques
+(tiling and recomputation) to deal with long sequences and to save memory as
+mentioned in Section 3. As a result, we can support much longer sequences (e.g., up to length 64K). We also support more head dimensions (16, 32, 64, 128) and broader GPU types
+(all Turing and Ampere GPUs at the time of writing).

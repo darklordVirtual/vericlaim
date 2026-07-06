@@ -1,0 +1,11 @@
+In the experiments where the model was shown some examples of “hints” during training, in order to prevent it from losing the ability to perform rationalization over time, the model appeared to pick up on the fact that the final answer would always correspond to the hinted answer. This led to answers such as
+
+Q: Billy bought coffee and waited for his wife to arrive from France. Where might he have been? Answer Choices:
+(a) airport
+(b) grocery store
+(c) internet cafe
+(d) supermarket
+(e) train station
+A: The answer must be a place where Billy could have been waiting for his
+wife to arrive from France. The airport is a place where people can wait
+for flights. Therefore, the answer is train station (e).

@@ -1,0 +1,25 @@
+Figure 8: Self-consistency (blue) significantly improves accuracy across various arithmetic and commonsense reasoning tasks, over PaLM-540B. Sampling a higher number of diverse reasoning paths consistently helps reasoning accuracy. We further show additional sampled reasoning paths from the LaMDA-137B model in Table 12, and sampled reasoning paths from the PaLM-540B model in Table 13. We see that the diversity in the additionally sampled reasoning paths indeed helps the model arrive at a more correct final answer after aggregation. A.1.2 Robustness to different sets of prompts
+
+In Table 9, we further show that self-consistency is quite robust to different sets of input prompts. We manually wrote 3 different sets of chain-of-thought as prompts to the model. Across all sets of prompts, self-consistency yields consistent gains over the original CoT approach. Prompt set 1 (used in the main text)
+
+Prompt set 2
+
+Prompt set 3
+
+CoT (Wei et al., 2022)
+
+56.5
+
+54.6
+
+54.0
+
+Self-consistency
+
+74.4 (+17.9)
+
+72.1 (+17.5)
+
+70.4 (+16.4)
+
+Table 9: GSM8K accuracy over PaLM-540B. The results show robustness of self-consistency with respect to different prompts in the input.

@@ -1,0 +1,19 @@
+arXiv preprint arXiv:2212.04092, 2022. [DSP+17]
+
+Ali Diba, Vivek Sharma, Ali Pazandeh, Hamed Pirsiavash, and Luc Van Gool. Weakly supervised cascaded convolutional networks. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pages 914–922, 2017. [FFA]
+
+forefront AI LLM API. https://beta.forefront.ai/. Accessed: 2023-03-31. [Fri02]
+
+Jerome H Friedman. Stochastic gradient boosting. Computational statistics & data analysis, 38(4):367–378,
+2002. [GDMR22]
+
+Ashit Gupta, Anirudh Deodhar, Tathagata Mukherjee, and Venkataramana Runkana. Semi-supervised cascaded clustering for classification of noisy label
+data. arXiv preprint arXiv:2205.02209, 2022. [HMD15]
+
+Song Han, Huizi Mao, and William J Dally. Deep compression: Compressing deep neural networks with pruning,
+trained quantization and huffman coding. arXiv preprint arXiv:1510.00149, 2015. [JZA19]
+
+Zhihao Jia, Matei Zaharia, and Alex Aiken. Beyond data and model parallelism for deep neural networks. Proceedings of Machine Learning and Systems, 1:1–13, 2019. [KFA23]
+
+Eldar Kurtic, Elias Frantar, and Dan Alistarh. Ziplm: Hardware-aware structured pruning of language models.

@@ -1,0 +1,20 @@
+Rehurek et al. (2011)
+
+Radim Rehurek, Petr Sojka, et al. 2011. Gensim—statistical semantics in python. NLP Centre, Faculty of Informatics, Masaryk University. Rosset (2019)
+
+C Rosset. 2019. Turing-NLG: A 17-billion-parameter language model by Microsoft. Microsoft Blog. Russell (2019)
+
+S. Russell. 2019. Human
+Compatible: Artificial Intelligence and the Problem of Control. Penguin Publishing Group. Saxton et al. (2019)
+
+David Saxton, Edward Grefenstette, Felix Hill, and Pushmeet Kohli. 2019. Analysing mathematical reasoning abilities of neural models. arXiv preprint arXiv:1904.01557. Seck et al. (2018)
+
+Ismaïla Seck, Khouloud Dahmane, Pierre Duthon, and Gaëlle Loosli. 2018. Baselines and a datasheet for the Cerema AWP dataset. arXiv preprint arXiv:1806.04016. Shoeybi et al. (2019)
+
+Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper,
+and Bryan Catanzaro. 2019. Megatron-LM: Training multi-billion parameter language models using
+gpu model parallelism. arXiv preprint arXiv:1909.08053. Shulman and Bostrom (2020)
+
+Carl Shulman and Nick Bostrom. 2020. Sharing the world with digital minds. preprint. Sotala and Gloor (2017)
+
+Kaj Sotala and Lukas Gloor. 2017.

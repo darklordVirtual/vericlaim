@@ -1,0 +1,10 @@
+For all four language models we perform prompting-based inference only. For UL2 we use TPU v3 (2x2 configuration, 4 chips, 8 cores). For GPT-3 models the experiments are done though the public API.101010https://beta.openai.com/docs/api-reference/making-requests
+For LaMDA-137B we use TPU v3 (8x8 configuration, 64 chips, 128 cores). For PaLM-540B we use TPU v4 (4x4x12 configuration, 192 chips, 384 cores). Most inference jobs take 1 to 4 hours (over about 1,000 examples) for each task on UL2 and LaMDA-137B, and about 2 to 12 hours on PaLM-540B. Some tasks (e.g., commonsense reasoning) take longer but do not exceed 2 days for each task. For GPT-3 models, we use 128 max tokens for all methods, without frequency penalty or presence penalty. For all models, we take the generated outputs until the start of the next “Q:" to parse the final answers, consistent with our prompting format. Question
+
+Greedy Decode
+
+Sampled Path 1
+
+Sampled Path 2
+
+[MultiArith] Sam had 10 socks. If he threw away 3 old ones that didn’t fit and bought 36 new ones, how many socks would he have? Sam had 10 socks. He threw away 3 old ones that didn’t fit. He bought 36 new ones.

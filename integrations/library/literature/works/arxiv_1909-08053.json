@@ -1,0 +1,31 @@
+{
+  "abstract": "Recent work in language modeling demonstrates that training large transformer models advances the state of the art in Natural Language Processing applications. However, very large models can be quite difficult to train due to memory constraints. In this work, we present our techniques for training very large transformer models and implement a simple, efficient intra-layer model parallel approach that enables training transformer models with billions of parameters. Our approach does not require a new compiler or library changes, is orthogonal and complimentary to pipeline model parallelism, and can be fully implemented with the insertion of a few communication operations in native PyTorch. We illustrate this approach by converging transformer based models up to 8.3 billion parameters using 512 GPUs. We sustain 15.1 PetaFLOPs across the entire application with 76% scaling efficiency when compared to a strong single GPU baseline that sustains 39 TeraFLOPs, which is 30% of peak FLOPs. To demonstrate that large language models can further advance the state of the art (SOTA), we train an 8.3 billion parameter transformer language model similar to GPT-2 and a 3.9 billion parameter model similar to BERT. We show that careful attention to the placement of layer normalization in BERT-like models is critical to achieving increased performance as the model size grows. Using the GPT-2 model we achieve SOTA results on the WikiText103 (10.8 compared to SOTA perplexity of 15.8) and LAMBADA (66.5% compared to SOTA accuracy of 63.2%) datasets. Our BERT model achieves SOTA results on the RACE dataset (90.9% compared to SOTA accuracy of 89.4%).",
+  "accredited": false,
+  "authors": [
+    "Mohammad Shoeybi",
+    "Mostofa Patwary",
+    "Raul Puri",
+    "Patrick LeGresley",
+    "Jared Casper",
+    "Bryan Catanzaro"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T01:12:16.570702+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1909.08053"
+  },
+  "fulltext_sha256": "628f1ee4e49449ede4b1adba9cf48293dfd62296529fa3cf5ff943146e592ce0",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "megatron-2019",
+    "fetched_at": "2026-07-06T01:05:30.447823+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "99df71ab8c4cba7ae4c849c4bf8925a23e5d98208ff55ed108e3cbe834611dca",
+  "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+  "url": "https://arxiv.org/abs/1909.08053",
+  "venue": "arXiv",
+  "work_id": "arxiv:1909.08053",
+  "year": 2019
+}

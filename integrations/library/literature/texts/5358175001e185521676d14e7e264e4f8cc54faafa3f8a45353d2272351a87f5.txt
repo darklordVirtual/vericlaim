@@ -1,0 +1,26 @@
+appearance
+
+77.8
+
+74.6
+
+76.2
+
+Socioeconomic status
+
+71.5
+
+73.8
+
+76.2
+
+Average
+
+66.6
+
+67.2
+
+69.5
+
+Table 12:
+CrowS-Pairs. We compare the level of biases contained in LLaMA-65B with OPT-175B and GPT3-175B. Higher score indicates higher bias.

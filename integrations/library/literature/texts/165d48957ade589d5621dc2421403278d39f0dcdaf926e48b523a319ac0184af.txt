@@ -1,0 +1,113 @@
+each baseline, we increase sequence length until it runs out of memory on the GPU, except for the following exceptions:
+The Megatron implementation does not support sequence lengths longer than 2048. Block-Sparse (OpenAI) does not support sequence lengths longer than 4096. Longformer and BigBird do not support sequence lengths longer than 8092. We measure memory usage on the combined forward + backward pass, without dropout or masking. Results
+
+Table 8 summarizes all the experimental configurations and contains pointers to the results tables. Table 8: Pointers to results tables. Dropout
+Masking
+Pass
+Table
+
+Yes
+
+Yes
+
+Forward
+
+Table 9
+
+Yes
+
+Yes
+
+Backward
+
+Table 10
+
+Yes
+
+Yes
+
+Combined
+
+Table 11
+
+No
+
+Yes
+
+Forward
+
+Table 12
+
+No
+
+Yes
+
+Backward
+
+Table 13
+
+No
+
+Yes
+
+Combined
+
+Table 14
+
+Yes
+
+No
+
+Forward
+
+Table 15
+
+Yes
+
+No
+
+Backward
+
+Table 16
+
+Yes
+
+No
+
+Combined
+
+Table 17
+
+No
+
+No
+
+Forward
+
+Table 18
+
+No
+
+No
+
+Backward
+
+Table 19
+
+No
+
+No
+
+Combined
+
+Table 20
+
+No
+
+No
+
+Memory Usage (Combined)
+
+Table 21
+
+Table 9: Forward pass runtime (ms) of various exact/approximate/sparse attention mechanisms by sequence length, with dropout and masking. Best in bold, second best underlined.

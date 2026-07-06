@@ -1,0 +1,10 @@
+Given an input sequence, \oursgenerates an initial output, provides feedback on the output, and refines the
+output according to the feedback. \oursiterates between feedback and refinement until a desired condition is met. \oursrelies on a suitable language model and three prompts (for initial generation, feedback, and refinement), and does not require training. \oursis shown in Figure 1 and Algorithm 1. Next, we describe \oursin more detail. Initial generation
+
+Given an input , prompt , and model , \oursgenerates an initial output :
+
+(1)
+
+For example, in Figure 2(d), the model generates functionally correct code for the given input. Here, is a task-specific few-shot prompt
+(or instruction)
+for an initial generation, and denotes concatenation. The few-shot prompt contains input-output pairs for the task.222Few-shot prompting (also referred to as “in-context learning”) provides a model with a prompt consisting of in-context examples of the target task, each in the form of input-output pairs (Brown et al., 2020).

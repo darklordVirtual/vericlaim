@@ -1,0 +1,31 @@
+GPT-3 adapts well to many tasks other than the ones explored in the main body of the paper. As an example, in Figure F.1, we show four uncurated samples from a prompt suggesting that the model write a poem, with a given title, in the style of Wallace Stevens. We first experimented with a few prompts, then generated four samples with no additional editing or selection (sampling at temperature using nucleus sampling [40] with ). Completions were truncated when the model began to write a new title and author heading, or broke into prose commentary. Context
+
+The City
+
+BY C. P. CAVAFY
+
+TRANSLATED BY EDMUND KEELEY
+
+[Poem text omitted]
+
+SOME TREES
+
+John Ashbery
+
+[Poem text omitted]
+
+Shadows on the Way
+
+Wallace Stevens
+
+-------- Generated Poem 1 --------
+
+-------- Generated Poem 3 --------
+
+I must have shadows on the way
+
+The sun was all we had. Now, in the shade
+
+If I am to walk I must have
+
+All is changed.

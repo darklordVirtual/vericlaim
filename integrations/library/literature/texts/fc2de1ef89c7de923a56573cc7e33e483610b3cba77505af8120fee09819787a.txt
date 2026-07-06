@@ -1,0 +1,13 @@
+We follow the high-level description of the framework from Section 2, and instantiate our framework as follows. Init
+
+This is the first step in performing the task. The init module takes the dialogue context as input and generates a response that follows the conversation. Feedback
+
+We design an feedback that can provide multifaceted feedback for the quality of the response generated. Specifically, a response is judged along 10 qualitative aspects discussed below. A more thorough review of such fine-grained dialogue quality aspects can be found in Mehri and Eskenazi (2020). We use 6 in-context examples for feedback generation. In many cases, the feedback explicitly points out the reasons why a response scores low on some qualitative aspect. We show an example in Figure 16. •
+
+Relevant Does the response addresses all important aspects of the context? •
+
+Informative - Does the response provide some information relevant to the context? •
+
+Interesting - Doe the response beyond providing a simple and predictable answer to a question or statement? •
+
+Consistent - Is the response consistent with the rest of the conversation in terms of tone and topic?

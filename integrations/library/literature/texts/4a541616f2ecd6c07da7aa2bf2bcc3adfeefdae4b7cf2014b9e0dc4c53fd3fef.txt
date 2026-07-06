@@ -1,0 +1,1 @@
+In contrast, our approach relies mainly on human preference data. Like Hybrid-LLM, Zooter explores only a BERT-style router. Additionally, their training signal relies on a fixed set of LLMs, limiting its adaptability to other LLMs. In contrast, we show that our approach maintains strong performance even with LLMs not included in the training data.

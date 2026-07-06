@@ -1,0 +1,9 @@
+For each output , the authors create a response, evaluate it based on a rubric to generate , and produce an improved version . •
+
+Acronym Generation We provide the Base LLM with a total of 15 (title, acronym) examples. Then, for one title () we generate an acronym () using ChatGPT. The authors then score the acronyms based on a 5-point rubric to create the corresponding , and write improved versions of the acronym to create . 3 such examples are used for refine and feedback. •
+
+Code Optimization We use the slow () and fast () versions of programs released by Madaan et al. (2023) for Base LLM. We use their provided explanations (Madaan et al., 2023) for feedback and refine. •
+
+Math Reasoning The prompts for the Base LLM are sourced from PaL (Gao et al., 2022) as . We select two examples from the training set on which Codex fails when prompted with PaL-styled prompts, and manually write the correct solution () and reasoning () for refine and feedback. •
+
+Constrained Generation We provide ten examples to the Base LLM as . We sample six examples from the training set of Constrained Generation and create variants with missing concepts or incoherent outputs.

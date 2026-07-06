@@ -1,0 +1,21 @@
+arXiv preprint arXiv:1905.10044, 2019. CLY+ [19]
+
+Yen-Chun Chen, Linjie Li, Licheng Yu, Ahmed El Kholy, Faisal Ahmed, Zhe Gan,
+Yu Cheng, and Jingjing Liu. Uniter: Learning universal image-text representations. arXiv preprint arXiv:1909.11740, 2019. Cra [17]
+
+Kate Crawford. The trouble with bias. NIPS 2017 Keynote, 2017. DCLT [18]
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for language
+understanding. arXiv preprint arXiv:1810.04805, 2018. DGM [06]
+
+Ido Dagan, Oren Glickman, and Bernardo Magnini. The PASCAL recognising textual entailment challenge. In Machine learning challenges. evaluating predictive
+uncertainty, visual object classification, and recognising textual
+entailment, pages 177–190. Springer, 2006. DGV+ [18]
+
+Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, and Lukasz
+Kaiser. Universal transformers. Arxiv, 2018. DHKH [14]
+
+Nadir Durrani, Barry Haddow, Philipp Koehn, and Kenneth Heafield. Edinburgh’s phrase-based machine translation systems for wmt-14. In Proceedings of the Ninth Workshop on Statistical Machine
+Translation, pages 97–104, 2014. DL [15]
+
+Andrew M. Dai and Quoc V.

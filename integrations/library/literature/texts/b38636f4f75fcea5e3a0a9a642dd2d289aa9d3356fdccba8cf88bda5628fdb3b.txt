@@ -1,0 +1,41 @@
+Table 8: Results of Constrained Generation. # calls
+
+CommonGen-Hard
+
+Standard Prompting*
+
+1
+
+44.0*
+
+Self-Correct*
+
+7
+
+67.0*
+
+Standard Prompting*
+
+1
+
+53.0
+
+Self-Correct*
+
+7
+
+61.1
+
+Standard Prompting (ours)
+
+1
+
+81.8
+
+Self-Correct*
+
+7
+
+75.1
+
+* Prompts and results from Madaan et al. (2023). In Section 3, we observe that although self-correction decreases reasoning performance with all types of feedback prompts we have evaluated, performance varies with different feedback prompts. In this section, we further emphasize the importance of proper prompt design in generating initial LLM responses to fairly measure the performance improvement achieved by self-correction. For example, if a task requires that the model response should meet criteria that can be easily specified in the initial instruction (e.g., the output should contain certain words, the generated code should be efficient, the sentiment should be positive, etc.), instead of including such requirements only in the feedback prompt, an appropriate comparison would be to directly and explicitly incorporate these requirements into the prompt for generating initial responses.

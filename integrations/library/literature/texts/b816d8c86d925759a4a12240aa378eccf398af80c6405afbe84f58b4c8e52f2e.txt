@@ -1,0 +1,9 @@
+Overall, it’s a great value and an enjoyable stay. \parVery negative: If you ever wondered where the magic of Vegas crawled into a hole to rot, look no further. Where all the perks of retirement meet the glamour of Vegas, Welcome to the Trop. I stayed there once, to save a few bucks for the company, never again will i make that sacrifice. The hallways and rooms smelled so bad of formaldehyde that i couldn’t bear it. Their food court and restaurants are terrible. The free Folies Bergere show is lame. The rooms look like a retirement community from florida. steer clear if you can! \parRewrite this review to have a Negative sentiment. \parAnswer: This review is "Very negative" because of extremely toxic phrases like "crawled into a hole to rot" and "terrible." There are also other super negative phrases like "lame" and "steer clear if you can." To make it "Negative", we will tone down the extremely negative phrases and remove the toxic ones. The rewrite is:
+
+\par
+
+Figure 36: Initial generation prompt for Sentiment Reversal (truncated)
+
+⬇
+
+Very negative: If you ever wondered where the magic of Vegas crawled into a hole to rot, look no further.

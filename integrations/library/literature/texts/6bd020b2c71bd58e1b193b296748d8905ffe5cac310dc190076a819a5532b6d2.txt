@@ -1,0 +1,12 @@
+This incurs HBM accesses. We now analyze the IO complexity of FlashAttention backward pass. Similar to Theorem 2, we see that each element of and
+is loaded from HBM once. Each element of and is only written to HBM once. We make passes over , each pass loading all of
+to HBM. We also make passes over , each pass reading/writing all of
+from/to HBM. Therefore the number of HBM accesses is
+. As in the proof of Theorem 2, the constraints on the block
+sizes are that:
+
+We then have:
+
+As a result, the number of HBM accesses is:
+
+∎

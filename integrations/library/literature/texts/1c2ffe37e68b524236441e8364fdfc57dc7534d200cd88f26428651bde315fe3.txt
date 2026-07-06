@@ -1,0 +1,17 @@
+In Advances in Neural Information Processing Systems. Lieber et al. (2021)
+
+Opher Lieber, Or Sharir, Barak Lenz, and Yoav Shoham. 2021. Jurassic-1: Technical details and evaluation. White Paper. AI21 Labs, 1. Lin et al. (2021)
+
+Stephanie Lin, Jacob Hilton, and Owain Evans. 2021. Truthfulqa: Measuring how models mimic human falsehoods. arXiv preprint arXiv:2109.07958. Loshchilov and Hutter (2017)
+
+Ilya Loshchilov and Frank Hutter. 2017. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101. Mahoney (1999)
+
+Matthew V Mahoney. 1999. Text compression as a test for artificial intelligence. AAAI/IAAI, 970. Mihaylov et al. (2018)
+
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. 2018. Can a suit of armor conduct electricity? a new dataset for open book
+question answering. arXiv preprint arXiv:1809.02789. Mikolov et al. (2010)
+
+Tomas Mikolov, Martin Karafiát, Lukas Burget, Jan Cernockỳ, and Sanjeev
+Khudanpur. 2010. Recurrent neural network based language model. In Interspeech, pages 1045–1048. Makuhari. Nangia et al. (2020)
+
+Nikita Nangia, Clara Vania, Rasika Bhalerao, and Samuel R. Bowman. 2020.

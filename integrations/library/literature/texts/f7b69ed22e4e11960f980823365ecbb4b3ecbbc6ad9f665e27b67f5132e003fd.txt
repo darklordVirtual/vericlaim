@@ -1,0 +1,2 @@
+(2021), at each layer of the network. The details of the hyper-parameters for our different models are given in Table 2. Figure 1:
+Training loss over train tokens for the 7B, 13B, 33B, and 65 models. LLaMA-33B and LLaMA-65B were trained on 1.4T tokens. The smaller models were trained on 1.0T tokens. All models are trained with a batch size of 4M tokens.

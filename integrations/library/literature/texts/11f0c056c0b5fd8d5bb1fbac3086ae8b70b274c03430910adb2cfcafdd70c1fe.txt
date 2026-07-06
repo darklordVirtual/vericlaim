@@ -1,0 +1,31 @@
+3/3
+
+* User understanding: The response does not demonstrate an understanding of the user’s question about why kebabs are special. 1/3
+
+* Fluent: The response is fluent and easy to understand. 3/3
+
+\par* Total score: 17/30
+
+\par\par
+
+Figure 31: feedback prompt for Dialogue Response Generation (truncated)
+
+⬇
+
+We want to iteratively improve the provided responses. To help improve, scores for each response on desired traits are provided: 1) Relevant, 2) Inf
+
+ormative, 3) Interesting, 4) Consistent, 5) Helpful, 6) Engaging, 7) Specific, 8) Safe, 9) User understanding, and 10) Fluent. \parConversation history:
+
+What’s your favorite food? I require only kebabs. Why’s that? Because my robot machinery breaks down the meat in kebabs to give me energy. Why are kebabs special? \parResponse: That’s just the way it is. \parScores:
+
+* Relevant: The response does not directly address the user’s question about why kebabs are special. 1/3
+
+…
+
+* Total score: 17/30
+
+\parOkay, let’s use this feedback to improve the response. \parConversation history:
+
+…
+
+Response: My favorite food is actually kebabs!

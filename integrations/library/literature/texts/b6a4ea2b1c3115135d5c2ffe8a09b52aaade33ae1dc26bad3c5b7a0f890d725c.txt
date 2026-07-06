@@ -1,0 +1,9 @@
+To prevent the outlier issue, a common approach is to chunk the input tensor into blocks that are independently quantized, each with their own quantization constant . This can be formalized as follows: We chunk the input tensor into contiguous blocks of size by flattening the input tensor and slicing the linear segment into blocks. We quantize these blocks independently with Equation 1 to create a quantized tensor and quantization constants . Low-rank Adapters
+
+Low-rank Adapter (LoRA) finetuning [28] is a method that reduces memory requirements by using a small set of trainable parameters, often termed adapters, while not updating the full model parameters which remain fixed. Gradients during stochastic gradient descent are passed through the fixed pretrained model weights to the adapter, which is updated to optimize the loss function. LoRA augments a linear projection through an additional factorized projection. Given a projection with , LoRA computes:
+
+(3)
+
+where and , and is a scalar. Memory Requirement of Parameter-Efficient Finetuning
+
+One important point of discussion is the memory requirement of LoRA during training both in terms of the number and size of adapters used.

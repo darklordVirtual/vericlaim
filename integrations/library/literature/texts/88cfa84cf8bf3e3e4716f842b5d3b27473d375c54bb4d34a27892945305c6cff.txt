@@ -1,0 +1,21 @@
+SS [20]
+
+Timo Schick and Hinrich Schütze. Exploiting cloze questions for few-shot text classification and
+natural language inference. arXiv preprint arXiv:2001.07676, 2020. STQ+ [19]
+
+Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, and Tie-Yan Liu. MASS: Masked sequence to sequence pre-training for language
+generation. arXiv preprint arXiv:1905.02450, 2019. TFR+ [17]
+
+Josh Tobin, Rachel Fong, Alex Ray, Jonas Schneider, Wojciech Zaremba, and
+Pieter Abbeel. Domain randomization for transferring deep neural networks from
+simulation to the real world. In 2017 IEEE/RSJ international conference on intelligent robots
+and systems (IROS), pages 23–30. IEEE, 2017. TL [05]
+
+Peter D. Turney and Michael L. Littman. Corpus-based learning of analogies and semantic relations. CoRR, abs/cs/0508103, 2005. TL [18]
+
+Trieu H. Trinh and Quoc V. Le. A simple method for commonsense reasoning. arXiv preprint arXiv:1806.02847, 2018. TLBS [03]
+
+Peter D. Turney, Michael L. Littman, Jeffrey Bigham, and Victor Shnayder. Combining independent modules to solve multiple-choice synonym and
+analogy problems. CoRR, cs.CL/0309035, 2003. Tur [20]
+
+Project Turing. Microsoft research blog, Feb 2020.

@@ -1,0 +1,5 @@
+{"fsid": "web_12factor-net", "n": 4, "overlap": 200, "source_sha256": "678283346ee2aa3e0f6f7c5fee19b5a6b813ff74bf7c4e113fd8b3f5db35ef8f", "target": 1200}
+{"section": "", "seq": 0, "sha256": "45381adac2af68e0bf40560406cef5cdb2d8ba41e5f983ab26a04f90d1af06ab"}
+{"section": "Introduction", "seq": 1, "sha256": "e7d03b443bebaafd32c16f5de6cdcc651cfb027f7c3246261342c76784966b60"}
+{"section": "Background", "seq": 2, "sha256": "9163788a8ba3d08dc45e082391af3e9fbf8e059bdf5b746a1a9d75a5388c6777"}
+{"section": "Who should read this document?", "seq": 3, "sha256": "f95f654a482c750dfffec42116f68db6c7d058e3a9da408f90600d9ceda550d4"}

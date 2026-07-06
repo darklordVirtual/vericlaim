@@ -1,0 +1,20 @@
+Generated knowledge prompting for commonsense reasoning. arXiv preprint arXiv:2110.08387, 2021. [LSZ+21]
+
+Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, and Weizhu
+Chen. What makes good in-context examples for gpt-? arXiv preprint arXiv:2101.06804, 2021. [LZG+21]
+
+Zhuohan Li, Siyuan Zhuang, Shiyuan Guo, Danyang Zhuo, Hao Zhang, Dawn Song, and
+Ion Stoica. Terapipe: Token-level pipeline parallelism for training large-scale
+language models. In International Conference on Machine Learning, pages
+6543–6552. PMLR, 2021. [MDL+23]
+
+Grégoire Mialon, Roberto Dessì, Maria Lomeli, Christoforos Nalmpantis,
+Ram Pasunuru, Roberta Raileanu, Baptiste Rozière, Timo Schick, Jane
+Dwivedi-Yu, Asli Celikyilmaz, et al. Augmented language models: a survey. arXiv preprint arXiv:2302.07842, 2023. [Ope]
+
+OpenAI LLM API. https://platform.openai.com/. Accessed: 2023-03-31. [Ope23]
+
+OpenAI. Gpt-4 technical report. arXiv preprint https://arxiv.org/abs/2303.08774, 2023. [RCM19]
+
+Siva Reddy, Danqi Chen, and Christopher D Manning. Coqa: A conversational question answering challenge. Transactions of the Association for Computational Linguistics,
+7:249–266, 2019.

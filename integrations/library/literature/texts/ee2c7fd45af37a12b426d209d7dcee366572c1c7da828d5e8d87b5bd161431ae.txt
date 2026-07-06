@@ -1,0 +1,1 @@
+We use pandoc 1.19.2.4 (MacFarlane, 2006–2020) to convert the JATS format data provided by PMC to markdown. Afterwards, we remove any line beginning with :::, which is used by pandoc to indicate html classes in markdown.

@@ -1,0 +1,19 @@
+Edinburgh’s phrase-based machine translation systems for wmt-14. In Proceedings of the Ninth Workshop on Statistical Machine
+Translation, pages 97–104, 2014. DL [15]
+
+Andrew M. Dai and Quoc V. Le. Semi-supervised sequence learning. In Advances in neural information processing systems, 2015. DMST [19]
+
+Marie-Catherine De Marneffe, Mandy Simons, and Judith Tonhauser. The CommitmentBank: Investigating projection in naturally occurring
+discourse. 2019. To appear in proceedings of Sinn und Bedeutung 23. Data can be found
+at https://github.com/mcdm/CommitmentBank/. DSC+ [16]
+
+Yan Duan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, and Pieter
+Abbeel. Rl2: Fast reinforcement learning via slow reinforcement learning. ArXiv, abs/1611.02779, 2016. DWD+ [19]
+
+Dheeru Dua, Yizhong Wang, Pradeep Dasigi, Gabriel Stanovsky, Sameer Singh, and
+Matt Gardner. Drop: A reading comprehension benchmark requiring discrete reasoning
+over paragraphs. arXiv preprint arXiv:1903.00161, 2019. DYY+ [19]
+
+Zihang Dai, Zhilin Yang, Yiming Yang, Jaime G. Carbonell, Quoc V. Le, and
+Ruslan Salakhutdinov. Transformer-xl: Attentive language models beyond a fixed-length
+context. Arxiv, 2019.

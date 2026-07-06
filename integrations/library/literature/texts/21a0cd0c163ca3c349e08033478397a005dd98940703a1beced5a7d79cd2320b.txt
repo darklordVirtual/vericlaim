@@ -1,0 +1,18 @@
+The penn treebank: annotating predicate argument structure. In Proceedings of the workshop on Human Language Technology,
+pages 114–119. Association for Computational Linguistics, 1994. MKXS [18]
+
+Bryan McCann, Nitish Shirish Keskar, Caiming Xiong, and Richard Socher. The natural language decathlon: Multitask learning as question
+answering. arXiv preprint arXiv:1806.08730, 2018. MPL [19]
+
+R Thomas McCoy, Ellie Pavlick, and Tal Linzen. Right for the wrong reasons: Diagnosing syntactic heuristics in
+natural language inference. arXiv preprint arXiv:1902.01007, 2019. MWZ+ [18]
+
+Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
+Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. Model cards for model reporting, 2018. NBR [20]
+
+Moin Nadeem, Anna Bethke, and Siva Reddy. Stereoset: Measuring stereotypical bias in pretrained language
+models. arXiv preprint arXiv:2004.09456, 2020. NK [19]
+
+Timothy Niven and Hung-Yu Kao. Probing neural network comprehension of natural language arguments. arXiv preprint arXiv:1907.07355, 2019. Nor [09]
+
+Peter Norvig. Natural language corpus data, 2009.

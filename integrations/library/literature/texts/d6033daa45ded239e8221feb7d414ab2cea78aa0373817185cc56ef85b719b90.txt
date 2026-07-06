@@ -1,0 +1,14 @@
+Table 1: Summary of issues in previous LLM self-correction evaluation. Method
+Issue
+
+RCI (Kim et al., 2023); Reflexion (Shinn et al., 2023)
+
+Use of oracle labels (Section 3)
+
+Multi-Agent Debate (Du et al., 2023)
+
+Unfair comparison to self-consistency (Section 4)
+
+Self-Refine (Madaan et al., 2023)
+
+Sub-optimal prompt design (Section 5)

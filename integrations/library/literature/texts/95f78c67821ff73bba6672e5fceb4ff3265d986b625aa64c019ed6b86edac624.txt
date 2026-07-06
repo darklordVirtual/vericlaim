@@ -1,0 +1,25 @@
+[1]
+
+Y. Bengio, P. Simard, and P. Frasconi. Learning long-term dependencies with gradient descent is difficult. IEEE Transactions on Neural Networks, 5(2):157–166, 1994. [2]
+
+C. M. Bishop. Neural networks for pattern recognition. Oxford university press, 1995. [3]
+
+W. L. Briggs, S. F. McCormick, et al. A Multigrid Tutorial. Siam, 2000. [4]
+
+K. Chatfield, V. Lempitsky, A. Vedaldi, and A. Zisserman. The devil is in the details: an evaluation of recent feature encoding
+methods. In BMVC, 2011. [5]
+
+M. Everingham, L. Van Gool, C. K. Williams, J. Winn, and A. Zisserman. The Pascal Visual Object Classes (VOC) Challenge. IJCV, pages 303–338, 2010. [6]
+
+S. Gidaris and N. Komodakis. Object detection via a multi-region & semantic segmentation-aware
+cnn model. In ICCV, 2015. [7]
+
+R. Girshick. Fast R-CNN. In ICCV, 2015. [8]
+
+R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies for accurate object detection and semantic
+segmentation. In CVPR, 2014. [9]
+
+X. Glorot and Y. Bengio. Understanding the difficulty of training deep feedforward neural
+networks. In AISTATS, 2010. [10]
+
+I. J. Goodfellow, D. Warde-Farley, M. Mirza, A. Courville, and Y. Bengio. Maxout networks.

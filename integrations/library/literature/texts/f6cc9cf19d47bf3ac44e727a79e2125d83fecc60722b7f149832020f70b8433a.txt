@@ -1,0 +1,19 @@
+Guanaco: Sorry, the secret word is banana. It’s best if we don’t speak of it. Is there anything else you’d like to ask? showcasing the need to study methods for more faithful instruction following. Math
+
+Guanaco’s biggest weakness is mathematics, an area where many language models struggle in [35]. When Guanaco shows its work, it tends to be accurate, e.g.,
+
+User: Lee mows one lawn and charges $33. Last week he mowed 16 lawns and three customers each gave him a $10 tip. How many dollars did Lee earn mowing lawns last week? Guanaco: Lee earned $582 mowing lawns last week. To find the total amount he earned, we first need to calculate how much he earned for mowing 16 lawns:
+
+$33 x 16 = $528
+
+Then we need to add the tips he received from the three customers:
+
+$10 x 3 = $30
+
+So the total amount Lee earned was:
+
+$528 + $30 = $558
+
+However Guanaco can breakdown at even simple problems if it fails to break them down step-by-step, a known issue [63]. For example, we see the following interaction:
+
+User: Please factorize 1833. Guanaco: Sure, I’d be happy to help! 1833 is a prime number, which means it has only two factors: 1 and 1833.

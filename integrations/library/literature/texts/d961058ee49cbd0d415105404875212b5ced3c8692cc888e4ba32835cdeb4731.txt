@@ -1,0 +1,67 @@
+For completeness, we report the improvements made for the competitions. These improvements are based on deep features and thus should benefit from residual learning. training data
+
+COCO train
+
+COCO trainval
+
+test data
+
+COCO val
+
+COCO test-dev
+
+mAP
+
+@.5
+
+@[.5, .95]
+
+@.5
+
+@[.5, .95]
+
+baseline Faster R-CNN (VGG-16)
+
+41.5
+
+21.2
+
+baseline Faster R-CNN (ResNet-101)
+
+48.4
+
+27.2
+
++box refinement
+
+49.9
+
+29.9
+
++context
+
+51.1
+
+30.0
+
+53.3
+
+32.2
+
++multi-scale testing
+
+53.8
+
+32.5
+
+55.7
+
+34.9
+
+ensemble
+
+59.0
+
+37.4
+
+Table 9: Object detection improvements on MS COCO using Faster R-CNN and ResNet-101.

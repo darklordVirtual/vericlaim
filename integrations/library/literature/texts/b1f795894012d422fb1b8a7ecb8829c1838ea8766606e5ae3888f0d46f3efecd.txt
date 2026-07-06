@@ -1,0 +1,22 @@
+In International Conference on Learning Representations
+(ICLR), 2020. Dao et al. [2022a]
+
+Tri Dao, Beidi Chen, Kaizhao Liang, Jiaming Yang, Zhao Song, Atri Rudra, and
+Christopher Ré. Pixelated butterfly: Simple and efficient sparse training for neural
+network models. In International Conference on Learning Representations
+(ICLR), 2022a. Dao et al. [2022b]
+
+Tri Dao, Beidi Chen, Nimit Sohoni, Arjun Desai, Michael Poli, Jessica Grogan,
+Alexander Liu, Aniruddh Rao, Atri Rudra, and Christopher Ré. Monarch: Expressive structured matrices for efficient and accurate
+training. In International Conference on Machine Learning (ICML),
+2022b. Daras et al. [2020]
+
+Giannis Daras, Nikita Kitaev, Augustus Odena, and Alexandros G Dimakis. Smyrf-efficient attention using asymmetric clustering. Advances in Neural Information Processing Systems,
+33:6476–6489, 2020. De Sa et al. [2018]
+
+Christopher De Sa, Albert Gu, Rohan Puttagunta, Christopher Ré, and Atri
+Rudra. A two-pronged progress in structured dense matrix vector
+multiplication. In Proceedings of the Twenty-Ninth Annual ACM-SIAM Symposium on
+Discrete Algorithms, pages 1060–1079. SIAM, 2018. Denning [1968]
+
+Peter J Denning.

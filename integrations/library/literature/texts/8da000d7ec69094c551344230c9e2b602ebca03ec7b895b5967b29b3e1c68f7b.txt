@@ -1,0 +1,139 @@
+(Luong et al., 2015b)
+
+33.1
+
+DeepAtt (Zhou et al., 2016)
+
+37.7
+
+DeepAtt+PosUnk (Zhou et al., 2016)
+
+39.2
+
+Table 3: Results on WMT’14 En De newstest2014 (bold values represent best results). Model
+
+Test
+
+Test
+
+ops/timestep
+
+Total
+
+Training
+
+Perplexity
+
+BLEU
+
+#Parameters
+
+Time
+
+MoE with 2048 Experts
+
+4.64
+
+26.03
+
+85M
+
+8.7B
+
+1 day/64 k40s
+
+GNMT (Wu et al., 2016)
+
+5.25
+
+24.91
+
+214M
+
+278M
+
+1 day/96 k80s
+
+GNMT +RL (Wu et al., 2016)
+
+8.08
+
+24.66
+
+214M
+
+278M
+
+1 day/96 k80s
+
+PBMT (Durrani et al., 2014)
+
+20.7
+
+DeepAtt (Zhou et al., 2016)
+
+20.6
+
+Table 4: Results on the Google Production En Fr dataset (bold values represent best results). Model
+
+Eval
+
+Eval
+
+Test
+
+Test
+
+ops/timestep
+
+Total
+
+Training
+
+Perplexity
+
+BLEU
+
+Perplexity
+
+BLEU
+
+#Parameters
+
+Time
+
+MoE with 2048 Experts
+
+2.60
+
+37.27
+
+2.69
+
+36.57
+
+85M
+
+8.7B
+
+1 day/64 k40s
+
+GNMT (Wu et al., 2016)
+
+2.78
+
+35.80
+
+2.87
+
+35.56
+
+214M
+
+278M
+
+6 days/96 k80s
+
+Results:
+
+Tables 2, 3, and 4 show the results of our largest models, compared with published results. Our approach achieved BLEU scores of 40.56 and 26.03 on the WMT’14 EnFr and EnDe benchmarks.

@@ -1,0 +1,1 @@
+We download the court opinions data in bulk from CourtListener,191919 https://www.courtlistener.com/api/bulk-info/ and extract the raw text using BeautifulSoup.

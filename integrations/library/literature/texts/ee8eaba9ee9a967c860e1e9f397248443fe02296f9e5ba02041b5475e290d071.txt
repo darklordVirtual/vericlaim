@@ -1,0 +1,20 @@
+In Proceedings of the Twenty-Ninth Annual ACM-SIAM Symposium on
+Discrete Algorithms, pages 1060–1079. SIAM, 2018. Denning [1968]
+
+Peter J Denning. The working set model for program behavior. Communications of the ACM, 11(5):323–333,
+1968. Devlin et al. [2019]
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for language
+understanding. 2019. Dong et al. [2017]
+
+Xin Dong, Shangyu Chen, and Sinno Jialin Pan. Learning to prune deep neural networks via layer-wise optimal brain
+surgeon. arXiv preprint arXiv:1705.07565, 2017. Dosovitskiy et al. [2020]
+
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg
+Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at
+scale. In International Conference on Learning Representations, 2020. Eidelman and Gohberg [1999]
+
+Y Eidelman and I Gohberg. On a new class of structured matrices. Integral Equations and Operator Theory, 34(3):293–324, 1999. Feydy et al. [2020]
+
+Jean Feydy, Joan Glaunès, Benjamin Charlier, and Michael Bronstein.

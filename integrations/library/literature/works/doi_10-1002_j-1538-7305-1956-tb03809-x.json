@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "J. L. Kelly"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "kelly-1956",
+    "fetched_at": "2026-07-06T01:07:51.618750+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "ec5d597178a90f7e414ce2fc1ca664e2711a3b4c42bc9e59ea474f5747b75580",
+  "title": "A New Interpretation of Information Rate",
+  "url": "https://doi.org/10.1002/j.1538-7305.1956.tb03809.x",
+  "venue": "Bell System Technical Journal",
+  "work_id": "doi:10.1002/j.1538-7305.1956.tb03809.x",
+  "year": 1956
+}

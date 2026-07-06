@@ -1,0 +1,13 @@
+Training language models to follow instructions with human feedback. Advances in neural information processing systems, 35:27730–27744, 2022. Radford et al. (2019)
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et al. Language models are unsupervised multitask learners. OpenAI blog, 1(8):9, 2019. Together.AI (2024)
+
+Together.AI. Together.ai pricing, 2024. URL https://www.together.ai/pricing. Accessed: 2024-06-30. Töscher et al. (2009)
+
+Andreas Töscher, Michael Jahrer, and Robert M Bell. The bigchaos solution to the netflix grand prize. Netflix prize documentation, pp. 1–52, 2009. Touvron et al. (2023)
+
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023. UnifyAI (2024)
+
+UnifyAI. Unifyai, 2024. URL https://unify.ai. Accessed: 2024-06-30. Vaswani et al. (2017)
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need.

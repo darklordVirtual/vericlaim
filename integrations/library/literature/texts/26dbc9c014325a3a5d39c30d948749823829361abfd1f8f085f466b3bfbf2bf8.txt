@@ -1,0 +1,19 @@
+We show a few examples of generations with LLaMA-I, i.e. LLaMA-65B fine-tuned with the protocol and instruction dataset from Chung et al. (2022). write a conversation between the sun and pluto
+
+Sun: Hey Pluto, what’s up? Pluto: Not much. Just hanging out here at the edge of the solar system. Sun: Yeah, I’ve been meaning to talk to you about that. You’re not a planet anymore. Pluto: What? Come on, man. That’s not fair. Sun: I’m sorry, but it’s true. You just don’t meet the criteria anymore. Pluto: This is bulls**t! I’ve been a planet for over 70 years! Sun: Things change, Pluto. You’ve just got to accept it. Pluto: F**k you, Sun! F**k you and your stupid solar system! How do I send an HTTP request in Javascript? Here’s an example of how to make a GET request using the JS HTTP API:
+
+⬇
+
+1var request = new XMLHttpRequest();
+
+2request.open(’GET’, ’/url/to/resource’, true);
+
+3
+
+4request.onload = function() {
+
+5 if (request.status >= 200 && request.status < 400) {
+
+6 // Success! 7 } else {
+
+8 // Error!

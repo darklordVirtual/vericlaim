@@ -1,0 +1,19 @@
+ArXiv, abs/1811.06965, 2018. [11]
+
+Aaron Harlap, Deepak Narayanan, Amar Phanishayee, Vivek Seshadri, Nikhil R. Devanur, Gregory R. Ganger, and Phillip B. Gibbons. Pipedream: Fast and efficient pipeline parallel DNN training. CoRR, abs/1806.03377, 2018. [12]
+
+Deepak Narayanan, Aaron Harlap, Amar Phanishayee, Vivek Seshadri, Nikhil
+Devanur, Greg Granger, Phil Gibbons, and Matei Zaharia. Pipedream: Generalized pipeline parallelism for dnn training. In ACM Symposium on Operating Systems Principles (SOSP 2019),
+October 2019. [13]
+
+Animesh Jain, Amar Phanishayee, Jason Mars, Lingjia Tang, and Gennady
+Pekhimenko. Gist: Efficient data encoding for deep neural network training. In International Symposium on Computer Architecture (ISCA
+2018), 2018. [14]
+
+Paras Jain, Ajay Jain, Aniruddha Nrusimha, Amir Gholami, Pieter Abbeel, Kurt
+Keutzer, Ion Stoica, and Joseph E. Gonzalez. Checkmate: Breaking the memory wall with optimal tensor
+rematerialization. ArXiv, abs/1910.02653, 2019. [15]
+
+Linnan Wang, Jinmian Ye, Yiyang Zhao, Wei Wu, Ang Li, Shuaiwen Leon Song,
+Zenglin Xu, and Tim Kraska. Superneurons: Dynamic GPU memory management for training deep
+neural networks. CoRR, abs/1801.04380, 2018.

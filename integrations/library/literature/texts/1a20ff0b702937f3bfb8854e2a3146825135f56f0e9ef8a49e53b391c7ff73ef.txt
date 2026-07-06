@@ -1,0 +1,6 @@
+softmax of the concatenated as:
+
+Therefore if we keep track of some extra statistics (), we can compute softmax one block at a time.222This style of aggregation is called algebraic aggregation [33]. We thus split the inputs into blocks (Algorithm 1 line 3), compute the softmax values along with extra statistics (Algorithm 1 line 10), and combine the results (Algorithm 1 line 12). Recomputation. One of our goals is to not store intermediate values for the backward
+pass. The backward pass typically requires the matrices
+to compute the gradients with respect to . However, by storing the output and the softmax normalization statistics , we can
+recompute the attention matrix and easily in the backward pass from blocks of in SRAM. This can be seen as a form of selective gradient checkpointing [34, 10]. While gradient checkpointing has been suggested to reduce the maximum amount of memory required [66], all implementations (that we know off) have to trade speed for memory. In contrast, even with more FLOPs, our recomputation speeds up the backward pass due to reduced HBM accesses (Fig. 2). The full backward pass description is in Appendix B. Implementation details: Kernel fusion.

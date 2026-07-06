@@ -1,0 +1,178 @@
+{"fsid": "arxiv_2101-00027", "n": 177, "overlap": 200, "source_sha256": "bcd756079349264db8a69cccdd40804428b707e9ce17a26bc62df568406cff7d", "target": 1200}
+{"section": "", "seq": 0, "sha256": "63e25c301e9546dc46a3e65060454c922eb1e89572289712b2e79a49a1054e18"}
+{"section": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling", "seq": 1, "sha256": "869556c6ef36e37f3a614a0054935c98d58481bd25cac7241a4d50f32b5b437b"}
+{"section": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling", "seq": 2, "sha256": "7226ab24658ebf83098c5e93f2fc2a4c4504a8fca9e5500cfa9735302d1d1902"}
+{"section": "1 Introduction", "seq": 3, "sha256": "c4e245931933ff187a61d6da56eb03affe74be949d37aa67aa47e84db4feefe7"}
+{"section": "1 Introduction", "seq": 4, "sha256": "41a17a90fc8e335c9b4f3e8fec12f24901ea269c3ffa9e1d44e830aeec066b18"}
+{"section": "1 Introduction", "seq": 5, "sha256": "b1071071ce00dc01c6f29fa0ad8450d6a4134772e2f5edeb3e5f20caa9faca50"}
+{"section": "1 Introduction", "seq": 6, "sha256": "229ae217b9a1a3e62b5a8ef55e7f465c3706d13eec5b907009dbbe1a2278846f"}
+{"section": "1.1 Contributions", "seq": 7, "sha256": "17b72d6bb7362ee3bf002610111cd527cad8d2e2272dc61674f5dde430356f55"}
+{"section": "2 The Pile Datasets", "seq": 8, "sha256": "2c52a4510008dfec76da5b2b84823dc5f8e2ba4d77e45202514805f211d1a5a5"}
+{"section": "2 The Pile Datasets", "seq": 9, "sha256": "7acdcc8c428578005d1dea173f56b4ba2254cffecd696b75fa0978636114ed8a"}
+{"section": "2.1 Pile-CC", "seq": 10, "sha256": "0e7160a4699931e4bf573fa3286b9e9d891b60c247126ef4dc16848051733921"}
+{"section": "2.2 PubMed Central", "seq": 11, "sha256": "1ce2720bd938f9d27a5dea78c84ca1631dfe0998f7cd42a1281677140bfe8bd5"}
+{"section": "2.3 Books3", "seq": 12, "sha256": "1a4b6704291d4a0adf1c9e9d5e07fb1ff59cb26a97407c69a7f39946ef5bbaf1"}
+{"section": "2.4 OpenWebText2", "seq": 13, "sha256": "3ae355fb01e69d83f4611c321995c4bfea3ea5864c89ee3cfdc39e4bafbdf13d"}
+{"section": "2.5 ArXiv", "seq": 14, "sha256": "c696290edf60c9afe2c921fc55f1614860553af50be4af61ffa73cc816ed48cd"}
+{"section": "2.6 GitHub", "seq": 15, "sha256": "6340f87c5acc20648d092c480ef947b45ff45173781b98f616ecdf39bbcfa90b"}
+{"section": "2.7 FreeLaw", "seq": 16, "sha256": "554865c280904d143307e3772cf39db06d8fd497bc4d0af4932f8e6e8e88f606"}
+{"section": "2.8 Stack Exchange", "seq": 17, "sha256": "8ec916c7f811bcae816a1119cf4382a80bcd4f344742f81883a1d175e9edb353"}
+{"section": "2.9 USPTO Backgrounds", "seq": 18, "sha256": "cec2d61e169cb0000dcbcd5549474f4b4d776a392a8fd99011f378228ac493d4"}
+{"section": "2.10 Wikipedia (English)", "seq": 19, "sha256": "9410172400ddf87d3977d9c40a530adcd28f516282cb1cc640b1fc7450059569"}
+{"section": "2.11 PubMed Abstracts", "seq": 20, "sha256": "4bdfe649df557da6d580b4618b491ac5e351cda18801376f2703268c7b99ce4e"}
+{"section": "2.12 Project Gutenberg", "seq": 21, "sha256": "631fc7c77c804dc9fc77fae05c0b6771efc42ee9ac16b7f453b7f7601b57a26e"}
+{"section": "2.13 OpenSubtitles", "seq": 22, "sha256": "8867e034f34b795f709d825392150102ef9c7bd19379f38cdcb33e4d0268e89d"}
+{"section": "2.14 DeepMind Mathematics", "seq": 23, "sha256": "c291fa141928216626051d3d1ac93afc19aa2021edaaa1a1a578bb39dab9f411"}
+{"section": "2.15 BookCorpus2", "seq": 24, "sha256": "c8f1517ce19f4190dc755ddf82fe93926cac8adbfaea0ba16669135a2b8b3a94"}
+{"section": "2.16 Ubuntu IRC", "seq": 25, "sha256": "87a91f740fc883efd2e9ed3bcbf7313c127ee1a2687ad9cc7d014a981caa97d9"}
+{"section": "2.17 EuroParl", "seq": 26, "sha256": "d57525505064af8d080e1dd4465f89376acff4d37d046b8b7d460cbcff3094e4"}
+{"section": "2.18 YouTube Subtitles", "seq": 27, "sha256": "1b3f3334d896d12dd3bed0a4af59cac3142a9dfeee85f0c2b94d36b23d576ce8"}
+{"section": "2.19 PhilPapers", "seq": 28, "sha256": "dc724b347de3f57e479b73b5c78839f553ffcdacaa48680062cbcee8d9dd023b"}
+{"section": "2.20 NIH Grant Abstracts: ExPORTER", "seq": 29, "sha256": "124146820377547ba9343ce3c72869890ac53817470ed99879a2ce42f7d57a32"}
+{"section": "2.21 Hacker News", "seq": 30, "sha256": "bad77f84ec7f3ba30f37900fddeabd3d46bd3c0fe72db64150af3cf49200ea9b"}
+{"section": "2.22 Enron Emails", "seq": 31, "sha256": "06ad1f946aac683afa0ca71f4ac2e3de43f563ff430fa098d2b5a43eb40dc05b"}
+{"section": "3 Benchmarking Language Models with the Pile", "seq": 32, "sha256": "7dd9bf5757a3bc08f6f974cc268bcddd49f389bb0fac090d96f91a84a0ccbe59"}
+{"section": "3.1 Benchmarking Guidelines", "seq": 33, "sha256": "62cf9dade4ea67ff9339e4bdcafb78b18450c7948ab222f3fbb3c960dcf4d162"}
+{"section": "3.2 Test Perplexity with GPT-2 and GPT-3", "seq": 34, "sha256": "637bc57f78d8b0da63eecb36bb4703e445f82c726beb9fd3493a7db291ae1c89"}
+{"section": "3.2 Test Perplexity with GPT-2 and GPT-3", "seq": 35, "sha256": "f48158c0e2bfb4290253ffc1a4b558bd9c38a0d6bc4ade9c8db23c752652bae2"}
+{"section": "3.2 Test Perplexity with GPT-2 and GPT-3", "seq": 36, "sha256": "27e220e44fbaca95bb3ab2a299df8fce6fd60de80117211b6087ad65d886d7a4"}
+{"section": "3.2 Test Perplexity with GPT-2 and GPT-3", "seq": 37, "sha256": "38eebdeb1e417550820c85c252bcec3c02e2ad5b7aa7005fbc414810c8a1ea68"}
+{"section": "3.3 Relative Componentwise GPT-3 Pile Performance", "seq": 38, "sha256": "95c142d1b139987286a9bde1c3c44f813e1637124fb755f566e39c6a0dbc498d"}
+{"section": "3.3 Relative Componentwise GPT-3 Pile Performance", "seq": 39, "sha256": "4b5781c3957ee95cffb5a416100c6bcacb7276e75a016b78cbf0f50a31c722f7"}
+{"section": "3.3 Relative Componentwise GPT-3 Pile Performance", "seq": 40, "sha256": "cd41109c16de357d746407594f0af6710c2503dbf3541380151c354c2a5cd1a0"}
+{"section": "3.3 Relative Componentwise GPT-3 Pile Performance", "seq": 41, "sha256": "4b1ca1a28c40d3d631d80a0dc64ea9393cae6f112f51f777d2ce5a98b4661ca3"}
+{"section": "4 Evaluation", "seq": 42, "sha256": "5610945e794e16319f378ed460ad702b92cb094997c1201c3d3f17fa743c3db6"}
+{"section": "4.1 Methodology", "seq": 43, "sha256": "9785bf0b99de166b9722d1523ef7b841798366096526ba2e913ab46194f6d0d8"}
+{"section": "4.2 Results", "seq": 44, "sha256": "d194b80fce74fb0e9ee4a7704f9a015d6bb7800353402987d44337c7ae0c628d"}
+{"section": "4.2 Results", "seq": 45, "sha256": "6f3a80ba919993e344e056bf2ff2239ba590f329c7a1d8dea1a7bdfe85a333f0"}
+{"section": "4.2 Results", "seq": 46, "sha256": "1f67237e66adb9d7a7a103d8c92690cbeb9cb40e6dbb8ebc6e57f27ee7f92240"}
+{"section": "5 Structural Statistics", "seq": 47, "sha256": "f24086594449ca7631f2c552866b7c1e160fccc9e80b1f09aa2cf47e107b8963"}
+{"section": "5.1 Document Lengths and Tokenization", "seq": 48, "sha256": "8ce3e7e9dfc895ab397408d70a2c50ab42e8b435683edb7eefa293a5671bd86f"}
+{"section": "5.2 Language and Dialects", "seq": 49, "sha256": "862508823820e309b03653ac83f0f5661302de268fca233a8eef45ea06b9d41c"}
+{"section": "6 Investigating and Documenting the Datasets", "seq": 50, "sha256": "c9bf348d875431b79610857071de2ef7bd3a51985f85659cdc5e54fdd7bf422a"}
+{"section": "6 Investigating and Documenting the Datasets", "seq": 51, "sha256": "f550ebf6bf5f7919d27f1bcbdf3379c37b779d21251e2e34b91d04c501be6872"}
+{"section": "6.1 Documenting Methods", "seq": 52, "sha256": "27d1b00ece0427e12448aa066e91cdb3355797ab8b3a121a73650649e573d0ae"}
+{"section": "6.2 Topical Distribution", "seq": 53, "sha256": "554ebfe67901bb351267ace93db823dd8d1ca1c306acf8bd9105cc3b981a6d76"}
+{"section": "6.2 Topical Distribution", "seq": 54, "sha256": "71ce7adc7230ac8b7fdd48b6ef3a93c617ac63f2bfa84f4240089bd0f3caa87d"}
+{"section": "6.3 Pejorative Content", "seq": 55, "sha256": "1194242179f713d6a19a75051c165d46c05837f4ddc8c4e9c1e517907478ccd5"}
+{"section": "6.3 Pejorative Content", "seq": 56, "sha256": "d18f24f9a51bf118bf40b51c15c5892bcdd98fd1286ea7a16b0d62baf7c77a16"}
+{"section": "6.4 Bias and Sentiment Co-occurrence", "seq": 57, "sha256": "bdd3368536d1306b0973d200bac28b5245c7a66f5c3f63715ceb64f6ef71c038"}
+{"section": "6.4 Bias and Sentiment Co-occurrence", "seq": 58, "sha256": "95e688b886e25cfa1b4da7c38f9aa11bfbf95c45450158827b5d7723211fe86c"}
+{"section": "6.4 Bias and Sentiment Co-occurrence", "seq": 59, "sha256": "4613e359136e30b7bc8cd605e53b80ddafaf97b64c0f4a0925a56434956a3b16"}
+{"section": "6.4 Bias and Sentiment Co-occurrence", "seq": 60, "sha256": "c0d8a0471584eda4176a8887c7bca317da75ed2c91115c0bd78db8c2377659e5"}
+{"section": "6.5 Author Consent and Public Data", "seq": 61, "sha256": "6a089ff2656346e583611833708a38bd3f30949a9df48fc74265b54e73242c5f"}
+{"section": "6.5 Author Consent and Public Data", "seq": 62, "sha256": "88e1278e38075acb6d188563721b093c66542bbf35a29c182dc06dc56bce19ab"}
+{"section": "6.5 Author Consent and Public Data", "seq": 63, "sha256": "d023a0e407e5c938813f63b8be4c04aa2dace1db2d079bd5c4ad2e2408eac367"}
+{"section": "6.5 Author Consent and Public Data", "seq": 64, "sha256": "d316c1be9c8d88c7c8b7422db65f821dc996fbc5467de31ed27474d6407d49ea"}
+{"section": "6.5 Author Consent and Public Data", "seq": 65, "sha256": "b9606ab1a5fffb405bc8ad10493e52066e613ccf04b26a9209cb629c6f1d44c6"}
+{"section": "7 Implications and Broader Impacts", "seq": 66, "sha256": "ab8131e341ddf7c3cd6f22b5a5f1203304e309e17515603d579f3b32db3cded9"}
+{"section": "7.1 Legality of Content", "seq": 67, "sha256": "c1a7db327aaf10db729e65fe18901c43076a82d1e260018914ff492f5b016840"}
+{"section": "7.1 Legality of Content", "seq": 68, "sha256": "3c05000783731141e0241373e826fedef79f5bbf3f5779fc398c3055aad668c8"}
+{"section": "7.2 Acceleration of AI Timelines", "seq": 69, "sha256": "e8f1059ec894b80bd613ff6b425b3a9d550da213a094a188b36dfc283b63aec7"}
+{"section": "7.2 Acceleration of AI Timelines", "seq": 70, "sha256": "4ef2633fe78d2ecb87616615c83bd3037dd9c67ff06cf5bb6be07b71f3b727e2"}
+{"section": "7.3 Negative LM Output", "seq": 71, "sha256": "68a61975fe0a10533cbe0af25f17f78fd46b2105b2f4598ea372cefc5a462c08"}
+{"section": "7.3 Negative LM Output", "seq": 72, "sha256": "cf0736792a968fbdaf76f6b65408fea96b3a2f86250cd083ac7ab7bc0b6f99b8"}
+{"section": "8 Related Work", "seq": 73, "sha256": "2c2d6da33f16f952cf29ab20df465936e409c503ce9739e765a9383e007c1513"}
+{"section": "8 Related Work", "seq": 74, "sha256": "d10ce8d762bdef9042fdbbfcc866edca5e562af9018d996f6bb4301b61b52f97"}
+{"section": "8 Related Work", "seq": 75, "sha256": "754a7ffef3d1ecfcac944a7316ce1e4ae3c68b800c6179cc7985bfb26450be5b"}
+{"section": "9 Acknowledgments", "seq": 76, "sha256": "cf3349b39cd6a0f538d47d5c02feb2ec3070eeb705a57afe6f4769eefd36f32e"}
+{"section": "References", "seq": 77, "sha256": "2188eab62c3174aa8c8372039d8e73e5b6958ca31a79d0a77e1c4e01bf8eb2d0"}
+{"section": "References", "seq": 78, "sha256": "6e32a6a957c7a6d8656b5beb3401cde48abfd7aa0798ec9d9a175a7846410cb3"}
+{"section": "References", "seq": 79, "sha256": "e773643379bca8d2fe942b824e1d19db175c1d5d6e96880b40c16d38f463736d"}
+{"section": "References", "seq": 80, "sha256": "88217c559be871fb1a4831b0ed6394bae5756697046162e81371adfdca49f408"}
+{"section": "References", "seq": 81, "sha256": "75ab83fefe1ece4425647e3577175264efecf1d2f292aa0525c8bd88bfea9fd7"}
+{"section": "References", "seq": 82, "sha256": "d3ab9c9896466f2d04fb241fb0858d8e8490159561886d0720d3d9570699dcf9"}
+{"section": "References", "seq": 83, "sha256": "c6b3cb6b07043dcc5d5d7b9e3fd737c5aa8b1ab3dda76f17aeb4153b53d2b8d0"}
+{"section": "References", "seq": 84, "sha256": "39b1481cb0aacd018348348ed307b7085ed19a1a7759334aa971209f62d6f7a1"}
+{"section": "References", "seq": 85, "sha256": "1224fc7ff36d0cbe215bfb929946816487ea1641b9291779dc1fe0946ef6cb1a"}
+{"section": "References", "seq": 86, "sha256": "c677df85dca0e2cc1c16024656fe5a39d0ed3cc804b38d896f662108f286a0fa"}
+{"section": "References", "seq": 87, "sha256": "ec72731dafe9925e8263b500e375daa8363b7ed8be66538bf8231b7ac0a29498"}
+{"section": "References", "seq": 88, "sha256": "5abe03a0f1ffd2e832ad068bbd1ee58d53cf5a7a446e37eb289b65de5708cfba"}
+{"section": "References", "seq": 89, "sha256": "35e3ef8eae4d8701a1dab5c14803bd230e37bbfc57516d917828db7596d175ad"}
+{"section": "References", "seq": 90, "sha256": "e25c24b4f68d2b46e41ee66da2d24513df21491b935a96dbda548f0911781995"}
+{"section": "References", "seq": 91, "sha256": "27a64399afe60c9fc64d83bd328b52f951c741a15ee2d2399cb3131bf0a27c2b"}
+{"section": "References", "seq": 92, "sha256": "47c8283f5a5d002aed967da30c55a6557dca750e55e48ce08cd522e838ae0d1c"}
+{"section": "References", "seq": 93, "sha256": "79c096cefa3b62b66d3f4351734a3296742c21aade814dfbebcd04e9aeb15c34"}
+{"section": "References", "seq": 94, "sha256": "9d8e90c5f7e0ac694209a973478b207630438a7d0efc3b500e6bca4cd4d6bc4b"}
+{"section": "Appendix A Contributions", "seq": 95, "sha256": "42b8196edf027a559455eb1b2907ad8f92bf2918df0915abb16ec9e051ed5e92"}
+{"section": "Appendix A Contributions", "seq": 96, "sha256": "ccdbdd1eec4734f4afdd6e3d4f8f0ab759e663607e073d9543b3e0b560a2b13a"}
+{"section": "Appendix B Excluded Datasets", "seq": 97, "sha256": "211aef2f776d8deea8cfbc7cb4f61debf90d3bbfbcd16bd9ceb9eec127fc6d1b"}
+{"section": "Appendix B Excluded Datasets", "seq": 98, "sha256": "acc625615713f7d2e9ccdfcd2b7f170697eb0c5fa9c9acb38b232eebd3984169"}
+{"section": "Appendix B Excluded Datasets", "seq": 99, "sha256": "1775657d897f75fc9b3a25aca5ee614626c4e07a04d39bfcaa10f48d9d364daa"}
+{"section": "Appendix C Dataset Details", "seq": 100, "sha256": "b338f88e3a15f90ca3646323229ed1b424c758a90125f4a74d58823a3d84db9c"}
+{"section": "C.1 Pile-CC", "seq": 101, "sha256": "3662e95b843474dab55619395a307c1df8d1c9ec439ad0dfeaed8f9bd08ff2af"}
+{"section": "C.1 Pile-CC", "seq": 102, "sha256": "bdcd9c2bff3067df9671c82a866c91e3f0bc4a5005cabaa19ffa8b9063611ee1"}
+{"section": "C.1 Pile-CC", "seq": 103, "sha256": "149ea308f0516a469480f260106415b6eab83a34c77b618cb22236a51d14366e"}
+{"section": "C.1 Pile-CC", "seq": 104, "sha256": "692d93805ca042ee9c25ced1a6d0e25d56ce286ef758ed3e0409340536ee4350"}
+{"section": "C.1 Pile-CC", "seq": 105, "sha256": "c8b6b9e86252f009bbe93125f75773719e89c2339d2a28ee0595f116afe9881d"}
+{"section": "C.2 Pubmed Central", "seq": 106, "sha256": "ee2c7fd45af37a12b426d209d7dcee366572c1c7da828d5e8d87b5bd161431ae"}
+{"section": "C.3 Books3", "seq": 107, "sha256": "dfe09e30656262b0905025952e57c8fdc657ab92518cd622d290fbc12e3680ed"}
+{"section": "C.4 OpenWebText2", "seq": 108, "sha256": "505f2e9cecc7620f01cb8f85b78217c32ca886a22c8e5e6112fed28d41ee184a"}
+{"section": "C.5 ArXiv", "seq": 109, "sha256": "3a26625711854a7dee4963acbb6daf31a7a2bc6099050105723ce764fda219e9"}
+{"section": "C.6 GitHub", "seq": 110, "sha256": "2049ed0edbcda5a211e3d43b966882f79c86edb175ad9cb1f39bdd8fa930cad9"}
+{"section": "C.6 GitHub", "seq": 111, "sha256": "1ed4f2b7e9677d9d525220047ec4cf68c514ecb9d1d8f234ce630b7ea880b62b"}
+{"section": "C.6 GitHub", "seq": 112, "sha256": "e50a2983274345470dcdf8b8c25d8ea6756e3402672f2e0ee0f5e264cf7153e1"}
+{"section": "C.7 FreeLaw", "seq": 113, "sha256": "c27d9e8c6650110ff0b626d5d72be0e2ccab9967d38530835dc80c3ddb19ea51"}
+{"section": "C.8 Stack Exchange", "seq": 114, "sha256": "822eecb3ec8786df1193203d7c79e52053ff7fbb49c9b0ccc17262a7676482c2"}
+{"section": "C.9 USPTO Backgrounds", "seq": 115, "sha256": "59f454a08cd6031b958adb36ca3890ffa944828a02134153e2bdc2efd6a21a6c"}
+{"section": "C.10 PubMed Abstracts", "seq": 116, "sha256": "e8f076aff66a4a38aef0c2b1fe979330710d3d09d1d7a5c3577c3fe4d8c48cbb"}
+{"section": "C.11 Project Gutenberg", "seq": 117, "sha256": "dfe09e30656262b0905025952e57c8fdc657ab92518cd622d290fbc12e3680ed"}
+{"section": "C.12 OpenSubtitles", "seq": 118, "sha256": "88c77658005441c03326bf06d1ab69a0107c7bdefde473743b63a3c7ad953eee"}
+{"section": "C.13 Wikipedia (English)", "seq": 119, "sha256": "826237be4ac568b8b0456d490abd612e2bcf96d0512514442aa3ab2dc16e3b01"}
+{"section": "C.14 DeepMind Mathematics", "seq": 120, "sha256": "743cd421c8926e3d544daf37688ee951f7fd131990f5e2d55c68573d179ee623"}
+{"section": "C.15 Ubuntu IRC", "seq": 121, "sha256": "f1f5249df73a0c4bb6697a798a1fe702f12935dc4a103768be6cb7771ec8cfca"}
+{"section": "C.16 BookCorpus2", "seq": 122, "sha256": "1943e1397a51784c38079b70c3e9f2a087855f999b1ff5c97459dbdba2c9b9e1"}
+{"section": "C.17 EuroParl", "seq": 123, "sha256": "a64a4f8af1d863d4cf24472f9f58f1d94ecdde731e899c2f00176a4d9eaccac2"}
+{"section": "C.18 HackerNews", "seq": 124, "sha256": "0c0554de4813823263738c9d304dbdc5d16daf42051bf60a7de8f7c98f9b9f43"}
+{"section": "C.18 HackerNews", "seq": 125, "sha256": "beb1d8bc16f244558d64e393a5b4435ca70eff830171160084ddfc09449125af"}
+{"section": "C.19 YouTube Subtitles", "seq": 126, "sha256": "7986e1d41f4ea66f8e14edcd4547d4711ae365e2d9c6570d182d1d24d7f1cdf1"}
+{"section": "C.20 PhilPapers", "seq": 127, "sha256": "fe8b2b9c754a521d02f736889300e5ced32a66bb5a1c834f2c6e3c3b0d229856"}
+{"section": "C.21 NIH Grant abstracts: ExPORTER", "seq": 128, "sha256": "798df704628d79bee6efd318dd274002039fe34985a26635f1a3311ca67d40d5"}
+{"section": "C.22 Enron Emails", "seq": 129, "sha256": "4259a60ec7d6bfe0af9a07fdd20057ad14dee12276c20e727e071cc7798f80ca"}
+{"section": "Appendix D General Data Processing", "seq": 130, "sha256": "871334e0a6970f3e95f1893823f18d8bf2b92fa7cbb8ff58688e3311096932dc"}
+{"section": "D.1 Weights", "seq": 131, "sha256": "2f3698214bc83f46851c12031fee07a4cae77f3844ed25bfa6743440b7ef8846"}
+{"section": "D.2 Deduplication", "seq": 132, "sha256": "e1862531709b07ff70f64cd10066688cfdf3f99d6f07a74d6aeb4e060265bb30"}
+{"section": "D.2 Deduplication", "seq": 133, "sha256": "6da274fce5ffe8623d6dd1b9c23edc5687b554547fb2e268cd1e5e3e6ae6a110"}
+{"section": "D.3 Downstream Validation Leakage", "seq": 134, "sha256": "9e36ed4f20a5ae834d7407b62f7a8b7125e4dd9026a5f37c546e641b22e8316c"}
+{"section": "D.3 Downstream Validation Leakage", "seq": 135, "sha256": "0e077f374179b46bf13442f55ad043b7bb3850a85a36c772eb6f992392987740"}
+{"section": "E.1 13-Gram Analysis", "seq": 136, "sha256": "10d0f50b264c1a9a782864c8b1d69012beba2c884fbf17e32b89a66791173037"}
+{"section": "E.1 13-Gram Analysis", "seq": 137, "sha256": "4c4ce8592e65a329da11bc03c2ddcfd850c8a870c099b1ee8943792cc1c1c47f"}
+{"section": "E.2 Benchmark Perplexity Computation", "seq": 138, "sha256": "3545b0e4773927754bcf045c8080a833c63afa68cb61dfae409c06cf3a205ba0"}
+{"section": "E.2 Benchmark Perplexity Computation", "seq": 139, "sha256": "82fd8a48423a627c90e1e4af42104902a97c682dd0e37953527a3fc1a00c0e86"}
+{"section": "E.2 Benchmark Perplexity Computation", "seq": 140, "sha256": "aa65543f88ed1d753eb67813cac7de0f824c26a4a01e8fb908e77d9ddc41cf05"}
+{"section": "E.2 Benchmark Perplexity Computation", "seq": 141, "sha256": "09af6590efaa9aad4ece69ede79f3a42bcb3b13db172db72a24c77479da9e27b"}
+{"section": "E.2 Benchmark Perplexity Computation", "seq": 142, "sha256": "878c05cc0589940b6b806769853e74600c08cb8aaed9bd492589f4e5559f24f7"}
+{"section": "E.3 Pejorative Content", "seq": 143, "sha256": "5e34051f9a62be07fcdd06149df6a7760dafaca67c1d4c91685b8d91cc6c3916"}
+{"section": "Appendix F Data Samples", "seq": 144, "sha256": "33d99420a3b331e626b9ce82e41fe444d2f9dda8f21af47727cd4fca8dc3b08a"}
+{"section": "F.1 Pile-CC", "seq": 145, "sha256": "53b3398a78ccbafe02389ad63822489a22b3753faf90e319901bcb13a53f7ddb"}
+{"section": "F.2 PubMed Central", "seq": 146, "sha256": "3e2f3722f5a37a86c76474f455836cf86a29d40c51e17809d304273ada4d5724"}
+{"section": "F.3 Books3", "seq": 147, "sha256": "96211f523638c79915114a3dc101404398174998e4a1cc97b9fe50f687580fa0"}
+{"section": "F.4 OpenWebText2", "seq": 148, "sha256": "2b23191b481264db632d8a1433937dc254d2ca4eec07864e6286b52eea21e306"}
+{"section": "F.5 ArXiv", "seq": 149, "sha256": "315fb6dee069688fa07d67da8d29dec4507af3a2352b65beee4e5b630068cf2b"}
+{"section": "F.6 Github", "seq": 150, "sha256": "775d2aa14ec738e250b6b426221005b30bfad4c6442ea9730b36972bf40aaa90"}
+{"section": "F.7 FreeLaw", "seq": 151, "sha256": "3a0f1a0b509bbec5471c3168227b62c3ba5dc790693df6f535caaa1f7fc358e4"}
+{"section": "F.8 Stack Exchange", "seq": 152, "sha256": "c3f421a0f3df948ee6a118990f52c445ff509dcc9fe20851628ab86eb4cb052b"}
+{"section": "F.9 Wikipedia (en)", "seq": 153, "sha256": "5030c4c45004f6038a71a5bc0186db2ae1dfcc822666af6b787a8b525726b334"}
+{"section": "F.10 USPTO Backgrounds", "seq": 154, "sha256": "d0c4c9be42737300f363b3cd83ce92d5998ddd2108267bea339edccc342f964c"}
+{"section": "F.11 PubMed Abstracts", "seq": 155, "sha256": "90c21ef62594fe9ee3bf7216bd5a460467c69f3889f7d2f9841f2de8edb6bc84"}
+{"section": "F.12 Gutenberg (PG-19)", "seq": 156, "sha256": "d79eb2fc4ac602458e9faa3e00ad7f2534932df4a9e162360039a48d94784c1d"}
+{"section": "F.13 OpenSubtitles", "seq": 157, "sha256": "fb5824349ac02377ff53ff84c7767c1ccad7eefd5d230443c16795439563d91f"}
+{"section": "F.14 DM Mathematics", "seq": 158, "sha256": "b046f2d52f3e948a32fcc9f5a3e28a83ff034803e2842593eb255b2d28137284"}
+{"section": "F.15 HackerNews", "seq": 159, "sha256": "4ed9126704ca04e77112e0a5054a9ade384f1af3a0518fbcd73de5e27e118b11"}
+{"section": "F.16 BookCorpus2", "seq": 160, "sha256": "b58704652ac8175ec48dc3d8893183d0f53c79d4607db7265fc50b58460ed8a2"}
+{"section": "F.17 EuroParl", "seq": 161, "sha256": "d7701ca22c9348582949e4aab90722e74b36e13653674ca885ee1c15640f6541"}
+{"section": "F.18 YoutubeSubtitles", "seq": 162, "sha256": "5c7ea809f345bf0fd980db61dce458ea5e99170172a47661ddfc6e6d9f3ff59b"}
+{"section": "F.19 Ubuntu IRC", "seq": 163, "sha256": "9a2186dc61a96ea17968abc54e6c59e5502696668c37c888369894ef2c3132d5"}
+{"section": "F.20 PhilPapers", "seq": 164, "sha256": "ffc7ba7d007c3f0347198652702dadac29106426eb74fde8d05f9f0195bc8c8d"}
+{"section": "F.21 NIH ExPorter", "seq": 165, "sha256": "789fb8ccfd9bfbe09f1d59d0ed5c4bd30a66f0d0582869ef0fe41ce3d6778898"}
+{"section": "F.22 Enron Emails", "seq": 166, "sha256": "94a8d7c97003081891803a9c11ee6f37127d20877c8cc83270eca6453d09f663"}
+{"section": "F.22 Enron Emails", "seq": 167, "sha256": "f51274f290c26ed328f9769e1befcaf6df3baadfaff3acbff06d38fb703b2b65"}
+{"section": "F.22 Enron Emails", "seq": 168, "sha256": "5f9fd99e4fc31879fa90a2c8e6a2a7910db827f2200e1a7e1bf8aef10d130f34"}
+{"section": "F.22 Enron Emails", "seq": 169, "sha256": "3e795fd9da930d71718d9075841bea5c909d5ec03e113a9a737ed68c77ed2125"}
+{"section": "F.22 Enron Emails", "seq": 170, "sha256": "4f5aa6d0e0aa480f1f948c56a7205326afc83a820aff9ab25ac71abb57ba9caa"}
+{"section": "F.22 Enron Emails", "seq": 171, "sha256": "865399fe0e189eee9e467a8d0d8660687d2335c7d68f1f19d7da8672ae0b8584"}
+{"section": "F.22 Enron Emails", "seq": 172, "sha256": "d14dea8e3cdc97e7e63fb0da4bda20225c034b25f72d8a1217554e80a4a536f1"}
+{"section": "F.22 Enron Emails", "seq": 173, "sha256": "c7cf565ef6d601e05bfc5de22080e38516bfe0c8c0ec8878aaa3636dd15dad90"}
+{"section": "F.22 Enron Emails", "seq": 174, "sha256": "e61c18746227e95c63996a6cfc5befd71b070287319f77086cf3c926cc4f8151"}
+{"section": "F.22 Enron Emails", "seq": 175, "sha256": "56edb30449ab337f7361f7d170560aacad0ef386672cc27ceec4d7a4b5d2104c"}
+{"section": "F.22 Enron Emails", "seq": 176, "sha256": "4e1e59102be290cdc09b09011ae78091121a3e81dd75f6ece367bccdbaa26995"}

@@ -1,0 +1,35 @@
+We validate that the number of HBM accesses is the main determining factor of
+attention run-time. In Fig. 2 (left), we see that even though FlashAttention has
+higher FLOP count compared to standard attention (due to recomputation in the
+backward pass), it has much fewer HBM accesses, resulting in much faster
+runtime. In Fig. 2 (middle), we vary the block size of FlashAttention, which results in different amounts of HBM accesses, and measure the
+runtime of the forward pass. As block size increases, the number of HBM accesses decreases (as we make fewer
+passes over the input), and runtime decreases. For large enough block size (beyond 256), the runtime is then bottlenecked by
+other factors (e.g., arithmetic operations). Moreover, larger block size will not fit into the small SRAM size. Attention
+Standard
+FlashAttention
+
+GFLOPs
+
+66.6
+
+75.2
+
+HBM R/W (GB)
+
+40.3
+
+4.4
+
+Runtime (ms)
+
+41.7
+
+7.3
+
+Figure 2:
+Left: Forward + backward runtime of
+standard attention and FlashAttention for GPT-2 medium
+(seq. length 1024, head dim. 64, 16 heads, batch size 64) on
+A100 GPU. HBM access is the primary factor affecting runtime. Middle: Forward runtime of FlashAttention (seq. length 1024, head
+dim.

@@ -1174,3 +1174,467 @@ registrar = "crossref"
 p0 = true
 # seed only — the registrar guard decides
 doi = "10.1142/s0218488502001648"
+
+# ---------------------------------------------------------------------------
+# Frontier batch (2026-07-06): training your own models (architectures,
+# scale, systems, efficiency, data), software-engineering fundamentals and
+# SaaS-scale systems, marketing science, and finance foundations.
+
+[[work]]
+id = "bert-2018"
+collection = "11_ml_training_and_systems"
+title = "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+authors = ["Devlin"]
+year = 2018
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "gpt3-2020"
+collection = "11_ml_training_and_systems"
+title = "Language Models are Few-Shot Learners"
+authors = ["Brown"]
+year = 2020
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "llama-2023"
+collection = "11_ml_training_and_systems"
+title = "LLaMA: Open and Efficient Foundation Language Models"
+authors = ["Touvron"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "flashattention-2022"
+collection = "11_ml_training_and_systems"
+title = "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"
+authors = ["Dao"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "megatron-2019"
+collection = "11_ml_training_and_systems"
+title = "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism"
+authors = ["Shoeybi"]
+year = 2019
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "zero-2019"
+collection = "11_ml_training_and_systems"
+title = "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models"
+authors = ["Rajbhandari"]
+year = 2019
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "mixed-precision-2017"
+collection = "11_ml_training_and_systems"
+title = "Mixed Precision Training"
+authors = ["Micikevicius"]
+year = 2017
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "qlora-2023"
+collection = "11_ml_training_and_systems"
+title = "QLoRA: Efficient Finetuning of Quantized LLMs"
+authors = ["Dettmers"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "moe-2017"
+collection = "11_ml_training_and_systems"
+title = "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"
+authors = ["Shazeer"]
+year = 2017
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "distillation-2015"
+collection = "11_ml_training_and_systems"
+title = "Distilling the Knowledge in a Neural Network"
+authors = ["Hinton"]
+year = 2015
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "bpe-2015"
+collection = "11_ml_training_and_systems"
+title = "Neural Machine Translation of Rare Words with Subword Units"
+authors = ["Sennrich"]
+year = 2015
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "pile-2020"
+collection = "11_ml_training_and_systems"
+title = "The Pile: An 800GB Dataset of Diverse Text for Language Modeling"
+authors = ["Gao"]
+year = 2020
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "adam-2014"
+collection = "11_ml_training_and_systems"
+title = "Adam: A Method for Stochastic Optimization"
+authors = ["Kingma"]
+year = 2014
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "resnet-2015"
+collection = "11_ml_training_and_systems"
+title = "Deep Residual Learning for Image Recognition"
+authors = ["He"]
+year = 2015
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "parnas-modules-1972"
+collection = "12_software_engineering_and_saas"
+title = "On the criteria to be used in decomposing systems into modules"
+authors = ["Parnas"]
+year = 1972
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1145/361598.361623"
+
+[[work]]
+id = "no-silver-bullet-1987"
+collection = "12_software_engineering_and_saas"
+title = "No Silver Bullet: Essence and Accidents of Software Engineering"
+authors = ["Brooks"]
+year = 1987
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1109/mc.1987.1663532"
+
+[[work]]
+id = "goto-harmful-1968"
+collection = "12_software_engineering_and_saas"
+title = "Letters to the editor: go to statement considered harmful"
+authors = ["Dijkstra"]
+year = 1968
+kind = "paper"
+registrar = "crossref"
+# seed only — the registrar guard decides
+doi = "10.1145/362929.362947"
+
+[[work]]
+id = "csp-1978"
+collection = "12_software_engineering_and_saas"
+title = "Communicating Sequential Processes"
+authors = ["Hoare"]
+year = 1978
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1145/359576.359585"
+
+[[work]]
+id = "out-of-tar-pit-2006"
+collection = "12_software_engineering_and_saas"
+title = "Out of the Tar Pit"
+authors = ["Moseley", "Marks"]
+year = 2006
+kind = "paper"
+registrar = "web"
+
+[[work]]
+id = "twelve-factor"
+collection = "12_software_engineering_and_saas"
+title = "The Twelve-Factor App"
+authors = ["Wiggins"]
+kind = "spec"
+registrar = "web"
+p0 = true
+
+[[work]]
+id = "dynamo-2007"
+collection = "12_software_engineering_and_saas"
+title = "Dynamo"
+authors = ["DeCandia"]
+year = 2007
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1145/1294261.1294281"
+
+[[work]]
+id = "mapreduce-2008"
+collection = "12_software_engineering_and_saas"
+title = "MapReduce"
+authors = ["Dean", "Ghemawat"]
+year = 2008
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1145/1327452.1327492"
+
+[[work]]
+id = "spanner-2013"
+collection = "12_software_engineering_and_saas"
+title = "Spanner"
+authors = ["Corbett"]
+year = 2013
+kind = "paper"
+registrar = "crossref"
+# seed only — the registrar guard decides
+doi = "10.1145/2491245"
+
+[[work]]
+id = "borg-omega-k8s-2016"
+collection = "12_software_engineering_and_saas"
+title = "Borg, Omega, and Kubernetes"
+authors = ["Burns"]
+year = 2016
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1145/2890784"
+
+[[work]]
+id = "bass-1969"
+collection = "13_marketing_and_growth"
+title = "A New Product Growth for Model Consumer Durables"
+authors = ["Bass"]
+year = 1969
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1287/mnsc.15.5.215"
+
+[[work]]
+id = "pareto-nbd-1987"
+collection = "13_marketing_and_growth"
+title = "Counting Your Customers: Who Are They and What Will They Do Next?"
+authors = ["Schmittlein"]
+year = 1987
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1287/mnsc.33.1.1"
+
+[[work]]
+id = "rfm-clv-2005"
+collection = "13_marketing_and_growth"
+title = "RFM and CLV: Using Iso-Value Curves for Customer Base Analysis"
+authors = ["Fader"]
+year = 2005
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1509/jmkr.2005.42.4.415"
+
+[[work]]
+id = "ab-testing-2009"
+collection = "13_marketing_and_growth"
+title = "Controlled experiments on the web: survey and practical guide"
+authors = ["Kohavi"]
+year = 2009
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1007/s10618-008-0114-1"
+
+[[work]]
+id = "wom-2004"
+collection = "13_marketing_and_growth"
+title = "Using Online Conversations to Study Word-of-Mouth Communication"
+authors = ["Godes", "Mayzlin"]
+year = 2004
+kind = "paper"
+registrar = "crossref"
+# seed only — the registrar guard decides
+doi = "10.1287/mksc.1040.0071"
+
+[[work]]
+id = "markowitz-1952"
+collection = "14_finance"
+title = "Portfolio Selection"
+authors = ["Markowitz"]
+year = 1952
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1111/j.1540-6261.1952.tb01525.x"
+
+[[work]]
+id = "capm-1964"
+collection = "14_finance"
+title = "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk"
+authors = ["Sharpe"]
+year = 1964
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1111/j.1540-6261.1964.tb02865.x"
+
+[[work]]
+id = "black-scholes-1973"
+collection = "14_finance"
+title = "The Pricing of Options and Corporate Liabilities"
+authors = ["Black", "Scholes"]
+year = 1973
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1086/260062"
+
+[[work]]
+id = "efficient-markets-1970"
+collection = "14_finance"
+title = "Efficient Capital Markets: A Review of Theory and Empirical Work"
+authors = ["Fama"]
+year = 1970
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.2307/2325486"
+
+[[work]]
+id = "prospect-theory-1979"
+collection = "14_finance"
+title = "Prospect Theory: An Analysis of Decision under Risk"
+authors = ["Kahneman", "Tversky"]
+year = 1979
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.2307/1914185"
+
+[[work]]
+id = "kelly-1956"
+collection = "14_finance"
+title = "A New Interpretation of Information Rate"
+authors = ["Kelly"]
+year = 1956
+kind = "paper"
+registrar = "crossref"
+p0 = true
+# seed only — the registrar guard decides
+doi = "10.1002/j.1538-7305.1956.tb03809.x"
+
+# ---------------------------------------------------------------------------
+# Verification batch (2026-07-06): capability via verification, not scale —
+# verify-route-abstain literature incl. the honest self-correction limit.
+
+[[work]]
+id = "self-consistency-2022"
+collection = "02_llm_and_agent_architectures"
+title = "Self-Consistency Improves Chain of Thought Reasoning in Language Models"
+authors = ["Wang"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "verify-step-by-step-2023"
+collection = "03_evaluation_and_calibration"
+title = "Let's Verify Step by Step"
+authors = ["Lightman"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "star-2022"
+collection = "02_llm_and_agent_architectures"
+title = "STaR: Bootstrapping Reasoning With Reasoning"
+authors = ["Zelikman"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "self-refine-2023"
+collection = "02_llm_and_agent_architectures"
+title = "Self-Refine: Iterative Refinement with Self-Feedback"
+authors = ["Madaan"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "no-self-correct-2023"
+collection = "03_evaluation_and_calibration"
+title = "Large Language Models Cannot Self-Correct Reasoning Yet"
+authors = ["Huang"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "frugalgpt-2023"
+collection = "01_uncertainty_and_routing"
+title = "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance"
+authors = ["Chen"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "routellm-2024"
+collection = "01_uncertainty_and_routing"
+title = "RouteLLM: Learning to Route LLMs with Preference Data"
+authors = ["Ong"]
+year = 2024
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "test-time-compute-2024"
+collection = "01_uncertainty_and_routing"
+title = "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters"
+authors = ["Snell"]
+year = 2024
+kind = "paper"
+registrar = "arxiv"
+p0 = true

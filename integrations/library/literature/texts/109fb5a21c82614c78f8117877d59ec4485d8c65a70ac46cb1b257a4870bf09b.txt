@@ -1,0 +1,199 @@
+The training objective is the sum of the log-likelihoods of the correct start and end positions. We fine-tune for 3 epochs with a learning rate of 5e-5 and a batch size of 32. System
+
+Dev
+
+Test
+
+EM
+
+F1
+
+EM
+
+F1
+
+Top Leaderboard Systems (Dec 10th, 2018)
+
+Human
+
+-
+
+-
+
+82.3
+
+91.2
+
+#1 Ensemble - nlnet
+
+-
+
+-
+
+86.0
+
+91.7
+
+#2 Ensemble - QANet
+
+-
+
+-
+
+84.5
+
+90.5
+
+Published
+
+BiDAF+ELMo (Single)
+
+-
+
+85.6
+
+-
+
+85.8
+
+R.M. Reader (Ensemble)
+
+81.2
+
+87.9
+
+82.3
+
+88.5
+
+Ours
+
+BERT (Single)
+
+80.8
+
+88.5
+
+-
+
+-
+
+BERT (Single)
+
+84.1
+
+90.9
+
+-
+
+-
+
+BERT (Ensemble)
+
+85.8
+
+91.8
+
+-
+
+-
+
+BERT (Sgl.+TriviaQA)
+
+84.2
+
+91.1
+
+85.1
+
+91.8
+
+BERT (Ens.+TriviaQA)
+
+86.2
+
+92.2
+
+87.4
+
+93.2
+
+Table 2: SQuAD 1.1 results. The BERT ensemble is 7x systems which use different pre-training checkpoints and fine-tuning seeds. System
+
+Dev
+
+Test
+
+EM
+
+F1
+
+EM
+
+F1
+
+Top Leaderboard Systems (Dec 10th, 2018)
+
+Human
+
+86.3
+
+89.0
+
+86.9
+
+89.5
+
+#1 Single - MIR-MRC (F-Net)
+
+-
+
+-
+
+74.8
+
+78.0
+
+#2 Single - nlnet
+
+-
+
+-
+
+74.2
+
+77.1
+
+Published
+
+unet (Ensemble)
+
+-
+
+-
+
+71.4
+
+74.9
+
+SLQA+ (Single)
+
+-
+
+71.4
+
+74.4
+
+Ours
+
+BERT (Single)
+
+78.7
+
+81.9
+
+80.0
+
+83.1
+
+Table 3: SQuAD 2.0 results. We exclude entries that use BERT as one of their components.

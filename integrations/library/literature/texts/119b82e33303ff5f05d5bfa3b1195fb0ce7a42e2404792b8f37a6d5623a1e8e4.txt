@@ -1,0 +1,14 @@
+Kaplan,
+Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda
+Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan,
+Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter,
+Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray,
+Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford,
+Ilya Sutskever, and Dario Amodei. 2020. Language models
+are few-shot learners. Buck et al. (2014)
+
+Christian Buck, Kenneth Heafield, and Bas Van Ooyen. 2014. N-gram counts and language models from the common crawl. In LREC, volume 2, page 4. Chelba et al. (2013)
+
+Ciprian Chelba, Tomas Mikolov, Mike Schuster, Qi Ge, Thorsten Brants, Phillipp
+Koehn, and Tony Robinson. 2013. One billion word benchmark for measuring progress in statistical
+language modeling. arXiv preprint arXiv:1312.3005. Chen et al.

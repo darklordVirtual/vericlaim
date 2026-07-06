@@ -1,0 +1,16 @@
+Lowe. 2022. Training language models to
+follow instructions with human feedback. ArXiv:2203.02155. Peng et al. (2023)
+
+Baolin Peng, Michel Galley, Pengcheng He, Hao Cheng, Yujia Xie, Yu Hu, Qiuyuan
+Huang, Lars Liden, Zhou Yu, Weizhu Chen, and Jianfeng Gao. 2023. Check Your Facts and Try
+Again: Improving Large Language Models with External Knowledge and Automated
+Feedback. Prabhumoye et al. (2018)
+
+Shrimai Prabhumoye, Yulia Tsvetkov, Ruslan Salakhutdinov, and Alan W Black. 2018. Style transfer through
+back-translation. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 866–876,
+Melbourne, Australia. Association for Computational Linguistics. Press et al. (2022)
+
+Ofir Press, Muru Zhang, Sewon Min, Ludwig Schmidt, Noah A Smith, and Mike
+Lewis. 2022. Measuring and narrowing the
+compositionality gap in language models. arXiv preprint arXiv:2210.03350. Puri et al.

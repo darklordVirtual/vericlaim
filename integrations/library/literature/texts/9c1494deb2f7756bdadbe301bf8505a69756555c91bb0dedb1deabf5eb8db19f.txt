@@ -1,0 +1,17 @@
+In Twelfth Annual Conference of the International Speech
+Communication Association, 2011. Mikolov et al. (2013)
+
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G., and Dean, J. Distributed representations of words and phrases and their
+compositionality. CoRR, abs/1310.4546, 2013. NVIDIA (2018)
+
+NVIDIA. Mixed precision training: Choosing a scaling factor, 2018. URL
+https://docs.nvidia.com/deeplearning/sdk/mixed-precision-training/index.html#scalefactor. Paperno et al. (2016)
+
+Paperno, D., Kruszewski, G., Lazaridou, A., Pham, Q. N., Bernardi, R.,
+Pezzelle, S., Baroni, M., Boleda, G., and Fernández, R. The LAMBADA dataset: Word prediction requiring a broad discourse
+context. CoRR, abs/1606.06031, 2016. URL http://arxiv.org/abs/1606.06031. Pennington et al. (2014)
+
+Pennington, J., Socher, R., and Manning, C. D. Glove: Global vectors for word representation, 2014. URL https://www.aclweb.org/anthology/D14-1162. Peters et al. (2018)
+
+Peters, M. E., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., and
+Zettlemoyer, L. Deep contextualized word representations. CoRR, abs/1802.05365, 2018. URL http://arxiv.org/abs/1802.05365. Radford et al.

@@ -1,0 +1,18 @@
+In EMNLP. Pennington et al. (2014)
+
+Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. Glove: Global
+vectors for word representation. In Empirical Methods in Natural Language Processing (EMNLP),
+pages 1532–1543. Peters et al. (2017)
+
+Matthew Peters, Waleed Ammar, Chandra Bhagavatula, and Russell Power. 2017. Semi-supervised sequence tagging with bidirectional language models. In ACL. Peters et al. (2018a)
+
+Matthew Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+Kenton Lee, and Luke Zettlemoyer. 2018a. Deep contextualized word representations. In NAACL. Peters et al. (2018b)
+
+Matthew Peters, Mark Neumann, Luke Zettlemoyer, and Wen-tau Yih. 2018b. Dissecting contextual word embeddings: Architecture and
+representation. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pages 1499–1509. Radford et al. (2018)
+
+Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. 2018. Improving language understanding with unsupervised learning. Technical report, OpenAI. Rajpurkar et al. (2016)
+
+Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. 2016.

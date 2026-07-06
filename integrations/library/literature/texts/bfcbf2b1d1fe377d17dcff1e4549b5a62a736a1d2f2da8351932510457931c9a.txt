@@ -1,0 +1,19 @@
+The third PASCAL recognizing textual entailment challenge. In Proceedings of the ACL-PASCAL workshop on textual entailment
+and paraphrasing, pages 1–9. Association for Computational Linguistics,
+2007. Gra [16]
+
+Alex Graves. Adaptive computation time for recurrent neural networks. Arxiv, 2016. GSL+ [18]
+
+Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel R
+Bowman, and Noah A Smith. Annotation artifacts in natural language inference data. arXiv preprint arXiv:1803.02324, 2018. GSR [19]
+
+Sebastian Gehrmann, Hendrik Strobelt, and Alexander M. Rush. Gltr: Statistical detection and visualization of generated text. arXiv preprint arXiv: 1906.04043, 2019. GWC+ [18]
+
+Jiatao Gu, Yong Wang, Yun Chen, Kyunghyun Cho, and Victor OK Li. Meta-learning for low-resource neural machine translation. arXiv preprint arXiv:1808.08437, 2018. HB [20]
+
+Daniel Hernandez and Tom Brown. Ai and efficiency, May 2020. HBFC [19]
+
+Ari Holtzman, Jan Buys, Maxwell Forbes, and Yejin Choi. The curious case of neural text degeneration. CoRR, abs/1904.09751, 2019. HLW+ [20]
+
+Dan Hendrycks, Xiaoyuan Liu, Eric Wallace, Adam Dziedzic, Rishabh Krishnan, and
+Dawn Song.

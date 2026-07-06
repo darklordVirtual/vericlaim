@@ -1,0 +1,12 @@
+time and a decoder
+then finds a path through the HMM states that is the best compromise between using high probability states and producing
+a transcription that is probable under the language model. Although it is possible (and desirable) to train the DNN in such a way that the decoder (and, thus, the language model)
+is taken into account by marginalizing over all possible paths, it is common to train the DNN to perform frame-by-frame
+classification by (locally) minimizing the cross entropy between the predictions made by the net and the labels given
+by a forced alignment with the ground truth sequence of states for each observation:
+
+where are the parameters of our acoustic model
+which maps acoustic observations at time , , to a probability, , of the “correct”
+HMM state , which is determined by a forced alignment with the correct sequence of words. The model is trained with
+a distributed stochastic gradient descent approach. We use an architecture with 8 hidden layers each containing 2560 rectified linear units and a final softmax layer with
+14,000 labels (HMM targets ).

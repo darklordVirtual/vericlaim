@@ -1,0 +1,16 @@
+Wu et al. [2016]
+
+Y. Wu, M. Schuster, Z. Chen, Q. V. Le, M. Norouzi, W. Macherey, M. Krikun,
+Y. Cao, Q. Gao, K. Macherey, et al. Google’s neural machine translation system: Bridging the gap between
+human and machine translation. arXiv preprint arXiv:1609.08144, 2016. Zhou et al. [2016]
+
+S. Zhou, Z. Ni, X. Zhou, H. Wen, Y. Wu, and Y. Zou. Dorefa-net: Training low bitwidth convolutional neural networks with
+low bitwidth gradients. CoRR, abs/1606.06160, 2016. URL http://arxiv.org/abs/1606.06160. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

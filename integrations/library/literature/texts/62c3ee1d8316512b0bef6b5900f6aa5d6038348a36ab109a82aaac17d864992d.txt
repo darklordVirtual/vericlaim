@@ -1,0 +1,13 @@
+2269–2279, Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics. URL https://aclanthology.org/2021.findings-emnlp.195. Shi et al. (2022)
+
+Freda Shi, Daniel Fried, Marjan Ghazvininejad, Luke Zettlemoyer, and Sida I. Wang. Natural language to code translation with execution. In Proceedings of the 2022 Conference on Empirical Methods in
+Natural Language Processing, pp. 3533–3546, Abu Dhabi, United Arab
+Emirates, December 2022. Association for Computational Linguistics. URL https://aclanthology.org/2022.emnlp-main.231. Stanovich & West (2000)
+
+Keith E Stanovich and Richard F West. Individual differences in reasoning: Implications for the rationality
+debate? Behavioral and brain sciences, 23(5):645–665, 2000. URL https://pubmed.ncbi.nlm.nih.gov/11301544/. Talmor et al. (2019)
+
+Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. CommonsenseQA: A question answering challenge targeting
+commonsense knowledge. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), 2019. URL https://aclanthology.org/N19-1421.

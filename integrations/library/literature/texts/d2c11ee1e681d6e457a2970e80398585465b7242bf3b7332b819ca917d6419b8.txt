@@ -1,0 +1,17 @@
+arXiv preprint arXiv:1810.06638. Taylor (1953)
+
+Wilson L Taylor. 1953. “Cloze procedure”: A new tool for measuring readability. Journalism Bulletin, 30(4):415–433. Tjong Kim Sang and De Meulder (2003)
+
+Erik F Tjong Kim Sang and Fien De Meulder. 2003. Introduction to the conll-2003 shared task: Language-independent
+named entity recognition. In CoNLL. Turian et al. (2010)
+
+Joseph Turian, Lev Ratinov, and Yoshua Bengio. 2010. Word representations: A simple and general method for semi-supervised
+learning. In Proceedings of the 48th Annual Meeting of the Association
+for Computational Linguistics, ACL ’10, pages 384–394. Vaswani et al. (2017)
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Lukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. In Advances in Neural Information Processing Systems, pages
+6000–6010. Vincent et al. (2008)
+
+Pascal Vincent, Hugo Larochelle, Yoshua Bengio, and Pierre-Antoine Manzagol. 2008. Extracting and composing robust features with denoising autoencoders. In Proceedings of the 25th international conference on Machine
+learning, pages 1096–1103. ACM. Wang et al.

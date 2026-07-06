@@ -1,0 +1,21 @@
+The original BookCorpus consists of 11,038 books. However, due to issues with availability of the original BookCorpus, as well as the possibility of collecting a larger version, we decided to collect our own version of BookCorpus using a similar methodology as Kobayashi (2018). Our version of BookCorpus contains 17,868 books instead. We create and use a modified version of the epub-to-text converter in Kobayashi (2018) that:
+
+•
+
+Correctly preserves the document structure across chapters, matching the table of contents very closely;
+
+•
+
+Correctly renders tables of data, whereas by default html2txt produces poor-quality results for tables,
+
+•
+
+Correctly preserves code structure, so that source code is visually coherent,
+
+•
+
+Converts numbered lists from “1\.” to “1.”
+
+•
+
+Runs the full text through ftfy.fix_text() (Speer, 2019), replacing Unicode apostrophes with ascii apostrophes and expanding Unicode ellipses to “…” (three separate ascii characters).

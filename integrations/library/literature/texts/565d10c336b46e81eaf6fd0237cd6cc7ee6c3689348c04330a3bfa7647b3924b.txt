@@ -1,0 +1,11 @@
+The acronyms should be compared based on the following criteria:
+
+* Ease of pronunciation. * Ease of spelling. * Relation to title. * Positive connotation. \parGenerate your answer in the following format:
+
+\par<Short explanation>. The better acronym is A OR The better acronym is B OR The acronyms are equally good OR Neither acronym is good. STOP. Figure 7: Prompt for GPT-4 evaluation of Acronym Generation. ⬇
+
+f"""Which response is better given this context: {context}? Response A: {response_a}
+
+\par\parResponse B: {response_b}. \parPick your answer from [’Response A’, ’Response B’, ’both’, ’neither’]. Generate a short explanation for your choice first. Then, generate ’The better response is A’ or ’The better response is B’ or ’The better response is both’ or ’The better response is neither’. \parFormat: <explanation> <answer> STOP
+
+Figure 8: Prompt for GPT-4 evaluation of Dialogue Response Generation.

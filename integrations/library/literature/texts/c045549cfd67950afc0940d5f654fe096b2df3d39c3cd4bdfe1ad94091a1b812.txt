@@ -1,0 +1,35 @@
+ZeRO-100B efficiently run models with up to 170B parameters on 400 GPUs, more than 8x bigger than Megatron-LM. Figure 2 shows throughput per GPU for varying model sizes using ZeRO-100B with MP versus using Megatron MP alone. ZeRO-100B achieves a sustained throughput of 15 PetaFlops (over 30% of the peak) on average for models with 8B to 100B parameters. In comparison, the baseline MP performance degrades quickly with the increase in model size: MP incurs high communication volume between GPUs, and going beyond a single node to fit larger models causes a communication bandwidth drop from 300GB/sec per link (NVSwitch) to 12.5 GB/sec per link (Infiniband EDR), resulting in a significant performance drop. ZeRO-100B achieves up to 10x speedup over baseline, significantly outperforming on large models. For ZeRO-100B, the slight reduction in performance beyond 100B is due to lack of enough memory to run larger batch sizes. We expect the performance to improve as we increase the number of GPUs due to super-linear speedup of ZeRO-100B as we discuss next. ZeRO-DP
+
+ZeRO-R
+
+1
+
+Pos
+
+CB+MD
+
+2
+
+Pos
+
+CB+MD+Pa
+
+3
+
+Pos+g
+
+CB+MD
+
+4
+
+Pos+g
+
+CB+MPa
+
+5
+
+Pos+g
+
+CB+MD+Pa+cpu
+
+Table 3: ZeRO configurations

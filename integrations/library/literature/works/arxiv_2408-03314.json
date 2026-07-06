@@ -1,0 +1,29 @@
+{
+  "abstract": "Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time. We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a \"compute-optimal\" scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline. Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model.",
+  "accredited": false,
+  "authors": [
+    "Charlie Snell",
+    "Jaehoon Lee",
+    "Kelvin Xu",
+    "Aviral Kumar"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T01:22:43.262253+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2408.03314"
+  },
+  "fulltext_sha256": "069e31a9fd46dde7102ad7228a1232ea35ddf1b3a49b3eb99bdfe73f5458d804",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "test-time-compute-2024",
+    "fetched_at": "2026-07-06T01:22:08.017379+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "11884e3b5fcd17800ec2183265a47258bd5de5182b53734b7544555d718ca638",
+  "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+  "url": "https://arxiv.org/abs/2408.03314",
+  "venue": "arXiv",
+  "work_id": "arxiv:2408.03314",
+  "year": 2024
+}

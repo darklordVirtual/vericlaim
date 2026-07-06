@@ -1,0 +1,75 @@
+continue the negotiations for Turkey’s accession to the European Union, despite Turkey’s continuing refusal to recognise Cyprus and despite the fact that the democratic reforms are at a standstill. Figure G.41: Formatted dataset example for RoEn
+
+Context
+
+Q: What is (2 * 4) * 6? A:
+
+Target Completion
+
+48
+
+Figure G.42: Formatted dataset example for Arithmetic 1DC
+
+Context
+
+Q: What is 17 minus 14? A:
+
+Target Completion
+
+3
+
+Figure G.43: Formatted dataset example for Arithmetic 2D-
+
+Context
+
+Q: What is 98 plus 45? A:
+
+Target Completion
+
+143
+
+Figure G.44: Formatted dataset example for Arithmetic 2D+
+
+Context
+
+Q: What is 95 times 45? A:
+
+Target Completion
+
+4275
+
+Figure G.45: Formatted dataset example for Arithmetic 2Dx
+
+Context
+
+Q: What is 509 minus 488? A:
+
+Target Completion
+
+21
+
+Figure G.46: Formatted dataset example for Arithmetic 3D-
+
+Context
+
+Q: What is 556 plus 497? A:
+
+Target Completion
+
+1053
+
+Figure G.47: Formatted dataset example for Arithmetic 3D+
+
+Context
+
+Q: What is 6209 minus 3365? A:
+
+Target Completion
+
+2844
+
+Figure G.48: Formatted dataset example for Arithmetic 4D-
+
+Context
+
+Q: What is 9923 plus 617?

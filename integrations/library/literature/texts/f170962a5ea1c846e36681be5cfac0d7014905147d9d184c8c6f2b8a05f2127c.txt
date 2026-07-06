@@ -1,0 +1,64 @@
+ArXiv [2.5%]. We process arXiv Latex files to add scientific data to our dataset. Following Lewkowycz et al. (2022), we removed everything before the first section, as well as the bibliography. We also removed the comments from the .tex files, and inline-expanded definitions and macros written by users to increase consistency across papers. Stack Exchange [2%]. We include a dump of Stack Exchange, a website of high quality questions and answers that covers a diverse set of domains, ranging from computer science to chemistry. We kept the data from the 28 largest websites, removed the HTML tags from text and sorted the answers by score (from highest to lowest). params
+
+dimension
+
+heads
+
+layers
+
+learning rate
+
+batch size
+
+tokens
+
+6.7B
+
+4096
+
+32
+
+32
+
+4M
+
+1.0T
+
+13.0B
+
+5120
+
+40
+
+40
+
+4M
+
+1.0T
+
+32.5B
+
+6656
+
+52
+
+60
+
+4M
+
+1.4T
+
+65.2B
+
+8192
+
+64
+
+80
+
+4M
+
+1.4T
+
+Table 2:
+Model sizes, architectures, and optimization hyper-parameters. Tokenizer. We tokenize the data with the byte-pair encoding (BPE) algorithm (Sennrich et al., 2015), using the implementation from SentencePiece (Kudo and Richardson, 2018).

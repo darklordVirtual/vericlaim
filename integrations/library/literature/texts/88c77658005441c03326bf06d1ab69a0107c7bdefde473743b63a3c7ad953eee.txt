@@ -1,0 +1,1 @@
+To create the text dataset, we simply extract the subtitle text from each XML file in the English language dataset provided by Tiedemann (2016), discarding any provided metadata.

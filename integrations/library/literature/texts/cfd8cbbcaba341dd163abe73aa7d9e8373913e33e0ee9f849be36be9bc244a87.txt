@@ -1,0 +1,13 @@
+Therefore, the answer is arguments (c). A: The answer must be a result of planning vacation. Arguments are a common result of planning vacation. Therefore, the answer is arguments (c). A: Arguments are the direct result of disagreements. Therefore, the answer is arguments (c). Q: A sloth climbs slow, but it can eventually reach all the way up where? Answer Choices:
+
+(a) forest canopy
+
+(b) universe
+
+(c) tropical rainforest
+
+(d) large trees
+
+(e) nature preserve
+
+A: The answer must be a place where a sloth can climb. The forest canopy is the highest point in the forest. Therefore, the answer is forest canopy (a). A: The answer must be a place where a sloth can climb. The canopy of a forest is the highest point in a forest. Therefore, the answer is canopy of a forest (a). A: The sloth is a mammal that lives in the trees of South America. They have a slow and peculiar way of moving about. In fact, they are the slowest land mammals and travel very sluggishly on the ground (0.025 m/s-0.050 m/s). Therefore, the answer is canopy of a forest (a). Q: Where in America is known for theaters?

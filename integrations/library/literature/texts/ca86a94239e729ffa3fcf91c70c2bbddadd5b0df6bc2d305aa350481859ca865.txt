@@ -1,0 +1,21 @@
+ArXiv, abs/2207.01780. Li et al. (2018)
+
+Juncen Li, Robin Jia, He He, and Percy Liang. 2018. Delete, retrieve,
+generate: a simple approach to sentiment and style transfer. In Proceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long Papers), pages 1865–1874, New Orleans,
+Louisiana. Association for Computational Linguistics. Lin et al. (2020)
+
+Bill Yuchen Lin, Wangchunshu Zhou, Ming Shen, Pei Zhou, Chandra Bhagavatula,
+Yejin Choi, and Xiang Ren. 2020. CommonGen: A constrained text generation challenge for generative
+commonsense reasoning. In Findings of the Association for Computational Linguistics:
+EMNLP 2020, pages 1823–1840, Online. Association for Computational
+Linguistics. Liu et al. (2022)
+
+Jiacheng Liu, Skyler Hallinan, Ximing Lu, Pengfei He, Sean Welleck, Hannaneh
+Hajishirzi, and Yejin Choi. 2022. Rainier: Reinforced knowledge introspector for commonsense question
+answering. In Conference on Empirical Methods in Natural Language
+Processing. Lu et al. (2022)
+
+Ximing Lu, Sean Welleck, Liwei Jiang, Jack Hessel, Lianhui Qin, Peter West,
+Prithviraj Ammanabrolu, and Yejin Choi.

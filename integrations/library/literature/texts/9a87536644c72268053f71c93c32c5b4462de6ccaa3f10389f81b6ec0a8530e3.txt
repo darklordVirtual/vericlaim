@@ -1,0 +1,46 @@
+OPTIONS:
+
+- yes
+
+- no
+
+- it is not possible to tell
+
+A: "adults and children" contradicts "only children". The answer is no. Premise:
+
+"He turned and smiled at Vrenna."
+
+Based on this premise, can we conclude the hypothesis "He smiled at Vrenna who was walking slowly behind him with her mother." is true? OPTIONS:
+
+- yes
+
+- no
+
+- it is not possible to tell
+
+A: the premise does not say anything about "Vrenna was walking". The answer is it is not possible to tell. Premise:
+
+"well you see that on television also"
+
+Based on this premise, can we conclude the hypothesis "You can see that on television, as well." is true? OPTIONS:
+
+- yes
+
+- no
+
+- it is not possible to tell
+
+A: "also" and "as well" mean the same thing. The answer is yes. Premise:
+
+"Vrenna and I both fought him and he nearly took us."
+
+Based on this premise, can we conclude the hypothesis "Neither Vrenna nor myself have ever fought him." is true? OPTIONS:
+
+- yes
+
+- no
+
+- it is not possible to tell
+
+A: "Vrenna and I both" contradicts "neither Vrenna nor myself". The answer is no. Table 19:
+Few-shot exemplars for e-SNLI (the rationales are crowd-sourced annotations from the original dataset).

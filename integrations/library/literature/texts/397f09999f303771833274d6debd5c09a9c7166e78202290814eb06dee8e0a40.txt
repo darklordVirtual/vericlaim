@@ -1,0 +1,1 @@
+This did not slow down the training process since these layers are memory-bandwidth limited and not sensitive to arithmetic speed. Point-wise operations, such as non-linearities and element-wise matrix products, are memory-bandwidth limited. Since arithmetic precision does not impact the speed of these operations, either FP16 or FP32 math can be used.

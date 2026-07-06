@@ -1,0 +1,14 @@
+Extensions of butterfly matrices [17, 18] aimed
+to make butterfly matrices more hardware-friendly. Sparse Training. Our block-sparse FlashAttention can be seen as a step towards making sparse model
+training more efficient. Sparse models have seen success in compressing models for inference (pruning) by
+sparsifying the weight
+matrices [39, 38, 76, 55, 23]. For model training, the lottery
+tickets hypothesis [28, 29, 30]
+suggests that there are a set of small sub-networks derived from a larger dense
+network that performs as well as the original dense network. Out block-sparse FlashAttention can also be seen as a fixed lottery ticket in the
+context of attention: we fix the sparsity pattern to be the butterfly pattern
+through training, and observe that it performs almost as well as the (dense)
+FlashAttention on the Long-range Arena tasks. Efficient Transformer. Transformer-based models have become the most widely-used architecture in
+natural language processing [22] and computer
+vision [24, 91]. However, one of their computational bottlenecks is that their time and memory
+scales quadratic in the sequence length.

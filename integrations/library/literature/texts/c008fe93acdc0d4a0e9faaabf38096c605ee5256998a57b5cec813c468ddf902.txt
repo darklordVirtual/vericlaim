@@ -1,0 +1,6 @@
+length 1024, head dim. 64, 16 heads, batch size 64) on
+A100 GPU. HBM access is the primary factor affecting runtime. Middle: Forward runtime of FlashAttention (seq. length 1024, head
+dim. 64, 16 heads, batch size 64)
+on A100 GPU. Fewer HBM accesses result in faster runtime, up to a point. Right: The runtime (for seq. length 4K) of
+block-sparse FlashAttention is faster than FlashAttention by a factor proportional
+to the sparsity.

@@ -1,0 +1,17 @@
+However, one of their computational bottlenecks is that their time and memory
+scales quadratic in the sequence length. There are numerous approaches to overcome this bottleneck, including
+approximation with hashing (i.e., sparse) such as
+Reformer [51] and Smyrf [19] and with
+low-rank approximation such as
+Performer [12, 54]. One can even combine sparse and low-rank approximation for better accuracy
+(e.g., Longformer [3],
+BigBird [92], Scatterbrain [9],
+Long-short transformer [94], Combiner [73]). Other approaches include compressing along the sequence dimension to attend to
+multiple tokens at
+once [89, 79, 52, 57]. One can also attend over the states from previous sequences to help lengthen the
+context (e.g., Transformer-XL [14] and Compressive
+Transformer [69]). We recommend the survey [81] for more details. There are several lines of work on developing other modules instead of attention
+to model longer context. HiPPO [35] and its extensions, most
+notably S4 [36, 37, 31] projects the
+history on a polynomial basis, allowing accurate reconstruction of the history
+through state-space models.

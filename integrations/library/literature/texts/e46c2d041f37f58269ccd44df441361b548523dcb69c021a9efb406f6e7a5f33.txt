@@ -1,0 +1,15 @@
+In S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi,
+and R. Garnett (eds.), Advances in Neural Information Processing
+Systems 31, pp. 9539–9549. Curran Associates, Inc., 2018. URL
+http://papers.nips.cc/paper/8163-e-snli-natural-language-inference-with-natural-language-explanations.pdf. Camburu et al. (2020)
+
+Oana-Maria Camburu, Brendan Shillingford, Pasquale Minervini, Thomas
+Lukasiewicz, and Phil Blunsom. Make up your mind! adversarial generation of inconsistent natural
+language explanations. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 4157–4165, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.382. URL https://aclanthology.org/2020.acl-main.382. Chen et al. (2019)
+
+Jifan Chen, Shih-Ting Lin, and Greg Durrett. Multi-hop question answering via reasoning chains. CoRR, abs/1910.02610, 2019. URL http://arxiv.org/abs/1910.02610. Chen et al. (2021)
+
+Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira
+Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg
+Brockman, et al. Evaluating large language models trained on code.

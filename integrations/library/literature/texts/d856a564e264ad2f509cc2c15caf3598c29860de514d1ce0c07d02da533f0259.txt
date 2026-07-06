@@ -1,0 +1,33 @@
+At 66.51% accuracy, the 8.3B model similarly surpasses prior cloze accuracy results on the LAMBADA task. We have included samples generated from the 8.3 billion parameters model in the Appendix C. Recently researchers from Microsoft in collaboration with NVIDIA trained a 17 billion parameter GPT-2 model called Turing-NLG (Microsoft, 2020) using Megatron and showed that the accuracies further improve as they scale the model, highlighting the value of larger models. Figure 6: Validation set perplexity. All language models are trained for 300k iterations. Larger language models converge noticeably faster and converge to lower validation perplexities than their smaller counterparts. Table 3: Zero-shot results. SOTA are from (Khandelwal et al., 2019) for Wikitext103 and (Radford et al., 2019) for LAMBADA. Model
+Wikitext103
+LAMBADA
+
+Perplexity
+
+Accuracy
+
+355M
+
+19.31
+
+45.18%
+
+2.5B
+
+12.76
+
+61.73%
+
+8.3B
+
+10.81
+
+66.51%
+
+Previous SOTA
+
+15.79
+
+63.24%
+
+To ensure we do not train on any data found in our test sets, we calculate the percentage of test set 8-grams that also appear in our training set as done in previous work (Radford et al., 2019).

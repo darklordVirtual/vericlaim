@@ -1,0 +1,1 @@
+In this paper, we concentrate on the standard natural language query answering task, where the objective is to answer a query sampled from a natural language query distribution . Various real-world natural language tasks, such as news classification, reading comprehension, and commonsense reasoning, can be formulated as query-answering problems.

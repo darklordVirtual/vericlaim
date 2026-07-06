@@ -1,0 +1,1 @@
+Although our results largely accord with expectations, there are some puzzling results, like the datasets on which GPT-3 outperformed GPT-2 Pile. We hypothesize that GPT-3 learns to be so good at these datasets that training on them explicitly does not notably benefit the model’s performance. We leave a more rigorous analysis of these effects for future work.

@@ -1,0 +1,49 @@
+"enabled", out.enabled);
+
+}
+
+std::string SMTPServerInfoJSONStringSerializer::serialize(const SMTPServerInfo &in,
+
+const SecurityContext &sc)
+
+{
+
+return SMTPServerInfoJSONSerializer::serialize(in, sc).dump(4);
+
+}
+
+void SMTPServerInfoJSONStringSerializer::unserialize(SMTPServerInfo &out,
+
+const std::string &in,
+
+const SecurityContext &sc)
+
+{
+
+retur
+
+lose">
+
+<at-form state="vm.form" autocomplete="off" id="external_test_form">
+
+<at-input-group col="12" tab="20" state="vm.form.inputs" form-id="external_test"></at-input-group>
+
+<at-action-group col="12" pos="right">
+
+<at-action-button
+
+variant="tertiary"
+
+ng-click="vm.onClose()"
+
+>
+
+{{::vm.strings.get(’CLOSE’)}}
+
+</at-action-button>
+
+<at-action-button
+
+variant="primary"
+
+n

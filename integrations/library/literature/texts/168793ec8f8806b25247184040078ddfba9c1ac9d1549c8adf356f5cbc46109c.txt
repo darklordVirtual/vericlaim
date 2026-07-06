@@ -1,0 +1,1 @@
+This setup allows us to emulate the TensorCore operations on non-Volta hardware. A number of networks were trained in this mode to confirm that resulting model accuracies are equivalent to MP training run on Volta V100 GPUs. This is intuitive since MP arithmetic was accumulating FP16 products into FP32 before converting the result to FP16 on a memory write.

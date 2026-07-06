@@ -1,0 +1,12 @@
+The conference will consist of one day of tutorials (June 10), followed by three days of main conference sessions (June 11-13), followed by two days of workshops (June 14-15). Megatron-LM: With a broad scope, the conference addresses the challenges and opportunities in machine learning for practitioners and researchers. The conference program will feature sessions that cover different machine learning topics, from reinforcement learning to computational biology and from AI to deep learning. It is the world’s premier forum for exploring and presenting advances in machine learning. ICML 2019 will offer an impressive range of sessions, which will be of interest to practitioners, researchers, and students. Some of the topics we will cover include:
+Reinforcement learning
+Soft Computing
+Computational biology
+Convolutional networks
+Deep learning
+Statistical learning theory
+Statistical learning machine
+Natural language processing
+Biology
+Awards
+Since its first edition, the conference has grown and evolved. Today, it is the premier forum for showcasing state-of-the-art research in machine learning.

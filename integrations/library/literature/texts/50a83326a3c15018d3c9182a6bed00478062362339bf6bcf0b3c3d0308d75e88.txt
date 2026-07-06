@@ -1,0 +1,41 @@
+Table 7 presents the results. The results indicate that both multi-agent debate and self-consistency achieve significant improvements over standard prompting. However, when comparing multi-agent debate to self-consistency, we observe that the performance of multi-agent is only slightly better than that of self-consistency with the same number of agents (3 responses, the baseline also compared in Du et al. (2023)). Furthermore, for self-consistency with an equivalent number of responses, multi-agent debate significantly underperforms simple self-consistency using majority voting. Table 7: Results of multi-agent debate and self-consistency. # responses
+
+GSM8K
+
+Standard Prompting
+
+1
+
+76.7
+
+Self-Consistency
+
+3
+
+82.5
+
+Multi-Agent Debate (round 1)
+
+6
+
+83.2
+
+Self-Consistency
+
+6
+
+85.3
+
+Multi-Agent Debate (round 2)
+
+9
+
+83.0
+
+Self-Consistency
+
+9
+
+88.2
+
+In fact, rather than labeling the multi-agent debate as a form of “debate” or “critique”, it is more appropriate to perceive it as a means to achieve “consistency” across multiple model generations.

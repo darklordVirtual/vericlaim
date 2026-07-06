@@ -1,0 +1,94 @@
+model performance, as the validation sets of most benchmarks are very small in relation to the size of the Pile, and so choosing to evaluate on more metrics will not be a disadvantage for any model. Component
+Tokens per byte
+
+()
+
+Pile-CC
+
+0.2291
+
+PubMed Central
+
+0.3103
+
+Books3
+
+0.2477
+
+OpenWebText2
+
+0.2434
+
+Arxiv
+
+0.3532
+
+Github
+
+0.4412
+
+FreeLaw
+
+0.2622
+
+StackExchange
+
+0.3436
+
+USPTO Backgrounds
+
+0.2116
+
+PubMed Abstracts
+
+0.2183
+
+Gutenberg (PG-19)
+
+0.2677
+
+OpenSubtitles
+
+0.2765
+
+Wikipedia (en)
+
+0.2373
+
+DM Mathematics
+
+0.8137
+
+Ubuntu IRC
+
+0.3651
+
+BookCorpus2
+
+0.2430
+
+EuroParl
+
+0.3879
+
+HackerNews
+
+0.2627
+
+YoutubeSubtitles
+
+0.4349
+
+PhilPapers
+
+0.2688
+
+NIH ExPorter
+
+0.1987
+
+Enron Emails
+
+0.3103
+
+Table 7: Tokens per byte for Pile components

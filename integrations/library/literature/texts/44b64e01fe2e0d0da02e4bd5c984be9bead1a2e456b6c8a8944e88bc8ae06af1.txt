@@ -1,0 +1,22 @@
+[32]
+
+S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN: Towards real-time object detection with region
+proposal networks. In NIPS, 2015. [33]
+
+S. Ren, K. He, R. Girshick, X. Zhang, and J. Sun. Object detection networks on convolutional feature maps. arXiv:1504.06066, 2015. [34]
+
+B. D. Ripley. Pattern recognition and neural networks. Cambridge university press, 1996. [35]
+
+A. Romero, N. Ballas, S. E. Kahou, A. Chassang, C. Gatta, and Y. Bengio. Fitnets: Hints for thin deep nets. In ICLR, 2015. [36]
+
+O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang,
+A. Karpathy, A. Khosla, M. Bernstein, et al. Imagenet large scale visual recognition challenge. arXiv:1409.0575, 2014. [37]
+
+A. M. Saxe, J. L. McClelland, and S. Ganguli. Exact solutions to the nonlinear dynamics of learning in deep linear
+neural networks. arXiv:1312.6120, 2013. [38]
+
+N. N. Schraudolph. Accelerated gradient descent by factor-centering decomposition. Technical report, 1998. [39]
+
+N. N. Schraudolph. Centering neural network gradient factors. In Neural Networks: Tricks of the Trade, pages 207–226. Springer, 1998. [40]
+
+P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun.

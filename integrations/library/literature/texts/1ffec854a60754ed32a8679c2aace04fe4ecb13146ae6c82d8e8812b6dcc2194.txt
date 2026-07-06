@@ -1,0 +1,23 @@
+Define
+
+(4)
+
+then
+
+Hence
+
+Now we can get the gradients and . Recall that , so
+
+(5)
+
+Similarly,
+
+(6)
+
+Therefore the backward pass can also be computed with extra memory:
+
+1. Compute for all according to Eq. 3, which takes
+extra memory. 2. Compute for all according to Eq. 4, which takes
+extra memory. 3. Compute for all according to Eq. 5, which takes
+extra memory. 4. Compute for all according to Eq. 6, which takes
+extra memory.

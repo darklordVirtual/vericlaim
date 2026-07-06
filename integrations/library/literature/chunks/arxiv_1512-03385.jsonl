@@ -1,0 +1,64 @@
+{"fsid": "arxiv_1512-03385", "n": 63, "overlap": 200, "source_sha256": "98f0c29e59365e8016f9bed4809fddce40e848f7fcdd78f8e6c0166e66be3ebe", "target": 1200}
+{"section": "", "seq": 0, "sha256": "7767345a4869fb150ad30e93ac413facea66400677d01c30971a3cdadd45ba08"}
+{"section": "Deep Residual Learning for Image Recognition", "seq": 1, "sha256": "5c85c61ce3abeb2274706d5c18556b430163a1c0751e29f9df43162c726599d2"}
+{"section": "Deep Residual Learning for Image Recognition", "seq": 2, "sha256": "d9f1b884c59aab2c346110b5bf7f7ac9c4c0834d76c43c75aac4c815ac571b0b"}
+{"section": "1 Introduction", "seq": 3, "sha256": "208e25e1a0793a86973f7a050581c76ae49048365f149966d527053ce5303727"}
+{"section": "1 Introduction", "seq": 4, "sha256": "2fd66c938291d40ff85b7c7e02e56dd435b78d9bbb323664662b49c71af7025f"}
+{"section": "1 Introduction", "seq": 5, "sha256": "3797924d11bccbdf4725e9681c96c9de24cbe0d61b6a9e77ffc1f0cd9f99c5b6"}
+{"section": "1 Introduction", "seq": 6, "sha256": "bc0e210fe7ac0da383cad6cdd3eb75858616257562cb960c59faca95f2679cb2"}
+{"section": "1 Introduction", "seq": 7, "sha256": "588923751335a0d508abccf6934498aff068246533e83d0aa64f73bd268b3fec"}
+{"section": "1 Introduction", "seq": 8, "sha256": "548dc11333d5fcca927a181ce60adbcaa7a3283955f4b9c313b3a54dfe58a9f0"}
+{"section": "2 Related Work", "seq": 9, "sha256": "1017358ba7a55b62aaf7213224da5f848d43d511b938084699f294eb6b25ea50"}
+{"section": "2 Related Work", "seq": 10, "sha256": "5d4ada28546a5b1756a4414b84619f8cbb177c0795457aa9b9e9ad685ec08670"}
+{"section": "2 Related Work", "seq": 11, "sha256": "d35ad30c53361239c2b8278f284a5ce3f563e5a1b9cce3bc50cf751b7461ffc0"}
+{"section": "3.1 Residual Learning", "seq": 12, "sha256": "2d19ee6c4a1aab49c247adeb9be1f6df99b2589709e334fe397a30ce0922b081"}
+{"section": "3.1 Residual Learning", "seq": 13, "sha256": "5271d656c4c80ee1542a87a073d1b66fd193502779217d9405f93e41b7240e3e"}
+{"section": "3.2 Identity Mapping by Shortcuts", "seq": 14, "sha256": "a0ad297f3e319eff8a3ac924d8ea430c2e6388f82c27a44d92b9bff8d064530d"}
+{"section": "3.2 Identity Mapping by Shortcuts", "seq": 15, "sha256": "0cdcc36937b4b0b2217ed479b5302a793a5109c7a7510362d21ac4fcba9261e3"}
+{"section": "3.2 Identity Mapping by Shortcuts", "seq": 16, "sha256": "80c24704c5ba6c13f85260275564d465400b94fe2a6f6c156fc1ff9c0bfe673c"}
+{"section": "3.3 Network Architectures", "seq": 17, "sha256": "3d5c23386cd86549c4fb21c2da42d7081fbd0169eee0c53f10f9084fae058eac"}
+{"section": "3.3 Network Architectures", "seq": 18, "sha256": "83ca59eb20bff5b5bf514274d98672cb915050244d6aad1d29cd078403e35de9"}
+{"section": "3.3 Network Architectures", "seq": 19, "sha256": "c47797d0abaad5173ea6f9d979e4a3532c3ef2ee2c1b9d82fd55ad95f8d39fa0"}
+{"section": "3.4 Implementation", "seq": 20, "sha256": "9c5f835347da389108decd372313659abf6ddde3b6fe0189c5889aa4b0df8de6"}
+{"section": "4.1 ImageNet Classification", "seq": 21, "sha256": "6cd635ffe429069e5b6646a76680ed7f96bdda30c6496e341793491898cd1ddd"}
+{"section": "4.1 ImageNet Classification", "seq": 22, "sha256": "3b6ac976a88fa90f9026c51b600d04ace6b251083235e65e18fd9a96646105dd"}
+{"section": "4.1 ImageNet Classification", "seq": 23, "sha256": "cd43d920d9cc1e29bf1d862c4b3a97a3aefa1de1bc74b8c56489df99ef3e328a"}
+{"section": "4.1 ImageNet Classification", "seq": 24, "sha256": "f717b32dab22b9f53f0e96e09cfaea03e1b3ef8154b6921075473bcda08ea61f"}
+{"section": "4.1 ImageNet Classification", "seq": 25, "sha256": "fbdf9a492e5d11e5c45aefd16c640f703f45a45a1ec63958457e279524bd39f7"}
+{"section": "4.1 ImageNet Classification", "seq": 26, "sha256": "425c9b382600a68f14415698e63c589c9c5cca02f136151a2c914f0e6e9b21eb"}
+{"section": "4.1 ImageNet Classification", "seq": 27, "sha256": "f5921f9ee4936456fdeba3b5931481632444ccd27ed5ac3dbbd5e3faa1555cd2"}
+{"section": "4.1 ImageNet Classification", "seq": 28, "sha256": "235ce366d919e36c3d3e1f88f565a07b2d4925e75688aa1ba829dd945283e133"}
+{"section": "4.1 ImageNet Classification", "seq": 29, "sha256": "7a64142d21e8c119a7a1c2be14a7174210e72b8f664a7dbd7bb1aedf93ed5f15"}
+{"section": "4.2 CIFAR-10 and Analysis", "seq": 30, "sha256": "f3669da0632d563426eb1c9dc5918ad8e4f9829ad3556351c7f51232df31c081"}
+{"section": "4.2 CIFAR-10 and Analysis", "seq": 31, "sha256": "e214313eeec5ba52f7f25b12021d2fea64328a1d81d5ffd22208202acb83c9a4"}
+{"section": "4.2 CIFAR-10 and Analysis", "seq": 32, "sha256": "c57e2c9a6b4778219667213627eb6f90563bef6922ce6ef026a7f9597b30e066"}
+{"section": "4.2 CIFAR-10 and Analysis", "seq": 33, "sha256": "97a3ce7c7391c59a9d287dce400ab05a291edd31e280df1d2cc88d93be6020c1"}
+{"section": "4.2 CIFAR-10 and Analysis", "seq": 34, "sha256": "8e17cb68495b8b029fe536f22682eec6a99879ff132b6e32017c96702ace7dac"}
+{"section": "4.2 CIFAR-10 and Analysis", "seq": 35, "sha256": "48a8adaffd491e03db898689e6c839744d5be07ad9dc886179d07779ce3fb77d"}
+{"section": "4.3 Object Detection on PASCAL and MS COCO", "seq": 36, "sha256": "b33f55fb04de1fddb2445af1edeef8b0b3d0066f718e8ab8117af96615f82abd"}
+{"section": "4.3 Object Detection on PASCAL and MS COCO", "seq": 37, "sha256": "f6647f924ca48f533df25a2b306ddf49e65e3135837daa55d6bb690beb5c33d7"}
+{"section": "References", "seq": 38, "sha256": "95f78c67821ff73bba6672e5fceb4ff3265d986b625aa64c019ed6b86edac624"}
+{"section": "References", "seq": 39, "sha256": "51403a66ffaaf7ed1dab3ec4202023c4fd8826cab4733c130702d6f1fca1fc4e"}
+{"section": "References", "seq": 40, "sha256": "1142ca8d90cb206304a5e3f76212317dab27cbf3219d4fcdbfd5e71e42122992"}
+{"section": "References", "seq": 41, "sha256": "16da3ae887b977185ebfc60ab4aaf52002293e6204f3f4f74ff15263ec7fb74e"}
+{"section": "References", "seq": 42, "sha256": "44b64e01fe2e0d0da02e4bd5c984be9bead1a2e456b6c8a8944e88bc8ae06af1"}
+{"section": "References", "seq": 43, "sha256": "3e41ebc0ec54cde494eb06973d508544704ea345e5bf0dfa2fa5a6f215337c6a"}
+{"section": "References", "seq": 44, "sha256": "28875b0f10e3d3aa754edc092608a159443d7ef5261122313e9e29f8747ade90"}
+{"section": "Appendix A Object Detection Baselines", "seq": 45, "sha256": "1269749d5cfe1b60fdb14f900463966c80f90565a56d96b5c5f269bccb0224c1"}
+{"section": "Appendix A Object Detection Baselines", "seq": 46, "sha256": "a24e72a2b171ee5266d2b30f1fb21e4d3a10de17bcd6ba173465a56e2e7cf7bb"}
+{"section": "Appendix A Object Detection Baselines", "seq": 47, "sha256": "2fb0fdd041354e6d0e343f3955639451fd12c4621b8e5b41af8cad0c2266c020"}
+{"section": "Appendix A Object Detection Baselines", "seq": 48, "sha256": "7fda4724533cdbc23c6c3adff9c2a49e5db2fed5bd3e7c3bb98038287f6b943b"}
+{"section": "Appendix B Object Detection Improvements", "seq": 49, "sha256": "d961058ee49cbd0d415105404875212b5ced3c8692cc888e4ba32835cdeb4731"}
+{"section": "Appendix B Object Detection Improvements", "seq": 50, "sha256": "4d56c9c731cf578336d8ef34611cd16184526de652219474979d65a8e74c77d1"}
+{"section": "Appendix B Object Detection Improvements", "seq": 51, "sha256": "b98ef3e63fa741b9a4d956326f9b880fe46680118f8db7ccffbf1a3ce42a3299"}
+{"section": "Appendix B Object Detection Improvements", "seq": 52, "sha256": "7c08285abf12059c9ba8072dc2cd1ab6bb2b1b0c0e670a7bf1f330a8643b6f02"}
+{"section": "Appendix B Object Detection Improvements", "seq": 53, "sha256": "88cdd5240e6104c562b1094d8b88decfec4f096340f3ebe03ea50a0807e28381"}
+{"section": "Appendix B Object Detection Improvements", "seq": 54, "sha256": "88fb7fcd37e81fd1529f57c9220fbf38b34a8034825a37b6b65b5dd4883b9405"}
+{"section": "Appendix B Object Detection Improvements", "seq": 55, "sha256": "46f30901d5cd353d52bebde1fe2d2affe0801122a14f8bb837c19b6c62933c7e"}
+{"section": "Appendix B Object Detection Improvements", "seq": 56, "sha256": "201b7664535e2221ea82878e5ea8ab7d103dc0fce9f8d9bd4e0c4c3c9b81ae99"}
+{"section": "Appendix C ImageNet Localization", "seq": 57, "sha256": "9402cc659034946520234b2f9696fe10f8422b544ef2d0b5cfa6bd853eb968b9"}
+{"section": "Appendix C ImageNet Localization", "seq": 58, "sha256": "a94bd08650d7a1f30c84f1a973d755148ecdae4a9612efe01bccee6a9ebd5a41"}
+{"section": "Appendix C ImageNet Localization", "seq": 59, "sha256": "71758d8275b0e8ad1a1600ba57de99c1816bba129b083ab70c5ad6d517f3616d"}
+{"section": "Appendix C ImageNet Localization", "seq": 60, "sha256": "61aa144f8bbb14a730e0eaf376a805b8e69d21391969bef41a3084ce9318a6df"}
+{"section": "Appendix C ImageNet Localization", "seq": 61, "sha256": "3497c2973f8723b1741c8f0712e88183a9395ef435a91eb769d8f7d49a84a22f"}
+{"section": "Appendix C ImageNet Localization", "seq": 62, "sha256": "73ca87538a40f6abba5f67d89c4a69b15db022d6e03d9c18c2a00566401b6c8f"}

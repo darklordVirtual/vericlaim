@@ -1,0 +1,20 @@
+Obar (2020)
+
+Jonathan A Obar. 2020. Sunlight alone is not a disinfectant: Consent and the futility of
+opening big data black boxes (without assistance). Big Data & Society, 7(1):2053951720935615. Pennington et al. (2014)
+
+Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. Glove: Global
+vectors for word representation. In Empirical Methods in Natural Language Processing (EMNLP),
+pages 1532–1543. Prabhu and Birhane (2020)
+
+Vinay Uday Prabhu and Abeba Birhane. 2020. Large image datasets: A pyrrhic win for computer vision? arXiv preprint arXiv:2006.16923. Presser (2020)
+
+Shawn Presser. 2020. Books3. https://twitter.com/theshawwn/status/1320282149329784833. Radford et al. (2018)
+
+Alec Radford, Karthik Narasimhan, Time Salimans, and Ilya Sutskever. 2018. Improving language understanding with unsupervised learning. Technical report, OpenAI. Radford et al. (2019)
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+Sutskever. 2019. Language models are unsupervised multitask learners. OpenAI Blog, 1(8):9. Rae et al. (2019)
+
+Jack W Rae, Anna Potapenko, Siddhant M Jayakumar, Chloe Hillier, and Timothy P
+Lillicrap. 2019.

@@ -1,0 +1,63 @@
+We process the data to remove hyperlinks, comments and other formatting boilerplate. Dataset
+
+Sampling prop. Epochs
+
+Disk size
+
+CommonCrawl
+
+67.0%
+
+1.10
+
+3.3 TB
+
+C4
+
+15.0%
+
+1.06
+
+783 GB
+
+Github
+
+4.5%
+
+0.64
+
+328 GB
+
+Wikipedia
+
+4.5%
+
+2.45
+
+83 GB
+
+Books
+
+4.5%
+
+2.23
+
+85 GB
+
+ArXiv
+
+2.5%
+
+1.06
+
+92 GB
+
+StackExchange
+
+2.0%
+
+1.03
+
+78 GB
+
+Table 1: Pre-training data. Data mixtures used for pre-training, for each subset we list the sampling proportion, number of epochs performed on the subset when training on 1.4T tokens, and disk size. The pre-training runs on 1T tokens have the same sampling proportion. Gutenberg and Books3 [4.5%]. We include two book corpora in our training dataset: the Gutenberg Project, which contains books that are in the public domain, and the Books3 section of ThePile (Gao et al., 2020), a publicly available dataset for training large language models. We perform deduplication at the book level, removing books with more than 90% content overlap. ArXiv [2.5%]. We process arXiv Latex files to add scientific data to our dataset. Following Lewkowycz et al. (2022), we removed everything before the first section, as well as the bibliography.

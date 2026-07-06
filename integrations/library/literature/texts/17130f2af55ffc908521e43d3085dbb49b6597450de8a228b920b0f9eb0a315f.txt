@@ -1,0 +1,9 @@
+We use two public engines code-davinci-001 and code-davinci-002 from the Codex series (Chen et al., 2021) to aid reproducibility;555Public API available at https://openai.com/api/. •
+
+LaMDA-137B (Thoppilan et al., 2022) is a dense left-to-right, decoder-only language model with 137-billion parameters, pre-trained on a mixture of web documents, dialog data and
+Wikipedia;
+
+•
+
+PaLM-540B (Chowdhery et al., 2022) is a dense left-to-right, decoder-only language model with 540-billion parameters, pre-trained on a high quality corpus of 780 billion tokens with filtered webpages, books, Wikipedia, news articles, source
+code, and social media conversations. We perform all experiments in the few-shot setting, without training or fine-tuning the language models. For a fair comparison we use the same prompts as in Wei et al. (2022): for all arithmetic reasoning tasks we use the same set of 8 manually written exemplars; for each commonsense reasoning task, 4-7 exemplars are randomly chosen from the training set with manually composed chain-of-thought prompts.666Self-consistency is robust to different sets of prompts and we provide a study in Appendix A.1.2.

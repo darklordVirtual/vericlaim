@@ -1,0 +1,35 @@
+railroad and ferry terminal creating a beautiful silhouette
+
+\par###
+
+\parConcepts: [’chair’, ’couch’, ’hang’, ’room’, ’wall’]
+
+\parSentence: A room with a couch, chairs and art hanging on the wall. \par###
+
+\parConcepts: [’boat’, ’building’, ’harbour’, ’moor’, ’quay’]
+
+\parSentence: the harbour and port with fishing boats moored and old buildings on the quay
+
+\par###
+
+\parConcepts: [’admirer’, ’arrive’, ’commander’, ’crowd’, ’greet’]
+
+\parSentence: military commander is greeted by a crowd of admirers as he arrives
+
+\par
+
+Figure 27: Initial generation prompt for Constrained Generation (truncated)
+
+⬇
+
+\par###
+
+\parConcepts: [’animal’, ’catch’, ’horse’, ’lasso’, ’ride’]
+
+Sentence: The horse catches the lasso and rides on it. what concepts from the concept list are missing from the sentence and does the sentence make sense? \parConcept Feedback: animal
+
+Commonsense Feedback: The sentence does not make sense because a horse cannot catch a lasso and ride on it. \par###
+
+\parConcepts: [’animal’, ’catch’, ’horse’, ’lasso’, ’ride’]
+
+Sentence: A horse is being caught by a cowboy with a lasso.

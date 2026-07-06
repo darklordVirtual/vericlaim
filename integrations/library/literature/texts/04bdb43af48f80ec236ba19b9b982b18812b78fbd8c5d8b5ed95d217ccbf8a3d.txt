@@ -1,0 +1,10 @@
+One of our main claims about using soft targets instead of hard targets is that a lot of helpful information can be
+carried in soft targets that could not possibly be encoded with a single hard target. In this section we demonstrate
+that this is a very large effect by using far less data to fit the 85M
+parameters of the baseline speech
+model described earlier. Table 5 shows that with only 3% of the data (about 20M examples), training the baseline model with
+hard targets leads to severe overfitting (we did early stopping, as the accuracy drops sharply after reaching 44.5%),
+whereas the same model trained with soft targets is able to recover almost all the information in the full training set
+(about 2% shy). It is even more remarkable to note that we did not have to do early stopping: the system with soft
+targets simply “converged” to 57%. This shows that soft targets are a very effective way of communicating the
+regularities discovered by a model trained on all of the data to another model.

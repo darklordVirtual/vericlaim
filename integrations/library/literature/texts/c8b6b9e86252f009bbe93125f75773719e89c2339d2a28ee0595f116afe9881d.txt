@@ -1,0 +1,45 @@
+We use fasttext with an n-gram size of 2. We ran experiments using both the entire Pile and just OpenWebText2 as the positive examples, with score distributions on unseen CC data as shown in Figure 9. We decided to use only OpenWebText2 for positive examples for our final CC data because of the low sensitivity of using the full Pile. We use the same Pareto-distribution thresholding as Brown et al. (2020), with . Our choice of targets the filtering ratio necessary to filter our subset of CC to the size we needed. The impact of on the filtering ratio is shown in Table 6. Filtering Ratio
+
+1
+
+0.5894
+
+2
+
+0.3649
+
+3
+
+0.2390
+
+4
+
+0.1671
+
+5
+
+0.1239
+
+6
+
+0.0974
+
+7
+
+0.0802
+
+8
+
+0.0685
+
+9
+
+0.0602
+
+Table 6: Filtering Ratios (kept:total) of various settings
+
+(a) OpenWebText2
+
+(b) Full Pile
+
+Figure 9: Score distribution of documents from Common Crawl given different classifier training data.

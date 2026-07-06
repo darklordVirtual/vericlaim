@@ -1,0 +1,5 @@
+Model Architecture
+
+BERT’s model architecture is a multi-layer bidirectional Transformer encoder based on the original implementation described in Vaswani et al. (2017) and released in the tensor2tensor library.111https://github.com/tensorflow/tensor2tensor Because the use of Transformers has become common and our implementation is almost identical to the original, we will omit an exhaustive background description of the model architecture and refer readers to Vaswani et al. (2017) as well as excellent guides such as “The Annotated Transformer.”222http://nlp.seas.harvard.edu/2018/04/03/attention.html
+
+In this work, we denote the number of layers (i.e., Transformer blocks) as , the hidden size as , and the number of self-attention heads as .333In all cases we set the feed-forward/filter size to be , i.e., 3072 for the and 4096 for the . We primarily report results on two model sizes: BERT (L=12, H=768, A=12, Total Parameters=110M) and BERT (L=24, H=1024, A=16, Total Parameters=340M). BERT was chosen to have the same model size as OpenAI GPT for comparison purposes.

@@ -1,0 +1,1 @@
+binary decisions) yield many poor rationales, confounding the STaR approach. An open problem is how to filter bad reasoning in these settings. Nonetheless, we believe using examples without reasoning to bootstrap reasoning is a very general approach, and that STaR can serve as the basis of more sophisticated techniques across many domains.

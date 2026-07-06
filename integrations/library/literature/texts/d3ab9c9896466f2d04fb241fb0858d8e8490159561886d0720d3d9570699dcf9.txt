@@ -1,0 +1,18 @@
+Ferguson and Schneier (2003)
+
+Niels Ferguson and Bruce Schneier. 2003. Practical Cryptography. John Wiley & Sons. Fiesler et al. (2020)
+
+Casey Fiesler, Nathan Beard, and Brian C Keegan. 2020. No robots, spiders, or scrapers: Legal and ethical regulation of data
+collection methods in social media terms of service. In Proceedings of the International AAAI Conference on Web and
+Social Media, volume 14, pages 187–196. Gebru et al. (2018)
+
+Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan,
+Hanna Wallach, Hal Daumé III, and Kate Crawford. 2018. Datasheets for datasets. arXiv preprint arXiv:1803.09010. Gokaslan and Cohen (2019)
+
+Aaron Gokaslan and Vanya Cohen. 2019. Openwebtext corpus. http://Skylion007.github.io/OpenWebTextCorpus. Google (2015)
+
+Authors Guild v. Google. 2015. . Docket No. 13-4829-cv, 804:202. Grace et al. (2018)
+
+Katja Grace, John Salvatier, Allan Dafoe, Baobao Zhang, and Owain Evans. 2018. When will AI exceed human performance? evidence from AI experts. Journal of Artificial Intelligence Research, 62:729–754. Graff et al. (2003)
+
+David Graff, Junbo Kong, Ke Chen, and Kazuaki Maeda. 2003. English gigaword.

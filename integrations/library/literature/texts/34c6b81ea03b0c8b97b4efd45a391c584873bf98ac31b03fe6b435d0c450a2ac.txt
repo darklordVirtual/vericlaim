@@ -1,0 +1,5 @@
+The MoE layers in the encoder and decoder are non-hierarchical MoEs with experts, and . Each expert has a larger hidden layer of size . This doubles the amount of computation in the MoE layers, raising the computational budget of the entire model from 85M to 102M ops/timestep. Training:
+
+We trained our networks using the Adam optimizer (Kingma & Ba, 2015). The base learning rate was increased linearly for the first 2000 training steps, held constant for an additional 8000 steps, and decreased after that so as to be proportional to the inverse square root of the step number. For the single-language-pair models, similarly to (Wu et al., 2016), we applied dropout (Zaremba et al., 2014) to the output of all embedding, LSTM and MoE layers, using . Training was done synchronously on a cluster of up to 64 GPUs as described in section 3. Each training batch consisted of a set of sentence pairs containing roughly 16000 words per GPU. To ensure balanced expert utilization we set and , as described in Section 4 and Appendix A. Metrics:
+
+We evaluated our models using the perplexity and the standard BLEU score metric.

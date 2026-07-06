@@ -1,0 +1,9 @@
+Despite this, models are usually trained to optimize performance on the training data when the real
+objective is to generalize well to new data. It would clearly be better to train models to generalize well, but this
+requires information about the correct way to generalize and this information is not normally available. When we are
+distilling the knowledge from a large model into a small one, however, we can train the small model to generalize in the
+same way as the large model. If the cumbersome model generalizes well because, for example, it is the average of a large
+ensemble of different models, a small model trained to generalize in the same way will typically do much better on test
+data than a small model that is trained in the normal way on the same training set as was used to train the ensemble. An obvious way to transfer the generalization ability of the cumbersome model to a small model is to use the class
+probabilities produced by the cumbersome model as “soft targets” for training the small model. For this transfer
+stage, we could use the same training set or a separate “transfer” set.

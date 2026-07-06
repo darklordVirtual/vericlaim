@@ -1,0 +1,28 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Giuseppe DeCandia",
+    "Deniz Hastorun",
+    "Madan Jampani",
+    "Gunavardhan Kakulapati",
+    "Avinash Lakshman",
+    "Alex Pilchin",
+    "Swaminathan Sivasubramanian",
+    "Peter Vosshall",
+    "Werner Vogels"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "dynamo-2007",
+    "fetched_at": "2026-07-06T01:10:42.266335+00:00",
+    "method": "doi"
+  },
+  "source_type": "proceedings-article",
+  "text_sha256": "75459253ecc18bc6e23b301cb9748fc10aa5d4a805dcc6486e079996ce57bdc0",
+  "title": "Dynamo",
+  "url": "https://doi.org/10.1145/1294261.1294281",
+  "venue": "Proceedings of twenty-first ACM SIGOPS symposium on Operating systems principles",
+  "work_id": "doi:10.1145/1294261.1294281",
+  "year": 2007
+}

@@ -1,0 +1,39 @@
+Data type
+Token count
+Present in pretraining? Math problems and solutions
+
+275M
+
+No
+
+Free-form math discussion text (1)
+
+430M
+
+No
+
+Free-form math discussion text (2)
+
+450M
+
+Yes
+
+Synthetic data (1)
+
+30M
+
+No
+
+Synthetic data (2)
+
+100M
+
+Yes
+
+Critiques grading data
+
+500M
+
+No
+
+Table 2: MathMix dataset components. Note that when training smaller models, as in Section 4, we use a slightly smaller variant of MathMix that excludes the critiques data and only consists of 1B tokens. For our large models experiments, we train on MathMix for roughly 3B tokens (2 epochs). For our small models experiments, we train for 6 epochs (roughly 6.6B tokens). We apply a set of decontamination checks on MathMix against the test split of the MATH dataset, including stripping out LaTeX and searching for matching n-grams, but we can make no strong guarantees on the efficacy of this decontamination. As discussed in Section 6.3, we would not expect the relative comparisons made throughout this work to be significantly impacted by test set contamination.

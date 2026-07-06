@@ -1,0 +1,17 @@
+The large differences between models at the beginning of training are due to different batch sizes. All models incur the same computational budget (85M ops/timestep) except the one with no experts. We found that the experts indeed become highly specialized by syntax and/or semantics, as can be seen in Table 9. For example, one expert is used when the indefinite article “a" introduces the direct object in a verb phrase indicating importance or leadership. Table 9: Contexts corresponding to a few of the 2048 experts in the MoE layer in the encoder portion of the WMT’14 En Fr translation model. For each expert , we sort the inputs in a training batch in decreasing order of , and show the words surrounding the corresponding positions in the input sentences. Expert 381
+
+Expert 752
+
+Expert 2004
+
+… with researchers , …
+
+… plays a core …
+
+… with rapidly growing …
+
+… to innovation . … plays a critical …
+
+… under static conditions …
+
+… tics researchers .

@@ -1,0 +1,55 @@
+Table 4 lists the tasks in our evaluation, and examples from each task. Task and Description
+
+Sample one iteration of feedback-refine
+
+Sentiment Reversal
+
+Rewrite reviews to reverse sentiment. Dataset: (Zhang et al., 2015) 1000 review passages
+
+: The food was fantastic…”
+
+: The food was disappointing…”
+
+: Increase negative sentiment
+
+: The food was utterly terrible…”
+
+Dialogue Response Generation
+
+Produce rich conversational responses. Dataset: Mehri and Eskenazi (2020) 372 conv. : What’s the best way to cook pasta?”
+
+: The best way to cook pasta is to…”
+
+: Make response relevant, engaging, safe
+
+: Boil water, add salt, and cook pasta…”
+
+Code Optimization
+
+Enhance Python code efficiency
+
+Dataset: (Madaan et al., 2023): 1000 programs
+
+: Nested loop for matrix product
+
+: NumPy dot product function
+
+: Improve time complexity
+
+: Use NumPy’s optimized matmul function
+
+Code Readability Improvement
+
+Refactor Python code for readability. Dataset: (Puri et al., 2021) 300 programs∗
+
+: Unclear variable names, no comments
+
+: Descriptive names, comments
+
+: Enhance variable naming; add comments
+
+: Clear variables, meaningful comments
+
+Math Reasoning
+
+Solve math reasoning problems.

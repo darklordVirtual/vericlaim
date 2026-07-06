@@ -1,0 +1,5 @@
+We found that, as shown in Table 1, STaR without rationalization outperformed GPT-J fine-tuned directly on the final answer for the entire dataset, despite training on less of the data. The inclusion of rationalization improved this performance to , far closer to the of the 30 larger GPT-3. As expected, we also see STaR surpassed the few-shot baselines, including the much-larger 137B LaMDA model [30, 6]. We expect accuracy would be further improved if we applied STaR to a model with higher few-shot performance. Case Study
+
+Note that it is harder to judge the rationale quality: for arithmetic, one can compare them to the ground truth rationales, but for CQA the evaluation is necessarily qualitative. For this reason, we include a case study in Figure 7. We observe that the rationales provided are generally coherent and of a similar structure to the few-shot rationales. We make the following two observations:
+
+1. After training with STaR, we see the model was able to generate reasonable rationales that solve new problems, which explains part of the observed performance gain. 2.

@@ -1,0 +1,19 @@
+Amodei et al. [2016]
+
+D. Amodei, R. Anubhai, E. Battenberg, C. Case, J. Casper, B. Catanzaro,
+J. Chen, M. Chrzanowski, A. Coates, G. Diamos, et al. Deep speech 2: End-to-end speech recognition in english and mandarin. In Proceedings of The 33rd International Conference on Machine
+Learning, pages 173–182, 2016. Cho et al. [2014]
+
+K. Cho, B. Van Merriënboer, C. Gulcehre, D. Bahdanau, F. Bougares,
+H. Schwenk, and Y. Bengio. Learning phrase representations using rnn encoder-decoder for
+statistical machine translation. arXiv preprint arXiv:1406.1078, 2014. Courbariaux et al. [2015]
+
+M. Courbariaux, Y. Bengio, and J.-P. David. Binaryconnect: Training deep neural networks with binary weights
+during propagations. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett,
+editors, Advances in Neural Information Processing Systems 28, pages
+3123–3131. Curran Associates, Inc., 2015. URL
+http://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf. [4]
+
+R. Girshick. Faster r-cnn github repository. https://github.com/rbgirshick/py-faster-rcnn. [5]
+
+Google. Tensorflow tutorial: Sequence-to-sequence models.

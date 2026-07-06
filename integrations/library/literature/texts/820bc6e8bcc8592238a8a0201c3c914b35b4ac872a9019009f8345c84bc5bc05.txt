@@ -1,0 +1,1 @@
+In this section we detail our evaluation methodology for the WikiText103 dataset (Merity et al., 2016) and cloze-style prediction accuracy on the LAMBADA dataset(Paperno et al., 2016).

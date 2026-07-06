@@ -1,0 +1,20 @@
+arXiv preprint arXiv:2212.09720, 2022. Dettmers et al. [2022a]
+
+T. Dettmers, M. Lewis, Y. Belkada, and L. Zettlemoyer. LLM.int8(): 8-bit matrix multiplication for transformers at scale. Advances in Neural Information Processing Systems 35: Annual
+Conference on Neural Information Processing Systems 2022, NeurIPS 2022,
+2022a. Dettmers et al. [2022b]
+
+T. Dettmers, M. Lewis, S. Shleifer, and L. Zettlemoyer. 8-bit optimizers via block-wise quantization. 9th International Conference on Learning Representations,
+ICLR, 2022b. Elo [1967]
+
+A. E. Elo. The proposed uscf rating system. its development, theory, and
+applications. Chess Life, 22(8):242–247, 1967. Elo [1978]
+
+A. E. Elo. The rating of chessplayers, past and present. Arco Pub., 1978. Frantar et al. [2022]
+
+E. Frantar, S. Ashkboos, T. Hoefler, and D. Alistarh. Gptq: Accurate post-training quantization for generative pre-trained
+transformers. arXiv preprint arXiv:2210.17323, 2022. Fu et al. [2023]
+
+J. Fu, S.-K. Ng, Z. Jiang, and P. Liu. Gptscore: Evaluate as you desire. arXiv preprint arXiv:2302.04166, 2023. Geng et al. [2023]
+
+X. Geng, A. Gudibande, H. Liu, E. Wallace, P. Abbeel, S. Levine, and D. Song.

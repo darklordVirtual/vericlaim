@@ -1,0 +1,16 @@
+These matrices are called structured matrices, which have subquadratic
+( for dimension ) number of parameters and runtime. Most common examples of structured matrices are sparse and low-rank matrices,
+along with fast transforms commonly encountered in signal processing (Fourier,
+Chebyshev, sine/cosine, orthogonal polynomials). There have been several more general classes of structured matrices proposed in
+machine learning: Toeplitz-like [78],
+low-displacement rank [49],
+quasi-separable [25]). The butterfly pattern we use for our block-sparse attention is motivated by the
+fact that butterfly matrices [64, 15] and their
+products have been shown to be able to express any structured matrices with
+almost optimal runtime and number of
+parameters [20, 16]. However, even though structured matrices are efficient in theory, they have not
+seen wide adoption since it is hard to translate their efficiency to wall-clock
+speedup since dense unconstrained matrix multiply has very optimize
+implementation, a phenomenon known as the hardware
+lottery [41]. Extensions of butterfly matrices [17, 18] aimed
+to make butterfly matrices more hardware-friendly. Sparse Training.

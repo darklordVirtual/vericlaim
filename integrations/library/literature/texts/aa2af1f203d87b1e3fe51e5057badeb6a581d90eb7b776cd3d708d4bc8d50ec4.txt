@@ -1,0 +1,24 @@
+This incurs HBM accesses. In the second step of computing , the input is read from
+HBM and the output is written to HBM (Algorithm line 2). This incurs HBM accesses. In the last step of computing , the inputs are read from global
+memory and the output is written to HBM (Algorithm line 3). This incurs HBM accesses. Overall, standard attention implementation requires global
+memory accesses. We now analyze the IO complexity of streaming attention. Following Algorithm 1, we see that each element of and is
+loaded from HBM once (Algorithm 1 line 6). We make passes over and , each pass loading all of and all of
+to HBM (Algorithm 1 line 8). Therefore the number of HBM accesses is
+. We derive the conditions on the block sizes and . We need the blocks and of size to fit into
+on-chip memory, which translates to:
+
+Similarly, we need the blocks of size to fit
+into on-chip memory, which translates to:
+
+Finally, we need the block of size to
+fit into on-chip memory, which translates to:
+
+We therefore set:
+
+We then have:
+
+As a result, the number of HBM accesses is:
+
+∎
+
+Proof of Proposition 3.

@@ -1,0 +1,9 @@
+(10)
+
+We can now define the load loss to be the square of the coefficient of variation of the load vector, multiplied by a hand-tuned scaling factor . (11)
+
+Initial Load Imbalance:
+
+To avoid out-of-memory errors, we need to initialize the network in a state of approximately equal expert load (since the soft constraints need some time to work). To accomplish this, we initialize the matrices and to all zeros, which yields no signal and some noise. Experiments:
+
+We trained a set of models with identical architecture (the MoE-256 model described in Appendix C), using different values of and . We trained each model for 10 epochs, then measured perplexity on the test set. We also measured the coefficients of variation in and , as well as ratio of the load on the most overloaded expert to the average load. This last value is significant for load balancing purposes on distributed hardware. All of these metrics were averaged over several training batches. Table 6: Experiments with different combinations of losses.

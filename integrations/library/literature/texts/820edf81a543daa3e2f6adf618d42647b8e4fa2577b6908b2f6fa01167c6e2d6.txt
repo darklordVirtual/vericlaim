@@ -1,0 +1,13 @@
+Given input sequences where is the sequence length and
+is the head dimension, we want to compute the attention output :
+
+where is applied row-wise. Standard attention implementations materialize the matrices and to HBM, which takes memory. Often (e.g., for GPT2, and ). We describe the standard attention implementation in Algorithm . As some or most of the operations are memory-bound (e.g., softmax), the large number of
+memory accesses translates to slow wall-clock time. This problem is exacerbated by other elementwise operations applied
+to the attention matrix, such as masking applied to or dropout applied to . As a result, there have been many attempts to fuse several elementwise
+operations, such as fusing masking with softmax [77]. In Section 3.2, we will show that the standard attention implementation
+performs HBM accesses quadratic in the sequence length . We also compare the number of FLOPs and number of HBM accesses of standard
+attention and of our method (FlashAttention). Algorithm 0 Standard Attention Implementation
+
+0: Matrices in HBM. 1: Load by blocks from HBM, compute
+, write to HBM. 2: Read from HBM, compute , write to
+HBM.

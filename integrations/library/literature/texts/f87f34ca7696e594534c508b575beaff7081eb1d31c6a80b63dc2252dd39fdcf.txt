@@ -1,0 +1,7 @@
+On the other hand, the very negative logits may convey useful
+information about the knowledge acquired by the cumbersome
+model. Which of these effects dominates is an empirical question. We
+show that when the distilled model is much too small to capture all of
+the knowledege in the cumbersome model, intermediate temperatures work
+best which strongly suggests that ignoring the large negative logits
+can be helpful.

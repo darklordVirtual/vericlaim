@@ -1,0 +1,21 @@
+Before investigating what happens when specialist models are
+distilled, we wanted to see how well ensembles containing specialists
+performed. In addition to the specialist models, we always have a
+generalist model so that we can deal with classes for which we
+have no specialists and so that we can decide which specialists to
+use. Given an input image , we do top-one classification in two steps:
+
+Step 1: For each test case, we find
+the most probable classes according to the generalist model. Call this set of classes . In our
+experiments, we used . Step 2: We then take all the specialist models, , whose special
+subset of confusable classes,
+, has a non-empty intersection with and call this the active
+set of specialists (note that this set may be empty). We then
+find the full probability distribution over all the classes
+that minimizes:
+
+(5)
+
+where denotes the KL divergence, and denote the
+probability distribution of a specialist model or the generalist full
+model.

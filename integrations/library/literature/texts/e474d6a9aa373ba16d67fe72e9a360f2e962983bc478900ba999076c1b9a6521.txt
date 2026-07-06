@@ -1,0 +1,17 @@
+Communications of the ACM, 52(4):65–76,
+2009. Wolf and Lam [1991]
+
+Michael E Wolf and Monica S Lam. A data locality optimizing algorithm. In Proceedings of the ACM SIGPLAN 1991 conference on
+Programming language design and implementation, pages 30–44, 1991. Wolf et al. [2020]
+
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe
+Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien
+Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+and Alexander M. Rush. Transformers: State-of-the-art natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing: System Demonstrations, pages 38–45, Online,
+October 2020. Association for Computational Linguistics. URL https://www.aclweb.org/anthology/2020.emnlp-demos.6. Woodruff [2004]
+
+David P Woodruff. Optimal space lower bounds for all frequency moments. In SODA, volume 4, pages 167–175. Citeseer, 2004. Wu et al. [2019]
+
+Felix Wu, Angela Fan, Alexei Baevski, Yann N Dauphin, and Michael Auli.

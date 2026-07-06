@@ -1,0 +1,9 @@
+The positive examples are (question, sentence) pairs which do contain the correct answer, and the negative examples are (question, sentence) from the same paragraph which do not contain the answer. SST-2
+
+The Stanford Sentiment Treebank is a binary single-sentence classification task consisting of sentences extracted from movie reviews with human annotations of their sentiment Socher et al. (2013). CoLA
+
+The Corpus of Linguistic Acceptability is a binary single-sentence classification task, where the goal is to predict whether an English sentence is linguistically “acceptable” or not Warstadt et al. (2018). STS-B
+
+The Semantic Textual Similarity Benchmark is a collection of sentence pairs drawn from news headlines and other sources Cer et al. (2017). They were annotated with a score from 1 to 5 denoting how similar the two sentences are in terms of semantic meaning. MRPC
+
+Microsoft Research Paraphrase Corpus consists of sentence pairs automatically extracted from online news sources, with human annotations for whether the sentences in the pair are semantically equivalent Dolan and Brockett (2005).

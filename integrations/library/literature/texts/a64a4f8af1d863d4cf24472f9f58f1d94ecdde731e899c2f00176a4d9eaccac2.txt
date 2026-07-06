@@ -1,0 +1,1 @@
+We download the data in bulk from 212121http://www.statmt.org/europarl/. We remove all basic tag information and only retain the name of each document as a title. For example, <SPEAKER ID=77 LANGUAGE="NL" NAME="Pronk"> becomes Pronk, and then extract the body of each document, discarding those that are shorter than 200 characters.

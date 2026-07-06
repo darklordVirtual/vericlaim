@@ -1,0 +1,97 @@
+Table 5: Long Document performance (micro ) at different sequence lengths using FlashAttention. 512
+1024
+2048
+4096
+8192
+16384
+
+MIMIC-III [47]
+
+52.8
+
+50.7
+
+51.7
+
+54.6
+
+56.4
+
+57.1
+
+ECtHR [6]
+
+72.2
+
+74.3
+
+77.1
+
+78.6
+
+80.7
+
+79.2
+
+Table 6: We report the first Transformer model that can achieve non-random performance on Path-X and Path-256. Model
+
+Path-X
+
+Path-256
+
+Transformer
+
+✗
+
+✗
+
+Linformer [84]
+
+✗
+
+✗
+
+Linear Attention [50]
+
+✗
+
+✗
+
+Performer [12]
+
+✗
+
+✗
+
+Local Attention [80]
+
+✗
+
+✗
+
+Reformer [51]
+
+✗
+
+✗
+
+SMYRF [19]
+
+✗
+
+✗
+
+FlashAttention
+
+61.4
+
+✗
+
+Block-sparse FlashAttention
+
+56.0
+
+63.1
+
+Path-X and Path-256. The Path-X and Path-256 benchmarks are challenging tasks from the long-range arena benchmark designed to test long context. The task is to classify whether two points in a black and white 128128 (or 256256) image have a path connecting them, and the images are fed to the transformer one pixel at a time. In prior work, all transformer models have either run out of memory, or only
+achieved random performance [80]. There has been a search for alternative architectures that can model such long context [37].

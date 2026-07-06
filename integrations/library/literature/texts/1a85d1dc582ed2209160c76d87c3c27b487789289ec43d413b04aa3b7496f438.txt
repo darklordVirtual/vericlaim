@@ -1,0 +1,25 @@
+This shows that soft targets are a very effective way of communicating the
+regularities discovered by a model trained on all of the data to another model. System & training set
+Train Frame Accuracy
+Test Frame Accuracy
+
+Baseline (100% of training set)
+
+63.4%
+
+58.9%
+
+Baseline (3% of training set)
+
+67.3%
+
+44.5%
+
+Soft Targets (3% of training set)
+
+65.4%
+
+57.0%
+
+Table 5: Soft targets allow a new model to generalize well from only 3% of the
+training set. The soft targets are obtained by training on the full training set.

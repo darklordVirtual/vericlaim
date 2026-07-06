@@ -1,0 +1,19 @@
+DYY+ [19]
+
+Zihang Dai, Zhilin Yang, Yiming Yang, Jaime G. Carbonell, Quoc V. Le, and
+Ruslan Salakhutdinov. Transformer-xl: Attentive language models beyond a fixed-length
+context. Arxiv, 2019. EOAG [18]
+
+Sergey Edunov, Myle Ott, Michael Auli, and David Grangier. Understanding back-translation at scale. arXiv preprint arXiv:1808.09381, 2018. FAL [17]
+
+Chelsea Finn, Pieter Abbeel, and Sergey Levine. Model-agnostic meta-learning for fast adaptation of deep networks. ArXiv, abs/1703.03400, 2017. Fyo [00]
+
+Yaroslav Fyodorov. A natural logic inference system, 2000. GG [19]
+
+Hila Gonen and Yoav Goldberg. Lipstick on a pig: Debiasing methods cover up systematic gender
+biases in word embeddings but do not remove them. arXiv preprint arXiv:1903.03862, 2019. GLT+ [20]
+
+Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. Realm: Retrieval-augmented language model pre-training. arXiv preprint arXiv:2002.08909, 2020. GMDD [07]
+
+Danilo Giampiccolo, Bernardo Magnini, Ido Dagan, and Bill Dolan. The third PASCAL recognizing textual entailment challenge. In Proceedings of the ACL-PASCAL workshop on textual entailment
+and paraphrasing, pages 1–9.

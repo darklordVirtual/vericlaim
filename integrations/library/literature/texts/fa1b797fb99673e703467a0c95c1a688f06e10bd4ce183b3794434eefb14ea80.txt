@@ -1,0 +1,83 @@
+Table 1: Summary of high-capacity MoE-augmented models with varying computational budgets, vs. best previously published results (Jozefowicz et al., 2016). Details in Appendix C. Test
+
+Test
+
+#Parameters
+
+ops/timestep
+
+Training
+
+TFLOPS
+
+Perplexity
+
+Perplexity
+
+excluding embedding
+
+Time
+
+/GPU
+
+10 epochs
+
+100 epochs
+
+and softmax layers
+
+10 epochs
+
+Best Published Results
+
+34.7
+
+30.6
+
+151 million
+
+151 million
+
+59 hours, 32 k40s
+
+1.09
+
+Low-Budget MoE Model
+
+34.1
+
+4303 million
+
+8.9 million
+
+15 hours, 16 k40s
+
+0.74
+
+Medium-Budget MoE Model
+
+31.3
+
+4313 million
+
+33.8 million
+
+17 hours, 32 k40s
+
+1.22
+
+High-Budget MoE Model
+
+28.0
+
+4371 million
+
+142.7 million
+
+47 hours, 32 k40s
+
+1.56
+
+Varied Computation, High Capacity:
+
+In addition to the largest model from the previous section, we trained two more MoE models with similarly high capacity (4 billion parameters), but higher computation budgets. These models had larger LSTMs, and fewer but larger and experts. Details can be found in Appendix C.2. Results of these three models form the bottom line of Figure 2-right. Table 1 compares the results of these models to the best previously-published result on this dataset .

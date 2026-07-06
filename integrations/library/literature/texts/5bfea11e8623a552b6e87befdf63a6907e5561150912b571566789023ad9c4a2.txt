@@ -1,0 +1,17 @@
+Amabile (1983)
+
+Teresa M. Amabile. 1983. A Theoretical
+Framework. In The Social Psychology of Creativity, pages 65–96. Springer New York, New York, NY. Bai et al. (2022a)
+
+Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma,
+Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, et al. 2022a. Training a helpful and
+harmless assistant with reinforcement learning from human feedback. ArXiv:2204.05862. Bai et al. (2022b)
+
+Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion,
+Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon,
+et al. 2022b. Constitutional ai: Harmlessness from ai feedback. arXiv preprint arXiv:2212.08073. Berger et al. (2022)
+
+Emery D Berger, Sam Stern, and Juan Altmayer Pizzorno. 2022. Triangulating Python Performance
+Issues with SCALENE. ArXiv preprint, abs/2212.07597. Brown et al. (2001)
+
+Lawrence D Brown, T Tony Cai, and Anirban DasGupta. 2001. Interval estimation for a binomial proportion. Statistical science, 16(2):101–133. Brown et al.

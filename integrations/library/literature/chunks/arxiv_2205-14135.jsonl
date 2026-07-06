@@ -1,0 +1,116 @@
+{"fsid": "arxiv_2205-14135", "n": 115, "overlap": 200, "source_sha256": "bb8866f8274c75cebf9c46de85394723140260b4976820fecd2fc20084f423e3", "target": 1200}
+{"section": "", "seq": 0, "sha256": "dfac0edd47d66b29f634e80f519e959b85082f573368de45079d793ed13838ca"}
+{"section": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness", "seq": 1, "sha256": "cc6051fd571703f4c999d3780a2414f52a8ff933036e85a758018dfef542ae30"}
+{"section": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness", "seq": 2, "sha256": "7e30b0a6e5c4e189f27c8b16514c3d369607bd749ee152d08910e0cb5d671c9d"}
+{"section": "1 Introduction", "seq": 3, "sha256": "a8d64c9c14ecd35a809489e53ec4a42cf154695617ad13bab024eb71911b0146"}
+{"section": "1 Introduction", "seq": 4, "sha256": "89da317d373fa14c73c3a367d8f59fd5f4c045b34556499479e4003813d3040a"}
+{"section": "1 Introduction", "seq": 5, "sha256": "73d10196000f0521bda5186d589b94f49c1256d670bc852aff34e5b08e9ae4d4"}
+{"section": "1 Introduction", "seq": 6, "sha256": "7181b821e40739a339d751090aaf780974c8930fd0f3fc4fd708fe97299156f2"}
+{"section": "1 Introduction", "seq": 7, "sha256": "2460a1c79f1b979d09ef80686d71038a54d94a431c8c3b9c8422301360c84880"}
+{"section": "1 Introduction", "seq": 8, "sha256": "4a7b2a43907de9e4aa76fc4daacb8573267eff61558b845a1932b7b8810f2221"}
+{"section": "1 Introduction", "seq": 9, "sha256": "900f98d4363b022b9bd4798c11e64aa0a11bee30255da3dd52787841d38720a8"}
+{"section": "1 Introduction", "seq": 10, "sha256": "559c9794e684fde52b39481e44d5e19812557b12ff6dbd16ac97a52c6ef995f4"}
+{"section": "2 Background", "seq": 11, "sha256": "4d553ff13ca928719a75ee9877749fefcddff3aa2ce2ad16f6256aa83a445d6d"}
+{"section": "2.1 Hardware Performance", "seq": 12, "sha256": "d4683d698e5f725d920d29e3aeebf36de02cc191fb5c71bbe49224966770a1b6"}
+{"section": "2.1 Hardware Performance", "seq": 13, "sha256": "3e605cb0cd6463002cb299ac1e3c3ceaa2adfa6135f7bb6161335e1c6bcaf33b"}
+{"section": "2.1 Hardware Performance", "seq": 14, "sha256": "b9e2670f3d419c7a677de4d05498dc4ac43e7bc3b389f56ecd38eb5be781f127"}
+{"section": "2.2 Standard Attention Implementation", "seq": 15, "sha256": "820edf81a543daa3e2f6adf618d42647b8e4fa2577b6908b2f6fa01167c6e2d6"}
+{"section": "2.2 Standard Attention Implementation", "seq": 16, "sha256": "6824426d3da52a291f7fd13a43121c75e69d437a3fe5d32a9382636a23ab10f1"}
+{"section": "3 FlashAttention: Algorithm, Analysis, and Extensions", "seq": 17, "sha256": "5cd6c2c12838ba071f699d31d8db28a12ab8a05fc2c793a78c87bed9a3f34b4a"}
+{"section": "3.1 An Efficient Attention Algorithm With Tiling and Recomputation", "seq": 18, "sha256": "546091876f31322283304e87d9edc823ff35d1472f9e7188104b2949f3ab596b"}
+{"section": "3.1 An Efficient Attention Algorithm With Tiling and Recomputation", "seq": 19, "sha256": "1a20ff0b702937f3bfb8854e2a3146825135f56f0e9ef8a49e53b391c7ff73ef"}
+{"section": "3.1 An Efficient Attention Algorithm With Tiling and Recomputation", "seq": 20, "sha256": "eeffa4666f09df90d5a9b2f0a7471fbe7bb97540c98a976c4543ac993ebf68ba"}
+{"section": "3.2 Analysis: IO Complexity of FlashAttention", "seq": 21, "sha256": "2fff38b396bb8ccf5d4bb6c0fb0adc4a3f8c68ba61ab770233a39d49864bce3a"}
+{"section": "3.2 Analysis: IO Complexity of FlashAttention", "seq": 22, "sha256": "d809490536638374a69f068357a59ac04cfe1f93b064ce86ebef74569d99b6b3"}
+{"section": "3.2 Analysis: IO Complexity of FlashAttention", "seq": 23, "sha256": "2d1111596ed032bebbd8687fcc7df14afe7cfacbc705f2f1718706599a1ae247"}
+{"section": "3.2 Analysis: IO Complexity of FlashAttention", "seq": 24, "sha256": "c008fe93acdc0d4a0e9faaabf38096c605ee5256998a57b5cec813c468ddf902"}
+{"section": "3.3 Extension: Block-Sparse FlashAttention", "seq": 25, "sha256": "bea718d02df974632e5bf697714f72f18d00863bef23b8e11c3a12b70f810337"}
+{"section": "3.3 Extension: Block-Sparse FlashAttention", "seq": 26, "sha256": "5da7ea686fd1e408e62238d992f2cb44c834ada889bf4ad482857cea41778f3c"}
+{"section": "4 Experiments", "seq": 27, "sha256": "b0284eb86158ab5f78d4d2004bf55ad48211efd21b7a90335a272e1a8dda4c42"}
+{"section": "4 Experiments", "seq": 28, "sha256": "f6d7f755d9cd9452dd96adf69107a27dbd591429dd546e9afa0c0a800a98d14d"}
+{"section": "4.1 Faster Models with FlashAttention", "seq": 29, "sha256": "31adf1ee4d73e3b00482600a5aa00cc1280d35698f36bb487a904edb8cd2a1d9"}
+{"section": "4.1 Faster Models with FlashAttention", "seq": 30, "sha256": "59a0eb4a4a486279602f366357c2fae955d991363f67e4957c6c7ad73738cf16"}
+{"section": "4.1 Faster Models with FlashAttention", "seq": 31, "sha256": "96b607f946171ec55a8112e1b45d654d8b2404fb3a1e44b77ea515c33cb56823"}
+{"section": "4.1 Faster Models with FlashAttention", "seq": 32, "sha256": "3d72d355c3692f6b5888357ce3cb56545825c77d08ae1de39354ca26004aebb2"}
+{"section": "4.2 Better Models with Longer Sequences", "seq": 33, "sha256": "0927ca9c976962fda58d3d291c244bdf745a22ab4c3ba85e28043e7b8fe82cfb"}
+{"section": "4.2 Better Models with Longer Sequences", "seq": 34, "sha256": "9c80661b50c7e405c8c98984edf061cc46e392e2b297395bd8e609bf0dd53f22"}
+{"section": "4.2 Better Models with Longer Sequences", "seq": 35, "sha256": "305add8343faca20c47964e3ba6ecd1c027fbb4d6275d6610591660cb19591aa"}
+{"section": "4.2 Better Models with Longer Sequences", "seq": 36, "sha256": "370adfda33738e6b18747a44f5050457c90461178c8cfeba9bded6f59fe35e1f"}
+{"section": "4.3 Benchmarking Attention", "seq": 37, "sha256": "b4b1024360956738a819b094ca17cd47b836fbf8b70968d4d147121fc80e368d"}
+{"section": "4.3 Benchmarking Attention", "seq": 38, "sha256": "1add69d65b6b37dbcf8769c77ee95eeebb99688e9ce6c10978f5bb8786b9365a"}
+{"section": "5 Limitations and Future Directions", "seq": 39, "sha256": "38f93f8c7207f9265599016aeb13d333df21487147ae409edab226809a062cb1"}
+{"section": "5 Limitations and Future Directions", "seq": 40, "sha256": "93e4735c8309ea2828644fc0b6aa6fac580fd629eea8fd603d57f926454d3175"}
+{"section": "5 Limitations and Future Directions", "seq": 41, "sha256": "22644be0a3fce06a701d218af4fe088f7bb3140146d2d0d534a2e32cb6fed661"}
+{"section": "5 Limitations and Future Directions", "seq": 42, "sha256": "47b6a09285cae8d0217700e0815b70290e7c704c9c45a0d10616bae760108c69"}
+{"section": "References", "seq": 43, "sha256": "4920437e87d71f9b375b71e6556d1d5f2d76f822df5ecc6ec3b94451e70473bc"}
+{"section": "References", "seq": 44, "sha256": "c109ee639e133ca3dffd99ad80a457c0e27480f3bb840d7508072b303de76ef2"}
+{"section": "References", "seq": 45, "sha256": "00871935371d6915e0af183eca18bb741cc738bc5c9efe43aa8f1a7e5a6bb1ef"}
+{"section": "References", "seq": 46, "sha256": "7bf4406213147a4a65b422974d7d006e19badfc17efc9110584f2146d3f5f23e"}
+{"section": "References", "seq": 47, "sha256": "b1f795894012d422fb1b8a7ecb8829c1838ea8766606e5ae3888f0d46f3efecd"}
+{"section": "References", "seq": 48, "sha256": "ee8eaba9ee9a967c860e1e9f397248443fe02296f9e5ba02041b5475e290d071"}
+{"section": "References", "seq": 49, "sha256": "800b35b077dcdef47c09f28706dc2c119333083dde68782caf03a14a4a76f0ae"}
+{"section": "References", "seq": 50, "sha256": "d08e6a24c051f6659f85b2edc9c1ae6561b0bf2171c246ca00ef2821d1ea1dc0"}
+{"section": "References", "seq": 51, "sha256": "64abc8571e9fa3b52b9cd191a5a28e21eec4fa7add74cbd24a4d153b1291f246"}
+{"section": "References", "seq": 52, "sha256": "daf8eaca6a461fe8a36269ff10f9f37bd2ba88008ad61457b58c84169a641b03"}
+{"section": "References", "seq": 53, "sha256": "c5e06d60540d0d04267977e17ac2e413305d71e0fc4b60945da1d3fedb33bcb6"}
+{"section": "References", "seq": 54, "sha256": "042ef1be41558e0777f505fc9b36550a4a38daef7e5cfc0a2ed5a1a01918ad34"}
+{"section": "References", "seq": 55, "sha256": "efa625e71509ffa432242a800138dad2883f49cceb2c1cb480fac6673fda2d60"}
+{"section": "References", "seq": 56, "sha256": "8ebcc00b3eb6dbf1e2697ae3d8cbfa04475b2c811b7733d0c1694858761c2a0d"}
+{"section": "References", "seq": 57, "sha256": "6639c4c297bcd76748f7a42dbe25a976c7c329a931f7c8c8aaa2b467d11a7af7"}
+{"section": "References", "seq": 58, "sha256": "b8d6bcd2730a3abbf8b30a0205733cbfa5a0e473cdb8bc4295a64e4a315ec172"}
+{"section": "References", "seq": 59, "sha256": "b8f76da7887c8644ef640b23d1e9a1e6df4c2e7f93ee1379dd53d25158d3f1bc"}
+{"section": "References", "seq": 60, "sha256": "b2890cbba88227038e3ba892554b9909f383b0d964aa93ad8036ce2bb251031c"}
+{"section": "References", "seq": 61, "sha256": "e474d6a9aa373ba16d67fe72e9a360f2e962983bc478900ba999076c1b9a6521"}
+{"section": "References", "seq": 62, "sha256": "d337e8a9686af12b1d5ee498c40775a516c2c725dfa41f589b3228becb7ee7fe"}
+{"section": "References", "seq": 63, "sha256": "faa8ab2eec7d5616c6c074c2a9fa7cb444e950ce68606f3165fd5518f1995d30"}
+{"section": "Appendix A Related Work", "seq": 64, "sha256": "dc11d8158b77e159212fd887522dd4f4a821c29bf0d3a3f4b8d68ddaf2b80e1b"}
+{"section": "Appendix A Related Work", "seq": 65, "sha256": "9596497c10c865651c93016b2f756ba015e5bcb088a5b7c04526624a95092fdb"}
+{"section": "Appendix A Related Work", "seq": 66, "sha256": "828759283ff02093062e9f2f56cb03a2f7567de974dd528b1337888d3d1ccd4e"}
+{"section": "Appendix A Related Work", "seq": 67, "sha256": "f3e00a9f14da43af04ac2076bc7386597c0fbfca95cc66276933f44e8e4ce603"}
+{"section": "Appendix A Related Work", "seq": 68, "sha256": "727748a4d058ef2429ffd48d7ff57f513f959e4800743a0930e7ccda839d2096"}
+{"section": "Appendix B Algorithm Details", "seq": 69, "sha256": "b633944826f64c270c165079e62bd2ab761d00957c5f0130b3696109684d0b9c"}
+{"section": "B.1 Memory-efficient forward pass", "seq": 70, "sha256": "fe30c08817ebcdc342f57c149f73fa480d66a8c8dd1572ed1ab91890a1eae446"}
+{"section": "B.2 Memory-efficient backward pass", "seq": 71, "sha256": "906b17b19dd0a9b6032c3586bfff162c9a250fc705cff4db73b2b61bba2bc1d9"}
+{"section": "B.2 Memory-efficient backward pass", "seq": 72, "sha256": "1ffec854a60754ed32a8679c2aace04fe4ecb13146ae6c82d8e8812b6dcc2194"}
+{"section": "B.3 FlashAttention: Forward Pass", "seq": 73, "sha256": "60c295dcd9caeed8031c276ce8d3a626cbd9f9598864ba9dad01eab6b66d7379"}
+{"section": "B.3 FlashAttention: Forward Pass", "seq": 74, "sha256": "5c40674430188d0a34f16f082d437ca5ea9734a74242ae14302dac0dbc55044f"}
+{"section": "B.4 FlashAttention: Backward Pass", "seq": 75, "sha256": "b185489541f94b48217cfc8c4dcc54b7d161e78c6f7d1e825256bb73fefa5231"}
+{"section": "B.4 FlashAttention: Backward Pass", "seq": 76, "sha256": "d1ec5bccc585ebfc2362d85e0bd4f9f6affd80c7efd60225465cd004e40ef5c8"}
+{"section": "B.4 FlashAttention: Backward Pass", "seq": 77, "sha256": "9d9e18e5078de9e73f5257a8bcb744db3b079cb5524bb9ebd225fa6620628e8e"}
+{"section": "B.5 Comparison with Rabe and Staats [66]", "seq": 78, "sha256": "850955dfd78d8b69741e13c68c5d944d8d3ac9bd36d4c4f6af201c4e75e40ec0"}
+{"section": "B.5 Comparison with Rabe and Staats [66]", "seq": 79, "sha256": "c02c915a994d7723409951fe83d2d05ae5ef5cf4632e5d8366bb439cdc2872ec"}
+{"section": "B.5 Comparison with Rabe and Staats [66]", "seq": 80, "sha256": "881e43e73fd83de41845945027acabb804477df3ab82f84196cd9b71e230f9bc"}
+{"section": "Appendix C Proofs", "seq": 81, "sha256": "d6240e4633b5d2b4f42a2397ade1f44ccdf4c54cbb96100c1664ee1417679a43"}
+{"section": "Appendix C Proofs", "seq": 82, "sha256": "34751cbaf965baa7ef8e454d45b9cdb1128fb8aa0baec2aa19e1a2e8ef69bc18"}
+{"section": "Appendix C Proofs", "seq": 83, "sha256": "aa2af1f203d87b1e3fe51e5057badeb6a581d90eb7b776cd3d708d4bc8d50ec4"}
+{"section": "Appendix C Proofs", "seq": 84, "sha256": "39ae7129903a953ba50b776d68bcaa95ce8779a4a6e4a2d4c0979206beafcea6"}
+{"section": "Appendix C Proofs", "seq": 85, "sha256": "6bd020b2c71bd58e1b193b296748d8905ffe5cac310dc190076a819a5532b6d2"}
+{"section": "D.1 Block-sparse FlashAttention", "seq": 86, "sha256": "3e65d126acfcd29db1031faa7c70b825c3824e206d333eea6ce4e181fa025af9"}
+{"section": "D.1 Block-sparse FlashAttention", "seq": 87, "sha256": "3635e550f40a863fb379b5915b0a48260372c4e4cd022d0d4b1451485a1305e5"}
+{"section": "D.2 Potential Extensions", "seq": 88, "sha256": "cc20a24ffe627f6367091ecaece0d0dbfef40d8479290c5e91cf0cbf41516e06"}
+{"section": "D.2 Potential Extensions", "seq": 89, "sha256": "719f2a002a0d2b2ccfe6c0ca2477dc8ef3953c82e52525594c9acd0443595efc"}
+{"section": "E.1 BERT", "seq": 90, "sha256": "adf0645c97699f3832a0fdf49ff02d23b17b18767b9850ab3d80f247830bdada"}
+{"section": "E.2 GPT-2", "seq": 91, "sha256": "80bea89fbe2fcb22b55fcb0f0f598432abc7a6fed8e396b4a8d3a80877432c90"}
+{"section": "E.2 GPT-2", "seq": 92, "sha256": "0ac4b0b8ab6b572e7089b743b5d8d8740588a77cc622cf32893d06c6f0be68b1"}
+{"section": "E.3 LRA details", "seq": 93, "sha256": "9aa4295c20b6199e8fe56a73e7524c36e4f8293c845766df817d0d4ceb5d10eb"}
+{"section": "E.3 LRA details", "seq": 94, "sha256": "ddabcfc42ee59647632702fda0aa5616d65720db60e6435f272ae9b2fdacd96e"}
+{"section": "E.4 Comparison with Apex FMHA", "seq": 95, "sha256": "63907967e1447c1034ed32ab1958e21fa07d00eb208cfa90bab782599453c10c"}
+{"section": "E.4 Comparison with Apex FMHA", "seq": 96, "sha256": "ae14eb111fa580192ba90938bc0e0c4826ba61c0b05f3f7c4c19b928d8dd5d1a"}
+{"section": "E.5 Speedup On Different Hardware and Configurations", "seq": 97, "sha256": "9dd5149ae088d899756d6b3bc00ca503fe4a53ea58316a4601248c3fff3e6457"}
+{"section": "E.5 Speedup On Different Hardware and Configurations", "seq": 98, "sha256": "10938b79006fe878d6ef6af07b22f864ec702a25a2d2a663e769aa1dc27fa41f"}
+{"section": "E.6 Full Benchmarking Results", "seq": 99, "sha256": "021a33dff3546f4d75c5f429daf4b7240e3df66e2f019152bb1a5cff0eadde2e"}
+{"section": "E.6 Full Benchmarking Results", "seq": 100, "sha256": "edc260e45e2d3727adad0ade6b932e80c89e1c90d7c414f90222120dd6103d83"}
+{"section": "E.6 Full Benchmarking Results", "seq": 101, "sha256": "165d48957ade589d5621dc2421403278d39f0dcdaf926e48b523a319ac0184af"}
+{"section": "E.6 Full Benchmarking Results", "seq": 102, "sha256": "a747c62315efd8718f4b90aa71228de456430d54964f75bc7659f4b2032c0c53"}
+{"section": "E.6 Full Benchmarking Results", "seq": 103, "sha256": "d0eace909e5408089927938a6034cd08637df5af88ba363221553e7961c4f3c2"}
+{"section": "E.6 Full Benchmarking Results", "seq": 104, "sha256": "7a7f1e6144ccaac1ea92ef410a97a93ea1e0fe93c8deb8f57d3e8fe5bb3aaf76"}
+{"section": "E.6 Full Benchmarking Results", "seq": 105, "sha256": "63514177a4791121c7e20c05372fe29b8990ddf860705367261be501750cfc20"}
+{"section": "E.6 Full Benchmarking Results", "seq": 106, "sha256": "08fd258bec2b12b1d0c88703e60710422f9c69b543e27aea15022cb6d5a52812"}
+{"section": "E.6 Full Benchmarking Results", "seq": 107, "sha256": "4f2d9846037f6b7315311fcb2aa39acba19a7b858fc8e77a7f40d61eea725213"}
+{"section": "E.6 Full Benchmarking Results", "seq": 108, "sha256": "c5a6f9d1e12c3d96c65cbd601db7560596de5eee63c34df30833498e8993fd28"}
+{"section": "E.6 Full Benchmarking Results", "seq": 109, "sha256": "c5266c5a9487ad9614a411eb426643baf2f33990a17d062b67c6c02b6eeb4611"}
+{"section": "E.6 Full Benchmarking Results", "seq": 110, "sha256": "3d8f7e8d62ceaf86140f2cab00bc8ef9e699fc8317e2fa65beec4850544c6574"}
+{"section": "E.6 Full Benchmarking Results", "seq": 111, "sha256": "cfb220620fc016f8e7913af750cff1fc861cc187a0b09b01b5ad2dce816466ae"}
+{"section": "E.6 Full Benchmarking Results", "seq": 112, "sha256": "2000dd47dc3d710b9f7c5effa893933fe137f18e48cea86ac047d3824eb9934e"}
+{"section": "E.6 Full Benchmarking Results", "seq": 113, "sha256": "4f8cbcda143269c652fb376c52dd003c20cc278248f9280cae683dd7613ca2e7"}
+{"section": "E.6 Full Benchmarking Results", "seq": 114, "sha256": "18cbf1433247d26c25921dfc3f7cf67895c9ef9a92b9f86885ab78850c5c1490"}

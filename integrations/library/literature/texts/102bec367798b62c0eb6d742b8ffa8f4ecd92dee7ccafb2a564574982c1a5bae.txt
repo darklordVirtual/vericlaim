@@ -1,0 +1,33 @@
+Additionally, we found that the consistency (in terms of % of decodes agreeing with the final aggregated answer) is highly correlated with accuracy (Figure 8, over GSM8K). This suggests that one can use self-consistency to provide an uncertainty estimate of the model in its generated solutions. In other words, one can use low consistency as an indicator that the model has low confidence; i.e., self-consistency confers some ability for the model to “know when it doesn’t know”. LaMDA-137B
+
+Prompt with correct chain-of-thought
+
+17.1
+
+Prompt with imperfect chain-of-thought
+
+14.9
+
++ Self-consistency (40 paths)
+
+23.4
+
+Prompt with equations
+
+5.0
+
++ Self-consistency (40 paths)
+
+6.5
+
+PaLM-540B
+
+Zero-shot CoT (Kojima et al., 2022)
+
+43.0
+
++ Self-consistency (40 paths)
+
+69.2
+
+Table 8: Self-consistency works under imperfect prompts, equation prompts and zero-shot chain-of-thought for GSM8K. Figure 5: The consistency is correlated with model’s accuracy.

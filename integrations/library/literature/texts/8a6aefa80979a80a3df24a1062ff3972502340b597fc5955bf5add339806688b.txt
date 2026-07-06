@@ -1,0 +1,5 @@
+⬇
+
+|\textbf{Can you solve the following math problem? Christina is planning a birthday party and needs .75 gift bags per invited guest, because 1/4 of attendees don’t show up. She invited 16 friends. Gift bags are \$2 each. How much will she spend? Explain your reasoning. Your final answer should be a single numerical number, in the form $\backslash$boxed\{answer\}, at the end of your response.}|
+
+\parIf Christina invited 16 friends, then 1/4 of them won’t show up, which means there will be 16 * 1/4 = 4 friends who won’t attend the party. To determine how many gift bags to buy, we need to subtract the number of friends who won’t show up from the total number of invited guests. The number of invited guests is 16 - 4 = 12. Since Christina needs 0.75 gift bags per invited guest, we can multiply this quantity by the number of invited guests to find the total number of gift bags needed, which is 0.75 * 12 = 9 gift bags. If each gift bag is $2, then Christina will spend a total of 2 * 9 = $<<2*9=18>>18 on gift bags. Therefore, Christina will spend $18 on gift bags. Answer: \boxed{18}.

@@ -1,0 +1,11 @@
+Given the inputs in HBM, we aim to compute the attention output and write it to HBM. Our goal is to reduce the amount of HBM accesses (to sub-quadratic in ). We apply two established techniques (tiling, recomputation) to overcome the
+technical challenge of computing exact attention in sub-quadratic HBM accesses. We describe this in Algorithm 1. The main idea is that we split the inputs into blocks,
+load them from slow HBM to fast SRAM, then compute the attention output with
+respect to those blocks. By scaling the output of each block by the right normalization factor before
+adding them up, we get the correct result at the end. Tiling. We compute attention by blocks. Softmax couples columns of ,
+so we decompose the large softmax
+with scaling [60, 51, 66]. For numerical stability, the softmax of vector is computed as:
+
+For vectors , we can decompose the softmax of the concatenated as:
+
+Therefore if we keep track of some extra statistics (), we can compute softmax one block at a time.222This style of aggregation is called algebraic aggregation [33].

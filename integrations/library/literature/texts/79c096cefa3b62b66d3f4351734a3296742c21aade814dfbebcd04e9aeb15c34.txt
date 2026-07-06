@@ -1,0 +1,19 @@
+Rush. 2020. Transformers: State-of-the-art natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing: System Demonstrations, pages 38–45, Online. Association for Computational Linguistics. Wulczyn et al. (2016)
+
+Ellery Wulczyn, Nithum Thain, and Lucas Dixon. 2016. Wikipedia
+detox. Yudkowsky (2013)
+
+Eliezer Yudkowsky. 2013. Intelligence explosion microeconomics. Machine Intelligence Research Institute, accessed online
+October, 23:2015. Zellers et al. (2019)
+
+Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi,
+Franziska Roesner, and Yejin Choi. 2019. Defending against neural fake news. In H. Wallach, H. Larochelle, A. Beygelzimer, F. dÁlché-Buc,
+E. Fox, and R. Garnett, editors, Advances in Neural Information
+Processing Systems 32, pages 9054–9065. Curran Associates, Inc. Zhou (2019)
+
+Victor Zhou. 2019. Building a better profanity detection library with scikit-learn. Zhu et al. (2015)
+
+Yukun Zhu, Ryan Kiros, Rich Zemel, Ruslan Salakhutdinov, Raquel Urtasun,
+Antonio Torralba, and Sanja Fidler. 2015. Aligning books and movies: Towards story-like visual explanations by
+watching movies and reading books.

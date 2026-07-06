@@ -1,0 +1,7 @@
+Center: Beam search samples N candidates at each step, and selects the top M according to the PRM to continue the search from. Right: lookahead-search extends each step in beam-search to utilize a k-step lookahead while assessing which steps to retain and continue the search from. Thus lookahead-search needs more compute. We optimize the PRM at test time via search methods. We study three search approaches that sample outputs from a few-shot prompted base LLM (see Appendix G). An illustration is shown in Figure 2. Best-of-N weighted. We sample N answers independently from the base LLM and then select the best answer according to the PRM’s final answer judgement. Beam search. Beam search optimizes the PRM by searching over its per-step predictions. Our implementation is similar to BFS-V [48, 10]. Concretely, we consider a fixed number of beams and a beam width . We then run the following steps:
+
+1. sample initial predictions for the first step in the solution
+
+2. score the generated steps according to the PRM’s predicted step-wise reward-to-go estimate (which also corresponds to the total reward from the prefix since the reward is sparse in this setting)
+
+3.

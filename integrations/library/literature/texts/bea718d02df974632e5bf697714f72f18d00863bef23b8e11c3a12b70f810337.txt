@@ -1,0 +1,21 @@
+We extend FlashAttention to approximate attention:
+we propose block-sparse FlashAttention, whose IO
+complexity is smaller than FlashAttention by a factor proportional to the
+sparsity. Given inputs and a mask matrix
+, we want to compute:
+
+where if
+and if . We require to have block form: for some block sizes ,
+for all , with
+for some . Given a predefined block sparsity mask we can
+easily adapt Algorithm 1 to only compute the nonzero blocks of the
+attention matrix. The algorithm is identical to Algorithm 1, except we skip zero
+blocks. We reproduce the algorithm description in Algorithm 5 in
+Appendix B. We also analyze the IO complexity of block-sparse FlashAttention. Proposition 4. Let be the sequence length, be the head dimension, and be size of
+SRAM with . Block-sparse FlashAttention (Algorithm 5) requires
+HBM accesses where is the
+fraction of nonzero blocks in the block-sparsity mask. We see that applying block-sparsity yields a direct improvement by the sparsity to the larger term in the IO
+complexity. For large sequence lengths , is often set to
+[11] or
+[92, 3, 17], resulting in or
+IO complexity.

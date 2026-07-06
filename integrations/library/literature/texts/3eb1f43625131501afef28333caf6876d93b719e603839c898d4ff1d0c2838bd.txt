@@ -1,0 +1,9 @@
+Large batch optimization for deep learning: Training bert in 76
+minutes. arXiv:1904.00962, 2019. Zellers et al. (2019)
+
+Zellers, R., Holtzman, A., Rashkin, H., Bisk, Y., Farhadi, A., Roesner, F., and
+Choi, Y. Defending against neural fake news. CoRR, abs/1905.12616, 2019. URL http://arxiv.org/abs/1905.12616. Zhu et al. (2015)
+
+Zhu, Y., Kiros, R., Zemel, R. S., Salakhutdinov, R., Urtasun, R., Torralba, A.,
+and Fidler, S. Aligning books and movies: Towards story-like visual explanations by
+watching movies and reading books. CoRR, abs/1506.06724, 2015.

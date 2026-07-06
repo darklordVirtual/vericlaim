@@ -1,0 +1,83 @@
+In Section 3.1, we mention that BERT uses a mixed strategy for masking the target tokens when pre-training with the masked language
+model (MLM) objective. The following is an ablation study to evaluate the effect of different masking strategies. Note that the purpose of the masking strategies is to reduce the mismatch
+between pre-training and fine-tuning, as the [MASK] symbol never appears during the fine-tuning stage. We report the Dev results for both
+MNLI and NER. For NER, we report both fine-tuning and feature-based approaches,
+as we expect the mismatch will be amplified for the feature-based approach as
+the model will not have the chance to adjust the representations. Masking Rates
+Dev Set Results
+
+Mask
+Same
+Rnd
+
+MNLI
+
+NER
+
+Fine-tune
+
+Fine-tune
+
+Feature-based
+
+80%
+10%
+10%
+
+84.2
+
+95.4
+
+94.9
+
+100%
+0%
+0%
+
+84.3
+
+94.9
+
+94.0
+
+80%
+0%
+20%
+
+84.1
+
+95.2
+
+94.6
+
+80%
+20%
+0%
+
+84.4
+
+95.2
+
+94.7
+
+0%
+20%
+80%
+
+83.7
+
+94.8
+
+94.6
+
+0%
+0%
+100%
+
+83.6
+
+94.9
+
+94.6
+
+Table 8: Ablation over different masking strategies. The results are presented in Table 8.

@@ -1,0 +1,17 @@
+Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016. Kingma & Ba (2015)
+
+Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015. Kneser & Ney (1995)
+
+Reinhard Kneser and Hermann. Ney. Improved backingoff for m-gram language modeling., 1995. Krizhevsky et al. (2012)
+
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton. Imagenet classification with deep convolutional neural networks. In NIPS, 2012. Le et al. (2012)
+
+Quoc V. Le, Marc’Aurelio Ranzato, Rajat Monga, Matthieu Devin, Kai Chen,
+Greg S. Corrado, Jeffrey Dean, and Andrew Y. Ng. Building high-level features using large scale unsupervised learning. In ICML, 2012. Ludovic Denoyer (2014)
+
+Patrick Gallinari Ludovic Denoyer. Deep sequential neural network. arXiv preprint arXiv:1410.0510, 2014. Luong et al. (2015a)
+
+Minh-Thang Luong, Hieu Pham, and Christopher D. Manning. Effective approaches to attention-based neural machine translation. EMNLP, 2015a. Luong et al. (2015b)
+
+Minh-Thang Luong, Ilya Sutskever, Quoc V. Le, Oriol Vinyals, and Wojciech
+Zaremba. Addressing the rare word problem in neural machine translation. ACL, 2015b.

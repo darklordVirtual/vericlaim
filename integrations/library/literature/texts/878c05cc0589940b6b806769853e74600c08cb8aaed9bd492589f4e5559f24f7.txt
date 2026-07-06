@@ -1,0 +1,31 @@
+ExPorter
+
+23.2
+
+17.7
+
+15.5
+
+14.2
+
+Enron Emails
+
+22.0
+
+15.4
+
+18.6
+
+18.1
+
+the Pile
+
+18.4
+
+13.3
+
+13.1
+
+12.0
+
+Table 9: Full Test Perplexity of the Pile using GPT-2. Figure 11: Test loss (log perplexity) over the Pile, bucketed by position in the input sequence based on the model’s maximum sequence length. To smooth out the lines, we bucket 4 positions per plotted datapoint. (e.g. positions 0–3, positions 2044–2047). Later tokens are predicted with more context and thus see lower perplexities.

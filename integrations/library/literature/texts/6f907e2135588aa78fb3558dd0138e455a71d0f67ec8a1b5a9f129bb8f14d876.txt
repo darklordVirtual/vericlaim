@@ -1,0 +1,21 @@
+We will release the synthetic datasets with the hope of stimulating further study of test-time behavior of language models. 3.9.1 Arithmetic
+
+To test GPT-3’s ability to perform simple arithmetic operations without task-specific training, we developed a small battery of 10 tests that involve asking GPT-3 a simple arithmetic problem in natural language:
+
+•
+
+2 digit addition (2D+) – The model is asked to add two integers sampled uniformly from , phrased in the form of a question, e.g. “Q: What is 48 plus 76? A: 124.”
+
+•
+
+2 digit subtraction (2D-) – The model is asked to subtract two integers sampled uniformly from ; the answer may be negative. Example: “Q: What is 34 minus 53? A: -19”. •
+
+3 digit addition (3D+) – Same as 2 digit addition, except numbers are uniformly sampled from . •
+
+3 digit subtraction (3D-) – Same as 2 digit subtraction, except numbers are uniformly sampled from . •
+
+4 digit addition (4D+) – Same as 3 digit addition, except uniformly sampled from . •
+
+4 digit subtraction (4D-) – Same as 3 digit subtraction, except uniformly sampled from . •
+
+5 digit addition (5D+) – Same as 3 digit addition, except uniformly sampled from .

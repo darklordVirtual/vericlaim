@@ -1,0 +1,5 @@
+Crucially, we exclude model responses and retain only the winner identities in training. The resulting dataset is defined as . 4.1.1 Data Augmentation
+
+Despite classifying models into tiers, the human preference signal remains sparse across different model classes. As discussed in Sec 5.1, this sparsity can limit generalization, particularly for parameter-heavy router models. To address this, we explore two data augmentation methods:
+
+Golden-labeled datasets: We augment our training data with labeled datasets of the form , where a golden label is the known correct answer, e.g. in multiple-choice questions. Specifically, we use the validation split of the MMLU multiple choice benchmark (Hendrycks et al., 2020) containing approximately 1500 questions and derive comparison labels simply by comparing the responses from and to the golden label. LLM-judge-labeled datasets: We explore obtaining preference labels on open-ended purpose chat domains using a LLM judge (Zheng et al., 2023), as it has demonstrated a high correlation with human judgment (Dubois et al., 2024; Jiang et al., 2023).

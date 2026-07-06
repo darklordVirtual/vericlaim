@@ -1,0 +1,5 @@
+Advances in Neural Information Processing Systems,
+35:15476–15488, 2022. Ziegler et al. (2019)
+
+D. M. Ziegler, N. Stiennon, J. Wu, T. B. Brown, A. Radford, D. Amodei,
+P. Christiano, and G. Irving. Fine-tuning language models from human preferences. arXiv preprint arXiv:1909.08593, 2019.

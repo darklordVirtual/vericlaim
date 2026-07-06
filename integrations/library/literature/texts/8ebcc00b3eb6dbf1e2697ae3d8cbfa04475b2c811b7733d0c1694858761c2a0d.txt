@@ -1,0 +1,20 @@
+Mlperf training benchmark. Proceedings of Machine Learning and Systems, 2:336–349, 2020. McSherry et al. [2015]
+
+Frank McSherry, Michael Isard, and Derek G Murray. Scalability! but at what COST? In 15th Workshop on Hot Topics in Operating Systems (HotOS
+XV), 2015. Milakov and Gimelshein [2018]
+
+Maxim Milakov and Natalia Gimelshein. Online normalizer calculation for softmax. arXiv preprint arXiv:1805.02867, 2018. NVIDIA [2017]
+
+NVIDIA. Nvidia Tesla V100 GPU architecture, 2017. NVIDIA [2020]
+
+NVIDIA. Nvidia A100 tensor core GPU architecture, 2020. NVIDIA [2022]
+
+NVIDIA. Nvidia H100 tensor core GPU architecture, 2022. Parker [1995]
+
+D Stott Parker. Random butterfly transformations with applications in computational
+linear algebra. 1995. Paszke et al. [2019]
+
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory
+Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et al. Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems, 32, 2019. Rabe and Staats [2021]
+
+Markus N Rabe and Charles Staats. Self-attention does not need memory. arXiv preprint arXiv:2112.05682, 2021. Radford et al.

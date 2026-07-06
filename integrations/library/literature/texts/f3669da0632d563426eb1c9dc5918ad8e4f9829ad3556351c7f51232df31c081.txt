@@ -1,0 +1,27 @@
+We conducted more studies on the CIFAR-10 dataset [20], which consists of 50k training images and 10k testing images in 10 classes. We present experiments trained on the training set and evaluated on the test set. Our focus is on the behaviors of extremely deep networks, but not on pushing the state-of-the-art results, so we intentionally use simple architectures as follows. The plain/residual architectures follow the form in Fig. 3 (middle/right). The network inputs are 3232 images, with the per-pixel mean subtracted. The first layer is 33 convolutions. Then we use a stack of layers with 33 convolutions on the feature maps of sizes respectively, with 2 layers for each feature map size. The numbers of filters are respectively. The subsampling is performed by convolutions with a stride of 2. The network ends with a global average pooling, a 10-way fully-connected layer, and softmax. There are totally 6+2 stacked weighted layers. The following table summarizes the architecture:
+
+output map size
+
+3232
+
+1616
+
+88
+
+# layers
+
+1+2
+
+2
+
+2
+
+# filters
+
+16
+
+32
+
+64
+
+When shortcut connections are used, they are connected to the pairs of 33 layers (totally shortcuts).

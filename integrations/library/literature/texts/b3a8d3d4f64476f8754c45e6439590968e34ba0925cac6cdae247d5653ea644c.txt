@@ -1,0 +1,47 @@
+We experimented with Oracle Feedback following Welleck et al. (2022). This method uses correctness information to guide model refinement, only progressing to refine stage if the current answer is incorrect. This adjustment notably enhanced performance in the Math Reasoning task, with GPT-3 improving by 4.8% and GPT-4 by 0.7% Table 9. This indicates the potential of external signals to optimize model performance in particular tasks. GPT-3.5
+ChatGPT
+GPT-4
+
+Task
+Base
++
+Base
++
+Base
++
+
+Math Reasoning
+
+64.1
+
+64.1 (0)
+
+74.8
+
+75.0 (0.2)
+
+92.9
+
+93.1 (0.2)
+
+Math Reasoning (Oracle)
+
+64.06
+
+68.9 (4.8)
+
+74.8
+
+76.2 (1.4)
+
+92.9
+
+93.8 (0.7)
+
+Table 9: \oursresults on Math Reasoning using GPT-3.5, ChatGPT, and GPT-4 as base LLM with Oracle feedback. Iteration
+Acronym
+Pronunciation
+Pron. (5)
+Spell. (5)
+Rel. (5)
+Pos. Con.

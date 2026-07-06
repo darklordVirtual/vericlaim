@@ -1,0 +1,24 @@
+Tri Dao
+
+Department of Computer Science, Stanford University
+
+Daniel Y. Fu
+
+Department of Computer Science, Stanford University
+
+Stefano Ermon
+
+Department of Computer Science, Stanford University
+
+Atri Rudra
+
+Department of Computer Science and Engineering, University at Buffalo, SUNY
+
+Christopher Ré
+
+Department of Computer Science, Stanford University
+
+Abstract
+
+Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by
+trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware—accounting for reads and writes between levels of GPU memory. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes.

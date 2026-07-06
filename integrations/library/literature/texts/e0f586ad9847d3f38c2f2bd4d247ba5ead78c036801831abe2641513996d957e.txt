@@ -1,0 +1,16 @@
+2010. Recurrent neural network based language model. In Interspeech, pages 1045–1048. Makuhari. Nangia et al. (2020)
+
+Nikita Nangia, Clara Vania, Rasika Bhalerao, and Samuel R. Bowman. 2020. CrowS-pairs: A challenge dataset for measuring social biases in masked
+language models. In EMNLP 2020. Nijkamp et al. (2022)
+
+Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio
+Savarese, and Caiming Xiong. 2022. Codegen: An open large language model for code with multi-turn
+program synthesis. arXiv preprint arXiv:2203.13474. Ouyang et al. (2022)
+
+Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela
+Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Gray, John
+Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda
+Askell, Peter Welinder, Paul Christiano, Jan Leike, and Ryan Lowe. 2022. Training language
+models to follow instructions with human feedback. In Advances in Neural Information Processing Systems. Rabe and Staats (2021)
+
+Markus N Rabe and Charles Staats. 2021. Self-attention does not need memory. arXiv preprint arXiv:2112.05682. Radford et al.

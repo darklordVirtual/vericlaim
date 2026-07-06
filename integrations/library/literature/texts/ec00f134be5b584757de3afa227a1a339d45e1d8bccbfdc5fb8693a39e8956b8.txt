@@ -1,0 +1,7 @@
+We have run experiments for a variety of deep learning tasks covering a wide range of deep learning models. We conducted the following experiments for each application:
+
+•
+
+Baseline (FP32) : Single-precision storage is used for activations, weights and gradients. All arithmetic is also in FP32. •
+
+Mixed Precision (MP): FP16 is used for storage and arithmetic. Weights, activations and gradients are stored using in FP16, an FP32 master copy of weights is used for updates. Loss-scaling is used for some applications. Experiments with FP16 arithmetic used Tensor Core operations with accumulation into FP32 for convolutions, fully-connected layers, and matrix multiplies in recurrent layers. The Baseline experiments were conducted on NVIDIA’s Maxwell or Pascal GPU. Mixed Precision experiments were conducted on Volta V100 that accumulates FP16 products into FP32. The mixed precision speech recognition experiments (Section 4.3) were conducted using Maxwell GPUs using FP16 storage only. This setup allows us to emulate the TensorCore operations on non-Volta hardware.

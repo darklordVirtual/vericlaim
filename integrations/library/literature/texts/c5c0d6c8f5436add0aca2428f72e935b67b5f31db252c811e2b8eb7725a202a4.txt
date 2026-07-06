@@ -1,0 +1,19 @@
+Levy, M. Lewis,
+L. Zettlemoyer, and V. Stoyanov. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692, 2019. Longpre et al. [2023]
+
+S. Longpre, L. Hou, T. Vu, A. Webson, H. W. Chung, Y. Tay, D. Zhou, Q. V. Le,
+B. Zoph, J. Wei, et al. The flan collection: Designing data and methods for effective
+instruction tuning. arXiv preprint arXiv:2301.13688, 2023. Min et al. [2021]
+
+S. Min, M. Lewis, L. Zettlemoyer, and H. Hajishirzi. Metaicl: Learning to learn in context. arXiv preprint arXiv:2110.15943, 2021. Nematzadeh et al. [2018]
+
+A. Nematzadeh, K. Burns, E. Grant, A. Gopnik, and T. Griffiths. Evaluating theory of mind in question answering. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pages 2392–2400, 2018. OpenAI [2023]
+
+OpenAI. Gpt-4 technical report. arXiv, 2023. Ouyang et al. [2022]
+
+L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. Wainwright, P. Mishkin, C. Zhang,
+S. Agarwal, K. Slama, A. Ray, et al. Training language models to follow instructions with human feedback. Advances in Neural Information Processing Systems,
+35:27730–27744, 2022. Park et al. [2022]
+
+G. Park, B. Park, S. J. Kwon, B. Kim, Y.

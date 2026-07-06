@@ -1,0 +1,20 @@
+Combining independent modules to solve multiple-choice synonym and
+analogy problems. CoRR, cs.CL/0309035, 2003. Tur [20]
+
+Project Turing. Microsoft research blog, Feb 2020. VBL+ [16]
+
+Oriol Vinyals, Charles Blundell, Timothy Lillicrap, Daan Wierstra, et al. Matching Networks for One Shot Learning. In Advances in neural information processing systems, pages
+3630–3638, 2016. VSP+ [17]
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, 2017. WPN+ [19]
+
+Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael,
+Felix Hill, Omer Levy, and Samuel Bowman. Superglue: A stickier benchmark for general-purpose language
+understanding systems. In Advances in Neural Information Processing Systems, pages
+3261–3275, 2019. WXH+ [18]
+
+Yiren Wang, Yingce Xia, Tianyu He, Fei Tian, Tao Qin, ChengXiang Zhai, and
+Tie-Yan Liu. Multi-agent dual learning. ICLR 2019, 2018. XDH+ [19]
+
+Qizhe Xie, Zihang Dai, Eduard Hovy, Minh-Thang Luong, and Quoc V. Le. Unsupervised data augmentation for consistency training, 2019.

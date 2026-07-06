@@ -1,0 +1,90 @@
+We report the fraction of truthful and truthful*informative answers, as scored by specially trained models via the OpenAI API. We follow the QA prompt style used in Ouyang et al. (2022), and report the performance of GPT-3 from the same paper. GPU Type
+
+GPU Power
+
+GPU-hours
+
+Total power
+
+Carbon emitted
+
+consumption
+
+consumption
+
+(tCO2eq)
+
+OPT-175B
+
+A100-80GB
+
+400W
+
+809,472
+
+356 MWh
+
+137
+
+BLOOM-175B
+
+A100-80GB
+
+400W
+
+1,082,880
+
+475 MWh
+
+183
+
+LLaMA-7B
+
+A100-80GB
+
+400W
+
+82,432
+
+36 MWh
+
+14
+
+LLaMA-13B
+
+A100-80GB
+
+400W
+
+135,168
+
+59 MWh
+
+23
+
+LLaMA-33B
+
+A100-80GB
+
+400W
+
+530,432
+
+233 MWh
+
+90
+
+LLaMA-65B
+
+A100-80GB
+
+400W
+
+1,022,362
+
+449 MWh
+
+173
+
+Table 15:
+Carbon footprint of training different models in the same data center. We follow Wu et al. (2022) to compute carbon emission of training OPT, BLOOM and our models in the same data center. For the power consumption of a A100-80GB, we take the thermal design power for NVLink systems, that is 400W. We take a PUE of 1.1 and a carbon intensity factor set at the national US average of 0.385 kg CO2e per KWh.

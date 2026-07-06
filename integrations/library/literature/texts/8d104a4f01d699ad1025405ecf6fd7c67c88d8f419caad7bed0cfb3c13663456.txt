@@ -1,0 +1,75 @@
+For each passage, you must identify which noun the pronoun marked in *bold* refers to. =====
+
+Passage: Mr. Moncrieff visited Chester’s luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrieff has decided to cancel Edward’s allowance on the ground that he no longer requires *his* financial support. Question: In the passage above, what does the pronoun "*his*" refer to? Answer:
+
+Target Completion
+
+mr. moncrieff
+
+Figure G.33: Formatted dataset example for WSC
+
+Context
+
+Q: ‘Nude Descending A Staircase’ is perhaps the most famous painting by which 20th century artist? A:
+
+Target Completion
+
+MARCEL DUCHAMP
+
+Target Completion
+
+r mutt
+
+Target Completion
+
+duchamp
+
+Target Completion
+
+marcel duchamp
+
+Target Completion
+
+R.Mutt
+
+Target Completion
+
+Marcel duChamp
+
+Target Completion
+
+Henri-Robert-Marcel Duchamp
+
+Target Completion
+
+Marcel du Champ
+
+Target Completion
+
+henri robert marcel duchamp
+
+Target Completion
+
+Duchampian
+
+Target Completion
+
+Duchamp
+
+Target Completion
+
+duchampian
+
+Target Completion
+
+marcel du champ
+
+Target Completion
+
+Marcel Duchamp
+
+Target Completion
+
+MARCEL DUCHAMP
+
+Figure G.34: Formatted dataset example for TriviaQA.

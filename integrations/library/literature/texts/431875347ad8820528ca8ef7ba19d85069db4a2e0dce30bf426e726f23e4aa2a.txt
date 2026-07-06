@@ -1,0 +1,37 @@
+We use the Grade School Math 8k (GSM-8k) dataset (Cobbe et al., 2021) for evaluating \ourson math reasoning. In the context of grade school mathematics, \oursaims to enable LLMs to iteratively refine their mathematical problem-solving outputs based on introspective feedback. Following Gao et al. (2022), we write solutions to the reasoning problems in Python. Consider the following example from the paper, where an error in the code demonstrates a lack of understanding of the problem:
+
+⬇
+
+def solution():
+
+"""Twenty dozen cups cost $1200 less than the total cost of
+
+half a dozen plates sold at $6000 each. Calculate the total cost of buying each cup."""
+
+plates = 6
+
+plate_cost = 6000
+
+cups = 12 * 20
+
+cup_cost = plate_cost
+
+result = cup_cost
+
+return result
+
+By using \ours, we can identify the error in the code and refine the solution through an iterative process of introspection and feedback:
+
+⬇
+
+# Let’s go through the error and check step-by-step
+
+plates = 6
+
+plate_cost = 6000
+
+\par# Let’s check the other parts
+
+cups = 12 * 20
+
+cup_cost = plate_cost # wrong! The cost of a cup is not the same as the cost of a plate.

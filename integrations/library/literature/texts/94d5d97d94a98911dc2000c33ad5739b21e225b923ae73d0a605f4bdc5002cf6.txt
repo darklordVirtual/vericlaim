@@ -1,0 +1,6 @@
+Corpus consists of sentence pairs automatically extracted from online news sources, with human annotations for whether the sentences in the pair are semantically equivalent Dolan and Brockett (2005). RTE
+
+Recognizing Textual Entailment is a binary entailment task similar to MNLI, but with much less training data Bentivogli et al. (2009).151515Note that we only report single-task fine-tuning results in this paper. A multitask fine-tuning approach could potentially push
+the performance even further. For example, we did observe substantial improvements on RTE from multi-task training with MNLI. WNLI
+
+Winograd NLI is a small natural language inference dataset Levesque et al. (2011). The GLUE webpage notes that there are issues with the construction of this dataset, 161616https://gluebenchmark.com/faq and every trained system that’s been submitted to GLUE has performed worse than the 65.1 baseline accuracy of predicting the majority class. We therefore exclude this set to be fair to OpenAI GPT. For our GLUE submission, we always predicted the majority class.

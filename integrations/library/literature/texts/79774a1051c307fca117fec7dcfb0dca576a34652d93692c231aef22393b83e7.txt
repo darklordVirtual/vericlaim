@@ -1,0 +1,15 @@
+In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics. Association for Computational Linguistics,
+2020. Nye et al. (2021)
+
+Maxwell Nye, Michael Henry Tessler, Joshua B. Tenenbaum, and Brenden M. Lake. Improving coherence and consistency in neural sequence models with
+dual-system, neuro-symbolic reasoning. In A. Beygelzimer, Y. Dauphin, P. Liang, and J. Wortman Vaughan
+(eds.), Advances in Neural Information Processing Systems, 2021. URL https://openreview.net/forum?id=uyKk_avJ-p4. Patel et al. (2021)
+
+Arkil Patel, Satwik Bhattamishra, and Navin Goyal. Are NLP models really able to solve simple math word problems? In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 2080–2094, Online, June 2021. Association for
+Computational Linguistics. doi: 10.18653/v1/2021.naacl-main.168. URL https://aclanthology.org/2021.naacl-main.168. Pi et al. (2022)
+
+Xinyu Pi, Qian Liu, Bei Chen, Morteza Ziyadi, Zeqi Lin, Yan Gao, Qiang Fu,
+Jian-Guang Lou, and Weizhu Chen. Reasoning like program executors, 2022. Piękos et al.

@@ -1,0 +1,39 @@
+{
+  "abstract": "We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community.",
+  "accredited": false,
+  "authors": [
+    "Hugo Touvron",
+    "Thibaut Lavril",
+    "Gautier Izacard",
+    "Xavier Martinet",
+    "Marie-Anne Lachaux",
+    "Timothée Lacroix",
+    "Baptiste Rozière",
+    "Naman Goyal",
+    "Eric Hambro",
+    "Faisal Azhar",
+    "Aurelien Rodriguez",
+    "Armand Joulin",
+    "Edouard Grave",
+    "Guillaume Lample"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T01:12:35.343203+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2302.13971"
+  },
+  "fulltext_sha256": "311e13936d77619f48c615f30c740882abb01bcff7e6e3923e4b3f42ae56a6be",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "llama-2023",
+    "fetched_at": "2026-07-06T01:05:25.844600+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "1bdaa04d6d7eb1c2b3702d4bf3ef7bcef8a1f1d6177164a59cb683b445cfaab6",
+  "title": "LLaMA: Open and Efficient Foundation Language Models",
+  "url": "https://arxiv.org/abs/2302.13971",
+  "venue": "arXiv",
+  "work_id": "arxiv:2302.13971",
+  "year": 2023
+}

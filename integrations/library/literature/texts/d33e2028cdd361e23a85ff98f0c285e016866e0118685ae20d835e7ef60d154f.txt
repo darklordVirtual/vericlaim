@@ -1,0 +1,22 @@
+Object detection is a regression task, where bounding box coordinate values are predicted by the network (compared to classification, where the predicted values are passed through a softmax layer to convert them to probabilities). Object detectors also have a classification component, where probabilities for an object type are predicted for each bounding box. We trained two popular detection approaches: Faster-RCNN (Ren et al., 2015) and Multibox-SSD (Liu et al., 2015a). Both detectors used VGG-16 network as the backbone. Models and training scripts were from public repositories (Girshick, ; Liu, ). Mean average precision (mAP) was computed on Pascal VOC 2007 test set. Faster-RCNN was trained on VOC 2007 training set, whereas SSD was trained on a union of VOC 2007 and 2012 data, which is the reason behind baseline mAP difference in Table 2. Table 2: Detection network average mean precision. Model
+Baseline
+MP without loss-scale
+MP with loss-scale
+
+Faster R-CNN
+
+69.1%
+
+68.6%
+
+69.7%
+
+Multibox SSD
+
+76.9%
+
+diverges
+
+77.1%
+
+As can be seen in table 2, SSD detector failed to train in FP16 without loss-scaling.

@@ -1,0 +1,17 @@
+2020. Language models are few-shot learners. arXiv preprint arXiv:2005.14165. Brundage et al. (2018)
+
+Miles Brundage, Shahar Avin, Jack Clark, Helen Toner, Peter Eckersley, Ben
+Garfinkel, Allan Dafoe, Paul Scharre, Thomas Zeitzoff, Bobby Filar, et al. 2018. The malicious use of artificial intelligence: Forecasting,
+prevention, and mitigation. arXiv preprint arXiv:1802.07228. Carlini et al. (2020)
+
+Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel
+Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar
+Erlingsson, Alina Oprea, and Colin Raffel. 2020. Extracting training data
+from large language models. Caswell et al. (2020)
+
+Isaac Caswell, Theresa Breiner, Daan van Esch, and Ankur Bapna. 2020. Language id in the wild: Unexpected challenges on the path to a
+thousand-language web text corpus. arXiv preprint arXiv:2010.14571. Christian (2020)
+
+Brian Christian. 2020. The Alignment Problem: Machine Learning and Human Values. WW Norton & Company. Ciobanu et al. (2017)
+
+Alina Maria Ciobanu, Liviu P Dinu, and Andrea Sgarro. 2017. Towards a map of the syntactic similarity of languages.

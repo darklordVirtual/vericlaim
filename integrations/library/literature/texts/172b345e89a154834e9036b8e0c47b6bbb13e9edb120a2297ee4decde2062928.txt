@@ -1,0 +1,39 @@
+generation prompt for Acronym Generation
+
+⬇
+
+Title: Underwater Breathing Product with no Accessories
+
+\parAcronym: UBPA
+
+\parScores:
+
+\par* Ease of pronunciation: UBPA is pronounced "uhb-puh". This is an easy acronym to pronounce. 4/5
+
+* Ease of spelling: UBPA is easy to spell. 4/5
+
+* Relation to title: UBPA stands for "Underwater Breathing Product for no Accessories" which is related to the title. 5/5
+
+* Positive connotation: UBPA is a positive acronym. 5/5
+
+* Well-known: UBPA is not a well-known acronym. 1/5
+
+\par* Total score: 19/25
+
+\par###
+
+\parTitle: Self-Contained Underwater Breathing Apparatus
+
+\parAcronym: SCUBA
+
+\parScores:
+
+\par* Ease of pronunciation: SCUBA is pronounced "skoo-bah". This is an easy acronym to pronounce. 4/5
+
+* Ease of spelling: SCUBA is easy to spell. 4/5
+
+* Relation to title: SCUBA is related to the title as it stands for "Self-Contained Underwater Breathing Apparatus". 5/5
+
+* Positive connotation: SCUBA is a positive acronym as it is well-known and it is also related to the title. 5/5
+
+* Well-known: SCUBA is a very well-known acronym.

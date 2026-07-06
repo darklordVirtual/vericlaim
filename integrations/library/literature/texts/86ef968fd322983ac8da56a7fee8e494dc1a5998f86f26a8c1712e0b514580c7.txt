@@ -1,0 +1,19 @@
+MT Bench
+
+3.66 (95% GPT-4 quality)
+
+2.49
+
+MMLU
+
+1.41 (92% GPT-4 quality)
+
+1.14
+
+GSM8K
+
+1.49 (87% GPT-4 quality)
+
+1.27
+
+Table 6: Cost saving ratio of our best performing routers over GPT-4. Our routers are able to achieve significant cost savings while maintaining quality. We estimate the average cost of using GPT-4 and Mixtral 8x7B to be $24.7 per million tokens and $0.24 per million tokens respectively (detailed in Appendix D). Based on this, in Table 6, we quantify the cost savings achieved by our approach. To do so, we calculate the inverse of the ratio of GPT-4 calls made by our top-performing router relative to the random baseline because the cost of GPT-4 is the dominant factor in our analysis. The results show that our routers achieve cost savings of up to 3.66x, demonstrating that routing can significantly reduce cost while maintaining response quality.

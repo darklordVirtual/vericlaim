@@ -1,0 +1,15 @@
+Arithmetic
+
+Input:
+6 2 4 + 2 5 9
+Target:
+<scratch>
+6 2 4 + 2 5 9 , C: 0
+2 + 5 , 3 C: 1
+6 + 2 , 8 3 C: 0
+, 8 8 3 C: 0
+0 8 8 3
+</scratch>
+8 8 3
+
+Figure 3: A visualization of a 3-digit arithmetic problem with a scratchpad. C corresponds to the carry from the previous digit’s summation. The arithmetic task is to calculate the sum of two -digit integers. We generate the dataset based on the descriptions in nye2021show [5] and visualize an example scratchpad in Figure 3. Everything up to and including “Target:” is given as part of a prompt, and the model is asked to generate the scratchpad (start/end indicated by “<scratch>”) and the final answer, as in nye2021show [5]. Each line of the scratchpad corresponds to the summation of each pair of digits from the final digit to the first digit, the accumulating final digits of the answer, and a carry digit corresponding to whether the previous pair summed to at least 10. We include few-shot prompts for 1 to 5 digits. When performing rationalization, we include the correct answer after “Target” and query the model to produce the scratchpad and then reproduce the correct answer following the scratchpad.

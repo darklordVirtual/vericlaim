@@ -1,0 +1,16 @@
+Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.295. URL https://aclanthology.org/2021.acl-long.295. Geva et al. (2020)
+
+Mor Geva, Ankit Gupta, and Jonathan Berant. Injecting numerical reasoning skills into language models. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, 2020. doi: 10.18653/v1/2020.acl-main.89. URL https://aclanthology.org/2020.acl-main.89. Geva et al. (2021)
+
+Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth, and Jonathan
+Berant. Did aristotle use a laptop? A question answering benchmark with
+implicit reasoning strategies. Transactions of the Association for Computational Linguistics,
+2021. URL https://aclanthology.org/2021.tacl-1.21. Giampiccolo et al. (2007)
+
+Danilo Giampiccolo, Bernardo Magnini, Ido Dagan, and Bill Dolan. The third pascal recognizing textual entailment challenge. In Proceedings of the ACL-PASCAL workshop on textual entailment
+and paraphrasing, pp. 1–9. Association for Computational Linguistics,
+2007. Holtzman et al. (2018)
+
+Ari Holtzman, Jan Buys, Maxwell Forbes, Antoine Bosselut, David Golub, and
+Yejin Choi. Learning to write with cooperative discriminators.

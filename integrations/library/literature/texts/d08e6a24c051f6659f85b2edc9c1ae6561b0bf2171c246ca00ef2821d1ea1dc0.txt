@@ -1,0 +1,19 @@
+PMLR, 2020. Goel et al. [2022]
+
+Karan Goel, Albert Gu, Chris Donahue, and Christopher Ré. It’s raw! audio generation with state-space models. In International Conference on Machine Learning (ICML), 2022. Gokaslan et al. [2019]
+
+Aaron Gokaslan, Vanya Cohen, Pavlick Ellie, and Stefanie Tellex. Openwebtext corpus, 2019. Gray et al. [1997]
+
+Jim Gray, Surajit Chaudhuri, Adam Bosworth, Andrew Layman, Don Reichart, Murali
+Venkatrao, Frank Pellow, and Hamid Pirahesh. Data cube: A relational aggregation operator generalizing group-by,
+cross-tab, and sub-totals. Data mining and knowledge discovery, 1(1):29–53, 1997. Griewank and Walther [2008]
+
+Andreas Griewank and Andrea Walther. Evaluating derivatives: principles and techniques of
+algorithmic differentiation. SIAM, 2008. Gu et al. [2020]
+
+Albert Gu, Tri Dao, Stefano Ermon, Atri Rudra, and Christopher Ré. Hippo: Recurrent memory with optimal polynomial projections. In Advances in neural information processing systems
+(NeurIPS), 2020. Gu et al. [2021]
+
+Albert Gu, Isys Johnson, Karan Goel, Khaled Saab, Tri Dao, Atri Rudra, and
+Christopher Ré. Combining recurrent, convolutional, and continuous-time models with
+linear state space layers.

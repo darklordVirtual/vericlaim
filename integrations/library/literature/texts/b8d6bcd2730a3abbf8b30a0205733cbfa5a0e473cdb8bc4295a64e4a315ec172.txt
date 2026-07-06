@@ -1,0 +1,17 @@
+Halide: a language and compiler for optimizing parallelism, locality,
+and recomputation in image processing pipelines. Acm Sigplan Notices, 48(6):519–530, 2013. Ramakrishnan et al. [2003]
+
+Raghu Ramakrishnan, Johannes Gehrke, and Johannes Gehrke. Database management systems, volume 3. McGraw-Hill New York, 2003. Recht and Ré [2013]
+
+Benjamin Recht and Christopher Ré. Parallel stochastic gradient algorithms for large-scale matrix
+completion. Mathematical Programming Computation, 5(2):201–226, 2013. Ren et al. [2021]
+
+Hongyu Ren, Hanjun Dai, Zihang Dai, Mengjiao Yang, Jure Leskovec, Dale
+Schuurmans, and Bo Dai. Combiner: Full attention transformer with sparse computation cost. Advances in Neural Information Processing Systems, 34, 2021. Roy et al. [2021]
+
+Aurko Roy, Mohammad Saffar, Ashish Vaswani, and David Grangier. Efficient content-based sparse attention with routing transformers. Transactions of the Association for Computational Linguistics,
+9:53–68, 2021. Sabne [2020]
+
+Amit Sabne. XLA: Compiling machine learning for peak performance. 2020. Sanh et al. [2020]
+
+Victor Sanh, Thomas Wolf, and Alexander M Rush. Movement pruning: Adaptive sparsity by fine-tuning.

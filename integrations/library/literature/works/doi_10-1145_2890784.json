@@ -1,0 +1,24 @@
+{
+  "abstract": "Lessons learned from three container-management systems over a decade.",
+  "accredited": true,
+  "authors": [
+    "Brendan Burns",
+    "Brian Grant",
+    "David Oppenheimer",
+    "Eric Brewer",
+    "John Wilkes"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "borg-omega-k8s-2016",
+    "fetched_at": "2026-07-06T01:07:15.642507+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "5991c5cc5aa5927d833c3163a85225c28b8047cf8ce32cb33960651c15516849",
+  "title": "Borg, Omega, and Kubernetes",
+  "url": "https://doi.org/10.1145/2890784",
+  "venue": "Communications of the ACM",
+  "work_id": "doi:10.1145/2890784",
+  "year": 2016
+}

@@ -1,0 +1,5 @@
+An even larger ratio will result in this effect for de-normalized numbers. Again, this effect can be counteracted by computing the update in FP32. To illustrate the need for an FP32 master copy of weights, we use the Mandarin speech model (described in more detail in Section 4.3) trained on a dataset comprising of approximately 800 hours of speech data for 20 epochs. As shown in 2(a), we match FP32 training results when updating an FP32 master copy of weights after FP16 forward and backward passes, while updating FP16 weights results in 80% relative accuracy loss. (a) Training and validation (dev0) curves for Mandarin speech recognition model
+
+(b) Gradient histogram for Mandarin training run
+
+Figure 2: Figure 2(a) shows the results of three experiemnts; baseline (FP32), pseudo FP16 with FP32 master copy, pseudo FP16 without FP32 master copy. Figure 2(b) shows the histogram for the exponents of weight gradients for Mandarin speech recognition training with FP32 weights. The gradients are sampled every 4,000 iterations during training for all the layers in the model.

@@ -1,0 +1,5 @@
+In Table 1, we show the test accuracy over a set of reasoning tasks by using different answer aggregation strategies. In addition to majority vote, one can also weight each by when aggregating the answers. Note to compute , we can either take the unnormalized probability of the model generating given , or we can normalize the conditional probability by the output length (Brown et al., 2020), i.e.,
+
+(1)
+
+where is the log probability of generating the -th token in conditioned on the previous tokens, and is the total number of tokens in . In Table 1, we show that taking the “unweighted sum”, i.e., taking a majority vote directly over yields a very similar accuracy as aggregating using the “normalized weighted sum”.

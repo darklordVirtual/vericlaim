@@ -1,0 +1,15 @@
+Eric Zelikman∗1,
+Yuhuai Wu∗12,
+Jesse Mu1,
+Noah D. Goodman1
+
+1Department of Computer Science, Stanford University
+
+2 Google Research
+
+{ezelikman, yuhuai, muj, ngoodman}@stanford.edu
+
+Abstract
+
+Generating step-by-step "chain-of-thought" rationales improves language model performance on complex reasoning tasks like mathematics or commonsense question-answering. However, inducing language model rationale generation currently requires either constructing massive rationale datasets or sacrificing accuracy by using only few-shot inference. We propose a technique to iteratively leverage a small number of rationale examples and a large dataset without rationales, to bootstrap the ability to perform successively more complex reasoning. This technique, the "Self-Taught Reasoner" (STaR), relies on a simple loop: generate rationales to answer many questions, prompted with a few rationale examples; if the generated answers are wrong,
+try again to generate a rationale given the correct answer; fine-tune on all the rationales that ultimately yielded correct answers; repeat.

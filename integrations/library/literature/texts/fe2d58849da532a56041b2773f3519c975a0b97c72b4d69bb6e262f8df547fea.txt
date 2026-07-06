@@ -1,0 +1,10 @@
+A rare failure case is when the model finds it unnecessary to justify its answer. For example:
+
+Q: Other than school or from text where can one gain knowledge? Answer Choices:
+(a) book
+(b) class
+(c) thinking
+(d) head
+(e) meeting
+A: The answer must be a place where someone can gain knowledge other than
+school or from text. The answer is meeting (e).

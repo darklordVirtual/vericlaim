@@ -1,0 +1,1 @@
+The authors would like to thank TensorFlow Research Cloud for providing the computational resources for the evaluation and OpenAI for providing access and credits for the OpenAI API for GPT-3 evaluation. We would also like to thank Farrukh Raman, JR Smith, and Michelle Schmitz for reviewing the manuscript.

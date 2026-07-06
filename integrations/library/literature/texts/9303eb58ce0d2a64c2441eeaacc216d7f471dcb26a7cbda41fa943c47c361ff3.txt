@@ -1,0 +1,13 @@
+Ng, Z. Jiang, and P. Liu. Gptscore: Evaluate as you desire. arXiv preprint arXiv:2302.04166, 2023. Geng et al. [2023]
+
+X. Geng, A. Gudibande, H. Liu, E. Wallace, P. Abbeel, S. Levine, and D. Song. Koala: A dialogue model for academic research. Blog post, April 2023. URL https://bair.berkeley.edu/blog/2023/04/03/koala/. Glaese et al. [2022]
+
+A. Glaese, N. McAleese, M. Trębacz, J. Aslanides, V. Firoiu, T. Ewalds,
+M. Rauh, L. Weidinger, M. Chadwick, P. Thacker, et al. Improving alignment of dialogue agents via targeted human judgements. arXiv preprint arXiv:2209.14375, 2022. Gururangan et al. [2018]
+
+S. Gururangan, S. Swayamdipta, O. Levy, R. Schwartz, S. R. Bowman, and N. A. Smith. Annotation artifacts in natural language inference data. arXiv preprint arXiv:1803.02324, 2018. Henderson et al. [2021]
+
+J. Henderson, S. Ruder, et al. Compacter: Efficient low-rank hypercomplex adapter layers. In Advances in Neural Information Processing Systems, 2021. Hendrycks et al. [2020]
+
+D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and
+J. Steinhardt. Measuring massive multitask language understanding. In International Conference on Learning Representations, 2020. Holtzman et al.

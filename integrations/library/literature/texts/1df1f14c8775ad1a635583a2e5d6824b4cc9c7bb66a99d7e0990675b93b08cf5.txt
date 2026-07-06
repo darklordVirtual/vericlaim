@@ -1,0 +1,25 @@
+0.0
+
+11.4 0.1
+
+12.3 0.1
+
+10.8 0.1
+
+Self-consistency using sampling
+
+9.5 1.2
+
+11.3 1.2
+
+12.3 0.8
+
+13.7 0.9
+
+14.7 0.3
+
+Table 6: Compare self-consistency with beam search decoding on the UL2-20B model. Comparison to Ensemble-based Approaches
+
+We further compare self-consistency to ensemble-based methods for few-shot learning. In particular, we consider ensembling by:
+(1) prompt order permutation: we randomly permute the exemplars in the prompt 40 times to mitigate model’s sensitivity to prompt order (Zhao et al., 2021; Lu et al., 2021);
+and (2) multiple sets of prompts (Gao et al., 2021): we manually write different sets of prompts. We took majority vote of the answers from greedy decoding in both approaches as an ensemble. Table 7 shows that compared to self-consistency, existing ensemble-based approaches achieve a much smaller gain.888Self-consistency is compatible with both ensemble approaches and we show the results in Appendix A.1.4. In addition, note that self-consistency is different from a typical model-ensemble approach, where multiple models are trained and their outputs are aggregated. Self-consistency acts more like a “self-ensemble” on top of a single language model.

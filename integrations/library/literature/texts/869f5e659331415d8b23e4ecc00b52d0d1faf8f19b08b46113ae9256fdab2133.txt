@@ -1,0 +1,6 @@
+That is, the feedback not only indicates that the target sentiment has not reached, but further points out phrases and words in the review that should be altered to reach the desired sentiment level. We experiment with an ablation of our setup where the feedback module simply says “something is wrong.”
+In such cases, for sentiment evaluation, the output from \ourswere preferred 73% of the time (down from 85% with informative feedback). For dramatic response evaluation, we found that the preference rate went down drastically to 58.92%, from 80.09%. These results clearly indicate the importance of pin-pointed feedback. Evaluation
+
+We evaluate the task using GPT-4. Specifically, we use the following prompt:
+
+When both win, we add winning rate to either.

@@ -1,0 +1,111 @@
+For Code Readability Improvement, we prompt GPT-4 to calculate fraction of the variables that are appropriately named given the context (e.g., ). Additional details are provided in Appendix D. GPT-3.5
+ChatGPT
+GPT-4
+
+Task
+Base
++
+Base
++
+Base
++
+
+Sentiment Reversal
+
+8.8
+
+30.4 (21.6)
+
+11.4
+
+43.2 (31.8)
+
+3.8
+
+36.2 (32.4)
+
+Dialogue Response
+
+36.4
+
+63.6 (27.2)
+
+40.1
+
+59.9 (19.8)
+
+25.4
+
+74.6 (49.2)
+
+Code Optimization
+
+14.8
+
+23.0 (8.2)
+
+23.9
+
+27.5 (3.6)
+
+27.3
+
+36.0 (8.7)
+
+Code Readability
+
+37.4
+
+51.3 (13.9)
+
+27.7
+
+63.1 (35.4)
+
+27.4
+
+56.2 (28.8)
+
+Math Reasoning
+
+64.1
+
+64.1 (0)
+
+74.8
+
+75.0 (0.2)
+
+92.9
+
+93.1 (0.2)
+
+Acronym Generation
+
+41.6
+
+56.4 (14.8)
+
+27.2
+
+37.2 (10.0)
+
+30.4
+
+56.0 (25.6)
+
+Constrained Generation
+
+28.0
+
+37.0 (9.0)
+
+44.0
+
+67.0 (23.0)
+
+15.0
+
+45.0 (30.0)
+
+Table 1: \oursresults on various tasks using GPT-3.5, ChatGPT, and GPT-4 as base LLM. \oursconsistently improves LLM. Metrics used for these tasks are defined in Section 3.2.

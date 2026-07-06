@@ -1,0 +1,6 @@
+We instantiate \oursfollowing the high-level description in Section 2. The feedback-refine iterations continue until the desired output quality or task-specific criterion is reached,
+up to a maximum of 4 iterations. To make our evaluation consistent across different models, we implemented both feedback and refine as few-shot prompts even with models that respond well to instructions, such as ChatGPT and GPT-4. Base LLMs
+
+Our main goal is to evaluate whether we can improve the performance of any strong base LLMs using \ours. Therefore, we compare \oursto the same base LLMs but without feedback-refine iterations. We used three main strong base LLM across all tasks:
+GPT-3.5 (text-davinci-003), ChatGPT (gpt-3.5-turbo), and GPT-4 (OpenAI, 2023). For code-based tasks, we also experimented with Codex (code-davinci-002). In all tasks, either GPT-3.5 or GPT-4 is the previous state-of-the-art.333A comparison with other few-shot and fine-tuned approaches is provided in Appendix F
+We used the same prompts from previous work when available (such as for Code Optimization and Math Reasoning); otherwise, we created prompts as detailed in Appendix S.

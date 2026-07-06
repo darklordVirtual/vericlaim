@@ -1,0 +1,19 @@
+Defending against neural fake news. arXiv preprint arXiv:1905.12616, 2019. ZLL+ [18]
+
+Sheng Zhang, Xiaodong Liu, Jingjing Liu, Jianfeng Gao, Kevin Duh, and Benjamin
+Van Durme. ReCoRD: Bridging the gap between human and machine commonsense
+reading comprehension. arXiv preprint arXiv:1810.12885, 2018. [143]
+
+Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford,
+Dario Amodei, Paul Christiano, and Geoffrey Irving. Fine-tuning language models from human preferences, 2019. [144]
+
+Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford,
+Dario Amodei, Paul Christiano, and Geoffrey Irving. Fine-tuning language models from human preferences. ArXiv, abs/1909.08593, 2019. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

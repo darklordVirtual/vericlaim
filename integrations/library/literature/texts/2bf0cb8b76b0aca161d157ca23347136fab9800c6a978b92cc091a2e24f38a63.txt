@@ -1,0 +1,9 @@
+Many insects have a larval form that is optimized for extracting energy and nutrients from the environment and a
+completely different adult form that is optimized for the very different requirements of traveling and reproduction. In
+large-scale machine learning, we typically use very similar models for the training stage and the deployment stage
+despite their very different requirements: For tasks like speech and object recognition, training must extract structure
+from very large, highly redundant datasets but it does not need to operate in real time and it can use a huge amount of
+computation. Deployment to a large number of users, however, has much more stringent requirements on latency and
+computational resources. The analogy with insects suggests that we should be willing to train very cumbersome models if
+that makes it easier to extract structure from the data. The cumbersome model could be an ensemble of separately trained
+models or a single very large model trained with a very strong regularizer such as dropout [9].

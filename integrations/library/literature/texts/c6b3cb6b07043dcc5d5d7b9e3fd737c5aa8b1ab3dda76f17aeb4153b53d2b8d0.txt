@@ -1,0 +1,19 @@
+evidence from AI experts. Journal of Artificial Intelligence Research, 62:729–754. Graff et al. (2003)
+
+David Graff, Junbo Kong, Ke Chen, and Kazuaki Maeda. 2003. English gigaword. Linguistic Data Consortium, Philadelphia, 4(1):34. Groves and Way (2006)
+
+Declan Groves and Andy Way. 2006. Hybridity in mt: Experiments on the Europarl corpus. In Proceeedings of the 11th Annual conference of the European
+Association for Machine Translation (EAMT 2006). Halavais (2019)
+
+Alexander Halavais. 2019. Overcoming terms of service: a proposal for ethical distributed
+research. Information, Communication & Society, 22(11):1567–1581. Hardin (2018)
+
+Chris Hardin. 2018. How to shuffle a big dataset. Henighan et al. (2020)
+
+Tom Henighan, Jared Kaplan, Mor Katz, Mark Chen, Christopher Hesse, Jacob
+Jackson, Heewoo Jun, Tom B Brown, Prafulla Dhariwal, Scott Gray, et al. 2020. Scaling laws for autoregressive generative modeling. arXiv preprint arXiv:2010.14701. Hoffman et al. (2010)
+
+Matthew Hoffman, Francis Bach, and David Blei. 2010. Online learning for latent dirichlet allocation. advances in neural information processing systems,
+23:856–864. Hovy and Spruit (2016)
+
+Dirk Hovy and Shannon L Spruit.

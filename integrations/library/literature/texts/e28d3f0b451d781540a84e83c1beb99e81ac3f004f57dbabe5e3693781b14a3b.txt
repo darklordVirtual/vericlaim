@@ -1,0 +1,2 @@
+(2018a) including question answering Rajpurkar et al. (2016), sentiment analysis Socher et al. (2013), and named entity recognition Tjong Kim Sang and De Meulder (2003). Melamud et al. (2016) proposed learning contextual representations through a task to predict a single word from both left and right context
+using LSTMs. Similar to ELMo, their model is feature-based and not deeply bidirectional. Fedus et al. (2018) shows that the cloze task can be used to improve the robustness of text generation models.

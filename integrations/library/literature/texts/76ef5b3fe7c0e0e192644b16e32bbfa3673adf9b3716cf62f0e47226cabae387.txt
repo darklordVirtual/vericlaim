@@ -1,0 +1,22 @@
+System
+Conditional Test Accuracy
+Test Accuracy
+
+Baseline
+
+43.1%
+
+25.0%
+
++ 61 Specialist models
+
+45.9%
+
+26.1%
+
+Table 3: Classification accuracy (top 1) on the JFT development set. Starting from the trained baseline full network,
+the specialists train extremely fast (a few days instead of many weeks for JFT). Also, all the specialists
+are trained completely independently. Table 3 shows the absolute test accuracy for the
+baseline system and the baseline system combined with the specialist
+models. With 61 specialist models, there is a
+4.4% relative improvement in test accuracy overall. We also report conditional test accuracy, which is the accuracy by only considering examples belonging to the specialist classes, and restricting our predictions to that subset of classes.

@@ -1,0 +1,15 @@
+Deep contextualized word representations. CoRR, abs/1802.05365, 2018. URL http://arxiv.org/abs/1802.05365. Radford et al. (2017)
+
+Radford, A., Józefowicz, R., and Sutskever, I. Learning to generate reviews and discovering sentiment. CoRR, abs/1704.01444, 2017. Radford et al. (2018)
+
+Radford, A., Narasimhan, K., Salimans, T., and Sutskever, I. Improving language understanding by generative pre-training, 2018. URL https://blog.openai.com/language-unsupervised/. Radford et al. (2019)
+
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and Sutskever, I. Better language models and their implications, 2019. URL https://openai.com/blog/better-language-models/. Raffel et al. (2019)
+
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou,
+Y., Li, W., and Liu, P. J. Exploring the limits of transfer learning with a unified text-to-text
+transformer. arXiv:1910.10683, 2019. Rajpurkar et al. (2016)
+
+Rajpurkar, P., Zhang, J., Lopyrev, K., and Liang, P. Squad: 100,000+ questions for machine comprehension of text. EMNLP, 2016. Rajpurkar et al. (2018)
+
+Rajpurkar, P., Jia, R., and Liang, P. Know what you don’t know: Unanswerable questions for squad. ACL, 2018.

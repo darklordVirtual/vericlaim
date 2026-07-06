@@ -1,0 +1,59 @@
+We also support more head dimensions (16, 32, 64, 128) and broader GPU types
+(all Turing and Ampere GPUs at the time of writing). In Table 7, we compare the performance of FlashAttention and Apex FMHA for short sequences
+(as FMHA only supports sequence length at most 512). Generally FlashAttention is slightly faster than FMHA in the forward pass and slightly
+slower than FMHA in the backward pass. This is because we do not store the attention matrix in the forward pass and
+recompute it in the backward pass. Compared to FMHA, the overall runtime of FlashAttention is about 4% slower for sequence length 128, 8%
+faster for sequence length 256, and 5% faster for sequence length 512. Table 7: Runtime (ms) of FlashAttention compared to FMHA by sequence length, with
+masking and dropout, measured on an A100-SXM4-40GB GPU. Batch size 64, 16
+heads, head dimension 64 (i.e., BERT-large size). Attention Method
+128
+256
+512
+
+Apex FMHA forward
+
+0.10
+
+0.29
+
+1.14
+
+FlashAttention forward
+
+0.08
+
+0.22
+
+0.81
+
+Apex FMHA backward
+
+0.17
+
+0.52
+
+1.81
+
+FlashAttention backward
+
+0.20
+
+0.53
+
+2.00
+
+Apex FMHA forward + backward
+
+0.27
+
+0.81
+
+2.95
+
+FlashAttention forward + backward
+
+0.28
+
+0.75
+
+2.81

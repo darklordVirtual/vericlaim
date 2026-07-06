@@ -1,0 +1,49 @@
+They
+
+Correct Answer
+
+bake them, then frost and decorate. Incorrect Answer
+
+taste them as they place them on plates. Incorrect Answer
+
+put the frosting on the cake as they pan it. Incorrect Answer
+
+come out and begin decorating the cake as well. Figure G.9: Formatted dataset example for HellaSwag
+
+Context
+
+anli 3: anli 3: We shut the loophole which has American workers actually subsidizing the loss of their own job. They just passed an expansion of that loophole in the last few days: $43 billion of giveaways, including favors to the oil and gas industry and the people importing ceiling fans from China. Question: The loophole is now gone True, False, or Neither? Correct Answer
+
+False
+
+Incorrect Answer
+
+True
+
+Incorrect Answer
+
+Neither
+
+Figure G.10: Formatted dataset example for ANLI R3
+
+Context
+
+Question: George wants to warm his hands quickly by rubbing them. Which skin surface will produce the most heat? Answer:
+
+Correct Answer
+
+dry palms
+
+Incorrect Answer
+
+wet palms
+
+Incorrect Answer
+
+palms covered with oil
+
+Incorrect Answer
+
+palms covered with lotion
+
+Figure G.11: Formatted dataset example for ARC (Challenge).

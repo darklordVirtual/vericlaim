@@ -1,0 +1,8 @@
+We measure accuracy, throughput, and training time of all models. Each task has a different sequence length varying between 1024 and 4096. We follow the implementation and experimental setting
+in Tay et al. [80]and Xiong et al. [90].333LRA accuracy
+results are known to be highly dependent on the tuning
+procedure [90]. Our reproduced baselines perform better than as reported in the original
+comparison [80]. Table 3 shows that FlashAttention achieves up 2.4
+speed-up compared to standard attention. Block-sparse FlashAttention is faster than all of the approximate attention methods that we have
+tested. Table 3: The performance of standard attention, FlashAttention, block-sparse
+FlashAttention, and approximate attention baselines on the Long-Range-Arena benchmarks.

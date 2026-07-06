@@ -1,0 +1,93 @@
+(2021)
+
+Human References
+
+38.2
+
+OpenAI Models: OpenAI (2022, 2023)
+
+Codex
+
+13.1
+
+GPT-3.5
+
+14.8
+
+ChatGPT
+
+22.2
+
+GPT-4
+
+27.3
+
+Nijkamp et al. (2022)
+
+CodeGen-16B
+
+1.1
+
+Berger et al. (2022)
+
+scalene
+
+1.4
+
+scalene (best@16)
+
+12.6
+
+scalene (best@32)
+
+19.6
+
+Madaan et al. (2023)
+
+pie-2B
+
+4.4
+
+pie-2B (best@16)
+
+21.1
+
+pie-2B (best@32)
+
+26.3
+
+pie-16B
+
+4.4
+
+pie-16B (best@16)
+
+22.4
+
+pie-16B (best@32)
+
+26.6
+
+pie-Few-shot (best@16)
+
+35.2
+
+pie-Few-shot (best@32)
+
+38.3
+
+This work
+
+\oursw/ GPT-3.5
+
+23.0
+
+\oursw/ ChatGPT
+
+26.7
+
+\oursw/ GPT-4
+
+36.0
+
+Table 8: Performance comparison of various models on the PIE dataset in terms of the percentage of programs optimized (%Opt). The table includes human references, baseline models, fine-tuned pie-2B and pie-16B models, and our proposed model (\ours) using different LLMs. Notably, \oursachieves superior performance while using only 4 samples at most, significantly fewer than the 16 and 32 samples employed by other models. Scalene, an off-the-shelf optimizer, uses instruction tuning with Codex and serves as a comparison point.

@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": false,
+  "authors": [
+    "D. L. Parnas"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "parnas-modules-1972",
+    "fetched_at": "2026-07-06T01:06:00.236744+00:00",
+    "method": "crossref-title"
+  },
+  "source_type": "report",
+  "text_sha256": "c76a42cd399ba6cb808a0a2f624e13798707478a6091694d06a6ca434c52c611",
+  "title": "On the Criteria to Be Used in Decomposing Systems into Modules",
+  "url": "https://doi.org/10.21236/ad0773837",
+  "venue": "",
+  "work_id": "doi:10.21236/ad0773837",
+  "year": 1971
+}

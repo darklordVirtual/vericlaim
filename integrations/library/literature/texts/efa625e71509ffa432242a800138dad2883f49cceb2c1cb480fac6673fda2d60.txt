@@ -1,0 +1,17 @@
+Lin et al. [2017]
+
+Ji Lin, Yongming Rao, Jiwen Lu, and Jie Zhou. Runtime neural pruning. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus,
+S. Vishwanathan, and R. Garnett, editors, Advances in Neural
+Information Processing Systems, volume 30. Curran Associates, Inc., 2017. Liu et al. [2019]
+
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692, 2019. Ma et al. [2021]
+
+Xuezhe Ma, Xiang Kong, Sinong Wang, Chunting Zhou, Jonathan May, Hao Ma, and
+Luke Zettlemoyer. Luna: Linear unified nested attention. Advances in Neural Information Processing Systems, 34, 2021. Mattson et al. [2020]
+
+Peter Mattson, Christine Cheng, Gregory Diamos, Cody Coleman, Paulius
+Micikevicius, David Patterson, Hanlin Tang, Gu-Yeon Wei, Peter Bailis, Victor
+Bittorf, et al. Mlperf training benchmark. Proceedings of Machine Learning and Systems, 2:336–349, 2020. McSherry et al. [2015]
+
+Frank McSherry, Michael Isard, and Derek G Murray. Scalability! but at what COST?

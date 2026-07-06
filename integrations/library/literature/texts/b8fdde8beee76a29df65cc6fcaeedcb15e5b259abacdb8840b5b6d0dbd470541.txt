@@ -1,0 +1,9 @@
+models used in recommendation systems to capture low-rank structures in user-item interactions (Koren et al., 2009; Töscher et al., 2009), we apply this approach to learn from preference data. The goal is to uncover a hidden scoring function , where represents the quality of the model ’s response to query . If is better than on a query , then . We enforce this by modeling the win probability using a sigmoid function :
+
+(11)
+
+which we optimize on the preference data. The scoring function is modelled as a bilinear function of the model and query embeddings. We embed the model into a -dimensional vector , and the query into a -dimensional vector :
+
+(12)
+
+where denotes the Hadamard product. and are parameters of a projection layer to align the dimension of with . is the linear regression layer to produce the final scalar. This method is essentially learning a matrix factorization of the score matrix on the set . We train the model on a 8GB GPU for 10 epochs, using batch size 64 and the Adam optimizer (Kingma & Ba, 2017) with learning rate and weight decay .

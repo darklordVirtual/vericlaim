@@ -1,0 +1,89 @@
+For a fair comparison we report the accuracy under the same number of beams and reasoning paths. On both tasks self-consistency outperforms beam search significantly. Note self-consistency can also adopt beam search to decode each reasoning path (results are shown as “Self-consistency using beam search”), but its performance is worse compared to self-consistency with sampling. The reason is that beam search yields a lower diversity in the outputs (Li & Jurafsky, 2016), while in self-consistency the diversity of the reasoning paths is the key to a better performance. Beam size / Self-consistency paths
+
+1
+
+5
+
+10
+
+20
+
+40
+
+AQuA
+
+Beam search decoding (top beam)
+
+23.6
+
+19.3
+
+16.1
+
+15.0
+
+10.2
+
+Self-consistency using beam search
+
+23.6
+
+19.8 0.3
+
+21.2 0.7
+
+24.6 0.4
+
+24.2 0.5
+
+Self-consistency using sampling
+
+19.7 2.5
+
+24.9 2.6
+
+25.3 1.8
+
+26.7 1.0
+
+26.9 0.5
+
+MultiArith
+
+Beam search decoding (top beam)
+
+10.7
+
+12.0
+
+11.3
+
+11.0
+
+10.5
+
+Self-consistency using beam search
+
+10.7
+
+11.8 0.0
+
+11.4 0.1
+
+12.3 0.1
+
+10.8 0.1
+
+Self-consistency using sampling
+
+9.5 1.2
+
+11.3 1.2
+
+12.3 0.8
+
+13.7 0.9
+
+14.7 0.3
+
+Table 6: Compare self-consistency with beam search decoding on the UL2-20B model.

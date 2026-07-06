@@ -1,0 +1,17 @@
+An et al. [2022]
+
+S. An, Y. Li, Z. Lin, Q. Liu, B. Chen, Q. Fu, W. Chen, N. Zheng, and J.-G. Lou. Input-tuning: Adapting unfamiliar inputs to frozen pretrained models. arXiv preprint arXiv:2203.03131, 2022. Askell et al. [2021]
+
+A. Askell, Y. Bai, A. Chen, D. Drain, D. Ganguli, T. Henighan, A. Jones,
+N. Joseph, B. Mann, N. DasSarma, et al. A general language assistant as a laboratory for alignment. arXiv preprint arXiv:2112.00861, 2021. Bach et al. [2022]
+
+S. H. Bach, V. Sanh, Z.-X. Yong, A. Webson, C. Raffel, N. V. Nayak, A. Sharma,
+T. Kim, M. S. Bari, T. Fevry, et al. Promptsource: An integrated development environment and repository
+for natural language prompts. arXiv preprint arXiv:2202.01279, 2022. Bai et al. [2022a]
+
+Y. Bai, A. Jones, K. Ndousse, A. Askell, A. Chen, N. DasSarma, D. Drain,
+S. Fort, D. Ganguli, T. Henighan, et al. Training a helpful and harmless assistant with reinforcement learning
+from human feedback. arXiv preprint arXiv:2204.05862, 2022a. Bai et al. [2022b]
+
+Y. Bai, S. Kadavath, S. Kundu, A. Askell, J. Kernion, A. Jones, A. Chen,
+A. Goldie, A. Mirhoseini, C. McKinnon, et al. Constitutional ai: Harmlessness from ai feedback.

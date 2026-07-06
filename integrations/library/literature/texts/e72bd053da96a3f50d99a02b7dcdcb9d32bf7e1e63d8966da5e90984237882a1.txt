@@ -1,0 +1,15 @@
+full probability distribution over all the classes
+that minimizes:
+
+(5)
+
+where denotes the KL divergence, and denote the
+probability distribution of a specialist model or the generalist full
+model. The distribution is a distribution over all the
+specialist classes of plus a single dustbin class, so when
+computing its KL divergence from the full distribution we sum
+all of the probabilities that the full distribution assigns to
+all the classes in ’s dustbin. Eq. 5 does not have a general closed form solution, though when all the models produce a single probability for
+each class the solution is either the arithmetic or geometric mean, depending on whether we use
+or ). We parameterize (with ) and we use gradient descent to optimize the logits w.r.t. eq. 5. Note that this
+optimization must be carried out for each image.

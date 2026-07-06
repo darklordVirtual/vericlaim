@@ -1,0 +1,11 @@
+On average, for a blocksize of 64, this quantization reduces the memory footprint per parameter from bits, to bits, a reduction of 0.373 bits per parameter. Paged Optimizers
+
+use the NVIDIA unified memory 222https://docs.nvidia.com/cuda/cuda-c-programming-guide feature wich does automatic page-to-page transfers between the CPU and GPU for error-free GPU processing in the scenario where the GPU occasionally runs out-of-memory. The feature works like regular memory paging between CPU RAM and the disk. We use this feature to allocate paged memory for the optimizer states which are then automatically evicted to CPU RAM when the GPU runs out-of-memory and paged back into GPU memory when the memory is needed in the optimizer update step. QLoRA. Using the components described above, we define QLoRA for a single linear layer in the quantized base model with a single LoRA adapter as follows:
+
+(5)
+
+where doubleDequant is defined as:
+
+(6)
+
+We use NF4 for and FP8 for . We use a blocksize of 64 for for higher quantization precision and a blocksize of 256 for to conserve memory.

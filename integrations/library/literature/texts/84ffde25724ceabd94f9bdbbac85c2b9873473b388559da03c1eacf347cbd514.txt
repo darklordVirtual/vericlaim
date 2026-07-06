@@ -1,0 +1,37 @@
+We release all of our code, which is easily extensible to other LLMs. In essence, our results show that even when an LLM cannot generate an optimal output on its first try, the LLM can often provide useful feedback and improve its own output accordingly. In turn, \oursprovides an effective way to obtain better outputs from a single model without any additional training, via iterative (self-)feedback and refinement. (a) Dialogue: ,
+
+⬇
+
+User: I am interested in playing Table tennis. \parResponse: I’m sure it’s a great way to socialize, stay active
+
+(b) feedback
+
+⬇
+
+Engaging: Provides no information about table tennis or how to play it. \parUser understanding: Lacks understanding of user’s needs and state of mind. (c) refine
+
+⬇
+
+|\textbf{Response (refined): That’s great to hear (…) ! It’s a fun sport requiring quick reflexes and good hand-eye coordination. Have you played before, or are you looking to learn?}|
+
+(d) Code optimization: ,
+
+⬇
+
+|\texttt{Generate sum of 1, …, N}|
+
+def sum(n):
+
+res = 0
+
+for i in range(n+1):
+
+res += i
+
+return res
+
+(e) feedback
+
+⬇
+
+|\textbf{This code is slow as it uses brute force.

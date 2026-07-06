@@ -1,0 +1,23 @@
+Towards efficient post-training quantization of pre-trained language
+models. Advances in Neural Information Processing Systems,
+35:1405–1418, 2022. [BMR+20]
+
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+et al. Language models are few-shot learners. Advances in neural information processing systems,
+33:1877–1901, 2020. [Cas19]
+
+Stephen Cass. Taking ai to the edge: Google’s tpu now comes in a maker-friendly
+package. IEEE Spectrum, 56(5):16–17, 2019. [CCZZ21]
+
+Lingjiao Chen, Tracy Cai, Matei Zaharia, and James Zou. Did the model change? efficiently assessing machine learning api
+shifts. arXiv preprint arXiv:2107.14203, 2021. [Cha]
+
+ChatGPT Announcement. https://openai.com/blog/chatgpt. Accessed: 2023-03-31. [CHSV17]
+
+Zhaowei Cai, Xiaodong He, Jian Sun, and Nuno Vasconcelos. Deep learning with low precision by half-wave gaussian quantization. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pages 5918–5926, 2017. [CoH]
+
+CoHere LLM API. https://cohere.com/. Accessed: 2023-03-31. [Cosa]
+
+Cost estimation of using GPT-3 for real applications.

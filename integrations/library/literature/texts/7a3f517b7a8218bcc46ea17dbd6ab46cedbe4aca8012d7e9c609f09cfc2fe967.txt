@@ -1,0 +1,12 @@
+When the number of classes is very large, it makes sense for the
+cumbersome model to be an ensemble that contains one generalist
+model trained on all the data and many “specialist”
+models, each of which is trained on data that is highly enriched in
+examples from a very confusable subset of the classes (like different
+types of mushroom). The softmax of this type of specialist can be made
+much smaller by combining all of the classes it does not care about into a
+single dustbin class. To reduce overfitting and share the work of learning lower level feature detectors, each specialist model is initialized
+with the weights of the generalist model. These weights are then slightly modified by training the
+specialist with half its examples coming from its special subset and half sampled at random from the remainder of the
+training set. After training, we can correct for the biased training set by incrementing the logit
+of the dustbin class by the log of the proportion by which the specialist class is oversampled.

@@ -1,0 +1,15 @@
+In Neural Information Processing Systems (NIPS), 2015. Russakovsky et al. [2015]
+
+O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang,
+A. Karpathy, A. Khosla, M. Bernstein, A. C. Berg, and L. Fei-Fei. ImageNet Large Scale Visual Recognition Challenge. International Journal of Computer Vision (IJCV), 115(3):211–252, 2015. doi: 10.1007/s11263-015-0816-y. Simonyan and Zisserman [2014]
+
+K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556, 2014. Szegedy et al. [2015]
+
+C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan,
+V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions. In Computer Vision and Pattern Recognition (CVPR), 2015. URL http://arxiv.org/abs/1409.4842. Szegedy et al. [2016]
+
+C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens, and Z. Wojna. Rethinking the inception architecture for computer vision. In The IEEE Conference on Computer Vision and Pattern
+Recognition (CVPR), June 2016. Wu et al. [2016]
+
+Y. Wu, M. Schuster, Z. Chen, Q. V. Le, M. Norouzi, W. Macherey, M. Krikun,
+Y. Cao, Q. Gao, K. Macherey, et al.

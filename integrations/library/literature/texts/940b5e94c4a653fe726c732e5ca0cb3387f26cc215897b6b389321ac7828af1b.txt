@@ -1,0 +1,23 @@
+\parCommonsense Feedback: None
+
+\parOkay, impove the sentence using the feedback:
+
+\parSentence: The cowboy catches the horse with a lasso and rides it. \parwhat concepts from the concept list are missing from the sentence? \parConcept Feedback: None
+
+\parAny feedback on commonsense? \parCommonsense Feedback: None
+
+\par###
+
+Figure 29: refine prompt for Constrained Generation (truncated)
+
+⬇
+
+Provided a dialogue between two speakers, generate a response that is coherent with the dialogue history. Desired traits for responses are: 1) Relev
+
+ant - The response addresses the context, 2) Informative - The response provides some information, 3) Interesting - The response is not interesting,
+
+4) Consistent - The response is consistent with the rest of the conversation in terms of tone and topic, 5) Helpful - The response is helpful in providing any information or suggesting any actions, 6) Engaging - The response is not very engaging and does not encourage further conversation, 7) S
+
+pecific - The response contains pecific content, 9) User understanding - The response demonstrates an understanding of the user’s input and state of
+
+mind, and 10) Fluent.

@@ -1,0 +1,46 @@
+FlashAttention achieves the same perplexity as the other two
+implementations, as we do not change the model definition. Appendix E includes plots of the validation perplexity throughout training,
+confirming that FlashAttention is as numerically stable as the baselines
+and produces the same training / validation curves. Table 2: GPT-2 small and medium using FlashAttention achieve up to 3 speed up compared to
+Huggingface implementation and up to 1.7 compared to Megatron-LM. Training time reported on 8A100s GPUs. Model implementations
+OpenWebText (ppl)
+Training time (speedup)
+
+GPT-2 small - Huggingface [87]
+
+18.2
+
+9.5 days (1.0)
+
+GPT-2 small - Megatron-LM [77]
+
+18.2
+
+4.7 days (2.0)
+
+GPT-2 small - FlashAttention
+
+18.2
+
+2.7 days (3.5)
+
+GPT-2 medium - Huggingface [87]
+
+14.2
+
+21.0 days (1.0)
+
+GPT-2 medium - Megatron-LM [77]
+
+14.3
+
+11.5 days (1.8)
+
+GPT-2 medium - FlashAttention
+
+14.3
+
+6.9 days (3.0)
+
+Long-range Arena. We compare vanilla Transformer (with either standard implementation or FlashAttention)
+on the long-range arena (LRA [80]) benchmark. We measure accuracy, throughput, and training time of all models. Each task has a different sequence length varying between 1024 and 4096.

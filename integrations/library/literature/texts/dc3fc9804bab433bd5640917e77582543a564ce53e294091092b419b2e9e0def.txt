@@ -1,0 +1,16 @@
+(2022)
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia,
+Ed Chi, Quoc Le, and Denny Zhou. Chain of thought prompting elicits reasoning in large language
+models. Conference on Neural Information Processing Systems (NeurIPS),
+2022. URL https://arxiv.org/pdf/2201.11903. Welleck et al. (2020)
+
+Sean Welleck, Ilia Kulikov, Jaedeok Kim, Richard Yuanzhe Pang, and Kyunghyun
+Cho. Consistency of a recurrent language model with respect to incomplete
+decoding. In Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing (EMNLP), pp. 5553–5568, Online, November
+2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.emnlp-main.448. URL https://aclanthology.org/2020.emnlp-main.448. Xu et al. (2021a)
+
+Weiwen Xu, Yang Deng, Huihui Zhang, Deng Cai, and Wai Lam. Exploiting reasoning chains for multi-hop science question answering. In Findings of the Association for Computational Linguistics:
+EMNLP 2021, pp. 1143–1156, Punta Cana, Dominican Republic, November
+2021a. Association for Computational Linguistics. URL https://aclanthology.org/2021.findings-emnlp.99. Xu et al.

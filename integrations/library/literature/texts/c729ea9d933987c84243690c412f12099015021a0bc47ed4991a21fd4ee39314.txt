@@ -1,0 +1,13 @@
+Elsayed, H. Sedghi, I. Mordatch, I. Simpson, I. Gur, J. Snoek, J. Pennington, J. Hron, K. Kenealy, K. Swersky, K. Mahajan, L. Culp, L. Xiao, M. L. Bileschi, N. Constant, R. Novak, R. Liu, T. Warkentin, Y. Qian, Y. Bansal, E. Dyer, B. Neyshabur, J. Sohl-Dickstein, and N. Fiedel. Beyond human data: Scaling self-training for problem-solving with language models, 2024. Snell et al. [2024]
+
+C. Snell, E. Wallace, D. Klein, and S. Levine. Predicting emergent capabilities by finetuning. Conference on Language Modeling 2024, 2024. Stechly et al. [2023]
+
+K. Stechly, M. Marquez, and S. Kambhampati. Gpt-4 doesn’t know it’s wrong: An analysis of iterative prompting for reasoning problems, 2023. Sutton and Barto [2018]
+
+R. S. Sutton and A. G. Barto. Reinforcement learning: An introduction. Second edition, 2018. Team [2024]
+
+G. Team. Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context, 2024. Tian et al. [2024]
+
+Y. Tian, B. Peng, L. Song, L. Jin, D. Yu, H. Mi, and D. Yu. Toward self-improvement of llms via imagination, searching, and criticizing, 2024. Touvron et al. [2023]
+
+H. Touvron, L. Martin, K. Stone, P. Albert, A. Almahairi, Y. Babaei, N. Bashlykov, S.

@@ -1,0 +1,18 @@
+Akbik et al. (2018)
+
+Alan Akbik, Duncan Blythe, and Roland Vollgraf. 2018. Contextual string embeddings for sequence labeling. In Proceedings of the 27th International Conference on
+Computational Linguistics, pages 1638–1649. Al-Rfou et al. (2018)
+
+Rami Al-Rfou, Dokook Choe, Noah Constant, Mandy Guo, and Llion Jones. 2018. Character-level language modeling with deeper self-attention. arXiv preprint arXiv:1808.04444. Ando and Zhang (2005)
+
+Rie Kubota Ando and Tong Zhang. 2005. A framework for learning predictive structures from multiple tasks
+and unlabeled data. Journal of Machine Learning Research, 6(Nov):1817–1853. Bentivogli et al. (2009)
+
+Luisa Bentivogli, Bernardo Magnini, Ido Dagan, Hoa Trang Dang, and Danilo
+Giampiccolo. 2009. The fifth PASCAL recognizing textual entailment challenge. In TAC. NIST. Blitzer et al. (2006)
+
+John Blitzer, Ryan McDonald, and Fernando Pereira. 2006. Domain adaptation with structural correspondence learning. In Proceedings of the 2006 conference on empirical methods in
+natural language processing, pages 120–128. Association for Computational
+Linguistics. Bowman et al. (2015)
+
+Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D.

@@ -1,0 +1,92 @@
+dataset of approximately 1500 samples represents less than 2% of the overall training data, demonstrating the effectiveness of dataset augmentation even when the number of samples is small. Training data
+Method
+
+Improvement
+
+Random (95% CI)
+50.00(2)%
+80.08(1)%
+0.497(0.01)
+(+0%)
+
+BERT
+
+58.78%
+
+83.84%
+
+0.438
+
+(-11.8%)
+
+Causal LLM
+
+56.09%
+
+83.56%
+
+0.461
+
+(-7.3%)
+
+Matrix Factorization
+
+53.59%
+
+85.24%
+
+0.4746
+
+(-4.5%)
+
+SW Ranking
+
+54.43%
+
+82.11%
+
+0.4753
+
+(-4.3%)
+
+BERT
+
+44.76%
+
+79.09%
+
+0.531
+
+(+6.9%)
+
+Causal LLM
+
+33.64%
+
+63.26%
+
+0.622
+
+(+25.3%)
+
+Matrix Factorization
+
+38.82%
+
+72.62%
+
+0.565
+
+(+13.8%)
+
+SW Ranking
+
+41.21%
+
+72.20%
+
+0.568
+
+(+14.3%)
+
+Table 3: 8-shot GSM8K results. Note that the GSM8K score at CPT(50%), 75, is 87% that of GPT-4’s score (86). Routers trained only on again perform poorly due to questions being out-of-distribution, but augmentation with substantially improves router performance. Finally, on GSM8K (Table 3), we observe that similar to MMLU, the performance of all routers trained only on the Arena dataset is close to random.

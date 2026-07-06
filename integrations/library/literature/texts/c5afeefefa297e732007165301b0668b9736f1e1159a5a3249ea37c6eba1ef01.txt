@@ -1,0 +1,14 @@
+Scaling distributed machine learning with the parameter server, 2014. Liu et al. (2019a)
+
+Liu, X., He, P., Chen, W., and Gao, J. Multi-task deep neural networks for natural language understanding. CoRR, abs/1901.11504, 2019a. URL http://arxiv.org/abs/1901.11504. Liu et al. (2019b)
+
+Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M.,
+Zettlemoyer, L., and Stoyanov, V. Roberta: A robustly optimized BERT pretraining approach. CoRR, abs/1907.11692, 2019b. URL http://arxiv.org/abs/1907.11692. Loshchilov & Hutter (2019)
+
+Loshchilov, I. and Hutter, F. Decoupled weight decay regularization. In International Conference on Learning Representations, 2019. URL https://openreview.net/forum?id=Bkg6RiCqY7. McCann et al. (2017)
+
+McCann, B., Bradbury, J., Xiong, C., and Socher, R. Learned in translation: Contextualized word vectors. CoRR, abs/1708.00107, 2017. Melamud et al. (2016)
+
+Melamud, O., Goldberger, J., and Dagan, I. context2vec: Learning generic context embedding with bidirectional
+lstm. In Proceedings of The 20th SIGNLL Conference on Computational
+Natural Language Learning, pp. 51–61, 01 2016. Merity et al.

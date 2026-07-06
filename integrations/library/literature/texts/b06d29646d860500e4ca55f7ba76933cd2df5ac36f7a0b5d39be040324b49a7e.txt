@@ -1,0 +1,17 @@
+Lamda: Language models for dialog applications. arXiv preprint arXiv:2201.08239, 2022. [31]
+
+Stefan Palan and Christian Schitter. Prolific. ac—a subject pool for online experiments. Journal of Behavioral and Experimental Finance, 17:22–27,
+2018. [32]
+
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, and Denny Zhou. Self-consistency improves chain of thought reasoning in language
+models, 2022. [33]
+
+Bernease Herman. The promise and peril of human evaluation for model interpretability. arXiv preprint arXiv:1711.07414, 2017. [34]
+
+Alon Jacovi and Yoav Goldberg. Towards faithfully interpretable nlp systems: How should we define
+and evaluate faithfulness? ACL 2020, 2020. [35]
+
+Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles
+Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, et al. The pile: An 800gb dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027, 2020. [36]
+
+Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.

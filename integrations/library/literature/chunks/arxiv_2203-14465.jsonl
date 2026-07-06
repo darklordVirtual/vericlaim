@@ -1,0 +1,112 @@
+{"fsid": "arxiv_2203-14465", "n": 111, "overlap": 200, "source_sha256": "100fdc57c7e51f7f0422639091dd5b083a7eccabad1fffa116fa16a11338a8c1", "target": 1200}
+{"section": "", "seq": 0, "sha256": "7f02282fafa153457b0b872ae88c34bff7ef4325804b4f518b5fb0cbcb92568b"}
+{"section": "STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning", "seq": 1, "sha256": "481e6afccda26fc741ca94017c858666b7b4cf641e393a1809ee517545293e40"}
+{"section": "STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning", "seq": 2, "sha256": "32dc090f48931cc1bcaafec4c16788a818d155232a60d42a92e42f63f8a17a52"}
+{"section": "1 Introduction", "seq": 3, "sha256": "a6661586326873f5f3f8312ebef78e11e8d1ec63540cad9055b624d40fbb81b4"}
+{"section": "1 Introduction", "seq": 4, "sha256": "5066ed8ccd56f91a59478f5f54692cbed71ec641f936f121613ebe42cc215352"}
+{"section": "1 Introduction", "seq": 5, "sha256": "53fb468e23cc4dc396fa826582da589558d14a338a6939cfb7e322283e0c2534"}
+{"section": "1 Introduction", "seq": 6, "sha256": "3e2b1bfe2923a7db0ac57e55b610a385809399763b1e51e6778143d7bf0b4279"}
+{"section": "1 Introduction", "seq": 7, "sha256": "c351907ad1bfa91ebe4f7d99c586208b334a14293ffb0f2dfc86377fe1358657"}
+{"section": "1 Introduction", "seq": 8, "sha256": "fbaeed048ad7c5d1864360d460eae23d5bc4c5d6719c806c5ef02286fe7fa5a6"}
+{"section": "2 Background and Related Work", "seq": 9, "sha256": "752c968bb3af95de232568730e038dbfa8d5b7fb5f5d169f40f83c441877a2ad"}
+{"section": "2 Background and Related Work", "seq": 10, "sha256": "037b705472161b692eac2f869c5e41ce4906fef568c6b73cbdc21898500b684c"}
+{"section": "2 Background and Related Work", "seq": 11, "sha256": "fd684fedb5698f0af9cf41df1d8a506afd58f597a53f5dccc1bf08455f7320c9"}
+{"section": "2 Background and Related Work", "seq": 12, "sha256": "ce049d1823d18021a08f810629aaf2011ac81fa9097dec4280a8fafddbcfabdf"}
+{"section": "2 Background and Related Work", "seq": 13, "sha256": "09e6c75224a21d9adefa009dde16404ca1c56d75f827a39f1ba8e0337599db32"}
+{"section": "3.1 Rationale Generation Bootstrapping (STaR Without Rationalization)", "seq": 14, "sha256": "91f76516d3725174b00c1ec4d4ae333283cf8e707fc42eaa71b4ee10805af2fe"}
+{"section": "3.1 Rationale Generation Bootstrapping (STaR Without Rationalization)", "seq": 15, "sha256": "61649c82ac47875db94c4dc38bfadeda95dc4c0bd3bfa5b563f21b5f78000418"}
+{"section": "3.2 Rationalization", "seq": 16, "sha256": "fbdf1bfd56a24984f59fcfa36b44a15ffbd4d394def49d1804422580b22b8bbf"}
+{"section": "3.2 Rationalization", "seq": 17, "sha256": "028e6b3e9c0b78f823c22d7515dd72464028d9bf45370ccaf94cd85fdc7c4618"}
+{"section": "3.2 Rationalization", "seq": 18, "sha256": "dd927a31d34b361cb1f11007823c32634227880a8fb59ed715963c32198d1bd9"}
+{"section": "4 Experiments", "seq": 19, "sha256": "33f7136cd642d62130d3dac2bfd6e9f3721cef1ec21fbb4c7776ccd8957efaad"}
+{"section": "4.1 Experimental Protocol", "seq": 20, "sha256": "526e07c16ee773e69e7f7d507dc23b98211d739245eb45608047575c3a104265"}
+{"section": "4.1 Experimental Protocol", "seq": 21, "sha256": "6fecc688ed86a959dad80887bd4cc135767a2684922e93f229ad7092751b3975"}
+{"section": "4.1 Experimental Protocol", "seq": 22, "sha256": "de6dee4efbe52a28375b6c8df2417d7a58759aaed36a5f027904df7d42a35289"}
+{"section": "4.2 Datasets", "seq": 23, "sha256": "28b9bd275a1b3cb03b871f7ed5d0d057264afd70ba292b9e2acdded0105f3bdc"}
+{"section": "4.2 Datasets", "seq": 24, "sha256": "c57d31a52648235c99cdb6d2b2b6a722935dece134d05d3863e33aae8c1d4f89"}
+{"section": "4.2 Datasets", "seq": 25, "sha256": "f73ca95f9a84ec24878eb9aa0818725511d5ae7f888f18dc23933fecb10b6cd5"}
+{"section": "4.3 Symbolic Reasoning: Results on Arithmetic", "seq": 26, "sha256": "69f86d8e7718788277a74926a21b1860f1752eee6bd6c8c5c7aae06cefb94788"}
+{"section": "4.3 Symbolic Reasoning: Results on Arithmetic", "seq": 27, "sha256": "4fdc43eb52d69386ca8614f91fd7e684d362a86f2349d97ec36fb04962162a08"}
+{"section": "4.4 Natural Language Reasoning: Commonsense Question Answering", "seq": 28, "sha256": "d9d940ef0726c7af98823e6b00cb6f6ad7d6a1442da635900b3b380404836235"}
+{"section": "4.4 Natural Language Reasoning: Commonsense Question Answering", "seq": 29, "sha256": "4c36b0ac10a396722a8fcc572111e55719c661ee90ccc2b9e0026c80c553d394"}
+{"section": "4.4 Natural Language Reasoning: Commonsense Question Answering", "seq": 30, "sha256": "2dbadf5df55091053773f796e7ffb040026a65e229d12547ce44798cca1edae2"}
+{"section": "4.4 Natural Language Reasoning: Commonsense Question Answering", "seq": 31, "sha256": "8b99f86daf8d779ec862ce5513cea167ae7b8e90ad0dcfcfd4723535df7640e4"}
+{"section": "4.4 Natural Language Reasoning: Commonsense Question Answering", "seq": 32, "sha256": "bbe7aba242793a602979ae897d9c2449d68bbf84014025a0388b67b2a6063c8a"}
+{"section": "4.4 Natural Language Reasoning: Commonsense Question Answering", "seq": 33, "sha256": "cb67f2f978bab57219acd6bb9c3600f018911ffbbfaa6539bf6e5e84bb6445b1"}
+{"section": "4.4 Natural Language Reasoning: Commonsense Question Answering", "seq": 34, "sha256": "a48f2ff25dc2c66ee9ffd15b0f7d4303e3cab8b64a24f8f763a358a4ad71e65a"}
+{"section": "4.5 Mathematical Reasoning in Language: Grade School Math", "seq": 35, "sha256": "f48083899f5636753593bdabd82115f252d2781691e578b9d070b60ff691745f"}
+{"section": "4.5 Mathematical Reasoning in Language: Grade School Math", "seq": 36, "sha256": "1654913452fa176b817f1bb5c002eadfca79b4c764c45829a9eda6aad21c53ca"}
+{"section": "5 Discussion and Challenges", "seq": 37, "sha256": "d67f54ed4e5254c343b5cae0af4f5ccd71651bbb8cbf70e26383119ea9ce3d19"}
+{"section": "5 Discussion and Challenges", "seq": 38, "sha256": "a8d99cd1dd949d6d4c37fcf94e783ef1b7c456308736e817643f506e0733c084"}
+{"section": "5 Discussion and Challenges", "seq": 39, "sha256": "ae3f2ab14b11eb6e996fde6720b1fd3ab3713b12938e518344c2ad42b57b7672"}
+{"section": "5 Discussion and Challenges", "seq": 40, "sha256": "9533dd6d2d53660542597c5fc49bb8fff77a2e19361c72147a3c04b593731cff"}
+{"section": "5 Discussion and Challenges", "seq": 41, "sha256": "b689e3285b80e550af996b6ec45d832392306bfc637c84f2c1a2d97a9a1011b1"}
+{"section": "6 Conclusion", "seq": 42, "sha256": "e7b6ab84e537df53c9f4c48244b95fd06d6a0e34293198ff618e39deb0b6821d"}
+{"section": "6 Conclusion", "seq": 43, "sha256": "2b9913ee666678b5b9504ad8c182c390d35e3f685a70cae16230bbb3c7053b31"}
+{"section": "Acknowledgements", "seq": 44, "sha256": "d893bd6ef36395243e85c42b1f18ee7d3b94aa37b0e246385b029ae6fa11b7a3"}
+{"section": "References", "seq": 45, "sha256": "37934591d65bfe700261acfa187844d7cebc734c5e48d44fda3132923b7f8ce3"}
+{"section": "References", "seq": 46, "sha256": "dc32c0f323da52b6b426010e6abdefd788b4e34b7c45ed4fec6f32e573d94610"}
+{"section": "References", "seq": 47, "sha256": "78e7f977a48a64c9eda8cb859ed398c8147218bae41a28a0ff00d4d562a9ea50"}
+{"section": "References", "seq": 48, "sha256": "5f0b1e71d0a1eada754c8676c560255ddf64cb1533a856672bc77277e0faf0c1"}
+{"section": "References", "seq": 49, "sha256": "300a023789c72200900765842b5a89ec8c07b390fbb9c1425851b5325e3d5f28"}
+{"section": "References", "seq": 50, "sha256": "a287a6953a25c96acb02593975e0d7955396cac7b691bf4804ca021aa6302d23"}
+{"section": "References", "seq": 51, "sha256": "b06d29646d860500e4ca55f7ba76933cd2df5ac36f7a0b5d39be040324b49a7e"}
+{"section": "Appendix A CommonsenseQA Error Patterns", "seq": 52, "sha256": "2a0ad9b864061121774b64819aa3de12a941f1091316733440001a86c3a3fbe9"}
+{"section": "A.1 Question Implies Answer", "seq": 53, "sha256": "6ebfdaf0468dd7b9e07ee5546e2774728ea317e3b2797ed2c717a3f6efe9529e"}
+{"section": "A.2 Begging the Question", "seq": 54, "sha256": "97719c7802bb9a4c5d4261f0cb64490c35642eb6a0f771466836198959a7e66a"}
+{"section": "A.3 Exercise to the Reader", "seq": 55, "sha256": "fe2d58849da532a56041b2773f3519c975a0b97c72b4d69bb6e262f8df547fea"}
+{"section": "A.4 World State Assertions", "seq": 56, "sha256": "66fbb66fc7416379471ff9909622ab409659d043ff908f70a43d3141aa5ab1e0"}
+{"section": "A.4 World State Assertions", "seq": 57, "sha256": "c5f4e2571c5229aab8a76f33178b52411e1a3ab906f13cfcb96bf7cdfe973c97"}
+{"section": "A.5 Red Herrings", "seq": 58, "sha256": "51ffae1a4ec095c0b31b9f82caef5c953ba65661d008cbeccfa39c25bf8889af"}
+{"section": "A.6 Hint Short-cutting", "seq": 59, "sha256": "bd07bd84be0a0dd30af8cfffbaff0d29364d63eaa84fa406fdcff166b9d998b4"}
+{"section": "Appendix B Modified CQA Prompts", "seq": 60, "sha256": "e864da947b0b34e5536e9a83f62628b1c9e2f6c84cd50d39bf6a433aa31339c3"}
+{"section": "Appendix B Modified CQA Prompts", "seq": 61, "sha256": "b5b4a13156a58c46a8315fe10a8cb14565ac58107affd824edbc95d3918b5757"}
+{"section": "Appendix B Modified CQA Prompts", "seq": 62, "sha256": "6b836de0b3e719c0114afbce50d9890504c338f5b9bd3604a7d6ecf0050dc091"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 63, "sha256": "4127ef42f782c34850469213cb0d7795bd96a13f5f9e06814ff553dda4756d40"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 64, "sha256": "715cd9f0a99bbe2fb3c5361441ff1e0621a5bb37d9ec8203201b7af0f7ac25c7"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 65, "sha256": "48b77384a6fd3dddd284861b44fbcacf5c0da5cbe5c64aa28e8f1cc39c06c564"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 66, "sha256": "939addb13303e43e9dae151e03a8f0399da92493d0fa54a5c631321c0fb3edd7"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 67, "sha256": "17c8161ee194c3a2ce35910ce87882c8489e4d9f1845f36c183c39152d65b765"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 68, "sha256": "cb5d7fbe925b92cd267a6fcdefb10d4f6248998877f64e59d5bdf9d6853418af"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 69, "sha256": "0fb87f64728742c1558526124f0767bc4cb72cd24d272702cd7a7c1922cff582"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 70, "sha256": "8c40d0ff60f456911636cd7d96f13e3d0024e725fa8f9a23b51730bd4c318d99"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 71, "sha256": "bbc03895288f9cc859e615605dd4807edfa7dd60994606b3c5133f41973a9330"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 72, "sha256": "92dd9b8a35f23a8f4c8ea0cb85cb899d2c3bca6bab27764e00b9e07a50414b2b"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 73, "sha256": "35e8757851d394204c635faa223fbc675a29d9caa9b93bb4fc034b264a802de4"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 74, "sha256": "996265b2c28df9da05db34df923197aa5ec4cf9933112ef14adbfb40c6443ba2"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 75, "sha256": "89e134515cdc3ff688fda84e486d3ff20fa2320de06e31a560d0ba15dd0080e0"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 76, "sha256": "c5c689ee958d7c90420a429f5842ff5871596a2f695e6ed7a0f60d06ad6e3af7"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 77, "sha256": "9d63cde5fca84ab96e8c610f5f6238359845881b32610e6dec4550fad0b1d067"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 78, "sha256": "144f4ce56504a50391650a846e867d7c9dcdad8b9a0bd32a6f951d5b2e525cbb"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 79, "sha256": "f38a0df88cc0c9f7065e86cb0aa9eea26c195cc3cbc94aa51e6454c80a267b46"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 80, "sha256": "061d209bff027d2ef46db8c3b13375bee56d7f8192ba156d46e78a9c757efdcc"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 81, "sha256": "534ed27ccc7fc69c0c0b6e78d64f3977ed60ca155dd0f0ac2eb5366d744dab0d"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 82, "sha256": "edf2ab940f70cdb863e9b4ab51d4e3d9809c1eff99cbd52696f38c0a15cabe0e"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 83, "sha256": "3f50d3e56e0a23c66324b288e2638b8a28a59cc54c8fd5d4855b46026a89bec1"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 84, "sha256": "72afa68fad6d8b9a6e4644a6c4bc67845aebda1744f47e17ff776fbed6c7e8b3"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 85, "sha256": "1525d9ba48052a94430c1efcedb93a1d1bcfecc21975a545f198ef0c492e5fe5"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 86, "sha256": "cfd8cbbcaba341dd163abe73aa7d9e8373913e33e0ee9f849be36be9bc244a87"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 87, "sha256": "64822cff890c5fc2a6f09e163e5f08515d53289321dc78e315759ca6a66a20f0"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 88, "sha256": "1839b4e9f878713f414af2f430c678a31b139249169e0180fcd7bae41a7ae382"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 89, "sha256": "4604aba70cb61b6b3e30ebbef22e349569af87bc72d843ea43f237320404e271"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 90, "sha256": "4d4d9d627832e4fa7d6804341acbf38e1aadea23b454dc8713438332f685a776"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 91, "sha256": "bae402c6a8be6a25ef5ead1db578eaa12aa7076f3a0fd8784c2f628a08a0c14a"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 92, "sha256": "32125df9009e604e4c4ee2db34741ff1732fdb05051e7b0decc2ccf8ba5e8d9a"}
+{"section": "Appendix C Human-evaluated Test Prompts", "seq": 93, "sha256": "718cd4b2fcbfddb6c148a03dc717e80b877a7aa38239c677241dbfb5f2b22f40"}
+{"section": "Appendix D Example Rationalizations on CQA", "seq": 94, "sha256": "f8faedf21790754b7b6b191d8ad668cb6973a5198be1287e9b126328f7e7fc68"}
+{"section": "Appendix D Example Rationalizations on CQA", "seq": 95, "sha256": "5889dd833961717f6dabd7e8268c301f13013fac6c5129dbb0ee1f3407af14d9"}
+{"section": "Appendix D Example Rationalizations on CQA", "seq": 96, "sha256": "71c929084ddc2ba4495481cf67df4e9a716e62c6b1c9784dcb8b4fe5aef8e05a"}
+{"section": "Appendix D Example Rationalizations on CQA", "seq": 97, "sha256": "6c68742c6beeeb56358b522c8be8b5cd04481149536e64634de972bf022207bd"}
+{"section": "Appendix E STaR Without Rationalization (Rationale Generation Bootstrapping)", "seq": 98, "sha256": "5247c5e465ccbdf35c0664aab354bae84aea58b6af4eab1085001d06dba7dd62"}
+{"section": "Appendix F Case Study", "seq": 99, "sha256": "2d0f569b2f356d464a8c4e607527e0b59f4eaa3b0829386382ceb8f64072214e"}
+{"section": "Appendix F Case Study", "seq": 100, "sha256": "43ee2b7f3f43140bc8dc888ed4d6c14b6b12b5f88c6ef31df832dfb11c0c9262"}
+{"section": "Appendix F Case Study", "seq": 101, "sha256": "67769c66c04e75d3fb33a5f36371fd67712216fc4d1c0a68907356904e949763"}
+{"section": "Appendix G Bias and Faithfulness", "seq": 102, "sha256": "2821a29ed88cb8c21fd87d49fff01cb7f135a551496881456acb86883d45cd16"}
+{"section": "Appendix G Bias and Faithfulness", "seq": 103, "sha256": "1fa8c7907ba08023ad9a398c04f35e34f4ba2d7aad2f870c1cc11f7ae63eb2c2"}
+{"section": "Appendix G Bias and Faithfulness", "seq": 104, "sha256": "735b2ca8cbbe8c8b389ab9969441f95b80d97634ad20a6bc04948a511982a8f5"}
+{"section": "Appendix H Hyperparameters", "seq": 105, "sha256": "9f54b6ecc81b5db31e9d3a97970bf81942cfb1b2aa46eea7a6870569cd98f907"}
+{"section": "Appendix I GSM8K Few-shot Prompt", "seq": 106, "sha256": "e066d5aeca74575a8ebce1aaf5f1dd05fe676f139b5634ba71ed1fab99ccb1d1"}
+{"section": "Appendix I GSM8K Few-shot Prompt", "seq": 107, "sha256": "6db80f4f3a28f3186ff15aecabf53eca3d85fa050da8cc722e6eba2764421230"}
+{"section": "Appendix I GSM8K Few-shot Prompt", "seq": 108, "sha256": "6e29c9df0c00a4ff989a59fee1889cbd40923076aa64be9b0ea824000b43c3f8"}
+{"section": "Appendix I GSM8K Few-shot Prompt", "seq": 109, "sha256": "829659a0dcabee52babbca1f62426330133a9b404bf6cf26a74c8021814f61e4"}
+{"section": "Appendix J STaR GSM8K Solutions", "seq": 110, "sha256": "3cb78f2a743c1bf9003db767296f8e91650ee087060c1c9306adb4e1ba6164ab"}

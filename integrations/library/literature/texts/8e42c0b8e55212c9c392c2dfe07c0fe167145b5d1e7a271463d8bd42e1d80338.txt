@@ -1,0 +1,11 @@
+Achiam et al. (2023)
+
+Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et al. Gpt-4 technical report. arXiv preprint arXiv:2303.08774, 2023. Aggarwal et al. (2024)
+
+Pranjal Aggarwal, Aman Madaan, Ankit Anand, Srividya Pranavi Potharaju, Swaroop Mishra, Pei Zhou, Aditya Gupta, Dheeraj Rajagopal, Karthik Kappaganthu, Yiming Yang, Shyam Upadhyay, Manaal Faruqui, and Mausam. Automix: Automatically mixing language models, 2024. URL https://arxiv.org/abs/2310.12963. AI@Meta (2024a)
+
+AI@Meta. Llama 3.1 model card, 2024a. URL https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md. Accessed: 2024-09-29. AI@Meta (2024b)
+
+AI@Meta. Introducing meta llama 3: The most capable openly available llm to date, 2024b. URL https://ai.meta.com/blog/meta-llama-3/. Accessed: 2024-05-21. Anthropic (2024)
+
+Anthropic. "introducing the next generation of claude", 2024. URL https://www.anthropic.com/news/claude-3-family. Accessed: 2024-05-22. Bai et al.

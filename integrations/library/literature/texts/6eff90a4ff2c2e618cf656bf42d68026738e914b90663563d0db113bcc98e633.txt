@@ -1,0 +1,19 @@
+In Conference on Empirical Methods in Natural Language
+Processing. Lu et al. (2022)
+
+Ximing Lu, Sean Welleck, Liwei Jiang, Jack Hessel, Lianhui Qin, Peter West,
+Prithviraj Ammanabrolu, and Yejin Choi. 2022. Quark: Controllable text generation with reinforced unlearning. ArXiv, abs/2205.13636. Madaan et al. (2023)
+
+Aman Madaan, Alexander Shypula, Uri Alon, Milad Hashemi, Parthasarathy
+Ranganathan, Yiming Yang, Graham Neubig, and Amir Yazdanbakhsh. 2023. Learning performance-improving code edits. arXiv preprint arXiv:2302.07867. Madaan et al. (2021)
+
+Aman Madaan, Niket Tandon, Dheeraj Rajagopal, Peter Clark, Yiming Yang, and
+Eduard Hovy. 2021. Think about
+it! improving defeasible reasoning by first modeling the question scenario. In Proceedings of the 2021 Conference on Empirical Methods in
+Natural Language Processing, pages 6291–6310, Online and Punta Cana,
+Dominican Republic. Association for Computational Linguistics. Mehri and Eskenazi (2020)
+
+Shikib Mehri and Maxine Eskenazi. 2020. Unsupervised
+evaluation of interactive dialog with DialoGPT. In Proceedings of the 21th Annual Meeting of the Special
+Interest Group on Discourse and Dialogue, pages 225–235, 1st virtual
+meeting.

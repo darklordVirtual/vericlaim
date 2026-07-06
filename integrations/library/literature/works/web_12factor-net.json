@@ -1,0 +1,20 @@
+{
+  "abstract": "The Twelve-Factor App\n\n## Introduction\n\nIn the modern era, software is commonly delivered as a service: called web apps, or software-as-a-service. The twelve-factor app is a methodology for building software-as-a-service apps that:\n\nUse declarative formats for setup automation, to minimize time and cost for new developers joining the project;\n\nHave a clean contract with the underlying operating system, offering maximum portability between execution environments;\n\nAre suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration;\n\nMinimize divergence between development and production, enabling continuous deployment for maximum agility;\n\nAnd can scale up without significant changes to tooling, architecture, or development practices.\n\nThe twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).\n\n## Background\n\nThe contributors to this document have been directly involved in the development and deployment of hundreds of apps, and indirectly witnessed the development, operation, and scaling of hundreds of thousands of apps via our work on the Heroku platform.\n\nThis document synthesizes all of our experience and observations on a wide variety of software-as-a-service apps in the wild. It is a triangulation on ideal practices for app development, paying particular attention to the dynamics of the organic growth of an app over time, the dynamics of collaboration between developers working on the app’s codebase, and avoiding the cost of software erosion.\n\nOur motivation is to raise awareness of some systemic problems we’ve seen in modern application development, to provide a shared vocabulary for discussing those problems, and to offer a set of broad conceptual solutions to those problems with accompanying terminology. The format is inspired by Martin Fowler’s books Patterns of Enterprise Application Architecture and Refactoring.\n\n## Who should read this document?\n\nAny developer building applications which run as a service. Ops engineers who deploy or manage such applications.\n\n## The Twelve Factors\n\n## I. Codebase\n\n## One codebase tracked in revision control, many deploys\n\n## II. Dependencies\n\n## Explicitly declare and isolate dependencies\n\n## III. Config\n\n## Store config in the environment\n\n## IV. Backing services\n\n## Treat backing services as attached resources\n\n## V. Build, release, run\n\n## Strictly separate build and run stages\n\n## VI. Processes\n\n## Execute the app as one or more stateless processes\n\n## VII. Port binding\n\n## Export services via port binding\n\n## VIII. Concurrency\n\n## Scale out via the process model\n\n## IX. Disposability\n\n## Maximize robustness with fast startup and graceful shutdown\n\n## X. Dev/prod parity\n\n## Keep development, staging, and production as similar as possible\n\n## XI. Logs\n\n## Treat logs as event streams\n\n## XII. Admin processes\n\n## Run admin/management tasks as one-off processes\n",
+  "accredited": false,
+  "authors": [
+    "Wiggins"
+  ],
+  "registrar": "web-snapshot",
+  "retrieval": {
+    "fetched_at": "2026-07-06T01:05:46.048733+00:00",
+    "method": "web-snapshot",
+    "url": "https://12factor.net/"
+  },
+  "source_type": "web-snapshot",
+  "text_sha256": "678283346ee2aa3e0f6f7c5fee19b5a6b813ff74bf7c4e113fd8b3f5db35ef8f",
+  "title": "The Twelve-Factor App",
+  "url": "https://12factor.net/",
+  "venue": "Wiggins",
+  "work_id": "web:12factor.net",
+  "year": null
+}

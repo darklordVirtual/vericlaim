@@ -1,0 +1,16 @@
+Beyond the imitation game: Measuring and extrapolating the
+capabilities of language models. In preparation, 2021. URL https://github.com/google/BIG-bench/. Brown et al. (2020)
+
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon
+Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris
+Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess,
+Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever,
+and Dario Amodei. Language models are few-shot learners. In Advances in Neural Information Processing Systems, 2020. URL
+https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf. Camburu et al. (2018)
+
+Oana-Maria Camburu, Tim Rocktäschel, Thomas Lukasiewicz, and Phil Blunsom. e-snli: Natural language inference with natural language
+explanations. In S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi,
+and R. Garnett (eds.), Advances in Neural Information Processing
+Systems 31, pp. 9539–9549.

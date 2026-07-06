@@ -1,0 +1,19 @@
+PMLR. Du et al. (2022)
+
+Wanyu Du, Zae Myung Kim, Vipul Raheja, Dhruv Kumar, and Dongyeop Kang. 2022. Read, revise,
+repeat: A system demonstration for human-in-the-loop iterative text
+revision. In Proceedings of the First Workshop on Intelligent and
+Interactive Writing Assistants (In2Writing 2022), pages 96–108, Dublin,
+Ireland. Association for Computational Linguistics. Elgohary et al. (2021)
+
+Ahmed Elgohary, Christopher Meek, Matthew Richardson, Adam Fourney, Gonzalo
+Ramos, and Ahmed Hassan Awadallah. 2021. NL-EDIT:
+Correcting semantic parse errors through natural language interaction. In Proceedings of the 2021 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pages 5599–5610, Online. Association for Computational
+Linguistics. Flower and Hayes (1981)
+
+Linda Flower and John R Hayes. 1981. A cognitive process theory of writing. College composition and communication, 32(4):365–387. Fu et al. (2023)
+
+Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, and Pengfei Liu. 2023. Gptscore: Evaluate as you
+desire. arXiv preprint arXiv:2302.04166. Gao et al.

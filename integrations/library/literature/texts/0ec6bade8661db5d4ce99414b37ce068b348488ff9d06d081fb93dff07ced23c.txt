@@ -1,0 +1,20 @@
+[RCM19]
+
+Siva Reddy, Danqi Chen, and Christopher D Manning. Coqa: A conversational question answering challenge. Transactions of the Association for Computational Linguistics,
+7:249–266, 2019. [RRWN11]
+
+Benjamin Recht, Christopher Re, Stephen Wright, and Feng Niu. Hogwild!: A lock-free approach to parallelizing stochastic gradient
+descent. Advances in neural information processing systems, 24, 2011. [SDCW19]
+
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. Distilbert, a distilled version of bert: smaller, faster, cheaper and
+lighter. arXiv preprint arXiv:1910.01108, 2019. [SK21]
+
+Ankur Sinha and Tanmay Khandait. Impact of news on the commodity market: Dataset and results. In Advances in Information and Communication: Proceedings of the
+2021 Future of Information and Communication Conference (FICC), Volume 2,
+pages 589–601. Springer, 2021. [Tex]
+
+Textsynth LLM API. https://textsynth.com/. Accessed: 2023-03-31. [TLI+23]
+
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne
+Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric
+Hambro, Faisal Azhar, et al. Llama: Open and efficient foundation language models.

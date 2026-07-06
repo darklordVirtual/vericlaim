@@ -1,0 +1,21 @@
+Therefore, the correct final answer is (D) competition. (Incorrect)
+
+Figure 6: Example on CommonSenseQA where self-correction changes a correct answer to an incorrect one. ⬇
+
+|\textbf{Concepts: [’footage’, ’motion’, ’ruin’, ’tilt’, ’window’]}|
+
+\par|\textbf{Sentence: time lapse footage with tilt up motion of the sun streaking through window of ruin}|
+
+\par|\textbf{###}|
+
+\par|\textbf{Concepts: [’cause’, ’hate’, ’hut’, ’local’, ’love’]}|
+
+\par|\textbf{Sentence: new beach huts on the island have caused some controversy some locals love them others hate them}|
+
+\par|\textbf{[8 more in-context examples]}|
+
+\par|\textbf{###}|
+
+\par|\textbf{Concepts: [’vest’, ’snow’,’remove’, ’silhouette’, ’dunk’, ’step’, ’item’, ’toddler’, ’plaster’, ’wall’, ’piece’, ’tool’, ’circle’, ’pull’,’wrap’, ’headphone’, ’deck’, ’suit’, ’press’, ’mother’, ’pit’, ’cupcake’, ’priest’, ’rink’, ’counter’, ’rest’,’piano’, ’wine’, ’serve’, ’winter’]}|
+
+\parSentence: A toddler wearing a vest and snow boots steps onto the icy deck, removes a circle-shaped piece of plaster from the wall, and pulls out a tool from their winter suit to wrap their head around a headphone.

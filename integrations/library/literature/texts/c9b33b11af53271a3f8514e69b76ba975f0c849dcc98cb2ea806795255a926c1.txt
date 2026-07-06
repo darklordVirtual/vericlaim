@@ -1,0 +1,18 @@
+2018. Think you have solved question answering? try arc, the ai2 reasoning
+challenge. arXiv preprint arXiv:1803.05457. Cobbe et al. (2021)
+
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+et al. 2021. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168. Dai et al. (2019)
+
+Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V Le, and Ruslan
+Salakhutdinov. 2019. Transformer-xl: Attentive language models beyond a fixed-length
+context. arXiv preprint arXiv:1901.02860. Dao et al. (2022)
+
+Tri Dao, Daniel Y Fu, Stefano Ermon, Atri Rudra, and Christopher Ré. 2022. Flashattention: Fast and memory-efficient exact attention with
+io-awareness. arXiv preprint arXiv:2205.14135. Devlin et al. (2018)
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language
+understanding. arXiv preprint arXiv:1810.04805. Elman (1990)
+
+Jeffrey L Elman. 1990. Finding structure in time. Cognitive science, 14(2):179–211. Fried et al.

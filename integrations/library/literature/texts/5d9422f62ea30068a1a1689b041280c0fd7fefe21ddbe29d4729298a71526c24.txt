@@ -1,0 +1,18 @@
+arXiv preprint arXiv:2002.08910, 2020. RSR+ [19]
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer, 2019. RWC+ [19]
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+Sutskever. Language models are unsupervised multitask learners, 2019. SBBC [19]
+
+Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. Winogrande: An adversarial winograd schema challenge at scale, 2019. SBC+ [19]
+
+Irene Solaiman, Miles Brundage, Jack Clark, Amanda Askell, Ariel Herbert-Voss,
+Jeff Wu, Alec Radford, Gretchen Krueger, Jong Wook Kim, Sarah Kreps, Miles
+McCain, Alex Newhouse, Jason Blazakis, Kris McGuffie, and Jasmine Wang. Release strategies and the social impacts of language models, 2019. SCNP [19]
+
+Emily Sheng, Kai-Wei Chang, Premkumar Natarajan, and Nanyun Peng. The woman worked as a babysitter: On biases in language generation. arXiv preprint arXiv:1909.01326, 2019. SDCW [19]
+
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf.

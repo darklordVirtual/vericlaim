@@ -1,0 +1,11 @@
+We trained 10 separate models to predict , using exactly the same architecture and training
+procedure as the baseline. The models are randomly initialized with different initial parameter values and we find that
+this creates sufficient diversity in the trained models to allow the averaged predictions of the ensemble to
+significantly outperform the individual models. We have explored adding diversity to the models by varying the sets of
+data that each model sees, but we found this to not significantly change our results, so we opted for the simpler
+approach. For the distillation we tried temperatures of and used a relative weight of 0.5 on the
+cross-entropy for the hard targets, where bold font indicates the best value that was used for
+table 1 . Table 1 shows that, indeed, our distillation approach is able to extract more useful information
+from the training set than simply using the hard labels to train a single model. More than 80% of the improvement in
+frame classification accuracy achieved by using an ensemble of 10 models is transferred to the distilled model which is
+similar to the improvement we observed in our preliminary experiments on MNIST.

@@ -1,0 +1,51 @@
+Note that the sqare root will be smaller than n, so at least half of the numbers it is looping through are unnecessary. At most, you need to loop through the numbers up to the square root of n. \par# Improved version:
+
+\para, b = input().split()
+
+n = int(a + b)
+
+\parflag = False
+
+for i in range(1000):
+
+if i ** 2 == n:
+
+flag = True
+
+break
+
+\parprint(’Yes’ if flag else ’No’)
+
+Figure 24: refine prompt for Code Optimization
+
+⬇
+
+\parI have some code. Can you give one suggestion to improve readability. Don’t fix the code, just give a suggestion. \par{code}
+
+\par
+
+Figure 25: feedback prompt for Code Readability
+
+⬇
+
+\parI have some code. Can you give one suggestion to improve readability. Don’t fix the code, just give a suggestion. \par{code}
+
+\par{suggestion}
+
+\parNow fix the code. \par
+
+Figure 26: refine prompt for Code Readability
+
+⬇
+
+###
+
+\parConcepts: [’create’, ’ferry’, ’silhouette’, ’stream’, ’terminal’]
+
+\parSentence: light streams through windows at the railroad and ferry terminal creating a beautiful silhouette
+
+\par###
+
+\parConcepts: [’chair’, ’couch’, ’hang’, ’room’, ’wall’]
+
+\parSentence: A room with a couch, chairs and art hanging on the wall.

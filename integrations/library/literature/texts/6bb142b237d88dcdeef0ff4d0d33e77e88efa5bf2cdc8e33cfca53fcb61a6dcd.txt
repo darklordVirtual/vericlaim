@@ -1,0 +1,17 @@
+Almahairi et al. (2015)
+
+A. Almahairi, N. Ballas, T. Cooijmans, Y. Zheng, H. Larochelle, and
+A. Courville. Dynamic Capacity Networks. ArXiv e-prints, November 2015. Amodei et al. (2015)
+
+Dario Amodei, Rishita Anubhai, Eric Battenberg, Carl Case, Jared Casper, Bryan
+Catanzaro, Jingdong Chen, Mike Chrzanowski, Adam Coates, Greg Diamos, Erich
+Elsen, Jesse Engel, Linxi Fan, Christopher Fougner, Tony Han, Awni Y. Hannun,
+Billy Jun, Patrick LeGresley, Libby Lin, Sharan Narang, Andrew Y. Ng, Sherjil
+Ozair, Ryan Prenger, Jonathan Raiman, Sanjeev Satheesh, David Seetapun,
+Shubho Sengupta, Yi Wang, Zhiqian Wang, Chong Wang, Bo Xiao, Dani Yogatama,
+Jun Zhan, and Zhenyao Zhu. Deep speech 2: End-to-end speech recognition in english and mandarin. arXiv preprint arXiv:1512.02595, 2015. Bahdanau et al. (2014)
+
+Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and
+translate. arXiv preprint arXiv:1409.0473, 2014. Bengio et al. (2015)
+
+Emmanuel Bengio, Pierre-Luc Bacon, Joelle Pineau, and Doina Precup. Conditional computation in neural networks for faster models. arXiv preprint arXiv:1511.06297, 2015. Bengio et al.

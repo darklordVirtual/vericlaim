@@ -1,0 +1,15 @@
+After reviewing the previous answer, the correct final answer is \boxed{260}. (Correct)
+
+Figure 5: Example on GSM8K where self-correction does not change the answer. ⬇
+
+|\textbf{Q: A fencing thrust with a sharp sword towards a person would result in what?}|
+
+|\textbf{Answer Choices: (A) injury (B) small cuts (C) fever (D) competition (E) puncture wound.}|
+
+|\textbf{Explain your reasoning. You must choose only one option from A to E. Your final answer should be a single letter from A to E, in the form (answer), at the end of your response.}|
+
+\parA: A fencing thrust with a sharp sword towards a person would result in a puncture wound. This is because a fencing thrust involves forcefully stabbing with a sword, which can penetrate the skin and create a deep, narrow wound. Puncture wounds can be very dangerous as they can damage internal organs and cause bleeding. Therefore, the most appropriate answer is (E) puncture wound. (Correct)
+
+\par|\textbf{Review your previous answer and find problems with your answer.}|
+
+\parUpon reviewing my previous answer, I realize that there are some problems with it.

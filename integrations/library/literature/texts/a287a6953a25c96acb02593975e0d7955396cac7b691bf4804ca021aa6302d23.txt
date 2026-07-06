@@ -1,0 +1,20 @@
+[26]
+
+Ben Wang. Mesh-Transformer-JAX: Model-Parallel Implementation of Transformer
+Language Model with JAX. https://github.com/kingoflolz/mesh-transformer-jax, May 2021. [27]
+
+Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh
+Hajishirzi, and Luke Zettlemoyer. Rethinking the role of demonstrations: What makes in-context learning
+work? arXiv preprint arXiv:2202.12837, 2022. [28]
+
+Robyn Speer, Joshua Chin, and Catherine Havasi. Conceptnet 5.5: An open multilingual graph of general knowledge. singh 2002 (2016). arXiv preprint arxiv:1612.03975, 2016. [29]
+
+Yichong Xu, Chenguang Zhu, Shuohang Wang, Siqi Sun, Hao Cheng, Xiaodong Liu,
+Jianfeng Gao, Pengcheng He, Michael Zeng, and Xuedong Huang. Human parity on commonsenseqa: Augmenting self-attention with
+external attention. arXiv:2112.03254, December 2021. human parity result on CommonsenseQA. [30]
+
+Romal Thoppilan, Daniel De Freitas, Jamie Hall, Noam Shazeer, Apoorv
+Kulshreshtha, Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu Du,
+et al. Lamda: Language models for dialog applications. arXiv preprint arXiv:2201.08239, 2022. [31]
+
+Stefan Palan and Christian Schitter. Prolific.

@@ -1,0 +1,18 @@
+Ott et al. [2016]
+
+J. Ott, Z. Lin, Y. Zhang, S.-C. Liu, and Y. Bengio. Recurrent neural networks with limited numerical precision. arXiv preprint arXiv:1608.06902, 2016. Paszke et al. [2017]
+
+A. Paszke, S. Gross, S. Chintala, G. Chanan, E. Yang, Z. DeVito, Z. Lin,
+A. Desmaison, L. Antiga, and A. Lerer. Automatic differentiation in pytorch. 2017. Radford et al. [2015]
+
+A. Radford, L. Metz, and S. Chintala. Unsupervised representation learning with deep convolutional
+generative adversarial networks. CoRR, abs/1511.06434, 2015. URL
+http://dblp.uni-trier.de/db/journals/corr/corr1511.html#RadfordMC15. Rastegari et al. [2016]
+
+M. Rastegari, V. Ordonez, J. Redmon, and A. Farhadi. XNOR-Net: ImageNet Classification Using Binary Convolutional
+Neural Networks, pages 525–542. Springer International Publishing, Cham, 2016. ISBN 978-3-319-46493-0. doi: 10.1007/978-3-319-46493-0˙32. URL https://doi.org/10.1007/978-3-319-46493-0_32. Ren et al. [2015]
+
+S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN: Towards real-time object detection with region
+proposal networks. In Neural Information Processing Systems (NIPS), 2015. Russakovsky et al. [2015]
+
+O. Russakovsky, J. Deng, H. Su, J. Krause, S.

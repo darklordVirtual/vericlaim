@@ -1,0 +1,25 @@
+Charlie Snell
+
+Work done during an internship at Google DeepMind
+
+UC Berkeley
+
+Jaehoon Lee
+
+Google DeepMind
+
+Kelvin Xu
+
+Equal advising
+
+Google DeepMind
+
+Aviral Kumar
+
+Equal advising
+
+Google DeepMind
+
+Abstract
+
+Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies.

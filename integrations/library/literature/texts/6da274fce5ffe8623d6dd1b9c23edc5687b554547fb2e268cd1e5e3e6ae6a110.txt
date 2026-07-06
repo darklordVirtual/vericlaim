@@ -1,0 +1,1 @@
+This was reasonably fast, but the same method resulted in a corrupted database about of the way through processing Common Crawl. After the Cassandra corruption, we briefly tested the experimental Mongo implementation; however this was quite slow due to the nature of Mongo itself. In the end, we ran in-memory LSH on a machine with enough RAM for Common Crawl, taking several days.

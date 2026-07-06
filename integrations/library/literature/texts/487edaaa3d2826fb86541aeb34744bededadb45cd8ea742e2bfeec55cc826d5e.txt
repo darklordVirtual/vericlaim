@@ -1,0 +1,11 @@
+An example of a sentence that uses the word farduddle is:
+
+One day when I was playing tag with my little sister, she got really excited and she started doing these crazy farduddles. A "yalubalu" is a type of vegetable that looks like a big pumpkin. An example of a sentence that uses the word yalubalu is:
+
+I was on a trip to Africa and I tried this yalubalu vegetable that was grown in a garden there. It was delicious. A "Burringo" is a car with very fast acceleration. An example of a sentence that uses the word Burringo is:
+
+In our garage we have a Burringo that my father drives to work every day. A "Gigamuru" is a type of Japanese musical instrument. An example of a sentence that uses the word Gigamuru is:
+
+I have a Gigamuru that my uncle gave me as a gift. I love to play it at home. To "screeg" something is to swing a sword at it. An example of a sentence that uses the word screeg is:
+
+We screeghed at each other for several minutes and then we went outside and ate ice cream. Figure 3.16: Representative GPT-3 completions for the few-shot task of using a new word in a sentence. Boldface is GPT-3’s completions, plain text is human prompts.

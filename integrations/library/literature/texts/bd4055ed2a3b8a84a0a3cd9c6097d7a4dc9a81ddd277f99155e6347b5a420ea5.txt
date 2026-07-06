@@ -1,0 +1,116 @@
+Importantly, we use the same routers as before without any retraining, and only replace the strong and weak model routed to. These LLMs are also not present in the training data. Model Pair
+Method
+
+Improvement
+
+( / )
+
+Claude 3 Opus /
+
+Random (95% CI)
+
+49.89 (3)%
+
+72.27 (4)%
+
+0.493 (0.033)
+
+(+0%)
+
+Claude 3 Sonnet
+
+BERT
+
+34.85%
+
+39.04%
+
+0.682
+
+(+38.3%)
+
+Causal LLM
+
+28.12%
+
+50.00%
+
+0.656
+
+(+33.1%)
+
+Matrix Factorization
+
+31.86%
+
+36.43%
+
+0.762
+
+(+54.6%)
+
+SW Ranking
+
+23.27%
+
+51.85%
+
+0.772
+
+(+56.6%)
+
+Llama 3.1 70B /
+
+Random (95% CI)
+
+47.52(3)%
+
+76.26(2)%
+
+0.512 (0.017)
+
+(+0%)
+
+Llama 3.1 8B
+
+BERT
+
+30.15%
+
+38.91%
+
+0.673
+
+(+31.4%)
+
+Causal LLM
+
+34.05%
+
+45.96%
+
+0.689
+
+(+34.6%)
+
+Matrix Factorization
+
+25.83%
+
+37.30%
+
+0.738
+
+(+44.1%)
+
+SW Ranking
+
+21.18%
+
+29.39%
+
+0.767
+
+(+49.8%)
+
+Table 4: MT Bench results for our routers when used to route between different model pairs. We use the exact same routers as before trained on . Our routers generalize very well across different model pairs without any retraining. We observe strong results across all existing routers on MT Bench even when the model pair is replaced, with performance comparable to that of the original model pair.

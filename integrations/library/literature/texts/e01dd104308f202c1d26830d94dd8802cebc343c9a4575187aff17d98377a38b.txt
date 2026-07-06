@@ -1,0 +1,16 @@
+In Proceedings of the 2016 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, 2016. doi: 10.18653/v1/N16-1136. URL https://aclanthology.org/N16-1136. Lan et al. (2021)
+
+Yihuai Lan, Lei Wang, Qiyuan Zhang, Yunshi Lan, Bing Tian Dai, Yan Wang,
+Dongxiang Zhang, and Ee-Peng Lim. MWPToolkit: An open-source framework for deep learning-based math
+word problem solvers. arXiv preprint arXiv:2109.00799, 2021. URL https://arxiv.org/abs/2109.00799. Li & Jurafsky (2016)
+
+Jiwei Li and Dan Jurafsky. Mutual information and diverse decoding improve neural machine
+translation, 2016. URL https://arxiv.org/abs/1601.00372. Li et al. (2016)
+
+Jiwei Li, Will Monroe, and Dan Jurafsky. A simple, fast diverse decoding algorithm for neural generation. CoRR, abs/1611.08562, 2016. URL http://arxiv.org/abs/1611.08562. Ling et al. (2017)
+
+Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom. Program induction by rationale generation: Learning to solve and
+explain algebraic word problems. In Proceedings of the 55th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), 2017. doi: 10.18653/v1/P17-1015.

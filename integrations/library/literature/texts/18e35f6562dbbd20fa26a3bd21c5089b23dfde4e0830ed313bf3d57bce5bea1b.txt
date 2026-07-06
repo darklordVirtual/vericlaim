@@ -1,0 +1,17 @@
+Ackley et al. (1985)
+
+David H. Ackley, Geoffrey E. Hinton, and Terrence J. Sejnowski. A learning algorithm for boltzmann machines. Cognitive Science, 9(1):147–169, 1985. ISSN 0364-0213. URL
+https://www.sciencedirect.com/science/article/pii/S0364021385800124. Adiwardana et al. (2020)
+
+Daniel Adiwardana, Minh-Thang Luong, David R. So, Jamie Hall, Noah Fiedel,
+Romal Thoppilan, Zi Yang, Apoorv Kulshreshtha, Gaurav Nemade, Yifeng Lu, and
+Quoc V. Le. Towards a human-like open-domain chatbot, 2020. Amini et al. (2019)
+
+Aida Amini, Saadia Gabriel, Shanchuan Lin, Rik Koncel-Kedziorski, Yejin Choi,
+and Hannaneh Hajishirzi. MathQA: Towards interpretable math word problem solving with
+operation-based formalisms. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 2357–2367. Association for Computational Linguistics, June 2019. URL https://aclanthology.org/N19-1245. Andor et al. (2019)
+
+Daniel Andor, Luheng He, Kenton Lee, and Emily Pitler. Giving BERT a calculator: Finding operations and arguments with
+reading comprehension.

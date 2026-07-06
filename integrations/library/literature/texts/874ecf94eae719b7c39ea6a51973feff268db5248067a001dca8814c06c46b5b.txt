@@ -1,0 +1,15 @@
+arXiv preprint arXiv:2306.02561, 2023. Kingma & Ba (2017)
+
+Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization, 2017. URL https://arxiv.org/abs/1412.6980. Koren et al. (2009)
+
+Yehuda Koren, Robert Bell, and Chris Volinsky. Matrix factorization techniques for recommender systems. Computer, 42(8):30–37, 2009. Lu et al. (2023)
+
+Keming Lu, Hongyi Yuan, Runji Lin, Junyang Lin, Zheng Yuan, Chang Zhou, and Jingren Zhou. Routing to the expert: Efficient reward-guided ensemble of large language models, 2023. URL https://arxiv.org/abs/2311.08692. Martian (2024)
+
+Martian. Martian router, 2024. URL https://withmartian.com/. Accessed: 2024-06-30. OpenAI (2023)
+
+OpenAI. Gpt-4 technical report. arXiv preprint arXiv:2303.08774, 2023. OpenAI (2024)
+
+OpenAI. Openai pricing, 2024. URL https://openai.com/api/pricing/. Accessed: 2024-06-30. Ouyang et al. (2022)
+
+Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language models to follow instructions with human feedback. Advances in neural information processing systems, 35:27730–27744, 2022. Radford et al.

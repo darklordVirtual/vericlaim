@@ -1,0 +1,17 @@
+Sometimes, the model will assume that it knows something about a subject or a person whose name was used as a variable. This leads to somewhat comical examples of reasoning. Part of the reason for this is that generally, there is an expectation that good rationales will leverage understanding of more general classes of objects and appeal to the relationship between those general classes and the particular instance. For example, the argument that “a person would typically feel exhilaration from heights” is generally more compelling than the argument that “James would feel exhilaration from heights.”
+
+Q: A person’s hand hurts after hitting the bottle. What might happen to
+the bottle? Answer Choices:
+(a) alcoholism
+(b) breaking
+(c) fly
+(d) nausea
+(e) ticket
+A: The answer must be something that happens to the bottle. The bottle is
+broken. Therefore, the answer is breaking (b). Q: James loved climbing. What emotion might he feel from heights? Answer Choices:
+(a) exhaustion
+(b) exhilaration
+(c) falling down
+(d) nervousness
+(e) vertigo
+A: The answer must be a feeling that would cause someone to climb a mountain. James would feel exhilaration from heights.

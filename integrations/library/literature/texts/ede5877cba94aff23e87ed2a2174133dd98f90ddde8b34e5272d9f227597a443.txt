@@ -1,0 +1,76 @@
+Second, these reinforcement learning methods require updating the model’s parameters, unlike \ours. See Table 5 for an additional detailed comparison of related work. Method
+
+Primary Novelty
+
+zero/few shot improvement
+multi aspect critics
+
+NL feedback with error localization
+
+iterative framework
+
+RLHF Stiennon et al. (2020)
+
+optimize for human preference
+
+trained on feedback
+single (human)
+
+(not self gen.)
+
+Rainier RL Liu et al. (2022)
+
+RL to generate knowledge
+
+trained on end task
+single(accuracy)
+
+(knowl. only)
+
+Quark RL Lu et al. (2022)
+
+quantization to edit generations
+
+trained on end task
+single(scalar score)
+
+(dense signal)
+
+(train time iter.)
+
+Code RL Le et al. (2022a)
+
+actor critic RL for code improvement
+
+trained on end task
+single(unit tests)
+
+(dense signal)
+
+DrRepair Yasunaga and Liang (2020)
+
+Compiler feedback to iteratively repair
+
+trained semi sup. single(compiler msg)
+
+(not self gen.)
+
+PEER Schick et al. (2022b)
+
+doc. edit trained on wiki edits
+
+trained on edits
+single(accuracy)
+
+(not self gen.)
+
+Self critique Saunders et al. (2022a)
+
+few shot critique generation
+
+feedback training
+single(human)
+
+(self gen.)
+
+Self-correct Welleck et al.

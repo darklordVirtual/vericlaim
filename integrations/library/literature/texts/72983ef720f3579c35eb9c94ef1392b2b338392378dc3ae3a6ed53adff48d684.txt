@@ -1,0 +1,21 @@
+Piqa: Reasoning about physical commonsense in natural language. arXiv preprint arXiv:1911.11641, 2019. Car [97]
+
+Rich Caruana. Multitask learning. Machine learning, 28(1), 1997. CB [78]
+
+Susan Carey and Elsa Bartlett. Acquiring a single new word. Proceedings of the Stanford Child Language Conference, 1978. CCE+ [18]
+
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa
+Schoenick, and Oyvind Tafjord. Think you have solved question answering? try arc, the ai2 reasoning
+challenge. ArXiv, abs/1803.05457, 2018. CGRS [19]
+
+Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers, 2019. CHI+ [18]
+
+Eunsol Choi, He He, Mohit Iyyer, Mark Yatskar, Wen-tau Yih, Yejin Choi, Percy
+Liang, and Luke Zettlemoyer. Quac : Question answering in context. Arxiv, 2018. CLC+ [19]
+
+Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael
+Collins, and Kristina Toutanova. BoolQ: Exploring the surprising difficulty of natural yes/no
+questions. arXiv preprint arXiv:1905.10044, 2019. CLY+ [19]
+
+Yen-Chun Chen, Linjie Li, Licheng Yu, Ahmed El Kholy, Faisal Ahmed, Zhe Gan,
+Yu Cheng, and Jingjing Liu.

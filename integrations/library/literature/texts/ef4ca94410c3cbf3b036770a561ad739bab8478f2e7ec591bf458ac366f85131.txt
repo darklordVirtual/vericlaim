@@ -1,0 +1,11 @@
+Comparing search algorithms. We first conduct a sweep over various search settings. In addition to the standard best-of-N approach, we sweep over the two main parameters that distinguish different tree-search methods: beam-width and number of lookahead steps . While we are not able to extensively sweep every single configuration, we sweep over the following settings with a maximum budget of 256:
+
+1)
+
+Beam search with the beam width set to , where is the generation budget. 2)
+
+Beam search with a fixed beam width of 4. 3)
+
+Lookahead search with applied to both beam-search settings 1) and 2). 4)
+
+Lookahead search with applied to beam-search setting 1). To compare search methods as a function of generation budget fairly, we build a protocol for estimating the cost of each method. We consider a generation to be a sampled answer from the base LLM. For beam search and best-of-N the generation budget corresponds to the number of beams and respectively. Lookahead search, however, utilizes additional compute: at each step of the search, we sample additional steps ahead. Therefore, we define the cost of lookahead-search to be samples. Results.

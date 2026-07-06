@@ -1,0 +1,63 @@
+{"fsid": "arxiv_2305-20050", "n": 62, "overlap": 200, "source_sha256": "5a9c1c0185590af48f282f95f55991d4515c7afdb0c8bec651991c3fae740e59", "target": 1200}
+{"section": "", "seq": 0, "sha256": "6447c67b5ca2922a8972a7c053b0fbd1ea44eefd7d16b89485caa44abebc38e1"}
+{"section": "Let\u2019s Verify Step by Step", "seq": 1, "sha256": "d6ec4878cb4623be8b7b4bc9454a1b7236e54fede51e1803f2e235f7baaf4bde"}
+{"section": "Let\u2019s Verify Step by Step", "seq": 2, "sha256": "80be5b4a0cd07873456487c4343e67f69b562b08c033ecf89c9459012fda8494"}
+{"section": "1 Introduction", "seq": 3, "sha256": "81f72dc62a2c28602889d22742e7e9073907b76eff421d4475416e9c608ac690"}
+{"section": "1 Introduction", "seq": 4, "sha256": "7a31eb8e07e0d9755926dda81156dd75f39b18a63fd67fa33542eb563d6cb7bb"}
+{"section": "1 Introduction", "seq": 5, "sha256": "cfe9a6d8fb4a71ffaf93d6b9e7f4ce2d33ec62903209949e98cb8f3e10f283cf"}
+{"section": "2 Methods", "seq": 6, "sha256": "81ebd0d89aea6f08a2cc82f0b3af08666c6c48c6ef272d14d2bf25708bf42784"}
+{"section": "2 Methods", "seq": 7, "sha256": "9166eeeee735da990852a509cdd27a7757abd3a717d62bfa1fb2b1b091b27523"}
+{"section": "2.1 Scope", "seq": 8, "sha256": "4ee18ac9a0ff8e4de7cf4634c5c0805121f2019f7ee77fbfc7050def4c837e6d"}
+{"section": "2.2 Base Models", "seq": 9, "sha256": "dea034a008aedc2f32450db83dbd785d60e1dd8af1ef88b3f9ecf255a88a99bf"}
+{"section": "2.3 Generator", "seq": 10, "sha256": "e12b2cb521ecc05bf5783191e9759565ecdcd9edec1a97d202d4c1aac7b9f4a7"}
+{"section": "2.4 Data Collection", "seq": 11, "sha256": "4e3a96b44b9af0613794d3ae9d4d234912ba3e5d856c1db1a4000370698c3301"}
+{"section": "2.4 Data Collection", "seq": 12, "sha256": "fea198647a2dac44fb3eecd9b3d0002623cae4d8b27a8cde7b46ed333220e1e5"}
+{"section": "2.4 Data Collection", "seq": 13, "sha256": "ab075ae149b361298d4b4ee2c837e5b7fb56fc8bca541fb4378173d57c7c3f01"}
+{"section": "2.4 Data Collection", "seq": 14, "sha256": "4a5cd2cc4e9aea436b77d2ee59cf1623c1d1a293981a63a54667b832e944f90e"}
+{"section": "2.5 Outcome-supervised Reward Models (ORMs)", "seq": 15, "sha256": "539ad1cd6ef656c09c49bfdeee6617c1dcd4a53ba3df2b5dee9b75b3d42aa267"}
+{"section": "2.6 Process-supervised Reward Models (PRMs)", "seq": 16, "sha256": "77a2dd96fa0de76b439677314e7f9b7d98d44e0997919a4acb493895ce28e16c"}
+{"section": "2.6 Process-supervised Reward Models (PRMs)", "seq": 17, "sha256": "86d237979e7469f6e860556c1803d19876cc6f628780daf3dc52fb2321749739"}
+{"section": "3 Large-scale Supervision", "seq": 18, "sha256": "a552e2d9c4d8e051b2c5c8f17d3edbc132025b704ab3b86b07babc5f07756707"}
+{"section": "3 Large-scale Supervision", "seq": 19, "sha256": "fec693d9b17915a140484e2f8fd6b4c0226e2c2b57166f35ceb002a9c188c1f0"}
+{"section": "4 Small-scale Synthetic Supervision", "seq": 20, "sha256": "9a7ff7a0671a79d70ecb66c4a0eed9d77392a95ceaabf8ff2f4b8ece11be6e31"}
+{"section": "4 Small-scale Synthetic Supervision", "seq": 21, "sha256": "39a4875e47c96b2a613ad4e25710be6d13896b66ab1674052f7e6e8fe4fcccf4"}
+{"section": "4.1 Process vs Outcome Supervision", "seq": 22, "sha256": "d31cad7f5b5ed588d08ce144b086ae6e17bd81e2825c770297bcb50737647760"}
+{"section": "4.1 Process vs Outcome Supervision", "seq": 23, "sha256": "e92ebe42ef3c38978d53e4ca609b624e3c1af735f9fc575d85ec6e97c368872f"}
+{"section": "4.2 Active Learning", "seq": 24, "sha256": "440d86008029a8bda89a2950b9055b44a30f6fc00eb02922592a404ecc5ac844"}
+{"section": "4.2 Active Learning", "seq": 25, "sha256": "7fce494455f20bf8cb598f1e39db87f5dcebda2604646d4f97d2b130e1bb7119"}
+{"section": "5 OOD Generalization", "seq": 26, "sha256": "506d89d06947730f1707abd36d9e524d69282b45828a3e6638815b62b488c4e1"}
+{"section": "6.1 Credit Assignment", "seq": 27, "sha256": "425e5c0a57197beaace7bc38fd316bb8a6f7b0d9d9a741964864862c578ca55c"}
+{"section": "6.2 Alignment Impact", "seq": 28, "sha256": "44274832014fb75c4d8ae9d08ea14fa2900ee8b32de46245cd57ad31c8a61c7d"}
+{"section": "6.2 Alignment Impact", "seq": 29, "sha256": "8d0eb01d554d5a112fa055ce73721344a2a75378b9c1b7bae3a3ff5d61714d43"}
+{"section": "6.3 Test Set Contamination", "seq": 30, "sha256": "597ffd4885bf7710320d756dd79f1942f76828337679249e8b9948cf80fbd1d2"}
+{"section": "6.3 Test Set Contamination", "seq": 31, "sha256": "1d59202aa1dad254e86de7b79a49b71b7c3067735d628f22063964969567b051"}
+{"section": "7.1 Outcome vs Process Supervision", "seq": 32, "sha256": "03db293cd1b697786676c54bf114582297350f891a1460a28741559c4067bc04"}
+{"section": "7.1 Outcome vs Process Supervision", "seq": 33, "sha256": "c1cdfac0083ad2c297a940be67f42038d28886cc3ffaf84a93f6a07f8368f05c"}
+{"section": "7.2 Synthetic Supervision", "seq": 34, "sha256": "9f430b18060d8c43e9e05fa48a3383e9c1f479ba4d59b9927009acc42ff78223"}
+{"section": "7.3 Natural Language Reasoning", "seq": 35, "sha256": "d1d6f4a3210081ae4c7860d87a3115fb878aaded0620b434271fe4ad86f55257"}
+{"section": "8 Conclusion", "seq": 36, "sha256": "40a878e58664bc19fff429c122b3d137065436e2d1b8e719873f3879c996ec37"}
+{"section": "Acknowledgements", "seq": 37, "sha256": "9ea05d6677640c2122c2dd0e9cba47746a820e49c9415272058145b53d8187ed"}
+{"section": "References", "seq": 38, "sha256": "3b59b397ebced9302beaee7021df11998d6ee3de72a46a603547f74fbc394de3"}
+{"section": "References", "seq": 39, "sha256": "4213f512ecc320489f651639e352fdbf6196fa1c9c870587cc0c228635521248"}
+{"section": "References", "seq": 40, "sha256": "34af8e16ba40bb257136b8fdabff261cdcd0506d37be8db1aab38c54cf3b0797"}
+{"section": "References", "seq": 41, "sha256": "f9a0802a9ee2a642d3860ab621ed2633c4f1a47f7c9b553691904a7a2c83573b"}
+{"section": "References", "seq": 42, "sha256": "c45e8006b6280def71fa73830c8163b333adb76eac7eb7f811c54bb4bdba6085"}
+{"section": "References", "seq": 43, "sha256": "6ff1328fb2433616d268e0d2cb7e21f036f86352bb1f21736a56bc2fdd251cc3"}
+{"section": "Appendix A MathMix", "seq": 44, "sha256": "6cd70228ba0153b68ab4d39e97c2377111875dcffabdccd236afa512c490ed1d"}
+{"section": "Appendix A MathMix", "seq": 45, "sha256": "136c8097a1b386f8309fd17d58065004740274f64ae9536e03f56c7844008295"}
+{"section": "Appendix B PRM800K", "seq": 46, "sha256": "d75bbb41e6705de338aae5974f58568455c5c155f021fa88be940e8d21465b7a"}
+{"section": "Appendix B PRM800K", "seq": 47, "sha256": "7e2a51597fe5a9d80a0d7b0e715d673790c45f3967b2ba46deeee726952e775c"}
+{"section": "Appendix B PRM800K", "seq": 48, "sha256": "39472555945b1379cf357d6a4a70e75cd6aed057e505292cbc0c256480b2a592"}
+{"section": "Appendix C Evaluation", "seq": 49, "sha256": "0e5c060077130d70e4ccd9bed65f59c88e5ce6711171c9f01c6a8c270ac7df1e"}
+{"section": "Appendix D Labelling Instructions", "seq": 50, "sha256": "3bd64e01afc67a8911e908edb82bfdcebc383e606f0a42ceeb519220a42ea696"}
+{"section": "Appendix D Labelling Instructions", "seq": 51, "sha256": "9dbebe13b95cbc992b0a3e301c954211a6d2ce4b5451a7869b93d727fe896857"}
+{"section": "Appendix E ORM Training Details", "seq": 52, "sha256": "c86cfecddd8bb6c01a9696c96164894d90160fc4a9cc46495f795642107813bd"}
+{"section": "F.1 Training", "seq": 53, "sha256": "f213b6f3b47f5185a89b0c30863191e48ca8b5052538652bbc7527d3338615ce"}
+{"section": "F.2 Scoring", "seq": 54, "sha256": "d5bdc7fb57a62b20af12179bef3fe3a697c5dd61a89eb1033a04b4fb9edda031"}
+{"section": "F.2 Scoring", "seq": 55, "sha256": "374b32d5ffec60d953bdf68bf06e2bade0af92d040cd80ddd4f87255eb45d40b"}
+{"section": "Appendix G Difficulty Breakdown", "seq": 56, "sha256": "cb4610d01f062961b952b400234e55664aa30c82049fce59925d366bc0824810"}
+{"section": "Appendix H Synthetic Supervision Details", "seq": 57, "sha256": "6ecb8498565bf2abda92cfde21bd28690f7e2f88f8b68f8caabe7c0e103bf68d"}
+{"section": "Appendix I PRM Visualizations", "seq": 58, "sha256": "0a02fb6e36baa585b9bde74a1d5cb3d1e1515450413756b7b52b9fa7611746f7"}
+{"section": "I.1 True Positives", "seq": 59, "sha256": "24409fe7f872d492c5cd2a2f7a9dd0e0913fc6fbc6f9e1bb01110406d32f96b3"}
+{"section": "I.2 True Negatives", "seq": 60, "sha256": "0b15baa83ef77b4f635cd6a4b150fa5b69b9bc97bb5d2f1f9822a8257a0a4de5"}
+{"section": "I.3 False Positives", "seq": 61, "sha256": "1368a98b1d759e8f035477e550e1e00314e2e6d99d4987b716d44ff5a8b6ba64"}

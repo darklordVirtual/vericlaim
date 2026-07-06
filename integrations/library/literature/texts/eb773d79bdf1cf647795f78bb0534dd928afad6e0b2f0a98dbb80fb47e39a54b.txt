@@ -1,0 +1,36 @@
+We include all the prompts used in the experiments in Figures 19-38:
+
+•
+
+Acronym Generation: Figures 19-21
+
+•
+
+Code Optimization: Figures 22-24
+
+•
+
+Code Readability Improvement: Figures 25-26
+
+•
+
+Constrained Generation: Figures 27-29
+
+•
+
+Dialogue Response Generation: Figures 30-32
+
+•
+
+Math Reasoning: Figures 33-35
+
+•
+
+Sentiment Reversal: Figures 36-38
+
+Recall that the Base LLM requires a generation prompt with input-output pairs , the feedback module requires a feedback prompt with input-output-feedback triples , and the refinement module (refine) requires a refinement prompt with input-output-feedback-refined quadruples . •
+
+Sentiment Reversal We create positive and negative variants of a single review from the training set and manually write a description for converting the negative variant to positive and vice versa. For each variant, the authors generate a response and create a feedback based on the conversion description. •
+
+Dialogue Response Generation
+We sample six examples as for the few-shot prompt for the Base LLM. For each output , the authors create a response, evaluate it based on a rubric to generate , and produce an improved version .

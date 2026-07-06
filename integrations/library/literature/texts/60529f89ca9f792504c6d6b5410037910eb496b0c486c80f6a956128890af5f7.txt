@@ -1,0 +1,18 @@
+Iyer et al. (2022)
+
+Srinivasan Iyer, Xi Victoria Lin, Ramakanth Pasunuru, Todor Mihaylov,
+Dániel Simig, Ping Yu, Kurt Shuster, Tianlu Wang, Qing Liu, Punit Singh
+Koura, et al. 2022. Opt-iml: Scaling language model instruction meta learning through the
+lens of generalization. arXiv preprint arXiv:2212.12017. Joshi et al. (2017)
+
+Mandar Joshi, Eunsol Choi, Daniel S Weld, and Luke Zettlemoyer. 2017. Triviaqa: A large scale distantly supervised challenge dataset for
+reading comprehension. arXiv preprint arXiv:1705.03551. Jozefowicz et al. (2016)
+
+Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. 2016. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410. Kaplan et al. (2020)
+
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon
+Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. 2020. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361. Katz (1987)
+
+Slava Katz. 1987. Estimation of probabilities from sparse data for the language model
+component of a speech recognizer. IEEE transactions on acoustics, speech, and signal processing,
+35(3):400–401.

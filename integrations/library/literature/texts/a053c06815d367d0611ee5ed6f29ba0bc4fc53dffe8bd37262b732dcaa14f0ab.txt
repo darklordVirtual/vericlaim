@@ -1,0 +1,92 @@
+Training data
+Method
+
+Improvement
+
+Random (95% CI)
+49.03(4)%
+78.08(3)%
+0.500(0.02)
+(+0%)
+
+BERT
+
+78.09%
+
+87.64%
+
+0.391
+
+(-21.8%)
+
+Causal LLM
+
+28.82%
+
+77.53%
+
+0.573
+
+(+14.6%)
+
+Matrix Factorization
+
+25.32%
+
+74.26%
+
+0.580
+
+(+16%)
+
+SW Ranking
+
+37.85%
+
+58.99%
+
+0.610
+
+(+22.1%)
+
+BERT
+
+19.58%
+
+34.02%
+
+0.751
+
+(+50.2%)
+
+Causal LLM
+
+31.50%
+
+48.75%
+
+0.679
+
+(+35.8%)
+
+Matrix Factorization
+
+13.40%
+
+31.31%
+
+0.802
+
+(+60.4%)
+
+SW Ranking
+
+23.21%
+
+36.04%
+
+0.759
+
+(+51.8%)
+
+Table 1: MT Bench results. Note that the MT Bench score at CPT(50%), 8.8, is 95% that of GPT-4’s score (9.3). Our routers exhibit strong performance on MT Bench when trained on , with further improvement when the dataset is augmented with , reducing costs by up to 75% as compared to the random router. Table 1 displays our router performance on MT Bench. For routers trained on the Arena dataset, we observe strong performance for both matrix factorization and similarity-weighted ranking, with both routers performing significantly better than the random router across all metrics. Notably, matrix factorization requires half the number of GPT-4 calls as compared to random to achieve a PGR of 50%.

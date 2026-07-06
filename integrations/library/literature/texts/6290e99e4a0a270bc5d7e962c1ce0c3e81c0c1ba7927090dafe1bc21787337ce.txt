@@ -1,0 +1,1 @@
+On the other hand, FrugalGPT can improve the performance by up to 4% with the same cost. We believe this is only the tip of the iceberg and we hope FrugalGPT opens a new window toward reducing LLMs’ inference cost and improving its performances.

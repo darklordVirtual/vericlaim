@@ -1,0 +1,18 @@
+We describe the full details of FlashAttention backward pass. Given input sequences , the output ,
+and the output gradient , we want to
+compute the input gradients . We first describe the standard attention backward pass in Algorithm 3 for completeness. Algorithm 3 Standard Attention Backward Pass
+
+0: Matrices , in HBM. 1: Load by blocks from HBM, compute
+, write to HBM. 2: Load by blocks from HBM, compute
+, write to HBM. 3: Read from HBM, compute where
+, write to
+HBM. 4: Load and by blocks from HBM, compute ,
+write to HBM. 5: Load and by blocks from HBM, compute , write to
+HBM. 6: Return . We now make two observations about FlashAttention backward pass:
+
+1. We do not need to store the dropout mask of size from the
+forward pass. Instead, we can save the pseudo-random number generator states from
+the forward pass and re-generate the dropout mask in the backward pass. This allows us to only use extra memory. 2. When computing the softmax gradient, we use Eq. 4 to compute
+without reducing over and of size
+(they might not fit into SRAM). Instead we can rewrite and compute the dot product between
+vectors of size . The full FlashAttention backward pass algorithm is in Algorithm 4.

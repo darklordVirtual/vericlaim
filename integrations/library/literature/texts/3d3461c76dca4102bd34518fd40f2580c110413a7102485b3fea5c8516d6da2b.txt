@@ -1,0 +1,17 @@
+2008. Extracting and composing robust features with denoising autoencoders. In Proceedings of the 25th international conference on Machine
+learning, pages 1096–1103. ACM. Wang et al. (2018a)
+
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel
+Bowman. 2018a. Glue: A multi-task benchmark and analysis platform for natural
+language understanding. In Proceedings of the 2018 EMNLP Workshop BlackboxNLP:
+Analyzing and Interpreting Neural Networks for NLP, pages 353–355. Wang et al. (2018b)
+
+Wei Wang, Ming Yan, and Chen Wu. 2018b. Multi-granularity hierarchical attention fusion networks for reading
+comprehension and question answering. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers). Association for
+Computational Linguistics. Warstadt et al. (2018)
+
+Alex Warstadt, Amanpreet Singh, and Samuel R Bowman. 2018. Neural network acceptability judgments. arXiv preprint arXiv:1805.12471. Williams et al. (2018)
+
+Adina Williams, Nikita Nangia, and Samuel R Bowman. 2018. A broad-coverage challenge corpus for sentence understanding through
+inference. In NAACL. Wu et al.

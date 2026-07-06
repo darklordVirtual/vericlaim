@@ -1,0 +1,12 @@
+Dataset
+
+We use the CodeNet Puri et al. (2021) dataset of competitive programming.555https://github.com/IBM/Project_CodeNet
+For our purpose, these are hard-to-read multi-line code snippets. We consider a random subset of 300 examples and apply \oursto them. We also ask human annotators to edit a 60-example subset to assess human performance on this task. The human annotators are asked to read the code piece and improve its readability. Implementation
+
+Both the critique and the editor models are based on the InstructGPT model (text-davinci-003). We consider the temperature of both (greedy) and (sampling) for decoding Natural Language suggestion from the critique model. We always use a temperature (greedy) when decoding Programming Language from the code editor. Due to budget constraints, we run \oursfor iterations. The exact prompts we use can be found in Figures 25-26. Evaluation Methods
+
+We consider a few automatic heuristic-based evaluation metrics,
+
+•
+
+Meaningful Variable Names: In order to understand the flow of a program, having semantically meaningful variable names can offer much useful information.

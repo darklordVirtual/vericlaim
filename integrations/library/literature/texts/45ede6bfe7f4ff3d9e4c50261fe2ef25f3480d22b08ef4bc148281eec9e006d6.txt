@@ -1,0 +1,18 @@
+Davis & Arel (2013)
+
+Andrew Davis and Itamar Arel. Low-rank approximations for conditional feedforward computation in
+deep neural networks. arXiv preprint arXiv:1312.4461, 2013. Deisenroth & Ng (2015)
+
+Marc Peter Deisenroth and Jun Wei Ng. Distributed Gaussian processes. In ICML, 2015. Duchi et al. (2010)
+
+John Duchi, Elad Hazan, and Yoram Singer. Adaptive subgradient methods for online learning and stochastic
+optimization, 2010. Durrani et al. (2014)
+
+Nadir Durrani, Barry Haddow, Philipp Koehn, and Kenneth Heafield. Edinburgh’s phrase-based machine translation systems for wmt-14. In Proceedings of the Ninth Workshop on Statistical Machine
+Translation, 2014. Eigen et al. (2013)
+
+David Eigen, Marc’Aurelio Ranzato, and Ilya Sutskever. Learning factored representations in a deep mixture of experts. arXiv preprint arXiv:1312.4314, 2013. Garmash & Monz (2016)
+
+Ekaterina Garmash and Christof Monz. Ensemble learning for multi-source neural machine translation. In staff.science.uva.nl/c.monz, 2016. Gers et al. (2000)
+
+Felix A. Gers, Jürgen A. Schmidhuber, and Fred A. Cummins. Learning to forget: Continual prediction with lstm. Neural Computation, 2000. Gruslys et al.

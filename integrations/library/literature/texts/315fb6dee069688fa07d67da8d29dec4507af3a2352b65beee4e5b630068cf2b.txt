@@ -1,0 +1,15 @@
+\mbox{ if } 2\leq x\leq 3
+
+\end{array}\right.$$ is lower semicontinuous and the nonemptiness of ${\operatorname{fix}}\Phi$ is guaranteed by Corollary \[cor:fixed point\]. Notice that ${\operatorname{fix}}\Phi=[1,2]$. Nevertheless the Kakutani fixed point Theorem does not apply since ${\operatorname{gph}}\Phi$ is not closed. On the converse, the set-valued map $\Phi:[0,3]\rightrightarrows [0,3]$ $$\Phi(x):=\left\{\begin{array}{ll}
+
+\{1\} & \mbox{ if } 0\leq x<1\\
+
+{}[1,2] & \mbox{ if } 1\leq x\leq 2\\
+
+\{2\} &
+
+.eps){width="6.5cm"}
+
+![Gamma-ray spectrum at Mt. Norikura (2.77 km a.s.l). The vertical axis is Flux$\times E^2$. Our data is at $<$ 100 GeV. Data above 300 GeV is from emulsion chamber experiments. For the latter, see Sec.\[discuss\] []{data-label="norispec"}](norikura.eps){width="7.5cm"}
+
+![The altitude variation of the flux integrated over 6 GeV. The dpmjet3.03 and fritiof7.02 give almost the same feature consistent with the observation while the deviation of fritiof1.6 from the data is obvious. \[trans

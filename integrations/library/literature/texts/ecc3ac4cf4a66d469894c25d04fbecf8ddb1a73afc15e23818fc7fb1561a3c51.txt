@@ -1,0 +1,15 @@
+Gehman et al. (2020)
+
+Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah A Smith. 2020. Realtoxicityprompts: Evaluating neural toxic degeneration in language
+models. arXiv preprint arXiv:2009.11462. Graves (2013)
+
+Alex Graves. 2013. Generating sequences with recurrent neural networks. arXiv preprint arXiv:1308.0850. Heafield et al. (2013)
+
+Kenneth Heafield, Ivan Pouzyrevsky, Jonathan H Clark, and Philipp Koehn. 2013. Scalable modified kneser-ney language model estimation. In Proceedings of the 51st Annual Meeting of the Association
+for Computational Linguistics (Volume 2: Short Papers), pages 690–696. Hendrycks et al. (2020)
+
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn
+Song, and Jacob Steinhardt. 2020. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300. Hendrycks et al. (2021)
+
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+Tang, Dawn Song, and Jacob Steinhardt. 2021. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874. Hestness et al.

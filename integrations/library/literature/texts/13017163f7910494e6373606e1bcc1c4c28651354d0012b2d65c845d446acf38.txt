@@ -1,0 +1,87 @@
+We also report conditional test accuracy, which is the accuracy by only considering examples belonging to the specialist classes, and restricting our predictions to that subset of classes. # of specialists covering
+# of test examples
+delta in top1 correct
+relative accuracy change
+
+0
+350037
+
+0
+
+0.0%
+
+1
+141993
+
++1421
+
++3.4%
+
+2
+67161
+
++1572
+
++7.4%
+
+3
+38801
+
++1124
+
++8.8%
+
+4
+26298
+
++835
+
++10.5%
+
+5
+16474
+
++561
+
++11.1%
+
+6
+10682
+
++362
+
++11.3%
+
+7
+7376
+
++232
+
++12.8%
+
+8
+4703
+
++182
+
++13.6%
+
+9
+4706
+
++208
+
++16.6%
+
+10 or more
+9082
+
++324
+
++14.1%
+
+Table 4: Top 1 accuracy improvement by # of specialist models covering
+correct class on the JFT test set. For our JFT specialist experiments, we trained 61 specialist models, each with 300 classes (plus the dustbin class). Because the sets of classes for the specialists are not disjoint, we often had multiple specialists covering a
+particular image class. Table 4 shows the number of test set examples, the change in
+the number of examples correct at position 1 when using the specialist(s), and the relative percentage improvement in
+top1 accuracy for the JFT dataset broken down by the number of specialists covering the class.

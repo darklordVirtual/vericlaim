@@ -1,0 +1,19 @@
+In light of the impressive achievements of GPT-4 in assessing and providing reasoning for complex tasks, we leverage its abilities for evaluation in \ours. The approach involves presenting tasks to GPT-4 in a structured manner, promoting the model’s deliberation on the task and generating a rationale for its decision. This methodology is demonstrated in Figures 6, 7 and 8:
+
+⬇
+
+f"""Which review is aligned with the sentiment {target_sentiment}? Review A: {review_a}
+
+Review B: {review_b}. \parPick your answer from [’Review A’, ’Review B’, ’both’, ’neither’]. Generate a short explanation for your choice first. Then, generate ’The more aligned review is A’ or ’The more aligned review is B’ or ’The more aligned review is both’ or ’The more aligned review is neither’. \parFormat: <explanation> <answer> STOP
+
+Figure 6: Prompt for GPT-4 evaluation of Sentiment Reversal. ⬇
+
+f"""Title: {title}
+
+\parAcronym A: {acronym_a}
+
+Acronym B: {acronym_b}
+
+\parPick the better acronym for the given title. The acronyms should be compared based on the following criteria:
+
+* Ease of pronunciation. * Ease of spelling. * Relation to title. * Positive connotation.

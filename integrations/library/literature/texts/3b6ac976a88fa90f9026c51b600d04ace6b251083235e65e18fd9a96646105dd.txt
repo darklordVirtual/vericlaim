@@ -1,0 +1,17 @@
+plain
+
+ResNet
+
+18 layers
+
+27.94
+
+27.88
+
+34 layers
+
+28.54
+
+25.03
+
+Table 2: Top-1 error (%, 10-crop testing) on ImageNet validation. Here the ResNets have no extra parameter compared to their plain counterparts. Fig. 4 shows the training procedures. We argue that this optimization difficulty is unlikely to be caused by vanishing gradients. These plain networks are trained with BN [16], which ensures forward propagated signals to have non-zero variances. We also verify that the backward propagated gradients exhibit healthy norms with BN. So neither forward nor backward signals vanish. In fact, the 34-layer plain net is still able to achieve competitive accuracy (Table 3), suggesting that the solver works to some extent. We conjecture that the deep plain nets may have exponentially low convergence rates, which impact the reducing of the training error333We have experimented with more training iterations (3) and still observed the degradation problem, suggesting that this problem cannot be feasibly addressed by simply using more iterations.. The reason for such optimization difficulties will be studied in the future. Residual Networks.

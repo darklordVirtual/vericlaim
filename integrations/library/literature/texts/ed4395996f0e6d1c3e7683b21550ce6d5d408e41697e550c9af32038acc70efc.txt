@@ -1,0 +1,18 @@
+Hechtman. Mesh-tensorflow: Deep learning for supercomputers. CoRR, abs/1811.02084, 2018. [6]
+
+Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In Yoshua Bengio and Yann LeCun, editors, 3rd International
+Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May
+7-9, 2015, Conference Track Proceedings, 2015. [7]
+
+Tianqi Chen, Bing Xu, Chiyuan Zhang, and Carlos Guestrin. Training deep nets with sublinear memory cost. CoRR, abs/1604.06174, 2016. [8]
+
+Sam McCandlish, Jared Kaplan, Dario Amodei, and OpenAI Dota Team. An empirical model of large-batch training. CoRR, abs/1812.06162, 2018. [9]
+
+Microsoft. Turing-nlg: A 17-billion-parameter language model by microsoft. https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/,
+2020. [10]
+
+Yanping Huang, Yonglong Cheng, Dehao Chen, HyoukJoong Lee, Jiquan Ngiam,
+Quoc V. Le, and Zhifeng Chen. Gpipe: Efficient training of giant neural networks using pipeline
+parallelism. ArXiv, abs/1811.06965, 2018. [11]
+
+Aaron Harlap, Deepak Narayanan, Amar Phanishayee, Vivek Seshadri, Nikhil R. Devanur, Gregory R. Ganger, and Phillip B. Gibbons.

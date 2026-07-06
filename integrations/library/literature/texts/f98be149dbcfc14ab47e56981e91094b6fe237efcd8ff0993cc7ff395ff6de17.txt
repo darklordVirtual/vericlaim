@@ -1,0 +1,15 @@
+In Section C.2,
+we evaluate the impact this procedure. Compared to standard langauge model training, the masked LM only
+make predictions on 15% of tokens in each batch, which suggests that more pre-training steps may be required for the model to converge. In Section C.1 we demonstrate that MLM does converge marginally slower than a left-to-right model (which predicts every token), but the empirical improvements of the MLM model far outweigh the increased training cost. Next Sentence Prediction
+
+The next sentence prediction task can be illustrated in the following examples. Input
+
+he bought a gallon [MASK] milk [SEP]
+
+Label
+
+Input
+
+penguin [MASK] are flight ##less birds [SEP]
+
+Label

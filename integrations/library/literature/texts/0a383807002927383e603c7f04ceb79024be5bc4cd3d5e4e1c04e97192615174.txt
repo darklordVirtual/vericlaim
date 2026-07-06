@@ -1,0 +1,19 @@
+ADG+ [16]
+
+Marcin Andrychowicz, Misha Denil, Sergio Gomez, Matthew W Hoffman, David Pfau,
+Tom Schaul, Brendan Shillingford, and Nando De Freitas. Learning to learn by gradient descent by gradient descent. In Advances in neural information processing systems, pages
+3981–3989, 2016. AI [19]
+
+WeChat AI. Tr-mt (ensemble), December 2019. AJF [19]
+
+Roee Aharoni, Melvin Johnson, and Orhan Firat. Massively multilingual neural machine translation. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), 2019. BBDIW [20]
+
+Su Lin Blodgett, Solon Barocas, Hal Daumé III, and Hanna Wallach. Language (technology) is power: A critical survey of “bias” in nlp. arXiv preprint arXiv:2005.14050, 2020. BCFL [13]
+
+Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang. Semantic parsing on freebase from question-answer pairs. In Proceedings of the 2013 conference on empirical methods in
+natural language processing, pages 1533–1544, 2013. BDD+ [09]
+
+Luisa Bentivogli, Ido Dagan, Hoa Trang Dang, Danilo Giampiccolo, and Bernardo
+Magnini.

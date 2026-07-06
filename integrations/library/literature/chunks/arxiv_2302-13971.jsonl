@@ -1,0 +1,101 @@
+{"fsid": "arxiv_2302-13971", "n": 100, "overlap": 200, "source_sha256": "311e13936d77619f48c615f30c740882abb01bcff7e6e3923e4b3f42ae56a6be", "target": 1200}
+{"section": "", "seq": 0, "sha256": "da8e97c53df9754239272de34b7fd2ebf0c61aac0fd010833d33bc0b61c0fbcc"}
+{"section": "LLaMA: Open and Efficient Foundation Language Models", "seq": 1, "sha256": "1b512a15425c05ff51376921c0aa6235cfa72d83aad4b0e58e74a600831b930b"}
+{"section": "1 Introduction", "seq": 2, "sha256": "d985741b75b318e10b7cfbf63bde70f5a6e63ed792bce0f01cad714dd3ecebba"}
+{"section": "1 Introduction", "seq": 3, "sha256": "3faae7ac9b25b4cacc823cb9aafe67fbdc95350bd912792b30db8c3d4e11e38c"}
+{"section": "1 Introduction", "seq": 4, "sha256": "fa599f6c5d75aab8fb21104d69e135f7bc1a5205aae369d8e2ddeb8ebcb0c784"}
+{"section": "2 Approach", "seq": 5, "sha256": "e4ad5267c7195a15d1e60945e5c3e6544105753e004384c95c17a7b9828cd516"}
+{"section": "2.1 Pre-training Data", "seq": 6, "sha256": "4168ddbbb2e037e8711ef4870a4140d2761f9861145eda40e33a2030e6cb2c62"}
+{"section": "2.1 Pre-training Data", "seq": 7, "sha256": "9b90f8aaebb6aa54c8e34ad6c9518f70346d762da33de11405287da0f53c64b6"}
+{"section": "2.1 Pre-training Data", "seq": 8, "sha256": "7b192f0ff618c23dbff342ed9bff90ec10183ad5efcd5bc1f14c6f5f3e151f39"}
+{"section": "2.1 Pre-training Data", "seq": 9, "sha256": "f170962a5ea1c846e36681be5cfac0d7014905147d9d184c8c6f2b8a05f2127c"}
+{"section": "2.1 Pre-training Data", "seq": 10, "sha256": "a6a762c1d049811c1e680ea6f3c05eb52e4b787e7323ca51c30bdff8b83d2f65"}
+{"section": "2.2 Architecture", "seq": 11, "sha256": "ab0e6cb17635c41a07152ccf2b3b7cf70471ba8a95e2bfd477e6692e3ddad3f5"}
+{"section": "2.2 Architecture", "seq": 12, "sha256": "f7b69ed22e4e11960f980823365ecbb4b3ecbbc6ad9f665e27b67f5132e003fd"}
+{"section": "2.3 Optimizer", "seq": 13, "sha256": "eb0d4e4ac4ff8a88fa5689b19804797b387929ae78ff0aefe5d54c528120d9f9"}
+{"section": "2.4 Efficient implementation", "seq": 14, "sha256": "57caca12a5a23145972af50f82c3c68c4583bc2c7236dc6030bc1561fe4ef182"}
+{"section": "2.4 Efficient implementation", "seq": 15, "sha256": "801623cc560dec5c1ef7a1bd3593105f6b435a70469ce39b2666c06094305b2b"}
+{"section": "2.4 Efficient implementation", "seq": 16, "sha256": "89397a4efc7828583f81773c152bd22027ce0f5fea7f2be658258702adecd93d"}
+{"section": "3 Main results", "seq": 17, "sha256": "1a63101007b37362d46fea779169cff5394ccfd52d43d782fe1cf495437e1316"}
+{"section": "3 Main results", "seq": 18, "sha256": "cc0740c649c3d313979962f60f2c8717f4ba9cf8a83c6d292fe9c09497853e90"}
+{"section": "3.1 Common Sense Reasoning", "seq": 19, "sha256": "e43be04f2c55aa17afe30f7d428997a73e49c689c33c571cf0023f89a791357a"}
+{"section": "3.2 Closed-book Question Answering", "seq": 20, "sha256": "3f3661ee7dd0a5b7585547c8562cc54195cd220a090a88c6199c1f66fdf88382"}
+{"section": "3.3 Reading Comprehension", "seq": 21, "sha256": "bc96de7db51762c6b008a694b8e44b5e221c4984080f8d71ebdcdf80fdded662"}
+{"section": "3.4 Mathematical reasoning", "seq": 22, "sha256": "b82bbb0ca16985b4cc6efeaf292b5c2f619bf5e278dba25f5ebcf2a2a3c434b9"}
+{"section": "3.4 Mathematical reasoning", "seq": 23, "sha256": "7cf0ae65278a028d008f055fffaf32ad6f7120886c315dc6dba5dfc734a290e6"}
+{"section": "3.5 Code generation", "seq": 24, "sha256": "a4c1a37c75d3c04ff84391df9246c53623b283814369763cefa726906ac2d43b"}
+{"section": "3.5 Code generation", "seq": 25, "sha256": "e41dfbbfbf6f4cdd92551024620f0edf7ae9e872e657b55fc14141655b1c7494"}
+{"section": "3.5 Code generation", "seq": 26, "sha256": "943743856914bec5e1cad36c905d195ebc2f8db0f859dde2adb4c0139ba9c5e4"}
+{"section": "3.5 Code generation", "seq": 27, "sha256": "fa06745c8c9bf8e89b20d98d9b8c8274a88fd2996f53807c040ed21938369a9d"}
+{"section": "3.6 Massive Multitask Language Understanding", "seq": 28, "sha256": "f3a94f8c53f146712e151e6644f9a89722161a2b98903d44fd653bd2900a134c"}
+{"section": "3.7 Evolution of performance during training", "seq": 29, "sha256": "63925e12c28c46da4efa4b7a81a210e7b0e646348adba16e717aa0edf7b46f34"}
+{"section": "4 Instruction Finetuning", "seq": 30, "sha256": "7224ed43056518f4740d9176ad77ecc8c02553b565cb78c2cb62cb88cc240998"}
+{"section": "4 Instruction Finetuning", "seq": 31, "sha256": "91d40e8d7153ee6886a4649ef699793a496372d7e4e998435becbdefd9a4ee2f"}
+{"section": "5 Bias, Toxicity and Misinformation", "seq": 32, "sha256": "b5d7153938663ca334762a65e4278b136b41643abc7c38d350af3acda62740c7"}
+{"section": "5.1 RealToxicityPrompts", "seq": 33, "sha256": "a071b1e646be60af1839c9c298634bfe1e70c16608b70ffc66b46a3609857f6c"}
+{"section": "5.1 RealToxicityPrompts", "seq": 34, "sha256": "4f043521b2d261ddc6b594f5f5ac503c8eb2205cf27c4842df60304e6d38bcf4"}
+{"section": "5.2 CrowS-Pairs", "seq": 35, "sha256": "43925d746ea798472f3b6a46b997c204c4e55e02959d9a5fb051d81a8edd3c54"}
+{"section": "5.2 CrowS-Pairs", "seq": 36, "sha256": "5358175001e185521676d14e7e264e4f8cc54faafa3f8a45353d2272351a87f5"}
+{"section": "5.3 WinoGender", "seq": 37, "sha256": "3d233aa197b4ab32e2f9886cf0891b2bcc450bb717bc2748b41ac4c9efe5cbb5"}
+{"section": "5.3 WinoGender", "seq": 38, "sha256": "3a6d32b2bc1eec07db9af679c30123443601330cdad02cabc9c2c32f305907df"}
+{"section": "5.3 WinoGender", "seq": 39, "sha256": "4c8bdbbd75d834d70dedb409e7575caf21f3f7bb549c3861af0ca2904d1d511b"}
+{"section": "5.4 TruthfulQA", "seq": 40, "sha256": "1951d3f1dc025d9df5a2a68d64c432e3b42452bd98a9d3444d8fa5f6d838a3b3"}
+{"section": "5.4 TruthfulQA", "seq": 41, "sha256": "fed1e3f40147cc9b9ae8080e96769d2cb899bdbd774c313b0213655578c0b169"}
+{"section": "6 Carbon footprint", "seq": 42, "sha256": "95f94841dacee5cba35f7a68a9873f4945c8918e4d8bdb965a7121dccd54ca81"}
+{"section": "6 Carbon footprint", "seq": 43, "sha256": "b1626bcc0a091e0bc995cc192f38e6ac275d497169a28cce3bee898d1c369995"}
+{"section": "7 Related work", "seq": 44, "sha256": "e2b75481521b0397e9ac9ca436caf2a5cab7facb625c5de7a043dfe82b13dbc1"}
+{"section": "7 Related work", "seq": 45, "sha256": "89b91719f60604cda0b469d00373d4f69e37ae5950b04b4fbb02a7827ce4a9b6"}
+{"section": "7 Related work", "seq": 46, "sha256": "02d7dfae541ac38a9f1868fa8f760457d8decd8d9d1c6723986ff07f814cd026"}
+{"section": "7 Related work", "seq": 47, "sha256": "acb2e3eb2ac1c0b26e27519aad89fc36dde8d0e64d4788c740f7022655fe3793"}
+{"section": "8 Conclusion", "seq": 48, "sha256": "f767a9a67a70024c77eb3eb87396a7b713e834486f2578cba1bf48e912e246fb"}
+{"section": "Acknowledgements", "seq": 49, "sha256": "3bfbdb11373dfb173d7490978582913d1ab087f616f0dea6bf294257b3951fe7"}
+{"section": "References", "seq": 50, "sha256": "a4dedacf24a5d944df3cea6b0281b6ced1d5f59ac7c3e6bc3aa0401e07c55910"}
+{"section": "References", "seq": 51, "sha256": "25514a64960b4c7089e8dde40277008fc5df679825f3db37c05f0cab893346b1"}
+{"section": "References", "seq": 52, "sha256": "119b82e33303ff5f05d5bfa3b1195fb0ce7a42e2404792b8f37a6d5623a1e8e4"}
+{"section": "References", "seq": 53, "sha256": "528f705cda7fd53160523e8ab2288da1a63fef9d4d11d02483247472b6a791f3"}
+{"section": "References", "seq": 54, "sha256": "d50f6a988793d7d11dbb423cab1772038b2ffed1685f3b07d4ac462daa8a2c3c"}
+{"section": "References", "seq": 55, "sha256": "2768d101cca7d71185b19ac9002bde3b4731114de1c879dc513482f55b2722b4"}
+{"section": "References", "seq": 56, "sha256": "c9b33b11af53271a3f8514e69b76ba975f0c849dcc98cb2ea806795255a926c1"}
+{"section": "References", "seq": 57, "sha256": "e1c80ffec2346008f726f09703c74274249604d8803158751b2fbcb2dd94c8ed"}
+{"section": "References", "seq": 58, "sha256": "ecc3ac4cf4a66d469894c25d04fbecf8ddb1a73afc15e23818fc7fb1561a3c51"}
+{"section": "References", "seq": 59, "sha256": "f605e1a1ae86e3abd68b8ae49796d5ef5ef1dd24a6f42cdd621bdcbbf5237d97"}
+{"section": "References", "seq": 60, "sha256": "60529f89ca9f792504c6d6b5410037910eb496b0c486c80f6a956128890af5f7"}
+{"section": "References", "seq": 61, "sha256": "3ced867d3419caf7688d459d41c4edfb71bb0d8371ba8686a171c615213747d5"}
+{"section": "References", "seq": 62, "sha256": "1da656467a061fc5791990864ed990a8652d7567f724680d871acd0d77e78782"}
+{"section": "References", "seq": 63, "sha256": "1c2ffe37e68b524236441e8364fdfc57dc7534d200cd88f26428651bde315fe3"}
+{"section": "References", "seq": 64, "sha256": "e0f586ad9847d3f38c2f2bd4d247ba5ead78c036801831abe2641513996d957e"}
+{"section": "References", "seq": 65, "sha256": "14cba3816b1e3f82d1b920ce5e71c3b11360dfac172278518a1a46d16bef22ca"}
+{"section": "References", "seq": 66, "sha256": "d245ad235fa74334534f9778ad0031b6651b227cfd5de9c5e1b81d2a64cb4576"}
+{"section": "References", "seq": 67, "sha256": "7ca1fafcdd612217c409d514983ee3159c8412d232c271957d37b4759a973a4f"}
+{"section": "References", "seq": 68, "sha256": "6e82c58a667bffcfc7a2b04d791449c6a2c7b513dcf167c532a53fc30f6f86ed"}
+{"section": "References", "seq": 69, "sha256": "2ef7d33043b9cd49c8bcb4bc97953faa62f2ed08f0869a539490a396400dd3b1"}
+{"section": "References", "seq": 70, "sha256": "944b6684cbf76f9daa2f4a1612386924b51ff9749ad3ef1e80cbefeded83ac4c"}
+{"section": "References", "seq": 71, "sha256": "1065e91531f4b761154df843814ecc2e4045d8a061d9c762da4f3b62f985107c"}
+{"section": "References", "seq": 72, "sha256": "fbc297d5d28880bcc9f2dee21333827a27f9ba9f20c776116c035df4f2647d0f"}
+{"section": "References", "seq": 73, "sha256": "a167fafbba05d087c896e085284c402914420dfafc2ac34ac8d3c7038206acef"}
+{"section": "References", "seq": 74, "sha256": "539237e766987d9fecde35fa93d01b34675ed30eca9c48421b3b14ba206d65a7"}
+{"section": "Appendix A Question Answering", "seq": 75, "sha256": "973b5399547c8f54296bd8edf7f54eb3e4f9cc583d2b247c4668bf6e5340bbc6"}
+{"section": "Appendix A Question Answering", "seq": 76, "sha256": "e870697ad2d8ec89bebdc9cff98a18100a9f541c4df2f50edf35741d8c217c66"}
+{"section": "Appendix B MMLU", "seq": 77, "sha256": "3f527d382fcbe7805d50fb27257697e1c959b09ca00dc2723f1039d751786f83"}
+{"section": "Appendix B MMLU", "seq": 78, "sha256": "ac1db59cde650ecd37057b76cfd6091b0978807e725ffb180edf7e681c2abf85"}
+{"section": "Appendix B MMLU", "seq": 79, "sha256": "4c380c4950642396bdbee651ef459384c3fb95c1c650dc8ff0ccea9fb8d629f7"}
+{"section": "Appendix C Generations from LLaMA-65B", "seq": 80, "sha256": "9902df981353183d504a177a4a2a4b754f63a74765fe2aadd3c16cde5e672509"}
+{"section": "Appendix C Generations from LLaMA-65B", "seq": 81, "sha256": "c85abc57ef0b3a4e8170a3c3392d474b2f8022c47d9eb3a8c5f48d168a03670b"}
+{"section": "Appendix C Generations from LLaMA-65B", "seq": 82, "sha256": "3312550c08a78cafda234f0a34ddef0a5cb3bcba060c3e067b8ea69e50995244"}
+{"section": "Appendix C Generations from LLaMA-65B", "seq": 83, "sha256": "6dea4f01bd712015c96307a5e51b0014b2d6696abe965a6ba51b3f1330c68550"}
+{"section": "Appendix C Generations from LLaMA-65B", "seq": 84, "sha256": "6b8c560b01b486e799930f3b1df18c8bf026724f05ffdb260b60c02351778473"}
+{"section": "Appendix C Generations from LLaMA-65B", "seq": 85, "sha256": "0ad2c92f4e72a510c7d2592f4b51bbd2aac76865012a2e2b4c4ad82d178bae58"}
+{"section": "Appendix C Generations from LLaMA-65B", "seq": 86, "sha256": "6e0f3c034bb82620f6cd58f11a1831d513a607a046280cbafb8794930577cc34"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 87, "sha256": "26dbc9c014325a3a5d39c30d948749823829361abfd1f8f085f466b3bfbf2bf8"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 88, "sha256": "2ae80f8d5a261d5d5544c40917b5561fafafe4fa42e34e820f0965184fdd9a93"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 89, "sha256": "e4e37e1c7acad9a4179db91fef796cc884ff00be215cfd17fe90f9ba32162c8f"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 90, "sha256": "31b57f1b179c853106e5d0cbe2215b946784c8cf20c376679e5b91652f0bd380"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 91, "sha256": "551a6c0ea8c4af5b3a5b855671c3691fb2de1a88f60eb764fc5e6e963c91362f"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 92, "sha256": "c3872c172b2ca9e47098e41f84aaf5006e35c418859704dd427fb9e957c63a99"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 93, "sha256": "bd8b83ff2a6f936d80fb95505fd8ab77a2b8e74c42d2342abddfd3df87c58748"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 94, "sha256": "b8afe57d1ac324bc24a329f8b19824ed56ef3136affa0d8c92683f724d242dcf"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 95, "sha256": "3134ad7ddf1c6e3fa97c1ea851e2d660c2795a183d6938baba51a321bbe79733"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 96, "sha256": "787617fbab276740e7330298478c2e01dd723db51c1fa1f8732e0c15611507f1"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 97, "sha256": "e175840ca51eb0d9044c50979e93f16c5babde0f6334a38d102455a8fcb0c103"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 98, "sha256": "212ed733ddf7f2d7b4205c5d74598bf21fe16b334b0105a0d71515bb25315f41"}
+{"section": "Appendix D Generations from LLaMA-I", "seq": 99, "sha256": "bdce588c25d3e7358b7942e897d52ee6d5f7c158ce0887b73adf8fde3a2c9265"}

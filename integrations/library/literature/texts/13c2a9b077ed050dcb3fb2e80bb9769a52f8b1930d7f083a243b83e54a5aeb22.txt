@@ -1,0 +1,41 @@
+\oursperformance on 60-example subset. We see \ourscan reach similar or achieve even better performance on the metrics compared to rewrites given by human annotator. (a) Meaningful variable ratio across different \oursiterations. (b) Comment per line ratio across different \oursiterations. (c) Number of function units across different \oursiterations. Figure 14: Evaluation on code readability task with \oursacross multiple metrics
+
+Example
+
+Starting Code:
+
+⬇
+
+print((int((int(eval(input()))+1)/2)))
+
+Code
+
+⬇
+
+print(
+
+(int(
+
+(int(eval(input())) + 1)
+
+/ 2
+
+)
+
+)
+
+Code
+
+⬇
+
+num_input = eval(input())
+
+num_input = int(num_input)
+
+num_input += 1
+
+num_result = int(num_input / 2)
+
+print(num_result)
+
+Figure 15: \oursiterations over a piece of densely composed code. Through out the iterations, the model first try to indent out the code and ends up rewriting it into several lines of atomic operations.

@@ -1,0 +1,3 @@
+Consistency in language models. Some prior work has shown that language models can suffer from inconsistency in conversation (Adiwardana et al., 2020),
+explanation generation (Camburu et al., 2020),
+and factual knowledge extraction (Elazar et al., 2021). Welleck et al. (2020) use “consistency” to refer to generating an infinite-length sequence in recurrent language models. Nye et al. (2021) improve the logical consistency of samples from a System 1 model by adding a System 2-inspired logical reasoning module. In this paper we focus on a slightly different notion of “consistency”, i.e., utilizing answer consistency among diverse reasoning paths to improve accuracy.

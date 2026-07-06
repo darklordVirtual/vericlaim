@@ -1,0 +1,22 @@
+{
+  "abstract": "This article is concerned with counting and identifying those customers who are still active. The issue is important in at least three settings: monitoring the size and growth rate of a firm's ongoing customer base, evaluating a new product's success based on the pattern of trial and repeat purchases, and targeting a subgroup of customers for advertising and promotions. We develop a model based on the number and timing of the customers' previous transactions. This approach allows computation of the probability that any particular customer is still active. Several numerical examples are used to illustrate applications of the model.",
+  "accredited": true,
+  "authors": [
+    "David C. Schmittlein",
+    "Donald G. Morrison",
+    "Richard Colombo"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "pareto-nbd-1987",
+    "fetched_at": "2026-07-06T01:07:20.349642+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "428f1c4a51be964dec08b51cf29511ed4f6e206b2370704fb8df76b87afd12a1",
+  "title": "Counting Your Customers: Who-Are They and What Will They Do Next?",
+  "url": "https://doi.org/10.1287/mnsc.33.1.1",
+  "venue": "Management Science",
+  "work_id": "doi:10.1287/mnsc.33.1.1",
+  "year": 1987
+}

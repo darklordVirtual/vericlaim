@@ -1,0 +1,29 @@
+{
+  "abstract": "Generating step-by-step \"chain-of-thought\" rationales improves language model performance on complex reasoning tasks like mathematics or commonsense question-answering. However, inducing language model rationale generation currently requires either constructing massive rationale datasets or sacrificing accuracy by using only few-shot inference. We propose a technique to iteratively leverage a small number of rationale examples and a large dataset without rationales, to bootstrap the ability to perform successively more complex reasoning. This technique, the \"Self-Taught Reasoner\" (STaR), relies on a simple loop: generate rationales to answer many questions, prompted with a few rationale examples; if the generated answers are wrong, try again to generate a rationale given the correct answer; fine-tune on all the rationales that ultimately yielded correct answers; repeat. We show that STaR significantly improves performance on multiple datasets compared to a model fine-tuned to directly predict final answers, and performs comparably to fine-tuning a 30$\\times$ larger state-of-the-art language model on CommensenseQA. Thus, STaR lets a model improve itself by learning from its own generated reasoning.",
+  "accredited": false,
+  "authors": [
+    "Eric Zelikman",
+    "Yuhuai Wu",
+    "Jesse Mu",
+    "Noah D. Goodman"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T01:22:21.527599+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2203.14465"
+  },
+  "fulltext_sha256": "100fdc57c7e51f7f0422639091dd5b083a7eccabad1fffa116fa16a11338a8c1",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "star-2022",
+    "fetched_at": "2026-07-06T01:21:56.197001+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "743d3fc757bb1b5d117913c2abb5e01dda260777cdad5b1850756774a19a2a69",
+  "title": "STaR: Bootstrapping Reasoning With Reasoning",
+  "url": "https://arxiv.org/abs/2203.14465",
+  "venue": "arXiv",
+  "work_id": "arxiv:2203.14465",
+  "year": 2022
+}

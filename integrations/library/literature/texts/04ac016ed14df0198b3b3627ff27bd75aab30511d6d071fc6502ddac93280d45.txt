@@ -1,0 +1,22 @@
+Self-critiquing models for
+assisting human evaluators. ArXiv:2206.05802. Scheurer et al. (2022)
+
+Jérémy Scheurer, Jon Ander Campos, Jun Shern Chan, Angelica Chen,
+Kyunghyun Cho, and Ethan Perez. 2022. Training language models
+with natural language feedback. ArXiv:2204.14146. Schick et al. (2022a)
+
+Timo Schick, Jane Dwivedi-Yu, Zhengbao Jiang, Fabio Petroni, Patrick Lewis,
+Gautier Izacard, Qingfei You, Christoforos Nalmpantis, Edouard Grave, and
+Sebastian Riedel. 2022a. Peer: A
+collaborative language model. Schick et al. (2022b)
+
+Timo Schick, Jane Dwivedi-Yu, Zhengbao Jiang, Fabio Petroni, Patrick Lewis,
+Gautier Izacard, Qingfei You, Christoforos Nalmpantis, Edouard Grave, and
+Sebastian Riedel. 2022b. Peer: A collaborative language model. ArXiv, abs/2208.11663. Shinn et al. (2023)
+
+Noah Shinn, Beck Labash, and Ashwin Gopinath. 2023. Reflexion: an autonomous
+agent with dynamic memory and self-reflection. Simon (1962)
+
+Herbert A. Simon. 1962. The architecture of
+complexity. Proceedings of the American Philosophical Society,
+106(6):467–482. Stiennon et al.

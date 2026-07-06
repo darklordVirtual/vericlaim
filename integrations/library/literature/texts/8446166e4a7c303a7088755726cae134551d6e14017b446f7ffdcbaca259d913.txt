@@ -1,0 +1,10 @@
+For this transfer
+stage, we could use the same training set or a separate “transfer” set. When the
+cumbersome model is a large ensemble of simpler models, we can use an arithmetic or geometric mean of their individual predictive distributions as the soft targets. When the soft
+targets have high entropy, they provide much more information per training case than hard targets and much less variance
+in the gradient between training cases, so the small model can often be trained on much less data than the original
+cumbersome model and using a much higher learning rate. For tasks like MNIST in which the cumbersome model almost always produces the correct answer with very high confidence,
+much of the information about the learned function resides in the ratios of very small probabilities in the soft
+targets. For example, one version of a 2 may be given a probability of of being a 3 and of being a 7
+whereas for another version it may be the other way around. This is valuable information that defines a rich similarity
+structure over the data (i. e.

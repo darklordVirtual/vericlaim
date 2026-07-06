@@ -1,0 +1,5 @@
+For very large models, ZeRO can even choose to move the activation partitions to the CPU memory, while still achieving good efficiency due to large arithmetic intensity in these models. 4.2.2 Managing Temporary buffers
+
+ZeRO-R uses constant size buffers to avoid temporary buffers from blowing up as the model size increases, while making them large enough to remain efficient. 4.2.3 Managing fragmented Memory
+
+Memory fragmentation is a result of interleaving between short lived and long lived memory objects. During the forward propagation activation checkpoints are long lived but the activations that recomputed are short lived. Similarly, the backward computation, the activation gradients are short lived while the parameter gradients are long lived. Based on this insight, ZeRO performs on-the-fly memory defragmentation by moving activation checkpoints and gradients to pre-allocated contiguous memory buffers. This not only increases memory availability but also improves efficiency by reducing the time it takes for the memory allocator to find free contiguous memory.

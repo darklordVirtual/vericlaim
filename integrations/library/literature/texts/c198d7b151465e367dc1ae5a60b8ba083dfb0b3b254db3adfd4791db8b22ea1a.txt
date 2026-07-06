@@ -1,0 +1,1 @@
+[1910.02054] ZeRO: Memory Optimizations Toward Training Trillion Parameter Models

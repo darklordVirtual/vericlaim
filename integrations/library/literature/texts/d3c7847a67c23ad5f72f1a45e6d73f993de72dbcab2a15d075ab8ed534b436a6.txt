@@ -1,0 +1,48 @@
+Unclear variable names, no comments
+
+: Descriptive names, comments
+
+: Enhance variable naming; add comments
+
+: Clear variables, meaningful comments
+
+Math Reasoning
+
+Solve math reasoning problems. Dataset: (Cobbe et al., 2021) 1319 questions
+
+: Olivia has $23, buys 5 bagels at $3 each”
+
+: Solution in Python
+
+: Show step-by-step solution
+
+: Solution with detailed explanation
+
+Acronym Generation
+
+Generate acronyms for a given title
+
+Dataset: (Appendix Q) 250 acronyms
+
+: Radio Detecting and Ranging”
+
+: RDR
+
+: be context relevant; easy pronunciation
+
+: RADAR”
+
+Constrained Generation
+
+Generate sentences with given keywords. Dataset: (Lin et al., 2020) 200 samples
+
+: beach, vacation, relaxation
+
+: During our beach vacation…
+
+: Include keywords; maintain coherence
+
+: .. beach vacation was filled with relaxation
+
+Table 4: An overview of the tasks which we evaluate \ourson, along with their associated datasets and sizes. For every task, we demonstrate
+a single iteration of refinement of input , the previously generated output , the feedback generated , and the refinement . Few-shot prompts used for feedback and refine are provided in Appendix S.

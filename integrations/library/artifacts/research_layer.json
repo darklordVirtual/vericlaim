@@ -1,13 +1,13 @@
 {
-  "canon_dropped": 8,
-  "canon_fulltext": 33,
-  "canon_total": 109,
-  "canon_vectorized": 101,
-  "canon_verified": 101,
-  "catalog_works": 110,
-  "catalog_works_fulltext": 40,
-  "chunked_works": 110,
-  "chunks_pushed": 5744,
-  "chunks_total": 5744,
+  "canon_dropped": 9,
+  "canon_fulltext": 53,
+  "canon_total": 152,
+  "canon_vectorized": 143,
+  "canon_verified": 143,
+  "catalog_works": 152,
+  "catalog_works_fulltext": 60,
+  "chunked_works": 152,
+  "chunks_pushed": 7626,
+  "chunks_total": 7626,
   "undocumented_gaps": 0
 }

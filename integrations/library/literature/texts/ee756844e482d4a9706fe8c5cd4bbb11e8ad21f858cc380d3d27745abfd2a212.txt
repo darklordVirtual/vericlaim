@@ -1,0 +1,20 @@
+arXiv preprint arXiv:1806.03822, 2018. RL [16]
+
+Sachin Ravi and Hugo Larochelle. Optimization as a model for few-shot learning. ICLR 2017 (oral), 2016. RLL+ [19]
+
+Qiu Ran, Yankai Lin, Peng Li, Jie Zhou, and Zhiyuan Liu. NumNet: Machine reading comprehension with numerical reasoning. In Proceedings of EMNLP, 2019. RNLVD [18]
+
+Rachel Rudinger, Jason Naradowsky, Brian Leonard, and Benjamin Van Durme. Gender bias in coreference resolution. arXiv preprint arXiv:1804.09301, 2018. RNSS [18]
+
+Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training, 2018. Ros [12]
+
+R.S. Ross. Guide for conducting risk assessments. NIST Special Publication, 2012. RRBS [19]
+
+Jonathan S. Rosenfeld, Amir Rosenfeld, Yonatan Belinkov, and Nir Shavit. A constructive prediction of the generalization error across scales,
+2019. RRS [20]
+
+Adam Roberts, Colin Raffel, and Noam Shazeer. How much knowledge can you pack into the parameters of a language
+model? arXiv preprint arXiv:2002.08910, 2020. RSR+ [19]
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J. Liu.

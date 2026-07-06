@@ -1,0 +1,40 @@
+{"fsid": "arxiv_1503-02531", "n": 39, "overlap": 200, "source_sha256": "78e38d88fcb514c0a983f63f9e66e243b3e532fcb176cf0ff435ee5040a2025b", "target": 1200}
+{"section": "", "seq": 0, "sha256": "2c12e001d520692bb87c2c298e7ab109f72af08e5e7672bc968790fa848ade85"}
+{"section": "Distilling the Knowledge in a Neural Network", "seq": 1, "sha256": "797692e21392e393d8d1a6dc8cdf91c1ab5f94fbc3f94894ddbdacb953d6028e"}
+{"section": "Distilling the Knowledge in a Neural Network", "seq": 2, "sha256": "ce767b2269b233cc3096dd313d38f83ccda432bd96daae1b9d03115803047e0f"}
+{"section": "1 Introduction", "seq": 3, "sha256": "2bf0cb8b76b0aca161d157ca23347136fab9800c6a978b92cc091a2e24f38a63"}
+{"section": "1 Introduction", "seq": 4, "sha256": "2071ea579dd0d48fa89238619ea9bd06ad4357bb50aacb360502e27d6e9de001"}
+{"section": "1 Introduction", "seq": 5, "sha256": "faa4b0162e63fba3faa90738e2ad18a522f30b67dbd695ff2ba1724559fe30a4"}
+{"section": "1 Introduction", "seq": 6, "sha256": "cc753ef8d1f89e5f7c642f4b1af7b72f0907f7cde5c95b38c9e3fda0134847bf"}
+{"section": "1 Introduction", "seq": 7, "sha256": "8446166e4a7c303a7088755726cae134551d6e14017b446f7ffdcbaca259d913"}
+{"section": "1 Introduction", "seq": 8, "sha256": "c0f04810720471600ad61b0065964012ca993b9730e1c29c7ca07131f36b109a"}
+{"section": "1 Introduction", "seq": 9, "sha256": "c39c147bccc700538ec4c4f91ad4f330220f86757c1c86c369961dc8f775c7fa"}
+{"section": "2 Distillation", "seq": 10, "sha256": "3fd543e577d0cb99a5f7e58a6e852e524a275cc4cad360524139ae9f163d9cdf"}
+{"section": "2 Distillation", "seq": 11, "sha256": "7d276de1267128f257b3da9fea7cb57620f82210c836423ce6fb08702d047a4c"}
+{"section": "2.1 Matching logits is a special case of distillation", "seq": 12, "sha256": "c529f7601a468ffd1092175bf7b2e906c5804dcb476c8ebb2545fcf0ec5eeee9"}
+{"section": "2.1 Matching logits is a special case of distillation", "seq": 13, "sha256": "f87f34ca7696e594534c508b575beaff7081eb1d31c6a80b63dc2252dd39fdcf"}
+{"section": "3 Preliminary experiments on MNIST", "seq": 14, "sha256": "62c63fa6e3a01d83d2d180d519981cd9c62110e2c4afb735ba1c9e33490b1b75"}
+{"section": "3 Preliminary experiments on MNIST", "seq": 15, "sha256": "3d813700af678fb20d6e288f3ac6c8c78377a7a61a8acebc090566866eed5fc8"}
+{"section": "4 Experiments on speech recognition", "seq": 16, "sha256": "0eae488760459339d27180c7d1932712e68c4084c0dacdd50910d0bd1fa5044b"}
+{"section": "4 Experiments on speech recognition", "seq": 17, "sha256": "fb79c62af97437a8d6d904aabaa0e7b834a526d24b4c473ed02032eccab3527c"}
+{"section": "4 Experiments on speech recognition", "seq": 18, "sha256": "5925a1b757ff25e6eb0766c01d4a2c9562ec235e46ece5b58798db36d0392c2d"}
+{"section": "4.1 Results", "seq": 19, "sha256": "79906cc331ca79d38372bd7bed3aaa6b374acbbfa85d5878e83c2058ffcf6f44"}
+{"section": "4.1 Results", "seq": 20, "sha256": "2665c6f6f9dcff68eb88cb1f2931f64aefe8f406cc5381d53edfcba53fa30df1"}
+{"section": "5 Training ensembles of specialists on very big datasets", "seq": 21, "sha256": "7fb74937b3a704331b82a112c6d3b3264520e31bdda8cceaa1dc2a1cffe36239"}
+{"section": "5.1 The JFT dataset", "seq": 22, "sha256": "497289d144184e3cea184e9899e5e31653664e3ba46082636c755fd11b324908"}
+{"section": "5.2 Specialist Models", "seq": 23, "sha256": "7a3f517b7a8218bcc46ea17dbd6ab46cedbe4aca8012d7e9c609f09cfc2fe967"}
+{"section": "5.3 Assigning classes to specialists", "seq": 24, "sha256": "3b3d23fa72a3d7e4ebb0b2231ca0149a94459a9bc67fbf1ad71515fb4fd33058"}
+{"section": "5.4 Performing inference with ensembles of specialists", "seq": 25, "sha256": "275458591ec6863f45c769dbcf7f945af00a818b0a0dd453df6b292f99b9ce0a"}
+{"section": "5.4 Performing inference with ensembles of specialists", "seq": 26, "sha256": "e72bd053da96a3f50d99a02b7dcdcb9d32bf7e1e63d8966da5e90984237882a1"}
+{"section": "5.5 Results", "seq": 27, "sha256": "76ef5b3fe7c0e0e192644b16e32bbfa3673adf9b3716cf62f0e47226cabae387"}
+{"section": "5.5 Results", "seq": 28, "sha256": "13017163f7910494e6373606e1bcc1c4c28651354d0012b2d65c845d446acf38"}
+{"section": "5.5 Results", "seq": 29, "sha256": "dd4a263164267cebf025a397bffd74864343f981becd815df638a4f5a6d07bef"}
+{"section": "6 Soft Targets as Regularizers", "seq": 30, "sha256": "04bdb43af48f80ec236ba19b9b982b18812b78fbd8c5d8b5ed95d217ccbf8a3d"}
+{"section": "6 Soft Targets as Regularizers", "seq": 31, "sha256": "1a85d1dc582ed2209160c76d87c3c27b487789289ec43d413b04aa3b7496f438"}
+{"section": "6.1 Using soft targets to prevent specialists from overfitting", "seq": 32, "sha256": "9362ec1ddf2b933962c2cb1ec8e7a426687c20d277b851532b4db9f5d7c71462"}
+{"section": "7 Relationship to Mixtures of Experts", "seq": 33, "sha256": "6380e40bf3ec48eb2e3db1dcdbaf6aa2b241530b226d0eb04ef7c468e584f3fc"}
+{"section": "7 Relationship to Mixtures of Experts", "seq": 34, "sha256": "cc578fd7ca57f038c0d8bb9bcd5f95abc0778e4e33aeb01223f9d1a2eeff9c6c"}
+{"section": "8 Discussion", "seq": 35, "sha256": "68a890b17277da627073a60d4936a2c044356f1f2cb27797a2bdd437c00bc077"}
+{"section": "8 Discussion", "seq": 36, "sha256": "0360d2caf3db575432bdfe0d90c856c880eb5687f8027d2f33124d3941e6698f"}
+{"section": "References", "seq": 37, "sha256": "4f6dad9e0704e9e22d2d6f39903a86eb0ea256ab90bd6a3815c28499e6298774"}
+{"section": "References", "seq": 38, "sha256": "1304e0d3e56be7b29b13f2ff86e6ae9c886644fbe9bf323515f2e30bdc6f25c7"}

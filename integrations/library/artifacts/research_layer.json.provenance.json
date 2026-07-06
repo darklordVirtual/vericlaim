@@ -1,9 +1,9 @@
 {
   "schema": "vericlaim_provenance_v2",
   "artifact": "research_layer.json",
-  "artifact_sha256": "79a7b9416c595e166cb11833bd4dd31fb7e22c57d390cf9df32941250bb3134e",
+  "artifact_sha256": "6af1ae7ee4480966aef9173a1c22f3a06705ae2651ffe58167a5a5cb30782b1a",
   "script": "python3 integrations/library/evidence_research_layer.py",
-  "git_commit": "87d05db7e57cd7b3c11464787481daca772752dc",
-  "generated_at": "2026-07-06T01:00:15.874030+00:00",
+  "git_commit": "5483bf869c73e365202ae0bdb4b3c507f1ae95a3",
+  "generated_at": "2026-07-06T01:39:11.560860+00:00",
   "produced_by": "human"
 }

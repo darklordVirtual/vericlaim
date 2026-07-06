@@ -1,0 +1,20 @@
+Shulman and Bostrom (2020)
+
+Carl Shulman and Nick Bostrom. 2020. Sharing the world with digital minds. preprint. Sotala and Gloor (2017)
+
+Kaj Sotala and Lukas Gloor. 2017. Superintelligence as a cause or cure for risks of astronomical
+suffering. Informatica, 41(4). Speer (2019)
+
+Robyn Speer. 2019. ftfy. Zenodo. Version 5.5. Stephen et al. (2016)
+
+Merity Stephen, Xiong Caiming, Bradbury James, and Richard Socher. 2016. Stiennon et al. (2020)
+
+Nisan Stiennon, Long Ouyang, Jeffrey Wu, Daniel Ziegler, Ryan Lowe, Chelsea
+Voss, Alec Radford, Dario Amodei, and Paul F Christiano. 2020. Learning to summarize with human feedback. Advances in Neural Information Processing Systems, 33. Suárez et al. (2019a)
+
+Pedro Javier Ortiz Suárez, Benoît Sagot, and Laurent Romary. 2019a. Asynchronous pipeline for processing huge corpora on medium to low
+resource infrastructures. In 7th Workshop on the Challenges in the Management of Large
+Corpora (CMLC-7). Leibniz-Institut für Deutsche Sprache. Suárez et al. (2019b)
+
+Pedro Javier Ortiz Suárez, Benoît Sagot, and Laurent Romary. 2019b. Asynchronous pipeline for processing huge corpora on medium to low
+resource infrastructures.

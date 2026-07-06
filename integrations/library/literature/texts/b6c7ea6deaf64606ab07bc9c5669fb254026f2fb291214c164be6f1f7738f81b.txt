@@ -1,0 +1,19 @@
+Simon (1962)
+
+Herbert A. Simon. 1962. The architecture of
+complexity. Proceedings of the American Philosophical Society,
+106(6):467–482. Stiennon et al. (2020)
+
+Nisan Stiennon, Long Ouyang, Jeffrey Wu, Daniel Ziegler, Ryan Lowe, Chelsea
+Voss, Alec Radford, Dario Amodei, and Paul F Christiano. 2020. Learning to summarize with human feedback. In Advances in Neural Information Processing Systems,
+volume 33, pages 3008–3021. Curran Associates, Inc. Sun et al. (2023)
+
+Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David
+Cox, Yiming Yang, and Chuang Gan. 2023. Principle-driven self-alignment of language models from scratch with
+minimal human supervision. arXiv preprint arXiv:2305.03047. Tandon et al. (2021)
+
+Niket Tandon, Aman Madaan, Peter Clark, Keisuke Sakaguchi, and Yiming Yang. 2021. Interscript: A dataset for interactive learning of scripts through
+error feedback. arXiv preprint arXiv:2112.07867. Tandon et al. (2022)
+
+Niket Tandon, Aman Madaan, Peter Clark, and Yiming Yang. 2022. Learning to repair: Repairing model output errors after deployment
+using a dynamic memory of feedback.

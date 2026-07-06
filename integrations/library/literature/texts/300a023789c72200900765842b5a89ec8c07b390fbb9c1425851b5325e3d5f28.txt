@@ -1,0 +1,16 @@
+Sub-task decomposition enables learning in sequence to sequence
+tasks. arXiv preprint arXiv:2204.02892, 2022. [21]
+
+Thomas Anthony, Zheng Tian, and David Barber. Thinking fast and slow with deep learning and tree search. Advances in Neural Information Processing Systems, 30, 2017. [22]
+
+Ankit Vani, Max Schwarzer, Yuchen Lu, Eeshan Dhekane, and Aaron Courville. Iterated learning for emergent systematicity in vqa. ICLR 2021, 2021. [23]
+
+Oana-Maria Camburu, Tim Rocktäschel, Thomas Lukasiewicz, and Phil Blunsom. e-snli: Natural language inference with natural language
+explanations. Advances in Neural Information Processing Systems, 31, 2018. [24]
+
+Hanxiong Chen, Xu Chen, Shaoyun Shi, and Yongfeng Zhang. Generate natural language explanations for recommendation. arXiv preprint arXiv:2101.03392, 2021. [25]
+
+John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy optimization algorithms. arXiv preprint arXiv:1707.06347, 2017. [26]
+
+Ben Wang. Mesh-Transformer-JAX: Model-Parallel Implementation of Transformer
+Language Model with JAX. https://github.com/kingoflolz/mesh-transformer-jax, May 2021.

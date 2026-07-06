@@ -1,0 +1,18 @@
+[AI2]
+
+AI21 LLM API. https://www.ai21.com/. Accessed: 2023-03-31. [ANC+22]
+
+Simran Arora, Avanika Narayan, Mayee F Chen, Laurel J Orr, Neel Guha, Kush
+Bhatia, Ines Chami, Frederic Sala, and Christopher Ré. Ask me anything: A simple strategy for prompting language models. arXiv preprint arXiv:2210.02441, 2022. [BG18]
+
+Joy Buolamwini and Timnit Gebru. Gender shades: Intersectional accuracy disparities in commercial
+gender classification. In Conference on fairness, accountability and transparency,
+pages 77–91. PMLR, 2018. [BGMMS21]
+
+Emily M Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+Shmitchell. On the dangers of stochastic parrots: Can language models be too big? In Proceedings of the 2021 ACM conference on fairness,
+accountability, and transparency, pages 610–623, 2021. [BHS+22]
+
+Haoli Bai, Lu Hou, Lifeng Shang, Xin Jiang, Irwin King, and Michael R Lyu. Towards efficient post-training quantization of pre-trained language
+models. Advances in Neural Information Processing Systems,
+35:1405–1418, 2022.

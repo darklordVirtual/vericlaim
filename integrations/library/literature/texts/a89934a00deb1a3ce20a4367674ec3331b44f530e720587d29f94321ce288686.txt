@@ -1,0 +1,19 @@
+In F. Pereira, C. J. C. Burges, L. Bottou, and K. Q. Weinberger,
+editors, Advances in Neural Information Processing Systems 25, pages
+1097–1105. Curran Associates, Inc., 2012. URL
+http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf. [19]
+
+W. Liu. Ssd github repository. https://github.com/weiliu89/caffe/tree/ssd. Liu et al. [2015a]
+
+W. Liu, D. Anguelov, D. Erhan, C. Szegedy, and S. E. Reed. Ssd: Single shot multibox detector. CoRR, abs/1512.02325, 2015a. URL
+http://dblp.uni-trier.de/db/journals/corr/corr1512.html#LiuAESR15. Liu et al. [2015b]
+
+Z. Liu, P. Luo, X. Wang, and X. Tang. Deep learning face attributes in the wild. In Proceedings of International Conference on Computer Vision
+(ICCV), 2015b. [22]
+
+A. Mishra, E. Nurvitadhi, J. Cook, and D. Marr. Wrpn: Wide reduced-precision networks. arXiv preprint arXiv:1709.01134, year=2017. NVIDIA [2017]
+
+NVIDIA. Nvidia tesla v100 gpu architecture. https://images.nvidia.com/content/volta-architecture/pdf/Volta-Architecture-Whitepaper-v1.0.pdf,
+2017. Ott et al. [2016]
+
+J. Ott, Z. Lin, Y. Zhang, S.-C. Liu, and Y. Bengio. Recurrent neural networks with limited numerical precision.

@@ -1,0 +1,10 @@
+arXiv preprint arXiv:2106.10199, 2021. Zeng et al. [2022]
+
+A. Zeng, X. Liu, Z. Du, Z. Wang, H. Lai, M. Ding, Z. Yang, Y. Xu, W. Zheng,
+X. Xia, et al. Glm-130b: An open bilingual pre-trained model. arXiv preprint arXiv:2210.02414, 2022. Zhang et al. [2022]
+
+S. Zhang, S. Roller, N. Goyal, M. Artetxe, M. Chen, S. Chen, C. Dewan, M. Diab,
+X. Li, X. V. Lin, et al. Opt: Open pre-trained transformer language models. arXiv preprint arXiv:2205.01068, 2022. Zhong et al. [2021]
+
+R. Zhong, K. Lee, Z. Zhang, and D. Klein. Adapting language models for zero-shot learning by meta-tuning on
+dataset and prompt collections. arXiv preprint arXiv:2104.04670, 2021.

@@ -1,0 +1,17 @@
+Rabe and Staats [2021]
+
+Markus N Rabe and Charles Staats. Self-attention does not need memory. arXiv preprint arXiv:2112.05682, 2021. Radford et al. [2019]
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya
+Sutskever, et al. Language models are unsupervised multitask learners. OpenAI blog, 1(8):9, 2019. Rae and Razavi [2020]
+
+Jack Rae and Ali Razavi. Do transformers need deep long-range memory? In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, Online, July 2020. Association for
+Computational Linguistics. URL https://www.aclweb.org/anthology/2020.acl-main.672. Rae et al. [2020]
+
+Jack W Rae, Anna Potapenko, Siddhant M Jayakumar, and Timothy P Lillicrap. Compressive transformers for long-range sequence modelling. In The International Conference on Learning Representations
+(ICLR), 2020. Ragan-Kelley et al. [2013]
+
+Jonathan Ragan-Kelley, Connelly Barnes, Andrew Adams, Sylvain Paris, Frédo
+Durand, and Saman Amarasinghe. Halide: a language and compiler for optimizing parallelism, locality,
+and recomputation in image processing pipelines. Acm Sigplan Notices, 48(6):519–530, 2013. Ramakrishnan et al.

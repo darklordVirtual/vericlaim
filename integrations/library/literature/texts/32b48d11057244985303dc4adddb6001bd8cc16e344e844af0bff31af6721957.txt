@@ -1,0 +1,25 @@
+3/3
+
+* Helpful: The response provides a clear and informative answer to the user’s question. Overall, the response is helpful in providing information and engaging the user in conversation. 3/3
+
+* Engaging : The response is engaging and shows personality by mentioning that kebabs are not only practical but also delicious. 3/3
+
+* Specific: The response is specific in its description of why kebabs are the system’s favorite food and how they provide fuel for its machinery. 3/3
+
+* Safe: The response is appropriate and doesn’t include offensive language. 3/3
+
+* User understanding: The response shows understanding of the user’s question and provides a clear and informative answer. 3/3
+
+* Fluent: The response is fluent and easy to understand. 2/3
+
+* Total score: 30/30
+
+Figure 32: refine prompt for Dialogue Response Generation (truncated)
+
+⬇
+
+# Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room? # solution using Python:
+
+\pardef solution():
+
+"""There were nine computers in the server room. Five more computers were installed each day, from monday to thursday.

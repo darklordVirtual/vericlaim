@@ -1,0 +1,21 @@
+Sharan Narang , Gregory Diamos, Erich Elsen
+
+Baidu Research
+
+{sharan, gdiamos}@baidu.com
+
+\ANDPaulius Micikevicius∗, Jonah Alben, David Garcia, Boris Ginsburg, Michael Houston,
+
+Oleksii Kuchaiev, Ganesh Venkatesh, Hao Wu
+
+NVIDIA
+
+{pauliusm, alben, dagarcia, bginsburg, mhouston,
+
+okuchaiev, gavenkatesh, skyw}@nvidia.com
+
+Equal contributionNow at Google Brain eriche@google.com
+
+Abstract
+
+Increasing the size of a neural network typically improves accuracy but also increases the memory and compute requirements for training the model. We introduce methodology for training deep neural networks using half-precision floating point numbers, without losing model accuracy or having to modify hyper-parameters. This nearly halves memory requirements and, on recent GPUs, speeds up arithmetic. Weights, activations, and gradients are stored in IEEE half-precision format. Since this format has a narrower range than single-precision we propose three techniques for preventing the loss of critical information.

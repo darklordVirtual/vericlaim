@@ -1,0 +1,3 @@
+However, this assumption may be incorrect, because Abby may have seen James moving the pen. However, these inferences are unreliable, and often the model gives reasons that presume things that don’t make sense in the situation, e.g.,
+
+User: Evelyn entered the living room. Jackson entered the playroom. James entered the playroom. The beans are in the treasure chest. James exited the playroom. Jackson moved the beans to the pantry. Jackson exited the playroom. James entered the living room. Where will James look for the beans? Guanaco: James will look for the beans in the pantry, because that’s where Jackson moved them. where Guanaco presumes information transfer that was never described. These issues echo recent literature [51], but require more study.

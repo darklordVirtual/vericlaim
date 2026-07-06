@@ -1,0 +1,18 @@
+(2015)
+
+Emmanuel Bengio, Pierre-Luc Bacon, Joelle Pineau, and Doina Precup. Conditional computation in neural networks for faster models. arXiv preprint arXiv:1511.06297, 2015. Bengio et al. (2013)
+
+Yoshua Bengio, Nicholas Léonard, and Aaron Courville. Estimating or propagating gradients through stochastic neurons for
+conditional computation. arXiv preprint arXiv:1308.3432, 2013. Chelba et al. (2013)
+
+Ciprian Chelba, Tomas Mikolov, Mike Schuster, Qi Ge, Thorsten Brants, Phillipp
+Koehn, and Tony Robinson. One billion word benchmark for measuring progress in statistical
+language modeling. arXiv preprint arXiv:1312.3005, 2013. Cho & Bengio (2014)
+
+K. Cho and Y. Bengio. Exponentially Increasing the Capacity-to-Computation Ratio for
+Conditional Computation in Deep Learning. ArXiv e-prints, June 2014. Collobert et al. (2002)
+
+Ronan Collobert, Samy Bengio, and Yoshua Bengio. A parallel mixture of SVMs for very large scale problems. Neural Computing, 2002. Davis & Arel (2013)
+
+Andrew Davis and Itamar Arel. Low-rank approximations for conditional feedforward computation in
+deep neural networks. arXiv preprint arXiv:1312.4461, 2013.

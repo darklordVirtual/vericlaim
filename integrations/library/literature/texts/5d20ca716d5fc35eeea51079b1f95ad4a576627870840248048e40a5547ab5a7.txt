@@ -1,0 +1,19 @@
+We use the representation of the first sub-token as the input to the token-level classifier over the NER label set. To ablate the fine-tuning approach, we apply the feature-based approach by extracting the activations from one or more layers without fine-tuning any parameters of BERT. These contextual embeddings are used as input to a randomly initialized two-layer 768-dimensional BiLSTM before the classification layer. Results are presented in Table 7. BERT performs competitively with state-of-the-art methods. The best performing method concatenates the token representations from the top four hidden layers of the pre-trained Transformer, which is only 0.3 F1 behind fine-tuning the entire model. This demonstrates that BERT is effective for both fine-tuning and feature-based approaches. System
+
+Dev F1
+
+Test F1
+
+ELMo Peters et al. (2018a)
+
+95.7
+
+92.2
+
+CVT Clark et al. (2018)
+
+-
+
+92.6
+
+CSE Akbik et al.

@@ -1,0 +1,5 @@
+We consider the task of long-form text style transfer, where given a passage (a few sentences) and an associated sentiment (positive or negative), the task is to re-write the passage to flip its sentiment (positive to negative or vice-versa). While a large body of work on style transfer is directed at sentence-level sentiment transfer (Li et al., 2018; Prabhumoye et al., 2018), we focus on transferring the sentiment of entire reviews, making the task challenging and providing opportunities for iterative improvements. Instantiating \oursfor sentiment reversal
+
+We instantiate \oursfor this task following the high-level description of the framework shared in Section 2. Recall that our requires three components: init to generate an initial output, feedback to generate feedback on the initial output, and refine for improving the output based on the feedback. \ours
+
+is implemented in a complete few-shot setup, where each module (init, feedback, iterate) is implemented as few-shot prompts. We execute the self-improvement loop for a maximum of iterations. The iterations continue until the target sentiment is reached.

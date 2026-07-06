@@ -1,0 +1,1 @@
+On the final attempt it does not make these mistakes. Figure 22: Revision model example 6. On the first two attempts the model makes a mistake when summing the proper divisors of 284. On the third attempt, it evaluates this sum correctly. Figure 23: Revision model example 7. On the first attempt the model evaluates incorrectly. On the second attempt it corrects this error.

@@ -1,0 +1,1 @@
+In this section, we cover the Structural Statistics of the dataset, which provide more coarse-grained and statistical information about the Pile. In Section 6, we provide a closer investigation and documentation of the textual content within the Pile datasets.

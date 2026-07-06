@@ -1,0 +1,7 @@
+Good acronyms provide a concise and memorable way to communicate complex ideas, making them easier to understand and remember, ultimately leading to more efficient and effective communication. Like in email writing, acronym generation also requires an iterative refinement process to achieve a concise and memorable representation of a complex term or phrase. Acronyms often involve tradeoffs between length, ease of pronunciation, and relevance to the original term or phrase. Thus, acronym generation is a natural method testbed for our approach. We source the dataset for this task from https://github.com/krishnakt031990/Crawl-Wiki-For-Acronyms/blob/master/AcronymsFile.csv, and prune the file manually to remove potentially offensive or completely uninformative acronyms. This exercise generated a list of 250 acronyms. The complete list is given in our code repository. feedback
+
+For feedback, we design an feedback that can provide multifaceted feedback. Specifically, each acronym is judged along five dimensions:
+
+•
+
+Ease of pronunciation: How easy or difficult is it to pronounce the acronym?

@@ -1,0 +1,5 @@
+Let be the embeddings of the prompts for a given benchmark and be the embeddings of a specific preference dataset , where and are the total number of evaluation and preference data samples respectively. We define the benchmark-data similarity score for each benchmark as the average maximum similarity for each evaluation prompt across all dataset samples:
+
+(14)
+
+We opt to use only the maximum similarity score because having a small number of samples of preference data that are very similar to the user’s query is most valuable for efficient query routing, as opposed to having many samples that are less similar to the user prompt.

@@ -1,0 +1,22 @@
+In ICML, 2015. [17]
+
+H. Jegou, M. Douze, and C. Schmid. Product quantization for nearest neighbor search. TPAMI, 33, 2011. [18]
+
+H. Jegou, F. Perronnin, M. Douze, J. Sanchez, P. Perez, and C. Schmid. Aggregating local image descriptors into compact codes. TPAMI, 2012. [19]
+
+Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick,
+S. Guadarrama, and T. Darrell. Caffe: Convolutional architecture for fast feature embedding. arXiv:1408.5093, 2014. [20]
+
+A. Krizhevsky. Learning multiple layers of features from tiny images. Tech Report, 2009. [21]
+
+A. Krizhevsky, I. Sutskever, and G. Hinton. Imagenet classification with deep convolutional neural networks. In NIPS, 2012. [22]
+
+Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and
+L. D. Jackel. Backpropagation applied to handwritten zip code recognition. Neural computation, 1989. [23]
+
+Y. LeCun, L. Bottou, G. B. Orr, and K.-R. Müller. Efficient backprop. In Neural Networks: Tricks of the Trade, pages 9–50. Springer,
+1998. [24]
+
+C.-Y. Lee, S. Xie, P. Gallagher, Z. Zhang, and Z. Tu. Deeply-supervised nets. arXiv:1409.5185, 2014. [25]
+
+M. Lin, Q. Chen, and S. Yan. Network in network. arXiv:1312.4400, 2013.

@@ -1,0 +1,70 @@
+Similarly, Llama-2 also frequently converts a correct answer into an incorrect one. Compared to GPT-3.5 and Llama-2, both GPT-4 and GPT-4-Turbo are more likely to retain their initial answers. This may be because GPT-4 and GPT-4-Turbo have higher confidence in their initial answers, or because they are more robust and thus less prone to being biased by the self-correction prompt.111We omit the analysis on HotpotQA because the sample size used in the source paper is quite small, which may not produce meaningful statistics. Table 4: Results of GPT-4-Turbo and Llama-2 with intrinsic self-correction. # calls
+GSM8K
+CommonSenseQA
+
+GPT-4-Turbo
+
+Standard Prompting
+
+1
+
+91.5
+
+84.0
+
+Self-Correct (round 1)
+
+3
+
+88.0
+
+81.5
+
+Self-Correct (round 2)
+
+5
+
+90.0
+
+83.0
+
+Llama-2
+
+Standard Prompting
+
+1
+
+62.0
+
+64.0
+
+Self-Correct (round 1)
+
+3
+
+43.5
+
+37.5
+
+Self-Correct (round 2)
+
+5
+
+36.5
+
+36.5
+
+Table 5: Results of GPT-4-Turbo with different feedback prompts. # calls
+
+GSM8K
+
+CommonSenseQA
+
+Standard Prompting
+1
+
+91.5
+
+84.0
+
+Feedback Prompt: Assume that this answer could be either correct or incorrect. Review the answer carefully and report any serious problems you find.

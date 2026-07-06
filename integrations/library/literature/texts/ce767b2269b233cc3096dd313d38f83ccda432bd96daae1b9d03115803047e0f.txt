@@ -1,0 +1,8 @@
+results on MNIST and we show that we can significantly
+improve the acoustic model of a heavily used commercial system by
+distilling the knowledge in an ensemble of models into a single model. We
+also introduce a new type of ensemble composed of one or more full
+models and many specialist models which learn to distinguish
+fine-grained classes that the full models confuse. Unlike a mixture of
+experts, these specialist models can be trained rapidly and in
+parallel.

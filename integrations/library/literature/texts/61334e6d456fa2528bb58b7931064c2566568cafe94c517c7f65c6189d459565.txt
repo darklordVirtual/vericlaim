@@ -1,0 +1,7 @@
+Multiplying $2.50 by 15, we find that Terry spends a total of $2.50 * 15 = $37.50 on yogurt over 30 days. Therefore, the final answer is Terry spends $\boxed{37.50}$ on yogurt over 30 days. (Incorrect)
+
+Figure 4: Example on GSM8K where self-correction changes a correct answer to an incorrect one. ⬇
+
+|\textbf{Can you solve the following math problem? Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep? Explain your reasoning. Your final answer should be a single numerical number, in the form $\backslash$boxed\{answer\}, at the end of your response.}|
+
+\parLet’s start by figuring out how many sheep Charleston has. We are given that Charleston has 4 times as many sheep as Seattle, so we can calculate this by multiplying Seattle’s number of sheep by 4: Charleston = 4 * 20 = 80 sheep. Next, we are told that Toulouse has twice as many sheep as Charleston. Therefore, we can find Toulouse’s number of sheep by multiplying Charleston’s number of sheep by 2: Toulouse = 2 * 80 = 160 sheep.

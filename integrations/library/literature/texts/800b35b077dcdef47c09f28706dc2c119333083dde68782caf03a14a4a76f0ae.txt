@@ -1,0 +1,15 @@
+On a new class of structured matrices. Integral Equations and Operator Theory, 34(3):293–324, 1999. Feydy et al. [2020]
+
+Jean Feydy, Joan Glaunès, Benjamin Charlier, and Michael Bronstein. Fast geometric learning with symbolic matrices. Advances in Neural Information Processing Systems, 33, 2020. Flum and Grohe [2006]
+
+Jörg Flum and Martin Grohe. Parameterized Complexity Theory. Springer, 2006. Frankle and Carbin [2018]
+
+Jonathan Frankle and Michael Carbin. The lottery ticket hypothesis: Finding sparse, trainable neural
+networks. In International Conference on Learning Representations, 2018. Frankle et al. [2019]
+
+Jonathan Frankle, Gintare Karolina Dziugaite, Daniel M Roy, and Michael Carbin. Stabilizing the lottery ticket hypothesis. arXiv preprint arXiv:1903.01611, 2019. Frankle et al. [2020]
+
+Jonathan Frankle, Gintare Karolina Dziugaite, Daniel Roy, and Michael Carbin. Linear mode connectivity and the lottery ticket hypothesis. In International Conference on Machine Learning, pages
+3259–3269. PMLR, 2020. Goel et al. [2022]
+
+Karan Goel, Albert Gu, Chris Donahue, and Christopher Ré. It’s raw! audio generation with state-space models.

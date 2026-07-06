@@ -1,0 +1,17 @@
+2020. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361. Klimt and Yang (2004)
+
+Bryan Klimt and Yiming Yang. 2004. The Enron corpus: A new dataset for email classification research. In European Conference on Machine Learning, pages 217–226. Springer. Kobayashi (2018)
+
+Sosuke Kobayashi. 2018. Homemade bookcorpus. https://github.com/BIGBALLON/cifar-10-cnn. Koehn (2005)
+
+Philipp Koehn. 2005. Europarl: A parallel corpus for statistical machine translation. In MT summit, volume 5, pages 79–86. Citeseer. Lepikhin et al. (2020)
+
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping
+Huang, Maxim Krikun, Noam Shazeer, and Zhifeng Chen. 2020. Gshard: Scaling giant models with conditional computation and
+automatic sharding. arXiv preprint arXiv:2006.16668. Liu et al. (2018)
+
+Peter J Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz
+Kaiser, and Noam Shazeer. 2018. Generating wikipedia by summarizing long sequences. arXiv preprint arXiv:1801.10198. Liu et al. (2019)
+
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019.

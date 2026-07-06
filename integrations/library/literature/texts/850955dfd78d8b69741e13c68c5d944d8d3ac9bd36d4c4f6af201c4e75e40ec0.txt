@@ -1,0 +1,12 @@
+We describe here some similarities and differences between our FlashAttention algorithm and the algorithm of Rabe and Staats [66]. Conceptually, both FlashAttention and Rabe and Staats [66] operate on blocks of the
+attention matrix using the well-established technique of tiling (or softmax
+scaling) [60, 51]. To reduce the memory footprint, both methods avoid storing the large attention
+matrix in the forward pass and recompute it in the backward pass. The first major difference is that Rabe and Staats [66] focuses on the reducing
+the total memory footprint (maximum amount of GPU memory required) while
+FlashAttention focuses on reducing memory accesses (the number of memory
+reads/writes). As mentioned in Section 2, the amount of memory access is the
+primary determining factor of runtime. Reducing memory accesses also necessarily reduces the total amount of memory
+required (e.g., if an operation incurs memory accesses, then its total
+memory requirement is at most ). As a result, FlashAttention is faster than standard attention (2-4) while
+Rabe and Staats [66] is around the same speed or slightly slower than standard
+attention.

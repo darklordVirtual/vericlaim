@@ -1,0 +1,41 @@
+Table 3: Cost savings by FrugalGPT to match the best individual LLM’s performance. Dataset
+Best invidual LLM
+Cost to reach the same accuracy
+
+Cost Savings \bigstrut
+
+Best individual LLM
+FrugalGPT
+\bigstrut
+
+HEADLINES
+
+GPT-4
+
+33.1
+
+0.6
+
+98.3% \bigstrut
+
+OVERULLING
+
+GPT-4
+
+9.7
+
+2.6
+
+73.3% \bigstrut
+
+COQA
+
+GPT-3
+
+72.5
+
+29.6
+
+59.2% \bigstrut
+
+Subsequently, we examine whether FrugalGPT can reduce costs while maintaining accuracy and, if so, by how much. Table 3 displays the overall cost savings of FrugalGPT, which range from 50% to 98%. This is feasible because FrugalGPT identifies the queries that can be accurately answered by smaller LLMs and, as a result, only invokes those cost-effective LLMs. Powerful but expensive LLMs, such as GPT-4, are utilized only for challenging queries detected by FrugalGPT. Figure 5: Accuracy and cost tradeoffs achieved by FrugalGPT. Overall, FrugalGPT often achieves the same performance of the best individual LLM API (e.g., GPT-4) with orders of magnitudes smaller cost. When incurring the same cost, FrugalGPT can improves the accuracy by up to 5%. Examples of LLM cascade for each dataset are shown on the right.

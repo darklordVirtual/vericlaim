@@ -1,0 +1,15 @@
+Advances in neural information processing systems,
+33:1877–1901, 2020. Chalkidis et al. [2019]
+
+Ilias Chalkidis, Ion Androutsopoulos, and Nikolaos Aletras. Neural legal judgment prediction in English. In Proceedings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pages 4317–4323, Florence, Italy, 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1424. URL https://www.aclweb.org/anthology/P19-1424. Chalkidis et al. [2021]
+
+Ilias Chalkidis, Manos Fergadiotis, Dimitrios Tsarapatsanis, Nikolaos Aletras,
+Ion Androutsopoulos, and Prodromos Malakasiotis. Paragraph-level rationale extraction through regularization: A case
+study on european court of human rights cases. In Proceedings of the Annual Conference of the North American
+Chapter of the Association for Computational Linguistics, Mexico City,
+Mexico, 2021. Association for Computational Linguistics. Charlier et al. [2021]
+
+Benjamin Charlier, Jean Feydy, Joan Alexis Glaunès, François-David Collin,
+and Ghislain Durif. Kernel operations on the gpu, with autodiff, without memory
+overflows. Journal of Machine Learning Research, 22(74):1–6, 2021. URL http://jmlr.org/papers/v22/20-275.html.

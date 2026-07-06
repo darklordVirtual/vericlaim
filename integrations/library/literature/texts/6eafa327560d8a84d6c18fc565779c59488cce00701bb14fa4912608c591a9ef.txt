@@ -1,0 +1,18 @@
+Superneurons: Dynamic GPU memory management for training deep
+neural networks. CoRR, abs/1801.04380, 2018. [16]
+
+Bharadwaj Pudipeddi, Maral Mesmakhosroshahi, Jinwen Xi, and Sujeeth Bharadwaj. Training large neural networks with constant memory using a new
+execution algorithm. ArXiv, abs/2002.05645, 2020. [17]
+
+M. Rhu, N. Gimelshein, J. Clemons, A. Zulfiqar, and S. W. Keckler. vdnn: Virtualized deep neural networks for scalable, memory-efficient
+neural network design. In 2016 49th Annual IEEE/ACM International Symposium on
+Microarchitecture (MICRO), pages 1–13, 2016. [18]
+
+Noam Shazeer and Mitchell Stern. Adafactor: Adaptive learning rates with sublinear memory cost. CoRR, abs/1804.04235, 2018. [19]
+
+Rohan Anil, Vineet Gupta, Tomer Koren, and Yoram Singer. Memory-efficient adaptive optimization for large-scale learning. ArXiv, abs/1901.11150, 2019. [20]
+
+John Duchi, Elad Hazan, and Yoram Singer. Adaptive subgradient methods for online learning and stochastic
+optimization. J. Mach. Learn. Res., 12(null):2121–2159, July 2011. [21]
+
+Yang You, Igor Gitman, and Boris Ginsburg. Scaling SGD batch size to 32k for imagenet training. CoRR, abs/1708.03888, 2017.

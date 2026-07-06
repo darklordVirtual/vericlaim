@@ -1,0 +1,17 @@
+2021. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874. Hestness et al. (2017)
+
+Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun,
+Hassan Kianinejad, Md Patwary, Mostofa Ali, Yang Yang, and Yanqi Zhou. 2017. Deep learning scaling is predictable, empirically. arXiv preprint arXiv:1712.00409. Hochreiter and Schmidhuber (1997)
+
+Sepp Hochreiter and Jürgen Schmidhuber. 1997. Long short-term memory. Neural computation, 9(8):1735–1780. Hoffmann et al. (2022)
+
+Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor
+Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes
+Welbl, Aidan Clark, Tom Hennigan, Eric Noland, Katie Millican, George van den
+Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich
+Elsen, Jack W. Rae, Oriol Vinyals, and Laurent Sifre. 2022. Training compute-optimal
+large language models. Iyer et al. (2022)
+
+Srinivasan Iyer, Xi Victoria Lin, Ramakanth Pasunuru, Todor Mihaylov,
+Dániel Simig, Ping Yu, Kurt Shuster, Tianlu Wang, Qing Liu, Punit Singh
+Koura, et al. 2022.

@@ -1,0 +1,21 @@
+2022. Measuring and narrowing the
+compositionality gap in language models. arXiv preprint arXiv:2210.03350. Puri et al. (2021)
+
+Ruchir Puri, David Kung, Geert Janssen, Wei Zhang, Giacomo Domeniconi, Vladmir
+Zolotov, Julian Dolby, Jie Chen, Mihir Choudhury, Lindsey Decker, Veronika
+Thost, Luca Buratti, Saurabh Pujar, Shyam Ramji, Ulrich Finkler, Susan
+Malaika, and Frederick Reiss. 2021. Codenet: A large-scale ai
+for code dataset for learning a diversity of coding tasks. arXiv preprint arXiv:2105.12655. Reid and Neubig (2022)
+
+Machel Reid and Graham Neubig. 2022. Learning to model editing processes. arXiv preprint arXiv:2205.12374. Saunders et al. (2022a)
+
+William Saunders, Catherine Yeh, Jeff Wu, Steven Bills, Long Ouyang, Jonathan
+Ward, and Jan Leike. 2022a. Self-critiquing models for
+assisting human evaluators. Saunders et al. (2022b)
+
+William Saunders, Catherine Yeh, Jeff Wu, Steven Bills, Long Ouyang, Jonathan
+Ward, and Jan Leike. 2022b. Self-critiquing models for
+assisting human evaluators. ArXiv:2206.05802. Scheurer et al. (2022)
+
+Jérémy Scheurer, Jon Ander Campos, Jun Shern Chan, Angelica Chen,
+Kyunghyun Cho, and Ethan Perez. 2022.

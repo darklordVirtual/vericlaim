@@ -1,0 +1,27 @@
+There are three levels within MultiRC: (1) the passage, (2) the questions, and (3) the answers. During evaluation, accuracy is determined at the per-question level, with a question being considered correct if and only if all the answers within the question are labeled correctly. For this reason, we use to refer to the number of questions shown within the context. Context
+
+Question: Which factor will most likely cause a person to develop a fever? Answer:
+
+Correct Answer
+
+a bacterial population in the bloodstream
+
+Incorrect Answer
+
+a leg muscle relaxing after exercise
+
+Incorrect Answer
+
+several viral particles on the skin
+
+Incorrect Answer
+
+carbohydrates being digested in the stomach
+
+Figure G.16: Formatted dataset example for ARC (Easy). When predicting, we normalize by the unconditional probability of each answer as described in 2. Context
+
+Bob went to the gas station to fill up his car. His tank was completely empty and so was his wallet. The cashier offered to pay for his gas if he came back later to pay. Bob felt grateful as he drove home. Correct Answer
+
+Bob believed that there were good people in the world. Incorrect Answer
+
+Bob contemplated how unfriendly the world was.

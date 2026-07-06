@@ -1,0 +1,37 @@
+{
+  "abstract": "Recent work has demonstrated that increased training dataset diversity improves general cross-domain knowledge and downstream generalization capability for large-scale language models. With this in mind, we present \\textit{the Pile}: an 825 GiB English text corpus targeted at training large-scale language models. The Pile is constructed from 22 diverse high-quality subsets -- both existing and newly constructed -- many of which derive from academic or professional sources. Our evaluation of the untuned performance of GPT-2 and GPT-3 on the Pile shows that these models struggle on many of its components, such as academic writing. Conversely, models trained on the Pile improve significantly over both Raw CC and CC-100 on all components of the Pile, while improving performance on downstream evaluations. Through an in-depth exploratory analysis, we document potentially concerning aspects of the data for prospective users. We make publicly available the code used in its construction.",
+  "accredited": false,
+  "authors": [
+    "Leo Gao",
+    "Stella Biderman",
+    "Sid Black",
+    "Laurence Golding",
+    "Travis Hoppe",
+    "Charles Foster",
+    "Jason Phang",
+    "Horace He",
+    "Anish Thite",
+    "Noa Nabeshima",
+    "Shawn Presser",
+    "Connor Leahy"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T01:12:27.811072+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2101.00027"
+  },
+  "fulltext_sha256": "bcd756079349264db8a69cccdd40804428b707e9ce17a26bc62df568406cff7d",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "pile-2020",
+    "fetched_at": "2026-07-06T01:05:48.554448+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "9a2b057267ddc646fe6a64f185ad8e1b52f1595d133654fb1fa962588b698e19",
+  "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+  "url": "https://arxiv.org/abs/2101.00027",
+  "venue": "arXiv",
+  "work_id": "arxiv:2101.00027",
+  "year": 2020
+}

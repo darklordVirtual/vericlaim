@@ -1,0 +1,75 @@
+(2022a)
+
+few shot critique generation
+
+feedback training
+single(human)
+
+(self gen.)
+
+Self-correct Welleck et al. (2022)
+
+novel training of a corrector
+
+trained on end task
+single (task specific)
+
+(limited setting)
+
+(limited setting)
+
+Const. AI Bai et al. (2022b)
+
+train RL4F on automat (critique, revision) pair
+
+critique training
+(fixed set)
+
+Self-ask Press et al. (2022)
+
+ask followup ques when interim ans correct;final wrong
+
+few shot
+none
+
+(none)
+
+GPT3 score Fu et al. (2023)
+
+GPT can score generations with instruction
+
+few shot
+single(single utility fn)
+
+(none)
+
+Augmenter Peng et al. (2023)
+
+factuality feedback from external KBs
+
+few shot
+single(factuality)
+
+(self gen.)
+
+Re3 Yang et al. (2022)
+
+ours: but one domain, trained critics
+
+few shot
+(trained critics)
+
+(not self gen.)
+
+\ours
+
+fewshot iterative multi aspect NL fb
+
+few shot
+multiple(few shot critics)
+
+(self gen.)
+
+Table 5: Summary of related approaches. Reinforcement learning approaches are shown in purple
+
+, trained corrector approaches are shown in orange, and few-shot corrector approaches are shown in green.

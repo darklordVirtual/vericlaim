@@ -1,0 +1,9 @@
+Implementation
+
+We implemented ZeRO-100B in PyTorch including the full set of optimizations in and ZeRO-R. Its interface is compatible with any model implemented as an torch.nn.module. Users can simply wrap their models using this interface and leverage ZeRO-powered DP as they use classic DP. Users do not need to modify their model. ZeRO-powered DP can be combined with any form of MP including Megatron-LM. Hardware
+
+We conducted our experiments on a cluster of 400 V100 GPUs ( DGX-2 nodes) with 800 Gbps internode communication bandwidth. Baseline
+
+For experiments without MP, we use torch’s distributed data parallel (DDP) as baseline. For experiments with MP, we use Megatron-LM because it is, to our knowledge, the state-of-art. We use the open-source version of Megatron-LM from NVIDIA 555https://github.com/nvidia/Megatron-LM with a date of September 2019. The most recent Megatron-LM results report the ability to scale up to 16B parameter models using 32 DGX-2 nodes (total of 512 32GB V100 GPUs) [3]. ZeRO
+
+Experiments without MP, use the ZeRO-powered DP implementation in ZeRO-100B. Experiments with MP, combine ZeRO-powered DP with MP of Megatron-LM.

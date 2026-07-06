@@ -1,0 +1,14 @@
+2022. Gpt-neox-20b: An open-source autoregressive language model. arXiv preprint arXiv:2204.06745. Brants et al. (2007)
+
+Thorsten Brants, Ashok C. Popat, Peng Xu, Franz J. Och, and Jeffrey Dean. 2007. Large language models in
+machine translation. In Proceedings of the 2007 Joint Conference on Empirical
+Methods in Natural Language Processing and Computational Natural Language
+Learning (EMNLP-CoNLL), pages 858–867, Prague, Czech Republic. Association for Computational Linguistics. Brown et al. (1990)
+
+Peter F Brown, John Cocke, Stephen A Della Pietra, Vincent J Della Pietra,
+Frederick Jelinek, John Lafferty, Robert L Mercer, and Paul S Roossin. 1990. A statistical approach to machine translation. Computational linguistics, 16(2):79–85. Brown et al. (2020)
+
+Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan,
+Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda
+Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan,
+Rewon Child, Aditya Ramesh, Daniel M.

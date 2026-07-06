@@ -1,0 +1,19 @@
+Pi et al. (2022)
+
+Xinyu Pi, Qian Liu, Bei Chen, Morteza Ziyadi, Zeqi Lin, Yan Gao, Qiang Fu,
+Jian-Guang Lou, and Weizhu Chen. Reasoning like program executors, 2022. Piękos et al. (2021)
+
+Piotr Piękos, Mateusz Malinowski, and Henryk Michalewski. Measuring and improving BERT’s mathematical abilities by
+predicting the order of reasoning. In Proceedings of the 59th Annual Meeting of the Association
+for Computational Linguistics and the 11th International Joint Conference on
+Natural Language Processing (Volume 2: Short Papers), 2021. doi: 10.18653/v1/2021.acl-short.49. URL https://aclanthology.org/2021.acl-short.49. Radford et al. (2019)
+
+Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+Sutskever. Language models are unsupervised multitask learners. 2019. Rae et al. (2021)
+
+Jack W Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann,
+Francis Song, John Aslanides, Sarah Henderson, Roman Ring, Susannah Young,
+et al. Scaling language models: Methods, analysis & insights from training
+gopher. arXiv preprint arXiv:2112.11446, 2021. Ran et al. (2019)
+
+Qiu Ran, Yankai Lin, Peng Li, Jie Zhou, and Zhiyuan Liu.

@@ -1,0 +1,18 @@
+JVS+ [16]
+
+Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016. JYS+ [19]
+
+Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang
+Wang, and Qun Liu. TinyBERT: Distilling BERT for natural language understanding. arXiv preprint arXiv:1909.10351, 2019. JZC+ [19]
+
+Ying Ju, Fubang Zhao, Shijie Chen, Bowen Zheng, Xuefeng Yang, and Yunfeng Liu. Technical report on conversational question answering. arXiv preprint arXiv:1909.10772, 2019. KCR+ [18]
+
+Daniel Khashabi, Snigdha Chaturvedi, Michael Roth, Shyam Upadhyay, and Dan
+Roth. Looking beyond the surface: A challenge set for reading comprehension
+over multiple sentences. In Proceedings of North American Chapter of the Association for
+Computational Linguistics (NAACL), 2018. KKS+ [20]
+
+Daniel Khashabi, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark,
+and Hannaneh Hajishirzi. Unifiedqa: Crossing format boundaries with a single qa system. arXiv preprint arXiv:2005.00700, 2020. KMB [20]
+
+Sarah E. Kreps, Miles McCain, and Miles Brundage.

@@ -1,0 +1,5 @@
+The accuracies of the model across digits - over each iteration of the outer loop are plotted in Figure 4. After running STaR for 16 iterations, the overall accuracy is . For reference, a baseline trained on 10,000 examples without rationales for 5,000 steps attains accuracy. Notably, few-shot accuracy on arithmetic problems is very low, even with rationales: accuracy on 2-digit addition is less than , and accuracy on more digits close to zero. (a) Without rationalization
+
+(b) With rationalization
+
+Figure 4: A visualization of the accuracy of -digit summation with each iteration of STaR with and without rationalization for arithmetic. Each series corresponds to the accuracy of summing two -digit numbers. Figure 5: We introduce additional digits to STaR with rationalization at the 20th iteration. With rationalization, the accuracy is able to improve especially quickly. After one fine-tuning iteration on the model’s generated scratchpads, 2-digit addition improves to from less than 1%. Without rationalization, the performance improvement is stage-wise: the model generally has poor performance on the -digit sum until it has good performance on the -digit sum.

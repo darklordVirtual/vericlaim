@@ -1,0 +1,17 @@
+The specialists that we used in our experiments on the JFT dataset
+collapsed all of their non-specialist classes into a single dustbin
+class. If we allow specialists to have a full softmax over all
+classes, there may be a much better way to prevent them overfitting than using
+early stopping. A specialist is trained on data that is highly
+enriched in its special classes. This means that the effective size
+of its training set is much smaller and it has a strong tendency to
+overfit on its special classes. This problem cannot be solved by
+making the specialist a lot smaller because then we lose the very
+helpful transfer effects we get from modeling all of the
+non-specialist classes. Our experiment using 3% of the speech data strongly suggests that if
+a specialist is initialized with the weights of the generalist, we can
+make it retain nearly all of its knowledge about the non-special
+classes by training it with soft targets for the non-special classes
+in addition to training it with hard targets. The soft targets can
+be provided by the generalist. We are currently exploring this
+approach.

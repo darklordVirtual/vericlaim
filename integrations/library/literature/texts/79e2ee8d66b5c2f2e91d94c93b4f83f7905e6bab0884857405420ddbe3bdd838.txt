@@ -1,0 +1,51 @@
+3.9.2 Word Scrambling and Manipulation Tasks
+
+To test GPT-3’s ability to learn novel symbolic manipulations from a few examples, we designed a small battery of 5 “character manipulation” tasks. Each task involves giving the model a word distorted by some combination of scrambling, addition, or deletion of characters, and asking it to recover the original word. The 5 tasks are:
+
+Setting
+CL
+A1
+A2
+RI
+RW
+
+GPT-3 Zero-shot
+
+3.66
+
+2.28
+
+8.91
+
+8.26
+
+0.09
+
+GPT-3 One-shot
+
+21.7
+
+8.62
+
+25.9
+
+45.4
+
+0.48
+
+GPT-3 Few-shot
+
+37.9
+
+15.1
+
+39.7
+
+67.2
+
+0.44
+
+Table 3.10: GPT-3 175B performance on various word unscrambling and word
+manipulation tasks, in zero-, one-, and few-shot settings. CL is “cycle letters in word”, A1 is anagrams of but the first and last letters,
+A2 is anagrams of all but the first and last two letters, RI is “Random insertion
+in word”, RW is “reversed words”. Figure 3.11: Few-shot performance on the five word scrambling tasks for different sizes of model. There is generally smooth improvement with model size although the random insertion task shows an upward slope of improvement with the 175B model solving the task the majority of the time.

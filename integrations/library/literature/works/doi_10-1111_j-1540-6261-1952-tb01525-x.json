@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Harry Markowitz"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "markowitz-1952",
+    "fetched_at": "2026-07-06T01:07:35.769747+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "0f041ea31f1cd23f0dd67840514af3f1dfa4d439147af0b04ab0a0bfafd92d5a",
+  "title": "PORTFOLIO SELECTION*",
+  "url": "https://doi.org/10.1111/j.1540-6261.1952.tb01525.x",
+  "venue": "The Journal of Finance",
+  "work_id": "doi:10.1111/j.1540-6261.1952.tb01525.x",
+  "year": 1952
+}

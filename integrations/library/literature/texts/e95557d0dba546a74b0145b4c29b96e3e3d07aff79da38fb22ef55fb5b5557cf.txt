@@ -1,0 +1,42 @@
+The answer is no. Table 19:
+Few-shot exemplars for e-SNLI (the rationales are crowd-sourced annotations from the original dataset). Premise:
+
+"A person on a horse jumps over a broken down airplane."
+
+Based on this premise, can we conclude the hypothesis "A person is training his horse for a competition." is true? OPTIONS:
+
+- yes
+
+- no
+
+- it is not possible to tell
+
+A: The person is not necessarily training his horse. The answer is it is not possible to tell. Premise:
+
+"A person on a horse jumps over a broken down airplane."
+
+Based on this premise, can we conclude the hypothesis "A person is at a diner, ordering an omelette." is true? OPTIONS:
+
+- yes
+
+- no
+
+- it is not possible to tell
+
+A: One jumping horse cannot be in a diner ordering food. The answer is no. Premise:
+
+"A person on a horse jumps over a broken down airplane."
+
+Based on this premise, can we conclude the hypothesis "A person is outdoors, on a horse." is true? OPTIONS:
+
+- yes
+
+- no
+
+- it is not possible to tell
+
+A: A broken down airplane is outdoors. The answer is yes. Premise:
+
+"Children smiling and waving at camera."
+
+Based on this premise, can we conclude the hypothesis "They are smiling at their parents." is true?

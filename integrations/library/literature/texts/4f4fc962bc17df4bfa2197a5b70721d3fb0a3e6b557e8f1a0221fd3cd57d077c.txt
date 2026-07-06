@@ -1,0 +1,9 @@
+We prompt the model to write feedback that is actionable and specific via . By ‘actionable’, we mean the feedback should contain a concrete action that would likely improve the output. By ‘specific’, we mean the feedback should identify concrete phrases in the output to change. For example, the feedback in Figure 2(e) is “This code is slow as it uses a for loop which is brute force. A better approach is to use the formula … (n(n+1))/2”. This feedback is actionable, since it suggests the action ‘use the formula…’. The feedback is specific since it mentions the ‘for loop’. refine
+
+Next, \oursuses to refine its most recent output, given its own feedback:
+
+(3)
+
+For example, in Figure 2(f), given the initial output and the generated feedback, the model generates a re-implementation that is shorter and runs much faster than the initial implementation. The prompt provides examples
+of improving the output based on the feedback, in the form of input-output-feedback-refined quadruples . Iterating \ours
+\oursalternates between feedback and refine steps until a stopping condition is met. The stopping condition either stops at a specified timestep , or extracts a stopping indicator (e.g.

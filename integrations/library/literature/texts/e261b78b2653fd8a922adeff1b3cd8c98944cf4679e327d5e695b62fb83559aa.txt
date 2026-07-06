@@ -1,0 +1,20 @@
+Unsupervised
+evaluation of interactive dialog with DialoGPT. In Proceedings of the 21th Annual Meeting of the Special
+Interest Group on Discourse and Dialogue, pages 225–235, 1st virtual
+meeting. Association for Computational Linguistics. Nijkamp et al. (2022)
+
+Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio
+Savarese, and Caiming Xiong. 2022. Codegen: An open large
+language model for code with multi-turn program synthesis. ArXiv preprint, abs/2203.13474. (27)
+
+OpenAI. Model index for researchers. https://platform.openai.com/docs/model-index-for-researchers. Accessed: May 14, 2023. OpenAI (2022)
+
+OpenAI. 2022. Model index for researchers. Blogpost. OpenAI (2023)
+
+OpenAI. 2023. Gpt-4 technical report. Ouyang et al. (2022)
+
+Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela
+Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John
+Schulman, Jacob Hilton, Fraser Kelton, Luke E. Miller, Maddie Simens, Amanda
+Askell, Peter Welinder, Paul Francis Christiano, Jan Leike, and Ryan J. Lowe. 2022. Training language models to
+follow instructions with human feedback. ArXiv:2203.02155. Peng et al.

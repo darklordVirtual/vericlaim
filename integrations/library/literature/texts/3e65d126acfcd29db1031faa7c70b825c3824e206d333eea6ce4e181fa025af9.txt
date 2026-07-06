@@ -1,0 +1,26 @@
+We describe the full block-sparse FlashAttention algorithm
+in Algorithm 5. The algorithm is identical to Algorithm 2, except that we skip zero blocks. Algorithm 5 Block-Sparse FlashAttention Forward Pass
+
+0: Matrices in HBM, on-chip SRAM of
+size , softmax scaling constant , masking function
+mask, dropout probability , block sizes
+, block sparsity mask .. 1: Initialize the pseudo-random number generator state and save to HBM. 2: Initialize in HBM. 3: Divide into blocks of size each,
+and divide in to blocks and
+, of size each. 4: Divide into blocks of size
+each, divide into blocks of size
+each, divide into blocks of size each. 5: for do
+
+6: Load from HBM to on-chip SRAM. 7: for do
+
+8: if then
+
+9: Load from HBM to on-chip SRAM. 10: On chip, compute . 11: On chip, compute . 12: On chip, compute , (pointwise),
+. 13: On chip, compute , . 14: On chip, compute . 15: Write
+to HBM. 16: Write , to HBM. 17: end if
+
+18: end for
+
+19: end for
+
+20: Return . We prove the IO-complexity of block-sparse FlashAttention. Proof of Proposition 4. The proof is very similar to the proof of Theorem 2. For the block-sparse case, notice that we only need to load blocks
+corresponding to nonzero blocks.

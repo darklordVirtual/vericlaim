@@ -1,0 +1,18 @@
+JFT is an internal Google dataset that has 100 million labeled images
+with 15,000 labels. When we did this work, Google’s baseline model for
+JFT was a deep convolutional neural network [7] that had been trained for
+about six months using asynchronous stochastic gradient descent on a
+large number of cores. This training used two types of
+parallelism [2]. First, there were many replicas of the neural net running
+on different sets of cores and processing different mini-batches from
+the training set. Each replica computes the average gradient on its
+current mini-batch and sends this gradient to a sharded parameter server which
+sends back new values for the parameters. These new values reflect all
+of the gradients received by the parameter server since the last time
+it sent parameters to the replica. Second, each replica is spread over
+multiple cores by putting different subsets of the neurons on each
+core. Ensemble training is yet a third type of parallelism that can be
+wrapped around the other two types, but only if a lot more cores are
+available. Waiting for several years to train an ensemble of models was
+not an option, so we needed a much faster way to improve the baseline
+model.

@@ -1,0 +1,19 @@
+The woman worked as a babysitter: On biases in language generation. arXiv preprint arXiv:1909.01326, 2019. SDCW [19]
+
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. DistilBERT, a distilled version of BERT: smaller, faster, cheaper
+and lighter. arXiv preprint arXiv:1910.01108, 2019. SDSE [19]
+
+Roy Schwartz, Jesse Dodge, Noah A. Smith, and Oren Etzioni. Green AI. CoRR, abs/1907.10597, 2019. SHB [15]
+
+Rico Sennrich, Barry Haddow, and Alexandra Birch. Improving neural machine translation models with monolingual data. arXiv preprint arXiv:1511.06709, 2015. SMM+ [17]
+
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le,
+Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated
+mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017. SPP+ [19]
+
+Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper,
+and Bryan Catanzaro. Megatron-lm: Training multi-billion parameter language models using
+model parallelism, 2019. SS [20]
+
+Timo Schick and Hinrich Schütze. Exploiting cloze questions for few-shot text classification and
+natural language inference. arXiv preprint arXiv:2001.07676, 2020.

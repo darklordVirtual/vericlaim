@@ -1,0 +1,23 @@
+include the results in Table 11 (for a fair comparison, we use 40 sets of prompts, or 40 prompt permutations to compare with self-consistency with 40 paths, all experiments are based on PaLM-540B). GSM8K accuracy
+
+Different sets of prompts (x40)
+
+58.9
+
+Prompt-permutation (x40)
+
+59.6
+
+Self-consistency (x40)
+
+74.4
+
+Self-consistency + different sets of prompts (x40)
+
+75.4
+
+Self-consistency + prompt-permutation (x40)
+
+73.8
+
+Table 11: Combining self-consistency with other ensembling strategies.

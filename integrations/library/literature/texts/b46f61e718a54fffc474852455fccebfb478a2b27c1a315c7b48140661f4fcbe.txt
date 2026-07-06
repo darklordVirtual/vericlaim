@@ -1,0 +1,18 @@
+arXiv preprint arXiv:2211.10438, 2022. Xie et al. [2022]
+
+T. Xie, C. H. Wu, P. Shi, R. Zhong, T. Scholak, M. Yasunaga, C.-S. Wu,
+M. Zhong, P. Yin, S. I. Wang, et al. Unifiedskg: Unifying and multi-tasking structured knowledge grounding
+with text-to-text language models. arXiv preprint arXiv:2201.05966, 2022. Yang et al. [2018]
+
+Z. Yang, P. Qi, S. Zhang, Y. Bengio, W. Cohen, R. Salakhutdinov, and C. D. Manning. Hotpotqa: A dataset for diverse, explainable multi-hop question
+answering. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pages 2369–2380, 2018. Yao et al. [2022]
+
+Z. Yao, R. Y. Aminabadi, M. Zhang, X. Wu, C. Li, and Y. He. Zeroquant: Efficient and affordable post-training quantization for
+large-scale transformers. arXiv preprint arXiv:2206.01861, 2022. Zaken et al. [2021]
+
+E. B. Zaken, S. Ravfogel, and Y. Goldberg. Bitfit: Simple parameter-efficient fine-tuning for transformer-based
+masked language-models. arXiv preprint arXiv:2106.10199, 2021. Zeng et al. [2022]
+
+A. Zeng, X. Liu, Z. Du, Z. Wang, H. Lai, M. Ding, Z. Yang, Y. Xu, W. Zheng,
+X. Xia, et al. Glm-130b: An open bilingual pre-trained model.

@@ -1,0 +1,17 @@
+https://www.alignmentforum.org/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to,
+2022. Creswell et al. (2022)
+
+A. Creswell, M. Shanahan, and I. Higgins. Selection-inference: Exploiting large language models for
+interpretable logical reasoning. arXiv preprint arXiv:2205.09712, 2022. Everitt et al. (2017)
+
+T. Everitt, V. Krakovna, L. Orseau, M. Hutter, and S. Legg. Reinforcement learning with a corrupted reward channel. arXiv preprint arXiv:1705.08417, 2017. Gao et al. (2022)
+
+L. Gao, J. Schulman, and J. Hilton. Scaling laws for reward model overoptimization. arXiv preprint arXiv:2210.10760, 2022. Hendrycks et al. (2021)
+
+D. Hendrycks, C. Burns, S. Kadavath, A. Arora, S. Basart, E. Tang, D. Song, and
+J. Steinhardt. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874, 2021. Kojima et al. (2022)
+
+T. Kojima, S. S. Gu, M. Reid, Y. Matsuo, and Y. Iwasawa. Large language models are zero-shot reasoners. arXiv preprint arXiv:2205.11916, 2022. Lewkowycz et al. (2022)
+
+A. Lewkowycz, A. Andreassen, D. Dohan, E. Dyer, H. Michalewski, V. Ramasesh,
+A. Slone, C. Anil, I. Schlag, T. Gutman-Solo, et al.

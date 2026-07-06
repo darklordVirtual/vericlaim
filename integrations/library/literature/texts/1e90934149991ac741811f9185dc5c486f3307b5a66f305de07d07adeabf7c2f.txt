@@ -1,0 +1,37 @@
+Perry later attempted a comeback, playing an unremarkable 1996 season with the London Monarchs of the World League of American Football (later NFL Europa). Q: what team did he play for? A:
+
+Target Completion
+
+the Chicago Bears
+
+Figure G.25: Formatted dataset example for QuAC
+
+Context
+
+Please unscramble the letters into a word, and write that word:
+
+r e!c.i p r o.c a/l =
+
+Target Completion
+
+reciprocal
+
+Figure G.26: Formatted dataset example for Symbol Insertion
+
+Context
+
+Please unscramble the letters into a word, and write that word:
+
+taefed =
+
+Target Completion
+
+defeat
+
+Figure G.27: Formatted dataset example for Reversed Words
+
+Context
+
+Title: The_Blitz
+
+Background: From the German point of view, March 1941 saw an improvement. The Luftwaffe flew 4,000 sorties that month, including 12 major and three heavy attacks. The electronic war intensified but the Luftwaffe flew major inland missions only on moonlit nights. Ports were easier to find and made better targets. To confuse the British, radio silence was observed until the bombs fell. X- and Y-Gerät beams were placed over false targets and switched only at the last minute.

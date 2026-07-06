@@ -1,0 +1,5 @@
+We adopt residual learning to every few stacked layers. A building block is shown in Fig. 2. Formally, in this paper we consider a building block defined as:
+
+(1)
+
+Here and are the input and output vectors of the layers considered. The function represents the residual mapping to be learned. For the example in Fig. 2 that has two layers, in which denotes ReLU [29] and the biases are omitted for simplifying notations. The operation is performed by a shortcut connection and element-wise addition. We adopt the second nonlinearity after the addition (i.e., , see Fig. 2). The shortcut connections in Eqn.(1) introduce neither extra parameter nor computation complexity. This is not only attractive in practice but also important in our comparisons between plain and residual networks. We can fairly compare plain/residual networks that simultaneously have the same number of parameters, depth, width, and computational cost (except for the negligible element-wise addition). The dimensions of and must be equal in Eqn.(1).

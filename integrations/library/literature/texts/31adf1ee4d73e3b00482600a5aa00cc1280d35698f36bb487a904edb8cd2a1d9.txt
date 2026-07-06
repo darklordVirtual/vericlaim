@@ -1,0 +1,20 @@
+BERT. FlashAttention yields the fastest single-node BERT training speed that we know of. We train a BERT-large [22] model
+with FlashAttention on Wikipedia. Table 1 compares our training time to the implementation from Nvidia that set the
+training speed record for MLPerf 1.1 [58]. Our implementation is 15% faster. Table 1: Training time of BERT-large,
+starting
+from the same initialization provided by the MLPerf benchmark,
+to reach the
+target accuracy of 72.0% on masked language modeling. Averaged over 10 runs on 8A100 GPUs. BERT Implementation
+Training time (minutes)
+
+Nvidia MLPerf 1.1 [58]
+
+20.0 1.5
+
+FlashAttention (ours)
+
+17.4 1.4
+
+GPT-2. FlashAttention yields faster training times for GPT-2 [67] on the large OpenWebtext dataset [32] than the widely used HuggingFace [87] and Megatron-LM [77] implementations. Table 2 shows up to 3 end-to-end speedup compared to Huggingface
+and 1.7 speedup compared to Megatron-LM. FlashAttention achieves the same perplexity as the other two
+implementations, as we do not change the model definition.

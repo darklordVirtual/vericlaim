@@ -1,0 +1,119 @@
+the architecture:
+
+output map size
+
+3232
+
+1616
+
+88
+
+# layers
+
+1+2
+
+2
+
+2
+
+# filters
+
+16
+
+32
+
+64
+
+When shortcut connections are used, they are connected to the pairs of 33 layers (totally shortcuts). On this dataset we use identity shortcuts in all cases (i.e., option A), so our residual models have exactly the same depth, width, and number of parameters as the plain counterparts. method
+
+error (%)
+
+Maxout [10]
+
+9.38
+
+NIN [25]
+
+8.81
+
+DSN [24]
+
+8.22
+
+# layers
+
+# params
+
+FitNet [35]
+
+19
+
+2.5M
+
+8.39
+
+Highway [42, 43]
+
+19
+
+2.3M
+
+7.54 (7.720.16)
+
+Highway [42, 43]
+
+32
+
+1.25M
+
+8.80
+
+ResNet
+
+20
+
+0.27M
+
+8.75
+
+ResNet
+
+32
+
+0.46M
+
+7.51
+
+ResNet
+
+44
+
+0.66M
+
+7.17
+
+ResNet
+
+56
+
+0.85M
+
+6.97
+
+ResNet
+
+110
+
+1.7M
+
+6.43 (6.610.16)
+
+ResNet
+
+1202
+
+19.4M
+
+7.93
+
+Table 6: Classification error on the CIFAR-10 test set. All methods are with data augmentation. For ResNet-110, we run it 5 times and show “best (meanstd)” as in [43]. We use a weight decay of 0.0001 and momentum of 0.9, and adopt the weight initialization in [13] and BN [16] but with no dropout. These models are trained with a mini-batch size of 128 on two GPUs.

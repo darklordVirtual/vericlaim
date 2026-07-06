@@ -1,0 +1,6 @@
+Proof of Proposition 4. The proof is very similar to the proof of Theorem 2. For the block-sparse case, notice that we only need to load blocks
+corresponding to nonzero blocks. As a result, the number of HBM accesses are scaled by , the
+fraction of nonzero blocks in the block-sparsity mask. However, for small values of , we would still need to write the result
+. Therefore the number of HBM accesses is
+
+∎

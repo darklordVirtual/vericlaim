@@ -1,0 +1,19 @@
+Williams et al. (2018)
+
+Adina Williams, Nikita Nangia, and Samuel R Bowman. 2018. A broad-coverage challenge corpus for sentence understanding through
+inference. In NAACL. Wu et al. (2016)
+
+Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang
+Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. 2016. Google’s neural machine translation system: Bridging the gap between
+human and machine translation. arXiv preprint arXiv:1609.08144. Yosinski et al. (2014)
+
+Jason Yosinski, Jeff Clune, Yoshua Bengio, and Hod Lipson. 2014. How transferable are features in deep neural networks? In Advances in neural information processing systems, pages
+3320–3328. Yu et al. (2018)
+
+Adams Wei Yu, David Dohan, Minh-Thang Luong, Rui Zhao, Kai Chen, Mohammad
+Norouzi, and Quoc V Le. 2018. QANet: Combining local convolution with global self-attention for
+reading comprehension. In ICLR. Zellers et al. (2018)
+
+Rowan Zellers, Yonatan Bisk, Roy Schwartz, and Yejin Choi. 2018. Swag: A large-scale adversarial dataset for grounded commonsense
+inference. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing (EMNLP). Zhu et al.

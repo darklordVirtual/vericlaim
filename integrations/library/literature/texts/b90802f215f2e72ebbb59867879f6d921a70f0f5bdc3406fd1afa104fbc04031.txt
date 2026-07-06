@@ -1,0 +1,66 @@
+We demonstrate the importance of the deep bidirectionality of BERT by evaluating two pre-training objectives using exactly the same pre-training data, fine-tuning scheme, and hyperparameters as BERT:
+
+No NSP: A bidirectional model which is trained using the “masked LM” (MLM) but without the “next sentence prediction” (NSP) task. LTR & No NSP: A left-context-only model which is trained using a standard Left-to-Right (LTR) LM, rather than an MLM. The left-only constraint was also applied at fine-tuning, because removing it introduced a pre-train/fine-tune mismatch that degraded downstream performance. Additionally, this model was pre-trained without the NSP task. This is directly comparable to OpenAI GPT, but using our larger training dataset, our input representation, and our fine-tuning scheme. Dev Set
+
+Tasks
+MNLI-m
+QNLI
+MRPC
+SST-2
+SQuAD
+
+(Acc)
+(Acc)
+(Acc)
+(Acc)
+(F1)
+
+BERT
+
+84.4
+
+88.4
+
+86.7
+
+92.7
+
+88.5
+
+No NSP
+
+83.9
+
+84.9
+
+86.5
+
+92.6
+
+87.9
+
+LTR & No NSP
+
+82.1
+
+84.3
+
+77.5
+
+92.1
+
+77.8
+
++ BiLSTM
+
+82.1
+
+84.1
+
+75.7
+
+91.6
+
+84.9
+
+Table 5: Ablation over the pre-training tasks using the BERT architecture. “No NSP” is trained without the next sentence prediction task.

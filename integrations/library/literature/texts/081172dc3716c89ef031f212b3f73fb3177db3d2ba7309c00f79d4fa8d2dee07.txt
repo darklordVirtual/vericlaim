@@ -1,0 +1,20 @@
+Fu et al. (2023)
+
+Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, and Pengfei Liu. 2023. Gptscore: Evaluate as you
+desire. arXiv preprint arXiv:2302.04166. Gao et al. (2022)
+
+Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie
+Callan, and Graham Neubig. 2022. Pal: Program-aided language models. arXiv preprint arXiv:2211.10435. Geng et al. (2023)
+
+Xinyang Geng, Arnav Gudibande, Hao Liu, Eric Wallace, Pieter Abbeel, Sergey
+Levine, and Dawn Song. 2023. Koala: A
+dialogue model for academic research. Blog post. Le et al. (2022a)
+
+Hung Le, Yue Wang, Akhilesh Deepak Gotmare, Silvio Savarese, and Steven C. H. Hoi. 2022a. CodeRL: Mastering Code
+Generation through Pretrained Models and Deep Reinforcement Learning. Le et al. (2022b)
+
+Hung Le, Yue Wang, Akhilesh Deepak Gotmare, Silvio Savarese, and Steven C. H. Hoi. 2022b. Coderl: Mastering code generation through pretrained models and deep
+reinforcement learning. ArXiv, abs/2207.01780. Li et al. (2018)
+
+Juncen Li, Robin Jia, He He, and Percy Liang. 2018. Delete, retrieve,
+generate: a simple approach to sentiment and style transfer.

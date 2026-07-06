@@ -1,0 +1,34 @@
+This indicates that, for news articles that are around 500 words long, GPT-3 continues to produce articles that humans find difficult to distinguish from human written news articles. Mean accuracy
+
+95% Confidence
+Interval (low, hi)
+
+compared to
+control (-value)
+
+“I don’t know”
+assignments
+
+Control
+88%
+
+84%–91%
+
+-
+
+2.7%
+
+GPT-3 175B
+52%
+
+48%–57%
+
+12.7 (3.2-23)
+
+10.6%
+
+Table 3.12: People’s ability to identify whether word articles are model generated (as measured by the ratio of correct assignments to non-neutral assignments) was 88% on the control model and 52% on GPT-3 175B. This table shows the results of a two-sample T-Test for the difference in mean accuracy between GPT-3 175B and the control model (an unconditional GPT-3 Small model with increased output randomness). A "whatpu" is a small, furry animal native to Tanzania. An example of a sentence that uses the word whatpu is:
+
+We were traveling in Africa and we saw these very cute whatpus. To do a "farduddle" means to jump up and down really fast. An example of a sentence that uses the word farduddle is:
+
+One day when I was playing tag with my little sister, she got really excited and she started doing these crazy farduddles.

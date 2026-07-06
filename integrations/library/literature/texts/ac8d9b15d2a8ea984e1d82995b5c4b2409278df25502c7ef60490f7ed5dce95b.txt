@@ -1,0 +1,23 @@
+The algorithm selects the best output based on the maximum score across all iterations, as described in Algorithm 1 (line 8). A similar selection is possible for other tasks like Math Reasoning and Sentiment Reversal, while we observe that output quality increases monotonically with iterations. Feedback and Refinement Error Analysis for Response Generation
+
+Error Type
+Occurrence
+
+Feedback
+
+Refinement
+
+Incorrect feedback
+25%
+
+Informative: The response provides some encouragement and reassurance, and additional information. 3/3
+
+Response: That’s hilarious! Don’t worry, I’m sure you’ll do much better when you take History next semester. Are you looking forward to it? Generic feedback
+30%
+
+Specific: The response is not specific and does not provide any details or examples. 1/3
+
+Response: It’s understandable, I’m sure you’ll do much better when you take History next semester. Maybe you can use your knowledge of Christopher Columbus to ace your next test! Are you looking forward to it? Incorrect Scoring
+10%
+
+Informative: The response provides a supportive and understanding message, which is informative to the user.

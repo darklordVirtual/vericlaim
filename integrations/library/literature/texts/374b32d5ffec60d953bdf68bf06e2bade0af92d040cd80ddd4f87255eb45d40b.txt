@@ -1,0 +1,8 @@
+Using the product instead of the minimum as the reduction does create a slight bias against solutions with a larger number of steps. product
+minimum
+
+neutral = positive
+
+neutral = negative
+
+Table 4: Best-of-1860 test performance using the PRM with four different scoring strategies.

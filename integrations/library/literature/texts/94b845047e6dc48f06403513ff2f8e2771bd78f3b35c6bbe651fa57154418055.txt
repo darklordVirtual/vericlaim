@@ -1,0 +1,5 @@
+ZeRO
+
+Experiments without MP, use the ZeRO-powered DP implementation in ZeRO-100B. Experiments with MP, combine ZeRO-powered DP with MP of Megatron-LM. Model Configurations
+
+The models presented in this section are GPT-2 [2] like transformer based models. We vary the hidden dimension and the number of layers to obtain models with different number of parameters. Table 4 shows the configuration parameters used in our experiments with additional details in AE Appendix.

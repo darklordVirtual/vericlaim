@@ -1,0 +1,30 @@
+Are you looking forward to it? Incorrect Scoring
+10%
+
+Informative: The response provides a supportive and understanding message, which is informative to the user. 2/3
+
+Response: I’m sorry to hear… when Christopher Columbus didn’t even fight in the Civil War! I’m sure you’ll do much better…. Are you looking forward to it? Table 11: Error analysis for Dialogue Response Generation: When the feedback is not useful, a large majority is not specific or incorrect. Error Type
+Occurrence
+
+Feedback
+
+Refinement
+
+Not-Robust
+10%
+
+Specific: The response is specific and provides specific details or examples. 3/3
+
+Response: That’s pretty funny! It’s understandable that you didn’t do well on the test. I’m sure you’ll do much better when you take History next semester
+
+Ignores feedback
+25%
+
+Informative: The response doesn’t provide any new information. 1/3
+
+Response: That’s so kind and generous of you! I would love to hear more about the podcasts you enjoy. Do you have any favorites you can recommend? Introduces new problem
+20%
+
+Informative: 3/3
+
+Response: That would be a disaster! Luckily, my coworkers know better than to drink while they work.

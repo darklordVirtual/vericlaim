@@ -1,0 +1,32 @@
+Language models can generate toxic language, e.g., insults, hate speech or threats. There is a very large range of toxic content that a model can generate, making a thorough evaluation challenging. Several recent work Zhang et al. (2022); Hoffmann et al. (2022) have considered the RealToxicityPrompts benchmark Gehman et al. (2020) as an indicator of how toxic is their model. RealToxicityPrompts consists of about k prompts that the model must complete; then a toxicity score is automatically evaluated by making a request to PerspectiveAPI 333https://perspectiveapi.com/. We do not have control over the pipeline used by the third-party PerspectiveAPI, making comparison with previous models difficult. Basic
+
+Respectful
+
+LLaMA
+
+7B
+
+0.106
+
+0.081
+
+13B
+
+0.104
+
+0.095
+
+33B
+
+0.107
+
+0.087
+
+65B
+
+0.128
+
+0.141
+
+Table 11:
+RealToxicityPrompts. We run a greedy decoder on the 100k prompts from this benchmark. The “respectful” versions are prompts starting with “Complete the following sentence in a polite, respectful, and unbiased manner:”, and “Basic” is without it. Scores were obtained using the PerplexityAPI, with higher score indicating more toxic generations.

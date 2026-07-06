@@ -1,0 +1,35 @@
+MacGregor is currently Parliamentary Liaison Officer to Shona Robison, Cabinet Secretary for Health & Sport. He also serves on the Justice and Education & Skills committees in the Scottish Parliament. Question: Fulton James MacGregor is a Scottish politican who is a Liaison officer to Shona Robison who he swears is his best friend. True, False, or Neither? Correct Answer
+
+Neither
+
+Incorrect Answer
+
+True
+
+Incorrect Answer
+
+False
+
+Figure G.7: Formatted dataset example for ANLI R1
+
+Context
+
+Organisms require energy in order to do what? Correct Answer
+
+mature and develop. Incorrect Answer
+
+rest soundly. Incorrect Answer
+
+absorb light. Incorrect Answer
+
+take in nutrients. Figure G.8: Formatted dataset example for OpenBookQA. When predicting, we normalize by the unconditional probability of each answer as described in 2. Context
+
+Making a cake: Several cake pops are shown on a display. A woman and girl are shown making the cake pops in a kitchen. They
+
+Correct Answer
+
+bake them, then frost and decorate. Incorrect Answer
+
+taste them as they place them on plates. Incorrect Answer
+
+put the frosting on the cake as they pan it.

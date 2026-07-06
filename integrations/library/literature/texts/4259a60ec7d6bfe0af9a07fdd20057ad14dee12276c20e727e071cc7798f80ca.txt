@@ -1,0 +1,1 @@
+To extract the data, we used the mailparser package252525https://github.com/SpamScope/mail-parser to extract the body of each email as a document.

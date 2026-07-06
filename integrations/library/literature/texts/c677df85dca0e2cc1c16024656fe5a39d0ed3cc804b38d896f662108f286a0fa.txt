@@ -1,0 +1,18 @@
+arXiv preprint arXiv:1801.10198. Liu et al. (2019)
+
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019. RoBERTa: A robustly optimized BERT pretraining approach. arXiv preprint arXiv:1907.11692. Loper and Bird (2002)
+
+Edward Loper and Steven Bird. 2002. NLTK: The Natural Language Toolkit. In Proceedings of the ACL Workshop on Effective Tools and
+Methodologies for Teaching Natural Language Processing and Computational
+Linguistics, pages 62–69. Somerset, NJ: Association for Computational
+Linguistics. http://arXiv.org/abs/cs/0205028. MacFarlane (2006–2020)
+
+John MacFarlane. 2006–2020. Pandoc: a universal document converter. Mikolov et al. (2013)
+
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S Corrado, and Jeff Dean. 2013. Distributed representations of words and phrases and their
+compositionality. In Advances in Neural Information Processing Systems,
+volume 26, pages 3111–3119. Curran Associates, Inc. Obar (2020)
+
+Jonathan A Obar. 2020. Sunlight alone is not a disinfectant: Consent and the futility of
+opening big data black boxes (without assistance). Big Data & Society, 7(1):2053951720935615.

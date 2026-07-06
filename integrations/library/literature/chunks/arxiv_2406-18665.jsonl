@@ -1,0 +1,59 @@
+{"fsid": "arxiv_2406-18665", "n": 58, "overlap": 200, "source_sha256": "c9afc135d6fa73ae67792e6a1d5d843e5fa7e7e3b49a26c883e9d30ce3632094", "target": 1200}
+{"section": "", "seq": 0, "sha256": "5e579987191f9a0953de1380662a33703d1ef407d73455ec0a25fcafd9cae8ee"}
+{"section": "RouteLLM: Learning to Route LLMs with Preference Data", "seq": 1, "sha256": "eb8b3d8bbff896269766ca20b20fd679970a15045b73d0778c81cc90199b8e8d"}
+{"section": "1 Introduction", "seq": 2, "sha256": "e04ab96c36ac2c485833c99db52bb17732d5b743cf5fa5327290c52d910ecbd9"}
+{"section": "1 Introduction", "seq": 3, "sha256": "3c6775387e48d39c116938db3424cde2db5766a2896473ea958ece7eb8e2aed6"}
+{"section": "1 Introduction", "seq": 4, "sha256": "55cf57c9a3281edbbcf37cd1ea6cdea3ae63677121502154b8ed6848d5bfa568"}
+{"section": "1 Introduction", "seq": 5, "sha256": "7cf81a95030686f80db36e1964ed151574430f458ee593da4de01b56f62d179b"}
+{"section": "1 Introduction", "seq": 6, "sha256": "b74073ee0a42e982b2f010e696e6429cee8b7f04291bae5176854f598c59c511"}
+{"section": "2 Related Work", "seq": 7, "sha256": "5baf071901aa987335138d5993e2e712397a8ff247c4f3d9497b0661a6e71eba"}
+{"section": "2 Related Work", "seq": 8, "sha256": "45821cf7ec5c950da1fb6f3ef041b14a15cf707dbc14b9c7b406bd289cdb90b0"}
+{"section": "2 Related Work", "seq": 9, "sha256": "4a541616f2ecd6c07da7aa2bf2bcc3adfeefdae4b7cf2014b9e0dc4c53fd3fef"}
+{"section": "3.1 Problem Formulation", "seq": 10, "sha256": "d605cd52dcdb6296fb08fe5e7a333021e3b35d678a48f4d12f72ee05dfb77454"}
+{"section": "3.1 Problem Formulation", "seq": 11, "sha256": "89c2c321aefde06b2d16cbacef15d62529d9a3c4bb77b2209c3c7ae955cd5880"}
+{"section": "3.1 Problem Formulation", "seq": 12, "sha256": "e37ca48bd0b67f78ff91e6a674978615de76a77dff822f09eda8d9bb8c66e419"}
+{"section": "3.2 Metrics", "seq": 13, "sha256": "7b570c91474ffdd09bc17ac220647fe01c470838ca5c0ed1dc4bc4b5794e8cb2"}
+{"section": "3.2 Metrics", "seq": 14, "sha256": "025bb3b7cf12b2ffe6e14834742a83b15f1918be597878c305baa67955f4dd5f"}
+{"section": "3.2 Metrics", "seq": 15, "sha256": "113383ee4f881889586af8ccf25fca3158ea518e4a0dad64e4c0c2b287b75721"}
+{"section": "4.1 Chatbot Arena Data", "seq": 16, "sha256": "b8664559dcbd6dbb066846ceb2d7acca76ad2a791cd6652bd05012be813309c0"}
+{"section": "4.1 Chatbot Arena Data", "seq": 17, "sha256": "5f83e44d3d641b8cd5fd0d23bddd68cc27b2e856f8e5f4327e48e72623986c7e"}
+{"section": "4.1 Chatbot Arena Data", "seq": 18, "sha256": "75dcd4575bfaa2ed864fd330c00c3eee97070a7b342c9da25ab03b008503b72d"}
+{"section": "4.2 Routing Approaches", "seq": 19, "sha256": "6ff2d50bd50e67e7ba3ad07770b9659115a900f43562ea07dec0025a52396389"}
+{"section": "4.2 Routing Approaches", "seq": 20, "sha256": "b8fdde8beee76a29df65cc6fcaeedcb15e5b259abacdb8840b5b6d0dbd470541"}
+{"section": "4.2 Routing Approaches", "seq": 21, "sha256": "92a3da41a46f33203cd1496ac662514b755162e9146c2d1dcc9a954d073a4132"}
+{"section": "4.2 Routing Approaches", "seq": 22, "sha256": "9991a0716f2000bc80153ccf7e68126553233d9b7a37669246d67f6c381a7d60"}
+{"section": "5 Experiments", "seq": 23, "sha256": "d331d74f3bf88f92b1ae47503dbbdabbe1437a5b25285b76ecbf37b66dcd34d4"}
+{"section": "5 Experiments", "seq": 24, "sha256": "4cd12d574666991003c0643f679a62601d107f3a9229b139af9d3882449aa48c"}
+{"section": "5.1 Results", "seq": 25, "sha256": "a053c06815d367d0611ee5ed6f29ba0bc4fc53dffe8bd37262b732dcaa14f0ab"}
+{"section": "5.1 Results", "seq": 26, "sha256": "c001eb689975ca80ed805afd4674e8c13c83ca1a10f42aa1cf5772297d676268"}
+{"section": "5.1 Results", "seq": 27, "sha256": "8a40f128236957f2db74e96be3e0bf538d26917b066a29a0394d4529334a1a8f"}
+{"section": "5.1 Results", "seq": 28, "sha256": "1a78d83b2e3a1f289c5448f585042dae6c91eb7ec7c772840e7d37c1a8638e06"}
+{"section": "5.1 Results", "seq": 29, "sha256": "0608921f96a24c208594bd63ae2f07e0852034c0ce4b1522647348177af92619"}
+{"section": "5.1 Results", "seq": 30, "sha256": "6af9f3cb4b4d423528ad04c43117e7f5b84c8a8ffe27592d8702df00cd18ad70"}
+{"section": "5.2 Adaptability across models", "seq": 31, "sha256": "90464670272ef2bb6afd80956b1f7ee910d1d349bc373066f0ca14ed58666e12"}
+{"section": "5.2 Adaptability across models", "seq": 32, "sha256": "bd4055ed2a3b8a84a0a3cd9c6097d7a4dc9a81ddd277f99155e6347b5a420ea5"}
+{"section": "5.2 Adaptability across models", "seq": 33, "sha256": "47e5bda716562eb749ce8f6f9bdb3dcbbdfa4b2f8ff1e8aac59ddb7a103e60f0"}
+{"section": "5.3 Quantifying dataset and benchmark similarity", "seq": 34, "sha256": "6871d34a4cfa78bbf9a3e7f1b74949a2246adc58c0d025ab193e80cba0417c29"}
+{"section": "5.3 Quantifying dataset and benchmark similarity", "seq": 35, "sha256": "3e0ba031b0a06b2b7be06fa5ee09a2c09c316e9719e4276ee108783f15485387"}
+{"section": "5.4 Cost analysis", "seq": 36, "sha256": "86ef968fd322983ac8da56a7fee8e494dc1a5998f86f26a8c1712e0b514580c7"}
+{"section": "5.5 Routing Overhead", "seq": 37, "sha256": "50b228e25cc438ac231dc48ff4fbad3413a9e91178f324f80d5bbef90d0fc78a"}
+{"section": "5.5 Routing Overhead", "seq": 38, "sha256": "69fcffd0494a9c40bd2566a6d5775d01c2aae09639cca3421ffc24424627dd0a"}
+{"section": "6 Conclusion", "seq": 39, "sha256": "de2337a9cb9665c280da5ab38e8f8e3b2e71ac8ca82c35c70fed38c30eb4026e"}
+{"section": "6 Conclusion", "seq": 40, "sha256": "3cead0cf4baa460ae21e5d5b79b1c0c908737344b31b927df2bb8eaee2273acc"}
+{"section": "Acknowledgments and Disclosure of Funding", "seq": 41, "sha256": "89306427d6be473e0c88deda51a8321f34e6a0a829a03511af33f5b2e19d91c4"}
+{"section": "References", "seq": 42, "sha256": "8e42c0b8e55212c9c392c2dfe07c0fe167145b5d1e7a271463d8bd42e1d80338"}
+{"section": "References", "seq": 43, "sha256": "21240f553dc5f30ed8c0abbe1dc55b26c647fb7f32bc852cbf46f3dccb979b19"}
+{"section": "References", "seq": 44, "sha256": "10d0c1eaa8ea10e1bd6dac1d7b448b07deeecd4e9129c4e6a71d0978f11e1d4b"}
+{"section": "References", "seq": 45, "sha256": "b2196f58b9a8fac77f13ba1a97dbfa87555f36f9951b722c328e553f03e67cef"}
+{"section": "References", "seq": 46, "sha256": "a418e323c94bd3b13d0b78ece7a249396d4005ea3e8ccde1a6b16ddba7d96150"}
+{"section": "References", "seq": 47, "sha256": "874ecf94eae719b7c39ea6a51973feff268db5248067a001dca8814c06c46b5b"}
+{"section": "References", "seq": 48, "sha256": "63efe125347a9668a4ed130399427f21e9f827b4c81ab852a55a11d7ac52983d"}
+{"section": "References", "seq": 49, "sha256": "e8c48ddacb3dacc9b4fae9698779510ddfb2a8fa5d8e3ef3ceaf10156a5197fd"}
+{"section": "References", "seq": 50, "sha256": "e448a1789c174657e634c93fde250345ccb91139fe710ef00d0a1f7e97420f6d"}
+{"section": "Appendix A Arena Model Tiers", "seq": 51, "sha256": "f0dfb2efa4454a4ed44263b578a291cde4d9f63ca13ad44e46cf280f05a0f086"}
+{"section": "Appendix B Data Contamination", "seq": 52, "sha256": "b9aa4fa8c9f326b3e41b13e52d3266fa1580d9e20e1e81701a513ac6af870fd4"}
+{"section": "Appendix C Benchmark-Dataset Similarity", "seq": 53, "sha256": "e5da2bfb4abf47643951b70d3f2a1d25202fd0042ff8a5363e17329ab6c9825f"}
+{"section": "Appendix D Cost Calculation", "seq": 54, "sha256": "dfae5ba626aff3070061aa1b48b3e64cdc7e8138f2d44d9fc889eda018213fa3"}
+{"section": "Appendix E Independent Benchmarks", "seq": 55, "sha256": "c0951c8d69af20085d0e4f10ccebc9d66050448cf8182e3d2fae55228a45bf33"}
+{"section": "Appendix E Independent Benchmarks", "seq": 56, "sha256": "416bad65164cfd1a1866df6fff0b065ede0e47445dfd868cc3c2ad5788640bc0"}
+{"section": "Appendix F Additional Plots", "seq": 57, "sha256": "0508e57ad405d9f346ca214372e2b6144a15fe2bdc874f333d434ac78222923d"}

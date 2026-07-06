@@ -1,0 +1,5 @@
+There is serious concern that AI systems may soon be meaningfully more capable than humans in all relevant economic tasks (Grace et al., 2018; Yudkowsky, 2013). Relatedly, there are serious unresolved questions surrounding how to properly align such powerful AI systems with human interests (Bostrom and Yudkowsky, 2014; Russell, 2019; Bostrom, 2014; Amodei et al., 2016) and generally avoid morally catastrophic outcomes (Sotala and Gloor, 2017; Shulman and Bostrom, 2020). As such, it has been argued that accelerating the development of such powerful AI systems may be undesirable before these concerns have been more adequately addressed (Bostrom, 2014). There are several pragmatic responses to this view:
+
+1. Due to human competition, curiosity, and cultural diversity, halting technological development is incredibly difficult, if not impossible. (Russell, 2019) (Critch and Krueger, 2020)
+
+2. AI development is experimental in nature: The alignment problem can only be solved through development, testing and (hopefully non-existential) failure. 3.

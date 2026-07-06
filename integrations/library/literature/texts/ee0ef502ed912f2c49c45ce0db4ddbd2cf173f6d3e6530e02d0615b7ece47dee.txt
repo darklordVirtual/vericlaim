@@ -1,0 +1,16 @@
+(+6.4)
+
+96.0 (+2.0)
+
+87.5 (+3.9)
+
+73.4 (+3.0)
+
+99.5 (+0.5)
+
+Table 3: Commonsense and symbolic reasoning accuracy by self-consistency compared to chain-of-thought prompting (Wei et al., 2022). The previous SoTA baselines are obtained from:
+: DeBERTaV3-large + KEAR (Xu et al., 2021b),
+: Chowdhery et al. (2022),
+: UnifiedQA-FT (Khashabi et al., 2020). The best performance for each task is shown in bold. Commonsense and Symbolic Reasoning
+
+Table 3 shows the results on commonsense and symbolic reasoning tasks. Similarly, self-consistency yields large gains across all four language models, and obtained SoTA results on 5 out of 6 tasks. For symbolic reasoning, we test the out-of-distribution (OOD) setting where the input prompt contains examples of 2-letters or 2-flips but we test examples of 4-letters and 4-flips (this setting is more challenging as PaLM-540B or GPT-3 can already achieve perfect in-distribution accuracy). In this challenging OOD setting, the gain of self-consistency is still quite significant compared to CoT-prompting with sufficient model sizes.

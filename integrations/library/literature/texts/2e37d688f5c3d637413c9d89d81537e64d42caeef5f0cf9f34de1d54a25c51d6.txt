@@ -1,0 +1,28 @@
+These results highlight the importance of specific, actionable feedback in our approach. Even generic feedback provides some benefit, but the best results are achieved with targeted, constructive feedback. Task
+
+Code Opt. 22.0
+
+27.0
+
+27.9
+
+28.8
+
+Sentiment Rev. 33.9
+
+34.9
+
+36.1
+
+36.8
+
+Constrained Gen. 29.0
+
+40.3
+
+46.7
+
+49.7
+
+Figure 4: Left: Iteration-wise score improvements. Early iterations significantly improve output quality, and scores generally keep improving with more iterations. Right: \oursPerformance improvements with iterations. Most gains() are in the initial iterations for both Code Opt. and Sentiment Reversal. The numbers are averaged over ChatGPT, GPT-3.5, and GPT-4. Task abbreviations: C. Opt. (Code Optimiz.), S. Rev. (Sentiment Reversal), C. Gen. (Constrained Generation). How important are the multiple iterations of feedback-refine? Figure 4 demonstrates that
+on average, the quality of the output improves as the number of iterations increases. For instance, in the Code Optimization task, the initial output () has a score of 22.0, which improves to 28.8 after three iterations ().

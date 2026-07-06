@@ -1,0 +1,7 @@
+3.1 Test-Time Compute-Optimal Scaling Strategy
+
+In general, we would therefore like to select the optimal allocation of our test-time compute budget for a given problem. To this end, for any given approach of utilizing test-time compute (e.g., revisions and search against a verifier in this paper, various other methods elsewhere), we define the “test-time compute-optimal scaling strategy” as the strategy that chooses hyperparameters corresponding to a given test-time strategy for maximal performance benefits on a given prompt at test time. Formally, define as the distribution over natural language output tokens induced by the model for a given prompt , using test-time compute hyper-parameters , and a compute budget of . We would like to select the hyper-parameters which maximize the accuracy of the target distribution for a given problem. We express this formally as:
+
+(1)
+
+where denotes the ground-truth correct response for , and represents the test-time compute-optimal scaling strategy for the problem with compute budget .

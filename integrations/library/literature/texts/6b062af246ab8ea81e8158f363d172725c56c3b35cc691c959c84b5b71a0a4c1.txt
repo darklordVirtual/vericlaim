@@ -1,0 +1,20 @@
+without loss-scale
+MP with loss-scale
+
+Faster R-CNN
+
+69.1%
+
+68.6%
+
+69.7%
+
+Multibox SSD
+
+76.9%
+
+diverges
+
+77.1%
+
+As can be seen in table 2, SSD detector failed to train in FP16 without loss-scaling. By losing small gradient values to zeros, as described in Section 3.2, poor weights are learned and training diverges. As described in Section 3.2, loss-scaling factor of 8 recovers the relevant gradient values and mixed-precision training matches FP32 mAP.

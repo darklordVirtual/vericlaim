@@ -1,0 +1,13 @@
+Hierarchical neural story generation. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp. 889–898,
+Melbourne, Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/P18-1082. URL https://aclanthology.org/P18-1082. Ficler & Goldberg (2017)
+
+Jessica Ficler and Yoav Goldberg. Controlling linguistic style aspects in neural language generation. In Proceedings of the Workshop on Stylistic Variation, pp. 94–104, Copenhagen, Denmark, September 2017. Association for Computational
+Linguistics. doi: 10.18653/v1/W17-4912. URL https://aclanthology.org/W17-4912. Gao et al. (2021)
+
+Tianyu Gao, Adam Fisch, and Danqi Chen. Making pre-trained language models better few-shot learners. In Proceedings of the 59th Annual Meeting of the Association
+for Computational Linguistics and the 11th International Joint Conference on
+Natural Language Processing (Volume 1: Long Papers), pp. 3816–3830,
+Online, August 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.295. URL https://aclanthology.org/2021.acl-long.295. Geva et al. (2020)
+
+Mor Geva, Ankit Gupta, and Jonathan Berant.

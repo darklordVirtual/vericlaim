@@ -1,0 +1,1 @@
+between quality and cost: a higher value of enforces stricter cost constraints by favoring weak models more often, while a lower biases toward higher-quality (but more expensive) strong models. Finally, with the routing function and two models, and , we define a router model , which responds to a query as follows:222For brevity, we denote this as . (3)

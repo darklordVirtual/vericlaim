@@ -1,0 +1,17 @@
+CoRR, abs/1606.08415. Hill et al. (2016)
+
+Felix Hill, Kyunghyun Cho, and Anna Korhonen. 2016. Learning distributed representations of sentences from unlabelled
+data. In Proceedings of the 2016 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies. Association for Computational Linguistics. Howard and Ruder (2018)
+
+Jeremy Howard and Sebastian Ruder. 2018. Universal language model
+fine-tuning for text classification. In ACL. Association for Computational Linguistics. Hu et al. (2018)
+
+Minghao Hu, Yuxing Peng, Zhen Huang, Xipeng Qiu, Furu Wei, and Ming Zhou. 2018. Reinforced mnemonic reader for machine reading comprehension. In IJCAI. Jernite et al. (2017)
+
+Yacine Jernite, Samuel R. Bowman, and David Sontag. 2017. Discourse-based objectives
+for fast unsupervised sentence representation learning. CoRR, abs/1705.00557. Joshi et al. (2017)
+
+Mandar Joshi, Eunsol Choi, Daniel S Weld, and Luke Zettlemoyer. 2017. Triviaqa: A large scale distantly supervised challenge dataset for
+reading comprehension. In ACL. Kiros et al.

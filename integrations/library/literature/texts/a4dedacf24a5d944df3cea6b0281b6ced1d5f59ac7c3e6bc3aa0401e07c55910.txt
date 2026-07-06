@@ -1,0 +1,18 @@
+Austin et al. (2021)
+
+Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski,
+David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, and Charles
+Sutton. 2021. Program synthesis with large language models. Bahl et al. (1983)
+
+Lalit R Bahl, Frederick Jelinek, and Robert L Mercer. 1983. A maximum likelihood approach to continuous speech recognition. IEEE transactions on pattern analysis and machine
+intelligence, pages 179–190. Bengio et al. (2000)
+
+Yoshua Bengio, Réjean Ducharme, and Pascal Vincent. 2000. A neural probabilistic language model. Advances in neural information processing systems, 13. Bisk et al. (2020)
+
+Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi, et al. 2020. Piqa: Reasoning about physical commonsense in natural language. In Proceedings of the AAAI conference on artificial
+intelligence, pages 7432–7439. Black et al. (2022)
+
+Sid Black, Stella Biderman, Eric Hallahan, Quentin Anthony, Leo Gao, Laurence
+Golding, Horace He, Connor Leahy, Kyle McDonell, Jason Phang, et al. 2022. Gpt-neox-20b: An open-source autoregressive language model. arXiv preprint arXiv:2204.06745. Brants et al. (2007)
+
+Thorsten Brants, Ashok C.

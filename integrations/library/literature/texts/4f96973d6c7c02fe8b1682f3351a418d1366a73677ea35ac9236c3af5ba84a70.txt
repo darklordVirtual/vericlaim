@@ -1,0 +1,17 @@
+context2vec: Learning generic context embedding with bidirectional
+lstm. In Proceedings of The 20th SIGNLL Conference on Computational
+Natural Language Learning, pp. 51–61, 01 2016. Merity et al. (2016)
+
+Merity, S., Xiong, C., Bradbury, J., and Socher, R. Pointer sentinel mixture models. CoRR, abs/1609.07843, 2016. URL http://arxiv.org/abs/1609.07843. Micikevicius et al. (2017)
+
+Micikevicius, P., Narang, S., Alben, J., Diamos, G. F., Elsen, E., Garcia, D.,
+Ginsburg, B., Houston, M., Kuchaiev, O., Venkatesh, G., and Wu, H. Mixed precision training. CoRR, abs/1710.03740, 2017. Microsoft (2020)
+
+Microsoft. Turing-nlg: A 17-billion-parameter language model by microsoft, 2020. URL
+https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/. Mikolov et al. (2011)
+
+Mikolov, T., Deoras, A., Kombrink, S., Burget, L., and Černockỳ, J. Empirical evaluation and combination of advanced language modeling
+techniques. In Twelfth Annual Conference of the International Speech
+Communication Association, 2011. Mikolov et al. (2013)
+
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G., and Dean, J.

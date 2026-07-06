@@ -1,0 +1,21 @@
+Probing neural network comprehension of natural language arguments. arXiv preprint arXiv:1907.07355, 2019. Nor [09]
+
+Peter Norvig. Natural language corpus data, 2009. NvNvdG [19]
+
+Malvina Nissim, Rik van Noord, and Rob van der Goot. Fair is better than sensational: Man is to doctor as woman is to
+doctor. arXiv preprint arXiv:1905.09866, 2019. NWD+ [19]
+
+Yixin Nie, Adina Williams, Emily Dinan, Mohit Bansal, Jason Weston, and Douwe
+Kiela. Adversarial nli: A new benchmark for natural language understanding. arXiv preprint arXiv:1910.14599, 2019. oR [16]
+
+University of Regensburg. Fascha, 2016. PCC [18]
+
+Mohammad Taher Pilehvar and Jose Camacho-Collados. WIC: 10,000 example pairs for evaluating context-sensitive
+representations. arXiv preprint arXiv:1808.09121, 2018. PFB [18]
+
+Jason Phang, Thibault Févry, and Samuel R. Bowman. Sentence encoders on STILTs: Supplementary training on intermediate
+labeled-data tasks. arXiv preprint arXiv:1811.01088, 2018. PHR+ [18]
+
+Adam Poliak, Aparajita Haldar, Rachel Rudinger, J. Edward Hu, Ellie Pavlick,
+Aaron Steven White, and Benjamin Van Durme. Collecting diverse natural language inference problems for sentence
+representation evaluation.

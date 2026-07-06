@@ -1,0 +1,9 @@
+Isaac Ong∗1 Amjad Almahairi∗2 Vincent Wu1 Wei-Lin Chiang1 Tianhao Wu1
+
+Joseph E. Gonzalez1 M Waleed Kadous3 Ion Stoica1,2
+
+1UC Berkeley 2Anyscale 3Canva
+
+Abstract
+
+Large language models (LLMs) excel at a wide range of tasks, but choosing the right model often involves balancing performance and cost. Powerful models offer better results but are expensive, while smaller models are more cost-effective but less capable. To address this trade-off, we introduce a training framework for learning efficient router models that dynamically select between a stronger and weaker LLM during inference. Our framework leverages human preference data and employs data augmentation techniques to enhance performance. Evaluations on public benchmarks show that our approach can reduce costs by over 2 times without sacrificing response quality. Moreover, our routers exhibit strong generalization capabilities, maintaining performance even when routing between LLMs not included in training. This highlights the potential of our framework to deliver cost-effective, high-performance LLM solutions.

@@ -1,0 +1,18 @@
+arXiv preprint arXiv:2104.06599, 2021. Raffel et al. [2020]
+
+C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena, Y. Zhou,
+W. Li, and P. J. Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer. J. Mach. Learn. Res., 21(1), jan 2020. ISSN 1532-4435. Sanh et al. [2021]
+
+V. Sanh, A. Webson, C. Raffel, S. H. Bach, L. Sutawika, Z. Alyafeai,
+A. Chaffin, A. Stiegler, T. L. Scao, A. Raja, et al. Multitask prompted training enables zero-shot task generalization. arXiv preprint arXiv:2110.08207, 2021. Sap et al. [2022]
+
+M. Sap, R. LeBras, D. Fried, and Y. Choi. Neural theory-of-mind? on the limits of social intelligence in large
+lms. arXiv preprint arXiv:2210.13312, 2022. Scao et al. [2022]
+
+T. L. Scao, A. Fan, C. Akiki, E. Pavlick, S. Ilić, D. Hesslow,
+R. Castagné, A. S. Luccioni, F. Yvon, M. Gallé, et al. Bloom: A 176b-parameter open-access multilingual language model. arXiv preprint arXiv:2211.05100, 2022. Shaphiro and Wilk [1965]
+
+S. Shaphiro and M. Wilk. An analysis of variance test for normality. Biometrika, 52(3):591–611, 1965. Sung et al. [2021]
+
+Y.-L. Sung, V. Nair, and C. A. Raffel. Training neural networks with fixed sparse masks.

@@ -1,0 +1,13 @@
+Lasenby, R. Larson, S. Ringer, S. Johnston, S. Kravec, S. E. Showk, S. Fort, T. Lanham, T. Telleen-Lawton, T. Conerly, T. Henighan, T. Hume, S. R. Bowman, Z. Hatfield-Dodds, B. Mann, D. Amodei, N. Joseph, S. McCandlish, T. Brown, and J. Kaplan. Constitutional ai: Harmlessness from ai feedback, 2022. Blakeney et al. [2024]
+
+C. Blakeney, M. Paul, B. W. Larsen, S. Owen, and J. Frankle. Does your data spark joy? performance gains from domain upsampling at the end of training, 2024. URL https://arxiv.org/abs/2406.03476. Chen et al. [2024]
+
+G. Chen, M. Liao, C. Li, and K. Fan. Alphamath almost zero: process supervision without process, 2024. Cobbe et al. [2021]
+
+K. Cobbe, V. Kosaraju, M. Bavarian, M. Chen, H. Jun, L. Kaiser, M. Plappert, J. Tworek, J. Hilton, R. Nakano, C. Hesse, and J. Schulman. Training verifiers to solve math word problems, 2021. Du et al. [2023]
+
+Y. Du, S. Li, A. Torralba, J. B. Tenenbaum, and I. Mordatch. Improving factuality and reasoning in language models through multiagent debate, 2023. Evans [1984]
+
+J. S. B. T. Evans. Heuristic and analytic processes in reasoning. British Journal of Psychology, 75(4):451–468, 1984. Feng et al. [2024]
+
+X. Feng, Z. Wan, M.

@@ -1,0 +1,18 @@
+Michael, F. Hill, O. Levy, and S. R. Bowman. Glue: A multi-task benchmark and analysis platform for natural
+language understanding. arXiv preprint arXiv:1804.07461, 2018. Wang et al. [2022a]
+
+Y. Wang, Y. Kordi, S. Mishra, A. Liu, N. A. Smith, D. Khashabi, and
+H. Hajishirzi. Self-instruct: Aligning language model with self generated
+instructions. arXiv preprint arXiv:2212.10560, 2022a. Wang et al. [2022b]
+
+Y. Wang, S. Mishra, P. Alipoormolabashi, Y. Kordi, A. Mirzaei, A. Arunkumar,
+A. Ashok, A. S. Dhanasekaran, A. Naik, D. Stap, et al. Super-naturalinstructions:generalization via declarative instructions
+on 1600+ tasks. In EMNLP, 2022b. Wang et al. [2022c]
+
+Y. Wang, S. Mishra, P. Alipoormolabashi, Y. Kordi, A. Mirzaei, A. Naik,
+A. Ashok, A. S. Dhanasekaran, A. Arunkumar, D. Stap, et al. Super-naturalinstructions: Generalization via declarative
+instructions on 1600+ nlp tasks. In Proceedings of the 2022 Conference on Empirical Methods in
+Natural Language Processing, pages 5085–5109, 2022c. Wei et al. [2021]
+
+J. Wei, M. Bosma, V. Y. Zhao, K. Guu, A. W. Yu, B. Lester, N. Du, A. M. Dai,
+and Q. V. Le. Finetuned language models are zero-shot learners.

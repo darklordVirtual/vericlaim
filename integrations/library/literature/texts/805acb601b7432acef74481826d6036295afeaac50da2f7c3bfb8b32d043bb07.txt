@@ -1,0 +1,1 @@
+We conduct a human evaluation with the same wording given to GPT-4 in the original Vicuna evaluation [10], adjusted for an Amazon Mechanical Turk form as show in Figure 5. Figure 5: The crowdsourcing form used by human annotators.

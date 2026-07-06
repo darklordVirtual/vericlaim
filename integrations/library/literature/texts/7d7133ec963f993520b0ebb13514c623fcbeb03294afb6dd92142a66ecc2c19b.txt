@@ -1,0 +1,13 @@
+de Las Casas, L. A. Hendricks, J. Welbl, A. Clark, T. Hennigan, E. Noland, K. Millican, G. van den Driessche, B. Damoc, A. Guy, S. Osindero, K. Simonyan, E. Elsen, J. W. Rae, O. Vinyals, and L. Sifre. Training compute-optimal large language models, 2022. Huang et al. [2023]
+
+J. Huang, X. Chen, S. Mishra, H. S. Zheng, A. W. Yu, X. Song, and D. Zhou. Large language models cannot self-correct reasoning yet, 2023. Jones [2021]
+
+A. L. Jones. Scaling scaling laws with board games, 2021. URL https://arxiv.org/abs/2104.03113. Kahneman [2003]
+
+D. Kahneman. Maps of bounded rationality: Psychology for behavioral economics. The American Economic Review, 93(5):1449–1475, 2003. Kahneman [2013]
+
+D. Kahneman. Thinking, fast and slow. Farrar, Straus and Giroux, New York, first paperback edition edition, 2013. Kocsis and Szepesv’ari [2006]
+
+L. Kocsis and C. Szepesv’ari. Bandit based monte-carlo planning. In European conference on machine learning, pages 282–293. Springer, 2006. Lewkowycz et al. [2022]
+
+A. Lewkowycz, A. Andreassen, D. Dohan, E. Dyer, H. Michalewski, V. Ramasesh, A. Slone, C. Anil, I. Schlag, T. Gutman-Solo, Y. Wu, B. Neyshabur, G. Gur-Ari, and V. Misra.

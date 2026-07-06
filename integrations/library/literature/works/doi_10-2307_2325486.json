@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Eugene F. Fama"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "efficient-markets-1970",
+    "fetched_at": "2026-07-06T01:07:46.903186+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "1716d4dff77b0f1bc27da979bfb3b65ec6d881465a27a7af1c7e8cdaa048e287",
+  "title": "Efficient Capital Markets: A Review of Theory and Empirical Work",
+  "url": "https://doi.org/10.2307/2325486",
+  "venue": "The Journal of Finance",
+  "work_id": "doi:10.2307/2325486",
+  "year": 1970
+}

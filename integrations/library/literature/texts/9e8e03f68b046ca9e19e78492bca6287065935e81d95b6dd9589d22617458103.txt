@@ -1,0 +1,13 @@
+For these tasks, we used CommonsenseQA (Talmor et al., 2019),
+StrategyQA (Geva et al., 2021),
+and the AI2 Reasoning Challenge (ARC) (Clark et al., 2018). •
+
+Symbolic Reasoning. We evaluate two symbolic reasoning tasks: last letter concatenation (e.g., the input is “Elon Musk” and the output should be “nk”), and Coinflip (e.g., a coin is heads-up, after a few flips is the coin still heads-up?) from Wei et al. (2022). Language models and prompts. We evaluate self-consistency over four transformer-based language models with varying scales:
+
+•
+
+UL2 (Tay et al., 2022) is an encoder-decoder model trained on a mixture of denoisers with 20-billion parameters. UL2 is completely open-sourced444Model checkpoints at https://github.com/google-research/google-research/tree/master/ul2. and has similar or better performance than GPT-3 on zero-shot SuperGLUE, with only 20B parameters and thus is more compute-friendly;
+
+•
+
+GPT-3 (Brown et al., 2020) with 175-billion parameters. We use two public engines code-davinci-001 and code-davinci-002 from the Codex series (Chen et al., 2021) to aid reproducibility;555Public API available at https://openai.com/api/.

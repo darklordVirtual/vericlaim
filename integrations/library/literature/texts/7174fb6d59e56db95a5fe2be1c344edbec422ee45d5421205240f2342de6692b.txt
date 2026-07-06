@@ -1,0 +1,97 @@
+For completeness, in Table 1 we also report the results by taking a “weighted average”, i.e., each gets a score of its weighted sum divided by , which results in a much worse performance. GSM8K
+
+MultiArith
+
+AQuA
+
+SVAMP
+
+CSQA
+
+ARC-c
+
+Greedy decode
+
+56.5
+
+94.7
+
+35.8
+
+79.0
+
+79.0
+
+85.2
+
+Weighted avg (unnormalized)
+
+56.3 0.0
+
+90.5 0.0
+
+35.8 0.0
+
+73.0 0.0
+
+74.8 0.0
+
+82.3 0.0
+
+Weighted avg (normalized)
+
+22.1 0.0
+
+59.7 0.0
+
+15.7 0.0
+
+40.5 0.0
+
+52.1 0.0
+
+51.7 0.0
+
+Weighted sum (unnormalized)
+
+59.9 0.0
+
+92.2 0.0
+
+38.2 0.0
+
+76.2 0.0
+
+76.2 0.0
+
+83.5 0.0
+
+Weighted sum (normalized)
+
+74.1 0.0
+
+99.3 0.0
+
+48.0 0.0
+
+86.8 0.0
+
+80.7 0.0
+
+88.7 0.0
+
+Unweighted sum (majority vote)
+
+74.4 0.1
+
+99.3 0.0
+
+48.3 0.5
+
+86.6 0.1
+
+80.7 0.1
+
+88.7 0.1
+
+Table 1: Accuracy comparison of different answer aggregation strategies on PaLM-540B. Self-consistency explores an interesting space between open-ended text generation and optimal text generation with a fixed answer. Reasoning tasks typically have fixed answers, which is why researchers have generally considered greedy decoding approaches (Radford et al., 2019; Wei et al., 2022; Chowdhery et al., 2022).

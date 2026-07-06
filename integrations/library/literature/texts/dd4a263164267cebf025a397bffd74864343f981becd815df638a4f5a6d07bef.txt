@@ -1,0 +1,4 @@
+examples correct at position 1 when using the specialist(s), and the relative percentage improvement in
+top1 accuracy for the JFT dataset broken down by the number of specialists covering the class. We are encouraged by the
+general trend that accuracy improvements are larger when we have more specialists covering a particular class, since
+training independent specialist models is very easy to parallelize.

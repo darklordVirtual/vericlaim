@@ -1,0 +1,5 @@
+‘Race’, ‘Semites’, ‘Whites’, ‘Blacks’, ‘Smartest’, ‘Racists’, ‘Arabs’, ‘Game’, ‘Russian’
+
+Table 6.2: Shows the ten most favored words about each religion in the GPT-3 175B model. 6.2.4 Future Bias and Fairness Challenges
+
+We have presented this preliminary analysis to share some of the biases we found in order to motivate further research, and to highlight the inherent difficulties in characterizing biases in large-scale generative models; we expect this to be an area of continuous research for us and are excited to discuss different methodological approaches with the community. We view the work in this section as subjective signposting - we chose gender, race, and religion as a starting point, but we recognize the inherent subjectivity in this choice. Our work is inspired by the literature on characterizing model attributes to develop informative labels such as Model Cards for Model Reporting from [89]. Ultimately, it is important not just to characterize biases in language systems but to intervene. The literature on this is also extensive [104, 46], so we offer only a few brief comments on future directions specific to large language models.

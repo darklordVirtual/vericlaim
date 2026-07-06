@@ -1,0 +1,7 @@
+HiPPO [35] and its extensions, most
+notably S4 [36, 37, 31] projects the
+history on a polynomial basis, allowing accurate reconstruction of the history
+through state-space models. They combine the strengths of CNNs (efficient training), RNNs (efficient
+inference), and continuous models (robust to change in sampling rates). LambdaNetworks [2], AFT [93]
+and FLASH [42] are other attempts at replacing attention
+in the context of image classification and language modeling.

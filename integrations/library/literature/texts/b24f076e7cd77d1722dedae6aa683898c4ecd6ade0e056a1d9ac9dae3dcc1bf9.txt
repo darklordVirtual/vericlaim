@@ -1,0 +1,17 @@
+EMNLP, 2016. Rajpurkar et al. (2018)
+
+Rajpurkar, P., Jia, R., and Liang, P. Know what you don’t know: Unanswerable questions for squad. ACL, 2018. Ramachandran et al. (2016)
+
+Ramachandran, P., Liu, P. J., and Le, Q. V. Unsupervised pretraining for sequence to sequence learning. CoRR, abs/1611.02683, 2016. URL http://arxiv.org/abs/1611.02683. Shazeer et al. (2018)
+
+Shazeer, N., Cheng, Y., Parmar, N., Tran, D., Vaswani, A., Koanantakool, P.,
+Hawkins, P., Lee, H., Hong, M., Young, C., Sepassi, R., and Hechtman, B. Mesh-TensorFlow: Deep learning for supercomputers. In Neural Information Processing Systems, 2018. Trinh & Le (2018)
+
+Trinh, T. H. and Le, Q. V. A simple method for commonsense reasoning. CoRR, abs/1806.02847, 2018. URL http://arxiv.org/abs/1806.02847. Turian et al. (2010)
+
+Turian, J., Ratinov, L., and Bengio, Y. Word representations: A simple and general method for semi-supervised
+learning. In Proceedings of the 48th Annual Meeting of the Association
+for Computational Linguistics, ACL ’10, pp. 384–394, Stroudsburg, PA,
+USA, 2010. Association for Computational Linguistics. Valiant (1990)
+
+Valiant, L. G. A bridging model for parallel computation.

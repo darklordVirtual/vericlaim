@@ -1,0 +1,13 @@
+Training an ensemble of models is a very simple way to take advantage
+of parallel computation and the usual objection that an ensemble
+requires too much computation at test time can be dealt with by using
+distillation. There is, however, another important objection to
+ensembles: If the individual models are large neural networks and the
+dataset is very large, the amount of computation required at training
+time is excessive, even though it is easy to parallelize. In this section we give an example of such a dataset and we show how
+learning specialist models that each focus on a different confusable
+subset of the classes can reduce the total amount of computation
+required to learn an ensemble. The main problem with specialists that
+focus on making fine-grained distinctions is that they overfit very
+easily and we describe how this overfitting may be prevented by using
+soft targets.

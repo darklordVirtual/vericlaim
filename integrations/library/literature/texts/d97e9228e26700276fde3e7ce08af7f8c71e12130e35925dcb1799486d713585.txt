@@ -1,0 +1,17 @@
+Table 3: Character Error Rate (CER) using mixed precision training for speech recognition. English results are reported on the WSJ ’92 test set. Mandarin results are reported on our internal test set. Model/Dataset
+Baseline
+Mixed Precision
+
+English
+
+2.20
+
+1.99
+
+Mandarin
+
+15.82
+
+15.01
+
+Similar to classification and detection networks, mixed precision training works well for recurrent neural networks trained on large scale speech datasets. These speech models are the largest models trained using this technique. Also, the number of time-steps involved in training a speech model are unusually large compared to other applications using recurrent layers. As shown in table 3, Pseudo FP16 results are roughly 5 to 10% better than the baseline. This suggests that the half-precision storage format may act as a regularizer during training. Figure 4: English to French translation network training perplexity, 3x1024 LSTM model with attention. Ref1, ref2 and ref3 represent three different FP32 training runs.

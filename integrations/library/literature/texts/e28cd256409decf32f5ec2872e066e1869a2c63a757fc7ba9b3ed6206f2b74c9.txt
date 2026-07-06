@@ -1,0 +1,16 @@
+we modify the optimizer on the expert parameters to require less auxiliary storage:
+
+The Adam optimizer (Kingma & Ba, 2015) keeps first and second moment estimates of the per-parameter gradients. This triples the required memory. To avoid keeping a first-moment estimator, we set . To reduce the size of the second moment estimator, we replace it with a factored approximation. For a matrix of parameters, instead of maintaining a full matrix of second-moment estimators, we maintain vectors of row-wise and column-wise averages of that matrix. At each step, the matrix of estimators is taken to be the outer product of those two vectors divided by the mean of either one. This technique could similarly be applied to Adagrad (Duchi et al., 2010). Table 8: Model comparison on 100 Billion Word Google News Dataset
+
+Model
+Test
+Test
+ops/timestep
+#Params excluding
+Total
+TFLOPS
+
+Perplexity
+Perplexity
+(millions)
+embed.

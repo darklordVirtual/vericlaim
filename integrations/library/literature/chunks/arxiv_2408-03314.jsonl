@@ -1,0 +1,94 @@
+{"fsid": "arxiv_2408-03314", "n": 93, "overlap": 200, "source_sha256": "069e31a9fd46dde7102ad7228a1232ea35ddf1b3a49b3eb99bdfe73f5458d804", "target": 1200}
+{"section": "", "seq": 0, "sha256": "4546314f2da952580bbc32c32c490e163a269aaa9f0b15453a64cd8d493ac789"}
+{"section": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters", "seq": 1, "sha256": "a584cb93da25d82230d277f2ed683731636588c5a1c8af7520e3835e1a4a8a35"}
+{"section": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters", "seq": 2, "sha256": "aa6c1ac02571c6a34f40f6b95bc328ceae933c67befb265dfe1caaba3874ae83"}
+{"section": "1 Introduction", "seq": 3, "sha256": "9cdf96537efcddf4b4d22d254a512dcbc3d0a2f3f0bf1c52f8ecd71391dd20fc"}
+{"section": "1 Introduction", "seq": 4, "sha256": "1fc3639aa141edbec8c9461b2502da40772328ef560914c4dc1b4cc09ff5fb38"}
+{"section": "1 Introduction", "seq": 5, "sha256": "791baf94f8b9dc0a5240914d5cf92ddf4fe995f1ba9bdb7b24863ace8b6eaf1a"}
+{"section": "1 Introduction", "seq": 6, "sha256": "3ebe419f677d29a89cb85d0441cbd5a310da5989c43dede5bd79f47dbd1501af"}
+{"section": "1 Introduction", "seq": 7, "sha256": "7a848a3edcc94c4c5672063d2cc19634fabb0db41381e4badd9c64da612b7ea1"}
+{"section": "1 Introduction", "seq": 8, "sha256": "1ad320eace8fe96ca123d79273030da9e59508049f5a44fa589e414ce8087fa4"}
+{"section": "1 Introduction", "seq": 9, "sha256": "6810e9f5f9763a484b1fec8c3461881b51d0001b4a9cd47b7fe4c0103b667f0b"}
+{"section": "1 Introduction", "seq": 10, "sha256": "06d6fd61a045a191fd91c62c643dc325597b0880c8238e97a3ace87d27823631"}
+{"section": "1 Introduction", "seq": 11, "sha256": "e918990d2539d6190f741471ccac6751488da78b30d79fa6cdb8cc3c8e41b5e6"}
+{"section": "1 Introduction", "seq": 12, "sha256": "f199e1c71385c24f2ad54c37149f7412af8f251257293f371700ebb9469ed2a4"}
+{"section": "2 A Unified Perspective on Test-Time Computation: Proposer and Verifier", "seq": 13, "sha256": "2b4fb62ddc75e6a43c7477d59077ff556a368b43f4dad6463d2159a6ded60b38"}
+{"section": "2 A Unified Perspective on Test-Time Computation: Proposer and Verifier", "seq": 14, "sha256": "3c0c539a98fc3f772990709a3a4aa714eae11d614af9e5d1ac673fca77513e61"}
+{"section": "2 A Unified Perspective on Test-Time Computation: Proposer and Verifier", "seq": 15, "sha256": "7dada24a104ced063c9545cc5d5f1241269bce386376bc0690776ea8fab964d0"}
+{"section": "2 A Unified Perspective on Test-Time Computation: Proposer and Verifier", "seq": 16, "sha256": "1e52d1b35c5e478c267dc345e5a8c2168304c0a7a044a6284c645e6b71622115"}
+{"section": "3 How to Scale Test-Time Computation Optimally", "seq": 17, "sha256": "bb302805f87400bf9622cf54fc2a793fca5bd56b135b5da82fd4144be1a16c9a"}
+{"section": "3 How to Scale Test-Time Computation Optimally", "seq": 18, "sha256": "2f28542ff3944ebb43f985f946636c2586026067694f016401d283660f79b518"}
+{"section": "3 How to Scale Test-Time Computation Optimally", "seq": 19, "sha256": "01861927655810c2c1c08e0a0312f82f48e0ff02572e8f11097001590c03e05b"}
+{"section": "3 How to Scale Test-Time Computation Optimally", "seq": 20, "sha256": "7a05feded80edf5927d5232f277b9c9780b6f1445ba6ef34a9df95710a107d06"}
+{"section": "3 How to Scale Test-Time Computation Optimally", "seq": 21, "sha256": "d52911dc245ee579b3e7b9d09593a56896b003cb16c6d06e797be5163cad5f1c"}
+{"section": "3 How to Scale Test-Time Computation Optimally", "seq": 22, "sha256": "84dd2a17b8cf323fec13e9700accf1f3ebb7658d4b881d0e45f932d65136d3f3"}
+{"section": "3 How to Scale Test-Time Computation Optimally", "seq": 23, "sha256": "395ca2285275196794691052a9cd52c8b5950f467a69ae914de8bc3ef283dcbf"}
+{"section": "3 How to Scale Test-Time Computation Optimally", "seq": 24, "sha256": "db74193a19e7e1eb1515d1e89e4964fdd15e5bcbff63aa797886b1f36dd06b19"}
+{"section": "4 Experimental Setup", "seq": 25, "sha256": "4db10078de4b4a1681eb1d8a11a4ae11b4ee5baab0fbfe417ac313d76da0d19c"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 26, "sha256": "2ecf54de78bc846ae0bbee7a28a11cfb346c5aaa378fda23389b9569a8855ff1"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 27, "sha256": "7ce1e0f7e6512e6abd4c7374c57587fb8d4e12570a707d9e1d85fbc410772325"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 28, "sha256": "e508230bff548406668455cd772c9fd341e86c30add56e6b5fb249a1cae69c3d"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 29, "sha256": "c2895aa1bedef5e434e82439428c94ea06f7631660fa945d9725fdfd4dc11d56"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 30, "sha256": "8d2172291050f059ae88a9b945f36315a5306c4e6fbf291af0034dc017d0b5ee"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 31, "sha256": "1fe70b77b983e6026bed575415440542b2ba7ed363abd9a4d9dd78fc057acb5a"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 32, "sha256": "79d98bc797c4c70587b411a128e7cd50f6a16b808c199e68b9aa47f837280432"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 33, "sha256": "ef4ca94410c3cbf3b036770a561ad739bab8478f2e7ec591bf458ac366f85131"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 34, "sha256": "6248f97c17adcc532ea06551b40aebcf04d67a00a21d16018b5093634c98e9fc"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 35, "sha256": "c89c1424ba8b837d5a366026d77dde2aba7c10ec0b38f880c66b52d5757e44e2"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 36, "sha256": "5f53217486f8ef0e167bfa4ebb9b2c1a02f63973ed38af2cfb2c5223e178a9c3"}
+{"section": "5 Scaling Test-Time Compute via Verifiers", "seq": 37, "sha256": "0c9ab19e01d02c6f548a9c5d82bdeb381ba797309e077bbfcde82cc94a71f2c8"}
+{"section": "6 Refining the Proposal Distribution", "seq": 38, "sha256": "d862542a2858d764596a8d6096d690012033802914ce76269fab702b2d0c9a10"}
+{"section": "6 Refining the Proposal Distribution", "seq": 39, "sha256": "1d1206f3207e3ed31ed35c65c72fa9ab08498c01f675c5257d7bbc1f31ea262d"}
+{"section": "6 Refining the Proposal Distribution", "seq": 40, "sha256": "377985cba0e4ccc89bec9765aaf4801672b661c86523398e3cdd3f14899f3427"}
+{"section": "6 Refining the Proposal Distribution", "seq": 41, "sha256": "641863ea57f9e3dc2ae8ff158cb2b78a1be87ef542723087ae187497b1e9c647"}
+{"section": "6 Refining the Proposal Distribution", "seq": 42, "sha256": "6951a24bfdc090015885f54434253c2137440edb9e4ab2ff43c59f4ff7c8f84a"}
+{"section": "6 Refining the Proposal Distribution", "seq": 43, "sha256": "9666d17ddf845878c85ae6b66091384f38cd2e977fa245efa09b591117f90961"}
+{"section": "6 Refining the Proposal Distribution", "seq": 44, "sha256": "cf45d2d6ea8af9c1bcd4fed2e1ac7fb061ea75bca1ecadad517016540f91a584"}
+{"section": "6 Refining the Proposal Distribution", "seq": 45, "sha256": "5301bd9d628dc7f6a93377353e510286dc68bf36fa748b8d12d6fe84d1ebf5d5"}
+{"section": "6 Refining the Proposal Distribution", "seq": 46, "sha256": "619612227108b867f904fba1c41e57cc5fa98467b664afbc79138d16d4d66f37"}
+{"section": "6 Refining the Proposal Distribution", "seq": 47, "sha256": "6e8477160c95e65f91806d89b12ca63d25c234cec14a6946758401d7cd0604be"}
+{"section": "6 Refining the Proposal Distribution", "seq": 48, "sha256": "b0d81f437fbbf274da99f33f57359088912b34a9a31f2f89dc115ae239730025"}
+{"section": "7 Putting it Together: Exchanging Pretraining and Test-Time Compute", "seq": 49, "sha256": "2763e8a41be8aef4907af10cfc83860ad39025c1a348d77b1d469f960864e5e0"}
+{"section": "7 Putting it Together: Exchanging Pretraining and Test-Time Compute", "seq": 50, "sha256": "355c835092cbe75cf0e66d9a8f3b968db7ce5ce0e9dd56b80795ef0e82b9461c"}
+{"section": "7 Putting it Together: Exchanging Pretraining and Test-Time Compute", "seq": 51, "sha256": "0251fe9c0a57b42a5ead6707e972c4457352257ec261bf3c554fa51563bc9abb"}
+{"section": "7 Putting it Together: Exchanging Pretraining and Test-Time Compute", "seq": 52, "sha256": "7ae9daa591728e010a1357cbd7149bb998d5672699919ed51a1da8dd4c62dbd1"}
+{"section": "7 Putting it Together: Exchanging Pretraining and Test-Time Compute", "seq": 53, "sha256": "400b9a4dcf4e3ba957e7a66baf9079f924ef7add0e2ec4ba3352ca2a579030c3"}
+{"section": "8 Discussion and Future Work", "seq": 54, "sha256": "b1668f4cd8fd497b4164dff7f2584c305dee5334333b7012bb84606a242f21eb"}
+{"section": "8 Discussion and Future Work", "seq": 55, "sha256": "5175f7e904cec441858dcb517d59d8c20b7ebd96e34c075e4627defda99b29e1"}
+{"section": "8 Discussion and Future Work", "seq": 56, "sha256": "abfe56628ab5946234d6db89e1962f22144a2a01cad1b7f787c72c80efead531"}
+{"section": "Acknowledgements", "seq": 57, "sha256": "604c32e50d19a4dabca72867a909214b8b6721fd58754a30cfb1dfa5e7a3ac52"}
+{"section": "References", "seq": 58, "sha256": "b10f1db2c6f2a6b22554def8de3675902cf7913bb248e6258361f4309e28bd4a"}
+{"section": "References", "seq": 59, "sha256": "d06d19e08644d8ea63846660367bdc977b40265138bcb9f1bca5b043bfd4ad59"}
+{"section": "References", "seq": 60, "sha256": "bad4bd439e3b316de12e5f0b988fdb9151eb9df2891a61bc20c857945e45f35e"}
+{"section": "References", "seq": 61, "sha256": "2822376caf7e78412a4b25b3c74ab87784e8e0e29b35e4a95c8e4d1194cee141"}
+{"section": "References", "seq": 62, "sha256": "7d7133ec963f993520b0ebb13514c623fcbeb03294afb6dd92142a66ecc2c19b"}
+{"section": "References", "seq": 63, "sha256": "00a65f0c4fc0b63a832223e1e59ce8c01abff926c2f42a2290855aae9be5c25d"}
+{"section": "References", "seq": 64, "sha256": "8f41f95b6a1a2465869cd65f09f50f7439796cd24c461aeed5574793de09c03b"}
+{"section": "References", "seq": 65, "sha256": "546954c2bb8d8a1fe198585f6c590028bfab50369ddcf1fad56b5d3e0a22b940"}
+{"section": "References", "seq": 66, "sha256": "c729ea9d933987c84243690c412f12099015021a0bc47ed4991a21fd4ee39314"}
+{"section": "References", "seq": 67, "sha256": "a9cde7fad47332d54f48c06417bd7b49a3e495f5a88ae34374fe4d8570ce25dc"}
+{"section": "References", "seq": 68, "sha256": "0c8998d9787f5e721cfa04ad348bb9b0164a9a7f2acc65c039ca389907257105"}
+{"section": "References", "seq": 69, "sha256": "880903d26abc6cab07582cd2b740894904457803a6831a0b262fd6713ff856ff"}
+{"section": "Appendix A Related Work", "seq": 70, "sha256": "4dcdd9b08a82e17e5520e5ea8b97a4e9b7fa5fa5d2ddffa6c3ae9445074f5a94"}
+{"section": "Appendix A Related Work", "seq": 71, "sha256": "4c7b99664188e737677b509e9fda8dccc14f75d51079310000b743329dd6fe93"}
+{"section": "Appendix A Related Work", "seq": 72, "sha256": "9ed2a2a532bec857de51074fbed1b2bec8cf91b908f403ff8cba0844c9ac799a"}
+{"section": "Appendix B Additional Revision Results", "seq": 73, "sha256": "0ddbaca2e31b854745037daad94a1e2ee127da3d6f24d4a2411f2b5242d6e7a2"}
+{"section": "Appendix C Unsupervised Difficulty Bins", "seq": 74, "sha256": "6f13aafeb858c625e2b77f4ddc77e17b798980c309109660cf3b0d56b677b0d5"}
+{"section": "Appendix C Unsupervised Difficulty Bins", "seq": 75, "sha256": "330ab25214f46a4feb9e47e3f5e4c69246e5241346b1931eae2bfc5b9f71b989"}
+{"section": "Appendix D PRM Training Details", "seq": 76, "sha256": "099bf9222adfd781c0ec1c15b512cde4f1c2fd66f8c5b65dce066f0b6effb8ee"}
+{"section": "Appendix D PRM Training Details", "seq": 77, "sha256": "6d11be210a8ca80d10b51f388fe582af766b49b91ef57bbbd9777562877093d7"}
+{"section": "Appendix E Comparing PRM Aggregation Strategies", "seq": 78, "sha256": "682567bda8c78aee993b368bee78ee58514d2e6e452f10cb15428bd39e64d15f"}
+{"section": "Appendix E Comparing PRM Aggregation Strategies", "seq": 79, "sha256": "ef3cba139a4e7f38ef7d75aa1d750a964d528741aa4b074f7a79b70133b65a32"}
+{"section": "Appendix F Comparing PRM and ORM", "seq": 80, "sha256": "27ca54255ec5fa17b5c33dedab4c5a1d9cd7092dd741363f7b2958ae24ef1eed"}
+{"section": "Appendix G Prompting Details", "seq": 81, "sha256": "5c4ea689817c60dd7cecd5b5b59de7bb90f90fd840cf6e4fc3de000be26ce77e"}
+{"section": "Appendix H Revision Model Finetuning Details", "seq": 82, "sha256": "b9f7ba6f3d88481485bbbd592a90a1fae7253f98327ce389d22b433318c10e03"}
+{"section": "Appendix H Revision Model Finetuning Details", "seq": 83, "sha256": "15118007c6f8efb66ef975bf9eb4083f60000a6b65957a48cef8d2ebfbe91b6b"}
+{"section": "Appendix I Revision Model Selection Criteria", "seq": 84, "sha256": "a660ea7189607e715d3e2b85d4b65e7d0e19f87ab97a0f61860401e501cc5073"}
+{"section": "Appendix I Revision Model Selection Criteria", "seq": 85, "sha256": "bd352de8d265a212edc62c9ce594987afc295b4f719762b5a78687689ac7a5e8"}
+{"section": "Appendix J Revision Model Verifier Training", "seq": 86, "sha256": "d859e83d0e6c11f75ac2889417aa4ecf49c7dbf1c9d8cbf43f0da65e7016c6db"}
+{"section": "Appendix J Revision Model Verifier Training", "seq": 87, "sha256": "2d6edd156381e9dde1db384a3c006e4f40838810c8eb3c314c40e9b3c145ce20"}
+{"section": "Appendix K Revision Model Experiments", "seq": 88, "sha256": "2d96948dd2637247e6c7a0cf9820034556397e84d3c5006c34f550f6f9b257b5"}
+{"section": "Appendix K Revision Model Experiments", "seq": 89, "sha256": "0cc6a9347b917b3aba3f9d3120186d015c6a70bd30d285aa9884241b5ecba6a9"}
+{"section": "Appendix L Revision Model Example Outputs", "seq": 90, "sha256": "28ca4b22812852bb85e2ba1fd4b4bacf2489876d8e566569db2a8429cadae178"}
+{"section": "Appendix L Revision Model Example Outputs", "seq": 91, "sha256": "8f6f4076d3fac61866a542880303d92d36554baffb66504fe976ed1fa69286d0"}
+{"section": "Appendix M PRM Beam Search Example Outputs", "seq": 92, "sha256": "d690eb358c986a8caaac06f1f50b8ae251af33c16e69fd92fc5bbd921a9e6092"}

@@ -1,0 +1,22 @@
+Transformer Circuits, Mar 2022. [15]
+
+Brian Lester, Rami Al-Rfou, and Noah Constant. The power of scale for parameter-efficient prompt tuning. EMNLP 2021, 2021. [16]
+
+Stanislas Polu, Jesse Michael Han, Kunhao Zheng, Mantas Baksys, Igor
+Babuschkin, and Ilya Sutskever. Formal mathematics statement curriculum learning. arXiv preprint arXiv:2202.01344, 2022. [17]
+
+Leonardo de Moura, Soonho Kong, Jeremy Avigad, Floris van Doorn, and Jakob von
+Raumer. The lean theorem prover (system description). In International Conference on Automated Deduction, pages
+378–388. Springer, 2015. [18]
+
+Stanislas Polu and Ilya Sutskever. Generative language modeling for automated theorem proving. arXiv preprint arXiv:2009.03393, 2020. [19]
+
+Wangchunshu Zhou, Jinyi Hu, Hanlin Zhang, Xiaodan Liang, Maosong Sun, Chenyan
+Xiong, and Jian Tang. Towards interpretable natural language understanding with
+explanations as latent variables. Advances in Neural Information Processing Systems,
+33:6803–6814, 2020. [20]
+
+Noam Wies, Yoav Levine, and Amnon Shashua. Sub-task decomposition enables learning in sequence to sequence
+tasks. arXiv preprint arXiv:2204.02892, 2022. [21]
+
+Thomas Anthony, Zheng Tian, and David Barber.

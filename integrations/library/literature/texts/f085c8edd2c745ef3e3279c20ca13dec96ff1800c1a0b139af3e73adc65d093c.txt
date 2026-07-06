@@ -1,0 +1,5 @@
+We define an additional loss , which is added to the overall loss function for the model. This loss is equal to the square of the coefficient of variation of the set of importance values, multiplied by a hand-tuned scaling factor . This additional loss encourages all experts to have equal importance. (6)
+
+(7)
+
+While this loss function can ensure equal importance, experts may still receive very different numbers of examples. For example, one expert may receive a few examples with large weights, and another may receive many examples with small weights. This can cause memory and performance problems on distributed hardware. To solve this problem, we introduce a second loss function, , which ensures balanced loads. Appendix A contains the definition of this function, along with experimental results.

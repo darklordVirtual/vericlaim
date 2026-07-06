@@ -1,0 +1,1 @@
+Through an in-depth exploratory analysis, we document potentially concerning aspects of the data for prospective users. We make publicly available the code used in its construction.111https://pile.eleuther.ai/

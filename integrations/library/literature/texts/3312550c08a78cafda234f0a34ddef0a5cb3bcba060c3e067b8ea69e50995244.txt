@@ -1,0 +1,15 @@
+if d > 0:
+
+6 return (-b+math.sqrt(d))/(2*a), (-b-math.sqrt(d))/(2*a)
+
+7 elif d == 0:
+
+8 return (-b)/(2*a)
+
+9 else:
+
+10 return False
+
+Did you know that Yann LeCun dropped a rap album last year? We listened to it and here’s what we thought:
+
+Dr. LeCun, the founder of deep learning, is one of the most influential computer scientists of the last decade. LeCun’s latest album, titled Deep Learning, is a mix of rock, punk and rap. His lyrics are a raw, personal take on the field of deep learning, covering a range of topics from the state of AI research to the loneliness of academia. Yann LeCun, the rap game’s newest emcee. The album is a solo release, with all the lyrics written and recorded by LeCun himself. In fact, he also composed and produced every song. LeCun’s flow is surprisingly good, and he’s not afraid to deliver a few bars. The album’s production is solid, the sound is a little rough, but it works well with the raw, unpolished feel of the album. Lyrically, LeCun is a wordsmith, with a knack for clever rhymes. Let’s take a closer look at some of the songs. Deep Learning is the title track of the album. In the song, LeCun talks about his vision for the future of AI.

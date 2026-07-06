@@ -1,0 +1,21 @@
+EMNLP, 2015a. Luong et al. (2015b)
+
+Minh-Thang Luong, Ilya Sutskever, Quoc V. Le, Oriol Vinyals, and Wojciech
+Zaremba. Addressing the rare word problem in neural machine translation. ACL, 2015b. Rasmussen & Ghahramani (2002)
+
+Carl Edward Rasmussen and Zoubin Ghahramani. Infinite mixtures of Gaussian process experts. NIPS, 2002. Sak et al. (2014)
+
+Hasim Sak, Andrew W Senior, and Françoise Beaufays. Long short-term memory recurrent neural network architectures for
+large scale acoustic modeling. In INTERSPEECH, pp. 338–342, 2014. Schuster & Nakajima (2012)
+
+Mike Schuster and Kaisuke Nakajima. Japanese and Korean voice search. ICASSP, 2012. Shahbaba & Neal (2009)
+
+Babak Shahbaba and Radford Neal. Nonlinear models using dirichlet process mixtures. JMLR, 2009. Sutskever et al. (2014)
+
+Ilya Sutskever, Oriol Vinyals, and Quoc V. Le. Sequence to sequence learning with neural networks. In NIPS, 2014. Theis & Bethge (2015)
+
+Lucas Theis and Matthias Bethge. Generative image modeling using spatial LSTMs. In NIPS, 2015. Tresp (2001)
+
+Volker Tresp. Mixtures of Gaussian Processes. In NIPS, 2001. Wu et al. (2016)
+
+Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V.

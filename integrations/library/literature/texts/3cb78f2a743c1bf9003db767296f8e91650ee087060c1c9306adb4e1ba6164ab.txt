@@ -1,0 +1,9 @@
+We observe some interesting patterns with the GSM8K solutions proposed by the STaR-trained model. Typically, when the solution takes substantially fewer calculation steps than the ground truth, it corresponds to an instance where the model accidentally answered the question correctly despite mistakes in its reasoning. In some cases, however, the model produces simpler solutions than those in the ground truth. One example is shown in Figure 8. Figure 8: An example problem in the training set where STaR derives a significantly simpler solution than the ground truth. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

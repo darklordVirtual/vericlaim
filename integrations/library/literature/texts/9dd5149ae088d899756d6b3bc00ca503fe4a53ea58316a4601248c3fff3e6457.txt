@@ -1,0 +1,7 @@
+Speedup varies between different types of GPU types and generations depending on HBM bandwidth and SRAM size. In this section, we profile FlashAttention speedup on different GPUs and configurations. Figure 5: Speedup over standard PyTorch attention at different sequence lengths, on A100. A100
+
+Figure 5 shows speedup on an A100 GPU with batch size 8, head dimension 64, and 12 attention heads, across different sequence lengths. We generally see 2-4 speedup, and we see more speedup when using dropout and masking due to kernel fusion. Figure 6: Speedup over standard PyTorch attention at different sequence lengths, on A100, with head dimension 128. A100, Head Dimension 128
+
+Speedup also changes when we increase the head dimension. Each block requires more memory, so we need to use smaller block sizes to fit into SRAM. Figure 6 shows speedup with head dimension 128 on an A100 (batch size 16, 12 heads). We see less speedup overall—but we can still see significant speedup (up to 3) with a causal mask, where half the blocks are masked out. Figure 7: Speedup over standard PyTorch attention at different sequence lengths, on RTX 3090. RTX 3090
+
+Figure 7 shows speedup on an RTX 3090 GPU.

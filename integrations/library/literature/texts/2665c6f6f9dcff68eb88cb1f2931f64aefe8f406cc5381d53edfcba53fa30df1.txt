@@ -1,0 +1,30 @@
+classification accuracy achieved by using an ensemble of 10 models is transferred to the distilled model which is
+similar to the improvement we observed in our preliminary experiments on MNIST. The ensemble gives a smaller improvement
+on the ultimate objective of WER (on a 23K-word test set) due to the mismatch in the objective function, but again, the
+improvement in WER achieved by the ensemble is transferred to the distilled model. System
+Test Frame Accuracy
+WER
+
+Baseline
+
+58.9%
+
+10.9%
+
+10xEnsemble
+
+61.1%
+
+10.7%
+
+Distilled Single model
+
+60.8%
+
+10.7%
+
+Table 1: Frame classification accuracy and WER showing that the distilled single model performs about as well as the
+averaged predictions of 10 models that were used to create the soft targets. We have recently become aware of related work on learning a small acoustic model by matching the class probabilities of
+an already trained larger model [8]. However, they do the distillation at a temperature of 1 using a
+large unlabeled dataset and their best distilled model only reduces the error rate of the small model by 28% of the
+gap between the error rates of the large and small models when they are both trained with hard labels.

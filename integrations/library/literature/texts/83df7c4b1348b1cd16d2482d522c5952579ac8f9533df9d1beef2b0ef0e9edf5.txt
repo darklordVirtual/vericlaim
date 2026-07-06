@@ -1,0 +1,45 @@
+Completion
+
+duchampian
+
+Target Completion
+
+marcel du champ
+
+Target Completion
+
+Marcel Duchamp
+
+Target Completion
+
+MARCEL DUCHAMP
+
+Figure G.34: Formatted dataset example for TriviaQA. TriviaQA allows for multiple valid completions. Context
+
+Q: What school did burne hogarth establish? A:
+
+Target Completion
+
+School of Visual Arts
+
+Figure G.35: Formatted dataset example for WebQA
+
+Context
+
+Keinesfalls dürfen diese für den kommerziellen Gebrauch verwendet werden. =
+
+Target Completion
+
+In no case may they be used for commercial purposes. Figure G.36: Formatted dataset example for DeEn. This is the format for one- and few-shot learning, for this and other langauge tasks, the format for zero-shot learning is “Q: What is the {language} translation of {sentence} A: {translation}.”
+
+Context
+
+In no case may they be used for commercial purposes. =
+
+Target Completion
+
+Keinesfalls dürfen diese für den kommerziellen Gebrauch verwendet werden. Figure G.37: Formatted dataset example for EnDe
+
+Context
+
+Analysis of instar distributions of larval I. verticalis collected from a series of ponds also indicated that males were in more advanced instars than females.

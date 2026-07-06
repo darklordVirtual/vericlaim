@@ -1,0 +1,20 @@
+2019. Language models are unsupervised multitask learners. OpenAI Blog, 1(8):9. Rae et al. (2019)
+
+Jack W Rae, Anna Potapenko, Siddhant M Jayakumar, Chloe Hillier, and Timothy P
+Lillicrap. 2019. Compressive transformers
+for long-range sequence modelling. arXiv preprint. Raffel et al. (2019)
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J Liu. 2019. Exploring the limits of transfer learning with a unified text-to-text
+transformer. arXiv preprint arXiv:1910.10683. Raji and Yang (2019)
+
+Inioluwa Deborah Raji and Jingying Yang. 2019. ABOUT ML: Annotation and benchmarking on understanding and
+transparency of machine learning lifecycles. arXiv preprint arXiv:1912.06166. Rao (1961)
+
+C. Radhakrishna Rao. 1961. Generation of random
+permutations of given number of elements using random sampling numbers. Sankhyā: The Indian Journal of Statistics, Series A
+(1961-2002), 23(3):305–307. Rehurek et al. (2011)
+
+Radim Rehurek, Petr Sojka, et al. 2011. Gensim—statistical semantics in python. NLP Centre, Faculty of Informatics, Masaryk University. Rosset (2019)
+
+C Rosset. 2019.

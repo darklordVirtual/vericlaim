@@ -1,0 +1,9 @@
+Our GLUE results in Table9 are obtained from https://gluebenchmark.com/leaderboard and https://blog.openai.com/language-unsupervised. The GLUE benchmark includes the following datasets, the descriptions of which were originally summarized in Wang et al. (2018a):
+
+MNLI
+
+Multi-Genre Natural Language Inference is a large-scale, crowdsourced entailment classification task Williams et al. (2018). Given a pair of sentences, the goal is to predict whether the second sentence is an entailment, contradiction, or neutral with respect to the first one. QQP
+
+Quora Question Pairs is a binary classification task where the goal is to determine if two questions asked on Quora are semantically equivalent Chen et al. (2018). QNLI
+
+Question Natural Language Inference is a version of the Stanford Question Answering Dataset Rajpurkar et al. (2016) which has been converted to a binary classification task Wang et al. (2018a). The positive examples are (question, sentence) pairs which do contain the correct answer, and the negative examples are (question, sentence) from the same paragraph which do not contain the answer.

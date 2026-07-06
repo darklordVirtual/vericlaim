@@ -1,0 +1,15 @@
+Softmax Gating:
+
+A simple choice of non-sparse gating function (Jordan & Jacobs, 1994) is to multiply the input by a trainable weight matrix and then apply the function. (2)
+
+Noisy Top-K Gating:
+
+We add two components to the Softmax gating network: sparsity and noise. Before taking the softmax function, we add tunable Gaussian noise, then keep only the top k values, setting the rest to (which causes the corresponding gate values to equal ). The sparsity serves to save computation, as described above. While this form of sparsity creates some theoretically scary discontinuities in the output of gating function, we have not yet observed this to be a problem in practice. The noise term helps with load balancing, as will be discussed in Appendix A. The amount of noise per component is controlled by a second trainable weight matrix . (3)
+
+(4)
+
+(5)
+
+Training the Gating Network
+
+We train the gating network by simple back-propagation, along with the rest of the model. If we choose , the gate values for the top k experts have nonzero derivatives with respect to the weights of the gating network.

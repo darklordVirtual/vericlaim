@@ -1,0 +1,17 @@
+(2021)
+
+Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. 2021. Winogrande: An adversarial winograd schema challenge at scale. Communications of the ACM, 64(9):99–106. Sap et al. (2019)
+
+Maarten Sap, Hannah Rashkin, Derek Chen, Ronan LeBras, and Yejin Choi. 2019. Socialiqa: Commonsense reasoning about social interactions. arXiv preprint arXiv:1904.09728. Scao et al. (2022)
+
+Teven Le Scao, Angela Fan, Christopher Akiki, Ellie Pavlick, Suzana Ilić,
+Daniel Hesslow, Roman Castagné, Alexandra Sasha Luccioni, François
+Yvon, Matthias Gallé, et al. 2022. Bloom: A 176b-parameter open-access multilingual language model. arXiv preprint arXiv:2211.05100. Sennrich et al. (2015)
+
+Rico Sennrich, Barry Haddow, and Alexandra Birch. 2015. Neural machine translation of rare words with subword units. arXiv preprint arXiv:1508.07909. Shannon (1948)
+
+Claude E Shannon. 1948. A mathematical theory of communication. The Bell system technical journal, 27(3):379–423. Shannon (1951)
+
+Claude E Shannon. 1951. Prediction and entropy of printed english. Bell system technical journal, 30(1):50–64. Shazeer (2020)
+
+Noam Shazeer. 2020. Glu variants improve transformer.

@@ -1,0 +1,33 @@
+We attribute the difference in the performance of routers trained on the same dataset across different benchmarks to the differing distributions of evaluation data and training data. For each benchmark-dataset pair, we compute a benchmark-dataset similarity score in Table 5 indicating how well-represented evaluation data is in the training data, detailed in Appendix C. Arena
+Arena augmented with
+Arena augmented
+
+with
+
+with
+
+MT Bench
+
+0.6078
+
+0.6525
+
+-
+
+MMLU
+
+0.4823
+
+-
+
+0.5678
+
+GSM8K
+
+0.4926
+
+0.5335
+
+-
+
+Table 5: Benchmark-dataset similarity scores demonstrate a strong correlation between these scores and the performance of routers on the corresponding benchmarks, providing a way of quantitatively improving router performance. A higher benchmark-dataset similarity score is correlated with stronger performance on that benchmark for routers trained using the corresponding dataset, as shown in Section 5.1. Dataset augmentation, be it using golden-labeled or LLM-judge-labeled datasets, shifts the overall distribution of the preference data to be more in line with the benchmarks and increases the benchmark-dataset similarity score, which translates into improved performance.

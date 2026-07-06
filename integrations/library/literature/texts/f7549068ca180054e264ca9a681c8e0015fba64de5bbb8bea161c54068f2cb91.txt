@@ -1,0 +1,7 @@
+wearing a vest and snow boots steps onto the icy deck, removes a circle-shaped piece of plaster from the wall, and pulls out a tool from their winter suit to wrap their head around a headphone. Figure 7: Example output for Constrained Generation using the prompt from Madaan et al. (2023). The constraint that the output needs to contain all the concepts is not explicitly mentioned in the prompt for initial response generation. However, in the feedback & refine prompts, the constraint is implied by “what concepts from the concept list are missing from the sentence?” (refer to Figures 25 and 26 of Madaan et al. (2023) for the feedback & refine prompts). ⬇
+
+|\textbf{Concepts: [’vest’, ’snow’,’remove’, ’silhouette’, ’dunk’, ’step’, ’item’, ’toddler’, ’plaster’, ’wall’, ’piece’, ’tool’, ’circle’, ’pull’,’wrap’, ’headphone’, ’deck’, ’suit’, ’press’, ’mother’, ’pit’, ’cupcake’, ’priest’, ’rink’, ’counter’, ’rest’,’piano’, ’wine’, ’serve’, ’winter’]}|
+
+\par|\textbf{Write a reasonable paragraph that includes *ALL* of the above concepts.}|
+
+\parIn the winter wonderland, a mother dressed in a warm vest watched her toddler play in the snow.

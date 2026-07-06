@@ -1,0 +1,42 @@
+{"fsid": "arxiv_1710-03740", "n": 41, "overlap": 200, "source_sha256": "103e947d13722b36af8d720d8da16c2f22d43a9bd2f79a76bafc1c8f123c064a", "target": 1200}
+{"section": "", "seq": 0, "sha256": "8fdde9474e335f9002afa53c709f519268beeb8ae00adb94fb8cb2dcea7819d5"}
+{"section": "Mixed Precision Training", "seq": 1, "sha256": "8fd6ee673825cd1c337d101c5818762a1cd3de1078aa7bf1ad90114c425a0d5f"}
+{"section": "Mixed Precision Training", "seq": 2, "sha256": "282a5d4e9e5cd3c3259fe7e8098eb946fd131b981351b07107c1ff9802dd3a6a"}
+{"section": "1 Introduction", "seq": 3, "sha256": "83dba5f5f0d525f48567be35baeebabc870a815ce2daeb8fdc4ef64e47116564"}
+{"section": "1 Introduction", "seq": 4, "sha256": "6c561cff079051dc397c6bc90ba00cf6138cc55e158a6f64dd32ffb43a6dfc15"}
+{"section": "1 Introduction", "seq": 5, "sha256": "d5a8c60bbf5019286aaa3ac55a9bdc53107e00cba89443396e02e5d60c12c739"}
+{"section": "2 Related Work", "seq": 6, "sha256": "5f04158b1b462339a53a3a6588c014ab13900df956eea367cf18e7f0c99ea56a"}
+{"section": "2 Related Work", "seq": 7, "sha256": "3640760e6847b1eda07c7735f3ee7ae8b5c380bbeb8289550a252a51a8ef7497"}
+{"section": "2 Related Work", "seq": 8, "sha256": "1b52a41e3d9e2a70a509c8490b49ce3b8a629990bf96c6a89fc436b1acbb4334"}
+{"section": "3 Implementation", "seq": 9, "sha256": "df9de88ff2bd2890978cc0ee1b42fc2fe8ae44a244d9ff5c8141c55534e58acc"}
+{"section": "3.1 FP32 master copy of weights", "seq": 10, "sha256": "969257cdbf6dba5f4a2f37ca5979570a6a5a944ba9287096f195a215d19b79d1"}
+{"section": "3.1 FP32 master copy of weights", "seq": 11, "sha256": "620e31a2f4657f05a14084a3cd2cde20259697ca24f593708a7f958cf4179eaa"}
+{"section": "3.1 FP32 master copy of weights", "seq": 12, "sha256": "5122df4e1af945f2b7c4e01466269b46d530281b8080910a347db92f19657180"}
+{"section": "3.1 FP32 master copy of weights", "seq": 13, "sha256": "7240e237df50dae6b35b8ca1a04f9775516976d8213878ad10a8c6ae5fdcfedc"}
+{"section": "3.2 Loss scaling", "seq": 14, "sha256": "d23666aa6c34c8314a3cd17eaba06bc09633368b1af3bbd57a26527cc27ee662"}
+{"section": "3.2 Loss scaling", "seq": 15, "sha256": "8c15561d4b66ac3e24327903b079022acba3d1259c680542c737cab5915b0efb"}
+{"section": "3.2 Loss scaling", "seq": 16, "sha256": "83c19dd335f76c93f13db4d6ac0fdc405992576b1cb83a7d9fe9382f2ec5cac6"}
+{"section": "3.3 Arithmetic precision", "seq": 17, "sha256": "2afe90dbca31839835539b303595a844071ccc7e572544c64c6e0f169d4fa04c"}
+{"section": "3.3 Arithmetic precision", "seq": 18, "sha256": "397f09999f303771833274d6debd5c09a9c7166e78202290814eb06dee8e0a40"}
+{"section": "4 Results", "seq": 19, "sha256": "ec00f134be5b584757de3afa227a1a339d45e1d8bccbfdc5fb8693a39e8956b8"}
+{"section": "4 Results", "seq": 20, "sha256": "168793ec8f8806b25247184040078ddfba9c1ac9d1549c8adf356f5cbc46109c"}
+{"section": "4.1 CNNs for ILSVRC Classification", "seq": 21, "sha256": "6f407c791a539d820987443909c11a59cde8d9d5b80521bfbde6f3fd7650bbc4"}
+{"section": "4.1 CNNs for ILSVRC Classification", "seq": 22, "sha256": "c810c654bde5aae88a42d6392d7e9f0d53e8f7ce9b0cab9b795eb85be511c475"}
+{"section": "4.2 Detection CNNs", "seq": 23, "sha256": "d33e2028cdd361e23a85ff98f0c285e016866e0118685ae20d835e7ef60d154f"}
+{"section": "4.2 Detection CNNs", "seq": 24, "sha256": "6b062af246ab8ea81e8158f363d172725c56c3b35cc691c959c84b5b71a0a4c1"}
+{"section": "4.3 Speech Recognition", "seq": 25, "sha256": "b34fff4d2d20fffbfc5ed3c8c13d2ad0fe695d7980caf251208ef7d67dda4e39"}
+{"section": "4.3 Speech Recognition", "seq": 26, "sha256": "d97e9228e26700276fde3e7ce08af7f8c71e12130e35925dcb1799486d713585"}
+{"section": "4.4 Machine Translation", "seq": 27, "sha256": "2490761a5cae655c7a728c0b79ce8e29f18db44c68dc8a923efb7926d94d483c"}
+{"section": "4.5 Language Modeling", "seq": 28, "sha256": "cd3a651b572dc50eed750cdf74a56b25a0e036c347aebbe9fa80dd245a95d675"}
+{"section": "4.6 DCGAN results", "seq": 29, "sha256": "1f467d61595a289c14382eecbbb7d3071809f995e7f83b569d1f56907f244c75"}
+{"section": "4.6 DCGAN results", "seq": 30, "sha256": "1bd12cf118a110b23a9e29b15eb3ecb04b2684d598740e8f97ef32e617e1cd88"}
+{"section": "5 Conclusions and Future Work", "seq": 31, "sha256": "ca38c0a9bfaaace6b700e7dc304198e6c0975a6b1b990bc98d0dde81f6e6ded1"}
+{"section": "5 Conclusions and Future Work", "seq": 32, "sha256": "24bebf51cebd4fed1d4de3d2387ba9862a6cbb4cf7d8cce21ca013a0a18d99a3"}
+{"section": "References", "seq": 33, "sha256": "7da5e687deeb6aeee75a416fcce526ead314d7636dd24ecec00d5a80a13bafe1"}
+{"section": "References", "seq": 34, "sha256": "5616de442fbe9e8f40fa6ac06302b2ce61ab5d99f17e463fc6dd1db5c274e90c"}
+{"section": "References", "seq": 35, "sha256": "952511f631d2d9488066fcd70262626838e4664b056a8edf47c5574153490d6e"}
+{"section": "References", "seq": 36, "sha256": "f133962209e02368268e0ec4902e1e0343f338ac4eab623dd3a9b92bf9cbd278"}
+{"section": "References", "seq": 37, "sha256": "a89934a00deb1a3ce20a4367674ec3331b44f530e720587d29f94321ce288686"}
+{"section": "References", "seq": 38, "sha256": "7cb707fc8ce03dcc78302ff7965ea8102cbecc4063c97cf6142d5a126a3177b9"}
+{"section": "References", "seq": 39, "sha256": "62448388da6961f4844fe8256c41552f1dd6243c3a7634d327d28d86d3b37672"}
+{"section": "References", "seq": 40, "sha256": "5dca0bd44a954d9b426ca59e9adbd042edf619a508d52364e23a821e737d43f4"}

@@ -1,0 +1,19 @@
+arXiv preprint arXiv:1810.04805. Elman (1990)
+
+Jeffrey L Elman. 1990. Finding structure in time. Cognitive science, 14(2):179–211. Fried et al. (2022)
+
+Daniel Fried, Armen Aghajanyan, Jessy Lin, Sida Wang, Eric Wallace, Freda Shi,
+Ruiqi Zhong, Wen-tau Yih, Luke Zettlemoyer, and Mike Lewis. 2022. Incoder: A generative model for code infilling and synthesis. arXiv preprint arXiv:2204.05999. Gao et al. (2020)
+
+Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles
+Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, Shawn Presser,
+and Connor Leahy. 2020. The Pile: An 800gb dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027. Gao et al. (2021)
+
+Leo Gao, Jonathan Tow, Stella Biderman, Sid Black, Anthony DiPofi, Charles
+Foster, Laurence Golding, Jeffrey Hsu, Kyle McDonell, Niklas Muennighoff,
+Jason Phang, Laria Reynolds, Eric Tang, Anish Thite, Ben Wang, Kevin Wang,
+and Andy Zou. 2021. A framework for
+few-shot language model evaluation. Gehman et al. (2020)
+
+Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah A Smith. 2020. Realtoxicityprompts: Evaluating neural toxic degeneration in language
+models.

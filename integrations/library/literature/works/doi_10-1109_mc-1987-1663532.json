@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Brooks"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "no-silver-bullet-1987",
+    "fetched_at": "2026-07-06T01:06:02.632386+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "e2786e40683dffadb90d20342cb43ed1dbedc413030475da19b233ddcbef1572",
+  "title": "No Silver Bullet Essence and Accidents of Software Engineering",
+  "url": "https://doi.org/10.1109/mc.1987.1663532",
+  "venue": "Computer",
+  "work_id": "doi:10.1109/mc.1987.1663532",
+  "year": 1987
+}

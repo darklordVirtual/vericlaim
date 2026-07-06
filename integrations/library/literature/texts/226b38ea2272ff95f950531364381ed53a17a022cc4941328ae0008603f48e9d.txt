@@ -1,0 +1,76 @@
+Iteration
+Acronym
+Pronunciation
+Pron. (5)
+Spell. (5)
+Rel. (5)
+Pos. Con. (5)
+Total (25)
+
+1
+
+USTACCSF
+
+us-tacks-eff
+
+1
+
+1
+
+5
+
+3
+
+11
+
+2
+
+TACC-SIM
+
+tacks-sim
+
+4
+
+4
+
+5
+
+3
+
+17
+
+3
+
+TACCSF
+
+tacks-eff
+
+1
+
+2
+
+5
+
+3
+
+12
+
+4
+
+TACC-SIMF
+
+tack-simf
+
+4
+
+4
+
+5
+
+3
+
+17
+
+Table 10: Acronym generation results across iterations, showcasing how improvements in certain aspects (e.g., pronunciation and spelling) can be accompanied by losses in others, leading to fluctuating overall performance in multi-aspect feedback tasks like Acronym Generation. Non-monotonic increase in output quality for acronym generation
+
+For tasks with multi-aspect feedback like Acronym Generation, the output quality can fluctuate during the iterative process, improving on one aspect while losing out on another (Table 10). To address this, \ours’s feedback generates explicit numerical scores to capture the different aspects of output quality. This allows for a more balanced evaluation of outputs and the selection of the most appropriate one. The algorithm selects the best output based on the maximum score across all iterations, as described in Algorithm 1 (line 8).

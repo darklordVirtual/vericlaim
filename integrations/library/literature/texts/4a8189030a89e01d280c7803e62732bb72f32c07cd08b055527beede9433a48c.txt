@@ -1,0 +1,13 @@
+we trained four more computationally-matched baseline models with no sparsity:
+
+•
+
+MoE-1-Wide: The MoE layer consists of a single "expert" containing one ReLU-activated hidden layer of size 4096. •
+
+MoE-1-Deep: The MoE layer consists of a single "expert" containing four ReLU-activated hidden layers, each with size . •
+
+4xLSTM-512: We replace the MoE layer with two additional 512-unit LSTM layers. •
+
+LSTM-2048-512: The model contains one 2048-unit LSTM layer (and no MoE). The output of the LSTM is projected down to 512 dimensions (Sak et al., 2014). The next timestep of the LSTM receives the projected output. This is identical to one of the models published in (Jozefowicz et al., 2016). We re-ran it to account for differences in training regimen, and obtained results very similar to the published ones. Training:
+
+The models were trained on a cluster of 16 K40 GPUs using the synchronous method described in Section 3. Each batch consisted of a set of sentences totaling roughly 300,000 words. In the interest of time, we limited training to 10 epochs, (27,000 steps).

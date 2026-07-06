@@ -1,0 +1,20 @@
+Critch and Krueger (2020)
+
+Andrew Critch and David Krueger. 2020. AI Research Considerations for Human Existential Safety (ARCHES). Preprint at
+acritch.com/arches. Dai et al. (2019)
+
+Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V Le, and Ruslan
+Salakhutdinov. 2019. Transformer-xl: Attentive language models beyond a fixed-length
+context. arXiv preprint arXiv:1901.02860. Devlin et al. (2019)
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language
+understanding. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers). Association for
+Computational Linguistics. Endrédy and Novák (2013)
+
+István Endrédy and Attila Novák. 2013. More effective boilerplate removal – the GoldMiner algorithm. In Polibits. Ferguson and Schneier (2003)
+
+Niels Ferguson and Bruce Schneier. 2003. Practical Cryptography. John Wiley & Sons. Fiesler et al. (2020)
+
+Casey Fiesler, Nathan Beard, and Brian C Keegan. 2020.

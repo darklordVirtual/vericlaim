@@ -1,0 +1,5 @@
+If each gift bag is $2, then Christina will spend a total of 2 * 9 = $<<2*9=18>>18 on gift bags. Therefore, Christina will spend $18 on gift bags. Answer: \boxed{18}. (Incorrect)
+
+\par|\textbf{Review your previous answer and find problems with your answer.}|
+
+\parUpon reviewing my previous answer, I recognize a mistake. I incorrectly stated that Christina needs 0.75 gift bags per invited guest. The given information states that 1/4 of the attendees won’t show up, so the correct calculation should take this into account. To calculate the number of gift bags needed, we will multiply the number of invited guests by the ratio of attendees who will actually show up (75%). The number of invited guests is 16, and if 1/4 of them won’t show up, then the ratio of attendees who will show up is 1 - 1/4 = 3/4. Multiplying the number of invited guests by the ratio of attendees who will show up gives us: 16 * (3/4) = 12 gift bags needed. Since each gift bag costs $2, the total amount Christina will spend on gift bags is: 12 * $2 = $<<12*2=24>>24.\par|\textbf{Based on the problems you found, improve your answer.

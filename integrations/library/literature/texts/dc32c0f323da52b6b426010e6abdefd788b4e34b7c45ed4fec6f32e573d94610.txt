@@ -1,0 +1,15 @@
+arXiv preprint arXiv:2201.11903, 2022. [7]
+
+Ana Marasović, Iz Beltagy, Doug Downey, and Matthew E Peters. Few-shot self-rationalization with natural language prompts. arXiv preprint arXiv:2111.08284, 2021. [8]
+
+Andrew K Lampinen, Ishita Dasgupta, Stephanie CY Chan, Kory Matthewson,
+Michael Henry Tessler, Antonia Creswell, James L McClelland, Jane X Wang, and
+Felix Hill. Can language models learn from explanations in context? arXiv preprint arXiv:2204.02329, 2022. [9]
+
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Jacob Hilton, Reiichiro Nakano,
+Christopher Hesse, and John Schulman. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021. [10]
+
+Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. Commonsenseqa: A question answering challenge targeting commonsense
+knowledge. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pages 4149–4158, 2019.

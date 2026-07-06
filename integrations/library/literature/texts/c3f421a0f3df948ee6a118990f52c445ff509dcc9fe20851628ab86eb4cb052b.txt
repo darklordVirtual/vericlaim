@@ -1,0 +1,39 @@
+ooks like a fancy wheel, When resetting rotation from 360deg to 0 deg, It animating the wheel in anti-clockwise direction, How to Avoid this??? HTML
+
+<ul class="cm">
+
+<li><span>01</span></li>
+
+<li><span>02</span></li>
+
+<li><span>03</span></li>
+
+<li><span>04</span></li>
+
+<li><span>05</span></li>
+
+<li><span>06</span></li>
+
+<li><span>07</span></li>
+
+<li><span>08</span></li>
+
+</ul>
+
+SCSS
+
+$Brdr: #7d868c;
+
+*{
+
+-webkit-box-sizing: border-box;
+
+-moz-box-sizing: border-box;
+
+box-sizing: border-box;
+
+w can I solve it? Yesterday I added Google ReCAPTCHA v3 in one of my client’s Shopify website, but I don’t think that it is working because he is still reporting to receive several spam e-mails. I’ve followed Google’s guide, but I don’t know what to do for "Verifying user response" part of the guide. I’m not an expert in coding. Basically I’ve added this code to the theme.liquid file
+
+<script src="https://www.google.com/recaptcha/api.js?render=*site key provided by google*"></script>
+
+And then I’ve added th

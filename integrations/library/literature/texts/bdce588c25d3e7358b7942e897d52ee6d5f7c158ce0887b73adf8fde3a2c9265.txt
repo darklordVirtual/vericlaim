@@ -1,0 +1,25 @@
+1 human human 0 Sep 10 10:56 file2.txt
+
+head -n 5 /proc/meminfo
+
+Here’s the output:
+
+MemTotal: 164928 kB
+
+MemFree: 140604 kB
+
+Buffers: 48 kB
+
+Cached: 19768 kB
+
+SwapCached: 0 kB
+
+◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

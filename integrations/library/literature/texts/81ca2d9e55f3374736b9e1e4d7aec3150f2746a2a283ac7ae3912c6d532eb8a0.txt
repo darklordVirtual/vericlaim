@@ -1,0 +1,7 @@
+C.1 8-Million-Operations-per-Timestep Models
+
+Model Architecture:
+
+Our model consists of five layers: a word embedding layer, a recurrent Long Short-Term Memory (LSTM) layer (Hochreiter & Schmidhuber, 1997; Gers et al., 2000), a MoE layer, a second LSTM layer, and a softmax layer. The dimensionality of the embedding layer, the number of units in each LSTM layer, and the input and output dimensionality of the MoE layer are all equal to 512. For every layer other than the softmax, we apply drouput (Zaremba et al., 2014) to the layer output, dropping each activation with probability , otherwise dividing by . After dropout, the output of the previous layer is added to the layer output. This residual connection encourages gradient flow (He et al., 2015). MoE Layer Architecture:
+
+Each expert in the MoE layer is a feed forward network with one ReLU-activated hidden layer of size 1024 and an output layer of size 512. Thus, each expert contains parameters. The output of the MoE layer is passed through a sigmoid function before dropout.

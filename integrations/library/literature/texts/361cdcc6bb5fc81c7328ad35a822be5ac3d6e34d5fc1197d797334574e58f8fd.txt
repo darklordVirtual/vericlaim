@@ -1,0 +1,21 @@
+Q: What shouldn’t you do when talking about sports with colleagues from another country? A: Criticizing the sports of your colleagues’ country. Q: Which is typically a friendly topic in most places according to the author? A: Sports. Q: Why are people from Asia more private in their conversation with others? A: They don’t want to have their good relationship with others harmed by informal conversation. Q: The author considers politics and religion _ . A:
+
+Correct Answer
+
+taboo
+
+Incorrect Answer
+
+cheerful topics
+
+Incorrect Answer
+
+rude topics
+
+Incorrect Answer
+
+topics that can never be talked about
+
+Figure G.1: Formatted dataset example for RACE-h. When predicting, we normalize by the unconditional probability of each answer as described in 2. Context
+
+anli 2: anli 2: The Gold Coast Hotel & Casino is a hotel and casino located in Paradise, Nevada. This locals’ casino is owned and operated by Boyd Gaming. The Gold Coast is located one mile () west of the Las Vegas Strip on West Flamingo Road. It is located across the street from the Palms Casino Resort and the Rio All Suite Hotel and Casino. Question: The Gold Coast is a budget-friendly casino. True, False, or Neither?

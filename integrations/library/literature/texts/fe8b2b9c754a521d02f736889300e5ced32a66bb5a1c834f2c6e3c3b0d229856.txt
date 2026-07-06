@@ -1,0 +1,3 @@
+The PhilPapers (PP) are indexed using OAI-MPH, the Open Archives Initiative Protocol for Metadata Harvesting. As such, the first step to collect the data is to get the XML for all links. This was done using pyoaiharvester.232323https://github.com/vphill/pyoaiharvester/
+
+From that, each publication is downloaded. Some entries do not exist, or have been removed by the authors. Papers with text are extracted using pdfbox, and papers with non-machine readable text are ignored. Non-English language publications are kept, and the metadata reflects the language reported by the OAI-MPH XML. The text is filtered with pdf_filter.py from PDFextract, and we discard any papers with less than 1000 characters.242424https://github.com/sdtblck/PDFextract

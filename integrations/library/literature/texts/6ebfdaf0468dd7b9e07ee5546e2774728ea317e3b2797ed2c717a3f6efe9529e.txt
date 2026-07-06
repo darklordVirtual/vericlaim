@@ -1,0 +1,9 @@
+One key failure case was answers in the form of “the answer must be something that is <question property>. <answer> is <question property>. Therefore, the correct answer is <answer>.” In these cases, the model fails to explain why the answer that it has chosen satisfies the question property. Q: What might someone get from learning about science? Answer Choices:
+(a) headache
+(b) see things differently
+(c) increased knowledge
+(d) accidents
+(e) appreciation of nature
+A: The answer must be something that someone would get from learning about
+science. Learning about science would increase knowledge. Therefore, the
+answer is increased knowledge (c). These rationales, while perhaps useful to the model, read to us as opaque and unexplanatory.

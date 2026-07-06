@@ -1,0 +1,22 @@
+Wei et al. [2021]
+
+J. Wei, M. Bosma, V. Y. Zhao, K. Guu, A. W. Yu, B. Lester, N. Du, A. M. Dai,
+and Q. V. Le. Finetuned language models are zero-shot learners. arXiv preprint arXiv:2109.01652, 2021. Wei et al. [2022]
+
+J. Wei, X. Wang, D. Schuurmans, M. Bosma, F. Xia, E. H. Chi, Q. V. Le, D. Zhou,
+et al. Chain-of-thought prompting elicits reasoning in large language
+models. In Advances in Neural Information Processing Systems, 2022. Wolf et al. [2019]
+
+T. Wolf, L. Debut, V. Sanh, J. Chaumond, C. Delangue, A. Moi, P. Cistac,
+T. Rault, R. Louf, M. Funtowicz, et al. Huggingface’s transformers: State-of-the-art natural language
+processing. arXiv preprint arXiv:1910.03771, 2019. Wortsman et al. [2023]
+
+M. Wortsman, T. Dettmers, L. Zettlemoyer, A. Morcos, A. Farhadi, and
+L. Schmidt. Stable and low-precision training for large-scale vision-language
+models. arXiv preprint arXiv:2304.13013, 2023. Xiao et al. [2022]
+
+G. Xiao, J. Lin, M. Seznec, J. Demouth, and S. Han. Smoothquant: Accurate and efficient post-training quantization for
+large language models. arXiv preprint arXiv:2211.10438, 2022. Xie et al. [2022]
+
+T. Xie, C. H. Wu, P. Shi, R. Zhong, T. Scholak, M. Yasunaga, C.-S. Wu,
+M.

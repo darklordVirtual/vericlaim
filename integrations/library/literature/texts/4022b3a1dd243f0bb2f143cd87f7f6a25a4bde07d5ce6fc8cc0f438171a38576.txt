@@ -1,0 +1,18 @@
+arXiv preprint arXiv:2106.09685, 2021. Iyer et al. [2022]
+
+S. Iyer, X. V. Lin, R. Pasunuru, T. Mihaylov, D. Simig, P. Yu, K. Shuster,
+T. Wang, Q. Liu, P. S. Koura, et al. Opt-iml: Scaling language model instruction meta learning through the
+lens of generalization. arXiv preprint arXiv:2212.12017, 2022. Köksal et al. [2023]
+
+A. Köksal, T. Schick, A. Korhonen, and H. Schütze. Longform: Optimizing instruction tuning for long text generation with
+corpus extraction. arXiv preprint arXiv:2304.08460, 2023. Köpf et al. [2023]
+
+A. Köpf, Y. Kilcher, D. von Rütte, S. Anagnostidis, Z.-R. Tam,
+K. Stevens, A. Barhoum, N. M. Duc, O. Stanley, R. Nagyfi, et al. Openassistant conversations–democratizing large language model
+alignment. arXiv preprint arXiv:2304.07327, 2023. LAION [2023]
+
+LAION. Open-instruction-generalist dataset. https://github.com/LAION-AI/Open-Instruction-Generalist, 2023. Lester et al. [2021]
+
+B. Lester, R. Al-Rfou, and N. Constant. The power of scale for parameter-efficient prompt tuning. arXiv preprint arXiv:2104.08691, 2021. Li and Liang [2021]
+
+X. L. Li and P. Liang. Prefix-tuning: Optimizing continuous prompts for generation. arXiv preprint arXiv:2101.00190, 2021.

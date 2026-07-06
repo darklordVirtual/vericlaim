@@ -1,0 +1,25 @@
+In all settings, we preprend the string Answer these questions:\n to the list of questions and answers. Context
+
+Answer these questions:
+
+Context
+
+Answer these questions:
+
+Q: Who sang who wants to be a millionaire in high society? Q: In Scotland a bothy/bothie is a? A: Frank Sinatra
+
+A: House
+
+Q: Who wrote the book the origin of species? Q: The ancient city of Troy is located in what modern country? A:
+
+A:
+
+Target
+
+Charles Darwin
+
+Target
+
+Turkey
+
+Figure 3: Formatted dataset example for Natural Questions (left) & TriviaQA (right).

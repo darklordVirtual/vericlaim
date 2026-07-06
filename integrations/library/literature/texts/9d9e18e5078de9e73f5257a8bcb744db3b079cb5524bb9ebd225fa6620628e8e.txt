@@ -1,0 +1,17 @@
+12: On chip, compute . 13: On chip, compute . 14: On chip, compute dropout mask where
+each entry has value with probability
+and value 0 with probability . 15: On chip, compute
+(pointwise multiply). 16: On chip, compute
+. 17: On chip, compute
+. 18: On chip, compute
+(pointwise multiply). 19: On chip, compute . 20: On chip, compute . 21: Write
+to HBM. 22: On chip, compute . 23: end for
+
+24: Write to HBM. 25: end for
+
+26: Return . We see that similar to the forward pass, the backward pass performs
+FLOPs and only requires extra memory beyond inputs, output, output
+gradient, and input gradients. We analyze the IO-complexity of the backward pass, similar to the forward pass (Theorem 2). Theorem 5. Let be the sequence length, be the head dimension, and be size of
+SRAM with . Standard attention (Algorithm ) backward pass requires HBM
+accesses, while FlashAttention backward pass (Algorithm 4) requires
+HBM accesses. The proof is in Appendix C.

@@ -1,0 +1,101 @@
+In this section, we present a comprehensive comparison of the performance of \ourswith other few-shot models and fine-tuned baselines across a range of tasks, including mathematical reasoning and programming tasks. Tables 8 and 7 display the performance of these models on the PIE dataset and GSM tasks, respectively. Our analysis demonstrates the effectiveness of different model architectures and training techniques in tackling complex problems. Method
+
+Solve Rate
+
+Cobbe et al. (2021)
+
+OpenAI 6B
+
+20.0
+
+Wei et al. (2022)
+
+CoT w/ Codex
+
+65.6
+
+Gao et al. (2022)
+
+PaL w/ Codex
+
+72.0
+
+PaL w/ GPT-3
+
+52.0
+
+PaL w/ GPT-3.5
+
+56.8
+
+PaL w/ ChatGPT
+
+74.2
+
+PaL w/ GPT-4
+
+93.3
+
+Welleck et al. (2022)
+
+Self-Correct w/ GPT-3
+
+45.9
+
+Self-Correct (fine-tuned)
+
+24.3
+
+This work
+
+\oursw/ GPT-3
+
+55.7
+
+\oursw/ GPT-3.5
+
+62.4
+
+\oursw/ ChatGPT
+
+75.1
+
+\oursw/ GPT-4
+
+94.5
+
+Table 7: Performance comparison of models on math reasoning (Math Reasoning). Method
+
+%Opt)
+
+Puri et al. (2021)
+
+Human References
+
+38.2
+
+OpenAI Models: OpenAI (2022, 2023)
+
+Codex
+
+13.1
+
+GPT-3.5
+
+14.8
+
+ChatGPT
+
+22.2
+
+GPT-4
+
+27.3
+
+Nijkamp et al. (2022)
+
+CodeGen-16B
+
+1.1
+
+Berger et al.

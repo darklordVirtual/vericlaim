@@ -1,0 +1,53 @@
+95% confidence intervals are shown (). After GPT-4, Guanaco 33B and 65B win the most matches, while Guanaco 13B scores better than Bard. Model
+Size
+Elo
+
+GPT-4
+
+-
+
+1348 1
+
+Guanaco 65B
+
+41 GB
+
+1022 1
+
+Guanaco 33B
+
+21 GB
+
+992 1
+
+Vicuna 13B
+
+26 GB
+
+974 1
+
+ChatGPT
+
+-
+
+966 1
+
+Guanaco 13B
+
+10 GB
+
+916 1
+
+Bard
+
+-
+
+902 1
+
+Guanaco 7B
+
+6 GB
+
+879 1
+
+that are tuned by backpropagating gradients through the quantized weights. QLoRA reduces the average memory requirements of finetuning a 65B parameter model from 780GB of GPU memory to 48GB without degrading the runtime or predictive performance compared to a 16-bit fully finetuned baseline. This marks a significant shift in accessibility of LLM finetuning: now the largest publicly available models to date finetunable on a single GPU. Using QLoRA, we train the Guanaco family of models, with the second best model reaching 97.8% of the performance level of ChatGPT on the Vicuna [10] benchmark, while being trainable in less than 12 hours on a single consumer GPU; using a single professional GPU over 24 hours we achieve 99.3% with our largest model, essentially closing the gap to ChatGPT on the Vicuna benchmark.

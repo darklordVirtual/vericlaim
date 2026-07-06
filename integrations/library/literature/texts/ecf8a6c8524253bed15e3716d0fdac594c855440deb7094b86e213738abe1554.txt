@@ -1,0 +1,183 @@
+is unsupervised and task-agnostic, these results compare favorably to existing approaches that require task-specific training, or fine-tuning with thousands of examples (e.g., on GSM8K). Method
+
+AddSub
+
+MultiArith
+
+ASDiv
+
+AQuA
+
+SVAMP
+
+GSM8K
+
+Previous SoTA
+
+94.9a
+
+60.5a
+
+75.3b
+
+37.9c
+
+57.4d
+
+35e / 55g
+
+UL2-20B
+
+CoT-prompting
+
+18.2
+
+10.7
+
+16.9
+
+23.6
+
+12.6
+
+4.1
+
+Self-consistency
+
+24.8 (+6.6)
+
+15.0 (+4.3)
+
+21.5 (+4.6)
+
+26.9 (+3.3)
+
+19.4 (+6.8)
+
+7.3 (+3.2)
+
+LaMDA-137B
+
+CoT-prompting
+
+52.9
+
+51.8
+
+49.0
+
+17.7
+
+38.9
+
+17.1
+
+Self-consistency
+
+63.5 (+10.6)
+
+75.7 (+23.9)
+
+58.2 (+9.2)
+
+26.8 (+9.1)
+
+53.3 (+14.4)
+
+27.7 (+10.6)
+
+PaLM-540B
+
+CoT-prompting
+
+91.9
+
+94.7
+
+74.0
+
+35.8
+
+79.0
+
+56.5
+
+Self-consistency
+
+93.7 (+1.8)
+
+99.3 (+4.6)
+
+81.9 (+7.9)
+
+48.3 (+12.5)
+
+86.6 (+7.6)
+
+74.4 (+17.9)
+
+GPT-3
+
+Code-davinci-001
+
+CoT-prompting
+
+57.2
+
+59.5
+
+52.7
+
+18.9
+
+39.8
+
+14.6
+
+Self-consistency
+
+67.8 (+10.6)
+
+82.7 (+23.2)
+
+61.9 (+9.2)
+
+25.6 (+6.7)
+
+54.5 (+14.7)
+
+23.4 (+8.8)
+
+GPT-3
+
+Code-davinci-002
+
+CoT-prompting
+
+89.4
+
+96.2
+
+80.1
+
+39.8
+
+75.8
+
+60.1
+
+Self-consistency
+
+91.6 (+2.2)
+
+100.0 (+3.8)
+
+87.8 (+7.6)
+
+52.0 (+12.2)
+
+86.8 (+11.0)
+
+78.0 (+17.9)
+
+Table 2: Arithmetic reasoning accuracy by self-consistency compared to chain-of-thought prompting (Wei et al., 2022).

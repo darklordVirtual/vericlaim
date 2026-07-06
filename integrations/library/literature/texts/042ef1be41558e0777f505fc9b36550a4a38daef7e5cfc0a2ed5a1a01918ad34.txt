@@ -1,0 +1,20 @@
+In International Conference on Machine Learning, pages
+5156–5165. PMLR, 2020. Kitaev et al. [2020]
+
+Nikita Kitaev, Łukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. In The International Conference on Machine Learning (ICML),
+2020. Lan et al. [2020]
+
+Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and
+Radu Soricut. Albert: A lite BEDRT for self-supervised learning of language
+representations. In The International Conference on Learning Representations
+(ICLR), 2020. Li et al. [2020]
+
+Mingzhen Li, Yi Liu, Xiaoyan Liu, Qingxiao Sun, Xin You, Hailong Yang, Zhongzhi
+Luan, Lin Gan, Guangwen Yang, and Depei Qian. The deep learning compiler: A comprehensive survey. IEEE Transactions on Parallel and Distributed Systems,
+32(3):708–727, 2020. Likhosherstov et al. [2020]
+
+Valerii Likhosherstov, Krzysztof Choromanski, Jared Davis, Xingyou Song, and
+Adrian Weller. Sub-linear memory: How to make performers slim. arXiv preprint arXiv:2012.11346, 2020. Lin et al. [2017]
+
+Ji Lin, Yongming Rao, Jiwen Lu, and Jie Zhou. Runtime neural pruning. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus,
+S. Vishwanathan, and R.

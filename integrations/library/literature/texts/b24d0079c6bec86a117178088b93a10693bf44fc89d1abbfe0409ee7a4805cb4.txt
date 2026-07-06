@@ -1,0 +1,17 @@
+The attention mechanism described in GNMT (Wu et al., 2016) involves a learned “Attention Function" which takes a “source vector" and a “target vector" , and must be computed for every source time step and target time step . In GNMT, the attention function is implemented as a feed forward neural network with a hidden layer of size . It can be expressed as:
+
+(21)
+
+Where and are trainable weight matrices and is a trainable weight vector. For performance reasons, in our models, we used a slightly different attention function:
+
+(22)
+
+With our attention function, we can simultaneously compute the attention function on multiple source time steps and multiple target time steps using optimized matrix multiplications. We found little difference in quality between the two functions. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

@@ -1,0 +1,9 @@
+Moreover, they show strong performance across multiple strong / weak model pairs without requiring retraining. To summarize, we make the following contributions:
+
+•
+
+We propose a learning framework for routers that leverages human preference data and data augmentation techniques, achieving over 2x cost savings on popular benchmarks with minimal impact on response quality. •
+
+We demonstrate that our approach enables routers to generalize to unseen data while maintaining strong performance across multiple LLMs, allowing a single trained router to be effective across a wide range of use cases. •
+
+We open source our framework for training, serving, and evaluating LLM routers, allowing users to easily train their own routers and compare router performance across benchmarks.

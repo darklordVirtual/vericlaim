@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "William F. Sharpe"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "capm-1964",
+    "fetched_at": "2026-07-06T01:07:42.218886+00:00",
+    "method": "crossref-title"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "e1140aab828cc4075be67e6cfbd4b04d918eccf190b3e00e65e4105a498bd7e1",
+  "title": "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk",
+  "url": "https://doi.org/10.2307/2977928",
+  "venue": "The Journal of Finance",
+  "work_id": "doi:10.2307/2977928",
+  "year": 1964
+}

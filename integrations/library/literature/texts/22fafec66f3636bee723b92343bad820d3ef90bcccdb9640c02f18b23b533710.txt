@@ -1,0 +1,1 @@
+In this section, we present further details about the hybrid model and data parallelism and handling random number generation.

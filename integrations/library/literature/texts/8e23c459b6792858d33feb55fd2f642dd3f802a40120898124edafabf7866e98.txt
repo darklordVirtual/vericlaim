@@ -1,0 +1,7 @@
+The stopping condition either stops at a specified timestep , or extracts a stopping indicator (e.g. a scalar stop score) from the feedback. In practice, the model can be prompted to generate a stopping indicator in , and the condition is determined per-task. To inform the model about the previous iterations, we retain the history of previous feedback and outputs by appending them to the prompt. Intuitively,
+this allows the model to learn from past mistakes and avoid repeating them. More precisely, Equation 3 is in fact instantiated as:
+
+(4)
+
+Finally, we use the last refinement as the output of \ours. Algorithm 1 summarizes \ours, and Figure 2 shows an example of \oursin the Dialogue Response Generation (Mehri and Eskenazi, 2020) and Code Optimization (Madaan et al., 2023) tasks. Appendix S provides examples of the
+, , prompts for various tasks. The key idea is that \oursuses the same underlying LLM to generate, get feedback, and refine its outputs given its own feedback. It relies only on supervision present in the few-shot examples.

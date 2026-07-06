@@ -1,0 +1,33 @@
+feeder position at the Magic Unicorn Corporation:
+
+Dear recruiter,
+
+I have known ___ for two years, and I believe that she would be an excellent dragon feeder for the Magic Unicorn Corporation. ___ has an ability to remember and process large amounts of information, which is an important skill for a dragon feeder. ___, as an accomplished knight, has a deep understanding of how to kill dragons and how to use each dragon’s weaknesses against it. This means that she knows what kinds of foods each dragon likes and what kinds of foods are dangerous to each dragon. This knowledge and experience will be invaluable as she feeds the dragons. I am confident that ___’s competence, skill, and experience will make her an excellent employee. Please contact me at (___) ___-___ if you have any questions. I look forward to hearing from you. Best regards,
+
+Honorable Knight
+
+Sir George
+
+⬇
+
+1def solve(a: float,b: float, c: float):
+
+2 """finds real roots of ax^2+bx+c"""
+
+3 #discriminant
+
+4 d = b**2-4*a*c
+
+5 if d > 0:
+
+6 return (-b+math.sqrt(d))/(2*a), (-b-math.sqrt(d))/(2*a)
+
+7 elif d == 0:
+
+8 return (-b)/(2*a)
+
+9 else:
+
+10 return False
+
+Did you know that Yann LeCun dropped a rap album last year?

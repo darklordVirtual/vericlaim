@@ -1,0 +1,29 @@
+The two curves each correspond to critique with temperature and . The iteration 0 number is measured from the original input code piece from CodeNet. We observe the average of all three metrics grows across iteration of feedback loops. A diverse generation of a higher temperature in the critique leads to more edits to improve the meaningfulness of variable names and to add comments. The greedy critique, on the other hand, provides more suggestions on refactoring the code for modularization. Figure 15 provides an example of code-readability improving over iterations. In Table 14, we measure human performance on all three metrics and compare with \ourslast iteration output. At , \oursproduces more meaning variables, more function units and slightly more comments compared to the human annotators on average. At , \oursproduces less meaningful variables, less comments per line but even more function units. Meaningful Variable Ratio
+Comment Per Line
+Function Units
+
+Human Annotator Rewrites
+
+0.653
+
+0.24
+
+0.70
+
+\ours(T = 0.0)
+
+0.628
+
+0.12
+
+1.41
+
+\ours(T = 0.7)
+
+0.700
+
+0.25
+
+1.33
+
+Table 14: Human v.s. \oursperformance on 60-example subset.

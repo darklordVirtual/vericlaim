@@ -1,0 +1,8 @@
+Colette Aram, 16, was walking to her boyfriend’s house in Keyworth, Nottinghamshire, on 30 October 1983 when she disappeared. Her body was later found in a field close to her home. Paul Stewart Hutchinson, 50, has been charged with murder and is due before Nottingham magistrates later."
+
+Based on this premise, can we conclude the hypothesis "Paul Stewart Hutchinson is accused of having stabbed a girl." is true? A: The premise does not say Paul Stewart Hutchinson "stabbed" this girl. The answer is no. Premise:
+
+"Herceptin was already approved to treat the sickest breast cancer patients, and the company said, Monday, it will discuss with federal regulators the possibility of prescribing the drug for more breast cancer patients."
+
+Based on this premise, can we conclude the hypothesis "Herceptin can be used to treat breast cancer." is true? A: "Herceptin was approved to treat breast cancer" implies that "Herceptin can be used to treat breast cancer". The answer is yes. Table 21:
+Few-shot exemplars for BoolQ (closed-book setting). Q: does system of a down have 2 singers? A: System of a Down currently consists of Serj Tankian, Daron Malakian, Shavo Odadjian and John Dolmayan.

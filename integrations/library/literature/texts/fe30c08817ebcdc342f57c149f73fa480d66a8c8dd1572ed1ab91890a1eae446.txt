@@ -1,0 +1,23 @@
+The main challenge in making attention memory-efficient is the softmax that
+couples the columns of (and columns of ). Our approach is to compute the softmax normalization constant separately to
+decouple the columns. This technique [60] has been used in the
+literature [51, 66] to show that attention
+computation does not need quadratic extra memory (though the number of
+HBM accesses is still quadratic, resulting in slow run-time). For simplicity, we omit here the max-shifting step during softmax. The full algorithm in Section B.3 contains all the steps. Recall that given input sequences , we want to
+compute the attention output :
+
+We have that where and are the -th and
+-th columns of and respectively. Define the normalization constants of softmax:
+
+(1)
+
+Let be the -th column of , then the -th columns of the output is
+
+(2)
+
+We see that once is computed, we can compute without extra memory
+by repeatedly summing . Therefore the forward pass can be computed with extra memory:
+
+1. Compute for all according to Eq. 1, which takes
+extra memory. 2. Compute for all according to Eq. 2, which takes
+extra memory.

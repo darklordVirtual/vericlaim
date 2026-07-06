@@ -1,0 +1,18 @@
+[CoH]
+
+CoHere LLM API. https://cohere.com/. Accessed: 2023-03-31. [Cosa]
+
+Cost estimation of using GPT-3 for real applications. https://www.semianalysis.com/p/the-inference-cost-of-search-disruption. Accessed: 2023-03-31. [Cosb]
+
+Cost estimation of using GPT-3 for real applications. https://neoteric.eu/blog/how-much-does-it-cost-to-use-gpt-models-gpt-3-pricing-explained. Accessed: 2023-03-31. [CZZ20]
+
+Lingjiao Chen, Matei Zaharia, and James Y Zou. Frugalml: How to use ml prediction apis more accurately and cheaply. Advances in neural information processing systems,
+33:10685–10696, 2020. [CZZ22]
+
+Lingjiao Chen, Matei Zaharia, and James Zou. Efficient online ml api selection for multi-label classification
+tasks. In International Conference on Machine Learning, pages
+3716–3746. PMLR, 2022. [DGSG22]
+
+Dheeru Dua, Shivanshu Gupta, Sameer Singh, and Matt Gardner. Successive prompting for decomposing complex questions. arXiv preprint arXiv:2212.04092, 2022. [DSP+17]
+
+Ali Diba, Vivek Sharma, Ali Pazandeh, Hamed Pirsiavash, and Luc Van Gool. Weakly supervised cascaded convolutional networks.

@@ -1,0 +1,19 @@
+Hooker [2020]
+
+Sara Hooker. The hardware lottery. arXiv preprint arXiv:2009.06489, 2020. Hua et al. [2022]
+
+Weizhe Hua, Zihang Dai, Hanxiao Liu, and Quoc V Le. Transformer quality in linear time. arXiv preprint arXiv:2202.10447, 2022. Ivanov et al. [2021]
+
+Andrei Ivanov, Nikoli Dryden, Tal Ben-Nun, Shigang Li, and Torsten Hoefler. Data movement is all you need: A case study on optimizing
+transformers. Proceedings of Machine Learning and Systems, 3:711–732, 2021. Jia and Van Sandt [2021]
+
+Zhe Jia and Peter Van Sandt. Dissecting the Ampere GPU architecture via microbenchmarking. GPU Technology Conference, 2021. Jia et al. [2018]
+
+Zhe Jia, Marco Maggioni, Benjamin Staiger, and Daniele P Scarpazza. Dissecting the nvidia Volta GPU architecture via
+microbenchmarking. arXiv preprint arXiv:1804.06826, 2018. Jia et al. [2019]
+
+Zhe Jia, Blake Tillman, Marco Maggioni, and Daniele Paolo Scarpazza. Dissecting the graphcore IPU architecture via microbenchmarking. arXiv preprint arXiv:1912.03413, 2019. Johnson et al. [2016]
+
+Alistair EW Johnson, Tom J Pollard, Lu Shen, Li-wei H Lehman, Mengling Feng,
+Mohammad Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and
+Roger G Mark.

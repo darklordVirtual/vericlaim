@@ -1,0 +1,17 @@
+Is it a common or widely-used term, or is it obscure or unfamiliar? Some of these criteria are difficult to quantify, and are a matter of human preference. As with other modules, we leverage the superior instruction following capabilities of modern LLMs to instead provide a few demonstrations of each task. Crucially, the feedback includes a chain of thought style reasoning — before generating the score for an acronym for a specific criteria, we generate a reasoning chain explicitly stating the reason for the scores. We use human evaluation to judge the final quality of the acronyms. An example of generated acronyms and associated feedback is given in Table 18. Criteria
+
+output from GPT3: STSLWN
+
+output from \ours: Seq2Seq
+
+Ease of pronunciation
+
+Pronounced as ess-tee-ess-ell-double-you-enn which is very difficult. Pronounced as seq-two-seq which is easy. Ease of spelling
+
+Very difficult to spell. Easy to spell. Relation to title
+
+No relation to the title. Mentions sequence which is somewhat related to the title. Positive connotation
+
+Meaningless acronym. Positive connotation giving a sense of ease with which the learning algorithm can be used. Well-known
+
+Not a well-known acronym.

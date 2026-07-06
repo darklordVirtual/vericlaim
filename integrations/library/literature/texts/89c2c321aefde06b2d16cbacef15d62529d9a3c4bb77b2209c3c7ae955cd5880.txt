@@ -1,0 +1,12 @@
+We introduce a principled framework for learning a binary routing function from preference data. Our approach defines using two key components:
+
+1) Win Prediction Model: This model estimates the probability that a strong model in will outperform a weak model in for a given query . This probability is denoted by , where represents the model parameters. These parameters are learned
+by maximizing the likelihood of the observed preference data:
+
+(1)
+
+By optimizing this likelihood, the model captures the comparative strengths and weaknesses of the two model classes across different query types. In Section 4.2, we discuss several approaches for parameterizing this win prediction model. 2) Cost Threshold : This threshold translates the predicted winning probability into a routing decision between and . Given a query , the routing decision is defined as:
+
+(2)
+
+The threshold controls the trade-off between quality and cost: a higher value of enforces stricter cost constraints by favoring weak models more often, while a lower biases toward higher-quality (but more expensive) strong models.

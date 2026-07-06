@@ -1,0 +1,11 @@
+As discussed in section 4, for load-balancing purposes, we want to define an additional loss function to encourage experts to receive roughly equal numbers of training examples. Unfortunately, the number of examples received by an expert is a discrete quantity, so it can not be used in back-propagation. Instead, we define a smooth estimator of the number of examples assigned to each expert for a batch of inputs. The smoothness allows us to back-propagate gradients through the estimator. This is the purpose of the noise term in the gating function. We define as the probability that is nonzero, given a new random choice of noise on element , but keeping the already-sampled choices of noise on the other elements. To compute , we note that the is nonzero if and only if is greater than the -greatest element of excluding itself. The probability works out to be:
+
+(8)
+
+Where means the kth highest component of , excluding component . Simplifying, we get:
+
+(9)
+
+Where is the CDF of the standard normal distribution. (10)
+
+We can now define the load loss to be the square of the coefficient of variation of the load vector, multiplied by a hand-tuned scaling factor .

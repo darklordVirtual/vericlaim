@@ -1,0 +1,18 @@
+In Proceedings of the 2017 Conference on Empirical Methods in
+Natural Language Processing, pages 670–680, Copenhagen, Denmark. Association for Computational Linguistics. Dai and Le (2015)
+
+Andrew M Dai and Quoc V Le. 2015. Semi-supervised sequence learning. In Advances in neural information processing systems, pages
+3079–3087. Deng et al. (2009)
+
+J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. 2009. ImageNet: A Large-Scale Hierarchical Image Database. In CVPR09. Dolan and Brockett (2005)
+
+William B Dolan and Chris Brockett. 2005. Automatically constructing a corpus of sentential paraphrases. In Proceedings of the Third International Workshop on
+Paraphrasing (IWP2005). Fedus et al. (2018)
+
+William Fedus, Ian Goodfellow, and Andrew M Dai. 2018. Maskgan: Better text generation via filling in the_. arXiv preprint arXiv:1801.07736. Hendrycks and Gimpel (2016)
+
+Dan Hendrycks and Kevin Gimpel. 2016. Bridging nonlinearities and
+stochastic regularizers with gaussian error linear units. CoRR, abs/1606.08415. Hill et al. (2016)
+
+Felix Hill, Kyunghyun Cho, and Anna Korhonen. 2016. Learning distributed representations of sentences from unlabelled
+data.

@@ -1,0 +1,18 @@
+Springer, 2001. HZJ+ [19]
+
+Po-Sen Huang, Huan Zhang, Ray Jiang, Robert Stanforth, Johannes Welbl, Jack
+Rae, Vishal Maini, Dani Yogatama, and Pushmeet Kohli. Reducing sentiment bias in language models via counterfactual
+evaluation. arXiv preprint arXiv:1911.03064, 2019. IBGC+ [14]
+
+Mohit Iyyer, Jordan Boyd-Graber, Leonardo Claudino, Richard Socher, and Hal
+Daumé III. A neural network for factoid question answering over paragraphs. In Empirical Methods in Natural Language Processing, 2014. IDCBE [19]
+
+Daphne Ippolito, Daniel Duckworth, Chris Callison-Burch, and Douglas Eck. Automatic detection of generated text is easiest when humans are
+fooled. arXiv preprint arXiv:1911.00650, 2019. JCWZ [17]
+
+Mandar Joshi, Eunsol Choi, Daniel S. Weld, and Luke Zettlemoyer. TriviaQA: A large scale distantly supervised challenge dataset for
+reading comprehension. arXiv preprint arXiv:1705.03551, 2017. JN [20]
+
+Zheng Junyuan and Gamma Lab NYC. Numeric transformer - albert, March 2020. JVS+ [16]
+
+Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.

@@ -1,0 +1,5 @@
+7.2.1 Communication Volume with
+
+With gradient partitioning, each process only stores the portion of the gradients, that is required to update its corresponding parameter partition. As such, instead of an all-reduce, ZeRO only requires a scatter-reduce operation on the gradients, incurring communication volume of . After each process updates the partition of the parameters that it is responsible for, an all-gather is performed to collect all the updated parameters from all the data parallel process. This also incurs a communication volume of . So the total communication volume per training step is , exactly the same as the baseline DP. 7.2.2 Communication Volume with
+
+After parameter partitioning, each data parallel process only stores the parameters that it updates. Therefore, during the forward propagation it needs to receives the parameters for all the other partitions. However, this can be pipelined to avoid the memory overhead. Before computing the forward propagation on the part of the model corresponding to a particular partition, the data parallel process responsible for that partition can broadcast the weights to all the data parallel processes.

@@ -1,0 +1,25 @@
+pre (1984)
+
+1984. Sony corp. of america v. universal city studios, inc. ful (2003)
+
+2003. Kelly v. arriba soft corp. aff (2013)
+
+2013. Righthaven llc v. hoehn. Amodei et al. (2016)
+
+Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and
+Dan Mané. 2016. Concrete problems in AI
+safety. arXiv preprint arXiv:1606.06565. Baccianella et al. (2010)
+
+Stefano Baccianella, Andrea Esuli, and Fabrizio Sebastiani. 2010. Sentiwordnet 3.0: An enhanced lexical resource for sentiment analysis and
+opinion mining. In LREC. European Language Resources Association. Bender and Friedman (2018)
+
+Emily M Bender and Batya Friedman. 2018. Data statements for natural language processing: Toward mitigating
+system bias and enabling better science. Transactions of the Association for Computational Linguistics,
+6:587–604. Biderman (2021)
+
+Stella Biderman. 2021. Data statement for the Pile. arXiv preprint arXiv. Biderman et al. (2021)
+
+Stella Biderman, Kieran Bicheno, and Leo Gao. 2021. Datasheet for the Pile. arXiv preprint arXiv. Biderman and Scheirer (2020)
+
+Stella Biderman and Walter J. Scheirer. 2020. Pitfalls in machine learning research: Reexamining the development
+cycle.

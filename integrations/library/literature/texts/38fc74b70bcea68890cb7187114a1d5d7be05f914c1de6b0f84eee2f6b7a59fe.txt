@@ -1,0 +1,20 @@
+2021. Evaluating Large Language
+Models Trained on Code. arXiv preprint arXiv:2107.03374. Chiang et al. (2023)
+
+Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng, Zhanghao Wu, Hao Zhang, Lianmin
+Zheng, Siyuan Zhuang, Yonghao Zhuang, Joseph E Gonzalez, et al. 2023. Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt
+quality. Cobbe et al. (2021)
+
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+et al. 2021. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168. Dasgupta et al. (2019)
+
+Sanjoy Dasgupta, Daniel Hsu, Stefanos Poulis, and Xiaojin Zhu. 2019. Teaching a
+black-box learner. In Proceedings of the 36th International Conference on Machine
+Learning, ICML 2019, 9-15 June 2019, Long Beach, California, USA,
+volume 97 of Proceedings of Machine Learning Research, pages
+1547–1555. PMLR. Du et al. (2022)
+
+Wanyu Du, Zae Myung Kim, Vipul Raheja, Dhruv Kumar, and Dongyeop Kang. 2022. Read, revise,
+repeat: A system demonstration for human-in-the-loop iterative text
+revision.

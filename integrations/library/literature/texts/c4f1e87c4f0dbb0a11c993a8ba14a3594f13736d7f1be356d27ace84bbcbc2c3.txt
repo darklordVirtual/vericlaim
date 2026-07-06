@@ -1,0 +1,5 @@
+Finally, the fill-in-blank method is not effective one-shot, where it always performs worse than the zero-shot setting. Perhaps this is because all models still require several examples to recognize the pattern. One note of caution is that an analysis of test set contamination identified that a significant minority of the LAMBADA dataset appears to be present in our training data – however analysis performed in Section 4.1 suggests negligible impact on performance. 3.1.3 HellaSwag
+
+The HellaSwag dataset [140] involves picking the best ending to a story or set of instructions. The examples were adversarially mined to be difficult for language models while remaining easy for humans (who achieve 95.6% accuracy). GPT-3 achieves 78.1% accuracy in the one-shot setting and 79.3% accuracy in the few-shot setting, outperforming the 75.4% accuracy of a fine-tuned 1.5B parameter language model [141] but still a fair amount lower than the overall SOTA of 85.6% achieved by the fine-tuned multi-task model ALUM. 3.1.4 StoryCloze
+
+We next evaluate GPT-3 on the StoryCloze 2016 dataset [83], which involves selecting the correct ending sentence for five-sentence long stories.

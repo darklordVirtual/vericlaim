@@ -1,0 +1,59 @@
+Self-consistency acts more like a “self-ensemble” on top of a single language model. We additionally show the results of ensembling multiple models in Appendix A.1.3 where the model-ensembles perform much worse compared to self-consistency. GSM8K
+
+MultiArith
+
+SVAMP
+
+ARC-e
+
+ARC-c
+
+CoT (Wei et al., 2022)
+
+17.1
+
+51.8
+
+38.9
+
+75.3
+
+55.1
+
+Ensemble (3 sets of prompts)
+
+18.6 0.5
+
+57.1 0.7
+
+42.1 0.6
+
+76.6 0.1
+
+57.0 0.2
+
+Ensemble (40 prompt permutations)
+
+19.2 0.1
+
+60.9 0.2
+
+42.7 0.1
+
+76.9 0.1
+
+57.0 0.1
+
+Self-Consistency (40 sampled paths)
+
+27.7 0.2
+
+75.7 0.3
+
+53.3 0.2
+
+79.3 0.3
+
+59.8 0.2
+
+Table 7: Self-consistency outperforms prompt-order and multi-prompt ensembles on LaMDA-137B.

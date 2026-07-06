@@ -1,0 +1,18 @@
+Sa-net on albert (ensemble), April 2020. QMZH [19]
+
+Yusu Qian, Urwa Muaz, Ben Zhang, and Jae Won Hyun. Reducing gender bias in word-level language models with a
+gender-equalizing loss function. arXiv preprint arXiv:1905.12801, 2019. RBG [11]
+
+Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S Gordon. Choice of plausible alternatives: An evaluation of commonsense causal
+reasoning. In 2011 AAAI Spring Symposium Series, 2011. RCM [19]
+
+Siva Reddy, Danqi Chen, and Christopher D Manning. Coqa: A conversational question answering challenge. Transactions of the Association for Computational Linguistics,
+7:249–266, 2019. RCP+ [17]
+
+Scott Reed, Yutian Chen, Thomas Paine, Aäron van den Oord, SM Eslami,
+Danilo Rezende, Oriol Vinyals, and Nando de Freitas. Few-shot autoregressive density estimation: Towards learning to learn
+distributions. arXiv preprint arXiv:1710.10304, 2017. RJL [18]
+
+Pranav Rajpurkar, Robin Jia, and Percy Liang. Know what you don’t know: Unanswerable questions for squad. arXiv preprint arXiv:1806.03822, 2018. RL [16]
+
+Sachin Ravi and Hugo Larochelle. Optimization as a model for few-shot learning. ICLR 2017 (oral), 2016.

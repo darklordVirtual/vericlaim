@@ -1,0 +1,21 @@
+the first GEMM in this column parallel fashion and split the second GEMM along its rows so it takes the output of the GeLU layer directly without requiring any communication as shown in Figure 3a. The output of the second GEMM is then reduced across the GPUs before passing the output to the dropout layer. This approach splits both GEMMs in the MLP block across GPUs and requires only a single all-reduce operation in the forward pass ( operator) and a single all-reduce in the backward pass ( operator). These two operators are conjugates of each other and can be implemented in PyTorch with only a few lines of code. As an example, the implementation of the operator is provided below:
+
+(a) MLP
+
+(b) Self-Attention
+
+Figure 3: Blocks of Transformer with Model Parallelism. and are conjugate. is an identity operator in the forward pass and all reduce in the backward pass while is an all reduce in the forward pass and identity in the backward pass. ⬇
+
+class f(torch.autograd.Function):
+
+def forward(ctx, x):
+
+return x
+
+def backward(ctx, gradient):
+
+all_reduce(gradient)
+
+return gradient
+
+Code 1: Implementation of operator.

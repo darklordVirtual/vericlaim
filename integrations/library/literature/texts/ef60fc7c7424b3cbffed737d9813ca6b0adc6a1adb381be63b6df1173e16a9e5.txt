@@ -1,0 +1,5 @@
+Following the \ourssetup, we instantiate init, feedback, and refine. The init is a no-op — we directly start by critiquing the code with feedback and applying the changes with refine. •
+
+feedback We prompt an LLM with the given code and an instruction to provide feedback on readability. We give the LLM the freedom to freely choose the type of enhancements and express them in the form of free text. •
+
+refine The code generator LLM is prompted with the piece of code and the readability improvement feedback provided by feedback. In addition, we also supply an instruction to fix the code using the feedback. We take the generation from the code generator as the product of one iteration in the feedback loop. Starting from an initial piece of code , we first critique, , and then edit the code, . This is recursively performed times, where and .

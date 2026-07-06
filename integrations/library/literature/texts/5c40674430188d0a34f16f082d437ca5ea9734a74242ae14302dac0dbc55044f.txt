@@ -1,0 +1,13 @@
+5: Divide into blocks of size
+each, divide into blocks of size
+each, divide into blocks of size each. 6: for do
+
+7: Load from HBM to on-chip SRAM. 8: for do
+
+9: Load from HBM to on-chip SRAM. 10: On chip, compute . 11: On chip, compute . 12: On chip, compute , (pointwise),
+. 13: On chip, compute , . 14: On chip, compute . 15: Write
+to HBM. 16: Write , to HBM. 17: end for
+
+18: end for
+
+19: Return .

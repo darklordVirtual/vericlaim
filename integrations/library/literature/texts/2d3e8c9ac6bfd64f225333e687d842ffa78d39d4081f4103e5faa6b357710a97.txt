@@ -1,0 +1,53 @@
+Answer
+
+dry palms
+
+Incorrect Answer
+
+wet palms
+
+Incorrect Answer
+
+palms covered with oil
+
+Incorrect Answer
+
+palms covered with lotion
+
+Figure G.11: Formatted dataset example for ARC (Challenge). When predicting, we normalize by the unconditional probability of each answer as described in 2. Context
+
+lull is to trust as
+
+Correct Answer
+
+cajole is to compliance
+
+Incorrect Answer
+
+balk is to fortitude
+
+Incorrect Answer
+
+betray is to loyalty
+
+Incorrect Answer
+
+hinder is to destination
+
+Incorrect Answer
+
+soothe is to passion
+
+Figure G.12: Formatted dataset example for SAT Analogies
+
+Correct Context
+
+Grace was happy to trade me her sweater for my jacket. She thinks the sweater
+
+Incorrect Context
+
+Grace was happy to trade me her sweater for my jacket. She thinks the jacket
+
+Target Completion
+
+looks dowdy on her. Figure G.13: Formatted dataset example for Winograd. The ‘partial’ evaluation method we use compares the probability of the completion given a correct and incorrect context.

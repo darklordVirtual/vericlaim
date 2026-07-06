@@ -1,0 +1,18 @@
+Gers et al. (2000)
+
+Felix A. Gers, Jürgen A. Schmidhuber, and Fred A. Cummins. Learning to forget: Continual prediction with lstm. Neural Computation, 2000. Gruslys et al. (2016)
+
+Audrunas Gruslys, Rémi Munos, Ivo Danihelka, Marc Lanctot, and Alex
+Graves. Memory-efficient backpropagation through time. CoRR, abs/1606.03401, 2016. URL http://arxiv.org/abs/1606.03401. He et al. (2015)
+
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. IEEE Conference on Computer Vision and Pattern Recognition,
+2015. Hinton et al. (2012)
+
+Geoffrey Hinton, Li Deng, Dong Yu, George E. Dahl, Abdel-rahman Mohamed,
+Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N. Sainath, et al. Deep neural networks for acoustic modeling in speech recognition: The
+shared views of four research groups. IEEE Signal Processing Magazine, 2012. Hochreiter & Schmidhuber (1997)
+
+Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural Computation, 1997. Ioffe & Szegedy (2015)
+
+Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing
+internal covariate shift.

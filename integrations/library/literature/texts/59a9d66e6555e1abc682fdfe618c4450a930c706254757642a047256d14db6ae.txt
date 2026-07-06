@@ -1,0 +1,43 @@
+5/5
+
+* Positive connotation: SCUBA is a positive acronym as it is well-known and it is also related to the title. 5/5
+
+* Well-known: SCUBA is a very well-known acronym. 5/5
+
+\par* Total score: 23/25
+
+\par###
+
+\par
+
+Figure 20: feedback prompt for Acronym Generation
+
+⬇
+
+\parTitle: Computer Science Conference and Education
+
+\parAcronym: CSCE
+
+\parScores:
+
+\par* Ease of pronunciation: CSCE is pronounced "see-cee". This is an easy acronym to pronounce. 4/5
+
+* Ease of spelling: CSCE is easy to spell. 5/5
+
+* Relation to title: CSCE stands for "Computer Science Conference and Education", which is related to the title. 5/5
+
+* Positive connotation: CSCE is a positive acronym. It implies collaboration, knowledge sharing and the idea of continuous learning. 5/5
+
+* Well-known: CSCE is not a well-known acronym. 2/5
+
+\par* Total score: 20/25
+
+\parOkay, let’s use this feedback to improve the acronym. \parTitle: Computer Science Conference and Learning Experience
+
+\parAcronym: CSCLE
+
+\parScores:
+
+\par* Ease of pronunciation: CSCLE is pronounced "see-slee". This is an easy acronym to pronounce. 4/5
+
+* Ease of spelling: CSCLE is easy to spell.

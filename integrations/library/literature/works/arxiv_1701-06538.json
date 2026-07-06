@@ -1,0 +1,32 @@
+{
+  "abstract": "The capacity of a neural network to absorb information is limited by its number of parameters. Conditional computation, where parts of the network are active on a per-example basis, has been proposed in theory as a way of dramatically increasing model capacity without a proportional increase in computation. In practice, however, there are significant algorithmic and performance challenges. In this work, we address these challenges and finally realize the promise of conditional computation, achieving greater than 1000x improvements in model capacity with only minor losses in computational efficiency on modern GPU clusters. We introduce a Sparsely-Gated Mixture-of-Experts layer (MoE), consisting of up to thousands of feed-forward sub-networks. A trainable gating network determines a sparse combination of these experts to use for each example. We apply the MoE to the tasks of language modeling and machine translation, where model capacity is critical for absorbing the vast quantities of knowledge available in the training corpora. We present model architectures in which a MoE with up to 137 billion parameters is applied convolutionally between stacked LSTM layers. On large language modeling and machine translation benchmarks, these models achieve significantly better results than state-of-the-art at lower computational cost.",
+  "accredited": false,
+  "authors": [
+    "Noam Shazeer",
+    "Azalia Mirhoseini",
+    "Krzysztof Maziarz",
+    "Andy Davis",
+    "Quoc Le",
+    "Geoffrey Hinton",
+    "Jeff Dean"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T01:12:05.787877+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/1701.06538"
+  },
+  "fulltext_sha256": "cdbd75dea5e813a2ef77415a062813a0e754b33cc04bcaabba34a83d086f7ead",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "moe-2017",
+    "fetched_at": "2026-07-06T01:05:41.387738+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "364b8fcac4cc2f5e735ad1f9e4a3c8d9eec81540db09a6139ca92ece8440cc0f",
+  "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+  "url": "https://arxiv.org/abs/1701.06538",
+  "venue": "arXiv",
+  "work_id": "arxiv:1701.06538",
+  "year": 2017
+}

@@ -1,0 +1,17 @@
+Neural Computation, 1997. Ioffe & Szegedy (2015)
+
+Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing
+internal covariate shift. arXiv preprint arXiv:1502.03167, 2015. Jacobs et al. (1991)
+
+Robert A. Jacobs, Michael I. Jordan, Steven J. Nowlan, and Geoffrey E. Hinton. Adaptive mixtures of local experts. Neural Computing, 1991. Johnson et al. (2016)
+
+Melvin Johnson, Mike Schuster, Quoc V. Le, Maxim Krikun, Yonghui Wu, Zhifeng
+Chen, Nikhil Thorat, Fernanda B. Viégas, Martin Wattenberg, Greg
+Corrado, Macduff Hughes, and Jeffrey Dean. Google’s multilingual neural machine translation system: Enabling
+zero-shot translation. CoRR, abs/1611.04558, 2016. URL http://arxiv.org/abs/1611.04558. Jordan & Jacobs (1994)
+
+Michael I. Jordan and Robert A. Jacobs. Hierarchical mixtures of experts and the EM algorithm. Neural Computing, 1994. Jozefowicz et al. (2016)
+
+Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016. Kingma & Ba (2015)
+
+Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.

@@ -1,0 +1,20 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Edsger W. Dijkstra"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "goto-harmful-1968",
+    "fetched_at": "2026-07-06T01:10:37.348129+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "8a04518b9b1ab7a593fe98777147c5fda16258a96f80aaec88d7b55077b6f6a1",
+  "title": "Letters to the editor: go to statement considered harmful",
+  "url": "https://doi.org/10.1145/362929.362947",
+  "venue": "Communications of the ACM",
+  "work_id": "doi:10.1145/362929.362947",
+  "year": 1968
+}

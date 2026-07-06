@@ -1,0 +1,39 @@
+ced lists I email don’t get formatted correctly. It’s
+
+slightly annoying for such an otherwise beautifully designed layout. ——
+
+ajcronk
+
+There is a typo in the url at the end of the How did your day go? email. Should be ohlife.com/today, not ohlife.come/today
+
+~~~
+
+sgupta
+
+Thanks for the heads up! ——
+
+a3_nm
+
+How exactly is this service better than, say, a simple text file on my own
+
+machine with a daily reminder set up through some other means? Why would I want to use some third-party website for somethi
+
+or Amazon EC2 and Amazon SQS. The bandwidth tier in which you will be
+
+charged each month will be calculated based on your use of each of these
+
+services separately, and could therefore vary across services."
+
+——
+
+yaacovtp
+
+Can anyone tell me what bandwidth costs a month once you need over a terabyte
+
+a month? How would you host a 5-10 mb movie that may be viewed millions of
+
+times without using a 3rd party video host like youtube etc? ~~~
+
+especkman
+
+Lots of dedicated hosts will include a 2-5 TB of transfer a

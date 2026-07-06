@@ -1,0 +1,13 @@
+For each block of and , we iterate over all blocks of
+(Algorithm 1 line 8) to compute the
+intermediate values, resulting in passes over . Each pass loads elements, which amounts to HBM accesses. We similarly prove that the backward pass of standard attention requires
+HBM accesses while the backward pass of FlashAttention requires
+HBM accesses (Appendix B). We prove a lower-bound: one cannot asymptotically improve on the number of HBM
+accesses for all values of (the SRAM size) when computing exact attention. Proposition 3. Let be the sequence length, be the head dimension, and be size of
+SRAM with . There does not exist an algorithm to compute exact attention with
+HBM accesses for all in the range
+. The proof relies on the fact that for any algorithm must perform
+HBM accesses. This type of lower bound over a subrange of is common in the streaming
+algorithms literature [88]. We leave proving parameterized complexity [27] lower
+bounds in terms of as exciting future work. We validate that the number of HBM accesses is the main determining factor of
+attention run-time. In Fig.

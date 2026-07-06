@@ -1,0 +1,51 @@
+Brébeuf was beatified in 1925 and among eight Jesuit missionaries canonized as saints in the Roman Catholic Church in 1930. Question: How many years did Saint Jean de Brébeuf stay in New France before he went back to France for a few years? Answer:
+
+Target Completion
+
+4
+
+Figure G.20: Formatted dataset example for DROP
+
+Context
+
+Fill in blank:
+
+She held the torch in front of her. She caught her breath. "Chris? There’s a step."
+
+"What?"
+
+"A step. Cut in the rock. About fifty feet ahead." She moved faster. They both moved faster. "In fact," she said, raising the torch higher, "there’s more than a ____. -
+
+Target Completion
+
+step
+
+Figure G.21: Formatted dataset example for LAMBADA
+
+Context
+
+Please unscramble the letters into a word, and write that word:
+
+skicts =
+
+Target Completion
+
+sticks
+
+Figure G.22: Formatted dataset example for Anagrams 1 (A1)
+
+Context
+
+Please unscramble the letters into a word, and write that word:
+
+volwskagen =
+
+Target Completion
+
+volkswagen
+
+Figure G.23: Formatted dataset example for Anagrams 2
+
+Context
+
+Q: Who played tess on touched by an angel?

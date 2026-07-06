@@ -1,0 +1,19 @@
+Shannon (1951)
+
+Claude E Shannon. 1951. Prediction and entropy of printed english. Bell system technical journal, 30(1):50–64. Shazeer (2020)
+
+Noam Shazeer. 2020. Glu variants improve transformer. arXiv preprint arXiv:2002.05202. Sheng et al. (2019)
+
+Emily Sheng, Kai-Wei Chang, Premkumar Natarajan, and Nanyun Peng. 2019. The woman worked as a babysitter: On biases in language generation. arXiv preprint arXiv:1909.01326. Shoeybi et al. (2019)
+
+Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper,
+and Bryan Catanzaro. 2019. Megatron-lm: Training multi-billion parameter language models using
+model parallelism. arXiv preprint arXiv:1909.08053. Smith et al. (2022)
+
+Shaden Smith, Mostofa Patwary, Brandon Norick, Patrick LeGresley, Samyam
+Rajbhandari, Jared Casper, Zhun Liu, Shrimai Prabhumoye, George Zerveas,
+Vijay Korthikanti, Elton Zhang, Rewon Child, Reza Yazdani Aminabadi, Julie
+Bernauer, Xia Song, Mohammad Shoeybi, Yuxiong He, Michael Houston, Saurabh
+Tiwary, and Bryan Catanzaro. 2022. Using deepspeed and
+megatron to train megatron-turing nlg 530b, a large-scale generative language
+model. Su et al.

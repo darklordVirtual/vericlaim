@@ -1,0 +1,74 @@
+{"fsid": "arxiv_1701-06538", "n": 73, "overlap": 200, "source_sha256": "cdbd75dea5e813a2ef77415a062813a0e754b33cc04bcaabba34a83d086f7ead", "target": 1200}
+{"section": "", "seq": 0, "sha256": "4333d63cffd227e6b9b5c3bb63b97ff6aaf89813089c7fdfb38d2fa2294e2b30"}
+{"section": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer", "seq": 1, "sha256": "bec4514dfa6a50364ee6f3edae5faa47b35bbf1115863a4a7a34c99931427775"}
+{"section": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer", "seq": 2, "sha256": "a966ed581639ba49aa196d1c48805a682839fb5fb5ac5a67f06cc4cf6b044be3"}
+{"section": "1.1 Conditional Computation", "seq": 3, "sha256": "8ff68803cb6b73a6d7a5c9554557e23fadf9f1625795569906a9d39e948654ae"}
+{"section": "1.1 Conditional Computation", "seq": 4, "sha256": "97fc7db3622ee8b661859153064ac672f610ddf3dd74b30791af52f5c3966537"}
+{"section": "1.1 Conditional Computation", "seq": 5, "sha256": "514811f4df18fc37aa6d0df5278ff3571cedc5620703e876c5f1016ae0714882"}
+{"section": "1.1 Conditional Computation", "seq": 6, "sha256": "542ad59fd40fac50acd80b5ca26ed5da73601bcb13ee4db51f6f50572254a604"}
+{"section": "1.2 Our Approach: The Sparsely-Gated Mixture-of-Experts Layer", "seq": 7, "sha256": "f2171c657fcee98f76eb74834db4571adff3f9f3978c778c5a2022db21a7456a"}
+{"section": "1.2 Our Approach: The Sparsely-Gated Mixture-of-Experts Layer", "seq": 8, "sha256": "ba7a46f5dc7097fa7a7b6d18fbec084819bfe5636ac9d86509f1451b7a27c847"}
+{"section": "1.3 Related work on Mixtures of Experts", "seq": 9, "sha256": "5b362e6a75aa2b86ddb4b507a547e37e57d4f43585c940909c95ba92609b3706"}
+{"section": "1.3 Related work on Mixtures of Experts", "seq": 10, "sha256": "486a044b49a16f148265453ea0e0dab37e2c67f3edcd507ad8a62b6ca73c7c92"}
+{"section": "2 The Structure of the Mixture-of-Experts layer", "seq": 11, "sha256": "8418ea6c34c408c546adc93847f3a8bc909ff1f317c522e7e215d237198e3c42"}
+{"section": "2 The Structure of the Mixture-of-Experts layer", "seq": 12, "sha256": "74dbe602942512aa7ac4dbec374d692f210314a2d1485beaf849304b8c1b1498"}
+{"section": "2.1 Gating Network", "seq": 13, "sha256": "0f48457b91516e20d83323ba3a70e2c48fb9e244a7c8d7293e204310c96ef1cb"}
+{"section": "2.1 Gating Network", "seq": 14, "sha256": "fe999eeed2cc0fa78ca92d23c56aa20a74f784349689b24c4d4fd4968d1388d8"}
+{"section": "3.1 The Shrinking Batch Problem", "seq": 15, "sha256": "2bc8da0362108de70961293bdaa4de0816fa8ba714ddac30150090a90f573e13"}
+{"section": "3.1 The Shrinking Batch Problem", "seq": 16, "sha256": "9cb25623091d6b9ecac2bd7f3c0fac12cb7163d947c5fdbde1c3b70ae86aabb8"}
+{"section": "3.1 The Shrinking Batch Problem", "seq": 17, "sha256": "bf32c0b4d354f99ee52102ee811f64f0dd7d9c37a0caa60e95e55aef8642da41"}
+{"section": "3.1 The Shrinking Batch Problem", "seq": 18, "sha256": "dd8b493255204647b88fb532aa711f3fd3f6886d2c08a413ae1362988aca74b3"}
+{"section": "3.2 Network Bandwidth", "seq": 19, "sha256": "8a2f03c4a8ac332d19e02847e1c8f3783ce0c337ab5aa845385a4915dcc0b642"}
+{"section": "4 Balancing Expert Utilization", "seq": 20, "sha256": "43a8119b84d43892aacdd597a08eb0dd788aa54b9e1456393cae10ddc4ddb712"}
+{"section": "4 Balancing Expert Utilization", "seq": 21, "sha256": "f085c8edd2c745ef3e3279c20ca13dec96ff1800c1a0b139af3e73adc65d093c"}
+{"section": "5.1 1 Billion Word Language Modeling Benchmark", "seq": 22, "sha256": "ece8fa70ab1c4f3561de665e2dfd80ec0ce7d1982a07397e98a614905f6c3cd0"}
+{"section": "5.1 1 Billion Word Language Modeling Benchmark", "seq": 23, "sha256": "f17814da795c2fb44daa6091ffdedc637ff0050911aac3902933c57a52ab3f1c"}
+{"section": "5.1 1 Billion Word Language Modeling Benchmark", "seq": 24, "sha256": "3f7328010389ceeecde1d321acfc93d5eab6d8f31485dcc584563c20c6c98d7d"}
+{"section": "5.1 1 Billion Word Language Modeling Benchmark", "seq": 25, "sha256": "fa1b797fb99673e703467a0c95c1a688f06e10bd4ce183b3794434eefb14ea80"}
+{"section": "5.1 1 Billion Word Language Modeling Benchmark", "seq": 26, "sha256": "07a579dedfd057835aadb146e060b9312d52d202eab24fae8f6c1613d17e6535"}
+{"section": "5.1 1 Billion Word Language Modeling Benchmark", "seq": 27, "sha256": "8ce89d8c4fd14c13391b6f3f9c0b5afec680bcc43994397a436837f1a4b825ce"}
+{"section": "5.2 100 Billion Word Google News Corpus", "seq": 28, "sha256": "2f81043055f4695fed513bda5e148dd8b6bed2ae9ad0445f4f88170e77fa02b4"}
+{"section": "5.2 100 Billion Word Google News Corpus", "seq": 29, "sha256": "b12d39b4d8fbc549d137dbe4796aa3945b4a6834bcf6114cea46e07c200d59a2"}
+{"section": "5.3 Machine Translation (Single Language Pair)", "seq": 30, "sha256": "8e0b03cf77097e01b9bae3649afafb8d49a52a818620fc1dc260247e1e463e32"}
+{"section": "5.3 Machine Translation (Single Language Pair)", "seq": 31, "sha256": "e53f3482b80d985f48ecc9fc1ce77a14742e2617313af2384e9ff643bc4063b8"}
+{"section": "5.3 Machine Translation (Single Language Pair)", "seq": 32, "sha256": "8da000d7ec69094c551344230c9e2b602ebca03ec7b895b5967b29b3e1c68f7b"}
+{"section": "5.3 Machine Translation (Single Language Pair)", "seq": 33, "sha256": "6396eafe54fe0f44a748665d9a5b5528e14ae35238ebb1252756232067712715"}
+{"section": "5.4 Multilingual Machine Translation", "seq": 34, "sha256": "f67a5fb99b42a20d3f6ee62d4e185f03aa32048ac290852413bbb42675de70f6"}
+{"section": "5.4 Multilingual Machine Translation", "seq": 35, "sha256": "4556228def82fd73a6eee0226786b5e60c2d6f8737c1989b4046ab29fc5d3433"}
+{"section": "5.4 Multilingual Machine Translation", "seq": 36, "sha256": "8117772c02bbdd427cf878fa81214a855c6389321b7685cb0212fa7bc85df581"}
+{"section": "6 Conclusion", "seq": 37, "sha256": "2c46414f0e235d40bb24c83cb979ea2903e391c46329022fffefa19bcdfd5601"}
+{"section": "References", "seq": 38, "sha256": "be8e73a0029fcf5ac046e6e3543e077adef6ef059c71bed8f06ce23653f4a5b1"}
+{"section": "References", "seq": 39, "sha256": "6bb142b237d88dcdeef0ff4d0d33e77e88efa5bf2cdc8e33cfca53fcb61a6dcd"}
+{"section": "References", "seq": 40, "sha256": "2cd5a52afa309798029f4cfc19a1401e6a2393fafe66ad0c94a93ea99b6d483d"}
+{"section": "References", "seq": 41, "sha256": "45ede6bfe7f4ff3d9e4c50261fe2ef25f3480d22b08ef4bc148281eec9e006d6"}
+{"section": "References", "seq": 42, "sha256": "6df737fb69edf0b4db084ce426f20d6ec33d06ad4593cad17fd172376b1b5014"}
+{"section": "References", "seq": 43, "sha256": "8de6e94bea351f7c98d9f4c1bcc946f82e6bc8f38ff346fa5d7c41c76a672b9f"}
+{"section": "References", "seq": 44, "sha256": "5229683c19874e26514ed254a5be335f3b976ea65d39c6a811b101ad51ccf950"}
+{"section": "References", "seq": 45, "sha256": "e400207dd0167df405ee451d404014d3821f15c22fdd87446ed65149363f3064"}
+{"section": "References", "seq": 46, "sha256": "1663d7f11f36cf4dd3e1565d31ea009eb89397ad8b83410f57917c0aa96fff18"}
+{"section": "References", "seq": 47, "sha256": "aa92f4e31f222e1938601aed0726104c0168403c5599a2c46307716728bf83c7"}
+{"section": "A Load-Balancing Loss", "seq": 48, "sha256": "140c459a762ea3b9d81bcea2c5204e4ecc95f0004131aaf3c7549264c031ac00"}
+{"section": "A Load-Balancing Loss", "seq": 49, "sha256": "8ebcb960fba8f25ce04f7caf5fcdd4e68e2b44ee048f5853742418af07ec8128"}
+{"section": "A Load-Balancing Loss", "seq": 50, "sha256": "f6b20564154e12ea04b40b41e26df8d910e3a022a23016b2c9027cff0939fa91"}
+{"section": "B Hierachical Mixture of Experts", "seq": 51, "sha256": "88a4b9693fd86f14dab505371fce374b2dafc8c6aa86d2dc39b573581e96aacd"}
+{"section": "C 1 Billion Word Language Modeling Benchmark - Experimental Details", "seq": 52, "sha256": "81ca2d9e55f3374736b9e1e4d7aec3150f2746a2a283ac7ae3912c6d532eb8a0"}
+{"section": "C 1 Billion Word Language Modeling Benchmark - Experimental Details", "seq": 53, "sha256": "435d9f3e32a84b2ede1e8bf8581a55bc586bfe09b2aa35467519fb94fb99351f"}
+{"section": "C 1 Billion Word Language Modeling Benchmark - Experimental Details", "seq": 54, "sha256": "4a8189030a89e01d280c7803e62732bb72f32c07cd08b055527beede9433a48c"}
+{"section": "C 1 Billion Word Language Modeling Benchmark - Experimental Details", "seq": 55, "sha256": "f630838acf5086beb1e6cb4d55068543c077559901d13434c630590481cde713"}
+{"section": "C 1 Billion Word Language Modeling Benchmark - Experimental Details", "seq": 56, "sha256": "8be5588fb7027e44b751531a48d3f1be7b774a984715eb0d75e889eaf99f5bea"}
+{"section": "C 1 Billion Word Language Modeling Benchmark - Experimental Details", "seq": 57, "sha256": "06cdfc40e94310c71e4add5769b3e0dda9f64440f90e8a801d9e02eb0ac63da8"}
+{"section": "C 1 Billion Word Language Modeling Benchmark - Experimental Details", "seq": 58, "sha256": "f31f9b48ec44a72bd8041f7cc16999952d2f2fe4bba6249a85cf411690bb1e39"}
+{"section": "C 1 Billion Word Language Modeling Benchmark - Experimental Details", "seq": 59, "sha256": "f4334e56733546924f8d981ead3389ba86b15b8b56afdbb9c3b62bbc50a18057"}
+{"section": "D 100 Billion Word Google News Corpus - Experimental Details", "seq": 60, "sha256": "feb6b634f31c4f4ee06357418ec5392c250108a666e9bb9968d4a3d31be12bba"}
+{"section": "D 100 Billion Word Google News Corpus - Experimental Details", "seq": 61, "sha256": "e28cd256409decf32f5ec2872e066e1869a2c63a757fc7ba9b3ed6206f2b74c9"}
+{"section": "D 100 Billion Word Google News Corpus - Experimental Details", "seq": 62, "sha256": "5c2c57f6dd8930d46c2fbd0eb3c6f85fd71a0a00769799533424d5a6862958ab"}
+{"section": "D 100 Billion Word Google News Corpus - Experimental Details", "seq": 63, "sha256": "03ca9ebbca482a8cdd3ceace86387f73f6a6c7d5ed7dadd516cbeaf3eaf34f3c"}
+{"section": "E Machine Translation - Experimental Details", "seq": 64, "sha256": "1bfabad0df06eda61d59fbadb8246e5b774c8c082562bc5bd17114ec6b4a93e8"}
+{"section": "E Machine Translation - Experimental Details", "seq": 65, "sha256": "3f080635c921705fc637bb41e725a8810f66df60a65ae21f225905d324ad36b4"}
+{"section": "E Machine Translation - Experimental Details", "seq": 66, "sha256": "34c6b81ea03b0c8b97b4efd45a391c584873bf98ac31b03fe6b435d0c450a2ac"}
+{"section": "E Machine Translation - Experimental Details", "seq": 67, "sha256": "ea620511e254ab51371b8e43f8bb3600f1d0b177ce46e2b51c6a588652c02f4e"}
+{"section": "E Machine Translation - Experimental Details", "seq": 68, "sha256": "1b885b207473b612061b721e97b5a9e3a40a51d59cd3f6584c1e39cc92304d12"}
+{"section": "E Machine Translation - Experimental Details", "seq": 69, "sha256": "f28fe4b55b07b068cb375aa032de5d6078ed859e24a5d87cc802b597994999f6"}
+{"section": "F Strictly Balanced Gating", "seq": 70, "sha256": "7928702b070bf18383505e3441d280bbd3a50d00148d32845fe746f971546809"}
+{"section": "F Strictly Balanced Gating", "seq": 71, "sha256": "09bd215a1bbe195e776d1d0d11195d78f40ab97fe22443591186eb8411803609"}
+{"section": "G Attention Function", "seq": 72, "sha256": "b24d0079c6bec86a117178088b93a10693bf44fc89d1abbfe0409ee7a4805cb4"}

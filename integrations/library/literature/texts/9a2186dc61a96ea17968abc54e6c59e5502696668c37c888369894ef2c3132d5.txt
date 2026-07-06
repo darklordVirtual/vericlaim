@@ -1,0 +1,25 @@
+emingly wlan related) <Snappy:New> <linux-raspi2 (Ubuntu):New for p-pisati> <https://launchpad.net/bugs/1627643>
+
+<ppisati> ogra_: or we punch a hole in the dev image so we can login via the serial console and check what’s really going on
+
+<ppisati> ogra_: yes
+
+<ogra_> well, i wanted to play with systemd console but didnt have time for that yet
+
+<ogra_> \o/
+
+<ogra_> something at least … that kernel looks fine
+
+<ppisati> ogra_: good to know
+
+<ogra_> do you have an SRU bug that i can tag verification-done ? <ogra_
+
+problem with this? Like, if teenage boy wants to have nekkid lady wallpapers, maybe he don’t want it to come up on family computer… Dunno, maybe it’s not an issue?"
+
+<swilson> hi there! yes, i believe that a bug has been created which raises this same issue - about embarrassing or confidentiality issues with this
+
+<swilson> this seems to be a bit of an edge case, but it may be significant enough to warrant giving some careful thought
+
+<imnichol> Or if you have bank info on your screen before it’s locked
+
+#ub

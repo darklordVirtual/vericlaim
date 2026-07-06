@@ -1,0 +1,5 @@
+The Mixture-of-Experts (MoE) layer consists of a set of “expert networks" , and a “gating network" whose output is a sparse -dimensional vector. Figure 1 shows an overview of the MoE module. The experts are themselves neural networks, each with their own parameters. Although in principle we only require that the experts accept the same sized inputs and produce the same-sized outputs, in our initial investigations in this paper, we restrict ourselves to the case where the models are feed-forward networks with identical architectures, but with separate parameters. Let us denote by and the output of the gating network and the output of the -th expert network for a given input . The output of the MoE module can be written as follows:
+
+(1)
+
+We save computation based on the sparsity of the output of . Wherever , we need not compute . In our experiments, we have up to thousands of experts, but only need to evaluate a handful of them for every example. If the number of experts is very large, we can reduce the branching factor by using a two-level hierarchical MoE.

@@ -1,0 +1,1 @@
+We include additional plots for the results presented in Section 5.1. Figure 3: MT Bench performance for all routers. Figure 4: 5-shot MMLU performance for all routers. Figure 5: 8-shot GSM8K performance for all routers.

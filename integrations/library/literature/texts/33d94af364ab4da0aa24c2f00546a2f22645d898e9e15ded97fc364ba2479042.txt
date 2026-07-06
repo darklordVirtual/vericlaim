@@ -1,0 +1,19 @@
+arXiv preprint arXiv:1312.3005. Chen et al. (2018)
+
+Z. Chen, H. Zhang, X. Zhang, and L. Zhao. 2018. Quora
+question pairs. Clark and Gardner (2018)
+
+Christopher Clark and Matt Gardner. 2018. Simple and effective multi-paragraph reading comprehension. In ACL. Clark et al. (2018)
+
+Kevin Clark, Minh-Thang Luong, Christopher D Manning, and Quoc Le. 2018. Semi-supervised sequence modeling with cross-view training. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pages 1914–1925. Collobert and Weston (2008)
+
+Ronan Collobert and Jason Weston. 2008. A unified architecture for natural language processing: Deep neural
+networks with multitask learning. In Proceedings of the 25th international conference on Machine
+learning, pages 160–167. ACM. Conneau et al. (2017)
+
+Alexis Conneau, Douwe Kiela, Holger Schwenk, Loïc Barrault, and Antoine
+Bordes. 2017. Supervised
+learning of universal sentence representations from natural language
+inference data. In Proceedings of the 2017 Conference on Empirical Methods in
+Natural Language Processing, pages 670–680, Copenhagen, Denmark. Association for Computational Linguistics.

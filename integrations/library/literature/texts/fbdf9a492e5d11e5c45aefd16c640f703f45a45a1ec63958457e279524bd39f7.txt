@@ -1,0 +1,91 @@
+VGG-16 is based on our test. ResNet-50/101/152 are of option B that only uses projections for increasing dimensions. method
+
+top-1 err. top-5 err. VGG [41] (ILSVRC’14)
+
+-
+
+8.43†
+
+GoogLeNet [44] (ILSVRC’14)
+
+-
+
+7.89
+
+VGG [41] (v5)
+
+24.4
+
+7.1
+
+PReLU-net [13]
+
+21.59
+
+5.71
+
+BN-inception [16]
+
+21.99
+
+5.81
+
+ResNet-34 B
+
+21.84
+
+5.71
+
+ResNet-34 C
+
+21.53
+
+5.60
+
+ResNet-50
+
+20.74
+
+5.25
+
+ResNet-101
+
+19.87
+
+4.60
+
+ResNet-152
+
+19.38
+
+4.49
+
+Table 4: Error rates (%) of single-model results on the ImageNet validation set (except † reported on the test set). method
+
+top-5 err. (test)
+
+VGG [41] (ILSVRC’14)
+
+7.32
+
+GoogLeNet [44] (ILSVRC’14)
+
+6.66
+
+VGG [41] (v5)
+
+6.8
+
+PReLU-net [13]
+
+4.94
+
+BN-inception [16]
+
+4.82
+
+ResNet (ILSVRC’15)
+
+3.57
+
+Table 5: Error rates (%) of ensembles. The top-5 error is on the test set of ImageNet and reported by the test server. Identity vs. Projection Shortcuts. We have shown that parameter-free, identity shortcuts help with training. Next we investigate projection shortcuts (Eqn.(2)). In Table 3 we compare three options: (A) zero-padding shortcuts are used for increasing dimensions, and all shortcuts are parameter-free (the same as Table 2 and Fig.

@@ -1,0 +1,18 @@
+Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903, 2022. [XLS+22]
+
+Guangxuan Xiao, Ji Lin, Mickael Seznec, Julien Demouth, and Song Han. Smoothquant: Accurate and efficient post-training quantization for
+large language models. arXiv preprint arXiv:2211.10438, 2022. [YLLL14]
+
+Fan Yang, Xuan Li, Qianmu Li, and Tao Li. Exploring the diversity in cluster ensemble generation: Random
+sampling and random projection. Expert Systems with Applications, 41(10):4844–4866, 2014. [YLW+23]
+
+Zhewei Yao, Cheng Li, Xiaoxia Wu, Stephen Youn, and Yuxiong He. A comprehensive study on post-training quantization for large
+language models. arXiv preprint arXiv:2303.08302, 2023. [ZGA+21]
+
+Lucia Zheng, Neel Guha, Brandon R Anderson, Peter Henderson, and Daniel E Ho. When does pretraining help? assessing self-supervised learning for
+law and the casehold dataset of 53,000+ legal holdings. In Proceedings of the eighteenth international conference on
+artificial intelligence and law, pages 159–168, 2021. [ZSH+22]
+
+Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi
+Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, and Ed Chi.

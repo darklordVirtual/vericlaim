@@ -1,0 +1,18 @@
+Advances in Neural Information Processing Systems,
+35:27730–27744, 2022. Park et al. [2022]
+
+G. Park, B. Park, S. J. Kwon, B. Kim, Y. Lee, and D. Lee. nuqmm: Quantized matmul for efficient inference of large-scale
+generative language models. arXiv preprint arXiv:2206.09557, 2022. Peng et al. [2023]
+
+B. Peng, C. Li, P. He, M. Galley, and J. Gao. Instruction tuning with gpt-4. arXiv preprint arXiv:2304.03277, 2023. Poliak et al. [2018]
+
+A. Poliak, J. Naradowsky, A. Haldar, R. Rudinger, and B. Van Durme. Hypothesis only baselines in natural language inference. In Proceedings of the Seventh Joint Conference on Lexical and
+Computational Semantics, pages 180–191, 2018. Pope et al. [2022]
+
+R. Pope, S. Douglas, A. Chowdhery, J. Devlin, J. Bradbury, A. Levskaya,
+J. Heek, K. Xiao, S. Agrawal, and J. Dean. Efficiently scaling transformer inference. arXiv preprint arXiv:2211.05102, 2022. Qin and Eisner [2021]
+
+G. Qin and J. Eisner. Learning how to ask: Querying lms with mixtures of soft prompts. arXiv preprint arXiv:2104.06599, 2021. Raffel et al. [2020]
+
+C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena, Y. Zhou,
+W. Li, and P. J. Liu.

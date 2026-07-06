@@ -1,0 +1,3 @@
+The core contributions of this paper are:
+
+1. The introduction of a GiB english-language dataset for language modeling combining 22 diverse sources. 2. The introduction of new language modeling datasets, which we expect to be of independent interest to researchers. 3. Evaluations demonstrating significant improvements across many domains by GPT-2-sized models trained on this new dataset, compared to training on CC-100 and raw Common Crawl. 4. The investigation and documentation of this dataset, which we hope will better inform researchers about how to use it as well as motivate them to undertake similar investigations of their own data.

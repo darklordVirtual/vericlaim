@@ -1,0 +1,19 @@
+384–394, Stroudsburg, PA,
+USA, 2010. Association for Computational Linguistics. Valiant (1990)
+
+Valiant, L. G. A bridging model for parallel computation. Communications of the ACM, 33(8):103-111, 1990. Vaswani et al. (2017)
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N.,
+Kaiser, L., and Polosukhin, I. Attention is all you need. CoRR, abs/1706.03762, 2017. Wang et al. (2019)
+
+Wang, A., Singh, A., Michael, J., Hill, F., Levy, O., and Bowman, S. R. Glue: A multi-task benchmark and analysis platform for natural
+language understanding. ICLR, 2019. Yang et al. (2019)
+
+Yang, Z., Dai, Z., Yang, Y., Carbonell, J. G., Salakhutdinov, R., and Le, Q. V. Xlnet: Generalized autoregressive pretraining for language
+understanding. CoRR, abs/1906.08237, 2019. URL http://arxiv.org/abs/1906.08237. You et al. (2017)
+
+You, Y., Gitman, I., and Ginsburg, B. Large batch training of convolutional networks. arXiv:1708.03888, 2017. You et al. (2019)
+
+You, Y., Li, J., Reddi, S., Hseu, J., Kumar, S., Bhojanapalli, S., Song, X.,
+Demmel, J., and Hsieh, C.-J. Large batch optimization for deep learning: Training bert in 76
+minutes. arXiv:1904.00962, 2019. Zellers et al.

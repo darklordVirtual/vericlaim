@@ -1,0 +1,18 @@
+Chen et al. (2016)
+
+Chen, T., Xu, B., Zhang, C., and Guestrin, C. Training deep nets with sublinear memory cost. CoRR, abs/1604.06174, 2016. URL http://arxiv.org/abs/1604.06174. Dai et al. (2019)
+
+Dai, Z., Yang, Z., Yang, Y., Carbonell, J. G., Le, Q. V., and Salakhutdinov, R. Transformer-xl: Attentive language models beyond a fixed-length
+context. CoRR, abs/1901.02860, 2019. URL http://arxiv.org/abs/1901.02860. Devlin et al. (2018)
+
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. Bert: Pre-training of deep bidirectional transformers for language
+understanding, 2018. Goyal et al. (2017)
+
+Goyal, P., Dollár, P., Girshick, R. B., Noordhuis, P., Wesolowski, L.,
+Kyrola, A., Tulloch, A., Jia, Y., and He, K. Accurate, large minibatch SGD: training imagenet in 1 hour. CoRR, abs/1706.02677, 2017. Harlap et al. (2018)
+
+Harlap, A., Narayanan, D., Phanishayee, A., Seshadri, V., Devanur, N., Ganger,
+G., and Gibbons, P. Pipedream: Fast and efficient pipeline parallel dnn training. arXiv:1806.03377, 2018. Hendrycks & Gimpel (2016)
+
+Hendrycks, D. and Gimpel, K. Bridging nonlinearities and stochastic regularizers with gaussian
+error linear units. CoRR, abs/1606.08415, 2016.

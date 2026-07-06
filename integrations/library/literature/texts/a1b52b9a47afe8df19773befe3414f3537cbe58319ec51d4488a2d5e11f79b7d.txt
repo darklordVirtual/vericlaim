@@ -1,0 +1,19 @@
+(2017)
+
+Mandar Joshi, Eunsol Choi, Daniel S Weld, and Luke Zettlemoyer. 2017. Triviaqa: A large scale distantly supervised challenge dataset for
+reading comprehension. In ACL. Kiros et al. (2015)
+
+Ryan Kiros, Yukun Zhu, Ruslan R Salakhutdinov, Richard Zemel, Raquel Urtasun,
+Antonio Torralba, and Sanja Fidler. 2015. Skip-thought vectors. In Advances in neural information processing systems, pages
+3294–3302. Le and Mikolov (2014)
+
+Quoc Le and Tomas Mikolov. 2014. Distributed representations of sentences and documents. In International Conference on Machine Learning, pages
+1188–1196. Levesque et al. (2011)
+
+Hector J Levesque, Ernest Davis, and Leora Morgenstern. 2011. The winograd schema challenge. In Aaai spring symposium: Logical formalizations of commonsense
+reasoning, volume 46, page 47. Logeswaran and Lee (2018)
+
+Lajanugen Logeswaran and Honglak Lee. 2018. An efficient
+framework for learning sentence representations. In International Conference on Learning Representations. McCann et al. (2017)
+
+Bryan McCann, James Bradbury, Caiming Xiong, and Richard Socher. 2017. Learned in translation: Contextualized word vectors. In NIPS. Melamud et al.

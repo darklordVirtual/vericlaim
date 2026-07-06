@@ -1,0 +1,17 @@
+XLA: Compiling machine learning for peak performance. 2020. Sanh et al. [2020]
+
+Victor Sanh, Thomas Wolf, and Alexander M Rush. Movement pruning: Adaptive sparsity by fine-tuning. arXiv preprint arXiv:2005.07683, 2020. Shoeybi et al. [2019]
+
+Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper,
+and Bryan Catanzaro. Megatron-LM: Training multi-billion parameter language models using
+model parallelism. arXiv preprint arXiv:1909.08053, 2019. Sindhwani et al. [2015]
+
+Vikas Sindhwani, Tara Sainath, and Sanjiv Kumar. Structured transforms for small-footprint deep learning. In Advances in Neural Information Processing Systems, pages
+3088–3096, 2015. Sukhbaatar et al. [2019]
+
+Sainbayar Sukhbaatar, Edouard Grave, Piotr Bojanowski, and Armand Joulin. Adaptive attention span in transformers. In Proceedings of the Annual Meeting of the Association for
+Computational Linguistics, 2019. Tay et al. [2020a]
+
+Yi Tay, Mostafa Dehghani, Samira Abnar, Yikang Shen, Dara Bahri, Philip Pham,
+Jinfeng Rao, Liu Yang, Sebastian Ruder, and Donald Metzler. Long range arena: A benchmark for efficient transformers. In International Conference on Learning Representations,
+2020a.

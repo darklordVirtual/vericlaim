@@ -1,0 +1,39 @@
+We derive the backward pass of attention and show that it can also be computed
+with linear memory. Rabe and Staats [66] suggests that the backward pass can be done without
+quadratic extra memory by applying gradient checkpointing to the
+memory-efficient forward pass. We instead derive the backward pass explicitly and show how it can be computed
+in a memory-efficient manner. Suppose that there is a scalar loss function , and let the output gradient
+be (where denotes
+). We want to compute the input gradients
+(where denote
+
+respectively). The gradient is easy to see. Applying reverse-mode autodiff by hand (aka the chain rule), we obtain (in
+matrix notation) . Thus:
+
+(3)
+
+Since we already computed , can be computed without extra memory by
+repeated summing. The gradients and are a little more complicated. We go through the gradients and first. From Eq. 2, we have that , and so:
+
+Recall that . Using the fact that the Jacobian of is , we
+have that
+
+where denotes pointwise multiplication. Define
+
+(4)
+
+then
+
+Hence
+
+Now we can get the gradients and . Recall that , so
+
+(5)
+
+Similarly,
+
+(6)
+
+Therefore the backward pass can also be computed with extra memory:
+
+1.

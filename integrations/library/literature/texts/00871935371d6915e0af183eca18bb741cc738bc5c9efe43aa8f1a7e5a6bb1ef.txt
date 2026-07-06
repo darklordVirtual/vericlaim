@@ -1,0 +1,16 @@
+Kernel operations on the gpu, with autodiff, without memory
+overflows. Journal of Machine Learning Research, 22(74):1–6, 2021. URL http://jmlr.org/papers/v22/20-275.html. Chen et al. [2021]
+
+Beidi Chen, Tri Dao, Eric Winsor, Zhao Song, Atri Rudra, and Christopher Ré. Scatterbrain: Unifying sparse and low-rank attention. In Advances in Neural Information Processing Systems
+(NeurIPS), 2021. Chen et al. [2016]
+
+Tianqi Chen, Bing Xu, Chiyuan Zhang, and Carlos Guestrin. Training deep nets with sublinear memory cost. arXiv preprint arXiv:1604.06174, 2016. Child et al. [2019]
+
+Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. arXiv preprint arXiv:1904.10509, 2019. Choromanski et al. [2020]
+
+Krzysztof Marcin Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song,
+Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Quincy Davis, Afroz
+Mohiuddin, Lukasz Kaiser, et al. Rethinking attention with performers. In International Conference on Learning Representations
+(ICLR), 2020. Dai et al. [2022]
+
+Xiang Dai, Ilias Chalkidis, Sune Darkner, and Desmond Elliott. Revisiting transformer-based models for long document classification.

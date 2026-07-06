@@ -1,0 +1,44 @@
+ensure we do not train on any data found in our test sets, we calculate the percentage of test set 8-grams that also appear in our training set as done in previous work (Radford et al., 2019). The WikiText103 test set has at most overlap and the LAMBADA test set (Paperno et al., 2016) has at most overlap. We should note that the WikiText103 test set has already overlap with the WikiText103 training set (Radford et al., 2019). As these are consistent with previous work,
+we are confident that no documents from our test data are inadvertently included in our training data. Table 4: Model configurations used for BERT. Parameter
+Layers
+Hidden
+Attention
+Total
+
+Count
+
+Size
+Heads
+GPUs
+
+336M
+
+24
+
+1024
+
+16
+
+128
+
+1.3B
+
+24
+
+2048
+
+32
+
+256
+
+3.9B
+
+48
+
+2560
+
+40
+
+512
+
+Table 5: Development set results for MNLI, QQP, SQuAD 1.1 and SQuAD 2.0 and test set results for RACE. The trained tokens represents consumed tokens during model pretraining (proportional to batch size times number of iterations) normalized by consumed tokens during model pretraining for our 336M model.

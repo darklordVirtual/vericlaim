@@ -1,0 +1,25 @@
+GiB
+
+2.11 KiB
+
+Enron Emails†
+
+0.88 GiB
+
+0.14%
+
+2.0
+
+1.76 GiB
+
+1.78 KiB
+
+The Pile
+
+825.18 GiB
+
+1254.20 GiB
+
+5.91 KiB
+
+Table 1: Overview of datasets in the Pile before creating the held out sets. Raw Size is the size before any up- or down-sampling. Weight is the percentage of bytes in the final dataset occupied by each dataset. Epochs is the number of passes over each constituent dataset during a full epoch over the Pile. Effective Size is the approximate number of bytes in the Pile occupied by each dataset. Datasets marked with a † are used with minimal preprocessing from prior work. The Pile is composed of 22 constituent sub-datasets, as shown in Table 1. Following Brown et al. (2020), we increase the weights of higher quality components, with certain high-quality datasets such as Wikipedia being seen up to 3 times (“epochs”) for each full epoch over the Pile. Detailed information about the construction of each dataset is available in Appendix C.

@@ -1,0 +1,11 @@
+We discuss here a few potential extensions of the IO-aware approach to speed up
+deep learning training. Multi-GPU Attention. Large language models are trained on hundreds or thousands of GPUs, and one
+typically splits the attention computation between 4-8 GPUs on the same
+node [77]. This introduces another level of memory hierarchy: beside GPU SRAM and GPU HBM,
+we also have the HBM of other GPUs. For very long sequences, the different GPUs on the same node can cooperate to
+compute attention by taking into account the asymmetry of different levels of
+memory hierarchy. Sparse MLP layers. Typical dense MLP layers are compute-bound and not memory-bound. To improve their efficiency, MLP layers with sparse weight matrices can be
+used [17]. However, many sparse MLP layers are instead memory-bound, and their speedup is
+often not proportional to the sparsity. We believe that an IO-aware implementation can alleviate this issue and realize
+the benefits of sparsity. We are excited about future work in this direction, to reduce the computational
+requirement of large models and improve their wall-block runtime. Kernel machine learning.

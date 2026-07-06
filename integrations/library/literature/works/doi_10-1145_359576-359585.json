@@ -1,0 +1,20 @@
+{
+  "abstract": "This paper suggests that input and output are basic primitives of programming and that parallel composition of communicating sequential processes is a fundamental program structuring method. When combined with a development of Dijkstra's guarded command, these concepts are surprisingly versatile. Their use is illustrated by sample solutions of a variety of a familiar programming exercises.",
+  "accredited": true,
+  "authors": [
+    "C. A. R. Hoare"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "csp-1978",
+    "fetched_at": "2026-07-06T01:10:39.917055+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "b5421903e2ebf1eb55e2a7a7ce47f510969dc4a83bdc27d5c08d65656c66826d",
+  "title": "Communicating sequential processes",
+  "url": "https://doi.org/10.1145/359576.359585",
+  "venue": "Communications of the ACM",
+  "work_id": "doi:10.1145/359576.359585",
+  "year": 1978
+}

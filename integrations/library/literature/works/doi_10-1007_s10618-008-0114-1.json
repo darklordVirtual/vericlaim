@@ -1,0 +1,23 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Ron Kohavi",
+    "Roger Longbotham",
+    "Dan Sommerfield",
+    "Randal M. Henne"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "ab-testing-2009",
+    "fetched_at": "2026-07-06T01:07:31.049328+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "b0d93a02c59980636d9c72a66e6663be7efffed38c9b6e434074606bc82288e4",
+  "title": "Controlled experiments on the web: survey and practical guide",
+  "url": "https://doi.org/10.1007/s10618-008-0114-1",
+  "venue": "Data Mining and Knowledge Discovery",
+  "work_id": "doi:10.1007/s10618-008-0114-1",
+  "year": 2008
+}

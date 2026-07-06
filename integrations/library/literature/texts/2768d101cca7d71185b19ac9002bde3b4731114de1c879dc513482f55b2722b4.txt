@@ -1,0 +1,18 @@
+2022. Palm: Scaling language
+modeling with pathways. Chung et al. (2022)
+
+Hyung Won Chung, Le Hou, S. Longpre, Barret Zoph, Yi Tay, William Fedus, Eric
+Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, Albert Webson,
+Shixiang Shane Gu, Zhuyun Dai, Mirac Suzgun, Xinyun Chen, Aakanksha
+Chowdhery, Dasha Valter, Sharan Narang, Gaurav Mishra, Adams Wei Yu, Vincent
+Zhao, Yanping Huang, Andrew M. Dai, Hongkun Yu, Slav Petrov, Ed Huai hsin
+Chi, Jeff Dean, Jacob Devlin, Adam Roberts, Denny Zhou, Quoc Le, and Jason
+Wei. 2022. Scaling instruction-finetuned language models. arXiv preprint arXiv:2210.11416. Clark et al. (2019)
+
+Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael
+Collins, and Kristina Toutanova. 2019. Boolq: Exploring the surprising difficulty of natural yes/no
+questions. arXiv preprint arXiv:1905.10044. Clark et al. (2018)
+
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa
+Schoenick, and Oyvind Tafjord. 2018. Think you have solved question answering? try arc, the ai2 reasoning
+challenge. arXiv preprint arXiv:1803.05457. Cobbe et al.

@@ -1,0 +1,18 @@
+2022. Emergent abilities of large language models. arXiv preprint arXiv:2206.07682. Wenzek et al. (2020)
+
+Guillaume Wenzek, Marie-Anne Lachaux, Alexis Conneau, Vishrav Chaudhary,
+Francisco Guzmán, Armand Joulin, and Edouard Grave. 2020. CCNet: Extracting
+high quality monolingual datasets from web crawl data. In Language Resources and Evaluation Conference. Wu et al. (2022)
+
+Carole-Jean Wu, Ramya Raghavendra, Udit Gupta, Bilge Acun, Newsha Ardalani,
+Kiwan Maeng, Gloria Chang, Fiona Aga, Jinshi Huang, Charles Bai, et al. 2022. Sustainable ai: Environmental implications, challenges and
+opportunities. Proceedings of Machine Learning and Systems, 4:795–813. Zellers et al. (2019)
+
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. 2019. Hellaswag: Can a machine really finish your sentence? arXiv preprint arXiv:1905.07830. Zeng et al. (2022)
+
+Aohan Zeng, Xiao Liu, Zhengxiao Du, Zihan Wang, Hanyu Lai, Ming Ding, Zhuoyi
+Yang, Yifan Xu, Wendi Zheng, Xiao Xia, Weng Lam Tam, Zixuan Ma, Yufei Xue,
+Jidong Zhai, Wenguang Chen, Peng Zhang, Yuxiao Dong, and Jie Tang. 2022. Glm-130b: An open bilingual
+pre-trained model. Zhang and Sennrich (2019)
+
+Biao Zhang and Rico Sennrich.

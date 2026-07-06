@@ -1,0 +1,1 @@
+In this section we study the effect of number of attention heads on the scaling results. We also present strong scaling results for our 1.2 billion parameter model.

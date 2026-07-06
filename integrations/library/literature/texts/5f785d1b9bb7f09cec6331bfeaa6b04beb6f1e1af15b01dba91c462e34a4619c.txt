@@ -1,0 +1,17 @@
+arXiv:1806.03377, 2018. Hendrycks & Gimpel (2016)
+
+Hendrycks, D. and Gimpel, K. Bridging nonlinearities and stochastic regularizers with gaussian
+error linear units. CoRR, abs/1606.08415, 2016. URL http://arxiv.org/abs/1606.08415. Howard & Ruder (2018)
+
+Howard, J. and Ruder, S. Fine-tuned language models for text classification. CoRR, abs/1801.06146, 2018. Huang et al. (2018)
+
+Huang, Y., Cheng, Y., Chen, D., Lee, H., Ngiam, J., Le, Q. V., and Chen, Z. Gpipe: Efficient training of giant neural networks using pipeline
+parallelism. CoRR, abs/1811.06965, 2018. URL http://arxiv.org/abs/1811.06965. Jia et al. (2018)
+
+Jia, Z., Zaharia, M., and Aiken, A. Beyond data and model parallelism for deep neural networks. arXiv:1807.05358, 2018. Joshi et al. (2019)
+
+Joshi, M., Chen, D., Liu, Y., Weld, D. S., Zettlemoyer, L., and Levy, O. Spanbert: Improving pre-training by representing and predicting
+spans. arXiv:1907.10529, 2019. Keskar et al. (2017)
+
+Keskar, N. S., Mudigere, D., Nocedal, J., Smelyanskiy, M., and Tang, P. T. P. On large- batch training for deep learning: Generalization gap and
+sharp minima. ICLR, 2017. Khandelwal et al.

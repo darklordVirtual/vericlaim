@@ -1,0 +1,12 @@
+We analyze the IO complexity of FlashAttention, showing
+significant reduction in HBM accesses compared to standard attention. We also provide a lower bound, proving that no exact attention algorithm can asymptotically improve on HBM accesses over all
+SRAM sizes. Proofs are in Appendix C. Theorem 2. Let be the sequence length, be the head dimension, and be size of
+SRAM with . Standard attention (Algorithm ) requires HBM
+accesses, while FlashAttention (Algorithm 1) requires
+HBM accesses. For typical values of (64-128) and (around 100KB), is many
+times smaller than , and thus FlashAttention requires many times fewer
+HBM accesses than standard implementation. This leads to both faster execution and lower memory footprint, which we
+validate in Section 4.3. The main idea of the proof is that given the SRAM size of , we
+can load blocks of of size each (Algorithm 1 line 6). For each block of and , we iterate over all blocks of
+(Algorithm 1 line 8) to compute the
+intermediate values, resulting in passes over . Each pass loads elements, which amounts to HBM accesses.

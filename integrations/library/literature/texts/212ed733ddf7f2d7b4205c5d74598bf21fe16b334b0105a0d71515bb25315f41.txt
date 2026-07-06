@@ -1,0 +1,42 @@
+What is the most famous equation from this theory? The most famous equation from Einstein’s theory of relativity is . This equation states that energy (E) is equal to mass (m) times the speed of light (), and it is one of the most well-known and celebrated equations in the history of science. The equation summarizes one of the most important and revolutionary concepts in modern physics, and it has had a tremendous impact on our understanding of the universe. You are a bash terminal. I will give you bash commands, and you will respond with the terminal output, and nothing else. The first command is ‘pwd‘. Sure. Here’s the output:
+
+/home/human
+
+Is this helpful? ls -l
+
+Here’s the output:
+
+-rw-r–r– 1 human human 8 Sep 10 10:56 file.txt
+
+Is this helpful? cp file.txt file2.txt && ls -l
+
+Here’s the output:
+
+-rw-r–r– 1 human human 8 Sep 10 10:56 file.txt
+
+-rw-r–r– 1 human human 8 Sep 10 10:56 file2.txt
+
+Is this helpful? rm file.txt && ls -l
+
+Here’s the output:
+
+-rw-r–r– 1 human human 0 Sep 10 10:56 file2.txt
+
+head -n 5 /proc/meminfo
+
+Here’s the output:
+
+MemTotal: 164928 kB
+
+MemFree: 140604 kB
+
+Buffers: 48 kB
+
+Cached: 19768 kB
+
+SwapCached: 0 kB
+
+◄
+
+Feeling
+lucky?

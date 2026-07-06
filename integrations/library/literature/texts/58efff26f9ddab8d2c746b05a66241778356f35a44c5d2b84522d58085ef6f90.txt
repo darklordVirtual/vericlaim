@@ -1,0 +1,18 @@
+Palm: Scaling language modeling with pathways, 2022. URL https://arxiv.org/abs/2204.02311. Clark et al. (2019)
+
+Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael
+Collins, and Kristina Toutanova. Boolq: Exploring the surprising difficulty of natural yes/no
+questions. In NAACL, 2019. Clark et al. (2018)
+
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa
+Schoenick, and Oyvind Tafjord. Think you have solved question answering? try arc, the ai2 reasoning
+challenge. ArXiv, abs/1803.05457, 2018. Cobbe et al. (2021)
+
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+Christopher Hesse, and John Schulman. Training verifiers to solve math word problems, 2021. Dagan et al. (2005)
+
+Ido Dagan, Oren Glickman, and Bernardo Magnini. The pascal recognising textual entailment challenge. In Machine Learning Challenges Workshop, pp. 177–190. Springer, 2005. Eikema & Aziz (2020)
+
+Bryan Eikema and Wilker Aziz. Is MAP decoding all you need? the inadequacy of the mode in neural
+machine translation.

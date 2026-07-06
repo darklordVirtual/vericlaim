@@ -1,0 +1,46 @@
+Setting
+PIQA
+ARC (Easy)
+ARC (Challenge)
+OpenBookQA
+
+Fine-tuned SOTA
+79.4
+
+92.0[55]
+
+78.5[55]
+
+87.2[55]
+
+GPT-3 Zero-Shot
+
+80.5*
+
+68.8
+
+51.4
+
+57.6
+
+GPT-3 One-Shot
+
+80.5*
+
+71.2
+
+53.2
+
+58.8
+
+GPT-3 Few-Shot
+
+82.8*
+
+70.1
+
+51.5
+
+65.4
+
+Table 3.6: GPT-3 results on three commonsense reasoning tasks, PIQA, ARC, and OpenBookQA. GPT-3 Few-Shot PIQA result is evaluated on the test server. See Section 4.1 for details on potential contamination issues on the PIQA test set. Figure 3.6: GPT-3 results on PIQA in the zero-shot, one-shot, and few-shot settings. The largest model achieves a score on the development set in all three conditions that exceeds the best recorded score on the task. Next we consider three datasets which attempt to capture physical or scientific reasoning, as distinct from sentence completion, reading comprehension, or broad knowledge question answering. The first, PhysicalQA (PIQA) [11], asks common sense questions about how the physical world works and is intended as a probe of grounded understanding of the world. GPT-3 achieves 81.0% accuracy zero-shot, 80.5% accuracy one-shot, and 82.8% accuracy few-shot (the last measured on PIQA’s test server).

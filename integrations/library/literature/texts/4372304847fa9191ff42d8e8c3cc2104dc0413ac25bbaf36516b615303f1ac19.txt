@@ -1,0 +1,35 @@
+Certainly, the recent drop in prices doesn’t mean Manhattan comes cheap. question: Manhattan comes cheap. true, false, or neither? answer:
+
+Target Completion
+
+false
+
+Figure G.30: Formatted dataset example for CB
+
+Context
+
+The bet, which won him dinner for four, was regarding the existence and mass of the top quark, an elementary particle discovered in 1995. question: The Top Quark is the last of six flavors of quarks predicted by the standard model theory of particle physics. True or False? answer:
+
+Target Completion
+
+False
+
+Figure G.31: Formatted dataset example for RTE
+
+Context
+
+An outfitter provided everything needed for the safari. Before his first walking holiday, he went to a specialist outfitter to buy some boots. question: Is the word ‘outfitter’ used in the same way in the two sentences above? answer:
+
+Target Completion
+
+no
+
+Figure G.32: Formatted dataset example for WiC
+
+Context
+
+Final Exam with Answer Key
+
+Instructions: Please carefully read the following passages. For each passage, you must identify which noun the pronoun marked in *bold* refers to. =====
+
+Passage: Mr.

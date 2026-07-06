@@ -1,0 +1,1 @@
+A lemon-picked analysis demonstrates where Guanaco fails compared to ChatGPT. We release all of our models and code, including CUDA kernels for 4-bit training.111https://github.com/artidoro/qlora and https://github.com/TimDettmers/bitsandbytes

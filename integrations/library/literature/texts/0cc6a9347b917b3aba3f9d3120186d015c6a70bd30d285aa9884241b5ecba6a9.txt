@@ -1,0 +1,1 @@
+[28], may be more effective, and leave further exploration to future work. Figure 16: Performance of our optimized revision model as the sequential to parallel ratio is varied. We use majority voting to select the answer. We see that this optimized revision model demonstrates substantial performance degradations with additional sequential revisions.

@@ -1,0 +1,7 @@
+To test this, we experiment with a setup where we use Vicuna-13b as the initialization model, and use ChatGPT as the feedback and refine. The results on Math Reasoning show the promise of this approach: while Vicuna-13b was able to get only 24.18% on Math Reasoning, it was able to improve to 40.5% in this mixed-refinement setting. ⬇
+
+\parStep 0 INIT> The food was amazing, I loved it!!. Step 0 TRANSFER> The food was terrible, I hated it!!. \par|\colorbox{red}{list index out of range}|
+
+|\colorbox{red}{An error occurred: list index out of range. Traceback (most recent call last):}|
+
+|\colorbox{red}{IndexError: list index out of range}|. Left retries: 2. \parStep 1 TRANSFER> The food at the Trop was awful. I wish I could’ve gotten my money back for the terrible meals. Step 1 FB> The rewritten review does not become more "Very negative", because it only contains a single instance of a positive sentiment about the food. Try again to make it Very negative! \parStep 2 TRANSFER> |\colorbox{red}{### Assistant:}| The Trop is a great choice for anyone looking for a budget-friendly option in Vegas.

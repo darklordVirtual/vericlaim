@@ -1,0 +1,12 @@
+We evaluate the impact of using FlashAttention to train Transformer models. We validate two claims about training time and model accuracy, and report attention runtime and memory benchmarks. •
+
+Training Speed. FlashAttention outperforms the MLPerf 1.1 [58] speed record for BERT by 15%, and speeds up GPT-2 up to 3 over HuggingFace [87] and over Megatron [77] over standard Transformers. FlashAttention speeds up the long-range
+arena (LRA) benchmark 2.4. •
+
+Quality. FlashAttention scales Transformers to longer sequences, yielding higher quality. FlashAttention trains GPT-2 with context length 4K faster
+than Megatron trains GPT-2 with context length 1K, while
+achieving 0.7 better perplexity. Modeling longer sequences yields 6.4 points of lift on two long-document classification tasks. Finally, FlashAttention yields the first Transformer that can achieve
+better-than-random performance on the challenging Path-X task (sequence
+length 16K), and block-sparse FlashAttention yields the first sequence model that we know of that can achieve better-than-random performance on Path-256 (sequence length 64K). •
+
+Benchmarking Attention.

@@ -1,0 +1,1 @@
+Sometimes this is because the model skips steps, but occasionally it finds different solutions. We show an example in Appendix J, where the model disregards redundant information and solves a 7-step problem in a single step.

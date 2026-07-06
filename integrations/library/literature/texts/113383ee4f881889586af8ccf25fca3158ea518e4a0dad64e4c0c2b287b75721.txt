@@ -1,0 +1,5 @@
+Empirically, we discretize the percentage of calls over the interval into . For each , we determine the threshold that satisfies the cost constraint. We approximate as:
+
+(8)
+
+In many real-world applications, it is essential to quantify the cost required to achieve a certain level of performance. To address this, we introduce a second metric called call-performance threshold (CPT). Given a desired router performance, i.e., achieving a PGR of , the CPT() represents the minimum percentage of calls to the strong model needed to reach the desired PGR. In Figure 1-(right), the dotted green line illustrates CPT(50%), indicating the percentage of calls to GPT-4 needed to achieve a PGR of 50%. In this figure, .

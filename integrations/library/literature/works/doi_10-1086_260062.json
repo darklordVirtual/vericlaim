@@ -1,0 +1,21 @@
+{
+  "abstract": "",
+  "accredited": true,
+  "authors": [
+    "Fischer Black",
+    "Myron Scholes"
+  ],
+  "registrar": "crossref",
+  "retrieval": {
+    "canon_id": "black-scholes-1973",
+    "fetched_at": "2026-07-06T01:07:44.555233+00:00",
+    "method": "doi"
+  },
+  "source_type": "journal-article",
+  "text_sha256": "8fa6b95e9c48b336d090a32cd683c46bcb643c5ebaa859e3de68ff284eac0920",
+  "title": "The Pricing of Options and Corporate Liabilities",
+  "url": "https://doi.org/10.1086/260062",
+  "venue": "Journal of Political Economy",
+  "work_id": "doi:10.1086/260062",
+  "year": 1973
+}

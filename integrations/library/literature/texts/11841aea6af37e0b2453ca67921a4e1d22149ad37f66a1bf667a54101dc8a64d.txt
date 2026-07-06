@@ -1,0 +1,16 @@
+Multilingual denoising pre-training for neural machine translation. arXiv preprint arXiv:2001.08210, 2020. LGH+ [15]
+
+Xiaodong Liu, Jianfeng Gao, Xiaodong He, Li Deng, Kevin Duh, and Ye-Yi Wang. Representation learning using multi-task deep neural networks for
+semantic classification and information retrieval. In Proceedings of the 2015 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, 2015. LH [17]
+
+Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017. [69]
+
+Xiaodong Liu, Pengcheng He, Weizhu Chen, and Jianfeng Gao. Improving multi-task deep neural networks via knowledge distillation
+for natural language understanding. arXiv preprint arXiv:1904.09482, 2019. [70]
+
+Xiaodong Liu, Pengcheng He, Weizhu Chen, and Jianfeng Gao. Multi-task deep neural networks for natural language understanding. arXiv preprint arXiv:1901.11504, 2019. Lin [20]
+
+Tal Linzen. How can we accelerate progress towards human-like linguistic
+generalization? arXiv preprint arXiv:2005.00955, 2020.

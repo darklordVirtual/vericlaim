@@ -1,0 +1,17 @@
+Abadi et al. (2016)
+
+Martín Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
+Craig Citro, Gregory S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin,
+Sanjay Ghemawat, Ian J. Goodfellow, Andrew Harp, Geoffrey Irving, Michael
+Isard, Yangqing Jia, Rafal Józefowicz, Lukasz Kaiser, Manjunath Kudlur,
+Josh Levenberg, Dan Mané, Rajat Monga, Sherry Moore, Derek Gordon
+Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya
+Sutskever, Kunal Talwar, Paul A. Tucker, Vincent Vanhoucke, Vijay Vasudevan,
+Fernanda B. Viégas, Oriol Vinyals, Pete Warden, Martin Wattenberg,
+Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. Tensorflow: Large-scale machine learning on heterogeneous distributed
+systems. CoRR, abs/1603.04467, 2016. URL http://arxiv.org/abs/1603.04467. Aljundi et al. (2016)
+
+Rahaf Aljundi, Punarjay Chakravarty, and Tinne Tuytelaars. Expert gate: Lifelong learning with a network of experts. CoRR, abs/1611.06194, 2016. URL http://arxiv.org/abs/1611.06194. Almahairi et al. (2015)
+
+A. Almahairi, N. Ballas, T. Cooijmans, Y. Zheng, H. Larochelle, and
+A. Courville. Dynamic Capacity Networks. ArXiv e-prints, November 2015. Amodei et al.

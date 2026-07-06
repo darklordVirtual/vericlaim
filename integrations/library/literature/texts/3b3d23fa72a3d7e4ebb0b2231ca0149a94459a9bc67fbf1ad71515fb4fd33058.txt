@@ -1,0 +1,15 @@
+In order to derive groupings of object categories for the specialists, we decided to focus on categories that our full
+network often confuses. Even though we could have computed the confusion matrix and used it as a way to find such
+clusters, we opted for a simpler approach that does not require the true labels to construct the clusters. JFT 1: Tea party; Easter; Bridal shower; Baby shower; Easter Bunny; …
+
+JFT 2: Bridge; Cable-stayed bridge; Suspension bridge; Viaduct; Chimney; …
+
+JFT 3: Toyota Corolla E100; Opel Signum; Opel Astra; Mazda Familia; …
+
+Table 2: Example classes from clusters computed by our
+covariance matrix clustering algorithm
+
+In particular, we apply a clustering algorithm to the covariance matrix of the predictions of our generalist model, so that
+a set of classes that are often predicted together will be used as targets for one of our specialist models, . We applied an on-line
+version of the K-means algorithm to the columns of the covariance matrix, and obtained reasonable clusters (shown in
+Table 2). We tried several clustering algorithms which produced similar results.

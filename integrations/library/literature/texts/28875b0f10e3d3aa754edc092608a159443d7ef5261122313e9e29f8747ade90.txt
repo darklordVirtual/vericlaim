@@ -1,0 +1,9 @@
+LeCun. Pushing stochastic gradient towards second-order
+methods–backpropagation learning with transformations in nonlinearities. In Neural Information Processing, 2013. [48]
+
+A. Vedaldi and B. Fulkerson. VLFeat: An open and portable library of computer vision algorithms,
+2008. [49]
+
+W. Venables and B. Ripley. Modern applied statistics with s-plus. 1999. [50]
+
+M. D. Zeiler and R. Fergus. Visualizing and understanding convolutional neural networks. In ECCV, 2014.

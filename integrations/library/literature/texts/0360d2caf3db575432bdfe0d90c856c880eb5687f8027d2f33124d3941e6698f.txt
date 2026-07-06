@@ -1,0 +1,5 @@
+We have not yet shown that we can distill the knowledge in
+the specialists back into the single large net. Acknowledgments
+
+We thank Yangqing Jia for assistance with training models on ImageNet and Ilya
+Sutskever and Yoram Singer for helpful discussions.
