@@ -1,0 +1,11 @@
+•
+
+LANGUAGE. We used an approach similar to Abdou et al. (2021). –
+
+We take pairs of (color, word) appeared in the dataset collected by Lindsey & Brown (2014), where participants were asked to free name each of the colors from the Munsell Color Chart. We filtered words that appeared less than times, and computed each word’s associate color by taking the centroid in CIELAB space. Our filtering process followed Abdou et al. (2021) exactly, but resulted in colors, a slightly different set than the colors they claimed. –
+
+For each of the color words <col>, we construct three sentences:
+
+The color <col>. This color is <col>. The color of this thing is <col>. and obtain the average sentence embedding from the language encoder, as the embedding for <col> (details below). We find this approach more effective than Abdou et al. (2021), which uses object names that potentially have color biases, even though the objects may appear in multiple colors. –
+
+Unlike Abdou et al. (2021), we did not perform linear regression from language embedding to CIELAB space, which distorts distances and easily overfits with only samples.

@@ -1,0 +1,17 @@
+3). As Voyager progresses to harder self-driven goals, it naturally learns a variety of skills, such as “mining a diamond”. The input prompt to GPT-4 consists of several components:
+
+(1)
+
+Directives encouraging diverse behaviors and imposing constraints, such as “My ultimate goal is to discover as many diverse things as possible ... The next task should not be too hard since I may not have the necessary resources or have learned enough skills to complete it yet.”;
+
+(2)
+
+The agent’s current state, including inventory, equipment, nearby blocks and entities, biome, time, health and hunger bars, and position;
+
+(3)
+
+Previously completed and failed tasks, reflecting the agent’s current exploration progress and capabilities frontier;
+
+(4)
+
+Additional context: We also leverage GPT-3.5 to self-ask questions based on the agent’s current state and exploration progress and self-answer questions. We opt to use GPT-3.5 instead of GPT-4 for standard NLP tasks due to budgetary considerations.

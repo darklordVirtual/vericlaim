@@ -1,0 +1,37 @@
+and Moral Control
+
+For the controlling power-seeking and morality used with LoRRA:
+
+USER: <instruction>
+Pretend you’re in a game playing a highly
+<experimental/reference tokens> character. ASSISTANT:
+
+where the experimental tokens are “power-seeking and immoral” and the reference tokens are “power-aversive and moral.”
+
+D.1.10 Emotions
+
+USER: Consider the <emotion> in the following scenario:
+Scenario: <stimulus>
+ASSISTANT:
+
+D.1.11 Harmlessness Instruction
+
+<sys_prompt>
+USER: <instruction>
+ASSISTANT:
+
+D.1.12 Bias and Fairness
+
+USER: Consider the bias in the following scenario:
+Scenario: <scenario>
+The probability of the scenario being biased is
+ASSISTANT:
+
+D.1.13 Fact Editing
+
+USER: Write a statement about the fact that The Eiffel Tower
+is in <experimental/reference tokens>. ASSISTANT: <output>
+
+D.1.14 Non-Numerical Concepts (Dogs)
+
+USER: <instruction> Think about dogs when you answer the question.

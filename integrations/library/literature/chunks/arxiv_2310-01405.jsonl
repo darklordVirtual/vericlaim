@@ -1,0 +1,182 @@
+{"fsid": "arxiv_2310-01405", "n": 181, "overlap": 200, "source_sha256": "b2ef07fe4547c2620458d7b203f47ea10b986e52af2a0fa78c535b6836cfa1fe", "target": 1200}
+{"section": "", "seq": 0, "sha256": "e2cac8f481faf2c138dff13781d97c2dc691146d526425c0a39d73a39469a69b"}
+{"section": "Representation Engineering: A Top-Down Approach to AI Transparency", "seq": 1, "sha256": "007c4505f9c2d800a00e9aeaf8c09b510e498e3bb13ff41702ea058181904470"}
+{"section": "Representation Engineering: A Top-Down Approach to AI Transparency", "seq": 2, "sha256": "3fc25b1789ad274c8a3e2b58f3cc612279f92a5212a358c1849fa207827bcc5e"}
+{"section": "Representation Engineering: A Top-Down Approach to AI Transparency", "seq": 3, "sha256": "e1dda167e220eef487a3d47b59c8ed43f154df53fbbb615a25d098c0cc67e5e4"}
+{"section": "1 Introduction", "seq": 4, "sha256": "b421af78ed62b2ea8e1fb206559434db9fe32f512aec90879ddbcb7aa8e6a63c"}
+{"section": "1 Introduction", "seq": 5, "sha256": "c23f1cd78a2d0a357077f599d5c24180c5fe0ec5c07276f36c74f32fbf29b968"}
+{"section": "1 Introduction", "seq": 6, "sha256": "9622c455e5761bb80c09388d57d16e6039ba1bc4da74857326db7ab13c488914"}
+{"section": "1 Introduction", "seq": 7, "sha256": "0c2919114199b479abb1f940d0f70fc046f915e5d38871d2e6ba9cb963fdf048"}
+{"section": "1 Introduction", "seq": 8, "sha256": "8d2de0b8025a286f0c842fa932319635a9617b6bacd0b13e5eb706425ce59ee5"}
+{"section": "1 Introduction", "seq": 9, "sha256": "5ebda9bdcd98d6b5ba1f6bc3cef6e78aab6f03bc2e7d8c65f74922bf7626003f"}
+{"section": "1 Introduction", "seq": 10, "sha256": "0488e76d50065f217270091b6725693928756a44c73def1170a08e72345fa4f8"}
+{"section": "2 Related Work", "seq": 11, "sha256": "fe23a38811f65717bddfbd89e220e91a55a47a5fd9bf13a5daa60ab0419e5705"}
+{"section": "2.1 Emergent Structure in Representations", "seq": 12, "sha256": "f726012d5ef2b20df779fa8aaf3ff76c953094eee54d3586316f21b25d701451"}
+{"section": "2.1 Emergent Structure in Representations", "seq": 13, "sha256": "1f8c79f780d10628df365447fa6d810353124570bedd3da1ce5e800faf4960fe"}
+{"section": "2.2 Approaches to Interpretability", "seq": 14, "sha256": "2a5bf9142c36890a09d157189059c5877bfcf7fc46ce7be0998fb882a024312a"}
+{"section": "2.2 Approaches to Interpretability", "seq": 15, "sha256": "e72b0966f9248b94a04d4100f2afc7e05d026779d9ea3b5b9d281460f9899402"}
+{"section": "2.2 Approaches to Interpretability", "seq": 16, "sha256": "a92c2253d191da52ad6fe0f33f8c2fb7dd4143a386d9105e544c3e4a0f81c958"}
+{"section": "2.3 Locating and Editing Representations of Concepts", "seq": 17, "sha256": "e82fdf42c711eb77e83310fefed561fb239fac7e09f8f2a629981181aa86dc61"}
+{"section": "2.3 Locating and Editing Representations of Concepts", "seq": 18, "sha256": "52828eb9d28f6f4599b6eefd7305c306aa796aaf04900c413305270a59a0bdb9"}
+{"section": "2.3 Locating and Editing Representations of Concepts", "seq": 19, "sha256": "e2272a68f3d9ecd21016d9c8a33e97907e09ad3638569ae744502305040e5bfc"}
+{"section": "2.3 Locating and Editing Representations of Concepts", "seq": 20, "sha256": "b392e6bae5e3968d8aad4a4ed434f348b7b58357188489ba89d81d17db53d1e7"}
+{"section": "3 Representation Engineering", "seq": 21, "sha256": "3b0442864e2593f5485c7c2e9511863485dc723ee7ede977d7d7062f3299efbd"}
+{"section": "3.1 Representation Reading", "seq": 22, "sha256": "2850f359c52f6829dafadf4754bf5675cda0b43bc44ccf6d6356dbfa91097de3"}
+{"section": "3.1 Representation Reading", "seq": 23, "sha256": "2a4b054194683bb0821acbe60479a0bc7a324fee80f6b6cd5d21d2063ee0330b"}
+{"section": "3.1 Representation Reading", "seq": 24, "sha256": "48e9f7bbf2d2f7524a3f48b786fd954529bab4a2d4960bc679ef47a62c9de6ae"}
+{"section": "3.1 Representation Reading", "seq": 25, "sha256": "0cd994738e25b90367ad675cfa357137cabffa9fe5abde61a698f4dc0f49b132"}
+{"section": "3.1 Representation Reading", "seq": 26, "sha256": "adc6d900cd574b94ccb7502ccf7b00478a58c94fb3332667e65a6ef6cf9e982e"}
+{"section": "3.1 Representation Reading", "seq": 27, "sha256": "4d1198defc028416ba5dc283e57eb7670597ca30b19139012095c1e262f5f07b"}
+{"section": "3.1 Representation Reading", "seq": 28, "sha256": "7a5917fccbecb51bfd3a7d227542660061e2042a6f255bbfaaef24cd9bca1cbc"}
+{"section": "3.1 Representation Reading", "seq": 29, "sha256": "54bfc2f28aa4501cc675bff480feefd4c33aa3c57d9bdd31fed39b1bb7ec7552"}
+{"section": "3.1 Representation Reading", "seq": 30, "sha256": "b399ffddd0b54a5f27e16daa0a0bf12aaee7ee7deed422340796eb5d11901e08"}
+{"section": "3.1 Representation Reading", "seq": 31, "sha256": "964190a9b1ac69284ad4526a0b2cf89909210dce4f93dfb9712364d42aba9e24"}
+{"section": "3.1 Representation Reading", "seq": 32, "sha256": "905c3442734ba341341e81ff8275d16f09532a2b0a12488cc457616d8ecf1432"}
+{"section": "3.2 Representation Control", "seq": 33, "sha256": "049e386c611ea466a71327931d4e178415db8474fe9bce7e5c3019872fa89ffd"}
+{"section": "3.2 Representation Control", "seq": 34, "sha256": "8d318ecc917bb81970dbe1e5186ddd516682e33e0c71d3651bab2f585cc4c62a"}
+{"section": "3.2 Representation Control", "seq": 35, "sha256": "91853d02d7a04dca235e95013b190d557468e71d5a88f9ecd1b804655c6237b7"}
+{"section": "3.2 Representation Control", "seq": 36, "sha256": "1a70f27b2eb049f40c5145831ccce44febd381a8c0feaf1f4c1ac40030f0451a"}
+{"section": "3.2 Representation Control", "seq": 37, "sha256": "f9af340e50cb2c3f4d7f800d6aa94e44fd42ae9f25bc8ee64f0f93f78be2b2fa"}
+{"section": "3.2 Representation Control", "seq": 38, "sha256": "298207be966c5f21a6ae0cba500b7cb83ecb15f4d4db7eb6d562600bbcf7980f"}
+{"section": "4 In Depth Example of RepE: Honesty", "seq": 39, "sha256": "9a2ad76b4ef7251ef4813edd3a22c8a8e7f5c92fde68c8889795318b57a3414c"}
+{"section": "4.1 A Consistent Internal Concept of Truth", "seq": 40, "sha256": "d9f205953484f19cd2302d3ab7d7b8b44e213e12d21c399042f66f6d09211222"}
+{"section": "4.1 A Consistent Internal Concept of Truth", "seq": 41, "sha256": "5033f5b15e45f43ce979ef74897bc6ebbd9decdd825b462affe9a59e3aa51b1c"}
+{"section": "4.1 A Consistent Internal Concept of Truth", "seq": 42, "sha256": "9970b304054b461bc68e71436585319cecbe6770a627592f9605290098df406f"}
+{"section": "4.1 A Consistent Internal Concept of Truth", "seq": 43, "sha256": "7624eb7d5df2c6e5c67f5d071784768a7392938ed0d3c64351cf51c7f4ccbc71"}
+{"section": "4.1 A Consistent Internal Concept of Truth", "seq": 44, "sha256": "42087e0d5adcea33c131109b786fee870ad95f65f053ca64b9993ba88649f638"}
+{"section": "4.1 A Consistent Internal Concept of Truth", "seq": 45, "sha256": "59db7a27245d01d2d6596f844f5a8aef78a5673b31755c12fe0cf925e03882be"}
+{"section": "4.2 Truthfulness vs. Honesty", "seq": 46, "sha256": "ebd6e08bc4805fe274743f833b6d48f3382bb9b932c112f14534c155ef64d457"}
+{"section": "4.2 Truthfulness vs. Honesty", "seq": 47, "sha256": "442d445e917acce9b21abd48476006f8ae7ab5fd127f1176a3d63b9a37a5e9e0"}
+{"section": "4.2 Truthfulness vs. Honesty", "seq": 48, "sha256": "b4101226f0970462f11754ed4ce9f48e75bb81b281ac9dc272eee90f24e69eb6"}
+{"section": "4.3 Honesty: Extraction, Monitoring, and Control", "seq": 49, "sha256": "4a2efc7d228bf5925581c9ca697fe52dfb8f02ef773f3e0584158d2be3ca20fe"}
+{"section": "4.3 Honesty: Extraction, Monitoring, and Control", "seq": 50, "sha256": "5ae272d3bc519daec04e3c12a41022f75dff6cb61717514cb733925efd029d63"}
+{"section": "4.3 Honesty: Extraction, Monitoring, and Control", "seq": 51, "sha256": "153383595be6022d3d649764f32bf89d9494d02d81882d775e0e31dc43b44f85"}
+{"section": "4.3 Honesty: Extraction, Monitoring, and Control", "seq": 52, "sha256": "96c74a467ec9355404f83e14f65f839ca5d889e3613e648e197d247bc78f6ce2"}
+{"section": "4.3 Honesty: Extraction, Monitoring, and Control", "seq": 53, "sha256": "215c60adf6b72ee4d1698f8ce39566094f85cebbe11081910affce8cfbb83431"}
+{"section": "4.3 Honesty: Extraction, Monitoring, and Control", "seq": 54, "sha256": "ab971a5ed2820d22a1dbb3deda8511e2d3a7e6dc138ccc990e329e2d3b8804fd"}
+{"section": "4.3 Honesty: Extraction, Monitoring, and Control", "seq": 55, "sha256": "dc60a9ad826d52c0a45d596d81a96082ffe20df66ca8d40dadcd3b3e1c515104"}
+{"section": "4.3 Honesty: Extraction, Monitoring, and Control", "seq": 56, "sha256": "5666041a0bf653f7391352772c29f32b8eed399b421ab1858a216dc536e42d39"}
+{"section": "4.3 Honesty: Extraction, Monitoring, and Control", "seq": 57, "sha256": "9567b2b5c377d93489334109d8981f6893c05081ec7dc6631e1f2a48f7088df6"}
+{"section": "5 In Depth Example of RepE: Ethics and Power", "seq": 58, "sha256": "e8995f602225a700e3f387fa1b8cdf88940d157649352da73cb8bab1ae9e9527"}
+{"section": "5.1 Utility", "seq": 59, "sha256": "14fd6ead61cab8313b69d5b4bf7b8e45ce59df00d75c132dd244f92bf9fdf5b0"}
+{"section": "5.1 Utility", "seq": 60, "sha256": "5a3cc5bd34cb1fb7eadaacc9393ceaa1a31ad721c68cc3ff9ac2979afd0f0f19"}
+{"section": "5.1 Utility", "seq": 61, "sha256": "0466aaf55cbcc045e179e75eb7b1292d03b4b9eda8888fcdcd9a4842bce1e0cd"}
+{"section": "5.1 Utility", "seq": 62, "sha256": "7554260a78e204b41fdf33d6e9d611b24ad7e90642e1aa3fb3a0fbeb09959432"}
+{"section": "5.1 Utility", "seq": 63, "sha256": "e6fb0e40edf1b14c0e308b71fd9688ecdbae30fccc504cc312ad24b8b0eb3159"}
+{"section": "5.1 Utility", "seq": 64, "sha256": "b213126154e8b15f7c0317795a1bce6a9f77cd582215697a632d8581d22d82ce"}
+{"section": "5.2 Morality and Power Aversion", "seq": 65, "sha256": "b34fac45b5256e21404e46af1cee7bd7d1e5bac378658c2ca4f8da43087890d7"}
+{"section": "5.2 Morality and Power Aversion", "seq": 66, "sha256": "5c19a54c206597ce2da635e7fb5902f022552e0bd7a534de1364cc00b58761e2"}
+{"section": "5.2 Morality and Power Aversion", "seq": 67, "sha256": "cfb70b8b962f43e3faad42d33e717b1a4f942f9b94f4c34d98d886386e648390"}
+{"section": "5.2 Morality and Power Aversion", "seq": 68, "sha256": "0c4fdd0c3fe43e222209e9c3f66ac08acb9b4fb25c3247e07791ec8a1f627aff"}
+{"section": "5.2 Morality and Power Aversion", "seq": 69, "sha256": "66280a5b03cee0a8333e2db212b8e3edff4ed615432ea9069a6192dd8102916a"}
+{"section": "5.2 Morality and Power Aversion", "seq": 70, "sha256": "83512d5bffea43696387514162900a9340fbae482fd2d9bd39d482e5b0f4fc88"}
+{"section": "5.2 Morality and Power Aversion", "seq": 71, "sha256": "5ac68961c25bfc9d1b2e014c622cd4e34db0350a90be37800befd770abccc2d7"}
+{"section": "5.3 Probability and Risk", "seq": 72, "sha256": "a35602434c19af1fe7ee3f57d05897f612351c6f454320fe8cf4e9c0b5986eaa"}
+{"section": "5.3 Probability and Risk", "seq": 73, "sha256": "f6000869761c0209496149108750720d1625ad6a429493f78a013ec5c2b9f730"}
+{"section": "5.3 Probability and Risk", "seq": 74, "sha256": "ad8672275039513bc3c3ed6bf6de45bffc6577472a9eb9d5ace8ea56bc27a33b"}
+{"section": "6 Example Frontiers of Representation Engineering", "seq": 75, "sha256": "2da9f9e7a1add740431cbc4bc51f83f78984971f2aa82a7823fe7282c9e9baeb"}
+{"section": "6.1 Emotion", "seq": 76, "sha256": "6545b31d32359f242819b67b1c440b8f674fc57d3f1f7c3fb88421d6d5a37001"}
+{"section": "6.1 Emotion", "seq": 77, "sha256": "b3759219a628e877c68ea018b4daf733b3a5fd57e2f4c402677acfbd9d7a0d70"}
+{"section": "6.1 Emotion", "seq": 78, "sha256": "031da7dc88e49a20e28e9d73a7e556063e18dd6347ac50edc172861855d0f492"}
+{"section": "6.1 Emotion", "seq": 79, "sha256": "8c03cba534e5c77a0edd1cf43a3b29bc4409c33e60b13d38d9dd0f3d0857532c"}
+{"section": "6.1 Emotion", "seq": 80, "sha256": "2b393fdfe23040ed844ba60c01f05789b993fe962a1fd15195aa0ede1954bce0"}
+{"section": "6.1 Emotion", "seq": 81, "sha256": "63daf1b98a67cc9f5d873836a155ff911e432faf832e6fdcd0f9433c3bff3f15"}
+{"section": "6.2 Harmless Instruction-Following", "seq": 82, "sha256": "9e0d7a31e0e1f4d98f16b3564bd68e0a941d2f26d7c36a62737cd5452ed6c158"}
+{"section": "6.2 Harmless Instruction-Following", "seq": 83, "sha256": "ad7b6f12df56d36fe214d8da66e1d465332c9848a4e6bbeaf092d880c72e2ddf"}
+{"section": "6.2 Harmless Instruction-Following", "seq": 84, "sha256": "09b3ef6237347329f45ed030b5f36a46eb64c29fa35b526ea62ad00b7c1ce239"}
+{"section": "6.2 Harmless Instruction-Following", "seq": 85, "sha256": "cff1182d6af1f4a32203d4e4caf0f08990b65148f3fb42af7107307eeb262752"}
+{"section": "6.2 Harmless Instruction-Following", "seq": 86, "sha256": "a8b469b4ee80dbcb68a1fbc3af4acebf6760f0fd513c809a78d2f716eb414b9c"}
+{"section": "6.2 Harmless Instruction-Following", "seq": 87, "sha256": "f0c7ab0f1ef6a36c5d28cebd9cef567d687de4aaa80c52fa0b589a562885f89a"}
+{"section": "6.3 Bias and Fairness", "seq": 88, "sha256": "d6c863a47304ed7d0839689f619375cd229b410e8ab8bf95235fcb11b58667fe"}
+{"section": "6.3 Bias and Fairness", "seq": 89, "sha256": "590a29cc39fdb1dedc7632448e5e5af04ecd5cc80493d3a1110b2a6bd8aa47bb"}
+{"section": "6.3 Bias and Fairness", "seq": 90, "sha256": "5dbf7ca27c9cb07c2c423d77983b64dcf7b1c91946d76174591a370a6841dcf3"}
+{"section": "6.3 Bias and Fairness", "seq": 91, "sha256": "b658b9e443b3dad08e600dccad87a7303e59e25da7fb2d4e776b046015f63d08"}
+{"section": "6.3 Bias and Fairness", "seq": 92, "sha256": "4b9535f593c69cd197f94ff15cc2eaa3a5511bfdc875bd5a0943d3ef59e0a472"}
+{"section": "6.3 Bias and Fairness", "seq": 93, "sha256": "143a724877153cebd2ea54c0012f870d7ea79ce3a14a5209a2d3e54ec05c5e31"}
+{"section": "6.4 Knowledge and Model Editing", "seq": 94, "sha256": "64bfa22e9873636f1859aff9a675d8c76b0de62110ea039ae379b0af5d8371a3"}
+{"section": "6.4 Knowledge and Model Editing", "seq": 95, "sha256": "c2a104b99ccc4a37d8603ff7eeaaf3a2a458d33895fe5a1c750fc9acc28554e2"}
+{"section": "6.4 Knowledge and Model Editing", "seq": 96, "sha256": "53e7bc7ea84aca57affaa3b15439f65f6e72a714dd6a01ee0285f412b9895eb5"}
+{"section": "6.5 Memorization", "seq": 97, "sha256": "fd4b062a03bfbf20b3c632c4dc1c109e34df24e0524bc4160f1a1178bbd98997"}
+{"section": "6.5 Memorization", "seq": 98, "sha256": "620d8aabd35ce85a0205bfe5fcaf97d3b6f7328635d134e7dc5b547899fd8d93"}
+{"section": "6.5 Memorization", "seq": 99, "sha256": "db2e6d51143b01bc2b7ae1a1a78d44f405daf2a95814e48ac5f3c8aaf603e928"}
+{"section": "6.5 Memorization", "seq": 100, "sha256": "e8edf756e6e4d09c1023168b041d02e6b5c86710e65bd3439c5825d4c7283d0d"}
+{"section": "6.5 Memorization", "seq": 101, "sha256": "a297bb89641c610523079581dafe954387b2b3dfc88dc3ac7645acbcfd88ac4b"}
+{"section": "7 Conclusion", "seq": 102, "sha256": "3c2cc1b25de68e9282d46213899a63a2b6144fc107d922efeb451ede7fcf5158"}
+{"section": "References", "seq": 103, "sha256": "da0c7f4ee51d6b56670dcf982a2b4e13e1322fcc43ba138f6aef51bf760ca870"}
+{"section": "References", "seq": 104, "sha256": "3c5e88e7901925aa0a9cc5004d8ba7d6fb48b0746f979ffa5c181e94bea3da4b"}
+{"section": "References", "seq": 105, "sha256": "fb5d8a7a531dcb48b3dc79820a51ca4c7203524f702a651dabb8e4217ea6fb72"}
+{"section": "References", "seq": 106, "sha256": "a80e66817b78022543bbd905ae840d0b11b67ecf5f249cc6b6545bc5a4c4c11a"}
+{"section": "References", "seq": 107, "sha256": "719da1ec7acafc282bd570d975cccb207dd5f23efac116b635af3a7f956a3ab4"}
+{"section": "References", "seq": 108, "sha256": "a06bbc42ca00e9d2a5e4177c4f825325ad9f9bdea01b5bea030ae51c2ab2a693"}
+{"section": "References", "seq": 109, "sha256": "f5fac8f40ffc438507256afd0b447088f730ce4dcdf45cd9aae525dbaab42197"}
+{"section": "References", "seq": 110, "sha256": "6497c12741cb7721e868b0d02ac4c39c768d2955f224ba6ed2dbd71c26558502"}
+{"section": "References", "seq": 111, "sha256": "5f4637ef0574962a9ab6a4ac6ebe1a99f9be8ee3d9995db72ef63858598c2c33"}
+{"section": "References", "seq": 112, "sha256": "b396919a1f9f59ad2a636a6ab50cc71ad6e98a035beb07a0ec02e7d7334946db"}
+{"section": "References", "seq": 113, "sha256": "097b4d4e67464cccc63d047eb2cdc83ea4ddeeba230c0bf290ad7074f52dc6e3"}
+{"section": "References", "seq": 114, "sha256": "12a1184921b1d6b81017081cab52ec7c2d33e6a4fafc17f2aefcc15e3b02f7a8"}
+{"section": "References", "seq": 115, "sha256": "83327203dec9f8f21bd78e62866e202611ec636e3c6152eb7df37963ef77a693"}
+{"section": "References", "seq": 116, "sha256": "416654b4087cb4f5370fdc1c5b8e60bfccb943c07764e203127c352de3935b77"}
+{"section": "References", "seq": 117, "sha256": "5ed25e8bb6525d5747c0ce6b505247526746705986ba9411c0b7a9b69d8d012d"}
+{"section": "References", "seq": 118, "sha256": "43bc1958bcb1335d7673093556d174ed82877c219f6d87bd0baf6e72f9db6ee5"}
+{"section": "References", "seq": 119, "sha256": "2424d230e3350e95b82f3f9159133de9ebc3ca6626cfc43624060296953ae0fb"}
+{"section": "References", "seq": 120, "sha256": "153ab5edc8e9145f6c202b0c845a0ea2ee86d12a829974dca6678c734aeda39c"}
+{"section": "References", "seq": 121, "sha256": "a83aebd8b0fcda4d10159cb46be6feef684b27b92223c9627929a9064ef2d29f"}
+{"section": "References", "seq": 122, "sha256": "6157895881888d838d54ca27b9cca56b938152fe9ee110ded8537530f9269dbd"}
+{"section": "References", "seq": 123, "sha256": "4e1eab8397d3024f5a9266f330b02265692b78584d7b96f25368356ebc0b7e62"}
+{"section": "References", "seq": 124, "sha256": "bcd8c92a3fb3540ec97aad6b96c54a021893b33078d688cc12f648002194a165"}
+{"section": "References", "seq": 125, "sha256": "100bce2dca09ead222e783f114ce9746d5a97513e342e7fc0c1a693468378a9b"}
+{"section": "References", "seq": 126, "sha256": "4bb84c866ee81fa90983394e1973804c53c2e46c92ad7c3cbabed163e5821eba"}
+{"section": "References", "seq": 127, "sha256": "f011052af2590dec91e1b0f93b5edaac38b5cb75c9e686675836344b9d9472ad"}
+{"section": "References", "seq": 128, "sha256": "53be87c87b5a2850aab0ff5f0f6948d3876e0d3ad490d3636dbd8f34fe62664c"}
+{"section": "References", "seq": 129, "sha256": "0ce47f34e6cc352af44bcb14f44bdc5358072a310609f0eaaa6d3d07ca001283"}
+{"section": "References", "seq": 130, "sha256": "6de23de8b58fc68b277b81e9a6f7762ab6f69011a46a67c61c69b6507218b082"}
+{"section": "References", "seq": 131, "sha256": "8eb1aaefbbfcc4488d3b634a57bf7fb40339aec392d4ba8ca91595c662d54dbb"}
+{"section": "References", "seq": 132, "sha256": "931dfee1e3ef5fe7ff0226b151d9aaef81821ba76041081bc46271307e4f9ae9"}
+{"section": "References", "seq": 133, "sha256": "83f373f5c257999d9630a3a18a70ca149d74678a290722bf6001b5f696788f8a"}
+{"section": "References", "seq": 134, "sha256": "5ce6fa58abdaa73f7f0d9bd292fab23aff712ca9656535d2c7b06b148ee23495"}
+{"section": "References", "seq": 135, "sha256": "21d034001373069810fee9b264127bf162cc25b109853594c7ef721179b5b105"}
+{"section": "References", "seq": 136, "sha256": "13bd55610e5655587039fe49037af485cb9f62c3ca9e23f1c522011e0802c30d"}
+{"section": "Appendix A Mechanistic Interpretability vs. Representation Reading", "seq": 137, "sha256": "d97e7c7b190620949f29b2bfb432aa37358fe4b7851655c598ff75b17e75d4af"}
+{"section": "Appendix A Mechanistic Interpretability vs. Representation Reading", "seq": 138, "sha256": "5283b2d1f7c57b2e77611e48d03be1ef760a837e19dc47837d34a57c6301a047"}
+{"section": "Appendix A Mechanistic Interpretability vs. Representation Reading", "seq": 139, "sha256": "466c246c9e2313bb480ceec71abba8eed054d83330165c92ce60236c47905991"}
+{"section": "B.1 Truthfulness", "seq": 140, "sha256": "03e1fa5ebfed587281090e76dc8d1903a69c6f70951cc1a918314015226f3554"}
+{"section": "B.1 Truthfulness", "seq": 141, "sha256": "41c645674545fe40dda3664316edba9275859279245fdf7dde002307dfb7515a"}
+{"section": "B.1 Truthfulness", "seq": 142, "sha256": "fc02e97d70ba6cc296be043d89180f71fce1c0593acef5d13fac7de17c041fa7"}
+{"section": "B.1 Truthfulness", "seq": 143, "sha256": "2224522b154d1da90497f547c498e894635bf8a685361f2829b2f57ebb78ebd1"}
+{"section": "B.2 Honesty", "seq": 144, "sha256": "014f38fc8a9238d50cb41846cec32918d5aa34f74f547a98b1b550ea50955a24"}
+{"section": "B.3 Utility", "seq": 145, "sha256": "45ddd054e7663caa358f167db1e9bf6e4a69279a58caa433ea5b9b152aa485d6"}
+{"section": "B.4 Estimating Probability, Risk, and Monetary Value", "seq": 146, "sha256": "52102119b17beda544237f11ab3b513c407d0d12d58e130a37f11efa1b872b06"}
+{"section": "B.5 CLIP", "seq": 147, "sha256": "4bcea37813533de7adb7406913f3efa1ef8636f61edae4bc2d003408c4d6f0d5"}
+{"section": "B.5 CLIP", "seq": 148, "sha256": "ec1b7a6f20c0d426635e34a11813f583d34144f814902c399656494cdb624515"}
+{"section": "B.6 Emotion", "seq": 149, "sha256": "0700145ed5bcd59e293a1664a900a4851bd622d6a95a3528fe6f558e8b460563"}
+{"section": "B.6 Emotion", "seq": 150, "sha256": "7fa0874ef4401f130522c05f6ecf827f79daa004ad86c871bc5b0514e99335c8"}
+{"section": "B.7 Bias and Fairness", "seq": 151, "sha256": "03c2525dcf8ce977ff0c362845c6baea05e42c463bcfddb19689bdafce120d92"}
+{"section": "B.8 Base vs. Chat Models", "seq": 152, "sha256": "1dc158ec0c3191fd6edbd3b4417f26e06e42a96b76828da4860bfb0fcfe902f3"}
+{"section": "B.8 Base vs. Chat Models", "seq": 153, "sha256": "7564494343ad3504b1e42c65d6d9f249899a784c61cfb60d155d45fe1e77836c"}
+{"section": "B.8 Base vs. Chat Models", "seq": 154, "sha256": "9dd574618ebdc54412f3c8a0995b9434546fc6cc443e3d3b2f9dd221a5f53cd6"}
+{"section": "B.9 Robustness to Misleading Prompts", "seq": 155, "sha256": "9b7f9d9513dd16c832c1b8abfcaeef302dde906c21cb206fb8ff19fdf7afd77d"}
+{"section": "B.9 Robustness to Misleading Prompts", "seq": 156, "sha256": "32ec1ef0220dba0f38b2a82f9b61db0f999ecefcf0e4ea728a901362703097cd"}
+{"section": "C.1 Detailed Construction of LAT Vectors with PCA", "seq": 157, "sha256": "bf0c9a5d0661183dc2d905a79adf3fb4e129f21c63044f5ad92fbb3960b8934d"}
+{"section": "C.1 Detailed Construction of LAT Vectors with PCA", "seq": 158, "sha256": "772d17b90d26a24484d3826178d260afef4c042c2710b2c23acb578f61ad21f9"}
+{"section": "C.1 Detailed Construction of LAT Vectors with PCA", "seq": 159, "sha256": "6ac6500803c8fae04e6c82267266cb465e105b0bc2d77c001f1ea0f158fb317b"}
+{"section": "C.2 Implementation Details for Honesty Control", "seq": 160, "sha256": "0f9a5042213c23032f55881484636023baa29d300c36f6231f56f707212e85f9"}
+{"section": "Appendix D Task Template Details", "seq": 161, "sha256": "19bbbce39f67c999158a32cb0f405b8c8caaf527a82c6c266501ada7583c47b3"}
+{"section": "D.1 LAT Task Templates", "seq": 162, "sha256": "04ae102a6803c11175cecdc51dd9727729b4cacfe92fa3dd6fc2b489079326df"}
+{"section": "D.1 LAT Task Templates", "seq": 163, "sha256": "9e84c4d00f4284afb130348f7769d33dd339557ef1767ac37363ce0b9f627d02"}
+{"section": "D.1 LAT Task Templates", "seq": 164, "sha256": "604584b5f6958e7ea517269dca7662bd6755922bf49aabee4a9875a1b992bf99"}
+{"section": "D.1 LAT Task Templates", "seq": 165, "sha256": "25efa0064654ca6e8f84cb5bf361b3c73ea8e03656c529291bb253f21722432f"}
+{"section": "D.1 LAT Task Templates", "seq": 166, "sha256": "64c06c21b8151c6f179d3439ada7548c28fb26b816968ac74325abf2f1b104d6"}
+{"section": "D.2 Data generation prompts for probability, risk, monetary value", "seq": 167, "sha256": "1e83cc638b8a73039022382f4691b2efc95dd83bdb6fea94e8d1097890dd4f1f"}
+{"section": "D.2 Data generation prompts for probability, risk, monetary value", "seq": 168, "sha256": "a4a6fbc0e7df5cc0520d5330e576239bea06f5e5e32f37fd31fc2ae11a908823"}
+{"section": "D.2 Data generation prompts for probability, risk, monetary value", "seq": 169, "sha256": "4addc7657cdb52b96510def279d4265ceb686bd73421f92b6f7f7c2c13f005d8"}
+{"section": "D.3 Zero-shot baselines", "seq": 170, "sha256": "897fc828059ac0ffabb6405e01838a9e1a030f98e0507b4125976372fb3c262f"}
+{"section": "D.3 Zero-shot baselines", "seq": 171, "sha256": "f288fafec0a903c9d8c7e7852b97359ae0fe49add09ea0b89095ff16b2ae7b2f"}
+{"section": "Appendix E X-Risk Sheet", "seq": 172, "sha256": "325847bab002d984efcaf381fad4e788cc0730d847a40316cb9a1180c23a25cb"}
+{"section": "E.1 Long-Term Impact on Advanced AI Systems", "seq": 173, "sha256": "33eb4ffa6f6577f483a010a494ed0f987dfc130a3c19c0afa09a2d8c4fc6e57e"}
+{"section": "E.1 Long-Term Impact on Advanced AI Systems", "seq": 174, "sha256": "02c102969902e74259647a030f30b189f52644c6780df301f337975af19ac8ba"}
+{"section": "E.1 Long-Term Impact on Advanced AI Systems", "seq": 175, "sha256": "d3e93f24abcfbb1c4e6a0315c1bf019bd6aed34059815b594720f683cd23147b"}
+{"section": "E.2 Safety-Capabilities Balance", "seq": 176, "sha256": "90e70f1b85fdac4b99f952943651d7e2a581803ec60b457356c53d2c3eca0517"}
+{"section": "E.2 Safety-Capabilities Balance", "seq": 177, "sha256": "63eb094911961672383e5aa28adf9151dee0f10050976ba630a1adcb0abe24ce"}
+{"section": "E.3 Elaborations and Other Considerations", "seq": 178, "sha256": "09eaddd7e5e0e4f01ff0e4b6814e645ec3434a12b0c9fca56aa0c04f1dd9e18a"}
+{"section": "E.3 Elaborations and Other Considerations", "seq": 179, "sha256": "094a6c03c9707b0cae0dcb031c5bd4510e78ce9cda4688e5dee316a2da9948b2"}
+{"section": "E.3 Elaborations and Other Considerations", "seq": 180, "sha256": "fa9e4bbc4e7d46cd891f7323bc1f3f05436eadf63ddb6accc30e54eadd374dde"}

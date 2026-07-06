@@ -1,0 +1,6 @@
+episode boundaries in reinforcement learning [lu2023structured]). Additionally, we elaborate on effects of each selective parameter. Interpretation of . In general, controls the balance between how much to focus or ignore the current input . It generalizes RNN gates (e.g. in Theorem˜1):
+mechanically, a large resets the state and focuses on the current input ,
+while a small persists the state and ignores the current input. SSMs (1)-(2) can be interpreted as a continuous system discretized by a timestep ,
+and in this context the intuition is that large represents the system focusing on the current input for longer (thus “selecting” it and forgetting its current state)
+while a small represents a transient input that is ignored. Interpretation of . We remark that while the parameter could also be selective, it ultimately affects the model only through its interaction with via (the discretization (4)). Thus selectivity in is enough to ensure selectivity in , and is the main source of improvement. We hypothesize that making selective in addition to (or instead of) would have similar performance,
+and leave it out for simplicity. Interpretation of and .

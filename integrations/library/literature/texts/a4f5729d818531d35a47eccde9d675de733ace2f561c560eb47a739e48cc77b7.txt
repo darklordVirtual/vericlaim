@@ -1,0 +1,13 @@
+(a) ARC (Challenge)
+
+(b) HellaSwag
+
+(c) LAMBADA (OpenAI)
+
+(d) OpenBookQA
+
+(e) ReCoRD
+
+(f) Winogrande
+
+Figure 5: Zero-Shot Performance of RWKV on common language modeling evaluation benchmarks. Additional plots can be found in Appendix J. To demonstrate that RWKV is competitive with traditional transformers at NLP tasks, we compare with similarly sized models trained for a similar number of tokens (Pythia Biderman et al. (2023b), OPT Zhang et al. (2022) and BLOOM Scao et al. (2022)). All RWKV models were trained for one epoch on the Pile (330B tokens), which is close but not identical to the amount of tokens the Pythia, OPT, and BLOOM models were trained for. Consequently, we compare our models on a FLOP-matched basis. We avoid comparing with model trained in the Chinchilla-optimal regime (Hoffmann et al., 2022) or the overtrained regime (Touvron et al., 2023) to ensure the most equitable comparison. We report results on ARC (both Easy and Challenge) Clark et al. (2018), BoolQ Clark et al. (2019), COPA Roemmele et al. (2018), HeadQA Vilares and Gómez-Rodríguez (2019), HellaSwag Zellers et al. (2019), LAMBADA Paperno et al. (2016), OpenBookQA Mihaylov et al. (2018), PIQA Bisk et al.

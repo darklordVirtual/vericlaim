@@ -1,0 +1,31 @@
+A.1.1 Binary operations
+
+The following are the binary operations that we have tried (for a prime number ):
+
+for
+
+for
+
+for ,
+
+if is odd, otherwise ] for
+
+for
+
+for
+
+for
+
+for
+
+for
+
+for
+
+for
+
+for
+
+For each binary operation we constructed a dataset of equations of the form , where stands for the token corresponding to element . For each training run, we chose a fraction of all available equations at random and declared them to be the training set, with the rest of equations being the validation set. A.1.2 Model and optimization
+
+We trained a standard decoder-only transformer Vaswani et al. (2017) with causal attention masking, and calculated loss and accuracy only on the answer part of the equation. For all experiments we used a transformer with 2 layers, width 128, and 4 attention heads, with a total of about non-embedding parameters. We have tuned optimization hyperparameters by running experiments on modular addition and product in . For final configuration of hyperparameters we have chosen a balance of performance we saw on and simplicity (for example we chose not to anneal the learning rate for the experiments in the paper even though it performed better in some situations).

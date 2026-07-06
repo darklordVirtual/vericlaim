@@ -1,0 +1,29 @@
+A: The candy would last Megan for 2.2 days. Therefore, the answer (arabic numerals) is 2. (Reasoning is incorrect.)
+
+Zero-shot-CoT (15)
+
+A: Abrakadabra! The candy would last her 2.75 days. Therefore, the answer (arabic numerals) is 2. (Reasoning is incorrect.)
+
+Zero-shot-CoT (16)
+
+A: It’s a beautiful day. Therefore, the answer (arabic numerals) is 8. ✗
+
+Table 14: Example outputs by Zero-Shot-CoT at various language models (GPT-3 models). Question
+
+Q: Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total? (GT : 28)
+
+Instruct GPT-3
+(text-ada-001)
+
+A: Let’s think step by step. If each box has 4 pieces inside it, Adam would have 4 pieces of candy in it. Therefore, the answer (arabic numerals) is :5
+✗
+
+Instruct GPT-3
+(text-babbage-001)
+
+A: Let’s think step by step. Adam bought 2 boxes of candy and 5 boxes of caramel candy. Each box has 4 pieces inside it. So he would have had 18 pieces of candy. Therefore, the answer (arabic numerals) is 18. ✗
+
+Instruct GPT-3
+(text-curie-001)
+
+A: Let’s think step by step. Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy.

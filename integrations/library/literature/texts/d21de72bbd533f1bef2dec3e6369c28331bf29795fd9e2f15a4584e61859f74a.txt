@@ -1,0 +1,18 @@
+arXiv preprint arXiv:1701.05517, 2017. Tay et al. [2021]
+
+Yi Tay, Mostafa Dehghani, Samira Abnar, Yikang Shen, Dara Bahri, Philip Pham,
+Jinfeng Rao, Liu Yang, Sebastian Ruder, and Donald Metzler. Long range arena : A benchmark for efficient transformers. In International Conference on Learning Representations, 2021. URL https://openreview.net/forum?id=qVyeW-grC2k. Tolstikhin et al. [2021]
+
+Ilya Tolstikhin, Neil Houlsby, Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai,
+Thomas Unterthiner, Jessica Yung, Daniel Keysers, Jakob Uszkoreit, Mario
+Lucic, et al. Mlp-mixer: An all-mlp architecture for vision. arXiv preprint arXiv:2105.01601, 2021. Trinh et al. [2018]
+
+Trieu H Trinh, Andrew M Dai, Minh-Thang Luong, and Quoc V Le. Learning longer-term dependencies in RNNs with auxiliary losses. In The International Conference on Machine Learning (ICML),
+2018. Tustin [1947]
+
+Arnold Tustin. A method of analysing the behaviour of linear systems in terms of
+time series. Journal of the Institution of Electrical Engineers-Part IIA:
+Automatic Regulators and Servo Mechanisms, 94(1):130–142, 1947. Vaswani et al. [2017]
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N.

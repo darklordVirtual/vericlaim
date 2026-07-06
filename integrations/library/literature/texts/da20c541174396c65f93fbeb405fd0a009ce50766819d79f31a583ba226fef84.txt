@@ -1,0 +1,1 @@
+Finally, in prompt chaining, one cascades different LLMs. This enables prompting different LLMs via different contexts, enabling more powerful reasoning [21, 48, 73, 23, 51, 72, 73]. GoT is orthogonal to this class of schemes, as it focuses on a single context capabilities.

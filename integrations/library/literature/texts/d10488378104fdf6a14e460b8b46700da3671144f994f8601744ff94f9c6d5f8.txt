@@ -1,0 +1,18 @@
+Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311, 2022. [7]
+
+Aidan Clark, Diego De Las Casas, Aurelia Guy, Arthur Mensch, Michela Paganini,
+Jordan Hoffmann, Bogdan Damoc, Blake Hechtman, Trevor Cai, Sebastian
+Borgeaud, et al. Unified scaling laws for routed language models. In International Conference on Machine Learning, pages
+4057–4086. PMLR, 2022. [8]
+
+Deep Ganguli, Danny Hernandez, Liane Lovitt, Amanda Askell, Yuntao Bai, Anna
+Chen, Tom Conerly, Nova Dassarma, Dawn Drain, Nelson Elhage, et al. Predictability and surprise in large generative models. In 2022 ACM Conference on Fairness, Accountability, and
+Transparency, pages 1747–1764, 2022. [9]
+
+Mitchell A Gordon, Kevin Duh, and Jared Kaplan. Data and parameter scaling laws for neural machine translation. In Proceedings of the 2021 Conference on Empirical Methods in
+Natural Language Processing, pages 5915–5922, 2021. [10]
+
+Dan Hendrycks. Detecting emergent behavior. 2022. [11]
+
+Tom Henighan, Jared Kaplan, Mor Katz, Mark Chen, Christopher Hesse, Jacob
+Jackson, Heewoo Jun, Tom B Brown, Prafulla Dhariwal, Scott Gray, et al. Scaling laws for autoregressive generative modeling.

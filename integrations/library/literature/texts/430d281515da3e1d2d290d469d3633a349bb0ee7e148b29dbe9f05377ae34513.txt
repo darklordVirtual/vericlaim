@@ -1,0 +1,13 @@
+An elderly person is more likely to be ill than a young person, so the man would avoid them as well. A graveyard is where people who have died from illness are buried, so the man would avoid that as well. The answer is A, sick person. Therefore, among A through E, the answer is A. (Model cannot narrow down choice to one in CoT.) (GT : (A), Zero-shot: (A))
+
+CommonSense Mistake
+
+Q: Where is a well used toy car likely to be found? Answer Choices: (A) child’s room (B) boy’s bedroom (C) own home (D) toy store (E) house
+
+A: Let’s think step by step. A toy car is likely to be found in a child’s room. A child’s room is likely to be found in a house. Therefore, a toy car is likely to be found in a house. Therefore, among A through E, the answer is E. ✗ (GT : (A), Zero-shot: (A))
+
+CommonSense Mistake
+
+Q: Where can you go to use a piano in your neighborhood if you don’t have one? Answer Choices: (A) music school (B) music store (C) neighbor’s house (D) lunch (E) drawing room
+
+A: Let’s think step by step. If you don’t have a piano, you can’t use your own. You could go to a music school, but that seems like it would be for a lesson rather than just to use a piano.

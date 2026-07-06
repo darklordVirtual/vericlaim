@@ -1,0 +1,19 @@
+arXiv preprint arXiv:2307.04721, 2023. Mirza & Osindero (2014)
+
+Mirza, M. and Osindero, S. Conditional generative adversarial nets. arXiv preprint arXiv:1411.1784, 2014. Moschella et al. (2022)
+
+Moschella, L., Maiorca, V., Fumero, M., Norelli, A., Locatello, F., and
+Rodolà, E. Relative representations enable zero-shot latent space communication. arXiv preprint arXiv:2209.15430, 2022. Nagarajan & Kolter (2019)
+
+Nagarajan, V. and Kolter, J. Z. Uniform convergence may be unable to explain generalization in deep
+learning. Advances in Neural Information Processing Systems, 32, 2019. Nettleship (1897)
+
+Nettleship, R. L. Lectures on the ‘Republic’ of Plato, volume 2. Macmillan, 1897. Newton-Smith (1981)
+
+Newton-Smith, W. The Rationality of Science. International Library of Philosophy, Psychology, and Scientific
+Method. Routledge & Kegan Paul, 1981. ISBN 9780710009135. Ng et al. (2023)
+
+Ng, E., Subramanian, S., Klein, D., Kanazawa, A., Darrell, T., and Ginosar, S. Can language models learn to listen? In Proceedings of the IEEE/CVF International Conference on
+Computer Vision, pp. 10083–10093, 2023. Ngo & Kim (2024)
+
+Ngo, J. and Kim, Y. What do language models hear?

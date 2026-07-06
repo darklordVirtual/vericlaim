@@ -1,0 +1,18 @@
+Video pretraining (vpt): Learning to act by watching unlabeled online
+videos. arXiv preprint arXiv: Arxiv-2206.11795, 2022. (9)
+
+DeepMind Interactive Agents Team, Josh Abramson, Arun Ahuja, Arthur Brussee,
+Federico Carnevale, Mary Cassin, Felix Fischer, Petko Georgiev, Alex Goldin,
+Mansi Gupta, Tim Harley, Felix Hill, Peter C Humphreys, Alden Hung, Jessica
+Landon, Timothy Lillicrap, Hamza Merzic, Alistair Muldal, Adam Santoro, Guy
+Scully, Tamara von Glehn, Greg Wayne, Nathaniel Wong, Chen Yan, and Rui Zhu. Creating multimodal interactive agents with imitation and
+self-supervised learning. arXiv preprint arXiv: Arxiv-2112.03763, 2021. (10)
+
+Oriol Vinyals, Igor Babuschkin, Junyoung Chung, Michael Mathieu, Max Jaderberg,
+Wojciech M Czarnecki, Andrew Dudzik, Aja Huang, Petko Georgiev, Richard
+Powell, et al. Alphastar: Mastering the real-time strategy game starcraft ii. DeepMind blog, 2, 2019. (11)
+
+Adrien Ecoffet, Joost Huizinga, Joel Lehman, Kenneth O. Stanley, and Jeff
+Clune. Go-explore: a new approach for hard-exploration problems. arXiv preprint arXiv: Arxiv-1901.10995, 2019. (12)
+
+Joost Huizinga and Jeff Clune.

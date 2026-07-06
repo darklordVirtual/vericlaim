@@ -1,0 +1,5 @@
+Proof. For any fixed , we want to compute . Computing this over all is therefore exactly a Cauchy matrix-vector multiplication. ∎
+
+This completes the proof of Theorem 3. In Algorithm 1,
+note that the work is dominated by Step 4,
+which has a constant number of calls to a black-box Cauchy kernel, with complexity given by Proposition 5.

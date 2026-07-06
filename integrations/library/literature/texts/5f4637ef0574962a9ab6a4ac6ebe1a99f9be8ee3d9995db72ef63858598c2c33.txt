@@ -1,0 +1,14 @@
+Toy models of superposition. Transformer Circuits Thread, 2022. Erhan et al. (2009)
+
+Dumitru Erhan, Yoshua Bengio, Aaron Courville, and Pascal Vincent. Visualizing higher-layer features of a deep network. University of Montreal, 1341(3):1, 2009. Evans et al. (2021)
+
+Owain Evans, Owen Cotton-Barratt, Lukas Finnveden, Adam Bales, Avital Balwit,
+Peter Wills, Luca Righetti, and William Saunders. Truthful ai: Developing and governing ai that does not lie, 2021. Fong & Vedaldi (2018)
+
+Ruth Fong and Andrea Vedaldi. Net2vec: Quantifying and explaining how concepts are encoded by
+filters in deep neural networks. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 8730–8738, 2018. French et al. (1959)
+
+John R French, Bertram Raven, and Dorwin Cartwright. The bases of social power. Classics of organization theory, 7(311-320):1, 1959. Gandikota et al. (2023)
+
+Rohit Gandikota, Joanna Materzynska, Jaden Fiotto-Kaufman, and David Bau. Erasing concepts from diffusion models, 2023. Gao et al.

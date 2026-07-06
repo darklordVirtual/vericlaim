@@ -1,0 +1,95 @@
+Andy Zou
+
+Center for AI Safety
+
+Carnegie Mellon University
+
+Long Phan∗
+
+Center for AI Safety
+
+Sarah Chen∗
+
+Center for AI Safety
+
+Stanford University
+
+James Campbell∗
+
+Cornell University
+
+Phillip Guo∗
+
+University of Maryland
+
+Richard Ren∗
+
+University of Pennsylvania
+
+Alexander Pan
+
+UC Berkeley
+
+Xuwang Yin
+
+Center for AI Safety
+
+Mantas Mazeika
+
+Center for AI Safety
+
+University of Illinois Urbana-Champaign
+
+Ann-Kathrin Dombrowski
+
+Center for AI Safety
+
+Shashwat Goel
+
+Center for AI Safety
+
+Nathaniel Li
+
+Center for AI Safety
+
+UC Berkeley
+
+Michael J. Byun
+
+Stanford University
+
+Zifan Wang
+
+Center for AI Safety
+
+Alex Mallen
+
+EleutherAI
+
+Steven Basart
+
+Center for AI Safety
+
+Sanmi Koyejo
+
+Stanford University
+
+Dawn Song
+
+UC Berkeley
+
+Matt Fredrikson
+
+Carnegie Mellon University
+
+Zico Kolter
+
+Carnegie Mellon University
+
+Dan Hendrycks
+
+Center for AI Safety
+
+Abstract
+
+We identify and characterize the emerging area of representation engineering (RepE), an approach to enhancing the transparency of AI systems that draws on insights from cognitive neuroscience.

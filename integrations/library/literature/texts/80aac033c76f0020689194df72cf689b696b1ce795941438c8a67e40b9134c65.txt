@@ -1,0 +1,29 @@
+Thus, for every given pair (one as query, and the other as key/value in the attention mechanism), we have an offset , where each offset is associated with an embedding. Then, we simply run extra attention, where we use the original query (the content of query), but use relative positional embeddings as keys. We then use the logits from the relative attention as a bias term and add it to the logits of the main attention (content-based attention) before applying the softmax. Pos. Emb. Default/Stem
+Every Layer
+Every Layer-Shared
+
+No Pos. Emb. 0.61382
+
+N/A
+
+N/A
+
+1-D Pos. Emb. 0.64206
+
+0.63964
+
+0.64292
+
+2-D Pos. Emb. 0.64001
+
+0.64046
+
+0.64022
+
+Rel. Pos. Emb. 0.64032
+
+N/A
+
+N/A
+
+Table 8: Results of the ablation study on positional embeddings with ViT-B/16 model evaluated on ImageNet 5-shot linear. Figure 10: Position embeddings of models trained with different hyperparameters. In addition to different ways of encoding spatial information, we also tried different ways of incorporating this information in our model.

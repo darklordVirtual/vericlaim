@@ -1,0 +1,16 @@
+2022b. Single-turn debate does not help humans answer hard
+reading-comprehension questions. arXiv preprint arXiv:2204.05212. Saunders et al. (2022)
+
+William Saunders, Catherine Yeh, Jeff Wu, Steven Bills, Long Ouyang, Jonathan
+Ward, and Jan Leike. 2022. Self-critiquing models for assisting human evaluators. arXiv preprint arXiv:2206.05802. Stiennon et al. (2020)
+
+Nisan Stiennon, Long Ouyang, Jeffrey Wu, Daniel Ziegler, Ryan Lowe, Chelsea
+Voss, Alec Radford, Dario Amodei, and Paul F Christiano. 2020. Learning to summarize with human feedback. Advances in Neural Information Processing Systems,
+33:3008–3021. Wei et al. (2022)
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and
+Denny Zhou. 2022. Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903. Wu et al. (2021)
+
+Jeff Wu, Long Ouyang, Daniel M Ziegler, Nisan Stiennon, Ryan Lowe, Jan Leike,
+and Paul Christiano. 2021. Recursively summarizing books with human feedback. arXiv preprint arXiv:2109.10862.

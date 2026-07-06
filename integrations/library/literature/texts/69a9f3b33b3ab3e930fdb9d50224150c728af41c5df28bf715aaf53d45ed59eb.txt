@@ -1,0 +1,21 @@
+18 </Examples>
+
+Input: My friend, Alex from Peru, once recounted his journey to Argentina where he learned about the strong cultural ties between Argentina and Brazil due to their shared history. He spoke fondly of his time in Argentina and Brazil, marveling at the similar music, dance, and culinary traditions that seamlessly bridged the borders of these countries. Step 2a – 10 Responses:
+
+1. {{ "Peru": 1, "Argentina": 1, "Brazil": 1 }} (3 Errors - Missing two ”Argentina” and one ”Brazil”)
+
+2. {{ "Peru": 1, "Argentina": 2, "Brazil": 2 }} (1 Error - Missing one ”Argentina”)
+
+3. {{ "Peru": 1, "Argentina": 2, "Brazil": 2 }} (1 Error - Missing one ”Argentina”)
+
+4. {{ "Peru": 1, "Argentina": 1, "Brazil": 1 }} (3 Errors - Missing two ”Argentina” and one ”Brazil”)
+
+5. {{ "Peru": 1, "Argentina": 2, "Brazil": 2 }} (1 Error - Missing one ”Argentina”)
+
+6. {{ "Peru": 1, "Argentina": 2, "Brazil": 2 }} (1 Error - Missing one ”Argentina”)
+
+7. {{ "Peru": 1, "Argentina": 1, "Brazil": 1 }} (3 Errors - Missing two ”Argentina” and one ”Brazil”)
+
+8. {{ "Peru": 1, "Argentina": 1, "Brazil": 1 }} (3 Errors - Missing two ”Argentina” and one ”Brazil”)
+
+9.

@@ -1,0 +1,21 @@
+Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020. [17]
+
+Victoria Krakovna, Vikrant Varma, Ramana Kumar, and Mary Phuong. Refining the sharp left turn threat model, part 1: claims and
+mechanisms. 2022. [18]
+
+Victoria Krakovna, Vikrant Varma, Ramana Kumar, and Mary Phuong. Refining the sharp left turn threat model, part 2: applying alignment
+techniques. 2022. [19]
+
+Alex Krizhevsky. Learning multiple layers of features from tiny images. Technical report, 2009. [20]
+
+Brenden M Lake, Ruslan Salakhutdinov, and Joshua B Tenenbaum. Human-level concept learning through probabilistic program induction. Science, 350(6266):1332–1338, 2015. [21]
+
+Yann LeCun. The mnist database of handwritten digits. http://yann. lecun. com/exdb/mnist/, 1998. [22]
+
+Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278–2324, 1998. [23]
+
+Chin-Yew Lin. Rouge: A package for automatic evaluation of summaries. In Text summarization branches out, pages 74–81, 2004. [24]
+
+Ryan Lowe and Jan Leike. Aligning language models to follow instructions. 2022. [25]
+
+Eric J.

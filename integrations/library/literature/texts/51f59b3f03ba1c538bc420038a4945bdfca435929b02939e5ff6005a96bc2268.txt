@@ -1,0 +1,22 @@
+(Dense)
+
+Dataset
+Environment
+DT (Ours)
+CQL
+BC
+%BC
+DT (Ours)
+CQL
+
+Medium-Expert
+Hopper
+
+Medium
+Hopper
+
+Medium-Replay
+Hopper
+
+Table 7:
+Results for D4RL datasets with delayed (sparse) reward. Decision Transformer (DT) and imitation learning are minimally affected by the removal of dense rewards, while CQL fails.

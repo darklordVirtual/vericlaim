@@ -1,0 +1,8 @@
+Now, we need to multiply because there are 7 baskets. 2 multiplied by 7 is 14. So, there are 14 green peaches in the baskets altogether. Therefore, the answer (arabic numerals) is 14. Q: Mary is baking a cake. The recipe calls for 12 cups of flour 14 cups of sugar and 7 cups of salt. She already put in 2 cups of flour. How many more cups of flour than cups of salt does she need to add now? A: Let’s think step by step. Mary has already put in 2 cups of flour. The recipe calls for a total of 12 cups of flour. That means Mary needs to add 10 more cups of flour. The recipe calls for a total of 7 cups of salt. That means Mary needs to add 5 more cups of salt. So, Mary needs to add 10 more cups of flour than she does salt. Therefore, the answer (arabic numerals) is 10. ✗ (GT : 3)
+
+Common-
+senseQA
+
+Q: If there is a pond with trees around it, where is it likely located? Answer Choices: (A) ground (B) bathroom (C) forest (D) countryside (E) rural area
+
+A: Let’s think step by step. A pond is likely to be located near trees because trees need water to survive. Therefore, the most likely location for a pond with trees around it is in a forest. Therefore, among A through E, the answer is C.

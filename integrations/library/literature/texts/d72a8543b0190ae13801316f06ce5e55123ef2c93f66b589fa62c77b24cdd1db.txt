@@ -1,0 +1,5 @@
+In our experiments, and . For , the next state and reward are looked up in the state transition and reward table , . Expansion: At the final time-step of the simulation, the reward
+and state are computed by the dynamics function, ,
+and stored in the corresponding tables, . The policy and value are computed by the prediction function, . A new node, corresponding to state is added to the search tree. Each edge from the newly expanded node is initialized to
+. Note that the search algorithm makes at most one call to the dynamics function and prediction function respectively per simulation; the computational cost is of the same order as in AlphaZero. Backup: At the end of the simulation, the statistics along the trajectory are updated. The backup is generalized to the case where the environment can emit intermediate rewards, have a discount different from ,
+and the value estimates are unbounded 333In board games the discount is assumed to be and there are no intermediate rewards..

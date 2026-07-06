@@ -1,0 +1,5 @@
+in scalable oversight (and one that sandwiching is meant to elicit in its base form): the need for participants to identify when they have developed a method that is reliable enough to deploy. In follow-up work, we expect to allow participants to do some amount of practice on a task other than our primary evaluation target to avoid this limitation. •
+
+This technique potentially leaves significant value on the table by eliciting only knowledge that the RLHF-tuned language model will produce when directly asked. It is likely that there is a good deal of additional information that could be elicited with the help of additional incentives or model interpretability techniques (see e.g. Christiano et al., 2021), and it is plausible that eliciting information of this kind will be important to the successful oversight of future highly-capable systems (Hubinger et al., 2019). •
+
+Our removal of the two outlier high-performing participants (out of an initial population of ten) creates a real but unavoidable selection effect.

@@ -1,0 +1,5 @@
+80,000 + 50,000 = 130,000. The profit is 120,000 - 130,000 = -10,000. Josh lost $10,000. Therefore, the answer (arabic numerals) is 10,000. ✗ (GT : 70000)
+
+A: The answer (arabic numerals) is 100,000. ✗ (GT : 70000)
+
+Q: Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy. She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed. In the afternoon, she gives her chickens another 25 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi’s flock is 20 chickens? A: Let’s think step by step. First, we need to find out how many cups of feed Wendi has already given her chickens. She gave them 15 cups in the morning and 25 cups in the afternoon. That means she has already given them 40 cups of feed. Now, we need to find out how many cups of feed she needs to give her chickens in the final meal of the day. We know that she has 20 chickens. Each chicken needs three cups of feed. That means she needs 60 cups of feed for all 20 chickens.

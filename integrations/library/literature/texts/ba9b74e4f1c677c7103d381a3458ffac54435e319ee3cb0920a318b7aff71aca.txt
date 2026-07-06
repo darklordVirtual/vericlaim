@@ -1,0 +1,15 @@
+Voyager: An open-ended embodied agent with large language models. arXiv preprint arXiv:2305.16291, 2023a. Wang et al. (2023b)
+
+Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhiyuan
+Chen, Jiakai Tang, Xu Chen, Yankai Lin, et al. A survey on large language model based autonomous agents. arXiv preprint arXiv:2308.11432, 2023b. Weld & Etzioni (1994)
+
+Daniel S. Weld and Oren Etzioni. The first law of robotics (a call to arms). In AAAI Conference on Artificial Intelligence, 1994. Woolf (2023)
+
+Max Woolf. Langchain problem. https://minimaxir.com/2023/07/langchain-problem/, 2023. Wu et al. (2023)
+
+Yiran Wu, Feiran Jia, Shaokun Zhang, Qingyun Wu, Hangyu Li, Erkang Zhu, Yue
+Wang, Yin Tat Lee, Richard Peng, and Chi Wang. An empirical study on challenging math problem solving with gpt-4. arXiv preprint arXiv:2306.01337, 2023. Xi et al. (2023)
+
+Zhiheng Xi, Wenxiang Chen, Xin Guo, Wei He, Yiwen Ding, Boyang Hong, Ming
+Zhang, Junzhe Wang, Senjie Jin, Enyu Zhou, et al. The rise and potential of large language model based agents: A
+survey. arXiv preprint arXiv:2309.07864, 2023. Yao et al.

@@ -1,0 +1,19 @@
+https://github.com/LianjiaTech/BELLE. Ji et al. (2023b)
+
+Yunjie Ji, Yong Deng, Yan Gong, Yiping Peng, Qiang Niu, Lei Zhang, Baochang Ma,
+and Xiangang Li. 2023b. Exploring the impact of instruction data scaling on large language
+models: An empirical study on real-world use cases. arXiv preprint arXiv:2303.14742. Johannes Welbl Nelson F. Liu (2017)
+
+Matt Gardner Johannes Welbl Nelson F. Liu. 2017. Crowdsourcing multiple choice science questions. In DOI:10.18653/v1/W17-4413. Jumper et al. (2021)
+
+John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov,
+Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Žídek, Anna
+Potapenko, and et al. 2021. Highly accurate
+protein structure prediction with alphafold. Nature, 596(7873):583–589. Kaplan et al. (2020)
+
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon
+Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. 2020. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361. Katharopoulos et al. (2020)
+
+Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and François
+Fleuret. 2020. Transformers are rnns: Fast autoregressive transformers with linear
+attention.

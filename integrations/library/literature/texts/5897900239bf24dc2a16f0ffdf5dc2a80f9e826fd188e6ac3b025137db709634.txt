@@ -1,0 +1,19 @@
+Child et al. [2019]
+
+Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. arXiv preprint arXiv:1904.10509, 2019. Chilkuri and Eliasmith [2021]
+
+Narsimha Chilkuri and Chris Eliasmith. Parallelizing legendre memory unit training. The International Conference on Machine Learning (ICML), 2021. Choromanski et al. [2020]
+
+Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song,
+Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin,
+Lukasz Kaiser, et al. Rethinking attention with performers. In The International Conference on Learning Representations
+(ICLR), 2020. Dauphin et al. [2017]
+
+Yann N Dauphin, Angela Fan, Michael Auli, and David Grangier. Language modeling with gated convolutional networks. In International conference on machine learning, pages
+933–941. PMLR, 2017. De Brouwer et al. [2019]
+
+Edward De Brouwer, Jaak Simm, Adam Arany, and Yves Moreau. Gru-ode-bayes: Continuous modeling of sporadically-observed time
+series. In Advances in Neural Information Processing Systems
+(NeurIPS), 2019. Donahue et al. [2019]
+
+Chris Donahue, Julian McAuley, and Miller Puckette.

@@ -1,0 +1,18 @@
+End-to-end object detection with transformers. In European Conference on Computer Vision, 2020. Dosovitskiy et al. [2020]
+
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg
+Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at
+scale. arXiv preprint arXiv:2010.11929, 2020. Ritter et al. [2020]
+
+Sam Ritter, Ryan Faulkner, Laurent Sartran, Adam Santoro, Matt Botvinick, and
+David Raposo. Rapid task-solving in novel environments. arXiv preprint arXiv:2006.03662, 2020. Dasari and Gupta [2020]
+
+Sudeep Dasari and Abhinav Gupta. Transformers for one-shot visual imitation. arXiv preprint arXiv:2011.05970, 2020. Abramson et al. [2020]
+
+Josh Abramson, Arun Ahuja, Iain Barr, Arthur Brussee, Federico Carnevale, Mary
+Cassin, Rachita Chhaparia, Stephen Clark, Bogdan Damoc, Andrew Dudzik, et al. Imitating interactive intelligence. arXiv preprint arXiv:2012.05672, 2020. Wolf et al. [2020]
+
+Thomas Wolf, Julien Chaumond, Lysandre Debut, Victor Sanh, Clement Delangue,
+Anthony Moi, Pierric Cistac, Morgan Funtowicz, Joe Davison, Sam Shleifer,
+et al.

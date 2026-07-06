@@ -1,0 +1,73 @@
+RESPONSE:
+
+{
+
+"reasoning": "For planting tasks, inventory information is useless. In nearby blocks, there is farmland and wheat, which means you succeed to plant the wheat seed.",
+
+"success": true,
+
+"critique": ""
+
+}
+
+INPUT:
+
+Inventory (11/36): {… ,’rotten_flesh’: 1}
+
+Task: Kill 1 zombie
+
+Context: …
+
+RESPONSE
+
+{
+
+"reasoning": "You have rotten flesh in your inventory, which means you successfully killed one zombie.",
+
+"success": true,
+
+"critique": ""
+
+}
+
+INPUT:
+
+Hunger: 20.0/20.0
+
+Inventory (11/36): …
+
+Task: Eat 1 …
+
+Context: …
+
+RESPONSE
+
+{
+
+"reasoning": "For all eating task, if the player’s hunger is 20.0, then the player successfully ate the food.",
+
+"success": true,
+
+"critique": ""
+
+}
+
+INPUT:
+
+Nearby blocks: chest
+
+Inventory (28/36): {’rail’: 1, ’coal’: 2, ’oak_planks’: 13, ’copper_block’: 1, ’diorite’: 7, ’cooked_beef’: 4, ’granite’: 22, ’cobbled_deepslate’: 23, ’feather’: 4, ’leather’: 2, ’cooked_chicken’: 3, ’white_wool’: 2, ’stick’: 3, ’black_wool’: 1, ’stone_sword’: 2, ’stone_hoe’: 1, ’stone_axe’: 2, ’stone_shovel’: 2, ’cooked_mutton’: 4, ’cobblestone_wall’: 18, ’crafting_table’: 1, ’furnace’: 1, ’iron_pickaxe’: 1, ’stone_pickaxe’: 1, ’raw_copper’: 12}
+
+Chests:
+
+(81, 131, 16): {’andesite’: 2, ’dirt’: 2, ’cobblestone’: 75, ’wooden_pickaxe’: 1, ’wooden_sword’: 1}
+
+Task: Deposit useless items into the chest at (81, 131, 16)
+
+Context: …
+
+RESPONSE
+
+{
+
+"reasoning": "You have 28 items in your inventory after depositing, which is more than 20.

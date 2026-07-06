@@ -1,0 +1,8 @@
+The recurrent SSM (3) is not practical for training on modern hardware due to its sequentiality. Instead,
+there is a well-known connection between linear time-invariant (LTI) SSMs such as (1) and continuous convolutions. Correspondingly, (3) can actually be written as a discrete convolution. For simplicity let the initial state be . Then unrolling (3) explicitly yields
+
+This can be vectorized into a convolution (4) with an explicit formula for the convolution kernel (5). (4)
+
+(5)
+
+In other words, equation (4) is a single (non-circular) convolution and can be computed very efficiently with FFTs, provided that is known. However, computing in (5) is non-trivial and is the focus of our technical contributions in Section 3. We call the SSM convolution kernel or filter.

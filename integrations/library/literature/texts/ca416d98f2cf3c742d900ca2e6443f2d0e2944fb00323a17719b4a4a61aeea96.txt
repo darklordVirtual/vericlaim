@@ -1,0 +1,41 @@
+range of the specified block;
+
+•
+
+new GoalXZ(x, z): For long-range goals that don’t have a specific Y level;
+
+•
+
+new GoalGetToBlock(x, y, z): Not get into the block, but get directly adjacent to it. Useful for fishing, farming, filling a bucket, and using a bed.;
+
+•
+
+new GoalFollow(entity, range): Follow the specified entity within the specified range;
+
+•
+
+new GoalPlaceBlock(position, bot.world, {}): Position the bot in order to place a block;
+
+•
+
+new GoalLookAtBlock(position, bot.world, {}): Path towards a position where a face of the block at position is visible;
+
+•
+
+bot.isABed(bedBlock): Return true if bedBlock is a bed;
+
+•
+
+bot.blockAt(position): Return the block at position;
+
+•
+
+await bot.equip(item, destination): Equip the item in the specified destination. destination must be one of “hand”, “head”, “torso”, “legs”, “feet”, “off-hand”;
+
+•
+
+await bot.consume(): Consume the item in the bot’s hand. You must equip the item to consume first. Useful for eating food, drinking potions, etc.;
+
+•
+
+await bot.fish(): Let bot fish. Before calling this function, you must first get to a water block and then equip a fishing rod.

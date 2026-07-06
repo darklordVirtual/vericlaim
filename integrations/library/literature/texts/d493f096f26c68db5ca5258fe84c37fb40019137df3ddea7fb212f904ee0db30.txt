@@ -1,0 +1,18 @@
+arXiv:2305.16582. Zelikman et al. [2022]
+
+Zelikman, E.; Wu, Y.; Mu, J.; and Goodman, N. 2022. STaR: Bootstrapping Reasoning With Reasoning. In Advances in Neural Information Processing Systems (NeurIPS
+’22), volume 35, 15476–15488. Curran Associates. Zhang et al. [2023]
+
+Zhang, S.; Chen, Z.; Shen, Y.; Ding, M.; Tenenbaum, J. B.; and Gan, C. 2023. Planning with Large Language Models for Code Generation. In Proceedings of the Eleventh International Conference on
+Learning Representations, ICLR ’23. Zhang, Cui, and Zhu [2022]
+
+Zhang, Z.; Cui, P.; and Zhu, W. 2022. Deep Learning on Graphs: A Survey. IEEE Transactions on Knowledge and Data Engineering, 34(1):
+249–270. Zhou et al. [2020]
+
+Zhou, J.; Cui, G.; Hu, S.; Zhang, Z.; Yang, C.; Liu, Z.; Wang, L.; Li, C.; and
+Sun, M. 2020. Graph neural networks: A review of methods and applications. AI Open, 1: 57–81. Zhou et al. [2022]
+
+Zhou, Y.; Muresanu, A. I.; Han, Z.; Paster, K.; Pitis, S.; Chan, H.; and Ba, J. 2022. Large Language Models Are Human-Level Prompt Engineers. arXiv:2211.01910. Zhu et al. [2023]
+
+Zhu, X.; Wang, J.; Zhang, L.; Zhang, Y.; Huang, Y.; Gan, R.; Zhang, J.; and
+Yang, Y. 2023.

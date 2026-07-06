@@ -1,0 +1,21 @@
+Krizhevsky et al. (2012)
+
+Krizhevsky, A., Sutskever, I., and Hinton, G. E. Imagenet classification with deep convolutional neural networks. In Advances in neural information processing systems, pp. 1097–1105, 2012. Kuhnle & Copestake (2017)
+
+Kuhnle, A. and Copestake, A. Shapeworld-a new test methodology for multimodal language
+understanding. arXiv preprint arXiv:1704.04517, 2017. Kärkkäinen & Joo (2019)
+
+Kärkkäinen, K. and Joo, J. Fairface: Face attribute dataset for balanced race, gender, and age,
+2019. Lake et al. (2016)
+
+Lake, B. M., Ullman, T. D., Tenenbaum, J. B., and Gershman, S. J. Building machines that learn and think like people, 2016. Lampert et al. (2009)
+
+Lampert, C. H., Nickisch, H., and Harmeling, S. Learning to detect unseen object classes by between-class attribute
+transfer. In 2009 IEEE Conference on Computer Vision and Pattern
+Recognition, pp. 951–958. IEEE, 2009. Larochelle et al. (2008)
+
+Larochelle, H., Erhan, D., and Bengio, Y. Zero-data learning of new tasks. 2008. Le & Mikolov (2014)
+
+Le, Q. and Mikolov, T. Distributed representations of sentences and documents. In International conference on machine learning, pp. 1188–1196, 2014. (104)
+
+LeCun, Y.

@@ -1,0 +1,18 @@
+Gshard: Scaling giant models with conditional computation and
+automatic sharding. arXiv, 2020. Li et al. (2019)
+
+Liunian Harold Li, Mark Yatskar, Da Yin, Cho-Jui Hsieh, and Kai-Wei Chang. VisualBERT: A Simple and Performant Baseline for Vision and
+Language. In Arxiv, 2019. Locatello et al. (2020)
+
+Francesco Locatello, Dirk Weissenborn, Thomas Unterthiner, Aravindh Mahendran,
+Georg Heigold, Jakob Uszkoreit, Alexey Dosovitskiy, and Thomas Kipf. Object-centric learning with slot attention. arXiv, 2020. Lu et al. (2019)
+
+Jiasen Lu, Dhruv Batra, Devi Parikh, and Stefan Lee. ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations
+for Vision-and-Language Tasks. In NeurIPS. 2019. Mahajan et al. (2018)
+
+Dhruv Mahajan, Ross Girshick, Vignesh Ramanathan, Kaiming He, Manohar Paluri,
+Yixuan Li, Ashwin Bharambe, and Laurens van der Maaten. Exploring the limits of weakly supervised pretraining. In ECCV, 2018. Nilsback & Zisserman (2008)
+
+M. Nilsback and A. Zisserman. Automated flower classification over a large number of classes. In ICVGIP, 2008. Parkhi et al. (2012)
+
+Omkar M. Parkhi, Andrea Vedaldi, Andrew Zisserman, and C. V. Jawahar. Cats and dogs. In CVPR, 2012. Parmar et al.

@@ -1,0 +1,18 @@
+2023. Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding. arXiv:2307.15337. Nye et al. [2021]
+
+Nye, M.; Andreassen, A. J.; Gur-Ari, G.; Michalewski, H.; Austin, J.; Bieber,
+D.; Dohan, D.; Lewkowycz, A.; Bosma, M.; Luan, D.; Sutton, C.; and Odena, A. 2021. Show Your Work: Scratchpads for Intermediate Computation with
+Language Models. arXiv:2112.00114. Paul et al. [2023]
+
+Paul, D.; Ismayilzada, M.; Peyrard, M.; Borges, B.; Bosselut, A.; West, R.; and
+Faltings, B. 2023. REFINER: Reasoning Feedback on Intermediate Representations. arXiv:2304.01904. Prat-Pérez et al. [2012]
+
+Prat-Pérez, A.; Dominguez-Sal, D.; Brunat, J. M.; and Larriba-Pey, J.-L. 2012. Shaping Communities out of Triangles. In Proceedings of the 21st ACM International Conference on
+Information and Knowledge Management, CIKM ’12, 1677–1681. Qiao et al. [2023]
+
+Qiao, S.; Ou, Y.; Zhang, N.; Chen, X.; Yao, Y.; Deng, S.; Tan, C.; Huang, F.;
+and Chen, H. 2023. Reasoning with Language Model Prompting: A Survey. In Proceedings of the 61st Annual Meeting of the Association
+for Computational Linguistics, ACL ’23, 5368–5393. Association for
+Computational Linguistics. qrdlgit [2023]
+
+qrdlgit. 2023.

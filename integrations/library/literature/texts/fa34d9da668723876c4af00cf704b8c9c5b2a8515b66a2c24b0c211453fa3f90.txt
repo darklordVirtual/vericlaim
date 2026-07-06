@@ -1,0 +1,14 @@
+2023b. Pythia: A suite for analyzing large language models across training
+and scaling. arXiv preprint arXiv:2304.01373. Bisk et al. (2020)
+
+Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, and Yejin Choi. 2020. Piqa: Reasoning about physical commonsense in natural language. In Thirty-Fourth AAAI Conference on Artificial Intelligence. Black et al. (2021)
+
+Sid Black, Leo Gao, Phil Wang, Connor Leahy, and Stella Biderman. 2021. Gpt-neo: Large scale autoregressive language modeling with
+mesh-tensorflow. URL: https://doi. org/10.5281/zenodo, 5297715. Black et al. (2022)
+
+Sidney Black, Stella Biderman, Eric Hallahan, Quentin Anthony, Leo Gao,
+Laurence Golding, Horace He, Connor Leahy, Kyle McDonell, Jason Phang, et al. 2022. Gpt-neox-20b: An open-source autoregressive language model. In Proceedings of BigScience Episode# 5–Workshop
+on Challenges & Perspectives in Creating Large Language Models, pages
+95–136. Bradbury et al. (2017)
+
+James Bradbury, Stephen Merity, Caiming Xiong, and Richard Socher. 2017. Quasi-recurrent neural networks. In ICLR. Brown et al.

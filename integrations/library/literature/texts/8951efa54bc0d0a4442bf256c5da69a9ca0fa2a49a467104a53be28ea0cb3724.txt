@@ -1,0 +1,18 @@
+2017. Geometric Deep Learning: Going beyond Euclidean data. IEEE Signal Processing Magazine, 34(4): 18–42. Brown et al. [2020]
+
+Brown, T.; Mann, B.; Ryder, N.; Subbiah, M.; Kaplan, J. D.; Dhariwal, P.;
+Neelakantan, A.; Shyam, P.; Sastry, G.; Askell, A.; Agarwal, S.;
+Herbert-Voss, A.; Krueger, G.; Henighan, T.; Child, R.; Ramesh, A.; Ziegler,
+D.; Wu, J.; Winter, C.; Hesse, C.; Chen, M.; Sigler, E.; Litwin, M.; Gray,
+S.; Chess, B.; Clark, J.; Berner, C.; McCandlish, S.; Radford, A.; Sutskever,
+I.; and Amodei, D. 2020. Language Models are Few-Shot Learners. In Advances in Neural Information Processing Systems (NeurIPS
+’20), volume 33, 1877–1901. Curran Associates. Bubeck et al. [2023]
+
+Bubeck, S.; Chandrasekaran, V.; Eldan, R.; Gehrke, J.; Horvitz, E.; Kamar, E.;
+Lee, P.; Lee, Y. T.; Li, Y.; Lundberg, S.; Nori, H.; Palangi, H.; Ribeiro,
+M. T.; and Zhang, Y. 2023. Sparks of Artificial General Intelligence: Early experiments with
+GPT-4. arXiv:2303.12712. Chakrabarti and Faloutsos [2006]
+
+Chakrabarti, D.; and Faloutsos, C. 2006. Graph Mining: Laws, Generators, and Algorithms. ACM Comput. Surv., 38(1). Chami et al. [2020]
+
+Chami, I.; Abu-El-Haija, S.; Perozzi, B.; Ré, C.; and Murphy, K.

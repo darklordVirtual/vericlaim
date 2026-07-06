@@ -1,0 +1,37 @@
+In section 3.3 we have also tried the following variants (listed in the reading order for Figure 2 left):
+
+•
+
+Adam optimizer with full batch (i.e. exact gradient of the loss on the whole training dataset)
+
+•
+
+Adam optimizer
+
+•
+
+Adam optimizer with full batch and Gaussian noise added to the update direction for each parameter (, where is sampled from unit Gaussian, is the standard Adam weight update, and lr is the learning rate)
+
+•
+
+Adam optimizer on model with residual dropout 0.1 added
+
+•
+
+AdamW optimizer with weight decay 1 (default setting in most other experiments)
+
+•
+
+AdamW optimizer with weight decay 1 towards the initialization instead of the origin
+
+•
+
+Adam optimizer with learning rate
+
+•
+
+Adam optimizer with learning rate
+
+•
+
+Adam optimizer on model with Gaussian weight noise of standard deviation 0.01 (i.e. each parameter replaced by in the model, with sampled from unit Gaussian). For experiments reported in Section 3.1.1 we increased the optimization budget to optimization steps in order to capture the increase of time to perfect generalization better.

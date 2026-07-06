@@ -1,0 +1,45 @@
+We specifically choose , ,
+, and ,
+where is a parameterized projection to dimension . The choice of and is due to a connection to RNN gating mechanisms explained in Section˜3.5. Algorithm 1 SSM (S4)
+
+1:
+
+2:
+
+3:
+Represents structured matrix
+
+4:
+
+5:
+
+6:
+
+7:
+
+8:
+Time-invariant: recurrence or convolution
+
+9:return
+
+Algorithm 2 SSM + Selection (S6)
+
+1:
+
+2:
+
+3:
+Represents structured matrix
+
+4:
+
+5:
+
+6:
+
+7:
+
+8:
+Time-varying: recurrence (scan) only
+
+9:return

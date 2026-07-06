@@ -1,0 +1,173 @@
+(Bottom) Attention-free models (RNNs and CNNs). Model
+
+Params
+
+Test ppl. Tokens / sec
+
+Transformer
+
+247M
+
+20.51
+
+0.8K ()
+
+GLU CNN
+
+229M
+
+37.2
+
+-
+
+AWD-QRNN
+
+151M
+
+33.0
+
+-
+
+LSTM + Hebb. -
+
+29.2
+
+-
+
+TrellisNet
+
+180M
+
+29.19
+
+-
+
+Dynamic Conv. 255M
+
+25.0
+
+-
+
+TaLK Conv. 240M
+
+23.3
+
+-
+
+S4
+
+249M
+
+20.95
+
+48K ()
+
+Table 3: Univariate long sequence time-series forecasting results. Full results in Section D.3.5. S4
+Informer
+LogTrans
+Reformer
+LSTMa
+DeepAR
+ARIMA
+Prophet
+
+MSE MAE
+MSE MAE
+MSE MAE
+MSE MAE
+MSE MAE
+MSE MAE
+MSE MAE
+MSE MAE
+
+ETTh1
+
+0.116 0.271
+
+0.269 0.435
+
+0.273 0.463
+
+2.112 1.436
+
+0.683 0.768
+
+0.658 0.707
+
+0.659 0.766
+
+2.735 3.253
+
+ETTh2
+
+0.187 0.358
+
+0.277 0.431
+
+0.303 0.493
+
+2.030 1.721
+
+0.640 0.681
+
+0.429 0.580
+
+2.878 1.044
+
+3.355 4.664
+
+ETTm1
+
+0.292 0.466
+
+0.512 0.644
+
+0.598 0.702
+
+1.793 1.528
+
+1.064 0.873
+
+2.437 1.352
+
+0.639 0.697
+
+2.747 1.174
+
+Weather
+
+0.245 0.375
+
+0.359 0.466
+
+0.388 0.499
+
+2.087 1.534
+
+0.866 0.809
+
+0.499 0.596
+
+1.062 0.943
+
+3.859 1.144
+
+ECL
+
+0.432 0.497
+
+0.582 0.608
+
+0.624 0.645
+
+7.019 5.105
+
+1.545 1.006
+
+0.657 0.683
+
+1.370 0.982
+
+6.901 4.264
+
+Learning with weaker inductive bias.

@@ -1,0 +1,17 @@
+(61)
+
+William H. Guss, Brandon Houghton, Nicholay Topin, Phillip Wang, Cayden Codel,
+Manuela Veloso, and Ruslan Salakhutdinov. Minerl: A large-scale dataset of minecraft demonstrations. In Sarit Kraus, editor, Proceedings of the Twenty-Eighth
+International Joint Conference on Artificial Intelligence, IJCAI 2019,
+Macao, China, August 10-16, 2019, pages 2442–2448. ijcai.org, 2019. (62)
+
+William H. Guss, Cayden Codel, Katja Hofmann, Brandon Houghton, Noboru Kuno,
+Stephanie Milani, Sharada Mohanty, Diego Perez Liebana, Ruslan Salakhutdinov,
+Nicholay Topin, Manuela Veloso, and Phillip Wang. The minerl 2019 competition on sample efficient reinforcement
+learning using human priors. arXiv preprint arXiv: Arxiv-1904.10079, 2019. (63)
+
+William H. Guss, Mario Ynocente Castro, Sam Devlin, Brandon Houghton,
+Noboru Sean Kuno, Crissman Loomis, Stephanie Milani, Sharada Mohanty, Keisuke
+Nakata, Ruslan Salakhutdinov, John Schulman, Shinya Shiroshita, Nicholay
+Topin, Avinash Ummadisingu, and Oriol Vinyals. The minerl 2020 competition on sample efficient reinforcement
+learning using human priors. arXiv preprint arXiv: Arxiv-2101.11071, 2021.

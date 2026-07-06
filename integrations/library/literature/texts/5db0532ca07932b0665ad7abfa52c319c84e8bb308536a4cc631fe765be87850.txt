@@ -1,0 +1,41 @@
+We first compare our largest models – ViT-H/14 and ViT-L/16 – to state-of-the-art CNNs from the literature. The first comparison point is Big Transfer (BiT) (Kolesnikov et al., 2020), which performs supervised transfer learning with large ResNets. The second is Noisy Student (Xie et al., 2020),
+which is a large EfficientNet trained using semi-supervised learning on ImageNet and JFT-300M with the labels removed. Currently, Noisy Student is the state of the art on ImageNet and BiT-L on the other datasets reported here. All models were trained on TPUv3 hardware, and we report the number of TPUv3-core-days taken to pre-train each of them, that is, the number of TPU v3 cores (2 per chip) used for training multiplied by the training time in days. Ours-JFT
+Ours-JFT
+Ours-I21k
+BiT-L
+Noisy Student
+
+(ViT-H/14)
+(ViT-L/16)
+(ViT-L/16)
+(ResNet152x4)
+(EfficientNet-L2)
+
+ImageNet
+
+ImageNet ReaL
+
+CIFAR-10
+
+CIFAR-100
+
+Oxford-IIIT Pets
+
+Oxford Flowers-102
+
+VTAB (19 tasks)
+
+TPUv3-core-days
+
+k
+
+k
+
+k
+
+k
+
+k
+
+Table 2:
+Comparison with state of the art on popular image classification benchmarks. We report mean and standard deviation of the accuracies, averaged over three fine-tuning runs.

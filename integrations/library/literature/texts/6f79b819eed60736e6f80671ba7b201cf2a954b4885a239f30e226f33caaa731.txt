@@ -1,0 +1,20 @@
+In Proceedings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition, pp. 9879–9889, 2020b. Mikolov et al. (2013)
+
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., and Dean, J. Distributed representations of words and phrases and their
+compositionality. Advances in neural information processing systems,
+26:3111–3119, 2013. Miller et al. (2020)
+
+Miller, J., Krauth, K., Recht, B., and Schmidt, L. The effect of natural distribution shift on question answering
+models. arXiv preprint arXiv:2004.14444, 2020. Mishra et al. (2012)
+
+Mishra, A., Alahari, K., and Jawahar, C. Scene text recognition using higher order language priors. 2012. Mithun et al. (2018)
+
+Mithun, N. C., Panda, R., Papalexakis, E. E., and Roy-Chowdhury, A. K. Webly supervised joint embedding for cross-modal image-text
+retrieval. In Proceedings of the 26th ACM international conference on
+Multimedia, pp. 1856–1864, 2018. Mori et al. (1999)
+
+Mori, Y., Takahashi, H., and Oka, R. Image-to-word transformation based on dividing and vector quantizing
+images with words. Citeseer, 1999. Mu et al. (2019)
+
+Mu, J., Liang, P., and Goodman, N.

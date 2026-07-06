@@ -1,0 +1,23 @@
+Figure 3: RWKV architecture for language modeling. 3.1.1 Token Shift
+
+In this architecture, all linear projection vectors (, , in time-mixing, and , in channel-mixing) involved in computations are produced by linear interpolation between current and previous timestep inputs, facilitating a token shift. The vectors for time-mixing computation are linear projections of linear combinations of the current and previous inputs of the block:
+
+(11)
+
+(12)
+
+(13)
+
+as are the channel-mixing inputs:
+
+(14)
+
+(15)
+
+The token shift is implemented as a simple offset in the temporal dimension at each block using the PyTorch (Paszke et al., 2019) library as nn.ZeroPad2d((0,0,1,-1)). 3.1.2 WKV Operator
+
+The computation of the operator in our model parallels the method used in Attention Free Transformer (AFT) Zhai et al. (2021). However, unlike AFT where is a pairwise matrix, our model treats as a channel-wise vector that is modified by relative position. In our model, this recurrent behavior is defined by the time-dependent update of the vectors, formalized in the following equation:
+
+(16)
+
+To circumvent any potential degradation of , we introduce a vector that separately attends to the current token.

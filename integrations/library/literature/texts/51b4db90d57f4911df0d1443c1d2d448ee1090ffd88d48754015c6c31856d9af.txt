@@ -1,0 +1,9 @@
+•
+
+(17) (time-mixing) and (channel-mixing) are initialized to
+
+•
+
+All other weights are initialized to 0 so the model can start learning from the beginning without noisy signals. •
+
+All LayerNorm weights start from 1 and biases from 0.

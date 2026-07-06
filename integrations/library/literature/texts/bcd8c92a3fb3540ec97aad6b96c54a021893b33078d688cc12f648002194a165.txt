@@ -1,0 +1,16 @@
+Do the rewards justify the means? measuring trade-offs between
+rewards and ethical behavior in the machiavelli benchmark. ICML, 2023. Perez et al. (2022)
+
+Ethan Perez, Sam Ringer, Kamilė Lukošiūtė, Karina Nguyen, Edwin Chen, Scott
+Heiner, Craig Pettit, Catherine Olsson, Sandipan Kundu, Saurav Kadavath, Andy
+Jones, Anna Chen, Ben Mann, Brian Israel, Bryan Seethor, Cameron McKinnon,
+Christopher Olah, Da Yan, Daniela Amodei, Dario Amodei, Dawn Drain, Dustin
+Li, Eli Tran-Johnson, Guro Khundadze, Jackson Kernion, James Landis, Jamie
+Kerr, Jared Mueller, Jeeyoon Hyun, Joshua Landau, Kamal Ndousse, Landon
+Goldberg, Liane Lovitt, Martin Lucas, Michael Sellitto, Miranda Zhang, Neerav
+Kingsland, Nelson Elhage, Nicholas Joseph, Noemí Mercado, Nova DasSarma,
+Oliver Rausch, Robin Larson, Sam McCandlish, Scott Johnston, Shauna Kravec,
+Sheer El Showk, Tamera Lanham, Timothy Telleen-Lawton, Tom Brown, Tom
+Henighan, Tristan Hume, Yuntao Bai, Zac Hatfield-Dodds, Jack Clark, Samuel R. Bowman, Amanda Askell, Roger Grosse, Danny Hernandez, Deep Ganguli, Evan
+Hubinger, Nicholas Schiefer, and Jared Kaplan. Discovering language model behaviors with model-written evaluations,
+2022. Radford et al.

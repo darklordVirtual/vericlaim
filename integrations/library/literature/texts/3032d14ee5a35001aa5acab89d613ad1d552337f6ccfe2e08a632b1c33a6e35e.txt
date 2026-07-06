@@ -1,0 +1,16 @@
+Therefore, the answer (arabic numerals) is 18. ✗
+
+Instruct GPT-3
+(text-curie-001)
+
+A: Let’s think step by step. Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. Each box of candy has 4 pieces inside it. So, Adam bought 10 pieces of candy. Therefore, the answer (arabic numerals) is 60. ✗
+
+Instruct GPT-3
+(text-davinci-002)
+
+A: Let’s think step by step. Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. We know that each box has 4 pieces inside it. So, we can multiply 2 by 4 to find out how many pieces of chocolate candy Adam bought. This will give us 8. We can also multiply 5 by 4 to find out how many pieces of caramel candy Adam bought. This will give us 20. Now, we can add 8 and 20 together to find out how much candy Adam bought in total. 8 + 20 = 28
+Adam bought 28 pieces of candy in
+Therefore, the answer (arabic numerals) is 28. Original GPT-3
+(0.3B) (ada)
+
+A: Let’s think step by step. 1. Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total? 2. Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy.

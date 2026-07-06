@@ -1,0 +1,35 @@
+3 spruce planks and 2 sticks."
+
+}
+
+INPUT:
+
+Inventory (2/36): {’raw_iron’: 5, ’stone_pickaxe’: 1}
+
+Task: Mine 5 iron_ore
+
+RESPONSE:
+
+{
+
+"reasoning": "Mining iron_ore in Minecraft will get raw_iron. You have 5 raw_iron in your inventory.",
+
+"success": true,
+
+"critique": ""
+
+}
+
+INPUT:
+
+Biome: plains
+
+Nearby blocks: stone, dirt, grass_block, grass, farmland, wheat
+
+Inventory (26/36): …
+
+Task: Plant 1 wheat seed. RESPONSE:
+
+{
+
+"reasoning": "For planting tasks, inventory information is useless.

@@ -1,0 +1,18 @@
+Bert: Pre-training of deep bidirectional transformers for language
+understanding. arXiv preprint arXiv:1810.04805, 2018. Dhariwal et al. (2020)
+
+Dhariwal, P., Jun, H., Payne, C., Kim, J. W., Radford, A., and Sutskever, I. Jukebox: A generative model for music. arXiv preprint arXiv:2005.00341, 2020. Divvala et al. (2014)
+
+Divvala, S. K., Farhadi, A., and Guestrin, C. Learning everything about anything: Webly-supervised visual concept
+learning. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pp. 3270–3277, 2014. Dodge & Karam (2017)
+
+Dodge, S. and Karam, L. A study and comparison of human and deep learning recognition
+performance under visual distortions. In 2017 26th international conference on computer communication
+and networks (ICCCN), pp. 1–7. IEEE, 2017. Dosovitskiy et al. (2020)
+
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X.,
+Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S., et al. An image is worth 16x16 words: Transformers for image recognition at
+scale. arXiv preprint arXiv:2010.11929, 2020. Elhoseiny et al. (2013)
+
+Elhoseiny, M., Saleh, B., and Elgammal, A.

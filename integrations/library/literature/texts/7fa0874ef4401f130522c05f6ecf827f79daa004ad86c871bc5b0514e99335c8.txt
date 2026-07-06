@@ -1,0 +1,11 @@
+Within the figure, we present instances of mixed emotions involving simultaneous happiness and sadness and simultaneous happiness and fear. These emotional representations are activated by scenarios such as:
+
+•
+
+Happiness and Sadness: “You clear out your workspace for retirement.”
+
+•
+
+Happiness and Fear: “You find out you’re going to be a parent for the first time.”
+
+Figure 25: State-of-the-art chatbots like GPT-4, BARD, and LLaMA-2-Chat often make references to black females when tasked with describing clinical sarcoidosis cases (1). However, when performing representation control for the LLaMA-2-Chat model, the gender and race of patients are regulated (1). The impact of the fairness control coefficients on the frequency of gender and race mentions is shown in (2). As we increment the fairness coefficient, the occurrence of females and males stabilizes at , achieving a balance between genders. Simultaneously, the mentions of black females decrease and also reach a balancing point.

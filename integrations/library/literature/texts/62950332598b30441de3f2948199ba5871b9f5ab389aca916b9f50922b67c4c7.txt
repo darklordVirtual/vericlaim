@@ -1,0 +1,9 @@
+Agents are not omniscient: their tree may get out of date as they leave an area, and is updated when they re-enter the area. To determine the appropriate location for each action, we traverse the agent’s stored environment tree and flatten a portion of it into natural language to prompt the language model. Recursively starting at the root of the agent’s environment tree, we prompt the model to find the most suitable area. For example, if Eddy’s agent indicated that he should take a short walk around his workspace:
+
+[Agent’s Summary Description]
+
+Eddy Lin is currently in The Lin family’s house: Eddy Lin’s bedroom: desk) that has Mei and John Lin’s
+
+bedroom, Eddy Lin’s bedroom, common room, kitchen, bathroom, and garden. Eddy Lin knows of the following areas: The Lin
+
+family’s house, Johnson Park, Harvey Oak Supply Store, The Willows Market and Pharmacy, Hobbs Cafe, The Rose and Crown Pub. * Prefer to stay in the current area if the activity can be done there. Eddy Lin is planning to take a short walk around his workspace. Which area should Eddy Lin go to? This outputs The Lin family’s house.

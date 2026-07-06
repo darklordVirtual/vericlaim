@@ -1,0 +1,17 @@
+URL https://arxiv.org/abs/2203.11171. Webson and Pavlick [2022]
+
+Albert Webson and Ellie Pavlick. Do prompt-based models really understand the meaning of their
+prompts? In Proceedings of the 2022 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pages 2300–2344. Association for Computational Linguistics,
+July 2022. URL https://aclanthology.org/2022.naacl-main.167. Wei et al. [2022]
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and
+Denny Zhou. Chain of thought prompting elicits reasoning in large language
+models, 2022. URL https://arxiv.org/abs/2201.11903. Wolf et al. [2020]
+
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+Anthony Moi, Pierric Cistac, Tim Rault, Remi Louf, Morgan Funtowicz, Joe
+Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien
+Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+and Alexander Rush. Transformers: State-of-the-art natural language processing. In Proceedings of EMNLP, 2020. URL https://aclanthology.org/2020.emnlp-demos.6. Zelikman et al.

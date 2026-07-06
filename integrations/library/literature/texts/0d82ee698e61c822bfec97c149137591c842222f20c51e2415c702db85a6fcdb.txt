@@ -1,0 +1,11 @@
+Attention is all you need. arXiv preprint arXiv:1706.03762, 2017. Weston et al. (2014)
+
+Jason Weston, Sumit Chopra, and Antoine Bordes. Memory networks. arXiv preprint arXiv:1410.3916, 2014. Weston et al. (2015)
+
+Jason Weston, Antoine Bordes, Sumit Chopra, Alexander M Rush, Bart van
+Merriënboer, Armand Joulin, and Tomas Mikolov. Towards ai-complete question answering: A set of prerequisite toy
+tasks. arXiv preprint arXiv:1502.05698, 2015. Zaremba & Sutskever (2015)
+
+Wojciech Zaremba and Ilya Sutskever. Reinforcement learning neural turing machines-revised. arXiv preprint arXiv:1505.00521, 2015. Zhang et al. (2016)
+
+Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, and Oriol Vinyals. Understanding deep learning requires rethinking generalization. arXiv preprint arXiv:1611.03530, 2016.

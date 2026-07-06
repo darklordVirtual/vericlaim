@@ -1,0 +1,5 @@
+filters (controls [kalman1960new]),
+hidden Markov models (HMM) and linear dynamical systems (LDS) (machine learning),
+and recurrent (and sometimes convolutional) models at large (deep learning). Throughout this entire paper we use the term “SSM” to refer exclusively to the class of structured SSMs or S4 models [gu2022efficiently, gupta2022diagonal, gu2022parameterization, ma2023mega, smith2023s5, hasani2023liquid] and use these terms interchangeably. For convenience we may also include derivatives of such models, such as those focusing on either the linear-recurrence or global-convolution viewpoints [orvieto2023resurrecting, li2023makes, poli2023hyena], and clarify nuances when necessary. SSM Architectures. SSMs are standalone sequence transformations that can be incorporated into end-to-end neural network architectures. (We also sometimes call SSM architectures SSNNs, which are to SSM layers as CNNs are to linear convolution layers.)
+
+We discuss some of the most well-known SSM architectures, many of which will also serve as our primary baselines.

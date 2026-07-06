@@ -1,0 +1,17 @@
+2020. Mastering atari with discrete world models. arXiv preprint arXiv:2010.02193. Hao et al. (2023a)
+
+Shibo Hao, Tianyang Liu, Zhen Wang, and Zhiting Hu. 2023a. Toolkengpt: Augmenting frozen language models with massive tools via
+tool embeddings. Advances in neural information processing systems, 36. Hao et al. (2023b)
+
+Shibo Hao, Bowen Tan, Kaiwen Tang, Bin Ni, Xiyan Shao, Hengzhe Zhang, Eric
+Xing, and Zhiting Hu. 2023b. Bertnet: Harvesting knowledge graphs with arbitrary relations from
+pretrained language models. In Findings of the Association for Computational Linguistics:
+ACL 2023, pages 5000–5015. Ho et al. (2021)
+
+Mark K Ho, David Abel, Carlos G Correa, Michael L Littman, Jonathan D Cohen,
+and Thomas L Griffiths. 2021. Control of mental representations in human planning. arXiv e-prints, pages arXiv–2105. Huang and Chang (2022)
+
+Jie Huang and Kevin Chen-Chuan Chang. 2022. Towards reasoning in large language models: A survey. arXiv preprint arXiv:2212.10403. Huang et al. (2022)
+
+Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy
+Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, et al. 2022.

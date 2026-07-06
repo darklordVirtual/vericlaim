@@ -1,0 +1,8 @@
+Zhai et al. (2019b)
+
+Xiaohua Zhai, Joan Puigcerver, Alexander Kolesnikov, Pierre Ruyssen, Carlos
+Riquelme, Mario Lucic, Josip Djolonga, Andre Susano Pinto, Maxim Neumann,
+Alexey Dosovitskiy, et al. A large-scale study of representation learning with the visual task
+adaptation benchmark. arXiv preprint arXiv:1910.04867, 2019b. Zhao et al. (2020)
+
+Hengshuang Zhao, Jiaya Jia, and Vladlen Koltun. Exploring self-attention for image recognition. In CVPR, 2020.

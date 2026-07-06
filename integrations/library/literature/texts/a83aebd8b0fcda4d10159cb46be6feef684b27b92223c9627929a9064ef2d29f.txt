@@ -1,0 +1,18 @@
+CoRR, abs/1809.02789, 2018. Mikolov et al. (2013)
+
+Tomas Mikolov, Wen-tau Yih, and Geoffrey Zweig. Linguistic regularities in continuous space word representations. In Proceedings of the 2013 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pp. 746–751, Atlanta, Georgia, June 2013. Association for
+Computational Linguistics. Milberg & Clark (1988)
+
+Sandra Milberg and Margaret S Clark. Moods and compliance. British Journal of Social Psychology, 27(Pt
+1):79–90, Mar 1988. doi: 10.1111/j.2044-8309.1988.tb00806.x. Mordvintsev et al. (2015)
+
+Alexander Mordvintsev, Christopher Olah, and Mike Tyka. Inceptionism: Going deeper into neural networks. "", 2015. Mostafazadeh et al. (2017)
+
+Nasrin Mostafazadeh, Michael Roth, Annie Louis, Nathanael Chambers, and James
+Allen. Lsdsem 2017 shared task: The story cloze test. In Proceedings of the 2nd Workshop on Linking Models of
+Lexical, Sentential and Discourse-level Semantics, pp. 46–51, 2017. Nadeem et al. (2021)
+
+Moin Nadeem, Anna Bethke, and Siva Reddy. StereoSet: Measuring stereotypical bias in pretrained language
+models.

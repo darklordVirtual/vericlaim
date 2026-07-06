@@ -1,0 +1,17 @@
+•
+
+Participants found it helpful to ask for explicit reasoning, often closely mirroring chain-of-thought prompting. “Asking for the steps[:] By having it go through the process of arriving at an answer (getting the formula to do the math, getting it to walk the user through each arithmetic step, etc.), the user can get the assistant to arrive at the right answer.”
+
+•
+
+Participants found it helpful to pursue several of the above strategies for each question. “I had good success using multiple strategies on each question, resetting between each one. This gave a natural way to cross-examine the assistant’s answers.”
+
+For QuALITY:
+
+•
+
+Participants used the model as a tool to find relevant quotes in the passage. “The most reliable strategy I found was to ask the assistant a question, followed by saying ‘Please provide a quote from the passage that contains the answer.’ This allowed me to fact-check the assistant, and perhaps even influence it to write answers with more basis in the text.”
+
+•
+
+Participants found that even non-quoted responses can often be verified, usually by searching the story for keywords that the model brings up.

@@ -1,0 +1,15 @@
+Mopo: Model-based offline policy optimization. In Advances in Neural Information Processing Systems, 2020. Ajay et al. [2020]
+
+Anurag Ajay, Aviral Kumar, Pulkit Agrawal, Sergey Levine, and Ofir Nachum. Opal: Offline primitive discovery for accelerating offline
+reinforcement learning. arXiv preprint arXiv:2010.13611, 2020. Campos et al. [2020]
+
+Víctor Campos, Alexander Trott, Caiming Xiong, Richard Socher, Xavier
+Giro-i Nieto, and Jordi Torres. Explore, discover and learn: Unsupervised discovery of state-covering
+skills. In International Conference on Machine Learning, 2020. Pertsch et al. [2020]
+
+Karl Pertsch, Youngwoon Lee, and Joseph J Lim. Accelerating reinforcement learning with learned skill priors. arXiv preprint arXiv:2010.11944, 2020. Singh et al. [2021]
+
+Avi Singh, Huihan Liu, Gaoyue Zhou, Albert Yu, Nicholas Rhinehart, and Sergey
+Levine. Parrot: Data-driven behavioral priors for reinforcement learning. In International Conference on Learning Representations, 2021. Eysenbach et al. [2019]
+
+Benjamin Eysenbach, Abhishek Gupta, Julian Ibarz, and Sergey Levine. Diversity is all you need: Learning skills without a reward function.

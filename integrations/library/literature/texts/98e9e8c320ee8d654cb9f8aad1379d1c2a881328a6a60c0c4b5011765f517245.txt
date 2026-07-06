@@ -1,0 +1,7 @@
+By interacting with each other, generative agents in Smallville exchange information, form new relationships, and coordinate joint activities. Extending prior work (Park et al., 2022), these social behaviors are emergent rather than pre-programmed. 3.4.1. Information Diffusion
+
+As agents notice each other, they may engage in dialogue—as they do so, information can spread from agent to agent. For instance, in a conversation between Sam and Tom at the grocery store, Sam tells Tom about his candidacy in the local election:
+
+Sam: Hey Tom, how’s it going? Tom: Good, thanks. What’s up? Sam: Well, I wanted to talk to you about something. I’m actually running for mayor in the upcoming local election. Tom: Really? That’s great news! Why are you running? Sam: I’ve been involved in local politics for years now, and I really feel like I can make a difference in our community. Plus, I want to bring new ideas and perspectives to the table. Later that day, after Sam left, Tom and John, who heard the news from another source, discuss Sam’s chances of winning the election:
+
+John: I heard that Sam Moore is running for mayor in the local election. Do you think he has a good chance of winning?

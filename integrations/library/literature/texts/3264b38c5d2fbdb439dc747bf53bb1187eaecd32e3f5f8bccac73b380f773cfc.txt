@@ -1,0 +1,34 @@
+Newell (1990)
+
+Allen Newell. 1990. Unified Theories of Cognition. Harvard University Press,
+Cambridge, Massachusetts. OpenAI (2022)
+
+OpenAI. 2022. Introducing ChatGPT. https://openai.com/blog/chatgpt. Accessed on: 2023-04-03. Orland (2021)
+
+Kyle Orland. 2021. So what is ’the metaverse’, exactly? Ars Technica (7 November
+2021). arXiv:2111.04169
+
+https://arstechnica.com/gaming/2021/11/so-what-is-the-metaverse-exactly/
+
+Ouyang et al. (2022)
+
+Long Ouyang, Jeff Wu,
+Xu Jiang, Diogo Almeida,
+Carroll L. Wainwright, Pamela Mishkin,
+Chong Zhang, Sandhini Agarwal,
+Katarina Slama, Alex Ray,
+John Schulman, Jacob Hilton,
+Fraser Kelton, Luke Miller,
+Maddie Simens, Amanda Askell,
+Peter Welinder, Paul Christiano,
+Jan Leike, and Ryan Lowe. 2022. Training language models to follow instructions with
+human feedback. arXiv:2203.02155 [cs.CL]
+
+Park et al. (2022)
+
+Joon Sung Park, Lindsay
+Popowski, Carrie J. Cai, Meredith Ringel
+Morris, Percy Liang, and Michael S. Bernstein. 2022. Social Simulacra: Creating Populated Prototypes for
+Social Computing Systems. In In the 35th Annual
+ACM Symposium on User Interface Software and Technology (UIST ’22) (Bend,
+OR, USA) (UIST ’22).

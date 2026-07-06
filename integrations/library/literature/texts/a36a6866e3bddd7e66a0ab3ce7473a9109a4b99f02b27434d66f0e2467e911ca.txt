@@ -1,0 +1,5 @@
+(There are some slight edge cases to the way the data is curated, which may lead to kinks in the scaling curves. For example, only minute-long clips were available so the maximum sequence length is actually bounded by .)
+
+Both Mamba and the SaShiMi (S4+MLP) baseline improve consistently with longer context lengths; Mamba is better throughout, and the gap widens at longer lengths. The main metric is bits per byte (BPB), which is a constant factor of the standard negative log-likelihood (NLL) loss for pretraining other modalities. We note one important detail: this is the only experiment in this paper in which we switched from the real parameterization to complex (Section˜3.6). We show additional ablations in LABEL:sec:exp-details:audio. 4.4.2 Autoregressive Speech Generation
+
+SC09 is a benchmark speech generation dataset [Warden2018SpeechCA, donahue2019adversarial], consisting of -second clips sampled at 16000 Hz of the digits “zero” through “nine” with highly variable characteristics. We largely follow the autoregressive training setup and generation protocol of [goel2022raw].

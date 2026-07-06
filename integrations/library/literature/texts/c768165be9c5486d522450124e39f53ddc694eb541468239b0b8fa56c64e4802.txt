@@ -1,0 +1,12 @@
+This includes our scan operation,
+and we use
+kernel fusion to reduce the amount of memory IOs, leading to a significant speedup
+compared to a standard implementation. Concretely, instead of preparing the scan input
+of size in GPU HBM
+(high-bandwidth memory),
+we load the SSM parameters directly from slow HBM to fast SRAM,
+perform the discretization and recurrence in SRAM,
+and then write the final outputs of size back to HBM. To avoid the sequential recurrence, we observe that
+despite not being linear it can still be parallelized with a
+work-efficient parallel scan algorithm [blelloch1990prefix, martin2018parallelizing, smith2023s5]. Finally, we must also avoid saving the intermediate states, which are necessary for backpropagation. We carefully apply the classic technique of recomputation to reduce the memory requirements: the intermediate states are not stored but recomputed in the backward pass when the inputs are loaded from HBM to SRAM. As a result, the fused selective scan layer has the same memory requirements as an optimized
+transformer implementation with FlashAttention. Details of the fused kernel and recomputation are in LABEL:sec:hardware_aware_algo.

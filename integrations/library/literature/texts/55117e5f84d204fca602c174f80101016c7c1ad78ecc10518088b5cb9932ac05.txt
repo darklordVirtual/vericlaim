@@ -1,0 +1,8 @@
+Wolf et al. [2020]
+
+Thomas Wolf, Julien Chaumond, Lysandre Debut, Victor Sanh, Clement Delangue,
+Anthony Moi, Pierric Cistac, Morgan Funtowicz, Joe Davison, Sam Shleifer,
+et al. Transformers: State-of-the-art natural language processing. In Conference on Empirical Methods in Natural Language
+Processing: System Demonstrations, 2020. Loshchilov and Hutter [2017]
+
+Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017.

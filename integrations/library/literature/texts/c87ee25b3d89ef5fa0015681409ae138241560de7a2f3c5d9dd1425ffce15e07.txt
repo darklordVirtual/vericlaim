@@ -1,0 +1,13 @@
+it to write answers with more basis in the text.”
+
+•
+
+Participants found that even non-quoted responses can often be verified, usually by searching the story for keywords that the model brings up. “Even when it was paraphrasing instead of quoting, it would often mention another specific term (radium gun, Jupiter, etc.) that I could then use to scan the passage and check its interpretation.”
+
+•
+
+Participants found it helpful to ask questions that explicitly presuppose any relevant information that they have already confirmed to be true. “This entailed implying in my query that something was true, and for the model to find the specifics of that true thing. An example of an assertive query could be ‘Tell me why Maitland was not at the party.’ instead of ‘Was Maitland at the party?’.”
+
+•
+
+Participants found the model more helpful for factual questions than questions of interpretation. “The more a question was open to interpretation, the more it seemed that the model would hallucinate things that didn’t exist or latch on to very weak concepts in the text.

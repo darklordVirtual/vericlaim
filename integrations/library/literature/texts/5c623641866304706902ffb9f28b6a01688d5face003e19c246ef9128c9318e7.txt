@@ -1,0 +1,27 @@
+Table 1:
+Complexity of various sequence models in terms of sequence length (), batch size (), and hidden dimension ();
+tildes denote log factors. Metrics are parameter count, training computation, training space requirement, training parallelizability, and inference computation (for 1 sample and time-step). For simplicity, the state size of S4 is tied to . Bold denotes model is theoretically best for that metric. Convolutions are efficient for training while recurrence is efficient for inference, while SSMs combine the strengths of both. Convolution333Refers to global (in the sequence length) and depthwise-separable convolutions, similar to the convolution version of S4. Recurrence
+
+Attention
+
+S4
+
+Parameters
+
+Training
+
+Space
+
+Parallel
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Inference
+
+Note that the core S4 module is a linear transformation, but the addition of non-linear transformations through the depth of the network makes the overall deep SSM non-linear. This is analogous to a vanilla CNN, since convolutional layers are also linear. The broadcasting across hidden features described in this section is also analogous to depthwise-separable convolutions.

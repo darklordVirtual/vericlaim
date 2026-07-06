@@ -1,0 +1,37 @@
+{{ "United States": 1, "Canada": 1, "Australia": 2, "New Zealand": 2, "Ukraine": 1, "Poland": 1 }}
+
+(Fully Correct)
+
+8. {{ "United States": 1, "Canada": 1, "Australia": 1, "New Zealand": 1, "Ukraine": 1, "Poland": 1 }}
+
+(2 Errors - Missing one ”Australia” and one ”New Zealand”)
+
+9. {{ "United States": 1, "Canada": 1, "Australia": 2, "New Zealand": 2, "Ukraine": 1, "Poland": 1 }}
+
+(Fully Correct)
+
+10. {{ "United States": 1, "Canada": 1, "Australia": 2, "New Zealand": 2, "Ukraine": 1, "Poland": 1 }}
+
+(Fully Correct)
+
+Table 25: Keyword counting for an example 4-passage split (GoT4): Step 2d (Prompt/Responses)
+
+Step 2d – Prompt:
+
+<Instruction> Count the frequency of how many times each country is explicitly named in the input text. You can generate any intermedate lists and states, but the final output should only contain the frequency of each country that appears at least once in the following json format, prefixed with ”Output: ” (make sure to keep the same spelling for each country in the output as in the input text):
+
+{{
+
+"country1": frequency1,
+
+"country2": frequency2,
+
+}}
+
+</Instruction>
+
+<Approach>
+
+To count the frequency for each country follow these steps:
+
+1.

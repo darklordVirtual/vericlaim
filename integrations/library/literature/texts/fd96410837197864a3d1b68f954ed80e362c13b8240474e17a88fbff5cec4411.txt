@@ -1,0 +1,11 @@
+We experimented with both the mixture of logistics from [39] as well as a simpler 256-way categorical loss. We found they were pretty close and ended up using the simpler softmax loss along with using input embeddings. We used the LAMB optimizer with learning rate 0.005. The base model had no dropout, while the large model had dropout 0.1 before the linear layers inside the S4 and FF blocks. D.3.2 WikiText-103 Language Modeling
+
+The RNN baselines included in Fig. 8 are the
+AWD-QRNN [27], an efficient linear gated RNN,
+and the LSTM + Cache + Hebbian + MbPA [33], the best performing pure RNN in the literature. The CNN baselines are
+the CNN with GLU activations [9],
+the TrellisNet [4],
+Dynamic Convolutions [49],
+and TaLK Convolutions [26]. The Transformer baseline is [2],
+which uses Adaptive Inputs with a tied Adaptive Softmax. This model is a standard high-performing Transformer baseline on this benchmark,
+used for example by Lioutas and Guo [26] and many more. Our S4 model uses the same Transformer backbone as in [2]. The model consists of 16 blocks of S4 layers alternated with position-wise feedforward layers, with a feature dimension of 1024.

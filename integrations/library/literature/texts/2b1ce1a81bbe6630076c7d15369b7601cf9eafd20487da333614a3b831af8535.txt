@@ -1,0 +1,17 @@
+can emit intermediate rewards, have a discount different from ,
+and the value estimates are unbounded 333In board games the discount is assumed to be and there are no intermediate rewards.. For , we form an -step estimate of the cumulative discounted reward, bootstrapping
+from the value function ,
+
+(3)
+
+For , we update the statistics for each edge in the simulation path as follows,
+
+(4)
+
+In two-player zero sum games the value functions are assumed to be bounded within the interval. This choice allows us to
+combine value estimates with probabilities using the pUCT rule (Eqn 2). However, since in many environments the value is unbounded, it is necessary
+to adjust the pUCT rule. A simple solution would be to use the maximum score
+that can be observed in the environment to either re-scale the value or set the
+pUCT constants appropriately [33]. However, both solutions are
+game specific and require adding prior knowledge to the MuZero algorithm. To avoid this, MuZero computes normalized value estimates
+by using the minimum-maximum values observed in the search tree up to that point.

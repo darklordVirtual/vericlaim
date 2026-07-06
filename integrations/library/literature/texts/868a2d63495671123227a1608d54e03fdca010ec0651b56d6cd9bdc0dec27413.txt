@@ -1,0 +1,18 @@
+Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021. Conwell et al. (2022)
+
+Conwell, C., Prince, J. S., Kay, K. N., Alvarez, G. A., and Konkle, T. What can 1.8 billion regressions tell us about the pressures shaping
+high-level visual representation in brains and machines? BioRxiv, pp. 2022–03, 2022. Dettmers et al. (2022)
+
+Dettmers, T., Lewis, M., Belkada, Y., and Zettlemoyer, L. Gpt3. int8 (): 8-bit matrix multiplication for transformers at scale. Advances in Neural Information Processing Systems,
+35:30318–30332, 2022. Devlin et al. (2018)
+
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. Bert: Pre-training of deep bidirectional transformers for language
+understanding. arXiv preprint arXiv:1810.04805, 2018. Diamond (1998)
+
+Diamond, J. M. Guns, germs and steel: a short history of everybody for the
+last 13,000 years. Vintage London, 1998. Dingle et al. (2018)
+
+Dingle, K., Camargo, C. Q., and Louis, A. A. Input–output maps are strongly biased towards simple outputs. Nature communications, 9(1):761, 2018. Doppelt (2007)
+
+Doppelt, G. Reconstructing scientific realism to rebut the pessimistic
+meta-induction.

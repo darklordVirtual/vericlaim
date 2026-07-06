@@ -1,0 +1,18 @@
+In International Conference on Learning Representations, 2018. [11]
+
+Carles Gelada, Saurabh Kumar, Jacob Buckman, Ofir Nachum, and Marc G. Bellemare. DeepMDP: Learning continuous latent space models for
+representation learning. In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors, Proceedings of the 36th International Conference on Machine Learning,
+volume 97 of Proceedings of Machine Learning Research, pages
+2170–2179, Long Beach, California, USA, 09–15 Jun 2019. PMLR. [12]
+
+Cloud tpu. https://cloud.google.com/tpu/. Accessed: 2019. [13]
+
+David Ha and Jürgen Schmidhuber. Recurrent world models facilitate policy evolution. In Proceedings of the 32Nd International Conference on Neural
+Information Processing Systems, NIPS’18, pages 2455–2467, USA, 2018. Curran
+Associates Inc. [14]
+
+Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha,
+Honglak Lee, and James Davidson. Learning latent dynamics for planning from pixels. arXiv preprint arXiv:1811.04551, 2018. [15]
+
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Identity mappings in deep residual networks. In 14th European Conference on Computer Vision, pages 630–645,
+2016.

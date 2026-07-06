@@ -1,0 +1,20 @@
+Llava-med: Training a large language-and-vision assistant for
+biomedicine in one day. arXiv preprint arXiv:2306.00890, 2023a. Li et al. (2023b)
+
+Kenneth Li, Aspen K Hopkins, David Bau, Fernanda Viégas, Hanspeter Pfister,
+and Martin Wattenberg. Emergent world representations: Exploring a sequence model trained on
+a synthetic task. In The Eleventh International Conference on Learning
+Representations, 2023b. Li et al. (2023c)
+
+Kenneth Li, Oam Patel, Fernanda Viégas, Hanspeter Pfister, and Martin
+Wattenberg. Inference-time intervention: Eliciting truthful answers from a
+language model, 2023c. Liao & Poggio (2016)
+
+Qianli Liao and Tomaso Poggio. Bridging the gaps between residual learning, recurrent neural
+networks and visual cortex. arXiv preprint arXiv:1604.03640, 2016. Lieberum et al. (2023)
+
+Tom Lieberum, Matthew Rahtz, János Kramár, Geoffrey Irving, Rohin Shah,
+and Vladimir Mikulik. Does circuit analysis interpretability scale? evidence from multiple
+choice capabilities in chinchilla. arXiv preprint arXiv:2307.09458, 2023. Lin et al. (2021)
+
+Stephanie Lin, Jacob Hilton, and Owain Evans. Truthfulqa: Measuring how models mimic human falsehoods. CoRR, abs/2109.07958, 2021.

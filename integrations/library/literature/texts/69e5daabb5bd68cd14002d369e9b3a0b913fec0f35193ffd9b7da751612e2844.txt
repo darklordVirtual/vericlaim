@@ -1,0 +1,17 @@
+Salakhutdinov. Film: Following instructions in language with modular methods. International Conference on Learning Representations, 2021. (80)
+
+Valts Blukis, Chris Paxton, Dieter Fox, Animesh Garg, and Yoav Artzi. A persistent spatial semantic representation for high-level natural
+language instruction execution. In 5th Annual Conference on Robot Learning, 2021. (81)
+
+Varun Nair, Elliot Schumacher, Geoffrey Tso, and Anitha Kannan. Dera: Enhancing large language model completions with dialog-enabled
+resolving agents. arXiv preprint arXiv: Arxiv-2303.17071, 2023. (82)
+
+Joon Sung Park, Joseph C. O’Brien, Carrie J. Cai, Meredith Ringel Morris, Percy
+Liang, and Michael S. Bernstein. Generative agents: Interactive simulacra of human behavior. arXiv preprint arXiv: Arxiv-2304.03442, 2023. (83)
+
+Yue Wu, Shrimai Prabhumoye, So Yeon Min, Yonatan Bisk, Ruslan Salakhutdinov,
+Amos Azaria, Tom Mitchell, and Yuanzhi Li. Spring: Gpt-4 out-performs rl algorithms by studying papers and
+reasoning. arXiv preprint arXiv: 2305.15486, 2023. (84)
+
+Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio
+Savarese, and Caiming Xiong. A conversational paradigm for program synthesis.

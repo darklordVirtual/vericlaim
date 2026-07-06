@@ -1,0 +1,5 @@
+The two entries sum up to , with linearly higher weight given to the bin that is closer to the encoded continuous number. The network is then trained to minimize the categorical cross entropy loss for classification with soft targets. Note that the loss only depends on the probabilities assigned to the bins but not on the continuous values associated with the bin locations, decoupling the size of the gradients from the size of the targets:
+
+(11)
+
+Applying these principles, Dreamer transforms vector observations using the symlog functions, both for the encoder inputs and the decoder targets and employs the synexp twohot loss for the reward predictor and critic. We find that these techniques enable robust and fast learning across many diverse domains. For critic learning, an alternative asymmetric transformation has previously been proposed 35, which we found less effective on average across domains. Unlike alternatives, symlog transformations avoid truncating large targets 7, introducing non-stationary from normalization 5, or adjusting network weights when new extreme values are detected 36.

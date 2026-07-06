@@ -1,0 +1,7 @@
+M., Subramanian, R., Tan, X. E., Tang, B., Taylor, R., Williams, A., Kuan, J. X., Xu, P., Yan, Z., Zarov, I., Zhang, Y., Fan, A., Kambadur, M., Narang, S., Rodriguez, A., Stojnic, R., Edunov, S., and Scialom, T. Llama 2: Open Foundation and Fine-Tuned Chat Models, 2023. Tullis & Fraundorf (2017)
+
+Tullis, J. and Fraundorf, S. Predicting others’ memory performance: The accuracy and bases of social metacognition. Journal of Memory and Language, 95:124–137, 2017. doi: https://doi.org/10.1016/j.jml.2017.03.003. Turing (1950)
+
+Turing, A. Computing Machinery and Intelligence. Mind, LIX:433–460, October 1950. URL https://doi.org/10.1093/mind/LIX.236.433. Varadi et al. (2021)
+
+Varadi, M., Anyango, S., Deshpande, M., Nair, S., Natassia, C., Yordanova, G., Yuan, D., Stroe, O., Wood, G., Laydon, A., Žídek, A., Green, T., Tunyasuvunakool, K., Petersen, S., Jumper, J., Clancy, E., Green, R., Vora, A., Lutfi, M., Figurnov, M., Cowie, A., Hobbs, N., Kohli, P., Kleywegt, G., Birney, E., Hassabis, D., and Velankar, S. AlphaFold Protein Structure Database: Massively Expanding the Structural Coverage of Protein-Sequence Space with High-Accuracy Models. Nucleic Acids Research, 50:D439–D444, 11 2021.

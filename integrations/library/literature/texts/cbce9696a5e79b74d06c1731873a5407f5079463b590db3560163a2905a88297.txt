@@ -1,0 +1,5 @@
+spread invitations to the party over the next two days, make new acquaintances, ask each other out on dates to the party, and coordinate to show up for the party together at the right time. We demonstrate through ablation that the components of our agent architecture—observation, planning, and reflection—each contribute critically to the believability of agent behavior. By fusing large language models with computational interactive agents, this work introduces architectural and interaction patterns for enabling believable simulations of human behavior. Human-AI interaction, agents, generative AI, large language models
+
+††journalyear: 2023††copyright: rightsretained††conference: The 36th Annual ACM Symposium on User Interface Software and Technology; October 29-November 1, 2023; San Francisco, CA, USA††booktitle: The 36th Annual ACM Symposium on User Interface Software and Technology (UIST ’23), October 29-November 1, 2023, San Francisco, CA, USA††doi: 10.1145/3586183.3606763††isbn: 979-8-4007-0132-0/23/10††ccs: Human-centered computing Interactive systems and tools††ccs: Computing methodologies Natural language processing
+
+Figure 1.

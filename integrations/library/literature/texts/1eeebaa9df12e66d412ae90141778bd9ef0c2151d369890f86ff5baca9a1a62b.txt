@@ -1,0 +1,18 @@
+In Empirical Methods in Natural Language Processing (EMNLP),
+2021. Garipov et al. (2018)
+
+Garipov, T., Izmailov, P., Podoprikhin, D., Vetrov, D. P., and Wilson, A. G. Loss surfaces, mode connectivity, and fast ensembling of dnns. Advances in neural information processing systems, 31, 2018. Gell-Mann (1995)
+
+Gell-Mann, M. The Quark and the Jaguar: Adventures in the Simple and the
+Complex. Macmillan, 1995. Geng & Liu (2023)
+
+Geng, X. and Liu, H. OpenLLaMA: An open reproduction of LLaMA, May 2023. URL https://github.com/openlm-research/open_llama. Gokaslan & Cohen (2019)
+
+Gokaslan, A. and Cohen, V. Openwebtext corpus. http://Skylion007.github.io/OpenWebTextCorpus, 2019. Goldblum et al. (2023)
+
+Goldblum, M., Finzi, M., Rowan, K., and Wilson, A. G. The no free lunch theorem, Kolmogorov complexity, and the role of
+inductive biases in machine learning. arXiv preprint arXiv:2304.05366, 2023. Google (2023)
+
+Google. Gemini: a family of highly capable multimodal models. arXiv preprint arXiv:2312.11805, 2023. Gretton et al. (2005)
+
+Gretton, A., Bousquet, O., Smola, A., and Schölkopf, B. Measuring statistical dependence with hilbert-schmidt norms.

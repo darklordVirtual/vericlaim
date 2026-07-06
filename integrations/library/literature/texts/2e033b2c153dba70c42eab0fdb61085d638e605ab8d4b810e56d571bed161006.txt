@@ -1,0 +1,19 @@
+Agreement between [Your Company Name] and [Recipient Name] on [Date]. 2. Information sharing for the purpose of [specific project or purpose], including [Topic of Research]. (Omitted)
+
+Score:
+
+Response (10/10):
+
+<Merged>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+Agreement between [Your Company Name] and [Recipient Name] on [Date]. Information sharing for the purpose of [specific project or purpose]. (Omitted)
+
+Score:
+
+Table 46: Merging 4 example NDAs: Step 3 (Highest Scoring Response)
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+1. Agreement between [Your Company Name] and [Recipient Name] on [Date] for the purpose of [specific project or purpose]. 2. ”Confidential Information” includes all potentially commercially valuable information, such as software development tactics, processes, in-house research results, system designs, architectural schematics, proprietary computational algorithms, internal software blueprints, and intellectual property awaiting patents. 3. Receiving party is obligated to protect the Confidential Information, use it solely for the disclosed purpose, and not disclose it without consent. 4.

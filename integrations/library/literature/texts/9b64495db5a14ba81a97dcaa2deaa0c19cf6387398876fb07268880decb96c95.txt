@@ -1,0 +1,12 @@
+For Raw, we found that LipschitzRNN was too slow to train on a single GPU (requiring a full day for epoch of training alone). WaveGAN Discriminator [11]
+The WaveGAN-D in Fig. 6 is actually our improved version of the discriminator network from the recent WaveGAN model for speech [11]. This CNN actually did not work well out-of-the-box, and we added several features to help it perform better. The final model is highly specialized compared to our model, and includes:
+
+•
+
+Downsampling or pooling between layers, induced by strided convolutions, that decrease the sequence length between layers. •
+
+A global fully-connected output layer; thus the model only works for one input sequence length and does not work on MFCC features or the frequency-shift setting in Fig. 6. •
+
+Batch Normalization is essential, whereas S4 works equally well with either Batch Normalization or Layer Normalization. •
+
+Almost as many parameters as the S4 model (M vs. M).

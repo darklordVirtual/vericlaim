@@ -1,0 +1,3 @@
+We hypothesize that making selective in addition to (or instead of) would have similar performance,
+and leave it out for simplicity. Interpretation of and . As discussed in Section˜3.1, the most important property of selectivity is filtering out irrelevant information
+so that a sequence model’s context can be compressed into an efficient state. In an SSM, modifying and to be selective allows finer-grained control over whether to let an input into the state , or the state into the output . These can be interpreted as allowing the model to modulate the recurrent dynamics based on content (input) and context (hidden states) respectively.

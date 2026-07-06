@@ -1,0 +1,5 @@
+Numerous studies have demonstrated the feasibility of extracting training data from LLMs and diffusion models (Carlini et al., 2021; 2023; Hu et al., 2022). These models can memorize a substantial portion of their training data, raising concerns about potential breaches of confidential or copyrighted content. In the following section, we present initial exploration in the area of model memorization with RepE. 6.5.1 Memorized Data Detection
+
+Can we use the neural activity of an LLM to classify whether it has memorized a piece of text? To investigate this, we conduct LAT scans under two distinct settings:
+
+1. Popular vs. Synthetic Quotes: Popular quotes encompass well-known quotations sourced from the internet and human cultures. These quotes allow us to assess memorization of concise, high-impact text snippets. As a reference set, we prompt GPT-4 to generate synthetic quotations. 2. Popular vs. Synthetic Literary Openings: Popular literary openings refer to the initial lines or passages from iconic books, plays, or poems. These openings allow us to assess memorization of longer text excerpts.

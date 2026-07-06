@@ -1,0 +1,13 @@
+(2022)
+
+Wei, J., Tay, Y., Bommasani, R., Raffel, C., Zoph, B., Borgeaud, S., Yogatama, D., Bosma, M., Zhou, D., Metzler, D., Chi, E. H., Hashimoto, T., Vinyals, O., Liang, P., Dean, J., and Fedus, W. Emergent Abilities of Large Language Models. CoRR, abs/2206.07682, 2022. doi: 10.48550/arXiv.2206.07682. URL https://arxiv.org/abs/2206.07682. Weizenbaum (1966)
+
+Weizenbaum, J. ELIZA—a Computer Program for the Study of Natural Language Communication between Man and Machine. Commun. ACM, 9(1):36–45, jan 1966. ISSN 0001-0782. doi: 10.1145/365153.365168. URL https://doi.org/10.1145/365153.365168. Wiggers (2021)
+
+Wiggers, K. OpenAI Disbands its Robotics Research Team. VentureBeat, July 2021. Wikipedia (2023a)
+
+Wikipedia. Eugene Goostman - Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Eugene_Goostman, 2023a. Accessed October 12, 2023. Wikipedia (2023b)
+
+Wikipedia. Turing Test: Weaknesses — Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Turing_test, 2023b. Accessed October 12, 2023. Winograd (1971)
+
+Winograd, T. Procedures as a Representation for Data in a Computer Program for Understanding Natural Language. MIT AI Technical Reports, 1971.

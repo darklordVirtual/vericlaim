@@ -1,0 +1,19 @@
+(2018)
+
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. 2018. Can a suit of armor conduct electricity? a new dataset for open book
+question answering. In EMNLP. Muennighoff et al. (2023)
+
+Niklas Muennighoff, Alexander M Rush, Boaz Barak, Teven Le Scao, Aleksandra
+Piktus, Nouamane Tazi, Sampo Pyysalo, Thomas Wolf, and Colin Raffel. 2023. Scaling data-constrained language models. arXiv preprint arXiv:2305.16264. OpenAI (2022)
+
+OpenAI. 2022. Introducing chatgpt. https://openai.com/blog/chatgpt. Orvieto et al. (2023)
+
+Antonio Orvieto, Samuel L Smith, Albert Gu, Anushan Fernando, Caglar Gulcehre,
+Razvan Pascanu, and Soham De. 2023. Resurrecting recurrent neural networks for long sequences. arXiv preprint arXiv:2303.06349. Paperno et al. (2016)
+
+Denis Paperno, Germán Kruszewski, Angeliki Lazaridou, Ngoc Quan Pham,
+Raffaella Bernardi, Sandro Pezzelle, Marco Baroni, Gemma Boleda, and Raquel
+Fernandez. 2016. The LAMBADA
+dataset: Word prediction requiring a broad discourse context. In Proceedings of the 54th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 1525–1534,
+Berlin, Germany. Association for Computational Linguistics.

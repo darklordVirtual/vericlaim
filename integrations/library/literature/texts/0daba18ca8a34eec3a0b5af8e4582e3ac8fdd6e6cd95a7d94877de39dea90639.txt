@@ -1,0 +1,35 @@
+Do not reuse functions listed there. 5) Anything defined outside a function will be ignored, define all your variables inside your functions. 6) Call ‘bot.chat‘ to show the intermediate progress. 7) Use ‘exploreUntil(bot, direction, maxDistance, callback)‘ when you cannot find something. You should frequently call this before mining blocks or killing mobs. You should select a direction at random every time instead of constantly using (1, 0, 1). 8) ‘maxDistance‘ should always be 32 for ‘bot.findBlocks‘ and ‘bot.findBlock‘. Do not cheat. 9) Do not write infinite loops or recursive functions. 10) Do not use ‘bot.on‘ or ‘bot.once‘ to register event listeners. You definitely do not need them. 11) Name your function in a meaningful way (can infer the task from the name). You should only respond in the format as described below:
+
+RESPONSE FORMAT:
+
+Explain: …
+
+Plan:
+
+1) …
+
+2) …
+
+3) …
+
+…
+
+Code:
+
+“‘javascript
+
+// helper functions (only if needed, try to avoid them)
+
+…
+
+// main function after the helper functions
+
+async function yourMainFunctionName(bot) {
+
+// …
+
+}
+
+“‘
+
+Prompt 5: Full system prompt for generating function descriptions.

@@ -1,0 +1,12 @@
+Grandmaster level in StarCraft II using multi-agent reinforcement
+learning. Nature, pages 1–5, 2019. [47]
+
+I Vlahavas and I Refanidis. Planning and scheduling. EETN, Greece, Tech. Rep, 2013. [48]
+
+Niklas Wahlström, Thomas B. Schön, and Marc Peter Deisenroth. From pixels to torques: Policy learning with deep dynamical models. CoRR, abs/1502.02251, 2015. [49]
+
+Manuel Watter, Jost Tobias Springenberg, Joschka Boedecker, and Martin
+Riedmiller. Embed to control: A locally linear latent dynamics model for control
+from raw images. In Proceedings of the 28th International Conference on Neural
+Information Processing Systems - Volume 2, NIPS’15, pages 2746–2754,
+Cambridge, MA, USA, 2015. MIT Press.

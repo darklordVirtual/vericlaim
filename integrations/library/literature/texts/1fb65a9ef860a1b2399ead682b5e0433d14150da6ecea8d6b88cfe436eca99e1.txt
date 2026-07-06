@@ -1,0 +1,59 @@
+Step 10: She took the box out of the freezer. Step
+Therefore, the answer (arabic numerals) is:
+Step 1: She baked 68 cupcakes. Step 2: She put 32 of them in a box. Step 3: She put 6 cup
+✗
+
+GPT-J
+(6B)
+
+A: Let’s think step by step. Step 1:
+Step 2:
+Step 3:
+Step 4:
+Step 5:
+Step 6:
+Step 7:
+Step 8:
+Step 9:
+Step 10:
+Step 11:
+Step 12:
+Step 13:
+Step 14:
+Step 15:
+Step 16:
+Step 17:
+Step 18:
+Step 19:
+Step 20:
+Step 21:
+Step 22:
+Step 23:
+Step 24:
+Step 25:
+Step
+Therefore, the answer (arabic numerals) is:
+A:
+The answer is:
+
+Step 1:
+The first step is to count
+✗
+
+T0
+(11B)
+
+A: Let’s think step by step. 12
+Therefore, the answer (arabic numerals) is 12
+✗
+
+OPT
+(13B)
+
+A: Let’s think step by step. Megan baked 68 cupcakes. She divided 68 by 6 to get 17. She divided 17 by 32 to get 6. Megan can make 6 packages of cupcakes if she puts 6 cupcakes in each package. Therefore, the answer (arabic numerals) is:
+✗
+
+Table 16: An example output by Few-shot (8 exemplars in context. These exemplars are cited from [Wei et al., 2022] and randomly shuffled). Few-Shot
+
+***** Start In-Context Examples *****
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops.

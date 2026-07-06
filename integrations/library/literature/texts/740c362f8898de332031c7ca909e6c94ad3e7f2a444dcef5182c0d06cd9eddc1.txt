@@ -1,0 +1,5 @@
+degree of misaligned model behavior by interrogating the model for consistency or reviewing multiple output samples for the same query, and synthesize the resulting findings using their own judgment. •
+
+Debate: Techniques in this family (Irving et al., 2018; Irving and Askell, 2019) adapt a model (potentially but not necessarily a natural-language assistant) to propose an answer to a question and then alternately play the role of two participants in a debate, surfacing and critiquing arguments for and against the proposed answer. A human judge is then expected to use these arguments to choose an answer. While this can be approximated using simple model prompting, the full protocol requires the use of a training objective that sets up adversarial incentives for the two sides of the debate. •
+
+Market-Making: In this derivative of debate (Hubinger, 2020), a single debater aims to iteratively generate arguments that maximally change the belief of a judge (loosely speaking, a learned predictor of a human participant’s judgment) at each turn.

@@ -1,0 +1,51 @@
+{
+  "abstract": "\"Induction heads\" are attention heads that implement a simple algorithm to complete token sequences like [A][B] ... [A] -> [B]. In this work, we present preliminary and indirect evidence for a hypothesis that induction heads might constitute the mechanism for the majority of all \"in-context learning\" in large transformer models (i.e. decreasing loss at increasing token indices). We find that induction heads develop at precisely the same point as a sudden sharp increase in in-context learning ability, visible as a bump in the training loss. We present six complementary lines of evidence, arguing that induction heads may be the mechanistic source of general in-context learning in transformer models of any size. For small attention-only models, we present strong, causal evidence; for larger models with MLPs, we present correlational evidence.",
+  "accredited": false,
+  "authors": [
+    "Catherine Olsson",
+    "Nelson Elhage",
+    "Neel Nanda",
+    "Nicholas Joseph",
+    "Nova DasSarma",
+    "Tom Henighan",
+    "Ben Mann",
+    "Amanda Askell",
+    "Yuntao Bai",
+    "Anna Chen",
+    "Tom Conerly",
+    "Dawn Drain",
+    "Deep Ganguli",
+    "Zac Hatfield-Dodds",
+    "Danny Hernandez",
+    "Scott Johnston",
+    "Andy Jones",
+    "Jackson Kernion",
+    "Liane Lovitt",
+    "Kamal Ndousse",
+    "Dario Amodei",
+    "Tom Brown",
+    "Jack Clark",
+    "Jared Kaplan",
+    "Sam McCandlish",
+    "Chris Olah"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T07:48:27.440557+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2209.11895"
+  },
+  "fulltext_sha256": "c0de8a4b148b0a9bf22693e26fd020f384e6a931882a7c2f1a6b375fc9424f3b",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "induction-heads-2022",
+    "fetched_at": "2026-07-06T07:38:53.086499+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "8935d242126dd93c984d84e7015ce986b76ad8d900bb42c7376a0cba0c1d7869",
+  "title": "In-context Learning and Induction Heads",
+  "url": "https://arxiv.org/abs/2209.11895",
+  "venue": "arXiv",
+  "work_id": "arxiv:2209.11895",
+  "year": 2022
+}

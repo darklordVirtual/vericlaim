@@ -1,0 +1,9 @@
+The applications in Section 3 show how AutoGen not only enables new applications but also helps renovate existing ones. For example, in A1 (scenario 3), A5, and A6, AutoGen enabled the creation of multi-agent conversations that follow a dynamic pattern instead of a fixed back-and-forth. And in both A5 and A6, humans can participate in the activities together with multiple other AI agents in a conversational manner. Similarly, A1-A4 show how popular applications can be renovated quickly with AutoGen. Despite the complexity of these applications (most of them involve more than two agents or dynamic multi-turn agent cooperation), our AutoGen-based implementation remains simple, demonstrating promising opportunities to build creative applications and a large space for innovation. In reflecting on why these benefits can be achieved in these applications with AutoGen, we believe there are a few reasons:
+
+•
+
+Ease of use: The built-in agents can be used out-of-the-box, delivering strong performance even without any customization. (A1, A3)
+
+•
+
+Modularity: The division of tasks into separate agents promotes modularity in the system.

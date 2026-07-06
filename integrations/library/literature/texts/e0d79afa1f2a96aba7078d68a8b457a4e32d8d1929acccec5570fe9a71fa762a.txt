@@ -1,0 +1,18 @@
+Learning visual representations using images with captions. In 2007 IEEE Conference on Computer Vision and Pattern
+Recognition, pp. 1–8. IEEE, 2007. Radford et al. (2018)
+
+Radford, A., Narasimhan, K., Salimans, T., and Sutskever, I. Improving language understanding by generative pre-training, 2018. Radford et al. (2019)
+
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., and Sutskever, I. Language models are unsupervised multitask learners. 2019. Raffel et al. (2019)
+
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou,
+Y., Li, W., and Liu, P. J. Exploring the limits of transfer learning with a unified text-to-text
+transformer. arXiv preprint arXiv:1910.10683, 2019. Raji et al. (2020)
+
+Raji, I. D., Gebru, T., Mitchell, M., Buolamwini, J., Lee, J., and Denton, E. Saving face: Investigating the ethical concerns of facial recognition
+auditing, 2020. Ramanathan et al. (2013)
+
+Ramanathan, V., Liang, P., and Fei-Fei, L. Video event understanding using natural language descriptions. In Proceedings of the IEEE International Conference on Computer
+Vision, pp. 905–912, 2013. Rashtchian et al. (2010)
+
+Rashtchian, C., Young, P., Hodosh, M., and Hockenmaier, J.

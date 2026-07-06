@@ -1,0 +1,1 @@
+Our research is conducted within Minecraft, a safe and harmless 3D video game environment. While Voyager is designed to be generally applicable to other domains, such as robotics, its application to physical robots would require additional attention and the implementation of safety constraints by humans to ensure responsible and secure deployment.

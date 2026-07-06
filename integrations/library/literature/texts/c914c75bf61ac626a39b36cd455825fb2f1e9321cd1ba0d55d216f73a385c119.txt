@@ -1,0 +1,14 @@
+Plug and play language models: A simple approach to controlled text
+generation. arXiv preprint arXiv:1912.02164, 2019. Holtzman et al. [2018]
+
+Ari Holtzman, Jan Buys, Maxwell Forbes, Antoine Bosselut, David Golub, and
+Yejin Choi. Learning to write with cooperative discriminators. arXiv preprint arXiv:1805.06087, 2018. Krause et al. [2020]
+
+Ben Krause, Akhilesh Deepak Gotmare, Bryan McCann, Nitish Shirish Keskar,
+Shafiq Joty, Richard Socher, and Nazneen Fatema Rajani. Gedi: Generative discriminator guided sequence generation. arXiv preprint arXiv:2009.06367, 2020. Devlin et al. [2018]
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language
+understanding. arXiv preprint arXiv:1810.04805, 2018. Carion et al. [2020]
+
+Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander
+Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. In European Conference on Computer Vision, 2020. Dosovitskiy et al.

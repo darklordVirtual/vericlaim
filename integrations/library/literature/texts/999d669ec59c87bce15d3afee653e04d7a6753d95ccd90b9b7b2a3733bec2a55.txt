@@ -1,0 +1,57 @@
+Model
+
+169M
+
+430M
+
+1.5B
+
+3B
+
+7B
+
+14B
+
+Init LR
+
+0.0006
+
+0.0004
+
+0.0003
+
+0.00015
+
+0.00015
+
+0.0001
+
+Warmup Mini-Epochs
+
+361
+
+411
+
+443
+
+451
+
+465
+
+544
+
+End LR
+
+0.00001
+
+0.00001
+
+0.00001
+
+0.00001
+
+0.00001
+
+0.000007
+
+Table 3: Hyperparameters for our learning rate (LR) schedule of the pretrained models. To train the models mentioned, we use without weight decay for the Adam optimizer, and switch batch size dynamically between 128 or 256 sequences, each of 1024 tokens. We further organize the training into multiple mini-epochs, each of 40320 samples, to guide our learning rate schedule. The training process takes 8043 mini-epochs to make one pass over the Pile. The initial warming up mini-epochs have a constant learning rate of “Init LR”. After the warming up mini-epochs, the learning rate exponentially decays until in the last mini-epoch, in which the model finishes training on the entire Pile, the learning rate arrives at the “End LR”. The related hyperparameters are shown in Table 3.

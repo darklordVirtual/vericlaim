@@ -1,0 +1,16 @@
+Journal of Artificial Intelligence Research, 47:853–899, 2013. Hongsuck Seo et al. (2018)
+
+Hongsuck Seo, P., Weyand, T., Sim, J., and Han, B. Cplanet: Enhancing image geolocalization by combinatorial
+partitioning of maps. In Proceedings of the European Conference on Computer Vision
+(ECCV), pp. 536–551, 2018. Howard & Ruder (2018)
+
+Howard, J. and Ruder, S. Universal language model fine-tuning for text classification. arXiv preprint arXiv:1801.06146, 2018. Ilyas et al. (2019)
+
+Ilyas, A., Santurkar, S., Tsipras, D., Engstrom, L., Tran, B., and Madry, A. Adversarial examples are not bugs, they are features. In Advances in Neural Information Processing Systems, pp. 125–136, 2019. Ioffe & Szegedy (2015)
+
+Ioffe, S. and Szegedy, C. Batch normalization: Accelerating deep network training by reducing
+internal covariate shift. arXiv preprint arXiv:1502.03167, 2015. Jaderberg et al. (2014)
+
+Jaderberg, M., Simonyan, K., Vedaldi, A., and Zisserman, A. Deep structured output learning for unconstrained text recognition. arXiv preprint arXiv:1412.5903, 2014. Jaderberg et al. (2015)
+
+Jaderberg, M., Simonyan, K., Zisserman, A., et al. Spatial transformer networks.

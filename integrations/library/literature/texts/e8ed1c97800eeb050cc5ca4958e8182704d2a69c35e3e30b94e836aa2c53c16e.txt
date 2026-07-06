@@ -1,0 +1,9 @@
+Many of our prompts require a concise summary of the agent, shorthanded as [Agent’s Summary Description] in prompts above. In our implementation, this summary comprises agents’ identity information (e.g., name, age, personality), as well as a description of their main motivational drivers and statements that describes their current occupation and self-assessment. Since this information is frequently used in many prompts, we synthesize it at regular intervals and access that synthesis as a cache. To achieve this, we perform a retrieval on the query “[name]’s core characteristics.” We then summarize the descriptors in the retrieved records by prompting the language model. For example:
+
+How would one describe Eddy Lin’s core characteristics given the following statements? - Eddy is a student at the Oak Hill College
+
+studying music theory and composition
+
+- Eddy is working on a new music composition [...]
+
+This result: Eddy Lin is a student at Oak Hill College studying music theory and composition.

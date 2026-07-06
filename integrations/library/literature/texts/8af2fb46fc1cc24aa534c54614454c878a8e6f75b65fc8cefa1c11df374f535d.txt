@@ -1,0 +1,11 @@
+Preliminaries
+
+We restrict our attention to representations that are vector embeddings. We characterize such a representation by the similarity structure it induces, referred to as its kernel. Kernels are commonly used to assess representations (Kornblith et al., 2019; Klabunde et al., 2023); this can be justified by the fact that they capture the relative structures among data samples, which are also the learning signal for many machine learning algorithms (Aronszajn, 1950; Smola & Schölkopf, 1998). Following prior literature, we define representational alignment as a measure of the similarity of the similarity structures induced by two representations, i.e., a similarity metric over kernels. We give the mathematical definition of these concepts below:
+
+•
+
+A representation is a function that assigns a feature vector to each input in some data domain . •
+
+A kernel, , characterizes how a representation measures distance/similarity between datapoints. , where denotes inner product, and . •
+
+A kernel-alignment metric, , measures the similarity between two kernels, i.e., how similar is the distance measure induced by one representation to the distance measure induced by another.

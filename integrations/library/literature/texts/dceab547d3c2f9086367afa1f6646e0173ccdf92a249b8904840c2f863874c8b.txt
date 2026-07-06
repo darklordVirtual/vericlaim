@@ -1,0 +1,16 @@
+URL https://github.com/jerryjliu/llama_index. Mnih et al. (2013)
+
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis
+Antonoglou, Daan Wierstra, and Martin Riedmiller. Playing atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602, 2013. Navigli et al. (2023)
+
+Roberto Navigli, Simone Conia, and Björn Ross. Biases in large language models: Origins, inventory and discussion. ACM Journal of Data and Information Quality, 2023. OpenAI (2023)
+
+OpenAI. ChatGPT plugins. https://openai.com/blog/chatgpt-plugins, 2023. Park et al. (2023)
+
+Joon Sung Park, Joseph C O’Brien, Carrie J Cai, Meredith Ringel Morris, Percy
+Liang, and Michael S Bernstein. Generative agents: Interactive simulacra of human behavior. arXiv preprint arXiv:2304.03442, 2023. Parvez et al. (2021)
+
+Md Rizwan Parvez, Wasi Uddin Ahmad, Saikat Chakraborty, Baishakhi Ray, and
+Kai-Wei Chang. Retrieval augmented code generation and summarization. arXiv preprint arXiv:2108.11601, 2021. Patil et al. (2023)
+
+Shishir G. Patil, Tianjun Zhang, Xin Wang, and Joseph E. Gonzalez. Gorilla: Large language model connected with massive apis. arXiv preprint arXiv:2305.15334, 2023.

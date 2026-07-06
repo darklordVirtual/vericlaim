@@ -1,0 +1,5 @@
+Here we describe the details of how we created the four color representations visualized in Figure 8, from left to right. Perceptual representation from CIELAB color space
+
+We embed pixels taken from the CIFAR-10 image dataset (Krizhevsky et al., 2009; Torralba et al., 2008) based on the CIELAB color space, which is designed as a perceptually uniform space that changes numerical values correspond to similar perceived changes in color. Three representations from cooccurrence in VISION and LANGUAGE
+
+For these three representations, we first obtain a dissimilarity matrix over colors (in different ways detailed below), then use multidimensional scaling (Shepard, 1980) to find a 3-dimensional embedding in which Euclidean distance between the embeddings for and , and , best matches this dissimilarity matrix. We use fits and take the best match. Afterward, we visually align it with the CIELAB space by finding the best rotation, translation, scaling, and flipping, by running the Kabsch-Umeyama algorithm (Kabsch, 1976, 1978; Umeyama, 1991) twice, once on and once on , to account for flipping.

@@ -1,0 +1,7 @@
+2022. Large Language Models Are Human-Level Prompt Engineers. arXiv:2211.01910. Zhu et al. [2023]
+
+Zhu, X.; Wang, J.; Zhang, L.; Zhang, Y.; Huang, Y.; Gan, R.; Zhang, J.; and
+Yang, Y. 2023. Solving Math Word Problems via Cooperative Reasoning induced Language
+Models. In Proceedings of the 61st Annual Meeting of the Association
+for Computational Linguistics, ACL ’23, 4471–4485. Association for
+Computational Linguistics.

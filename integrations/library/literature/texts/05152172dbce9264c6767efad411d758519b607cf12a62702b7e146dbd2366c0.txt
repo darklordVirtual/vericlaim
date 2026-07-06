@@ -1,0 +1,24 @@
+The assistant doesn’t always understand the story or the question perfectly, so if you just ask the assistant to answer for you, it’ll get less than three quarters
+right. We’re interested in whether you can get 80 or 90% of them right. •
+
+You’ll have to give your confidence when you answer each question. This is quite helpful, so please take it seriously. When we’re measuring how well you can do, a confident right answer is much better than an uncertain right answer, but a confident wrong answer is much worse. Details
+
+•
+
+You can use the assistant however you want, and we encourage you to be creative. Examples:
+
+–
+
+Ask it to quote pieces of the story that are relevant to the questions. (If it gives you a verbatim quote, it can help to do a quick search through the text to make sure the quote is real.)
+
+–
+
+Ask it for a summary of the story or an introduction to any relevant characters or concepts. –
+
+Ask it for the best arguments for or against each answer choice. –
+
+Ask it to role-play one of the characters. –
+
+Ask it to critique its own previous responses. •
+
+When the timer runs out, your response will be submitted and your access to the conversation will end.

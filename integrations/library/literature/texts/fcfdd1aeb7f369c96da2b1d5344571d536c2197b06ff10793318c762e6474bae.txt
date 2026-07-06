@@ -1,0 +1,117 @@
+# Merge intersected subsets 5 and 6
+
+16 Score(k=1) # Score locally the intersected result sets
+
+17 KeepBestN(1) # Keep the best result
+
+18merge step 4:
+
+19 Aggregate(5) # Merge intersected  subsets 7 and 8
+
+20 Score(k=1) # Score locally the intersected result sets
+
+\ssmall
+
+Listing 4 GoT configuration for the set intersection use case with 128 elements (cont.)
+
+⬇
+
+21 KeepBestN(1) # Keep the best result
+
+22merge step 5:
+
+23 Aggregate(5) # Merge intermediate intersected subsets from merge step 1 and 2
+
+24 Score(k=1) # Score locally the intersected result sets
+
+25 KeepBestN(1) # Keep the best result
+
+26merge step 6:
+
+27 Aggregate(5) # Merge intermediate intersected subsets from merge step 3 and 4
+
+28 Score(k=1) # Score locally the intersected result sets
+
+29 KeepBestN(1) # Keep the best result
+
+30final merge:
+
+31 Aggregate(5) # Merge intermediate intersected subsets from merge step 5 and 6
+
+32 Score(k=1) # Score locally the intersected result sets
+
+33 KeepBestN(1) # Keep the best result
+
+34GroundTruth() # Compare to precomputed result
+
+\ssmall
+
+Listing 5 GoT configuration for the sorting use case with 32 elements
+
+⬇
+
+1Generate(k=1) # Split list into two halves of 16 elements
+
+2foreach list part:
+
+3 Generate(k=5) # Sort list part
+
+4 Score(k=1): # Score partially sorted list
+
+5 KeepBestN(1): # Keep the best partially sorted list
+
+6Aggregate(10) # Merge both partially sorted lists
+
+7Score(k=1) # Score locally the sorted result lists
+
+8KeepBestN(1) # Keep the best result
+
+9Generate(k=10) # Try to improve solution
+
+10Score(k=1) # Score locally the sorted result lists
+
+11KeepBestN(1) # Keep the best result
+
+12GroundTruth() # Compare to precomputed result
+
+\ssmall
+
+Listing 6 GoT configuration for the sorting use case with 64 elements
+
+⬇
+
+1Generate(k=1) # Split list into four parts of 16 elements
+
+2foreach list part:
+
+3 Generate(k=5) # Sort list part
+
+4 Score(k=1) # Score partially sorted list
+
+5 KeepBestN(1) # Keep the best partially sorted list
+
+6merge step 1:
+
+7 Aggregate(10) # Merge partially sorted lists 1 and 2
+
+8 Score(k=1) # Score locally the partially sorted result lists
+
+9 KeepBestN(1) # Keep the best result
+
+10 Generate(k=5) # Try to improve the partial solution
+
+11 Score(k=1) # Score locally the partially sorted result lists
+
+12 KeepBestN(1) # Keep the best result
+
+13merge step 2:
+
+14 Aggregate(10) # Merge partially sorted lists 3 and 4
+
+15 Score(k=1) # Score locally the partially sorted result lists
+
+16 KeepBestN(1) # Keep the best result
+
+17 Generate(k=5) # Try to improve the partial solution
+
+18 Score(k=1) # Score locally the partially sor

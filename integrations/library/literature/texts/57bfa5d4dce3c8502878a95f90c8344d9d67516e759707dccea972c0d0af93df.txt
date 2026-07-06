@@ -1,0 +1,27 @@
+We describe the specific parameter initializations below and motivate the design choices. Parameters belonging to residual blocks are often adjusted by layer depth and total number of layers. Let denote the vocabulary size, denote the embedding dimension, denote the hidden size (we use ), the number of layers, the layer index (from 0 to ), we use the following initializations:
+
+•
+
+Embeddings are initialized to () as explained in 3.4
+
+•
+
+For the time-mixing blocks (11, 12, 13), initializations are
+,
+and
+
+•
+
+For the channel-mixing blocks (14, 15), and are initialized to
+
+•
+
+(16), also known as “time decay”, is initialized to . Intuitively, it is the discount factor applied to previous tokens over time. •
+
+(16), also known as “bonus”, is set to . It is the special weighting applied to the current token in equation 16. The alternating zigzag pattern initially creates subtle variations in the tensor elements, which are intended to help the model treat different dimensions of the embedding distinctively. •
+
+(17) (time-mixing) and (channel-mixing) are initialized to
+
+•
+
+All other weights are initialized to 0 so the model can start learning from the beginning without noisy signals.

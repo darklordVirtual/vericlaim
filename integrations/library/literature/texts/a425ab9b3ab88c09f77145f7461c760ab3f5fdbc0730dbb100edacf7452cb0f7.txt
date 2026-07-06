@@ -1,0 +1,20 @@
+arXiv preprint arXiv:2307.09288, 2023. Tran et al. (2017)
+
+Tran, D., Burda, Y., and Sutskever, I. Feature-matching auto-encoders. 2017. Umeyama (1991)
+
+Umeyama, S. Least-squares estimation of transformation parameters between two
+point patterns. IEEE Transactions on Pattern Analysis & Machine Intelligence,
+13(04):376–380, 1991. Urbanek et al. (2023)
+
+Urbanek, J., Bordes, F., Astolfi, P., Williamson, M., Sharma, V., and
+Romero-Soriano, A. A picture is worth more than 77 text tokens: Evaluating CLIP-style
+models on dense captions, 2023. Valle-Perez et al. (2019)
+
+Valle-Perez, G., Camargo, C. Q., and Louis, A. A. Deep learning generalizes because the parameter-function map is
+biased towards simple functions. In International Conference on Learning Representations, 2019. Wang & Isola (2020)
+
+Wang, T. and Isola, P. Understanding contrastive representation learning through alignment
+and uniformity on the hypersphere. In International Conference on Machine Learning, pp. 9929–9939. PMLR, 2020. Werbos (1987)
+
+Werbos, P. J. Learning how the world works: Specifications for predictive networks
+in robots and brains.

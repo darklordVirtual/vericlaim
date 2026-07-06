@@ -1,0 +1,20 @@
+(21)
+
+Linxi Fan, Guanzhi Wang, De-An Huang, Zhiding Yu, Li Fei-Fei, Yuke Zhu, and
+Animashree Anandkumar. SECANT: self-expert cloning for zero-shot generalization of visual
+policies. In Marina Meila and Tong Zhang, editors, Proceedings of the 38th
+International Conference on Machine Learning, ICML 2021, 18-24 July 2021,
+Virtual Event, volume 139 of Proceedings of Machine Learning Research,
+pages 3088–3099. PMLR, 2021. (22)
+
+Ishika Singh, Valts Blukis, Arsalan Mousavian, Ankit Goyal, Danfei Xu, Jonathan
+Tremblay, Dieter Fox, Jesse Thomason, and Animesh Garg. Progprompt: Generating situated robot task plans using large language
+models. arXiv preprint arXiv: Arxiv-2209.11302, 2022. (23)
+
+Linxi Fan, Guanzhi Wang, Yunfan Jiang, Ajay Mandlekar, Yuncong Yang, Haoyi Zhu,
+Andrew Tang, De-An Huang, Yuke Zhu, and Anima Anandkumar. Minedojo: Building open-ended embodied agents with internet-scale
+knowledge. arXiv preprint arXiv: Arxiv-2206.08853, 2022. (24)
+
+Andy Zeng, Adrian Wong, Stefan Welker, Krzysztof Choromanski, Federico Tombari,
+Aveek Purohit, Michael Ryoo, Vikas Sindhwani, Johnny Lee, Vincent Vanhoucke,
+and Pete Florence.

@@ -1,0 +1,29 @@
+To further demonstrate the efficacy of our control method, we delve into the domain of medicine. Recent research conducted by Zack et al. (2023) underscores that GPT-4 is susceptible to generating racially and gender-biased diagnoses and treatment recommendations. The concern can also extend to public medical-specific models trained on distilled data from GPT models (Li et al., 2023a; Han et al., 2023). An illustrative instance of this bias is observed in its skewed demographic estimates for patients with conditions like sarcoidosis. Specifically, when tasked with generating a clinical vignette of a sarcoidosis patient, GPT-4 consistently portrays the patient as a black female,
+
+Female
+
+Mentions (%)
+
+Black Female
+
+Mentions (%)
+
+GPT-4
+
+96.0
+
+93.0
+
+LLaMA
+
+97.0
+
+60.0
+
+LLaMAcontrolled
+
+55.0
+
+13.0
+
+Table 6: We enhance the fairness of the LLaMA-2-Chat model through representation control, mitigating the disproportionately high mentions of female and black female cases when asked to describe sarcoidosis cases. We present results illustrating the impact of varying control strengths in Figure 25. a representation that does not align with real-world demographics (Brito-Zerón et al., 2019).

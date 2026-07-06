@@ -1,0 +1,85 @@
+{"fsid": "arxiv_2305-14992", "n": 84, "overlap": 200, "source_sha256": "a2d39d3091d4a3880812231e27b7873f92b7ff27c44257174de47c8dc910cd7d", "target": 1200}
+{"section": "", "seq": 0, "sha256": "a2039067d5de656a7ec210def404c6f3780d03d8bf1e0dda39d0bbb573b0834b"}
+{"section": "Reasoning with Language Model is Planning with World Model", "seq": 1, "sha256": "60bfd5cb47443820b13896c5cee89b1f03e317274b0cc1e4b02e551143fc8f0f"}
+{"section": "Reasoning with Language Model is Planning with World Model", "seq": 2, "sha256": "9f6698fbcf7730e56201ac667af93fce7111d5d136aea39652513809a5a0e519"}
+{"section": "1 Introduction", "seq": 3, "sha256": "b1f21800ae378d236fe85eb0f8bca38644d955d081780ca431fad155002f3d38"}
+{"section": "1 Introduction", "seq": 4, "sha256": "646f36d9d72f323a29fc53e98fa887942aa23a19a0d84bbf1f14d8e67ca71f25"}
+{"section": "1 Introduction", "seq": 5, "sha256": "7dced95a900634018e6cd30010f2e9a4c8a43e081be5a9226682772d7a9e7422"}
+{"section": "1 Introduction", "seq": 6, "sha256": "fd3dc6ae4655c814e484498fbac17aec06b92e5c500ef563dbe19170b128d2bd"}
+{"section": "1 Introduction", "seq": 7, "sha256": "19daa02ca6fb859fc31188a8509e8e5fe1c0ac5a98865952fd52ff5ed21970f4"}
+{"section": "2 Related Work", "seq": 8, "sha256": "5a7bcf623ba3df7087589950164272f7f4256b31d53c4aaf3640e7686610d76e"}
+{"section": "2 Related Work", "seq": 9, "sha256": "8fe292423b3479fcc441fe0e9b3e95316240bb85264141d85d8350b9b4e082ce"}
+{"section": "2 Related Work", "seq": 10, "sha256": "ae17a7d1086f010c2319f63487eb31cb9bd5b5d618eef71c66cc38b567655023"}
+{"section": "3 Reasoning via Planning (RAP)", "seq": 11, "sha256": "37eeb59c4a9fdf425b77195d47135a15e1117f462e82d20fb671a93c98a4c6f0"}
+{"section": "3.1 Language Model as World Model", "seq": 12, "sha256": "6ca928f9a691f9fbacda8c2fe568805dd363e755d668d025beb0279c5bf390f6"}
+{"section": "3.1 Language Model as World Model", "seq": 13, "sha256": "71994946b4b8b6d398f673d9bf661ece25f256d74d4ebf333f40e41f8a62a6e9"}
+{"section": "3.1 Language Model as World Model", "seq": 14, "sha256": "8870aab08719ab5ff5dccd10cf154fc04bdbb82323acb119c75724d5b9df4024"}
+{"section": "3.2 Reward Design", "seq": 15, "sha256": "393961e6e09c00ae57513dacdcdd8128560bf541fbc6d434e13a11ca09b0ef2d"}
+{"section": "3.2 Reward Design", "seq": 16, "sha256": "31f3c7eebd716f8190495f43730133f9ec672a6d4d8650830c5b7a6aac9ad943"}
+{"section": "3.2 Reward Design", "seq": 17, "sha256": "8fecb9ba00169cab340c892872de6eff4776b8d4976f86fa381dcb4f78a5d96c"}
+{"section": "3.3 Planning with Monte Carlo Tree Search", "seq": 18, "sha256": "a360c41016aeaa825155294b9621df672e4d853530e6796233f3cc1067b5af0e"}
+{"section": "3.3 Planning with Monte Carlo Tree Search", "seq": 19, "sha256": "b2952cb374358ec8e46fbc25de00b595400f57d184690c5a8614eade63065605"}
+{"section": "3.3 Planning with Monte Carlo Tree Search", "seq": 20, "sha256": "bab405a13e31205d0e5ee40487e87101c3e16e285b7b04f522636b2b2c3d1a50"}
+{"section": "3.3 Planning with Monte Carlo Tree Search", "seq": 21, "sha256": "bc213fb2efdfe5479a41fc9e5e29d333dbb55eaa9c6fc5b837104e6c7afeb3af"}
+{"section": "3.3 Planning with Monte Carlo Tree Search", "seq": 22, "sha256": "9b68b02324da0e0322a0c9273ea808a98492d791394ccfaa25bb64409e5df89e"}
+{"section": "3.4 RAP-Aggregation", "seq": 23, "sha256": "1b6a6b334d841a110d5b5d9c4c3bf8cc621cecb0512d3a725990cd98984278d2"}
+{"section": "4 Experiments", "seq": 24, "sha256": "d0d76c59681bd9aadc5293f9b57e9b92f71f87d059b2e4222f369acc2a3f4657"}
+{"section": "4.1 Plan Generation", "seq": 25, "sha256": "fa4686d1f41935e8645cc6f213875ba7aba909acf549c1ef8baae8fcd174f367"}
+{"section": "4.1 Plan Generation", "seq": 26, "sha256": "f50bc02d419b2832eb55823e710e3b6d0f28d6a7149e5153f1bcdde022f0a4cd"}
+{"section": "4.1 Plan Generation", "seq": 27, "sha256": "a8aabe15bc8d40e64155b363b72071f366ad330372dd0433103915a360196969"}
+{"section": "4.1 Plan Generation", "seq": 28, "sha256": "2525447620bb44397b415bbad6d5c2680a6c1f7f5e76ce92b62ac64885c60380"}
+{"section": "4.1 Plan Generation", "seq": 29, "sha256": "39769b379ecb1273cad3b52b49489dff10043276a6286a2f7a0dfbe392e463bc"}
+{"section": "4.2 Math Reasoning", "seq": 30, "sha256": "2d7bd749a9791845c8e57a5648b075362a841c93a0d6ec5cb89b9fdc5834724f"}
+{"section": "4.2 Math Reasoning", "seq": 31, "sha256": "c488b2e9c42c9e0da01863d40c7b461b9b282f6547069f66a1a65aaadb6ec872"}
+{"section": "4.2 Math Reasoning", "seq": 32, "sha256": "8fc415e22f55702064a93d398f10042b6e98f548b381b4894231b235cc1aa937"}
+{"section": "4.3 Logical Reasoning", "seq": 33, "sha256": "72be7e72bf0a0aef6ca63597cec4e2ef86faf096eb35522e0ac09a5092ee048f"}
+{"section": "4.3 Logical Reasoning", "seq": 34, "sha256": "39ce16e5c8793e8e059ab60b034c21a4625b57fa5cc24eac74ca7a9d8c6dd9ed"}
+{"section": "4.3 Logical Reasoning", "seq": 35, "sha256": "f8e461abb9bba9ab3034234d040eccae1fd8d3befde856d0d97bf8595fb3ac87"}
+{"section": "5.1 Complex problems", "seq": 36, "sha256": "d6ce0a9e6d72342dcb0a95d0146af126173286b7be003416689fd7c0b43d0b44"}
+{"section": "5.1 Complex problems", "seq": 37, "sha256": "ecc17758ff0813dc04613d887340233ba5784242119746876dbd1607f8040cbc"}
+{"section": "5.2 Reward Choice", "seq": 38, "sha256": "6769f39b00572092d0a01040829616e7d0f40f7a793cfdae9fa3561f63c49458"}
+{"section": "6 Conclusion", "seq": 39, "sha256": "24f474a71dba2f736e14760f1a6f206b3b12e80187fbc8bb48ecd93bcb3f1909"}
+{"section": "Limitations", "seq": 40, "sha256": "8ebd8134aa6d366d7bba95a9c0968a33984296000741889f78d752167276acf7"}
+{"section": "Ethics Statement", "seq": 41, "sha256": "f4fca9825ef6d8bc8a6fde46d5a476f8ef12a3f6157502efe817aa99bbdee120"}
+{"section": "References", "seq": 42, "sha256": "d28f9c89128a75f0ab19a6dfb0870aa17dcaf014dced63342c73b90f11666e2a"}
+{"section": "References", "seq": 43, "sha256": "f9ec1889e5b4f3d6d61b4fd280bdfe88ae01eb2a52afb0ca9a1ea9aa758dae7a"}
+{"section": "References", "seq": 44, "sha256": "48bdcf752204b8b7c1f2421d6be7212c5e8a8af906c612a100f8d0a5c611a60a"}
+{"section": "References", "seq": 45, "sha256": "1e9f1b100403af44114081b9dc3f12bfd6501d576ca79ffe805bcd9b87356642"}
+{"section": "References", "seq": 46, "sha256": "8a0969ac900dbbbc994774c2aa75a1e7080663c35c098bb40bd5059e8b682181"}
+{"section": "References", "seq": 47, "sha256": "a264cea42a5550adeb9556fac0ce96e24f44cd4d553cfb5e782ef280935805c0"}
+{"section": "References", "seq": 48, "sha256": "2f86d131f90f9eb6b238d2b62c893246c4edd19d4a3c7b8a2e6003e5fa94110a"}
+{"section": "References", "seq": 49, "sha256": "e740e45a178ac9960fa9a5482c4e1f60970b7fa981bcce6055466ddba76f5c56"}
+{"section": "References", "seq": 50, "sha256": "b30494eb0a606ff5fb23a5b9909589b47a2f2dbecc718f392576644acf9a66b8"}
+{"section": "References", "seq": 51, "sha256": "8f4158f713c25e9cd56e3a00d33b3697e8e819ee484937aebc78c3ee753bb476"}
+{"section": "References", "seq": 52, "sha256": "9ec018aa158833172593367c02184f49bc7766fe104ef1a8df6342ef1912c4f9"}
+{"section": "References", "seq": 53, "sha256": "170eaa5113243699955c87cc038c64d5f166b32bc22e49f635935d31a98d7de1"}
+{"section": "References", "seq": 54, "sha256": "939512f4db27154918cd40dd7dd5639980e21e2a8a3d9861d5ff256b6502ff2e"}
+{"section": "Appendix A MCTS Planning", "seq": 55, "sha256": "387d68c40276e2ef7a1fd9866b15d76732bf9e3a374f613cfdb30a98cbb70838"}
+{"section": "Appendix A MCTS Planning", "seq": 56, "sha256": "423ea6004627f6fba7cd26d3da6f0ce497502ebb57e2ddda7efcadb7ac0b3f3b"}
+{"section": "B.1 Language Model Decoding", "seq": 57, "sha256": "3bb21bcb2606905f3698b9c0defb8c97d459048f522e33a40eafd4ab9f17f8fc"}
+{"section": "B.2 Computing Resources", "seq": 58, "sha256": "bbed42377fa40c024495eed490975800ca8340d43ae462713dcc8f90e378fc7b"}
+{"section": "C.1 Plan Generation", "seq": 59, "sha256": "a2d1dd86ee613bf051837e3199069d949e14a93c8b05096e45e6e9ee144d6066"}
+{"section": "C.1 Plan Generation", "seq": 60, "sha256": "717a88eadb4988055460f906eb9cc25bc1ab953e61633baae4ae774b3c09eba8"}
+{"section": "C.1 Plan Generation", "seq": 61, "sha256": "dc28518ed176baa2a9f57df362d788d56a51a13f1fdf77f438ef4d572982ea4a"}
+{"section": "C.1 Plan Generation", "seq": 62, "sha256": "3371dec0d0e4fa01ce6314d7f7261f1fcd9b79e52c3dcd1f95f6c361a317a85e"}
+{"section": "C.1 Plan Generation", "seq": 63, "sha256": "32a7b080998eaf57641e38079c79a041d18641bdfb713948f7b5aed013b3912f"}
+{"section": "C.1 Plan Generation", "seq": 64, "sha256": "049a4cf4a47b41eb5b78d6ac53858159b6d49b700cb82190147aa0f37ed3c4d1"}
+{"section": "C.1 Plan Generation", "seq": 65, "sha256": "07796c554679c01b5d6674509ee3a8f08cbdbdf6e723cba3cc25af8efb3105a2"}
+{"section": "C.1 Plan Generation", "seq": 66, "sha256": "47028796e34317611daef400c246282a475ecbd54ec421e9691479a5c43702da"}
+{"section": "C.2 Math Reasoning", "seq": 67, "sha256": "b4e07de63e2caea17df7849761a5ce0f10b58e8d803a4799c8014324c1649ea4"}
+{"section": "C.2 Math Reasoning", "seq": 68, "sha256": "07f50af5df71827d7ae99e2c2545c32bbf1d9cd5091e55ef2d80c9a6654a8710"}
+{"section": "C.2 Math Reasoning", "seq": 69, "sha256": "95cd77ee2a87994591fe073913222ed4866861862fcaa3f372bab8b10d7d7d48"}
+{"section": "C.2 Math Reasoning", "seq": 70, "sha256": "1a22e4dbdabed21b1d943ceadd516d1ca02813b83f40725181841ab1f19ea671"}
+{"section": "C.2 Math Reasoning", "seq": 71, "sha256": "a86db935f6f53878c1f421177b7e6b3ee2bf1442648312414304c496e306313e"}
+{"section": "C.3 Logical Reasoning", "seq": 72, "sha256": "6207d5e2671e45acadfc57dd8bccd8cb9e1f75552127ecc3c00f6a6140907c5f"}
+{"section": "C.3 Logical Reasoning", "seq": 73, "sha256": "7a40b41bbcff45a8903116bca8d0bbdabc5c8ff20d70d54d61ff31c1011f7f7e"}
+{"section": "C.3 Logical Reasoning", "seq": 74, "sha256": "9debcee6149ef252461adc6492d79aa5b5dc8167fb19cf9a2322a9e0b39df7c7"}
+{"section": "C.3 Logical Reasoning", "seq": 75, "sha256": "9a4c48adcba1b42708ab4e250b56d8f5008b7951b6ba0e763781f0834fe5c2ec"}
+{"section": "C.3 Logical Reasoning", "seq": 76, "sha256": "feae178ebb0c207a850b98d6bd1deccc4aee5ceaf1a3e1c47a11f26398a8a792"}
+{"section": "Appendix D Related work: world model and planning", "seq": 77, "sha256": "b7d6761c77d72977061fa1fae4ef1b95b3f2404f9fa8792b2121e2732d14052e"}
+{"section": "Appendix D Related work: world model and planning", "seq": 78, "sha256": "ded39b527dcfc98f76670809d9748e91bad5f08ec584c7a5827552fae848d226"}
+{"section": "Appendix E Adaptive Prompting", "seq": 79, "sha256": "c740ee2e6ad26526fe38cee89a9cb104ce81ae621c7e661c76117f80dd9892e4"}
+{"section": "Appendix F Reward Choice", "seq": 80, "sha256": "b9e713fb7dc31e606facbaf319a23f50ac25bf4b7eb70d67f4f51640fb2c8b5f"}
+{"section": "Appendix F Reward Choice", "seq": 81, "sha256": "55bc2088e457ff6ea47761cdccd41db8df33e2a54d3ea99bf35655a41e60dad9"}
+{"section": "Appendix F Reward Choice", "seq": 82, "sha256": "a48d48538143b59fea21c737afc6b1962b61416de48e432e9abbc75d7cde60f3"}
+{"section": "Appendix F Reward Choice", "seq": 83, "sha256": "a612a55925a6994b9ac2069889b302b1948e274c54fe4690e7e54fde601d287c"}

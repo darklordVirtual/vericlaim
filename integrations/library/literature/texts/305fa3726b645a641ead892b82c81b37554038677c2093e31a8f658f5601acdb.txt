@@ -1,0 +1,19 @@
+Belkin et al. (2018)
+
+Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal. Reconciling modern machine learning practice and the bias-variance
+trade-off. arXiv preprint arXiv:1812.11118, 2018. d’Ascoli et al. (2020)
+
+Stéphane d’Ascoli, Levent Sagun, and Giulio Biroli. Triple descent and the two kinds of overfitting: Where & why do they
+appear? arXiv preprint arXiv:2006.03509, 2020. Dehghani et al. (2018)
+
+Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, and Łukasz
+Kaiser. Universal transformers. arXiv preprint arXiv:1807.03819, 2018. Graves (2016)
+
+Alex Graves. Adaptive computation time for recurrent neural networks. arXiv preprint arXiv:1603.08983, 2016. Graves et al. (2014)
+
+Alex Graves, Greg Wayne, and Ivo Danihelka. Neural turing machines. arXiv preprint arXiv:1410.5401, 2014. Grefenstette et al. (2015)
+
+Edward Grefenstette, Karl Moritz Hermann, Mustafa Suleyman, and Phil Blunsom. Learning to transduce with unbounded memory. Advances in neural information processing systems,
+28:1828–1836, 2015. Hochreiter & Schmidhuber (1997)
+
+Sepp Hochreiter and Jürgen Schmidhuber. Flat minima. Neural computation, 9(1):1–42, 1997. Jiang et al.

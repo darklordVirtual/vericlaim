@@ -1,0 +1,27 @@
+Deposit a torch into chest at (30, 65, 100): depositItemIntoChest(bot, new Vec3(30, 65, 100), {"torch": 1});
+
+// This function will work no matter how far the bot is from the chest. async function depositItemIntoChest(bot, chestPosition, itemsToDeposit) {
+
+await moveToChest(bot, chestPosition);
+
+const chestBlock = bot.blockAt(chestPosition);
+
+const chest = await bot.openContainer(chestBlock);
+
+for (const name in itemsToDeposit) {
+
+const itemByName = mcData.itemsByName[name];
+
+const item = bot.inventory.findInventoryItem(itemByName.id);
+
+await chest.deposit(item.type, null, itemsToDeposit[name]);
+
+}
+
+await closeChest(bot, chestBlock);
+
+}
+
+// Check the items inside the chest at (30, 65, 100): checkItemInsideChest(bot, new Vec3(30, 65, 100));
+
+// You only need to call this function once without any action to finish task of checking items inside the chest.

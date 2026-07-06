@@ -1,0 +1,7 @@
+by finding the best rotation, translation, scaling, and flipping, by running the Kabsch-Umeyama algorithm (Kabsch, 1976, 1978; Umeyama, 1991) twice, once on and once on , to account for flipping. The dissimilarity matrix we used in each case is described as following:
+
+•
+
+VISION: Pixel cooccurrence. We collect color cooccurrence statistics from the CIFAR-10 dataset, and estimate a joint distribution over randomly sampled pixel colors and that occur within a radius of at most 4 pixels of one another. Colors are quantized on a grid in RGB space and represented as discrete variables, and is modeled as a table of normalized counts, from which we compute the empirical pointwise mutual information matrix . Quantization ensures that there is no bias from how color distances are represented in RGB space. Dissimilarity matrix is defined as , where is an offset to ensure non-negativity (similar to the constant in Section 4.2 and Proposition F.1 that ensures neural networks can express ). •
+
+LANGUAGE. We used an approach similar to Abdou et al. (2021).

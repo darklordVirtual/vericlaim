@@ -1,0 +1,29 @@
+A.4.1 Components in the Prompt
+
+The input prompt to GPT-4 consists of the following components:
+
+(1)
+
+Guidelines for code generation: See Sec A.4.2 for the full prompt;
+
+(2)
+
+Control primitive APIs implemented by us: These APIs serve a dual purpose: they demonstrate the usage of Mineflayer APIs, and they can be directly called by GPT-4. •
+
+exploreUntil(bot, direction, maxTime = 60, callback): Allow the agent to explore in a fixed direction for maxTime. The callback is the stopping condition implemented by the agent to determine when to stop exploring;
+
+•
+
+mineBlock(bot, name, count = 1): Mine and collect the specified number of blocks within a 32-block distance;
+
+•
+
+craftItem(bot, name, count = 1): Craft the item with a crafting table nearby;
+
+•
+
+placeItem(bot, name, position): Place the block at the specified position;
+
+•
+
+smeltItem(bot, itemName, fuelName, count = 1): Smelt the item with the specified fuel.

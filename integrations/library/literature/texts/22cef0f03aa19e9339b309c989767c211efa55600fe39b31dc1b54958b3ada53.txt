@@ -1,0 +1,18 @@
+MIT press, 2000. Brown et al. (2020)
+
+Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P.,
+Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et al. Language models are few-shot learners. arXiv preprint arXiv:2005.14165, 2020. Browne (2015)
+
+Browne, S. Dark Matters: Surveillance of Blackness. Duke University Press, 2015. Bulent Sariyildiz et al. (2020)
+
+Bulent Sariyildiz, M., Perez, J., and Larlus, D. Learning visual representations with caption annotations. arXiv e-prints, pp. arXiv–2008, 2020. Buolamwini & Gebru (2018)
+
+Buolamwini, J. and Gebru, T. Gender shades: Intersectional accuracy disparities in commercial
+gender classification. In Conference on fairness, accountability and transparency,
+pp. 77–91, 2018. Carreira et al. (2019)
+
+Carreira, J., Noland, E., Hillier, C., and Zisserman, A. A short note on the kinetics-700 human action dataset. arXiv preprint arXiv:1907.06987, 2019. Chen et al. (2020a)
+
+Chen, M., Radford, A., Child, R., Wu, J., Jun, H., Luan, D., and Sutskever, I. Generative pretraining from pixels. In International Conference on Machine Learning, pp. 1691–1703. PMLR, 2020a. Chen et al. (2016)
+
+Chen, T., Xu, B., Zhang, C., and Guestrin, C.

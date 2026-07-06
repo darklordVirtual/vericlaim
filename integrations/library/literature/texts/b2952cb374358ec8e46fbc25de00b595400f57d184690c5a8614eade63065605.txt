@@ -1,0 +1,5 @@
+The process continues until a specified computational budget (e.g., the number of iterations) is reached, and the resulting traces are acquired from the tree. More details and the pseudo-code of the planning algorithm are given in Appendix A and Algorithm 1. Selection. The first phase selects a portion of the existing tree that is most promising for further expansion in the next phase. Starting from the root node (i.e., initial state ), at each level of the tree, the algorithm selects a child node as the next node. The phase finishes when a leaf node of the current tree is reached. Figure 3(a) highlights the selected path in red. To balance between exploration (of less-visited nodes) and exploitation (of high-value nodes), we use the well-known Upper Confidence bounds applied to Trees (UCT) Kocsis and Szepesvári (2006) to select each child node. Specifically, at node , we select the action in the tree by considering both the value (for exploitation) and uncertainty (for exploration):
+
+(1)
+
+where is the number of times node has been visited in previous iterations, and is the child node of applying in state .

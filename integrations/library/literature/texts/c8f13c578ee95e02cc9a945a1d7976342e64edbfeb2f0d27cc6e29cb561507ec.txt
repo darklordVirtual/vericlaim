@@ -1,0 +1,4 @@
+Sections 2.1, 2.2, 2.4 and 2.3 describe the four properties of SSMs in Fig. 1:
+the classic continuous-time representation, addressing LRDs with the HiPPO framework, the discrete-time recurrent representation, and the parallelizable convolution representation. In particular, Section 2.4 introduces the SSM convolution kernel ,
+which is
+the focus of our theoretical contributions in Section 3.

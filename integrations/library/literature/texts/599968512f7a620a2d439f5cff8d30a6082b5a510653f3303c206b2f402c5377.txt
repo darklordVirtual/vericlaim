@@ -1,0 +1,5 @@
+Although it is proposed as an infrastructure for multi-agent conversation, it only supports static conversation patterns, while AutoGen additionally supports dynamic conversation patterns. •
+
+Multi-Agent Debate: Two recent works investigate and show that multi-agent debate is an effective way to encourage divergent thinking in LLMs Liang et al. (2023) and to improve the factuality and reasoning of LLMs Du et al. (2023). In both works, multiple LLM inference instances are constructed as multiple agents to solve problems with agent debate. Each agent is simply an LLM inference instance, while no tool or human is involved, and the inter-agent conversation needs to follow a pre-defined order. These works attempt to build LLM applications with multi-agent conversation, while AutoGen, designed as a generic infrastructure, can be used to facilitate this development and enable more applications with dynamic conversation patterns. •
+
+MetaGPT: MetaGPT Hong et al. (2023) is a specialized LLM application based on a multi-agent conversation framework for automatic software development. They assign different roles to GPTs to collaboratively develop software.

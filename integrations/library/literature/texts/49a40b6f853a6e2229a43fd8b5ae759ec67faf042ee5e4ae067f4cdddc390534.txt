@@ -1,0 +1,9 @@
+Training verifiers to solve math word problems. arXiv preprint arXiv: Arxiv-2110.14168, 2021. (91)
+
+Ansong Ni, Srini Iyer, Dragomir Radev, Ves Stoyanov, Wen tau Yih, Sida I. Wang,
+and Xi Victoria Lin. Lever: Learning to verify language-to-code generation with execution. arXiv preprint arXiv: Arxiv-2302.08468, 2023. (92)
+
+Marta Skreta, Naruki Yoshikawa, Sebastian Arellano-Rubach, Zhi Ji, Lasse Bjørn
+Kristensen, Kourosh Darvish, Alán Aspuru-Guzik, Florian Shkurti, and Animesh
+Garg. Errors are useful prompts: Instruction guided task programming with
+verifier-assisted iterative prompting. arXiv preprint arXiv: Arxiv-2303.14100, 2023.

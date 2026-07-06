@@ -1,0 +1,180 @@
+{"fsid": "arxiv_2308-09687", "n": 179, "overlap": 200, "source_sha256": "0f015cb5b73b0f520f96ec0ebdd1d87da030f0cda66d42261446d5b967db83d0", "target": 1200}
+{"section": "", "seq": 0, "sha256": "2667d654c9b547d5d308da6c6921cc05e2bd44aacf183846013ca9c36842ae41"}
+{"section": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models", "seq": 1, "sha256": "26289ac8f4319c37c677564af2ad576246b0e5cd7cde402ba1cfea0cce63d021"}
+{"section": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models", "seq": 2, "sha256": "01b0a84fa1b442bc76416fdb3597b327e2b1ed9e932437876edd1c2a1bc7a236"}
+{"section": "1 Introduction", "seq": 3, "sha256": "b132b8aac835c3cce8cd48236e26f21987514205a7914ccbe33a1dff709e8c5e"}
+{"section": "1 Introduction", "seq": 4, "sha256": "1533f0f2601cae81aac2c3310511eb7de3f6415bd936dd822f332d2fe98fd5d2"}
+{"section": "1 Introduction", "seq": 5, "sha256": "2710d05d6d566c67e8d0562fe98b727c97979c5416814242e2b540b9c8d3fc7f"}
+{"section": "1 Introduction", "seq": 6, "sha256": "84b9c683e24d7e06a9abf2bae831257c39b19cc1b6bf0b5aa415ff0bd15607ff"}
+{"section": "1 Introduction", "seq": 7, "sha256": "2d228f246bfda13408d5e9508998b98cdc4f1e987f5dd6888d7629bdccac51f2"}
+{"section": "1 Introduction", "seq": 8, "sha256": "5a3f6c470d16ea1ac2a529a96b5160abb1e38fbe13692f57a6c8fdff7213abad"}
+{"section": "1 Introduction", "seq": 9, "sha256": "45c5350346c9f661b4613dda914d9a0d15f7624f0f47e606148ee211879c0bdb"}
+{"section": "1 Introduction", "seq": 10, "sha256": "1f653e3daec9ac50f4125dc5833613cf162f1417410b984e721e31a3686ad14b"}
+{"section": "2 Background & Notation", "seq": 11, "sha256": "c1e713322daecfec32b5ba83ec1af9e36861a7d536a332f2fe428a0e6dd07583"}
+{"section": "2.1 Language Models & In-Context Learning", "seq": 12, "sha256": "6efeb8322b73c5f8761505869018fabc06132297ec0edae9b83fb41dda831bb2"}
+{"section": "2.1 Language Models & In-Context Learning", "seq": 13, "sha256": "fc8c9b72d6dd166fedfa72df667e1bc8ce2e64341e2beb911a0cf7ba9b1c7d68"}
+{"section": "2.1 Language Models & In-Context Learning", "seq": 14, "sha256": "3bf644e42a586812fb95bd5e15cadd3811b38bfcf296226d79f0c04acd4f53c6"}
+{"section": "3 The GoT Framework", "seq": 15, "sha256": "204cfad5afdc671ea71fd1d969cf7b59df00340a7edfa9fa70b75f48676197f8"}
+{"section": "3.1 Reasoning Process", "seq": 16, "sha256": "fb228bd310cd94715616869cf77754dfff9845441663e325fceec2d3e398dcfe"}
+{"section": "3.1 Reasoning Process", "seq": 17, "sha256": "ed8af4da08c8d57d7a72be7e2596a67eda0820ad2269518fcb33e2ff828b1b66"}
+{"section": "3.2 Transformations of Thoughts", "seq": 18, "sha256": "e87e9b0a88263ce66900642d9ea4d6b792286da0ab6839ed88e2115303c27c7f"}
+{"section": "3.2 Transformations of Thoughts", "seq": 19, "sha256": "27bc23bee35847621805ec250ca56d27a95fd74bbfa543b41063189749d28dfb"}
+{"section": "3.2 Transformations of Thoughts", "seq": 20, "sha256": "bb583d1b67d9eec96a6c63ada3efdae694ceb04db3c77e32bc0b8bd07a8a0fb8"}
+{"section": "3.2 Transformations of Thoughts", "seq": 21, "sha256": "84bb7cab25727776ba746cbdb811bfd7e30e4af01edb3e51728ece2b0624e49f"}
+{"section": "3.3 Scoring & Ranking Thoughts", "seq": 22, "sha256": "d576dbb0b2a9ca45288974b9bd432af781be8ef67ac815a579371a1e652529d7"}
+{"section": "4 System Architecture & Extensibility", "seq": 23, "sha256": "654613d8fb367a0447614a87e88170c2630677e00bef5e53878f60a0d172807f"}
+{"section": "4.1 Prompter", "seq": 24, "sha256": "f2ac238e8a07aa58b9d172dc3841d4709cbb5b6b12f99286c6608eec2192a64f"}
+{"section": "4.2 Parser", "seq": 25, "sha256": "08b030a3497bc955416880d35e5eb1f6b9649ce3ee6d8abf3df8503b719d32e7"}
+{"section": "4.3 Scoring & Validation", "seq": 26, "sha256": "035bd98385efa7572c042c3a0a094a50963452358e5814199ef661087d7a7d41"}
+{"section": "4.4 Controller", "seq": 27, "sha256": "3ba10227bc55f88682069d2e0831866f8cd51d295e27f4bc18a1cfacf7912bfa"}
+{"section": "4.5 GoO & GRS", "seq": 28, "sha256": "d0cc200edd3059284d360307f735990152ef03b0c13b52cb03f41770f8355c85"}
+{"section": "5 Example Use Cases", "seq": 29, "sha256": "1fa1c7d51eb7b7d1e9ca041147ccb259abd537a42fb230bcef5e82ef763696b9"}
+{"section": "5.1 Sorting", "seq": 30, "sha256": "d32bdb4664ff53866e9d202085670f3890cac26fdb697e33a93f9a16480b4641"}
+{"section": "5.1 Sorting", "seq": 31, "sha256": "13f76188b31043e54c3f4a176e351f86a77ac8ccd29ee814b6a5932777143356"}
+{"section": "5.2 Set Operations", "seq": 32, "sha256": "999136f0aa057adeaed5bf91d7975248794341ece4f5182e0949ad7f8fac94ec"}
+{"section": "5.2 Set Operations", "seq": 33, "sha256": "3383b630a4baa9391c0d5e3521fea62ce93dfac27c738ad6b94ec907b5469781"}
+{"section": "5.3 Keyword Counting", "seq": 34, "sha256": "f8b133d8179723e41066fe823e0ea27d9ab7878c637177bf6341706076948526"}
+{"section": "5.4 Document Merging", "seq": 35, "sha256": "66437a03c4424865bf09b7d2d532d5f04d0bece28a13c6c3d65979004fb346d0"}
+{"section": "6 The Latency-Volume Tradeoff", "seq": 36, "sha256": "55aa4fc8188ef191b1e9fbce6c7fce897401751ae0c589169bd20723792ea4d7"}
+{"section": "6 The Latency-Volume Tradeoff", "seq": 37, "sha256": "b5aa50fe3f2bbb3e0e612413a161bb6ec21fadf8d52bb1848eeff274f8ca96a2"}
+{"section": "7 Evaluation", "seq": 38, "sha256": "dafeacab6a71f743f3111b7e3f58b3938930dda6c3f9ecf1d18f889a27ad74f0"}
+{"section": "7.1 Evaluation Methodology", "seq": 39, "sha256": "9e7a0c633f6c3aae4e692f981d785a8abc9345144cd5e4e0a32c1ed39454459b"}
+{"section": "7.2 Analysis of GoT\u2019s Advantages", "seq": 40, "sha256": "f350c42cb60a80591fe96cf9070bcee488657347c7ccde0d9a89176317278e39"}
+{"section": "7.2 Analysis of GoT\u2019s Advantages", "seq": 41, "sha256": "b55e53ddbbc0fff1f6edac77624f77064386c20567f22636b6101b7ecbbecd56"}
+{"section": "7.2 Analysis of GoT\u2019s Advantages", "seq": 42, "sha256": "8ccf44a5c63477b3ed4cbdb80320f9e9df29cea35388254f8a3c7227512acb60"}
+{"section": "7.3 Discussion on Task Decomposition", "seq": 43, "sha256": "1b8281efa34bdeec5b57c887da15da8a52128f6cd297c70986bc8de548f817a8"}
+{"section": "7.3 Discussion on Task Decomposition", "seq": 44, "sha256": "6d052c5e19d6faebe755d45c6beb03ee51cf036bbf196fefba79f3efe63eae51"}
+{"section": "8 Related Work", "seq": 45, "sha256": "bdf33fecb548ddfb28504527deae4da10e19ac27c426fadea79b31efb824bc39"}
+{"section": "8.1 Prompting Paradigms & Approaches", "seq": 46, "sha256": "ca38c4ba62a7f45f7980b294ecbe0a180bfa53c9e987f2ae039955a557db4de0"}
+{"section": "8.1 Prompting Paradigms & Approaches", "seq": 47, "sha256": "da20c541174396c65f93fbeb405fd0a009ce50766819d79f31a583ba226fef84"}
+{"section": "8.2 Self-Reflection & Self-Evaluation", "seq": 48, "sha256": "4bcf7b06bee7330e7aedd0cf038fbcdde38046f967fd5c53301d42ebba310ac3"}
+{"section": "8.3 LLMs & Planning", "seq": 49, "sha256": "75c4de1874ba9a861d20c3f9033741522352e962e91b0abb5813e7c45992ceb9"}
+{"section": "8.4 Graphs and Graph Computing", "seq": 50, "sha256": "769f91f60eaf28909171cd85aa490dd59b01b85218f21e3f04c3139ea2aa4fec"}
+{"section": "8.4 Graphs and Graph Computing", "seq": 51, "sha256": "0b9e3b4e8b3df05ab5c8642c08bed499f08711ee6632302db36e679aa45afe62"}
+{"section": "9 Conclusion", "seq": 52, "sha256": "ef126ed6d2048c5931950952474b8848238af77a38b9c46bd205f16f6d98375c"}
+{"section": "9 Conclusion", "seq": 53, "sha256": "2c8138cd76775debabeb1bce75df36ee81c931f61535404cfef7213359d9fd7e"}
+{"section": "Acknowledgements", "seq": 54, "sha256": "dc570c5ad0fb51b040e0743d4e75ad54c0d94b794be57981cd09a76e12340874"}
+{"section": "References", "seq": 55, "sha256": "1b40eb4366fd5e60b14bf078589073fd58ef6ec1f9709abc99923f4ca6a2b082"}
+{"section": "References", "seq": 56, "sha256": "3d73dae30c4c966ecaa71fc49f375d8219cb54df4dcee2688b2fb46e648ad6ae"}
+{"section": "References", "seq": 57, "sha256": "3d95ca6e9ec9ddae0b13a804618461e8be680f64a3d9da7906f47a1076f32e39"}
+{"section": "References", "seq": 58, "sha256": "5f840a646985dfecb10cd8cc896c6203e23f0b0eab259de21a593a399bc587a7"}
+{"section": "References", "seq": 59, "sha256": "8951efa54bc0d0a4442bf256c5da69a9ca0fa2a49a467104a53be28ea0cb3724"}
+{"section": "References", "seq": 60, "sha256": "0b8a1a6e611172f910bf5387268fe0fb252bc320780bc17dc6c32bca05450740"}
+{"section": "References", "seq": 61, "sha256": "5ecfdde85f78425b417cd905795307e8304ac45fe37a16433067e1370a075071"}
+{"section": "References", "seq": 62, "sha256": "335ebe21a655d1528b37959f324ecca620efc93e40ddb9628d242ecfda895de6"}
+{"section": "References", "seq": 63, "sha256": "ded625d7d1310584ebe3c8d63549f7880b64913e276094a638c564f4dec20617"}
+{"section": "References", "seq": 64, "sha256": "83d999de3e7bb92074e614e245bcd0781a128c451e18f0bce005dbf8e4b03024"}
+{"section": "References", "seq": 65, "sha256": "d0b036fe254df5bb0ee42d880cf6ef104cbdbd3c635bc733247c406edc594bff"}
+{"section": "References", "seq": 66, "sha256": "1e87ecb7d33f226dfe691942b5fc13832058957bb0cb79ce7fbdde0dc5c5956f"}
+{"section": "References", "seq": 67, "sha256": "1e958f9ad5edc448d047524919b61de1d22b9e3b2a48a2a2f445a161d5f28cf3"}
+{"section": "References", "seq": 68, "sha256": "25351bfb588df1dd8aabebb7b85984ce8752147204fce85c1da52101972e9be9"}
+{"section": "References", "seq": 69, "sha256": "41528b8bea4cc6b24544ca599be0de04746d687ea8e7c64815d555ed96b11945"}
+{"section": "References", "seq": 70, "sha256": "a02e4ad3f24777f7165d1ca55b62bf4b9074567516942f0cc44142256bef14b9"}
+{"section": "References", "seq": 71, "sha256": "b1ce5802fbacd77e17d99ac1c571d92d2d9c1f91f8ce834f46d12d6ebe56fe24"}
+{"section": "References", "seq": 72, "sha256": "5fc0d0483c41164bd8548ed44e03820774a3388496b7555558d10e752979bcd7"}
+{"section": "References", "seq": 73, "sha256": "5d500978e484a1b2df0f28706547538c8bd9da32df4f09536c077a9cb28dea61"}
+{"section": "References", "seq": 74, "sha256": "843b8a15311e3bd6d2902f9ebc61e9fefdf8a187f52207a83dc44899034abcab"}
+{"section": "References", "seq": 75, "sha256": "f37f30189c2a6a99188f2bbf90996d6fd9c21a818e0d062aed94a8bab5e9347c"}
+{"section": "References", "seq": 76, "sha256": "2913ae6a308e9d8ae2d594fad6857a1605a19fd14d107fd0589886354d189f1d"}
+{"section": "References", "seq": 77, "sha256": "d493f096f26c68db5ca5258fe84c37fb40019137df3ddea7fb212f904ee0db30"}
+{"section": "References", "seq": 78, "sha256": "3579e149b6407c564c66bc38ca7f5099ade4d79aaf21386e1b32fb8fd3351e7f"}
+{"section": "Appendix A Positive Score Evaluation", "seq": 79, "sha256": "df4f3f2b2ef042c4d777111d109021a8dc9199ce0c0757ae29cbd1507f9593ba"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 80, "sha256": "b6ee5b219e7a7a78805aef8caec8b9616b0ecd3559e9b4eedee72c36c4fdebea"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 81, "sha256": "126510abfbbdd2b21254b204bff701e4c900ea3dbbb79f04754749e1b585db36"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 82, "sha256": "b1ce22f3bc41056e26e05d03edee8c9151905adc5961ae460246f758a8545a35"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 83, "sha256": "a18c1f1152f1bdba2b86706bf4e0e7d3c77e4796d5c53c19bb12c2f2df13aa6b"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 84, "sha256": "9dbd3e3351f4e51e2cbf17a194c2143c61616e6946b9fb43552145233ed89d22"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 85, "sha256": "d3d499b42fd4f591840b709a8502abf0aebc14dd94808fdba7431b779afd972e"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 86, "sha256": "9320994d243859e758c6fbefae3fcf59808f87b1d963f90b8e9b87a39dcfef22"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 87, "sha256": "446f4a532e7f3e48dd354c0d11d829ce1c4eb4cdcc5e17100b51f501a38de27f"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 88, "sha256": "a7195c2db82406aad67253a0c8b38a0cfb6afdb5df15c4f63a368bc4b92477eb"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 89, "sha256": "ddbe7912f4d9ee5293ca5c60a5ccc74af4cfb9a988345f6a34c5960bb3d660c0"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 90, "sha256": "985690814720f676b36a5deb76be3dd76d3aa1c156d39be578facf643141bc95"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 91, "sha256": "3b3ae979f0a54d8315ee17b29b9580f15ac22e85e8354c4c81fea3e5edc8703b"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 92, "sha256": "415761368b108068fe383ab07a041562df8c571f0219db94c07d5b7d054462f1"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 93, "sha256": "819131107c1c886566c523da545beb659aca7e4a84568b8e96a0f2e9eb43fb99"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 94, "sha256": "d4f33612ff4ce29d2ee749c4ef9223b6f87d5ebaecabc06cd729fc55e958e22b"}
+{"section": "Appendix B Example Prompts - Sorting", "seq": 95, "sha256": "8f77546e9a115c3ec8ed86e7a82503d94fa5951a7cd4a53cf9ae0a1a156397df"}
+{"section": "Appendix C Example Prompts - Set Intersection", "seq": 96, "sha256": "d33816907f2b8bb25f88942c13bb5bceb198bf6be364afef870213918a2a8276"}
+{"section": "Appendix C Example Prompts - Set Intersection", "seq": 97, "sha256": "a92bcda46b40ab0d3bc53c22f09be24d7e6218ef9c18a262441a25609114549e"}
+{"section": "Appendix C Example Prompts - Set Intersection", "seq": 98, "sha256": "6a5896063c988fed652102dd4ac9ffa32255a37d24e5719e386d3994ee818446"}
+{"section": "Appendix C Example Prompts - Set Intersection", "seq": 99, "sha256": "fcc52bd344d80baade0c1d5519424930c888690475136ef077582b78ebb95482"}
+{"section": "Appendix C Example Prompts - Set Intersection", "seq": 100, "sha256": "668be356e2dc7d0b6b0233607d6f7af22079097a7487cf86ef53a852cbe0a906"}
+{"section": "Appendix C Example Prompts - Set Intersection", "seq": 101, "sha256": "081d6b00b286e5d3f31e1313315393cc4253bda9fd455f92d09c2192368f8108"}
+{"section": "Appendix C Example Prompts - Set Intersection", "seq": 102, "sha256": "db9c71d0cde8f19b0b4cb5d496e4826a3a5f2bf0376b504676d2590564b5b849"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 103, "sha256": "7c7277c30f80e53c8e67f86dd196b9a9ff1b479d5c33ce84a5bbfcad3debf9ec"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 104, "sha256": "edda892b976e95cfbb49fbb672c1c5e4b3f2309c21742dbcc857a11b601680b4"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 105, "sha256": "d46f17d2270b9db1adc7bbbac654a42cb15b58abdc1e6b163fbba8ea11c4a397"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 106, "sha256": "d68cce8dd77c7c9972501134c0a74da4830c3782339452faf2b27abdb263c025"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 107, "sha256": "8be205191d8bcfb71137f68a601948a08c96962d7f0b50197191484f45a9e543"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 108, "sha256": "137a4d5b33aa9880f46059775d3c7e577df7e852352f64388aa8668673008efe"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 109, "sha256": "941378ac10c3372d1dbb2e909381da3989cd2ccf72590d847e271af8b0164123"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 110, "sha256": "f79744c843fbd7d1c1e593da173525620402b590ff50337275d8d69e77b6b5ae"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 111, "sha256": "56c9ce4f21bda19734748daa4c529bcdadfdf7b9044c7de2641dfab1338f98c1"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 112, "sha256": "1a5c3dc5ae5f5cad0260cf2f3528f3ab5c8eaf1388563210ef7fd529c7e832d5"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 113, "sha256": "b05ea4e3c375a8a28d7893c8ef728b33cb8285aac3df075725d0848adfc38083"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 114, "sha256": "a9804c26a96badb991e197c202110e1a25996f703e7c01390e801d0784666e3f"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 115, "sha256": "ab1cda232d029afcb7b663c7946e4ba0e00503ad5b3be91dbf461f943867f13a"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 116, "sha256": "e13ae2bcff21d2be34d09ee4a250842b4b76e7d1899cc45218e62f6b0e7168e0"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 117, "sha256": "69a9f3b33b3ab3e930fdb9d50224150c728af41c5df28bf715aaf53d45ed59eb"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 118, "sha256": "6dd0ab6e90dada1d6727d051f50fdb9d52f8908adf2a09706643aeda40251082"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 119, "sha256": "1da7bbe648fdf73beac4341c1dc2029b366fe709521f97fd5c98c59f0f096f2f"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 120, "sha256": "54b7d6631b5b6e64eefbb71ecd3893237f2b058c8d8a6a55d13075568abe6798"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 121, "sha256": "1ea4ddebc120b9696cb2404012b03470043019e4d2bb1a482d8c67422f3f4aec"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 122, "sha256": "796c4bcd67740308d7300035ee3e8dbf9ec0881b6ec44175b31fe7ba113d68fa"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 123, "sha256": "7c3a32f397e42fbdce4f899cddbb0a50af178097c13bf932c991e88bbb823c7e"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 124, "sha256": "3e342710a7e2975d2b6e012813b55efd8898061a929c8fc69ae0525d9fb45962"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 125, "sha256": "6ea0585ff4760ce5abfce86bbba33ab4fe092d5a9caf62a4361ef988b1872023"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 126, "sha256": "32ff0df218282b65f177a7790c88ba92c3aac78775191cd74ec3d63bc3bd0451"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 127, "sha256": "71b46440665513fdbef2e802175f1bf66702cefcf3f3720ab5f7a994faa787e7"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 128, "sha256": "28c9db8b3a96879106a56ae72c4af77704a2c243835ac43347f560c9d87f9dcc"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 129, "sha256": "6a5c460c2142bd4385d97e3233ac5496b7168ab33ef4282e5109782fb16b491d"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 130, "sha256": "c80f8976e590a077c9a6125ca4b38f2c92c78e8803165dcfc75918ac7e80b9b9"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 131, "sha256": "ca2623fb2b2301dc8e44877faf91a134369959d6546041815d143a02fb5d327b"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 132, "sha256": "6f50b5c2a0ed12b909046f8c3d04c38e9d8e2733756aee8c5d404aa802f360cc"}
+{"section": "Appendix D Example Prompts - Keyword Counting", "seq": 133, "sha256": "d86e7930d0ca72e973e2e5a7f948413bf8273e46f1d26c1296735641f05b5e71"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 134, "sha256": "a7f2628fbd4e6a7ffa3e88c72547b43b6e390f738524af921dcc77c9abeea8fb"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 135, "sha256": "5e4585ee4c648043ac0d740dbdc32c20b736a45f2c967a349c547b32f7abb82f"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 136, "sha256": "aa39532ff37f28f2d5872fc3bc7e9e3a3b4934db34ddb839295eeaf0ebff444c"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 137, "sha256": "2413fdf0bf3b3a486a141dcf4fd76870a4b00ea7e39053a332d379f3762d1a76"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 138, "sha256": "4e0b0583658807bbf2de2f2b7a4cb8bbeaa015390d3c111ea431a5e3734dc7f7"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 139, "sha256": "2b7e883e2d3ec9326c1dacdd4c47a953772703d130722ab2e4f46b4560125850"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 140, "sha256": "afbf2c44cdc0a7a4ecb7f22c28f5b2b26b7e1d8f0f1422676a6062668d4171ae"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 141, "sha256": "ae144850e6b4edd4db386476b4dfdbb112211e1fc7e1645792865fc838d5449e"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 142, "sha256": "d31d69fc2b5092d83e7aeae03c7532484bfa5640019b8e0670790d501f149ddb"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 143, "sha256": "4ee6cdc615d5410e0cd0322732d82ed06b1b2b843e4a94512452a24a31bf566d"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 144, "sha256": "72b208d2a35106b87115807dfaf7cfc4ef1b060f993ea7cff9e37156890e480d"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 145, "sha256": "281f5695b8c8f1c41381a640697e6c0c09607e18e759323f3c8cb63e206c98af"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 146, "sha256": "69ca7675541fbbe421e5928a27a470f208a914ddac597bc10b1331e6e514f2b9"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 147, "sha256": "64fed1cc49be2c7c92ae51ade175453836253da57922f86bb6c697a467d0f244"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 148, "sha256": "052850ec7b55873d99bd4c11939778e22127ef2adf71404073a032861b00a07c"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 149, "sha256": "3460efab54c8c82d3e320a39d6f3d340fa68ea22163b0810de90e4b76487ab5a"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 150, "sha256": "adc5e92253c34fb73405a382748037efd79692713e31d5b035e68c9a638bdd12"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 151, "sha256": "7479240437890c08bf9135dc2488951586890fe6bca26614b5a68135325fea66"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 152, "sha256": "64e4d20481d2bd1cc29321f2cf209deeb5ec16942e098656437295b0a54cdb15"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 153, "sha256": "fd2b7a3fe9b7da1eb5d801c919b69fdcca5ef9fb784f66872deab6033d9ca146"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 154, "sha256": "febad1d468f8233bcf61dfce96a2ae5eebd6ac652ab017f44b283812b45e0345"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 155, "sha256": "3826ec8f7c8c5134c3af772f5d706b7f928b2d48a3676c216a493f0c068a5a90"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 156, "sha256": "ea0ca093cbb650223ec80bd92ae7e4f24644bba3fa18affe28f4ce40e7c56094"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 157, "sha256": "6c721542f045020bf4a630c9b973647b2feb4d37dcbd4a7c3291041e6e26ceed"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 158, "sha256": "f26a98362aa3a84e1b5a7a9ab3c57d6d60e7a0f8128f14f5dd9da99f4650963b"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 159, "sha256": "a799ebca42537fec058e262275d60e372f098ac86bc2d62f546c5145e6b3f5b9"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 160, "sha256": "dac52b3eb2bdb80df5297cc0da7d45de2822c1f73d40fd3605984dc630bb6b7c"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 161, "sha256": "22d8bbb676dc37ea93b753e3e222efeb8b90dbd80c597cb18fd19a366ded759b"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 162, "sha256": "02408a11ad74e1380f0b8c2a3f1e913ba39997bd71b697a8238cd4d106846274"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 163, "sha256": "20d02a894512e0edeacf49ddcb792141725ed2d5c855558ac08a0f044b359dac"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 164, "sha256": "2e033b2c153dba70c42eab0fdb61085d638e605ab8d4b810e56d571bed161006"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 165, "sha256": "fce9ff13d230f1c1c03a8127d82d88fd77d6b8dc91c053c95ee4332988c860b1"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 166, "sha256": "5b0b93fd9856f1094435081fb6f6c7f0a2dbc2532d82179a9d42bf26787b4056"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 167, "sha256": "2c618f0a69c5b93509cca866bedaed424045b028f8b4070f527075fa1e24f07e"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 168, "sha256": "116ced96cab1403272540a79c28ffdc8d6b025ea9b4348894fbebefebd4f2945"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 169, "sha256": "9b135a2c193f589c2ba11795a7da0bbd40fa5948c5cd28dc4dd98d724143c0e2"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 170, "sha256": "930baec24557da8e81490b8a4ed2376069042116567b3b21ca4ef8aa8e65f9af"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 171, "sha256": "e2049032f37b951fb9306d0a8bfc3cf518965c7a5169ead79595302c3d010f24"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 172, "sha256": "4e092a097cf42d9b68b4ac247dda02b996a7d7d2d32007be32eb38bde36761bd"}
+{"section": "Appendix E Example Prompts - Document Merging", "seq": 173, "sha256": "3fd5ffd501ab9a251eddcbc4f126bdc1581112ef623e536b451d12dd4b3c924d"}
+{"section": "Appendix F Evaluation - GoT Configurations", "seq": 174, "sha256": "f985268e7506d5b1d5ceacdf829017ffdd535ef9d02625c920a0f1bddfcb79ba"}
+{"section": "Appendix F Evaluation - GoT Configurations", "seq": 175, "sha256": "979ff69b794dd694fc5c693b65ecebf028c726e7216e90ac0229f5c1f92e743d"}
+{"section": "Appendix F Evaluation - GoT Configurations", "seq": 176, "sha256": "fcfdd1aeb7f369c96da2b1d5344571d536c2197b06ff10793318c762e6474bae"}
+{"section": "Appendix F Evaluation - GoT Configurations", "seq": 177, "sha256": "27061c19892172ace245d73ab98c38fae4f929076d2cd504ef5a12f1e9696450"}
+{"section": "Appendix F Evaluation - GoT Configurations", "seq": 178, "sha256": "85ceccd91073338600b2e55c94723d02994f6b19af5d4cb5fec9515010f59a7c"}

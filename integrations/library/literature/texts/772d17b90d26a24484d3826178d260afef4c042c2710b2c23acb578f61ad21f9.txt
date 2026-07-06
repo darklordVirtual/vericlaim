@@ -1,0 +1,5 @@
+For each stimulus in the pair, we retrieve the hidden state values with respect to the chosen LAT token position. As highlighted in Section 3.1.1, for decoder models, this typically corresponds to the last token. For encoder models, it is the concept token. This results in a collection of hidden states, denoted as , structured as:
+
+We proceed by computing the difference between the hidden states within each pair. This difference is then normalized. Formally, for a pair , the difference is:
+
+Following the computation of these differences, we construct a PCA model using these normalized hidden states difference vectors. Subsequently, the first principal component derived from the constructed PCA is termed the “reading vector” denote as . In practice, the “reading vector” is also multiplied by a “sign” component. This component is determined by first applying the PCA on the same stimuli set to obtain scores. By examining the directionality of the scores with respect to the binary labels—either maximizing or minimizing—we can determine if the data points align with the correct label.

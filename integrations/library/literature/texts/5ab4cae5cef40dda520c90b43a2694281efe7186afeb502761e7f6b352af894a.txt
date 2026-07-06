@@ -1,0 +1,9 @@
+This can point the way toward more automatic ways of eliciting the same behavior. Limitations of Our Results
+
+This experiment does not fully implement the sandwiching protocol, and despite our encouraging results, we do not think that our results justify concluding that our simple dialog-based baseline technique will be satisfactory for the oversight of more capable future systems. We see six major reasons for this:
+
+•
+
+The relaxations introduced in Section 2 limit the applicability of our results: We are limiting ourselves to the controlled, relatively unrealistic setting of unambiguous multiple-choice questions, and we are not examining the effects of any form of further fine-tuning based on the knowledge we elicit, which a practitioner looking for optimal performance would likely want to pursue. •
+
+The fact that we reveal the answers to our participants after they complete each question removes one of the major points of difficulty in scalable oversight (and one that sandwiching is meant to elicit in its base form): the need for participants to identify when they have developed a method that is reliable enough to deploy.

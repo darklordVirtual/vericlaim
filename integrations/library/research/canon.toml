@@ -1638,3 +1638,279 @@ year = 2024
 kind = "paper"
 registrar = "arxiv"
 p0 = true
+
+# ---------------------------------------------------------------------------
+# Frontier/AGI batch (2026-07-06): the latest reasoning, agent,
+# world-model, architecture, multimodal and interpretability frameworks —
+# with honest counterpoints (emergence-as-mirage, scalable-oversight limits).
+
+[[work]]
+id = "kojima-zeroshot-2022"
+collection = "15_frontier_reasoning_and_agi"
+title = "Large Language Models are Zero-Shot Reasoners"
+authors = ["Kojima"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "deepseek-r1-2025"
+collection = "15_frontier_reasoning_and_agi"
+title = "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+authors = ["DeepSeek-AI"]
+year = 2025
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "graph-of-thoughts-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Graph of Thoughts: Solving Elaborate Problems with Large Language Models"
+authors = ["Besta"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "rap-worldmodel-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Reasoning with Language Model is Planning with World Model"
+authors = ["Hao"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "cot-no-prompting-2024"
+collection = "15_frontier_reasoning_and_agi"
+title = "Chain-of-Thought Reasoning Without Prompting"
+authors = ["Wang"]
+year = 2024
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "voyager-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Voyager: An Open-Ended Embodied Agent with Large Language Models"
+authors = ["Wang"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "generative-agents-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Generative Agents: Interactive Simulacra of Human Behavior"
+authors = ["Park"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "swe-agent-2024"
+collection = "15_frontier_reasoning_and_agi"
+title = "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering"
+authors = ["Yang"]
+year = 2024
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "autogen-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
+authors = ["Wu"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "grokking-2022"
+collection = "15_frontier_reasoning_and_agi"
+title = "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets"
+authors = ["Power"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "induction-heads-2022"
+collection = "15_frontier_reasoning_and_agi"
+title = "In-context Learning and Induction Heads"
+authors = ["Olsson"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "emergent-mirage-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Are Emergent Abilities of Large Language Models a Mirage?"
+authors = ["Schaeffer"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "platonic-rep-2024"
+collection = "15_frontier_reasoning_and_agi"
+title = "The Platonic Representation Hypothesis"
+authors = ["Huh"]
+year = 2024
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "muzero-2019"
+collection = "15_frontier_reasoning_and_agi"
+title = "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model"
+authors = ["Schrittwieser"]
+year = 2019
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "dreamerv3-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Mastering Diverse Domains through World Models"
+authors = ["Hafner"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "decision-transformer-2021"
+collection = "15_frontier_reasoning_and_agi"
+title = "Decision Transformer: Reinforcement Learning via Sequence Modeling"
+authors = ["Chen"]
+year = 2021
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "mamba-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
+authors = ["Gu"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "s4-2021"
+collection = "15_frontier_reasoning_and_agi"
+title = "Efficiently Modeling Long Sequences with Structured State Spaces"
+authors = ["Gu"]
+year = 2021
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "rwkv-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "RWKV: Reinventing RNNs for the Transformer Era"
+authors = ["Peng"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "clip-2021"
+collection = "15_frontier_reasoning_and_agi"
+title = "Learning Transferable Visual Models From Natural Language Supervision"
+authors = ["Radford"]
+year = 2021
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "vit-2020"
+collection = "15_frontier_reasoning_and_agi"
+title = "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+authors = ["Dosovitskiy"]
+year = 2020
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "flamingo-2022"
+collection = "15_frontier_reasoning_and_agi"
+title = "Flamingo: a Visual Language Model for Few-Shot Learning"
+authors = ["Alayrac"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "sparks-agi-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+authors = ["Bubeck"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "levels-agi-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Levels of AGI for Operationalizing Progress on the Path to AGI"
+authors = ["Morris"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "model-written-evals-2022"
+collection = "15_frontier_reasoning_and_agi"
+title = "Discovering Language Model Behaviors with Model-Written Evaluations"
+authors = ["Perez"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+
+[[work]]
+id = "representation-eng-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Representation Engineering: A Top-Down Approach to AI Transparency"
+authors = ["Zou"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "influence-functions-2023"
+collection = "15_frontier_reasoning_and_agi"
+title = "Studying Large Language Model Generalization with Influence Functions"
+authors = ["Grosse"]
+year = 2023
+kind = "paper"
+registrar = "arxiv"
+p0 = true
+
+[[work]]
+id = "scalable-oversight-2022"
+collection = "15_frontier_reasoning_and_agi"
+title = "Measuring Progress on Scalable Oversight for Large Language Models"
+authors = ["Bowman"]
+year = 2022
+kind = "paper"
+registrar = "arxiv"
+p0 = true

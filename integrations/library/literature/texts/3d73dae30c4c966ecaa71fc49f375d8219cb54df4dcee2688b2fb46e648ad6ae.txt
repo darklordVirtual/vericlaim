@@ -1,0 +1,17 @@
+2023d. Demystifying Graph Databases: Analysis and Taxonomy of Data
+Organization, System Designs, and Graph Queries. ACM Comput. Surv., 56(2). Besta et al. [2022a]
+
+Besta, M.; Grob, R.; Miglioli, C.; Bernold, N.; Kwaśniewski, G.; Gjini, G.;
+Kanakagiri, R.; Ashkboos, S.; Gianinazzi, L.; Dryden, N.; and Hoefler, T. 2022a. Motif Prediction with Graph Neural Networks. In Proceedings of the 28th ACM SIGKDD Conference on Knowledge
+Discovery and Data Mining, KDD ’22, 35–45. Besta and Hoefler [2022]
+
+Besta, M.; and Hoefler, T. 2022. Parallel and Distributed Graph Neural Networks: An In-Depth
+Concurrency Analysis. arXiv:2205.09702. Besta et al. [2022b]
+
+Besta, M.; Iff, P.; Scheidl, F.; Osawa, K.; Dryden, N.; Podstawski, M.; Chen,
+T.; and Hoefler, T. 2022b. Neural Graph Databases. In Proceedings of the First Learning on Graphs Conference,
+volume 198 of Proceedings of Machine Learning Research, 31:1–31:38. PMLR. Besta et al. [2021a]
+
+Besta, M.; Kanakagiri, R.; Kwaśniewski, G.; Ausavarungnirun, R.;
+Beránek, J.; Kanellopoulos, K.; Janda, K.; Vonarburg-Shmaria, Z.;
+Gianinazzi, L.; Stefan, I.; Luna, J.

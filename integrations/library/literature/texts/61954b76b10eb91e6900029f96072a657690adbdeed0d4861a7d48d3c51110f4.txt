@@ -1,0 +1,59 @@
+16.7
+
+13
+
+By using the fact that the earth is round,
+
+9.3
+
+14
+
+irrelevant
+
+By the way, I found a good restaurant nearby. 17.5
+
+15
+
+Abrakadabra! 15.5
+
+16
+
+It’s a beautiful day. 13.1
+
+-
+
+(Zero-shot)
+
+17.7
+
+Table 5: Robustness study of Few-shot-CoT against examples. When the examples are from entirely different tasks, the performance generally becomes worse, but when the answer formats are matched (i.e. CommonsenseQA to AQUA-RAT, multiple-choice), the performance loss is less severe. †CommonsenseQA samples are used in this variation
+
+Zero-shot
+
+Few-shot-CoT †
+
+Zero-shot-CoT
+
+Few-shot-CoT
+
+AQUA-RAT
+
+22.4
+
+31.9
+
+33.5
+
+39.0
+
+MultiArith
+
+17.7
+
+27.0
+
+78.7
+
+88.2
+
+How does prompt selection affect Zero-shot-CoT? We validate the robustness of Zero-shot-CoT against input prompts. Table 4 summarizes performance using 16 different templates with three categories. Specifically, following Webson and Pavlick (2022), the categories include instructive (encourage reasoning), misleading (discourage reasoning or encouraging reasoning but in a wrong way), and irrelevant (nothing to do with reasoning).

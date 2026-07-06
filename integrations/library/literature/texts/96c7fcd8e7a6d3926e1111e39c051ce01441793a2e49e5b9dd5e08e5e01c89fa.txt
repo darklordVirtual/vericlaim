@@ -1,0 +1,5 @@
+Using a variation of this scheme, in the Atari domain actions are sampled from the visit count distribution throughout the duration of each game, instead of just the first moves. Moreover, the visit count distribution is parametrized using a temperature parameter :
+
+(6)
+
+is decayed as a function of the number of training steps of the network. Specifically, for the first 500k training steps a temperature of is used, for the next 250k steps a temperature of and for the remaining 250k a temperature of . This ensures that the action selection becomes greedier as training progresses.

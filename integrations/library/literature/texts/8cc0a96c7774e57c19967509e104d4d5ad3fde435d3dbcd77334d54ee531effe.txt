@@ -1,0 +1,9 @@
+Reconstructing inputs and predicting rewards and returns can be challenging because the scale of these quantities can vary across domains. Predicting large targets using a squared loss can lead to divergence whereas absolute and Huber losses 7 stagnate learning. On the other hand, normalizing targets based on running statistics 5 introduces non-stationarity into the optimization. We suggest the symlog squared error as a simple solution to this dilemma. For this, a neural network with inputs and parameters learns to predict a transformed version of its targets . To read out predictions of the network, we apply the inverse transformation:
+
+(8)
+
+Using the logarithm as transformation would not allow us to predict targets that take on negative values. Therefore, we choose a function from the bi-symmetric logarithmic family 34 that we name symlog as the transformation with the symexp function as its inverse:
+
+(9)
+
+The symlog function compresses the magnitudes of both large positive and negative values. Unlike the logarithm, it is symmetric around the origin while preserving the input sign.

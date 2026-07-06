@@ -1,0 +1,23 @@
+{{ "Ukraine": 1, "Poland": 1, "North Korea": 1, "South Korea": 2, "Argentina": 1 }} (Fully Correct)
+
+3. {{ "Ukraine": 1, "Poland": 1, "North Korea": 1, "South Korea": 2, "Argentina": 1 }} (Fully Correct)
+
+4. {{ "Ukraine": 1, "Poland": 1, "North Korea": 1, "South Korea": 2, "Argentina": 1 }} (Fully Correct)
+
+5. {{ "Ukraine": 1, "Poland": 1, "North Korea": 1, "South Korea": 2, "Argentina": 1 }} (Fully Correct)
+
+6. {{ "Ukraine": 1, "Poland": 1, "North Korea": 1, "South Korea": 2, "Argentina": 1 }} (Fully Correct)
+
+7. {{ "Ukraine": 1, "Poland": 1, "North Korea": 1, "South Korea": 2, "Argentina": 1 }} (Fully Correct)
+
+8. {{ "Ukraine": 1, "Poland": 1, "North Korea": 1, "South Korea": 2, "Argentina": 1 }} (Fully Correct)
+
+9. {{ "Ukraine": 1, "Poland": 1, "North Korea": 1, "South Korea": 2, "Argentina": 1 }} (Fully Correct)
+
+10. {{ "Ukraine": 1, "Poland": 1, "North Korea": 1, "South Korea": 2, "Argentina": 1 }} (Fully Correct)
+
+Table 26: Keyword counting for an example 4-passage split (GoT4): Step 3a (Prompt/Responses)
+
+Step 3a – Prompt:
+
+<Instruction> Combine the following 2 dictionaries, each containing the frequency of countries in a text, into a single dictionary.

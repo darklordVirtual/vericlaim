@@ -1,0 +1,8 @@
+Because such evaluation protocols are orthogonal to the basic model, we do not consider them and report the base score from [2] Table 5. Instead of SGD+Momentum with multiple cosine learning rate annealing cycles,
+our S4 model was trained with the simpler AdamW optimizer with a single cosine learning rate cycle with a maximum of 800000 steps. The initial learning rate was set to 0.0005. We used 8 A100 GPUs with a batch size of 1 per gpu and context size 8192. We used no gradient clipping and a weight decay of 0.1. Unlike [2] which specified different dropout rates for different parameters,
+we used a constant dropout rate of 0.25 throughout the network, including before every linear layer and on the residual branches. D.3.3 Autoregressive Generation Speed
+
+Protocol. To account for different model sizes and memory requirements for each method,
+we benchmark generation speed by throughput,
+measured in images per second (Fig. 8) or tokens per second (Fig. 8). Each model generates images on a single GPU,
+maximizing batch size to fit in memory.

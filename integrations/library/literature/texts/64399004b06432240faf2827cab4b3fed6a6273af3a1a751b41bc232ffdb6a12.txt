@@ -1,0 +1,7 @@
+The Transformer baseline from Fig. 8 was run using a modified GPT-2 backbone from the HuggingFace repository, configured to recreate the architecture reported in [2]. These numbers are actually slightly favorable to the baseline, as we did not include the timing of the embedding or softmax layers, whereas the number reported for S4 is the full model. D.3.4 Pixel-Level Sequential Image Classification
+
+Our models were trained with the AdamW optimizer for up to 200 epochs. Hyperparameters for the CIFAR-10 model is reported in Table 5. For our comparisons against ResNet-18, the main differences between the base models are that S4 uses LayerNorm by default while ResNet uses BatchNorm. The last ablation in Section 4.3 swaps the normalization type,
+using BatchNorm for S4 and LayerNorm for ResNet,
+to ablate this architectural difference. The experiments with augmentation take the base model and train with mild data augmentation: horizontal flips and random crops (with symmetric padding). Table 6:
+(Pixel-level image classification.)
+Citations refer to the original model; additional citation indicates work from which this baseline is reported.

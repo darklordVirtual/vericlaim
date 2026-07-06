@@ -1,0 +1,16 @@
+In International Conference on Machine Learning, pages
+1059–1071. PMLR, 2021. Ziyin et al. 2020
+
+Liu Ziyin, Zhikang T Wang, and Masahito Ueda. Laprop: Separating momentum and adaptivity in adam. arXiv preprint arXiv:2002.04839, 2020. Kingma and Ba 2014
+
+Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014. Gruslys et al. 2017
+
+Audrunas Gruslys, Will Dabney, Mohammad Gheshlaghi Azar, Bilal Piot, Marc
+Bellemare, and Remi Munos. The reactor: A fast and sample-efficient actor-critic agent for
+reinforcement learning. arXiv preprint arXiv:1704.04651, 2017. Cho et al. 2014
+
+Kyunghyun Cho, Bart Van Merriënboer, Caglar Gulcehre, Dzmitry Bahdanau,
+Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for
+statistical machine translation. arXiv preprint arXiv:1406.1078, 2014. Van Keirsbilck et al. 2019
+
+Matthijs Van Keirsbilck, Alexander Keller, and Xiaodong Yang. Rethinking full connectivity in recurrent neural networks. arXiv preprint arXiv:1905.12340, 2019. Machado et al.

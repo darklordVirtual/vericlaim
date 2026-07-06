@@ -1,0 +1,23 @@
+‘orange_tulip’, ‘oak_planks’, ‘oak_log’, ‘dirt’;
+
+•
+
+Trial 2: ‘spruce_log’, ‘dirt’, ‘clay_ball’, ‘sand’, ‘gravel’;
+
+•
+
+Trial 3: ‘wheat_seeds’, ‘oak_log’, ‘dirt’, ‘birch_log’, ‘sand’. The items collected by AutoGPT [28] in each trial is
+
+•
+
+Trial 1: ‘feather’, ‘oak_log’, ‘leather’, ‘stick’, ‘porkchop’, ‘chicken’, ‘crafting_table’, ‘wheat_seeds’, ‘oak_planks’, ‘dirt’, ‘mutton’;
+
+•
+
+Trial 2: ‘wooden_pickaxe’, ‘iron_ingot’, ‘stone’, ‘coal’, ‘spruce_planks’, ‘string’, ‘raw_copper’, ‘crafting_table’, ‘diorite’, ‘andesite’, ‘furnace’, ‘torch’, ‘spruce_sapling’, ‘granite’, ‘iron_pickaxe’, ‘stone_pickaxe’, ‘wooden_axe’, ‘raw_iron’, ‘stick’, ‘spruce_log’, ‘dirt’, ‘cobblestone’;
+
+•
+
+Trial 3: ‘wooden_shovel’, ‘wooden_pickaxe’, ‘iron_ingot’, ‘stone’, ‘cod’, ‘coal’, ‘oak_log’, ‘flint’, ‘raw_copper’, ‘crafting_table’, ‘diorite’, ‘furnace’, ‘andesite’, ‘torch’, ‘granite’, ‘lapis_lazuli’, ‘iron_pickaxe’, ‘stone_pickaxe’, ‘raw_iron’, ‘stick’, ‘gravel’, ‘oak_planks’, ‘dirt’, ‘iron_axe’, ‘cobblestone’. B.4.2 Extensive Map Traversal
+
+Figure A.2: Map coverage: Two bird’s eye views of Minecraft maps. Voyager is able to traverse longer distances compared to baselines while crossing diverse terrains.

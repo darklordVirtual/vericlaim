@@ -1,0 +1,20 @@
+Bostrom (2014)
+
+Nick Bostrom. 2014. Superintelligence: Paths, Dangers, Strategies, 1st edition. Oxford University Press, Inc., USA. Christiano et al. (2018)
+
+Paul Christiano, Buck Shlegeris, and Dario Amodei. 2018. Supervising strong learners by amplifying weak experts. arXiv preprint arXiv:1810.08575. Christiano et al. (2021)
+
+Paul Christiano, Mark Xu, and Ajeya Cotra. 2021. ARC’s first technical report: Eliciting latent knowledge. AI Alignment Forum. Christiano et al. (2017)
+
+Paul F Christiano, Jan Leike, Tom Brown, Miljan Martic, Shane Legg, and Dario
+Amodei. 2017. Deep reinforcement learning from human preferences. In Advances in neural information processing systems,
+volume 30. Chromik et al. (2021)
+
+Michael Chromik, Malin Eiband, Felicitas Buchner, Adrian Krüger, and
+Andreas Butz. 2021. I think i get your
+point, AI! The illusion of explanatory depth in explainable AI. In 26th International Conference on Intelligent User
+Interfaces, IUI ’21, page 307–317, New York, NY, USA. Association for
+Computing Machinery. Cotra (2021)
+
+Ajeya Cotra. 2021. The
+case for aligning narrowly superhuman models. AI Alignment Forum. Hendrycks et al.

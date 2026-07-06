@@ -1,0 +1,16 @@
+In Advances in Neural Information Processing Systems, pp. 13–23, 2019. Lu et al. (2020)
+
+Lu, Z., Xiong, X., Li, Y., Stroud, J., and Ross, D. Leveraging weakly supervised data and pose representation for action
+recognition, 2020. URL https://www.youtube.com/watch?v=KOQFxbPPLOE&t=1390s. Lucic et al. (2018)
+
+Lucic, M., Kurach, K., Michalski, M., Gelly, S., and Bousquet, O. Are gans created equal? a large-scale study. Advances in neural information processing systems,
+31:700–709, 2018. Mahajan et al. (2018)
+
+Mahajan, D., Girshick, R., Ramanathan, V., He, K., Paluri, M., Li, Y.,
+Bharambe, A., and van der Maaten, L. Exploring the limits of weakly supervised pretraining. In Proceedings of the European Conference on Computer Vision
+(ECCV), pp. 181–196, 2018. McCann et al. (2017)
+
+McCann, B., Bradbury, J., Xiong, C., and Socher, R. Learned in translation: Contextualized word vectors. In Advances in neural information processing systems, pp. 6294–6305, 2017. McCann et al. (2018)
+
+McCann, B., Keskar, N. S., Xiong, C., and Socher, R. The natural language decathlon: Multitask learning as question
+answering. arXiv preprint arXiv:1806.08730, 2018. Micikevicius et al.

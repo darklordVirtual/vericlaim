@@ -1,0 +1,5 @@
+no zero-shot baselines were reported. Our method does not require time-consuming fine-tuning or expensive sample engineering, and can be combined with any pre-trained LLM, serving as the strongest zero-shot baseline for all reasoning tasks. Zero-shot Abilities of LLMs
+
+Radford et al. (2019) show that LLMs have excellent zero-shot abilities in many system-1 tasks, including reading comprehension, translation, and summarization. Sanh et al. (2022); Ouyang et al. (2022) show that such zero-shot abilities of LLMs can be increased by explicitly fine-tuning models to follow instructions. Although these work focus on the zero-shot performances of LLMs, we focus on many system-2 tasks beyond system-1 tasks, considered a grand challenge for LLMs given flat scaling curves. In addition, Zero-shot-CoT is orthogonal to instruction tuning; it increases zero-shot performance for Instruct GPT3, vanilla GPT3, and PaLM (See Figure 3). From Narrow (task-specific) to Broad (multi-task) Prompting
+
+Most prompts are task-specific.

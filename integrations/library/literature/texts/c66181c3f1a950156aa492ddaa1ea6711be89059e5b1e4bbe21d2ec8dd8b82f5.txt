@@ -1,0 +1,3 @@
+Based on their perceptions, the architecture retrieves relevant memories and uses those retrieved actions to determine an action. These retrieved memories are also used to form longer-term plans and create higher-level reflections, both of which are entered into the memory stream for future use. \Description
+
+The architecture of generative agents.

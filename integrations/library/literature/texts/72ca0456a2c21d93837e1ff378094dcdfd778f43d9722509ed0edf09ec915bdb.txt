@@ -1,0 +1,16 @@
+arXiv preprint arXiv:2312.11805, 2023. Gretton et al. (2005)
+
+Gretton, A., Bousquet, O., Smola, A., and Schölkopf, B. Measuring statistical dependence with hilbert-schmidt norms. In International conference on algorithmic learning theory,
+pp. 63–77. Springer, 2005. Groeneveld et al. (2024)
+
+Groeneveld, D., Beltagy, I., Walsh, P., Bhagia, A., Kinney, R., Tafjord, O.,
+Jha, A. H., Ivison, H., Magnusson, I., Wang, Y., et al. Olmo: Accelerating the science of language models. arXiv preprint arXiv:2402.00838, 2024. Gunasekar et al. (2018)
+
+Gunasekar, S., Lee, J. D., Soudry, D., and Srebro, N. Implicit bias of gradient descent on linear convolutional networks. In Advances in Neural Information Processing Systems, pp. 9461–9471, 2018. Gutmann & Hyvärinen (2010)
+
+Gutmann, M. and Hyvärinen, A. Noise-contrastive estimation: A new estimation principle for
+unnormalized statistical models. In Proceedings of the thirteenth international conference on
+artificial intelligence and statistics, pp. 297–304. JMLR Workshop and
+Conference Proceedings, 2010. Ha & Schmidhuber (2018)
+
+Ha, D. and Schmidhuber, J. World models. arXiv preprint arXiv:1803.10122, 2018. Hall et al.

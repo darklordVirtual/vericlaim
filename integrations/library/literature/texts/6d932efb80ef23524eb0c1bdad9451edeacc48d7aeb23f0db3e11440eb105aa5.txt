@@ -1,0 +1,17 @@
+Big Data & Society, 6(1):205395171881956, January 2019. doi: 10.1177/2053951718819569. URL https://doi.org/10.1177/2053951718819569. Bengio et al. (2003)
+
+Bengio, Y., Ducharme, R., Vincent, P., and Jauvin, C. A neural probabilistic language model. Journal of machine learning research, 3(Feb):1137–1155, 2003. Bhargava & Forsyth (2019)
+
+Bhargava, S. and Forsyth, D. Exposing and correcting the gender bias in image captioning datasets
+and models. arXiv preprint arXiv:1912.00578, 2019. Blei et al. (2003)
+
+Blei, D. M., Ng, A. Y., and Jordan, M. I. Latent dirichlet allocation. Journal of machine Learning research, 3(Jan):993–1022, 2003. Bolukbasi et al. (2016)
+
+Bolukbasi, T., Chang, K.-W., Zou, J. Y., Saligrama, V., and Kalai, A. T. Man is to computer programmer as woman is to homemaker? debiasing
+word embeddings. Advances in neural information processing systems,
+29:4349–4357, 2016. Bowker & Star (2000)
+
+Bowker, G. C. and Star, S. L. Sorting things out: Classification and its consequences. MIT press, 2000. Brown et al. (2020)
+
+Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P.,
+Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et al.

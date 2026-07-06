@@ -1,0 +1,9 @@
+•
+
+Surfacing tasks with significant sensitivity and a large set of societal stakeholders, which may call for intervention by policymakers. •
+
+Better characterizing biases in models, alerting other researchers to areas of concern and areas for interventions. •
+
+Creating suites of tests to evaluate systems like CLIP on, so we can better characterize model capabilities earlier in the development cycle. •
+
+Identifying potential failure modes and areas for further work. We plan to contribute to this work, and hope this analysis provides some motivating examples for subsequent research.

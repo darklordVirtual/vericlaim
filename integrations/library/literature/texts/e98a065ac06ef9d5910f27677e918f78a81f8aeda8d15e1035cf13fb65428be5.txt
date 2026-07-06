@@ -1,0 +1,17 @@
+Touvron et al. (2019)
+
+Touvron, H., Vedaldi, A., Douze, M., and Jégou, H. Fixing the train-test resolution discrepancy. In Advances in neural information processing systems, pp. 8252–8262, 2019. Varadarajan & Odobez (2009)
+
+Varadarajan, J. and Odobez, J.-M. Topic models for scene analysis and abnormality detection. In 2009 IEEE 12th International Conference on Computer Vision
+Workshops, ICCV Workshops, pp. 1338–1345. IEEE, 2009. Vaswani et al. (2017)
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N.,
+Kaiser, Ł., and Polosukhin, I. Attention is all you need. In Advances in neural information processing systems, pp. 5998–6008, 2017. Veeling et al. (2018)
+
+Veeling, B. S., Linmans, J., Winkens, J., Cohen, T., and Welling, M. Rotation equivariant CNNs for digital pathology. June 2018. Virtanen et al. (2020)
+
+Virtanen, P., Gommers, R., Oliphant, T. E., Haberland, M., Reddy, T.,
+Cournapeau, D., Burovski, E., Peterson, P., Weckesser, W., Bright, J., van
+der Walt, S. J., Brett, M., Wilson, J., Millman, K. J., Mayorov, N., Nelson,
+A. R. J., Jones, E., Kern, R., Larson, E., Carey, C. J., Polat, İ., Feng,
+Y., Moore, E.

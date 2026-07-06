@@ -1,0 +1,20 @@
+2023. Augmented language models: a survey. arXiv preprint arXiv:2302.07842. OpenAI (2023)
+
+OpenAI. 2023. Gpt-4 technical report. Paul et al. (2023)
+
+Debjit Paul, Mete Ismayilzada, Maxime Peyrard, Beatriz Borges, Antoine
+Bosselut, Robert West, and Boi Faltings. 2023. Refiner: Reasoning feedback on intermediate representations. arXiv preprint arXiv:2304.01904. Puig et al. (2018)
+
+Xavier Puig, Kevin Ra, Marko Boben, Jiaman Li, Tingwu Wang, Sanja Fidler, and
+Antonio Torralba. 2018. Virtualhome: Simulating
+household activities via programs. Saparov and He (2022)
+
+Abulhair Saparov and He He. 2022. Language models are greedy reasoners: A systematic formal analysis of
+chain-of-thought. arXiv preprint arXiv:2210.01240. Schick et al. (2023)
+
+Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria
+Lomeli, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. 2023. Toolformer: Language models can teach themselves to use tools. arXiv preprint arXiv:2302.04761. Schrittwieser et al. (2020)
+
+Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan,
+Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis,
+Thore Graepel, et al. 2020.

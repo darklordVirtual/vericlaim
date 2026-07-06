@@ -1,0 +1,17 @@
+arXiv preprint arXiv: Arxiv-2106.14876, 2021. (15)
+
+Michael Dennis, Natasha Jaques, Eugene Vinitsky, Alexandre M. Bayen, Stuart
+Russell, Andrew Critch, and Sergey Levine. Emergent complexity and zero-shot transfer via unsupervised
+environment design. In Hugo Larochelle, Marc’Aurelio Ranzato, Raia Hadsell,
+Maria-Florina Balcan, and Hsuan-Tien Lin, editors, Advances in
+Neural Information Processing Systems 33: Annual Conference on Neural
+Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020,
+virtual, 2020. (16)
+
+Jacky Liang, Wenlong Huang, Fei Xia, Peng Xu, Karol Hausman, Brian Ichter, Pete
+Florence, and Andy Zeng. Code as policies: Language model programs for embodied control. arXiv preprint arXiv: Arxiv-2209.07753, 2022. (17)
+
+Shao-Hua Sun, Te-Lin Wu, and Joseph J. Lim. Program guided agent. In 8th International Conference on Learning Representations,
+ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020. OpenReview.net, 2020. (18)
+
+Zelin Zhao, Karan Samel, Binghong Chen, and Le Song. Proto: Program-guided transformer for program-guided tasks. In Marc’Aurelio Ranzato, Alina Beygelzimer, Yann N.

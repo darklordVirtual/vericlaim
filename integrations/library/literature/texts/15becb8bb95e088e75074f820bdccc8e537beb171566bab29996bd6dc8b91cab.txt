@@ -1,0 +1,44 @@
+Joon Sung Park
+
+Stanford UniversityStanfordUSA
+
+joonspk@stanford.edu
+
+,
+Joseph C. O’Brien
+
+Stanford UniversityStanfordUSA
+
+jobrien3@stanford.edu
+
+,
+Carrie J. Cai
+
+Google ResearchMountain View, CAUSA
+
+cjcai@google.com
+
+,
+Meredith Ringel Morris
+
+Google DeepMindSeattle, WAUSA
+
+merrie@google.com
+
+,
+Percy Liang
+
+Stanford UniversityStanfordUSA
+
+pliang@cs.stanford.edu
+
+and
+Michael S. Bernstein
+
+Stanford UniversityStanfordUSA
+
+msb@cs.stanford.edu
+
+(2023)
+
+Abstract. Believable proxies of human behavior can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools. In this paper, we introduce generative agents: computational software agents that simulate believable human behavior. Generative agents wake up, cook breakfast, and head to work; artists paint, while authors write; they form opinions, notice each other, and initiate conversations; they remember and reflect on days past as they plan the next day.

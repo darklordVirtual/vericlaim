@@ -1,0 +1,16 @@
+BioRxiv, pp. 407007, 2018. Sharma et al. (2024)
+
+Sharma, P., Rott Shaham, T., Baradad, M., Fu, S., Rodriguez-Munoz, A., Duggal,
+S., Isola, P., and Torralba, A. A vision check-up for language models. In arXiv preprint, 2024. Shepard (1980)
+
+Shepard, R. N. Multidimensional scaling, tree-fitting, and clustering. Science, 210(4468):390–398, 1980. Shi et al. (2024)
+
+Shi, Y., De Bortoli, V., Campbell, A., and Doucet, A. Diffusion schrödinger bridge matching. Advances in Neural Information Processing Systems, 36, 2024. Smola & Schölkopf (1998)
+
+Smola, A. J. and Schölkopf, B. Learning with kernels, volume 4. Citeseer, 1998. Solomonoff (1964)
+
+Solomonoff, R. J. A formal theory of inductive inference. part i. Information and control, 7(1):1–22, 1964. Song et al. (2012)
+
+Song, L., Smola, A., Gretton, A., Bedo, J., and Borgwardt, K. Feature selection via dependence maximization. Journal of Machine Learning Research, 13(5), 2012. Sorscher et al. (2022)
+
+Sorscher, B., Ganguli, S., and Sompolinsky, H. Neural representational geometry underlies few-shot concept learning. Proceedings of the National Academy of Sciences, 119(43):e2200800119, 2022. Srinivasan et al.

@@ -1,0 +1,7 @@
+[2022] with a minor rephrasing of the question template. Specifically, as for Last Letter Concatenation, we use the following template. We randomly select human names from names-dataset library (https://pypi.org/project/names-dataset/) and insert them into {Name1} through {Name4}. •
+
+’Take the last letters of each words in "{Name1} {Name2} {Name3} {Name4}" and concatenate them.’
+
+As for Coin Flip, we use the following template. We randomly select human names from names-dataset library and insert them into {Name1} through {Name4}. We also randomly pick up “flips” or “does not flip” and insert the phrase into each {flips | does not flip} part, respectively. •
+
+’A coin is heads up. {Name1} {flips | does not flip} the coin. {Name2} {flips | does not flip} the coin. {Name3} {flips | does not flip} the coin. {Name4} {flips | does not flip} the coin. Is the coin still heads up? Note that "flip" here means "reverse".’

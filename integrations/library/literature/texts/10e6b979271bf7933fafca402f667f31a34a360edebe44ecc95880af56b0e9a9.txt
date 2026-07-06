@@ -1,0 +1,17 @@
+Sensory communication, 1(01):217–233,
+1961. Betker et al. (2023)
+
+Betker, J., Goh, G., Jing, L., Brooks, T., Wang, J., Li, L., Ouyang, L.,
+Zhuang, J., Lee, J., Guo, Y., et al. Improving image generation with better captions. Computer Science. https://cdn. openai. com/papers/dall-e-3. pdf, 2(3):8, 2023. BigScience et al. (2022)
+
+BigScience, Scao, T. L., Fan, A., Akiki, C., Pavlick, E., Ilić, S.,
+Hesslow, D., Castagné, R., Luccioni, A. S., Yvon, F., et al. Bloom: A 176b-parameter open-access multilingual language model. arXiv preprint arXiv:2211.05100, 2022. Bommasani et al. (2021)
+
+Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arora, S., von Arx, S.,
+Bernstein, M. S., Bohg, J., Bosselut, A., Brunskill, E., et al. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258, 2021. Brohan et al. (2023)
+
+Brohan, A., Brown, N., Carbajal, J., Chebotar, Y., Chen, X., Choromanski, K.,
+Ding, T., Driess, D., Dubey, A., Finn, C., et al. Rt-2: Vision-language-action models transfer web knowledge to robotic
+control. arXiv preprint arXiv:2307.15818, 2023. Cao & Yamins (2024)
+
+Cao, R. and Yamins, D.

@@ -1,0 +1,51 @@
+the partially sorted result lists
+
+37 KeepBestN(1) # Keep the best result
+
+38 Generate(k=5) # Try to improve the partial solution
+
+39 Score(k=1) # Score locally the partially sorted result lists
+ 
+40 KeepBestN(1) # Keep the best result
+
+41merge step 6:
+
+42 Aggregate(10) # Merge partially sorted lists from merge step 3 and 4
+
+43 Score(k=1) # Score locally the partially sorted result lists
+
+44 KeepBestN(1) # Keep the best result
+
+45 Generate(k=5) # Try to improve the partial solution
+
+46 Score(k=1) # Score locally the partially sorted result lists
+
+47 KeepBestN(1 # Keep the best result
+
+48final merge:
+
+49 Aggregate(10) # Merge partially sorted lists from merge step 5 and 6
+
+50 Score(k=1) # Score locally the partially sorted result lists
+
+51 KeepBestN(1) # Keep the best result
+
+52 Generate(k=10) # Try to improve solution
+
+53 Score(k=1) # Score locally the sorted result lists
+
+54 KeepBestN(1) # Keep the best result
+
+55GroundTruth() # Compare to precomputed result
+
+\ssmall
+
+◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

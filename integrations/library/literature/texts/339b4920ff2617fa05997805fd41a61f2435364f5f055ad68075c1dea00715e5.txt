@@ -1,0 +1,11 @@
+Action
+
+AutoGen
+
+\faUser
+
+Prompt
+
+What if the roasting cost is increased by 5% because of the potential salary increase? \faAndroid
+
+After increasing the roasting costs by 5%, I’ve re-calculated the optimal coffee distribution solution for the supply chain. As a result, the new optimal total cost has become 2526.5, compared to the initial cost of 2470.0. This indicates that the increased roasting costs have caused the overall distribution cost to rise by 56.5 units. Table 16: Application A1. Scenario 1: autonomous math solving. Preliminary test with BabyAGI.

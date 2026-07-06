@@ -1,0 +1,7 @@
+As the number of nearest neighbors , we recover the original CKA metric. (18)
+
+We can further relax the metric to treat the cross-covariance term identically across all nearest-neighbor samples. This is equivalent to the assumption that all nearby samples have the same distance. This simplification leads us back to the mutual nearest neighbor metric:
+
+(19)
+
+By equating these metrics, we analyze the changes in alignment between language and vision models as we vary the number of neighbors in Eqn. 18. In Figure 10, we compute the average alignment score across all LLM models. For each , we center the scores to the smallest vision model and divide by the standard deviation of the scores. We find that high values of show less conclusive alignment across tasks while decreasing shows a coherent trend across both models and tasks.

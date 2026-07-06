@@ -1,0 +1,5 @@
+clipping
+
+Adam epsilon
+
+For Minecraft, we additionally tune and run the IMPALA and Rainbow algorithms because not successful end-to-end learning from scratch has been reported in the literature18. We use the Acme implementations56 of these algorithms, use the same IMPALA network we used for PPO, and tuned the learning rate and entropy regularizers. For all other benchmarks, we compare to tuned expert algorithms reported in the literature as referenced in the results section. Table 1: PPO hyperparameters used across all benchmarks.

@@ -1,0 +1,15 @@
+(See Oord et al. (2018) and Section F.1 for detailed derivations.)
+
+Under mild conditions that the world is smooth enough (see Section F.2), a choice of can exactly represent :
+
+(6)
+
+where we observed that from Equation 5 must be a constant since both sides are symmetric. Therefore, the contrastive learners we consider are minimized by a representation whose kernel is (up to a constant offset). With sufficient data and optimization, we will observe convergence to this point. Thus we have convergence to a representation of the statistics of , but what about ? Recall that our idealized world consists of bijective observation functions, which, over discrete random variables, preserve probabilities. So we have:
+
+where we use and in a modality-agnostic way to emphasize that different modalities share the same these quantities. All these arguments hold not just for but also for (or any other bijective, discrete modality), implying:
+
+(7)
+
+(8)
+
+Therefore, for any modality in our idealized world, we observe representational convergence to the same kernel, which represents certain pairwise statistics of .

@@ -1,0 +1,46 @@
+Models were trained for gradient steps using the AdamW optimizer [73] following PyTorch defaults. Table 9: Hyperparameters of Decision Transformer for OpenAI Gym experiments. Hyperparameter
+Value
+
+Number of layers
+
+Number of attention heads
+
+Embedding dimension
+
+Nonlinearity function
+
+ReLU
+
+Batch size
+
+Context length
+
+HalfCheetah, Hopper, Walker
+
+Reacher
+
+Return-to-go conditioning
+
+HalfCheetah
+
+Hopper
+
+Walker
+
+Reacher
+
+Dropout
+
+Learning rate
+
+Grad norm clip
+
+Weight decay
+
+Learning rate decay
+
+Linear warmup for first training steps
+
+A.2.2 Behavior Cloning
+
+As briefly mentioned in Section 4.2, we found previously reported behavior cloning baselines to be weak, and so run them ourselves using a similar setup as Decision Transformer. We tried using a transformer architecture, but found using an MLP (as in previous work) to be stronger. We train for gradient steps; training more did not improve performance. Other hyperparameters are shown in Table 10. The percentile behavior cloning experiments use the same hyperparameters. Table 10: Hyperparameters of Behavior Cloning for OpenAI Gym experiments.

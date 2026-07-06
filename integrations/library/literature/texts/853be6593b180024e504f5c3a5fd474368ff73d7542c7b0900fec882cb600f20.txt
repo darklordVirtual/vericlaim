@@ -1,0 +1,4 @@
+How much money would she have made? We can solve this problem using algebra. Let’s start by creating a variable to represent the number of chocolate bars Wendy sold. We’ll call this variable "x". If Wendy sold "x" chocolate bars, then she would have 9 - x chocolate bars left in the box. We know that each chocolate bar costs $3, so the total cost of the chocolate bars Wendy sold
+Therefore, the answer (arabic numerals) is: Wendy would have made $12. ✗
+
+A: Each chocolate bar cost 3 dollars. So if Wendy sold all but 3, she would have sold 9 - 3 = 6. 6 * 3 = 18. The answer is 18.

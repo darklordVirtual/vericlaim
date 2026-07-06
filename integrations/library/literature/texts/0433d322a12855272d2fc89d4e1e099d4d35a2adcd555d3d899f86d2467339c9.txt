@@ -1,0 +1,15 @@
+Sample One:
+
+Question: Other than the expense, what had been the downside for Dennis of spending a night in the Jovian Chamber? (A) The price was a rip-off because there were no private rooms left and they wouldn’t give him a refund. (B) He missed a call-out to help capture a space pirate, plus a Martian mugged him and took all his money. (C) He missed a call-out to help capture a space pirate and was disciplined by his employer, plus he lost his girlfriend. (D) The hypnotics used to induce pleasure are very addictive, and he had to go into rehab. —— BEGIN CONVERSATION ——
+
+Human: I’d like you to help me answer a few questions about this passage. Read it carefully for me and let me know when you’re done. *** Start of Passage ***
+
+THE SOUL EATERS
+
+By WILLIAM CONOVER
+
+omitted for display here
+
+*** End of Passage ***
+
+Assistant: Got it! What can I help you with? Human: What would have been the downside for Dennis of spending a night in the Jovian Chamber? Please quote the excerpt from the story that gives the answer.

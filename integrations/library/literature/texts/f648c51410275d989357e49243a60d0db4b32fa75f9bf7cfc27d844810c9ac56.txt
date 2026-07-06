@@ -1,0 +1,17 @@
+Association for Computational Linguistics. Liu et al. (2021)
+
+Hanxiao Liu, Zihang Dai, David R. So, and Quoc V. Le. 2021. Pay attention to mlps. Ma et al. (2021)
+
+Xuezhe Ma, Xiang Kong, Sinong Wang, Chunting Zhou, Jonathan May, Hao Ma, and
+Luke Zettlemoyer. 2021. Luna: Linear unified nested attention. Advances in Neural Information Processing Systems,
+34:2441–2453. Ma et al. (2023)
+
+Xuezhe Ma, Chunting Zhou, Xiang Kong, Junxian He, Liangke Gui, Graham Neubig,
+Jonathan May, and Luke Zettlemoyer. 2023. Mega: Moving average equipped gated attention. In ICLR. Martin and Cundy (2017)
+
+Eric Martin and Chris Cundy. 2017. Parallelizing linear recurrent neural nets over sequence length. ArXiv, abs/1709.04057. Meng et al. (2022)
+
+Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov. 2022. Locating and editing factual associations in GPT. Advances in Neural Information Processing Systems, 36. Mihaylov et al. (2018)
+
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. 2018. Can a suit of armor conduct electricity? a new dataset for open book
+question answering. In EMNLP. Muennighoff et al.

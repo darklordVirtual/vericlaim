@@ -1,0 +1,17 @@
+arXiv preprint arXiv:1911.08265, 2019. Jaderberg et al. 2016
+
+Max Jaderberg, Volodymyr Mnih, Wojciech Marian Czarnecki, Tom Schaul, Joel Z
+Leibo, David Silver, and Koray Kavukcuoglu. Reinforcement learning with unsupervised auxiliary tasks. arXiv preprint arXiv:1611.05397, 2016. Anand et al. 2019
+
+Ankesh Anand, Evan Racah, Sherjil Ozair, Yoshua Bengio, Marc-Alexandre
+Côté, and R Devon Hjelm. Unsupervised state representation learning in atari. Advances in neural information processing systems, 32, 2019. Driess et al. 2022
+
+Danny Driess, Ingmar Schubert, Pete Florence, Yunzhu Li, and Marc Toussaint. Reinforcement learning with neural radiance fields. arXiv preprint arXiv:2206.01634, 2022. Silver et al. 2017
+
+David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja
+Huang, Arthur Guez, Thomas Hubert, Lucas Baker, Matthew Lai, Adrian Bolton,
+et al. Mastering the game of go without human knowledge. Nature, 550(7676):354, 2017. Andrychowicz et al. 2020
+
+Marcin Andrychowicz, Anton Raichuk, Piotr Stańczyk, Manu Orsini, Sertan
+Girgin, Raphael Marinier, Léonard Hussenot, Matthieu Geist, Olivier
+Pietquin, Marcin Michalski, et al.

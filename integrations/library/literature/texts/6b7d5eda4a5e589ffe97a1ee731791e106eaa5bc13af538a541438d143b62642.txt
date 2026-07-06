@@ -1,0 +1,17 @@
+The Atari benchmark [10] is challenging due to its high-dimensional visual inputs and difficulty of credit assignment arising from the delay between actions and resulting rewards. We evaluate our method on 1% of all samples in the DQN-replay dataset as per Agarwal et al. [13], representing 500 thousand of the 50 million transitions observed by an online DQN agent [20] during training; we report the mean and standard deviation of 3 seeds. We normalize scores based on a professional gamer, following the protocol of Hafner et al. [21], where 100 represents the professional gamer score and 0 represents a random policy. Game
+DT (Ours)
+CQL
+QR-DQN
+REM
+BC
+
+Breakout
+
+Qbert
+
+Pong
+
+Seaquest
+
+Table 1:
+Gamer-normalized scores for the 1% DQN-replay Atari dataset. We report the mean and variance across 3 seeds. Best mean scores are highlighted in bold. Decision Transformer (DT) performs comparably to CQL on 3 out of 4 games, and outperforms other baselines in most games. We compare to CQL [14], REM [13], and QR-DQN [22] on four Atari tasks (Breakout, Qbert, Pong, and Seaquest) that are evaluated in Agarwal et al. [13]. We use context lengths of for Decision Transformer (except for Pong).

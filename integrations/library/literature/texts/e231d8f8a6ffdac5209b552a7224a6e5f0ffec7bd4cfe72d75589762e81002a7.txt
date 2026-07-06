@@ -1,0 +1,6 @@
+Full experiment details for these tasks including task details and training protocol are in LABEL:sec:exp-details:synthetics. 4.1.1 Selective Copying
+
+The Copying task is one of the most well-studied synthetic tasks for sequence modeling,
+originally designed to test the memorization abilities of recurrent models. As discussed in Section˜3.1, LTI SSMs (linear recurrences and global convolutions)
+can easily solve this task by only keeping track of time instead of reasoning about the data;
+for example, by constructing a convolution kernel of exactly the right length (Figure˜2). This was explicitly validated in earlier work on global convolutions [romero2021ckconv]. The Selective Copying task prevents this shortcut by randomizing the spacing between tokens. Note that this task has been introduced before as the Denoising task [jing2019gated]. Note that many previous works argue that adding architecture gating (multiplicative interactions) can endow models with “data-dependence” and solve related tasks [dao2023hungry, poli2023hyena].

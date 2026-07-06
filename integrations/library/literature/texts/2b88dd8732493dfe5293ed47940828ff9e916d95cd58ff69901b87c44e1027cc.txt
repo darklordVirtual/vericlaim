@@ -1,0 +1,39 @@
+[29] in each trial is
+
+•
+
+Trial 1: ‘plains’, ‘desert’, ‘jungle’;
+
+•
+
+Trial 2: ‘snowy_plains’, ‘snowy_taiga’, ‘snowy_slopes’;
+
+•
+
+Trial 3: ‘dark_forest’, ‘dripstone_caves’, ‘grove’, ‘jagged_peaks’. The terrains traversed by Reflexion [30] in each trial is
+
+•
+
+Trial 1: ‘plains’, ‘flower_forest’;
+
+•
+
+Trial 2: ‘snowy_taiga’;
+
+•
+
+Trial 3: ‘old_growth_birch_forest’, ‘river’, ‘ocean’, ‘beach’, ‘plains’. The terrains traversed by AutoGPT [28] in each trial is
+
+•
+
+Trial 1: ‘plains’, ‘dripstone_caves’, ‘savanna’, ‘meadow’;
+
+•
+
+Trial 2: ‘snowy_taiga’;
+
+•
+
+Trial 3: ‘plains’, ‘stony_shore’, ‘forest’, ‘ocean’. B.4.3 Efficient Zero-Shot Generalization to Unseen Tasks
+
+Figure A.3: Zero-shot generalization to unseen tasks. We visualize the intermediate progress of each method on the other two tasks. We do not plot ReAct and Reflexion since they do not make any meaningful progress. The results of zero-shot generalization to unseen tasks for the other two tasks are presented in Fig. A.3. Similar to Fig. 8, Voyager consistently solves all tasks, while the baselines are unable to solve any task within 50 prompting iterations.

@@ -1,0 +1,16 @@
+G., Gramfort, A., Michel, V., Thirion, B., Grisel,
+O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
+Passos, A., Cournapeau, D., Brucher, M., Perrot, M., and Duchesnay, E. Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12:2825–2830,
+2011. Pennington et al. (2014)
+
+Pennington, J., Socher, R., and Manning, C. D. Glove: Global vectors for word representation. In Proceedings of the 2014 conference on empirical methods in
+natural language processing (EMNLP), pp. 1532–1543, 2014. Peters et al. (2018)
+
+Peters, M. E., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., and
+Zettlemoyer, L. Deep contextualized word representations. arXiv preprint arXiv:1802.05365, 2018. Qi et al. (2020)
+
+Qi, D., Su, L., Song, J., Cui, E., Bharti, T., and Sacheti, A. Imagebert: Cross-modal pre-training with large-scale weak-supervised
+image-text data. arXiv preprint arXiv:2001.07966, 2020. Quattoni et al. (2007)
+
+Quattoni, A., Collins, M., and Darrell, T. Learning visual representations using images with captions. In 2007 IEEE Conference on Computer Vision and Pattern
+Recognition, pp. 1–8. IEEE, 2007. Radford et al.

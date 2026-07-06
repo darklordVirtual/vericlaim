@@ -1,0 +1,6 @@
+As described in Sections 2.2 and 3.1, S4 uses a principled approach to address LRDs based on the HiPPO theory of continuous-time memorization. Our goal in this section is to validate that S4 achieves high performance on difficult tasks that require long-range reasoning. We focus here on two problems:
+(i) the Long-Range Arena, a well-known benchmark designed to test efficient sequence models on LRDs, and
+(ii) a speech classification problem as a real-world test of LRDs. Figure 4:
+Visualizations of a trained S4 model on LRA Path-X. SSM convolution kernels are reshaped into a image. (Left) Example from the Path-X task, which involves deducing if the markers are connected by a path (Top) Filters from the first layer (Bottom) Filters from the last layer. Table 2:
+(Long Range Arena)
+(Top) Original Transformer variants in LRA. Full results in Section D.2. (Bottom) Other models reported in the literature. Please read Section D.5 before citing this table.

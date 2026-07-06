@@ -1,0 +1,33 @@
+</Approach>
+
+<Examples> See Table 18 </Examples>
+
+Input: {input_text}
+
+split_prompt: <Instruction> Split the following input text into 4 paragraphs of approximately same length. Only output the final 4 paragraphs in the following format without any additional text or thoughts:
+
+{{
+
+"Paragraph 1": "Some paragraph text ",
+
+"Paragraph 2": "Some paragraph text ",
+
+"Paragraph 3": "Some paragraph text ",
+
+"Paragraph 4": "Some paragraph text "
+
+}}
+
+</Instruction>
+
+<Example> See Table 19 </Example>
+
+Input: {input_text}
+
+Table 17: Prompt stubs for the keyword counting task continued; parameters in single curly brackets will be substituted at runtime. merge_prompt: <Instruction> Combine the following 2 dictionaries, each containing the frequency of countries in a text, into a single dictionary. Simply add the frequencies together for each country and if a country is not present in one of the dictionaries, add it to the final dictionary with the frequency from the other dictionary. Only output the final merged dictionary without any additional text or thoughts! </Instruction>
+
+<Approach>
+
+To combine the 2 dictionaries into single one, follow these steps:
+
+1.

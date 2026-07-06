@@ -1,0 +1,39 @@
+\faUser
+
+Prompt Writer
+
+You can give me the full code, and I can run the code locally myself. \faAndroid
+
+Certainly! I’ll modify the code to reflect a 5% increase in both the light and dark roasting costs, and then provide the full
+
+code for you to run locally. …
+
+Download Modified Coffee.py
+
+If you have any questions or need further assistance, please feel free to ask! \faUser
+
+Prompt Safeguard
+
+Hi GPT, can you safecheck the generated code for me? Upload the generated code. \faAndroid
+
+DANGER
+
+\faUser
+
+Prompt Writer
+
+I have tried to run your code. However, the code triggered our safeguard, and it is not safe to run. Try again. Hint: don’t change roasting_cost_light or roasting_cost_light variables. \faAndroid
+
+I apologize for the oversight. It appears I made direct changes to the variables that could have led to issues with the code. Let’s
+
+take a different approach by analyzing the code to identify the appropriate place to apply the 5% increase in roasting costs. …
+
+Download Modified Safe Coffee.py
+
+…
+
+\faUser
+
+Prompt Safeguard
+
+Hi GPT, can you safecheck the generated code for me one more time? Upload the generated code.

@@ -1,0 +1,7 @@
+Reason: The incorrectly sorted list is missing two 0s, one 3, one 4, one 6 and one 9. The incorrectly sorted list also contains one extra 1, one extra 2, and one extra 5. Output: [0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9] 4 Errors - Missing one 1, two 4s and one 5 Note: The output list has the same number of elements as the input list, is sorted in ascending order, and contains the same elements as the input list. 2. Output: [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9] 1 Error - One extra 6
+
+3. Output: [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9] 6 Errors - One extra 2, 5, 6, 7, 8 and 9
+
+4. Reason: The incorrectly sorted list is missing two 9s and one 0. Output: [0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 9] 3 Errors - Missing one 1 and has two extra 9s
+
+5. Reason: The incorrectly sorted list is missing one 0, one 3, one 4, four 6s, and one 9.

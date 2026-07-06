@@ -1,0 +1,47 @@
+4) Try to summarize the function in no more than 6 sentences. 5) Your response should be a single line of text. For example, if the function is:
+
+async function mineCobblestone(bot) {
+
+// Check if the wooden pickaxe is in the inventory, if not, craft one
+
+let woodenPickaxe = bot.inventory.findInventoryItem(mcData.itemsByName["wooden_pickaxe"].id);
+
+if (!woodenPickaxe) {
+
+bot.chat("Crafting a wooden pickaxe.");
+
+await craftWoodenPickaxe(bot);
+
+woodenPickaxe = bot.inventory.findInventoryItem(mcData.itemsByName["wooden_pickaxe"].id);
+
+}
+
+// Equip the wooden pickaxe if it exists
+
+if (woodenPickaxe) {
+
+await bot.equip(woodenPickaxe, "hand");
+
+// Explore until we find a stone block
+
+await exploreUntil(bot, new Vec3(1, -1, 1), 60, () => {
+
+const stone = bot.findBlock({
+
+matching: mcData.blocksByName["stone"].id,
+
+maxDistance: 32
+
+});
+
+if (stone) {
+
+return true;
+
+}
+
+});
+
+// Mine 8 cobblestone blocks using the wooden pickaxe
+
+bot.chat("Found a stone block.

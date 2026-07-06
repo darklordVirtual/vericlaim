@@ -1,0 +1,38 @@
+In this section we characterize representation reading as line of transparency research that uses a top-down approach. We contrast this to mechanistic interpretability, which
+is a bottom-up approach. In the table below, we sharpen the bottom-up vs. top-down distinction. Bottom-Up Associations
+
+Top-Down Associations
+
+Composition
+
+Decomposition
+
+“Small Chunk”
+
+“Big Chunk”
+
+Neuron, Circuit, or Mechanism
+
+Representation
+
+Brain and Neurobiology
+
+Mind and Psychology
+
+Mechanistic Explanations
+
+Functional Explanations
+
+Identify small mechanisms/subsystems and
+
+integrate them to solve a larger problem, and repeat the process
+
+Break down a large problem into smaller subproblems by
+
+identifying subsystems, and repeat the process
+
+Microscopic
+
+Macroscopic
+
+Mechanisms are flawed for understanding complex systems. In general, it is challenging to reduce a complex system’s behavior to many mechanisms. One reason why is because excessive reductionism makes it challenging to capture emergent phenomena; emergent phenomena are, by definition, phenomena not found in their parts.

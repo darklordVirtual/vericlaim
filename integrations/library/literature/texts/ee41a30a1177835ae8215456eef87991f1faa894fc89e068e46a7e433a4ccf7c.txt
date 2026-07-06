@@ -1,0 +1,9 @@
+Let denote the set of possible tokens, denote the true but unknown probability distribution, and denote the -parameter model’s predicted probability distribution. The per-token cross entropy as a function of number of parameters is:
+
+In practice, is unknown, so we substitute a one-hot distribution of the observed token :
+
+A model with parameters then has a per-token probability of selecting the correct token (Fig. 2B):
+
+Suppose the researcher then chooses a metric that requires selecting tokens correctly. For example, our task might be -digit integer addition, and a model’s output is scored if all output digits exactly match all target digits with no additions, deletions or substitutions, otherwise. If the probability each token is correct is independent111While the independence assumption is not true, the approximation yields results qualitatively matching the observed emergence claims., the probability of scoring is:
+
+This choice of metric nonlinearly scales performance with increasing token sequence length. When plotting performance on a linear-log plot, one sees a sharp, unpredictable emergent ability on longer sequences (Fig.

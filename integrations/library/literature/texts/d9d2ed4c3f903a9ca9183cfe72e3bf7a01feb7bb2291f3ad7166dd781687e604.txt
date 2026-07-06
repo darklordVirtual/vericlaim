@@ -1,0 +1,10 @@
+We examine existing LLM-based agent systems or frameworks that can be used to build LLM applications. We categorize the related work into single-agent and multi-agent systems and specifically provide a summary of differentiators comparing AutoGen with existing multi-agent systems in Table 1. Note that many of these systems are evolving open-source projects, so the remarks and statements about them may only be accurate as of the time of writing. We refer interested readers to detailed LLM-based agent surveys Xi et al. (2023); Wang et al. (2023b)
+
+Single-Agent Systems:
+
+•
+
+AutoGPT:
+AutoGPT is an open-source implementation of an AI agent that attempts to autonomously achieve a given goal AutoGPT (2023). It follows a single-agent paradigm in which it augments the AI model with many useful tools, and does not support multi-agent collaboration. •
+
+ChatGPT+ (with code interpreter or plugin): ChatGPT, a conversational AI service or agent, can now be used alongside a code interpreter or plugin (currently available only under the premium subscription plan ChatGPT Plus) OpenAI (2023).

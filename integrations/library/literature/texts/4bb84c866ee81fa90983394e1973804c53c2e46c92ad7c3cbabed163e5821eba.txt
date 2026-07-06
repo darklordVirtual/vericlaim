@@ -1,0 +1,19 @@
+Kernelized concept erasure, 2023. Rimsky (2023a)
+
+Nina Rimsky. Modulating sycophancy in an rlhf model via activation steering. AI Alignment Forum, 2023a. Rimsky (2023b)
+
+Nina Rimsky. Red-teaming language models via activation engineering. AI Alignment Forum, 2023b. Rimsky (2023c)
+
+Nina Rimsky. Reducing sycophancy and improving honesty via activation steering. AI Alignment Forum, 2023c. Roemmele et al. (2011)
+
+Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S Gordon. Choice of plausible alternatives: An evaluation of commonsense causal
+reasoning. In 2011 AAAI Spring Symposium Series, 2011. Roose (2023)
+
+Kevin Roose. Bing’s ai chat:“i want to be alive”. The New York Times, 16, 2023. Schramowski et al. (2019)
+
+Patrick Schramowski, Cigdem Turan, Sophie Jentzsch, Constantin Rothkopf, and
+Kristian Kersting. Bert has a moral compass: Improvements of ethical and moral values of
+machines. arXiv preprint arXiv:1912.05238, 2019. Schwarz & Clore (1983)
+
+Norbert Schwarz and Gerald Clore. Mood, misattribution, and judgments of well-being: Informative and
+directive functions of affective states. Journal of Personality and Social Psychology, 45:513–523, 09 1983. doi: 10.1037/0022-3514.45.3.513.

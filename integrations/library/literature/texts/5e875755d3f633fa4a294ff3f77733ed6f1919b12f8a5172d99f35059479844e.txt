@@ -1,0 +1,7 @@
+Emergent Abilities Should Appear with Metrics, not Task-Model Families
+
+If emergent abilities are real, one should expect task-model family pairs to show emergence for all reasonable metrics. However, if our alternative explanation is correct, we should expect emergent abilities to appear only under certain metrics. To test this, we analyzed on which metrics emergent abilities appear. To determine whether a task-metric-model family triplet exhibits a possible emergent ability, we used a metric from previous work srivastava2022beyond . Letting denote model performance at model scales , sorted such that , the emergence score is:
+
+(1)
+
+Figure 5: Emergent abilities appear only for specific metrics, not task-model families. (A) Possible emergent abilities appear with at most 5 out of 39 BIG-Bench metrics. (B) Hand-annotated data by wei2022bigbench reveals emergent abilities appear only under 4 preferred metrics. (C) of emergent abilities appear under one of two metrics: Multiple Choice Grade and Exact String Match.

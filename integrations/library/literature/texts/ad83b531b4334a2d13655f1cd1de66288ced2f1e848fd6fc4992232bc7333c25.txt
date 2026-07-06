@@ -1,0 +1,9 @@
+–
+
+Unlike Abdou et al. (2021), we did not perform linear regression from language embedding to CIELAB space, which distorts distances and easily overfits with only samples. Instead, we used multidimensional scaling to best preserve distances, as described above. –
+
+Masked language contrastive learning (SimCSE) embedding:
+We used sentence embedding from the unsupervised SimCSE RoBERTa-L (Gao et al., 2021) to encode the above sentences into -dimensional embeddings, and used the pairwise Euclidean distances among <col> embeddings as the dissimilarity matrix. –
+
+Masked language predictive learning (RoBERTa) embedding:
+We concatenated hidden states of the last four layers of RoBERTa-L (Liu et al., 2019), following (Devlin et al., 2018). We averaged across token dimensions, and obtained a -dimensional embedding for each of the above sentences, and used the pairwise Euclidean distances among <col> embeddings as the dissimilarity matrix.

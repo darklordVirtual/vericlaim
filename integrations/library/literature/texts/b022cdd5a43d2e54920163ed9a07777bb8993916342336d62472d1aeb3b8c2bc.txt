@@ -1,0 +1,16 @@
+Unsupervised commonsense question answering with self-talk. In Proceedings of EMNLP, pages 4615–4629, 2020. URL https://aclanthology.org/2020.emnlp-main.373. Smith et al. [2022]
+
+Shaden Smith, Mostofa Patwary, Brandon Norick, Patrick LeGresley, Samyam
+Rajbhandari, Jared Casper, Zhun Liu, Shrimai Prabhumoye, George Zerveas,
+Vijay Korthikanti, Elton Zhang, Rewon Child, Reza Yazdani Aminabadi, Julie
+Bernauer, Xia Song, Mohammad Shoeybi, Yuxiong He, Michael Houston, Saurabh
+Tiwary, and Bryan Catanzaro. Using deepspeed and megatron to train megatron-turing nlg 530b, a
+large-scale generative language model, 2022. URL https://arxiv.org/abs/2201.11990. Srivastava et al. [2022]
+
+Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, Abu Awal Md Shoeb, Abubakar
+Abid, Adam Fisch, Adam R Brown, Adam Santoro, Aditya Gupta, Adrià
+Garriga-Alonso, et al. Beyond the imitation game: Quantifying and extrapolating the
+capabilities of language models. arXiv preprint arXiv:2206.04615, 2022. URL https://arxiv.org/abs/2206.04615. Stanovich and West [2000]
+
+Keith E Stanovich and Richard F West. Individual differences in reasoning: Implications for the rationality
+debate?

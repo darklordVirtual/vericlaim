@@ -1,0 +1,25 @@
+designed to evaluate the acquisition of common sense reasoning by neural language models, aiming to determine whether we are accurately assessing the true capabilities of machine common sense. (a) ARC (Challenge)
+
+(b) ARC (Easy)
+
+(c) BoolQ
+
+(d) COPA
+
+(e) HeadQA
+
+(f) HellaSwag
+
+(g) LAMBADA (OpenAI)
+
+(h) OpenBookQA
+
+(i) PiQA
+
+(j) ReCoRD
+
+(k) SciQ
+
+(l) Winogrande
+
+Figure 12: Zero-Shot Performance of RWKV on common language modeling evaluation benchmarks.

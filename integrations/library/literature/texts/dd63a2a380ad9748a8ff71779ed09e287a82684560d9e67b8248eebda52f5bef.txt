@@ -1,0 +1,5 @@
+Benchmarking results from Fig. 3 and Fig. 3 were tested on a single A100 GPU. Benchmarks against LSSL
+
+For a given dimension , a single LSSL or S4 layer was constructed with hidden features. For LSSL, the state size was set to as done in [18]. For S4, the state size was set to parameter-match the LSSL, which was a state size of due to differences in the parameterization. Fig. 3 benchmarks a single forward+backward pass of a single layer. Benchmarks against Efficient Transformers
+
+Following [40], the Transformer models had 4 layers, hidden dimension with heads, query/key/value projection dimension , and batch size , for a total of roughly parameters. The S4 model was parameter tied while keeping the depth and hidden dimension constant (leading to a state size of ). We note that the relative orderings of these methods can vary depending on the exact hyperparameter settings.

@@ -1,0 +1,55 @@
+</Instruction>
+
+List 1: {input1}
+
+List 2: {input2}
+
+Table 11: Few-shot examples for each prompt used for the set intersection tasks; some lists are truncated for brevity. intersect_prompt:
+
+<Examples>
+
+Input Set 1: [13, 16, 30, 6, 21, 7, 31, 15, 11, 1, 24, 10, 9, 3, 20, 8]
+
+Input Set 2: [25, 24, 10, 4, 27, 0, 14, 12, 8, 2, 29, 20, 17, 19, 26, 23]
+
+Output: [24, 10, 20, 8]
+
+Input Set 1: [26, 40, 42, 57, 15, 31, 5, 32, 11, 4, 24, 28, 51, 54, (Omitted 18/32 numbers)]
+
+Input Set 2: [16, 60, 36, 48, 0, 15, 5, 19, 46, 24, 1, 6, 61, 10, (Omitted 18/32 numbers)]
+
+Output: [40, 15, 5, 24, 35, 59, 16, 63]
+
+Input Set 1: [115, 61, 35, 103, 90, 117, 86, 44, 63, 45, 40, 30, 74, 33, (Omitted 50/64 numbers)]
+
+Input Set 2: [13, 35, 20, 96, 34, 18, 47, 127, 126, 9, 21, 16, 77, 22, (Omitted 50/64 numbers)]
+
+Output: [115, 35, 90, 117, 63, 40, 30, 33, 15, 89, 50, 12, 2, 84, 7, 57, 96]
+
+</Examples>
+
+split_prompt (32 elements):
+
+<Examples>
+
+Input: [26, 40, 42, 57, 15, 31, 5, 32, 11, 4, 24, 28, 51, 54, (Omitted 18/32 numbers)]
+
+Output:
+
+{{
+
+"List 1": [26, 40, 42, 57, 15, 31, 5, 32, 11, 4, 24, 28, 51, 54, 12, 22],
+
+"List 2": [33, 35, 7, 13, 2, 59, 8, 23, 43, 16, 29, 55, 25, 63, 21, 18]
+
+}}
+
+</Examples>
+
+merge_prompt: -
+
+Table 12: Intersection of two 32-element sets: Execution plan (GoO)
+
+GoO:
+
+1.

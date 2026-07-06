@@ -1,0 +1,20 @@
+Massively parallel methods for deep reinforcement learning. CoRR, abs/1507.04296, 2015. [28]
+
+Junhyuk Oh, Satinder Singh, and Honglak Lee. Value prediction network. In Advances in Neural Information Processing Systems, pages
+6118–6128, 2017. [29]
+
+OpenAI. Openai five. https://blog.openai.com/openai-five/, 2018. [30]
+
+Tobias Pohlen, Bilal Piot, Todd Hester, Mohammad Gheshlaghi Azar, Dan Horgan,
+David Budden, Gabriel Barth-Maron, Hado van Hasselt, John Quan, Mel
+Večerík, et al. Observe and look further: Achieving consistent performance on atari. arXiv preprint arXiv:1805.11593, 2018. [31]
+
+Martin L. Puterman. Markov Decision Processes: Discrete Stochastic Dynamic
+Programming. John Wiley & Sons, Inc., New York, NY, USA, 1st edition, 1994. [32]
+
+Christopher D Rosin. Multi-armed bandits with episode context. Annals of Mathematics and Artificial Intelligence,
+61(3):203–230, 2011. [33]
+
+Maarten PD Schadd, Mark HM Winands, H Jaap Van Den Herik, Guillaume MJ-B
+Chaslot, and Jos WHM Uiterwijk. Single-player monte-carlo tree search. In International Conference on Computers and Games, pages
+1–12. Springer, 2008.

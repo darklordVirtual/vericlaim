@@ -1,0 +1,9 @@
+AlphaFold Protein Structure Database: Massively Expanding the Structural Coverage of Protein-Sequence Space with High-Accuracy Models. Nucleic Acids Research, 50:D439–D444, 11 2021. ISSN 0305-1048. doi: 10.1093/nar/gkab1061. URL https://doi.org/10.1093/nar/gkab1061. Vaswani et al. (2023)
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., and Polosukhin, I. Attention Is All You Need. CoRR, abs/1706.03762, 2023. doi: 10.48550/arXiv.1706.03762. URL https://arxiv.org/abs/1706.03762. Veerabadran et al. (2023)
+
+Veerabadran, V., Goldman, J., Shankar, S., and et al. Subtle Adversarial Image Manipulations Influence Both Human and Machine Perception. Nature Communications, 14, 2023. doi: 10.1038/s41467-023-40499-0. Webb et al. (2023)
+
+Webb, T., Holyoak, K. J., and Lu, H. Emergent Analogical Reasoning in Large Language Models. Nature Human Behavior, 7:1526–1541, 2023. URL https://doi.org/10.1038/s41562-023-01659-w. Wei et al. (2022)
+
+Wei, J., Tay, Y., Bommasani, R., Raffel, C., Zoph, B., Borgeaud, S., Yogatama, D., Bosma, M., Zhou, D., Metzler, D., Chi, E. H., Hashimoto, T., Vinyals, O., Liang, P., Dean, J., and Fedus, W.

@@ -1,0 +1,9 @@
+We ablate 6 design choices (automatic curriculum, skill library, environment feedback, execution errors, self-verification, and GPT-4 for code generation) in Voyager and study their impact on exploration performance (see Appendix, Sec. B.3 for details of each ablated variant). Results are shown in Fig. 9. We highlight the key findings below:
+
+•
+
+Automatic curriculum is crucial for the agent’s consistent progress. The discovered item count drops by if the curriculum is replaced with a random one, because certain tasks may be too challenging if attempted out of order. On the other hand, a manually designed curriculum requires significant Minecraft-specific expertise, and does not take into account the agent’s live situation. It falls short in the experimental results compared to our automatic curriculum. •
+
+Voyager w/o skill library exhibits a tendency to plateau in the later stages. This underscores the pivotal role that the skill library plays in Voyager. It helps create more complex actions and steadily pushes the agent’s boundaries by encouraging new skills to be built upon older ones. •
+
+Self-verification is the most important among all the feedback types.

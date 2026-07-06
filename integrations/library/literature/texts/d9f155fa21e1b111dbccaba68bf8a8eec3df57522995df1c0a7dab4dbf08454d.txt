@@ -1,0 +1,19 @@
+In Proceedings of the 2017 conference on empirical methods in
+natural language processing, pp. 1527–1536, 2017. Stallkamp et al. (2011)
+
+Stallkamp, J., Schlipsing, M., Salmen, J., and Igel, C. The German Traffic Sign Recognition Benchmark: A
+multi-class classification competition. In IEEE International Joint Conference on Neural Networks,
+pp. 1453–1460, 2011. Stroud et al. (2020)
+
+Stroud, J. C., Ross, D. A., Sun, C., Deng, J., Sukthankar, R., and Schmid, C. Learning video representations from textual web supervision. arXiv preprint arXiv:2007.14937, 2020. Szegedy et al. (2016)
+
+Szegedy, C., Ioffe, S., Vanhoucke, V., and Alemi, A. Inception-v4, inception-resnet and the impact of residual connections
+on learning. arXiv preprint arXiv:1602.07261, 2016. Tan & Bansal (2019)
+
+Tan, H. and Bansal, M. Lxmert: Learning cross-modality encoder representations from
+transformers. arXiv preprint arXiv:1908.07490, 2019. Tan & Le (2019)
+
+Tan, M. and Le, Q. V. Efficientnet: Rethinking model scaling for convolutional neural
+networks. arXiv preprint arXiv:1905.11946, 2019. Taori et al. (2020)
+
+Taori, R., Dave, A., Shankar, V., Carlini, N., Recht, B., and Schmidt, L.

@@ -1,0 +1,16 @@
+What makes good in-context examples for gpt-? arXiv preprint arXiv:2101.06804, 2021a. URL https://arxiv.org/abs/2101.06804. Liu et al. [2021b]
+
+Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and
+Graham Neubig. Pre-train, prompt, and predict: A systematic survey of prompting
+methods in natural language processing. arXiv preprint arXiv:2107.13586, 2021b. URL https://arxiv.org/abs/2107.13586. Lu et al. [2022]
+
+Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, and Pontus Stenetorp. Fantastically ordered prompts and where to find them: Overcoming
+few-shot prompt order sensitivity. In Proceedings of ACL, pages 8086–8098, 2022. URL https://aclanthology.org/2022.acl-long.556. McGrew [2005]
+
+Kevin S McGrew. The cattell-horn-carroll theory of cognitive abilities: Past,
+present, and future. 2005. Merity et al. [2016]
+
+Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. Pointer sentinel mixture models. arXiv preprint arXiv: Arxiv-1609.07843, 2016. URL https://arxiv.org/abs/1609.07843. Min et al. [2022]
+
+Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh
+Hajishirzi, and Luke Zettlemoyer.

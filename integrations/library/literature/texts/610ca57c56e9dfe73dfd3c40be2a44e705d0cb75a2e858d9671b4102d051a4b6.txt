@@ -1,0 +1,10 @@
+✗ (GT : Yes)
+
+Date Understand. Q: Today is 3/5, and it is Jane’s second time in the year 1973 to see a meteor shower. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 03/05/2007 (B) 01/02/1973 (C) 03/08/1983 (D) 03/05/1973 (E) 02/05/1973 (F) 04/05/1973
+
+A: Let’s think step by step. The question is asking for the date a month ago from 03/05/1973. A month ago would be 02/05/1973. Therefore, among A through F, the answer is E. Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 06/02/2021 (B) 05/31/2021 (C) 06/16/2021 (D) 05/31/1966 (E) 08/18/2021 (F) 05/31/1941
+
+A: Let’s think step by step. The deadline is Jun 1, 2021, which is 2 days away from now. In 24 hours, it will be Jun 2, 2021. Therefore, among A through F, the answer is A. ✗ (GT : B)
+
+Shuffled
+Objects. Q: Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a purple ball, and Claire has a blue ball. As the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Claire and Bob swap balls. Finally, Bob and Alice swap balls.

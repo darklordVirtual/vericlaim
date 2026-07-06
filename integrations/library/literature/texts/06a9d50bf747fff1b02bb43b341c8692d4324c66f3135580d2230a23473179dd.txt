@@ -1,0 +1,17 @@
+In International Conference on Machine Learning, pp. 9929–9939. PMLR, 2020. Werbos (1987)
+
+Werbos, P. J. Learning how the world works: Specifications for predictive networks
+in robots and brains. In Proceedings of IEEE International Conference on Systems, Man
+and Cybernetics, NY, 1987. Wightman (2021)
+
+Wightman, R. PyTorch image models. https://github.com/rwightman/pytorch-image-models, 2021. Wolf et al. (2019)
+
+Wolf, T., Debut, L., Sanh, V., Chaumond, J., Delangue, C., Moi, A., Cistac, P.,
+Rault, T., Louf, R., Funtowicz, M., et al. Huggingface’s transformers: State-of-the-art natural language
+processing. arXiv preprint arXiv:1910.03771, 2019. Wortsman et al. (2022)
+
+Wortsman, M., Ilharco, G., Gadre, S. Y., Roelofs, R., Gontijo-Lopes, R.,
+Morcos, A. S., Namkoong, H., Farhadi, A., Carmon, Y., Kornblith, S., et al. Model soups: averaging weights of multiple fine-tuned models improves
+accuracy without increasing inference time. In International Conference on Machine Learning, pp. 23965–23998. PMLR, 2022. Wu et al. (2023)
+
+Wu, T.-H., Lian, L., Gonzalez, J. E., Li, B., and Darrell, T. Self-correcting LLM-controlled diffusion models. arXiv preprint arXiv:2311.16090, 2023. Xie et al.

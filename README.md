@@ -276,13 +276,16 @@ content-addressed, and the oracle **refuses** when no cataloged excerpt
 supports an answer.
 
 <!-- claim:CLAIM-LIB-RAG-001 canon_total canon_verified canon_dropped -->
-The canonical research map holds <!-- v:CLAIM-LIB-RAG-001.canon_total -->**152**
-works across 14 collections (uncertainty/conformal, agents, evaluation, agent
+The canonical research map holds <!-- v:CLAIM-LIB-RAG-001.canon_total -->**180**
+works across 15 collections (uncertainty/conformal, agents, evaluation, agent
 security, governance — including the EU AI Act, GDPR, NIS2 and the NIST
 risk stack — MLOps, provenance/supply-chain, formal methods, fairness,
-assurance cases, and the frontier-engineering stack: training your own
-models, software-engineering/SaaS systems, marketing science and finance);
-<!-- v:CLAIM-LIB-RAG-001.canon_verified -->**143**
+assurance cases, the frontier-engineering stack — training your own
+models, software-engineering/SaaS systems, marketing science and finance —
+and the latest AGI research: reasoning models, agents, world models,
+state-space architectures, multimodal learning and mechanistic
+interpretability, with honest counterpoints);
+<!-- v:CLAIM-LIB-RAG-001.canon_verified -->**171**
 are verified into the hash-locked catalog and
 <!-- v:CLAIM-LIB-RAG-001.canon_dropped -->**9** are documented drops with
 reasons — coverage is checked fail-closed, so a gap can be honest but never
@@ -290,9 +293,9 @@ silent (verification binds registrar metadata or a snapshot, not the truth of
 a work's content; see the register caveat).
 
 <!-- claim:CLAIM-LIB-RAG-002 catalog_works chunks_total -->
-All <!-- v:CLAIM-LIB-RAG-002.catalog_works -->**152** catalog works are
+All <!-- v:CLAIM-LIB-RAG-002.catalog_works -->**180** catalog works are
 deterministically chunked into
-<!-- v:CLAIM-LIB-RAG-002.chunks_total -->**7626** content-addressed chunks
+<!-- v:CLAIM-LIB-RAG-002.chunks_total -->**9805** content-addressed chunks
 and pushed to a separate Vectorize index — full text where an open arXiv
 rendering exists, registrar abstracts or page snapshots otherwise (the
 committed push manifest is what "pushed" means; the live index can lag until

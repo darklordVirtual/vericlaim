@@ -1,0 +1,18 @@
+Andrychowicz et al. 2020
+
+Marcin Andrychowicz, Anton Raichuk, Piotr Stańczyk, Manu Orsini, Sertan
+Girgin, Raphael Marinier, Léonard Hussenot, Matthieu Geist, Olivier
+Pietquin, Marcin Michalski, et al. What matters in on-policy reinforcement learning? a large-scale
+empirical study. arXiv preprint arXiv:2006.05990, 2020. Sutton 1991
+
+Richard S Sutton. Dyna, an integrated architecture for learning, planning, and
+reacting. ACM SIGART Bulletin, 2(4):160–163, 1991. Finn and Levine 2017
+
+Chelsea Finn and Sergey Levine. Deep visual foresight for planning robot motion. In 2017 IEEE International Conference on Robotics and
+Automation (ICRA), pages 2786–2793. IEEE, 2017. Ha and Schmidhuber 2018
+
+David Ha and Jürgen Schmidhuber. World models. arXiv preprint arXiv:1803.10122, 2018. Kaiser et al. 2019
+
+Lukasz Kaiser, Mohammad Babaeizadeh, Piotr Milos, Blazej Osinski, Roy H
+Campbell, Konrad Czechowski, Dumitru Erhan, Chelsea Finn, Piotr Kozakowski,
+Sergey Levine, et al. Model-based reinforcement learning for atari. arXiv preprint arXiv:1903.00374, 2019. Guss et al.

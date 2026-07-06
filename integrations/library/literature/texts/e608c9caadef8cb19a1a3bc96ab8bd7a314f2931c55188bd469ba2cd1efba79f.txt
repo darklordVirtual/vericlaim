@@ -1,0 +1,18 @@
+The newly sighted fail to match seen with felt. Nature neuroscience, 14(5):551–553, 2011. Hestness et al. (2017)
+
+Hestness, J., Narang, S., Ardalani, N., Diamos, G., Jun, H., Kianinejad, H.,
+Patwary, M. M. A., Yang, Y., and Zhou, Y. Deep learning scaling is predictable, empirically. arXiv preprint arXiv:1712.00409, 2017. Hooker (2021)
+
+Hooker, S. The hardware lottery. Communications of the ACM, 64(12):58–65,
+2021. Huh et al. (2023)
+
+Huh, M., Mobahi, H., Zhang, R., Cheung, B., Agrawal, P., and Isola, P. The low-rank simplicity bias in deep networks. Transactions on Machine Learning Research, 2023. ISSN 2835-8856. URL https://openreview.net/forum?id=bCiNWDmlY2. Isola (2015)
+
+Isola, P. The discovery of perceptual structure from visual co-occurrences in
+space and time. In MIT Ph.D. Thesis, 2015. Isola et al. (2014)
+
+Isola, P., Zoran, D., Krishnan, D., and Adelson, E. H. Crisp boundary detection using pointwise mutual information. In ECCV, 2014. Isola et al. (2016)
+
+Isola, P., Zoran, D., Krishnan, D., and Adelson, E. H. Learning visual groups from co-occurrences in space and time. In ICLR, Workshop paper, 2016. Jiang et al. (2023)
+
+Jiang, A.

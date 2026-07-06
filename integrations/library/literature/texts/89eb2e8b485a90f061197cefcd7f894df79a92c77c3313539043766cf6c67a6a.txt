@@ -1,0 +1,33 @@
+Langley et al. (2005)
+
+Pat Langley, Dongkyu
+Choi, and Seth Rogers. 2005. Interleaving Learning, Problem Solving, and
+Execution in the Icarus Architecture. Technical Report. Stanford
+University, Center for the Study of Language and Information. Linder et al. (2013)
+
+Jason Linder, Gierad
+Laput, Mira Dontcheva, Gregg Wilensky,
+Walter Chang, Aseem Agarwala, and
+Eytan Adar. 2013. PixelTone: A Multimodal Interface for Image
+Editing. In CHI ’13 Extended Abstracts on Human
+Factors in Computing Systems (Paris, France) (CHI EA
+’13). Association for Computing Machinery,
+New York, NY, USA, 2829–2830. https://doi.org/10.1145/2468356.2479533
+
+Liu et al. (2021)
+
+Jiachang Liu, Dinghan
+Shen, Yizhe Zhang, Bill Dolan,
+Lawrence Carin, and Weizhu Chen. 2021. What Makes Good In-Context Examples for GPT-3? CoRR abs/2101.06804 (2021). arXiv:2101.06804
+
+https://arxiv.org/abs/2101.06804
+
+Liu et al. (2022)
+
+Vivian Liu, Han Qiao,
+and Lydia Chilton. 2022. Opal: Multimodal Image Generation for News
+Illustration. In Proceedings of the 35th Annual
+ACM Symposium on User Interface Software and Technology. 1–17. Maes (1995)
+
+Pattie Maes. 1995. Artificial Life Meets Entertainment: Lifelike
+Autonomous Agents. Commun.

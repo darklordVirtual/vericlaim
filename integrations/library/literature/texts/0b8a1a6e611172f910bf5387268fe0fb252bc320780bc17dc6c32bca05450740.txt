@@ -1,0 +1,11 @@
+2006. Graph Mining: Laws, Generators, and Algorithms. ACM Comput. Surv., 38(1). Chami et al. [2020]
+
+Chami, I.; Abu-El-Haija, S.; Perozzi, B.; Ré, C.; and Murphy, K. 2020. Machine Learning on Graphs: A Model and Comprehensive Taxonomy. arXiv:2005.03675. Chen et al. [2023]
+
+Chen, X.; Lin, M.; Schärli, N.; and Zhou, D. 2023. Teaching Large Language Models to Self-Debug. arXiv:2304.05128. Cheng et al. [2008]
+
+Cheng, J.; Yu, J. X.; Ding, B.; Philip, S. Y.; and Wang, H. 2008. Fast Graph Pattern Matching. In Proceedings of the IEEE 24th International Conference on
+Data Engineering, ICDE ’08, 913–922. Chowdhery et al. [2022]
+
+Chowdhery, A.; Narang, S.; Devlin, J.; Bosma, M.; Mishra, G.; Roberts, A.;
+Barham, P.; Chung, H.

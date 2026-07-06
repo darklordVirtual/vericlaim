@@ -1,0 +1,17 @@
+ACM Computing Surveys (CSUR), 54(11s):1–37, 2022. Hwang & Chang (2023)
+
+Gwo-Jen Hwang and Ching-Yi Chang. A review of opportunities and challenges of chatbots in education. Interactive Learning Environments, 31(7):4099–4112, 2023. Jain & Wallace (2019)
+
+Sarthak Jain and Byron C. Wallace. Attention is not Explanation. In Proceedings of the 2019 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pp. 3543–3556,
+Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1357. Jastrzebski et al. (2018)
+
+Stanisław Jastrzebski, Devansh Arpit, Nicolas Ballas, Vikas Verma, Tong Che,
+and Yoshua Bengio. Residual connections encourage iterative inference. In International Conference on Learning Representations, 2018. Kapoor & Narayanan (2023)
+
+Sayash Kapoor and Arvind Narayanan. Quantifying chatgpt’s gender bias, Apr 2023. URL
+https://www.aisnakeoil.com/p/quantifying-chatgpts-gender-bias?utm_campaign=post&amp;utm_medium=web. Karras et al. (2021)
+
+Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne
+Hellsten, Jaakko Lehtinen, and Timo Aila.

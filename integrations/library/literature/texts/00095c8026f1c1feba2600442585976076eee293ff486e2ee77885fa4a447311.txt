@@ -1,0 +1,5 @@
+Otherwise, these techniques risk resulting in incomprehensible, unintelligible chatter among agents Lewis et al. (2017). Our work also shows how complex, fully autonomous workflows with AutoGen can be useful, but fully autonomous agent conversations will need to be used with care. While the autonomous mode AutoGen supports could be desirable in many scenarios, a high level of autonomy can also pose potential risks, especially in high-risk applications Amodei et al. (2016); Weld & Etzioni (1994). As a result, building
+fail-safes against cascading failures and exploitation,
+mitigating reward hacking,
+out of control and undesired behaviors,
+maintaining effective human oversight of applications built with AutoGen agents will become important. While AutoGen provides convenient and seamless involvement of humans through a user proxy agent, developers and stakeholders still need to understand and determine the appropriate level and pattern of human involvement to ensure the safe and ethical use of the technology Horvitz (1999); Amershi et al. (2019).

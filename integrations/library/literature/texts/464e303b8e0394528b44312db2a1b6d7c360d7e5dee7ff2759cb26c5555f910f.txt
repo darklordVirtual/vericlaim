@@ -1,0 +1,20 @@
+2008. Le & Mikolov (2014)
+
+Le, Q. and Mikolov, T. Distributed representations of sentences and documents. In International conference on machine learning, pp. 1188–1196, 2014. (104)
+
+LeCun, Y. The mnist database of handwritten digits. http://yann. lecun. com/exdb/mnist/. (105)
+
+Lee, D.-H. Pseudo-label: The simple and efficient semi-supervised learning
+method for deep neural networks. Lei Ba et al. (2015)
+
+Lei Ba, J., Swersky, K., Fidler, S., et al. Predicting deep zero-shot convolutional neural networks using textual
+descriptions. In Proceedings of the IEEE International Conference on Computer
+Vision, pp. 4247–4255, 2015. Li et al. (2017)
+
+Li, A., Jabri, A., Joulin, A., and van der Maaten, L. Learning visual n-grams from web data. In Proceedings of the IEEE International Conference on Computer
+Vision, pp. 4183–4192, 2017. Li et al. (2020a)
+
+Li, G., Duan, N., Fang, Y., Gong, M., and Jiang, D. Unicoder-vl: A universal encoder for vision and language by
+cross-modal pre-training. 2020a. Li et al. (2016)
+
+Li, J., Miller, A. H., Chopra, S., Ranzato, M., and Weston, J. Learning through dialogue interactions by asking questions. arXiv preprint arXiv:1612.04936, 2016. Li et al.

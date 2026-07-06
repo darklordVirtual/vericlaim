@@ -1,0 +1,17 @@
+(2018)
+
+McCann, B., Keskar, N. S., Xiong, C., and Socher, R. The natural language decathlon: Multitask learning as question
+answering. arXiv preprint arXiv:1806.08730, 2018. Micikevicius et al. (2017)
+
+Micikevicius, P., Narang, S., Alben, J., Diamos, G., Elsen, E., Garcia, D.,
+Ginsburg, B., Houston, M., Kuchaiev, O., Venkatesh, G., et al. Mixed precision training. arXiv preprint arXiv:1710.03740, 2017. Miech et al. (2019)
+
+Miech, A., Zhukov, D., Alayrac, J.-B., Tapaswi, M., Laptev, I., and Sivic, J. Howto100m: Learning a text-video embedding by watching hundred
+million narrated video clips. In Proceedings of the IEEE international conference on computer
+vision, pp. 2630–2640, 2019. Miech et al. (2020a)
+
+Miech, A., Alayrac, J.-B., Laptev, I., Sivic, J., and Zisserman, A. Rareact: A video dataset of unusual interactions. arXiv preprint arXiv:2008.01018, 2020a. Miech et al. (2020b)
+
+Miech, A., Alayrac, J.-B., Smaira, L., Laptev, I., Sivic, J., and Zisserman, A. End-to-end learning of visual representations from uncurated
+instructional videos. In Proceedings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition, pp. 9879–9889, 2020b. Mikolov et al.

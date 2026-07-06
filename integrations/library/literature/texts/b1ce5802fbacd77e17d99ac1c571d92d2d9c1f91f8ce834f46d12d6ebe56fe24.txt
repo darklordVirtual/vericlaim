@@ -1,0 +1,17 @@
+[2020]
+
+Shin, T.; Razeghi, Y.; Logan IV, R. L.; Wallace, E.; and Singh, S. 2020. AutoPrompt: Eliciting Knowledge from Language Models with
+Automatically Generated Prompts. arXiv:2010.15980. Shinn, Labash, and Gopinath [2023]
+
+Shinn, N.; Labash, B.; and Gopinath, A. 2023. Reflexion: Language Agents with Verbal Reinforcement Learning. arXiv:2303.11366. Shum, Diao, and Zhang [2023]
+
+Shum, K.; Diao, S.; and Zhang, T. 2023. Automatic Prompt Augmentation and Selection with Chain-of-Thought
+from Labeled Data. arXiv:2302.12822. Teixeira et al. [2015]
+
+Teixeira, C. H. C.; Fonseca, A. J.; Serafini, M.; Siganos, G.; Zaki, M. J.; and
+Aboulnaga, A. 2015. Arabesque: A System for Distributed Graph Mining. In Proceedings of the 25th Symposium on Operating Systems
+Principles, SOSP ’15, 425–440. ACM. Touvron et al. [2023a]
+
+Touvron, H.; Lavril, T.; Izacard, G.; Martinet, X.; Lachaux, M.-A.; Lacroix,
+T.; Rozière, B.; Goyal, N.; Hambro, E.; Azhar, F.; Rodriguez, A.; Joulin,
+A.; Grave, E.; and Lample, G. 2023a. LLaMA: Open and Efficient Foundation Language Models. arXiv:2302.13971. Touvron et al.

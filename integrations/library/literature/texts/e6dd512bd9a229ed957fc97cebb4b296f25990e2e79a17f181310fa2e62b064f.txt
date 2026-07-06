@@ -1,0 +1,7 @@
+(2023) demonstrated the effectiveness of using pre-trained LLMs for facial motion prediction. We set out to address these claims in a broader scope to determine whether models are indeed learning an increasingly modality-agnostic representation of the world. We sampled a variety of models trained either solely on vision or solely on language, and compared their representations as they became larger and more competent over many tasks. In Figure 3, we assess alignment between a suite of language models and vision models. So far we have only defined alignment for two kernels defined over the same input space. To measure cross-modal alignment, we use paired datasets to bridge the two modalities. For vision and text, we use the Wikipedia captions dataset (Srinivasan et al., 2021), composed of images from Wikipedia () and their corresponding captions (). We then measure alignment between a language model and a vision model as the alignment of the two following kernels:
+
+(1)
+
+(2)
+
+Using this analysis, we find that the better an LLM is at language modeling, the more it tends to aligns with vision models, as shown in Figure 3.

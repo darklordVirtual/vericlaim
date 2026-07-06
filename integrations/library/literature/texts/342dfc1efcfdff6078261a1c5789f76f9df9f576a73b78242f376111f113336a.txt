@@ -1,0 +1,6 @@
+4:
+(Selective Copying.)
+
+Accuracy for combinations of architectures and inner sequence layers. Figure 5:
+(Induction Heads.)
+Models are trained on sequence length , and tested on increasing sequence lengths of up to . Full numbers in LABEL:tab:induction.

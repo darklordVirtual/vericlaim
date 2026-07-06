@@ -1,0 +1,7 @@
+When Radha is shifted to left by 2 places and Neha is shifted to right by 2 places there 6 children between Radha and Neha. How many children are there in the row? Answer Choices: (A) 23 (B) 27 (C) 26 (D) 28 (E) 29
+
+A: Let’s think step by step. There are 12 children to the left of Neha, so there must be at least 12 children in the row. There are 6 children to the right of Radha, so there must be at least 18 children in the row. There are 6 children between Radha and Neha, so there must be at least 24 children in the row. The answer must be between 24 and 27, and the only answer that satisfies this is 26. Therefore, the answer is 26. Therefore, among A through E, the answer is C. ✗ (GT : D)
+
+SVAMP
+
+Q: There are 7 baskets of peaches. Each basket has 10 red peaches and 2 green peaches. How many green peaches are in the baskets altogether? A: Let’s think step by step. There are 7 baskets. Each basket has 10 red peaches and 2 green peaches. So, there are 2 green peaches in each basket. Now, we need to multiply because there are 7 baskets. 2 multiplied by 7 is 14. So, there are 14 green peaches in the baskets altogether. Therefore, the answer (arabic numerals) is 14.

@@ -1,0 +1,19 @@
+Guillaume Alain (2017)
+
+Yoshua Bengio Guillaume Alain. Understanding intermediate layers using linear classifier probes. ICLR 2017, 2017. Han et al. (2023)
+
+Tianyu Han, Lisa C. Adams, Jens-Michalis Papaioannou, Paul Grundmann, Tom
+Oberhauser, Alexander Löser, Daniel Truhn, and Keno K. Bressem. Medalpaca – an open-source collection of medical conversational ai
+models and training data, 2023. Hartford (2023)
+
+Eric Hartford. ehartford’s hugging face repository. Hugging Face, 2023. URL https://huggingface.co/ehartford. Accessed: 2023-09-28. He et al. (2020)
+
+Pengcheng He, Xiaodong Liu, Jianfeng Gao, and Weizhu Chen. Deberta: Decoding-enhanced BERT with disentangled attention. CoRR, abs/2006.03654, 2020. Hendrycks (2023)
+
+Dan Hendrycks. Natural selection favors ais over humans. ArXiv, 2023. Hendrycks & Mazeika (2022)
+
+Dan Hendrycks and Mantas Mazeika. X-risk analysis for ai research. ArXiv, 2022. Hendrycks et al. (2021a)
+
+Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song,
+and Jacob Steinhardt. Aligning AI with shared human values. In International Conference on Learning Representations,
+2021a. Hendrycks et al.

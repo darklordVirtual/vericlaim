@@ -1,0 +1,8 @@
+The most involved part of using SSMs efficiently is computing . This algorithm was sketched in Section 3.2 and is the main motivation for the S4 parameterization. In this section, we define the necessary intermediate quantities and prove the main technical result. The algorithm for Theorem 3 falls in roughly three stages, leading to Algorithm 1. Assuming has been conjugated into diagonal plus low-rank form, we successively simplify the problem of computing
+by applying the techniques outlined in Section 3.2. Remark C.1. We note that for the remainder of this section, we transpose to be a column vector of shape or instead of matrix or row vector as in (1). In other words the SSM is
+
+(8)
+
+This convention is made so that has the same shape as and simplifies the implementation of S4. Reduction 0: Diagonalization
+
+By Lemma 3.1, we can switch the representation by conjugating with any unitary matrix. For the remainder of this section, we can assume that is (complex) diagonal plus low-rank (DPLR). Note that unlike diagonal matrices, a DPLR matrix does not lend itself to efficient computation of . The reason is that computes terms which involve powers of the matrix .

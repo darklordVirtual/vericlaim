@@ -1,0 +1,3 @@
+We found that using greedy decoding to evaluate long-output reasoning models results in higher repetition rates and significant variability across different checkpoints. Therefore, we default to pass@ evaluation (Chen et al., 2021) and report pass@1 using a non-zero temperature. Specifically, we use a sampling temperature of and a top- value of to generate responses (typically between and , depending on the test set size) for each question. Pass@1 is then calculated as
+
+where denotes the correctness of the -th response. This method provides more reliable performance estimates. For AIME 2024, we also report consensus (majority vote) results (Wang et al., 2022) using samples, denoted as .

@@ -1,0 +1,29 @@
+Emotion
+
+Accuracy (%)
+
+Happiness
+
+74.2
+
+Sadness
+
+61.7
+
+Anger
+
+72.7
+
+Fear
+
+73.4
+
+Surprise
+
+68.8
+
+Disgust
+
+60.9
+
+Table 12: LAT accuracy for the best out of layers using a CLIP model to classify emotions. We investigate whether visual concepts, in particular emotion, can be extracted from CLIP (Radford et al., 2021) using LAT. We use data from Ferg-DB (Aneja et al., 2016), which consists of stylized characters, each of which exhibits a different emotion. In particular, we use LAT to uncover the direction between an emotion (one of happiness, sadness, anger, fear, surprise, and disgust) and the neutral emotion. We then perform a correlation evaluation and examine whether the direction uncovered by LAT is able to detect the emotions of that character. We use the ‘Mery’ character. The accuracy for each emotion is shown in Table 12. We use the model located at openai/clip-vit-base-patch32 on HuggingFace, obtain LAT with 512 images and test on 128 images. Figure 24: t-SNE visualization of the internal hidden states of LLMs during moments of mixed emotions.

@@ -1,0 +1,19 @@
+Improving factuality and reasoning in language models through
+multiagent debate. arXiv preprint arXiv:2305.14325, 2023. Eleti et al. (2023)
+
+Atty Eleti, Jeff Harris, and Logan Kilpatrick. Function calling and other api updates. https://openai.com/blog/function-calling-and-other-api-updates,
+2023. Guidance (2023)
+
+Guidance. Guidance. https://github.com/guidance-ai/guidance, 2023. Hendrycks et al. (2021)
+
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+Tang, Dawn Song, and Jacob Steinhardt. Measuring mathematical problem solving with the math dataset. arXiv preprint arXiv:2103.03874, 2021. Hong et al. (2023)
+
+Sirui Hong, Xiawu Zheng, Jonathan Chen, Yuheng Cheng, Ceyao Zhang, Zili Wang,
+Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, et al. Metagpt: Meta programming for multi-agent collaborative framework. arXiv preprint arXiv:2308.00352, 2023. Horvitz (1999)
+
+Eric Horvitz. Principles of mixed-initiative user interfaces. In Proceedings of the SIGCHI conference on Human Factors in
+Computing Systems, 1999. HuggingFace (2023)
+
+HuggingFace. Transformers agent. https://huggingface.co/docs/transformers/transformers_agents,
+2023. Kim et al.

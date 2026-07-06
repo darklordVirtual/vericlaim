@@ -1,0 +1,7 @@
+If you don’t have a piano, you can’t use your own. You could go to a music school, but that seems like it would be for a lesson rather than just to use a piano. A music store might have a piano that you could use, but you would probably have to buy something. You could go to a neighbor’s house, but that seems like a lot to ask. You could go to a lunch, but that doesn’t make sense. You could go to a drawing room, but that also doesn’t make sense. The answer must be (B) music store. Therefore, among A through E, the answer is B. ✗ (GT : (C), Zero-shot: (C))
+
+CommonSense Mistake
+
+Q: David watched some nesting birds using his binoculars while on vacation. Where might David be?. Answer Choices: (A) sky (B) vaccation (C) forest (D) countryside (E) roof
+
+A: Let’s think step by step. First, we need to understand what the word "binoculars" means. Binoculars are two telescopes that are joined together and allow a person to see things that are far away. Now, we need to think about where a person might use binoculars. A person might use binoculars to see things that are far away and in the sky, or to see things that are far away and on the ground.

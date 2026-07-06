@@ -1,0 +1,37 @@
+1–17. Maes (1995)
+
+Pattie Maes. 1995. Artificial Life Meets Entertainment: Lifelike
+Autonomous Agents. Commun. ACM 38,
+11 (nov 1995),
+108–114. https://doi.org/10.1145/219717.219808
+
+McCoy et al. (2009)
+
+Josh McCoy, Michael
+Mateas, and Noah Wardrip-Fruin. 2009. Comme il Faut: A System for Simulating Social Games
+Between Autonomous Characters. In Proceedings of
+the 7th International Conference on Digital Arts and Culture. 87–94. McCoy et al. (2011a)
+
+Josh McCoy, Mike Treanor,
+Ben Samuel, Michael Mateas, and
+Noah Wardrip-Fruin. 2011a. Prom Week: Social Physics as Gameplay. In
+Proceedings of the 6th International Conference on
+Foundations of Digital Games (FDG’11). ACM, Bordeaux,
+France, 70–77. https://doi.org/10.1145/2159365.2159377
+
+McCoy et al. (2012)
+
+Josh McCoy, Mike Treanor,
+Ben Samuel, Anna Reed,
+Michael Mateas, and Noah
+Wardrip-Fruin. 2012. Prom Week. In
+Proceedings of the 7th International Conference on
+Foundations of Digital Games (FDG’12). ACM, Raleigh, NC,
+USA, 1–8. https://doi.org/10.1145/2282338.2282340
+
+McCoy et al. (2011b)
+
+Josh McCoy, Mike Treanor,
+Ben Samuel, Noah Wardrip-Fruin, and
+Michael Mateas. 2011b. Comme il faut: A System for Authoring Playable
+Social Models.

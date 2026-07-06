@@ -1,0 +1,5 @@
+chosen a balance of performance we saw on and simplicity (for example we chose not to anneal the learning rate for the experiments in the paper even though it performed better in some situations). For most experiments we used AdamW optimizer with learning rate , weight decay , , , linear learning rate warmup over the first 10 updates, minibatch size 512 or half of training dataset size (whichever was smaller) and optimization budget of gradient updates. In section 3.3 we have also tried the following variants (listed in the reading order for Figure 2 left):
+
+•
+
+Adam optimizer with full batch (i.e.

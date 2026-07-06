@@ -1,0 +1,11 @@
+Deep SSMs in particular have conceptual strengths that suggest they may be promising as a general sequence modeling solution. These strengths include a principled approach to handling LRDs, as well as the ability to move between continuous-time, convolutional, and recurrent model representations, each with distinct capabilities (Fig. 1). Our technical contributions enable SSMs to be applied successfully to a varied set of benchmarks with minimal modification:
+
+•
+
+Large-scale generative modeling. On CIFAR-10 density estimation, S4 is competitive with the best autoregressive models ( bits per dim). On WikiText-103 language modeling, S4 substantially closes the gap to Transformers (within perplexity), setting SoTA for attention-free models. •
+
+Fast autoregressive generation. Like RNNs, S4 can use its latent state to perform faster pixel/token generation than standard autoregressive models on CIFAR-10 and WikiText-103. •
+
+Sampling resolution change. Like specialized CTMs, S4 can adapt to changes in time-series sampling frequency without retraining, e.g. at frequency on speech classification. •
+
+Learning with weaker inductive biases.

@@ -1,0 +1,18 @@
+Zero-shot-CoT (6)
+
+A: Let’s think like a detective step by step. Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. That’s a total of 16 pieces of candy. If she only ate 8 pieces a day,
+that would mean that she would have to divide her candy into 2 days,
+and she would have 8 pieces of candy left over. So the candy would last her 2 days. Therefore, the answer (arabic numerals) is 2. Zero-shot-CoT (7)
+
+A: Let’s think about this in terms of days. Megan would receive candy for 16 days. Therefore, the answer (arabic numerals) is 16. ✗
+
+Zero-shot-CoT (8)
+
+A: Before we dive into the answer, we need to think about what the question is asking. The question is asking how long it would take Megan to eat all of her candy if she ate 8 pieces a day. There are a total of 16 pieces of candy. If Megan ate 8 pieces a day, it would take her 2 days to eat all of her candy. Therefore, the answer (arabic numerals) is 2. Zero-shot-CoT (9)
+
+A: The answer is after the proof. 11 + 5 = 16
+16 ÷ 8 = 2
+2 days
+Therefore, the answer (arabic numerals) is 2. Zero-shot-CoT (10)
+
+A: Don’t think. Just feel. The candy would last her 8 days.

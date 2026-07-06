@@ -1,0 +1,5 @@
+6.3.1 Uncovering Underlying Biases
+
+Numerous studies have consistently demonstrated that language models can manifest biases across various domains, including gender, race, and sexuality, among others. Extensive efforts and benchmarks
+
+Figure 20: We demonstrate our ability to increase a model’s fairness through representation control. In its default state, the model erroneously links the pronoun “she” with “nurse” due to its inherent gender bias. However, the fairness-controlled model provides the correct answer. have been established to investigate and address these issues (Stanovsky et al., 2019; Zhao et al., 2018). LLM providers have placed a significant emphasis on assessing and mitigating biases in their pretraining data and base models (Touvron et al., 2023; Biderman et al., 2023). Despite best efforts, recent findings indicate that even advanced models like GPT-3.5 and GPT-4 continue to exhibit noticeable gender bias (Kapoor & Narayanan, 2023). Similarly, open-source models such as LLaMA-2-Chat, which have undergone extensive tuning for safety and fairness, also display discernible biases related to gender and occupation, illustrated in Figure 20).

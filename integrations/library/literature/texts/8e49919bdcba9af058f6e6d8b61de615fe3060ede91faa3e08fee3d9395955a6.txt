@@ -1,0 +1,5 @@
+[40] as well as follow-up work. S4 substantially advances the SoTA, outperforming all baselines on all tasks and averaging compared to less than for every baseline. Notably, S4 solves the Path-X task, an extremely challenging task
+that involves reasoning about LRDs over sequences of length . All previous models have failed (i.e. random guessing) due to memory or computation bottlenecks, or simply being unable to learn such long dependencies. We analyze S4’s performance on Path-X by visualizing its learned representations,
+in particular 1-D convolution kernels
+which are the focus of our technical results in Section 3. Fig. 4 shows that S4 learns a variety of filters that display spatially consistent structure
+and demonstrate awareness of the 2-D nature of the data. In particular, the lower layers learn simple kernels that extract features from just a few rows of local context while ignoring the rest of the image. On the other hand, higher layers aggregate information globally across full columns of the image at varying spatial frequencies. Filters in these higher layers span the entire context ( pixels), confirming S4’s ability to learn LRDs.

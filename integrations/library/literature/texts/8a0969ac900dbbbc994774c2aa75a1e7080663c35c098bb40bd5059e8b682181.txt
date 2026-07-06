@@ -1,0 +1,21 @@
+Huang et al. (2022)
+
+Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy
+Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, et al. 2022. Inner monologue: Embodied reasoning through planning with language
+models. arXiv preprint arXiv:2207.05608. Huys et al. (2012)
+
+Quentin JM Huys, Neir Eshel, Elizabeth O’Nions, Luke Sheridan, Peter Dayan, and
+Jonathan P Roiser. 2012. Bonsai trees in your head: how the pavlovian system sculpts
+goal-directed choices by pruning decision trees. PLoS computational biology, 8(3):e1002410. Jiang et al. (2019)
+
+Yu-qian Jiang, Shi-qi Zhang, Piyush Khandelwal, and Peter Stone. 2019. Task planning in robotics: an empirical comparison of pddl-and
+asp-based systems. Frontiers of Information Technology & Electronic Engineering,
+20:363–373. Johnson-Laird (2010)
+
+Philip N Johnson-Laird. 2010. Mental models and human reasoning. Proceedings of the National Academy of Sciences,
+107(43):18243–18250. Johnson-Laird (1983)
+
+Philip Nicholas Johnson-Laird. 1983. Mental models: Towards a cognitive science of language,
+inference, and consciousness. 6. Harvard University Press. Jojic et al. (2023)
+
+Ana Jojic, Zhen Wang, and Nebojsa Jojic.

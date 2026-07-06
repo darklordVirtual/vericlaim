@@ -1,0 +1,1 @@
+Overall, we find that scaling all dimensions proportionally results in robust improvements. Figure 9: Comparison of class-token and global average pooling classifiers. Both work similarly well, but require different learning-rates.

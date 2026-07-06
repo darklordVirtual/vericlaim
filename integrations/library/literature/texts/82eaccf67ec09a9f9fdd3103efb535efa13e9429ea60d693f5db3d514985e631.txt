@@ -1,0 +1,7 @@
+Managing AI Risks in an Era of Rapid Progress. CoRR, abs/2310.17688, 2023. doi: 10.48550/arXiv.2310.17688. URL https://arxiv.org/abs/2310.17688. Boden (2014)
+
+Boden, M. A. GOFAI, pp. 89–107. Cambridge University Press, 2014. Brohan et al. (2023)
+
+Brohan, A., Brown, N., Carbajal, J., Chebotar, Y., Chen, X., Choromanski, K., Ding, T., Driess, D., Dubey, A., Finn, C., Florence, P., Fu, C., Arenas, M. G., Gopalakrishnan, K., Han, K., Hausman, K., Herzog, A., Hsu, J., Ichter, B., Irpan, A., Joshi, N., Julian, R., Kalashnikov, D., Kuang, Y., Leal, I., Lee, L., Lee, T.-W. E., Levine, S., Lu, Y., Michalewski, H., Mordatch, I., Pertsch, K., Rao, K., Reymann, K., Ryoo, M., Salazar, G., Sanketi, P., Sermanet, P., Singh, J., Singh, A., Soricut, R., Tran, H., Vanhoucke, V., Vuong, Q., Wahid, A., Welker, S., Wohlhart, P., Wu, J., Xia, F., Xiao, T., Xu, P., Xu, S., Yu, T., and Zitkovich, B. RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control. CoRR, abs/2307.15818, 2023. doi: 10.48550/arXiv.2307.15818. URL https://arxiv.org/abs/2307.15818. Brynjolfsson (2022)
+
+Brynjolfsson, E. The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence.

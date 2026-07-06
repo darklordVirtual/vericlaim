@@ -1,0 +1,5 @@
+A cross-entropy loss was found to be more stable than a squared error when encountering rewards and values of variable scale in Atari. Cross-entropy was used for the policy loss in both cases.. The reward targets are simply the observed rewards; the third objective is therefore to minimize the error between the predicted reward and the observed reward . Finally, an L2 regularization term is also added, leading to the overall loss:
+
+(1)
+
+where , , and are loss functions for reward, value and policy respectively. Supplementary Figure S2 summarizes the equations governing how the MuZero algorithm plans, acts, and learns.

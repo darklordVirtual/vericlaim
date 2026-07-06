@@ -1,0 +1,27 @@
+The previous discussion implies that we should only conjugate by well-conditioned matrices . The ideal scenario is when the matrix is diagonalizable by a perfectly conditioned (i.e., unitary) matrix. By the Spectral Theorem of linear algebra, this is exactly the class of normal matrices. However, this class of matrices is restrictive; in particular, it does not contain the HiPPO matrix (2). Algorithm 1 S4 Convolution Kernel (Sketch)
+
+1:S4 parameters and step size
+
+2:SSM convolution kernel for (equation (5))
+
+3:
+Truncate SSM generating function (SSMGF) to length
+
+4:
+
+Black-box Cauchy kernel
+
+5:
+Woodbury Identity
+
+6:
+Evaluate SSMGF at all roots of unity
+
+7:
+Inverse Fourier Transform
+
+We make the observation that although the HiPPO matrix is not normal, it can be decomposed as the sum of a normal and low-rank matrix. However, this is still not useful by itself:
+unlike a diagonal matrix, powering up this sum (in (5)) is still slow and not easily optimized. We overcome this bottleneck by simultaneously applying three new techniques. •
+
+Instead of computing directly,
+we compute its spectrum by evaluating its truncated generating function at the roots of unity .

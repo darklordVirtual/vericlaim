@@ -1,0 +1,3 @@
+This section proves the results of Section 3.3, providing complete details of our efficient algorithms for S4. Sections C.1, C.2 and C.3
+prove Theorems 1, 2 and 3
+respectively.

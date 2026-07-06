@@ -1,0 +1,13 @@
+Now, we need to think about where a person might use binoculars. A person might use binoculars to see things that are far away and in the sky, or to see things that are far away and on the ground. So, the answer could be either (A) sky or (D) countryside. Therefore, among A through E, the answer is (A) or (D). ✗ (GT : (C), Zero-shot: (D))
+
+CommonSense Mistake
+
+Q: When you get up in the morning before you begin work you should do what? Answer Choices: (A) apply for job (B) sleep (C) concentrate (D) shower (E) just do
+
+A: Let’s think step by step. The first thing you should do when you wake up is probably to stretch and yawn to get your body moving. Then, you should probably brush your teeth and wash your face to get ready for the day. After that, you might want to eat breakfast to give yourself some energy for the day. Once you’re all set, you can start your work for the day. Therefore, among A through E, the answer is C. ✗ (GT : (D), Zero-shot: (C))
+
+CommonSense Mistake
+
+Q: What is someone doing if he or she is sitting quietly and his or her eyes are moving? Answer Choices: (A) reading (B) meditate (C) fall asleep (D) bunk (E) think
+
+A: Let’s think step by step.

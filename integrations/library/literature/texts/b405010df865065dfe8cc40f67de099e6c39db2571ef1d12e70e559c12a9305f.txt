@@ -1,0 +1,14 @@
+The structure of human intelligence: It is verbal, perceptual, and
+image rotation (vpr), not fluid and crystallized. Intelligence, 33(4):393–416, 2005. Koncel-Kedziorski et al. [2015]
+
+Rik Koncel-Kedziorski, Hannaneh Hajishirzi, Ashish Sabharwal, Oren Etzioni, and
+Siena Dumas Ang. Parsing algebraic word problems into equations. TACL, 3:585–597, 2015. URL https://aclanthology.org/Q15-1042. Koncel-Kedziorski et al. [2016]
+
+Rik Koncel-Kedziorski, Subhro Roy, Aida Amini, Nate Kushman, and Hannaneh
+Hajishirzi. MAWPS: A math word problem repository. In Proceedings of NAACL, pages 1152–1157, 2016. URL https://aclanthology.org/N16-1136. Ling et al. [2017]
+
+Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom. Program induction by rationale generation: Learning to solve and
+explain algebraic word problems. In Proceedings of ACL, pages 158–167, 2017. URL https://aclanthology.org/P17-1015. Liu et al. [2021a]
+
+Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, and Weizhu
+Chen. What makes good in-context examples for gpt-? arXiv preprint arXiv:2101.06804, 2021a. URL https://arxiv.org/abs/2101.06804. Liu et al.

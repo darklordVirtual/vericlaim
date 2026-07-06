@@ -1,0 +1,1 @@
+This provides a step towards more principled prompt engineering. The graph abstraction has been the foundation of several successful designs in computing and AI over last decades, for example AlphaFold for protein predictions. Our work harnesses it within the realm of prompt engineering.

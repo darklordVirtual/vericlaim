@@ -1,0 +1,15 @@
+[2019]
+
+Xue Bin Peng, Aviral Kumar, Grace Zhang, and Sergey Levine. Advantage-weighted regression: Simple and scalable off-policy
+reinforcement learning. arXiv preprint arXiv:1910.00177, 2019. Raposo et al. [2021]
+
+David Raposo, Sam Ritter, Adam Santoro, Greg Wayne, Theophane Weber, Matt
+Botvinick, Hado van Hasselt, and Francis Song. Synthetic returns for long-term credit assignment. arXiv preprint arXiv:2102.12425, 2021. Gao et al. [2018]
+
+Yang Gao, Huazhe Xu, Ji Lin, Fisher Yu, Sergey Levine, and Trevor Darrell. Reinforcement learning from imperfect demonstrations. arXiv preprint arXiv:1802.05313, 2018. Nair et al. [2020]
+
+Ashvin Nair, Murtaza Dalal, Abhishek Gupta, and Sergey Levine. Accelerating online reinforcement learning with offline datasets. arXiv preprint arXiv:2006.09359, 2020. Ecoffet et al. [2019]
+
+Adrien Ecoffet, Joost Huizinga, Joel Lehman, Kenneth O Stanley, and Jeff Clune. Go-explore: a new approach for hard-exploration problems. arXiv preprint arXiv:1901.10995, 2019. Fujimoto et al. [2019]
+
+Scott Fujimoto, David Meger, and Doina Precup. Off-policy deep reinforcement learning without exploration. In International Conference on Machine Learning, 2019. Kumar et al.

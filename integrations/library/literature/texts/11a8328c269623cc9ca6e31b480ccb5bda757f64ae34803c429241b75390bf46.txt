@@ -1,0 +1,7 @@
+Therefore, the most likely location for a pond with trees around it is in a forest. Therefore, among A through E, the answer is C. Q: David watched some nesting birds using his binoculars while on vacation. Where might David be?. Answer Choices: (A) sky (B) vaccation (C) forest (D) countryside (E) roof
+
+A: Let’s think step by step. First, we need to understand what the word "binoculars" means. Binoculars are two telescopes that are joined together and allow a person to see things that are far away. Now, we need to think about where a person might use binoculars. A person might use binoculars to see things that are far away and in the sky, or to see things that are far away and on the ground. So, the answer could be either (A) sky or (D) countryside. Therefore, among A through E, the answer is (A) or (D). ✗ (GT : C)
+
+StrategyQA
+
+Q: Would JPEG be a good format for saving an image of Da Vinci’s Vitruvian Man? A: Let’s think step by step. The JPEG format is a lossy compression format, which means that some of the image data will be lost when the image is compressed. The Vitruvian Man is a very detailed image, with lots of small details.

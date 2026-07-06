@@ -1,0 +1,19 @@
+1983. Mental models: Towards a cognitive science of language,
+inference, and consciousness. 6. Harvard University Press. Jojic et al. (2023)
+
+Ana Jojic, Zhen Wang, and Nebojsa Jojic. 2023. Gpt is becoming a turing machine: Here are some ways to program it. arXiv preprint arXiv:2303.14310. Kocsis and Szepesvári (2006)
+
+Levente Kocsis and Csaba Szepesvári. 2006. Bandit based monte-carlo planning. In Machine Learning: ECML 2006: 17th European Conference on
+Machine Learning Berlin, Germany, September 18-22, 2006 Proceedings 17,
+pages 282–293. Springer. Kojima et al. (2022)
+
+Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke
+Iwasawa. 2022. Large language models are zero-shot reasoners. arXiv preprint arXiv:2205.11916. LeCun (2022)
+
+Yann LeCun. 2022. A path towards autonomous machine intelligence version 0.9. 2,
+2022-06-27. Open Review, 62. Li et al. (2022)
+
+Belinda Z Li, Maxwell Nye, and Jacob Andreas. 2022. Language modeling with latent situations. arXiv preprint arXiv:2212.10012. Liu et al. (2023)
+
+Bo Liu, Yuqian Jiang, Xiaohan Zhang, Qiang Liu, Shiqi Zhang, Joydeep Biswas,
+and Peter Stone. 2023.

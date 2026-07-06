@@ -1,0 +1,13 @@
+An example is shown on the right in Figure 1. Since we use distinct abstract symbols for all distinct elements involved in the equations, the network is not made aware of any internal structure of the elements, and has to learn about their properties only from their interactions with other elements. For example the network doesn’t see numbers in decimal notation, or permutations in line notation. Our contributions are as follows:
+
+•
+
+We show that neural networks are capable of generalizing to the empty slots in a variety of binary op tables. •
+
+We show that, long after severely overfitting, validation accuracy sometimes suddenly begins to increase from chance level toward perfect generalization. We call this phenomenon ‘grokking’. An example is shown in Figure 1. •
+
+We present the data efficiency curves for a variety of binary operations. •
+
+We show empirically that the amount of optimization required for generalization quickly increases as the dataset size decreases. •
+
+We compare various optimization details to measure their impact on data efficiency. We find that weight decay is particularly effective at improving generalization on the tasks we study.

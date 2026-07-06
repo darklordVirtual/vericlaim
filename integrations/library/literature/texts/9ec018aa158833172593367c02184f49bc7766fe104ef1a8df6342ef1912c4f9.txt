@@ -1,0 +1,18 @@
+Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288. Valmeekam et al. (2022)
+
+Karthik Valmeekam, Alberto Olmo, Sarath Sreedharan, and Subbarao Kambhampati. 2022. Large language models still can’t plan (a benchmark for llms on
+planning and reasoning about change). arXiv preprint arXiv:2206.10498. Valmeekam et al. (2023)
+
+Karthik Valmeekam, Sarath Sreedharan, Matthew Marquez, Alberto Olmo, and
+Subbarao Kambhampati. 2023. On the planning abilities of large language models (a critical
+investigation with a proposed benchmark). arXiv preprint arXiv:2302.06706. Wang et al. (2022)
+
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, and Denny Zhou. 2022. Self-consistency improves chain of thought reasoning in language
+models. arXiv preprint arXiv:2203.11171. Wei et al. (2022)
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and
+Denny Zhou. 2022. Chain of thought prompting elicits reasoning in large language
+models. arXiv preprint arXiv:2201.11903. Welleck et al. (2022)
+
+Sean Welleck, Ximing Lu, Peter West, Faeze Brahman, Tianxiao Shen, Daniel
+Khashabi, and Yejin Choi. 2022. Generating sequences by learning to self-correct.

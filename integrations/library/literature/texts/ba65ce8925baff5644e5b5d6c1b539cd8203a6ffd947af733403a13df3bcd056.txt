@@ -1,0 +1,17 @@
+Li et al. (2024)
+
+T. Li, W.-L. Chiang, E. Frick, L. Dunlap, T. Wu, B. Zhu, J. E. Gonzalez, and I. Stoica. From crowdsourced data to high-quality benchmarks: Arena-hard and benchbuilder pipeline. arXiv preprint arXiv:2406.11939, 2024. Lightman et al. (2023)
+
+H. Lightman, V. Kosaraju, Y. Burda, H. Edwards, B. Baker, T. Lee, J. Leike, J. Schulman, I. Sutskever, and K. Cobbe. Let’s verify step by step. arXiv preprint arXiv:2305.20050, 2023. Lin (2024)
+
+B. Y. Lin. ZeroEval: A Unified Framework for Evaluating Language Models, July 2024. URL https://github.com/WildEval/ZeroEval. MAA (2024)
+
+MAA. American invitational mathematics examination - aime. In American Invitational Mathematics Examination - AIME 2024, February 2024. URL https://maa.org/math-competitions/american-invitational-mathematics-examination-aime. OpenAI (2024a)
+
+OpenAI. Hello GPT-4o, 2024a. URL https://openai.com/index/hello-gpt-4o/. OpenAI (2024b)
+
+OpenAI. Learning to reason with llms, 2024b. URL https://openai.com/index/learning-to-reason-with-llms/. OpenAI (2024c)
+
+OpenAI. Introducing SimpleQA, 2024c. URL https://openai.com/index/introducing-simpleqa/. OpenAI (2024d)
+
+OpenAI.

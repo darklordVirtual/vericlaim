@@ -1,0 +1,7 @@
+Do you think he has a good chance of winning? Tom: I do think he has a good chance. He’s been working hard in the community and I think he will get a lot of support. What do you think? John: I think it’s great that he’s running. I’m curious to see how the election will turn out. Gradually, Sam’s candidacy becomes the talk of the town, with some supporting him and others remaining undecided. 3.4.2. Relationship Memory
+
+Agents in Smallville form new relationships over time and remember their interactions with other agents. For example, at the start, Sam does not know Latoya Williams. While taking a walk in Johnson Park, Sam runs into Latoya, and they introduce themselves. Latoya mentions that she is working on a photography project: “I’m here to take some photos for a project I’m working on.” In a later interaction, Sam’s interactions with Latoya indicate a memory of that interaction, as he asks “Hi, Latoya. How is your project going?” and she replies “Hi, Sam. It’s going well!”
+
+3.4.3. Coordination
+
+Generative agents coordinate with each other. Isabella Rodriguez, at Hobbs Cafe, is initialized with an intent to plan a Valentine’s Day party from 5 to 7 p.m. on February 14th.

@@ -1,0 +1,5 @@
+RWKV alleviates memory bottleneck and quadratic scaling associated with Transformers Katharopoulos et al. (2020) with efficient linear scaling, while maintaining the expressive properties of the Transformer, such as parallelized training and robust scalability. RWKV reformulates the attention mechanism with a variant of linear attention, replacing traditional dot-product token interaction with more effective channel-directed attention. This implementation, without approximation, offers the lowest computational and memory complexity; see Table 1. The motivation behind RWKV is to balance computational efficiency with expressive capacity in neural networks. It offers a solution for handling large-scale models with billions of parameters, exhibiting competitive performance at a reduced computational cost. Experiments suggest RWKV addresses scaling and deployment challenges in AI, especially for sequential data processing, pointing towards more sustainable and efficient AI models. Our contributions in this paper are as follows:
+
+•
+
+The introduction of RWKV, a novel architecture combining RNNs and Transformer advantages while mitigating their limitations.

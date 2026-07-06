@@ -1,0 +1,19 @@
+Kabsch (1978)
+
+Kabsch, W. A discussion of the solution for the best rotation to relate two sets
+of vectors. Acta Crystallographica Section A: Crystal Physics, Diffraction,
+Theoretical and General Crystallography, 34(5):827–828,
+1978. Kaplan et al. (2020)
+
+Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R.,
+Gray, S., Radford, A., Wu, J., and Amodei, D. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020. Klabunde et al. (2023)
+
+Klabunde, M., Schumacher, T., Strohmaier, M., and Lemmerich, F. Similarity of neural network models: A survey of functional and
+representational measures. arXiv preprint arXiv:2305.06329, 2023. Koh et al. (2023)
+
+Koh, J. Y., Salakhutdinov, R., and Fried, D. Grounding language models to images for multimodal inputs and
+outputs. In International Conference on Machine Learning, pp. 17283–17300. PMLR, 2023. Kornblith et al. (2019)
+
+Kornblith, S., Norouzi, M., Lee, H., and Hinton, G. Similarity of neural network representations revisited. In International conference on machine learning, pp. 3519–3529. PMLR, 2019. Krizhevsky et al. (2009)
+
+Krizhevsky, A., Hinton, G., et al.

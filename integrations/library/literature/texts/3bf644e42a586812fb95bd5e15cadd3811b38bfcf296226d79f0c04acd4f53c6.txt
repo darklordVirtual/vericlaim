@@ -1,0 +1,1 @@
+Based on a given node, the thought generator constructs a given number of new nodes. Then, the state evaluator generates scores for each such new node. Depending on the use case, the evaluation could be conducted using an LLM itself, or it can harness human scores. Finally, the schedule of extending the tree is dictated by the utilized search algorithm (for example BFS or DFS).

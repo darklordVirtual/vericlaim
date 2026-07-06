@@ -1,0 +1,18 @@
+Silver et al. 2016
+
+David Silver, Aja Huang, Chris J Maddison, Arthur Guez, Laurent Sifre, George
+Van Den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda
+Panneershelvam, Marc Lanctot, et al. Mastering the game of go with deep neural networks and tree search. nature, 529(7587):484, 2016. OpenAI 2018
+
+OpenAI. OpenAI Five. https://blog.openai.com/openai-five/, 2018. Ouyang et al. 2022
+
+Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela
+Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language models to follow instructions with human feedback. Advances in neural information processing systems,
+35:27730–27744, 2022. Le et al. 2022
+
+Hung Le, Yue Wang, Akhilesh Deepak Gotmare, Silvio Savarese, and Steven
+Chu Hong Hoi. Coderl: Mastering code generation through pretrained models and deep
+reinforcement learning. Advances in Neural Information Processing Systems,
+35:21314–21328, 2022. Schulman et al. 2017
+
+John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy optimization algorithms. arXiv preprint arXiv:1707.06347, 2017. Lillicrap et al.

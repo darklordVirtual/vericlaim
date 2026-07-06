@@ -1,0 +1,17 @@
+Chen et al. (2019)
+
+Chen, Y.-C., Li, L., Yu, L., Kholy, A. E., Ahmed, F., Gan, Z., Cheng, Y., and
+Liu, J. Uniter: Learning universal image-text representations. arXiv preprint arXiv:1909.11740, 2019. Cheng et al. (2017)
+
+Cheng, G., Han, J., and Lu, X. Remote sensing image scene classification: Benchmark and state of the
+art. Proceedings of the IEEE, 105(10):1865–1883, 2017. Choi et al. (2019)
+
+Choi, D., Shallue, C. J., Nado, Z., Lee, J., Maddison, C. J., and Dahl, G. E. On empirical comparisons of optimizers for deep learning. arXiv preprint arXiv:1910.05446, 2019. Coates et al. (2011)
+
+Coates, A., Ng, A., and Lee, H. An analysis of single-layer networks in unsupervised feature
+learning. In Proceedings of the fourteenth international conference on
+artificial intelligence and statistics, pp. 215–223, 2011. Crawford (2017)
+
+Crawford, K. The trouble with bias. NIPS 2017 Keynote, 2017. URL https://www.youtube.com/watch?v=fMym_BKWQzk. Dai & Le (2015)
+
+Dai, A. M. and Le, Q. V. Semi-supervised sequence learning. In Advances in neural information processing systems, pp. 3079–3087, 2015. D’Amour et al.

@@ -1,0 +1,17 @@
+Stanley, and Jeff
+Clune. Go-explore: a new approach for hard-exploration problems. arXiv preprint arXiv: Arxiv-1901.10995, 2019. (12)
+
+Joost Huizinga and Jeff Clune. Evolving multimodal robot behavior via many stepping stones with the
+combinatorial multiobjective evolutionary algorithm. Evolutionary computation, 30(2):131–164, 2022. (13)
+
+Rui Wang, Joel Lehman, Aditya Rawal, Jiale Zhi, Yulun Li, Jeffrey Clune, and
+Kenneth O. Stanley. Enhanced POET: open-ended reinforcement learning through unbounded
+invention of learning challenges and their solutions. In Proceedings of the 37th International Conference on Machine
+Learning, ICML 2020, 13-18 July 2020, Virtual Event, volume 119 of Proceedings of Machine Learning Research, pages 9940–9951. PMLR, 2020. (14)
+
+Ingmar Kanitscheider, Joost Huizinga, David Farhi, William Hebgen Guss, Brandon
+Houghton, Raul Sampedro, Peter Zhokhov, Bowen Baker, Adrien Ecoffet, Jie
+Tang, Oleg Klimov, and Jeff Clune. Multi-task curriculum learning in a complex, visual, hard-exploration
+domain: Minecraft. arXiv preprint arXiv: Arxiv-2106.14876, 2021. (15)
+
+Michael Dennis, Natasha Jaques, Eugene Vinitsky, Alexandre M.

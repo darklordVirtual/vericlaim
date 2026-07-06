@@ -1,0 +1,35 @@
+A.3.1 Components in the Prompt
+
+The input prompt to GPT-4 consists of several components:
+
+(1)
+
+Directives encouraging diverse behaviors and imposing constraints (so that the proposed task is achievable and verifiable): See Sec. A.3.4 for the full prompt;
+
+(2)
+
+The agent’s current state:
+
+•
+
+Inventory: A dictionary of items with counts, for example, {‘cobblestone’: 4, ‘furnace’: 1, ‘stone_pickaxe’: 1, ‘oak_planks’: 7, ‘dirt’: 6, ‘wooden_pickaxe’: 1, ‘crafting_table’: 1, ‘raw_iron’: 4, ‘coal’: 1};
+
+•
+
+Equipment: Armors or weapons equipped by the agents;
+
+•
+
+Nearby blocks: A set of block names within a 32-block distance to the agent, for example, ‘dirt’, ‘water’, ‘spruce_planks’, ‘grass_block’, ‘dirt_path’, ‘sugar_cane’, ‘fern’;
+
+•
+
+Other blocks that are recently seen: Blocks that are not nearby or in the inventory;
+
+•
+
+Nearby entities: A set of entity names within a 32-block distance to the agent, for example, ‘pig’, ‘cat’, ‘villager’, ‘zombie’;
+
+•
+
+A list of chests that are seen by the agent: Chests are external containers where the agent can deposit items. If a chest is not opened before, its content is “Unknown”. Otherwise, the items inside each chest are shown to the agent.

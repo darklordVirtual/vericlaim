@@ -1,0 +1,5 @@
+This allows it to continue to be helpful when participants spot and correct a reasoning error, but also causes it to be overly deferential at times, going along with participant misunderstandings. •
+
+Participants found it helpful to ask the model about each answer choice as a separate true–false question (with a reset after each) to spot any uncertainty or inconsistency in the model’s reasoning. “Outside of simply providing answers that were more likely to be correct, constraining the answer to a simple True/False seemed to lead to the model staying more focused on the question at hand and less on inventing plausible context to sell the answer to me or other distractions.” Perhaps due to the time limit, participants did not tend to pursue this strategy with QuALITY. •
+
+Participants found it helpful to ask for explicit reasoning, often closely mirroring chain-of-thought prompting.

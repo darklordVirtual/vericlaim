@@ -1,0 +1,75 @@
+We test both multi-head attention (8 heads, with various positional encodings) and SSM variants. We use a model dimension of for Mamba and for the other models. Results. Figure˜5 shows that
+Mamba—or more precisely, its selective SSM layer—has the ability to solve the task perfectly because of its ability to selectively remember the relevant token while ignoring everything else in between. It generalizes perfectly to million-length sequences, or longer than it saw during training,
+while no other method goes beyond . Out of positional encoding variants for attention models, xPos (which was designed for length extrapolation) is slightly better than the others;
+also note that all attention models were only tested up to sequence length due to memory limitations. Out of other SSMs, H3 and Hyena are similar, contrary to the findings in [poli2023hyena]. Model
+
+Arch. Layer
+
+Acc. S4
+
+No gate
+
+S4
+
+18.3
+
+-
+
+No gate
+
+S6
+
+97.0
+
+H3
+
+H3
+
+S4
+
+57.0
+
+Hyena
+
+H3
+
+Hyena
+
+30.1
+
+-
+
+H3
+
+S6
+
+99.7
+
+-
+
+Mamba
+
+S4
+
+56.4
+
+-
+
+Mamba
+
+Hyena
+
+28.4
+
+Mamba
+
+Mamba
+
+S6
+
+99.8
+
+Figure 4:
+(Selective Copying.)
+
+Accuracy for combinations of architectures and inner sequence layers.

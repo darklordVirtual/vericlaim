@@ -1,0 +1,19 @@
+Contrastive multiview coding. In Computer Vision–ECCV 2020: 16th European Conference,
+Glasgow, UK, August 23–28, 2020, Proceedings, Part XI 16, pp. 776–794. Springer, 2020a. Tian et al. (2020b)
+
+Tian, Y., Wang, Y., Krishnan, D., Tenenbaum, J. B., and Isola, P. Rethinking few-shot image classification: a good embedding is all you
+need? In Computer Vision–ECCV 2020: 16th European Conference,
+Glasgow, UK, August 23–28, 2020, Proceedings, Part XIV 16, pp. 266–282. Springer, 2020b. Tolstoy (1877)
+
+Tolstoy, L. Anna Karenina. The Russian Messenger, 1877. Torralba et al. (2008)
+
+Torralba, A., Fergus, R., and Freeman, W. T. 80 million tiny images: A large data set for nonparametric object and
+scene recognition. IEEE transactions on pattern analysis and machine
+intelligence, 30(11):1958–1970, 2008. Touvron et al. (2023)
+
+Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y.,
+Bashlykov, N., Batra, S., Bhargava, P., Bhosale, S., et al. LLaMA 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023. Tran et al. (2017)
+
+Tran, D., Burda, Y., and Sutskever, I. Feature-matching auto-encoders. 2017. Umeyama (1991)
+
+Umeyama, S.

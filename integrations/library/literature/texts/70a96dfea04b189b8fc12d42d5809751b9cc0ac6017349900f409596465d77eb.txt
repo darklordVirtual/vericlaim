@@ -1,0 +1,16 @@
+URL https://arxiv.org/abs/1609.07843. Min et al. [2022]
+
+Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh
+Hajishirzi, and Luke Zettlemoyer. Rethinking the role of demonstrations: What makes in-context learning
+work? arXiv preprint arXiv:2202.12837, 2022. URL https://arxiv.org/pdf/2202.12837.pdf. Nye et al. [2022]
+
+Maxwell Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob
+Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David
+Luan, Charles Sutton, and Augustus Odena. Show your work: Scratchpads for intermediate computation with
+language models. In Deep Learning for Code Workshop, 2022. URL https://openreview.net/forum?id=HBlx2idbkbq. Ouyang et al. [2022]
+
+Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela
+Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John
+Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda
+Askell, Peter Welinder, Paul Christiano, Jan Leike, and Ryan Lowe. Training language models to follow instructions with human feedback,
+2022. URL https://arxiv.org/abs/2203.02155. Paszke et al.

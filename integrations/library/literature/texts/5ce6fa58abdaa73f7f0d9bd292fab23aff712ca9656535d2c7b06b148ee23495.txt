@@ -1,0 +1,16 @@
+CoRR, abs/1804.07461, 2018. Wang et al. (2023a)
+
+Kevin Ro Wang, Alexandre Variengien, Arthur Conmy, Buck Shlegeris, and Jacob
+Steinhardt. Interpretability in the wild: a circuit for indirect object
+identification in GPT-2 small. In The Eleventh International Conference on Learning
+Representations, 2023a. Wang et al. (2023b)
+
+Zihao Wang, Lin Gui, Jeffrey Negrea, and Victor Veitch. Concept algebra for (score-based) text-controlled generative models. arXiv preprint arXiv:2302.03693, 2023b. Yosinski et al. (2015)
+
+Jason Yosinski, Jeff Clune, Anh Nguyen, Thomas Fuchs, and Hod Lipson. Understanding neural networks through deep visualization. arXiv preprint arXiv:1506.06579, 2015. Zack et al. (2023)
+
+Travis Zack, Eric Lehman, Mirac Suzgun, Jorge A. Rodriguez, Leo Anthony Celi,
+Judy Gichoya, Dan Jurafsky, Peter Szolovits, David W. Bates, Raja-Elie E. Abdulnour, Atul J. Butte, and Emily Alsentzer. Coding inequity: Assessing gpt-4’s potential for
+perpetuating racial and gender biases in healthcare. medRxiv, 2023. doi: 10.1101/2023.07.13.23292577. Zeiler & Fergus (2014)
+
+Matthew D Zeiler and Rob Fergus. Visualizing and understanding convolutional networks.

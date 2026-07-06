@@ -1,0 +1,1 @@
+11: Zero-shot performance of CLIP models over 27 datasets. Figure 22: CLIP’s zero-shot performance compared to linear-probe ResNet performance

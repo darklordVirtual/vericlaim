@@ -1,0 +1,9 @@
+This means that Victor used the same amount of brown sugar as he did white sugar. Therefore, the answer (arabic numerals) is 0. ✗ (GT : 0.375)
+
+AddSub
+
+Sandy grew 6 carrots . Sam grew 3 carrots . How many carrots did they grow in total ? A: Let’s think step by step. Sandy grew 6 carrots. Sam grew 3 carrots. That means they grew a total of 9 carrots. Therefore, the answer (arabic numerals) is 9. Q: Melanie bought a Batman game for $ 6.95 , a strategy game for $ 7.90 , and a Superman game for $ 7.73 . Melanie already owns 4 games . How much did Melanie spend on video games ? A: Let’s think step by step. Melanie bought a Batman game for $ 6.95. So she spent $ 6.95 on video games. Then she bought a strategy game for $ 7.90. So she spent $ 14.85 on video games. Then she bought a Superman game for $ 7.73. So she spent $ 22.58 on video games. Melanie already owns 4 games. So she spent $ 18.58 on video games. Therefore, Melanie spent a total of $ 18.58 on video games. Therefore, the answer (arabic numerals) is: 18.58 ✗ (GT : 22.58)
+
+MultiArith
+
+Q: Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total?

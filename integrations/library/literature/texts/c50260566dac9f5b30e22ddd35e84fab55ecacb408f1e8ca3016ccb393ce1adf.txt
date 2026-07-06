@@ -1,0 +1,5 @@
+If each box has 4 pieces inside it, how much candy did he have total? A: Let’s think step by step. Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. We know that each box has 4 pieces inside it. So, we can multiply 2 by 4 to find out how many pieces of chocolate candy Adam bought. This will give us 8. We can also multiply 5 by 4 to find out how many pieces of caramel candy Adam bought. This will give us 20. Now, we can add 8 and 20 together to find out how much candy Adam bought in total. 8 + 20 = 28 Adam bought 28 pieces of candy in Therefore, the answer (arabic numerals) is 28. Q: Billy was organizing his baseball cards in a binder with 5 on each page. If he had 3 new cards and 42 old cards to put in the binder, how many pages would he use? A: Let’s think step by step. Billy has 42 old cards. He can put 5 old cards on each page, which means he will use 9 pages for old cards. Billy has 3 new cards. He can put 5 new cards on each page, which means he will use 1 page for new cards. So in total, Billy will use 10 pages. Therefore, the answer (arabic numerals) is 10. ✗ (GT : 9)
+
+GSM8K
+
+Q: James buys a plane. The plane cost $150,000.

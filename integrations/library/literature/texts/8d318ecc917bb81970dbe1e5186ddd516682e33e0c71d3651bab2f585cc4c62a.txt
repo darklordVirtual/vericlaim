@@ -1,0 +1,43 @@
+that representation control may involve specialized approaches, and that reading methods which enable effective control can be trusted to a greater extent, due to the causal nature of the evidence. Algorithm 1 Low-Rank Representation Adaptation (LoRRA) with Contrast Vector Loss
+
+1:Original frozen model , layers to edit , layers to target , a function that gathers representation from a model at a layer for an input, an optional reading vector for each target layer, generic instruction-following data , contrastive templates , epochs , , , batch size
+
+2: Initialize the loss
+
+3:
+
+4:loop times
+
+5: for do
+
+6:
+
+7: Base Template
+
+8: Experimental Template
+
+9: Reference Template
+
+10: for do
+
+11: Contrast Vectors
+
+12: Current representations
+
+13: Target representations
+
+14: Masking out positions before the response
+
+15:
+
+16: end for
+
+17: end for
+
+18:end loop
+
+19:Loss to be optimized
+
+3.2.1 Baseline Transformations
+
+We introduce several baseline transformations for Representation Control. First, we establish effective controllers, which are the operands for these transformations. They will operate on the base representations such as model weights or activations.

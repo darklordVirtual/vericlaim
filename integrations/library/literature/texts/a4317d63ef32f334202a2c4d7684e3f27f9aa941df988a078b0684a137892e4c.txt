@@ -1,0 +1,18 @@
+Liu et al. (2019)
+
+Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M.,
+Zettlemoyer, L., and Stoyanov, V. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692, 2019. Locke (1690)
+
+Locke, J. An Essay Concerning Human Understanding. 1690. López-Cifuentes et al. (2020)
+
+López-Cifuentes, A., Escudero-Vinolo, M., Bescós, J., and
+García-Martín, Á. Semantic-aware scene recognition. Pattern Recognition, 102:107256, 2020. Lu et al. (2021)
+
+Lu, K., Grover, A., Abbeel, P., and Mordatch, I. Pretrained transformers as universal computation engines. arXiv preprint arXiv:2103.05247, 1, 2021. Lubana et al. (2023)
+
+Lubana, E. S., Bigelow, E. J., Dick, R. P., Krueger, D., and Tanaka, H. Mechanistic mode connectivity. In International Conference on Machine Learning, pp. 22965–23004. PMLR, 2023. Ma et al. (2024)
+
+Ma, J., He, Y., Li, F., Han, L., You, C., and Wang, B. Segment anything in medical images. Nature Communications, 15(1):654, 2024. Maniparambil et al. (2024)
+
+Maniparambil, M., Akshulakov, R., Djilali, Y. A. D., El Amine Seddik, M.,
+Narayan, S., Mangalam, K., and O’Connor, N. E.

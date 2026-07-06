@@ -1,0 +1,18 @@
+Isola et al. (2016)
+
+Isola, P., Zoran, D., Krishnan, D., and Adelson, E. H. Learning visual groups from co-occurrences in space and time. In ICLR, Workshop paper, 2016. Jiang et al. (2023)
+
+Jiang, A. Q., Sablayrolles, A., Mensch, A., Bamford, C., Chaplot, D. S., Casas,
+D. d. l., Bressand, F., Lengyel, G., Lample, G., Saulnier, L., et al. Mistral 7b. arXiv preprint arXiv:2310.06825, 2023. Jiang et al. (2024)
+
+Jiang, A. Q., Sablayrolles, A., Roux, A., Mensch, A., Savary, B., Bamford, C.,
+Chaplot, D. S., Casas, D. d. l., Hanna, E. B., Bressand, F., et al. Mixtral of experts. arXiv preprint arXiv:2401.04088, 2024. Jordan et al. (2022)
+
+Jordan, K., Sedghi, H., Saukh, O., Entezari, R., and Neyshabur, B. Repair: Renormalizing permuted activations for interpolation repair. arXiv preprint arXiv:2211.08403, 2022. Kabsch (1976)
+
+Kabsch, W. A solution for the best rotation to relate two sets of vectors. Acta Crystallographica Section A: Crystal Physics, Diffraction,
+Theoretical and General Crystallography, 32(5):922–923,
+1976. Kabsch (1978)
+
+Kabsch, W. A discussion of the solution for the best rotation to relate two sets
+of vectors.

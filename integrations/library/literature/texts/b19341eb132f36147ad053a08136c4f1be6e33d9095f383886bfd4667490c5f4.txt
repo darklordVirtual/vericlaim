@@ -1,0 +1,23 @@
+Lili Chen∗,1,
+Kevin Lu∗,1,
+Aravind Rajeswaran2,
+Kimin Lee1,
+
+Aditya Grover2,
+Michael Laskin1,
+Pieter Abbeel1,
+Aravind Srinivas†,1,
+Igor Mordatch†,3
+
+∗equal contribution
+†equal advising
+
+1UC Berkeley
+2Facebook AI Research
+3Google Brain
+
+{lilichen, kzl}@berkeley.edu
+
+Abstract
+
+We introduce a framework that abstracts Reinforcement Learning (RL) as a sequence modeling problem. This allows us to draw upon the simplicity and scalability of the Transformer architecture, and associated advances in language modeling such as GPT-x and BERT. In particular, we present Decision Transformer, an architecture that casts the problem of RL as conditional sequence modeling. Unlike prior approaches to RL that fit value functions or compute policy gradients, Decision Transformer simply outputs the optimal actions by leveraging a causally masked Transformer. By conditioning an autoregressive model on the desired return (reward), past states, and actions, our Decision Transformer model can generate future actions that achieve the desired return.

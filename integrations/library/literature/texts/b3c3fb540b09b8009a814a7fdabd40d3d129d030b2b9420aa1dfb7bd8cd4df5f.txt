@@ -1,0 +1,16 @@
+Training agents using upside-down reinforcement learning. arXiv preprint arXiv:1912.02877, 2019. Kumar et al. [2019c]
+
+Aviral Kumar, Xue Bin Peng, and Sergey Levine. Reward-conditioned policies. arXiv preprint arXiv:1912.13465, 2019c. ogm [2019]
+
+Acting without rewards. 2019. URL https://ogma.ai/2019/08/acting-without-rewards/. Chen et al. [2020]
+
+Mark Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, and
+Ilya Sutskever. Generative pretraining from pixels. In International Conference on Machine Learning, pages
+1691–1703. PMLR, 2020. Ghosh et al. [2019]
+
+Dibya Ghosh, Abhishek Gupta, Justin Fu, Ashwin Reddy, Coline Devin, Benjamin
+Eysenbach, and Sergey Levine. Learning to reach goals without reinforcement learning. arXiv preprint arXiv:1912.06088, 2019. Paster et al. [2020]
+
+Keiran Paster, Sheila A McIlraith, and Jimmy Ba. Planning from pixels using inverse dynamics models. arXiv preprint arXiv:2012.02419, 2020. Janner et al. [2021]
+
+Michael Janner, Qiyang Li, and Sergey Levine. Reinforcement learning as one big sequence modeling problem. arXiv preprint arXiv:2106.02039, 2021. Ferret et al.

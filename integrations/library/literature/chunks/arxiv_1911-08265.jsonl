@@ -1,0 +1,71 @@
+{"fsid": "arxiv_1911-08265", "n": 70, "overlap": 200, "source_sha256": "b363273627d932cbd0023ebb175272d9f194bbe529884a19636573bba25415c9", "target": 1200}
+{"section": "", "seq": 0, "sha256": "f8e454c0421d506e505bc07c7f225763ea4a65e3ed886c9c47d6385562ae17a9"}
+{"section": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model", "seq": 1, "sha256": "62363b5601f1c87ce4219758aad5fba96088a517c95bd2f7e4b114d4bd8a4e56"}
+{"section": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model", "seq": 2, "sha256": "87c85dc48a10a55ba0f90aca8e42553c6db2a87593bb7a4d9337e70e61f890f4"}
+{"section": "1 Introduction", "seq": 3, "sha256": "a3d4abeef8ba1973184341eccd8113c9212be31a390bf15aea781af58f787fe8"}
+{"section": "1 Introduction", "seq": 4, "sha256": "d643fe526cc77b64172008356e2ec1cd46eb62cfdd732671770c513341525adc"}
+{"section": "1 Introduction", "seq": 5, "sha256": "fbb141999de13c1a53624de7abe493cbce0c0c75d8f8f870cd51e7c20a46f267"}
+{"section": "1 Introduction", "seq": 6, "sha256": "29b6130759a5f357e5ed6dcfb2dfb3bb542a2d8de805dfeb923a507a231becc4"}
+{"section": "2 Prior Work", "seq": 7, "sha256": "317988ca3300569eda914dd9a7cb05a9b062c6710c4084e11875393d1bccd1c2"}
+{"section": "2 Prior Work", "seq": 8, "sha256": "4ec88c8cf032d9e20453b4877fc19776e513440584bc9fadc3df8980bf0119f8"}
+{"section": "2 Prior Work", "seq": 9, "sha256": "271572741840945b33af5a1bfa9464f7ba3a63c913113228f15d45a605a94241"}
+{"section": "2 Prior Work", "seq": 10, "sha256": "5572c5958069d1f66178301801d2934f222f84d003d12b0c788bce505c29c938"}
+{"section": "3 MuZero Algorithm", "seq": 11, "sha256": "3800ff670b54f8ac23419a8d795b8a859e670a926bb036efc42e788a7c360e3b"}
+{"section": "3 MuZero Algorithm", "seq": 12, "sha256": "d8b3b369ea18d444487fd1eb5504c19c6e38eb4130fb16291ad20b56048ab8eb"}
+{"section": "3 MuZero Algorithm", "seq": 13, "sha256": "c0b399342e8d47fc018126028657783068d71250749f929fb7abeaa57bcaa76c"}
+{"section": "3 MuZero Algorithm", "seq": 14, "sha256": "c6aebb508429594008d9fe429029a836aac2906d6793ca84c2618affde4ef6e2"}
+{"section": "3 MuZero Algorithm", "seq": 15, "sha256": "7e2d1f611ab7cc766cad6102d80b6c91a2deb8d39fb92ea33ab900d7b636b0ea"}
+{"section": "3 MuZero Algorithm", "seq": 16, "sha256": "fb293db515778853b591fe5e346f1e16a0a7ea74f856f97312c775307ee2de11"}
+{"section": "4 Results", "seq": 17, "sha256": "498f7a571648d8ef5f84d664483021bdf9e7fc462bab42ea23d7210c878b5d20"}
+{"section": "4 Results", "seq": 18, "sha256": "b9480531513eec3cb920ed93a747ee625aa07221fe53ead2c90bbb1009f4b234"}
+{"section": "4 Results", "seq": 19, "sha256": "226cdbcf33690da233cac731351b434a599e047154f2b4db0ebedfb08a16ad5f"}
+{"section": "4 Results", "seq": 20, "sha256": "db6d0c526ff2081584f7716476c5852e258dfd2058b1ea792b5e1d1ab7ff5774"}
+{"section": "4 Results", "seq": 21, "sha256": "26203683882dd7368a1df7cf86e8090f5a073debb9959755d5b2bc82211250cd"}
+{"section": "4 Results", "seq": 22, "sha256": "e7fe7e66d6cfcdf091827cbf510814b321349e3c595b62663975bd416b07851e"}
+{"section": "4 Results", "seq": 23, "sha256": "3ac76bff9bb5e0151e54bf4ba585d371fa1f51188bff982b393023819faaf22c"}
+{"section": "4 Results", "seq": 24, "sha256": "f161ede1141ea3558d17aa7be9debcfaebdf408bf996a4f8f0be5bb7eb22d0f1"}
+{"section": "4 Results", "seq": 25, "sha256": "dd2fbbbb48dea6dc865540b8cc2ad7dd7854c018a70c5f2564381fb9d0a5b0ce"}
+{"section": "5 Conclusions", "seq": 26, "sha256": "7855a67daeab8c45ce41ea3f20a3e7cd653d699d2b47135308d3ee0419baf15d"}
+{"section": "6 Acknowledgments", "seq": 27, "sha256": "906b463e127871f7572200eddc90037bb6adbd8ce4902d40453500f30858bc71"}
+{"section": "References", "seq": 28, "sha256": "a2208f2230d358ef08acdca99333c715d6eb42d05fb302e8d1c0b6a853969a1c"}
+{"section": "References", "seq": 29, "sha256": "51602a6344ec666654c76d82ed5d792219bc4b202d7af12858a5e5a601c3926c"}
+{"section": "References", "seq": 30, "sha256": "d85796076269ab0603dd1326f9be43f9796ddd6bf100364139590aa2aef10ee1"}
+{"section": "References", "seq": 31, "sha256": "7ded13b91e16537ca8b3c90c3966148988ebc2ba817318f099fd9778fd4a1725"}
+{"section": "References", "seq": 32, "sha256": "a084e07f376cb8c0323a21cb34d2a969cbdb79eb02c4bf462ee0e87366f15175"}
+{"section": "References", "seq": 33, "sha256": "769c6f60b2d3a5a94fab6fc2f973d1c03b846b88a38101223958ea5b15a888b4"}
+{"section": "References", "seq": 34, "sha256": "344ab7117a700286de74d4e5f9eff83d92a14c9912bdaaf272fda667bbdde884"}
+{"section": "References", "seq": 35, "sha256": "f9c42a1bc0255ca2e880f3c499f10723d96e41f6c27b07418342e2eda201641d"}
+{"section": "References", "seq": 36, "sha256": "e50e752da1830942d150e8ff11a60edc40e5c9d63652008e2e4dcb795661a1b1"}
+{"section": "References", "seq": 37, "sha256": "2c74cc44ae46db3f7da265444b80f28c70df2ef02095363e83db90697225ba69"}
+{"section": "References", "seq": 38, "sha256": "1b3076e5cfa06d1d504c9ad5c05fd2e70af843593e4cd00b70d84b812a5ee4fc"}
+{"section": "Supplementary Materials", "seq": 39, "sha256": "a5352140a177748a9fd028041fb7eb2cbe8aaef354ec92bc871132f4dffd934b"}
+{"section": "Appendix A Comparison to AlphaZero", "seq": 40, "sha256": "265676fd7304ed6f45f0a9d0ba91c97507ddf60e832759e0579d1c559e362745"}
+{"section": "Appendix A Comparison to AlphaZero", "seq": 41, "sha256": "464bace61d2998857806d3b880e3f43fb75e7a189d0adabb9542e9134e3e9ac0"}
+{"section": "Appendix A Comparison to AlphaZero", "seq": 42, "sha256": "49df0d7928d84352b305704ffef029001dbe96dca2561142f8da4c260d64092c"}
+{"section": "Appendix B Search", "seq": 43, "sha256": "f0b0f14af1d65461cd8dafa51fc2dce51d8cda5f62330aa738755c20dbf24b9b"}
+{"section": "Appendix B Search", "seq": 44, "sha256": "d72a8543b0190ae13801316f06ce5e55123ef2c93f66b589fa62c77b24cdd1db"}
+{"section": "Appendix B Search", "seq": 45, "sha256": "2b1ce1a81bbe6630076c7d15369b7601cf9eafd20487da333614a3b831af8535"}
+{"section": "Appendix B Search", "seq": 46, "sha256": "7d66b1089cc393479584c1a58e74859b468b2b2f97f64cb41c450bd46e1c53f9"}
+{"section": "Appendix C Hyperparameters", "seq": 47, "sha256": "432228c722f1ee6036a10be414a0ecc8af5dfcce7d6cf1681231023f45f4c2b0"}
+{"section": "Appendix D Data Generation", "seq": 48, "sha256": "da0a539586b9e7bdde5389d88c6d6320782b03ac5daea106e930db76d4759a10"}
+{"section": "Appendix D Data Generation", "seq": 49, "sha256": "96c7fcd8e7a6d3926e1111e39c051ce01441793a2e49e5b9dd5e08e5e01c89fa"}
+{"section": "Representation Function", "seq": 50, "sha256": "559f513843ca2d7c28a2a372c54cc5bd817f4ee64c0d91863713555920b9b38b"}
+{"section": "Dynamics Function", "seq": 51, "sha256": "b1931de50e983d20d31761ee9f82e94729c25d4aaa2f9d550deb4261b622e8e1"}
+{"section": "Dynamics Function", "seq": 52, "sha256": "7cbe2e4856adae33c57bd1d7ade8c513adc8a4260206b56019bc8adc090834cd"}
+{"section": "Appendix F Network Architecture", "seq": 53, "sha256": "6ee55b8524b19f706cac754252884e318fbe3a4e5980918fe60ac660a53d4f22"}
+{"section": "Appendix F Network Architecture", "seq": 54, "sha256": "13bfcef10b01d77aa49f30bea23904792cd34cb25d974b0728732a5f84bf72a8"}
+{"section": "Appendix F Network Architecture", "seq": 55, "sha256": "e4369cef66692aa7511949e650d8b6be57c895ae33b4826cf756ae59775ff323"}
+{"section": "Appendix G Training", "seq": 56, "sha256": "775dd90746ef759f87020fb9b9185fdab6b345210968bc0191504384d31ebb07"}
+{"section": "Appendix G Training", "seq": 57, "sha256": "2e910e566cc5b5e0556bafcd17fb1c19acbcd3c75576b48ed640b15b9af4b348"}
+{"section": "Appendix G Training", "seq": 58, "sha256": "221dbd18d73c020492110e98600242e5e5497523d4534aca2208055f35001f4b"}
+{"section": "Appendix H Reanalyze", "seq": 59, "sha256": "72ff3c659edb52104bcebac7e182011f941d02bbfe554a357ac0fbfdeb158fa6"}
+{"section": "Appendix I Evaluation", "seq": 60, "sha256": "6bd8c7ebaa5dafb0abdeab4d8e2514a9a5e3caf7897b7f6e035a5c9bb9a02fc2"}
+{"section": "Appendix I Evaluation", "seq": 61, "sha256": "ab95914aea4eb4fe9b96c2c48d26331934e8e319cb4cffac8f29e10e013af362"}
+{"section": "Appendix I Evaluation", "seq": 62, "sha256": "5d6aaeaec3de31af34831f25bf1ebd5086e22e0b6564f70a915efea2e5db7364"}
+{"section": "Appendix I Evaluation", "seq": 63, "sha256": "43178c73e83ee1da82c31f4b4f77f07a2ad96fa116c76603852a8ba87a4ff1fb"}
+{"section": "Appendix I Evaluation", "seq": 64, "sha256": "2b3ed7307a72350077c525afe16f2c4a37669c0cc58d30481cb9b05167236c96"}
+{"section": "Appendix I Evaluation", "seq": 65, "sha256": "d99914b009857a73ff7d3265ab8b9a2bd99acbd82b9c48ac476e27bbdfe9fae4"}
+{"section": "Appendix I Evaluation", "seq": 66, "sha256": "dfa9f2f4e43d7d0c575fdf8dd6c32fe846324f57aea9352e60826ffb81f1e4c2"}
+{"section": "Appendix I Evaluation", "seq": 67, "sha256": "8ae9972d18e56992a158157fb72cd7994d26e06e092b2e524b7876320f065b6e"}
+{"section": "Appendix I Evaluation", "seq": 68, "sha256": "7435ea83ffd3178262cd0a2a3e81b2efb37e8eae8a996cf250ac410cab403645"}
+{"section": "Appendix I Evaluation", "seq": 69, "sha256": "57abacaa380dfcf87ea7b59cfe7bd8322f86f03fe88988e754f66beced8fbb38"}

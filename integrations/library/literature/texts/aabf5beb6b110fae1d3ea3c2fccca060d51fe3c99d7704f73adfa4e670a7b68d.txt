@@ -1,0 +1,5 @@
+CA, USA††doi: 10.1145/3586183.3606763††isbn: 979-8-4007-0132-0/23/10††ccs: Human-centered computing Interactive systems and tools††ccs: Computing methodologies Natural language processing
+
+Figure 1. Generative agents are believable simulacra of human behavior for interactive applications. In this work, we demonstrate generative agents by populating a sandbox environment, reminiscent of The Sims, with twenty-five agents. Users can observe and intervene as agents plan their days, share news, form relationships, and coordinate group activities. \Description
+
+A screenshot of the game world populated by generative agents.

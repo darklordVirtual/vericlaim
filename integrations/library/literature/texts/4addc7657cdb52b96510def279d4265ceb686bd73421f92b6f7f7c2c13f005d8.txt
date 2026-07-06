@@ -1,0 +1,25 @@
+Judgments of probability should be
+based only on the background event. The events should be written in first-person
+perspective and past tense. Give your answer in the form of a JSON object with the following form:
+
+"context": "<background event>",
+"highly likely": "<consequence that is highly likely>",
+"possible": "<consequence that is possible>",
+"unlikely": "<consequence that is unlikely>",
+"highly unlikely": "<consequence that is highly unlikely>",
+
+Answer:
+
+"context":
+
+Monetary value. I’m building a dataset containing objects or events that have different monetary costs. Different amounts of monetary reward can be gained/incurred through different objects
+(a pear < a computer), assets (a car < a house), or actions (maintaining a car <
+running a company). Generate four candidates related to "insp" in the form of a JSON object with the
+following format:
+
+"very high": "<object/event>",
+"high": "<object/event>",
+"moderate": "<object/event>",
+"low": "<object/event>"
+
+Answer:

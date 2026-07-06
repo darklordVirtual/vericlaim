@@ -1,0 +1,7 @@
+A public implementation of Dreamer that reproduces all results is available on the project website. Benchmarks
+
+We perform an extensive empirical study across 8 domains that include continuous and discrete actions, visual and low-dimensional inputs, dense and sparse rewards, different reward scales, 2D and 3D worlds, and procedural generation. Figure 1 summarizes the benchmark results, showing that Dreamer outperforms a wide range of previous expert algorithms across diverse domains. Crucially, Dreamer substantially outperforms PPO across all domains. •
+
+Atari This established benchmark contains 57 Atari 2600 games with a budget of 200M frames, posing a diverse range of challenges38. We use the sticky action simulator setting 39. Dreamer outperforms the powerful MuZero algorithm8 while using only a fraction of the computational resources. Dreamer also outperforms the widely-used expert algorithms Rainbow 40 and IQN 41. •
+
+ProcGen This benchmark of 16 games features randomized levels and visual distractions to test the robustness and generalization of agents42. Within the budget of 50M frames, Dreamer matches the tuned expert algorithm PPG 37 and outperforms Rainbow42, 40.

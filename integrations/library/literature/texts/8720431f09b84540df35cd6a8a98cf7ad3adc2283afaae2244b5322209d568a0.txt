@@ -1,0 +1,18 @@
+Arjovsky et al. [2016]
+
+Martin Arjovsky, Amar Shah, and Yoshua Bengio. Unitary evolution recurrent neural networks. In The International Conference on Machine Learning (ICML),
+pages 1120–1128, 2016. Baevski and Auli [2018]
+
+Alexei Baevski and Michael Auli. Adaptive input representations for neural language modeling. arXiv preprint arXiv:1809.10853, 2018. Bai et al. [2018]
+
+Shaojie Bai, J Zico Kolter, and Vladlen Koltun. An empirical evaluation of generic convolutional and recurrent
+networks for sequence modeling. arXiv preprint arXiv:1803.01271, 2018. Bai et al. [2019]
+
+Shaojie Bai, J Zico Kolter, and Vladlen Koltun. Trellis networks for sequence modeling. In The International Conference on Learning Representations
+(ICLR), 2019. Chang et al. [2017]
+
+Shiyu Chang, Yang Zhang, Wei Han, Mo Yu, Xiaoxiao Guo, Wei Tan, Xiaodong Cui,
+Michael Witbrock, Mark Hasegawa-Johnson, and Thomas S Huang. Dilated recurrent neural networks. In Advances in Neural Information Processing Systems
+(NeurIPS), 2017. Child et al. [2019]
+
+Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. arXiv preprint arXiv:1904.10509, 2019.

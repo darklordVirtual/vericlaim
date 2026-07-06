@@ -1,0 +1,20 @@
+Abnar & Zuidema (2020)
+
+Samira Abnar and Willem Zuidema. Quantifying attention flow in transformers. In ACL, 2020. Bachman et al. (2019)
+
+Philip Bachman, R Devon Hjelm, and William Buchwalter. Learning representations by maximizing mutual information across
+views. In NeurIPS, 2019. Baevski & Auli (2019)
+
+Alexei Baevski and Michael Auli. Adaptive input representations for neural language modeling. In ICLR, 2019. Bello et al. (2019)
+
+I. Bello, B. Zoph, Q. Le, A. Vaswani, and J. Shlens. Attention augmented convolutional networks. In ICCV, 2019. Beyer et al. (2020)
+
+Lucas Beyer, Olivier J. Hénaff, Alexander Kolesnikov, Xiaohua Zhai, and Aäron
+van den Oord. Are we done with imagenet? arXiv, 2020. Brown et al. (2020)
+
+Tom B Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+et al. Language models are few-shot learners. arXiv, 2020. Carion et al. (2020)
+
+Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander
+Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. In ECCV, 2020. Chen et al.

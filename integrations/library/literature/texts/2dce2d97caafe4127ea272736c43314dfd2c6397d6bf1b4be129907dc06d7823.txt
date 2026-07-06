@@ -1,0 +1,15 @@
+Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li
+
+Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu
+
+Ahmed Awadallah, Ryen W. White, Doug Burger, Chi Wang
+
+Microsoft Research, Pennsylvania State University
+
+University of Washington,Xidian University
+Corresponding author. Email: auto-gen@outlook.com
+
+Abstract
+
+AutoGen 111https://github.com/microsoft/autogen is an open-source framework that allows developers to build LLM applications via
+multiple agents that can converse with each other to accomplish tasks. AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen, developers can also flexibly define agent interaction behaviors. Both natural language and computer code can be used to program flexible conversation patterns for different applications. AutoGen serves as a generic framework for building diverse applications of various complexities and LLM capacities.

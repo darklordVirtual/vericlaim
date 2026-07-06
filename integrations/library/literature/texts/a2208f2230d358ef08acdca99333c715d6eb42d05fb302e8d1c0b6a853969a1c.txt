@@ -1,0 +1,22 @@
+[1]
+
+Kamyar Azizzadenesheli, Brandon Yang, Weitang Liu, Emma Brunskill, Zachary C. Lipton, and Animashree Anandkumar. Surprising negative results for generative adversarial tree search. CoRR, abs/1806.05780, 2018. [2]
+
+Marc G Bellemare, Yavar Naddaf, Joel Veness, and Michael Bowling. The arcade learning environment: An evaluation platform for general
+agents. Journal of Artificial Intelligence Research, 47:253–279, 2013. [3]
+
+Noam Brown and Tuomas Sandholm. Superhuman ai for heads-up no-limit poker: Libratus beats top
+professionals. Science, 359(6374):418–424, 2018. [4]
+
+Lars Buesing, Theophane Weber, Sebastien Racaniere, SM Eslami, Danilo Rezende,
+David P Reichert, Fabio Viola, Frederic Besse, Karol Gregor, Demis Hassabis,
+et al. Learning and querying fast generative models for reinforcement
+learning. arXiv preprint arXiv:1802.03006, 2018. [5]
+
+Murray Campbell, A. Joseph Hoane, Jr., and Feng-hsiung Hsu. Deep blue. Artif. Intell., 134(1-2):57–83, January 2002. [6]
+
+R. Coulom. Whole-history rating: A Bayesian rating system for players of
+time-varying strength. In International Conference on Computers and Games, pages
+113–124, 2008. [7]
+
+Rémi Coulom.

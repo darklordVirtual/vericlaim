@@ -1,0 +1,43 @@
+1. Agreement between [Your Company Name] and [Recipient Name] on [Date]. (Omitted)
+
+Score:
+
+Response (3/5):
+
+<Merged>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+1. Agreement between [Your Company Name] and [Recipient Name] on [Date]. 2. Information sharing for the purpose of [specific project or purpose]. (Omitted)
+
+Score:
+
+Response (4/5):
+
+<Merged>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+1. Agreement between [Your Company Name] and [Recipient Name] on [Date]. 2. Information sharing for the purpose of [specific project or purpose]. (Omitted)
+
+Score:
+
+Response (5/5):
+
+<Merged>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+1. Agreement between [Your Company Name] and [Recipient Name] on [Date]. 2. Information sharing for the purpose of [specific project or purpose]. (Omitted)
+
+Score:
+
+Table 43: Merging 4 example NDAs: Step 3 (Prompt)
+
+The following NDA <S> merges initial NDAs <Doc1> - <Doc4>. Please improve the merged NDA <S> by adding more information and removing redundancy. Output only the improved NDA, placed between the tags <Merged> and </Merged>, without any additional text. Here are NDAs <Doc1> - <Doc4>:
+
+<Doc1>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+1.

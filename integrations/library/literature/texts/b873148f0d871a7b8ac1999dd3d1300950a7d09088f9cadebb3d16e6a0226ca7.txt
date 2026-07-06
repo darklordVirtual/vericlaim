@@ -1,0 +1,8 @@
+Thus we want to maximize hidden state dimension without paying speed and memory costs. •
+
+Note that the recurrent mode is more flexible than the convolution mode, since the latter (3) is derived from expanding the former (2) [gu2021combining, gu2022efficiently]. However, this would require computing and materializing the latent state with shape , which is much larger (by a factor of , the SSM state dimension) than the input and output of shape . Thus the more efficient convolution mode was introduced which could bypass the state computation and materializes a convolution kernel (3a) of size only . •
+
+Prior LTI state space models leverage the dual recurrent-convolutional forms to increase the effective state dimension by a factor of (), much larger than traditional RNNs, without efficiency penalties. 3.3.2 Overview of Selective Scan: Hardware-Aware State Expansion
+
+The selection mechanism is designed to overcome the limitations of LTI models;
+at the same time, we therefore need to revisit the computation problem of SSMs. We address this with three classical techniques: kernel fusion, parallel scan, and recomputation.

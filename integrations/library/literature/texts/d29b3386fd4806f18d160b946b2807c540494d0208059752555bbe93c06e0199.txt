@@ -1,0 +1,15 @@
+B.4.1 Significantly Better Exploration
+
+Figure A.1: Minecraft item icons with corresponding names. The meaning of each icon in Fig. 1 is shown in Fig. A.1. We run three trials for each method. The items collected by Voyager in each trial is
+
+•
+
+Trial 1: ‘iron_ingot’, ‘stone_shovel’, ‘iron_leggings’, ‘fishing_rod’, ‘pufferfish’, ‘oak_log’, ‘cooked_mutton’, ‘green_dye’, ‘flint’, ‘chest’, ‘iron_sword’, ‘string’, ‘ender_pearl’, ‘raw_copper’, ‘crafting_table’, ‘cactus’, ‘lapis_lazuli’, ‘iron_pickaxe’, ‘copper_ingot’, ‘stone_pickaxe’, ‘wooden_hoe’, ‘scaffolding’, ‘stick’, ‘porkchop’, ‘copper_block’, ‘gravel’, ‘grass_block’, ‘white_bed’, ‘bone’, ‘dirt’, ‘mutton’, ‘white_wool’, ‘oak_sapling’, ‘coal’, ‘bamboo’, ‘wooden_pickaxe’, ‘rotten_flesh’, ‘cooked_porkchop’, ‘cod’, ‘iron_boots’, ‘lightning_rod’, ‘diorite’, ‘water_bucket’, ‘shears’, ‘furnace’, ‘andesite’, ‘granite’, ‘bucket’, ‘wooden_sword’, ‘sandstone’, ‘iron_helmet’, ‘raw_iron’, ‘sand’, ‘acacia_log’, ‘cooked_cod’, ‘oak_planks’, ‘azure_bluet’, ‘iron_shovel’, ‘acacia_planks’, ‘shield’, ‘iron_axe’, ‘iron_chestplate’, ‘cobblestone’;
+
+•
+
+Trial 2: ‘iron_ingot’, ‘tuff’, ‘stone_shovel’, ‘iron_leggings’, ‘fishing_rod’, ‘cooked_mutton’, ‘spruce_planks’, ‘gunpowder’, ‘amethyst_shard’, ‘chest’, ‘string’, ‘cooked_salmon’, ‘iron_sword’, ‘raw_copper’, ‘crafting_table’, ‘torch’, ‘lapis_lazuli’, ‘iron_pickaxe’, ‘copper_ingot’, ‘stone_pickaxe’, ‘wooden_hoe’, ‘stick’, ‘amethyst_block’, ‘salmon’, ‘calcite’, ‘gravel’, ‘white_bed’, ‘bone’, ‘dirt’, ‘mutton’, ‘white_wool’, ‘spyglass’, ‘coal’, ‘wooden_pickaxe’, ‘cod’, ‘iron_boots’, ‘lily_pad’, ‘cobbled_deepslate’, ‘lightning_rod’, ‘snowball’, ‘stone_axe’, ‘smooth_basalt’, ‘diorite’, ‘water_bucket’, ‘furnace’, ‘andesite’, ‘bucket’, ‘granite’, ‘shield’, ‘iron_helmet’, ‘raw_iron’, ‘cobblestone’, ‘spruce_log’, ‘cooked_cod’, ‘tripwire_hook’, ‘stone_hoe’, ‘iron_chestplate’, ‘stone_sword’;
+
+•
+
+Trial 3: ‘spruce_planks’, ‘dirt’, ‘shield’, ‘redstone’, ‘clock’, ‘diamond_sword’, ‘iron_chestplate’, ‘stone_pickaxe’, ‘leather’, ‘string’, ‘chicken’, ‘chest’, ‘diorite’, ‘iron_leggings’, ‘black_wool’, ‘cobblestone_wall’, ‘cobblestone’, ‘cooked_chicken’, ‘feather’, ‘stone_sword’, ‘raw_gold’, ‘gravel’, ‘birch_planks’, ‘coal’, ‘cobbled_deepslate’, ‘oak_planks’, ‘iron_pickaxe’, ‘granite’, ‘tuff’, ‘crafting_table’, ‘iron_helmet’, ‘stone_hoe’, ‘iron_ingot’, ‘stone_axe’, ‘birch_boat’, ‘stick’, ‘sand’, ‘bone’, ‘raw_iron’, ‘beef’, ‘rail’, ‘oak_sapling’, ‘kelp’, ‘gold_ingot’, ‘birch_log’, ‘wheat_seeds’, ‘cooked_mutton’, ‘furnace’, ‘arrow’, ‘stone_shovel’, ‘white_wool’, ‘andesite’, ‘jungle_slab’, ‘mutto

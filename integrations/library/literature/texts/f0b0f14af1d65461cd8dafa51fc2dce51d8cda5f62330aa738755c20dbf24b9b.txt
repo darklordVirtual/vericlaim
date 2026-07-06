@@ -1,0 +1,8 @@
+We now describe the search algorithm used by MuZero. Our approach is based upon Monte-Carlo tree search with upper confidence bounds, an approach to planning that converges asymptotically to the optimal policy in single agent domains and to the minimax value function in zero sum games [22]. Every node of the search tree is associated with an internal state . For each action from there is an edge that stores a set of statistics
+, respectively representing visit counts ,
+mean value , policy , reward , and state transition . Similar to AlphaZero, the search is divided into three stages, repeated for a number of simulations. Selection: Each simulation starts from the internal root state , and finishes when the simulation reaches a leaf node . For each hypothetical time-step of the simulation, an action is selected according to the stored statistics for
+internal state , by maximizing over an upper confidence bound [32][39],
+
+(2)
+
+The constants and are used to control the influence of the prior relative to the value as nodes are visited more often. In our experiments, and . For , the next state and reward are looked up in the state transition and reward table , .

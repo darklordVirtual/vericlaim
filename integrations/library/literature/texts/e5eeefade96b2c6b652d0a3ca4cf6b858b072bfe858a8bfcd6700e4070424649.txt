@@ -1,0 +1,89 @@
+Table 6: Summary of related work on arithmetic/commonsense reasoning tasks. Category denotes the training strategy. CoT denotes whether to output chain of thought. Task column lists the tasks that are performed in corresponding papers. AR: Arithmetic Reasoning, CR: Commonsense Reasoning. Method
+
+Category
+
+CoT
+
+Task
+
+Model
+
+Rajani et al. (2019)
+
+Fine-Tuning
+
+CR
+
+GPT
+
+Cobbe et al. (2021)
+
+Fine-Tuning
+
+AR
+
+GPT-3
+
+Zelikman et al. (2022)
+
+Fine-Tuning
+
+AR,CR
+
+GPT-3, etc
+
+Nye et al. (2022)
+
+Fine-Tuning444Nye et al. (2022) also evaluates few-shot settings, but the few-shot performances on their domains are worse than the fine-tuning results. AR
+
+Transformer(Decoder)
+
+Brown et al. (2020)
+
+Few/Zero-Shot
+
+CR
+
+GPT-3
+
+Smith et al. (2022)
+
+Few/Zero-Shot
+
+AR,CR
+
+MT-NLG
+
+Rae et al. (2021)
+
+Few-Shot
+
+AR,CR
+
+Gopher
+
+Wei et al. (2022)
+
+Few-Shot
+
+AR,CR
+
+PaLM, LaMBDA, GPT-3
+
+Wang et al. (2022)
+
+Few-Shot
+
+AR,CR
+
+PaLM, etc
+
+Chowdhery et al. (2022)
+
+Few-Shot
+
+AR,CR
+
+PaLM
+
+Shwartz et al.

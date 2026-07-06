@@ -1,0 +1,17 @@
+Rt-2: Vision-language-action models transfer web knowledge to robotic
+control. arXiv preprint arXiv:2307.15818, 2023. Cao & Yamins (2024)
+
+Cao, R. and Yamins, D. Explanatory models in neuroscience: Part 2–constraint-based
+intelligibility. Cognitive Systems Research, 85, 2024. Caron et al. (2021)
+
+Caron, M., Touvron, H., Misra, I., Jégou, H., Mairal, J., Bojanowski, P.,
+and Joulin, A. Emerging properties in self-supervised vision transformers. In Proceedings of the IEEE/CVF international conference on
+computer vision, pp. 9650–9660, 2021. Chambers & Jurafsky (2008)
+
+Chambers, N. and Jurafsky, D. Unsupervised learning of narrative event chains. In Proceedings of ACL-08: HLT, pp. 789–797, 2008. Chen et al. (2020)
+
+Chen, T., Kornblith, S., Norouzi, M., and Hinton, G. A simple framework for contrastive learning of visual
+representations. In International conference on machine learning, pp. 1597–1607. PMLR, 2020. Cobbe et al. (2021)
+
+Cobbe, K., Kosaraju, V., Bavarian, M., Chen, M., Jun, H., Kaiser, L., Plappert,
+M., Tworek, J., Hilton, J., Nakano, R., Hesse, C., and Schulman, J. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021. Conwell et al.

@@ -1,0 +1,16 @@
+A. Shortcut learning in deep neural networks. arXiv preprint arXiv:2004.07780, 2020. Gomez et al. (2017)
+
+Gomez, L., Patel, Y., Rusiñol, M., Karatzas, D., and Jawahar, C. Self-supervised learning of visual features through embedding images
+into text topic spaces. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pp. 4230–4239, 2017. Goodfellow et al. (2014)
+
+Goodfellow, I. J., Shlens, J., and Szegedy, C. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572, 2014. Goodfellow et al. (2015)
+
+Goodfellow, I. J., Erhan, D., Carrier, P. L., Courville, A., Mirza, M., Hamner,
+B., Cukierski, W., Tang, Y., Thaler, D., Lee, D.-H., et al. Challenges in representation learning: A report on three machine
+learning contests. Neural Networks, 64:59–63, 2015. (54)
+
+Google. Google cloud api: Celebrity recognition. URL https://cloud.google.com/vision/docs/celebrity-recognition. Griewank & Walther (2000)
+
+Griewank, A. and Walther, A. Algorithm 799: revolve: an implementation of checkpointing for the
+reverse or adjoint mode of computational differentiation. ACM Transactions on Mathematical Software (TOMS), 26(1):19–45, 2000. Grill et al.

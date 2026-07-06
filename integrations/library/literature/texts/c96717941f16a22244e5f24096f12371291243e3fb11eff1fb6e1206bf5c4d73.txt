@@ -1,0 +1,18 @@
+In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 770–778, 2016a. He et al. (2016b)
+
+He, K., Zhang, X., Ren, S., and Sun, J. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 770–778, 2016b. He et al. (2020)
+
+He, K., Fan, H., Wu, Y., Xie, S., and Girshick, R. Momentum contrast for unsupervised visual representation learning. In Proceedings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition, pp. 9729–9738, 2020. He et al. (2019)
+
+He, T., Zhang, Z., Zhang, H., Zhang, Z., Xie, J., and Li, M. Bag of tricks for image classification with convolutional neural
+networks. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pp. 558–567, 2019. He & Peng (2017)
+
+He, X. and Peng, Y. Fine-grained image classification via combining vision and language. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pp. 5994–6002, 2017. Helber et al. (2019)
+
+Helber, P., Bischke, B., Dengel, A., and Borth, D. Eurosat: A novel dataset and deep learning benchmark for land use and
+land cover classification.

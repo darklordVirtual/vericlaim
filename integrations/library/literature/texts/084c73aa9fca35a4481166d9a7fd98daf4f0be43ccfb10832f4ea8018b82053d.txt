@@ -1,0 +1,33 @@
+0.809
+
+0.499 0.596
+
+1.062 0.943
+
+3.859 1.144
+
+ECL
+
+0.432 0.497
+
+0.582 0.608
+
+0.624 0.645
+
+7.019 5.105
+
+1.545 1.006
+
+0.657 0.683
+
+1.370 0.982
+
+6.901 4.264
+
+Learning with weaker inductive bias. Beyond our results on speech (Section 4.2), we further validate that S4 can be applied with minimal modifications
+on two domains that typically require specialized domain-specific preprocessing and architectures. First, we compare S4 to the Informer [50],
+a new Transformer architecture that uses a complex encoder-decoder designed for time-series forecasting problems. A simple application of S4 that treats forecasting as a masked sequence-to-sequence transformation (Fig. 11)
+outperforms the Informer and other baselines on settings across forecasting tasks. Notably, S4 is better on the longest setting in each task, e.g. reducing MSE by when forecasting days of weather data
+(Table 3). Finally,
+we evaluate S4 on pixel-level sequential image classification tasks (Fig. 6),
+popular benchmarks which were originally LRD tests for RNNs [1].

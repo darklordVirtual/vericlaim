@@ -1,0 +1,58 @@
+What’s interesting to note is that our skill library constructed from lifelong learning not only enhances Voyager’s performance but also gives a boost to AutoGPT. This demonstrates that the skill library serves as a versatile tool that can be readily employed by other methods, effectively acting as a plug-and-play asset to enhance performance. Table 2:
+Zero-shot generalization to unseen tasks. Fractions indicate the number of successful trials out of three total attempts. 0/3 means the method fails to solve the task within the maximal prompting iterations (50). Numbers are prompting iterations averaged over three trials. The fewer the iterations, the more efficient the method. Method
+
+Diamond Pickaxe
+
+Golden Sword
+
+Lava Bucket
+
+Compass
+
+ReAct yao2022react
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Reflexion shinn2023reflexion
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+AutoGPT autogpt
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+AutoGPT autogpt w/ Our Skill Library
+
+39
+
+30
+
+N/A
+
+30
+
+Voyager w/o Skill Library
+
+36
+
+Voyager (Ours)
+
+Figure 8: Zero-shot generalization to unseen tasks. We visualize the intermediate progress of each method on two tasks. See Appendix, Sec. A.3 for the other two tasks.

@@ -1,0 +1,45 @@
+ChatGPT+Plugin
+
+1/3
+
+The return from Wolfram Alpha contains 2 simplified results, including the correct answer, but GPT-4 always chooses the wrong answer. ChatGPT+Code Interpreter
+
+2/3
+
+Returns a wrong decimal result. LangChain ReAct
+
+0/3
+
+LangChain gives 3 different wrong answers. Multi-Agent Debate
+
+0/3
+
+It gives 3 different wrong answers due to calculation errors. (a) Evaluation on the first problem that asks to simplify a square root fraction. Correctness
+
+Failure Reason
+
+AutoGen
+
+2/3
+
+The final answer from code execution is wrong. AutoGPT
+
+0/3
+
+The LLM gives code without the print function so the result is not printed. ChatGPT+Plugin
+
+1/3
+
+For one trial, GPT-4 got stuck because it keeps giving wrong queries and has to be stopped. Another trial simply gives a wrong answer. ChatGPT+Code Interpreter
+
+0/3
+
+It gives 3 different wrong answers. LangChain ReAct
+
+0/3
+
+LangChain gives 3 different wrong answers. Multi-Agent Debate
+
+0/3
+
+It gives 3 different wrong answers. (b) Evaluation on the second number theory problem. For the qualitative evaluation, we utilize two level-5 problems from the MATH dataset, testing each problem three times.

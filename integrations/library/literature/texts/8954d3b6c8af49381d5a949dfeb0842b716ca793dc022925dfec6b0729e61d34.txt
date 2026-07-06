@@ -1,0 +1,10 @@
+We first prove Theorem 1,
+showing that all HiPPO matrices for continuous-time memory fall under the S4 normal plus low-rank (NPLR) representation. Proof of Theorem 1. We consider each of the three cases HiPPO-LagT, HiPPO-LegT, and HiPPO-LegS separately. Note that the primary HiPPO matrix defined in this work (equation (2)) is the HiPPO-LegT matrix. HiPPO-LagT. The HiPPO-LagT matrix is simply
+
+Adding the matrix of all , which is rank 1, yields
+
+This matrix is now skew-symmetric. Skew-symmetric matrices are a particular case of normal matrices
+with pure-imaginary eigenvalues. Gu et al. [16] also consider a case of HiPPO corresponding to the generalized Laguerre polynomials that generalizes
+the above HiPPO-LagT case. In this case, the matrix (up to conjugation by a diagonal matrix) ends up being close to the above matrix,
+but with a different element on the diagonal. After adding the rank-1 correction, it becomes the above skew-symmetric matrix plus a multiple of the identity. Thus after diagonalization by the same matrix as in the LagT case, it is still reduced to diagonal plus low-rank (DPLR) form,
+where the diagonal is now pure imaginary plus a real constant. HiPPO-LegS.

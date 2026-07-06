@@ -1,0 +1,17 @@
+Towards vqa models that can read. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pp. 8317–8326, 2019. Socher & Fei-Fei (2010)
+
+Socher, R. and Fei-Fei, L. Connecting modalities: Semi-supervised segmentation and annotation of
+images using unaligned text corpora. In 2010 IEEE Computer Society Conference on Computer Vision and
+Pattern Recognition, pp. 966–973. IEEE, 2010. Socher et al. (2013)
+
+Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A. Y., and
+Potts, C. Recursive deep models for semantic compositionality over a sentiment
+treebank. In Proceedings of the 2013 conference on empirical methods in
+natural language processing, pp. 1631–1642, 2013. Socher et al. (2014)
+
+Socher, R., Karpathy, A., Le, Q. V., Manning, C. D., and Ng, A. Y. Grounded compositional semantics for finding and describing images
+with sentences. Transactions of the Association for Computational Linguistics,
+2:207–218, 2014. Sohn (2016)
+
+Sohn, K. Improved deep metric learning with multi-class n-pair loss objective. In Advances in neural information processing systems, pp. 1857–1865, 2016. Solaiman et al.

@@ -1,0 +1,15 @@
+Adina Williams, Jian Xiang Kuan, Puxin Xu, Zheng Yan, Iliyan
+Zarov, Yuchen Zhang, Angela Fan, Melanie Kambadur, Sharan Narang, Aurelien
+Rodriguez, Robert Stojnic, Sergey Edunov, and Thomas Scialom. Llama 2: Open foundation and fine-tuned chat models, 2023. Turner et al. (2023a)
+
+Alex Turner, Monte M., David Udell, Lisa Thiergart, and Ulisse Mini. Behavioural statistics for a maze-solving agent. AI Alignment Forum, 2023a. Turner et al. (2023b)
+
+Alex Turner, Monte M., David Udell, Lisa Thiergart, and Ulisse Mini. Maze-solving agents: Add a top-right vector, make the agent go to the
+top-right. AI Alignment Forum, 2023b. Turner et al. (2023c)
+
+Alex Turner, Monte M., David Udell, Lisa Thiergart, and Ulisse Mini. Steering gpt-2-xl by adding an activation vector. AI Alignment Forum, 2023c. Turner et al. (2023d)
+
+Alex Turner, Monte M., David Udell, Lisa Thiergart, and Ulisse Mini. Understanding and controlling a maze-solving policy network. AI Alignment Forum, 2023d. Turner et al. (2023e)
+
+Alex Turner, Lisa Thiergart, David Udell, Gavin Leech, Ulisse Mini, and Monte
+MacDiarmid. Activation addition: Steering language models without optimization. arXiv preprint arXiv:2308.10248, 2023e.

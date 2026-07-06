@@ -1,0 +1,9 @@
+CoRR, abs/2111.15366, 2021. doi: 10.48550/arXiv.2111.15366. URL https://arxiv.org/abs/2111.15366. Ramesh et al. (2022)
+
+Ramesh, A., Dhariwal, P., Nichol, A., Chu, C., and Chen, M. Hierarchical Text-Conditional Image Generation with CLIP Latents. April 2022. URL https://cdn.openai.com/papers/dall-e-2.pdf. Räuker et al. (2023)
+
+Räuker, T., Ho, A., Casper, S., and Hadfield-Menell, D. Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks. CoRR, abs/2207.13243, 2023. doi: 10.48550/arXiv.2207.13243. URL https://arxiv.org/abs/2207.13243. Richmond & McKinney (2009)
+
+Richmond, J. Y. and McKinney, R. W. Biosafety in microbiological and biomedical laboratories, 2009. Roy et al. (2021)
+
+Roy, N., Posner, I., Barfoot, T., Beaudoin, P., Bengio, Y., Bohg, J., Brock, O., Depatie, I., Fox, D., Koditschek, D., Lozano-Perez, T., Mansinghka, V., Pal, C., Richards, B., Sadigh, D., Schaal, S., Sukhatme, G., Therien, D., Toussaint, M., and de Panne, M. V. From Machine Learning to Robotics: Challenges and Opportunities for Embodied Intelligence. CoRR, abs/2110.15245, 2021. doi: 10.48550/arXiv.2110.15245. URL https://arxiv.org/abs/2110.15245.

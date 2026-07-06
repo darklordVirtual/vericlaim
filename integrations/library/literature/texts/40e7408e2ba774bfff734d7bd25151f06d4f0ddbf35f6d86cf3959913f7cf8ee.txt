@@ -1,0 +1,17 @@
+arXiv preprint arXiv: Arxiv-2301.10034, 2023. (55)
+
+Zihao Wang, Shaofei Cai, Anji Liu, Xiaojian Ma, and Yitao Liang. Describe, explain, plan and select: Interactive planning with large
+language models enables open-world multi-task agents. arXiv preprint arXiv: Arxiv-2302.01560, 2023. (56)
+
+Sébastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric
+Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg,
+Harsha Nori, Hamid Palangi, Marco Tulio Ribeiro, and Yi Zhang. Sparks of artificial general intelligence: Early experiments with
+gpt-4. arXiv preprint arXiv: Arxiv-2303.12712, 2023. (57)
+
+Yiheng Liu, Tianle Han, Siyuan Ma, Jiayue Zhang, Yuanyuan Yang, Jiaming Tian,
+Hao He, Antong Li, Mengshen He, Zhengliang Liu, Zihao Wu, Dajiang Zhu, Xiang
+Li, Ning Qiang, Dingang Shen, Tianming Liu, and Bao Ge. Summary of chatgpt/gpt-4 research and perspective towards the future
+of large language models. arXiv preprint arXiv: Arxiv-2304.01852, 2023. (58)
+
+Shikun Liu, Linxi Fan, Edward Johns, Zhiding Yu, Chaowei Xiao, and Anima
+Anandkumar. Prismer: A vision-language model with an ensemble of experts. arXiv preprint arXiv: Arxiv-2303.02506, 2023.

@@ -1,0 +1,3 @@
+higher than all baselines that use the shorter MFCC features, and validates that a powerful LRD model is able to extract more information from the raw data and outperform hand-crafted pre-processing. Additionally, we include a baseline CNN specifically designed for raw speech, the discriminator from the WaveGAN model [11],
+which performs worse than S4 while having more parameters and incorporating many more
+architectural heuristics (Section D.2).

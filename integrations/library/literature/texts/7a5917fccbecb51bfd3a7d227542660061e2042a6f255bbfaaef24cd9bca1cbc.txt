@@ -1,0 +1,5 @@
+In the example task template in step 1, these tokens are aligned with the tokens within <output>. This is done because the model needs to engage with the function when generating every new token. Formally, for a concept , a decoder model , a function Rep that accepts a model and input and returns the representations from all token positions, and a set of stimuli , we compile a set of neural activity collected from the token position as shown in Equation 1. (1)
+
+For a function , given the instruction response pairs in the set , and denoting a response truncated after token as , we collect two sets of neural activity corresponding to the experimental and reference sets, as shown in Equation 2. (2)
+
+Note that these neural activity sets consist of individual vectors. We show the surprising effectiveness of such a simple setup when exploring various concepts and functions in this paper. Nevertheless, it may be necessary to design a more involved procedure to gather neural activity, for instance, to extract more intricate concepts or multi-step functions. Step 3: Constructing a Linear Model.

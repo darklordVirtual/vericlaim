@@ -1,0 +1,5 @@
+The last letter of "Landon" is "n". The last letter of "Miguel" is "l". The last letter of "Caitlyn" is "n". So, the final answer would be "ynln". Therefore, the answer is "ynln". Q: Take the last letters of each words in "Lamont Frederick Lance Esperanza" and concatenate them. A: Let’s think step by step. The last letter of "Lamont" is "t". The last letter of "Frederick" is "k". The last letter of "Lance" is "e". The last letter of "Esperanza" is "a". So the final answer would be "tkaea". Therefore, the answer is "tkaea". ✗ (GT : tkea)
+
+Coin Flip
+
+Q: A coin is heads up. Jeff does not flip the coin. Jen flips the coin. Giselle flips the coin. Noel does not flip the coin. Is the coin still heads up? Note that "flip" here means "reverse". A: Let’s think step by step. Jeff does not flip the coin, so the coin remains heads up. Jen flips the coin, so the coin is now tails up. Giselle flips the coin, so the coin is now heads up again. Noel does not flip the coin, so the coin remains heads up. Therefore, the final answer is that the coin is heads up. Therefore, the answer (Yes or No) is Yes. Q: A coin is heads up. Caroline flips the coin. Demetrius flips the coin.

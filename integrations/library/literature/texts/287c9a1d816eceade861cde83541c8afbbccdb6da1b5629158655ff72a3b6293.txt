@@ -1,0 +1,7 @@
+alignment of the two following kernels:
+
+(1)
+
+(2)
+
+Using this analysis, we find that the better an LLM is at language modeling, the more it tends to aligns with vision models, as shown in Figure 3. The converse effect also holds: the better a vision models is, the more it tends to align with LLMs. See Section C.2 for more details.

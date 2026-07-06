@@ -1,0 +1,15 @@
+A.3. Similar to Fig. 8, Voyager consistently solves all tasks, while the baselines are unable to solve any task within 50 prompting iterations. Our skill library, constructed from lifelong learning, not only enhances Voyager’s performance but also provides a boost to AutoGPT [28]. B.4.4 Accurate Skill Retrieval
+
+We conduct an evaluation of our skill retrieval (309 samples in total) and the results are in Table. A.4. The top-5 accuracy standing at 96.5% suggests our retrieval process is reliable (note that we include the top-5 relevant skills in the prompt for synthesizing a new skill). Table A.4: Skill retrieval accuracy. Top-1 Acc
+
+Top-2 Acc
+
+Top-3 Acc
+
+Top-4 Acc
+
+Top-5 Acc
+
+B.4.5 Robust to Model Variations
+
+In the main paper, all of Voyager’s experiments are conducted with gpt-4-0314. We additionally run new experiments with gpt-4-0613 and find that the performance is roughly the same (Fig. A.4). It demonstrates that Voyager is robust to model variations. Figure A.4: Voyager’s performance with GPT-4-0314 and GPT-4-0613. HTML conversions sometimes display errors due to content that did not convert correctly from the source.

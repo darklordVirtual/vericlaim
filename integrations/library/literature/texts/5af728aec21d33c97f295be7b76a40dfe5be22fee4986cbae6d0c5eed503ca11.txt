@@ -1,0 +1,5 @@
+(2022)) also confirm that it is not specially engineered for multi-step reasoning. Limitation and Social Impact
+
+Our work is based on prompting methods for large language models. LLMs have been trained on large corpora from various sources on the web
+(also see “Training Dataset Details”),
+and have shown to capture and amplify biases found in the training data. Prompting is a method that looks to take advantage of the patterns captured by language models conducive to various tasks, and therefore it has the same shortcomings. This being said, our approach is a more direct way to probe complex reasoning inside pre-trained LLMs, removing the confounding factor of in-context learning in prior few-shot approaches, and can lead to more unbiased study of biases in LLMs.

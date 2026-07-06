@@ -1,0 +1,61 @@
+Inspired by Kocoń et al. (2023), we compared the zero-shot performance of the RWKV-4-Raven-14B with ChatGPT (access in February 2023) and GPT-4 using several known NLP tasks, i.e., recognizing textual entailment (RTE), Winograd Natural Language Inference (WNLI), and recognizing emotions elicited in readers (GoEmotions and PolEmo2). Each model got the same prompts manually chosen to receive proper responses from the ChatGPT model. As shown in Tab. 6, RWKV performs significantly worse than ChatGPT and GPT-4 in several specific tasks. We suspect that this disparity is likely caused by the choice of prompts used to generate the answers since the prompts are written in natural language and do not take into account that RWKV, as an RNN, is unable to look back inside an instruction. Task Name
+Measure
+ChatGPT
+GPT-4
+RWKV-GPT
+RWKV-adapted
+SOTA
+
+RTE
+F1 Macro
+
+88.1
+
+91.3
+
+44.2
+
+74.8
+
+92.1
+
+WNLI
+Accuracy
+
+81.7
+
+91.6
+
+47.9
+
+49.3
+
+97.9
+
+GoEmotions
+F1 Macro
+
+25.6
+
+23.1
+
+7.9
+
+7.9
+
+52.8
+
+PolEmo2
+F1 Macro
+
+44.1
+
+41.0
+
+38.2
+
+40.9
+
+76.4
+
+Table 6: ChatGPT, GPT-4 and RWKV-4-Raven-14B reasoning performance comparison in RTE Wang et al. (2019), WNLI Wang et al. (2018), GoEmotions Demszky et al.

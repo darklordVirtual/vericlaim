@@ -1,0 +1,16 @@
+Soft actor-critic: Off-policy maximum entropy deep reinforcement
+learning with a stochastic actor. arXiv preprint arXiv:1801.01290, 2018. Abdolmaleki et al. 2018
+
+Abbas Abdolmaleki, Jost Tobias Springenberg, Yuval Tassa, Remi Munos, Nicolas
+Heess, and Martin Riedmiller. Maximum a posteriori policy optimisation. arXiv preprint arXiv:1806.06920, 2018. Webber 2012
+
+J Beau W Webber. A bi-symmetric log transformation for wide-range data. Measurement Science and Technology, 24(2):027001, 2012. Kapturowski et al. 2018
+
+Steven Kapturowski, Georg Ostrovski, John Quan, Remi Munos, and Will Dabney. Recurrent experience replay in distributed reinforcement learning. In International conference on learning representations, 2018. Hessel et al. 2019
+
+Matteo Hessel, Hubert Soyer, Lasse Espeholt, Wojciech Czarnecki, Simon Schmitt,
+and Hado van Hasselt. Multi-task deep reinforcement learning with popart. In Proceedings of the AAAI Conference on Artificial
+Intelligence, volume 33, pages 3796–3803, 2019. Cobbe et al. 2021
+
+Karl W Cobbe, Jacob Hilton, Oleg Klimov, and John Schulman. Phasic policy gradient. In International Conference on Machine Learning, pages
+2020–2027. PMLR, 2021. Bellemare et al.

@@ -1,0 +1,2 @@
+The condition here can be satisfied, for example, if the off-diagonal terms decay linearly with respect to and stay sufficiently close to each other. While the condition is somewhat strict, it
+captures the essence that smoothness and continuity allow easier learning. Nonetheless, we note that exact representation is not necessary for convergence, and thus this requirement can likely be relaxed. Please see Section 6 for discussions on practical settings.

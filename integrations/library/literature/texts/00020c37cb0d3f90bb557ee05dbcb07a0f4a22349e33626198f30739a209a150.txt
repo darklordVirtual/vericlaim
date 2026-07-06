@@ -1,0 +1,47 @@
+Author contributions are detailed in §Author Contributions. All authors conducted this work while at Anthropic except where noted. Edwin Chen,† Craig Pettit,† Scott Heiner,† Kamilė Lukošiūtė,‡ &Amanda Askell,
+Andy Jones,
+Anna Chen,
+Anna Goldie,
+Azalia Mirhoseini,
+Cameron McKinnon,
+
+Christopher Olah,
+Daniela Amodei,
+Dario Amodei,
+Dawn Drain,
+Dustin Li,
+Eli Tran-Johnson,
+
+Jack Clark,
+Jackson Kernion,
+Jamie Kerr,
+Jared Mueller,
+Jeffrey Ladish,
+Joshua Landau,
+
+Kamal Ndousse,
+Liane Lovitt,
+Nelson Elhage,
+Nicholas Schiefer, Nicholas Joseph,
+Noemí Mercado,
+
+Nova DasSarma,
+Robin Larson,
+Sam McCandlish,
+Sandipan Kundu,
+Scott Johnston,
+
+Shauna Kravec,
+Sheer El Showk,
+Stanislav Fort,
+Timothy Telleen-Lawton,
+Tom Brown,
+
+Tom Henighan,
+Tristan Hume,
+Yuntao Bai,
+Zac Hatfield-Dodds,\ANDBen Mann, and Jared Kaplan††footnotemark: \ANDAnthropic, †Surge AI, ‡Independent Researcher
+
+Abstract
+
+Developing safe and useful general-purpose AI systems will require us to make progress on scalable oversight: the problem of supervising systems that potentially outperform us on most skills relevant to the task at hand.

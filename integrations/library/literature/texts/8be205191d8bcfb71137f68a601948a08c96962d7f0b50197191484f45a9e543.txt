@@ -1,0 +1,22 @@
+If a country is not present in one of the dictionaries, add it to the final dictionary with the frequency from the other dictionary. </Instruction>
+
+<Example> See Table 19 </Example>
+Dictionary 1: {dictionary_1}
+
+Dictionary 2: {dictionary_2}
+
+Incorrectly Combined Dictionary: {dictionary_incorrect}
+
+Output:
+
+Table 18: Few-shot examples for count prompt used for the keyword counting task; some paragraphs and dictionaries are truncated and formatting is slightly adjusted for brevity. count_prompt:
+
+<Examples>
+
+Input: Alexandra boarded the first flight of her grand journey, starting from Canada. With a globe-trotting … (Omitted)
+
+Paragraphs:
+
+Alexandra boarded the first flight of her grand journey, starting from Canada. With a globe-trotting itinerary … (Omitted)
+
+Her first stop was Mexico, where she marveled at the Mayan ruins.

@@ -1,0 +1,1 @@
+We detail the concrete operations that GoT was configured with to solve the set intersection and sorting use cases.

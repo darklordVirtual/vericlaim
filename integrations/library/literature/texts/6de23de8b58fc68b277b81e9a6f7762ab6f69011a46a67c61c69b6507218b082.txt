@@ -1,0 +1,7 @@
+Hashimoto. Stanford alpaca: An instruction-following llama model, 2023. Thornley (2023)
+
+Elliott Thornley. There are no coherence theorems. AI Alignment Forum, 2023. Tian et al. (2023)
+
+Katherine Tian, Eric Mitchell, Allan Zhou, Archit Sharma, Rafael Rafailov,
+Huaxiu Yao, Chelsea Finn, and Christopher D. Manning. Just ask for calibration: Strategies for eliciting calibrated
+confidence scores from language models fine-tuned with human feedback, 2023. Touvron et al.

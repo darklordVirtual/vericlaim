@@ -1,0 +1,21 @@
+Bo Peng
+
+Original RWKV idea, original code, performance optimizations, original experiments, and trained RWKV models from 0.1B to 14B. Eric Alcaide
+
+Manuscript (initial draft sections 1, C; sections 3, 7 and 8; revision and proofreading; final version ). Figures (2, 3, 3, 8). Experiments section 6. Appendices E, K. Contributions to Appendix M. Quentin Anthony
+
+Manuscript (organization, initial draft sections 1, C, 2; revision and proofreading; final version). Alon Albalak
+
+Manuscript (abstract and sections 1, 9, and 7; proofreading and revision). Samuel Arcadinho
+
+Contributions to Figures 7, 13, and 14. Contributions to Appendix K. Stella Biderman
+
+Performed the scaling laws analysis and evaluated competitor models on benchmark tasks. Huanqi Cao
+
+Manuscript (contributions to 3.2 and 3.3; proofreading and revision). Experiments for Appendix I. Xin Cheng
+
+Manuscript (proofreading and revision). Contributions to Appendix M, J. Michael Chung
+
+Manuscript (contributions to section I; proofreading and revision). Xingjian Du
+
+Evaluation on Long Range Arena Benchmark (TBD until 5.31).

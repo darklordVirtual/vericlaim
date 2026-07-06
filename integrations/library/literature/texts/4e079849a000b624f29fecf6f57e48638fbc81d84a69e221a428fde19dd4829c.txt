@@ -1,0 +1,37 @@
+International Journal of Gaming and
+Computer-Mediated Simulations 4, 2
+(2012), 37–59. Upton and Cook (2006)
+
+Graham Upton and Ian
+Cook. 2006. A Dictionary of Statistics
+(2 ed.). Oxford University Press,
+Oxford, United Kingdom. Vinyals et al. (2019)
+
+Oriol Vinyals, Igor
+Babuschkin, Wojciech M. Czarnecki, and
+et al. 2019. Grandmaster level in StarCraft II using multi-agent
+reinforcement learning. Nature 575
+(2019), 350–354. https://doi.org/10.1038/s41586-019-1724-z
+
+Wei et al. (2023)
+
+Jason Wei, Xuezhi Wang,
+Dale Schuurmans, Maarten Bosma,
+Brian Ichter, Fei Xia,
+Ed Chi, Quoc Le, and
+Denny Zhou. 2023. Chain-of-Thought Prompting Elicits Reasoning in Large
+Language Models. arXiv:2201.11903 [cs.CL]
+
+Weiser (1991)
+
+Mark Weiser. 1991. The computer for the 21st century. Scientific American 265,
+3 (1991), 94–104. https://doi.org/10.1038/scientificamerican0991-94
+
+Weizenbaum (1966)
+
+Joseph Weizenbaum. 1966. ELIZA—a computer program for the study of natural
+language communication between man and machine. Commun. ACM 9,
+1 (1966), 36–45. Winograd (1971)
+
+Terry Winograd. 1971. Procedures as a Representation for Data in a
+Computer Program for Understanding Natural Language. (1971). Wu et al.

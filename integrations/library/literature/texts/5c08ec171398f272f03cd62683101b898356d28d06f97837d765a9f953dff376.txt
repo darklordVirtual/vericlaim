@@ -1,0 +1,3 @@
+A.2.1 Dataset Description
+
+Table 7 summarizes the description of each dataset used in our experiment. Table 7: Dataset Description. Our experiments used publicly available datasets except for “Last Letters” and “Coin Flip” datasets. We created these two datasets. See Appendix A.2.2 for the details. (*1) N : Number, M : Pick up one from multiple choices, Y : Answer Yes or No, F : Free Format. (*2) Average number of words in questions texts.

@@ -1,0 +1,15 @@
+In order to mitigate the effects of the deterministic nature of the Atari simulator we employed two different evaluation strategies: 30 noop random starts and human starts. For the former, at the beginning of each episode a random number of between 0 and 30 noop actions are applied to the simulator before handing control to the agent. For the latter, start positions are sampled from human expert play to initialize the Atari simulator before handing the control to the agent [27]. Figure S1:
+
+Repeatability of MuZero in Atari for five games. Total reward is shown on the y-axis, millions of training steps on the x-axis. Dark line indicates median score across 10 separate training runs, light lines indicate individual training runs, and the shaded region indicates 25th to 75th percentile. Model
+
+Search
+
+Learning Rule
+
+Losses
+
+Figure S2:
+
+Equations summarising the MuZero algorithm. Here, refers to the representation of a real number through a linear combination of its adjacent integers, as described in the Network Architecture section. Figure S3:
+
+Details of MuZero evaluations (A-B) and policy improvement ablations (C-D).

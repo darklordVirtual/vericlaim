@@ -1,0 +1,33 @@
+{
+  "abstract": "We propose a framework for classifying the capabilities and behavior of Artificial General Intelligence (AGI) models and their precursors. This framework introduces levels of AGI performance, generality, and autonomy, providing a common language to compare models, assess risks, and measure progress along the path to AGI. To develop our framework, we analyze existing definitions of AGI, and distill six principles that a useful ontology for AGI should satisfy. With these principles in mind, we propose \"Levels of AGI\" based on depth (performance) and breadth (generality) of capabilities, and reflect on how current systems fit into this ontology. We discuss the challenging requirements for future benchmarks that quantify the behavior and capabilities of AGI models against these levels. Finally, we discuss how these levels of AGI interact with deployment considerations such as autonomy and risk, and emphasize the importance of carefully selecting Human-AI Interaction paradigms for responsible and safe deployment of highly capable AI systems.",
+  "accredited": false,
+  "authors": [
+    "Meredith Ringel Morris",
+    "Jascha Sohl-Dickstein",
+    "Noah Fiedel",
+    "Tris Warkentin",
+    "Allan Dafoe",
+    "Aleksandra Faust",
+    "Clement Farabet",
+    "Shane Legg"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T07:49:14.016747+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2311.02462"
+  },
+  "fulltext_sha256": "e489c0ff146ec4f732c2285d1bbe9098104c269c1399c0a14be1bb9bd81671b6",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "levels-agi-2023",
+    "fetched_at": "2026-07-06T07:47:23.441546+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "e80d8a07b6fb3f427fe93a4305675dce99e09dc9e04a1a204f133d4d41f943ac",
+  "title": "Levels of AGI for Operationalizing Progress on the Path to AGI",
+  "url": "https://arxiv.org/abs/2311.02462",
+  "venue": "arXiv",
+  "work_id": "arxiv:2311.02462",
+  "year": 2023
+}

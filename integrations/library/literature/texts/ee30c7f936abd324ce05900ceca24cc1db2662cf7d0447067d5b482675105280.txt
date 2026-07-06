@@ -1,0 +1,8 @@
+Without this complexity, Dreamer outperforms the best remaining methods, including the transformer-based IRIS and TWM agents, the model-free SPR, and SimPLe 45. •
+
+Proprio Control This benchmark contains 18 control tasks with continuous actions, proprioceptive vector inputs, and a budget of 500K environment steps 46. The tasks range from classical control over locomotion to robot manipulation tasks, featuring dense and sparse rewards. Dreamer sets a new state-of-the-art on this benchmark,
+outperforming D4PG, DMPO, and MPO 33. •
+
+Visual Control This benchmark consists of 20 continuous control tasks where the agent receives only high-dimensional images as input and has a budget of 1M environment steps 46. Dreamer establishes a new state-of-the-art on this benchmark, outperforming DrQ-v2 and CURL 47, which are specialized to visual environments and leverage data augmentation. •
+
+BSuite This benchmark includes 23 environments with a total of 468 configurations that are specifically designed to test credit assignment, robustness to reward scale and stochasticity, memory, generalization, and exploration 48.

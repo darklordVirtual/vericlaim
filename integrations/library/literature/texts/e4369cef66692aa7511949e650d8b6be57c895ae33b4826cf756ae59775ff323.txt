@@ -1,0 +1,15 @@
+•
+
+2 residual blocks with 128 planes
+
+•
+
+1 convolution with stride 2 and 256 output planes, output resolution 24x24. •
+
+3 residual blocks with 256 planes. •
+
+Average pooling with stride 2, output resolution 12x12. •
+
+3 residual blocks with 256 planes. •
+
+Average pooling with stride 2, output resolution 6x6. The kernel size is 3x3 for all operations. For the dynamics function (which always operates at the downsampled resolution of 6x6), the action is first encoded as an image, then stacked with the hidden state of the previous step along the plane dimension.

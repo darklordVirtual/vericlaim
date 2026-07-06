@@ -1,0 +1,22 @@
+Other hyperparameters are shown in Table 10. The percentile behavior cloning experiments use the same hyperparameters. Table 10: Hyperparameters of Behavior Cloning for OpenAI Gym experiments. Hyperparameter
+Value
+
+Number of layers
+
+Embedding dimension
+
+Nonlinearity function
+
+ReLU
+
+Batch size
+
+Dropout
+
+Learning rate
+
+Weight decay
+
+Learning rate decay
+
+Linear warmup for first training steps

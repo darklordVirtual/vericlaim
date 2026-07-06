@@ -1,0 +1,15 @@
+(Model cannot choose only one.) (GT : (A), Zero-shot: (E))
+
+Correct - CoT is
+INCORRECT
+
+Q: What would be necessary for getting in shape? Answer Choices: (A) good health (B) exercise (C) muscle tone (D) sweat (E) feel better
+
+A: Let’s think step by step. In order to get in shape, you need to be able to do three things: 1. Exercise regularly 2. Eat a healthy diet 3. Get enough sleep If you can do all three of those things, then you will be well on your way to getting in shape! Therefore, among A through E, the answer is B, C, and D. (Model cannot choose only one.) (GT : (B), Zero-shot: (B))
+
+Correct - CoT is
+INCORRECT
+
+Q: The man had a fear of illness, so he never visited friends who were a what? Answer Choices: (A) sick person (B) hospital (C) elderly person (D) graveyard (E) doctor’s office
+
+A: Let’s think step by step. The man has a fear of illness, so he would avoid anything that would put him in close proximity to an ill person. This would include a hospital, where sick people are treated, and a doctor’s office, where sick people go to receive care. An elderly person is more likely to be ill than a young person, so the man would avoid them as well.

@@ -1,0 +1,33 @@
+With a globe-trotting itinerary … (Omitted)
+
+Her first stop was Mexico, where she marveled at the Mayan ruins. From there, she explored the rainforests … (Omitted)
+
+Sublist frequencies:
+
+{{ "Canada": 1 }}
+
+{{ "Mexico": 1, "Brazil": 1, "Argentina": 1 }}
+
+Output: {{ "Canada": 1, "Mexico": 1, "Brazil": 1, "Argentina": 1 }}
+
+Input: The adventure led him to the peaks of Peru where he trekked to see the mysteries of Machu Picchu … (Omitted)
+
+Paragraphs:
+
+The adventure led him to the peaks of Peru where he trekked to see the mysteries of Machu Picchu. He then … (Omitted)
+
+A quick detour to Uruguay and Paraguay allowed him to experience the vibrancy of the local cultures before … (Omitted)
+
+Sublists:
+
+{{ "Peru": 1, "Chile": 1 }}
+
+{{ "Uruguay": 1, "Paraguay": 1, "Canada": 1, "Peru": 1, "Brazil": 1, "Mexico": 1 }}
+
+Output: {{ "Peru": 2, "Chile": 1, "Uruguay": 1, "Paraguay": 1, "Canada": 1, "Brazil": 1, "Mexico": 1 }}
+
+Input: Journeying westward, she admired the art in Italy and sipped coffee in France. The music of … (Omitted)
+
+Paragraphs:
+
+Journeying westward, she admired the art in Italy and sipped coffee in France.

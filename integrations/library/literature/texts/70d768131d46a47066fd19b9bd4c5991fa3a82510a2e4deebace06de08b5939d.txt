@@ -1,0 +1,8 @@
+Failing to adequately address these two questions would limit the framework’s scope of applicability and generality. While there is contemporaneous
+exploration of multi-agent approaches,222
+We refer to Appendix A for a detailed discussion. we present AutoGen, a generalized multi-agent conversation framework (Figure 1),
+based on the following new concepts. 1
+
+Customizable and conversable agents. AutoGen uses a generic design of agents that can leverage LLMs, human inputs, tools, or a combination of them. The result is that developers can easily and quickly create agents with different roles (e.g., agents to write code, execute code, wire in human feedback, validate outputs, etc.) by selecting and configuring a subset of built-in capabilities. The agent’s backend can also be readily extended to allow more custom behaviors. To make these agents suitable for multi-agent conversation, every
+agent is made conversable
+– they can receive, react, and respond to messages. When configured properly, an agent can hold multiple turns of conversations with other agents autonomously or solicit human inputs at certain rounds, enabling human agency and automation.

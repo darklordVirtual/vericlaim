@@ -1,0 +1,9 @@
+Hardware-friendly primitives such as convolutions [krizhevsky2012imagenet] and attention [bahdanau2015neural, vaswani2017attention] enjoy widespread application. Here we aim to make selective SSMs efficient on modern hardware (GPUs) as well. The selection mechanism is quite natural, and earlier works attempted to incorporate special cases of selection, such as letting vary over time in recurrent SSMs [gu2020hippo]. However,
+
+as previously mentioned a core limitation in the usage of SSMs is their computational efficiency,
+
+which was why S4 and all derivatives used LTI (non-selective) models, most commonly in the form of global convolutions. 3.3.1 Motivation of Prior Models
+
+We first revisit this motivation and overview our approach to overcome limitations of prior methods. •
+
+At a high level, recurrent models such as SSMs always balance a tradeoff between expressivity and speed: as discussed in Section˜3.1, models with larger hidden state dimension should be more effective but slower. Thus we want to maximize hidden state dimension without paying speed and memory costs.

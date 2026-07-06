@@ -1,0 +1,5 @@
+We focus on the decomposition of the sorting use case and Graph of Operations, which are central for implementing and executing any workload within GoT. We consider sorting numbers 0–9 with duplicates. The considered LLMs are unable to sort a sequence of such numbers correctly beyond a certain length consistently because duplicate counts do not match. In GoT, we employ merge-based sorting: First, one decomposes the input sequence of numbers into subarrays. Then, one sorts these subarrays individually, and then respectively merges them into a final solution. Figure 4 illustrates this use case together with its graph decomposition. Here, an LLM thought is a sequence of sorted numbers. To score an outcome, denote an input sequence with and an output one with . We use the following score that determines “the scope” of errors:
+
+where , , and
+
+Here, indicates how many consecutive pairs of numbers are incorrectly sorted. If two numbers and are incorrectly sorted (i.e., ), then the expression within the summation returns 1, increasing the error score by one. For two numbers correctly sorted, this expression amounts to 0.

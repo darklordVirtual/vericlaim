@@ -1,0 +1,1 @@
+We use random sampling with a temperature of 0.8. The generation is cut off at the maximum length of 2048 or a newline token.

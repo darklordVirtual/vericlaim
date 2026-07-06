@@ -1,0 +1,6 @@
+Transformers: State-of-the-art natural language processing. In Proceedings of EMNLP, 2020. URL https://aclanthology.org/2020.emnlp-demos.6. Zelikman et al. [2022]
+
+Eric Zelikman, Yuhuai Wu, and Noah D. Goodman. Star: Bootstrapping reasoning with reasoning, 2022. URL https://arxiv.org/abs/2203.14465. Zhang et al. [2022]
+
+Susan Zhang, Stephen Roller, Naman Goyal, Mikel Artetxe, Moya Chen, Shuohui
+Chen, Christopher Dewan, Mona Diab, Xian Li, Xi Victoria Lin, et al. Opt: Open pre-trained transformer language models. arXiv preprint arXiv:2205.01068, 2022. URL https://arxiv.org/abs/2205.01068.

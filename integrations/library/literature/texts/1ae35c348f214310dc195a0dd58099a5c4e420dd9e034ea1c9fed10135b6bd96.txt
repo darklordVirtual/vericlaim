@@ -1,0 +1,13 @@
+SSNNs, which are to SSM layers as CNNs are to linear convolution layers.)
+
+We discuss some of the most well-known SSM architectures, many of which will also serve as our primary baselines. •
+
+Linear attention [katharopoulos2020transformers] is an approximation of self-attention involving a recurrence which can be viewed as a degenerate linear SSM. •
+
+H3 [dao2023hungry] generalized this recurrence to use S4; it can be viewed as an architecture with an SSM sandwiched by two gated connections (Figure˜3). H3 also inserts a standard local convolution, which they frame as a shift-SSM, before the main SSM layer. •
+
+Hyena [poli2023hyena] uses the same architecture as H3 but replaces the S4 layer with an MLP-parameterized global convolution [romero2021ckconv]. •
+
+RetNet [sun2023retentive] adds an additional gate to the architecture and uses a simpler SSM, allowing an alternative parallelizable computation path, using a variant of multi-head attention (MHA) instead of convolutions. •
+
+RWKV [peng2023rwkv] is a recent RNN designed for language modeling based on another linear attention approximation, the attention-free Transformer [zhai2021attention].

@@ -1,0 +1,6 @@
+For every 4 pounds they recycled they earned one point. If Paige recycled 14 pounds and her friends recycled 2 pounds, how many points did they earn? A: Paige and her friends would have earned 3 points for recycling paper. ✗ (GT : 4)
+
+Table 19: An example output by Zero-Plus-Few-Shot-CoT (8 exemplars in context. These exemplars are cited from [Wei et al., 2022] and randomly shuffled). Zero-Plus-Few-Shot-CoT
+
+***** Start In-Context Examples *****
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny? A: Let’s think step by step. Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8. Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday? A: Let’s think step by step. Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33. Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? A: Let’s think step by step.

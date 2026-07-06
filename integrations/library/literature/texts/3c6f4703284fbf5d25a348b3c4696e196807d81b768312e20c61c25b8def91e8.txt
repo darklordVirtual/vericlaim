@@ -1,0 +1,5 @@
+•
+
+RWKV [peng2023rwkv] is a recent RNN designed for language modeling based on another linear attention approximation, the attention-free Transformer [zhai2021attention]. Its main “WKV” mechanism involves LTI recurrences and can be viewed as the ratio of two SSMs. Other closely related SSMs and architectures are discussed further in an extended related work (LABEL:sec:related). We highlight in particular S5 [smith2023s5], QRNN [bradbury2016quasi],
+and SRU [lei2017simple],
+which we view as the most closely related methods to our core selective SSM.

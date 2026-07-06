@@ -1,0 +1,7 @@
+The full participant instructions are shown in Appendix A. The Model
+
+We use a 52B-parameter language model fine-tuned for use as a helpful dialog assistant according to the RLHF-based technique described in (Bai et al., 2022).666We use a model trained only to be helpful, rather than helpful and harmless as in the core experiments from Bai et al. Experimental Conditions
+
+We report results from five conditions:
+
+1. Unassisted Human: We ask our human participants to answer the questions to the best of their ability without the help of the model or any other outside resources (including web search). For these results and our other human results, we report average individual human accuracy and the accuracy of the confidence-weighted majority-vote777We score each answer using the product of the probabilities assigned to each answer by each participant and select the answer with the highest score. This allows a highly-uncertain annotator who chooses the minimum 25% confidence value to avoid influencing the consensus answer. We assign equal probability to each non-selected answer, so an annotator who selects answer (B) with 60% confidence would implicitly be assigning probabilities .

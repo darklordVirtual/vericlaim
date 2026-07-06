@@ -1,0 +1,115 @@
+(*2) We insert “Let’s think step by step.” at the beginning of answer part of each exemplars for Few-shot-CoT to test performance gains. Further experiment results with PaLM are found at Appendix D
+
+MultiArith
+
+GSM8K
+
+Zero-Shot
+
+17.7
+
+10.4
+
+Few-Shot (2 samples)
+
+33.7
+
+15.6
+
+Few-Shot (8 samples)
+
+33.8
+
+15.6
+
+Zero-Shot-CoT
+
+78.7
+
+40.7
+
+Few-Shot-CoT (2 samples)
+
+84.8
+
+41.3
+
+Few-Shot-CoT (4 samples : First) (*1)
+
+89.2
+
+-
+
+Few-Shot-CoT (4 samples : Second) (*1)
+
+90.5
+
+-
+
+Few-Shot-CoT (8 samples)
+
+93.0
+
+48.7
+
+Zero-Plus-Few-Shot-CoT (8 samples) (*2)
+
+92.8
+
+51.5
+
+Finetuned GPT-3 175B (Wei et al., 2022)
+
+-
+
+33
+
+Finetuned GPT-3 175B + verifier (Wei et al., 2022)
+
+-
+
+55
+
+PaLM 540B: Zero-Shot
+
+25.5
+
+12.5
+
+PaLM 540B: Zero-Shot-CoT
+
+66.1
+
+43.0
+
+PaLM 540B: Zero-Shot-CoT + self consistency
+
+89.0
+
+70.1
+
+PaLM 540B: Few-Shot (Wei et al., 2022)
+
+-
+
+17.9
+
+PaLM 540B: Few-Shot-CoT (Wei et al., 2022)
+
+-
+
+56.9
+
+PaLM 540B: Few-Shot-CoT + self consistency (Wang et al., 2022)
+
+-
+
+74.4
+
+(a) MultiArith on Original GPT-3
+
+(b) MultiArith on Instruct GPT-3
+
+(c) GMS8K on PaLM
+
+Figure 3: Model scale study with various types of models. S: text-ada-001, M: text-babbage-001, L: text-curie-001, XL: text-davinci-002.

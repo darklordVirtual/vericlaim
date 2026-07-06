@@ -1,0 +1,9 @@
+GPT-4 and GPT-3.5 offer users the ability to designate the role of each prompt message among three options:
+
+•
+
+System: A high-level instruction that guides the model behavior throughout the conversation. It sets the overall tone and objective for the interaction. •
+
+User: A detailed instruction that guides the assistant for the next immediate response. •
+
+Assistant: A response message generated the model. See https://platform.openai.com/docs/guides/chat/introduction for more details. To save token usage, instead of engaging in multi-round conversations, we concatenate a system prompt and a user prompt to obtain each assistant’s response.

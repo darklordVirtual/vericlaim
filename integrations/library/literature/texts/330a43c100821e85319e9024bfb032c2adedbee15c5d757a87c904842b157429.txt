@@ -1,0 +1,18 @@
+Similarity of neural network representations revisited. In International conference on machine learning, pp. 3519–3529. PMLR, 2019. Krizhevsky et al. (2009)
+
+Krizhevsky, A., Hinton, G., et al. Learning multiple layers of features from tiny images. 2009. Krizhevsky et al. (2017)
+
+Krizhevsky, A., Sutskever, I., and Hinton, G. E. Imagenet classification with deep convolutional neural networks. Communications of the ACM, 60(6):84–90,
+2017. Lample et al. (2018)
+
+Lample, G., Ott, M., Conneau, A., Denoyer, L., and Ranzato, M. Phrase-based & neural unsupervised machine translation. In Riloff, E., Chiang, D., Hockenmaier, J., and Tsujii, J. (eds.),
+Proceedings of the 2018 Conference on Empirical Methods in Natural
+Language Processing, Brussels, Belgium, October-November 2018. Association
+for Computational Linguistics. Lenc & Vedaldi (2015)
+
+Lenc, K. and Vedaldi, A. Understanding image representations by measuring their equivariance
+and equivalence. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 991–999, 2015. Li et al. (2023)
+
+Li, T., Katabi, D., and He, K. Return of unconditional generation: A self-supervised representation
+generation method.

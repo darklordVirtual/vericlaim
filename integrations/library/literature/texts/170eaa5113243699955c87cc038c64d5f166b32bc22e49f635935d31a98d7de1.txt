@@ -1,0 +1,19 @@
+Welleck et al. (2022)
+
+Sean Welleck, Ximing Lu, Peter West, Faeze Brahman, Tianxiao Shen, Daniel
+Khashabi, and Yejin Choi. 2022. Generating sequences by learning to self-correct. arXiv preprint arXiv:2211.00053. Wu et al. (2023)
+
+Philipp Wu, Alejandro Escontrela, Danijar Hafner, Pieter Abbeel, and Ken
+Goldberg. 2023. Daydreamer: World models for physical robot learning. In Conference on Robot Learning, pages 2226–2240. PMLR. Xiang et al. (2023)
+
+Jiannan Xiang, Tianhua Tao, Yi Gu, Tianmin Shu, Zirui Wang, Zichao Yang, and
+Zhiting Hu. 2023. Language models meet world models: Embodied experiences enhance
+language models. Advances in neural information processing systems, 36. Yao et al. (2023)
+
+Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L Griffiths, Yuan Cao,
+and Karthik Narasimhan. 2023. Tree of thoughts: Deliberate problem solving with large language
+models. arXiv preprint arXiv:2305.10601. Zhou et al. (2022)
+
+Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi
+Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, and Ed Chi. 2022. Least-to-most prompting enables complex reasoning in large language
+models. arXiv preprint arXiv:2205.10625. Zhu et al.

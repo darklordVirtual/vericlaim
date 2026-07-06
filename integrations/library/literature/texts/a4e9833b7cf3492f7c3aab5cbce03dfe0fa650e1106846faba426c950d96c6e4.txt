@@ -1,0 +1,11 @@
+AGI;
+
+ASI
+
+misalignment
+
+concentration
+
+of power
+
+While capabilities provide prerequisites for AI risks, AI systems (including AGI systems) do not and will not operate in a vacuum. Rather, AI systems are deployed with particular interfaces and used to achieve particular tasks in specific scenarios. These contextual attributes (interface, task, scenario, end-user) have substantial bearing on risk. Consider, for instance, the affordances of user interfaces for AGI systems. Increasing capabilities unlock new interaction paradigms, but do not determine them. Rather, system designers and end-users will settle on a mode of human-AI interaction (Morris et al., 2023) that balances a variety of considerations, including safety. We propose characterizing human-AI interaction paradigms with six Levels of Autonomy, described in Table 2. These Levels of Autonomy are correlated with the Levels of AGI. Higher levels of autonomy are “unlocked” by AGI capability progression, though lower levels of autonomy may be desirable for particular tasks and contexts even as we reach higher levels of AGI.

@@ -1,0 +1,107 @@
+We detail the concrete operations that GoT was configured with to solve the set intersection and sorting use cases. Listing 1 GoT configuration for the set intersection use case with 32 elements
+
+⬇
+
+1Generate(k=1) # Split second set into two halves of 16 elements
+
+2foreach subset:
+
+3 Generate(k=5) # Determine intersected subset of subset and first input set
+
+4 Score(k=1) # Score locally the intersected subsets
+
+5 KeepBestN(1) # Keep the best intersected subset
+
+6Aggregate(10) # Merge both intersected subsets
+
+7Score(k=1) # Score locally the intersected result sets
+
+8KeepBestN(1) # Keep the best result
+
+9GroundTruth() # Compare to precomputed result
+
+\ssmall
+
+Listing 2 GoT configuration for the set intersection use case with 64 elements
+
+⬇
+
+1Generate(k=1) # Split second set into four parts of 16 elements
+
+2foreach subset:
+
+3 Generate(k=5) # Determine intersected subset of subset and first input set
+
+4 Score(k=1) # Score locally the intersected subsets
+
+5 KeepBestN(1) # Keep the best intersected subset
+
+6merge step 1:
+
+7 Aggregate(10) # Merge intersected subsets 1 and 2
+
+8 Score(k=1) # Score locally the intersected result sets
+
+9 KeepBestN(1) # Keep the best result
+
+10merge step 2:
+
+11 Aggregate(10) # Merge intersected subsets 3 and 4
+
+12 Score(k=1) # Score locally the intersected result sets
+
+13 KeepBestN(1) # Keep the best result
+
+14final merge:
+
+15 Aggregate(10) # Merge intermediate intersected subsets from merge step 1 and 2
+
+16 Score(k=1) # Score locally the intersected result sets
+
+17 KeepBestN(1) # Keep the best result
+
+18GroundTruth() # Compare to precomputed result
+
+\ssmall
+
+Listing 3 GoT configuration for the set intersection use case with 128 elements
+
+⬇
+
+1Generate(k=1) # Split second set into eight parts of 16 elements
+
+2foreach subset:
+
+3 Generate(k=5) # Determine intersected subset of subset and first input set
+
+4 Score(k=1) # Score locally the intersected subsets
+
+5 KeepBestN(1) # Keep the best intersected subset
+
+6merge step 1:
+
+7 Aggregate(5) # Merge intersected subsets 1 and 2
+
+8 Score(k=1) # Score locally the intersected result sets
+
+9 KeepBestN(1) # Keep the best result
+
+10merge step 2:
+
+11 Aggregate(5) # Merge intersected subsets 3 and 4
+
+12 Score(k=1) # Score locally the intersected result sets
+
+13 KeepBestN(1) # Keep the best result
+
+14merge step 3:
+
+15 Aggregate(5) # Merge intersected subsets 5 and 6
+
+16 Score(k=1) # Score locally the intersected result sets
+
+17 KeepBestN(1) # Keep the best result
+
+18merge step 4:
+
+19 Aggregate(5) # Merge intersected

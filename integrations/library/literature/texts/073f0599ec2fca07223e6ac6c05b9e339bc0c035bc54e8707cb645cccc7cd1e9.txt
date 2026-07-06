@@ -1,0 +1,18 @@
+Matrix computations, volume 3. JHU press, 2013. Gu et al. [2020a]
+
+Albert Gu, Tri Dao, Stefano Ermon, Atri Rudra, and Christopher Ré. Hippo: Recurrent memory with optimal polynomial projections. In Advances in Neural Information Processing Systems
+(NeurIPS), 2020a. Gu et al. [2020b]
+
+Albert Gu, Caglar Gulcehre, Tom Le Paine, Matt Hoffman, and Razvan Pascanu. Improving the gating mechanism of recurrent neural networks. In The International Conference on Machine Learning (ICML),
+2020b. Gu et al. [2021]
+
+Albert Gu, Isys Johnson, Karan Goel, Khaled Saab, Tri Dao, Atri Rudra, and
+Christopher Ré. Combining recurrent, convolutional, and continuous-time models with
+the structured learnable linear state space layer. In Advances in Neural Information Processing Systems
+(NeurIPS), 2021. Gu et al. [2022a]
+
+Albert Gu, Ankit Gupta, Karan Goel, and Christopher Ré. On the parameterization and initialization of diagonal state space
+models. arXiv preprint arXiv:2206.11893, 2022a. Gu et al. [2022b]
+
+Albert Gu, Isys Johnson, Aman Timalsina, Atri Rudra, and Christopher Ré. How to train your hippo: State space models with generalized basis
+projections. arXiv preprint arXiv:2206.12037, 2022b.

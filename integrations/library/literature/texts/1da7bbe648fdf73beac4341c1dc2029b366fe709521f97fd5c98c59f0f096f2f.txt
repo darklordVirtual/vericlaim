@@ -1,0 +1,15 @@
+2. Count the frequency of each country in each paragraph. 3. Combine the frequencies of each country from each paragraph by adding them together. </Approach>
+
+<Examples> See Table 18 </Examples>
+
+Input: It reminded me of a documentary I’d watched about the ancient Silk Road that spanned across Iran and China. It touched upon the shared historical narratives of Iran and China, highlighting how goods, ideas, and culture flowed between these two countries for centuries. Intriguingly, the documentary also brought up some parallels between this eastern route and the vibrant exchange between Italy and France during the Renaissance. The cultural and intellectual bonds between Italy and France were indeed profound, just as the resilient trade relations that existed between the United States and Canada. Step 2b – 10 Responses:
+
+1. {{ "Iran": 1, "China": 1, "Italy": 1, "France": 1, "United States": 1, "Canada": 1 }}
+
+(4 Errors - Missing one ”Iran”, one ”China”, one ”Italy” and one ”France”)
+
+2. {{ "Iran": 1, "China": 1, "Italy": 1, "France": 1, "United States": 1, "Canada": 1 }}
+
+(4 Errors - Missing one ”Iran”, one ”China”, one ”Italy” and one ”France”)
+
+3.

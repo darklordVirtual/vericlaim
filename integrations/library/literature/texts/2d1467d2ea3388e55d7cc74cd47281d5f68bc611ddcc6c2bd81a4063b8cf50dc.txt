@@ -1,0 +1,19 @@
+2020a. Li et al. (2016)
+
+Li, J., Miller, A. H., Chopra, S., Ranzato, M., and Weston, J. Learning through dialogue interactions by asking questions. arXiv preprint arXiv:1612.04936, 2016. Li et al. (2020b)
+
+Li, X., Yin, X., Li, C., Hu, X., Zhang, P., Zhang, L., Wang, L., Hu, H., Dong,
+L., Wei, F., et al. Oscar: Object-semantics aligned pre-training for vision-language
+tasks. arXiv preprint arXiv:2004.06165, 2020b. Liang et al. (2020)
+
+Liang, W., Zou, J., and Yu, Z. Alice: Active learning with contrastive natural language
+explanations. arXiv preprint arXiv:2009.10259, 2020. Lin et al. (2014)
+
+Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D.,
+Dollár, P., and Zitnick, C. L. Microsoft coco: Common objects in context. In European conference on computer vision, pp. 740–755. Springer, 2014. Linzen (2020)
+
+Linzen, T. How can we accelerate progress towards human-like linguistic
+generalization? arXiv preprint arXiv:2005.00955, 2020. Lippe et al. (2020)
+
+Lippe, P., Holla, N., Chandra, S., Rajamanickam, S., Antoniou, G., Shutova, E.,
+and Yannakoudakis, H. A multimodal framework for the detection of hateful memes. arXiv preprint arXiv:2012.12871, 2020. Liu et al.

@@ -1,0 +1,6 @@
+2022. Least-to-most prompting enables complex reasoning in large language
+models. arXiv preprint arXiv:2205.10625. Zhu et al. (2022)
+
+Xinyu Zhu, Junjie Wang, Lin Zhang, Yuxiang Zhang, Ruyi Gan, Jiaxing Zhang, and
+Yujiu Yang. 2022. Solving math word problem via cooperative reasoning induced language
+models. arXiv preprint arXiv:2210.16257.

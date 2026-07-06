@@ -1,0 +1,19 @@
+2633–2650, 2021. Carlini et al. (2023)
+
+Nicolas Carlini, Jamie Hayes, Milad Nasr, Matthew Jagielski, Vikash Sehwag,
+Florian Tramer, Borja Balle, Daphne Ippolito, and Eric Wallace. Extracting training data from diffusion models. In 32nd USENIX Security Symposium (USENIX Security 23), pp. 5253–5270, 2023. Carlsmith (2022)
+
+Joseph Carlsmith. Is power-seeking ai an existential risk? arXiv preprint arXiv:2206.13353, 2022. Carlsmith (2023)
+
+Joseph Carlsmith. Existential risk from power-seeking ai. Oxford University Press, 2023. Caron et al. (2021)
+
+Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr
+Bojanowski, and Armand Joulin. Emerging properties in self-supervised vision transformers, 2021. Chen et al. (2023)
+
+Yida Chen, Fernanda Viégas, and Martin Wattenberg. Beyond surface statistics: Scene representations in a latent
+diffusion model, 2023. Chiang et al. (2023)
+
+Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng, Zhanghao Wu, Hao Zhang, Lianmin
+Zheng, Siyuan Zhuang, Yonghao Zhuang, Joseph E. Gonzalez, Ion Stoica, and
+Eric P. Xing. Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt
+quality, March 2023. Clark et al.

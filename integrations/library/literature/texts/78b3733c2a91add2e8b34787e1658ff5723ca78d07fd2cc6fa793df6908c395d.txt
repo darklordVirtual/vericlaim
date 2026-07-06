@@ -1,0 +1,12 @@
+•
+
+Instead of computing directly,
+we compute its spectrum by evaluating its truncated generating function at the roots of unity . can then be found by applying an inverse FFT. •
+
+This generating function is closely related to the matrix resolvent, and now involves a matrix inverse instead of power. The low-rank term can now be corrected by applying the Woodbury identity which reduces in terms of , truly reducing to the diagonal case. •
+
+Finally, we show that the diagonal matrix case is equivalent to the computation of a Cauchy kernel , a well-studied problem with stable near-linear algorithms [31, 30]. Our techniques apply to any matrix that can be decomposed as Normal Plus Low-Rank (NPLR). Theorem 1. All HiPPO matrices from [16] have a NPLR representation
+
+(6)
+
+for unitary , diagonal , and low-rank factorization . These matrices HiPPO- LegS, LegT, LagT all satisfy or . In particular, equation (2) is NPLR with .

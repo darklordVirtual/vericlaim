@@ -1,0 +1,12 @@
+Reduction 3: Cauchy Kernel
+
+We have reduced the original problem of computing to the problem of computing the SSM generating function
+in the case that is a diagonal matrix. We show that this is exactly the same as a Cauchy kernel, which is a well-studied problem with fast and stable numerical algorithms. Definition 3. A Cauchy matrix or kernel on nodes and is
+
+The computation time of a Cauchy matrix-vector product of size is denoted by . Computing with Cauchy matrices is an extremely well-studied problem in numerical analysis,
+with both fast arithmetic algorithms and fast numerical algorithms based on the famous Fast Multipole Method (FMM)
+[29, 31, 30]. Proposition 5 (Cauchy). A Cauchy kernel requires space, and operation count
+
+Corollary C.5. Evaluating (defined in Lemma C.3) for any set of nodes , diagonal matrix , and vectors can be computed in operations and space, where is the cost of a Cauchy matrix-vector multiplication. Proof. For any fixed , we want to compute . Computing this over all is therefore exactly a Cauchy matrix-vector multiplication. ∎
+
+This completes the proof of Theorem 3.

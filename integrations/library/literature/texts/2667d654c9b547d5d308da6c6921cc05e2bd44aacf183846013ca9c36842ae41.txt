@@ -1,0 +1,10 @@
+[2308.09687] Graph of Thoughts: Solving Elaborate Problems with Large Language Models
+
+\xpatchcmd
+
+00
+
+\hfsetbordercolorwhite
+\hfsetfillcolorvlgray
+
+\stackMath

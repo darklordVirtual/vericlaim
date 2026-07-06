@@ -1,0 +1,5 @@
+To estimate returns that consider rewards beyond the prediction horizon, we compute bootstrapped -returns 29 that integrate the predicted rewards and the values. The critic learns to predict the distribution of the return estimates using the maximum likelihood loss:
+
+(5)
+
+While a simple choice would be to parameterize the critic as a Normal distribution, the return distribution can have multiple modes and vary by orders of magnitude across environments. To stabilize and accelerate learning under these conditions, we parameterize the critic as categorical distribution with exponentially spaced bins, decoupling the scale of gradients from the prediction targets as described later. To improve value prediction in environments where rewards are challenging to predict, we apply the critic loss both to imagined trajectories with loss scale and to trajectories sampled from the replay buffer with loss scale . The critic replay loss uses the imagination returns at the start states of the imagination rollouts as on-policy value annotations for the replay trajectory to then compute -returns over the replay rewards.

@@ -1,0 +1,31 @@
+Commun. ACM 9,
+1 (1966), 36–45. Winograd (1971)
+
+Terry Winograd. 1971. Procedures as a Representation for Data in a
+Computer Program for Understanding Natural Language. (1971). Wu et al. (2021)
+
+Jeff Wu, Long Ouyang,
+Daniel M. Ziegler, Nisan Stiennon,
+Ryan Lowe, Jan Leike, and
+Paul Christiano. 2021. Recursively Summarizing Books with Human Feedback. arXiv:2109.10862 [cs.CL]
+
+Wu et al. (2022a)
+
+Tongshuang Wu, Ellen
+Jiang, Aaron Donsbach, Jeff Gray,
+Alejandra Molina, Michael Terry, and
+Carrie J Cai. 2022a. PromptChainer: Chaining Large Language Model
+Prompts through Visual Programming. In CHI EA ’22:
+Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing
+Systems. Wu et al. (2022b)
+
+Tongshuang Wu, Michael
+Terry, and Carrie J Cai. 2022b. AI Chains: Transparent and Controllable Human-AI
+Interaction by Chaining Large Language Model Prompts. In
+CHI ’22: Proceedings of the 2022 CHI Conference on
+Human Factors in Computing Systems. Yang et al. (2020)
+
+Qian Yang, Aaron
+Steinfeld, Carolyn Rosé, and John
+Zimmerman. 2020. Re-examining whether, why, and how human-AI
+interaction is uniquely difficult to design.

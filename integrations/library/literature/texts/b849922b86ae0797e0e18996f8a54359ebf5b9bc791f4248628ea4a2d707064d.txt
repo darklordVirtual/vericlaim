@@ -1,0 +1,163 @@
+See Appendix A.2.2 for the details. (*1) N : Number, M : Pick up one from multiple choices, Y : Answer Yes or No, F : Free Format. (*2) Average number of words in questions texts. Dataset
+
+Answer Format (*1)
+
+# of
+samples
+
+Avg #
+words
+(*2)
+
+Data split (filename)
+used for our experiment
+
+License
+
+SingleEq
+
+N
+
+508
+
+27.4
+
+questions.json
+
+No License
+
+AddSub
+
+N
+
+395
+
+31.5
+
+AddSub.json
+
+Unspecified
+
+MultiArith
+
+N
+
+600
+
+31.8
+
+MultiArith.json
+
+Unspecified
+
+GSM8K
+
+N
+
+1319
+
+46.9
+
+test.jsonl
+
+MIT License
+
+AQUA-RAT
+
+M
+
+254
+
+51.9
+
+test.jsonl
+
+Apache-2.0
+
+SVAMP
+
+N
+
+1000
+
+31.8
+
+SVAMP.json
+
+MIT License
+
+CommonsenseQA
+
+M
+
+1221
+
+27.8
+
+dev_rand_split.jsonl
+
+Unspecified
+
+StrategyQA
+
+Y
+
+2290
+
+9.6
+
+task.json
+
+Apache-2.0
+
+Date Understanding
+
+M
+
+369
+
+35.0
+
+task.json
+
+Apache-2.0
+
+Shuffled Objects
+
+M
+
+750
+
+91.1
+
+three_objects/task.json
+
+Apache-2.0
+
+Last Letters
+
+F
+
+500
+
+15.0
+
+-
+
+-
+
+Coin Flip
+
+Y
+
+500
+
+37.0
+
+-
+
+-
+
+A.2.2 Dataset creation
+
+Regarding “Last Letter Concatenation” and “Coin Flip”, datasets are not publicly available so we created the datasets following Wei et al. [2022] with a minor rephrasing of the question template. Specifically, as for Last Letter Concatenation, we use the following template.

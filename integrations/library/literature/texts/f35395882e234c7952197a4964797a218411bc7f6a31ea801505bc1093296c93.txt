@@ -1,0 +1,19 @@
+All -values are below . Our vision-vision analysis in Figure 2 is based on the first metric (Mutual -NN with and ). (a) CKA
+
+(b) Unbiased CKA
+
+(c) SVCCA
+
+(d) Mutual -NN ()
+
+Figure 13: Cross-modal alignment for various metrics
+
+(a) CKNNA ()
+
+(b) Cycle -NN ()
+
+(c) Edit-distance -NN ()
+
+(d) Longest-Common-Subsequence -NN ()
+
+Figure 14: Cross-modal alignment measured with various metrics

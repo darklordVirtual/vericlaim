@@ -1,0 +1,48 @@
+16:
+(Ablations: SSM state dimension.)
+(Top) Constant and
+(Bottom) Selective and . Increasing the SSM state dimension , which can be viewed as an expansion factor on the dimension of the recurrent state, can significantly improve performance for a negligible cost in parameters/FLOPs, but only when and are also selective. Size of projection fixed to . State dimension
+Params (M)
+Perplexity
+
+367.1
+
+9.88
+
+367.4
+
+9.86
+
+368.0
+
+9.82
+
+369.1
+
+9.82
+
+371.5
+
+9.81
+
+367.1
+
+9.73
+
+367.4
+
+9.40
+
+368.0
+
+9.09
+
+369.1
+
+8.84
+
+371.5
+
+8.71
+
+Of particular note is the dramatic improvement of the selective SSM when the state size is increased, with over a 1.0 perplexity improvement for a cost of only 1% additional parameters. This validates our core motivation in Sections˜3.1 and 3.3.

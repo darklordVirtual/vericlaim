@@ -1,0 +1,19 @@
+2022. Chain-of-Thought Prompting Elicits Reasoning in Large Language
+Models. arXiv:2201.11903. Wu et al. [2022]
+
+Wu, T.; Jiang, E.; Donsbach, A.; Gray, J.; Molina, A.; Terry, M.; and Cai,
+C. J. 2022. PromptChainer: Chaining Large Language Model Prompts through Visual
+Programming. In Extended Abstracts of the Conference on Human Factors in
+Computing Systems, CHI EA ’22. ACM. Wu, Terry, and Cai [2022]
+
+Wu, T.; Terry, M.; and Cai, C. J. 2022. AI Chains: Transparent and Controllable Human-AI Interaction by
+Chaining Large Language Model Prompts. In Proceedings of the Conference on Human Factors in Computing
+Systems, CHI ’22. ACM. Wu et al. [2021]
+
+Wu, Z.; Pan, S.; Chen, F.; Long, G.; Zhang, C.; and Yu, P. S. 2021. A Comprehensive Survey on Graph Neural Networks. IEEE Transactions on Neural Networks and Learning Systems,
+32(1): 4–24. Xie et al. [2023]
+
+Xie, Y.; Kawaguchi, K.; Zhao, Y.; Zhao, X.; Kan, M.-Y.; He, J.; and Xie, Q. 2023. Self-Evaluation Guided Beam Search for Reasoning. In Advances in Neural Information Processing Systems (NeurIPS
+’23), volume 36. Curran Associates. Yang et al. [2023]
+
+Yang, S.; Nachum, O.; Du, Y.; Wei, J.; Abbeel, P.; and Schuurmans, D. 2023.

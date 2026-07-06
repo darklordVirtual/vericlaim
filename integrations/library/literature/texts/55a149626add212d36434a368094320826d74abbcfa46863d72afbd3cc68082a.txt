@@ -1,0 +1,14 @@
+Lamda: Language models for dialog applications, 2022. URL https://arxiv.org/abs/2201.08239. Vaswani et al. [2017]
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Ł ukasz Kaiser, and Illia Polosukhin. Attention is all you need. In I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus,
+S. Vishwanathan, and R. Garnett, editors, Advances in NeurIPS, 2017. URL
+https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf. Wang and Komatsuzaki [2021]
+
+Ben Wang and Aran Komatsuzaki. GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model. https://github.com/kingoflolz/mesh-transformer-jax, May 2021. Wang et al. [2022]
+
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, and Denny Zhou. Self-consistency improves chain of thought reasoning in language
+models. arXiv preprint arXiv:2203.11171, 2022. URL https://arxiv.org/abs/2203.11171. Webson and Pavlick [2022]
+
+Albert Webson and Ellie Pavlick. Do prompt-based models really understand the meaning of their
+prompts?

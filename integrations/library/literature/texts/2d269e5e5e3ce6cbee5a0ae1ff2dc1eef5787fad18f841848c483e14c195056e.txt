@@ -1,0 +1,9 @@
+Moreover, to avoid amplifying noise from function approximation under sparse rewards, we only scale down large return magnitudes but leave small returns below the threshold of untouched. We use the Reinforce estimator 31 for both discrete and continuous actions, resulting in the surrogate loss function:
+
+(6)
+
+The return distribution can be multi-modal and include outliers, especially for randomized environments where some episodes have higher achievable returns than others. Normalizing by the smallest and largest observed returns would then scale returns down too much and may cause suboptimal convergence. To be robust to these outliers, we compute the range from the 5th to the 95th return percentile over the return batch and smooth out the estimate using an exponential moving average:
+
+(7)
+
+Previous work typically normalizes advantages5 rather than returns, which puts a fixed amount of emphasis on maximizing returns over entropy regardless of whether rewards are within reach. Scaling up advantages when rewards are sparse can amplify noise that outweighs the entropy regularizer and stagnates exploration.

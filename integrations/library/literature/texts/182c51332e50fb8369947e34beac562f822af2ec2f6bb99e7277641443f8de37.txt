@@ -1,0 +1,21 @@
+of programs ellis2020dreamcoder , we represent each skill with executable code that scaffolds temporally extended actions for completing a specific task proposed by the automatic curriculum. The input prompt to GPT-4 consists of the following components:
+
+(1)
+
+Guidelines for code generation, such as “Your function will be reused for building more complex functions. Therefore, you should make it generic and reusable.”;
+
+(2)
+
+Control primitive APIs, and relevant skills retrieved from the skill library, which are crucial for in-context learning wei2022emergent ; brown2020gpt3 ; raffel2020t5 to work well;
+
+(3)
+
+The generated code from the last round, environment feedback, execution errors, and critique, based on which GPT-4 can self-improve (Sec. 2.3);
+
+(4)
+
+The agent’s current state, including inventory, equipment, nearby blocks and entities, biome, time, health and hunger bars, and position;
+
+(5)
+
+Chain-of-thought prompting wei2022chain to do reasoning before code generation. We iteratively refine the program through a novel iterative prompting mechanism (Sec. 2.3), incorporate it into the skill library as a new skill, and index it by the embedding of its description (Fig. 4, top).

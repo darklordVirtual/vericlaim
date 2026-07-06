@@ -1,0 +1,21 @@
+To make reasoning processes more readable and share them with the open community, we explore DeepSeek-R1, a method that utilizes RL with human-friendly cold-start data. Question: If , then the sum of the real solutions of is equal to
+
+Response: <think>
+
+To solve the equation , let’s start by squaring both
+
+Rearrange to isolate the inner square root term:
+
+…
+
+Wait, wait. Wait. That’s an aha moment I can flag here. Let’s reevaluate this step-by-step to identify if the correct sum can be
+
+We started with the equation:
+
+First, let’s square both sides:
+
+Next, I could square both sides again, treating the equation:
+
+…
+
+Table 3: An interesting “aha moment” of an intermediate version of DeepSeek-R1-Zero. The model learns to rethink using an anthropomorphic tone. This is also an aha moment for us, allowing us to witness the power and beauty of reinforcement learning.

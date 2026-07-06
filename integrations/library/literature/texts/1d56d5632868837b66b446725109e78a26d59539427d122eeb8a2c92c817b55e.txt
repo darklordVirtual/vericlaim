@@ -1,0 +1,5 @@
+The representations are sampled from a vector of softmax distributions and we take straight-through gradients through the sampling step 25, 22. Given a sequence batch of inputs , actions , rewards , and continuation flags , the world model parameters are optimized end-to-end to minimize the prediction loss , the dynamics loss , and the representation loss with corresponding loss weights , , and :
+
+(2)
+
+Figure 4: Multi-step video predictions of a DMLab maze (top) and a quadrupedal robot (bottom). Given 5 context images and the full action sequence, the model predicts 45 frames into the future without access to intermediate images. The world model learns an understanding of the underlying structure of each environment. The prediction loss trains the decoder and reward predictor via the symlog squared loss described later, and the continue predictor via logistic regression. The dynamics loss trains the sequence model to predict the next representation by minimizing the KL divergence between the predictor and the next stochastic representation .

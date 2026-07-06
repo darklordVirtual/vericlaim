@@ -1,0 +1,30 @@
+2001. Human-Level AI’s Killer Application: Interactive
+Computer Games. AI Magazine 22,
+2 (2001), 15. https://doi.org/10.1609/aimag.v22i2.1558
+
+Laird (2000)
+
+John E. Laird. 2000. It Knows What You’re Going To Do: Adding
+Anticipation to a QUAKEBOT. In Papers from the
+AAAI 2000 Spring Symposium on Artificial Intelligence and Interactive
+Entertainment (Technical Report SS-00-02). AAAI
+Press, 41–50. Laird (2012)
+
+John E. Laird. 2012. The Soar Cognitive Architecture. MIT Press. Laird et al. (2017)
+
+John E. Laird, Christian
+Lebiere, and Paul S. Rosenbloom. 2017. A Standard Model of the Mind: Toward a Common
+Computational Framework across Artificial Intelligence, Cognitive Science,
+Neuroscience, and Robotics. AI Magazine 38,
+1 (2017), 13–26. Lam et al. (2023)
+
+Michelle S Lam, Zixian
+Ma, Anne Li, Izequiel Freitas,
+Dakuo Wang, James A Landay, and
+Michael S Bernstein. 2023. Model Sketching: Centering Concepts in Early-Stage
+Machine Learning Model Design. Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems. Langley et al. (2005)
+
+Pat Langley, Dongkyu
+Choi, and Seth Rogers. 2005. Interleaving Learning, Problem Solving, and
+Execution in the Icarus Architecture.

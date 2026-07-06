@@ -1,0 +1,19 @@
+2022. Language modeling with latent situations. arXiv preprint arXiv:2212.10012. Liu et al. (2023)
+
+Bo Liu, Yuqian Jiang, Xiaohan Zhang, Qiang Liu, Shiqi Zhang, Joydeep Biswas,
+and Peter Stone. 2023. Llm+ p: Empowering large language models with optimal planning
+proficiency. arXiv preprint arXiv:2304.11477. Lyu et al. (2023)
+
+Qing Lyu, Shreya Havaldar, Adam Stein, Li Zhang, Delip Rao, Eric Wong, Marianna
+Apidianaki, and Chris Callison-Burch. 2023. Faithful chain-of-thought reasoning. arXiv preprint arXiv:2301.13379. Matsuo et al. (2022)
+
+Yutaka Matsuo, Yann LeCun, Maneesh Sahani, Doina Precup, David Silver, Masashi
+Sugiyama, Eiji Uchibe, and Jun Morimoto. 2022. Deep learning, reinforcement learning, and world models. Neural Networks. McCarthy (1963)
+
+John McCarthy. 1963. Situations, actions, and causal laws. Technical report, STANFORD UNIV CA DEPT OF COMPUTER SCIENCE. Mialon et al. (2023)
+
+Grégoire Mialon, Roberto Dessì, Maria Lomeli, Christoforos Nalmpantis,
+Ram Pasunuru, Roberta Raileanu, Baptiste Rozière, Timo Schick, Jane
+Dwivedi-Yu, Asli Celikyilmaz, et al. 2023. Augmented language models: a survey. arXiv preprint arXiv:2302.07842. OpenAI (2023)
+
+OpenAI. 2023.

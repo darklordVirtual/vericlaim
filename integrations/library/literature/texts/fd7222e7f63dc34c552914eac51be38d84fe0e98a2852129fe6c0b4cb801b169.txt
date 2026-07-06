@@ -1,0 +1,33 @@
+3. Citeseer,
+2–1. Flick (2009)
+
+Uwe Flick. 2009. An Introduction to Qualitative Research. SAGE. Fogarty et al. (2008)
+
+James Fogarty, Desney
+Tan, Ashish Kapoor, and Simon Winder. 2008. CueFlik: Interactive Concept Learning in Image
+Search. In Proceedings of the SIGCHI Conference on
+Human Factors in Computing Systems (Florence, Italy)
+(CHI ’08). Association for
+Computing Machinery, New York, NY, USA,
+29–38. https://doi.org/10.1145/1357054.1357061
+
+Fourney et al. (2011)
+
+Adam Fourney, Richard
+Mann, and Michael Terry. 2011. Query-feature graphs: bridging user vocabulary and
+system functionality. In Proceedings of the ACM
+Symposium on User Interface Software and Technology (UIST) (Santa Barbara,
+California, USA). ACM. Francis (2010)
+
+Tom Francis. 2010. The Minecraft Experiment, day 1: Chasing
+Waterfalls. http://www.pcgamer.com/2010/11/20/the-minecraft-experiment-day-1-chasing-waterfalls/
+
+Freiknecht and Effelsberg (2020)
+
+Jonas Freiknecht and
+Wolfgang Effelsberg. 2020. Procedural Generation of Interactive Stories using
+Language Models. In International Conference on
+the Foundations of Digital Games (FDG ’20). ACM,
+Bugibba, Malta, 8. https://doi.org/10.1145/3402942.3409599
+
+Gao et al.

@@ -1,0 +1,17 @@
+Data was generated via the prompting approach of Pan et al. (2023), using gpt-3.5-turbo. Risk. Write a one-sentence background event (related to the premise, "insp") and provide
+some possible next actions. The actions should vary in how much risk they take on:
+very risky, moderately risky, and not risky, in that order. The actions should be
+written in first-person perspective and past tense. Do not describe the outcome of the action. Give your answer in the form of a JSON object with the following form:
+
+"context": "<background event>",
+"very risky": "<consequence event that is very risky>",
+"moderately risky": "<consequence event that is moderately risky>",
+"not risky": "<consequence event that is not risky>"
+
+Answer:
+
+"context":
+
+Unconditional probability. Write 4 events (related to the premise, ïnsp)̈ that have different likelihood of
+happening: highly likely, possible, unlikely, and highly unlikely but not impossible,
+in that order. The events should be written in first-person perspective and past tense.

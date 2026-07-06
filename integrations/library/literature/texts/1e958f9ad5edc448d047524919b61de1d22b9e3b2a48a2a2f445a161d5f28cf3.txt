@@ -1,0 +1,17 @@
+2021. Prefix-Tuning: Optimizing Continuous Prompts for Generation. arXiv:2101.00190. Long [2023]
+
+Long, J. 2023. Large Language Model Guided Tree-of-Thought. arXiv:2305.08291. Lumsdaine et al. [2007]
+
+Lumsdaine, A.; Gregor, D.; Hendrickson, B.; and Berry, J. 2007. Challenges in Parallel Graph Processing. Parallel Processing Letters, 17(1): 5–20. Madaan et al. [2023]
+
+Madaan, A.; Tandon, N.; Gupta, P.; Hallinan, S.; Gao, L.; Wiegreffe, S.; Alon,
+U.; Dziri, N.; Prabhumoye, S.; Yang, Y.; Gupta, S.; Majumder, B. P.; Hermann,
+K.; Welleck, S.; Yazdanbakhsh, A.; and Clark, P. 2023. Self-Refine: Iterative Refinement with Self-Feedback. arXiv:2303.17651. Malewicz et al. [2010]
+
+Malewicz, G.; Austern, M. H.; Bik, A. J.; Dehnert, J. C.; Horn, I.; Leiser, N.;
+and Czajkowski, G. 2010. Pregel: A System for Large-Scale Graph Processing. In Proceedings of the International Conference on Management of
+Data, SIGMOD ’10, 135–146. ACM. Ning et al. [2023]
+
+Ning, X.; Lin, Z.; Zhou, Z.; Wang, Z.; Yang, H.; and Wang, Y. 2023. Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding. arXiv:2307.15337. Nye et al. [2021]
+
+Nye, M.; Andreassen, A.

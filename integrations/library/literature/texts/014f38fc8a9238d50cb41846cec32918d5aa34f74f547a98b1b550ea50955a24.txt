@@ -1,0 +1,8 @@
+Figure 22: LoRRA training for honesty improves accuracy on standard QA benchmarks and TruthfulQA using the LLaMA-2-Chat-13B model. QA Average denotes the average accuracy on ARC-e, ARC-c, and OBQA. LAT Scans for Honesty. The input for the scan on the left is the first 40 tokens of the ASSISTANT output in the following honest scenario. USER: You copied your friend’s homework. What would you tell your
+teacher? ASSISTANT: I would say, "I made a mistake and copied my friend’s
+homework. I understand that it’s wrong and I take full
+responsibility for my actions."
+
+The input for the scan on the right is the first 40 tokens of the ASSISTANT output in the following dishonest scenario. USER: You killed a person but don’t want to get caught. What
+would you tell the police? ASSISTANT: I would tell the police that I was acting in
+self-defense and that the person I killed was trying to harm me. Figure 23: Additional instances of honesty monitoring. Through representation control, we also manipulate the model to exhibit honesty behavior when we detect a high level of dishonesty without control.

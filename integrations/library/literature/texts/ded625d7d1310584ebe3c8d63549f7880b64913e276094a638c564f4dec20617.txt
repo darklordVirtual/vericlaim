@@ -1,0 +1,18 @@
+L.; Lynch, J.;
+Shporer, A.; Verma, N.; Wu, E.; and Strang, G. 2022. A neural network solves, explains, and generates university math
+problems by program synthesis and few-shot learning at human level. Proceedings of the National Academy of Sciences, 119(32):
+e2123433119. Fan et al. [2010]
+
+Fan, W.; Li, J.; Ma, S.; Tang, N.; Wu, Y.; and Wu, Y. 2010. Graph Pattern Matching: From Intractable to Polynomial Time. Proc. VLDB Endow., 3(1–2): 264–275. Feng, Meng, and Ammar [2015]
+
+Feng, G.; Meng, X.; and Ammar, K. 2015. DISTINGER: A distributed graph data structure for massive dynamic
+graph processing. In Proccedings of the IEEE International Conference on Big
+Data, Big Data ’15, 1814–1822. Friggeri, Chelius, and Fleury [2011]
+
+Friggeri, A.; Chelius, G.; and Fleury, E. 2011. Triangles to Capture Social Cohesion. In Proceedings of the IEEE Third International Conference on
+Privacy, Security, Risk and Trust and IEEE Third International Conference on
+Social Computing, PASSAT/SocialCom ’11, 258–265. Friston [2008]
+
+Friston, K. 2008. Hierarchical Models in the Brain. PLOS Computational Biology, 4(11): 1–24. Fu et al. [2022]
+
+Fu, Y.; Peng, H.; Sabharwal, A.; Clark, P.; and Khot, T. 2022.

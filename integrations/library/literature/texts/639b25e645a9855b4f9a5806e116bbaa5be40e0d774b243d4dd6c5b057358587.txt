@@ -1,0 +1,16 @@
+Improving language understanding by generative pre-training. 2018. Bellemare et al. [2013]
+
+Marc G Bellemare, Yavar Naddaf, Joel Veness, and Michael Bowling. The arcade learning environment: An evaluation platform for general
+agents. Journal of Artificial Intelligence Research, 47:253–279, 2013. Brockman et al. [2016]
+
+Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman,
+Jie Tang, and Wojciech Zaremba. Openai gym. arXiv preprint arXiv:1606.01540, 2016. Mesnard et al. [2020]
+
+Thomas Mesnard, Théophane Weber, Fabio Viola, Shantanu Thakoor, Alaa Saade,
+Anna Harutyunyan, Will Dabney, Tom Stepleton, Nicolas Heess, Arthur Guez,
+et al. Counterfactual credit assignment in model-free reinforcement
+learning. arXiv preprint arXiv:2011.09464, 2020. Agarwal et al. [2020]
+
+Rishabh Agarwal, Dale Schuurmans, and Mohammad Norouzi. An optimistic perspective on offline reinforcement learning. In International Conference on Machine Learning, 2020. Kumar et al. [2020]
+
+Aviral Kumar, Aurick Zhou, George Tucker, and Sergey Levine. Conservative q-learning for offline reinforcement learning. In Advances in Neural Information Processing Systems, 2020. Ba et al.

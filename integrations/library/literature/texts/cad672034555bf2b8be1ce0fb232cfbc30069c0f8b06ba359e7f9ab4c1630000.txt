@@ -1,0 +1,8 @@
+For the audio waveform modality, we compare primarily to the SaShiMi architecture and training protocols [goel2022raw]. This model comprises:
+
+1. a U-Net backbone with two stages of pooling by a factor that doubles the model dimension per stage,
+
+2. alternating S4 and MLP blocks in each stage. We consider replacing the S4+MLP blocks with Mamba blocks. Experiment details are in LABEL:sec:exp-details:audio. 4.4.1 Long-Context Autoregressive Pretraining
+
+We evaluate pretraining quality (autoregressive next-sample prediction) on YouTubeMix [deepsound],
+a standard piano music dataset used by prior work consisting of hours of solo piano music, sampled at a rate of 16000 Hz. Pretraining details largely follow the standard language modeling setup (Section˜4.2). Figure˜9 evaluates the effect of increasing training sequence lengths from to , while keeping computation fixed. (There are some slight edge cases to the way the data is curated, which may lead to kinks in the scaling curves.

@@ -1,0 +1,29 @@
+{
+  "abstract": "We argue that representations in AI models, particularly deep networks, are converging. First, we survey many examples of convergence in the literature: over time and across multiple domains, the ways by which different neural networks represent data are becoming more aligned. Next, we demonstrate convergence across data modalities: as vision models and language models get larger, they measure distance between datapoints in a more and more alike way. We hypothesize that this convergence is driving toward a shared statistical model of reality, akin to Plato's concept of an ideal reality. We term such a representation the platonic representation and discuss several possible selective pressures toward it. Finally, we discuss the implications of these trends, their limitations, and counterexamples to our analysis.",
+  "accredited": false,
+  "authors": [
+    "Minyoung Huh",
+    "Brian Cheung",
+    "Tongzhou Wang",
+    "Phillip Isola"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T07:49:24.402903+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2405.07987"
+  },
+  "fulltext_sha256": "87925e4a996ebbd07b55b40699cf4cb051fb23ce61528d02bb4659d25a94a093",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "platonic-rep-2024",
+    "fetched_at": "2026-07-06T07:38:57.597077+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "8b5f372acc391894093d16012fff5e7494be1c699a6c2f7b7429410dcbad0896",
+  "title": "The Platonic Representation Hypothesis",
+  "url": "https://arxiv.org/abs/2405.07987",
+  "venue": "arXiv",
+  "work_id": "arxiv:2405.07987",
+  "year": 2024
+}

@@ -1,0 +1,7 @@
+In combination with the datasets listed above, we evaluate the following series of models using linear probes. LM RN50
+
+This is a multimodal model that uses an autoregressive loss instead of a contrastive loss, while using the ResNet-50 architecture as in the smallest contrastive model. To do so, the output from the CNN is projected into four tokens, which are then fed as a prefix to a language model autoregressively predicting the text tokens. Apart from the training objective, the model was trained on the same dataset for the same number of epochs as other CLIP models. CLIP-RN
+
+Five ResNet-based contrastive CLIP models are included. As discussed in the paper, the first two models follow ResNet-50 and ResNet-101, and we use EfficientNet-style (Tan & Le, 2019) scaling for the next three models which simultaneously scale the model width, the number of layers, and the input resolution to obtain models with roughly 4x, 16x, and 64x computation. CLIP-ViT
+
+We include four CLIP models that use the Vision Transformer (Dosovitskiy et al., 2020) architecture as the image encoder.

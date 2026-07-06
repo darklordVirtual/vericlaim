@@ -1,0 +1,52 @@
+Table 11 shows the normalized scores used for normalization used in Hafner et al. [21]. Tables 12 and 13 show the raw scores corresponding to Tables 1 and 4, respectively. For %BC scores, we use the same hyperparameters as Decision Transformer for fair comparison. For REM and QR-DQN, there is a slight discrepancy between Agarwal et al. [13] and Kumar et al. [14]; we report raw data provided to us by REM authors. Game
+Random
+Gamer
+
+Breakout
+
+Qbert
+
+Pong
+
+Seaquest
+
+Table 11: Atari baseline scores used for normalization. Game
+DT (Ours)
+CQL
+QR-DQN
+REM
+BC
+
+Breakout
+
+Qbert
+
+Pong
+
+Seaquest
+
+Table 12:
+Raw scores for the 1% DQN-replay Atari dataset. We report the mean and variance across 3 seeds. Best mean scores are highlighted in bold. Decision Transformer performs comparably to CQL on 3 out of 4 games, and usually outperforms other baselines. Game
+DT (Ours)
+10%BC
+25%BC
+40%BC
+100%BC
+
+Breakout
+
+Qbert
+
+Pong
+
+Seaquest
+
+Table 13: %BC scores for Atari. We report the mean and variance across 3 seeds. Decision Transformer usually outperforms %BC. ◄
+
+Feeling
+lucky? Conversion
+report
+Report
+an issue
+View original
+on arXiv►

@@ -1,0 +1,4 @@
+To avoid this, MuZero computes normalized value estimates
+by using the minimum-maximum values observed in the search tree up to that point. When a node is reached during the selection stage, the algorithm computes the normalized values of its edges to be used in the pUCT rule using the equation below:
+
+(5)

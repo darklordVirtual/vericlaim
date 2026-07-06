@@ -1,0 +1,11 @@
+We prove Theorem 2 showing the efficiency of the S4 parameterization for computing one step of the recurrent representation (Section 2.3). Recall that without loss of generality, we can assume that the state matrix is diagonal plus low-rank (DPLR), potentially over . Our goal in this section is to explicitly write out a closed form for the discretized matrix . Recall from equation (3) that
+
+We first simplify both terms in the definition of independently. Forward discretization. The first term is essentially the Euler discretization motivated in Section 2.3. where is defined as the term in the final brackets. Backward discretization. The second term is known as the Backward Euler’s method. Although this inverse term is normally difficult to deal with,
+in the DPLR case we can simplify it using Woodbury’s Identity (Proposition 4). where
+and is defined as the term in the final brackets. Note that
+
+is actually a scalar in the case when the low-rank term has rank . S4 Recurrence. Finally, the full bilinear discretization can be rewritten in terms of these matrices as
+
+The discrete-time SSM (3) becomes
+
+Note that are accessed only through matrix-vector multiplications.

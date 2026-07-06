@@ -1,0 +1,21 @@
+Relative Policy Optimization (GRPO) (Shao et al., 2024), which foregoes the critic model that is typically the same size as the policy model, and estimates the baseline from group scores instead. Specifically, for each question , GRPO samples a group of outputs from the old policy and then optimizes the policy model by maximizing the following objective:
+
+(1)
+
+(2)
+
+where and are hyper-parameters, and is the advantage, computed using a group of rewards corresponding to the outputs within each group:
+
+(3)
+
+A conversation between User and Assistant. The user asks a question, and the Assistant solves it. The assistant first thinks about the reasoning process in the mind and then provides the user
+
+with the answer. The reasoning process and answer are enclosed within <think> </think> and
+
+<answer> </answer> tags, respectively, i.e., <think> reasoning process here </think>
+
+<answer> answer here </answer>. User: prompt. Assistant:
+
+Table 1: Template for DeepSeek-R1-Zero. prompt will be replaced with the specific reasoning question during training. 2.2.2 Reward Modeling
+
+The reward is the source of the training signal, which decides the optimization direction of RL.

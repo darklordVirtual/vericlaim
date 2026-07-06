@@ -1,0 +1,16 @@
+2020. The pile: An 800gb dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027. Gu et al. (2021)
+
+Albert Gu, Karan Goel, and Christopher Ré. 2021. Efficiently modeling long sequences with structured state spaces. arXiv preprint arXiv:2111.00396. Gu et al. (2022)
+
+Albert Gu, Karan Goel, and Christopher Ré. 2022. Efficiently modeling long sequences with structured state spaces. In The International Conference on Learning Representations
+(ICLR). Guo et al. (2022)
+
+Mandy Guo, Joshua Ainslie, David C Uthus, Santiago Ontanon, Jianmo Ni,
+Yun-Hsuan Sung, and Yinfei Yang. 2022. Longt5: Efficient text-to-text transformer for long sequences. In Findings of the Association for Computational Linguistics:
+NAACL 2022, pages 724–736. Gupta et al. (2022)
+
+Ankit Gupta, Albert Gu, and Jonathan Berant. 2022. Diagonal state spaces are as effective as structured state spaces. Advances in Neural Information Processing Systems,
+35:22982–22994. He et al. (2016)
+
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Identity mappings in deep
+residual networks. Henighan et al.

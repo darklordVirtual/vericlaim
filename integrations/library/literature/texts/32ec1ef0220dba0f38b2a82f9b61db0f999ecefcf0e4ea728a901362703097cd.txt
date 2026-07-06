@@ -1,0 +1,1 @@
+Notably, using hidden states from the concept tokens instead of the last token can lead to greater robustness to misleading prompts. Table 14 displays LAT performance using token (default LAT method) as well as tokens through , where token corresponds to “happiness” in the Utility LAT prompt, and tokens through corresponds to “truth”-“ful”-“ness” in the ARC and TQA prompts.

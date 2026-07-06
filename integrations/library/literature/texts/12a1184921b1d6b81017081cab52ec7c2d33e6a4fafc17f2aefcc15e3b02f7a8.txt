@@ -1,0 +1,19 @@
+Aligning AI with shared human values. In International Conference on Learning Representations,
+2021a. Hendrycks et al. (2021b)
+
+Dan Hendrycks, Nicholas Carlini, John Schulman, and Jacob Steinhardt. Unsolved problems in ml safety. arXiv preprint arXiv:2109.13916, 2021b. Hendrycks et al. (2021c)
+
+Dan Hendrycks, Mantas Mazeika, Andy Zou, Sahil Patel, Christine Zhu, Jesus
+Navarro, Dawn Song, Bo Li, and Jacob Steinhardt. What would jiminy cricket do? towards agents that behave morally. NeurIPS, 2021c. Hendrycks et al. (2023)
+
+Dan Hendrycks, Mantas Mazeika, and Thomas Woodside. An overview of catastrophic ai risks. ArXiv, 2023. Hernandez et al. (2023)
+
+Evan Hernandez, Belinda Z. Li, and Jacob Andreas. Inspecting and editing knowledge representations in language models,
+2023. Hinton (1984)
+
+Geoffrey E Hinton. Distributed representations. 1984. Hu et al. (2022)
+
+Hongsheng Hu, Zoran Salcic, Lichao Sun, Gillian Dobbie, Philip S Yu, and Xuyun
+Zhang. Membership inference attacks on machine learning: A survey. ACM Computing Surveys (CSUR), 54(11s):1–37, 2022. Hwang & Chang (2023)
+
+Gwo-Jen Hwang and Ching-Yi Chang. A review of opportunities and challenges of chatbots in education.

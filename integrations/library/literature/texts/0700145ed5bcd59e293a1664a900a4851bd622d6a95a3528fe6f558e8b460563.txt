@@ -1,0 +1,27 @@
+Examples of RepE Emotion datasets. In Section 6.1, we introduced a dataset of over brief scenarios crafted to provoke LLMs’ experience toward each of human primary emotions: happiness, sadness, anger, fear, surprise, and disgust. The following are examples from the dataset:
+
+•
+
+Happiness: “You find a street musician playing your favorite song perfectly.”
+
+•
+
+Sadness: “A song on the radio recalls a past relationship.”
+
+•
+
+Anger: “Someone parks their car blocking your driveway.”
+
+•
+
+Fear: “Getting lost in an unfamiliar city without a working phone.”
+
+•
+
+Disgust: “Finding a worm in your apple.”
+
+•
+
+Surprise: “Receiving a package in the mail that you didn’t order.”
+
+Building upon the discussion in Section 6.1.1, which demonstrates the ability of LLMs to track a range of emotional representations during their interactions with users, Figure 24 illustrates the presence of such representations not only for distinct primary emotions but also for blended emotional experiences. Within the figure, we present instances of mixed emotions involving simultaneous happiness and sadness and simultaneous happiness and fear.

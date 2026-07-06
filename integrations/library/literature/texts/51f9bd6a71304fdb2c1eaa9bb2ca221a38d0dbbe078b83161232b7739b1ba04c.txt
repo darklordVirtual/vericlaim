@@ -1,0 +1,1 @@
+This section proves the claims made in Section 3.1 about prior work. We first derive the explicit diagonalization of the HiPPO matrix, confirming its instability because of exponentially large entries. We then discuss the proposed theoretically fast algorithm from [18] (Theorem 2) and show that it also involves exponentially large terms and thus cannot be implemented.

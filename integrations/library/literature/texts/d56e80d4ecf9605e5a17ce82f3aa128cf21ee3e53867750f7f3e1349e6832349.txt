@@ -1,0 +1,5 @@
+We describe the metrics in Table 11 and their corresponding properties. The symmetric property implies that the metric is symmetric with respect to the data points . The global property means all samples are used to compute the distance with respect to every sample. The ordinal property is when the ordering of the distance is taken into consideration. For example, mutual nearest neighbor is not ordinal since the nearest neighbors and are treated equally. The batchable property is a computational property that makes it feasible to compute in a reasonable time frame. Vision-vision comparison
+
+In Figure 12, we evaluate Spearman’s rank correlation among different metrics and hyperparameters over vision models (details in Section C.1). We find most metrics highly correlated with each other. Cross-modal comparison
+
+We measure vision-language alignment using a range of alternative metrics. We visualize the corresponding alignment results in Figure 13 and Figure 14. Our findings indicate that alignment sensitivity not only depends on the metric used to compute it but also varies according to the specific tasks on which the vision models are trained.

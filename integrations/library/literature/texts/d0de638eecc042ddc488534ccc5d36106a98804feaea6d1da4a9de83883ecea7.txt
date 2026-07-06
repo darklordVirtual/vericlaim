@@ -1,0 +1,33 @@
+Commun. ACM 23,
+7 (1980), 396–410. https://doi.org/10.1145/358886.358895
+arXiv:https://doi.org/10.1145/358886.358895
+
+Card et al. (1983)
+
+Stuart K Card, Thomas P
+Moran, and Alan Newell. 1983. The psychology of human-computer interaction. (1983). Champandard (2012)
+
+Alex Champandard. 2012. Tutorial presentation. In
+IEEE Conference on Computational Intelligence and
+Games. Choi et al. (2021)
+
+Dong kyu Choi, Tolga
+Konik, Negin Nejati, Chunki Park, and
+Pat Langley. 2021. A Believable Agent for First-Person Shooter Games. In Proceedings of the AAAI Conference on Artificial
+Intelligence and Interactive Digital Entertainment,
+Vol. 3. 71–73. Dey (2001)
+
+Anind K Dey. 2001. Understanding and using context. Personal and ubiquitous computing
+5 (2001), 4–7. Dill and Martin (2011)
+
+Kevin Dill and L
+Martin. 2011. A Game AI Approach to Autonomous Control of Virtual
+Characters. In Proceedings of the
+Interservice/Industry Training, Simulation, and Education Conference
+(I/ITSEC’11). Orlando, FL, USA. Easley and Kleinberg (2010)
+
+David Easley and Jon
+Kleinberg. 2010. Networks, crowds, and markets: Reasoning
+about a highly connected world. Cambridge university press. Elo (1967)
+
+Arpad E Elo. 1967.

@@ -1,0 +1,20 @@
+Li et al. [2018]
+
+Shuai Li, Wanqing Li, Chris Cook, Ce Zhu, and Yanbo Gao. Independently recurrent neural network (IndRNN): Building a longer
+and deeper RNN. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pages 5457–5466, 2018. Lioutas and Guo [2020]
+
+Vasileios Lioutas and Yuhong Guo. Time-aware large kernel convolutions. In International Conference on Machine Learning, pages
+6172–6183. PMLR, 2020. Merity et al. [2018]
+
+Stephen Merity, Nitish Shirish Keskar, James Bradbury, and Richard Socher. Scalable language modeling: Wikitext-103 on a single gpu in 12 hours. SysML, 2018. Oord et al. [2016]
+
+Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals,
+Alex Graves, Nal Kalchbrenner, Andrew Senior, and Koray Kavukcuoglu. Wavenet: A generative model for raw audio. arXiv preprint arXiv:1609.03499, 2016. Pan [2001]
+
+Victor Pan. Structured matrices and polynomials: unified superfast
+algorithms. Springer Science & Business Media, 2001. Pan [2017]
+
+Victor Pan. Fast approximate computations with cauchy matrices and polynomials. Mathematics of Computation, 86(308):2799–2826, 2017. Pan [2015]
+
+Victor Y Pan.

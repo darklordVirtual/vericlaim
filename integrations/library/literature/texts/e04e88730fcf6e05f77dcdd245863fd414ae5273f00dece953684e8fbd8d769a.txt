@@ -1,0 +1,22 @@
+Association for
+Computing Machinery. Cotra (2021)
+
+Ajeya Cotra. 2021. The
+case for aligning narrowly superhuman models. AI Alignment Forum. Hendrycks et al. (2020)
+
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn
+Song, and Jacob Steinhardt. 2020. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300. Hubinger (2020)
+
+Evan Hubinger. 2020. AI
+safety via market making. AI Alignment Forum. Hubinger et al. (2019)
+
+Evan Hubinger, Chris van Merwijk, Vladimir Mikulik, Joar Skalse, and Scott
+Garrabrant. 2019. Risks from learned optimization in advanced machine learning systems. arXiv preprint arXiv:1906.01820. Irving and Askell (2019)
+
+Geoffrey Irving and Amanda Askell. 2019. AI safety needs social scientists. Distill, 4(2). Irving et al. (2018)
+
+Geoffrey Irving, Paul Christiano, and Dario Amodei. 2018. AI safety via debate. arXiv preprint arXiv:1805.00899. Kadavath et al. (2022)
+
+Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan
+Perez, Nicholas Schiefer, Zac Hatfield Dodds, Nova DasSarma, Eli
+Tran-Johnson, et al. 2022. Language models (mostly) know what they know. arXiv preprint arXiv:2207.05221.

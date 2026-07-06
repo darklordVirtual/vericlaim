@@ -1,0 +1,16 @@
+Lai et al. (2017)
+
+Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. RACE: Large-scale ReAding comprehension dataset from
+examinations. In Proceedings of the 2017 Conference on Empirical Methods in
+Natural Language Processing, pp. 785–794, Copenhagen, Denmark, September
+2017. Association for Computational Linguistics. doi: 10.18653/v1/D17-1082. URL https://aclanthology.org/D17-1082. Lee et al. (2023)
+
+Peter Lee, Sebastien Bubeck, and Joseph Petro. Benefits, limits, and risks of gpt-4 as an ai chatbot for medicine. New England Journal of Medicine, 388(13):1233–1239, 2023. Lei et al. (2016)
+
+Tao Lei, Regina Barzilay, and Tommi Jaakkola. Rationalizing neural predictions. arXiv preprint arXiv:1606.04155, 2016. Leveson (2016)
+
+Nancy G Leveson. Engineering a safer world: Systems thinking applied to safety. The MIT Press, 2016. Li et al. (2023a)
+
+Chunyuan Li, Cliff Wong, Sheng Zhang, Naoto Usuyama, Haotian Liu, Jianwei Yang,
+Tristan Naumann, Hoifung Poon, and Jianfeng Gao. Llava-med: Training a large language-and-vision assistant for
+biomedicine in one day. arXiv preprint arXiv:2306.00890, 2023a. Li et al.

@@ -1,0 +1,17 @@
+Cunningham. Weather, mood, and helping behavior: Quasi experiments with the
+sunshine samaritan. Journal of Personality and Social Psychology, 37:1947–1956, 1979. Devlin et al. (2018)
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: pre-training of deep bidirectional transformers for language
+understanding. CoRR, abs/1810.04805, 2018. Ekman (1971)
+
+Paul Ekman. Universals and cultural differences in facial expression of emotion. Nebraska Symposium on Motivation, 19:207–283, 1971. Elazar et al. (2021)
+
+Yanai Elazar, Shauli Ravfogel, Alon Jacovi, and Yoav Goldberg. Amnesic probing: Behavioral explanation with amnesic counterfactuals. Transactions of the Association for Computational Linguistics,
+9:160–175, 2021. Elhage et al. (2022)
+
+Nelson Elhage, Tristan Hume, Catherine Olsson, Nicholas Schiefer, Tom Henighan,
+Shauna Kravec, Zac Hatfield-Dodds, Robert Lasenby, Dawn Drain, Carol Chen,
+Roger Grosse, Sam McCandlish, Jared Kaplan, Dario Amodei, Martin Wattenberg,
+and Christopher Olah. Toy models of superposition. Transformer Circuits Thread, 2022. Erhan et al. (2009)
+
+Dumitru Erhan, Yoshua Bengio, Aaron Courville, and Pascal Vincent.

@@ -1,0 +1,25 @@
+inside the chest at (30, 65, 100): checkItemInsideChest(bot, new Vec3(30, 65, 100));
+
+// You only need to call this function once without any action to finish task of checking items inside the chest. async function checkItemInsideChest(bot, chestPosition) {
+
+await moveToChest(bot, chestPosition);
+
+const chestBlock = bot.blockAt(chestPosition);
+
+await bot.openContainer(chestBlock);
+
+// You must close the chest after opening it if you are asked to open a chest
+
+await closeChest(bot, chestBlock);
+
+}
+
+await bot.pathfinder.goto(goal); // A very useful function. This function may change your main-hand equipment. // Following are some Goals you can use:
+
+new GoalNear(x, y, z, range); // Move the bot to a block within the specified range of the specified block. ‘x‘, ‘y‘, ‘z‘, and ‘range‘ are ‘number‘
+
+new GoalXZ(x, z); // Useful for long-range goals that don’t have a specific Y level. ‘x‘ and ‘z‘ are ‘number‘
+
+new GoalGetToBlock(x, y, z); // Not get into the block, but get directly adjacent to it. Useful for fishing, farming, filling bucket, and beds. ‘x‘, ‘y‘, and ‘z‘ are ‘number‘
+
+new GoalFollow(entity, range); // Follow the specified entity within the specified range.

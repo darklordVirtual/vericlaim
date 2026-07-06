@@ -1,0 +1,19 @@
+Micheli et al. 2022
+
+Vincent Micheli, Eloi Alonso, and François Fleuret. Transformers are sample efficient world models. arXiv preprint arXiv:2209.00588, 2022. Tassa et al. 2018
+
+Yuval Tassa, Yotam Doron, Alistair Muldal, Tom Erez, Yazhe Li, Diego de Las
+Casas, David Budden, Abbas Abdolmaleki, Josh Merel, Andrew Lefrancq, et al. Deepmind control suite. arXiv preprint arXiv:1801.00690, 2018. Yarats et al. 2021
+
+Denis Yarats, Rob Fergus, Alessandro Lazaric, and Lerrel Pinto. Mastering visual continuous control: Improved data-augmented
+reinforcement learning. arXiv preprint arXiv:2107.09645, 2021. Osband et al. 2019
+
+Ian Osband, Yotam Doron, Matteo Hessel, John Aslanides, Eren Sezener, Andre
+Saraiva, Katrina McKinney, Tor Lattimore, Csaba Szepesvari, Satinder Singh,
+et al. Behaviour suite for reinforcement learning. arXiv preprint arXiv:1908.03568, 2019. Dizon-Paradis et al. 2023
+
+Olivia Dizon-Paradis, Stephen Wormald, Daniel Capecci, Avanti Bhandarkar, and
+Damon Woodard. Investigating the practicality of existing reinforcement learning
+algorithms: A performance comparison. Authorea Preprints, 2023. Hafner 2021
+
+Danijar Hafner. Benchmarking the spectrum of agent capabilities.

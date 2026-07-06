@@ -1,0 +1,11 @@
+We ran ablations on different ways of encoding spatial information using positional embedding. We tried the following cases:
+
+•
+
+Providing no positional information: Considering the inputs as a bag of patches. •
+
+1-dimensional positional embedding: Considering the inputs as a sequence of patches in the raster order (default across all other experiments in this paper). •
+
+2-dimensional positional embedding: Considering the inputs as a grid of patches in two dimensions. In this case, two sets of embeddings are learned, each for one of the axes, -embedding, and -embedding, each with size . Then, based on the coordinate on the path in the input, we concatenate the and embedding to get the final positional embedding for that patch. •
+
+Relative positional embeddings: Considering the relative distance between patches to encode the spatial information as instead of their absolute position. To do so, we use 1-dimensional Relative Attention, in which we define the relative distance all possible pairs of patches. Thus, for every given pair (one as query, and the other as key/value in the attention mechanism), we have an offset , where each offset is associated with an embedding.

@@ -1,0 +1,7 @@
+block is clear, the purple block is clear, the hand is holding the cyan block, the white block is on top of the brown block, the purple block is on the table and the brown block is on the table. [SCENARIO 3]
+
+[STATE 0] <state>
+
+[ACTION] <action>
+
+[CHANGE]

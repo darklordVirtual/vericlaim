@@ -1,0 +1,33 @@
+(2011b)
+
+Josh McCoy, Mike Treanor,
+Ben Samuel, Noah Wardrip-Fruin, and
+Michael Mateas. 2011b. Comme il faut: A System for Authoring Playable
+Social Models. In Proceedings of the AAAI
+Conference on Artificial Intelligence and Interactive Digital Entertainment
+(AIIDE’11). AAAI, Stanford, CA, USA,
+38–43. Minsky and Papert (1970)
+
+Marvin Minsky and
+Seymour Papert. 1970. Draft of a proposal to ARPA for research on
+artificial intelligence at MIT, 1970–71. Miyashita et al. (2017)
+
+Shohei Miyashita, Xinyu
+Lian, Xiao Zeng, Takashi Matsubara,
+and Kuniaki Uehara. 2017. Developing Game AI Agent Behaving Like Human by
+Mixing Reinforcement Learning and Supervised Learning. In
+Proceedings of the 18th IEEE/ACIS International
+Conference on Software Engineering, Artificial Intelligence, Networking and
+Parallel/Distributed Computing (SNPD). Kanazawa, Japan,
+153–158. https://doi.org/10.1109/SNPD.2017.8023884
+
+Nareyek (2007)
+
+Alexander Nareyek. 2007. Game AI is dead. Long live game AI! IEEE Intelligent Systems
+22, 1 (2007),
+9–11. Newell (1990)
+
+Allen Newell. 1990. Unified Theories of Cognition. Harvard University Press,
+Cambridge, Massachusetts. OpenAI (2022)
+
+OpenAI. 2022. Introducing ChatGPT.

@@ -1,0 +1,1 @@
+All of our experiments used a small transformer trained on datasets of equations of the form , where each of “”, “”, “”, “”, and “” is a separate token. Details of the operations studied, the architecture, training hyperparameters and tokenization can be found in Appendix A.1.

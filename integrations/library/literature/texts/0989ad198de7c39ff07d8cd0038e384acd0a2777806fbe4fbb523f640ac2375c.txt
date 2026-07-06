@@ -1,0 +1,21 @@
+Katharopoulos et al. (2020)
+
+Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and François
+Fleuret. 2020. Transformers are rnns: Fast autoregressive transformers with linear
+attention. In International Conference on Machine Learning, pages
+5156–5165. PMLR. Kitaev et al. (2020)
+
+Nikita Kitaev, L. Kaiser, and Anselm Levskaya. 2020. Reformer: The efficient transformer. ArXiv, abs/2001.04451. Kocoń et al. (2023)
+
+Jan Kocoń, Igor Cichecki, Oliwier Kaszyca, Mateusz Kochanek, Dominika
+Szydło, Joanna Baran, Julita Bielaniewicz, Marcin Gruza, Arkadiusz Janz,
+Kamil Kanclerz, Anna Kocoń, Bartłomiej Koptyra, Wiktoria
+Mieleszczenko-Kowszewicz, Piotr Miłkowski, Marcin Oleksy, Maciej Piasecki,
+Łukasz Radliński, Konrad Wojtasik, Stanisław Woźniak, and
+Przemysław Kazienko. 2023. Chatgpt: Jack of all trades, master of none. Information Fusion, page 101861. Kocoń et al. (2019)
+
+Jan Kocoń, Piotr Miłkowski, and Monika Zaśko-Zielińska. 2019. Multi-level sentiment analysis of polemo 2.0: Extended corpus of
+multi-domain consumer reviews. In Proceedings of the 23rd Conference on Computational Natural
+Language Learning (CoNLL), pages 980–991. Le and Zuidema (2016)
+
+Phong Le and Willem Zuidema. 2016.

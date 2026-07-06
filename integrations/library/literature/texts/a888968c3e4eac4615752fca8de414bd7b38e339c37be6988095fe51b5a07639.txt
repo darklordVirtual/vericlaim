@@ -1,0 +1,16 @@
+ACM Transactions on Mathematical Software (TOMS), 26(1):19–45, 2000. Grill et al. (2020)
+
+Grill, J.-B., Strub, F., Altché, F., Tallec, C., Richemond, P. H.,
+Buchatskaya, E., Doersch, C., Pires, B. A., Guo, Z. D., Azar, M. G., et al. Bootstrap your own latent: A new approach to self-supervised
+learning. arXiv preprint arXiv:2006.07733, 2020. Ha et al. (2016)
+
+Ha, D., Dai, A., and Le, Q. V. Hypernetworks. arXiv preprint arXiv:1609.09106, 2016. Hancock et al. (2018)
+
+Hancock, B., Bringmann, M., Varma, P., Liang, P., Wang, S., and Ré, C. Training classifiers with natural language explanations. In Proceedings of the conference. Association for Computational
+Linguistics. Meeting, volume 2018, pp. 1884. NIH Public Access, 2018. Hancock et al. (2019)
+
+Hancock, B., Bordes, A., Mazare, P.-E., and Weston, J. Learning from dialogue after deployment: Feed yourself, chatbot! arXiv preprint arXiv:1901.05415, 2019. Harris et al. (2020)
+
+Harris, C. R., Millman, K. J., van der Walt, S. J., Gommers, R., Virtanen, P.,
+Cournapeau, D., Wieser, E., Taylor, J., Berg, S., Smith, N. J., Kern, R.,
+Picus, M., Hoyer, S., van Kerkwijk, M.

@@ -1,0 +1,23 @@
+(11)
+
+(12)
+
+As with the Token Edit Distance (App. A.3), we ignore how likely the language model is to overproduce or underproduce tokens because we do not have a good model of this process. Continuing along,
+
+(13)
+
+(14)
+
+(15)
+
+Taking an approximation that would make most mathematicians cry:
+
+(16)
+
+(17)
+
+This reveals that accuracy approximately falls geometrically with target token length. The resolution-limited expected accuracy is therefore:
+
+(19)
+
+From this we can see that choosing a nonlinear metric like Accuracy is affected significantly more by limited resolution because Accuracy forces one to distinguish quantities that decay rapidly.

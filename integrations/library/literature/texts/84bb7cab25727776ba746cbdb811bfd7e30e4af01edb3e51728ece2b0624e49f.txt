@@ -1,0 +1,3 @@
+Generation Transformations
+
+Finally, one can generate one or more new thoughts based on an existing single thought . This class embraces analogous reasoning steps from earlier schemes, such as ToT or CoT-SC. Formally, we have and .

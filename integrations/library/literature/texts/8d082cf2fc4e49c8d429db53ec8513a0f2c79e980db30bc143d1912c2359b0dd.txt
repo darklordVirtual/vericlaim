@@ -1,0 +1,5 @@
+Suppose there is a globally optimal representation for standard learning objectives. Then, under sufficient data, scaling a model (i.e., using larger function classes
+
+), as well as
+, should be more effective at finding better approximations to this optimum, as illustrated in Figure 5. With the same training objective, larger models, even of different architectures, will thus tend to converge toward this optimum. When different training objectives share similar minimizers, larger models are better at finding these minimizers,
+and will train to similar solutions over the training tasks. We summarize this hypothesis as follows:

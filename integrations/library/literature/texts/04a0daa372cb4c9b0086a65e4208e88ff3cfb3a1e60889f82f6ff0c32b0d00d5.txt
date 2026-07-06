@@ -1,0 +1,17 @@
+A multimodal framework for the detection of hateful memes. arXiv preprint arXiv:2012.12871, 2020. Liu et al. (2018)
+
+Liu, P. J., Saleh, M., Pot, E., Goodrich, B., Sepassi, R., Kaiser, L., and
+Shazeer, N. Generating wikipedia by summarizing long sequences. arXiv preprint arXiv:1801.10198, 2018. Locatello et al. (2020)
+
+Locatello, F., Bauer, S., Lucic, M., Rätsch, G., Gelly, S., Schölkopf,
+B., and Bachem, O. A sober look at the unsupervised learning of disentangled
+representations and their evaluation. arXiv preprint arXiv:2010.14766, 2020. Loshchilov & Hutter (2016)
+
+Loshchilov, I. and Hutter, F. Sgdr: Stochastic gradient descent with warm restarts. arXiv preprint arXiv:1608.03983, 2016. Loshchilov & Hutter (2017)
+
+Loshchilov, I. and Hutter, F. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017. Lu et al. (2019)
+
+Lu, J., Batra, D., Parikh, D., and Lee, S. Vilbert: Pretraining task-agnostic visiolinguistic representations
+for vision-and-language tasks. In Advances in Neural Information Processing Systems, pp. 13–23, 2019. Lu et al. (2020)
+
+Lu, Z., Xiong, X., Li, Y., Stroud, J., and Ross, D.

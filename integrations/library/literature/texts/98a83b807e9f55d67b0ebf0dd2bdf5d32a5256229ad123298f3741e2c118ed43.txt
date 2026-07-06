@@ -1,0 +1,60 @@
+(2021)
+
+Few-Shot
+
+AR,CR
+
+Gopher
+
+Wei et al. (2022)
+
+Few-Shot
+
+AR,CR
+
+PaLM, LaMBDA, GPT-3
+
+Wang et al. (2022)
+
+Few-Shot
+
+AR,CR
+
+PaLM, etc
+
+Chowdhery et al. (2022)
+
+Few-Shot
+
+AR,CR
+
+PaLM
+
+Shwartz et al. (2020)
+
+Zero-Shot
+
+CR
+
+GPT-2, etc
+
+Reynolds and McDonell (2021)
+
+Zero-Shot
+
+AR
+
+GPT-3
+
+Zero-shot-CoT (Ours)
+
+Zero-Shot
+
+AR,CR
+
+PaLM, Instruct-GPT3, GPT-3, etc
+
+Reasoning Ability of LLMs
+
+Several studies have shown that pre-trained models usually are not good at reasoning (Brown et al., 2020; Smith et al., 2022; Rae et al., 2021), but its ability can be substantially increased by making them produce step-by-step reasoning, either by fine-tuning (Rajani et al., 2019; Cobbe et al., 2021; Zelikman et al., 2022; Nye et al., 2022) or few-shot prompting (Wei et al., 2022; Wang et al., 2022; Chowdhery et al., 2022) (See Table 6 for summary of related work). Unlike most prior work, we focus on zero-shot prompting and
+show that a single fixed trigger prompt substantially increases the zero-shot reasoning ability of LLMs across a variety of tasks requiring complex multi-hop thinking (Table 1), especially when the model is scaled up (Figure 3).

@@ -1,0 +1,18 @@
+Bilodeau et al. (2022)
+
+Blair Bilodeau, Natasha Jaques, Pang Wei Koh, and Been Kim. Impossibility theorems for feature attribution. arXiv preprint arXiv:2212.11870, 2022. Bisk et al. (2019)
+
+Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, and Yejin Choi. PIQA: reasoning about physical commonsense in natural language. CoRR, abs/1911.11641, 2019. Bolukbasi et al. (2016)
+
+Tolga Bolukbasi, Kai-Wei Chang, James Y Zou, Venkatesh Saligrama, and Adam T
+Kalai. Man is to computer programmer as woman is to homemaker? debiasing
+word embeddings. Advances in neural information processing systems, 29, 2016. Brito-Zerón et al. (2019)
+
+Pilar Brito-Zerón, Belchin Kostov, Daphne Superville, Robert P Baughman,
+Manuel Ramos-Casals, et al. Geoepidemiological big data approach to sarcoidosis: geographical and
+ethnic determinants. Clin Exp Rheumatol, 37(6):1052–64, 2019. Brown et al. (2020)
+
+Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan,
+Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda
+Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom
+Henighan, Rewon Child, Aditya Ramesh, Daniel M.

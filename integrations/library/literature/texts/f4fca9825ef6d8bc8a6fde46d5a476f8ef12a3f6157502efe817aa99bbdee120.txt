@@ -1,0 +1,2 @@
+In this paper, we primarily focus on the applications on
+plan generation, mathematical reasoning, and logical reasoning, posing no significant ethical concerns. We recognize that future research on border applications of reasoning with LLMs may pose a risk of misuse, and we recommend careful consideration of all aspects of safety before relevant techniques are applied to the real world.

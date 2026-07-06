@@ -1,0 +1,42 @@
+subsection A.6 summarizes a list of answer cleansing approaches used across all the experiments. Table 11: Detail description of answer cleansing. See Table 7 for the mapping between each datasets and the corresponding answer formats. Answer
+Format
+
+Answer Cleansing
+Approach
+
+Pseudo Code
+(Example in Pytorch 3.8)
+
+Number
+
+Pick up the first number encountered in the text. ⬇
+pred = pred.replace(",", "")
+
+pred = [s for s in re.findall(r’-?\d+\.?\d*’, pred)]
+
+pred = pred[0]
+
+Multiple-Choice
+
+Pick up the first large letter encountered in the text. ⬇
+pred = re.findall(r’A|B|C|D|E’, pred)
+
+pred = pred[0]
+
+Yes or No
+
+Pick up the first "yes" or "no" encountered in the text after removing unnecessary letters. ⬇
+pred = pred.lower()
+
+pred = re.sub("\"|\’|\n|\.|\s|\:|\,","␣", pred)
+
+pred = pred.split("␣")
+
+pred = [i for i in pred if i in ("yes", "no")]
+
+pred = pred[0]
+
+Free Format
+
+Just remove unnecessary letters, such as ".". ⬇
+pred = re.sub("\"|\’|\n|\.|\s","", pred)

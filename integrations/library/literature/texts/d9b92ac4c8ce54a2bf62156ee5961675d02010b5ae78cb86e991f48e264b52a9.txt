@@ -1,0 +1,16 @@
+The minerl 2020 competition on sample efficient reinforcement
+learning using human priors. arXiv preprint arXiv: Arxiv-2101.11071, 2021. (64)
+
+Anssi Kanervisto, Stephanie Milani, Karolis Ramanauskas, Nicholay Topin,
+Zichuan Lin, Junyou Li, Jianing Shi, Deheng Ye, Qiang Fu, Wei Yang, Weijun
+Hong, Zhongyue Huang, Haicheng Chen, Guangjun Zeng, Yue Lin, Vincent Micheli,
+Eloi Alonso, François Fleuret, Alexander Nikulin, Yury Belousov, Oleg
+Svidchenko, and Aleksei Shpilman. Minerl diamond 2021 competition: Overview, results, and lessons
+learned. arXiv preprint arXiv: Arxiv-2202.10583, 2022. (65)
+
+Matthew Johnson, Katja Hofmann, Tim Hutton, and David Bignell. The malmo platform for artificial intelligence experimentation. In Subbarao Kambhampati, editor, Proceedings of the Twenty-Fifth
+International Joint Conference on Artificial Intelligence, IJCAI 2016, New
+York, NY, USA, 9-15 July 2016, pages 4246–4247. IJCAI/AAAI Press, 2016. (66)
+
+Zichuan Lin, Junyou Li, Jianing Shi, Deheng Ye, Qiang Fu, and Wei Yang. Juewu-mc: Playing minecraft with sample-efficient hierarchical
+reinforcement learning. arXiv preprint arXiv: Arxiv-2112.04907, 2021.

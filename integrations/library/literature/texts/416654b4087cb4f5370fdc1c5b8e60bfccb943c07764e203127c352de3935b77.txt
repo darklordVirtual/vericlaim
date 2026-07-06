@@ -1,0 +1,19 @@
+Karras et al. (2021)
+
+Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne
+Hellsten, Jaakko Lehtinen, and Timo Aila. Alias-free generative adversarial networks. Advances in Neural Information Processing Systems,
+34:852–863, 2021. Kim et al. (2018)
+
+Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda
+Viegas, et al. Interpretability beyond feature attribution: Quantitative testing
+with concept activation vectors (tcav). In International conference on machine learning, pp. 2668–2677. PMLR, 2018. Kindermans et al. (2019)
+
+Pieter-Jan Kindermans, Sara Hooker, Julius Adebayo, Maximilian Alber, Kristof T
+Schütt, Sven Dähne, Dumitru Erhan, and Been Kim. The (un) reliability of saliency methods. Explainable AI: Interpreting, explaining and visualizing deep
+learning, pp. 267–280, 2019. Kleindessner et al. (2023)
+
+Matthäus Kleindessner, Michele Donini, Chris Russell, and Muhammad Bilal
+Zafar. Efficient fair pca for fair representation learning, 2023. Lai et al. (2017)
+
+Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. RACE: Large-scale ReAding comprehension dataset from
+examinations.

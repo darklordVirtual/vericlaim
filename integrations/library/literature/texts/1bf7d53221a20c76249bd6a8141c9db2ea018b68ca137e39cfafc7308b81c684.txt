@@ -1,0 +1,15 @@
+Alexey Dosovitskiy∗,†, Lucas Beyer∗, Alexander Kolesnikov∗, Dirk Weissenborn∗,
+
+Xiaohua Zhai∗, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer,
+
+Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby∗,†
+
+∗equal technical contribution, †equal advising
+
+Google Research, Brain Team
+
+{adosovitskiy, neilhoulsby}@google.com
+
+Abstract
+
+While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited. In vision, attention is either applied in conjunction with convolutional networks, or used to replace certain components of convolutional networks while keeping their overall structure in place. We show that this reliance on CNNs is not necessary and a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks.

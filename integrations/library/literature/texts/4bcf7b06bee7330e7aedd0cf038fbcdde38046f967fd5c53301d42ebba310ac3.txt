@@ -1,0 +1,1 @@
+Self-reflection and self-evaluation were introduced recently [60, 49, 45, 75, 85]. They are used to enhance different tasks, for example for code generation [17] or computer operation tasks [39]. In GoT, we partially rely on self-evaluation when taking decisions on how to expand the graph of thoughts within a prompt.

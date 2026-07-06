@@ -1,0 +1,19 @@
+Schwemmer et al. (2020)
+
+Schwemmer, C., Knight, C., Bello-Pardo, E. D., Oklobdzija, S., Schoonvelde, M.,
+and Lockhart, J. W. Diagnosing gender bias in image recognition systems. Socius, 6:2378023120967171, 2020. Sennrich et al. (2015)
+
+Sennrich, R., Haddow, B., and Birch, A. Neural machine translation of rare words with subword units. arXiv preprint arXiv:1508.07909, 2015. Shankar et al. (2019)
+
+Shankar, V., Dave, A., Roelofs, R., Ramanan, D., Recht, B., and Schmidt, L. Do image classifiers generalize across time? arXiv preprint arXiv:1906.02168, 2019. Sharma et al. (2018)
+
+Sharma, P., Ding, N., Goodman, S., and Soricut, R. Conceptual captions: A cleaned, hypernymed, image alt-text dataset
+for automatic image captioning. In Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pp. 2556–2565,
+2018. Singh et al. (2019)
+
+Singh, A., Natarajan, V., Shah, M., Jiang, Y., Chen, X., Batra, D., Parikh, D.,
+and Rohrbach, M. Towards vqa models that can read. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pp. 8317–8326, 2019. Socher & Fei-Fei (2010)
+
+Socher, R. and Fei-Fei, L.

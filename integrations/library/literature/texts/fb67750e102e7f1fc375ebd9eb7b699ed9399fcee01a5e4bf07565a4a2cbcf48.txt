@@ -1,0 +1,19 @@
+Hinton. 2016. Layer normalization. Barbieri et al. (2020)
+
+Francesco Barbieri, Jose Camacho-Collados, Luis Espinosa Anke, and Leonardo
+Neves. 2020. TweetEval: Unified benchmark and comparative evaluation for tweet
+classification. In Findings of the Association for Computational Linguistics:
+EMNLP 2020, pages 1644–1650, Online. Association for Computational
+Linguistics. Beltagy et al. (2020)
+
+Iz Beltagy, Matthew E. Peters, and Arman Cohan. 2020. Longformer: The long-document transformer. arXiv:2004.05150. Biderman et al. (2022)
+
+Stella Biderman, Kieran Bicheno, and Leo Gao. 2022. Datasheet for the pile. arXiv preprint arXiv:2201.07311. Biderman et al. (2023a)
+
+Stella Biderman, USVSN Sai Prashanth, Lintang Sutawika, Hailey Schoelkopf,
+Quentin Anthony, Shivanshu Purohit, and Edward Raf. 2023a. Emergent and predictable memorization in large language models. arXiv preprint arXiv:2304.11158. Biderman et al. (2023b)
+
+Stella Biderman, Hailey Schoelkopf, Quentin Anthony, Herbie Bradley, Kyle
+O’Brien, Eric Hallahan, Mohammad Aflah Khan, Shivanshu Purohit, USVSN Sai
+Prashanth, Edward Raff, et al. 2023b. Pythia: A suite for analyzing large language models across training
+and scaling.

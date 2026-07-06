@@ -1,0 +1,5 @@
+The conversation with the LLM consists of user messages (prompts) and LLM replies (thoughts). We follow the established notation [77] and we denote a pre-trained language model (LM) with parameters as . Lowercase letters such as indicate LLM thoughts. We purposefully do not prescribe what is a single “thought”, and instead make it use-case specific. Hence, a single thought can be a paragraph (e.g., in article summary), a document (e.g., in document generation), a block of code (e.g., in code debugging or optimization), and so on. We next describe specific prompting approaches. Input-Output (IO)
+
+The Input-Output (IO) prompting is a straightforward approach, in which we use an LLM to turn an input sequence into the output directly, without any intermediate thoughts. Chain-of-Thought (CoT)
+
+Second, in Chain-of-Thought (CoT), one introduces intermediate thoughts between and . This strategy was shown to significantly enhance various LM tasks over the plain IO baseline, such as mathematical puzzles [71] or general mathematical reasoning [24].

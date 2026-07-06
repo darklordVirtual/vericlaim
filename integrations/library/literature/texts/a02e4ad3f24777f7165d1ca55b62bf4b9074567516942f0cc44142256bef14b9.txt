@@ -1,0 +1,17 @@
+O’Reilly Media, 2nd edition. Sakr et al. [2021]
+
+Sakr, S.; Bonifati, A.; Voigt, H.; Iosup, A.; Ammar, K.; Angles, R.; Aref, W.;
+Arenas, M.; Besta, M.; Boncz, P. A.; Daudjee, K.; Valle, E. D.; Dumbrava, S.;
+Hartig, O.; Haslhofer, B.; Hegeman, T.; Hidders, J.; Hose, K.; Iamnitchi, A.;
+Kalavri, V.; Kapp, H.; Martens, W.; Özsu, M. T.; Peukert, E.; Plantikow,
+S.; Ragab, M.; Ripeanu, M. R.; Salihoglu, S.; Schulz, C.; Selmer, P.;
+Sequeda, J. F.; Shinavier, J.; Szárnyas, G.; Tommasini, R.; Tumeo, A.;
+Uta, A.; Varbanescu, A. L.; Wu, H.-Y.; Yakovets, N.; Yan, D.; and Yoneki, E. 2021. The Future is Big Graphs: A Community View on Graph Processing
+Systems. Commun. ACM, 64(9): 62–71. Scarselli et al. [2008]
+
+Scarselli, F.; Gori, M.; Tsoi, A. C.; Hagenbuchner, M.; and Monfardini, G. 2008. The Graph Neural Network Model. IEEE Transactions on Neural Networks, 20(1): 61–80. Schaeffer [2007]
+
+Schaeffer, S. E. 2007. Graph clustering. Computer Science Review, 1(1): 27–64. Shin et al. [2020]
+
+Shin, T.; Razeghi, Y.; Logan IV, R. L.; Wallace, E.; and Singh, S. 2020. AutoPrompt: Eliciting Knowledge from Language Models with
+Automatically Generated Prompts. arXiv:2010.15980.

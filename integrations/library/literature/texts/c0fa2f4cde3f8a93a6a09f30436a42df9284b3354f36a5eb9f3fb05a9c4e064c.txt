@@ -1,0 +1,49 @@
+bot.equip(bucket, "hand");
+
+// Activate the bucket to collect water
+
+await bot.activateItem();
+
+bot.chat("Filled the bucket with water.");
+
+}
+
+Skill library example 5: catchFiveFishSafely. ⬇
+
+async function catchFiveFishSafely(bot) {
+
+// Check if the bot has a fishing rod in its inventory
+
+let fishingRod = bot.inventory.findInventoryItem(mcData.itemsByName.fishing_rod.id);
+
+if (!fishingRod) {
+
+await craftFishingRod(bot);
+
+fishingRod = bot.inventory.findInventoryItem(mcData.itemsByName.fishing_rod.id);
+
+}
+
+// Find a nearby water block
+
+let waterBlock;
+
+while (!waterBlock) {
+
+waterBlock = await exploreUntil(bot, new Vec3(1, 0, 1), 60, () => {
+
+const foundWaterBlock = bot.findBlock({
+
+matching: mcData.blocksByName.water.id,
+
+maxDistance: 32
+
+});
+
+return foundWaterBlock;
+
+});
+
+if (!waterBlock) {
+
+bot.chat("No path to the water block.

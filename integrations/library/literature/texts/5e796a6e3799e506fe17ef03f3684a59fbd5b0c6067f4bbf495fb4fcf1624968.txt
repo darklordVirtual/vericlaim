@@ -1,0 +1,16 @@
+Language models are unsupervised multitask learners. Technical Report, 2019. Ramachandran et al. (2019)
+
+Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan Bello, Anselm Levskaya,
+and Jon Shlens. Stand-alone self-attention in vision models. In NeurIPS, 2019. Sun et al. (2017)
+
+Chen Sun, Abhinav Shrivastava, Saurabh Singh, and Abhinav Gupta. Revisiting unreasonable effectiveness of data in deep learning era. In ICCV, 2017. Sun et al. (2019)
+
+Chen Sun, Austin Myers, Carl Vondrick, Kevin Murphy, and Cordelia Schmid. Videobert: A joint model for video and language representation
+learning. In ICCV, 2019. Touvron et al. (2019)
+
+Hugo Touvron, Andrea Vedaldi, Matthijs Douze, and Herve Jegou. Fixing the train-test resolution discrepancy. In NeurIPS. 2019. Touvron et al. (2020)
+
+Hugo Touvron, Andrea Vedaldi, Matthijs Douze, and Herve Jegou. Fixing the train-test resolution discrepancy: Fixefficientnet. arXiv preprint arXiv:2003.08237, 2020. Tschannen et al. (2020)
+
+Michael Tschannen, Josip Djolonga, Marvin Ritter, Aravindh Mahendran, Neil
+Houlsby, Sylvain Gelly, and Mario Lucic. Self-supervised learning of video-induced visual invariances.

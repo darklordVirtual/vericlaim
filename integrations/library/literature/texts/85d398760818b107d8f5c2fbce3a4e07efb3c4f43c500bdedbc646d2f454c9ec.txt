@@ -1,0 +1,5 @@
+From Narrow (task-specific) to Broad (multi-task) Prompting
+
+Most prompts are task-specific. While few-shot prompts are naturally so due to task-specific in-context samples (Brown et al., 2020; Wei et al., 2022), majority of zero-shot prompts have also focused on per-task engineering (of templates) (Liu et al., 2021b; Reynolds and McDonell, 2021). Borrowing terminologies from Chollet (2019) which builds on hierarchical models of intelligence (McGrew, 2005; Johnson and Bouchard Jr, 2005), these prompts are arguably eliciting “narrow generalization” or task-specific skills from LLMs. On the other hand, our method is a multi-task prompt and elicits “broad generalization” or broad cognitive abilities in LLMs, such as logical reasoning or system-2 itself. We hope our work can serve as a reference for accelerating not just logical reasoning research with LLMs, but also discovery of other broad cognitive capabilities within LLMs. Training Dataset Details
+
+A limitation of the work is the lack of public information on the details of training datasets used for LLMs, e.g.

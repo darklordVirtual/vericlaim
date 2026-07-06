@@ -1,0 +1,17 @@
+arXiv preprint arXiv:1411.2539, 2014. Kiros et al. (2015)
+
+Kiros, R., Zhu, Y., Salakhutdinov, R. R., Zemel, R., Urtasun, R., Torralba, A.,
+and Fidler, S. Skip-thought vectors. Advances in neural information processing systems,
+28:3294–3302, 2015. Kolesnikov et al. (2019)
+
+Kolesnikov, A., Beyer, L., Zhai, X., Puigcerver, J., Yung, J., Gelly, S., and
+Houlsby, N. Large scale learning of general visual representations for transfer. arXiv preprint arXiv:1912.11370, 2019. Kornblith et al. (2019)
+
+Kornblith, S., Shlens, J., and Le, Q. V. Do better imagenet models transfer better? In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 2661–2671, 2019. Krishna et al. (2017)
+
+Krishna, R., Zhu, Y., Groth, O., Johnson, J., Hata, K., Kravitz, J., Chen, S.,
+Kalantidis, Y., Li, L.-J., Shamma, D. A., et al. Visual genome: Connecting language and vision using crowdsourced
+dense image annotations. International journal of computer vision, 123(1):32–73, 2017. Krizhevsky et al. (2012)
+
+Krizhevsky, A., Sutskever, I., and Hinton, G. E. Imagenet classification with deep convolutional neural networks. In Advances in neural information processing systems, pp.

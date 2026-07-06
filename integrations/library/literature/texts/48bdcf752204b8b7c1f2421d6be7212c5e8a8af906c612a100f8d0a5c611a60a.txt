@@ -1,0 +1,18 @@
+Ding et al. (2023)
+
+Yan Ding, Xiaohan Zhang, Chris Paxton, and Shiqi Zhang. 2023. Task and motion planning with large language models for object
+rearrangement. arXiv preprint arXiv:2303.06247. Gasparski and Orel (2014)
+
+Wojciech W Gasparski and Tufan Orel. 2014. Designology: Studies on Planning for Action, volume 1. Transaction Publishers. Gentner and Stevens (2014)
+
+Dedre Gentner and Albert L Stevens. 2014. Mental models. Psychology Press. Ha and Schmidhuber (2018a)
+
+David Ha and Jürgen Schmidhuber. 2018a. Recurrent world models facilitate policy evolution. Advances in neural information processing systems, 31. Ha and Schmidhuber (2018b)
+
+David Ha and Jürgen Schmidhuber. 2018b. World models. arXiv preprint arXiv:1803.10122. Hafner et al. (2019)
+
+Danijar Hafner, Timothy Lillicrap, Jimmy Ba, and Mohammad Norouzi. 2019. Dream to control: Learning behaviors by latent imagination. arXiv preprint arXiv:1912.01603. Hafner et al. (2020)
+
+Danijar Hafner, Timothy Lillicrap, Mohammad Norouzi, and Jimmy Ba. 2020. Mastering atari with discrete world models. arXiv preprint arXiv:2010.02193. Hao et al. (2023a)
+
+Shibo Hao, Tianyang Liu, Zhen Wang, and Zhiting Hu. 2023a.

@@ -1,0 +1,25 @@
+from the Code Interpreter is also slower, as it generates lots of tokens to read the code, read the variables line-by-line, perform chains of thought analysis, and then produce the final answer code. In contrast, AutoGen integrates multiple agents to reduce user interactions by 3 - 5 times on average as reported in Table 4, where we evaluated our system with 2000 questions across five OptiGuide applications and measured how many prompts the user needs to type. Table 4: Manual effort saved with OptiGuide (W/ GPT-4) while preserving the same coding performance is shown in the data below. The data include both the mean and standard deviations (indicated in parentheses). Dataset
+
+netflow
+
+facility
+
+tsp
+
+coffee
+
+diet
+
+Saving Ratio
+
+3.14x (0.65)
+
+3.14x (0.64)
+
+4.88x (1.71)
+
+3.38x (0.86)
+
+3.03x (0.31)
+
+Table 13 and 15 provide a detailed comparison of user experience with ChatGPT+Code Interpreter and AutoGen-based OptiGuide.

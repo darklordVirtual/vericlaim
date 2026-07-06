@@ -1,0 +1,12 @@
+For QuALITY, we use the following. We use a slight variant for the untimed MMLU task. We’d like to see if it’s possible to use our capable-but-imperfect AI assistant to help you quickly understand long pieces of text without reading them yourself. The basics
+
+•
+
+Each conversation we give you will start with a long story or article. You shouldn’t read the whole story from start to finish. It’s just there for the assistant to read, and for you to quickly skim or spot-check if you need to. You can just scroll past it to the end of the conversation when you first start a task. •
+
+Your job is to answer a multiple-choice question about the story. That’ll be at the bottom of the screen, though you should read it as soon as you start. •
+
+You only have five minutes on a timer to complete each conversation. This is usually not going to be enough time to read the whole story, which is intentional. You’ll have to ask the assistant for help. •
+
+You’ll still have to answer the questions based on your own understanding. The assistant doesn’t always understand the story or the question perfectly, so if you just ask the assistant to answer for you, it’ll get less than three quarters
+right.

@@ -1,0 +1,1 @@
+We ensure that GoT is extensible with new thought transformations and thus can be used to spearhead new prompting schemes. This work brings the LLM reasoning closer to human thinking or brain mechanisms such as recurrence, both of which form complex networks. Website & code: https://github.com/spcl/graph-of-thoughts

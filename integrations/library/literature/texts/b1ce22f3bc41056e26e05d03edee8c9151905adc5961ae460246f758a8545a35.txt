@@ -1,0 +1,21 @@
+The sorted variant is not correct. Fix the sorted variant so that it is correct. Make sure that the output list is sorted in ascending order, has the same number of elements as the input list ({length}), and contains the same elements as the input list.</Instruction>
+
+<Approach>
+
+To fix the incorrectly sorted list follow these steps:
+
+1. For each number from 0 to 9, compare the frequency of that number in the incorrectly sorted list to the frequency of that number in the input list. 2. Iterate through the incorrectly sorted list and add or remove numbers as needed to make the frequency of each number in the incorrectly sorted list match the frequency of that number in the input list. </Approach>
+
+<Examples> See Table 4 </Examples>
+
+Input: {input_list}
+
+Incorrectly Sorted: {sorted_list}
+
+merge_prompt: <Instruction> Merge the following 2 sorted lists of length {length} each, into one sorted list of length {length_combined} using a merge sort style approach. Only output the final merged list without any additional text or thoughts!: </Instruction>
+
+<Approach>
+
+To merge the two lists in a merge-sort style approach, follow these steps:
+
+1. Compare the first element of both lists. 2.

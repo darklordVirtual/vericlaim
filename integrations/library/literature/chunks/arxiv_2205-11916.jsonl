@@ -1,0 +1,141 @@
+{"fsid": "arxiv_2205-11916", "n": 140, "overlap": 200, "source_sha256": "2251ca6f738c7e3ee733f0fa7561afcda0e9e6524b19e124598036cc187d52e3", "target": 1200}
+{"section": "", "seq": 0, "sha256": "511c942d777c0e1fd40d7343c4152121fbb6a77a2c9847aaf7fc62c543f46141"}
+{"section": "Large Language Models are Zero-Shot Reasoners", "seq": 1, "sha256": "36934bffd30f261293d3add8755d26fefb9b04c3d67a4acaf11394fcb5cadf3d"}
+{"section": "Large Language Models are Zero-Shot Reasoners", "seq": 2, "sha256": "06ada7ada4083759be3099acd1733a0a39b3435b531cf0c8acbe2b4ec01de8a9"}
+{"section": "Large Language Models are Zero-Shot Reasoners", "seq": 3, "sha256": "4419e2efbefd10557a9234f8f3407f36acf66c2f3d45d4656dfe27b3251a0075"}
+{"section": "1 Introduction", "seq": 4, "sha256": "650a0a33e706d34c96a8e58add93b9e635c01c51bf3e2a5f01463792c75ca27d"}
+{"section": "1 Introduction", "seq": 5, "sha256": "c23d2c2ad19d1e005831857ee23d65ca1dbd6a510cf1da041613540dd0fb4475"}
+{"section": "1 Introduction", "seq": 6, "sha256": "350fd14daabd20d366258aba39e90f22e1e64700a3c8d6782c8303fb1ec90c44"}
+{"section": "1 Introduction", "seq": 7, "sha256": "4d288302dd2dea4a885cbe79171c0618598617b0ae6d01ff9290df3f339a882c"}
+{"section": "1 Introduction", "seq": 8, "sha256": "e53a868ca9dbd12d7b028539c38c91b50eb7ffe47bd4e2fb3a17650fc3233cd5"}
+{"section": "1 Introduction", "seq": 9, "sha256": "97a2181ac48de9e3cf3fa84c1469a490888f39c157c86d34ddc6d076ba72061d"}
+{"section": "2 Background", "seq": 10, "sha256": "9c2211e08eb95ce14bacddae0d6db684b2f810b53b8891799dcf57ea17c439f6"}
+{"section": "2 Background", "seq": 11, "sha256": "13ea19d5cd693d01e8ac09a00ee69b1b44a092bf4412d8c96165be52593a025b"}
+{"section": "2 Background", "seq": 12, "sha256": "5189dc03048e457cd6c798aec60ceccf24efcbfcc9fb68af6ca00ae825a103c7"}
+{"section": "3 Zero-shot Chain of Thought", "seq": 13, "sha256": "e4cfcda608ac56a20b22c009624017fbafd03dc826ce9e6b70477562ce6509a3"}
+{"section": "3.1 Two-stage prompting", "seq": 14, "sha256": "ea0d91002bb08b1b8670d0b55db6fc54dc5e7b25f9f55e28989e1194cf502894"}
+{"section": "3.1 Two-stage prompting", "seq": 15, "sha256": "e9ee34ab21e237e18534649f03df9411e9b4a7bcf05a23c890b964071261ef0d"}
+{"section": "3.1 Two-stage prompting", "seq": 16, "sha256": "64be93cdf277bb687f53329dc62a9dbd5c72e3a0161c82b069d33ffcc00dc011"}
+{"section": "4 Experiment", "seq": 17, "sha256": "09a119c5f543113a39f5f526654e9de99d81e277bb7a884dcddcdeb562626060"}
+{"section": "4 Experiment", "seq": 18, "sha256": "86a915916defe06e858fa47062aa754252857f72b50f095196bc98b002c30c90"}
+{"section": "4 Experiment", "seq": 19, "sha256": "afd1f70b2b1ebffc596556b3a9605ec980b9ea8e2f511a474c4c465b932895a3"}
+{"section": "4 Experiment", "seq": 20, "sha256": "4b8d0f6aed033b5f8ed0d8bdf72ff21f44783d4a38ca24a3d5b95e21558f526c"}
+{"section": "4 Experiment", "seq": 21, "sha256": "253754413b926dbafd5a202b755750e13939de742ad6437f3784de4a82124894"}
+{"section": "4 Experiment", "seq": 22, "sha256": "d3e0638a1828fd2dc4e9fa326273fec78b271dd85a75ebe58eb569710763f251"}
+{"section": "4.1 Results", "seq": 23, "sha256": "ab206d1ffc462e74833e3076bab433e0b47e4075b51c22456cd98846da84e1f2"}
+{"section": "4.1 Results", "seq": 24, "sha256": "7fb6f6b3ea34c7e98a6033c8733180975a20f4d861ffa59a19d94b5ad54e521d"}
+{"section": "4.1 Results", "seq": 25, "sha256": "1f92d737768b19ccce78d36266a6bc6ca7f65eef15d97c40af4a16ed9c5737cc"}
+{"section": "4.1 Results", "seq": 26, "sha256": "f50e35b94d854afaced3eba380ae884f72256fb24ca45d1a59b05952f93c6655"}
+{"section": "4.1 Results", "seq": 27, "sha256": "8d20e735ab2200ea851a5a42223b50805031cf8956d07817055d05453d7f89a2"}
+{"section": "4.1 Results", "seq": 28, "sha256": "b30b6b3f76fd00adc305b712ab9d8881f1e0316697206bb12da8c9f23f2efa90"}
+{"section": "4.1 Results", "seq": 29, "sha256": "1a1a104012aa4351c3fd345a628928de98c36b4d80ccfa8c93f104a2401b1eaa"}
+{"section": "4.1 Results", "seq": 30, "sha256": "9d4c451f896c25ea09278be04bee00eb4447daf32ce0e9e70f2a7642baa7b436"}
+{"section": "4.1 Results", "seq": 31, "sha256": "85f25d433d48277f36ed801d92d1fed9e5c4a796f8fd94ec2ad9f5c89e48785d"}
+{"section": "4.1 Results", "seq": 32, "sha256": "61954b76b10eb91e6900029f96072a657690adbdeed0d4861a7d48d3c51110f4"}
+{"section": "4.1 Results", "seq": 33, "sha256": "aa3d3be822d5c1a096b91a84b0e7ffa0314b3f97f38b35ee16bf2940b9bcdc9d"}
+{"section": "4.1 Results", "seq": 34, "sha256": "e89d1d0115901ff645a52302558d2fe5095ba4155064de93b16fb7013d5b354f"}
+{"section": "5 Discussion and Related Work", "seq": 35, "sha256": "e5eeefade96b2c6b652d0a3ca4cf6b858b072bfe858a8bfcd6700e4070424649"}
+{"section": "5 Discussion and Related Work", "seq": 36, "sha256": "98a83b807e9f55d67b0ebf0dd2bdf5d32a5256229ad123298f3741e2c118ed43"}
+{"section": "5 Discussion and Related Work", "seq": 37, "sha256": "f149cb778042bd0fafc42343d5fc3326f310d418b989914b0387d9b382b99e77"}
+{"section": "5 Discussion and Related Work", "seq": 38, "sha256": "74f1d474c7d2fd60aa480b92687e72a98e1bed30a30f825bef2e414f61546906"}
+{"section": "5 Discussion and Related Work", "seq": 39, "sha256": "85d398760818b107d8f5c2fbce3a4e07efb3c4f43c500bdedbc646d2f454c9ec"}
+{"section": "5 Discussion and Related Work", "seq": 40, "sha256": "4a6d535915eb1509075aa2582c2c3d7e39535adf1e5b8a17fafb35f9eb006d59"}
+{"section": "5 Discussion and Related Work", "seq": 41, "sha256": "5af728aec21d33c97f295be7b76a40dfe5be22fee4986cbae6d0c5eed503ca11"}
+{"section": "6 Conclusion", "seq": 42, "sha256": "08b5d6f8d273362af699f4e34577a18b483536a52beeddd81812aed6d442597f"}
+{"section": "Acknowledgements", "seq": 43, "sha256": "c0fb9d03ba36ba42c786276f10182544964fb6f1a1f6a5dd99e36a0fbb865311"}
+{"section": "References", "seq": 44, "sha256": "415e95fd2c3a2dc3bdc3f043b07060aa926d66f2c370e9b19d0dfa30c4261df1"}
+{"section": "References", "seq": 45, "sha256": "aacfaed6c25436b14d66c9263fcb5aa48b650ba1532615c32e8f6ca2dca1e70c"}
+{"section": "References", "seq": 46, "sha256": "59ff38bf0584f8e5843a15080b5011238cabaa2a689994ab9da7c16411f6f07b"}
+{"section": "References", "seq": 47, "sha256": "323389ca7013e8df34a989056b2ed39c9dbdcd9cec6f666a19a692fc0d50cade"}
+{"section": "References", "seq": 48, "sha256": "af94b3c64aae249e8b5f3174eff8505029963bac63e162e1074079d537fc616e"}
+{"section": "References", "seq": 49, "sha256": "b405010df865065dfe8cc40f67de099e6c39db2571ef1d12e70e559c12a9305f"}
+{"section": "References", "seq": 50, "sha256": "3d8be3df94c645eec91ba6621c12b3f2affcec1bfc932a222531800a229587dc"}
+{"section": "References", "seq": 51, "sha256": "70a96dfea04b189b8fc12d42d5809751b9cc0ac6017349900f409596465d77eb"}
+{"section": "References", "seq": 52, "sha256": "58a88002cf93d1d442e1031c3d9e1c6b8b9dea5ae34206df2e6b4651b5a94630"}
+{"section": "References", "seq": 53, "sha256": "95ae1deb839ade29d869ea31d36b95fb60aec0905994db7a20baec16f56dec0b"}
+{"section": "References", "seq": 54, "sha256": "3cdbdce89d78751c886117d753bca92ef6976f95fc9b3a673bd728f8e9ce5f79"}
+{"section": "References", "seq": 55, "sha256": "4a3321e725459d49a6db7f29791e0ac89cfbe300736c1e0a5a1ed562a0ccf9ae"}
+{"section": "References", "seq": 56, "sha256": "cdfe3b43db07adc612e37c518c0943f07cd7061c79f29de36dbc57c45f6bb79d"}
+{"section": "References", "seq": 57, "sha256": "b022cdd5a43d2e54920163ed9a07777bb8993916342336d62472d1aeb3b8c2bc"}
+{"section": "References", "seq": 58, "sha256": "6a563bca252cbbb3c629f49058eee8381386129994b6ebdbd05ac621cef4a1f0"}
+{"section": "References", "seq": 59, "sha256": "a4ce2bae55d0e97b6f5050822234d0a5a932fd6ee543b49873e2b263ebd8071a"}
+{"section": "References", "seq": 60, "sha256": "55a149626add212d36434a368094320826d74abbcfa46863d72afbd3cc68082a"}
+{"section": "References", "seq": 61, "sha256": "95fd4708b12504bc3e250ca0146a79b71cfe34ec089211dfe93e9d4a39e8a8c4"}
+{"section": "References", "seq": 62, "sha256": "283e4a100577144fd6584bd8d3f07aee7365749c0e8ac9efca527cadd5c49bda"}
+{"section": "Checklist", "seq": 63, "sha256": "03183ad096f31c49a874eeaf0d7dfff6c0764acc6ebb435f18ae01f76bb69881"}
+{"section": "Checklist", "seq": 64, "sha256": "6727b8228d216b074013685ac180439806074452130da6bf6fd44f0ee24ae46d"}
+{"section": "Checklist", "seq": 65, "sha256": "111cb75cb2a74e76b92194aa89df9b339ec6d0f96dc7d0e92c2e58f83ef03695"}
+{"section": "A.1 Code", "seq": 66, "sha256": "084044bf09d3d442d5edffd936f74f461db4ce2361f8aad4a854c5c219e3f9e3"}
+{"section": "A.2 Datasets", "seq": 67, "sha256": "5c08ec171398f272f03cd62683101b898356d28d06f97837d765a9f953dff376"}
+{"section": "A.2 Datasets", "seq": 68, "sha256": "b849922b86ae0797e0e18996f8a54359ebf5b9bc791f4248628ea4a2d707064d"}
+{"section": "A.2 Datasets", "seq": 69, "sha256": "c94279302435644a7f96057ea9fb29626381be439857fea348ec9fdfb378f37e"}
+{"section": "A.3 Language Models", "seq": 70, "sha256": "6f3ae2f6466361ca7a2cd2d79ef1acfccab09a05c5c4c4acfc26e8b881aa5bed"}
+{"section": "A.3 Language Models", "seq": 71, "sha256": "04a52ba19d61bc344879ba77e8c82702b15e87aee1d1f085527b53fcf038aeab"}
+{"section": "A.4 Implementation details", "seq": 72, "sha256": "dce815d54e990d0174c1f92c941544dab0d9878ca9b3068cd5d911a977da364c"}
+{"section": "A.5 Prompts For Answer Extraction", "seq": 73, "sha256": "cb1ce092e6e7c988e12f818ed8d18fd2b2d89cb8a195b22a9997c021d8bf8987"}
+{"section": "A.5 Prompts For Answer Extraction", "seq": 74, "sha256": "4a7288f06094240a1c0494652e527241124fb83655efa6eb1592fe7193a7487f"}
+{"section": "A.5 Prompts For Answer Extraction", "seq": 75, "sha256": "85a668995d837da13e3ad182baa62674110b31177bd8dfebdb19fa4a9b3259e3"}
+{"section": "A.6 Answer Cleansing", "seq": 76, "sha256": "cda63c4acfe449b9b6d3f6defa7a2a12bfd6d90dd16d61c6d71d66a6c18953cf"}
+{"section": "Appendix B Additional Experiment Results", "seq": 77, "sha256": "9421ca3ac945c7b154d271ddde8989fc0cca24661ecee690fd8c2731cc652217"}
+{"section": "Appendix B Additional Experiment Results", "seq": 78, "sha256": "e73fbea2e05f60fb2044b1e2015905d12e83f98896ad7c5bb9d2889b8aa3f17d"}
+{"section": "Appendix B Additional Experiment Results", "seq": 79, "sha256": "1388e1b71b9e76b2aef87e0032dadf4010e9c8fb61637e3bc041da23f8b910ca"}
+{"section": "Appendix B Additional Experiment Results", "seq": 80, "sha256": "c50260566dac9f5b30e22ddd35e84fab55ecacb408f1e8ca3016ccb393ce1adf"}
+{"section": "Appendix B Additional Experiment Results", "seq": 81, "sha256": "208b70b98f4e7ae5e7cff0536db77bc9b88c2c895ae02c8337755426a6b018ea"}
+{"section": "Appendix B Additional Experiment Results", "seq": 82, "sha256": "cb598faad988a2e34ab0250e28a96d6db0128bb37acc82f720a8f0f3abfccbd1"}
+{"section": "Appendix B Additional Experiment Results", "seq": 83, "sha256": "b951c40922fc0b36db62a9991656b8f3da6024cc370a28941c00468b006769c1"}
+{"section": "Appendix B Additional Experiment Results", "seq": 84, "sha256": "fcb8d75d0cdd5470d8ffc161977e45105f1d18a8e16487f74e3831c405d1bfa8"}
+{"section": "Appendix B Additional Experiment Results", "seq": 85, "sha256": "11a8328c269623cc9ca6e31b480ccb5bda757f64ae34803c429241b75390bf46"}
+{"section": "Appendix B Additional Experiment Results", "seq": 86, "sha256": "a54157867ef646086fb6263de7de12168c0963d9ca2e99add3aa68fbfdec0c7b"}
+{"section": "Appendix B Additional Experiment Results", "seq": 87, "sha256": "610ca57c56e9dfe73dfd3c40be2a44e705d0cb75a2e858d9671b4102d051a4b6"}
+{"section": "Appendix B Additional Experiment Results", "seq": 88, "sha256": "b442c624df447c9ca11f8a5638a6603fc67cb5e1de2b8de4eb10019f4e08ac14"}
+{"section": "Appendix B Additional Experiment Results", "seq": 89, "sha256": "a81d0755e44c2d43005e89eeaf8f3c8c473566fc5c877f4a0b796f050d17e7cc"}
+{"section": "Appendix B Additional Experiment Results", "seq": 90, "sha256": "fee744bdfff05cc99ba18baddf8d81b057dfe61fd3180f6c1a7406af725cafb7"}
+{"section": "Appendix B Additional Experiment Results", "seq": 91, "sha256": "d7c9dd2e18d9c6fa4cfe719c1dd89527bf24f8b1774fcec6184fa6a4f7b880ba"}
+{"section": "Appendix B Additional Experiment Results", "seq": 92, "sha256": "b730ab77d53b2d0f18b8fba7fb5acc1c82ff08267f0ebaeb1db68f6d4fda7090"}
+{"section": "Appendix B Additional Experiment Results", "seq": 93, "sha256": "212f711a66b73aaad8078859c3bd577d7a526b410fb0e021b1341ef5da090135"}
+{"section": "Appendix B Additional Experiment Results", "seq": 94, "sha256": "97a76fc4804ef49392b7596518840272c88ce94c7be64bde6c96c745ac6efee3"}
+{"section": "Appendix B Additional Experiment Results", "seq": 95, "sha256": "986e56e5bb93833ff8ea77616bf8e87957261421a21a7fdd30a050b9c68bb763"}
+{"section": "Appendix B Additional Experiment Results", "seq": 96, "sha256": "448544f929cd8163e7b5332afadf38f7b9620d81fea37f7e456981ed8b705b7d"}
+{"section": "Appendix B Additional Experiment Results", "seq": 97, "sha256": "3032d14ee5a35001aa5acab89d613ad1d552337f6ccfe2e08a632b1c33a6e35e"}
+{"section": "Appendix B Additional Experiment Results", "seq": 98, "sha256": "b7affac5ea5e056f0b4a755be54e87f07cf04416de3f06a57fd6fd7edccf1ce3"}
+{"section": "Appendix B Additional Experiment Results", "seq": 99, "sha256": "15fe841b840555da723cdb1c888f0e04e7e55e937fdaf493ce0e9c18c55a0626"}
+{"section": "Appendix B Additional Experiment Results", "seq": 100, "sha256": "f08325248f03a2f18dfe0311c8694f49daae26bdea9cc5bf2e4dac54a149d797"}
+{"section": "Appendix B Additional Experiment Results", "seq": 101, "sha256": "1fb65a9ef860a1b2399ead682b5e0433d14150da6ecea8d6b88cfe436eca99e1"}
+{"section": "Appendix B Additional Experiment Results", "seq": 102, "sha256": "e9289181f94777f249f20446e214dad1a21ec2bc577b69e0f3a3be5daa5f83b5"}
+{"section": "Appendix B Additional Experiment Results", "seq": 103, "sha256": "e8c74b85ee532e7e3116d10ff00cbfeba81a19854e5c38a7ae4814c709c5a839"}
+{"section": "Appendix B Additional Experiment Results", "seq": 104, "sha256": "2257858a6b7d14eeaf366eb03ab0125e1ab47d2d25a7d8e5a24133b33ed807f2"}
+{"section": "Appendix B Additional Experiment Results", "seq": 105, "sha256": "44905cd2e2bdee92952923cea247a2d55425eefcc27979cc996186b61ff5e4ed"}
+{"section": "Appendix B Additional Experiment Results", "seq": 106, "sha256": "935767d6b5b9139af3e7c839397b9ca7f3939cf6fdf7b2b00dd53a74ed413fb1"}
+{"section": "Appendix B Additional Experiment Results", "seq": 107, "sha256": "4abd2b2da814cc7b80f049f1cb83c292a1de45b7f034169f040214e5a16de8ee"}
+{"section": "Appendix B Additional Experiment Results", "seq": 108, "sha256": "cd7a899d939f12dde056981f036cc0b80e4f49cc5823256125cb7709b6c486d8"}
+{"section": "Appendix B Additional Experiment Results", "seq": 109, "sha256": "b09feed36cf665ccd85da59fa1995acc28f8315e940d19d3f90005eecd9b1ce4"}
+{"section": "Appendix B Additional Experiment Results", "seq": 110, "sha256": "c423c59659c3ab613c5bb4dd46618513d53fe868d0a13571287a531c737cd140"}
+{"section": "Appendix B Additional Experiment Results", "seq": 111, "sha256": "69faa66241e4053edc344a2011fb76e70df4204c365b6ed34aefb4adb3c123a5"}
+{"section": "Appendix B Additional Experiment Results", "seq": 112, "sha256": "03288484f069f870ba7b2c9b291c9e921acd2ca8782b8272d7f88f1432c9218b"}
+{"section": "Appendix B Additional Experiment Results", "seq": 113, "sha256": "c593ea6bbb4aefa251ea1c1244dfc6d12151e297c1ad7da885730b0f7f5bda51"}
+{"section": "Appendix B Additional Experiment Results", "seq": 114, "sha256": "342f9e8acd16a453fc590f6d196591b5cc9a2e915e3a8aca9bc4d307c92452c0"}
+{"section": "Appendix B Additional Experiment Results", "seq": 115, "sha256": "86ad97de4d1544a15fdd16e79ed642a1fae54d347bb5a0dd0230f869dbdc436b"}
+{"section": "Appendix B Additional Experiment Results", "seq": 116, "sha256": "305498937092a4781c5f8e7c24b7f840082bb9564070ce89a76b393b71eac0d7"}
+{"section": "Appendix B Additional Experiment Results", "seq": 117, "sha256": "9213a8f6a91b7f6362d31515c6cca2c7d1c763aad3e07e8cea3cecc624798bc3"}
+{"section": "Appendix C Sample Study", "seq": 118, "sha256": "68dd2dec5aad01c8ad6151920e51a924b0bc0d22c84a0ea7e10ced0c10d8c618"}
+{"section": "C.1 CommonsenseQA", "seq": 119, "sha256": "0eb70916dfe38b9e482be0e4d5f86bc86ffa44cad5c971e8ac53fd47e43c4f6a"}
+{"section": "C.1 CommonsenseQA", "seq": 120, "sha256": "172e607eddf5a6b224d01832fd0ba46de725662f2cd14c7f8160105f1252120e"}
+{"section": "C.1 CommonsenseQA", "seq": 121, "sha256": "8566da2d109433f6a22a1700ef07ead80cb6c66d285c1f9313cd84a40b636bcb"}
+{"section": "C.1 CommonsenseQA", "seq": 122, "sha256": "6b36e53ee826609f22e9932fe5d6b2d44ca144b2f91cae2154fa643cd29a0695"}
+{"section": "C.1 CommonsenseQA", "seq": 123, "sha256": "b8b84146409ec87dde0299f6ebb7799023113bcc320f520b237eccc14139d72d"}
+{"section": "C.1 CommonsenseQA", "seq": 124, "sha256": "430d281515da3e1d2d290d469d3633a349bb0ee7e148b29dbe9f05377ae34513"}
+{"section": "C.1 CommonsenseQA", "seq": 125, "sha256": "310c7ce5447f1f6508507caf8b9cc47843ff2254a6b57693279d530a821f109f"}
+{"section": "C.1 CommonsenseQA", "seq": 126, "sha256": "0f4e16c19cbd67e25faaa28070b9a02013d6f2ccca815f2fe5b55ad8bf15b547"}
+{"section": "C.1 CommonsenseQA", "seq": 127, "sha256": "83f64e693a7aee5d7d811ee0d389e980d6b4470be3d24c8af7475b2beee0ddb0"}
+{"section": "C.2 MultiArith", "seq": 128, "sha256": "8577c0a6627a78d06966aa5b6c9478e66e09ffaf21e9d83218372b8572cb0fcc"}
+{"section": "C.2 MultiArith", "seq": 129, "sha256": "c78e970ebba2b0839c8bf789f4efc4fbccc01074644b3bcb3650c5bd93f9d89d"}
+{"section": "C.2 MultiArith", "seq": 130, "sha256": "0fe2d8034485cdf59849f14a73459ac5475a884447dc341313e5bb4f0e35a94d"}
+{"section": "C.2 MultiArith", "seq": 131, "sha256": "a0756e953e46a7a62c85ae93491e5a75fdcf15f7bfe1848b221ca320e6464a64"}
+{"section": "C.2 MultiArith", "seq": 132, "sha256": "c16e710a81899fc0260e9d69a8f13ebc454e734588946e84ea4f3e560e51dbe1"}
+{"section": "C.2 MultiArith", "seq": 133, "sha256": "a41a4d6b64b610c764d34183104a50dec6efcf8b656e0d2b6608db8079f961c5"}
+{"section": "C.2 MultiArith", "seq": 134, "sha256": "ddff7dc27369de7a51564fba61b47fc2bd70e25eb219ff83c544013d4f9b5acd"}
+{"section": "C.2 MultiArith", "seq": 135, "sha256": "a9e33684e68aecc2a9bd3104dc7327a4e16471640484889fc5b3071d26dc21ef"}
+{"section": "C.2 MultiArith", "seq": 136, "sha256": "853be6593b180024e504f5c3a5fd474368ff73d7542c7b0900fec882cb600f20"}
+{"section": "Appendix D Further Zero-shot Experiments with PaLM 540B", "seq": 137, "sha256": "2a2261c5e51923841fde4f3599b1d24a31c1148da15f09d9430bfec3a73c4a24"}
+{"section": "Appendix E Detailed experiment results of model scale study", "seq": 138, "sha256": "0b13f056fc9ed7447003a929ebde63dbe4c09052b3269523903c58293798a586"}
+{"section": "Appendix E Detailed experiment results of model scale study", "seq": 139, "sha256": "a0443bad27f859400641295e9a9ac9c74a0f419ef39330df3e5977fb89c0979a"}

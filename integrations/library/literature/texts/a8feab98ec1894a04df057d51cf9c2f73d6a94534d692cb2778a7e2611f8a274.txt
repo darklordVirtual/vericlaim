@@ -1,0 +1,18 @@
+2011. Noble (2018)
+
+Noble, S. U. Algorithms of oppression: How search engines reinforce racism. 2018. Nosek et al. (2002)
+
+Nosek, B. A., Banaji, M. R., and Greenwald, A. G. Harvesting implicit group attitudes and beliefs from a demonstration
+web site. Group Dynamics: Theory, Research, and Practice, 6(1):101, 2002. Oh et al. (2011)
+
+Oh, S., Hoogs, A., Perera, A., Cuntoor, N., Chen, C.-C., Lee, J. T., Mukherjee,
+S., Aggarwal, J., Lee, H., Davis, L., et al. A large-scale benchmark dataset for event recognition in surveillance
+video. In CVPR 2011, pp. 3153–3160. IEEE, 2011. Oliver et al. (2018)
+
+Oliver, A., Odena, A., Raffel, C. A., Cubuk, E. D., and Goodfellow, I. Realistic evaluation of deep semi-supervised learning algorithms. Advances in neural information processing systems,
+31:3235–3246, 2018. Oord et al. (2018)
+
+Oord, A. v. d., Li, Y., and Vinyals, O. Representation learning with contrastive predictive coding. arXiv preprint arXiv:1807.03748, 2018. Ordonez et al. (2011)
+
+Ordonez, V., Kulkarni, G., and Berg, T. Im2text: Describing images using 1 million captioned photographs. Advances in neural information processing systems,
+24:1143–1151, 2011.

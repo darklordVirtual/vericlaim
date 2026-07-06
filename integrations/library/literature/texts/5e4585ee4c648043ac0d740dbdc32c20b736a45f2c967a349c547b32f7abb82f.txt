@@ -1,0 +1,21 @@
+However, instead of displaying each input/generated NDA in every prompt/response, we present the 4 input NDAs in Table 31 - Table 33 and the final merged NDA in Table 49. Furthermore, as scoring is done using the LLM as well, we will present these interactions for the best performing merged NDAs (Tables 39 - 40 and Tables 47 - 48). Lastly, most responses are limited to a few lines only, as they don’t offer any further insights and would otherwise span multiple pages. However, we refer the interested reader to the results in the corresponding code repository222https://github.com/spcl/graph-of-thoughts for full logs and further examples. Table 29: Prompt stubs for the document merging task; parameters in single curly brackets will be substituted at runtime. merge_prompt:
+Merge the following 4 NDA documents <Doc1> - <Doc4> into a single NDA, maximizing retained information and minimizing redundancy. Output only the created NDA between the tags <Merged> and </Merged>, without any additional text. Here are NDAs <Doc1> - <Doc4>:
+
+<Doc1>
+{doc1}
+</Doc1>
+
+<Doc2>
+{doc2}
+</Doc2>
+
+<Doc3>
+{doc3}
+</Doc3>
+
+<Doc4>
+{doc4}
+</Doc4>
+
+score_prompt:
+The following NDA <S> merges NDAs <Doc1> - <Doc4>.

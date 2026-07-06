@@ -1,0 +1,17 @@
+Model-based reinforcement learning for atari. arXiv preprint arXiv:1903.00374, 2019. Guss et al. 2019
+
+William H Guss, Cayden Codel, Katja Hofmann, Brandon Houghton, Noboru Kuno,
+Stephanie Milani, Sharada Mohanty, Diego Perez Liebana, Ruslan Salakhutdinov,
+Nicholay Topin, et al. The minerl competition on sample efficient reinforcement learning
+using human priors. arXiv e-prints, pages arXiv–1904, 2019. Kanitscheider et al. 2021
+
+Ingmar Kanitscheider, Joost Huizinga, David Farhi, William Hebgen Guss, Brandon
+Houghton, Raul Sampedro, Peter Zhokhov, Bowen Baker, Adrien Ecoffet, Jie
+Tang, et al. Multi-task curriculum learning in a complex, visual, hard-exploration
+domain: Minecraft. arXiv preprint arXiv:2106.14876, 2021. Baker et al. 2022
+
+Bowen Baker, Ilge Akkaya, Peter Zhokhov, Joost Huizinga, Jie Tang, Adrien
+Ecoffet, Brandon Houghton, Raul Sampedro, and Jeff Clune. Video pretraining (vpt): Learning to act by watching unlabeled online
+videos. arXiv preprint arXiv:2206.11795, 2022. Hafner et al. 2019
+
+Danijar Hafner, Timothy Lillicrap, Jimmy Ba, and Mohammad Norouzi. Dream to control: Learning behaviors by latent imagination. arXiv preprint arXiv:1912.01603, 2019. Hafner et al.

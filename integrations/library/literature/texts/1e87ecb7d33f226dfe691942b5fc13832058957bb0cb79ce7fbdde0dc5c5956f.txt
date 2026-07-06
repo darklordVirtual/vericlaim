@@ -1,0 +1,18 @@
+2022b. Inner Monologue: Embodied Reasoning through Planning with Language
+Models. arXiv:2207.05608. Jiang, Coenen, and Zito [2013]
+
+Jiang, C.; Coenen, F.; and Zito, M. 2013. A survey of frequent subgraph mining algorithms. The Knowledge Engineering Review, 28(1): 75–105. Kim, Baldi, and McAleer [2023]
+
+Kim, G.; Baldi, P.; and McAleer, S. 2023. Language Models can Solve Computer Tasks. arXiv:2303.17491. Lertvittayakumjorn and
+Toni [2021]
+
+Lertvittayakumjorn, P.; and Toni, F. 2021. Explanation-Based Human Debugging of NLP Models: A Survey. Transactions of the Association for Computational Linguistics,
+9: 1508–1528. Lester, Al-Rfou, and Constant [2021]
+
+Lester, B.; Al-Rfou, R.; and Constant, N. 2021. The Power of Scale for Parameter-Efficient Prompt Tuning. In Proceedings of the Conference on Empirical Methods in
+Natural Language Processing, EMNLP ’21, 3045–3059. Association for
+Computational Linguistics. Li and Liang [2021]
+
+Li, X. L.; and Liang, P. 2021. Prefix-Tuning: Optimizing Continuous Prompts for Generation. arXiv:2101.00190. Long [2023]
+
+Long, J. 2023. Large Language Model Guided Tree-of-Thought. arXiv:2305.08291. Lumsdaine et al.

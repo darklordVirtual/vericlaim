@@ -1,0 +1,7 @@
+The result: “Hey Eddy, how’s the music composition project for your class coming along?” From Eddy’s perspective, John initiating the dialogue is seen as an event to which he may want to react. So, just as John did, Eddy retrieves and summarizes his memory about his relationship with John, as well as his memory that may be related to John’s last utterance in the dialogue. If he decides to respond, we generate Eddy’s utterance using his summarized memory and the current dialogue history:
+
+[Agent’s Summary Description]
+
+It is February 13, 2023, 4:56 pm. Eddy Lin’s status: Eddy is taking a short walk around his workplace. Observation: John is initiating a conversation with Eddy. Summary of relevant context from Eddy’s memory: John Lin is Eddy Lin’s father. John Lin is caring and is interested to learn more about Eddy Lin’s school work. John Lin knows that Eddy Lin is working on a music composition. Here is the dialogue history:
+
+John: Hey Eddy, how’s the music composition project for your class coming along? How would Eddy respond to John? This generates Eddy’s response: “Hey Dad, it’s going well.

@@ -1,0 +1,9 @@
+The selection mechanism is a broader concept that can be applied in different ways,
+such as to more traditional RNNs or CNNs, to different parameters (e.g. in Algorithm˜2), or using different transformations . 3.5.1 Connection to Gating Mechanisms
+
+We highlight the most important connection: the classical gating mechanism of RNNs is an instance of our selection mechanism for SSMs. We note that the connection between RNN gating and the discretization of continuous-time systems is well established [funahashi1993approximation, tallec2018can]. In fact, Theorem˜1 is an improvement of [gu2021combining, Lemma 3.1 ] generalizing to the ZOH discretization and input-dependent gates (proof in LABEL:sec:mechanics). More broadly, in SSMs can be seen to play a generalized role of the RNN gating mechanism. In line with prior work, we adopt the view that discretization of SSMs is the principled foundation of heuristic gating mechanisms. Theorem 1. When , and ,
+then the selective SSM recurrence (Algorithm˜2) takes the form
+
+(5)
+
+As mentioned in Section˜3.2, our specific choices of is from this connection.

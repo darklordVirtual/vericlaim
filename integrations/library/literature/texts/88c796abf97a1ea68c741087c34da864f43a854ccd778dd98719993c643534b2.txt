@@ -1,0 +1,17 @@
+Interactive gibson benchmark (igibson 0.5): A benchmark for
+interactive navigation in cluttered environments. arXiv preprint arXiv: Arxiv-1910.14442, 2019. (5)
+
+Bokui Shen, Fei Xia, Chengshu Li, Roberto Martín-Martín, Linxi Fan, Guanzhi
+Wang, Claudia Pérez-D’Arpino, Shyamal Buch, Sanjana Srivastava, Lyne P. Tchapmi, Micael E. Tchapmi, Kent Vainio, Josiah Wong, Li Fei-Fei, and Silvio
+Savarese. igibson 1.0: a simulation environment for interactive tasks in large
+realistic scenes. arXiv preprint arXiv: Arxiv-2012.02924, 2020. (6)
+
+Jens Kober, J Andrew Bagnell, and Jan Peters. Reinforcement learning in robotics: A survey. The International Journal of Robotics Research,
+32(11):1238–1274, 2013. (7)
+
+Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, and Anil Anthony
+Bharath. Deep reinforcement learning: A brief survey. IEEE Signal Processing Magazine, 34(6):26–38, 2017. (8)
+
+Bowen Baker, Ilge Akkaya, Peter Zhokhov, Joost Huizinga, Jie Tang, Adrien
+Ecoffet, Brandon Houghton, Raul Sampedro, and Jeff Clune. Video pretraining (vpt): Learning to act by watching unlabeled online
+videos. arXiv preprint arXiv: Arxiv-2206.11795, 2022.

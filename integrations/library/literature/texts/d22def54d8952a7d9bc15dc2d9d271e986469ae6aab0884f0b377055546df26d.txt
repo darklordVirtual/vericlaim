@@ -1,0 +1,21 @@
+2022. Palm: Scaling
+language modeling with pathways. CoRR, abs/2204.02311. Chung et al. (2014)
+
+Junyoung Chung, Caglar Gulcehre, KyungHyun Cho, and Yoshua Bengio. 2014. Empirical evaluation of gated recurrent neural networks on sequence
+modeling. In NIPS 2014 Deep Learning and Representation Learning
+Workshop. Clark et al. (2019)
+
+Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael
+Collins, and Kristina Toutanova. 2019. Boolq: Exploring the surprising difficulty of natural yes/no
+questions. arXiv preprint arXiv:1905.10044. Clark et al. (2018)
+
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa
+Schoenick, and Oyvind Tafjord. 2018. Think you have solved question answering? try arc, the ai2 reasoning
+challenge. In arXiv:1803.05457. Cobbe et al. (2021)
+
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Jacob Hilton, Reiichiro Nakano,
+Christopher Hesse, and John Schulman. 2021. Training verifiers to solve
+math word problems. In arXiv, volume abs/2110.14168. Dao et al. (2022a)
+
+Tri Dao, Daniel Y Fu, Stefano Ermon, Atri Rudra, and Christopher Re. 2022a. Flashattention:
+Fast and memory-efficient exact attention with IO-awareness.

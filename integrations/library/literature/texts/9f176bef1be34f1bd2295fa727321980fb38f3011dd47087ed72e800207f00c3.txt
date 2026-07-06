@@ -1,0 +1,7 @@
+Figure 10: Model behavior visualizations of RWKV. The right plot illustrates the time decays () in each layer of the RWKV-169M model, sorted along the channel axis. Notably, several decays in the last layers are very close or equal to one, implying that certain information is preserved and propagated throughout the model’s temporal context. Meanwhile, many decays in the initial layer are close to zero, which corresponds to local operations in (16), likely to be associated with tasks such as text parsing or lexical analysis. (Note that the local operations in are due to the extra parameter , when is degenerated into 0.) These patterns of time decays are partly learned, but also come from parameter initialization as it speeds up training. The plot below shows the information retrieval and propagation path in the RWKV-430M model. The experiment follows the causal trace method introduced by Meng et al. (2022), where we
+
+1. Run the model once, and record all states and activation of each layer during the computation;
+
+2. Corrupt the input embeddings of the subject using noise (“The Eiffel Tower” in this example);
+
+3.

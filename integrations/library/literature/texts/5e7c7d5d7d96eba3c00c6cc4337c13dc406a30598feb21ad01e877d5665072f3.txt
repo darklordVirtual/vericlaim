@@ -1,0 +1,28 @@
+AutoGPT on the first qualitative example. We abort as the code never prints the result, and the system does not rectify it after 2 turns. AutoGPT is much more verbose compared to other frameworks. We have shortened some unnecessary content. Action
+
+AutoGPT
+
+System
+
+Welcome back! Would you like me to return to being MathSolverGPT? Asking user via keyboard…
+Continue with the last settings? Name: MathSolverGPT
+
+Role: an intelligent math-solving AI that assists students, professionals,…
+
+Goals: [’Provide step-by-step solutions to math problems, ensuring clarity and understanding for the user…
+
+Continue (y/n):
+
+\faUser
+
+Human
+
+y
+
+System
+
+MathSolverGPT has been created with the following details:
+Name: MathSolverGPT
+
+Role: an intelligent math-solving AI that assists students, professionals, and enthusiasts in solving a wide range of math problems, from basic arithmetic to advanced calculus and beyond. Goals:
+- Provide step-by-step solutions to math problems, ensuring clarity and understanding for the user. - Offer explanations and insights into the underlying concepts and principles behind the solutions, fostering a deeper understanding of mathematics.

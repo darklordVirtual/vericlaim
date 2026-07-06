@@ -1,0 +1,1 @@
+Figure 24: t-SNE visualization of the internal hidden states of LLMs during moments of mixed emotions. In addition to the individual emotions detailed in Section 6.1.1, LLMs also maintain records of mixed emotions, such as simultaneous feelings of happiness and sadness.

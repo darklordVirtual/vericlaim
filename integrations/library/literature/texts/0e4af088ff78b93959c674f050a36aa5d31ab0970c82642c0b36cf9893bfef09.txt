@@ -1,0 +1,20 @@
+B., Chess, B., Child, R.,
+Gray, S., Radford, A., Wu, J., and Amodei, D. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020. Karpathy et al. (2014)
+
+Karpathy, A., Joulin, A., and Fei-Fei, L. F. Deep fragment embeddings for bidirectional image sentence mapping. In Advances in neural information processing systems, pp. 1889–1897, 2014. Keyes (2018)
+
+Keyes, O. The misgendering machines: Trans/hci implications of automatic gender
+recognition. Proceedings of the ACM on Human-Computer Interaction,
+2(CSCW):1–22, 2018. Kiela et al. (2020)
+
+Kiela, D., Firooz, H., Mohan, A., Goswami, V., Singh, A., Ringshia, P., and
+Testuggine, D. The hateful memes challenge: Detecting hate speech in multimodal
+memes. arXiv preprint arXiv:2005.04790, 2020. Kingma & Ba (2014)
+
+Kingma, D. P. and Ba, J. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014. Kiros et al. (2014)
+
+Kiros, R., Salakhutdinov, R., and Zemel, R. S. Unifying visual-semantic embeddings with multimodal neural language
+models. arXiv preprint arXiv:1411.2539, 2014. Kiros et al. (2015)
+
+Kiros, R., Zhu, Y., Salakhutdinov, R. R., Zemel, R., Urtasun, R., Torralba, A.,
+and Fidler, S.

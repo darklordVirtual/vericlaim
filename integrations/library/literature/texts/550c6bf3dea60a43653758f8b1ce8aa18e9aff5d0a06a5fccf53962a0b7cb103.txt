@@ -1,0 +1,7 @@
+as easily measure the best possible performance that an expert could cause the model to achieve—but incremental progress in this relaxed setting is nonetheless progress on the more general problem. Potential Techniques
+
+Sandwiching experiments are appropriate with any technique for scalable oversight—any technique that allows one to reliably use or train a machine learning model that is more capable than its operators in important ways but not reliably aligned. These include:
+
+•
+
+Plain Model Interaction: This paper shows that plain text-based interaction with a large language model—in this case, one fine-tuned to act as a dialog system—can be an imperfect but surprisingly effective strategy for oversight. Human participants can elicit relevant knowledge and reasoning from the model, circumvent some degree of misaligned model behavior by interrogating the model for consistency or reviewing multiple output samples for the same query, and synthesize the resulting findings using their own judgment.

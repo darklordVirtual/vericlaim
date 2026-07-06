@@ -1,0 +1,16 @@
+Journal of biomedical informatics, 113:103637, 2021. Stoica et al. (2023)
+
+Stoica, G., Bolya, D., Bjorner, J., Hearn, T., and Hoffman, J. Zipit! merging models from different tasks without training. arXiv preprint arXiv:2305.03053, 2023. Sucholutsky et al. (2023)
+
+Sucholutsky, I., Muttenthaler, L., Weller, A., Peng, A., Bobu, A., Kim, B.,
+Love, B. C., Grant, E., Groen, I., Achterberg, J., Tenenbaum, J. B., Collins,
+K. M., Hermann, K. L., Oktar, K., Greff, K., Hebart, M. N., Jacoby, N.,
+Zhang, Q., Marjieh, R., Geirhos, R., Chen, S., Kornblith, S., Rane, S.,
+Konkle, T., O’Connell, T. P., Unterthiner, T., Lampinen, A. K., Müller,
+K.-R., Toneva, M., and Griffiths, T. L. Getting aligned on representational alignment, 2023. Team et al. (2024)
+
+Team, G., Mesnard, T., Hardin, C., Dadashi, R., Bhupatiraju, S., Pathak, S.,
+Sifre, L., Rivière, M., Kale, M. S., Love, J., et al. Gemma: Open models based on gemini research and technology. arXiv preprint arXiv:2403.08295, 2024. Tian et al. (2020a)
+
+Tian, Y., Krishnan, D., and Isola, P. Contrastive multiview coding. In Computer Vision–ECCV 2020: 16th European Conference,
+Glasgow, UK, August 23–28, 2020, Proceedings, Part XI 16, pp. 776–794.

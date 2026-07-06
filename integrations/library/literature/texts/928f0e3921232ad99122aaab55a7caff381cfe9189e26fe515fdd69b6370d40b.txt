@@ -1,0 +1,6 @@
+large language models (LLMs); some predict AI will broadly outperform humans within about a decade (Bengio et al., 2023); some even assert that current LLMs are AGIs (Agüera y Arcas & Norvig, 2023). The concept of AGI
+is important as it maps onto goals for, predictions about, and risks of AI:
+
+Goals: Achieving human-level “intelligence” is an implicit or explicit north-star goal for many in our field, from the 1956 Dartmouth AI Conference (McCarthy et al., 1955) that kick-started the modern field of AI,
+to today’s leading AI research firms, whose mission statements include goals such as
+“ensure transformative AI helps people and society” (Anthropic, 2023a) and “ensure that artificial general intelligence benefits all of humanity” (OpenAI, 2023). Predictions: The concept of AGI is related to a prediction about progress in AI, namely that it is toward greater generality, approaching and exceeding human generality. Additionally, AGI is typically intertwined with a notion of “emergent” properties (Wei et al., 2022), i.e. capabilities not explicitly anticipated by the developer.

@@ -1,0 +1,29 @@
+Note that unlike diagonal matrices, a DPLR matrix does not lend itself to efficient computation of . The reason is that computes terms which involve powers of the matrix . These are trivially computable when is diagonal, but is no longer possible for even simple modifications to diagonal matrices such as DPLR. Reduction 1: SSM Generating Function
+
+To address the problem of computing powers of , we introduce another technique. Instead of computing the SSM convolution filter directly,
+we introduce a generating function on its coefficients and compute evaluations of it. Definition 2 (SSM Generating Function). We define the following quantities:
+
+•
+
+The SSM convolution function is
+and the (truncated) SSM filter of length
+
+(9)
+
+•
+
+The SSM generating function at node is
+
+(10)
+
+and the truncated SSM generating function at node is
+
+(11)
+
+•
+
+The truncated SSM generating function at nodes is
+
+(12)
+
+Intuitively, the generating function essentially converts the SSM convolution filter from the time domain to frequency domain. Importantly, it preserves the same information, and the desired SSM convolution filter can be recovered from evaluations of its generating function. Lemma C.2.

@@ -1,0 +1,16 @@
+OpenReview.net, 2020. (18)
+
+Zelin Zhao, Karan Samel, Binghong Chen, and Le Song. Proto: Program-guided transformer for program-guided tasks. In Marc’Aurelio Ranzato, Alina Beygelzimer, Yann N. Dauphin, Percy
+Liang, and Jennifer Wortman Vaughan, editors, Advances in Neural
+Information Processing Systems 34: Annual Conference on Neural Information
+Processing Systems 2021, NeurIPS 2021, December 6-14, 2021, virtual, pages
+17021–17036, 2021. (19)
+
+Yunfan Jiang, Agrim Gupta, Zichen Zhang, Guanzhi Wang, Yongqiang Dou, Yanjun
+Chen, Li Fei-Fei, Anima Anandkumar, Yuke Zhu, and Linxi (Jim) Fan. Vima: General robot manipulation with multimodal prompts. ARXIV.ORG, 2022. (20)
+
+Mohit Shridhar, Lucas Manuelli, and Dieter Fox. Cliport: What and where pathways for robotic manipulation. arXiv preprint arXiv: Arxiv-2109.12098, 2021. (21)
+
+Linxi Fan, Guanzhi Wang, De-An Huang, Zhiding Yu, Li Fei-Fei, Yuke Zhu, and
+Animashree Anandkumar. SECANT: self-expert cloning for zero-shot generalization of visual
+policies.

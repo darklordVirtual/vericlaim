@@ -1,0 +1,6 @@
+Finally, the full bilinear discretization can be rewritten in terms of these matrices as
+
+The discrete-time SSM (3) becomes
+
+Note that are accessed only through matrix-vector multiplications. Since they are both DPLR, they have matrix-vector multiplication,
+showing Theorem 2.

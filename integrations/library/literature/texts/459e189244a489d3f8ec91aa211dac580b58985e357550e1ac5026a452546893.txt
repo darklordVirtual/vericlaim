@@ -1,0 +1,27 @@
+‘raw_iron’, ‘beef’, ‘rail’, ‘oak_sapling’, ‘kelp’, ‘gold_ingot’, ‘birch_log’, ‘wheat_seeds’, ‘cooked_mutton’, ‘furnace’, ‘arrow’, ‘stone_shovel’, ‘white_wool’, ‘andesite’, ‘jungle_slab’, ‘mutto n’, ‘iron_sword’, ‘copper_ingot’, ‘diamond’, ‘torch’, ‘oak_log’, ‘cooked_beef’, ‘copper_block’, ‘flint’, ‘bone_meal’, ‘raw_copper’, ‘wooden_pickaxe’, ‘iron_boots’, ‘wooden_sword’. The items collected by ReAct [29] in each trial is
+
+•
+
+Trial 1: ‘bamboo’, ‘dirt’, ‘sand’, ‘wheat_seeds’;
+
+•
+
+Trial 2: ‘dirt’, ‘rabbit’, ‘spruce_log’, ‘spruce_sapling’;
+
+•
+
+Trial 3: ‘dirt’, ‘pointed_dripstone’;
+
+The items collected by Reflexion [30] in each trial is
+
+•
+
+Trial 1: ‘crafting_table’, ‘orange_tulip’, ‘oak_planks’, ‘oak_log’, ‘dirt’;
+
+•
+
+Trial 2: ‘spruce_log’, ‘dirt’, ‘clay_ball’, ‘sand’, ‘gravel’;
+
+•
+
+Trial 3: ‘wheat_seeds’, ‘oak_log’, ‘dirt’, ‘birch_log’, ‘sand’.

@@ -1,0 +1,7 @@
+Our doubt stems from the observation that emergent abilities seem to appear only under metrics that nonlinearly or discontinuously scale any model’s per-token error rate. For instance, as we later show, of emergent abilities on BIG-Bench tasks srivastava2022beyond (hand-annotated by wei2022bigbench ) appear under either of these two metrics:
+
+Multiple Choice Grade
+
+Exact String Match
+
+This raises the possibility of an alternative explanation for the origin of LLMs’ emergent abilities: sharp and unpredictable changes might be induced by the researcher’s choice of measurement, even though the model family’s per-token error rate changes smoothly, continuously and predictably with increasing scale. Specifically, our alternative posits that emergent abilities are a mirage caused primarily by the researcher choosing a metric that nonlinearly or discontinuously deforms per-token error rates, and secondarily by possessing too few test data to accurately estimate the performance of smaller models, thereby causing smaller models to appear wholly unable to perform the task.

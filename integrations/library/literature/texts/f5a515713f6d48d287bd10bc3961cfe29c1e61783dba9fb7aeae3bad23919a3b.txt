@@ -1,0 +1,126 @@
+(real)
+
+Mamba
+
+Mamba
+
+S6
+
+Figure 13:
+(Ablations: Selective parameters.)
+is the most important parameter (Theorem˜1), but using multiple selective parameters together synergizes. Selective
+
+Selective
+
+Selective
+
+Perplexity
+
+✗
+
+✗
+
+✗
+
+10.93
+
+✗
+
+✓
+
+✗
+
+10.15
+
+✗
+
+✗
+
+✓
+
+9.98
+
+✓
+
+✗
+
+✗
+
+9.81
+
+✓
+
+✓
+
+✓
+
+8.71
+
+Figure 14:
+(Ablations: Parameterization of .)
+The more standard initializations based on S4D-Lin [gu2022parameterization] perform worse than S4D-Real or a random initialization,
+when the SSM is selective. Initialization
+
+Field
+Perplexity
+
+Complex
+
+9.16
+
+Real
+
+8.85
+
+Real
+
+8.71
+
+Real
+
+8.71
+
+Figure 15:
+(Ablations: Expressivity of .)
+The selection mechanism of constructs it with a projection of the input. Projecting it even to dim. provides a large increase in performance;
+increasing it further provides further improvements at the cost of a modest increase in parameters. State size fixed to . Size of proj. Params (M)
+Perplexity
+
+-
+
+358.9
+
+9.12
+
+359.1
+
+8.97
+
+359.3
+
+8.97
+
+359.7
+
+8.91
+
+360.5
+
+8.83
+
+362.1
+
+8.84
+
+365.2
+
+8.80
+
+371.5
+
+8.71
+
+Figure 16:
+(Ablations: SSM state dimension.)
+(Top) Constant and
+(Bottom) Selective and .

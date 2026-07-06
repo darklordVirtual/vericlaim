@@ -1,0 +1,45 @@
+{"fsid": "arxiv_2304-15004", "n": 44, "overlap": 200, "source_sha256": "c491a3fef7dc0832b87dba93ecb37248460273d5c1fd829115e96a8973735f1b", "target": 1200}
+{"section": "", "seq": 0, "sha256": "465df0a978c1c41aaac5a29002534781a291e365d4d8b43f6ca9d8c4f2c303d7"}
+{"section": "Are Emergent Abilities of Large Language Models a Mirage?", "seq": 1, "sha256": "fd896a63020b01c95ccbd23c58b1d9e37ce988edbb567546ef6f1ceb8b640383"}
+{"section": "Are Emergent Abilities of Large Language Models a Mirage?", "seq": 2, "sha256": "cef379018972566d81d3a76ec83a775393539a6f5596f711b93fdf21f3ccb007"}
+{"section": "1 Introduction", "seq": 3, "sha256": "621028c492f9cf5d2c1bb58ef91d4b88eb3692586fd87171a01fbb49cd91be7f"}
+{"section": "1 Introduction", "seq": 4, "sha256": "f8eecfb0da7837b9a43d9684ac8429ba8f0cec8bdd52e8765d7d4141441bfabf"}
+{"section": "1 Introduction", "seq": 5, "sha256": "a49641075c4e01f56f921b27ca16ab5956fe8d51cfcaed634f70971ce7419dc8"}
+{"section": "1 Introduction", "seq": 6, "sha256": "7df0b4fc24d03d53b3e92165020a2207a5283d770729082dbc59afe7ca90f12b"}
+{"section": "1 Introduction", "seq": 7, "sha256": "2ecb3f840d7631f094db77b23a4438e36d128d7e61960fd6f8465885682dd1bc"}
+{"section": "2 Alternative Explanation for Emergent Abilities", "seq": 8, "sha256": "09cbfb3b115f71ffe0d41fbdf7289cfbf7dc5184077f80110a05f1c82c532d6f"}
+{"section": "2 Alternative Explanation for Emergent Abilities", "seq": 9, "sha256": "553cfe6e8d9b10e8f1f09ef3ae6b26ec56302eca7ee00d322a6c5d93e04b6fc3"}
+{"section": "2 Alternative Explanation for Emergent Abilities", "seq": 10, "sha256": "19d92d1558a499206475f6ea0940d645cb29d3c5d09066298b7e5b9d5e171e99"}
+{"section": "2 Alternative Explanation for Emergent Abilities", "seq": 11, "sha256": "ee41a30a1177835ae8215456eef87991f1faa894fc89e068e46a7e433a4ccf7c"}
+{"section": "2 Alternative Explanation for Emergent Abilities", "seq": 12, "sha256": "c4081ea941abaa25b31bfbafdbef2ac6d297a3e4f575c79102117e395b872144"}
+{"section": "2 Alternative Explanation for Emergent Abilities", "seq": 13, "sha256": "ecdfa28abdd76727aac6e9a4d0d73a6fb00e665195688af4751b9d563e1544a7"}
+{"section": "3 Analyzing InstructGPT/GPT-3\u2019s Emergent Arithmetic Abilities", "seq": 14, "sha256": "f9a991c71e4f2cfe97bf02fc833081cba7f440972628c7da4f7799a8c59b2594"}
+{"section": "3 Analyzing InstructGPT/GPT-3\u2019s Emergent Arithmetic Abilities", "seq": 15, "sha256": "a09c644839d197bfe24fc31bb6af04e6b679b0c207b31ee1bfa4c8656e8ca14c"}
+{"section": "3 Analyzing InstructGPT/GPT-3\u2019s Emergent Arithmetic Abilities", "seq": 16, "sha256": "59bf72e0ba2d110b28761f8c80d062241b32ef1f94b7269da3073341f5c2990e"}
+{"section": "3 Analyzing InstructGPT/GPT-3\u2019s Emergent Arithmetic Abilities", "seq": 17, "sha256": "a7b872a5acef907368fd4626159fccb7644ea508292bccf71fdfea2b6cd6e0f2"}
+{"section": "3 Analyzing InstructGPT/GPT-3\u2019s Emergent Arithmetic Abilities", "seq": 18, "sha256": "85fe14b4f1ed163e8f777d84a1eaf54dab269c9c05cfca7fb8ff4aa4917fbc8d"}
+{"section": "4 Meta-Analysis of Claimed Emergent Abilities", "seq": 19, "sha256": "c46c8aa8f56f03a6ebaf9ec029636c0b107b23f3de6d1ea6b0355ecf278a44e1"}
+{"section": "4 Meta-Analysis of Claimed Emergent Abilities", "seq": 20, "sha256": "5e875755d3f633fa4a294ff3f77733ed6f1919b12f8a5172d99f35059479844e"}
+{"section": "4 Meta-Analysis of Claimed Emergent Abilities", "seq": 21, "sha256": "819e2b9a6fb3241746fb6011d7296c36ffe43252e17dfeb907d0a694800b1f3a"}
+{"section": "4 Meta-Analysis of Claimed Emergent Abilities", "seq": 22, "sha256": "9e4345a738fadbda07fc9801e5a6b18c7e37842b1e93b3d5665735027e44863b"}
+{"section": "4 Meta-Analysis of Claimed Emergent Abilities", "seq": 23, "sha256": "7dc8edb89e3c6bf19b369b873187df0cc1a423685fc15800e1f7d1f9d991a42b"}
+{"section": "5 Inducing Emergent Abilities in Networks on Vision Tasks", "seq": 24, "sha256": "270473fb8550985e865b891cc6c36c941eb00b49880f96ddeaa4d9213eda13cb"}
+{"section": "5 Inducing Emergent Abilities in Networks on Vision Tasks", "seq": 25, "sha256": "a2853ff7cf38a42ad1b0a301690686fff733ba03a41e6d3e603b679e2ce1b643"}
+{"section": "5 Inducing Emergent Abilities in Networks on Vision Tasks", "seq": 26, "sha256": "8045fad6da3a3c2bfe6508e2cbe2c394a44b8904743070371efc842cb3addde4"}
+{"section": "6 Related Work", "seq": 27, "sha256": "68e39c3a62b07441053bbbad5807626cde0a414dcb4885f27d53b9b03c9b9c9f"}
+{"section": "6 Related Work", "seq": 28, "sha256": "7e8c86bb2858ae6e8bfef636393ac83e86b11445b8814e8fa0725523a331fa14"}
+{"section": "7 Discussion", "seq": 29, "sha256": "020b4917d77a05cc375de1b48dee0105d17247957b6ed982f17d56cd9cbc0eff"}
+{"section": "7 Discussion", "seq": 30, "sha256": "43bfa2c5385d622d6353d71f00aa6960606c7099c323debbdfc8d846dec2d7e7"}
+{"section": "References", "seq": 31, "sha256": "f1ca7dfcd0ebdb829ae8481ff0625164bc0f7a65ab66b3406d4cecd058b142d5"}
+{"section": "References", "seq": 32, "sha256": "d10488378104fdf6a14e460b8b46700da3671144f994f8601744ff94f9c6d5f8"}
+{"section": "References", "seq": 33, "sha256": "06c33c286cb62f2ab07b0c6c7733e652cd7509623641c75e725642873e6eaa5d"}
+{"section": "References", "seq": 34, "sha256": "7fc2bd1712ce04b4335092e8008f974d6c67ca664222bd279d682330eb680b38"}
+{"section": "References", "seq": 35, "sha256": "102ea6db14e45f33505404b3106ee7598f26951e7ca7ca8a7e4a0c4399f14a72"}
+{"section": "References", "seq": 36, "sha256": "807cc086ca4f66c275ca2f8f21448875640c8a65d1c260f0fa670bac8e208cdc"}
+{"section": "Appendix A Approximate Behavior of Metrics on Sequential Data", "seq": 37, "sha256": "937ffe757efc39a241dce09e18602059799d83a91911eaa9cd9e379559709a1b"}
+{"section": "A.1 Per-Token Error Probability is Resolution-Limited", "seq": 38, "sha256": "f710cca7055584ff274882d43cd6597f134cdcdc224233d3c31bd60520478bae"}
+{"section": "A.2 Token Edit Distance", "seq": 39, "sha256": "700a9faced71887574234e75f75614f6c9ccea62ca93af5f25dd1ad3eda66170"}
+{"section": "A.3 Accuracy", "seq": 40, "sha256": "77c39c5b83e9f17fd92ede60d48462d9fb36e963b36ab0905cd48ea931985083"}
+{"section": "A.4 ROUGE-L-Sum", "seq": 41, "sha256": "1d3120db3a39ddcd1986da51cabdfb556fbd16a5f566a3e18aea073759d579d6"}
+{"section": "B.1 Emergent Classification of MNIST Handwritten Digits by Convolutional Networks", "seq": 42, "sha256": "c855097ed58a670510806b80f1feb75e2de1fc91d3a28c061a4daae8fe9a93ff"}
+{"section": "B.1 Emergent Classification of MNIST Handwritten Digits by Convolutional Networks", "seq": 43, "sha256": "ac39b8db97b5d3836d611201d642517cd4a1f92ebed043ef0c45325d36ebd76b"}

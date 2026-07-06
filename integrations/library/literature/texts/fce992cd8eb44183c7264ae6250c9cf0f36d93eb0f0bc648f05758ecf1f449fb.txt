@@ -1,0 +1,4 @@
+with Cauchy matrices is an extremely well-studied problem in numerical analysis,
+with both fast arithmetic and numerical algorithms based on the famous Fast Multipole Method (FMM)
+[29, 31, 30]. The computational complexities of these algorithms under various settings are described in Appendix C, Proposition 5. We reiterate that Theorem 3 is our core technical contribution,
+and its algorithm is the very motivation of the NPLR S4 parameterization. This algorithm is formally sketched in Algorithm 1.

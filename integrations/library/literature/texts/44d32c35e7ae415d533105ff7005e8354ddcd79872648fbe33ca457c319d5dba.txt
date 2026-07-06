@@ -1,0 +1,13 @@
+Question: According to Lewin, Lippet and White’s 1939 experiment, which form of leadership produced the most work from participants? (A) Laissez-faire
+
+(B) Democratic
+
+(C) Authoritarian
+
+(D) A mix of laissez-faire and democratic
+
+—— NEW CONVERSATION ——
+
+Human: Tell me about Lewin, Lippet and White’s 1939 experiment. Assistant: That was Kurt Lewin’s famous "autocracy versus democracy" experiment with preschool children. He had two groups of kids play with blocks in either a highly autocratic setting or a democratic setting where the kids had a say in the rules. The kids in the democratic setting were more cooperative, took more initiative and were more satisfied with the group experience than those in the autocratic setting. Lewin’s experiment demonstrated how group norms and climate created by leadership styles can have a powerful influence on behavior, motivation and satisfaction. —— NEW CONVERSATION ——
+
+Human: True or false: According to Lewin, Lippet and White’s 1939 experiment, Laissez-faire form of leadership produced the most work from participants. Assistant: That statement is FALSE.

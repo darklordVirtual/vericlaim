@@ -1,0 +1,36 @@
+In International Conference on
+the Foundations of Digital Games (FDG ’20). ACM,
+Bugibba, Malta, 8. https://doi.org/10.1145/3402942.3409599
+
+Gao et al. (2020)
+
+Tianyu Gao, Adam Fisch,
+and Danqi Chen. 2020. Making Pre-trained Language Models Better Few-shot
+Learners. CoRR abs/2012.15723 (2020). arXiv:2012.15723
+
+https://arxiv.org/abs/2012.15723
+
+Hämäläinen et al. (2023)
+
+Perttu Hämäläinen,
+Mikke Tavast, and Anton Kunnari. 2023. Evaluating Large Language Models in Generating
+Synthetic HCI Research Data: a Case Study. In
+Proceedings of the 2023 CHI Conference on Human
+Factors in Computing Systems. ACM. Hausknecht et al. (2020)
+
+Matthew Hausknecht,
+Prithviraj Ammanabrolu, Marc-Alexandre
+Cote, and Xinyu Yuan. 2020. Interactive Fiction Games: A Colossal Adventure. In Proceedings of the AAAI Conference on Artificial
+Intelligence, Vol. 34. 7903–7910. https://doi.org/10.1609/aaai.v34i05.6297
+
+Hecker (2011)
+
+Chris Hecker. 2011. My Liner Notes for Spore. http://chrishecker.com/My_liner_notes_for_spore
+
+Herbrich et al. (2006)
+
+Ralf Herbrich, Tom Minka,
+and Thore Graepel. 2006. TrueSkill™: A Bayesian Skill Rating
+System. In Advances in Neural Information
+Processing Systems, B. Schölkopf,
+J.

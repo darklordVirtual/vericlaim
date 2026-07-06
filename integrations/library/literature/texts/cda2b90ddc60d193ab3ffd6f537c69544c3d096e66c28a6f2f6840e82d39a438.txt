@@ -1,0 +1,5 @@
+laws up to 1B parameters, we show that Mamba exceeds the performance of a large range of baselines, including very strong modern Transformer training recipes based on LLaMa [touvron2023llama]. Our Mamba language model has 5 generation throughput compared to Transformers of similar size, and Mamba-3B’s quality matches that of Transformers twice its size (e.g. 4 points higher avg. on common sense reasoning compared to Pythia-3B and even exceeding Pythia-7B). Model code and pre-trained checkpoints are open-sourced at https://github.com/state-spaces/mamba. Figure 1:
+(Overview.)
+Structured SSMs independently map each channel (e.g. ) of an input to output through a higher dimensional latent state (e.g. ). Prior SSMs avoid materializing this large effective state (, times batch size and sequence length ) through clever alternate computation paths requiring
+time-invariance: the parameters are constant across time. Our selection mechanism adds back input-dependent dynamics, which
+also requires a careful hardware-aware algorithm to only materialize the expanded states in more efficient levels of the GPU memory hierarchy.

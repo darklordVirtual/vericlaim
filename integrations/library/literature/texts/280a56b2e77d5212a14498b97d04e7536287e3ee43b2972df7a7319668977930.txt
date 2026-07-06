@@ -1,0 +1,11 @@
+Consider a contrastive learner that models observations that cooccur together. For simplicity, we ground our discussion with the following definition of the cooccurrence probability, , of two observations and both occurring within some window :
+
+Analogously, we can define for and other observation modalities. Note that is symmetric. Consider positive pairs as two observations nearby in time (sampled from ) and negative pairs as observations drawn from any point in time (sampled independently from the marginal). Our contrastive learner tries to classify if a pair is positive or negative by learning a representation such that the dot-product kernel approximates the log odds ratio up to some offset:
+
+(3)
+
+(4)
+
+(5)
+
+where is the pointwise mutual information (PMI) kernel, and is constant in . We note that this is a common setting for self-supervised contrastive learners with NCE objectives (Gutmann & Hyvärinen, 2010; Oord et al., 2018), including SimCLR (Chen et al., 2020) and SimCSE (Gao et al., 2021). (See Oord et al.

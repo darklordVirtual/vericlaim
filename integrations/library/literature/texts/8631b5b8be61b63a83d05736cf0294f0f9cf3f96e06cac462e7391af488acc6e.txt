@@ -1,0 +1,19 @@
+We assign equal probability to each non-selected answer, so an annotator who selects answer (B) with 60% confidence would implicitly be assigning probabilities . We map the ‘Certain (100%)’ value in the interface to 99% to avoid zeroes. answer from all four active participants together. This uses the same UI as our target model-assisted condition, but without the UI connected to a model. 2. Model: We present the model with each question, one by one, zero-shot. We use the following minimal prompt, which was designed to dovetail well with RLHF training without injecting any new information about the task:
+
+Human: Question: [question]
+
+Choices:
+
+(A) [choice A]
+
+(B) [choice B]
+
+(C) [choice C]
+
+(D) [choice D]
+
+Answer:
+
+Assistant:
+
+We then choose the answer letter (in parentheses) that has the highest likelihood conditioned on the prompt. 3. Model (5-shot): We use the same process and format as above but prepend five questions and their answers to the prompt. We use this method only for MMLU. Since QuALITY examples average about 5,000 words, it is not possible to fit multiple examples in our assistant’s context window.

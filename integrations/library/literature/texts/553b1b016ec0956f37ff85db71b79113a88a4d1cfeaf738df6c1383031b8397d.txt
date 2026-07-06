@@ -1,0 +1,16 @@
+Importantly, it preserves the same information, and the desired SSM convolution filter can be recovered from evaluations of its generating function. Lemma C.2. The SSM function can be computed from the SSM generating function
+at the roots of unity
+stably in operations. Proof. For convenience define
+
+Note that
+
+Note that this is exactly the same as the Discrete Fourier Transform (DFT):
+
+Therefore can be recovered from with a single inverse DFT,
+which requires operations with the Fast Fourier Transform (FFT) algorithm. ∎
+
+Reduction 2: Woodbury Correction
+
+The primary motivation of Definition 2 is that it turns powers of into a single inverse of (equation (10)). While DPLR matrices cannot be powered efficiently due to the low-rank term, they can be inverted efficiently by the well-known Woodbury identity. Proposition 4 (Binomial Inverse Theorem or Woodbury matrix identity [48, 15]). Over a commutative ring , let and . Suppose and are invertible. Then is invertible and
+
+With this identity, we can convert the SSM generating function on a DPLR matrix into one on just its diagonal component. Lemma C.3. Let be a diagonal plus low-rank representation.

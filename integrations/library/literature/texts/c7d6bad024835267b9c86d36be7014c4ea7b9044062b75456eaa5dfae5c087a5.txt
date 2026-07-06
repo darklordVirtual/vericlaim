@@ -1,0 +1,15 @@
+Le, and Jason Wei. Scaling instruction-finetuned language models. arXiv preprint arXiv: Arxiv-2210.11416, 2022. (75)
+
+Jiafei Duan, Samson Yu, Hui Li Tan, Hongyuan Zhu, and Cheston Tan. A survey of embodied AI: from simulators to research tasks. IEEE Trans. Emerg. Top. Comput. Intell., 6(2):230–244, 2022. (76)
+
+Dhruv Batra, Angel X. Chang, Sonia Chernova, Andrew J. Davison, Jia Deng,
+Vladlen Koltun, Sergey Levine, Jitendra Malik, Igor Mordatch, Roozbeh
+Mottaghi, Manolis Savva, and Hao Su. Rearrangement: A challenge for embodied ai. arXiv preprint arXiv: Arxiv-2011.01975, 2020. (77)
+
+Harish Ravichandar, Athanasios S Polydoros, Sonia Chernova, and Aude Billard. Recent advances in robot learning from demonstration. Annual review of control, robotics, and autonomous systems,
+3:297–330, 2020. (78)
+
+Jack Collins, Shelvin Chand, Anthony Vanderkop, and David Howard. A review of physics simulators for robotic applications. IEEE Access, 9:51416–51431, 2021. (79)
+
+So Yeon Min, Devendra Singh Chaplot, Pradeep Ravikumar, Yonatan Bisk, and
+R. Salakhutdinov. Film: Following instructions in language with modular methods. International Conference on Learning Representations, 2021.

@@ -1,0 +1,19 @@
+We first consider an adaptation of the Levenshtein (string edit) distance for models that function on tokens rather than characters, an adaptation we term the token edit distance. The token edit distance between two token sequences is defined as the integer number of additions, deletions or substitutions necessary to transform into (or vice versa). (4)
+
+(5)
+
+(6)
+
+The expected token edit distance is therefore:
+
+(7)
+
+(8)
+
+(9)
+
+The resolution-limited expected token edit distance is therefore:
+
+(10)
+
+From this, we see that the expected token edit distance scales approximately linearly with the resolution-limited per-token probability. The real rate is slightly higher than linear because additions and deletions contribute an additional non-negative cost, but modeling this requires a model of how likely the model is to overproduce or underproduce tokens, which is something we do not currently possess.

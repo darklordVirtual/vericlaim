@@ -1,0 +1,7 @@
+Standard self-attention (SA, Vaswani et al. (2017)) is a popular building block for neural architectures. For each element in an input sequence , we compute a weighted sum over all values in the sequence. The attention weights are based on the pairwise similarity between two elements of the sequence and their respective query and key representations. (5)
+
+(6)
+
+(7)
+
+Multihead self-attention (MSA) is an extension of SA in which we run self-attention operations, called “heads”, in parallel, and project their concatenated outputs. To keep compute and number of parameters constant when changing , (Eq. 5) is typically set to . (8)

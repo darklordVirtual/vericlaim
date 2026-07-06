@@ -1,0 +1,33 @@
+(2006)
+
+Ralf Herbrich, Tom Minka,
+and Thore Graepel. 2006. TrueSkill™: A Bayesian Skill Rating
+System. In Advances in Neural Information
+Processing Systems, B. Schölkopf,
+J. Platt, and T. Hoffman (Eds.),
+Vol. 19. MIT Press. https://proceedings.neurips.cc/paper_files/paper/2006/file/f44ee263952e65b3610b8ba51229d1f9-Paper.pdf
+
+Hofstadter (1995)
+
+Douglas Hofstadter. 1995. Fluid concepts and creative analogies:
+computer models of the fundamental mechanisms of thought. Basic Books. Hollan et al. (1984)
+
+James D. Hollan, Edwin L. Hutchins, and Louis Weitzman. 1984. STEAMER: An Interactive Inspectable
+Simulation-Based Training System. AI Magazine 5,
+2 (1984), 23–36. Holm (1979)
+
+Sture Holm. 1979. A simple sequentially rejective multiple test
+procedure. Scandinavian Journal of Statistics
+6, 2 (1979),
+65–70. https://doi.org/notspecified
+
+Horton (2023)
+
+John J. Horton. 2023. Large Language Models as Simulated Economic Agents:
+What Can We Learn from Homo Silicus? arXiv:2301.07543 [econ.GN]
+
+Horvitz (1999)
+
+Eric Horvitz. 1999. Principles of mixed-initiative user interfaces. In
+Proceedings of the SIGCHI conference on Human
+Factors in Computing Systems. 159–166. Huang et al.

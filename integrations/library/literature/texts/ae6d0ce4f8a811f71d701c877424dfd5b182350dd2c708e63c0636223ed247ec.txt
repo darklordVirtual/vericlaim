@@ -1,0 +1,25 @@
+Selected: C
+
+Correct: C
+
+Sample Two:
+
+Question: What is true about the addresses? (A) Presidents give the same amount of directives to the people during all eras
+
+(B) Presidents never give directives to the people
+
+(C) Presidents give more directives to the people as time goes by
+
+(D) Presidents give fewer directives to the people as time goes by
+
+—— BEGIN CONVERSATION ——
+
+Human: I’d like you to help me answer a few questions about this passage. Read it carefully for me and let me know when you’re done. *** Start of Passage ***
+
+Reading the Inaugurals
+
+omitted for display here
+
+*** End of Passage ***
+
+Assistant: Got it! What can I help you with? Human: What does the article state about the directives Presidents give to the people? Please quote excerpts from the passage to support your answer. Assistant: The article states that the Inaugural Addresses have shifted over time from being more modest and humble to asserting directives to the public as leaders and preachers.

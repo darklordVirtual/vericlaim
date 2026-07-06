@@ -1,0 +1,7 @@
+We first induce an emergent ability to reconstruct images in shallow (i.e., single hidden layer) nonlinear autoencoders trained on CIFAR100 natural images krizhevsky09learningmultiple . To emphasize that the sharpness of the metric is responsible for emergent abilities, and to show that sharpness extends to metrics beyond Accuracy, we intentionally define a discontinuous metric that measures a network’s ability to reconstruct a dataset as the average number of test data with squared reconstruction error below threshold :
+
+(2)
+
+where denotes an indicator variable and is the autoencoder’s reconstruction of . The autoencoder family displays smoothly decreasing squared reconstruction error as the number of bottleneck units increases (Fig. 7B). Under our newly defined Reconstructionc metric and for particular choices of , the autoencoder family exhibits a sharp and seemingly unpredictable image reconstruction ability (Fig. 7C) that qualitatively matches published emergent abilities (Fig. 7A). Emergent Classification of Omniglot Characters by Autoregressive Transformers
+
+Figure 8: Induced emergent classification ability in autoregressive Transformers.

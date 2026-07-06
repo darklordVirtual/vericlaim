@@ -1,0 +1,15 @@
+J., Brett, M., Wilson, J., Millman, K. J., Mayorov, N., Nelson,
+A. R. J., Jones, E., Kern, R., Larson, E., Carey, C. J., Polat, İ., Feng,
+Y., Moore, E. W., VanderPlas, J., Laxalde, D., Perktold, J., Cimrman, R.,
+Henriksen, I., Quintero, E. A., Harris, C. R., Archibald, A. M., Ribeiro,
+A. H., Pedregosa, F., van Mulbregt, P., and SciPy 1.0 Contributors. SciPy 1.0: Fundamental Algorithms for Scientific Computing in
+Python. Nature Methods, 17:261–272, 2020. doi: 10.1038/s41592-019-0686-2. Vo et al. (2017)
+
+Vo, N., Jacobs, N., and Hays, J. Revisiting im2gps in the deep learning era. In Proceedings of the IEEE International Conference on Computer
+Vision, pp. 2621–2630, 2017. Wang et al. (2018)
+
+Wang, A., Singh, A., Michael, J., Hill, F., Levy, O., and Bowman, S. R. Glue: A multi-task benchmark and analysis platform for natural
+language understanding. arXiv preprint arXiv:1804.07461, 2018. Wang et al. (2019)
+
+Wang, H., Ge, S., Lipton, Z., and Xing, E. P. Learning robust global representations by penalizing local predictive
+power. In Advances in Neural Information Processing Systems, pp. 10506–10518, 2019. Wang et al.

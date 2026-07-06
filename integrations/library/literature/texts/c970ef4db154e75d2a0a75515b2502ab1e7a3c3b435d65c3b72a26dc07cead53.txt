@@ -1,0 +1,13 @@
+CoRR, abs/2308.08708, 2023. doi: 10.48550/arXiv.2308.08708. URL https://arxiv.org/abs/2308.08708. Campbell et al. (2002)
+
+Campbell, M., Hoane, A. J., and Hsu, F.-h. Deep Blue. Artif. Intell., 134(1–2):57–83, jan 2002. ISSN 0004-3702. doi: 10.1016/S0004-3702(01)00129-1. URL https://doi.org/10.1016/S0004-3702(01)00129-1. Chen et al. (2023)
+
+Chen, X., Wang, X., Changpinyo, S., and et al. PaLI: A Jointly-Scaled Multilingual Language-Image Model. CoRR, abs/2209.06794, 2023. doi: 10.48550/arXiv.2209.06794. URL https://arxiv.org/abs/2209.06794. Chollet (2019)
+
+Chollet, F. On the measure of intelligence, 2019. Christian (2020)
+
+Christian, B. The Alignment Problem. W. W. Norton & Company, 2020. Das et al. (2022)
+
+Das, M. M., Saha, P., and Das, M. Which One is More Toxic? Findings from Jigsaw Rate Severity of Toxic Comments. CoRR, abs/2206.13284, 2022. doi: 10.48550/arXiv.2206.13284. URL https://arxiv.org/abs/2206.13284. Dell’Acqua et al. (2023)
+
+Dell’Acqua, F., McFowland, E., Mollick, E. R., Lifshitz-Assaf, H., Kellogg, K., Rajendran, S., Krayer, L., Candelon, F., and Lakhani, K. R.

@@ -1,0 +1,25 @@
+54, 12, 22],
+
+"List 2": [33, 35, 7, 13, 2, 59, 8, 23, 43, 16, 29, 55, 25, 63, 21, 18]
+
+}}
+
+</Examples>
+
+merge_prompt: -
+
+Table 12: Intersection of two 32-element sets: Execution plan (GoO)
+
+GoO:
+
+1. Split the second input set into two sub-sets of equal size (split_prompt)
+
+2. For each sub-set: Intersect the sub-set with the first input set (intersect_prompt) five times; score each sort attempt; keep the best
+
+3. Merge the resulting intersections into one full intersection set (merge_prompt) 10 times; score each merge attempt; keep the best
+
+Table 13: Intersection of two 32-element sets: Step 1 (Prompt/Response)
+
+Step 1 – Prompt:
+
+<Instruction> Split the following list of 32 numbers into 2 lists of 16 numbers each, the first list should contain the first 16 numbers and the second list the second 16 numbers. Only output the 2 lists in the following format without any additional text or thoughts!

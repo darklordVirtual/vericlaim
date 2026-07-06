@@ -1,0 +1,34 @@
+2020. Language Models are Few-Shot Learners. arXiv:2005.14165 [cs.CL]
+
+Bubeck et al. (2023)
+
+Sébastien Bubeck,
+Varun Chandrasekaran, Ronen Eldan,
+Johannes Gehrke, Eric Horvitz,
+Ece Kamar, Peter Lee,
+Yin Tat Lee, Yuanzhi Li,
+Scott Lundberg, et al. 2023. Sparks of artificial general intelligence: Early
+experiments with gpt-4. arXiv preprint arXiv:2303.12712
+(2023). Burkinshaw (2009)
+
+Robin Burkinshaw. 2009. Alice and Kev: The Story of Being Homeless in The
+Sims 3. Callison-Burch et al. (2022)
+
+Chris Callison-Burch,
+Gaurav Singh Tomar, Lara Martin,
+Daphne Ippolito, Suma Bailis, and
+David Reitter. 2022. Dungeons and Dragons as a Dialog Challenge for
+Artificial Intelligence. In Proceedings of the
+2022 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics,
+Abu Dhabi, United Arab Emirates,
+9379–9393. https://aclanthology.org/2022.emnlp-main.637
+
+Card et al. (1980)
+
+Stuart K Card, Thomas P
+Moran, and Allen Newell. 1980. The keystroke-level model for user performance time
+with interactive systems. Commun. ACM 23,
+7 (1980), 396–410. https://doi.org/10.1145/358886.358895
+arXiv:https://doi.org/10.1145/358886.358895
+
+Card et al.

@@ -1,0 +1,19 @@
+991–999, 2015. Li et al. (2023)
+
+Li, T., Katabi, D., and He, K. Return of unconditional generation: A self-supervised representation
+generation method. arXiv:2312.03701, 2023. Lian et al. (2023a)
+
+Lian, L., Li, B., Yala, A., and Darrell, T. LLM-grounded diffusion: Enhancing prompt understanding of
+text-to-image diffusion models with large language models. arXiv preprint arXiv:2305.13655, 2023a. Lian et al. (2023b)
+
+Lian, L., Shi, B., Yala, A., Darrell, T., and Li, B. LLM-grounded video diffusion models. arXiv preprint arXiv:2309.17444, 2023b. Lindsey & Brown (2014)
+
+Lindsey, D. T. and Brown, A. M. The color lexicon of american english. Journal of vision, 14(2):17–17, 2014. Liu et al. (2023)
+
+Liu, H., Li, C., Wu, Q., and Lee, Y. J. Visual instruction tuning. In NeurIPS, 2023. Liu et al. (2020)
+
+Liu, S., Wang, T., Bau, D., Zhu, J.-Y., and Torralba, A. Diverse image generation via self-conditioned GANs. In Proceedings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition (CVPR), 2020. Liu et al. (2019)
+
+Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M.,
+Zettlemoyer, L., and Stoyanov, V.

@@ -1,0 +1,19 @@
+Yang et al. (2020)
+
+Qian Yang, Aaron
+Steinfeld, Carolyn Rosé, and John
+Zimmerman. 2020. Re-examining whether, why, and how human-AI
+interaction is uniquely difficult to design. In
+Proceedings of the 2020 chi conference on human
+factors in computing systems. 1–13. Yannakakis (2012)
+
+Georgios N. Yannakakis. 2012. Game AI revisited. In
+Proceedings of the 9th Conference on Computing
+Frontiers. ACM, Cagliari, Italy,
+285–292. https://doi.org/10.1145/2212908.2212950
+
+Zubek (2002)
+
+Robert Zubek. 2002. Towards implementation of social interaction. In
+AAAI Spring Symposium on Artificial Intelligence
+and Interactive Entertainment. AAAI Press. https://www.aaai.org/Papers/Symposia/Spring/2002/SS-02-01/SS02-01-003.pdf

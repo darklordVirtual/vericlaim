@@ -1,0 +1,3 @@
+This section contains full experimental procedures and extended results and citations for our experimental evaluation in Section 4. Section D.1 corresponds to benchmarking results in Section 4.1,
+Section D.2 corresponds to LRD experiments (LRA and Speech Commands) in Section 4.2,
+and Section D.3 corresponds to the general sequence modeling experiments (generation, image classification, forecasting) in Section 4.3.

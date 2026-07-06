@@ -1,0 +1,21 @@
+We re-implement AutoGPT by using GPT-4 to do task decomposition and provide it with the agent states, environment feedback, and execution errors as observations for subgoal execution. Compared with Voyager, AutoGPT lacks the skill library for accumulating knowledge, self-verification for assessing task success, and automatic curriculum for open-ended exploration. During each subgoal execution, if no execution error occurs, we consider the subgoal completed and proceed to the next one. Otherwise, we refine the program until three rounds of code refinement (equivalent to four rounds of code generation) are completed, and then move on to the next subgoal. If three consecutive subgoals do not result in acquiring a new item, we replan by rerunning the task decomposition. The task is “explore the world and get as many items as possible” for all baselines. Table A.3: Comparison between Voyager and baselines. ReAct [29]
+
+Reflexion [30]
+
+AutoGPT [28]
+
+Voyager
+
+Chain-of-Thought [46]
+
+Self Verification
+
+Environment Feedback
+
+Execution Errors
+
+Agent State
+
+Skill Library
+
+Automatic Curriculum

@@ -1,0 +1,15 @@
+ToT offers a latency of but also has low volume. GoT is the only scheme to come with both a low latency of and a high volume . This is enabled by the fact that GoT harnesses aggregations of thoughts, making it possible to reach the final thought from any other intermediate thought in the graph decomposition. Scheme
+
+Latency
+
+Volume
+
+Chain-of-Thought (CoT)
+
+Self-Consistency with CoT (CoT-SC)
+
+Tree of Thoughts (ToT)
+
+Graph of Thoughts (GoT)
+
+Table 2: Comparison of prompting schemes, with respect to their fundamental tradeoff between latency and volume. GoT offers the best tradeoff. Figure 5: Number of errors and cost in sorting tasks with ChatGPT-3.5. and indicate the structure of ToT (see Sections 3.2 and 6).

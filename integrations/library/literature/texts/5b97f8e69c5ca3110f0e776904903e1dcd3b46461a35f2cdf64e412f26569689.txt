@@ -1,0 +1,13 @@
+CoRR, abs/2112.03784, 2021. doi: 10.48550/arXiv.2112.03784. URL https://arxiv.org/abs/2112.03784. Parasuraman et al. (2000)
+
+Parasuraman, R., Sheridan, T., and Wickens, C. A model for types and levels of human interaction with automation. IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans, 30(3):286–297, 2000. doi: 10.1109/3468.844354. Pichai & Hassabis (2023)
+
+Pichai, S. and Hassabis, D. Introducing gemini: our largest and most capable ai model, December 2023. URL https://blog.google/technology/ai/google-gemini-ai/. Pressley et al. (1987)
+
+Pressley, M., Borkowski, J., and Schneider, W. Cognitive strategies: Good strategy users coordinate metacognition and knowledge. Annals of Child Development, 4:89–129, 1987. (54)
+
+PromptBase. PromptBase: Prompt Marketplace. URL https://promptbase.com/. accessed on October 20, 2023. Raji et al. (2021)
+
+Raji, I. D., Bender, E. M., Paullada, A., Denton, E., and Hanna, A. AI and the Everything in the Whole Wide World Benchmark. CoRR, abs/2111.15366, 2021. doi: 10.48550/arXiv.2111.15366. URL https://arxiv.org/abs/2111.15366. Ramesh et al. (2022)
+
+Ramesh, A., Dhariwal, P., Nichol, A., Chu, C., and Chen, M.

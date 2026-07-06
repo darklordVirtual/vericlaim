@@ -1,0 +1,11 @@
+Therefore, the final answer is that the coin is heads up. Therefore, the answer (Yes or No) is Yes. Q: A coin is heads up. Caroline flips the coin. Demetrius flips the coin. Fidel does not flip the coin. Solomon flips the coin. Is the coin still heads up? Note that "flip" here means "reverse". A: Let’s think step by step. Caroline flips the coin. The coin is now tails up. Demetrius flips the coin. The coin is now heads up. Fidel does not flip the coin. The coin remains tails up. Solomon flips the coin. The coin is now heads up. So, the answer is yes, the coin is still heads up. Therefore, the answer (Yes or No) is: Yes ✗ (GT : No)
+
+Table 13: Example outputs by Zero-Shot and Zero-Shot-CoT with various templates for template robustness study. The number within the parenthesis corresponds to the number in Table 4. Question
+
+Q: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her? Zero-Shot
+
+A: The answer (arabic numerals) is 3 days. ✗
+
+Zero-shot-CoT (1)
+
+A: Let’s think step by step. Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister.

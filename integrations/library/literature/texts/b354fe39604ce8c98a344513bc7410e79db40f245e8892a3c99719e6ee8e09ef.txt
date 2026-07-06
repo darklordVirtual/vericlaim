@@ -1,0 +1,17 @@
+Hochreiter & Schmidhuber (1997)
+
+Sepp Hochreiter and Jürgen Schmidhuber. Flat minima. Neural computation, 9(1):1–42, 1997. Jiang et al. (2019)
+
+Yiding Jiang, Behnam Neyshabur, Hossein Mobahi, Dilip Krishnan, and Samy
+Bengio. Fantastic generalization measures and where to find them. arXiv preprint arXiv:1912.02178, 2019. Kaiser & Sutskever (2015)
+
+Łukasz Kaiser and Ilya Sutskever. Neural gpus learn algorithms. arXiv preprint arXiv:1511.08228, 2015. Keskar et al. (2016)
+
+Nitish Shirish Keskar, Dheevatsa Mudigere, Jorge Nocedal, Mikhail Smelyanskiy,
+and Ping Tak Peter Tang. On large-batch training for deep learning: Generalization gap and
+sharp minima. CoRR, abs/1609.04836, 2016. URL http://arxiv.org/abs/1609.04836. Loshchilov & Hutter (2017)
+
+Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017. Nakkiran et al. (2019)
+
+Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, and Ilya
+Sutskever. Deep double descent: Where bigger models and more data hurt. arXiv preprint arXiv:1912.02292, 2019. Neelakantan et al.

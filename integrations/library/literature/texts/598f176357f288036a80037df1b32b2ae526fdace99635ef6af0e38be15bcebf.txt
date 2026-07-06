@@ -1,0 +1,6 @@
+By equation (6), note that NPLR matrices can be conjugated into diagonal plus low-rank (DPLR) form
+(now over instead of ). Theorems 2 and 3 describe the complexities of SSMs where is in DPLR form. S4 is optimal or near-optimal for both recurrent and convolutional representations. Theorem 2 (S4 Recurrence). Given any step size , computing one step of the recurrence (3) can be done in operations where is the state size. Theorem 2 follows from the fact that the inverse of a DPLR matrix is also DPLR (e.g. also by the Woodbury identity). This implies that the discretized matrix is the product of two DPLR matrices and thus has matrix-vector multiplication. Section C.2 computes in closed DPLR form. Theorem 3 (S4 Convolution). Given any step size , computing the SSM convolution filter can be reduced to 4 Cauchy multiplies,
+requiring only
+operations and space. Appendix C, Definition 3 formally defines Cauchy matrices, which are related to rational interpolation problems. Computing with Cauchy matrices is an extremely well-studied problem in numerical analysis,
+with both fast arithmetic and numerical algorithms based on the famous Fast Multipole Method (FMM)
+[29, 31, 30].

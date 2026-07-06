@@ -1,0 +1,19 @@
+Structured state space sequence models (S4) are a recent class of sequence models for deep learning that are broadly related to RNNs, and CNNs,
+and classical state space models. They are inspired by a particular continuous system (1)
+that maps a 1-dimensional function or sequence through an implicit latent state . Concretely,
+S4 models are defined with four parameters , which define a sequence-to-sequence transformation in two stages. (1a)
+
+(1b)
+
+(2a)
+
+(2b)
+
+(3a)
+
+(3b)
+
+Discretization. The first stage transforms the “continuous parameters” to “discrete parameters” through fixed formulas and ,
+where the pair is called a discretization rule. Various rules can be used such as the zero-order hold (ZOH) defined in equation (4). (4)
+
+Discretization has deep connections to continuous-time systems which can endow them with additional properties such as resolution invariance [nguyen2022s4nd] and automatically ensuring that the model is properly normalized [gu2023train, orvieto2023resurrecting]. It also has connections to gating mechanisms of RNNs [tallec2018can, gu2020improving] which we will revisit in Section˜3.5.

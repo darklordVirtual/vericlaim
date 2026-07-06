@@ -1,0 +1,19 @@
+PMLR. Besta et al. [2021a]
+
+Besta, M.; Kanakagiri, R.; Kwaśniewski, G.; Ausavarungnirun, R.;
+Beránek, J.; Kanellopoulos, K.; Janda, K.; Vonarburg-Shmaria, Z.;
+Gianinazzi, L.; Stefan, I.; Luna, J. G.; Golinowski, J.; Copik, M.;
+Kapp-Schwoerer, L.; Di Girolamo, S.; Blach, N.; Konieczny, M.; Mutlu, O.; and
+Hoefler, T. 2021a. SISA: Set-Centric Instruction Set Architecture for Graph Mining on
+Processing-in-Memory Systems. In Proceedings of the 54th Annual IEEE/ACM International
+Symposium on Microarchitecture, MICRO ’21, 282–297. Besta et al. [2020]
+
+Besta, M.; Kanakagiri, R.; Mustafa, H.; Karasikov, M.; Rätsch, G.; Hoefler,
+T.; and Solomonik, E. 2020. Communication-Efficient Jaccard Similarity for High-Performance
+Distributed Genome Comparisons. In Proceedings of the IEEE International Parallel and
+Distributed Processing Symposium, IPDPS ’20, 1122–1132. Besta et al. [2022c]
+
+Besta, M.; Miglioli, C.; Labini, P. S.; Tětek, J.; Iff, P.; Kanakagiri, R.;
+Ashkboos, S.; Janda, K.; Podstawski, M.; Kwaśniewski, G.; Gleinig, N.;
+Vella, F.; Mutlu, O.; and Hoefler, T. 2022c. ProbGraph: High-Performance and High-Accuracy Graph Mining with
+Probabilistic Set Representations.

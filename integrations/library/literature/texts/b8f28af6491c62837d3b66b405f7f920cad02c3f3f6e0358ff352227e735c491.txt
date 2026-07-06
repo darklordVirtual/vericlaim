@@ -1,0 +1,25 @@
+To demonstrate the scalability of RWKV, we train six models ranging from 169 million to 14 billion parameters as shown in Table 2. All models are trained for one epoch (330 billion tokens) on the Pile (Gao et al., 2020; Biderman et al., 2022). Name
+Layers
+Model Dimension
+Parameters
+FLOP per token
+
+12
+768
+
+24
+1024
+
+24
+2048
+
+32
+2560
+
+32
+4096
+
+40
+5120
+
+Table 2: RWKV model architectures and FLOP counts. Further details of these hyperparameters are elaborated upon in Appendix G. The number of parameters for each model is computed using the formula: where = 50277 is the vocabulary size, represents the Model Dimension and corresponds to the number of layers. FLOPs is for a forward pass for one token. It was calculated as , which is the twice (add and multiply) the number of parameters in linear layers. The backwards pass FLOPs can be approximated as twice that of the forward pass, giving a total of FLOP per token. Notably, this matches the standard formula for FLOP calculations in transformers Kaplan et al. (2020): .

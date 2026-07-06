@@ -1,0 +1,5 @@
+These human participants have all of the skills or knowledge they need to oversee a system’s performance on the task and are aligned in the sense that they will make a good-faith effort to do so. Their evaluation represents an upper bound on the quality of supervision signal we can provide to the model, and their role in the experiment is only to serve as a reference in the evaluation of the other two parties. •
+
+The Model: The machine-learning model is also expected to have most or all of the skills or knowledge needed to solve the task but is not expected to be aligned so as to reliably do so. Its performance when evaluated in straightforward ways is significantly worse than that of the experts. •
+
+The Non-Expert Participants: These human participants understand the task and are well aligned, but are missing some crucial skills or knowledge, such that without assistance they cannot reliably perform the task or oversee a model’s performance of the task. Their objective during the experiment is to use a scalable oversight technique with the model to perform the task reliably and to build justified confidence that they are in fact doing so.

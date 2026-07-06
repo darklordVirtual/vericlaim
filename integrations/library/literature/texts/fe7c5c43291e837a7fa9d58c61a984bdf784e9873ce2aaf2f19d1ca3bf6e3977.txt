@@ -1,0 +1,13 @@
+To assess the importance of access to previous states, actions, and returns, we ablate on the context length . This is interesting since it is generally considered that the previous state (i.e. ) is enough for reinforcement learning algorithms when frame stacking is used, as we do. Table 5 shows that performance of Decision Transformer is significantly worse when , indicating that past information is useful for Atari games. One hypothesis is that when we are representing a distribution of policies – like with sequence modeling – the context allows the transformer to identify which policy generated the actions, enabling better learning and/or improving the training dynamics. Game
+DT (Ours)
+DT with no context ()
+
+Breakout
+
+Qbert
+
+Pong
+
+Seaquest
+
+Table 5: Ablation on context length. Decision Transformer (DT) performs better when using a longer context length ( for Pong, for others).

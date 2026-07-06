@@ -1,0 +1,20 @@
+Lemma C.3. Let be a diagonal plus low-rank representation. Then for any root of unity , the truncated generating function satisfies
+
+Proof. Directly expanding Definition 2 yields
+
+where . We can now explicitly expand the discretized SSM matrices and back in terms of the original SSM parameters and . Lemma C.4 provides an explicit formula, which allows further simplifying
+
+The last line applies the Woodbury Identity (Proposition 4) where . ∎
+
+The previous proof used the following self-contained result to back out the original SSM matrices from the discretization. Lemma C.4. Let be the SSM matrices discretized by the bilinear discretization with step size . Then
+
+Proof. Recall that the bilinear discretization that we use (equation (3)) is
+
+The result is proved algebraic manipulations. ∎
+
+Note that in the S4 parameterization, instead of constantly computing ,
+we can simply reparameterize our parameters to learn directly instead of ,
+saving a minor computation cost and simplifying the algorithm. Reduction 3: Cauchy Kernel
+
+We have reduced the original problem of computing to the problem of computing the SSM generating function
+in the case that is a diagonal matrix.

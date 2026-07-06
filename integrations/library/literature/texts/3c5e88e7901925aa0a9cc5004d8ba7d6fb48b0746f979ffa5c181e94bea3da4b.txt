@@ -1,0 +1,17 @@
+Bau et al. (2017)
+
+David Bau, Bolei Zhou, Aditya Khosla, Aude Oliva, and Antonio Torralba. Network dissection: Quantifying interpretability of deep visual
+representations. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 6541–6549, 2017. Bau et al. (2019)
+
+David Bau, Hendrik Strobelt, William Peebles, Jonas Wulff, Bolei Zhou, Jun-Yan
+Zhu, and Antonio Torralba. Semantic photo manipulation with a generative image prior. ACM Trans. Graph., 38(4), jul 2019. ISSN 0730-0301. doi: 10.1145/3306346.3323023. Bau et al. (2020)
+
+David Bau, Jun-Yan Zhu, Hendrik Strobelt, Agata Lapedriza, Bolei Zhou, and
+Antonio Torralba. Understanding the role of individual units in a deep neural network. Proceedings of the National Academy of Sciences, 2020. ISSN 0027-8424. doi: 10.1073/pnas.1907375117. Beeching et al. (2023)
+
+Edward Beeching, Clémentine Fourrier, Nathan Habib, Sheon Han, Nathan Lambert,
+Nazneen Rajani, Omar Sanseviero, Lewis Tunstall, and Thomas Wolf. Open llm leaderboard, 2023. URL
+https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard. Belinkov (2022)
+
+Yonatan Belinkov. Probing classifiers: Promises, shortcomings, and advances.

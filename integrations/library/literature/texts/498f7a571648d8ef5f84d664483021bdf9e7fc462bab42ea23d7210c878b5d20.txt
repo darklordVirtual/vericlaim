@@ -1,0 +1,64 @@
+Chess
+
+Shogi
+
+Go
+
+Atari
+
+\newgame
+
+\newgame\notationoff\showboard
+
+{TAB}
+
+(e,0.5cm,0.5cm)—c—c—c—c—c—c—c—c—c——c—c—c—c—c—c—c—c—c—
+
+香
+&
+
+桂
+
+銀
+
+金
+
+玉
+
+金
+
+銀
+
+桂
+
+香
+
+飛
+
+角
+
+歩
+
+歩
+
+歩
+
+歩
+
+歩
+
+歩
+
+歩
+
+歩
+
+歩
+
+歩 歩 歩 歩 歩 歩 歩 歩 歩
+角 飛
+香 桂 銀 金 玉 金 銀 桂 香
+
+Figure 2:
+
+Evaluation of MuZero throughout training in chess, shogi, Go and Atari. The x-axis shows millions of training steps. For chess, shogi and Go, the y-axis shows Elo rating, established by playing games against AlphaZero using 800 simulations per move for both players. MuZero’s Elo is indicated by the blue line, AlphaZero’s Elo by the horizontal orange line. For Atari, mean (full line) and median (dashed line) human normalized scores across all 57 games are shown on the y-axis. The scores for R2D2 [21], (the previous state of the art in this domain, based on model-free RL) are indicated by the horizontal orange lines. Performance in Atari was evaluated using 50 simulations every fourth time-step, and then repeating the chosen action four times, as in prior work [25].

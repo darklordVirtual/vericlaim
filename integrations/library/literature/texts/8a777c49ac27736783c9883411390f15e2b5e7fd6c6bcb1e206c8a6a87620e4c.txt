@@ -1,0 +1,24 @@
+A known weakness of TD learning algorithms is that they require densely populated rewards in order to perform well, which can be unrealistic and/or expensive. In contrast, Decision Transformer can improve robustness in these settings since it makes minimal assumptions on the density of the reward. To evaluate this, we consider a delayed return version of the D4RL benchmarks where the agent does not receive any rewards along the trajectory, and instead receives the cumulative reward of the trajectory in the final timestep. Our results for delayed returns are shown in Table 7. Delayed returns minimally affect Decision Transformer; and due to the nature of the training process, while imitation learning methods are reward agnostic. While TD learning collapses, Decision Transformer and %BC still perform well, indicating that Decision Transformer can be more robust to delayed rewards. Delayed (Sparse)
+Agnostic
+Original (Dense)
+
+Dataset
+Environment
+DT (Ours)
+CQL
+BC
+%BC
+DT (Ours)
+CQL
+
+Medium-Expert
+Hopper
+
+Medium
+Hopper
+
+Medium-Replay
+Hopper
+
+Table 7:
+Results for D4RL datasets with delayed (sparse) reward.

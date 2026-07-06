@@ -1,0 +1,1 @@
+All of our experiments run on 4 NVIDIA A5000 GPUs with 24GB memory.

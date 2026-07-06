@@ -1,0 +1,21 @@
+2121–2129, 2013. Gan et al. (2020)
+
+Gan, Z., Chen, Y.-C., Li, L., Zhu, C., Cheng, Y., and Liu, J. Large-scale adversarial training for vision-and-language
+representation learning. arXiv preprint arXiv:2006.06195, 2020. Gao et al. (2020)
+
+Gao, T., Fisch, A., and Chen, D. Making pre-trained language models better few-shot learners. arXiv preprint arXiv:2012.15723, 2020. Garvie (2019)
+
+Garvie, C., May 2019. URL https://www.flawedfacedata.com/. Geiger et al. (2012)
+
+Geiger, A., Lenz, P., and Urtasun, R. Are we ready for autonomous driving? the kitti vision benchmark
+suite. In Conference on Computer Vision and Pattern Recognition
+(CVPR), 2012. Geirhos et al. (2018)
+
+Geirhos, R., Rubisch, P., Michaelis, C., Bethge, M., Wichmann, F. A., and
+Brendel, W. Imagenet-trained cnns are biased towards texture; increasing shape
+bias improves accuracy and robustness. arXiv preprint arXiv:1811.12231, 2018. Geirhos et al. (2020)
+
+Geirhos, R., Jacobsen, J.-H., Michaelis, C., Zemel, R., Brendel, W., Bethge,
+M., and Wichmann, F. A. Shortcut learning in deep neural networks. arXiv preprint arXiv:2004.07780, 2020. Gomez et al. (2017)
+
+Gomez, L., Patel, Y., Rusiñol, M., Karatzas, D., and Jawahar, C.

@@ -1,0 +1,17 @@
+arXiv preprint arXiv:2307.09458, 2023. Lin et al. (2021)
+
+Stephanie Lin, Jacob Hilton, and Owain Evans. Truthfulqa: Measuring how models mimic human falsehoods. CoRR, abs/2109.07958, 2021. Ling et al. (2021)
+
+Huan Ling, Karsten Kreis, Daiqing Li, Seung Wook Kim, Antonio Torralba, and
+Sanja Fidler. Editgan: High-precision semantic image editing. Advances in Neural Information Processing Systems,
+34:16331–16345, 2021. Mahon (2016)
+
+James Edwin Mahon. The Definition of Lying and Deception. In Edward N. Zalta (ed.), The Stanford Encyclopedia of
+Philosophy. Metaphysics Research Lab, Stanford University, Winter 2016
+edition, 2016. Maynez et al. (2020)
+
+Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. On faithfulness and factuality in abstractive summarization. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, pp. 1906–1919, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.173. McGrath et al. (2022)
+
+Thomas McGrath, Andrei Kapishnikov, Nenad Tomašev, Adam Pearce, Martin
+Wattenberg, Demis Hassabis, Been Kim, Ulrich Paquet, and Vladimir Kramnik. Acquisition of chess knowledge in alphazero.

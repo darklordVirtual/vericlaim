@@ -1,0 +1,5 @@
+To compute the alignment metric, we use nearest neighbors over 1024 samples from WIT (Wikipedia-based Image Text; Srinivasan et al. (2021)). For the vision model, we use class token of each layer, and for the language model, we average pool each layer to a single token. Since it is not trivial to determine where the alignment might occur, we draw inspiration from BrainScore(Schrimpf et al., 2018) and compute pairwise alignment scores, then take the maximum. One of these pairwise comparisons also includes concatenated features. We apply normalization to the features before measuring the distance. As transformer architectures have “emergent outliers” (Dettmers et al., 2022), we truncate the elements in the features that are above the -th percentile. Simply taking the last token did not show any strong alignment signal. We also experimented with prompting the language model and taking the last token representation. The prompt we used was
+
+An image with the caption ‘<caption>’. This is an image of a <fill>
+
+Using prompting showed similar trends to average pooling but had slightly lower alignment scores.

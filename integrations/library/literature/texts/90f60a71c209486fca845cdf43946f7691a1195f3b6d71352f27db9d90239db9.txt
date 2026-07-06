@@ -1,0 +1,5 @@
+Sandwiching experiments (Cotra, 2021, sketched in Figure 1) pose an empirical test of a scalable oversight technique’s ability to align a model. Alignment in this context is best defined by contrast with capability: We can say that a language-model-based system is capable of solving a task if it can be made to perform well on the task through some small-to-moderate intervention, such as fine-tuning or few-shot prompting with a moderate amount of high-quality task data, with the intuition that this shows that the model already has most of the skills and knowledge needed to succeed at the task. Such a system is misaligned if it is capable under this definition but performs poorly under naïve zero-shot prompting. Experiments in this paradigm sandwich a model’s effective capability level between two groups of human participants on some task:
+
+•
+
+The Expert Evaluators: These human participants have all of the skills or knowledge they need to oversee a system’s performance on the task and are aligned in the sense that they will make a good-faith effort to do so.

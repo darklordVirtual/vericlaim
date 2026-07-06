@@ -1,0 +1,9 @@
+Instead of diagonalization,
+Gu et al. [18, Theorem 2] proposed a sophisticated fast algorithm to compute
+
+This algorithm runs in operations and space. However, we now show that this algorithm is also numerically unstable. There are several reasons for the instability of this algorithm, but most directly we can pinpoint a particular intermediate quantity that they use. Definition 1. The fast LSSL algorithm computes coefficients of , the characteristic polynomial of , as an intermediate computation. Additionally, it computes the coefficients of its inverse, . We now claim that this quantity is numerically unfeasible. We narrow down to the case when is the identity matrix. Note that this case is actually in some sense the most typical case:
+when discretizing the continuous-time SSM to discrete-time by a step-size ,
+the discretized transition matrix is brought closer to the identity. For example, with the Euler discretization ,
+we have as the step size . Lemma B.1. When , the fast LSSL algorithm requires computing terms exponentially large in . Proof. The characteristic polynomial of is
+
+These coefficients have size up to . The inverse of has even larger coefficients.

@@ -1,0 +1,11 @@
+We consider 78 vision models in total:
+
+•
+
+ViT models ranging from ViT-tiny to ViT-giant, trained on tasks including ImageNet-21k (Dosovitskiy et al., 2020) classification, Masked Autoencoders (He et al., 2021), DINO (Caron et al., 2021), and CLIP (Radford et al., 2021), including some finetuned on ImageNet-12k. •
+
+randomly initialized ResNet-50. •
+
+ResNet-50 models trained with contrastive learning on ImageNet-1k, Places-365 (Zhou et al., 2017; López-Cifuentes et al., 2020), and synthetic image datasets used in Baradad et al. (2022). •
+
+ResNet-18 models trained with Alignment and Uniformity contrastive loss (Wang & Isola, 2020) on ImageNet-100, Places-365, and realistic and synthetic image datasets from Baradad et al. (2021). To test representation quality, we evaluate linear probing performance on all 19 VTAB classification tasks (Zhai et al., 2019), which is a standard multi-task transfer learning benchmark containing structured, specialized, and natural datasets covering diverse domains. To reduce compute requirements, we subsample training and validation datasets to have at most 10,000 samples.

@@ -1,0 +1,4 @@
+We introduce S4, a sequence model that uses a new parameterization for the state space model’s continuous-time, recurrent, and convolutional views to efficiently model LRDs in a principled manner. Results across established benchmarks evaluating a diverse range of data modalities and model capabilities
+suggest that S4 has the potential to be an effective general sequence modeling solution. Acknowledgments
+
+We thank Aditya Grover and Chris Cundy for helpful discussions about earlier versions of the method. We thank Simran Arora, Sabri Eyuboglu, Bibek Paudel, and Nimit Sohoni for valuable feedback on earlier drafts of this work. This work was done with the support of Google Cloud credits under HAI proposals 540994170283 and 578192719349. We gratefully acknowledge the support of NIH under No. U54EB020405 (Mobilize), NSF under Nos. CCF1763315 (Beyond Sparsity), CCF1563078 (Volume to Velocity), and 1937301 (RTML); ONR under No.

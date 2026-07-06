@@ -23,6 +23,11 @@ COLLECTIONS = (
     "08_formal_methods",
     "09_fairness_privacy_and_human_impact",
     "10_assurance_cases_and_runtime_verification",
+    "11_ml_training_and_systems",
+    "12_software_engineering_and_saas",
+    "13_marketing_and_growth",
+    "14_finance",
+    "15_frontier_reasoning_and_agi",
 )
 
 KINDS = {"paper", "book", "standard", "spec", "report"}

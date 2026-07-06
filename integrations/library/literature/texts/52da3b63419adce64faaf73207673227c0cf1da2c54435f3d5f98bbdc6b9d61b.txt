@@ -1,0 +1,25 @@
+Useful for eating food, drinking potions, etc.;
+
+•
+
+await bot.fish(): Let bot fish. Before calling this function, you must first get to a water block and then equip a fishing rod. The bot will automatically stop fishing when it catches a fish;
+
+•
+
+await bot.sleep(bedBlock): Sleep until sunrise. You must get to a bed block first;
+
+•
+
+await bot.activateBlock(block): This is the same as right-clicking a block in the game. Useful for buttons, doors, etc. You must get to the block first;
+
+•
+
+await bot.lookAt(position): Look at the specified position. You must go near the position before you look at it. To fill a bucket with water, you must look at it first;
+
+•
+
+await bot.activateItem(): This is the same as right-clicking to use the item in the bot’s hand. Useful for using a bucket, etc. You must equip the item to activate first;
+
+•
+
+await bot.useOn(entity): This is the same as right-clicking an entity in the game. Useful for shearing a sheep.

@@ -1,0 +1,31 @@
+Memes
+
+2
+
+8,500
+
+500
+
+ROC AUC
+
+Rendered SST2
+
+2
+
+7,792
+
+1,821
+
+accuracy
+
+ImageNet
+
+1000
+
+1,281,167
+
+50,000
+
+accuracy
+
+Table 9: Datasets examined for linear probes. We note that, for the Birdsnap and Kinetics700 datasets, we used the resources that are available online at the time of this writing.

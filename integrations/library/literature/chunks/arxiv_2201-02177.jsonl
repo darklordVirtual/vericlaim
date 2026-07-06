@@ -1,0 +1,36 @@
+{"fsid": "arxiv_2201-02177", "n": 35, "overlap": 200, "source_sha256": "2095f7e66035a5d78b249dc87459c8076280ffe86f8bdea5faf2b4f6612972a7", "target": 1200}
+{"section": "", "seq": 0, "sha256": "c6f49e4ffbddb45aaed0a45af49a90cc4b57e7791eee3c13ab1045ccf922f698"}
+{"section": "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets", "seq": 1, "sha256": "a1fa77e78a0ae7856230e6d560e0b8505e997dd2498a8b556e335dd031ec84eb"}
+{"section": "1 Introduction", "seq": 2, "sha256": "026d224b2c51c9a28daad6bfc453788ffb03ea3dd95e1f2bd1d6bfdcb381571d"}
+{"section": "1 Introduction", "seq": 3, "sha256": "bb73b12c4bc6d6800eb089fdec4c8f5fe80290b756d998c585c9155c76042e0f"}
+{"section": "1 Introduction", "seq": 4, "sha256": "da0649469245388df596c6b41fe9d2bdaf71e6b142147b4c2f45c4283c0256c9"}
+{"section": "1 Introduction", "seq": 5, "sha256": "0761da6618b4a55f4417c8cf024fa5ef3b59690726f8fc1cb2b0a3cc178c5edb"}
+{"section": "2 Method", "seq": 6, "sha256": "ca7f8a35f7b2803b2f9a2f3a067c01f32d3a320a6365a4f44027a59b24e79e21"}
+{"section": "3.1 Generalization beyond overfitting", "seq": 7, "sha256": "42493463ab00b3c2fc54517d30204cc491d1908dd3957d169d6300fe7edf6383"}
+{"section": "3.1 Generalization beyond overfitting", "seq": 8, "sha256": "cdd18696befbbe52e6e5ae7f2d6141c3fefc17d35dd84b48d1fb6a17bfa7ca6b"}
+{"section": "3.1 Generalization beyond overfitting", "seq": 9, "sha256": "54336423813e1a829d255dccd4c666f439f53de71b37fcfaf3deb92cfd963789"}
+{"section": "3.2 Grokking on a variety of problems", "seq": 10, "sha256": "c4151b81447f1ab9f1276c82acacfa00e22fb6f5d4cda75d435853c1bdb207ce"}
+{"section": "3.2 Grokking on a variety of problems", "seq": 11, "sha256": "6057cac70cd7acab72e282a5faa1b3cc9a40f58d22c6dca34ff1f2bf1ac31f49"}
+{"section": "3.2 Grokking on a variety of problems", "seq": 12, "sha256": "60647f827fd5167222376c5a55d4b8637d6d3503e93dd47e69bcf0bc0bebc03b"}
+{"section": "3.3 Ablations and Tricks", "seq": 13, "sha256": "945ebfce0c293bbe9a182d0ac9bbb6d0c9e29477bf46cff93ff3f6b97810ad23"}
+{"section": "3.3 Ablations and Tricks", "seq": 14, "sha256": "9c931ac41b8496dea1eb3098ed5b001e403dee1ee8f01ece851172aee7a22580"}
+{"section": "3.4 Qualitative Visualization of Embeddings", "seq": 15, "sha256": "cdb064759e14b746ca5b3436d8cada097dba451d34b171f48a2e1180fd1c8ddd"}
+{"section": "4 Discussion", "seq": 16, "sha256": "0dc03954c22cb303fdaff171de6fc9725991f51bd2c726609065f5cd9e51fade"}
+{"section": "4 Discussion", "seq": 17, "sha256": "bfd669151700b61bc2364affbe5928423d2ce517b2aa521a57df6dfc225fa6e2"}
+{"section": "References", "seq": 18, "sha256": "305fa3726b645a641ead892b82c81b37554038677c2093e31a8f658f5601acdb"}
+{"section": "References", "seq": 19, "sha256": "b354fe39604ce8c98a344513bc7410e79db40f245e8892a3c99719e6ee8e09ef"}
+{"section": "References", "seq": 20, "sha256": "97fbef7e58afb3994ad091271747c50f7eda961ef36c9b0913b336dc2143d272"}
+{"section": "References", "seq": 21, "sha256": "0d82ee698e61c822bfec97c149137591c842222f20c51e2415c702db85a6fcdb"}
+{"section": "A.1 Additional experimental details", "seq": 22, "sha256": "aad11004ad59b34e60d0a62e6b6e8e3842daff711ace5b1df23d97862ce4e554"}
+{"section": "A.1 Additional experimental details", "seq": 23, "sha256": "5dce997aa2421c8afdf214d5f00196a5bae225dd8b86cbede880ca743ba38f4e"}
+{"section": "A.1 Additional experimental details", "seq": 24, "sha256": "ab9a0331b2222a710a07fb8dc1791415e4254b2dae581b0e20d69c19725fb263"}
+{"section": "A.1 Additional experimental details", "seq": 25, "sha256": "adc9632fa0cf02729238cea120a251e24cafc403a7f35412045f4c558ac3e640"}
+{"section": "A.2 Additional Figures", "seq": 26, "sha256": "fe28b75586dcec0c5cc4bac382fe3318161d4029466f25bfe37ca0905668eb5d"}
+{"section": "A.3 Related Work", "seq": 27, "sha256": "9ec13dd6bc1e371f74c32fe8ca9c79218567363c19a8f26211be2b8095aef3ff"}
+{"section": "A.3 Related Work", "seq": 28, "sha256": "36ce5e183f55cd6dae7ebb04b3b4a31e344be4c4e464e5185f49e05938bea051"}
+{"section": "A.3 Related Work", "seq": 29, "sha256": "7b89c5f337d55cb331c43978087ec88542913d82eb268429ce1f95165f0292c4"}
+{"section": "A.3 Related Work", "seq": 30, "sha256": "92419f32295600e5169406cfa8012ee65034887ed7b4480ee8eccc3518f9c4cc"}
+{"section": "A.4 Generalization with memorizing several outliers", "seq": 31, "sha256": "da2d4d8c7b0e10842efc3ff63de582f94b55fcb7b32ec23498902a60a3ea88e9"}
+{"section": "A.4 Generalization with memorizing several outliers", "seq": 32, "sha256": "7cee0773f3d4e31524211be2d42056166142071fafd39797a0c025834202f2d0"}
+{"section": "A.5 Generalization measures", "seq": 33, "sha256": "435916f51949ad5d1aae5c031f9825b71ab4bf1763b4fccc9d911ca1ea3efbcc"}
+{"section": "A.5 Generalization measures", "seq": 34, "sha256": "6e2fe35ccc8cf888731a0a10bf12128390279a4a5a999ee402447e73b17e620c"}

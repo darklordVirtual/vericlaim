@@ -1,0 +1,85 @@
+AGI” level, which has not been achieved by any public systems at the time of writing, best corresponds to many prior conceptions of AGI, and may precipitate rapid societal change once achieved. Performance (rows) x
+
+Generality (columns)
+
+Narrow
+
+clearly scoped task or set of tasks
+
+General
+
+wide range of non-physical tasks, including metacognitive tasks like learning new skills
+
+Level 0: No AI
+
+Narrow Non-AI
+
+calculator software; compiler
+
+General Non-AI
+
+human-in-the-loop computing, e.g., Amazon Mechanical Turk
+
+Level 1: Emerging
+
+equal to or somewhat better than an unskilled human
+
+Emerging Narrow AI
+
+GOFAI (Boden, 2014); simple rule-based systems, e.g., SHRDLU (Winograd, 1971)
+
+Emerging AGI
+
+ChatGPT (OpenAI, 2023), Bard (Anil et al., 2023), Llama 2 (Touvron et al., 2023), Gemini (Pichai & Hassabis, 2023)
+
+Level 2: Competent
+
+at least 50th percentile of skilled adults
+
+Competent Narrow AI
+
+toxicity detectors such as Jigsaw (Das et al., 2022); Smart Speakers such as Siri (Apple, ), Alexa (Amazon, ), or Google Assistant (Google, ); VQA systems such as PaLI (Chen et al., 2023); Watson (IBM, ); SOTA LLMs for a subset of tasks (e.g., short essay writing, simple coding)
+
+Competent AGI
+
+not yet achieved
+
+Level 3: Expert
+
+at least 90th percentile of skilled adults
+
+Expert Narrow AI
+
+spelling & grammar checkers such as Grammarly (Grammarly, 2023); generative image models such as Imagen (Saharia et al., 2022) or Dall-E 2 (Ramesh et al., 2022)
+
+Expert AGI
+
+not yet achieved
+
+Level 4: Exceptional
+
+at least 99th percentile of skilled adults
+
+Exceptional Narrow AI
+
+Deep Blue (Campbell et al., 2002), AlphaGo (Silver et al., 2016, 2017)
+
+Exceptional AGI
+
+not yet achieved
+
+Level 5: Superhuman
+
+outperforms 100% of humans
+
+Superhuman Narrow AI
+
+AlphaFold (Jumper et al., 2021; Varadi et al., 2021), AlphaZero (Silver et al., 2018), StockFish (Stockfish, 2023)
+
+Artificial Superintelligence (ASI)
+
+not yet achieved
+
+In accordance with Principle 2 (“Focus on Generality and Performance”) and Principle 6 (“Focus on the Path to AGI, not a Single Endpoint”), in Table 1 we introduce a matrixed leveling system that focuses on performance and generality as the two dimensions that are core to AGI:
+
+Performance refers to the depth of an AI system’s capabilities, i.e., how it compares to human-level performance for a given task.

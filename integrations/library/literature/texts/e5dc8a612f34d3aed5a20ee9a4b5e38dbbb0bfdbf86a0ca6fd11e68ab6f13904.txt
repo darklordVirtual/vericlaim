@@ -1,0 +1,19 @@
+Rae, Oriol Vinyals, and Laurent Sifre. 2022. Training compute-optimal
+large language models. Ismail Fawaz et al. (2019)
+
+Hassan Ismail Fawaz, Germain Forestier, Jonathan Weber, Lhassane Idoumghar, and
+Pierre-Alain Muller. 2019. Deep learning for time series classification: a review. Data mining and knowledge discovery, 33(4):917–963. Jaegle et al. (2021)
+
+Andrew Jaegle, Felix Gimeno, Andy Brock, Oriol Vinyals, Andrew Zisserman, and
+Joao Carreira. 2021. Perceiver: General perception with iterative attention. In International conference on machine learning, pages
+4651–4664. PMLR. Jang et al. (2019)
+
+Hanhwi Jang, Joonsung Kim, Jae-Eon Jo, Jaewon Lee, and Jangwoo Kim. 2019. Mnnfast: A fast and scalable system architecture for memory-augmented
+neural networks. In Proceedings of the 46th International Symposium on Computer
+Architecture, pages 250–263. Ji et al. (2023a)
+
+Yunjie Ji, Yong Deng, Yan Gong, Yiping Peng, Qiang Niu, Baochang Ma, and
+Xiangang Li. 2023a. Belle: Be everyone’s large language model engine. https://github.com/LianjiaTech/BELLE. Ji et al. (2023b)
+
+Yunjie Ji, Yong Deng, Yan Gong, Yiping Peng, Qiang Niu, Lei Zhang, Baochang Ma,
+and Xiangang Li. 2023b.

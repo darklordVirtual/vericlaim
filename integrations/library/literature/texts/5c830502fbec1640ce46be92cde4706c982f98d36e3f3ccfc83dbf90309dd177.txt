@@ -1,0 +1,41 @@
+with a crafting table nearby;
+
+•
+
+placeItem(bot, name, position): Place the block at the specified position;
+
+•
+
+smeltItem(bot, itemName, fuelName, count = 1): Smelt the item with the specified fuel. There must be a furnace nearby;
+
+•
+
+killMob(bot, mobName, timeout = 300): Attack the mob and collect its dropped item;
+
+•
+
+getItemFromChest(bot, chestPosition, itemsToGet): Move to the chest at the specified position and get items from the chest;
+
+•
+
+depositItemIntoChest(bot, chestPosition, itemsToDeposit): Move to the chest at the specified position and deposit items into the chest;
+
+(3)
+
+Control primitive APIs provided by Mineflayer:
+
+•
+
+await bot.pathfinder.goto(goal): Go to a specific position. See below for how to set the goal;
+
+•
+
+new GoalNear(x, y, z, range): Move the bot to a block within the specified range of the specified block;
+
+•
+
+new GoalXZ(x, z): For long-range goals that don’t have a specific Y level;
+
+•
+
+new GoalGetToBlock(x, y, z): Not get into the block, but get directly adjacent to it.

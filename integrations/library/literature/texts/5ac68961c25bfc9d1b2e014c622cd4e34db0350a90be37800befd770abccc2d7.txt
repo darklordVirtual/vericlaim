@@ -1,0 +1,1 @@
+The average game Reward for the more ethical model remains on par with the baseline, indicating that the application of LoRRA has minimal disruptive impact. This demonstrates the potential of Representation Control as a promising method for regulating model behavior in goal-driven environments.

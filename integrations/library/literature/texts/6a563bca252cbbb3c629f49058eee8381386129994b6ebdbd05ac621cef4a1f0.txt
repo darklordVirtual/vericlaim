@@ -1,0 +1,7 @@
+URL https://arxiv.org/abs/2206.04615. Stanovich and West [2000]
+
+Keith E Stanovich and Richard F West. Individual differences in reasoning: Implications for the rationality
+debate? Behavioral and brain sciences, 23(5):645–665, 2000. Talmor et al. [2019]
+
+Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. Commonsenseqa: A question answering challenge targeting commonsense
+knowledge. In Proceedings of NAACL-HLT, pages 4149–4158, 2019. URL https://aclanthology.org/N19-1421/. Thoppilan et al.

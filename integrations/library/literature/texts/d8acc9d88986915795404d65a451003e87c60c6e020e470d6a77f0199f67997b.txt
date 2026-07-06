@@ -1,0 +1,16 @@
+The many faces of robustness: A critical analysis of
+out-of-distribution generalization. arXiv preprint arXiv:2006.16241, 2020a. Hendrycks et al. (2020b)
+
+Hendrycks, D., Liu, X., Wallace, E., Dziedzic, A., Krishnan, R., and Song, D. Pretrained transformers improve out-of-distribution robustness. arXiv preprint arXiv:2004.06100, 2020b. Hestness et al. (2017)
+
+Hestness, J., Narang, S., Ardalani, N., Diamos, G., Jun, H., Kianinejad, H.,
+Patwary, M., Ali, M., Yang, Y., and Zhou, Y. Deep learning scaling is predictable, empirically. arXiv preprint arXiv:1712.00409, 2017. Hill et al. (2019)
+
+Hill, F., Lampinen, A., Schneider, R., Clark, S., Botvinick, M., McClelland,
+J. L., and Santoro, A. Environmental drivers of systematicity and generalization in a
+situated agent. In International Conference on Learning Representations, 2019. Hodosh et al. (2013)
+
+Hodosh, M., Young, P., and Hockenmaier, J. Framing image description as a ranking task: Data, models and
+evaluation metrics. Journal of Artificial Intelligence Research, 47:853–899, 2013. Hongsuck Seo et al. (2018)
+
+Hongsuck Seo, P., Weyand, T., Sim, J., and Han, B.

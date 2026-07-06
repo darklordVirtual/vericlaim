@@ -1,0 +1,6 @@
+The actor and critic neural networks learn behaviors purely from abstract trajectories of representations predicted by the world model 14. For environment interaction, we select actions by sampling from the actor network without lookahead planning. The actor and critic operate on model states and thus benefit from the Markovian representations learned by the recurrent world model. The actor aims to maximize the return with a discount factor for each model state. To consider rewards beyond the prediction horizon , the critic learns to approximate the distribution of returns 28 for each state under the current actor behavior:
+
+(4)
+
+Starting from representations of replayed inputs, the world model and actor generate a trajectory of
+imagined model states , actions , rewards , and continuation flags . Because the critic predicts a distribution, we read out its predicted values as the expectation of the distribution. To estimate returns that consider rewards beyond the prediction horizon, we compute bootstrapped -returns 29 that integrate the predicted rewards and the values.

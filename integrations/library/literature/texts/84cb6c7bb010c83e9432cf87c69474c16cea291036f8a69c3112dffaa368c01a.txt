@@ -1,0 +1,9 @@
+•
+
+w/o Environment Feedback: We exclude environment feedback (chat log) from the prompt for code generation. •
+
+w/o Execution Errors: We exclude execution errors from the prompt for code generation. •
+
+w/o Self-Verification: For each task, we generate code without self-verification and iteratively refine the program for 3 rounds (equivalent to 4 rounds of code generation in total). •
+
+GPT-3.5: We replace GPT-4 with GPT-3.5 for code generation. We retain GPT-4 for the automatic curriculum and the self-verification module.

@@ -1,0 +1,18 @@
+Improved variational inference with inverse autoregressive flow. Advances in neural information processing systems, 29, 2016. Child 2020
+
+Rewon Child. Very deep vaes generalize autoregressive models and can outperform
+them on images. arXiv preprint arXiv:2011.10650, 2020. Bellemare et al. 2017
+
+Marc G Bellemare, Will Dabney, and Rémi Munos. A distributional perspective on reinforcement learning. In International Conference on Machine Learning, pages
+449–458. PMLR, 2017. Sutton and Barto 2018
+
+Richard S Sutton and Andrew G Barto. Reinforcement learning: An introduction. MIT press, 2018. Williams and Peng 1991
+
+Ronald J Williams and Jing Peng. Function optimization using connectionist reinforcement learning
+algorithms. Connection Science, 3(3):241–268, 1991. Williams 1992
+
+Ronald J Williams. Simple statistical gradient-following algorithms for connectionist
+reinforcement learning. Machine learning, 8(3-4):229–256, 1992. Haarnoja et al. 2018
+
+Tuomas Haarnoja, Aurick Zhou, Pieter Abbeel, and Sergey Levine. Soft actor-critic: Off-policy maximum entropy deep reinforcement
+learning with a stochastic actor. arXiv preprint arXiv:1801.01290, 2018. Abdolmaleki et al.

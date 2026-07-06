@@ -1,0 +1,43 @@
+When data is plentiful – as in the D4RL regime – we find %BC can match or beat other offline RL methods. On most environments, Decision Transformer is competitive with the performance of the best %BC, indicating it can hone in on a particular subset after training on the entire dataset distribution. Dataset
+Environment
+
+DT (Ours)
+
+10%BC
+
+25%BC
+
+40%BC
+
+100%BC
+
+CQL
+
+Medium
+HalfCheetah
+
+Medium
+Hopper
+
+Medium
+Walker
+
+Medium
+Reacher
+
+Medium-Replay
+HalfCheetah
+
+Medium-Replay
+Hopper
+
+Medium-Replay
+Walker
+
+Medium-Replay
+Reacher
+
+Average
+
+Table 3:
+Comparison between Decision Transformer (DT) and Percentile Behavior Cloning (%BC). In contrast, when we study low data regimes – such as Atari, where we use 1% of a replay buffer as the dataset – %BC is weak (shown in Table 4). This suggests that in scenarios with relatively low amounts of data, Decision Transformer can outperform %BC by using all trajectories in the dataset to improve generalization, even if those trajectories are dissimilar from the return conditioning target. Our results indicate that Decision Transformer can be more effective than simply performing imitation learning on a subset of the dataset.

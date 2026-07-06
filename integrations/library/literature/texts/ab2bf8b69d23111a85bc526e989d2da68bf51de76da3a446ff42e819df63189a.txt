@@ -1,0 +1,4 @@
+Note that many previous works argue that adding architecture gating (multiplicative interactions) can endow models with “data-dependence” and solve related tasks [dao2023hungry, poli2023hyena]. However, we find this explanation insufficient intuitively because such gating does not interact along the sequence axis, and cannot affect the spacing between tokens. In particular architecture gating is not an instance of a selection mechanism (LABEL:sec:discussion:selection). Figure˜5 confirms that gated architectures such as H3 and Mamba only partially improve performance,
+while the selection mechanism (modifying S4 to S6) easily solves this task, particularly when combined with these more powerful architectures. 4.1.2 Induction Heads
+
+Induction heads [olsson2022context] is a simple task from the mechanistic interpretability lens [elhage2021mathematical] that is surprisingly predictive of the in-context learning ability of LLMs.

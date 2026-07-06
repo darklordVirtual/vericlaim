@@ -1,0 +1,77 @@
+bot.equip(item, "hand");
+
+await bot.placeBlock(referenceBlock, faceVector);
+
+}
+
+// Smelt 1 raw_iron into 1 iron_ingot using 1 oak_planks as fuel: smeltItem(bot, "raw_iron", "oak_plank s");
+
+// You must place a furnace before calling this function
+
+async function smeltItem(bot, itemName, fuelName, count = 1) {
+
+const item = mcData.itemsByName[itemName];
+
+const fuel = mcData.itemsByName[fuelName];
+
+const furnaceBlock = bot.findBlock({
+
+matching: mcData.blocksByName.furnace.id,
+
+maxDistance: 32,
+
+});
+
+await bot.pathfinder.goto(
+
+new GoalLookAtBlock(furnaceBlock.position, bot.world)
+
+);
+
+const furnace = await bot.openFurnace(furnaceBlock);
+
+for (let i = 0; i < count; i++) {
+
+await furnace.putFuel(fuel.id, null, 1);
+
+await furnace.putInput(item.id, null, 1);
+
+// Wait 12 seconds for the furnace to smelt the item
+
+await bot.waitForTicks(12 * 20);
+
+await furnace.takeOutput();
+
+}
+
+await furnace.close();
+
+}
+
+// Kill a pig and collect the dropped item: killMob(bot, "pig", 300);
+
+async function killMob(bot, mobName, timeout = 300) {
+
+const entity = bot.nearestEntity(
+
+(entity) =>
+
+entity.name === mobName &&
+
+entity.position.distanceTo(bot.entity.position) < 32
+
+);
+
+await bot.pvp.attack(entity);
+
+await bot.pathfinder.goto(
+
+new GoalBlock(entity.position.x, entity.position.y, entity.position.z)
+
+);
+
+}
+
+// Get a torch from chest at (30, 65, 100): getItemFromChest(bot, new Vec3(30, 65, 100), {"torch": 1});
+
+// This function will work no matter how far the bot is from the chest.

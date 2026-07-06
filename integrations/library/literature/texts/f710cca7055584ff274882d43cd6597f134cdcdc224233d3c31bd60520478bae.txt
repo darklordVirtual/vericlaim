@@ -1,0 +1,4 @@
+Note that because we have test data, each of length , our resolution for viewing the per-token error probability is limited by . Here, resolution refers to “the smallest interval measurable by a scientific instrument; the resolving power.”
+To explain what resolution means via an example, suppose one wants to measure a coin’s probability of yielding heads. After a single coin flip, only two outcomes are possible (H, T), so the resolution-limited probability of heads is either or . After two coin flips, four outcomes are possible (HH, HT, TH, TT), so the resolution-limited probability of heads is now one of . After coin flips, we can only resolve the coin’s probability of yielding heads up to . Consequently, we introduce a resolution-limited notation:
+
+(3)

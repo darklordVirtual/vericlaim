@@ -1,0 +1,29 @@
+Split the input text into four paragraphs of roughly equal size (split_prompt)
+
+2. For each paragraph: Count the occurrences of individual countries (count_prompt) 10 times; score each counting attempt; keep the best
+
+3. Merge the country counts into one dictionary (merge_prompt) 3 times; validate and improve invalid merge attempts (improve_merge_prompt) up to 3 attempts each; score; keep the best
+
+Table 21: Keyword counting for an example 4-passage split (GoT4): Step 1 (Prompt/Response)
+
+Step 1 – Prompt:
+
+<Instruction> Split the following input text into 4 paragraphs of approximately same length. Only output the final 4 paragraphs in the following format without any additional text or thoughts:
+
+{{
+
+"Paragraph 1": "Some paragraph text ",
+
+"Paragraph 2": "Some paragraph text ",
+
+"Paragraph 3": "Some paragraph text ",
+
+"Paragraph 4": "Some paragraph text "
+
+}}
+
+</Instruction>
+
+<Example> See Table 19 </Example>
+
+Input: My friend, Alex from Peru, once recounted his journey to Argentina where he learned about the strong cultural ties between Argentina and Brazil due to their shared history.

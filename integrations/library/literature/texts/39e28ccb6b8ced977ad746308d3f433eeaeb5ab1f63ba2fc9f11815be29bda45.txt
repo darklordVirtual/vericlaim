@@ -1,0 +1,21 @@
+Image-to-word transformation based on dividing and vector quantizing
+images with words. Citeseer, 1999. Mu et al. (2019)
+
+Mu, J., Liang, P., and Goodman, N. Shaping visual representations with language for few-shot
+classification. arXiv preprint arXiv:1911.02683, 2019. Muller-Budack et al. (2018)
+
+Muller-Budack, E., Pustu-Iren, K., and Ewerth, R. Geolocation estimation of photos using a hierarchical model and scene
+classification. In Proceedings of the European Conference on Computer Vision
+(ECCV), pp. 563–579, 2018. Murty et al. (2020)
+
+Murty, S., Koh, P. W., and Liang, P. Expbert: Representation engineering with natural language
+explanations. arXiv preprint arXiv:2005.01932, 2020. Narasimhan et al. (2015)
+
+Narasimhan, K., Kulkarni, T., and Barzilay, R. Language understanding for text-based games using deep reinforcement
+learning. arXiv preprint arXiv:1506.08941, 2015. Netzer et al. (2011)
+
+Netzer, Y., Wang, T., Coates, A., Bissacco, A., Wu, B., and Ng, A. Y. Reading digits in natural images with unsupervised feature learning. 2011. Noble (2018)
+
+Noble, S. U. Algorithms of oppression: How search engines reinforce racism. 2018. Nosek et al. (2002)
+
+Nosek, B. A., Banaji, M.

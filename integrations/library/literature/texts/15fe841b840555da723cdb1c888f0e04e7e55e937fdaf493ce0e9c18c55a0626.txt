@@ -1,0 +1,17 @@
+Now, let’s find the total number of pieces in the caramel candy. There are 5 pieces in each box. So, the total number of pieces in the caramel candy is 5 x 5 = 25. Now, we can find the total number of pieces in the candy. The total number of pieces in the chocolate candy is 16 + 25 = 41
+Therefore, the answer (arabic numerals) is 41. ✗
+
+Original GPT-3
+(175B) (davinci)
+
+A: Let’s think step by step. First, we need to find out how many pieces of candy Adam has. 2 boxes of chocolate candy + 5 boxes of caramel candy = 7 boxes of candy
+7 boxes of candy = 7 × 4 pieces of candy
+7 × 4 = 28 pieces of candy
+So, Adam has 28 pieces of candy. Therefore, the answer (arabic numerals) is 28. Table 15: Example outputs by Zero-Shot-CoT at various language models (Models other than GPT-3). Question
+
+Q: Megan baked 68 cupcakes for her school’s bake sale. If her brother, Todd, ate 32 of them how many packages could she make if she put 6 cupcake in each package? (GT : 6)
+
+GPT-2
+(1.5B)
+
+A: Let’s think step by step. Todd’s brother, Todd, eats 32 cupcakes. Todd’s brother, Todd, eats 32 cupcakes. Todd’s brother, Todd, eats 32 cupcakes. Todd’s brother, Todd, eats 32 cupcakes.

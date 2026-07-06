@@ -1,0 +1,106 @@
+This proves that providing necessary commonsense facts to the decision-making agent can assist it in making more informed decisions, thus effectively boosting the task success rate. AutoGen brings both simplicity and modularity when adding the grounding agent. Method
+Pick
+Clean
+Heat
+Cool
+Look
+Pick 2
+All
+
+ReAct (avg)
+
+63
+
+52
+
+48
+
+71
+
+61
+
+24
+
+54
+
+ALFChat (2 agents)(avg)
+
+61
+
+58
+
+57
+
+67
+
+50
+
+19
+
+54
+
+ALFChat (3 agents)(avg)
+
+79
+
+64
+
+70
+
+76
+
+78
+
+41
+
+69
+
+ReAct (best of 3)
+
+75
+
+62
+
+61
+
+81
+
+78
+
+35
+
+66
+
+ALFChat (2 agents)(best of 3)
+
+71
+
+61
+
+65
+
+76
+
+67
+
+35
+
+63
+
+AFLChat (3 agents)(best of 3)
+
+92
+
+74
+
+78
+
+86
+
+83
+
+41
+
+77
+
+Table 3: Comparisons between ReAct and the two variants of ALFChat on the ALFWorld benchmark. For each task, we report the success rate out of 3 attempts. Success rate denotes the number of tasks successfully completed by the agent divided by the total number of tasks. The results show that adding a grounding agent significantly improves the task success rate in ALFChat.

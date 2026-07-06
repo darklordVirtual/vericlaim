@@ -1,0 +1,18 @@
+In Proceedings of the IEEE International Conference on Computer
+Vision, pp. 905–912, 2013. Rashtchian et al. (2010)
+
+Rashtchian, C., Young, P., Hodosh, M., and Hockenmaier, J. Collecting image annotations using amazon’s mechanical turk. In Proceedings of the NAACL HLT 2010 Workshop on Creating
+Speech and Language Data with Amazon’s Mechanical Turk, pp. 139–147,
+2010. Recht et al. (2019)
+
+Recht, B., Roelofs, R., Schmidt, L., and Shankar, V. Do imagenet classifiers generalize to imagenet? arXiv preprint arXiv:1902.10811, 2019. Salimans & Kingma (2016)
+
+Salimans, T. and Kingma, D. P. Weight normalization: A simple reparameterization to accelerate
+training of deep neural networks. In Advances in neural information processing systems, pp. 901–909, 2016. Scheuerman et al. (2019)
+
+Scheuerman, M. K., Paul, J. M., and Brubaker, J. R. How computers see gender: An evaluation of gender classification in
+commercial facial analysis services. Proceedings of the ACM on Human-Computer Interaction,
+3(CSCW):1–33, 2019. Schwemmer et al. (2020)
+
+Schwemmer, C., Knight, C., Bello-Pardo, E. D., Oklobdzija, S., Schoonvelde, M.,
+and Lockhart, J. W. Diagnosing gender bias in image recognition systems.

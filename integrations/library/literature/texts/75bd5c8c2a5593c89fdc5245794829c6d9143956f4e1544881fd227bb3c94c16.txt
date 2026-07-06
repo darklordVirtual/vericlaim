@@ -1,0 +1,16 @@
+We find that induction heads develop at precisely the same point as a sudden sharp increase in in-context learning ability, visible as a bump in the training loss. We present six complementary lines of evidence, arguing that induction heads may be the mechanistic source of general in-context learning in transformer models of any size. For small attention-only models, we present strong, causal evidence; for larger models with MLPs, we present correlational evidence. Subjects:
+
+Machine Learning (cs.LG)
+
+Cite as:
+
+arXiv:2209.11895 [cs.LG]
+
+(or
+arXiv:2209.11895v1 [cs.LG] for this version)
+
+https://doi.org/10.48550/arXiv.2209.11895
+
+Focus to learn more
+
+arXiv-issued DOI via DataCite

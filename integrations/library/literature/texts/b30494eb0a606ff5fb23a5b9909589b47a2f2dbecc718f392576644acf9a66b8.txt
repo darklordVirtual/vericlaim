@@ -1,0 +1,21 @@
+(2020)
+
+Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan,
+Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis,
+Thore Graepel, et al. 2020. Mastering atari, go, chess and shogi by planning with a learned
+model. Nature, 588(7839):604–609. Schulkin (2012)
+
+Jay Schulkin. 2012. Action, perception and the brain: Adaptation and cephalic
+expression. Springer. Sekar et al. (2020)
+
+Ramanan Sekar, Oleh Rybkin, Kostas Daniilidis, Pieter Abbeel, Danijar Hafner,
+and Deepak Pathak. 2020. Planning to explore via self-supervised world models. In International Conference on Machine Learning, pages
+8583–8592. PMLR. Shinn et al. (2023)
+
+Noah Shinn, Beck Labash, and Ashwin Gopinath. 2023. Reflexion: an autonomous agent with dynamic memory and
+self-reflection. ArXiv, abs/2303.11366. Silver et al. (2017)
+
+David Silver, Thomas Hubert, Julian Schrittwieser, Ioannis Antonoglou, Matthew
+Lai, Arthur Guez, Marc Lanctot, Laurent Sifre, Dharshan Kumaran, Thore
+Graepel, et al. 2017. Mastering chess and shogi by self-play with a general reinforcement
+learning algorithm. arXiv preprint arXiv:1712.01815. Singh et al.

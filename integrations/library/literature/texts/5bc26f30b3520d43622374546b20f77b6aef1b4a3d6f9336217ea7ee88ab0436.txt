@@ -1,0 +1,5 @@
+8) or tokens per second (Fig. 8). Each model generates images on a single GPU,
+maximizing batch size to fit in memory. (For CIFAR-10 generation we limited memory to 16Gb, to be more comparable to the Transformer and Linear Transformer results reported from [22].)
+
+Baselines. The Transformer and Linear Transformer baselines reported in Fig. 8 are the results reported directly from Katharopoulos et al. [22]. Note that the Transformer number is the one in their Appendix, which implements the optimized cached implementation of self-attention. For all other baseline models, we used open source implementations of the models to benchmark generation speed. For the PixelCNN++, we used the fast cached version by Ramachandran et al. [34],
+which sped up generation by orders of magnitude from the naive implementation. This code was only available in TensorFlow, which may have slight differences compared to the rest of the baselines which were implemented in PyTorch. We were unable to run the Sparse Transformer [6] model due to issues with their custom CUDA implementation of the sparse attention kernel, which we were unable to resolve. The Transformer baseline from Fig.

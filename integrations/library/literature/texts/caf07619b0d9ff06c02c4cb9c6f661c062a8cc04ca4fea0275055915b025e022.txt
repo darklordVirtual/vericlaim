@@ -1,0 +1,39 @@
+We want to express using some representation function so that
+
+(31)
+
+For such an to exist, an equivalent criterion is that is positive semi-definite (PSD), as can be seen from eigendecomposition. Proposition F.1. Suppose that the off-diagonal elements of are bounded within . We have is positive semi-definite (PSD) for some if the joint distribution is sufficiently smooth:
+
+(32)
+
+Proof. Note that still only has non-positive off-diagonal elements if
+
+(33)
+
+For such , it is diagonally dominant (and thus PSD) if,
+
+(34)
+
+or equivalently,
+
+(35)
+
+The following choice of readily satisfies the above Equation 35:
+
+(36)
+
+Therefore, it remains to show that Equation 33 is true. Note that
+
+(37)
+
+Therefore, it suffices to have
+
+(38)
+
+Rearranging terms gives the desired condition
+
+(39)
+
+∎
+
+Remark F.2. Proposition F.1 is one example that a sufficiently smooth world or a sufficiently high sampling rate allows the PMI kernel to be exactly represented as inner products of a learned feature space (up to a scale). The condition here can be satisfied, for example, if the off-diagonal terms decay linearly with respect to and stay sufficiently close to each other.

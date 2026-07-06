@@ -1,0 +1,65 @@
+in Table 1. GoT is the only one to enable arbitrary graph-based thought transformations within a prompt, such as aggregation, embracing all previously proposed schemes. Scheme
+
+Sc? Mc? Tr? Ag? Chain-of-Thought (CoT) [71]
+
+\faBatteryFull
+
+\faTimes
+
+\faTimes
+
+\faTimes
+
+Self-Consistency with CoT [67]
+
+\faBatteryFull
+
+\faBatteryFull
+
+\faTimes
+
+\faTimes
+
+Thought decomposition [75]
+
+\faBatteryFull
+
+\faBatteryFull
+
+\faBatteryHalf
+
+\faTimes
+
+Tree-of-Thought (ToT) [43]
+
+\faBatteryFull
+
+\faBatteryFull
+
+\faBatteryFull
+
+\faTimes
+
+Tree of Thoughts (ToT) [77]
+
+\faBatteryFull
+
+\faBatteryFull
+
+\faBatteryFull
+
+\faTimes
+
+Graph of Thoughts (GoT)
+
+\faBatteryFull
+
+\faBatteryFull
+
+\faBatteryFull
+
+\faBatteryFull
+
+Table 1: Comparison of prompting schemes, with respect to the supported transformations of thoughts. “Sc?”: single chain of thoughts? “Mc?”: multiple chains of thoughts? “Tr?”: tree of thoughts? “Ag?”: arbitrary graph of thoughts? “\faBatteryFull”: full support,
+“\faBatteryHalf”: partial support,
+“\faTimes”: no support. Finally, we propose a new metric for evaluating a prompting strategy, the volume of a thought (contribution #5).

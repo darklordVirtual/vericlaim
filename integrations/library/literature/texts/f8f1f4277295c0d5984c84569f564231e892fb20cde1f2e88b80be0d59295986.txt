@@ -1,0 +1,18 @@
+(58)
+
+Shikun Liu, Linxi Fan, Edward Johns, Zhiding Yu, Chaowei Xiao, and Anima
+Anandkumar. Prismer: A vision-language model with an ensemble of experts. arXiv preprint arXiv: Arxiv-2303.02506, 2023. (59)
+
+Danny Driess, Fei Xia, Mehdi S. M. Sajjadi, Corey Lynch, Aakanksha Chowdhery,
+Brian Ichter, Ayzaan Wahid, Jonathan Tompson, Quan Vuong, Tianhe Yu, Wenlong
+Huang, Yevgen Chebotar, Pierre Sermanet, Daniel Duckworth, Sergey Levine,
+Vincent Vanhoucke, Karol Hausman, Marc Toussaint, Klaus Greff, Andy Zeng,
+Igor Mordatch, and Pete Florence. Palm-e: An embodied multimodal language model. arXiv preprint arXiv: Arxiv-2303.03378, 2023. (60)
+
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne
+Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro,
+Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, and Guillaume
+Lample. Llama: Open and efficient foundation language models. arXiv preprint arXiv: Arxiv-2302.13971, 2023. (61)
+
+William H. Guss, Brandon Houghton, Nicholay Topin, Phillip Wang, Cayden Codel,
+Manuela Veloso, and Ruslan Salakhutdinov. Minerl: A large-scale dataset of minecraft demonstrations.

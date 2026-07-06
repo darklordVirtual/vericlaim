@@ -1,0 +1,16 @@
+Neural representational geometry underlies few-shot concept learning. Proceedings of the National Academy of Sciences, 119(43):e2200800119, 2022. Srinivasan et al. (2021)
+
+Srinivasan, K., Raman, K., Chen, J., Bendersky, M., and Najork, M. Wit: Wikipedia-based image text dataset for multimodal multilingual
+machine learning. In Proceedings of the 44th International ACM SIGIR Conference
+on Research and Development in Information Retrieval, pp. 2443–2449,
+2021. Srivastava et al. (2022)
+
+Srivastava, A., Rastogi, A., Rao, A., Shoeb, A. A. M., Abid, A., Fisch, A.,
+Brown, A. R., Santoro, A., Gupta, A., Garriga-Alonso, A., et al. Beyond the imitation game: Quantifying and extrapolating the
+capabilities of language models. arXiv preprint arXiv:2206.04615, 2022. Steinberg et al. (2021)
+
+Steinberg, E., Jung, K., Fries, J. A., Corbin, C. K., Pfohl, S. R., and Shah,
+N. H. Language models are an effective representation learning technique
+for electronic health record data. Journal of biomedical informatics, 113:103637, 2021. Stoica et al. (2023)
+
+Stoica, G., Bolya, D., Bjorner, J., Hearn, T., and Hoffman, J. Zipit! merging models from different tasks without training.

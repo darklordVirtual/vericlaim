@@ -1,0 +1,19 @@
+2015. Kingma & Ba (2015)
+
+Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015. Kolesnikov et al. (2020)
+
+Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung,
+Sylvain Gelly, and Neil Houlsby. Big transfer (BiT): General visual representation learning. In ECCV, 2020. Krizhevsky (2009)
+
+Alex Krizhevsky. Learning multiple layers of features from tiny images. Technical report, 2009. Krizhevsky et al. (2012)
+
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton. Imagenet classification with deep convolutional neural networks. In NIPS, 2012. LeCun et al. (1989)
+
+Y. LeCun, B. Boser, J. Denker, D. Henderson, R. Howard, W. Hubbard, and
+L. Jackel. Backpropagation applied to handwritten zip code recognition. Neural Computation, 1:541–551, 1989. Lepikhin et al. (2020)
+
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping
+Huang, Maxim Krikun, Noam Shazeer, and Zhifeng Chen. Gshard: Scaling giant models with conditional computation and
+automatic sharding. arXiv, 2020. Li et al. (2019)
+
+Liunian Harold Li, Mark Yatskar, Da Yin, Cho-Jui Hsieh, and Kai-Wei Chang.

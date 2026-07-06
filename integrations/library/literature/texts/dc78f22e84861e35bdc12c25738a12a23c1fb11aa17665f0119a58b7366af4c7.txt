@@ -1,0 +1,16 @@
+Generative pretraining from pixels. In International Conference on Machine Learning, pp. 1691–1703. PMLR, 2020a. Chen et al. (2016)
+
+Chen, T., Xu, B., Zhang, C., and Guestrin, C. Training deep nets with sublinear memory cost. arXiv preprint arXiv:1604.06174, 2016. Chen et al. (2020b)
+
+Chen, T., Kornblith, S., Norouzi, M., and Hinton, G. A simple framework for contrastive learning of visual
+representations. arXiv preprint arXiv:2002.05709, 2020b. Chen et al. (2020c)
+
+Chen, T., Kornblith, S., Swersky, K., Norouzi, M., and Hinton, G. Big self-supervised models are strong semi-supervised learners. arXiv preprint arXiv:2006.10029, 2020c. Chen & Gupta (2015)
+
+Chen, X. and Gupta, A. Webly supervised learning of convolutional networks. In Proceedings of the IEEE International Conference on Computer
+Vision, pp. 1431–1439, 2015. Chen et al. (2020d)
+
+Chen, X., Fan, H., Girshick, R., and He, K. Improved baselines with momentum contrastive learning. arXiv preprint arXiv:2003.04297, 2020d. Chen et al. (2019)
+
+Chen, Y.-C., Li, L., Yu, L., Kholy, A. E., Ahmed, F., Gan, Z., Cheng, Y., and
+Liu, J. Uniter: Learning universal image-text representations. arXiv preprint arXiv:1909.11740, 2019.

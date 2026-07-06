@@ -1,0 +1,5 @@
+Scaling is sufficient, but not necessarily efficient
+
+Our arguments are roughly in line with the claim that “scale is all you need” to reach high levels of intelligence. We have argued that as resources are scaled (# parameters, # datapoints, # flops), representations are converging, regardless of other modeling choices and even data modality. Does this mean that scale is all that matters? Not quite: different methods can scale with different levels of efficiency (Hestness et al., 2017; Kaplan et al., 2020), and successful methods must still satisfy some general requirements (e.g., be a consistent estimator, model pairwise statistics of ). Training data can be shared across modalities
+
+Suppose you have access to images and sentences, and want to learn the best representation. If there is indeed a modality-agnostic platonic representation, then both image and language data should help find it. The implication is that if you want to train the best vision model, you should train not just on images but also on sentences. This is already becoming common practice (OpenAI, 2023; Radford et al., 2021). Many vision models are finetuned from pre-trained LLMs.

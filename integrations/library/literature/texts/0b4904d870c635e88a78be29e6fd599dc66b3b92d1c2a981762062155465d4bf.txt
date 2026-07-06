@@ -1,0 +1,18 @@
+”hello ai”: Uncovering the onboarding needs of medical practitioners
+for human-ai collaborative decision-making. Proceedings of the ACM on Human-Computer Interaction, 2019. Cai et al. (2023)
+
+Tianle Cai, Xuezhi Wang, Tengyu Ma, Xinyun Chen, and Denny Zhou. Large language models as tool makers. arXiv preprint arXiv:2305.17126, 2023. Chroma (2023)
+
+Chroma. Chromadb. https://github.com/chroma-core/chroma, 2023. Dibia (2023)
+
+Victor Dibia. LIDA: A tool for automatic generation of grammar-agnostic
+visualizations and infographics using large language models. In Proceedings of the 61st Annual Meeting of the Association
+for Computational Linguistics (Volume 3: System Demonstrations), Toronto,
+Canada, July 2023. Association for Computational Linguistics. Dong et al. (2023)
+
+Yihong Dong, Xue Jiang, Zhi Jin, and Ge Li. Self-collaboration code generation via chatgpt. arXiv preprint arXiv:2304.07590, 2023. Du et al. (2023)
+
+Yilun Du, Shuang Li, Antonio Torralba, Joshua B Tenenbaum, and Igor Mordatch. Improving factuality and reasoning in language models through
+multiagent debate. arXiv preprint arXiv:2305.14325, 2023. Eleti et al. (2023)
+
+Atty Eleti, Jeff Harris, and Logan Kilpatrick.

@@ -1,0 +1,18 @@
+Sohn (2016)
+
+Sohn, K. Improved deep metric learning with multi-class n-pair loss objective. In Advances in neural information processing systems, pp. 1857–1865, 2016. Solaiman et al. (2019)
+
+Solaiman, I., Brundage, M., Clark, J., Askell, A., Herbert-Voss, A., Wu, J.,
+Radford, A., Krueger, G., Kim, J. W., Kreps, S., McCain, M., Newhouse, A.,
+Blazakis, J., McGuffie, K., and Wang, J. Release strategies and the social impacts of language models, 2019. Soomro et al. (2012)
+
+Soomro, K., Zamir, A. R., and Shah, M. Ucf101: A dataset of 101 human actions classes from videos in the
+wild. arXiv preprint arXiv:1212.0402, 2012. Speer (2019)
+
+Speer, R. ftfy. Zenodo, 2019. URL https://doi.org/10.5281/zenodo.2591652. Version 5.5. Srivastava & Salakhutdinov (2012)
+
+Srivastava, N. and Salakhutdinov, R. Multimodal learning with deep boltzmann machines. In NIPS, 2012. Srivastava et al. (2017)
+
+Srivastava, S., Labutov, I., and Mitchell, T. Joint concept learning and semantic parsing from natural language
+explanations. In Proceedings of the 2017 conference on empirical methods in
+natural language processing, pp. 1527–1536, 2017. Stallkamp et al.

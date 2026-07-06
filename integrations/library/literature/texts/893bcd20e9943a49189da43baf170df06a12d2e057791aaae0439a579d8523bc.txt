@@ -1,0 +1,9 @@
+Mastering the Game of Go Without Human Knowledge. Nature, 550:354–359, 2017. doi: 10.1038/nature24270. Silver et al. (2018)
+
+Silver, D., Hubert, T., Schrittwieser, J., Antonoglou, I., Lai, M., Guez, A., Lanctot, M., Sifre, L., Kumaran, D., Graepel, T., Lillicrap, T., Simonyan, K., and Hassabis, D. A General Reinforcement Learning Algorithm that Masters Chess, Shogi, and Go through Self-play. Science, 362(6419):1140–1144, 2018. doi: 10.1126/science.aar6404. URL https://www.science.org/doi/abs/10.1126/science.aar6404. Srivastava et al. (2023)
+
+Srivastava, A., Rastogi, A., Rao, A., and et al. Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models. CoRR, abs/2206.04615, 2023. doi: 10.48550/arXiv.2206.04615. URL https://arxiv.org/abs/2206.04615. Stockfish (2023)
+
+Stockfish. Stockfish - Open Source Chess Engine, 2023. URL https://stockfishchess.org/. Tang et al. (2023)
+
+Tang, J., LeBel, A., Jain, S., and Huth, A. G. Semantic Reconstruction of Continuous Language from Non-invasive Brain Recordings. Nature Neuroscience, 26:858–866, 2023. doi: 10.1038/s41593-023-01304-9. Terry et al.

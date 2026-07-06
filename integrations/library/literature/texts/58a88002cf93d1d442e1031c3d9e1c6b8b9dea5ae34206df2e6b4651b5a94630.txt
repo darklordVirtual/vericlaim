@@ -1,0 +1,13 @@
+Training language models to follow instructions with human feedback,
+2022. URL https://arxiv.org/abs/2203.02155. Paszke et al. [2019]
+
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory
+Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et al. Pytorch: An imperative style, high-performance deep learning library. Advances in NeurIPS, 32:8026–8037, 2019. URL
+https://papers.nips.cc/paper/2019/hash/bdbca288fee7f92f2bfa9f7012727740-Abstract.html. Patel et al. [2021]
+
+Arkil Patel, Satwik Bhattamishra, and Navin Goyal. Are NLP models really able to solve simple math word problems? In Proceedings of NAACL, pages 2080–2094, 2021. URL https://aclanthology.org/2021.naacl-main.168. Radford et al. [2019]
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya
+Sutskever, et al. Language models are unsupervised multitask learners. OpenAI blog, page 9, 2019. URL http://www.persagen.com/files/misc/radford2019language.pdf. Rae et al. [2021]
+
+Jack W.

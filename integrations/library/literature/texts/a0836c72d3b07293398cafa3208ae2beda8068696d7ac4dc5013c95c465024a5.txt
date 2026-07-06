@@ -1,0 +1,43 @@
+Useful for using a bucket, etc. You must equip the item to activate first;
+
+•
+
+await bot.useOn(entity): This is the same as right-clicking an entity in the game. Useful for shearing a sheep. You must get to the entity first;
+
+(4)
+
+Retrieved skills from the skill library;
+
+(5)
+
+Generated code from the last round;
+
+(6)
+
+Environment feedback: The chat log in the prompt;
+
+(7)
+
+Execution errors;
+
+(8)
+
+Critique from the self-verification module;
+
+(9)
+
+The agent’s current state: See Sec. A.3.1 for each element of the agent’s state;
+
+(10)
+
+Task proposed by the automatic curriculum;
+
+(11)
+
+Task context: We prompt GPT-3.5 to ask for general suggestions about how to solve the task. In practice, this part is handled by the automatic curriculum since it has a systematic mechanism for question-answering (Sec. A.3.2);
+
+(12)
+
+Chain-of-thought prompting [46] in response: We ask GPT-4 to first explain the reason why the code from the last round fails, then give step-by-step plans to finish the task, and finally generate code. See Sec. A.4.2 for the full prompt. A.4.2 Full Prompt
+
+Prompt 4: Full system prompt for code generation.

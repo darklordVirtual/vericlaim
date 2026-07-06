@@ -1,0 +1,35 @@
+To account for the impact of the reasoning path’s length on the reward, we compute the value by using the maximum of average rewards in future steps. (2)
+
+Method
+
+Accuracy (%)
+
+Chain-of-Thought
+
+29.4
+
++ SC(10)
+
+46.8
+
+Least-to-Most
+
+25.5
+
++ SC(10)
+
+42.5
+
+RAP(1)
+
+40.0
+
+RAP(10)
+
+48.6
+
++ aggr
+
+51.6
+
+Table 2: Results on GSM8k. The superscripts indicate the number of samples or iterations. As a related work, Least-to-Most prompting Zhou et al. (2022) shares a similar idea to us in sub-question decomposition, but they generate sub-questions all at once. On the contrary, RAP considers each action based on the current state , which enables more informed decisions. Figure 5: Results on GSM-8K, with different numbers of sampled paths or iterations. Results. We evaluate our framework on GSM8k, a dataset of grade school math word problems. We also evaluate the base model with CoT prompting Wei et al. (2022), Least-to-Most prompting Zhou et al. (2022), and their self-consistency Wang et al. (2022) variants, as the baselines. We use the same 4-shot examples demonstrations for all methods.

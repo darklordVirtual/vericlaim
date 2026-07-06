@@ -1,0 +1,6 @@
+a rich ecosystem of properties and modes of interaction with pretrained models,
+such as fine-tuning, adaptation, prompting, in-context learning, instruction tuning, RLHF, quantization, and so on. We are particularly interested in whether Transformer alternatives such as SSMs have similar properties and affordances. Scaling. Our empirical evaluation is limited to small model sizes,
+below the threshold of most strong open source LLMs (e.g. Llama [touvron2023llama])
+as well as other recurrent models such as RWKV [peng2023rwkv] and RetNet [sun2023retentive],
+which have been evaluated at the 7B parameter scale and beyond. It remains to assess whether Mamba still compares favorably at these larger sizes. We also note that scaling SSMs may involve further engineering challenges and adjustments to the model
+that are not discussed in this paper.

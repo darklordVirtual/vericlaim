@@ -1,0 +1,70 @@
+{"fsid": "arxiv_2106-01345", "n": 69, "overlap": 200, "source_sha256": "5882384a0659513709dd587f72e783ddc3cd74ed0d97b26f468be90f04bf642f", "target": 1200}
+{"section": "", "seq": 0, "sha256": "e26e869b499011a6779b9f7c37536517e6a8467041829b96c343d7632819e10b"}
+{"section": "Decision Transformer: Reinforcement Learning via Sequence Modeling", "seq": 1, "sha256": "b19341eb132f36147ad053a08136c4f1be6e33d9095f383886bfd4667490c5f4"}
+{"section": "Decision Transformer: Reinforcement Learning via Sequence Modeling", "seq": 2, "sha256": "e1b0c75e95a50cf0a0fd301306239bca98f26e92787a3412ba21704005891185"}
+{"section": "1 Introduction", "seq": 3, "sha256": "a9aef905b9ee276ae422bf5bafec15685d9d9837fe6b93a839d39df8aca67091"}
+{"section": "1 Introduction", "seq": 4, "sha256": "db558768d14049056539180286170e58f775637d77a749f281ce50207f299769"}
+{"section": "1 Introduction", "seq": 5, "sha256": "861ffaeaed31563a4351be55022122da94d5706960d6cea962010e3b30a6c52b"}
+{"section": "1 Introduction", "seq": 6, "sha256": "c55c42437ecb3406589ace410dfa7aecdee7ed2674f54204dd90de6d4e1d91ef"}
+{"section": "1 Introduction", "seq": 7, "sha256": "f6a53b8f0fd5db3408f31e5bc9f5936b0ec01f10f38fe9fb634a197bd66c3730"}
+{"section": "2.1 Offline reinforcement learning", "seq": 8, "sha256": "de326facd178fdb0523b3290d7fa165b113e99e89ed766cba2cb54b94fd17a97"}
+{"section": "2.2 Transformers", "seq": 9, "sha256": "0dd33b68c9ef84510d7549a918ed7c789749868e783ec440e6769742e1766f7e"}
+{"section": "3 Method", "seq": 10, "sha256": "0897aa9c4224770f34ce702f0d0edff8a31602ed2e82fbce238b14114c325387"}
+{"section": "3 Method", "seq": 11, "sha256": "f3a5d53f0852a57ee5594e85e0677473b53cc1c9159402a0198f39af0cc0db54"}
+{"section": "3 Method", "seq": 12, "sha256": "6c9ae5c74a6c531657022a3747faa8058281ad1e457bdf5df000848d666c9af8"}
+{"section": "3 Method", "seq": 13, "sha256": "8f8e9cda4a8729de3c62925d5a15bd320d148ba81216d3cc4a2b6742ea3e7b2a"}
+{"section": "3 Method", "seq": 14, "sha256": "b5389d5a74fcf379b05964690544a6d95f6dd830829969791307feb265ddff0b"}
+{"section": "4 Evaluations on Offline RL Benchmarks", "seq": 15, "sha256": "0d30319e7cacc15281e63688ca7b5ace0521e18b26aa0518a21d2666f7203e1f"}
+{"section": "4 Evaluations on Offline RL Benchmarks", "seq": 16, "sha256": "0217dbbedd2e48e11f31052f2711ae73aceec59d4cc51e1724cdad17852cc2bd"}
+{"section": "4.1 Atari", "seq": 17, "sha256": "6b7d5eda4a5e589ffe97a1ee731791e106eaa5bc13af538a541438d143b62642"}
+{"section": "4.1 Atari", "seq": 18, "sha256": "9b834bb7272270663053bf3ecb61989cba5f2f28aae5dbe479b92a6388aa3e2b"}
+{"section": "4.2 OpenAI Gym", "seq": 19, "sha256": "2abe407dc6ee7d18937c08ddaf6e01ccf21470909d1ec668e193ecfdb69919d3"}
+{"section": "4.2 OpenAI Gym", "seq": 20, "sha256": "386c773b3e7c8479263d5576a63c56d38ad592eb4911b7b4cd9f937b84ec0a66"}
+{"section": "5.1 Does Decision Transformer perform behavior cloning on a subset of the data?", "seq": 21, "sha256": "5da89647c8ea3ea26e556914b10b06ce54a775c844e468a76f1b258b746aac9f"}
+{"section": "5.1 Does Decision Transformer perform behavior cloning on a subset of the data?", "seq": 22, "sha256": "8e200451d60dd8f73f3c14f190fced061e32ec85f5380809557f7cbc5134afb4"}
+{"section": "5.1 Does Decision Transformer perform behavior cloning on a subset of the data?", "seq": 23, "sha256": "69fbdbbd1bc7ba82f51538676c16a1bafdb1506b6ee47170cb7f7061fbd9e4bc"}
+{"section": "5.2 How well does Decision Transformer model the distribution of returns?", "seq": 24, "sha256": "c94c31d457058f9d5dcb0057fad15fc239187289c79f0667199efc482b0b65b8"}
+{"section": "5.3 What is the benefit of using a longer context length?", "seq": 25, "sha256": "fe7c5c43291e837a7fa9d58c61a984bdf784e9873ce2aaf2f19d1ca3bf6e3977"}
+{"section": "5.4 Does Decision Transformer perform effective long-term credit assignment?", "seq": 26, "sha256": "3a54a741993a9f114167bb3343ad4c939e3f33608fd62056b9d06f4f3ab7bee5"}
+{"section": "5.4 Does Decision Transformer perform effective long-term credit assignment?", "seq": 27, "sha256": "da377d4b6f90a1e0f8b9f367d496ddd42773b66ee6c062a4409e80ef8093f1f6"}
+{"section": "5.5 Can transformers be accurate critics in sparse reward settings?", "seq": 28, "sha256": "b3612f130efd65ad74558f4586017339f6a6d6ea3e2df3b319f6b3343379f233"}
+{"section": "5.5 Can transformers be accurate critics in sparse reward settings?", "seq": 29, "sha256": "8c278b3bde4f774a11ea09f00a92bcf2a338deb152e7c1a4dec6daaa698afe22"}
+{"section": "5.6 Does Decision Transformer perform well in sparse reward settings?", "seq": 30, "sha256": "8a777c49ac27736783c9883411390f15e2b5e7fd6c6bcb1e206c8a6a87620e4c"}
+{"section": "5.6 Does Decision Transformer perform well in sparse reward settings?", "seq": 31, "sha256": "51f59b3f03ba1c538bc420038a4945bdfca435929b02939e5ff6005a96bc2268"}
+{"section": "5.7 Why does Decision Transformer avoid the need for value pessimism or behavior regularization?", "seq": 32, "sha256": "1bc50637fd7f64027c69f3ec095605400f059a93df63d95fd13c164eebc9426a"}
+{"section": "5.8 How can Decision Transformer benefit online RL regimes?", "seq": 33, "sha256": "79d4c477933e2060557a404f566b4b2f2848d6a6522d819348d30be879abaa25"}
+{"section": "6.1 Offline reinforcement learning", "seq": 34, "sha256": "c71f7e5f4a21a40386d92e766985796d97f5f9d318c6034c099d2a26014eccd3"}
+{"section": "6.2 Supervised learning in reinforcement learning settings", "seq": 35, "sha256": "c94c3acf60e68b9e9d85ae0174aafcd28d9a6877866e391649d8441991d61a1b"}
+{"section": "6.2 Supervised learning in reinforcement learning settings", "seq": 36, "sha256": "da68c1bcc5acd00cb0cd613de9c87893117230e8b04cd10bac1819f7b0a1252e"}
+{"section": "6.3 Credit assignment", "seq": 37, "sha256": "840c1b0d7983f13e89163f985002d791753713587537ddd4e0e84ba9a11e8f75"}
+{"section": "6.4 Conditional language generation", "seq": 38, "sha256": "986336727f936d9868757fe6680fd6259ce2dd3c9428a2fc2b50980e5789b11a"}
+{"section": "6.5 Attention and transformer models", "seq": 39, "sha256": "334c0f3984f89ee02d407f48b5be904bf79c5883bee7fd4bd97aa60d55b34572"}
+{"section": "7 Conclusion", "seq": 40, "sha256": "787a0cba046f267d10486c0755540bff1f0471e224e2f3ce226f456ffb8d5d80"}
+{"section": "7 Conclusion", "seq": 41, "sha256": "dbcf3ebc493d755826a1a99dbea054c4a86e77486bcc99ae671a41d20574136e"}
+{"section": "Acknowledgements", "seq": 42, "sha256": "4460ea5f8657beec83faaea426921ea743c6a438fb88a8551507fcc6e724aaed"}
+{"section": "References", "seq": 43, "sha256": "8790a6a6193d4c4f423cfd3737b0431fa08905d37f70bb4c055676ea7a5485a1"}
+{"section": "References", "seq": 44, "sha256": "bdb871a41e211a78f06c19f7cbfd7a9abc6c51340c4d310ecb17da9bea33b34d"}
+{"section": "References", "seq": 45, "sha256": "639b25e645a9855b4f9a5806e116bbaa5be40e0d774b243d4dd6c5b057358587"}
+{"section": "References", "seq": 46, "sha256": "37e0f2db9269f5675b0e3d9c9fa36ce5ae22a56bf9fc42590ab8017a68de4db8"}
+{"section": "References", "seq": 47, "sha256": "3a647ce358ff1278ad50bb87487a9c8efa85eac272e9dbcc21d57a00a895e33d"}
+{"section": "References", "seq": 48, "sha256": "23664e668de646523727afdef3b943b33b3f510d72095c96d863b96ef38c31f8"}
+{"section": "References", "seq": 49, "sha256": "ef7af54ca5016e84143a1c45b4f1c0507bb997a9ee4c9332aadda582a526fc79"}
+{"section": "References", "seq": 50, "sha256": "314e0a3269871736978c5a7db5e40b703f6c07931e398d18bedb018abc53f1be"}
+{"section": "References", "seq": 51, "sha256": "ee948b7ff977b408b82c3b3fca59e7b5105c0ee5d31f8ef5ec11672f268c03f8"}
+{"section": "References", "seq": 52, "sha256": "b3c3fb540b09b8009a814a7fdabd40d3d129d030b2b9420aa1dfb7bd8cd4df5f"}
+{"section": "References", "seq": 53, "sha256": "56e4e16c106e82a96f6552141a7774ae405ade327d33d0edd420da33b9a811bd"}
+{"section": "References", "seq": 54, "sha256": "fec1f34145e12e3f01300d04a78f502a691709a48247b2933802df0dfbe2e951"}
+{"section": "References", "seq": 55, "sha256": "c17cb3ee20cff15fcc4a6cc7d9bc41a86b5c7a96d742c1bddf54e02054242b69"}
+{"section": "References", "seq": 56, "sha256": "c914c75bf61ac626a39b36cd455825fb2f1e9321cd1ba0d55d216f73a385c119"}
+{"section": "References", "seq": 57, "sha256": "2928a0d8428e275e1117cf5f6076563f6de3dd43378820a6fc0a751e4727cb2e"}
+{"section": "References", "seq": 58, "sha256": "55117e5f84d204fca602c174f80101016c7c1ad78ecc10518088b5cb9932ac05"}
+{"section": "Appendix A Experimental Details", "seq": 59, "sha256": "8617b82c796eb033664fb2b070e90d47ca78476c8b4d8d6934ac291e29b93bec"}
+{"section": "A.1 Atari", "seq": 60, "sha256": "854f278b45ca9d4771db74277060073869ef2aaf50369064740ae7889aaeb393"}
+{"section": "A.1 Atari", "seq": 61, "sha256": "3a70de9f35a4138e74f2bc94d64d01725c03e15f344cdb434799d41f7c70413f"}
+{"section": "A.2 OpenAI Gym", "seq": 62, "sha256": "8fa5d88b485fe589723e9e16d825413c8641e5168826b649986a2e460c844c3c"}
+{"section": "A.2 OpenAI Gym", "seq": 63, "sha256": "74326cdf536b75e0e82cab77dd449d18c3de32899d77cda35557d4dbe19e2b6c"}
+{"section": "A.2 OpenAI Gym", "seq": 64, "sha256": "8df3a2c26ed2b86e067fdc8670dd054dbcf507bf94e177667b6903fbdcb8ee15"}
+{"section": "A.3 Graph Shortest Path", "seq": 65, "sha256": "2b5c7b2c07b9eb48ef8a3864c1608757e315f786e589b3d12a6b005ff05caad0"}
+{"section": "A.3 Graph Shortest Path", "seq": 66, "sha256": "93e9fd5b2db7a74124cc39181551b5e03108ed54fbf21f7a2cc4cf550321d568"}
+{"section": "A.3 Graph Shortest Path", "seq": 67, "sha256": "ee132359ed52fa5d5c167bb2883f8bcfc2a03879773bc4616ae92ab04801f732"}
+{"section": "Appendix B Atari Task Scores", "seq": 68, "sha256": "b205ad10323099f42b1f002eb03737fd60a3957f98826f92c1e858b9200a44f5"}

@@ -1,0 +1,18 @@
+Janner et al. [2021]
+
+Michael Janner, Qiyang Li, and Sergey Levine. Reinforcement learning as one big sequence modeling problem. arXiv preprint arXiv:2106.02039, 2021. Ferret et al. [2019]
+
+Johan Ferret, Raphaël Marinier, Matthieu Geist, and Olivier Pietquin. Self-attentional credit assignment for transfer in reinforcement
+learning. arXiv preprint arXiv:1907.08027, 2019. Harutyunyan et al. [2019]
+
+Anna Harutyunyan, Will Dabney, Thomas Mesnard, Mohammad Azar, Bilal Piot,
+Nicolas Heess, Hado van Hasselt, Greg Wayne, Satinder Singh, Doina Precup,
+et al. Hindsight credit assignment. arXiv preprint arXiv:1912.02503, 2019. Arjona-Medina et al. [2018]
+
+Jose A Arjona-Medina, Michael Gillhofer, Michael Widrich, Thomas Unterthiner,
+Johannes Brandstetter, and Sepp Hochreiter. Rudder: Return decomposition for delayed rewards. arXiv preprint arXiv:1806.07857, 2018. Liu et al. [2019]
+
+Yang Liu, Yunan Luo, Yuanyi Zhong, Xi Chen, Qiang Liu, and Jian Peng. Sequence modeling of temporal credit assignment for episodic
+reinforcement learning. arXiv preprint arXiv:1905.13420, 2019. Karras et al. [2019]
+
+Tero Karras, Samuli Laine, and Timo Aila.

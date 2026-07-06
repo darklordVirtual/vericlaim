@@ -1,0 +1,18 @@
+375 BC. Putnam (1982)
+
+Putnam, H. Three kinds of scientific realism. The Philosophical Quarterly (1950-), 32(128):195–200, 1982. Radford et al. (2017)
+
+Radford, A., Jozefowicz, R., and Sutskever, I. Learning to generate reviews and discovering sentiment. arXiv preprint arXiv:1704.01444, 2017. Radford et al. (2019)
+
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et al. Language models are unsupervised multitask learners. OpenAI blog, 1(8):9, 2019. Radford et al. (2021)
+
+Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
+G., Askell, A., Mishkin, P., Clark, J., et al. Learning transferable visual models from natural language
+supervision. In International conference on machine learning, pp. 8748–8763. PMLR, 2021. Raghu et al. (2017)
+
+Raghu, M., Gilmer, J., Yosinski, J., and Sohl-Dickstein, J. Svcca: Singular vector canonical correlation analysis for deep
+learning dynamics and interpretability. Advances in neural information processing systems, 30, 2017. Richens & Everitt (2024)
+
+Richens, J. and Everitt, T. Robust agents learn causal world models. ICLR, 2024. Roeder et al. (2021)
+
+Roeder, G., Metz, L., and Kingma, D.

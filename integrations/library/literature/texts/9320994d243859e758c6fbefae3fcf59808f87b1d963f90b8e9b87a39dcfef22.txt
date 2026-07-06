@@ -1,0 +1,23 @@
+Output: [0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, (Omitted 46/64 numbers)]
+
+</Examples>
+
+merge_prompt: -
+
+Table 5: Sorting of a 32 element list: Execution plan (GoO)
+
+GoO:
+
+1. Split the input list into two sub-lists of equal size (split_prompt)
+
+2. For each sub-list: Sort the sub-list (sort_prompt) five times; score each sort attempt; keep the best
+
+3. Merge the sorted sub-lists into one fully sorted list (merge_prompt) 10 times; score each merge attempt; keep the best
+
+4. Fix any potential mistakes in the sorted list (improve_prompt) 10 times; score each improvement attempt; keep the best
+
+Table 6: Sorting of a 32 element list: Step 1 (Prompt/Response)
+
+Step 1 – Prompt:
+
+<Instruction> Split the following list of 32 numbers into 2 lists of 16 numbers each, the first list should contain the first 16 numbers and the second list the second 16 numbers.

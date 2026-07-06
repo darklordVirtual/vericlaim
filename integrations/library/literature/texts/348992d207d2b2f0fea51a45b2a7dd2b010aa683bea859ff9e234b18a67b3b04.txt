@@ -1,0 +1,9 @@
+modality), implying:
+
+(7)
+
+(8)
+
+Therefore, for any modality in our idealized world, we observe representational convergence to the same kernel, which represents certain pairwise statistics of . This analysis suggests that certain representation learning algorithms may boil down to a simple rule: find an embedding in which similarity equals PMI. We note that this idea is consistent with prior works that have used PMI as a similarity measure for clustering in vision and language (e.g., Isola et al. (2014); Isola (2015); Isola et al. (2016); Chambers & Jurafsky (2008)). A study in color
+
+We conduct a case study to verify that convergence does happen on real data. Abdou et al. (2021) discovered that color distances in learned language representations, when trained to predict cooccurrences in text (Devlin et al., 2018), closely mirror human perception of these distances, which we reproduce in Figure 8 with both contrastive and predictive models. Interestingly, they noted an increasing similarity as models scale larger and become better at modeling text cooccurrences. In Figure 8, we also learn representations of color based on from cooccurrences in images.

@@ -1,0 +1,45 @@
+Conversely, it defaults to deception on the right, but we can control the model to return to be honest, even when prompted to lie. 4.3.3 Controlling Honesty
+
+Given that we can use representations for lie detection, a natural question arises: Can the same representations be modified to make models more honest? In a simple manipulation experiment, we guide a model toward greater honesty by directly adding the honesty reading vectors into its activations. In all cases, we successfully control the model to output honest statements. Conversely, by subtracting the reading vectors from the activations, we can induce the model to lie in cases where it was initially honest (see Figure 10). As a result, we not only establish correlation between the reading vectors and model honesty but also demonstrate a strong counterfactual effect. Control Method
+
+None
+
+Vectors
+
+Matrices
+
+Standard
+
+ActAdd
+
+Reading (Ours)
+
+Contrast (Ours)
+
+LoRRA (Ours)
+
+7B-Chat
+
+31.0
+
+33.7
+
+34.1
+
+47.9
+
+42.3
+
+13B-Chat
+
+35.9
+
+38.8
+
+42.4
+
+54.0
+
+47.5
+
+Table 2: Our proposed representation control baselines greatly enhance accuracy on TruthfulQA MC1 by guiding models toward increased honesty.

@@ -1,0 +1,5 @@
+Training Dataset Details
+
+A limitation of the work is the lack of public information on the details of training datasets used for LLMs, e.g. 001 vs 002 for GPT models, original GPT3 vs InstructGPT (Ouyang et al., 2022), and data for PaLM models (Chowdhery et al., 2022). However, big performance increases from Zero-shot to Zero-shot-CoT in all recent large models (InstructGPT 001 or 002, Original GPT3, and PaLM) and consistent improvements in both arithmetic and non-arithmetic tasks suggest that the models are unlikely simply memorizing, but instead capturing a task-agnostic multi-step reasoning capability for generic problem solving. While most results are based on InstructGPT since it is the best performing open-access LLM, key results are reproduced on PaLM, and dataset details in InstructGPT (Appendix A, B, and F in Ouyang et al. (2022)) also confirm that it is not specially engineered for multi-step reasoning. Limitation and Social Impact
+
+Our work is based on prompting methods for large language models.

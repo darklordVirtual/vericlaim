@@ -1,0 +1,22 @@
+ResNets are typically trained with SGD and our use of Adam as optimizer is quite unconventional. Here we show the experiments that motivated this choice. Namely, we compare the fine-tuning performance of two ResNets – 50x1 and 152x2 – pre-trained on JFT with SGD and Adam. For SGD, we use the hyperparameters recommended by Kolesnikov et al. (2020). Results are presented in Table 7. Adam pre-training outperforms SGD pre-training on most datasets and on average. This justifies the choice of Adam as the optimizer used to pre-train ResNets on JFT. Note that the absolute numbers are lower than those reported by Kolesnikov et al. (2020), since we pre-train only for epochs, not . ResNet50
+ResNet152x2
+
+Dataset
+Adam
+SGD
+Adam
+SGD
+
+ImageNet
+
+CIFAR10
+
+CIFAR100
+
+Oxford-IIIT Pets
+
+Oxford Flowers-102
+
+Average
+
+Table 7: Fine-tuning ResNet models pre-trained with Adam and SGD.

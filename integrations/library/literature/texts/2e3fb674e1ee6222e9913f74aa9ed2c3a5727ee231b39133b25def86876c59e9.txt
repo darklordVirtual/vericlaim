@@ -1,0 +1,5 @@
+We discuss related work, limitations, and some future directions. Related Work. LABEL:sec:discussion:selection discusses how the selection mechanism relates to similar concepts. LABEL:sec:related has an extended related work of SSMs and other related models. No Free Lunch: Continuous-Discrete Spectrum. Structured SSMs were originally defined as discretizations of continuous systems (1),
+and have had a strong inductive bias toward continuous-time data modalities such as perceptual signals (e.g. audio, video). As discussed in Sections˜3.1 and 3.5, the selection mechanism overcomes their weaknesses
+on discrete modalities such as text and DNA;
+but this conversely can impede their performance on data that LTI SSMs excel on. Our ablations on audio waveforms examine this tradeoff in more detail. Downstream Affordances. Transformer-based foundation models (particularly LLMs) have a rich ecosystem of properties and modes of interaction with pretrained models,
+such as fine-tuning, adaptation, prompting, in-context learning, instruction tuning, RLHF, quantization, and so on.

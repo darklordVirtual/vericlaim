@@ -1,0 +1,23 @@
+Bradbury et al. (2017)
+
+James Bradbury, Stephen Merity, Caiming Xiong, and Richard Socher. 2017. Quasi-recurrent neural networks. In ICLR. Brown et al. (2020)
+
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+et al. 2020. Language models are few-shot learners. Advances in neural information processing systems,
+33:1877–1901. Bulatov et al. (2023)
+
+Aydar Bulatov, Yuri Kuratov, and Mikhail S. Burtsev. 2023. Scaling transformer to 1m
+tokens and beyond with rmt. Bulatov et al. (2022)
+
+Aydar Bulatov, Yury Kuratov, and Mikhail Burtsev. 2022. Recurrent memory transformer. Advances in Neural Information Processing Systems,
+35:11079–11091. Chaudhary (2023)
+
+Sahil Chaudhary. 2023. Code alpaca: An instruction-following llama model for code
+generation. https://github.com/sahil280114/codealpaca. Cheung (2023)
+
+Joseph Cheung. 2023. Guanacodataset. Choromanski et al. (2020)
+
+Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song,
+Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin,
+Lukasz Kaiser, David Belanger, Lucy Colwell, and Adrian Weller. 2020.

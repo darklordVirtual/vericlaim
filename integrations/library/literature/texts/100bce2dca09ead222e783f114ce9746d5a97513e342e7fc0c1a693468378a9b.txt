@@ -1,0 +1,18 @@
+Discovering language model behaviors with model-written evaluations,
+2022. Radford et al. (2015)
+
+Alec Radford, Luke Metz, and Soumith Chintala. Unsupervised representation learning with deep convolutional
+generative adversarial networks. arXiv preprint arXiv:1511.06434, 2015. Radford et al. (2017)
+
+Alec Radford, Rafal Jozefowicz, and Ilya Sutskever. Learning to generate reviews and discovering sentiment. arXiv preprint arXiv:1704.01444, 2017. Radford et al. (2018)
+
+Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever, et al. Improving language understanding by generative pre-training. "", 2018. Radford et al. (2021)
+
+Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh,
+Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark,
+et al. Learning transferable visual models from natural language
+supervision. In International conference on machine learning, pp. 8748–8763. PMLR, 2021. Ravfogel et al. (2023)
+
+Shauli Ravfogel, Francisco Vargas, Yoav Goldberg, and Ryan Cotterell. Kernelized concept erasure, 2023. Rimsky (2023a)
+
+Nina Rimsky. Modulating sycophancy in an rlhf model via activation steering. AI Alignment Forum, 2023a.

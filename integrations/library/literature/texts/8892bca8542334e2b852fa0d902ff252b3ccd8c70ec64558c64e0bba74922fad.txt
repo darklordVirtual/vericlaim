@@ -1,0 +1,3 @@
+A community of 25 unique agents inhabits Smallville. Each agent is represented by a simple sprite avatar. We authored one paragraph of natural language description to depict each agent’s identity, including their occupation and relationship with other agents, as seed memories. For example, John Lin has the following description:
+
+John Lin is a pharmacy shopkeeper at the Willow Market and Pharmacy who loves to help people.

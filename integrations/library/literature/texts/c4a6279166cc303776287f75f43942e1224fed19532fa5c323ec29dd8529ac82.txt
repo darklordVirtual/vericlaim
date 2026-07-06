@@ -1,0 +1,19 @@
+Retrieval-augmented generation for knowledge-intensive nlp tasks. Advances in Neural Information Processing Systems, 2020. Li et al. (2023a)
+
+Beibin Li, Konstantina Mellou, Bo Zhang, Jeevan Pathuri, and Ishai Menache. Large language models for supply chain optimization. arXiv preprint arXiv:2307.03875, 2023a. Li et al. (2023b)
+
+Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, and
+Bernard Ghanem. Camel: Communicative agents for ”mind” exploration of large scale
+language model society, 2023b. Liang et al. (2023)
+
+Tian Liang, Zhiwei He, Wenxiang Jiao, Xing Wang, Yan Wang, Rui Wang, Yujiu
+Yang, Zhaopeng Tu, and Shuming Shi. Encouraging divergent thinking in large language models through
+multi-agent debate, 2023. Liu et al. (2018)
+
+Evan Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, and Percy Liang. Reinforcement learning on web interfaces using workflow-guided
+exploration. arXiv preprint arXiv:1802.08802, 2018. Liu (2022)
+
+Jerry Liu. LlamaIndex, November 2022. URL https://github.com/jerryjliu/llama_index. Mnih et al. (2013)
+
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis
+Antonoglou, Daan Wierstra, and Martin Riedmiller.

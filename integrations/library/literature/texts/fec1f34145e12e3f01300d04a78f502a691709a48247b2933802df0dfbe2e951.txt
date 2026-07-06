@@ -1,0 +1,17 @@
+Sequence modeling of temporal credit assignment for episodic
+reinforcement learning. arXiv preprint arXiv:1905.13420, 2019. Karras et al. [2019]
+
+Tero Karras, Samuli Laine, and Timo Aila. A style-based generator architecture for generative adversarial
+networks. In Conference on Computer Vision and Pattern Recognition,
+2019. Ghazvininejad et al. [2017]
+
+Marjan Ghazvininejad, Xing Shi, Jay Priyadarshi, and Kevin Knight. Hafez: an interactive poetry generation system. In Proceedings of ACL, System Demonstrations, 2017. Weng [2021]
+
+Lilian Weng. Controllable neural text generation. lilianweng.github.io/lil-log, 2021. URL
+https://lilianweng.github.io/lil-log/2021/01/02/controllable-neural-text-generation.html. Ficler and Goldberg [2017]
+
+Jessica Ficler and Yoav Goldberg. Controlling linguistic style aspects in neural language generation. arXiv preprint arXiv:1707.02633, 2017. Hu et al. [2017]
+
+Zhiting Hu, Zichao Yang, Xiaodan Liang, Ruslan Salakhutdinov, and Eric P Xing. Toward controlled generation of text. In International Conference on Machine Learning, 2017. Rajani et al. [2019]
+
+Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong, and Richard Socher. Explain yourself!

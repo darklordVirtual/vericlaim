@@ -1,0 +1,89 @@
+We make a system-level comparison in Table. A.2. Voyager stands out as the only method featuring a combination of automatic curriculum, iterative planning, and a skill library. Moreover, it learns to play Minecraft without the need for any gradient update. Table A.2: System-level comparison between Voyager and prior works. VPT [8]
+
+DreamerV3 [69]
+
+DECKARD [53]
+
+DEPS [55]
+
+Plan4MC [71]
+
+Voyager
+
+Demos
+
+Videos
+
+None
+
+Videos
+
+None
+
+None
+
+None
+
+Rewards
+
+Sparse
+
+Dense
+
+Sparse
+
+None
+
+Dense
+
+None
+
+Observations
+
+Pixels Only
+
+Pixels &
+Meta
+
+Pixels &
+Inventory
+
+Feedback &
+Inventory
+
+Pixels &
+Meta
+
+Feedback &
+Meta &
+Inventory
+
+Actions
+
+Keyboard & Mouse
+
+Discrete
+
+Keyboard & Mouse
+
+Keyboard & Mouse
+
+Discrete
+
+Code
+
+Automatic Curriculum
+
+(in-context GPT-4 proposal)
+
+Iterative Planning
+
+(3 types of feedback)
+
+Skill Library
+
+(pre-defined)
+
+(self-generated)
+
+Gradient-Free

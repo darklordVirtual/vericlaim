@@ -1,0 +1,13 @@
+During inference the actual value and rewards are obtained by first computing their expected value under their respective softmax distribution and subsequently by inverting the scaling transformation. Scaling and transformation of the value and reward happens transparently on the network side and is not visible to the rest of the algorithm. Both the representation and dynamics function use the same architecture as AlphaZero, but with 16 instead of 20 residual blocks [15]. We use 3x3 kernels and 256 hidden planes for each convolution. For Atari, where observations have large spatial resolution, the representation function starts with a sequence of convolutions with stride 2 to reduce the spatial resolution. Specifically, starting with an input observation of resolution 96x96 and 128 planes (32 history frames of 3 color channels each, concatenated with the corresponding 32 actions broadcast to planes), we downsample as follows:
+
+•
+
+1 convolution with stride 2 and 128 output planes, output resolution 48x48. •
+
+2 residual blocks with 128 planes
+
+•
+
+1 convolution with stride 2 and 256 output planes, output resolution 24x24. •
+
+3 residual blocks with 256 planes.

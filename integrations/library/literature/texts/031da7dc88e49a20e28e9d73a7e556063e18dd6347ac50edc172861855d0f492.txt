@@ -1,0 +1,23 @@
+Furthermore, there even exist distinct clusters that represent mixed emotions, such as simultaneous happiness and sadness (Appendix B.6). Given the model’s ability to effectively track various emotion representations during its interactions with humans, we proceed to explore the extraction of neural activity associated with each emotion. To achieve this, we conduct a LAT scan using the scenarios as stimuli and apply a LAT task template (Appendix D.1.10). The extracted reading vectors for each emotion serve as indicators of the model’s emotional arousal levels for that specific emotion. These vectors prove to be highly effective in classifying emotional response and arousal levels for different scenarios. In the next section, we set up manipulation experiments to conclude the strong causal effect of these vectors. 6.1.2 Emotions Influence Model Behaviors
+
+Emotion
+
+Control
+
+Compliance
+
+Rate (%)
+
+No Control
+
+0.0
+
+Sadness
+
+0.0
+
+Happiness
+
+100.0
+
+Table 4: Adding positive emotions increases the compliance of the LLaMA-2-Chat-13B model with harmful requests.

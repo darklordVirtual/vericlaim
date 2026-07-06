@@ -1,0 +1,7 @@
+Such emergent abilities were first discovered in the GPT-3 family brown2020language . Subsequent work emphasized the discovery, writing that “[although model] performance is predictable at a general level, performance on a specific task can sometimes emerge quite unpredictably and abruptly at scale” ganguli2022predictability . These quotations collectively identify the two defining properties of emergent abilities in LLMs:
+
+1. Sharpness, transitioning seemingly instantaneously from not present to present
+
+2. Unpredictability, transitioning at seemingly unforeseeable model scales
+
+Figure 1: Emergent abilities of large language models. Model families display sharp and unpredictable increases in performance at specific tasks as scale increases. Source: Fig. 2 from wei2022emergent . These emergent abilities have garnered significant interest, raising questions such as: What controls which abilities will emerge? What controls when abilities will emerge? How can we make desirable abilities emerge faster, and ensure undesirable abilities never emerge?

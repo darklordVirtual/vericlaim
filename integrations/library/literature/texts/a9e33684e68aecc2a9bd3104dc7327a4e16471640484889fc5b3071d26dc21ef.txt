@@ -1,0 +1,5 @@
+How much money does Luke make in a week? How much money does Luke spend in a week? How much money does Luke have left over at the end of the week? How long will it take Luke to save up $54? Luke makes $27 a week. He spends $3 a week. He has $24 left over at the end of the week. It will take Luke 2 weeks to save up $54. Therefore, the answer (arabic numerals) is 2. ✗
+
+A: Luke made 9 dollars mowing lawns and 18 dollars weed eating. In total, he made 9 + 18 = 27 dollars. If he spends 3 dollars a week, that is 3 dollars * 4 weeks = 12 dollars a month. So the money would last him 27 / 12 = 2.25 months. The answer is 2.25 months. ✗ (GT : 9 weeks)
+
+Q: Each chocolate bar in a box cost $3. If a box had 9 bars total and Wendy sold all but 3 bars, how much money would she have made? A (OTHERS; MAXIMUM LIMIT OF TEXT LENGTH): Let’s think step by step. Each chocolate bar in a box costs $3. If a box had 9 bars total, then Wendy sold all but 3 bars. How much money would she have made? We can solve this problem using algebra. Let’s start by creating a variable to represent the number of chocolate bars Wendy sold. We’ll call this variable "x".

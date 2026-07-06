@@ -1,0 +1,20 @@
+Do as i can, not as i say: Grounding language in robotic affordances. arXiv preprint arXiv: Arxiv-2204.01691, 2022. (26)
+
+Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy
+Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, Pierre Sermanet, Noah
+Brown, Tomas Jackson, Linda Luu, Sergey Levine, Karol Hausman, and Brian
+Ichter. Inner monologue: Embodied reasoning through planning with language
+models. arXiv preprint arXiv: Arxiv-2207.05608, 2022. (27)
+
+Wenlong Huang, Pieter Abbeel, Deepak Pathak, and Igor Mordatch. Language models as zero-shot planners: Extracting actionable
+knowledge for embodied agents. In Kamalika Chaudhuri, Stefanie Jegelka, Le Song, Csaba
+Szepesvári, Gang Niu, and Sivan Sabato, editors, International
+Conference on Machine Learning, ICML 2022, 17-23 July 2022, Baltimore,
+Maryland, USA, volume 162 of Proceedings of Machine Learning
+Research, pages 9118–9147. PMLR, 2022. (28)
+
+Significant-gravitas/auto-gpt: An experimental open-source attempt to make
+gpt-4 fully autonomous., 2023. (29)
+
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
+and Yuan Cao.

@@ -1,0 +1,18 @@
+arXiv preprint arXiv:2305.16291, 2023. Huang et al. 2022
+
+Shengyi Huang, Rousslan Fernand Julien Dossa, Antonin Raffin, Anssi Kanervisto,
+and Weixun Wang. The 37 implementation details of proximal policy optimization. The ICLR Blog Track 2023, 2022. Hoffman et al. 2020
+
+Matt Hoffman, Bobak Shahriari, John Aslanides, Gabriel Barth-Maron, Feryal
+Behbahani, Tamara Norman, Abbas Abdolmaleki, Albin Cassirer, Fan Yang, Kate
+Baumli, et al. Acme: A research framework for distributed reinforcement learning. arXiv preprint arXiv:2006.00979, 2020. Schmitt et al. 2020
+
+Simon Schmitt, Matteo Hessel, and Karen Simonyan. Off-policy actor-critic with shared experience replay. In International Conference on Machine Learning, pages
+8545–8554. PMLR, 2020. Schaul et al. 2015
+
+Tom Schaul, John Quan, Ioannis Antonoglou, and David Silver. Prioritized experience replay. arXiv preprint arXiv:1511.05952, 2015. Brock et al. 2021
+
+Andy Brock, Soham De, Samuel L Smith, and Karen Simonyan. High-performance large-scale image recognition without normalization. In International Conference on Machine Learning, pages
+1059–1071. PMLR, 2021. Ziyin et al. 2020
+
+Liu Ziyin, Zhikang T Wang, and Masahito Ueda.

@@ -1,0 +1,19 @@
+Baddeley (1992)
+
+Alan Baddeley. 1992. Working memory. Science, 255(5044):556–559. Briscoe (2011)
+
+Robert Eamon Briscoe. 2011. Mental imagery and the varieties of amodal perception. Pacific Philosophical Quarterly, 92(2):153–173. Brown et al. (2020)
+
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+et al. 2020. Language models are few-shot learners. Advances in neural information processing systems,
+33:1877–1901. Bubeck et al. (2023)
+
+Sébastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric
+Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg,
+et al. 2023. Sparks of artificial general intelligence: Early experiments with
+gpt-4. arXiv preprint arXiv:2303.12712. Bylander (1994)
+
+Tom Bylander. 1994. The computational complexity of propositional strips planning. Artificial Intelligence, 69(1-2):165–204. Camacho and Alba (2013)
+
+Eduardo F Camacho and Carlos Bordons Alba. 2013. Model predictive control. Springer science & business media. Chowdhery et al.

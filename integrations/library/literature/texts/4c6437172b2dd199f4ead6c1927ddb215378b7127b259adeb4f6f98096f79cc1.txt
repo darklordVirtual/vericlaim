@@ -1,0 +1,23 @@
+In this section, we present a mathematical description of the gradient stability property in RWKV, focusing specifically on the time-mixing block. By gradient stability we mean that if the inputs are bounded and the model parameters are fixed, then the gradients with respect to and are uniformly bounded for all (thus not exploding). Consequently, we can control the amount each contributes to the gradient at in a naturally decaying fashion by the weight decay mechanism (thus not vanishing unless desired). First, we make the simplification that there are no token shifts, this will not affect the final conclusion. In this scenario, can be written as
+
+(29)
+
+where
+
+and and are shorthand for denoting sums and averages over weights . The loss function at position can be written as
+
+(30)
+
+Because relates to and only through the -th channel , we have
+
+(31)
+
+The first part of the above equation contains trivial operations like output layers, and other layers of time-mixing, which can be proven inductively. The second part of the above equation can be bounded as
+
+(32)
+
+which is irrelevant to . Similarly,
+
+(33)
+
+can also be bounded.

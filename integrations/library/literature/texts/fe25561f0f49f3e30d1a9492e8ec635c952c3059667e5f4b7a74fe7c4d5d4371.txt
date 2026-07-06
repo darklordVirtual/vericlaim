@@ -1,0 +1,20 @@
+(2020)
+
+Harris, C. R., Millman, K. J., van der Walt, S. J., Gommers, R., Virtanen, P.,
+Cournapeau, D., Wieser, E., Taylor, J., Berg, S., Smith, N. J., Kern, R.,
+Picus, M., Hoyer, S., van Kerkwijk, M. H., Brett, M., Haldane, A.,
+Fernández del Río, J., Wiebe, M., Peterson, P., Gérard-Marchant, P.,
+Sheppard, K., Reddy, T., Weckesser, W., Abbasi, H., Gohlke, C., and Oliphant,
+T. E. Array programming with NumPy. Nature, 585:357–362, 2020. doi: 10.1038/s41586-020-2649-2. Hays & Efros (2008)
+
+Hays, J. and Efros, A. A. Im2gps: estimating geographic information from a single image. In 2008 ieee conference on computer vision and pattern
+recognition, pp. 1–8. IEEE, 2008. He et al. (2015)
+
+He, K., Zhang, X., Ren, S., and Sun, J. Delving deep into rectifiers: Surpassing human-level performance on
+imagenet classification. In Proceedings of the IEEE international conference on computer
+vision, pp. 1026–1034, 2015. He et al. (2016a)
+
+He, K., Zhang, X., Ren, S., and Sun, J. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 770–778, 2016a. He et al. (2016b)
+
+He, K., Zhang, X., Ren, S., and Sun, J.

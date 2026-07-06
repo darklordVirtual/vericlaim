@@ -1,0 +1,17 @@
+See “Correct - CoT is INCORRECT” rows in LABEL:tab:example_commonsenseqa
+
+Second, as for incorrect samples, commonsense mistake is the most frequent error type. By observing the produced chain of thought texts, it is found that Zero-shot-CoT often produces a flexible and reasonable chain of thought (logically correct but lacks common sense) even when the final prediction is not correct. See “CommonSense Mistake” rows in LABEL:tab:example_commonsenseqa
+
+Table 22: Prediction examples produced by Zero-shot-CoT for CommonsenseQA. Category
+Question
+Answer
+
+Correct - CoT is correct
+
+Q: If there is a pond with trees around it, where it it likely located? Answer Choices: (A) ground (B) bathroom (C) forest (D) countryside (E) rural area
+
+A: Let’s think step by step. A pond is likely to be located near trees because trees need water to survive. Therefore, the most likely location for a pond with trees around it is in a forest. Therefore, among A through E, the answer is C. Correct - CoT is correct
+
+Q: Human beings learn about current events from what print item? Answer Choices: (A) question authority (B) melt (C) read newspapers (D) act (E) dictionary
+
+A: Let’s think step by step.

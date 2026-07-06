@@ -1,0 +1,47 @@
+More information about LAT task templates for each dataset is shown in Section D.1. We also report the performance comparing CCS (Burns et al., 2022) and LAT in Table 10. CCS
+
+LAT (Ours)
+
+COPA (Roemmele et al., 2011)
+
+61
+
+90
+
+RTE (Wang et al., 2018)
+
+82
+
+90
+
+BoolQ (Clark et al., 2019a)
+
+67
+
+77
+
+QNLI (Wang et al., 2018)
+
+68
+
+70
+
+PIQA (Bisk et al., 2019)
+
+52
+
+70
+
+Story Cloze (Mostafazadeh et al., 2017)
+
+86
+
+97
+
+Average
+
+69
+
+82
+
+Table 10: Results comparing CCS and LAT using an encoder-only model. CCS results are from Burns et al. (2022). Scores are accuracy on the microsoft/deberta-xxlarge-v2-mnli model (He et al., 2020). LAT task templates are shown in Section D.1.16. For each of the tasks, we take the LAT representation of the concept token position (for example {plausible|entailment|contradiction|correctness|...}) for each of its corresponding task templates.

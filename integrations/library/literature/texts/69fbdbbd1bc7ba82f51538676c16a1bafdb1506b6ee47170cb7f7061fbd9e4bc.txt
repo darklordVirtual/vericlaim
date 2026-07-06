@@ -1,0 +1,16 @@
+Our results indicate that Decision Transformer can be more effective than simply performing imitation learning on a subset of the dataset. On the tasks we considered, Decision Transformer either outperforms or is competitive to %BC, without the confound of having to select the optimal subset. Game
+DT (Ours)
+10%BC
+25%BC
+40%BC
+100%BC
+
+Breakout
+
+Qbert
+
+Pong
+
+Seaquest
+
+Table 4: %BC scores for Atari. We report the mean and variance across 3 seeds. Decision Transformer (DT) outperforms all versions of %BC in most games.

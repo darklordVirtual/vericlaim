@@ -1,0 +1,17 @@
+Patil et al. (2023)
+
+Shishir G. Patil, Tianjun Zhang, Xin Wang, and Joseph E. Gonzalez. Gorilla: Large language model connected with massive apis. arXiv preprint arXiv:2305.15334, 2023. Reimers & Gurevych (2019)
+
+Nils Reimers and Iryna Gurevych. Sentence-bert: Sentence embeddings using siamese bert-networks. In Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing. Association for Computational Linguistics, 11
+2019. URL https://arxiv.org/abs/1908.10084. Semantic-Kernel (2023)
+
+Semantic-Kernel. Semantic kernel. https://github.com/microsoft/semantic-kernel, 2023. Shen et al. (2021)
+
+Bokui Shen, Fei Xia, Chengshu Li, Roberto Martín-Martín, Linxi Fan,
+Guanzhi Wang, Claudia Pérez-D’Arpino, Shyamal Buch, Sanjana Srivastava,
+Lyne Tchapmi, et al. igibson 1.0: A simulation environment for interactive tasks in large
+realistic scenes. In 2021 IEEE/RSJ International Conference on Intelligent Robots
+and Systems (IROS). IEEE, 2021. Shi et al. (2017)
+
+Tianlin Shi, Andrej Karpathy, Linxi Fan, Jonathan Hernandez, and Percy Liang. World of bits: An open-domain platform for web-based agents. In International Conference on Machine Learning. PMLR, 2017. Shridhar et al.

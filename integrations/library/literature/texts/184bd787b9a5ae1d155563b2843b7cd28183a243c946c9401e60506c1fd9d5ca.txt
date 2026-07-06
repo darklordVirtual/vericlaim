@@ -1,0 +1,65 @@
+Our findings indicate that alignment sensitivity not only depends on the metric used to compute it but also varies according to the specific tasks on which the vision models are trained. Metric
+
+Property
+
+Description
+
+symmetric
+
+global
+
+ordinal
+
+batchable
+
+CKA
+
+✓
+
+✓
+
+✓
+
+✓
+
+Centered Kernel Alignment (CKA; Kornblith et al. (2019)) measures the similarity of neural networks by comparing the alignment of their kernel induced by their feature spaces. Unbiased CKA
+
+✓
+
+✓
+
+✓
+
+✓
+
+Unbiased estimator of CKA that corrects for sample bias in HSIC (Song et al., 2012). SVCCA
+
+✓
+
+✓
+
+✓
+
+✓
+
+Singular Value Canonical Correlation Analysis (SVCCA; Raghu et al. (2017)) compares neural networks by decomposing their activities into singular vectors and measuring correlation. Mutual -NN
+
+✓
+
+✓
+
+Measures the intersection over union (IoU) of nearest neighbors between two models. CKNNA
+
+✓
+
+✓
+
+✓
+
+✓
+
+Modified CKA measure that computes the kernel alignment only for its nearest neighbors. See Appendix A. Cycle -NN
+
+✓
+
+Measures whether the nearest neighbor in one domain also considers the original sample as its nearest neighbor in the other domain.

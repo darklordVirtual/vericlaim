@@ -1,0 +1,9 @@
+Proof. The characteristic polynomial of is
+
+These coefficients have size up to . The inverse of has even larger coefficients. It can be calculated in closed form by the generalized binomial formula:
+
+Taking this , the largest coefficient is
+
+When this is
+
+already larger than the coefficients of , and only increases as grows. ∎

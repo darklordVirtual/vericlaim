@@ -1,0 +1,5 @@
+Then, Bob and Alice switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Alice is dancing with Which choice is true ? Answer Choices: (A) Sam. (B) Helga. (C) Karl. A: Let’s think step by step. First, Claire and Alice switch partners. This means that at the end of this step, Alice is dancing with Karl and Claire is dancing with Sam. Then, Bob and Alice switch partners. This means that at the end of this step, Alice is dancing with Helga and Bob is dancing with Karl. Finally, Claire and Bob switch partners. This means that at the end of this step, Claire is dancing with Helga and Bob is dancing with Sam. At the end of the dance, Alice is dancing with Sam. Therefore, among A through C, the answer is A. ✗ (GT : B)
+
+Last Letters
+
+Q: Take the last letters of each words in "Vinny Landon Miguel Caitlyn" and concatenate them. A: Let’s think step by step. The last letter of "Vinny" is "y". The last letter of "Landon" is "n". The last letter of "Miguel" is "l". The last letter of "Caitlyn" is "n". So, the final answer would be "ynln". Therefore, the answer is "ynln".

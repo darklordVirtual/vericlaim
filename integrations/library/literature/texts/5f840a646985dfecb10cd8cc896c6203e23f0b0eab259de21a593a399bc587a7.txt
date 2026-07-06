@@ -1,0 +1,13 @@
+2022c. ProbGraph: High-Performance and High-Accuracy Graph Mining with
+Probabilistic Set Representations. In Proceedings of the International Conference on High
+Performance Computing, Networking, Storage and Analysis, SC ’22. IEEE. Besta et al. [2021b]
+
+Besta, M.; Vonarburg-Shmaria, Z.; Schaffner, Y.; Schwarz, L.; Kwaśniewski,
+G.; Gianinazzi, L.; Beranek, J.; Janda, K.; Holenstein, T.; Leisinger, S.;
+Tatkowski, P.; Ozdemir, E.; Balla, A.; Copik, M.; Lindenberger, P.;
+Konieczny, M.; Mutlu, O.; and Hoefler, T. 2021b. GraphMineSuite: Enabling High-Performance and Programmable Graph
+Mining Algorithms with Set Algebra. Proc. VLDB Endow., 14(11): 1922–1935. Bronstein et al. [2017]
+
+Bronstein, M. M.; Bruna, J.; LeCun, Y.; Szlam, A.; and Vandergheynst, P. 2017. Geometric Deep Learning: Going beyond Euclidean data. IEEE Signal Processing Magazine, 34(4): 18–42. Brown et al. [2020]
+
+Brown, T.; Mann, B.; Ryder, N.; Subbiah, M.; Kaplan, J.

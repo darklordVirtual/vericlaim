@@ -1,0 +1,27 @@
+As stated in 3.3, the RWKV time-mixing block can be formulated as an RNN, as the computation can be written in such a recursive form:
+
+(19)
+
+(20)
+
+(21)
+
+(22)
+
+Figure 8: RWKV time-mixing block formulated as an RNN cell. Color codes: yellow () denotes the token shift, red (1) denotes the denominator, blue (2) denotes the numerator, and pink (3) denotes the fraction computations in 16. denotes the numerator-denominator tuple. The dataflow of the RNN-like time-mixing is shown in Fig. 8, where the hidden states is the numerator-denominator tuple . To avoid overflow in calculating , a numerical trick is used in the official implementation. Noticing that and , we set , where stores the shared exponents of and . Now the above recursion can be converted into a numerical safe version, for each time step :
+
+(23)
+
+(24)
+
+The update to , and their shared exponent is also carried out in a similar fashion:
+
+(25)
+
+(26)
+
+(27)
+
+(28)
+
+The RWKV model has an internal state that stores some previous information. In each layer, the internal state consists five parts, each of which is a vector with numbers, where is the model dimension.

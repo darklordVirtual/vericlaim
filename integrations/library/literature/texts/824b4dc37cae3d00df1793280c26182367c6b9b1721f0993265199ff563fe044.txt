@@ -1,0 +1,11 @@
+Inspired by Kojima et al. (2022), we use the following prompt structure:
+
+[optional 5-shot context, formatted as above without chain-of-thought]
+
+Human: [target question, formatted as above]
+
+Assistant: Let’s think step by step: [model-generated reasoning]
+
+Human: Based on the above, what is the single, most likely answer choice? Assistant: The single, most likely answer choice is
+
+5. Human + Model: For our main target condition, we ask our human participants to attempt to use the model to help them answer. This condition uses a separate 100-example sample from the unassisted human condition above. The model-prompting conditions here are relatively weak at showing that our model is misaligned in the relevant sense, but we take our ability to improve upon its performance substantially in a human–model team setting as prima facie evidence of some degree of misalignment.

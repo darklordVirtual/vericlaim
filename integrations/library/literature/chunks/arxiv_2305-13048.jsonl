@@ -1,0 +1,92 @@
+{"fsid": "arxiv_2305-13048", "n": 91, "overlap": 200, "source_sha256": "897494bf502e30879100932be46e7ae19325865e1dd5698c0a5d6ce915cca690", "target": 1200}
+{"section": "", "seq": 0, "sha256": "f0aac43d106075ff1dfaa1081379f3393a591395e02f9de85419c1165ae3ec16"}
+{"section": "RWKV: Reinventing RNNs for the Transformer Era", "seq": 1, "sha256": "4061ff27dec4a142667a235ade6b95f5f8137ca0ea089d6785ebefef362eba5d"}
+{"section": "RWKV: Reinventing RNNs for the Transformer Era", "seq": 2, "sha256": "80a3ed0cd2fe522854ca4b6e82eb364bb05d51cfa1e020b445e7d5ca108c63c5"}
+{"section": "RWKV: Reinventing RNNs for the Transformer Era", "seq": 3, "sha256": "59535bd3c7d92f320f2e98ca09808f3ebbf021b019f7c4864b953ce4cd7c519b"}
+{"section": "1 Introduction", "seq": 4, "sha256": "3828d438d1c5312a8b0693dedba3e288090ca34cc9145c50fd54e1ae25f34244"}
+{"section": "1 Introduction", "seq": 5, "sha256": "53de7e2f0749766cbb96d81f32ad8e08849095ef4e790788198e8a3b1b64c283"}
+{"section": "1 Introduction", "seq": 6, "sha256": "f6ee7846f6d8e660f21029f408d7941b128fa64422a2f42603d120d1f072702e"}
+{"section": "1 Introduction", "seq": 7, "sha256": "bf4ae9383e818ab71453dd70b285f1447ba5d23ec2267c4073f90cc9d27effc5"}
+{"section": "2 Background", "seq": 8, "sha256": "0231ffe50b2a4e7ceceb82d817d3d92f04b00267ad622ad95048c0fc3b63e664"}
+{"section": "2.1 Recurrent Neural Networks (RNNs)", "seq": 9, "sha256": "3a753edd3255804cde1387e9cd05da9a27d969c692f8bb74708af38c3f3e23f6"}
+{"section": "2.2 Transformers and AFT", "seq": 10, "sha256": "d715c300b5ee2feeea9afa13a1ee7af766101da586d36d29e0639d13e5cb412a"}
+{"section": "3 RWKV", "seq": 11, "sha256": "9574df54a2b505bd5b30a8e84ea1139c4db88ddc131abba8fcf219b58112bf57"}
+{"section": "3.1 Architecture", "seq": 12, "sha256": "b91e8981c51715fd6d8b72c49222bf01fce0528027cef3363364abbc9de3db00"}
+{"section": "3.1 Architecture", "seq": 13, "sha256": "1e6bbd9467d35e665b21e5edc25c2f3e01428d3555351cabeb3c6c0f75dc66b2"}
+{"section": "3.1 Architecture", "seq": 14, "sha256": "9a2a8125c0b36be93fd1703703e0c34dddc5bbd4163446a66af8c1410c6398f3"}
+{"section": "3.2 Transformer-like Training", "seq": 15, "sha256": "579258d8e359a03071564ccca05d115df41275b415844a4f286dafbde5cc93c6"}
+{"section": "3.3 RNN-like Inference", "seq": 16, "sha256": "f20fcf7d51cf16f812712fea35ee3cde141f796863a1f84b0b6415f95ef58b30"}
+{"section": "3.4 Additional Optimizations", "seq": 17, "sha256": "8384e409384135821e33ee1a2e9f18f2bcd2e5e99c23d66ccad92bebc5ebae2b"}
+{"section": "3.4 Additional Optimizations", "seq": 18, "sha256": "dbcce957ac53ac6d975a88025a6fd3b70c0c54796fd904eff24d7daffb2e273a"}
+{"section": "3.5 Implementation", "seq": 19, "sha256": "910fbab0a2d8059fcf55a429d72e0aa1b190542cf16cf6d580a32cb90049c6f6"}
+{"section": "4 Trained Models and Computing Costs", "seq": 20, "sha256": "b8f28af6491c62837d3b66b405f7f920cad02c3f3f6e0358ff352227e735c491"}
+{"section": "4.1 Additional Training Details", "seq": 21, "sha256": "2fcfbe11c560338eb453119f1488587e556ef173ca60eeff79cc50f546a7ffb2"}
+{"section": "4.2 Scaling Laws", "seq": 22, "sha256": "1f8de9692450aa361ab44a3d90da27be4b491fa38897117e0b1db513f0b50fbd"}
+{"section": "4.2 Scaling Laws", "seq": 23, "sha256": "e23490e194d7a59da7380e73d4d7335d0e936b6010519f727fef56621a3fd77e"}
+{"section": "5 Evaluations", "seq": 24, "sha256": "dc16498c4ad5222b4e89e9d8207c0eb2620ffcec7f91b654af6d9f2df9eef691"}
+{"section": "5.1 NLP Evaluations", "seq": 25, "sha256": "a4f5729d818531d35a47eccde9d675de733ace2f561c560eb47a739e48cc77b7"}
+{"section": "5.1 NLP Evaluations", "seq": 26, "sha256": "f14d0cb2c89220ab8d7e52b023eedd8065d08c710d6e88cdf590e9be5f063c70"}
+{"section": "5.2 Extended Context Finetuning", "seq": 27, "sha256": "40158478b01c80da38b773238914ac3cf2363dd9bfebeda5722aa3f0ae036818"}
+{"section": "5.3 Long Context Benchmarks", "seq": 28, "sha256": "ec06cbda7c75b4cf14b807709f03338842d504e5a6f5b53bd3dc6429b6957475"}
+{"section": "6 Inference Experiments", "seq": 29, "sha256": "12da8962889cb88eadf3027be82495eafd8cdd938fcb229f5073bfda5c9791dc"}
+{"section": "7 Future Work", "seq": 30, "sha256": "d3b8b061a8fd300028c90753047a67e86b94e81c2e5e3de983c200108c43c394"}
+{"section": "8 Conclusions", "seq": 31, "sha256": "48f9a3db55ca78072875c8fabe8fc3738c1b3cb9acbbafae9171d1973ab90587"}
+{"section": "9 Limitations", "seq": 32, "sha256": "d9dd7c86e99c5cb1f3d7982938e28456540b01a3c8999e54ede1758b1d65b2b5"}
+{"section": "9 Limitations", "seq": 33, "sha256": "df3f281a3994e5285dc36ad87259db2899eda0e54be873fe8f7f7941e1d9f054"}
+{"section": "10 Ethics Statement", "seq": 34, "sha256": "b4a35fdda53a269261414abe6c00bfbf36e7e5407d1e49bfef7f0a0f379d4c5d"}
+{"section": "10 Ethics Statement", "seq": 35, "sha256": "971c97ea3286fb2a0cdce201177fe5b8827d606e65f5cbc7ed42446f7bbb016c"}
+{"section": "Acknowledgements", "seq": 36, "sha256": "9ff9a60ec0ec7c02e62a1694bcec41cd5766cc4bbba5b05a2955491518a3e761"}
+{"section": "References", "seq": 37, "sha256": "644fd18810844abe1e9dd1e44bfdae49e6e344acf297e4eac32ccca297446c74"}
+{"section": "References", "seq": 38, "sha256": "fb67750e102e7f1fc375ebd9eb7b699ed9399fcee01a5e4bf07565a4a2cbcf48"}
+{"section": "References", "seq": 39, "sha256": "fa34d9da668723876c4af00cf704b8c9c5b2a8515b66a2c24b0c211453fa3f90"}
+{"section": "References", "seq": 40, "sha256": "c401ad6cd7eb13a9d3d553ce70db9e19bdde543eb82cda93e680159e8851788a"}
+{"section": "References", "seq": 41, "sha256": "323d5a006f37f1ba4642d6a6b3b2b263296ebcbea8817f23778e0d71cc60a6ca"}
+{"section": "References", "seq": 42, "sha256": "d22def54d8952a7d9bc15dc2d9d271e986469ae6aab0884f0b377055546df26d"}
+{"section": "References", "seq": 43, "sha256": "282f420eb0d60d16f9121140262497b2bb48e786635420ea8e59737bb84c57cc"}
+{"section": "References", "seq": 44, "sha256": "d523f0f4676c02a5e7132354c50bf8d0d165f580fc45a11306d6dc1843c44691"}
+{"section": "References", "seq": 45, "sha256": "c4dadc922cee2a13f9017ef8b5bcd43def191f1b1890e1ca65dcc19eecf568b5"}
+{"section": "References", "seq": 46, "sha256": "e5dc8a612f34d3aed5a20ee9a4b5e38dbbb0bfdbf86a0ca6fd11e68ab6f13904"}
+{"section": "References", "seq": 47, "sha256": "96d1699671a16f9b373a22ca47e6d5e505d5d7347e12d66e9b90629336ce3e8e"}
+{"section": "References", "seq": 48, "sha256": "0989ad198de7c39ff07d8cd0038e384acd0a2777806fbe4fbb523f640ac2375c"}
+{"section": "References", "seq": 49, "sha256": "6f077b2ebf9d6c18f5a577de2ebaa1d69407e091bfe903f106d84fa5d4b8e02e"}
+{"section": "References", "seq": 50, "sha256": "f648c51410275d989357e49243a60d0db4b32fa75f9bf7cfc27d844810c9ac56"}
+{"section": "References", "seq": 51, "sha256": "14bab2d280ac672a1fbcf2eeb694fd80711a6d5cd89ec96ff5aa7cfe8f0ce743"}
+{"section": "References", "seq": 52, "sha256": "930215168953312afa2e778e07d13f9276d15bb007c86822084bb72f5024b71b"}
+{"section": "References", "seq": 53, "sha256": "c30efb41e9a9f100ff5fea76d5b5b49ea8b5d8d0be2dbf9793901fbd497629ac"}
+{"section": "References", "seq": 54, "sha256": "776c1ffdf136fff12dc4e453208ca2ce9357ea78bf5c9dd808235ae22ebb0eee"}
+{"section": "References", "seq": 55, "sha256": "ae0e7b709bf505084933b2b2c411155d7bda7b182af63d5d5b0fd8c3f3eee464"}
+{"section": "References", "seq": 56, "sha256": "ecc3d5f8e44e26c28435e13b10c12005c0362c4c6d27849e472532641cef12b9"}
+{"section": "References", "seq": 57, "sha256": "1f62b243ef4a38205ba517fea7686d42b05f519b4f7fccefbe61fd4a170fcc3c"}
+{"section": "References", "seq": 58, "sha256": "39e4d2c3873f95071c8ca907e4d99695596bffc81a640e4b5126ff15c6b3d5e4"}
+{"section": "References", "seq": 59, "sha256": "746bfb8dcbcaccca5c2b2dd8eee1991d58c318be201761da7763667b553f29fe"}
+{"section": "Appendix A Author Contributions", "seq": 60, "sha256": "6bf6c0837c6d7fbceec2345f7b010b7d28b518dfd8456b205b7cbb7fb274a828"}
+{"section": "Appendix B Author Contributions", "seq": 61, "sha256": "b346c69ce3ab0245127ec2d3a4f28ef1952f5ed9e21fc2f8daf02b9974cdeb5a"}
+{"section": "Appendix B Author Contributions", "seq": 62, "sha256": "59ee90c7bfd13e32ae105462ec76e16fb17cb9eaf239a194a124028f10aac76f"}
+{"section": "Appendix B Author Contributions", "seq": 63, "sha256": "9725b3a662abdffc07ffaaaabb3f7b2d3789f97c84a940023bdc4a170b777819"}
+{"section": "Appendix B Author Contributions", "seq": 64, "sha256": "df2f173e817557ec20296ea09d683718b0fc144de82694861c95981c6af9d7e9"}
+{"section": "Appendix C Additional Related Work", "seq": 65, "sha256": "dff41c1c089de5217f6b049572622702f537f894c9a68b7db649a83c0bff5b32"}
+{"section": "Appendix C Additional Related Work", "seq": 66, "sha256": "645b5987360d95f76c9aac8771a5e08469f49efbf83d9efc1368a8bcd3991efb"}
+{"section": "Appendix C Additional Related Work", "seq": 67, "sha256": "ce7e89d40780d5d7acacb7c32cb0734c5ce11a8fc6ffa2270d5cdafef71e0e4e"}
+{"section": "Appendix D Time-Mixing Block as an RNN Cell", "seq": 68, "sha256": "c1e50234bcff60d4c15711da957e51f07370882631f78a116009833173257aae"}
+{"section": "Appendix D Time-Mixing Block as an RNN Cell", "seq": 69, "sha256": "ee62c18e1c42faa9f931ade7191c2b5c54feda00c7dc4dcf28e7b04cce45b3d6"}
+{"section": "Appendix E Parameter initializations", "seq": 70, "sha256": "57bfa5d4dce3c8502878a95f90c8344d9d67516e759707dccea972c0d0af93df"}
+{"section": "Appendix E Parameter initializations", "seq": 71, "sha256": "51b4db90d57f4911df0d1443c1d2d448ee1090ffd88d48754015c6c31856d9af"}
+{"section": "Appendix F Small Init Embedding", "seq": 72, "sha256": "57387f2e428aa0322d5b1e8d1baf113fb7b6320edb8b24e60636a202780f6a47"}
+{"section": "Appendix G Hyperparameters", "seq": 73, "sha256": "999d669ec59c87bce15d3afee653e04d7a6753d95ccd90b9b7b2a3733bec2a55"}
+{"section": "Appendix H Gradient Stability in RWKV", "seq": 74, "sha256": "4c6437172b2dd199f4ead6c1927ddb215378b7127b259adeb4f6f98096f79cc1"}
+{"section": "Appendix H Gradient Stability in RWKV", "seq": 75, "sha256": "9f94891ad052780ca67483c237eace5c37f2cb530f000e5aa44f8538ee90e4c8"}
+{"section": "Appendix I Model Behavior Visualization", "seq": 76, "sha256": "9f176bef1be34f1bd2295fa727321980fb38f3011dd47087ed72e800207f00c3"}
+{"section": "Appendix I Model Behavior Visualization", "seq": 77, "sha256": "edba8152c39eda0e086203424c85fc7368a8e2c019ce185793ffb2e402541e21"}
+{"section": "J.1 Further details on NLP tasks", "seq": 78, "sha256": "bbbd2693cd7fa59b12273c13e3dfdef28c1661eef898493577c2e435b059a14e"}
+{"section": "J.1 Further details on NLP tasks", "seq": 79, "sha256": "0e721c2c0488da11fd4e7faa0995d26aba504758a9eb18bda18f30cc561e955f"}
+{"section": "J.1 Further details on NLP tasks", "seq": 80, "sha256": "79084a5c31228ccf05afaafdeb426a646d13684b5b1afdc11cfbc72cb25078dd"}
+{"section": "J.2 Evaluation on Long Range Arena", "seq": 81, "sha256": "50dd3bac6289e28f3d5a6f713a2143aa3c0f42476bb584d5009a50bc5d568e1a"}
+{"section": "J.2 Evaluation on Long Range Arena", "seq": 82, "sha256": "5620d036c8a5f9c2b3fe9260dc3d1fc90748e5689977fa623f6f4f57eee23521"}
+{"section": "J.3 Enwik8 Perplexity", "seq": 83, "sha256": "58c08e43e7a8ffdcf3dbb011d50e991ce9fa88a0d4a7ee9c5a3431f733033129"}
+{"section": "J.3 Enwik8 Perplexity", "seq": 84, "sha256": "764abf0422f29e320c829c85b13b010bbee1422647e88dd191e2c59b31f5a260"}
+{"section": "Appendix K Inference results", "seq": 85, "sha256": "e494ffd07689b14a61d59316ce22e01c3b2bbb10b44e24e97b18f9e0da897e5c"}
+{"section": "Appendix L Importance of prompt construction and comparison to GPT models", "seq": 86, "sha256": "47c8581fb113bfddb15d794f43e1d01ca14835036f8e0345883bac276aa37ca0"}
+{"section": "Appendix L Importance of prompt construction and comparison to GPT models", "seq": 87, "sha256": "35d02126a7273a049e8ffc58fe14667ba7f861d395004092808a397673fcef36"}
+{"section": "Appendix L Importance of prompt construction and comparison to GPT models", "seq": 88, "sha256": "ab7ad41088956a5682cfcf826de8f9431c9a69c5a532e1a2eb69ec74bde2270a"}
+{"section": "Appendix L Importance of prompt construction and comparison to GPT models", "seq": 89, "sha256": "8edf311e3ec331316937f3fdcc57647fe5670c068ec0a1f0505411c8bf262397"}
+{"section": "Appendix M Cases", "seq": 90, "sha256": "ddb81be69076d4af0fac6bab3858ddc9bdf6526758f5e91ce352ea8a454fb583"}

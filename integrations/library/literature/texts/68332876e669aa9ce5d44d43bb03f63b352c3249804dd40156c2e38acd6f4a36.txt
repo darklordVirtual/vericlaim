@@ -1,0 +1,18 @@
+Richens & Everitt (2024)
+
+Richens, J. and Everitt, T. Robust agents learn causal world models. ICLR, 2024. Roeder et al. (2021)
+
+Roeder, G., Metz, L., and Kingma, D. On linear identifiability of learned representations. In International Conference on Machine Learning, pp. 9030–9039. PMLR, 2021. Russakovsky et al. (2015)
+
+Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z.,
+Karpathy, A., Khosla, A., Bernstein, M., et al. Imagenet large scale visual recognition challenge. International journal of computer vision, 115:211–252, 2015. Sauer et al. (2022)
+
+Sauer, A., Schwarz, K., and Geiger, A. StylegGAN-XL: Scaling StyleGAN to large diverse datasets. In ACM SIGGRAPH 2022 conference proceedings, pp. 1–10,
+2022. Schrimpf et al. (2018)
+
+Schrimpf, M., Kubilius, J., Hong, H., Majaj, N. J., Rajalingham, R., Issa,
+E. B., Kar, K., Bashivan, P., Prescott-Roy, J., Geiger, F., et al. Brain-score: Which artificial neural network for object recognition
+is most brain-like? BioRxiv, pp. 407007, 2018. Sharma et al. (2024)
+
+Sharma, P., Rott Shaham, T., Baradad, M., Fu, S., Rodriguez-Munoz, A., Duggal,
+S., Isola, P., and Torralba, A. A vision check-up for language models.

@@ -1,0 +1,5 @@
+Custom Kernels
+
+To address inefficiencies in the computation arising from the sequential nature of the task when using standard deep learning frameworks, we have developed a custom CUDA kernel. This kernel enables the execution of a single compute kernel on training accelerators, while all other parts of the model, such as matrix multiplications and point-wise operations, are already inherently parallelizable and efficient. Small Init Embedding
+
+During the initial stage of training a transformer model Vaswani et al. (2017), we observe that the embedding matrix undergoes slow changes, presenting a challenge for the model to move away from its initial noisy embedding state. To address this issue, we propose an approach that involves initializing the embedding matrix with small values and subsequently applying an additional LayerNorm operation. This accelerates and stabilizes the training process, allowing for the training of deep architectures with post-LN components. The effectiveness of this approach is demonstrated in Figure 9, illustrating improved convergence by enabling the model to quickly transition away from the initially small embedding.

@@ -1,0 +1,17 @@
+Introduced by Vaswani et al. (2017), Transformers are a class of neural networks that have become the dominant architecture for several NLP tasks. Instead of operating on sequences step-by-step like RNNs, Transformers rely on attention mechanisms to capture relationships between all input and all output tokens:
+
+(7)
+
+where the multi-headness and scaling factor is omitted for convenience. The core multiplication is an ensemble of pairwise attention scores between each token in a sequence, which can be decomposed as vector operations:
+
+(8)
+
+AFT Zhai et al. (2021), alternately formulates
+
+(9)
+
+where is the learned pair-wise position biases, and each is a scalar. Inspired by AFT, RWKV takes a similar approach. However, for simplicity, it modifies the interaction weights so that it can be transformed into an RNN. Each in RWKV is a channel-wise time decay vector multiplied by the relative position and traced backward from current time as it decays:
+
+(10)
+
+where , with the number of channels. We require to be non-negative to ensure that and the per-channel weights decay backwards in time.

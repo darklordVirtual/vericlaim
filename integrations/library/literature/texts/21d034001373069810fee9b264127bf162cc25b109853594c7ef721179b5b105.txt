@@ -1,0 +1,17 @@
+medRxiv, 2023. doi: 10.1101/2023.07.13.23292577. Zeiler & Fergus (2014)
+
+Matthew D Zeiler and Rob Fergus. Visualizing and understanding convolutional networks. In Computer Vision–ECCV 2014: 13th European Conference,
+Zurich, Switzerland, September 6-12, 2014, Proceedings, Part I 13, pp. 818–833. Springer, 2014. Zhao et al. (2018)
+
+Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang. Gender bias in coreference resolution: Evaluation and debiasing
+methods. CoRR, abs/1804.06876, 2018. Zhong et al. (2023)
+
+Zexuan Zhong, Zhengxuan Wu, Christopher D. Manning, Christopher Potts, and
+Danqi Chen. Mquake: Assessing knowledge editing in language models via multi-hop
+questions, 2023. Zhou et al. (2016)
+
+Bolei Zhou, Aditya Khosla, Agata Lapedriza, Aude Oliva, and Antonio Torralba. Learning deep features for discriminative localization. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 2921–2929, 2016. Zhou et al. (2018)
+
+Bolei Zhou, Yiyou Sun, David Bau, and Antonio Torralba. Interpretable basis decomposition for visual explanation. In Proceedings of the European Conference on Computer Vision
+(ECCV), pp. 119–134, 2018. Zou et al.

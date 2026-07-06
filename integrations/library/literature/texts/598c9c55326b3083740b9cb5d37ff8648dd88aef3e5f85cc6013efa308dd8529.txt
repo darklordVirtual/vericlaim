@@ -1,0 +1,16 @@
+arXiv preprint arXiv:1811.07871. Lichtenstein and Fischhoff (1980)
+
+Sarah Lichtenstein and Baruch Fischhoff. 1980. Training for calibration. Organizational behavior and human performance, 26(2):149–171. Lin et al. (2022)
+
+Stephanie Lin, Jacob Hilton, and Owain Evans. 2022. TruthfulQA: Measuring how models mimic human falsehoods. In Proceedings of the 60th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 3214–3252,
+Dublin, Ireland. Association for Computational Linguistics. Liu et al. (2021)
+
+Han Liu, Vivian Lai, and Chenhao Tan. 2021. Understanding the effect of
+out-of-distribution examples and interactive explanations on human-AI
+decision making. Proc. ACM Hum.-Comput. Interact., 5(CSCW2). Nye et al. (2021)
+
+Maxwell Nye, Anders Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob
+Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David
+Luan, et al. 2021. Show your work: Scratchpads for intermediate computation with
+language models. arXiv preprint arXiv:2112.00114. Pang et al.

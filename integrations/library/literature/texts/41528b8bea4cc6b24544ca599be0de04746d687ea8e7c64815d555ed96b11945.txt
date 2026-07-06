@@ -1,0 +1,14 @@
+In Proceedings of the 61st Annual Meeting of the Association
+for Computational Linguistics, ACL ’23, 5368–5393. Association for
+Computational Linguistics. qrdlgit [2023]
+
+qrdlgit. 2023. graph-of-thoughts Repository. https://github.com/qrdlgit/graph-of-thoughts. Accessed: 2023-10-11. Radford et al. [2018]
+
+Radford, A.; Narasimhan, K.; Salimans, T.; and Sutskever, I. 2018. Improving Language Understanding by Generative Pre-Training. https://openai.com/research/language-unsupervised. Accessed: 2023-09-06. Radford et al. [2019]
+
+Radford, A.; Wu, J.; Child, R.; Luan, D.; Amodei, D.; and Sutskever, I. 2019. Language Models are Unsupervised Multitask Learners. https://openai.com/research/better-language-models. Accessed: 2023-09-06. Robinson, Webber, and Eifrem [2015]
+
+Robinson, I.; Webber, J.; and Eifrem, E. 2015. Graph Databases: New Opportunities for Connected Data. O’Reilly Media, 2nd edition. Sakr et al. [2021]
+
+Sakr, S.; Bonifati, A.; Voigt, H.; Iosup, A.; Ammar, K.; Angles, R.; Aref, W.;
+Arenas, M.; Besta, M.; Boncz, P. A.; Daudjee, K.; Valle, E.

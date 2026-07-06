@@ -1,0 +1,27 @@
+B.4.2 Extensive Map Traversal
+
+Figure A.2: Map coverage: Two bird’s eye views of Minecraft maps. Voyager is able to traverse longer distances compared to baselines while crossing diverse terrains. Trajectories are plotted based on the positions where each agent interacts with GPT-4. Agent trajectories for map coverage are displayed in Fig. A.2. Fig. 7 is plotted based on Fig. A.2 by drawing the smallest circle enclosing each trajectory. The terrains traversed by Voyager in each trial is
+
+•
+
+Trial 1: ‘meadow’, ‘desert’, ‘river’, ‘savanna’, ‘forest’, ‘plains’, ‘bamboo_jungle’, ‘dripstone_caves’;
+
+•
+
+Trial 2: ‘snowy_plains’, ‘frozen_river’, ‘dripstone_caves’, ‘snowy_taiga’, ‘beach’;
+
+•
+
+Trial 3: ‘flower_forest’, ‘meadow’, ‘old_growth_birch_forest’, ‘snowy_slopes’, ‘frozen_peaks’, ‘forest’, ‘river’, ‘beach’, ‘ocean’, ‘sunflower_plains’, ‘plains’, ‘stony_shore’. The terrains traversed by ReAct [29] in each trial is
+
+•
+
+Trial 1: ‘plains’, ‘desert’, ‘jungle’;
+
+•
+
+Trial 2: ‘snowy_plains’, ‘snowy_taiga’, ‘snowy_slopes’;
+
+•
+
+Trial 3: ‘dark_forest’, ‘dripstone_caves’, ‘grove’, ‘jagged_peaks’.

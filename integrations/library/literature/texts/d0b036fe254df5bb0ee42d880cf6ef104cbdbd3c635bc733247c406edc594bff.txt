@@ -1,0 +1,17 @@
+Bulletin of the Technical Committee on Data Engineering,
+40(3): 52–74. Hartmann and Sonntag [2022]
+
+Hartmann, M.; and Sonntag, D. 2022. A survey on improving NLP models with human explanations. In Proceedings of the First Workshop on Learning with Natural
+Language Supervision, 40–47. Association for Computational Linguistics. Horváth, Gärtner, and Wrobel [2004]
+
+Horváth, T.; Gärtner, T.; and Wrobel, S. 2004. Cyclic Pattern Kernels for Predictive Graph Mining. In Proceedings of the Tenth ACM SIGKDD International Conference
+on Knowledge Discovery and Data Mining, KDD ’04, 158–167. Huang et al. [2022a]
+
+Huang, W.; Abbeel, P.; Pathak, D.; and Mordatch, I. 2022a. Language Models as Zero-Shot Planners: Extracting Actionable
+Knowledge for Embodied Agents. In Proceedings of the 39th International Conference on Machine
+Learning, volume 162 of Proceedings of Machine Learning Research,
+9118–9147. PMLR. Huang et al. [2022b]
+
+Huang, W.; Xia, F.; Xiao, T.; Chan, H.; Liang, J.; Florence, P.; Zeng, A.;
+Tompson, J.; Mordatch, I.; Chebotar, Y.; Sermanet, P.; Brown, N.; Jackson,
+T.; Luu, L.; Levine, S.; Hausman, K.; and Ichter, B. 2022b.

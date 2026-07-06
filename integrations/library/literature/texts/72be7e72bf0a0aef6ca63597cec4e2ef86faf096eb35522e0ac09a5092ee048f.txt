@@ -1,0 +1,25 @@
+Task setup. A logical reasoning task (e.g. PrOntoQA Saparov and He (2022)) typically provides a set of facts and logical rules, and a model is required to verify if a hypothesis fact is true or false by applying the logical rules to the given facts, as illustrated in Figure 2. These tasks not only require the correct final answer (true/false), but also a detailed proof demonstrating the result. To apply our framework, we define the state as a fact we are focusing on, analogous to the human’s working memory Baddeley (1992) for inference. An action is defined as selecting a rule from the fact set. The world model performs a one-hop reasoning step to get a new fact as the next state. The reward is calculated with Self-evaluation (Section 3.2. Specifically, we prompt the LLM with a few examples with their labels to help it better understand the quality of reasoning steps. We use the average reward of future steps to update the function, the same as Equation (2) for GSM8k. Method
+
+Pred Acc
+
+Proof Acc
+
+CoT
+
+87.8
+
+64.8
+
+CoT + SC
+
+89.8
+
+-
+
+RAP (Ours)
+
+94.2
+
+78.8
+
+Table 3: Results on ProntoQA.

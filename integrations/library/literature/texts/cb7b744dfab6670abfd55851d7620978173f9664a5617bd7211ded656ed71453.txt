@@ -1,0 +1,11 @@
+We ablate 6 design choices (automatic curriculum, skill library, environment feedback, execution errors, self-verification, and GPT-4 for code generation) in Voyager and study their impact on exploration performance. •
+
+Manual Curriculum: We substitute the automatic curriculum with a manually designed curriculum for mining a diamond: “Mine 3 wood log”, “Craft 1 crafting table”, “Craft 1 wooden pickaxe”, “Mine 11 cobblestone”, “Craft 1 stone pickaxe”, “Craft 1 furnace”, “Mine 3 iron ore”, “Smelt 3 iron ore”, “Craft 1 iron pickaxe”, “Mine 1 diamond”. A manual curriculum requires human effort to design and is not scalable for open-ended exploration. •
+
+Random Curriculum: We curate 101 items obtained by Voyager and create a random curriculum by randomly selecting one item as the next task. •
+
+w/o Skill Library: We remove the skill library, eliminating skill retrieval for code generation. •
+
+w/o Environment Feedback: We exclude environment feedback (chat log) from the prompt for code generation. •
+
+w/o Execution Errors: We exclude execution errors from the prompt for code generation.

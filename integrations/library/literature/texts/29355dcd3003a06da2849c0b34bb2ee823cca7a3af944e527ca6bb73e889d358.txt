@@ -1,0 +1,18 @@
+How to train your hippo: State space models with generalized basis
+projections. arXiv preprint arXiv:2206.12037, 2022b. Hochreiter and Schmidhuber [1997]
+
+Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8):1735–1780, 1997. Katharopoulos et al. [2020]
+
+Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and François
+Fleuret. Transformers are rnns: Fast autoregressive transformers with linear
+attention. In International Conference on Machine Learning, pages
+5156–5165. PMLR, 2020. Kidger et al. [2020]
+
+Patrick Kidger, James Morrill, James Foster, and Terry Lyons. Neural controlled differential equations for irregular time series. arXiv preprint arXiv:2005.08926, 2020. Lezcano-Casado and Martínez-Rubio [2019]
+
+Mario Lezcano-Casado and David Martínez-Rubio. Cheap orthogonal constraints in neural networks: A simple
+parametrization of the orthogonal and unitary group. In The International Conference on Machine Learning (ICML),
+2019. Li et al. [2018]
+
+Shuai Li, Wanqing Li, Chris Cook, Ce Zhu, and Yanbo Gao. Independently recurrent neural network (IndRNN): Building a longer
+and deeper RNN.

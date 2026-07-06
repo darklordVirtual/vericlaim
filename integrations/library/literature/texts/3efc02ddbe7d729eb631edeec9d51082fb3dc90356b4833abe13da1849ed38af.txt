@@ -1,0 +1,17 @@
+(1)
+
+Eric Kolve, Roozbeh Mottaghi, Winson Han, Eli VanderBilt, Luca Weihs, Alvaro
+Herrasti, Daniel Gordon, Yuke Zhu, Abhinav Gupta, and Ali Farhadi. Ai2-thor: An interactive 3d environment for visual ai. arXiv preprint arXiv: Arxiv-1712.05474, 2017. (2)
+
+Manolis Savva, Jitendra Malik, Devi Parikh, Dhruv Batra, Abhishek Kadian,
+Oleksandr Maksymets, Yili Zhao, Erik Wijmans, Bhavana Jain, Julian Straub,
+Jia Liu, and Vladlen Koltun. Habitat: A platform for embodied AI research. In 2019 IEEE/CVF International Conference on Computer Vision,
+ICCV 2019, Seoul, Korea (South), October 27 - November 2, 2019, pages
+9338–9346. IEEE, 2019. (3)
+
+Yuke Zhu, Josiah Wong, Ajay Mandlekar, and Roberto Martín-Martín. robosuite: A modular simulation framework and benchmark for robot
+learning. arXiv preprint arXiv: Arxiv-2009.12293, 2020. (4)
+
+Fei Xia, William B. Shen, Chengshu Li, Priya Kasimbeg, Micael Tchapmi,
+Alexander Toshev, Li Fei-Fei, Roberto Martín-Martín, and Silvio Savarese. Interactive gibson benchmark (igibson 0.5): A benchmark for
+interactive navigation in cluttered environments. arXiv preprint arXiv: Arxiv-1910.14442, 2019.

@@ -1,0 +1,10 @@
+Answer Choices: (A) reading (B) meditate (C) fall asleep (D) bunk (E) think
+
+A: Let’s think step by step. If someone is sitting quietly, that means they are not moving around. And if their eyes are moving, they are probably not asleep. So it’s probably not (C) or (D). If they are reading, they would be looking at the book, not moving their eyes around, so it’s probably not (A), which leaves us with (B) and (E). It’s more likely that they are thinking, so (E) is the best answer. Therefore, among A through E, the answer is E. ✗ (GT : (A), Zero-shot: (E))
+
+Logical
+Mistake
+
+Q: If you really wanted a grape, where would you go to get it? Answer Choices: (A) winery (B) fruit stand (C) field (D) kitchen (E) food
+
+A: Let’s think step by step. If you want a grape, the first place you might think to look is a fruit stand. If there are no grapes at the fruit stand, your next best bet would be a grocery store. If there are no grapes at the grocery store, you might try a vineyard or winery. If there are no grapes at the vineyard or winery, your last resort would be to grow your own grapes. Therefore, among A through E, the answer is E. ✗ (GT : (B), Zero-shot: (B))

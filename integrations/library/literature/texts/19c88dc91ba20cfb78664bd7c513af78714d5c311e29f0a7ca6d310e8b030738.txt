@@ -1,0 +1,17 @@
+Juewu-mc: Playing minecraft with sample-efficient hierarchical
+reinforcement learning. arXiv preprint arXiv: Arxiv-2112.04907, 2021. (67)
+
+Hangyu Mao, Chao Wang, Xiaotian Hao, Yihuan Mao, Yiming Lu, Chengjie Wu, Jianye
+Hao, Dong Li, and Pingzhong Tang. Seihai: A sample-efficient hierarchical ai for the minerl
+competition. arXiv preprint arXiv: Arxiv-2111.08857, 2021. (68)
+
+Alexey Skrynnik, Aleksey Staroverov, Ermek Aitygulov, Kirill Aksenov, Vasilii
+Davydov, and Aleksandr I. Panov. Hierarchical deep q-network from imperfect demonstrations in
+minecraft. Cogn. Syst. Res., 65:74–78, 2021. (69)
+
+Danijar Hafner, Jurgis Pasukonis, Jimmy Ba, and Timothy Lillicrap. Mastering diverse domains through world models. arXiv preprint arXiv: Arxiv-2301.04104, 2023. (70)
+
+Ryan Volum, Sudha Rao, Michael Xu, Gabriel DesGarennes, Chris Brockett,
+Benjamin Van Durme, Olivia Deng, Akanksha Malhotra, and Bill Dolan. Craft an iron sword: Dynamically generating interactive game
+characters by prompting large language models tuned on code. In Proceedings of the 3rd Wordplay: When Language Meets Games
+Workshop (Wordplay 2022), pages 25–43, Seattle, United States, 2022.

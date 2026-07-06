@@ -1,0 +1,9 @@
+Our contributions in this paper are as follows:
+
+•
+
+The introduction of RWKV, a novel architecture combining RNNs and Transformer advantages while mitigating their limitations. •
+
+Detailed experiments demonstrating RWKV’s performance and efficiency on benchmark datasets for large-scale models. •
+
+The release of pretrained models, from 169 million to 14 billion parameters, trained on the Pile Gao et al. (2020); Biderman et al. (2022).222https://huggingface.co/RWKV

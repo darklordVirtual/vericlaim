@@ -1,0 +1,15 @@
+URL https://openai.com/index/learning-to-reason-with-llms/. OpenAI (2024c)
+
+OpenAI. Introducing SimpleQA, 2024c. URL https://openai.com/index/introducing-simpleqa/. OpenAI (2024d)
+
+OpenAI. Introducing SWE-bench verified we’re releasing a human-validated subset of swe-bench that more, 2024d. URL https://openai.com/index/introducing-swe-bench-verified/. Qwen (2024a)
+
+Qwen. Qwq: Reflect deeply on the boundaries of the unknown, 2024a. URL https://qwenlm.github.io/blog/qwq-32b-preview/. Qwen (2024b)
+
+Qwen. Qwen2.5: A party of foundation models, 2024b. URL https://qwenlm.github.io/blog/qwen2.5. Rein et al. (2023)
+
+D. Rein, B. L. Hou, A. C. Stickland, J. Petty, R. Y. Pang, J. Dirani, J. Michael, and S. R. Bowman. GPQA: A graduate-level google-proof q&a benchmark. arXiv preprint arXiv:2311.12022, 2023. Shao et al. (2024)
+
+Z. Shao, P. Wang, Q. Zhu, R. Xu, J. Song, M. Zhang, Y. Li, Y. Wu, and D. Guo. Deepseekmath: Pushing the limits of mathematical reasoning in open language models. arXiv preprint arXiv:2402.03300, 2024. Silver et al. (2017a)
+
+D. Silver, T. Hubert, J. Schrittwieser, I. Antonoglou, M. Lai, A. Guez, M. Lanctot, L. Sifre, D. Kumaran, T. Graepel, T. P. Lillicrap, K.

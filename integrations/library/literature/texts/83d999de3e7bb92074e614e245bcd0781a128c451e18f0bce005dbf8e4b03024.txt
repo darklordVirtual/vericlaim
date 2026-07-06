@@ -1,0 +1,18 @@
+Friston [2008]
+
+Friston, K. 2008. Hierarchical Models in the Brain. PLOS Computational Biology, 4(11): 1–24. Fu et al. [2022]
+
+Fu, Y.; Peng, H.; Sabharwal, A.; Clark, P.; and Khot, T. 2022. Complexity-Based Prompting for Multi-Step Reasoning. arXiv:2210.00720. Gianinazzi et al. [2021]
+
+Gianinazzi, L.; Fries, M.; Dryden, N.; Ben-Nun, T.; Besta, M.; and Hoefler, T. 2021. Learning Combinatorial Node Labeling Algorithms. arXiv:2106.03594. Gregor and Lumsdaine [2005a]
+
+Gregor, D.; and Lumsdaine, A. 2005a. Lifting Sequential Graph Algorithms for Distributed-Memory Parallel
+Computation. SIGPLAN Not., 40(10): 423–437. Gregor and Lumsdaine [2005b]
+
+Gregor, D.; and Lumsdaine, A. 2005b. The Parallel BGL: A generic library for distributed graph
+computations. Parallel Object-Oriented Scientific Computing (POOSC). Hamilton, Ying, and Leskovec [2017]
+
+Hamilton, W. L.; Ying, R.; and Leskovec, J. 2017. Representation Learning on Graphs: Methods and Applications. Bulletin of the Technical Committee on Data Engineering,
+40(3): 52–74. Hartmann and Sonntag [2022]
+
+Hartmann, M.; and Sonntag, D. 2022. A survey on improving NLP models with human explanations.

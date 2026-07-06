@@ -1,0 +1,39 @@
+{
+  "abstract": "AutoGen is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks. AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen, developers can also flexibly define agent interaction behaviors. Both natural language and computer code can be used to program flexible conversation patterns for different applications. AutoGen serves as a generic infrastructure to build diverse applications of various complexities and LLM capacities. Empirical studies demonstrate the effectiveness of the framework in many example applications, with domains ranging from mathematics, coding, question answering, operations research, online decision-making, entertainment, etc.",
+  "accredited": false,
+  "authors": [
+    "Qingyun Wu",
+    "Gagan Bansal",
+    "Jieyu Zhang",
+    "Yiran Wu",
+    "Beibin Li",
+    "Erkang Zhu",
+    "Li Jiang",
+    "Xiaoyun Zhang",
+    "Shaokun Zhang",
+    "Jiale Liu",
+    "Ahmed Hassan Awadallah",
+    "Ryen W White",
+    "Doug Burger",
+    "Chi Wang"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T07:49:03.261765+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2308.08155"
+  },
+  "fulltext_sha256": "8be1514eb5da8b3b7ec55d96422ba3d365f04b1582c3ed7420494299e9e30507",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "autogen-2023",
+    "fetched_at": "2026-07-06T07:38:48.216071+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "2504f7ea12083689aa6346511f6e3f52bab31f31f75b74e91e6c71f2b2a23038",
+  "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+  "url": "https://arxiv.org/abs/2308.08155",
+  "venue": "arXiv",
+  "work_id": "arxiv:2308.08155",
+  "year": 2023
+}

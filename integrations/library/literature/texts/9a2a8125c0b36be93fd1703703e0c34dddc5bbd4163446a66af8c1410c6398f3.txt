@@ -1,0 +1,15 @@
+the time-dependent update of the vectors, formalized in the following equation:
+
+(16)
+
+To circumvent any potential degradation of , we introduce a vector that separately attends to the current token. More information about this can be found in Appendix I. 3.1.3 Output Gating
+
+Output gating is implemented in both time-mixing and channel-mixing blocks using the sigmoid of the receptance, . The output vector post the operator is given by:
+
+(17)
+
+In the channel-mixing block, a similar operation is performed:
+
+(18)
+
+where we adopt the squared ReLU activation function So et al. (2021).

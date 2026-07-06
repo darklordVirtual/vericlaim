@@ -1,0 +1,143 @@
+{"fsid": "arxiv_2308-08155", "n": 142, "overlap": 200, "source_sha256": "8be1514eb5da8b3b7ec55d96422ba3d365f04b1582c3ed7420494299e9e30507", "target": 1200}
+{"section": "", "seq": 0, "sha256": "fd3440e5ff496b15d71d1bc709351cf4cf27f7e1363479e43fb792e0fe43c063"}
+{"section": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation", "seq": 1, "sha256": "2dce2d97caafe4127ea272736c43314dfd2c6397d6bf1b4be129907dc06d7823"}
+{"section": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation", "seq": 2, "sha256": "ba9e965c6b5c3000a3dfb5bba00d0ef308a040d14f3a8d5e9eb8f5585740fe93"}
+{"section": "1 Introduction", "seq": 3, "sha256": "1a39681e242e2a5a6fd04998eeae4d9653de3e9f50773e4392d45473cce7a8df"}
+{"section": "1 Introduction", "seq": 4, "sha256": "8ecb901ee3e44c8b1e401a7adbf248f2fef347b670fe913adad0ef9737d9f3ee"}
+{"section": "1 Introduction", "seq": 5, "sha256": "bd624d2b3355feefbf7575e57fb0ca0558acd3c665a35680f2ef04a670eca477"}
+{"section": "1 Introduction", "seq": 6, "sha256": "70d768131d46a47066fd19b9bd4c5991fa3a82510a2e4deebace06de08b5939d"}
+{"section": "1 Introduction", "seq": 7, "sha256": "96502a5e3f9049d8d1cfeda10ee42d466fca3d7612dbdd336da326f39d0e055c"}
+{"section": "1 Introduction", "seq": 8, "sha256": "9cac15919da1da9222a19dc86533ee97b49e7259d2ca0623d693ae6228a2c6e4"}
+{"section": "2 The AutoGen Framework", "seq": 9, "sha256": "9dd7d20f9bd0f0325c58456e4e25546fecd30f93cd3ece2717f42abd2680cd56"}
+{"section": "2.1 Conversable Agents", "seq": 10, "sha256": "6d30beaa74412dda833204b2741df933df7615703023cc2908a867b8f0f6bb50"}
+{"section": "2.1 Conversable Agents", "seq": 11, "sha256": "470b517fc5145ddcb0144a3f6aff88ef9a9966942b6b19a54ad8511ef2462151"}
+{"section": "2.1 Conversable Agents", "seq": 12, "sha256": "fddeb1090c382a411050cf066030176fbb9892f21e8674bec96810f377af9a5e"}
+{"section": "2.1 Conversable Agents", "seq": 13, "sha256": "17109e9af79666298754587749b83e7428226432220be8e38b10f4293a73f0f7"}
+{"section": "2.2 Conversation Programming", "seq": 14, "sha256": "ca980b2b9e97aa9c242e1a5d96e9f009c0c9decb1ca593da1e07913022d38301"}
+{"section": "2.2 Conversation Programming", "seq": 15, "sha256": "43a5ea8f673999171b97591f03b962f12e245d48783379b8fed2cd021b63ddb1"}
+{"section": "2.2 Conversation Programming", "seq": 16, "sha256": "308056b5edafd505b131e6bef9f3b59961d83b03ceb3ca9e3fcf177814a4e2fb"}
+{"section": "2.2 Conversation Programming", "seq": 17, "sha256": "8db4779c8a03069b927ac04cf38c2c705a3eeabb32761f1ad11ad9fb8b09b2dc"}
+{"section": "2.2 Conversation Programming", "seq": 18, "sha256": "c45d1ae169d21a17f427647317c449619ed9e08754c57bbb2c329a57cef694cb"}
+{"section": "2.2 Conversation Programming", "seq": 19, "sha256": "243b1f2662d4d6b2e6eb891ca9ceb65143e6d5d714a0e293bbff696e8eccb4e7"}
+{"section": "2.2 Conversation Programming", "seq": 20, "sha256": "d20cd8b6fd09f268716f23b7c620150c781f2c252c59d61ca1dc4d0e6acd64bc"}
+{"section": "3 Applications of AutoGen", "seq": 21, "sha256": "68144424ee7b0086df1c151308f3bee88507ec19b5f064bb0511b079683a0f9e"}
+{"section": "3 Applications of AutoGen", "seq": 22, "sha256": "5ed08eb74831dbd4f4e47d710359d7d1bab4676ec4faa9c4b6ac388bc3361b14"}
+{"section": "A1: Math Problem Solving", "seq": 23, "sha256": "214dbc4dadb6603e831577d7066bd4ce001b72256d661ecc168c8cf3633f3211"}
+{"section": "A1: Math Problem Solving", "seq": 24, "sha256": "025eb8b531d39ccabe3e75a064a2358af2dbcaefe655cdedb33d9250c2844e98"}
+{"section": "A1: Math Problem Solving", "seq": 25, "sha256": "07a059a9e248313cd777c8ffdf9c362a5b9d848f97f7b1b1588ded9a9558a881"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 26, "sha256": "afc8200029d32b2cbaa9ccdf2fd889f441cbbe93c2badcfb9d647247480498ac"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 27, "sha256": "26e8c03205506fe6342f2dd537f74a9a9b86ce673bed89350f863abab85220f2"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 28, "sha256": "1bb1041e8167ef437d3705d179d42922b6fe6d151bff0ee0ea909b36a6e7e060"}
+{"section": "A3: Decision Making in Text World Environments", "seq": 29, "sha256": "9cb27c4d421ca08afe96b0e09314f49ce6698d16b34ff5b2277c0ef184ba35cc"}
+{"section": "A3: Decision Making in Text World Environments", "seq": 30, "sha256": "5fea9eff0b448b92d79f8f28f112fb75b6a58f75f06bd325a8fcad95f91036d9"}
+{"section": "A3: Decision Making in Text World Environments", "seq": 31, "sha256": "2588ab8c9e8b94f90addcc209c8f775095381e4ed89826cc418412a5375f66cf"}
+{"section": "A4: Multi-Agent Coding", "seq": 32, "sha256": "534f3d5e1d33a01f9539569484fb87c134599bb4a3cf3fead5fe641a77fbc8c4"}
+{"section": "A4: Multi-Agent Coding", "seq": 33, "sha256": "e4b3ee78b57ddbb16256af459ecec6a7ffda2ad9456a69479fa69d857742962c"}
+{"section": "A4: Multi-Agent Coding", "seq": 34, "sha256": "5edfc4a10f62efc4675e78ad7177a7d1da3c24c1f9068cee280ef8dc45a456f3"}
+{"section": "A5: Dynamic Group Chat", "seq": 35, "sha256": "e6a4aeb568bce4df18046af4716273bd0b290d8a3e4684e12fba1ba2a423ebef"}
+{"section": "A5: Dynamic Group Chat", "seq": 36, "sha256": "23cd05a296ae8d7996cf0d68f92e30c41293733c62ba2db15f64e84b8b63dd4c"}
+{"section": "A6: Conversational Chess", "seq": 37, "sha256": "251b52e25e71de1a88848be20bf705385edf9c408bd37d678298f2e8401db57a"}
+{"section": "A6: Conversational Chess", "seq": 38, "sha256": "01ce7aa218d55f79d87d7b5c37224f436b8606f5b4ba4b577e89763513da17a3"}
+{"section": "4 Discussion", "seq": 39, "sha256": "5b76de71a59314ab562963f0fdc75b73f4da477b9b6e57affbbb58d274ec3182"}
+{"section": "4 Discussion", "seq": 40, "sha256": "e50330999d6b556177ed7d2a8e384b87d8bd0de5c924e2c71473c58906859e83"}
+{"section": "4 Discussion", "seq": 41, "sha256": "65ac8a1f3e7dacdcacfbfcf3e32c058040a2f7cc2a653befffa34a43e54ed680"}
+{"section": "Ethics statement", "seq": 42, "sha256": "54fc7652fe213d3e30a6b6fa577fe6ff220b3f72ca30dd84eb7ac5391e4558fb"}
+{"section": "Ethics statement", "seq": 43, "sha256": "3b20c3d741f41b2ad710b66ad21cbda440de6910108e3d79ccc1fd1c9c7c9782"}
+{"section": "Acknowledgements", "seq": 44, "sha256": "f63844cd4d1aa4e3d850096d3ad2a2b40037db1dd6bda6cf2c06794f79fad572"}
+{"section": "References", "seq": 45, "sha256": "745349d92361fb313aa245842e76676a7e0c14ee44b6e47c47d181603e99ab21"}
+{"section": "References", "seq": 46, "sha256": "0b4904d870c635e88a78be29e6fd599dc66b3b92d1c2a981762062155465d4bf"}
+{"section": "References", "seq": 47, "sha256": "6eea59ae7d67307546e9a40ed8a1368fb9659b7ad4d7659ce1c182ffa928756c"}
+{"section": "References", "seq": 48, "sha256": "c286943cead02d3cb3b12b8396adb19b8bc83d4c395a17d0a0401787d60ecac0"}
+{"section": "References", "seq": 49, "sha256": "c4a6279166cc303776287f75f43942e1224fed19532fa5c323ec29dd8529ac82"}
+{"section": "References", "seq": 50, "sha256": "dceab547d3c2f9086367afa1f6646e0173ccdf92a249b8904840c2f863874c8b"}
+{"section": "References", "seq": 51, "sha256": "410aaa6f63769abd06bad7df0bf13154a110bed7d5a032f6245efa52bf7f49ae"}
+{"section": "References", "seq": 52, "sha256": "df4d6b19d9830fb1e8b8438090b7e6fa5a5bbb17e54718ed161993a8e12917f1"}
+{"section": "References", "seq": 53, "sha256": "ba9b74e4f1c677c7103d381a3458ffac54435e319ee3cb0920a318b7aff71aca"}
+{"section": "References", "seq": 54, "sha256": "8ba49c6a29a97e3ccf063acccc1a6f65800212056bf1031951781d5f3e7033fc"}
+{"section": "Appendix A Related Work", "seq": 55, "sha256": "d9d2ed4c3f903a9ca9183cfe72e3bf7a01feb7bb2291f3ad7166dd781687e604"}
+{"section": "Appendix A Related Work", "seq": 56, "sha256": "22dd1fce1aebbc686d6ae47cafb02916e6caadb8df102b4e3d32313fdd5d1cf6"}
+{"section": "Appendix A Related Work", "seq": 57, "sha256": "ff11ec3d9e980a12477afd2cce2223148b22836c80ba8e511f5f5bb4380bf7cc"}
+{"section": "Appendix A Related Work", "seq": 58, "sha256": "49be3c0473e7c162a50b36b01ca4b42e50a52abe0d7bfa0f1c26239e5de24126"}
+{"section": "Appendix A Related Work", "seq": 59, "sha256": "599968512f7a620a2d439f5cff8d30a6082b5a510653f3303c206b2f402c5377"}
+{"section": "Appendix A Related Work", "seq": 60, "sha256": "2e9e64369b656536581152307103dd57361504b27b775c1c22b49853223ec1b3"}
+{"section": "Appendix A Related Work", "seq": 61, "sha256": "6cdd3bbb528a0f1301272d4053abdbba1076ab6e7a4c74d48114441ac8b3599c"}
+{"section": "Appendix B Expanded Discussion", "seq": 62, "sha256": "52b10c8f923bc4f009ea6dc78d8adbce42851caa08036809f6065992545e5c70"}
+{"section": "Appendix B Expanded Discussion", "seq": 63, "sha256": "c0f7cfe7578ca3c0bec17c05784847c7a261e01e3bbdda42c012f0e768b431fe"}
+{"section": "Appendix B Expanded Discussion", "seq": 64, "sha256": "1ed03b4b9392bed7fc48d4973f6d9309c243c6b3aaf2198ba36b88ecf1f2b413"}
+{"section": "B.1 General Guidelines for Using AutoGen", "seq": 65, "sha256": "cbba024306e7bfe1c927ae85c85df0835f5ed559d128ec5ebce26cb918db24a9"}
+{"section": "B.1 General Guidelines for Using AutoGen", "seq": 66, "sha256": "f62857e22345e778785378f606559dd71d4926f0bc56689feedc842517e93cf1"}
+{"section": "B.1 General Guidelines for Using AutoGen", "seq": 67, "sha256": "25f31acca77f0605a82769b169c69e0ffcfee4d37e73e32fff8065d841b0b37a"}
+{"section": "B.1 General Guidelines for Using AutoGen", "seq": 68, "sha256": "932513a20704a1e60da91090e3cb2cece232bb2b8b80f9b21589dae7ab89f5a1"}
+{"section": "B.2 Future Work", "seq": 69, "sha256": "7e8ebf2463f622b98c127234116f79590c9530318fb7362d67770e11a78409a9"}
+{"section": "B.2 Future Work", "seq": 70, "sha256": "39a95ecb4cb6f71716d9fc71af6070130d37278c52882f87503bfbdaa920785d"}
+{"section": "B.2 Future Work", "seq": 71, "sha256": "00095c8026f1c1feba2600442585976076eee293ff486e2ee77885fa4a447311"}
+{"section": "Appendix C Default System Message for Assistant Agent", "seq": 72, "sha256": "a2403cab32f054a979bcdb2085d2b7930713f93756254b5d7ca32a8101d5e511"}
+{"section": "A1: Math Problem Solving", "seq": 73, "sha256": "37daea93b359fecd22707f89eb42a0b26370fdcd9bbe9494522bf8d841ffc296"}
+{"section": "A1: Math Problem Solving", "seq": 74, "sha256": "b7b9bf13c458524b44b1c8666d01117932eb1ed8f67ef40c4d0fee032f5fe193"}
+{"section": "A1: Math Problem Solving", "seq": 75, "sha256": "0766440afda23bc5e74ad46cc4aaa5d3bd122df1c46a84ff3131c37223adffc6"}
+{"section": "A1: Math Problem Solving", "seq": 76, "sha256": "81db6640bef9584303413fb5cb215143fb93ad512fa3f7b2d8ef45d8e20e9184"}
+{"section": "A1: Math Problem Solving", "seq": 77, "sha256": "ad566ee3881c1d289cacba8ffd36a68d8937d1142a1584036761986d51266813"}
+{"section": "A1: Math Problem Solving", "seq": 78, "sha256": "7cfab9651bd3095e57e08102bba98492a55c3e223112258e21c47242260f664c"}
+{"section": "A1: Math Problem Solving", "seq": 79, "sha256": "5a8a4ad880dc2741028a47b49d8e95f498cb4dfe83ad578424f659da85e409e3"}
+{"section": "A1: Math Problem Solving", "seq": 80, "sha256": "68f23aa78dc81a1e18633f31b519775fec4ae60b53ffbec498e3a61b537b59eb"}
+{"section": "A1: Math Problem Solving", "seq": 81, "sha256": "cb8d97448f755866335970cd823db76447d6097b0ca7b813f8ee69596f77426c"}
+{"section": "A1: Math Problem Solving", "seq": 82, "sha256": "13573ee00f4702e2274369c70a6d471996462e46147d162ad90d83a2f3374a98"}
+{"section": "A1: Math Problem Solving", "seq": 83, "sha256": "1e23ab8274f5b799b28f12331e4cdc24645adca76da68b414b1b319598526da2"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 84, "sha256": "6d2db10e147b1e97f56f4d101027634df3313d81251ac054515a37ab198d70c7"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 85, "sha256": "cc96fa8133103051e23c4835e121266c0643244a23612921ccb7abeeb140be0b"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 86, "sha256": "56e1c212b17faf12698b126c1ac5630521e12135c356175ff64bf7049180ad55"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 87, "sha256": "501c631a5c1da3ea31c7d9c218d5268137641891dc2e52c57b60a4415b6a546a"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 88, "sha256": "c082bdbfbb2e898a9d184365d375d440eaf4e035bda55b6019bf353378179eb8"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 89, "sha256": "eae867521f9c6f9611586caf4c483cdc0309b8c52992abd91849707a9ba4564e"}
+{"section": "A2: Retrieval-Augmented Code Generation and Question Answering", "seq": 90, "sha256": "337a1b23a01b455459e70ef9812786ceaf96c25c5ada7aab4cc600ae16849e62"}
+{"section": "A3: Decision Making in Text World Environments", "seq": 91, "sha256": "48d0b63926ce627a5e3e2917143220738b8530ee64b05ef84d397536d4df6628"}
+{"section": "A3: Decision Making in Text World Environments", "seq": 92, "sha256": "cc71096ceeb126f199deea6643a1048ad39a28a3a15f8249714ca7c7159d1993"}
+{"section": "A3: Decision Making in Text World Environments", "seq": 93, "sha256": "5dee45dc43ef6246778593ac77999baacbcb58e2440ab7b697c15daf96c0cb96"}
+{"section": "A3: Decision Making in Text World Environments", "seq": 94, "sha256": "96d2bb3b978f06674209b259a376668a9086b27f1c478e68adfd05ec7a198f8b"}
+{"section": "A3: Decision Making in Text World Environments", "seq": 95, "sha256": "5f9ac2ae38c0b27acc78bc2c7ca4d3b15cddde488d73c19062468ce2b48e9d70"}
+{"section": "A3: Decision Making in Text World Environments", "seq": 96, "sha256": "547551ed9ea0a1ec6a6d7d6bd11964c2338e8d444de8c8de953506c80f27b06c"}
+{"section": "A4: Multi-Agent Coding", "seq": 97, "sha256": "44d580b5c00865c96c887856663dfda5b096c8693268134e8edc204bb70864bd"}
+{"section": "A4: Multi-Agent Coding", "seq": 98, "sha256": "82fda186596f92843408127c41158dd0d04a1d64a0d80ffff984379298aee5f5"}
+{"section": "A4: Multi-Agent Coding", "seq": 99, "sha256": "4c0fbb9d3f8b844d091847fe496fb051d76c4d43c68d82d00e58a5cf06443700"}
+{"section": "A4: Multi-Agent Coding", "seq": 100, "sha256": "6b58470cc591f80aebfc53366dcc560ff3fc5eabede0a092c4ed69ddf46c9c0e"}
+{"section": "A4: Multi-Agent Coding", "seq": 101, "sha256": "ccbc6c3a86d52cfea2f129de4ce8365b31b857c07626ab0213050613601288db"}
+{"section": "A4: Multi-Agent Coding", "seq": 102, "sha256": "4745d466cffbcd778620cd374771a4f9a5c756e2484d3e429545ffd698d205df"}
+{"section": "A4: Multi-Agent Coding", "seq": 103, "sha256": "e18a94d6aa6bce1a65845f7bed486ef81b919b17cef3de4093366553a658a8d4"}
+{"section": "A4: Multi-Agent Coding", "seq": 104, "sha256": "b6cf4c0e9ace253127f22581a33ab5410ccd5f0a1a23fd57a07709d277ad3ccd"}
+{"section": "A5: Dynamic Group Chat", "seq": 105, "sha256": "d061d47682a9de564494353dec03a659268742935f4b5fbc6826b320c0b1c59e"}
+{"section": "A5: Dynamic Group Chat", "seq": 106, "sha256": "62638f318558d5cf43402b12a3f7c543d6d3ce1f5c2d3429a14dda0f30178a53"}
+{"section": "A5: Dynamic Group Chat", "seq": 107, "sha256": "a05a8575d7f08ba2e406c6351c8790cb56d0acaf0572186c223033f19c7ded56"}
+{"section": "A6: Conversational Chess", "seq": 108, "sha256": "e502850a08c7b0445159d2ead6d7eb210e110ea4bea710822f600d486882e4fd"}
+{"section": "A6: Conversational Chess", "seq": 109, "sha256": "4423146a2465d63f64aed99a6b2aab24cc4ecc8021a66d47cf4c5286b1aecfd5"}
+{"section": "A6: Conversational Chess", "seq": 110, "sha256": "849c522d216703947814aea3928ca12e8c52edfb926e9f87a1a23d224c19cbcf"}
+{"section": "A6: Conversational Chess", "seq": 111, "sha256": "9c846e41e1c30bc3e70bddcf82a5763c3ce2b4e35919a8551a9723be94864e82"}
+{"section": "A7: Online Decision Making for Browser interactions", "seq": 112, "sha256": "043b1d9704e810eb8e56ac5faa5efd7e255192397679a92407d405b50c8dbeb6"}
+{"section": "A7: Online Decision Making for Browser interactions", "seq": 113, "sha256": "324927c335589cbd0a73c91a163866ba100b330e3338019c3e150604acf5fb5d"}
+{"section": "A7: Online Decision Making for Browser interactions", "seq": 114, "sha256": "53b0c03c4853684ca8fae862cf994f083d57f7836bdc7d2c166e9f55fc8697a7"}
+{"section": "A7: Online Decision Making for Browser interactions", "seq": 115, "sha256": "846d6296f8b44a9fefd372c81caa37af3cd4d6c3c365c7602a40abd9340985c5"}
+{"section": "A7: Online Decision Making for Browser interactions", "seq": 116, "sha256": "38cae1ea784d6c2d6abab6316087227d248c05b0b8fa929ab94968743cfd08ce"}
+{"section": "A7: Online Decision Making for Browser interactions", "seq": 117, "sha256": "9ae9a1a8bb86908a1c8ef3945a56e3613598f41592a650f59053ebb520983e9b"}
+{"section": "Appendix E Example outputs from applications", "seq": 118, "sha256": "e431b43d6be0c0c745accec36baa99037b30bd6064761632017b397c5adf3284"}
+{"section": "Appendix E Example outputs from applications", "seq": 119, "sha256": "9b2ebb5056827143bdf9c0d139157ed8c6b37271667103b70f9aeea58ae620fc"}
+{"section": "Appendix E Example outputs from applications", "seq": 120, "sha256": "2ec1b496006bcd096bce556efc1829b6245e0da504331cdf1249947608372802"}
+{"section": "Appendix E Example outputs from applications", "seq": 121, "sha256": "b24240257fe852a2f32fb85dbb68d2be34bb43a622a71a0406635ed8693e8053"}
+{"section": "Appendix E Example outputs from applications", "seq": 122, "sha256": "5e7c7d5d7d96eba3c00c6cc4337c13dc406a30598feb21ad01e877d5665072f3"}
+{"section": "Appendix E Example outputs from applications", "seq": 123, "sha256": "f06efef53c94e39a54dde958f52c095fca51489df1f4d159ab8c27f68340f871"}
+{"section": "Appendix E Example outputs from applications", "seq": 124, "sha256": "13b85ca96a3fce6dd6a5773e28cbd7fe316612a787ff4464f62260b150d5065b"}
+{"section": "Appendix E Example outputs from applications", "seq": 125, "sha256": "218cbf465fa47e43af4f7a7d33a67f17a141155e9f1170f79c08b2d3a6b9353b"}
+{"section": "Appendix E Example outputs from applications", "seq": 126, "sha256": "15eae437e8517a6b32350a692ad91c9b81d3b442858b1125c73d2800c507ff73"}
+{"section": "Appendix E Example outputs from applications", "seq": 127, "sha256": "8f78e3b9f9fe48508a11e4b1b760065d56628055e36669bcf863e3c7fb917fb7"}
+{"section": "Appendix E Example outputs from applications", "seq": 128, "sha256": "e05229e639c6ba67b68b30b74678bd09804c94e007628a5fc2cc7239da32ddf5"}
+{"section": "Appendix E Example outputs from applications", "seq": 129, "sha256": "108429fe17664f62d97928a23ba3d6d96bfbebac2a92af561d4193f316500030"}
+{"section": "Appendix E Example outputs from applications", "seq": 130, "sha256": "f3fd1b2451813fa5062b168b15a01f77abefa1997c750c685f5503670725fa92"}
+{"section": "Appendix E Example outputs from applications", "seq": 131, "sha256": "dacd62e60f08f840abb02148581a302e3a0314b58e899830c0dcde0af857cff6"}
+{"section": "Appendix E Example outputs from applications", "seq": 132, "sha256": "e3ada2c7da4b9aa7f8d2f7b0d691ab6183256171dc8651886192a02a4203100c"}
+{"section": "Appendix E Example outputs from applications", "seq": 133, "sha256": "24cf1b73f7fb478f187f12f8a623c24beb4458d22ea9de2ebbaa5847a07e67ae"}
+{"section": "Appendix E Example outputs from applications", "seq": 134, "sha256": "5ab1dace79b940282080fd9bd8b52eee73d2704304b6e791c99425f99cc23198"}
+{"section": "Appendix E Example outputs from applications", "seq": 135, "sha256": "322553e7804603797e7837de65a26986223a5665aaca7fd9b3340095a2d866f8"}
+{"section": "Appendix E Example outputs from applications", "seq": 136, "sha256": "c045aa081002745a6ff540099c33a574a21e12d7d8dbea3e7ad97178882ac480"}
+{"section": "Appendix E Example outputs from applications", "seq": 137, "sha256": "d928136fa687a3324cd08dcd0b55d0fdcd64b5b57433c97933c134996e53f6f4"}
+{"section": "Appendix E Example outputs from applications", "seq": 138, "sha256": "e693f952a559dd57f185b72a2186d1d47ad1e0297d8d104bc40f54071d914186"}
+{"section": "Appendix E Example outputs from applications", "seq": 139, "sha256": "339b4920ff2617fa05997805fd41a61f2435364f5f055ad68075c1dea00715e5"}
+{"section": "Appendix E Example outputs from applications", "seq": 140, "sha256": "2e8ecaf6089f791846edb631d1b0a44032420b1198447f1604918fd59eff747b"}
+{"section": "Appendix E Example outputs from applications", "seq": 141, "sha256": "15644999c7cbf608ad72d85dd90510c069737364f6189cdf30334669c159402f"}

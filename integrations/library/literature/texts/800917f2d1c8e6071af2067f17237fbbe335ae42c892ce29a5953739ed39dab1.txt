@@ -1,0 +1,5 @@
+goal of designing AI systems that mimic human reasoning and performance, and this could lead to convergence toward human-like representations even if other kinds of intelligence are in fact possible. Additionally, the “hardware lottery” (Hooker, 2021) suggests that the success of AI models can also depend on the compatibility of their design with available computational architectures, further contributing to convergent trends. Special-purpose intelligences might not converge
+
+Different intelligent systems can be designed to accomplish different tasks. For instance:
+A bioinformatics systems might predict protein structure;
+an autonomous vehicle might follow lanes on highways. It’s possible that not much is shared between these two narrow tasks. Our argument only holds for intelligences that are optimized to perform well on many tasks. We have argued that a representation of reality is a structure that is useful across many tasks, but for any special purpose there may be shortcuts, or even effective representations detached from reality. Such shortcuts may be more efficient and necessary for continued improvements in specific domains.

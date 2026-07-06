@@ -1,0 +1,7 @@
+To be applied on a discrete input sequence instead of continuous function ,
+(1) must be discretized by a step size that represents the resolution of the input. Conceptually, the inputs can be viewed as sampling an implicit underlying continuous signal , where . To discretize the continuous-time SSM, we follow prior work in using the bilinear method [43], which converts the state matrix into an approximation . The discrete SSM is
+
+(3)
+
+Equation (3) is now a sequence-to-sequence map instead of function-to-function. Moreover the state equation is now a recurrence in ,
+allowing the discrete SSM to be computed like an RNN. Concretely, can be viewed as a hidden state with transition matrix . Notationally, throughout this paper we use to denote discretized SSM matrices defined by (3). Note that these matrices are a function of both as well as a step size ; we suppress this dependence for notational convenience when it is clear.

@@ -1,0 +1,23 @@
+We use the following linear models during evaluation:
+
+1. Prompt Difference: We find a word and its antonym that are central to the concept and subtract the layer representation. Here, we use the “Love” and “Hate” tokens for the utility concept. 2. PCA - We take an unlabelled dataset that primarily varies in the concept of interest. We take the top PCA direction that explains the maximum variance in the data . 3. K-Means - We take an unlabelled dataset and perform K-Means clustering with , hoping to separate high-concept and low-concept samples. We take the difference between the centroids of the two clusters as the concept direction. 4. Mean Difference - We take the difference between the means of high-concept and low-concept samples of the data: . 5. Logistic Regression - The weights of logistic regression trained to separate and on some training data can be used as a concept direction as well. Utility
+
+Morality
+
+Power
+
+Probability
+
+Risk
+
+81.0
+
+85.0
+
+72.5
+
+92.6
+
+90.7
+
+Table 11: LAT Accuracy results on five different datasets.

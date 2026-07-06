@@ -1,0 +1,18 @@
+Pan [2017]
+
+Victor Pan. Fast approximate computations with cauchy matrices and polynomials. Mathematics of Computation, 86(308):2799–2826, 2017. Pan [2015]
+
+Victor Y Pan. Transformations of matrix structures work again. Linear Algebra and Its Applications, 465:107–138,
+2015. Pascanu et al. [2013]
+
+Razvan Pascanu, Tomas Mikolov, and Yoshua Bengio. On the difficulty of training recurrent neural networks. In International conference on machine learning, pages
+1310–1318, 2013. Rae et al. [2018]
+
+Jack Rae, Chris Dyer, Peter Dayan, and Timothy Lillicrap. Fast parametric learning with activation memorization. The International Conference on Machine Learning (ICML), 2018. Ramachandran et al. [2017]
+
+Prajit Ramachandran, Tom Le Paine, Pooya Khorrami, Mohammad Babaeizadeh, Shiyu
+Chang, Yang Zhang, Mark A Hasegawa-Johnson, Roy H Campbell, and Thomas S
+Huang. Fast generation for convolutional autoregressive models. arXiv preprint arXiv:1704.06001, 2017. Romero et al. [2021]
+
+David W Romero, Anna Kuzina, Erik J Bekkers, Jakub M Tomczak, and Mark
+Hoogendoorn. Ckconv: Continuous kernel convolution for sequential data. arXiv preprint arXiv:2102.02611, 2021. Romero et al.

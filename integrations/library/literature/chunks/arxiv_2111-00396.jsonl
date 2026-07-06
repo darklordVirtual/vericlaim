@@ -1,0 +1,102 @@
+{"fsid": "arxiv_2111-00396", "n": 101, "overlap": 200, "source_sha256": "53d5789ef84bc0a6dd9aeb431e5b440c4ba7f8091b36d49255c1b84f53b3803e", "target": 1200}
+{"section": "", "seq": 0, "sha256": "793e7f93effb5a3dbc1c95f579ed5a6775e732c02e499b616a7a906ed30fe852"}
+{"section": "Efficiently Modeling Long Sequences with Structured State Spaces", "seq": 1, "sha256": "a93e35bb3eb549a3403ecd819616c2684f50782dac7651e707155bad2368c547"}
+{"section": "Efficiently Modeling Long Sequences with Structured State Spaces", "seq": 2, "sha256": "761a5a2902c07679e2027f2fcee1353d58f61a1a3fdbb4473622220732edc305"}
+{"section": "1 Introduction", "seq": 3, "sha256": "1177026524e6b388535dd19bb8c2ac4846399a46dc895e6315339ccb2242f933"}
+{"section": "1 Introduction", "seq": 4, "sha256": "8e9b1daf9a104072ef210ad2093afe77d02cba31ebe14fd731c7d4feb4192ca1"}
+{"section": "1 Introduction", "seq": 5, "sha256": "27352d1fb89704e2492f2413057467b570d1136936e6acce599c4981934cc134"}
+{"section": "1 Introduction", "seq": 6, "sha256": "3f67c7c2fa7210b7f42bf80cf386e892798f1a6ce0b3815c747d29133aaa0d2c"}
+{"section": "1 Introduction", "seq": 7, "sha256": "d94ff11cfc4f39171a1982aa26e7757f8e63b798e962382d836ce5cf23bec386"}
+{"section": "1 Introduction", "seq": 8, "sha256": "c6963cbac65156f226ec3e53cbd34f11ceb24f7b1b8a4334684cb2285b19b2c2"}
+{"section": "1 Introduction", "seq": 9, "sha256": "c6d7c2802d6d5bd6e33f9c58cb85f2db90abe9a9d7ed69031520abf97460ab39"}
+{"section": "1 Introduction", "seq": 10, "sha256": "88fd7a6fde38ca8b13d6523faa96f5f6490425fcac85f92684ed479ff11c84c6"}
+{"section": "2 Background: State Spaces", "seq": 11, "sha256": "c8f13c578ee95e02cc9a945a1d7976342e64edbfeb2f0d27cc6e29cb561507ec"}
+{"section": "2.1 State Space Models: A Continuous-time Latent State Model", "seq": 12, "sha256": "044adbfc9e1af2637d425f8ba4706f296fc057ff9b1ee4167924f21708acb7b4"}
+{"section": "2.2 Addressing Long-Range Dependencies with HiPPO", "seq": 13, "sha256": "fb5d026b38b017263698a3364373891d295fd3708896a6433efe031c46bc6c44"}
+{"section": "2.3 Discrete-time SSM: The Recurrent Representation", "seq": 14, "sha256": "bcc23fb791e7333bfca18a2f721f83fefc43c9812a110d41e1f5f8c6d4f54a16"}
+{"section": "2.4 Training SSMs: The Convolutional Representation", "seq": 15, "sha256": "b6539fecf67f78e735c67b15ff12524565005c7f2dd4c09dec57dfb83f3cd87d"}
+{"section": "3 Method: Structured State Spaces (S4)", "seq": 16, "sha256": "02a3a5f6008cc50dffc4426ffa555e781280bae8cc33c00844b77d57a92099bc"}
+{"section": "3.1 Motivation: Diagonalization", "seq": 17, "sha256": "27fa2b529a40e284f79c9f95f52ce428d2dfe419267c334a2e52ad70d43134f7"}
+{"section": "3.1 Motivation: Diagonalization", "seq": 18, "sha256": "2c3d9945618937f980fb8a4cfbf208b1706ae52cfbe8b7d5c56804547280c836"}
+{"section": "3.2 The S4 Parameterization: Normal Plus Low-Rank", "seq": 19, "sha256": "389a0170379ff9d0311c2a96871ca44ff3065beaf24fae3f87d57275ed5a7391"}
+{"section": "3.2 The S4 Parameterization: Normal Plus Low-Rank", "seq": 20, "sha256": "78b3733c2a91add2e8b34787e1658ff5723ca78d07fd2cc6fa793df6908c395d"}
+{"section": "3.3 S4 Algorithms and Computational Complexity", "seq": 21, "sha256": "598f176357f288036a80037df1b32b2ae526fdace99635ef6af0e38be15bcebf"}
+{"section": "3.3 S4 Algorithms and Computational Complexity", "seq": 22, "sha256": "fce992cd8eb44183c7264ae6250c9cf0f36d93eb0f0bc648f05758ecf1f449fb"}
+{"section": "3.4 Architecture Details of the Deep S4 Layer", "seq": 23, "sha256": "b0f7c676b679ea0ccc160bfdab2e80ba9efd6e7feac389954ffce1f966190c68"}
+{"section": "3.4 Architecture Details of the Deep S4 Layer", "seq": 24, "sha256": "5c623641866304706902ffb9f28b6a01688d5face003e19c246ef9128c9318e7"}
+{"section": "3.4 Architecture Details of the Deep S4 Layer", "seq": 25, "sha256": "469664e015cd025dae0dae5536fe50265058bda5ed004e566aa824eb327c6bd5"}
+{"section": "4 Experiments", "seq": 26, "sha256": "5e04e1701fc48faba3f791398411b754ed6f0b90dd68b89472d9faf1d5fb851f"}
+{"section": "4.1 S4 Efficiency Benchmarks", "seq": 27, "sha256": "43bfc45052ffabe44a9c57426537ecdcd39f1d02f61c38d0a812a215a059716c"}
+{"section": "4.2 Learning Long Range Dependencies", "seq": 28, "sha256": "ea56fa77b9c45840ab076f5ec22df7ace0a1cf657ac8060feb5b58076184f48b"}
+{"section": "4.2 Learning Long Range Dependencies", "seq": 29, "sha256": "b455569c4ccc06d3f68bf0062ad559db01b90b15c22f52c5239f45db9fc3199b"}
+{"section": "4.2 Learning Long Range Dependencies", "seq": 30, "sha256": "8e49919bdcba9af058f6e6d8b61de615fe3060ede91faa3e08fee3d9395955a6"}
+{"section": "4.2 Learning Long Range Dependencies", "seq": 31, "sha256": "56d3323c5a5810606e4570e9625a6ac39b2e91285a53013dd17d206b36040877"}
+{"section": "4.2 Learning Long Range Dependencies", "seq": 32, "sha256": "914589b2d66fa561a7308e1e9d81a7960c4a524028875c928d52d64f80e5c31c"}
+{"section": "4.2 Learning Long Range Dependencies", "seq": 33, "sha256": "6322f663ea2ad00892e2de97bd8f229ea1c02bc856fd7708b031739d37a153d0"}
+{"section": "4.3 S4 as a General Sequence Model", "seq": 34, "sha256": "3858f7f16f16648db9918f207d68d589453585c45a81d5ced0cdc2414099e51c"}
+{"section": "4.3 S4 as a General Sequence Model", "seq": 35, "sha256": "370bfc3a797a949d72ef81f945c0212af90eed89b40708597a1e4418e380be07"}
+{"section": "4.3 S4 as a General Sequence Model", "seq": 36, "sha256": "d8a0fd070fa05a6a324737f19149f8b07833966682f9eaab0003deb8734a721e"}
+{"section": "4.3 S4 as a General Sequence Model", "seq": 37, "sha256": "5b16a94c8c13054b7b844bb2829120416abb7379c8e829327d96ec6e1b4a26c2"}
+{"section": "4.3 S4 as a General Sequence Model", "seq": 38, "sha256": "82212feb999831635ba38f47b746cf2ab370ee66c230a29422de48787dc0f75b"}
+{"section": "4.3 S4 as a General Sequence Model", "seq": 39, "sha256": "084c73aa9fca35a4481166d9a7fd98daf4f0be43ccfb10832f4ea8018b82053d"}
+{"section": "4.3 S4 as a General Sequence Model", "seq": 40, "sha256": "86577104ca565ce5db0ce0c95f4bf770cd5ac146a223dbf4f9a9001eb2271379"}
+{"section": "4.4 SSM Ablations: the Importance of HiPPO", "seq": 41, "sha256": "ec108746eaaab2f9d03c20ba99280efd05f1a00657d23dc3f2a59961a17e3aee"}
+{"section": "4.4 SSM Ablations: the Importance of HiPPO", "seq": 42, "sha256": "1fa7f662e423b2ab975daeb79423390c0524a58797bf09fb2e765a26fed918b9"}
+{"section": "4.4 SSM Ablations: the Importance of HiPPO", "seq": 43, "sha256": "59f61d64cd29a7ed6686c984bcf835782909b5e59c2cc1108f8a037c9d0bd539"}
+{"section": "5 Conclusion", "seq": 44, "sha256": "014b5c8fae8543d5d4923b663a992a4767881fd97b556c51093eac857a0a448e"}
+{"section": "5 Conclusion", "seq": 45, "sha256": "cc5c49e9853d3cda63953b04837b3bba060e3b99cd4242cd1eebe605361328a7"}
+{"section": "5 Conclusion", "seq": 46, "sha256": "5d925938e9138f885f4d4474115404d5a835965dfdccddaddafd28e2866a374f"}
+{"section": "References", "seq": 47, "sha256": "8720431f09b84540df35cd6a8a98cf7ad3adc2283afaae2244b5322209d568a0"}
+{"section": "References", "seq": 48, "sha256": "5897900239bf24dc2a16f0ffdf5dc2a80f9e826fd188e6ac3b025137db709634"}
+{"section": "References", "seq": 49, "sha256": "a0d6e41f09292d218958944ea9b5c9a565588815c09db42cc7999e00482e38aa"}
+{"section": "References", "seq": 50, "sha256": "073f0599ec2fca07223e6ac6c05b9e339bc0c035bc54e8707cb645cccc7cd1e9"}
+{"section": "References", "seq": 51, "sha256": "29355dcd3003a06da2849c0b34bb2ee823cca7a3af944e527ca6bb73e889d358"}
+{"section": "References", "seq": 52, "sha256": "c237b8e8c379e90d7847e801741133cca41d85d3046588a1cbcfaeb30a214fe5"}
+{"section": "References", "seq": 53, "sha256": "3b635468db8a05673f043913f8813a4d867d99ae248abdd3831dd1bb8e44e33b"}
+{"section": "References", "seq": 54, "sha256": "1c17a9cc7f6042701e3cd71c577eb441b752bfaefbe5149f1dba4aaac5c24a3b"}
+{"section": "References", "seq": 55, "sha256": "d21de72bbd533f1bef2dec3e6369c28331bf29795fd9e2f15a4584e61859f74a"}
+{"section": "References", "seq": 56, "sha256": "803aa5e7da3ec2133daf5d1b6211d88b875cf62e9d0deeb592981756915712fe"}
+{"section": "References", "seq": 57, "sha256": "b121b8bdfc5af14e594b984c226a66c098aea2a1f08ed8899ddca23d7c723ec2"}
+{"section": "Appendix A Discussion", "seq": 58, "sha256": "12b9701ad313aa85f17e4a0bc6e5e01565924ed93c1e93f0d55b63a65839aa9e"}
+{"section": "Appendix A Discussion", "seq": 59, "sha256": "21fef976d0617f97d5045d06245c916af39850b0ddb6d912d6c70407f22ffed6"}
+{"section": "Appendix A Discussion", "seq": 60, "sha256": "f047ae17c72a6c29068721d6c5a945932f423e7860b9d759309f1629a283f9de"}
+{"section": "Appendix A Discussion", "seq": 61, "sha256": "4bf984e7cca6f8ff462656c8cfd82a154e163ffa4e5e078fe9af66f21fd3b788"}
+{"section": "Appendix B Numerical Instability of LSSL", "seq": 62, "sha256": "51f9bd6a71304fdb2c1eaa9bb2ca221a38d0dbbe078b83161232b7739b1ba04c"}
+{"section": "B.1 HiPPO Diagonalization", "seq": 63, "sha256": "2262965d1dbfa043eb1b89b21b2a3a513bc9d00df522a371d8cec3d3a385a09a"}
+{"section": "B.2 Fast but Unstable LSSL Algorithm", "seq": 64, "sha256": "60770a0126c164603046fb0eb32713569888aa8f5e25a930f9efa6b85f3ef024"}
+{"section": "B.2 Fast but Unstable LSSL Algorithm", "seq": 65, "sha256": "6bb95fae54229e41502cccf77a7f5c2b1fea6f03bebe7fe1f318c45057b2ae61"}
+{"section": "Appendix C S4 Algorithm Details", "seq": 66, "sha256": "c009706c40b8b151854c5b3ccfc75e6d7509aa87bf0280b7d7aac16b27b324ac"}
+{"section": "C.1 NPLR Representations of HiPPO Matrices", "seq": 67, "sha256": "8954d3b6c8af49381d5a949dfeb0842b716ca793dc022925dfec6b0729e61d34"}
+{"section": "C.1 NPLR Representations of HiPPO Matrices", "seq": 68, "sha256": "1bbf2e95bab2ca118b16b19afe193a447624d610f88bc9cc81614411fbe0f15c"}
+{"section": "C.2 Computing the S4 Recurrent View", "seq": 69, "sha256": "80d5bfb4601549fe1139a0777bdea55145009d33dda13193afee388cde81dfab"}
+{"section": "C.2 Computing the S4 Recurrent View", "seq": 70, "sha256": "7ac62f49bc2894a497cd3cf8b2877e3a40e5482ebd880f46ae84ba13642c6aa5"}
+{"section": "C.3 Computing the Convolutional View", "seq": 71, "sha256": "8895bfd12986385aeb93f233fb5085dd1c4a23bbdbc52295177dfe4f9ae1ccb4"}
+{"section": "C.3 Computing the Convolutional View", "seq": 72, "sha256": "8366167b148a84e8c16a9e84ebe9eacd38884615fdfb45de90c8e2cc6032548f"}
+{"section": "C.3 Computing the Convolutional View", "seq": 73, "sha256": "553b1b016ec0956f37ff85db71b79113a88a4d1cfeaf738df6c1383031b8397d"}
+{"section": "C.3 Computing the Convolutional View", "seq": 74, "sha256": "eb4ff2e8747fc3a2ad9457397a9e6a53613ac23a53a40e3d456b9252352c6bbd"}
+{"section": "C.3 Computing the Convolutional View", "seq": 75, "sha256": "b7a5fd7d5f4dae766ed82db792e4cc11c8387c53ed8ba76c286af08a9d61965b"}
+{"section": "C.3 Computing the Convolutional View", "seq": 76, "sha256": "0be532f25bc9b46cabb05e82081bd35ac4a9142429065e5189c869e56b8ec32b"}
+{"section": "Appendix D Experiment Details and Full Results", "seq": 77, "sha256": "60c8011def938bf5820a369587835b60ab74e8a81ffa1cd911dced549ab85c68"}
+{"section": "D.1 Benchmarking", "seq": 78, "sha256": "dd63a2a380ad9748a8ff71779ed09e287a82684560d9e67b8248eebda52f5bef"}
+{"section": "D.2 Long-Range Dependencies", "seq": 79, "sha256": "f32f5c7c889f5a4eb6a18829a4802640d02c273803f90efb5fd79ba9b3b31d47"}
+{"section": "D.2 Long-Range Dependencies", "seq": 80, "sha256": "ae896c2774755d9b73abf2227689c8ada501475232683f93334a64f304e86e2d"}
+{"section": "D.2 Long-Range Dependencies", "seq": 81, "sha256": "6e25d8a1db40648fb0ec913bab05484b006c8cc994c206ee19fb48adc35cf3fc"}
+{"section": "D.2 Long-Range Dependencies", "seq": 82, "sha256": "fc67af6f725bcf7a5a5a4661f2818c25b031f67309f5ed26bc51f047789140c1"}
+{"section": "D.2 Long-Range Dependencies", "seq": 83, "sha256": "0f24a057d4073dd53a44d45b74a6c21ea79f75a3881aee0a6438b100042e8038"}
+{"section": "D.2 Long-Range Dependencies", "seq": 84, "sha256": "9b64495db5a14ba81a97dcaa2deaa0c19cf6387398876fb07268880decb96c95"}
+{"section": "D.3 General Sequence Modeling", "seq": 85, "sha256": "9dd01d238a767762fbe36027ac4526c225853dc29230e8d9481d3dc56910d5ea"}
+{"section": "D.3 General Sequence Modeling", "seq": 86, "sha256": "fd96410837197864a3d1b68f954ed80e362c13b8240474e17a88fbff5cec4411"}
+{"section": "D.3 General Sequence Modeling", "seq": 87, "sha256": "9a4b9c3868312e26f4e7a8138b07cb584e607c2aa4acb14b39ec838e4668fed5"}
+{"section": "D.3 General Sequence Modeling", "seq": 88, "sha256": "6b5a4711af1d1343213ccce54ab9fa02ded269ea7dd267c2f13081ab46dccee4"}
+{"section": "D.3 General Sequence Modeling", "seq": 89, "sha256": "5bc26f30b3520d43622374546b20f77b6aef1b4a3d6f9336217ea7ee88ab0436"}
+{"section": "D.3 General Sequence Modeling", "seq": 90, "sha256": "64399004b06432240faf2827cab4b3fed6a6273af3a1a751b41bc232ffdb6a12"}
+{"section": "D.3 General Sequence Modeling", "seq": 91, "sha256": "12dc4eb9097c44e45b6d76afb0e98daa75b39e7cb571ce07a5e9f0e64d71867d"}
+{"section": "D.3 General Sequence Modeling", "seq": 92, "sha256": "ef121c301736aca9c474f0a1660ac42ee1c7206ffb183d6e079020711a1d157d"}
+{"section": "D.3 General Sequence Modeling", "seq": 93, "sha256": "74329e974272c44d124bafb0a9bf14cea636ac2fcafcde3ba7b2778dcb641988"}
+{"section": "D.3 General Sequence Modeling", "seq": 94, "sha256": "439de785254567ad500da0f4f29d55033b7f0ed6d296e655d1a09e84bf4ce93c"}
+{"section": "D.3 General Sequence Modeling", "seq": 95, "sha256": "5d7079319d6cf900c0aab9520455bcde65186bb2a11809066129a2542b73010e"}
+{"section": "D.3 General Sequence Modeling", "seq": 96, "sha256": "2798de3a59cdcb0a3971b68892a1fa170caead8ebd0bdf44d74a8c13a4f336ee"}
+{"section": "D.4 Visualizations", "seq": 97, "sha256": "a4d3135b7eef67dba0c0ee593b9e7a48bedae7556a9d4f5d056aefdf99b50190"}
+{"section": "D.5 Reproduction", "seq": 98, "sha256": "25b95c3622a9ded4de75d865f7456ac8e4ca793e975581a9dc78280199761d7e"}
+{"section": "D.5 Reproduction", "seq": 99, "sha256": "00d487ada12bb1501e29429e3e8aefad871e0b5dd4556fc9d50f50a848ddfb64"}
+{"section": "D.5 Reproduction", "seq": 100, "sha256": "848b6b71345ff96199a26651f079bb88c93f47d180b471c15c8007a87eeeda82"}

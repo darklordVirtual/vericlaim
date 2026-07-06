@@ -1,0 +1,19 @@
+Thus, from Argentina to South Korea, the world was an intricate web of countries intertwined with each other through shared histories, cultures, and sometimes, shared destinies. Step 1 – Response (Fully Correct):
+
+{{
+
+"Paragraph 1": "My friend, Alex from Peru ... (Omitted) ... bridged the borders of these countries.",
+
+"Paragraph 2": "It reminded me of a ... (Omitted) ... between the United States and Canada.",
+
+"Paragraph 3": "The United States and Canada, apart ... (Omitted) ... through years of coexistence.",
+
+"Paragraph 4": "Despite their tumultuous past ... (Omitted) ... and sometimes, shared destinies."
+
+}}
+
+Table 22: Keyword counting for an example 4-passage split (GoT4): Step 2a (Prompt/Responses)
+
+Step 2a – Prompt:
+
+<Instruction> Count the frequency of how many times each country is explicitly named in the input text.

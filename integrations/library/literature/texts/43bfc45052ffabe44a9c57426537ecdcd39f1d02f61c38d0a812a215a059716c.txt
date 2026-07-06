@@ -1,0 +1,93 @@
+We benchmark that S4 can be trained quickly and efficiently, both compared to the LSSL, as well as efficient Transformer variants designed for long-range sequence modeling. As outlined in Section 3, S4 is theoretically much more efficient than the LSSL, and Fig. 3 confirms that the S4 is orders of magnitude more speed- and memory-efficient for practical layer sizes. In fact, S4’s speed and memory use is competitive with the most efficient Transformer variants benchmarked by Tay et al. [40]—Linear Transformer [22] and Performer [8]—in a parameter-matched setting (Fig. 3, following the protocol of Tay et al. [40]). Figure 2: Deep SSMs: The S4 parameterization with Algorithm 1 is asymptotically more efficient than the LSSL. Training Step (ms)
+
+Memory Alloc. (MB)
+
+Dim. 128
+
+256
+
+512
+
+128
+
+256
+
+512
+
+LSSL
+
+9.32
+
+20.6
+
+140.7
+
+222.1
+
+1685
+
+13140
+
+S4
+
+4.77
+
+3.07
+
+4.75
+
+5.3
+
+12.6
+
+33.5
+
+Ratio
+
+Figure 3: Benchmarks vs. efficient Transformers
+
+Length 1024
+
+Length 4096
+
+Speed
+
+Mem. Speed
+
+Mem. Transformer
+
+1
+
+1
+
+1
+
+1
+
+Performer
+
+1.23
+
+0.43
+
+3.79
+
+0.086
+
+Linear Trans. 1.58
+
+0.37
+
+5.35
+
+0.067
+
+S4
+
+1.58
+
+0.43
+
+5.19
+
+0.091

@@ -1,0 +1,19 @@
+Abadi et al. (2016)
+
+Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., Dean, J., Devin, M.,
+Ghemawat, S., Irving, G., Isard, M., et al. Tensorflow: A system for large-scale machine learning. In 12th USENIX symposium on operating systems design
+and implementation (OSDI 16), pp. 265–283, 2016. Alayrac et al. (2020)
+
+Alayrac, J.-B., Recasens, A., Schneider, R., Arandjelović, R., Ramapuram,
+J., De Fauw, J., Smaira, L., Dieleman, S., and Zisserman, A. Self-supervised multimodal versatile networks. arXiv preprint arXiv:2006.16228, 2020. Alcorn et al. (2019)
+
+Alcorn, M. A., Li, Q., Gong, Z., Wang, C., Mai, L., Ku, W.-S., and Nguyen, A. Strike (with) a pose: Neural networks are easily fooled by strange
+poses of familiar objects. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pp. 4845–4854, 2019. Andreas et al. (2017)
+
+Andreas, J., Klein, D., and Levine, S. Learning with latent language. arXiv preprint arXiv:1711.00482, 2017. Assiri (2020)
+
+Assiri, Y. Stochastic optimization of plain convolutional neural networks with
+simple methods. arXiv preprint arXiv:2001.08856, 2020. Bachman et al. (2019)
+
+Bachman, P., Hjelm, R. D., and Buchwalter, W.

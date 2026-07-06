@@ -1,0 +1,1 @@
+In Figure 28, we demonstrate how safety mechanisms like RLHF can guide a model to decline requests that might activate biases, yet it may still produce biased responses when exposed to minor distribution shifts or adversarial attacks (Zou et al., 2023). Figure 26: Accuracy on TruthfulQA (trained on ARC-c) across layers for the LLaMA-2-7B Base and Chat models.

@@ -1,0 +1,3 @@
+Invertebrates are animals. Lepidopterans are insects. Every arthropod is segmented. Arthropods are invertebrates. Every butterfly is a lepidopteran. Stella is a butterfly. Query 6: True or false: Stella is six-legged. Claim 6.1: Stella is an insect. Next 6.1: Insects are six-legged. Claim 6.2: Stella is a lepidopteran. Next 6.2: Lepidopterans are insects. Claim 6.3: Stella is a butterfly. Next 6.3: Every butterfly is a lepidopteran. Claim 6.4: Stella is six-legged. Next 6.4: Finish. Facts 7: <fact>
+
+Query 7: <query>

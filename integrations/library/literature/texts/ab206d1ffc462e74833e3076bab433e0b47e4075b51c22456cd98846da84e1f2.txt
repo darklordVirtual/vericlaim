@@ -1,0 +1,101 @@
+Table 1: Accuracy comparison of Zero-shot-CoT with Zero-shot on each tasks. The values on the left side of each task are the results of using answer extraction prompts depending on answer format as described at § 3. The values on the right side are the result of additional experiment where standard answer prompt "The answer is" is used for answer extraction. See Appendix A.5 for detail setups. Arithmetic
+
+SingleEq
+
+AddSub
+
+MultiArith
+
+GSM8K
+
+AQUA
+
+SVAMP
+
+zero-shot
+
+74.6/78.7
+
+72.2/77.0
+
+17.7/22.7
+
+10.4/12.5
+
+22.4/22.4
+
+58.8/58.7
+
+zero-shot-cot
+
+78.0/78.7
+
+69.6/74.7
+
+78.7/79.3
+
+40.7/40.5
+
+33.5/31.9
+
+62.1/63.7
+
+Common Sense
+Other Reasoning Tasks
+Symbolic Reasoning
+
+Common
+
+Strategy
+
+Date
+
+Shuffled
+
+Last Letter
+
+Coin Flip
+
+SenseQA
+
+QA
+
+Understand
+
+Objects
+
+(4 words)
+
+(4 times)
+
+zero-shot
+
+68.8/72.6
+
+12.7/54.3
+
+49.3/33.6
+
+31.3/29.7
+
+0.2/-
+
+12.8/53.8
+
+zero-shot-cot
+
+64.6/64.0
+
+54.8/52.3
+
+67.5/61.8
+
+52.4/52.9
+
+57.6/-
+
+91.4/87.8
+
+Zero-shot-CoT vs. Zero-shot
+
+Table 1 summarize accuracy of our method (Zero-shot-CoT) and standard zero-shot prompting (Zero-shot) for each dataset.

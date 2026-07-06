@@ -1,0 +1,15 @@
+In Proceedings of the 3rd Wordplay: When Language Meets Games
+Workshop (Wordplay 2022), pages 25–43, Seattle, United States, 2022. Association for Computational Linguistics. (71)
+
+Haoqi Yuan, Chi Zhang, Hongcheng Wang, Feiyang Xie, Penglin Cai, Hao Dong, and
+Zongqing Lu. Plan4mc: Skill reinforcement learning and planning for open-world
+minecraft tasks. arXiv preprint arXiv: 2303.16563, 2023. (72)
+
+Rishi Bommasani, Drew A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney
+von Arx, Michael S. Bernstein, Jeannette Bohg, Antoine Bosselut, Emma
+Brunskill, Erik Brynjolfsson, Shyamal Buch, Dallas Card, Rodrigo Castellon,
+Niladri Chatterji, Annie Chen, Kathleen Creel, Jared Quincy Davis, Dora
+Demszky, Chris Donahue, Moussa Doumbouya, Esin Durmus, Stefano Ermon, John
+Etchemendy, Kawin Ethayarajh, Li Fei-Fei, Chelsea Finn, Trevor Gale, Lauren
+Gillespie, Karan Goel, Noah Goodman, Shelby Grossman, Neel Guha, Tatsunori
+Hashimoto, Peter Henderson, John Hewitt, Daniel E.

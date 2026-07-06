@@ -1,0 +1,7 @@
+Voyager does not currently support visual perception, because the available version of GPT-4 API is text-only at the time of this writing. However, Voyager has the potential to be augmented by multimodal perception models liu2023prismer ; driess2023palme to achieve more impressive tasks. We demonstrate that given human feedback, Voyager is able to construct complex 3D structures in Minecraft, such as a Nether Portal and a house (Fig. 10). There are two ways to integrate human feedback:
+
+(1)
+
+Human as a critic (equivalent to Voyager’s self-verification module): humans provide visual critique to Voyager, allowing it to modify the code from the previous round. This feedback is essential for correcting certain errors in the spatial details of a 3D structure that Voyager cannot perceive directly. (2)
+
+Human as a curriculum (equivalent to Voyager’s automatic curriculum module): humans break down a complex building task into smaller steps, guiding Voyager to complete them incrementally. This approach improves Voyager’s ability to handle more sophisticated 3D construction tasks.

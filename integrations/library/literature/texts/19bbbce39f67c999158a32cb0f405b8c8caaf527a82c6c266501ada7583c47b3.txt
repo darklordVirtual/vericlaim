@@ -1,0 +1,2 @@
+In this section, we show the LAT Task Template that we used throughout the experiments. For references, USER: and ASSISTANT:
+are placeholders for instruction templates. For example, we use [INST] and [\INST] for LLaMA-2-Chat models.

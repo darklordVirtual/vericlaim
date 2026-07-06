@@ -1,0 +1,18 @@
+In Proceedings of the 54th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 1525–1534,
+Berlin, Germany. Association for Computational Linguistics. Paszke et al. (2019)
+
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory
+Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban
+Desmaison, Andreas Köpf, Edward Yang, Zach DeVito, Martin Raison, Alykhan
+Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu Fang, Junjie Bai, and Soumith
+Chintala. 2019. Pytorch: An imperative
+style, high-performance deep learning library. Poli et al. (2023)
+
+Michael Poli, Stefano Massaroli, Eric Nguyen, Daniel Y Fu, Tri Dao, Stephen
+Baccus, Yoshua Bengio, Stefano Ermon, and Christopher Ré. 2023. Hyena hierarchy: Towards larger convolutional language models. arXiv preprint arXiv:2302.10866. Price et al. (2020)
+
+Ilan Price, Jordan Gifford-Moore, Jory Flemming, Saul Musker, Maayan Roichman,
+Guillaume Sylvain, Nithum Thain, Lucas Dixon, and Jeffrey Sorensen. 2020. Six attributes of
+unhealthy conversations. In Proceedings of the Fourth Workshop on Online Abuse and
+Harms, pages 114–124, Online.

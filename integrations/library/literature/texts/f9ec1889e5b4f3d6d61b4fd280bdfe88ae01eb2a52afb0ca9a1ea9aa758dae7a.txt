@@ -1,0 +1,18 @@
+Artificial Intelligence, 69(1-2):165–204. Camacho and Alba (2013)
+
+Eduardo F Camacho and Carlos Bordons Alba. 2013. Model predictive control. Springer science & business media. Chowdhery et al. (2022)
+
+Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra,
+Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian
+Gehrmann, et al. 2022. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311. Cobbe et al. (2021)
+
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+et al. 2021. Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168. Coulom (2007)
+
+Rémi Coulom. 2007. Efficient selectivity and backup operators in monte-carlo tree
+search. In Computers and Games: 5th International Conference, CG 2006,
+Turin, Italy, May 29-31, 2006. Revised Papers 5, pages 72–83. Springer. Ding et al. (2023)
+
+Yan Ding, Xiaohan Zhang, Chris Paxton, and Shiqi Zhang. 2023. Task and motion planning with large language models for object
+rearrangement. arXiv preprint arXiv:2303.06247.

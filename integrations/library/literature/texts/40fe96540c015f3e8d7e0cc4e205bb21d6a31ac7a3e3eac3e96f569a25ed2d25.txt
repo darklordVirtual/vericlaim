@@ -1,0 +1,33 @@
+Mastering Diverse Domains through World Models
+
+HTML conversions sometimes display errors due to content that did not convert correctly from the source. This paper uses the following packages that are not yet supported by the HTML conversion tool. Feedback on these issues are not necessary; they are known and are being worked on. failed: stackengine
+
+failed: xpatch
+
+failed: cuted
+
+failed: xstring
+
+failed: eqparbox
+
+failed: datetime2
+
+failed: environ
+
+failed: titletoc
+
+failed: trimclip
+
+Authors: achieve the best HTML results from your LaTeX submissions by following these best practices. License: CC BY 4.0
+
+arXiv:2301.04104v2 [cs.AI] 17 Apr 2024
+
+\xapptocmd\NewColumnType
+
+L[1]Q[l,#1]
+\NewColumnTypeC[1]Q[c,#1]
+\NewColumnTypeR[1]Q[r,#1]
+
+\NewEnvironmytabular[1]
+
+\BODY

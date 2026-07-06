@@ -1,0 +1,63 @@
+Changing them from static to selective provides the most benefit,
+while increasing the dimensions further generally improves performance modestly with a small increase in parameter count. Table 2:
+(Ablations: Architecture and SSM layer.)
+The Mamba block performs similarly to H3 while being simpler. In the inner layer, there is little difference among different parameterizations of LTI models,
+while selective SSMs (S6) provide a large improvement. More specifically, the S4 (real) variant is S4D-Real and the S4 (complex) variant is S4D-Lin. Model
+Arch. SSM Layer
+Perplexity
+
+Hyena
+
+H3
+
+Hyena
+
+H3
+
+H3
+
+S4 (complex)
+
+-
+
+H3
+
+S4 (real)
+
+-
+
+H3
+
+S6
+
+Model
+Arch. SSM Layer
+Perplexity
+
+-
+
+Mamba
+
+Hyena
+
+-
+
+Mamba
+
+S4 (complex)
+
+-
+
+Mamba
+
+S4 (real)
+
+Mamba
+
+Mamba
+
+S6
+
+Figure 13:
+(Ablations: Selective parameters.)
+is the most important parameter (Theorem˜1), but using multiple selective parameters together synergizes.

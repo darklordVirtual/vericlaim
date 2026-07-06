@@ -1,0 +1,17 @@
+4791–4800, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https://aclanthology.org/P19-1472. Zhai et al. (2019)
+
+Zhai, X., Puigcerver, J., Kolesnikov, A., Ruyssen, P., Riquelme, C., Lucic, M.,
+Djolonga, J., Pinto, A. S., Neumann, M., Dosovitskiy, A., et al. The visual task adaptation benchmark. 2019. Zhang et al. (2018)
+
+Zhang, R., Isola, P., Efros, A. A., Shechtman, E., and Wang, O. The unreasonable effectiveness of deep features as a perceptual
+metric. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 586–595, 2018. Zhou et al. (2017)
+
+Zhou, B., Lapedriza, A., Khosla, A., Oliva, A., and Torralba, A. Places: A 10 million image database for scene recognition. IEEE transactions on pattern analysis and machine
+intelligence, 40(6):1452–1464, 2017. Zhu et al. (2017)
+
+Zhu, J.-Y., Park, T., Isola, P., and Efros, A. A. Unpaired image-to-image translation using cycle-consistent
+adversarial networks. In Computer Vision (ICCV), 2017 IEEE International Conference
+on, 2017. Zimmermann et al. (2021)
+
+Zimmermann, R. S., Sharma, Y., Schneider, S., Bethge, M., and Brendel, W.

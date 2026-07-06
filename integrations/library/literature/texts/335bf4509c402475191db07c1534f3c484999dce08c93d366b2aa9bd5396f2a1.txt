@@ -1,0 +1,11 @@
+2019
+
+Matthijs Van Keirsbilck, Alexander Keller, and Xiaodong Yang. Rethinking full connectivity in recurrent neural networks. arXiv preprint arXiv:1905.12340, 2019. Machado et al. 2018b
+
+Marlos C Machado, Marc G Bellemare, Erik Talvitie, Joel Veness, Matthew
+Hausknecht, and Michael Bowling. Revisiting the arcade learning environment: Evaluation protocols and
+open problems for general agents. Journal of Artificial Intelligence Research, 61:523–562, 2018b. Espeholt et al. 2018
+
+Lasse Espeholt, Hubert Soyer, Remi Munos, Karen Simonyan, Volodymir Mnih, Tom
+Ward, Yotam Doron, Vlad Firoiu, Tim Harley, Iain Dunning, et al. Impala: Scalable distributed deep-rl with importance weighted
+actor-learner architectures. arXiv preprint arXiv:1802.01561, 2018.

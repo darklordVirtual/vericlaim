@@ -1,0 +1,7 @@
+We can calculate her speed by dividing the distance by the time: 6 miles / 1.5 hours = 4 miles per hour. So, she needs to walk the remaining 6 miles at a speed of 4 miles per hour. Therefore, the answer (arabic numerals) is 4. ✗ (GT : 6)
+
+A: The answer (arabic numerals) is 6. Zero-shot-CoT ✗, Zero-shot ✗ (52.1% of dataset)
+
+Q: Josh decides to try flipping a house. He buys a house for $80,000 and then puts in $50,000 in repairs. This increased the value of the house by 150%. How much profit did he make? A: Let’s think step by step. First, we need to find the value of the house after the repairs. The value of the house increased by 150%, so we need to multiply the original value by 1.5. 80,000 x 1.5 = 120,000. The value of the house after the repairs is $120,000. Now, we need to find the profit. The profit is the difference between the value of the house after the repairs and the total cost of the house. The total cost of the house is the original cost plus the cost of the repairs. 80,000 + 50,000 = 130,000. The profit is 120,000 - 130,000 = -10,000. Josh lost $10,000. Therefore, the answer (arabic numerals) is 10,000. ✗ (GT : 70000)
+
+A: The answer (arabic numerals) is 100,000.

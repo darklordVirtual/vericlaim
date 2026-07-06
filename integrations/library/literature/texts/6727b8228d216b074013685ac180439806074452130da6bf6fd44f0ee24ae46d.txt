@@ -1,0 +1,35 @@
+[No] Our paper mainly used GPT-3 API with greedy decoding, and there are no randomness for the experiments. (d)
+
+Did you include the total amount of compute and the type of resources used (e.g., type of GPUs, internal cluster, or cloud provider)? [Yes]
+
+4. If you are using existing assets (e.g., code, data, models) or curating/releasing new assets…
+
+(a)
+
+If your work uses existing assets, did you cite the creators? [Yes]
+
+(b)
+
+Did you mention the license of the assets? [Yes]
+
+(c)
+
+Did you include any new assets either in the supplemental material or as a URL? [Yes]
+
+(d)
+
+Did you discuss whether and how consent was obtained from people whose data you’re using/curating? [Yes]
+
+(e)
+
+Did you discuss whether the data you are using/curating contains personally identifiable information or offensive content? [Yes]
+
+5. If you used crowdsourcing or conducted research with human subjects…
+
+(a)
+
+Did you include the full text of instructions given to participants and screenshots, if applicable? [N/A]
+
+(b)
+
+Did you describe any potential participant risks, with links to Institutional Review Board (IRB) approvals, if applicable?

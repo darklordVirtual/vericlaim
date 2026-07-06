@@ -1,0 +1,1 @@
+modeling relationships between words), transportation (e.g., finding efficient routes), physics (e.g., understanding phase transitions and critical phenomena), and many others [44, 20, 38, 35, 15]. In this work, we harness the graph abstraction as a key mechanism that enhances prompting capabilities in LLMs.

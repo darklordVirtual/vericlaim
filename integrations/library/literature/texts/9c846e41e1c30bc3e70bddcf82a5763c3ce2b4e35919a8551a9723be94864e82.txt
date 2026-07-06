@@ -1,0 +1,4 @@
+Concentrating the extension work needed at a single point (the reply function) simplifies the reasoning processes, and development and maintenance effort. (a) Conversation between two AI players
+
+(b) Conversation between the AI players (player white shown in blue) and the board agent for making a new move. Figure 15: Example conversations during a game involving two AI player agents and a board agent. To illustrate the effect facilitated by this board agent, we provide a demonstration of conversational chess without a board agent in Figure 16. In this demonstration, instead of employing an additional board agent for grounding, the system utilizes prompting for grounding by including the sentence “You should make sure both you and the opponent are making legal moves.” in the system messages directed to both players. Figure 16:
+Comparison of two designs–(a) without a board agent, and (b) with a board agent–in Conversational Chess.

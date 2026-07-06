@@ -1,0 +1,17 @@
+Thus after diagonalization by the same matrix as in the LagT case, it is still reduced to diagonal plus low-rank (DPLR) form,
+where the diagonal is now pure imaginary plus a real constant. HiPPO-LegS. We restate the formula from equation (2) for convenience. Adding to the whole matrix gives
+
+Note that this matrix is not skew-symmetric,
+but is where is a skew-symmetric matrix. This is diagonalizable by the same unitary matrix that diagonalizes . HiPPO-LegT. Up to the diagonal scaling,
+the LegT matrix is
+
+By adding to this matrix and then the matrix
+
+the matrix becomes
+
+which is skew-symmetric. In fact, this matrix is the inverse of the Chebyshev Jacobi. An alternative way to see this is as follows. The LegT matrix is the inverse of the matrix
+
+This can obviously be converted to a skew-symmetric matrix by adding a rank 2 term. The inverses of these matrices are also rank-2 differences from each other by the Woodbury identity. A final form is
+
+This has the advantage that the rank-2 correction is symmetric (like the others),
+but the normal skew-symmetric matrix is now -quasiseparable instead of -quasiseparable. ∎

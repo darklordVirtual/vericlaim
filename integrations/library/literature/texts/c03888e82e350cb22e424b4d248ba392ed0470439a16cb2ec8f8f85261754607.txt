@@ -1,0 +1,4 @@
+Unlike baselines, the selection mechanism of Mamba facilitates better performance with increasing context length. Figure 8:
+(Great Apes DNA Classification.)
+Accuracy after fine-tuning on sequences of length up to using pretrained models of the same context length. Numerical results in LABEL:tab:species. Figure 9:
+(Audio Pretraining.) Mamba improves performance over prior state-of-the-art (Sashimi) in autoregressive audio modeling, while improving up to minute-long context or million-length sequences (controlling for computation).

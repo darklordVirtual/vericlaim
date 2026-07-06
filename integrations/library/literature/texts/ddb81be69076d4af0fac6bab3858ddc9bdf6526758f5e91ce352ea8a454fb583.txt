@@ -1,0 +1,5 @@
+In this part, we present a few instances of outputs produced by RWKV model using a Chat interface555ttps://github.com/BlinkDL/ChatRWKV666https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio. [h]
+
+[ht]
+
+[h]

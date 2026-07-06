@@ -1,0 +1,47 @@
+For the hybrids, we feed the intermediate feature maps into ViT with patch size of one “pixel”. To experiment with different sequence lengths, we either
+(i) take the output of stage 4 of a regular ResNet50 or
+(ii) remove stage 4, place the same number of layers in stage 3 (keeping the total number of layers), and take the output of this extended stage 3. Option (ii) results in a 4x longer sequence length, and a more expensive ViT model. Model
+Layers
+Hidden size
+
+MLP size
+Heads
+Params
+
+ViT-Base
+
+12
+
+768
+
+3072
+
+12
+
+86M
+
+ViT-Large
+
+24
+
+1024
+
+4096
+
+16
+
+307M
+
+ViT-Huge
+
+32
+
+1280
+
+5120
+
+16
+
+632M
+
+Table 1: Details of Vision Transformer model variants. Training & Fine-tuning. We train all models, including ResNets, using Adam (Kingma & Ba, 2015) with , , a batch size of 4096 and apply a high weight decay of , which we found to be useful for transfer of all models (Appendix D.1 shows that, in contrast to common practices, Adam works slightly better than SGD for ResNets in our setting). We use a linear learning rate warmup and decay, see Appendix B.1 for details. For fine-tuning we use SGD with momentum, batch size 512, for all models, see Appendix B.1.1.

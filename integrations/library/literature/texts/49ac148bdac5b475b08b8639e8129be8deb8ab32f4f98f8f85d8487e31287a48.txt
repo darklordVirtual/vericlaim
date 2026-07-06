@@ -1,0 +1,5 @@
+The world model learns compact representations of sensory inputs through autoencoding 23 and enables planning by predicting future representations and rewards for potential actions. We implement the world model as a Recurrent State-Space Model (RSSM) 24, shown in Figure 3. First, an encoder maps sensory inputs to stochastic representations . Then, a sequence model with recurrent state predicts the sequence of these representations given past actions . The concatenation of and forms the model state from which we predict rewards and episode continuation flags and reconstruct the inputs to ensure informative representations:
+
+(1)
+
+Figure 4 visualizes long-term video predictions of the world world. The encoder and decoder use convolutional neural networks (CNN) for image inputs and multi-layer perceptrons (MLPs) for vector inputs. The dynamics, reward, and continue predictors are also MLPs. The representations are sampled from a vector of softmax distributions and we take straight-through gradients through the sampling step 25, 22.

@@ -1,0 +1,62 @@
+The full list of hyperparameters can be found in Table 8. Table 8: Hyperparameters of DT (and %BC) for Atari experiments. Hyperparameter
+Value
+
+Number of layers
+
+Number of attention heads
+
+Embedding dimension
+
+Batch size
+
+Pong
+
+Breakout, Qbert, Seaquest
+
+Context length
+
+Pong
+
+Breakout, Qbert, Seaquest
+
+Return-to-go conditioning
+
+Breakout ( max in dataset)
+
+Qbert ( max in dataset)
+
+Pong ( max in dataset)
+
+Seaquest ( max in dataset)
+
+Nonlinearity
+
+ReLU, encoder
+
+GeLU, otherwise
+
+Encoder channels
+
+Encoder filter sizes
+
+Encoder strides
+
+Max epochs
+
+Dropout
+
+Learning rate
+
+Adam betas
+
+Grad norm clip
+
+Weight decay
+
+Learning rate decay
+
+Linear warmup and cosine decay (see code for details)
+
+Warmup tokens
+
+Final tokens

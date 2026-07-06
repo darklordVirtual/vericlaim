@@ -1,0 +1,5 @@
+Recently, a number of techniques have been proposed to address the limitations of transformers. Optimizing Attention Mechanism
+
+Many transformer variants (“x-formers”) have been introduced to reduce the complexity of transformers Tay et al. (2022), including sparse attention Beltagy et al. (2020); Kitaev et al. (2020); Guo et al. (2022), approximating the full attention matrix Wang et al. (2020); Ma et al. (2021); Choromanski et al. (2020), combining chunked attention with gating Ma et al. (2023) and other efficient methods Katharopoulos et al. (2020); Jaegle et al. (2021). Some recent works like FlashAttention Dao et al. (2022a) and others Rabe and Staats (2022); Jang et al. (2019) share similarities with RWKV’s chunked computation scheme. Despite being memory-efficient, their time complexity remains quadratic or contains chunk size as a hidden factor. In contrast, RWKV achieves better space and time complexity during inference by formulating a linear attention as an RNN. Attention Free Models
+
+Another line of research replaces the attention mechanism with other modules to scale to long sequences. MLP-Mixer and others Tolstikhin et al. (2021); Liu et al.

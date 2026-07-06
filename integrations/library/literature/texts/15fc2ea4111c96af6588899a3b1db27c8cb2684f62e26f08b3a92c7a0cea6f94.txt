@@ -1,0 +1,21 @@
+See Appendix A. Cycle -NN
+
+✓
+
+Measures whether the nearest neighbor in one domain also considers the original sample as its nearest neighbor in the other domain. Edit -NN
+
+✓
+
+✓
+
+✓
+
+Computes the edit distance required to match the nearest neighbors between two datasets. The score is normalized by the maximum edit distance. LCS -NN
+
+✓
+
+✓
+
+✓
+
+Calculates the longest common subsequence of nearest neighbors and is normalized by the sequence length. Figure 11: Comparative analysis of neural network similarity metrics. ✓ indicates the metric is global and still meaningful when the nearest neighbor is set to maximum batch-size . Figure 12: Vision-vision alignment measured with various metrics. Spearman’s rank correlation among different metrics and batch sizes () when used to measure alignment among vision models (see Section C.1 for details of these models). All -values are below . Our vision-vision analysis in Figure 2 is based on the first metric (Mutual -NN with and ).

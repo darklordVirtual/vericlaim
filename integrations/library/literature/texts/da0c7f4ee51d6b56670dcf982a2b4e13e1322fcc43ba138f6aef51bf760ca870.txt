@@ -1,0 +1,17 @@
+Adebayo et al. (2018)
+
+Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt,
+and Been Kim. Sanity checks for saliency maps. Advances in neural information processing systems, 31, 2018. Anderson & Anderson (2007)
+
+Michael Anderson and Susan Leigh Anderson. Machine ethics: Creating an ethical intelligent agent. AI magazine, 28(4):15–15, 2007. Anderson (1972)
+
+P. W. Anderson. More is different. Science, 177(4047):393–396, 1972. doi: 10.1126/science.177.4047.393. Aneja et al. (2016)
+
+Deepali Aneja, Alex Colburn, Gary Faigin, Linda Shapiro, and Barbara Mones. Modeling stylized character expressions via deep learning. In Asian Conference on Computer Vision, pp. 136–153. Springer, 2016. Azaria & Mitchell (2023)
+
+Amos Azaria and Tom Mitchell. The internal state of an llm knows when its lying, 2023. Barack & Krakauer (2021)
+
+David L Barack and John W Krakauer. Two views on the cognitive brain. Nature Reviews Neuroscience, 22(6):359–371, 2021. Bau et al. (2017)
+
+David Bau, Bolei Zhou, Aditya Khosla, Aude Oliva, and Antonio Torralba. Network dissection: Quantifying interpretability of deep visual
+representations.

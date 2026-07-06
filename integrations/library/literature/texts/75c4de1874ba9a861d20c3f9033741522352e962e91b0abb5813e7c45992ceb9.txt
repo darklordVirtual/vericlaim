@@ -1,0 +1,1 @@
+There are many works recently on how to plan complex tasks with LLMs [36, 81, 78, 76, 68, 37]. GoT could be seen as a generic framework that could potentially be used to enhance such schemes, by offering a paradigm for generating complex graph-based plans.

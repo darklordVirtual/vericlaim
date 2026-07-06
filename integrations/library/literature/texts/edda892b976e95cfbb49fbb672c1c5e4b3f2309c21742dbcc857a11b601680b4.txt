@@ -1,0 +1,23 @@
+Following this, we outline the LLM interactions throughout a complete keyword counting process (Table 20 - Table 28). Table 16: Prompt stubs for the keyword counting task; parameters in single curly brackets will be substituted at runtime. count_prompt: <Instruction> Count the frequency of how many times each country is explicitly named in the input text. You can generate any intermedate lists and states, but the final output should only contain the frequency of each country that appears at least once in the following json format, prefixed with ”Output: ” (make sure to keep the same spelling for each country in the output as in the input text):
+
+{{
+
+"country1": frequency1,
+
+"country2": frequency2,
+
+}}
+
+</Instruction>
+
+<Approach>
+
+To count the frequency for each country follow these steps:
+
+1. Split the input passage into four paragraphs of similar length. 2. Count the frequency of each country in each paragraph. 3. Combine the frequencies of each country from each paragraph by adding them together. </Approach>
+
+<Examples> See Table 18 </Examples>
+
+Input: {input_text}
+
+split_prompt: <Instruction> Split the following input text into 4 paragraphs of approximately same length.

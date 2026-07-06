@@ -1,0 +1,101 @@
+{"fsid": "arxiv_2405-07987", "n": 100, "overlap": 200, "source_sha256": "87925e4a996ebbd07b55b40699cf4cb051fb23ce61528d02bb4659d25a94a093", "target": 1200}
+{"section": "", "seq": 0, "sha256": "3212a3d5f0682888c5797189cbd40c952b0a3be514df696385e66f5a823cfb1b"}
+{"section": "The Platonic Representation Hypothesis", "seq": 1, "sha256": "bbc917dda89661ce1b5161c8c35f883f67f3cd18413382b2938ac9f38526a5e6"}
+{"section": "1 Introduction", "seq": 2, "sha256": "726bf0bcf5047ee689d5bc2a16a8eaf8f00547a518ceac61fb7cf362ef722c21"}
+{"section": "1 Introduction", "seq": 3, "sha256": "a96d264985f551919811731a6f2710dab928106f115e7dbbb245e11a5945a4c2"}
+{"section": "1 Introduction", "seq": 4, "sha256": "4980af4e2646404e42ee57e406cbf80c7ae38bf5f08773bc4373f674c6504ea0"}
+{"section": "1 Introduction", "seq": 5, "sha256": "0cd4f52a6dd864cbfef062c5bf6945243a3e249c18edc93cbd8552de6aa60469"}
+{"section": "1 Introduction", "seq": 6, "sha256": "a3272185518a024df1ba22c4e2a9958e3c1a3a28f2102ca383878d6305f20303"}
+{"section": "2 Representations are converging", "seq": 7, "sha256": "8af2fb46fc1cc24aa534c54614454c878a8e6f75b65fc8cefa1c11df374f535d"}
+{"section": "2 Representations are converging", "seq": 8, "sha256": "a00dd9a85d058ef93a34018d5f70feb365596dadcb1f1c67d29cd85a1bdae93a"}
+{"section": "2 Representations are converging", "seq": 9, "sha256": "f54a5d5944074d507214fa6080a99766e740846af3472f673ac9dcd0dddc1481"}
+{"section": "2.1 Different models, with different architectures and objectives, can have aligned representations", "seq": 10, "sha256": "e990bce9b08760ae828de53eab2b9e784decb7501d1e4e7eb4207c5e9f41959b"}
+{"section": "2.1 Different models, with different architectures and objectives, can have aligned representations", "seq": 11, "sha256": "b39c4fcbf9adac3ce8bc78dc1fea0ea219bba6ad2ba86a3788e98b53ea7f91df"}
+{"section": "2.1 Different models, with different architectures and objectives, can have aligned representations", "seq": 12, "sha256": "77d394e8f24a9f77294c84be07394174ad233ddaac1e3c02eefc12a831a42080"}
+{"section": "2.1 Different models, with different architectures and objectives, can have aligned representations", "seq": 13, "sha256": "ea9aec7078cede1bea50f24a4ba43f251bfe661d3728e5a2c8a80e5c0527118f"}
+{"section": "2.2 Alignment increases with scale and performance", "seq": 14, "sha256": "cbbc62e3f99b92ac924f0868f554890ba4f85feeacad162c66876f372e03c525"}
+{"section": "2.2 Alignment increases with scale and performance", "seq": 15, "sha256": "8513c6d9496273aa1dd2b340c1e55116037ba546c3aa12b5771ff4a2246d2900"}
+{"section": "2.2 Alignment increases with scale and performance", "seq": 16, "sha256": "97788bf59a9ac9143ecee25313e29afe4fb49efb6236e9f818ef66d2c6f56fb9"}
+{"section": "2.3 Representations are converging across modalities", "seq": 17, "sha256": "00004f8a7d1c68877685d351df7dce7216bdd4233b18ee3b4c3cb1b456ab3796"}
+{"section": "2.3 Representations are converging across modalities", "seq": 18, "sha256": "f74f5e00b05d1bca6c5501a59e559f23f8a2c4fbb0767ea032766f90ad4e5f47"}
+{"section": "2.3 Representations are converging across modalities", "seq": 19, "sha256": "e6dd512bd9a229ed957fc97cebb4b296f25990e2e79a17f181310fa2e62b064f"}
+{"section": "2.3 Representations are converging across modalities", "seq": 20, "sha256": "287c9a1d816eceade861cde83541c8afbbccdb6da1b5629158655ff72a3b6293"}
+{"section": "2.4 Models are increasingly aligning to brains", "seq": 21, "sha256": "6d6c714171e5827de872575374275746bd11ff3b8bc2220c95a5b8c3fce9f0db"}
+{"section": "2.4 Models are increasingly aligning to brains", "seq": 22, "sha256": "1acd80e1a81d84b56eb9cc322a0ddd7166b107624cc2eeaf00f25f8c48a02c92"}
+{"section": "2.5 Does alignment predict downstream performance?", "seq": 23, "sha256": "5481cb9e26e3db249e739ce2be10e3b215bfa5e1fa4a2268b2b633af309dfde4"}
+{"section": "3 Why are representations converging?", "seq": 24, "sha256": "0ccfa3c664d78faf5e8b1a1fffcff7e86a8d627c8815860b46702c3621333540"}
+{"section": "3.1 Convergence via", "seq": 25, "sha256": "80368bdbaa8487c8a9b5b87da032eb7844870b9dddb5040a66656b4d37eb6384"}
+{"section": "3.1 Convergence via", "seq": 26, "sha256": "765a0b1cc98169f067fffef5f604743ca177bdc1a0d52c1b2d0925d795c49e07"}
+{"section": "3.2 Convergence via", "seq": 27, "sha256": "8d082cf2fc4e49c8d429db53ec8513a0f2c79e980db30bc143d1912c2359b0dd"}
+{"section": "3.3 Convergence via", "seq": 28, "sha256": "126527ade5f32a425e4ce792757b96ff69dc8fa977915b083fc53846dd3136f7"}
+{"section": "4 What representation are we converging to?", "seq": 29, "sha256": "4ea546ec0ca66a516c2057ec752d57194ca6a77233b9c2baddf3d3f38666bbea"}
+{"section": "4.1 An idealized world", "seq": 30, "sha256": "8c8cf01451b63975395c4b45d7ab9fa887187d03b24f4e1045d15adc6b63ca8f"}
+{"section": "4.1 An idealized world", "seq": 31, "sha256": "bc7c9cdd33b37bf34614d89d02b23ef48444f8e6d0f6e954384e285130f80ca8"}
+{"section": "4.2 A family of contrastive learners converge to a representation of", "seq": 32, "sha256": "280a56b2e77d5212a14498b97d04e7536287e3ee43b2972df7a7319668977930"}
+{"section": "4.2 A family of contrastive learners converge to a representation of", "seq": 33, "sha256": "b021dd766a6bcf872d2ff998b5d5420862718ff6fb377835b9151e491ca97b44"}
+{"section": "4.2 A family of contrastive learners converge to a representation of", "seq": 34, "sha256": "348992d207d2b2f0fea51a45b2a7dd2b010aa683bea859ff9e234b18a67b3b04"}
+{"section": "4.2 A family of contrastive learners converge to a representation of", "seq": 35, "sha256": "4abb93b022e306be5fe3338a0af51641e5b68d4c509fea8080c744e7950f547a"}
+{"section": "5 What are the implications of convergence?", "seq": 36, "sha256": "336860cbde708007d298c4ff5d6cc0347c04fad21fb6e97166d88331d5c8c1b1"}
+{"section": "5 What are the implications of convergence?", "seq": 37, "sha256": "16d9ce1186e18f6d9ceb2697fa8f3c9675fe6471f0b1ad6623f0408658f18a10"}
+{"section": "5 What are the implications of convergence?", "seq": 38, "sha256": "00db35cf084be45a100584b2708509538363682460fbbe2c311e0d84ae2c8401"}
+{"section": "5 What are the implications of convergence?", "seq": 39, "sha256": "a638823f12fc91b7f27cf1bb283b42c98e2d965d0523cbf967a66c7afc74ef07"}
+{"section": "5 What are the implications of convergence?", "seq": 40, "sha256": "7833c3968152154a2d519598fcb8e334d233510f9f5dbb55d6f256d10625394a"}
+{"section": "6 Counterexamples and limitations", "seq": 41, "sha256": "2dfde52cedc6b323f4e47b4ee32323d60aa10b1e7c49776575a844c002083ae3"}
+{"section": "6 Counterexamples and limitations", "seq": 42, "sha256": "4faf0e5aefbb31df2a19c9c36f76397fbe40c7affa862388d7acf8de115da21e"}
+{"section": "6 Counterexamples and limitations", "seq": 43, "sha256": "133ad95a3ddf83daf0c2ac5e3e0995a93c075ac2af978579271a404fbfb9891f"}
+{"section": "6 Counterexamples and limitations", "seq": 44, "sha256": "1ce962912c981e71f9deb1205f755c41e494838702ac07a2c7eec1854ccb9669"}
+{"section": "6 Counterexamples and limitations", "seq": 45, "sha256": "800917f2d1c8e6071af2067f17237fbbe335ae42c892ce29a5953739ed39dab1"}
+{"section": "6 Counterexamples and limitations", "seq": 46, "sha256": "8275d86245b47f3f59c563ae5bcc21642c4a93244df18b3760cec368c6c0354d"}
+{"section": "Acknowledgements", "seq": 47, "sha256": "56268a84d367237b5762ded171b24ef18e872090351a81c6a3d3ccc65837a973"}
+{"section": "References", "seq": 48, "sha256": "4f38528ac8a23851c9133590c26e860b024d47d4f741023832d064b9f1f4e49d"}
+{"section": "References", "seq": 49, "sha256": "f4beedbf9df33ba3548540dd76e6d77c219c62c143bb47ebfa229ad01b5f81d1"}
+{"section": "References", "seq": 50, "sha256": "10e6b979271bf7933fafca402f667f31a34a360edebe44ecc95880af56b0e9a9"}
+{"section": "References", "seq": 51, "sha256": "584407629bdf72d97007ef0697fa36a7a7662291635d0d6720afc8b4c7d62a3a"}
+{"section": "References", "seq": 52, "sha256": "868a2d63495671123227a1608d54e03fdca010ec0651b56d6cd9bdc0dec27413"}
+{"section": "References", "seq": 53, "sha256": "888d9f2a9d4c6a23168d1abaae676a4a70360230f5d79e0647ce80950d880788"}
+{"section": "References", "seq": 54, "sha256": "1eeebaa9df12e66d412ae90141778bd9ef0c2151d369890f86ff5baca9a1a62b"}
+{"section": "References", "seq": 55, "sha256": "72ca0456a2c21d93837e1ff378094dcdfd778f43d9722509ed0edf09ec915bdb"}
+{"section": "References", "seq": 56, "sha256": "392bc13eee66ddf97b56e9369bb6c32917536090e53a62ef8cddb300b21f7796"}
+{"section": "References", "seq": 57, "sha256": "e608c9caadef8cb19a1a3bc96ab8bd7a314f2931c55188bd469ba2cd1efba79f"}
+{"section": "References", "seq": 58, "sha256": "f31a0730256d9a5ed7f4c216585f52c0b7a2559b77fb39eba1d251ac8e067d8f"}
+{"section": "References", "seq": 59, "sha256": "d276d0feb011a3ab4fa2081b56a77b0edabedf85b78dfc541563099410409416"}
+{"section": "References", "seq": 60, "sha256": "330a43c100821e85319e9024bfb032c2adedbee15c5d757a87c904842b157429"}
+{"section": "References", "seq": 61, "sha256": "75449176230099670c200b6170259dc7730c4f59ce4f248ed316cfaf94fe4e39"}
+{"section": "References", "seq": 62, "sha256": "a4317d63ef32f334202a2c4d7684e3f27f9aa941df988a078b0684a137892e4c"}
+{"section": "References", "seq": 63, "sha256": "90272e390c74762b5e1358eb03c778b4da18984f58eda90627850643491568e9"}
+{"section": "References", "seq": 64, "sha256": "e3226d9d12c697ec41e1f0081fa9002aee3df0a6a7b676536cff49d0b754bfb9"}
+{"section": "References", "seq": 65, "sha256": "c143f5c8458d721bbd0e214360bd1cf555f9ec9c7acbc746fa802195a159ff05"}
+{"section": "References", "seq": 66, "sha256": "3546c83c23107e996f49e81162b7de0a51ef55e111f2a214ec207f8cb2f3660b"}
+{"section": "References", "seq": 67, "sha256": "bcbb0576b1b7c11ddb41a0a997d56578c4a7394e1b66aa5b49727a7f6bf508b4"}
+{"section": "References", "seq": 68, "sha256": "68332876e669aa9ce5d44d43bb03f63b352c3249804dd40156c2e38acd6f4a36"}
+{"section": "References", "seq": 69, "sha256": "05e0d4737a14c64f34689f7c62d1a861a9c70422f834953004a4eb4a6c9e5e2d"}
+{"section": "References", "seq": 70, "sha256": "9e0948fe5f4e90cc8ef114fd1ee65f584f13900ad0ba79ab032cd97c02f3638a"}
+{"section": "References", "seq": 71, "sha256": "d4efbdee06bec17783dea98b673f8c0315c41b4520aac5cbeef29475848c0984"}
+{"section": "References", "seq": 72, "sha256": "54f1022c01f07e3f915e8929089f26109f140e7ed75562a48d3966e3cacf8f6e"}
+{"section": "References", "seq": 73, "sha256": "a425ab9b3ab88c09f77145f7461c760ab3f5fdbc0730dbb100edacf7452cb0f7"}
+{"section": "References", "seq": 74, "sha256": "06a9d50bf747fff1b02bb43b341c8692d4324c66f3135580d2230a23473179dd"}
+{"section": "References", "seq": 75, "sha256": "543eb31dc42357743ecb5940a2a66fa863feb6029d151126345da291d12da311"}
+{"section": "References", "seq": 76, "sha256": "d1c2d3bf891da05ac910c5d8cc5426415c11d187d1fae9bcfb177bbf52bd18c4"}
+{"section": "References", "seq": 77, "sha256": "5ad790b3428d6344aa1ede9070eabecf9827236d0e752df4ae134dfad4331814"}
+{"section": "Appendix A Mutual -Nearest Neighbor Alignment Metric", "seq": 78, "sha256": "e25e2e49439179c7b5b81b85c326c38b11bfbd9e77e8ca4bc977f4281e059786"}
+{"section": "Appendix A Mutual -Nearest Neighbor Alignment Metric", "seq": 79, "sha256": "825feb6ba1f715578f9d77105113bba2415d6e4d317f9b1d9243524b2316f61a"}
+{"section": "Appendix A Mutual -Nearest Neighbor Alignment Metric", "seq": 80, "sha256": "6e3601dfa53e1b9a33f8367e7d1cfc4bee06974eb7cf87ff1009d5e934b16d82"}
+{"section": "Appendix A Mutual -Nearest Neighbor Alignment Metric", "seq": 81, "sha256": "4e9fd66d103bb06fc113aaa6ff646c9a1a1ed56f93fa6572a85c413fa9bd17bc"}
+{"section": "Appendix A Mutual -Nearest Neighbor Alignment Metric", "seq": 82, "sha256": "addb12215a4972fc8afa391306fcbbf556b1d1e4a670b00e8e3c846ccb26e9d0"}
+{"section": "Appendix B Consistency across various metrics", "seq": 83, "sha256": "d56e80d4ecf9605e5a17ce82f3aa128cf21ee3e53867750f7f3e1349e6832349"}
+{"section": "Appendix B Consistency across various metrics", "seq": 84, "sha256": "184bd787b9a5ae1d155563b2843b7cd28183a243c946c9401e60506c1fd9d5ca"}
+{"section": "Appendix B Consistency across various metrics", "seq": 85, "sha256": "15fc2ea4111c96af6588899a3b1db27c8cb2684f62e26f08b3a92c7a0cea6f94"}
+{"section": "Appendix B Consistency across various metrics", "seq": 86, "sha256": "f35395882e234c7952197a4964797a218411bc7f6a31ea801505bc1093296c93"}
+{"section": "Appendix C Experiments on Evaluating Alignment and Convergence", "seq": 87, "sha256": "0631d0e76954b9724cdcaea023075d5faff6116c00f6696b5b0fe3e041e4ff22"}
+{"section": "C.1 Vision-Vision Alignment and Representation Quality", "seq": 88, "sha256": "27b36631d9fe2793698f35449b7c47fa93ea740ca4ce0aa2af733716c351f4b2"}
+{"section": "C.1 Vision-Vision Alignment and Representation Quality", "seq": 89, "sha256": "30d0ca21c707805e64c3ddb746d12042f46e90516ec849498dbd3fde1a4d6ce3"}
+{"section": "C.2 Cross-Modal Alignment", "seq": 90, "sha256": "c6c2934cee053a6d47935b37281e8bcf0b3293384b526b0832988291f3a10402"}
+{"section": "C.2 Cross-Modal Alignment", "seq": 91, "sha256": "ab354568b45b0710ef444d7c45434905fefcaff386cc34b0e6444a92cef45a5d"}
+{"section": "Appendix D Color Cooccurrence Experiment", "seq": 92, "sha256": "78414214853785c69c28e70a316bd4e5eb50dde5f7b940b0ba02e6dcd821be2c"}
+{"section": "Appendix D Color Cooccurrence Experiment", "seq": 93, "sha256": "f1846a6453b70240f6192b8a1154b5791d69636033cec0bde73c0c4c835a49a9"}
+{"section": "Appendix D Color Cooccurrence Experiment", "seq": 94, "sha256": "98af6570379a34552d615ed982afd31cf010f14ec4f6f66ebb9f721fa324a8c6"}
+{"section": "Appendix D Color Cooccurrence Experiment", "seq": 95, "sha256": "ad83b531b4334a2d13655f1cd1de66288ced2f1e848fd6fc4992232bc7333c25"}
+{"section": "Appendix E Caption Density Experiments", "seq": 96, "sha256": "8bc699eed6495c0713641826229cd956aa5ec08a613fff16996cf7d8f83f5fbe"}
+{"section": "F.1 Contrastive objectives learn pointwise mutual information", "seq": 97, "sha256": "2d15beedd3cb5f08a318d93b820a09a7e87a0eb3a1617433eb4cbc528a963b49"}
+{"section": "F.2 Contrastive learners can represent exactly under smoothness conditions", "seq": 98, "sha256": "caf07619b0d9ff06c02c4cb9c6f661c062a8cc04ca4fea0275055915b025e022"}
+{"section": "F.2 Contrastive learners can represent exactly under smoothness conditions", "seq": 99, "sha256": "a8dbebd4ed3edb6926a572a59b2e75d4e5463b2d0fc102c3bee9d457e8f4b8fc"}

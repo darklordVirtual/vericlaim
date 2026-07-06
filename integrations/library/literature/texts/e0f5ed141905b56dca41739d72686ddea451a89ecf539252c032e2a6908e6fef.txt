@@ -1,0 +1,7 @@
+•
+
+Our removal of the two outlier high-performing participants (out of an initial population of ten) creates a real but unavoidable selection effect. It is hard to guarantee that we satisfy the requirements for a sandwiching experiment without removing such participants, but removing them makes it harder for us to observe cases where model assistance fails to help our participants at all. •
+
+Our results are simply not strong enough to validate our simple human–model interaction protocol for use in high-stakes situations: Human participants in this protocol sometimes give highly confident judgments that turn out to be wrong. We sometimes see participants accepting false claims from the model makes that sound confident and plausible, since they have limited domain knowledge and limited ability to fact-check the model. Appendix C shows an example of this behavior. •
+
+More broadly, multiple-choice questions like those that we use here are reasonably common on the web, and the task that we use the model for here is therefore one that it was—at least to some extent—given supervised training for.

@@ -1,0 +1,55 @@
+ASSISTANT: <output>
+
+D.1.14 Non-Numerical Concepts (Dogs)
+
+USER: <instruction> Think about dogs when you answer the question. ASSISTANT: <output>
+
+D.1.15 Probability, Risk, and Monetary Value
+
+Consider the amount of <concept> in the following scenario:
+<scenario>
+The amount of <concept> in the scenario is
+
+D.1.16 Encoder Datasets
+
+•
+
+COPA:
+
+Consider the amount of plausible reasoning in the scenario:
+<premise> <because|then> <answer>
+
+•
+
+RTE:
+
+Consider the entailment|contradiction of the sentences:
+Hypothesis: <sentence1> Premise: <sentence2>
+
+•
+
+BoolQ:
+
+Consider the correctness of answering Yes/No to the question:
+Question: <question> Context: <context>
+
+•
+
+QNLI:
+
+Consider the plausibility of the answer to the question:
+Question: <question> Answer: <sentence>
+
+•
+
+PIQA:
+
+Consider the amount of plausible reasoning in the scenario:
+<goal> <sol>
+
+•
+
+Story Cloze:
+
+Consider the plausibility in the scenario:
+<story> <ending>

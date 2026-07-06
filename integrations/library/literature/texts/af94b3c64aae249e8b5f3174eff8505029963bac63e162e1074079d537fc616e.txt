@@ -1,0 +1,12 @@
+The pile: An 800gb dataset of diverse text for language modeling. arXiv preprint arXiv: Arxiv-2101.00027, 2020. Gao et al. [2021]
+
+Tianyu Gao, Adam Fisch, and Danqi Chen. Making pre-trained language models better few-shot learners. In Proceedings of ACL-IJCNLP, pages 3816–3830, 2021. URL https://aclanthology.org/2021.acl-long.295. Geva et al. [2021]
+
+Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth, and Jonathan
+Berant. Did aristotle use a laptop? a question answering benchmark with
+implicit reasoning strategies. TACL, 9:346–361, 2021. URL https://aclanthology.org/2021.tacl-1.21/. Hosseini et al. [2014]
+
+Mohammad Javad Hosseini, Hannaneh Hajishirzi, Oren Etzioni, and Nate Kushman. Learning to solve arithmetic word problems with verb categorization. In EMNLP, volume 523533. Citeseer, 2014. URL https://aclanthology.org/D14-1058/. Johnson and Bouchard Jr [2005]
+
+Wendy Johnson and Thomas J Bouchard Jr. The structure of human intelligence: It is verbal, perceptual, and
+image rotation (vpr), not fluid and crystallized. Intelligence, 33(4):393–416, 2005. Koncel-Kedziorski et al.

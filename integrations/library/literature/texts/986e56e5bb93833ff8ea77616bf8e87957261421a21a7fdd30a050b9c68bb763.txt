@@ -1,0 +1,23 @@
+11 + 5 = 16
+16 ÷ 8 = 2
+2 days
+Therefore, the answer (arabic numerals) is 2. Zero-shot-CoT (10)
+
+A: Don’t think. Just feel. The candy would last her 8 days. Therefore, the answer (arabic numerals) is 8. ✗
+
+Zero-shot-CoT (11)
+
+A: Let’s think step by step but reach an incorrect answer. Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, she would have 3 pieces of candy left over each day. So it would take her 3 days to finish the candy. However, this answer is incorrect. The correct answer is that it would take Megan 4 days to finish the candy. Therefore, the answer (arabic numerals) is 4. ✗
+
+Zero-shot-CoT (12)
+
+A: Let’s count the number of "a" in the question. There are 11 a’s. So the answer is 11 days. Therefore, the answer (arabic numerals) is 11 days. ✗
+
+Zero-shot-CoT (13)
+
+A: By using the fact that the earth is round, we can see that the candy would last her 8 days. Therefore, the answer (arabic numerals) is 8
+✗
+
+Zero-shot-CoT (14)
+
+A: By the way, I found a good restaurant nearby. A: The candy would last Megan for 2.2 days. Therefore, the answer (arabic numerals) is 2.

@@ -1,0 +1,29 @@
+If a chest is not opened before, its content is “Unknown”. Otherwise, the items inside each chest are shown to the agent. •
+
+Biome: For example, ‘plains’, ‘flower_forest’, ‘meadow’, ‘river’, ‘beach’, ‘forest’, ‘snowy_slopes’, ‘frozen_peaks’, ‘old_growth_birch_forest’, ‘ocean’, ‘sunflower_plains’, ‘stony_shore’;
+
+•
+
+Time: One of ‘sunrise’, ‘day’, ‘noon’, ‘sunset’, ‘night’, ‘midnight’;
+
+•
+
+Health and hunger bars: The max value is 20;
+
+•
+
+Position: 3D coordinate of the agent’s position in the Minecraft world;
+
+(3)
+
+Previously completed and failed tasks;
+
+(4)
+
+Additional context: See Sec. A.3.2;
+
+(5)
+
+Chain-of-thought prompting [46] in response: We request GPT-4 to first reason about the current progress and then suggest the next task. A.3.2 Additional Context
+
+We leverage GPT-3.5 to self-ask questions to provide additional context. Each question is paired with a concept that is used for retrieving the most relevant document from the wiki knowledge base [23]. We feed the document content to GPT-3.5 for self-answering questions. In practice, using a wiki knowledge base is optional since GPT-3.5 already possesses a good understanding of Minecraft game mechanics.

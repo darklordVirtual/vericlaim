@@ -1,0 +1,18 @@
+Activation addition: Steering language models without optimization. arXiv preprint arXiv:2308.10248, 2023e. Turpin et al. (2023)
+
+Miles Turpin, Julian Michael, Ethan Perez, and Samuel R. Bowman. Language models don’t always say what they think: Unfaithful
+explanations in chain-of-thought prompting, 2023. Upchurch et al. (2017)
+
+Paul Upchurch, Jacob Gardner, Geoff Pleiss, Robert Pless, Noah Snavely, Kavita
+Bala, and Kilian Weinberger. Deep feature interpolation for image content changes. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pp. 7064–7073, 2017. Veit et al. (2016)
+
+Andreas Veit, Michael J Wilber, and Serge Belongie. Residual networks behave like ensembles of relatively shallow
+networks. Advances in neural information processing systems, 29, 2016. Wang et al. (2018)
+
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and
+Samuel R. Bowman. GLUE: A multi-task benchmark and analysis platform for natural
+language understanding. CoRR, abs/1804.07461, 2018. Wang et al. (2023a)
+
+Kevin Ro Wang, Alexandre Variengien, Arthur Conmy, Buck Shlegeris, and Jacob
+Steinhardt.

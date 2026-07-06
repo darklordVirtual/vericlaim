@@ -1,0 +1,16 @@
+Playing atari with deep reinforcement learning. arXiv preprint arXiv: Arxiv-1312.5602, 2013. (34)
+
+OpenAI, :, Christopher Berner, Greg Brockman, Brooke Chan, Vicki Cheung,
+Przemysław Dębiak, Christy Dennison, David Farhi, Quirin Fischer, Shariq
+Hashme, Chris Hesse, Rafal Józefowicz, Scott Gray, Catherine Olsson, Jakub
+Pachocki, Michael Petrov, Henrique P. d. O. Pinto, Jonathan Raiman, Tim
+Salimans, Jeremy Schlatter, Jonas Schneider, Szymon Sidor, Ilya Sutskever,
+Jie Tang, Filip Wolski, and Susan Zhang. Dota 2 with large scale deep reinforcement learning. arXiv preprint arXiv: Arxiv-1912.06680, 2019. (35)
+
+OpenAI. Gpt-4 technical report. arXiv preprint arXiv: Arxiv-2303.08774, 2023. (36)
+
+Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian
+Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H. Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, and William
+Fedus. Emergent abilities of large language models. arXiv preprint arXiv: Arxiv-2206.07682, 2022. (37)
+
+Tom B.

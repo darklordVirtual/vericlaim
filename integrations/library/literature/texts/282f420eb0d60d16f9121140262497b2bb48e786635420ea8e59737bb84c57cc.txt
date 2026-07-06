@@ -1,0 +1,19 @@
+Dao et al. (2022a)
+
+Tri Dao, Daniel Y Fu, Stefano Ermon, Atri Rudra, and Christopher Re. 2022a. Flashattention:
+Fast and memory-efficient exact attention with IO-awareness. In Advances in Neural Information Processing Systems. Dao et al. (2022b)
+
+Tri Dao, Daniel Y Fu, Khaled K Saab, Armin W Thomas, Atri Rudra, and
+Christopher Ré. 2022b. Hungry hungry hippos: Towards language modeling with state space
+models. arXiv preprint arXiv:2212.14052. Demszky et al. (2020)
+
+Dorottya Demszky, Dana Movshovitz-Attias, Jeongwoo Ko, Alan S. Cowen, Gaurav
+Nemade, and Sujith Ravi. 2020. Goemotions:
+A dataset of fine-grained emotions. In Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics, ACL 2020, Online, July 5-10, 2020, pages
+4040–4054. Association for Computational Linguistics. Gao et al. (2020)
+
+Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles
+Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, et al. 2020. The pile: An 800gb dataset of diverse text for language modeling. arXiv preprint arXiv:2101.00027. Gu et al. (2021)
+
+Albert Gu, Karan Goel, and Christopher Ré. 2021.

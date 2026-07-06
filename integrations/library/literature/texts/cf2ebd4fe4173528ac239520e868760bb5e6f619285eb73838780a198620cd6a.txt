@@ -1,0 +1,11 @@
+We address this with three classical techniques: kernel fusion, parallel scan, and recomputation. We make two main observations:
+
+•
+
+The naive recurrent computation uses FLOPs while the convolutional computation uses FLOPs, and the former has a lower constant factor. Thus for long sequences and not-too-large state dimension , the recurrent mode can actually use fewer FLOPs. •
+
+The two challenges are the sequential nature of recurrence, and the large memory usage. To address the latter, just like the convolutional mode, we can attempt to not actually materialize the full state . The main idea is to leverage properties of modern accelerators (GPUs) to materialize the state only in more efficient levels of the memory hierarchy. In particular, most operations (except matrix multiplication)
+are bounded by memory bandwidth [williams2009roofline, ivanov2021data, dao2022flashattention]. This includes our scan operation,
+and we use
+kernel fusion to reduce the amount of memory IOs, leading to a significant speedup
+compared to a standard implementation.

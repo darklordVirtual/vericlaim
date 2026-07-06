@@ -1,0 +1,18 @@
+Zambaldi et al. [2018]
+
+Vinicius Zambaldi, David Raposo, Adam Santoro, Victor Bapst, Yujia Li, Igor
+Babuschkin, Karl Tuyls, David Reichert, Timothy Lillicrap, Edward Lockhart,
+et al. Deep reinforcement learning with relational inductive biases. In International Conference on Learning Representations, 2018. Sutton and Barto [2018]
+
+Richard S Sutton and Andrew G Barto. Reinforcement learning: An introduction. MIT Press, 2018. Hung et al. [2019]
+
+Chia-Chun Hung, Timothy Lillicrap, Josh Abramson, Yan Wu, Mehdi Mirza, Federico
+Carnevale, Arun Ahuja, and Greg Wayne. Optimizing agent behavior over long time scales by transporting
+value. Nature communications, 10(1):1–12, 2019. Levine et al. [2020]
+
+Sergey Levine, Aviral Kumar, George Tucker, and Justin Fu. Offline reinforcement learning: Tutorial, review, and perspectives on
+open problems. arXiv preprint arXiv:2005.01643, 2020. Radford et al. [2018]
+
+Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training. 2018. Bellemare et al. [2013]
+
+Marc G Bellemare, Yavar Naddaf, Joel Veness, and Michael Bowling.

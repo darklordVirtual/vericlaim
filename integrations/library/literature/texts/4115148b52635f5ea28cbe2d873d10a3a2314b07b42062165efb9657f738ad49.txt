@@ -1,0 +1,17 @@
+An image is worth 16x16 words: Transformers for image recognition at
+scale. arXiv preprint arXiv:2010.11929, 2020. Elhoseiny et al. (2013)
+
+Elhoseiny, M., Saleh, B., and Elgammal, A. Write a classifier: Zero-shot learning using purely textual
+descriptions. In Proceedings of the IEEE International Conference on Computer
+Vision, pp. 2584–2591, 2013. Faghri et al. (2017)
+
+Faghri, F., Fleet, D. J., Kiros, J. R., and Fidler, S. Vse++: Improving visual-semantic embeddings with hard negatives. arXiv preprint arXiv:1707.05612, 2017. Fergus et al. (2005)
+
+Fergus, R., Fei-Fei, L., Perona, P., and Zisserman, A. Learning object categories from google’s image search. In Tenth IEEE International Conference on Computer Vision
+(ICCV’05) Volume 1, volume 2, pp. 1816–1823. IEEE, 2005. Frome et al. (2013)
+
+Frome, A., Corrado, G. S., Shlens, J., Bengio, S., Dean, J., Ranzato, M., and
+Mikolov, T. Devise: A deep visual-semantic embedding model. In Advances in neural information processing systems, pp. 2121–2129, 2013. Gan et al. (2020)
+
+Gan, Z., Chen, Y.-C., Li, L., Zhu, C., Cheng, Y., and Liu, J. Large-scale adversarial training for vision-and-language
+representation learning.

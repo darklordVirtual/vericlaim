@@ -1,0 +1,32 @@
+30: Prompt stubs for the document merging task continued; parameters in single curly brackets will be substituted at runtime. improve_prompt:
+The following NDA <S> merges initial NDAs <Doc1> - <Doc4>. Please improve the merged NDA <S> by adding more information and removing redundancy. Output only the improved NDA, placed between the tags <Merged> and </Merged>, without any additional text. Here are NDAs <Doc1> - <Doc4>:
+
+<Doc1>
+{doc1}
+</Doc1>
+
+<Doc2>
+{doc2}
+</Doc2>
+
+<Doc3>
+{doc3}
+</Doc3>
+
+<Doc4>
+{doc4}
+</Doc4>
+
+Here is the merged NDA <S>:
+
+<S>
+{s}
+</S>
+
+Table 31: Input NDA 1 and 2
+
+<Doc1>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+1. Agreement between [Your Company Name] and [Recipient Name] on [Date]. 2. Information sharing for the purpose of [specific project or purpose]. 3. ”Confidential Information” includes all potentially commercially valuable information, specifically software development tactics, processes, and in-house research results. 4. Receiving party is obligated to protect the Confidential Information, use it solely for the disclosed purpose, and not disclose it without consent. 5. Breach penalties include injunctive relief, other remedies, and a $200,000 fee per breach. 6.

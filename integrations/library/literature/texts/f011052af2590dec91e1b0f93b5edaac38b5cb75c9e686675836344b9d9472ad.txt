@@ -1,0 +1,18 @@
+Journal of Personality and Social Psychology, 45:513–523, 09 1983. doi: 10.1037/0022-3514.45.3.513. Selvaraju et al. (2017)
+
+Ramprasaath R Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam,
+Devi Parikh, and Dhruv Batra. Grad-cam: Visual explanations from deep networks via gradient-based
+localization. In Proceedings of the IEEE international conference on computer
+vision, pp. 618–626, 2017. Shaik et al. (2023)
+
+Thanveer Shaik, Xiaohui Tao, Haoran Xie, Lin Li, Xiaofeng Zhu, and Qing Li. Exploring the landscape of machine unlearning: A comprehensive survey
+and taxonomy, 2023. Shao et al. (2023)
+
+Shun Shao, Yftah Ziser, and Shay B. Cohen. Gold doesn’t always glitter: Spectral removal of linear and nonlinear
+guarded attribute information, 2023. Shen et al. (2020)
+
+Yujun Shen, Jinjin Gu, Xiaoou Tang, and Bolei Zhou. Interpreting the latent space of gans for semantic face editing. In Proceedings of the IEEE/CVF conference on computer vision
+and pattern recognition, pp. 9243–9252, 2020. Simonyan et al. (2013)
+
+Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman. Deep inside convolutional networks: Visualising image classification
+models and saliency maps.

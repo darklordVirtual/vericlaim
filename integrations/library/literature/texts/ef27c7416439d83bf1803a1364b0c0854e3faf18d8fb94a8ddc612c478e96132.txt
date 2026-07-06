@@ -1,0 +1,41 @@
+This means it has limited use for certain surveillance tasks when models that are designed with these uses in mind such as Detectron2 (Wu et al., 2019) are widely available. However, CLIP does unlock a certain aspect of usability given how it removes the need for training data. Thus, CLIP and similar models could enable bespoke, niche surveillance use cases for which no well-tailored models or datasets exist, and could lower the skill requirements to build such applications. As our experiments show, ZS CLIP displays non-trivial, but not exceptional, performance on a few surveillance relevant tasks today. Model
+
+100 Classes
+
+1k Classes
+
+2k Classes
+
+CLIP L/14
+
+59.2
+
+43.3
+
+42.2
+
+CLIP RN50x64
+
+56.4
+
+39.5
+
+38.4
+
+CLIP RN50x16
+
+52.7
+
+37.4
+
+36.3
+
+CLIP RN50x4
+
+52.8
+
+38.1
+
+37.3
+
+Table 8: CelebA Zero-Shot Top-1 Identity Recognition Accuracy

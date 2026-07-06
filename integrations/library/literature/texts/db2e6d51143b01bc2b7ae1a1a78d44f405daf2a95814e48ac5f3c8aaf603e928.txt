@@ -1,0 +1,57 @@
+Notably, both of the directions transfer well to the other out-of-distribution context, demonstrating that these directions maintain a strong correlation with properties of memorization. No Control
+
+Representation Control
+
+Random
+
+EM
+
+SIM
+
+EM
+
+SIM
+
+EM
+
+SIM
+
+EM
+
+SIM
+
+LATQuote
+
+89.3
+
+96.8
+
+85.4
+
+92.9
+
+81.6
+
+91.7
+
+47.6
+
+69.9
+
+LATLiterature
+
+87.4
+
+94.6
+
+84.5
+
+91.2
+
+37.9
+
+69.8
+
+Table 7: We demonstrate the effectiveness of using representation control to reduce memorized outputs from a LLaMA-2-13B model on the popular quote completion task. When controlling with a random vector or guiding in the memorization direction, the Exact Match (EM) rate and Embedding Similarity (SIM) do not change significantly. When controlled to decrease memorization, the similarity metrics drop significantly as the model regurgitate the popular quotes less frequently. 6.5.2 Preventing Memorized Outputs
+
+Here, we explore whether the reading vectors identified above can be used for controlling memorization behavior.

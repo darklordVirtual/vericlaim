@@ -1,0 +1,18 @@
+Amodei et al. (2016)
+
+Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and
+Dan Mané. 2016. Concrete problems in AI safety. arXiv preprint arXiv:1606.06565. Askell et al. (2021)
+
+Amanda Askell, Yuntao Bai, Anna Chen, Dawn Drain, Deep Ganguli, Tom Henighan,
+Andy Jones, Nicholas Joseph, Ben Mann, Nova DasSarma, et al. 2021. A general language assistant as a laboratory for alignment. arXiv preprint arXiv:2112.00861. Bai et al. (2022)
+
+Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma,
+Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, et al. 2022. Training a helpful and harmless assistant with reinforcement learning
+from human feedback. arXiv preprint arXiv:2204.05862. Bansal et al. (2021)
+
+Gagan Bansal, Tongshuang Sherry Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece
+Kamar, Marco Tulio Ribeiro, and Daniel S. Weld. 2021. Does the whole exceed its parts? The effect of AI explanations on
+complementary team performance. Proceedings of the 2021 CHI Conference on Human Factors in
+Computing Systems. Bostrom (2014)
+
+Nick Bostrom. 2014. Superintelligence: Paths, Dangers, Strategies, 1st edition. Oxford University Press, Inc., USA.

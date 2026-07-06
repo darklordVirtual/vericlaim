@@ -1,0 +1,5 @@
+Concretely, an S4 layer is parameterized as follows. First initialize a SSM with set to the HiPPO matrix (2). By Lemma 3.1 and Theorem 1,
+this SSM is unitarily equivalent to some for some diagonal and vectors . These comprise S4’s trainable parameters. The overall deep neural network (DNN) architecture of S4 is similar to prior work. As defined above,
+S4 defines a map from , i.e. a 1-D sequence map. Typically, DNNs operate on feature maps of size instead of . S4 handles multiple features by simply defining independent copies of itself, and then mixing the features with a position-wise linear layer for a total of parameters per layer. Nonlinear activation functions are also inserted between these layers. Overall, S4 defines a sequence-to-sequence map of shape (batch size, sequence length, hidden dimension), exactly the same as related sequence models such as Transformers, RNNs, and CNNs. Table 1:
+Complexity of various sequence models in terms of sequence length (), batch size (), and hidden dimension ();
+tildes denote log factors.

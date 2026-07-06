@@ -1,0 +1,23 @@
+[0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9]
+(2 Errors - Missing one 1 and got one extra 6)
+
+8. [0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9]
+(1 Error - Missing one 1)
+
+9. [0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9]
+(1 Error - Missing one 1)
+
+10. [0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9]
+(2 Errors - Missing one 1 and one 5)
+
+Table 9: Sorting of a 32 element list: Step 4 (Prompt/Responses)
+
+Step 4 – Prompt:
+
+<Instruction> The following two lists represent an unsorted list of numbers and a sorted variant of that list. The sorted variant is not correct. Fix the sorted variant so that it is correct. Make sure that the output list is sorted in ascending order, has the same number of elements as the input list (32), and contains the same elements as the input list.</Instruction>
+
+<Approach>
+
+To fix the incorrectly sorted list follow these steps:
+
+1.

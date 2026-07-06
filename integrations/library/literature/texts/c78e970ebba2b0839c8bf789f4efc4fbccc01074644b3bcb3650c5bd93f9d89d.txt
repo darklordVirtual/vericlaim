@@ -1,0 +1,5 @@
+As for correct samples, we examined if the produced chain of thought is logical and consistent with the correct prediction. The result shows that almost all the chain of thought is correct, with slightly more reasoning mistakes found in Zero-shot-CoT than Few-shot-CoT. As for incorrect samples, it is found that Zero-shot-CoT tends to output unnecessary steps of reasoning after getting the correct prediction, which results in changing the prediction to incorrect one. Zero-shot-CoT also sometimes does not start reasoning, just rephrasing the input question. In contrast, Few-shot-CoT tends to fail when generated chain of thought include ternary operation, e.g. . Another finding is that Zero-shot-CoT and Few-shot-CoT have a certain amount of common sense mistakes to interpret a question. Some examples are found at LABEL:tab:example_multiarith_comparison. Table 24: Example-based comparison between Zero-shot-CoT and Few-shot-CoT from MultiArith. Question
+Zero-shot-CoT
+Few-shot-CoT
+
+Q: At the fair Adam bought 13 tickets. After riding the ferris wheel he had 4 tickets left. If each ticket cost 9 dollars, how much money did Adam spend riding the ferris wheel?

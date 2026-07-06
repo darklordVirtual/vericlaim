@@ -1,0 +1,4 @@
+Our experiment uses multiple language models as described at Table 8
+
+Table 8: Description of language models. (*1) As for Original GPT3 models, we assign model size information to each model by referring to https://blog.eleuther.ai/gpt3-model-sizes/
+and https://beta.openai.com/docs/model-index-for-researchers. (*2) There is no official information about the model size of Instruct GPT3. We infer from the API name that the order of model size of Instruct GPT3 matches that of Original GPT3.

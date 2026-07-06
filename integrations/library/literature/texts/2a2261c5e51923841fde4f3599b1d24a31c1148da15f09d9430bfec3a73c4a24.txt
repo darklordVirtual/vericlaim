@@ -1,0 +1,59 @@
+We additionally evaluated Zero-shot-CoT on PaLM 540B, without and with self-consistency [Wang et al., 2022]. Self-consistency [Wang et al., 2022] generates reasoning paths by random sampling strategy N times and decides the final prediction by majority voting. Table 25: Further experiment results with PaLM (540B). Evaluation metric is Accuracy. AQUA-RAT
+
+SVAMP
+
+GSM8K
+
+MultiArith
+
+Zero-shot
+
+23.4
+
+63.1
+
+12.5
+
+25.5
+
+Zero-shot-CoT
+
+36.1
+
+63.1
+
+43.0
+
+66.1
+
+Zero-shot-CoT + self consistency
+(40 paths)
+
+46.5
+
+80.5
+
+70.1
+
+89.0
+
+Few-shot-CoT [Wei et al., 2022]
+
+35.8
+
+79.0
+
+56.9
+
+-
+
+Few-shot-CoT + self consistency
+(40 paths) [Wang et al., 2022]
+
+48.3
+
+86.6
+
+74.4
+
+-

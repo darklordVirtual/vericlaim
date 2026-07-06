@@ -1,0 +1,19 @@
+[24]
+
+Sergey Levine and Pieter Abbeel. Learning neural network policies with guided policy search under
+unknown dynamics. In Z. Ghahramani, M. Welling, C. Cortes, N. D. Lawrence, and K. Q. Weinberger, editors, Advances in Neural Information Processing Systems
+27, pages 1071–1079. Curran Associates, Inc., 2014. [25]
+
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A Rusu, Joel Veness,
+Marc G Bellemare, Alex Graves, Martin Riedmiller, Andreas K Fidjeland, Georg
+Ostrovski, et al. Human-level control through deep reinforcement learning. Nature, 518(7540):529, 2015. [26]
+
+Matej Moravčík, Martin Schmid, Neil Burch, Viliam Lisỳ, Dustin
+Morrill, Nolan Bard, Trevor Davis, Kevin Waugh, Michael Johanson, and Michael
+Bowling. Deepstack: Expert-level artificial intelligence in heads-up no-limit
+poker. Science, 356(6337):508–513, 2017. [27]
+
+Arun Nair, Praveen Srinivasan, Sam Blackwell, Cagdas Alcicek, Rory Fearon,
+Alessandro De Maria, Vedavyas Panneershelvam, Mustafa Suleyman, Charles
+Beattie, Stig Petersen, Shane Legg, Volodymyr Mnih, Koray Kavukcuoglu, and
+David Silver. Massively parallel methods for deep reinforcement learning. CoRR, abs/1507.04296, 2015.

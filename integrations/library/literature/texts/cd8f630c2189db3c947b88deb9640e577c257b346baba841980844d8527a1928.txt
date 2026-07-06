@@ -1,0 +1,6 @@
+Foundation models (FMs), or large models pretrained on massive data then adapted for downstream tasks, have emerged as an effective paradigm in modern machine learning. The backbone of these FMs are often
+sequence models, operating on arbitrary sequences of inputs from a wide variety of domains such as language, images, speech, audio, time series, and genomics
+[sutskever2014sequence, dosovitskiy2020image, oord2016wavenet, brown2020language, ismail2019deep, poli2023hyena]. While this concept is agnostic to a particular choice of model architecture,
+modern FMs are predominantly based on a single type of sequence model: the Transformer [vaswani2017attention] and its core attention layer [bahdanau2015neural]
+The efficacy of self-attention is attributed to its ability to route information densely within a context window, allowing it to model complex data. However, this property brings fundamental drawbacks: an inability to model anything outside of a finite window,
+and quadratic scaling with respect to the window length.

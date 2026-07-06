@@ -1,0 +1,15 @@
+We evaluate on the following tasks:
+
+ARC Clark et al. (2018)
+
+A dataset designed for multiple-choice question answering, encompassing science exam questions ranging from third grade to ninth grade. It has Easy and Challenge subsets that we report results on separately. BoolQ Clark et al. (2019)
+
+A binary yes/no question answering benchmark. COPA Roemmele et al. (2018)
+
+A dataset to evaluate achievement in open-domain commonsense causal reasoning. HeadQA Vilares and Gómez-Rodríguez (2019)
+
+A benchmark consisting of graduate-level questions encompassing various fields such as medicine, nursing, biology, chemistry, psychology, and pharmacology. HellaSwag
+
+Zellers et al. (2019) A novel benchmark for commonsense Natural Language Inference (NLI) which is build by adversarial filtering against transformer models. LAMBADA Paperno et al. (2016)
+
+A benchmark dataset that evaluates the model’s contextual reasoning and language comprehension abilities by presenting context-target pairs, where the objective is to predict the most probable target token. We follow standard practice and use the untokenized version created by OpenAI (Brown et al., 2020). OpenBookQA Mihaylov et al.

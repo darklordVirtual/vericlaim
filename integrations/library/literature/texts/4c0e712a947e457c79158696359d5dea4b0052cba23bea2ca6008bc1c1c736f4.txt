@@ -1,0 +1,17 @@
+2022. Language models (mostly) know what they know. arXiv preprint arXiv:2207.05221. Kojima et al. (2022)
+
+Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke
+Iwasawa. 2022. Large language models are zero-shot reasoners. arXiv preprint arXiv:2205.11916. Lai et al. (2021)
+
+Vivian Lai, Chacha Chen, Q Vera Liao, Alison Smith-Renner, and Chenhao Tan. 2021. Towards a science of human-ai decision making: a survey of empirical
+studies. arXiv preprint arXiv:2112.11471. Lakkaraju et al. (2016)
+
+Himabindu Lakkaraju, Stephen H. Bach, and Jure Leskovec. 2016. Interpretable
+decision sets: A joint framework for description and prediction. In Proceedings of the 22nd ACM SIGKDD International Conference
+on Knowledge Discovery and Data Mining, KDD ’16, page 1675–1684, New York,
+NY, USA. Association for Computing Machinery. Leike et al. (2018)
+
+Jan Leike, David Krueger, Tom Everitt, Miljan Martic, Vishal Maini, and Shane
+Legg. 2018. Scalable agent alignment via reward modeling: a research direction. arXiv preprint arXiv:1811.07871. Lichtenstein and Fischhoff (1980)
+
+Sarah Lichtenstein and Baruch Fischhoff. 1980. Training for calibration.

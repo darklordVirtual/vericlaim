@@ -1,0 +1,21 @@
+Abdou et al. (2021)
+
+Abdou, M., Kulmizev, A., Hershcovich, D., Frank, S., Pavlick, E., and
+Søgaard, A. Can language models encode perceptual structure without grounding? a
+case study in color. arXiv preprint arXiv:2109.06129, 2021. Ainsworth et al. (2022)
+
+Ainsworth, S. K., Hayase, J., and Srinivasa, S. Git re-basin: Merging models modulo permutation symmetries. arXiv preprint arXiv:2209.04836, 2022. Antonello & Huth (2024)
+
+Antonello, R. and Huth, A. Predictive coding or just feature discovery? an alternative account
+of why language models fit brain data. Neurobiology of Language, 5(1):64–79,
+2024. Aronszajn (1950)
+
+Aronszajn, N. Theory of reproducing kernels. Transactions of the American mathematical society, 68(3):337–404, 1950. Arora et al. (2019a)
+
+Arora, S., Cohen, N., Hu, W., and Luo, Y. Implicit regularization in deep matrix factorization. Advances in Neural Information Processing Systems, 32,
+2019a. Arora et al. (2019b)
+
+Arora, S., Khandeparkar, H., Khodak, M., Plevrakis, O., and Saunshi, N. A theoretical analysis of contrastive unsupervised representation
+learning. arXiv preprint arXiv:1902.09229, 2019b. Balestriero & Baraniuk (2018)
+
+Balestriero, R. and Baraniuk, R. G.

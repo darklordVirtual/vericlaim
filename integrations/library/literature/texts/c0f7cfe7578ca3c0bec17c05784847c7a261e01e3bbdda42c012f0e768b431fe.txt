@@ -1,0 +1,15 @@
+(A1, A3)
+
+•
+
+Modularity: The division of tasks into separate agents promotes modularity in the system. Each agent can be developed, tested, and maintained independently, simplifying the overall development process and facilitating code management. (A3, A4, A5, and A6)
+
+•
+
+Programmability: AutoGen allows users to extend/customize existing agents to develop systems satisfying their specific needs with ease. (A1-A6). For example, with AutoGen, the core workflow code in A4 is reduced from over 430 lines to 100 lines, for a 4x saving. •
+
+Allowing human involvement: AutoGen provides a native mechanism to achieve human participation and/or human oversight. With AutoGen, humans can seamlessly and optionally cooperate with AIs to solve problems or generally participate in the activity. AutoGen also facilitates interactive user instructions to ensure the process stays on the desired path. (A1, A2, A5, and A6)
+
+•
+
+Collaborative/adversarial agent interactions: Like many collaborative agent systems Dong et al. (2023), agents in AutoGen can share information and knowledge, to complement each other’s abilities and collectively arrive at better solutions. (A1, A2, A3, and A4).

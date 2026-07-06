@@ -1,0 +1,10 @@
+Multitask prompted training enables zero-shot task generalization. In ICLR, 2022. URL https://openreview.net/forum?id=9Vrb9D0WI4. Schick and Schütze [2021]
+
+Timo Schick and Hinrich Schütze. It’s not just size that matters: Small language models are also
+few-shot learners. In Proceedings of NAACL, pages 2339–2352, 2021. URL https://aclanthology.org/2021.naacl-main.185. Shin et al. [2020]
+
+Taylor Shin, Yasaman Razeghi, Robert L. Logan IV, Eric Wallace, and Sameer
+Singh. AutoPrompt: Eliciting Knowledge from Language Models with
+Automatically Generated Prompts. In Proceedings of EMNLP, pages 4222–4235, 2020. URL https://aclanthology.org/2020.emnlp-main.346. Shwartz et al. [2020]
+
+Vered Shwartz, Peter West, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. Unsupervised commonsense question answering with self-talk. In Proceedings of EMNLP, pages 4615–4629, 2020. URL https://aclanthology.org/2020.emnlp-main.373. Smith et al.

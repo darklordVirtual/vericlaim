@@ -1,0 +1,43 @@
+My ultimate goal is to discover as many things as possible, accomplish as many tasks as possible and become the best Minecraft player in the world. I will give you the following information:
+
+Biome: …
+
+Time: …
+
+Nearby blocks: …
+
+Other blocks that are recently seen: …
+
+Nearby entities (nearest to farthest): …
+
+Health: …
+
+Hunger: …
+
+Position: …
+
+Equipment: …
+
+Inventory (xx/36): …
+
+Chests: …
+
+Completed tasks so far: …
+
+Failed tasks that are too hard: …
+
+You must follow the following criteria:
+
+1) You should ask at least 5 questions (but no more than 10 questions) to help me decide the next immediate task to do. Each question should be followed by the concept that the question is about. 2) Your question should be specific to a concept in Minecraft. Bad example (the question is too general):
+
+Question: What is the best way to play Minecraft? Concept: unknown
+
+Bad example (axe is still general, you should specify the type of axe such as wooden axe):
+
+What are the benefits of using an axe to gather resources? Concept: axe
+
+Good example:
+
+Question: How to make a wooden pickaxe? Concept: wooden pickaxe
+
+3) Your questions should be self-contained and not require any context.

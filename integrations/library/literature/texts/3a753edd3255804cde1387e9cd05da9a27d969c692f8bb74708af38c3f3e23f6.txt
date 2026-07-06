@@ -1,0 +1,16 @@
+Popular RNN architectures such as LSTM Hochreiter and Schmidhuber (1997) and GRU Chung et al. (2014) are characterized by the following formulation (shown for LSTM, others can be reasoned similarly):
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Although RNNs can be factored into two linear blocks ( and ) and an RNN-specific block (1)–(6), as noted by Bradbury et al. (2017),
+the data dependency relying on previous time steps prohibits parallelizing these typical RNNs.

@@ -1,0 +1,216 @@
+{"fsid": "arxiv_2103-00020", "n": 215, "overlap": 200, "source_sha256": "d817f4c145c9ac69ff519b8181253eaab6bcc5ea61dd40087f4b16e9ff7a7a03", "target": 1200}
+{"section": "", "seq": 0, "sha256": "de6dc72e768584d78986dacb87ee450a639f4d08fa00815f7675579ff8e8d67e"}
+{"section": "Learning Transferable Visual Models From Natural Language Supervision", "seq": 1, "sha256": "94b29d2eafe63880cdffdf757930dfbde175a1e39095f79d08b42575a95c1ef2"}
+{"section": "Learning Transferable Visual Models From Natural Language Supervision", "seq": 2, "sha256": "da1d3dfd8bef30ed64c0aa7fbeaf7abca70408a457e73561a1725d2f7e0dd400"}
+{"section": "1 Introduction and Motivating Work", "seq": 3, "sha256": "f6b9b0a80db8d3e2dd15a9106446984335560292c3a6325bd0dee35e4ec49696"}
+{"section": "1 Introduction and Motivating Work", "seq": 4, "sha256": "b462f873055c9928d6215f9521ddb7b18bad770c7bd7d90cdc44f6de41a80151"}
+{"section": "1 Introduction and Motivating Work", "seq": 5, "sha256": "30ff1e38fce473352fcc45cfc2ff664e3418bf6ae317a33209146d4da0fcd86b"}
+{"section": "1 Introduction and Motivating Work", "seq": 6, "sha256": "b39a71ab7a30617f1d00932a42e58de26b5e557d1f864d7897f12869f44351ef"}
+{"section": "1 Introduction and Motivating Work", "seq": 7, "sha256": "a9b86475e2ae724536d303aae070491ab19ac992c6417ebb05fa12958c0dd27f"}
+{"section": "1 Introduction and Motivating Work", "seq": 8, "sha256": "caf864af51ef97d892d44e006bafb40524237ea2313443f080b1e57140d6ee83"}
+{"section": "1 Introduction and Motivating Work", "seq": 9, "sha256": "1d50383fc106bbe512e7a74eb010455b2282f9be887a7a000cffbdc2080017b1"}
+{"section": "1 Introduction and Motivating Work", "seq": 10, "sha256": "2146ec48c2bd23739929a2ab811936cd6e08b014d8c5049b5489ec9119d8c869"}
+{"section": "2.1 Natural Language Supervision", "seq": 11, "sha256": "c3abcf2c5fb0b69e6716eea67e4fc905e9120d216b2e427b25076611f47748a5"}
+{"section": "2.1 Natural Language Supervision", "seq": 12, "sha256": "4eb64a95f4c629dfd0a95602daf34c56d3a3e2d16344230e2fe0b13304003378"}
+{"section": "2.2 Creating a Sufficiently Large Dataset", "seq": 13, "sha256": "3ff8b57d5a7d7ce1b0516a0520354c1d4435f633a72b4ba51a3a3526509aa3e9"}
+{"section": "2.2 Creating a Sufficiently Large Dataset", "seq": 14, "sha256": "7af1d46c284736e3cfff141b57dde4e8055951b4f290440f4259b7c13aad93d3"}
+{"section": "2.3 Selecting an Efficient Pre-Training Method", "seq": 15, "sha256": "44bd43a32d01f238dcfd5ab9d766bad83ba3692a3d4d19a8f8eab60b941cea74"}
+{"section": "2.3 Selecting an Efficient Pre-Training Method", "seq": 16, "sha256": "17a3953fd5e8d9157d76ec6cfb548de018db2cca7507329234a967d79f989a54"}
+{"section": "2.3 Selecting an Efficient Pre-Training Method", "seq": 17, "sha256": "4cd94e77efd57203e4194d4b42692a0c8d6f370cb1715ef5c0cfc052da2ec3a3"}
+{"section": "2.3 Selecting an Efficient Pre-Training Method", "seq": 18, "sha256": "dcca7cddfc77c75729e60684c1dc00c3712bd6ec6f9e0e1a3dd742d36bd43b45"}
+{"section": "2.3 Selecting an Efficient Pre-Training Method", "seq": 19, "sha256": "68d373590eeeae8088abb8909852ffa533575d699aea6067fdbd6e4e037124ef"}
+{"section": "2.4 Choosing and Scaling a Model", "seq": 20, "sha256": "0e155873454ee459e4c78b1f3fb810506ea59d8bd9e6a547e3541d3858a60d17"}
+{"section": "2.4 Choosing and Scaling a Model", "seq": 21, "sha256": "954bb3b40d6b31205141b796c900e8f60c19b8e20c16dde7583eb3fdd96ec193"}
+{"section": "2.4 Choosing and Scaling a Model", "seq": 22, "sha256": "95155c94d12344cdf4b784b268b0b7eee8cb0f3fed22ffe6cedf3b84221d25f9"}
+{"section": "2.5 Training", "seq": 23, "sha256": "80806073f5b73f2c39113336e7f1797cc8c16599094316f1717f9e0b280d7976"}
+{"section": "2.5 Training", "seq": 24, "sha256": "b5b059c3ea2dfb48c44e685795885a26201d9ddadf04a808c7af1b3cbdb616ab"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 25, "sha256": "dc67bc834b6bc0c62845110d6763dca4be9d4d84dc925fead492a7cd82c74a80"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 26, "sha256": "bf39a05c93e1ec3e45f6343dc70e0238fc132408a8cac6e03930219d9dc6ddf0"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 27, "sha256": "9b4dd2411e6846d37b974acaee95a63a65635c59f7c1443571f866b96bf65490"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 28, "sha256": "d7cf5add6fb84bc97619b3a6d25c0799909537c4cdcf121e26db3a34df3c0347"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 29, "sha256": "06d6dff08f0768ff2dadd50b143d74b93a0f8a361f57b6ef2586e56f1ef682b1"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 30, "sha256": "bd68923d3fb87840d85e4935e403c89e78d090ebc8916cc69dd582c682154af4"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 31, "sha256": "48b960bd84723289188454cc5c2a4751c6e189c486f297a57828358afa4ae02c"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 32, "sha256": "3570675111877f5a1db84fbc03d2205d2e2a8d99e5c6edde7cc75b958c390d61"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 33, "sha256": "8e55e91de288d8229fd9a1180f65afac54a7fe2fc833c98ce514ab52544ab59e"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 34, "sha256": "cbb6474303b1d669eb156d4a09c00ccadbb07e70299ca601a02cd652a1d7eaf5"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 35, "sha256": "496d74731515c1cbd2eac7b33b06f7bd1a27ad4f42ea3599fd77b71a08bc2d98"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 36, "sha256": "91de73624be89c050e5292cf76e152c23780b00c91d9051ae2a6b78ba315c0a7"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 37, "sha256": "f6f1ad02f6c4307f59bf1459ad3bc17bae58595e3685a7c37272091b41d776be"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 38, "sha256": "cdfff3d79bc151a95e81d0c25b38932c3a53a46b7d2c9849b6724276b667369b"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 39, "sha256": "cb8bd71db9e732d092e395863a3613673d108e7a241cc877f680e2c9aa77c182"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 40, "sha256": "7da2fcb8a3a86ce9508da5bb2bf80bfb690c61a2e911de0bdc1b453416b17431"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 41, "sha256": "a33e6d4ae6bde913c4029b0578545bcef7f0aaf0c6e94ded96b921db06797058"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 42, "sha256": "3ff8911ac764fff78d7000477b70f757232636f69a60f4f4296a5262c362dbb7"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 43, "sha256": "4426d7e54965941d277066cefcc65071f232aaa30a051de0bf88f5b6994a8edf"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 44, "sha256": "f54e5a156c7247fd38e5842d6669062fd5039c0945081e0481efbf8ac0850840"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 45, "sha256": "902d3174add9f39ce98e0f3137649d2a73fec91db272854f67bc11f44d13428f"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 46, "sha256": "ceecd7094e11cb8b54ba48eab4c7602f65a5540b599a8636e03f4659bed334a4"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 47, "sha256": "10baa94b6229d79218bfaa2a615f572cd9251299f8bd7a414d2f81268f5cf364"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 48, "sha256": "299a7901367e56cc7ba55d28400786446871a3ca2f8789cae38c8936b941ba5c"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 49, "sha256": "0cf76744a326b6d6794a634990c9cb8b68bd71f38d5f912c2af5b5908eeed7c3"}
+{"section": "3.1 Zero-Shot Transfer", "seq": 50, "sha256": "5c3cff7beeb3e2a751f69a632659f7d76e899d61ed1c9a233f8c01024bdb3535"}
+{"section": "3.2 Representation Learning", "seq": 51, "sha256": "ff798635c299eb42ac4ce6fd18d8395bb0896713fcf5fd288c01c5b255ce2988"}
+{"section": "3.2 Representation Learning", "seq": 52, "sha256": "592c9883f8c47c170215417061621e4278c400aee6d9ea09f3d64e52e7cd7bd5"}
+{"section": "3.2 Representation Learning", "seq": 53, "sha256": "50a2a4cca0f60c7dc775274ad1b900f4d446b8298dcddd373ec299721376e851"}
+{"section": "3.2 Representation Learning", "seq": 54, "sha256": "6e07e0597d7dda0ebe4a19ef786eefad77d0b1f3449116c050daec6114b1e98a"}
+{"section": "3.2 Representation Learning", "seq": 55, "sha256": "a1a633b9894304d817dc0283c6f927b3e8ca15beaa9c84a554d08769afccdbb1"}
+{"section": "3.2 Representation Learning", "seq": 56, "sha256": "6c73e2f1ced010b36919d1f790a3c50cfa1d79256bdc18bebf18ab7df9cd4de9"}
+{"section": "3.2 Representation Learning", "seq": 57, "sha256": "3db48d54ce9cf540b41045cf6d37e75decfedafa351165960655b282f1f992da"}
+{"section": "3.2 Representation Learning", "seq": 58, "sha256": "79940c45b40cd8c361acbac1f2bd23619f2d70539be7f13e28db41d31b6f495e"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 59, "sha256": "b37f26bfb398b369bf6da03291e6940e333cbc50fa99698702ad2d62f74e039a"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 60, "sha256": "9d09dabc66079dcfbf04bc89f0a1a0d35d5ef52d934cfc1a7fc30a3cdcc77868"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 61, "sha256": "5399a49a81d618794b86ffd5c6e8ec6b445763cc8925fc9c3104bf34c3b14243"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 62, "sha256": "2f61b756d3cf5cb63fdf82870631fa07417d57d0a8d6ac50adaa201b8f3f4a32"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 63, "sha256": "079217306094b1fd0413e577a3cd51989a265b3e825919da38c011b0162e50df"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 64, "sha256": "92d2b8538f9b5a4e2dc67fee149d2d24f1c11abf695be7cbf3b70435740bb4f5"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 65, "sha256": "e79a199da13f9cf4c1c82cfafa87d0c7c0b477a6028ec350c9703d568a7800be"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 66, "sha256": "aef1739a60ff67c545a353951216582eed879f081eab9ff4060cb3b79fb2b2bd"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 67, "sha256": "54e6cc44992df087ed8328994dd50b829e423427586d513a2c8810ce652c83f5"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 68, "sha256": "6453f261fc1d5bf1ff52a48cd6b39fc968b24a5a0063b279c201a7c86c125566"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 69, "sha256": "018822387d09195f76fa0391aaf685598c24e1aa0c14c5c67430ca2f028d8f35"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 70, "sha256": "70af25335561acba327f0ea2868d07e0aa3d23775d74ba6e7d01d842ce451a80"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 71, "sha256": "56d8459ebab7acfbcceffa802bdfd2152a4da54fe1da82558cffb75e0bfd10c8"}
+{"section": "3.3 Robustness to Natural Distribution Shift", "seq": 72, "sha256": "67c87c05ff9f0c8ce44c7422afbb047f1ed83c8dbc0b8622020d6b7cc92bf6d7"}
+{"section": "4 Comparison to Human Performance", "seq": 73, "sha256": "d36b528d7e83f1f9ddfc60bd2f396aae45355a11c8a12891ea0ac64fcd6e69e0"}
+{"section": "4 Comparison to Human Performance", "seq": 74, "sha256": "878d5cd2f59490bbe64b5d225936a9d218ca28288a92ed15ca26b8abfee25177"}
+{"section": "4 Comparison to Human Performance", "seq": 75, "sha256": "25e4e2b7d51a3a727b26e75afdef69ebf15dcfe007dce3c9827d12a4f8ed6e7a"}
+{"section": "4 Comparison to Human Performance", "seq": 76, "sha256": "185286c7fd8fd0aef1564df66c369c28b201ddc68e7488422803ec08f46a5d43"}
+{"section": "4 Comparison to Human Performance", "seq": 77, "sha256": "efe91e97905f704b4754581172677b2ded6c2159b98381184f4408af9f157009"}
+{"section": "4 Comparison to Human Performance", "seq": 78, "sha256": "b6a406e0608b0de72a8f1253aa4370da86d309156248d57dccc1c931d95ce5e2"}
+{"section": "5 Data Overlap Analysis", "seq": 79, "sha256": "be4bd876e934b8a8d23b3221b21891aae333ab710072ddf5e202a84e3c71b9f5"}
+{"section": "5 Data Overlap Analysis", "seq": 80, "sha256": "5df7dd66af97132acb13da67aa7c1d43f6950ede5576686dd0ba40dca3662e42"}
+{"section": "5 Data Overlap Analysis", "seq": 81, "sha256": "57814228548f8f3e7b7b7305abc6abdbdbc84172ad4ed7c2afd3f2fe5073a225"}
+{"section": "5 Data Overlap Analysis", "seq": 82, "sha256": "da116f363c6b01bd37bcf458f77d7b9d50ed4797ebd417394cb27590d9d8a892"}
+{"section": "5 Data Overlap Analysis", "seq": 83, "sha256": "0d49b709cfcf26bf11433de35d593fa8572a0d2afff0b8389028f3e5a24ea696"}
+{"section": "5 Data Overlap Analysis", "seq": 84, "sha256": "05310ce48c2c50482c9ee93308e2a089d23fdff6ef119a7524c01841ee80dde6"}
+{"section": "6 Limitations", "seq": 85, "sha256": "24f04b13e6a1e88406bb686052b4bf7d2f2f118fa972174b2b470208455b2d35"}
+{"section": "6 Limitations", "seq": 86, "sha256": "c6236d02f8977218f059c50533ca34732546669b5f12858a046f477a599462b7"}
+{"section": "6 Limitations", "seq": 87, "sha256": "e4b632d4778698f26bfd5666d022cf706d43a9d74bcb76f741f07618e5bf3b83"}
+{"section": "6 Limitations", "seq": 88, "sha256": "15c61fa29a3a5a6ff97fe31608a38e49ac019ad34b45dc48af55a20d4f482d91"}
+{"section": "6 Limitations", "seq": 89, "sha256": "23586adf25e3b957e23c16b3d38e3c62fb22427b79872862b356205f522a57f5"}
+{"section": "6 Limitations", "seq": 90, "sha256": "f01e7ffb754a01913657065f000f410a5d6a9a319d1fedace4a43a6cb2927cf0"}
+{"section": "6 Limitations", "seq": 91, "sha256": "f5390b1f29a17e43579f9e227ec35d57b2b4bef39e6b73f7d9c38fa784e4c90b"}
+{"section": "7 Broader Impacts", "seq": 92, "sha256": "ecfa224b4081dd7d01d2cb5f3156785c1c7be61e52a83b6bd9098218ada27bda"}
+{"section": "7 Broader Impacts", "seq": 93, "sha256": "1679227d569167c7769245aa8c468a532a5ace775a2d21839ff7470b15bef175"}
+{"section": "7 Broader Impacts", "seq": 94, "sha256": "21323588e26f35b54c9d25de0b919046e1ef50ba5d50dcb9c1970c407e956bda"}
+{"section": "7 Broader Impacts", "seq": 95, "sha256": "1e66fbde55a23c53babbd2e73dfc8b6702f2b0dab2bd07299ab320d8acca4725"}
+{"section": "7 Broader Impacts", "seq": 96, "sha256": "cc922de9f9ed96b4cc4a95635406f0caca13459fdf889df6cf34c6ee774fc115"}
+{"section": "7.1 Bias", "seq": 97, "sha256": "da2a4c620406f5876dd50d92ffa8b144ee69b263116cd8b6c43d4bf70a63fd7a"}
+{"section": "7.1 Bias", "seq": 98, "sha256": "5697de138a898503dc47c5fd7eddde9390f0ed8907ce28b10bf9a331bade5424"}
+{"section": "7.1 Bias", "seq": 99, "sha256": "4a1ef7e109b4dec3c18fedfdfa23092da968fd3e94f4f018102436bad126f713"}
+{"section": "7.1 Bias", "seq": 100, "sha256": "57d0ee6e92788eb0a73105d1c0a08ffc757e128e3fe8cc6da1a1b373a90a3257"}
+{"section": "7.1 Bias", "seq": 101, "sha256": "ddc1ec14d9699f8ef582f2d27a4686671efc08c8ed8c8631f7fcedb9280cc57a"}
+{"section": "7.1 Bias", "seq": 102, "sha256": "fc50872bce9d4884372bb294c8accd492fd1f89adf4d367491879443fc7a248e"}
+{"section": "7.1 Bias", "seq": 103, "sha256": "10e9e02916188d1276153b99930fd7f8ad3a7e957067ad30e2fc826092bde4a0"}
+{"section": "7.1 Bias", "seq": 104, "sha256": "01858af7ba70c061ff8a7b11190b017e3d1e57cffab836365ce0b9a2c7c6c4e5"}
+{"section": "7.1 Bias", "seq": 105, "sha256": "ce02a2898c039843ee63c6e257c1d2ccf3860387f356e72045a008862c6df12d"}
+{"section": "7.1 Bias", "seq": 106, "sha256": "4a594ab555adeb6325b1c77682c8fe0c9683b52efc7d314fb30e044a328f6226"}
+{"section": "7.1 Bias", "seq": 107, "sha256": "62a9bcb73fb4f3e939adb87afaa4a160632073604df494db2129dd6b411c1b3f"}
+{"section": "7.1 Bias", "seq": 108, "sha256": "7c3559310d2dc6c507257daf6bdb8e525e2341b5985ba4efe757b3339f5d28fc"}
+{"section": "7.1 Bias", "seq": 109, "sha256": "42fc1215607157b42fbcfb2881bf0c3cbabeb19d9b0b5fd5aa34fcf9f27c7b85"}
+{"section": "7.2 Surveillance", "seq": 110, "sha256": "70856b0c50ab8d0ebdfdcce7d2a1de9e111f26c8542a7cd4d5216329ca3f549d"}
+{"section": "7.2 Surveillance", "seq": 111, "sha256": "de09aa8b5c343a7b75d97ed8191846d0e5bab55fb5265f9bde26498292bf0ed2"}
+{"section": "7.2 Surveillance", "seq": 112, "sha256": "358d51bc78ae4aafeef3df6e694183d3057f5a0045548c1f6e14597b113d52ca"}
+{"section": "7.2 Surveillance", "seq": 113, "sha256": "a6f299e5183ea2c4465bd0c84eafd37fcaea3d64f0f0f3df7f4d2024a6642cfe"}
+{"section": "7.2 Surveillance", "seq": 114, "sha256": "23d7fb2f4aea3367804c428f0f0c75ba22b787d98e157a283d5e0933b4e16667"}
+{"section": "7.2 Surveillance", "seq": 115, "sha256": "ef27c7416439d83bf1803a1364b0c0854e3faf18d8fb94a8ddc612c478e96132"}
+{"section": "7.3 Future Work", "seq": 116, "sha256": "3f729754b31f4d6a896fe934bdea84c27dc80c718fa18c8ce8239362c0ab8ca8"}
+{"section": "7.3 Future Work", "seq": 117, "sha256": "9faa45433a3fcd7d6b098ca05b458a7b7b9f2a30303a2219701d9eda0018cadc"}
+{"section": "8 Related Work", "seq": 118, "sha256": "fb02880a82e0f1f3d978e703c6ddf8aa94a3c15a2d21139ff6d5b5f401a05416"}
+{"section": "8 Related Work", "seq": 119, "sha256": "c5e80be3b02d6308f5d27f39624df6215df11e0864b5a55d0b4c9c59c985b5aa"}
+{"section": "8 Related Work", "seq": 120, "sha256": "09e1b95b2ded3deb158fad395648f3e3e33a3ea96b3cb8a37d7a99396a9da7d1"}
+{"section": "8 Related Work", "seq": 121, "sha256": "d48270534dfd725f1fc55cd15f797e645b7102a7d09f9f0f4db4e62f4dbabb84"}
+{"section": "8 Related Work", "seq": 122, "sha256": "2ec1836fe6f30cb207acda94c6cac29e489bba89512de014f2ec6e25b72826c7"}
+{"section": "8 Related Work", "seq": 123, "sha256": "d2306e1b9bb1d68dd7e74def307524ec0cdc77ece9db5c7ff45930b7057dae27"}
+{"section": "8 Related Work", "seq": 124, "sha256": "306829e85182e11d97bcc330414dc0ffcfe66f972dd17d57f826925e1b6b0be4"}
+{"section": "8 Related Work", "seq": 125, "sha256": "c58f83ece10fad1ffc428c82dece9a7d27a5913f22f355f7e5b64b3ee2750ec4"}
+{"section": "8 Related Work", "seq": 126, "sha256": "0249f3ca33264e627f671cb8e63dc63f8c0e895195a0e22f2dc14b667310953d"}
+{"section": "9 Conclusion", "seq": 127, "sha256": "7e0f79f76dbc7fc7960d70022623606f5090d05d11c70f180a67f561fe212bd6"}
+{"section": "9 Conclusion", "seq": 128, "sha256": "2ef880729330badd3fd0aea9e9eb1b635b8207ec250ceaccd27d19fe823fe69d"}
+{"section": "References", "seq": 129, "sha256": "2fe6237fd3a2423a0aa91f02c51ea6bde5479b783f060d82749443b02375bc7c"}
+{"section": "References", "seq": 130, "sha256": "bf5d75e512f4b275a40f8d22e90f154f617b1e5632db504fbc53b57dfb5eff81"}
+{"section": "References", "seq": 131, "sha256": "6d932efb80ef23524eb0c1bdad9451edeacc48d7aeb23f0db3e11440eb105aa5"}
+{"section": "References", "seq": 132, "sha256": "22cef0f03aa19e9339b309c989767c211efa55600fe39b31dc1b54958b3ada53"}
+{"section": "References", "seq": 133, "sha256": "dc78f22e84861e35bdc12c25738a12a23c1fb11aa17665f0119a58b7366af4c7"}
+{"section": "References", "seq": 134, "sha256": "8211168fc59c8b232b96cc6d898254cd1b76531a19809b7dc64959d0b4df70ee"}
+{"section": "References", "seq": 135, "sha256": "40be01794b143841272761f3fbaac6e32c852717a7d17b598647aa3fce17de54"}
+{"section": "References", "seq": 136, "sha256": "6de894abe633cfd995db89915ecfe5284101c36f55f3583a125b0f532c3a1814"}
+{"section": "References", "seq": 137, "sha256": "4115148b52635f5ea28cbe2d873d10a3a2314b07b42062165efb9657f738ad49"}
+{"section": "References", "seq": 138, "sha256": "2f8eec86aec3e367387609d9b2d7a54cf348f067456e32986f402970cf9d0693"}
+{"section": "References", "seq": 139, "sha256": "4dcac7ab6507bedcd5e1f3b764454d8df01e68e64ad1e77ad10f727dcca2253d"}
+{"section": "References", "seq": 140, "sha256": "a888968c3e4eac4615752fca8de414bd7b38e339c37be6988095fe51b5a07639"}
+{"section": "References", "seq": 141, "sha256": "fe25561f0f49f3e30d1a9492e8ec635c952c3059667e5f4b7a74fe7c4d5d4371"}
+{"section": "References", "seq": 142, "sha256": "c96717941f16a22244e5f24096f12371291243e3fb11eff1fb6e1206bf5c4d73"}
+{"section": "References", "seq": 143, "sha256": "106208a95a49ff25ef3f1f4339070529098bab07c3c69106c24d29d47ae5dda7"}
+{"section": "References", "seq": 144, "sha256": "d8acc9d88986915795404d65a451003e87c60c6e020e470d6a77f0199f67997b"}
+{"section": "References", "seq": 145, "sha256": "f292fce96fed2d3ce6c7eb079d54ac65960deab9fecaf5669fd59f1cc6e95f58"}
+{"section": "References", "seq": 146, "sha256": "7fe475c61054487858e88cd9896538ac6cd256c0abb3a5bc2649d65dc34fe07c"}
+{"section": "References", "seq": 147, "sha256": "0e4af088ff78b93959c674f050a36aa5d31ab0970c82642c0b36cf9893bfef09"}
+{"section": "References", "seq": 148, "sha256": "67298741d67c120595ac790094b68edb6e3569823fbed7662ea220638cde8496"}
+{"section": "References", "seq": 149, "sha256": "a04a4ed0437615ce02af6e096d79b5bec30ce0fe166c0ef2fa1514ad7ddb7ba3"}
+{"section": "References", "seq": 150, "sha256": "464e303b8e0394528b44312db2a1b6d7c360d7e5dee7ff2759cb26c5555f910f"}
+{"section": "References", "seq": 151, "sha256": "2d1467d2ea3388e55d7cc74cd47281d5f68bc611ddcc6c2bd81a4063b8cf50dc"}
+{"section": "References", "seq": 152, "sha256": "04a0daa372cb4c9b0086a65e4208e88ff3cfb3a1e60889f82f6ff0c32b0d00d5"}
+{"section": "References", "seq": 153, "sha256": "4cddb4499207cc69af51b424f36cc22679eaa97414df6796bb3c9b2756dfa470"}
+{"section": "References", "seq": 154, "sha256": "d1196b024fa4cfb5cee815eb267a8b3ecc3ed6930d929944f66a8db1227bcdcf"}
+{"section": "References", "seq": 155, "sha256": "6f79b819eed60736e6f80671ba7b201cf2a954b4885a239f30e226f33caaa731"}
+{"section": "References", "seq": 156, "sha256": "39e28ccb6b8ced977ad746308d3f433eeaeb5ab1f63ba2fc9f11815be29bda45"}
+{"section": "References", "seq": 157, "sha256": "a8feab98ec1894a04df057d51cf9c2f73d6a94534d692cb2778a7e2611f8a274"}
+{"section": "References", "seq": 158, "sha256": "daac37e3b9980beaab03c1067d52bbd0157efd6d73f2045520b0cedc4b47227d"}
+{"section": "References", "seq": 159, "sha256": "4e102e94bf313b51618d05a6416eb37556e82b0d30b53f9cef36455fe879c6be"}
+{"section": "References", "seq": 160, "sha256": "e0d79afa1f2a96aba7078d68a8b457a4e32d8d1929acccec5570fe9a71fa762a"}
+{"section": "References", "seq": 161, "sha256": "81c12b8ed118e00ee4f6963e6e54cbc535e10a48f52936e5b352c8f2414b4c78"}
+{"section": "References", "seq": 162, "sha256": "a4389dbaa01ef770180c2c42d57039c24ecfdb462a1fa6f824db910f072c0630"}
+{"section": "References", "seq": 163, "sha256": "b82d0cfda699f9c998f508f964de703d7be4472e9ef710214c22ded2fcbb2ec3"}
+{"section": "References", "seq": 164, "sha256": "923359752316d79bbc9d4a313bce588b2f4b8ee4ee38a931081977425605175d"}
+{"section": "References", "seq": 165, "sha256": "d9f155fa21e1b111dbccaba68bf8a8eec3df57522995df1c0a7dab4dbf08454d"}
+{"section": "References", "seq": 166, "sha256": "493c65e6d1a3d05efbc98661c79f87b8f203ae329a981bc469f731941a49bcc3"}
+{"section": "References", "seq": 167, "sha256": "e98a065ac06ef9d5910f27677e918f78a81f8aeda8d15e1035cf13fb65428be5"}
+{"section": "References", "seq": 168, "sha256": "0c9b97afbd32f7ab6696a22db6b05cd3273e4f08c0fe6df91c145e04a5296471"}
+{"section": "References", "seq": 169, "sha256": "a6445910a12e14bd1566652296c018b8b35dbc5050de50bd2ddff249c06d2565"}
+{"section": "References", "seq": 170, "sha256": "959d9467719e887520c4f66f0d13f73b7127db1a50bbeeb9d08a576cb4c288ad"}
+{"section": "References", "seq": 171, "sha256": "a47a6624da63aa439aebdec962240bbfd9d8a1c0ac5bc17a92487d8878bc158a"}
+{"section": "References", "seq": 172, "sha256": "a3971624302d57c1ee15914f3989c0e6437e592df8c4f45423526f7953d6747a"}
+{"section": "Appendix A Linear-probe evaluation", "seq": 173, "sha256": "d72b5085218fd835de148750019d65c4b468e928ff775770427231cf2bb14a42"}
+{"section": "A.1 Datasets", "seq": 174, "sha256": "97dfe8f565b5b227b9d83eb5a625736555d53852a1b1dc9ab584ab12bc83ce5f"}
+{"section": "A.1 Datasets", "seq": 175, "sha256": "5aaff3f79f6767e4c8d4f70c1918f9ad133e2fed845de21840f52af17be5e6d4"}
+{"section": "A.1 Datasets", "seq": 176, "sha256": "2f744d032163c28a30993cd09c1c60deef4e42d59ca43a3a57c4b4fbe1313774"}
+{"section": "A.1 Datasets", "seq": 177, "sha256": "5427892f726d6f9a5adfdd79778f3f93ce87ae9ef0d1cf1cb1ce4e911d1fe2d6"}
+{"section": "A.2 Models", "seq": 178, "sha256": "4a7527c25a9e565d6c4b2ad88028ee2970c6c732cec2caa9e3ba1fe0a915529f"}
+{"section": "A.2 Models", "seq": 179, "sha256": "b4dd861459536a3b0cbec6c82dec3b4e8624a42400dadfc7a1ec9e5d3f2b5d72"}
+{"section": "A.2 Models", "seq": 180, "sha256": "d39cd8d422eecd139309fa86b0a30aace9f55d6c60a118e254c12181021110e0"}
+{"section": "A.3 Evaluation", "seq": 181, "sha256": "d8e348a36a479a05f47ae0aae20269a6995eecaa0024cf4cfc20674b5adf4a59"}
+{"section": "A.3 Evaluation", "seq": 182, "sha256": "1125134a224371032a8736ead878ab95d6d5d3b64decb6d242cf3340bf67d093"}
+{"section": "A.4 Results", "seq": 183, "sha256": "bace2ad24eed098ed10cd5f9a836be6c5317bfcdafdc6cd1307207505ebc6353"}
+{"section": "A.4 Results", "seq": 184, "sha256": "35b4795852af799ee33a7d7b99b9ad5d41d94318198053c2754c6326385bc761"}
+{"section": "A.4 Results", "seq": 185, "sha256": "d67b298090219eec2a373b4b0661edb46f5ffcf3e1fdda8018b1f96c16acd829"}
+{"section": "A.4 Results", "seq": 186, "sha256": "3f6f073206ce84dd8a56e1143eea1f791a16005f42307eb022a42b248cd733f7"}
+{"section": "A.4 Results", "seq": 187, "sha256": "7c7c3da5f6ad88b176d69207b36b20d20d5a2a45f0c2f74abf69f45cbde91eb9"}
+{"section": "A.4 Results", "seq": 188, "sha256": "becac15ae58001f320d01db707356f4e7c5d31f267cb81b092a8d684927b65e3"}
+{"section": "A.4 Results", "seq": 189, "sha256": "398537e268ceab4c757f14e13064dea3b0c781b829f82bcd7ed983d593a8dc7e"}
+{"section": "A.4 Results", "seq": 190, "sha256": "9979f1670b0d0adc710780a67601f2df6820013a7c97b3f7b074888b7d5fff6a"}
+{"section": "A.4 Results", "seq": 191, "sha256": "2a82a4286d47b060400ff21b3a88a4b6dff4c2ad931b2174cd73f0d850821ce0"}
+{"section": "Appendix B Zero-Shot Prediction", "seq": 192, "sha256": "2f255ae5881fc96fafb3c45ae1954c4fbed128e3cf5d5de7349db467ecc1f9b8"}
+{"section": "Appendix C Duplicate Detector", "seq": 193, "sha256": "e9af9df408a54da9e35b5b6aa878c74e5bbe5976d99aa03668a13a328ddfa31e"}
+{"section": "Appendix C Duplicate Detector", "seq": 194, "sha256": "5b4fe39a27c6cca04771a3d28756235eb8dc2748c9625e93ac08cf3e2d9b9719"}
+{"section": "Appendix D Dataset Ablation on YFCC100M", "seq": 195, "sha256": "0220afbe94b370a4ac168025ca454d85a3dd3218c5796e89517984056e3dae19"}
+{"section": "Appendix D Dataset Ablation on YFCC100M", "seq": 196, "sha256": "f421ccf37feeeb58f2d28b8e4fbf5c797762976be50e8536523ef48bba637718"}
+{"section": "Appendix D Dataset Ablation on YFCC100M", "seq": 197, "sha256": "4e02a7e0bc6477e7c8749d64e62c2c24b2b7ed69ae90bd2f0cc03132fb84f836"}
+{"section": "Appendix D Dataset Ablation on YFCC100M", "seq": 198, "sha256": "f22b453cde8afc6a9392b9595eeedead26436525133b61810ec5f387855bb818"}
+{"section": "Appendix D Dataset Ablation on YFCC100M", "seq": 199, "sha256": "4f9587bed7f2e362b96fea5e2b453da0cafa45f441ba6cfca5c2955b99f58075"}
+{"section": "Appendix D Dataset Ablation on YFCC100M", "seq": 200, "sha256": "ab8fad0cdc6b19c23d31d3893055956b43069f3adda385f961c46641673e1959"}
+{"section": "Appendix E Selected Task and Dataset Results", "seq": 201, "sha256": "dabd270c4acb51b4e45be752db81fc7f42a45d84bf285d812f9b1dc1e30a0a73"}
+{"section": "E.1 Image and Text Retrieval", "seq": 202, "sha256": "aa9409df35b93d3977490cace9146619268ff2be529feedf49d09b0b6e0216ce"}
+{"section": "E.1 Image and Text Retrieval", "seq": 203, "sha256": "ccbcd634843609e4228031a287d09d86f280b99ae612f96436660f6ebc87d322"}
+{"section": "E.2 Optical Character Recognition", "seq": 204, "sha256": "0c7f91d0980d8c6b3737ac8829630a2a03f055e6db4d40c2d82a24c096010aaf"}
+{"section": "E.2 Optical Character Recognition", "seq": 205, "sha256": "ada4357db6b153ca7d52e0086cb07e0904e9573aa182b3d0fa72a3847065cd11"}
+{"section": "E.2 Optical Character Recognition", "seq": 206, "sha256": "1cbb8c741b2d7a2b7ff6efa655c3e9a6b4d202ac2e18662fc078cc103f899c1a"}
+{"section": "E.2 Optical Character Recognition", "seq": 207, "sha256": "a09cb58c9faa78aef70100c291bc181f8e0aff99e7fdc93b7cdb7f408bf31c79"}
+{"section": "E.3 Action Recognition in Videos", "seq": 208, "sha256": "831742cfaeb0d02176db5f5dcea66edf518b38bc694478cbabfdb697748f4951"}
+{"section": "E.3 Action Recognition in Videos", "seq": 209, "sha256": "baffaa0b25c6048ddf02bdc54fb3ccedce36e973cc92d0ab0a51616882750ac9"}
+{"section": "E.3 Action Recognition in Videos", "seq": 210, "sha256": "2a304b8505fc0028e846af525cdd1059adc587fdacac0006cefdd1b40989d62e"}
+{"section": "E.3 Action Recognition in Videos", "seq": 211, "sha256": "541557d3aef5f3f09f4394253943d96bd4bb8e5770d6d7a1c6ce8c521870f04f"}
+{"section": "E.4 Geolocalization", "seq": 212, "sha256": "0ea7361a36a6e71188b9589228f9b765840cab77746eaaccf258001a4b6a662f"}
+{"section": "E.5 Robustness to Distribution Shift", "seq": 213, "sha256": "d5a58d1fe6427cac5f7d8745e1725aa1513d658499d4674db927f5afa65b2817"}
+{"section": "Appendix F Model Hyperparameters", "seq": 214, "sha256": "2b115a465577b6e2d5fcbe200d0671cd4f9da63a9443ff5000052507455f248a"}

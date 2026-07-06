@@ -1,0 +1,2 @@
+We are excited about other directions, including continuing to explore the benefits of S4 on audio data (e.g. pre-training or generation settings),
+and generalizing HiPPO and S4 to higher-dimensional data for image and video applications.

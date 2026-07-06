@@ -1,0 +1,17 @@
+Cobbe et al. 2021
+
+Karl W Cobbe, Jacob Hilton, Oleg Klimov, and John Schulman. Phasic policy gradient. In International Conference on Machine Learning, pages
+2020–2027. PMLR, 2021. Bellemare et al. 2013
+
+Marc G Bellemare, Yavar Naddaf, Joel Veness, and Michael Bowling. The arcade learning environment: An evaluation platform for general
+agents. Journal of Artificial Intelligence Research, 47:253–279, 2013. Machado et al. 2018a
+
+Marlos C Machado, Marc G Bellemare, Erik Talvitie, Joel Veness, Matthew
+Hausknecht, and Michael Bowling. Revisiting the arcade learning environment: Evaluation protocols and
+open problems for general agents. Journal of Artificial Intelligence Research, 61:523–562, 2018a. Hessel et al. 2018
+
+Matteo Hessel, Joseph Modayil, Hado Van Hasselt, Tom Schaul, Georg Ostrovski,
+Will Dabney, Dan Horgan, Bilal Piot, Mohammad Azar, and David Silver. Rainbow: Combining improvements in deep reinforcement learning. In Thirty-Second AAAI Conference on Artificial Intelligence,
+2018. Dabney et al. 2018
+
+Will Dabney, Georg Ostrovski, David Silver, and Rémi Munos. Implicit quantile networks for distributional reinforcement learning.

@@ -1,0 +1,55 @@
+{"fsid": "arxiv_2301-04104", "n": 54, "overlap": 200, "source_sha256": "484a89a1eb5c6025ec35ecdc9de8592b563887e581af4cfeff2868de889cf405", "target": 1200}
+{"section": "", "seq": 0, "sha256": "40fe96540c015f3e8d7e0cc4e205bb21d6a31ac7a3e3eac3e96f569a25ed2d25"}
+{"section": "Mastering Diverse Domains through World Models", "seq": 1, "sha256": "b26d07aecc1b07141329636bef714fd830a76ff3134a91e43f4b6e29fba4bf17"}
+{"section": "Mastering Diverse Domains through World Models", "seq": 2, "sha256": "19f3b9d9b1d26fa46dcf286f03b9d57d969eab3ae611e302fd2cae6ae1178cdf"}
+{"section": "Mastering Diverse Domains through World Models", "seq": 3, "sha256": "16a41731a987de36a9083dcc9718c0653868799ef38bfa6d027bc9c35a8a1658"}
+{"section": "Introduction", "seq": 4, "sha256": "5404ae3d8ddfb5d395963c8cdc6d1c218a97e5ee10f0acb85a725a8f8c07744e"}
+{"section": "Introduction", "seq": 5, "sha256": "0459ab67e76ca8a86df06ed182f844ff4bfcdf61487e327358b91c269bd79c1c"}
+{"section": "Introduction", "seq": 6, "sha256": "fb76e51f6fd8107ceefff7eca725b4731e9ca5071f4ae0c2240952cd44e32404"}
+{"section": "Introduction", "seq": 7, "sha256": "28b7875fbc7e6689d9cf37fc79ec89de719c5528f15d50e140b2f9a125c86490"}
+{"section": "Learning algorithm", "seq": 8, "sha256": "76978a668eabc23ddcc4b71701cafeeaba8fba2542d6fd815b66c2339b14a2c9"}
+{"section": "World model learning", "seq": 9, "sha256": "49ac148bdac5b475b08b8639e8129be8deb8ab32f4f98f8f85d8487e31287a48"}
+{"section": "World model learning", "seq": 10, "sha256": "1d56d5632868837b66b446725109e78a26d59539427d122eeb8a2c92c817b55e"}
+{"section": "World model learning", "seq": 11, "sha256": "2594182b10d99b1c67ed3fd5698982f9cde387c600e19c1edf57e343d51ae615"}
+{"section": "World model learning", "seq": 12, "sha256": "79848b01fec3fcb50fc016651296573e515ec7fb6950e78dd6f08ade93b0b1c4"}
+{"section": "Critic learning", "seq": 13, "sha256": "fee54de47f56db9f6e8cf14ad1f7cfa5416155f6d36fb52ab46e326b5bd8696c"}
+{"section": "Critic learning", "seq": 14, "sha256": "05ca846ec05129dabe7d1f1e0f9cb9c9be60f817b0bf22e2ea05fa6385cd3dcc"}
+{"section": "Critic learning", "seq": 15, "sha256": "14619bfe152af980d6e5e9c23e3bb320e46ea370cf5973861ac538f99665d5b1"}
+{"section": "Actor learning", "seq": 16, "sha256": "3abede116eb341bc0bb95a2600fd3fe2993b2ad3afc530971aabf36743943508"}
+{"section": "Actor learning", "seq": 17, "sha256": "2d269e5e5e3ce6cbee5a0ae1ff2dc1eef5787fad18f841848c483e14c195056e"}
+{"section": "Actor learning", "seq": 18, "sha256": "eb1e614d2a817fe60d8394273ff0814e655f9fd9aefeb745160e3f6e9180f06a"}
+{"section": "Robust predictions", "seq": 19, "sha256": "8cc0a96c7774e57c19967509e104d4d5ad3fde435d3dbcd77334d54ee531effe"}
+{"section": "Robust predictions", "seq": 20, "sha256": "21dc1d6ac52fe467019c7dce5c6e07e99c7061e671ab4851cbaec257eb5fa08c"}
+{"section": "Robust predictions", "seq": 21, "sha256": "0b8f6a65bb5886aed82792789ce51976acc412016af3bc10f7a2fb894fc37f35"}
+{"section": "Robust predictions", "seq": 22, "sha256": "36b8d56416ce5550806b3f2dc4731d184c8c70f771808a82bdd1993dc92f2a60"}
+{"section": "Robust predictions", "seq": 23, "sha256": "1edd63e0411ec34f09901c83d5e993285be94c46d97862aa746afdefa3dfa31a"}
+{"section": "Results", "seq": 24, "sha256": "bc2272e9ccb379fc6374aada91b9eaaa4ea0c79eb613c5e109ce0e0a7e2944dd"}
+{"section": "Results", "seq": 25, "sha256": "24272b30f579b1bbfe8a5b34b17c960d16afced56e570557eba12402c4d3c31c"}
+{"section": "Results", "seq": 26, "sha256": "5971163857496bf465d3fdaa5afcb83f4149cbb3e814cbd8f3b5b216d11a5b34"}
+{"section": "Results", "seq": 27, "sha256": "ee30c7f936abd324ce05900ceca24cc1db2662cf7d0447067d5b482675105280"}
+{"section": "Results", "seq": 28, "sha256": "01370c35d33ef1b46877b5cad00c4623fba6be0e4d586cf338a888fb5ab01416"}
+{"section": "Results", "seq": 29, "sha256": "e0ceda53840d17eb369746f5eb6016b34837e787d06a6990b1d513c471646460"}
+{"section": "Results", "seq": 30, "sha256": "9499dc191f4c7bce283af7b71bdc5928e1e9b2882a86b3763a928ea43cef5947"}
+{"section": "Results", "seq": 31, "sha256": "15c7ea2a785b76ac79af5f0e2deb71a04185d2524c4cb159ec5338d4fd7114d3"}
+{"section": "Previous work", "seq": 32, "sha256": "ba4508ae467f729f283c2a09b452ca561a08ee6037adbac992af7ce69423fb58"}
+{"section": "Previous work", "seq": 33, "sha256": "16792c0721b9139698bb130f141244eee71f036b63ce0d1466045fc87fa701db"}
+{"section": "Conclusion", "seq": 34, "sha256": "61ae532eb261cba07f3ca36f81af1b1ae9f741dfce04d1c6c33a03f279ad008c"}
+{"section": "Conclusion", "seq": 35, "sha256": "46257584f9dd01de6f5de4029899f37d2c9c111c6bfce81b4979bce2f368ab61"}
+{"section": "References", "seq": 36, "sha256": "7b9fb5037b50c07a1c1dbe85438684a88a1996ef833d4aa0242c366d3889b410"}
+{"section": "References", "seq": 37, "sha256": "6e612dcc31e6f1daa4a56ecc0bda05c762fcaf0fb080160e003fefb03d14a8b9"}
+{"section": "References", "seq": 38, "sha256": "a8175ebe217baec69d8fa0c0821b5d319cbb08c382d92c11672935eb2f24b745"}
+{"section": "References", "seq": 39, "sha256": "9673e3de0fb6043cc033e2e931c84410191855bf45678312ac99614beeffc006"}
+{"section": "References", "seq": 40, "sha256": "ac349695e31fe5943f80e2df1b2c747afdefdf72933876764f9117aa35515b07"}
+{"section": "References", "seq": 41, "sha256": "56edb605d1c72cbd7149d4235752ed07d0b7cc4b99b3105529168b83095a0af6"}
+{"section": "References", "seq": 42, "sha256": "9594c89fd7820810caa6244b99781545f82887b01aa81843eb4576737bd300d6"}
+{"section": "References", "seq": 43, "sha256": "2c06c13ca0e8bab0abce5b941b8b1eb9f10ecdc1561b8007554678898ee7e46d"}
+{"section": "References", "seq": 44, "sha256": "736e0205b30c9238976481d7ae75737cf9969f1b1da0ee485f205d119445d0ea"}
+{"section": "References", "seq": 45, "sha256": "9119f970e55ed010a7305ab19f184790ff1d3330aa8ec0800d7ed2c149b98e4f"}
+{"section": "References", "seq": 46, "sha256": "4c9ac5fa3163983fcd103bf533713b26d5b00ddc8b699a3bf683d476ce64bd2a"}
+{"section": "References", "seq": 47, "sha256": "e732322b21db93c80abbe36acfafff8e21c7a117c64886e51252684caf482203"}
+{"section": "References", "seq": 48, "sha256": "c67ee50d0b4e8d4bc69b88b1a1e16a9255ceb121e93dc4d9f1db4385af52286d"}
+{"section": "References", "seq": 49, "sha256": "f61f4204857064a784f577f58abcf4843e04d98b9b2eee432cda95941a7c8208"}
+{"section": "References", "seq": 50, "sha256": "335bf4509c402475191db07c1534f3c484999dce08c93d366b2aa9bd5396f2a1"}
+{"section": "Baselines", "seq": 51, "sha256": "3384f8178f28923990552db6e6227cae7c0774040face5c2cae0f947ed9dcbbc"}
+{"section": "Baselines", "seq": 52, "sha256": "e7af1efa61ca544fa948ef35d092231aa348807779651069716930f270daba3b"}
+{"section": "Baselines", "seq": 53, "sha256": "a5b779052d5d775ba7e54fa741bbcfeeec8d19f83bda174ac242574ccb452f47"}

@@ -1,0 +1,11 @@
+(a) Control Suite
+
+(b) Atari
+
+(c) ProcGen
+
+(d) DMLab
+
+(e) Minecraft
+
+Figure 2: Diverse visual domains used in the experiments. Dreamer succeeds across these domains, ranging from robot locomotion and manipulation tasks over Atari games, procedurally generated ProcGen levels, and DMLab tasks, that require spatial and temporal reasoning, to the complex and infinite world of Minecraft. We also evaluate Dreamer on non-visual domains.

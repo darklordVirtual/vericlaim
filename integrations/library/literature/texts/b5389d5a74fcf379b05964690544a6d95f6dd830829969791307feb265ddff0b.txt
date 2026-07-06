@@ -1,0 +1,9 @@
+r, done, _ = env.step(action)
+
+# append new tokens to sequence
+
+R = R + [R[-1] - r] # decrement returns-to-go with reward
+
+s, a, t = s + [new_s], a + [action], t + [len(R)]
+
+R, s, a, t = R[-K:], ... # only keep context length of K

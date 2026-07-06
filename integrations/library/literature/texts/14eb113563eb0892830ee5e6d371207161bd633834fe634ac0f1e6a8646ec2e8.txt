@@ -1,0 +1,32 @@
+1999. Principles of mixed-initiative user interfaces. In
+Proceedings of the SIGCHI conference on Human
+Factors in Computing Systems. 159–166. Huang et al. (2022)
+
+Wenlong Huang, Fei Xia,
+Ted Xiao, Harris Chan,
+Jacky Liang, Pete Florence,
+Andy Zeng, Jonathan Tompson,
+Igor Mordatch, Yevgen Chebotar,
+Pierre Sermanet, Noah Brown,
+Tomas Jackson, Linda Luu,
+Sergey Levine, Karol Hausman, and
+Brian Ichter. 2022. Inner Monologue: Embodied Reasoning through Planning
+with Language Models. arXiv:2207.05608 [cs.RO]
+
+Ibister and Nass (2000)
+
+Kristen Ibister and
+Clifford Nass. 2000. Consistency of personality in interactive
+characters: verbal cues, non-verbal cues, and user characteristics. International Journal of Human-Computer
+Studies 52, 1 (2000),
+65–80. Jiang et al. (2022)
+
+Ellen Jiang, Kristen
+Olson, Edwin Toh, Alejandra Molina,
+Aaron Donsbach, Michael Terry, and
+Carrie J Cai. 2022. PromptMaker: Prompt-Based Prototyping with Large
+Language Models. In Extended Abstracts of the 2022
+CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA)
+(CHI EA ’22). Association for
+Computing Machinery, New York, NY, USA, Article
+35, 8 pages.

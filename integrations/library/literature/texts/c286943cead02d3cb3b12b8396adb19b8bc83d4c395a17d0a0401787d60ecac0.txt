@@ -1,0 +1,19 @@
+HuggingFace (2023)
+
+HuggingFace. Transformers agent. https://huggingface.co/docs/transformers/transformers_agents,
+2023. Kim et al. (2023)
+
+Geunwoo Kim, Pierre Baldi, and Stephen McAleer. Language models can solve computer tasks. arXiv preprint arXiv:2303.17491, 2023. Kwiatkowski et al. (2019)
+
+Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur
+Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin,
+Kenton Lee, et al. Natural questions: a benchmark for question answering research. Transactions of the Association for Computational Linguistics,
+2019. LangChain (2023)
+
+LangChain. Introduction — langchain. https://python.langchain.com/en/latest/index.html, 2023. Lewis et al. (2017)
+
+Mike Lewis, Denis Yarats, Yann N Dauphin, Devi Parikh, and Dhruv Batra. Deal or no deal? end-to-end learning for negotiation dialogues. arXiv preprint arXiv:1706.05125, 2017. Lewis et al. (2020)
+
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim
+Rocktäschel, et al. Retrieval-augmented generation for knowledge-intensive nlp tasks.

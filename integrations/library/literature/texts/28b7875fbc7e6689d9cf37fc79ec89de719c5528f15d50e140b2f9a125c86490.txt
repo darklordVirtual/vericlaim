@@ -1,0 +1,5 @@
+Competitions in the following years focused on a wide range of tasks.. Solving this problem without human data has been widely recognized as a substantial challenge for artificial intelligence because of the sparse rewards, exploration difficulty, long time horizons, and the procedural diversity of this open world game 18. Due to these obstacles, previous approaches resorted to using human expert data and domain-specific curricula 19, 20. Applied out of the box, Dreamer is the first algorithm to collect diamonds in Minecraft from scratch. (a) World Model Learning
+
+(b) Actor Critic Learning
+
+Figure 3: Training process of Dreamer. The world model encodes sensory inputs into discrete representations that are predicted by a sequence model with recurrent state given actions . The inputs are reconstructed to shape the representations. The actor and critic predict actions and values and learn from trajectories of abstract representations predicted by the world model.

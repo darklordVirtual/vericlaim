@@ -1,0 +1,13 @@
+The negative side shows a better understanding of the simplification process.”, “debate_answer”: “”
+===== Debate Done! =====
+—– Base Answer —–
+Ok, let’s simplify each square root separately. We want to find the simplest square root that can divide 160, 252, 245, and 108. 1. : 160 can be decomposed as 16*10, where 16 is a perfect square, so
+2. : 252 can be decomposed as 36*7, where 36 is a perfect square, so
+3. , where 49 is a perfect square, so
+4. : 108 can be decomposed as 36*3, where 36 is a perfect square, so
+Then we substitute the simplified square roots back into the expression, we have:
+160252×245108=41067×7563=4*76*6⋅10*57*3=79⋅5021
+We are almost done, but we still need to rationalize the square root part of expression. Let’s multiply the square root part by at both the top and bottom to get rid of the square root at the denominator: 79⋅50*2121*21=71050189. Then this is the final answer! The expression 160252×245108 can be simplified to . —– Debate Answer —–
+71050189
+—– Debate Reason —–
+Both sides of the debate came to the same final answer.

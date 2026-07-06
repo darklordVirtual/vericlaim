@@ -1,0 +1,150 @@
+{"fsid": "arxiv_2304-03442", "n": 149, "overlap": 200, "source_sha256": "3ad92b836234baee97d3d3bf3e508686de18d2c1f11d8c0fd61819dc1c9ac2e5", "target": 1200}
+{"section": "", "seq": 0, "sha256": "dbdb8d51be35ac513d308b85b91a6fb069b049581e2518a09e65535f491aaf07"}
+{"section": "Generative Agents: Interactive Simulacra of Human Behavior", "seq": 1, "sha256": "15becb8bb95e088e75074f820bdccc8e537beb171566bab29996bd6dc8b91cab"}
+{"section": "Generative Agents: Interactive Simulacra of Human Behavior", "seq": 2, "sha256": "f327e213bbc0b29157c771fdb27d5c9005f04f85ce16d843a8c71e5063b57342"}
+{"section": "Generative Agents: Interactive Simulacra of Human Behavior", "seq": 3, "sha256": "cbce9696a5e79b74d06c1731873a5407f5079463b590db3560163a2905a88297"}
+{"section": "Generative Agents: Interactive Simulacra of Human Behavior", "seq": 4, "sha256": "aabf5beb6b110fae1d3ea3c2fccca060d51fe3c99d7704f73adfa4e670a7b68d"}
+{"section": "1. Introduction", "seq": 5, "sha256": "f6f7fdf099e3e26238f48cbe65c5e2c39aa242178e9496a8f4bec4f730ead21e"}
+{"section": "1. Introduction", "seq": 6, "sha256": "611153dc43ab22301cb5e0964c70b732ac70f95f63808eb2968cc9e5782e2f43"}
+{"section": "1. Introduction", "seq": 7, "sha256": "3d11653931d04ea772a7ca1177eb24750b6d2d7d857e5f39c8fd693c966393f5"}
+{"section": "1. Introduction", "seq": 8, "sha256": "d272b6d07e63936209a9c6caef9f80a47543528a97947660ec91fa58ce8f9054"}
+{"section": "1. Introduction", "seq": 9, "sha256": "08cf635235bc363e53d3f18947109bf64abe9d42f86a10ebec9fd8a2990dca78"}
+{"section": "1. Introduction", "seq": 10, "sha256": "6c28caa4c2fd53a02ab2bc3490c9399a9e8ffad38b900d65f2f4e1e2444ffaa3"}
+{"section": "1. Introduction", "seq": 11, "sha256": "742a973aa72e0c18d9d3c7fae110e2a8620eab533406b1c7276e03abedf523be"}
+{"section": "1. Introduction", "seq": 12, "sha256": "cd8d3fe3c8db200855c9e5e17c2fda0066f5b84a2f259f79447e17442dfd1237"}
+{"section": "1. Introduction", "seq": 13, "sha256": "72fdb57a9de920bd72dccf7cfb414678a024ca3464b7c8e31194c7ce756cdb92"}
+{"section": "1. Introduction", "seq": 14, "sha256": "96982e245f647f7b8d58f33d3443fb1a5f5ce8ab2fda9487baa6a97e8e91e2f6"}
+{"section": "2. Related Work", "seq": 15, "sha256": "1b45f726ae8af4e053eca3d2d237ec58b98f135c64784655e32701ca50ad0334"}
+{"section": "2.1. Human-AI Interaction", "seq": 16, "sha256": "c778e158221432c7064a7431869588219efb7fb4f3fbff24677bfcf5cd081bc2"}
+{"section": "2.1. Human-AI Interaction", "seq": 17, "sha256": "c788d677c4275ab7d9117db897bb4ee997052cdf74434485268e01fc55a272b0"}
+{"section": "2.1. Human-AI Interaction", "seq": 18, "sha256": "4043208fe6f6b6c70323ac121872b262d9d77d476a45bf4622682036368a121d"}
+{"section": "2.2. Believable Proxies of Human Behavior", "seq": 19, "sha256": "a7a9dcd0fd77e9fb69d765df3541b6f0a98080b1a413c857c6124f1ffede8b32"}
+{"section": "2.2. Believable Proxies of Human Behavior", "seq": 20, "sha256": "a7287e9df9e311afc08183478d31dc010df3d476775f05e662039553a85114c1"}
+{"section": "2.2. Believable Proxies of Human Behavior", "seq": 21, "sha256": "9d05a95ecdfe1b1617581135181582be3eff79d725de511abf74c76fc26020eb"}
+{"section": "2.2. Believable Proxies of Human Behavior", "seq": 22, "sha256": "dfe2792c84d6f3619f3ef47dd4491127666738c8d537fab5f80c28d36e3a90a2"}
+{"section": "2.2. Believable Proxies of Human Behavior", "seq": 23, "sha256": "c186b2dab9d29832fd9ec9ec7dec75cde7bd7329e3d77f7776daec5716f4a870"}
+{"section": "2.2. Believable Proxies of Human Behavior", "seq": 24, "sha256": "8c0044fc61593cf4f7b755731aee425a4d3e41ca6b9eff79bd3fe12e48e6d27f"}
+{"section": "2.3. Large Language Models and Human Behavior", "seq": 25, "sha256": "03a287d3ebb86468f761a4707e8af50f161fd66b06ec57e13c6c882765450841"}
+{"section": "2.3. Large Language Models and Human Behavior", "seq": 26, "sha256": "f89c571d117b30632828c440df0b6795017e3c4c50af052287090962ce2d22bc"}
+{"section": "2.3. Large Language Models and Human Behavior", "seq": 27, "sha256": "a3432323d6ded124bb6b4a5fcbdcd8f8048eb5e2f1082d4c0bbbd0423a66b729"}
+{"section": "2.3. Large Language Models and Human Behavior", "seq": 28, "sha256": "2ca25cd00149c1dd9210723c3d67e156b0e784b41c0d50f8afff953bafced21d"}
+{"section": "3. Generative Agent Behavior and Interaction", "seq": 29, "sha256": "96159984d9a62bddad0a5f5037bc180fadb382a172e2eb001ca5e4fbe565a22d"}
+{"section": "3.1. Agent Avatar and Communication", "seq": 30, "sha256": "8892bca8542334e2b852fa0d902ff252b3ccd8c70ec64558c64e0bba74922fad"}
+{"section": "3.1. Agent Avatar and Communication", "seq": 31, "sha256": "3b5e1c43c84af8e9e16fc5b782a94caf7b9daa03706c03cd4bc95ee890f7c04a"}
+{"section": "3.1. Agent Avatar and Communication", "seq": 32, "sha256": "6ca32d9532ab82ad2498947f9c6b096963d30be20bdb874338be92a6de19264c"}
+{"section": "3.1. Agent Avatar and Communication", "seq": 33, "sha256": "4dede8eaf3c7ae92b0c192cd6b2d1273f5226e1e2fae240f90d22e563794e878"}
+{"section": "3.1. Agent Avatar and Communication", "seq": 34, "sha256": "8441d60d5dfa6a5cdf1bb9cc3003d54a9eed847d6e97a8e4ff3212eacb8319a3"}
+{"section": "3.2. Environmental Interaction", "seq": 35, "sha256": "3cde92f40e345e7308beec68753b5d0aa30db0515c4baf3958612bd7d741c3fe"}
+{"section": "3.2. Environmental Interaction", "seq": 36, "sha256": "3971c2780c79b1a8ff5df82f82530931bd78cb013ef814a01428105eba12e27f"}
+{"section": "3.2. Environmental Interaction", "seq": 37, "sha256": "de986521bb35f5568aec70887f70964936dfab19202d6657f96b3f4314818144"}
+{"section": "3.2. Environmental Interaction", "seq": 38, "sha256": "e0c9e719f98fdcc7e18eaef2b6644ace2f4e29f003058fe9e59e6a0593e9a958"}
+{"section": "3.3. Example \u201cDay in the Life\u201d", "seq": 39, "sha256": "de9325ce8100aea3850a38a464edec82d89974e6a2891e5d306869d2f6d35af8"}
+{"section": "3.3. Example \u201cDay in the Life\u201d", "seq": 40, "sha256": "9dd9bdbce421cd948dc2fe58dfd64049fd06b2f432f05bca15ba23e7bc1b3ff9"}
+{"section": "3.3. Example \u201cDay in the Life\u201d", "seq": 41, "sha256": "c66181c3f1a950156aa492ddaa1ea6711be89059e5b1e4bbe21d2ec8dd8b82f5"}
+{"section": "3.4. Emergent Social Behaviors", "seq": 42, "sha256": "98e9e8c320ee8d654cb9f8aad1379d1c2a881328a6a60c0c4b5011765f517245"}
+{"section": "3.4. Emergent Social Behaviors", "seq": 43, "sha256": "b4dcc8718e1710a2532c518e7db857b9dfccf362c5ced3d86267d6d9bb2a2c57"}
+{"section": "3.4. Emergent Social Behaviors", "seq": 44, "sha256": "c24192e958e727a178f76f32b05b42277bc4a03fb52b4b9a1939d17fdf9f5522"}
+{"section": "4. Generative Agent Architecture", "seq": 45, "sha256": "cf7eb898c18d4bc229ac1bb086244b69bdd7d227d1662af151d4ae4bde9a7a54"}
+{"section": "4. Generative Agent Architecture", "seq": 46, "sha256": "b47102f81ee4fe9684b73bb3974343ffc34da895f98bd8b9b979cd3c3d766103"}
+{"section": "4. Generative Agent Architecture", "seq": 47, "sha256": "900d3fee8e1645063301b3b23c82ca597dc9353af2ac545612a0fe13c859567d"}
+{"section": "4.1. Memory and Retrieval", "seq": 48, "sha256": "5d32801f8c3cdc8854b547dd821f7ae889ae9b9d24ace759c530bda9242d766a"}
+{"section": "4.1. Memory and Retrieval", "seq": 49, "sha256": "44d7194f48aad841d7acdac08ca652ebe5f11ea2201dc3d1f63044d6505f9353"}
+{"section": "4.1. Memory and Retrieval", "seq": 50, "sha256": "e8c7356bdcfd8b6badc7c3381f6c755ec5a180f5d06da1ca4580ffcf468b2885"}
+{"section": "4.1. Memory and Retrieval", "seq": 51, "sha256": "2787511b7f1b0e91b202fc149c9b6bcb12154274ab601719449056037731e512"}
+{"section": "4.1. Memory and Retrieval", "seq": 52, "sha256": "bf05a28caeff94cd66052b960338760ce76780d285d23eae9b1b0539a9cc29c9"}
+{"section": "4.2. Reflection", "seq": 53, "sha256": "7c796b64f28390fc9fc18ba765073f067db72cbc20ba96e5ca136fe899330541"}
+{"section": "4.2. Reflection", "seq": 54, "sha256": "7e0eb53568cf92a88d34677c6b4f46085257b45f6928f7195f7900175d44ecad"}
+{"section": "4.2. Reflection", "seq": 55, "sha256": "e2e2a2676101f11e0a73f20a061e4e3b4c0d5ebf5591bfa0766e89aaba3f3b77"}
+{"section": "4.2. Reflection", "seq": 56, "sha256": "fe2798092f1b0b241621c789bf1415e4e7e37ca3b1bed400ba2bbe8c7473572f"}
+{"section": "4.3. Planning and Reacting", "seq": 57, "sha256": "615f092e32c9be043b7713daa7c1f013913e47e8c5fd83402847b060266d38b1"}
+{"section": "4.3. Planning and Reacting", "seq": 58, "sha256": "5da3edbf917e7722d292314171e9f89cbd9920f955a3c4d94cf9caed2d97e170"}
+{"section": "4.3. Planning and Reacting", "seq": 59, "sha256": "7368b9932c5674b07651819ca41962c407ead8c55adcb779fb8fee67814dd1e2"}
+{"section": "4.3. Planning and Reacting", "seq": 60, "sha256": "0fc6d34d42481ec1fd2cc8e51113574e7165b6e11db5dd54cb8788db65ced409"}
+{"section": "4.3. Planning and Reacting", "seq": 61, "sha256": "b932f813ec3435caabb2bf29416a5473220ba7bc79895b563bbd24fac298913b"}
+{"section": "4.3. Planning and Reacting", "seq": 62, "sha256": "90b78cadbdd1ff008b60ed0131e14fd71862b2d4cb41bf33bb3f9389a7429c36"}
+{"section": "4.3. Planning and Reacting", "seq": 63, "sha256": "bab050cc32753cdc559a62b74a234d0f4f9fc107fc683d82f815f0c7ebe52432"}
+{"section": "4.3. Planning and Reacting", "seq": 64, "sha256": "82565909bded9b3fe17799a65a50631945a224022ec91c0fa6dd65acc0e424e3"}
+{"section": "4.3. Planning and Reacting", "seq": 65, "sha256": "a0e3b11a2a92f7045b4946e78e36b5cfd5da0d7c021376a8624e242bea1913d2"}
+{"section": "4.3. Planning and Reacting", "seq": 66, "sha256": "ec03b87e3d9978f6d84800346f898821d274b10de7b77894c2b2c89f529a36b3"}
+{"section": "5. Sandbox Environment Implementation", "seq": 67, "sha256": "a9ba259912ad982efbf64d254b2682925eef36ff3a2a5f432680b00ec47eebfa"}
+{"section": "5. Sandbox Environment Implementation", "seq": 68, "sha256": "03715f546303586d9e01bf99c304b6cbb170a1f7f487dc11d3d4b19077940b66"}
+{"section": "5.1. From Structured World Environments to Natural Language, and Back Again", "seq": 69, "sha256": "7829398fb9028f707562aa120c285d19e0d9bf84cdbc0b16292adf9df5a1f2b8"}
+{"section": "5.1. From Structured World Environments to Natural Language, and Back Again", "seq": 70, "sha256": "62950332598b30441de3f2948199ba5871b9f5ab389aca916b9f50922b67c4c7"}
+{"section": "5.1. From Structured World Environments to Natural Language, and Back Again", "seq": 71, "sha256": "68314282619ddc6c34b59be6e5f536f255a8c9b095a5f8a0f9aaafa3bf4b588e"}
+{"section": "6. Controlled Evaluation", "seq": 72, "sha256": "a80c9e663a7da37eeca140da03d1463d07b76998263e3ecceebc3969deb24a95"}
+{"section": "6.1. Evaluation Procedure", "seq": 73, "sha256": "fc6bdedafed535a353f412e7e9f7fd2ef165420d87f87f3018e30eed7b814022"}
+{"section": "6.1. Evaluation Procedure", "seq": 74, "sha256": "0f43b0ab4c8027ef622d898ec4ffecb78f5e5307c9fb5b8d69e40352cceab4ce"}
+{"section": "6.1. Evaluation Procedure", "seq": 75, "sha256": "59ded78c52342a557840f28f7cec6b093471a490033fbbb55bee1689eaf093cb"}
+{"section": "6.2. Conditions", "seq": 76, "sha256": "dbbe711f5687d51f933363b8a349dc04d33bc13f04671ac03466dedd89eda00f"}
+{"section": "6.2. Conditions", "seq": 77, "sha256": "2b4774b8ca4ea1c3dca73b4fa8607f948fc01c9270c4d624ea9716be0c6269e0"}
+{"section": "6.2. Conditions", "seq": 78, "sha256": "45c93eb668675ae51a722e248f89494775cdfb1b7c4c9073f7bcff93628518fc"}
+{"section": "6.3. Human Evaluators", "seq": 79, "sha256": "5d40df3922524b20befb2c1b1e0a20febe98137f3ba61997af2af954cac954c6"}
+{"section": "6.4. Analysis", "seq": 80, "sha256": "424dd7c215fa3ab94e73809512dd54b0341cfb45d9e5cb87d3b79fe6747a1380"}
+{"section": "6.4. Analysis", "seq": 81, "sha256": "9c39fa2de76fb0f498631e40b9c8d91ef4ad3d0c01fb6f21bc615d8a6dc49e67"}
+{"section": "6.5. Results", "seq": 82, "sha256": "54a59a1c5c13abe3c0a0a7f6ed0f77d574fed402a5686429bca77b7cbdb19e77"}
+{"section": "6.5. Results", "seq": 83, "sha256": "68fe69bc7ce61a7e761a086c029028aa1ab14f679f0c86a57c9827651b5ec808"}
+{"section": "6.5. Results", "seq": 84, "sha256": "872d860c83fdbf0a8b2fee93925f0b6f579c76184c7787cd72deb6bb35a26152"}
+{"section": "6.5. Results", "seq": 85, "sha256": "a64ff0f7be2947d739c73b60ced9fb7df395c2d6bafa7b27f0b1e93b8635d467"}
+{"section": "6.5. Results", "seq": 86, "sha256": "2b037aa99c231fbc1d0bf35e1d247ddfe80ed1d3900cc2af4e86825efc84043b"}
+{"section": "6.5. Results", "seq": 87, "sha256": "55ba415fc30fd4f87a0b59ba27a171bb0f384b8c2e65912e089ea0ec91c78896"}
+{"section": "7. End-To-End Evaluation", "seq": 88, "sha256": "aacf77bec5b15313256e232baf2bf7053e3b725fc8c46bd2460ab5e7a86de74e"}
+{"section": "7.1. Emergent Social Behaviors", "seq": 89, "sha256": "b8f89f88a1e0a5ff9165582d22fcbb0049a98679a6aa5e4378d5f818cc54d709"}
+{"section": "7.1. Emergent Social Behaviors", "seq": 90, "sha256": "8d2fb39904ff23d391d1b4948dc9dc18cadb07d3e423e639d0c06a55a0430e7f"}
+{"section": "7.1. Emergent Social Behaviors", "seq": 91, "sha256": "e286013a5ce5e047f77a81740b533f6205d02f46a0ee6cc57160215d63dc58e8"}
+{"section": "7.1. Emergent Social Behaviors", "seq": 92, "sha256": "fb33fd6a3403dd0d3096714e2c25fd011efa1a732d507a40ffa09f09118af605"}
+{"section": "7.1. Emergent Social Behaviors", "seq": 93, "sha256": "3148dafda8299a4c9b9507d6998e6edcba1ab0192aef090bb101ba7521133fc3"}
+{"section": "7.1. Emergent Social Behaviors", "seq": 94, "sha256": "8bb78058a962359aabb6b7509d713016fd7eaefbc2e7277f56fe4478a9f614d2"}
+{"section": "7.2. Boundaries and Errors", "seq": 95, "sha256": "4c771d087005767539cba3566bbd7cc3b5c096202ff8d5b5703dba9743255792"}
+{"section": "7.2. Boundaries and Errors", "seq": 96, "sha256": "653659f7ffa1ee58b773ba6901a7357e5721e365e06b5c96f773fdd2d9b7498c"}
+{"section": "7.2. Boundaries and Errors", "seq": 97, "sha256": "e60f7fed4aadeca14bedff60dc1adfabd83984b2100e2e80947ab50fe20b9df0"}
+{"section": "7.2. Boundaries and Errors", "seq": 98, "sha256": "98492b574f2f71dac61533856db52f60f8638a9ed0d5bf639ab6d12ce3544690"}
+{"section": "8. Discussion", "seq": 99, "sha256": "8423f5b7a72cbb779d8d4bbd966a19c8017313468f345a1403dd2e70662cf1eb"}
+{"section": "8.1. Applications of Generative Agents", "seq": 100, "sha256": "22c0d4dbbbf83f48d48cf0a680f6608252f6a00f27e25ed60649ccf3ed75267d"}
+{"section": "8.1. Applications of Generative Agents", "seq": 101, "sha256": "9809b0651258ed5b1e1bf5bea92cd2565868ed05437f68665de2ef88b46b681d"}
+{"section": "8.2. Future Work and Limitations", "seq": 102, "sha256": "b285787a28d8fa1c40c668cd3a69c99a1e338231068ca1a05f638ce280c1ea4b"}
+{"section": "8.2. Future Work and Limitations", "seq": 103, "sha256": "d4c181a591f6e294674c60b625877aa2127733e350e1605fd4eadeea1fa7960f"}
+{"section": "8.2. Future Work and Limitations", "seq": 104, "sha256": "fcb0034c24153fb7cda7101d5940f93e502676112f35bb5ba7d746ad9ad6965c"}
+{"section": "8.3. Ethics and Societal Impact", "seq": 105, "sha256": "dd9df5b310d712a17b85b7de5a550c353618f15f9e5948e827da7027a08babe4"}
+{"section": "8.3. Ethics and Societal Impact", "seq": 106, "sha256": "368d60ba684103155fac68398022674dac6d31e389d31c4a79d4f1ba89e7a9ee"}
+{"section": "8.3. Ethics and Societal Impact", "seq": 107, "sha256": "2d20264f7e4f0bf85255f02ef85e0117dc171ed782d265ab9179ee407bc37c30"}
+{"section": "9. Conclusion", "seq": 108, "sha256": "b2abbf4cada3ae2e097014dc670bed03dbbfd5e58d1f4a9b37f8ba9f917958a2"}
+{"section": "9. Conclusion", "seq": 109, "sha256": "4dc67d415b90a2952e21cb281803212f5143995c64900255ab2820e0cc96a4cc"}
+{"section": "References", "seq": 110, "sha256": "1a60463d59241167338638638daac1358dfe530718ff3141d9d4fd0ceac9465e"}
+{"section": "References", "seq": 111, "sha256": "fe89dd702d827c895db2396ddf06171a453be57a1a3ee3069970a658b4ab624c"}
+{"section": "References", "seq": 112, "sha256": "d058b658024d0164a811b754f82c38d51264746671dcff1dfa6f0985e2139dbf"}
+{"section": "References", "seq": 113, "sha256": "9da3d47628368c316d88aad378c5bd06026ec97026742306b4c44f87f20a062c"}
+{"section": "References", "seq": 114, "sha256": "9da2599c3dcae51ed3d88ee9254cd15fa99a1448b9175f3742befa052cac7aa4"}
+{"section": "References", "seq": 115, "sha256": "d0de638eecc042ddc488534ccc5d36106a98804feaea6d1da4a9de83883ecea7"}
+{"section": "References", "seq": 116, "sha256": "a9eaa12dab3e749e05d3983167a22cc9dde0b37003d47935cca983a9139e6c47"}
+{"section": "References", "seq": 117, "sha256": "fd7222e7f63dc34c552914eac51be38d84fe0e98a2852129fe6c0b4cb801b169"}
+{"section": "References", "seq": 118, "sha256": "8f07056eb82273ddc27e41f8bad9b5275653a933ec1928d8010bf600858ae19a"}
+{"section": "References", "seq": 119, "sha256": "2e3f36779609d84114328d745eaccd0b47598695579f49eeb458eeda01837a3b"}
+{"section": "References", "seq": 120, "sha256": "14eb113563eb0892830ee5e6d371207161bd633834fe634ac0f1e6a8646ec2e8"}
+{"section": "References", "seq": 121, "sha256": "feb69b4bce595b546d6d844b48d504ca28179d3f2abcc7d263f91130396926fa"}
+{"section": "References", "seq": 122, "sha256": "01306c3524444e513c0252465e9f61da3e0f58127d84096df3474d6a849c834d"}
+{"section": "References", "seq": 123, "sha256": "1f8170eb933da234701b3687e027dc1f024a73786b426809d28dc1ea3e44afc9"}
+{"section": "References", "seq": 124, "sha256": "89eb2e8b485a90f061197cefcd7f894df79a92c77c3313539043766cf6c67a6a"}
+{"section": "References", "seq": 125, "sha256": "e473960d4f7e05c045c29f08dc00ce09f196157a55b203f92d87f199fbc9af24"}
+{"section": "References", "seq": 126, "sha256": "05e2f3e5ab0cf5f867b730deeb62de033f5858559c3b37aef5e61484b9c31caf"}
+{"section": "References", "seq": 127, "sha256": "3264b38c5d2fbdb439dc747bf53bb1187eaecd32e3f5f8bccac73b380f773cfc"}
+{"section": "References", "seq": 128, "sha256": "2af25e3c8f7e7ca6e95605b94cf1cc924ec978423ad31a51b0c5311b5a84c2cc"}
+{"section": "References", "seq": 129, "sha256": "d77928b0b8bbe26c29a346ad243740398947735cae7c8d87881c490da8982c4c"}
+{"section": "References", "seq": 130, "sha256": "342d0076d2cd9eec1c67e30bcf6a9c19e52affbbbac0d109ca855557ee9d904e"}
+{"section": "References", "seq": 131, "sha256": "e44fd312d74f691353ee580837c688a061ed3fe48b0ce6426b852c2d814c0977"}
+{"section": "References", "seq": 132, "sha256": "4e079849a000b624f29fecf6f57e48638fbc81d84a69e221a428fde19dd4829c"}
+{"section": "References", "seq": 133, "sha256": "4afb372109e1637e5f6bea16c3f2f69807d045ae443cc90d4890c3e2d8427c79"}
+{"section": "References", "seq": 134, "sha256": "3d3b14284c2bb99d940558b8bdd4caddc0a0fa7c4684893fb473ff6c8691f1ef"}
+{"section": "Appendix A Architecture Optimizations", "seq": 135, "sha256": "e8ed1c97800eeb050cc5ca4958e8182704d2a69c35e3e30b94e836aa2c53c16e"}
+{"section": "Appendix A Architecture Optimizations", "seq": 136, "sha256": "4acdddb6efbaa8f9c00b317bb3c2c3bbe7d5e82fdf628d5b2574011e46089ef5"}
+{"section": "Appendix A Architecture Optimizations", "seq": 137, "sha256": "7d99a43f29a50af6274e41c14174ff87801c60c68cfb19fb7ceecf2420d1e9ab"}
+{"section": "Appendix B Agent Interview Questions", "seq": 138, "sha256": "9ab29e68ab6dca911ea9a9f899212585c1dfb5f3f898529d83d06c613038cf8c"}
+{"section": "B.1. Self-Knowledge", "seq": 139, "sha256": "3a288eb30129e92e1bd8f73f576f46c3edd89bcb7fef4ff1a12f00a854cc99e7"}
+{"section": "B.1. Self-Knowledge", "seq": 140, "sha256": "9a7f02bd589d8c279fd5610ed7d99d654fc5ad50cbeca4b85a13c379a23de6d7"}
+{"section": "B.2. Memory", "seq": 141, "sha256": "6947035e506977ef4496374f75be375e9f8196de1b0b836e4130e48ec394fd20"}
+{"section": "B.2. Memory", "seq": 142, "sha256": "117d1e7c19a6f3338a8703723fa28d8ae5925ea56cc6701083a3cbf98e14d8b4"}
+{"section": "B.3. Plans", "seq": 143, "sha256": "3249cd135b2d954f4f06bac4d66d76590e278f0ad49186aa6b976a3843305cb6"}
+{"section": "B.4. Reactions", "seq": 144, "sha256": "20b6a67f92cc8008513512e4a8ec7ddf459287b05a94583adf52038f6918378a"}
+{"section": "B.4. Reactions", "seq": 145, "sha256": "d4cffa80c42d8feee699dc5f10ec0633da93f0f6cd45e363b6ef2e625db9ed2e"}
+{"section": "B.5. Reflections", "seq": 146, "sha256": "e46279c792cf5fa84d303cabd93da13ee704dd0024ceddfac0eeb465b342f0b2"}
+{"section": "B.5. Reflections", "seq": 147, "sha256": "93a9f7c44157f9b461f2a1ce6b5916c4c247f40c65bfe6c17b727b72634bdd93"}
+{"section": "B.5. Reflections", "seq": 148, "sha256": "e26710225929c2a3e4ee28aecd0bdcc83f47eb6bab491ab73288f52fe54a4347"}

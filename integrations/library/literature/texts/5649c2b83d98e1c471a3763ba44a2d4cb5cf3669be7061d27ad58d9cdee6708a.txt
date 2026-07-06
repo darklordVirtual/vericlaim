@@ -1,0 +1,6 @@
+Real vs. Complex. Most prior SSMs use complex numbers in their state , which is necessary for strong performance on many tasks in perceptual modalities [gu2022efficiently]. However, it has been empirically observed that completely real-valued SSMs seem to work fine, and possibly even better, in some settings [ma2023mega]. We use real values as the default, which work well for all but one of our tasks;
+we hypothesize that the complex-real tradeoff is related to the continuous-discrete spectrum in data modalities, where complex numbers are helpful for continuous modalities (e.g. audio, video) but not discrete (e.g. text, DNA). Initialization. Most prior SSMs also suggest special initializations, particularly in the complex-valued case, which can help in several settings such as low-data regimes. Our default initialization for the complex case is S4D-Lin
+and for the real case is S4D-Real [gu2022parameterization],
+which is based on the HIPPO theory [gu2020hippo]. These define the -th element of as
+and respectively. However, we expect many initializations to work fine, particularly in the large-data and real-valued SSM regimes;
+some ablations are considered in Section˜4.6.

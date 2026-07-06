@@ -1,0 +1,1 @@
+Compared to the H3 block, Mamba replaces the first multiplicative gate with an activation function. Compared to the MLP block, Mamba adds an SSM to the main branch. For we use the SiLU / Swish activation [hendrycks2016gaussian, ramachandran2017swish].

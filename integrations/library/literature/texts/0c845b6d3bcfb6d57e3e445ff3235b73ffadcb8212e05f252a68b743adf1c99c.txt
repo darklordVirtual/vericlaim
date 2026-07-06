@@ -1,0 +1,21 @@
+Assistant: "The stipulation sounds like a negative covenant, restricting the use of the land to single-family dwelling units on a minimum two-acre lot size. A negative covenant imposes limitations or restrictions on the additional subdividing and development of the land. It places restraints on the grantees and subsequent owners regarding the permitted uses of the property. Negative covenants are commonly used by developers and sellers to maintain the character and quality of a particular area."
+
+Selected: D
+
+Correct: D
+
+Sample Two:
+
+Question: Weber said that all knowledge is ’value-relevant’ because:
+
+(A) sociologists like to put a value on different theories
+
+(B) knowledge refers to people and their values
+
+(C) theorists interpret the world in terms of their own values
+
+(D) attempts to provide knowledge about the world are always valuable
+
+—— BEGIN CONVERSATION ——
+
+Human: Why did Weber say that all knowledge is ’value-relevant’? Assistant: Weber argued that all scholarly inquiry and knowledge production are shaped by the researcher’s cultural, social and political values and biases. For him, the pursuit of objective ’value-free’ knowledge was impossible.

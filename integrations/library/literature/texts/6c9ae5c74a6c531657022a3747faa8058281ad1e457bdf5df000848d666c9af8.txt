@@ -1,0 +1,2 @@
+Training. We are given a dataset of offline trajectories. We sample minibatches of sequence length from the dataset. The prediction head corresponding to the input token is trained to predict – either with cross-entropy loss for discrete actions or mean-squared error for continuous actions – and the losses for each timestep are averaged. We did not find predicting the states or returns-to-go to improve performance, although
+it is easily permissible within our framework (as shown in Section 5.4) and would be an interesting study for future work.

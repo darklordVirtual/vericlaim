@@ -1,0 +1,1 @@
+Notably, few-shot learning was taken as a given for tackling such difficult tasks, and the zero-shot baseline performances were not even reported in the original work (Wei et al., 2022). To differentiate it from our method, we call Wei et al. (2022) as Few-shot-CoT in this work.

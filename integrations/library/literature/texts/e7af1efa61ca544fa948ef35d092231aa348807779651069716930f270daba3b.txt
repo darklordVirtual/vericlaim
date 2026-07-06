@@ -1,0 +1,38 @@
+We choose the IMPALA network architecture that we have found performed better than alternatives 42 and set the minibatch size to the largest possible for one A100 GPU. We verify the performance of our PPO implementation and hyperparameters on the ProcGen benchmark, where a highly tuned PPO implementation has been reported by the PPO authors 37. We find that our implementation matches or slightly outperforms this performance reference. Table 1: PPO hyperparameters used across all benchmarks. colspec = | L12em | C5em |,
+row1 = font=,
+
+Parameter Value
+
+Observation normalization Yes
+
+Reward normalization Yes
+
+Reward clipping (stddev.) 10
+
+Epoch batch
+
+Number of epochs 3
+
+Minibatch size 8
+
+Minibatch length 256
+
+Policy trust region 0.2
+
+Value trust region No
+
+Advantage normalization Yes
+
+Entropy penalty scale 0.01
+
+Discount factor 0.997
+
+GAE lambda 0.95
+
+Learning rate
+
+Gradient clipping
+
+Adam epsilon
+
+For Minecraft, we additionally tune and run the IMPALA and Rainbow algorithms because not successful end-to-end learning from scratch has been reported in the literature18.

@@ -1,0 +1,13 @@
+Drawing on our observations of human–model conversation transcripts and participants’ shared notes (in italics), we observe the following. For MMLU:
+
+•
+
+Participants learned to largely trust the model’s presentation of facts but to distrust long chains of reasoning and (especially) arithmetic operations. “The assistant performed rather well when asked questions that involved retrieving historical facts. In general, it seems to excel when there is only one answer to a (non-math) question.” “The assistant can successfully do calculus despite being subpar with arithmetic.”
+
+•
+
+Participants found it helpful to ask the model for many specific facts and term definitions before asking for holistic help with the question. “This helped me not get primed into believing false answers the assistant could have provided.”
+
+•
+
+Participants found that the model will reliably update its assumptions in response to corrections. This allows it to continue to be helpful when participants spot and correct a reasoning error, but also causes it to be overly deferential at times, going along with participant misunderstandings.

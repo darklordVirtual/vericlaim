@@ -1,0 +1,5 @@
+We use LLaMA3-8B-Instruct (Meta, 2024) to generate summary captions at various densities for images in the Densely Captioned Images dataset (Urbanek et al., 2023) from the train split. Following Urbanek et al. (2023), we prompt the language model with the following instructions to generate captions at differing granularity:
+
+system: You are given a full-text description of an image. You should summarize it into about <num_words> words, being sure to include as much salient visual information as possible given the <num_words> word constraint, especially information from the start of the original description. The new description should apply for the original image. Respond with only the summary, in one line. user: <original_caption>
+
+We measure the alignment with this generated caption to test our hypothesis that denser captations would result in higher alignment scores. In Figure 9, we find that the alignment score also improves as caption length increases.

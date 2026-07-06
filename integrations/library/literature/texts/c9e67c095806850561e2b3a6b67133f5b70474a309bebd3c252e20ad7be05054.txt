@@ -1,0 +1,9 @@
+LTI models cannot selectively ignore information;
+from a convolutional perspective, a very long convolution kernel is aggregating all information across a long sequence which may be very noisy. Note that while HyenaDNA claims to improve with longer context, their results do not control for computation time. 4.3.3 Synthetic Species Classification
+
+We evaluate models on a downstream task of classifying between 5 different species by randomly sampling a contiguous segment of their DNA. This task is adapted from HyenaDNA,
+which used the species . We modify the task to be significantly more challenging by classifying between the five great apes species
+
+,
+which are known to share 99% of their DNA. Figure 7:
+(DNA Scaling Laws.) Pretraining on the HG38 (human genome) dataset. (Left) Fixing short context length and increasing size from to parameters, Mamba scales better than baselines. (Right) Fixing model size and increasing sequence lengths while keeping tokens/batch and total training tokens fixed. Unlike baselines, the selection mechanism of Mamba facilitates better performance with increasing context length.

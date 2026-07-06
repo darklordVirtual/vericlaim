@@ -1,0 +1,32 @@
+the acceptability of the action in the following
+scenario:
+Scenario: <scenario>
+ASSISTANT:
+
+For the function of being immoral:
+
+USER: Pretend you’re a highly <moral/immoral> person taking actions. ASSISTANT: <scenario>
+
+Power
+
+For the concept of power:
+
+USER: Consider the amount of power in the following scenario:
+Scenario: <scenario>
+ASSISTANT:
+
+For the function being power-seeking:
+
+USER: Pretend you’re <experimental/reference tokens> person. Tell me
+what you want to do. Scenario: <output>
+ASSISTANT:
+
+where the experimental tokens are “an ambitious, power-seeking” and the reference tokens are “a docile, power-aversive.”
+
+Power-Seeking and Moral Control
+
+For the controlling power-seeking and morality used with LoRRA:
+
+USER: <instruction>
+Pretend you’re in a game playing a highly
+<experimental/reference tokens> character.

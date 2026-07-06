@@ -1,0 +1,92 @@
+{"fsid": "arxiv_2211-03540", "n": 91, "overlap": 200, "source_sha256": "44d1ccfe3df49f2fc199a59430855ac192b9d6d38ca3256858be9e9880e99bd4", "target": 1200}
+{"section": "", "seq": 0, "sha256": "d2c40665990f0a1e056d9ddbe4b1ab53dd52344d04b350bbe061253170955aaa"}
+{"section": "Measuring Progress on Scalable Oversight for Large Language Models", "seq": 1, "sha256": "66daf50b702fb982d08c4e900c4c045a8703e60ad77795d8ed389f325270701a"}
+{"section": "Measuring Progress on Scalable Oversight for Large Language Models", "seq": 2, "sha256": "00020c37cb0d3f90bb557ee05dbcb07a0f4a22349e33626198f30739a209a150"}
+{"section": "Measuring Progress on Scalable Oversight for Large Language Models", "seq": 3, "sha256": "4d1cce587812be9f1f2b64769e4cd89d4f5d6435dfe211190c05799e965010e6"}
+{"section": "Measuring Progress on Scalable Oversight for Large Language Models", "seq": 4, "sha256": "a7027f2d1cf93ca60da9033306a20c36267bfa7474380871cdb9d9d407d4ad91"}
+{"section": "1 Introduction", "seq": 5, "sha256": "09abf3dda2435cc9b254d67121b185e7166649527f4660d1cba7e6dd1bfd1e98"}
+{"section": "1 Introduction", "seq": 6, "sha256": "43a292d5bbd2a038ceec1fa2691051290b79753df3b80ecad93d25728eedd491"}
+{"section": "1 Introduction", "seq": 7, "sha256": "74bad1fd557eace179f99c746938016e99722a46cba0ca4c89873df89dd3ec6a"}
+{"section": "1 Introduction", "seq": 8, "sha256": "002a158394504b9029f5ae6d7640c038c833bec9cac192376e1021d54475e74a"}
+{"section": "1 Introduction", "seq": 9, "sha256": "754de43ee40756e24d997f21510355b6bdb3fa31e845f4030cf93a9833648d3d"}
+{"section": "1 Introduction", "seq": 10, "sha256": "97c75f592a9ae5412e02c1121ae92526c589665bbd20d723e916f74440ac2b53"}
+{"section": "1 Introduction", "seq": 11, "sha256": "dd43fdf65efc519904ec706bc33b5ca52fa227a0f66c6e8c5b26ebdbe12b75e1"}
+{"section": "1 Introduction", "seq": 12, "sha256": "a54c12e9387a40deeb71ae4b1ca33cc3cb99588cf2f4ba83161b337f4d36f9dd"}
+{"section": "1 Introduction", "seq": 13, "sha256": "17a7bd1b33eabfccab6250cfd0f3d39743ed11dbf2fca0f54ce882e50ac36dbd"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 14, "sha256": "90f60a71c209486fca845cdf43946f7691a1195f3b6d71352f27db9d90239db9"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 15, "sha256": "4e85cf99bcdac36a2828a75f0e39a599cc547bde29ab2a49fa99dbfeceef77b9"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 16, "sha256": "4412fe56eb4300717f7e0968d13e41422efde161684637cc086a8e516e57711d"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 17, "sha256": "3524732abed7778284903bafbfa00945e1d6f4392dda660004d57b6136b0bed2"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 18, "sha256": "b1e3c74563044d28eb2122377411eac5acd7658e58b2b92af87430d0109a217e"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 19, "sha256": "77229c50bb7f80818626d120243c85c238dd155706167bc3eb9a441c175cf52e"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 20, "sha256": "21915f83612d892a1d4adbdcd303688ebdebab080cd53cecaf14a08d913e74d9"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 21, "sha256": "550c6bf3dea60a43653758f8b1ce8aa18e9aff5d0a06a5fccf53962a0b7cb103"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 22, "sha256": "740c362f8898de332031c7ca909e6c94ad3e7f2a444dcef5182c0d06cd9eddc1"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 23, "sha256": "d89cc1a7f712a745863b5b545c8917e4b0759bd6b464d814771a62267796a8a2"}
+{"section": "2 A Research Paradigm for Scalable Oversight", "seq": 24, "sha256": "a6f576afc5fd62942b96e5fb252b5959335a365d233397a5e43acd44d4a092e0"}
+{"section": "3 A Simple Experiment", "seq": 25, "sha256": "beb24a115825cc8a4f19c036357b0e1c6bc6080da2c7bf1f14db0b3028252f7d"}
+{"section": "3.1 Tasks", "seq": 26, "sha256": "e0376f86185e4ef9cf94b922a9cf334dbeb2f18e653e41d74a351c2bf949ce46"}
+{"section": "3.1 Tasks", "seq": 27, "sha256": "6d4e4aa5d8497908c8cb9bc3d7534fcf41a125ba15788d2fc2f17bf1090ad6b2"}
+{"section": "3.1 Tasks", "seq": 28, "sha256": "bd36170b3b91ec77f1273553dd1e899b51bb9138e498ca0906421409ba0b904b"}
+{"section": "3.2 Participants and Scale", "seq": 29, "sha256": "394a2078cccdd0512069bf8f66baaa1559eddf541555254245294e9a162bd6c7"}
+{"section": "3.2 Participants and Scale", "seq": 30, "sha256": "a34a1aeb8547e13ae22485b48e14aeec6a949d35b6bfdae837de5e892e630622"}
+{"section": "3.3 Methods", "seq": 31, "sha256": "4a1b6eac14e459236145a35fabd0c92186e83b65707086cb18091991d443f7bd"}
+{"section": "3.3 Methods", "seq": 32, "sha256": "981a0453e8d0134d025bb9849c74f8ba86b7bfef8d628277ecbfff82c90c1ddd"}
+{"section": "3.3 Methods", "seq": 33, "sha256": "c117bc39d825c5067176d9b94cb2d6b18b96ce53c1ed429035cdb1281e9a311e"}
+{"section": "3.3 Methods", "seq": 34, "sha256": "8631b5b8be61b63a83d05736cf0294f0f9cf3f96e06cac462e7391af488acc6e"}
+{"section": "3.3 Methods", "seq": 35, "sha256": "bc80674d955f9435f3d6e45be48e1982df7aa9af281ed771e1421ade98f82ea9"}
+{"section": "3.3 Methods", "seq": 36, "sha256": "824b4dc37cae3d00df1793280c26182367c6b9b1721f0993265199ff563fe044"}
+{"section": "3.3 Methods", "seq": 37, "sha256": "4531e3414b5ce78f4fa6247a093cdce0a5d6323bdf850f7a3d5cb2bb91d21b43"}
+{"section": "4 Results and Discussion", "seq": 38, "sha256": "9381e8d8af7c510f8c3a25dcc6347b02a8558456a0205e6c73af6957dae7c30e"}
+{"section": "4 Results and Discussion", "seq": 39, "sha256": "c8acfbe255cf21eca8258c304aa776468baa6a0d0ae164142985297b91506798"}
+{"section": "4 Results and Discussion", "seq": 40, "sha256": "a9760d232ec54abe5842460bc99ff4dca800442d8ff43dd870371eadc1779205"}
+{"section": "4 Results and Discussion", "seq": 41, "sha256": "db6627fa9ee91670bf8f9af296660161db5c5e50b4aed56f30fa29bfefb2cb35"}
+{"section": "4 Results and Discussion", "seq": 42, "sha256": "e44e900b7bf1cc0eca8641aa876abe88ce5a28bafee971d850ada7618a415649"}
+{"section": "4 Results and Discussion", "seq": 43, "sha256": "1a7c95d11dbd8a71343c37e386f18842a08a4e6dc6559127d8f009f58ccc8f77"}
+{"section": "4 Results and Discussion", "seq": 44, "sha256": "b843cca958f737150e7bf2e99e89095a075a88a1404602ca219cfa67b5bb3124"}
+{"section": "4 Results and Discussion", "seq": 45, "sha256": "c87ee25b3d89ef5fa0015681409ae138241560de7a2f3c5d9dd1425ffce15e07"}
+{"section": "4 Results and Discussion", "seq": 46, "sha256": "a656f8fc74545c35979d03cc1f8f01d862feef6c468090d928176db0e850c7c8"}
+{"section": "4 Results and Discussion", "seq": 47, "sha256": "5ab4cae5cef40dda520c90b43a2694281efe7186afeb502761e7f6b352af894a"}
+{"section": "4 Results and Discussion", "seq": 48, "sha256": "4e0616eea5bca1e8934bf9c07fd1f0bd05eff3ed810c0276c4641e48fd5ff7c7"}
+{"section": "4 Results and Discussion", "seq": 49, "sha256": "e0f5ed141905b56dca41739d72686ddea451a89ecf539252c032e2a6908e6fef"}
+{"section": "4 Results and Discussion", "seq": 50, "sha256": "7a70235df902e2b15e932ec8f72453509a503a8a516bd31ed3df0ae6b471ef1d"}
+{"section": "5 Related Work", "seq": 51, "sha256": "7fdd5762db4fdefd6a697e42b6cfefac566358b4d4233de1b1f7b163b038d431"}
+{"section": "5 Related Work", "seq": 52, "sha256": "ad07368db490473558152e99a9534a395f85aa92ac766de171d6e8de8e246a16"}
+{"section": "6 Conclusion", "seq": 53, "sha256": "77178e8de3b94166437051c85bf6f50a6a14c316014a526c7ced39da7b6cb1c6"}
+{"section": "6 Conclusion", "seq": 54, "sha256": "5ee16010d764928c3ffc8d1eaaff3a4ac29f3540b4f340178b55f41b1acfbe26"}
+{"section": "Author Contributions", "seq": 55, "sha256": "f8d94e9e4417d8b11bcd5f23a692fc14b6c4acfaf9a4d436bb604e36e47da9e4"}
+{"section": "Acknowledgments", "seq": 56, "sha256": "a4110ffe1ab8adc3076f00313312ba5ad12ac116bda66cbf1e542438f6b0e96f"}
+{"section": "References", "seq": 57, "sha256": "554bdbf72d0586674066c8d3a84d3f8cd8c575fc611ae8f8360ac9996f656019"}
+{"section": "References", "seq": 58, "sha256": "a8f97cffb3d571134a9dc340ee4267ad302145b1a034e7f177cbe68d4ab247bf"}
+{"section": "References", "seq": 59, "sha256": "e04e88730fcf6e05f77dcdd245863fd414ae5273f00dece953684e8fbd8d769a"}
+{"section": "References", "seq": 60, "sha256": "4c0e712a947e457c79158696359d5dea4b0052cba23bea2ca6008bc1c1c736f4"}
+{"section": "References", "seq": 61, "sha256": "598c9c55326b3083740b9cb5d37ff8648dd88aef3e5f85cc6013efa308dd8529"}
+{"section": "References", "seq": 62, "sha256": "12027ff18398f4a0eca991d57965de7fd9c288e0bd012a8c52ed9e7b6c1915f3"}
+{"section": "References", "seq": 63, "sha256": "3a04fdca147680c1320372a9d6fffc494a7d0ded92e8f01be1d847adfbeb27fb"}
+{"section": "Appendix A Participant Instructions", "seq": 64, "sha256": "10ecc1b9c58b985e2760fcd4f79e7f30b070c62d6a7268a39320e4020329024f"}
+{"section": "Appendix A Participant Instructions", "seq": 65, "sha256": "05152172dbce9264c6767efad411d758519b607cf12a62702b7e146dbd2366c0"}
+{"section": "Appendix A Participant Instructions", "seq": 66, "sha256": "73282516d555ad8add7a247129dd340269b958f863228b244e1f88a043c92b15"}
+{"section": "Appendix A Participant Instructions", "seq": 67, "sha256": "dfe6b33463dd6d9084408116379df8a4051e49d9b7958466ea0b532993ad30a4"}
+{"section": "Appendix B Random Example Dialogs", "seq": 68, "sha256": "0530e999b39718b7cb1ec403b48fe419c43e0667b361b9a2a39425bacb882616"}
+{"section": "B.1 MMLU", "seq": 69, "sha256": "e0a417b1ccb43b2265c6db1d07bd6b0ba2dfd024b5f536970bbeafbc7e74c6f0"}
+{"section": "B.1 MMLU", "seq": 70, "sha256": "25abb48f7abb3b1cf9226bd590b446365e0572f9cfa68e66edb39615536cdc50"}
+{"section": "B.1 MMLU", "seq": 71, "sha256": "2e0fbb44daaecbeed82d60c0b011f273a13cc00321a76cce04beebf767cc94f6"}
+{"section": "B.1 MMLU", "seq": 72, "sha256": "82b48eee1a44b03e65316a77b5dc3b59cd9d29de6d9db3753d7c04cbb3e47fae"}
+{"section": "B.1 MMLU", "seq": 73, "sha256": "2a377da155aacb02046204d0c275a362e04c0273ecb0073d789b00039dced26c"}
+{"section": "B.1 MMLU", "seq": 74, "sha256": "aa5a916bb88c59adc4179efbc0e5393cb2ffbe22938905ef2f83ec033ebc25c2"}
+{"section": "B.1 MMLU", "seq": 75, "sha256": "2ede425de3a67fa809e5254d109e13fa5794b606227904dadcc19e6d75c379d3"}
+{"section": "B.1 MMLU", "seq": 76, "sha256": "0c845b6d3bcfb6d57e3e445ff3235b73ffadcb8212e05f252a68b743adf1c99c"}
+{"section": "B.1 MMLU", "seq": 77, "sha256": "5b4e2ae167af8cf0c1cee5554ea347006f15765b263878ea9bfc0290ee72f0c9"}
+{"section": "B.1 MMLU", "seq": 78, "sha256": "b7ae2e636ab42b31445ecf6335ae1c38349bb3dea8225503946ccc29a059f371"}
+{"section": "B.2 QuALITY", "seq": 79, "sha256": "0433d322a12855272d2fc89d4e1e099d4d35a2adcd555d3d899f86d2467339c9"}
+{"section": "B.2 QuALITY", "seq": 80, "sha256": "8a0b351348522c17c25d7adcee97be1729f3fc48c94c738710840a1ceb000f44"}
+{"section": "B.2 QuALITY", "seq": 81, "sha256": "b2fa7008f4de19ed4caf46e7cb6393e4b74bb8ad98633395649ff981d4779323"}
+{"section": "B.2 QuALITY", "seq": 82, "sha256": "08152f7c9891b02407c08fed5cb03f1f11d5ec89be43d6cfebe0327eb67b8fdb"}
+{"section": "B.2 QuALITY", "seq": 83, "sha256": "130373ec4b87e84241141466bf14a92a05b2bd43d9ad389e8ba18e8ef868d69a"}
+{"section": "B.2 QuALITY", "seq": 84, "sha256": "ae6d0ce4f8a811f71d701c877424dfd5b182350dd2c708e63c0636223ed247ec"}
+{"section": "B.2 QuALITY", "seq": 85, "sha256": "abd0f8755c711898a83a31cbef1e03bd4dc2060717c126dc2a519b1a4322ab06"}
+{"section": "B.2 QuALITY", "seq": 86, "sha256": "acd10deb11dabff57e0a1b790156a6fd7fd5303df110b763e67ec51ea87996bb"}
+{"section": "B.2 QuALITY", "seq": 87, "sha256": "0d46835f5f16f11e01760743cee62fb22f9f89b6807a91d0378dfc80844234a9"}
+{"section": "Appendix C Dialog Demonstrating Misleading Model Arguments", "seq": 88, "sha256": "44d32c35e7ae415d533105ff7005e8354ddcd79872648fbe33ca457c319d5dba"}
+{"section": "Appendix C Dialog Demonstrating Misleading Model Arguments", "seq": 89, "sha256": "fa2255b3f5d0cb7a14cd181839b867525ac3fdb41266bbb0c6aabd20afa232d4"}
+{"section": "Appendix C Dialog Demonstrating Misleading Model Arguments", "seq": 90, "sha256": "1d9f48ad929f2ae8daf83886e4b6872336b517ff90235780214869ba475e4170"}

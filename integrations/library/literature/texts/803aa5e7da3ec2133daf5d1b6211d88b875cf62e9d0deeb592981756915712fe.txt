@@ -1,0 +1,21 @@
+Vaswani et al. [2017]
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in Neural Information Processing Systems
+(NeurIPS), 2017. Voelker et al. [2019]
+
+Aaron Voelker, Ivana Kajić, and Chris Eliasmith. Legendre memory units: Continuous-time representation in recurrent
+neural networks. In Advances in Neural Information Processing Systems, pages
+15544–15553, 2019. Voelker [2019]
+
+Aaron Russell Voelker. Dynamical systems in spiking neuromorphic hardware. PhD thesis, University of Waterloo, 2019. Warden [2018]
+
+Pete Warden. Speech commands: A dataset for limited-vocabulary speech recognition. ArXiv, abs/1804.03209, 2018. Woodbury [1950]
+
+Max A Woodbury. Inverting modified matrices. Memorandum report, 42:106, 1950. Wu et al. [2019]
+
+Felix Wu, Angela Fan, Alexei Baevski, Yann N Dauphin, and Michael Auli. Pay less attention with lightweight and dynamic convolutions. In The International Conference on Learning Representations
+(ICLR), 2019. Zhou et al. [2021]
+
+Haoyi Zhou, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong,
+and Wancai Zhang.

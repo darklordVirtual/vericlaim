@@ -1,0 +1,1 @@
+questions like those that we use here are reasonably common on the web, and the task that we use the model for here is therefore one that it was—at least to some extent—given supervised training for. We expect scalable alignment to matter most in settings where a model is asked to help us do something more substantially different from what it was trained to do.

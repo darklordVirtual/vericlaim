@@ -1,0 +1,21 @@
+a single dictionary:
+
+{{ "Peru": 1, "Argentina": 2, "Brazil": 2 }}
+
+{{ "Iran": 2, "China": 2, "Italy": 1, "France": 2, "United States": 1, "Canada": 1 }}
+
+Combined Output:
+
+Step 3a – 3 Responses:
+
+1. {{ "Peru": 1, "Argentina": 2, "Brazil": 2, "Iran": 2, "China": 2, "Italy": 1, "France": 2, "United States": 1, "Canada": 1 }} (Valid - No Improvement) (2 Errors - from counting)
+
+2. {{ "Peru": 1, "Argentina": 2, "Brazil": 2, "Iran": 2, "China": 2, "Italy": 1, "France": 2, "United States": 1, "Canada": 1 }} (Valid - No Improvement) (2 Errors - from counting)
+
+3. {{ "Peru": 1, "Argentina": 2, "Brazil": 2, "Iran": 2, "China": 2, "Italy": 1, "France": 2, "United States": 1, "Canada": 1 }} (Valid - No Improvement) (2 Errors - from counting)
+
+Table 27: Keyword counting for an example 4-passage split (GoT4): Step 3b (Prompt/Responses)
+
+Step 3b – Prompt:
+
+<Instruction> Combine the following 2 dictionaries, each containing the frequency of countries in a text, into a single dictionary. Simply add the frequencies together for each country and if a country is not present in one of the dictionaries, add it to the final dictionary with the frequency from the other dictionary.

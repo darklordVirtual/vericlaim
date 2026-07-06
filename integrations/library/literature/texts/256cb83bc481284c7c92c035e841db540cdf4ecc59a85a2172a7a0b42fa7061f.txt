@@ -1,0 +1,8 @@
+However, we expect many initializations to work fine, particularly in the large-data and real-valued SSM regimes;
+some ablations are considered in Section˜4.6. Parameterization of . We defined the selective adjustment to as ,
+which was motivated by the mechanics of (Section˜3.5). We observe that it can be generalized
+from dimension to a larger dimension . We set this to be a small fraction of ,
+which uses a negligible number of parameters compared to the main Linear projections in the block. We additionally note that the broadcasting operation can instead
+be viewed as another Linear projection, initialized to a specific pattern of ’s and ’s;
+if this projection is trainable, this leads to the alternative , which can be viewed as a low-rank projection. In our experiments, the parameter (which can be viewed as a bias term) is initialized to ,
+following prior work on SSMs [gu2023train]. Remark 3.1. For brevity in our experimental results, we sometimes abbreviate selective SSMs as S6 models, because they are S4 models with a selection mechanism and computed with a scan.

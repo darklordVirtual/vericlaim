@@ -1,0 +1,17 @@
+Rush. 2020. Transformers: State-of-the-Art Natural Language Processing. pages 38–45. Association for Computational Linguistics. Wu et al. (2020)
+
+Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, and S Yu
+Philip. 2020. A comprehensive survey on graph neural networks. IEEE transactions on neural networks and learning systems,
+32(1):4–24. Wulczyn et al. (2017)
+
+Ellery Wulczyn, Nithum Thain, and Lucas Dixon. 2017. Ex machina: Personal
+attacks seen at scale. In Proceedings of the 26th International Conference on World
+Wide Web, WWW 2017, Perth, Australia, April 3-7, 2017, pages 1391–1399. ACM. Yang (2023)
+
+Jianxin Yang. 2023. Firefly. https://github.com/yangjianxin1/Firefly. Zaheer et al. (2020)
+
+Manzil Zaheer, Guru Guruganesh, Kumar Avinava Dubey, Joshua Ainslie, Chris
+Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang,
+et al. 2020. Big bird: Transformers for longer sequences. Advances in Neural Information Processing Systems, 33. Zellers et al. (2019)
+
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. 2019. Hellaswag: Can a machine really finish your sentence? In ACL. Zellers et al.

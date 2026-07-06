@@ -1,0 +1,34 @@
+(1)
+
+Abercrombie et al. (2023)
+
+Gavin Abercrombie,
+Amanda Cercas Curry, Tanvi Dinkar, and
+Zeerak Talat. 2023. Mirages: On Anthropomorphism in Dialogue Systems. arXiv:2305.09800 [cs.CL]
+
+Ackland et al. (2013)
+
+Robert Ackland, Jamsheed
+Shorish, Paul Thomas, and Lexing Xie. 2013. How dense is a network? http://users.cecs.anu.edu.au/~xlx/teaching/css2013/network-density.html. Adar et al. (2014)
+
+Eytan Adar, Mira
+Dontcheva, and Gierad Laput. 2014. CommandSpace: Modeling the Relationships between
+Tasks, Descriptions and Features. In Proceedings
+of the 27th Annual ACM Symposium on User Interface Software and Technology
+(Honolulu, Hawaii, USA) (UIST ’14). Association for Computing Machinery,
+New York, NY, USA, 167–176. https://doi.org/10.1145/2642918.2647395
+
+Amershi et al. (2014)
+
+Saleema Amershi, Maya
+Cakmak, William Bradley Knox, and Todd
+Kulesza. 2014. Power to the people: The role of humans in
+interactive machine learning. AI Magazine 35,
+4 (2014), 105–120. Amershi et al. (2019)
+
+Saleema Amershi, Dan
+Weld, Mihaela Vorvoreanu, Adam Fourney,
+Besmira Nushi, Penny Collisson,
+Jina Suh, Shamsi Iqbal,
+Paul N Bennett, Kori Inkpen,
+et al. 2019. Guidelines for human-AI interaction.

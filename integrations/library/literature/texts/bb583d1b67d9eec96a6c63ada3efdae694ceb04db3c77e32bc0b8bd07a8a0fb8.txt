@@ -1,0 +1,7 @@
+The blue part of the figure contains the architecture overview, the green part lists the API, and the red part contains example prompts together with a GRS and operations involved. Aggregation Transformations
+
+First, with GoT, one can aggregate arbitrary thoughts into new ones, to combine and reinforce the advantages of these thoughts, while eliminating their disadvantages. In the basic form, in which only one new vertex is created, and , where are the merged thoughts. More generally, this enables aggregating reasoning paths, i.e., longer chains of thoughts, beyond just individual thoughts. With the graph model, it is simply achieved by adding outgoing edges from the vertices , modeling final thoughts in several chains, into a single thought combining these chains. Refining Transformations
+
+Another thought transformation is the refining of a current thought by modifying its content: and . This loop in the graph indicates an iterated thought with the same connections as the original thought. Generation Transformations
+
+Finally, one can generate one or more new thoughts based on an existing single thought .

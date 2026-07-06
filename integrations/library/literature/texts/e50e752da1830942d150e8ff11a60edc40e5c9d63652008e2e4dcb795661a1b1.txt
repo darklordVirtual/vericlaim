@@ -1,0 +1,17 @@
+Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal
+Kalchbrenner, Ilya Sutskever, Timothy Lillicrap, Madeleine Leach, Koray
+Kavukcuoglu, Thore Graepel, and Demis Hassabis. Mastering the game of Go with deep neural networks and tree search. Nature, 529(7587):484–489, January 2016. [39]
+
+David Silver, Thomas Hubert, Julian Schrittwieser, Ioannis Antonoglou, Matthew
+Lai, Arthur Guez, Marc Lanctot, Laurent Sifre, Dharshan Kumaran, Thore
+Graepel, et al. A general reinforcement learning algorithm that masters chess, shogi,
+and go through self-play. Science, 362(6419):1140–1144, 2018. [40]
+
+David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja
+Huang, Arthur Guez, Thomas Hubert, Lucas Baker, Matthew Lai, Adrian Bolton,
+Yutian Chen, Timothy Lillicrap, Fan Hui, Laurent Sifre, George van den
+Driessche, Thore Graepel, and Demis Hassabis. Mastering the game of go without human knowledge. Nature, 550:354–359, October 2017. [41]
+
+David Silver, Hado van Hasselt, Matteo Hessel, Tom Schaul, Arthur Guez, Tim
+Harley, Gabriel Dulac-Arnold, David Reichert, Neil Rabinowitz, Andre Barreto,
+et al. The predictron: End-to-end learning and planning.

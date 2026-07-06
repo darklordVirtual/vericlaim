@@ -1,0 +1,17 @@
+Nature Communications, 15(1):654, 2024. Maniparambil et al. (2024)
+
+Maniparambil, M., Akshulakov, R., Djilali, Y. A. D., El Amine Seddik, M.,
+Narayan, S., Mangalam, K., and O’Connor, N. E. Do vision and language encoders represent the world similarly? In Proceedings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition, pp. 14334–14343, 2024. McInnes et al. (2018)
+
+McInnes, L., Healy, J., and Melville, J. Umap: Uniform manifold approximation and projection for dimension
+reduction. arXiv preprint arXiv:1802.03426, 2018. Merullo et al. (2022)
+
+Merullo, J., Castricato, L., Eickhoff, C., and Pavlick, E. Linearly mapping from image to text space. arXiv preprint arXiv:2209.15162, 2022. Meta (2024)
+
+Meta. Meta LLaMA 3, 2024. URL https://ai.meta.com/blog/meta-llama-3/. Mirchandani et al. (2023)
+
+Mirchandani, S., Xia, F., Florence, P., Ichter, B., Driess, D., Arenas, M. G.,
+Rao, K., Sadigh, D., and Zeng, A. Large language models as general pattern machines. arXiv preprint arXiv:2307.04721, 2023. Mirza & Osindero (2014)
+
+Mirza, M. and Osindero, S. Conditional generative adversarial nets. arXiv preprint arXiv:1411.1784, 2014. Moschella et al.

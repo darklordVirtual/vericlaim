@@ -1,0 +1,29 @@
+{
+  "abstract": "Developing a general algorithm that learns to solve tasks across a wide range of applications has been a fundamental challenge in artificial intelligence. Although current reinforcement learning algorithms can be readily applied to tasks similar to what they have been developed for, configuring them for new application domains requires significant human expertise and experimentation. We present DreamerV3, a general algorithm that outperforms specialized methods across over 150 diverse tasks, with a single configuration. Dreamer learns a model of the environment and improves its behavior by imagining future scenarios. Robustness techniques based on normalization, balancing, and transformations enable stable learning across domains. Applied out of the box, Dreamer is the first algorithm to collect diamonds in Minecraft from scratch without human data or curricula. This achievement has been posed as a significant challenge in artificial intelligence that requires exploring farsighted strategies from pixels and sparse rewards in an open world. Our work allows solving challenging control problems without extensive experimentation, making reinforcement learning broadly applicable.",
+  "accredited": false,
+  "authors": [
+    "Danijar Hafner",
+    "Jurgis Pasukonis",
+    "Jimmy Ba",
+    "Timothy Lillicrap"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T07:48:34.407324+00:00",
+    "method": "arxiv-html",
+    "url": "https://arxiv.org/html/2301.04104"
+  },
+  "fulltext_sha256": "484a89a1eb5c6025ec35ecdc9de8592b563887e581af4cfeff2868de889cf405",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "dreamerv3-2023",
+    "fetched_at": "2026-07-06T07:39:02.166222+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "f054f044b720491ee2cab4c2e4df7be14d859bfb8426b483351c9f21ad7db8d5",
+  "title": "Mastering Diverse Domains through World Models",
+  "url": "https://arxiv.org/abs/2301.04104",
+  "venue": "arXiv",
+  "work_id": "arxiv:2301.04104",
+  "year": 2023
+}

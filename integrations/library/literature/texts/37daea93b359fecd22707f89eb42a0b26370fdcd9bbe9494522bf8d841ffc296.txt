@@ -1,0 +1,13 @@
+Scenario 1: Autonomous Problem Solving. We perform both qualitative and quantitative evaluations in this scenario. For all evaluations, we use GPT-4 as the base model, and pre-install the “sympy” package in the execution environment. We compare AutoGen with the following LLM-based agent systems:
+
+•
+
+AutoGPT: The out-of-box AutoGPT is used. We initialize AutoGPT by setting the purpose to “solve math problems”, resulting in a “MathSolverGPT” with auto-generated goals. •
+
+ChatGPT+Plugin: We enable the Wolfram Alpha plugin (a math computation engine) in the OpenAI web client. •
+
+ChatGPT+Code Interpreter: This is a recent feature in OpenAI web client. Note that the above two premium features from ChatGPT require a paid subscription to be accessed and are the most competitive commercial systems. •
+
+LangChain ReAct+Python: We use Python agent from LangChain. To handle parsing errors, we set “handle_parsing_errors=True”, and use the default zero-shot ReAct prompt. •
+
+Multi-Agent Debate Liang et al. (2023): We modified the code of the multi-agent debate to perform evaluation. By default, there are three agents: an affirmative agent, a negative agent, and a moderator.

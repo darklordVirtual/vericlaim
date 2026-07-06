@@ -1,0 +1,36 @@
+1994. The Role of Emotion in Believable Agents. Commun. ACM 37,
+7 (1994), 122–125. https://doi.org/10.1145/176789.176803
+
+Berner et al. (2019)
+
+Christopher Berner, Greg
+Brockman, Brooke Chan, Vicki Cheung,
+Przemysław Dębiak, Christy Dennison,
+David Farhi, Quirin Fischer,
+Shariq Hashme, Chris Hesse,
+Rafal Józefowicz, Scott Gray,
+Catherine Olsson, Jakub Pachocki,
+Michael Petrov, Henrique P. d.O. Pinto,
+Jonathan Raiman, Tim Salimans,
+Jeremy Schlatter, Jonas Schneider,
+Szymon Sidor, Ilya Sutskever,
+Jie Tang, Filip Wolski, and
+Susan Zhang. 2019. Dota 2 with Large Scale Deep Reinforcement
+Learning. arXiv preprint arXiv:1912.06680
+(2019). Binz and Schulz (2023)
+
+Marcel Binz and Eric
+Schulz. 2023. Using cognitive psychology to understand GPT-3. Proceedings of the National Academy of
+Sciences 120, 6 (2023),
+e2218523120. BioWare (2007)
+
+BioWare. 2007. Mass Effect. Video game. Bledsoe (1986)
+
+Woody Bledsoe. 1986. I had a dream: AAAI presidential address. AI Magazine 7,
+1 (1986), 57–61. Bommasani et al. (2022)
+
+Rishi Bommasani, Drew A. Hudson, Ehsan Adeli, and et al. 2022. On the Opportunities and Risks of Foundation Models. arXiv:2108.07258 [cs.LG]
+
+Brenner (2010)
+
+Michael Brenner. 2010.

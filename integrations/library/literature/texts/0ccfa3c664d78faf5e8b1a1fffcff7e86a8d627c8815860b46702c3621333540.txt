@@ -1,0 +1,7 @@
+Modern machine learning models are generally trained to minimize the empirical risk with possible implicit and/or explicit regularization:
+
+In the following sections, we lay out how each colored component in this optimization process potentially plays a role in facilitating representational convergence. Figure 5: The Capacity Hypothesis: If an optimal representation exists in function space, larger hypothesis spaces are more likely to cover it. LEFT: Two small models might not cover the optimum and thus find different solutions (marked by outlined
+
+). RIGHT: As the models become larger, they cover the optimum and converge to the same solution (marked by filled
+
+). Figure 6: The Multitask Scaling Hypothesis: Models trained with an increasing number of tasks are subjected to pressure to learn a representation that can solve all the tasks.

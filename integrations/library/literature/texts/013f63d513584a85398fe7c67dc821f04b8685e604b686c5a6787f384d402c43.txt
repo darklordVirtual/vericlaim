@@ -1,0 +1,19 @@
+Chao. Learning deep transformer models for machine translation. In ACL, 2019. Wang et al. (2018)
+
+Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He. Non-local neural networks. In CVPR, 2018. Weissenborn et al. (2019)
+
+Dirk Weissenborn, Oscar Täckström, and Jakob Uszkoreit. Scaling autoregressive video models. In ICLR, 2019. Wu et al. (2020)
+
+Bichen Wu, Chenfeng Xu, Xiaoliang Dai, Alvin Wan, Peizhao Zhang, Masayoshi
+Tomizuka, Kurt Keutzer, and Peter Vajda. Visual transformers: Token-based image representation and processing
+for computer vision. arxiv, 2020. Wu & He (2018)
+
+Yuxin Wu and Kaiming He. Group normalization. In ECCV, 2018. Xie et al. (2020)
+
+Qizhe Xie, Minh-Thang Luong, Eduard Hovy, and Quoc V. Le. Self-training with noisy student improves imagenet classification. In CVPR, 2020. Zhai et al. (2019a)
+
+Xiaohua Zhai, Avital Oliver, Alexander Kolesnikov, and Lucas Beyer. S4L: Self-Supervised Semi-Supervised Learning. In ICCV, 2019a. Zhai et al. (2019b)
+
+Xiaohua Zhai, Joan Puigcerver, Alexander Kolesnikov, Pierre Ruyssen, Carlos
+Riquelme, Mario Lucic, Josip Djolonga, Andre Susano Pinto, Maxim Neumann,
+Alexey Dosovitskiy, et al.

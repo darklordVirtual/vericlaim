@@ -1,0 +1,18 @@
+2021. Show your work: Scratchpads for intermediate computation with
+language models. arXiv preprint arXiv:2112.00114. Pang et al. (2022)
+
+Richard Yuanzhe Pang, Alicia Parrish, Nitish Joshi, Nikita Nangia, Jason Phang,
+Angelica Chen, Vishakh Padmakumar, Johnny Ma, Jana Thompson, He He, and
+Samuel Bowman. 2022. QuALITY:
+Question answering with long input texts, yes! In Proceedings of the 2022 Conference of the North American
+Chapter of the Association for Computational Linguistics: Human Language
+Technologies, pages 5336–5358, Seattle, United States. Association for
+Computational Linguistics. Parrish et al. (2022a)
+
+Alicia Parrish, Harsh Trivedi, Nikita Nangia, Vishakh Padmakumar, Jason Phang,
+Amanpreet Singh Saimbhi, and Samuel R Bowman. 2022a. Two-turn debate doesn’t help humans answer hard reading comprehension
+questions. arXiv preprint arXiv:2210.10860. Parrish et al. (2022b)
+
+Alicia Parrish, Harsh Trivedi, Ethan Perez, Angelica Chen, Nikita Nangia, Jason
+Phang, and Samuel R Bowman. 2022b. Single-turn debate does not help humans answer hard
+reading-comprehension questions. arXiv preprint arXiv:2204.05212. Saunders et al.

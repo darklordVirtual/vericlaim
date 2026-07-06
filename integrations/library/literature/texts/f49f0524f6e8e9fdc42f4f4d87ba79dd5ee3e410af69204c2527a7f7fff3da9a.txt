@@ -1,0 +1,16 @@
+We perform a series of detailed ablations on components of our model,
+focusing on the setting of language modeling with size M models at Chinchilla token counts (same setting as Figure˜6). 4.6.1 Architecture
+
+Table˜2 investigates the effects of the architecture (block) and its inner SSM layer (Figure˜3). We find that
+
+•
+
+Among previous non-selective (LTI) SSMs, which are equivalent to global convolutions, performance is very similar. •
+
+Replacing the complex-valued S4 variant from previous work with a real-valued one does not affect performance much,
+suggesting that (at least for LM) real-valued SSMs may be a better choice when accounting for hardware efficiency. •
+
+Replacing any of these with a selective SSM (S6) significantly improves performance, validating the motivation of Section˜3. •
+
+The Mamba architecture performs similarly to the H3 architecture (and seems slightly better when using a selective layer). We also investigate interleaving the Mamba block with other blocks such as MLP (a traditional architecture) MHA (a hybrid attention architecture)
+in LABEL:sec:exp-details:lm:scaling-ablations.

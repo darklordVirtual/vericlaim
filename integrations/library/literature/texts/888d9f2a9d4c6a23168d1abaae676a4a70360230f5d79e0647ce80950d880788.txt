@@ -1,0 +1,20 @@
+Nature communications, 9(1):761, 2018. Doppelt (2007)
+
+Doppelt, G. Reconstructing scientific realism to rebut the pessimistic
+meta-induction. Philosophy of Science, 74(1):96–118,
+2007. Dosovitskiy et al. (2020)
+
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X.,
+Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S., et al. An image is worth 16x16 words: Transformers for image recognition at
+scale. arXiv preprint arXiv:2010.11929, 2020. Dravid et al. (2023)
+
+Dravid, A., Gandelsman, Y., Efros, A. A., and Shocher, A. Rosetta neurons: Mining the common units in a model zoo. In Proceedings of the IEEE/CVF International Conference on
+Computer Vision, pp. 1934–1943, 2023. Driess et al. (2023)
+
+Driess, D., Xia, F., Sajjadi, M. S., Lynch, C., Chowdhery, A., Ichter, B.,
+Wahid, A., Tompson, J., Vuong, Q., Yu, T., et al. Palm-e: An embodied multimodal language model. arXiv preprint arXiv:2303.03378, 2023. Gao et al. (2021)
+
+Gao, T., Yao, X., and Chen, D. SimCSE: Simple contrastive learning of sentence embeddings. In Empirical Methods in Natural Language Processing (EMNLP),
+2021. Garipov et al. (2018)
+
+Garipov, T., Izmailov, P., Podoprikhin, D., Vetrov, D.

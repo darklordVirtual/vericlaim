@@ -1,0 +1,4 @@
+Our technical results focus on developing the S4 parameterization and showing how to efficiently compute all views of the SSM (Section 2):
+the continuous representation (1),
+the recurrent representation (3),
+and the convolutional representation (4). Section 3.1 motivates our approach, which is based on the linear algebraic concepts of conjugation and diagonalization, and discusses why the naive application of this approach does not work. Section 3.2 gives an overview of the key technical components of our approach and formally defines the S4 parameterization. Section 3.3 sketches the main results, showing that S4 is asymptotically efficient (up to log factors) for sequence models. Proofs are in Appendices B and C.

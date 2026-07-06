@@ -1,0 +1,21 @@
+In Proceedings of the IEEE/CVF International Conference on
+Computer Vision, pp. 10083–10093, 2023. Ngo & Kim (2024)
+
+Ngo, J. and Kim, Y. What do language models hear? probing for auditory representations in
+language models, 2024. Olshausen & Field (1996)
+
+Olshausen, B. A. and Field, D. J. Emergence of simple-cell receptive field properties by learning a
+sparse code for natural images. Nature, 381(6583):607–609, 1996. Olshausen & Field (1997)
+
+Olshausen, B. A. and Field, D. J. Sparse coding with an overcomplete basis set: A strategy employed by
+v1? Vision research, 37(23):3311–3325, 1997. Oord et al. (2018)
+
+Oord, A. v. d., Li, Y., and Vinyals, O. Representation learning with contrastive predictive coding. arXiv preprint arXiv:1807.03748, 2018. OpenAI (2023)
+
+OpenAI. GPT-4 technical report. arXiv preprint arXiv:2303.08774, 2023. Oquab et al. (2023)
+
+Oquab, M., Darcet, T., Moutakanni, T., Vo, H. V., Szafraniec, M., Khalidov, V.,
+Fernandez, P., Haziza, D., Massa, F., El-Nouby, A., Howes, R., Huang, P.-Y.,
+Xu, H., Sharma, V., Li, S.-W., Galuba, W., Rabbat, M., Assran, M., Ballas,
+N., Synnaeve, G., Misra, I., Jegou, H., Mairal, J., Labatut, P., Joulin, A.,
+and Bojanowski, P.

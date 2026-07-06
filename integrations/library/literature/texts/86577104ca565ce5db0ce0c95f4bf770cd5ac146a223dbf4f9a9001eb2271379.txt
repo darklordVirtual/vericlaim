@@ -1,0 +1,5 @@
+Finally,
+we evaluate S4 on pixel-level sequential image classification tasks (Fig. 6),
+popular benchmarks which were originally LRD tests for RNNs [1]. Beyond LRDs, these benchmarks point to a recent effort of the ML community to solve vision
+problems with reduced domain knowledge,
+in the spirit of models such as Vision Transformers [12] and MLP-Mixer [41] which involve patch-based models that without 2-D inductive bias. Sequential CIFAR is a particularly challenging dataset where outside of SSMs, all sequence models have a gap of over to a simple 2-D CNN. By contrast, S4 is competitive with a larger ResNet18 (7.9M vs. 11.0M parameters), both with (93.16% vs. 95.62%) or without (91.12% vs. 89.46%) data augmentation. Moreover, it is much more robust to other architectural choices (e.g. 90.46% vs. 79.52% when swapping BatchNorm for LayerNorm).

@@ -1,0 +1,22 @@
+arXiv preprint arXiv: Arxiv-1707.06347, 2017. (49)
+
+Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom
+Erez, Yuval Tassa, David Silver, and Daan Wierstra. Continuous control with deep reinforcement learning. In Yoshua Bengio and Yann LeCun, editors, 4th International
+Conference on Learning Representations, ICLR 2016, San Juan, Puerto Rico,
+May 2-4, 2016, Conference Track Proceedings, 2016. (50)
+
+Introducing chatgpt, 2022. (51)
+
+New and improved embedding model, 2022. (52)
+
+PrismarineJS. Prismarinejs/mineflayer: Create minecraft bots with a powerful,
+stable, and high level javascript api., 2013. (53)
+
+Kolby Nottingham, Prithviraj Ammanabrolu, Alane Suhr, Yejin Choi, Hanna
+Hajishirzi, Sameer Singh, and Roy Fox. Do embodied agents dream of pixelated sheep?: Embodied decision
+making using language guided world modelling. ARXIV.ORG, 2023. (54)
+
+Shaofei Cai, Zihao Wang, Xiaojian Ma, Anji Liu, and Yitao Liang. Open-world multi-task control through goal-aware representation
+learning and adaptive horizon prediction. arXiv preprint arXiv: Arxiv-2301.10034, 2023. (55)
+
+Zihao Wang, Shaofei Cai, Anji Liu, Xiaojian Ma, and Yitao Liang.

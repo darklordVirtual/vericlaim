@@ -1,0 +1,108 @@
+Without re-training, S4 achieves accuracy at the frequency on Speech Commands 10 (Fig. 6), simply by changing its internal step size (Section 2.3). Figure 7:
+(CIFAR-10 density estimation)
+As a generic sequence model, S4 is competitive with previous autoregressive models (in bits per dim.) while incorporating no 2D inductive bias,
+and has fast generation through its recurrence mode. Model
+
+bpd
+
+2D bias
+
+Images / sec
+
+Transformer
+
+3.47
+
+None
+
+0.32 ()
+
+Linear Transf. 3.40
+
+None
+
+17.85 ()
+
+PixelCNN
+
+3.14
+
+2D conv. -
+
+Row PixelRNN
+
+3.00
+
+2D BiLSTM
+
+-
+
+PixelCNN++
+
+2.92
+
+2D conv. 19.19 ()
+
+Image Transf. 2.90
+
+2D local attn. 0.54 (1.7)
+
+PixelSNAIL
+
+2.85
+
+2D conv. + attn. 0.13 (0.4)
+
+Sparse Transf. 2.80
+
+2D sparse attn. -
+
+S4 (base)
+
+2.92
+
+None
+
+20.84 ()
+
+S4 (large)
+
+2.85
+
+None
+
+3.36 ()
+
+Figure 8:
+(WikiText-103 language modeling)
+S4 approaches the performance of Transformers with much faster generation. (Top) Transformer baseline which our implementation is based on, with attention replaced by S4. (Bottom) Attention-free models (RNNs and CNNs). Model
+
+Params
+
+Test ppl. Tokens / sec
+
+Transformer
+
+247M
+
+20.51
+
+0.8K ()
+
+GLU CNN
+
+229M
+
+37.2
+
+-
+
+AWD-QRNN
+
+151M
+
+33.0
+
+-
+
+LSTM + Hebb.

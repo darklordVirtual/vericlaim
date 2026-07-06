@@ -1,0 +1,18 @@
+Gonzalez, Ion Stoica, and
+Eric P. Xing. Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt
+quality, March 2023. Clark et al. (2019a)
+
+Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael
+Collins, and Kristina Toutanova. Boolq: Exploring the surprising difficulty of natural yes/no
+questions. In NAACL, 2019a. Clark et al. (2019b)
+
+Kevin Clark, Urvashi Khandelwal, Omer Levy, and Christopher D. Manning. What does BERT look at? an analysis of BERT’s attention. In Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing
+and Interpreting Neural Networks for NLP, pp. 276–286, Florence, Italy,
+August 2019b. Association for Computational Linguistics. doi: 10.18653/v1/W19-4828. Clark et al. (2018)
+
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa
+Schoenick, and Oyvind Tafjord. Think you have solved question answering? try arc, the AI2
+reasoning challenge. CoRR, abs/1803.05457, 2018. Cunningham (1979)
+
+Michael R. Cunningham. Weather, mood, and helping behavior: Quasi experiments with the
+sunshine samaritan. Journal of Personality and Social Psychology, 37:1947–1956, 1979. Devlin et al.

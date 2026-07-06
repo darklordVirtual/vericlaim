@@ -1,0 +1,16 @@
+In Proceedings of the 23rd Conference on Computational Natural
+Language Learning (CoNLL), pages 980–991. Le and Zuidema (2016)
+
+Phong Le and Willem Zuidema. 2016. Quantifying the vanishing gradient and long distance dependency
+problem in recursive neural networks and recursive lstms. In Proceedings of the 1st Workshop on Representation Learning
+for NLP, pages 87–93. Le Scao et al. (2022)
+
+Teven Le Scao, Thomas Wang, Daniel Hesslow, Lucile Saulnier, Stas Bekman,
+M Saiful Bari, Stella Biderman, Hady Elsahar, Jason Phang, Ofir Press, et al. 2022. What language model to train if you have one million gpu hours? In Proceedings of BigScience Episode #5–Workshop on
+Challenges & Perspectives in Creating Large Language Models. Lei et al. (2018)
+
+Tao Lei, Yu Zhang, Sida I. Wang, Hui Dai, and Yoav Artzi. 2018. Simple recurrent units
+for highly parallelizable recurrence. In Proceedings of the 2018 Conference on Empirical Methods in
+Natural Language Processing, pages 4470–4481, Brussels, Belgium. Association for Computational Linguistics. Liu et al. (2021)
+
+Hanxiao Liu, Zihang Dai, David R. So, and Quoc V. Le. 2021. Pay attention to mlps. Ma et al.

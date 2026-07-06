@@ -1,0 +1,16 @@
+arXiv preprint arXiv:2012.04638, 2020. Yogatama et al. (2019)
+
+Yogatama, D., d’Autume, C. d. M., Connor, J., Kocisky, T., Chrzanowski, M.,
+Kong, L., Lazaridou, A., Ling, W., Yu, L., Dyer, C., et al. Learning and evaluating general linguistic intelligence. arXiv preprint arXiv:1901.11373, 2019. Young et al. (2014)
+
+Young, P., Lai, A., Hodosh, M., and Hockenmaier, J. From image descriptions to visual denotations: New similarity metrics
+for semantic inference over event descriptions. Transactions of the Association for Computational Linguistics,
+2:67–78, 2014. Yu et al. (2020)
+
+Yu, F., Tang, J., Yin, W., Sun, Y., Tian, H., Wu, H., and Wang, H. Ernie-vil: Knowledge enhanced vision-language representations through
+scene graph. arXiv preprint arXiv:2006.16934, 2020. Zeiler & Fergus (2014)
+
+Zeiler, M. D. and Fergus, R. Visualizing and understanding convolutional networks. In European conference on computer vision, pp. 818–833. Springer, 2014. Zhai et al. (2019)
+
+Zhai, X., Puigcerver, J., Kolesnikov, A., Ruyssen, P., Riquelme, C., Lucic, M.,
+Djolonga, J., Pinto, A. S., Neumann, M., Dosovitskiy, A., et al.

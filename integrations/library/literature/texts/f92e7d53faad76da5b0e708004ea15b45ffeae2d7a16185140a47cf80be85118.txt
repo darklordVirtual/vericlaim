@@ -1,0 +1,9 @@
+Theorem 1. When , and ,
+then the selective SSM recurrence (Algorithm˜2) takes the form
+
+(5)
+
+As mentioned in Section˜3.2, our specific choices of is from this connection. In particular, note that if a given input should be completely ignored (as necessary in the synthetic tasks),
+all channels should ignore it, and so we project the input down to dimension before repeating/broadcasting with . 3.5.2 Interpretation of Selection Mechanisms
+
+We elaborate on three particular mechanistic effects of selection. Variable Spacing. Selectivity allows filtering out irrelevant noise tokens that may occur between inputs of interest. This is exemplified by the Selective Copying task, but occurs ubiquitously in common data modalities, particularly for discrete data – for example the presence of language fillers such as “um”. This property arises because the model can mechanistically filter out any particular input , for example in the gated RNN case (Theorem˜1) when . Filtering Context. It has been empirically observed that many sequence models do not improve with longer context [shi2023large], despite the principle that more context should lead to strictly better performance.

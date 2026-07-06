@@ -1,0 +1,30 @@
+Human-centered AI. Oxford University Press. Shneiderman and Maes (1997)
+
+Ben Shneiderman and
+Pattie Maes. 1997. Direct manipulation vs. interface agents. interactions 4,
+6 (1997), 42–61. Siu et al. (2021)
+
+Ho Chit Siu, Jaime
+Peña, Edenna Chen, Yutai Zhou,
+Victor Lopez, Kyle Palko,
+Kimberlee Chang, and Ross Allen. 2021. Evaluation of Human-AI Teams for Learned and
+Rule-Based Agents in Hanabi. In Advances in Neural
+Information Processing Systems,
+M. Ranzato,
+A. Beygelzimer, Y. Dauphin,
+P.S. Liang, and J. Wortman Vaughan
+(Eds.), Vol. 34. Curran Associates,
+Inc., 16183–16195. https://proceedings.neurips.cc/paper_files/paper/2021/file/86e8f7ab32cfd12577bc2619bc635690-Paper.pdf
+
+Sorensen et al. (2022)
+
+Taylor Sorensen, Joshua
+Robinson, Christopher Rytting, Alexander
+Shaw, Kyle Rogers, Alexia Delorey,
+Mahmoud Khalil, Nancy Fulda, and
+David Wingate. 2022. An Information-theoretic Approach to Prompt
+Engineering Without Ground Truth Labels. In
+Proceedings of the 60th Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics. https://doi.org/10.18653/v1/2022.acl-long.60
+
+Swartout et al.

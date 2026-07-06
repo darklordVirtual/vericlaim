@@ -1,0 +1,18 @@
+In European Conference on Computer Vision, pp. 37–55. Springer, 2016. Wu et al. (2019)
+
+Wu, Y., Kirillov, A., Massa, F., Lo, W.-Y., and Girshick, R. Detectron2. https://github.com/facebookresearch/detectron2, 2019. Wu et al. (2018)
+
+Wu, Z., Xiong, Y., Yu, S., and Lin, D. Unsupervised feature learning via non-parametric instance-level
+discrimination. arXiv preprint arXiv:1805.01978, 2018. Xie et al. (2020)
+
+Xie, Q., Luong, M.-T., Hovy, E., and Le, Q. V. Self-training with noisy student improves imagenet classification. In Proceedings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition, pp. 10687–10698, 2020. y Arcas et al. (2017)
+
+y Arcas, B. A., Mitchell, M., and Todorov, A. Physiognomy’s new clothes. 2017. URL
+https://medium.com/@blaisea/physiognomys-new-clothes-f2d4b59fdd6a. Yang et al. (2020)
+
+Yang, Z., Lu, Y., Wang, J., Yin, X., Florencio, D., Wang, L., Zhang, C., Zhang,
+L., and Luo, J. Tap: Text-aware pre-training for text-vqa and text-caption. arXiv preprint arXiv:2012.04638, 2020. Yogatama et al. (2019)
+
+Yogatama, D., d’Autume, C. d. M., Connor, J., Kocisky, T., Chrzanowski, M.,
+Kong, L., Lazaridou, A., Ling, W., Yu, L., Dyer, C., et al.

@@ -1,0 +1,25 @@
+A.5.1 Components in the Prompt
+
+The input prompt to GPT-4 consists of the following components:
+
+(1)
+
+The agent’s state: We exclude other blocks that are recently seen and nearby entities from the agent’s state since they are not useful for assessing the task’s completeness. See Sec. A.3.1 for each element of the agent’s state;
+
+(2)
+
+Task proposed by the automatic curriculum;
+
+(3)
+
+Task context: We prompt GPT-3.5 to ask for general suggestions about how to solve the task. In practice, this part is handled by the automatic curriculum since it has a systematic mechanism for question-answering (Sec. A.3.2);
+
+(4)
+
+Chain-of-thought prompting [46] in response: We request GPT-4 to initially reason about the task’s success or failure, then output a boolean variable indicating the task’s outcome, and finally provide a critique to the agent if the task fails. (5)
+
+Few-shot examples for in-context learning [36, 37, 38]. A.5.2 Full Prompt
+
+Prompt 6: Full system prompt for self-verification. ⬇
+
+You are an assistant that assesses my progress of playing Minecraft and provides useful guidance. You are required to evaluate if I have met the task requirements.

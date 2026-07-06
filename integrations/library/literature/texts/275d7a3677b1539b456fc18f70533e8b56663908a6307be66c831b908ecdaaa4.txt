@@ -1,0 +1,5 @@
+One method of incorporating a selection mechanism into models is by letting their parameters that affect interactions along the sequence (e.g. the recurrent dynamics of an RNN or the convolution kernel of a CNN) be input-dependent. Algorithms˜1 and 2 illustrates the main selection mechanism that we use. The main difference is simply making several parameters functions of the input, along with the associated changes to tensor shapes throughout. In particular, we highlight that these parameters now have a length dimension ,
+meaning that the model has changed from time-invariant to time-varying. (Note that shape annotations were described in Section˜2.)
+This loses the equivalence to convolutions (3) with implications for its efficiency, discussed next. We specifically choose , ,
+, and ,
+where is a parameterized projection to dimension . The choice of and is due to a connection to RNN gating mechanisms explained in Section˜3.5.

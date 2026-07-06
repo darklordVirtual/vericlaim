@@ -1,0 +1,19 @@
+The predictron: End-to-end learning and planning. In Proceedings of the 34th International Conference on Machine
+Learning-Volume 70, pages 3191–3199. JMLR. org, 2017. [42]
+
+Richard S. Sutton and Andrew G. Barto. Reinforcement Learning: An Introduction. The MIT Press, second edition, 2018. [43]
+
+Richard S Sutton, Doina Precup, and Satinder Singh. Between mdps and semi-mdps: A framework for temporal abstraction in
+reinforcement learning. Artificial intelligence, 112(1-2):181–211, 1999. [44]
+
+Aviv Tamar, Yi Wu, Garrett Thomas, Sergey Levine, and Pieter Abbeel. Value iteration networks. In Advances in Neural Information Processing Systems, pages
+2154–2162, 2016. [45]
+
+Hado van Hasselt, Matteo Hessel, and John Aslanides. When to use parametric models in reinforcement learning? arXiv preprint arXiv:1906.05243, 2019. [46]
+
+Oriol Vinyals, Igor Babuschkin, Wojciech M Czarnecki, Michaël Mathieu,
+Andrew Dudzik, Junyoung Chung, David H Choi, Richard Powell, Timo Ewalds,
+Petko Georgiev, et al. Grandmaster level in StarCraft II using multi-agent reinforcement
+learning. Nature, pages 1–5, 2019. [47]
+
+I Vlahavas and I Refanidis. Planning and scheduling. EETN, Greece, Tech. Rep, 2013.

@@ -1,0 +1,62 @@
+{"fsid": "arxiv_2501-12948", "n": 61, "overlap": 200, "source_sha256": "5b8e8f0fcfe84e29380283710fccd66ecde752388a460d2234729c183d41c364", "target": 1200}
+{"section": "", "seq": 0, "sha256": "735a4649c274966e91454beb41c9333f85776846704163d1a1ae8eddb44a20d2"}
+{"section": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning", "seq": 1, "sha256": "b6fd3844c8d996be663bb7e8642a2e3b5e440a25705c98267928a2cb98219e8c"}
+{"section": "1 Introduction", "seq": 2, "sha256": "aceb6cfc5d4fb68737dfa83ae402b137231063005b9522a8e34e7953829efe5a"}
+{"section": "1 Introduction", "seq": 3, "sha256": "b946fbc5ccc8f00e8fa19d62ff083fa0cc069b731ca4363b3e8373066dad60eb"}
+{"section": "1 Introduction", "seq": 4, "sha256": "4d11a9d8602999b0a5b955c04a5d710eecb7411d28561209b72725091f162234"}
+{"section": "1 Introduction", "seq": 5, "sha256": "7f505b3e959856d5b27d5f83c7d568286cf3b491d72966317d2e67cd8331b524"}
+{"section": "1.1 Contributions", "seq": 6, "sha256": "a2d94d9aa32a3b5ce002253a769dcac626b83d6b7a1584be114eb7a7e75dca8a"}
+{"section": "1.1 Contributions", "seq": 7, "sha256": "3676e75be30ea256ad006237096bcabe23aa0d1f10e391f51dc0b5a29310d159"}
+{"section": "1.2 Summary of Evaluation Results", "seq": 8, "sha256": "046b36e407afa487c1be3c0afcd6e5ce5eb66d8dea2a91bcbdfa75dd8d1086fa"}
+{"section": "1.2 Summary of Evaluation Results", "seq": 9, "sha256": "d1818cdb9bf3ad3f46342ce417857ae2c66a3386f5344ac571fa102b6a653ed7"}
+{"section": "2.1 Overview", "seq": 10, "sha256": "ef21544113f9827402e4442e5d7e7ab67d987ab58484cd1746df7e792728e021"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 11, "sha256": "bb0378397d95f89500b4e7ed518b14370b66369bf50510b593691e63b9fc6a9d"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 12, "sha256": "2895aec82c5928ff8646c126a9ecca5d81146f6eec36fa4452ae07fa3102a44c"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 13, "sha256": "ae22f876ecddc1dbc13af587c2f3d509ce4285aec06601598078bc58f5d4694b"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 14, "sha256": "2417475122f07a148a7738f5c050648e3d59c82af97d3b55338d6b0bd6c6db5c"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 15, "sha256": "be60234a54e738cdfabb5f36e2b61be0f6d33a5731d7f0da9d081142f08b81ad"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 16, "sha256": "b846aa996245db97cdbe74fcf9b9f73cf0b267451e13e975c330f0de8bd14e7a"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 17, "sha256": "3dea33dc92a249bd1eb714f70184a9f0668ca41d5d778fa71cda7cdd453928f5"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 18, "sha256": "c6a22a263f58de42d1f8bb7db165220dc4f13866be0983e11ab2453bbabf66e0"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 19, "sha256": "d3373ccd9258767dc1a81de25b0041b9af6e70f6c711201f6ff16989185ccdd2"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 20, "sha256": "bece3d20a7732a864a81949aa1abc6bf09f1f0de826a797cdffe9908c4805f46"}
+{"section": "2.2 DeepSeek-R1-Zero: Reinforcement Learning on the Base Model", "seq": 21, "sha256": "2a69e23bf7c1d3db0e2e67ed68249449b7f43f4d28d7a36fed76e4802d103fb9"}
+{"section": "2.3 DeepSeek-R1: Reinforcement Learning with Cold Start", "seq": 22, "sha256": "51f06a9ae5d383978ea169c1a8695bac9646668b8f7ef18250064b8cc0146c2d"}
+{"section": "2.3 DeepSeek-R1: Reinforcement Learning with Cold Start", "seq": 23, "sha256": "3976a5b7dfd0b27a9e735a7aa9972fbb3588508d8560942206c307b4ad04ec2d"}
+{"section": "2.3 DeepSeek-R1: Reinforcement Learning with Cold Start", "seq": 24, "sha256": "5bfc15397ecdd8da20cf2deddaff9157f4915ff7232449f7ef962a0a1ae3f092"}
+{"section": "2.3 DeepSeek-R1: Reinforcement Learning with Cold Start", "seq": 25, "sha256": "a558f30ac1cc381e7b5c8b6bb69f3a1f4ee1cd25cf45ebfb4eca87d1b938617a"}
+{"section": "2.3 DeepSeek-R1: Reinforcement Learning with Cold Start", "seq": 26, "sha256": "e5c634932f42ad4653725a5b2e2087bf53fd44db778eae2b3b5e457f57f06070"}
+{"section": "2.3 DeepSeek-R1: Reinforcement Learning with Cold Start", "seq": 27, "sha256": "e7bdd0eee94c86af3b407abf253089b2c671ac7521b86a830e20868c4e58d541"}
+{"section": "2.3 DeepSeek-R1: Reinforcement Learning with Cold Start", "seq": 28, "sha256": "1ccdf6be669d065c1289dbf25280c43ba552a833070181a693eaa94fd8d062a8"}
+{"section": "2.4 Distillation: Empower Small Models with Reasoning Capability", "seq": 29, "sha256": "ae71f6b9007d121af3281c7356ae030e5e3b5af9e7e223e6ee54500b743e162f"}
+{"section": "3 Experiment", "seq": 30, "sha256": "14b7132dc9fb1ec6f74376f62d566c29c652b8411e63dca21a38583c7a2cfcf3"}
+{"section": "3 Experiment", "seq": 31, "sha256": "90038b40422f24e4fe68adfac6daaf5331656f59b1d48fe007c2592e5524cb44"}
+{"section": "3 Experiment", "seq": 32, "sha256": "67897633f41de19974efdf7a3636e3222c352da55130705240331455aa74e394"}
+{"section": "3 Experiment", "seq": 33, "sha256": "eec033cffe6692180399e59dc7a4f4c26cecea012cfb2a38b9d995923657e258"}
+{"section": "3.1 DeepSeek-R1 Evaluation", "seq": 34, "sha256": "fc80dbf27d0f2323943cf421e42f91f88ebb68beaaab74d14d413f955ac8e098"}
+{"section": "3.1 DeepSeek-R1 Evaluation", "seq": 35, "sha256": "339aadcf5a801498f2cf7267e6dc4feed0a7b02c7c11bb0af2553b1ac6bdc2b1"}
+{"section": "3.1 DeepSeek-R1 Evaluation", "seq": 36, "sha256": "36a39cb1b6b2db1cc95e7dc8572b69a0736de7f9df39901bfe3145f995ec4d0f"}
+{"section": "3.1 DeepSeek-R1 Evaluation", "seq": 37, "sha256": "038134c8a57115f2735fb6d81fab89626fb2338e90ea151a8de3f7c615ad97e9"}
+{"section": "3.2 Distilled Model Evaluation", "seq": 38, "sha256": "1c5b1de9f132b510733e916216daa9310458dcc9e1b231fa7ad9cf7dbe5a09a2"}
+{"section": "3.2 Distilled Model Evaluation", "seq": 39, "sha256": "c08a8afb3a6e58a5d260616d8a187f8ab6a1a201c04d283e987f263336ca50c2"}
+{"section": "4.1 Distillation v.s. Reinforcement Learning", "seq": 40, "sha256": "b80c82fd7241c8162f5e1f43b1b427717b9305a1c518e88c0076e1c18ed658dd"}
+{"section": "4.1 Distillation v.s. Reinforcement Learning", "seq": 41, "sha256": "bd34f19f71d68f754af9a362d8f06ecb95bd4c4dfee2068b3b9b08392bf4edc5"}
+{"section": "4.2 Unsuccessful Attempts", "seq": 42, "sha256": "4e27c8fc92455de80a703373b72853e48252fc863fd62e3bdfc623044408d083"}
+{"section": "4.2 Unsuccessful Attempts", "seq": 43, "sha256": "1afeb484e367c54039ed3d2d5c18960646055513225e3b54f34b2e7a6aa20b30"}
+{"section": "4.2 Unsuccessful Attempts", "seq": 44, "sha256": "520804e0edfe186ac755118a105562f24a8f1bcb88540fbea9aa2b40d55a59d1"}
+{"section": "4.2 Unsuccessful Attempts", "seq": 45, "sha256": "7a8c92a1ae8c4847b94a77aa404a6aad873c5bce67257e74419f54f5d5a02a70"}
+{"section": "5 Conclusion, Limitations, and Future Work", "seq": 46, "sha256": "e7c0da495ce8266d1cc256ed712a4a4a8b88bc38c68b3a3b8686ebf58584a70d"}
+{"section": "5 Conclusion, Limitations, and Future Work", "seq": 47, "sha256": "360015170ad5796f7a18e0ee5617cde5f50a8862c7c49d45472ccb6e93676924"}
+{"section": "5 Conclusion, Limitations, and Future Work", "seq": 48, "sha256": "ef20568abe3c403769a7f19812a58964ad59e28570aa4aa3e924208347569b50"}
+{"section": "References", "seq": 49, "sha256": "86ae95a5466aa7b61e2b951af3de6f18324421fef291b265a5c00c117908650c"}
+{"section": "References", "seq": 50, "sha256": "74449dedad5370d8417c1b298646a757a3965ba13cfba2165e4a3bd99580f93d"}
+{"section": "References", "seq": 51, "sha256": "18a142df19afea074fc7623ad1a0f6d62f17aec21fa1b69c3c0b2c59dede8548"}
+{"section": "References", "seq": 52, "sha256": "b7d911355f96a01d8cdbf8bd5ebd26f7a17a01f12265843647bc9a99c1f44148"}
+{"section": "References", "seq": 53, "sha256": "ba65ce8925baff5644e5b5d6c1b539cd8203a6ffd947af733403a13df3bcd056"}
+{"section": "References", "seq": 54, "sha256": "94ba76c7521ab06e99048e325bfacf4b619c41b3a08ba286e20624920826f5b9"}
+{"section": "References", "seq": 55, "sha256": "d9d42622fcb2e57106ce27ae43d423cf87935ae13ae252e01a30c2a3ed196061"}
+{"section": "References", "seq": 56, "sha256": "6d755bf15bdafb7ed6e565b4034435515f8cf3a6c437625cc6f4cf9ca3e0741a"}
+{"section": "References", "seq": 57, "sha256": "29cc977c9d9e3909beb683e191ea8159641a06269994296fd7130334035f7802"}
+{"section": "Appendix A Contributions and Acknowledgments", "seq": 58, "sha256": "cbf1b3fec1fb3673fbfeb2d36e9e5f09b77834916e789a6600c49cf067650524"}
+{"section": "Appendix A Contributions and Acknowledgments", "seq": 59, "sha256": "ff425edf60ff420513163ef5a40fb88a1db93c38e82d941355ac12deb5c742f7"}
+{"section": "Appendix A Contributions and Acknowledgments", "seq": 60, "sha256": "304fbc54852b6bc60eeaf4c000edf63b882af60b3beb993b45161d28732d7181"}

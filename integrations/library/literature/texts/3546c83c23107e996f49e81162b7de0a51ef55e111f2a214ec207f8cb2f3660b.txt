@@ -1,0 +1,20 @@
+A., Howes, R., Huang, P.-Y.,
+Xu, H., Sharma, V., Li, S.-W., Galuba, W., Rabbat, M., Assran, M., Ballas,
+N., Synnaeve, G., Misra, I., Jegou, H., Mairal, J., Labatut, P., Joulin, A.,
+and Bojanowski, P. Dinov2: Learning robust visual features without supervision, 2023. Oron et al. (2017)
+
+Oron, S., Dekel, T., Xue, T., Freeman, W. T., and Avidan, S. Best-buddies similarity—robust template matching using mutual
+nearest neighbors. IEEE transactions on pattern analysis and machine
+intelligence, 40(8):1799–1813, 2017. Papyan et al. (2020)
+
+Papyan, V., Han, X., and Donoho, D. L. Prevalence of neural collapse during the terminal phase of deep
+learning training. Proceedings of the National Academy of Sciences, 117(40):24652–24663, 2020. Park et al. (2024)
+
+Park, Y.-J., Wang, H., Ardeshir, S., and Azizan, N. Quantifying representation reliability in self-supervised learning
+models. In Conference on Uncertainty in Artificial Intelligence, 2024. Plato (c. 375 BC)
+
+Plato. Republic. c. 375 BC. Putnam (1982)
+
+Putnam, H. Three kinds of scientific realism. The Philosophical Quarterly (1950-), 32(128):195–200, 1982. Radford et al. (2017)
+
+Radford, A., Jozefowicz, R., and Sutskever, I.

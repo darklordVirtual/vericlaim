@@ -1,0 +1,77 @@
+{"fsid": "arxiv_2010-11929", "n": 76, "overlap": 200, "source_sha256": "e1cd1d4d62bed1ddaa9159d3b3db34cc7f84849c2a7aec1b2836e27a34f64286", "target": 1200}
+{"section": "", "seq": 0, "sha256": "c842df3a18e55cc98b51f198aefede3d505da645d6e75d08a63b33f373924cbf"}
+{"section": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale", "seq": 1, "sha256": "1bf7d53221a20c76249bd6a8141c9db2ea018b68ca137e39cfafc7308b81c684"}
+{"section": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale", "seq": 2, "sha256": "8d4667095e02603c9ee9ae51818347a508752b6a7eb04cbb0008724ead9f9d1f"}
+{"section": "1 Introduction", "seq": 3, "sha256": "e56b7a62bb50ecfa3ce808cee5dd122d9f7ffe6499299f53fbd94c7b0343e1db"}
+{"section": "1 Introduction", "seq": 4, "sha256": "e15259444795f286e61dfdb73e00e5e45679a0794844908e418959c283bacc23"}
+{"section": "1 Introduction", "seq": 5, "sha256": "f3d2b65082b0d829b5e931e5dd39c60b81ba2678952deef0aa26dee01d631ff1"}
+{"section": "2 Related Work", "seq": 6, "sha256": "4fc7054ce742f37a56ee571331c7bedaa2b2a0e42df3c1a3a2e8bfff6ed8d25d"}
+{"section": "2 Related Work", "seq": 7, "sha256": "ee73c4e88c25ccefbdb6275b3201cec43d6721cf14e9bf4456e3541b7593d291"}
+{"section": "2 Related Work", "seq": 8, "sha256": "33478e693d031efbd8319eded1075ac8bcb054cb9499a9d1ca92e7f0b3392481"}
+{"section": "2 Related Work", "seq": 9, "sha256": "b16d252ab7ac919955ffc8f7424a33e961a76208fd278a86afe2045c9fd9fa37"}
+{"section": "3 Method", "seq": 10, "sha256": "fcc701d055b7717c1070ac2888ce1b3f90950ef746e1b64eaf4535aa718a0e55"}
+{"section": "3.1 Vision Transformer (ViT)", "seq": 11, "sha256": "7a6276fe0d2c8d898e85d5f59cc67dcb98edc06c4f395df06b9356d35a2f5496"}
+{"section": "3.1 Vision Transformer (ViT)", "seq": 12, "sha256": "2b6af2d273fee81f9c3540e005ff678389c06fa209d7b27af9f917358edcba34"}
+{"section": "3.1 Vision Transformer (ViT)", "seq": 13, "sha256": "ea514cc482645dc696d584226424c3d684506d616aa84d8abc15908e8f9f0b10"}
+{"section": "3.2 Fine-tuning and Higher Resolution", "seq": 14, "sha256": "327de04ae456180feadc000c94f894cfa77506ea8298720a0eae711dc67b5319"}
+{"section": "4 Experiments", "seq": 15, "sha256": "b66365275e9bf3d285e2f2da244919f82528732b20c1fcc7806f4b5d55fdddda"}
+{"section": "4.1 Setup", "seq": 16, "sha256": "da79acce8da58ba9b3225be02d0ba6d0242d4c23c62574272afa5fcafa17dacb"}
+{"section": "4.1 Setup", "seq": 17, "sha256": "c056433f36d81622212a924b5cf18feb9733471ebc2da78dcc678731eb56cf50"}
+{"section": "4.1 Setup", "seq": 18, "sha256": "7130d465cacaeab1ff498fc3d602b915203f5f08d199a4d8eddeac82f1f5cc1c"}
+{"section": "4.1 Setup", "seq": 19, "sha256": "7e7eba01aadf1d1c79f5fd45d2a5861e710ce1e04e6ab35a601d754f85a4c420"}
+{"section": "4.2 Comparison to State of the Art", "seq": 20, "sha256": "5db0532ca07932b0665ad7abfa52c319c84e8bb308536a4cc631fe765be87850"}
+{"section": "4.2 Comparison to State of the Art", "seq": 21, "sha256": "04306ce175aa6f6fd1736791bf8945afbada52a5ee42394962e86bf3dada49cb"}
+{"section": "4.2 Comparison to State of the Art", "seq": 22, "sha256": "477bc6b886f9fe83afb8751f87cc7fca7101e01b8501f11ecd4239db0b013daf"}
+{"section": "4.3 Pre-training Data Requirements", "seq": 23, "sha256": "bbb612afdc5ff5fd920ae37bbee259d3f211aad5714abe3683af31d6563ed697"}
+{"section": "4.3 Pre-training Data Requirements", "seq": 24, "sha256": "6d05ceaf5f9a87636e03db1a57a42fbaf4a75ba05a10e8f72509ba136fb52e26"}
+{"section": "4.3 Pre-training Data Requirements", "seq": 25, "sha256": "cd8d4750704b322ff880ed63fc96e44db7efef457c459914fe8bb631100b05cb"}
+{"section": "4.3 Pre-training Data Requirements", "seq": 26, "sha256": "33b1eabf7201a86d1e8a883160462409338fab70928676e1f7c57495ce310816"}
+{"section": "4.4 Scaling Study", "seq": 27, "sha256": "a56895fb1567197473b28eb593022f3c6ad9bdc82f4df167fdd2fd06dec063e1"}
+{"section": "4.4 Scaling Study", "seq": 28, "sha256": "d82108e3e864ec3695083296a0b8d61c03a3ac422a6884e261e82a8670e1ceef"}
+{"section": "4.5 Inspecting Vision Transformer", "seq": 29, "sha256": "fcfd65b085b7ae27a61945cf6cf085b6ea382c7d05da8265181e4965ab16427d"}
+{"section": "4.5 Inspecting Vision Transformer", "seq": 30, "sha256": "9d5da4ff2705248d2e96346cca5494c7a81e4f16c9e79e34cebdd7fb4b975039"}
+{"section": "4.5 Inspecting Vision Transformer", "seq": 31, "sha256": "bac0c8cb52c3afcc4a8e291606d5b2484202162f1051b07fb67197ed43d7487b"}
+{"section": "4.6 Self-supervision", "seq": 32, "sha256": "c3a43d6b2122fd2579b0b7f2499fd14a991598cba08dbab2f886f24d62033f70"}
+{"section": "5 Conclusion", "seq": 33, "sha256": "ba0d6b6d06c428eb86c358d83927f63a3773395ec1f0538eb288366612f25487"}
+{"section": "5 Conclusion", "seq": 34, "sha256": "e7a7013fe33c91753436f0ddffd5a726fd4d221d38960e641606c8059700bb85"}
+{"section": "Acknowledgements", "seq": 35, "sha256": "15d8508fed7f8f0abda381309a681c9c89ae6fbaf6075d05b55d940d2b7c4c2f"}
+{"section": "References", "seq": 36, "sha256": "8981d579b376dad4ad4d573645ac6110ca9eb19e6241d66b35ecfef11a6e43db"}
+{"section": "References", "seq": 37, "sha256": "7493615a4b314bc82b1fd03052fc3132dcd60fe77b444b98feed1e992eb80d7d"}
+{"section": "References", "seq": 38, "sha256": "8a44d3dbffb6cf4f71e3efff4b92e152a245028bde9903e0c79a2f6c293bfb12"}
+{"section": "References", "seq": 39, "sha256": "413f182919d77f52395e011584b3ae598669c6a49178985ae16ec7eed1e7948f"}
+{"section": "References", "seq": 40, "sha256": "a9b02b978ba8467a333ec685890c09f7993d9a114086ca935432ca02adbf8cc4"}
+{"section": "References", "seq": 41, "sha256": "314b22902a5c33ec0f86b9f7f13494c145894fde3cbd4cc3e5e1174f7bd313ae"}
+{"section": "References", "seq": 42, "sha256": "bc055d70a4e22b6afe6e27b979167ba280297c11a31080ae37baea2dc37c12e5"}
+{"section": "References", "seq": 43, "sha256": "5e796a6e3799e506fe17ef03f3684a59fbd5b0c6067f4bbf495fb4fcf1624968"}
+{"section": "References", "seq": 44, "sha256": "2d1b03a22adca6949a8016804a14230634ea260b6aa0ab24131f529bf47b585b"}
+{"section": "References", "seq": 45, "sha256": "013f63d513584a85398fe7c67dc821f04b8685e604b686c5a6787f384d402c43"}
+{"section": "References", "seq": 46, "sha256": "18c01d8c2697522c5026b54a27951f7fe09f088d4cc3debe0a8cf3864ed27f90"}
+{"section": "Appendix A Multihead Self-attention", "seq": 47, "sha256": "396f96f7f64d3e92d61cb7de3cc1c36daa0b60bfb5b51056414bee146fac68f8"}
+{"section": "B.1 Training", "seq": 48, "sha256": "1de6d65c45c6a5bd62000b29f98a6ef7f040382e4c21a256b68b0e405fd945ed"}
+{"section": "B.1 Training", "seq": 49, "sha256": "cd98c1fc2c7401b7730759b7e5031718341a531f652cf891a50543bed1dc4962"}
+{"section": "B.1 Training", "seq": 50, "sha256": "a6024d78bbef1bfd6f28b7daba886a241422e1efaa49557e235bad7f038352af"}
+{"section": "B.1 Training", "seq": 51, "sha256": "82debc754c30d270bb2ad60d3b3346a5a973b7e7a33954473644b7d1af18a804"}
+{"section": "B.1 Training", "seq": 52, "sha256": "855c5465db7e818da8cfabaf90713245ebfcacb4cf53c2cde2f87778cb574de1"}
+{"section": "B.1 Training", "seq": 53, "sha256": "cd24bb961c4302f4f9cb536f381dfaa718ace090cfc2e3cf47722bfce6dc7906"}
+{"section": "Appendix C Additional Results", "seq": 54, "sha256": "ab2da152d94a145417611043348559f2e7d1f8b642b25e7c14768dfe89393320"}
+{"section": "Appendix C Additional Results", "seq": 55, "sha256": "6e6a553d2da1bbe69ea492207c9906b21c9f3c0d73e3f8c41ee9cb2ac84302f7"}
+{"section": "Appendix C Additional Results", "seq": 56, "sha256": "2a3ba261d0413039b8f8565e71bd663616b264d5c00c00c78f73252de4b652c6"}
+{"section": "Appendix C Additional Results", "seq": 57, "sha256": "a498bf9dd2fe091c231a28432f6910c6b3511418b7ef0ea0779135ef9e7bd8a3"}
+{"section": "Appendix C Additional Results", "seq": 58, "sha256": "9368c303c8cc54c8cc988a034a5fea4b29a78527252a3a28e6c3f1db5d390f17"}
+{"section": "D.1 SGD vs. Adam for ResNets", "seq": 59, "sha256": "4dd69297bb6860579512b0c16fa0c9287b80e9b7536b50cb37f3466bc0d274aa"}
+{"section": "D.2 Transformer shape", "seq": 60, "sha256": "bdd69a3fe7a485b111c6186ba0d3eda5711dbf2d942012699d1eec039078ce24"}
+{"section": "D.2 Transformer shape", "seq": 61, "sha256": "26bad124f723850eaaa141d6b8f8f989ad38e85fde9988092ee3ead384a47d91"}
+{"section": "D.3 Head Type and class token", "seq": 62, "sha256": "ceaf804224c44fd8b0ac0e42914cc893eb9502cf629ce8525aa31d29afa1fcc8"}
+{"section": "D.4 Positional Embedding", "seq": 63, "sha256": "05cb91de8953c89b9f1f9f9c82d46a0db91fc3bf17cf24c2996855ea30f279ff"}
+{"section": "D.4 Positional Embedding", "seq": 64, "sha256": "80aac033c76f0020689194df72cf689b696b1ce795941438c8a67e40b9134c65"}
+{"section": "D.4 Positional Embedding", "seq": 65, "sha256": "fa7403533edf1428e00fceb04d3b6adc09086134cde771f30a96d53de885739f"}
+{"section": "D.4 Positional Embedding", "seq": 66, "sha256": "5fb696c5db0093bf32fb682243585338905fa27e4dc5ee7291991a2b81343418"}
+{"section": "D.5 Empirical Computational Costs", "seq": 67, "sha256": "fbd80a5dfde0e33f90196385fd51dda3e1d43999b3d8c713a7ffd784e7b27dad"}
+{"section": "D.5 Empirical Computational Costs", "seq": 68, "sha256": "2d8ecd5aa793e9b10b8aa0110b9ed887200c40af5cdf126c482e3d711333a347"}
+{"section": "D.6 Axial Attention", "seq": 69, "sha256": "a68e4e1d5a2c7336a616cf12208ca5af585337f0c73db043e7fef335ac5f211f"}
+{"section": "D.6 Axial Attention", "seq": 70, "sha256": "728a80899f534fe32d679fa8d39765c26f5298e75b3cc266d4418c15bad0ed7d"}
+{"section": "D.6 Axial Attention", "seq": 71, "sha256": "31c7c7ee108aff4988b72cdfe5600c16afe97a61331ecaec57ddaaab87979ada"}
+{"section": "D.7 Attention Distance", "seq": 72, "sha256": "6075c1fe8d63a7f05cf13d670c4f475f953c74f35ee4f8d709ab38cc19a47d64"}
+{"section": "D.8 Attention Maps", "seq": 73, "sha256": "a161b113b1f14e7f6b47818daa58fa53e73d7e413ce1def022efe04ee69fb608"}
+{"section": "D.9 ObjectNet Results", "seq": 74, "sha256": "91872eb552141cd2ef26f91eaae40a6a67de20a04b59a4fd4be76ca036843e89"}
+{"section": "D.10 VTAB Breakdown", "seq": 75, "sha256": "248a6cb400a0fb2faeb81c05a0330b1f1ca3c9c368f9a8a3e8781d96c956e2bf"}

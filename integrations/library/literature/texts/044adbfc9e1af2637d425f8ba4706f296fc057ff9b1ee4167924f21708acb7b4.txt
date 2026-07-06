@@ -1,0 +1,6 @@
+The state space model is defined by the simple equation (1). It maps a 1-D input signal to an -D latent state
+before projecting to a 1-D output signal . (1)
+
+SSMs are broadly used in many scientific disciplines
+and related to latent state models such as Hidden Markov Models (HMM). Our goal is to simply use the SSM as a black-box representation in a deep sequence model,
+where are parameters learned by gradient descent. For the remainder of this paper, we will omit the parameter for exposition (or equivalently, assume ) because the term can be viewed as a skip connection and is easy to compute.

@@ -1,0 +1,22 @@
+[6]
+
+R. Coulom. Whole-history rating: A Bayesian rating system for players of
+time-varying strength. In International Conference on Computers and Games, pages
+113–124, 2008. [7]
+
+Rémi Coulom. Efficient selectivity and backup operators in monte-carlo tree
+search. In International conference on computers and games, pages
+72–83. Springer, 2006. [8]
+
+MP. Deisenroth and CE. Rasmussen. Pilco: A model-based and data-efficient approach to policy search. In Proceedings of the 28th International Conference on Machine
+Learning, ICML 2011, pages 465–472. Omnipress, 2011. [9]
+
+Lasse Espeholt, Hubert Soyer, Remi Munos, Karen Simonyan, Volodymir Mnih, Tom
+Ward, Yotam Doron, Vlad Firoiu, Tim Harley, Iain Dunning, et al. Impala: Scalable distributed deep-rl with importance weighted
+actor-learner architectures. In Proceedings of the International Conference on Machine
+Learning (ICML), 2018. [10]
+
+Gregory Farquhar, Tim Rocktaeschel, Maximilian Igl, and Shimon Whiteson. TreeQN and ATreec: Differentiable tree planning for deep
+reinforcement learning. In International Conference on Learning Representations, 2018. [11]
+
+Carles Gelada, Saurabh Kumar, Jacob Buckman, Ofir Nachum, and Marc G. Bellemare.

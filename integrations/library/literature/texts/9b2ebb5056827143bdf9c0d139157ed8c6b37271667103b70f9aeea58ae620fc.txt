@@ -1,0 +1,62 @@
+ChatGPT+ Plugin (Wolfram Alpha) on the first qualitative example. The response from Wolfram contains the correct answer, but ChatGPT selected the wrong one. Action
+
+ChatGPT + Plugin
+
+\faUser
+Input
+
+Completely simplify and rationalize the denominator: 160252×245108
+
+\faAndroid
+
+REQUEST TO WOLFRAM:
+⬇
+1{
+
+2 "input": "simplify (sqrt(160)/sqrt(252))*
+
+3 (sqrt(245)/sqrt(108))"
+
+4}
+
+RESPONSE FROM WOLFRAM
+⬇
+1Query:
+
+2"simplify (sqrt(160)/sqrt(252))*(sqrt(245)/sqrt(108))"
+
+3
+
+4Input interpretation:
+
+5simplify | sqrt(160)/sqrt(252)x sqrt(245)/sqrt(108)
+
+6
+
+7Results:
+
+8(5 sqrt(42))/27
+
+9
+
+10(5 sqrt(14/3))/9
+
+11
+
+12Decimal approximation:
+
+131.2001371663718259686974013770533327143898526494552... 14
+
+15Wolfram|Alpha website result for "simplify
+
+16(sqrt(160)/sqrt(252))*(sqrt(245)/sqrt(108))":
+
+17[link]
+
+\faAndroid
+
+The completely simplified and rationalized form of the given expression is:
+5 14/39
+In decimal form, this is approximately 1.200137166371825968697401377053332714…
+
+Table 9: Application A1, Scenario 1: Autonomous math problem-solving. AutoGen on the first qualitative example. AutoGen solves the problem correctly.

@@ -1,0 +1,7 @@
+4:05 pm: take a short walk around his workspace […] 4:50 pm: take a few minutes to clean up his workspace. This process can be adjusted to match the desired granularity. 4.3.1. Reacting and Updating Plans
+
+Generative agents operate in an action loop where, at each time step, they perceive the world around them and those perceived observations are stored in their memory stream. We prompt the language model with these observations to decide whether the agent should continue with their existing plan, or react. Standing at an easel and painting, for example, might trigger an observation of the easel, but this is unlikely to prompt a reaction. However, if Eddy’s father John records that he sees Eddy taking a short walk in the house garden, the outcome is different. The prompt is below, with [Agent’s Summary Description] standing in for a dynamically-generated, paragraph-long summary of the agent’s overall goals and disposition, which is described in Appendix A:
+
+[Agent’s Summary Description]
+
+It is February 13, 2023, 4:56 pm. John Lin’s status: John is back home early from work. Observation: John saw Eddy taking a short walk around his workplace.

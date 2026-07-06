@@ -1,0 +1,39 @@
+Agreement between [Your Company Name] and [Recipient Name] on [Date]. (Omitted)
+
+</S1>
+
+<S2>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+1. Agreement between [Your Company Name] and [Recipient Name] on [Date]. (Omitted, see Tables 37-38)
+
+</S2>
+
+<S3>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+1. Agreement between [Your Company Name] and [Recipient Name] on [Date]. (Omitted)
+
+</S3>
+
+Table 42: Merging 4 example NDAs: Step 2 (Responses)
+
+For this run, none of the responses improve upon the previous best and thus will all be discarded by the next step. For that reason and due to their long length, we do not present them fully and exclude their scoring. Response (1/5):
+
+<Merged>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+1. Agreement between [Your Company Name] and [Recipient Name] on [Date]. 2. Information sharing for the purpose of [specific project or purpose]. (Omitted)
+
+Score:
+
+Response (2/5):
+
+<Merged>
+
+NON-DISCLOSURE AGREEMENT (NDA)
+
+Effective from [Effective Date], this NDA involves [Your Company Name] (”Disclosing Party”), and [Recipient Name] (”Receiving Party”). 1. Agreement between [Your Company Name] and [Recipient Name] on [Date].

@@ -1,0 +1,15 @@
+The full prompt is as follows:
+
+Statements about Klaus Mueller
+
+1. Klaus Mueller is writing a research paper
+
+2. Klaus Mueller enjoys reading a book
+
+on gentrification
+
+3. Klaus Mueller is conversing with Ayesha Khan about exercising [...]
+
+What 5 high-level insights can you infer from the above statements? (example format: insight (because of 1, 5, 3))
+
+This process generates statements such as Klaus Mueller is dedicated to his research on gentrification (because of 1, 2, 8, 15). We parse and store the statement as a reflection in the memory stream, including pointers to the memory objects that were cited. Reflection explicitly allows the agents to reflect not only on their observations but also on other reflections: for example, the second statement about Klaus Mueller above is a reflection that Klaus previously had, not an observation from his environment. As a result, agents generate trees of reflections: the leaf nodes of the tree represent the base observations, and the non-leaf nodes represent thoughts that become more abstract and higher-level the higher up the tree they are.

@@ -1,0 +1,15 @@
+World of bits: An open-domain platform for web-based agents. In International Conference on Machine Learning. PMLR, 2017. Shridhar et al. (2021)
+
+Mohit Shridhar, Xingdi Yuan, Marc-Alexandre Côté, Yonatan Bisk, Adam
+Trischler, and Matthew Hausknecht. ALFWorld: Aligning Text and Embodied Environments for Interactive
+Learning. In Proceedings of the International Conference on Learning
+Representations (ICLR), 2021. URL https://arxiv.org/abs/2010.03768. Vinyals et al. (2017)
+
+Oriol Vinyals, Timo Ewalds, Sergey Bartunov, Petko Georgiev, Alexander Sasha
+Vezhnevets, Michelle Yeo, Alireza Makhzani, Heinrich Küttler, John
+Agapiou, Julian Schrittwieser, et al. Starcraft ii: A new challenge for reinforcement learning. arXiv preprint arXiv:1708.04782, 2017. Wang et al. (2021)
+
+Chi Wang, Qingyun Wu, Markus Weimer, and Erkang Zhu. Flaml: A fast and lightweight automl library. Proceedings of Machine Learning and Systems, 2021. Wang et al. (2023a)
+
+Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu,
+Linxi Fan, and Anima Anandkumar. Voyager: An open-ended embodied agent with large language models. arXiv preprint arXiv:2305.16291, 2023a. Wang et al.

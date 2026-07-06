@@ -1,0 +1,18 @@
+297–304. JMLR Workshop and
+Conference Proceedings, 2010. Ha & Schmidhuber (2018)
+
+Ha, D. and Schmidhuber, J. World models. arXiv preprint arXiv:1803.10122, 2018. Hall et al. (2022)
+
+Hall, M., van der Maaten, L., Gustafson, L., Jones, M., and Adcock, A. A systematic study of bias amplification. arXiv preprint arXiv:2201.11706, 2022. Hardin & Rosenberg (1982)
+
+Hardin, C. L. and Rosenberg, A. In defense of convergent realism. Philosophy of Science, 49(4):604–615,
+1982. He et al. (2020)
+
+He, K., Fan, H., Wu, Y., Xie, S., and Girshick, R. Momentum contrast for unsupervised visual representation learning. In Proceedings of the IEEE/CVF conference on computer vision
+and pattern recognition, pp. 9729–9738, 2020. He et al. (2021)
+
+He, K., Chen, X., Xie, S., Li, Y., Doll’ar, P., and Girshick, R. B. Masked autoencoders are scalable vision learners. 2022 ieee. In CVF Conference on Computer Vision and Pattern Recognition
+(CVPR), pp. 15979–15988, 2021. Held et al. (2011)
+
+Held, R., Ostrovsky, Y., de Gelder, B., Gandhi, T., Ganesh, S., Mathur, U., and
+Sinha, P. The newly sighted fail to match seen with felt. Nature neuroscience, 14(5):551–553, 2011. Hestness et al.

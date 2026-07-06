@@ -1,0 +1,19 @@
+Single-player monte-carlo tree search. In International Conference on Computers and Games, pages
+1–12. Springer, 2008. [34]
+
+Jonathan Schaeffer, Joseph Culberson, Norman Treloar, Brent Knight, Paul Lu,
+and Duane Szafron. A world championship caliber checkers program. Artificial Intelligence, 53(2-3):273–289, 1992. [35]
+
+Tom Schaul, John Quan, Ioannis Antonoglou, and David Silver. Prioritized experience replay. In International Conference on Learning Representations, Puerto
+Rico, 2016. [36]
+
+Simon Schmitt, Matteo Hessel, and Karen Simonyan. Off-policy actor-critic with shared experience replay. arXiv preprint arXiv:1909.11583, 2019. [37]
+
+Marwin HS Segler, Mike Preuss, and Mark P Waller. Planning chemical syntheses with deep neural networks and symbolic
+ai. Nature, 555(7698):604, 2018. [38]
+
+David Silver, Aja Huang, Chris J. Maddison, Arthur Guez, Laurent Sifre, George
+van den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda
+Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal
+Kalchbrenner, Ilya Sutskever, Timothy Lillicrap, Madeleine Leach, Koray
+Kavukcuoglu, Thore Graepel, and Demis Hassabis.

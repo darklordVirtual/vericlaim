@@ -1,0 +1,16 @@
+46–51, 2017. Nadeem et al. (2021)
+
+Moin Nadeem, Anna Bethke, and Siva Reddy. StereoSet: Measuring stereotypical bias in pretrained language
+models. In Proceedings of the 59th Annual Meeting of the Association
+for Computational Linguistics and the 11th International Joint Conference on
+Natural Language Processing (Volume 1: Long Papers), pp. 5356–5371,
+Online, August 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.416. Nguyen et al. (2016)
+
+Anh Nguyen, Alexey Dosovitskiy, Jason Yosinski, Thomas Brox, and Jeff Clune. Synthesizing the preferred inputs for neurons in neural networks via
+deep generator networks. Advances in neural information processing systems, 29, 2016. Nguyen et al. (2019)
+
+Anh Nguyen, Jason Yosinski, and Jeff Clune. Understanding neural networks via feature visualization: A survey. Explainable AI: interpreting, explaining and visualizing deep
+learning, pp. 55–76, 2019. Olah et al. (2020)
+
+Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and
+Shan Carter. Zoom in: An introduction to circuits. Distill, 2020. doi: 10.23915/distill.00024.001. https://distill.pub/2020/circuits/zoom-in. Olsson et al.

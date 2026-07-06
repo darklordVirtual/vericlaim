@@ -1,0 +1,19 @@
+Open llm leaderboard, 2023. URL
+https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard. Belinkov (2022)
+
+Yonatan Belinkov. Probing classifiers: Promises, shortcomings, and advances. Computational Linguistics, 48(1):207–219,
+2022. Belrose et al. (2023a)
+
+Nora Belrose, Zach Furman, Logan Smith, Danny Halawi, Igor Ostrovsky, Lev
+McKinney, Stella Biderman, and Jacob Steinhardt. Eliciting latent predictions from transformers with the tuned lens. arXiv preprint arXiv:2303.08112, 2023a. Belrose et al. (2023b)
+
+Nora Belrose, David Schneider-Joseph, Shauli Ravfogel, Ryan Cotterell, Edward
+Raff, and Stella Biderman. Leace: Perfect linear concept erasure in closed form. arXiv preprint arXiv:2306.03819, 2023b. Biderman et al. (2023)
+
+Stella Biderman, Hailey Schoelkopf, Quentin Anthony, Herbie Bradley, Kyle
+O’Brien, Eric Hallahan, Mohammad Aflah Khan, Shivanshu Purohit, USVSN Sai
+Prashanth, Edward Raff, Aviya Skowron, Lintang Sutawika, and Oskar van der
+Wal. Pythia: A suite for analyzing large language models across training
+and scaling, 2023. Bilodeau et al. (2022)
+
+Blair Bilodeau, Natasha Jaques, Pang Wei Koh, and Been Kim. Impossibility theorems for feature attribution.

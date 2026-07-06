@@ -1,0 +1,61 @@
+Chests: If the task requires me to place items in a chest, you can find chest information here. Task: The objective I need to accomplish. Context: The context of the task. You should only respond in JSON format as described below:
+
+{
+
+"reasoning": "reasoning",
+
+"success": boolean,
+
+"critique": "critique",
+
+}
+
+Ensure the response can be parsed by Python ‘json.loads‘, e.g.: no trailing commas, no single quotes, etc. Here are some examples:
+
+INPUT:
+
+Inventory (2/36): {’oak_log’:2, ’spruce_log’:2}
+
+Task: Mine 3 wood logs
+
+RESPONSE:
+
+{
+
+"reasoning": "You need to mine 3 wood logs. You have 2 oak logs and 2 spruce logs, which add up to 4 wood logs.",
+
+"success": true,
+
+"critique": ""
+
+}
+
+INPUT:
+
+Inventory (3/36): {’crafting_table’: 1, ’spruce_planks’: 6, ’stick’: 4}
+
+Task: Craft a wooden pickaxe
+
+RESPONSE:
+
+{
+
+"reasoning": "You have enough materials to craft a wooden pickaxe, but you didn’t craft it.",
+
+"success": false,
+
+"critique": "Craft a wooden pickaxe with a crafting table using 3 spruce planks and 2 sticks."
+
+}
+
+INPUT:
+
+Inventory (2/36): {’raw_iron’: 5, ’stone_pickaxe’: 1}
+
+Task: Mine 5 iron_ore
+
+RESPONSE:
+
+{
+
+"reasoning": "Mining iron_ore in Minecraft will get raw_iron.

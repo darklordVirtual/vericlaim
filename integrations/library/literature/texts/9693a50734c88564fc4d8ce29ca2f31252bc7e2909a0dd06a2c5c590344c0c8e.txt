@@ -1,0 +1,45 @@
+above concept should not be "ore" because I need to look up the page of "sparse jungle" to find out what ores I can find in the sparse jungle)
+
+Question: How can you obtain food in the sparse jungle? Concept: sparse jungle
+
+(the above concept should not be "food" because I need to look up the page of "sparse jungle" to find out what food I can obtain in the sparse jungle)
+
+Question: How can you use the furnace to upgrade your equipment and make useful items? Concept: furnace
+
+Question: How to obtain a diamond ore? Concept: diamond ore
+
+Question: What are the benefits of using a stone pickaxe over a wooden pickaxe? Concept: stone pickaxe
+
+Question: What are the tools that you can craft using wood planks and sticks? Concept: wood planks
+
+You should only respond in the format as described below:
+
+RESPONSE FORMAT:
+
+Reasoning: …
+
+Question 1: …
+
+Concept 1: …
+
+Question 2: …
+
+Concept 2: …
+
+Question 3: …
+
+Concept 3: …
+
+Question 4: …
+
+Concept 4: …
+
+Question 5: …
+
+Concept 5: …
+
+…
+
+Prompt 3: Full system prompt for answering questions. Context represents the optional content from a wiki knowledge base. ⬇
+
+You are a helpful assistant that answer my question about Minecraft.

@@ -1,0 +1,52 @@
+(2019), WNLI Wang et al. (2018), GoEmotions Demszky et al. (2020), and PolEmo2 Kocoń et al. (2019) benchmarks. RWKV GPT prompts were primarily used for ChatGPT in Kocoń et al. (2023). SOTA is provided as a supplementary reference. When the instruction style was adapted (re-ordered) to respect that RNNs are not capable of "retrospective processing", the quality may significantly change, e.g., for RTE Wang et al. (2019) F1 Macro increased from 44.2% to 74.8%. We hypothesize that RWKV models are more sensitive to the position of the components in the context, as RNN-based architectures cannot look back and readjust the weight of previous information. For better performance, the desired information should be placed after the main question. Task Name
+Measure
+ChatGPT
+RWKV-adapted
+SOTA
+
+Aggression
+F1 Macro
+
+69.10
+
+56.66
+
+74.45
+
+MathQA
+Accuracy
+
+71.40
+
+5.43
+
+83.20
+
+Sarcasm
+F1 Macro
+
+49.88
+
+50.96
+
+53.57
+
+TweetSent
+F1 Macro
+
+63.32
+
+52.50
+
+72.07
+
+Unhealthy
+F1 Macro
+
+45.21
+
+43.30
+
+50.96
+
+Table 7: ChatGPT and RWKV-4-Raven-14B performance comparison in Aggresion Wulczyn et al. (2017), Sarcasm Siddiqui (2019), Unhealthy Price et al. (2020), MathQA Cobbe et al.

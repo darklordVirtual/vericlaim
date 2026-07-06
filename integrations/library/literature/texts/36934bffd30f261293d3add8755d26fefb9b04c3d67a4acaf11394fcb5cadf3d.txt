@@ -1,0 +1,25 @@
+Takeshi Kojima
+
+The University of Tokyo
+
+t.kojima@weblab.t.u-tokyo.ac.jp
+
+&Shixiang Shane Gu
+
+Google Research, Brain Team
+
+Machel Reid
+
+Google Research
+
+&Yutaka Matsuo
+
+The University of Tokyo
+
+&Yusuke Iwasawa
+
+The University of Tokyo
+
+Work done while at The University of Tokyo. Abstract
+
+Pretrained large language models (LLMs) are widely used in many sub-fields of natural language processing (NLP) and generally known as excellent few-shot learners with task-specific exemplars. Notably, chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning through step-by-step answer examples, achieved the state-of-the-art performances in arithmetics and symbolic reasoning, difficult system-2 tasks that do not follow the standard scaling laws for LLMs. While these successes are often attributed to LLMs’ ability for few-shot learning, we show that LLMs are decent zero-shot reasoners by simply adding “Let’s think step by step” before each answer.

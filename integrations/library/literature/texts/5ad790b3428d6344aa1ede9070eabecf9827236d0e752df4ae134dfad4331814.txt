@@ -1,0 +1,4 @@
+In Computer Vision (ICCV), 2017 IEEE International Conference
+on, 2017. Zimmermann et al. (2021)
+
+Zimmermann, R. S., Sharma, Y., Schneider, S., Bethge, M., and Brendel, W. Contrastive learning inverts the data generating process. In International Conference on Machine Learning, pp. 12979–12990. PMLR, 2021.

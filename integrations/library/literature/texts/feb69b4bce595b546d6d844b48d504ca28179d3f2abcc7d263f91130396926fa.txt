@@ -1,0 +1,34 @@
+In Extended Abstracts of the 2022
+CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA)
+(CHI EA ’22). Association for
+Computing Machinery, New York, NY, USA, Article
+35, 8 pages. https://doi.org/10.1145/3491101.3503564
+
+John and Kieras (1996)
+
+Bonnie E John and
+David E Kieras. 1996. The GOMS family of user interface analysis
+techniques: Comparison and contrast. ACM Transactions on Computer-Human
+Interaction (TOCHI) 3, 4
+(1996), 320–351. Jones et al. (1999)
+
+Randolph M Jones, John E
+Laird, Paul E Nielsen, Karen J Coulter,
+Patrick Kenny, and Frank V Koss. 1999. Automated Intelligent Pilots for Combat Flight
+Simulation. AI Magazine 20,
+1 (1999), 27–42. Khattab et al. (2023)
+
+Omar Khattab, Keshav
+Santhanam, Xiang Lisa Li, David Hall,
+Percy Liang, Christopher Potts, and
+Matei Zaharia. 2023. Demonstrate-Search-Predict: Composing retrieval and
+language models for knowledge-intensive NLP. arXiv:2212.14024 [cs.CL]
+
+Knafla (2011)
+
+Bjoern Knafla. 2011. Introduction to Behavior Trees. http://bjoernknafla.com/introduction-to-behavior-trees
+
+Krishna et al. (2022)
+
+Ranjay Krishna, Donsuk
+Lee, Li Fei-Fei, and Michael S. Bernstein. 2022.

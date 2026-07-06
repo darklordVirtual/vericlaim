@@ -1,0 +1,6 @@
+In this section, we present Decision Transformer, which models trajectories autoregressively with minimal modification to the transformer architecture, as summarized in Figure 1 and Algorithm 1. Trajectory representation. The key desiderata in our choice of trajectory representation are
+that it should enable transformers to learn meaningful patterns and we should be able to conditionally generate actions at test time. It is nontrivial to model rewards since we would like the model to generate actions based on future desired returns, rather than past rewards. As a result, instead of feeding the rewards directly, we feed the model with the returns-to-go . This leads to the following trajectory representation which is amenable to autoregressive training and generation:
+
+(2)
+
+At test time, we can specify the desired performance (e.g. 1 for success or 0 for failure), as well as the environment starting state, as the conditioning information to initiate generation. After executing the generated action for the current state, we decrement the target return by the achieved reward and repeat until episode termination. Architecture.

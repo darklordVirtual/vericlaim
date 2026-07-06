@@ -1,0 +1,16 @@
+Shibo Hao Yi Gu Haodi Ma Joshua Jiahua Hong
+
+Zhen Wang Daisy Zhe Wang Zhiting Hu
+
+UC San Diego, University of Florida
+
+Mohamed bin Zayed University of Artificial Intelligence
+
+{s5hao, yig025, jjhong, zhw085, zhh019}@ucsd.edu
+
+{ma.haodi, daisyw}@ufl.edu
+equal contribution
+
+Abstract
+
+Large language models (LLMs) have shown remarkable reasoning capabilities, particularly with chain-of-thought (CoT) prompting. However, LLMs sometimes still struggle with problems that are easy for humans, such as generating action plans to achieve given goals in an environment, or performing complex math or logical reasoning. The deficiency stems from the key fact that LLMs lack an internal world model to predict the world state (e.g., environment status, intermediate variable values) and simulate long-term outcomes of actions. This prevents LLMs from performing deliberate planning akin to human brains, which involves exploring alternative reasoning paths, anticipating future states and rewards, and iteratively refining existing reasoning steps. To overcome the limitations, we propose a new LLM reasoning framework, Reasoning via Planning (RAP).

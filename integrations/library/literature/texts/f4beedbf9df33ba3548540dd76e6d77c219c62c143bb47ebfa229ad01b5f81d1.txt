@@ -1,0 +1,20 @@
+A theoretical analysis of contrastive unsupervised representation
+learning. arXiv preprint arXiv:1902.09229, 2019b. Balestriero & Baraniuk (2018)
+
+Balestriero, R. and Baraniuk, R. G. A spline theory of deep learning. In International Conference on Machine Learning, pp. 374–383. PMLR, 2018. Bansal et al. (2021)
+
+Bansal, Y., Nakkiran, P., and Barak, B. Revisiting model stitching to compare neural representations. Advances in neural information processing systems,
+34:225–236, 2021. Baradad et al. (2021)
+
+Baradad, M., Wulff, J., Wang, T., Isola, P., and Torralba, A. Learning to see by looking at noise. In Advances in Neural Information Processing Systems, 2021. Baradad et al. (2022)
+
+Baradad, M., Chen, R., Wulff, J., Wang, T., Feris, R., Torralba, A., and Isola,
+P. Procedural image programs for representation learning. Advances in Neural Information Processing Systems,
+35:6450–6462, 2022. Barlow et al. (1961)
+
+Barlow, H. B. et al. Possible principles underlying the transformation of sensory
+messages. Sensory communication, 1(01):217–233,
+1961. Betker et al. (2023)
+
+Betker, J., Goh, G., Jing, L., Brooks, T., Wang, J., Li, L., Ouyang, L.,
+Zhuang, J., Lee, J., Guo, Y., et al.

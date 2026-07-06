@@ -1,0 +1,9 @@
+Datasets. To explore model scalability, we use the ILSVRC-2012 ImageNet dataset with 1k classes and 1.3M images (we refer to it as ImageNet in what follows),
+its superset ImageNet-21k with 21k classes and 14M images (Deng et al., 2009),
+and JFT (Sun et al., 2017) with 18k classes and 303M high-resolution images. We de-duplicate the pre-training datasets w.r.t. the test sets of the downstream tasks following Kolesnikov et al. (2020). We transfer the models trained on these dataset to several benchmark tasks:
+ImageNet on the original validation labels and the cleaned-up ReaL labels (Beyer et al., 2020),
+CIFAR-10/100 (Krizhevsky, 2009),
+Oxford-IIIT Pets (Parkhi et al., 2012),
+and Oxford Flowers-102 (Nilsback & Zisserman, 2008). For these datasets, pre-processing follows Kolesnikov et al. (2020). We also evaluate on the 19-task VTAB classification suite (Zhai et al., 2019b). VTAB evaluates low-data transfer to diverse tasks, using 1 000 training examples per task. The tasks are divided into three groups:
+Natural – tasks like the above, Pets, CIFAR, etc. Specialized – medical and satellite imagery, and
+Structured – tasks that require geometric understanding like localization.

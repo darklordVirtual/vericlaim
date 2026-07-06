@@ -1,0 +1,1 @@
+To provide a qualitative summary / overview of CLIP’s zero-shot performance we visualize a randomly selected prediction for 36 different zero-shot CLIP classifiers in Figure 21. In addition, Table 22 and Figure 22 show the individual zero-shot performance scores for each dataset.

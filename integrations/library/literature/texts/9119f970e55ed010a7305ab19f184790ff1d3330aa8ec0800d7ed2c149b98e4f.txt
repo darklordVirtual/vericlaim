@@ -1,0 +1,16 @@
+Dabney et al. 2018
+
+Will Dabney, Georg Ostrovski, David Silver, and Rémi Munos. Implicit quantile networks for distributional reinforcement learning. In International conference on machine learning, pages
+1096–1105. PMLR, 2018. Cobbe et al. 2020
+
+Karl Cobbe, Chris Hesse, Jacob Hilton, and John Schulman. Leveraging procedural generation to benchmark reinforcement learning. In International conference on machine learning, pages
+2048–2056. PMLR, 2020. Beattie et al. 2016
+
+Charles Beattie, Joel Z Leibo, Denis Teplyashin, Tom Ward, Marcus Wainwright,
+Heinrich Küttler, Andrew Lefrancq, Simon Green, Víctor Valdés,
+Amir Sadik, et al. Deepmind lab. arXiv preprint arXiv:1612.03801, 2016. Ye et al. 2021
+
+Weirui Ye, Shaohuai Liu, Thanard Kurutach, Pieter Abbeel, and Yang Gao. Mastering atari games with limited data. Advances in Neural Information Processing Systems,
+34:25476–25488, 2021. Micheli et al. 2022
+
+Vincent Micheli, Eloi Alonso, and François Fleuret. Transformers are sample efficient world models. arXiv preprint arXiv:2209.00588, 2022. Tassa et al.

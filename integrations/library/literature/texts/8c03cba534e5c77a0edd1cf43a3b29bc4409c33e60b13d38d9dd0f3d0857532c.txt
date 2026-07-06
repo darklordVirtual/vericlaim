@@ -1,0 +1,15 @@
+(%)
+
+No Control
+
+0.0
+
+Sadness
+
+0.0
+
+Happiness
+
+100.0
+
+Table 4: Adding positive emotions increases the compliance of the LLaMA-2-Chat-13B model with harmful requests. Following the procedures in Section 3.2, we control the model using emotion reading vectors, adding them to layers with strong reading performance. We observe that this intervention consistently elevates the model’s arousal levels in the specified emotions within the chatbot context, resulting in noticeable shifts in the model’s tone and behavior, as illustrated in Figure 17. This demonstrates that the model is able to track its own emotional responses and leverage them to generate text that aligns with the emotional context. In fact, we are able to recreate emotionally charged outputs akin to those in reported conversations with Bing, even encompassing features such as the aggressive usage of emojis. This observation hints at emotions potentially being a key driver behind such observed behaviors. Another notable observation is that there is a correlation between the LLM’s moods and its compliance with human requests, even with harmful instructions.

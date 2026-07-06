@@ -1,0 +1,50 @@
+simplify and rationalize the expression, we first simplify the radicals in the numerator and denominator by factoring out the largest perfect squares from the numbers under the square root. The perfect square factors of 160, 252, 245, and 108 are 16, 4, 1, and 36, respectively. Let’s factorize and simplify:
+
+We can simplify this further by applying the property and . \faAndroid
+
+Python
+
+⬇
+1import math
+
+2
+
+3# factoring the square roots
+
+4sqrt_160 = math.sqrt(16) * math.sqrt(10)
+
+5sqrt_252 = math.sqrt(4) * math.sqrt(63)
+
+6sqrt_245 = math.sqrt(245)
+
+7sqrt_108 = math.sqrt(36) * math.sqrt(3)
+
+8
+
+9# simplify the fraction
+
+10numerator = sqrt_160 * sqrt_245
+
+11denominator = sqrt_252 * sqrt_108
+
+12simplified_fraction = numerator / denominator
+
+13
+
+14simplified_fraction
+
+Result:
+⬇
+11.200137166371826
+
+\faAndroid
+
+The completely simplified and rationalized form of the given expression is approximately . Table 15: Application A3. AutoGen with OptiGuide. The same question “What if the roasting cost is increased by 5% because of the potential salary increase?” is asked. Action
+
+AutoGen
+
+\faUser
+
+Prompt
+
+What if the roasting cost is increased by 5% because of the potential salary increase?

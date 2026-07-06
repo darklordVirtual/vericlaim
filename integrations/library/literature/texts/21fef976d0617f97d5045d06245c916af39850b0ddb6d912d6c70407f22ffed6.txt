@@ -1,0 +1,6 @@
+As mentioned in Section 1, their method used a naive instantiation of SSMs that suffered from an additional factor of in memory and in computation. Beyond this work, our technical contributions (Section 3) on the S4 parameterization and algorithms are applicable to a broader family of SSMs including these investigated in prior works,
+and our techniques for working with these models may be of independent interest. Implementation. The computational core of S4’s training algorithm is the Cauchy kernel discussed in Sections 3.2, 3.3 and C.3. As described in Section C.3 Proposition 5,
+there are many algorithms for it with differing computational complexities and sophistication. Our current implementation of S4 actually uses the naive algorithm
+which is easily parallelized on GPUs and has more easily accessible libraries allowing it to be implemented;
+we leverage the pykeops library for memory-efficient kernel operations. However, this library is a much more general library that may not be optimized for the Cauchy kernels used here,
+and we believe that a dedicated CUDA implementation can be more efficient.

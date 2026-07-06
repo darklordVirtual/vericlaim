@@ -1,0 +1,25 @@
+The music of … (Omitted)
+
+Paragraphs:
+
+Journeying westward, she admired the art in Italy and sipped coffee in France. The music of Spain and the history of Greece deepened her love for Europe. The Nordic beauty of Norway, … (Omitted)
+
+She danced in Ireland, explored castles in Scotland, and marveled at the architecture in Germany and Russia. Italy, Norway, Sweden and Germany will always stay her favourite destinations to visit. Sublists:
+
+{{ "Italy": 1, "France": 1 }}
+
+{{ "Spain": 1, "Greece": 1, "Norway": 1, "Sweden": 1, "Finland": 1, "Denmark": 1 }}
+
+{{ "Ireland": 1, "Scotland": 1, "Germany": 1, "Russia": 1 }}
+
+{{ "Italy": 1, "Norway": 1, "Sweden": 1, "Germany": 1 }}
+
+Output: {{ "Italy": 2, "France": 1, "Spain": 1, "Greece": 1, "Norway": 2, "Sweden": 2, (Omitted) }}
+
+</Examples>
+
+Table 19: Few-shot examples for split, merge and improve_merge prompts used for the keyword counting task; some paragraphs and dictionaries are truncated and formatting is slightly adjusted for brevity. split_prompt:
+
+<Examples>
+
+Input: Journeying westward, she admired the art in Italy and sipped coffee in France. The music of Spain and the history of Greece deepened her love for Europe.

@@ -1,0 +1,17 @@
+language and vision models). Let and be the kernel matrices computed from a dataset using some kernel-function . Using an inner-product kernel, the -th entry of the centered counterpart of these Kernel matrices is:
+
+(12)
+
+Then, the cross-covariance of and is given by:
+
+(13)
+
+which serves as an empirical estimator of the Hilbert-Schmidt Independence Criterion (Gretton et al., 2005). The Centered Kernel Alignment (CKA) (Kornblith et al., 2019) is then its normalized counterpart:
+
+(14)
+
+CKA measures the congruence between two random variables, with a maximum alignment of and a minimum of . It is invariant to isotropic scaling and offers a strict notion of alignment, measuring alignment across all samples. Hence, the CKA score reflects the global similarities of the models. This can be illustrated by expanding the trace term in HSIC:
+
+(15)
+
+One can modify the definition of alignment to restrict the cross-covariance measurement to samples considered to be nearest neighbors of the current sample .

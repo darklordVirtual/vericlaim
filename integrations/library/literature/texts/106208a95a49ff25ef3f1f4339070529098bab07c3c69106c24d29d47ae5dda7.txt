@@ -1,0 +1,18 @@
+5994–6002, 2017. Helber et al. (2019)
+
+Helber, P., Bischke, B., Dengel, A., and Borth, D. Eurosat: A novel dataset and deep learning benchmark for land use and
+land cover classification. IEEE Journal of Selected Topics in Applied Earth Observations
+and Remote Sensing, 12(7):2217–2226, 2019. Henaff (2020)
+
+Henaff, O. Data-efficient image recognition with contrastive predictive coding. In International Conference on Machine Learning, pp. 4182–4192. PMLR, 2020. Hendrycks & Dietterich (2019)
+
+Hendrycks, D. and Dietterich, T. Benchmarking neural network robustness to common corruptions and
+perturbations. arXiv preprint arXiv:1903.12261, 2019. Hendrycks & Gimpel (2016)
+
+Hendrycks, D. and Gimpel, K. Gaussian error linear units (gelus). arXiv preprint arXiv:1606.08415, 2016. Hendrycks et al. (2019)
+
+Hendrycks, D., Zhao, K., Basart, S., Steinhardt, J., and Song, D. Natural adversarial examples. arXiv preprint arXiv:1907.07174, 2019. Hendrycks et al. (2020a)
+
+Hendrycks, D., Basart, S., Mu, N., Kadavath, S., Wang, F., Dorundo, E., Desai,
+R., Zhu, T., Parajuli, S., Guo, M., et al. The many faces of robustness: A critical analysis of
+out-of-distribution generalization.

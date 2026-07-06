@@ -1,0 +1,9 @@
+represent an obvious starting point that we expect we will need to learn about to make progress, not because they represent the approach that we ultimately expect to be most fruitful for AI safety. Contributions
+
+•
+
+The Sandwiching Paradigm: We lay out a research agenda for scalable oversight built around the sandwiching experimental paradigm. •
+
+The Experiment: We show that two existing NLP tasks satisfy the constraints of sandwiching well with large language models and that a simple baseline strategy for language-model conversational agents—asking humans to elicit knowledge from them through conversation—works imperfectly but surprisingly well at producing high-quality labels on two hard question-answering tasks. •
+
+Conclusions: This result represents a simple proof of concept for sandwiching experiments with multiple-choice question answering and shows—echoing Saunders et al. (2022)—that present large language models can help humans achieve difficult tasks in settings that are relevant to scalable oversight.

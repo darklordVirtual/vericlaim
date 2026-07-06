@@ -1,0 +1,33 @@
+There are two widely used forms of contrastive objectives. We now discuss each form in detail and show how they both are minimized by the pointwise mutual information (PMI) as stated in Equation 5. To simplify notation, we consider learning the bivariate model . In Section 4, such is optimized within the family of . Recall that our positive pairs are sampled from , and that the negative pairs are sampled independently from its marginals which we denote as where . 1. The binary NCE loss (Gutmann & Hyvärinen, 2010) is defined with a certain prior over sampling positive vs. negative pairs. Let be the probability of sampling a positive pair. Then the loss is given by
+
+(20)
+
+The Bayes optimal solution is given by
+
+(21)
+
+(22)
+
+(23)
+
+(24)
+
+(25)
+
+2. The InfoNCE loss (Oord et al., 2018) is defined with randomly sampling one positive pair along with negative ones. With some hyperparameter , the loss is given by
+
+(26)
+
+The Bayes optimal solution is given by
+
+(27)
+
+(28)
+
+For , this optima corresponds to choices where
+
+(29)
+
+(30)
+
+For the general case, we have (and corresponding ) recovers up to an offset and a scale. Our main argument in Section 4 that recovers still holds.

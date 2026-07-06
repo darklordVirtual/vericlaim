@@ -1,0 +1,11 @@
+Accessed October 12, 2023. Winograd (1971)
+
+Winograd, T. Procedures as a Representation for Data in a Computer Program for Understanding Natural Language. MIT AI Technical Reports, 1971. Wozniak (2010)
+
+Wozniak, S. Could a Computer Make a Cup of Coffee? Fast Company interview: https://www.youtube.com/watch?v=MowergwQR5Y, 2010. Yang et al. (2023)
+
+Yang, Z., Li, L., Lin, K., Wang, J., Lin, C.-C., Liu, Z., and Wang, L. The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision). CoRR, abs/2309.17421, 2023. doi: 10.48550/arXiv.2309.17421. URL https://arxiv.org/abs/2309.17421. Zamfirescu-Pereira et al. (2023)
+
+Zamfirescu-Pereira, J., Wong, R. Y., Hartmann, B., and Yang, Q. Why johnny can’t prompt: How non-ai experts try (and fail) to design llm prompts. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, CHI ’23, New York, NY, USA, 2023. Association for Computing Machinery. ISBN 9781450394215. doi: 10.1145/3544548.3581388. URL https://doi.org/10.1145/3544548.3581388. Zwetsloot & Dafoe (2019)
+
+Zwetsloot, R. and Dafoe, A. Thinking about Risks from AI: Accidents, Misuse and Structure. Lawfare, 11:2019, 2019.

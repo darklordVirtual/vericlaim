@@ -1,0 +1,17 @@
+In International Conference on Machine Learning, 2017. Rajani et al. [2019]
+
+Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong, and Richard Socher. Explain yourself! leveraging language models for commonsense
+reasoning. arXiv preprint arXiv:1906.02361, 2019. Yu et al. [2017]
+
+Lantao Yu, Weinan Zhang, Jun Wang, and Yong Yu. Seqgan: Sequence generative adversarial nets with policy gradient. In AAAI conference on artificial intelligence, 2017. Ziegler et al. [2019]
+
+Daniel M Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B Brown, Alec Radford, Dario
+Amodei, Paul Christiano, and Geoffrey Irving. Fine-tuning language models from human preferences. arXiv preprint arXiv:1909.08593, 2019. Keskar et al. [2019]
+
+Nitish Shirish Keskar, Bryan McCann, Lav R Varshney, Caiming Xiong, and Richard
+Socher. Ctrl: A conditional transformer language model for controllable
+generation. arXiv preprint arXiv:1909.05858, 2019. Dathathri et al. [2019]
+
+Sumanth Dathathri, Andrea Madotto, Janice Lan, Jane Hung, Eric Frank, Piero
+Molino, Jason Yosinski, and Rosanne Liu. Plug and play language models: A simple approach to controlled text
+generation. arXiv preprint arXiv:1912.02164, 2019. Holtzman et al.

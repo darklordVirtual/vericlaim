@@ -1,0 +1,1 @@
+We visualize the intermediate progress of each method on two tasks. See Appendix, Sec. A.3 for the other two tasks. We do not plot ReAct and Reflexion since they do not make any meaningful progress.

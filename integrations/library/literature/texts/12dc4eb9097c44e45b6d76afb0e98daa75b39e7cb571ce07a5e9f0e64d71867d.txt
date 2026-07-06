@@ -1,0 +1,159 @@
+Table 6:
+(Pixel-level image classification.)
+Citations refer to the original model; additional citation indicates work from which this baseline is reported. Model
+
+sMNIST
+
+pMNIST
+
+sCIFAR
+
+Transformer [44, 42]
+
+98.9
+
+97.9
+
+62.2
+
+CKConv [35]
+
+99.32
+
+98.54
+
+63.74
+
+TrellisNet [4]
+
+99.20
+
+98.13
+
+73.42
+
+TCN [3]
+
+99.0
+
+97.2
+
+-
+
+LSTM [21, 17]
+
+98.9
+
+95.11
+
+63.01
+
+r-LSTM [42]
+
+98.4
+
+95.2
+
+72.2
+
+Dilated GRU [5]
+
+99.0
+
+94.6
+
+-
+
+Dilated RNN [5]
+
+98.0
+
+96.1
+
+-
+
+IndRNN [25]
+
+99.0
+
+96.0
+
+-
+
+expRNN [24]
+
+98.7
+
+96.6
+
+-
+
+UR-LSTM
+
+99.28
+
+96.96
+
+71.00
+
+UR-GRU [17]
+
+99.27
+
+96.51
+
+74.4
+
+LMU [45]
+
+-
+
+97.15
+
+-
+
+HiPPO-RNN [16]
+
+98.9
+
+98.3
+
+61.1
+
+UNIcoRNN [38]
+
+-
+
+98.4
+
+-
+
+LMUFFT [7]
+
+-
+
+98.49
+
+-
+
+LipschitzRNN [13]
+
+99.4
+
+96.3
+
+64.2
+
+S4
+
+99.63
+
+98.70
+
+91.13
+
+D.3.5 Time Series Forecasting compared to Informer
+
+We include a simple figure (Fig. 11) contrasting the architecture of S4 against that of the Informer [50]. In Fig. 11,
+the goal is to forecast a contiguous range of future predictions (Green, length )
+given a range of past context (Blue, length ). We simply concatenate the entire context with a sequence of masks set to the length of the forecast window.

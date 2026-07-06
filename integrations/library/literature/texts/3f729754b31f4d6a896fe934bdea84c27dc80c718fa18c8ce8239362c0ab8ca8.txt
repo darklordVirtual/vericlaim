@@ -1,0 +1,7 @@
+This preliminary analysis is intended to illustrate some of the challenges that general purpose computer vision models pose and to give a glimpse into their biases and impacts. We hope that this work motivates future research on the characterization of the capabilities, shortcomings, and biases of such models, and we are excited to engage with the research community on such questions. We believe one good step forward is community exploration to further characterize the capabilities of models like CLIP and - crucially - identify application areas where they have promising performance and areas where they may have reduced performance999A model could be unfit for use due to inadequate performance or due to the inappropriateness of AI use in the application area itself.. This process of characterization can help researchers increase the likelihood models are used beneficially by:
+
+•
+
+Identifying potentially beneficial downstream uses of models early in the research process, enabling other researchers to think about applications. •
+
+Surfacing tasks with significant sensitivity and a large set of societal stakeholders, which may call for intervention by policymakers.

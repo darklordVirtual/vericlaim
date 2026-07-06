@@ -1,0 +1,19 @@
+2021. Long range arena
+: A benchmark for efficient transformers. In International Conference on Learning Representations. Tay et al. (2022)
+
+Yi Tay, Mostafa Dehghani, Dara Bahri, and Donald Metzler. 2022. Efficient transformers: A survey. ACM Computing Surveys, 55(6):1–28. Tolstikhin et al. (2021)
+
+Ilya O. Tolstikhin, Neil Houlsby, Alexander Kolesnikov, Lucas Beyer, Xiaohua
+Zhai, Thomas Unterthiner, Jessica Yung, Andreas Steiner, Daniel Keysers,
+Jakob Uszkoreit, Mario Lucic, and Alexey Dosovitskiy. 2021. Mlp-mixer: An all-mlp
+architecture for vision. CoRR, abs/2105.01601. Touvron et al. (2023)
+
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne
+Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro,
+Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, and Guillaume
+Lample. 2023. Llama: Open and efficient
+foundation language models. Vaswani et al. (2017)
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. In Advances in Neural Information Processing Systems,
+volume 30. Curran Associates, Inc.

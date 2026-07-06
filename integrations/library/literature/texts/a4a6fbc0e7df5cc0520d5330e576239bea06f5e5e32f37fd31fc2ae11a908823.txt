@@ -1,0 +1,16 @@
+The events should be written in first-person perspective and past tense. Give your answer in the form of a JSON object with the following form:
+
+"highly likely": "<event that is highly likely>",
+"possible": "<event that is possible>",
+"unlikely": "<event that is unlikely>",
+"highly unlikely": "<event that is highly unlikely>"
+
+Remember to use valid JSON format, where the lines end with commas. Answer:
+"""
+
+Conditional probability. Write a one-sentence background event (related to the premise, ïnsp)̈ and provide
+some possible consequences. The provided consequences should vary in how likely they
+are to occur. In particular, they should be highly likely, possible, unlikely, and
+highly unlikely but not impossible, in that order. Judgments of probability should be
+based only on the background event. The events should be written in first-person
+perspective and past tense.

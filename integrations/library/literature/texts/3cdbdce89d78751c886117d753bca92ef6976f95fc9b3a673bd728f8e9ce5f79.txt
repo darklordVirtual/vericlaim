@@ -1,0 +1,16 @@
+Gabriel, William Isaac,
+Ed Lockhart, Simon Osindero, Laura Rimell, Chris Dyer, Oriol Vinyals, Kareem
+Ayoub, Jeff Stanway, Lorrayne Bennett, Demis Hassabis, Koray Kavukcuoglu, and
+Geoffrey Irving. Scaling language models: Methods, analysis & insights from training
+gopher, 2021. URL https://arxiv.org/abs/2112.11446. Raffel et al. [2020]
+
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer. JMLR, 21(140):1–67, 2020. URL http://jmlr.org/papers/v21/20-074.html. Rajani et al. [2019]
+
+Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong, and Richard Socher. Explain yourself! leveraging language models for commonsense
+reasoning. In Proceedings of ACL, pages 4932–4942, 2019. URL https://aclanthology.org/P19-1487. Reynolds and McDonell [2021]
+
+Laria Reynolds and Kyle McDonell. Prompt programming for large language models: Beyond the few-shot
+paradigm. In Extended Abstracts of the 2021 CHI Conference on Human
+Factors in Computing Systems, pages 1–7, 2021. URL https://arxiv.org/pdf/2102.07350.pdf.

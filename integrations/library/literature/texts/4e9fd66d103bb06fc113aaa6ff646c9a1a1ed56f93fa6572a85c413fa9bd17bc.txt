@@ -1,0 +1,14 @@
+expanding the trace term in HSIC:
+
+(15)
+
+One can modify the definition of alignment to restrict the cross-covariance measurement to samples considered to be nearest neighbors of the current sample . This emphasizes similarity over dissimilarity, biasing the measure toward local alignment:
+
+(16)
+
+(17)
+
+Figure 10: Cross-modal alignment increases locally:
+Alignment trend when varying the top- nearest neighbors in the CKNNA metrics (Eqn. 18). We center alignment score to the smallest language model and divide the total trend by the standard deviation. When , we recover the original CKA metric, and when it closely resembles the mutual nearest-neighbor metric . Each line represents the average of all LLM models for a specific . As we decrease , the alignment becomes more pronounced. Where is a scalar weighting that assigns if is a mutual nearest neighbors to both and , and otherwise. We refer to this metric as the Centered Kernel Nearest-Neighbor Alignment (CKNNA) metric. As the number of nearest neighbors , we recover the original CKA metric. (18)
+
+We can further relax the metric to treat the cross-covariance term identically across all nearest-neighbor samples.

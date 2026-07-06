@@ -1,0 +1,5 @@
+Under this model, each node in the tree is represented by a corresponding hidden state; by providing a hidden state and an action to the model the search algorithm can transition to a new node = . 2)
+
+Actions available. AlphaZero used the set of legal actions obtained from the simulator to mask the prior produced by the network everywhere in the search tree. MuZero only masks legal actions at the root of the search tree where the environment can be queried, but does not perform any masking within the search tree. This is possible because the network rapidly learns not to predict actions that never occur in the trajectories it is trained on. 3)
+
+Terminal nodes. AlphaZero stopped the search at tree nodes representing terminal states and used the terminal value provided by the simulator instead of the value produced by the network. MuZero does not give special treatment to terminal nodes and always uses the value predicted by the network. Inside the tree, the search can proceed past a terminal node - in this case the network is expected to always predict the same value. This is achieved by treating terminal states as absorbing states during training.

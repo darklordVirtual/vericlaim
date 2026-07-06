@@ -1,0 +1,41 @@
+Numbers are prompting iterations averaged over three trials. The fewer the iterations, the more efficient the method. Method
+
+Wooden Tool
+
+Stone Tool
+
+Iron Tool
+
+Diamond Tool
+
+ReAct yao2022react
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Reflexion shinn2023reflexion
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+AutoGPT autogpt
+
+N/A
+
+Voyager w/o Skill Library
+
+N/A
+
+Voyager (Ours)
+
+Figure 7: Map coverage: bird’s eye views of Minecraft maps. Voyager is able to traverse longer distances compared to baselines while crossing diverse terrains. Efficient zero-shot generalization to unseen tasks. To evaluate zero-shot generalization, we clear the agent’s inventory, reset it to a newly instantiated world, and test it with unseen tasks. For both Voyager and AutoGPT, we utilize GPT-4 to break down the task into a series of subgoals. Table. 2 and Fig. 8 show Voyager can consistently solve all the tasks, while baselines cannot solve any task within 50 prompting iterations. What’s interesting to note is that our skill library constructed from lifelong learning not only enhances Voyager’s performance but also gives a boost to AutoGPT.

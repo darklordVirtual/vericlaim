@@ -1,0 +1,13 @@
+The RWKV model architecture is defined by four fundamental elements that are intrinsic to the time-mixing and channel-mixing blocks:
+
+•
+
+: The Receptance vector acts as the receiver of past information. •
+
+: The Weight signifies the positional
+
+weight decay vector, a trainable parameter within the model. •
+
+: The Key vector performs a role analogous to in traditional attention mechanisms. •
+
+: The Value vector functions similarly to in conventional attention processes. These core elements interact multiplicatively at each timestep, as depicted in Figure 2. Figure 2: Elements within an RWKV block (left) and the complete RWKV residual block, equipped with a final head for language modeling (right).

@@ -1,0 +1,8 @@
+Zero-shot-CoT (4)
+
+A: Let’s solve this problem by splitting it into steps. Step 1: Megan received 11 pieces of candy from neighbors. Step 2: Megan received 5 pieces of candy from her older sister. Step 3: If she only ate 8 pieces a day, how long would the candy last her? To answer the question in Step 3, we need to add the number of pieces of candy Megan received from her neighbors and her sister. This is called finding the sum. The sum of 11 and 5 is 16. So, Megan has a total of 16 pieces of candy. If Megan only eats 8 pieces of candy a day,
+Therefore, the answer (arabic numerals) is 2 days. Zero-shot-CoT (5)
+
+A: Let’s be realistic and think step by step. Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. That’s a total of 16 pieces of candy. 8 pieces a day would mean that it would last her 2 days. So the candy would last her 2 days. Therefore, the answer (arabic numerals) is 2. Zero-shot-CoT (6)
+
+A: Let’s think like a detective step by step. Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. That’s a total of 16 pieces of candy.

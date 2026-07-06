@@ -1,0 +1,10 @@
+Mamba is the first attention-free model to match the performance of a very strong Transformer recipe (Transformer++) that has now become standard,
+particularly as the sequence length grows. (We note that full results on context length 8k are missing for the RWKV and RetNet baselines,
+prior strong recurrent models that can also be interpreted as SSMs, because of a lack of efficient implementations leading to out-of-memory or unrealistic computation requirements.)
+
+Figure 6:
+(Scaling Laws.) Models of size to parameters, trained on the Pile. Mamba scales better than all other attention-free models and is the first to match the performance of a very strong “Transformer++” recipe that has now become standard,
+particularly as the sequence length grows. 4.2.2 Downstream Evaluations
+
+Table˜1 shows the performance of Mamba on a range of popular downstream zero-shot evaluation tasks. We compare against the most well-known open source models at these sizes,
+most importantly Pythia [biderman2023pythia] and RWKV [peng2023rwkv] which were trained with the same tokenizer, dataset, and training length (300B tokens) as our models.

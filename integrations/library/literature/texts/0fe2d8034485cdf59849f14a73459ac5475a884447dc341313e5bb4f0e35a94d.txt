@@ -1,0 +1,5 @@
+After riding the ferris wheel he had 4 tickets left. If each ticket cost 9 dollars, how much money did Adam spend riding the ferris wheel? A (ONE UNNECESSARY STEP ERROR): Let’s think step by step. Adam bought 13 tickets. That means he spent 13 * 9 = 117 dollars on tickets. After riding the ferris wheel, he had 4 tickets left. That means he used 9 tickets to ride the ferris wheel. That means he spent 9 * 9 = 81 dollars on riding the ferris wheel. So the answer is 117 - 81 = 36 dollars. Therefore, the answer (arabic numerals) is 36. ✗
+
+A: Adam started with 13 tickets. He had 4 left after riding the ferris wheel. So he must have spent 13 - 4 = 9 tickets. 9 tickets times 9 dollars per ticket is 9 * 9 = 81. The answer is 81. Q: At a restaurant each adult meal costs $5 and kids eat free. If a group of 15 people came in and 8 were kids, how much would it cost for the group to eat? A (ONE UNNECESSARY STEP ERROR): Let’s think step by step. There are 8 kids, so that means there are 7 adults. Each adult meal costs $5, so that means that the 7 adults will cost $5*7=$35
+Now we just need to add the two numbers together. $35+8=43$
+So it would cost $43 for the group to eat.

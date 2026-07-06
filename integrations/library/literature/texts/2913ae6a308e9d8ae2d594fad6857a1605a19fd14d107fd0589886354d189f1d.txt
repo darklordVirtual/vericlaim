@@ -1,0 +1,18 @@
+In Advances in Neural Information Processing Systems (NeurIPS
+’23), volume 36. Curran Associates. Yang et al. [2023]
+
+Yang, S.; Nachum, O.; Du, Y.; Wei, J.; Abbeel, P.; and Schuurmans, D. 2023. Foundation Models for Decision Making: Problems, Methods, and
+Opportunities. arXiv:2303.04129. Yao et al. [2023a]
+
+Yao, S.; Yu, D.; Zhao, J.; Shafran, I.; Griffiths, T. L.; Cao, Y.; and
+Narasimhan, K. R. 2023a. Tree of Thoughts: Deliberate Problem Solving with Large Language
+Models. In Advances in Neural Information Processing Systems (NeurIPS
+’23), volume 36. Curran Associates. Yao et al. [2023b]
+
+Yao, S.; Zhao, J.; Yu, D.; Du, N.; Shafran, I.; Narasimhan, K. R.; and Cao, Y. 2023b. ReAct: Synergizing Reasoning and Acting in Language Models. In Proceedings of the Eleventh International Conference on
+Learning Representations, ICLR ’23. Yao, Li, and Zhao [2023]
+
+Yao, Y.; Li, Z.; and Zhao, H. 2023. Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in
+Large Language Models. arXiv:2305.16582. Zelikman et al. [2022]
+
+Zelikman, E.; Wu, Y.; Mu, J.; and Goodman, N. 2022. STaR: Bootstrapping Reasoning With Reasoning.

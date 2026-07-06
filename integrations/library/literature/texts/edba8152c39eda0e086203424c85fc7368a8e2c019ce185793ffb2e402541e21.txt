@@ -1,0 +1,5 @@
+Run the model once, and record all states and activation of each layer during the computation;
+
+2. Corrupt the input embeddings of the subject using noise (“The Eiffel Tower” in this example);
+
+3. Restore the states and activation of a certain layer at a certain token during the computation, and record the log-probability of the model outputting the correct answer (“Paris”). Unlike transformers, RWKV relies on the recursive propagation of information in the time dimension. In this case, the fact that the Eiffel Tower is located in Paris is retrieved in layer 4 just after the model sees “The Eiffel”. It is then passed down to the subsequent layers. In layer 20, mostly, the information is propagated through time until reaching where it is needed. Finally, at the token “of”, it is passed down to the last layer for outputting the answer. Figure 11: Model behavior visualizations of the RWKV model.

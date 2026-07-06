@@ -1,0 +1,7 @@
+Model evaluation for extreme risks. CoRR, abs/2305.15324, 2023. doi: 10.48550/arXiv.2305.15324. URL https://arxiv.org/abs/2305.15324. Shneiderman (2020)
+
+Shneiderman, B. Human-centered artificial intelligence: Reliable, safe & trustworthy, 2020. URL https://arxiv.org/abs/2002.04087v1. Silver et al. (2016)
+
+Silver, D., Huang, A., Maddison, C. J., Guez, A., Sifre, L., van den Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot, M., Dieleman, S., Grewe, D., Nham, J., Kalchbrenner, N., Sutskever, I., Lillicrap, T., Leach, M., Kavukcuoglu, K., Graepel, T., and Hassabis, D. Mastering the Game of Go with Deep Neural Networks and Tree Search. Nature, 529:484–489, 2016. doi: 10.1038/nature16961. Silver et al. (2017)
+
+Silver, D., Schrittwieser, J., Simonyan, K., Antonoglou, I., Huang, A., Guez, A., Hubert, T., Baker, L., Lai, M., Bolton, A., Chen, Y., Lillicrap, T., Hui, F., Sifre, L., van den Driessche, G., Graepel, T., and Hassabis, D. Mastering the Game of Go Without Human Knowledge. Nature, 550:354–359, 2017. doi: 10.1038/nature24270. Silver et al.

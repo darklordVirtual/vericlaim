@@ -1,0 +1,16 @@
+(84)
+
+Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio
+Savarese, and Caiming Xiong. A conversational paradigm for program synthesis. arXiv preprint arXiv: Arxiv-2203.13474, 2022. (85)
+
+Hung Le, Yue Wang, Akhilesh Deepak Gotmare, Silvio Savarese, and Steven C. H. Hoi. Coderl: Mastering code generation through pretrained models and deep
+reinforcement learning. arXiv preprint arXiv: Arxiv-2207.01780, 2022. (86)
+
+Xinyun Chen, Chang Liu, and Dawn Song. Execution-guided neural program synthesis. In 7th International Conference on Learning Representations,
+ICLR 2019, New Orleans, LA, USA, May 6-9, 2019. OpenReview.net, 2019. (87)
+
+Xinyun Chen, Dawn Song, and Yuandong Tian. Latent execution for neural program synthesis. arXiv preprint arXiv: Arxiv-2107.00101, 2021. (88)
+
+Kevin Ellis, Maxwell I. Nye, Yewen Pu, Felix Sosa, Josh Tenenbaum, and Armando
+Solar-Lezama. Write, execute, assess: Program synthesis with a REPL. In Hanna M. Wallach, Hugo Larochelle, Alina Beygelzimer, Florence
+d’Alché-Buc, Emily B.

@@ -1,0 +1,49 @@
+Specifically, when all the conditions are met, we assign a super large reward to make sure this plan will be selected as the solution. Method
+
+2-step
+
+4-step
+
+6-step
+
+CoT
+
+0.17
+
+0.02
+
+0.00
+
+CoT - pass@10
+
+0.23
+
+0.07
+
+0.00
+
+CoT (GPT-4)
+
+0.50
+
+0.63
+
+0.40
+
+RAP(10)
+
+1.00
+
+0.86
+
+0.26
+
+RAP(20)
+
+1.00
+
+0.88
+
+0.42
+
+Table 1: Results on Blocksworld. RAP(10) and RAP(20) refer to our method where the iteration number is set to 10 and 20, respectively. “pass@10” means 10 plans are sampled for each test case, and the test case is regarded as solved if at least one plan is correct. All other settings including RAP, only evaluate a single plan. Results. We use test cases from the Blocksworld dataset Valmeekam et al. (2023) and group them by minimum number of actions required, resulting in 30 cases solvable within 2 steps, 57 cases within 4 steps, and 114 cases within 6 steps. There are at most 5 blocks in each test case. As the baseline method, we prompt the LLM with 4 test cases with corresponding solutions, and ask it to generate a plan for a new question. This setting is the same as one described in Valmeekam et al.

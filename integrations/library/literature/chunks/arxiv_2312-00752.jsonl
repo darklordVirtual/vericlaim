@@ -1,0 +1,69 @@
+{"fsid": "arxiv_2312-00752", "n": 68, "overlap": 200, "source_sha256": "212c2af45e2e22ceaeaa7f3e03d6cbd15ebea201e98477e8f71f665f367830ba", "target": 1200}
+{"section": "", "seq": 0, "sha256": "67ec57206bc93ee1f0010f7b162954a8eec59443f8065a19fb32451d4c3fb670"}
+{"section": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces", "seq": 1, "sha256": "ba885d1aeda275f16ba8e5880f5afafb488cb0f27133d0c8dcd6c2f02a2f18a6"}
+{"section": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces", "seq": 2, "sha256": "7400464365eecaa666b23d871577cb612e45347ee71c7c47181dc467eb06ac5f"}
+{"section": "1 Introduction", "seq": 3, "sha256": "cd8f630c2189db3c947b88deb9640e577c257b346baba841980844d8527a1928"}
+{"section": "1 Introduction", "seq": 4, "sha256": "a4a32b45cbec792f42903fa2ed409616c067d60efd81d29436f5109dcf39c595"}
+{"section": "1 Introduction", "seq": 5, "sha256": "aeb58496061b4c2b45d473a1138e74fb42b5ab35bb2e947deb0f33a8dfef9913"}
+{"section": "1 Introduction", "seq": 6, "sha256": "830d6a475616144ba65a68ceeb26fb1c21fbf3aca620c8095eb66d09b06aab3c"}
+{"section": "1 Introduction", "seq": 7, "sha256": "200545372d4777ddd6962112b683cf4e013db6af4b5c78a5af00108e6407c795"}
+{"section": "1 Introduction", "seq": 8, "sha256": "5172231b77305827fd8e1cf16b1897ce1020f1f90f9597ad27501921cd1db6a7"}
+{"section": "1 Introduction", "seq": 9, "sha256": "cda2b90ddc60d193ab3ffd6f537c69544c3d096e66c28a6f2f6840e82d39a438"}
+{"section": "2 State Space Models", "seq": 10, "sha256": "88bfefc91f4ebdbdc76206109097f8e8e835c344d712e1df88f23d1ee192d958"}
+{"section": "2 State Space Models", "seq": 11, "sha256": "559f7f8f6519ccd1af4b815095826b2626c42e4ebf53f043d6cdcd23878e9ce2"}
+{"section": "2 State Space Models", "seq": 12, "sha256": "39c9fb26d5af0bbc1d790124adc9bc42faf27dc524a0458bda46e975a34e864b"}
+{"section": "2 State Space Models", "seq": 13, "sha256": "5cae4b4c7f1ba8a81f7272caf99143c8e880d3622b9d0dbfb75bce14c9a7ebaf"}
+{"section": "2 State Space Models", "seq": 14, "sha256": "d83d9baeac294771b1653c8b82ce3be4e202c7d329f471d3852fab626a73155b"}
+{"section": "2 State Space Models", "seq": 15, "sha256": "1ae35c348f214310dc195a0dd58099a5c4e420dd9e034ea1c9fed10135b6bd96"}
+{"section": "2 State Space Models", "seq": 16, "sha256": "3c6f4703284fbf5d25a348b3c4696e196807d81b768312e20c61c25b8def91e8"}
+{"section": "3 Selective State Space Models", "seq": 17, "sha256": "977b50cd656886558f3e7217527b20e1fde928661468e7f32cd987ba0f9240ca"}
+{"section": "3.1 Motivation: Selection as a Means of Compression", "seq": 18, "sha256": "0d02538434d418b06f6619e4ba9d1ff15be7b49050ba5b5d01baf7374bf3826a"}
+{"section": "3.1 Motivation: Selection as a Means of Compression", "seq": 19, "sha256": "287516feb2f5e05f5b6c14a8477efd64e159ee1352ce3778b4490d11c5bbe864"}
+{"section": "3.1 Motivation: Selection as a Means of Compression", "seq": 20, "sha256": "e829f9900177ccdc0235916c0c450736c2854d5f8b8926df7a287b3efebf5a4a"}
+{"section": "3.1 Motivation: Selection as a Means of Compression", "seq": 21, "sha256": "5ecd99724e93647944d565118600e505018116d4fedf9ce522dc10635e7f4545"}
+{"section": "3.2 Improving SSMs with Selection", "seq": 22, "sha256": "275d7a3677b1539b456fc18f70533e8b56663908a6307be66c831b908ecdaaa4"}
+{"section": "3.2 Improving SSMs with Selection", "seq": 23, "sha256": "6146537233bfab1a498c19e0ddb8fc298324e915863773b55f45cd5c70868b78"}
+{"section": "3.3 Efficient Implementation of Selective SSMs", "seq": 24, "sha256": "ccaae59908a5a3549aa16acb86c3818fa8cf8ca275d8195b14ac4d31ee32aef9"}
+{"section": "3.3 Efficient Implementation of Selective SSMs", "seq": 25, "sha256": "b873148f0d871a7b8ac1999dd3d1300950a7d09088f9cadebb3d16e6a0226ca7"}
+{"section": "3.3 Efficient Implementation of Selective SSMs", "seq": 26, "sha256": "cf2ebd4fe4173528ac239520e868760bb5e6f619285eb73838780a198620cd6a"}
+{"section": "3.3 Efficient Implementation of Selective SSMs", "seq": 27, "sha256": "c768165be9c5486d522450124e39f53ddc694eb541468239b0b8fa56c64e4802"}
+{"section": "3.3 Efficient Implementation of Selective SSMs", "seq": 28, "sha256": "a9f4733c8277598c0b4d4d291ad04ee38cf117e048b93d20f2b9b1769800667f"}
+{"section": "3.4 A Simplified SSM Architecture", "seq": 29, "sha256": "a09d55e9cbdc364b9f52e4ea4fbf24a941a8187be078f6e81f5e1e4a0eac00df"}
+{"section": "3.4 A Simplified SSM Architecture", "seq": 30, "sha256": "8198018b1bb1c9aec84277cd141285c9ae23464ed8a792cd86767ef21baf554d"}
+{"section": "3.4 A Simplified SSM Architecture", "seq": 31, "sha256": "2911e5e0a5a76d0a74fef9db021cd9246904a096154fcd60d2023276c455be55"}
+{"section": "3.5 Properties of Selection Mechanisms", "seq": 32, "sha256": "79e883077d271f6edafd16fedf35d269e349cb8a6683df1327d26ac865ee697f"}
+{"section": "3.5 Properties of Selection Mechanisms", "seq": 33, "sha256": "f92e7d53faad76da5b0e708004ea15b45ffeae2d7a16185140a47cf80be85118"}
+{"section": "3.5 Properties of Selection Mechanisms", "seq": 34, "sha256": "59e59595e5f4c18d1b8c516a96e52222b35b81009741c0021973d14d363bbf98"}
+{"section": "3.5 Properties of Selection Mechanisms", "seq": 35, "sha256": "8f0426a4f707768404604d5513cd92b8171a47b37cc01b1cdc3ea477c02de560"}
+{"section": "3.5 Properties of Selection Mechanisms", "seq": 36, "sha256": "ad786a7e76054ea35fec1e3b99daa0c3b9af0f7de84f95f542e91fd8ea588ba6"}
+{"section": "3.6 Additional Model Details", "seq": 37, "sha256": "5649c2b83d98e1c471a3763ba44a2d4cb5cf3669be7061d27ad58d9cdee6708a"}
+{"section": "3.6 Additional Model Details", "seq": 38, "sha256": "256cb83bc481284c7c92c035e841db540cdf4ecc59a85a2172a7a0b42fa7061f"}
+{"section": "4 Empirical Evaluation", "seq": 39, "sha256": "077ecccddf0d6816862f2f13b144d30299ea3abaf9d7f33708b58fee3639099d"}
+{"section": "4.1 Synthetic Tasks", "seq": 40, "sha256": "e231d8f8a6ffdac5209b552a7224a6e5f0ffec7bd4cfe72d75589762e81002a7"}
+{"section": "4.1 Synthetic Tasks", "seq": 41, "sha256": "ab2bf8b69d23111a85bc526e989d2da68bf51de76da3a446ff42e819df63189a"}
+{"section": "4.1 Synthetic Tasks", "seq": 42, "sha256": "ea0b2363c7c4be88ceb490d8121b08a08fdcff99bb6aaa5d891ec50cca2f370b"}
+{"section": "4.1 Synthetic Tasks", "seq": 43, "sha256": "4f1db2ae68b787567ade667f7bee57049c252dd7799946ab97b723606add4818"}
+{"section": "4.1 Synthetic Tasks", "seq": 44, "sha256": "342dfc1efcfdff6078261a1c5789f76f9df9f576a73b78242f376111f113336a"}
+{"section": "4.2 Language Modeling", "seq": 45, "sha256": "82c5e2a14fe706b3bd7f7acb5b00d689b421a13b6af8d886ccfffee5ff001e74"}
+{"section": "4.2 Language Modeling", "seq": 46, "sha256": "54be60a97abd43e51c610ed509f20a9693a39fa1aadb93a92f532eead7ff673e"}
+{"section": "4.2 Language Modeling", "seq": 47, "sha256": "f9aaa8f87565c34ae4439ac9cec4190ad9b887e3ef357ad8665e408c68f25e0f"}
+{"section": "4.2 Language Modeling", "seq": 48, "sha256": "e0af41a7d060e8cb7b896a57d6429e20b71297c2b97340892dc548161980dcff"}
+{"section": "4.3 DNA Modeling", "seq": 49, "sha256": "b41210d8c9beea99d7ab247e1b058e9a46f34370c2a1bc062eef169a05048e90"}
+{"section": "4.3 DNA Modeling", "seq": 50, "sha256": "f239d6323bf80a510b31b9654ac5ad38ae1a5ee84285be7eee84913e558e2abb"}
+{"section": "4.3 DNA Modeling", "seq": 51, "sha256": "528833c50164556e639532db88f4f2c7cf3af28793112ecf01d20ebc7758368b"}
+{"section": "4.3 DNA Modeling", "seq": 52, "sha256": "c9e67c095806850561e2b3a6b67133f5b70474a309bebd3c252e20ad7be05054"}
+{"section": "4.3 DNA Modeling", "seq": 53, "sha256": "c03888e82e350cb22e424b4d248ba392ed0470439a16cb2ec8f8f85261754607"}
+{"section": "4.4 Audio Modeling and Generation", "seq": 54, "sha256": "cad672034555bf2b8be1ce0fb232cfbc30069c0f8b06ba359e7f9ab4c1630000"}
+{"section": "4.4 Audio Modeling and Generation", "seq": 55, "sha256": "a36a6866e3bddd7e66a0ab3ce7473a9109a4b99f02b27434d66f0e2467e911ca"}
+{"section": "4.4 Audio Modeling and Generation", "seq": 56, "sha256": "382606fe3cb518bfaeb5b5ea0b379ac8b5d7a78ca4139a3587d5f861ecee258c"}
+{"section": "4.4 Audio Modeling and Generation", "seq": 57, "sha256": "77bb84a4c2759a45123bbacc417681e88e56052d74af075200c574d71bf58b94"}
+{"section": "4.4 Audio Modeling and Generation", "seq": 58, "sha256": "054716a52ff9572f7827f144e1728529651503666993b15904f633c8d348302a"}
+{"section": "4.5 Speed and Memory Benchmarks", "seq": 59, "sha256": "0697ae5b29f1864a762331daa3cacce614275e47f899f373c6e6c01c965845b4"}
+{"section": "4.6 Model Ablations", "seq": 60, "sha256": "f49f0524f6e8e9fdc42f4f4d87ba79dd5ee3e410af69204c2527a7f7fff3da9a"}
+{"section": "4.6 Model Ablations", "seq": 61, "sha256": "22aa7f99be260b747ec917a54099e23da1b6dd2347f2d5c48bd69fc792d56c08"}
+{"section": "4.6 Model Ablations", "seq": 62, "sha256": "89859eb28f8c75c4898b733221d31c7f0c8b26e93238f682a976e84b48355b53"}
+{"section": "4.6 Model Ablations", "seq": 63, "sha256": "f5a515713f6d48d287bd10bc3961cfe29c1e61783dba9fb7aeae3bad23919a3b"}
+{"section": "4.6 Model Ablations", "seq": 64, "sha256": "6bd0aecffb4d8dc5c87700cdb02f8f54aba9253b571125d2ea2805a22a07dd78"}
+{"section": "5 Discussion", "seq": 65, "sha256": "2e3fb674e1ee6222e9913f74aa9ed2c3a5727ee231b39133b25def86876c59e9"}
+{"section": "5 Discussion", "seq": 66, "sha256": "b7f53578d8c919ef69ed905e10316b84e3d94d1f364c9b40c36e53c0ca96b24a"}
+{"section": "6 Conclusion", "seq": 67, "sha256": "f546a1215cab8af8d4a949d9c3165bce69cb6b34e322c22cfd978d0529ac1844"}

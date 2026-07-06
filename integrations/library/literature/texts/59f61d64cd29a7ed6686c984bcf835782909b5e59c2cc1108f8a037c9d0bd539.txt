@@ -1,0 +1,7 @@
+Fig. 10(a) shows that random NPLR matrices still do not perform well,
+which validates that S4’s effectiveness primarily comes from the HiPPO initialization, not the NPLR parameterization. (a)
+
+(b)
+
+Figure 10:
+CIFAR-10 validation accuracy of SSMs with different initializations and parameterizations. (Left) NPLR parameterization with random versus HiPPO initialization. (Right) All methods considered in this section, including minor Dropout regularization. S4 achieves SotA accuracy on sequential CIFAR-10 with just 100K parameters. Finally, Fig. 10(b) considers the main ablations considered in this section (with trainable SSMs) and adds minor regularization. With 0.1 Dropout, the same trends still hold, and the HiPPO initialization—in other words, the full S4 method—achieves test accuracy with just 100K parameters.

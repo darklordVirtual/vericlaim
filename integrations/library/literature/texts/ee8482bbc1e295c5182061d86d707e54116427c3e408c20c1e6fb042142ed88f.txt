@@ -1,0 +1,19 @@
+Meredith Ringel Morris
+
+Jascha Sohl-Dickstein
+
+Noah Fiedel
+
+Tris Wartkentin
+
+Allan Dafoe
+
+Aleksandra Faust
+
+Clement Farbaret
+
+Shane Legg
+
+Abstract
+
+We propose a framework for classifying the capabilities and behavior of Artificial General Intelligence (AGI) models and their precursors. This framework introduces levels of AGI performance, generality, and autonomy, providing a common language to compare models, assess risks, and measure progress along the path to AGI. To develop our framework, we analyze existing definitions of AGI, and distill six principles that a useful ontology for AGI should satisfy. With these principles in mind, we propose “Levels of AGI” based on depth (performance) and breadth (generality) of capabilities, and reflect on how current systems fit into this ontology. We discuss the challenging requirements for future benchmarks that quantify the behavior and capabilities of AGI models against these levels.

@@ -1,0 +1,50 @@
+This provides prior knowledge for the exploration, which is crucial given the limited iteration budgets. Algorithm 1 RAP-MCTS
+
+1:Initial state , state transition probability function , reward function , action generator , number of generated actions , depth limit , number of roll-outs , and exploration weight
+
+2:Initialize memory of actions , children
+and rewards
+
+3:Initialize the state-action value function and visit counter
+
+4:for do
+
+5:
+
+6: while do Selection
+
+7:
+
+8:
+
+9: ,
+
+10:
+
+11: end while
+
+12: while is not a terminal state do
+
+13: for do Expansion
+
+14: Sample , , and
+
+15: Update , , and
+
+16: end for
+
+17: Simulation
+
+18: ,
+
+19:
+
+20: end while
+
+21: for do Back propagation
+
+22: Update with
+
+23: end for
+
+24:end for

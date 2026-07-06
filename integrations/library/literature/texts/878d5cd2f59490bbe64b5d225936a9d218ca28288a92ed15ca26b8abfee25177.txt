@@ -1,0 +1,57 @@
+In the zero-shot case the humans were given no examples of the breeds and asked to label them to the best of their ability without an internet search. In the one-shot experiment the humans were given one sample image of each breed and in the two-shot experiment they were given two sample images of each breed.555There is not a perfect correspondence between the human few-shot tasks and the model’s few-shot performance since the model cannot refer to sample images in the way that the humans can. Accuracy
+
+Majority Vote
+
+on Full Dataset
+
+Accuracy
+
+on Guesses
+
+Majority Vote
+
+Accuracy
+
+on Guesses
+
+Zero-shot human
+
+53.7
+
+57.0
+
+69.7
+
+63.9
+
+Zero-shot CLIP
+
+93.5
+
+93.5
+
+93.5
+
+93.5
+
+One-shot human
+
+75.7
+
+80.3
+
+78.5
+
+81.2
+
+Two-shot human
+
+75.7
+
+85.0
+
+79.2
+
+86.1
+
+Table 2: Comparison of human performance on Oxford IIT Pets. As in Parkhi et al. (2012), the metric is average per-class classification accuracy. Most of the gain in performance when going from the human zero shot case to the human one shot case is on images that participants were highly uncertain on.

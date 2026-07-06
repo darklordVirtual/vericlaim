@@ -1,0 +1,5 @@
+Transformers were proposed by Vaswani et al. [1] as an architecture to efficiently model sequential data. These models consist of stacked self-attention layers with residual connections. Each self-attention layer receives embeddings corresponding to unique input tokens, and outputs embeddings , preserving the input dimensions. The -th token is mapped via linear transformations to a key , query , and value . The -th output of the self-attention layer is given by weighting the values by the normalized dot product between the query and other keys :
+
+(1)
+
+As we shall see later, this allows the layer to assign “credit” by implicitly forming state-return associations via similarity of the query and key vectors (maximizing the dot product). In this work, we use the GPT architecture [9], which modifies the transformer architecture with a causal self-attention mask to enable autoregressive generation, replacing the summation/softmax over the tokens with only the previous tokens in the sequence (). We defer the other architecture details to the original papers.

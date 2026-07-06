@@ -1,0 +1,30 @@
+{
+  "abstract": "In this paper we propose to study generalization of neural networks on small algorithmically generated datasets. In this setting, questions about data efficiency, memorization, generalization, and speed of learning can be studied in great detail. In some situations we show that neural networks learn through a process of \"grokking\" a pattern in the data, improving generalization performance from random chance level to perfect generalization, and that this improvement in generalization can happen well past the point of overfitting. We also study generalization as a function of dataset size and find that smaller datasets require increasing amounts of optimization for generalization. We argue that these datasets provide a fertile ground for studying a poorly understood aspect of deep learning: generalization of overparametrized neural networks beyond memorization of the finite training dataset.",
+  "accredited": false,
+  "authors": [
+    "Alethea Power",
+    "Yuri Burda",
+    "Harri Edwards",
+    "Igor Babuschkin",
+    "Vedant Misra"
+  ],
+  "fulltext_retrieval": {
+    "fetched_at": "2026-07-06T07:48:19.187442+00:00",
+    "method": "arxiv-html",
+    "url": "https://ar5iv.labs.arxiv.org/html/2201.02177"
+  },
+  "fulltext_sha256": "2095f7e66035a5d78b249dc87459c8076280ffe86f8bdea5faf2b4f6612972a7",
+  "registrar": "arxiv",
+  "retrieval": {
+    "canon_id": "grokking-2022",
+    "fetched_at": "2026-07-06T07:38:50.623338+00:00",
+    "method": "arxiv-title-phrase"
+  },
+  "source_type": "preprint",
+  "text_sha256": "7aba494bcf605f0e5a04af15a766d0dfd2a76de8b5fb620597f026660f75c3ed",
+  "title": "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets",
+  "url": "https://arxiv.org/abs/2201.02177",
+  "venue": "arXiv",
+  "work_id": "arxiv:2201.02177",
+  "year": 2022
+}

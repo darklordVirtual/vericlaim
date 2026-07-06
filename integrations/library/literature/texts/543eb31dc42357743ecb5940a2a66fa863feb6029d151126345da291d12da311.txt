@@ -1,0 +1,15 @@
+PMLR, 2022. Wu et al. (2023)
+
+Wu, T.-H., Lian, L., Gonzalez, J. E., Li, B., and Darrell, T. Self-correcting LLM-controlled diffusion models. arXiv preprint arXiv:2311.16090, 2023. Xie et al. (2022)
+
+Xie, S., Ho, Q., and Zhang, K. Unsupervised image-to-image translation with density changing
+regularization. Advances in Neural Information Processing Systems,
+35:28545–28558, 2022. Yamins et al. (2014)
+
+Yamins, D. L., Hong, H., Cadieu, C. F., Solomon, E. A., Seibert, D., and
+DiCarlo, J. J. Performance-optimized hierarchical models predict neural responses in
+higher visual cortex. Proceedings of the national academy of sciences, 111(23):8619–8624, 2014. Zellers et al. (2019)
+
+Zellers, R., Holtzman, A., Bisk, Y., Farhadi, A., and Choi, Y. HellaSwag: Can a machine really finish your sentence? In Korhonen, A., Traum, D., and Màrquez, L. (eds.),
+Proceedings of the 57th Annual Meeting of the Association for
+Computational Linguistics, pp. 4791–4800, Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https://aclanthology.org/P19-1472. Zhai et al.

@@ -1,0 +1,9 @@
+The second part of the above equation can be bounded as
+
+(32)
+
+which is irrelevant to . Similarly,
+
+(33)
+
+can also be bounded. Note that ’s softmax operation contains at least two non-zero terms ( and ), so the above “covariance” will not degenerate into 0.

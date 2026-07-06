@@ -1,0 +1,5 @@
+choice to use mutual nearest-neighbors
+
+Our initial efforts to measure alignment with CKA revealed a very weak trend of alignment between models, even when comparing models within their own modality. This has also been observed by (Bansal et al., 2021), which had relied on alternative metrics such as model-stitching as it “reveals aspects of representations that measures such as centered kernel alignment (CKA) cannot” (Bansal et al., 2021). We chose to use nearest-neighbor as a metric, as methods like CKA has a very strict definition of alignment, which may not fit our current needs. For instance, understanding the precise similarity between unrelated items, such as an orange and Bill Gates, may not be critical. Relationship between CKA and Mutual Nearest-Neighbors
+
+Let and be vectorized features of two models (e.g. language and vision models). Let and be the kernel matrices computed from a dataset using some kernel-function .

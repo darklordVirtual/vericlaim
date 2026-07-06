@@ -1,0 +1,4 @@
+Like specialized CTMs, S4 can adapt to changes in time-series sampling frequency without retraining, e.g. at frequency on speech classification. •
+
+Learning with weaker inductive biases. With no architectural changes, S4 surpasses Speech CNNs on speech classification, outperforms the specialized Informer model on time-series forecasting problems,
+and matches a 2-D ResNet on sequential CIFAR with over accuracy.

@@ -1,0 +1,17 @@
+Besta et al. [2023a]
+
+Besta, M.; Fischer, M.; Kalavri, V.; Kapralov, M.; and Hoefler, T. 2023a. Practice of Streaming Processing of Dynamic Graphs: Concepts, Models,
+and Systems. IEEE Transactions on Parallel and Distributed Systems, 34(6):
+1860–1876. Besta et al. [2023b]
+
+Besta, M.; Gerstenberger, R.; Blach, N.; Fischer, M.; and Hoefler, T. 2023b. GDI: A Graph Database Interface Standard. https://github.com/spcl/GDI-RMA. Accessed: 2023-09-05. Besta et al. [2023c]
+
+Besta, M.; Gerstenberger, R.; Fischer, M.; Podstawski, M.; Blach, N.; Egeli,
+B.; Mitenkov, G.; Chlapek, W.; Michalewicz, M.; Niewiadomski, H.; Müller,
+J.; and Hoefler, T. 2023c. The Graph Database Interface: Scaling Online Transactional and
+Analytical Graph Workloads to Hundreds of Thousands of Cores. In Proceedings of the International Conference for High
+Performance Computing, Networking, Storage and Analysis, SC ’23. ACM. Besta et al. [2023d]
+
+Besta, M.; Gerstenberger, R.; Peter, E.; Fischer, M.; Podstawski, M.; Barthels,
+C.; Alonso, G.; and Hoefler, T. 2023d. Demystifying Graph Databases: Analysis and Taxonomy of Data
+Organization, System Designs, and Graph Queries. ACM Comput. Surv., 56(2). Besta et al.

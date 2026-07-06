@@ -1,0 +1,1 @@
+This is achieved by treating terminal states as absorbing states during training. In addition, MuZero is designed to operate in the general reinforcement learning setting: single-agent domains with discounted intermediate rewards of arbitrary magnitude. In contrast, AlphaGo Zero and AlphaZero were designed to operate in two-player games with undiscounted terminal rewards of .

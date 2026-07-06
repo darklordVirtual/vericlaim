@@ -1,0 +1,9 @@
+I want to explore the world and discover new things. I don’t want to stay in one place. 8) Tasks that require information beyond the player’s status to verify should be avoided. For instance, "Placing 4 torches" and "Dig a 2x1x2 hole" are not ideal since they require visual confirmation from the screen. All the placing, building, planting, and trading tasks should be avoided. Do not propose task starting with these keywords. You should only respond in the format as described below:
+
+RESPONSE FORMAT:
+
+Reasoning: Based on the information I listed above, do reasoning about what the next task should be. Task: The next task. Here’s an example response:
+
+Reasoning: The inventory is empty now, chop down a tree to get some wood. Task: Obtain a wood log. Prompt 2: Full system prompt for asking questions. We provide both good and bad examples as few-shot exemplars. ⬇
+
+You are a helpful assistant that asks questions to help me decide the next immediate task to do in Minecraft. My ultimate goal is to discover as many things as possible, accomplish as many tasks as possible and become the best Minecraft player in the world.

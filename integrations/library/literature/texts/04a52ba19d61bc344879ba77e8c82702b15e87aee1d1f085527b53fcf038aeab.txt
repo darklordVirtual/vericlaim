@@ -1,0 +1,175 @@
+(*2) There is no official information about the model size of Instruct GPT3. We infer from the API name that the order of model size of Instruct GPT3 matches that of Original GPT3. Language Model
+# of params
+Library / API Name
+Model Name in Library / API
+License
+
+PaLM
+
+540B
+
+-
+
+-
+
+unspecified
+
+PaLM
+
+62B
+
+-
+
+-
+
+unspecified
+
+PaLM
+
+8B
+
+-
+
+-
+
+unspecified
+
+Original GPT3
+
+175B (*1)
+
+OpenAI API
+
+davinci
+
+unspecified
+
+Original GPT3
+
+6.7B (*1)
+
+OpenAI API
+
+curie
+
+unspecified
+
+Original GPT3
+
+1.3B (*1)
+
+OpenAI API
+
+babbage
+
+unspecified
+
+Original GPT3
+
+0.3B (*1)
+
+OpenAI API
+
+ada
+
+unspecified
+
+Instruct GPT3
+
+- (*2)
+
+OpenAI API
+
+text-davinci-002
+
+unspecified
+
+Instruct GPT3
+
+- (*2)
+
+OpenAI API
+
+text-davinci-001
+
+unspecified
+
+Instruct GPT3
+
+- (*2)
+
+OpenAI API
+
+text-curie-001
+
+unspecified
+
+Instruct GPT3
+
+- (*2)
+
+OpenAI API
+
+text-babbage-001
+
+unspecified
+
+Instruct GPT3
+
+- (*2)
+
+OpenAI API
+
+text-ada-001
+
+unspecified
+
+OPT
+
+13B
+
+Hugging Face Library
+
+opt-13b
+
+Apache-2.0
+
+T0
+
+11B
+
+Hugging Face Library
+
+T0pp
+
+Apache-2.0
+
+GPT-J
+
+6B
+
+Hugging Face Library
+
+gptj
+
+Apache-2.0
+
+GPT-Neo
+
+2.7B
+
+Hugging Face Library
+
+gpt-neo
+
+Apache-2.0
+
+GPT-2
+
+1.5B
+
+Hugging Face Library
+
+gpt2-xl
+
+Apache-2.0

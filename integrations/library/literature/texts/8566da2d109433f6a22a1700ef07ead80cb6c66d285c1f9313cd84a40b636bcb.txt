@@ -1,0 +1,10 @@
+Answer Choices: (A) question authority (B) melt (C) read newspapers (D) act (E) dictionary
+
+A: Let’s think step by step. How do human beings learn? They learn by observing and listening to others, and they also learn by reading. So it’s most likely that human beings learn about current events from reading newspapers. Therefore, among A through E, the answer is C. Correct - CoT is correct
+
+Q: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him? Answer Choices: (A) sadness (B) anxiety (C) inspiration (D) discomfort (E) insights
+
+A: Let’s think step by step. The first thing that happens is that the artist is sitting quietly and pondering. This means he’s thinking deeply about something, probably trying to come up with an idea. Then, suddenly, he begins to paint. This means he was inspired by something he thought of. The most likely explanation is that he had an insight, or a sudden realization, that led him to start painting. Therefore, among A through E, the answer is most likely (C), inspiration. Correct - CoT is
+INCORRECT
+
+Q: What is likely to satisfy someone’s curiosity?

@@ -1,0 +1,2 @@
+We now describe several use cases of GoT. We detail one use case (sorting)
+and summarize the others.

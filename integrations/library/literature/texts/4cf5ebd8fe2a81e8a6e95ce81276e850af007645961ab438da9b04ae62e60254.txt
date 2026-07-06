@@ -1,0 +1,9 @@
+V. From Machine Learning to Robotics: Challenges and Opportunities for Embodied Intelligence. CoRR, abs/2110.15245, 2021. doi: 10.48550/arXiv.2110.15245. URL https://arxiv.org/abs/2110.15245. SAE International (2021)
+
+SAE International. Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles, April 2021. URL https://www.sae.org/standards/content/j3016_202104. Accessed October 12, 2023. Saharia et al. (2022)
+
+Saharia, C., Chan, W., Saxena, S., Li, L., Whang, J., Denton, E., Ghasemipour, S. K. S., Ayan, B. K., Mahdavi, S. S., Lopes, R. G., Salimans, T., Ho, J., Fleet, D. J., and Norouzi, M. Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding. CoRR, abs/2205.11487, 2022. doi: 10.48550/arXiv.2205.11487. URL https://arxiv.org/abs/2205.11487. Schoenegger & Park (2023)
+
+Schoenegger, P. and Park, P. S. Large language model prediction capabilities: Evidence from a real-world forecasting tournament, 2023. Searle (1980)
+
+Searle, J. R. Minds, Brains, and Programs. Behavioral and Brain Sciences, 3:417–424, 1980. doi: 10.1017/S0140525X00005756. Serapio-García et al.

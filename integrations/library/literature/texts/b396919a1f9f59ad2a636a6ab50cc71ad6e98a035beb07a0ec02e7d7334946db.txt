@@ -1,0 +1,19 @@
+Gandikota et al. (2023)
+
+Rohit Gandikota, Joanna Materzynska, Jaden Fiotto-Kaufman, and David Bau. Erasing concepts from diffusion models, 2023. Gao et al. (2021)
+
+Leo Gao, Jonathan Tow, Stella Biderman, Sid Black, Anthony DiPofi, Charles
+Foster, Laurence Golding, Jeffrey Hsu, Kyle McDonell, Niklas Muennighoff,
+Jason Phang, Laria Reynolds, Eric Tang, Anish Thite, Ben Wang, Kevin Wang,
+and Andy Zou. A framework for few-shot language model evaluation, September 2021. Gell-Mann (1995)
+
+Murray Gell-Mann. The Quark and the Jaguar: Adventures in the Simple and the
+Complex. St. Martin’s Publishing Group, 1995. ISBN 9780805072532. Gilbert et al. (2023)
+
+Stephen Gilbert, Hugh Harvey, Tom Melvin, Erik Vollebregt, and Paul Wicks. Large language model ai chatbots require approval as medical devices. Nature Medicine, pp. 1–3, 2023. Greff et al. (2016)
+
+Klaus Greff, Rupesh K Srivastava, and Jürgen Schmidhuber. Highway and residual networks learn unrolled iterative estimation. arXiv preprint arXiv:1612.07771, 2016. Guillaume Alain (2017)
+
+Yoshua Bengio Guillaume Alain. Understanding intermediate layers using linear classifier probes. ICLR 2017, 2017. Han et al. (2023)
+
+Tianyu Han, Lisa C.

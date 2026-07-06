@@ -1,0 +1,16 @@
+In Extended Abstracts of the 2021 CHI Conference on Human
+Factors in Computing Systems, pages 1–7, 2021. URL https://arxiv.org/pdf/2102.07350.pdf. Roy and Roth [2015]
+
+Subhro Roy and Dan Roth. Solving general arithmetic word problems. In Proceedings of EMNLP, pages 1743–1752, 2015. URL https://aclanthology.org/D15-1202. Sanh et al. [2022]
+
+Victor Sanh, Albert Webson, Colin Raffel, Stephen Bach, Lintang Sutawika, Zaid
+Alyafeai, Antoine Chaffin, Arnaud Stiegler, Arun Raja, Manan Dey, M Saiful
+Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla,
+Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang,
+Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong,
+Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen,
+Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan
+Teehan, Teven Le Scao, Stella Biderman, Leo Gao, Thomas Wolf, and Alexander M
+Rush. Multitask prompted training enables zero-shot task generalization. In ICLR, 2022. URL https://openreview.net/forum?id=9Vrb9D0WI4. Schick and Schütze [2021]
+
+Timo Schick and Hinrich Schütze.

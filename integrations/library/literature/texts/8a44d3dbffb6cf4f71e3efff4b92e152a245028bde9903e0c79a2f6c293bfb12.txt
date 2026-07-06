@@ -1,0 +1,16 @@
+In ICLR, 2020. Deng et al. (2009)
+
+J. Deng, W. Dong, R. Socher, L. Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical image database. In CVPR, 2009. Devlin et al. (2019)
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for language
+understanding. In NAACL, 2019. Djolonga et al. (2020)
+
+Josip Djolonga, Jessica Yung, Michael Tschannen, Rob Romijnders, Lucas Beyer,
+Alexander Kolesnikov, Joan Puigcerver, Matthias Minderer, Alexander D’Amour,
+Dan Moldovan, Sylvan Gelly, Neil Houlsby, Xiaohua Zhai, and Mario Lucic. On robustness and transferability of convolutional neural networks. arXiv, 2020. He et al. (2016)
+
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In CVPR, 2016. He et al. (2020)
+
+Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, and Ross Girshick. Momentum contrast for unsupervised visual representation learning. In CVPR, 2020. Ho et al. (2019)
+
+Jonathan Ho, Nal Kalchbrenner, Dirk Weissenborn, and Tim Salimans. Axial attention in multidimensional transformers. arXiv, 2019. Hu et al.

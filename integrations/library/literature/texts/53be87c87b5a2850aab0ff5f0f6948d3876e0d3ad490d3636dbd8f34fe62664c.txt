@@ -1,0 +1,17 @@
+9243–9252, 2020. Simonyan et al. (2013)
+
+Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman. Deep inside convolutional networks: Visualising image classification
+models and saliency maps. arXiv preprint arXiv:1312.6034, 2013. Skjuve et al. (2021)
+
+Marita Skjuve, Asbjørn Følstad, Knut Inge Fostervold, and Petter Bae
+Brandtzaeg. My chatbot companion-a study of human-chatbot relationships. International Journal of Human-Computer Studies, 149:102601, 2021. Smilkov et al. (2017)
+
+Daniel Smilkov, Nikhil Thorat, Been Kim, Fernanda Viégas, and Martin
+Wattenberg. Smoothgrad: removing noise by adding noise. arXiv preprint arXiv:1706.03825, 2017. Springenberg et al. (2014)
+
+Jost Tobias Springenberg, Alexey Dosovitskiy, Thomas Brox, and Martin
+Riedmiller. Striving for simplicity: The all convolutional net. arxiv 2014. arXiv preprint arXiv:1412.6806, 2014. Stanovsky et al. (2019)
+
+Gabriel Stanovsky, Noah A. Smith, and Luke Zettlemoyer. Evaluating gender bias in machine translation. CoRR, abs/1906.00591, 2019. Sundararajan et al. (2017)
+
+Mukund Sundararajan, Ankur Taly, and Qiqi Yan. Axiomatic attribution for deep networks. In International conference on machine learning, pp. 3319–3328.

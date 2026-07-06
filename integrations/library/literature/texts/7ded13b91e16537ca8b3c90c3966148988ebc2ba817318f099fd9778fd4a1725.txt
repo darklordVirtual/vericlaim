@@ -1,0 +1,19 @@
+[15]
+
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Identity mappings in deep residual networks. In 14th European Conference on Computer Vision, pages 630–645,
+2016. [16]
+
+Nicolas Heess, Greg Wayne, David Silver, Timothy Lillicrap, Yuval Tassa, and
+Tom Erez. Learning continuous control policies by stochastic value gradients. In Proceedings of the 28th International Conference on Neural
+Information Processing Systems - Volume 2, NIPS’15, pages 2944–2952,
+Cambridge, MA, USA, 2015. MIT Press. [17]
+
+Matteo Hessel, Joseph Modayil, Hado Van Hasselt, Tom Schaul, Georg Ostrovski,
+Will Dabney, Dan Horgan, Bilal Piot, Mohammad Azar, and David Silver. Rainbow: Combining improvements in deep reinforcement learning. In Thirty-Second AAAI Conference on Artificial Intelligence,
+2018. [18]
+
+Dan Horgan, John Quan, David Budden, Gabriel Barth-Maron, Matteo Hessel, Hado
+van Hasselt, and David Silver. Distributed prioritized experience replay. In International Conference on Learning Representations, 2018. [19]
+
+Max Jaderberg, Volodymyr Mnih, Wojciech Marian Czarnecki, Tom Schaul, Joel Z
+Leibo, David Silver, and Koray Kavukcuoglu. Reinforcement learning with unsupervised auxiliary tasks.

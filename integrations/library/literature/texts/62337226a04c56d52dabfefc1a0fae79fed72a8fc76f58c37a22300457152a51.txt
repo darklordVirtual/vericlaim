@@ -1,0 +1,167 @@
+One consideration in the choice of autonomy level are resulting risks. This table’s examples illustrate the importance of carefully considering human-AI interaction design decisions. Autonomy Level
+
+Example Systems
+
+Unlocking
+
+AGI Level(s)
+
+Example Risks
+
+Introduced
+
+Autonomy Level 0:
+
+No AI
+
+human does everything
+
+Analogue approaches (e.g., sketching with pencil on paper)
+
+Non-AI digital workflows (e.g., typing in a text editor; drawing in a paint program)
+
+No AI
+
+n/a (status quo risks)
+
+Autonomy Level 1:
+
+AI as a Tool
+
+human fully controls task and uses AI to automate mundane sub-tasks
+
+Information-seeking with the aid of a search engine
+
+Revising writing with the aid of a grammar-checking program
+
+Reading a sign with a
+
+machine translation app
+
+Possible:
+
+Emerging Narrow AI
+
+Likely:
+
+Competent Narrow AI
+
+de-skilling
+
+(e.g., over-reliance)
+
+disruption of
+
+established
+
+industries
+
+Autonomy Level 2:
+
+AI as a Consultant
+
+AI takes on a
+
+substantive role, but only when invoked by a human
+
+Relying on a language model to summarize a set of documents
+
+Accelerating computer programming with a code-generating model
+
+Consuming most entertainment via a sophisticated recommender system
+
+Possible:
+
+Competent Narrow AI
+
+Likely:
+
+Expert Narrow AI;
+
+Emerging AGI
+
+over-trust
+
+radicalization
+
+targeted
+
+manipulation
+
+Autonomy Level 3:
+
+AI as a
+
+Collaborator
+
+co-equal human-AI collaboration; interactive coordination of goals & tasks
+
+Training as a chess player through interactions with and analysis of a chess-playing AI
+
+Entertainment via social interactions with AI-generated personalities
+
+Possible:
+
+Emerging AGI
+
+Likely:
+
+Expert Narrow AI;
+
+Competent AGI
+
+anthropomorphization (e.g., parasocial
+
+relationships)
+
+rapid societal change
+
+Autonomy Level 4:
+
+AI as an Expert
+
+AI drives interaction; human provides guidance & feedback or performs subtasks
+
+Using an AI system to advance scientific discovery (e.g., protein-folding)
+
+Possible:
+
+Exceptional Narrow AI
+
+Likely:
+
+Expert AGI
+
+societal-scale ennui
+
+mass labor
+
+displacement
+
+decline of human exceptionalism
+
+Autonomy Level 5:
+
+AI as an Agent
+
+fully autonomous AI
+
+Autonomous AI-powered
+
+personal assistants
+
+(not yet unlocked)
+
+Likely:
+
+Exceptional AGI;
+
+ASI
+
+misalignment
+
+concentration
+
+of power
+
+While capabilities provide prerequisites for AI risks, AI systems (including AGI systems) do not and will not operate in a vacuum.

@@ -1,0 +1,9 @@
+So in total she had 11 + 5 = 16 pieces of candy. If she ate 8 pieces a day, it would last her 16 / 8 = 2 days. The answer is 2. Table 20: Example outputs by Zero-shot and Zero-shot-CoT on GSM8K with PaLM (540B) model, comparing different outcome combinations. Outcome
+Question
+Answer
+
+Zero-shot-CoT , Zero-shot (7.7% of dataset)
+
+Q: Tracy used a piece of wire 4 feet long to support tomato plants in the garden. The wire was cut into pieces 6 inches long. How many pieces did she obtain? A: Let’s think step by step. First, we need to know how many inches are in 4 feet. There are 12 inches in 1 foot, so there are 48 inches in 4 feet. Now, we need to know how many 6-inch pieces can be cut from 48 inches. We can divide 48 by 6. 48 divided by 6 is 8. Tracy obtained 8 pieces of wire. Therefore, the answer (arabic numerals) is 8. A: The answer (arabic numerals) is 8. Zero-shot-CoT , Zero-shot ✗ (35.3% of dataset)
+
+Q: Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost? A: Let’s think step by step.

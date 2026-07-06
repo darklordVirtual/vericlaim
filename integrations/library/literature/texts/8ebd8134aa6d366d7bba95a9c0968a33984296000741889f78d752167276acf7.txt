@@ -1,0 +1,1 @@
+In this work, we mainly focus on utilizing frozen LLMs, whose abilities might be bounded by the pre-training. In the future, it is worth exploring how to fine-tune LLMs to better reason and serve as a world model Xiang et al. (2023), as well as how to combine external tools Hao et al. (2023a); Schick et al. (2023) with RAP to solve more complex real-world problems.

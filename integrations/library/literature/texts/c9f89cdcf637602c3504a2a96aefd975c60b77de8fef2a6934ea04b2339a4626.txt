@@ -1,0 +1,18 @@
+Evaluating large language models trained on code. arXiv preprint arXiv: Arxiv-2107.03374, 2021. (42)
+
+Rui Wang, Joel Lehman, Jeff Clune, and Kenneth O. Stanley. Paired open-ended trailblazer (poet): Endlessly generating
+increasingly complex and diverse learning environments and their solutions. arXiv preprint arXiv: Arxiv-1901.01753, 2019. (43)
+
+Rémy Portelas, Cédric Colas, Lilian Weng, Katja Hofmann, and
+Pierre-Yves Oudeyer. Automatic curriculum learning for deep RL: A short survey. In Christian Bessiere, editor, Proceedings of the Twenty-Ninth
+International Joint Conference on Artificial Intelligence, IJCAI 2020,
+pages 4819–4825. ijcai.org, 2020. (44)
+
+Sébastien Forestier, Rémy Portelas, Yoan Mollard, and Pierre-Yves
+Oudeyer. Intrinsically motivated goal exploration processes with automatic
+curriculum learning. The Journal of Machine Learning Research, 23(1):6818–6858,
+2022. (45)
+
+Kevin Ellis, Catherine Wong, Maxwell Nye, Mathias Sable-Meyer, Luc Cary, Lucas
+Morales, Luke Hewitt, Armando Solar-Lezama, and Joshua B. Tenenbaum. Dreamcoder: Growing generalizable, interpretable knowledge with
+wake-sleep bayesian program learning. arXiv preprint arXiv: Arxiv-2006.08381, 2020.

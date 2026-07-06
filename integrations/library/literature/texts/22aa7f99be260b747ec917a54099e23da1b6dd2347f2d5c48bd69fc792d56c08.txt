@@ -1,0 +1,7 @@
+We also investigate interleaving the Mamba block with other blocks such as MLP (a traditional architecture) MHA (a hybrid attention architecture)
+in LABEL:sec:exp-details:lm:scaling-ablations. 4.6.2 Selective SSM
+
+Figure˜14 ablates the selective SSM layer by considering different combinations of selective , , and parameters (Algorithm˜2),
+showing that is the most important parameter due to its connection to RNN gating (Theorem˜1). Figure˜14 considers different initializations of the SSM, which have been shown to make a large difference in some data modalities and settings [gu2022efficiently, gu2022parameterization]. On language modeling, we find that simpler real-valued diagonal initializations (S4D-Real, row 3) instead of more standard complex-valued parameterizations (S4D-Lin, row 1)
+perform better. Random initializations also work well, consistent with findings from prior work [mehta2023long]. Figure˜16 and Figure˜16 consider varying the dimension of the and projections respectively. Changing them from static to selective provides the most benefit,
+while increasing the dimensions further generally improves performance modestly with a small increase in parameter count.

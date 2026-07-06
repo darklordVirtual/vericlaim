@@ -1,0 +1,16 @@
+(2022)
+
+Thomas McGrath, Andrei Kapishnikov, Nenad Tomašev, Adam Pearce, Martin
+Wattenberg, Demis Hassabis, Been Kim, Ulrich Paquet, and Vladimir Kramnik. Acquisition of chess knowledge in alphazero. Proceedings of the National Academy of Sciences, 119(47):e2206625119, 2022. McGrath et al. (2023)
+
+Thomas McGrath, Matthew Rahtz, Janos Kramar, Vladimir Mikulik, and Shane Legg. The hydra effect: Emergent self-repair in language model
+computations. arXiv preprint arXiv:2307.15771, 2023. Meng et al. (2023a)
+
+Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov. Locating and editing factual associations in gpt, 2023a. Meng et al. (2023b)
+
+Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, and David Bau. Mass-editing memory in a transformer, 2023b. Mihaylov et al. (2018)
+
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? A new dataset for open
+book question answering. CoRR, abs/1809.02789, 2018. Mikolov et al. (2013)
+
+Tomas Mikolov, Wen-tau Yih, and Geoffrey Zweig. Linguistic regularities in continuous space word representations.

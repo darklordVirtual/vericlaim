@@ -1,0 +1,57 @@
+The warm-up setting that we use across all the experiments is shown in Table. A.1. Table A.1: Warm-up schedule for automatic curriculum. Information in the prompt
+
+After how many tasks are completed
+
+core inventory (only including log, planks, stick, crafting table, furnace, dirt, coal, pickaxe, sword, and axe)
+
+0
+
+equipment
+
+0
+
+nearby blocks
+
+0
+
+position
+
+0
+
+nearby entities
+
+5
+
+full inventory
+
+7
+
+other blocks that are recently seen
+
+10
+
+biome
+
+10
+
+health bar
+
+15
+
+hunger bar
+
+15
+
+time
+
+15
+
+additional context
+
+15
+
+A.3.4 Full Prompt
+
+Prompt 1: Full system prompt for automatic curriculum. The list of question-answer pairs represents the additional context. ⬇
+
+You are a helpful assistant that tells me the next immediate task to do in Minecraft. My ultimate goal is to discover as many diverse things as possible, accomplish as many diverse tasks as possible and become the best Minecraft player in the world.

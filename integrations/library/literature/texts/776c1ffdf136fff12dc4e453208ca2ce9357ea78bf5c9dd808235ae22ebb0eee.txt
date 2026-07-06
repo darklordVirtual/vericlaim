@@ -1,0 +1,16 @@
+2022. Bloom: A 176b-parameter open-access multilingual language model. arXiv preprint arXiv:2211.05100. Siddiqui (2019)
+
+Ramsha Siddiqui. 2019. SARCASMANIA: Sarcasm Exposed! http://www.kaggle.com/rmsharks4/sarcasmania-dataset. [Online; accessed 02-February-2023]. So et al. (2021)
+
+David R. So, Wojciech Manke, Hanxiao Liu, Zihang Dai, Noam Shazeer, and Quoc V. Le. 2021. Primer: Searching for
+efficient transformers for language modeling. CoRR, abs/2109.08668. Taori et al. (2023)
+
+Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos
+Guestrin, Percy Liang, and Tatsunori B. Hashimoto. 2023. Stanford alpaca: An instruction-following llama model. https://github.com/tatsu-lab/stanford_alpaca. Tay et al. (2020)
+
+Yi Tay, Dara Bahri, Donald Metzler, Da-Cheng Juan, Zhe Zhao, and Che Zheng. 2020. Synthesizer: Rethinking
+self-attention in transformer models. Tay et al. (2021)
+
+Yi Tay, Mostafa Dehghani, Samira Abnar, Yikang Shen, Dara Bahri, Philip Pham,
+Jinfeng Rao, Liu Yang, Sebastian Ruder, and Donald Metzler. 2021. Long range arena
+: A benchmark for efficient transformers. In International Conference on Learning Representations. Tay et al.

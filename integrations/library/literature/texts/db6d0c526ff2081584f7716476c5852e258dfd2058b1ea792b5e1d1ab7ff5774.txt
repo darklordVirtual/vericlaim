@@ -1,0 +1,111 @@
+Specifically, it reanalyzes old trajectories by re-running the MCTS using the latest network parameters to provide fresh targets (see Appendix H). When applied to 57 Atari games, using 200 million frames of experience per game, MuZero Reanalyze achieved 731% median normalized score, compared to 192%, 231% and 431% for previous state-of-the-art model-free approaches IMPALA [9], Rainbow [17] and LASER [36] respectively. Agent
+
+Median
+
+Mean
+
+Env. Frames
+
+Training Time
+
+Training Steps
+
+Ape-X [18]
+
+434.1%
+
+1695.6%
+
+22.8B
+
+5 days
+
+8.64M
+
+R2D2 [21]
+
+1920.6%
+
+4024.9%
+
+37.5B
+
+5 days
+
+2.16M
+
+MuZero
+
+2041.1%
+
+4999.2%
+
+20.0B
+
+12 hours
+
+1M
+
+IMPALA [9]
+
+191.8%
+
+957.6%
+
+200M
+
+–
+
+–
+
+Rainbow [17]
+
+231.1%
+
+–
+
+200M
+
+10 days
+
+–
+
+UNREALa [19]
+
+250%a
+
+880%a
+
+250M
+
+–
+
+–
+
+LASER [36]
+
+431%
+
+–
+
+200M
+
+–
+
+–
+
+MuZero Reanalyze
+
+731.1%
+
+2168.9%
+
+200M
+
+12 hours
+
+1M
+
+Table 1:
+
+Comparison of MuZero against previous agents in Atari. We compare separately against agents trained in large (top) and small (bottom) data settings; all agents other than MuZero used model-free RL techniques. Mean and median scores are given, compared to human testers. The best results are highlighted in bold.

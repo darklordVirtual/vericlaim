@@ -1,0 +1,13 @@
+In this section, we include example outputs from the following applications and systems:
+
+•
+
+Application A1: autonomous solving process of one problem with: ChatGPT + Plugin (Table 8), AutoGen (Table 9),
+LangChain ReAct (Table 10),
+AutoGPT (Table 11),
+Multi-Agent Debate (Table 12), and
+ChatGPT + Code Interpreter (Table 14). •
+
+Application A4: an OptiGuide problem with AutoGen (Table 15) and ChatGPT + Code Interpreter (Table 13). •
+
+Application A1: preliminary evaluation on several alternative multi-agent systems: BabyAGI (Table 16), CAMEL (Table LABEL:tab:camel_ex), and MetaGPT (Table LABEL:tab:metagpt_ex). Table 8: Application A1, Scenario 1: Autonomous math problem-solving. ChatGPT+ Plugin (Wolfram Alpha) on the first qualitative example. The response from Wolfram contains the correct answer, but ChatGPT selected the wrong one.

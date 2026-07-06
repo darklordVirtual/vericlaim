@@ -1,0 +1,8 @@
+utilized to solve math problems using AutoGen:
+(Gray) Enables a workflow where a student collaborates with an assistant agent to solve problems, either autonomously or in a human-in-the-loop mode. (Gray + Orange) Facilitates a more sophisticated workflow wherein the assistant, on the fly, can engage another user termed “expert”, who is in the loop with their own assistant agent, to aid in problem-solving if its own solutions are not satisfactory. Scenario 2: Human-in-the-loop Problem Solving. For challenging problems that these LLM systems cannot solve autonomously, human feedback during the problem-solving process can be helpful. To incorporate human feedback with AutoGen, one can set human_input_mode=‘ALWAYS’ in the user proxy agent. We select one challenging problem that none of these systems can solve autonomously across three trials. We adhere to the process outlined below to provide human inputs for all the compared methods:
+
+1. Input the problem: Find the equation of the plane which bisects the angle between the planes and and which contains the point Enter your answer in the form
+
+where are integers such that and
+
+2.

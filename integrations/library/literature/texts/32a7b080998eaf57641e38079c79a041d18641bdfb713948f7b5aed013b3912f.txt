@@ -1,0 +1,31 @@
+the red block
+
+pick up the orange block
+
+stack the orange block on top of the blue block
+
+[PLAN END]
+
+[STATEMENT]
+
+As initial conditions I have that, <initial_state>
+
+My goal is to have that <goals>. My plan is as follows:
+
+[PLAN]
+
+For the next state prediction with the world model, we apply the prompts conditioned on the last action. Here we show the prompt to update the state after a “pick up” action as an example. Again, <state> and <action> would be instantiated with the current state and action. ⬇
+
+I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do
+
+Pick up a block
+
+Unstack a block from on top of another block
+
+Put down a block
+
+Stack a block on top of another block
+
+I have the following restrictions on my actions:
+
+I can only pick up or unstack one block at a time. I can only pick up or unstack a block if my hand is empty. I can only pick up a block if the block is on the table and the block is clear. A block is clear if the block has no other blocks on top of it and if the block is not picked up.

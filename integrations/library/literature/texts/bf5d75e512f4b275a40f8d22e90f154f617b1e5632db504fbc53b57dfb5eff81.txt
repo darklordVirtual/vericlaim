@@ -1,0 +1,15 @@
+Stochastic optimization of plain convolutional neural networks with
+simple methods. arXiv preprint arXiv:2001.08856, 2020. Bachman et al. (2019)
+
+Bachman, P., Hjelm, R. D., and Buchwalter, W. Learning representations by maximizing mutual information across
+views. In Advances in Neural Information Processing Systems, pp. 15535–15545, 2019. Barbu et al. (2019)
+
+Barbu, A., Mayo, D., Alverio, J., Luo, W., Wang, C., Gutfreund, D., Tenenbaum,
+J., and Katz, B. Objectnet: A large-scale bias-controlled dataset for pushing the
+limits of object recognition models. In Advances in Neural Information Processing Systems, pp. 9453–9463, 2019. Barnard et al. (2003)
+
+Barnard, K., Duygulu, P., Forsyth, D., Freitas, N. d., Blei, D. M., and Jordan,
+M. I. Matching words and pictures. Journal of machine learning research, 3(Feb):1107–1135, 2003. Bechmann & Bowker (2019)
+
+Bechmann, A. and Bowker, G. C. Unsupervised by any other name: Hidden layers of knowledge production
+in artificial intelligence on social media. Big Data & Society, 6(1):205395171881956, January 2019. doi: 10.1177/2053951718819569. URL https://doi.org/10.1177/2053951718819569. Bengio et al.

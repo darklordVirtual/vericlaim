@@ -1,0 +1,7 @@
+The most popular form of structure is diagonal [gupta2022diagonal, gu2022parameterization, smith2023s5], which we also use. In this case, the matrices can all be represented by numbers. To operate over an input sequence of batch size and length with channels,
+the SSM is applied independently to each channel. Note that in this case, the total hidden state has dimension per input, and computing it over the sequence length requires time and memory; this is the root of the fundamental efficiency bottleneck addressed in Section˜3.3. General State Space Models. We note that the term state space model has a very broad meaning which simply represents the notion of any recurrent process with a latent state. It has been used to refer to many disparate concepts in different disciplines,
+including Markov decision processes (MDP) (reinforcement learning [hafner2020dream]),
+dynamic causal modeling (DCM) (computational neuroscience [friston2003dynamic]),
+Kalman filters (controls [kalman1960new]),
+hidden Markov models (HMM) and linear dynamical systems (LDS) (machine learning),
+and recurrent (and sometimes convolutional) models at large (deep learning).

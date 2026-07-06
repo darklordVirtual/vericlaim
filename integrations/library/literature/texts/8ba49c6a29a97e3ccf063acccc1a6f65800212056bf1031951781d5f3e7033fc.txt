@@ -1,0 +1,5 @@
+The rise and potential of large language model based agents: A
+survey. arXiv preprint arXiv:2309.07864, 2023. Yao et al. (2022)
+
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
+and Yuan Cao. React: Synergizing reasoning and acting in language models. arXiv preprint arXiv:2210.03629, 2022.

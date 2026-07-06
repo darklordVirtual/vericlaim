@@ -1,0 +1,17 @@
+John Wiley & Sons. Creswell, Shanahan, and Higgins [2022]
+
+Creswell, A.; Shanahan, M.; and Higgins, I. 2022. Selection-Inference: Exploiting Large Language Models for
+Interpretable Logical Reasoning. arXiv:2205.09712. Dhulipala, Blelloch, and Shun [2019]
+
+Dhulipala, L.; Blelloch, G. E.; and Shun, J. 2019. Low-Latency Graph Streaming Using Compressed Purely-Functional Trees. In Proceedings of the 40th ACM SIGPLAN Conference on
+Programming Language Design and Implementation, PLDI ’19, 918–934. Dohan et al. [2022]
+
+Dohan, D.; Xu, W.; Lewkowycz, A.; Austin, J.; Bieber, D.; Lopes, R. G.; Wu, Y.;
+Michalewski, H.; Saurous, R. A.; Sohl-Dickstein, J.; Murphy, K.; and Sutton,
+C. 2022. Language Model Cascades. In Beyond Bayes: Paths Towards Universal Reasoning Systems,
+Workshop at ICML ’22. Drori et al. [2022]
+
+Drori, I.; Zhang, S.; Shuttleworth, R.; Tang, L.; Lu, A.; Ke, E.; Liu, K.;
+Chen, L.; Tran, S.; Cheng, N.; Wang, R.; Singh, N.; Patti, T. L.; Lynch, J.;
+Shporer, A.; Verma, N.; Wu, E.; and Strang, G. 2022. A neural network solves, explains, and generates university math
+problems by program synthesis and few-shot learning at human level.

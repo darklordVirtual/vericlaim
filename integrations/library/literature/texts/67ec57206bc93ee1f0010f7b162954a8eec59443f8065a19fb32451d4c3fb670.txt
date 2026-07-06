@@ -1,0 +1,3 @@
+Mamba: Linear-Time Sequence Modeling with Selective State Spaces
+
+${}^{1}$${}^{1}$affiliationtext: Machine Learning Department, Carnegie Mellon University${}^{2}$${}^{2}$affiliationtext: Department of Computer Science, Princeton University††affiliationtext: agu@cs.cmu.edu, tri@tridao.me

@@ -1,0 +1,2 @@
+Consequently, the original GPT-4 model is unable to generate the correct code, due to its lack of knowledge regarding Spark-related APIs. Instead, it erroneously creates a non-existent parameter, , and sets it to True’. Nevertheless, with Retrieval-Augmented Chat, we provide the latest reference documents as context. Then, GPT-4 generates the correct code blocks by setting and to True’. Figure 8:
+Retrieval-augmented Chat without (W/O) and with (W/) interactive retrieval.

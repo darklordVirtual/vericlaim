@@ -1,0 +1,15 @@
+[2020]
+
+Aviral Kumar, Aurick Zhou, George Tucker, and Sergey Levine. Conservative q-learning for offline reinforcement learning. In Advances in Neural Information Processing Systems, 2020. Ba et al. [2016]
+
+Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016. Sutton [1990]
+
+Richard S. Sutton. Integrated architectures for learning, planning, and reacting based
+on approximating dynamic programming. In ICML, 1990. Janner et al. [2019]
+
+Michael Janner, Justin Fu, Marvin Zhang, and Sergey Levine. When to trust your model: Model-based policy optimization. In Advances in Neural Information Processing Systems, pages
+12498–12509, 2019. Kumar et al. [2019a]
+
+Aviral Kumar, Justin Fu, George Tucker, and Sergey Levine. Stabilizing off-policy q-learning via bootstrapping error reduction. arXiv preprint arXiv:1906.00949, 2019a. Wu et al. [2019]
+
+Yifan Wu, George Tucker, and Ofir Nachum. Behavior regularized offline reinforcement learning. arXiv preprint arXiv:1911.11361, 2019. Mnih et al.

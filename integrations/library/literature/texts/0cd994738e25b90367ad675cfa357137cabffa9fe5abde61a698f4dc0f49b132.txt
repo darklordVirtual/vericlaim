@@ -1,0 +1,6 @@
+on chat models for functional analyses.) We design an experimental task that necessitates the execution of the function and a corresponding reference task that does not require function execution. An example task template might resemble the following:
+
+USER: <instruction> <experimental/reference prompt>
+ASSISTANT: <output>
+
+We shall designate this template for a function as when using the experimental prompt and when using the reference prompt. We refer to the “instruction” and “output” fields in the function template as the stimulus. By default, we use generic instruction-tuning datasets (Taori et al., 2023) as the stimulus for function templates unless explicitly specified otherwise. Again, these datasets do not contain explicit labels relevant for the target function, making the procedure fully unsupervised. Step 2: Collecting Neural Activity. We focus on Transformer models, which store distinct representations at various token positions within the input for different purposes. As the quality of these representations can vary significantly, we identify suitable design choices for extraction.

@@ -1,0 +1,5 @@
+•
+
+Pseudocode description of the MuZero algorithm. •
+
+Data for Figures 2, 3, S2, S3, S4 and Tables 1, S1, S2 in JSON format. Supplementary materials can be accessed from the ancillary file section of the arXiv submission.

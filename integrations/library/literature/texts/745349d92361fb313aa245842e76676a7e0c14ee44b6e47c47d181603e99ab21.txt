@@ -1,0 +1,20 @@
+Adlakha et al. (2023)
+
+Vaibhav Adlakha, Parishad BehnamGhader, Xing Han Lu, Nicholas Meade, and Siva
+Reddy. Evaluating correctness and faithfulness of instruction-following
+models for question answering. arXiv preprint arXiv:2307.16877, 2023. Amershi et al. (2019)
+
+Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi,
+Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N Bennett, Kori Inkpen, et al. Guidelines for human-ai interaction. In Proceedings of the 2019 chi conference on human factors in
+computing systems, 2019. Amodei et al. (2016)
+
+Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and
+Dan Mané. Concrete problems in ai safety, 2016. AutoGPT (2023)
+
+AutoGPT. Documentation — auto-gpt. https://docs.agpt.co/, 2023. BabyAGI (2023)
+
+BabyAGI. Github — babyagi. https://github.com/yoheinakajima/babyagi, 2023. Cai et al. (2019)
+
+Carrie J. Cai, Samantha Winter, David F. Steiner, Lauren Wilcox, and Michael
+Terry. ”hello ai”: Uncovering the onboarding needs of medical practitioners
+for human-ai collaborative decision-making. Proceedings of the ACM on Human-Computer Interaction, 2019. Cai et al.

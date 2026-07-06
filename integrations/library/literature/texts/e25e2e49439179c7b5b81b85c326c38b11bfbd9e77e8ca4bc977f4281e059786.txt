@@ -1,0 +1,12 @@
+For two models with representations , the mutual -nearest neighbor metric measures the average overlap of their respective nearest neighbor sets. In this section, we refer to this metric as , which we will formally define below. For cross-modal domains, define as a sample from the data distribution (e.g. image-caption dataset). For the single domain alignment measurements, the samples are equivalent (e.g., images for vision, and text for language). Let be the corresponding mini-batch sampled from this data distribution. Then given two model representations and the corresponding features are:
+and , where the collection of these features are denoted as and . Then for each feature pair , we compute the respective nearest neighbor sets and . (9)
+
+(10)
+
+where returns the set of indices of its -nearest neighbors. Then we measure its average intersection via
+
+(11)
+
+where is the size of the intersection. The choice to use mutual nearest-neighbors
+
+Our initial efforts to measure alignment with CKA revealed a very weak trend of alignment between models, even when comparing models within their own modality.

@@ -1,0 +1,49 @@
+Table 16: Application A1. Scenario 1: autonomous math solving. Preliminary test with BabyAGI. Action
+
+BabyAGI
+
+\faUser
+
+Set .env
+
+OBJECTIVE=Solve math problems
+INITIAL_TASK=Completely simplify and rationalize the denominator:
+160252×245108
+
+\faAndroid
+
+Solve math problems
+
+Initial task: Completely simplify and rationalize the denominator:
+
+*****TASK LIST*****
+
+• Completely simplify and rationalize the denominator:
+
+*****NEXT TASK*****
+
+Completely simplify and rationalize the denominator:
+
+*****TASK RESULT*****
+
+First, let’s simplify each square root separately:
+
+- 160 = 16*10 = 16*10 = 4*10
+- 252 = 4*63= 4×63= 263
+- 245= 49*5= 49×5= 75
+- 108= 36*3= 36×3= 63
+
+Now, substitute these values into the original expression which gives:
+
+4*10263×7563 = 2*1063 ×7523
+
+We get rid of the square root in the denominator by multiplying the fractions which gives:
+
+= 2*710*52*63*3 = 1450189
+= 14*52727 = 22*1027 = 20227. To simplify further and rationalize the denominator, we multiply by which gives:
+
+Simplifying further gives:
+
+*****TASK CREATION AGENT PROMPT****
+
+You are to use the result from an execution agent to create new tasks with the following objective: Solve math problems.

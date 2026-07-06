@@ -1,0 +1,21 @@
+(2022). Models such as GPT-3 Brown et al. (2020), ChatGPT OpenAI (2022); Kocoń et al. (2023), LLaMA Touvron et al. (2023), and Chinchilla Hoffmann et al. (2022) showcase the potential of Transformers in NLP. However, the self-attention mechanism’s quadratic complexity makes it computationally and memory intensive for tasks involving long sequences and constrained resources. This has stimulated research to enhance Transformers’ scalability, sometimes sacrificing some of their effectiveness Wang et al. (2020); Zaheer et al. (2020); Dao et al. (2022a). Model
+Time
+Space
+
+Transformer
+
+Reformer
+
+Performer
+
+Linear Transformers
+
+AFT-full
+
+AFT-local
+
+MEGA
+
+RWKV (ours)
+
+Table 1: Inference complexity comparison with different Transformers. Here denotes the sequence length, the feature dimension, is MEGA’s chunk size of quadratic attention, and is the size of a local window for AFT. To tackle these challenges, we introduce the Receptance Weighted Key Value (RWKV) model, combining the strengths of RNNs and Transformers while circumventing key drawbacks. RWKV alleviates memory bottleneck and quadratic scaling associated with Transformers Katharopoulos et al.

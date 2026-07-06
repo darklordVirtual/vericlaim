@@ -1,0 +1,21 @@
+In each layer, the internal state consists five parts, each of which is a vector with numbers, where is the model dimension. The five parts are:
+
+•
+
+The current input of the Time-mix block ;
+
+•
+
+The current input of the Channel-mix block ;
+
+•
+
+The numerator of the value , as defined in equation (26);
+
+•
+
+The denominator of the value , as defined in equation (27);
+
+•
+
+An auxiliary state in (28), which is used for computation to maintain numerical precision. Which yields a total size of parameters. It is worth noting that in an algebraic context with infinite precision, the helper state can be ignored, and the numerator and denominator can be computed directly using equations (21) and (22), reducing the size of the internal state to .

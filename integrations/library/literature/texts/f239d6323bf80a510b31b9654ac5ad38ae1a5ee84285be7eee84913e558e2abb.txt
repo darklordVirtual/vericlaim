@@ -1,0 +1,8 @@
+the setup of HyenaDNA [nguyen2023hyenadna], which uses the HG38 dataset for pretraining consisting of a single human genome
+with about 4.5 billion tokens (DNA base pairs) in the training split. 4.3.1 Scaling: Model Size
+
+In this experiment, we investigate the scaling properties of genomics foundation models with various model backbones (Figure˜7 Left). Training. To advantage the baselines, we train on a short sequence length of ; as shown in Section˜4.3.2, we expect results to favor Mamba even more at longer sequence lengths. We fix a global batch size of , for a total of tokens per batch. Models were trained for gradient steps for a total of tokens. Results. Figure˜7 (Left) shows that Mamba’s pretraining perplexity improves smoothly with model size,
+and that Mamba scales better than both HyenaDNA and Transformer++. For example, at the largest model size of parameters,
+the curve shows that Mamba can match the Transformer++ and HyenaDNA models with roughly to fewer parameters. 4.3.2 Scaling: Context Length
+
+In the next DNA experiment, we investigate the scaling properties of models with respect to sequence length.

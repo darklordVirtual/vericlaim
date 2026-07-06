@@ -1,0 +1,1 @@
+Details of the fused kernel and recomputation are in LABEL:sec:hardware_aware_algo. The full Selective SSM layer and algorithm is illustrated in Figure˜1.

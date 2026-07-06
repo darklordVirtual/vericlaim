@@ -1,0 +1,10 @@
+This subsection corresponds to the experiments in Section 4.3. Because of the number of experiments in this section,
+we use subsubsection dividers for different tasks to make it easier to follow:
+CIFAR-10 density estimation (Section D.3.1),
+WikiText-103 language modeling (Section D.3.2),
+autoregressive generation (Section D.3.3),
+sequential image classification (Section D.3.4),
+and time-series forecasting (Section D.3.5). D.3.1 CIFAR Density Estimation
+
+This task used a different backbone than the rest of our experiments. We used blocks of alternating S4 layers and position-wise feed-forward layers (in the style of Transformer blocks). Each feed-forward intermediate dimension was set to the hidden size of the incoming S4 layer. Similar to Salimans et al. [39], we used a UNet-style backbone consisting of identical blocks followed by a downsampling layer. The downsampling rates were (the 3 chosen because the sequence consists of RGB pixels). The base model had with starting hidden dimension 128,
+while the large model had with starting hidden dimension 192. We experimented with both the mixture of logistics from [39] as well as a simpler 256-way categorical loss.

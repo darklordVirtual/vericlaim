@@ -1,0 +1,16 @@
+Proof of Lemma 3.2. The HiPPO matrix (2) is equal, up to sign and conjugation by a diagonal matrix, to
+
+Our goal is to show that this is diagonalized by the matrix
+
+or in other words that columns of this matrix are eigenvectors of . Concretely, we will show that the -th column of this matrix with elements
+
+is an eigenvector with eigenvalue . In other words we must show that for all indices ,
+
+(7)
+
+If , then for all inside the sum, either or . In the first case and in the second case ,
+so both sides of equation (7) are equal to . It remains to show the case , which proceeds by induction on . Expanding equation (7) using the formula for yields
+
+In the base case , the sum disappears and we are left with , as desired. Otherwise, the sum for is the same as the sum for but with sign reversed and a few edge terms. The result follows from applying the inductive hypothesis and algebraic simplification:
+
+∎

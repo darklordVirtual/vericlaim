@@ -1,0 +1,1 @@
+We visualize the convolutional filter learned by S4 for the Pathfinder and CIFAR-10 tasks in Fig. 12. Figure 12: (Convolutional filters on Pathfinder) A random selection of filters learned by S4 in the first layer (top 2 rows) and last layer (bottom 2 rows) of the best model.
