@@ -116,6 +116,11 @@ mindmap
 24. [What this does NOT prove](#24-what-this-does-not-prove)
 25. [Open problems and honest gaps](#25-open-problems-and-honest-gaps)
 
+**Part VII — Identity, policy and multi-cloud coupling**
+26. [Identity, authentication and workload federation](#26-identity-authentication-and-workload-federation)
+27. [Policy-as-code and the decision/enforcement split](#27-policy-as-code-and-the-decisionenforcement-split)
+28. [Cross-cloud coupling points — the vendor-neutral seams](#28-cross-cloud-coupling-points--the-vendor-neutral-seams)
+
 **Appendices**
 - [A — Collection index](#appendix-a--collection-index)
 - [B — Verified-theorem index](#appendix-b--verified-theorem-index)
@@ -1024,6 +1029,168 @@ is the one worth trusting inside it.
 ---
 ---
 
+# Part VII — Identity, policy and multi-cloud coupling
+
+> Governance is only real if it is *enforced* — and enforced the same way
+> wherever the system runs. This part connects the abstract control objectives
+> (§15) to the concrete seams that carry identity and policy across clouds. Its
+> numbers are verified by **CLAIM-COUPLE-001** (`governance/identity_coupling.py`
+> in the claims library) and its standards are preserved hash-locked as
+> literature under that claim.
+
+## 26. Identity, authentication and workload federation
+
+▶ **In plain terms:** before a system can enforce *what* is allowed, it must
+know *who* is asking — whether the "who" is a human logging in or one workload
+calling another. The trick that makes this portable is to never ship long-lived
+secrets: a workload proves who it is with a short-lived, signed token that every
+cloud already understands.
+
+▷ **In depth.** Identity splits into two problems with a shared solution.
+
+**Human authentication** rests on **OAuth 2.0** (RFC 6749 — delegated
+authorization) with **OpenID Connect** (OIDC Core 1.0) layered on top to answer
+*who authenticated*. An OIDC identity provider issues a signed **ID token** (a
+JWT, RFC 7519) whose issuer, audience and expiry a relying party verifies
+against a published key set. Lifecycle — joiner/mover/leaver — is carried by
+**SCIM 2.0** (RFC 7643/7644), so deactivation propagates as a control, not a
+manual chore. **SAML 2.0** remains the incumbent enterprise assertion format and
+every major IdP bridges the two.
+
+**Workload identity federation** removes the last static secret. A workload (a
+Kubernetes/OpenShift pod, a CI job) presents an OIDC token from a trusted
+issuer; the cloud exchanges it — via **OAuth 2.0 Token Exchange** (RFC 8693) —
+for a short-lived, narrowly-scoped cloud credential. This is exactly what GCP
+Workload Identity Federation, AWS `AssumeRoleWithWebIdentity`/IAM Roles Anywhere,
+and Azure federated credentials each implement. Where certificates are the
+identity, **mTLS with X.509** (RFC 8705, certificate-bound tokens) and
+**SPIFFE/SPIRE** (portable `spiffe://` SVIDs) give the same guarantee for
+service-to-service calls.
+
+```mermaid
+flowchart LR
+    subgraph Trust["One OIDC issuer (cluster / CI)"]
+        W[Workload] -->|"1 · OIDC ID token (JWT)"| ISS[(OIDC issuer<br/>+ JWKS)]
+    end
+    ISS -->|"2 · token exchange · RFC 8693"| STS{{Cloud STS<br/>AWS · Azure · GCP}}
+    STS -->|"3 · short-lived, scoped credential"| RES[Cloud resource]
+    style STS fill:#e8f0ff,stroke:#3366cc
+    style ISS fill:#eefaef,stroke:#33aa55
+```
+
+*One issuer, three clouds, the same standard — no distributed static keys. The
+security rests on audience restriction, claim conditions and short TTLs; a
+mis-scoped trust policy federates more than intended (see the caveat in
+CLAIM-COUPLE-001).*
+
+## 27. Policy-as-code and the decision/enforcement split
+
+▶ **In plain terms:** write the rule once, as code, and enforce it identically
+everywhere. Separate the part that *decides* ("is this allowed?") from the part
+that *enforces* it, so the rule can be tested, versioned and audited like any
+other code.
+
+▷ **In depth.** **NIST SP 800-207 (Zero Trust Architecture)** names the shape:
+a **Policy Decision Point (PDP)** decides each request from authenticated
+identity, context and policy; a **Policy Enforcement Point (PEP)** carries out
+the decision at the resource. No implicit trust from network location; every
+request is evaluated explicitly and least-privilege.
+
+Policy-as-code fills the PDP. **Open Policy Agent** with the **Rego** language is
+the portable substrate: the same Rego runs as a Kubernetes admission controller
+(Gatekeeper) on EKS, AKS, GKE and OpenShift, as a service sidecar, and in CI.
+**Cedar** (open-sourced, behind Amazon Verified Permissions) offers a
+formally-analyzable authorization language for application-level decisions.
+**CEL** (Common Expression Language) carries portable conditions (GCP IAM
+Conditions, Kubernetes admission). The control-register checks of §15 are
+naturally expressed here — a control objective becomes a policy a machine can
+evaluate.
+
+```mermaid
+flowchart LR
+    REQ[Request<br/>+ identity claims / SPIFFE ID] --> PEP{{PEP<br/>mesh · gateway · admission}}
+    PEP -->|"query"| PDP[PDP · policy-as-code<br/>OPA/Rego · Cedar · CEL]
+    PDP -->|"allow / deny + obligations"| PEP
+    PEP -->|"decision log"| AUD[(Audit · OpenTelemetry)]
+    style PDP fill:#eefaef,stroke:#33aa55
+    style PEP fill:#e8f0ff,stroke:#3366cc
+```
+
+*The PDP identifies nothing and the PEP decides nothing — that separation is
+what lets one Rego policy be the governance rule on every platform. A policy is
+only as good as its tests and its input; decision logging makes it auditable.*
+
+## 28. Cross-cloud coupling points — the vendor-neutral seams
+
+▶ **In plain terms:** an enterprise rarely lives on one cloud. If governance is
+wired with each cloud's proprietary buttons, it has to be rebuilt — and will
+drift — on the next cloud. The escape is to couple on the open standards every
+cloud already speaks, and treat each cloud's native service as an *adapter*.
+
+▷ **In depth.** CLAIM-COUPLE-001 encodes this as a fail-closed crosswalk: across
+**4** clouds (AWS, Azure, GCP, OpenShift) and **6** coupling dimensions, all
+**24** cells name a concrete native mechanism and couple on **13** open
+standards. The checker enforces the property that makes the seam trustworthy:
+**every dimension is anchored by at least one open standard shared across two or
+more clouds**, so portability is verified, not asserted.
+
+| Coupling dimension | AWS | Azure | GCP | OpenShift | Portable seam |
+|---|---|---|---|---|---|
+| Workload identity federation | STS AssumeRoleWithWebIdentity · IAM Roles Anywhere · IRSA | Entra Workload Identity Federation · Managed Identities | Workload Identity Federation | SA projected tokens (OIDC issuer) | OIDC · RFC 8693 · JWT |
+| Human authentication | IAM Identity Center · Cognito | Microsoft Entra ID | Cloud Identity | OpenShift OAuth server | OIDC · OAuth2 · SAML2 · SCIM2 |
+| Authorization policy | IAM/SCP · Verified Permissions (Cedar) · Gatekeeper | Azure Policy · Gatekeeper on AKS | IAM Conditions (CEL) · Org Policy · Gatekeeper | K8s RBAC · Gatekeeper · Kyverno | Rego/OPA · Cedar · CEL |
+| Secrets management | Secrets Manager · Parameter Store | Key Vault | Secret Manager | Secrets + CSI driver · cert-manager | OIDC · mTLS/X.509 |
+| Observability & audit | CloudTrail · ADOT | Azure Monitor · Activity Log | Cloud Audit Logs | K8s audit · OTel Operator | OpenTelemetry · CloudEvents |
+| Service-to-service mTLS | Private CA · App Mesh | Istio/OSM on AKS | CA Service · Anthos SM | Service Mesh (Istio) · cert-manager | mTLS/X.509 · SPIFFE |
+
+The thirteen open standards, each preserved hash-locked as literature under
+CLAIM-COUPLE-001:
+
+| # | Standard | Coupling role |
+|---|---|---|
+| 1 | OpenID Connect Core 1.0 | Federated identity via signed ID tokens |
+| 2 | OAuth 2.0 (RFC 6749) | Delegated authorization |
+| 3 | OAuth 2.0 Token Exchange (RFC 8693) | STS-style workload federation |
+| 4 | SAML 2.0 | Enterprise SSO assertions |
+| 5 | SCIM 2.0 (RFC 7643/7644) | Cross-domain provisioning |
+| 6 | JWT (RFC 7519) | Signed, verifiable claims token |
+| 7 | mTLS / X.509 (RFC 8705) | Mutual-TLS client identity, bound tokens |
+| 8 | SPIFFE/SPIRE | Portable workload identity (SVID) |
+| 9 | Open Policy Agent / Rego | Portable policy-as-code |
+| 10 | Cedar | Analyzable authorization language |
+| 11 | CEL | Portable condition expressions |
+| 12 | OpenTelemetry | Vendor-neutral telemetry & audit export |
+| 13 | CloudEvents | Portable event envelope |
+
+```mermaid
+flowchart TB
+    subgraph Standards["Open-standard coupling layer (portable)"]
+        S1[OIDC · OAuth2 · RFC 8693]
+        S2[Rego/OPA · Cedar · CEL]
+        S3[SPIFFE · mTLS/X.509]
+        S4[OpenTelemetry · CloudEvents]
+    end
+    AWS[AWS adapters] --> Standards
+    AZ[Azure adapters] --> Standards
+    GCP[GCP adapters] --> Standards
+    OCP[OpenShift adapters] --> Standards
+    Standards --> CP([One governed control plane<br/>write once · enforce everywhere])
+    style Standards fill:#eefaef,stroke:#33aa55
+    style CP fill:#e8f0ff,stroke:#3366cc
+```
+
+**What this is and is not.** It is an architecture-traceability aid over
+publicly documented mechanisms — not a security design review, not a
+certification, and not evidence that any deployment is correctly configured.
+Native service names are current at authoring time; clouds rename and add
+services. The checkable property is internal completeness and cross-cloud
+standard-sharing; the standards are the authority. Used honestly, it is the
+concrete answer to the vendor-independence requirement of §18–§19: the same
+governance, provably portable.
+
+---
+---
+
 # Appendices
 
 ## Appendix A — collection index
@@ -1117,6 +1284,7 @@ every objective covered by ≥2 frameworks, checked fail-closed [CLAIM-GOV-001].
 | CLAIM-LIB-RAG-002 | 9805 content-addressed chunks, all pushed live | measured |
 | CLAIM-LIB-RAG-003 | live research endpoints verified end-to-end | measured |
 | CLAIM-GOV-001 | 5 frameworks → 10 objectives, full coverage, fail-closed | measured |
+| CLAIM-COUPLE-001 | 4 clouds × 6 coupling dimensions → 13 open standards, every seam vendor-neutral, fail-closed | measured |
 | THM-SCORE-001 | Brier properness — honesty is optimal (1028 pairs) | machine_checked |
 | THM-ROUTE-001 | verifier-gated cascade dominance (87 380 tables) | machine_checked |
 | THM-VOTE-001/002 | best-of-n identity; amplification + honest degradation | machine_checked |

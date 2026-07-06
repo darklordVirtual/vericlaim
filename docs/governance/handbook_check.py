@@ -78,7 +78,53 @@ def check_edition(path: Path, metrics: dict[str, str]) -> list[str]:
     for target in re.findall(r"\]\(#([^)]+)\)", text):
         if target not in headings:
             problems.append(f"{name}: internal link #{target} has no heading")
+
+    # 4. cross-cloud coupling chapter (CLAIM-COUPLE-001) is internally
+    # consistent — the crosswalk has 6 dimension rows and 13 standard rows, and
+    # clouds*dimensions == cells, matching the headline numbers stated in prose.
+    # CLAIM-COUPLE-001 lives in the claims-library register (a separate repo),
+    # so we cannot bind it via the vericlaim register here; internal
+    # consistency is the anti-drift guarantee for these numbers.
+    if "CLAIM-COUPLE-001" in text:
+        problems += _check_coupling(text, name)
     return problems
+
+
+# Expected structure of the coupling crosswalk, matching CLAIM-COUPLE-001.
+_COUPLING = {"clouds": 4, "dimensions": 6, "cells": 24, "standards": 13}
+
+
+def _check_coupling(text: str, name: str) -> list[str]:
+    out: list[str] = []
+    c = _COUPLING
+    if c["clouds"] * c["dimensions"] != c["cells"]:
+        out.append(f"{name}: coupling arithmetic clouds*dimensions != cells")
+    # Scope table checks to the coupling chapter only (heading 28 through the
+    # part divider), so Appendix A's collection table cannot be miscounted.
+    m = re.search(r"^#{1,3}\s*28\.\s.*?(?=\n---\n---|\Z)",
+                  text, re.MULTILINE | re.DOTALL)
+    chapter = m.group(0) if m else ""
+    if not chapter:
+        out.append(f"{name}: coupling chapter (28) not found")
+        return out
+    # the crosswalk table: rows whose last column is a "Portable seam".
+    dim_rows = re.findall(r"^\|[^|\n]+\|[^|\n]+\|[^|\n]+\|[^|\n]+\|[^|\n]+\|"
+                          r"[^|\n]*(?:OIDC|Rego|SPIFFE|OAuth|mTLS|OpenTelemetry)"
+                          r"[^|\n]*\|$", chapter, re.MULTILINE)
+    if len(dim_rows) != c["dimensions"]:
+        out.append(f"{name}: coupling crosswalk has {len(dim_rows)} dimension "
+                   f"rows, expected {c['dimensions']}")
+    # the standards table: numbered rows 1..13.
+    std_rows = re.findall(r"^\|\s*(\d+)\s*\|[^|\n]+\|[^|\n]+\|$", chapter,
+                          re.MULTILINE)
+    std_nums = sorted(int(n) for n in std_rows)
+    if std_nums != list(range(1, c["standards"] + 1)):
+        out.append(f"{name}: coupling standards table numbered {std_nums}, "
+                   f"expected 1..{c['standards']}")
+    for key in ("clouds", "dimensions", "cells", "standards"):
+        if not re.search(rf"(?<!\d){c[key]}(?!\d)", chapter):
+            out.append(f"{name}: coupling {key}={c[key]} not stated in chapter")
+    return out
 
 
 def main() -> int:

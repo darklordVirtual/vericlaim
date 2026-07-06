@@ -117,6 +117,11 @@ mindmap
 24. [Hva dette IKKE beviser](#24-hva-dette-ikke-beviser)
 25. [Åpne problemer og ærlige hull](#25-åpne-problemer-og-ærlige-hull)
 
+**Del VII — Identitet, policy og fler-sky-kobling**
+26. [Identitet, autentisering og arbeidslast-føderasjon](#26-identitet-autentisering-og-arbeidslast-føderasjon)
+27. [Policy-as-code og skillet mellom beslutning og håndheving](#27-policy-as-code-og-skillet-mellom-beslutning-og-håndheving)
+28. [Fler-sky-koblingspunkter — de leverandørnøytrale skjøtene](#28-fler-sky-koblingspunkter--de-leverandørnøytrale-skjøtene)
+
 **Appendikser**
 - [A — Kolleksjonsindeks](#appendiks-a--kolleksjonsindeks)
 - [B — Indeks over verifiserte teoremer](#appendiks-b--indeks-over-verifiserte-teoremer)
@@ -1008,6 +1013,168 @@ perimeter er det som er verdt å stole på innenfor det.
 ---
 ---
 
+# Del VII — Identitet, policy og fler-sky-kobling
+
+> Governance er bare ekte hvis den *håndheves* — og håndheves likt uansett hvor
+> systemet kjører. Denne delen kobler de abstrakte kontrollmålene (§15) til de
+> konkrete skjøtene som bærer identitet og policy på tvers av skyer. Tallene er
+> verifisert av **CLAIM-COUPLE-001** (`governance/identity_coupling.py` i
+> claims-biblioteket), og standardene er bevart hash-låst som litteratur under
+> den claimen.
+
+## 26. Identitet, autentisering og arbeidslast-føderasjon
+
+▶ **Enkelt forklart:** før et system kan håndheve *hva* som er tillatt, må det
+vite *hvem* som spør — enten «hvem» er et menneske som logger inn eller én
+arbeidslast som kaller en annen. Trikset som gjør dette portabelt er å aldri
+sende langlevde hemmeligheter: en arbeidslast beviser hvem den er med et
+kortlevd, signert token som alle skyer allerede forstår.
+
+▷ **I dybden.** Identitet deler seg i to problemer med samme løsning.
+
+**Menneskelig autentisering** hviler på **OAuth 2.0** (RFC 6749 — delegert
+autorisasjon) med **OpenID Connect** (OIDC Core 1.0) lagt oppå for å svare på
+*hvem som autentiserte seg*. En OIDC-identitetstilbyder utsteder et signert
+**ID-token** (en JWT, RFC 7519) hvis utsteder, publikum og utløp en relying
+party verifiserer mot et publisert nøkkelsett. Livssyklus —
+inn/endring/ut — bæres av **SCIM 2.0** (RFC 7643/7644), slik at deaktivering
+propagerer som en kontroll, ikke en manuell oppgave. **SAML 2.0** er fortsatt
+det etablerte assertion-formatet, og alle store IdP-er bygger bro mellom de to.
+
+**Arbeidslast-identitetsføderasjon** fjerner den siste statiske hemmeligheten.
+En arbeidslast (en Kubernetes/OpenShift-pod, en CI-jobb) presenterer et
+OIDC-token fra en betrodd utsteder; skyen bytter det — via **OAuth 2.0 Token
+Exchange** (RFC 8693) — mot et kortlevd, snevert scoped sky-credential. Dette er
+nøyaktig hva GCP Workload Identity Federation, AWS
+`AssumeRoleWithWebIdentity`/IAM Roles Anywhere og Azure federated credentials
+hver implementerer. Der sertifikater er identiteten gir **mTLS med X.509**
+(RFC 8705, sertifikat-bundne tokens) og **SPIFFE/SPIRE** (portable `spiffe://`
+SVID-er) samme garanti for tjeneste-til-tjeneste-kall.
+
+```mermaid
+flowchart LR
+    subgraph Trust["Én OIDC-utsteder (cluster / CI)"]
+        W[Arbeidslast] -->|"1 · OIDC ID-token (JWT)"| ISS[(OIDC-utsteder<br/>+ JWKS)]
+    end
+    ISS -->|"2 · token exchange · RFC 8693"| STS{{Sky-STS<br/>AWS · Azure · GCP}}
+    STS -->|"3 · kortlevd, scoped credential"| RES[Sky-ressurs]
+    style STS fill:#e8f0ff,stroke:#3366cc
+    style ISS fill:#eefaef,stroke:#33aa55
+```
+
+*Én utsteder, tre skyer, samme standard — ingen distribuerte statiske nøkler.
+Sikkerheten hviler på publikums-begrensning, claim-betingelser og korte TTL-er;
+en feil-scoped tillitspolicy fødererer mer enn tiltenkt (se forbeholdet i
+CLAIM-COUPLE-001).*
+
+## 27. Policy-as-code og skillet mellom beslutning og håndheving
+
+▶ **Enkelt forklart:** skriv regelen én gang, som kode, og håndhev den likt
+overalt. Skill delen som *bestemmer* («er dette tillatt?») fra delen som
+*håndhever* den, slik at regelen kan testes, versjoneres og revideres som all
+annen kode.
+
+▷ **I dybden.** **NIST SP 800-207 (Zero Trust Architecture)** navngir formen: et
+**Policy Decision Point (PDP)** bestemmer hver forespørsel ut fra autentisert
+identitet, kontekst og policy; et **Policy Enforcement Point (PEP)** utfører
+beslutningen ved ressursen. Ingen implisitt tillit fra nettverksplassering;
+hver forespørsel evalueres eksplisitt og etter minste-privilegium.
+
+Policy-as-code fyller PDP-en. **Open Policy Agent** med språket **Rego** er det
+portable substratet: samme Rego kjører som en Kubernetes admission controller
+(Gatekeeper) på EKS, AKS, GKE og OpenShift, som en tjeneste-sidecar, og i CI.
+**Cedar** (åpnet kildekode, bak Amazon Verified Permissions) tilbyr et
+formelt-analyserbart autorisasjonsspråk for beslutninger på applikasjonsnivå.
+**CEL** (Common Expression Language) bærer portable betingelser (GCP IAM
+Conditions, Kubernetes admission). Kontrollregister-sjekkene i §15 uttrykkes
+naturlig her — et kontrollmål blir en policy en maskin kan evaluere.
+
+```mermaid
+flowchart LR
+    REQ[Forespørsel<br/>+ identitets-claims / SPIFFE-ID] --> PEP{{PEP<br/>mesh · gateway · admission}}
+    PEP -->|"spør"| PDP[PDP · policy-as-code<br/>OPA/Rego · Cedar · CEL]
+    PDP -->|"tillat / nekt + forpliktelser"| PEP
+    PEP -->|"beslutningslogg"| AUD[(Revisjon · OpenTelemetry)]
+    style PDP fill:#eefaef,stroke:#33aa55
+    style PEP fill:#e8f0ff,stroke:#3366cc
+```
+
+*PDP-en identifiserer ingenting og PEP-en bestemmer ingenting — det skillet er
+det som lar én Rego-policy være governance-regelen på hver plattform. En policy
+er bare så god som testene og inndataene sine; beslutningslogging gjør den
+reviderbar.*
+
+## 28. Fler-sky-koblingspunkter — de leverandørnøytrale skjøtene
+
+▶ **Enkelt forklart:** en virksomhet lever sjelden på én sky. Hvis governance er
+koblet med hver skys proprietære knapper, må den bygges på nytt — og vil drifte
+— på neste sky. Utveien er å koble på de åpne standardene hver sky allerede
+snakker, og behandle hver skys native tjeneste som en *adapter*.
+
+▷ **I dybden.** CLAIM-COUPLE-001 koder dette som en fail-closed kryssreferanse:
+på tvers av **4** skyer (AWS, Azure, GCP, OpenShift) og **6**
+koblingsdimensjoner navngir alle **24** celler en konkret native mekanisme og
+kobler på **13** åpne standarder. Sjekkeren håndhever egenskapen som gjør skjøten
+til å stole på: **hver dimensjon er forankret av minst én åpen standard delt på
+tvers av to eller flere skyer**, så portabilitet er verifisert, ikke påstått.
+
+| Koblingsdimensjon | AWS | Azure | GCP | OpenShift | Portabel skjøt |
+|---|---|---|---|---|---|
+| Arbeidslast-identitetsføderasjon | STS AssumeRoleWithWebIdentity · IAM Roles Anywhere · IRSA | Entra Workload Identity Federation · Managed Identities | Workload Identity Federation | SA projected tokens (OIDC-utsteder) | OIDC · RFC 8693 · JWT |
+| Menneskelig autentisering | IAM Identity Center · Cognito | Microsoft Entra ID | Cloud Identity | OpenShift OAuth-server | OIDC · OAuth2 · SAML2 · SCIM2 |
+| Autorisasjonspolicy | IAM/SCP · Verified Permissions (Cedar) · Gatekeeper | Azure Policy · Gatekeeper på AKS | IAM Conditions (CEL) · Org Policy · Gatekeeper | K8s RBAC · Gatekeeper · Kyverno | Rego/OPA · Cedar · CEL |
+| Hemmelighetshåndtering | Secrets Manager · Parameter Store | Key Vault | Secret Manager | Secrets + CSI-driver · cert-manager | OIDC · mTLS/X.509 |
+| Observabilitet & revisjon | CloudTrail · ADOT | Azure Monitor · Activity Log | Cloud Audit Logs | K8s audit · OTel Operator | OpenTelemetry · CloudEvents |
+| Tjeneste-til-tjeneste-mTLS | Private CA · App Mesh | Istio/OSM på AKS | CA Service · Anthos SM | Service Mesh (Istio) · cert-manager | mTLS/X.509 · SPIFFE |
+
+De tretten åpne standardene, hver bevart hash-låst som litteratur under
+CLAIM-COUPLE-001:
+
+| # | Standard | Koblingsrolle |
+|---|---|---|
+| 1 | OpenID Connect Core 1.0 | Føderert identitet via signerte ID-tokens |
+| 2 | OAuth 2.0 (RFC 6749) | Delegert autorisasjon |
+| 3 | OAuth 2.0 Token Exchange (RFC 8693) | STS-stil arbeidslast-føderasjon |
+| 4 | SAML 2.0 | SSO-assertions for virksomheter |
+| 5 | SCIM 2.0 (RFC 7643/7644) | Provisjonering på tvers av domener |
+| 6 | JWT (RFC 7519) | Signert, verifiserbart claims-token |
+| 7 | mTLS / X.509 (RFC 8705) | Gjensidig-TLS klientidentitet, bundne tokens |
+| 8 | SPIFFE/SPIRE | Portabel arbeidslast-identitet (SVID) |
+| 9 | Open Policy Agent / Rego | Portabel policy-as-code |
+| 10 | Cedar | Analyserbart autorisasjonsspråk |
+| 11 | CEL | Portable betingelsesuttrykk |
+| 12 | OpenTelemetry | Leverandørnøytral telemetri & revisjonseksport |
+| 13 | CloudEvents | Portabel hendelseskonvolutt |
+
+```mermaid
+flowchart TB
+    subgraph Standards["Åpen-standard koblingslag (portabelt)"]
+        S1[OIDC · OAuth2 · RFC 8693]
+        S2[Rego/OPA · Cedar · CEL]
+        S3[SPIFFE · mTLS/X.509]
+        S4[OpenTelemetry · CloudEvents]
+    end
+    AWS[AWS-adaptere] --> Standards
+    AZ[Azure-adaptere] --> Standards
+    GCP[GCP-adaptere] --> Standards
+    OCP[OpenShift-adaptere] --> Standards
+    Standards --> CP([Ett styrt kontrollplan<br/>skriv én gang · håndhev overalt])
+    style Standards fill:#eefaef,stroke:#33aa55
+    style CP fill:#e8f0ff,stroke:#3366cc
+```
+
+**Hva dette er og ikke er.** Det er et arkitektur-sporbarhetshjelpemiddel over
+offentlig dokumenterte mekanismer — ikke en sikkerhets-designgjennomgang, ikke
+en sertifisering, og ikke bevis for at en gitt utrulling er riktig konfigurert.
+Native tjenestenavn er gjeldende ved skrivetidspunkt; skyer omdøper og legger
+til tjenester. Den sjekkbare egenskapen er intern fullstendighet og
+standard-deling på tvers av skyer; standardene er autoriteten. Brukt ærlig er
+det det konkrete svaret på leverandøruavhengighets-kravet i §18–§19: samme
+governance, beviselig portabel.
+
+---
+---
+
 # Appendikser
 
 ## Appendiks A — kolleksjonsindeks
@@ -1101,6 +1268,7 @@ mål, hvert mål dekket av ≥2 rammeverk, sjekket fail-closed [CLAIM-GOV-001].
 | CLAIM-LIB-RAG-002 | 9805 innholdsadresserte chunks, alle pushet live | measured |
 | CLAIM-LIB-RAG-003 | live forsknings-endepunkter verifisert ende-til-ende | measured |
 | CLAIM-GOV-001 | 5 rammeverk → 10 mål, full dekning, fail-closed | measured |
+| CLAIM-COUPLE-001 | 4 skyer × 6 koblingsdimensjoner → 13 åpne standarder, hver skjøt leverandørnøytral, fail-closed | measured |
 | THM-SCORE-001 | Brier-properness — ærlighet er optimalt (1028 par) | machine_checked |
 | THM-ROUTE-001 | verifiser-gated kaskade-dominans (87 380 tabeller) | machine_checked |
 | THM-VOTE-001/002 | best-of-n-identitet; amplifikasjon + ærlig degradering | machine_checked |
