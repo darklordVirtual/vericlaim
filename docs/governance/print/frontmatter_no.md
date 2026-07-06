@@ -1,3 +1,8 @@
+![Framside](figures/no/cover-front.svg)
+
+---
+---
+
 # Håndbok i frontier-AI-governance
 
 ### Evidensbundet governance for frontier-AI-systemer: trykkutgave

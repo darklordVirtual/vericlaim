@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" font-family="Helvetica, Arial, sans-serif">
+<rect x="0.0" y="0.0" width="1400.0" height="900.0" rx="24" fill="#FBF8F1" stroke="#E4DCC9" stroke-width="3"/>
+<rect x="56.0" y="54.0" width="14.0" height="46.0" rx="3" fill="#12B3A6"/>
+<text x="88.0" y="92.0" font-size="44" fill="#0C1E33" font-weight="800" text-anchor="start">Evidensstigen</text>
+<rect x="140.0" y="600.0" width="168.0" height="90.0" rx="10" fill="#4A5A6A"/>
+<rect x="140.0" y="600.0" width="168.0" height="12.0" rx="6" fill="#FFFFFF" opacity="0.35"/>
+<circle cx="170.0" cy="634.0" r="22.0" fill="#FFFFFF"/>
+<text x="170.0" y="642.0" font-size="26" fill="#4A5A6A" font-weight="800" text-anchor="middle">1</text>
+<text x="224" y="672" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="start" transform="rotate(-90 224 672)">theoretical</text>
+<rect x="315.0" y="522.0" width="168.0" height="168.0" rx="10" fill="#2F6BE0"/>
+<rect x="315.0" y="522.0" width="168.0" height="12.0" rx="6" fill="#FFFFFF" opacity="0.35"/>
+<circle cx="345.0" cy="556.0" r="22.0" fill="#FFFFFF"/>
+<text x="345.0" y="564.0" font-size="26" fill="#2F6BE0" font-weight="800" text-anchor="middle">2</text>
+<text x="399" y="672" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="start" transform="rotate(-90 399 672)">measured</text>
+<rect x="490.0" y="444.0" width="168.0" height="246.0" rx="10" fill="#12B3A6"/>
+<rect x="490.0" y="444.0" width="168.0" height="12.0" rx="6" fill="#FFFFFF" opacity="0.35"/>
+<circle cx="520.0" cy="478.0" r="22.0" fill="#FFFFFF"/>
+<text x="520.0" y="486.0" font-size="26" fill="#12B3A6" font-weight="800" text-anchor="middle">3</text>
+<text x="574" y="672" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="start" transform="rotate(-90 574 672)">benchmarked</text>
+<rect x="665.0" y="366.0" width="168.0" height="324.0" rx="10" fill="#2F9E44"/>
+<rect x="665.0" y="366.0" width="168.0" height="12.0" rx="6" fill="#FFFFFF" opacity="0.35"/>
+<circle cx="695.0" cy="400.0" r="22.0" fill="#FFFFFF"/>
+<text x="695.0" y="408.0" font-size="26" fill="#2F9E44" font-weight="800" text-anchor="middle">4</text>
+<text x="749" y="672" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="start" transform="rotate(-90 749 672)">reproduced</text>
+<rect x="840.0" y="288.0" width="168.0" height="402.0" rx="10" fill="#6C4AE0"/>
+<rect x="840.0" y="288.0" width="168.0" height="12.0" rx="6" fill="#FFFFFF" opacity="0.35"/>
+<circle cx="870.0" cy="322.0" r="22.0" fill="#FFFFFF"/>
+<text x="870.0" y="330.0" font-size="26" fill="#6C4AE0" font-weight="800" text-anchor="middle">5</text>
+<text x="924" y="672" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="start" transform="rotate(-90 924 672)">machine_checked</text>
+<rect x="1015.0" y="210.0" width="168.0" height="480.0" rx="10" fill="#F5A623"/>
+<rect x="1015.0" y="210.0" width="168.0" height="12.0" rx="6" fill="#FFFFFF" opacity="0.35"/>
+<circle cx="1045.0" cy="244.0" r="22.0" fill="#FFFFFF"/>
+<text x="1045.0" y="252.0" font-size="26" fill="#F5A623" font-weight="800" text-anchor="middle">6</text>
+<text x="1099" y="672" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="start" transform="rotate(-90 1099 672)">externally_validated</text>
+<line x1="110.0" y1="696.0" x2="1213.0" y2="216.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<line x1="1213.0" y1="216.0" x2="1197.5" y2="236.9" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<line x1="1213.0" y1="216.0" x2="1187.2" y2="213.1" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<text x="120.0" y="744.0" font-size="24" fill="#E4572E" font-weight="700" text-anchor="start">nedgradering alltid tillatt  ↓</text>
+<text x="1340.0" y="150.0" font-size="24" fill="#2F9E44" font-weight="700" text-anchor="end">↑  oppgradering krever ny evidens</text>
+<text x="88.0" y="856.0" font-size="25" fill="#4A5A6A" font-weight="500" text-anchor="start">Beskriv en claim bare på nivået den har fortjent. Nedgradering er alltid tillatt; oppgradering krever ny evidens.</text>
+</svg>

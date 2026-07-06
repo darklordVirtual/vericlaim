@@ -1,3 +1,8 @@
+![Front cover](figures/en/cover-front.svg)
+
+---
+---
+
 # The Frontier AI Governance Handbook
 
 ### Evidence-bound governance for frontier AI systems: print edition

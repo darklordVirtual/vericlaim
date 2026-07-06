@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" font-family="Helvetica, Arial, sans-serif">
+<rect x="0.0" y="0.0" width="1600.0" height="720.0" rx="24" fill="#FBF8F1" stroke="#E4DCC9" stroke-width="3"/>
+<rect x="56.0" y="54.0" width="14.0" height="46.0" rx="3" fill="#12B3A6"/>
+<text x="88.0" y="92.0" font-size="44" fill="#0C1E33" font-weight="800" text-anchor="start">Gaten, ved hver commit</text>
+<circle cx="120.0" cy="340.0" r="66.0" fill="#12B3A6"/>
+<text x="120.0" y="336.0" font-size="26" fill="#FFFFFF" font-weight="800" text-anchor="middle">en</text>
+<text x="120.0" y="368.5" font-size="26" fill="#FFFFFF" font-weight="800" text-anchor="middle">claim</text>
+<line x1="216.0" y1="340.0" x2="244.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="234.0" y1="331.0" x2="244.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="234.0" y1="349.0" x2="244.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<rect x="250.0" y="262.0" width="176.0" height="156.0" rx="14" fill="#0C1E33"/>
+<rect x="250.0" y="262.0" width="176.0" height="12.0" rx="6" fill="#2F6BE0"/>
+<rect x="250.0" y="262.0" width="12.0" height="156.0" rx="6" fill="#2F6BE0"/>
+<text x="338.0" y="334.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">Register-</text>
+<text x="338.0" y="369.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">integritet</text>
+<text x="338.0" y="398.0" font-size="22" fill="#2F6BE0" font-weight="800" text-anchor="middle">1</text>
+<line x1="422.0" y1="340.0" x2="450.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="440.0" y1="331.0" x2="450.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="440.0" y1="349.0" x2="450.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<rect x="456.0" y="262.0" width="176.0" height="156.0" rx="14" fill="#0C1E33"/>
+<rect x="456.0" y="262.0" width="176.0" height="12.0" rx="6" fill="#6C4AE0"/>
+<rect x="456.0" y="262.0" width="12.0" height="156.0" rx="6" fill="#6C4AE0"/>
+<text x="544.0" y="334.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">Artefakt-</text>
+<text x="544.0" y="369.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">eksistens</text>
+<text x="544.0" y="398.0" font-size="22" fill="#6C4AE0" font-weight="800" text-anchor="middle">2</text>
+<line x1="628.0" y1="340.0" x2="656.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="646.0" y1="331.0" x2="656.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="646.0" y1="349.0" x2="656.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<rect x="662.0" y="262.0" width="176.0" height="156.0" rx="14" fill="#0C1E33"/>
+<rect x="662.0" y="262.0" width="176.0" height="12.0" rx="6" fill="#12B3A6"/>
+<rect x="662.0" y="262.0" width="12.0" height="156.0" rx="6" fill="#12B3A6"/>
+<text x="750.0" y="334.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">Sti-</text>
+<text x="750.0" y="369.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">inneslutning</text>
+<text x="750.0" y="398.0" font-size="22" fill="#12B3A6" font-weight="800" text-anchor="middle">3</text>
+<line x1="834.0" y1="340.0" x2="862.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="852.0" y1="331.0" x2="862.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="852.0" y1="349.0" x2="862.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<rect x="868.0" y="262.0" width="176.0" height="156.0" rx="14" fill="#0C1E33"/>
+<rect x="868.0" y="262.0" width="176.0" height="12.0" rx="6" fill="#F5A623"/>
+<rect x="868.0" y="262.0" width="12.0" height="156.0" rx="6" fill="#F5A623"/>
+<text x="956.0" y="334.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">Provenance</text>
+<text x="956.0" y="398.0" font-size="22" fill="#F5A623" font-weight="800" text-anchor="middle">4</text>
+<line x1="1040.0" y1="340.0" x2="1068.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="1058.0" y1="331.0" x2="1068.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="1058.0" y1="349.0" x2="1068.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<rect x="1074.0" y="262.0" width="176.0" height="156.0" rx="14" fill="#0C1E33"/>
+<rect x="1074.0" y="262.0" width="176.0" height="12.0" rx="6" fill="#2F9E44"/>
+<rect x="1074.0" y="262.0" width="12.0" height="156.0" rx="6" fill="#2F9E44"/>
+<text x="1162.0" y="334.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">Manifest-</text>
+<text x="1162.0" y="369.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">hasher</text>
+<text x="1162.0" y="398.0" font-size="22" fill="#2F9E44" font-weight="800" text-anchor="middle">5</text>
+<line x1="1246.0" y1="340.0" x2="1274.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="1264.0" y1="331.0" x2="1274.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="1264.0" y1="349.0" x2="1274.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<rect x="1280.0" y="262.0" width="176.0" height="156.0" rx="14" fill="#0C1E33"/>
+<rect x="1280.0" y="262.0" width="176.0" height="12.0" rx="6" fill="#E4572E"/>
+<rect x="1280.0" y="262.0" width="12.0" height="156.0" rx="6" fill="#E4572E"/>
+<text x="1368.0" y="334.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">Dok-</text>
+<text x="1368.0" y="369.0" font-size="28" fill="#F5F0E6" font-weight="700" text-anchor="middle">binding</text>
+<text x="1368.0" y="398.0" font-size="22" fill="#E4572E" font-weight="800" text-anchor="middle">6</text>
+<line x1="1452.0" y1="340.0" x2="1480.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="1470.0" y1="331.0" x2="1480.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<line x1="1470.0" y1="349.0" x2="1480.0" y2="340.0" stroke="#0C1E33" stroke-width="5" stroke-linecap="round"/>
+<circle cx="1552.0" cy="340.0" r="66.0" fill="#2F9E44"/>
+<text x="1552.0" y="350.0" font-size="34" fill="#FFFFFF" font-weight="800" text-anchor="middle">[OK]</text>
+<line x1="1368.0" y1="418.0" x2="1368.0" y2="490.0" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/>
+<rect x="1248.0" y="490.0" width="240.0" height="96.0" rx="12" fill="#FBE8E2" stroke="#E4572E" stroke-width="3"/>
+<text x="1368.0" y="526.0" font-size="24" fill="#E4572E" font-weight="700" text-anchor="middle">drift</text>
+<text x="1368.0" y="556.0" font-size="24" fill="#E4572E" font-weight="700" text-anchor="middle">feiler</text>
+<text x="1368.0" y="586.0" font-size="24" fill="#E4572E" font-weight="700" text-anchor="middle">bygget</text>
+<text x="1460.0" y="550.0" font-size="40" fill="#E4572E" font-weight="800" text-anchor="middle">✗</text>
+<text x="88.0" y="680.0" font-size="24" fill="#4A5A6A" font-weight="500" text-anchor="start">En claim kjører hver sjekk ved hver commit. Enhver drift, et endret tall, en brutt hash, en doc over sin evidens, feiler bygget.</text>
+</svg>

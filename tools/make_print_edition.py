@@ -110,17 +110,39 @@ def transform(text: str) -> str:
     text = re.sub(r"```mermaid\n(.*?)```",
                   lambda m: _mermaid_to_text(m.group(1)), text, flags=re.DOTALL)
 
-    # links: [text](#anchor) -> text (+ cross-ref); [text](url) -> text
+    # links: [text](#anchor) -> text (+ cross-ref); [text](url) -> text. The
+    # negative lookbehind leaves image references ![alt](path) intact.
     def _link(m: re.Match) -> str:
         label, target = m.group(1), m.group(2)
         if target.startswith("#"):
             return label + _anchor_ref(target[1:])
         return label
-    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", _link, text)
+    text = re.sub(r"(?<!!)\[([^\]]+)\]\(([^)]+)\)", _link, text)
 
     # collapse 3+ blank lines left by removals
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text
+
+
+# Interior figures, injected at the first Part openings (print-only: the digital
+# master stays text; the vector figures ship with the print deliverable).
+INTERNAL_FIGS = ["fig-evidence-ladder.svg", "fig-gate-pipeline.svg",
+                 "fig-provenance-chain.svg"]
+
+
+def _inject_part_figures(body: str, lang: str) -> str:
+    lines = body.split("\n")
+    out: list[str] = []
+    n = 0
+    for ln in lines:
+        out.append(ln)
+        if n < len(INTERNAL_FIGS) and re.match(r"^# (Part|Del)\b", ln):
+            fig = INTERNAL_FIGS[n]
+            n += 1
+            alt = fig.replace("fig-", "").replace(".svg", "").replace("-", " ")
+            out.append("")
+            out.append(f"![{alt}](figures/{lang}/{fig})")
+    return "\n".join(out)
 
 
 def main() -> int:
@@ -129,7 +151,8 @@ def main() -> int:
         return 2
     edition, front, cases, out = (Path(a) for a in sys.argv[1:])
     _FIG[0] = 0
-    body = transform(edition.read_text(encoding="utf-8"))
+    lang = "no" if "_NO_nb" in edition.name else "en"
+    body = _inject_part_figures(transform(edition.read_text(encoding="utf-8")), lang)
     parts = [front.read_text(encoding="utf-8").rstrip(),
              "\n---\n---\n",
              body.strip(),

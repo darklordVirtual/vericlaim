@@ -94,3 +94,8 @@ reports on named deployments. The discipline is the point, not the numbers.
 and its limit, the gate refuses drift and refuses description above evidence, and
 what remains unproven is stated rather than hidden. That refusal, to accumulate
 unsupported reassurance, is the whole method.*
+
+---
+---
+
+![Back cover](figures/en/cover-back.svg)

@@ -95,3 +95,8 @@ ikke tallene.
 grensen sin, gaten nekter drift og nekter beskrivelse over evidens, og det som er
 ubevist oppgis i stedet for å skjules. Den nektelsen, å akkumulere ustøttet
 betryggelse, er hele metoden.*
+
+---
+---
+
+![Bakside](figures/no/cover-back.svg)

@@ -1,3 +1,8 @@
+![Framside](figures/no/cover-front.svg)
+
+---
+---
+
 # Håndbok i frontier-AI-governance
 
 ### Evidensbundet governance for frontier-AI-systemer: trykkutgave
@@ -256,6 +261,8 @@ enterprise) og *praksisen* (hvordan du faktisk gjør det daglig).
 
 # Del I: Fundamenter
 
+![evidence ladder](figures/no/fig-evidence-ladder.svg)
+
 ## 1. Sammendrag: den enestående innsikten
 
 ▶ **Enkelt forklart:** det meste av AI-governance er en bunke selvsikre
@@ -509,6 +516,8 @@ aldri.
 
 # Del II: Kunnskapsbasen
 
+![gate pipeline](figures/no/fig-gate-pipeline.svg)
+
 ## 7. Kanon: 180 verk over 15 kolleksjoner
 
 ▶ **Enkelt forklart:** et kuratert, hash-låst bibliotek på 180 forskningsverk og
@@ -704,6 +713,8 @@ AI Governance» (arxiv:2407.14981) [REF-057].
 ---
 
 # Del III. Regler: regulering og standarder
+
+![provenance chain](figures/no/fig-provenance-chain.svg)
 
 ## 13. Det regulatoriske landskapet forklart
 
@@ -1494,4 +1505,9 @@ ikke tallene.
 grensen sin, gaten nekter drift og nekter beskrivelse over evidens, og det som er
 ubevist oppgis i stedet for å skjules. Den nektelsen, å akkumulere ustøttet
 betryggelse, er hele metoden.*
+
+---
+---
+
+![Bakside](figures/no/cover-back.svg)
 

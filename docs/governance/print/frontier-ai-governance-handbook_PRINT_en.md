@@ -1,3 +1,8 @@
+![Front cover](figures/en/cover-front.svg)
+
+---
+---
+
 # The Frontier AI Governance Handbook
 
 ### Evidence-bound governance for frontier AI systems: print edition
@@ -256,6 +261,8 @@ enterprise), and the *practice* (how you actually do it day to day).
 
 # Part I: Foundations
 
+![evidence ladder](figures/en/fig-evidence-ladder.svg)
+
 ## 1. Executive summary: the singular insight
 
 ▶ **In plain terms:** most AI governance is a stack of confident sentences in a
@@ -513,6 +520,8 @@ blocks.
 
 # Part II: The knowledge base
 
+![gate pipeline](figures/en/fig-gate-pipeline.svg)
+
 ## 7. The canon: 180 works across 15 collections
 
 ▶ **In plain terms:** a curated, hash-locked library of 180 research works and
@@ -705,6 +714,8 @@ Governance" (arxiv:2407.14981) [REF-057].
 ---
 
 # Part III. Rules: regulation and standards
+
+![provenance chain](figures/en/fig-provenance-chain.svg)
 
 ## 13. The regulatory landscape explained
 
@@ -1510,4 +1521,9 @@ reports on named deployments. The discipline is the point, not the numbers.
 and its limit, the gate refuses drift and refuses description above evidence, and
 what remains unproven is stated rather than hidden. That refusal, to accumulate
 unsupported reassurance, is the whole method.*
+
+---
+---
+
+![Back cover](figures/en/cover-back.svg)
 

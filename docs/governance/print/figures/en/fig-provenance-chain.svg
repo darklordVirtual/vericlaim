@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" font-family="Helvetica, Arial, sans-serif">
+<rect x="0.0" y="0.0" width="1600.0" height="620.0" rx="24" fill="#FBF8F1" stroke="#E4DCC9" stroke-width="3"/>
+<rect x="56.0" y="54.0" width="14.0" height="46.0" rx="3" fill="#12B3A6"/>
+<text x="88.0" y="92.0" font-size="44" fill="#0C1E33" font-weight="800" text-anchor="start">The provenance chain</text>
+<rect x="120.0" y="238.0" width="232.0" height="124.0" rx="16" fill="#F5A623"/>
+<rect x="120.0" y="238.0" width="232.0" height="10.0" rx="5" fill="#FFFFFF" opacity="0.4"/>
+<text x="236.0" y="296.0" font-size="34" fill="#FFFFFF" font-weight="800" text-anchor="middle">Artifact</text>
+<text x="236.0" y="334.0" font-size="21" fill="#FFFFFF" font-weight="500" text-anchor="middle">the number</text>
+<rect x="418.0" y="238.0" width="232.0" height="124.0" rx="16" fill="#0C1E33"/>
+<rect x="418.0" y="238.0" width="232.0" height="10.0" rx="5" fill="#FFFFFF" opacity="0.4"/>
+<text x="534.0" y="296.0" font-size="34" fill="#F5F0E6" font-weight="800" text-anchor="middle">SHA-256</text>
+<text x="534.0" y="334.0" font-size="21" fill="#F5F0E6" font-weight="500" text-anchor="middle">of its bytes</text>
+<rect x="716.0" y="238.0" width="232.0" height="124.0" rx="16" fill="#12B3A6"/>
+<rect x="716.0" y="238.0" width="232.0" height="10.0" rx="5" fill="#FFFFFF" opacity="0.4"/>
+<text x="832.0" y="296.0" font-size="34" fill="#FFFFFF" font-weight="800" text-anchor="middle">Sidecar</text>
+<text x="832.0" y="334.0" font-size="21" fill="#FFFFFF" font-weight="500" text-anchor="middle">how it was made</text>
+<rect x="1014.0" y="238.0" width="232.0" height="124.0" rx="16" fill="#2F6BE0"/>
+<rect x="1014.0" y="238.0" width="232.0" height="10.0" rx="5" fill="#FFFFFF" opacity="0.4"/>
+<text x="1130.0" y="296.0" font-size="34" fill="#FFFFFF" font-weight="800" text-anchor="middle">Register</text>
+<text x="1130.0" y="334.0" font-size="21" fill="#FFFFFF" font-weight="500" text-anchor="middle">the claim</text>
+<rect x="1312.0" y="238.0" width="232.0" height="124.0" rx="16" fill="#6C4AE0"/>
+<rect x="1312.0" y="238.0" width="232.0" height="10.0" rx="5" fill="#FFFFFF" opacity="0.4"/>
+<text x="1428.0" y="296.0" font-size="34" fill="#FFFFFF" font-weight="800" text-anchor="middle">Manifest</text>
+<text x="1428.0" y="334.0" font-size="21" fill="#FFFFFF" font-weight="500" text-anchor="middle">the sealed set</text>
+<line x1="358.0" y1="300.0" x2="412.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<rect x="370.0" y="285.0" width="30.0" height="30.0" rx="8" fill="#FBF8F1" stroke="#0C1E33" stroke-width="5"/>
+<line x1="400.0" y1="291.0" x2="412.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<line x1="400.0" y1="309.0" x2="412.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<line x1="656.0" y1="300.0" x2="710.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<rect x="668.0" y="285.0" width="30.0" height="30.0" rx="8" fill="#FBF8F1" stroke="#0C1E33" stroke-width="5"/>
+<line x1="698.0" y1="291.0" x2="710.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<line x1="698.0" y1="309.0" x2="710.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<line x1="954.0" y1="300.0" x2="1008.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<rect x="966.0" y="285.0" width="30.0" height="30.0" rx="8" fill="#FBF8F1" stroke="#0C1E33" stroke-width="5"/>
+<line x1="996.0" y1="291.0" x2="1008.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<line x1="996.0" y1="309.0" x2="1008.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<line x1="1252.0" y1="300.0" x2="1306.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<rect x="1264.0" y="285.0" width="30.0" height="30.0" rx="8" fill="#FBF8F1" stroke="#0C1E33" stroke-width="5"/>
+<line x1="1294.0" y1="291.0" x2="1306.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<line x1="1294.0" y1="309.0" x2="1306.0" y2="300.0" stroke="#0C1E33" stroke-width="6" stroke-linecap="round"/>
+<text x="88.0" y="578.0" font-size="24" fill="#4A5A6A" font-weight="500" text-anchor="start">Every produced number records how it was made and is checked to still hold: reproduce it, and the bytes must match.</text>
+</svg>
