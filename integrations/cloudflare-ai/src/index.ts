@@ -39,6 +39,7 @@ import {
   LEDGER_PAGE_DEFAULT, LEDGER_PAGE_MAX,
   clampLimit, declaredBodyTooLarge, parseCursor, queryTooLong,
 } from "./limits";
+import { type SnapshotMeta, buildReceipt, validateSnapshot } from "./snapshot";
 
 export { VericlaimMCP };
 
@@ -110,14 +111,26 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
     if (p === "/index" && req.method === "POST") {
       if (!authorized(req, env)) return json({ error: "unauthorized" }, 401);
       if (declaredBodyTooLarge(req)) return json({ error: "payload too large" }, 413);
-      let payload: { claims?: Claim[] };
+      let payload: { claims?: Claim[] } & SnapshotMeta;
       try { payload = await req.json(); } catch { return json({ error: "invalid JSON" }, 400); }
       const claims = (payload.claims ?? []).filter((c) => c && c.id && c.statement && c.evidence_level);
+      const reconcile = url.searchParams.get("reconcile") !== "0";
+      // Snapshot-integrity guard: if the exporter declared expected_claim_count /
+      // register_sha256 / full_snapshot, the received set must match BEFORE any
+      // prune — so a defective export (truncated to one claim) cannot silently
+      // reconcile the rest of the index away.
+      const meta: SnapshotMeta = {
+        full_snapshot: payload.full_snapshot,
+        expected_claim_count: payload.expected_claim_count,
+        register_sha256: payload.register_sha256,
+        snapshot_id: payload.snapshot_id,
+      };
+      const check = validateSnapshot(claims.length, meta, reconcile);
+      if (!check.ok) return json({ error: check.error }, 400);
       // Reconcile-wipe guard: a full-snapshot push with ZERO valid claims would
       // prune every indexed claim and take /search and /ask dark. That is almost
       // always a mistake (bad export, wrong file); require ?allow_empty=1 to mean
       // it on purpose. History in the ledger is untouched either way.
-      const reconcile = url.searchParams.get("reconcile") !== "0";
       if (reconcile && claims.length === 0 && url.searchParams.get("allow_empty") !== "1") {
         return json({ error: "refusing to reconcile an empty push (would prune " +
           "all indexed claims); pass ?reconcile=0 for a delta, or ?allow_empty=1 " +
@@ -141,8 +154,9 @@ async function handle(req: Request, env: Env, ctx: ExecutionContext): Promise<Re
       const withdrawn = reconcile
         ? await reconcileClaims(env, new Set(claims.map((c) => c.id)))
         : [];
-      return json({ indexed, ledger_appended: appended,
-        ledger_unchanged: unchanged, vaulted, withdrawn: withdrawn.length });
+      const counts = { indexed, ledger_appended: appended,
+        ledger_unchanged: unchanged, vaulted, withdrawn: withdrawn.length };
+      return json({ ...counts, ...buildReceipt(meta, counts, claims.length, ts) });
     }
 
     if (p === "/search" && req.method === "GET") {
