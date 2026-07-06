@@ -118,6 +118,33 @@ def test_manifest_crlf_note(tmp_path):
     assert notes and "CRLF" in notes[0]
 
 
+def test_manifest_row_escaping_root_is_flagged(tmp_path):
+    # A manifest must not point outside the repo (audit P1: containment).
+    (tmp_path / "claims").mkdir()
+    (tmp_path / "claims" / "manifest.md").write_text(
+        "| `../secret.json` | `" + "0" * 64 + "` |\n")
+    cfg = _cfg(tmp_path, manifest="claims/manifest.md")
+    ids = [e for e, _ in check_manifest(cfg, [])]
+    assert any(i.startswith("manifest-escapes-root:") for i in ids)
+
+
+def test_manifest_coverage_flags_unmanifested_reproduce_artifact(tmp_path):
+    # A claim with reproduce whose artifact is absent from the manifest fails
+    # the side-effect-free gate (audit P1: manifest coverage).
+    from vericlaim.gate import check_manifest_coverage
+    (tmp_path / "a.json").write_text("{}")
+    (tmp_path / "claims").mkdir()
+    h = "a" * 64
+    (tmp_path / "claims" / "manifest.md").write_text(f"| `other.json` | `{h}` |\n")
+    cfg = _cfg(tmp_path, manifest="claims/manifest.md")
+    claims = [{"id": "C-9", "artifact": ["a.json"], "reproduce": "python x.py"}]
+    ids = [e for e, _ in check_manifest_coverage(claims, cfg)]
+    assert ids == ["manifest-uncovered:C-9:a.json"]
+    # once manifested, it passes
+    (tmp_path / "claims" / "manifest.md").write_text(f"| `a.json` | `{h}` |\n")
+    assert check_manifest_coverage(claims, cfg) == []
+
+
 # ── doc anchors (the drift guard) ───────────────────────────────────────────
 
 BY_ID = {"C-1": {"id": "C-1", "n": 4, "metrics": {"ratio": 2.5}}}

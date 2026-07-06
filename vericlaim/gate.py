@@ -297,7 +297,16 @@ def check_manifest(cfg: Config, notes: list[str]) -> list[Finding]:
             out.append((f"manifest-hash-casing:{rel}",
                         f"{cfg.manifest}:{n}: non-canonical hash casing for {rel} "
                         f"(use lowercase hex)"))
-        p = cfg.path(rel)
+        # Same containment discipline as claim artifacts: a manifest row must
+        # not read/hash a file outside the repo (absolute path, `..`, or a
+        # symlink escape) — otherwise "manifested" could mean a file in another
+        # checkout entirely.
+        p = _resolve_within_root(cfg, rel)
+        if p is None:
+            out.append((f"manifest-escapes-root:{rel}",
+                        f"{cfg.manifest}:{n}: manifest path {rel} escapes the "
+                        f"repo root (absolute, '..', or symlink outside)"))
+            continue
         if not p.exists():
             out.append((f"manifest-file-missing:{rel}",
                         f"{cfg.manifest}:{n}: manifest lists {rel} but the file is absent"))
@@ -312,6 +321,46 @@ def check_manifest(cfg: Config, notes: list[str]) -> list[Finding]:
         out.append((f"manifest-hash-mismatch:{rel}",
                     f"{cfg.manifest}:{n}: SHA-256 mismatch for {rel} "
                     f"(content differs from the manifested version)"))
+    return out
+
+
+def _manifest_paths(cfg: Config) -> set[str]:
+    """The set of artifact paths listed in the manifest (posix, as written)."""
+    out: set[str] = set()
+    if not cfg.manifest:
+        return out
+    mpath = cfg.path(cfg.manifest)
+    if not mpath.exists():
+        return out
+    for line in mpath.read_text(encoding="utf-8").splitlines():
+        row = MANIFEST_ROW_RE.match(line)
+        if row:
+            out.add(row.group("path"))
+    return out
+
+
+def check_manifest_coverage(claims: list[dict], cfg: Config) -> list[Finding]:
+    """When a manifest is configured, every artifact of a claim that has a
+    `reproduce` command must be listed in it. Otherwise a produced number
+    could silently change and pass the side-effect-free gate — the reproduce
+    job would catch it, but only when it runs (and with deploy-level trust).
+    Manifest coverage makes tamper-detection a property of the fast gate too."""
+    out: list[Finding] = []
+    if not cfg.manifest or not cfg.path(cfg.manifest).exists():
+        return out
+    manifested = _manifest_paths(cfg)
+    for c in claims:
+        if not c.get("reproduce"):
+            continue
+        arts = c.get("artifact", [])
+        if isinstance(arts, str):
+            arts = [arts]
+        for rel in arts:
+            if rel not in manifested:
+                out.append((f"manifest-uncovered:{c.get('id', '?')}:{rel}",
+                            f"claim {c.get('id', '?')} has a reproduce command but "
+                            f"its artifact {rel} is not in {cfg.manifest} — add it "
+                            f"so a silent edit fails the side-effect-free gate"))
     return out
 
 
@@ -616,6 +665,7 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
     findings += check_provenance(claims, cfg)
     findings += check_literature(claims, cfg)
     findings += check_manifest(cfg, notes)
+    findings += check_manifest_coverage(claims, cfg)
     docs = _doc_paths(cfg)
     for doc in docs:
         text = doc.read_text(encoding="utf-8", errors="replace")
