@@ -6,34 +6,46 @@
 teorem-identifikatorer, ingen verktøydetaljer — bare ideen, hvorfor den betyr noe
 for virksomheten, og hvordan begynne i det små.*
 
+*Skrevet for styremedlemmer, toppledere, risikoeiere, sikkerhetsledere og
+enterprise-arkitekter som må kunne vite hvilke AI-påstander virksomheten faktisk
+kan forsvare.*
+
 ---
 
 ## Problemet, i ett avsnitt
 
-Det meste av AI-governance er en bunke selvsikre dokumenter. En policy sier
-«overvåket for drift», «menneske i loopen», «skjevhet vurdert» — og ingen som
-leser det kan avgjøre om noe bak ordene er ekte. Dokumentet leses likt enten
-programmet er samvittighetsfullt eller kosmetisk. Det er ikke et
-formuleringsproblem; det er et *strukturelt* et. Den dagen en regulator, et styre
-eller en kunde ber deg bevise at en beslutning var forsvarlig, er en perm med
-betryggelse ikke et forsvar.
+Det meste av AI-governance består av en bunke selvsikre dokumenter. En policy
+sier «overvåket for drift», «menneske i loopen» eller «skjevhet vurdert» — men
+ingen som leser dokumentet kan avgjøre om ordene peker på noe reelt. Dokumentet
+leses likt enten programmet er samvittighetsfullt eller kosmetisk. Det er ikke et
+formuleringsproblem; det er et strukturelt styringsproblem. Den dagen en
+regulator, et styre eller en kunde ber deg bevise at en beslutning var
+forsvarlig, er en perm med betryggelser ikke et forsvar.
 
 ## Ideen, i én setning
 
-Behandle hver faktapåstand virksomheten din gjør om et AI-system som en **claim**
-— bundet til evidens, gradert etter hvor sterk den evidensen er, og med sine egne
-grenser — og nekt å gjøre en påstand du ikke kan stå inne for.
+Behandle hver faktapåstand virksomheten gjør om et AI-system som en **claim**: en
+påstand bundet til evidens, gradert etter evidensstyrke og avgrenset av
+eksplisitte forbehold. Ikke gjør påstander du ikke kan stå inne for. (*Claim*
+brukes her som fagterm for nettopp en slik evidensbundet påstand, slik
+hovedhåndboken bruker begrepet.)
 
-Den nektelsen er hele metoden. Et governance-program som *ikke kan* stilltiende
-akkumulere ustøttet betryggelse er ett en revisor kan stole på, fordi delene som
-er svake er navngitt i stedet for skjult.
+Den nektelsen er hele metoden. Et governance-program som ikke stilltiende kan
+akkumulere ustøttede forsikringer, er ett en revisor kan stole mer på, fordi
+delene som er svake er navngitt i stedet for skjult.
+
+**Et konkret eksempel.** Sier en policy at en kundeserviceagent «overvåkes for
+drift», må registeret kunne vise hvilken drift som måles, hvor ofte, med hvilken
+terskel, hvilken artefakt som dokumenterer målingen, og hvilket evidensnivå
+påstanden faktisk har. Det er forskjellen mellom en betryggende setning og en
+claim du kan forsvare.
 
 ## Hvorfor det betyr noe for virksomheten
 
 - **Revisjonsposisjon.** Når du utfordres, svarer du med en claim og evidensen
-  dens, ikke et skuldertrekk. Falsifiserbar governance gjør ikke et system trygt
-  i seg selv — den gjør *redegjørelsen din* for systemet forsvarlig, fordi hver
-  claim kan angripes og vises å holde.
+  bak den, ikke med et skuldertrekk. Falsifiserbar governance gjør ikke systemet
+  trygt i seg selv — den gjør redegjørelsen for systemet angripbar og forsvarlig,
+  fordi hver claim kan angripes og vises å holde.
 - **Raskere, tryggere beslutninger.** Et delt register over hva som faktisk er
   kjent lar arkitekter og risikoeiere gjenbruke verifiserte byggesteiner i stedet
   for å ta samme spørsmål på nytt.
@@ -59,12 +71,13 @@ teamene dine snakker om hva de vet.
 ## Hva det er — og ikke er
 
 **Det er** en måte å gjøre governance sjekkbar: tall bundet til evidens,
-dokumenter som feiler gjennomgang hvis de drifter, og grenser sagt høyt. **Det er
-ikke** juridisk rådgivning, en sertifisering, eller en garanti for at et system
-er trygt. Det beviser at *påstandene dine er konsistente med evidensen din* —
-ikke at et benchmark reflekterer virkeligheten eller at en setning prosa er sann.
-Å kjenne den grensen er det som holder metoden ærlig, og det er hvorfor
-tilnærmingen er troverdig der høylytte forsikringer ikke er det.
+dokumenter som feiler gjennomgang hvis de drifter fra registeret, og grenser som
+sies høyt. **Det er ikke** juridisk rådgivning, en sertifisering eller en garanti
+for at et system er trygt. Metoden viser at påstandene dine er konsistente med
+evidensen din — ikke at et benchmark fullt ut reflekterer virkeligheten, eller at
+enhver prosasetning er sann. Å kjenne den grensen er det som holder metoden
+ærlig, og det er hvorfor tilnærmingen er troverdig der høylytte forsikringer ikke
+er det.
 
 ## Minimum levedyktig adopsjon — begynn uten hele stacken
 
@@ -94,8 +107,8 @@ Steg 1–3 koster ingenting annet enn ærlighet og kan gjøres dette kvartalet. 
 Den sier det selv, i en egen «Ærlighet»-del. Rettferdighet er dens tynneste
 område — navngitt som fremtidig arbeid, ikke pyntet over. Runtime-
 sikkerhetsresultater er benchmark-avgrenset, med feltvalidering fortsatt
-ventende. Regulatoriske kryssreferanser kartlegger offentlig rammeverks-
-*struktur*, ikke klausul-nivå juridisk innhold, og er eksplisitt ikke
+ventende. Regulatoriske kryssreferanser kartlegger offentlig struktur på
+rammeverksnivå, ikke juridisk innhold på klausulnivå, og er eksplisitt ikke
 sertifisering. En governance-metode som publiserer sine egne hull er mer
 troverdig enn en som hevder å ha ingen.
 

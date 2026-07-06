@@ -6,6 +6,10 @@
 theorem identifiers, no tooling detail — just the idea, why it matters to the
 business, and how to start small.*
 
+*Written for board members, executives, risk owners, security leaders and
+enterprise architects who need to know which AI claims their organization can
+actually defend.*
+
 ---
 
 ## The problem, in one paragraph
@@ -26,6 +30,12 @@ its own limits — and refuse to make a claim you cannot back.
 That refusal is the whole method. A governance program that *cannot* quietly
 accumulate unsupported reassurance is one an auditor can trust, because the parts
 that are weak are named rather than hidden.
+
+**A concrete example.** If a policy says a customer-service agent is "monitored
+for drift", the register must be able to show *which* drift is measured, how
+often, at what threshold, which artifact records the measurement, and what
+evidence level the claim actually holds. That is the difference between a
+reassuring sentence and a claim you can defend.
 
 ## Why it matters to the business
 
