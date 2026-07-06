@@ -1,557 +1,1030 @@
 <!--
-  A VeriClaim master reference. This document is a SYNTHESIS: it does not
-  introduce new numbers of its own. Every quantitative statement carries an
-  inline citation of the form [ID] that resolves to a registered, gate-
-  verified claim (VeriClaim register or the claims library) or to a hash-
-  locked literature work in the canon. The registers are authoritative; if a
-  figure here ever disagrees with its cited claim, the claim wins. This file
-  lives outside doc_globs on purpose — it is a reference work over the
-  registers, not a source of primary claims.
+  A VeriClaim master reference / handbook. This document is a SYNTHESIS: it
+  introduces NO primary numbers of its own. Every quantitative statement
+  carries an inline citation [ID] that resolves to a registered, gate-verified
+  claim (the VeriClaim register or the claims library) or to a hash-locked
+  literature work in the canon. The registers are authoritative; if a figure
+  here ever disagrees with its cited claim, the claim wins. This file lives
+  OUTSIDE doc_globs on purpose — it is a reference work over the registers, not
+  a source of primary claims.
+
+  Design intent: readable at two levels at once. Every major concept opens with
+  a "▶ In plain terms" line for the newcomer and a "▷ In depth" body for the
+  practitioner. Diagrams are Mermaid; if your viewer does not render Mermaid,
+  each diagram is preceded by a one-line prose summary.
 -->
 
-# Frontier AI Governance — A VeriClaim Master Reference
+# The Frontier AI Governance Handbook
 
-*A single, citation-grounded reference that maps every source in the RAG and
-claims library, places the verified building blocks into enterprise
-architecture (TOGAF, NIST, EU AI Act, ISO/IEC 42001), and condenses the
-combined insight of the literature, the theorems, the artifacts and the
-runtime experiments into one governance operating model.*
+### A VeriClaim master reference for AI, governance, enterprise architecture, programming, claim-oriented programming, and frontier research
 
-**Status:** synthesis / reference work. **Authority:** the VeriClaim register
-(`claims/register.yaml`) and the claims library are the source of truth.
-**Every citation in this document is a VeriClaim citation** — a claim ID or a
-hash-locked canon work — verifiable via the register, the ledger
-(`/ledger/verify`), or the MCP tools (`search_claims`, `ask_research`,
-`get_claim_history`).
+*One place to look things up. Every quantitative claim is traced to verified
+evidence; every concept is explained at two levels — plain enough for a
+newcomer, precise enough for an architect. Read it front to back as a course,
+or jump to any entry as an encyclopedia.*
+
+> **Status:** living synthesis / handbook · **Authority:** the VeriClaim
+> register (`claims/register.yaml`) and the claims library are the source of
+> truth · **Citations:** every `[ID]` resolves via the register, the ledger
+> (`/ledger/verify`), or the MCP tools (`search_claims`, `ask_research`,
+> `get_claim_history`). A companion Norwegian edition lives at
+> `frontier-ai-governance-master_NO_nb.md`.
+
+---
+
+## The one-page map
+
+▶ **In plain terms:** this handbook has six parts — the *idea* (why
+falsifiable governance), the *method* (claim-oriented programming), the
+*knowledge* (the RAG library and verified building blocks), the *rules*
+(regulation and standards), the *architecture* (how it plugs into an
+enterprise), and the *practice* (how you actually do it day to day).
+
+```mermaid
+mindmap
+  root((AI Governance<br/>Handbook))
+    I Foundations
+      Why governance fails
+      Claim-Oriented Programming
+      The evidence ladder
+      The VeriClaim gate
+    II Knowledge base
+      The canon 180 works
+      Uncertainty and conformal
+      Verification-amplification
+      Decision theory
+      Runtime enforcement
+      Frontier and AGI
+    III Rules
+      NIST AI RMF
+      EU AI Act
+      ISO 42001
+      CSF 2.0 and Privacy
+      The crosswalk
+      Ten control objectives
+    IV Architecture
+      TOGAF ADM
+      Reference architecture
+      Operating model
+    V Practice
+      Build a governed feature
+      Consume a building block
+      Patterns and anti-patterns
+    VI Honesty
+      What it does NOT prove
+      Open problems
+```
 
 ---
 
 ## Table of contents
 
+**Part I — Foundations**
 1. [Executive summary — the singular insight](#1-executive-summary--the-singular-insight)
-2. [How to read this document](#2-how-to-read-this-document)
-3. [The method: claim-oriented governance](#3-the-method-claim-oriented-governance)
-4. [The evidence base: RAG library and canon](#4-the-evidence-base-rag-library-and-canon)
-5. [The regulatory and standards layer](#5-the-regulatory-and-standards-layer)
-6. [Placing the building blocks in enterprise architecture (TOGAF)](#6-placing-the-building-blocks-in-enterprise-architecture-togaf)
-7. [The verified control library](#7-the-verified-control-library)
-8. [The ten control objectives — coverage and operationalization](#8-the-ten-control-objectives--coverage-and-operationalization)
-9. [Runtime governance: the REMORA/AROMER evidence](#9-runtime-governance-the-remoraaromer-evidence)
-10. [Frontier and AGI literature as governance inputs](#10-frontier-and-agi-literature-as-governance-inputs)
-11. [The assurance argument](#11-the-assurance-argument)
-12. [Honest limitations — what this does NOT prove](#12-honest-limitations--what-this-does-not-prove)
-13. [Operating model and cadence](#13-operating-model-and-cadence)
-14. [Appendix A — collection index](#appendix-a--collection-index)
-15. [Appendix B — verified-theorem index](#appendix-b--verified-theorem-index)
-16. [Appendix C — framework crosswalk matrix](#appendix-c--framework-crosswalk-matrix)
-17. [Appendix D — glossary](#appendix-d--glossary)
+2. [What AI governance is, and why most of it fails](#2-what-ai-governance-is-and-why-most-of-it-fails)
+3. [Claim-Oriented Programming from first principles](#3-claim-oriented-programming-from-first-principles)
+4. [The evidence ladder](#4-the-evidence-ladder)
+5. [The VeriClaim gate — what it checks](#5-the-vericlaim-gate--what-it-checks)
+6. [The Cloudflare truth layer — RAG, vault, ledger, oracle](#6-the-cloudflare-truth-layer--rag-vault-ledger-oracle)
+
+**Part II — The knowledge base**
+7. [The canon: 180 works across 15 collections](#7-the-canon-180-works-across-15-collections)
+8. [Building block family 1 — uncertainty and selective prediction](#8-building-block-family-1--uncertainty-and-selective-prediction)
+9. [Building block family 2 — verification-amplification](#9-building-block-family-2--verification-amplification)
+10. [Building block family 3 — decision theory under uncertainty](#10-building-block-family-3--decision-theory-under-uncertainty)
+11. [Building block family 4 — runtime enforcement (REMORA/AROMER)](#11-building-block-family-4--runtime-enforcement-remoraaromer)
+12. [Frontier and AGI literature as governance inputs](#12-frontier-and-agi-literature-as-governance-inputs)
+
+**Part III — Rules: regulation and standards**
+13. [The regulatory landscape explained](#13-the-regulatory-landscape-explained)
+14. [The governance crosswalk (CLAIM-GOV-001)](#14-the-governance-crosswalk-claim-gov-001)
+15. [The ten control objectives — reference](#15-the-ten-control-objectives--reference)
+
+**Part IV — Enterprise architecture**
+16. [Enterprise architecture primer (TOGAF, Zachman, ArchiMate)](#16-enterprise-architecture-primer-togaf-zachman-archimate)
+17. [Placing the building blocks in TOGAF ADM](#17-placing-the-building-blocks-in-togaf-adm)
+18. [A reference architecture for a governed AI system](#18-a-reference-architecture-for-a-governed-ai-system)
+19. [Operating model, roles and cadence](#19-operating-model-roles-and-cadence)
+
+**Part V — Practice**
+20. [How to build a governed AI feature](#20-how-to-build-a-governed-ai-feature)
+21. [How to consume a building block](#21-how-to-consume-a-building-block)
+22. [Patterns and anti-patterns](#22-patterns-and-anti-patterns)
+23. [The assurance argument](#23-the-assurance-argument)
+
+**Part VI — Honesty**
+24. [What this does NOT prove](#24-what-this-does-not-prove)
+25. [Open problems and honest gaps](#25-open-problems-and-honest-gaps)
+
+**Appendices**
+- [A — Collection index](#appendix-a--collection-index)
+- [B — Verified-theorem index](#appendix-b--verified-theorem-index)
+- [C — Framework crosswalk matrix](#appendix-c--framework-crosswalk-matrix)
+- [D — Glossary](#appendix-d--glossary)
+- [E — Claim-ID quick reference](#appendix-e--claim-id-quick-reference)
+- [F — Reading paths by role](#appendix-f--reading-paths-by-role)
 
 ---
+---
+
+# Part I — Foundations
 
 ## 1. Executive summary — the singular insight
 
-Most AI-governance programs are a stack of assertions: a policy PDF says the
-system is fair, robust and overseen, and the reader is asked to trust the
-PDF. The insight that emerges when you combine everything in this library —
-the regulatory frameworks, the uncertainty theory, the verification
-mathematics, the runtime enforcement experiments, and the honest negative
-results — is that **governance can be made falsifiable**, and that a
-falsifiable governance program is categorically stronger than a persuasive
-one.
+▶ **In plain terms:** most AI governance is a stack of confident sentences in a
+PDF. This handbook shows how to make governance *falsifiable* — every claim
+tied to evidence a skeptic can check — and argues that falsifiable governance
+is categorically stronger than persuasive governance.
 
-Four findings, each grounded in a verified claim, compose into that thesis:
+▷ **In depth.** When you combine everything in this library — the regulatory
+frameworks, the uncertainty theory, the verification mathematics, the runtime
+enforcement experiments, and the honest negative results — one thesis emerges:
+**governance can be made falsifiable**, and a falsifiable governance program
+beats a persuasive one because a hostile reviewer can attack it and *fail to
+break it*. Four verified findings compose that thesis:
+
+```mermaid
+flowchart TB
+    A["Honesty is an optimum you can PROVE<br/>THM-SCORE-001 · 1028 pairs"] --> E
+    B["Capability comes from VERIFICATION, not only scale<br/>THM-ROUTE-001 · 87380 tables"] --> E
+    C["A fail-closed floor gives a HARD guarantee — and names its limit<br/>REMORA CLAIM-001/002/009"] --> E
+    D["Every obligation TRACES to a control<br/>CLAIM-GOV-001 · full coverage"] --> E
+    E(["Governance made FALSIFIABLE<br/>= a contract, not a narrative"])
+```
 
 - **Honesty is not a virtue you exhort; it is an optimum you can prove.** A
-  proper scoring rule makes truthful probability reporting the unique
-  minimizer of expected loss — verified exactly over 1028 (true-distribution,
-  alternative-report) pairs [THM-SCORE-001]. A governance system that scores
-  its components on calibration is therefore *mechanically* rewarding honesty,
-  not merely asking for it.
+  proper scoring rule makes truthful probability reporting the unique minimizer
+  of expected loss — verified exactly over 1028 (true-distribution,
+  alternative-report) pairs [THM-SCORE-001]. Score your components on
+  calibration and you *mechanically* reward honesty.
+- **Capability comes from verification, not only from scale.** A verifier-gated
+  cascade lets a cheap generator plus a selective check dominate a monolith on
+  cost/accuracy — over 87 380 exhaustive routing tables [THM-ROUTE-001] — with
+  the majority-vote amplification proven *and* its honest converse (voting
+  *degrades* a worse-than-chance voter) proven too [THM-VOTE-002].
+- **A fail-closed policy floor delivers a hard safety guarantee — and the same
+  evidence base names its limit.** REMORA's gate produced a **0.0%** unsafe-
+  execution rate on a 700-task adversarial benchmark vs 10–20% for heuristics
+  [REMORA CLAIM-001], and blocked **all 208** independent AgentHarm scenarios,
+  *externally validated* [REMORA CLAIM-002]. The AROMER negative result honestly
+  shows the residual **30.7%** false-accept under neutral metadata [REMORA
+  CLAIM-009].
+- **Every regulatory obligation traces to a verified control.** 29 elements of
+  five regimes map to 10 control objectives with full bidirectional coverage,
+  fail-closed [CLAIM-GOV-001].
 
-- **Capability comes from verification, not only from scale.** A verifier-
-  gated cascade lets a cheap generator plus a selective check dominate a
-  monolithic model on the cost/accuracy frontier — established over 87 380
-  exhaustive routing tables [THM-ROUTE-001], with the majority-vote
-  amplification that powers it proven *and* its honest converse (voting
-  *degrades* accuracy when the average voter is worse than chance) proven too
-  [THM-VOTE-002]. Governance that routes hard decisions to stronger review and
-  abstains under uncertainty is standing on a theorem, not a hope.
-
-- **A fail-closed policy floor delivers a hard safety guarantee — and the
-  same evidence base names its limit.** REMORA's policy gate produced a
-  **0.0%** unsafe-execution rate on a 700-task adversarial benchmark versus
-  10–20% for heuristic baselines [REMORA CLAIM-001], and blocked **all 208**
-  independently-sourced AgentHarm scenarios at FAR 0.0% — an
-  *externally_validated* result by dataset independence [REMORA CLAIM-002].
-  The library refuses to oversell it: the AROMER negative result shows the
-  structural policy is metadata-dependent, leaving a **30.7%** residual false-
-  accept rate under neutral-looking metadata [REMORA CLAIM-009]. The lesson —
-  a policy floor is necessary but not sufficient; it must be paired with
-  runtime monitoring — is itself a governed claim.
-
-- **Every regulatory obligation can be traced to a verified control.** The
-  public top-level structure of five governance regimes (NIST AI RMF 1.0,
-  NIST CSF 2.0, EU AI Act high-risk requirements, ISO/IEC 42001, NIST Privacy
-  Framework) — 29 framework elements — maps to 10 shared control objectives
-  with **full bidirectional coverage**: no orphan element, no uncovered
-  objective, and every objective demanded by at least two frameworks, all
-  verified fail-closed [CLAIM-GOV-001].
-
-The combination is the point. Uncertainty quantification tells you *when* to
-abstain; the verification mathematics tells you abstention and routing *buy
-capability*; the runtime evidence shows a policy floor *works and where it
-fails*; the crosswalk shows *which regulator each control answers to*; and the
-VeriClaim gate makes the whole chain *refuse to describe itself above its
-evidence*. That is a governance program a hostile reviewer can attack and
-fail to break — because every load-bearing sentence is bound to an artifact
-that reproduces byte-for-byte.
+The combination is the point: uncertainty theory says *when* to abstain; the
+verification math says abstention and routing *buy capability*; the runtime
+evidence shows a floor *works and where it fails*; the crosswalk shows *which
+regulator each control answers*; and the gate makes the whole chain *refuse to
+describe itself above its evidence*.
 
 ---
 
-## 2. How to read this document
+## 2. What AI governance is, and why most of it fails
 
-This is a reference work, not a narrative to read front to back. Three
-reading paths:
+▶ **In plain terms:** governance is the set of rules, roles and checks that
+keep an AI system safe, fair, lawful and accountable. Most of it fails because
+it is *unfalsifiable* — a document asserts good properties and no one can
+mechanically check them.
 
-- **Regulator / auditor:** §5 (regulatory layer) → §8 (control objectives) →
-  Appendix C (crosswalk matrix) → §12 (limits). You will find, for each
-  obligation, the control that answers it and the evidence level it has
-  earned.
-- **Enterprise architect:** §6 (TOGAF placement) → §7 (control library) → §13
-  (operating model). You will find where each building block sits in the ADM
-  and how to vendor it.
-- **Researcher / builder:** §3 (method) → §7 (control library) → §10 (frontier
-  literature) → Appendix B (theorem index). You will find the verified
-  primitives and the literature they rest on.
+▷ **In depth.** AI governance answers four questions: *Who is accountable? What
+could go wrong? How do we know it is working? What happens when it does not?*
+Traditional governance answers these in prose — a policy binder, a model card,
+an ethics statement. The failure mode is structural: prose accumulates
+*reassurance* without *evidence*. A model card can say "monitored for drift"
+whether or not anything monitors anything. An auditor cannot tell a diligent
+program from a cosmetic one by reading the document, because both read the same.
 
-**Citation convention.** `[CLAIM-XXX]`, `[THM-XXX]`, `[REF-NNN]`, `[REMORA
-CLAIM-NNN]` and `[DEMO-001]` are claim IDs resolvable in the VeriClaim
-register or the claims library. Canon works are cited by their registrar id
-(e.g. `arxiv:2407.14981`) and are preserved hash-locked. A citation proves the
-number is *registered and gate-verified*; it does not, by itself, prove the
-surrounding sentence is true — read the cited claim's own caveat.
+The insight this handbook operationalizes is to make each governance assertion
+a **claim** with a committed artifact, an evidence level, and a caveat — or to
+*refuse to write it*. The refusal is the discipline. A governance program that
+cannot quietly accumulate unsupported reassurance is one an auditor can trust.
 
----
+```mermaid
+flowchart LR
+    subgraph Traditional["Traditional governance"]
+        P1[Policy PDF asserts good properties] --> P2[Reader trusts the PDF]
+        P2 --> P3{{Auditor cannot<br/>distinguish diligent<br/>from cosmetic}}
+    end
+    subgraph Claim["Claim-oriented governance"]
+        C1[Assertion becomes a CLAIM] --> C2[Artifact + evidence level + caveat]
+        C2 --> C3[Gate verifies on every commit]
+        C3 --> C4{{Auditor attacks any<br/>clause; reproduce<br/>says if it drifted}}
+    end
+```
 
-## 3. The method: claim-oriented governance
-
-VeriClaim is Design-by-Contract lifted from the function to the whole
-project. A **claim** is a contract between what a system says about itself and
-the evidence on disk, checked in CI. The governance relevance is direct: a
-governance assertion ("the model is monitored for drift") becomes a claim with
-a committed artifact, an evidence level, and a caveat — or it does not get
-written.
-
-**What the gate verifies on every commit** — register integrity (fail-closed
-parsing), artifact existence, path containment, provenance sidecars, manifest
-hashes, doc binding (prose numbers tied to the register by anchors), evidence-
-level honesty (a doc cannot describe a claim above its earned level), stale-
-string suppression, and literature integrity (each cited source still hashes
-to its registered SHA-256). `vericlaim reproduce` separately re-runs each
-evidence script and fails unless the artifact is byte-identical — the number
-is *still true today*.
-
-**The evidence ladder** (weakest → strongest): `theoretical < measured <
-benchmarked < reproduced < machine_checked < externally_validated`. Grading is
-conservative; demotion is always allowed, promotion needs new evidence. This
-ladder is the governance program's honesty scale — a control described at
-`externally_validated` must have earned it (as REMORA's AgentHarm result did,
-by dataset independence [REMORA CLAIM-002]), while a curated crosswalk stays at
-`measured` [CLAIM-GOV-001] and a bibliographic pointer stays at `theoretical`
-[REF-051].
-
-**The tamper-evident ledger.** The optional Cloudflare truth layer mirrors the
-register into a searchable, hash-chained edge service with a witness anchor:
-the library ledger currently stands at 1408 entries across 192 verified
-bundles, and the client-side verifier confirms the chain has not been
-rewritten since the first anchor. This is the mechanism that turns "we have a
-governance policy" into "here is the append-only, independently-verifiable
-history of every governance claim we have ever made."
-
-**Why this matters for governance specifically.** The single most important
-property is *refusal*. The research oracle refuses to answer when no claim or
-hash-locked source supports an answer; the gate refuses to let prose outrun
-evidence. A governance program built this way cannot quietly accumulate
-unsupported reassurance — the failure mode that makes most AI-ethics
-documentation worthless to an auditor.
+**Why frontier AI raises the stakes.** Frontier systems are agentic (they take
+actions through tools), opaque (their reasoning is not directly inspectable),
+and fast-moving (capability shifts between releases). Each property defeats a
+classic control: agency defeats "review the output" (the action already fired),
+opacity defeats "explain the decision" (there is no legible rule), speed
+defeats "certify once" (the certified system is already obsolete). The response
+is not more prose — it is *runtime* enforcement (Part II, family 4), *selective*
+autonomy (families 1–3), and *continuous* verification (the gate, §5).
 
 ---
 
-## 4. The evidence base: RAG library and canon
+## 3. Claim-Oriented Programming from first principles
 
-The knowledge substrate is a hash-locked literature catalog served as a
-vectorized RAG over Cloudflare (Vectorize embeddings, D1 metadata, R2 content-
-addressed vault, Workers AI for reranking and query expansion).
+▶ **In plain terms:** Claim-Oriented Programming (COP) is Design-by-Contract
+raised from a single function to a whole project. A **claim** is a promise
+about the system backed by a file on disk, checked automatically. The rule is
+simple: *no number without an artifact.*
 
-**Scale (all figures from the CLAIM-LIB-RAG family):**
+▷ **In depth.** Design by Contract (Meyer) attaches preconditions,
+postconditions and invariants to functions. COP lifts that to the project: any
+factual assertion a project makes about *itself* — a benchmark number, a
+capability, a compliance property — is a contract between the words and the
+evidence, checked in CI by the VeriClaim gate.
+
+**The one rule:**
+
+> No number without an artifact. No doc number that isn't bound to the
+> register. No claim described above the evidence it has.
+
+**The STOP reflex.** The instant you are about to type a factual figure, stop:
+(1) *What committed artifact establishes this?* (2) *Is it in the register?*
+(3) *Does the register value match?* (4) *Does the prose carry the caveat?* Only
+if all four pass do you write the sentence. If no artifact exists you have three
+honest moves — produce it, register the claim at `theoretical` and say so, or do
+not write the number. There is no fourth move.
+
+**The procedure, as a loop:**
+
+```mermaid
+flowchart TB
+    S1[Write a deterministic script<br/>that MEASURES the thing] --> S2[Commit the artifact it writes<br/>+ provenance stamp]
+    S2 --> S3[Register the claim<br/>level + metrics + caveat]
+    S3 --> S4[Bind the doc number<br/>with an anchor]
+    S4 --> S5{vericlaim gate}
+    S5 -->|FAIL: names the drift| S6[Fix the DRIFT, never the gate]
+    S6 --> S5
+    S5 -->|OK| S7[vericlaim reproduce<br/>byte-identical?]
+    S7 -->|still true today| S8[Refresh mirror · witness · push]
+```
+
+**Worked example (the shape of every claim):**
+
+```yaml
+- id: CLAIM-AREA-001
+  statement: "One line: what is claimed."
+  evidence_level: benchmarked   # see the ladder, §4
+  artifact: [results/example.json]
+  metrics: { value: 42 }        # the numbers the docs may quote
+  caveat: "Scope and limitation — part of the claim, not a footnote."
+  reproduce: "python3 bench/example.py"
+```
+
+And the doc binding that ties prose to it:
+
+```markdown
+<!-- claim:CLAIM-AREA-001 value -->
+The measured value is **42** on the reference corpus (a demonstration corpus;
+see the register caveat).
+```
+
+**Why this is a governance substrate, not just a coding habit.** Every clause
+in a governance argument — "policy enforced", "drift monitored", "obligations
+mapped" — becomes a claim at a stated evidence level. The governance program
+*is* the register. Its trustworthiness is not rhetorical; it is the output of a
+gate that refuses drift.
+
+---
+
+## 4. The evidence ladder
+
+▶ **In plain terms:** not all evidence is equal. The ladder is six rungs from
+"we argued it" to "an independent party confirmed it". A claim may only be
+*described* at the rung it has *earned*.
+
+▷ **In depth.** The ladder, weakest to strongest:
+
+```mermaid
+flowchart LR
+    T[theoretical] --> M[measured] --> B[benchmarked] --> R[reproduced] --> C[machine_checked] --> E[externally_validated]
+    style T fill:#eee,stroke:#999
+    style E fill:#cfe,stroke:#3a3
+```
+
+| Rung | Meaning | Example in this library |
+|---|---|---|
+| **theoretical** | argued from principles or a bibliographic pointer; no measurement | a literature reference [REF-051] |
+| **measured** | a deterministic measurement over a committed artifact | the governance crosswalk coverage [CLAIM-GOV-001] |
+| **benchmarked** | measured on a defined benchmark with a stated protocol | REMORA's 700-task result [REMORA CLAIM-001] |
+| **reproduced** | re-run and byte-identical (`vericlaim reproduce`) | every gate-green claim, on each release |
+| **machine_checked** | verified by exhaustive/exact computation | the theorem batteries [THM-ROUTE-001] |
+| **externally_validated** | confirmed by an independent party or independent data | AgentHarm dataset-independence [REMORA CLAIM-002] |
+
+Grading is **conservative**: describe a claim only at the level it has earned.
+Demotion is always allowed; promotion needs new evidence. This ladder is the
+governance program's honesty scale — and the gate enforces it (a doc cannot
+describe a claim above its earned level).
+
+> **⚠️ A subtle point.** `machine_checked` is *stronger* than `benchmarked` for
+> the property it covers, but it covers a *smaller* property — an exact math
+> fact on bounded instances, not a real-world outcome. `externally_validated`
+> is the strongest *worldly* rung. Neither dominates the other across all
+> questions; read what each claim actually covers.
+
+---
+
+## 5. The VeriClaim gate — what it checks
+
+▶ **In plain terms:** the gate is an automatic checker that runs on every
+commit and refuses to let the project's words outrun its evidence.
+
+▷ **In depth.** The default gate is side-effect-free and checks nine things:
+
+```mermaid
+flowchart TB
+    subgraph Gate["vericlaim (every commit) — fail-closed"]
+        G1[1 Register integrity<br/>fail-closed parse] --> G2[2 Artifact existence]
+        G2 --> G3[3 Path containment<br/>no .. no absolute no symlink escape]
+        G3 --> G4[4 Provenance sidecars<br/>how each artifact was made]
+        G4 --> G5[5 Manifest hashes<br/>SHA-256 match]
+        G5 --> G6[6 Doc binding<br/>prose + code comments to register]
+        G6 --> G7[7 Evidence-level honesty]
+        G7 --> G8[8 Stale-string suppression]
+        G8 --> G9[9 Literature integrity<br/>source still hashes to registered SHA]
+    end
+    Gate --> OK{{[OK] or names the exact<br/>file:line that drifted}}
+```
+
+A separate command, `vericlaim reproduce`, *executes* each evidence script and
+fails unless the artifact is byte-identical — the number is *still true today*.
+
+**What the gate proves — and does not.** It proves *internal consistency and
+reproducibility*. It does **not** prove a benchmark is production-realistic,
+that evidence was not manipulated before commit, that `externally_validated`
+was truly external, or that a *sentence* is correct — doc binding proves a
+number is **present and register-matched**, not that the surrounding prose is
+true. Staying inside that boundary is itself part of the discipline (§24).
+
+---
+
+## 6. The Cloudflare truth layer — RAG, vault, ledger, oracle
+
+▶ **In plain terms:** an optional edge service that turns the register into a
+searchable, tamper-evident, hash-chained record — plus a literature RAG that
+*refuses* to answer when it has no grounds.
+
+▷ **In depth.** The truth layer mirrors the authoritative register into a
+Cloudflare stack and adds a literature RAG. It is strictly *additive*: the
+register + gate remain the source of truth; the edge can be stale and never
+blocks.
+
+```mermaid
+flowchart LR
+    REG[(Register<br/>authoritative)] -->|export/push| D1[(D1<br/>metadata)]
+    REG --> LED[Ledger<br/>hash-chained + witness]
+    subgraph Edge["Cloudflare edge (additive mirror)"]
+        D1 --> VEC[(Vectorize<br/>embeddings)]
+        R2[(R2 vault<br/>content-addressed)] --> ORA
+        VEC --> ORA[Research oracle<br/>rerank + REFUSE]
+        AI[Workers AI<br/>rerank · query expand] --> ORA
+        LED --> VER[/ledger/verify/]
+    end
+    ORA --> MCP[MCP tools<br/>search · ask · verify]
+```
+
+**Three honesty properties:**
+1. **Retrieval, never evidence.** Searchability proves a work was registrar-
+   verified or honestly snapshotted and hash-locked — *not* that its contents
+   are true. Tier travels with every hit.
+2. **Refusal at the boundary.** The oracle refuses when no chunk clears the
+   relevance bar; the refusal is scored only against *trusted* phrasings of the
+   query, so a prompt-injected query cannot manufacture relevance — the
+   grounded generator is the authoritative overclaim guard.
+3. **Tamper-evidence.** The ledger is append-only and hash-chained; the client
+   verifier confirms it has not been rewritten since the first anchor. The
+   library ledger currently stands at 1408 entries across 192 verified bundles.
+
+---
+---
+
+# Part II — The knowledge base
+
+## 7. The canon: 180 works across 15 collections
+
+▶ **In plain terms:** a curated, hash-locked library of 180 research works and
+standards, vectorized so you can ask it questions — and it answers only when it
+has grounds.
+
+▷ **In depth.** All scale figures are from the CLAIM-LIB-RAG family:
 
 | Property | Value | Citation |
 |---|---|---|
 | Canon works | 180 across 15 collections | [CLAIM-LIB-RAG-001] |
 | Registrar-verified into the catalog | 171 | [CLAIM-LIB-RAG-001] |
 | Documented drops (honest gaps) | 9, with 0 undocumented | [CLAIM-LIB-RAG-001] |
-| Deterministic content-addressed chunks | 9805, all pushed live | [CLAIM-LIB-RAG-002] |
+| Content-addressed chunks, all live | 9805 | [CLAIM-LIB-RAG-002] |
 | Live research endpoints verified | end-to-end | [CLAIM-LIB-RAG-003] |
 | Library ledger entries / bundles | 1408 / 192 | ledger `/summary` |
 
-**Three honesty properties of the catalog** distinguish it from an ordinary
-paper pile:
+**How retrieval + refusal actually works** (why you can trust an answer):
 
-1. **Retrieval, never evidence.** A work being searchable proves only that it
-   was registrar-verified (arXiv/Crossref/DOI) or honestly snapshotted (tier
-   `web-snapshot`, `accredited=false`) and hash-locked — *not* that its
-   contents are true. Tier travels with every hit.
-2. **Refusal at the boundary.** The oracle refuses when no chunk clears the
-   relevance bar, and the refusal decision is scored only against trusted
-   phrasings of the query (the raw text plus a hardened faithful translation),
-   so a prompt-injected query cannot manufacture relevance — the generator is
-   the authoritative overclaim guard and declines topics the excerpts do not
-   address.
-3. **Coverage is checked fail-closed.** A gap in the canon can be *honest* but
-   never *silent*: every work is either verified or a documented drop with a
-   reason.
+```mermaid
+sequenceDiagram
+    participant U as User query
+    participant W as Workers AI
+    participant V as Vectorize
+    participant R as Reranker
+    participant G as Grounded generator
+    U->>W: expand (translate + canonical vocab)
+    W->>V: union retrieval across trusted + expanded phrasings
+    V->>R: candidate chunks
+    R->>R: score ONLY trusted phrasings for the refusal gate
+    alt no chunk clears the bar
+        R-->>U: REFUSE (honest: "no grounds")
+    else grounded
+        R->>G: top chunks + tiers
+        G-->>U: answer + citations, declines unsupported parts
+    end
+```
 
-The 15 collections span the full governance surface — uncertainty and
-routing, LLM/agent architectures, evaluation and calibration, agent security,
-AI governance proper, MLOps and enterprise architecture, provenance and
-supply chain, formal methods, fairness/privacy/human-impact, assurance cases,
-ML training systems, software-engineering/SaaS, marketing science, finance,
-and the latest frontier/AGI research. The full index is Appendix A.
-
----
-
-## 5. The regulatory and standards layer
-
-Collection 05 (AI governance, 18 works) and collection 06 (MLOps and
-enterprise architecture, 13 works) hold the regulatory and standards
-literature, hash-locked. The **governance crosswalk building block**
-[CLAIM-GOV-001] turns that literature into an operational map: it encodes the
-stable, public top-level structure of five regimes and maps them to a shared
-control vocabulary.
-
-**The five regimes and their elements (as encoded, `framework_map.py`):**
-
-- **NIST AI RMF 1.0** — functions GOVERN, MAP, MEASURE, MANAGE.
-- **NIST CSF 2.0** — functions GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND,
-  RECOVER.
-- **EU AI Act, high-risk requirements (Art. 9–15 themes)** — risk-management
-  system, data and data governance, technical documentation, record-keeping,
-  transparency, human oversight, accuracy/robustness/cybersecurity.
-- **ISO/IEC 42001** — management-system clauses 4–10 (context, leadership,
-  planning, support, operation, performance evaluation, improvement).
-- **NIST Privacy Framework** — functions IDENTIFY-P, GOVERN-P, CONTROL-P,
-  COMMUNICATE-P, PROTECT-P.
-
-**The ten shared control objectives:** governance & accountability, risk
-management, data governance, transparency & documentation, human oversight,
-robustness & accuracy, logging & traceability, monitoring & post-market,
-fairness & non-discrimination, privacy & data protection.
-
-**The verified property** [CLAIM-GOV-001]: 29 framework elements map to the 10
-objectives via 42 edges with **full bidirectional coverage** — no orphan
-element (every regulatory element answers to at least one objective) and no
-uncovered objective (every objective is demanded by at least two frameworks),
-verified fail-closed by a checker that raises rather than returning a partial
-map. The full matrix is Appendix C.
-
-**What this is and is not.** It is a traceability aid over public framework
-*structure* — a reusable building block a project vendors to see which control
-objectives each regime demands and to check its own control set against them.
-It is **not** legal advice, **not** a compliance certification, and **not**
-evidence that any specific control is correctly implemented; article/clause
-specifics below the well-known top level are out of scope. That boundary is
-part of the claim, not a footnote to it.
+The full collection index is Appendix A. The four verified *building-block*
+families (§§8–11) are the reusable, machine-checked core; the literature
+(§§12–13) is the context they rest on.
 
 ---
 
-## 6. Placing the building blocks in enterprise architecture (TOGAF)
+## 8. Building block family 1 — uncertainty and selective prediction
 
-An enterprise such as a large operator (energy, telecom, finance) already runs
-an architecture practice. Frontier-AI governance succeeds when it plugs into
-that practice rather than sitting beside it. The mapping below places the
-VeriClaim building blocks into the TOGAF Architecture Development Method (ADM).
+▶ **In plain terms:** the math that lets a system *know when it does not know*
+and abstain instead of guessing — with a coverage guarantee that holds without
+assuming the data's distribution.
+
+▷ **In depth.** Conformal prediction wraps any predictor to output a *set* (or
+interval) that contains the truth with a chosen probability, distribution-free
+and finite-sample. The exact combinatorics of the coverage guarantee are
+machine-checked [THM-CONF-001], and a worked runtime demonstration shows
+conformal intervals covering the truth in **373 of 400** rounds (0.9325 against
+a 0.9 target) [DEMO-001].
+
+**Why governance needs this.** "The system knows when it does not know" is the
+precondition for *selective autonomy*: act when confident, abstain and escalate
+when not. It cashes out the EU AI Act Art. 15 accuracy/robustness requirement
+and the NIST AI RMF MEASURE function.
+
+> **Newcomer's intuition.** Imagine a weather app that, instead of always
+> saying "70% rain", sometimes says "I can't call this one — ask a human". A
+> conformal wrapper is the principled version: it is *guaranteed* to be right
+> about how often it's right, so its abstentions are trustworthy.
+
+**Honest limit.** The guarantee is *marginal* (over the distribution), not per-
+instance; it assumes exchangeable data; and the demonstration [DEMO-001] is one
+seeded, deterministic run with a fixed predictor — consistent with the
+guarantee, nothing more.
+
+---
+
+## 9. Building block family 2 — verification-amplification
+
+▶ **In plain terms:** checking an answer is often cheaper and more reliable than
+producing it — so a cheap producer plus a good checker can beat an expensive
+producer. This is *why* "route hard cases to stronger review" works.
+
+▷ **In depth.** Three machine-checked results:
+
+- **Best-of-n is an exact identity.** With n independent attempts each
+  succeeding with probability p, the chance at least one succeeds is
+  1 − (1−p)ⁿ — verified exactly by enumeration [THM-VOTE-001].
+- **Majority vote amplifies — and honestly degrades.** With independent voters
+  better than chance, majority accuracy rises toward 1 as you add voters
+  (Condorcet); with voters *worse* than chance it falls toward 0. Both
+  directions are proven [THM-VOTE-002]. The converse is the honest half most
+  treatments omit.
+- **Verifier-gated cascades dominate monoliths.** Routing each item to a big
+  model only when a cheap verifier is unsure beats always-big and always-small
+  on the cost/accuracy frontier — established over 87 380 exhaustive routing
+  tables [THM-ROUTE-001].
+
+```mermaid
+flowchart LR
+    IN[Input] --> S[Cheap model answers]
+    S --> V{Verifier<br/>confident?}
+    V -->|yes| OUT1[Accept cheap answer]
+    V -->|no| BIG[Escalate to strong model / human]
+    BIG --> OUT2[Accept escalated answer]
+```
+
+**Why governance needs this.** It is the formal licence for the human-oversight
+(Art. 14) and MANAGE (AI RMF) controls: abstain-and-escalate is not a cost
+centre, it is on the efficient frontier. It also underwrites the "capability
+from verification, not scale" thesis of §1.
+
+---
+
+## 10. Building block family 3 — decision theory under uncertainty
+
+▶ **In plain terms:** the small, exact results behind good decisions —
+including the proof that *telling the truth about your confidence is the
+optimal strategy*.
+
+▷ **In depth.** Four exact (rational-arithmetic) results:
+
+- **Brier properness — honesty is optimal.** Reporting your *true*
+  probabilities uniquely minimizes expected Brier score; every other report
+  scores strictly worse — verified over 1028 (true-distribution,
+  alternative-report) pairs [THM-SCORE-001]. This is the formal reason a
+  calibration-scored program rewards honesty.
+- **Secretary optimal stopping.** The optimal explore-then-commit threshold and
+  its exact win probability match by DP for every n ≤ 20 [THM-STOP-001].
+- **Minimax = maximin.** Every 2×2 integer-payoff zero-sum game has a single
+  value both players can secure — over all 6561 games [THM-GAME-001]. This
+  underwrites worst-case (adversarial) planning.
+- **Jensen / variance ≥ 0.** The inequality behind every expectation bound,
+  exact over the grid [THM-JENSEN-001].
+
+> **Why THM-SCORE-001 is the quiet centrepiece.** Governance keeps asking
+> people and models to "be honest about uncertainty". Proper scoring turns that
+> from an exhortation into an *equilibrium*: under a proper score, the
+> uniquely-best move is to say what you actually believe. Build your evaluation
+> on a proper score and you have made honesty the dominant strategy.
+
+---
+
+## 11. Building block family 4 — runtime enforcement (REMORA/AROMER)
+
+▶ **In plain terms:** a policy-as-code gate that blocks unsafe agent actions
+*before* they run — proven to work, and honest about exactly where it stops
+working.
+
+▷ **In depth.** The REMORA-research project supplies the runtime-governance
+evidence, gate-verified in its own repository and harvested into the library.
+
+**The floor works.** REMORA's full policy gate produced a **0.0%** unsafe-
+execution rate on a 700-task adversarial tool-call benchmark, vs 10–20% for
+every heuristic baseline; Wilson 95% CI on false-accept [0.00%, 0.55%] [REMORA
+CLAIM-001]. Crucially, the floor comes from **Stage-1 hard-block policy
+invariants** — not from the consensus machinery; the claim forbids citing it as
+evidence for the consensus layer.
+
+**Externally validated.** On AgentHarm (arxiv:2410.09024), REMORA blocked **all
+208** independent harmful scenarios, FAR 0.0%, Wilson [0.00%, 1.81%] — graded
+`externally_validated` by dataset independence [REMORA CLAIM-002].
+
+**The limit is published, not hidden.** Under *neutral-looking* trust metadata
+(trust=0.70), the structural policy's false-accept rate is **43.0%**
+(structural only), falling to **30.7%** after semantic enrichment — a residual
+gap requiring runtime execution monitoring [REMORA CLAIM-009]. Marked a NEGATIVE
+RESULT that "must NOT be removed or suppressed".
+
+```mermaid
+flowchart TB
+    A[Agent proposes a tool call] --> P{Stage-1 policy<br/>hard-block invariants}
+    P -->|violates invariant| DENY[DENY — fail-closed<br/>0.0% unsafe on benchmark]
+    P -->|passes| M{Metadata trustworthy?}
+    M -->|neutral / adversarial| GAP[Residual 30.7% FA<br/>needs runtime monitoring]
+    M -->|accurate high-risk| VER[VERIFY / ABSTAIN routing]
+    GAP --> RT[Runtime execution monitoring<br/>+ anytime-valid drift]
+    VER --> OUT[Allow / escalate]
+    RT --> OUT
+```
+
+**The composite lesson — a governed claim, not an opinion:** defense-in-depth. A
+fail-closed floor is *necessary* for a hard guarantee but *insufficient*
+against adversaries supplying benign-looking metadata, so it must be paired with
+runtime monitoring and drift detection — exactly the Art. 15 + Art. 14 +
+post-market composition the regulatory layer demands, arrived at empirically.
+
+---
+
+## 12. Frontier and AGI literature as governance inputs
+
+▶ **In plain terms:** you cannot govern what you do not understand, so the
+library tracks the frontier — reasoning models, agents, world models,
+interpretability — and deliberately includes the *skeptical* papers too.
+
+▷ **In depth.** Collection 15 (28 works) is balanced with honest counterpoints:
+
+| Theme | Representative works | Governance relevance |
+|---|---|---|
+| Reasoning / test-time compute | zero-shot reasoning; DeepSeek-R1 (arxiv:2501.12948); RAP; graph-of-thoughts | risk shifts from training to inference — monitoring must follow |
+| Agents | Voyager; generative agents; SWE-agent; AutoGen | autonomous tool-use is the surface REMORA governs — the threat model |
+| World models | MuZero; DreamerV3; decision transformer | planning agents internalize objectives — oversight must reach inside the loop |
+| Architectures | Mamba/S4; RWKV; ViT; CLIP; Flamingo | long-context + multimodal expand capability *and* attack surface |
+| Interpretability | induction heads; representation engineering; influence functions; Platonic hypothesis | make transparency (Art. 13) + oversight (Art. 14) tractable |
+| AGI framing + limits | Sparks (arxiv:2303.12712); Levels (arxiv:2311.02462); scalable oversight (arxiv:2211.03540); *"Emergent Abilities a Mirage?"* | the skeptical paper sits next to the AGI-claims paper — same discipline as publishing the AROMER negative result |
+
+The verifiable-claims agenda this whole system operationalizes is itself in the
+canon: "Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable
+Claims" (arxiv:2004.07213) [REF-051], alongside "Open Problems in Technical AI
+Governance" (arxiv:2407.14981) [REF-057].
+
+---
+---
+
+# Part III — Rules: regulation and standards
+
+## 13. The regulatory landscape explained
+
+▶ **In plain terms:** a handful of frameworks govern AI. They overlap more than
+they differ; the trick is to see them as different *reporting views* of the same
+underlying control objectives.
+
+▷ **In depth.** The regimes this handbook maps (canon collections 05–06):
+
+- **NIST AI RMF 1.0** — a *voluntary, risk-based* US framework. Four functions:
+  **GOVERN** (culture/accountability), **MAP** (context/risk framing),
+  **MEASURE** (analyze/track), **MANAGE** (prioritize/respond). Not a
+  checklist — a lifecycle.
+- **EU AI Act** — *binding EU law*, risk-tiered. For **high-risk** systems,
+  Articles 9–15 require a risk-management system, data governance, technical
+  documentation, record-keeping, transparency, human oversight, and
+  accuracy/robustness/cybersecurity. This is the most prescriptive regime here.
+- **ISO/IEC 42001** — a *certifiable AI management system standard* (like ISO
+  27001 for infosec). Plan-Do-Check-Act across clauses 4–10 (context,
+  leadership, planning, support, operation, performance evaluation,
+  improvement).
+- **NIST CSF 2.0** — the *cybersecurity* framework, now with a GOVERN function:
+  GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER. AI systems are software
+  systems; CSF still applies.
+- **NIST Privacy Framework** — privacy-risk companion to CSF: IDENTIFY-P,
+  GOVERN-P, CONTROL-P, COMMUNICATE-P, PROTECT-P.
+- **GDPR / NIS2** (canon collection 05) — EU data-protection and network/
+  information-security law; the legal floor under data governance and
+  security.
+
+> **The unifying move.** Rather than run five compliance programs, map all five
+> onto one set of **control objectives** and satisfy those. §14 does exactly
+> that, with a fail-closed coverage proof.
+
+---
+
+## 14. The governance crosswalk (CLAIM-GOV-001)
+
+▶ **In plain terms:** one map that connects every framework's parts to ten
+shared control objectives, with a checker that *refuses to compile* if any part
+is unmapped or any objective uncovered.
+
+▷ **In depth.** [CLAIM-GOV-001] encodes the public top-level structure of five
+regimes (29 elements) and maps them to 10 shared control objectives via 42
+edges, verified for **full bidirectional coverage** — no orphan element, no
+uncovered objective, every objective demanded by ≥2 frameworks — fail-closed.
+
+```mermaid
+flowchart LR
+    subgraph FW[Frameworks · 29 elements]
+        RMF[NIST AI RMF]
+        CSF[NIST CSF 2.0]
+        EU[EU AI Act]
+        ISO[ISO/IEC 42001]
+        PRIV[NIST Privacy]
+    end
+    subgraph OBJ[10 control objectives]
+        O1["Governance & accountability"]
+        O2["Risk management"]
+        O3["Data governance"]
+        O4["Transparency & documentation"]
+        O5["Human oversight"]
+        O6["Robustness & accuracy"]
+        O7["Logging & traceability"]
+        O8["Monitoring & post-market"]
+        O9["Fairness & non-discrimination"]
+        O10["Privacy & data protection"]
+    end
+    RMF --> O2
+    RMF --> O5
+    RMF --> O6
+    CSF --> O1
+    CSF --> O7
+    EU --> O4
+    EU --> O6
+    ISO --> O1
+    ISO --> O8
+    PRIV --> O10
+```
+
+*(The diagram shows representative edges; the complete 42-edge matrix is
+Appendix C.)*
+
+**What it is / is not.** A reusable traceability building block a project
+vendors to see which objectives each regime demands and check its own control
+set — **not** legal advice, **not** certification, **not** proof any control is
+correctly implemented. Article/clause specifics below the top level are out of
+scope. That boundary is part of the claim.
+
+---
+
+## 15. The ten control objectives — reference
+
+For each objective: a plain definition, which frameworks demand it (from the
+fail-closed crosswalk [CLAIM-GOV-001]), which VeriClaim building block
+operationalizes it, and the honest evidence level.
+
+### 15.1 Governance & accountability
+Defined roles, responsibility, oversight. *Frameworks:* AI RMF GOVERN, CSF
+GOVERN, ISO context/leadership/support, Privacy GOVERN-P. *Operationalized by:*
+the register + ledger as the accountable record. *Level:* measured.
+
+### 15.2 Risk management
+Identify, assess, treat AI risks. *Frameworks:* AI RMF GOVERN/MAP/MANAGE, CSF
+IDENTIFY, EU risk-management-system, ISO planning. *Operationalized by:*
+verifier-gated routing [THM-ROUTE-001] + conformal abstention [THM-CONF-001].
+*Level:* machine_checked (math) / benchmarked (application).
+
+### 15.3 Data governance
+Data quality, provenance, bias. *Frameworks:* AI RMF MAP, CSF IDENTIFY, EU
+data-governance, Privacy IDENTIFY-P. *Operationalized by:* provenance/supply-
+chain collection (07) + content-addressed vault. *Level:* measured.
+
+### 15.4 Transparency & documentation
+System/model documentation and disclosure. *Frameworks:* AI RMF MAP, EU
+tech-doc/transparency, Privacy COMMUNICATE-P. *Operationalized by:* claim
+caveats + evidence levels + the doc-binding gate. *Level:* measured.
+
+### 15.5 Human oversight
+Meaningful human control and intervention. *Frameworks:* AI RMF MANAGE, EU
+human-oversight, ISO operation. *Operationalized by:* verifier-gated escalation
+[THM-ROUTE-001]; REMORA VERIFY/ABSTAIN routing. *Level:* machine_checked /
+benchmarked.
+
+### 15.6 Robustness & accuracy
+Performance, robustness, security of the AI. *Frameworks:* AI RMF MEASURE, CSF
+PROTECT, EU accuracy/robustness, ISO operation. *Operationalized by:* the
+fail-closed policy floor [REMORA CLAIM-001/002]. *Level:* benchmarked /
+externally_validated.
+
+### 15.7 Logging & traceability
+Records, audit trail, event logging. *Frameworks:* CSF DETECT, EU
+record-keeping. *Operationalized by:* the hash-chained witness ledger +
+provenance sidecars. *Level:* measured.
+
+### 15.8 Monitoring & post-market
+Ongoing monitoring, drift, incident response. *Frameworks:* AI RMF
+MEASURE/MANAGE, CSF DETECT/RESPOND/RECOVER, ISO perf-eval/improvement.
+*Operationalized by:* `vericlaim reproduce`; anytime-valid monitoring (REMORA
+REM-020). *Level:* measured.
+
+### 15.9 Fairness & non-discrimination
+Bias assessment, equitable outcomes. *Frameworks:* AI RMF MEASURE, EU
+data-governance. *Operationalized by:* the fairness/privacy collection (09).
+*Level:* theoretical→measured — **the thinnest rung** (see §25).
+
+### 15.10 Privacy & data protection
+Personal-data protection and minimization. *Frameworks:* CSF PROTECT, Privacy
+IDENTIFY-P/CONTROL-P/PROTECT-P. *Operationalized by:* the privacy collection
+(09) + GDPR/NIS2 literature (05). *Level:* measured.
+
+---
+---
+
+# Part IV — Enterprise architecture
+
+## 16. Enterprise architecture primer (TOGAF, Zachman, ArchiMate)
+
+▶ **In plain terms:** enterprise architecture (EA) is the discipline of
+designing an organization's systems as a coherent whole. TOGAF is the most
+common *method*; Zachman is a *classification grid*; ArchiMate is a *modeling
+language*. Governance succeeds when it plugs into whichever the enterprise
+already uses.
+
+▷ **In depth.**
+- **TOGAF ADM** — the Architecture Development Method, a cycle of phases
+  (Preliminary, A–H) with Requirements Management at the centre. It answers
+  *how* to develop and govern architecture over time.
+- **Zachman Framework** — a 6×6 grid (What/How/Where/Who/When/Why ×
+  perspectives). It answers *what artifacts* a complete architecture description
+  contains — useful as a completeness checklist.
+- **ArchiMate** — a notation with business/application/technology layers. It
+  answers *how to draw* the architecture unambiguously.
+
+This handbook maps the VeriClaim building blocks onto **TOGAF ADM** (§17)
+because ADM's phase structure aligns naturally with a governance lifecycle, and
+its Requirements Management spine maps onto the register.
+
+---
+
+## 17. Placing the building blocks in TOGAF ADM
+
+▶ **In plain terms:** each phase of the standard architecture method gets a
+*falsifiable* deliverable instead of a prose one.
+
+▷ **In depth.**
+
+```mermaid
+flowchart TB
+    PRE[Preliminary<br/>gate = governance mechanism] --> A
+    A[A Vision<br/>10 objectives = NFRs] --> B
+    B[B Business<br/>accountability · RACI] --> C
+    C[C Data & App<br/>provenance · vault] --> D
+    D[D Technology<br/>conformal · REMORA · edge] --> E
+    E[E Solutions<br/>control library] --> F
+    F[F Migration<br/>REMORA TOGAF rollout plan] --> G
+    G[G Impl. Governance<br/>gate in CI · PDP/PEP] --> H
+    H[H Change Mgmt<br/>reproduce · ledger · drift] --> A
+    RM[(Requirements Mgmt<br/>register + CLAIM-GOV-001)]
+    A -.-> RM
+    C -.-> RM
+    E -.-> RM
+    G -.-> RM
+```
 
 | ADM phase | Governance concern | VeriClaim building block | Framework anchor |
 |---|---|---|---|
-| **Preliminary** | Establish the governance capability | The VeriClaim gate as the architecture-governance mechanism; the register as the requirements repository | ISO 42001 leadership/context; NIST AI RMF GOVERN |
-| **A — Vision** | Risk appetite, control objectives | The 10 control objectives [CLAIM-GOV-001] as the target architecture's non-functional requirements | EU AI Act Art. 9; NIST AI RMF MAP |
-| **B — Business** | Roles, accountability | `governance_accountability` objective; RACI over the register | ISO 42001 leadership; CSF GOVERN; Privacy GOVERN-P |
-| **C — Data & Application** | Data quality, provenance, model documentation | Provenance/supply-chain collection (07); content-addressed vault; `data_governance`, `transparency_documentation` objectives | EU AI Act Art. 10–11; AI RMF MAP |
-| **D — Technology** | Robustness, runtime platform | Conformal selective prediction [THM-CONF/DEMO-001]; runtime enforcement [REMORA CLAIM-001/002]; the Cloudflare edge | EU AI Act Art. 15; CSF PROTECT |
-| **E — Opportunities & Solutions** | Which controls to build | The verified control library (§7) as a catalogue of reusable, pre-verified solution building blocks | AI RMF MEASURE/MANAGE |
-| **F — Migration Planning** | Rollout sequence | The REMORA enterprise TOGAF rollout plan (`docs/enterprise/togaf-enterprise-rollout-plan.md`, REMORA repo) | ISO 42001 planning |
-| **G — Implementation Governance** | Enforcement in delivery | The gate in CI (fail-closed); policy-as-code PDP/PEP with fail-closed defaults [REMORA CLAIM-001] | EU AI Act Art. 14 (human oversight); CSF DETECT |
-| **H — Change Management** | Drift, monitoring, incident response | `monitoring_postmarket` objective; `vericlaim reproduce`; the witness ledger; anytime-valid monitoring (REMORA REM-020) | EU AI Act Art. 15; CSF RESPOND/RECOVER |
-| **Requirements Management (central)** | Single source of truth | The register + CLAIM-GOV-001 crosswalk as the architecture requirements repository | all five regimes |
-
-The organizing idea: **TOGAF gives you the phases; VeriClaim gives each phase
-a falsifiable deliverable.** Phase H's "we monitor for drift" becomes a
-reproduce-checked claim; Phase G's "we enforce policy" becomes a benchmarked
-fail-closed gate [REMORA CLAIM-001]; the Requirements Management spine becomes
-an append-only ledger rather than a wiki.
+| **Preliminary** | Establish the capability | The gate as architecture-governance mechanism; the register as requirements repository | ISO 42001 leadership; AI RMF GOVERN |
+| **A — Vision** | Risk appetite, objectives | The 10 control objectives [CLAIM-GOV-001] as non-functional requirements | EU AI Act Art. 9; AI RMF MAP |
+| **B — Business** | Roles, accountability | `governance_accountability`; RACI over the register | ISO 42001 leadership; CSF GOVERN |
+| **C — Data & Application** | Data quality, provenance, docs | Provenance collection (07); content-addressed vault | EU AI Act Art. 10–11 |
+| **D — Technology** | Robustness, runtime | Conformal [THM-CONF/DEMO-001]; REMORA [CLAIM-001/002]; the edge | EU AI Act Art. 15; CSF PROTECT |
+| **E — Solutions** | Which controls to build | The verified control library (§§8–11) | AI RMF MEASURE/MANAGE |
+| **F — Migration** | Rollout sequence | REMORA enterprise TOGAF rollout plan | ISO 42001 planning |
+| **G — Impl. Governance** | Enforcement in delivery | Gate in CI; fail-closed PDP/PEP [REMORA CLAIM-001] | EU AI Act Art. 14; CSF DETECT |
+| **H — Change Mgmt** | Drift, monitoring | `reproduce`; witness ledger; anytime-valid monitoring | EU AI Act Art. 15; CSF RESPOND/RECOVER |
+| **Requirements Mgmt** | Single source of truth | Register + crosswalk | all five regimes |
 
 ---
 
-## 7. The verified control library
+## 18. A reference architecture for a governed AI system
 
-The library holds ~40 machine-checked theorem claims and the runtime-
-enforcement claims that operationalize governance. They cluster into four
-capability families, each a reusable building block (`use_code` /
-`import_bundle`).
+▶ **In plain terms:** the blueprint — data comes in, a model acts, a fail-closed
+gate stands between the model and the world, and everything is logged to a
+tamper-evident ledger and continuously re-verified.
 
-### 7.1 Uncertainty and selective prediction
+▷ **In depth.**
 
-The mathematical licence to abstain. Conformal prediction gives distribution-
-free coverage guarantees whose exact finite-sample combinatorics are machine-
-checked [THM-CONF-001], and a worked runtime demonstration shows conformal
-intervals covering the truth in 373 of 400 rounds (0.9325 against a 0.9
-target) [DEMO-001]. **Governance use:** this is the primitive behind "the
-system knows when it does not know" — the EU AI Act Art. 15 accuracy/robustness
-requirement and the AI RMF MEASURE function both cash out here.
+```mermaid
+flowchart LR
+    DATA[(Governed data<br/>provenance · quality)] --> MODEL[Model / agent]
+    MODEL --> CONF{Confident?<br/>conformal}
+    CONF -->|no| ESC[Abstain / escalate<br/>human oversight]
+    CONF -->|yes| PEP{Policy gate<br/>fail-closed PDP/PEP}
+    PEP -->|deny| BLOCK[Blocked + logged]
+    PEP -->|allow| ACT[Action in the world]
+    ACT --> MON[Runtime monitoring<br/>+ drift detection]
+    BLOCK --> LEDGER[(Hash-chained ledger<br/>audit trail)]
+    ACT --> LEDGER
+    MON --> LEDGER
+    LEDGER --> REPRO[Periodic reproduce<br/>numbers still true?]
+```
 
-### 7.2 Verification-amplification
-
-The proof that verification buys capability. Best-of-n success is an exact
-identity over independent attempts [THM-VOTE-001]; majority vote *amplifies* a
-better-than-chance voter and — proven honestly — *degrades* a worse-than-
-chance one [THM-VOTE-002]; and a verifier-gated cascade dominates a monolith
-on cost/accuracy over 87 380 exhaustive tables [THM-ROUTE-001]. **Governance
-use:** justifies routing high-risk decisions to stronger review and abstaining
-under uncertainty — the human-oversight (Art. 14) and manage (AI RMF MANAGE)
-controls rest on this.
-
-### 7.3 Decision theory under uncertainty
-
-The reasoning primitives. Truthful probability reporting uniquely minimizes
-expected Brier score [THM-SCORE-001]; the secretary problem's optimal stopping
-value matches its threshold rule exactly for n ≤ 20 [THM-STOP-001]; minimax
-equals maximin over all 6561 integer-payoff 2×2 zero-sum games [THM-GAME-001];
-and variance is non-negative (Jensen for x²) exactly over the grid
-[THM-JENSEN-001]. **Governance use:** THM-SCORE-001 is the formal reason a
-calibration-scored governance program rewards honesty; THM-GAME-001 underwrites
-worst-case (adversarial) planning.
-
-### 7.4 Runtime enforcement
-
-Covered in depth in §9. The fail-closed policy floor [REMORA CLAIM-001/002]
-and its honest metadata-dependency limit [REMORA CLAIM-009] are the
-`robustness_accuracy`, `human_oversight` and `monitoring_postmarket`
-objectives made operational.
+Each element maps to a control objective (§15) and a building block (§§8–11).
+The architecture's defining property is that **the gate is in the action path**,
+not beside it: an unrecognized action denies by default (fail-closed), and the
+denial is itself an audit event.
 
 ---
 
-## 8. The ten control objectives — coverage and operationalization
+## 19. Operating model, roles and cadence
 
-For each shared objective: which frameworks demand it (from the fail-closed
-crosswalk [CLAIM-GOV-001]), which VeriClaim building block operationalizes it,
-and the honest evidence level.
+▶ **In plain terms:** who does what, how often, so the governance stays true
+over time rather than rotting into stale documentation.
 
-1. **Governance & accountability** — AI RMF GOVERN, CSF GOVERN, ISO 42001
-   context/leadership/support, Privacy GOVERN-P. *Operationalized by:* the
-   register + ledger as the accountable record of every claim. *Level:*
-   measured (the ledger verifies; accountability of people is organizational).
-2. **Risk management** — AI RMF GOVERN/MAP/MANAGE, CSF IDENTIFY, EU risk-
-   management-system, ISO planning. *Operationalized by:* verification-
-   amplification routing [THM-ROUTE-001] + conformal abstention [THM-CONF-001].
-   *Level:* machine_checked (the math) / benchmarked (the application).
-3. **Data governance** — AI RMF MAP, CSF IDENTIFY, EU data-governance, Privacy
-   IDENTIFY-P. *Operationalized by:* the provenance/supply-chain collection
-   (07) and the content-addressed vault. *Level:* measured.
-4. **Transparency & documentation** — AI RMF MAP, EU technical-documentation/
-   transparency, Privacy COMMUNICATE-P. *Operationalized by:* claim caveats +
-   evidence levels; the doc-binding gate. *Level:* measured.
-5. **Human oversight** — AI RMF MANAGE, EU human-oversight, ISO operation.
-   *Operationalized by:* verifier-gated routing to human review under
-   abstention [THM-ROUTE-001]; REMORA VERIFY/ABSTAIN routing. *Level:*
-   machine_checked / benchmarked.
-6. **Robustness & accuracy** — AI RMF MEASURE, CSF PROTECT, EU accuracy/
-   robustness/cybersecurity, ISO operation. *Operationalized by:* the fail-
-   closed policy floor [REMORA CLAIM-001/002]. *Level:* benchmarked /
-   externally_validated.
-7. **Logging & traceability** — CSF DETECT, EU record-keeping.
-   *Operationalized by:* the hash-chained witness ledger; provenance sidecars.
-   *Level:* measured.
-8. **Monitoring & post-market** — AI RMF MEASURE/MANAGE, CSF DETECT/RESPOND/
-   RECOVER, ISO performance-evaluation/improvement. *Operationalized by:*
-   `vericlaim reproduce`; anytime-valid monitoring (REMORA REM-020). *Level:*
-   measured.
-9. **Fairness & non-discrimination** — AI RMF MEASURE, EU data-governance.
-   *Operationalized by:* the fairness/privacy collection (09). *Level:*
-   theoretical→measured (literature-anchored; application is deployment-
-   specific — an honest thin spot, see §12).
-10. **Privacy & data protection** — CSF PROTECT, Privacy IDENTIFY-P/CONTROL-P/
-    PROTECT-P. *Operationalized by:* the privacy collection (09), GDPR/NIS2
-    literature (05). *Level:* measured.
+▷ **In depth.**
 
-The crosswalk guarantees every one of these is demanded by at least two
-frameworks and answered by at least one building block — but the evidence
-levels are deliberately uneven, and §12 says where.
+| Cadence | Activity | Owner |
+|---|---|---|
+| **Continuous (CI)** | The gate on every commit; fail-closed | every contributor |
+| **Per release** | `reproduce` over the full register; edge mirror refresh; witness | release engineer |
+| **Periodic (governance review)** | Re-run crosswalk coverage; review evidence levels for drift/demotion; check the honest-gap list (§25) | accountable governance role (ISO 42001 leadership) |
+| **On incident** | The ledger's append-only history is the audit trail; `reproduce` re-establishes which numbers still hold | incident owner |
+
+**RACI, minimal:** the *register* is Accountable to the governance role,
+Responsible to every contributor, Consulted with the architecture practice
+(TOGAF), and Informed to auditors/regulators via the ledger.
+
+---
+---
+
+# Part V — Practice
+
+## 20. How to build a governed AI feature
+
+▶ **In plain terms:** measure first, claim second, write the prose last — and
+let the gate catch you if you drift.
+
+▷ **In depth**, as a checklist:
+
+1. **Produce the evidence.** Write a *deterministic* script that measures the
+   property; commit the artifact it writes with a provenance stamp.
+2. **Register the claim** at its *earned* level, with metrics and a caveat.
+3. **Bind any doc number** with a `<!-- claim:ID field -->` anchor.
+4. **Run `vericlaim`** — must print `[OK]`; it names any drift by `file:line`.
+5. **Run `vericlaim reproduce`** when code a benchmark depends on changed.
+6. **Refresh the edge mirror**; for library changes, **witness** and push
+   `claims/witness.jsonl`.
+
+> **The reflex that matters most:** when you are about to type a figure and no
+> artifact exists — stop. Produce it, or register at `theoretical` and say so,
+> or do not write it.
 
 ---
 
-## 9. Runtime governance: the REMORA/AROMER evidence
+## 21. How to consume a building block
 
-The most consequential governance lesson in the library comes from the REMORA-
-research project, whose claims are harvested into the library and gate-
-verified in their own repository.
+▶ **In plain terms:** you can reuse a verified control from the library without
+re-deriving it — and you inherit its honesty (level + caveat) unchanged.
 
-**The floor works.** REMORA's full policy gate produced a **0.0%** unsafe-
-execution rate on a 700-task adversarial tool-call benchmark, versus 10–20%
-for every heuristic baseline, with a Wilson 95% CI on the false-accept rate of
-[0.00%, 0.55%] [REMORA CLAIM-001]. The floor is produced by **Stage-1 hard-
-block policy invariants** — policy-as-code — not by the multi-oracle consensus
-machinery; the claim says so explicitly and forbids citing it as evidence for
-the consensus layer. This is fail-closed governance: an unrecognized action
-denies by default.
+▷ **In depth.** `fetch_bundle` → `import_bundle` (offline hash verification) →
+`use_code` (byte-exact vendoring with a binding test). A consuming project
+inherits the claim's evidence level and caveat; an importer can **demote but
+never silently upgrade**. Example targets: the conformal wrapper [THM-CONF],
+the verifier-gated router [THM-ROUTE-001], the governance crosswalk
+[CLAIM-GOV-001], the decision-theory battery [THM-SCORE/STOP/GAME/JENSEN].
 
-**The floor is externally validated.** On the AI Safety Institute's AgentHarm
-benchmark (arxiv:2410.09024), REMORA blocked **all 208** independently-sourced
-harmful scenarios at FAR 0.0%, Wilson 95% CI [0.00%, 1.81%] — graded
-`externally_validated` because the dataset was independent of REMORA's corpus
-[REMORA CLAIM-002]. External validity here is *earned by dataset
-independence*, the strongest rung the evidence ladder offers.
-
-**The floor's limit is stated, not hidden.** The AROMER negative result is the
-governance masterstroke: under *neutral-looking* trust metadata (trust=0.70),
-the structural policy's false-accept rate is **43.0%** (structural only),
-falling to **30.7%** after semantic enrichment — a residual gap that
-"requires runtime execution monitoring or world-model seeding" [REMORA
-CLAIM-009]. The claim is marked a NEGATIVE RESULT that "must NOT be removed or
-suppressed," and it also discloses that semantic enrichment *raises* the
-false-block (friction) rate. A governance program that publishes its own
-worst number is one an auditor can trust on its best number.
-
-**The composite lesson** — and it is a *governed claim*, not an opinion —
-is defense-in-depth: a fail-closed policy floor is necessary for a hard safety
-guarantee but insufficient against adversaries who supply benign-looking
-metadata, so it must be paired with runtime execution monitoring and
-anytime-valid drift detection. This is exactly the Art. 15 (robustness) +
-Art. 14 (human oversight) + post-market-monitoring composition that the
-regulatory layer demands, arrived at empirically.
+```mermaid
+sequenceDiagram
+    participant P as Your project
+    participant L as Claims library
+    P->>L: fetch_bundle(id)
+    L-->>P: bundle (claim + code + artifact)
+    P->>P: import_bundle — verify hashes offline
+    P->>P: use_code — vendor byte-exact + binding test
+    Note over P: inherits evidence level + caveat<br/>(demote allowed, upgrade never)
+```
 
 ---
 
-## 10. Frontier and AGI literature as governance inputs
+## 22. Patterns and anti-patterns
 
-Collection 15 (28 works) holds the latest AGI research, curated because
-frontier capability *is* a governance input: you cannot govern what you do not
-understand. The collection is deliberately balanced with honest counterpoints.
-
-- **Reasoning and test-time compute** — zero-shot reasoning (`kojima-2022`),
-  RL-trained reasoning (DeepSeek-R1, arxiv:2501.12948), reasoning-as-planning
-  (RAP), graph-of-thoughts, decoding-time reasoning. *Governance relevance:*
-  test-time compute shifts risk from training to inference — monitoring must
-  follow.
-- **Agents** — Voyager, generative agents, SWE-agent, AutoGen. *Relevance:*
-  autonomous tool-use is the exact surface REMORA governs; these define the
-  threat model.
-- **World models and planning** — MuZero, DreamerV3, decision transformer.
-  *Relevance:* planning agents internalize objectives; oversight must reach
-  inside the loop.
-- **Architectures** — Mamba/S4 state-space models, RWKV, ViT, CLIP, Flamingo.
-  *Relevance:* long-context and multimodal expand both capability and attack
-  surface.
-- **Interpretability** — induction heads, representation engineering,
-  influence functions, the Platonic representation hypothesis. *Relevance:*
-  the transparency (Art. 13) and human-oversight (Art. 14) obligations become
-  tractable only with these tools.
-- **AGI framing and its honest limits** — "Sparks of AGI" (arxiv:2303.12712),
-  "Levels of AGI" (arxiv:2311.02462), scalable oversight (arxiv:2211.03540),
-  and crucially the counterpoint that emergent abilities may be a **metric
-  artifact** ("Are Emergent Abilities a Mirage?"). Including the skeptical
-  paper next to the AGI-claims paper is the same discipline as publishing the
-  AROMER negative result: the library does not sell a narrative it cannot
-  defend.
-
-The verifiable-claims agenda this whole system operationalizes is itself in
-the canon: "Toward Trustworthy AI Development: Mechanisms for Supporting
-Verifiable Claims" (arxiv:2004.07213) [REF-051], alongside "Open Problems in
-Technical AI Governance" (arxiv:2407.14981) [REF-057].
+| ✅ Pattern | ❌ Anti-pattern |
+|---|---|
+| Measure, then claim, then write | "This number is about right" |
+| Register the caveat with the number | Quote the number, drop the scope |
+| Abstain-and-escalate under uncertainty | Force a confident answer always |
+| Fail-closed default (deny the unknown) | Fail-open ("allow unless blocked") |
+| Publish the negative result [REMORA CLAIM-009] | Delete results that look bad |
+| Grade conservatively; demote when evidence weakens | Silent promotion to a nicer level |
+| One set of control objectives, many reporting views | Five parallel compliance binders |
+| Fix the drift the gate names | "Work around the gate" |
 
 ---
 
-## 11. The assurance argument
+## 23. The assurance argument
 
-Read as a single claim, the argument this document assembles is:
+▶ **In plain terms:** the whole handbook, compressed into a single claim you
+can attack.
 
-> *A frontier-AI system is governed to the highest available standard when
-> every regulatory obligation is traced to a control [CLAIM-GOV-001], each
-> control is a building block whose behavior is verified at a stated evidence
-> level (§7), the runtime is fail-closed with an externally-validated safety
-> floor [REMORA CLAIM-002] whose limits are disclosed [REMORA CLAIM-009], and
-> the entire chain is held in an append-only, reproduce-checked, hash-chained
-> register that refuses to describe itself above its evidence (§3).*
+▷ **In depth.**
 
-Each clause is falsifiable and each is backed. The assurance case is not "trust
-this document"; it is "attack any clause — the gate, the ledger and the
-reproduce ritual will tell you if it has drifted." That is the difference
-between a governance *narrative* and a governance *contract*.
+```mermaid
+flowchart BT
+    L1[Regulatory obligations traced to controls<br/>CLAIM-GOV-001] --> TOP
+    L2[Each control verified at a stated level<br/>§§8-11] --> TOP
+    L3[Runtime fail-closed + externally validated<br/>REMORA CLAIM-002] --> TOP
+    L4[Limits disclosed<br/>REMORA CLAIM-009 · §24] --> TOP
+    L5[Whole chain reproduce-checked + hash-chained<br/>§5-6] --> TOP
+    TOP(["A frontier-AI system governed to the<br/>highest available standard —<br/>and every clause is falsifiable"])
+```
 
----
+> *A frontier-AI system is governed to the highest available standard when every
+> regulatory obligation is traced to a control [CLAIM-GOV-001], each control is
+> verified at a stated evidence level (§§8–11), the runtime is fail-closed with
+> an externally-validated safety floor [REMORA CLAIM-002] whose limits are
+> disclosed [REMORA CLAIM-009], and the entire chain is held in an append-only,
+> reproduce-checked, hash-chained register that refuses to describe itself above
+> its evidence (§§5–6).*
 
-## 12. Honest limitations — what this does NOT prove
-
-The discipline that makes the rest credible requires stating the gaps plainly.
-
-- **The gate proves internal consistency and reproducibility, not truth.** Doc
-  binding proves a number is *present and register-matched*, not that the
-  surrounding sentence is correct, that a benchmark is production-realistic, or
-  that evidence was not manipulated before commit.
-- **The crosswalk is structural, not legal.** [CLAIM-GOV-001] maps public top-
-  level framework structure to control objectives with verified coverage. It is
-  not compliance certification and does not reach article/clause specifics.
-  Do not present it to a regulator as conformity evidence.
-- **Runtime results are simulator-scoped.** REMORA's benchmarks run no real
-  shell, network, database or file mutations [REMORA CLAIM-001]; the safety
-  floor is a benchmark result pending real-world field validation, and the
-  AgentHarm external validity is intent-gating, not verified tool-call
-  interception [REMORA CLAIM-002].
-- **Fairness is the thinnest rung.** Objective 9 is literature-anchored but its
-  operationalization is deployment-specific; this library does not yet carry a
-  machine-checked fairness building block comparable to the conformal or
-  verifier-math batteries. That is a known gap, stated here rather than papered
-  over.
-- **Machine-checked theorems are bounded instances.** The exhaustive checks
-  (e.g. 87 380 cascade tables [THM-ROUTE-001], 6561 games [THM-GAME-001]) are
-  exact *within their stated bounds*; the general asymptotic statements remain
-  literature, not proof.
-- **Literature citations are bibliographic.** A [REF-NNN] claim asserts the
-  registrar record exists and the extract is hash-locked — nothing about the
-  cited work's correctness; preprint snapshots may differ from peer-reviewed
-  versions.
-
-None of these undermine the thesis; they define its perimeter. A governance
-program that knows its own perimeter is the one worth trusting inside it.
+The assurance case is not "trust this document"; it is "attack any clause — the
+gate, the ledger, and the reproduce ritual will tell you if it has drifted".
 
 ---
+---
 
-## 13. Operating model and cadence
+# Part VI — Honesty
 
-**The verification ritual (every change):** produce the artifact
-deterministically → register the claim at its earned level with a caveat →
-bind any doc number → run `vericlaim` (must print `[OK]`) → when code a
-benchmark depends on changed, run `vericlaim reproduce` → on green, refresh the
-edge mirror and, for library changes, witness (`--record`) and push
-`claims/witness.jsonl` to complete the public anchor.
+## 24. What this does NOT prove
 
-**Cadence and roles:**
+▶ **In plain terms:** the reason to trust the strong claims is that the weak
+spots are stated just as plainly.
 
-- *Continuous (CI):* the gate on every commit; fail-closed. Owner: every
-  contributor.
-- *Per release:* `reproduce` over the full register; edge mirror refresh;
-  witness. Owner: release engineer.
-- *Periodic (governance review):* re-run the crosswalk coverage check; review
-  evidence levels for drift or demotion; check the honest-gap list (§12).
-  Owner: the accountable governance role (ISO 42001 leadership).
-- *On incident:* the ledger's append-only history is the audit trail; the
-  reproduce ritual re-establishes which numbers still hold.
+▷ **In depth.**
+- **The gate proves consistency and reproducibility, not truth.** Doc binding
+  proves a number is *present and register-matched*, not that the sentence is
+  correct, the benchmark realistic, or the evidence unmanipulated before commit.
+- **The crosswalk is structural, not legal** [CLAIM-GOV-001] — not compliance
+  certification; do not present it to a regulator as conformity evidence.
+- **Runtime results are simulator-scoped** — REMORA runs no real shell/network/
+  DB/file mutations [REMORA CLAIM-001]; the AgentHarm external validity is
+  intent-gating, not verified tool-call interception [REMORA CLAIM-002].
+- **Machine-checked theorems are bounded instances** — exact within stated
+  bounds (87 380 tables [THM-ROUTE-001]; 6561 games [THM-GAME-001]); the general
+  asymptotic statements remain literature.
+- **Literature citations are bibliographic** — a [REF-NNN] asserts the registrar
+  record exists and the extract is hash-locked, nothing about the work's
+  correctness.
 
-**How to consume a building block:** `fetch_bundle` → `import_bundle` (offline
-hash verification) → `use_code` (byte-exact vendoring with a binding test). A
-consuming project inherits the claim's evidence level and caveat unchanged — an
-importer can demote but never silently upgrade.
+## 25. Open problems and honest gaps
+
+- **Fairness is the thinnest building block** (§15.9): literature-anchored but
+  no machine-checked fairness primitive comparable to the conformal or
+  verifier-math batteries. Named, not papered over.
+- **Field validation of the runtime floor** is pending — the 0.0% is benchmark-
+  scoped [REMORA CLAIM-001]; real-world tool-call interception is future work.
+- **The crosswalk stops at top-level structure** — article/clause-level
+  traceability is a natural next building block.
+- **Human-gated assurance steps** (independent review of the runtime project)
+  remain the highest-leverage next step for the strongest evidence rungs.
+
+These define the perimeter; a governance program that knows its own perimeter
+is the one worth trusting inside it.
 
 ---
+---
+
+# Appendices
 
 ## Appendix A — collection index
 
@@ -575,37 +1048,32 @@ importer can demote but never silently upgrade.
 | 14 | Finance | 6 |
 | 15 | Frontier reasoning and AGI | 28 |
 
----
-
 ## Appendix B — verified-theorem index
 
-The machine-checked building blocks (claims library, `machine_checked` unless
-noted). Selected, grouped by family:
+Machine-checked building blocks (claims library, `machine_checked` unless
+noted), grouped by family:
 
-- **Uncertainty:** conformal prediction combinatorics [THM-CONF-001..004];
-  worked runtime demonstration [DEMO-001, benchmarked].
+- **Uncertainty:** conformal combinatorics [THM-CONF-001..004]; runtime
+  demonstration [DEMO-001, benchmarked].
 - **Verification-amplification:** best-of-n identity [THM-VOTE-001]; majority
-  amplification + honest degradation converse [THM-VOTE-002]; verifier-gated
-  cascade dominance, 87 380 tables [THM-ROUTE-001].
+  amplification + honest degradation [THM-VOTE-002]; verifier-gated cascade
+  dominance, 87 380 tables [THM-ROUTE-001].
 - **Decision theory:** Brier properness [THM-SCORE-001]; secretary stopping
   [THM-STOP-001]; minimax=maximin, 6561 games [THM-GAME-001]; Jensen/variance
   [THM-JENSEN-001].
-- **Classical foundations (selected):** Chernoff–Hoeffding [THM-CH-001];
-  central limit demonstration [THM-CLT-001, benchmarked]; Johnson–
-  Lindenstrauss [THM-JL-001]; KKT [THM-KKT-001]; max-flow/min-cut
-  [THM-MFMC-001]; no-free-lunch [THM-NFL-001]; universal approximation
-  [THM-UAT-001]; VC dimension [THM-VC-001]; Bayes/posterior
-  [THM-BAYES-001, THM-POST-001]; Lean-verified set [THM-LEAN-001..003].
+- **Classical foundations (selected):** Chernoff–Hoeffding [THM-CH-001]; CLT
+  demonstration [THM-CLT-001, benchmarked]; Johnson–Lindenstrauss [THM-JL-001];
+  KKT [THM-KKT-001]; max-flow/min-cut [THM-MFMC-001]; no-free-lunch
+  [THM-NFL-001]; universal approximation [THM-UAT-001]; VC dimension
+  [THM-VC-001]; Bayes/posterior [THM-BAYES-001, THM-POST-001]; Lean-verified set
+  [THM-LEAN-001..003].
 
-Grade and exact scope live in each claim's register entry; the counts above
-are the exhaustive-check sizes recorded in the evidence artifacts.
-
----
+Exact grade and scope live in each claim's register entry; counts above are the
+exhaustive-check sizes recorded in the evidence artifacts.
 
 ## Appendix C — framework crosswalk matrix
 
-Coverage of the 10 control objectives by the 5 frameworks [CLAIM-GOV-001]. A
-cell marks the framework elements that address the objective (abbreviated).
+Coverage of the 10 control objectives by the 5 frameworks [CLAIM-GOV-001]:
 
 | Objective | AI RMF | CSF 2.0 | EU AI Act | ISO 42001 | Privacy |
 |---|---|---|---|---|---|
@@ -623,26 +1091,55 @@ cell marks the framework elements that address the objective (abbreviated).
 Verified: 29 elements, 42 edges, no orphan element, no uncovered objective,
 every objective covered by ≥2 frameworks, checked fail-closed [CLAIM-GOV-001].
 
----
-
 ## Appendix D — glossary
 
-- **Claim** — a contract between a stated fact and a committed artifact,
-  checked by the VeriClaim gate.
-- **Evidence level** — the honesty rung a claim has earned: theoretical <
-  measured < benchmarked < reproduced < machine_checked < externally_validated.
-- **Fail-closed** — the default on any unrecognized input is deny/refuse, not
-  allow; the property behind both the gate and REMORA's policy floor.
-- **Control objective** — one of the 10 shared themes every high-standard AI
-  governance program must cover [CLAIM-GOV-001].
+- **Claim** — a contract between a stated fact and a committed artifact, checked
+  by the gate.
+- **Evidence level** — the honesty rung a claim earned: theoretical < measured
+  < benchmarked < reproduced < machine_checked < externally_validated.
+- **Fail-closed** — the default on any unrecognized input is deny/refuse.
+- **Control objective** — one of the 10 shared themes [CLAIM-GOV-001].
 - **Canon** — the hash-locked literature catalog (180 works) served as the RAG.
 - **Ledger / witness** — the append-only, hash-chained public record of every
   library claim; independently verifiable.
 - **Building block** — a reusable, pre-verified claim + code, consumed via
-  `import_bundle` / `use_code` with its evidence level and caveat intact.
+  `import_bundle` / `use_code` with its level and caveat intact.
+- **PDP / PEP** — Policy Decision Point / Policy Enforcement Point; the
+  fail-closed gate in the action path.
+- **TOGAF ADM** — the Architecture Development Method; the phase cycle this
+  handbook maps building blocks onto (§17).
+
+## Appendix E — claim-ID quick reference
+
+| ID | What it establishes | Level |
+|---|---|---|
+| CLAIM-LIB-RAG-001 | 180 canon works / 15 collections / 171 verified / 9 drops | measured |
+| CLAIM-LIB-RAG-002 | 9805 content-addressed chunks, all pushed live | measured |
+| CLAIM-LIB-RAG-003 | live research endpoints verified end-to-end | measured |
+| CLAIM-GOV-001 | 5 frameworks → 10 objectives, full coverage, fail-closed | measured |
+| THM-SCORE-001 | Brier properness — honesty is optimal (1028 pairs) | machine_checked |
+| THM-ROUTE-001 | verifier-gated cascade dominance (87 380 tables) | machine_checked |
+| THM-VOTE-001/002 | best-of-n identity; amplification + honest degradation | machine_checked |
+| THM-GAME-001 | minimax=maximin (6561 games) | machine_checked |
+| THM-STOP-001 | secretary optimal stopping (n ≤ 20) | machine_checked |
+| THM-JENSEN-001 | variance ≥ 0 (Jensen) | machine_checked |
+| THM-CONF-001 | conformal coverage combinatorics | machine_checked |
+| DEMO-001 | conformal runtime demo (373/400, 0.9325 vs 0.9) | benchmarked |
+| REMORA CLAIM-001 | 0.0% unsafe on 700-task (Wilson [0.00%,0.55%]) | benchmarked |
+| REMORA CLAIM-002 | 208/208 AgentHarm blocked, FAR 0.0% | externally_validated |
+| REMORA CLAIM-009 | AROMER negative: 43.0%→30.7% FA under neutral metadata | benchmarked |
+
+## Appendix F — reading paths by role
+
+- **Regulator / auditor:** §13 → §14 → §15 → Appendix C → §24.
+- **Enterprise architect:** §16 → §17 → §18 → §19.
+- **Researcher / builder:** §3 → §§8–11 → §12 → Appendix B.
+- **Newcomer:** §2 → §3 (plain lines only) → §7 → §23, then follow curiosity.
+- **Executive:** §1 → §23 → §24 (five minutes, the whole thesis and its
+  perimeter).
 
 ---
 
-*Compiled as a VeriClaim synthesis. Every citation resolves to a registered,
-gate-verified claim or a hash-locked canon work; the registers are
+*Compiled as a VeriClaim synthesis / handbook. Every citation resolves to a
+registered, gate-verified claim or a hash-locked canon work; the registers are
 authoritative. Claim-Oriented Programming and VeriClaim by Stian Skogbrott.*
