@@ -18,7 +18,6 @@
 //   POST /mcp              MCP (Streamable HTTP) — only when ENABLE_MCP=true
 import {
   type Claim, type Env, b64ToBytes, indexClaims, reconcileClaims, searchClaims,
-  timingSafeEqual,
 } from "./lib";
 import { getEvidence, putEvidence, verifyEvidence } from "./vault";
 import { appendClaim, history, summary, verifyChain, verifyChainCached } from "./ledger";
@@ -35,6 +34,7 @@ import {
 } from "./research";
 import { badgeSVG, passportHTML } from "./passport";
 import { VericlaimMCP } from "./mcp";
+import { authorized, generativeAllowed } from "./authz";
 
 export { VericlaimMCP };
 
@@ -52,27 +52,7 @@ const json = (data: unknown, status = 200) =>
     status, headers: { "content-type": "application/json", ...CORS },
   });
 
-// Constant-time bearer check: compare the whole token, never short-circuit on
-// the first mismatch (which would leak how many characters were right).
-function bearerMatches(req: Request, token: string | undefined): boolean {
-  if (!token) return false; // fail closed
-  const auth = req.headers.get("authorization") ?? "";
-  return timingSafeEqual(auth, `Bearer ${token}`);
-}
-
-function authorized(req: Request, env: Env): boolean {
-  return bearerMatches(req, env.INDEX_TOKEN);
-}
-
-// The generative endpoints (/ask, /research/ask) drive Workers AI on every call
-// — an anonymous caller can otherwise run up unbounded cost. When READ_TOKEN is
-// configured they require it; when it is unset they stay public (opt-in guard,
-// backward compatible). INDEX_TOKEN also satisfies it, so the CI pusher is fine.
-function generativeAllowed(req: Request, env: Env): boolean {
-  if (!env.READ_TOKEN) return true; // reads are public unless a token is set
-  return bearerMatches(req, env.READ_TOKEN) || bearerMatches(req, env.INDEX_TOKEN);
-}
-
+// Authorization lives in ./authz (one central, unit-tested policy).
 const mcpHandler = VericlaimMCP.serve("/mcp", { binding: "VERICLAIM_MCP" });
 
 export default {
