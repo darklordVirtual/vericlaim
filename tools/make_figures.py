@@ -7,7 +7,11 @@ cover), and three interior figures, the evidence ladder, the gate pipeline, and
 the provenance chain. Everything is vector and text, so it commits, diffs, prints
 crisp at any size, and regenerates byte-identically (see tests/test_figures.py).
 
-Style: geometric / bold, full colour. Output: docs/governance/print/figures/{en,no}/*.svg
+Art direction: editorial, an antique-press palette (brass, pine, terracotta,
+aubergine on warm ivory), double-keyline cover frames, restrained type. No ISBN
+or barcode is drawn, because none has been assigned.
+
+Output: docs/governance/print/figures/{en,no}/*.svg
 
 Usage: python3 tools/make_figures.py            # writes all figures
        python3 tools/make_figures.py --check    # print output paths only
@@ -19,20 +23,22 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parents[1] / "docs" / "governance" / "print" / "figures"
 
-# --- palette (full colour, bold) --------------------------------------------
-PAPER = "#F5F0E6"
-CARD = "#FBF8F1"
-INK = "#0C1E33"
-SLATE = "#4A5A6A"
-TEAL = "#12B3A6"
-BLUE = "#2F6BE0"
-GREEN = "#2F9E44"
-VIOLET = "#6C4AE0"
-AMBER = "#F5A623"
-CORAL = "#E4572E"
+# --- palette (curated editorial, full colour) -------------------------------
+PAPER = "#F1EBDD"       # warm ivory ground
+CARD = "#F8F3E8"        # figure card
+INK = "#182530"         # charcoal navy
+SLATE = "#57636D"       # neutral, biased warm
+GOLD = "#B4832B"        # antique brass (the seal)
+GOLD_SOFT = "#D8B871"   # lit brass
+PINE = "#1C6E62"        # deep teal-green
+STEEL = "#3D6784"       # slate blue
+SAGE = "#5C8158"        # muted green
+PLUM = "#6B4E77"        # aubergine
+CLAY = "#AE5637"        # terracotta (refusal)
+HAIR = "#DED4C0"        # hairline on ivory
 
-# rising confidence -> warmer / stronger colour
-LEVEL_COLOURS = [SLATE, BLUE, TEAL, GREEN, VIOLET, AMBER]
+# rising confidence: cool and quiet -> warm and rich, ending in brass
+LEVEL_COLOURS = [SLATE, STEEL, PINE, SAGE, PLUM, GOLD]
 LEVELS = ["theoretical", "measured", "benchmarked",
           "reproduced", "machine_checked", "externally_validated"]
 
@@ -41,9 +47,9 @@ STR = {
         "title": ["THE FRONTIER", "AI GOVERNANCE", "HANDBOOK"],
         "subtitle": "Evidence-bound governance for frontier AI systems",
         "author": "STIAN SKOGBROTT",
-        "imprint": "Claim-Oriented Programming · VeriClaim",
+        "imprint": "CLAIM-ORIENTED PROGRAMMING · VERICLAIM",
         "seal": "VERIFIED CLAIM",
-        "back_head": "Governance you can attack,\nand still stand behind.",
+        "back_head": ["Governance you can attack,", "and still stand behind."],
         "back_body": [
             "AI governance built as a system of checkable claims,",
             "not a stack of reassuring documents. Every strong",
@@ -61,8 +67,8 @@ STR = {
         "gate_steps": ["Register\nintegrity", "Artifact\nexistence", "Path\ncontainment",
                        "Provenance", "Manifest\nhashes", "Doc\nbinding"],
         "gate_claim": "a claim",
-        "gate_ok": "[OK]",
-        "gate_fail": "drift\nfails the\nbuild",
+        "gate_ok": "OK",
+        "gate_fail": ["drift", "fails the build"],
         "fig_gate_cap": ("A claim runs every check on each commit. Any drift, a "
                          "changed number, a broken hash, a doc above its evidence, fails the build."),
         "fig_prov": "The provenance chain",
@@ -73,35 +79,35 @@ STR = {
                          "checked to still hold: reproduce it, and the bytes must match."),
     },
     "no": {
-        "title": ["HÅNDBOK I", "FRONTIER-AI-", "GOVERNANCE"],
-        "subtitle": "Evidensbundet governance for frontier-AI-systemer",
+        "title": ["HÅNDBOK I", "STYRING AV", "FRONTIER-AI"],
+        "subtitle": "Evidensbundet styring for frontier-AI-systemer",
         "author": "STIAN SKOGBROTT",
-        "imprint": "Claim-Oriented Programming · VeriClaim",
-        "seal": "VERIFISERT CLAIM",
-        "back_head": "Governance som tåler angrep,\nog likevel står.",
+        "imprint": "CLAIM-ORIENTED PROGRAMMING · VERICLAIM",
+        "seal": "VERIFISERT PÅSTAND",
+        "back_head": ["Styring som tåler angrep,", "og likevel står."],
         "back_body": [
-            "AI-governance bygget som et system av sjekkbare",
-            "claims, ikke en bunke betryggende dokumenter. Hver",
-            "sterk påstand er en registrert claim på et oppgitt",
-            "evidensnivå, bundet til committet evidens, sjekket ved",
-            "hver commit. Boken bruker sin egen disiplin på seg selv.",
+            "AI-styring bygget som et system av sjekkbare",
+            "påstander, ikke en bunke betryggende dokumenter.",
+            "Hver sterk påstand er en registrert påstand på et",
+            "oppgitt evidensnivå, bundet til committet evidens,",
+            "sjekket ved hver commit. Boken bruker sin egen disiplin.",
         ],
         "back_foot": "Metoden er poenget, ikke tallene.",
         "fig_ladder": "Evidensstigen",
-        "fig_ladder_cap": ("Beskriv en claim bare på nivået den har fortjent. "
+        "fig_ladder_cap": ("Beskriv en påstand bare på nivået den har fortjent. "
                            "Nedgradering er alltid tillatt; oppgradering krever ny evidens."),
         "promote": "oppgradering krever ny evidens",
         "demote": "nedgradering alltid tillatt",
-        "fig_gate": "Gaten, ved hver commit",
+        "fig_gate": "Porten, ved hver commit",
         "gate_steps": ["Register-\nintegritet", "Artefakt-\neksistens", "Sti-\ninneslutning",
-                       "Provenance", "Manifest-\nhasher", "Dok-\nbinding"],
-        "gate_claim": "en claim",
-        "gate_ok": "[OK]",
-        "gate_fail": "drift\nfeiler\nbygget",
-        "fig_gate_cap": ("En claim kjører hver sjekk ved hver commit. Enhver drift, et "
-                         "endret tall, en brutt hash, en doc over sin evidens, feiler bygget."),
-        "fig_prov": "Provenance-kjeden",
-        "prov_nodes": ["Artefakt", "SHA-256", "Sidecar", "Register", "Manifest"],
+                       "Proveniens", "Manifest-\nhasher", "Dok-\nbinding"],
+        "gate_claim": "en påstand",
+        "gate_ok": "OK",
+        "gate_fail": ["drift", "feiler bygget"],
+        "fig_gate_cap": ("En påstand kjører hver sjekk ved hver commit. Enhver drift, et "
+                         "endret tall, en brutt hash, et dokument over sin evidens, feiler bygget."),
+        "fig_prov": "Proveniens-kjeden",
+        "prov_nodes": ["Artefakt", "SHA-256", "Følgefil", "Register", "Manifest"],
         "prov_sub": ["tallet", "av bytene", "hvordan det ble laget",
                      "claimen", "det forseglede settet"],
         "fig_prov_cap": ("Hvert produsert tall registrerer hvordan det ble laget og "
@@ -158,11 +164,9 @@ def text(x, y, s, size, fill, weight="normal", anchor="start", spacing=0, italic
             f'font-weight="{weight}" text-anchor="{anchor}"{extra}{it}>{esc(s)}</text>')
 
 
-def multitext(x, y, lines, size, fill, weight="normal", anchor="middle", lh=1.25):
-    out = []
-    for i, ln in enumerate(lines):
-        out.append(text(x, y + i * size * lh, ln, size, fill, weight, anchor))
-    return "\n".join(out)
+def multitext(x, y, lines, size, fill, weight="normal", anchor="middle", lh=1.2):
+    return "\n".join(text(x, y + i * size * lh, ln, size, fill, weight, anchor)
+                     for i, ln in enumerate(lines))
 
 
 def hexagon(cx, cy, r, rot=math.pi / 2):
@@ -171,204 +175,212 @@ def hexagon(cx, cy, r, rot=math.pi / 2):
 
 
 def check(cx, cy, s, colour, sw):
-    p = (f'M {cx - s:.1f} {cy:.1f} L {cx - s*0.25:.1f} {cy + s*0.7:.1f} '
-         f'L {cx + s:.1f} {cy - s*0.8:.1f}')
+    p = (f'M {cx - s:.1f} {cy:.1f} L {cx - s*0.28:.1f} {cy + s*0.66:.1f} '
+         f'L {cx + s:.1f} {cy - s*0.78:.1f}')
     return (f'<path d="{p}" fill="none" stroke="{colour}" stroke-width="{sw}" '
             f'stroke-linecap="round" stroke-linejoin="round"/>')
+
+
+def keyline(w, h, m=46):
+    return "\n".join([
+        rect(m, m, w - 2 * m, h - 2 * m, "none", stroke=INK, sw=2),
+        rect(m + 13, m + 13, w - 2 * m - 26, h - 2 * m - 26, "none", stroke=GOLD, sw=1.2),
+    ])
+
+
+def arrowhead(x, y, ang, size, colour, sw):
+    return "\n".join(
+        line(x, y, x + size * math.cos(ang + da), y + size * math.sin(ang + da),
+             colour, sw, "round")
+        for da in (math.radians(148), math.radians(-148)))
 
 
 # --- the claim seal (shared by both covers) ---------------------------------
 def seal(cx, cy, r, *, quiet=False):
     b = []
-    face = "none" if quiet else INK
-    # scalloped wax-seal edge: bumps around the rim
     if not quiet:
-        bumps = 40
+        # finely scalloped brass edge
+        bumps = 52
         for i in range(bumps):
             a = 2 * math.pi * i / bumps
-            b.append(circle(cx + r * math.cos(a), cy + r * math.sin(a), r * 0.075, AMBER))
-        b.append(circle(cx, cy, r, AMBER))
-    # milled tick ring (hash motif)
-    ticks = 60
+            b.append(circle(cx + r * math.cos(a), cy + r * math.sin(a), r * 0.052, GOLD))
+        b.append(circle(cx, cy, r * 0.985, GOLD))
+        b.append(circle(cx, cy, r * 0.90, INK))
+    # fine milled tick ring (hash motif)
+    ticks = 72
+    tcol = GOLD_SOFT if not quiet else SLATE
     for i in range(ticks):
         a = 2 * math.pi * i / ticks
-        r0, r1 = r * 0.80, r * 0.90
-        col = INK if not quiet else SLATE
+        long = (i % 6 == 0)
+        r0 = r * (0.74 if long else 0.78)
         b.append(line(cx + r0 * math.cos(a), cy + r0 * math.sin(a),
-                      cx + r1 * math.cos(a), cy + r1 * math.sin(a), col, r * 0.018))
-    # inner disc
-    b.append(circle(cx, cy, r * 0.78, face if not quiet else "none",
-                    stroke=INK if quiet else "none", sw=r * 0.03))
-    b.append(circle(cx, cy, r * 0.70, "none", stroke=(SLATE if quiet else TEAL), sw=r * 0.02))
-    # inner hexagon + rising rungs + check
-    hx = hexagon(cx, cy, r * 0.60)
-    b.append(poly(hx, "none", stroke=(INK if quiet else AMBER), sw=r * 0.02))
-    # three rising rungs under the check
+                      cx + r * 0.84 * math.cos(a), cy + r * 0.84 * math.sin(a),
+                      tcol, r * (0.014 if long else 0.008)))
+    # twin keylines
+    b.append(circle(cx, cy, r * 0.68, "none", stroke=(SLATE if quiet else GOLD_SOFT), sw=r * 0.012))
+    b.append(circle(cx, cy, r * 0.64, "none", stroke=(SLATE if quiet else GOLD_SOFT), sw=r * 0.006))
+    # inner hexagon
+    b.append(poly(hexagon(cx, cy, r * 0.56), "none",
+                  stroke=(INK if quiet else GOLD), sw=r * 0.016))
+    # three rising rungs
     base = cy + r * 0.30
-    for i, col in enumerate([TEAL, GREEN, AMBER]):
-        bw = r * 0.16
-        bx = cx - r * 0.26 + i * r * 0.20
-        bh = r * 0.10 + i * r * 0.10
-        b.append(rect(bx, base - bh, bw * 0.8, bh, (SLATE if quiet else col), rx=r * 0.015))
-    # bold check above the rungs
-    b.append(check(cx, cy - r * 0.10, r * 0.30, (INK if quiet else PAPER), r * 0.09))
+    rung_cols = [PINE, SAGE, GOLD] if not quiet else [SLATE, SLATE, SLATE]
+    for i, col in enumerate(rung_cols):
+        bw = r * 0.13
+        bx = cx - r * 0.24 + i * r * 0.19
+        bh = r * 0.11 + i * r * 0.09
+        b.append(rect(bx, base - bh, bw, bh, col, rx=r * 0.012))
+    # the check, sitting above the rungs
+    b.append(check(cx, cy - r * 0.12, r * 0.28, (INK if quiet else PAPER), r * 0.075))
     return "\n".join(b)
 
 
-# --- figures ----------------------------------------------------------------
+# --- covers -----------------------------------------------------------------
 def cover_front(s: dict) -> str:
     W, H = 1200, 1800
-    b = [rect(0, 0, W, H, PAPER)]
-    # top ink band with title
-    b.append(rect(0, 0, W, 620, INK))
-    # geometric accent squares
-    for i, c in enumerate([TEAL, AMBER, CORAL]):
-        b.append(rect(90 + i * 70, 90, 52, 52, c, rx=6))
+    M = 132
+    b = [rect(0, 0, W, H, PAPER), keyline(W, H)]
+    # imprint eyebrow + rule
+    b.append(text(M, 190, s["imprint"], 22, SLATE, "600", "start", spacing=3))
+    b.append(line(M, 214, M + 300, 214, GOLD, 2))
+    # title
     for i, ln in enumerate(s["title"]):
-        b.append(text(90, 300 + i * 104, ln, 92, PAPER, "800"))
-    b.append(text(92, 560, s["subtitle"], 33, TEAL, "600"))
-    # seal
-    b.append(seal(600, 1075, 330))
-    b.append(text(600, 1500, s["seal"], 40, INK, "800", "middle", spacing=8))
+        b.append(text(M, 348 + i * 100, ln, 82, INK, "800", "start", spacing=0.5))
+    b.append(text(M, 348 + 3 * 100 + 4, s["subtitle"], 28, PINE, "600", "start"))
+    # seal, the hero
+    b.append(seal(600, 1170, 300))
+    b.append(text(600, 1556, s["seal"], 30, INK, "700", "middle", spacing=11))
     # foot
-    b.append(rect(90, 1600, 380, 8, TEAL))
-    b.append(text(90, 1680, s["author"], 46, INK, "800", spacing=2))
-    b.append(text(90, 1730, s["imprint"], 30, SLATE, "600"))
+    b.append(line(M, 1652, W - M, 1652, GOLD, 1.5))
+    b.append(text(M, 1712, s["author"], 36, INK, "800", "start", spacing=2))
     return _svg(W, H, "\n".join(b))
 
 
 def cover_back(s: dict) -> str:
     W, H = 1200, 1800
-    b = [rect(0, 0, W, H, PAPER)]
-    b.append(rect(0, 0, W, 60, INK))
-    b.append(rect(0, H - 60, W, 60, INK))
-    # quiet companion mark, top
-    b.append(seal(600, 360, 210, quiet=True))
-    # heading
-    for i, ln in enumerate(s["back_head"].split("\n")):
-        b.append(text(600, 700 + i * 66, ln, 54, INK, "800", "middle"))
-    # body
+    M = 132
+    b = [rect(0, 0, W, H, PAPER), keyline(W, H)]
+    # quiet companion mark
+    b.append(seal(600, 330, 165, quiet=True))
+    b.append(line(600 - 90, 560, 600 + 90, 560, GOLD, 1.5))
+    # headline
+    for i, ln in enumerate(s["back_head"]):
+        b.append(text(600, 700 + i * 62, ln, 50, INK, "800", "middle"))
+    # blurb
     for i, ln in enumerate(s["back_body"]):
-        b.append(text(600, 860 + i * 52, ln, 32, SLATE, "500", "middle"))
-    b.append(text(600, 1200, s["back_foot"], 34, TEAL, "700", "middle", italic=True))
-    # mini evidence-ladder motif
+        b.append(text(600, 866 + i * 52, ln, 30, SLATE, "500", "middle"))
+    # tagline
+    b.append(text(600, 1206, s["back_foot"], 33, PINE, "700", "middle", italic=True))
+    # a quiet evidence-ladder motif
+    n = len(LEVEL_COLOURS)
+    bw, gap = 118, 26
+    total = n * bw + (n - 1) * gap
+    x0 = 600 - total / 2
+    base = 1520
     for i, c in enumerate(LEVEL_COLOURS):
-        bw, bh = 120, 26 + i * 22
-        bx = 600 - (3 * 130) + i * 130 + 65
-        b.append(rect(bx, 1480 - bh, bw, bh, c, rx=5))
-    # ISBN placeholder barcode
-    b.append(rect(430, 1560, 340, 150, CARD, rx=8, stroke=INK, sw=2))
-    bx = 470
-    widths = [4, 2, 6, 2, 4, 8, 2, 4, 2, 6, 4, 2, 8, 2, 4, 2, 6, 2, 4, 6, 2, 4, 2, 8]
-    for w in widths:
-        b.append(rect(bx, 1585, w, 90, INK))
-        bx += w + 6
-    b.append(text(600, 1695, "ISBN 000-0-000000-0-0", 22, SLATE, "600", "middle"))
-    b.append(text(600, H - 22, s["imprint"], 24, PAPER, "600", "middle"))
+        bh = 32 + i * 26
+        b.append(rect(x0 + i * (bw + gap), base - bh, bw, bh, c, rx=6))
+    # foot imprint
+    b.append(line(M, 1636, W - M, 1636, GOLD, 1.5))
+    b.append(text(600, 1694, s["imprint"], 22, SLATE, "600", "middle", spacing=3))
     return _svg(W, H, "\n".join(b))
 
 
-def _fig_frame(W, H, s, title):
-    b = [rect(0, 0, W, H, CARD, rx=24, stroke="#E4DCC9", sw=3)]
-    b.append(rect(56, 54, 14, 46, TEAL, rx=3))
-    b.append(text(88, 92, title, 44, INK, "800"))
-    return b
+# --- interior figures -------------------------------------------------------
+def _frame(W, H, title):
+    return [rect(6, 6, W - 12, H - 12, CARD, rx=22, stroke=HAIR, sw=2),
+            rect(60, 58, 6, 42, GOLD, rx=3),
+            text(84, 92, title, 40, INK, "800"),
+            line(60, 120, W - 60, 120, HAIR, 1.5)]
 
 
 def fig_ladder(s: dict) -> str:
     W, H = 1400, 900
-    b = _fig_frame(W, H, s, s["fig_ladder"])
-    x0, base = 140, 690
-    step_w, step_dx = 168, 175
+    b = _frame(W, H, s["fig_ladder"])
+    x0, base = 150, 706
+    step_w, step_dx = 162, 172
     for i, (lv, col) in enumerate(zip(LEVELS, LEVEL_COLOURS)):
-        h = 90 + i * 78
+        h = 92 + i * 74
         x = x0 + i * step_dx
         y = base - h
-        b.append(rect(x, y, step_w, h, col, rx=10))
-        b.append(rect(x, y, step_w, 12, "#FFFFFF", rx=6, opacity=0.35))
-        # number chip
-        b.append(circle(x + 30, y + 34, 22, "#FFFFFF"))
-        b.append(text(x + 30, y + 42, str(i + 1), 26, col, "800", "middle"))
-        # level name, rotated up the step
-        b.append(f'<text x="{x + step_w/2:.0f}" y="{base - 18:.0f}" font-size="23" '
-                 f'fill="#FFFFFF" font-weight="700" text-anchor="start" '
-                 f'transform="rotate(-90 {x + step_w/2:.0f} {base - 18:.0f})">{esc(lv)}</text>')
-    # rising arrow
-    ax0, ay0 = x0 - 30, base + 6
-    ax1, ay1 = x0 + 5 * step_dx + step_w + 30, base - (90 + 5 * 78) + 6
-    b.append(line(ax0, ay0, ax1, ay1, INK, 6, "round"))
-    ang = math.atan2(ay1 - ay0, ax1 - ax0)
-    for da in (math.radians(150), math.radians(-150)):
-        b.append(line(ax1, ay1, ax1 + 26 * math.cos(ang + da),
-                      ay1 + 26 * math.sin(ang + da), INK, 6, "round"))
-    b.append(text(x0 - 20, base + 54, s["demote"] + "  ↓", 24, CORAL, "700"))
-    b.append(text(W - 60, 150, "↑  " + s["promote"], 24, GREEN, "700", "end"))
-    b.append(text(88, H - 44, s["fig_ladder_cap"], 25, SLATE, "500"))
+        # riser connecting to the previous step, quiet
+        if i:
+            b.append(line(x, y, x, base, HAIR, 1.5))
+        b.append(rect(x, y, step_w, h, col, rx=9))
+        b.append(circle(x + 30, y + 32, 19, CARD))
+        b.append(text(x + 30, y + 39, str(i + 1), 23, col, "800", "middle"))
+        b.append(f'<text x="{x + step_w/2:.0f}" y="{base - 20:.0f}" font-size="21" '
+                 f'fill="{CARD}" font-weight="700" text-anchor="start" '
+                 f'transform="rotate(-90 {x + step_w/2:.0f} {base - 20:.0f})">{esc(lv)}</text>')
+    b.append(line(x0 - 34, base, x0 + 6 * step_dx, base, INK, 2))
+    # a slim upward arrow, above the steps
+    ax0, ay0 = x0 + 30, 250
+    ax1, ay1 = x0 + 5 * step_dx + step_w - 20, 250
+    b.append(line(ax0, ay0, ax1, ay1, GOLD, 3, "round"))
+    b.append(arrowhead(ax1, ay1, 0, 22, GOLD, 3))
+    b.append(text(ax0, ay0 - 20, s["promote"], 22, GOLD, "700", "start"))
+    b.append(text(x0 - 6, base + 46, s["demote"], 22, CLAY, "700", "start"))
+    b.append(text(84, H - 46, s["fig_ladder_cap"], 24, SLATE, "500"))
     return _svg(W, H, "\n".join(b))
+
+
+def _connector(x, cy, colour):
+    return "\n".join([line(x, cy, x + 34, cy, colour, 2, "round"),
+                      arrowhead(x + 34, cy, 0, 13, colour, 2)])
 
 
 def fig_gate(s: dict) -> str:
     W, H = 1600, 720
-    b = _fig_frame(W, H, s, s["fig_gate"])
-    cy = 340
-    # claim token
-    b.append(circle(120, cy, 66, TEAL))
-    b.append(multitext(120, cy - 4, s["gate_claim"].split(" "), 26, "#FFFFFF", "800"))
-    x = 250
-    gw, gap = 176, 30
+    b = _frame(W, H, s["fig_gate"])
+    cy = 372
+    accents = [STEEL, PLUM, PINE, GOLD, SAGE, CLAY]
+    # claim token, an outlined disc (quiet, lets the gate blocks lead)
+    b.append(circle(118, cy, 60, "none", stroke=PINE, sw=4))
+    b.append(multitext(118, cy - 2, s["gate_claim"].split(" "), 24, PINE, "700"))
+    x = 240
+    gw, gap = 178, 34
     for i, step in enumerate(s["gate_steps"]):
-        b.append(line(x - gap - 4, cy, x - 6, cy, INK, 5, "round"))
-        b.append(line(x - 16, cy - 9, x - 6, cy, INK, 5, "round"))
-        b.append(line(x - 16, cy + 9, x - 6, cy, INK, 5, "round"))
-        col = [BLUE, VIOLET, TEAL, AMBER, GREEN, CORAL][i]
-        b.append(rect(x, cy - 78, gw, 156, INK, rx=14))
-        b.append(rect(x, cy - 78, gw, 12, col, rx=6))
-        b.append(rect(x, cy - 78, 12, 156, col, rx=6))
-        b.append(multitext(x + gw / 2, cy - 6, step.split("\n"), 28, PAPER, "700"))
-        b.append(text(x + gw / 2, cy + 58, str(i + 1), 22, col, "800", "middle"))
+        b.append(_connector(x - gap - 2, cy, INK))
+        b.append(rect(x, cy - 74, gw, 148, INK, rx=13))
+        b.append(rect(x + 22, cy - 74, gw - 44, 5, accents[i]))
+        b.append(multitext(x + gw / 2, cy - 8, step.split("\n"), 27, PAPER, "600"))
+        b.append(text(x + gw / 2, cy + 54, str(i + 1), 20, accents[i], "800", "middle"))
         x += gw + gap
-    # arrow to OK
-    b.append(line(x - gap - 4, cy, x - 6, cy, INK, 5, "round"))
-    b.append(line(x - 16, cy - 9, x - 6, cy, INK, 5, "round"))
-    b.append(line(x - 16, cy + 9, x - 6, cy, INK, 5, "round"))
-    b.append(circle(x + 66, cy, 66, GREEN))
-    b.append(text(x + 66, cy + 10, s["gate_ok"], 34, "#FFFFFF", "800", "middle"))
-    # fail branch
-    b.append(line(x - gw / 2 - gap, cy + 78, x - gw / 2 - gap, cy + 150, CORAL, 5, "round"))
-    b.append(rect(x - gw / 2 - gap - 120, cy + 150, 240, 96, "#FBE8E2", rx=12, stroke=CORAL, sw=3))
-    b.append(multitext(x - gw / 2 - gap, cy + 186, s["gate_fail"].split("\n"), 24, CORAL, "700"))
-    b.append(text(x - gw / 2 - gap + 92, cy + 210, "✗", 40, CORAL, "800", "middle"))
-    b.append(text(88, H - 40, s["fig_gate_cap"], 24, SLATE, "500"))
+    b.append(_connector(x - gap - 2, cy, INK))
+    b.append(circle(x + 60, cy, 60, PINE))
+    b.append(text(x + 60, cy + 9, s["gate_ok"], 34, PAPER, "800", "middle"))
+    # quiet refusal branch
+    fx = 240 + 2 * (gw + gap) + gw / 2
+    b.append(line(fx, cy + 74, fx, cy + 128, CLAY, 2, "round"))
+    b.append(arrowhead(fx, cy + 128, math.pi / 2, 12, CLAY, 2))
+    b.append(rect(fx - 118, cy + 138, 236, 74, "none", rx=11, stroke=CLAY, sw=1.6))
+    b.append(multitext(fx, cy + 172, s["gate_fail"], 23, CLAY, "600"))
+    b.append(text(84, H - 42, s["fig_gate_cap"], 23, SLATE, "500"))
     return _svg(W, H, "\n".join(b))
 
 
 def fig_prov(s: dict) -> str:
     W, H = 1600, 620
-    b = _fig_frame(W, H, s, s["fig_prov"])
-    cy = 300
-    nodes = s["prov_nodes"]
-    subs = s["prov_sub"]
-    cols = [AMBER, INK, TEAL, BLUE, VIOLET]
-    nw, gap = 232, 66
-    x = 120
-    centers = []
-    for i, (n, sub, col) in enumerate(zip(nodes, subs, cols)):
-        b.append(rect(x, cy - 62, nw, 124, col, rx=16))
-        b.append(rect(x, cy - 62, nw, 10, "#FFFFFF", rx=5, opacity=0.4))
-        fg = PAPER if col == INK else "#FFFFFF"
-        b.append(text(x + nw / 2, cy - 4, n, 34, fg, "800", "middle"))
-        b.append(text(x + nw / 2, cy + 34, sub, 21, fg, "500", "middle"))
-        centers.append((x, x + nw))
+    b = _frame(W, H, s["fig_prov"])
+    cy = 336
+    cols = [GOLD, INK, PINE, STEEL, PLUM]
+    nw, gap = 232, 64
+    x = 118
+    spans = []
+    for n, sub, col in zip(s["prov_nodes"], s["prov_sub"], cols):
+        b.append(rect(x, cy - 60, nw, 120, col, rx=14))
+        b.append(rect(x + 20, cy - 60, nw - 40, 4, GOLD_SOFT if col != GOLD else INK))
+        fg = PAPER if col in (INK,) else "#FFFFFF"
+        b.append(text(x + nw / 2, cy - 4, n, 33, fg, "800", "middle"))
+        b.append(text(x + nw / 2, cy + 32, sub, 20, fg, "500", "middle"))
+        spans.append((x, x + nw))
         x += nw + gap
-    # chain links between nodes
-    for i in range(len(nodes) - 1):
-        x1 = centers[i][1]
-        x2 = centers[i + 1][0]
-        b.append(line(x1 + 6, cy, x2 - 6, cy, INK, 6, "round"))
-        b.append(rect((x1 + x2) / 2 - 15, cy - 15, 30, 30, CARD, rx=8, stroke=INK, sw=5))
-        b.append(line(x2 - 18, cy - 9, x2 - 6, cy, INK, 6, "round"))
-        b.append(line(x2 - 18, cy + 9, x2 - 6, cy, INK, 6, "round"))
-    b.append(text(88, H - 42, s["fig_prov_cap"], 24, SLATE, "500"))
+    for i in range(len(spans) - 1):
+        x1, x2 = spans[i][1], spans[i + 1][0]
+        b.append(line(x1 + 4, cy, x2 - 4, cy, INK, 2, "round"))
+        b.append(rect((x1 + x2) / 2 - 13, cy - 13, 26, 26, CARD, rx=7, stroke=INK, sw=3))
+        b.append(arrowhead(x2 - 4, cy, 0, 12, INK, 2))
+    b.append(text(84, H - 44, s["fig_prov_cap"], 23, SLATE, "500"))
     return _svg(W, H, "\n".join(b))
 
 

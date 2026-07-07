@@ -1,113 +1,101 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800" font-family="Helvetica, Arial, sans-serif">
-<rect x="0.0" y="0.0" width="1200.0" height="1800.0" rx="0" fill="#F5F0E6"/>
-<rect x="0.0" y="0.0" width="1200.0" height="60.0" rx="0" fill="#0C1E33"/>
-<rect x="0.0" y="1740.0" width="1200.0" height="60.0" rx="0" fill="#0C1E33"/>
-<line x1="768.0" y1="360.0" x2="789.0" y2="360.0" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="767.1" y1="377.6" x2="788.0" y2="379.8" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="764.3" y1="394.9" x2="784.9" y2="399.3" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="759.8" y1="411.9" x2="779.7" y2="418.4" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="753.5" y1="428.3" x2="772.7" y2="436.9" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="745.5" y1="444.0" x2="763.7" y2="454.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="735.9" y1="458.7" x2="752.9" y2="471.1" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="724.8" y1="472.4" x2="740.5" y2="486.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="712.4" y1="484.8" x2="726.5" y2="500.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="698.7" y1="495.9" x2="711.1" y2="512.9" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="684.0" y1="505.5" x2="694.5" y2="523.7" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="668.3" y1="513.5" x2="676.9" y2="532.7" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="651.9" y1="519.8" x2="658.4" y2="539.7" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="634.9" y1="524.3" x2="639.3" y2="544.9" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="617.6" y1="527.1" x2="619.8" y2="548.0" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="600.0" y1="528.0" x2="600.0" y2="549.0" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="582.4" y1="527.1" x2="580.2" y2="548.0" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="565.1" y1="524.3" x2="560.7" y2="544.9" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="548.1" y1="519.8" x2="541.6" y2="539.7" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="531.7" y1="513.5" x2="523.1" y2="532.7" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="516.0" y1="505.5" x2="505.5" y2="523.7" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="501.3" y1="495.9" x2="488.9" y2="512.9" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="487.6" y1="484.8" x2="473.5" y2="500.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="475.2" y1="472.4" x2="459.5" y2="486.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="464.1" y1="458.7" x2="447.1" y2="471.1" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="454.5" y1="444.0" x2="436.3" y2="454.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="446.5" y1="428.3" x2="427.3" y2="436.9" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="440.2" y1="411.9" x2="420.3" y2="418.4" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="435.7" y1="394.9" x2="415.1" y2="399.3" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="432.9" y1="377.6" x2="412.0" y2="379.8" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="432.0" y1="360.0" x2="411.0" y2="360.0" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="432.9" y1="342.4" x2="412.0" y2="340.2" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="435.7" y1="325.1" x2="415.1" y2="320.7" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="440.2" y1="308.1" x2="420.3" y2="301.6" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="446.5" y1="291.7" x2="427.3" y2="283.1" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="454.5" y1="276.0" x2="436.3" y2="265.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="464.1" y1="261.3" x2="447.1" y2="248.9" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="475.2" y1="247.6" x2="459.5" y2="233.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="487.6" y1="235.2" x2="473.5" y2="219.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="501.3" y1="224.1" x2="488.9" y2="207.1" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="516.0" y1="214.5" x2="505.5" y2="196.3" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="531.7" y1="206.5" x2="523.1" y2="187.3" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="548.1" y1="200.2" x2="541.6" y2="180.3" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="565.1" y1="195.7" x2="560.7" y2="175.1" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="582.4" y1="192.9" x2="580.2" y2="172.0" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="600.0" y1="192.0" x2="600.0" y2="171.0" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="617.6" y1="192.9" x2="619.8" y2="172.0" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="634.9" y1="195.7" x2="639.3" y2="175.1" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="651.9" y1="200.2" x2="658.4" y2="180.3" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="668.3" y1="206.5" x2="676.9" y2="187.3" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="684.0" y1="214.5" x2="694.5" y2="196.3" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="698.7" y1="224.1" x2="711.1" y2="207.1" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="712.4" y1="235.2" x2="726.5" y2="219.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="724.8" y1="247.6" x2="740.5" y2="233.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="735.9" y1="261.3" x2="752.9" y2="248.9" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="745.5" y1="276.0" x2="763.7" y2="265.5" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="753.5" y1="291.7" x2="772.7" y2="283.1" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="759.8" y1="308.1" x2="779.7" y2="301.6" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="764.3" y1="325.1" x2="784.9" y2="320.7" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<line x1="767.1" y1="342.4" x2="788.0" y2="340.2" stroke="#4A5A6A" stroke-width="3.78" stroke-linecap="butt"/>
-<circle cx="600.0" cy="360.0" r="163.8" fill="none" stroke="#0C1E33" stroke-width="6.3"/>
-<circle cx="600.0" cy="360.0" r="147.0" fill="none" stroke="#4A5A6A" stroke-width="4.2"/>
-<polygon points="600.0,486.0 490.9,423.0 490.9,297.0 600.0,234.0 709.1,297.0 709.1,423.0" fill="none" stroke="#0C1E33" stroke-width="4.2" stroke-linejoin="round"/>
-<rect x="545.4" y="402.0" width="26.9" height="21.0" rx="3.15" fill="#4A5A6A"/>
-<rect x="587.4" y="381.0" width="26.9" height="42.0" rx="3.15" fill="#4A5A6A"/>
-<rect x="629.4" y="360.0" width="26.9" height="63.0" rx="3.15" fill="#4A5A6A"/>
-<path d="M 537.0 339.0 L 584.2 383.1 L 663.0 288.6" fill="none" stroke="#0C1E33" stroke-width="18.9" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="600.0" y="700.0" font-size="54" fill="#0C1E33" font-weight="800" text-anchor="middle">Governance you can attack,</text>
-<text x="600.0" y="766.0" font-size="54" fill="#0C1E33" font-weight="800" text-anchor="middle">and still stand behind.</text>
-<text x="600.0" y="860.0" font-size="32" fill="#4A5A6A" font-weight="500" text-anchor="middle">AI governance built as a system of checkable claims,</text>
-<text x="600.0" y="912.0" font-size="32" fill="#4A5A6A" font-weight="500" text-anchor="middle">not a stack of reassuring documents. Every strong</text>
-<text x="600.0" y="964.0" font-size="32" fill="#4A5A6A" font-weight="500" text-anchor="middle">statement is a registered claim at a stated evidence</text>
-<text x="600.0" y="1016.0" font-size="32" fill="#4A5A6A" font-weight="500" text-anchor="middle">level, bound to committed evidence, checked on every</text>
-<text x="600.0" y="1068.0" font-size="32" fill="#4A5A6A" font-weight="500" text-anchor="middle">commit. The book applies its own discipline to itself.</text>
-<text x="600.0" y="1200.0" font-size="34" fill="#12B3A6" font-weight="700" text-anchor="middle" font-style="italic">The method is the point, not the numbers.</text>
-<rect x="275.0" y="1454.0" width="120.0" height="26.0" rx="5" fill="#4A5A6A"/>
-<rect x="405.0" y="1432.0" width="120.0" height="48.0" rx="5" fill="#2F6BE0"/>
-<rect x="535.0" y="1410.0" width="120.0" height="70.0" rx="5" fill="#12B3A6"/>
-<rect x="665.0" y="1388.0" width="120.0" height="92.0" rx="5" fill="#2F9E44"/>
-<rect x="795.0" y="1366.0" width="120.0" height="114.0" rx="5" fill="#6C4AE0"/>
-<rect x="925.0" y="1344.0" width="120.0" height="136.0" rx="5" fill="#F5A623"/>
-<rect x="430.0" y="1560.0" width="340.0" height="150.0" rx="8" fill="#FBF8F1" stroke="#0C1E33" stroke-width="2"/>
-<rect x="470.0" y="1585.0" width="4.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="480.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="488.0" y="1585.0" width="6.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="500.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="508.0" y="1585.0" width="4.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="518.0" y="1585.0" width="8.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="532.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="540.0" y="1585.0" width="4.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="550.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="558.0" y="1585.0" width="6.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="570.0" y="1585.0" width="4.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="580.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="588.0" y="1585.0" width="8.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="602.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="610.0" y="1585.0" width="4.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="620.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="628.0" y="1585.0" width="6.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="640.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="648.0" y="1585.0" width="4.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="658.0" y="1585.0" width="6.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="670.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="678.0" y="1585.0" width="4.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="688.0" y="1585.0" width="2.0" height="90.0" rx="0" fill="#0C1E33"/>
-<rect x="696.0" y="1585.0" width="8.0" height="90.0" rx="0" fill="#0C1E33"/>
-<text x="600.0" y="1695.0" font-size="22" fill="#4A5A6A" font-weight="600" text-anchor="middle">ISBN 000-0-000000-0-0</text>
-<text x="600.0" y="1778.0" font-size="24" fill="#F5F0E6" font-weight="600" text-anchor="middle">Claim-Oriented Programming · VeriClaim</text>
+<rect x="0.0" y="0.0" width="1200.0" height="1800.0" rx="0" fill="#F1EBDD"/>
+<rect x="46.0" y="46.0" width="1108.0" height="1708.0" rx="0" fill="none" stroke="#182530" stroke-width="2"/>
+<rect x="59.0" y="59.0" width="1082.0" height="1682.0" rx="0" fill="none" stroke="#B4832B" stroke-width="1.2"/>
+<line x1="722.1" y1="330.0" x2="738.6" y2="330.0" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="728.2" y1="341.2" x2="738.1" y2="342.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="726.7" y1="352.3" x2="736.5" y2="354.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="724.3" y1="363.3" x2="733.9" y2="365.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="720.9" y1="374.0" x2="730.2" y2="377.4" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="716.6" y1="384.4" x2="725.6" y2="388.6" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="705.7" y1="391.1" x2="720.0" y2="399.3" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="705.4" y1="403.8" x2="713.5" y2="409.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="698.6" y1="412.7" x2="706.2" y2="419.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="691.0" y1="421.0" x2="698.0" y2="428.0" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="682.7" y1="428.6" x2="689.1" y2="436.2" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="673.8" y1="435.4" x2="679.5" y2="443.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="661.0" y1="435.7" x2="669.3" y2="450.0" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="654.4" y1="446.6" x2="658.6" y2="455.6" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="644.0" y1="450.9" x2="647.4" y2="460.2" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="633.3" y1="454.3" x2="635.9" y2="463.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="622.3" y1="456.7" x2="624.1" y2="466.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="611.2" y1="458.2" x2="612.1" y2="468.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="600.0" y1="452.1" x2="600.0" y2="468.6" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="588.8" y1="458.2" x2="587.9" y2="468.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="577.7" y1="456.7" x2="575.9" y2="466.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="566.7" y1="454.3" x2="564.1" y2="463.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="556.0" y1="450.9" x2="552.6" y2="460.2" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="545.6" y1="446.6" x2="541.4" y2="455.6" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="539.0" y1="435.7" x2="530.7" y2="450.0" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="526.2" y1="435.4" x2="520.5" y2="443.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="517.3" y1="428.6" x2="510.9" y2="436.2" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="509.0" y1="421.0" x2="502.0" y2="428.0" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="501.4" y1="412.7" x2="493.8" y2="419.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="494.6" y1="403.8" x2="486.5" y2="409.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="494.3" y1="391.1" x2="480.0" y2="399.3" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="483.4" y1="384.4" x2="474.4" y2="388.6" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="479.1" y1="374.0" x2="469.8" y2="377.4" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="475.7" y1="363.3" x2="466.1" y2="365.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="473.3" y1="352.3" x2="463.5" y2="354.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="471.8" y1="341.2" x2="461.9" y2="342.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="477.9" y1="330.0" x2="461.4" y2="330.0" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="471.8" y1="318.8" x2="461.9" y2="317.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="473.3" y1="307.7" x2="463.5" y2="305.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="475.7" y1="296.7" x2="466.1" y2="294.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="479.1" y1="286.0" x2="469.8" y2="282.6" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="483.4" y1="275.6" x2="474.4" y2="271.4" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="494.3" y1="268.9" x2="480.0" y2="260.7" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="494.6" y1="256.2" x2="486.5" y2="250.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="501.4" y1="247.3" x2="493.8" y2="240.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="509.0" y1="239.0" x2="502.0" y2="232.0" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="517.3" y1="231.4" x2="510.9" y2="223.8" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="526.2" y1="224.6" x2="520.5" y2="216.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="538.9" y1="224.3" x2="530.7" y2="210.0" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="545.6" y1="213.4" x2="541.4" y2="204.4" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="556.0" y1="209.1" x2="552.6" y2="199.8" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="566.7" y1="205.7" x2="564.1" y2="196.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="577.7" y1="203.3" x2="575.9" y2="193.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="588.8" y1="201.8" x2="587.9" y2="191.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="600.0" y1="207.9" x2="600.0" y2="191.4" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="611.2" y1="201.8" x2="612.1" y2="191.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="622.3" y1="203.3" x2="624.1" y2="193.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="633.3" y1="205.7" x2="635.9" y2="196.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="644.0" y1="209.1" x2="647.4" y2="199.8" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="654.4" y1="213.4" x2="658.6" y2="204.4" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="661.0" y1="224.3" x2="669.3" y2="210.0" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="673.8" y1="224.6" x2="679.5" y2="216.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="682.7" y1="231.4" x2="689.1" y2="223.8" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="691.0" y1="239.0" x2="698.0" y2="232.0" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="698.6" y1="247.3" x2="706.2" y2="240.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="705.4" y1="256.2" x2="713.5" y2="250.5" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="705.7" y1="269.0" x2="720.0" y2="260.7" stroke="#57636D" stroke-width="2.31" stroke-linecap="butt"/>
+<line x1="716.6" y1="275.6" x2="725.6" y2="271.4" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="720.9" y1="286.0" x2="730.2" y2="282.6" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="724.3" y1="296.7" x2="733.9" y2="294.1" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="726.7" y1="307.7" x2="736.5" y2="305.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="728.2" y1="318.8" x2="738.1" y2="317.9" stroke="#57636D" stroke-width="1.32" stroke-linecap="butt"/>
+<circle cx="600.0" cy="330.0" r="112.2" fill="none" stroke="#57636D" stroke-width="1.98"/>
+<circle cx="600.0" cy="330.0" r="105.6" fill="none" stroke="#57636D" stroke-width="0.99"/>
+<polygon points="600.0,422.4 520.0,376.2 520.0,283.8 600.0,237.6 680.0,283.8 680.0,376.2" fill="none" stroke="#182530" stroke-width="2.64" stroke-linejoin="round"/>
+<rect x="560.4" y="361.4" width="21.4" height="18.1" rx="1.98" fill="#57636D"/>
+<rect x="591.8" y="346.5" width="21.4" height="33.0" rx="1.98" fill="#57636D"/>
+<rect x="623.1" y="331.6" width="21.4" height="47.8" rx="1.98" fill="#57636D"/>
+<path d="M 553.8 310.2 L 587.1 340.7 L 646.2 274.2" fill="none" stroke="#182530" stroke-width="12.375" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="510.0" y1="560.0" x2="690.0" y2="560.0" stroke="#B4832B" stroke-width="1.5" stroke-linecap="butt"/>
+<text x="600.0" y="700.0" font-size="50" fill="#182530" font-weight="800" text-anchor="middle">Governance you can attack,</text>
+<text x="600.0" y="762.0" font-size="50" fill="#182530" font-weight="800" text-anchor="middle">and still stand behind.</text>
+<text x="600.0" y="866.0" font-size="30" fill="#57636D" font-weight="500" text-anchor="middle">AI governance built as a system of checkable claims,</text>
+<text x="600.0" y="918.0" font-size="30" fill="#57636D" font-weight="500" text-anchor="middle">not a stack of reassuring documents. Every strong</text>
+<text x="600.0" y="970.0" font-size="30" fill="#57636D" font-weight="500" text-anchor="middle">statement is a registered claim at a stated evidence</text>
+<text x="600.0" y="1022.0" font-size="30" fill="#57636D" font-weight="500" text-anchor="middle">level, bound to committed evidence, checked on every</text>
+<text x="600.0" y="1074.0" font-size="30" fill="#57636D" font-weight="500" text-anchor="middle">commit. The book applies its own discipline to itself.</text>
+<text x="600.0" y="1206.0" font-size="33" fill="#1C6E62" font-weight="700" text-anchor="middle" font-style="italic">The method is the point, not the numbers.</text>
+<rect x="181.0" y="1488.0" width="118.0" height="32.0" rx="6" fill="#57636D"/>
+<rect x="325.0" y="1462.0" width="118.0" height="58.0" rx="6" fill="#3D6784"/>
+<rect x="469.0" y="1436.0" width="118.0" height="84.0" rx="6" fill="#1C6E62"/>
+<rect x="613.0" y="1410.0" width="118.0" height="110.0" rx="6" fill="#5C8158"/>
+<rect x="757.0" y="1384.0" width="118.0" height="136.0" rx="6" fill="#6B4E77"/>
+<rect x="901.0" y="1358.0" width="118.0" height="162.0" rx="6" fill="#B4832B"/>
+<line x1="132.0" y1="1636.0" x2="1068.0" y2="1636.0" stroke="#B4832B" stroke-width="1.5" stroke-linecap="butt"/>
+<text x="600.0" y="1694.0" font-size="22" fill="#57636D" font-weight="600" text-anchor="middle" letter-spacing="3">CLAIM-ORIENTED PROGRAMMING · VERICLAIM</text>
 </svg>

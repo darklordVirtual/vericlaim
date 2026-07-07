@@ -15,9 +15,9 @@
   English edition: frontier-ai-governance-master.md
 -->
 
-# Håndboken i frontier-AI-governance
+# Håndbok i styring av frontier-AI
 
-### Et VeriClaim-oppslagsverk for AI, governance, enterprise-arkitektur, programmering, påstandsbasert programmering og frontier-forskning
+### Et VeriClaim-oppslagsverk for AI, styring, enterprise-arkitektur, programmering, påstandsbasert programmering og frontier-forskning
 
 *Ett sted å slå opp. Hver kvantitative påstand er sporet til verifisert
 evidens; hvert konsept er forklart på to nivåer: enkelt nok for en nykommer,
@@ -25,7 +25,7 @@ presist nok for en arkitekt. Les det fra perm til perm som et kurs, eller hopp
 til hvilken som helst oppføring som i et leksikon.*
 
 > **Status:** levende syntese / håndbok · **Autoritet:** VeriClaim-registeret
-> (`claims/register.yaml`) og claims-biblioteket er sannhetens kilde ·
+> (`claims/register.yaml`) og påstandsbiblioteket er sannhetens kilde ·
 > **Siteringer:** hver `[ID]` løses opp via registeret, hovedboken
 > (`/ledger/verify`) eller MCP-verktøyene (`search_claims`, `ask_research`,
 > `get_claim_history`). Den engelske utgaven ligger i
@@ -36,19 +36,19 @@ til hvilken som helst oppføring som i et leksikon.*
 ## Ett-siders kart
 
 ▶ **Enkelt forklart:** håndboken har seks deler: *idéen* (hvorfor
-falsifiserbar governance), *metoden* (påstandsbasert programmering),
+falsifiserbar styring), *metoden* (påstandsbasert programmering),
 *kunnskapen* (RAG-biblioteket og verifiserte byggesteiner), *reglene*
 (regulering og standarder), *arkitekturen* (hvordan det kobles inn i et
 enterprise) og *praksisen* (hvordan du faktisk gjør det daglig).
 
 ```mermaid
 mindmap
-  root((AI-governance<br/>håndbok))
+  root((AI-styring<br/>håndbok))
     I Fundamenter
-      Hvorfor governance feiler
+      Hvorfor styring feiler
       Påstandsbasert programmering
       Evidensstigen
-      VeriClaim-gaten
+      VeriClaim-porten
     II Kunnskapsbase
       Kanon 180 verk
       Usikkerhet og konform
@@ -82,10 +82,10 @@ mindmap
 
 **Del I: Fundamenter**
 1. [Sammendrag: den enestående innsikten](#1-sammendrag-den-enestående-innsikten)
-2. [Hva AI-governance er, og hvorfor det meste feiler](#2-hva-ai-governance-er-og-hvorfor-det-meste-feiler)
+2. [Hva AI-styring er, og hvorfor det meste feiler](#2-hva-ai-styring-er-og-hvorfor-det-meste-feiler)
 3. [Påstandsbasert programmering fra grunnen](#3-påstandsbasert-programmering-fra-grunnen)
 4. [Evidensstigen](#4-evidensstigen)
-5. [VeriClaim-gaten: hva den sjekker](#5-vericlaim-gaten-hva-den-sjekker)
+5. [VeriClaim-porten: hva den sjekker](#5-vericlaim-porten-hva-den-sjekker)
 6. [Cloudflare-sannhetslaget: RAG, hvelv, hovedbok, orakel](#6-cloudflare-sannhetslaget-rag-hvelv-hovedbok-orakel)
 
 **Del II: Kunnskapsbasen**
@@ -94,11 +94,11 @@ mindmap
 9. [Byggestein-familie 2: verifiser-amplifikasjon](#9-byggestein-familie-2-verifiser-amplifikasjon)
 10. [Byggestein-familie 3: beslutningsteori under usikkerhet](#10-byggestein-familie-3-beslutningsteori-under-usikkerhet)
 11. [Byggestein-familie 4: runtime-håndhevelse (REMORA/AROMER)](#11-byggestein-familie-4-runtime-håndhevelse-remoraaromer)
-12. [Frontier- og AGI-litteratur som governance-input](#12-frontier--og-agi-litteratur-som-governance-input)
+12. [Frontier- og AGI-litteratur som styringsgrunnlag](#12-frontier--og-agi-litteratur-som-styringsgrunnlag)
 
 **Del III. Regler: regulering og standarder**
 13. [Det regulatoriske landskapet forklart](#13-det-regulatoriske-landskapet-forklart)
-14. [Governance-kryssreferansen (CLAIM-GOV-001)](#14-governance-kryssreferansen-claim-gov-001)
+14. [Styringskryssreferansen (CLAIM-GOV-001)](#14-styringskryssreferansen-claim-gov-001)
 15. [De ti kontrollmålene: oppslag](#15-de-ti-kontrollmålene-oppslag)
 
 **Del IV: Enterprise-arkitektur**
@@ -131,7 +131,7 @@ mindmap
 - [B: Indeks over verifiserte teoremer](#appendiks-b-indeks-over-verifiserte-teoremer)
 - [C: Kryssreferansematrisen](#appendiks-c-kryssreferansematrisen)
 - [D: Ordliste](#appendiks-d-ordliste)
-- [E: Hurtigreferanse for claim-IDer](#appendiks-e-hurtigreferanse-for-claim-ider)
+- [E: Hurtigreferanse for påstands-IDer](#appendiks-e-hurtigreferanse-for-påstands-ider)
 - [F: Leseløyper etter rolle](#appendiks-f-leseløyper-etter-rolle)
 
 ---
@@ -141,17 +141,17 @@ mindmap
 
 ## 1. Sammendrag: den enestående innsikten
 
-▶ **Enkelt forklart:** det meste av AI-governance er en bunke selvsikre
-setninger i en PDF. Denne håndboken viser hvordan governance kan gjøres
+▶ **Enkelt forklart:** det meste av AI-styring er en bunke selvsikre
+setninger i en PDF. Denne håndboken viser hvordan styring kan gjøres
 *falsifiserbar* (hver påstand bundet til evidens en skeptiker kan sjekke) og
-argumenterer for at falsifiserbar governance gir en sterkere *revisjonsposisjon*
-enn overbevisende governance, fordi påstandene kan angripes mekanisk og ikke lar
+argumenterer for at falsifiserbar styring gir en sterkere *revisjonsposisjon*
+enn overbevisende styring, fordi påstandene kan angripes mekanisk og ikke lar
 seg bryte (ikke «bedre» i en umålt, generell forstand).
 
 ▷ **I dybden.** Når du kombinerer alt i biblioteket (de regulatoriske
 rammeverkene, usikkerhetsteorien, verifikasjonsmatematikken,
 runtime-håndhevelses-eksperimentene og de ærlige negativresultatene), trer én
-tese frem: **governance kan gjøres falsifiserbar**, og et falsifiserbart program
+tese frem: **styring kan gjøres falsifiserbar**, og et falsifiserbart program
 slår et overbevisende ett fordi en fiendtlig anmelder kan angripe det og
 *mislykkes i å bryte det*. Fire verifiserte funn komponerer tesen:
 
@@ -161,7 +161,7 @@ flowchart TB
     B["Kapabilitet kommer fra VERIFISERING, ikke bare skala<br/>THM-ROUTE-001 · 87380 tabeller"] --> E
     C["Fail-closed floor gir HARD garanti, og navngir grensen<br/>REMORA CLAIM-001/002/009"] --> E
     D["Hver plikt SPORES til en kontroll<br/>CLAIM-GOV-001 · full dekning"] --> E
-    E(["Governance gjort FALSIFISERBAR<br/>= en kontrakt, ikke et narrativ"])
+    E(["Styring gjort FALSIFISERBAR<br/>= en kontrakt, ikke et narrativ"])
 ```
 
 - **Ærlighet er ikke en dyd du oppfordrer til; det er et optimum du kan bevise.**
@@ -170,13 +170,13 @@ flowchart TB
   (sann-fordeling, alternativ-rapport)-par [THM-SCORE-001]. Skår komponentene
   dine på kalibrering, og du belønner ærlighet *mekanisk*.
 - **Kapabilitet kommer fra verifisering, ikke bare fra skala.** En
-  verifiser-gated kaskade lar en billig generator pluss en selektiv sjekk
+  verifiseringsport-styrt kaskade lar en billig generator pluss en selektiv sjekk
   dominere en monolitt på kost/nøyaktighet (over 87 380 uttømmende
   rutetabeller [THM-ROUTE-001]) med flertallsstemme-amplifikasjonen bevist *og*
   dens ærlige konvers (stemmegivning *degraderer* en dårligere-enn-tilfeldig
   velger) bevist også [THM-VOTE-002].
 - **En fail-closed policy-floor gir et hardt, benchmark-avgrenset sikkerhetsgulv,
-  og samme evidensbase navngir grensen.** REMORAs gate ga **0,0 %** usikker-kjørerate på
+  og samme evidensbase navngir grensen.** REMORAs port ga **0,0 %** usikker-kjørerate på
   en 700-oppgavers adversariell benchmark mot 10 til 20 % for heuristikker [REMORA
   CLAIM-001], og blokkerte **alle 208** uavhengige AgentHarm-scenarier,
   *eksternt validert* [REMORA CLAIM-002]. AROMER-negativresultatet viser ærlig
@@ -189,41 +189,41 @@ flowchart TB
 Kombinasjonen er poenget: usikkerhetsteori sier *når* man skal avstå;
 verifikasjonsmatematikken sier at avståelse og ruting *gir kapabilitet*;
 runtime-evidensen viser at en floor *virker og hvor den svikter*;
-kryssreferansen viser *hvilken regulator hver kontroll svarer til*; og gaten får
+kryssreferansen viser *hvilken regulator hver kontroll svarer til*; og porten får
 hele kjeden til å *nekte å beskrive seg selv over evidensen sin*.
 
 ---
 
-## 2. Hva AI-governance er, og hvorfor det meste feiler
+## 2. Hva AI-styring er, og hvorfor det meste feiler
 
-▶ **Enkelt forklart:** governance er settet av regler, roller og sjekker som
+▶ **Enkelt forklart:** styring er settet av regler, roller og sjekker som
 holder et AI-system trygt, rettferdig, lovlig og ansvarlig. Det meste feiler
 fordi det er *ikke-falsifiserbart*: et dokument påstår gode egenskaper, og
 ingen kan sjekke dem mekanisk.
 
-▷ **I dybden.** AI-governance svarer på fire spørsmål: *Hvem er ansvarlig? Hva
+▷ **I dybden.** AI-styring svarer på fire spørsmål: *Hvem er ansvarlig? Hva
 kan gå galt? Hvordan vet vi at det virker? Hva skjer når det ikke gjør det?*
-Tradisjonell governance svarer i prosa: en policy-perm, et modellkort, en
+Tradisjonell styring svarer i prosa: en policy-perm, et modellkort, en
 etikk-erklæring. Feilmodusen er strukturell: prosa akkumulerer *beroligelse*
 uten *evidens*. Et modellkort kan si «overvåket for drift» enten noe overvåker
 noe eller ikke. En revisor kan ikke skille et samvittighetsfullt program fra et
 kosmetisk ved å lese dokumentet. Begge leser likt.
 
 Innsikten denne håndboken operasjonaliserer er å gjøre hver
-governance-påstand til en **claim** med en committed artefakt, et evidensnivå og
+styringspåstand til en **påstand** med en committed artefakt, et evidensnivå og
 et forbehold, eller å *nekte å skrive den*. Nektelsen er disiplinen. Et
-governance-program som ikke stille kan akkumulere ustøttet beroligelse er ett en
+styringsprogram som ikke stille kan akkumulere ustøttet beroligelse er ett en
 revisor kan stole på.
 
 ```mermaid
 flowchart LR
-    subgraph Trad["Tradisjonell governance"]
+    subgraph Trad["Tradisjonell styring"]
         P1[Policy-PDF påstår gode egenskaper] --> P2[Leser stoler på PDF-en]
         P2 --> P3{{Revisor kan ikke skille<br/>samvittighetsfull<br/>fra kosmetisk}}
     end
-    subgraph Claim["Påstandsbasert governance"]
+    subgraph Claim["Påstandsbasert styring"]
         C1[Påstand blir en CLAIM] --> C2[Artefakt + evidensnivå + forbehold]
-        C2 --> C3[Gaten verifiserer ved hver commit]
+        C2 --> C3[Porten verifiserer ved hver commit]
         C3 --> C4{{Revisor angriper hver<br/>klausul; reproduce sier<br/>om den har driftet}}
     end
 ```
@@ -236,14 +236,14 @@ egenskap slår ut en klassisk kontroll: agens slår ut «gjennomgå outputen»
 (det finnes ingen lesbar regel), fart slår ut «sertifiser én gang» (det
 sertifiserte systemet er alt utdatert). Svaret er ikke mer prosa: det er
 *runtime*-håndhevelse (del II, familie 4), *selektiv* autonomi (familie 1 til 3) og
-*kontinuerlig* verifisering (gaten, §5).
+*kontinuerlig* verifisering (porten, §5).
 
 ---
 
 ## 3. Påstandsbasert programmering fra grunnen
 
 ▶ **Enkelt forklart:** påstandsbasert programmering (COP) er Design-by-Contract
-løftet fra én funksjon til et helt prosjekt. En **claim** er et løfte om
+løftet fra én funksjon til et helt prosjekt. En **påstand** er et løfte om
 systemet støttet av en fil på disk, sjekket automatisk. Regelen er enkel: *ingen
 tall uten en artefakt.*
 
@@ -251,33 +251,33 @@ tall uten en artefakt.*
 etter-betingelser og invarianter til funksjoner. COP løfter det til prosjektet:
 enhver faktapåstand et prosjekt gjør om *seg selv* (et benchmark-tall, en
 kapabilitet, en samsvarsegenskap) er en kontrakt mellom ordene og evidensen,
-sjekket i CI av VeriClaim-gaten.
+sjekket i CI av VeriClaim-porten.
 
 **Den ene regelen:**
 
 > Ingen tall uten en artefakt. Ingen dok-tall som ikke er bundet til registeret.
-> Ingen claim beskrevet over evidensen den har.
+> Ingen påstand beskrevet over evidensen den har.
 
 **STOPP-refleksen.** I det øyeblikket du er i ferd med å skrive et faktatall,
 stopp: (1) *Hvilken committed artefakt etablerer dette?* (2) *Er det i
 registeret?* (3) *Stemmer registerverdien?* (4) *Bærer prosaen forbeholdet?* Kun
 hvis alle fire passerer skriver du setningen. Finnes ingen artefakt har du tre
-ærlige trekk: produser den, registrer claimen på `theoretical` og si det, eller
+ærlige trekk: produser den, registrer påstanden på `theoretical` og si det, eller
 ikke skriv tallet. Det finnes ikke et fjerde trekk.
 
 ```mermaid
 flowchart TB
-    S1[Skriv et deterministisk skript<br/>som MÅLER tingen] --> S2[Commit artefakten det skriver<br/>+ provenance-stempel]
-    S2 --> S3[Registrer claimen<br/>nivå + metrikker + forbehold]
+    S1[Skriv et deterministisk skript<br/>som MÅLER tingen] --> S2[Commit artefakten det skriver<br/>+ proveniensstempel]
+    S2 --> S3[Registrer påstanden<br/>nivå + metrikker + forbehold]
     S3 --> S4[Bind dok-tallet<br/>med et anker]
-    S4 --> S5{vericlaim-gaten}
-    S5 -->|FEIL: navngir driften| S6[Fiks DRIFTEN, aldri gaten]
+    S4 --> S5{vericlaim-porten}
+    S5 -->|FEIL: navngir driften| S6[Fiks DRIFTEN, aldri porten]
     S6 --> S5
     S5 -->|OK| S7[vericlaim reproduce<br/>byte-identisk?]
     S7 -->|fortsatt sant i dag| S8[Oppdater speil · vitne · push]
 ```
 
-**Formen på hver claim:**
+**Formen på hver påstand:**
 
 ```yaml
 - id: CLAIM-AREA-001
@@ -289,10 +289,10 @@ flowchart TB
   reproduce: "python3 bench/example.py"
 ```
 
-**Hvorfor dette er et governance-substrat, ikke bare en kodevane.** Hver klausul
-i et governance-argument («policy håndhevet», «drift overvåket», «plikter
-kartlagt») blir en claim på et oppgitt evidensnivå. Governance-programmet *er*
-registeret. Tilliten til det er ikke retorisk; den er utfallet av en gate som
+**Hvorfor dette er et styringssubstrat, ikke bare en kodevane.** Hver klausul
+i et styringsargument («policy håndhevet», «drift overvåket», «plikter
+kartlagt») blir en påstand på et oppgitt evidensnivå. Styringsprogrammet *er*
+registeret. Tilliten til det er ikke retorisk; den er utfallet av en port som
 nekter drift.
 
 ---
@@ -300,7 +300,7 @@ nekter drift.
 ## 4. Evidensstigen
 
 ▶ **Enkelt forklart:** ikke all evidens er lik. Stigen har seks trinn fra «vi
-argumenterte for det» til «en uavhengig part bekreftet det». En claim kan bare
+argumenterte for det» til «en uavhengig part bekreftet det». En påstand kan bare
 *beskrives* på trinnet den har *fortjent*.
 
 ▷ **I dybden.** Stigen, svakest til sterkest:
@@ -315,39 +315,39 @@ flowchart LR
 | Trinn | Betydning | Eksempel i biblioteket |
 |---|---|---|
 | **theoretical** | argumentert fra prinsipper eller en bibliografisk peker; ingen måling | en litteraturreferanse [REF-051] |
-| **measured** | en deterministisk måling over en committed artefakt | governance-kryssreferansens dekning [CLAIM-GOV-001] |
+| **measured** | en deterministisk måling over en committed artefakt | styringskryssreferansens dekning [CLAIM-GOV-001] |
 | **benchmarked** | målt på en definert benchmark med oppgitt protokoll | REMORAs 700-oppgavers resultat [REMORA CLAIM-001] |
-| **reproduced** | reprodusert *uavhengig* (annen maskin, person eller konfigurasjon) | ikke hevdet for en egen-claim; `vericlaim reproduce` re-verifiserer byte-identitet løpende, men det er selv-verifisering, ikke den uavhengige reproduksjonen dette trinnet krever |
+| **reproduced** | reprodusert *uavhengig* (annen maskin, person eller konfigurasjon) | ikke hevdet for en egen-påstand; `vericlaim reproduce` re-verifiserer byte-identitet løpende, men det er selv-verifisering, ikke den uavhengige reproduksjonen dette trinnet krever |
 | **machine_checked** | verifisert ved uttømmende/eksakt beregning | teorem-batteriene [THM-ROUTE-001] |
 | **externally_validated** | bekreftet av en uavhengig part eller uavhengige data | AgentHarm datasett-uavhengighet [REMORA CLAIM-002] |
 
-Gradering er **konservativ**: beskriv en claim kun på nivået den har fortjent.
+Gradering er **konservativ**: beskriv en påstand kun på nivået den har fortjent.
 Nedgradering er alltid tillatt; oppgradering krever ny evidens. Stigen er
-governance-programmets ærlighetsskala, og gaten håndhever den (et dokument kan
-ikke beskrive en claim over det fortjente nivået).
+styringsprogrammets ærlighetsskala, og porten håndhever den (et dokument kan
+ikke beskrive en påstand over det fortjente nivået).
 
 > **⚠️ Et subtilt poeng.** `machine_checked` er *sterkere* enn `benchmarked` for
 > egenskapen den dekker, men dekker en *mindre* egenskap: et eksakt matematisk
 > faktum på avgrensede instanser, ikke et virkelig-verden-utfall.
 > `externally_validated` er det sterkeste *verdslige* trinnet. Ingen av dem
-> dominerer den andre på tvers av alle spørsmål; les hva hver claim faktisk
+> dominerer den andre på tvers av alle spørsmål; les hva hver påstand faktisk
 > dekker.
 
 ---
 
-## 5. VeriClaim-gaten: hva den sjekker
+## 5. VeriClaim-porten: hva den sjekker
 
-▶ **Enkelt forklart:** gaten er en automatisk sjekker som kjører ved hver commit
+▶ **Enkelt forklart:** porten er en automatisk sjekker som kjører ved hver commit
 og nekter å la prosjektets ord løpe forbi evidensen.
 
-▷ **I dybden.** Standardgaten er bivirkningsfri og sjekker ni ting:
+▷ **I dybden.** Standardporten er bivirkningsfri og sjekker ni ting:
 
 ```mermaid
 flowchart TB
     subgraph Gate["vericlaim (hver commit), fail-closed"]
         G1[1 Register-integritet<br/>fail-closed parsing] --> G2[2 Artefakt-eksistens]
         G2 --> G3[3 Sti-inneslutning<br/>ingen .. ingen absolutt ingen symlink]
-        G3 --> G4[4 Provenance-sidecars<br/>hvordan hver artefakt ble laget]
+        G3 --> G4[4 Proveniens-følgefiler<br/>hvordan hver artefakt ble laget]
         G4 --> G5[5 Manifest-hasher<br/>SHA-256 stemmer]
         G5 --> G6[6 Dok-binding<br/>prosa + kodekommentarer til registeret]
         G6 --> G7[7 Evidensnivå-ærlighet]
@@ -360,7 +360,7 @@ flowchart TB
 En separat kommando, `vericlaim reproduce`, *kjører* hvert evidensskript og
 feiler med mindre artefakten er byte-identisk: tallet er *fortsatt sant i dag*.
 
-**Hva gaten beviser, og ikke.** Den beviser *intern konsistens og
+**Hva porten beviser, og ikke.** Den beviser *intern konsistens og
 reproduserbarhet*. Den beviser **ikke** at en benchmark er
 produksjonsrealistisk, at evidens ikke ble manipulert før commit, at
 `externally_validated` faktisk var eksternt, eller at en *setning* er korrekt:
@@ -378,7 +378,7 @@ søkbar, tamper-evident, hash-kjedet post: pluss en litteratur-RAG som *nekter*
 
 ▷ **I dybden.** Sannhetslaget speiler det autoritative registeret inn i en
 Cloudflare-stack og legger til en litteratur-RAG. Det er strengt *additivt*:
-registeret + gaten forblir sannhetens kilde; edge kan være utdatert og blokkerer
+registeret + porten forblir sannhetens kilde; edge kan være utdatert og blokkerer
 aldri.
 
 ```mermaid
@@ -402,7 +402,7 @@ flowchart LR
 2. **Nektelse ved grensen.** Orakelet nekter når ingen chunk klarer
    relevansbaren; nektelsen skåres kun mot *klarerte* fraseringer av spørringen,
    så en prompt-injisert spørring kan ikke manufakturere relevans: den
-   forankrede generatoren er den autoritative overclaim-vakten.
+   forankrede generatoren er den autoritative vakten mot overpåstand.
 3. **Tamper-evidens.** Hovedboken er append-only og hash-kjedet; klient-
    verifikatoren bekrefter at den ikke er omskrevet siden første anker.
    Bibliotek-hovedboken står nå på 1408 oppføringer over 192 verifiserte
@@ -442,7 +442,7 @@ sequenceDiagram
     U->>W: utvid (oversett + kanonisk vokabular)
     W->>V: union-henting over klarerte + utvidede fraseringer
     V->>R: kandidat-chunks
-    R->>R: skår KUN klarerte fraseringer for nektelses-gaten
+    R->>R: skår KUN klarerte fraseringer for nektelses-porten
     alt ingen chunk klarer baren
         R-->>U: NEKT (ærlig: "ikke grunnlag")
     else forankret
@@ -470,7 +470,7 @@ dekningsgarantien er maskinsjekket [THM-CONF-001], og en kjørt
 runtime-demonstrasjon viser konforme intervaller som dekker sannheten i **373 av
 400** runder (0,9325 mot et mål på 0,9) [DEMO-001].
 
-**Hvorfor governance trenger dette.** «Systemet vet når det ikke vet» er
+**Hvorfor styring trenger dette.** «Systemet vet når det ikke vet» er
 forutsetningen for *selektiv autonomi*: handle når sikker, avstå og eskaler når
 ikke. Det innløser EU AI Act artikkel 15-kravet til nøyaktighet/robusthet og
 NIST AI RMF MEASURE-funksjonen.
@@ -504,7 +504,7 @@ gjennomgang» virker.
   med velgere *dårligere* enn tilfeldig faller den mot 0. Begge retninger er
   bevist [THM-VOTE-002]. Konversen er den ærlige halvdelen de fleste
   fremstillinger utelater.
-- **Verifiser-gated kaskader dominerer monolitter.** Å rute hvert element til en
+- **Verifiseringsport-styrte kaskader dominerer monolitter.** Å rute hvert element til en
   stor modell kun når en billig verifikator er usikker, slår alltid-stor og
   alltid-liten på kost/nøyaktighet-fronten, etablert over 87 380 uttømmende
   rutetabeller [THM-ROUTE-001].
@@ -518,7 +518,7 @@ flowchart LR
     BIG --> OUT2[Aksepter eskalert svar]
 ```
 
-**Hvorfor governance trenger dette.** Det er den formelle lisensen for
+**Hvorfor styring trenger dette.** Det er den formelle lisensen for
 menneske-tilsyn (art. 14) og MANAGE (AI RMF)-kontrollene: avstå-og-eskaler er
 ikke et kostnadssenter, det er på den effektive fronten. Det underbygger også
 tesen «kapabilitet fra verifisering, ikke skala» i §1.
@@ -547,7 +547,7 @@ optimale strategien*.
 - **Jensen / varians ≥ 0.** Ulikheten bak hver forventningsgrense, eksakt over
   rutenettet [THM-JENSEN-001].
 
-> **Hvorfor THM-SCORE-001 er det stille tyngdepunktet.** Governance ber stadig
+> **Hvorfor THM-SCORE-001 er det stille tyngdepunktet.** Styring ber stadig
 > mennesker og modeller om å «være ærlige om usikkerhet». Proper scoring gjør
 > det fra en oppfordring til en *likevekt*: under en proper skår er det
 > entydig-beste trekket å si det du faktisk tror. Bygg evalueringen din på en
@@ -557,18 +557,18 @@ optimale strategien*.
 
 ## 11. Byggestein-familie 4: runtime-håndhevelse (REMORA/AROMER)
 
-▶ **Enkelt forklart:** en policy-som-kode-gate som blokkerer usikre
+▶ **Enkelt forklart:** en policy-som-kode-port som blokkerer usikre
 agent-handlinger *før* de kjører, bevist å virke, og ærlig om nøyaktig hvor den
 slutter å virke.
 
-▷ **I dybden.** REMORA-research-prosjektet leverer runtime-governance-evidensen,
-gate-verifisert i sitt eget repo og innhentet i biblioteket.
+▷ **I dybden.** REMORA-research-prosjektet leverer runtime-styringsevidensen,
+port-verifisert i sitt eget repo og innhentet i biblioteket.
 
-**Floor-en virker.** REMORAs fulle policy-gate ga **0,0 %** usikker-kjørerate på
+**Floor-en virker.** REMORAs fulle policy-port ga **0,0 %** usikker-kjørerate på
 en 700-oppgavers adversariell verktøykall-benchmark, mot 10 til 20 % for hver
 heuristisk baseline; Wilson 95 % KI på falsk-aksept [0,00 %, 0,55 %] [REMORA
 CLAIM-001]. Avgjørende: floor-en kommer fra **Stage-1 hard-block
-policy-invarianter**, ikke fra konsensus-maskineriet; claimen forbyr å sitere
+policy-invarianter**, ikke fra konsensus-maskineriet; påstanden forbyr å sitere
 den som evidens for konsensuslaget.
 
 **Eksternt validert.** På AgentHarm (arxiv:2410.09024) blokkerte REMORA **alle
@@ -593,7 +593,7 @@ flowchart TB
     RT --> OUT
 ```
 
-**Den sammensatte lærdommen (en styrt claim, ikke en mening):** forsvar i
+**Den sammensatte lærdommen (en styrt påstand, ikke en mening):** forsvar i
 dybden. En fail-closed floor er *nødvendig* for en hard garanti, men
 *utilstrekkelig* mot motstandere som leverer godartet-utseende metadata, så den
 må parres med runtime-overvåking og drift-deteksjon: nøyaktig art. 15 + art. 14
@@ -602,7 +602,7 @@ empirisk.
 
 ---
 
-## 12. Frontier- og AGI-litteratur som governance-input
+## 12. Frontier- og AGI-litteratur som styringsgrunnlag
 
 ▶ **Enkelt forklart:** du kan ikke styre det du ikke forstår, så biblioteket
 sporer fronten (resonneringsmodeller, agenter, verdensmodeller, tolkbarhet) og
@@ -610,7 +610,7 @@ inkluderer bevisst også de *skeptiske* artiklene.
 
 ▷ **I dybden.** Kolleksjon 15 (28 verk) er balansert med ærlige motstykker:
 
-| Tema | Representative verk | Governance-relevans |
+| Tema | Representative verk | Styringsrelevans |
 |---|---|---|
 | Resonnering / test-time compute | zero-shot reasoning; DeepSeek-R1 (arxiv:2501.12948); RAP; graph-of-thoughts | risiko flyttes fra trening til inferens: overvåking må følge |
 | Agenter | Voyager; generative agents; SWE-agent; AutoGen | autonom verktøybruk er flaten REMORA styrer: trusselmodellen |
@@ -619,7 +619,7 @@ inkluderer bevisst også de *skeptiske* artiklene.
 | Tolkbarhet | induction heads; representation engineering; influence functions; Platonic-hypotesen | gjør transparens (art. 13) + tilsyn (art. 14) håndterbart |
 | AGI-framing + grenser | Sparks (arxiv:2303.12712); Levels (arxiv:2311.02462); scalable oversight (arxiv:2211.03540); *«Emergent Abilities a Mirage?»* | den skeptiske artikkelen står ved siden av AGI-påstands-artikkelen: samme disiplin som å publisere AROMER-negativresultatet |
 
-Den verifiserbare-claims-agendaen hele systemet operasjonaliserer er selv i
+Agendaen om verifiserbare påstander som hele systemet operasjonaliserer er selv i
 kanon: «Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable
 Claims» (arxiv:2004.07213) [REF-051], ved siden av «Open Problems in Technical
 AI Governance» (arxiv:2407.14981) [REF-057].
@@ -663,7 +663,7 @@ underliggende kontrollmålene.
 
 ---
 
-## 14. Governance-kryssreferansen (CLAIM-GOV-001)
+## 14. Styringskryssreferansen (CLAIM-GOV-001)
 
 ▶ **Enkelt forklart:** ett kart som kobler hvert rammeverks deler til ti delte
 kontrollmål, med en sjekker som *nekter å kompilere* hvis noen del er ukartlagt
@@ -714,7 +714,7 @@ C.)*
 vendorer for å se hvilke mål hvert regime krever og sjekke sitt eget
 kontrollsett: **ikke** juridisk rådgivning, **ikke** sertifisering, **ikke**
 bevis på at noen kontroll er korrekt implementert. Artikkel/klausul-spesifikker
-under toppnivået er utenfor omfang. Den grensen er en del av claimen.
+under toppnivået er utenfor omfang. Den grensen er en del av påstanden.
 
 ---
 
@@ -728,24 +728,24 @@ operasjonaliserer det, og det ærlige evidensnivået.
    kontekst/ledelse/støtte, Privacy GOVERN-P. *Operasjonalisert av:* registeret
    + hovedboken som den ansvarlige posten. *Nivå:* measured.
 2. **Risikostyring**: AI RMF GOVERN/MAP/MANAGE, CSF IDENTIFY, EU
-   risikostyringssystem, ISO planlegging. *Operasjonalisert av:* verifiser-gated
+   risikostyringssystem, ISO planlegging. *Operasjonalisert av:* verifiseringsport-styrt
    ruting [THM-ROUTE-001] + konform avståelse [THM-CONF-001]. *Nivå:*
    machine_checked (matematikken) / benchmarked (anvendelsen).
 3. **Datastyring**: AI RMF MAP, CSF IDENTIFY, EU datastyring, Privacy
-   IDENTIFY-P. *Operasjonalisert av:* provenance/supply-chain-kolleksjon (07) +
+   IDENTIFY-P. *Operasjonalisert av:* proveniens/supply-chain-kolleksjon (07) +
    innholdsadressert hvelv. *Nivå:* measured.
 4. **Transparens & dokumentasjon**: AI RMF MAP, EU teknisk-dok/transparens,
-   Privacy COMMUNICATE-P. *Operasjonalisert av:* claim-forbehold + evidensnivå +
-   dok-bindings-gaten. *Nivå:* measured.
+   Privacy COMMUNICATE-P. *Operasjonalisert av:* påstandsforbehold + evidensnivå +
+   dok-bindings-porten. *Nivå:* measured.
 5. **Menneskelig tilsyn**: AI RMF MANAGE, EU menneskelig-tilsyn, ISO drift.
-   *Operasjonalisert av:* verifiser-gated eskalering [THM-ROUTE-001]; REMORA
+   *Operasjonalisert av:* verifiseringsport-styrt eskalering [THM-ROUTE-001]; REMORA
    VERIFY/ABSTAIN-ruting. *Nivå:* machine_checked / benchmarked.
 6. **Robusthet & nøyaktighet**: AI RMF MEASURE, CSF PROTECT, EU
    nøyaktighet/robusthet, ISO drift. *Operasjonalisert av:* den fail-closede
    policy-flooren [REMORA CLAIM-001/002]. *Nivå:* benchmarked /
    externally_validated.
 7. **Logging & sporbarhet**: CSF DETECT, EU journalføring. *Operasjonalisert
-   av:* den hash-kjedede vitne-hovedboken + provenance-sidecars. *Nivå:*
+   av:* den hash-kjedede vitne-hovedboken + proveniens-følgefiler. *Nivå:*
    measured.
 8. **Overvåking & post-market**: AI RMF MEASURE/MANAGE, CSF
    DETECT/RESPOND/RECOVER, ISO ytelsesevaluering/forbedring. *Operasjonalisert
@@ -768,7 +768,7 @@ operasjonaliserer det, og det ærlige evidensnivået.
 ▶ **Enkelt forklart:** enterprise-arkitektur (EA) er disiplinen med å designe en
 organisasjons systemer som en sammenhengende helhet. TOGAF er den vanligste
 *metoden*; Zachman er et *klassifiseringsrutenett*; ArchiMate er et
-*modelleringsspråk*. Governance lykkes når det kobles inn i det virksomheten
+*modelleringsspråk*. Styring lykkes når den kobles inn i det virksomheten
 allerede bruker.
 
 ▷ **I dybden.**
@@ -782,7 +782,7 @@ allerede bruker.
   på *hvordan tegne* arkitekturen entydig.
 
 Denne håndboken avbilder VeriClaim-byggesteinene på **TOGAF ADM** (§17) fordi
-ADMs fasestruktur passer naturlig til en governance-livssyklus, og dens
+ADMs fasestruktur passer naturlig til en styringslivssyklus, og dens
 Requirements-Management-ryggrad avbildes på registeret.
 
 ---
@@ -796,14 +796,14 @@ Requirements-Management-ryggrad avbildes på registeret.
 
 ```mermaid
 flowchart TB
-    PRE[Preliminary<br/>gaten = governance-mekanisme] --> A
+    PRE[Preliminary<br/>porten = styringsmekanisme] --> A
     A[A Visjon<br/>10 mål = NFR-er] --> B
     B[B Forretning<br/>ansvar · RACI] --> C
-    C[C Data & App<br/>provenance · hvelv] --> D
+    C[C Data & App<br/>proveniens · hvelv] --> D
     D[D Teknologi<br/>konform · REMORA · edge] --> E
     E[E Løsninger<br/>kontrollbibliotek] --> F
     F[F Migrasjon<br/>REMORA TOGAF-utrullingsplan] --> G
-    G[G Impl.-governance<br/>gaten i CI · PDP/PEP] --> H
+    G[G Impl.-styring<br/>porten i CI · PDP/PEP] --> H
     H[H Endringsledelse<br/>reproduce · hovedbok · drift] --> A
     RM[(Requirements Mgmt<br/>register + CLAIM-GOV-001)]
     A -.-> RM
@@ -812,16 +812,16 @@ flowchart TB
     G -.-> RM
 ```
 
-| ADM-fase | Governance-hensyn | VeriClaim-byggestein | Rammeverksanker |
+| ADM-fase | Styringshensyn | VeriClaim-byggestein | Rammeverksanker |
 |---|---|---|---|
-| **Preliminary** | Etabler kapabiliteten | Gaten som arkitektur-governance-mekanisme; registeret som krav-repositorium | ISO 42001 ledelse; AI RMF GOVERN |
+| **Preliminary** | Etabler kapabiliteten | Porten som arkitektur-styringsmekanisme; registeret som krav-repositorium | ISO 42001 ledelse; AI RMF GOVERN |
 | **A: Visjon** | Risikoappetitt, mål | De 10 kontrollmålene [CLAIM-GOV-001] som ikke-funksjonelle krav | EU AI Act art. 9; AI RMF MAP |
 | **B: Forretning** | Roller, ansvar | `governance_accountability`; RACI over registeret | ISO 42001 ledelse; CSF GOVERN |
-| **C: Data & Applikasjon** | Datakvalitet, provenance, dok | Provenance-kolleksjon (07); innholdsadressert hvelv | EU AI Act art. 10-11 |
+| **C: Data & Applikasjon** | Datakvalitet, proveniens, dok | Proveniens-kolleksjon (07); innholdsadressert hvelv | EU AI Act art. 10-11 |
 | **D: Teknologi** | Robusthet, runtime | Konform [THM-CONF/DEMO-001]; REMORA [CLAIM-001/002]; edge | EU AI Act art. 15; CSF PROTECT |
 | **E: Løsninger** | Hvilke kontroller å bygge | Det verifiserte kontrollbiblioteket (§§8-11) | AI RMF MEASURE/MANAGE |
 | **F: Migrasjon** | Utrullingssekvens | REMORA enterprise TOGAF-utrullingsplan | ISO 42001 planlegging |
-| **G: Impl.-governance** | Håndhevelse i leveranse | Gaten i CI; fail-closed PDP/PEP [REMORA CLAIM-001] | EU AI Act art. 14; CSF DETECT |
+| **G: Impl.-styring** | Håndhevelse i leveranse | Porten i CI; fail-closed PDP/PEP [REMORA CLAIM-001] | EU AI Act art. 14; CSF DETECT |
 | **H: Endringsledelse** | Drift, overvåking | `reproduce`; vitne-hovedbok; anytime-valid overvåking | EU AI Act art. 15; CSF RESPOND/RECOVER |
 | **Requirements Mgmt** | Sannhetens kilde | Register + kryssreferanse | alle fem regimer |
 
@@ -830,17 +830,17 @@ flowchart TB
 ## 18. En referansearkitektur for et styrt AI-system
 
 ▶ **Enkelt forklart:** tegningen: data kommer inn, en modell handler, en
-fail-closed gate står mellom modellen og verden, og alt logges til en
+fail-closed port står mellom modellen og verden, og alt logges til en
 tamper-evident hovedbok og re-verifiseres kontinuerlig.
 
 ▷ **I dybden.**
 
 ```mermaid
 flowchart LR
-    DATA[(Styrte data<br/>provenance · kvalitet)] --> MODEL[Modell / agent]
+    DATA[(Styrte data<br/>proveniens · kvalitet)] --> MODEL[Modell / agent]
     MODEL --> CONF{Sikker?<br/>konform}
     CONF -->|nei| ESC[Avstå / eskaler<br/>menneskelig tilsyn]
-    CONF -->|ja| PEP{Policy-gate<br/>fail-closed PDP/PEP}
+    CONF -->|ja| PEP{Policy-port<br/>fail-closed PDP/PEP}
     PEP -->|nekt| BLOCK[Blokkert + logget]
     PEP -->|tillat| ACT[Handling i verden]
     ACT --> MON[Runtime-overvåking<br/>+ drift-deteksjon]
@@ -851,7 +851,7 @@ flowchart LR
 ```
 
 Hvert element avbildes på et kontrollmål (§15) og en byggestein (§§8-11).
-Arkitekturens definerende egenskap er at **gaten er i handlings-stien**, ikke
+Arkitekturens definerende egenskap er at **porten er i handlings-stien**, ikke
 ved siden av: en ukjent handling nekter som standard (fail-closed), og
 nektelsen er selv en revisjonshendelse.
 
@@ -859,19 +859,19 @@ nektelsen er selv en revisjonshendelse.
 
 ## 19. Operasjonsmodell, roller og kadens
 
-▶ **Enkelt forklart:** hvem gjør hva, hvor ofte, så governance forblir sann over
+▶ **Enkelt forklart:** hvem gjør hva, hvor ofte, så styring forblir sann over
 tid i stedet for å råtne til utdatert dokumentasjon.
 
 ▷ **I dybden.**
 
 | Kadens | Aktivitet | Eier |
 |---|---|---|
-| **Kontinuerlig (CI)** | Gaten ved hver commit; fail-closed | hver bidragsyter |
+| **Kontinuerlig (CI)** | Porten ved hver commit; fail-closed | hver bidragsyter |
 | **Per release** | `reproduce` over hele registeret; speil-oppdatering; vitne | release-ingeniør |
-| **Periodisk (governance-review)** | Re-kjør kryssreferanse-dekning; gjennomgå evidensnivå for drift/nedgradering; sjekk ærlig-hull-listen (§25) | den ansvarlige governance-rollen (ISO 42001 ledelse) |
+| **Periodisk (styringsgjennomgang)** | Re-kjør kryssreferanse-dekning; gjennomgå evidensnivå for drift/nedgradering; sjekk ærlig-hull-listen (§25) | den ansvarlige styringsrollen (ISO 42001 ledelse) |
 | **Ved hendelse** | Hovedbokens append-only-historikk er revisjonssporet; `reproduce` re-etablerer hvilke tall som fortsatt holder | hendelseseier |
 
-**RACI, minimalt:** *registeret* er Accountable til governance-rollen,
+**RACI, minimalt:** *registeret* er Accountable til styringsrollen,
 Responsible til hver bidragsyter, Consulted med arkitekturpraksisen (TOGAF), og
 Informed til revisorer/regulatorer via hovedboken.
 
@@ -882,14 +882,14 @@ Informed til revisorer/regulatorer via hovedboken.
 
 ## 20. Slik bygger du en styrt AI-funksjon
 
-▶ **Enkelt forklart:** mål først, claim andre, skriv prosaen sist, og la gaten
+▶ **Enkelt forklart:** mål først, påstand andre, skriv prosaen sist, og la porten
 ta deg hvis du drifter.
 
 ▷ **I dybden**, som en sjekkliste:
 
 1. **Produser evidensen.** Skriv et *deterministisk* skript som måler
-   egenskapen; commit artefakten det skriver med et provenance-stempel.
-2. **Registrer claimen** på dens *fortjente* nivå, med metrikker og et forbehold.
+   egenskapen; commit artefakten det skriver med et proveniensstempel.
+2. **Registrer påstanden** på dens *fortjente* nivå, med metrikker og et forbehold.
 3. **Bind hvert dok-tall** med et `<!-- claim:ID felt -->`-anker.
 4. **Kjør `vericlaim`**: må skrive `[OK]`; den navngir enhver drift med
    `fil:linje`.
@@ -910,17 +910,17 @@ uten å re-utlede den, og du arver dens ærlighet (nivå + forbehold) uendret.
 
 ▷ **I dybden.** `fetch_bundle` → `import_bundle` (offline hash-verifisering) →
 `use_code` (byte-eksakt vendoring med en bindende test). Et konsumerende
-prosjekt arver claimens evidensnivå og forbehold; en importør kan **nedgradere,
+prosjekt arver påstandens evidensnivå og forbehold; en importør kan **nedgradere,
 men aldri stille oppgradere**. Eksempelmål: den konforme innpakningen
-[THM-CONF], verifiser-gated ruteren [THM-ROUTE-001], governance-kryssreferansen
+[THM-CONF], den verifiseringsport-styrte ruteren [THM-ROUTE-001], styringskryssreferansen
 [CLAIM-GOV-001], beslutningsteori-batteriet [THM-SCORE/STOP/GAME/JENSEN].
 
 ```mermaid
 sequenceDiagram
     participant P as Ditt prosjekt
-    participant L as Claims-biblioteket
+    participant L as Påstandsbiblioteket
     P->>L: fetch_bundle(id)
-    L-->>P: bundle (claim + kode + artefakt)
+    L-->>P: bundle (påstand + kode + artefakt)
     P->>P: import_bundle, verifiser hasher offline
     P->>P: use_code, vendor byte-eksakt + bindende test
     Note over P: arver evidensnivå + forbehold<br/>(nedgrader tillatt, oppgrader aldri)
@@ -932,20 +932,20 @@ sequenceDiagram
 
 | ✅ Mønster | ❌ Anti-mønster |
 |---|---|
-| Mål, så claim, så skriv | «Dette tallet er omtrent riktig» |
+| Mål, så påstand, så skriv | «Dette tallet er omtrent riktig» |
 | Registrer forbeholdet med tallet | Siter tallet, dropp omfanget |
 | Avstå-og-eskaler under usikkerhet | Tving alltid et selvsikkert svar |
 | Fail-closed standard (nekt det ukjente) | Fail-open («tillat med mindre blokkert») |
 | Publiser negativresultatet [REMORA CLAIM-009] | Slett resultater som ser dårlige ut |
 | Grader konservativt; nedgrader når evidens svekkes | Stille oppgradering til et penere nivå |
 | Ett sett kontrollmål, mange rapporteringsvinkler | Fem parallelle samsvarspermer |
-| Fiks driften gaten navngir | «Omgå gaten» |
+| Fiks driften porten navngir | «Omgå porten» |
 
 ---
 
 ## 23. Assurance-argumentet
 
-▶ **Enkelt forklart:** hele håndboken, komprimert til én claim du kan angripe.
+▶ **Enkelt forklart:** hele håndboken, komprimert til én påstand du kan angripe.
 
 ▷ **I dybden.**
 
@@ -968,7 +968,7 @@ flowchart BT
 > (§§5-6).*
 
 Assurance-saken er ikke «stol på dette dokumentet»; den er «angrip hvilken som
-helst klausul: gaten, hovedboken og reproduce-ritualet forteller deg om den har
+helst klausul: porten, hovedboken og reproduce-ritualet forteller deg om den har
 driftet».
 
 ---
@@ -982,7 +982,7 @@ driftet».
 svake punktene oppgis like tydelig.
 
 ▷ **I dybden.**
-- **Gaten beviser konsistens og reproduserbarhet, ikke sannhet.** Dok-binding
+- **Porten beviser konsistens og reproduserbarhet, ikke sannhet.** Dok-binding
   beviser at et tall er *til stede og register-matchet*, ikke at setningen er
   korrekt, benchmarken realistisk, eller evidensen umanipulert før commit.
 - **Kryssreferansen er strukturell, ikke juridisk** [CLAIM-GOV-001]: ikke
@@ -1008,11 +1008,11 @@ svake punktene oppgis like tydelig.
   [REMORA CLAIM-001]; ekte verktøykall-avskjæring er fremtidig arbeid.
 - **Kryssreferansen stopper ved toppnivå-struktur**: artikkel/klausul-nivå
   sporbarhet er en naturlig neste byggestein.
-- **Menneske-gatede assurance-steg** (uavhengig gjennomgang av runtime-
+- **Assurance-steg med en menneskelig port** (uavhengig gjennomgang av runtime-
   prosjektet) er det høyeste-innflytelse neste steget for de sterkeste
   evidenstrinnene.
 
-Disse definerer perimeteret; et governance-program som kjenner sitt eget
+Disse definerer perimeteret; et styringsprogram som kjenner sitt eget
 perimeter er det som er verdt å stole på innenfor det.
 
 ---
@@ -1020,12 +1020,12 @@ perimeter er det som er verdt å stole på innenfor det.
 
 # Del VII: Identitet, policy og fler-sky-kobling
 
-> Governance er bare ekte hvis den *håndheves*, og håndheves likt uansett hvor
+> Styring er bare ekte hvis den *håndheves*, og håndheves likt uansett hvor
 > systemet kjører. Denne delen kobler de abstrakte kontrollmålene (§15) til de
 > konkrete skjøtene som bærer identitet og policy på tvers av skyer. Tallene er
 > verifisert av **CLAIM-COUPLE-001** (`governance/identity_coupling.py` i
-> claims-biblioteket), og standardene er bevart hash-låst som litteratur under
-> den claimen.
+> påstandsbiblioteket), og standardene er bevart hash-låst som litteratur under
+> den påstanden.
 
 ## 26. Identitet, autentisering og arbeidslast-føderasjon
 
@@ -1068,7 +1068,7 @@ flowchart LR
 ```
 
 *Én utsteder, tre skyer, samme standard: ingen distribuerte statiske nøkler.
-Sikkerheten hviler på publikums-begrensning, claim-betingelser og korte TTL-er;
+Sikkerheten hviler på publikums-begrensning, påstandsbetingelser og korte TTL-er;
 en feil-scoped tillitspolicy fødererer mer enn tiltenkt (se forbeholdet i
 CLAIM-COUPLE-001).*
 
@@ -1087,7 +1087,7 @@ hver forespørsel evalueres eksplisitt og etter minste-privilegium.
 
 Policy-as-code fyller PDP-en. **Open Policy Agent** med språket **Rego** er det
 portable substratet: samme Rego kjører som en Kubernetes admission controller
-(Gatekeeper) på EKS, AKS, GKE og OpenShift, som en tjeneste-sidecar, og i CI.
+(Gatekeeper) på EKS, AKS, GKE og OpenShift, som en tjeneste-følgefil, og i CI.
 **Cedar** (åpnet kildekode, bak Amazon Verified Permissions) tilbyr et
 formelt-analyserbart autorisasjonsspråk for beslutninger på applikasjonsnivå.
 **CEL** (Common Expression Language) bærer portable betingelser (GCP IAM
@@ -1096,7 +1096,7 @@ naturlig her: et kontrollmål blir en policy en maskin kan evaluere.
 
 ```mermaid
 flowchart LR
-    REQ[Forespørsel<br/>+ identitets-claims / SPIFFE-ID] --> PEP{{PEP<br/>mesh · gateway · admission}}
+    REQ[Forespørsel<br/>+ identitets-påstander / SPIFFE-ID] --> PEP{{PEP<br/>mesh · gateway · admission}}
     PEP -->|"spør"| PDP[PDP · policy-as-code<br/>OPA/Rego · Cedar · CEL]
     PDP -->|"tillat / nekt + forpliktelser"| PEP
     PEP -->|"beslutningslogg"| AUD[(Revisjon · OpenTelemetry)]
@@ -1105,13 +1105,13 @@ flowchart LR
 ```
 
 *PDP-en identifiserer ingenting og PEP-en bestemmer ingenting: det skillet er
-det som lar én Rego-policy være governance-regelen på hver plattform. En policy
+det som lar én Rego-policy være styringsregelen på hver plattform. En policy
 er bare så god som testene og inndataene sine; beslutningslogging gjør den
 reviderbar.*
 
 ## 28. Fler-sky-koblingspunkter: de leverandørnøytrale skjøtene
 
-▶ **Enkelt forklart:** en virksomhet lever sjelden på én sky. Hvis governance er
+▶ **Enkelt forklart:** en virksomhet lever sjelden på én sky. Hvis styring er
 koblet med hver skys proprietære knapper, må den bygges på nytt, og vil drifte,
 på neste sky. Utveien er å koble på de åpne standardene hver sky allerede
 snakker, og behandle hver skys native tjeneste som en *adapter*.
@@ -1142,7 +1142,7 @@ CLAIM-COUPLE-001:
 | 3 | OAuth 2.0 Token Exchange (RFC 8693) | STS-stil arbeidslast-føderasjon |
 | 4 | SAML 2.0 | SSO-assertions for virksomheter |
 | 5 | SCIM 2.0 (RFC 7643/7644) | Provisjonering på tvers av domener |
-| 6 | JWT (RFC 7519) | Signert, verifiserbart claims-token |
+| 6 | JWT (RFC 7519) | Signert, verifiserbart påstandstoken |
 | 7 | mTLS / X.509 (RFC 8705) | Gjensidig-TLS klientidentitet, bundne tokens |
 | 8 | SPIFFE/SPIRE | Portabel arbeidslast-identitet (SVID) |
 | 9 | Open Policy Agent / Rego | Portabel policy-as-code |
@@ -1175,17 +1175,17 @@ Native tjenestenavn er gjeldende ved skrivetidspunkt; skyer omdøper og legger
 til tjenester. Den sjekkbare egenskapen er intern fullstendighet og
 standard-deling på tvers av skyer; standardene er autoriteten. Brukt ærlig er
 det det konkrete svaret på leverandøruavhengighets-kravet i §18-§19: samme
-governance, beviselig portabel.
+styring, beviselig portabel.
 
 ---
 ---
 
 # Del VIII: Sikkerhetsdrift og databeskyttelse
 
-> Governance navngir løftet; sikkerhetsdrift *holder* det, dag for dag. Denne
+> Styring navngir løftet; sikkerhetsdrift *holder* det, dag for dag. Denne
 > delen gir hvert kontrollmål et driftsmessig hjem og behandler persondata som
 > en førsteklasses fare. Tallene er verifisert av **CLAIM-SECOPS-001**
-> (`governance/security_operations.py` i claims-biblioteket); standardene er
+> (`governance/security_operations.py` i påstandsbiblioteket); standardene er
 > bevart hash-låst som litteratur.
 
 ## 29. Sikkerhetsdrift: å holde løftet
@@ -1209,7 +1209,7 @@ MITRE ATT&CK.
 | IT-tjenestestyring (ITSM) | Hendelse · endring · problem · SLM | ISO/IEC 20000-1 · ITIL 4 · NIST SP 800-61 | Accountability · monitoring |
 | Observabilitet | Metrikker · tracing · SLO-er · driftdeteksjon | OpenTelemetry · NIST SP 800-137 | Monitoring · robustness |
 | Logging & revisjon | Sentrale logger · tamper-evident spor · retensjon · tidssync | NIST SP 800-92 · ISO/IEC 27001 · OpenTelemetry | Logging & traceability |
-| PII databeskyttelse | Oppdagelse · skrubbing · minimering · DSAR | ISO/IEC 27701 · GDPR · NIST SP 800-53 | Privacy · data governance |
+| PII databeskyttelse | Oppdagelse · skrubbing · minimering · DSAR | ISO/IEC 27701 · GDPR · NIST SP 800-53 | Privacy · datastyring |
 | Sårbarhetshåndtering | Skanning · patch-SLA-er · SBOM · pentest | CIS Controls v8 · OWASP ASVS · NIST SP 800-53 | Robustness · risk |
 | Deteksjon & respons | SIEM-deteksjoner · SOAR · IR-øvelser | MITRE ATT&CK · NIST SP 800-61 · CIS v8 | Monitoring · human oversight |
 | Hemmeligheter & nøkler | Rotasjon · HSM-nøkler · kortlevde creds | NIST SP 800-53 · CIS v8 | Robustness · accountability |
@@ -1238,7 +1238,7 @@ flowchart LR
 ```
 
 *Fire mål (transparens, menneskelig tilsyn, rettferdighet og ansvarlighet) er
-governance/avslørings-temaer eid av kontrollregisteret (§15), ikke driftsdomener;
+styrings- og avslørings-temaer eid av kontrollregisteret (§15), ikke driftsdomener;
 kryssreferansen oppgir den utelatelsen eksplisitt i stedet for å late som om
 hvert mål er en driftsoppgave.*
 
@@ -1288,9 +1288,9 @@ samler inn slik at skrubbe-pipelinen har mindre å fange.*
 | 02 | LLM- og agent-arkitekturer | 19 |
 | 03 | Evaluering og kalibrering | 11 |
 | 04 | Agent-sikkerhet | 12 |
-| 05 | AI-governance | 18 |
+| 05 | AI-styring | 18 |
 | 06 | MLOps og enterprise-arkitektur | 13 |
-| 07 | Provenance og supply chain | 12 |
+| 07 | Proveniens og supply chain | 12 |
 | 08 | Formelle metoder | 7 |
 | 09 | Rettferdighet, personvern og menneskelig innvirkning | 9 |
 | 10 | Assurance-saker og runtime-verifisering | 3 |
@@ -1302,13 +1302,13 @@ samler inn slik at skrubbe-pipelinen har mindre å fange.*
 
 ## Appendiks B: indeks over verifiserte teoremer
 
-Maskinsjekkede byggesteiner (claims-biblioteket, `machine_checked` med mindre
+Maskinsjekkede byggesteiner (påstandsbiblioteket, `machine_checked` med mindre
 annet er oppgitt), gruppert etter familie:
 
 - **Usikkerhet:** konform kombinatorikk [THM-CONF-001..004]; runtime-
   demonstrasjon [DEMO-001, benchmarked].
 - **Verifiser-amplifikasjon:** best-of-n-identitet [THM-VOTE-001]; flertalls-
-  amplifikasjon + ærlig degradering [THM-VOTE-002]; verifiser-gated
+  amplifikasjon + ærlig degradering [THM-VOTE-002]; verifiseringsport-styrt
   kaskade-dominans, 87 380 tabeller [THM-ROUTE-001].
 - **Beslutningsteori:** Brier-properness [THM-SCORE-001]; sekretær-stopping
   [THM-STOP-001]; minimax=maximin, 6561 spill [THM-GAME-001]; Jensen/varians
@@ -1320,7 +1320,7 @@ annet er oppgitt), gruppert etter familie:
   VC-dimensjon [THM-VC-001]; Bayes/posterior [THM-BAYES-001, THM-POST-001];
   Lean-verifisert sett [THM-LEAN-001..003].
 
-Eksakt grad og omfang står i hver claims register-oppføring; tallene over er
+Eksakt grad og omfang står i hver påstands registeroppføring; tallene over er
 uttømmende-sjekk-størrelsene registrert i evidensartefaktene.
 
 ## Appendiks C: kryssreferansematrisen
@@ -1345,23 +1345,23 @@ mål, hvert mål dekket av ≥2 rammeverk, sjekket fail-closed [CLAIM-GOV-001].
 
 ## Appendiks D: ordliste
 
-- **Claim**: en kontrakt mellom et oppgitt faktum og en committed artefakt,
-  sjekket av gaten.
-- **Evidensnivå**: ærlighetstrinnet en claim har fortjent: theoretical <
+- **Påstand**: en kontrakt mellom et oppgitt faktum og en committed artefakt,
+  sjekket av porten.
+- **Evidensnivå**: ærlighetstrinnet en påstand har fortjent: theoretical <
   measured < benchmarked < reproduced < machine_checked < externally_validated.
 - **Fail-closed**: standarden ved enhver ukjent input er nekt/avslå.
 - **Kontrollmål**: ett av de 10 delte temaene [CLAIM-GOV-001].
 - **Kanon**: den hash-låste litteraturkatalogen (180 verk) servert som RAG.
 - **Hovedbok / vitne**: den append-only, hash-kjedede offentlige posten over
-  hver bibliotek-claim; uavhengig verifiserbar.
-- **Byggestein**: en gjenbrukbar, forhåndsverifisert claim + kode, konsumert via
+  hver bibliotek-påstand; uavhengig verifiserbar.
+- **Byggestein**: en gjenbrukbar, forhåndsverifisert påstand + kode, konsumert via
   `import_bundle` / `use_code` med nivå og forbehold intakt.
 - **PDP / PEP**: Policy Decision Point / Policy Enforcement Point; den
-  fail-closede gaten i handlings-stien.
+  fail-closede porten i handlings-stien.
 - **TOGAF ADM**: Architecture Development Method; fasesyklusen denne håndboken
   avbilder byggesteinene på (§17).
 
-## Appendiks E: hurtigreferanse for claim-IDer
+## Appendiks E: hurtigreferanse for påstands-IDer
 
 | ID | Hva den etablerer | Nivå |
 |---|---|---|
@@ -1372,7 +1372,7 @@ mål, hvert mål dekket av ≥2 rammeverk, sjekket fail-closed [CLAIM-GOV-001].
 | CLAIM-COUPLE-001 | 4 skyer × 6 koblingsdimensjoner → 13 åpne standarder, hver skjøt leverandørnøytral, fail-closed | measured |
 | CLAIM-SECOPS-001 | 8 sikkerhetsdrift-domener × 33 praksiser → 13 standarder, hvert driftsmål har et hjem, fail-closed | measured |
 | THM-SCORE-001 | Brier-properness: ærlighet er optimalt (1028 par) | machine_checked |
-| THM-ROUTE-001 | verifiser-gated kaskade-dominans (87 380 tabeller) | machine_checked |
+| THM-ROUTE-001 | verifiseringsport-styrt kaskade-dominans (87 380 tabeller) | machine_checked |
 | THM-VOTE-001/002 | best-of-n-identitet; amplifikasjon + ærlig degradering | machine_checked |
 | THM-GAME-001 | minimax=maximin (6561 spill) | machine_checked |
 | THM-STOP-001 | sekretær optimal stopping (n ≤ 20) | machine_checked |
@@ -1394,6 +1394,6 @@ mål, hvert mål dekket av ≥2 rammeverk, sjekket fail-closed [CLAIM-GOV-001].
 ---
 
 *Kompilert som en VeriClaim-syntese / håndbok. Hver sitering løses opp mot en
-registrert, gate-verifisert claim eller et hash-låst kanon-verk; registrene er
+registrert, portverifisert påstand eller et hash-låst kanon-verk; registrene er
 autoritative. Påstandsbasert programmering (Claim-Oriented Programming) og
 VeriClaim av Stian Skogbrott.*

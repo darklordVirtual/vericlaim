@@ -1,7 +1,7 @@
 # Appendiks G: Fem gjennomgående case-studier
 
-Hvert case følger samme bue: hva som *påstås*, hvilken *evidens* claimen
-trenger, hvordan claimen *registreres*, hvordan *gaten* ville feile ved drift,
+Hvert case følger samme bue: hva som *påstås*, hvilken *evidens* påstanden
+trenger, hvordan påstanden *registreres*, hvordan *porten* ville feile ved drift,
 hvordan den *fikses*, og hva som fortsatt er *ubevist*. De er illustrerende
 sammensetninger, ikke rapporter om navngitte utrullinger. Disiplinen er poenget,
 ikke tallene.
@@ -14,8 +14,8 @@ ikke tallene.
 - **Registrert.** `CLAIM` på `benchmarked`: lekkasjerate 0/N på sondesettet, med
   forbehold om at benchmarket er adversarisk-men-endelig og ikke dekker ny
   formulering.
-- **Gaten feiler når.** Noen redigerer markedssiden til å si «kan beviselig ikke
-  lekke data», en påstand over evidensen. Gaten flagger setningen.
+- **Porten feiler når.** Noen redigerer markedssiden til å si «kan beviselig ikke
+  lekke data», en påstand over evidensen. Porten flagger setningen.
 - **Fikses ved.** Å omformulere til «ingen lekkasje observert over N adversariske
   sonder (se forbeholdet)», eller å produsere sterkere evidens.
 - **Fortsatt ubevist.** At benchmarket reflekterer reell angriperatferd; at
@@ -30,10 +30,10 @@ ikke tallene.
 - **Registrert.** `CLAIM` på `benchmarked`: 0.0 % utrygg-eksekvering på et
   700-oppgavers adversarisk sett, forbehold som navngir benchmarket og
   restfalsk-aksept-raten ærlig.
-- **Gaten feiler når.** Restfalsk-aksept-tallet stilltiende fjernes for å få
-  kontrollen til å se perfekt ut. Gatens «ingen slettede negativresultater»-regel
+- **Porten feiler når.** Restfalsk-aksept-tallet stilltiende fjernes for å få
+  kontrollen til å se perfekt ut. Portens «ingen slettede negativresultater»-regel
   og stale-string-sjekk fanger utelatelsen.
-- **Fikses ved.** Å beholde negativresultatet i claimen: en kontroll som
+- **Fikses ved.** Å beholde negativresultatet i påstanden: en kontroll som
   navngir sin egen feilrate er mer troverdig enn en som skjuler den.
 - **Fortsatt ubevist.** Sikkerhet mot angrep som ikke er representert i
   benchmarket; riktig konfigurasjon i et bestemt miljø.
@@ -47,23 +47,23 @@ ikke tallene.
 - **Registrert.** `CLAIM` på `measured`: full toveisdekning, verifisert
   fail-closed; forbehold om at kryssreferansen kartlegger *offentlig struktur*,
   ikke klausul-spesifikk innhold, og ikke er sertifisering.
-- **Gaten feiler når.** En kontroll fjernes, men dekningspåstanden oppdateres
+- **Porten feiler når.** En kontroll fjernes, men dekningspåstanden oppdateres
   ikke, og dekningssjekkeren rapporterer et udekket mål og bygget stopper.
-- **Fikses ved.** Å gjenopprette kontrollen eller ærlig innsnevre claimen.
+- **Fikses ved.** Å gjenopprette kontrollen eller ærlig innsnevre påstanden.
 - **Fortsatt ubevist.** At hver kontroll er riktig *implementert* i den kliniske
   settingen. Det er per-utrullings-evidens (en assurance case), og klinisk
   validering er en separat, høyere terskel.
 
 ## Case 4: Et fler-sky enterprise-AI-kontrollplan
 
-- **Påstått.** «Vår identitets- og policy-governance porter på tvers av AWS,
+- **Påstått.** «Vår identitets- og policy-styring porter på tvers av AWS,
   Azure, GCP og OpenShift uten lock-in.»
 - **Evidens trengs.** En koblingskryssreferanse som viser hver skys mekanisme
   koblet på delte åpne standarder, sjekket så hver skjøt er leverandørnøytral.
 - **Registrert.** `CLAIM` på `measured`: 4 skyer × 6 dimensjoner på 13 åpne
   standarder, hver dimensjon forankret av en standard delt på tvers av minst to
   skyer; forbehold om at native tjenestenavn er gjeldende ved skrivetidspunkt.
-- **Gaten feiler når.** En dimensjon kobles til en enkelt-skys proprietær
+- **Porten feiler når.** En dimensjon kobles til en enkelt-skys proprietær
   mekanisme uten delt standard: sjekkeren rapporterer en ikke-portabel skjøt.
 - **Fikses ved.** Å koble den skjøten på en åpen standard (OIDC, SPIFFE,
   OPA/Rego) og behandle den native tjenesten som en adapter.
@@ -81,7 +81,7 @@ ikke tallene.
 - **Registrert.** `CLAIM` på `measured`: grunnet-svar- og korrekt-nektelse-atferd
   verifisert ende-til-ende; forbehold om at grunning håndheves av retrieval pluss
   en siteringssjekk, ikke et bevis for at hver setning følger av kilden sin.
-- **Gaten feiler når.** README-en påstår at assistenten «svarer kun fra claims»
+- **Porten feiler når.** README-en påstår at assistenten «svarer kun fra påstander»
   som en garanti. Den ærlige formuleringen (*designet for å* svare fra kilder,
   med grunning *håndhevet av* retrieval og en siteringssjekk) er det som
   passerer.
@@ -91,8 +91,8 @@ ikke tallene.
 
 ---
 
-*På tvers av alle fem er mønsteret identisk: claimen bærer evidensnivået sitt og
-grensen sin, gaten nekter drift og nekter beskrivelse over evidens, og det som er
+*På tvers av alle fem er mønsteret identisk: påstanden bærer evidensnivået sitt og
+grensen sin, porten nekter drift og nekter beskrivelse over evidens, og det som er
 ubevist oppgis i stedet for å skjules. Den nektelsen, å akkumulere ustøttet
 betryggelse, er hele metoden.*
 
