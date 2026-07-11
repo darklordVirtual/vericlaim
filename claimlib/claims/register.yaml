@@ -639,3 +639,91 @@ claims:
       Correctness is demonstrated over a fixed battery of graphs, not proven for every graph. Nodes must be mutually comparable for the deterministic smallest-first ordering (e.g. all strings or all ints); an edge referencing an unknown node fails closed. Edges are (u, v) meaning 'u before v'.
     reproduce: "python3 claimlib/modules/topo_sort/evidence.py"
 
+  - id: CLAIM-LIB-SHA256-001
+    statement: >
+      The vendored SHA-256 -- which implements the FIPS 180-4 padding, 64-word message schedule and 64-round compression DIRECTLY on 32-bit integers and never imports hashlib -- reproduces every value in a fixed 398-vector reference set with 0 mismatches: the 3 published FIPS check values (sha256(b"") == e3b0c442...b855, sha256(b"abc") == ba7816bf...15ad, and the 448-bit example) plus 395 byte strings (block-boundary lengths 55/56/64/65, a long input, every single byte 0..255, and incremental lengths across blocks) that agree byte-for-byte with the independent stdlib hashlib.sha256.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/sha256/artifacts/sha256.json"
+    metrics:
+      reference_vectors: 398
+      reference_vectors_matched: 398
+      mismatches: 0
+      crosscheck_matched: 395
+    caveat: >
+      hashlib.sha256 is the independent oracle and is NOT used inside the vendored module. Correctness is demonstrated over a fixed reference set, not proven for every input. SHA-256 is a cryptographic hash for integrity and commitment, NOT a password hash -- use PBKDF2/scrypt/argon2 for passwords -- and a bare hash is not a MAC (use HMAC for authentication). This is a clear, from-scratch reference implementation, not a side-channel-hardened or performance-tuned one.
+    reproduce: "python3 claimlib/modules/sha256/evidence.py"
+
+  - id: CLAIM-LIB-HMAC-SHA256-001
+    statement: >
+      The vendored HMAC-SHA256 -- which implements the RFC 2104 construction DIRECTLY (key normalization, ipad/opad, two-pass hash) over hashlib.sha256 and never calls the stdlib hmac module -- passes all 13 checks with 0 mismatches: it agrees byte-for-byte with stdlib hmac on all 10 battery inputs (the RFC 4231 HMAC-SHA256 test key/message pairs, including the oversized 131-byte key that must be hashed down, plus empty and block-sized keys), reproduces the published RFC 4231 Test Case 2 tag (5bdcc146...3843), and its constant-time verify accepts the correct tag and rejects a single flipped bit.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/hmac_sha256/artifacts/hmac_sha256.json"
+    metrics:
+      reference_vectors: 13
+      reference_vectors_matched: 13
+      mismatches: 0
+      oracle_agreements: 10
+    caveat: >
+      The stdlib hmac module is the independent oracle for the HMAC construction; the underlying compression is hashlib.sha256 (so this proves the HMAC wrapper, not SHA-256 itself -- see the sha256 module for that). Correctness is over a fixed battery, not proven for every input. verify is constant-time in the tag comparison, but this is a clear reference implementation, not a fully side-channel-hardened one.
+    reproduce: "python3 claimlib/modules/hmac_sha256/evidence.py"
+
+  - id: CLAIM-LIB-HOTP-001
+    statement: >
+      The vendored HOTP generator reproduces every published RFC 4226 Appendix D test vector exactly (correct = 10, errors = 0): for the reference secret b"12345678901234567890" the 6-digit HOTP for counters 0..9 is 755224, 287082, 359152, 969429, 338314, 254676, 287922, 162583, 399871, 520489, computed via HMAC-SHA1 of the counter and the RFC 4226 dynamic-truncation to a 31-bit value reduced modulo 10**digits.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/hotp/artifacts/hotp.json"
+    metrics:
+      n_cases: 10
+      correct: 10
+      errors: 0
+    caveat: >
+      Correctness is demonstrated over the published RFC 4226 vectors, not proven for every secret/counter. HOTP is event-based (the caller owns the moving counter and its resynchronization window); it authenticates possession of the shared secret, so the secret must be provisioned and stored securely, and SHA-1 here is the HMAC PRF as the RFC mandates (not a security weakness in this HOTP context).
+    reproduce: "python3 claimlib/modules/hotp/evidence.py"
+
+  - id: CLAIM-LIB-TOTP-001
+    statement: >
+      The vendored TOTP generator reproduces every published RFC 6238 Appendix B (SHA-1) test vector exactly (correct = 6, errors = 0): for the reference secret b"12345678901234567890" with 8 digits and a 30-second step, the TOTP at Unix times 59, 1111111109, 1111111111, 1234567890, 2000000000 and 20000000000 is 94287082, 07081804, 14050471, 89005924, 69279037 and 65353130, derived as HOTP over the time counter floor((now - T0) / step).
+    evidence_level: benchmarked
+    artifact:
+      - "modules/totp/artifacts/totp.json"
+    metrics:
+      n_cases: 6
+      correct: 6
+      errors: 0
+    caveat: >
+      Correctness is demonstrated over the published RFC 6238 SHA-1 vectors, not proven for every input; the SHA-256/SHA-512 modes are implemented but each is validated here only via SHA-1 (RFC 6238 uses different per-algorithm seeds). Verification (accepting a code within a +/- step window for clock skew, and rejecting reuse) is the caller's responsibility, and the shared secret must be stored securely.
+    reproduce: "python3 claimlib/modules/totp/evidence.py"
+
+  - id: CLAIM-LIB-PBKDF2-001
+    statement: >
+      The vendored PBKDF2 -- which implements the RFC 8018 block function T_i = U_1 XOR ... XOR U_c DIRECTLY over an HMAC PRF and never calls hashlib.pbkdf2_hmac -- reproduces every value in an 11-vector reference set with 0 mismatches: the 3 published RFC 6070 PBKDF2-HMAC-SHA1 vectors (('password','salt',1,20) -> 0c60c80f...37a6, (...,2,20) -> ea6c014d...8957, (...,4096,20) -> 4b007901...29c1) plus 8 (hash, password, salt, iterations, dklen) cases over SHA-1/256/512 (multi-block output, empty password, empty salt) that agree byte-for-byte with the independent stdlib hashlib.pbkdf2_hmac.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/pbkdf2/artifacts/pbkdf2.json"
+    metrics:
+      reference_vectors: 11
+      reference_vectors_matched: 11
+      mismatches: 0
+      oracle_matched: 8
+    caveat: >
+      hashlib.pbkdf2_hmac is the independent oracle and is NOT called inside the vendored module. Correctness is over a fixed reference set, not proven for every input. PBKDF2 is a deliberately slow password KDF; choose a high iteration count (>= hundreds of thousands for SHA-256 today) and a unique random salt per password. This pure-Python implementation is far slower than the C stdlib one and is not constant-time; for production password storage prefer scrypt or argon2.
+    reproduce: "python3 claimlib/modules/pbkdf2/evidence.py"
+
+  - id: CLAIM-LIB-HKDF-001
+    statement: >
+      The vendored HKDF (extract-then-expand) reproduces the published RFC 5869 SHA-256 test vectors exactly (reference_vectors_matched = 9, mismatches = 0): across Test Case 1 (basic), Test Case 2 (longer inputs, L=82), and Test Case 3 (zero-length salt and info) it matches the RFC's PRK and OKM hex, and the standalone expand(PRK) step reproduces each OKM -- all three checks per case, hand-written verbatim from the RFC.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/hkdf/artifacts/hkdf.json"
+    metrics:
+      n_vectors: 3
+      checks: 9
+      reference_vectors_matched: 9
+      mismatches: 0
+    caveat: >
+      The RFC 5869 published vectors are the independent oracle. Correctness is demonstrated over those fixed vectors (SHA-256), not proven for every input. HKDF derives keys from an already-high-entropy secret (a Diffie-Hellman shared secret, a master key); it is NOT a password hash -- run a low-entropy password through PBKDF2/scrypt/argon2 first. Bind context into the info parameter for domain separation between derived keys.
+    reproduce: "python3 claimlib/modules/hkdf/evidence.py"
+

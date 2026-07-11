@@ -1,0 +1,30 @@
+{
+  "crosscheck_matched": 395,
+  "crosscheck_vectors": 395,
+  "mismatches": 0,
+  "module": "sha256",
+  "published_detail": [
+    {
+      "computed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "input_len": 0,
+      "match": true
+    },
+    {
+      "computed": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "expected": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "input_len": 3,
+      "match": true
+    },
+    {
+      "computed": "248d6a61d20638b8e5c026930c3e6039a33ce45964ff2167f6ecedd419db06c1",
+      "expected": "248d6a61d20638b8e5c026930c3e6039a33ce45964ff2167f6ecedd419db06c1",
+      "input_len": 56,
+      "match": true
+    }
+  ],
+  "published_vectors": 3,
+  "reference_vectors": 398,
+  "reference_vectors_matched": 398,
+  "schema": "claimlib_sha256_v1"
+}

@@ -1,6 +1,6 @@
 # useStepper React hook
 
-*Subject area: React / UI State. Language: react. Vendorable bundle `845f3fcc2ca4`.*
+*Subject area: React / UI State. Language: react. Vendorable bundle `101c7c14a830`.*
 
 Multi-step wizards are a classic source of off-by-one bugs: clamping the active step, deciding when Back/Next should disable, and computing a progress fraction all invite index errors. The durable pattern is to put that arithmetic in a pure, framework-agnostic function and make the hook a thin binding, so the hard part is unit-testable without a DOM. useStepper does exactly that: stepper.logic.ts derives the clamped index, isFirst/isLast flags, a 0..1 progress value and clamped next/prev targets, and useStepper.tsx wraps it in useState/useMemo. Vendor both; the claim proves the core is correct, so you inherit checked wizard-navigation state rather than re-deriving clamp and progress math in every project.
 
@@ -16,5 +16,5 @@ Ships `useStepper.tsx`, `stepper.logic.ts` into your project, byte-exact, with a
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/845f3fcc2ca4d564a259c3ac2f09a4041c32d51126936cb5b6e59e1ca4a64212 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/101c7c14a8306a6f04713a11e02a39e9e4cbeae16596ed7c5b54e4b13356546e --target .
 ```

@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "hotp.json",
+  "artifact_sha256": "074904379db61c2c4e6ca1bffae6d1137c4a408d046a5417e265ad68a9efbf52",
+  "script": "python3 claimlib/modules/hotp/evidence.py",
+  "git_commit": "a843571c19565acabdb766dd3a04eb946d05615e",
+  "generated_at": "2026-07-11T17:25:51.576358+00:00",
+  "produced_by": "claimlib"
+}

@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "case": 1,
+      "expand_ok": true,
+      "okm_ok": true,
+      "prk_ok": true
+    },
+    {
+      "case": 2,
+      "expand_ok": true,
+      "okm_ok": true,
+      "prk_ok": true
+    },
+    {
+      "case": 3,
+      "expand_ok": true,
+      "okm_ok": true,
+      "prk_ok": true
+    }
+  ],
+  "checks": 9,
+  "mismatches": 0,
+  "module": "hkdf",
+  "n_vectors": 3,
+  "reference_vectors_matched": 9,
+  "schema": "claimlib_hkdf_v1"
+}

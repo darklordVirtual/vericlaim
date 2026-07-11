@@ -1,0 +1,30 @@
+{
+  "mismatches": 0,
+  "module": "pbkdf2",
+  "oracle_cases": 8,
+  "oracle_matched": 8,
+  "published_detail": [
+    {
+      "computed": "0c60c80f961f0e71f3a9b524af6012062fe037a6",
+      "expected": "0c60c80f961f0e71f3a9b524af6012062fe037a6",
+      "iterations": 1,
+      "match": true
+    },
+    {
+      "computed": "ea6c014dc72d6f8ccd1ed92ace1d41f0d8de8957",
+      "expected": "ea6c014dc72d6f8ccd1ed92ace1d41f0d8de8957",
+      "iterations": 2,
+      "match": true
+    },
+    {
+      "computed": "4b007901b765489abead49d926f721d065a429c1",
+      "expected": "4b007901b765489abead49d926f721d065a429c1",
+      "iterations": 4096,
+      "match": true
+    }
+  ],
+  "reference_vectors": 11,
+  "reference_vectors_matched": 11,
+  "rfc6070_vectors": 3,
+  "schema": "claimlib_pbkdf2_v1"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "hkdf.json",
+  "artifact_sha256": "801dd3be4538f8382746c3fc38427fa033492dd57be0936f7ba22f25b7e4a7c0",
+  "script": "python3 claimlib/modules/hkdf/evidence.py",
+  "git_commit": "a843571c19565acabdb766dd3a04eb946d05615e",
+  "generated_at": "2026-07-11T17:30:13.808993+00:00",
+  "produced_by": "claimlib"
+}

@@ -29,6 +29,9 @@ claim in your context — read each module's caveat.
 | [`errorbudget`](docs/errorbudget.md) | Python | SRE / Reliability Engineering | `CLAIM-LIB-ERRORBUDGET-001` | measured |
 | [`hamming74`](docs/hamming74.md) | Python | Telecom / Forward Error Correction | `CLAIM-LIB-HAMMING74-001` | machine_checked |
 | [`hashchain`](docs/hashchain.md) | Python | Security / Data Integrity | `CLAIM-LIB-HASHCHAIN-001` | measured |
+| [`hkdf`](docs/hkdf.md) | Python | Security / Key Derivation | `CLAIM-LIB-HKDF-001` | benchmarked |
+| [`hmac_sha256`](docs/hmac_sha256.md) | Python | Security / Message Authentication | `CLAIM-LIB-HMAC-SHA256-001` | benchmarked |
+| [`hotp`](docs/hotp.md) | Python | Security / Authentication (2FA) | `CLAIM-LIB-HOTP-001` | benchmarked |
 | [`iban`](docs/iban.md) | Python | Finance / Payments & Banking | `CLAIM-LIB-IBAN-001` | measured |
 | [`imei`](docs/imei.md) | Python | Telecom / Device Identity | `CLAIM-LIB-IMEI-001` | measured |
 | [`ipchecksum`](docs/ipchecksum.md) | Python | Telecom / Packet Processing | `CLAIM-LIB-IPCHECKSUM-001` | measured |
@@ -44,12 +47,15 @@ claim in your context — read each module's caveat.
 | [`money`](docs/money.md) | Python | Finance / Accounting | `CLAIM-LIB-MONEY-001` | measured |
 | [`nmea`](docs/nmea.md) | Python | Industrial / Telemetry & Sensors | `CLAIM-LIB-NMEA-001` | measured |
 | [`oee`](docs/oee.md) | Python | Industrial / Manufacturing Analytics | `CLAIM-LIB-OEE-001` | measured |
+| [`pbkdf2`](docs/pbkdf2.md) | Python | Security / Password Hashing | `CLAIM-LIB-PBKDF2-001` | benchmarked |
 | [`rbac`](docs/rbac.md) | Python | Security / Identity & Access Management | `CLAIM-LIB-RBAC-001` | measured |
 | [`retry`](docs/retry.md) | Python | Reliability / Distributed Systems | `CLAIM-LIB-RETRY-001` | measured |
 | [`rle`](docs/rle.md) | Python | Data / Compression | `CLAIM-LIB-RLE-001` | benchmarked |
 | [`semver`](docs/semver.md) | Python | Software Supply Chain / Dependency Resolution | `CLAIM-LIB-SEMVER-001` | measured |
+| [`sha256`](docs/sha256.md) | Python | Security / Cryptographic Hashing | `CLAIM-LIB-SHA256-001` | benchmarked |
 | [`tokenbucket`](docs/tokenbucket.md) | Python | Reliability / Rate Limiting | `CLAIM-LIB-TOKENBUCKET-001` | measured |
 | [`topo_sort`](docs/topo_sort.md) | Python | General / Graph Algorithms | `CLAIM-LIB-TOPOSORT-001` | measured |
+| [`totp`](docs/totp.md) | Python | Security / Authentication (2FA) | `CLAIM-LIB-TOTP-001` | benchmarked |
 | [`vlan`](docs/vlan.md) | Python | Telecom / VLAN Management | `CLAIM-LIB-VLAN-001` | measured |
 | [`chunk`](docs/chunk.md) | TypeScript | TypeScript / Array Utilities | `CLAIM-LIB-CHUNK-001` | measured |
 | [`cx`](docs/cx.md) | TypeScript | TypeScript / UI Utilities | `CLAIM-LIB-CX-001` | measured |

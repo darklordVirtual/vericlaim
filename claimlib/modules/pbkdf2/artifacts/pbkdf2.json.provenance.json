@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "pbkdf2.json",
+  "artifact_sha256": "da1a6376d6d6cef1af49728b873622827a153e78ef4f1404bd361050deba7894",
+  "script": "python3 claimlib/modules/pbkdf2/evidence.py",
+  "git_commit": "a843571c19565acabdb766dd3a04eb946d05615e",
+  "generated_at": "2026-07-11T17:28:15.177367+00:00",
+  "produced_by": "claimlib"
+}

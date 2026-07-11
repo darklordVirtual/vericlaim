@@ -1,0 +1,11 @@
+{
+  "files": {
+    "artifacts/useAsync.json": "4162d610e9bcfde172145158fab2f24c6d720a8eea4767c78750fc622f0d0420",
+    "claim.json": "0cd6c7c97fe6da5e56eb6cae3ce84ac995f7bb13ac8b4096dd13119c85fa8956",
+    "code/async.logic.ts": "7b5114a593669cd6140b87f810ad4063fbf30ecdbca4f2b6339e062dcdfdf47f",
+    "code/useAsync.tsx": "f38d03144cc8bef6f67e17afb6fb6b8e61abaa337f83c6aa68a7b0f084312525",
+    "provenance.json": "a697875415c1d248c2a7b3164c46edac260b2cce2cb672b14cf616ab7970110e"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

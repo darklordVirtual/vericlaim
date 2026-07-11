@@ -1,6 +1,6 @@
 # CRC-16/MODBUS frame check
 
-*Subject area: Industrial / Fieldbus & Protocols. Language: python. Vendorable bundle `e31c934c3365`.*
+*Subject area: Industrial / Fieldbus & Protocols. Language: python. Vendorable bundle `03abbfd22024`.*
 
 Modbus RTU, the serial fieldbus dialect ubiquitous in PLCs and industrial sensors, protects every frame with a 16-bit CRC using the reflected polynomial 0xA001, an initial value of 0xFFFF, and no final XOR, transmitted low byte first. This module computes the CRC and offers append / verify helpers; the claim proves it reproduces the published catalogue check value 0x4B37 and agrees with an independent table-driven CRC, so you can vendor a dependency-free, checked frame-check for Modbus tooling or gateways rather than re-auditing another CRC loop.
 
@@ -16,5 +16,5 @@ Ships `modbus_crc.py` into your project, byte-exact, with a generated binding te
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e31c934c33659ee33766ef7a1a2f20b1b4d19aed4b540fc2f4d63c6d1dd230cd --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/03abbfd220245d7bcbf0a11b4cda93b6dc17ffbe64365293ead19f82972dd86d --target .
 ```

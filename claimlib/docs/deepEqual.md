@@ -1,6 +1,6 @@
 # deepEqual structural deep equality
 
-*Subject area: TypeScript / Data Comparison. Language: typescript. Vendorable bundle `64e02178fd2e`.*
+*Subject area: TypeScript / Data Comparison. Language: typescript. Vendorable bundle `372831b1f4fa`.*
 
 Deep equality compares two values by structure rather than by reference: two distinct objects are equal when their contents match recursively, unlike the === operator which only reports reference identity for objects. The subtle edges are the ones JavaScript gets 'wrong' by default -- NaN !== NaN (so a structural comparator must special-case it to true), Dates and arrays need element/timestamp comparison, and an explicit `{a: undefined}` must stay distinct from `{}`. Vendor it for test assertions, memoization/change-detection, and cache-key checks; the claim proves the comparator handles these edges as specified, so you inherit a checked primitive rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `deepEqual.ts` into your project, byte-exact, with a generated binding tes
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/64e02178fd2e90ad566f759b4f9f1c47ad27794ef9752c68d16ad5f1984c8d3d --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/372831b1f4fa04df3ac99cb56d57f4bb800d0e54b2b7638cc47d4f01ec9c52a4 --target .
 ```
