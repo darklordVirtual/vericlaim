@@ -1,0 +1,14 @@
+{
+  "module": "varint",
+  "published_matched": 7,
+  "published_vectors": 7,
+  "reference_vectors": 14,
+  "reference_vectors_matched": 14,
+  "schema": "claimlib_varint_v1",
+  "signed_roundtrip_ok": 1004,
+  "signed_roundtrip_total": 1004,
+  "unsigned_roundtrip_ok": 76,
+  "unsigned_roundtrip_total": 76,
+  "zigzag_matched": 7,
+  "zigzag_vectors": 7
+}

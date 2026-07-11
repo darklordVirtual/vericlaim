@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/hamming74.json": "5dc4707149492e55168ccb071acec032c7701334460addadd6b6b0c50fed1bf2",
+    "claim.json": "e83b54405d4da257a7de27362b1b4d3f3ded65ce04f7d2f4e03b9f0ab2e84048",
+    "code/hamming74.py": "98f805e065d60d33bfb0c6003642747ad05dfdaf4c62505c7abcb2cc53d5791d",
+    "provenance.json": "9835ab2a31133ad4086e026d74b130ebb7a189b35c8856cc010a4038562d11f3"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

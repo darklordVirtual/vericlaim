@@ -1,0 +1,10 @@
+{
+  "checks": 605,
+  "checks_matched": 605,
+  "mismatches": 0,
+  "module": "percentile",
+  "n_datasets": 6,
+  "nearest_rank_cases": 5,
+  "nearest_rank_correct": 5,
+  "schema": "claimlib_percentile_v1"
+}

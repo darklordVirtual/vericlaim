@@ -1,0 +1,11 @@
+{
+  "checks": 17,
+  "checks_matched": 17,
+  "mismatches": 0,
+  "module": "csv_rfc4180",
+  "parse_cases": 12,
+  "parse_matched": 12,
+  "roundtrip_cases": 5,
+  "roundtrip_matched": 5,
+  "schema": "claimlib_csv_rfc4180_v1"
+}

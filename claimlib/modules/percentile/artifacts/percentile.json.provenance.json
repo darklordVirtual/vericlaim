@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "percentile.json",
+  "artifact_sha256": "3caf4bfecdd19127323174c2bfaf5d897f1b8c9da01f6b9e185aa7d9a897428a",
+  "script": "python3 claimlib/modules/percentile/evidence.py",
+  "git_commit": "06e89785d7ecb9b89bd22f43596cc22e3bf521c9",
+  "generated_at": "2026-07-11T17:46:54.527605+00:00",
+  "produced_by": "claimlib"
+}

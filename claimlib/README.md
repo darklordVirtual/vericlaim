@@ -20,10 +20,12 @@ claim in your context — read each module's caveat.
 
 | Module | Lang | Subject area | Claim | Evidence |
 |--------|------|--------------|-------|----------|
+| [`apdex`](docs/apdex.md) | Python | Observability / Service Level Indicators | `CLAIM-LIB-APDEX-001` | measured |
 | [`aspath`](docs/aspath.md) | Python | Telecom / BGP Routing | `CLAIM-LIB-ASPATH-001` | measured |
 | [`base32`](docs/base32.md) | Python | Data / Encoding | `CLAIM-LIB-BASE32-001` | measured |
 | [`cidr`](docs/cidr.md) | Python | Telecom / IP Address Management | `CLAIM-LIB-CIDR-001` | benchmarked |
 | [`crc32`](docs/crc32.md) | Python | Data / Integrity & Checksums | `CLAIM-LIB-CRC32-001` | measured |
+| [`csv_rfc4180`](docs/csv_rfc4180.md) | Python | Data / Serialization | `CLAIM-LIB-CSV-RFC4180-001` | benchmarked |
 | [`cvss`](docs/cvss.md) | Python | Security / Vulnerability Management | `CLAIM-LIB-CVSS-001` | benchmarked |
 | [`e164`](docs/e164.md) | Python | Telecom / Numbering Plans | `CLAIM-LIB-E164-001` | measured |
 | [`errorbudget`](docs/errorbudget.md) | Python | SRE / Reliability Engineering | `CLAIM-LIB-ERRORBUDGET-001` | measured |
@@ -48,6 +50,7 @@ claim in your context — read each module's caveat.
 | [`nmea`](docs/nmea.md) | Python | Industrial / Telemetry & Sensors | `CLAIM-LIB-NMEA-001` | measured |
 | [`oee`](docs/oee.md) | Python | Industrial / Manufacturing Analytics | `CLAIM-LIB-OEE-001` | measured |
 | [`pbkdf2`](docs/pbkdf2.md) | Python | Security / Password Hashing | `CLAIM-LIB-PBKDF2-001` | benchmarked |
+| [`percentile`](docs/percentile.md) | Python | Observability / Metrics & Statistics | `CLAIM-LIB-PERCENTILE-001` | benchmarked |
 | [`rbac`](docs/rbac.md) | Python | Security / Identity & Access Management | `CLAIM-LIB-RBAC-001` | measured |
 | [`retry`](docs/retry.md) | Python | Reliability / Distributed Systems | `CLAIM-LIB-RETRY-001` | measured |
 | [`rle`](docs/rle.md) | Python | Data / Compression | `CLAIM-LIB-RLE-001` | benchmarked |
@@ -56,6 +59,7 @@ claim in your context — read each module's caveat.
 | [`tokenbucket`](docs/tokenbucket.md) | Python | Reliability / Rate Limiting | `CLAIM-LIB-TOKENBUCKET-001` | measured |
 | [`topo_sort`](docs/topo_sort.md) | Python | General / Graph Algorithms | `CLAIM-LIB-TOPOSORT-001` | measured |
 | [`totp`](docs/totp.md) | Python | Security / Authentication (2FA) | `CLAIM-LIB-TOTP-001` | benchmarked |
+| [`varint`](docs/varint.md) | Python | Data / Serialization | `CLAIM-LIB-VARINT-001` | benchmarked |
 | [`vlan`](docs/vlan.md) | Python | Telecom / VLAN Management | `CLAIM-LIB-VLAN-001` | measured |
 | [`chunk`](docs/chunk.md) | TypeScript | TypeScript / Array Utilities | `CLAIM-LIB-CHUNK-001` | measured |
 | [`cx`](docs/cx.md) | TypeScript | TypeScript / UI Utilities | `CLAIM-LIB-CX-001` | measured |

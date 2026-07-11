@@ -1,6 +1,6 @@
 # BGP AS-path + ASN classification
 
-*Subject area: Telecom / BGP Routing. Language: python. Vendorable bundle `7829e3aad06c`.*
+*Subject area: Telecom / BGP Routing. Language: python. Vendorable bundle `79f045fa0c3d`.*
 
 Every BGP route carries an AS-path -- the list of Autonomous Systems it traversed -- and operators constantly reason about it: how long is it (shorter is preferred), who originated it, and are any ASNs private or reserved (which must not leak to the public Internet). The private, reserved, and documentation ASN ranges are fixed by RFCs 6996/7300/5398/7607/6793. This module parses the path and classifies ASNs against those ranges; the claim proves the classification matches the published boundaries, so you inherit a checked routing helper rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `aspath.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/7829e3aad06c9fd4a770fd4f97254e860e27061876df7f86b2b08af466e6fe84 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/79f045fa0c3d075745959ff7f1a565a18185671406becde6fa49bc31b8a53956 --target .
 ```

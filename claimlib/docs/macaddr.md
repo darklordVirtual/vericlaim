@@ -1,6 +1,6 @@
 # MAC / EUI-48 parsing + IEEE 802 flags
 
-*Subject area: Telecom / Layer-2 Addressing. Language: python. Vendorable bundle `cec0e4569e2c`.*
+*Subject area: Telecom / Layer-2 Addressing. Language: python. Vendorable bundle `8b14f49ee3ef`.*
 
 A MAC address is written four different ways (aa:bb:.., aa-bb-.., Cisco aabb.ccdd.eeff, bare aabbccddeeff), and the two low bits of its first octet carry meaning: the I/G bit marks multicast vs unicast and the U/L bit marks a locally-administered (e.g. virtualised/randomised) vs globally-unique address. This module parses every notation to one integer and decodes those flags; the claim proves the decoding matches the IEEE rules and the notations agree, so you inherit a checked L2-address helper rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `macaddr.py` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/cec0e4569e2ce49c01856e3dc318e5226bc3dea74b9711d0423fc1a5a89c7de9 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/8b14f49ee3efde8ec660ea21b4efbda1350213d31778fc82de470c64453b2c43 --target .
 ```
