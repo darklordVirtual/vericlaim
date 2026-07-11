@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "modbus_crc.json",
+  "artifact_sha256": "bd0f58ffc50fde6c4fb88d6fce9c26ed18cc2b614153d75f54e26cd556896f0d",
+  "script": "python3 claimlib/modules/modbus_crc/evidence.py",
+  "git_commit": "f6af4423f200f7d418bcd84db0c491cf559606c5",
+  "generated_at": "2026-07-11T13:41:37.149435+00:00",
+  "produced_by": "claimlib"
+}

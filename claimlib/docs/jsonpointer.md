@@ -1,6 +1,6 @@
 # RFC 6901 JSON Pointer resolution
 
-*Subject area: Data / JSON Processing. Language: python. Vendorable bundle `aa8c5818d2dd`.*
+*Subject area: Data / JSON Processing. Language: python. Vendorable bundle `53e166375ca9`.*
 
 A JSON Pointer (RFC 6901) is a compact string that identifies one value inside a JSON document: the empty string references the whole document, and otherwise a sequence of '/'-separated reference tokens walks object members by key and array elements by base-10 index. Because '/' and '~' are structural, they are escaped inside a token as ~1 and ~0 and must be unescaped ~1-before-~0 so that a literal '~1' round-trips. Vendor this module to dereference config paths, JSON Patch targets, or API response fields consistently; the claim proves it matches the RFC's own example evaluations, so you inherit a checked resolver rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `jsonpointer.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/aa8c5818d2dd7c2250b5b1a703d76eadf04675d72d193e1d94040791302018e3 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/53e166375ca91d7a822b586d216f5a579a06bdd04aecc537204dbd7e06bfda56 --target .
 ```

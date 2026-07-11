@@ -23,12 +23,21 @@ claim in your context — read each module's caveat.
 | [`base32`](docs/base32.md) | Python | Data / Encoding | `CLAIM-LIB-BASE32-001` | measured |
 | [`crc32`](docs/crc32.md) | Python | Data / Integrity & Checksums | `CLAIM-LIB-CRC32-001` | measured |
 | [`cvss`](docs/cvss.md) | Python | Security / Vulnerability Management | `CLAIM-LIB-CVSS-001` | benchmarked |
+| [`e164`](docs/e164.md) | Python | Telecom / Numbering Plans | `CLAIM-LIB-E164-001` | measured |
 | [`errorbudget`](docs/errorbudget.md) | Python | SRE / Reliability Engineering | `CLAIM-LIB-ERRORBUDGET-001` | measured |
+| [`hamming74`](docs/hamming74.md) | Python | Telecom / Forward Error Correction | `CLAIM-LIB-HAMMING74-001` | machine_checked |
 | [`hashchain`](docs/hashchain.md) | Python | Security / Data Integrity | `CLAIM-LIB-HASHCHAIN-001` | measured |
+| [`iban`](docs/iban.md) | Python | Finance / Payments & Banking | `CLAIM-LIB-IBAN-001` | measured |
+| [`imei`](docs/imei.md) | Python | Telecom / Device Identity | `CLAIM-LIB-IMEI-001` | measured |
 | [`jsonpointer`](docs/jsonpointer.md) | Python | Data / JSON Processing | `CLAIM-LIB-JSONPOINTER-001` | measured |
 | [`lru`](docs/lru.md) | Python | Data Structures / Caching | `CLAIM-LIB-LRU-001` | measured |
 | [`luhn`](docs/luhn.md) | Python | Payments / Data Integrity | `CLAIM-LIB-LUHN-001` | measured |
 | [`merkle`](docs/merkle.md) | Python | Security / Cryptographic Integrity | `CLAIM-LIB-MERKLE-001` | measured |
+| [`mod11`](docs/mod11.md) | Python | Finance / Identifiers & Validation | `CLAIM-LIB-MOD11-001` | benchmarked |
+| [`modbus_crc`](docs/modbus_crc.md) | Python | Industrial / Fieldbus & Protocols | `CLAIM-LIB-MODBUS-CRC-001` | measured |
+| [`money`](docs/money.md) | Python | Finance / Accounting | `CLAIM-LIB-MONEY-001` | measured |
+| [`nmea`](docs/nmea.md) | Python | Industrial / Telemetry & Sensors | `CLAIM-LIB-NMEA-001` | measured |
+| [`oee`](docs/oee.md) | Python | Industrial / Manufacturing Analytics | `CLAIM-LIB-OEE-001` | measured |
 | [`rbac`](docs/rbac.md) | Python | Security / Identity & Access Management | `CLAIM-LIB-RBAC-001` | measured |
 | [`retry`](docs/retry.md) | Python | Reliability / Distributed Systems | `CLAIM-LIB-RETRY-001` | measured |
 | [`rle`](docs/rle.md) | Python | Data / Compression | `CLAIM-LIB-RLE-001` | benchmarked |

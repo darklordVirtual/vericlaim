@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "computed": {
+        "availability": 0.8881,
+        "oee": 0.7479,
+        "performance": 0.8611,
+        "quality": 0.978
+      },
+      "expected": {
+        "availability": 0.8881,
+        "oee": 0.7479,
+        "performance": 0.8611,
+        "quality": 0.978
+      },
+      "label": "published Vorne example",
+      "match": true
+    },
+    {
+      "computed": {
+        "availability": 1.0,
+        "oee": 1.0,
+        "performance": 1.0,
+        "quality": 1.0
+      },
+      "expected": {
+        "availability": 1.0,
+        "oee": 1.0,
+        "performance": 1.0,
+        "quality": 1.0
+      },
+      "label": "perfect line (all 1.0)",
+      "match": true
+    },
+    {
+      "computed": {
+        "availability": 0.5,
+        "oee": 0.125,
+        "performance": 0.5,
+        "quality": 0.5
+      },
+      "expected": {
+        "availability": 0.5,
+        "oee": 0.125,
+        "performance": 0.5,
+        "quality": 0.5
+      },
+      "label": "each factor one half",
+      "match": true
+    }
+  ],
+  "correct": 3,
+  "errors": 0,
+  "module": "oee",
+  "n_cases": 3,
+  "schema": "claimlib_oee_v1"
+}

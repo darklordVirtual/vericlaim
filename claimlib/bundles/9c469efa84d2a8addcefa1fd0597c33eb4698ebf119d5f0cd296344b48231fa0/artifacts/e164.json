@@ -1,0 +1,127 @@
+{
+  "cases": [
+    {
+      "cc_ok": true,
+      "computed_cc": "47",
+      "computed_valid": true,
+      "expected_cc": "47",
+      "expected_valid": true,
+      "number": "+4791234567",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": "1",
+      "computed_valid": true,
+      "expected_cc": "1",
+      "expected_valid": true,
+      "number": "+14155552671",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": "44",
+      "computed_valid": true,
+      "expected_cc": "44",
+      "expected_valid": true,
+      "number": "+442071838750",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": "49",
+      "computed_valid": true,
+      "expected_cc": "49",
+      "expected_valid": true,
+      "number": "+4930901820",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": "358",
+      "computed_valid": true,
+      "expected_cc": "358",
+      "expected_valid": true,
+      "number": "+358401234567",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": "351",
+      "computed_valid": true,
+      "expected_cc": "351",
+      "expected_valid": true,
+      "number": "+3512112345678",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": "81",
+      "computed_valid": true,
+      "expected_cc": "81",
+      "expected_valid": true,
+      "number": "+81312345678",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": "47",
+      "computed_valid": true,
+      "expected_cc": "47",
+      "expected_valid": true,
+      "number": "+4712345678",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": null,
+      "computed_valid": false,
+      "expected_cc": null,
+      "expected_valid": false,
+      "number": "004791234567",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": null,
+      "computed_valid": false,
+      "expected_cc": null,
+      "expected_valid": false,
+      "number": "+0123456789",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": null,
+      "computed_valid": false,
+      "expected_cc": null,
+      "expected_valid": false,
+      "number": "+47",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": null,
+      "computed_valid": false,
+      "expected_cc": null,
+      "expected_valid": false,
+      "number": "+47abc12345",
+      "valid_ok": true
+    },
+    {
+      "cc_ok": true,
+      "computed_cc": null,
+      "computed_valid": false,
+      "expected_cc": null,
+      "expected_valid": false,
+      "number": "+1234567890123456",
+      "valid_ok": true
+    }
+  ],
+  "correct": 13,
+  "country_code_correct": 13,
+  "errors": 0,
+  "module": "e164",
+  "n_cases": 13,
+  "schema": "claimlib_e164_v1"
+}

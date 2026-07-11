@@ -378,3 +378,141 @@ claims:
       The claim covers the framework-agnostic core (debounce.logic.ts) run under node, NOT React runtime rendering or real timers: the vendored useDebouncedValue.tsx is a thin, reviewed setTimeout binding over the same model, shipped but not executed in the evidence. The simulator assumes a chronologically sorted event trace and models a boundary gap of exactly delayMs as fired (>=); correctness is demonstrated over a fixed battery, not proven for all traces.
     reproduce: "node claimlib/react/useDebouncedValue/evidence.ts"
 
+  - id: CLAIM-LIB-IBAN-001
+    statement: >
+      The vendored IBAN validator (ISO 13616 / ISO 7064 MOD-97-10) classifies every entry in a fixed 12-row table of officially published IBANs correctly (correct = 12, errors = 0): 8 canonical registry / Wikipedia example IBANs (GB82WEST12345698765432, DE89370400440532013000, NO9386011117947, ES9121000418450200051332, ...) are accepted and 4 single-digit-mutated variants are rejected; independently, recomputing the two check digits from the BBAN reproduces the embedded check digits of all 5 tested valid IBANs.
+    evidence_level: measured
+    artifact:
+      - "modules/iban/artifacts/iban.json"
+    metrics:
+      n_cases: 12
+      correct: 12
+      errors: 0
+      check_digit_correct: 5
+    caveat: >
+      Validation is the MOD-97-10 arithmetic plus a general [A-Z]{2}[0-9]{2}[A-Z0-9]+ shape and a 15..34 length check; it does NOT enforce per-country BBAN length or the national bank/branch structure, so a string with the right length and a correct check digit but a wrong national format can still pass. Correctness is demonstrated over a fixed table of published examples, not proven for every country or input.
+    reproduce: "python3 claimlib/modules/iban/evidence.py"
+
+  - id: CLAIM-LIB-MONEY-001
+    statement: >
+      The vendored money library allocates a total into integer minor-unit shares that sum EXACTLY back to the total on every one of a fixed 8-case battery (cent_exact = 8, cent_lost = 0), matches 5 independently hand-computed splits (allocate(100,[1,1,1]) = [34,33,33], allocate(100,[1,1,1,1,1,1]) = [17,17,17,17,16,16], allocate(1000,[1,2,1]) = [250,500,250]), and reproduces published ROUND_HALF_EVEN (banker's rounding) results on all 10 rows of a fixed table (0.5 -> 0, 1.5 -> 2, 2.5 -> 2, 3.5 -> 4, 2.675 -> 2.68).
+    evidence_level: measured
+    artifact:
+      - "modules/money/artifacts/money.json"
+    metrics:
+      n_alloc_cases: 8
+      cent_exact: 8
+      cent_lost: 0
+      n_round_cases: 10
+      round_correct: 10
+    caveat: >
+      The cent-exact invariant is an arithmetic identity checked over a fixed battery of totals/weights (non-negative integer minor units, non-negative integer weights, not all zero); it does not model currencies with non-decimal subunits, negative totals, or rounding of the allocation itself. round_money rounds decimal values (pass strings, not floats, to avoid binary-float error before rounding) and is HALF_EVEN only.
+    reproduce: "python3 claimlib/modules/money/evidence.py"
+
+  - id: CLAIM-LIB-MOD11-001
+    statement: >
+      The vendored weighted MOD-11 check-digit library detects EVERY single-digit alteration over the complete space of 4-digit payloads under weights (2,3,4,5): all 409095 single-digit mutations of the 9091 well-defined check-digited numbers are caught (tamper_detected = 409095, tamper_missed = 0), every one of those numbers round-trips (compute the check digit, then validate = True; roundtrip_valid = 9091), and the Norwegian organisasjonsnummer reference 123456785 (payload 12345678 under weights 3,2,7,6,5,4,3,2 -> check 5) validates while 123456784 does not.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/mod11/artifacts/mod11.json"
+    metrics:
+      n_payloads: 10000
+      checkdigit_defined: 9091
+      roundtrip_valid: 9091
+      tamper_mutations: 409095
+      tamper_detected: 409095
+      tamper_missed: 0
+    caveat: >
+      The exhaustive tamper / round-trip proof covers 4-digit payloads under one fixed weight vector; the single-error-detection property generalises (11 is prime and no weight is a multiple of 11) but is machine-verified only for that space, not every length. check_digit raises rather than emitting 'X' when the MOD-11 result is 10 (so it is numeric-only and does not cover ISBN-10's X), and MOD-11 catches all single-digit errors and most transpositions but is a checksum, not a cryptographic integrity guarantee.
+    reproduce: "python3 claimlib/modules/mod11/evidence.py"
+
+  - id: CLAIM-LIB-MODBUS-CRC-001
+    statement: >
+      The vendored CRC-16/MODBUS implementation (reflected poly 0xA001, init 0xFFFF, no final XOR) reproduces every value in a fixed 267-vector reference set with 0 mismatches: the published CRC-catalogue check value crc16_modbus(b"123456789") == 0x4B37, plus 266 byte strings (empty, single bytes, all-zero / all-0xFF runs, a Modbus read-holding-registers frame, and every single byte value 0..255) that agree byte-for-byte with an independent table-driven implementation computed in the evidence.
+    evidence_level: measured
+    artifact:
+      - "modules/modbus_crc/artifacts/modbus_crc.json"
+    metrics:
+      reference_vectors: 267
+      reference_vectors_matched: 267
+      mismatches: 0
+      crosscheck_matched: 266
+    caveat: >
+      Correctness is demonstrated over a fixed reference set (one published catalogue value plus table-cross-checked byte strings), not proven for every input. CRC-16 is an error-DETECTION checksum for accidental corruption on a serial link, NOT a cryptographic hash or MAC: it is linear and trivially forgeable, so it gives no integrity or authenticity guarantee against an adversary.
+    reproduce: "python3 claimlib/modules/modbus_crc/evidence.py"
+
+  - id: CLAIM-LIB-OEE-001
+    statement: >
+      The vendored OEE calculator reproduces the canonical published worked example (Vorne / oee.com) exactly to 4 dp -- Availability 0.8881, Performance 0.8611, Quality 0.9780, OEE 0.7479 from Planned 420 min, Run 373 min, Ideal Cycle 1.0 s, Total 19271, Good 18848 -- and matches all 3 hand-computed reference cases (correct = 3, errors = 0), including the perfect-line boundary (all factors 1.0) and the each-factor-one-half case (OEE 0.125).
+    evidence_level: measured
+    artifact:
+      - "modules/oee/artifacts/oee.json"
+    metrics:
+      n_cases: 3
+      correct: 3
+      errors: 0
+    caveat: >
+      OEE is pure ratio arithmetic (Availability x Performance x Quality); the module fails closed on non-positive denominators and on factors above 1 (run > planned, good > total, ideal cycle too large), but it does not model the six big losses, planned vs unplanned stop classification, or multi-shift roll-ups. Values are compared to 4 decimal places; correctness is demonstrated over a fixed reference table, not proven for every input.
+    reproduce: "python3 claimlib/modules/oee/evidence.py"
+
+  - id: CLAIM-LIB-NMEA-001
+    statement: >
+      The vendored NMEA 0183 checksum reproduces the published '*HH' checksum of every one of 3 canonical example sentences ($GPGGA,...*47, $GPRMC,...*68, $GPGSA,...*39) exactly (published_correct = 3, published_errors = 0) and all 3 are accepted by is_valid; independently, for 4 payloads the build / verify round-trip holds (a built sentence validates; roundtrip_ok = 4) and a single-character mutation is detected in every case (tamper_detected = 4).
+    evidence_level: measured
+    artifact:
+      - "modules/nmea/artifacts/nmea.json"
+    metrics:
+      n_published: 3
+      published_correct: 3
+      published_errors: 0
+      roundtrip_ok: 4
+      tamper_detected: 4
+    caveat: >
+      The checksum is the simple XOR of the characters between '$' and '*'; the module verifies that field and can build sentences, but it does NOT parse or validate the sentence's fields, talker ID, or semantics, and the XOR is an accidental-corruption check, not a cryptographic integrity guarantee. Correctness is demonstrated over a fixed set of published sentences plus a self-consistency battery, not proven for every input.
+    reproduce: "python3 claimlib/modules/nmea/evidence.py"
+
+  - id: CLAIM-LIB-IMEI-001
+    statement: >
+      The vendored IMEI validator accepts the published GSMA / Wikipedia example IMEI 490154203237518 and reconstructs its check digit (check_digit("49015420323751") == 8), and its is_valid verdict agrees with an INDEPENDENT from-scratch Luhn implementation on every one of a fixed 261-vector battery (the published IMEI, corrupted and wrong-length variants, and 256 deterministic pseudo-random 15-digit strings): reference_vectors_matched = 261, mismatches = 0.
+    evidence_level: measured
+    artifact:
+      - "modules/imei/artifacts/imei.json"
+    metrics:
+      reference_vectors: 261
+      reference_vectors_matched: 261
+      mismatches: 0
+    caveat: >
+      Validation is the 15-digit length plus the Luhn (mod-10) check digit over the first 14 digits; it does NOT verify that the Type Allocation Code is really assigned by the GSMA or that the device exists, and it does not handle the 16-digit IMEISV. Luhn catches all single-digit errors and most adjacent transpositions but is a data-entry checksum, not proof a number is genuine. Correctness is demonstrated over a fixed battery, not proven for every input.
+    reproduce: "python3 claimlib/modules/imei/evidence.py"
+
+  - id: CLAIM-LIB-HAMMING74-001
+    statement: >
+      The vendored Hamming(7,4) coder corrects EVERY single-bit error, verified exhaustively: over the complete space of 16 data values x 8 error patterns (no error plus a flip at each of the 7 positions) = 128 trials, decoding always recovers the original 4 bits and reports the exact flipped position (corrected = 128, miscorrected = 0, error_position_correct = 128), and the 16 codewords have minimum Hamming distance 3.
+    evidence_level: machine_checked
+    artifact:
+      - "modules/hamming74/artifacts/hamming74.json"
+    metrics:
+      trials: 128
+      corrected: 128
+      miscorrected: 0
+      error_position_correct: 128
+      min_code_distance: 3
+    caveat: >
+      The exhaustive proof covers SINGLE-bit errors only. Hamming(7,4) has minimum distance 3, so it corrects any one-bit error but a two-bit error is mis-corrected to the wrong nibble (it lacks the distance-4 SECDED extension that would merely DETECT double errors). The code carries 4 data bits per 7-bit codeword; framing multi-byte data across codewords is the caller's responsibility.
+    reproduce: "python3 claimlib/modules/hamming74/evidence.py"
+
+  - id: CLAIM-LIB-E164-001
+    statement: >
+      The vendored E.164 validator classifies every entry in a fixed 13-row battery of phone numbers correctly (correct = 13, errors = 0): 8 well-formed international numbers are accepted and 5 malformed ones rejected (missing '+', leading zero after '+', too short, non-digit, and 16 digits exceeding the E.164 maximum), and the country calling code resolves as expected for all 13 rows (country_code_correct = 13) by longest-prefix match, so +358... yields 358 (Finland) rather than a shorter code.
+    evidence_level: measured
+    artifact:
+      - "modules/e164/artifacts/e164.json"
+    metrics:
+      n_cases: 13
+      correct: 13
+      errors: 0
+      country_code_correct: 13
+    caveat: >
+      This validates E.164 SYNTAX (leading '+', 7..15 digits, no leading zero on the country code) and extracts the calling code from a CURATED subset of published ITU assignments; it is NOT full national-number validation (no libphonenumber-style per-country length / prefix rules), and a number outside the curated code table returns None for the country code. Correctness is demonstrated over a fixed battery, not proven for every number.
+    reproduce: "python3 claimlib/modules/e164/evidence.py"
+

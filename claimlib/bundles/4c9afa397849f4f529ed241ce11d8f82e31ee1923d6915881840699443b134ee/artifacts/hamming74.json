@@ -1,0 +1,11 @@
+{
+  "corrected": 128,
+  "error_position_correct": 128,
+  "min_code_distance": 3,
+  "miscorrected": 0,
+  "module": "hamming74",
+  "n_data_values": 16,
+  "n_error_patterns": 8,
+  "schema": "claimlib_hamming74_v1",
+  "trials": 128
+}
