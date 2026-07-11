@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "H. Krawczyk",
+    "M. Bellare",
+    "R. Canetti"
+  ],
+  "id": "rfc-2104",
+  "identifier": "RFC 2104",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines HMAC, a mechanism for message authentication using a cryptographic hash together with a secret key, via the nested inner/outer construction with the ipad and opad padding constants.",
+  "summary_sha256": "f9fa0daf4ed36523152151620a7b6ba8f00bcd4c16c1bb5fb077800e4a5339c4",
+  "title": "HMAC: Keyed-Hashing for Message Authentication",
+  "url": "https://www.rfc-editor.org/rfc/rfc2104",
+  "year": 1997
+}

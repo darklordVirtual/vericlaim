@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "NIST"
+  ],
+  "id": "fips-203",
+  "identifier": "FIPS 203",
+  "kind": "standard",
+  "publisher": "NIST",
+  "schema": "claimlib_literature_v1",
+  "summary": "The NIST post-quantum standard for key encapsulation (ML-KEM, based on CRYSTALS-Kyber), whose security relies on the hardness of module-lattice problems believed to resist attack by quantum computers; used to establish shared secrets.",
+  "summary_sha256": "13e23bda2e58fb7886cc2ac42d8c85f5bd294819c438696cce1eb832f1b2be4f",
+  "title": "Module-Lattice-Based Key-Encapsulation Mechanism Standard (ML-KEM)",
+  "url": "https://csrc.nist.gov/pubs/fips/203/final",
+  "year": 2024
+}

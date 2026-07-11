@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "K. Moriarty",
+    "B. Kaliski",
+    "A. Rusch"
+  ],
+  "id": "rfc-8018",
+  "identifier": "RFC 8018",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines PBKDF2, a password-based key derivation function that iterates a pseudorandom function (typically HMAC) over a password and salt to stretch a low-entropy password into a cryptographic key.",
+  "summary_sha256": "426126bb6c9e4a484aded649fa33f3fb4f2de13dabf4ca4eb34dc5a3078d5160",
+  "title": "PKCS #5: Password-Based Cryptography Specification Version 2.1",
+  "url": "https://www.rfc-editor.org/rfc/rfc8018",
+  "year": 2017
+}

@@ -1,6 +1,6 @@
 # Result<T, E> typed error handling
 
-*Subject area: TypeScript / Error Handling. Language: typescript. Vendorable bundle `31c319d94b8a`.*
+*Subject area: TypeScript / Error Handling. Language: typescript. Vendorable bundle `1c84530ce129`.*
 
 Result<T, E> makes failure a value instead of a thrown exception: a function returns Ok<T> on success or Err<E> on failure, and the caller must handle both branches before reaching the value. Combinators (map, mapErr, andThen) thread the happy path and short-circuit on the first error, the way Rust's Result or fp-ts's Either do. Vendor it to get exhaustive, type-checked error handling in TypeScript with zero dependencies; the claim proves the combinators behave as specified, so you inherit a checked primitive rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `result.ts` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/31c319d94b8aaa84c9a7974617b2b280f288f0f90a9abf675f524d38acd7996d --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/1c84530ce12985fb9faf5d1475dce95011d55f7e5123eda34674d319574d36c7 --target .
 ```

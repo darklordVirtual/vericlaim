@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/hmac_sha256.json": "0288b152198f03f257d0277287fcb3de9726a110950e231be788c271c6ac72c2",
+    "claim.json": "76b94e32efccd8db809081db71b7a10f129a5a36de34f860c2bf7f10be140d7b",
+    "code/hmac_sha256.py": "b0cd3f982216f33eff63f28f963d1f97be280394831360b1129a976dbf37a379",
+    "provenance.json": "a8a52f684842758630ede1cc62f31245fdc447b654c70c0d0cd68e431f21b94d"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

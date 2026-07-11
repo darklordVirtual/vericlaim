@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "S. Josefsson",
+    "S. Leonard"
+  ],
+  "id": "rfc-7468",
+  "identifier": "RFC 7468",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Standardizes the PEM textual encoding used to wrap DER-encoded certificates, keys, and CMS structures: base64 of the binary content between BEGIN/END lines with a labeled encapsulation boundary.",
+  "summary_sha256": "b1f9da423c6b326b3b134d5284058757327e2e6449ad9894c2b10e69fb5e712e",
+  "title": "Textual Encodings of PKIX, PKCS, and CMS Structures",
+  "url": "https://www.rfc-editor.org/rfc/rfc7468",
+  "year": 2015
+}

@@ -1,0 +1,10 @@
+{
+  "checks": 7,
+  "checks_matched": 7,
+  "coverage_correct": 6,
+  "measure_codes_ok": true,
+  "mismatches": 0,
+  "module": "nis2",
+  "n_measures": 10,
+  "schema": "claimlib_nis2_v1"
+}

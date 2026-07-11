@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "M. Nystrom"
+  ],
+  "id": "rfc-4231",
+  "identifier": "RFC 4231",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Provides object identifiers and a set of official test vectors for HMAC built on the SHA-2 hash functions, used to validate interoperable implementations.",
+  "summary_sha256": "fc26fc7b43375fee5098723cc0c73a25b78939bcd83794936717aa6629985d03",
+  "title": "Identifiers and Test Vectors for HMAC-SHA-224/256/384/512",
+  "url": "https://www.rfc-editor.org/rfc/rfc4231",
+  "year": 2005
+}

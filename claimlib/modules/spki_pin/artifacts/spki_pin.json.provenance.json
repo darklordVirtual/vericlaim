@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "spki_pin.json",
+  "artifact_sha256": "013d4b1b32ce46985e302a5764b1eff225b30b9074e1236db70ef9ae5ec4a916",
+  "script": "python3 claimlib/modules/spki_pin/evidence.py",
+  "git_commit": "c78533391024ea59d79a57dffec29cdf827a97ce",
+  "generated_at": "2026-07-11T18:00:02.474644+00:00",
+  "produced_by": "claimlib"
+}

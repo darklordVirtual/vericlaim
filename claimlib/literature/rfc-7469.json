@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "C. Evans",
+    "C. Palmer",
+    "R. Sleevi"
+  ],
+  "id": "rfc-7469",
+  "identifier": "RFC 7469",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines public key pinning, where a client remembers the SHA-256 hash of a server's Subject Public Key Info (base64-encoded) and rejects future connections whose certificate chain does not present a matching pinned key.",
+  "summary_sha256": "b705661892f2e5b70decb25cd377caf3b7222d7d82cd32729daae8c859667781",
+  "title": "Public Key Pinning Extension for HTTP (HPKP)",
+  "url": "https://www.rfc-editor.org/rfc/rfc7469",
+  "year": 2015
+}

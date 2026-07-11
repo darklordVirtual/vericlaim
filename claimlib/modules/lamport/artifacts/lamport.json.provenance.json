@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "lamport.json",
+  "artifact_sha256": "b17bc79942374fe140efa2c53000cd934c56ce8fb9bc96620c8a4092531005a4",
+  "script": "python3 claimlib/modules/lamport/evidence.py",
+  "git_commit": "c78533391024ea59d79a57dffec29cdf827a97ce",
+  "generated_at": "2026-07-11T18:01:17.690635+00:00",
+  "produced_by": "claimlib"
+}

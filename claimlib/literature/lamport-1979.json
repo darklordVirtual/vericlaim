@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Leslie Lamport"
+  ],
+  "id": "lamport-1979",
+  "identifier": "SRI CSL-98",
+  "kind": "paper",
+  "publisher": "SRI International (Technical Report CSL-98)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces the Lamport one-time signature, which builds a digital signature scheme from nothing but a one-way (hash) function by revealing pre-images of committed hash values; its security rests only on hash preimage resistance, making it quantum-resistant.",
+  "summary_sha256": "88ec8eeeb0f2df0cb2ea4c8604cec9601ffaced31b55ce5eb68cba3c2d37cb58",
+  "title": "Constructing Digital Signatures from a One-Way Function",
+  "url": "https://www.microsoft.com/en-us/research/publication/constructing-digital-signatures-one-way-function/",
+  "year": 1979
+}

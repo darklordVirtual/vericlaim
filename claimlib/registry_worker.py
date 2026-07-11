@@ -47,6 +47,7 @@ def collect() -> list[dict]:
             "statement": " ".join(mod["statement"].split()),
             "caveat": " ".join(mod["caveat"].split()),
             "bundle_id": index.get(mod["name"], ""),
+            "references": mod.get("references", []),
             "metrics": {k: metrics[k] for k in mod["register_metrics"]},
         })
     claims.sort(key=lambda c: (c["area"], c["name"]))

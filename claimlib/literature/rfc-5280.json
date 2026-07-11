@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "D. Cooper",
+    "S. Santesson",
+    "S. Farrell",
+    "et al."
+  ],
+  "id": "rfc-5280",
+  "identifier": "RFC 5280",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Profiles the X.509 v3 certificate and CRL formats and the certification-path validation algorithm (validity windows, name chaining, basic constraints, key usage) that underpins TLS and mutual-TLS authentication.",
+  "summary_sha256": "ca10924de367e1a4beb32c4b5e0279b4e114ff1e0d7b44ee5cd9e04d36732969",
+  "title": "Internet X.509 Public Key Infrastructure Certificate and CRL Profile",
+  "url": "https://www.rfc-editor.org/rfc/rfc5280",
+  "year": 2008
+}

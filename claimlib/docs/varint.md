@@ -1,6 +1,6 @@
 # Varint / LEB128 integer encoding
 
-*Subject area: Data / Serialization. Language: python. Vendorable bundle `e9a0c8f200f7`.*
+*Subject area: Data / Serialization. Language: python. Vendorable bundle `8a081a2ccc15`.*
 
 A varint stores an integer in as few bytes as its magnitude needs, using seven bits per byte with the top bit as a continuation flag -- so small numbers cost one byte, and the stream is self-delimiting. It is the integer wire format of Protocol Buffers and many binary protocols; ZigZag mapping first folds signed numbers so that -1, 1, -2 encode as small unsigned 1, 2, 3 instead of maximal values. This module implements both; the claim proves it matches the published LEB128 vectors and round-trips, so you inherit a checked codec rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `varint.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e9a0c8f200f7080a3d5ff51d0198c8d51c2403f725bd9da4b3456e4ff3be2473 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/8a081a2ccc15e64820911cfa8a33a725184b92eff7b81549e6c43f282227e950 --target .
 ```

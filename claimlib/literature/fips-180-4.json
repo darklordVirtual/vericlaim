@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "NIST"
+  ],
+  "id": "fips-180-4",
+  "identifier": "FIPS PUB 180-4",
+  "kind": "standard",
+  "publisher": "NIST",
+  "schema": "claimlib_literature_v1",
+  "summary": "The Secure Hash Standard specifies the SHA-1 and SHA-2 family (SHA-224/256/384/512) of cryptographic hash functions, defining the message padding, block processing, and round compression that map an arbitrary message to a fixed-length digest.",
+  "summary_sha256": "4e479bdebba9df258e227a9a6e67abece98c8db24631be3bf4cba6e87b96a570",
+  "title": "Secure Hash Standard (SHS)",
+  "url": "https://csrc.nist.gov/publications/detail/fips/180/4/final",
+  "year": 2015
+}

@@ -1,0 +1,12 @@
+{
+  "checks": 30,
+  "checks_matched": 30,
+  "coverage_correct": 7,
+  "function_names_ok": true,
+  "mapping_correct": 22,
+  "mismatches": 0,
+  "module": "nist_csf",
+  "n_categories": 22,
+  "n_functions": 6,
+  "schema": "claimlib_nist_csf_v1"
+}

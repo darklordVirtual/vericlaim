@@ -1,6 +1,6 @@
 # RFC 1071 Internet checksum
 
-*Subject area: Telecom / Packet Processing. Language: python. Vendorable bundle `2e6490533dc5`.*
+*Subject area: Telecom / Packet Processing. Language: python. Vendorable bundle `021bcfffbcb2`.*
 
 The Internet checksum (RFC 1071) protects IPv4, ICMP, UDP and TCP headers: sum the data as 16-bit big-endian words in one's-complement arithmetic (folding carries back in), then take the complement; a receiver that sums the whole datagram including the checksum gets all-ones, whose complement is zero. This module computes and verifies it directly; the claim proves it reproduces the published IPv4 example and agrees with an independent implementation, so you inherit a checked, dependency-free checksum for packet tooling rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `ipchecksum.py` into your project, byte-exact, with a generated binding te
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/2e6490533dc5554b8b825f897a241606a3aa5e6a063015538c1b99fbd8ee417c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/021bcfffbcb29e12a2f59e12c2edbafeb8f5c8997db05ba44973c2317f146089 --target .
 ```

@@ -39,6 +39,7 @@ claim in your context — read each module's caveat.
 | [`ipchecksum`](docs/ipchecksum.md) | Python | Telecom / Packet Processing | `CLAIM-LIB-IPCHECKSUM-001` | measured |
 | [`ipv6`](docs/ipv6.md) | Python | Telecom / IPv6 Addressing | `CLAIM-LIB-IPV6-001` | benchmarked |
 | [`jsonpointer`](docs/jsonpointer.md) | Python | Data / JSON Processing | `CLAIM-LIB-JSONPOINTER-001` | measured |
+| [`lamport`](docs/lamport.md) | Python | Security / Post-Quantum Cryptography | `CLAIM-LIB-LAMPORT-001` | benchmarked |
 | [`levenshtein`](docs/levenshtein.md) | Python | General / Strings & Text | `CLAIM-LIB-LEVENSHTEIN-001` | measured |
 | [`lru`](docs/lru.md) | Python | Data Structures / Caching | `CLAIM-LIB-LRU-001` | measured |
 | [`luhn`](docs/luhn.md) | Python | Payments / Data Integrity | `CLAIM-LIB-LUHN-001` | measured |
@@ -47,15 +48,19 @@ claim in your context — read each module's caveat.
 | [`mod11`](docs/mod11.md) | Python | Finance / Identifiers & Validation | `CLAIM-LIB-MOD11-001` | benchmarked |
 | [`modbus_crc`](docs/modbus_crc.md) | Python | Industrial / Fieldbus & Protocols | `CLAIM-LIB-MODBUS-CRC-001` | measured |
 | [`money`](docs/money.md) | Python | Finance / Accounting | `CLAIM-LIB-MONEY-001` | measured |
+| [`nis2`](docs/nis2.md) | Python | Security / Governance & Compliance | `CLAIM-LIB-NIS2-001` | measured |
+| [`nist_csf`](docs/nist_csf.md) | Python | Security / Governance & Compliance | `CLAIM-LIB-NIST-CSF-001` | measured |
 | [`nmea`](docs/nmea.md) | Python | Industrial / Telemetry & Sensors | `CLAIM-LIB-NMEA-001` | measured |
 | [`oee`](docs/oee.md) | Python | Industrial / Manufacturing Analytics | `CLAIM-LIB-OEE-001` | measured |
 | [`pbkdf2`](docs/pbkdf2.md) | Python | Security / Password Hashing | `CLAIM-LIB-PBKDF2-001` | benchmarked |
+| [`pem`](docs/pem.md) | Python | Security / TLS & PKI | `CLAIM-LIB-PEM-001` | benchmarked |
 | [`percentile`](docs/percentile.md) | Python | Observability / Metrics & Statistics | `CLAIM-LIB-PERCENTILE-001` | benchmarked |
 | [`rbac`](docs/rbac.md) | Python | Security / Identity & Access Management | `CLAIM-LIB-RBAC-001` | measured |
 | [`retry`](docs/retry.md) | Python | Reliability / Distributed Systems | `CLAIM-LIB-RETRY-001` | measured |
 | [`rle`](docs/rle.md) | Python | Data / Compression | `CLAIM-LIB-RLE-001` | benchmarked |
 | [`semver`](docs/semver.md) | Python | Software Supply Chain / Dependency Resolution | `CLAIM-LIB-SEMVER-001` | measured |
 | [`sha256`](docs/sha256.md) | Python | Security / Cryptographic Hashing | `CLAIM-LIB-SHA256-001` | benchmarked |
+| [`spki_pin`](docs/spki_pin.md) | Python | Security / TLS & PKI | `CLAIM-LIB-SPKI-PIN-001` | benchmarked |
 | [`tokenbucket`](docs/tokenbucket.md) | Python | Reliability / Rate Limiting | `CLAIM-LIB-TOKENBUCKET-001` | measured |
 | [`topo_sort`](docs/topo_sort.md) | Python | General / Graph Algorithms | `CLAIM-LIB-TOPOSORT-001` | measured |
 | [`totp`](docs/totp.md) | Python | Security / Authentication (2FA) | `CLAIM-LIB-TOTP-001` | benchmarked |

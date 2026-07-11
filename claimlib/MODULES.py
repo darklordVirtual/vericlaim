@@ -952,6 +952,7 @@ MODULES = [
         "name": "sha256",
         "lang": "python",
         "claim_id": "CLAIM-LIB-SHA256-001",
+        "references": ["fips-180-4"],
         "title": "SHA-256 (FIPS 180-4) from scratch",
         "area": "Security / Cryptographic Hashing",
         "evidence_level": "benchmarked",
@@ -974,6 +975,7 @@ MODULES = [
         "name": "hmac_sha256",
         "lang": "python",
         "claim_id": "CLAIM-LIB-HMAC-SHA256-001",
+        "references": ["rfc-2104", "rfc-4231"],
         "title": "HMAC-SHA256 (RFC 2104) from scratch",
         "area": "Security / Message Authentication",
         "evidence_level": "benchmarked",
@@ -996,6 +998,7 @@ MODULES = [
         "name": "hotp",
         "lang": "python",
         "claim_id": "CLAIM-LIB-HOTP-001",
+        "references": ["rfc-4226"],
         "title": "HOTP one-time passwords (RFC 4226)",
         "area": "Security / Authentication (2FA)",
         "evidence_level": "benchmarked",
@@ -1017,6 +1020,7 @@ MODULES = [
         "name": "totp",
         "lang": "python",
         "claim_id": "CLAIM-LIB-TOTP-001",
+        "references": ["rfc-6238", "rfc-4226"],
         "title": "TOTP one-time passwords (RFC 6238)",
         "area": "Security / Authentication (2FA)",
         "evidence_level": "benchmarked",
@@ -1038,6 +1042,7 @@ MODULES = [
         "name": "pbkdf2",
         "lang": "python",
         "claim_id": "CLAIM-LIB-PBKDF2-001",
+        "references": ["rfc-8018", "rfc-6070"],
         "title": "PBKDF2 key derivation (RFC 8018)",
         "area": "Security / Password Hashing",
         "evidence_level": "benchmarked",
@@ -1060,6 +1065,7 @@ MODULES = [
         "name": "hkdf",
         "lang": "python",
         "claim_id": "CLAIM-LIB-HKDF-001",
+        "references": ["rfc-5869", "rfc-8446"],
         "title": "HKDF key derivation (RFC 5869)",
         "area": "Security / Key Derivation",
         "evidence_level": "benchmarked",
@@ -1168,5 +1174,122 @@ MODULES = [
         "statement": "The vendored varint codec reproduces all 14 published reference vectors (reference_vectors_matched = 14): the 7 LEB128 unsigned vectors (0->00, 1->01, 127->7f, 128->8001, 255->ff01, 300->ac02, 624485->e58e26) and the 7 ZigZag mappings (0->0, -1->1, 1->2, -2->3, 2->4, -64->127, 63->126); and it round-trips losslessly over 76 unsigned values (powers of two up to 2**64-1) and 1004 signed values (-500..499 plus 31/62-bit boundaries).",
         "caveat": "Correctness is demonstrated over the published vectors plus a wide round-trip range, not proven for every integer. Unsigned values must be non-negative; decoding rejects a truncated varint and one exceeding 64 bits. This is the base-128 LEB128 / protobuf wire encoding, not the SQLite or Git variants.",
         "knowledge": "A varint stores an integer in as few bytes as its magnitude needs, using seven bits per byte with the top bit as a continuation flag -- so small numbers cost one byte, and the stream is self-delimiting. It is the integer wire format of Protocol Buffers and many binary protocols; ZigZag mapping first folds signed numbers so that -1, 1, -2 encode as small unsigned 1, 2, 3 instead of maximal values. This module implements both; the claim proves it matches the published LEB128 vectors and round-trips, so you inherit a checked codec rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "pem",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-PEM-001",
+        "references": ["rfc-7468", "rfc-5280"],
+        "title": "PEM textual encoding (RFC 7468)",
+        "area": "Security / TLS & PKI",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "pem.py"
+        ],
+        "artifact": "pem.json",
+        "register_metrics": [
+            "n_ders",
+            "checks",
+            "checks_matched",
+            "mismatches"
+        ],
+        "bind_field": "checks_matched",
+        "statement": "The vendored PEM codec (RFC 7468) passes all 11 checks with 0 mismatches: for a fixed set of DER blobs (a small SEQUENCE, empty, single byte, and long payloads) decode(encode(der, label)) round-trips to (label, der), the base64 body matches the stdlib base64 and every line wraps at 64 characters, and a two-block PEM parses into the correct list of (label, der) pairs -- the codec implements the envelope itself and never imports the csv/pem parts of the stdlib beyond base64.",
+        "caveat": "The stdlib base64 is the independent oracle for the body. Correctness is demonstrated over a fixed battery, not proven for every input. The module handles the RFC 7468 encapsulation (BEGIN/END labels, 64-column base64, matching END label); it does NOT parse the DER structure inside, validate certificates, or support the optional headers of the legacy RFC 1421 privacy-enhanced-mail format.",
+        "knowledge": "PEM is the ubiquitous text form of TLS material: a certificate or key is DER (binary ASN.1), base64-encoded and wrapped between '-----BEGIN CERTIFICATE-----' and '-----END CERTIFICATE-----' lines so it survives copy-paste and config files. Getting the label matching and 64-column wrapping right matters for interoperability. This module encodes and decodes the envelope with zero dependencies; the claim proves it round-trips DER and matches the stdlib base64, so you inherit a checked codec for handling certs and keys in mTLS tooling rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "spki_pin",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-SPKI-PIN-001",
+        "references": ["rfc-7469", "rfc-8446"],
+        "title": "SPKI public-key pins (RFC 7469)",
+        "area": "Security / TLS & PKI",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "spki_pin.py"
+        ],
+        "artifact": "spki_pin.json",
+        "register_metrics": [
+            "n_spkis",
+            "checks",
+            "checks_matched",
+            "mismatches"
+        ],
+        "bind_field": "checks_matched",
+        "statement": "The vendored SPKI pinning library passes all 16 checks with 0 mismatches: for each SPKI sample the pin equals base64(sha256(spki)) computed independently via the stdlib hashlib/base64, matches() accepts the correct pin even when it is the backup among several, rejects a wrong pin, and the pin-sha256=\"...\" directive form is well-shaped -- with a constant-time comparison that scans all pins without an early exit.",
+        "caveat": "The stdlib hashlib and base64 are the independent oracles. Correctness is over a fixed battery, not proven for every input; the SPKI is treated as opaque bytes (the module does not extract the SPKI from a certificate -- pair it with an X.509 parser). Pinning is operationally risky: pin a backup key and set sane lifetimes, or a key rotation can lock clients out (the reason HPKP was deprecated for the browser HTTP header, though SPKI pinning remains standard for mobile/mTLS clients).",
+        "knowledge": "Certificate pinning narrows trust from 'any CA the system trusts' to 'this specific public key (or its backup)'. An RFC 7469 pin is base64(SHA-256(SubjectPublicKeyInfo)); a client stores it and refuses a connection whose chain presents no matching pinned key, defeating a mis-issued-but-technically-valid certificate. This module computes and verifies pins with a constant-time compare; the claim proves the pin equals the hash-of-SPKI and that matching accepts/rejects correctly, so you inherit a checked pinning primitive rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "lamport",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-LAMPORT-001",
+        "references": ["lamport-1979", "fips-205", "rfc-8391"],
+        "title": "Lamport one-time signatures (hash-based, post-quantum)",
+        "area": "Security / Post-Quantum Cryptography",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "lamport.py"
+        ],
+        "artifact": "lamport.json",
+        "register_metrics": [
+            "n_cases",
+            "valid_ok",
+            "tamper_msg_detected",
+            "tamper_sig_detected",
+            "forgeries_accepted"
+        ],
+        "bind_field": "valid_ok",
+        "statement": "The vendored Lamport one-time signature verifies every honestly-produced signature (valid_ok = 5 over a fixed 5-case battery) and rejects all 15 tampering attempts with forgeries_accepted = 0: for each (seed, message) case, verify(message, sign(message, sk), pk) is True, while verifying the signature against a changed message, against a signature with one byte flipped, and against a different key pair all return False. Security rests only on SHA-256 preimage resistance, so the scheme is post-quantum (not broken by Shor's algorithm).",
+        "caveat": "This is a ONE-TIME signature: signing two different messages under the same key leaks the private key and lets an attacker forge -- callers MUST use each key pair once (chain them under a Merkle tree, i.e. XMSS/SLH-DSA, to sign many messages). Correctness and rejection are demonstrated over a fixed battery, not proven for every input; keys/signatures are large (public key 16 KiB), and the deterministic seed-based keygen here is for reproducible evidence, not production key generation (which needs a secret random seed).",
+        "knowledge": "Lamport signatures show that a digital signature needs nothing more than a one-way (hash) function: the private key is two secrets per message bit, the public key is their hashes, and signing reveals the secret matching each bit of the message digest -- a verifier re-hashes and checks. Because it relies only on hash preimage resistance, it is quantum-resistant, and it is the conceptual seed of the NIST post-quantum hash-based standards (SLH-DSA / SPHINCS+, XMSS). Vendor it to understand and use a checked post-quantum primitive; the claim proves valid signatures verify and forgeries are rejected, so you inherit a checked one-time signature rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "nist_csf",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-NIST-CSF-001",
+        "references": ["nist-csf-2.0"],
+        "title": "NIST CSF 2.0 coverage",
+        "area": "Security / Governance & Compliance",
+        "evidence_level": "measured",
+        "code_files": [
+            "nist_csf.py"
+        ],
+        "artifact": "nist_csf.json",
+        "register_metrics": [
+            "n_functions",
+            "n_categories",
+            "checks",
+            "checks_matched",
+            "mismatches"
+        ],
+        "bind_field": "checks_matched",
+        "statement": "The vendored NIST CSF 2.0 coverage model matches the published taxonomy and arithmetic on all 30 checks with 0 mismatches: the six Functions are exactly Govern, Identify, Protect, Detect, Respond and Recover; all 22 Categories map to the correct Function (their two-letter prefix); and coverage() computes hand-verified fractions (all six Govern categories -> GV coverage 1.0, a 2-of-3 subset -> 0.6667, the full set -> overall 1.0, the empty set -> 0).",
+        "caveat": "The taxonomy is the independently-known NIST CSF 2.0 (CSWP 29) Function/Category structure; the module encodes Functions and Categories (not the finer Subcategories or Informative References) and scores simple category-level coverage, which is a planning aid, not a maturity assessment or a certification. Correctness is demonstrated over a fixed set of checks, not a claim that any particular program is 'compliant'.",
+        "knowledge": "The NIST Cybersecurity Framework 2.0 is the common language security programs use to organize and communicate risk work: six Functions (the 2024 revision added Govern) each broken into Categories and Subcategories. Teams map their controls to this structure to see where they are strong and where gaps sit. This module encodes the Function/Category taxonomy and computes coverage; the claim proves the encoded taxonomy matches the framework and the math is correct, so you inherit a checked coverage model rather than a hand-maintained spreadsheet to re-audit."
+    },
+    {
+        "name": "nis2",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-NIS2-001",
+        "references": ["nis2-directive"],
+        "title": "EU NIS2 Directive Article 21 coverage",
+        "area": "Security / Governance & Compliance",
+        "evidence_level": "measured",
+        "code_files": [
+            "nis2.py"
+        ],
+        "artifact": "nis2.json",
+        "register_metrics": [
+            "n_measures",
+            "checks",
+            "checks_matched",
+            "mismatches"
+        ],
+        "bind_field": "checks_matched",
+        "statement": "The vendored NIS2 coverage model matches the Directive and arithmetic on all 7 checks with 0 mismatches: the encoded measures are exactly the ten Article 21(2) items a..j of Directive (EU) 2022/2555, and coverage() computes hand-verified values -- the empty set -> 0.0, the full set -> 1.0, a 4-of-10 subset -> 0.4 with the missing list its exact complement.",
+        "caveat": "The set of measures is the independently-known Article 21(2)(a)-(j) list; the module scores coverage of those ten headline measures, which is an internal gap-tracking aid, NOT legal advice or a determination of regulatory compliance (which depends on national transposition, proportionality to the entity, and competent-authority interpretation). Correctness is demonstrated over a fixed set of checks.",
+        "knowledge": "The EU NIS2 Directive (2022/2555) raises the cybersecurity baseline for essential and important entities across the Union; its Article 21(2) lists ten minimum risk-management measures -- from risk analysis and incident handling to supply-chain security, cryptography, and multi-factor authentication. Organizations track which measures they have implemented to prepare for the obligation. This module encodes the ten measures and computes coverage; the claim proves the measures match the Directive and the math is correct, so you inherit a checked gap-tracking model rather than a hand-maintained checklist to re-audit."
     }
 ]

@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "D. M'Raihi",
+    "M. Bellare",
+    "F. Hoornaert",
+    "D. Naccache",
+    "O. Ranen"
+  ],
+  "id": "rfc-4226",
+  "identifier": "RFC 4226",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies HOTP, an event-based one-time-password algorithm that HMACs a moving counter with a shared secret and applies dynamic truncation to produce a short numeric code, with reference vectors.",
+  "summary_sha256": "74c43bca2e1570866075d24b49986a427576bec8d9e65e0d0dffd55ca26357df",
+  "title": "HOTP: An HMAC-Based One-Time Password Algorithm",
+  "url": "https://www.rfc-editor.org/rfc/rfc4226",
+  "year": 2005
+}
