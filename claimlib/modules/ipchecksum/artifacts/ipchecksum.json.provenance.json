@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "ipchecksum.json",
+  "artifact_sha256": "4a0d124a80883dae5a9165e9e14bbbaac5f85c8f05c5c730d2c3d420b7f7d71b",
+  "script": "python3 claimlib/modules/ipchecksum/evidence.py",
+  "git_commit": "33b2e5b18b66529b776c35f67e40bda58b0a6ee4",
+  "generated_at": "2026-07-11T14:25:02.386291+00:00",
+  "produced_by": "claimlib"
+}

@@ -1,0 +1,127 @@
+{
+  "address_detail": [
+    {
+      "compress": "2001:db8::ff00:42:8329",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "2001:0db8:0000:0000:0000:ff00:0042:8329"
+    },
+    {
+      "compress": "2001:db8::ff00:42:8329",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "2001:db8::ff00:42:8329"
+    },
+    {
+      "compress": "::1",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "::1"
+    },
+    {
+      "compress": "::",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "::"
+    },
+    {
+      "compress": "fe80::1",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "fe80::1"
+    },
+    {
+      "compress": "2001:db8::1:0:0:1",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "2001:db8:0:0:1:0:0:1"
+    },
+    {
+      "compress": "::",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "0:0:0:0:0:0:0:0"
+    },
+    {
+      "compress": "1:2:3:4:5:6:7:8",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "1:2:3:4:5:6:7:8"
+    },
+    {
+      "compress": "2001:db8::",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "2001:db8::"
+    },
+    {
+      "compress": "ff02::1:ff00:0",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "ff02::1:ff00:0"
+    },
+    {
+      "compress": "2001:db8:0:1:1:1:1:1",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "2001:db8:0:1:1:1:1:1"
+    },
+    {
+      "compress": "a:b:c:d:e:f::",
+      "compress_ok": true,
+      "explode_ok": true,
+      "input": "a:b:c:d:e:f:0:0"
+    }
+  ],
+  "checks": 38,
+  "checks_matched": 38,
+  "cidr_detail": [
+    {
+      "cidr": "2001:db8::/32",
+      "network": "2001:db8::",
+      "network_ok": true,
+      "num_addresses_ok": true
+    },
+    {
+      "cidr": "fe80::/10",
+      "network": "fe80::",
+      "network_ok": true,
+      "num_addresses_ok": true
+    },
+    {
+      "cidr": "::/0",
+      "network": "::",
+      "network_ok": true,
+      "num_addresses_ok": true
+    },
+    {
+      "cidr": "2001:db8:abcd:12::/64",
+      "network": "2001:db8:abcd:12::",
+      "network_ok": true,
+      "num_addresses_ok": true
+    },
+    {
+      "cidr": "ff00::/8",
+      "network": "ff00::",
+      "network_ok": true,
+      "num_addresses_ok": true
+    },
+    {
+      "cidr": "2001:db8:1:2:3:4:5:6/128",
+      "network": "2001:db8:1:2:3:4:5:6",
+      "network_ok": true,
+      "num_addresses_ok": true
+    },
+    {
+      "cidr": "64:ff9b::/96",
+      "network": "64:ff9b::",
+      "network_ok": true,
+      "num_addresses_ok": true
+    }
+  ],
+  "mismatches": 0,
+  "module": "ipv6",
+  "n_addresses": 12,
+  "n_cidrs": 7,
+  "schema": "claimlib_ipv6_v1"
+}

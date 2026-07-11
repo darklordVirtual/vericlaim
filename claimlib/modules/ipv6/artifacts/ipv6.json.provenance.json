@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "ipv6.json",
+  "artifact_sha256": "70b7bace94d8eef3eaff60faab1c727dc382f538e9f3639344b93577f61521d7",
+  "script": "python3 claimlib/modules/ipv6/evidence.py",
+  "git_commit": "33b2e5b18b66529b776c35f67e40bda58b0a6ee4",
+  "generated_at": "2026-07-11T14:20:46.116291+00:00",
+  "produced_by": "claimlib"
+}

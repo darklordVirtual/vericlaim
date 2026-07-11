@@ -1,0 +1,70 @@
+{
+  "identity_holds": true,
+  "module": "levenshtein",
+  "n_reference": 8,
+  "reference_correct": 8,
+  "reference_detail": [
+    {
+      "a": "kitten",
+      "b": "sitting",
+      "computed": 3,
+      "correct": true,
+      "expected": 3
+    },
+    {
+      "a": "Saturday",
+      "b": "Sunday",
+      "computed": 3,
+      "correct": true,
+      "expected": 3
+    },
+    {
+      "a": "flaw",
+      "b": "lawn",
+      "computed": 2,
+      "correct": true,
+      "expected": 2
+    },
+    {
+      "a": "gumbo",
+      "b": "gambol",
+      "computed": 2,
+      "correct": true,
+      "expected": 2
+    },
+    {
+      "a": "book",
+      "b": "back",
+      "computed": 2,
+      "correct": true,
+      "expected": 2
+    },
+    {
+      "a": "",
+      "b": "abc",
+      "computed": 3,
+      "correct": true,
+      "expected": 3
+    },
+    {
+      "a": "abc",
+      "b": "abc",
+      "computed": 0,
+      "correct": true,
+      "expected": 0
+    },
+    {
+      "a": "distance",
+      "b": "distance",
+      "computed": 0,
+      "correct": true,
+      "expected": 0
+    }
+  ],
+  "reference_errors": 0,
+  "schema": "claimlib_levenshtein_v1",
+  "symmetry_checks": 100,
+  "symmetry_ok": 100,
+  "triangle_checks": 1000,
+  "triangle_ok": 1000
+}

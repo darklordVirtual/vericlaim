@@ -1,0 +1,111 @@
+{
+  "canonical_form": "aa:bb:cc:dd:ee:ff",
+  "cases": [
+    {
+      "computed": {
+        "broadcast": false,
+        "local": false,
+        "multicast": true
+      },
+      "correct": true,
+      "expected": {
+        "broadcast": false,
+        "local": false,
+        "multicast": true
+      },
+      "mac": "01:00:5e:00:00:fb"
+    },
+    {
+      "computed": {
+        "broadcast": false,
+        "local": true,
+        "multicast": true
+      },
+      "correct": true,
+      "expected": {
+        "broadcast": false,
+        "local": true,
+        "multicast": true
+      },
+      "mac": "33:33:00:00:00:01"
+    },
+    {
+      "computed": {
+        "broadcast": true,
+        "local": true,
+        "multicast": true
+      },
+      "correct": true,
+      "expected": {
+        "broadcast": true,
+        "local": true,
+        "multicast": true
+      },
+      "mac": "ff:ff:ff:ff:ff:ff"
+    },
+    {
+      "computed": {
+        "broadcast": false,
+        "local": true,
+        "multicast": false
+      },
+      "correct": true,
+      "expected": {
+        "broadcast": false,
+        "local": true,
+        "multicast": false
+      },
+      "mac": "02:00:00:00:00:01"
+    },
+    {
+      "computed": {
+        "broadcast": false,
+        "local": true,
+        "multicast": false
+      },
+      "correct": true,
+      "expected": {
+        "broadcast": false,
+        "local": true,
+        "multicast": false
+      },
+      "mac": "52:54:00:12:34:56"
+    },
+    {
+      "computed": {
+        "broadcast": false,
+        "local": false,
+        "multicast": false
+      },
+      "correct": true,
+      "expected": {
+        "broadcast": false,
+        "local": false,
+        "multicast": false
+      },
+      "mac": "00:1a:2b:3c:4d:5e"
+    },
+    {
+      "computed": {
+        "broadcast": false,
+        "local": false,
+        "multicast": false
+      },
+      "correct": true,
+      "expected": {
+        "broadcast": false,
+        "local": false,
+        "multicast": false
+      },
+      "mac": "00:00:00:00:00:00"
+    }
+  ],
+  "correct": 7,
+  "errors": 0,
+  "module": "macaddr",
+  "n_cases": 7,
+  "notation_forms_agree": true,
+  "notation_forms_tested": 4,
+  "oui_reference_ok": true,
+  "schema": "claimlib_macaddr_v1"
+}

@@ -1,0 +1,146 @@
+{
+  "cases": [
+    {
+      "asn": 15169,
+      "computed_private": false,
+      "computed_reserved": false,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": false
+    },
+    {
+      "asn": 174,
+      "computed_private": false,
+      "computed_reserved": false,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": false
+    },
+    {
+      "asn": 0,
+      "computed_private": false,
+      "computed_reserved": true,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": true
+    },
+    {
+      "asn": 23456,
+      "computed_private": false,
+      "computed_reserved": true,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": true
+    },
+    {
+      "asn": 64495,
+      "computed_private": false,
+      "computed_reserved": false,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": false
+    },
+    {
+      "asn": 64496,
+      "computed_private": false,
+      "computed_reserved": true,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": true
+    },
+    {
+      "asn": 64511,
+      "computed_private": false,
+      "computed_reserved": true,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": true
+    },
+    {
+      "asn": 64512,
+      "computed_private": true,
+      "computed_reserved": false,
+      "correct": true,
+      "expected_private": true,
+      "expected_reserved": false
+    },
+    {
+      "asn": 65534,
+      "computed_private": true,
+      "computed_reserved": false,
+      "correct": true,
+      "expected_private": true,
+      "expected_reserved": false
+    },
+    {
+      "asn": 65535,
+      "computed_private": false,
+      "computed_reserved": true,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": true
+    },
+    {
+      "asn": 65536,
+      "computed_private": false,
+      "computed_reserved": true,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": true
+    },
+    {
+      "asn": 65551,
+      "computed_private": false,
+      "computed_reserved": true,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": true
+    },
+    {
+      "asn": 65552,
+      "computed_private": false,
+      "computed_reserved": false,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": false
+    },
+    {
+      "asn": 4199999999,
+      "computed_private": false,
+      "computed_reserved": false,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": false
+    },
+    {
+      "asn": 4200000000,
+      "computed_private": true,
+      "computed_reserved": false,
+      "correct": true,
+      "expected_private": true,
+      "expected_reserved": false
+    },
+    {
+      "asn": 4294967294,
+      "computed_private": true,
+      "computed_reserved": false,
+      "correct": true,
+      "expected_private": true,
+      "expected_reserved": false
+    },
+    {
+      "asn": 4294967295,
+      "computed_private": false,
+      "computed_reserved": true,
+      "correct": true,
+      "expected_private": false,
+      "expected_reserved": true
+    }
+  ],
+  "correct": 17,
+  "errors": 0,
+  "module": "aspath",
+  "n_cases": 17,
+  "path_ops_ok": true,
+  "schema": "claimlib_aspath_v1"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "aspath.json",
+  "artifact_sha256": "a0955aacf9d9a43c9667e9fb6a96fb6f8aed806a705e2057c6cd9c23aab7359a",
+  "script": "python3 claimlib/modules/aspath/evidence.py",
+  "git_commit": "33b2e5b18b66529b776c35f67e40bda58b0a6ee4",
+  "generated_at": "2026-07-11T14:23:49.442833+00:00",
+  "produced_by": "claimlib"
+}

@@ -1,6 +1,6 @@
 # Token-bucket rate limiter (capacity invariant)
 
-*Subject area: Reliability / Rate Limiting. Language: python. Vendorable bundle `87703304fc2e`.*
+*Subject area: Reliability / Rate Limiting. Language: python. Vendorable bundle `15cb4befe8e6`.*
 
 A token bucket is the classic rate-limiting primitive: a bucket holds up to `capacity` tokens and refills at a steady `refill_per_sec`, and each request spends tokens, so short bursts pass (up to the bucket depth) while the long-run average rate stays bounded. Its key safety property is that refills are clamped at capacity, so accumulated idle time can never be banked into an unbounded later burst. This module makes time an explicit argument to every call, which removes hidden wall-clock reads and makes limiter behaviour fully deterministic and testable. Vendor it to meter API quotas or traffic consistently and inherit a checked capacity invariant rather than re-auditing another ad-hoc limiter.
 
@@ -16,5 +16,5 @@ Ships `tokenbucket.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/87703304fc2e13d25171763dab78237b63e133617a76e40d8b5d96e6ba11b1c0 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/15cb4befe8e6f61c0e9f5af4be637b53680bbd88d74ac72f39129d1adeb212ec --target .
 ```

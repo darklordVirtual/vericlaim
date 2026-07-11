@@ -1,0 +1,72 @@
+# SPDX-License-Identifier: Apache-2.0
+"""Evidence for {{CLAIM_ID}} -- reproduce PUBLISHED check vectors and agree with an
+INDEPENDENT implementation.
+
+SCAFFOLD: fill PUBLISHED with catalogue/reference (data, expected) vectors and
+write ``checksum_oracle`` as a genuinely different implementation, then add the
+claim anchor in main() (  <hash> claim:{{CLAIM_ID}} reference_vectors_matched  )
+and register the module.
+"""
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))              # the module under test ({{NAME}}.py)
+sys.path.insert(0, str(HERE.parents[1]))   # claimlib/ for _util
+
+from {{NAME}} import checksum  # noqa: E402
+from _util import emit  # noqa: E402
+
+
+def checksum_oracle(data: bytes) -> int:
+    """Independent second implementation (different code path from the module)."""
+    raise NotImplementedError("write an independent checksum for cross-checking")
+
+
+# (data, published_expected) -- published catalogue/reference values only.
+PUBLISHED: list = [
+    # TODO: e.g. (b"123456789", 0xCBF43926),
+]
+
+# Byte strings whose checksum must agree between the module and the oracle.
+CROSSCHECK = [b"", b"\x00", b"\xff", b"abc"] + [bytes([b]) for b in range(256)]
+
+
+def run() -> dict:
+    if not PUBLISHED:
+        raise NotImplementedError("add real published reference vectors before building")
+    matched = 0
+    for data, expected in PUBLISHED:
+        matched += int(checksum(data) == expected)
+    cross_matched = 0
+    for data in CROSSCHECK:
+        cross_matched += int(checksum(data) == checksum_oracle(data))
+    matched += cross_matched
+    reference_vectors = len(PUBLISHED) + len(CROSSCHECK)
+    return {
+        "schema": "{{SCHEMA}}",
+        "module": "{{NAME}}",
+        "reference_vectors": reference_vectors,
+        "reference_vectors_matched": matched,
+        "mismatches": reference_vectors - matched,
+        "crosscheck_matched": cross_matched,
+    }
+
+
+def main() -> int:
+    obj = run()
+    emit(HERE / "artifacts" / "{{NAME}}.json", obj,
+         script="python3 claimlib/modules/{{NAME}}/evidence.py")
+    # TODO add the claim anchor: on its own line put
+    # "claim:{{CLAIM_ID}} reference_vectors_matched" (start with the '#' char), then
+    # a comment: all N published + oracle-checked vectors reproduce, so
+    # reference_vectors_matched = N and mismatches = 0.
+    print(f"{{NAME}}: {obj['reference_vectors_matched']}/{obj['reference_vectors']} "
+          f"reference vectors reproduced ({obj['mismatches']} mismatches)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

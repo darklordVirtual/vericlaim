@@ -1,6 +1,6 @@
 # Tamper-evident append-only hash chain
 
-*Subject area: Security / Data Integrity. Language: python. Vendorable bundle `5519a4730c0b`.*
+*Subject area: Security / Data Integrity. Language: python. Vendorable bundle `350f37b12b1f`.*
 
 A hash chain makes an append-only log self-authenticating: each record's hash folds in the previous record's hash, so the head digest commits to the entire ordered history -- the same idea behind Git commit graphs and blockchain blocks. Changing, inserting, deleting or reordering any past entry changes that record's hash and every hash after it, so recomputing the chain from the claimed entries and comparing digests reveals the tampering. Vendor it to get an integrity-checked audit log or ledger; the claim proves the construction catches the enumerated mutations, so you inherit a checked primitive rather than a re-implementation to re-audit. For untrusted storage, sign or HMAC the head so the chain itself cannot be silently rewritten.
 
@@ -16,5 +16,5 @@ Ships `hashchain.py` into your project, byte-exact, with a generated binding tes
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/5519a4730c0b78682488936a47f0912e4c24d34532278e931815d83bc74526f9 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/350f37b12b1f42f0c52e4be450db7f5f2bc8e1ef89748959bf936c47badac728 --target .
 ```

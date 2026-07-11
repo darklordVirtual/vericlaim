@@ -1,6 +1,6 @@
 # Semantic Versioning 2.0.0 compare + range grammar
 
-*Subject area: Software Supply Chain / Dependency Resolution. Language: python. Vendorable bundle `6d81eb0d915c`.*
+*Subject area: Software Supply Chain / Dependency Resolution. Language: python. Vendorable bundle `94481d82b93a`.*
 
 Semantic Versioning encodes MAJOR.MINOR.PATCH plus optional pre-release and build metadata, and defines a strict precedence order (spec section 11): core compared numerically, a pre-release ranked below its associated release, and pre-release identifiers compared left-to-right with numeric identifiers below alphanumeric ones. Package managers layer range operators on top of this ordering (caret pins the left-most non-zero element, tilde allows patch-level drift) to decide which published versions an install may resolve to. Vendor this module to compare versions and evaluate those common ranges consistently; the claim proves the precedence arithmetic and range bounds match the spec, so you inherit a checked resolver rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `semver.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/6d81eb0d915c79098328b8abf02fd12e6c6c9d14d414191d51e0276c71b576b2 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/94481d82b93aba923f2b20e8d44e53508951e61ce900de454c478ce5d3688099 --target .
 ```

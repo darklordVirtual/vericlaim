@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: Apache-2.0
+"""Unit tests for the scaffolded ``{{NAME}}`` codec. TODO: implement, then remove the skip."""
+import sys
+from pathlib import Path
+
+import pytest
+
+pytestmark = pytest.mark.skip(reason="scaffolded stub for {{NAME}} -- implement, then remove this skip")
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parents[0] / "modules" / "{{NAME}}"))
+
+from {{NAME}} import encode, decode, {{CLASS}}  # noqa: E402
+
+
+def test_placeholder():
+    # TODO: assert decode(encode(x)) == x for representative inputs, and error paths.
+    assert callable(encode) and callable(decode)
+    assert issubclass({{CLASS}}, ValueError)

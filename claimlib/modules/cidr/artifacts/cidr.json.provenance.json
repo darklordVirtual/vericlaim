@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "cidr.json",
+  "artifact_sha256": "4337ea5dcf2554f07e69d7314ed605969d4460a1b8e003c8c87850e58e830b1b",
+  "script": "python3 claimlib/modules/cidr/evidence.py",
+  "git_commit": "33b2e5b18b66529b776c35f67e40bda58b0a6ee4",
+  "generated_at": "2026-07-11T14:18:50.323815+00:00",
+  "produced_by": "claimlib"
+}
