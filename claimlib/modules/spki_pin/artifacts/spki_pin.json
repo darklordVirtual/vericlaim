@@ -1,0 +1,8 @@
+{
+  "checks": 16,
+  "checks_matched": 16,
+  "mismatches": 0,
+  "module": "spki_pin",
+  "n_spkis": 4,
+  "schema": "claimlib_spki_pin_v1"
+}

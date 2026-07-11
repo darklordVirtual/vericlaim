@@ -790,3 +790,80 @@ claims:
       Correctness is demonstrated over the published vectors plus a wide round-trip range, not proven for every integer. Unsigned values must be non-negative; decoding rejects a truncated varint and one exceeding 64 bits. This is the base-128 LEB128 / protobuf wire encoding, not the SQLite or Git variants.
     reproduce: "python3 claimlib/modules/varint/evidence.py"
 
+  - id: CLAIM-LIB-PEM-001
+    statement: >
+      The vendored PEM codec (RFC 7468) passes all 11 checks with 0 mismatches: for a fixed set of DER blobs (a small SEQUENCE, empty, single byte, and long payloads) decode(encode(der, label)) round-trips to (label, der), the base64 body matches the stdlib base64 and every line wraps at 64 characters, and a two-block PEM parses into the correct list of (label, der) pairs -- the codec implements the envelope itself and never imports the csv/pem parts of the stdlib beyond base64.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/pem/artifacts/pem.json"
+    metrics:
+      n_ders: 5
+      checks: 11
+      checks_matched: 11
+      mismatches: 0
+    caveat: >
+      The stdlib base64 is the independent oracle for the body. Correctness is demonstrated over a fixed battery, not proven for every input. The module handles the RFC 7468 encapsulation (BEGIN/END labels, 64-column base64, matching END label); it does NOT parse the DER structure inside, validate certificates, or support the optional headers of the legacy RFC 1421 privacy-enhanced-mail format.
+    reproduce: "python3 claimlib/modules/pem/evidence.py"
+
+  - id: CLAIM-LIB-SPKI-PIN-001
+    statement: >
+      The vendored SPKI pinning library passes all 16 checks with 0 mismatches: for each SPKI sample the pin equals base64(sha256(spki)) computed independently via the stdlib hashlib/base64, matches() accepts the correct pin even when it is the backup among several, rejects a wrong pin, and the pin-sha256="..." directive form is well-shaped -- with a constant-time comparison that scans all pins without an early exit.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/spki_pin/artifacts/spki_pin.json"
+    metrics:
+      n_spkis: 4
+      checks: 16
+      checks_matched: 16
+      mismatches: 0
+    caveat: >
+      The stdlib hashlib and base64 are the independent oracles. Correctness is over a fixed battery, not proven for every input; the SPKI is treated as opaque bytes (the module does not extract the SPKI from a certificate -- pair it with an X.509 parser). Pinning is operationally risky: pin a backup key and set sane lifetimes, or a key rotation can lock clients out (the reason HPKP was deprecated for the browser HTTP header, though SPKI pinning remains standard for mobile/mTLS clients).
+    reproduce: "python3 claimlib/modules/spki_pin/evidence.py"
+
+  - id: CLAIM-LIB-LAMPORT-001
+    statement: >
+      The vendored Lamport one-time signature verifies every honestly-produced signature (valid_ok = 5 over a fixed 5-case battery) and rejects all 15 tampering attempts with forgeries_accepted = 0: for each (seed, message) case, verify(message, sign(message, sk), pk) is True, while verifying the signature against a changed message, against a signature with one byte flipped, and against a different key pair all return False. Security rests only on SHA-256 preimage resistance, so the scheme is post-quantum (not broken by Shor's algorithm).
+    evidence_level: benchmarked
+    artifact:
+      - "modules/lamport/artifacts/lamport.json"
+    metrics:
+      n_cases: 5
+      valid_ok: 5
+      tamper_msg_detected: 5
+      tamper_sig_detected: 5
+      forgeries_accepted: 0
+    caveat: >
+      This is a ONE-TIME signature: signing two different messages under the same key leaks the private key and lets an attacker forge -- callers MUST use each key pair once (chain them under a Merkle tree, i.e. XMSS/SLH-DSA, to sign many messages). Correctness and rejection are demonstrated over a fixed battery, not proven for every input; keys/signatures are large (public key 16 KiB), and the deterministic seed-based keygen here is for reproducible evidence, not production key generation (which needs a secret random seed).
+    reproduce: "python3 claimlib/modules/lamport/evidence.py"
+
+  - id: CLAIM-LIB-NIST-CSF-001
+    statement: >
+      The vendored NIST CSF 2.0 coverage model matches the published taxonomy and arithmetic on all 30 checks with 0 mismatches: the six Functions are exactly Govern, Identify, Protect, Detect, Respond and Recover; all 22 Categories map to the correct Function (their two-letter prefix); and coverage() computes hand-verified fractions (all six Govern categories -> GV coverage 1.0, a 2-of-3 subset -> 0.6667, the full set -> overall 1.0, the empty set -> 0).
+    evidence_level: measured
+    artifact:
+      - "modules/nist_csf/artifacts/nist_csf.json"
+    metrics:
+      n_functions: 6
+      n_categories: 22
+      checks: 30
+      checks_matched: 30
+      mismatches: 0
+    caveat: >
+      The taxonomy is the independently-known NIST CSF 2.0 (CSWP 29) Function/Category structure; the module encodes Functions and Categories (not the finer Subcategories or Informative References) and scores simple category-level coverage, which is a planning aid, not a maturity assessment or a certification. Correctness is demonstrated over a fixed set of checks, not a claim that any particular program is 'compliant'.
+    reproduce: "python3 claimlib/modules/nist_csf/evidence.py"
+
+  - id: CLAIM-LIB-NIS2-001
+    statement: >
+      The vendored NIS2 coverage model matches the Directive and arithmetic on all 7 checks with 0 mismatches: the encoded measures are exactly the ten Article 21(2) items a..j of Directive (EU) 2022/2555, and coverage() computes hand-verified values -- the empty set -> 0.0, the full set -> 1.0, a 4-of-10 subset -> 0.4 with the missing list its exact complement.
+    evidence_level: measured
+    artifact:
+      - "modules/nis2/artifacts/nis2.json"
+    metrics:
+      n_measures: 10
+      checks: 7
+      checks_matched: 7
+      mismatches: 0
+    caveat: >
+      The set of measures is the independently-known Article 21(2)(a)-(j) list; the module scores coverage of those ten headline measures, which is an internal gap-tracking aid, NOT legal advice or a determination of regulatory compliance (which depends on national transposition, proportionality to the entity, and competent-authority interpretation). Correctness is demonstrated over a fixed set of checks.
+    reproduce: "python3 claimlib/modules/nis2/evidence.py"
+

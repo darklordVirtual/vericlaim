@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "European Parliament and Council"
+  ],
+  "id": "nis2-directive",
+  "identifier": "Directive (EU) 2022/2555",
+  "kind": "regulation",
+  "publisher": "Official Journal of the European Union",
+  "schema": "claimlib_literature_v1",
+  "summary": "The EU NIS2 Directive raises the baseline of cybersecurity across essential and important entities; its Article 21 enumerates minimum risk-management measures (risk analysis, incident handling, business continuity, supply chain security, cryptography, MFA, and more).",
+  "summary_sha256": "b9599669903d074387f383f5910f6ba6e75f7876a953136b639e4069698b91f7",
+  "title": "Directive (EU) 2022/2555 (NIS2) on measures for a high common level of cybersecurity",
+  "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+  "year": 2022
+}

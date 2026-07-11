@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "NIST"
+  ],
+  "id": "fips-205",
+  "identifier": "FIPS 205",
+  "kind": "standard",
+  "publisher": "NIST",
+  "schema": "claimlib_literature_v1",
+  "summary": "The NIST post-quantum standard for stateless hash-based signatures (SLH-DSA, based on SPHINCS+), whose security depends only on the properties of its underlying hash function, generalizing the Lamport/Merkle idea to a practical many-time signature.",
+  "summary_sha256": "f352776b801ff70c8fcd07d1173a4e386d5e2e9a358eb0a0718aead66987b2e2",
+  "title": "Stateless Hash-Based Digital Signature Standard (SLH-DSA)",
+  "url": "https://csrc.nist.gov/pubs/fips/205/final",
+  "year": 2024
+}

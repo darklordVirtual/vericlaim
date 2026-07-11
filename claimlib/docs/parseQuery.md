@@ -1,6 +1,6 @@
 # Query-string parse + stringify
 
-*Subject area: TypeScript / URL & Web. Language: typescript. Vendorable bundle `9849eeb588b2`.*
+*Subject area: TypeScript / URL & Web. Language: typescript. Vendorable bundle `061cd39e344d`.*
 
 A URL query string is a '&'-separated list of 'key=value' pairs where keys can repeat and both sides are percent-encoded (with '+' historically meaning space in form submissions). parseQuery decodes each pair and collapses repeated keys into ordered arrays so 'a=1&a=3' becomes {a:["1","3"]}, while stringifyQuery reverses that with a deterministic sorted key order for stable, diffable output. Vendor it to read and build query strings consistently with zero dependencies; the claim proves the parse/serialize behaviour matches hand-written expectations and agrees with URLSearchParams, so you inherit a checked helper rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `parseQuery.ts` into your project, byte-exact, with a generated binding te
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/9849eeb588b23ce6a208ff87d90ba05343e52e7ecf50225ba1bb70da5ebd424c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/061cd39e344d74ee9fe73205cd2eb170e7195681bc1e04bd8af77a1a79bce860 --target .
 ```

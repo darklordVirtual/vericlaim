@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "nist_csf.json",
+  "artifact_sha256": "a925e46541251ba679ce8cb34ce1439c9fe68f7a56894b3ed956f87e2de155b3",
+  "script": "python3 claimlib/modules/nist_csf/evidence.py",
+  "git_commit": "c78533391024ea59d79a57dffec29cdf827a97ce",
+  "generated_at": "2026-07-11T18:02:42.541870+00:00",
+  "produced_by": "claimlib"
+}

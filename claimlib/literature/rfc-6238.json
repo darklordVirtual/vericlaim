@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "D. M'Raihi",
+    "S. Machani",
+    "M. Pei",
+    "J. Rydell"
+  ],
+  "id": "rfc-6238",
+  "identifier": "RFC 6238",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Extends HOTP to a time-based variant by replacing the counter with the number of fixed time steps since an epoch, yielding codes that rotate automatically; includes SHA-1/256/512 test vectors.",
+  "summary_sha256": "be3373c6cad8711fde33dd655fcedca164e3128ebe08877f3fa14a4ab902f937",
+  "title": "TOTP: Time-Based One-Time Password Algorithm",
+  "url": "https://www.rfc-editor.org/rfc/rfc6238",
+  "year": 2011
+}

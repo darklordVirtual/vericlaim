@@ -26,9 +26,16 @@ REPO_ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(REPO_ROOT / "integrations" / "library"))
 
+sys.path.insert(0, str(HERE / "literature"))
+
 from MODULES import MODULES  # noqa: E402
 from bundlefmt import build_bundle  # noqa: E402
 from vericlaim.provenance import stamp  # noqa: E402
+try:
+    from SOURCES import SOURCES  # noqa: E402
+    LITERATURE = {s["id"]: s for s in SOURCES}
+except ImportError:                                  # literature layer optional
+    LITERATURE = {}
 
 # Language dispatch: where each module lives and how its evidence runs.
 LANGS = {
@@ -151,6 +158,23 @@ def register_entry(mod: dict, metrics: dict) -> str:
 """
 
 
+def references_section(mod: dict) -> str:
+    """Render a ## References block from the module's hash-locked literature."""
+    refs = mod.get("references", [])
+    if not refs:
+        return ""
+    lines = ["", "## References", "",
+             "The standards this module implements, as hash-locked entries in "
+             "[the claimlib bibliography](../literature/BIBLIOGRAPHY.md):", ""]
+    for ref in refs:
+        lit = LITERATURE.get(ref)
+        if lit is None:
+            raise SystemExit(f"[FAIL] {mod['name']}: unknown literature reference {ref!r}")
+        lines.append(f"- **{lit['identifier']}** — {lit['title']}. "
+                     f"[{lit['url']}]({lit['url']})")
+    return "\n".join(lines) + "\n"
+
+
 def doc_for(mod: dict, metrics: dict, bundle_id: str) -> str:
     cid = mod["claim_id"]
     bf = mod["bind_field"]
@@ -179,7 +203,7 @@ fails the moment you edit the vendored code:
 ```bash
 python3 integrations/library/use_code.py --bundle claimlib/bundles/{bundle_id} --target .
 ```
-"""
+{references_section(mod)}"""
 
 
 def build_bundle_for(mod: dict, commit: str) -> str:

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/cvss.json": "575fbaf60889d2ffcaf067d37c49608e82ea24e1d65c6fd391453c9a854bba39",
+    "claim.json": "7f31ca2e701f82ee73f128abb407cb76243fefc7de66445de592f0a08fda55a1",
+    "code/cvss.py": "bd38c7b0fa8fc489fcd79fdc004a5893bad096a3ecccebc8c5a202d738d73bfc",
+    "provenance.json": "fbc311500aca1bcf597ab68cf212392f4b453989b1c6ec0ff2284291ff10198f"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

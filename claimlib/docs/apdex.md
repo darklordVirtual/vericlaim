@@ -1,6 +1,6 @@
 # Apdex application performance index
 
-*Subject area: Observability / Service Level Indicators. Language: python. Vendorable bundle `1fd8347d9a83`.*
+*Subject area: Observability / Service Level Indicators. Language: python. Vendorable bundle `975b6923ee5d`.*
 
 Apdex (Application Performance Index) turns a pile of response-time samples into one 0..1 satisfaction score against a target time T: requests at or under T are 'satisfied', up to 4T 'tolerating' (counted half), and beyond that 'frustrated'. It is a compact SLI that product and ops teams can track and alert on without staring at a full histogram. This module implements the zoning and scoring exactly; the claim proves it matches the published definition on a hand-computed battery, so you inherit a checked SLI rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `apdex.py` into your project, byte-exact, with a generated binding test th
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/1fd8347d9a83de1b0f556e7ba5455823c4f111d139ad211bd55849b3cce9c298 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/975b6923ee5da0047dda77447827fe382c48b1275e38b41103173f8f4c7675f8 --target .
 ```

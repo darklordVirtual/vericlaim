@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "S. Josefsson"
+  ],
+  "id": "rfc-6070",
+  "identifier": "RFC 6070",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Provides official PBKDF2-HMAC-SHA1 test vectors for a range of iteration counts and output lengths, used to validate implementations of the RFC 8018 key derivation function.",
+  "summary_sha256": "1a5a647fa67368513829a48e9c4b38175c8066b1f46ed8f5e2177f750ccd51eb",
+  "title": "PKCS #5 PBKDF2 Test Vectors",
+  "url": "https://www.rfc-editor.org/rfc/rfc6070",
+  "year": 2011
+}

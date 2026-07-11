@@ -1,0 +1,10 @@
+{
+  "forgeries_accepted": 0,
+  "module": "lamport",
+  "n_cases": 5,
+  "schema": "claimlib_lamport_v1",
+  "tamper_msg_detected": 5,
+  "tamper_sig_detected": 5,
+  "valid_ok": 5,
+  "wrongkey_detected": 5
+}

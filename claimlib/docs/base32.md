@@ -1,6 +1,6 @@
 # RFC 4648 base32 encode/decode
 
-*Subject area: Data / Encoding. Language: python. Vendorable bundle `3c50a10e8bbd`.*
+*Subject area: Data / Encoding. Language: python. Vendorable bundle `2d789d3b4be1`.*
 
 Base32 (RFC 4648) encodes arbitrary bytes into a 32-character, case-insensitive-friendly alphabet (A-Z, 2-7), packing every 5 input bytes into 8 output symbols and padding a short final group with '=' — useful where the output must survive case-folding or be spoken/typed (TOTP secrets, DNS labels, filenames). This module implements the bit-packing directly rather than delegating to a library, exposing encode(bytes)->str and its exact inverse decode(str)->bytes, which fails closed on bad length, unknown symbols, or malformed padding. Vendor it for a dependency-free, auditable codec; the claim binds the RFC vectors and stdlib-oracle agreement, so you inherit a checked encoder rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `base32.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/3c50a10e8bbdae61f8f68b51986ece8cdd5bc846c90476001a9e46ba7e7c4c59 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/2d789d3b4be1112c0addc0b5de644db0a3e817d57a881f54b75be08323369840 --target .
 ```

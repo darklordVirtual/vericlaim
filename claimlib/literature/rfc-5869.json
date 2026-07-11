@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "H. Krawczyk",
+    "P. Eronen"
+  ],
+  "id": "rfc-5869",
+  "identifier": "RFC 5869",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies HKDF, a two-step extract-then-expand key derivation function built on HMAC: extract concentrates input entropy into a pseudorandom key, and expand stretches it into output keying material with domain-separating context.",
+  "summary_sha256": "268d0e0e6bda81be879ce63e6a9008895f22ce4aeaad572731d0d9959cdfa2a2",
+  "title": "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)",
+  "url": "https://www.rfc-editor.org/rfc/rfc5869",
+  "year": 2010
+}

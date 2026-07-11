@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "nis2.json",
+  "artifact_sha256": "d561f706a865414ea85d81241d9242e9163088a12235c8b07b4db8a5545d3245",
+  "script": "python3 claimlib/modules/nis2/evidence.py",
+  "git_commit": "c78533391024ea59d79a57dffec29cdf827a97ce",
+  "generated_at": "2026-07-11T18:03:35.606373+00:00",
+  "produced_by": "claimlib"
+}

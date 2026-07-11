@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "A. Huelsing",
+    "D. Butin",
+    "S. Gazdag",
+    "J. Rijneveld",
+    "A. Mohaisen"
+  ],
+  "id": "rfc-8391",
+  "identifier": "RFC 8391",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies XMSS, a stateful hash-based signature scheme that combines Winternitz one-time signatures under a Merkle tree to sign many messages; being hash-based, it is a post-quantum (quantum-resistant) signature standard.",
+  "summary_sha256": "6afc22d634b6722a871f17738cc641ea8c68469112ada847912a8e63ed9d3228",
+  "title": "XMSS: eXtended Merkle Signature Scheme",
+  "url": "https://www.rfc-editor.org/rfc/rfc8391",
+  "year": 2018
+}

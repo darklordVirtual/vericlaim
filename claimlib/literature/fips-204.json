@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "NIST"
+  ],
+  "id": "fips-204",
+  "identifier": "FIPS 204",
+  "kind": "standard",
+  "publisher": "NIST",
+  "schema": "claimlib_literature_v1",
+  "summary": "The NIST post-quantum digital signature standard (ML-DSA, based on CRYSTALS-Dilithium), a module-lattice signature scheme intended to replace RSA/ECDSA signatures against a quantum adversary.",
+  "summary_sha256": "86061bb87b0e84c2d02916b81e068cc6573b0766df684544316323f8ce772e69",
+  "title": "Module-Lattice-Based Digital Signature Standard (ML-DSA)",
+  "url": "https://csrc.nist.gov/pubs/fips/204/final",
+  "year": 2024
+}
