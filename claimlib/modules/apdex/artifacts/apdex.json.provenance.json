@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "apdex.json",
+  "artifact_sha256": "387525821492b8850c9b76fcbdf637aaad83f456cbed3ce1ed903970d9928bf3",
+  "script": "python3 claimlib/modules/apdex/evidence.py",
+  "git_commit": "06e89785d7ecb9b89bd22f43596cc22e3bf521c9",
+  "generated_at": "2026-07-11T17:47:48.535070+00:00",
+  "produced_by": "claimlib"
+}

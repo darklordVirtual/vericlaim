@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/apdex.json": "387525821492b8850c9b76fcbdf637aaad83f456cbed3ce1ed903970d9928bf3",
+    "claim.json": "e89995f74c35995c30d95d755188edb7088de2fffd7724c10c92928a236d6eb7",
+    "code/apdex.py": "9f585c50b3344e1d8ed9e306f1556c380bdfb7bf577b463cec23c639dca20842",
+    "provenance.json": "bd4708411d87a6ea38d535eb9147f784444864b87837455b08137d26027d5069"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "varint.json",
+  "artifact_sha256": "205928f5abb57956f99d19fa07d24f224e950d6af3c13f1de71c1309fcb06d40",
+  "script": "python3 claimlib/modules/varint/evidence.py",
+  "git_commit": "06e89785d7ecb9b89bd22f43596cc22e3bf521c9",
+  "generated_at": "2026-07-11T17:50:47.249557+00:00",
+  "produced_by": "claimlib"
+}

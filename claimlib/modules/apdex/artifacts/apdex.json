@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "computed": 0.7,
+      "correct": true,
+      "counts": {
+        "frustrated": 1,
+        "satisfied": 3,
+        "tolerating": 1,
+        "total": 5
+      },
+      "expected": 0.7,
+      "threshold": 0.5
+    },
+    {
+      "computed": 1.0,
+      "correct": true,
+      "counts": {
+        "frustrated": 0,
+        "satisfied": 4,
+        "tolerating": 0,
+        "total": 4
+      },
+      "expected": 1.0,
+      "threshold": 0.5
+    },
+    {
+      "computed": 0.0,
+      "correct": true,
+      "counts": {
+        "frustrated": 3,
+        "satisfied": 0,
+        "tolerating": 0,
+        "total": 3
+      },
+      "expected": 0.0,
+      "threshold": 0.5
+    },
+    {
+      "computed": 0.75,
+      "correct": true,
+      "counts": {
+        "frustrated": 0,
+        "satisfied": 1,
+        "tolerating": 1,
+        "total": 2
+      },
+      "expected": 0.75,
+      "threshold": 0.5
+    },
+    {
+      "computed": 0.625,
+      "correct": true,
+      "counts": {
+        "frustrated": 2,
+        "satisfied": 4,
+        "tolerating": 2,
+        "total": 8
+      },
+      "expected": 0.625,
+      "threshold": 1
+    }
+  ],
+  "correct": 5,
+  "errors": 0,
+  "module": "apdex",
+  "n_cases": 5,
+  "schema": "claimlib_apdex_v1",
+  "zone_cases": 4,
+  "zone_correct": 4
+}

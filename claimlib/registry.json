@@ -1,5 +1,5 @@
 {
-  "count": 49,
+  "count": 53,
   "claims": [
     {
       "id": "CLAIM-LIB-RLE-001",
@@ -12,7 +12,7 @@
       "bound_value": 15,
       "statement": "The vendored byte-oriented run-length codec round-trips losslessly on every case in a fixed, diverse corpus (long runs, sparse spikes, deterministic pseudo-random noise, structured text, and the empty string): decode(encode(x)) == x for all 15 cases (roundtrip_lossless == n_cases), verified by exact byte equality against the original input, not against the codec's own output.",
       "caveat": "RLE is a compressor only for redundant data: it EXPANDS low-redundancy input to two output bytes per symbol, so overall_ratio can fall below 1.0 (0.6649 on this corpus, which is deliberately noise-heavy). The claim proves lossless round-trip, not a compression guarantee, and correctness is demonstrated over a fixed corpus rather than proven for every possible input.",
-      "bundle_id": "c6eb5080dc4ff7f78053cfbe34a72a082e0920fadf75b8477da909d81c237ed2",
+      "bundle_id": "7d6ecc2d3069bac5ca8aa44a89391eb69b5bcf78b7e4fcab8414a09f08cd515b",
       "metrics": {
         "n_cases": 15,
         "roundtrip_lossless": 15,
@@ -30,7 +30,7 @@
       "bound_value": 17,
       "statement": "The vendored RFC 4648 base32 codec passes all 17 reference checks with 0 mismatches: it reproduces every one of the 7 RFC 4648 section 10 test vectors exactly (b\"\"->\"\", b\"f\"->\"MY======\", ... b\"foobar\"->\"MZXW6YTBOI======\"), and over 10 fixed byte inputs its encode/decode agree byte-for-byte with Python's stdlib base64.b32encode/b32decode (an independent oracle the module never calls) while round-tripping decode(encode(x)) == x exactly.",
       "caveat": "Standard RFC 4648 base32 alphabet with '=' padding only (no base32hex, no Crockford variant, and case-sensitive decoding). Correctness is demonstrated over a fixed reference set of published vectors plus stdlib cross-checks, not proven for every possible input. base64 is used solely as the evidence/test oracle and is never invoked inside the vendored module.",
-      "bundle_id": "be5b143edfb437fdbebe3b789a3fb3eacdc56063f3fa286dd868f7e008fc9551",
+      "bundle_id": "3c50a10e8bbdae61f8f68b51986ece8cdd5bc846c90476001a9e46ba7e7c4c59",
       "metrics": {
         "reference_vectors_matched": 17,
         "reference_vectors": 17,
@@ -48,7 +48,7 @@
       "bound_value": 291,
       "statement": "The vendored CRC-32 (IEEE 802.3, reflected poly 0xEDB88320) implementation reproduces every value in a fixed 291-vector reference set exactly, with 0 mismatches: the 3 published check values (crc32(b\"\")==0, crc32(b\"123456789\")==0xCBF43926, crc32 of the lazy-dog pangram==0x414FA339) plus 288 byte strings cross-checked for exact equality against the independent stdlib oracle zlib.crc32, so reference_vectors_matched == reference_vectors == 291.",
       "caveat": "Correctness is demonstrated over a fixed reference set (3 published check values plus 288 byte strings agreeing with zlib.crc32), not proven for every possible input. CRC-32 is an error-DETECTION checksum for accidental corruption, NOT a cryptographic hash or MAC: it is linear and trivially forgeable, so it provides no integrity or authenticity guarantee against an adversary.",
-      "bundle_id": "76bc42e673ff89db2d040dd365cfb684ca279f91cc69242bd3c1844f7e6d1337",
+      "bundle_id": "dac4439fa05000bc81b88c618566afff765c807cc13abc741fce34ff9ba2359f",
       "metrics": {
         "reference_vectors_matched": 291,
         "reference_vectors": 291,
@@ -66,11 +66,51 @@
       "bound_value": 12,
       "statement": "The vendored RFC 6901 JSON Pointer resolver reproduces every published result in RFC 6901 section 5's worked example \u2014 the exact example document evaluated at all 12 example pointers (\"\" -> whole document, \"/foo\" -> [\"bar\",\"baz\"], \"/foo/0\" -> \"bar\", \"/\" -> 0, \"/a~1b\" -> 1, \"/c%d\" -> 2, \"/e^f\" -> 3, \"/g|h\" -> 4, \"/i\\\\j\" -> 5, \"/k\\\"l\" -> 6, \"/ \" -> 7, \"/m~0n\" -> 8) \u2014 with reference_cases_passed = 12 and failures = 0, including the ~1 and ~0 unescaping (in that order) and the empty-pointer whole-document case.",
       "caveat": "Correctness is demonstrated over RFC 6901's single published example set (12 pointers), not proven for every possible document or pointer. resolve raises KeyError on a missing object member and IndexError on an out-of-range, non-numeric, leading-zero, or '-' array index (it resolves an existing pointer rather than implementing JSON Pointer's URI-fragment '#' form or the RFC 6902 add/append semantics of '-').",
-      "bundle_id": "cff39e90653b33a497b86095cd1e70786cfc881574a9fd98f029c9402fd5b9db",
+      "bundle_id": "645a8ed7f10225296a3feff0b090dcdd0cfa4385c423601b23538e7a142281ad",
       "metrics": {
         "reference_cases": 12,
         "reference_cases_passed": 12,
         "failures": 0
+      }
+    },
+    {
+      "id": "CLAIM-LIB-CSV-RFC4180-001",
+      "name": "csv_rfc4180",
+      "title": "RFC 4180 CSV parse + write",
+      "area": "Data / Serialization",
+      "lang": "python",
+      "evidence_level": "benchmarked",
+      "bind_field": "checks_matched",
+      "bound_value": 17,
+      "statement": "The vendored RFC 4180 CSV codec -- which parses and writes CSV DIRECTLY and never imports the csv module -- passes all 17 checks with 0 mismatches: parse(text) equals list(csv.reader(text)) on 12 inputs (quoted fields, embedded delimiters, embedded newlines, doubled quotes, empty fields, CRLF and LF records, and a trailing delimiter), and parse(format_rows(rows)) round-trips 5 record sets (including fields that require quoting).",
+      "caveat": "The stdlib csv module is the independent oracle and is NOT imported by the vendored module. Correctness is demonstrated over a fixed battery of RFC-4180-conformant inputs, not proven for every input; the codec models the RFC 4180 core (single-character delimiter and quotechar, doubled-quote escaping, CRLF/LF records) and not dialect extras like comment lines, skipinitialspace, or alternate escape characters.",
+      "bundle_id": "1cfadabd709ce0354914ae1b9626bdc2d91e4cc056666542fcbaacf3dbb68c0b",
+      "metrics": {
+        "checks": 17,
+        "checks_matched": 17,
+        "mismatches": 0,
+        "parse_matched": 12,
+        "roundtrip_matched": 5
+      }
+    },
+    {
+      "id": "CLAIM-LIB-VARINT-001",
+      "name": "varint",
+      "title": "Varint / LEB128 integer encoding",
+      "area": "Data / Serialization",
+      "lang": "python",
+      "evidence_level": "benchmarked",
+      "bind_field": "reference_vectors_matched",
+      "bound_value": 14,
+      "statement": "The vendored varint codec reproduces all 14 published reference vectors (reference_vectors_matched = 14): the 7 LEB128 unsigned vectors (0->00, 1->01, 127->7f, 128->8001, 255->ff01, 300->ac02, 624485->e58e26) and the 7 ZigZag mappings (0->0, -1->1, 1->2, -2->3, 2->4, -64->127, 63->126); and it round-trips losslessly over 76 unsigned values (powers of two up to 2**64-1) and 1004 signed values (-500..499 plus 31/62-bit boundaries).",
+      "caveat": "Correctness is demonstrated over the published vectors plus a wide round-trip range, not proven for every integer. Unsigned values must be non-negative; decoding rejects a truncated varint and one exceeding 64 bits. This is the base-128 LEB128 / protobuf wire encoding, not the SQLite or Git variants.",
+      "bundle_id": "e9a0c8f200f7080a3d5ff51d0198c8d51c2403f725bd9da4b3456e4ff3be2473",
+      "metrics": {
+        "reference_vectors": 14,
+        "reference_vectors_matched": 14,
+        "published_matched": 7,
+        "zigzag_matched": 7,
+        "unsigned_roundtrip_ok": 76
       }
     },
     {
@@ -84,7 +124,7 @@
       "bound_value": 21,
       "statement": "The vendored fixed-capacity LRU cache reproduces the correct behaviour on every operation of two hand-traced batteries (a capacity-3 mixed trace exercising hit-refresh, capacity eviction, and update-in-place, plus the canonical LeetCode-146 capacity-2 example): all 21 operations match their independently hand-computed get-results AND post-operation key sets (operations_correct = 21, mismatches = 0), and the cache size never exceeds capacity at any step.",
       "caveat": "Correctness is demonstrated over two fixed, hand-derived operation traces (21 operations total), not proven for every possible sequence. Expected get-results and key sets are hand-computed in the evidence, never read back from the cache. The cache is single-threaded and not safe for concurrent mutation, holds strong references to keys/values (no TTL or weak-reference eviction), and uses least-RECENTLY-used as its only eviction policy (not LFU/size/cost-aware).",
-      "bundle_id": "eccbff55d1cb178a186e28e9eb1e9a784d94777d5103563d289640535688dd18",
+      "bundle_id": "57c95fab75d195d2d02e15c0a1aab287e7ef6c9b1c713a8f8f7b0f22dbd9dee3",
       "metrics": {
         "n_operations": 21,
         "operations_correct": 21,
@@ -102,7 +142,7 @@
       "bound_value": 8,
       "statement": "The vendored money library allocates a total into integer minor-unit shares that sum EXACTLY back to the total on every one of a fixed 8-case battery (cent_exact = 8, cent_lost = 0), matches 5 independently hand-computed splits (allocate(100,[1,1,1]) = [34,33,33], allocate(100,[1,1,1,1,1,1]) = [17,17,17,17,16,16], allocate(1000,[1,2,1]) = [250,500,250]), and reproduces published ROUND_HALF_EVEN (banker's rounding) results on all 10 rows of a fixed table (0.5 -> 0, 1.5 -> 2, 2.5 -> 2, 3.5 -> 4, 2.675 -> 2.68).",
       "caveat": "The cent-exact invariant is an arithmetic identity checked over a fixed battery of totals/weights (non-negative integer minor units, non-negative integer weights, not all zero); it does not model currencies with non-decimal subunits, negative totals, or rounding of the allocation itself. round_money rounds decimal values (pass strings, not floats, to avoid binary-float error before rounding) and is HALF_EVEN only.",
-      "bundle_id": "8d78597cec2d1ff567be04480f91eff9b66dea00bddfc3589a4e499cad35ac5c",
+      "bundle_id": "b1c3b0ecbe4909c5ae2e06d5322580ab3b361d95fb5c1eb1fe1b9063fb7fc03b",
       "metrics": {
         "n_alloc_cases": 8,
         "cent_exact": 8,
@@ -122,7 +162,7 @@
       "bound_value": 0,
       "statement": "The vendored weighted MOD-11 check-digit library detects EVERY single-digit alteration over the complete space of 4-digit payloads under weights (2,3,4,5): all 409095 single-digit mutations of the 9091 well-defined check-digited numbers are caught (tamper_detected = 409095, tamper_missed = 0), every one of those numbers round-trips (compute the check digit, then validate = True; roundtrip_valid = 9091), and the Norwegian organisasjonsnummer reference 123456785 (payload 12345678 under weights 3,2,7,6,5,4,3,2 -> check 5) validates while 123456784 does not.",
       "caveat": "The exhaustive tamper / round-trip proof covers 4-digit payloads under one fixed weight vector; the single-error-detection property generalises (11 is prime and no weight is a multiple of 11) but is machine-verified only for that space, not every length. check_digit raises rather than emitting 'X' when the MOD-11 result is 10 (so it is numeric-only and does not cover ISBN-10's X), and MOD-11 catches all single-digit errors and most transpositions but is a checksum, not a cryptographic integrity guarantee.",
-      "bundle_id": "ee4d0a654c867f02fb746879e91c08b23587e9f260bf67664d2e39bf8eeefe56",
+      "bundle_id": "71cc59682b1b871afcba1c8457fe91a20bcd1edcf80c462ea79a0ff8e13ecbdf",
       "metrics": {
         "n_payloads": 10000,
         "checkdigit_defined": 9091,
@@ -143,7 +183,7 @@
       "bound_value": 12,
       "statement": "The vendored IBAN validator (ISO 13616 / ISO 7064 MOD-97-10) classifies every entry in a fixed 12-row table of officially published IBANs correctly (correct = 12, errors = 0): 8 canonical registry / Wikipedia example IBANs (GB82WEST12345698765432, DE89370400440532013000, NO9386011117947, ES9121000418450200051332, ...) are accepted and 4 single-digit-mutated variants are rejected; independently, recomputing the two check digits from the BBAN reproduces the embedded check digits of all 5 tested valid IBANs.",
       "caveat": "Validation is the MOD-97-10 arithmetic plus a general [A-Z]{2}[0-9]{2}[A-Z0-9]+ shape and a 15..34 length check; it does NOT enforce per-country BBAN length or the national bank/branch structure, so a string with the right length and a correct check digit but a wrong national format can still pass. Correctness is demonstrated over a fixed table of published examples, not proven for every country or input.",
-      "bundle_id": "2e27e2119edd71252b629da4dd17308511ff95d412fa84fbb68935845a9f97de",
+      "bundle_id": "dc71888a05a049a3029d404f8c3268ff34773aa8bc717ee9c0ca4d334ce6b1f4",
       "metrics": {
         "n_cases": 12,
         "correct": 12,
@@ -162,7 +202,7 @@
       "bound_value": 6,
       "statement": "The vendored topological sort (Kahn's algorithm, deterministic smallest-first tie-break) produces an edge-respecting order for every one of a fixed 6-DAG battery (valid_orderings = 6, invalid_orderings = 0) -- each order contains every node exactly once and places the tail of every edge before its head -- and detects every one of 4 cyclic graphs (self-loop, 2-cycle, 3-cycle, embedded cycle), with has_cycle True and topo_sort raising CycleError.",
       "caveat": "Correctness is demonstrated over a fixed battery of graphs, not proven for every graph. Nodes must be mutually comparable for the deterministic smallest-first ordering (e.g. all strings or all ints); an edge referencing an unknown node fails closed. Edges are (u, v) meaning 'u before v'.",
-      "bundle_id": "4b8eaa1c5c2f989bb0bebdd4e7989cc6891f37dd9b92cd7e5c355f03b0196c6c",
+      "bundle_id": "1bc3e6cfee7eb05df25cf15d270cfa62dd6be7217eec97d01613667a3bf23997",
       "metrics": {
         "n_dags": 6,
         "valid_orderings": 6,
@@ -182,7 +222,7 @@
       "bound_value": 8,
       "statement": "The vendored Levenshtein edit distance reproduces every published textbook value in a fixed 8-row battery (reference_correct = 8, reference_errors = 0): kitten->sitting = 3, Saturday->Sunday = 3, flaw->lawn = 2, gumbo->gambol = 2, book->back = 2, ''->'abc' = 3, and identity pairs = 0; and over a fixed word set it satisfies the metric axioms -- identity, symmetry on all 100 ordered pairs, and the triangle inequality on all 1000 ordered triples.",
       "caveat": "Costs are the classic unit-cost model (insertion, deletion, substitution each cost 1); it is NOT Damerau-Levenshtein (adjacent transposition is 2, not 1) and applies no custom cost weights. Correctness is demonstrated over a fixed battery plus the metric-axiom sweep, not proven for every pair of strings.",
-      "bundle_id": "fe034277c56e7508d3fde16e59a21141f8d7d25489d591359c513fd7e90808e6",
+      "bundle_id": "fba3cecbea4f06584bb6432bd241e5c590acf14ab8af3a9a448702f042b78884",
       "metrics": {
         "n_reference": 8,
         "reference_correct": 8,
@@ -202,7 +242,7 @@
       "bound_value": 267,
       "statement": "The vendored CRC-16/MODBUS implementation (reflected poly 0xA001, init 0xFFFF, no final XOR) reproduces every value in a fixed 267-vector reference set with 0 mismatches: the published CRC-catalogue check value crc16_modbus(b\"123456789\") == 0x4B37, plus 266 byte strings (empty, single bytes, all-zero / all-0xFF runs, a Modbus read-holding-registers frame, and every single byte value 0..255) that agree byte-for-byte with an independent table-driven implementation computed in the evidence.",
       "caveat": "Correctness is demonstrated over a fixed reference set (one published catalogue value plus table-cross-checked byte strings), not proven for every input. CRC-16 is an error-DETECTION checksum for accidental corruption on a serial link, NOT a cryptographic hash or MAC: it is linear and trivially forgeable, so it gives no integrity or authenticity guarantee against an adversary.",
-      "bundle_id": "03abbfd220245d7bcbf0a11b4cda93b6dc17ffbe64365293ead19f82972dd86d",
+      "bundle_id": "949734ce4ca7b8e693e311ca9ba5636cb07f39bbdcef719ce9c7c412fe562f4a",
       "metrics": {
         "reference_vectors": 267,
         "reference_vectors_matched": 267,
@@ -221,7 +261,7 @@
       "bound_value": 3,
       "statement": "The vendored OEE calculator reproduces the canonical published worked example (Vorne / oee.com) exactly to 4 dp -- Availability 0.8881, Performance 0.8611, Quality 0.9780, OEE 0.7479 from Planned 420 min, Run 373 min, Ideal Cycle 1.0 s, Total 19271, Good 18848 -- and matches all 3 hand-computed reference cases (correct = 3, errors = 0), including the perfect-line boundary (all factors 1.0) and the each-factor-one-half case (OEE 0.125).",
       "caveat": "OEE is pure ratio arithmetic (Availability x Performance x Quality); the module fails closed on non-positive denominators and on factors above 1 (run > planned, good > total, ideal cycle too large), but it does not model the six big losses, planned vs unplanned stop classification, or multi-shift roll-ups. Values are compared to 4 decimal places; correctness is demonstrated over a fixed reference table, not proven for every input.",
-      "bundle_id": "88bf9dcfa300d81e44edfca26f5a3e6c9b9ce927f2207e8bbc718096a32c5a84",
+      "bundle_id": "40f4b88a6f2171e513fb32729f8da931847b8b5934ccb9567067d244c4753888",
       "metrics": {
         "n_cases": 3,
         "correct": 3,
@@ -239,13 +279,52 @@
       "bound_value": 3,
       "statement": "The vendored NMEA 0183 checksum reproduces the published '*HH' checksum of every one of 3 canonical example sentences ($GPGGA,...*47, $GPRMC,...*68, $GPGSA,...*39) exactly (published_correct = 3, published_errors = 0) and all 3 are accepted by is_valid; independently, for 4 payloads the build / verify round-trip holds (a built sentence validates; roundtrip_ok = 4) and a single-character mutation is detected in every case (tamper_detected = 4).",
       "caveat": "The checksum is the simple XOR of the characters between '$' and '*'; the module verifies that field and can build sentences, but it does NOT parse or validate the sentence's fields, talker ID, or semantics, and the XOR is an accidental-corruption check, not a cryptographic integrity guarantee. Correctness is demonstrated over a fixed set of published sentences plus a self-consistency battery, not proven for every input.",
-      "bundle_id": "43465d587b9946a786dd1ee618151d619f758d1828728e77e14c6ceef094e4ee",
+      "bundle_id": "bdeb48a09840afea20cbf6b7106967ceec3460252237b631215655bfb2ba989b",
       "metrics": {
         "n_published": 3,
         "published_correct": 3,
         "published_errors": 0,
         "roundtrip_ok": 4,
         "tamper_detected": 4
+      }
+    },
+    {
+      "id": "CLAIM-LIB-PERCENTILE-001",
+      "name": "percentile",
+      "title": "Percentiles / quantiles (p50 / p95 / p99)",
+      "area": "Observability / Metrics & Statistics",
+      "lang": "python",
+      "evidence_level": "benchmarked",
+      "bind_field": "checks_matched",
+      "bound_value": 605,
+      "statement": "The vendored percentile calculator agrees with Python's stdlib statistics on every one of 605 checks across a fixed 6-dataset battery (checks_matched = 605, mismatches = 0): the linear method matches statistics.quantiles(data, n=100, method=\"inclusive\") for every percentile p in 1..99 and matches statistics.median at the 50th, and the nearest-rank method matches its hand-computed definition on 5 boundary cases (including p=0, p=100, and interior ranks).",
+      "caveat": "statistics is the independent oracle and is NOT imported by the vendored module. Two methods are provided: linear (the numpy default / statistics 'inclusive' interpolation) and nearest_rank; other conventions (exclusive, lower/higher/midpoint) are out of scope. Correctness is demonstrated over a fixed battery, not proven for every dataset; percentiles are exact over the given data, not a streaming estimate.",
+      "bundle_id": "f48c4727aa615f9ab0872f704a87685404ba7033bcaaf5531900067390e62e93",
+      "metrics": {
+        "n_datasets": 6,
+        "checks": 605,
+        "checks_matched": 605,
+        "mismatches": 0,
+        "nearest_rank_correct": 5
+      }
+    },
+    {
+      "id": "CLAIM-LIB-APDEX-001",
+      "name": "apdex",
+      "title": "Apdex application performance index",
+      "area": "Observability / Service Level Indicators",
+      "lang": "python",
+      "evidence_level": "measured",
+      "bind_field": "correct",
+      "bound_value": 5,
+      "statement": "The vendored Apdex calculator reproduces a fixed 5-case hand-computed reference battery exactly (correct = 5, errors = 0), including the all-satisfied (1.0) and all-frustrated (0.0) extremes and the zone boundaries (a sample exactly at T is satisfied, exactly at 4T is tolerating), and it classifies all 4 zone-boundary probes correctly -- computing Apdex_T = (satisfied + tolerating/2) / total with satisfied <= T, tolerating in (T, 4T], frustrated > 4T.",
+      "caveat": "Correctness is demonstrated over a fixed hand-computed battery, not proven for every input; the score is rounded to 4 decimal places. The threshold model is the standard single-T Apdex (tolerating boundary fixed at 4T); it does not model per-endpoint thresholds or weighted samples, and it fails closed on an empty sample set or non-positive T.",
+      "bundle_id": "1fd8347d9a83de1b0f556e7ba5455823c4f111d139ad211bd55849b3cce9c298",
+      "metrics": {
+        "n_cases": 5,
+        "correct": 5,
+        "errors": 0,
+        "zone_correct": 4
       }
     },
     {
@@ -259,7 +338,7 @@
       "bound_value": 12,
       "statement": "The vendored Luhn (mod-10) implementation classifies every number in a fixed table of 12 independently-known cases correctly \u2014 8 known-valid (the Wikipedia example, published Visa/Mastercard/Amex/Discover/Diners test cards, and a trivial single-zero) and 4 known-invalid (off-by-one and non-Luhn sequences) \u2014 with 0 errors, and its check_digit() reproduces the trailing check digit of each valid reference number.",
       "caveat": "Correctness is demonstrated over a fixed reference table of published test numbers, not proven for all inputs. Luhn is a check-digit scheme that catches all single-digit errors and most adjacent transpositions; it is a data-entry checksum, NOT a cryptographic integrity or authenticity guarantee, and validity does not imply a number is real or issued.",
-      "bundle_id": "be68e905d001731d5e2427751841dd6e15e05fe0e448c459fb2b48d9e770778b",
+      "bundle_id": "10c8cee9e101b8c257c78411d571c044bc4a3e6862605bce13dd34be0d24ccd5",
       "metrics": {
         "n_cases": 12,
         "correct": 12,
@@ -277,7 +356,7 @@
       "bound_value": 9,
       "statement": "The pure async state machine behind the useAsync React hook produces the correct next-state on every one of a fixed 9-row transition table with independently hand-written expected states (correct = n_cases = 9, errors = 0): start -> pending always clears error and preserves prior data (stale-while-revalidate), resolve -> success sets data and clears error, and reject -> error sets error and preserves prior data, across idle/pending/success/error origins including falsy (0) resolve data.",
       "caveat": "The claim covers the framework-agnostic core reducer (async.logic.ts) run under node, NOT React runtime rendering: the vendored useAsync.tsx is a thin, reviewed binding (useReducer + a run callback that dispatches start then resolve/reject) shipped but not executed in the evidence. Correctness is demonstrated over a fixed transition table, not proven for all state/action combinations; the reducer is total (unknown actions leave state unchanged) but the battery does not enumerate every path.",
-      "bundle_id": "0bc3ed131a6d46a77c5126af5abd556ffae166a478acc087c1ef2b224720666a",
+      "bundle_id": "8f8060719f9501d9a535b4c9a5cab60035fcb256fbf7ba7a6d909f15a9b0defd",
       "metrics": {
         "n_cases": 9,
         "correct": 9,
@@ -295,7 +374,7 @@
       "bound_value": 9,
       "statement": "The pure trailing-debounce core behind the useDebouncedValue React hook reproduces the hand-computed emissions on every one of a fixed 9-case reference battery of event traces (correct = n_cases = 9, errors = 0): rapid bursts collapse to their last value, events spaced at least delayMs apart each emit at eventTime + delayMs, a gap exactly equal to delayMs counts as fired, and a gap one below is coalesced. Expected emissions are derived by hand from the trailing-debounce definition, independent of the module.",
       "caveat": "The claim covers the framework-agnostic core (debounce.logic.ts) run under node, NOT React runtime rendering or real timers: the vendored useDebouncedValue.tsx is a thin, reviewed setTimeout binding over the same model, shipped but not executed in the evidence. The simulator assumes a chronologically sorted event trace and models a boundary gap of exactly delayMs as fired (>=); correctness is demonstrated over a fixed battery, not proven for all traces.",
-      "bundle_id": "b72da9ed65446543766b7c085b1167c551f925d12d7dc551c540e399fda5865a",
+      "bundle_id": "4a607783a8771e932e004d9b8405a755eb7fb474b1ed70245afd45665be1825a",
       "metrics": {
         "n_cases": 9,
         "correct": 9,
@@ -313,7 +392,7 @@
       "bound_value": 8,
       "statement": "The pure pagination core behind the usePagination React hook computes the correct page window (page clamp, slice indices, item count, prev/next flags) on every one of a fixed reference battery with independently hand-written expected windows (correct = n_cases, errors = 0), and fails closed on all 4 invalid-sizing inputs.",
       "caveat": "The claim covers the framework-agnostic core (pagination.logic.ts) run under node, NOT React runtime rendering: the vendored usePagination.tsx is a thin, reviewed binding over that core (useState + useMemo) and is shipped but not rendered in the evidence. Correctness is over a fixed battery, not proven for all inputs.",
-      "bundle_id": "bdde53046473e9600a235c2e1749352e99c5bdd8588a42503c013740f03f661b",
+      "bundle_id": "44f7c6ca2b4e90c8dddb16d751668a5f98b0a3afc8e8545775c11bc12c89b501",
       "metrics": {
         "n_cases": 8,
         "correct": 8,
@@ -332,7 +411,7 @@
       "bound_value": 11,
       "statement": "The pure stepper core behind the useStepper React hook computes the correct multi-step navigation state (index clamped to [0, stepCount-1], isFirst/isLast flags, progress = index/(stepCount-1) rounded to 4 dp or 0 for a single step, and clamped next/prev targets) on every one of a fixed 11-case reference battery with independently hand-computed expected states (correct = n_cases = 11, errors = 0).",
       "caveat": "The claim covers the framework-agnostic core (stepper.logic.ts) run under node, NOT React runtime rendering: the vendored useStepper.tsx is a thin, reviewed binding over that core (useState + useMemo) and is shipped but not rendered in the evidence. Correctness is demonstrated over a fixed battery, not proven for all inputs; the core fails closed (RangeError) on a non-positive or non-integer stepCount.",
-      "bundle_id": "101c7c14a8306a6f04713a11e02a39e9e4cbeae16596ed7c5b54e4b13356546e",
+      "bundle_id": "c44b9c30aa649e219256b03799175e21031073a2e9da2c7fc35bca396f077a2f",
       "metrics": {
         "n_cases": 11,
         "correct": 11,
@@ -350,7 +429,7 @@
       "bound_value": 12,
       "statement": "The pure undo/redo core behind the useUndoRedo React hook (a {past, present, future} history with push/undo/redo/canUndo/canRedo) produces the correct present value and canUndo/canRedo flags after every step of a fixed 12-action reference sequence with independently hand-computed expected snapshots (correct = n_cases = 12, errors = 0), including redo-stack clearing on a new set(), and undo-at-base / redo-at-tip fail-closed no-ops.",
       "caveat": "The claim covers the framework-agnostic core (undoredo.logic.ts) run under node, NOT React runtime rendering: the vendored useUndoRedo.tsx is a thin, reviewed useReducer binding over that core and is shipped but not rendered in the evidence. Correctness is demonstrated over one fixed action sequence, not proven for all histories or value types.",
-      "bundle_id": "9a3e9c863cdb6aee8a4c99aae7b84da68cfcdeca361dfcdcf0246246ee864b41",
+      "bundle_id": "0ac92a941680945ffba058b7333213fe846eac6d2d72f2b9edf4918085376fdd",
       "metrics": {
         "n_cases": 12,
         "correct": 12,
@@ -368,7 +447,7 @@
       "bound_value": 16,
       "statement": "The vendored full-jitter backoff computes each delay as a hash-seeded draw from [0, min(cap, base*2**attempt)]: over a fixed 16-attempt reference schedule (attempts 0..15, base=1.0, cap=60.0, seed=1337) all 16 delays land inside their independently-computed [0, ceiling] window (within_bounds=16, out_of_bounds=0), and a seeded replay reproduces the schedule byte-for-byte (deterministic=1).",
       "caveat": "Bounds and reproducibility are demonstrated over one fixed schedule (fixed base/cap/seed, attempts 0..15), not proven for every parameter combination. The jitter is a deterministic SHA-256 spreading function, not a cryptographically unpredictable PRNG, and delays are rounded to 6 decimals for byte-stable serialization.",
-      "bundle_id": "ecca6c7a3191865473b9fb4d1bbe9816a38b24b78ca3cf28a2167fd3cf91d7d0",
+      "bundle_id": "ad5a63cade30daf06d551e91635a34ba29aa8bc7e65076cf613eccd912a90e99",
       "metrics": {
         "n_attempts": 16,
         "within_bounds": 16,
@@ -387,7 +466,7 @@
       "bound_value": 0,
       "statement": "The vendored token-bucket rate limiter enforces its capacity invariant with 0 capacity_violations across a fixed 8-event chronological trace: the number of available tokens is clamped to capacity on every refill, so even a long idle gap (t=10s, which would otherwise bank 8 tokens) never grants more than a full bucket's burst (measured allowed=6, denied=2).",
       "caveat": "The invariant is demonstrated over one fixed trace (capacity=3, refill=1/s, unit cost) plus unit tests, not proven for every capacity/rate/cost combination; the limiter is time-injected (the caller supplies monotonic timestamps) and uses IEEE-754 floats, so it does not measure wall-clock time itself and is subject to normal floating-point rounding.",
-      "bundle_id": "dcd3b74c8bdceca1134caee18117d05146e7614909fc536ea043e9e3e61b932c",
+      "bundle_id": "e40d1828a0a3f29642ea81a9a973f152df716201209c0695609324b89e237fea",
       "metrics": {
         "n_events": 8,
         "allowed": 6,
@@ -406,7 +485,7 @@
       "bound_value": 9,
       "statement": "The vendored SLO / error-budget calculator reproduces the textbook SRE availability, error-budget, and budget-remaining formulas exactly on every one of a fixed 9-row hand-computed reference battery (correct = 9, errors = 0), including budget-exhaustion, overspend (negative remaining), zero-downtime, and 4-dp rounding edge cases.",
       "caveat": "Correctness is demonstrated over a fixed hand-computed reference table (9 rows), not proven for every possible input. It is pure time-window arithmetic on a single SLO window: it does not model burn-rate alerting, multi-window/multi-burn-rate policies, request-ratio (event-based) SLOs, or rolling windows. Availability and remaining% are rounded to 4 dp and the budget to 6 dp for byte-stable artifacts.",
-      "bundle_id": "5c00d7ded0de26cfb91ffaa956b1852de7530bbeb51ad3a5fcf99c64f2a3775f",
+      "bundle_id": "5137075fb45ec35aa8dfa722504b48adcc2acb9a7f2b7b7c26af9b90dbbd5beb",
       "metrics": {
         "n_cases": 9,
         "correct": 9,
@@ -424,7 +503,7 @@
       "bound_value": 10,
       "statement": "The vendored HOTP generator reproduces every published RFC 4226 Appendix D test vector exactly (correct = 10, errors = 0): for the reference secret b\"12345678901234567890\" the 6-digit HOTP for counters 0..9 is 755224, 287082, 359152, 969429, 338314, 254676, 287922, 162583, 399871, 520489, computed via HMAC-SHA1 of the counter and the RFC 4226 dynamic-truncation to a 31-bit value reduced modulo 10**digits.",
       "caveat": "Correctness is demonstrated over the published RFC 4226 vectors, not proven for every secret/counter. HOTP is event-based (the caller owns the moving counter and its resynchronization window); it authenticates possession of the shared secret, so the secret must be provisioned and stored securely, and SHA-1 here is the HMAC PRF as the RFC mandates (not a security weakness in this HOTP context).",
-      "bundle_id": "94c21c97c05b593e1262561c26b3de5388c3fe66637f286a191c8f0e8ef8e253",
+      "bundle_id": "334da856196f673b806e1f00666675780d21d3d3c4ba05671d7211b504088237",
       "metrics": {
         "n_cases": 10,
         "correct": 10,
@@ -442,7 +521,7 @@
       "bound_value": 6,
       "statement": "The vendored TOTP generator reproduces every published RFC 6238 Appendix B (SHA-1) test vector exactly (correct = 6, errors = 0): for the reference secret b\"12345678901234567890\" with 8 digits and a 30-second step, the TOTP at Unix times 59, 1111111109, 1111111111, 1234567890, 2000000000 and 20000000000 is 94287082, 07081804, 14050471, 89005924, 69279037 and 65353130, derived as HOTP over the time counter floor((now - T0) / step).",
       "caveat": "Correctness is demonstrated over the published RFC 6238 SHA-1 vectors, not proven for every input; the SHA-256/SHA-512 modes are implemented but each is validated here only via SHA-1 (RFC 6238 uses different per-algorithm seeds). Verification (accepting a code within a +/- step window for clock skew, and rejecting reuse) is the caller's responsibility, and the shared secret must be stored securely.",
-      "bundle_id": "7df1d42367e6408b443d1fd27bb6a22f1750e2becd8f0b43ce0d927beceead5e",
+      "bundle_id": "08adee0a9b8642efe6635898ede24384c0ceeaaf7275bce6561ff9fe1d1c7817",
       "metrics": {
         "n_cases": 6,
         "correct": 6,
@@ -460,7 +539,7 @@
       "bound_value": 398,
       "statement": "The vendored SHA-256 -- which implements the FIPS 180-4 padding, 64-word message schedule and 64-round compression DIRECTLY on 32-bit integers and never imports hashlib -- reproduces every value in a fixed 398-vector reference set with 0 mismatches: the 3 published FIPS check values (sha256(b\"\") == e3b0c442...b855, sha256(b\"abc\") == ba7816bf...15ad, and the 448-bit example) plus 395 byte strings (block-boundary lengths 55/56/64/65, a long input, every single byte 0..255, and incremental lengths across blocks) that agree byte-for-byte with the independent stdlib hashlib.sha256.",
       "caveat": "hashlib.sha256 is the independent oracle and is NOT used inside the vendored module. Correctness is demonstrated over a fixed reference set, not proven for every input. SHA-256 is a cryptographic hash for integrity and commitment, NOT a password hash -- use PBKDF2/scrypt/argon2 for passwords -- and a bare hash is not a MAC (use HMAC for authentication). This is a clear, from-scratch reference implementation, not a side-channel-hardened or performance-tuned one.",
-      "bundle_id": "27a2a4ba2df1beeef86c243ec0eccd2b5ef7bae67c0ee365082a8ac76d6d5575",
+      "bundle_id": "1ff8a03f88b7526425df0ef1fb774c343d3900a512bcebb9028d7d5db427d3c1",
       "metrics": {
         "reference_vectors": 398,
         "reference_vectors_matched": 398,
@@ -479,7 +558,7 @@
       "bound_value": 9,
       "statement": "The vendored SHA-256 binary Merkle tree produces inclusion proofs that all verify against the committed root (proofs_verified = n_leaves) over a fixed 9-leaf battery, and rejects every single-leaf tamper (tampered_rejected = 9) with false_accepts = 0; the built root is additionally cross-checked byte-for-byte against an independent from-scratch reference computation.",
       "caveat": "Demonstrated over one fixed 9-leaf battery (which does exercise the odd-level duplicate-last-node rule at three levels), not proven for all tree shapes or inputs. The hashing scheme intentionally omits RFC 6962 leaf/node domain-separation tags, so roots are not second-preimage resistant across trees of differing leaf counts; tampering evidence covers leaf-content mutation, not adversarial proof forgery.",
-      "bundle_id": "0aa499228e0c1e0ea672a6cfc7d94d1c6a97477fcff64aabb60fbd5dca451b23",
+      "bundle_id": "28e85aeaf6040257c44a0e21bc577cd59a22028facb6b06a3a3712fd332e37a6",
       "metrics": {
         "n_leaves": 9,
         "proofs_verified": 9,
@@ -498,7 +577,7 @@
       "bound_value": 192,
       "statement": "The vendored append-only hash chain (record hash = sha256(prev || entry)) detects every single-entry mutation over a fixed 64-entry battery: all 192 mutations tested (64 entries x 3 deterministic kinds -- full replace, byte prepend, first-byte bitflip) are caught, with tamper_missed = 0. The untampered chain verifies True, and correctness is cross-checked against an independent raw-hashlib oracle.",
       "caveat": "Detection is demonstrated over a fixed reference battery of single-entry mutations, not proven for every possible input. It is tamper-EVIDENT, not tamper-PROOF: an adversary who can rewrite the stored chain of head digests alongside the entries can forge a consistent history, so authenticate the head (HMAC or a signature) for adversarial settings. Security also rests on SHA-256 collision resistance.",
-      "bundle_id": "4b7de4d75ccfe770b16a0e15a94e21542d861410cf52ec37b77a2c858d9ee5fe",
+      "bundle_id": "d9e1be5d997882dcc3636dc10a725e0105f733f5296f9e83a0a9eae23cb65f19",
       "metrics": {
         "n_entries": 64,
         "tamper_mutations_tested": 192,
@@ -517,7 +596,7 @@
       "bound_value": 6,
       "statement": "The vendored RBAC auditor detects every seeded over-privilege and separation-of-duties finding in a fixed 13-identity access matrix: all 6 excess grants (detected_excess == seeded_excess == 6) and all 3 toxic-pair violations (detected_sod == seeded_sod == 3), with 0 false positives \u2014 no hand-verified clean identity is ever flagged.",
       "caveat": "Recall and the zero-false-positive property are measured over one fixed, hand-seeded reference matrix, not proven for arbitrary inputs. The checker compares held permissions against a supplied least-privilege baseline and explicit SoD pairs; it does not infer baselines, expand role hierarchies/inheritance, or model attribute- or time-based conditions, and its correctness is only as good as the role_needs and sod_pairs it is given.",
-      "bundle_id": "66fa8d597135b9edcf920b8d5f3b8ee6d9316ff772617d08e01df7e9056657ca",
+      "bundle_id": "046cac3e768c989601b7a472a5372a291b478de43c3f7b5b5903fd052c0688b4",
       "metrics": {
         "n_identities": 13,
         "seeded_excess": 6,
@@ -538,7 +617,7 @@
       "bound_value": 9,
       "statement": "The vendored HKDF (extract-then-expand) reproduces the published RFC 5869 SHA-256 test vectors exactly (reference_vectors_matched = 9, mismatches = 0): across Test Case 1 (basic), Test Case 2 (longer inputs, L=82), and Test Case 3 (zero-length salt and info) it matches the RFC's PRK and OKM hex, and the standalone expand(PRK) step reproduces each OKM -- all three checks per case, hand-written verbatim from the RFC.",
       "caveat": "The RFC 5869 published vectors are the independent oracle. Correctness is demonstrated over those fixed vectors (SHA-256), not proven for every input. HKDF derives keys from an already-high-entropy secret (a Diffie-Hellman shared secret, a master key); it is NOT a password hash -- run a low-entropy password through PBKDF2/scrypt/argon2 first. Bind context into the info parameter for domain separation between derived keys.",
-      "bundle_id": "e6730e16c93e9667684c7e6845579eb4f17aa2557d8669878482e7b407781869",
+      "bundle_id": "a42d6b36b73c2792df6d8c9310911b85bb906f8be83c83eb2e02d9a94a56d3a1",
       "metrics": {
         "n_vectors": 3,
         "checks": 9,
@@ -557,7 +636,7 @@
       "bound_value": 13,
       "statement": "The vendored HMAC-SHA256 -- which implements the RFC 2104 construction DIRECTLY (key normalization, ipad/opad, two-pass hash) over hashlib.sha256 and never calls the stdlib hmac module -- passes all 13 checks with 0 mismatches: it agrees byte-for-byte with stdlib hmac on all 10 battery inputs (the RFC 4231 HMAC-SHA256 test key/message pairs, including the oversized 131-byte key that must be hashed down, plus empty and block-sized keys), reproduces the published RFC 4231 Test Case 2 tag (5bdcc146...3843), and its constant-time verify accepts the correct tag and rejects a single flipped bit.",
       "caveat": "The stdlib hmac module is the independent oracle for the HMAC construction; the underlying compression is hashlib.sha256 (so this proves the HMAC wrapper, not SHA-256 itself -- see the sha256 module for that). Correctness is over a fixed battery, not proven for every input. verify is constant-time in the tag comparison, but this is a clear reference implementation, not a fully side-channel-hardened one.",
-      "bundle_id": "759b8d8a370a17baef8c95f17f81ab1bae7f6b179b16d127907467525a0de579",
+      "bundle_id": "bbab36c3a4224ca672257f197c535629b8f4d542f147d0d1c85da5b216dc36f4",
       "metrics": {
         "reference_vectors": 13,
         "reference_vectors_matched": 13,
@@ -576,7 +655,7 @@
       "bound_value": 11,
       "statement": "The vendored PBKDF2 -- which implements the RFC 8018 block function T_i = U_1 XOR ... XOR U_c DIRECTLY over an HMAC PRF and never calls hashlib.pbkdf2_hmac -- reproduces every value in an 11-vector reference set with 0 mismatches: the 3 published RFC 6070 PBKDF2-HMAC-SHA1 vectors (('password','salt',1,20) -> 0c60c80f...37a6, (...,2,20) -> ea6c014d...8957, (...,4096,20) -> 4b007901...29c1) plus 8 (hash, password, salt, iterations, dklen) cases over SHA-1/256/512 (multi-block output, empty password, empty salt) that agree byte-for-byte with the independent stdlib hashlib.pbkdf2_hmac.",
       "caveat": "hashlib.pbkdf2_hmac is the independent oracle and is NOT called inside the vendored module. Correctness is over a fixed reference set, not proven for every input. PBKDF2 is a deliberately slow password KDF; choose a high iteration count (>= hundreds of thousands for SHA-256 today) and a unique random salt per password. This pure-Python implementation is far slower than the C stdlib one and is not constant-time; for production password storage prefer scrypt or argon2.",
-      "bundle_id": "73dd04b3dcb4119ff09b9f7143718fdfd05629028e02817c40c593b7661c109a",
+      "bundle_id": "ea31b91b7879de18d8e3d33fefac1504a8cfca4f05766500197cb15db600e216",
       "metrics": {
         "reference_vectors": 11,
         "reference_vectors_matched": 11,
@@ -595,7 +674,7 @@
       "bound_value": 9,
       "statement": "The vendored CVSS v3.1 base-score scorer reproduces all published reference base scores in a fixed set exactly, with 0 mismatches \u2014 including scope change and the v3.1 Roundup rule.",
       "caveat": "Base metric group only (no temporal or environmental modifiers). Correctness is demonstrated over a fixed published-reference vector set, not proven for every possible vector.",
-      "bundle_id": "4d5c9b0d1628af9562e7ef716d0043ad193a61866a41cc6f9412d5bf2bd6b5b4",
+      "bundle_id": "4c4161a36067ed06808637a37866b67f77709c469bcf8d5af5aa9935f4aa2986",
       "metrics": {
         "reference_vectors_matched": 9,
         "reference_vectors": 9,
@@ -613,7 +692,7 @@
       "bound_value": 46,
       "statement": "The vendored SemVer 2.0.0 library reproduces every required answer over a fixed 46-row reference battery (18 precedence comparisons drawn verbatim from the spec's golden ordering chain plus core/build/numeric-vs-alnum rules, and 28 satisfies rows over exact/>=/</caret/tilde ranges): correct = 46 with 0 errors. parse rejects malformed input and leading zeros; compare honors pre-release < release, numeric-below-alphanumeric, and larger-identifier-set precedence; build metadata is ignored for ordering.",
       "caveat": "Range grammar is deliberately modest: only exact 'x.y.z', '>=x.y.z', '<x.y.z', caret '^x.y.z', and tilde '~x.y.z' (no OR/hyphen/x-ranges, no '<=', '>', '!='). Ranges are evaluated purely by SemVer 2.0.0 precedence against derived bounds, so a pre-release is included or excluded strictly by section 11 precedence (e.g. 2.0.0-alpha counts as < 2.0.0) rather than npm's extra same-tuple pre-release exclusion heuristic. Correctness is demonstrated over a fixed reference battery, not proven for every possible input.",
-      "bundle_id": "1b888b62cc6ee3afcef8c86d9d273f4c216db8a2f20bbf3cfdf4d21410c6a145",
+      "bundle_id": "81b5c7f8762d4835cb9ca3bd2ddbe3c7b0142ab5cf96f45fee30ab73358bd2ef",
       "metrics": {
         "n_cases": 46,
         "correct": 46,
@@ -631,7 +710,7 @@
       "bound_value": 17,
       "statement": "The vendored BGP AS-path library classifies every one of a fixed 17-ASN battery correctly against the published RFC allocations (correct = 17, errors = 0), pinning both sides of every boundary: private 64512-65534 and 4200000000-4294967294 (RFC 6996), reserved 0 (RFC 7607), 23456 AS_TRANS (RFC 6793), 65535 and 4294967295 last-ASN (RFC 7300), and documentation 64496-64511 and 65536-65551 (RFC 5398); and it parses an AS_SEQUENCE, measures its length, extracts the origin AS, and strips private ASNs.",
       "caveat": "Classification follows the RFC/IANA ranges over a fixed battery, not proven for every value; the ranges themselves can be updated by future IANA action. strip_private is a simple filter (removes every private ASN), not Cisco's positional remove-private-as semantics, and parse handles an AS_SEQUENCE (space-separated ASNs), not AS_SET/confederation segment notation.",
-      "bundle_id": "7829e3aad06c9fd4a770fd4f97254e860e27061876df7f86b2b08af466e6fe84",
+      "bundle_id": "79f045fa0c3d075745959ff7f1a565a18185671406becde6fa49bc31b8a53956",
       "metrics": {
         "n_cases": 17,
         "correct": 17,
@@ -649,7 +728,7 @@
       "bound_value": 261,
       "statement": "The vendored IMEI validator accepts the published GSMA / Wikipedia example IMEI 490154203237518 and reconstructs its check digit (check_digit(\"49015420323751\") == 8), and its is_valid verdict agrees with an INDEPENDENT from-scratch Luhn implementation on every one of a fixed 261-vector battery (the published IMEI, corrupted and wrong-length variants, and 256 deterministic pseudo-random 15-digit strings): reference_vectors_matched = 261, mismatches = 0.",
       "caveat": "Validation is the 15-digit length plus the Luhn (mod-10) check digit over the first 14 digits; it does NOT verify that the Type Allocation Code is really assigned by the GSMA or that the device exists, and it does not handle the 16-digit IMEISV. Luhn catches all single-digit errors and most adjacent transpositions but is a data-entry checksum, not proof a number is genuine. Correctness is demonstrated over a fixed battery, not proven for every input.",
-      "bundle_id": "0d0b0d105a40d7eaa441ae5aec237bd7fd77d8ef35f678adb060f2b98d1c58e5",
+      "bundle_id": "a361cd4588a2517a8db2b58579e646c10e74989a5153f61bd756b675df8bd4c2",
       "metrics": {
         "reference_vectors": 261,
         "reference_vectors_matched": 261,
@@ -667,7 +746,7 @@
       "bound_value": 128,
       "statement": "The vendored Hamming(7,4) coder corrects EVERY single-bit error, verified exhaustively: over the complete space of 16 data values x 8 error patterns (no error plus a flip at each of the 7 positions) = 128 trials, decoding always recovers the original 4 bits and reports the exact flipped position (corrected = 128, miscorrected = 0, error_position_correct = 128), and the 16 codewords have minimum Hamming distance 3.",
       "caveat": "The exhaustive proof covers SINGLE-bit errors only. Hamming(7,4) has minimum distance 3, so it corrects any one-bit error but a two-bit error is mis-corrected to the wrong nibble (it lacks the distance-4 SECDED extension that would merely DETECT double errors). The code carries 4 data bits per 7-bit codeword; framing multi-byte data across codewords is the caller's responsibility.",
-      "bundle_id": "d1599d802af2855f7a29422edd7123674e7ccdc70769c1643ba9da4c0e17f444",
+      "bundle_id": "3e1a0327de6f81d937deebad949b06dd86355946e6533f91304203861e52bca3",
       "metrics": {
         "trials": 128,
         "corrected": 128,
@@ -687,7 +766,7 @@
       "bound_value": 140,
       "statement": "The vendored IPv4 CIDR calculator -- which implements the 32-bit subnet arithmetic DIRECTLY and never imports ipaddress -- agrees with Python's stdlib ipaddress on every one of 140 checks across a fixed 12-network battery (checks_matched = 140, mismatches = 0): network and broadcast address, netmask, total address count, usable host count, and first/last usable host per network, plus a full hosts() enumeration count for narrow prefixes and a membership sweep (network, broadcast, and the addresses just outside), including the RFC 3021 /31 point-to-point and single-host /32 cases.",
       "caveat": "ipaddress is the independent oracle and is NOT used inside the vendored module. Correctness is demonstrated over a fixed battery of networks, not proven for every possible input. IPv4 only; parsing rejects leading-zero octets (no octal ambiguity). 'Usable hosts' follows the common convention (block size minus network+broadcast for /0../30, 2 for a /31, 1 for a /32).",
-      "bundle_id": "16090811c1e733efa5f05a0a5b4121bf60f81109adb7cef8889c1c1a31042153",
+      "bundle_id": "0ed0b6f254d9b125be950af2366afd60e972e9093fd62154be3547b029c22d90",
       "metrics": {
         "n_networks": 12,
         "checks": 140,
@@ -706,7 +785,7 @@
       "bound_value": 38,
       "statement": "The vendored IPv6 parser / RFC 5952 compressor -- implemented DIRECTLY and never importing ipaddress -- agrees with Python's stdlib ipaddress on all 38 checks across a fixed battery of 12 addresses and 7 CIDRs (checks_matched = 38, mismatches = 0): compress(parse(s)) equals .compressed and explode(parse(s)) equals .exploded for each address, and the compressed network address plus total address count match for each CIDR, exercising the RFC 5952 edges (leftmost-longest zero run wins, a single zero group is never shortened to '::').",
       "caveat": "ipaddress is the independent oracle and is NOT used inside the vendored module. Dotted-quad IPv4-embedded IPv6 (e.g. ::ffff:192.0.2.1) is out of scope and rejected. Correctness is demonstrated over a fixed battery, not proven for every possible address.",
-      "bundle_id": "9ec9ae00764df535516eff011f7736677986dd4522dda3720f3099c52ad7c6ca",
+      "bundle_id": "1c18ad6d29ee8b5c3ea8644cb0e632e31ee109d7b93ddefb669b9f5248f78f14",
       "metrics": {
         "n_addresses": 12,
         "n_cidrs": 7,
@@ -726,7 +805,7 @@
       "bound_value": 7,
       "statement": "The vendored MAC / EUI-48 library decodes the IEEE 802 flag bits correctly on every one of a fixed 7-address battery (correct = 7, errors = 0): the I/G multicast bit and U/L locally-administered bit of the first octet, plus broadcast detection -- checked against hand-written expected flags for well-known MACs (01:00:5e:.. and 33:33:.. multicast, ff:ff:ff:ff:ff:ff broadcast, 02:.. and 52:54:00:.. locally administered, ordinary vendor-OUI unicast). Independently, the colon, hyphen, Cisco-dotted, and bare-hex spellings of one address all parse to the same 48-bit integer.",
       "caveat": "Flag semantics follow the IEEE 802 first-octet bit definitions, demonstrated over a fixed battery rather than proven for every address. The module normalises and decodes; it does NOT look up the OUI's registered vendor (no IEEE registry is bundled) and covers EUI-48 (not EUI-64).",
-      "bundle_id": "cec0e4569e2ce49c01856e3dc318e5226bc3dea74b9711d0423fc1a5a89c7de9",
+      "bundle_id": "8b14f49ee3efde8ec660ea21b4efbda1350213d31778fc82de470c64453b2c43",
       "metrics": {
         "n_cases": 7,
         "correct": 7,
@@ -745,7 +824,7 @@
       "bound_value": 13,
       "statement": "The vendored E.164 validator classifies every entry in a fixed 13-row battery of phone numbers correctly (correct = 13, errors = 0): 8 well-formed international numbers are accepted and 5 malformed ones rejected (missing '+', leading zero after '+', too short, non-digit, and 16 digits exceeding the E.164 maximum), and the country calling code resolves as expected for all 13 rows (country_code_correct = 13) by longest-prefix match, so +358... yields 358 (Finland) rather than a shorter code.",
       "caveat": "This validates E.164 SYNTAX (leading '+', 7..15 digits, no leading zero on the country code) and extracts the calling code from a CURATED subset of published ITU assignments; it is NOT full national-number validation (no libphonenumber-style per-country length / prefix rules), and a number outside the curated code table returns None for the country code. Correctness is demonstrated over a fixed battery, not proven for every number.",
-      "bundle_id": "0ff2259c4376809697ede635aafb99f39ef07872d2ce85d81c764550e818e230",
+      "bundle_id": "192cae548b40109b2b2bf4861a2b6720e350bf2bfccaa44ce4de414a5786be74",
       "metrics": {
         "n_cases": 13,
         "correct": 13,
@@ -764,7 +843,7 @@
       "bound_value": 268,
       "statement": "The vendored RFC 1071 Internet checksum reproduces every value in a fixed 268-vector reference set with 0 mismatches: the published IPv4-header worked example (header 4500 0073 0000 4000 4011 0000 c0a8 0001 c0a8 00c7 checksums to 0xb861), the verify round-trip (inserting 0xb861 makes the full header checksum to 0), and 266 byte strings (empty, odd/even lengths, all-zero / all-0xFF, and every single byte value 0..255) that agree with an independent struct-based implementation computed in the evidence.",
       "caveat": "Correctness is demonstrated over a fixed reference set (one published header value plus an independent-implementation cross-check), not proven for every input. The Internet checksum is an error-DETECTION checksum for accidental corruption, not a cryptographic hash or MAC -- it is linear and trivially forgeable, and (being 16-bit one's complement) it cannot distinguish +0 from -0.",
-      "bundle_id": "2d33eb6176aa88c032e02a7c518ae71332d019a09e5c0705f94c6e4f453beb7e",
+      "bundle_id": "2e6490533dc5554b8b825f897a241606a3aa5e6a063015538c1b99fbd8ee417c",
       "metrics": {
         "reference_vectors": 268,
         "reference_vectors_matched": 268,
@@ -783,7 +862,7 @@
       "bound_value": 9,
       "statement": "The vendored 802.1Q VLAN library classifies VLAN-ID validity correctly on every one of a fixed 9-case battery (correct = 9, errors = 0), pinning the reservations (0 priority-tagged and 4095 reserved are invalid; 1..4094 valid); and over 6 range strings it parses the compact 'a,b-c' notation to the expected sorted, de-duplicated list and reformats it to the canonical range text (range_parse_correct = 6, range_roundtrip_correct = 6).",
       "caveat": "Validity follows the IEEE 802.1Q assignable range (1..4094); the module does not model 802.1ad QinQ stacking, per-switch reserved-VLAN customisation, or VLAN names. Correctness is demonstrated over a fixed battery, not proven for every input.",
-      "bundle_id": "a3212bd9d41d379628d00be4f3d99c3507810c626b02429e730765efe108bac3",
+      "bundle_id": "2ed2f85be3e6bf33c139170b07334e47e6c60108a5703b593911ab5118346021",
       "metrics": {
         "n_cases": 9,
         "correct": 9,
@@ -803,7 +882,7 @@
       "bound_value": 8,
       "statement": "The vendored TypeScript chunk<T>(arr, size) partitions an array into consecutive fixed-size sub-arrays (final chunk shorter when length is not an exact multiple) and produces the expected partition on every one of a fixed 8-case reference battery whose expected outputs are hand-written independently of the module (correct = n_cases = 8, errors = 0), including the spec examples chunk([1..7],3)->[[1,2,3],[4,5,6],[7]] and chunk([],3)->[]; it also rejects all 4 invalid sizes (0, -1, -5, 1.5) with a RangeError (invalid_inputs_rejected = 4).",
       "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) \u2014 it does not assert the module type-checks under a specific tsc strictness. The guard rejects any size that is not an integer >= 1 (so fractional sizes throw, slightly stronger than the literal 'size < 1' spec); chunks are shallow slices, so nested object elements are shared by reference with the input.",
-      "bundle_id": "b71101da08ee6dac2e119d58ad3b7271db0a252988e2799295c5c81f8061ec64",
+      "bundle_id": "bdc08a654e723671e055be9e040cc2ab99316444e3974493c845ecff2ea51273",
       "metrics": {
         "n_cases": 8,
         "correct": 8,
@@ -822,7 +901,7 @@
       "bound_value": 10,
       "statement": "The vendored TypeScript groupBy(items, key) partitions an array into a Record<string, T[]> and produces the expected record on every one of a fixed 10-case reference battery whose expected records are hand-written independently of the module (correct = 10, errors = 0): buckets appear in first-seen key order and items keep their original input order within each bucket, covering parity/first-letter/object-field grouping, empty and singleton inputs, numeric-key coercion, and a data-driven \"__proto__\" key that becomes an ordinary own bucket with no prototype pollution.",
       "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) rather than asserting the module type-checks under a specific tsc strictness. The comparison is by JSON.stringify, so it pins insertion/serialization order but treats key values as strings (numeric keys are coerced to strings and integer-like keys follow JS's own numeric-first property ordering); the key function must return a string.",
-      "bundle_id": "a884e7c5c36ffcb04e670b358a06cd24071b99a77ea8606aa6870e6e1f3684b3",
+      "bundle_id": "a71dfdf6629f8abb4d3e79fa37040b79b99c938464b11c56716ce24a6ea4fd6e",
       "metrics": {
         "n_cases": 10,
         "correct": 10,
@@ -840,7 +919,7 @@
       "bound_value": 42,
       "statement": "The vendored TypeScript deepEqual(a, b) structural equality function returns the expected boolean on every one of a fixed 42-row reference battery whose expected values are hand-written independently of the module (correct = n_cases = 42, errors = 0), covering primitives, NaN-equals-NaN, null-distinct-from-undefined, arrays (length + element-wise), plain objects (identical key-set + recursive values, key-order irrelevant, undefined-value-vs-absent-key distinct), Date-by-getTime, and differing-type mismatches.",
       "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) rather than asserting a specific tsc strictness. Cyclic structures are explicitly out of scope (a self-referential input recurses until stack overflow), and the plain-object comparison covers own enumerable string keys only -- not Maps, Sets, RegExps, typed arrays, symbol keys, or prototype/class identity.",
-      "bundle_id": "372831b1f4fa04df3ac99cb56d57f4bb800d0e54b2b7638cc47d4f01ec9c52a4",
+      "bundle_id": "092ea5185c8ab0d840837489e3b7f538c217487f6a548ae5f2a19e5d03b7107c",
       "metrics": {
         "n_cases": 42,
         "correct": 42,
@@ -858,7 +937,7 @@
       "bound_value": 12,
       "statement": "The vendored TypeScript Result<T, E> combinators (ok, err, map, mapErr, andThen, unwrapOr, isOk, isErr, fromThrowing) produce the expected outcome on every one of a fixed reference battery whose expected values are written independently of the module (correct = n_cases, errors = 0), covering ok/err propagation, monadic short-circuiting, and throw capture.",
       "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) \u2014 it does not assert the module type-checks under a specific tsc strictness. Result is a value-level discipline; it does not stop you ignoring an Err you never inspect.",
-      "bundle_id": "094264f6ac34198fa689402137b93ba83d5e6cc4121dd447f6753a4b1270592a",
+      "bundle_id": "31c319d94b8aaa84c9a7974617b2b280f288f0f90a9abf675f524d38acd7996d",
       "metrics": {
         "n_cases": 12,
         "correct": 12,
@@ -876,7 +955,7 @@
       "bound_value": 21,
       "statement": "The vendored TypeScript formatDuration(ms) renders a compact human-readable duration matching a hand-written reference table on every one of a fixed 21-case battery whose expected strings are computed independently of the module (correct = 21, errors = 0): it drops zero-valued units, renders the value 0 as \"0s\", truncates sub-second remainders to whole seconds, composes d/h/m/s (e.g. 90061000ms -> \"1d 1h 1m 1s\"), and throws RangeError on negative and non-finite input.",
       "caveat": "Correctness is demonstrated over a fixed reference battery run with node (runtime behaviour), not proven for all inputs and not asserting the module type-checks under a specific tsc strictness. Output is English single-letter units (d/h/m/s) with no localization, pluralization, weeks/months, or fractional-second display; sub-second precision is truncated (floored), not rounded.",
-      "bundle_id": "fbd90c94326dfe8f2fb5308b0b73098069dc51c9f9ecbd675da36f38f6bb0f72",
+      "bundle_id": "dfba135d6337edce894064057055346c050ace2bcfba7e42b98938e3084d914b",
       "metrics": {
         "n_cases": 21,
         "correct": 21,
@@ -894,7 +973,7 @@
       "bound_value": 14,
       "statement": "The vendored TypeScript cx classnames combiner produces the expected space-separated string on every one of a fixed 14-case reference battery whose expected outputs are hand-written literals independent of the module (correct = n_cases = 14, errors = 0), covering strings, numbers (nonzero kept, 0/NaN dropped), recursively flattened arrays, { className: boolean } objects (truthy keys only), skipped falsy inputs, preserved document order, and preserved duplicates.",
       "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) rather than asserting the module type-checks under a specific tsc strictness. De-duplication is intentionally NOT performed and document order is preserved, so repeated tokens appear multiple times; the caller is responsible for any dedupe. Objects are iterated in Object.keys order; symbol keys and non-string/number/array/object token types contribute nothing.",
-      "bundle_id": "9b5aa3876cbbb06b97ad57938c78a014f21bcd117ed0bd2d495b4b43b1a728d6",
+      "bundle_id": "3729fa4056a55e403c7623d308590dcb6fb5dd3cff301de7682c0606d405d743",
       "metrics": {
         "n_cases": 14,
         "correct": 14,
@@ -912,7 +991,7 @@
       "bound_value": 32,
       "statement": "The vendored TypeScript parseQuery / stringifyQuery pair produces the expected result on every one of a fixed 32-case reference battery whose expected values are written independently of the module (correct = 32, errors = 0): hand-written parse/stringify expectations (repeated keys -> ordered arrays such as parseQuery(\"?a=1&b=2&a=3\") -> {a:[\"1\",\"3\"], b:\"2\"}, leading \"?\" handling, URI-decoding, empty-pair skipping, extra-\"=\" handling), stringify's stable sorted key order and form-style encoding, round-trip stability, and a per-key cross-check of decoding against the built-in URLSearchParams.getAll (an independent reference).",
       "caveat": "Correctness is demonstrated over a fixed reference battery run under node, not proven for all inputs, and the evidence checks runtime behaviour rather than asserting the module type-checks under a specific tsc strictness. The serializer emits keys in sorted order (not insertion order) and uses application/x-www-form-urlencoded style ('+' for space), so a stringify->parse round-trip preserves values but may reorder keys and normalizes '+'/%20; it is not a byte-exact inverse of every arbitrary query string.",
-      "bundle_id": "9b5daf692607326f24854703c9bcdf66ca877b37563d7ff2ca248940ea468583",
+      "bundle_id": "9849eeb588b23ce6a208ff87d90ba05343e52e7ecf50225ba1bb70da5ebd424c",
       "metrics": {
         "n_cases": 32,
         "correct": 32,

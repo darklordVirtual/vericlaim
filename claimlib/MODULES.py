@@ -1077,5 +1077,96 @@ MODULES = [
         "statement": "The vendored HKDF (extract-then-expand) reproduces the published RFC 5869 SHA-256 test vectors exactly (reference_vectors_matched = 9, mismatches = 0): across Test Case 1 (basic), Test Case 2 (longer inputs, L=82), and Test Case 3 (zero-length salt and info) it matches the RFC's PRK and OKM hex, and the standalone expand(PRK) step reproduces each OKM -- all three checks per case, hand-written verbatim from the RFC.",
         "caveat": "The RFC 5869 published vectors are the independent oracle. Correctness is demonstrated over those fixed vectors (SHA-256), not proven for every input. HKDF derives keys from an already-high-entropy secret (a Diffie-Hellman shared secret, a master key); it is NOT a password hash -- run a low-entropy password through PBKDF2/scrypt/argon2 first. Bind context into the info parameter for domain separation between derived keys.",
         "knowledge": "HKDF (RFC 5869) is the modern key-derivation function used by TLS 1.3, the Signal protocol, and Noise: 'extract' concentrates the entropy of an input keying material into a uniform pseudorandom key PRK = HMAC(salt, IKM), and 'expand' stretches PRK into any number of independent output keys via a counter-chained HMAC, with an info label for domain separation. This module implements both steps; the claim proves it reproduces the official RFC 5869 vectors (including the 82-byte case), so you inherit a checked KDF rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "percentile",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-PERCENTILE-001",
+        "title": "Percentiles / quantiles (p50 / p95 / p99)",
+        "area": "Observability / Metrics & Statistics",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "percentile.py"
+        ],
+        "artifact": "percentile.json",
+        "register_metrics": [
+            "n_datasets",
+            "checks",
+            "checks_matched",
+            "mismatches",
+            "nearest_rank_correct"
+        ],
+        "bind_field": "checks_matched",
+        "statement": "The vendored percentile calculator agrees with Python's stdlib statistics on every one of 605 checks across a fixed 6-dataset battery (checks_matched = 605, mismatches = 0): the linear method matches statistics.quantiles(data, n=100, method=\"inclusive\") for every percentile p in 1..99 and matches statistics.median at the 50th, and the nearest-rank method matches its hand-computed definition on 5 boundary cases (including p=0, p=100, and interior ranks).",
+        "caveat": "statistics is the independent oracle and is NOT imported by the vendored module. Two methods are provided: linear (the numpy default / statistics 'inclusive' interpolation) and nearest_rank; other conventions (exclusive, lower/higher/midpoint) are out of scope. Correctness is demonstrated over a fixed battery, not proven for every dataset; percentiles are exact over the given data, not a streaming estimate.",
+        "knowledge": "Percentiles are how you actually read a latency distribution: the p50 (median) is the typical experience, while the p95 / p99 tail is where SLOs live and where users feel pain that an average hides. The subtlety is that 'the 95th percentile' has several definitions that disagree on small samples; the common ones are linear interpolation between order statistics and the nearest-rank rule. This module implements both exactly; the claim proves the linear method matches Python's statistics module and the nearest-rank method matches its definition, so you inherit a checked quantile function rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "apdex",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-APDEX-001",
+        "title": "Apdex application performance index",
+        "area": "Observability / Service Level Indicators",
+        "evidence_level": "measured",
+        "code_files": [
+            "apdex.py"
+        ],
+        "artifact": "apdex.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors",
+            "zone_correct"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored Apdex calculator reproduces a fixed 5-case hand-computed reference battery exactly (correct = 5, errors = 0), including the all-satisfied (1.0) and all-frustrated (0.0) extremes and the zone boundaries (a sample exactly at T is satisfied, exactly at 4T is tolerating), and it classifies all 4 zone-boundary probes correctly -- computing Apdex_T = (satisfied + tolerating/2) / total with satisfied <= T, tolerating in (T, 4T], frustrated > 4T.",
+        "caveat": "Correctness is demonstrated over a fixed hand-computed battery, not proven for every input; the score is rounded to 4 decimal places. The threshold model is the standard single-T Apdex (tolerating boundary fixed at 4T); it does not model per-endpoint thresholds or weighted samples, and it fails closed on an empty sample set or non-positive T.",
+        "knowledge": "Apdex (Application Performance Index) turns a pile of response-time samples into one 0..1 satisfaction score against a target time T: requests at or under T are 'satisfied', up to 4T 'tolerating' (counted half), and beyond that 'frustrated'. It is a compact SLI that product and ops teams can track and alert on without staring at a full histogram. This module implements the zoning and scoring exactly; the claim proves it matches the published definition on a hand-computed battery, so you inherit a checked SLI rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "csv_rfc4180",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-CSV-RFC4180-001",
+        "title": "RFC 4180 CSV parse + write",
+        "area": "Data / Serialization",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "csv_rfc4180.py"
+        ],
+        "artifact": "csv_rfc4180.json",
+        "register_metrics": [
+            "checks",
+            "checks_matched",
+            "mismatches",
+            "parse_matched",
+            "roundtrip_matched"
+        ],
+        "bind_field": "checks_matched",
+        "statement": "The vendored RFC 4180 CSV codec -- which parses and writes CSV DIRECTLY and never imports the csv module -- passes all 17 checks with 0 mismatches: parse(text) equals list(csv.reader(text)) on 12 inputs (quoted fields, embedded delimiters, embedded newlines, doubled quotes, empty fields, CRLF and LF records, and a trailing delimiter), and parse(format_rows(rows)) round-trips 5 record sets (including fields that require quoting).",
+        "caveat": "The stdlib csv module is the independent oracle and is NOT imported by the vendored module. Correctness is demonstrated over a fixed battery of RFC-4180-conformant inputs, not proven for every input; the codec models the RFC 4180 core (single-character delimiter and quotechar, doubled-quote escaping, CRLF/LF records) and not dialect extras like comment lines, skipinitialspace, or alternate escape characters.",
+        "knowledge": "CSV looks trivial until a field contains a comma, a newline, or a quote -- then you need RFC 4180's quoting rules (wrap the field in double quotes and double any embedded quote), and a hand-rolled str.split(',') silently corrupts the data. This module implements a proper state-machine parser and a quoting writer with zero dependencies; the claim proves the parser agrees with Python's csv module and the writer round-trips, so you inherit a checked codec rather than a split-on-comma bug waiting to happen."
+    },
+    {
+        "name": "varint",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-VARINT-001",
+        "title": "Varint / LEB128 integer encoding",
+        "area": "Data / Serialization",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "varint.py"
+        ],
+        "artifact": "varint.json",
+        "register_metrics": [
+            "reference_vectors",
+            "reference_vectors_matched",
+            "published_matched",
+            "zigzag_matched",
+            "unsigned_roundtrip_ok"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored varint codec reproduces all 14 published reference vectors (reference_vectors_matched = 14): the 7 LEB128 unsigned vectors (0->00, 1->01, 127->7f, 128->8001, 255->ff01, 300->ac02, 624485->e58e26) and the 7 ZigZag mappings (0->0, -1->1, 1->2, -2->3, 2->4, -64->127, 63->126); and it round-trips losslessly over 76 unsigned values (powers of two up to 2**64-1) and 1004 signed values (-500..499 plus 31/62-bit boundaries).",
+        "caveat": "Correctness is demonstrated over the published vectors plus a wide round-trip range, not proven for every integer. Unsigned values must be non-negative; decoding rejects a truncated varint and one exceeding 64 bits. This is the base-128 LEB128 / protobuf wire encoding, not the SQLite or Git variants.",
+        "knowledge": "A varint stores an integer in as few bytes as its magnitude needs, using seven bits per byte with the top bit as a continuation flag -- so small numbers cost one byte, and the stream is self-delimiting. It is the integer wire format of Protocol Buffers and many binary protocols; ZigZag mapping first folds signed numbers so that -1, 1, -2 encode as small unsigned 1, 2, 3 instead of maximal values. This module implements both; the claim proves it matches the published LEB128 vectors and round-trips, so you inherit a checked codec rather than a re-implementation to re-audit."
     }
 ]
