@@ -1,0 +1,20 @@
+# MAC / EUI-48 parsing + IEEE 802 flags
+
+*Subject area: Telecom / Layer-2 Addressing. Language: python. Vendorable bundle `c63a8ea151bc`.*
+
+A MAC address is written four different ways (aa:bb:.., aa-bb-.., Cisco aabb.ccdd.eeff, bare aabbccddeeff), and the two low bits of its first octet carry meaning: the I/G bit marks multicast vs unicast and the U/L bit marks a locally-administered (e.g. virtualised/randomised) vs globally-unique address. This module parses every notation to one integer and decodes those flags; the claim proves the decoding matches the IEEE rules and the notations agree, so you inherit a checked L2-address helper rather than a re-implementation to re-audit.
+
+## Claim
+
+<!-- claim:CLAIM-LIB-MACADDR-001 correct -->
+The vendored MAC / EUI-48 library decodes the IEEE 802 flag bits correctly on every one of a fixed 7-address battery (correct = 7, errors = 0): the I/G multicast bit and U/L locally-administered bit of the first octet, plus broadcast detection -- checked against hand-written expected flags for well-known MACs (01:00:5e:.. and 33:33:.. multicast, ff:ff:ff:ff:ff:ff broadcast, 02:.. and 52:54:00:.. locally administered, ordinary vendor-OUI unicast). Independently, the colon, hyphen, Cisco-dotted, and bare-hex spellings of one address all parse to the same 48-bit integer. Verified value: <!-- v:CLAIM-LIB-MACADDR-001.correct -->**7**
+(`correct`), backed by [`modules/macaddr/artifacts/macaddr.json`](../modules/macaddr/artifacts/macaddr.json).
+
+## Vendor it
+
+Ships `macaddr.py` into your project, byte-exact, with a generated binding test that
+fails the moment you edit the vendored code:
+
+```bash
+python3 integrations/library/use_code.py --bundle claimlib/bundles/c63a8ea151bcdce7fe7e3248502e7f09c352c4e7b6437ffcdf268a07e9a9dcba --target .
+```

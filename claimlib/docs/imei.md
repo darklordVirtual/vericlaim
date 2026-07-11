@@ -1,6 +1,6 @@
 # IMEI validation (Luhn check digit)
 
-*Subject area: Telecom / Device Identity. Language: python. Vendorable bundle `790e1a6924a7`.*
+*Subject area: Telecom / Device Identity. Language: python. Vendorable bundle `2e4f47793654`.*
 
 An IMEI is the 15-digit identity of a cellular device: an 8-digit Type Allocation Code, a 6-digit serial, and a trailing Luhn check digit over the first 14 digits -- the same mod-10 scheme used on payment cards. Networks and device registries validate it at the check-digit level before any lookup. Vendor this module to validate and parse IMEIs with zero dependencies; the claim proves it accepts the published example and agrees with an independent Luhn oracle across the battery, so you inherit a checked validator rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `imei.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/790e1a6924a7cb366c1cff7d985397452837ca19dd61e1292015306886ec9001 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/2e4f47793654b3de12de053b6ef37d4ff0bb4e403645372049566af4ca81be4a --target .
 ```

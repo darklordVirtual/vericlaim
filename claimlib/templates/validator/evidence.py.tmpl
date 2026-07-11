@@ -1,0 +1,65 @@
+# SPDX-License-Identifier: Apache-2.0
+"""Evidence for {{CLAIM_ID}} -- classify a fixed battery of inputs whose validity
+is INDEPENDENTLY KNOWN (published spec / reference), never asserted by the module.
+
+SCAFFOLD: replace the TODO battery with real (input, expected_valid) rows. Then,
+in main(), add the claim anchor -- one line of the form  <hash> claim:{{CLAIM_ID}}
+correct  (using the '#' character) followed by a contiguous comment stating the
+measured value -- and register the module in MODULES.py.
+"""
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))              # the module under test ({{NAME}}.py)
+sys.path.insert(0, str(HERE.parents[1]))   # claimlib/ for _util
+
+from {{NAME}} import is_valid  # noqa: E402
+from _util import emit  # noqa: E402
+
+# (value, expected_valid) -- the expected label is the INDEPENDENTLY KNOWN truth,
+# NOT this module's output.
+CASES = [
+    # TODO: replace with real, independently-known reference rows, e.g.
+    #   ("known-good-input", True),
+    #   ("known-bad-input", False),
+    ("__TODO__", None),
+]
+
+
+def run() -> dict:
+    correct = 0
+    rows = []
+    for value, expected in CASES:
+        if expected is None:
+            raise NotImplementedError(
+                "replace the TODO battery with real reference values before building")
+        ok = (is_valid(value) == expected)
+        correct += int(ok)
+        rows.append({"value": value, "expected": expected, "correct": ok})
+    return {
+        "schema": "{{SCHEMA}}",
+        "module": "{{NAME}}",
+        "n_cases": len(CASES),
+        "correct": correct,
+        "errors": len(CASES) - correct,
+        "cases": rows,
+    }
+
+
+def main() -> int:
+    obj = run()
+    emit(HERE / "artifacts" / "{{NAME}}.json", obj,
+         script="python3 claimlib/modules/{{NAME}}/evidence.py")
+    # TODO add the claim anchor: on its own line put "claim:{{CLAIM_ID}} correct"
+    # (start the line with the '#' comment char), then a contiguous comment stating
+    # that all N reference inputs classify correctly, so correct = N (errors = 0).
+    print(f"{{NAME}}: {obj['correct']}/{obj['n_cases']} reference inputs classified "
+          f"correctly ({obj['errors']} errors)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

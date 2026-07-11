@@ -516,3 +516,126 @@ claims:
       This validates E.164 SYNTAX (leading '+', 7..15 digits, no leading zero on the country code) and extracts the calling code from a CURATED subset of published ITU assignments; it is NOT full national-number validation (no libphonenumber-style per-country length / prefix rules), and a number outside the curated code table returns None for the country code. Correctness is demonstrated over a fixed battery, not proven for every number.
     reproduce: "python3 claimlib/modules/e164/evidence.py"
 
+  - id: CLAIM-LIB-CIDR-001
+    statement: >
+      The vendored IPv4 CIDR calculator -- which implements the 32-bit subnet arithmetic DIRECTLY and never imports ipaddress -- agrees with Python's stdlib ipaddress on every one of 140 checks across a fixed 12-network battery (checks_matched = 140, mismatches = 0): network and broadcast address, netmask, total address count, usable host count, and first/last usable host per network, plus a full hosts() enumeration count for narrow prefixes and a membership sweep (network, broadcast, and the addresses just outside), including the RFC 3021 /31 point-to-point and single-host /32 cases.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/cidr/artifacts/cidr.json"
+    metrics:
+      n_networks: 12
+      checks: 140
+      checks_matched: 140
+      mismatches: 0
+    caveat: >
+      ipaddress is the independent oracle and is NOT used inside the vendored module. Correctness is demonstrated over a fixed battery of networks, not proven for every possible input. IPv4 only; parsing rejects leading-zero octets (no octal ambiguity). 'Usable hosts' follows the common convention (block size minus network+broadcast for /0../30, 2 for a /31, 1 for a /32).
+    reproduce: "python3 claimlib/modules/cidr/evidence.py"
+
+  - id: CLAIM-LIB-IPV6-001
+    statement: >
+      The vendored IPv6 parser / RFC 5952 compressor -- implemented DIRECTLY and never importing ipaddress -- agrees with Python's stdlib ipaddress on all 38 checks across a fixed battery of 12 addresses and 7 CIDRs (checks_matched = 38, mismatches = 0): compress(parse(s)) equals .compressed and explode(parse(s)) equals .exploded for each address, and the compressed network address plus total address count match for each CIDR, exercising the RFC 5952 edges (leftmost-longest zero run wins, a single zero group is never shortened to '::').
+    evidence_level: benchmarked
+    artifact:
+      - "modules/ipv6/artifacts/ipv6.json"
+    metrics:
+      n_addresses: 12
+      n_cidrs: 7
+      checks: 38
+      checks_matched: 38
+      mismatches: 0
+    caveat: >
+      ipaddress is the independent oracle and is NOT used inside the vendored module. Dotted-quad IPv4-embedded IPv6 (e.g. ::ffff:192.0.2.1) is out of scope and rejected. Correctness is demonstrated over a fixed battery, not proven for every possible address.
+    reproduce: "python3 claimlib/modules/ipv6/evidence.py"
+
+  - id: CLAIM-LIB-MACADDR-001
+    statement: >
+      The vendored MAC / EUI-48 library decodes the IEEE 802 flag bits correctly on every one of a fixed 7-address battery (correct = 7, errors = 0): the I/G multicast bit and U/L locally-administered bit of the first octet, plus broadcast detection -- checked against hand-written expected flags for well-known MACs (01:00:5e:.. and 33:33:.. multicast, ff:ff:ff:ff:ff:ff broadcast, 02:.. and 52:54:00:.. locally administered, ordinary vendor-OUI unicast). Independently, the colon, hyphen, Cisco-dotted, and bare-hex spellings of one address all parse to the same 48-bit integer.
+    evidence_level: measured
+    artifact:
+      - "modules/macaddr/artifacts/macaddr.json"
+    metrics:
+      n_cases: 7
+      correct: 7
+      errors: 0
+      notation_forms_tested: 4
+    caveat: >
+      Flag semantics follow the IEEE 802 first-octet bit definitions, demonstrated over a fixed battery rather than proven for every address. The module normalises and decodes; it does NOT look up the OUI's registered vendor (no IEEE registry is bundled) and covers EUI-48 (not EUI-64).
+    reproduce: "python3 claimlib/modules/macaddr/evidence.py"
+
+  - id: CLAIM-LIB-ASPATH-001
+    statement: >
+      The vendored BGP AS-path library classifies every one of a fixed 17-ASN battery correctly against the published RFC allocations (correct = 17, errors = 0), pinning both sides of every boundary: private 64512-65534 and 4200000000-4294967294 (RFC 6996), reserved 0 (RFC 7607), 23456 AS_TRANS (RFC 6793), 65535 and 4294967295 last-ASN (RFC 7300), and documentation 64496-64511 and 65536-65551 (RFC 5398); and it parses an AS_SEQUENCE, measures its length, extracts the origin AS, and strips private ASNs.
+    evidence_level: measured
+    artifact:
+      - "modules/aspath/artifacts/aspath.json"
+    metrics:
+      n_cases: 17
+      correct: 17
+      errors: 0
+    caveat: >
+      Classification follows the RFC/IANA ranges over a fixed battery, not proven for every value; the ranges themselves can be updated by future IANA action. strip_private is a simple filter (removes every private ASN), not Cisco's positional remove-private-as semantics, and parse handles an AS_SEQUENCE (space-separated ASNs), not AS_SET/confederation segment notation.
+    reproduce: "python3 claimlib/modules/aspath/evidence.py"
+
+  - id: CLAIM-LIB-IPCHECKSUM-001
+    statement: >
+      The vendored RFC 1071 Internet checksum reproduces every value in a fixed 268-vector reference set with 0 mismatches: the published IPv4-header worked example (header 4500 0073 0000 4000 4011 0000 c0a8 0001 c0a8 00c7 checksums to 0xb861), the verify round-trip (inserting 0xb861 makes the full header checksum to 0), and 266 byte strings (empty, odd/even lengths, all-zero / all-0xFF, and every single byte value 0..255) that agree with an independent struct-based implementation computed in the evidence.
+    evidence_level: measured
+    artifact:
+      - "modules/ipchecksum/artifacts/ipchecksum.json"
+    metrics:
+      reference_vectors: 268
+      reference_vectors_matched: 268
+      mismatches: 0
+      crosscheck_matched: 266
+    caveat: >
+      Correctness is demonstrated over a fixed reference set (one published header value plus an independent-implementation cross-check), not proven for every input. The Internet checksum is an error-DETECTION checksum for accidental corruption, not a cryptographic hash or MAC -- it is linear and trivially forgeable, and (being 16-bit one's complement) it cannot distinguish +0 from -0.
+    reproduce: "python3 claimlib/modules/ipchecksum/evidence.py"
+
+  - id: CLAIM-LIB-VLAN-001
+    statement: >
+      The vendored 802.1Q VLAN library classifies VLAN-ID validity correctly on every one of a fixed 9-case battery (correct = 9, errors = 0), pinning the reservations (0 priority-tagged and 4095 reserved are invalid; 1..4094 valid); and over 6 range strings it parses the compact 'a,b-c' notation to the expected sorted, de-duplicated list and reformats it to the canonical range text (range_parse_correct = 6, range_roundtrip_correct = 6).
+    evidence_level: measured
+    artifact:
+      - "modules/vlan/artifacts/vlan.json"
+    metrics:
+      n_cases: 9
+      correct: 9
+      errors: 0
+      range_parse_correct: 6
+      range_roundtrip_correct: 6
+    caveat: >
+      Validity follows the IEEE 802.1Q assignable range (1..4094); the module does not model 802.1ad QinQ stacking, per-switch reserved-VLAN customisation, or VLAN names. Correctness is demonstrated over a fixed battery, not proven for every input.
+    reproduce: "python3 claimlib/modules/vlan/evidence.py"
+
+  - id: CLAIM-LIB-LEVENSHTEIN-001
+    statement: >
+      The vendored Levenshtein edit distance reproduces every published textbook value in a fixed 8-row battery (reference_correct = 8, reference_errors = 0): kitten->sitting = 3, Saturday->Sunday = 3, flaw->lawn = 2, gumbo->gambol = 2, book->back = 2, ''->'abc' = 3, and identity pairs = 0; and over a fixed word set it satisfies the metric axioms -- identity, symmetry on all 100 ordered pairs, and the triangle inequality on all 1000 ordered triples.
+    evidence_level: measured
+    artifact:
+      - "modules/levenshtein/artifacts/levenshtein.json"
+    metrics:
+      n_reference: 8
+      reference_correct: 8
+      reference_errors: 0
+      symmetry_ok: 100
+      triangle_ok: 1000
+    caveat: >
+      Costs are the classic unit-cost model (insertion, deletion, substitution each cost 1); it is NOT Damerau-Levenshtein (adjacent transposition is 2, not 1) and applies no custom cost weights. Correctness is demonstrated over a fixed battery plus the metric-axiom sweep, not proven for every pair of strings.
+    reproduce: "python3 claimlib/modules/levenshtein/evidence.py"
+
+  - id: CLAIM-LIB-TOPOSORT-001
+    statement: >
+      The vendored topological sort (Kahn's algorithm, deterministic smallest-first tie-break) produces an edge-respecting order for every one of a fixed 6-DAG battery (valid_orderings = 6, invalid_orderings = 0) -- each order contains every node exactly once and places the tail of every edge before its head -- and detects every one of 4 cyclic graphs (self-loop, 2-cycle, 3-cycle, embedded cycle), with has_cycle True and topo_sort raising CycleError.
+    evidence_level: measured
+    artifact:
+      - "modules/topo_sort/artifacts/topo_sort.json"
+    metrics:
+      n_dags: 6
+      valid_orderings: 6
+      invalid_orderings: 0
+      n_cyclic: 4
+      cycles_detected: 4
+    caveat: >
+      Correctness is demonstrated over a fixed battery of graphs, not proven for every graph. Nodes must be mutually comparable for the deterministic smallest-first ordering (e.g. all strings or all ints); an edge referencing an unknown node fails closed. Edges are (u, v) meaning 'u before v'.
+    reproduce: "python3 claimlib/modules/topo_sort/evidence.py"
+

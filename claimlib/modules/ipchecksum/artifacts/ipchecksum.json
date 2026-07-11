@@ -1,0 +1,12 @@
+{
+  "crosscheck_matched": 266,
+  "crosscheck_vectors": 266,
+  "mismatches": 0,
+  "module": "ipchecksum",
+  "published_checksum": 47201,
+  "published_ok": true,
+  "reference_vectors": 268,
+  "reference_vectors_matched": 268,
+  "schema": "claimlib_ipchecksum_v1",
+  "verify_ok": true
+}

@@ -20,7 +20,9 @@ claim in your context — read each module's caveat.
 
 | Module | Lang | Subject area | Claim | Evidence |
 |--------|------|--------------|-------|----------|
+| [`aspath`](docs/aspath.md) | Python | Telecom / BGP Routing | `CLAIM-LIB-ASPATH-001` | measured |
 | [`base32`](docs/base32.md) | Python | Data / Encoding | `CLAIM-LIB-BASE32-001` | measured |
+| [`cidr`](docs/cidr.md) | Python | Telecom / IP Address Management | `CLAIM-LIB-CIDR-001` | benchmarked |
 | [`crc32`](docs/crc32.md) | Python | Data / Integrity & Checksums | `CLAIM-LIB-CRC32-001` | measured |
 | [`cvss`](docs/cvss.md) | Python | Security / Vulnerability Management | `CLAIM-LIB-CVSS-001` | benchmarked |
 | [`e164`](docs/e164.md) | Python | Telecom / Numbering Plans | `CLAIM-LIB-E164-001` | measured |
@@ -29,9 +31,13 @@ claim in your context — read each module's caveat.
 | [`hashchain`](docs/hashchain.md) | Python | Security / Data Integrity | `CLAIM-LIB-HASHCHAIN-001` | measured |
 | [`iban`](docs/iban.md) | Python | Finance / Payments & Banking | `CLAIM-LIB-IBAN-001` | measured |
 | [`imei`](docs/imei.md) | Python | Telecom / Device Identity | `CLAIM-LIB-IMEI-001` | measured |
+| [`ipchecksum`](docs/ipchecksum.md) | Python | Telecom / Packet Processing | `CLAIM-LIB-IPCHECKSUM-001` | measured |
+| [`ipv6`](docs/ipv6.md) | Python | Telecom / IPv6 Addressing | `CLAIM-LIB-IPV6-001` | benchmarked |
 | [`jsonpointer`](docs/jsonpointer.md) | Python | Data / JSON Processing | `CLAIM-LIB-JSONPOINTER-001` | measured |
+| [`levenshtein`](docs/levenshtein.md) | Python | General / Strings & Text | `CLAIM-LIB-LEVENSHTEIN-001` | measured |
 | [`lru`](docs/lru.md) | Python | Data Structures / Caching | `CLAIM-LIB-LRU-001` | measured |
 | [`luhn`](docs/luhn.md) | Python | Payments / Data Integrity | `CLAIM-LIB-LUHN-001` | measured |
+| [`macaddr`](docs/macaddr.md) | Python | Telecom / Layer-2 Addressing | `CLAIM-LIB-MACADDR-001` | measured |
 | [`merkle`](docs/merkle.md) | Python | Security / Cryptographic Integrity | `CLAIM-LIB-MERKLE-001` | measured |
 | [`mod11`](docs/mod11.md) | Python | Finance / Identifiers & Validation | `CLAIM-LIB-MOD11-001` | benchmarked |
 | [`modbus_crc`](docs/modbus_crc.md) | Python | Industrial / Fieldbus & Protocols | `CLAIM-LIB-MODBUS-CRC-001` | measured |
@@ -43,6 +49,8 @@ claim in your context — read each module's caveat.
 | [`rle`](docs/rle.md) | Python | Data / Compression | `CLAIM-LIB-RLE-001` | benchmarked |
 | [`semver`](docs/semver.md) | Python | Software Supply Chain / Dependency Resolution | `CLAIM-LIB-SEMVER-001` | measured |
 | [`tokenbucket`](docs/tokenbucket.md) | Python | Reliability / Rate Limiting | `CLAIM-LIB-TOKENBUCKET-001` | measured |
+| [`topo_sort`](docs/topo_sort.md) | Python | General / Graph Algorithms | `CLAIM-LIB-TOPOSORT-001` | measured |
+| [`vlan`](docs/vlan.md) | Python | Telecom / VLAN Management | `CLAIM-LIB-VLAN-001` | measured |
 | [`chunk`](docs/chunk.md) | TypeScript | TypeScript / Array Utilities | `CLAIM-LIB-CHUNK-001` | measured |
 | [`cx`](docs/cx.md) | TypeScript | TypeScript / UI Utilities | `CLAIM-LIB-CX-001` | measured |
 | [`deepEqual`](docs/deepEqual.md) | TypeScript | TypeScript / Data Comparison | `CLAIM-LIB-DEEPEQUAL-001` | benchmarked |

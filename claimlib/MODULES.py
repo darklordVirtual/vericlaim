@@ -768,5 +768,184 @@ MODULES = [
         "statement": "The vendored E.164 validator classifies every entry in a fixed 13-row battery of phone numbers correctly (correct = 13, errors = 0): 8 well-formed international numbers are accepted and 5 malformed ones rejected (missing '+', leading zero after '+', too short, non-digit, and 16 digits exceeding the E.164 maximum), and the country calling code resolves as expected for all 13 rows (country_code_correct = 13) by longest-prefix match, so +358... yields 358 (Finland) rather than a shorter code.",
         "caveat": "This validates E.164 SYNTAX (leading '+', 7..15 digits, no leading zero on the country code) and extracts the calling code from a CURATED subset of published ITU assignments; it is NOT full national-number validation (no libphonenumber-style per-country length / prefix rules), and a number outside the curated code table returns None for the country code. Correctness is demonstrated over a fixed battery, not proven for every number.",
         "knowledge": "ITU-T E.164 is the international telephone numbering plan: a '+', a 1-3 digit country calling code, then the national number, at most 15 digits total, with no leading zero on the country code. The first parsing step is almost always the same -- check that shape and split off the calling code by longest-prefix match (so +358 resolves to Finland, not +35 or +3). Vendor this module to normalise and route phone numbers with zero dependencies; the claim proves it classifies the battery and resolves calling codes correctly, so you inherit a checked format validator rather than a re-implementation to re-audit (reach for libphonenumber when you need full national validation)."
+    },
+    {
+        "name": "cidr",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-CIDR-001",
+        "title": "IPv4 CIDR / subnet math",
+        "area": "Telecom / IP Address Management",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "cidr.py"
+        ],
+        "artifact": "cidr.json",
+        "register_metrics": [
+            "n_networks",
+            "checks",
+            "checks_matched",
+            "mismatches"
+        ],
+        "bind_field": "checks_matched",
+        "statement": "The vendored IPv4 CIDR calculator -- which implements the 32-bit subnet arithmetic DIRECTLY and never imports ipaddress -- agrees with Python's stdlib ipaddress on every one of 140 checks across a fixed 12-network battery (checks_matched = 140, mismatches = 0): network and broadcast address, netmask, total address count, usable host count, and first/last usable host per network, plus a full hosts() enumeration count for narrow prefixes and a membership sweep (network, broadcast, and the addresses just outside), including the RFC 3021 /31 point-to-point and single-host /32 cases.",
+        "caveat": "ipaddress is the independent oracle and is NOT used inside the vendored module. Correctness is demonstrated over a fixed battery of networks, not proven for every possible input. IPv4 only; parsing rejects leading-zero octets (no octal ambiguity). 'Usable hosts' follows the common convention (block size minus network+broadcast for /0../30, 2 for a /31, 1 for a /32).",
+        "knowledge": "CIDR subnetting is the everyday management-plane task on routers, firewalls and ISP IPAM: given 192.0.2.0/24 decide the network address, the directed broadcast, the mask, how many usable hosts, and whether an address is inside the block -- all of it bit arithmetic on the 32-bit integer. This module implements that arithmetic from scratch (so it carries no dependency) and the claim proves it matches Python's ipaddress across the battery, so you inherit a checked, dependency-free IPv4 calculator rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "ipv6",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-IPV6-001",
+        "title": "IPv6 parsing + RFC 5952 compression",
+        "area": "Telecom / IPv6 Addressing",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "ipv6.py"
+        ],
+        "artifact": "ipv6.json",
+        "register_metrics": [
+            "n_addresses",
+            "n_cidrs",
+            "checks",
+            "checks_matched",
+            "mismatches"
+        ],
+        "bind_field": "checks_matched",
+        "statement": "The vendored IPv6 parser / RFC 5952 compressor -- implemented DIRECTLY and never importing ipaddress -- agrees with Python's stdlib ipaddress on all 38 checks across a fixed battery of 12 addresses and 7 CIDRs (checks_matched = 38, mismatches = 0): compress(parse(s)) equals .compressed and explode(parse(s)) equals .exploded for each address, and the compressed network address plus total address count match for each CIDR, exercising the RFC 5952 edges (leftmost-longest zero run wins, a single zero group is never shortened to '::').",
+        "caveat": "ipaddress is the independent oracle and is NOT used inside the vendored module. Dotted-quad IPv4-embedded IPv6 (e.g. ::ffff:192.0.2.1) is out of scope and rejected. Correctness is demonstrated over a fixed battery, not proven for every possible address.",
+        "knowledge": "IPv6 text has many spellings for one address, so RFC 5952 defines a single canonical form: lowercase hex, no leading zeros per group, and the longest run of zero groups (leftmost on a tie) collapsed to '::'. Getting that compression exactly right -- and never collapsing a lone zero group -- is the subtle part every implementation must match. This module parses and canonicalises IPv6 from scratch; the claim proves it agrees with Python's ipaddress across the battery, so you inherit a checked, dependency-free IPv6 formatter rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "macaddr",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-MACADDR-001",
+        "title": "MAC / EUI-48 parsing + IEEE 802 flags",
+        "area": "Telecom / Layer-2 Addressing",
+        "evidence_level": "measured",
+        "code_files": [
+            "macaddr.py"
+        ],
+        "artifact": "macaddr.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors",
+            "notation_forms_tested"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored MAC / EUI-48 library decodes the IEEE 802 flag bits correctly on every one of a fixed 7-address battery (correct = 7, errors = 0): the I/G multicast bit and U/L locally-administered bit of the first octet, plus broadcast detection -- checked against hand-written expected flags for well-known MACs (01:00:5e:.. and 33:33:.. multicast, ff:ff:ff:ff:ff:ff broadcast, 02:.. and 52:54:00:.. locally administered, ordinary vendor-OUI unicast). Independently, the colon, hyphen, Cisco-dotted, and bare-hex spellings of one address all parse to the same 48-bit integer.",
+        "caveat": "Flag semantics follow the IEEE 802 first-octet bit definitions, demonstrated over a fixed battery rather than proven for every address. The module normalises and decodes; it does NOT look up the OUI's registered vendor (no IEEE registry is bundled) and covers EUI-48 (not EUI-64).",
+        "knowledge": "A MAC address is written four different ways (aa:bb:.., aa-bb-.., Cisco aabb.ccdd.eeff, bare aabbccddeeff), and the two low bits of its first octet carry meaning: the I/G bit marks multicast vs unicast and the U/L bit marks a locally-administered (e.g. virtualised/randomised) vs globally-unique address. This module parses every notation to one integer and decodes those flags; the claim proves the decoding matches the IEEE rules and the notations agree, so you inherit a checked L2-address helper rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "aspath",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-ASPATH-001",
+        "title": "BGP AS-path + ASN classification",
+        "area": "Telecom / BGP Routing",
+        "evidence_level": "measured",
+        "code_files": [
+            "aspath.py"
+        ],
+        "artifact": "aspath.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored BGP AS-path library classifies every one of a fixed 17-ASN battery correctly against the published RFC allocations (correct = 17, errors = 0), pinning both sides of every boundary: private 64512-65534 and 4200000000-4294967294 (RFC 6996), reserved 0 (RFC 7607), 23456 AS_TRANS (RFC 6793), 65535 and 4294967295 last-ASN (RFC 7300), and documentation 64496-64511 and 65536-65551 (RFC 5398); and it parses an AS_SEQUENCE, measures its length, extracts the origin AS, and strips private ASNs.",
+        "caveat": "Classification follows the RFC/IANA ranges over a fixed battery, not proven for every value; the ranges themselves can be updated by future IANA action. strip_private is a simple filter (removes every private ASN), not Cisco's positional remove-private-as semantics, and parse handles an AS_SEQUENCE (space-separated ASNs), not AS_SET/confederation segment notation.",
+        "knowledge": "Every BGP route carries an AS-path -- the list of Autonomous Systems it traversed -- and operators constantly reason about it: how long is it (shorter is preferred), who originated it, and are any ASNs private or reserved (which must not leak to the public Internet). The private, reserved, and documentation ASN ranges are fixed by RFCs 6996/7300/5398/7607/6793. This module parses the path and classifies ASNs against those ranges; the claim proves the classification matches the published boundaries, so you inherit a checked routing helper rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "ipchecksum",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-IPCHECKSUM-001",
+        "title": "RFC 1071 Internet checksum",
+        "area": "Telecom / Packet Processing",
+        "evidence_level": "measured",
+        "code_files": [
+            "ipchecksum.py"
+        ],
+        "artifact": "ipchecksum.json",
+        "register_metrics": [
+            "reference_vectors",
+            "reference_vectors_matched",
+            "mismatches",
+            "crosscheck_matched"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored RFC 1071 Internet checksum reproduces every value in a fixed 268-vector reference set with 0 mismatches: the published IPv4-header worked example (header 4500 0073 0000 4000 4011 0000 c0a8 0001 c0a8 00c7 checksums to 0xb861), the verify round-trip (inserting 0xb861 makes the full header checksum to 0), and 266 byte strings (empty, odd/even lengths, all-zero / all-0xFF, and every single byte value 0..255) that agree with an independent struct-based implementation computed in the evidence.",
+        "caveat": "Correctness is demonstrated over a fixed reference set (one published header value plus an independent-implementation cross-check), not proven for every input. The Internet checksum is an error-DETECTION checksum for accidental corruption, not a cryptographic hash or MAC -- it is linear and trivially forgeable, and (being 16-bit one's complement) it cannot distinguish +0 from -0.",
+        "knowledge": "The Internet checksum (RFC 1071) protects IPv4, ICMP, UDP and TCP headers: sum the data as 16-bit big-endian words in one's-complement arithmetic (folding carries back in), then take the complement; a receiver that sums the whole datagram including the checksum gets all-ones, whose complement is zero. This module computes and verifies it directly; the claim proves it reproduces the published IPv4 example and agrees with an independent implementation, so you inherit a checked, dependency-free checksum for packet tooling rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "vlan",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-VLAN-001",
+        "title": "802.1Q VLAN ID validation + ranges",
+        "area": "Telecom / VLAN Management",
+        "evidence_level": "measured",
+        "code_files": [
+            "vlan.py"
+        ],
+        "artifact": "vlan.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors",
+            "range_parse_correct",
+            "range_roundtrip_correct"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored 802.1Q VLAN library classifies VLAN-ID validity correctly on every one of a fixed 9-case battery (correct = 9, errors = 0), pinning the reservations (0 priority-tagged and 4095 reserved are invalid; 1..4094 valid); and over 6 range strings it parses the compact 'a,b-c' notation to the expected sorted, de-duplicated list and reformats it to the canonical range text (range_parse_correct = 6, range_roundtrip_correct = 6).",
+        "caveat": "Validity follows the IEEE 802.1Q assignable range (1..4094); the module does not model 802.1ad QinQ stacking, per-switch reserved-VLAN customisation, or VLAN names. Correctness is demonstrated over a fixed battery, not proven for every input.",
+        "knowledge": "An 802.1Q VLAN ID is a 12-bit field, but only 1..4094 are assignable: 0 marks a priority-tagged (untagged) frame and 4095 is reserved. Switch and ISP configs express VLAN membership as compact ranges like '1,10-12,4094', which must be parsed, de-duplicated, and re-emitted canonically. This module validates VIDs and round-trips those range lists; the claim proves the validity rule matches 802.1Q and the parse/format round-trips, so you inherit a checked VLAN helper rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "levenshtein",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-LEVENSHTEIN-001",
+        "title": "Levenshtein edit distance",
+        "area": "General / Strings & Text",
+        "evidence_level": "measured",
+        "code_files": [
+            "levenshtein.py"
+        ],
+        "artifact": "levenshtein.json",
+        "register_metrics": [
+            "n_reference",
+            "reference_correct",
+            "reference_errors",
+            "symmetry_ok",
+            "triangle_ok"
+        ],
+        "bind_field": "reference_correct",
+        "statement": "The vendored Levenshtein edit distance reproduces every published textbook value in a fixed 8-row battery (reference_correct = 8, reference_errors = 0): kitten->sitting = 3, Saturday->Sunday = 3, flaw->lawn = 2, gumbo->gambol = 2, book->back = 2, ''->'abc' = 3, and identity pairs = 0; and over a fixed word set it satisfies the metric axioms -- identity, symmetry on all 100 ordered pairs, and the triangle inequality on all 1000 ordered triples.",
+        "caveat": "Costs are the classic unit-cost model (insertion, deletion, substitution each cost 1); it is NOT Damerau-Levenshtein (adjacent transposition is 2, not 1) and applies no custom cost weights. Correctness is demonstrated over a fixed battery plus the metric-axiom sweep, not proven for every pair of strings.",
+        "knowledge": "Levenshtein distance is the minimum number of single-character insertions, deletions, or substitutions to turn one string into another -- the workhorse behind spell-check suggestions, fuzzy matching, and diff tooling. The standard Wagner-Fischer dynamic program computes it in O(m*n) time; a correct implementation also forms a true metric (identity, symmetry, triangle inequality). This module uses the two-row DP; the claim proves it matches the published distances and satisfies the metric axioms, so you inherit a checked distance function rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "topo_sort",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-TOPOSORT-001",
+        "title": "Topological sort + cycle detection",
+        "area": "General / Graph Algorithms",
+        "evidence_level": "measured",
+        "code_files": [
+            "topo_sort.py"
+        ],
+        "artifact": "topo_sort.json",
+        "register_metrics": [
+            "n_dags",
+            "valid_orderings",
+            "invalid_orderings",
+            "n_cyclic",
+            "cycles_detected"
+        ],
+        "bind_field": "valid_orderings",
+        "statement": "The vendored topological sort (Kahn's algorithm, deterministic smallest-first tie-break) produces an edge-respecting order for every one of a fixed 6-DAG battery (valid_orderings = 6, invalid_orderings = 0) -- each order contains every node exactly once and places the tail of every edge before its head -- and detects every one of 4 cyclic graphs (self-loop, 2-cycle, 3-cycle, embedded cycle), with has_cycle True and topo_sort raising CycleError.",
+        "caveat": "Correctness is demonstrated over a fixed battery of graphs, not proven for every graph. Nodes must be mutually comparable for the deterministic smallest-first ordering (e.g. all strings or all ints); an edge referencing an unknown node fails closed. Edges are (u, v) meaning 'u before v'.",
+        "knowledge": "A topological sort orders a directed acyclic graph so every dependency comes before whatever depends on it -- the primitive behind build systems, task schedulers, database migration ordering, and package resolution. Kahn's algorithm repeatedly emits a node with no remaining incoming edges; if any node never reaches in-degree zero, the graph has a cycle and no order exists. This module emits ready nodes smallest-first for a deterministic result and fails closed on a cycle; the claim proves every output respects all edges and every cycle is caught, so you inherit a checked ordering primitive rather than a re-implementation to re-audit."
     }
 ]

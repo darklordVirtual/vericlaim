@@ -1,0 +1,10 @@
+{
+  "cycles_detected": 4,
+  "cycles_raised": 4,
+  "invalid_orderings": 0,
+  "module": "topo_sort",
+  "n_cyclic": 4,
+  "n_dags": 6,
+  "schema": "claimlib_topo_sort_v1",
+  "valid_orderings": 6
+}

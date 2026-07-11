@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "topo_sort.json",
+  "artifact_sha256": "dac1795ac73d7fd467efcbb98f619c8461bbe1c36a6548e7fd25b3859e7ab79a",
+  "script": "python3 claimlib/modules/topo_sort/evidence.py",
+  "git_commit": "33b2e5b18b66529b776c35f67e40bda58b0a6ee4",
+  "generated_at": "2026-07-11T14:28:22.431799+00:00",
+  "produced_by": "claimlib"
+}

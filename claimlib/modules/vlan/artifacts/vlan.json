@@ -1,0 +1,10 @@
+{
+  "correct": 9,
+  "errors": 0,
+  "module": "vlan",
+  "n_cases": 9,
+  "n_ranges": 6,
+  "range_parse_correct": 6,
+  "range_roundtrip_correct": 6,
+  "schema": "claimlib_vlan_v1"
+}

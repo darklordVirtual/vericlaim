@@ -1,0 +1,158 @@
+{
+  "checks": 140,
+  "checks_matched": 140,
+  "enum_checks": 8,
+  "enum_matched": 8,
+  "field_detail": [
+    {
+      "cidr": "192.0.2.0/24",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "192.0.2.130/25",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "10.0.0.0/8",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "172.16.5.4/22",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "203.0.113.7/28",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "198.51.100.0/30",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "192.168.1.1/31",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "8.8.8.8/32",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "0.0.0.0/0",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "255.255.255.128/25",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "100.64.0.0/10",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    },
+    {
+      "cidr": "169.254.0.0/16",
+      "fields": {
+        "broadcast": true,
+        "first_host": true,
+        "last_host": true,
+        "netmask": true,
+        "network": true,
+        "num_addresses": true,
+        "usable_hosts": true
+      }
+    }
+  ],
+  "membership_checks": 48,
+  "membership_matched": 48,
+  "mismatches": 0,
+  "module": "cidr",
+  "n_networks": 12,
+  "schema": "claimlib_cidr_v1"
+}

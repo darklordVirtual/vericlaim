@@ -1,0 +1,64 @@
+# SPDX-License-Identifier: Apache-2.0
+"""Evidence for {{CLAIM_ID}} -- reproduce a PUBLISHED worked example and
+hand-computed reference cases exactly.
+
+SCAFFOLD: fill CASES with (label, inputs, expected) rows whose expected values are
+computed INDEPENDENTLY of the module (a published example plus hand-computed
+edges), then add the claim anchor in main() (  <hash> claim:{{CLAIM_ID}} correct  )
+and register the module.
+"""
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))              # the module under test ({{NAME}}.py)
+sys.path.insert(0, str(HERE.parents[1]))   # claimlib/ for _util
+
+from {{NAME}} import compute  # noqa: E402
+from _util import emit  # noqa: E402
+
+# (label, args, expected) -- expected is the INDEPENDENTLY KNOWN reference value.
+CASES = [
+    # TODO: replace with a published worked example + hand-computed edges, e.g.
+    #   ("published example", (arg1, arg2), 0.7479),
+    ("__TODO__", (), None),
+]
+
+
+def run() -> dict:
+    correct = 0
+    rows = []
+    for label, args, expected in CASES:
+        if expected is None:
+            raise NotImplementedError(
+                "replace the TODO CASES with real reference values before building")
+        got = compute(*args)
+        ok = (got == expected)
+        correct += int(ok)
+        rows.append({"label": label, "expected": expected, "computed": got, "correct": ok})
+    return {
+        "schema": "{{SCHEMA}}",
+        "module": "{{NAME}}",
+        "n_cases": len(CASES),
+        "correct": correct,
+        "errors": len(CASES) - correct,
+        "cases": rows,
+    }
+
+
+def main() -> int:
+    obj = run()
+    emit(HERE / "artifacts" / "{{NAME}}.json", obj,
+         script="python3 claimlib/modules/{{NAME}}/evidence.py")
+    # TODO add the claim anchor: on its own line put "claim:{{CLAIM_ID}} correct"
+    # (start the line with the '#' comment char), then a contiguous comment stating
+    # that every reference case reproduces, so correct = N (errors = 0).
+    print(f"{{NAME}}: {obj['correct']}/{obj['n_cases']} reference cases reproduced "
+          f"({obj['errors']} errors)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

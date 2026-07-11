@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: Apache-2.0
+"""Unit tests for the scaffolded ``{{NAME}}`` calculator. TODO: implement, then remove the skip."""
+import sys
+from pathlib import Path
+
+import pytest
+
+pytestmark = pytest.mark.skip(reason="scaffolded stub for {{NAME}} -- implement, then remove this skip")
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parents[0] / "modules" / "{{NAME}}"))
+
+from {{NAME}} import compute, {{CLASS}}  # noqa: E402
+
+
+def test_placeholder():
+    # TODO: assert the published worked example and out-of-domain rejection.
+    assert callable(compute)
+    assert issubclass({{CLASS}}, ValueError)

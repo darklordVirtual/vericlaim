@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: Apache-2.0
+"""Unit tests for the scaffolded ``{{NAME}}`` module. TODO: implement, then remove the skip."""
+import sys
+from pathlib import Path
+
+import pytest
+
+# Scaffolded stub: skipped so it never fails the suite before you implement it.
+pytestmark = pytest.mark.skip(reason="scaffolded stub for {{NAME}} -- implement, then remove this skip")
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parents[0] / "modules" / "{{NAME}}"))
+
+from {{NAME}} import is_valid, {{CLASS}}  # noqa: E402
+
+
+def test_placeholder():
+    # TODO: assert real known-good / known-bad classifications and error paths.
+    assert callable(is_valid)
+    assert issubclass({{CLASS}}, ValueError)

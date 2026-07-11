@@ -1,0 +1,70 @@
+# SPDX-License-Identifier: Apache-2.0
+"""Evidence for {{CLAIM_ID}} -- decode(encode(x)) == x losslessly over a fixed,
+diverse corpus (and, ideally, reproduce published reference vectors).
+
+SCAFFOLD: fill CORPUS with a diverse set of inputs (empty, short, long, binary),
+optionally add published REFERENCE (data, encoded) rows, then add the claim
+anchor in main() (  <hash> claim:{{CLAIM_ID}} roundtrip_lossless  ) and register.
+"""
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))              # the module under test ({{NAME}}.py)
+sys.path.insert(0, str(HERE.parents[1]))   # claimlib/ for _util
+
+from {{NAME}} import encode, decode  # noqa: E402
+from _util import emit  # noqa: E402
+
+# Diverse inputs whose exact bytes must survive encode->decode.
+CORPUS = [
+    b"",
+    b"\x00",
+    b"hello",
+    bytes(range(256)),
+    # TODO: add more (long runs, random-ish, structured) reference inputs.
+]
+
+# Optional published (raw, encoded) reference vectors.
+REFERENCE: list = [
+    # TODO: e.g. (b"foobar", "MZXW6YTBOI======"),
+]
+
+
+def run() -> dict:
+    if len(CORPUS) < 4:
+        raise NotImplementedError("expand CORPUS with real reference inputs before building")
+    lossless = 0
+    for data in CORPUS:
+        lossless += int(decode(encode(data)) == data)
+    ref_matched = 0
+    for data, expected in REFERENCE:
+        ref_matched += int(encode(data) == expected and decode(expected) == data)
+    return {
+        "schema": "{{SCHEMA}}",
+        "module": "{{NAME}}",
+        "n_cases": len(CORPUS),
+        "roundtrip_lossless": lossless,
+        "roundtrip_failures": len(CORPUS) - lossless,
+        "n_reference": len(REFERENCE),
+        "reference_matched": ref_matched,
+    }
+
+
+def main() -> int:
+    obj = run()
+    emit(HERE / "artifacts" / "{{NAME}}.json", obj,
+         script="python3 claimlib/modules/{{NAME}}/evidence.py")
+    # TODO add the claim anchor: on its own line put
+    # "claim:{{CLAIM_ID}} roundtrip_lossless" (start with the '#' char), then a
+    # comment: decode(encode(x)) == x for all N corpus inputs, so
+    # roundtrip_lossless = N (roundtrip_failures = 0).
+    print(f"{{NAME}}: roundtrip {obj['roundtrip_lossless']}/{obj['n_cases']} lossless "
+          f"({obj['roundtrip_failures']} failures)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
