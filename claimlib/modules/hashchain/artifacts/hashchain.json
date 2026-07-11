@@ -1,0 +1,26 @@
+{
+  "by_mutation_type": {
+    "bitflip_first": {
+      "detected": 64,
+      "tested": 64
+    },
+    "prepend_byte": {
+      "detected": 64,
+      "tested": 64
+    },
+    "replace": {
+      "detected": 64,
+      "tested": 64
+    }
+  },
+  "construction": "record_hash(prev, entry) = sha256(prev || entry)",
+  "hash": "sha256",
+  "head_hex": "a756380568f2b99c948a01cb0aca0c16bd5cfc7abb402b56d4a008bd2df81523",
+  "module": "hashchain",
+  "n_entries": 64,
+  "schema": "claimlib_hashchain_v1",
+  "tamper_detected": 192,
+  "tamper_missed": 0,
+  "tamper_mutations_tested": 192,
+  "untampered_verifies": true
+}

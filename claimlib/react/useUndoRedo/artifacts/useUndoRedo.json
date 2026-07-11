@@ -1,0 +1,7 @@
+{
+  "correct": 12,
+  "errors": 0,
+  "module": "useUndoRedo",
+  "n_cases": 12,
+  "schema": "claimlib_useundoredo_v1"
+}

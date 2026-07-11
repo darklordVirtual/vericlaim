@@ -1,0 +1,571 @@
+# SPDX-License-Identifier: Apache-2.0
+"""The claimlib registry - reusable, claim-bound code artifacts across Python,
+TypeScript and React. GENERATED/maintained alongside claimlib/build.py. Each
+entry describes one module; build.py runs its evidence, reads the metrics, and
+emits the aggregated register, per-module docs, README and one vendorable
+bundle_v1 per module. 'lang' selects the toolchain (python|typescript|react).
+"""
+from __future__ import annotations
+
+MODULES = [
+    {
+        "name": "cvss",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-CVSS-001",
+        "title": "CVSS v3.1 base scoring",
+        "area": "Security / Vulnerability Management",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "cvss.py"
+        ],
+        "artifact": "cvss.json",
+        "register_metrics": [
+            "reference_vectors_matched",
+            "reference_vectors",
+            "mismatches"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored CVSS v3.1 base-score scorer reproduces all published reference base scores in a fixed set exactly, with 0 mismatches — including scope change and the v3.1 Roundup rule.",
+        "caveat": "Base metric group only (no temporal or environmental modifiers). Correctness is demonstrated over a fixed published-reference vector set, not proven for every possible vector.",
+        "knowledge": "CVSS v3.1 turns an attack vector, complexity, privileges, user interaction, scope and CIA impact into a 0.0-10.0 base score. This module parses the standard `CVSS:3.1/...` vector string and applies the published FIRST formula (impact, exploitability, scope, Roundup). Vendor it to score vulnerabilities consistently; the claim proves the arithmetic matches the reference, so you inherit a checked scorer, not a re-implementation to re-audit."
+    },
+    {
+        "name": "hashchain",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-HASHCHAIN-001",
+        "title": "Tamper-evident append-only hash chain",
+        "area": "Security / Data Integrity",
+        "evidence_level": "measured",
+        "code_files": [
+            "hashchain.py"
+        ],
+        "artifact": "hashchain.json",
+        "register_metrics": [
+            "n_entries",
+            "tamper_mutations_tested",
+            "tamper_detected",
+            "tamper_missed"
+        ],
+        "bind_field": "tamper_detected",
+        "statement": "The vendored append-only hash chain (record hash = sha256(prev || entry)) detects every single-entry mutation over a fixed 64-entry battery: all 192 mutations tested (64 entries x 3 deterministic kinds -- full replace, byte prepend, first-byte bitflip) are caught, with tamper_missed = 0. The untampered chain verifies True, and correctness is cross-checked against an independent raw-hashlib oracle.",
+        "caveat": "Detection is demonstrated over a fixed reference battery of single-entry mutations, not proven for every possible input. It is tamper-EVIDENT, not tamper-PROOF: an adversary who can rewrite the stored chain of head digests alongside the entries can forge a consistent history, so authenticate the head (HMAC or a signature) for adversarial settings. Security also rests on SHA-256 collision resistance.",
+        "knowledge": "A hash chain makes an append-only log self-authenticating: each record's hash folds in the previous record's hash, so the head digest commits to the entire ordered history -- the same idea behind Git commit graphs and blockchain blocks. Changing, inserting, deleting or reordering any past entry changes that record's hash and every hash after it, so recomputing the chain from the claimed entries and comparing digests reveals the tampering. Vendor it to get an integrity-checked audit log or ledger; the claim proves the construction catches the enumerated mutations, so you inherit a checked primitive rather than a re-implementation to re-audit. For untrusted storage, sign or HMAC the head so the chain itself cannot be silently rewritten."
+    },
+    {
+        "name": "merkle",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-MERKLE-001",
+        "title": "Merkle tree SHA-256 inclusion proofs",
+        "area": "Security / Cryptographic Integrity",
+        "evidence_level": "measured",
+        "code_files": [
+            "merkle.py"
+        ],
+        "artifact": "merkle.json",
+        "register_metrics": [
+            "n_leaves",
+            "proofs_verified",
+            "tampered_rejected",
+            "false_accepts"
+        ],
+        "bind_field": "proofs_verified",
+        "statement": "The vendored SHA-256 binary Merkle tree produces inclusion proofs that all verify against the committed root (proofs_verified = n_leaves) over a fixed 9-leaf battery, and rejects every single-leaf tamper (tampered_rejected = 9) with false_accepts = 0; the built root is additionally cross-checked byte-for-byte against an independent from-scratch reference computation.",
+        "caveat": "Demonstrated over one fixed 9-leaf battery (which does exercise the odd-level duplicate-last-node rule at three levels), not proven for all tree shapes or inputs. The hashing scheme intentionally omits RFC 6962 leaf/node domain-separation tags, so roots are not second-preimage resistant across trees of differing leaf counts; tampering evidence covers leaf-content mutation, not adversarial proof forgery.",
+        "knowledge": "A Merkle tree hashes an ordered list of leaves pairwise up to a single root digest, so any party holding the root can verify that a given leaf is included via a short O(log n) audit path of sibling hashes rather than re-hashing the whole set. This module uses sha256 with the Bitcoin-style duplicate-last-node rule for odd levels (documented explicitly so proofs are portable), exposing build_root, inclusion_proof, and verify_proof. Vendor it for tamper-evident logs, transparency/commitment schemes, or content addressing; the claim proves proofs verify and leaf tampering is caught, so you inherit a checked implementation rather than an unaudited re-write."
+    },
+    {
+        "name": "rle",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-RLE-001",
+        "title": "Byte run-length codec (lossless round-trip)",
+        "area": "Data / Compression",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "rle.py"
+        ],
+        "artifact": "rle.json",
+        "register_metrics": [
+            "n_cases",
+            "roundtrip_lossless",
+            "overall_ratio"
+        ],
+        "bind_field": "roundtrip_lossless",
+        "statement": "The vendored byte-oriented run-length codec round-trips losslessly on every case in a fixed, diverse corpus (long runs, sparse spikes, deterministic pseudo-random noise, structured text, and the empty string): decode(encode(x)) == x for all 15 cases (roundtrip_lossless == n_cases), verified by exact byte equality against the original input, not against the codec's own output.",
+        "caveat": "RLE is a compressor only for redundant data: it EXPANDS low-redundancy input to two output bytes per symbol, so overall_ratio can fall below 1.0 (0.6649 on this corpus, which is deliberately noise-heavy). The claim proves lossless round-trip, not a compression guarantee, and correctness is demonstrated over a fixed corpus rather than proven for every possible input.",
+        "knowledge": "Run-length encoding is the simplest lossless compression scheme: it replaces each maximal run of identical symbols with a (count, symbol) pair, shrinking long uniform stretches (bitmaps, sparse buffers, padded records) while leaving a total, exactly invertible mapping. This module implements the classic byte-pair variant, splitting runs longer than 255 across pairs so any bytes input encodes and decodes back byte-for-byte. Vendor it when you need a dependency-free, auditable codec whose inverse is proven; the claim binds the round-trip property so you inherit a checked codec rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "luhn",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-LUHN-001",
+        "title": "Luhn (mod-10) checksum",
+        "area": "Payments / Data Integrity",
+        "evidence_level": "measured",
+        "code_files": [
+            "luhn.py"
+        ],
+        "artifact": "luhn.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored Luhn (mod-10) implementation classifies every number in a fixed table of 12 independently-known cases correctly — 8 known-valid (the Wikipedia example, published Visa/Mastercard/Amex/Discover/Diners test cards, and a trivial single-zero) and 4 known-invalid (off-by-one and non-Luhn sequences) — with 0 errors, and its check_digit() reproduces the trailing check digit of each valid reference number.",
+        "caveat": "Correctness is demonstrated over a fixed reference table of published test numbers, not proven for all inputs. Luhn is a check-digit scheme that catches all single-digit errors and most adjacent transpositions; it is a data-entry checksum, NOT a cryptographic integrity or authenticity guarantee, and validity does not imply a number is real or issued.",
+        "knowledge": "The Luhn algorithm (ISO/IEC 7812-1, the 'mod 10' formula) is the check-digit standard used to catch typos in payment card numbers, IMEIs, and many national IDs. Working right-to-left it doubles every second digit (subtracting 9 when the result exceeds 9), sums all digits, and treats the number as valid when that total is a multiple of 10. This module exposes is_valid() to check a full number and check_digit() to compute the digit that completes a partial one; vendor it to validate identifiers at data-entry time and inherit a checked implementation rather than re-auditing another hand-rolled loop."
+    },
+    {
+        "name": "semver",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-SEMVER-001",
+        "title": "Semantic Versioning 2.0.0 compare + range grammar",
+        "area": "Software Supply Chain / Dependency Resolution",
+        "evidence_level": "measured",
+        "code_files": [
+            "semver.py"
+        ],
+        "artifact": "semver.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored SemVer 2.0.0 library reproduces every required answer over a fixed 46-row reference battery (18 precedence comparisons drawn verbatim from the spec's golden ordering chain plus core/build/numeric-vs-alnum rules, and 28 satisfies rows over exact/>=/</caret/tilde ranges): correct = 46 with 0 errors. parse rejects malformed input and leading zeros; compare honors pre-release < release, numeric-below-alphanumeric, and larger-identifier-set precedence; build metadata is ignored for ordering.",
+        "caveat": "Range grammar is deliberately modest: only exact 'x.y.z', '>=x.y.z', '<x.y.z', caret '^x.y.z', and tilde '~x.y.z' (no OR/hyphen/x-ranges, no '<=', '>', '!='). Ranges are evaluated purely by SemVer 2.0.0 precedence against derived bounds, so a pre-release is included or excluded strictly by section 11 precedence (e.g. 2.0.0-alpha counts as < 2.0.0) rather than npm's extra same-tuple pre-release exclusion heuristic. Correctness is demonstrated over a fixed reference battery, not proven for every possible input.",
+        "knowledge": "Semantic Versioning encodes MAJOR.MINOR.PATCH plus optional pre-release and build metadata, and defines a strict precedence order (spec section 11): core compared numerically, a pre-release ranked below its associated release, and pre-release identifiers compared left-to-right with numeric identifiers below alphanumeric ones. Package managers layer range operators on top of this ordering (caret pins the left-most non-zero element, tilde allows patch-level drift) to decide which published versions an install may resolve to. Vendor this module to compare versions and evaluate those common ranges consistently; the claim proves the precedence arithmetic and range bounds match the spec, so you inherit a checked resolver rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "tokenbucket",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-TOKENBUCKET-001",
+        "title": "Token-bucket rate limiter (capacity invariant)",
+        "area": "Reliability / Rate Limiting",
+        "evidence_level": "measured",
+        "code_files": [
+            "tokenbucket.py"
+        ],
+        "artifact": "tokenbucket.json",
+        "register_metrics": [
+            "n_events",
+            "allowed",
+            "denied",
+            "capacity_violations"
+        ],
+        "bind_field": "capacity_violations",
+        "statement": "The vendored token-bucket rate limiter enforces its capacity invariant with 0 capacity_violations across a fixed 8-event chronological trace: the number of available tokens is clamped to capacity on every refill, so even a long idle gap (t=10s, which would otherwise bank 8 tokens) never grants more than a full bucket's burst (measured allowed=6, denied=2).",
+        "caveat": "The invariant is demonstrated over one fixed trace (capacity=3, refill=1/s, unit cost) plus unit tests, not proven for every capacity/rate/cost combination; the limiter is time-injected (the caller supplies monotonic timestamps) and uses IEEE-754 floats, so it does not measure wall-clock time itself and is subject to normal floating-point rounding.",
+        "knowledge": "A token bucket is the classic rate-limiting primitive: a bucket holds up to `capacity` tokens and refills at a steady `refill_per_sec`, and each request spends tokens, so short bursts pass (up to the bucket depth) while the long-run average rate stays bounded. Its key safety property is that refills are clamped at capacity, so accumulated idle time can never be banked into an unbounded later burst. This module makes time an explicit argument to every call, which removes hidden wall-clock reads and makes limiter behaviour fully deterministic and testable. Vendor it to meter API quotas or traffic consistently and inherit a checked capacity invariant rather than re-auditing another ad-hoc limiter."
+    },
+    {
+        "name": "retry",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-RETRY-001",
+        "title": "Deterministic exponential backoff with full jitter",
+        "area": "Reliability / Distributed Systems",
+        "evidence_level": "measured",
+        "code_files": [
+            "retry.py"
+        ],
+        "artifact": "retry.json",
+        "register_metrics": [
+            "n_attempts",
+            "within_bounds",
+            "out_of_bounds",
+            "deterministic"
+        ],
+        "bind_field": "within_bounds",
+        "statement": "The vendored full-jitter backoff computes each delay as a hash-seeded draw from [0, min(cap, base*2**attempt)]: over a fixed 16-attempt reference schedule (attempts 0..15, base=1.0, cap=60.0, seed=1337) all 16 delays land inside their independently-computed [0, ceiling] window (within_bounds=16, out_of_bounds=0), and a seeded replay reproduces the schedule byte-for-byte (deterministic=1).",
+        "caveat": "Bounds and reproducibility are demonstrated over one fixed schedule (fixed base/cap/seed, attempts 0..15), not proven for every parameter combination. The jitter is a deterministic SHA-256 spreading function, not a cryptographically unpredictable PRNG, and delays are rounded to 6 decimals for byte-stable serialization.",
+        "knowledge": "Retrying a failed remote call immediately, in lockstep with every other client, produces a synchronized 'thundering herd' that keeps the dependency down. Capped exponential backoff (min(cap, base*2**attempt)) grows the wait between attempts, and 'full jitter' (AWS, 2015) then draws the actual delay uniformly from [0, that ceiling] so clients decorrelate instead of all firing at the ceiling. This module keeps full jitter's spread but derives the draw from a SHA-256 hash of (seed, attempt) rather than a PRNG, so the schedule is reproducible in tests and logs and identical across processes, while different seeds still decorrelate different clients."
+    },
+    {
+        "name": "rbac",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-RBAC-001",
+        "title": "RBAC least-privilege & separation-of-duties audit",
+        "area": "Security / Identity & Access Management",
+        "evidence_level": "measured",
+        "code_files": [
+            "rbac.py"
+        ],
+        "artifact": "rbac.json",
+        "register_metrics": [
+            "n_identities",
+            "seeded_excess",
+            "detected_excess",
+            "seeded_sod",
+            "detected_sod",
+            "false_positives"
+        ],
+        "bind_field": "detected_excess",
+        "statement": "The vendored RBAC auditor detects every seeded over-privilege and separation-of-duties finding in a fixed 13-identity access matrix: all 6 excess grants (detected_excess == seeded_excess == 6) and all 3 toxic-pair violations (detected_sod == seeded_sod == 3), with 0 false positives — no hand-verified clean identity is ever flagged.",
+        "caveat": "Recall and the zero-false-positive property are measured over one fixed, hand-seeded reference matrix, not proven for arbitrary inputs. The checker compares held permissions against a supplied least-privilege baseline and explicit SoD pairs; it does not infer baselines, expand role hierarchies/inheritance, or model attribute- or time-based conditions, and its correctness is only as good as the role_needs and sod_pairs it is given.",
+        "knowledge": "Role-Based Access Control grants permissions to roles and assigns roles to identities; two enduring control objectives sit on top of it. Least privilege says an identity should hold no permission its role does not need — anything extra ('excess') is attack surface and audit debt. Separation of duties says certain permissions are toxic in combination (create a payment AND approve it; deploy code AND review it) and must never rest with one identity, even when a mis-scoped role would technically allow both. This module makes both checks mechanical and independent, so an over-broad role cannot silently launder an SoD violation into 'authorized'."
+    },
+    {
+        "name": "errorbudget",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-ERRORBUDGET-001",
+        "title": "SLO / error-budget arithmetic",
+        "area": "SRE / Reliability Engineering",
+        "evidence_level": "measured",
+        "code_files": [
+            "errorbudget.py"
+        ],
+        "artifact": "errorbudget.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored SLO / error-budget calculator reproduces the textbook SRE availability, error-budget, and budget-remaining formulas exactly on every one of a fixed 9-row hand-computed reference battery (correct = 9, errors = 0), including budget-exhaustion, overspend (negative remaining), zero-downtime, and 4-dp rounding edge cases.",
+        "caveat": "Correctness is demonstrated over a fixed hand-computed reference table (9 rows), not proven for every possible input. It is pure time-window arithmetic on a single SLO window: it does not model burn-rate alerting, multi-window/multi-burn-rate policies, request-ratio (event-based) SLOs, or rolling windows. Availability and remaining% are rounded to 4 dp and the budget to 6 dp for byte-stable artifacts.",
+        "knowledge": "Site Reliability Engineering measures a service against a Service Level Objective (SLO) — e.g. 99.9% availability over 30 days. The complement of the SLO is the error budget: the amount of downtime the target permits over the window (budget = window * (1 - SLO/100)). Teams spend that budget on risk — releases, experiments, incidents — and 'budget remaining' tracks how much allowance is left before the SLO is breached, going negative once overspent. Vendor this module to compute availability and error budgets consistently; the claim proves the arithmetic matches the published formulas, so you inherit a checked calculator rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "result",
+        "lang": "typescript",
+        "claim_id": "CLAIM-LIB-RESULT-001",
+        "title": "Result<T, E> typed error handling",
+        "area": "TypeScript / Error Handling",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "result.ts"
+        ],
+        "artifact": "result.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored TypeScript Result<T, E> combinators (ok, err, map, mapErr, andThen, unwrapOr, isOk, isErr, fromThrowing) produce the expected outcome on every one of a fixed reference battery whose expected values are written independently of the module (correct = n_cases, errors = 0), covering ok/err propagation, monadic short-circuiting, and throw capture.",
+        "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) — it does not assert the module type-checks under a specific tsc strictness. Result is a value-level discipline; it does not stop you ignoring an Err you never inspect.",
+        "knowledge": "Result<T, E> makes failure a value instead of a thrown exception: a function returns Ok<T> on success or Err<E> on failure, and the caller must handle both branches before reaching the value. Combinators (map, mapErr, andThen) thread the happy path and short-circuit on the first error, the way Rust's Result or fp-ts's Either do. Vendor it to get exhaustive, type-checked error handling in TypeScript with zero dependencies; the claim proves the combinators behave as specified, so you inherit a checked primitive rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "usePagination",
+        "lang": "react",
+        "claim_id": "CLAIM-LIB-USEPAGINATION-001",
+        "title": "usePagination React hook",
+        "area": "React / UI State",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "usePagination.tsx",
+            "pagination.logic.ts"
+        ],
+        "artifact": "usePagination.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors",
+            "invalid_inputs_rejected"
+        ],
+        "bind_field": "correct",
+        "statement": "The pure pagination core behind the usePagination React hook computes the correct page window (page clamp, slice indices, item count, prev/next flags) on every one of a fixed reference battery with independently hand-written expected windows (correct = n_cases, errors = 0), and fails closed on all 4 invalid-sizing inputs.",
+        "caveat": "The claim covers the framework-agnostic core (pagination.logic.ts) run under node, NOT React runtime rendering: the vendored usePagination.tsx is a thin, reviewed binding over that core (useState + useMemo) and is shipped but not rendered in the evidence. Correctness is over a fixed battery, not proven for all inputs.",
+        "knowledge": "A huge share of React bugs live in state logic, not markup. The effective pattern is to put the logic in a pure, framework-agnostic function and make the hook a thin binding — so the hard part is unit-testable without a DOM. usePagination does exactly that: pagination.logic.ts computes the clamped page, slice indices and prev/next flags, and usePagination.tsx wraps it in useState/useMemo. Vendor both; the claim proves the core is correct, so you inherit checked pagination state rather than re-deriving off-by-one slice math in every project."
+    },
+    {
+        "name": "crc32",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-CRC32-001",
+        "title": "CRC-32 (IEEE 802.3) checksum",
+        "area": "Data / Integrity & Checksums",
+        "evidence_level": "measured",
+        "code_files": [
+            "crc32.py"
+        ],
+        "artifact": "crc32.json",
+        "register_metrics": [
+            "reference_vectors_matched",
+            "reference_vectors",
+            "mismatches"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored CRC-32 (IEEE 802.3, reflected poly 0xEDB88320) implementation reproduces every value in a fixed 291-vector reference set exactly, with 0 mismatches: the 3 published check values (crc32(b\"\")==0, crc32(b\"123456789\")==0xCBF43926, crc32 of the lazy-dog pangram==0x414FA339) plus 288 byte strings cross-checked for exact equality against the independent stdlib oracle zlib.crc32, so reference_vectors_matched == reference_vectors == 291.",
+        "caveat": "Correctness is demonstrated over a fixed reference set (3 published check values plus 288 byte strings agreeing with zlib.crc32), not proven for every possible input. CRC-32 is an error-DETECTION checksum for accidental corruption, NOT a cryptographic hash or MAC: it is linear and trivially forgeable, so it provides no integrity or authenticity guarantee against an adversary.",
+        "knowledge": "CRC-32 (IEEE 802.3) is the cyclic redundancy check used by zip, gzip, PNG and Ethernet to catch accidental data corruption. It treats the message as a polynomial over GF(2) and computes the remainder modulo the reflected generator polynomial 0xEDB88320, with input/output reflected and init/final XOR of 0xFFFFFFFF, yielding an unsigned 32-bit value. This module implements the standard byte-wise table algorithm directly (no zlib inside), so you can vendor a dependency-free checksum; the claim proves it matches the published check vectors and agrees byte-for-byte with zlib.crc32, so you inherit a checked implementation rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "base32",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-BASE32-001",
+        "title": "RFC 4648 base32 encode/decode",
+        "area": "Data / Encoding",
+        "evidence_level": "measured",
+        "code_files": [
+            "base32.py"
+        ],
+        "artifact": "base32.json",
+        "register_metrics": [
+            "reference_vectors_matched",
+            "reference_vectors",
+            "mismatches"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored RFC 4648 base32 codec passes all 17 reference checks with 0 mismatches: it reproduces every one of the 7 RFC 4648 section 10 test vectors exactly (b\"\"->\"\", b\"f\"->\"MY======\", ... b\"foobar\"->\"MZXW6YTBOI======\"), and over 10 fixed byte inputs its encode/decode agree byte-for-byte with Python's stdlib base64.b32encode/b32decode (an independent oracle the module never calls) while round-tripping decode(encode(x)) == x exactly.",
+        "caveat": "Standard RFC 4648 base32 alphabet with '=' padding only (no base32hex, no Crockford variant, and case-sensitive decoding). Correctness is demonstrated over a fixed reference set of published vectors plus stdlib cross-checks, not proven for every possible input. base64 is used solely as the evidence/test oracle and is never invoked inside the vendored module.",
+        "knowledge": "Base32 (RFC 4648) encodes arbitrary bytes into a 32-character, case-insensitive-friendly alphabet (A-Z, 2-7), packing every 5 input bytes into 8 output symbols and padding a short final group with '=' — useful where the output must survive case-folding or be spoken/typed (TOTP secrets, DNS labels, filenames). This module implements the bit-packing directly rather than delegating to a library, exposing encode(bytes)->str and its exact inverse decode(str)->bytes, which fails closed on bad length, unknown symbols, or malformed padding. Vendor it for a dependency-free, auditable codec; the claim binds the RFC vectors and stdlib-oracle agreement, so you inherit a checked encoder rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "jsonpointer",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-JSONPOINTER-001",
+        "title": "RFC 6901 JSON Pointer resolution",
+        "area": "Data / JSON Processing",
+        "evidence_level": "measured",
+        "code_files": [
+            "jsonpointer.py"
+        ],
+        "artifact": "jsonpointer.json",
+        "register_metrics": [
+            "reference_cases",
+            "reference_cases_passed",
+            "failures"
+        ],
+        "bind_field": "reference_cases_passed",
+        "statement": "The vendored RFC 6901 JSON Pointer resolver reproduces every published result in RFC 6901 section 5's worked example — the exact example document evaluated at all 12 example pointers (\"\" -> whole document, \"/foo\" -> [\"bar\",\"baz\"], \"/foo/0\" -> \"bar\", \"/\" -> 0, \"/a~1b\" -> 1, \"/c%d\" -> 2, \"/e^f\" -> 3, \"/g|h\" -> 4, \"/i\\\\j\" -> 5, \"/k\\\"l\" -> 6, \"/ \" -> 7, \"/m~0n\" -> 8) — with reference_cases_passed = 12 and failures = 0, including the ~1 and ~0 unescaping (in that order) and the empty-pointer whole-document case.",
+        "caveat": "Correctness is demonstrated over RFC 6901's single published example set (12 pointers), not proven for every possible document or pointer. resolve raises KeyError on a missing object member and IndexError on an out-of-range, non-numeric, leading-zero, or '-' array index (it resolves an existing pointer rather than implementing JSON Pointer's URI-fragment '#' form or the RFC 6902 add/append semantics of '-').",
+        "knowledge": "A JSON Pointer (RFC 6901) is a compact string that identifies one value inside a JSON document: the empty string references the whole document, and otherwise a sequence of '/'-separated reference tokens walks object members by key and array elements by base-10 index. Because '/' and '~' are structural, they are escaped inside a token as ~1 and ~0 and must be unescaped ~1-before-~0 so that a literal '~1' round-trips. Vendor this module to dereference config paths, JSON Patch targets, or API response fields consistently; the claim proves it matches the RFC's own example evaluations, so you inherit a checked resolver rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "lru",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-LRU-001",
+        "title": "Fixed-capacity LRU cache",
+        "area": "Data Structures / Caching",
+        "evidence_level": "measured",
+        "code_files": [
+            "lru.py"
+        ],
+        "artifact": "lru.json",
+        "register_metrics": [
+            "n_operations",
+            "operations_correct",
+            "mismatches"
+        ],
+        "bind_field": "operations_correct",
+        "statement": "The vendored fixed-capacity LRU cache reproduces the correct behaviour on every operation of two hand-traced batteries (a capacity-3 mixed trace exercising hit-refresh, capacity eviction, and update-in-place, plus the canonical LeetCode-146 capacity-2 example): all 21 operations match their independently hand-computed get-results AND post-operation key sets (operations_correct = 21, mismatches = 0), and the cache size never exceeds capacity at any step.",
+        "caveat": "Correctness is demonstrated over two fixed, hand-derived operation traces (21 operations total), not proven for every possible sequence. Expected get-results and key sets are hand-computed in the evidence, never read back from the cache. The cache is single-threaded and not safe for concurrent mutation, holds strong references to keys/values (no TTL or weak-reference eviction), and uses least-RECENTLY-used as its only eviction policy (not LFU/size/cost-aware).",
+        "knowledge": "An LRU cache bounds memory by keeping at most `capacity` entries and, when full, evicting the key that has gone longest without being read or written -- the workhorse policy behind page caches, HTTP/object caches, and memoization tables. The classic O(1) implementation pairs a hash map with a recency-ordered linked list so both lookup and eviction are constant time; this module uses Python's `collections.OrderedDict` (move_to_end / popitem) to get the same behaviour in pure stdlib. Vendor it to add a checked, dependency-free cache; the claim proves the recency and eviction semantics match hand-derived reference traces, so you inherit a checked data structure rather than a re-implementation with an off-by-one eviction bug to re-audit."
+    },
+    {
+        "name": "deepEqual",
+        "lang": "typescript",
+        "claim_id": "CLAIM-LIB-DEEPEQUAL-001",
+        "title": "deepEqual structural deep equality",
+        "area": "TypeScript / Data Comparison",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "deepEqual.ts"
+        ],
+        "artifact": "deepEqual.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored TypeScript deepEqual(a, b) structural equality function returns the expected boolean on every one of a fixed 42-row reference battery whose expected values are hand-written independently of the module (correct = n_cases = 42, errors = 0), covering primitives, NaN-equals-NaN, null-distinct-from-undefined, arrays (length + element-wise), plain objects (identical key-set + recursive values, key-order irrelevant, undefined-value-vs-absent-key distinct), Date-by-getTime, and differing-type mismatches.",
+        "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) rather than asserting a specific tsc strictness. Cyclic structures are explicitly out of scope (a self-referential input recurses until stack overflow), and the plain-object comparison covers own enumerable string keys only -- not Maps, Sets, RegExps, typed arrays, symbol keys, or prototype/class identity.",
+        "knowledge": "Deep equality compares two values by structure rather than by reference: two distinct objects are equal when their contents match recursively, unlike the === operator which only reports reference identity for objects. The subtle edges are the ones JavaScript gets 'wrong' by default -- NaN !== NaN (so a structural comparator must special-case it to true), Dates and arrays need element/timestamp comparison, and an explicit `{a: undefined}` must stay distinct from `{}`. Vendor it for test assertions, memoization/change-detection, and cache-key checks; the claim proves the comparator handles these edges as specified, so you inherit a checked primitive rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "cx",
+        "lang": "typescript",
+        "claim_id": "CLAIM-LIB-CX-001",
+        "title": "cx classnames combiner",
+        "area": "TypeScript / UI Utilities",
+        "evidence_level": "measured",
+        "code_files": [
+            "cx.ts"
+        ],
+        "artifact": "cx.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored TypeScript cx classnames combiner produces the expected space-separated string on every one of a fixed 14-case reference battery whose expected outputs are hand-written literals independent of the module (correct = n_cases = 14, errors = 0), covering strings, numbers (nonzero kept, 0/NaN dropped), recursively flattened arrays, { className: boolean } objects (truthy keys only), skipped falsy inputs, preserved document order, and preserved duplicates.",
+        "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) rather than asserting the module type-checks under a specific tsc strictness. De-duplication is intentionally NOT performed and document order is preserved, so repeated tokens appear multiple times; the caller is responsible for any dedupe. Objects are iterated in Object.keys order; symbol keys and non-string/number/array/object token types contribute nothing.",
+        "knowledge": "A classnames combiner assembles the `class` attribute for a component from a mix of static strings and conditional flags, so you write cx(\"btn\", { active: isActive }, isLarge && \"btn-lg\") instead of hand-splicing strings and stray spaces. This is the ubiquitous `classnames`/`clsx` pattern: truthy tokens are joined with single spaces and every falsy value is dropped, with nested arrays flattened and object keys included only when their value is truthy. Vendor it to get dependency-free conditional class composition in TypeScript; the claim proves the join/skip/flatten behaviour matches hand-written expected strings, so you inherit a checked utility rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "groupBy",
+        "lang": "typescript",
+        "claim_id": "CLAIM-LIB-GROUPBY-001",
+        "title": "groupBy array partition (order-preserving)",
+        "area": "TypeScript / Collections",
+        "evidence_level": "measured",
+        "code_files": [
+            "groupBy.ts"
+        ],
+        "artifact": "groupBy.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored TypeScript groupBy(items, key) partitions an array into a Record<string, T[]> and produces the expected record on every one of a fixed 10-case reference battery whose expected records are hand-written independently of the module (correct = 10, errors = 0): buckets appear in first-seen key order and items keep their original input order within each bucket, covering parity/first-letter/object-field grouping, empty and singleton inputs, numeric-key coercion, and a data-driven \"__proto__\" key that becomes an ordinary own bucket with no prototype pollution.",
+        "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) rather than asserting the module type-checks under a specific tsc strictness. The comparison is by JSON.stringify, so it pins insertion/serialization order but treats key values as strings (numeric keys are coerced to strings and integer-like keys follow JS's own numeric-first property ordering); the key function must return a string.",
+        "knowledge": "groupBy is the workhorse collection primitive for turning a flat list into buckets keyed by a projection — the SQL GROUP BY of everyday code, used for tallies, indexes, and report rollups. The subtle correctness properties are stability (items must stay in input order within a bucket) and safety against a data-driven \"__proto__\" key, which naive plain-object implementations mishandle by mutating the prototype chain. This module accumulates in a Map (safe for every string key, order-preserving) and materialises the result with defineProperty, so it is both stable and pollution-safe; vendor it to inherit a checked partitioner rather than re-auditing another hand-rolled reduce."
+    },
+    {
+        "name": "chunk",
+        "lang": "typescript",
+        "claim_id": "CLAIM-LIB-CHUNK-001",
+        "title": "chunk array into fixed-size groups",
+        "area": "TypeScript / Array Utilities",
+        "evidence_level": "measured",
+        "code_files": [
+            "chunk.ts"
+        ],
+        "artifact": "chunk.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors",
+            "invalid_inputs_rejected"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored TypeScript chunk<T>(arr, size) partitions an array into consecutive fixed-size sub-arrays (final chunk shorter when length is not an exact multiple) and produces the expected partition on every one of a fixed 8-case reference battery whose expected outputs are hand-written independently of the module (correct = n_cases = 8, errors = 0), including the spec examples chunk([1..7],3)->[[1,2,3],[4,5,6],[7]] and chunk([],3)->[]; it also rejects all 4 invalid sizes (0, -1, -5, 1.5) with a RangeError (invalid_inputs_rejected = 4).",
+        "caveat": "Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) — it does not assert the module type-checks under a specific tsc strictness. The guard rejects any size that is not an integer >= 1 (so fractional sizes throw, slightly stronger than the literal 'size < 1' spec); chunks are shallow slices, so nested object elements are shared by reference with the input.",
+        "knowledge": "Chunking splits a flat list into fixed-size batches — the standard primitive behind paginating results, batching API/database writes, and laying items into grid rows. chunk(arr, size) walks the array in strides of `size`, slicing each window, so the final batch is shorter whenever the length is not a multiple of the size, and an empty input yields no chunks. A size below 1 has no sensible meaning (and a naive loop would never advance), so it fails closed with a RangeError. Vendor it to get dependency-free, off-by-one-checked batching instead of re-deriving slice math in every project."
+    },
+    {
+        "name": "parseQuery",
+        "lang": "typescript",
+        "claim_id": "CLAIM-LIB-PARSEQUERY-001",
+        "title": "Query-string parse + stringify",
+        "area": "TypeScript / URL & Web",
+        "evidence_level": "measured",
+        "code_files": [
+            "parseQuery.ts"
+        ],
+        "artifact": "parseQuery.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored TypeScript parseQuery / stringifyQuery pair produces the expected result on every one of a fixed 32-case reference battery whose expected values are written independently of the module (correct = 32, errors = 0): hand-written parse/stringify expectations (repeated keys -> ordered arrays such as parseQuery(\"?a=1&b=2&a=3\") -> {a:[\"1\",\"3\"], b:\"2\"}, leading \"?\" handling, URI-decoding, empty-pair skipping, extra-\"=\" handling), stringify's stable sorted key order and form-style encoding, round-trip stability, and a per-key cross-check of decoding against the built-in URLSearchParams.getAll (an independent reference).",
+        "caveat": "Correctness is demonstrated over a fixed reference battery run under node, not proven for all inputs, and the evidence checks runtime behaviour rather than asserting the module type-checks under a specific tsc strictness. The serializer emits keys in sorted order (not insertion order) and uses application/x-www-form-urlencoded style ('+' for space), so a stringify->parse round-trip preserves values but may reorder keys and normalizes '+'/%20; it is not a byte-exact inverse of every arbitrary query string.",
+        "knowledge": "A URL query string is a '&'-separated list of 'key=value' pairs where keys can repeat and both sides are percent-encoded (with '+' historically meaning space in form submissions). parseQuery decodes each pair and collapses repeated keys into ordered arrays so 'a=1&a=3' becomes {a:[\"1\",\"3\"]}, while stringifyQuery reverses that with a deterministic sorted key order for stable, diffable output. Vendor it to read and build query strings consistently with zero dependencies; the claim proves the parse/serialize behaviour matches hand-written expectations and agrees with URLSearchParams, so you inherit a checked helper rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "formatDuration",
+        "lang": "typescript",
+        "claim_id": "CLAIM-LIB-FORMATDURATION-001",
+        "title": "formatDuration compact duration formatter",
+        "area": "TypeScript / Formatting",
+        "evidence_level": "measured",
+        "code_files": [
+            "formatDuration.ts"
+        ],
+        "artifact": "formatDuration.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored TypeScript formatDuration(ms) renders a compact human-readable duration matching a hand-written reference table on every one of a fixed 21-case battery whose expected strings are computed independently of the module (correct = 21, errors = 0): it drops zero-valued units, renders the value 0 as \"0s\", truncates sub-second remainders to whole seconds, composes d/h/m/s (e.g. 90061000ms -> \"1d 1h 1m 1s\"), and throws RangeError on negative and non-finite input.",
+        "caveat": "Correctness is demonstrated over a fixed reference battery run with node (runtime behaviour), not proven for all inputs and not asserting the module type-checks under a specific tsc strictness. Output is English single-letter units (d/h/m/s) with no localization, pluralization, weeks/months, or fractional-second display; sub-second precision is truncated (floored), not rounded.",
+        "knowledge": "A compact duration formatter turns a raw millisecond count into a short human-readable string for logs, dashboards and UIs. formatDuration decomposes the value into days (86400s), hours (3600s), minutes (60s) and seconds, then drops zero-valued units so only the significant magnitudes show (with the whole-value 0 special-cased to \"0s\"), floors sub-second remainders, and rejects negative or non-finite input with a RangeError. Vendor it for consistent, dependency-free duration display; the claim proves the output matches an independent reference table, so you inherit a checked formatter rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "useUndoRedo",
+        "lang": "react",
+        "claim_id": "CLAIM-LIB-USEUNDOREDO-001",
+        "title": "useUndoRedo React hook",
+        "area": "React / UI State",
+        "evidence_level": "measured",
+        "code_files": [
+            "useUndoRedo.tsx",
+            "undoredo.logic.ts"
+        ],
+        "artifact": "useUndoRedo.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The pure undo/redo core behind the useUndoRedo React hook (a {past, present, future} history with push/undo/redo/canUndo/canRedo) produces the correct present value and canUndo/canRedo flags after every step of a fixed 12-action reference sequence with independently hand-computed expected snapshots (correct = n_cases = 12, errors = 0), including redo-stack clearing on a new set(), and undo-at-base / redo-at-tip fail-closed no-ops.",
+        "caveat": "The claim covers the framework-agnostic core (undoredo.logic.ts) run under node, NOT React runtime rendering: the vendored useUndoRedo.tsx is a thin, reviewed useReducer binding over that core and is shipped but not rendered in the evidence. Correctness is demonstrated over one fixed action sequence, not proven for all histories or value types.",
+        "knowledge": "Undo/redo is most robustly modeled as three immutable stacks — past states, the present, and a future (redo) stack — rather than mutating one buffer. A new edit (push) records the old present onto past and clears future, so an edit made after undoing forks history and discards the abandoned redo branch, matching how editors behave. Keeping this logic in a pure, framework-agnostic core makes the tricky part (stack transitions, boundary no-ops) unit-testable without a DOM, while the React hook stays a thin useReducer binding. Vendor both; the claim proves the core transitions are correct, so you inherit checked history state instead of re-deriving stack juggling per project."
+    },
+    {
+        "name": "useAsync",
+        "lang": "react",
+        "claim_id": "CLAIM-LIB-USEASYNC-001",
+        "title": "useAsync React hook (async request state machine)",
+        "area": "React / UI State",
+        "evidence_level": "measured",
+        "code_files": [
+            "useAsync.tsx",
+            "async.logic.ts"
+        ],
+        "artifact": "useAsync.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The pure async state machine behind the useAsync React hook produces the correct next-state on every one of a fixed 9-row transition table with independently hand-written expected states (correct = n_cases = 9, errors = 0): start -> pending always clears error and preserves prior data (stale-while-revalidate), resolve -> success sets data and clears error, and reject -> error sets error and preserves prior data, across idle/pending/success/error origins including falsy (0) resolve data.",
+        "caveat": "The claim covers the framework-agnostic core reducer (async.logic.ts) run under node, NOT React runtime rendering: the vendored useAsync.tsx is a thin, reviewed binding (useReducer + a run callback that dispatches start then resolve/reject) shipped but not executed in the evidence. Correctness is demonstrated over a fixed transition table, not proven for all state/action combinations; the reducer is total (unknown actions leave state unchanged) but the battery does not enumerate every path.",
+        "knowledge": "Most async-UI bugs are state-machine bugs, not markup: a request is simultaneously loading, has stale data, and might error, and ad-hoc booleans (isLoading, hasError) drift out of sync. The durable fix is to model the request as an explicit status: idle | pending | success | error and drive it with a pure reducer, keeping the React hook a thin binding so the transitions are unit-testable without a DOM. useAsync does exactly that: async.logic.ts is the reducer over {status, data, error} and useAsync.tsx wraps it in useReducer with a run() that dispatches start then resolve/reject. Vendor both; the claim proves the core transitions, so you inherit a checked request state machine rather than re-deriving loading-flag logic in every component."
+    },
+    {
+        "name": "useStepper",
+        "lang": "react",
+        "claim_id": "CLAIM-LIB-USESTEPPER-001",
+        "title": "useStepper React hook",
+        "area": "React / UI State",
+        "evidence_level": "measured",
+        "code_files": [
+            "useStepper.tsx",
+            "stepper.logic.ts"
+        ],
+        "artifact": "useStepper.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The pure stepper core behind the useStepper React hook computes the correct multi-step navigation state (index clamped to [0, stepCount-1], isFirst/isLast flags, progress = index/(stepCount-1) rounded to 4 dp or 0 for a single step, and clamped next/prev targets) on every one of a fixed 11-case reference battery with independently hand-computed expected states (correct = n_cases = 11, errors = 0).",
+        "caveat": "The claim covers the framework-agnostic core (stepper.logic.ts) run under node, NOT React runtime rendering: the vendored useStepper.tsx is a thin, reviewed binding over that core (useState + useMemo) and is shipped but not rendered in the evidence. Correctness is demonstrated over a fixed battery, not proven for all inputs; the core fails closed (RangeError) on a non-positive or non-integer stepCount.",
+        "knowledge": "Multi-step wizards are a classic source of off-by-one bugs: clamping the active step, deciding when Back/Next should disable, and computing a progress fraction all invite index errors. The durable pattern is to put that arithmetic in a pure, framework-agnostic function and make the hook a thin binding, so the hard part is unit-testable without a DOM. useStepper does exactly that: stepper.logic.ts derives the clamped index, isFirst/isLast flags, a 0..1 progress value and clamped next/prev targets, and useStepper.tsx wraps it in useState/useMemo. Vendor both; the claim proves the core is correct, so you inherit checked wizard-navigation state rather than re-deriving clamp and progress math in every project."
+    },
+    {
+        "name": "useDebouncedValue",
+        "lang": "react",
+        "claim_id": "CLAIM-LIB-USEDEBOUNCED-001",
+        "title": "useDebouncedValue React hook",
+        "area": "React / UI State",
+        "evidence_level": "measured",
+        "code_files": [
+            "useDebouncedValue.tsx",
+            "debounce.logic.ts"
+        ],
+        "artifact": "useDebouncedValue.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The pure trailing-debounce core behind the useDebouncedValue React hook reproduces the hand-computed emissions on every one of a fixed 9-case reference battery of event traces (correct = n_cases = 9, errors = 0): rapid bursts collapse to their last value, events spaced at least delayMs apart each emit at eventTime + delayMs, a gap exactly equal to delayMs counts as fired, and a gap one below is coalesced. Expected emissions are derived by hand from the trailing-debounce definition, independent of the module.",
+        "caveat": "The claim covers the framework-agnostic core (debounce.logic.ts) run under node, NOT React runtime rendering or real timers: the vendored useDebouncedValue.tsx is a thin, reviewed setTimeout binding over the same model, shipped but not executed in the evidence. The simulator assumes a chronologically sorted event trace and models a boundary gap of exactly delayMs as fired (>=); correctness is demonstrated over a fixed battery, not proven for all traces.",
+        "knowledge": "Debouncing coalesces a rapid stream of events (keystrokes, resize, scroll) into a single trailing update that fires only after activity has been quiet for delayMs, so expensive work runs once instead of on every change. The effective React pattern is to put the timing model in a pure, framework-agnostic function and make the hook a thin binding, so the off-by-one-prone logic is unit-testable without a DOM or fake timers. debounce.logic.ts is a deterministic simulator: emitDebounced(events, delayMs) returns, for a trace of timed values, exactly the emissions a trailing debounce would produce, and useDebouncedValue.tsx wraps that same model in useState + useEffect + setTimeout. Vendor both; the claim proves the core timing is correct, so you inherit checked debounce behaviour rather than re-deriving timer-reset logic in every project."
+    }
+]

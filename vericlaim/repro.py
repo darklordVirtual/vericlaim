@@ -165,12 +165,16 @@ def run_declarative(cfg: Config, spec: ReproSpec) -> ReproductionResult:
         argv = [a.replace(_OUTPUT_TOKEN, str(output_dir)) for a in spec.argv]
         start = time.monotonic()
         try:
-            # start_new_session=True puts the child in its own process GROUP, so
-            # a timeout can kill the child AND any grandchildren it spawned.
+            # Put the child in its own process GROUP so a timeout can kill the
+            # child AND any grandchildren it spawned. POSIX: start_new_session
+            # (setsid). Windows: CREATE_NEW_PROCESS_GROUP (killed via taskkill /T).
+            group_kwargs: dict = (
+                {"creationflags": subprocess.CREATE_NEW_PROCESS_GROUP}
+                if os.name == "nt" else {"start_new_session": True})
             proc = subprocess.Popen(
                 argv, cwd=cfg.root, env=env,
                 stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-                start_new_session=True)
+                **group_kwargs)
         except FileNotFoundError as exc:
             return ReproductionResult(False, f"command not found: {exc}", command)
         try:
@@ -225,7 +229,23 @@ def run_declarative(cfg: Config, spec: ReproSpec) -> ReproductionResult:
 
 
 def _kill_group(proc: subprocess.Popen) -> None:
-    """Kill the timed-out child's whole process group (child + grandchildren)."""
+    """Kill the timed-out child's whole process group (child + grandchildren).
+
+    POSIX kills the process group via SIGKILL; Windows uses ``taskkill /T`` to
+    reach the whole tree (there is no os.killpg on Windows). Either path falls
+    back to killing just the child if the group kill is unavailable.
+    """
+    if os.name == "nt":
+        try:
+            subprocess.run(["taskkill", "/F", "/T", "/PID", str(proc.pid)],
+                           capture_output=True)
+        except OSError:
+            pass
+        try:
+            proc.kill()
+        except OSError:
+            pass
+        return
     import signal
     try:
         os.killpg(os.getpgid(proc.pid), signal.SIGKILL)

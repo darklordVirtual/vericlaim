@@ -1,0 +1,115 @@
+{
+  "cases": [
+    {
+      "computed": {
+        "": 0,
+        " ": 7,
+        "a/b": 1,
+        "c%d": 2,
+        "e^f": 3,
+        "foo": [
+          "bar",
+          "baz"
+        ],
+        "g|h": 4,
+        "i\\j": 5,
+        "k\"l": 6,
+        "m~n": 8
+      },
+      "expected": {
+        "": 0,
+        " ": 7,
+        "a/b": 1,
+        "c%d": 2,
+        "e^f": 3,
+        "foo": [
+          "bar",
+          "baz"
+        ],
+        "g|h": 4,
+        "i\\j": 5,
+        "k\"l": 6,
+        "m~n": 8
+      },
+      "match": true,
+      "pointer": ""
+    },
+    {
+      "computed": [
+        "bar",
+        "baz"
+      ],
+      "expected": [
+        "bar",
+        "baz"
+      ],
+      "match": true,
+      "pointer": "/foo"
+    },
+    {
+      "computed": "bar",
+      "expected": "bar",
+      "match": true,
+      "pointer": "/foo/0"
+    },
+    {
+      "computed": 0,
+      "expected": 0,
+      "match": true,
+      "pointer": "/"
+    },
+    {
+      "computed": 1,
+      "expected": 1,
+      "match": true,
+      "pointer": "/a~1b"
+    },
+    {
+      "computed": 2,
+      "expected": 2,
+      "match": true,
+      "pointer": "/c%d"
+    },
+    {
+      "computed": 3,
+      "expected": 3,
+      "match": true,
+      "pointer": "/e^f"
+    },
+    {
+      "computed": 4,
+      "expected": 4,
+      "match": true,
+      "pointer": "/g|h"
+    },
+    {
+      "computed": 5,
+      "expected": 5,
+      "match": true,
+      "pointer": "/i\\j"
+    },
+    {
+      "computed": 6,
+      "expected": 6,
+      "match": true,
+      "pointer": "/k\"l"
+    },
+    {
+      "computed": 7,
+      "expected": 7,
+      "match": true,
+      "pointer": "/ "
+    },
+    {
+      "computed": 8,
+      "expected": 8,
+      "match": true,
+      "pointer": "/m~0n"
+    }
+  ],
+  "failures": 0,
+  "module": "jsonpointer",
+  "reference_cases": 12,
+  "reference_cases_passed": 12,
+  "schema": "claimlib_jsonpointer_v1"
+}

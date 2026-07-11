@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "useDebouncedValue.json",
+  "artifact_sha256": "2eb0fb0df84d9a9b4164a77a8e3f5a1cce659635faa0e72c5380126ef1e5d653",
+  "script": "node claimlib/react/useDebouncedValue/evidence.ts",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T09:25:32.044525+00:00",
+  "produced_by": "claimlib"
+}

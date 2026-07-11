@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/formatDuration.json": "7ab08f1b176348f2cb2e04ef4739340074853bc4e27b6e8d909ac8b00ca5749c",
+    "claim.json": "0b6b7e18552622ff232e9e0da0e5ea7f01fde2b1d2c5c5881256d32cdfa3f3bf",
+    "code/formatDuration.ts": "24e0fbc3321f0e3f5163f736669444cd47fdb890679bd13fc077dcfc0ceef774",
+    "provenance.json": "38d202a1b762db54beccaf12b292cdcf4349a82a84e6621ec5194a3fb78ad1aa"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

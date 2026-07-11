@@ -1,0 +1,17 @@
+# claimlib gate — a curated standard library of pre-verified, vendorable code
+# artifacts. Every module's key property is a claim backed by committed evidence.
+# Regenerate: python claimlib/build.py
+[vericlaim]
+profile             = "adopt"
+register            = "claims/register.yaml"
+baseline            = "claims/baseline.json"
+doc_globs           = ["docs/*.md", "README.md"]
+# Bind numbers stated in module source comments too (evidence scripts anchor
+# their measured counts). Pure library files carry no anchors and just pass.
+code_globs          = ["modules/*/*.py"]
+required_fields     = ["id", "statement", "evidence_level", "artifact", "caveat"]
+evidence_levels     = ["theoretical", "measured", "benchmarked", "reproduced", "machine_checked", "externally_validated"]
+require_provenance  = true
+require_git_tracked = false
+
+[vericlaim.stale_strings]

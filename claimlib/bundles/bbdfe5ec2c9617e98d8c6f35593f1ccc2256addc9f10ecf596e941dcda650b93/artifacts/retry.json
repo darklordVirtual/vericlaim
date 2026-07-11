@@ -1,0 +1,109 @@
+{
+  "base": 1.0,
+  "cap": 60.0,
+  "deterministic": 1,
+  "module": "retry",
+  "n_attempts": 16,
+  "out_of_bounds": 0,
+  "schedule": [
+    {
+      "attempt": 0,
+      "ceiling": 1.0,
+      "delay": 0.326024,
+      "within": true
+    },
+    {
+      "attempt": 1,
+      "ceiling": 2.0,
+      "delay": 1.832892,
+      "within": true
+    },
+    {
+      "attempt": 2,
+      "ceiling": 4.0,
+      "delay": 1.339156,
+      "within": true
+    },
+    {
+      "attempt": 3,
+      "ceiling": 8.0,
+      "delay": 4.552034,
+      "within": true
+    },
+    {
+      "attempt": 4,
+      "ceiling": 16.0,
+      "delay": 8.654056,
+      "within": true
+    },
+    {
+      "attempt": 5,
+      "ceiling": 32.0,
+      "delay": 27.09935,
+      "within": true
+    },
+    {
+      "attempt": 6,
+      "ceiling": 60.0,
+      "delay": 43.088756,
+      "within": true
+    },
+    {
+      "attempt": 7,
+      "ceiling": 60.0,
+      "delay": 2.273131,
+      "within": true
+    },
+    {
+      "attempt": 8,
+      "ceiling": 60.0,
+      "delay": 25.181273,
+      "within": true
+    },
+    {
+      "attempt": 9,
+      "ceiling": 60.0,
+      "delay": 47.621155,
+      "within": true
+    },
+    {
+      "attempt": 10,
+      "ceiling": 60.0,
+      "delay": 9.933486,
+      "within": true
+    },
+    {
+      "attempt": 11,
+      "ceiling": 60.0,
+      "delay": 12.044211,
+      "within": true
+    },
+    {
+      "attempt": 12,
+      "ceiling": 60.0,
+      "delay": 41.131527,
+      "within": true
+    },
+    {
+      "attempt": 13,
+      "ceiling": 60.0,
+      "delay": 5.74583,
+      "within": true
+    },
+    {
+      "attempt": 14,
+      "ceiling": 60.0,
+      "delay": 42.620699,
+      "within": true
+    },
+    {
+      "attempt": 15,
+      "ceiling": 60.0,
+      "delay": 24.071619,
+      "within": true
+    }
+  ],
+  "schema": "claimlib_retry_v1",
+  "seed": 1337,
+  "within_bounds": 16
+}

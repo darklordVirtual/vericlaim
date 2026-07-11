@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "crc32.json",
+  "artifact_sha256": "f57393a9c4b7523fe69ea94b09f124019fc9d730fa29219d695bab6cacd18c51",
+  "script": "python3 claimlib/modules/crc32/evidence.py",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T09:21:49.951682+00:00",
+  "produced_by": "claimlib"
+}

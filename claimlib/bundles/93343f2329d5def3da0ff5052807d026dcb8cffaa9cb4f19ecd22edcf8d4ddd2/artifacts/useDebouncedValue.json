@@ -1,0 +1,7 @@
+{
+  "correct": 9,
+  "errors": 0,
+  "module": "useDebouncedValue",
+  "n_cases": 9,
+  "schema": "claimlib_usedebounced_v1"
+}

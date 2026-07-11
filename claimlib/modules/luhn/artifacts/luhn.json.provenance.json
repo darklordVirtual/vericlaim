@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "luhn.json",
+  "artifact_sha256": "35667392f7d454cc74f6a2af6cb61d6713be50b4e9513adebd0e8abba9ef829c",
+  "script": "python3 claimlib/modules/luhn/evidence.py",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T08:48:11.109854+00:00",
+  "produced_by": "claimlib"
+}

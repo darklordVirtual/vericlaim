@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "index": 0,
+      "proof_len": 4,
+      "tamper_rejected": true,
+      "verified": true
+    },
+    {
+      "index": 1,
+      "proof_len": 4,
+      "tamper_rejected": true,
+      "verified": true
+    },
+    {
+      "index": 2,
+      "proof_len": 4,
+      "tamper_rejected": true,
+      "verified": true
+    },
+    {
+      "index": 3,
+      "proof_len": 4,
+      "tamper_rejected": true,
+      "verified": true
+    },
+    {
+      "index": 4,
+      "proof_len": 4,
+      "tamper_rejected": true,
+      "verified": true
+    },
+    {
+      "index": 5,
+      "proof_len": 4,
+      "tamper_rejected": true,
+      "verified": true
+    },
+    {
+      "index": 6,
+      "proof_len": 4,
+      "tamper_rejected": true,
+      "verified": true
+    },
+    {
+      "index": 7,
+      "proof_len": 4,
+      "tamper_rejected": true,
+      "verified": true
+    },
+    {
+      "index": 8,
+      "proof_len": 4,
+      "tamper_rejected": true,
+      "verified": true
+    }
+  ],
+  "false_accepts": 0,
+  "hash": "sha256",
+  "independent_root_match": true,
+  "module": "merkle",
+  "n_leaves": 9,
+  "odd_level_rule": "duplicate-last-node",
+  "proofs_verified": 9,
+  "root": "1ead1c85f7048ae95d0c50384ff9f820d39f7acb861a5a6361a0916e99bf077d",
+  "schema": "claimlib_merkle_v1",
+  "tampered_rejected": 9
+}

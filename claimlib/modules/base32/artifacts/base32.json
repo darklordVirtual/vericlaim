@@ -1,0 +1,145 @@
+{
+  "cases": [
+    {
+      "decoded_ok": true,
+      "encoded": "",
+      "expected": "",
+      "input_hex": "",
+      "kind": "rfc4648-s10",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "MY======",
+      "expected": "MY======",
+      "input_hex": "66",
+      "kind": "rfc4648-s10",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "MZXQ====",
+      "expected": "MZXQ====",
+      "input_hex": "666f",
+      "kind": "rfc4648-s10",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "MZXW6===",
+      "expected": "MZXW6===",
+      "input_hex": "666f6f",
+      "kind": "rfc4648-s10",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "MZXW6YQ=",
+      "expected": "MZXW6YQ=",
+      "input_hex": "666f6f62",
+      "kind": "rfc4648-s10",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "MZXW6YTB",
+      "expected": "MZXW6YTB",
+      "input_hex": "666f6f6261",
+      "kind": "rfc4648-s10",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "MZXW6YTBOI======",
+      "expected": "MZXW6YTBOI======",
+      "input_hex": "666f6f626172",
+      "kind": "rfc4648-s10",
+      "match": true
+    },
+    {
+      "encoded": "",
+      "expected": "",
+      "input_hex": "",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    },
+    {
+      "encoded": "AA======",
+      "expected": "AA======",
+      "input_hex": "00",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    },
+    {
+      "encoded": "AAAAAAAA",
+      "expected": "AAAAAAAA",
+      "input_hex": "0000000000",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    },
+    {
+      "encoded": "77777777",
+      "expected": "77777777",
+      "input_hex": "ffffffffff",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    },
+    {
+      "encoded": "JBSWY3DPFQQFO33SNRSCC===",
+      "expected": "JBSWY3DPFQQFO33SNRSCC===",
+      "input_hex": "48656c6c6f2c20576f726c6421",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    },
+    {
+      "encoded": "KRUGKIDROVUWG2ZAMJZG653OEBTG66BANJ2W24DTEBXXMZLSEB2GQZJANRQXU6JAMRXWOLQ=",
+      "expected": "KRUGKIDROVUWG2ZAMJZG653OEBTG66BANJ2W24DTEBXXMZLSEB2GQZJANRQXU6JAMRXWOLQ=",
+      "input_hex": "54686520717569636b2062726f776e20666f78206a756d7073206f76657220746865206c617a7920646f672e",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    },
+    {
+      "encoded": "AAAQEAYEAUDAOCAJBIFQYDIOB4IBCEQTCQKRMFYYDENBWHA5DYPSAIJCEMSCKJRHFAUSUKZMFUXC6MBRGIZTINJWG44DSOR3HQ6T4P2AIFBEGRCFIZDUQSKKJNGE2TSPKBIVEU2UKVLFOWCZLJNVYXK6L5QGCYTDMRSWMZ3INFVGW3DNNZXXA4LSON2HK5TXPB4XU634PV7H7AEBQKBYJBMGQ6EITCULRSGY5D4QSGJJHFEVS2LZRGM2TOOJ3HU7UCQ2FI5EUWTKPKFJVKV2ZLNOV6YLDMVTWS23NN5YXG5LXPF5X274BQOCYPCMLRWHZDE4VS6MZXHM7UGR2LJ5JVOW27MNTWW33TO55X7A4HROHZHF43T6R2PK5PWO33XP6DY7F47U6X3PP6HZ7L57Z7P674======",
+      "expected": "AAAQEAYEAUDAOCAJBIFQYDIOB4IBCEQTCQKRMFYYDENBWHA5DYPSAIJCEMSCKJRHFAUSUKZMFUXC6MBRGIZTINJWG44DSOR3HQ6T4P2AIFBEGRCFIZDUQSKKJNGE2TSPKBIVEU2UKVLFOWCZLJNVYXK6L5QGCYTDMRSWMZ3INFVGW3DNNZXXA4LSON2HK5TXPB4XU634PV7H7AEBQKBYJBMGQ6EITCULRSGY5D4QSGJJHFEVS2LZRGM2TOOJ3HU7UCQ2FI5EUWTKPKFJVKV2ZLNOV6YLDMVTWS23NN5YXG5LXPF5X274BQOCYPCMLRWHZDE4VS6MZXHM7UGR2LJ5JVOW27MNTWW33TO55X7A4HROHZHF43T6R2PK5PWO33XP6DY7F47U6X3PP6HZ7L57Z7P674======",
+      "input_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    },
+    {
+      "encoded": "32W353Y=",
+      "expected": "32W353Y=",
+      "input_hex": "deadbeef",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    },
+    {
+      "encoded": "AERUKZ4JVPG66===",
+      "expected": "AERUKZ4JVPG66===",
+      "input_hex": "0123456789abcdef",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    },
+    {
+      "encoded": "OZSXE2LDNRQWS3I=",
+      "expected": "OZSXE2LDNRQWS3I=",
+      "input_hex": "76657269636c61696d",
+      "kind": "stdlib-cross",
+      "match": true,
+      "roundtrip": true
+    }
+  ],
+  "mismatches": 0,
+  "module": "base32",
+  "reference_vectors": 17,
+  "reference_vectors_matched": 17,
+  "schema": "claimlib_base32_v1"
+}

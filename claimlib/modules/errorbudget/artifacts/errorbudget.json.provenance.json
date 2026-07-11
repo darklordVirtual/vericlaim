@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "errorbudget.json",
+  "artifact_sha256": "24c27abb859ce0131a9e3c83575c2616055c44cafa89bdf31538e06e96313a15",
+  "script": "python3 claimlib/modules/errorbudget/evidence.py",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T08:48:39.038287+00:00",
+  "produced_by": "claimlib"
+}

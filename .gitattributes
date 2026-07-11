@@ -1,0 +1,26 @@
+# vericlaim is a byte-exact integrity tool: evidence artifacts, provenance
+# sidecars and hash-locked literature snapshots are SHA-256'd on their LF
+# content. A CRLF checkout (Windows default core.autocrlf=true) rewrites those
+# bytes and breaks every provenance hash, failing the gate on a clean clone.
+# Force LF for the whole tree so a checkout on any OS reproduces the hashes.
+
+* text=auto eol=lf
+
+# Evidence and integrity files: never touch these bytes, ever.
+*.json      text eol=lf
+*.provenance.json text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.md        text eol=lf
+*.py        text eol=lf
+*.txt       text eol=lf
+
+# Genuinely binary assets: leave untouched, no EOL translation.
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.pdf       binary
+*.ico       binary
+*.woff      binary
+*.woff2     binary

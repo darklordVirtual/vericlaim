@@ -24,11 +24,18 @@ Usage (see mappings/*.toml for per-source configs):
 from __future__ import annotations
 
 import argparse
+import os
 import shlex
 import subprocess
 import sys
 import tomllib
 from pathlib import Path
+
+
+def _split_cmd(cmd: str) -> list[str]:
+    """shlex.split, but POSIX-off on Windows so backslashes in paths (e.g. the
+    Python executable in ``gate_cmd``/``reproduce``) are not eaten as escapes."""
+    return shlex.split(cmd, posix=(os.name != "nt"))
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from bundlefmt import build_bundle  # noqa: E402
@@ -66,7 +73,7 @@ def _git_commit(root: Path) -> str:
 
 
 def _run_source_gate(src: Path, gate_cmd: str) -> None:
-    proc = subprocess.run(shlex.split(gate_cmd), cwd=src,
+    proc = subprocess.run(_split_cmd(gate_cmd), cwd=src,
                           capture_output=True, text=True)
     if proc.returncode != 0:
         raise HarvestError(
@@ -95,7 +102,7 @@ def _reproduce_scripts(src: Path, reproduce: str | None) -> list[str]:
     if not reproduce:
         return []
     out = []
-    for token in shlex.split(str(reproduce)):
+    for token in _split_cmd(str(reproduce)):
         p = src / token
         if p.is_file():
             out.append(token)

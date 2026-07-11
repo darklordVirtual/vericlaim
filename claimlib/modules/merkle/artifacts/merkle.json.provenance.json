@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "merkle.json",
+  "artifact_sha256": "b3d3f040f4065039016127ed9763d5450a1a92ae8ae4e4c81fec60bb961d0e33",
+  "script": "python3 claimlib/modules/merkle/evidence.py",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T08:48:56.958811+00:00",
+  "produced_by": "claimlib"
+}

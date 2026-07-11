@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "rbac.json",
+  "artifact_sha256": "cc9ebe041804fa45a46ac7fa613ad71673e16d8f648c4cddfcc6ba246a34e774",
+  "script": "python3 claimlib/modules/rbac/evidence.py",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T08:49:03.950177+00:00",
+  "produced_by": "claimlib"
+}

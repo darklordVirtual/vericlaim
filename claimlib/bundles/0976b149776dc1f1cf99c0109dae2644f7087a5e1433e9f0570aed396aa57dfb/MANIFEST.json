@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/deepEqual.json": "a23ec0a2f67cc4cb01d80faa07342a9caa51ef3780a37d1a1c79ad00de01ae08",
+    "claim.json": "40bd7f8701dcc4550fe9b82028e9ce1ef83a66af321ffafa7faa029f88e3599a",
+    "code/deepEqual.ts": "b7939e4fdd401b2b3e1431c2c6066539cfa69d4718e338d32534f5101a55c09a",
+    "provenance.json": "8266eef86dc2dd84a2cd5ea756da8d85e9c4fe0a360e63adf351902d47398039"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

@@ -1,0 +1,5 @@
+{
+  "schema": "vericlaim_baseline_v1",
+  "description": "claimlib starts green; no grandfathered violations.",
+  "known_violations": []
+}

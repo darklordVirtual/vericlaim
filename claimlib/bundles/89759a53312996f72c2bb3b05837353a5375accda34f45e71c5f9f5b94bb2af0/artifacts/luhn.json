@@ -1,0 +1,109 @@
+{
+  "cases": [
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "number": "4111111111111111"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "number": "5555555555554444"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "number": "378282246310005"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "number": "6011111111111117"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "number": "371449635398431"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "number": "30569309025904"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "number": "79927398713"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "number": "0"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "number": "4111111111111112"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "number": "5555555555554445"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "number": "79927398714"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "number": "1234567890123456"
+    }
+  ],
+  "check_digit_cases": 4,
+  "check_digit_correct": 4,
+  "check_digit_detail": [
+    {
+      "computed_check_digit": 3,
+      "correct": true,
+      "expected_check_digit": 3,
+      "partial": "7992739871"
+    },
+    {
+      "computed_check_digit": 1,
+      "correct": true,
+      "expected_check_digit": 1,
+      "partial": "411111111111111"
+    },
+    {
+      "computed_check_digit": 4,
+      "correct": true,
+      "expected_check_digit": 4,
+      "partial": "555555555555444"
+    },
+    {
+      "computed_check_digit": 5,
+      "correct": true,
+      "expected_check_digit": 5,
+      "partial": "37828224631000"
+    }
+  ],
+  "correct": 12,
+  "errors": 0,
+  "module": "luhn",
+  "n_cases": 12,
+  "schema": "claimlib_luhn_v1"
+}

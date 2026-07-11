@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "usePagination.json",
+  "artifact_sha256": "d422a9cd19a6175c27e7441dce556ea95f7bb28102ebc8f7f2e7ebdb7aa2db4d",
+  "script": "node claimlib/react/usePagination/evidence.ts",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T09:17:40.957393+00:00",
+  "produced_by": "claimlib"
+}
