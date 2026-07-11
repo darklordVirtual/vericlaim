@@ -1,0 +1,18 @@
+{
+  "checkdigit_defined": 9091,
+  "module": "mod11",
+  "n_payloads": 10000,
+  "orgnr_reference_ok": true,
+  "roundtrip_failures": 0,
+  "roundtrip_valid": 9091,
+  "schema": "claimlib_mod11_v1",
+  "tamper_detected": 409095,
+  "tamper_missed": 0,
+  "tamper_mutations": 409095,
+  "weights": [
+    2,
+    3,
+    4,
+    5
+  ]
+}

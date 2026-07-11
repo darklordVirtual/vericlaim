@@ -1,0 +1,19 @@
+{
+  "crosscheck_matched": 266,
+  "crosscheck_vectors": 266,
+  "mismatches": 0,
+  "module": "modbus_crc",
+  "published_detail": [
+    {
+      "computed": 19255,
+      "expected": 19255,
+      "input": "123456789",
+      "match": true
+    }
+  ],
+  "published_vectors": 1,
+  "reference_vectors": 267,
+  "reference_vectors_matched": 267,
+  "roundtrip_ok": true,
+  "schema": "claimlib_modbus_crc_v1"
+}

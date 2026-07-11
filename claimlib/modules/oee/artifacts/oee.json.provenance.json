@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "oee.json",
+  "artifact_sha256": "6f7cd2990ccc8fbd06a36688faf4237b42d42b836209002cdd2f255154366bc8",
+  "script": "python3 claimlib/modules/oee/evidence.py",
+  "git_commit": "f6af4423f200f7d418bcd84db0c491cf559606c5",
+  "generated_at": "2026-07-11T13:42:29.119714+00:00",
+  "produced_by": "claimlib"
+}

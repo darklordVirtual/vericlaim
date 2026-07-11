@@ -1,0 +1,10 @@
+{
+  "check_digit_reconstructed": true,
+  "mismatches": 0,
+  "module": "imei",
+  "published_imei": "490154203237518",
+  "published_imei_valid": true,
+  "reference_vectors": 261,
+  "reference_vectors_matched": 261,
+  "schema": "claimlib_imei_v1"
+}

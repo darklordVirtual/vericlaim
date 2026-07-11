@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/nmea.json": "a508a327b12758e3306555363f97a8c47050ebe318f80ee60faa9a4fb3c802c2",
+    "claim.json": "5a62e198e7e9b35472290f7ce84f379c9afef9ff86ae0c17461dd36ed781411c",
+    "code/nmea.py": "d9208442710bb2408e6876c74947e3092974b5e42b4cdad3432da0bbe9bddde3",
+    "provenance.json": "4df2fe49c2b93c940171b4fcc9c4c0728c6875d3af2ba0472177f9de4920bedb"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

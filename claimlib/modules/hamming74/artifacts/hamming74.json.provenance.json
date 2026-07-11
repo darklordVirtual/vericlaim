@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "hamming74.json",
+  "artifact_sha256": "5dc4707149492e55168ccb071acec032c7701334460addadd6b6b0c50fed1bf2",
+  "script": "python3 claimlib/modules/hamming74/evidence.py",
+  "git_commit": "f6af4423f200f7d418bcd84db0c491cf559606c5",
+  "generated_at": "2026-07-11T13:46:09.805764+00:00",
+  "produced_by": "claimlib"
+}

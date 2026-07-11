@@ -18,7 +18,6 @@ so it cannot corrupt it. Artifact first, always.
 """
 from __future__ import annotations
 
-import argparse
 from pathlib import Path
 
 from .pathsafe import PathSafetyError, check_relpath

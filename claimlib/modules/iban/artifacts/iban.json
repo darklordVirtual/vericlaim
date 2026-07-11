@@ -1,0 +1,120 @@
+{
+  "cases": [
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "iban": "GB82WEST12345698765432"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "iban": "DE89370400440532013000"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "iban": "FR1420041010050500013M02606"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "iban": "NO9386011117947"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "iban": "ES9121000418450200051332"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "iban": "CH9300762011623852957"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "iban": "NL91ABNA0417164300"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "iban": "BE68539007547034"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "iban": "GB00WEST12345698765432"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "iban": "DE89370400440532013001"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "iban": "NO9386011117948"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "iban": "BE68539007547035"
+    }
+  ],
+  "check_digit_cases": 5,
+  "check_digit_correct": 5,
+  "check_digit_detail": [
+    {
+      "bban": "WEST12345698765432",
+      "computed_check": "82",
+      "correct": true,
+      "country": "GB",
+      "embedded_check": "82"
+    },
+    {
+      "bban": "370400440532013000",
+      "computed_check": "89",
+      "correct": true,
+      "country": "DE",
+      "embedded_check": "89"
+    },
+    {
+      "bban": "86011117947",
+      "computed_check": "93",
+      "correct": true,
+      "country": "NO",
+      "embedded_check": "93"
+    },
+    {
+      "bban": "21000418450200051332",
+      "computed_check": "91",
+      "correct": true,
+      "country": "ES",
+      "embedded_check": "91"
+    },
+    {
+      "bban": "539007547034",
+      "computed_check": "68",
+      "correct": true,
+      "country": "BE",
+      "embedded_check": "68"
+    }
+  ],
+  "correct": 12,
+  "errors": 0,
+  "module": "iban",
+  "n_cases": 12,
+  "schema": "claimlib_iban_v1"
+}

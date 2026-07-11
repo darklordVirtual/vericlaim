@@ -1,0 +1,236 @@
+{
+  "alloc_detail": [
+    {
+      "cent_exact": true,
+      "expected": [
+        34,
+        33,
+        33
+      ],
+      "hand_match": true,
+      "parts": [
+        34,
+        33,
+        33
+      ],
+      "sum": 100,
+      "total": 100,
+      "weights": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cent_exact": true,
+      "expected": [
+        17,
+        17,
+        17,
+        17,
+        16,
+        16
+      ],
+      "hand_match": true,
+      "parts": [
+        17,
+        17,
+        17,
+        17,
+        16,
+        16
+      ],
+      "sum": 100,
+      "total": 100,
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cent_exact": true,
+      "expected": [
+        250,
+        500,
+        250
+      ],
+      "hand_match": true,
+      "parts": [
+        250,
+        500,
+        250
+      ],
+      "sum": 1000,
+      "total": 1000,
+      "weights": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "cent_exact": true,
+      "expected": [
+        4,
+        3,
+        3
+      ],
+      "hand_match": true,
+      "parts": [
+        4,
+        3,
+        3
+      ],
+      "sum": 10,
+      "total": 10,
+      "weights": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cent_exact": true,
+      "parts": [
+        0,
+        0
+      ],
+      "sum": 0,
+      "total": 0,
+      "weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "cent_exact": true,
+      "expected": [
+        4,
+        1
+      ],
+      "hand_match": true,
+      "parts": [
+        4,
+        1
+      ],
+      "sum": 5,
+      "total": 5,
+      "weights": [
+        3,
+        1
+      ]
+    },
+    {
+      "cent_exact": true,
+      "parts": [
+        4321,
+        6790,
+        1234
+      ],
+      "sum": 12345,
+      "total": 12345,
+      "weights": [
+        7,
+        11,
+        2
+      ]
+    },
+    {
+      "cent_exact": true,
+      "parts": [
+        99
+      ],
+      "sum": 99,
+      "total": 99,
+      "weights": [
+        1
+      ]
+    }
+  ],
+  "cent_exact": 8,
+  "cent_lost": 0,
+  "hand_splits_correct": 5,
+  "module": "money",
+  "n_alloc_cases": 8,
+  "n_hand_splits": 5,
+  "n_round_cases": 10,
+  "round_correct": 10,
+  "round_detail": [
+    {
+      "computed": "0",
+      "correct": true,
+      "expected": "0",
+      "places": 0,
+      "value": "0.5"
+    },
+    {
+      "computed": "2",
+      "correct": true,
+      "expected": "2",
+      "places": 0,
+      "value": "1.5"
+    },
+    {
+      "computed": "2",
+      "correct": true,
+      "expected": "2",
+      "places": 0,
+      "value": "2.5"
+    },
+    {
+      "computed": "4",
+      "correct": true,
+      "expected": "4",
+      "places": 0,
+      "value": "3.5"
+    },
+    {
+      "computed": "2.68",
+      "correct": true,
+      "expected": "2.68",
+      "places": 2,
+      "value": "2.675"
+    },
+    {
+      "computed": "0.12",
+      "correct": true,
+      "expected": "0.12",
+      "places": 2,
+      "value": "0.125"
+    },
+    {
+      "computed": "0.14",
+      "correct": true,
+      "expected": "0.14",
+      "places": 2,
+      "value": "0.135"
+    },
+    {
+      "computed": "1.00",
+      "correct": true,
+      "expected": "1.00",
+      "places": 2,
+      "value": "1.005"
+    },
+    {
+      "computed": "2.00",
+      "correct": true,
+      "expected": "2.00",
+      "places": 2,
+      "value": "2.005"
+    },
+    {
+      "computed": "-2",
+      "correct": true,
+      "expected": "-2",
+      "places": 0,
+      "value": "-2.5"
+    }
+  ],
+  "round_errors": 0,
+  "schema": "claimlib_money_v1"
+}

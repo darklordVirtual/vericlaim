@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "imei.json",
+  "artifact_sha256": "f8dfcf61f3908e184c9d9d56dac37f2728d6827121084320ae120983500f9b72",
+  "script": "python3 claimlib/modules/imei/evidence.py",
+  "git_commit": "f6af4423f200f7d418bcd84db0c491cf559606c5",
+  "generated_at": "2026-07-11T13:45:18.282474+00:00",
+  "produced_by": "claimlib"
+}

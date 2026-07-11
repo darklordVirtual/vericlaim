@@ -15,7 +15,6 @@ HERE = Path(__file__).resolve().parent
 MODDIR = HERE.parents[0] / "modules" / "hashchain"
 sys.path.insert(0, str(MODDIR))
 
-import hashchain  # noqa: E402
 from hashchain import HashChain, build_chain, record_hash, verify, GENESIS  # noqa: E402
 
 

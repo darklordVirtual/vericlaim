@@ -567,5 +567,206 @@ MODULES = [
         "statement": "The pure trailing-debounce core behind the useDebouncedValue React hook reproduces the hand-computed emissions on every one of a fixed 9-case reference battery of event traces (correct = n_cases = 9, errors = 0): rapid bursts collapse to their last value, events spaced at least delayMs apart each emit at eventTime + delayMs, a gap exactly equal to delayMs counts as fired, and a gap one below is coalesced. Expected emissions are derived by hand from the trailing-debounce definition, independent of the module.",
         "caveat": "The claim covers the framework-agnostic core (debounce.logic.ts) run under node, NOT React runtime rendering or real timers: the vendored useDebouncedValue.tsx is a thin, reviewed setTimeout binding over the same model, shipped but not executed in the evidence. The simulator assumes a chronologically sorted event trace and models a boundary gap of exactly delayMs as fired (>=); correctness is demonstrated over a fixed battery, not proven for all traces.",
         "knowledge": "Debouncing coalesces a rapid stream of events (keystrokes, resize, scroll) into a single trailing update that fires only after activity has been quiet for delayMs, so expensive work runs once instead of on every change. The effective React pattern is to put the timing model in a pure, framework-agnostic function and make the hook a thin binding, so the off-by-one-prone logic is unit-testable without a DOM or fake timers. debounce.logic.ts is a deterministic simulator: emitDebounced(events, delayMs) returns, for a trace of timed values, exactly the emissions a trailing debounce would produce, and useDebouncedValue.tsx wraps that same model in useState + useEffect + setTimeout. Vendor both; the claim proves the core timing is correct, so you inherit checked debounce behaviour rather than re-deriving timer-reset logic in every project."
+    },
+    {
+        "name": "iban",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-IBAN-001",
+        "title": "IBAN validation (ISO 13616 / MOD-97-10)",
+        "area": "Finance / Payments & Banking",
+        "evidence_level": "measured",
+        "code_files": [
+            "iban.py"
+        ],
+        "artifact": "iban.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors",
+            "check_digit_correct"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored IBAN validator (ISO 13616 / ISO 7064 MOD-97-10) classifies every entry in a fixed 12-row table of officially published IBANs correctly (correct = 12, errors = 0): 8 canonical registry / Wikipedia example IBANs (GB82WEST12345698765432, DE89370400440532013000, NO9386011117947, ES9121000418450200051332, ...) are accepted and 4 single-digit-mutated variants are rejected; independently, recomputing the two check digits from the BBAN reproduces the embedded check digits of all 5 tested valid IBANs.",
+        "caveat": "Validation is the MOD-97-10 arithmetic plus a general [A-Z]{2}[0-9]{2}[A-Z0-9]+ shape and a 15..34 length check; it does NOT enforce per-country BBAN length or the national bank/branch structure, so a string with the right length and a correct check digit but a wrong national format can still pass. Correctness is demonstrated over a fixed table of published examples, not proven for every country or input.",
+        "knowledge": "An IBAN wraps a national bank account number with a two-letter country code and two check digits so cross-border transfers can be validated before money moves. The check is ISO 7064 MOD-97-10: move the first four characters to the end, map letters to numbers (A=10..Z=35), and require the resulting integer to be congruent to 1 modulo 97 -- a scheme that catches all single-digit errors and most transpositions. Vendor this module to validate AND to generate the check digits of IBANs with zero dependencies; the claim proves it matches the published registry examples, so you inherit a checked validator rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "money",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-MONEY-001",
+        "title": "Cent-exact money allocation + banker's rounding",
+        "area": "Finance / Accounting",
+        "evidence_level": "measured",
+        "code_files": [
+            "money.py"
+        ],
+        "artifact": "money.json",
+        "register_metrics": [
+            "n_alloc_cases",
+            "cent_exact",
+            "cent_lost",
+            "n_round_cases",
+            "round_correct"
+        ],
+        "bind_field": "cent_exact",
+        "statement": "The vendored money library allocates a total into integer minor-unit shares that sum EXACTLY back to the total on every one of a fixed 8-case battery (cent_exact = 8, cent_lost = 0), matches 5 independently hand-computed splits (allocate(100,[1,1,1]) = [34,33,33], allocate(100,[1,1,1,1,1,1]) = [17,17,17,17,16,16], allocate(1000,[1,2,1]) = [250,500,250]), and reproduces published ROUND_HALF_EVEN (banker's rounding) results on all 10 rows of a fixed table (0.5 -> 0, 1.5 -> 2, 2.5 -> 2, 3.5 -> 4, 2.675 -> 2.68).",
+        "caveat": "The cent-exact invariant is an arithmetic identity checked over a fixed battery of totals/weights (non-negative integer minor units, non-negative integer weights, not all zero); it does not model currencies with non-decimal subunits, negative totals, or rounding of the allocation itself. round_money rounds decimal values (pass strings, not floats, to avoid binary-float error before rounding) and is HALF_EVEN only.",
+        "knowledge": "Two everyday money bugs are rounding bias and lost pennies. Rounding halves 'up' biases long-run totals upward; banker's rounding (ROUND_HALF_EVEN, the IEEE 754 and accounting default) rounds a tie to the nearest even digit so the bias cancels. Splitting a bill three ways with naive division loses or mints a cent; the largest-remainder (Hamilton) method floors each share and hands the leftover units to the largest remainders so the parts always sum back to the total. This module works in integer minor units to avoid float entirely; vendor it to allocate invoices, taxes, or payouts and inherit a checked cent-exact splitter and a checked banker's rounder rather than re-auditing another ad-hoc division."
+    },
+    {
+        "name": "mod11",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-MOD11-001",
+        "title": "Weighted MOD-11 check digits (Norwegian orgnr)",
+        "area": "Finance / Identifiers & Validation",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "mod11.py"
+        ],
+        "artifact": "mod11.json",
+        "register_metrics": [
+            "n_payloads",
+            "checkdigit_defined",
+            "roundtrip_valid",
+            "tamper_mutations",
+            "tamper_detected",
+            "tamper_missed"
+        ],
+        "bind_field": "tamper_missed",
+        "statement": "The vendored weighted MOD-11 check-digit library detects EVERY single-digit alteration over the complete space of 4-digit payloads under weights (2,3,4,5): all 409095 single-digit mutations of the 9091 well-defined check-digited numbers are caught (tamper_detected = 409095, tamper_missed = 0), every one of those numbers round-trips (compute the check digit, then validate = True; roundtrip_valid = 9091), and the Norwegian organisasjonsnummer reference 123456785 (payload 12345678 under weights 3,2,7,6,5,4,3,2 -> check 5) validates while 123456784 does not.",
+        "caveat": "The exhaustive tamper / round-trip proof covers 4-digit payloads under one fixed weight vector; the single-error-detection property generalises (11 is prime and no weight is a multiple of 11) but is machine-verified only for that space, not every length. check_digit raises rather than emitting 'X' when the MOD-11 result is 10 (so it is numeric-only and does not cover ISBN-10's X), and MOD-11 catches all single-digit errors and most transpositions but is a checksum, not a cryptographic integrity guarantee.",
+        "knowledge": "A weighted MOD-11 check digit is the integrity digit behind Norwegian organisation and bank account numbers, KID payment references, ISBN-10, and many national IDs: multiply each payload digit by a position weight, sum, reduce modulo 11, and take 11 minus that (11 -> 0). Because 11 is prime, every single-digit change alters the weighted sum modulo 11 and is detected -- a stronger guarantee than a plain sum. Vendor this module to validate and generate those identifiers with zero dependencies; the claim proves single-digit errors are caught exhaustively over the tested space, so you inherit a checked check-digit routine rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "modbus_crc",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-MODBUS-CRC-001",
+        "title": "CRC-16/MODBUS frame check",
+        "area": "Industrial / Fieldbus & Protocols",
+        "evidence_level": "measured",
+        "code_files": [
+            "modbus_crc.py"
+        ],
+        "artifact": "modbus_crc.json",
+        "register_metrics": [
+            "reference_vectors",
+            "reference_vectors_matched",
+            "mismatches",
+            "crosscheck_matched"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored CRC-16/MODBUS implementation (reflected poly 0xA001, init 0xFFFF, no final XOR) reproduces every value in a fixed 267-vector reference set with 0 mismatches: the published CRC-catalogue check value crc16_modbus(b\"123456789\") == 0x4B37, plus 266 byte strings (empty, single bytes, all-zero / all-0xFF runs, a Modbus read-holding-registers frame, and every single byte value 0..255) that agree byte-for-byte with an independent table-driven implementation computed in the evidence.",
+        "caveat": "Correctness is demonstrated over a fixed reference set (one published catalogue value plus table-cross-checked byte strings), not proven for every input. CRC-16 is an error-DETECTION checksum for accidental corruption on a serial link, NOT a cryptographic hash or MAC: it is linear and trivially forgeable, so it gives no integrity or authenticity guarantee against an adversary.",
+        "knowledge": "Modbus RTU, the serial fieldbus dialect ubiquitous in PLCs and industrial sensors, protects every frame with a 16-bit CRC using the reflected polynomial 0xA001, an initial value of 0xFFFF, and no final XOR, transmitted low byte first. This module computes the CRC and offers append / verify helpers; the claim proves it reproduces the published catalogue check value 0x4B37 and agrees with an independent table-driven CRC, so you can vendor a dependency-free, checked frame-check for Modbus tooling or gateways rather than re-auditing another CRC loop."
+    },
+    {
+        "name": "oee",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-OEE-001",
+        "title": "OEE (Overall Equipment Effectiveness)",
+        "area": "Industrial / Manufacturing Analytics",
+        "evidence_level": "measured",
+        "code_files": [
+            "oee.py"
+        ],
+        "artifact": "oee.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored OEE calculator reproduces the canonical published worked example (Vorne / oee.com) exactly to 4 dp -- Availability 0.8881, Performance 0.8611, Quality 0.9780, OEE 0.7479 from Planned 420 min, Run 373 min, Ideal Cycle 1.0 s, Total 19271, Good 18848 -- and matches all 3 hand-computed reference cases (correct = 3, errors = 0), including the perfect-line boundary (all factors 1.0) and the each-factor-one-half case (OEE 0.125).",
+        "caveat": "OEE is pure ratio arithmetic (Availability x Performance x Quality); the module fails closed on non-positive denominators and on factors above 1 (run > planned, good > total, ideal cycle too large), but it does not model the six big losses, planned vs unplanned stop classification, or multi-shift roll-ups. Values are compared to 4 decimal places; correctness is demonstrated over a fixed reference table, not proven for every input.",
+        "knowledge": "Overall Equipment Effectiveness is the factory-floor standard for how fully a machine is used, the product of three ratios: Availability (run time over planned time), Performance (actual over theoretical throughput), and Quality (good units over total). 100% is perfect production; about 85% is considered world-class. The published worked example resolves to 74.79%, and this module reproduces it. Vendor it to compute OEE and its factors consistently across lines and shifts; the claim proves the arithmetic matches the published reference, so you inherit a checked calculator rather than a spreadsheet formula to re-audit."
+    },
+    {
+        "name": "nmea",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-NMEA-001",
+        "title": "NMEA 0183 sentence checksum",
+        "area": "Industrial / Telemetry & Sensors",
+        "evidence_level": "measured",
+        "code_files": [
+            "nmea.py"
+        ],
+        "artifact": "nmea.json",
+        "register_metrics": [
+            "n_published",
+            "published_correct",
+            "published_errors",
+            "roundtrip_ok",
+            "tamper_detected"
+        ],
+        "bind_field": "published_correct",
+        "statement": "The vendored NMEA 0183 checksum reproduces the published '*HH' checksum of every one of 3 canonical example sentences ($GPGGA,...*47, $GPRMC,...*68, $GPGSA,...*39) exactly (published_correct = 3, published_errors = 0) and all 3 are accepted by is_valid; independently, for 4 payloads the build / verify round-trip holds (a built sentence validates; roundtrip_ok = 4) and a single-character mutation is detected in every case (tamper_detected = 4).",
+        "caveat": "The checksum is the simple XOR of the characters between '$' and '*'; the module verifies that field and can build sentences, but it does NOT parse or validate the sentence's fields, talker ID, or semantics, and the XOR is an accidental-corruption check, not a cryptographic integrity guarantee. Correctness is demonstrated over a fixed set of published sentences plus a self-consistency battery, not proven for every input.",
+        "knowledge": "NMEA 0183 is the line-oriented ASCII protocol that GPS receivers, marine instruments, and much SCADA telemetry use to emit sentences like '$GPGGA,...*47'. The two hex digits after '*' are the XOR of every character between '$' and '*', a lightweight guard against line noise. Vendor this module to validate incoming sentences and to build correctly-checksummed ones with zero dependencies; the claim proves it reproduces the checksums of the canonical published sentences, so you inherit a checked checksum routine rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "imei",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-IMEI-001",
+        "title": "IMEI validation (Luhn check digit)",
+        "area": "Telecom / Device Identity",
+        "evidence_level": "measured",
+        "code_files": [
+            "imei.py"
+        ],
+        "artifact": "imei.json",
+        "register_metrics": [
+            "reference_vectors",
+            "reference_vectors_matched",
+            "mismatches"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored IMEI validator accepts the published GSMA / Wikipedia example IMEI 490154203237518 and reconstructs its check digit (check_digit(\"49015420323751\") == 8), and its is_valid verdict agrees with an INDEPENDENT from-scratch Luhn implementation on every one of a fixed 261-vector battery (the published IMEI, corrupted and wrong-length variants, and 256 deterministic pseudo-random 15-digit strings): reference_vectors_matched = 261, mismatches = 0.",
+        "caveat": "Validation is the 15-digit length plus the Luhn (mod-10) check digit over the first 14 digits; it does NOT verify that the Type Allocation Code is really assigned by the GSMA or that the device exists, and it does not handle the 16-digit IMEISV. Luhn catches all single-digit errors and most adjacent transpositions but is a data-entry checksum, not proof a number is genuine. Correctness is demonstrated over a fixed battery, not proven for every input.",
+        "knowledge": "An IMEI is the 15-digit identity of a cellular device: an 8-digit Type Allocation Code, a 6-digit serial, and a trailing Luhn check digit over the first 14 digits -- the same mod-10 scheme used on payment cards. Networks and device registries validate it at the check-digit level before any lookup. Vendor this module to validate and parse IMEIs with zero dependencies; the claim proves it accepts the published example and agrees with an independent Luhn oracle across the battery, so you inherit a checked validator rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "hamming74",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-HAMMING74-001",
+        "title": "Hamming(7,4) single-error correction",
+        "area": "Telecom / Forward Error Correction",
+        "evidence_level": "machine_checked",
+        "code_files": [
+            "hamming74.py"
+        ],
+        "artifact": "hamming74.json",
+        "register_metrics": [
+            "trials",
+            "corrected",
+            "miscorrected",
+            "error_position_correct",
+            "min_code_distance"
+        ],
+        "bind_field": "corrected",
+        "statement": "The vendored Hamming(7,4) coder corrects EVERY single-bit error, verified exhaustively: over the complete space of 16 data values x 8 error patterns (no error plus a flip at each of the 7 positions) = 128 trials, decoding always recovers the original 4 bits and reports the exact flipped position (corrected = 128, miscorrected = 0, error_position_correct = 128), and the 16 codewords have minimum Hamming distance 3.",
+        "caveat": "The exhaustive proof covers SINGLE-bit errors only. Hamming(7,4) has minimum distance 3, so it corrects any one-bit error but a two-bit error is mis-corrected to the wrong nibble (it lacks the distance-4 SECDED extension that would merely DETECT double errors). The code carries 4 data bits per 7-bit codeword; framing multi-byte data across codewords is the caller's responsibility.",
+        "knowledge": "Forward error correction lets a receiver fix bit errors without retransmission -- essential on one-way or high-latency links. The Hamming(7,4) code adds 3 parity bits to 4 data bits so that the parity syndrome of a received word points directly at the position of any single flipped bit, which the decoder then corrects. Because its 16 codewords are pairwise at Hamming distance >= 3, any single-bit error stays closest to the true codeword. Vendor this module for a checked, dependency-free single-error-correcting building block; the claim proves correction over the ENTIRE single-error space by enumeration, so you inherit a proven coder rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "e164",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-E164-001",
+        "title": "E.164 phone number validation",
+        "area": "Telecom / Numbering Plans",
+        "evidence_level": "measured",
+        "code_files": [
+            "e164.py"
+        ],
+        "artifact": "e164.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors",
+            "country_code_correct"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored E.164 validator classifies every entry in a fixed 13-row battery of phone numbers correctly (correct = 13, errors = 0): 8 well-formed international numbers are accepted and 5 malformed ones rejected (missing '+', leading zero after '+', too short, non-digit, and 16 digits exceeding the E.164 maximum), and the country calling code resolves as expected for all 13 rows (country_code_correct = 13) by longest-prefix match, so +358... yields 358 (Finland) rather than a shorter code.",
+        "caveat": "This validates E.164 SYNTAX (leading '+', 7..15 digits, no leading zero on the country code) and extracts the calling code from a CURATED subset of published ITU assignments; it is NOT full national-number validation (no libphonenumber-style per-country length / prefix rules), and a number outside the curated code table returns None for the country code. Correctness is demonstrated over a fixed battery, not proven for every number.",
+        "knowledge": "ITU-T E.164 is the international telephone numbering plan: a '+', a 1-3 digit country calling code, then the national number, at most 15 digits total, with no leading zero on the country code. The first parsing step is almost always the same -- check that shape and split off the calling code by longest-prefix match (so +358 resolves to Finland, not +35 or +3). Vendor this module to normalise and route phone numbers with zero dependencies; the claim proves it classifies the battery and resolves calling codes correctly, so you inherit a checked format validator rather than a re-implementation to re-audit (reach for libphonenumber when you need full national validation)."
     }
 ]

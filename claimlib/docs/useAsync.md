@@ -1,6 +1,6 @@
 # useAsync React hook (async request state machine)
 
-*Subject area: React / UI State. Language: react. Vendorable bundle `f6fe8f7bd653`.*
+*Subject area: React / UI State. Language: react. Vendorable bundle `44a8f1da4fe6`.*
 
 Most async-UI bugs are state-machine bugs, not markup: a request is simultaneously loading, has stale data, and might error, and ad-hoc booleans (isLoading, hasError) drift out of sync. The durable fix is to model the request as an explicit status: idle | pending | success | error and drive it with a pure reducer, keeping the React hook a thin binding so the transitions are unit-testable without a DOM. useAsync does exactly that: async.logic.ts is the reducer over {status, data, error} and useAsync.tsx wraps it in useReducer with a run() that dispatches start then resolve/reject. Vendor both; the claim proves the core transitions, so you inherit a checked request state machine rather than re-deriving loading-flag logic in every component.
 
@@ -16,5 +16,5 @@ Ships `useAsync.tsx`, `async.logic.ts` into your project, byte-exact, with a gen
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/f6fe8f7bd653f4f982071e5c97c17fdb8c14a2d613bc367100c74a1c905c3f13 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/44a8f1da4fe65f4457057b75c9c380b87a663ead9d24715998f40ab8aa7fe421 --target .
 ```
