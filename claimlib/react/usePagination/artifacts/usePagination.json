@@ -1,0 +1,8 @@
+{
+  "correct": 8,
+  "errors": 0,
+  "invalid_inputs_rejected": 4,
+  "module": "usePagination",
+  "n_cases": 8,
+  "schema": "claimlib_usepagination_v1"
+}

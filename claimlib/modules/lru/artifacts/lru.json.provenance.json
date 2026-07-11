@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "lru.json",
+  "artifact_sha256": "18561dd17815109fa71db5f59d3609d0304a944f1bbd6c8a6c8e45f88a6e59ad",
+  "script": "python3 claimlib/modules/lru/evidence.py",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T09:22:33.097188+00:00",
+  "produced_by": "claimlib"
+}

@@ -1,0 +1,7 @@
+{
+  "correct": 9,
+  "errors": 0,
+  "module": "useAsync",
+  "n_cases": 9,
+  "schema": "claimlib_useasync_v1"
+}

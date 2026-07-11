@@ -1,0 +1,7 @@
+{
+  "correct": 10,
+  "errors": 0,
+  "module": "groupBy",
+  "n_cases": 10,
+  "schema": "claimlib_groupby_v1"
+}

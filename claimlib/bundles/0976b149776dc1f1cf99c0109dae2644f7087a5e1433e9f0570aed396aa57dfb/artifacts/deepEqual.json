@@ -1,0 +1,7 @@
+{
+  "correct": 42,
+  "errors": 0,
+  "module": "deepEqual",
+  "n_cases": 42,
+  "schema": "claimlib_deepEqual_v1"
+}

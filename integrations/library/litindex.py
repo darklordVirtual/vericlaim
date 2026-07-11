@@ -47,7 +47,10 @@ def add_work(root: Path, work: dict, retrieval: dict) -> str:
     tpath = root / "texts" / f"{sha}.txt"
     tpath.parent.mkdir(parents=True, exist_ok=True)
     if not tpath.exists():
-        tpath.write_text(text, encoding="utf-8")
+        # newline="\n": the snapshot is content-addressed by sha256 of the LF
+        # text; text-mode translation on Windows would write CRLF and break the
+        # hash (verify() reads raw bytes).
+        tpath.write_text(text, encoding="utf-8", newline="\n")
     record = {**work, "text_sha256": sha, "retrieval": retrieval}
     wpath.parent.mkdir(parents=True, exist_ok=True)
     wpath.write_text(json.dumps(record, indent=2, sort_keys=True,
@@ -69,7 +72,8 @@ def add_fulltext(root: Path, work_id: str, text: str, retrieval: dict) -> str:
     sha = _sha256(text.encode("utf-8"))
     tpath = root / "texts" / f"{sha}.txt"
     if not tpath.exists():
-        tpath.write_text(text, encoding="utf-8")
+        # newline="\n": content-addressed by LF hash — see add_work above.
+        tpath.write_text(text, encoding="utf-8", newline="\n")
     record["fulltext_sha256"] = sha
     record["fulltext_retrieval"] = retrieval
     wpath.write_text(json.dumps(record, indent=2, sort_keys=True,

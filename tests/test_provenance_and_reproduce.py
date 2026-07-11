@@ -68,10 +68,13 @@ def test_static_source_claim_is_exempt(tmp_path):
 
 def _project(tmp_path: Path, script_body: str) -> Config:
     (tmp_path / "claims").mkdir()
+    # Single-quote the command: on Windows sys.executable contains backslashes,
+    # which a DOUBLE-quoted YAML scalar would parse as escape sequences (\U, \A…)
+    # and reject. Single-quoted YAML scalars take backslashes literally.
     (tmp_path / "claims" / "register.yaml").write_text(
         "claims:\n  - id: C-1\n    statement: s\n    evidence_level: measured\n"
         "    artifact:\n      - out.json\n    caveat: c\n"
-        "    reproduce: \"" + f"{sys.executable} gen.py" + "\"\n")
+        "    reproduce: '" + f"{sys.executable} gen.py" + "'\n")
     (tmp_path / "claims" / "baseline.json").write_text('{"known_violations": []}')
     (tmp_path / "gen.py").write_text(script_body)
     # These fixtures exercise the LEGACY string reproduce path, which is now an

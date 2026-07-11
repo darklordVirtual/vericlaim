@@ -1,0 +1,7 @@
+{
+  "correct": 32,
+  "errors": 0,
+  "module": "parseQuery",
+  "n_cases": 32,
+  "schema": "claimlib_parseQuery_v1"
+}

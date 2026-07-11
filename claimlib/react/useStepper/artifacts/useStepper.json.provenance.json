@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "useStepper.json",
+  "artifact_sha256": "6a6db943033b53119ab34a1f40406ac6f6abebda39b93bac17acefce4849f641",
+  "script": "node claimlib/react/useStepper/evidence.ts",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T09:25:31.964241+00:00",
+  "produced_by": "claimlib"
+}

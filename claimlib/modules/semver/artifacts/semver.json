@@ -1,0 +1,379 @@
+{
+  "cases": [
+    {
+      "a": "1.0.0",
+      "b": "2.0.0",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "2.0.0",
+      "b": "2.1.0",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "2.1.0",
+      "b": "2.1.1",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-alpha",
+      "b": "1.0.0-alpha.1",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-alpha.1",
+      "b": "1.0.0-alpha.beta",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-alpha.beta",
+      "b": "1.0.0-beta",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-beta",
+      "b": "1.0.0-beta.2",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-beta.2",
+      "b": "1.0.0-beta.11",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-beta.11",
+      "b": "1.0.0-rc.1",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-rc.1",
+      "b": "1.0.0",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-alpha",
+      "b": "1.0.0",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0",
+      "b": "1.0.0",
+      "computed": 0,
+      "expected": 0,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0+build",
+      "b": "1.0.0",
+      "computed": 0,
+      "expected": 0,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0+build.1",
+      "b": "1.0.0+build.2",
+      "computed": 0,
+      "expected": 0,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "2.0.0",
+      "b": "1.0.0",
+      "computed": 1,
+      "expected": 1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0",
+      "b": "1.0.0-alpha",
+      "computed": 1,
+      "expected": 1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-alpha.1",
+      "b": "1.0.0-alpha.1",
+      "computed": 0,
+      "expected": 0,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "a": "1.0.0-1",
+      "b": "1.0.0-alpha",
+      "computed": -1,
+      "expected": -1,
+      "kind": "compare",
+      "ok": true
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "1.2.3",
+      "version": "1.2.3"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "1.2.3",
+      "version": "1.2.4"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": ">=1.2.3",
+      "version": "1.2.3"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": ">=1.2.3",
+      "version": "1.2.4"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": ">=1.2.3",
+      "version": "1.2.2"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": ">=1.2.3",
+      "version": "2.0.0"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "<1.2.3",
+      "version": "1.2.2"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "<1.2.3",
+      "version": "1.2.3"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "<1.2.3",
+      "version": "1.2.4"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^1.2.3",
+      "version": "1.2.3"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^1.2.3",
+      "version": "1.9.9"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^1.2.3",
+      "version": "2.0.0"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^1.2.3",
+      "version": "1.2.2"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^0.2.3",
+      "version": "0.2.3"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^0.2.3",
+      "version": "0.2.9"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^0.2.3",
+      "version": "0.3.0"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^0.2.3",
+      "version": "0.2.2"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^0.0.3",
+      "version": "0.0.3"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^0.0.3",
+      "version": "0.0.4"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "~1.2.3",
+      "version": "1.2.3"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "~1.2.3",
+      "version": "1.2.99"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "~1.2.3",
+      "version": "1.3.0"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "~1.2.3",
+      "version": "1.2.2"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "~1.2.3",
+      "version": "2.0.0"
+    },
+    {
+      "computed": false,
+      "expected": false,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "^1.2.3",
+      "version": "1.2.3-alpha"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": ">=1.2.3-alpha",
+      "version": "1.2.3-alpha"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": ">=1.2.3-alpha",
+      "version": "1.2.3-beta"
+    },
+    {
+      "computed": true,
+      "expected": true,
+      "kind": "satisfies",
+      "ok": true,
+      "spec": "<1.2.3",
+      "version": "1.2.3-alpha"
+    }
+  ],
+  "correct": 46,
+  "errors": 0,
+  "module": "semver",
+  "n_cases": 46,
+  "n_compare": 18,
+  "n_satisfies": 28,
+  "schema": "claimlib_semver_v1"
+}

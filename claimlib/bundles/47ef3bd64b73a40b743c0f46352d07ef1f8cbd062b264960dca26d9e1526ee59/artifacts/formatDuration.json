@@ -1,0 +1,7 @@
+{
+  "correct": 21,
+  "errors": 0,
+  "module": "formatDuration",
+  "n_cases": 21,
+  "schema": "claimlib_formatDuration_v1"
+}

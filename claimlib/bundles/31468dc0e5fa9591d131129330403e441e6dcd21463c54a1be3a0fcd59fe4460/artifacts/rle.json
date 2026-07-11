@@ -1,0 +1,101 @@
+{
+  "cases": [
+    {
+      "encoded_len": 0,
+      "in_len": 0,
+      "index": 0,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 2,
+      "in_len": 1,
+      "index": 1,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 2,
+      "in_len": 1,
+      "index": 2,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 4,
+      "in_len": 300,
+      "index": 3,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 2,
+      "in_len": 255,
+      "index": 4,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 4,
+      "in_len": 256,
+      "index": 5,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 6,
+      "in_len": 8,
+      "index": 6,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 52,
+      "in_len": 26,
+      "index": 7,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 18,
+      "in_len": 2001,
+      "index": 8,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 512,
+      "in_len": 256,
+      "index": 9,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 2048,
+      "in_len": 1024,
+      "index": 10,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 720,
+      "in_len": 360,
+      "index": 11,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 8164,
+      "in_len": 4096,
+      "index": 12,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 1548,
+      "in_len": 777,
+      "index": 13,
+      "roundtrip_ok": true
+    },
+    {
+      "encoded_len": 4078,
+      "in_len": 2048,
+      "index": 14,
+      "roundtrip_ok": true
+    }
+  ],
+  "module": "rle",
+  "n_cases": 15,
+  "overall_ratio": 0.6649,
+  "roundtrip_lossless": 15,
+  "schema": "claimlib_rle_v1",
+  "total_encoded_bytes": 17160,
+  "total_in_bytes": 11409
+}

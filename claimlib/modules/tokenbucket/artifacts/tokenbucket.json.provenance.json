@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "tokenbucket.json",
+  "artifact_sha256": "912587fb381bd6e575bf32ae3f01667bfa0f27b598d10c4875f90a78621092d8",
+  "script": "python3 claimlib/modules/tokenbucket/evidence.py",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T08:48:36.229222+00:00",
+  "produced_by": "claimlib"
+}

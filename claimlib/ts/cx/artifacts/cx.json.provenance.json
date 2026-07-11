@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "cx.json",
+  "artifact_sha256": "89c3604d0bfb9aeaebe20007d2430ac82aca01928bdfe154511c176f5a72977e",
+  "script": "node claimlib/ts/cx/evidence.ts",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T09:25:31.378703+00:00",
+  "produced_by": "claimlib"
+}

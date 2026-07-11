@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "computed": 9.8,
+      "expected": 9.8,
+      "match": true,
+      "severity": "critical",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "computed": 10.0,
+      "expected": 10.0,
+      "match": true,
+      "severity": "critical",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    },
+    {
+      "computed": 7.5,
+      "expected": 7.5,
+      "match": true,
+      "severity": "high",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    },
+    {
+      "computed": 5.3,
+      "expected": 5.3,
+      "match": true,
+      "severity": "medium",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    },
+    {
+      "computed": 6.1,
+      "expected": 6.1,
+      "match": true,
+      "severity": "medium",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    },
+    {
+      "computed": 8.8,
+      "expected": 8.8,
+      "match": true,
+      "severity": "high",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "computed": 4.3,
+      "expected": 4.3,
+      "match": true,
+      "severity": "medium",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    },
+    {
+      "computed": 0.0,
+      "expected": 0.0,
+      "match": true,
+      "severity": "none",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+    },
+    {
+      "computed": 7.8,
+      "expected": 7.8,
+      "match": true,
+      "severity": "high",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "mismatches": 0,
+  "module": "cvss",
+  "reference_vectors": 9,
+  "reference_vectors_matched": 9,
+  "schema": "claimlib_cvss_v1"
+}

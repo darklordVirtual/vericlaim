@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "chunk.json",
+  "artifact_sha256": "a8ae4ae6aac11c9c2a115f151ea700001ceed2483fb15bbfa8aff638373adc46",
+  "script": "node claimlib/ts/chunk/evidence.ts",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T09:25:31.549031+00:00",
+  "produced_by": "claimlib"
+}

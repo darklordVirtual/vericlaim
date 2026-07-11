@@ -1,0 +1,79 @@
+{
+  "clean_users": [
+    "alice",
+    "bob",
+    "carol",
+    "grace",
+    "heidi",
+    "ivan",
+    "judy"
+  ],
+  "detected_excess": 6,
+  "detected_sod": 3,
+  "excess_by_user": {
+    "dave": [
+      "config"
+    ],
+    "erin": [
+      "secret_export"
+    ],
+    "mallory": [
+      "delete",
+      "write"
+    ],
+    "oscar": [
+      "pay_approve"
+    ],
+    "peggy": [
+      "code_review"
+    ]
+  },
+  "excess_recall_ok": true,
+  "false_positives": 0,
+  "flagged_users": [
+    "dave",
+    "erin",
+    "mallory",
+    "oscar",
+    "peggy",
+    "trent"
+  ],
+  "module": "rbac",
+  "n_identities": 13,
+  "schema": "claimlib_rbac_v1",
+  "seeded_excess": 6,
+  "seeded_sod": 3,
+  "sod_recall_ok": true,
+  "sod_violations": [
+    {
+      "held_a": [
+        "pay_create"
+      ],
+      "held_b": [
+        "pay_approve"
+      ],
+      "pair": 0,
+      "user": "oscar"
+    },
+    {
+      "held_a": [
+        "pay_create"
+      ],
+      "held_b": [
+        "pay_approve"
+      ],
+      "pair": 0,
+      "user": "trent"
+    },
+    {
+      "held_a": [
+        "code_deploy"
+      ],
+      "held_b": [
+        "code_review"
+      ],
+      "pair": 1,
+      "user": "peggy"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "cases": [
+    {
+      "computed_availability": 99.95,
+      "computed_budget_min": 43.2,
+      "computed_remaining_pct": 50.0,
+      "downtime_min": 21.6,
+      "expected_availability": 99.95,
+      "expected_budget_min": 43.2,
+      "expected_remaining_pct": 50.0,
+      "match": true,
+      "slo_pct": 99.9,
+      "window_min": 43200
+    },
+    {
+      "computed_availability": 99.0,
+      "computed_budget_min": 432.0,
+      "computed_remaining_pct": 0.0,
+      "downtime_min": 432.0,
+      "expected_availability": 99.0,
+      "expected_budget_min": 432.0,
+      "expected_remaining_pct": 0.0,
+      "match": true,
+      "slo_pct": 99.0,
+      "window_min": 43200
+    },
+    {
+      "computed_availability": 99.95,
+      "computed_budget_min": 10.08,
+      "computed_remaining_pct": 50.0,
+      "downtime_min": 5.04,
+      "expected_availability": 99.95,
+      "expected_budget_min": 10.08,
+      "expected_remaining_pct": 50.0,
+      "match": true,
+      "slo_pct": 99.9,
+      "window_min": 10080
+    },
+    {
+      "computed_availability": 99.99,
+      "computed_budget_min": 52.56,
+      "computed_remaining_pct": 0.0,
+      "downtime_min": 52.56,
+      "expected_availability": 99.99,
+      "expected_budget_min": 52.56,
+      "expected_remaining_pct": 0.0,
+      "match": true,
+      "slo_pct": 99.99,
+      "window_min": 525600
+    },
+    {
+      "computed_availability": 99.25,
+      "computed_budget_min": 216.0,
+      "computed_remaining_pct": -50.0,
+      "downtime_min": 324.0,
+      "expected_availability": 99.25,
+      "expected_budget_min": 216.0,
+      "expected_remaining_pct": -50.0,
+      "match": true,
+      "slo_pct": 99.5,
+      "window_min": 43200
+    },
+    {
+      "computed_availability": 100.0,
+      "computed_budget_min": 43.2,
+      "computed_remaining_pct": 100.0,
+      "downtime_min": 0.0,
+      "expected_availability": 100.0,
+      "expected_budget_min": 43.2,
+      "expected_remaining_pct": 100.0,
+      "match": true,
+      "slo_pct": 99.9,
+      "window_min": 43200
+    },
+    {
+      "computed_availability": 97.5,
+      "computed_budget_min": 72.0,
+      "computed_remaining_pct": 50.0,
+      "downtime_min": 36.0,
+      "expected_availability": 97.5,
+      "expected_budget_min": 72.0,
+      "expected_remaining_pct": 50.0,
+      "match": true,
+      "slo_pct": 95.0,
+      "window_min": 1440
+    },
+    {
+      "computed_availability": 99.9769,
+      "computed_budget_min": 43.2,
+      "computed_remaining_pct": 76.8519,
+      "downtime_min": 10.0,
+      "expected_availability": 99.9769,
+      "expected_budget_min": 43.2,
+      "expected_remaining_pct": 76.8519,
+      "match": true,
+      "slo_pct": 99.9,
+      "window_min": 43200
+    },
+    {
+      "computed_availability": 90.0,
+      "computed_budget_min": 144.0,
+      "computed_remaining_pct": -0.0,
+      "downtime_min": 144.0,
+      "expected_availability": 90.0,
+      "expected_budget_min": 144.0,
+      "expected_remaining_pct": 0.0,
+      "match": true,
+      "slo_pct": 90.0,
+      "window_min": 1440
+    }
+  ],
+  "correct": 9,
+  "errors": 0,
+  "module": "errorbudget",
+  "n_cases": 9,
+  "schema": "claimlib_errorbudget_v1"
+}

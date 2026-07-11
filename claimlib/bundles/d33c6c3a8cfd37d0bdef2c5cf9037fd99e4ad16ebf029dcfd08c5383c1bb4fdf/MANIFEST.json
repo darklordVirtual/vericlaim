@@ -1,0 +1,11 @@
+{
+  "files": {
+    "artifacts/useStepper.json": "6a6db943033b53119ab34a1f40406ac6f6abebda39b93bac17acefce4849f641",
+    "claim.json": "62a45e579b624dbfb94b0ad975b08846e867efd7aff0ee15b15e06e1ff71fe51",
+    "code/stepper.logic.ts": "cb53951199df22987cac42d5723c6a3e2c6698a4c34b5241fb854cbdb268398e",
+    "code/useStepper.tsx": "965a2883c66993de893eccdd373ac72e08e47cb5b0f0780f656ef4cf71d714c7",
+    "provenance.json": "fd11197c439340fd7b2e52c7925dd4df253dea87d6ab5f1cfda8da391bd0bfc2"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

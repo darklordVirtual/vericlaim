@@ -13,6 +13,8 @@ from pathlib import Path
 
 from .config import load_config
 from .gate import run
+from .newclaim import add_parser as add_newclaim_parser
+from .newclaim import run as run_newclaim
 from .reproduce import reproduce
 from .scaffold import init
 
@@ -20,14 +22,21 @@ from .scaffold import init
 def main(argv: list[str] | None = None) -> int:
     # Common flags live on a parent parser so they are accepted both before AND
     # after the subcommand (e.g. `vericlaim reproduce --profile strict`).
+    # default=SUPPRESS is load-bearing: because this parser is a parent of BOTH
+    # the top-level parser and every subparser, a real default here would let the
+    # subparser's copy CLOBBER a value parsed before the subcommand
+    # (`vericlaim --root X init` would silently reset root to cwd). With SUPPRESS
+    # the subparser leaves the attribute unset when the flag is absent, so the
+    # top-level value survives; defaults are applied once, after parsing.
     common = argparse.ArgumentParser(add_help=False)
-    common.add_argument("--root", type=Path, default=Path.cwd(),
+    common.add_argument("--root", type=Path, default=argparse.SUPPRESS,
                         help="project root (default: current directory)")
-    common.add_argument("--config", type=Path, default=None,
+    common.add_argument("--config", type=Path, default=argparse.SUPPRESS,
                         help="path to vericlaim.toml (default: <root>/vericlaim.toml)")
-    common.add_argument("--quiet", action="store_true", help="only print on failure")
+    common.add_argument("--quiet", action="store_true", default=argparse.SUPPRESS,
+                        help="only print on failure")
     common.add_argument("--profile", choices=("adopt", "strict", "enterprise"),
-                        default=None,
+                        default=argparse.SUPPRESS,
                         help="policy profile override (adopt|strict|enterprise); "
                              "strict is the recommended secure-by-default destination")
 
@@ -39,6 +48,7 @@ def main(argv: list[str] | None = None) -> int:
     sub = parser.add_subparsers(dest="command")
     sub.add_parser("init", parents=[common],
                    help="scaffold Claim-Oriented Programming into this project")
+    add_newclaim_parser(sub, [common])
     sub.add_parser("check", parents=[common],
                    help="run the gate (default when no command is given)")
     sub.add_parser("reproduce", parents=[common],
@@ -48,23 +58,31 @@ def main(argv: list[str] | None = None) -> int:
                         "non-weakening improvement suggestions (never edits anything)")
     args = parser.parse_args(argv)
 
-    root = args.root.resolve()
+    # SUPPRESS means absent flags leave no attribute; apply defaults once here so
+    # a flag given before OR after the subcommand wins and neither clobbers.
+    root = getattr(args, "root", Path.cwd()).resolve()
+    config = getattr(args, "config", None)
+    quiet = getattr(args, "quiet", False)
+    profile = getattr(args, "profile", None)
     if args.command == "init":
         return init(root)
+    if args.command == "new-claim":
+        args.root = root
+        return run_newclaim(args)
     try:
-        cfg = load_config(root, args.config, profile_override=args.profile)
+        cfg = load_config(root, config, profile_override=profile)
     except ValueError as exc:
         print(f"[FAIL] {exc}")
         return 1
     if args.command == "reproduce":
-        return reproduce(cfg, quiet=args.quiet)
+        return reproduce(cfg, quiet=quiet)
     if args.command == "improve":
         return _improve(cfg)
-    if not args.quiet:
+    if not quiet:
         print(f"[profile] {cfg.profile}"
               + ("" if cfg.strict_mode else " (permissive onboarding profile; "
                  "'strict' is the recommended destination)"))
-    return run(cfg, quiet=args.quiet)
+    return run(cfg, quiet=quiet)
 
 
 def _improve(cfg) -> int:

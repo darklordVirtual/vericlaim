@@ -1,0 +1,61 @@
+{
+  "allowed": 6,
+  "capacity": 3.0,
+  "capacity_violations": 0,
+  "cases": [
+    {
+      "granted": true,
+      "level_before": 3.0,
+      "t": 0.0,
+      "tokens_after": 2.0
+    },
+    {
+      "granted": true,
+      "level_before": 2.0,
+      "t": 0.0,
+      "tokens_after": 1.0
+    },
+    {
+      "granted": true,
+      "level_before": 1.0,
+      "t": 0.0,
+      "tokens_after": 0.0
+    },
+    {
+      "granted": false,
+      "level_before": 0.0,
+      "t": 0.0,
+      "tokens_after": 0.0
+    },
+    {
+      "granted": true,
+      "level_before": 1.0,
+      "t": 1.0,
+      "tokens_after": 0.0
+    },
+    {
+      "granted": false,
+      "level_before": 0.0,
+      "t": 1.0,
+      "tokens_after": 0.0
+    },
+    {
+      "granted": true,
+      "level_before": 1.0,
+      "t": 2.0,
+      "tokens_after": 0.0
+    },
+    {
+      "granted": true,
+      "level_before": 3.0,
+      "t": 10.0,
+      "tokens_after": 2.0
+    }
+  ],
+  "denied": 2,
+  "max_level_observed": 3.0,
+  "module": "tokenbucket",
+  "n_events": 8,
+  "refill_per_sec": 1.0,
+  "schema": "claimlib_tokenbucket_v1"
+}

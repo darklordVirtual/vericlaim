@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "useUndoRedo.json",
+  "artifact_sha256": "990d942fc2b273b1ec4775ec5bd9dd051845e5bcfeb326016b605b2fe9a32b4e",
+  "script": "node claimlib/react/useUndoRedo/evidence.ts",
+  "git_commit": "97c245e74c70b0fd94a4dacfb7fcfd5deda3f852",
+  "generated_at": "2026-07-11T09:25:31.800732+00:00",
+  "produced_by": "claimlib"
+}

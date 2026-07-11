@@ -1,0 +1,7 @@
+{
+  "correct": 11,
+  "errors": 0,
+  "module": "useStepper",
+  "n_cases": 11,
+  "schema": "claimlib_usestepper_v1"
+}
