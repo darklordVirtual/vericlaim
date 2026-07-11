@@ -1,6 +1,6 @@
 # IBAN validation (ISO 13616 / MOD-97-10)
 
-*Subject area: Finance / Payments & Banking. Language: python. Vendorable bundle `ca29bf1e58d0`.*
+*Subject area: Finance / Payments & Banking. Language: python. Vendorable bundle `2e27e2119edd`.*
 
 An IBAN wraps a national bank account number with a two-letter country code and two check digits so cross-border transfers can be validated before money moves. The check is ISO 7064 MOD-97-10: move the first four characters to the end, map letters to numbers (A=10..Z=35), and require the resulting integer to be congruent to 1 modulo 97 -- a scheme that catches all single-digit errors and most transpositions. Vendor this module to validate AND to generate the check digits of IBANs with zero dependencies; the claim proves it matches the published registry examples, so you inherit a checked validator rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `iban.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/ca29bf1e58d04ca7a0704cbeb6861d0379406fd10a68414b23335a9a194eccaa --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/2e27e2119edd71252b629da4dd17308511ff95d412fa84fbb68935845a9f97de --target .
 ```

@@ -947,5 +947,135 @@ MODULES = [
         "statement": "The vendored topological sort (Kahn's algorithm, deterministic smallest-first tie-break) produces an edge-respecting order for every one of a fixed 6-DAG battery (valid_orderings = 6, invalid_orderings = 0) -- each order contains every node exactly once and places the tail of every edge before its head -- and detects every one of 4 cyclic graphs (self-loop, 2-cycle, 3-cycle, embedded cycle), with has_cycle True and topo_sort raising CycleError.",
         "caveat": "Correctness is demonstrated over a fixed battery of graphs, not proven for every graph. Nodes must be mutually comparable for the deterministic smallest-first ordering (e.g. all strings or all ints); an edge referencing an unknown node fails closed. Edges are (u, v) meaning 'u before v'.",
         "knowledge": "A topological sort orders a directed acyclic graph so every dependency comes before whatever depends on it -- the primitive behind build systems, task schedulers, database migration ordering, and package resolution. Kahn's algorithm repeatedly emits a node with no remaining incoming edges; if any node never reaches in-degree zero, the graph has a cycle and no order exists. This module emits ready nodes smallest-first for a deterministic result and fails closed on a cycle; the claim proves every output respects all edges and every cycle is caught, so you inherit a checked ordering primitive rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "sha256",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-SHA256-001",
+        "title": "SHA-256 (FIPS 180-4) from scratch",
+        "area": "Security / Cryptographic Hashing",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "sha256.py"
+        ],
+        "artifact": "sha256.json",
+        "register_metrics": [
+            "reference_vectors",
+            "reference_vectors_matched",
+            "mismatches",
+            "crosscheck_matched"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored SHA-256 -- which implements the FIPS 180-4 padding, 64-word message schedule and 64-round compression DIRECTLY on 32-bit integers and never imports hashlib -- reproduces every value in a fixed 398-vector reference set with 0 mismatches: the 3 published FIPS check values (sha256(b\"\") == e3b0c442...b855, sha256(b\"abc\") == ba7816bf...15ad, and the 448-bit example) plus 395 byte strings (block-boundary lengths 55/56/64/65, a long input, every single byte 0..255, and incremental lengths across blocks) that agree byte-for-byte with the independent stdlib hashlib.sha256.",
+        "caveat": "hashlib.sha256 is the independent oracle and is NOT used inside the vendored module. Correctness is demonstrated over a fixed reference set, not proven for every input. SHA-256 is a cryptographic hash for integrity and commitment, NOT a password hash -- use PBKDF2/scrypt/argon2 for passwords -- and a bare hash is not a MAC (use HMAC for authentication). This is a clear, from-scratch reference implementation, not a side-channel-hardened or performance-tuned one.",
+        "knowledge": "SHA-256 (FIPS 180-4) maps any input to a 256-bit digest such that finding collisions or preimages is computationally infeasible -- the backbone of digital signatures, TLS certificates, Git object ids, Bitcoin, and content addressing. It processes 512-bit blocks through a 64-round compression function mixing eight 32-bit state words with round constants derived from the cube roots of primes. This module implements the whole algorithm from scratch (no hashlib), so you can vendor a dependency-free, auditable hash; the claim proves it matches the published FIPS vectors and agrees byte-for-byte with hashlib, so you inherit a checked implementation rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "hmac_sha256",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-HMAC-SHA256-001",
+        "title": "HMAC-SHA256 (RFC 2104) from scratch",
+        "area": "Security / Message Authentication",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "hmac_sha256.py"
+        ],
+        "artifact": "hmac_sha256.json",
+        "register_metrics": [
+            "reference_vectors",
+            "reference_vectors_matched",
+            "mismatches",
+            "oracle_agreements"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored HMAC-SHA256 -- which implements the RFC 2104 construction DIRECTLY (key normalization, ipad/opad, two-pass hash) over hashlib.sha256 and never calls the stdlib hmac module -- passes all 13 checks with 0 mismatches: it agrees byte-for-byte with stdlib hmac on all 10 battery inputs (the RFC 4231 HMAC-SHA256 test key/message pairs, including the oversized 131-byte key that must be hashed down, plus empty and block-sized keys), reproduces the published RFC 4231 Test Case 2 tag (5bdcc146...3843), and its constant-time verify accepts the correct tag and rejects a single flipped bit.",
+        "caveat": "The stdlib hmac module is the independent oracle for the HMAC construction; the underlying compression is hashlib.sha256 (so this proves the HMAC wrapper, not SHA-256 itself -- see the sha256 module for that). Correctness is over a fixed battery, not proven for every input. verify is constant-time in the tag comparison, but this is a clear reference implementation, not a fully side-channel-hardened one.",
+        "knowledge": "HMAC (RFC 2104) turns a plain hash into a keyed message authentication code: HMAC(K, m) = H((K XOR opad) || H((K XOR ipad) || m)). It lets two parties holding a shared secret verify that a message is authentic and untampered, and underpins TOTP/HOTP, JWT (HS256), AWS request signing, and webhook signatures. Verifying a tag must be constant-time so an attacker cannot forge one byte at a time. This module implements the construction from scratch; the claim proves it matches stdlib hmac and the RFC 4231 vector, so you inherit a checked MAC rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "hotp",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-HOTP-001",
+        "title": "HOTP one-time passwords (RFC 4226)",
+        "area": "Security / Authentication (2FA)",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "hotp.py"
+        ],
+        "artifact": "hotp.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored HOTP generator reproduces every published RFC 4226 Appendix D test vector exactly (correct = 10, errors = 0): for the reference secret b\"12345678901234567890\" the 6-digit HOTP for counters 0..9 is 755224, 287082, 359152, 969429, 338314, 254676, 287922, 162583, 399871, 520489, computed via HMAC-SHA1 of the counter and the RFC 4226 dynamic-truncation to a 31-bit value reduced modulo 10**digits.",
+        "caveat": "Correctness is demonstrated over the published RFC 4226 vectors, not proven for every secret/counter. HOTP is event-based (the caller owns the moving counter and its resynchronization window); it authenticates possession of the shared secret, so the secret must be provisioned and stored securely, and SHA-1 here is the HMAC PRF as the RFC mandates (not a security weakness in this HOTP context).",
+        "knowledge": "HOTP (RFC 4226) is the HMAC-based one-time-password algorithm behind hardware tokens and authenticator apps: it HMACs an incrementing counter with a shared secret, then 'dynamically truncates' the MAC to a short human-typable code. Each counter value yields a fresh single-use code, so an intercepted code is worthless once used. This module implements the generation and truncation exactly; the claim proves it reproduces the official RFC 4226 vectors, so you inherit a checked OTP generator rather than a re-implementation to re-audit (and TOTP builds directly on it)."
+    },
+    {
+        "name": "totp",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-TOTP-001",
+        "title": "TOTP one-time passwords (RFC 6238)",
+        "area": "Security / Authentication (2FA)",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "totp.py"
+        ],
+        "artifact": "totp.json",
+        "register_metrics": [
+            "n_cases",
+            "correct",
+            "errors"
+        ],
+        "bind_field": "correct",
+        "statement": "The vendored TOTP generator reproduces every published RFC 6238 Appendix B (SHA-1) test vector exactly (correct = 6, errors = 0): for the reference secret b\"12345678901234567890\" with 8 digits and a 30-second step, the TOTP at Unix times 59, 1111111109, 1111111111, 1234567890, 2000000000 and 20000000000 is 94287082, 07081804, 14050471, 89005924, 69279037 and 65353130, derived as HOTP over the time counter floor((now - T0) / step).",
+        "caveat": "Correctness is demonstrated over the published RFC 6238 SHA-1 vectors, not proven for every input; the SHA-256/SHA-512 modes are implemented but each is validated here only via SHA-1 (RFC 6238 uses different per-algorithm seeds). Verification (accepting a code within a +/- step window for clock skew, and rejecting reuse) is the caller's responsibility, and the shared secret must be stored securely.",
+        "knowledge": "TOTP (RFC 6238) is HOTP with the counter replaced by the current time divided into fixed steps (usually 30 s), so the code rotates automatically without a stored counter -- the '6-digit code' in Google Authenticator, Authy, and most 2FA. The verifier recomputes the expected code for the current window (often allowing one step of clock skew) and compares. This module computes TOTP with selectable digest and digit count; the claim proves it reproduces the official RFC 6238 vectors, so you inherit a checked TOTP generator rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "pbkdf2",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-PBKDF2-001",
+        "title": "PBKDF2 key derivation (RFC 8018)",
+        "area": "Security / Password Hashing",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "pbkdf2.py"
+        ],
+        "artifact": "pbkdf2.json",
+        "register_metrics": [
+            "reference_vectors",
+            "reference_vectors_matched",
+            "mismatches",
+            "oracle_matched"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored PBKDF2 -- which implements the RFC 8018 block function T_i = U_1 XOR ... XOR U_c DIRECTLY over an HMAC PRF and never calls hashlib.pbkdf2_hmac -- reproduces every value in an 11-vector reference set with 0 mismatches: the 3 published RFC 6070 PBKDF2-HMAC-SHA1 vectors (('password','salt',1,20) -> 0c60c80f...37a6, (...,2,20) -> ea6c014d...8957, (...,4096,20) -> 4b007901...29c1) plus 8 (hash, password, salt, iterations, dklen) cases over SHA-1/256/512 (multi-block output, empty password, empty salt) that agree byte-for-byte with the independent stdlib hashlib.pbkdf2_hmac.",
+        "caveat": "hashlib.pbkdf2_hmac is the independent oracle and is NOT called inside the vendored module. Correctness is over a fixed reference set, not proven for every input. PBKDF2 is a deliberately slow password KDF; choose a high iteration count (>= hundreds of thousands for SHA-256 today) and a unique random salt per password. This pure-Python implementation is far slower than the C stdlib one and is not constant-time; for production password storage prefer scrypt or argon2.",
+        "knowledge": "PBKDF2 (RFC 8018 / PKCS#5) stretches a password into a cryptographic key by iterating an HMAC PRF thousands of times over the password and a per-user salt, so brute-forcing stolen hashes costs the attacker that same multiplier per guess. It is the classic password-hashing and key-derivation function (WPA2, disk encryption, many app login stores). This module implements the construction from scratch; the claim proves it matches the RFC 6070 vectors and agrees with hashlib.pbkdf2_hmac, so you inherit a checked KDF rather than a re-implementation to re-audit."
+    },
+    {
+        "name": "hkdf",
+        "lang": "python",
+        "claim_id": "CLAIM-LIB-HKDF-001",
+        "title": "HKDF key derivation (RFC 5869)",
+        "area": "Security / Key Derivation",
+        "evidence_level": "benchmarked",
+        "code_files": [
+            "hkdf.py"
+        ],
+        "artifact": "hkdf.json",
+        "register_metrics": [
+            "n_vectors",
+            "checks",
+            "reference_vectors_matched",
+            "mismatches"
+        ],
+        "bind_field": "reference_vectors_matched",
+        "statement": "The vendored HKDF (extract-then-expand) reproduces the published RFC 5869 SHA-256 test vectors exactly (reference_vectors_matched = 9, mismatches = 0): across Test Case 1 (basic), Test Case 2 (longer inputs, L=82), and Test Case 3 (zero-length salt and info) it matches the RFC's PRK and OKM hex, and the standalone expand(PRK) step reproduces each OKM -- all three checks per case, hand-written verbatim from the RFC.",
+        "caveat": "The RFC 5869 published vectors are the independent oracle. Correctness is demonstrated over those fixed vectors (SHA-256), not proven for every input. HKDF derives keys from an already-high-entropy secret (a Diffie-Hellman shared secret, a master key); it is NOT a password hash -- run a low-entropy password through PBKDF2/scrypt/argon2 first. Bind context into the info parameter for domain separation between derived keys.",
+        "knowledge": "HKDF (RFC 5869) is the modern key-derivation function used by TLS 1.3, the Signal protocol, and Noise: 'extract' concentrates the entropy of an input keying material into a uniform pseudorandom key PRK = HMAC(salt, IKM), and 'expand' stretches PRK into any number of independent output keys via a counter-chained HMAC, with an info label for domain separation. This module implements both steps; the claim proves it reproduces the official RFC 5869 vectors (including the 82-byte case), so you inherit a checked KDF rather than a re-implementation to re-audit."
     }
 ]

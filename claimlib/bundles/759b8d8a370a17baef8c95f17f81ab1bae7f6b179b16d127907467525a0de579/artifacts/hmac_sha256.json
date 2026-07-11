@@ -1,0 +1,12 @@
+{
+  "mismatches": 0,
+  "module": "hmac_sha256",
+  "oracle_agreements": 10,
+  "oracle_cases": 10,
+  "published_tc2_ok": true,
+  "reference_vectors": 13,
+  "reference_vectors_matched": 13,
+  "reject_flipped_ok": true,
+  "schema": "claimlib_hmac_sha256_v1",
+  "verify_ok": true
+}

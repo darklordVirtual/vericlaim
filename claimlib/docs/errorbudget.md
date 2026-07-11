@@ -1,6 +1,6 @@
 # SLO / error-budget arithmetic
 
-*Subject area: SRE / Reliability Engineering. Language: python. Vendorable bundle `d0f490900f25`.*
+*Subject area: SRE / Reliability Engineering. Language: python. Vendorable bundle `5c00d7ded0de`.*
 
 Site Reliability Engineering measures a service against a Service Level Objective (SLO) — e.g. 99.9% availability over 30 days. The complement of the SLO is the error budget: the amount of downtime the target permits over the window (budget = window * (1 - SLO/100)). Teams spend that budget on risk — releases, experiments, incidents — and 'budget remaining' tracks how much allowance is left before the SLO is breached, going negative once overspent. Vendor this module to compute availability and error budgets consistently; the claim proves the arithmetic matches the published formulas, so you inherit a checked calculator rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `errorbudget.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/d0f490900f2583e1d500c55d6853cc44fe19a043b4b4247f05852b941d771a7c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/5c00d7ded0de26cfb91ffaa956b1852de7530bbeb51ad3a5fcf99c64f2a3775f --target .
 ```

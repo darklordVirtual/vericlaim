@@ -1,6 +1,6 @@
 # CVSS v3.1 base scoring
 
-*Subject area: Security / Vulnerability Management. Language: python. Vendorable bundle `623bced7432e`.*
+*Subject area: Security / Vulnerability Management. Language: python. Vendorable bundle `4d5c9b0d1628`.*
 
 CVSS v3.1 turns an attack vector, complexity, privileges, user interaction, scope and CIA impact into a 0.0-10.0 base score. This module parses the standard `CVSS:3.1/...` vector string and applies the published FIRST formula (impact, exploitability, scope, Roundup). Vendor it to score vulnerabilities consistently; the claim proves the arithmetic matches the reference, so you inherit a checked scorer, not a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `cvss.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/623bced7432ef0b6015e9a22c086a950830e3fc6c21e542c39ab479deca4f618 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/4d5c9b0d1628af9562e7ef716d0043ad193a61866a41cc6f9412d5bf2bd6b5b4 --target .
 ```

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/ipchecksum.json": "4a0d124a80883dae5a9165e9e14bbbaac5f85c8f05c5c730d2c3d420b7f7d71b",
+    "claim.json": "c3f53e85166399c9b6122cf343f5bc94e049844cf2756b85431536238676ebf2",
+    "code/ipchecksum.py": "09325373db8d60778907e1a2fb92807271c32e897dff1c287ed46adeabbf7cb2",
+    "provenance.json": "268dff5daa540b81f631597dbcfb2d1537b111769b846caaf65cb79c804d759d"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

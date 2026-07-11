@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/semver.json": "3893655d7d49661b3b0a0bfc122ac398b631f12f194d3b1cb5d2ea0312830410",
+    "claim.json": "143b707be448a922ba241d6e41dca3786f86c4eb463f98adad642664f5f0e555",
+    "code/semver.py": "7ace28bbc3ee8a619d55356f88e6d3b8b16879f00f55b8f646c6458838347bf9",
+    "provenance.json": "ac4464945299eba48fb176dc29b225c7e62a84b4f1bfc7f9f8809d1ae95e7d33"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

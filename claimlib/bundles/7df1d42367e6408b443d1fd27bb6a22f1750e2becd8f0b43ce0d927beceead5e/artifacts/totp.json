@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "computed": "94287082",
+      "correct": true,
+      "expected": "94287082",
+      "unix_time": 59
+    },
+    {
+      "computed": "07081804",
+      "correct": true,
+      "expected": "07081804",
+      "unix_time": 1111111109
+    },
+    {
+      "computed": "14050471",
+      "correct": true,
+      "expected": "14050471",
+      "unix_time": 1111111111
+    },
+    {
+      "computed": "89005924",
+      "correct": true,
+      "expected": "89005924",
+      "unix_time": 1234567890
+    },
+    {
+      "computed": "69279037",
+      "correct": true,
+      "expected": "69279037",
+      "unix_time": 2000000000
+    },
+    {
+      "computed": "65353130",
+      "correct": true,
+      "expected": "65353130",
+      "unix_time": 20000000000
+    }
+  ],
+  "correct": 6,
+  "errors": 0,
+  "module": "totp",
+  "n_cases": 6,
+  "schema": "claimlib_totp_v1"
+}

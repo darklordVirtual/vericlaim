@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "totp.json",
+  "artifact_sha256": "b910a779b5fb1855fa9a4dcbd02b369fa301fee18a13e2141f8b9c9e69155a4f",
+  "script": "python3 claimlib/modules/totp/evidence.py",
+  "git_commit": "a843571c19565acabdb766dd3a04eb946d05615e",
+  "generated_at": "2026-07-11T17:26:45.762039+00:00",
+  "produced_by": "claimlib"
+}
