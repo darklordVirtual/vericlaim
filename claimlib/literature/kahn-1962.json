@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Arthur B. Kahn"
+  ],
+  "id": "kahn-1962",
+  "identifier": "Communications of the ACM, Vol. 5, No. 11, pp. 558-562; doi:10.1145/368996.369025",
+  "kind": "paper",
+  "publisher": "ACM",
+  "schema": "claimlib_literature_v1",
+  "summary": "Presents the in-degree-based topological sorting procedure now known as Kahn's algorithm: repeatedly emit a node with no unprocessed predecessors and remove its outgoing edges. Developed for PERT-style network analysis at Westinghouse, it orders a directed acyclic graph in linear time; failure to consume all nodes detects a cycle. The topo_sort module implements this algorithm with a deterministic tie-break on the ready set.",
+  "summary_sha256": "4cb37ab9ae328fbc616c1f148b52fab56e342d6b252300b50ef439eb90fb677a",
+  "title": "Topological sorting of large networks",
+  "url": "https://dl.acm.org/doi/10.1145/368996.369025",
+  "year": 1962
+}

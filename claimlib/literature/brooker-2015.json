@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Marc Brooker"
+  ],
+  "id": "brooker-2015",
+  "identifier": "AWS Architecture Blog, 4 March 2015",
+  "kind": "paper",
+  "publisher": "Amazon Web Services",
+  "schema": "claimlib_literature_v1",
+  "summary": "Analyzes retry storms under capped exponential backoff for optimistic-concurrency clients and shows via simulation that adding randomness to backoff reduces contention, total client work, and completion time. Defines the Full Jitter strategy as sleep = random_between(0, min(cap, base * 2^attempt)), i.e. the delay is drawn uniformly from [0, capped exponential], and compares it against Equal Jitter and Decorrelated Jitter. This post is the origin of the 'full jitter' terminology and formula used by retry libraries.",
+  "summary_sha256": "42d54215a43f83cc7017fc1245dae99aada727c0e6ec9501fea52743aee8a27a",
+  "title": "Exponential Backoff And Jitter",
+  "url": "https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/",
+  "year": 2015
+}

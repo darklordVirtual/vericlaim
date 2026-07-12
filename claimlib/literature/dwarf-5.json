@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "DWARF Debugging Information Format Committee"
+  ],
+  "id": "dwarf-5",
+  "identifier": "DWARF Version 5",
+  "kind": "standard",
+  "publisher": "DWARF Debugging Information Format Committee",
+  "schema": "claimlib_literature_v1",
+  "summary": "The DWARF 5 debugging information format standard, published February 2017. Section 7.6 defines LEB128 (Little-Endian Base 128) variable-length integer encoding in both unsigned (ULEB128) and signed (SLEB128) forms, including the encode/decode algorithms and tables of reference encodings that LEB128 implementations reproduce. LEB128 is the pseudo-standard cited by varint implementations beyond DWARF itself.",
+  "summary_sha256": "eecd4745fd146470a825de6040d7872d11770ec1e18135f07a6afa50fedc572c",
+  "title": "DWARF Debugging Information Format Version 5",
+  "url": "https://dwarfstd.org/dwarf5std.html",
+  "year": 2017
+}

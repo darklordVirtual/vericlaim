@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Rob J. Hyndman",
+    "Yanan Fan"
+  ],
+  "id": "hyndman-1996",
+  "identifier": "The American Statistician, vol. 50, no. 4, pp. 361-365, doi:10.1080/00031305.1996.10473566",
+  "kind": "paper",
+  "publisher": "American Statistical Association",
+  "schema": "claimlib_literature_v1",
+  "summary": "Surveys and systematizes the nine sample-quantile definitions (types 1-9) implemented across statistical packages, expressing each as a weighted average of order statistics and analyzing their motivating properties such as median-unbiasedness. This taxonomy is the reference for quantile-estimation methods in modern software: Python's statistics.quantiles 'exclusive' and 'inclusive' methods correspond to types 6 and 7 in this paper, so percentile computations validated against the Python statistics module implement estimators defined here.",
+  "summary_sha256": "ce48cf2482bd36037302ecb1fd1b067921c6fbd11a3f7e60d3ab1b9bf6d960dd",
+  "title": "Sample Quantiles in Statistical Packages",
+  "url": "https://www.tandfonline.com/doi/abs/10.1080/00031305.1996.10473566",
+  "year": 1996
+}

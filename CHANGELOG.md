@@ -7,6 +7,27 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 ## [Unreleased] — gold-standard lift
 
 ### Added
+- **Full literature coverage for the knowledge register**: claimlib's
+  hash-locked bibliography grew from 24 to 76 works (RFCs, ISO/IEEE/ITU
+  standards, classic papers from Hamming 1950 to Haber–Stornetta 1991, and
+  books down to Pacioli's 1494 *Summa*); 55 of 64 modules now cite the
+  literature they implement through 80 resolved references, and the 9 generic
+  utilities are documented as intentionally uncited — a stretched citation is
+  worse than none. Every entry was drafted and adversarially fact-checked
+  against the primary sources.
+- **`CLAIM-LIB-INDEX-001`** (`tools/claimlib_index_evidence.py` →
+  `claims/claimlib_index.json`): the knowledge register's size and citation
+  coverage counted from `MODULES.py`/`SOURCES.py` and bound into the README —
+  adding a module or work without regenerating the evidence fails the gate.
+- **README restructured around the two halves**: the gate and the knowledge
+  register, with a table of contents, a categorized directory of all 64
+  library modules, the claim→program pipeline (literature → claim → evidence
+  → artifact → bundle), and the scaffolder documented as the generative path.
+- **`seed/` corpora generators committed** (`seed/generate.py`,
+  `seed/enterprise/{generate.py,domains.py}`): deterministic stress-test
+  workspaces — 300 artifact-backed claims at scale and 30 claims across 16
+  enterprise domains — regenerable byte-identically; the generated corpus is
+  gitignored by design (`seed/README.md`).
 - **Central path-safety policy** (`vericlaim/pathsafe.py`): one fail-closed,
   adversarially-tested definition of a safe path, used by the gate, manifest,
   literature, and bundle tooling. Rejects absolute paths, `..`/`.`/empty/

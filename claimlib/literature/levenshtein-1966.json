@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Vladimir I. Levenshtein"
+  ],
+  "id": "levenshtein-1966",
+  "identifier": "Soviet Physics Doklady, Vol. 10, No. 8, pp. 707-710",
+  "kind": "paper",
+  "publisher": "American Institute of Physics (Soviet Physics Doklady)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces the edit-distance metric now known as Levenshtein distance: the minimum number of single-symbol deletions, insertions, and substitutions needed to transform one sequence into another. The paper studies binary codes capable of correcting such errors, and its distance metric became the standard measure of string similarity. This is the defining source for the semantics of the levenshtein module's distance function.",
+  "summary_sha256": "5f850b61a7050b8a9914b1dc8275ce50d2cd5e745a8253bef95306e61bbd14a3",
+  "title": "Binary Codes Capable of Correcting Deletions, Insertions and Reversals",
+  "url": "https://ui.adsabs.harvard.edu/abs/1966SPhD...10..707L",
+  "year": 1966
+}

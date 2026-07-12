@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "Ben Laurie",
+    "Adam Langley",
+    "Emilia Kasper"
+  ],
+  "id": "rfc-6962",
+  "identifier": "RFC 6962",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies Certificate Transparency logs, including the precise binary Merkle Tree Hash construction over SHA-256 with distinct leaf (0x00) and interior-node (0x01) prefixes, and the recursive algorithms for Merkle audit paths (inclusion proofs) and consistency proofs against a signed tree head. This is the de facto reference definition of SHA-256 Merkle inclusion proofs used by deployed CT logs. Experimental status; obsoleted by RFC 9162 (CT 2.0), which retains the same tree and proof definitions.",
+  "summary_sha256": "c42145044bb1f544071c8a21c1052cbfb72ff31d9e8cd1615b0d2ff5497c12f7",
+  "title": "Certificate Transparency",
+  "url": "https://www.rfc-editor.org/info/rfc6962",
+  "year": 2013
+}

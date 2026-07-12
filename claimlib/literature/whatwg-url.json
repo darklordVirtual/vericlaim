@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Anne van Kesteren"
+  ],
+  "id": "whatwg-url",
+  "identifier": "WHATWG URL Living Standard (last updated 6 July 2026)",
+  "kind": "specification",
+  "publisher": "WHATWG",
+  "schema": "claimlib_literature_v1",
+  "summary": "The WHATWG living standard defining URLs, domains, IP addresses, and their API, superseding RFC 3986/3987 for web content. Section 5 specifies the application/x-www-form-urlencoded format: the parser that splits input on '&', treats '+' as space, and percent-decodes UTF-8 name/value tuples (5.1), and the corresponding serializer (5.2). These algorithms define the parse/stringify semantics the parseQuery module implements.",
+  "summary_sha256": "2d03ffd5b00ba2bfffcb33ea58d1a776446b343b0160e38bc580fa20625add8e",
+  "title": "URL Standard",
+  "url": "https://url.spec.whatwg.org/",
+  "year": 2026
+}

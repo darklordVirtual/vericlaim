@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "NMEA"
+  ],
+  "id": "nmea-0183",
+  "identifier": "NMEA 0183 v4.30",
+  "kind": "standard",
+  "publisher": "National Marine Electronics Association",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines electrical signal requirements, data transmission protocol, and sentence formats for 4800-baud serial communication between marine electronic devices such as GNSS receivers, sounders, and autopilots. Sentences begin with '$' or '!' and end with an optional '*'-delimited checksum: the 8-bit XOR of all characters between (but excluding) '$' and '*', transmitted as two uppercase hexadecimal characters. Version 4.30 was published in December 2023, replacing v4.11 (2018).",
+  "summary_sha256": "cf4b6530a9dcf256feb92f5da726ae24f0ec777a6551451832c1afe8ca195b76",
+  "title": "NMEA 0183 Interface Standard",
+  "url": "https://www.nmea.org/nmea-0183.html",
+  "year": 2023
+}

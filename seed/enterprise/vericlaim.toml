@@ -1,0 +1,13 @@
+# VeriClaim enterprise domain-knowledge seed — isolated stress-test workspace.
+# Regenerate: python seed/enterprise/generate.py
+[vericlaim]
+profile             = "adopt"
+register            = "claims/register.yaml"
+baseline            = "claims/baseline.json"
+doc_globs           = ["docs/*.md"]
+required_fields     = ["id", "statement", "evidence_level", "artifact", "caveat"]
+evidence_levels     = ["theoretical", "measured", "benchmarked", "reproduced", "machine_checked", "externally_validated"]
+require_provenance  = true
+require_git_tracked = false
+
+[vericlaim.stale_strings]

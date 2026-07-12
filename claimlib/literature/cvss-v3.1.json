@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "FIRST.Org, Inc."
+  ],
+  "id": "cvss-v3.1",
+  "identifier": "CVSS v3.1 Specification Document (Revision 1, June 2019)",
+  "kind": "specification",
+  "publisher": "FIRST",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines the CVSS v3.1 open framework for scoring the severity of software vulnerabilities via Base, Temporal, and Environmental metric groups. Specifies the exact base-score equations, including the Impact and Exploitability sub-scores, the changed/unchanged Scope (S) handling that alters coefficients and score combination, and the Roundup function introduced to eliminate floating-point scoring inconsistencies seen in v3.0. Base scores computed per this document are the reference values published by FIRST and used by NVD.",
+  "summary_sha256": "eb57d3193ac1053edbbbaabda62e96f5a17864954352a586c8ee251bdd472053",
+  "title": "Common Vulnerability Scoring System version 3.1: Specification Document",
+  "url": "https://www.first.org/cvss/v3.1/specification-document",
+  "year": 2019
+}

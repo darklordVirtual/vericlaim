@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Ecma International"
+  ],
+  "id": "ecma-262-2024",
+  "identifier": "ECMA-262, 15th edition (June 2024)",
+  "kind": "standard",
+  "publisher": "Ecma International",
+  "schema": "claimlib_literature_v1",
+  "summary": "The 15th edition of the ECMAScript language standard. Defines the SameValue and SameValueZero abstract equality operations, under which NaN equals NaN and SameValue distinguishes +0 from -0 (the semantics exposed as Object.is and followed by structural deep-equality at the leaves). Also introduces Object.groupBy and Map.groupBy via the GroupBy abstract operation: elements are partitioned by a callback-produced key, groups are created in first-encounter order, and elements within a group keep source iteration order, materialised on a null-prototype object so keys like \"__proto__\" become ordinary buckets.",
+  "summary_sha256": "b53f07af3a11f36ad7dde782a2e001594227f8bd79ea467811f41a955da1b9b4",
+  "title": "ECMAScript\u00ae 2024 Language Specification",
+  "url": "https://262.ecma-international.org/15.0/",
+  "year": 2024
+}

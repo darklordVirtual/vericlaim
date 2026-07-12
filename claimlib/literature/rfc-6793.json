@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Quaizar Vohra",
+    "Enke Chen"
+  ],
+  "id": "rfc-6793",
+  "identifier": "RFC 6793",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Extends BGP to carry Autonomous System numbers as four-octet entities, defining how two-octet ASNs map into the four-octet space (high-order octets zero) and reserving the special two-octet value AS_TRANS (23456) to represent non-mappable four-octet ASNs toward legacy speakers. Defines the AS4_PATH/AS4_AGGREGATOR attributes for transition. Obsoletes RFC 4893 and updates RFC 4271; the authoritative reference for 4-byte ASN classification.",
+  "summary_sha256": "0a7a3963b686ac4b6f03abce9d98a8d17f8cbcd4196e6c6299ef2918ae13b45d",
+  "title": "BGP Support for Four-Octet Autonomous System (AS) Number Space",
+  "url": "https://www.rfc-editor.org/info/rfc6793",
+  "year": 2012
+}

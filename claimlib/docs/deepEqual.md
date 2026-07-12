@@ -1,6 +1,6 @@
 # deepEqual structural deep equality
 
-*Subject area: TypeScript / Data Comparison. Language: typescript. Vendorable bundle `7073b9053663`.*
+*Subject area: TypeScript / Data Comparison. Language: typescript. Vendorable bundle `385dc579c770`.*
 
 Deep equality compares two values by structure rather than by reference: two distinct objects are equal when their contents match recursively, unlike the === operator which only reports reference identity for objects. The subtle edges are the ones JavaScript gets 'wrong' by default -- NaN !== NaN (so a structural comparator must special-case it to true), Dates and arrays need element/timestamp comparison, and an explicit `{a: undefined}` must stay distinct from `{}`. Vendor it for test assertions, memoization/change-detection, and cache-key checks; the claim proves the comparator handles these edges as specified, so you inherit a checked primitive rather than a re-implementation to re-audit.
 
@@ -16,5 +16,11 @@ Ships `deepEqual.ts` into your project, byte-exact, with a generated binding tes
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/7073b905366316289d5767c73c73a042dd6049dffaf695a785a1af5efb5209ae --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/385dc579c770b1d584eaf832118c5c606d3af6229c99d0e129c1b2b4c59b9e90 --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **ECMA-262, 15th edition (June 2024)** — ECMAScript® 2024 Language Specification. [https://262.ecma-international.org/15.0/](https://262.ecma-international.org/15.0/)

@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "IEEE"
+  ],
+  "id": "ieee-802-3",
+  "identifier": "IEEE 802.3-2022",
+  "kind": "standard",
+  "publisher": "IEEE",
+  "schema": "claimlib_literature_v1",
+  "summary": "The Ethernet standard covering MAC and physical-layer operation from 1 Mb/s to 400 Gb/s. Clause 3.2.9 defines the 32-bit Frame Check Sequence and its degree-32 generator polynomial (x^32 + x^26 + x^23 + x^22 + x^16 + x^12 + x^11 + x^10 + x^8 + x^7 + x^5 + x^4 + x^2 + x + 1, i.e. 0x04C11DB7), computed with all-ones preset and complemented result. The bit-reflected form of this polynomial, 0xEDB88320, is the constant used by LSB-first CRC-32 implementations.",
+  "summary_sha256": "cc43cf323c8a6e36d7c232e9bbadd5b47fcddd45241c4b8a18483c75a8771deb",
+  "title": "IEEE Standard for Ethernet",
+  "url": "https://standards.ieee.org/ieee/802.3/10422/",
+  "year": 2022
+}

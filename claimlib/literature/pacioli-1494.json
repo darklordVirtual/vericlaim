@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Luca Pacioli"
+  ],
+  "id": "pacioli-1494",
+  "identifier": "Venice: Paganino de Paganini, 10\u201320 November 1494 (LCCN 49036374)",
+  "kind": "book",
+  "publisher": "Paganino de Paganini (Venice)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Pacioli's mathematical compendium whose treatise 'Particularis de computis et scripturis' is the first printed exposition of double-entry (Venetian) bookkeeping. It codifies the system in which every transaction is recorded as equal debits and credits across journal and ledger, so that total debits equal total credits and the ledger can be proved by a trial balance. These balance invariants are exactly what a double-entry integrity check enforces.",
+  "summary_sha256": "d9fe4135d7fef59c115b6551427c0dd09d878646c323467b43d93bff3150f969",
+  "title": "Summa de arithmetica, geometria, proportioni et proportionalita",
+  "url": "https://www.loc.gov/item/49036374/",
+  "year": 1494
+}

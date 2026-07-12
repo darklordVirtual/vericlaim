@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Hans P. Luhn"
+  ],
+  "id": "luhn-1960",
+  "identifier": "U.S. Patent 2,950,048",
+  "kind": "paper",
+  "publisher": "United States Patent Office",
+  "schema": "claimlib_literature_v1",
+  "summary": "Luhn's patent (filed 1954, granted 23 August 1960) describes a hand-operated device for computing and verifying a mod-10 check digit: every second digit from the right is doubled, digits above 9 are reduced by 9, and the total must be divisible by 10. This 'double-add-double' formula is the origin of the Luhn algorithm used for payment card numbers, IMEIs, and many national identifiers. It detects all single-digit errors and most adjacent transpositions but provides no cryptographic integrity.",
+  "summary_sha256": "6d0ece8533a0f4e16ffbc2f6c6d58c6d12b2aef4f1e21d6e4d6252d89e269526",
+  "title": "Computer for Verifying Numbers",
+  "url": "https://patents.google.com/patent/US2950048A/en",
+  "year": 1960
+}

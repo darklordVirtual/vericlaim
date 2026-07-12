@@ -1,6 +1,6 @@
 # Varint / LEB128 integer encoding
 
-*Subject area: Data / Serialization. Language: python. Vendorable bundle `4e1ae3d6851d`.*
+*Subject area: Data / Serialization. Language: python. Vendorable bundle `bef061e803be`.*
 
 A varint stores an integer in as few bytes as its magnitude needs, using seven bits per byte with the top bit as a continuation flag -- so small numbers cost one byte, and the stream is self-delimiting. It is the integer wire format of Protocol Buffers and many binary protocols; ZigZag mapping first folds signed numbers so that -1, 1, -2 encode as small unsigned 1, 2, 3 instead of maximal values. This module implements both; the claim proves it matches the published LEB128 vectors and round-trips, so you inherit a checked codec rather than a re-implementation to re-audit.
 
@@ -16,5 +16,12 @@ Ships `varint.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/4e1ae3d6851da3c9b19436aea9eea61d2cfa9e95679fdb44bc99d245565b57df --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/bef061e803be3eba1c0c9f456548cbf3b1b5c7c4f6aa339c62960ec090b0972f --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **protobuf.dev/programming-guides/encoding** — Encoding | Protocol Buffers Documentation. [https://protobuf.dev/programming-guides/encoding/](https://protobuf.dev/programming-guides/encoding/)
+- **DWARF Version 5** — DWARF Debugging Information Format Version 5. [https://dwarfstd.org/dwarf5std.html](https://dwarfstd.org/dwarf5std.html)

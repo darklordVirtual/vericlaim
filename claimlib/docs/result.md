@@ -1,6 +1,6 @@
 # Result<T, E> typed error handling
 
-*Subject area: TypeScript / Error Handling. Language: typescript. Vendorable bundle `e086d579865c`.*
+*Subject area: TypeScript / Error Handling. Language: typescript. Vendorable bundle `078062983402`.*
 
 Result<T, E> makes failure a value instead of a thrown exception: a function returns Ok<T> on success or Err<E> on failure, and the caller must handle both branches before reaching the value. Combinators (map, mapErr, andThen) thread the happy path and short-circuit on the first error, the way Rust's Result or fp-ts's Either do. Vendor it to get exhaustive, type-checked error handling in TypeScript with zero dependencies; the claim proves the combinators behave as specified, so you inherit a checked primitive rather than a re-implementation to re-audit.
 
@@ -16,5 +16,11 @@ Ships `result.ts` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e086d579865c9204a32c14ebb5833520c48d2bfdfdf403328dccad9964a5d8d4 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/078062983402f41a095423dfdbf1593385562700321aa3ba22571477a6e0a3a4 --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **Advanced Functional Programming (J. Jeuring & E. Meijer, eds.), LNCS 925:24-52, doi:10.1007/3-540-59451-5_2** — Monads for functional programming. [https://doi.org/10.1007/3-540-59451-5_2](https://doi.org/10.1007/3-540-59451-5_2)

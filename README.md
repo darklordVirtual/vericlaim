@@ -23,8 +23,28 @@ binding tests — edit one vendored line and your own suite fails.
 Think of it as **CI/CD for claims**: type checking for documentation,
 Git-grade integrity for the things your project says about itself.
 
+vericlaim is two halves of one discipline:
+
+1. **The gate** — a zero-dependency CI check that makes every claim, artifact,
+   doc and citation mechanically agree, forever.
+2. **The knowledge register** — [`claimlib/`](#the-knowledge-register-claimlib):
+   reusable, vendorable modules whose key property *is* a claim, each citing
+   the hash-locked literature it implements. Not documentation about programs —
+   **claims turned into programs**.
+
 Zero runtime dependencies · Python 3.11+ · one command to adopt · built for
 AI-authored code and prose (that is the point).
+
+**Contents** ·
+[60-second demo](#watch-it-stop-a-lie-60-seconds) ·
+[How it works](#how-it-works) ·
+[What the gate checks](#what-the-gate-checks) ·
+[Proof boundary](#what-vericlaim-proves--and-what-it-does-not) ·
+[Worked examples](#worked-examples--four-claim-shapes-four-domains) ·
+[**The knowledge register**](#the-knowledge-register-claimlib) ·
+[Layout](#layout) ·
+[Ecosystem](#beyond-the-gate-the-claim-ecosystem) ·
+[Citation](#citation)
 
 ---
 
@@ -235,6 +255,100 @@ artifact → claim → bound doc, verified by `reproduce`) is the real thing.
 
 ---
 
+## The knowledge register: claimlib
+
+vericlaim is not only a guard against drifting documentation. Its second half,
+[`claimlib/`](claimlib/README.md), is a **knowledge register**: a standard
+library of small, dependency-free, genuinely reusable modules — in Python,
+TypeScript and React — whose key property is a **claim** backed by committed
+evidence, and whose claim cites the **hash-locked literature** it implements.
+Every layer is machine-verified, so what you vendor is not a snippet but a
+checked unit of knowledge:
+
+```
+literature/<id>.json   the work (RFC · standard · paper · book), summary hash-locked
+        ↑ cited by (`references` — the build refuses an id that does not resolve)
+MODULES.py             the claim: statement · evidence level · caveat · citations
+        ↑ proven by
+evidence.py            a fixed reference battery whose expected values are independently known
+        ↑ emits
+artifacts/<name>.json  the committed evidence (+ provenance sidecar)
+        ↑ packaged as
+bundles/<sha256>       content-addressed bundle_v1 — vendor it; edit one byte and your own tests fail
+```
+
+<!-- claim:CLAIM-LIB-INDEX-001 modules_total modules_python modules_typescript modules_react literature_works modules_cited modules_uncited citations_total -->
+The register holds <!-- v:CLAIM-LIB-INDEX-001.modules_total -->**64** modules —
+<!-- v:CLAIM-LIB-INDEX-001.modules_python -->**52** Python,
+<!-- v:CLAIM-LIB-INDEX-001.modules_typescript -->**7** TypeScript,
+<!-- v:CLAIM-LIB-INDEX-001.modules_react -->**5** React — and a hash-locked
+bibliography of <!-- v:CLAIM-LIB-INDEX-001.literature_works -->**76** works;
+<!-- v:CLAIM-LIB-INDEX-001.modules_cited -->**55** modules cite the standard,
+RFC or paper they implement through
+<!-- v:CLAIM-LIB-INDEX-001.citations_total -->**80** resolved references, and
+the remaining <!-- v:CLAIM-LIB-INDEX-001.modules_uncited -->**9** are generic
+utilities honestly documented as having no canonical authoritative work.
+These counts are themselves a claim (`CLAIM-LIB-INDEX-001`): add a module or a
+work without regenerating the evidence and this paragraph fails the build.
+
+### What is in the library
+
+| Subject area | Modules |
+|--------------|---------|
+| **Security & cryptography** | [`sha256`](claimlib/docs/sha256.md) · [`hmac_sha256`](claimlib/docs/hmac_sha256.md) · [`hotp`](claimlib/docs/hotp.md) · [`totp`](claimlib/docs/totp.md) · [`pbkdf2`](claimlib/docs/pbkdf2.md) · [`hkdf`](claimlib/docs/hkdf.md) · [`pem`](claimlib/docs/pem.md) · [`spki_pin`](claimlib/docs/spki_pin.md) · [`lamport`](claimlib/docs/lamport.md) · [`cvss`](claimlib/docs/cvss.md) · [`hashchain`](claimlib/docs/hashchain.md) · [`merkle`](claimlib/docs/merkle.md) · [`rbac`](claimlib/docs/rbac.md) |
+| **Governance & compliance** | [`nist_csf`](claimlib/docs/nist_csf.md) · [`nis2`](claimlib/docs/nis2.md) · [`soc2`](claimlib/docs/soc2.md) · [`iso27001`](claimlib/docs/iso27001.md) · [`pci_dss`](claimlib/docs/pci_dss.md) |
+| **Audit & forensic analytics** | [`benford`](claimlib/docs/benford.md) · [`double_entry`](claimlib/docs/double_entry.md) · [`audit_sampling`](claimlib/docs/audit_sampling.md) |
+| **Finance & payments** | [`iban`](claimlib/docs/iban.md) · [`money`](claimlib/docs/money.md) · [`mod11`](claimlib/docs/mod11.md) · [`luhn`](claimlib/docs/luhn.md) |
+| **Telecom & networking** | [`cidr`](claimlib/docs/cidr.md) · [`ipv6`](claimlib/docs/ipv6.md) · [`macaddr`](claimlib/docs/macaddr.md) · [`aspath`](claimlib/docs/aspath.md) · [`ipchecksum`](claimlib/docs/ipchecksum.md) · [`vlan`](claimlib/docs/vlan.md) · [`e164`](claimlib/docs/e164.md) · [`imei`](claimlib/docs/imei.md) · [`hamming74`](claimlib/docs/hamming74.md) |
+| **Industrial & telemetry** | [`modbus_crc`](claimlib/docs/modbus_crc.md) · [`nmea`](claimlib/docs/nmea.md) · [`oee`](claimlib/docs/oee.md) |
+| **Data: encoding & serialization** | [`base32`](claimlib/docs/base32.md) · [`crc32`](claimlib/docs/crc32.md) · [`csv_rfc4180`](claimlib/docs/csv_rfc4180.md) · [`jsonpointer`](claimlib/docs/jsonpointer.md) · [`rle`](claimlib/docs/rle.md) · [`varint`](claimlib/docs/varint.md) |
+| **Reliability & SRE** | [`tokenbucket`](claimlib/docs/tokenbucket.md) · [`retry`](claimlib/docs/retry.md) · [`errorbudget`](claimlib/docs/errorbudget.md) · [`percentile`](claimlib/docs/percentile.md) · [`apdex`](claimlib/docs/apdex.md) |
+| **Algorithms & data structures** | [`levenshtein`](claimlib/docs/levenshtein.md) · [`topo_sort`](claimlib/docs/topo_sort.md) · [`lru`](claimlib/docs/lru.md) · [`semver`](claimlib/docs/semver.md) |
+| **TypeScript utilities** | [`result`](claimlib/docs/result.md) · [`deepEqual`](claimlib/docs/deepEqual.md) · [`cx`](claimlib/docs/cx.md) · [`groupBy`](claimlib/docs/groupBy.md) · [`chunk`](claimlib/docs/chunk.md) · [`parseQuery`](claimlib/docs/parseQuery.md) · [`formatDuration`](claimlib/docs/formatDuration.md) |
+| **React hooks** | [`useAsync`](claimlib/docs/useAsync.md) · [`useDebouncedValue`](claimlib/docs/useDebouncedValue.md) · [`usePagination`](claimlib/docs/usePagination.md) · [`useStepper`](claimlib/docs/useStepper.md) · [`useUndoRedo`](claimlib/docs/useUndoRedo.md) |
+
+Every module's page states its claim, caveat, evidence and — where one exists —
+the hash-locked works it implements. The full module table with claim ids and
+evidence levels is in [`claimlib/README.md`](claimlib/README.md); the
+bibliography, with every work's `summary_sha256` and which modules cite it, is
+in [`claimlib/literature/BIBLIOGRAPHY.md`](claimlib/literature/BIBLIOGRAPHY.md).
+
+### Vendor a module — inherit a checked primitive
+
+```bash
+# Byte-exact code + a generated binding test (editing the vendored bytes
+# then fails YOUR test suite — forking becomes an explicit act):
+python3 integrations/library/use_code.py --bundle claimlib/bundles/<id> --target .
+
+# Or import it as a hash-locked claim into your own register:
+python3 integrations/library/import_bundle.py --bundle claimlib/bundles/<id> --target .
+```
+
+### Turn a claim into a program — the scaffolder
+
+The register is generative, not just archival. `scaffold.py` takes a claim
+shape (validator, checksum, codec, calculator) and emits a ready-to-fill
+module + evidence + test that follow the contract — and it **never fabricates
+numbers**: the generated evidence refuses to run until the TODO reference
+battery is replaced with independently-known values.
+
+```bash
+python claimlib/scaffold.py iban_check --template validator --domain "Finance / Payments"
+# → modules/iban_check/{iban_check.py, evidence.py} + tests/test_iban_check.py
+python claimlib/build.py && python -m vericlaim --root claimlib   # the gate refuses drift
+```
+
+### The literature layer — citations that cannot rot
+
+Each work in [`claimlib/literature/`](claimlib/literature/) is a bibliographic
+record whose summary is hash-locked (`summary_sha256`, re-verified by tests);
+a module's `references` field must resolve to a real entry or the build fails.
+The same integrity rule the gate applies to numbers, applied to citations: a
+reference can be proven intact, and can never be fabricated or silently
+swapped.
+
+---
+
 ## Explore this repo (it dogfoods itself)
 
 ```bash
@@ -249,9 +363,11 @@ pytest -q                     # tests, including the drift-detection guarantee
 ```
 vericlaim/            the zero-dependency gate (register parser, checks, CLI)
 claims/               register.yaml (source of truth) · baseline.json · manifest.md
+claimlib/             the knowledge register: claim-bound vendorable modules + hash-locked literature + scaffolder
 docs/                 manifesto · getting-started · register spec · evidence levels
 examples/             four tiny worked examples (capability, correctness, benchmark, proof)
 domains/              five larger applied modules (eval-harness, evidence-graph, multi-tenant, ontologies, cost-routing)
+seed/                 regenerable stress-test corpora (gate at scale · 16 enterprise domains)
 tests/                tests for the gate, the examples, and the domain modules
 .claude/skills/       a Claude skill that enforces the discipline while you work
 integrations/         optional add-ons (not part of the zero-dep core)
@@ -298,10 +414,12 @@ what the gate proves, and each has its own README.
    (ask it via `/research/ask` or MCP `ask_research`). Retrieval is never
    evidence: a hit proves the text was cataloged, not that it is true.
 
-3. **The claims library + governance handbook** — reusable, pre-verified claims
-   (machine-checked theorems, runtime controls) that other projects vendor via
-   `import_bundle` / `use_code` with the evidence level and caveat intact, plus
-   a citation-grounded governance reference at
+3. **The claims library + governance handbook** — the vendoring tooling behind
+   [the knowledge register](#the-knowledge-register-claimlib): reusable,
+   pre-verified claims (machine-checked theorems, runtime controls, the
+   claimlib modules) that other projects vendor via `import_bundle` /
+   `use_code` with the evidence level and caveat intact, plus a
+   citation-grounded governance reference at
    [`docs/governance/`](docs/governance/) (English + Norwegian).
 
 ## Citation

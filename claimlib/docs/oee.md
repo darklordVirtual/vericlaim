@@ -1,6 +1,6 @@
 # OEE (Overall Equipment Effectiveness)
 
-*Subject area: Industrial / Manufacturing Analytics. Language: python. Vendorable bundle `7c673d31eb4b`.*
+*Subject area: Industrial / Manufacturing Analytics. Language: python. Vendorable bundle `1e5ee38dc267`.*
 
 Overall Equipment Effectiveness is the factory-floor standard for how fully a machine is used, the product of three ratios: Availability (run time over planned time), Performance (actual over theoretical throughput), and Quality (good units over total). 100% is perfect production; about 85% is considered world-class. The published worked example resolves to 74.79%, and this module reproduces it. Vendor it to compute OEE and its factors consistently across lines and shifts; the claim proves the arithmetic matches the published reference, so you inherit a checked calculator rather than a spreadsheet formula to re-audit.
 
@@ -16,5 +16,11 @@ Ships `oee.py` into your project, byte-exact, with a generated binding test that
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/7c673d31eb4bf9c1999a705d238aaf3d2e788fe7bb3d7e2043af24ec1194782e --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/1e5ee38dc2675b59aa97ae2c9e04feba6888154e6ece92fde31256e681add6c3 --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **ISBN 0-915299-23-2** — Introduction to TPM: Total Productive Maintenance. [https://search.worldcat.org/title/Introduction-to-TPM-:-total-productive-maintenance/oclc/18441684](https://search.worldcat.org/title/Introduction-to-TPM-:-total-productive-maintenance/oclc/18441684)

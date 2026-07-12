@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Stuart Haber",
+    "W. Scott Stornetta"
+  ],
+  "id": "haber-1991",
+  "identifier": "Journal of Cryptology, vol. 3, no. 2, pp. 99-111; doi:10.1007/BF00196791",
+  "kind": "paper",
+  "publisher": "Springer (Journal of Cryptology)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces linked time-stamping: each new record incorporates a cryptographic hash of the previous record, forming a chain in which back-dating, forward-dating, or altering any entry invalidates every subsequent hash. This is the canonical construction for tamper-evident append-only hash-chained logs and a direct ancestor of blockchain data structures.",
+  "summary_sha256": "63785055bf807f50a8a53905282fb60da490a3ce0df2db84ab3f03763c08b4f0",
+  "title": "How to Time-Stamp a Digital Document",
+  "url": "https://doi.org/10.1007/BF00196791",
+  "year": 1991
+}

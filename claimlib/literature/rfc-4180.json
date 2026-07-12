@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Y. Shafranovich"
+  ],
+  "id": "rfc-4180",
+  "identifier": "RFC 4180",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Documents the de facto CSV format as an ABNF grammar: CRLF-delimited records of comma-separated fields, an optional header line, and double-quote enclosure for fields containing commas, quotes, or line breaks, with embedded quotes escaped by doubling. Registers the text/csv MIME type. Informational status; it is the reference grammar for interoperable CSV parsing and writing.",
+  "summary_sha256": "f9d03a444209fa867edd1198e4082bb7c20fe122bed59540e2a76e497b950fcf",
+  "title": "Common Format and MIME Type for Comma-Separated Values (CSV) Files",
+  "url": "https://www.rfc-editor.org/rfc/rfc4180",
+  "year": 2005
+}

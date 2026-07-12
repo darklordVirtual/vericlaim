@@ -1,6 +1,6 @@
 # SLO / error-budget arithmetic
 
-*Subject area: SRE / Reliability Engineering. Language: python. Vendorable bundle `77820205d008`.*
+*Subject area: SRE / Reliability Engineering. Language: python. Vendorable bundle `7b6037106b76`.*
 
 Site Reliability Engineering measures a service against a Service Level Objective (SLO) — e.g. 99.9% availability over 30 days. The complement of the SLO is the error budget: the amount of downtime the target permits over the window (budget = window * (1 - SLO/100)). Teams spend that budget on risk — releases, experiments, incidents — and 'budget remaining' tracks how much allowance is left before the SLO is breached, going negative once overspent. Vendor this module to compute availability and error budgets consistently; the claim proves the arithmetic matches the published formulas, so you inherit a checked calculator rather than a re-implementation to re-audit.
 
@@ -16,5 +16,11 @@ Ships `errorbudget.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/77820205d0081096bc4c3d37d70212e0336c3a1267bc598c06a2f65dc22cd1e8 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/7b6037106b76ca46f6f1e2f7874108895b5e0a60a79c530137f18435d27ada3c --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **ISBN 978-1-491-92912-4** — Site Reliability Engineering: How Google Runs Production Systems. [https://sre.google/sre-book/table-of-contents/](https://sre.google/sre-book/table-of-contents/)

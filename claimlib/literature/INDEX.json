@@ -1,4 +1,10 @@
 {
+  "3gpp-ts-23-003": {
+    "identifier": "3GPP TS 23.003 (Release 19)",
+    "summary_sha256": "bf609f787767c9920ec700c4c2502ea1252c225e86cfb979d5dd3212a537c320",
+    "title": "Numbering, addressing and identification",
+    "url": "https://www.3gpp.org/dynareport/23003.htm"
+  },
   "aicpa-audit-sampling": {
     "identifier": "AICPA Audit Guide: Audit Sampling",
     "summary_sha256": "f01017efe79e6b67a884c40d8633dd147d8b7c9471c2a1e3032208f74747fe2b",
@@ -11,11 +17,53 @@
     "title": "Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy",
     "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022"
   },
+  "apdex-spec": {
+    "identifier": "Apdex Technical Specification, Version 1.1 (22 January 2007)",
+    "summary_sha256": "c566ed1d28eecfaacae8ddc02da065625885952809ab7c552f60865ba78020ad",
+    "title": "Application Performance Index \u2014 Apdex Technical Specification",
+    "url": "https://www.apdex.org/wp-content/uploads/2020/09/ApdexTechnicalSpecificationV11_000.pdf"
+  },
+  "balinski-2001": {
+    "identifier": "ISBN 978-0-8157-0111-8 (2nd ed.; 1st ed. Yale University Press, 1982)",
+    "summary_sha256": "ce830bfcb8ee6bfe96764ebd5872e6a96e75209f2dc28949ed2c1986baa2325b",
+    "title": "Fair Representation: Meeting the Ideal of One Man, One Vote",
+    "url": "https://www.brookings.edu/books/fair-representation/"
+  },
   "benford-1938": {
     "identifier": "Proc. Am. Philos. Soc. 78(4):551-572",
     "summary_sha256": "fe6c372af4fff525b0b8841a2ea308a28f83ab65857b929ad868003da3dfa7e9",
     "title": "The Law of Anomalous Numbers",
     "url": "https://www.jstor.org/stable/984802"
+  },
+  "brooker-2015": {
+    "identifier": "AWS Architecture Blog, 4 March 2015",
+    "summary_sha256": "42d54215a43f83cc7017fc1245dae99aada727c0e6ec9501fea52743aee8a27a",
+    "title": "Exponential Backoff And Jitter",
+    "url": "https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/"
+  },
+  "brreg-orgnr": {
+    "identifier": "Br\u00f8nn\u00f8ysundregistrene: Om organisasjonsnummeret (rev. 13 Dec 2023)",
+    "summary_sha256": "1580c3590c112aa58ad0ebf1b2d8cf4df281cedb2182c39bd0d1049a7d5f0364",
+    "title": "Om organisasjonsnummeret",
+    "url": "https://www.brreg.no/om-oss/registrene-vare/om-enhetsregisteret/organisasjonsnummeret/"
+  },
+  "cvss-v3.1": {
+    "identifier": "CVSS v3.1 Specification Document (Revision 1, June 2019)",
+    "summary_sha256": "eb57d3193ac1053edbbbaabda62e96f5a17864954352a586c8ee251bdd472053",
+    "title": "Common Vulnerability Scoring System version 3.1: Specification Document",
+    "url": "https://www.first.org/cvss/v3.1/specification-document"
+  },
+  "dwarf-5": {
+    "identifier": "DWARF Version 5",
+    "summary_sha256": "eecd4745fd146470a825de6040d7872d11770ec1e18135f07a6afa50fedc572c",
+    "title": "DWARF Debugging Information Format Version 5",
+    "url": "https://dwarfstd.org/dwarf5std.html"
+  },
+  "ecma-262-2024": {
+    "identifier": "ECMA-262, 15th edition (June 2024)",
+    "summary_sha256": "b53f07af3a11f36ad7dde782a2e001594227f8bd79ea467811f41a955da1b9b4",
+    "title": "ECMAScript\u00ae 2024 Language Specification",
+    "url": "https://262.ecma-international.org/15.0/"
   },
   "fips-180-4": {
     "identifier": "FIPS PUB 180-4",
@@ -41,17 +89,143 @@
     "title": "Stateless Hash-Based Digital Signature Standard (SLH-DSA)",
     "url": "https://csrc.nist.gov/pubs/fips/205/final"
   },
+  "google-sre-2016": {
+    "identifier": "ISBN 978-1-491-92912-4",
+    "summary_sha256": "9fad3c3b2b25e595403bcb5704c716b84e7ae87bc2b80eabfd2c0797cacfd0d6",
+    "title": "Site Reliability Engineering: How Google Runs Production Systems",
+    "url": "https://sre.google/sre-book/table-of-contents/"
+  },
+  "haber-1991": {
+    "identifier": "Journal of Cryptology, vol. 3, no. 2, pp. 99-111; doi:10.1007/BF00196791",
+    "summary_sha256": "63785055bf807f50a8a53905282fb60da490a3ce0df2db84ab3f03763c08b4f0",
+    "title": "How to Time-Stamp a Digital Document",
+    "url": "https://doi.org/10.1007/BF00196791"
+  },
+  "hamming-1950": {
+    "identifier": "Bell System Technical Journal, vol. 29, no. 2, pp. 147-160, doi:10.1002/j.1538-7305.1950.tb00463.x",
+    "summary_sha256": "6ef1f475b00a2338397701d5949dae9fca8be0e88b95b15e4ff5561cde7054fd",
+    "title": "Error Detecting and Error Correcting Codes",
+    "url": "https://doi.org/10.1002/j.1538-7305.1950.tb00463.x"
+  },
+  "hyndman-1996": {
+    "identifier": "The American Statistician, vol. 50, no. 4, pp. 361-365, doi:10.1080/00031305.1996.10473566",
+    "summary_sha256": "ce48cf2482bd36037302ecb1fd1b067921c6fbd11a3f7e60d3ab1b9bf6d960dd",
+    "title": "Sample Quantiles in Statistical Packages",
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/00031305.1996.10473566"
+  },
+  "ieee-754-2019": {
+    "identifier": "IEEE Std 754-2019",
+    "summary_sha256": "08e3b821975b36922c7a6cef75efd812d309d6593e3d52943c2291d85d3e7e7d",
+    "title": "IEEE Standard for Floating-Point Arithmetic",
+    "url": "https://ieeexplore.ieee.org/document/8766229"
+  },
+  "ieee-802": {
+    "identifier": "IEEE Std 802-2024",
+    "summary_sha256": "9fb5c5dc122767bb1807288d57605a2cdf10e72e61a205fcf3ed8f1c1c873973",
+    "title": "IEEE Standard for Local and Metropolitan Area Networks: Overview and Architecture",
+    "url": "https://standards.ieee.org/ieee/802/10894/"
+  },
+  "ieee-802-1q": {
+    "identifier": "IEEE Std 802.1Q-2022",
+    "summary_sha256": "0d0792fcc4f5e6b6cef6fb539a70420bc8d925b0a2740d6ec35d89d0add3511d",
+    "title": "IEEE Standard for Local and Metropolitan Area Networks\u2014Bridges and Bridged Networks",
+    "url": "https://standards.ieee.org/ieee/802.1Q/10323/"
+  },
+  "ieee-802-3": {
+    "identifier": "IEEE 802.3-2022",
+    "summary_sha256": "cc43cf323c8a6e36d7c232e9bbadd5b47fcddd45241c4b8a18483c75a8771deb",
+    "title": "IEEE Standard for Ethernet",
+    "url": "https://standards.ieee.org/ieee/802.3/10422/"
+  },
+  "ieee-ra-eui-guidelines": {
+    "identifier": "IEEE RA Guidelines for Use of EUI, OUI, and CID (2017-08-03)",
+    "summary_sha256": "9d0b0065a291d80d491b36152eccd94a148b2b7db71fe90ad3134d6c64bd3701",
+    "title": "Guidelines for Use of Extended Unique Identifier (EUI), Organizationally Unique Identifier (OUI), and Company ID (CID)",
+    "url": "https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf"
+  },
+  "incits-359-2012": {
+    "identifier": "INCITS 359-2012 (R2022)",
+    "summary_sha256": "b3a834bbbd876009c927757eec3aeb422ae0b182578782ae2f726735b6c2f850",
+    "title": "Information technology \u2014 Role Based Access Control",
+    "url": "https://webstore.ansi.org/standards/incits/incits3592012r2022"
+  },
+  "iso-13616-2020": {
+    "identifier": "ISO 13616-1:2020",
+    "summary_sha256": "a1834aa4efb6e9892fc12ca673c6892af62efb5d1d0241894989284389351ee2",
+    "title": "Financial services \u2014 International bank account number (IBAN) \u2014 Part 1: Structure of the IBAN",
+    "url": "https://www.iso.org/standard/81090.html"
+  },
   "iso-27001-2022": {
     "identifier": "ISO/IEC 27001:2022",
     "summary_sha256": "d501332c5b751cdc5c969eea70507250427b9ba5fc019f028fcc6190e40d5ff5",
     "title": "Information security, cybersecurity and privacy protection -- Information security management systems -- Requirements",
     "url": "https://www.iso.org/standard/27001"
   },
+  "iso-7064": {
+    "identifier": "ISO/IEC 7064:2003",
+    "summary_sha256": "a787b2dd0df24966ae53c894f10bf9b33568a39a894338cc7c67840c5131dc7d",
+    "title": "Information technology \u2014 Security techniques \u2014 Check character systems",
+    "url": "https://www.iso.org/standard/31531.html"
+  },
+  "iso-7812-1": {
+    "identifier": "ISO/IEC 7812-1:2017",
+    "summary_sha256": "c56de712a0b8fdd2bc466bc135c1ff6ad2bccf5b3e7d7c42b79aa455c44ccb50",
+    "title": "Identification cards \u2014 Identification of issuers \u2014 Part 1: Numbering system",
+    "url": "https://www.iso.org/standard/70484.html"
+  },
+  "itu-e164": {
+    "identifier": "ITU-T E.164 (02/2026)",
+    "summary_sha256": "e54bbbc55bd191da9d8a84fb4abf548797d454d64db929346b1ec76d219fa7a3",
+    "title": "The international public telecommunication numbering plan",
+    "url": "https://www.itu.int/rec/T-REC-E.164/en"
+  },
+  "kahn-1962": {
+    "identifier": "Communications of the ACM, Vol. 5, No. 11, pp. 558-562; doi:10.1145/368996.369025",
+    "summary_sha256": "4cb37ab9ae328fbc616c1f148b52fab56e342d6b252300b50ef439eb90fb677a",
+    "title": "Topological sorting of large networks",
+    "url": "https://dl.acm.org/doi/10.1145/368996.369025"
+  },
   "lamport-1979": {
     "identifier": "SRI CSL-98",
     "summary_sha256": "88ec8eeeb0f2df0cb2ea4c8604cec9601ffaced31b55ce5eb68cba3c2d37cb58",
     "title": "Constructing Digital Signatures from a One-Way Function",
     "url": "https://www.microsoft.com/en-us/research/publication/constructing-digital-signatures-one-way-function/"
+  },
+  "levenshtein-1966": {
+    "identifier": "Soviet Physics Doklady, Vol. 10, No. 8, pp. 707-710",
+    "summary_sha256": "5f850b61a7050b8a9914b1dc8275ce50d2cd5e745a8253bef95306e61bbd14a3",
+    "title": "Binary Codes Capable of Correcting Deletions, Insertions and Reversals",
+    "url": "https://ui.adsabs.harvard.edu/abs/1966SPhD...10..707L"
+  },
+  "luhn-1960": {
+    "identifier": "U.S. Patent 2,950,048",
+    "summary_sha256": "6d0ece8533a0f4e16ffbc2f6c6d58c6d12b2aef4f1e21d6e4d6252d89e269526",
+    "title": "Computer for Verifying Numbers",
+    "url": "https://patents.google.com/patent/US2950048A/en"
+  },
+  "mattson-1970": {
+    "identifier": "IBM Systems Journal, vol. 9, no. 2, pp. 78-117, doi:10.1147/sj.92.0078",
+    "summary_sha256": "57d0bdf303743fed4fed5af29018b24c4d34a9d2949270d68f2a1b0765c14b27",
+    "title": "Evaluation Techniques for Storage Hierarchies",
+    "url": "https://doi.org/10.1147/sj.92.0078"
+  },
+  "merkle-1988": {
+    "identifier": "Advances in Cryptology \u2014 CRYPTO '87, LNCS 293, pp. 369-378; doi:10.1007/3-540-48184-2_32",
+    "summary_sha256": "a027916b8144661c0479424496d6ccbc42abdc930ce0feebc5ae27ea6c9a3913",
+    "title": "A Digital Signature Based on a Conventional Encryption Function",
+    "url": "https://doi.org/10.1007/3-540-48184-2_32"
+  },
+  "modbus-serial-v1.02": {
+    "identifier": "MODBUS over Serial Line Specification and Implementation Guide V1.02 (2006-12-20)",
+    "summary_sha256": "88e7972ebd5c707240b1b857cb1400d9ff39fa91a902c121044581785a94e282",
+    "title": "MODBUS over Serial Line Specification and Implementation Guide V1.02",
+    "url": "https://www.modbus.org/file/secure/modbusoverserial.pdf"
+  },
+  "nakajima-1988": {
+    "identifier": "ISBN 0-915299-23-2",
+    "summary_sha256": "e2843f7ffbf52854860804f0148ed8d4bae56a49003c88d18464f4f470010c31",
+    "title": "Introduction to TPM: Total Productive Maintenance",
+    "url": "https://search.worldcat.org/title/Introduction-to-TPM-:-total-productive-maintenance/oclc/18441684"
   },
   "nis2-directive": {
     "identifier": "Directive (EU) 2022/2555",
@@ -65,17 +239,59 @@
     "title": "The NIST Cybersecurity Framework (CSF) 2.0",
     "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final"
   },
+  "nmea-0183": {
+    "identifier": "NMEA 0183 v4.30",
+    "summary_sha256": "cf4b6530a9dcf256feb92f5da726ae24f0ec777a6551451832c1afe8ca195b76",
+    "title": "NMEA 0183 Interface Standard",
+    "url": "https://www.nmea.org/nmea-0183.html"
+  },
+  "pacioli-1494": {
+    "identifier": "Venice: Paganino de Paganini, 10\u201320 November 1494 (LCCN 49036374)",
+    "summary_sha256": "d9fe4135d7fef59c115b6551427c0dd09d878646c323467b43d93bff3150f969",
+    "title": "Summa de arithmetica, geometria, proportioni et proportionalita",
+    "url": "https://www.loc.gov/item/49036374/"
+  },
   "pci-dss-4.0": {
     "identifier": "PCI DSS v4.0",
     "summary_sha256": "760a02b2d313fbc9c8e71126d2d291a8edf501ab1f5aa0c0f2d96903d5378d06",
     "title": "Payment Card Industry Data Security Standard, Version 4.0",
     "url": "https://www.pcisecuritystandards.org/document_library/"
   },
+  "protobuf-encoding": {
+    "identifier": "protobuf.dev/programming-guides/encoding",
+    "summary_sha256": "d84a6e3ee92c26973c40b2888cc04fab7f018349ab13cb10ebebac7e4db27372",
+    "title": "Encoding | Protocol Buffers Documentation",
+    "url": "https://protobuf.dev/programming-guides/encoding/"
+  },
+  "rfc-1071": {
+    "identifier": "RFC 1071",
+    "summary_sha256": "f13b23daeedc8636649b753b97ddfed40c27235a22a9d51923775b44bc8e5394",
+    "title": "Computing the Internet Checksum",
+    "url": "https://www.rfc-editor.org/info/rfc1071"
+  },
+  "rfc-1952": {
+    "identifier": "RFC 1952",
+    "summary_sha256": "3b3fb555e394d363d0dacbf504e202603cf5f866e852e33b5d095469c985fb2f",
+    "title": "GZIP file format specification version 4.3",
+    "url": "https://www.rfc-editor.org/rfc/rfc1952"
+  },
   "rfc-2104": {
     "identifier": "RFC 2104",
     "summary_sha256": "f9fa0daf4ed36523152151620a7b6ba8f00bcd4c16c1bb5fb077800e4a5339c4",
     "title": "HMAC: Keyed-Hashing for Message Authentication",
     "url": "https://www.rfc-editor.org/rfc/rfc2104"
+  },
+  "rfc-2697": {
+    "identifier": "RFC 2697",
+    "summary_sha256": "58eb2ef2feab43fbb2e5341cc6074bdfae0ae2d3f1b08ebe3e0a9b6367031bc6",
+    "title": "A Single Rate Three Color Marker",
+    "url": "https://www.rfc-editor.org/info/rfc2697"
+  },
+  "rfc-4180": {
+    "identifier": "RFC 4180",
+    "summary_sha256": "f9d03a444209fa867edd1198e4082bb7c20fe122bed59540e2a76e497b950fcf",
+    "title": "Common Format and MIME Type for Comma-Separated Values (CSV) Files",
+    "url": "https://www.rfc-editor.org/rfc/rfc4180"
   },
   "rfc-4226": {
     "identifier": "RFC 4226",
@@ -89,17 +305,53 @@
     "title": "Identifiers and Test Vectors for HMAC-SHA-224/256/384/512",
     "url": "https://www.rfc-editor.org/rfc/rfc4231"
   },
+  "rfc-4271": {
+    "identifier": "RFC 4271",
+    "summary_sha256": "648d4dfeddd50961cb46b54a77e773efdddc4d29b23d1c7090792dbcd9383d6a",
+    "title": "A Border Gateway Protocol 4 (BGP-4)",
+    "url": "https://www.rfc-editor.org/info/rfc4271"
+  },
+  "rfc-4291": {
+    "identifier": "RFC 4291",
+    "summary_sha256": "60f959c7e75d836405828639052ebb09eedab6a7640a3cedf431bd886bedc357",
+    "title": "IP Version 6 Addressing Architecture",
+    "url": "https://www.rfc-editor.org/info/rfc4291"
+  },
+  "rfc-4632": {
+    "identifier": "RFC 4632 (BCP 122)",
+    "summary_sha256": "dbef83ba02e2363abfcf62116c173bb4d93fa0ba88b51af88f8ef8dc0fe5f09e",
+    "title": "Classless Inter-domain Routing (CIDR): The Internet Address Assignment and Aggregation Plan",
+    "url": "https://www.rfc-editor.org/info/rfc4632"
+  },
+  "rfc-4648": {
+    "identifier": "RFC 4648",
+    "summary_sha256": "bf3649a3eac8832f5f0d558b73ddf4ac64f9ea4fe35468f9dcbd9d70a93a1c82",
+    "title": "The Base16, Base32, and Base64 Data Encodings",
+    "url": "https://www.rfc-editor.org/rfc/rfc4648"
+  },
   "rfc-5280": {
     "identifier": "RFC 5280",
     "summary_sha256": "ca10924de367e1a4beb32c4b5e0279b4e114ff1e0d7b44ee5cd9e04d36732969",
     "title": "Internet X.509 Public Key Infrastructure Certificate and CRL Profile",
     "url": "https://www.rfc-editor.org/rfc/rfc5280"
   },
+  "rfc-5398": {
+    "identifier": "RFC 5398",
+    "summary_sha256": "608a3e42e4789a69e5b1bbbc875e6dcde277cfc080f236cb0124551c9fe1de99",
+    "title": "Autonomous System (AS) Number Reservation for Documentation Use",
+    "url": "https://www.rfc-editor.org/info/rfc5398"
+  },
   "rfc-5869": {
     "identifier": "RFC 5869",
     "summary_sha256": "268d0e0e6bda81be879ce63e6a9008895f22ce4aeaad572731d0d9959cdfa2a2",
     "title": "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)",
     "url": "https://www.rfc-editor.org/rfc/rfc5869"
+  },
+  "rfc-5952": {
+    "identifier": "RFC 5952",
+    "summary_sha256": "6db060667ecc8a4b32f6585d91b10b4381f7117df3b576852046975576f0279a",
+    "title": "A Recommendation for IPv6 Address Text Representation",
+    "url": "https://www.rfc-editor.org/info/rfc5952"
   },
   "rfc-6070": {
     "identifier": "RFC 6070",
@@ -113,6 +365,30 @@
     "title": "TOTP: Time-Based One-Time Password Algorithm",
     "url": "https://www.rfc-editor.org/rfc/rfc6238"
   },
+  "rfc-6793": {
+    "identifier": "RFC 6793",
+    "summary_sha256": "0a7a3963b686ac4b6f03abce9d98a8d17f8cbcd4196e6c6299ef2918ae13b45d",
+    "title": "BGP Support for Four-Octet Autonomous System (AS) Number Space",
+    "url": "https://www.rfc-editor.org/info/rfc6793"
+  },
+  "rfc-6901": {
+    "identifier": "RFC 6901",
+    "summary_sha256": "a164bfe1f143f899c3648a2748de03ccf406c65e34f6dbc764c08fa3b68af1b2",
+    "title": "JavaScript Object Notation (JSON) Pointer",
+    "url": "https://www.rfc-editor.org/rfc/rfc6901"
+  },
+  "rfc-6962": {
+    "identifier": "RFC 6962",
+    "summary_sha256": "c42145044bb1f544071c8a21c1052cbfb72ff31d9e8cd1615b0d2ff5497c12f7",
+    "title": "Certificate Transparency",
+    "url": "https://www.rfc-editor.org/info/rfc6962"
+  },
+  "rfc-6996": {
+    "identifier": "RFC 6996 (BCP 6)",
+    "summary_sha256": "573937843b96c343edcc9e3fe1168b02b0fa2f36bc3fef7a9b33469135ffaa9f",
+    "title": "Autonomous System (AS) Reservation for Private Use",
+    "url": "https://www.rfc-editor.org/info/rfc6996"
+  },
   "rfc-7468": {
     "identifier": "RFC 7468",
     "summary_sha256": "b1f9da423c6b326b3b134d5284058757327e2e6449ad9894c2b10e69fb5e712e",
@@ -124,6 +400,12 @@
     "summary_sha256": "b705661892f2e5b70decb25cd377caf3b7222d7d82cd32729daae8c859667781",
     "title": "Public Key Pinning Extension for HTTP (HPKP)",
     "url": "https://www.rfc-editor.org/rfc/rfc7469"
+  },
+  "rfc-791": {
+    "identifier": "RFC 791 (STD 5)",
+    "summary_sha256": "c26635af23592e6717dbb36d2e540db03da2d8edf273cb672effab096df63280",
+    "title": "Internet Protocol",
+    "url": "https://www.rfc-editor.org/info/rfc791"
   },
   "rfc-8018": {
     "identifier": "RFC 8018",
@@ -142,5 +424,35 @@
     "summary_sha256": "517874440c8d9c8aca0485ba71ef303abe285227300243d9935b71f0e9d08c11",
     "title": "The Transport Layer Security (TLS) Protocol Version 1.3",
     "url": "https://www.rfc-editor.org/rfc/rfc8446"
+  },
+  "saltzer-1975": {
+    "identifier": "Proceedings of the IEEE, vol. 63, no. 9, pp. 1278-1308; doi:10.1109/PROC.1975.9939",
+    "summary_sha256": "e8525399b894c05e95adb00dfa155347a6054a48a87b5064559a1562859294d0",
+    "title": "The Protection of Information in Computer Systems",
+    "url": "https://doi.org/10.1109/PROC.1975.9939"
+  },
+  "semver-2.0.0": {
+    "identifier": "SemVer 2.0.0",
+    "summary_sha256": "a453f756570204cb8c19bbaa316159f6d8dc0789bcc736518d73f2a41213dc61",
+    "title": "Semantic Versioning 2.0.0",
+    "url": "https://semver.org/spec/v2.0.0.html"
+  },
+  "wadler-1995": {
+    "identifier": "Advanced Functional Programming (J. Jeuring & E. Meijer, eds.), LNCS 925:24-52, doi:10.1007/3-540-59451-5_2",
+    "summary_sha256": "7d111f04ba1a1bce1300681f979a5931f7564864116981731d4fd1820a7fc195",
+    "title": "Monads for functional programming",
+    "url": "https://doi.org/10.1007/3-540-59451-5_2"
+  },
+  "wagner-1974": {
+    "identifier": "Journal of the ACM, Vol. 21, No. 1, pp. 168-173; doi:10.1145/321796.321811",
+    "summary_sha256": "92f8954d4921580500803e8e407c56343d87d78abb151370618515d3d2e15653",
+    "title": "The String-to-String Correction Problem",
+    "url": "https://dl.acm.org/doi/10.1145/321796.321811"
+  },
+  "whatwg-url": {
+    "identifier": "WHATWG URL Living Standard (last updated 6 July 2026)",
+    "summary_sha256": "2d03ffd5b00ba2bfffcb33ea58d1a776446b343b0160e38bc580fa20625add8e",
+    "title": "URL Standard",
+    "url": "https://url.spec.whatwg.org/"
   }
 }

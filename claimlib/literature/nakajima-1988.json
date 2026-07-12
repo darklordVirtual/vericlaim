@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Seiichi Nakajima"
+  ],
+  "id": "nakajima-1988",
+  "identifier": "ISBN 0-915299-23-2",
+  "kind": "book",
+  "publisher": "Productivity Press",
+  "schema": "claimlib_literature_v1",
+  "summary": "The first English-language book on Total Productive Maintenance, translated from Nakajima's Japanese original. Defines Overall Equipment Effectiveness (OEE) as the product of availability, performance rate, and quality rate, derived from the six big equipment losses, with worked calculation examples and the widely cited ~85% world-class benchmark. This is the canonical origin of the OEE metric implemented by the module.",
+  "summary_sha256": "e2843f7ffbf52854860804f0148ed8d4bae56a49003c88d18464f4f470010c31",
+  "title": "Introduction to TPM: Total Productive Maintenance",
+  "url": "https://search.worldcat.org/title/Introduction-to-TPM-:-total-productive-maintenance/oclc/18441684",
+  "year": 1988
+}

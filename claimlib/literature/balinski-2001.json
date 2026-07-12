@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Michel L. Balinski",
+    "H. Peyton Young"
+  ],
+  "id": "balinski-2001",
+  "identifier": "ISBN 978-0-8157-0111-8 (2nd ed.; 1st ed. Yale University Press, 1982)",
+  "kind": "book",
+  "publisher": "Brookings Institution Press",
+  "schema": "claimlib_literature_v1",
+  "summary": "The standard mathematical treatment of apportionment: dividing a fixed integer total into parts proportional to weights. Defines and analyzes Hamilton's largest-remainder method \u2014 give each part the floor of its exact proportional share, then distribute the leftover units to the parts with the largest fractional remainders \u2014 which by construction always sums exactly to the total. Also establishes the method's properties and paradoxes relative to divisor methods.",
+  "summary_sha256": "ce830bfcb8ee6bfe96764ebd5872e6a96e75209f2dc28949ed2c1986baa2325b",
+  "title": "Fair Representation: Meeting the Ideal of One Man, One Vote",
+  "url": "https://www.brookings.edu/books/fair-representation/",
+  "year": 2001
+}

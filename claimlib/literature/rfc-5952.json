@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Seiichi Kawamura",
+    "Masanobu Kawashima"
+  ],
+  "id": "rfc-5952",
+  "identifier": "RFC 5952",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies the single canonical text form for IPv6 addresses among the many representations RFC 4291 permits: leading zeros in each field must be suppressed, '::' must be used to its maximum extent on the longest run of zero fields (first such run on a tie) and must not compress a single zero field, and hexadecimal digits must be lowercase. Systems should emit this canonical form while still accepting all RFC 4291 forms on input. Updates RFC 4291.",
+  "summary_sha256": "6db060667ecc8a4b32f6585d91b10b4381f7117df3b576852046975576f0279a",
+  "title": "A Recommendation for IPv6 Address Text Representation",
+  "url": "https://www.rfc-editor.org/info/rfc5952",
+  "year": 2010
+}

@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Ralph C. Merkle"
+  ],
+  "id": "merkle-1988",
+  "identifier": "Advances in Cryptology \u2014 CRYPTO '87, LNCS 293, pp. 369-378; doi:10.1007/3-540-48184-2_32",
+  "kind": "paper",
+  "publisher": "Springer",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces tree authentication, now known as the Merkle tree: a binary tree of hash values whose root commits to a set of leaf values, so that any single leaf can be authenticated against the root using only a logarithmic-length path of sibling hashes. This is the foundational construction for inclusion proofs verified against a committed root.",
+  "summary_sha256": "a027916b8144661c0479424496d6ccbc42abdc930ce0feebc5ae27ea6c9a3913",
+  "title": "A Digital Signature Based on a Conventional Encryption Function",
+  "url": "https://doi.org/10.1007/3-540-48184-2_32",
+  "year": 1988
+}

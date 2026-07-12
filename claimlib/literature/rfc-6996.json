@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Jon Mitchell"
+  ],
+  "id": "rfc-6996",
+  "identifier": "RFC 6996 (BCP 6)",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Reserves two contiguous blocks of Autonomous System numbers for private use: 64512-65534 in the 16-bit ASN registry and 4200000000-4294967294 in the 32-bit ASN registry. These ASNs must not be advertised to the global Internet. Best Current Practice (BCP 6); the authoritative source for classifying an ASN as private-use.",
+  "summary_sha256": "573937843b96c343edcc9e3fe1168b02b0fa2f36bc3fef7a9b33469135ffaa9f",
+  "title": "Autonomous System (AS) Reservation for Private Use",
+  "url": "https://www.rfc-editor.org/info/rfc6996",
+  "year": 2013
+}

@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "R. W. Hamming"
+  ],
+  "id": "hamming-1950",
+  "identifier": "Bell System Technical Journal, vol. 29, no. 2, pp. 147-160, doi:10.1002/j.1538-7305.1950.tb00463.x",
+  "kind": "paper",
+  "publisher": "Bell System Technical Journal",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces systematic error-detecting and error-correcting block codes, establishing the concepts of minimum distance and parity-check positions at powers of two. Presents the single-error-correcting (7,4) code \u2014 four data bits protected by three parity bits \u2014 where the syndrome directly gives the position of any single bit error. Published in the April 1950 issue of the Bell System Technical Journal.",
+  "summary_sha256": "6ef1f475b00a2338397701d5949dae9fca8be0e88b95b15e4ff5561cde7054fd",
+  "title": "Error Detecting and Error Correcting Codes",
+  "url": "https://doi.org/10.1002/j.1538-7305.1950.tb00463.x",
+  "year": 1950
+}

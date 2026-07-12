@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "IEEE"
+  ],
+  "id": "ieee-754-2019",
+  "identifier": "IEEE Std 754-2019",
+  "kind": "standard",
+  "publisher": "IEEE",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies interchange and arithmetic formats and rounding for binary and decimal floating-point arithmetic. Defines the rounding-direction attribute roundTiesToEven \u2014 round to the nearest representable value, with ties going to the value with an even least-significant digit \u2014 as the default; this is the 'banker's rounding' (ROUND_HALF_EVEN) rule, which avoids the systematic upward bias of round-half-up when summing rounded amounts.",
+  "summary_sha256": "08e3b821975b36922c7a6cef75efd812d309d6593e3d52943c2291d85d3e7e7d",
+  "title": "IEEE Standard for Floating-Point Arithmetic",
+  "url": "https://ieeexplore.ieee.org/document/8766229",
+  "year": 2019
+}

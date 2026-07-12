@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Jerome H. Saltzer",
+    "Michael D. Schroeder"
+  ],
+  "id": "saltzer-1975",
+  "identifier": "Proceedings of the IEEE, vol. 63, no. 9, pp. 1278-1308; doi:10.1109/PROC.1975.9939",
+  "kind": "paper",
+  "publisher": "IEEE",
+  "schema": "claimlib_literature_v1",
+  "summary": "Tutorial survey of architectural mechanisms for protecting stored information that states the eight classic secure-design principles, including least privilege, fail-safe defaults, complete mediation, and separation of privilege. The principle of least privilege \u2014 every program and user operating with the fewest privileges necessary \u2014 as applied in access-control audits originates in this paper.",
+  "summary_sha256": "e8525399b894c05e95adb00dfa155347a6054a48a87b5064559a1562859294d0",
+  "title": "The Protection of Information in Computer Systems",
+  "url": "https://doi.org/10.1109/PROC.1975.9939",
+  "year": 1975
+}

@@ -1,6 +1,6 @@
 # Token-bucket rate limiter (capacity invariant)
 
-*Subject area: Reliability / Rate Limiting. Language: python. Vendorable bundle `8537cd9a6ca7`.*
+*Subject area: Reliability / Rate Limiting. Language: python. Vendorable bundle `38954b63ed20`.*
 
 A token bucket is the classic rate-limiting primitive: a bucket holds up to `capacity` tokens and refills at a steady `refill_per_sec`, and each request spends tokens, so short bursts pass (up to the bucket depth) while the long-run average rate stays bounded. Its key safety property is that refills are clamped at capacity, so accumulated idle time can never be banked into an unbounded later burst. This module makes time an explicit argument to every call, which removes hidden wall-clock reads and makes limiter behaviour fully deterministic and testable. Vendor it to meter API quotas or traffic consistently and inherit a checked capacity invariant rather than re-auditing another ad-hoc limiter.
 
@@ -16,5 +16,11 @@ Ships `tokenbucket.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/8537cd9a6ca724b462dd45c7b6e72f3642c80f0532ff0d61f2b885ebc1c6059c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/38954b63ed2045347df2d1bbffbcf1bb4480253ef7be00043d686f9b40473b8e --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **RFC 2697** — A Single Rate Three Color Marker. [https://www.rfc-editor.org/info/rfc2697](https://www.rfc-editor.org/info/rfc2697)

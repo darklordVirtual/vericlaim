@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "ISO"
+  ],
+  "id": "iso-7812-1",
+  "identifier": "ISO/IEC 7812-1:2017",
+  "kind": "standard",
+  "publisher": "ISO",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies the numbering system for identification card issuers: the issuer identification number (IIN) and the structure of the primary account number (PAN), whose final digit is a check digit. Normative Annex B specifies the Luhn formula for computing modulus-10 double-add-double check digits, making this standard the formal specification of the Luhn check for card numbers.",
+  "summary_sha256": "c56de712a0b8fdd2bc466bc135c1ff6ad2bccf5b3e7d7c42b79aa455c44ccb50",
+  "title": "Identification cards \u2014 Identification of issuers \u2014 Part 1: Numbering system",
+  "url": "https://www.iso.org/standard/70484.html",
+  "year": 2017
+}

@@ -1,6 +1,6 @@
 # Cent-exact money allocation + banker's rounding
 
-*Subject area: Finance / Accounting. Language: python. Vendorable bundle `cbe05b91b037`.*
+*Subject area: Finance / Accounting. Language: python. Vendorable bundle `63bedc8a3151`.*
 
 Two everyday money bugs are rounding bias and lost pennies. Rounding halves 'up' biases long-run totals upward; banker's rounding (ROUND_HALF_EVEN, the IEEE 754 and accounting default) rounds a tie to the nearest even digit so the bias cancels. Splitting a bill three ways with naive division loses or mints a cent; the largest-remainder (Hamilton) method floors each share and hands the leftover units to the largest remainders so the parts always sum back to the total. This module works in integer minor units to avoid float entirely; vendor it to allocate invoices, taxes, or payouts and inherit a checked cent-exact splitter and a checked banker's rounder rather than re-auditing another ad-hoc division.
 
@@ -16,5 +16,12 @@ Ships `money.py` into your project, byte-exact, with a generated binding test th
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/cbe05b91b037a0ca0af304088497464278b042c7fa30f74575bf5071634951d3 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/63bedc8a3151fadb9e1828657066b7b93edac1f6603129de0cb91d0f9cb0ccde --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **IEEE Std 754-2019** — IEEE Standard for Floating-Point Arithmetic. [https://ieeexplore.ieee.org/document/8766229](https://ieeexplore.ieee.org/document/8766229)
+- **ISBN 978-0-8157-0111-8 (2nd ed.; 1st ed. Yale University Press, 1982)** — Fair Representation: Meeting the Ideal of One Man, One Vote. [https://www.brookings.edu/books/fair-representation/](https://www.brookings.edu/books/fair-representation/)

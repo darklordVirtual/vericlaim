@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "Robert Braden",
+    "David Borman",
+    "Craig Partridge"
+  ],
+  "id": "rfc-1071",
+  "identifier": "RFC 1071",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Describes techniques for efficiently computing the 16-bit one's-complement Internet checksum used by IP, TCP, and UDP, exploiting its commutative, associative, and byte-order-independent properties. Covers deferred carries, loop unrolling, incremental update, and gives worked numerical examples and reference implementations. The canonical specification of the checksum computation itself.",
+  "summary_sha256": "f13b23daeedc8636649b753b97ddfed40c27235a22a9d51923775b44bc8e5394",
+  "title": "Computing the Internet Checksum",
+  "url": "https://www.rfc-editor.org/info/rfc1071",
+  "year": 1988
+}
