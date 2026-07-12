@@ -1,6 +1,6 @@
 # Percentiles / quantiles (p50 / p95 / p99)
 
-*Subject area: Observability / Metrics & Statistics. Language: python. Vendorable bundle `8651ddd8150a`.*
+*Subject area: Observability / Metrics & Statistics. Language: python. Vendorable bundle `12a45942a73d`.*
 
 Percentiles are how you actually read a latency distribution: the p50 (median) is the typical experience, while the p95 / p99 tail is where SLOs live and where users feel pain that an average hides. The subtlety is that 'the 95th percentile' has several definitions that disagree on small samples; the common ones are linear interpolation between order statistics and the nearest-rank rule. This module implements both exactly; the claim proves the linear method matches Python's statistics module and the nearest-rank method matches its definition, so you inherit a checked quantile function rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `percentile.py` into your project, byte-exact, with a generated binding te
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/8651ddd8150a34413e8d0b5561fe62bfdf7de45a2b531f86b7e7e36576f51aac --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/12a45942a73dd57d402c34cb32f1b69a0d28ef70e5be7ae89803419a9bebaae2 --target .
 ```

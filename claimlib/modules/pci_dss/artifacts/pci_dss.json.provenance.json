@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "pci_dss.json",
+  "artifact_sha256": "77e4824555902f4682641fc595190376d7e1cd0221d3be6baa3bfcf875c7a0d1",
+  "script": "python3 claimlib/modules/pci_dss/evidence.py",
+  "git_commit": "40bd72ce112920c64b7d7b748867fea8738e07c6",
+  "generated_at": "2026-07-12T15:42:26.203997+00:00",
+  "produced_by": "claimlib"
+}

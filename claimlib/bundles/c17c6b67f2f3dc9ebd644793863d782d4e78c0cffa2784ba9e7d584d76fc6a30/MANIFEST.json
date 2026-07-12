@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/spki_pin.json": "013d4b1b32ce46985e302a5764b1eff225b30b9074e1236db70ef9ae5ec4a916",
+    "claim.json": "4caf6546987911138c3f943503ae92359ac0c86a766a2d58c2df1320bd82e071",
+    "code/spki_pin.py": "5080d622165fddfb31021cb15f0c1b7caa14162644313c678e95d0d6d748f7f1",
+    "provenance.json": "4b81eb3a54c9f28ebe9e1728f42822b1a9c03b340ad7b5d2835cc92639009828"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

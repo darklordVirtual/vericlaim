@@ -22,11 +22,14 @@ claim in your context — read each module's caveat.
 |--------|------|--------------|-------|----------|
 | [`apdex`](docs/apdex.md) | Python | Observability / Service Level Indicators | `CLAIM-LIB-APDEX-001` | measured |
 | [`aspath`](docs/aspath.md) | Python | Telecom / BGP Routing | `CLAIM-LIB-ASPATH-001` | measured |
+| [`audit_sampling`](docs/audit_sampling.md) | Python | Audit / Statistical Sampling | `CLAIM-LIB-AUDIT-SAMPLING-001` | benchmarked |
 | [`base32`](docs/base32.md) | Python | Data / Encoding | `CLAIM-LIB-BASE32-001` | measured |
+| [`benford`](docs/benford.md) | Python | Audit / Forensic Analytics | `CLAIM-LIB-BENFORD-001` | benchmarked |
 | [`cidr`](docs/cidr.md) | Python | Telecom / IP Address Management | `CLAIM-LIB-CIDR-001` | benchmarked |
 | [`crc32`](docs/crc32.md) | Python | Data / Integrity & Checksums | `CLAIM-LIB-CRC32-001` | measured |
 | [`csv_rfc4180`](docs/csv_rfc4180.md) | Python | Data / Serialization | `CLAIM-LIB-CSV-RFC4180-001` | benchmarked |
 | [`cvss`](docs/cvss.md) | Python | Security / Vulnerability Management | `CLAIM-LIB-CVSS-001` | benchmarked |
+| [`double_entry`](docs/double_entry.md) | Python | Audit / Accounting Integrity | `CLAIM-LIB-DOUBLE-ENTRY-001` | measured |
 | [`e164`](docs/e164.md) | Python | Telecom / Numbering Plans | `CLAIM-LIB-E164-001` | measured |
 | [`errorbudget`](docs/errorbudget.md) | Python | SRE / Reliability Engineering | `CLAIM-LIB-ERRORBUDGET-001` | measured |
 | [`hamming74`](docs/hamming74.md) | Python | Telecom / Forward Error Correction | `CLAIM-LIB-HAMMING74-001` | machine_checked |
@@ -38,6 +41,7 @@ claim in your context — read each module's caveat.
 | [`imei`](docs/imei.md) | Python | Telecom / Device Identity | `CLAIM-LIB-IMEI-001` | measured |
 | [`ipchecksum`](docs/ipchecksum.md) | Python | Telecom / Packet Processing | `CLAIM-LIB-IPCHECKSUM-001` | measured |
 | [`ipv6`](docs/ipv6.md) | Python | Telecom / IPv6 Addressing | `CLAIM-LIB-IPV6-001` | benchmarked |
+| [`iso27001`](docs/iso27001.md) | Python | Compliance / Audit Frameworks | `CLAIM-LIB-ISO27001-001` | measured |
 | [`jsonpointer`](docs/jsonpointer.md) | Python | Data / JSON Processing | `CLAIM-LIB-JSONPOINTER-001` | measured |
 | [`lamport`](docs/lamport.md) | Python | Security / Post-Quantum Cryptography | `CLAIM-LIB-LAMPORT-001` | benchmarked |
 | [`levenshtein`](docs/levenshtein.md) | Python | General / Strings & Text | `CLAIM-LIB-LEVENSHTEIN-001` | measured |
@@ -53,6 +57,7 @@ claim in your context — read each module's caveat.
 | [`nmea`](docs/nmea.md) | Python | Industrial / Telemetry & Sensors | `CLAIM-LIB-NMEA-001` | measured |
 | [`oee`](docs/oee.md) | Python | Industrial / Manufacturing Analytics | `CLAIM-LIB-OEE-001` | measured |
 | [`pbkdf2`](docs/pbkdf2.md) | Python | Security / Password Hashing | `CLAIM-LIB-PBKDF2-001` | benchmarked |
+| [`pci_dss`](docs/pci_dss.md) | Python | Compliance / Audit Frameworks | `CLAIM-LIB-PCI-DSS-001` | measured |
 | [`pem`](docs/pem.md) | Python | Security / TLS & PKI | `CLAIM-LIB-PEM-001` | benchmarked |
 | [`percentile`](docs/percentile.md) | Python | Observability / Metrics & Statistics | `CLAIM-LIB-PERCENTILE-001` | benchmarked |
 | [`rbac`](docs/rbac.md) | Python | Security / Identity & Access Management | `CLAIM-LIB-RBAC-001` | measured |
@@ -60,6 +65,7 @@ claim in your context — read each module's caveat.
 | [`rle`](docs/rle.md) | Python | Data / Compression | `CLAIM-LIB-RLE-001` | benchmarked |
 | [`semver`](docs/semver.md) | Python | Software Supply Chain / Dependency Resolution | `CLAIM-LIB-SEMVER-001` | measured |
 | [`sha256`](docs/sha256.md) | Python | Security / Cryptographic Hashing | `CLAIM-LIB-SHA256-001` | benchmarked |
+| [`soc2`](docs/soc2.md) | Python | Compliance / Audit Frameworks | `CLAIM-LIB-SOC2-001` | measured |
 | [`spki_pin`](docs/spki_pin.md) | Python | Security / TLS & PKI | `CLAIM-LIB-SPKI-PIN-001` | benchmarked |
 | [`tokenbucket`](docs/tokenbucket.md) | Python | Reliability / Rate Limiting | `CLAIM-LIB-TOKENBUCKET-001` | measured |
 | [`topo_sort`](docs/topo_sort.md) | Python | General / Graph Algorithms | `CLAIM-LIB-TOPOSORT-001` | measured |

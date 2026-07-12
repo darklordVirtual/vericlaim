@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/mod11.json": "cc2c85e2970c77a11b75aa2092b5a853509055a556cfc7ed87ee251675a06071",
+    "claim.json": "6a9cb16af6143d70e18007d2d243092ddc8be6094fe081e101f67bdb04f4bd5f",
+    "code/mod11.py": "f747d2ab93d40375bfb19c960727ca1e2cd4360478b8997331a3e3fa66bc9352",
+    "provenance.json": "5fc9227b0c43235a1375b9298c9a7cdd00286d828c9c2ebdd4558c29835b74e4"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

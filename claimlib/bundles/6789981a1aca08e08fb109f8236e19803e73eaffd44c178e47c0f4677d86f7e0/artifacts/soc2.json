@@ -1,0 +1,12 @@
+{
+  "categories_ok": true,
+  "checks": 8,
+  "checks_matched": 8,
+  "coverage_correct": 6,
+  "criteria_ok": true,
+  "mismatches": 0,
+  "module": "soc2",
+  "n_categories": 5,
+  "n_common_criteria": 9,
+  "schema": "claimlib_soc2_v1"
+}

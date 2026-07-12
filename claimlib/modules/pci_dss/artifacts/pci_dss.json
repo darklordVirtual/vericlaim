@@ -1,0 +1,11 @@
+{
+  "checks": 20,
+  "checks_matched": 20,
+  "coverage_correct": 6,
+  "mapping_correct": 12,
+  "mismatches": 0,
+  "module": "pci_dss",
+  "n_goals": 6,
+  "n_requirements": 12,
+  "schema": "claimlib_pci_dss_v1"
+}

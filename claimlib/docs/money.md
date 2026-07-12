@@ -1,6 +1,6 @@
 # Cent-exact money allocation + banker's rounding
 
-*Subject area: Finance / Accounting. Language: python. Vendorable bundle `5b8e67aa2ec8`.*
+*Subject area: Finance / Accounting. Language: python. Vendorable bundle `cbe05b91b037`.*
 
 Two everyday money bugs are rounding bias and lost pennies. Rounding halves 'up' biases long-run totals upward; banker's rounding (ROUND_HALF_EVEN, the IEEE 754 and accounting default) rounds a tie to the nearest even digit so the bias cancels. Splitting a bill three ways with naive division loses or mints a cent; the largest-remainder (Hamilton) method floors each share and hands the leftover units to the largest remainders so the parts always sum back to the total. This module works in integer minor units to avoid float entirely; vendor it to allocate invoices, taxes, or payouts and inherit a checked cent-exact splitter and a checked banker's rounder rather than re-auditing another ad-hoc division.
 
@@ -16,5 +16,5 @@ Ships `money.py` into your project, byte-exact, with a generated binding test th
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/5b8e67aa2ec8b7855412835d5638a7f3178dc4ea15e2c98dd4d178889580dcab --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/cbe05b91b037a0ca0af304088497464278b042c7fa30f74575bf5071634951d3 --target .
 ```

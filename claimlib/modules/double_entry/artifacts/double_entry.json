@@ -1,0 +1,11 @@
+{
+  "checks": 13,
+  "checks_matched": 13,
+  "classify_correct": 5,
+  "invariant_ok": 3,
+  "mismatches": 0,
+  "module": "double_entry",
+  "n_journals": 5,
+  "schema": "claimlib_double_entry_v1",
+  "trial_balance_correct": 5
+}

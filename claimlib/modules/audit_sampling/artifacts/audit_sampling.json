@@ -1,0 +1,11 @@
+{
+  "checks": 17,
+  "checks_matched": 17,
+  "consistency_ok": 9,
+  "example_ok": 4,
+  "mismatches": 0,
+  "module": "audit_sampling",
+  "monotonic_ok": 1,
+  "poisson_basis_ok": 3,
+  "schema": "claimlib_audit_sampling_v1"
+}

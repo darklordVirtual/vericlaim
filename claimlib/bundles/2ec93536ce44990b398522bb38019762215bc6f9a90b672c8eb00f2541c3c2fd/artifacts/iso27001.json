@@ -1,0 +1,12 @@
+{
+  "checks": 13,
+  "checks_matched": 13,
+  "coverage_correct": 5,
+  "mismatches": 0,
+  "module": "iso27001",
+  "n_controls": 93,
+  "n_themes": 4,
+  "schema": "claimlib_iso27001_v1",
+  "themes_ok": true,
+  "validation_correct": 6
+}

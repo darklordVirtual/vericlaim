@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "double_entry.json",
+  "artifact_sha256": "850f9faa3b50d6187b2839b9d097197afaeb42ee7fa481253517624da7dd6d06",
+  "script": "python3 claimlib/modules/double_entry/evidence.py",
+  "git_commit": "40bd72ce112920c64b7d7b748867fea8738e07c6",
+  "generated_at": "2026-07-12T15:45:48.911005+00:00",
+  "produced_by": "claimlib"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "iso27001.json",
+  "artifact_sha256": "cfdfb10af94a072cbe97cbec80cd8a3d393b94b0f4aa9746d6a4f6c0a8e32ed2",
+  "script": "python3 claimlib/modules/iso27001/evidence.py",
+  "git_commit": "40bd72ce112920c64b7d7b748867fea8738e07c6",
+  "generated_at": "2026-07-12T15:41:22.369459+00:00",
+  "produced_by": "claimlib"
+}

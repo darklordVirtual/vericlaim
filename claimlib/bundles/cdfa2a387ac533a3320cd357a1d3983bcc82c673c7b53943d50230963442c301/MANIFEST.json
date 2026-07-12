@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/audit_sampling.json": "bc9f03c049a0d8cc4a04001a9db64f29b22787b340e56164950d2f273d2aea2c",
+    "claim.json": "47903aa51e5dd9e5772b6d388240cadb0d0446cb8fd372f879f9cf9a31de9f9c",
+    "code/audit_sampling.py": "54abfdea6a896afffa1a7dd6fe2a288fcb8dedb1ae747520bda63efa53a4479b",
+    "provenance.json": "a4c322fdbaf0aa9fc0692c8fc27c472d011bb048d6b108616858ca5bfdc528d7"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

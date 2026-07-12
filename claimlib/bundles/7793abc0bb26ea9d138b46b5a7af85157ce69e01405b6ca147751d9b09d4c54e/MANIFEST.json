@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/levenshtein.json": "37784e29261c35b9ce182ded247e8e9c6b74c30f858387fa77561b9fda1967fb",
+    "claim.json": "f7b5991e5886c3d0fef55fdcaa8f28f4389fc316de9d33e6fade1d34f69541dd",
+    "code/levenshtein.py": "de9acdcf1e6d0afbfc4037471105a9e22bfe9f41f340c12eec3df69940cc3783",
+    "provenance.json": "ae91281d9239e99bdf94358a50f8ed07b81672426006de04440e8f5288b8206e"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}
