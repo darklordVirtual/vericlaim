@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "PCI Security Standards Council"
+  ],
+  "id": "pci-dss-4.0",
+  "identifier": "PCI DSS v4.0",
+  "kind": "standard",
+  "publisher": "PCI SSC",
+  "schema": "claimlib_literature_v1",
+  "summary": "The security standard for organizations that store, process, or transmit payment card data; version 4.0 defines twelve requirements grouped under six goals, from building a secure network to maintaining an information security policy.",
+  "summary_sha256": "760a02b2d313fbc9c8e71126d2d291a8edf501ab1f5aa0c0f2d96903d5378d06",
+  "title": "Payment Card Industry Data Security Standard, Version 4.0",
+  "url": "https://www.pcisecuritystandards.org/document_library/",
+  "year": 2022
+}

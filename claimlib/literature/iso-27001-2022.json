@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "ISO/IEC JTC 1/SC 27"
+  ],
+  "id": "iso-27001-2022",
+  "identifier": "ISO/IEC 27001:2022",
+  "kind": "standard",
+  "publisher": "ISO/IEC",
+  "schema": "claimlib_literature_v1",
+  "summary": "The international standard for information security management systems (ISMS); its 2022 revision restructured Annex A into 93 controls across four themes -- Organizational (37), People (8), Physical (14), and Technological (34).",
+  "summary_sha256": "d501332c5b751cdc5c969eea70507250427b9ba5fc019f028fcc6190e40d5ff5",
+  "title": "Information security, cybersecurity and privacy protection -- Information security management systems -- Requirements",
+  "url": "https://www.iso.org/standard/27001",
+  "year": 2022
+}

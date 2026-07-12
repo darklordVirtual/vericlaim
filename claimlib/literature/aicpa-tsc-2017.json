@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "AICPA Assurance Services Executive Committee"
+  ],
+  "id": "aicpa-tsc-2017",
+  "identifier": "AICPA TSP Section 100 (2017, rev. 2022)",
+  "kind": "framework",
+  "publisher": "AICPA",
+  "schema": "claimlib_literature_v1",
+  "summary": "The AICPA Trust Services Criteria are the control criteria used in SOC 2 examinations, organized into five categories -- Security, Availability, Processing Integrity, Confidentiality, and Privacy -- where Security is expressed as the nine Common Criteria series (CC1 through CC9).",
+  "summary_sha256": "aea7794d408e966607970c9fe0cb679c31da1d12633915f117ba9bf79f109ff5",
+  "title": "Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy",
+  "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+  "year": 2017
+}

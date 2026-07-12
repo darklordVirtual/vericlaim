@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "benford.json",
+  "artifact_sha256": "8c27e7079487379118aa9673e2cdbf2c9d2b491cc7b18cc08a0aa4a98b2805b0",
+  "script": "python3 claimlib/modules/benford/evidence.py",
+  "git_commit": "40bd72ce112920c64b7d7b748867fea8738e07c6",
+  "generated_at": "2026-07-12T15:44:42.024773+00:00",
+  "produced_by": "claimlib"
+}

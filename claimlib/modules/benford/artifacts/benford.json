@@ -1,0 +1,12 @@
+{
+  "benford_like_mad": 0.000954,
+  "checks": 25,
+  "checks_matched": 25,
+  "digit_ok": 10,
+  "expected_ok": 9,
+  "mismatches": 0,
+  "module": "benford",
+  "non_benford_mad": 0.212054,
+  "schema": "claimlib_benford_v1",
+  "stat_ok": 5
+}

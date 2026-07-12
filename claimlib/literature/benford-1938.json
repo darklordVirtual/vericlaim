@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Frank Benford"
+  ],
+  "id": "benford-1938",
+  "identifier": "Proc. Am. Philos. Soc. 78(4):551-572",
+  "kind": "paper",
+  "publisher": "Proceedings of the American Philosophical Society, 78(4)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Benford's empirical observation that in many natural datasets the leading digit d occurs with frequency log10(1 + 1/d); the distribution is now a standard forensic-accounting screen for detecting fabricated or manipulated numeric data.",
+  "summary_sha256": "fe6c372af4fff525b0b8841a2ea308a28f83ab65857b929ad868003da3dfa7e9",
+  "title": "The Law of Anomalous Numbers",
+  "url": "https://www.jstor.org/stable/984802",
+  "year": 1938
+}

@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "AICPA"
+  ],
+  "id": "aicpa-audit-sampling",
+  "identifier": "AICPA Audit Guide: Audit Sampling",
+  "kind": "framework",
+  "publisher": "AICPA",
+  "schema": "claimlib_literature_v1",
+  "summary": "The AICPA guide to statistical and non-statistical audit sampling; its Poisson reliability factors let an auditor size an attribute sample so that, at a chosen confidence, the sample bounds the true deviation rate below the tolerable rate.",
+  "summary_sha256": "f01017efe79e6b67a884c40d8633dd147d8b7c9471c2a1e3032208f74747fe2b",
+  "title": "Audit Sampling (AICPA Audit Guide)",
+  "url": "https://www.aicpa-cima.com/cpe-learning/publication/audit-sampling-audit-guide",
+  "year": 2019
+}

@@ -867,3 +867,99 @@ claims:
       The set of measures is the independently-known Article 21(2)(a)-(j) list; the module scores coverage of those ten headline measures, which is an internal gap-tracking aid, NOT legal advice or a determination of regulatory compliance (which depends on national transposition, proportionality to the entity, and competent-authority interpretation). Correctness is demonstrated over a fixed set of checks.
     reproduce: "python3 claimlib/modules/nis2/evidence.py"
 
+  - id: CLAIM-LIB-SOC2-001
+    statement: >
+      The vendored SOC 2 coverage model matches the AICPA Trust Services Criteria taxonomy and arithmetic on all 8 checks with 0 mismatches: the five Trust Services Categories are exactly Security, Availability, Processing Integrity, Confidentiality and Privacy; the nine Common Criteria series are CC1..CC9; and coverage() computes hand-verified fractions (empty -> 0.0, all nine CC -> 1.0, a 3-of-9 subset -> 0.3333 with the correct missing list).
+    evidence_level: measured
+    artifact:
+      - "modules/soc2/artifacts/soc2.json"
+    metrics:
+      n_categories: 5
+      n_common_criteria: 9
+      checks: 8
+      checks_matched: 8
+      mismatches: 0
+    caveat: >
+      The taxonomy is the independently-known AICPA Trust Services Criteria structure; the module encodes the five categories and the nine Common Criteria series (not the individual points of focus or the category-specific criteria for Availability/PI/Confidentiality/Privacy) and scores simple criteria-level coverage, which is a readiness aid, not a SOC 2 report or an auditor's opinion.
+    reproduce: "python3 claimlib/modules/soc2/evidence.py"
+
+  - id: CLAIM-LIB-ISO27001-001
+    statement: >
+      The vendored ISO/IEC 27001:2022 coverage model matches Annex A and arithmetic on all 13 checks with 0 mismatches: the four themes are Organizational (37 controls), People (8), Physical (14) and Technological (34), summing to 93; control-id validation accepts in-range ids (A.5.1, A.8.34) and rejects out-of-range or unknown-theme ids (A.6.9, A.9.1); and coverage() computes hand-verified per-theme and overall fractions.
+    evidence_level: measured
+    artifact:
+      - "modules/iso27001/artifacts/iso27001.json"
+    metrics:
+      n_themes: 4
+      n_controls: 93
+      checks: 13
+      checks_matched: 13
+      mismatches: 0
+    caveat: >
+      The theme structure and per-theme control counts are the independently-known Annex A:2022 taxonomy; the module validates a control's theme and in-range number (A.<5-8>.<n>) and scores theme-level coverage, but does not carry each control's title or the ISO/IEC 27002 implementation guidance, and coverage is a planning aid, not a certification.
+    reproduce: "python3 claimlib/modules/iso27001/evidence.py"
+
+  - id: CLAIM-LIB-PCI-DSS-001
+    statement: >
+      The vendored PCI DSS v4.0 coverage model matches the standard and arithmetic on all 20 checks with 0 mismatches: the six goals and twelve requirements are present, each requirement maps to the correct goal (1-2 under goal 1, 3-4 under 2, 5-6 under 3, 7-9 under 4, 10-11 under 5, 12 under 6), and coverage() computes hand-verified per-goal and overall fractions.
+    evidence_level: measured
+    artifact:
+      - "modules/pci_dss/artifacts/pci_dss.json"
+    metrics:
+      n_goals: 6
+      n_requirements: 12
+      checks: 20
+      checks_matched: 20
+      mismatches: 0
+    caveat: >
+      The requirement-and-goal structure is the independently-known PCI DSS v4.0 taxonomy; the module encodes the twelve top-level requirements and their goal grouping (not the hundreds of sub-requirements or the customized-approach/compensating-control options) and scores requirement-level coverage, which is a scoping and gap-tracking aid, not an Attestation of Compliance or a QSA assessment.
+    reproduce: "python3 claimlib/modules/pci_dss/evidence.py"
+
+  - id: CLAIM-LIB-BENFORD-001
+    statement: >
+      The vendored Benford's Law analyzer passes all 25 checks with 0 mismatches: the expected distribution equals log10(1 + 1/d) for every digit 1..9 (matching the published frequencies 0.301, 0.176, ... 0.046 to 3 dp and summing to 1), leading-digit extraction is correct on 10 cases (including sub-1 and negative values), and the conformance statistics behave as defined -- a near-Benford dataset (the leading digits of 2**1..2**500) conforms while a strongly non-Benford dataset does not, with a larger MAD and chi-square.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/benford/artifacts/benford.json"
+    metrics:
+      checks: 25
+      checks_matched: 25
+      mismatches: 0
+      expected_ok: 9
+      digit_ok: 10
+    caveat: >
+      Benford's Law is a SCREEN, not proof: many legitimate datasets (bounded ranges, assigned numbers like invoice IDs, small samples) do not follow it, and conformance does not prove data is genuine nor non-conformance prove fraud. The default MAD threshold (0.015, 'close conformity' per Nigrini) is a heuristic. Correctness is demonstrated over a fixed battery of the formula, digit extraction, and statistic behaviour, not proven for every dataset.
+    reproduce: "python3 claimlib/modules/benford/evidence.py"
+
+  - id: CLAIM-LIB-DOUBLE-ENTRY-001
+    statement: >
+      The vendored double-entry ledger library passes all 13 checks with 0 mismatches: it classifies every journal in a fixed 5-case battery as balanced or unbalanced correctly (including split entries and one-sided postings), the net account balances of every balanced journal sum to exactly zero, and a hand-computed trial balance reproduces the per-account debit/credit totals and net balances exactly (integer minor units, no floating point).
+    evidence_level: measured
+    artifact:
+      - "modules/double_entry/artifacts/double_entry.json"
+    metrics:
+      n_journals: 5
+      checks: 13
+      checks_matched: 13
+      mismatches: 0
+      classify_correct: 5
+    caveat: >
+      The invariant checked is the fundamental balancing identity (total debits == total credits, net balances sum to zero) over a fixed battery, demonstrated not proven for every journal. It does not model account normal-balance sides, chart-of-accounts semantics, multi-currency, sub-ledgers, or period close; amounts are non-negative integer minor units, and the caller supplies well-formed postings.
+    reproduce: "python3 claimlib/modules/double_entry/evidence.py"
+
+  - id: CLAIM-LIB-AUDIT-SAMPLING-001
+    statement: >
+      The vendored attribute-sampling calculator passes all 17 checks with 0 mismatches: each zero-deviation reliability factor equals -ln(1 - confidence) to within table rounding (the Poisson basis); the sample sizes reproduce the standard worked examples (5% tolerable at 95% confidence with 0 expected deviations -> 60; and 24, 30, 93 for other plans); sample size grows monotonically with expected deviations; and for every (tolerable, confidence) the achieved upper deviation rate at the computed size is at most the tolerable rate.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/audit_sampling/artifacts/audit_sampling.json"
+    metrics:
+      checks: 17
+      checks_matched: 17
+      mismatches: 0
+      example_ok: 4
+      consistency_ok: 9
+    caveat: >
+      The reliability factors are the published AICPA Audit Guide Poisson values (rounded), tabulated only for confidence 90/95/99% and 0-3 expected deviations; the module sizes an ATTRIBUTE sample (tests of controls) and does not cover monetary-unit (dollar-unit) sampling, variables sampling, or finite-population correction. Sizing is a planning aid; evaluating results and the sufficiency of evidence remains the auditor's judgment.
+    reproduce: "python3 claimlib/modules/audit_sampling/evidence.py"
+

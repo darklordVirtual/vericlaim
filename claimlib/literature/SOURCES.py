@@ -270,4 +270,76 @@ SOURCES = [
                    "risk-management measures (risk analysis, incident handling, business "
                    "continuity, supply chain security, cryptography, MFA, and more).",
     },
+    {
+        "id": "aicpa-tsc-2017",
+        "title": "Trust Services Criteria for Security, Availability, Processing Integrity, "
+                 "Confidentiality, and Privacy",
+        "authors": ["AICPA Assurance Services Executive Committee"],
+        "publisher": "AICPA",
+        "year": 2017,
+        "kind": "framework",
+        "identifier": "AICPA TSP Section 100 (2017, rev. 2022)",
+        "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+        "summary": "The AICPA Trust Services Criteria are the control criteria used in SOC 2 "
+                   "examinations, organized into five categories -- Security, Availability, "
+                   "Processing Integrity, Confidentiality, and Privacy -- where Security is "
+                   "expressed as the nine Common Criteria series (CC1 through CC9).",
+    },
+    {
+        "id": "iso-27001-2022",
+        "title": "Information security, cybersecurity and privacy protection -- "
+                 "Information security management systems -- Requirements",
+        "authors": ["ISO/IEC JTC 1/SC 27"],
+        "publisher": "ISO/IEC",
+        "year": 2022,
+        "kind": "standard",
+        "identifier": "ISO/IEC 27001:2022",
+        "url": "https://www.iso.org/standard/27001",
+        "summary": "The international standard for information security management systems "
+                   "(ISMS); its 2022 revision restructured Annex A into 93 controls across "
+                   "four themes -- Organizational (37), People (8), Physical (14), and "
+                   "Technological (34).",
+    },
+    {
+        "id": "pci-dss-4.0",
+        "title": "Payment Card Industry Data Security Standard, Version 4.0",
+        "authors": ["PCI Security Standards Council"],
+        "publisher": "PCI SSC",
+        "year": 2022,
+        "kind": "standard",
+        "identifier": "PCI DSS v4.0",
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "summary": "The security standard for organizations that store, process, or transmit "
+                   "payment card data; version 4.0 defines twelve requirements grouped under "
+                   "six goals, from building a secure network to maintaining an information "
+                   "security policy.",
+    },
+    {
+        "id": "benford-1938",
+        "title": "The Law of Anomalous Numbers",
+        "authors": ["Frank Benford"],
+        "publisher": "Proceedings of the American Philosophical Society, 78(4)",
+        "year": 1938,
+        "kind": "paper",
+        "identifier": "Proc. Am. Philos. Soc. 78(4):551-572",
+        "url": "https://www.jstor.org/stable/984802",
+        "summary": "Benford's empirical observation that in many natural datasets the leading "
+                   "digit d occurs with frequency log10(1 + 1/d); the distribution is now a "
+                   "standard forensic-accounting screen for detecting fabricated or "
+                   "manipulated numeric data.",
+    },
+    {
+        "id": "aicpa-audit-sampling",
+        "title": "Audit Sampling (AICPA Audit Guide)",
+        "authors": ["AICPA"],
+        "publisher": "AICPA",
+        "year": 2019,
+        "kind": "framework",
+        "identifier": "AICPA Audit Guide: Audit Sampling",
+        "url": "https://www.aicpa-cima.com/cpe-learning/publication/audit-sampling-audit-guide",
+        "summary": "The AICPA guide to statistical and non-statistical audit sampling; its "
+                   "Poisson reliability factors let an auditor size an attribute sample so "
+                   "that, at a chosen confidence, the sample bounds the true deviation rate "
+                   "below the tolerable rate.",
+    },
 ]
