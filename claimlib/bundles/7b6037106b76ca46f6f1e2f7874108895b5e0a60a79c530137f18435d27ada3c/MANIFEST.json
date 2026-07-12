@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/errorbudget.json": "24c27abb859ce0131a9e3c83575c2616055c44cafa89bdf31538e06e96313a15",
+    "claim.json": "e0ae9a413f4b411c31ec7b008585a7e06968072446050b6f92da4187ad24a208",
+    "code/errorbudget.py": "6615d4053fb8d136ef2d6674d18b3bd01a4b6c5dc23c87d4c0c2d75b5cc86c35",
+    "provenance.json": "ed15b2363b2ce27b403f2c38131e1fdcb71b8e5fb54a9ecd18f08bf4d817e1fb"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

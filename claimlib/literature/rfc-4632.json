@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Vince Fuller",
+    "Tony Li"
+  ],
+  "id": "rfc-4632",
+  "identifier": "RFC 4632 (BCP 122)",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines Classless Inter-domain Routing: prefix/length notation and the allocation and aggregation of the 32-bit IPv4 address space without classful boundaries. Specifies how an address block is characterized by a prefix and mask length, and the rules for hierarchical aggregation of routes. Best Current Practice (BCP 122); obsoletes RFC 1519. This is the authoritative reference for CIDR subnet arithmetic (network/broadcast derivation, prefix containment, block splitting).",
+  "summary_sha256": "dbef83ba02e2363abfcf62116c173bb4d93fa0ba88b51af88f8ef8dc0fe5f09e",
+  "title": "Classless Inter-domain Routing (CIDR): The Internet Address Assignment and Aggregation Plan",
+  "url": "https://www.rfc-editor.org/info/rfc4632",
+  "year": 2006
+}

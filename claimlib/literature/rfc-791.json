@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Jon Postel"
+  ],
+  "id": "rfc-791",
+  "identifier": "RFC 791 (STD 5)",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "The Internet Protocol version 4 specification, defining the IPv4 datagram format including the header layout and the Header Checksum field: the 16-bit one's complement of the one's-complement sum of all 16-bit words in the header, with the checksum field taken as zero during computation. Internet Standard STD 5; the source of the IPv4-header checksum that RFC 1071 shows how to compute efficiently.",
+  "summary_sha256": "c26635af23592e6717dbb36d2e540db03da2d8edf273cb672effab096df63280",
+  "title": "Internet Protocol",
+  "url": "https://www.rfc-editor.org/info/rfc791",
+  "year": 1981
+}

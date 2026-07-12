@@ -18,6 +18,12 @@
 - Threat model — see the security model (dedicated page is a roadmap item)
 - [Reporting](../SECURITY.md)
 
+## Knowledge register (claimlib)
+- [claimlib](../claimlib/README.md) — claim-bound, vendorable modules (Python/TypeScript/React); vendor one and inherit a checked primitive
+- [Bibliography](../claimlib/literature/BIBLIOGRAPHY.md) — the hash-locked literature the modules cite; every `references` id must resolve here
+- [Scaffolder](../claimlib/scaffold.py) — turn a claim into a program: template → module + evidence + test, numbers never fabricated
+- [Seed corpora](../seed/README.md) — regenerable stress-tests: the gate at scale and across 16 enterprise domains
+
 ## Reference
 - [Configuration & profiles](reference/configuration.md)
 - [Claim schema](claim-register-spec.md) · schema-v2 metric bindings — see [ROADMAP](../ROADMAP.md)

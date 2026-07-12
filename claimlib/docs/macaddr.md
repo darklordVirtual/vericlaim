@@ -1,6 +1,6 @@
 # MAC / EUI-48 parsing + IEEE 802 flags
 
-*Subject area: Telecom / Layer-2 Addressing. Language: python. Vendorable bundle `40811c657abd`.*
+*Subject area: Telecom / Layer-2 Addressing. Language: python. Vendorable bundle `7e15051d077b`.*
 
 A MAC address is written four different ways (aa:bb:.., aa-bb-.., Cisco aabb.ccdd.eeff, bare aabbccddeeff), and the two low bits of its first octet carry meaning: the I/G bit marks multicast vs unicast and the U/L bit marks a locally-administered (e.g. virtualised/randomised) vs globally-unique address. This module parses every notation to one integer and decodes those flags; the claim proves the decoding matches the IEEE rules and the notations agree, so you inherit a checked L2-address helper rather than a re-implementation to re-audit.
 
@@ -16,5 +16,12 @@ Ships `macaddr.py` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/40811c657abd1e37477e49cb7654023ad58ad5d956f8d3909d291546f27ec6cd --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/7e15051d077b86cc3a8292776234667ccaa3cfd8a8e76b32e791acdea89159ac --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **IEEE Std 802-2024** — IEEE Standard for Local and Metropolitan Area Networks: Overview and Architecture. [https://standards.ieee.org/ieee/802/10894/](https://standards.ieee.org/ieee/802/10894/)
+- **IEEE RA Guidelines for Use of EUI, OUI, and CID (2017-08-03)** — Guidelines for Use of Extended Unique Identifier (EUI), Organizationally Unique Identifier (OUI), and Company ID (CID). [https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf](https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf)

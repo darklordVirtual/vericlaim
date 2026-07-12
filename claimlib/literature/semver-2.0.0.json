@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Tom Preston-Werner"
+  ],
+  "id": "semver-2.0.0",
+  "identifier": "SemVer 2.0.0",
+  "kind": "specification",
+  "publisher": "semver.org",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies the MAJOR.MINOR.PATCH version format with optional dot-separated pre-release identifiers and build metadata. Section 10 requires build metadata to be ignored when determining precedence, and section 11 defines the precedence algorithm: numeric comparison of the core triple, a pre-release version ranking below its associated normal version, and left-to-right comparison of pre-release identifiers where numeric identifiers compare numerically, alphanumeric identifiers compare in ASCII order, numeric ranks below alphanumeric, and a larger identifier set wins when all preceding identifiers are equal.",
+  "summary_sha256": "a453f756570204cb8c19bbaa316159f6d8dc0789bcc736518d73f2a41213dc61",
+  "title": "Semantic Versioning 2.0.0",
+  "url": "https://semver.org/spec/v2.0.0.html",
+  "year": 2013
+}

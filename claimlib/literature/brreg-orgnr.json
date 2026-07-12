@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Br\u00f8nn\u00f8ysundregistrene"
+  ],
+  "id": "brreg-orgnr",
+  "identifier": "Br\u00f8nn\u00f8ysundregistrene: Om organisasjonsnummeret (rev. 13 Dec 2023)",
+  "kind": "specification",
+  "publisher": "Br\u00f8nn\u00f8ysundregistrene",
+  "schema": "claimlib_literature_v1",
+  "summary": "The Norwegian registry authority's specification of the nine-digit organisasjonsnummer and its weighted modulus-11 check digit. The first eight digits are multiplied by the weights 3, 2, 7, 6, 5, 4, 3, 2 (from the first digit), the products are summed, and the ninth digit is 11 minus the sum's remainder modulo 11; a remainder of 0 gives check digit 0, and a remainder of 1 (which would require check digit 10) means no valid organisation number exists for that payload.",
+  "summary_sha256": "1580c3590c112aa58ad0ebf1b2d8cf4df281cedb2182c39bd0d1049a7d5f0364",
+  "title": "Om organisasjonsnummeret",
+  "url": "https://www.brreg.no/om-oss/registrene-vare/om-enhetsregisteret/organisasjonsnummeret/",
+  "year": 2023
+}

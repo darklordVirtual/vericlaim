@@ -1,6 +1,6 @@
 # Merkle tree SHA-256 inclusion proofs
 
-*Subject area: Security / Cryptographic Integrity. Language: python. Vendorable bundle `33bf67f5b87a`.*
+*Subject area: Security / Cryptographic Integrity. Language: python. Vendorable bundle `acf0f110d501`.*
 
 A Merkle tree hashes an ordered list of leaves pairwise up to a single root digest, so any party holding the root can verify that a given leaf is included via a short O(log n) audit path of sibling hashes rather than re-hashing the whole set. This module uses sha256 with the Bitcoin-style duplicate-last-node rule for odd levels (documented explicitly so proofs are portable), exposing build_root, inclusion_proof, and verify_proof. Vendor it for tamper-evident logs, transparency/commitment schemes, or content addressing; the claim proves proofs verify and leaf tampering is caught, so you inherit a checked implementation rather than an unaudited re-write.
 
@@ -16,5 +16,13 @@ Ships `merkle.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/33bf67f5b87a258ffcf81a3052cb4c8d269f31fe07b5b7a47aa0d1905b9c6676 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/acf0f110d50189979b7fc7ebf35379fccaca874dea8670b3ada24731b0c4b4d8 --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **Advances in Cryptology — CRYPTO '87, LNCS 293, pp. 369-378; doi:10.1007/3-540-48184-2_32** — A Digital Signature Based on a Conventional Encryption Function. [https://doi.org/10.1007/3-540-48184-2_32](https://doi.org/10.1007/3-540-48184-2_32)
+- **RFC 6962** — Certificate Transparency. [https://www.rfc-editor.org/info/rfc6962](https://www.rfc-editor.org/info/rfc6962)
+- **FIPS PUB 180-4** — Secure Hash Standard (SHS). [https://csrc.nist.gov/publications/detail/fips/180/4/final](https://csrc.nist.gov/publications/detail/fips/180/4/final)

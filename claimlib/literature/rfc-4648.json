@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "S. Josefsson"
+  ],
+  "id": "rfc-4648",
+  "identifier": "RFC 4648",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies the base16, base32, and base64 encodings, including the standard base32 alphabet (A-Z, 2-7) in section 6, the '=' padding rules mapping 5-byte input groups to 8-symbol output blocks, and handling of non-alphabet characters. Section 10 provides the canonical test vectors (e.g. BASE32(\"foobar\") = \"MZXW6YTBOI======\") that conforming implementations must reproduce. Obsoletes RFC 3548.",
+  "summary_sha256": "bf3649a3eac8832f5f0d558b73ddf4ac64f9ea4fe35468f9dcbd9d70a93a1c82",
+  "title": "The Base16, Base32, and Base64 Data Encodings",
+  "url": "https://www.rfc-editor.org/rfc/rfc4648",
+  "year": 2006
+}

@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Robert Hinden",
+    "Stephen Deering"
+  ],
+  "id": "rfc-4291",
+  "identifier": "RFC 4291",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines the IPv6 addressing architecture: the addressing model, unicast/anycast/multicast address types, and the three text representations of IPv6 addresses (eight colon-separated 16-bit hex groups, '::' zero compression, and the embedded-IPv4 form x:x:x:x:x:x:d.d.d.d). Obsoletes RFC 3513 and is the base specification any IPv6 parser must accept. Updated for output formatting by RFC 5952.",
+  "summary_sha256": "60f959c7e75d836405828639052ebb09eedab6a7640a3cedf431bd886bedc357",
+  "title": "IP Version 6 Addressing Architecture",
+  "url": "https://www.rfc-editor.org/info/rfc4291",
+  "year": 2006
+}

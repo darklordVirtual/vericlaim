@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Philip Wadler"
+  ],
+  "id": "wadler-1995",
+  "identifier": "Advanced Functional Programming (J. Jeuring & E. Meijer, eds.), LNCS 925:24-52, doi:10.1007/3-540-59451-5_2",
+  "kind": "paper",
+  "publisher": "Springer",
+  "schema": "claimlib_literature_v1",
+  "summary": "Wadler's tutorial presentation of monads as a technique for structuring pure functional programs, covering the unit and bind operators and their laws. It develops the exception (error) monad in detail: a computation yields either a success value or an error, unit injects a success, and bind short-circuits on the first error while chaining fallible steps. A Result<T,E> type with ok/err constructors, functor map, and an andThen bind combinator implements exactly this monad.",
+  "summary_sha256": "7d111f04ba1a1bce1300681f979a5931f7564864116981731d4fd1820a7fc195",
+  "title": "Monads for functional programming",
+  "url": "https://doi.org/10.1007/3-540-59451-5_2",
+  "year": 1995
+}

@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "P. Bryan, Ed.",
+    "K. Zyp",
+    "M. Nottingham, Ed."
+  ],
+  "id": "rfc-6901",
+  "identifier": "RFC 6901",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines JSON Pointer, a string syntax of '/'-separated reference tokens for identifying a specific value within a JSON document. Specifies the escape sequences '~0' for '~' and '~1' for '/', evaluation semantics for object member and array index resolution (including the rejection of leading zeros in indices), and error conditions for non-existent references. Section 5 gives the worked example document and pointer/result pairs used as the conformance vectors.",
+  "summary_sha256": "a164bfe1f143f899c3648a2748de03ccf406c65e34f6dbc764c08fa3b68af1b2",
+  "title": "JavaScript Object Notation (JSON) Pointer",
+  "url": "https://www.rfc-editor.org/rfc/rfc6901",
+  "year": 2013
+}

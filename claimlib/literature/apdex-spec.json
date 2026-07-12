@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Apdex Alliance"
+  ],
+  "id": "apdex-spec",
+  "identifier": "Apdex Technical Specification, Version 1.1 (22 January 2007)",
+  "kind": "specification",
+  "publisher": "Apdex Alliance",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines Apdex, an index from 0 to 1 measuring user satisfaction with application response time. Samples are partitioned into Satisfied, Tolerating, and Frustrated zones by a target threshold T and a frustration threshold F = 4T, and the index is computed as Apdex_T = (Satisfied count + Tolerating count / 2) / Total samples. The specification also defines report-group requirements and how the index and its threshold must be displayed (e.g. 0.85 [4.0]).",
+  "summary_sha256": "c566ed1d28eecfaacae8ddc02da065625885952809ab7c552f60865ba78020ad",
+  "title": "Application Performance Index \u2014 Apdex Technical Specification",
+  "url": "https://www.apdex.org/wp-content/uploads/2020/09/ApdexTechnicalSpecificationV11_000.pdf",
+  "year": 2007
+}

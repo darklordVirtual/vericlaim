@@ -1,6 +1,6 @@
 # Query-string parse + stringify
 
-*Subject area: TypeScript / URL & Web. Language: typescript. Vendorable bundle `66cccc257f85`.*
+*Subject area: TypeScript / URL & Web. Language: typescript. Vendorable bundle `ed52169734f6`.*
 
 A URL query string is a '&'-separated list of 'key=value' pairs where keys can repeat and both sides are percent-encoded (with '+' historically meaning space in form submissions). parseQuery decodes each pair and collapses repeated keys into ordered arrays so 'a=1&a=3' becomes {a:["1","3"]}, while stringifyQuery reverses that with a deterministic sorted key order for stable, diffable output. Vendor it to read and build query strings consistently with zero dependencies; the claim proves the parse/serialize behaviour matches hand-written expectations and agrees with URLSearchParams, so you inherit a checked helper rather than a re-implementation to re-audit.
 
@@ -16,5 +16,11 @@ Ships `parseQuery.ts` into your project, byte-exact, with a generated binding te
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/66cccc257f850af66c52152fb8ed2ad811ac344e966bf7b929da3fe32385ba9e --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/ed52169734f6954ff954ca11ee2f54533795e1e6f0a84fc7470602be8250658d --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **WHATWG URL Living Standard (last updated 6 July 2026)** — URL Standard. [https://url.spec.whatwg.org/](https://url.spec.whatwg.org/)

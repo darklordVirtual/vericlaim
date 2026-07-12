@@ -26,7 +26,8 @@ from MODULES import MODULES  # noqa: E402
 LIT_DIR = HERE / "literature"
 REQUIRED = ("id", "title", "authors", "publisher", "year", "kind", "identifier", "url", "summary")
 KIND_LABEL = {"rfc": "RFC", "standard": "Standard", "paper": "Paper",
-              "framework": "Framework", "regulation": "Regulation"}
+              "framework": "Framework", "regulation": "Regulation",
+              "book": "Book", "specification": "Specification"}
 
 
 def _sha256(text: str) -> str:

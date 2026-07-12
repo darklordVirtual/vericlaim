@@ -1,6 +1,6 @@
 # IPv6 parsing + RFC 5952 compression
 
-*Subject area: Telecom / IPv6 Addressing. Language: python. Vendorable bundle `88d9111fc5cb`.*
+*Subject area: Telecom / IPv6 Addressing. Language: python. Vendorable bundle `5dff1c12bab8`.*
 
 IPv6 text has many spellings for one address, so RFC 5952 defines a single canonical form: lowercase hex, no leading zeros per group, and the longest run of zero groups (leftmost on a tie) collapsed to '::'. Getting that compression exactly right -- and never collapsing a lone zero group -- is the subtle part every implementation must match. This module parses and canonicalises IPv6 from scratch; the claim proves it agrees with Python's ipaddress across the battery, so you inherit a checked, dependency-free IPv6 formatter rather than a re-implementation to re-audit.
 
@@ -16,5 +16,12 @@ Ships `ipv6.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/88d9111fc5cb33897671ffa16fced1e7d5740fb3958051a4236c2cc5829dea6d --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/5dff1c12bab88ae04ffdc45227bb9635b5f251d5263a4b6546d9240e2e903bfc --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **RFC 4291** — IP Version 6 Addressing Architecture. [https://www.rfc-editor.org/info/rfc4291](https://www.rfc-editor.org/info/rfc4291)
+- **RFC 5952** — A Recommendation for IPv6 Address Text Representation. [https://www.rfc-editor.org/info/rfc5952](https://www.rfc-editor.org/info/rfc5952)

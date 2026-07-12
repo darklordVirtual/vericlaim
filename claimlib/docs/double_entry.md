@@ -1,6 +1,6 @@
 # Double-entry bookkeeping invariants
 
-*Subject area: Audit / Accounting Integrity. Language: python. Vendorable bundle `79e20a250047`.*
+*Subject area: Audit / Accounting Integrity. Language: python. Vendorable bundle `3d86c2442c5a`.*
 
 Double-entry bookkeeping is the 500-year-old integrity check at the heart of every ledger: each transaction posts equal debits and credits, so across the books total debits equal total credits and every account's net balances sum to zero -- the trial balance an auditor runs first. This module checks that invariant and builds a trial balance in integer minor units; the claim proves it identifies balanced vs. unbalanced journals correctly and that the sums are exact, so you inherit a checked ledger primitive rather than a re-implementation with a rounding bug to re-audit.
 
@@ -16,5 +16,11 @@ Ships `double_entry.py` into your project, byte-exact, with a generated binding 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/79e20a250047782dc1989d6c69ed86bc75f8d1ee49693124fadbb77a6c19cf5c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/3d86c2442c5aa5927e43bed4735231b7ba0f389735dd900a0d233332e96c8cfb --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **Venice: Paganino de Paganini, 10–20 November 1494 (LCCN 49036374)** — Summa de arithmetica, geometria, proportioni et proportionalita. [https://www.loc.gov/item/49036374/](https://www.loc.gov/item/49036374/)

@@ -1,6 +1,6 @@
 # RBAC least-privilege & separation-of-duties audit
 
-*Subject area: Security / Identity & Access Management. Language: python. Vendorable bundle `bcfc71e1bce3`.*
+*Subject area: Security / Identity & Access Management. Language: python. Vendorable bundle `008bb906dc02`.*
 
 Role-Based Access Control grants permissions to roles and assigns roles to identities; two enduring control objectives sit on top of it. Least privilege says an identity should hold no permission its role does not need — anything extra ('excess') is attack surface and audit debt. Separation of duties says certain permissions are toxic in combination (create a payment AND approve it; deploy code AND review it) and must never rest with one identity, even when a mis-scoped role would technically allow both. This module makes both checks mechanical and independent, so an over-broad role cannot silently launder an SoD violation into 'authorized'.
 
@@ -16,5 +16,12 @@ Ships `rbac.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/bcfc71e1bce35ef0ab12a376ed5f7825a5b52feaed58f6014baebb30e455d3f7 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/008bb906dc02b7c69cd65e7974c26a150c4ed4de0a737184fe4759c5335c1b93 --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **INCITS 359-2012 (R2022)** — Information technology — Role Based Access Control. [https://webstore.ansi.org/standards/incits/incits3592012r2022](https://webstore.ansi.org/standards/incits/incits3592012r2022)
+- **Proceedings of the IEEE, vol. 63, no. 9, pp. 1278-1308; doi:10.1109/PROC.1975.9939** — The Protection of Information in Computer Systems. [https://doi.org/10.1109/PROC.1975.9939](https://doi.org/10.1109/PROC.1975.9939)

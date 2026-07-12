@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "Betsy Beyer",
+    "Chris Jones",
+    "Jennifer Petoff",
+    "Niall Richard Murphy"
+  ],
+  "id": "google-sre-2016",
+  "identifier": "ISBN 978-1-491-92912-4",
+  "kind": "book",
+  "publisher": "O'Reilly Media",
+  "schema": "claimlib_literature_v1",
+  "summary": "Google's SRE book defines the discipline's core quantitative machinery: availability as the ratio of successful requests to total requests, service level indicators and objectives (Chapter 4, 'Service Level Objectives'), and the error budget as 1 minus the availability target (Chapter 3, 'Embracing Risk'). The error budget is spent by failed requests and the remaining budget gates release velocity. These chapters are the canonical source of the textbook SLO and error-budget arithmetic.",
+  "summary_sha256": "9fad3c3b2b25e595403bcb5704c716b84e7ae87bc2b80eabfd2c0797cacfd0d6",
+  "title": "Site Reliability Engineering: How Google Runs Production Systems",
+  "url": "https://sre.google/sre-book/table-of-contents/",
+  "year": 2016
+}

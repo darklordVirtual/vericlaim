@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "ISO"
+  ],
+  "id": "iso-7064",
+  "identifier": "ISO/IEC 7064:2003",
+  "kind": "standard",
+  "publisher": "ISO",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies a family of pure and hybrid check character systems that protect strings against human copying and keying errors, including MOD 97-10 for numeric strings. Under MOD 97-10, letters are mapped to two-digit values (A=10 .. Z=35), the string is read as a base-10 integer, and a valid string satisfies integer mod 97 == 1; this is the check computation behind IBAN check digits.",
+  "summary_sha256": "a787b2dd0df24966ae53c894f10bf9b33568a39a894338cc7c67840c5131dc7d",
+  "title": "Information technology \u2014 Security techniques \u2014 Check character systems",
+  "url": "https://www.iso.org/standard/31531.html",
+  "year": 2003
+}

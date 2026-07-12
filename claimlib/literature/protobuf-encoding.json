@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Google"
+  ],
+  "id": "protobuf-encoding",
+  "identifier": "protobuf.dev/programming-guides/encoding",
+  "kind": "specification",
+  "publisher": "Google",
+  "schema": "claimlib_literature_v1",
+  "summary": "The Protocol Buffers wire-format specification. Defines varints as base-128 little-endian encodings of unsigned integers in 7-bit groups with a most-significant continuation bit (one to ten bytes for 64-bit values), with the worked example 150 -> 0x96 0x01. Also defines ZigZag encoding for signed sint32/sint64 fields, mapping a positive integer p to 2*p and a negative integer n to 2*|n| - 1 so small magnitudes stay small on the wire.",
+  "summary_sha256": "d84a6e3ee92c26973c40b2888cc04fab7f018349ab13cb10ebebac7e4db27372",
+  "title": "Encoding | Protocol Buffers Documentation",
+  "url": "https://protobuf.dev/programming-guides/encoding/",
+  "year": 2026
+}

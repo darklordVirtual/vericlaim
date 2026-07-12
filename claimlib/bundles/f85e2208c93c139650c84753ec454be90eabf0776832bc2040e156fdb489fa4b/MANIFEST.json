@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/aspath.json": "a0955aacf9d9a43c9667e9fb6a96fb6f8aed806a705e2057c6cd9c23aab7359a",
+    "claim.json": "ce7ea370287a0557a8ee3c00bd7d6e53c6c8481e572b1c5d447f22a85d9701cb",
+    "code/aspath.py": "9daee075291655e1de837af392f9b1a97c11d5861870157112f7dcac6ac69ca5",
+    "provenance.json": "6f4316c20822264a700a096ebfd03df1f38d92e0d0ef09cf62ba88b43f8b6629"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

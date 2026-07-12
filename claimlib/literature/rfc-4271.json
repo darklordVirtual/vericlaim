@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "Yakov Rekhter",
+    "Tony Li",
+    "Susan Hares"
+  ],
+  "id": "rfc-4271",
+  "identifier": "RFC 4271",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines version 4 of the Border Gateway Protocol, the inter-domain routing protocol of the Internet. Specifies the AS_PATH attribute, including AS_SEQUENCE and AS_SET segment types, AS-path-based loop detection, and AS-path length as a route-selection criterion. Obsoletes RFC 1771; the authoritative reference for AS-path structure and interpretation.",
+  "summary_sha256": "648d4dfeddd50961cb46b54a77e773efdddc4d29b23d1c7090792dbcd9383d6a",
+  "title": "A Border Gateway Protocol 4 (BGP-4)",
+  "url": "https://www.rfc-editor.org/info/rfc4271",
+  "year": 2006
+}

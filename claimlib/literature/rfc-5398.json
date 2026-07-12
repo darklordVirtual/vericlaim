@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Geoff Huston"
+  ],
+  "id": "rfc-5398",
+  "identifier": "RFC 5398",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Reserves ASN ranges for use in documentation and sample code: 64496-64511 from the 16-bit ASN pool and 65536-65551 from the 32-bit ASN pool, to reduce conflict and confusion between documented examples and deployed systems. The authoritative source for classifying an ASN as documentation-reserved.",
+  "summary_sha256": "608a3e42e4789a69e5b1bbbc875e6dcde277cfc080f236cb0124551c9fe1de99",
+  "title": "Autonomous System (AS) Number Reservation for Documentation Use",
+  "url": "https://www.rfc-editor.org/info/rfc5398",
+  "year": 2008
+}

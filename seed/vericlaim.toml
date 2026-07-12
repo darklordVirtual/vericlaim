@@ -1,0 +1,14 @@
+# VeriClaim seed workspace — an isolated, large, deterministic corpus used to
+# stress-test the gate at scale. Regenerate with: python seed/generate.py --n N
+[vericlaim]
+profile             = "adopt"
+register            = "claims/register.yaml"
+baseline            = "claims/baseline.json"
+doc_globs           = ["docs/*.md"]
+required_fields     = ["id", "statement", "evidence_level", "artifact", "caveat"]
+evidence_levels     = ["theoretical", "measured", "benchmarked", "reproduced", "machine_checked", "externally_validated"]
+require_provenance  = true
+# Seed artifacts are a regenerable working corpus, not committed evidence.
+require_git_tracked = false
+
+[vericlaim.stale_strings]

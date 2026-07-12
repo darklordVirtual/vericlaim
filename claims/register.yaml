@@ -200,6 +200,32 @@ claims:
       oracle refused one off-corpus question that day, not that it can never
       be induced to overclaim.
 
+  - id: CLAIM-LIB-INDEX-001
+    statement: >
+      The claimlib knowledge register holds 64 claim-bound, vendorable modules
+      (52 Python, 7 TypeScript, 5 React) and a hash-locked literature layer of
+      76 works; 55 modules cite the literature they implement through 80
+      resolved references, and the remaining 9 are documented as having no
+      canonical authoritative work (generic programming utilities).
+    evidence_level: measured
+    artifact:
+      - "claims/claimlib_index.json"
+    metrics:
+      modules_total: 64
+      modules_python: 52
+      modules_typescript: 7
+      modules_react: 5
+      literature_works: 76
+      modules_cited: 55
+      modules_uncited: 9
+      citations_total: 80
+    caveat: >
+      Counts are computed from MODULES.py and SOURCES.py — the same inputs
+      claimlib/build_literature.py validates (every reference must resolve,
+      every summary is hash-locked). They prove the register's size and
+      citation coverage, not the truth of any cited work's content.
+    reproduce: "python3 tools/claimlib_index_evidence.py"
+
   # ── domains/: applied knowledge modules (each a real, reproduce-backed
   # artifact demonstrating a domain technique — evidence, not roadmap). ──
 

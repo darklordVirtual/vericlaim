@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "ITU-T"
+  ],
+  "id": "itu-e164",
+  "identifier": "ITU-T E.164 (02/2026)",
+  "kind": "standard",
+  "publisher": "ITU-T",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines the number structure and functionality for international public telecommunication numbers: digits only, a maximum length of 15 digits, and a country code of 1 to 3 digits followed by a national (significant) number. Covers the five number categories (geographic areas, global services, networks, groups of countries, and trials) and the digit analysis needed to route calls. This in-force edition was approved 13 February 2026, superseding the 11/2010 edition.",
+  "summary_sha256": "e54bbbc55bd191da9d8a84fb4abf548797d454d64db929346b1ec76d219fa7a3",
+  "title": "The international public telecommunication numbering plan",
+  "url": "https://www.itu.int/rec/T-REC-E.164/en",
+  "year": 2026
+}

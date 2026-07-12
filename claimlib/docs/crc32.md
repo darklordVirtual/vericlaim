@@ -1,6 +1,6 @@
 # CRC-32 (IEEE 802.3) checksum
 
-*Subject area: Data / Integrity & Checksums. Language: python. Vendorable bundle `11bf9d8bf0ed`.*
+*Subject area: Data / Integrity & Checksums. Language: python. Vendorable bundle `503616d6f62f`.*
 
 CRC-32 (IEEE 802.3) is the cyclic redundancy check used by zip, gzip, PNG and Ethernet to catch accidental data corruption. It treats the message as a polynomial over GF(2) and computes the remainder modulo the reflected generator polynomial 0xEDB88320, with input/output reflected and init/final XOR of 0xFFFFFFFF, yielding an unsigned 32-bit value. This module implements the standard byte-wise table algorithm directly (no zlib inside), so you can vendor a dependency-free checksum; the claim proves it matches the published check vectors and agrees byte-for-byte with zlib.crc32, so you inherit a checked implementation rather than a re-implementation to re-audit.
 
@@ -16,5 +16,12 @@ Ships `crc32.py` into your project, byte-exact, with a generated binding test th
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/11bf9d8bf0edeca023b1390f56ea9238a084ceae68366192c938669dd9d18df2 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/503616d6f62f3209314b0606777d3b154f4bbd2904987ced441c0ae33b471c70 --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **IEEE 802.3-2022** — IEEE Standard for Ethernet. [https://standards.ieee.org/ieee/802.3/10422/](https://standards.ieee.org/ieee/802.3/10422/)
+- **RFC 1952** — GZIP file format specification version 4.3. [https://www.rfc-editor.org/rfc/rfc1952](https://www.rfc-editor.org/rfc/rfc1952)

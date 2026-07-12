@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Juha Heinanen",
+    "Roch Guerin"
+  ],
+  "id": "rfc-2697",
+  "identifier": "RFC 2697",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines the single rate Three Color Marker (srTCM), which meters an IP packet stream using two token buckets C and E that share the common rate CIR and have capacities CBS and EBS. The token counts Tc and Te start full and are updated CIR times per second under a strict priority rule: Tc is incremented by one if below CBS, else Te is incremented by one if below EBS, else neither \u2014 so each count is capped at its bucket capacity (the token-bucket capacity invariant). Packets are marked green, yellow, or red depending on whether sufficient tokens are available in C, then E. Published as an Informational RFC, it is the canonical IETF specification of srTCM token-bucket metering over a chronological trace of packet arrivals.",
+  "summary_sha256": "58eb2ef2feab43fbb2e5341cc6074bdfae0ae2d3f1b08ebe3e0a9b6367031bc6",
+  "title": "A Single Rate Three Color Marker",
+  "url": "https://www.rfc-editor.org/info/rfc2697",
+  "year": 1999
+}

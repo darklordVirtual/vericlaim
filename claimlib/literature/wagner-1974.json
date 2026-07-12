@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Robert A. Wagner",
+    "Michael J. Fischer"
+  ],
+  "id": "wagner-1974",
+  "identifier": "Journal of the ACM, Vol. 21, No. 1, pp. 168-173; doi:10.1145/321796.321811",
+  "kind": "paper",
+  "publisher": "ACM",
+  "schema": "claimlib_literature_v1",
+  "summary": "Formalizes the string-to-string correction problem as finding the minimum-cost sequence of edit operations (substitute, delete, insert) transforming one string into another, and gives the dynamic-programming algorithm that solves it in time proportional to the product of the string lengths. This Wagner-Fischer matrix algorithm is the textbook method for computing Levenshtein distance and is the algorithm the levenshtein module implements.",
+  "summary_sha256": "92f8954d4921580500803e8e407c56343d87d78abb151370618515d3d2e15653",
+  "title": "The String-to-String Correction Problem",
+  "url": "https://dl.acm.org/doi/10.1145/321796.321811",
+  "year": 1974
+}

@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "ISO"
+  ],
+  "id": "iso-13616-2020",
+  "identifier": "ISO 13616-1:2020",
+  "kind": "standard",
+  "publisher": "ISO",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines the structure of the International Bank Account Number: a two-letter ISO 3166-1 country code, two check digits, and a country-specific BBAN of up to 30 alphanumeric characters. Specifies the electronic format (no separators, upper case) and requires the check digits to be computed and validated with the MOD 97-10 scheme of ISO/IEC 7064.",
+  "summary_sha256": "a1834aa4efb6e9892fc12ca673c6892af62efb5d1d0241894989284389351ee2",
+  "title": "Financial services \u2014 International bank account number (IBAN) \u2014 Part 1: Structure of the IBAN",
+  "url": "https://www.iso.org/standard/81090.html",
+  "year": 2020
+}

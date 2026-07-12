@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "IEEE"
+  ],
+  "id": "ieee-802",
+  "identifier": "IEEE Std 802-2024",
+  "kind": "standard",
+  "publisher": "IEEE",
+  "schema": "claimlib_literature_v1",
+  "summary": "Base standard of the IEEE 802 family; specifies the structure of IEEE 802 MAC addresses, including 48-bit (EUI-48-based) universal addresses. Defines the two flag bits of the first octet: the I/G bit (least significant bit; 0 = individual/unicast, 1 = group/multicast) and the U/L bit (second least significant bit; 0 = universally administered, 1 = locally administered), together with the hexadecimal representation of addresses. Approved 2024-12-11 as the revision of IEEE Std 802-2014.",
+  "summary_sha256": "9fb5c5dc122767bb1807288d57605a2cdf10e72e61a205fcf3ed8f1c1c873973",
+  "title": "IEEE Standard for Local and Metropolitan Area Networks: Overview and Architecture",
+  "url": "https://standards.ieee.org/ieee/802/10894/",
+  "year": 2024
+}

@@ -1,6 +1,6 @@
 # RFC 4648 base32 encode/decode
 
-*Subject area: Data / Encoding. Language: python. Vendorable bundle `bdef6d013c90`.*
+*Subject area: Data / Encoding. Language: python. Vendorable bundle `0fcc4d051086`.*
 
 Base32 (RFC 4648) encodes arbitrary bytes into a 32-character, case-insensitive-friendly alphabet (A-Z, 2-7), packing every 5 input bytes into 8 output symbols and padding a short final group with '=' — useful where the output must survive case-folding or be spoken/typed (TOTP secrets, DNS labels, filenames). This module implements the bit-packing directly rather than delegating to a library, exposing encode(bytes)->str and its exact inverse decode(str)->bytes, which fails closed on bad length, unknown symbols, or malformed padding. Vendor it for a dependency-free, auditable codec; the claim binds the RFC vectors and stdlib-oracle agreement, so you inherit a checked encoder rather than a re-implementation to re-audit.
 
@@ -16,5 +16,11 @@ Ships `base32.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/bdef6d013c9016398dfec5b5031821c026e789d67397ab47fac085d10548781c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/0fcc4d05108652a51341f47907d05a01e2ccb428b10603a69c0f58bd3dfa1630 --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **RFC 4648** — The Base16, Base32, and Base64 Data Encodings. [https://www.rfc-editor.org/rfc/rfc4648](https://www.rfc-editor.org/rfc/rfc4648)

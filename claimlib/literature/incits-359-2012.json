@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "INCITS"
+  ],
+  "id": "incits-359-2012",
+  "identifier": "INCITS 359-2012 (R2022)",
+  "kind": "standard",
+  "publisher": "ANSI/INCITS",
+  "schema": "claimlib_literature_v1",
+  "summary": "The American National Standard for Role Based Access Control, revising the original INCITS 359-2004 adoption of the NIST RBAC model. Defines the RBAC Reference Model \u2014 users, roles, permissions, operations, objects, and role hierarchies \u2014 together with static and dynamic separation-of-duty constraint relations (SSD/DSD), and the System and Administrative Functional Specification required of conforming RBAC systems. SoD findings in a role/permission access matrix are evaluated against these constraint relations.",
+  "summary_sha256": "b3a834bbbd876009c927757eec3aeb422ae0b182578782ae2f726735b6c2f850",
+  "title": "Information technology \u2014 Role Based Access Control",
+  "url": "https://webstore.ansi.org/standards/incits/incits3592012r2022",
+  "year": 2012
+}

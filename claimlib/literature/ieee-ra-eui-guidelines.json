@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "IEEE Registration Authority"
+  ],
+  "id": "ieee-ra-eui-guidelines",
+  "identifier": "IEEE RA Guidelines for Use of EUI, OUI, and CID (2017-08-03)",
+  "kind": "specification",
+  "publisher": "IEEE",
+  "schema": "claimlib_literature_v1",
+  "summary": "IEEE Registration Authority tutorial defining the formats and assignment rules of organizational identifiers (OUI, CID) and the extended identifiers built on them, EUI-48 and EUI-64, including their hexadecimal representation conventions and the semantics of the I/G and U/L bits when an EUI-48 is used as a MAC address. Supersedes the RA's separate 'Guidelines for 48-Bit Global Identifier (EUI-48)' and EUI-64/OUI documents. Dated 2017-08-03.",
+  "summary_sha256": "9d0b0065a291d80d491b36152eccd94a148b2b7db71fe90ad3134d6c64bd3701",
+  "title": "Guidelines for Use of Extended Unique Identifier (EUI), Organizationally Unique Identifier (OUI), and Company ID (CID)",
+  "url": "https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf",
+  "year": 2017
+}

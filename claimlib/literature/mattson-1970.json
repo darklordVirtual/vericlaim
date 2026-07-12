@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "Richard L. Mattson",
+    "Jan Gecsei",
+    "Donald R. Slutz",
+    "Irving L. Traiger"
+  ],
+  "id": "mattson-1970",
+  "identifier": "IBM Systems Journal, vol. 9, no. 2, pp. 78-117, doi:10.1147/sj.92.0078",
+  "kind": "paper",
+  "publisher": "IBM",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces stack processing, a one-pass technique for evaluating demand-paged storage hierarchies, and formalizes the class of stack replacement algorithms with the inclusion property. Least-recently-used (LRU) replacement is the canonical stack algorithm analyzed: pages are ordered by recency of reference and the least recently used page is evicted when a fixed-capacity level is full. This paper is the standard scholarly reference for LRU eviction semantics and its capacity-inclusion behavior.",
+  "summary_sha256": "57d0bdf303743fed4fed5af29018b24c4d34a9d2949270d68f2a1b0765c14b27",
+  "title": "Evaluation Techniques for Storage Hierarchies",
+  "url": "https://doi.org/10.1147/sj.92.0078",
+  "year": 1970
+}

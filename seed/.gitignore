@@ -1,0 +1,11 @@
+# The seed corpus is a REGENERABLE working corpus, not committed evidence
+# (see vericlaim.toml: require_git_tracked = false). Only the generators,
+# configs, and this documentation are tracked; everything below is rebuilt
+# byte-identically by `python seed/generate.py` / `python seed/enterprise/generate.py`.
+artifacts/
+claims/
+docs/
+literature/
+enterprise/artifacts/
+enterprise/claims/
+enterprise/docs/

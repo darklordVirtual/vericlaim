@@ -1,6 +1,6 @@
 # groupBy array partition (order-preserving)
 
-*Subject area: TypeScript / Collections. Language: typescript. Vendorable bundle `a5834d2f5d8c`.*
+*Subject area: TypeScript / Collections. Language: typescript. Vendorable bundle `21e5ebc1ce3f`.*
 
 groupBy is the workhorse collection primitive for turning a flat list into buckets keyed by a projection — the SQL GROUP BY of everyday code, used for tallies, indexes, and report rollups. The subtle correctness properties are stability (items must stay in input order within a bucket) and safety against a data-driven "__proto__" key, which naive plain-object implementations mishandle by mutating the prototype chain. This module accumulates in a Map (safe for every string key, order-preserving) and materialises the result with defineProperty, so it is both stable and pollution-safe; vendor it to inherit a checked partitioner rather than re-auditing another hand-rolled reduce.
 
@@ -16,5 +16,11 @@ Ships `groupBy.ts` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/a5834d2f5d8cfbfc2df3d9bf6234c736fada027587dff9a8cf2e4a6c690ea40a --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/21e5ebc1ce3f410aa00921a9b03f8a107547c44d5c3aa63866a6eef96873581d --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **ECMA-262, 15th edition (June 2024)** — ECMAScript® 2024 Language Specification. [https://262.ecma-international.org/15.0/](https://262.ecma-international.org/15.0/)

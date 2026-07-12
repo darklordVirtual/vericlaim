@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "3GPP"
+  ],
+  "id": "3gpp-ts-23-003",
+  "identifier": "3GPP TS 23.003 (Release 19)",
+  "kind": "specification",
+  "publisher": "3GPP",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines the identifiers used in 3GPP systems, including the International Mobile station Equipment Identity (IMEI): an 8-digit Type Allocation Code, a 6-digit serial number, and a check digit. The check digit is computed over the 14 leading digits using the Luhn formula as defined in Annex B of ISO/IEC 7812, and exists to catch manual transmission errors such as mistyped IMEIs at operator customer-care desks.",
+  "summary_sha256": "bf609f787767c9920ec700c4c2502ea1252c225e86cfb979d5dd3212a537c320",
+  "title": "Numbering, addressing and identification",
+  "url": "https://www.3gpp.org/dynareport/23003.htm",
+  "year": 2025
+}

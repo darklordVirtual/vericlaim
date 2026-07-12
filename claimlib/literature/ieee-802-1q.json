@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "IEEE"
+  ],
+  "id": "ieee-802-1q",
+  "identifier": "IEEE Std 802.1Q-2022",
+  "kind": "standard",
+  "publisher": "IEEE",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies MAC Bridges and VLAN Bridges, including the 802.1Q tag format with its 12-bit VLAN Identifier (VID). Defines the reserved VID values: 0 (the null VID, indicating a priority-tagged frame carrying no VLAN identifier) and 4095 (0xFFF, reserved for implementation use), leaving 1-4094 as valid VLAN IDs with VID 1 as the default PVID. Published December 2022; the current consolidated revision of 802.1Q.",
+  "summary_sha256": "0d0792fcc4f5e6b6cef6fb539a70420bc8d925b0a2740d6ec35d89d0add3511d",
+  "title": "IEEE Standard for Local and Metropolitan Area Networks\u2014Bridges and Bridged Networks",
+  "url": "https://standards.ieee.org/ieee/802.1Q/10323/",
+  "year": 2022
+}

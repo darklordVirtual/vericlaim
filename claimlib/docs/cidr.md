@@ -1,6 +1,6 @@
 # IPv4 CIDR / subnet math
 
-*Subject area: Telecom / IP Address Management. Language: python. Vendorable bundle `04c510ea84c1`.*
+*Subject area: Telecom / IP Address Management. Language: python. Vendorable bundle `50f60fcb6d52`.*
 
 CIDR subnetting is the everyday management-plane task on routers, firewalls and ISP IPAM: given 192.0.2.0/24 decide the network address, the directed broadcast, the mask, how many usable hosts, and whether an address is inside the block -- all of it bit arithmetic on the 32-bit integer. This module implements that arithmetic from scratch (so it carries no dependency) and the claim proves it matches Python's ipaddress across the battery, so you inherit a checked, dependency-free IPv4 calculator rather than a re-implementation to re-audit.
 
@@ -16,5 +16,11 @@ Ships `cidr.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/04c510ea84c1719830f62eeed2daa794c80acaaac361103813c8f7484c3ba0ec --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/50f60fcb6d52c10b9bbdd5ba78ff534b1193a9b07ca3020d8b4e6f57f3753609 --target .
 ```
+
+## References
+
+The standards this module implements, as hash-locked entries in [the claimlib bibliography](../literature/BIBLIOGRAPHY.md):
+
+- **RFC 4632 (BCP 122)** — Classless Inter-domain Routing (CIDR): The Internet Address Assignment and Aggregation Plan. [https://www.rfc-editor.org/info/rfc4632](https://www.rfc-editor.org/info/rfc4632)

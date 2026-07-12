@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "P. Deutsch"
+  ],
+  "id": "rfc-1952",
+  "identifier": "RFC 1952",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies the gzip file format, whose integrity check is the CRC-32 of ISO 3309 / ITU-T V.42. Section 8 gives reference sample code for the table-driven, reflected CRC-32 algorithm: 256-entry table built from polynomial 0xEDB88320, initial value 0xFFFFFFFF, and final XOR with 0xFFFFFFFF. This is the concrete algorithmic reference for the ubiquitous zip/gzip/PNG/Ethernet CRC-32.",
+  "summary_sha256": "3b3fb555e394d363d0dacbf504e202603cf5f866e852e33b5d095469c985fb2f",
+  "title": "GZIP file format specification version 4.3",
+  "url": "https://www.rfc-editor.org/rfc/rfc1952",
+  "year": 1996
+}
