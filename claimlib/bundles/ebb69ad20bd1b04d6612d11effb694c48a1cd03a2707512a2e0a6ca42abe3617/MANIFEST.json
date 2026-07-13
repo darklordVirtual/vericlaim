@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/model_card.json": "51da10b3f1be26f420faf6664b885097d923ee7fb6ca1555108d9ffd28f6dd84",
+    "claim.json": "8be75c1caad5818fc283e048afecfd56a4ce69e0b04a00df89eb8ffffd9bac49",
+    "code/model_card.py": "0ca20b58da9e68b6a5ebc29574216a4adb1834f7c3a2a2a3eceb040e6eb8ee42",
+    "provenance.json": "8a5b9254a68b9ae27f8640b059c15174f7f3eb201de6bd596f87bc211b0cdc2d"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/ipv6.json": "70b7bace94d8eef3eaff60faab1c727dc382f538e9f3639344b93577f61521d7",
+    "claim.json": "42e7be3e7a0062cff3f38a4816dc0882f6c7c5a0fda5e38a477c1964a6b625ee",
+    "code/ipv6.py": "40c258c8e86be50fde0967efc9b3ee6b51b240af5da5be87822187f959710a15",
+    "provenance.json": "7414d53875816cbaca0414bda3c1b5ce2ed3bc4bafdfd7fbfb9fcc7a4e675843"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

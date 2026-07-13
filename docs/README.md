@@ -27,7 +27,7 @@
 
 ## Reference
 - [Configuration & profiles](reference/configuration.md)
-- [Claim schema](claim-register-spec.md) · schema-v2 metric bindings — see [ROADMAP](../ROADMAP.md)
+- [Claim schema](claim-register-spec.md) · [Schema v2 metric bindings](reference/claim-schema-v2.md)
 
 ## Diagrams
 - [Trust boundaries](diagrams/trust-boundaries.md)

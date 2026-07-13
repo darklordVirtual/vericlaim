@@ -1,6 +1,6 @@
 # EU AI Act structure (prohibitions, high-risk areas, tiers)
 
-*Subject area: AI Governance / EU AI Act. Language: python. Vendorable bundle `013d00ac6456`.*
+*Subject area: AI Governance / EU AI Act. Language: python. Vendorable bundle `9daef5a0469e`.*
 
 The EU AI Act is the world's first comprehensive AI regulation: it prohibits eight practices outright (Article 5 — social scoring, untargeted face scraping, workplace emotion inference, ...), regulates high-risk systems in eight Annex III areas (employment, essential services, law enforcement, ...), imposes Article 50 transparency duties, and governs general-purpose AI models with a systemic-risk tier. An enterprise AI inventory needs exactly this map to triage systems. This module encodes the verified structure with fail-closed screening; the claim proves the encoded shape matches the OJ text, so a governance tool inherits a checked skeleton of the law.
 
@@ -16,7 +16,7 @@ Ships `eu_ai_act.py` into your project, byte-exact, with a generated binding tes
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/013d00ac6456149d103afaf2b8cd2a67c6abe8baf4c55f115cda3e9b86ab7e92 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/9daef5a0469e0cdda0c36752bd9f59b87648bc85493d4c94f5e776e30b7158bd --target .
 ```
 
 ## References

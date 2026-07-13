@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/totp.json": "b910a779b5fb1855fa9a4dcbd02b369fa301fee18a13e2141f8b9c9e69155a4f",
+    "claim.json": "595084f4ba607300ebc9a3b9d768ec01fd0bc02d4b2e8196353c3e0ad09c510d",
+    "code/totp.py": "b8d73d20b60f4a4c3b665fe5534787f18b2453cb202c47c5ca6b8e267c80e014",
+    "provenance.json": "b37717523d232027ca915b137a48220fe20ba110a71a81a337f65bf86ed55c57"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

@@ -1,6 +1,6 @@
 # Expected Calibration Error (ECE/MCE) reliability binning
 
-*Subject area: AI Governance / Model Calibration. Language: python. Vendorable bundle `6040715c222d`.*
+*Subject area: AI Governance / Model Calibration. Language: python. Vendorable bundle `1d49a023fe2e`.*
 
 A model that says '90% confident' should be right about 90% of the time — that property is calibration, and modern networks notoriously lack it (Guo et al. 2017). The standard audit measurement partitions predictions into M equal-width confidence bins and sums the gap between each bin's accuracy and its average confidence, weighted by bin size: ECE. This module computes the bins, ECE and worst-bin MCE in exact arithmetic; the claim proves the numbers against hand computation and an independent re-derivation, so a model-risk review inherits a checked calibration figure.
 
@@ -16,7 +16,7 @@ Ships `calibration_ece.py` into your project, byte-exact, with a generated bindi
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/6040715c222d06d3327b1ce3e3004e8828e7f521a4147caa66553b954a306705 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/1d49a023fe2ec52f6869612fbdbd606bee5921165fab4ec72ff7a4839c9babf0 --target .
 ```
 
 ## References

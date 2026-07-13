@@ -1,6 +1,6 @@
 # EWMA + control-chart limits (Roberts / NIST)
 
-*Subject area: Observability / Statistical Process Control. Language: python. Vendorable bundle `6ae1d50b7929`.*
+*Subject area: Observability / Statistical Process Control. Language: python. Vendorable bundle `6bb0ccc79300`.*
 
 The EWMA z_i = lambda*x_i + (1-lambda)*z_{i-1} weights recent observations geometrically and is both the standard smoother behind latency/utilization dashboards and Roberts' control chart for detecting small process shifts, with limits that widen as sqrt(lambda/(2-lambda)*(1-(1-lambda)^(2i))) toward steady state. This module implements the recursion and the chart limits; the claim proves exact-rational agreement and the published NIST example, so you inherit checked smoothing math for monitoring pipelines.
 
@@ -16,7 +16,7 @@ Ships `ewma.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/6ae1d50b792962013b7308b41c4857eec83eb0dfadc477d53f0b9748f6e1252c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/6bb0ccc79300baeb73c58a29223797720b01b56f6dc663f845a09fd35f870e89 --target .
 ```
 
 ## References

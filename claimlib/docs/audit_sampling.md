@@ -1,6 +1,6 @@
 # Attribute-sampling sample sizes (Poisson)
 
-*Subject area: Audit / Statistical Sampling. Language: python. Vendorable bundle `8d4b99c17dc4`.*
+*Subject area: Audit / Statistical Sampling. Language: python. Vendorable bundle `6db362afdeca`.*
 
 When an auditor tests a control, they need a sample large enough that a clean result gives real assurance. The Poisson (AICPA Audit Guide) method sizes it from a reliability factor R: sample size = ceil(R / tolerable_rate), and after testing, the achieved upper deviation rate is R / sample size -- so a 5% tolerable rate at 95% confidence with zero expected deviations needs 60 items. This module encodes the factors and the arithmetic; the claim proves the factors match their Poisson basis, the sizes match the standard examples, and the plan achieves its tolerable rate, so you inherit a checked sampling calculator rather than a table to re-key.
 
@@ -16,7 +16,7 @@ Ships `audit_sampling.py` into your project, byte-exact, with a generated bindin
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/8d4b99c17dc497c786cc742f9f12195fac8d2fbf7519e9c1c6d5dabebc8d484d --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/6db362afdecac0e10c406ec269c9d02cf6aab60b58fd5a3b8dbd438fa8f94817 --target .
 ```
 
 ## References

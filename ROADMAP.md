@@ -17,11 +17,14 @@ Status: 🟡 partially implemented · ⏳ designed, not built.
   declarative form. Remaining: the root register's examples/domains/library
   claims still use legacy strings — convert them and make `reproduce` pass
   under `--profile strict` repo-wide.
-- 🟡 **Schema v2 (typed structures + explicit metric bindings).** Today metric
-  values are matched against JSON artifacts by key (`check_metrics_match_artifact`).
-  v2 adds explicit bindings — `{value, artifact, pointer, type, unit, comparator}`
-  with JSON Pointer and Decimal-safe comparators (`exact`/`bounded`/`minimum`/…),
-  replacing key-scanning. Design: `docs/reference/claim-schema-v2.md`.
+- ✅ **Schema v2 explicit metric bindings — SHIPPED.** `metric_bindings`
+  pin a metric to `{artifact, pointer, type, unit, comparator, value}` with
+  RFC 6901 JSON Pointer and Decimal-safe comparators
+  (`exact`/`minimum`/`maximum`/`bounded`); bound metrics leave the v1
+  key scan; both parsers accept the shape identically. Dogfooded: all 88
+  claimlib claims and the root register's CLAIM-EX-001 / CLAIM-LIB-INDEX-001.
+  Reference: `docs/reference/claim-schema-v2.md`. Remaining v2 ideas
+  (derived metrics, whole-artifact schema validation) stay open below.
 - ⏳ **Zero-dependency parser contract.** Either (A) a documented restricted YAML
   grammar with exact errors, or (B) a canonical stdlib format (JSON/TOML) with
   YAML as compat import. Required so nested specs parse identically with and

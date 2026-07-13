@@ -1,0 +1,11 @@
+{
+  "files": {
+    "artifacts/usePagination.json": "d422a9cd19a6175c27e7441dce556ea95f7bb28102ebc8f7f2e7ebdb7aa2db4d",
+    "claim.json": "c910c2e63a37672386bb318920789cd3bd66c68fd2c9263d300a1f4d4cc4bd0e",
+    "code/pagination.logic.ts": "de8e36a9fad02b22be09003f556ed2d4a99b89aa47cc909a8a6ca68afad86b1e",
+    "code/usePagination.tsx": "e8f166b396148a92001ed65207a1f5a556e9fc5d1ce9510c7cf45767366eaf93",
+    "provenance.json": "10de20142c4bf7f14b29d13c0c8d0b6acf35d1914fb6df1c3be7474076d11f55"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

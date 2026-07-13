@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/calibration_ece.json": "df8758fb4d81d4ef8fddac95dd67e8466f1be370573d444cf30a3d62a296ab1e",
+    "claim.json": "3e7a3a0b994e9dfa6b7d045b6eeded99572d256418384d47dc4b17455fd3c7d6",
+    "code/calibration_ece.py": "becaa427af8175a82ebd1d3f7d1eb81aa7a840679e67dd4892086d6a4704adda",
+    "provenance.json": "811b07a2a8b5c1744c1ace6834de3c8721d8c94f9e31f357d8393c520d568bb3"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

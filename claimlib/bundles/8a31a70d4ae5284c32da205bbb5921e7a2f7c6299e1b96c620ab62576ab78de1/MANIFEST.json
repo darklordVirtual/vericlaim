@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/base32.json": "19f1a25b018c196b844e8e9156fe44db847ec06f300544f7c5f13df8b855bdaa",
+    "claim.json": "2c95591814106f9ea1b5595f562b03f1526248101d81c20cac8c38af61a1ed3d",
+    "code/base32.py": "905ee21fb382614c8fe3768bd9fa7b38d4fcf79303dbea3afa32aa24b911c073",
+    "provenance.json": "9fec158be9e367838de4a9172bcff35281ca1c2627edf7ec499626f3e983779d"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

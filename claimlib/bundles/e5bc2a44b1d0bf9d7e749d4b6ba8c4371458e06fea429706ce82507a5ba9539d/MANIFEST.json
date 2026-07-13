@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/merkle.json": "b3d3f040f4065039016127ed9763d5450a1a92ae8ae4e4c81fec60bb961d0e33",
+    "claim.json": "94df36c039a2361eeddab30c10234426e9d75a22ec9a2bf0b7f1b08be0619f32",
+    "code/merkle.py": "38ff07bdb698e4a39c2d50c4c33519f8aeaab44683d16135058a077d75b3ef4e",
+    "provenance.json": "d9358505adef348752b6e6a93cb30a2ac1fd9bcd1dab04a0e728c9505d997d1c"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

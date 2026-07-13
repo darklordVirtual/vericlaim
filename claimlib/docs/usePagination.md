@@ -1,6 +1,6 @@
 # usePagination React hook
 
-*Subject area: React / UI State. Language: react. Vendorable bundle `4d50be79a57f`.*
+*Subject area: React / UI State. Language: react. Vendorable bundle `a36c182d7bd7`.*
 
 A huge share of React bugs live in state logic, not markup. The effective pattern is to put the logic in a pure, framework-agnostic function and make the hook a thin binding — so the hard part is unit-testable without a DOM. usePagination does exactly that: pagination.logic.ts computes the clamped page, slice indices and prev/next flags, and usePagination.tsx wraps it in useState/useMemo. Vendor both; the claim proves the core is correct, so you inherit checked pagination state rather than re-deriving off-by-one slice math in every project.
 
@@ -16,5 +16,5 @@ Ships `usePagination.tsx`, `pagination.logic.ts` into your project, byte-exact, 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/4d50be79a57f56d08bb1ca41e6965be180f3deceb500f5fe77e71a9877724bbe --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/a36c182d7bd770de0b5c8c278c4d8b40c8bba06362fd7febf84ca026793bff51 --target .
 ```

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/dp_composition.json": "36923f2f54f2a236418177aa57d3b5e1fa9775db33760b800d164ab3424b765d",
+    "claim.json": "5fbbfd2351e1ad60d5662f1b0dcfc90d60dc1f45bda44b3c2c97b7230d5132ce",
+    "code/dp_composition.py": "b41f2246b281139eff61818a7bbc49a8a90ef4ff6bbb7b74fdf1131f111e3fc3",
+    "provenance.json": "9dce9cc80fa8b7e6d0d2b711de8bfd6f5a6825854348736bbe4cd3fdbed19e60"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/uuid_tools.json": "92eb464209c43c20ec4b16e789c1bfe288c3a1a8c9ee3c0771279c14fa1d7516",
+    "claim.json": "47f4bec222a0bf2cd9126fd68e06c9bdec46e195c09d4d518a3d8f4dd0b59e75",
+    "code/uuid_tools.py": "c348ddb7bd664ea7a0a2eb9218d69198acf0584e9ba4ec8431ef2953f0019a78",
+    "provenance.json": "d213f270e326c904cf97809fad553386b44c2e89283b74ea015767d456662dfb"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

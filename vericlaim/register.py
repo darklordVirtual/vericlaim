@@ -278,3 +278,26 @@ def _validate_claim_shapes(claims: list) -> None:
         if isinstance(lit, list) and not all(isinstance(e, dict) for e in lit):
             raise RegisterError(
                 f"{label}: every `literature` entry must be a mapping")
+        mb = c.get("metric_bindings")
+        if mb is not None:
+            if not isinstance(mb, list):
+                raise RegisterError(
+                    f"{label}: `metric_bindings` must be a list of mappings, "
+                    f"got {type(mb).__name__}")
+            for j, b in enumerate(mb):
+                if not isinstance(b, dict):
+                    raise RegisterError(
+                        f"{label}: metric_bindings[{j}] must be a mapping, "
+                        f"got {type(b).__name__}")
+                for req in ("metric", "pointer"):
+                    # pointer "" is legal RFC 6901 (the whole document);
+                    # both fields must simply BE strings.
+                    if not isinstance(b.get(req), str):
+                        raise RegisterError(
+                            f"{label}: metric_bindings[{j}].{req} must "
+                            f"be a string")
+                for opt in ("artifact", "type", "unit", "comparator"):
+                    if opt in b and not isinstance(b[opt], str):
+                        raise RegisterError(
+                            f"{label}: metric_bindings[{j}].{opt} must be "
+                            f"a string")

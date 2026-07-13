@@ -77,6 +77,21 @@ claims:
   holds), and — when `require_provenance` is on — a claim with a reproduce
   command must carry a provenance sidecar for each artifact
   (source-file-only claims are exempt).
+- **metric_bindings** — schema v2: pin a metric to its EXACT location in an
+  artifact with a typed, Decimal-safe comparison (`exact` / `minimum` /
+  `maximum` / `bounded`), closing the v1 limitation that an identically-named
+  key anywhere in the JSON tree can satisfy the metric check. A bound metric
+  is exempt from the v1 scan. Full reference:
+  [`reference/claim-schema-v2.md`](reference/claim-schema-v2.md).
+
+  ```yaml
+  metric_bindings:
+    - metric: p95_ms
+      pointer: /latency/p95_ms      # RFC 6901
+      type: number
+      comparator: maximum           # artifact must be <= register value
+  ```
+
 - **literature** — hash-verified external sources supporting the claim's
   context:
 

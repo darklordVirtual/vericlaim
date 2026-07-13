@@ -46,6 +46,7 @@ from pathlib import Path
 
 from .config import Config
 from .pathsafe import PathSafetyError, safe_join
+from .binding import bound_metric_names, check_metric_bindings
 from .register import RegisterError, load_register
 
 ANCHOR_RE = re.compile(r"<!--\s*claim:([A-Za-z0-9_.-]+)((?:\s+[A-Za-z0-9_.-]+)+)\s*-->")
@@ -490,7 +491,10 @@ def check_metrics_match_artifact(claims: list[dict], cfg: Config) -> list[Findin
             _collect_json_values(data, index)
         if not loaded_any:
             continue
+        bound = bound_metric_names(c)
         for key, mval in metrics.items():
+            if key in bound:
+                continue  # an explicit schema-v2 binding is strictly stronger
             if key not in index:
                 if cfg.profile in ("strict", "enterprise"):
                     out.append((
@@ -871,6 +875,7 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
     findings += check_manifest(cfg, notes)
     findings += check_manifest_coverage(claims, cfg)
     findings += check_metrics_match_artifact(claims, cfg)
+    findings += check_metric_bindings(claims, cfg)
     docs = _doc_paths(cfg)
     for doc in docs:
         text = doc.read_text(encoding="utf-8", errors="replace")
