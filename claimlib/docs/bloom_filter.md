@@ -1,6 +1,6 @@
 # Bloom filter (no false negatives + exact FP analysis)
 
-*Subject area: Data Structures / Probabilistic Sets. Language: python. Vendorable bundle `69554ebc1cf2`.*
+*Subject area: Data Structures / Probabilistic Sets. Language: python. Vendorable bundle `d9f9589f4a74`.*
 
 A Bloom filter answers set membership in O(k) with a bit array m bits wide: k hash functions set k bits per insertion, and a query reports 'present' only when all k bits are set -- so absence answers are definitive and presence answers carry a tunable false-positive rate (1-(1-1/m)^(kn))^k. This module implements the filter with SHA-256-derived double hashing plus the exact analysis functions; the claim proves the no-false-negative guarantee and that the analysis math is exact, so you inherit a checked probabilistic set for dedupe, caching and pre-filters.
 
@@ -16,7 +16,7 @@ Ships `bloom_filter.py` into your project, byte-exact, with a generated binding 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/69554ebc1cf2886bff810133a8161193f53d2c5d8f979fe89831f2b31e96a74d --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/d9f9589f4a7452928baa5b0d82143e6afb385980f9c6ce6ea673d2aec2331a66 --target .
 ```
 
 ## References

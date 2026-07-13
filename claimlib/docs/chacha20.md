@@ -1,6 +1,6 @@
 # ChaCha20 stream cipher (RFC 8439) from scratch
 
-*Subject area: Security / Stream Ciphers. Language: python. Vendorable bundle `a6051bcfba30`.*
+*Subject area: Security / Stream Ciphers. Language: python. Vendorable bundle `854b6071b43b`.*
 
 ChaCha20 is the stream cipher used by TLS 1.3, WireGuard and OpenSSH: a 4x4 state of 32-bit words (constants, 256-bit key, counter, 96-bit nonce) run through 20 add-xor-rotate rounds produces a 64-byte keystream block that is XORed with the message; decryption is the same operation. This module implements the RFC 8439 IETF variant from scratch in pure integer arithmetic with fail-closed input checks and counter-overflow rejection; the claim proves it matches the RFC's published vectors byte-for-byte, so you inherit a checked reference implementation rather than one more unaudited copy.
 
@@ -16,7 +16,7 @@ Ships `chacha20.py` into your project, byte-exact, with a generated binding test
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/a6051bcfba309f324701191e83306a85cdf2940f8334c4e8ffbd1f95178e3344 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/854b6071b43bb1be810df186ac60d67ffcdceabd93549a7574e2869d2bb297fe --target .
 ```
 
 ## References

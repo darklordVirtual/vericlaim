@@ -145,7 +145,7 @@ era. The full argument: [`docs/manifesto.md`](docs/manifesto.md) (5-minute read)
 | **Artifact existence** | Every file a claim cites exists — *no claim without an artifact.* |
 | **Path containment** | Artifacts must live inside the repo (no absolute paths, `..`, or symlink escapes); optionally, must be git-tracked. |
 | **Provenance** | Every produced artifact records *how it was made* (script, commit, its own SHA-256), and that recorded hash must still match the file — *no anonymous, no stale number.* |
-| **Register ↔ evidence** | A register metric whose key appears in the claim's JSON artifact must equal the stored value — a mistyped number is caught even when the artifact reproduces byte-for-byte. Under `strict`, a metric absent from the evidence fails too. |
+| **Register ↔ evidence** | A register metric whose key appears in the claim's JSON artifact must equal the stored value — a mistyped number is caught even when the artifact reproduces byte-for-byte. Under `strict`, a metric absent from the evidence fails too. Schema-v2 `metric_bindings` pin a metric to an exact JSON-Pointer location with typed, Decimal-safe comparators. |
 | **Register integrity** | Required fields present, valid evidence level, no duplicate ids. |
 | **Manifest hashes** | Result artifacts match their SHA-256 — a silently edited number is caught — and every reproduce-backed artifact must be listed (no uncovered evidence). |
 | **Doc binding** | Claim anchors tie prose numbers to the register; drift fails the build. |

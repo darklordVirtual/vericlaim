@@ -152,6 +152,19 @@ def reproduce_argv(mod: dict) -> list:
             "--output-dir", "{output_dir}"]
 
 
+def binding_lines(mod: dict, metrics: dict) -> str:
+    """Schema-v2 bindings: every register metric is pinned to its exact
+    top-level location in the artifact with a typed, Decimal-safe comparison —
+    an identically-named key elsewhere in the JSON can never satisfy it."""
+    lines = []
+    for k in mod["register_metrics"]:
+        jtype = "integer" if isinstance(metrics[k], (bool, int)) else "number"
+        lines.append(f"      - metric: {k}")
+        lines.append(f"        pointer: /{k}")
+        lines.append(f"        type: {jtype}")
+    return "\n".join(lines)
+
+
 def register_entry(mod: dict, metrics: dict) -> str:
     cid = mod["claim_id"]
     metric_lines = "\n".join(f"      {k}: {fmt(metrics[k])}"
@@ -166,6 +179,8 @@ def register_entry(mod: dict, metrics: dict) -> str:
       - "{artifact_rel(mod)}"
     metrics:
 {metric_lines}
+    metric_bindings:
+{binding_lines(mod, metrics)}
     caveat: >
 {yaml_block(mod['caveat'], "      ")}
     reproduce_argv:

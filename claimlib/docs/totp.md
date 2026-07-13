@@ -1,6 +1,6 @@
 # TOTP one-time passwords (RFC 6238)
 
-*Subject area: Security / Authentication (2FA). Language: python. Vendorable bundle `51e9179ce2b4`.*
+*Subject area: Security / Authentication (2FA). Language: python. Vendorable bundle `c0eafbc6864f`.*
 
 TOTP (RFC 6238) is HOTP with the counter replaced by the current time divided into fixed steps (usually 30 s), so the code rotates automatically without a stored counter -- the '6-digit code' in Google Authenticator, Authy, and most 2FA. The verifier recomputes the expected code for the current window (often allowing one step of clock skew) and compares. This module computes TOTP with selectable digest and digit count; the claim proves it reproduces the official RFC 6238 vectors, so you inherit a checked TOTP generator rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `totp.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/51e9179ce2b46205a31320b3410d55d3ce2ae0886265a105dca99f34ce287193 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/c0eafbc6864fd8a6a5a49a0d10c67ff0e9f20d86698877f41f774813598b1024 --target .
 ```
 
 ## References

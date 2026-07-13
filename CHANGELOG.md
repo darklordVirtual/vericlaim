@@ -6,6 +6,26 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 
 ## [Unreleased] — gold-standard lift
 
+### Added — schema v2 metric bindings (`vericlaim/binding.py`)
+- **Explicit, typed, Decimal-safe metric bindings**: `metric_bindings` pin a
+  register metric to an exact RFC 6901 JSON-Pointer location in a named
+  artifact, with `type` (number/integer/string/boolean — booleans are never
+  numbers) and comparators `exact` / `minimum` / `maximum` / `bounded`
+  (+`tolerance`). Artifact JSON is parsed with `parse_float=Decimal` and
+  register values via `Decimal(str(v))`, so comparisons are exact decimal
+  arithmetic — closing the v1 limitation where an identically-named key
+  anywhere in the JSON tree could satisfy the metric check. Bound metrics
+  leave the v1 scan; every binding failure mode is a finding (pointer
+  missing, type mismatch, ambiguous/unclaimed/unreadable artifact, missing
+  tolerance, unknown comparator), and structurally malformed bindings raise
+  `RegisterError` at load. The list-of-flat-maps YAML shape parses
+  identically under the bundled parser and PyYAML.
+- **Dogfooded end to end**: claimlib's build emits a binding for every
+  register metric of all 88 modules (386 pointer bindings verified by the
+  gate), and the root register binds CLAIM-EX-001 and CLAIM-LIB-INDEX-001.
+  Reference doc: `docs/reference/claim-schema-v2.md`; 30 adversarial tests
+  including the decoy-key attack the binding exists to stop.
+
 ### Security — fail-closed hardening (external review P0/high findings)
 - **Declarative reproduce is no longer exempt from provenance or manifest
   coverage** (P0): `check_provenance` and `check_manifest_coverage` keyed on

@@ -1,6 +1,6 @@
 # PBKDF2 key derivation (RFC 8018)
 
-*Subject area: Security / Password Hashing. Language: python. Vendorable bundle `3e955281ffef`.*
+*Subject area: Security / Password Hashing. Language: python. Vendorable bundle `7ba4cd7ecf2a`.*
 
 PBKDF2 (RFC 8018 / PKCS#5) stretches a password into a cryptographic key by iterating an HMAC PRF thousands of times over the password and a per-user salt, so brute-forcing stolen hashes costs the attacker that same multiplier per guess. It is the classic password-hashing and key-derivation function (WPA2, disk encryption, many app login stores). This module implements the construction from scratch; the claim proves it matches the RFC 6070 vectors and agrees with hashlib.pbkdf2_hmac, so you inherit a checked KDF rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `pbkdf2.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/3e955281ffefc1d784791a750a8bb13d4b4a6c1278fec313bac19e7886ae7b8c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/7ba4cd7ecf2a050285c85498fc33ac2a3dcf2558d8c01bf50c142ed4f3b25b6e --target .
 ```
 
 ## References

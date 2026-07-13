@@ -1,6 +1,6 @@
 # PEM textual encoding (RFC 7468)
 
-*Subject area: Security / TLS & PKI. Language: python. Vendorable bundle `8857aa9bfeff`.*
+*Subject area: Security / TLS & PKI. Language: python. Vendorable bundle `2a6be558d70e`.*
 
 PEM is the ubiquitous text form of TLS material: a certificate or key is DER (binary ASN.1), base64-encoded and wrapped between '-----BEGIN CERTIFICATE-----' and '-----END CERTIFICATE-----' lines so it survives copy-paste and config files. Getting the label matching and 64-column wrapping right matters for interoperability. This module encodes and decodes the envelope with zero dependencies; the claim proves it round-trips DER and matches the stdlib base64, so you inherit a checked codec for handling certs and keys in mTLS tooling rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `pem.py` into your project, byte-exact, with a generated binding test that
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/8857aa9bfeffac6c1dfc7c50d918d99b3459fe0dbacec4e17e6ac97a7cbd55d0 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/2a6be558d70e49e324fcd992ad6d05cdd26acc63a09d7474e15346eef3dc478e --target .
 ```
 
 ## References

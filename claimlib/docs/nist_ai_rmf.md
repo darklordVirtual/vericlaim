@@ -1,6 +1,6 @@
 # NIST AI RMF 1.0 Core taxonomy + coverage
 
-*Subject area: AI Governance / NIST AI RMF. Language: python. Vendorable bundle `28f5a386c967`.*
+*Subject area: AI Governance / NIST AI RMF. Language: python. Vendorable bundle `bab3531a033f`.*
 
 NIST's AI Risk Management Framework is the de facto shared vocabulary for enterprise AI governance programmes: GOVERN builds the organizational structures, MAP contextualizes systems and risks, MEASURE quantifies them, MANAGE acts — 19 categories and 72 subcategories articulating seven characteristics of trustworthy AI. A maturity assessment is at bottom a coverage map over that taxonomy. This module encodes the verified Core with exact coverage scoring; the claim proves the counts match the published framework, so an assessment tool inherits a checked skeleton.
 
@@ -16,7 +16,7 @@ Ships `nist_ai_rmf.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/28f5a386c9675e7dab0b8872e4abd6ef8cd5eac6ae79fdd9d3b35c7b30336925 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/bab3531a033fde01c141af975adc04ee69b7489d42102d3c31d4b3eba1edc23b --target .
 ```
 
 ## References

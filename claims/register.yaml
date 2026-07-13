@@ -57,6 +57,12 @@ claims:
     n: 4
     metrics:
       overall_ratio: 8.0584
+    metric_bindings:
+      - metric: overall_ratio
+        pointer: /overall_ratio
+        type: number
+        unit: ratio
+        comparator: exact
     caveat: >
       Corpus is hand-picked to contain the run structure RLE exploits; this is a
       demonstration of Claim-Oriented Programming, not a general compression
@@ -219,6 +225,31 @@ claims:
       modules_cited: 79
       modules_uncited: 9
       citations_total: 112
+    metric_bindings:
+      - metric: modules_total
+        pointer: /modules_total
+        type: integer
+      - metric: modules_python
+        pointer: /modules_python
+        type: integer
+      - metric: modules_typescript
+        pointer: /modules_typescript
+        type: integer
+      - metric: modules_react
+        pointer: /modules_react
+        type: integer
+      - metric: literature_works
+        pointer: /literature_works
+        type: integer
+      - metric: modules_cited
+        pointer: /modules_cited
+        type: integer
+      - metric: modules_uncited
+        pointer: /modules_uncited
+        type: integer
+      - metric: citations_total
+        pointer: /citations_total
+        type: integer
     caveat: >
       Counts are computed from MODULES.py and SOURCES.py — the same inputs
       claimlib/build_literature.py validates (every reference must resolve,

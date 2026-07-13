@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/iban.json": "2ed143ff81d78fa3b576843870f2c899d4c5e16b0a3983fd9377cd6032c07383",
+    "claim.json": "bfe34ef7f45f1b0f4eb5fcb43ff496515b98c2b6924f955a0a569f390358b38a",
+    "code/iban.py": "60e2d194982c596961ee821e3753ba2798dbb06ef9411b4994f3073a2303f65c",
+    "provenance.json": "0ff786f98ce10aa9cdfcbebfab361ca0ec9ea992510323d777141ac6ca2c5da7"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/crc32.json": "f57393a9c4b7523fe69ea94b09f124019fc9d730fa29219d695bab6cacd18c51",
+    "claim.json": "34c1984d839549bcb097547ae9b8c4b987b72e227099e59bb7ba07e3ba24297a",
+    "code/crc32.py": "896ef8ee16ad78be6df462edc948aac0aa59a3257ef4fa32f469c07f257aabd0",
+    "provenance.json": "190f13f4f9124ec6c08bba478a6c52193ab7c9a0e77e5dbaf0c62096f9e6c0d1"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}
