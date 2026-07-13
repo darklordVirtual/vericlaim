@@ -51,7 +51,8 @@ def main() -> int:
         "per_file": per_file,
     }
     out = Path(__file__).resolve().parent / "artifacts" / "rle_bench.json"
-    out.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
+    out.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8",
+                   newline="\n")
     from vericlaim.provenance import stamp
     stamp(out, script="python3 examples/rle/bench.py")
     print(f"[OK] wrote {out}")

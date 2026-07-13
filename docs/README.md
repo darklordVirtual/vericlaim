@@ -5,6 +5,7 @@
 ## Core concepts
 - [Manifesto](manifesto.md) — the method and its lineage
 - [Getting started](getting-started.md)
+- [Cookbook](claim-oriented-cookbook.md) — recipes for common claim shapes
 - [Evidence levels](evidence-levels.md) — the ladder and which rungs this repo uses
 - [Claim register spec](claim-register-spec.md)
 

@@ -20,8 +20,8 @@ sequenceDiagram
     CLI->>R: run_declarative(spec)
     R->>FS: create EMPTY output dir
     R->>R: substitute {output_dir} in argv
-    R->>P: Popen(argv), start_new_session
-    Note over P: no shell parsing, own process group
+    R->>P: Popen(argv) in its own process group
+    Note over P: no shell parsing; setsid / CREATE_NEW_PROCESS_GROUP
     P->>FS: write declared outputs
     P-->>R: exit code, stdout/stderr tail
     Note over R: exit != 0 -> FAIL
