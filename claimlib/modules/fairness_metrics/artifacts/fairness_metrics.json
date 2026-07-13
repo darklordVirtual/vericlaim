@@ -1,0 +1,14 @@
+{
+  "checks": 73,
+  "checks_matched": 73,
+  "hand_computed_ok": 10,
+  "mismatches": 0,
+  "module": "fairness_metrics",
+  "perfect_classifier_ok": 1,
+  "property_checks": 60,
+  "property_ok": 60,
+  "reject_cases": 7,
+  "rejects_ok": 7,
+  "schema": "claimlib_evidence_v1",
+  "threshold_ok": 2
+}
