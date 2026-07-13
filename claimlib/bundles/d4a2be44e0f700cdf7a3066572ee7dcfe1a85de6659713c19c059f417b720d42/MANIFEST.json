@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/nis2.json": "d561f706a865414ea85d81241d9242e9163088a12235c8b07b4db8a5545d3245",
+    "claim.json": "e07c75c32192011bade505594ad4f05cf1294c1d6395d652c6b6662f99e59b39",
+    "code/nis2.py": "47305c255f8dc77ad2800b48f4b4cc41ed7685294f4aaf8afafd8d6c57bdaa63",
+    "provenance.json": "451899ad3a5cd95ac4aa2267d30c1b71f2b0b66bbe25194c029d1a8e5137bdd8"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

@@ -1,6 +1,6 @@
 # cx classnames combiner
 
-*Subject area: TypeScript / UI Utilities. Language: typescript. Vendorable bundle `d9e245f28dff`.*
+*Subject area: TypeScript / UI Utilities. Language: typescript. Vendorable bundle `e575d4cbdeb1`.*
 
 A classnames combiner assembles the `class` attribute for a component from a mix of static strings and conditional flags, so you write cx("btn", { active: isActive }, isLarge && "btn-lg") instead of hand-splicing strings and stray spaces. This is the ubiquitous `classnames`/`clsx` pattern: truthy tokens are joined with single spaces and every falsy value is dropped, with nested arrays flattened and object keys included only when their value is truthy. Vendor it to get dependency-free conditional class composition in TypeScript; the claim proves the join/skip/flatten behaviour matches hand-written expected strings, so you inherit a checked utility rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `cx.ts` into your project, byte-exact, with a generated binding test that
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/d9e245f28dff8ae8e4c2da629ff87f6ff3d25c18f7978f8a31636a220297c608 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/e575d4cbdeb17501c5ba0f16e33f553744ea0b59d47a381dcf496cf607ee15be --target .
 ```

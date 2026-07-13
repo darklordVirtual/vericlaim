@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/fairness_metrics.json": "4dbffbcfd8f6aab3373ed0d3e63e3a3e09e73872b36e31db820f810bd86d0801",
+    "claim.json": "ed6eba0c5633ae915decf829ba4582ba1a887c42a9799110b890167bf6109d69",
+    "code/fairness_metrics.py": "9b3eaeef2c10f83eac35b940f2c4e628e8cd824500189fa090e1fbef65b3f008",
+    "provenance.json": "ce95cdb17d4d5d42fb56864fc5a5360673056bf7b74d29dcee21dd7c60ce8154"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

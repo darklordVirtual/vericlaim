@@ -1,0 +1,14 @@
+{
+  "anchors_ok": 11,
+  "articles": 64,
+  "chapters": 9,
+  "checks": 22,
+  "checks_matched": 22,
+  "mismatches": 0,
+  "module": "dora_eu",
+  "partition_ok": 1,
+  "pillars": 5,
+  "reject_cases": 5,
+  "rejects_ok": 5,
+  "schema": "claimlib_evidence_v1"
+}

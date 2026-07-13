@@ -1,0 +1,15 @@
+{
+  "annexes": 13,
+  "articles": 113,
+  "chapters": 13,
+  "checks": 9,
+  "checks_matched": 9,
+  "high_risk_areas": 8,
+  "mismatches": 0,
+  "module": "eu_ai_act",
+  "operative_tiers": 5,
+  "prohibitions": 8,
+  "reject_cases": 5,
+  "rejects_ok": 5,
+  "schema": "claimlib_evidence_v1"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "fairness_metrics.json",
+  "artifact_sha256": "4dbffbcfd8f6aab3373ed0d3e63e3a3e09e73872b36e31db820f810bd86d0801",
+  "script": "python3 claimlib/modules/fairness_metrics/evidence.py",
+  "git_commit": "448a23399beebabfc7e1fb48b7e1fd994e3cd9fe",
+  "generated_at": "2026-07-13T08:26:22.421067+00:00",
+  "produced_by": "claimlib"
+}

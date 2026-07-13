@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "nist_ai_rmf.json",
+  "artifact_sha256": "3b1e40effd97e9b9afe44085d0bab314b3a2e05064311b428fe596b222b6d387",
+  "script": "python3 claimlib/modules/nist_ai_rmf/evidence.py",
+  "git_commit": "60b4f70bee7e75d46ad47b6e0188ffe3d06c1b43",
+  "generated_at": "2026-07-13T08:34:29.423585+00:00",
+  "produced_by": "claimlib"
+}

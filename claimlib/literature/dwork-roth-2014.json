@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Cynthia Dwork",
+    "Aaron Roth"
+  ],
+  "id": "dwork-roth-2014",
+  "identifier": "doi:10.1561/0400000042; Found. Trends Theor. Comput. Sci. Vol. 9, Nos. 3-4 (2014), pp. 211-407",
+  "kind": "book",
+  "publisher": "Foundations and Trends in Theoretical Computer Science, Now Publishers",
+  "schema": "claimlib_literature_v1",
+  "summary": "The standard monograph on differential privacy, covering the definition, the Laplace and exponential mechanisms, and composition theorems. Theorem 3.16 (basic/sequential composition) states that the composition of k mechanisms that are each (\u03b5_i, \u03b4_i)-differentially private is (\u03a3\u03b5_i, \u03a3\u03b4_i)-differentially private; Theorem 3.20 gives the stronger advanced composition bound. The book does not state a parallel composition theorem \u2014 that result (disjoint input subsets yield max_i \u03b5_i privacy) is Theorem 4 of McSherry's PINQ paper (SIGMOD 2009). Published as Foundations and Trends in Theoretical Computer Science Vol. 9, Nos. 3-4, pages 211-407 (2014), DOI 10.1561/0400000042.",
+  "summary_sha256": "80519451444bc3436200b83522875e209fbb1009cb83c15376955418f74420ea",
+  "title": "The Algorithmic Foundations of Differential Privacy",
+  "url": "https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf",
+  "year": 2014
+}

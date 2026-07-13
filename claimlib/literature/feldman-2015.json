@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "Michael Feldman",
+    "Sorelle A. Friedler",
+    "John Moeller",
+    "Carlos Scheidegger",
+    "Suresh Venkatasubramanian"
+  ],
+  "id": "feldman-2015",
+  "identifier": "doi:10.1145/2783258.2783311; KDD '15 pp. 259-268; arXiv:1412.3756",
+  "kind": "paper",
+  "publisher": "Proceedings of the 21st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '15), ACM",
+  "schema": "claimlib_literature_v1",
+  "summary": "Formalizes the legal notion of disparate impact as the '80% rule': a dataset exhibits disparate impact when Pr(C=YES|X=0)/Pr(C=YES|X=1) \u2264 0.8 for protected attribute X, generalizing the EEOC four-fifths rule from the 1978 Uniform Guidelines on Employee Selection Procedures (29 CFR 1607.4(D)). Links disparate impact to the balanced error rate of predicting the protected attribute from the other features, and gives procedures to certify a dataset free of disparate impact and to repair data while preserving rank within groups. Published at KDD 2015.",
+  "summary_sha256": "3998be2b09bf5349c814608fe47ecd5c919906ab36c95dbb61508a67d953aba5",
+  "title": "Certifying and Removing Disparate Impact",
+  "url": "https://doi.org/10.1145/2783258.2783311",
+  "year": 2015
+}

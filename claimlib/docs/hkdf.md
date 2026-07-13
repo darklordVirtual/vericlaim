@@ -1,6 +1,6 @@
 # HKDF key derivation (RFC 5869)
 
-*Subject area: Security / Key Derivation. Language: python. Vendorable bundle `e072185c5457`.*
+*Subject area: Security / Key Derivation. Language: python. Vendorable bundle `e292721b70fb`.*
 
 HKDF (RFC 5869) is the modern key-derivation function used by TLS 1.3, the Signal protocol, and Noise: 'extract' concentrates the entropy of an input keying material into a uniform pseudorandom key PRK = HMAC(salt, IKM), and 'expand' stretches PRK into any number of independent output keys via a counter-chained HMAC, with an info label for domain separation. This module implements both steps; the claim proves it reproduces the official RFC 5869 vectors (including the 82-byte case), so you inherit a checked KDF rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `hkdf.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e072185c5457db32c0fd42201dc4a8ea74bc8206e41780f6ed6ef90f66eddc50 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/e292721b70fb44e9d867cef8b5ffaae41d9592c36586e4a01423d831506c00f0 --target .
 ```
 
 ## References

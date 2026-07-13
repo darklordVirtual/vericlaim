@@ -1,0 +1,12 @@
+{
+  "annex_a_controls": 38,
+  "annex_a_groups": 9,
+  "checks": 14,
+  "checks_matched": 14,
+  "clauses": 7,
+  "mismatches": 0,
+  "module": "iso_42001",
+  "reject_cases": 8,
+  "rejects_ok": 8,
+  "schema": "claimlib_evidence_v1"
+}

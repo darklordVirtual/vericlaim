@@ -1,6 +1,6 @@
 # Weighted MOD-11 check digits (Norwegian orgnr)
 
-*Subject area: Finance / Identifiers & Validation. Language: python. Vendorable bundle `65003a4f00d7`.*
+*Subject area: Finance / Identifiers & Validation. Language: python. Vendorable bundle `eef2fa5e23fc`.*
 
 A weighted MOD-11 check digit is the integrity digit behind Norwegian organisation and bank account numbers, KID payment references, ISBN-10, and many national IDs: multiply each payload digit by a position weight, sum, reduce modulo 11, and take 11 minus that (11 -> 0). Because 11 is prime, every single-digit change alters the weighted sum modulo 11 and is detected -- a stronger guarantee than a plain sum. Vendor this module to validate and generate those identifiers with zero dependencies; the claim proves single-digit errors are caught exhaustively over the tested space, so you inherit a checked check-digit routine rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `mod11.py` into your project, byte-exact, with a generated binding test th
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/65003a4f00d793cd5175e0242e0cf0a5525a3d99e2b8d14ed307026ba60ecece --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/eef2fa5e23fca638ceb323a114f4f2da49c91c3ea8b138f9bb68f8c4563a5d41 --target .
 ```
 
 ## References

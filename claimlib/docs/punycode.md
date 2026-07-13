@@ -1,6 +1,6 @@
 # Punycode (RFC 3492) encode/decode
 
-*Subject area: Telecom / Internationalized DNS (IDNA). Language: python. Vendorable bundle `e1aa3e9ab2ac`.*
+*Subject area: Telecom / Internationalized DNS (IDNA). Language: python. Vendorable bundle `42a81da039dd`.*
 
 Punycode is the Bootstring algorithm instantiated with DNS parameters: it maps any Unicode string to a unique ASCII string (the encoding beneath internationalized domain names' xn-- labels) by emitting the basic code points literally and encoding the positions and values of the rest as generalized-variable-length integers with bias adaptation. This module implements RFC 3492 encode and decode from scratch with the reference implementation's 32-bit overflow ceiling; the claim proves it reproduces every published sample of the RFC in both directions and matches the stdlib's independent implementation, so you inherit a checked IDN building block.
 
@@ -16,7 +16,7 @@ Ships `punycode.py` into your project, byte-exact, with a generated binding test
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e1aa3e9ab2acdf23fbb4077a75717b386f0754dabf938f3945e98b3f3c68832e --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/42a81da039dddefaef30dc0910249f923b24b84363c026f8d98ae6632130994c --target .
 ```
 
 ## References

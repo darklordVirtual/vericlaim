@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "Margaret Mitchell",
+    "Simone Wu",
+    "Andrew Zaldivar",
+    "Parker Barnes",
+    "Lucy Vasserman",
+    "Ben Hutchinson",
+    "Elena Spitzer",
+    "Inioluwa Deborah Raji",
+    "Timnit Gebru"
+  ],
+  "id": "mitchell-2019",
+  "identifier": "doi:10.1145/3287560.3287596; FAT* '19 pp. 220-229; arXiv:1810.03993",
+  "kind": "paper",
+  "publisher": "Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT* '19), ACM",
+  "schema": "claimlib_literature_v1",
+  "summary": "Proposes 'model cards' \u2014 short standardized documents accompanying trained ML models that report benchmarked evaluation across cultural, demographic, phenotypic, and intersectional groups relevant to intended application domains. The framework comprises nine sections: Model Details, Intended Use, Factors, Metrics, Evaluation Data, Training Data, Quantitative Analyses (unitary and intersectional results), Ethical Considerations, and Caveats and Recommendations. Demonstrated with example cards for a smiling-detection image model and a toxic-comment text classifier. Published at ACM FAT* 2019 (now FAccT).",
+  "summary_sha256": "35adf3093c44f744771ad7f6207d34c49cbf2a56aea975273164b1ac3012cca7",
+  "title": "Model Cards for Model Reporting",
+  "url": "https://doi.org/10.1145/3287560.3287596",
+  "year": 2019
+}

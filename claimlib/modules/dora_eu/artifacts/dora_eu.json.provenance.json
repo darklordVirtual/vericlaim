@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "dora_eu.json",
+  "artifact_sha256": "722ca8d3c8429b1b01a3d789a4c78242da0da6c848de1babd6b43dc4bebb6ce8",
+  "script": "python3 claimlib/modules/dora_eu/evidence.py",
+  "git_commit": "60b4f70bee7e75d46ad47b6e0188ffe3d06c1b43",
+  "generated_at": "2026-07-13T08:39:12.534324+00:00",
+  "produced_by": "claimlib"
+}

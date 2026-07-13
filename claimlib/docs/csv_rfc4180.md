@@ -1,6 +1,6 @@
 # RFC 4180 CSV parse + write
 
-*Subject area: Data / Serialization. Language: python. Vendorable bundle `a1ffa6489438`.*
+*Subject area: Data / Serialization. Language: python. Vendorable bundle `d214d8a50592`.*
 
 CSV looks trivial until a field contains a comma, a newline, or a quote -- then you need RFC 4180's quoting rules (wrap the field in double quotes and double any embedded quote), and a hand-rolled str.split(',') silently corrupts the data. This module implements a proper state-machine parser and a quoting writer with zero dependencies; the claim proves the parser agrees with Python's csv module and the writer round-trips, so you inherit a checked codec rather than a split-on-comma bug waiting to happen.
 
@@ -16,7 +16,7 @@ Ships `csv_rfc4180.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/a1ffa6489438126e0b73d973cc5be3c093415b662e202f1f0d99b9c67f159d6a --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/d214d8a50592980e9a307579a1eb501855c891e750bd1bb84657a1d79db4c89f --target .
 ```
 
 ## References

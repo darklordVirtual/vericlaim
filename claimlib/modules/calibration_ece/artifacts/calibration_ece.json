@@ -1,0 +1,13 @@
+{
+  "battery_pairs": 240,
+  "checks": 14,
+  "checks_matched": 14,
+  "hand_computed_ok": 7,
+  "independent_agreement_ok": 3,
+  "mismatches": 0,
+  "module": "calibration_ece",
+  "property_ok": 4,
+  "reject_cases": 8,
+  "rejects_ok": 8,
+  "schema": "claimlib_evidence_v1"
+}

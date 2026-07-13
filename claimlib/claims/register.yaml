@@ -1722,3 +1722,180 @@ claims:
     reproduce_outputs:
       - "modules/mus_sampling/artifacts/mus_sampling.json"
 
+  - id: CLAIM-LIB-FAIRNESS-001
+    statement: >
+      The vendored fairness library passes all 73 checks as exact Fraction equalities with 0 mismatches: 10 hand-computed values on a fixed two-group audit (demographic-parity difference exactly 1/4, disparate-impact ratio exactly 1/2 failing the four-fifths rule, equalized-odds difference exactly 2/5), 60 property checks over a deterministic battery (relabel-invariance, [0,1] bounds, zeros on identical groups), the perfect-classifier equalized-odds zero, and the exact 4/5 threshold boundary.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/fairness_metrics/artifacts/fairness_metrics.json"
+    metrics:
+      checks: 73
+      checks_matched: 73
+      mismatches: 0
+      hand_computed_ok: 10
+      property_ok: 60
+    caveat: >
+      Measurements, not verdicts: which fairness metric matters, at what threshold, over which population is a governance decision, and the metrics can conflict with each other and with calibration (the impossibility results). Rates are computed on the supplied sample; statistical uncertainty, intersectional subgroups and the choice of protected attribute are the caller's responsibility.
+    reproduce_argv:
+      - "python3"
+      - "modules/fairness_metrics/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/fairness_metrics/artifacts/fairness_metrics.json"
+
+  - id: CLAIM-LIB-ECE-001
+    statement: >
+      The vendored calibration library passes all 14 checks as exact Fraction equalities with 0 mismatches: 7 hand-computed values (two predictions at confidence 4/5 with one correct give ECE exactly 3/10; a perfectly calibrated fixture gives exactly 0; the right-closed bin edges place 0.0, 0.1 and 1.0 correctly), agreement with an independent first-principles re-derivation on a 240-pair battery for 5, 10 and 15 bins, and the estimator's bound and permutation-invariance properties.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/calibration_ece/artifacts/calibration_ece.json"
+    metrics:
+      checks: 14
+      checks_matched: 14
+      mismatches: 0
+      independent_agreement_ok: 3
+      battery_pairs: 240
+    caveat: >
+      ECE is an audit statistic, not a guarantee: it depends on the bin count, aggregates away per-class and per-slice effects, and a low ECE does not imply correct individual probabilities. Float confidences are converted to exact rationals via limit_denominator(1e12); the binning follows Guo et al.'s right-closed convention ((m-1)/M, m/M] with 0.0 in the first bin.
+    reproduce_argv:
+      - "python3"
+      - "modules/calibration_ece/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/calibration_ece/artifacts/calibration_ece.json"
+
+  - id: CLAIM-LIB-DP-001
+    statement: >
+      The vendored DP-composition library passes all 49 checks as exact Fraction identities with 0 mismatches: 4 hand-computed compositions (0.5 and 0.25 compose sequentially to exactly 3/4 and in parallel to exactly 1/2), 40 theorem-shaped properties over a deterministic ledger battery (sequential additivity and permutation-invariance, parallel-equals-max never exceeding sequential, group privacy exactly k*epsilon), and 5 fail-closed accountant checks including refusal of a 1/10^12 overspend with the ledger state unchanged.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/dp_composition/artifacts/dp_composition.json"
+    metrics:
+      checks: 49
+      checks_matched: 49
+      mismatches: 0
+      property_ok: 40
+      accountant_ok: 5
+    caveat: >
+      The BASIC composition bounds (Dwork-Roth Theorems 3.16 and parallel/McSherry): tight in the worst case but pessimistic for many mechanisms — advanced composition, RDP and zCDP accountants give smaller epsilons and are out of scope. Parallel composition is sound only when the caller guarantees disjoint data partitions, which the function cannot check. Epsilons say nothing about whether the underlying mechanism actually implements its claimed noise.
+    reproduce_argv:
+      - "python3"
+      - "modules/dp_composition/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/dp_composition/artifacts/dp_composition.json"
+
+  - id: CLAIM-LIB-AI-ACT-001
+    statement: >
+      The vendored AI Act library passes all 9 checks with 0 mismatches: the encoded structure matches the final OJ text of Regulation (EU) 2024/1689 — 13 chapters, 113 articles, 13 annexes, exactly eight Article 5(1) prohibited practices (a)-(h) and exactly eight Annex III high-risk areas — the five operative tiers are anchored to their chapters/articles, membership logic is exact, screening verdicts fail on any prohibition hit, and coverage percentages match exact Fraction arithmetic.
+    evidence_level: measured
+    artifact:
+      - "modules/eu_ai_act/artifacts/eu_ai_act.json"
+    metrics:
+      checks: 9
+      checks_matched: 9
+      mismatches: 0
+      prohibitions: 8
+      high_risk_areas: 8
+      articles: 113
+    caveat: >
+      An encoding of the enacted text's structure, verified against CELEX 32024R1689 — not legal advice: Annex III areas carry conditions and exceptions in the full text, classification of a real system belongs to counsel, and the popular 'unacceptable/limited/minimal risk' pyramid labels are Commission-communication vocabulary, not the Regulation's operative terms ('minimal risk' does not occur in the enacted text). Staged application dates and Level 2 acts are not encoded.
+    reproduce_argv:
+      - "python3"
+      - "modules/eu_ai_act/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/eu_ai_act/artifacts/eu_ai_act.json"
+
+  - id: CLAIM-LIB-AI-RMF-001
+    statement: >
+      The vendored AI RMF library passes all 18 checks with 0 mismatches: the encoded Core matches NIST AI 100-1 — four functions (GOVERN, MAP, MEASURE, MANAGE) with published category counts 6/5/4/4 totalling 19 and subcategory counts 19/18/22/13 totalling 72, plus the seven characteristics of trustworthy AI — and per-function coverage on three fixed programmes matches exact Fraction arithmetic.
+    evidence_level: measured
+    artifact:
+      - "modules/nist_ai_rmf/artifacts/nist_ai_rmf.json"
+    metrics:
+      checks: 18
+      checks_matched: 18
+      mismatches: 0
+      categories_total: 19
+      subcategories_total: 72
+    caveat: >
+      Encodes the framework's SHAPE (functions, category identifiers and counts), not the category prose — pair it with the NIST AI RMF Playbook for actionable text. The RMF is voluntary and outcome-oriented; coverage of a category is the caller's declaration, not an assessment of adequacy, and subcategory-level tracking is not included.
+    reproduce_argv:
+      - "python3"
+      - "modules/nist_ai_rmf/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/nist_ai_rmf/artifacts/nist_ai_rmf.json"
+
+  - id: CLAIM-LIB-ISO-42001-001
+    statement: >
+      The vendored AIMS library passes all 14 checks with 0 mismatches: the encoded structure matches ISO/IEC 42001:2023 — management-system clauses 4-10 with their official titles and normative Annex A's 38 controls in 9 control objectives (A.2-A.10), with per-group counts (3/2/5/4/9/5/4/3/3) matching two independent identifier-level listings — and Statement-of-Applicability accounting is Fraction-exact and fail-closed (a group cannot declare more controls applicable than it contains).
+    evidence_level: measured
+    artifact:
+      - "modules/iso_42001/artifacts/iso_42001.json"
+    metrics:
+      checks: 14
+      checks_matched: 14
+      mismatches: 0
+      annex_a_controls: 38
+      annex_a_groups: 9
+    caveat: >
+      Encodes the standard's structure (clause titles, objective names, control counts), not its licensed control text — buy the standard for the prose. Clause and annex titles were verified against the standard's own table of contents; the per-group control counts come from two agreeing identifier-level secondary listings, not the paywalled text itself. SoA scoring reports a declaration; certification requires an accredited audit.
+    reproduce_argv:
+      - "python3"
+      - "modules/iso_42001/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/iso_42001/artifacts/iso_42001.json"
+
+  - id: CLAIM-LIB-DORA-001
+    statement: >
+      The vendored DORA library passes all 22 checks with 0 mismatches: the encoded 9 chapter ranges PARTITION the Regulation's 64 articles exactly (verified article-by-article), 11 anchor articles resolve to their chapters, the five resilience pillars (ICT risk management, incident reporting, resilience testing, third-party risk, information sharing) carry their official chapter titles and map to chapters II-VI, and pillar coverage matches exact Fraction arithmetic.
+    evidence_level: measured
+    artifact:
+      - "modules/dora_eu/artifacts/dora_eu.json"
+    metrics:
+      checks: 22
+      checks_matched: 22
+      mismatches: 0
+      articles: 64
+      chapters: 9
+      pillars: 5
+    caveat: >
+      An encoding of Regulation (EU) 2022/2554's published structure, verified against CELEX 32022R2554 — not legal advice. DORA's Level 2 technical standards (RTS/ITS) add binding detail not encoded here; which entities are in scope (Art. 2) and proportionality carve-outs are the caller's analysis. Pillar coverage reports a declaration, not supervisory compliance.
+    reproduce_argv:
+      - "python3"
+      - "modules/dora_eu/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/dora_eu/artifacts/dora_eu.json"
+
+  - id: CLAIM-LIB-MODEL-CARD-001
+    statement: >
+      The vendored model-card library passes all 8 checks with 0 mismatches: the encoded section taxonomy matches the nine sections of Mitchell et al.'s FAT* 2019 paper verbatim (Model Details through Caveats and Recommendations), and completeness scoring is Fraction-exact on full, empty and partial cards — whitespace-only sections count as empty and unknown section names fail closed rather than silently scoring as gaps.
+    evidence_level: measured
+    artifact:
+      - "modules/model_card/artifacts/model_card.json"
+    metrics:
+      checks: 8
+      checks_matched: 8
+      mismatches: 0
+      sections: 9
+    caveat: >
+      Structural completeness only: a present section can still be vacuous prose, so 100% means 'all nine sections present and non-empty', never 'adequately disclosed'. The taxonomy is the paper's proposal — ecosystem model cards (e.g. Hugging Face's) extend or rename sections, and mapping those onto the paper's nine is the caller's decision.
+    reproduce_argv:
+      - "python3"
+      - "modules/model_card/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/model_card/artifacts/model_card.json"
+

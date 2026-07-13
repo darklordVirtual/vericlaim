@@ -1,11 +1,11 @@
 {
   "schema": "claimlib_index_v1",
-  "modules_total": 80,
-  "modules_python": 68,
+  "modules_total": 88,
+  "modules_python": 76,
   "modules_typescript": 7,
   "modules_react": 5,
-  "literature_works": 94,
-  "modules_cited": 71,
+  "literature_works": 103,
+  "modules_cited": 79,
   "modules_uncited": 9,
-  "citations_total": 103
+  "citations_total": 112
 }

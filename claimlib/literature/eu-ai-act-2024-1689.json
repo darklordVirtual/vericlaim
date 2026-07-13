@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "European Parliament",
+    "Council of the European Union"
+  ],
+  "id": "eu-ai-act-2024-1689",
+  "identifier": "OJ L, 2024/1689, 12.7.2024; CELEX: 32024R1689; ELI: http://data.europa.eu/eli/reg/2024/1689/oj",
+  "kind": "regulation",
+  "publisher": "Official Journal of the European Union (Publications Office of the European Union)",
+  "schema": "claimlib_literature_v1",
+  "summary": "The EU Artificial Intelligence Act lays down harmonised rules for AI in the Union: it prohibits eight AI practices (Article 5(1)(a)-(h)), regulates high-risk AI systems (Article 6, Annex III's eight areas), sets transparency obligations for certain AI systems (Article 50), and governs general-purpose AI models including a systemic-risk subcategory (Article 51). The final OJ text comprises 13 chapters, 113 articles and 13 annexes. Adopted 13 June 2024 and published in OJ L on 12 July 2024, it entered into force on 1 August 2024 and applies in stages: Chapters I-II from 2 February 2025; GPAI, governance and penalties provisions from 2 August 2025; general application from 2 August 2026; Article 6(1) from 2 August 2027.",
+  "summary_sha256": "128cca68973028be52d152452baf581ff88e6a5b0e6b4c0c3088cb68fb3de148",
+  "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+  "year": 2024
+}

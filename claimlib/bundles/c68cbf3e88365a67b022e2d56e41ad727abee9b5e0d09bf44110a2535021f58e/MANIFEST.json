@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/kid.json": "5dab0610a392440d6181097cd1d44a04d27fb6df7369dca69d37bc713d7c0d4e",
+    "claim.json": "e84fed45f58e657de6271b260b0dfc0f7182ec9f2e81e9833b4c54ecf505dac6",
+    "code/kid.py": "32c6e5680d348a9f42b09480dc7946f8fe170592e2646c2a3eba57f01c4bce0c",
+    "provenance.json": "590eee2c0c5bc3728f085a3df0fcbdc7f830f80a9b1abf5ce72b2e3ffb22d457"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

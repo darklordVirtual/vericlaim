@@ -1,0 +1,10 @@
+{
+  "checks": 8,
+  "checks_matched": 8,
+  "mismatches": 0,
+  "module": "model_card",
+  "reject_cases": 4,
+  "rejects_ok": 4,
+  "schema": "claimlib_evidence_v1",
+  "sections": 9
+}

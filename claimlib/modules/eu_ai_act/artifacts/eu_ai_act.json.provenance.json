@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "eu_ai_act.json",
+  "artifact_sha256": "5e0a8ab1ea0d7a5128a9f59d58581093e4cc5e1455476288acdcbd6bb7dc01b0",
+  "script": "python3 claimlib/modules/eu_ai_act/evidence.py",
+  "git_commit": "60b4f70bee7e75d46ad47b6e0188ffe3d06c1b43",
+  "generated_at": "2026-07-13T08:33:10.371020+00:00",
+  "produced_by": "claimlib"
+}

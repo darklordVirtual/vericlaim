@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "European Parliament",
+    "Council of the European Union"
+  ],
+  "id": "eu-dora-2022-2554",
+  "identifier": "CELEX:32022R2554; OJ L 333, 27.12.2022, p. 1-79; ELI: http://data.europa.eu/eli/reg/2022/2554/oj",
+  "kind": "regulation",
+  "publisher": "Official Journal of the European Union (Publications Office of the European Union)",
+  "schema": "claimlib_literature_v1",
+  "summary": "DORA establishes uniform requirements for the digital operational resilience of the EU financial sector across five requirement areas: ICT risk management (Ch. II), ICT-related incident management, classification and reporting (Ch. III), digital operational resilience testing (Ch. IV), managing of ICT third-party risk including an Oversight Framework for critical ICT third-party service providers (Ch. V), and information-sharing arrangements (Ch. VI). The regulation comprises 9 chapters and 64 articles and applies to 21 entity types enumerated in Article 2(1)(a)-(u), of which points (a)-(t) are collectively defined as 'financial entities'. Adopted 14 December 2022, published in OJ L 333 on 27 December 2022, it entered into force on 16 January 2023 and applies from 17 January 2025.",
+  "summary_sha256": "0455cf404139c8e27ac2f6cab2681cf5be79bcf23942697a24fd1e25ae94cf92",
+  "title": "Regulation (EU) 2022/2554 (Digital Operational Resilience Act, DORA)",
+  "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+  "year": 2022
+}

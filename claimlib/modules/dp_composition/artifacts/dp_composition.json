@@ -1,0 +1,13 @@
+{
+  "accountant_ok": 5,
+  "checks": 49,
+  "checks_matched": 49,
+  "hand_computed_ok": 4,
+  "mismatches": 0,
+  "module": "dp_composition",
+  "property_checks": 40,
+  "property_ok": 40,
+  "reject_cases": 9,
+  "rejects_ok": 9,
+  "schema": "claimlib_evidence_v1"
+}
