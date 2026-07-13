@@ -98,6 +98,18 @@ def reproduce(cfg: Config, *, quiet: bool = False) -> int:
         except ReproError as exc:
             failures.append(f"{c.get('id', '?')}: {exc}")
             continue
+        # A declarative spec must reproduce EXACTLY the claim's artifacts —
+        # otherwise "reproduce passed" could mean an unrelated file was
+        # regenerated while the claimed evidence was never produced at all.
+        if not spec.is_legacy and set(spec.outputs) != set(arts):
+            missing = sorted(set(arts) - set(spec.outputs))
+            extra = sorted(set(spec.outputs) - set(arts))
+            failures.append(
+                f"{c.get('id', '?')}: reproduce_outputs must equal the "
+                f"claim's artifact list"
+                + (f" — not reproduced: {missing}" if missing else "")
+                + (f" — not claimed: {extra}" if extra else ""))
+            continue
         if spec.is_legacy:
             # Group identical legacy commands so a shared producer runs once.
             legacy_by_cmd.setdefault(spec.legacy_shell, [])

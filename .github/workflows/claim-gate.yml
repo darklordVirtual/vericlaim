@@ -47,6 +47,30 @@ jobs:
       - name: Lint
         run: ruff check .
 
+  gate-windows:
+    # The gate's byte-exactness promises (LF artifacts, provenance hashes,
+    # pathsafe backslash/drive rules, process-group kill) have Windows-specific
+    # code paths — exercise them on a real Windows runner, not just Ubuntu.
+    name: Gate + tests (Windows, py 3.12)
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5.3.0
+        with:
+          python-version: "3.12"
+      - name: Install (package + pinned dev toolchain)
+        run: |
+          python -m pip install -e .
+          python -m pip install -r .github/requirements-ci.txt
+      - name: Claim gate
+        run: python -m vericlaim
+      - name: Claim gate (claimlib)
+        run: python -m vericlaim --root claimlib
+      - name: Tests
+        run: pytest -q
+      - name: Claimlib tests
+        run: pytest claimlib/tests -q
+
   reproduce:
     name: Reproduce oracle (every number still true today)
     runs-on: ubuntu-latest

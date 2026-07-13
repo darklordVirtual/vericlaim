@@ -95,7 +95,9 @@ in `claims/baseline.json` so they report as WARN, not FAIL:
 }
 ```
 
-New violations still fail. The gate also tells you when a baseline entry no
+New violations still fail — including a NEW occurrence of an already-
+baselined problem (an entry grandfathers exactly `count` occurrences of
+its `error_id`, default 1). The gate also tells you when a baseline entry no
 longer occurs, so you can delete it.
 
 ## 6. Wire it into CI

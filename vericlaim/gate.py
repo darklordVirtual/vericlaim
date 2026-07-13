@@ -192,6 +192,16 @@ def _is_git_tracked(cfg: Config, rel: str) -> bool:
         return False
 
 
+def _has_reproduce(c: dict) -> bool:
+    """True when the claim declares ANY reproduction — the declarative
+    `reproduce_argv` form or the legacy `reproduce` string. Every check that
+    treats 'reproducible claim' as a category must use this: keying on the
+    legacy field alone silently exempts the recommended declarative form
+    (the only one strict/enterprise accept) from provenance and manifest
+    coverage."""
+    return bool(c.get("reproduce") or c.get("reproduce_argv"))
+
+
 def check_provenance(claims: list[dict], cfg: Config) -> list[Finding]:
     """When require_provenance is on, every artifact must carry a provenance
     sidecar recording how it was produced (script + commit)."""
@@ -203,9 +213,9 @@ def check_provenance(claims: list[dict], cfg: Config) -> list[Finding]:
     for c in claims:
         cid = c.get("id", "<missing-id>")
         # Provenance applies to *produced* evidence — artifacts a script
-        # regenerates. A claim backed by static source files (no `reproduce`
-        # command) is a structural fact, not a produced number, and is exempt.
-        if not c.get("reproduce"):
+        # regenerates. A claim backed by static source files (no reproduction
+        # of either form) is a structural fact, not a produced number, exempt.
+        if not _has_reproduce(c):
             continue
         arts = c.get("artifact") or []
         if isinstance(arts, str):
@@ -316,9 +326,15 @@ def check_literature(claims: list[dict], cfg: Config) -> list[Finding]:
 def check_manifest(cfg: Config, notes: list[str]) -> list[Finding]:
     out: list[Finding] = []
     if not cfg.manifest:
-        return out
+        return out  # explicitly disabled — the only silent-off state
     mpath = cfg.path(cfg.manifest)
     if not mpath.exists():
+        # Configured but absent must FAIL: deleting the manifest would
+        # otherwise switch the SHA-256 check off without a finding.
+        out.append((f"manifest-missing:{cfg.manifest}",
+                    f"manifest {cfg.manifest} is configured but does not "
+                    f"exist — deleting it must not silently disable hash "
+                    f"verification (set manifest to nothing to opt out)"))
         return out
     for n, line in enumerate(mpath.read_text(encoding="utf-8").splitlines(), 1):
         row = MANIFEST_ROW_RE.match(line)
@@ -378,11 +394,22 @@ def check_manifest_coverage(claims: list[dict], cfg: Config) -> list[Finding]:
     job would catch it, but only when it runs (and with deploy-level trust).
     Manifest coverage makes tamper-detection a property of the fast gate too."""
     out: list[Finding] = []
-    if not cfg.manifest or not cfg.path(cfg.manifest).exists():
+    if not cfg.manifest:
+        # strict/enterprise refuse to run reproducible claims without a
+        # manifest at all — tamper detection must be a fast-gate property.
+        if cfg.profile in ("strict", "enterprise") and \
+                any(_has_reproduce(c) for c in claims):
+            out.append((f"manifest-required:{cfg.profile}",
+                        f"profile '{cfg.profile}' requires an artifact "
+                        f"manifest when claims are reproducible — configure "
+                        f"`manifest` in vericlaim.toml"))
+        return out
+    if not cfg.path(cfg.manifest).exists():
+        # check_manifest already reports the missing file; don't double up.
         return out
     manifested = _manifest_paths(cfg)
     for c in claims:
-        if not c.get("reproduce"):
+        if not _has_reproduce(c):
             continue
         arts = c.get("artifact", [])
         if isinstance(arts, str):
@@ -423,8 +450,14 @@ def check_metrics_match_artifact(claims: list[dict], cfg: Config) -> list[Findin
     is the value the artifact JSON records. A mistyped metric could bind the
     docs, reproduce byte-identically, and pass green — the one edge left to
     human trust. This closes it: for every JSON artifact, a metric whose key
-    appears in the artifact must equal a value stored under that key. Keys not
-    present in the artifact are skipped (they may be doc-only aggregates).
+    appears in the artifact must equal a value stored under that key.
+
+    Keys not present in the artifact are skipped under `adopt` (they may be
+    doc-only aggregates over non-JSON evidence) but FAIL under strict/
+    enterprise: there, every registered metric must be establishable from the
+    evidence. Honest limit, both profiles: keys are matched anywhere in the
+    JSON tree, so an identically-named key elsewhere can satisfy the check —
+    schema v2's explicit JSON-Pointer bindings (see ROADMAP) close that.
     """
     out: list[Finding] = []
     for c in claims:
@@ -459,7 +492,14 @@ def check_metrics_match_artifact(claims: list[dict], cfg: Config) -> list[Findin
             continue
         for key, mval in metrics.items():
             if key not in index:
-                continue  # doc-only / aggregate metric, not stored in artifact
+                if cfg.profile in ("strict", "enterprise"):
+                    out.append((
+                        f"metrics-key-missing:{cid}:{key}",
+                        f"{cid}: register metric {key}={mval!r} does not "
+                        f"appear in any cited JSON artifact — under "
+                        f"'{cfg.profile}' every metric must be establishable "
+                        f"from the evidence"))
+                continue  # adopt: doc-only / aggregate metric tolerated
             present = index[key]
             mnum = _as_number(mval)
             matched = (
@@ -747,8 +787,14 @@ def check_stale_strings(cfg: Config, path: Path, text: str) -> list[Finding]:
 # Runner
 # --------------------------------------------------------------------------- #
 
-def _load_baseline(cfg: Config) -> set[str]:
-    """Load grandfathered violation ids, fail-closed.
+def _load_baseline(cfg: Config) -> dict[str, int]:
+    """Load grandfathered violations as {error_id: allowed occurrences}.
+
+    Several error ids identify a *kind* of problem (e.g. a stale string in a
+    file, without a line number), so one finding id can occur many times. A
+    baseline entry grandfathers exactly `count` occurrences (default 1) —
+    any occurrence beyond that is NEW and fails, so a baselined problem can
+    never quietly absorb fresh instances of itself.
 
     A malformed baseline must not crash the gate or be read as "no baseline" —
     either would silently change what the gate enforces. On any structural
@@ -756,7 +802,7 @@ def _load_baseline(cfg: Config) -> set[str]:
     """
     p = cfg.path(cfg.baseline)
     if not p.exists():
-        return set()
+        return {}
     try:
         data = json.loads(p.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
@@ -766,13 +812,18 @@ def _load_baseline(cfg: Config) -> set[str]:
     entries = data.get("known_violations", [])
     if not isinstance(entries, list):
         raise RegisterError("'known_violations' must be a list")
-    ids: set[str] = set()
+    ids: dict[str, int] = {}
     for i, e in enumerate(entries):
         if not isinstance(e, dict) or "error_id" not in e:
             raise RegisterError(
                 f"known_violations[{i}] must be an object with an 'error_id' "
                 f"field (got {type(e).__name__})")
-        ids.add(e["error_id"])
+        count = e.get("count", 1)
+        if isinstance(count, bool) or not isinstance(count, int) or count < 1:
+            raise RegisterError(
+                f"known_violations[{i}].count must be an int >= 1, "
+                f"got {count!r}")
+        ids[e["error_id"]] = ids.get(e["error_id"], 0) + count
     return ids
 
 
@@ -843,9 +894,18 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
         print(f"[FAIL] {cfg.baseline}: {exc}")
         return 1
     seen_ids = {eid for eid, _ in findings}
-    new = [(e, m) for e, m in findings if e not in baseline]
-    grandfathered = [(e, m) for e, m in findings if e in baseline]
-    stale_baseline = sorted(baseline - seen_ids)
+    # Consume the baseline allowance per occurrence: the first `count`
+    # findings with a baselined id are grandfathered, every further
+    # occurrence of the same id is NEW and fails.
+    allowance = dict(baseline)
+    new, grandfathered = [], []
+    for e, m in findings:
+        if allowance.get(e, 0) > 0:
+            allowance[e] -= 1
+            grandfathered.append((e, m))
+        else:
+            new.append((e, m))
+    stale_baseline = sorted(set(baseline) - seen_ids)
 
     if not quiet:
         for note in notes:

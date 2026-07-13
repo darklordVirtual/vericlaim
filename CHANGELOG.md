@@ -6,6 +6,40 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 
 ## [Unreleased] — gold-standard lift
 
+### Security — fail-closed hardening (external review P0/high findings)
+- **Declarative reproduce is no longer exempt from provenance or manifest
+  coverage** (P0): `check_provenance` and `check_manifest_coverage` keyed on
+  the legacy `reproduce` string only, so the recommended `reproduce_argv`
+  form — the only one strict/enterprise accept, used by all 88 claimlib
+  claims — bypassed both. A shared `_has_reproduce()` now covers both forms;
+  claimlib's sidecars pass the newly-enforced check unchanged.
+- **`reproduce_outputs` is now bound to the claim's `artifact` list** (P0):
+  a declarative spec that reproduces an unrelated file while the claimed
+  evidence is never produced now fails with the exact mismatch.
+- **A configured manifest that is missing is a hard failure** (P0): deleting
+  `claims/manifest.md` used to silently disable SHA-256 verification. The
+  `manifest` key is now opt-in (unset = explicitly off, default changed from
+  `claims/manifest.md` to unset), configured-but-absent fails, and
+  strict/enterprise require a manifest whenever any claim is reproducible.
+- **Strict refuses unestablishable metrics**: a register metric whose key
+  does not appear in the claim's JSON artifact is a finding under
+  strict/enterprise (adopt keeps the doc-only tolerance); the README now
+  states the binding's honest semantics, and the any-depth key-match limit
+  is documented (schema v2 closes it).
+- **The register parser fails closed on malformed entries and wrong field
+  types**: `claims: [oops]`, a bare-string entry, a non-string `id`, a
+  mapping `artifact`, a string `reproduce_argv`, or a non-mapping
+  `literature` entry now raise `RegisterError` instead of being silently
+  dropped or crashing later.
+- **The baseline can no longer absorb new occurrences of a baselined
+  problem**: entries grandfather exactly `count` occurrences of their
+  `error_id` (default 1); every further occurrence fails.
+- **The reproduction runner walks the output directory recursively** and
+  rejects symlinks: a file hidden in a subdirectory is an undeclared output.
+- **CI gains a Windows job** (gate + both test suites on windows-latest) —
+  the LF/pathsafe/process-group code paths are now exercised on the platform
+  they special-case. 23 adversarial regression tests lock all of the above.
+
 ### Added
 - **AI-governance architecture for enterprise environments (80 → 88
   modules, 94 → 103 works)**: a dedicated subject area pairing the four
