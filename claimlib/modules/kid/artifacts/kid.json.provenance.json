@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "kid.json",
+  "artifact_sha256": "5dab0610a392440d6181097cd1d44a04d27fb6df7369dca69d37bc713d7c0d4e",
+  "script": "python3 claimlib/modules/kid/evidence.py",
+  "git_commit": "a2304ea844d3f18bc21db9b8a16a3990133ce1b4",
+  "generated_at": "2026-07-13T07:22:13.093396+00:00",
+  "produced_by": "claimlib"
+}

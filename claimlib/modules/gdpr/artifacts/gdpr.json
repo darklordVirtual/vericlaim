@@ -1,0 +1,16 @@
+{
+  "anchors_ok": 7,
+  "art32_measures": 4,
+  "articles": 99,
+  "chapters": 11,
+  "checks": 14,
+  "checks_matched": 14,
+  "coverage_ok": 4,
+  "mismatches": 0,
+  "module": "gdpr",
+  "partition_ok": 1,
+  "principles": 7,
+  "reject_cases": 5,
+  "rejects_ok": 5,
+  "schema": "claimlib_evidence_v1"
+}

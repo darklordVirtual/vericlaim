@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "mus_sampling.json",
+  "artifact_sha256": "33f5f674b21ee5e8ebd52214a6ef761d51b5eee148206d2d21c0cd544529efb2",
+  "script": "python3 claimlib/modules/mus_sampling/evidence.py",
+  "git_commit": "a2304ea844d3f18bc21db9b8a16a3990133ce1b4",
+  "generated_at": "2026-07-13T07:30:23.918530+00:00",
+  "produced_by": "claimlib"
+}

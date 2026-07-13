@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "gdpr.json",
+  "artifact_sha256": "aa2f3923f6704811eda9f780bfa2bf5dc7d2d64c704f7fae241e8c257aadf85a",
+  "script": "python3 claimlib/modules/gdpr/evidence.py",
+  "git_commit": "a2304ea844d3f18bc21db9b8a16a3990133ce1b4",
+  "generated_at": "2026-07-13T07:28:32.510775+00:00",
+  "produced_by": "claimlib"
+}
