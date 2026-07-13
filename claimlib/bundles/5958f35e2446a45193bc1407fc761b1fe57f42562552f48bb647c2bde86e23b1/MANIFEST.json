@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/vlan.json": "4a3d01cf73bc563c61b9c394cdacbc8fddb62ad5cb76767d4113fa91aa848a54",
+    "claim.json": "2f50f3e40164f2d93af778bc1fcc99daa5dd8186b446d31ee14bbe15c95dbb2f",
+    "code/vlan.py": "b49d044ebfc4bd417a4863390f388f793b7d078fa9afea12570378c3c97513f4",
+    "provenance.json": "a46d3f6529dd5a5cb21595f3e1032fe333669217a35178ff3207ebf6f414aef5"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

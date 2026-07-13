@@ -1,6 +1,6 @@
 # IPv6 parsing + RFC 5952 compression
 
-*Subject area: Telecom / IPv6 Addressing. Language: python. Vendorable bundle `e70a17f96fcf`.*
+*Subject area: Telecom / IPv6 Addressing. Language: python. Vendorable bundle `d39012719da7`.*
 
 IPv6 text has many spellings for one address, so RFC 5952 defines a single canonical form: lowercase hex, no leading zeros per group, and the longest run of zero groups (leftmost on a tie) collapsed to '::'. Getting that compression exactly right -- and never collapsing a lone zero group -- is the subtle part every implementation must match. This module parses and canonicalises IPv6 from scratch; the claim proves it agrees with Python's ipaddress across the battery, so you inherit a checked, dependency-free IPv6 formatter rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `ipv6.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e70a17f96fcf5c03e2bf3436538f22db8f8db72ee2d813272b1d760fefac6b46 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/d39012719da77d991af702bb28234ef744179364fd0b27000a17ad478986bf10 --target .
 ```
 
 ## References

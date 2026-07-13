@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/jsonpointer.json": "5135e9758da3b4ef0542d729492d8a720abdb410dc10529d9b6f5bb3b271964f",
+    "claim.json": "96906f9d0a2d95906b939e7a1ad04d80c8aeb2285d7f6b7095875d2c286a86b3",
+    "code/jsonpointer.py": "73de2649784b4a8899b2cb300afa5678b29cf16120d80c2dfd421bf9fad1126e",
+    "provenance.json": "7dc2d7bd79689ef40fb89d769ad67b4494f8707a3e40e232371c37df0a62ca37"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

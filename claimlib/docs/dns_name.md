@@ -1,6 +1,6 @@
 # DNS hostname validation (RFC 1035/1123)
 
-*Subject area: Telecom / DNS Naming. Language: python. Vendorable bundle `a600eef8a491`.*
+*Subject area: Telecom / DNS Naming. Language: python. Vendorable bundle `9dd13b380671`.*
 
 A DNS hostname is a dot-separated sequence of LDH labels: 1-63 octets each, letters/digits/hyphens, no leading or trailing hyphen, at most 255 octets in wire form -- which is what limits the presentation form to 253 characters (each label costs a length octet plus a terminating root byte). RFC 1123 relaxed RFC 952 to allow digit-first labels. This module validates names against exactly those published rules and computes the wire length; the claim proves the boundaries sit precisely where the RFCs put them, so you inherit a checked validator instead of a regex approximation.
 
@@ -16,7 +16,7 @@ Ships `dns_name.py` into your project, byte-exact, with a generated binding test
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/a600eef8a491dd61d6c1ac4ea18e519fb4e3ea2fe1fda53a988bb139d490339a --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/9dd13b38067120110b8db694b96c5c53eceae77af53676b5d5d1840c05ff7a5e --target .
 ```
 
 ## References

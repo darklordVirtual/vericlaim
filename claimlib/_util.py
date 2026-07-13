@@ -27,13 +27,33 @@ def write_json_lf(path: Path, obj: dict) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
+def _redirect_dir() -> Path | None:
+    """The ``--output-dir`` passed by `vericlaim reproduce`'s declarative
+    runner, if any. In that mode the evidence writes ONLY the artifact into
+    the isolated directory (no provenance sidecar — the runner compares the
+    produced bytes against the committed artifact, and an undeclared extra
+    file would fail the reproduction)."""
+    argv = sys.argv
+    for i, arg in enumerate(argv):
+        if arg == "--output-dir" and i + 1 < len(argv):
+            return Path(argv[i + 1])
+        if arg.startswith("--output-dir="):
+            return Path(arg.split("=", 1)[1])
+    return None
+
+
 def emit(artifact_path: Path, obj: dict, *, script: str) -> str:
     """Write an evidence artifact + its provenance sidecar. Returns sha256.
 
     *script* is the repo-relative command that reproduces it, e.g.
-    ``python3 claimlib/modules/cvss/evidence.py``.
+    ``python3 claimlib/modules/cvss/evidence.py``. Under the declarative
+    reproduce runner (``--output-dir``), the artifact is instead created
+    from scratch inside the isolated directory, without a sidecar.
     """
     artifact_path = Path(artifact_path)
+    redirect = _redirect_dir()
+    if redirect is not None:
+        return write_json_lf(redirect / artifact_path.name, obj)
     artifact_path.parent.mkdir(parents=True, exist_ok=True)
     sha = write_json_lf(artifact_path, obj)
     stamp(artifact_path, script=script, produced_by="claimlib")

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/jwt_hs256.json": "3a8fca9308fa549819cdc8d80a61aaa4cdce8182ac489c320c56b8aad619e086",
+    "claim.json": "b587f107fd4bde65abf42982de8969fd9e6b36716904fb0e52d585ec9eaa96f3",
+    "code/jwt_hs256.py": "dc0e0366bbc54dbf71c8301d475f27947a3b49343849f996f4f36998e4c26399",
+    "provenance.json": "5e1ea0c860eb22e93949a4fcdc7b25c78090371d0868ce52f4bdf84ef8228b18"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

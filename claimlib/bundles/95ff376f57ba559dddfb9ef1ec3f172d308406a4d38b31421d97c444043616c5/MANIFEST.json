@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/chacha20.json": "6e615abb1a8f11a2208cbef8010d5cca93593d1a3454b3015af885f576d8a04c",
+    "claim.json": "cb613c5db3177723b90bab3c16ad4c9b60cdfe2f6a069ca66bacb38e16325d51",
+    "code/chacha20.py": "df8ce8fde118bb2e330d1c3487f94dfdd2977a210578cafc4dc84a677638d868",
+    "provenance.json": "87bf60e7fa249726a2f341b8be012045e553af1adaf08a40dff3529f9d63bb62"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

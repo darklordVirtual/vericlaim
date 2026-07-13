@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/benford.json": "8c27e7079487379118aa9673e2cdbf2c9d2b491cc7b18cc08a0aa4a98b2805b0",
+    "claim.json": "e7efcb42fe19c56cf4b365d34b5648d5f75d5937362d9cb4cce84c50f3db40e4",
+    "code/benford.py": "c7e206fb9368675ad57d82e706576f0079ebe40596096758c08cfb51f2180fa3",
+    "provenance.json": "1e5e64f6f1a2594310e870d6b722acbfb8bee4430ccd5f03965b7515d4484eec"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

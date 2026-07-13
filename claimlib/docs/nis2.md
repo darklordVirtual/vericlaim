@@ -1,6 +1,6 @@
 # EU NIS2 Directive Article 21 coverage
 
-*Subject area: Security / Governance & Compliance. Language: python. Vendorable bundle `1dee4ac3a510`.*
+*Subject area: Security / Governance & Compliance. Language: python. Vendorable bundle `0064778a8f22`.*
 
 The EU NIS2 Directive (2022/2555) raises the cybersecurity baseline for essential and important entities across the Union; its Article 21(2) lists ten minimum risk-management measures -- from risk analysis and incident handling to supply-chain security, cryptography, and multi-factor authentication. Organizations track which measures they have implemented to prepare for the obligation. This module encodes the ten measures and computes coverage; the claim proves the measures match the Directive and the math is correct, so you inherit a checked gap-tracking model rather than a hand-maintained checklist to re-audit.
 
@@ -16,7 +16,7 @@ Ships `nis2.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/1dee4ac3a51097fe81df510a211cf843e29cf53591d55bde29912ed978fff349 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/0064778a8f2297378ee0b4e44de638c50e254efbe8cca449f4ee20402ce35e66 --target .
 ```
 
 ## References

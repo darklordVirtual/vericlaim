@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/erlang_b.json": "5dc2a1d5209b7ddd5248b2117d083aa0c19d22944618aed045cebb897bc8f99f",
+    "claim.json": "62866accf06ec2592730780345fe30159d04d11bc948d30165f933d710c15b00",
+    "code/erlang_b.py": "e37a3498e5f8c8b8c8a28b6e25a510f6d2fe6320ee4a2c2415cb4992f76cbb43",
+    "provenance.json": "418f2adc407d97cfb580297c0149d5cc117e568e6306afe3383bd465cd007bac"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

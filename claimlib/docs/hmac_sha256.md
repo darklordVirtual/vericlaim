@@ -1,6 +1,6 @@
 # HMAC-SHA256 (RFC 2104) from scratch
 
-*Subject area: Security / Message Authentication. Language: python. Vendorable bundle `6777a51d7dc6`.*
+*Subject area: Security / Message Authentication. Language: python. Vendorable bundle `879248fd911a`.*
 
 HMAC (RFC 2104) turns a plain hash into a keyed message authentication code: HMAC(K, m) = H((K XOR opad) || H((K XOR ipad) || m)). It lets two parties holding a shared secret verify that a message is authentic and untampered, and underpins TOTP/HOTP, JWT (HS256), AWS request signing, and webhook signatures. Verifying a tag must be constant-time so an attacker cannot forge one byte at a time. This module implements the construction from scratch; the claim proves it matches stdlib hmac and the RFC 4231 vector, so you inherit a checked MAC rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `hmac_sha256.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/6777a51d7dc61ab2bdc07399ed90e5346c16484236bd295da5040008e7849190 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/879248fd911ab5332c10b6819f42368965b8d9d5eac267d36a32aa2897beb748 --target .
 ```
 
 ## References

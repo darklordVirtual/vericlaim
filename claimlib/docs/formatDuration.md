@@ -1,6 +1,6 @@
 # formatDuration compact duration formatter
 
-*Subject area: TypeScript / Formatting. Language: typescript. Vendorable bundle `63ca31e67c8e`.*
+*Subject area: TypeScript / Formatting. Language: typescript. Vendorable bundle `c0a33a0b7962`.*
 
 A compact duration formatter turns a raw millisecond count into a short human-readable string for logs, dashboards and UIs. formatDuration decomposes the value into days (86400s), hours (3600s), minutes (60s) and seconds, then drops zero-valued units so only the significant magnitudes show (with the whole-value 0 special-cased to "0s"), floors sub-second remainders, and rejects negative or non-finite input with a RangeError. Vendor it for consistent, dependency-free duration display; the claim proves the output matches an independent reference table, so you inherit a checked formatter rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `formatDuration.ts` into your project, byte-exact, with a generated bindin
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/63ca31e67c8e0452424a84d0b6fbadfbff44ea743f3be9245fb782fafd52b1e1 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/c0a33a0b796239c788f7f8f675da9248d76e5b5114dc0c59a2feeed2159dfa5b --target .
 ```

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/punycode.json": "d7825726a42bf09e6d0edfb585b4a3c02454e33ae30641880deac207582dfee0",
+    "claim.json": "cd206796cc2fa015e35b3c3f8103928f688dbe3d39c9b9881b0c69285dea633d",
+    "code/punycode.py": "54f9ce6feb6bea0fc6b74eb2f4e3b460b20f3d9aff51df042ebf4a01babdddad",
+    "provenance.json": "6892878ddcb6fd99409fca4ae33863c0de4bc553317678f9f56ffa2f3163b7bb"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

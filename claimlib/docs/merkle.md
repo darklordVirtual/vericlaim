@@ -1,6 +1,6 @@
 # Merkle tree SHA-256 inclusion proofs
 
-*Subject area: Security / Cryptographic Integrity. Language: python. Vendorable bundle `544930b25dd4`.*
+*Subject area: Security / Cryptographic Integrity. Language: python. Vendorable bundle `20865eadd80e`.*
 
 A Merkle tree hashes an ordered list of leaves pairwise up to a single root digest, so any party holding the root can verify that a given leaf is included via a short O(log n) audit path of sibling hashes rather than re-hashing the whole set. This module uses sha256 with the Bitcoin-style duplicate-last-node rule for odd levels (documented explicitly so proofs are portable), exposing build_root, inclusion_proof, and verify_proof. Vendor it for tamper-evident logs, transparency/commitment schemes, or content addressing; the claim proves proofs verify and leaf tampering is caught, so you inherit a checked implementation rather than an unaudited re-write.
 
@@ -16,7 +16,7 @@ Ships `merkle.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/544930b25dd45b98009d670af1266581855bf528878b753612478dade8b126c5 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/20865eadd80e8fe58eba8f7eb65cda0f9dfa2ccadc74dcf7434c13076e264462 --target .
 ```
 
 ## References

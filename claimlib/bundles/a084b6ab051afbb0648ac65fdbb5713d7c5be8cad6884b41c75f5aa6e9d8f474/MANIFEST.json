@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/macaddr.json": "d136886457f053d74426e2019a7c12b595af34c6683dbd548e724bf61a6a75e7",
+    "claim.json": "f8abf0cc45dc26b02670bf3452f762141618be8ab5f0041dde96b76b413b8a50",
+    "code/macaddr.py": "c94472eafdf7e713458945a31844e31fb2caab9bff5bc8db644a481a70939f63",
+    "provenance.json": "773bb5aa1efbd3a12697e8572218a5c8fe4a600dc769338a0df220585add205a"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

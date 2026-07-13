@@ -17,7 +17,13 @@ claims:
       mismatches: 0
     caveat: >
       Base metric group only (no temporal or environmental modifiers). Correctness is demonstrated over a fixed published-reference vector set, not proven for every possible vector.
-    reproduce: "python3 claimlib/modules/cvss/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/cvss/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/cvss/artifacts/cvss.json"
 
   - id: CLAIM-LIB-HASHCHAIN-001
     statement: >
@@ -32,7 +38,13 @@ claims:
       tamper_missed: 0
     caveat: >
       Detection is demonstrated over a fixed reference battery of single-entry mutations, not proven for every possible input. It is tamper-EVIDENT, not tamper-PROOF: an adversary who can rewrite the stored chain of head digests alongside the entries can forge a consistent history, so authenticate the head (HMAC or a signature) for adversarial settings. Security also rests on SHA-256 collision resistance.
-    reproduce: "python3 claimlib/modules/hashchain/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/hashchain/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/hashchain/artifacts/hashchain.json"
 
   - id: CLAIM-LIB-MERKLE-001
     statement: >
@@ -47,7 +59,13 @@ claims:
       false_accepts: 0
     caveat: >
       Demonstrated over one fixed 9-leaf battery (which does exercise the odd-level duplicate-last-node rule at three levels), not proven for all tree shapes or inputs. The hashing scheme intentionally omits RFC 6962 leaf/node domain-separation tags, so roots are not second-preimage resistant across trees of differing leaf counts; tampering evidence covers leaf-content mutation, not adversarial proof forgery.
-    reproduce: "python3 claimlib/modules/merkle/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/merkle/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/merkle/artifacts/merkle.json"
 
   - id: CLAIM-LIB-RLE-001
     statement: >
@@ -61,7 +79,13 @@ claims:
       overall_ratio: 0.6649
     caveat: >
       RLE is a compressor only for redundant data: it EXPANDS low-redundancy input to two output bytes per symbol, so overall_ratio can fall below 1.0 (0.6649 on this corpus, which is deliberately noise-heavy). The claim proves lossless round-trip, not a compression guarantee, and correctness is demonstrated over a fixed corpus rather than proven for every possible input.
-    reproduce: "python3 claimlib/modules/rle/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/rle/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/rle/artifacts/rle.json"
 
   - id: CLAIM-LIB-LUHN-001
     statement: >
@@ -75,7 +99,13 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over a fixed reference table of published test numbers, not proven for all inputs. Luhn is a check-digit scheme that catches all single-digit errors and most adjacent transpositions; it is a data-entry checksum, NOT a cryptographic integrity or authenticity guarantee, and validity does not imply a number is real or issued.
-    reproduce: "python3 claimlib/modules/luhn/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/luhn/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/luhn/artifacts/luhn.json"
 
   - id: CLAIM-LIB-SEMVER-001
     statement: >
@@ -89,7 +119,13 @@ claims:
       errors: 0
     caveat: >
       Range grammar is deliberately modest: only exact 'x.y.z', '>=x.y.z', '<x.y.z', caret '^x.y.z', and tilde '~x.y.z' (no OR/hyphen/x-ranges, no '<=', '>', '!='). Ranges are evaluated purely by SemVer 2.0.0 precedence against derived bounds, so a pre-release is included or excluded strictly by section 11 precedence (e.g. 2.0.0-alpha counts as < 2.0.0) rather than npm's extra same-tuple pre-release exclusion heuristic. Correctness is demonstrated over a fixed reference battery, not proven for every possible input.
-    reproduce: "python3 claimlib/modules/semver/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/semver/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/semver/artifacts/semver.json"
 
   - id: CLAIM-LIB-TOKENBUCKET-001
     statement: >
@@ -104,7 +140,13 @@ claims:
       capacity_violations: 0
     caveat: >
       The invariant is demonstrated over one fixed trace (capacity=3, refill=1/s, unit cost) plus unit tests, not proven for every capacity/rate/cost combination; the limiter is time-injected (the caller supplies monotonic timestamps) and uses IEEE-754 floats, so it does not measure wall-clock time itself and is subject to normal floating-point rounding.
-    reproduce: "python3 claimlib/modules/tokenbucket/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/tokenbucket/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/tokenbucket/artifacts/tokenbucket.json"
 
   - id: CLAIM-LIB-RETRY-001
     statement: >
@@ -119,7 +161,13 @@ claims:
       deterministic: 1
     caveat: >
       Bounds and reproducibility are demonstrated over one fixed schedule (fixed base/cap/seed, attempts 0..15), not proven for every parameter combination. The jitter is a deterministic SHA-256 spreading function, not a cryptographically unpredictable PRNG, and delays are rounded to 6 decimals for byte-stable serialization.
-    reproduce: "python3 claimlib/modules/retry/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/retry/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/retry/artifacts/retry.json"
 
   - id: CLAIM-LIB-RBAC-001
     statement: >
@@ -136,7 +184,13 @@ claims:
       false_positives: 0
     caveat: >
       Recall and the zero-false-positive property are measured over one fixed, hand-seeded reference matrix, not proven for arbitrary inputs. The checker compares held permissions against a supplied least-privilege baseline and explicit SoD pairs; it does not infer baselines, expand role hierarchies/inheritance, or model attribute- or time-based conditions, and its correctness is only as good as the role_needs and sod_pairs it is given.
-    reproduce: "python3 claimlib/modules/rbac/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/rbac/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/rbac/artifacts/rbac.json"
 
   - id: CLAIM-LIB-ERRORBUDGET-001
     statement: >
@@ -150,7 +204,13 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over a fixed hand-computed reference table (9 rows), not proven for every possible input. It is pure time-window arithmetic on a single SLO window: it does not model burn-rate alerting, multi-window/multi-burn-rate policies, request-ratio (event-based) SLOs, or rolling windows. Availability and remaining% are rounded to 4 dp and the budget to 6 dp for byte-stable artifacts.
-    reproduce: "python3 claimlib/modules/errorbudget/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/errorbudget/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/errorbudget/artifacts/errorbudget.json"
 
   - id: CLAIM-LIB-RESULT-001
     statement: >
@@ -164,7 +224,14 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) — it does not assert the module type-checks under a specific tsc strictness. Result is a value-level discipline; it does not stop you ignoring an Err you never inspect.
-    reproduce: "node claimlib/ts/result/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "result"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "ts/result/artifacts/result.json"
 
   - id: CLAIM-LIB-USEPAGINATION-001
     statement: >
@@ -179,7 +246,14 @@ claims:
       invalid_inputs_rejected: 4
     caveat: >
       The claim covers the framework-agnostic core (pagination.logic.ts) run under node, NOT React runtime rendering: the vendored usePagination.tsx is a thin, reviewed binding over that core (useState + useMemo) and is shipped but not rendered in the evidence. Correctness is over a fixed battery, not proven for all inputs.
-    reproduce: "node claimlib/react/usePagination/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "usePagination"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "react/usePagination/artifacts/usePagination.json"
 
   - id: CLAIM-LIB-CRC32-001
     statement: >
@@ -193,7 +267,13 @@ claims:
       mismatches: 0
     caveat: >
       Correctness is demonstrated over a fixed reference set (3 published check values plus 288 byte strings agreeing with zlib.crc32), not proven for every possible input. CRC-32 is an error-DETECTION checksum for accidental corruption, NOT a cryptographic hash or MAC: it is linear and trivially forgeable, so it provides no integrity or authenticity guarantee against an adversary.
-    reproduce: "python3 claimlib/modules/crc32/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/crc32/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/crc32/artifacts/crc32.json"
 
   - id: CLAIM-LIB-BASE32-001
     statement: >
@@ -207,7 +287,13 @@ claims:
       mismatches: 0
     caveat: >
       Standard RFC 4648 base32 alphabet with '=' padding only (no base32hex, no Crockford variant, and case-sensitive decoding). Correctness is demonstrated over a fixed reference set of published vectors plus stdlib cross-checks, not proven for every possible input. base64 is used solely as the evidence/test oracle and is never invoked inside the vendored module.
-    reproduce: "python3 claimlib/modules/base32/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/base32/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/base32/artifacts/base32.json"
 
   - id: CLAIM-LIB-JSONPOINTER-001
     statement: >
@@ -221,7 +307,13 @@ claims:
       failures: 0
     caveat: >
       Correctness is demonstrated over RFC 6901's single published example set (12 pointers), not proven for every possible document or pointer. resolve raises KeyError on a missing object member and IndexError on an out-of-range, non-numeric, leading-zero, or '-' array index (it resolves an existing pointer rather than implementing JSON Pointer's URI-fragment '#' form or the RFC 6902 add/append semantics of '-').
-    reproduce: "python3 claimlib/modules/jsonpointer/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/jsonpointer/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/jsonpointer/artifacts/jsonpointer.json"
 
   - id: CLAIM-LIB-LRU-001
     statement: >
@@ -235,7 +327,13 @@ claims:
       mismatches: 0
     caveat: >
       Correctness is demonstrated over two fixed, hand-derived operation traces (21 operations total), not proven for every possible sequence. Expected get-results and key sets are hand-computed in the evidence, never read back from the cache. The cache is single-threaded and not safe for concurrent mutation, holds strong references to keys/values (no TTL or weak-reference eviction), and uses least-RECENTLY-used as its only eviction policy (not LFU/size/cost-aware).
-    reproduce: "python3 claimlib/modules/lru/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/lru/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/lru/artifacts/lru.json"
 
   - id: CLAIM-LIB-DEEPEQUAL-001
     statement: >
@@ -249,7 +347,14 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) rather than asserting a specific tsc strictness. Cyclic structures are explicitly out of scope (a self-referential input recurses until stack overflow), and the plain-object comparison covers own enumerable string keys only -- not Maps, Sets, RegExps, typed arrays, symbol keys, or prototype/class identity.
-    reproduce: "node claimlib/ts/deepEqual/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "deepEqual"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "ts/deepEqual/artifacts/deepEqual.json"
 
   - id: CLAIM-LIB-CX-001
     statement: >
@@ -263,7 +368,14 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) rather than asserting the module type-checks under a specific tsc strictness. De-duplication is intentionally NOT performed and document order is preserved, so repeated tokens appear multiple times; the caller is responsible for any dedupe. Objects are iterated in Object.keys order; symbol keys and non-string/number/array/object token types contribute nothing.
-    reproduce: "node claimlib/ts/cx/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "cx"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "ts/cx/artifacts/cx.json"
 
   - id: CLAIM-LIB-GROUPBY-001
     statement: >
@@ -277,7 +389,14 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) rather than asserting the module type-checks under a specific tsc strictness. The comparison is by JSON.stringify, so it pins insertion/serialization order but treats key values as strings (numeric keys are coerced to strings and integer-like keys follow JS's own numeric-first property ordering); the key function must return a string.
-    reproduce: "node claimlib/ts/groupBy/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "groupBy"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "ts/groupBy/artifacts/groupBy.json"
 
   - id: CLAIM-LIB-CHUNK-001
     statement: >
@@ -292,7 +411,14 @@ claims:
       invalid_inputs_rejected: 4
     caveat: >
       Correctness is demonstrated over a fixed reference battery, not proven for all inputs, and the evidence checks runtime behaviour (run with node) — it does not assert the module type-checks under a specific tsc strictness. The guard rejects any size that is not an integer >= 1 (so fractional sizes throw, slightly stronger than the literal 'size < 1' spec); chunks are shallow slices, so nested object elements are shared by reference with the input.
-    reproduce: "node claimlib/ts/chunk/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "chunk"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "ts/chunk/artifacts/chunk.json"
 
   - id: CLAIM-LIB-PARSEQUERY-001
     statement: >
@@ -306,7 +432,14 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over a fixed reference battery run under node, not proven for all inputs, and the evidence checks runtime behaviour rather than asserting the module type-checks under a specific tsc strictness. The serializer emits keys in sorted order (not insertion order) and uses application/x-www-form-urlencoded style ('+' for space), so a stringify->parse round-trip preserves values but may reorder keys and normalizes '+'/%20; it is not a byte-exact inverse of every arbitrary query string.
-    reproduce: "node claimlib/ts/parseQuery/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "parseQuery"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "ts/parseQuery/artifacts/parseQuery.json"
 
   - id: CLAIM-LIB-FORMATDURATION-001
     statement: >
@@ -320,7 +453,14 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over a fixed reference battery run with node (runtime behaviour), not proven for all inputs and not asserting the module type-checks under a specific tsc strictness. Output is English single-letter units (d/h/m/s) with no localization, pluralization, weeks/months, or fractional-second display; sub-second precision is truncated (floored), not rounded.
-    reproduce: "node claimlib/ts/formatDuration/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "formatDuration"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "ts/formatDuration/artifacts/formatDuration.json"
 
   - id: CLAIM-LIB-USEUNDOREDO-001
     statement: >
@@ -334,7 +474,14 @@ claims:
       errors: 0
     caveat: >
       The claim covers the framework-agnostic core (undoredo.logic.ts) run under node, NOT React runtime rendering: the vendored useUndoRedo.tsx is a thin, reviewed useReducer binding over that core and is shipped but not rendered in the evidence. Correctness is demonstrated over one fixed action sequence, not proven for all histories or value types.
-    reproduce: "node claimlib/react/useUndoRedo/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "useUndoRedo"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "react/useUndoRedo/artifacts/useUndoRedo.json"
 
   - id: CLAIM-LIB-USEASYNC-001
     statement: >
@@ -348,7 +495,14 @@ claims:
       errors: 0
     caveat: >
       The claim covers the framework-agnostic core reducer (async.logic.ts) run under node, NOT React runtime rendering: the vendored useAsync.tsx is a thin, reviewed binding (useReducer + a run callback that dispatches start then resolve/reject) shipped but not executed in the evidence. Correctness is demonstrated over a fixed transition table, not proven for all state/action combinations; the reducer is total (unknown actions leave state unchanged) but the battery does not enumerate every path.
-    reproduce: "node claimlib/react/useAsync/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "useAsync"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "react/useAsync/artifacts/useAsync.json"
 
   - id: CLAIM-LIB-USESTEPPER-001
     statement: >
@@ -362,7 +516,14 @@ claims:
       errors: 0
     caveat: >
       The claim covers the framework-agnostic core (stepper.logic.ts) run under node, NOT React runtime rendering: the vendored useStepper.tsx is a thin, reviewed binding over that core (useState + useMemo) and is shipped but not rendered in the evidence. Correctness is demonstrated over a fixed battery, not proven for all inputs; the core fails closed (RangeError) on a non-positive or non-integer stepCount.
-    reproduce: "node claimlib/react/useStepper/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "useStepper"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "react/useStepper/artifacts/useStepper.json"
 
   - id: CLAIM-LIB-USEDEBOUNCED-001
     statement: >
@@ -376,7 +537,14 @@ claims:
       errors: 0
     caveat: >
       The claim covers the framework-agnostic core (debounce.logic.ts) run under node, NOT React runtime rendering or real timers: the vendored useDebouncedValue.tsx is a thin, reviewed setTimeout binding over the same model, shipped but not executed in the evidence. The simulator assumes a chronologically sorted event trace and models a boundary gap of exactly delayMs as fired (>=); correctness is demonstrated over a fixed battery, not proven for all traces.
-    reproduce: "node claimlib/react/useDebouncedValue/evidence.ts"
+    reproduce_argv:
+      - "python3"
+      - "reproduce_node.py"
+      - "useDebouncedValue"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "react/useDebouncedValue/artifacts/useDebouncedValue.json"
 
   - id: CLAIM-LIB-IBAN-001
     statement: >
@@ -391,7 +559,13 @@ claims:
       check_digit_correct: 5
     caveat: >
       Validation is the MOD-97-10 arithmetic plus a general [A-Z]{2}[0-9]{2}[A-Z0-9]+ shape and a 15..34 length check; it does NOT enforce per-country BBAN length or the national bank/branch structure, so a string with the right length and a correct check digit but a wrong national format can still pass. Correctness is demonstrated over a fixed table of published examples, not proven for every country or input.
-    reproduce: "python3 claimlib/modules/iban/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/iban/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/iban/artifacts/iban.json"
 
   - id: CLAIM-LIB-MONEY-001
     statement: >
@@ -407,7 +581,13 @@ claims:
       round_correct: 10
     caveat: >
       The cent-exact invariant is an arithmetic identity checked over a fixed battery of totals/weights (non-negative integer minor units, non-negative integer weights, not all zero); it does not model currencies with non-decimal subunits, negative totals, or rounding of the allocation itself. round_money rounds decimal values (pass strings, not floats, to avoid binary-float error before rounding) and is HALF_EVEN only.
-    reproduce: "python3 claimlib/modules/money/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/money/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/money/artifacts/money.json"
 
   - id: CLAIM-LIB-MOD11-001
     statement: >
@@ -424,7 +604,13 @@ claims:
       tamper_missed: 0
     caveat: >
       The exhaustive tamper / round-trip proof covers 4-digit payloads under one fixed weight vector; the single-error-detection property generalises (11 is prime and no weight is a multiple of 11) but is machine-verified only for that space, not every length. check_digit raises rather than emitting 'X' when the MOD-11 result is 10 (so it is numeric-only and does not cover ISBN-10's X), and MOD-11 catches all single-digit errors and most transpositions but is a checksum, not a cryptographic integrity guarantee.
-    reproduce: "python3 claimlib/modules/mod11/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/mod11/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/mod11/artifacts/mod11.json"
 
   - id: CLAIM-LIB-MODBUS-CRC-001
     statement: >
@@ -439,7 +625,13 @@ claims:
       crosscheck_matched: 266
     caveat: >
       Correctness is demonstrated over a fixed reference set (one published catalogue value plus table-cross-checked byte strings), not proven for every input. CRC-16 is an error-DETECTION checksum for accidental corruption on a serial link, NOT a cryptographic hash or MAC: it is linear and trivially forgeable, so it gives no integrity or authenticity guarantee against an adversary.
-    reproduce: "python3 claimlib/modules/modbus_crc/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/modbus_crc/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/modbus_crc/artifacts/modbus_crc.json"
 
   - id: CLAIM-LIB-OEE-001
     statement: >
@@ -453,7 +645,13 @@ claims:
       errors: 0
     caveat: >
       OEE is pure ratio arithmetic (Availability x Performance x Quality); the module fails closed on non-positive denominators and on factors above 1 (run > planned, good > total, ideal cycle too large), but it does not model the six big losses, planned vs unplanned stop classification, or multi-shift roll-ups. Values are compared to 4 decimal places; correctness is demonstrated over a fixed reference table, not proven for every input.
-    reproduce: "python3 claimlib/modules/oee/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/oee/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/oee/artifacts/oee.json"
 
   - id: CLAIM-LIB-NMEA-001
     statement: >
@@ -469,7 +667,13 @@ claims:
       tamper_detected: 4
     caveat: >
       The checksum is the simple XOR of the characters between '$' and '*'; the module verifies that field and can build sentences, but it does NOT parse or validate the sentence's fields, talker ID, or semantics, and the XOR is an accidental-corruption check, not a cryptographic integrity guarantee. Correctness is demonstrated over a fixed set of published sentences plus a self-consistency battery, not proven for every input.
-    reproduce: "python3 claimlib/modules/nmea/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/nmea/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/nmea/artifacts/nmea.json"
 
   - id: CLAIM-LIB-IMEI-001
     statement: >
@@ -483,7 +687,13 @@ claims:
       mismatches: 0
     caveat: >
       Validation is the 15-digit length plus the Luhn (mod-10) check digit over the first 14 digits; it does NOT verify that the Type Allocation Code is really assigned by the GSMA or that the device exists, and it does not handle the 16-digit IMEISV. Luhn catches all single-digit errors and most adjacent transpositions but is a data-entry checksum, not proof a number is genuine. Correctness is demonstrated over a fixed battery, not proven for every input.
-    reproduce: "python3 claimlib/modules/imei/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/imei/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/imei/artifacts/imei.json"
 
   - id: CLAIM-LIB-HAMMING74-001
     statement: >
@@ -499,7 +709,13 @@ claims:
       min_code_distance: 3
     caveat: >
       The exhaustive proof covers SINGLE-bit errors only. Hamming(7,4) has minimum distance 3, so it corrects any one-bit error but a two-bit error is mis-corrected to the wrong nibble (it lacks the distance-4 SECDED extension that would merely DETECT double errors). The code carries 4 data bits per 7-bit codeword; framing multi-byte data across codewords is the caller's responsibility.
-    reproduce: "python3 claimlib/modules/hamming74/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/hamming74/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/hamming74/artifacts/hamming74.json"
 
   - id: CLAIM-LIB-E164-001
     statement: >
@@ -514,7 +730,13 @@ claims:
       country_code_correct: 13
     caveat: >
       This validates E.164 SYNTAX (leading '+', 7..15 digits, no leading zero on the country code) and extracts the calling code from a CURATED subset of published ITU assignments; it is NOT full national-number validation (no libphonenumber-style per-country length / prefix rules), and a number outside the curated code table returns None for the country code. Correctness is demonstrated over a fixed battery, not proven for every number.
-    reproduce: "python3 claimlib/modules/e164/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/e164/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/e164/artifacts/e164.json"
 
   - id: CLAIM-LIB-CIDR-001
     statement: >
@@ -529,7 +751,13 @@ claims:
       mismatches: 0
     caveat: >
       ipaddress is the independent oracle and is NOT used inside the vendored module. Correctness is demonstrated over a fixed battery of networks, not proven for every possible input. IPv4 only; parsing rejects leading-zero octets (no octal ambiguity). 'Usable hosts' follows the common convention (block size minus network+broadcast for /0../30, 2 for a /31, 1 for a /32).
-    reproduce: "python3 claimlib/modules/cidr/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/cidr/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/cidr/artifacts/cidr.json"
 
   - id: CLAIM-LIB-IPV6-001
     statement: >
@@ -545,7 +773,13 @@ claims:
       mismatches: 0
     caveat: >
       ipaddress is the independent oracle and is NOT used inside the vendored module. Dotted-quad IPv4-embedded IPv6 (e.g. ::ffff:192.0.2.1) is out of scope and rejected. Correctness is demonstrated over a fixed battery, not proven for every possible address.
-    reproduce: "python3 claimlib/modules/ipv6/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/ipv6/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/ipv6/artifacts/ipv6.json"
 
   - id: CLAIM-LIB-MACADDR-001
     statement: >
@@ -560,7 +794,13 @@ claims:
       notation_forms_tested: 4
     caveat: >
       Flag semantics follow the IEEE 802 first-octet bit definitions, demonstrated over a fixed battery rather than proven for every address. The module normalises and decodes; it does NOT look up the OUI's registered vendor (no IEEE registry is bundled) and covers EUI-48 (not EUI-64).
-    reproduce: "python3 claimlib/modules/macaddr/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/macaddr/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/macaddr/artifacts/macaddr.json"
 
   - id: CLAIM-LIB-ASPATH-001
     statement: >
@@ -574,7 +814,13 @@ claims:
       errors: 0
     caveat: >
       Classification follows the RFC/IANA ranges over a fixed battery, not proven for every value; the ranges themselves can be updated by future IANA action. strip_private is a simple filter (removes every private ASN), not Cisco's positional remove-private-as semantics, and parse handles an AS_SEQUENCE (space-separated ASNs), not AS_SET/confederation segment notation.
-    reproduce: "python3 claimlib/modules/aspath/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/aspath/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/aspath/artifacts/aspath.json"
 
   - id: CLAIM-LIB-IPCHECKSUM-001
     statement: >
@@ -589,7 +835,13 @@ claims:
       crosscheck_matched: 266
     caveat: >
       Correctness is demonstrated over a fixed reference set (one published header value plus an independent-implementation cross-check), not proven for every input. The Internet checksum is an error-DETECTION checksum for accidental corruption, not a cryptographic hash or MAC -- it is linear and trivially forgeable, and (being 16-bit one's complement) it cannot distinguish +0 from -0.
-    reproduce: "python3 claimlib/modules/ipchecksum/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/ipchecksum/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/ipchecksum/artifacts/ipchecksum.json"
 
   - id: CLAIM-LIB-VLAN-001
     statement: >
@@ -605,7 +857,13 @@ claims:
       range_roundtrip_correct: 6
     caveat: >
       Validity follows the IEEE 802.1Q assignable range (1..4094); the module does not model 802.1ad QinQ stacking, per-switch reserved-VLAN customisation, or VLAN names. Correctness is demonstrated over a fixed battery, not proven for every input.
-    reproduce: "python3 claimlib/modules/vlan/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/vlan/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/vlan/artifacts/vlan.json"
 
   - id: CLAIM-LIB-LEVENSHTEIN-001
     statement: >
@@ -621,7 +879,13 @@ claims:
       triangle_ok: 1000
     caveat: >
       Costs are the classic unit-cost model (insertion, deletion, substitution each cost 1); it is NOT Damerau-Levenshtein (adjacent transposition is 2, not 1) and applies no custom cost weights. Correctness is demonstrated over a fixed battery plus the metric-axiom sweep, not proven for every pair of strings.
-    reproduce: "python3 claimlib/modules/levenshtein/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/levenshtein/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/levenshtein/artifacts/levenshtein.json"
 
   - id: CLAIM-LIB-TOPOSORT-001
     statement: >
@@ -637,7 +901,13 @@ claims:
       cycles_detected: 4
     caveat: >
       Correctness is demonstrated over a fixed battery of graphs, not proven for every graph. Nodes must be mutually comparable for the deterministic smallest-first ordering (e.g. all strings or all ints); an edge referencing an unknown node fails closed. Edges are (u, v) meaning 'u before v'.
-    reproduce: "python3 claimlib/modules/topo_sort/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/topo_sort/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/topo_sort/artifacts/topo_sort.json"
 
   - id: CLAIM-LIB-SHA256-001
     statement: >
@@ -652,7 +922,13 @@ claims:
       crosscheck_matched: 395
     caveat: >
       hashlib.sha256 is the independent oracle and is NOT used inside the vendored module. Correctness is demonstrated over a fixed reference set, not proven for every input. SHA-256 is a cryptographic hash for integrity and commitment, NOT a password hash -- use PBKDF2/scrypt/argon2 for passwords -- and a bare hash is not a MAC (use HMAC for authentication). This is a clear, from-scratch reference implementation, not a side-channel-hardened or performance-tuned one.
-    reproduce: "python3 claimlib/modules/sha256/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/sha256/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/sha256/artifacts/sha256.json"
 
   - id: CLAIM-LIB-HMAC-SHA256-001
     statement: >
@@ -667,7 +943,13 @@ claims:
       oracle_agreements: 10
     caveat: >
       The stdlib hmac module is the independent oracle for the HMAC construction; the underlying compression is hashlib.sha256 (so this proves the HMAC wrapper, not SHA-256 itself -- see the sha256 module for that). Correctness is over a fixed battery, not proven for every input. verify is constant-time in the tag comparison, but this is a clear reference implementation, not a fully side-channel-hardened one.
-    reproduce: "python3 claimlib/modules/hmac_sha256/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/hmac_sha256/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/hmac_sha256/artifacts/hmac_sha256.json"
 
   - id: CLAIM-LIB-HOTP-001
     statement: >
@@ -681,7 +963,13 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over the published RFC 4226 vectors, not proven for every secret/counter. HOTP is event-based (the caller owns the moving counter and its resynchronization window); it authenticates possession of the shared secret, so the secret must be provisioned and stored securely, and SHA-1 here is the HMAC PRF as the RFC mandates (not a security weakness in this HOTP context).
-    reproduce: "python3 claimlib/modules/hotp/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/hotp/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/hotp/artifacts/hotp.json"
 
   - id: CLAIM-LIB-TOTP-001
     statement: >
@@ -695,7 +983,13 @@ claims:
       errors: 0
     caveat: >
       Correctness is demonstrated over the published RFC 6238 SHA-1 vectors, not proven for every input; the SHA-256/SHA-512 modes are implemented but each is validated here only via SHA-1 (RFC 6238 uses different per-algorithm seeds). Verification (accepting a code within a +/- step window for clock skew, and rejecting reuse) is the caller's responsibility, and the shared secret must be stored securely.
-    reproduce: "python3 claimlib/modules/totp/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/totp/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/totp/artifacts/totp.json"
 
   - id: CLAIM-LIB-PBKDF2-001
     statement: >
@@ -710,7 +1004,13 @@ claims:
       oracle_matched: 8
     caveat: >
       hashlib.pbkdf2_hmac is the independent oracle and is NOT called inside the vendored module. Correctness is over a fixed reference set, not proven for every input. PBKDF2 is a deliberately slow password KDF; choose a high iteration count (>= hundreds of thousands for SHA-256 today) and a unique random salt per password. This pure-Python implementation is far slower than the C stdlib one and is not constant-time; for production password storage prefer scrypt or argon2.
-    reproduce: "python3 claimlib/modules/pbkdf2/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/pbkdf2/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/pbkdf2/artifacts/pbkdf2.json"
 
   - id: CLAIM-LIB-HKDF-001
     statement: >
@@ -725,7 +1025,13 @@ claims:
       mismatches: 0
     caveat: >
       The RFC 5869 published vectors are the independent oracle. Correctness is demonstrated over those fixed vectors (SHA-256), not proven for every input. HKDF derives keys from an already-high-entropy secret (a Diffie-Hellman shared secret, a master key); it is NOT a password hash -- run a low-entropy password through PBKDF2/scrypt/argon2 first. Bind context into the info parameter for domain separation between derived keys.
-    reproduce: "python3 claimlib/modules/hkdf/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/hkdf/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/hkdf/artifacts/hkdf.json"
 
   - id: CLAIM-LIB-PERCENTILE-001
     statement: >
@@ -741,7 +1047,13 @@ claims:
       nearest_rank_correct: 5
     caveat: >
       statistics is the independent oracle and is NOT imported by the vendored module. Two methods are provided: linear (the numpy default / statistics 'inclusive' interpolation) and nearest_rank; other conventions (exclusive, lower/higher/midpoint) are out of scope. Correctness is demonstrated over a fixed battery, not proven for every dataset; percentiles are exact over the given data, not a streaming estimate.
-    reproduce: "python3 claimlib/modules/percentile/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/percentile/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/percentile/artifacts/percentile.json"
 
   - id: CLAIM-LIB-APDEX-001
     statement: >
@@ -756,7 +1068,13 @@ claims:
       zone_correct: 4
     caveat: >
       Correctness is demonstrated over a fixed hand-computed battery, not proven for every input; the score is rounded to 4 decimal places. The threshold model is the standard single-T Apdex (tolerating boundary fixed at 4T); it does not model per-endpoint thresholds or weighted samples, and it fails closed on an empty sample set or non-positive T.
-    reproduce: "python3 claimlib/modules/apdex/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/apdex/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/apdex/artifacts/apdex.json"
 
   - id: CLAIM-LIB-CSV-RFC4180-001
     statement: >
@@ -772,7 +1090,13 @@ claims:
       roundtrip_matched: 5
     caveat: >
       The stdlib csv module is the independent oracle and is NOT imported by the vendored module. Correctness is demonstrated over a fixed battery of RFC-4180-conformant inputs, not proven for every input; the codec models the RFC 4180 core (single-character delimiter and quotechar, doubled-quote escaping, CRLF/LF records) and not dialect extras like comment lines, skipinitialspace, or alternate escape characters.
-    reproduce: "python3 claimlib/modules/csv_rfc4180/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/csv_rfc4180/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/csv_rfc4180/artifacts/csv_rfc4180.json"
 
   - id: CLAIM-LIB-VARINT-001
     statement: >
@@ -788,7 +1112,13 @@ claims:
       unsigned_roundtrip_ok: 76
     caveat: >
       Correctness is demonstrated over the published vectors plus a wide round-trip range, not proven for every integer. Unsigned values must be non-negative; decoding rejects a truncated varint and one exceeding 64 bits. This is the base-128 LEB128 / protobuf wire encoding, not the SQLite or Git variants.
-    reproduce: "python3 claimlib/modules/varint/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/varint/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/varint/artifacts/varint.json"
 
   - id: CLAIM-LIB-PEM-001
     statement: >
@@ -803,7 +1133,13 @@ claims:
       mismatches: 0
     caveat: >
       The stdlib base64 is the independent oracle for the body. Correctness is demonstrated over a fixed battery, not proven for every input. The module handles the RFC 7468 encapsulation (BEGIN/END labels, 64-column base64, matching END label); it does NOT parse the DER structure inside, validate certificates, or support the optional headers of the legacy RFC 1421 privacy-enhanced-mail format.
-    reproduce: "python3 claimlib/modules/pem/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/pem/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/pem/artifacts/pem.json"
 
   - id: CLAIM-LIB-SPKI-PIN-001
     statement: >
@@ -818,7 +1154,13 @@ claims:
       mismatches: 0
     caveat: >
       The stdlib hashlib and base64 are the independent oracles. Correctness is over a fixed battery, not proven for every input; the SPKI is treated as opaque bytes (the module does not extract the SPKI from a certificate -- pair it with an X.509 parser). Pinning is operationally risky: pin a backup key and set sane lifetimes, or a key rotation can lock clients out (the reason HPKP was deprecated for the browser HTTP header, though SPKI pinning remains standard for mobile/mTLS clients).
-    reproduce: "python3 claimlib/modules/spki_pin/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/spki_pin/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/spki_pin/artifacts/spki_pin.json"
 
   - id: CLAIM-LIB-LAMPORT-001
     statement: >
@@ -834,7 +1176,13 @@ claims:
       forgeries_accepted: 0
     caveat: >
       This is a ONE-TIME signature: signing two different messages under the same key leaks the private key and lets an attacker forge -- callers MUST use each key pair once (chain them under a Merkle tree, i.e. XMSS/SLH-DSA, to sign many messages). Correctness and rejection are demonstrated over a fixed battery, not proven for every input; keys/signatures are large (public key 16 KiB), and the deterministic seed-based keygen here is for reproducible evidence, not production key generation (which needs a secret random seed).
-    reproduce: "python3 claimlib/modules/lamport/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/lamport/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/lamport/artifacts/lamport.json"
 
   - id: CLAIM-LIB-NIST-CSF-001
     statement: >
@@ -850,7 +1198,13 @@ claims:
       mismatches: 0
     caveat: >
       The taxonomy is the independently-known NIST CSF 2.0 (CSWP 29) Function/Category structure; the module encodes Functions and Categories (not the finer Subcategories or Informative References) and scores simple category-level coverage, which is a planning aid, not a maturity assessment or a certification. Correctness is demonstrated over a fixed set of checks, not a claim that any particular program is 'compliant'.
-    reproduce: "python3 claimlib/modules/nist_csf/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/nist_csf/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/nist_csf/artifacts/nist_csf.json"
 
   - id: CLAIM-LIB-NIS2-001
     statement: >
@@ -865,7 +1219,13 @@ claims:
       mismatches: 0
     caveat: >
       The set of measures is the independently-known Article 21(2)(a)-(j) list; the module scores coverage of those ten headline measures, which is an internal gap-tracking aid, NOT legal advice or a determination of regulatory compliance (which depends on national transposition, proportionality to the entity, and competent-authority interpretation). Correctness is demonstrated over a fixed set of checks.
-    reproduce: "python3 claimlib/modules/nis2/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/nis2/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/nis2/artifacts/nis2.json"
 
   - id: CLAIM-LIB-SOC2-001
     statement: >
@@ -881,7 +1241,13 @@ claims:
       mismatches: 0
     caveat: >
       The taxonomy is the independently-known AICPA Trust Services Criteria structure; the module encodes the five categories and the nine Common Criteria series (not the individual points of focus or the category-specific criteria for Availability/PI/Confidentiality/Privacy) and scores simple criteria-level coverage, which is a readiness aid, not a SOC 2 report or an auditor's opinion.
-    reproduce: "python3 claimlib/modules/soc2/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/soc2/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/soc2/artifacts/soc2.json"
 
   - id: CLAIM-LIB-ISO27001-001
     statement: >
@@ -897,7 +1263,13 @@ claims:
       mismatches: 0
     caveat: >
       The theme structure and per-theme control counts are the independently-known Annex A:2022 taxonomy; the module validates a control's theme and in-range number (A.<5-8>.<n>) and scores theme-level coverage, but does not carry each control's title or the ISO/IEC 27002 implementation guidance, and coverage is a planning aid, not a certification.
-    reproduce: "python3 claimlib/modules/iso27001/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/iso27001/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/iso27001/artifacts/iso27001.json"
 
   - id: CLAIM-LIB-PCI-DSS-001
     statement: >
@@ -913,7 +1285,13 @@ claims:
       mismatches: 0
     caveat: >
       The requirement-and-goal structure is the independently-known PCI DSS v4.0 taxonomy; the module encodes the twelve top-level requirements and their goal grouping (not the hundreds of sub-requirements or the customized-approach/compensating-control options) and scores requirement-level coverage, which is a scoping and gap-tracking aid, not an Attestation of Compliance or a QSA assessment.
-    reproduce: "python3 claimlib/modules/pci_dss/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/pci_dss/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/pci_dss/artifacts/pci_dss.json"
 
   - id: CLAIM-LIB-BENFORD-001
     statement: >
@@ -929,7 +1307,13 @@ claims:
       digit_ok: 10
     caveat: >
       Benford's Law is a SCREEN, not proof: many legitimate datasets (bounded ranges, assigned numbers like invoice IDs, small samples) do not follow it, and conformance does not prove data is genuine nor non-conformance prove fraud. The default MAD threshold (0.015, 'close conformity' per Nigrini) is a heuristic. Correctness is demonstrated over a fixed battery of the formula, digit extraction, and statistic behaviour, not proven for every dataset.
-    reproduce: "python3 claimlib/modules/benford/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/benford/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/benford/artifacts/benford.json"
 
   - id: CLAIM-LIB-DOUBLE-ENTRY-001
     statement: >
@@ -945,7 +1329,13 @@ claims:
       classify_correct: 5
     caveat: >
       The invariant checked is the fundamental balancing identity (total debits == total credits, net balances sum to zero) over a fixed battery, demonstrated not proven for every journal. It does not model account normal-balance sides, chart-of-accounts semantics, multi-currency, sub-ledgers, or period close; amounts are non-negative integer minor units, and the caller supplies well-formed postings.
-    reproduce: "python3 claimlib/modules/double_entry/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/double_entry/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/double_entry/artifacts/double_entry.json"
 
   - id: CLAIM-LIB-AUDIT-SAMPLING-001
     statement: >
@@ -961,7 +1351,13 @@ claims:
       consistency_ok: 9
     caveat: >
       The reliability factors are the published AICPA Audit Guide Poisson values (rounded), tabulated only for confidence 90/95/99% and 0-3 expected deviations; the module sizes an ATTRIBUTE sample (tests of controls) and does not cover monetary-unit (dollar-unit) sampling, variables sampling, or finite-population correction. Sizing is a planning aid; evaluating results and the sufficiency of evidence remains the auditor's judgment.
-    reproduce: "python3 claimlib/modules/audit_sampling/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/audit_sampling/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/audit_sampling/artifacts/audit_sampling.json"
 
   - id: CLAIM-LIB-CHACHA20-001
     statement: >
@@ -977,7 +1373,13 @@ claims:
       roundtrips_ok: 7
     caveat: >
       Confidentiality only: ChaCha20 provides no integrity -- an attacker can flip ciphertext bits; use an AEAD (ChaCha20-Poly1305) in real protocols and NEVER reuse a (key, nonce) pair. Pure-Python throughput is far below native crypto, and the implementation is not constant-time: this artifact is for verification, vendoring into audit/teaching contexts, and cross-checking -- not bulk or side-channel-sensitive encryption. Correctness is demonstrated over the published vector set, not proven for all inputs.
-    reproduce: "python3 claimlib/modules/chacha20/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/chacha20/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/chacha20/artifacts/chacha20.json"
 
   - id: CLAIM-LIB-JWT-HS256-001
     statement: >
@@ -993,7 +1395,13 @@ claims:
       rejections_correct: 8
     caveat: >
       HS256 (symmetric HMAC-SHA256) only: no RSA/ECDSA support, and the verifier accepts exclusively alg=HS256 by design. Claims validation covers exp/nbf with caller-supplied time (the module never reads a clock); aud/iss/sub semantics, key management, rotation and revocation are the caller's responsibility. The published-example and adversarial batteries demonstrate, not prove, correctness for all tokens.
-    reproduce: "python3 claimlib/modules/jwt_hs256/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/jwt_hs256/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/jwt_hs256/artifacts/jwt_hs256.json"
 
   - id: CLAIM-LIB-PUNYCODE-001
     statement: >
@@ -1009,7 +1417,13 @@ claims:
       stdlib_ok: 56
     caveat: >
       Raw Punycode only: no 'xn--' ACE prefix handling and no IDNA normalization (case folding, ContextJ, bidi rules) -- pair it with an IDNA layer for real domain processing. Mixed-case annotation (RFC 3492 appendix A) is intentionally not implemented: the encoder emits lowercase digits as IDNA requires, and sample (I)'s expected form is the canonical lowercase spelling.
-    reproduce: "python3 claimlib/modules/punycode/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/punycode/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/punycode/artifacts/punycode.json"
 
   - id: CLAIM-LIB-DNS-NAME-001
     statement: >
@@ -1025,7 +1439,13 @@ claims:
       equality_matched: 5
     caveat: >
       Hostname (LDH) validation per RFC 1035 section 2.3.4 and RFC 1123 section 2.1 -- not general DNS-name validation (DNS proper permits arbitrary binary labels), and not IDNA: Unicode names must be Punycode/IDNA-encoded first. Underscore service labels (e.g. _sip._tcp) are non-hostname names and are rejected unless the caller opts in.
-    reproduce: "python3 claimlib/modules/dns_name/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/dns_name/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/dns_name/artifacts/dns_name.json"
 
   - id: CLAIM-LIB-ERLANG-B-001
     statement: >
@@ -1042,7 +1462,13 @@ claims:
       inverse_ok: 3
     caveat: >
       The Erlang B model assumes Poisson arrivals, blocked-calls-cleared (no retry, no queueing) and infinite sources -- real traffic with redial or burstiness needs Erlang C or engineering margin. Published table loads are rounded to 3-4 significant figures, so table rows are checked to 1% relative and the inverse to the same tolerance; the recursion itself is exact to float precision.
-    reproduce: "python3 claimlib/modules/erlang_b/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/erlang_b/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/erlang_b/artifacts/erlang_b.json"
 
   - id: CLAIM-LIB-KID-001
     statement: >
@@ -1059,7 +1485,13 @@ claims:
       orgnr_agreement: 1027
     caveat: >
       Check-digit math per the Nets/Mastercard Payment Services OCR giro system specification -- MOD10 (Luhn weights 2,1 right-to-left) and MOD11 (weights 2..7 cyclic right-to-left, remainder 1 meaning no valid digit). The module enforces the outer 2-25-digit bound; the minimum KID length and which variant applies are per OCR agreement with the bank and must be enforced by the caller. A valid check digit proves well-formedness, never that the invoice exists.
-    reproduce: "python3 claimlib/modules/kid/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/kid/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/kid/artifacts/kid.json"
 
   - id: CLAIM-LIB-ANNUITY-001
     statement: >
@@ -1076,7 +1508,13 @@ claims:
       identity_checks: 24
     caveat: >
       Constant-rate annuity mathematics in integer minor units: no fees, no rate changes, no day-count conventions, no grace periods -- and the final payment absorbs cumulative rounding by design (it can differ from the constant payment by a few minor units). Norwegian 'effektiv rente' (EU APR) disclosure math is a different calculation not provided here.
-    reproduce: "python3 claimlib/modules/annuity/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/annuity/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/annuity/artifacts/annuity.json"
 
   - id: CLAIM-LIB-BLOOM-001
     statement: >
@@ -1093,7 +1531,13 @@ claims:
       formula_ok: 5
     caveat: >
       No-false-negatives is verified exhaustively for the fixed battery and holds by construction for any inserted element, but the false-POSITIVE rate is probabilistic: the classical formula assumes independent uniform hash functions, and the SHA-256 double-hashing here approximates that. No deletion support (that needs a counting filter); serialized filters are only comparable across identical (m, k) parameters.
-    reproduce: "python3 claimlib/modules/bloom_filter/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/bloom_filter/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/bloom_filter/artifacts/bloom_filter.json"
 
   - id: CLAIM-LIB-UUID-001
     statement: >
@@ -1111,7 +1555,13 @@ claims:
       bit_checks_ok: 128
     caveat: >
       Deterministic name-based UUIDs only (v3 MD5, v5 SHA-1) plus parse/format/inspect: no random v4 or time-based v1/v6/v7 GENERATION, since the module refuses nondeterminism by design (inspection of those versions works). Name-based UUIDs are deterministic by specification: the same namespace and name always produce the same UUID -- do not use them where unlinkability matters. MD5/SHA-1 here are identity derivations per the RFC, not security primitives.
-    reproduce: "python3 claimlib/modules/uuid_tools/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/uuid_tools/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/uuid_tools/artifacts/uuid_tools.json"
 
   - id: CLAIM-LIB-BASE58-001
     statement: >
@@ -1127,7 +1577,13 @@ claims:
       roundtrip_ok: 14
     caveat: >
       Raw Base58 only -- NOT Base58Check: no version byte and no double-SHA-256 checksum, so a typo in an address-like string is not detected at this layer. The alphabet is the Bitcoin one (no 0, O, I, l); other ecosystems (Ripple, Flickr) permute it. Decoding is strict: any character outside the alphabet fails closed.
-    reproduce: "python3 claimlib/modules/base58/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/base58/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/base58/artifacts/base58.json"
 
   - id: CLAIM-LIB-PT100-001
     statement: >
@@ -1145,7 +1601,13 @@ claims:
       roundtrip_ok: 1051
     caveat: >
       This is the STANDARD IEC 60751 curve (alpha = 0.00385 sensors, -200..850 degC), not a calibration: a physical sensor has a tolerance class (AA/A/B/C), lead-wire resistance, self-heating and drift that this module does not model. Individual sensor calibration replaces the standard coefficients with fitted ones.
-    reproduce: "python3 claimlib/modules/pt100/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/pt100/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/pt100/artifacts/pt100.json"
 
   - id: CLAIM-LIB-SLO-BURNRATE-001
     statement: >
@@ -1162,7 +1624,13 @@ claims:
       policy_tiers_ok: 3
     caveat: >
       The arithmetic of the Workbook's method, not an alerting system: it computes burn rates, thresholds and windows -- your monitoring stack must measure the error ratios. The published table assumes a 30-day SLO period; other periods rescale via the same formula. Threshold comparisons are strict-greater by design, so a ratio exactly at threshold does not fire.
-    reproduce: "python3 claimlib/modules/slo_burnrate/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/slo_burnrate/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/slo_burnrate/artifacts/slo_burnrate.json"
 
   - id: CLAIM-LIB-EWMA-001
     statement: >
@@ -1178,7 +1646,13 @@ claims:
       nist_values_matched: 21
     caveat: >
       EWMA smoothing and control-limit arithmetic only: choosing lambda and L, estimating sigma, and acting on out-of-control signals are process decisions. The NIST example is reproduced at its published rounding; the exact-rational oracle proves the arithmetic, not the statistical appropriateness of EWMA for a given signal.
-    reproduce: "python3 claimlib/modules/ewma/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/ewma/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/ewma/artifacts/ewma.json"
 
   - id: CLAIM-LIB-CIS-001
     statement: >
@@ -1195,7 +1669,13 @@ claims:
       ig1_safeguards: 56
     caveat: >
       A faithful encoding of the framework's structure and counts, not the safeguard texts (vendor those from CIS directly under their license) and not an assessment: coverage scoring reports what the caller declares implemented. Framework versions matter -- these counts are v8.1 (2024); v8.0 distributed safeguards differently.
-    reproduce: "python3 claimlib/modules/cis_controls/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/cis_controls/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/cis_controls/artifacts/cis_controls.json"
 
   - id: CLAIM-LIB-GDPR-001
     statement: >
@@ -1212,7 +1692,13 @@ claims:
       partition_ok: 1
     caveat: >
       An encoding of the Regulation's published structure and enumerations, not legal advice: implementing all Article 32 measures does not make processing lawful, and coverage scoring reports what the caller declares. Article texts are not embedded -- read them at EUR-Lex; national implementations add member-state specifics on top.
-    reproduce: "python3 claimlib/modules/gdpr/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/gdpr/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/gdpr/artifacts/gdpr.json"
 
   - id: CLAIM-LIB-MUS-001
     statement: >
@@ -1228,5 +1714,11 @@ claims:
       top_stratum_guarantee: 1
     caveat: >
       Fixed-interval (systematic) PPS selection and tainting projection in exact arithmetic -- not the full MUS evaluation: upper-misstatement limits with reliability factors, expansion factors for expected misstatement, and sample-size planning live in the audit_sampling module and the auditor's judgment. Negative book values are rejected (the guide samples credits separately), and the selection start is caller-supplied, not generated.
-    reproduce: "python3 claimlib/modules/mus_sampling/evidence.py"
+    reproduce_argv:
+      - "python3"
+      - "modules/mus_sampling/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/mus_sampling/artifacts/mus_sampling.json"
 

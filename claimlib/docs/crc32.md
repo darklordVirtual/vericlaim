@@ -1,6 +1,6 @@
 # CRC-32 (IEEE 802.3) checksum
 
-*Subject area: Data / Integrity & Checksums. Language: python. Vendorable bundle `5f727ec439d9`.*
+*Subject area: Data / Integrity & Checksums. Language: python. Vendorable bundle `e7555b4b4f5e`.*
 
 CRC-32 (IEEE 802.3) is the cyclic redundancy check used by zip, gzip, PNG and Ethernet to catch accidental data corruption. It treats the message as a polynomial over GF(2) and computes the remainder modulo the reflected generator polynomial 0xEDB88320, with input/output reflected and init/final XOR of 0xFFFFFFFF, yielding an unsigned 32-bit value. This module implements the standard byte-wise table algorithm directly (no zlib inside), so you can vendor a dependency-free checksum; the claim proves it matches the published check vectors and agrees byte-for-byte with zlib.crc32, so you inherit a checked implementation rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `crc32.py` into your project, byte-exact, with a generated binding test th
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/5f727ec439d975c7ee63dc5c1b66347d08d1a8ae3e3fcd183566e38b55a850e2 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/e7555b4b4f5e51b8b40fd54a529210e1e51c45856ee3cbb5ba887c24756515d3 --target .
 ```
 
 ## References

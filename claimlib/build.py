@@ -139,10 +139,24 @@ def run_evidence(mod: dict) -> dict:
     return json.loads(art.read_text(encoding="utf-8"))
 
 
+def reproduce_argv(mod: dict) -> list:
+    """Declarative reproduce: run the evidence with an isolated --output-dir
+    (workspace-relative paths; the runner's cwd is the claimlib root). Python
+    evidence honours --output-dir via _util.emit; node evidence goes through
+    the reproduce_node.py shim so the artifact is CREATED from scratch."""
+    lg = lang_of(mod)
+    if mod.get("lang", "python") == "python":
+        return ["python3", f"{lg['subdir']}/{mod['name']}/{lg['evidence']}",
+                "--output-dir", "{output_dir}"]
+    return ["python3", "reproduce_node.py", mod["name"],
+            "--output-dir", "{output_dir}"]
+
+
 def register_entry(mod: dict, metrics: dict) -> str:
     cid = mod["claim_id"]
     metric_lines = "\n".join(f"      {k}: {fmt(metrics[k])}"
                              for k in mod["register_metrics"])
+    argv_lines = "\n".join(f'      - "{a}"' for a in reproduce_argv(mod))
     return f"""\
   - id: {cid}
     statement: >
@@ -154,7 +168,10 @@ def register_entry(mod: dict, metrics: dict) -> str:
 {metric_lines}
     caveat: >
 {yaml_block(mod['caveat'], "      ")}
-    reproduce: "{reproduce_cmd(mod)}"
+    reproduce_argv:
+{argv_lines}
+    reproduce_outputs:
+      - "{artifact_rel(mod)}"
 """
 
 
