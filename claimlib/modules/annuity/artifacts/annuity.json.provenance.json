@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "annuity.json",
+  "artifact_sha256": "84d1379beb9daee3f48d431ed6c7ab85e394a233bf3cdc322b19bdaf7b45abee",
+  "script": "python3 claimlib/modules/annuity/evidence.py",
+  "git_commit": "a2304ea844d3f18bc21db9b8a16a3990133ce1b4",
+  "generated_at": "2026-07-13T07:24:05.150501+00:00",
+  "produced_by": "claimlib"
+}

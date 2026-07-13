@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "cis_controls.json",
+  "artifact_sha256": "db20d597f68d7765879d7c530c3ed49c6792544dd70bff00e26fae7b221612b0",
+  "script": "python3 claimlib/modules/cis_controls/evidence.py",
+  "git_commit": "af03cd23cb223256bb23b49a4b149b32b95e5028",
+  "generated_at": "2026-07-12T21:27:50.236207+00:00",
+  "produced_by": "claimlib"
+}

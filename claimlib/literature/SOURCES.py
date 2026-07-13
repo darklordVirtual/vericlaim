@@ -1205,4 +1205,286 @@ SOURCES = [
                    "order, materialised on a null-prototype object so keys like \"__proto__\" "
                    "become ordinary buckets.",
     },
+    {
+        "id": "rfc-8439",
+        "title": "ChaCha20 and Poly1305 for IETF Protocols",
+        "authors": ["Y. Nir", "A. Langley"],
+        "publisher": "IETF",
+        "year": 2018,
+        "kind": "rfc",
+        "identifier": "RFC 8439",
+        "url": "https://www.rfc-editor.org/rfc/rfc8439",
+        "summary": "Specifies the ChaCha20 stream cipher (the IETF variant with a 96-bit nonce "
+                   "and 32-bit block counter) and the Poly1305 authenticator, and their AEAD "
+                   "composition. Defines the quarter round, the 20-round block function over a "
+                   "4x4 state of little-endian 32-bit words, and provides the reference test "
+                   "vectors (quarter round, block function keystream, and the 'sunscreen' "
+                   "encryption example) that conforming implementations must reproduce.",
+    },
+    {
+        "id": "rfc-7515",
+        "title": "JSON Web Signature (JWS)",
+        "authors": ["M. Jones", "J. Bradley", "N. Sakimura"],
+        "publisher": "IETF",
+        "year": 2015,
+        "kind": "rfc",
+        "identifier": "RFC 7515",
+        "url": "https://www.rfc-editor.org/rfc/rfc7515",
+        "summary": "Defines JSON Web Signature: digitally signed or MACed content represented "
+                   "with base64url-encoded header, payload and signature segments, including the "
+                   "compact serialization 'header.payload.signature' used by JWTs. Appendix A.1 "
+                   "gives the complete worked HS256 example -- exact octets of the protected "
+                   "header and payload and the resulting signature -- used as a conformance "
+                   "vector.",
+    },
+    {
+        "id": "rfc-7519",
+        "title": "JSON Web Token (JWT)",
+        "authors": ["M. Jones", "J. Bradley", "N. Sakimura"],
+        "publisher": "IETF",
+        "year": 2015,
+        "kind": "rfc",
+        "identifier": "RFC 7519",
+        "url": "https://www.rfc-editor.org/rfc/rfc7519",
+        "summary": "Defines the JSON Web Token: a compact claims representation carried as the "
+                   "payload of a JWS or JWE. Registers the standard claims -- iss, sub, aud, exp, "
+                   "nbf, iat, jti -- and their processing rules, including that expiration "
+                   "('exp') and not-before ('nbf') are NumericDate values compared against "
+                   "current time with optional small leeway.",
+    },
+    {
+        "id": "rfc-3492",
+        "title": "Punycode: A Bootstring encoding of Unicode for Internationalized Domain Names "
+                 "in Applications (IDNA)",
+        "authors": ["A. Costello"],
+        "publisher": "IETF",
+        "year": 2003,
+        "kind": "rfc",
+        "identifier": "RFC 3492",
+        "url": "https://www.rfc-editor.org/rfc/rfc3492",
+        "summary": "Defines Bootstring, a family of encodings of Unicode strings into the basic "
+                   "code points, and Punycode, its instantiation with the DNS parameters (base "
+                   "36, tmin 1, tmax 26, skew 38, damp 700, initial bias 72). Specifies the "
+                   "encoding and decoding algorithms, the bias adaptation function, overflow "
+                   "handling, and section 7.1's sample strings in eleven languages that "
+                   "implementations reproduce as conformance vectors.",
+    },
+    {
+        "id": "rfc-1035",
+        "title": "Domain names - implementation and specification",
+        "authors": ["P. Mockapetris"],
+        "publisher": "IETF",
+        "year": 1987,
+        "kind": "rfc",
+        "identifier": "RFC 1035 (STD 13)",
+        "url": "https://www.rfc-editor.org/rfc/rfc1035",
+        "summary": "The core DNS specification: message formats, resource records, name "
+                   "compression, and the size limits of section 2.3.4 -- labels of at most 63 "
+                   "octets and names of at most 255 octets in wire encoding -- together with the "
+                   "preferred letter-digit-hyphen name syntax of section 2.3.1.",
+    },
+    {
+        "id": "rfc-1123",
+        "title": "Requirements for Internet Hosts - Application and Support",
+        "authors": ["R. Braden (ed.)"],
+        "publisher": "IETF",
+        "year": 1989,
+        "kind": "rfc",
+        "identifier": "RFC 1123 (STD 3)",
+        "url": "https://www.rfc-editor.org/rfc/rfc1123",
+        "summary": "Host requirements for application-layer protocols. Section 2.1 relaxes the "
+                   "RFC 952 hostname syntax to permit labels beginning with a digit, keeps the "
+                   "letter-digit-hyphen alphabet and per-label limits, and is the reason names "
+                   "like '3com.com' are valid hostnames.",
+    },
+    {
+        "id": "erlang-1917",
+        "title": "Solution of some Problems in the Theory of Probabilities of Significance in "
+                 "Automatic Telephone Exchanges",
+        "authors": ["A. K. Erlang"],
+        "publisher": "Elektroteknikeren (English translation: The Post Office Electrical Engineers' Journal, 1918)",
+        "year": 1917,
+        "kind": "paper",
+        "identifier": "Elektroteknikeren, vol. 13 (1917); P.O.E.E.J. vol. 10 (1918), pp. 189-197",
+        "url": "https://en.wikipedia.org/wiki/Erlang_(unit)#cite_note-erlang1917-4",
+        "summary": "Erlang's derivation of the loss and waiting-time formulas for telephone "
+                   "exchanges under Poisson traffic, including the B-formula giving the "
+                   "probability that a call offered to a fully occupied group of circuits is "
+                   "lost. The foundation of teletraffic engineering: circuit-group dimensioning "
+                   "tables used for a century derive from this paper's formulas.",
+    },
+    {
+        "id": "nets-ocr-giro",
+        "title": "Systemspesifikasjon OCR giro",
+        "authors": ["Nets Norway / Mastercard Payment Services"],
+        "publisher": "Mastercard Payment Services (formerly Nets)",
+        "year": 2018,
+        "kind": "specification",
+        "identifier": "OCR giro systemdokumentasjon, versjon 4.0 (2018)",
+        "url": "https://www.mastercardpaymentservices.com/media/ruqn3ort/ocr-systemspesifikasjon_no_mps.pdf",
+        "summary": "The system specification for the Norwegian OCR giro payment-collection "
+                   "service: record types and layouts for transaction files, and the KID "
+                   "(kundeidentifikasjon) rules -- a 2-25 digit customer reference whose final "
+                   "check digit is computed under modulus 10 (Luhn weights 2,1) or modulus 11 "
+                   "(weights 2-7), both applied right to left, with worked examples of both "
+                   "calculations.",
+    },
+    {
+        "id": "kellison-2009",
+        "title": "The Theory of Interest",
+        "authors": ["Stephen G. Kellison"],
+        "publisher": "McGraw-Hill/Irwin",
+        "year": 2009,
+        "kind": "book",
+        "identifier": "3rd edition, ISBN 978-0-07-338244-9",
+        "url": "https://www.mheducation.com/highered/product/theory-interest-kellison/M9780073382449.html",
+        "summary": "The standard actuarial text on interest theory: accumulation and discount, "
+                   "annuities-certain and their present values, amortization schedules and "
+                   "sinking funds. Chapter 5 develops exactly the loan-amortization identities "
+                   "this module enforces -- the level payment P*i/(1-(1+i)^-n), "
+                   "interest-then-principal splitting, and the balance recursion that terminates "
+                   "at zero.",
+    },
+    {
+        "id": "bloom-1970",
+        "title": "Space/Time Trade-offs in Hash Coding with Allowable Errors",
+        "authors": ["Burton H. Bloom"],
+        "publisher": "ACM",
+        "year": 1970,
+        "kind": "paper",
+        "identifier": "Communications of the ACM, vol. 13, no. 7, pp. 422-426; doi:10.1145/362686.362692",
+        "url": "https://doi.org/10.1145/362686.362692",
+        "summary": "Introduces the Bloom filter: hash-coded set membership that permits a "
+                   "controlled rate of false positives in exchange for dramatic space savings, "
+                   "with no false negatives. Derives the space/error trade-off analysis from "
+                   "which the standard false-positive formula and the optimal number of hash "
+                   "functions follow.",
+    },
+    {
+        "id": "rfc-9562",
+        "title": "Universally Unique IDentifiers (UUIDs)",
+        "authors": ["K. Davis", "B. Peabody", "P. Leach"],
+        "publisher": "IETF",
+        "year": 2024,
+        "kind": "rfc",
+        "identifier": "RFC 9562 (STD 97)",
+        "url": "https://www.rfc-editor.org/rfc/rfc9562",
+        "summary": "The current UUID standard, obsoleting RFC 4122: defines the 128-bit layout, "
+                   "the variant and version fields, and generation algorithms for versions 1-8, "
+                   "including the name-based v3 (MD5) and v5 (SHA-1) constructions over a "
+                   "namespace UUID concatenated with a name, and the new time-ordered v6/v7. "
+                   "Provides test vectors for each version that implementations reproduce.",
+    },
+    {
+        "id": "base58-draft",
+        "title": "The Base58 Encoding Scheme",
+        "authors": ["M. Sporny (ed.)"],
+        "publisher": "IETF (Internet-Draft, work in progress)",
+        "year": 2021,
+        "kind": "specification",
+        "identifier": "draft-msporny-base58-03",
+        "url": "https://datatracker.ietf.org/doc/html/draft-msporny-base58-03",
+        "summary": "An Internet-Draft documenting the Base58 encoding as used by Bitcoin and "
+                   "IPFS: the 58-character alphabet omitting 0, O, I and l, big-integer base "
+                   "conversion, and the preservation of leading zero bytes as leading '1' "
+                   "characters. Includes the test vectors ('Hello World!', the '11233QC4' "
+                   "leading-zero case) that implementations reproduce. Never published as an RFC "
+                   "-- cited as the de facto written specification of the scheme.",
+    },
+    {
+        "id": "iec-60751",
+        "title": "Industrial platinum resistance thermometers and platinum temperature sensors",
+        "authors": ["IEC"],
+        "publisher": "IEC",
+        "year": 2022,
+        "kind": "standard",
+        "identifier": "IEC 60751:2022 (Edition 3.0)",
+        "url": "https://webstore.iec.ch/en/publication/63753",
+        "summary": "Specifies the resistance-versus-temperature relationship for industrial "
+                   "platinum resistance thermometers over -200 degC to +850 degC -- the "
+                   "Callendar-Van Dusen equations with the standard alpha = 0.00385 coefficients "
+                   "-- together with tolerance classes (AA, A, B, C) and their validity ranges. "
+                   "The standard's reference table of R(t) values is the conformance oracle for "
+                   "RTD conversion code.",
+    },
+    {
+        "id": "sre-workbook-2018",
+        "title": "The Site Reliability Workbook: Practical Ways to Implement SRE",
+        "authors": ["B. Beyer", "N. R. Murphy", "D. K. Rensin", "K. Kawahara", "S. Thorne (eds.)"],
+        "publisher": "O'Reilly Media",
+        "year": 2018,
+        "kind": "book",
+        "identifier": "ISBN 978-1-492-02950-2",
+        "url": "https://sre.google/workbook/table-of-contents/",
+        "summary": "The companion volume to Site Reliability Engineering with concrete "
+                   "implementation practice. Chapter 5, 'Alerting on SLOs', develops error-budget "
+                   "burn-rate alerting and publishes the recommended multiwindow, multi-burn-rate "
+                   "policy for a 30-day period: burn rate 14.4 over 1 hour and 6 over 6 hours as "
+                   "pages, 1 over 3 days as a ticket, each long window paired with a 1/12 short "
+                   "confirmation window.",
+    },
+    {
+        "id": "roberts-1959",
+        "title": "Control Chart Tests Based on Geometric Moving Averages",
+        "authors": ["S. W. Roberts"],
+        "publisher": "Taylor & Francis (Technometrics)",
+        "year": 1959,
+        "kind": "paper",
+        "identifier": "Technometrics, vol. 1, no. 3, pp. 239-250; doi:10.1080/00401706.1959.10489860",
+        "url": "https://doi.org/10.1080/00401706.1959.10489860",
+        "summary": "Introduces the geometric (exponentially weighted) moving-average control "
+                   "chart: each point is a weighted average of the current observation and the "
+                   "previous chart value, giving memory that detects small persistent shifts "
+                   "faster than Shewhart charts. The origin of the EWMA chart and its "
+                   "control-limit analysis.",
+    },
+    {
+        "id": "nist-sematech",
+        "title": "NIST/SEMATECH e-Handbook of Statistical Methods",
+        "authors": ["NIST/SEMATECH"],
+        "publisher": "NIST",
+        "year": 2012,
+        "kind": "book",
+        "identifier": "doi:10.18434/M32189, section 6.3.2.4 (EWMA Control Charts)",
+        "url": "https://www.itl.nist.gov/div898/handbook/",
+        "summary": "NIST's online engineering-statistics handbook. Section 6.3.2.4 defines the "
+                   "EWMA control chart, its variance factor "
+                   "lambda/(2-lambda)*(1-(1-lambda)^(2i)), and publishes a complete worked "
+                   "example -- a 20-point dataset with target 50, lambda 0.3 and the resulting "
+                   "EWMA series and control limits -- that implementations can reproduce "
+                   "value-for-value.",
+    },
+    {
+        "id": "cis-controls-v8-1",
+        "title": "CIS Critical Security Controls, Version 8.1",
+        "authors": ["Center for Internet Security"],
+        "publisher": "Center for Internet Security",
+        "year": 2024,
+        "kind": "framework",
+        "identifier": "CIS Controls v8.1",
+        "url": "https://www.cisecurity.org/controls/v8-1",
+        "summary": "The 2024 revision of the CIS Critical Security Controls: 18 prioritized "
+                   "Controls comprising 153 Safeguards, each assigned to cumulative "
+                   "Implementation Groups (IG1 essential cyber hygiene with 56 safeguards, IG2 "
+                   "with 130, IG3 with all 153). v8.1 aligns the Controls with NIST CSF 2.0 "
+                   "governance and adds asset-class and documentation refinements over v8.0 "
+                   "without changing the Control count.",
+    },
+    {
+        "id": "gdpr-2016-679",
+        "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+        "authors": ["European Parliament and Council of the European Union"],
+        "publisher": "Publications Office of the European Union",
+        "year": 2016,
+        "kind": "regulation",
+        "identifier": "Regulation (EU) 2016/679, OJ L 119, 4.5.2016, p. 1-88",
+        "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "summary": "The General Data Protection Regulation: 99 articles in 11 chapters governing "
+                   "the processing of personal data in the EU. Article 5 states the processing "
+                   "principles (lawfulness/fairness/transparency, purpose limitation, data "
+                   "minimisation, accuracy, storage limitation, integrity and confidentiality, "
+                   "accountability); Article 32 requires appropriate technical and organisational "
+                   "security measures including pseudonymisation/encryption, resilience, "
+                   "recoverability and regular effectiveness testing.",
+    },
 ]

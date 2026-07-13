@@ -1,0 +1,16 @@
+{
+  "checks": 10,
+  "checks_matched": 10,
+  "count_identity": 1,
+  "guide_projection_ok": 1,
+  "mismatches": 0,
+  "module": "mus_sampling",
+  "projection_recompute_ok": 4,
+  "reject_cases": 8,
+  "rejects_ok": 8,
+  "schema": "claimlib_evidence_v1",
+  "starts_checked": 500000,
+  "top_stratum_guarantee": 1,
+  "understatement_ok": 1,
+  "zero_never_selected": 1
+}

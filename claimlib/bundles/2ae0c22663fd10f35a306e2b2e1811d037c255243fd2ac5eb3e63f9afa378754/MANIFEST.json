@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/lamport.json": "b17bc79942374fe140efa2c53000cd934c56ce8fb9bc96620c8a4092531005a4",
+    "claim.json": "23f7285f877f70cccc0ea6cdaea8c7ffd5449147d1f98e0aceaa929cbba73a77",
+    "code/lamport.py": "eb2e5c2f79a4fbd5b1162ded1e201344b1adb146ddca691e5e3b2ce88b989009",
+    "provenance.json": "f6fec2d5f5834062f490b1b52d11cf1a9f490b0d55e832c119bee4535c68f1b6"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

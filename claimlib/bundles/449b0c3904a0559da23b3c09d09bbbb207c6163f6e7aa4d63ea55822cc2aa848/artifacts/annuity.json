@@ -1,0 +1,15 @@
+{
+  "checks": 32,
+  "checks_matched": 32,
+  "decimal_agreement": 6,
+  "identity_checks": 24,
+  "identity_ok": 24,
+  "mismatches": 0,
+  "module": "annuity",
+  "reject_cases": 7,
+  "rejects_ok": 7,
+  "schema": "claimlib_evidence_v1",
+  "textbook_ok": 1,
+  "textbook_payment_mu": 59955,
+  "zero_rate_ok": 1
+}

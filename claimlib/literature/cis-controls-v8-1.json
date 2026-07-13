@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Center for Internet Security"
+  ],
+  "id": "cis-controls-v8-1",
+  "identifier": "CIS Controls v8.1",
+  "kind": "framework",
+  "publisher": "Center for Internet Security",
+  "schema": "claimlib_literature_v1",
+  "summary": "The 2024 revision of the CIS Critical Security Controls: 18 prioritized Controls comprising 153 Safeguards, each assigned to cumulative Implementation Groups (IG1 essential cyber hygiene with 56 safeguards, IG2 with 130, IG3 with all 153). v8.1 aligns the Controls with NIST CSF 2.0 governance and adds asset-class and documentation refinements over v8.0 without changing the Control count.",
+  "summary_sha256": "c5793e4a95d1a823bafbfee4147331e4ca359c3df15c477e683e7f61ca758d15",
+  "title": "CIS Critical Security Controls, Version 8.1",
+  "url": "https://www.cisecurity.org/controls/v8-1",
+  "year": 2024
+}

@@ -1,0 +1,74 @@
+{
+  "checks": 18,
+  "checks_matched": 18,
+  "decimal_ok": 8,
+  "mismatches": 0,
+  "module": "pt100",
+  "reject_cases": 7,
+  "rejects_ok": 7,
+  "roundtrip_ok": 1051,
+  "scale_ok": 1,
+  "schema": "claimlib_evidence_v1",
+  "sweep_points": 1051,
+  "table_detail": [
+    {
+      "computed_ohm": 18.52008,
+      "decimal_ok": true,
+      "published_ohm": "18.5201",
+      "t_c": -200,
+      "table_ok": true
+    },
+    {
+      "computed_ohm": 60.25584,
+      "decimal_ok": true,
+      "published_ohm": "60.2558",
+      "t_c": -100,
+      "table_ok": true
+    },
+    {
+      "computed_ohm": 100.0,
+      "decimal_ok": true,
+      "published_ohm": "100.0000",
+      "t_c": 0,
+      "table_ok": true
+    },
+    {
+      "computed_ohm": 119.397125,
+      "decimal_ok": true,
+      "published_ohm": "119.3971",
+      "t_c": 50,
+      "table_ok": true
+    },
+    {
+      "computed_ohm": 138.5055,
+      "decimal_ok": true,
+      "published_ohm": "138.5055",
+      "t_c": 100,
+      "table_ok": true
+    },
+    {
+      "computed_ohm": 175.856,
+      "decimal_ok": true,
+      "published_ohm": "175.8560",
+      "t_c": 200,
+      "table_ok": true
+    },
+    {
+      "computed_ohm": 280.9775,
+      "decimal_ok": true,
+      "published_ohm": "280.9775",
+      "t_c": 500,
+      "table_ok": true
+    },
+    {
+      "computed_ohm": 390.481125,
+      "decimal_ok": true,
+      "published_ohm": "390.4811",
+      "t_c": 850,
+      "table_ok": true
+    }
+  ],
+  "table_ok": 8,
+  "table_points": 8,
+  "worst_roundtrip_degc": 3.64e-10
+}

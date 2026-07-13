@@ -1,0 +1,287 @@
+{
+  "cases": [
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "why": "63-octet label: RFC 1035 s2.3.4 maximum"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "why": "64-octet label exceeds RFC 1035 s2.3.4"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "why": "253-char presentation = 255 wire octets (max legal)"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "why": "254-char presentation = 256 wire octets (> 255)"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a",
+      "why": "127 one-octet labels: wire exactly 255"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a",
+      "why": "128 one-octet labels: wire 257 (> 255)"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "example.com",
+      "why": "plain two-label name"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "example.com.",
+      "why": "trailing dot = FQDN rooted at the DNS root"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": ".",
+      "why": "bare root: no host labels"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "",
+      "why": "empty name"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "a..b",
+      "why": "empty label between dots"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": ".example.com",
+      "why": "leading dot = empty first label"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "example.com..",
+      "why": "empty label before the root dot"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "a-b.example",
+      "why": "interior hyphen allowed (RFC 1035 s2.3.1)"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "-a.example",
+      "why": "label must not start with a hyphen"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "a-.example",
+      "why": "label must end with a letter or digit"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "3com.com",
+      "why": "digit-start label allowed (RFC 1123 s2.1)"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "xn--nxasmq6b.example",
+      "why": "double interior hyphen (A-label shape)"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "_dmarc.example.com",
+      "why": "underscore is not an LDH character"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "exa mple.com",
+      "why": "space is not an LDH character"
+    },
+    {
+      "computed_valid": false,
+      "correct": true,
+      "expected_valid": false,
+      "name": "b\u00fccher.example",
+      "why": "non-ASCII (IDN must be punycoded first)"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "a",
+      "why": "single-label host name"
+    },
+    {
+      "computed_valid": true,
+      "correct": true,
+      "expected_valid": true,
+      "name": "A.EXAMPLE.COM",
+      "why": "uppercase ASCII letters are legal LDH"
+    }
+  ],
+  "correct": 23,
+  "equality_checks": 5,
+  "equality_detail": [
+    {
+      "a": "ExAmPle.COM",
+      "b": "example.com",
+      "computed_equal": true,
+      "correct": true,
+      "expected_equal": true
+    },
+    {
+      "a": "EXAMPLE.COM.",
+      "b": "example.com",
+      "computed_equal": true,
+      "correct": true,
+      "expected_equal": true
+    },
+    {
+      "a": "example.com",
+      "b": "example.org",
+      "computed_equal": false,
+      "correct": true,
+      "expected_equal": false
+    },
+    {
+      "a": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "b": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "computed_equal": true,
+      "correct": true,
+      "expected_equal": true
+    },
+    {
+      "a": "a-b.example",
+      "b": "A-B.EXAMPLE.",
+      "computed_equal": true,
+      "correct": true,
+      "expected_equal": true
+    }
+  ],
+  "equality_matched": 5,
+  "mismatches": 0,
+  "module": "dns_name",
+  "n_cases": 23,
+  "schema": "claimlib_dns_name_v1",
+  "stdlib_label_checks": 4,
+  "stdlib_label_detail": [
+    {
+      "computed": true,
+      "correct": true,
+      "expected_accept": true,
+      "label_octets": 1,
+      "stdlib_idna": true
+    },
+    {
+      "computed": true,
+      "correct": true,
+      "expected_accept": true,
+      "label_octets": 63,
+      "stdlib_idna": true
+    },
+    {
+      "computed": false,
+      "correct": true,
+      "expected_accept": false,
+      "label_octets": 64,
+      "stdlib_idna": false
+    },
+    {
+      "computed": false,
+      "correct": true,
+      "expected_accept": false,
+      "label_octets": 0,
+      "stdlib_idna": false
+    }
+  ],
+  "stdlib_label_matched": 4,
+  "wire_checks": 6,
+  "wire_detail": [
+    {
+      "computed_octets": 3,
+      "correct": true,
+      "encoder_octets": 3,
+      "expected_octets": 3,
+      "name": "a"
+    },
+    {
+      "computed_octets": 13,
+      "correct": true,
+      "encoder_octets": 13,
+      "expected_octets": 13,
+      "name": "example.com"
+    },
+    {
+      "computed_octets": 17,
+      "correct": true,
+      "encoder_octets": 17,
+      "expected_octets": 17,
+      "name": "www.example.com"
+    },
+    {
+      "computed_octets": 65,
+      "correct": true,
+      "encoder_octets": 65,
+      "expected_octets": 65,
+      "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "computed_octets": 255,
+      "correct": true,
+      "encoder_octets": 255,
+      "expected_octets": 255,
+      "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    },
+    {
+      "computed_octets": 13,
+      "correct": true,
+      "encoder_octets": 13,
+      "expected_octets": 13,
+      "name": "example.com."
+    }
+  ],
+  "wire_matched": 6
+}

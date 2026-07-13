@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Nets Norway / Mastercard Payment Services"
+  ],
+  "id": "nets-ocr-giro",
+  "identifier": "OCR giro systemdokumentasjon, versjon 4.0 (2018)",
+  "kind": "specification",
+  "publisher": "Mastercard Payment Services (formerly Nets)",
+  "schema": "claimlib_literature_v1",
+  "summary": "The system specification for the Norwegian OCR giro payment-collection service: record types and layouts for transaction files, and the KID (kundeidentifikasjon) rules -- a 2-25 digit customer reference whose final check digit is computed under modulus 10 (Luhn weights 2,1) or modulus 11 (weights 2-7), both applied right to left, with worked examples of both calculations.",
+  "summary_sha256": "f1ccb561874a45550612ce2bbd6599b4350c562d2ff1184f6762b42dc4095180",
+  "title": "Systemspesifikasjon OCR giro",
+  "url": "https://www.mastercardpaymentservices.com/media/ruqn3ort/ocr-systemspesifikasjon_no_mps.pdf",
+  "year": 2018
+}

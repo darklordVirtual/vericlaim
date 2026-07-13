@@ -1,0 +1,40 @@
+{
+  "algebra_ok": 7,
+  "checks": 17,
+  "checks_matched": 17,
+  "mismatches": 0,
+  "module": "slo_burnrate",
+  "multiwindow_ok": 4,
+  "policy_tiers_ok": 3,
+  "reject_cases": 5,
+  "rejects_ok": 5,
+  "schema": "claimlib_evidence_v1",
+  "table_detail": [
+    {
+      "budget": 0.02,
+      "exact_ok": true,
+      "inverse_ok": true,
+      "rate_ok": true,
+      "short_ok": true,
+      "window_min": 60.0
+    },
+    {
+      "budget": 0.05,
+      "exact_ok": true,
+      "inverse_ok": true,
+      "rate_ok": true,
+      "short_ok": true,
+      "window_min": 360.0
+    },
+    {
+      "budget": 0.1,
+      "exact_ok": true,
+      "inverse_ok": true,
+      "rate_ok": true,
+      "short_ok": true,
+      "window_min": 4320.0
+    }
+  ],
+  "workbook_rows": 3,
+  "workbook_rows_ok": 3
+}

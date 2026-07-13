@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "A. Costello"
+  ],
+  "id": "rfc-3492",
+  "identifier": "RFC 3492",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines Bootstring, a family of encodings of Unicode strings into the basic code points, and Punycode, its instantiation with the DNS parameters (base 36, tmin 1, tmax 26, skew 38, damp 700, initial bias 72). Specifies the encoding and decoding algorithms, the bias adaptation function, overflow handling, and section 7.1's sample strings in eleven languages that implementations reproduce as conformance vectors.",
+  "summary_sha256": "ae228ea7abfe360579dee84f8ed1caa71e24d96f79c9f09f2419c471cabc6198",
+  "title": "Punycode: A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
+  "url": "https://www.rfc-editor.org/rfc/rfc3492",
+  "year": 2003
+}

@@ -19,4 +19,4 @@ on mismatch, so a silently-edited result artifact is caught in CI. On a Windows
 | `domains/cost_routing/artifacts/routing_report.json` | `9cadc90077058792f31b8bb12c70a06be6d1da40be76b7c572ce6246f729006c` |
 | `claims/selfimprove_envelope.json` | `3bb6fe76fdd276f52e768e0440768e42c95bd978bf8205ffc32348a366d86bfb` |
 | `claims/autonomous_cycle.json` | `7efd2cbcec7ba1511e93d5d011cfd54e6a654e0f427d73844bb2dc7f432c1ab6` |
-| `claims/claimlib_index.json` | `51c86088f3cb471fa567413930e2a98d1d6932999e7a6d28277390a6ffee8f38` |
+| `claims/claimlib_index.json` | `ea6c8be69bc6aa43723ef4a3e0ec458d5ef668fa9f34183dbac535f150d0c0fc` |

@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "B. Beyer",
+    "N. R. Murphy",
+    "D. K. Rensin",
+    "K. Kawahara",
+    "S. Thorne (eds.)"
+  ],
+  "id": "sre-workbook-2018",
+  "identifier": "ISBN 978-1-492-02950-2",
+  "kind": "book",
+  "publisher": "O'Reilly Media",
+  "schema": "claimlib_literature_v1",
+  "summary": "The companion volume to Site Reliability Engineering with concrete implementation practice. Chapter 5, 'Alerting on SLOs', develops error-budget burn-rate alerting and publishes the recommended multiwindow, multi-burn-rate policy for a 30-day period: burn rate 14.4 over 1 hour and 6 over 6 hours as pages, 1 over 3 days as a ticket, each long window paired with a 1/12 short confirmation window.",
+  "summary_sha256": "0b468a646fe2e2d5facca39f79d9ce1965d4b01a181228f626f69623e810103c",
+  "title": "The Site Reliability Workbook: Practical Ways to Implement SRE",
+  "url": "https://sre.google/workbook/table-of-contents/",
+  "year": 2018
+}

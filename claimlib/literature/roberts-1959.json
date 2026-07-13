@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "S. W. Roberts"
+  ],
+  "id": "roberts-1959",
+  "identifier": "Technometrics, vol. 1, no. 3, pp. 239-250; doi:10.1080/00401706.1959.10489860",
+  "kind": "paper",
+  "publisher": "Taylor & Francis (Technometrics)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces the geometric (exponentially weighted) moving-average control chart: each point is a weighted average of the current observation and the previous chart value, giving memory that detects small persistent shifts faster than Shewhart charts. The origin of the EWMA chart and its control-limit analysis.",
+  "summary_sha256": "f9f291b4f659e0e5143a3dee062f283d4af091e21c922b910e8a1d74be027b5a",
+  "title": "Control Chart Tests Based on Geometric Moving Averages",
+  "url": "https://doi.org/10.1080/00401706.1959.10489860",
+  "year": 1959
+}

@@ -29,11 +29,23 @@
     "title": "Fair Representation: Meeting the Ideal of One Man, One Vote",
     "url": "https://www.brookings.edu/books/fair-representation/"
   },
+  "base58-draft": {
+    "identifier": "draft-msporny-base58-03",
+    "summary_sha256": "77f5661cbbbf61cd6a068fa3c12e78964d0db9993aca985505760090b7f3c393",
+    "title": "The Base58 Encoding Scheme",
+    "url": "https://datatracker.ietf.org/doc/html/draft-msporny-base58-03"
+  },
   "benford-1938": {
     "identifier": "Proc. Am. Philos. Soc. 78(4):551-572",
     "summary_sha256": "fe6c372af4fff525b0b8841a2ea308a28f83ab65857b929ad868003da3dfa7e9",
     "title": "The Law of Anomalous Numbers",
     "url": "https://www.jstor.org/stable/984802"
+  },
+  "bloom-1970": {
+    "identifier": "Communications of the ACM, vol. 13, no. 7, pp. 422-426; doi:10.1145/362686.362692",
+    "summary_sha256": "3105b2203b4435811aa6f38c630a932a762e50aa45875723a8e469fb55965bad",
+    "title": "Space/Time Trade-offs in Hash Coding with Allowable Errors",
+    "url": "https://doi.org/10.1145/362686.362692"
   },
   "brooker-2015": {
     "identifier": "AWS Architecture Blog, 4 March 2015",
@@ -46,6 +58,12 @@
     "summary_sha256": "1580c3590c112aa58ad0ebf1b2d8cf4df281cedb2182c39bd0d1049a7d5f0364",
     "title": "Om organisasjonsnummeret",
     "url": "https://www.brreg.no/om-oss/registrene-vare/om-enhetsregisteret/organisasjonsnummeret/"
+  },
+  "cis-controls-v8-1": {
+    "identifier": "CIS Controls v8.1",
+    "summary_sha256": "c5793e4a95d1a823bafbfee4147331e4ca359c3df15c477e683e7f61ca758d15",
+    "title": "CIS Critical Security Controls, Version 8.1",
+    "url": "https://www.cisecurity.org/controls/v8-1"
   },
   "cvss-v3.1": {
     "identifier": "CVSS v3.1 Specification Document (Revision 1, June 2019)",
@@ -64,6 +82,12 @@
     "summary_sha256": "b53f07af3a11f36ad7dde782a2e001594227f8bd79ea467811f41a955da1b9b4",
     "title": "ECMAScript\u00ae 2024 Language Specification",
     "url": "https://262.ecma-international.org/15.0/"
+  },
+  "erlang-1917": {
+    "identifier": "Elektroteknikeren, vol. 13 (1917); P.O.E.E.J. vol. 10 (1918), pp. 189-197",
+    "summary_sha256": "9d076a156bad8e417209e089dcecbfae972250d0e55ea9b8fb1e9bbdc974cf52",
+    "title": "Solution of some Problems in the Theory of Probabilities of Significance in Automatic Telephone Exchanges",
+    "url": "https://en.wikipedia.org/wiki/Erlang_(unit)#cite_note-erlang1917-4"
   },
   "fips-180-4": {
     "identifier": "FIPS PUB 180-4",
@@ -89,6 +113,12 @@
     "title": "Stateless Hash-Based Digital Signature Standard (SLH-DSA)",
     "url": "https://csrc.nist.gov/pubs/fips/205/final"
   },
+  "gdpr-2016-679": {
+    "identifier": "Regulation (EU) 2016/679, OJ L 119, 4.5.2016, p. 1-88",
+    "summary_sha256": "a16bb3240144a8af6f3c36acd964371d3bb3d5e5b4cd87f3dfc5f22112d14d99",
+    "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+  },
   "google-sre-2016": {
     "identifier": "ISBN 978-1-491-92912-4",
     "summary_sha256": "9fad3c3b2b25e595403bcb5704c716b84e7ae87bc2b80eabfd2c0797cacfd0d6",
@@ -112,6 +142,12 @@
     "summary_sha256": "ce48cf2482bd36037302ecb1fd1b067921c6fbd11a3f7e60d3ab1b9bf6d960dd",
     "title": "Sample Quantiles in Statistical Packages",
     "url": "https://www.tandfonline.com/doi/abs/10.1080/00031305.1996.10473566"
+  },
+  "iec-60751": {
+    "identifier": "IEC 60751:2022 (Edition 3.0)",
+    "summary_sha256": "4682c87cb562988f1a7b5c0d80a604c4ce48ee008adef62703a846527f6671bf",
+    "title": "Industrial platinum resistance thermometers and platinum temperature sensors",
+    "url": "https://webstore.iec.ch/en/publication/63753"
   },
   "ieee-754-2019": {
     "identifier": "IEEE Std 754-2019",
@@ -185,6 +221,12 @@
     "title": "Topological sorting of large networks",
     "url": "https://dl.acm.org/doi/10.1145/368996.369025"
   },
+  "kellison-2009": {
+    "identifier": "3rd edition, ISBN 978-0-07-338244-9",
+    "summary_sha256": "4e50e8f15dd5a7c9bae8b43facdf150d8fd3050fddf7d0a5008e32b03139bac3",
+    "title": "The Theory of Interest",
+    "url": "https://www.mheducation.com/highered/product/theory-interest-kellison/M9780073382449.html"
+  },
   "lamport-1979": {
     "identifier": "SRI CSL-98",
     "summary_sha256": "88ec8eeeb0f2df0cb2ea4c8604cec9601ffaced31b55ce5eb68cba3c2d37cb58",
@@ -227,6 +269,12 @@
     "title": "Introduction to TPM: Total Productive Maintenance",
     "url": "https://search.worldcat.org/title/Introduction-to-TPM-:-total-productive-maintenance/oclc/18441684"
   },
+  "nets-ocr-giro": {
+    "identifier": "OCR giro systemdokumentasjon, versjon 4.0 (2018)",
+    "summary_sha256": "f1ccb561874a45550612ce2bbd6599b4350c562d2ff1184f6762b42dc4095180",
+    "title": "Systemspesifikasjon OCR giro",
+    "url": "https://www.mastercardpaymentservices.com/media/ruqn3ort/ocr-systemspesifikasjon_no_mps.pdf"
+  },
   "nis2-directive": {
     "identifier": "Directive (EU) 2022/2555",
     "summary_sha256": "b9599669903d074387f383f5910f6ba6e75f7876a953136b639e4069698b91f7",
@@ -238,6 +286,12 @@
     "summary_sha256": "9eebf28e22c9b1e6137e7de95431b0be582fb5921b1a1ccb5309486bb20af33d",
     "title": "The NIST Cybersecurity Framework (CSF) 2.0",
     "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final"
+  },
+  "nist-sematech": {
+    "identifier": "doi:10.18434/M32189, section 6.3.2.4 (EWMA Control Charts)",
+    "summary_sha256": "ac18b13fdd1dddfddb5ba01a9f9aeecd143a7bc741a869bcfa88b29bafdf628c",
+    "title": "NIST/SEMATECH e-Handbook of Statistical Methods",
+    "url": "https://www.itl.nist.gov/div898/handbook/"
   },
   "nmea-0183": {
     "identifier": "NMEA 0183 v4.30",
@@ -263,11 +317,23 @@
     "title": "Encoding | Protocol Buffers Documentation",
     "url": "https://protobuf.dev/programming-guides/encoding/"
   },
+  "rfc-1035": {
+    "identifier": "RFC 1035 (STD 13)",
+    "summary_sha256": "896e5e9c2cc3b17a5e4517d580f4d635636426312509b12e24b1cbefd989a9bd",
+    "title": "Domain names - implementation and specification",
+    "url": "https://www.rfc-editor.org/rfc/rfc1035"
+  },
   "rfc-1071": {
     "identifier": "RFC 1071",
     "summary_sha256": "f13b23daeedc8636649b753b97ddfed40c27235a22a9d51923775b44bc8e5394",
     "title": "Computing the Internet Checksum",
     "url": "https://www.rfc-editor.org/info/rfc1071"
+  },
+  "rfc-1123": {
+    "identifier": "RFC 1123 (STD 3)",
+    "summary_sha256": "6f99eef804694f283025c60db52ff9b1f1b3dfb6267871fa6297b50091dbaff0",
+    "title": "Requirements for Internet Hosts - Application and Support",
+    "url": "https://www.rfc-editor.org/rfc/rfc1123"
   },
   "rfc-1952": {
     "identifier": "RFC 1952",
@@ -286,6 +352,12 @@
     "summary_sha256": "58eb2ef2feab43fbb2e5341cc6074bdfae0ae2d3f1b08ebe3e0a9b6367031bc6",
     "title": "A Single Rate Three Color Marker",
     "url": "https://www.rfc-editor.org/info/rfc2697"
+  },
+  "rfc-3492": {
+    "identifier": "RFC 3492",
+    "summary_sha256": "ae228ea7abfe360579dee84f8ed1caa71e24d96f79c9f09f2419c471cabc6198",
+    "title": "Punycode: A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
+    "url": "https://www.rfc-editor.org/rfc/rfc3492"
   },
   "rfc-4180": {
     "identifier": "RFC 4180",
@@ -401,6 +473,18 @@
     "title": "Public Key Pinning Extension for HTTP (HPKP)",
     "url": "https://www.rfc-editor.org/rfc/rfc7469"
   },
+  "rfc-7515": {
+    "identifier": "RFC 7515",
+    "summary_sha256": "9d63530ec3e0295522a38a4a2afac722a791e7da09423018393468912f02cab7",
+    "title": "JSON Web Signature (JWS)",
+    "url": "https://www.rfc-editor.org/rfc/rfc7515"
+  },
+  "rfc-7519": {
+    "identifier": "RFC 7519",
+    "summary_sha256": "bed35f1ec0f908a2cc82789aef54c93f7f53376d2e7b8ae4d6e8d93abb1be2c3",
+    "title": "JSON Web Token (JWT)",
+    "url": "https://www.rfc-editor.org/rfc/rfc7519"
+  },
   "rfc-791": {
     "identifier": "RFC 791 (STD 5)",
     "summary_sha256": "c26635af23592e6717dbb36d2e540db03da2d8edf273cb672effab096df63280",
@@ -419,11 +503,29 @@
     "title": "XMSS: eXtended Merkle Signature Scheme",
     "url": "https://www.rfc-editor.org/rfc/rfc8391"
   },
+  "rfc-8439": {
+    "identifier": "RFC 8439",
+    "summary_sha256": "3496f4107781b751c699f6100ac05322f5ab8d2f5f9397cfd0e8108e61f16fb7",
+    "title": "ChaCha20 and Poly1305 for IETF Protocols",
+    "url": "https://www.rfc-editor.org/rfc/rfc8439"
+  },
   "rfc-8446": {
     "identifier": "RFC 8446",
     "summary_sha256": "517874440c8d9c8aca0485ba71ef303abe285227300243d9935b71f0e9d08c11",
     "title": "The Transport Layer Security (TLS) Protocol Version 1.3",
     "url": "https://www.rfc-editor.org/rfc/rfc8446"
+  },
+  "rfc-9562": {
+    "identifier": "RFC 9562 (STD 97)",
+    "summary_sha256": "dfa12e74187943854f4b76debf6707798286364168a21bbcd996dc71222fcf68",
+    "title": "Universally Unique IDentifiers (UUIDs)",
+    "url": "https://www.rfc-editor.org/rfc/rfc9562"
+  },
+  "roberts-1959": {
+    "identifier": "Technometrics, vol. 1, no. 3, pp. 239-250; doi:10.1080/00401706.1959.10489860",
+    "summary_sha256": "f9f291b4f659e0e5143a3dee062f283d4af091e21c922b910e8a1d74be027b5a",
+    "title": "Control Chart Tests Based on Geometric Moving Averages",
+    "url": "https://doi.org/10.1080/00401706.1959.10489860"
   },
   "saltzer-1975": {
     "identifier": "Proceedings of the IEEE, vol. 63, no. 9, pp. 1278-1308; doi:10.1109/PROC.1975.9939",
@@ -436,6 +538,12 @@
     "summary_sha256": "a453f756570204cb8c19bbaa316159f6d8dc0789bcc736518d73f2a41213dc61",
     "title": "Semantic Versioning 2.0.0",
     "url": "https://semver.org/spec/v2.0.0.html"
+  },
+  "sre-workbook-2018": {
+    "identifier": "ISBN 978-1-492-02950-2",
+    "summary_sha256": "0b468a646fe2e2d5facca39f79d9ce1965d4b01a181228f626f69623e810103c",
+    "title": "The Site Reliability Workbook: Practical Ways to Implement SRE",
+    "url": "https://sre.google/workbook/table-of-contents/"
   },
   "wadler-1995": {
     "identifier": "Advanced Functional Programming (J. Jeuring & E. Meijer, eds.), LNCS 925:24-52, doi:10.1007/3-540-59451-5_2",

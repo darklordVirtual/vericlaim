@@ -1,0 +1,17 @@
+{
+  "mod10_luhn_agreement": 10000,
+  "mod10_space": 10000,
+  "module": "kid",
+  "orgnr_agreement": 1027,
+  "orgnr_real": 3,
+  "orgnr_real_ok": 3,
+  "orgnr_sweep": 1027,
+  "published_luhn_ok": 5,
+  "published_luhn_valid": 5,
+  "reject_cases": 5,
+  "rejects_ok": 5,
+  "schema": "claimlib_evidence_v1",
+  "tampers": 859095,
+  "tampers_caught": 859095,
+  "tampers_missed": 0
+}

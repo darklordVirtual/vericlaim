@@ -1,0 +1,128 @@
+{
+  "detail": [
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "egbpdaj6bu4bxfgehfvwxn",
+      "sample": "A Arabic (Egyptian)"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "ihqwcrb4cv8a8dqg056pqjye",
+      "sample": "B Chinese (simplified)"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "ihqwctvzc91f659drss3x8bo0yb",
+      "sample": "C Chinese (traditional)"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "Proprostnemluvesky-uyb24dma41a",
+      "sample": "D Czech"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "4dbcagdahymbxekheh6e0a7fei0b",
+      "sample": "E Hebrew"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "i1baa7eci9glrd9b2ae1bj0hfcgg6iyaf8o0a1dig0cd",
+      "sample": "F Hindi (Devanagari)"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "n8jok5ay5dzabd5bym9f0cm5685rrjetr6pdxa",
+      "sample": "G Japanese (kanji + hiragana)"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "989aomsvi5e83db1d2a355cv1e0vak1dwrv93d5xbh15a0dt30a5jpsd879ccm6fea98c",
+      "sample": "H Korean (Hangul)"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "b1abfaaepdrnnbgefbadotcwatmq2g4l",
+      "sample": "I Russian (Cyrillic, canonical lowercase)"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "PorqunopuedensimplementehablarenEspaol-fmd56a",
+      "sample": "J Spanish"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "TisaohkhngthchnitingVit-kjcr8268qyxafd2f1b9g",
+      "sample": "K Vietnamese"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "3B-ww4c5e180e575a65lsy2b",
+      "sample": "L 3<nen>B<gumi><kinpachi><sensei>"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "-with-SUPER-MONKEYS-pc58ag80a8qai00g7n9n",
+      "sample": "M <amuro><namie>-with-SUPER-MONKEYS"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "Hello-Another-Way--fc4qua05auwb3674vfr0b",
+      "sample": "N Hello-Another-Way-<sorezore><no><basho>"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "2-u9tlzr9756bt3uc0v",
+      "sample": "O <hitotsu><yane><no><shita>2"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "MajiKoi5-783gue6qz075azm5e",
+      "sample": "P Maji<de>Koi<suru>5<byou><mae>"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "de-jg4avhby1noc0d",
+      "sample": "Q <pafii>de<runba>"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "d9juau41awczczp",
+      "sample": "R <sono><supiido><de>"
+    },
+    {
+      "decode_ok": true,
+      "encode_ok": true,
+      "expected": "-> $1.00 <--",
+      "sample": "S -> $1.00 <-"
+    }
+  ],
+  "mismatches": 0,
+  "mixed_case_decode_ok": 1,
+  "module": "punycode",
+  "reject_cases": 3,
+  "rejects_ok": 3,
+  "samples": 19,
+  "samples_matched": 19,
+  "schema": "claimlib_evidence_v1",
+  "stdlib_checks": 56,
+  "stdlib_ok": 56
+}

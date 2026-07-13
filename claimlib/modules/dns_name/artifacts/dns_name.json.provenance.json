@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "dns_name.json",
+  "artifact_sha256": "fa6dcb317d2652e7b499c93edf0d98d830332f28ecdaa908d842d1b7a5b46060",
+  "script": "python3 claimlib/modules/dns_name/evidence.py",
+  "git_commit": "af03cd23cb223256bb23b49a4b149b32b95e5028",
+  "generated_at": "2026-07-12T21:27:42.877486+00:00",
+  "produced_by": "claimlib"
+}

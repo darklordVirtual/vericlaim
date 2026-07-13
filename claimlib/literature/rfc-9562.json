@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "K. Davis",
+    "B. Peabody",
+    "P. Leach"
+  ],
+  "id": "rfc-9562",
+  "identifier": "RFC 9562 (STD 97)",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "The current UUID standard, obsoleting RFC 4122: defines the 128-bit layout, the variant and version fields, and generation algorithms for versions 1-8, including the name-based v3 (MD5) and v5 (SHA-1) constructions over a namespace UUID concatenated with a name, and the new time-ordered v6/v7. Provides test vectors for each version that implementations reproduce.",
+  "summary_sha256": "dfa12e74187943854f4b76debf6707798286364168a21bbcd996dc71222fcf68",
+  "title": "Universally Unique IDentifiers (UUIDs)",
+  "url": "https://www.rfc-editor.org/rfc/rfc9562",
+  "year": 2024
+}

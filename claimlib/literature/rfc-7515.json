@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "M. Jones",
+    "J. Bradley",
+    "N. Sakimura"
+  ],
+  "id": "rfc-7515",
+  "identifier": "RFC 7515",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines JSON Web Signature: digitally signed or MACed content represented with base64url-encoded header, payload and signature segments, including the compact serialization 'header.payload.signature' used by JWTs. Appendix A.1 gives the complete worked HS256 example -- exact octets of the protected header and payload and the resulting signature -- used as a conformance vector.",
+  "summary_sha256": "9d63530ec3e0295522a38a4a2afac722a791e7da09423018393468912f02cab7",
+  "title": "JSON Web Signature (JWS)",
+  "url": "https://www.rfc-editor.org/rfc/rfc7515",
+  "year": 2015
+}

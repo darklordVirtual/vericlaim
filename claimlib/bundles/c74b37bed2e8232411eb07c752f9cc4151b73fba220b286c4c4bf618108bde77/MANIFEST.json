@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/sha256.json": "f906cad0777d6a2f39f2bcf8679b9a38f823b5c6335f6b2c1483396393037012",
+    "claim.json": "57f4b327cab68d2611146096ed099cd81a966af63ca7c6a4c3f149a460e8edeb",
+    "code/sha256.py": "0584f22321e1ce3eba36ec3a88727e84c72154e1e1bf4aaa5ffa662da6e9d314",
+    "provenance.json": "28d110e63185e7d71f83c312a66d75f8e0660dec7e8a0e30aca7874ec1f2f866"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}
