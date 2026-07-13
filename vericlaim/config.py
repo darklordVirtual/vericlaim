@@ -26,7 +26,11 @@ class Config:
     allow_legacy_shell: bool = False
     register: str = "claims/register.yaml"
     baseline: str = "claims/baseline.json"
-    manifest: str | None = "claims/manifest.md"
+    # SHA-256 artifact manifest. OPT-IN: unset means the manifest checks are
+    # explicitly off; once configured, a missing file is a hard failure (so
+    # deleting the manifest cannot silently disable hash verification), and
+    # strict/enterprise require one when any claim is reproducible.
+    manifest: str | None = None
     doc_globs: tuple[str, ...] = ("README.md", "docs/**/*.md")
     # Source files scanned for claim anchors in comments (`# claim:ID field`).
     # Off by default: code binding is opt-in per project.

@@ -25,8 +25,8 @@ downward by the file — only `adopt` is permissive.
 | `profile` | string | `adopt` | `adopt` \| `strict` \| `enterprise` |
 | `allow_legacy_shell` | bool | `false` | Honor legacy string `reproduce` commands (adopt only) |
 | `register` | path | `claims/register.yaml` | The claim register |
-| `baseline` | path | `claims/baseline.json` | Grandfathered violations |
-| `manifest` | path | `claims/manifest.md` | Artifact SHA-256 manifest |
+| `baseline` | path | `claims/baseline.json` | Grandfathered violations. Each entry grandfathers exactly `count` occurrences of its `error_id` (default 1) — a new occurrence of a baselined problem still fails. |
+| `manifest` | path | *(unset — off)* | Artifact SHA-256 manifest. OPT-IN: unset means the manifest checks are explicitly off. Once configured, a missing file is a **hard failure** (deleting the manifest cannot silently disable hash verification). `strict`/`enterprise` additionally require a manifest whenever any claim is reproducible. |
 | `doc_globs` | list | `["README.md","docs/**/*.md"]` | Docs scanned for anchors/value tokens |
 | `code_globs` | list | `[]` | Source files scanned for comment anchors |
 | `required_fields` | list | id/statement/evidence_level/artifact/caveat | Fields every claim must have |

@@ -196,8 +196,20 @@ def run_declarative(cfg: Config, spec: ReproSpec) -> ReproductionResult:
             res.reason = f"command exited {proc.returncode}"
             return res
 
-        # Every declared output must have been CREATED in the empty output dir.
-        produced = {p.name: p for p in output_dir.iterdir() if p.is_file()}
+        # Every declared output must have been CREATED in the empty output
+        # dir. Walk RECURSIVELY: a file hidden in a subdirectory is just as
+        # undeclared as one at the top level, and a symlink could smuggle in
+        # content from outside the isolated directory — both fail.
+        produced: dict[str, Path] = {}
+        for p in sorted(output_dir.rglob("*")):
+            if p.is_symlink():
+                res.reason = (f"command created a symlink in the output dir "
+                              f"({p.relative_to(output_dir)}) — outputs must "
+                              f"be regular files")
+                return res
+            if p.is_file():
+                relname = p.relative_to(output_dir).as_posix()
+                produced[relname] = p
         expected_basenames = {Path(o).name for o in spec.outputs}
         extra = set(produced) - expected_basenames
         if extra:

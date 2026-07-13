@@ -168,7 +168,7 @@ def test_gate_fails_closed_on_bad_register(tmp_path):
 
 def test_missing_baseline_is_empty(tmp_path):
     cfg = Config(root=tmp_path, baseline="nope.json")
-    assert _load_baseline(cfg) == set()
+    assert _load_baseline(cfg) == {}
 
 
 def test_baseline_invalid_json_raises(tmp_path):
@@ -199,7 +199,7 @@ def test_wellformed_baseline_loads(tmp_path):
         '{"known_violations": [{"error_id": "stale-string:d.md:x", '
         '"reason": "legacy", "date": "2026-07-04"}]}')
     cfg = Config(root=tmp_path, baseline="baseline.json")
-    assert _load_baseline(cfg) == {"stale-string:d.md:x"}
+    assert _load_baseline(cfg) == {"stale-string:d.md:x": 1}
 
 
 def test_gate_fails_cleanly_on_bad_baseline(tmp_path):

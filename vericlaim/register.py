@@ -207,8 +207,22 @@ def load_register(text: str) -> list[dict]:
             raise RegisterError(f"invalid YAML: {exc}") from exc
         # `claims:` with no value (a fresh scaffold before the first entry)
         # parses as None — treat it as the empty register, not a crash.
-        claims = (data.get("claims") or []) if isinstance(data, dict) else []
-        claims = [c for c in claims if isinstance(c, dict)]
+        raw_claims = (data.get("claims") or []) if isinstance(data, dict) else []
+        if not isinstance(raw_claims, list):
+            raise RegisterError(
+                f"`claims` must be a list of claim mappings, got "
+                f"{type(raw_claims).__name__} — refusing to treat a malformed "
+                f"register as empty")
+        # FAIL CLOSED on malformed entries: silently dropping a non-mapping
+        # item (e.g. `claims: [oops]` or a stray `- bare-string`) would let a
+        # formatting mistake disable the gate for that claim.
+        for i, c in enumerate(raw_claims):
+            if not isinstance(c, dict):
+                raise RegisterError(
+                    f"claims[{i}] is not a mapping (got "
+                    f"{type(c).__name__}: {str(c)[:60]!r}) — every claim "
+                    f"must be a `- id: ...` block")
+        claims = list(raw_claims)
     else:
         claims = _parse_subset(text)
 
@@ -217,4 +231,50 @@ def load_register(text: str) -> list[dict]:
             f"register has {n_items} '- id:' item(s) but only {len(claims)} "
             f"parsed — a formatting error would otherwise silently disable the "
             f"gate. Fix the register (or install PyYAML for full YAML support).")
+    _validate_claim_shapes(claims)
     return claims
+
+
+# Field-shape contract: wrong types here would either crash checks downstream
+# (a list used as a dict key) or silently disable them (a string where a list
+# of artifacts is expected iterates per character). FAIL CLOSED instead.
+_SHAPES: tuple = (
+    ("id", (str,), False),
+    ("statement", (str,), False),
+    ("evidence_level", (str,), False),
+    ("caveat", (str,), False),
+    ("metrics", (dict,), False),
+    ("reproduce", (str,), False),
+    ("reproduce_argv", (list,), True),      # list of str
+    ("reproduce_outputs", (list,), True),   # list of str
+    ("literature", (list,), False),
+)
+
+
+def _validate_claim_shapes(claims: list) -> None:
+    for i, c in enumerate(claims):
+        label = c.get("id") if isinstance(c.get("id"), str) else f"claims[{i}]"
+        for field, types, str_items in _SHAPES:
+            if field not in c or c[field] is None:
+                continue
+            v = c[field]
+            if isinstance(v, bool) or not isinstance(v, types):
+                raise RegisterError(
+                    f"{label}: field `{field}` must be "
+                    f"{' or '.join(t.__name__ for t in types)}, got "
+                    f"{type(v).__name__}")
+            if str_items and not all(isinstance(x, str) for x in v):
+                raise RegisterError(
+                    f"{label}: every element of `{field}` must be a string")
+        art = c.get("artifact")
+        if art is not None and not (
+                isinstance(art, str)
+                or (isinstance(art, list)
+                    and all(isinstance(a, str) for a in art))):
+            raise RegisterError(
+                f"{label}: field `artifact` must be a string or a list of "
+                f"strings, got {type(art).__name__}")
+        lit = c.get("literature")
+        if isinstance(lit, list) and not all(isinstance(e, dict) for e in lit):
+            raise RegisterError(
+                f"{label}: every `literature` entry must be a mapping")
