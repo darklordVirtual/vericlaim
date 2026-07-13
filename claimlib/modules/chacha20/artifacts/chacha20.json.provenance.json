@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "chacha20.json",
+  "artifact_sha256": "6e615abb1a8f11a2208cbef8010d5cca93593d1a3454b3015af885f576d8a04c",
+  "script": "python3 claimlib/modules/chacha20/evidence.py",
+  "git_commit": "af03cd23cb223256bb23b49a4b149b32b95e5028",
+  "generated_at": "2026-07-13T07:08:41.103734+00:00",
+  "produced_by": "claimlib"
+}

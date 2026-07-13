@@ -1,0 +1,48 @@
+{
+  "false_negatives": 0,
+  "false_positives_measured": 46,
+  "formula_checks": 5,
+  "formula_detail": [
+    {
+      "k": 3,
+      "m": 1024,
+      "n": 100,
+      "ok": true
+    },
+    {
+      "k": 6,
+      "m": 4096,
+      "n": 500,
+      "ok": true
+    },
+    {
+      "k": 2,
+      "m": 64,
+      "n": 8,
+      "ok": true
+    },
+    {
+      "k": 7,
+      "m": 10000,
+      "n": 1000,
+      "ok": true
+    },
+    {
+      "k": 1,
+      "m": 8,
+      "n": 1,
+      "ok": true
+    }
+  ],
+  "formula_ok": 5,
+  "fp_bound_ok": 1,
+  "fp_rate_analytical": 0.01961139,
+  "members": 500,
+  "module": "bloom_filter",
+  "optimal_k_checks": 4,
+  "optimal_k_ok": 4,
+  "probes": 2000,
+  "reject_cases": 4,
+  "rejects_ok": 4,
+  "schema": "claimlib_evidence_v1"
+}

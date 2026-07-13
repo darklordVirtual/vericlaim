@@ -1,0 +1,317 @@
+{
+  "cases": [
+    {
+      "decoded_ok": true,
+      "encoded": "2NEpo7TZRRrLZSi2U",
+      "expected": "2NEpo7TZRRrLZSi2U",
+      "input_hex": "48656c6c6f20576f726c6421",
+      "kind": "draft-msporny-base58-03-s5",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "USm3fpXnKG5EUBx2ndxBDMPVciP5hGey2Jh4NDv6gmeo1LkMeiKrLJUUBk6Z",
+      "expected": "USm3fpXnKG5EUBx2ndxBDMPVciP5hGey2Jh4NDv6gmeo1LkMeiKrLJUUBk6Z",
+      "input_hex": "54686520717569636b2062726f776e20666f78206a756d7073206f76657220746865206c617a7920646f672e",
+      "kind": "draft-msporny-base58-03-s5",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "11233QC4",
+      "expected": "11233QC4",
+      "input_hex": "0000287fb4cd",
+      "kind": "draft-msporny-base58-03-s5",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "",
+      "expected": "",
+      "input_hex": "",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "2g",
+      "expected": "2g",
+      "input_hex": "61",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "a3gV",
+      "expected": "a3gV",
+      "input_hex": "626262",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "aPEr",
+      "expected": "aPEr",
+      "input_hex": "636363",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "2cFupjhnEsSn59qHXstmK2ffpLv2",
+      "expected": "2cFupjhnEsSn59qHXstmK2ffpLv2",
+      "input_hex": "73696d706c792061206c6f6e6720737472696e67",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L",
+      "expected": "1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L",
+      "input_hex": "00eb15231dfceb60925886b67d065299925915aeb172c06647",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "ABnLTmg",
+      "expected": "ABnLTmg",
+      "input_hex": "516b6fcd0f",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "3SEo3LWLoPntC",
+      "expected": "3SEo3LWLoPntC",
+      "input_hex": "bf4f89001e670274dd",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "3EFU7m",
+      "expected": "3EFU7m",
+      "input_hex": "572e4794",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "EJDM8drfXA6uyA",
+      "expected": "EJDM8drfXA6uyA",
+      "input_hex": "ecac89cad93923c02321",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "Rt5zm",
+      "expected": "Rt5zm",
+      "input_hex": "10c8511e",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "1111111111",
+      "expected": "1111111111",
+      "input_hex": "00000000000000000000",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "1111111111111111111111111111111111111111",
+      "expected": "1111111111111111111111111111111111111111",
+      "input_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "1111111111111111111111111111111111111112",
+      "expected": "1111111111111111111111111111111111111112",
+      "input_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111115TYzLYH1udmLdzCLM",
+      "expected": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111115TYzLYH1udmLdzCLM",
+      "input_hex": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ec39d04c37e71e5d591881f6",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz",
+      "expected": "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz",
+      "input_hex": "000111d38e5fc9071ffcd20b4a763cc9ae4f252bb4e48fd66a835e252ada93ff480d6dd43dc62a641155a5",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "1cWB5HCBdLjAuqGGReWE3R3CguuwSjw6RHn39s2yuDRTS5NsBgNiFpWgAnEx6VQi8csexkgYw3mdYrMHr8x9i7aEwP8kZ7vccXWqKDvGv3u1GxFKPuAkn8JCPPGDMf3vMMnbzm6Nh9zh1gcNsMvH3ZNLmP5fSG6DGbbi2tuwMWPthr4boWwCxf7ewSgNQeacyozhKDDQQ1qL5fQFUW52QKUZDZ5fw3KXNQJMcNTcaB723LchjeKun7MuGW5qyCBZYzA1KjofN1gYBV3NqyhQJ3Ns746GNuf9N2pQPmHz4xpnSrrfCvy6TVVz5d4PdrjeshsWQwpZsZGzvbdAdN8MKV5QsBDY",
+      "expected": "1cWB5HCBdLjAuqGGReWE3R3CguuwSjw6RHn39s2yuDRTS5NsBgNiFpWgAnEx6VQi8csexkgYw3mdYrMHr8x9i7aEwP8kZ7vccXWqKDvGv3u1GxFKPuAkn8JCPPGDMf3vMMnbzm6Nh9zh1gcNsMvH3ZNLmP5fSG6DGbbi2tuwMWPthr4boWwCxf7ewSgNQeacyozhKDDQQ1qL5fQFUW52QKUZDZ5fw3KXNQJMcNTcaB723LchjeKun7MuGW5qyCBZYzA1KjofN1gYBV3NqyhQJ3Ns746GNuf9N2pQPmHz4xpnSrrfCvy6TVVz5d4PdrjeshsWQwpZsZGzvbdAdN8MKV5QsBDY",
+      "input_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "zzzzy",
+      "expected": "zzzzy",
+      "input_hex": "271f359e",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "zzzzz",
+      "expected": "zzzzz",
+      "input_hex": "271f359f",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "211111",
+      "expected": "211111",
+      "input_hex": "271f35a0",
+      "kind": "bitcoin-core-json",
+      "match": true
+    },
+    {
+      "decoded_ok": true,
+      "encoded": "211112",
+      "expected": "211112",
+      "input_hex": "271f35a1",
+      "kind": "bitcoin-core-json",
+      "match": true
+    }
+  ],
+  "mismatches": 0,
+  "module": "base58",
+  "reference_vectors": 24,
+  "reference_vectors_matched": 24,
+  "roundtrip_cases": 14,
+  "roundtrip_detail": [
+    {
+      "encoded": "",
+      "input_hex": "",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "1",
+      "input_hex": "00",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "1111111",
+      "input_hex": "00000000000000",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "111ZiCa",
+      "input_hex": "000000616263",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "12",
+      "input_hex": "0001",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "2",
+      "input_hex": "01",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "z",
+      "input_hex": "39",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "21",
+      "input_hex": "3a",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "Ajy",
+      "input_hex": "8000",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "5Q",
+      "input_hex": "ff",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "jpXCZedGfVQ",
+      "input_hex": "ffffffffffffffff",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "2utUWDiXZ",
+      "input_hex": "deadbeef0000",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "2WQebw6A2JQ3e",
+      "input_hex": "76657269636c61696d",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    },
+    {
+      "encoded": "thX6LZfHDZZKUs92febYZhYRcXddmzfzF2NvTkPNE",
+      "input_hex": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "ok": true,
+      "positional_value_ok": true,
+      "roundtrip": true,
+      "zeros_preserved": true
+    }
+  ],
+  "roundtrip_ok": 14,
+  "schema": "claimlib_base58_v1"
+}

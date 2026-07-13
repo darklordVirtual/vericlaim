@@ -1,0 +1,29 @@
+{
+  "mismatches": 0,
+  "module": "chacha20",
+  "reference_vectors": 4,
+  "reference_vectors_matched": 4,
+  "reject_cases": 5,
+  "rejects_ok": 5,
+  "roundtrips": 7,
+  "roundtrips_ok": 7,
+  "schema": "claimlib_evidence_v1",
+  "vectors": [
+    {
+      "ok": true,
+      "vector": "rfc8439 s2.1.1 quarter round"
+    },
+    {
+      "ok": true,
+      "vector": "rfc8439 s2.3.2 block function keystream"
+    },
+    {
+      "ok": true,
+      "vector": "rfc8439 A.1 #1 all-zero keystream block"
+    },
+    {
+      "ok": true,
+      "vector": "rfc8439 s2.4.2 sunscreen ciphertext"
+    }
+  ]
+}

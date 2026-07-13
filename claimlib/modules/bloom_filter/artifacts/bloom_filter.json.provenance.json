@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "bloom_filter.json",
+  "artifact_sha256": "e3add1c40ddd7d722625f4ab5b1b3e89eca657af8fde9cdab5161f14c751bae6",
+  "script": "python3 claimlib/modules/bloom_filter/evidence.py",
+  "git_commit": "af03cd23cb223256bb23b49a4b149b32b95e5028",
+  "generated_at": "2026-07-13T07:13:55.672716+00:00",
+  "produced_by": "claimlib"
+}

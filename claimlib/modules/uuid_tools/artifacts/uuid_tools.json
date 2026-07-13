@@ -1,0 +1,807 @@
+{
+  "bit_checks": 128,
+  "bit_checks_ok": 128,
+  "mismatches": 0,
+  "module": "uuid_tools",
+  "rfc_detail": [
+    {
+      "computed": "5df41881-3aed-3515-88a7-2f4a814cf09e",
+      "correct": true,
+      "expected": "5df41881-3aed-3515-88a7-2f4a814cf09e",
+      "vector": "A.2 uuid3(DNS, 'www.example.com')"
+    },
+    {
+      "computed": "2ed6657d-e927-568b-95e1-2665a8aea6a2",
+      "correct": true,
+      "expected": "2ed6657d-e927-568b-95e1-2665a8aea6a2",
+      "vector": "A.4 uuid5(DNS, 'www.example.com')"
+    },
+    {
+      "computed": {
+        "canonical": "c232ab00-9414-11ec-b3c8-9f6bdeced846",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "c232ab00-9414-11ec-b3c8-9f6bdeced846",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "vector": "C232AB00-9414-11EC-B3C8-9F6BDECED846"
+    },
+    {
+      "computed": {
+        "canonical": "919108f7-52d1-4320-9bac-f847db4148a8",
+        "variant": "rfc9562",
+        "version": 4
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "919108f7-52d1-4320-9bac-f847db4148a8",
+        "variant": "rfc9562",
+        "version": 4
+      },
+      "vector": "919108f7-52d1-4320-9bac-f847db4148a8"
+    },
+    {
+      "computed": {
+        "canonical": "1ec9414c-232a-6b00-b3c8-9f6bdeced846",
+        "variant": "rfc9562",
+        "version": 6
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "1ec9414c-232a-6b00-b3c8-9f6bdeced846",
+        "variant": "rfc9562",
+        "version": 6
+      },
+      "vector": "1EC9414C-232A-6B00-B3C8-9F6BDECED846"
+    },
+    {
+      "computed": {
+        "canonical": "017f22e2-79b0-7cc3-98c4-dc0c0c07398f",
+        "variant": "rfc9562",
+        "version": 7
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "017f22e2-79b0-7cc3-98c4-dc0c0c07398f",
+        "variant": "rfc9562",
+        "version": 7
+      },
+      "vector": "017F22E2-79B0-7CC3-98C4-DC0C0C07398F"
+    },
+    {
+      "computed": {
+        "canonical": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "vector": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
+    },
+    {
+      "computed": {
+        "canonical": "6ba7b811-9dad-11d1-80b4-00c04fd430c8",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "6ba7b811-9dad-11d1-80b4-00c04fd430c8",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "vector": "6ba7b811-9dad-11d1-80b4-00c04fd430c8"
+    },
+    {
+      "computed": {
+        "canonical": "6ba7b812-9dad-11d1-80b4-00c04fd430c8",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "6ba7b812-9dad-11d1-80b4-00c04fd430c8",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "vector": "6ba7b812-9dad-11d1-80b4-00c04fd430c8"
+    },
+    {
+      "computed": {
+        "canonical": "6ba7b814-9dad-11d1-80b4-00c04fd430c8",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "6ba7b814-9dad-11d1-80b4-00c04fd430c8",
+        "variant": "rfc9562",
+        "version": 1
+      },
+      "vector": "6ba7b814-9dad-11d1-80b4-00c04fd430c8"
+    },
+    {
+      "computed": {
+        "canonical": "00000000-0000-0000-0000-000000000000",
+        "variant": "ncs",
+        "version": null
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "00000000-0000-0000-0000-000000000000",
+        "variant": "ncs",
+        "version": null
+      },
+      "vector": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "computed": {
+        "canonical": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+        "variant": "future",
+        "version": null
+      },
+      "correct": true,
+      "expected": {
+        "canonical": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+        "variant": "future",
+        "version": null
+      },
+      "vector": "ffffffff-ffff-ffff-ffff-ffffffffffff"
+    }
+  ],
+  "rfc_vectors": 12,
+  "rfc_vectors_matched": 12,
+  "schema": "claimlib_uuid_tools_v1",
+  "stdlib_cross_checks": 64,
+  "stdlib_detail": [
+    {
+      "agree": true,
+      "computed": "5df41881-3aed-3515-88a7-2f4a814cf09e",
+      "name": "www.example.com",
+      "namespace": "dns",
+      "stdlib": "5df41881-3aed-3515-88a7-2f4a814cf09e",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "2ed6657d-e927-568b-95e1-2665a8aea6a2",
+      "name": "www.example.com",
+      "namespace": "dns",
+      "stdlib": "2ed6657d-e927-568b-95e1-2665a8aea6a2",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "04738bdf-b25a-3829-a801-b21a1d25095b",
+      "name": "example.org",
+      "namespace": "dns",
+      "stdlib": "04738bdf-b25a-3829-a801-b21a1d25095b",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "aad03681-8b63-5304-89e0-8ca8f49461b5",
+      "name": "example.org",
+      "namespace": "dns",
+      "stdlib": "aad03681-8b63-5304-89e0-8ca8f49461b5",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "6fa459ea-ee8a-3ca4-894e-db77e160355e",
+      "name": "python.org",
+      "namespace": "dns",
+      "stdlib": "6fa459ea-ee8a-3ca4-894e-db77e160355e",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "886313e1-3b8a-5372-9b90-0c9aee199e5d",
+      "name": "python.org",
+      "namespace": "dns",
+      "stdlib": "886313e1-3b8a-5372-9b90-0c9aee199e5d",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "e7dcee54-8587-3b09-8386-8956f4cf8a7d",
+      "name": "vericlaim",
+      "namespace": "dns",
+      "stdlib": "e7dcee54-8587-3b09-8386-8956f4cf8a7d",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "5c726670-8c6f-56f5-a4c7-3762c5a5ac33",
+      "name": "vericlaim",
+      "namespace": "dns",
+      "stdlib": "5c726670-8c6f-56f5-a4c7-3762c5a5ac33",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "45b813c0-73b9-3ab4-a384-04ac654d1dfe",
+      "name": "claimlib/uuid_tools",
+      "namespace": "dns",
+      "stdlib": "45b813c0-73b9-3ab4-a384-04ac654d1dfe",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "c10aece1-3bd7-5c95-80c0-1cb4b626f8c0",
+      "name": "claimlib/uuid_tools",
+      "namespace": "dns",
+      "stdlib": "c10aece1-3bd7-5c95-80c0-1cb4b626f8c0",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "c87ee674-4ddc-3efe-a74e-dfe25da5d7b3",
+      "name": "",
+      "namespace": "dns",
+      "stdlib": "c87ee674-4ddc-3efe-a74e-dfe25da5d7b3",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "4ebd0208-8328-5d69-8c44-ec50939c0967",
+      "name": "",
+      "namespace": "dns",
+      "stdlib": "4ebd0208-8328-5d69-8c44-ec50939c0967",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "4c104dd0-4821-30d5-9ce3-0e7a1f8b7c0d",
+      "name": "a",
+      "namespace": "dns",
+      "stdlib": "4c104dd0-4821-30d5-9ce3-0e7a1f8b7c0d",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "4f3f2898-69e3-5a0d-820a-c4e87987dbce",
+      "name": "a",
+      "namespace": "dns",
+      "stdlib": "4f3f2898-69e3-5a0d-820a-c4e87987dbce",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "30bc6e10-67d8-384b-bd42-1b779ebc290c",
+      "name": "bl\u00e5b\u00e6rsyltet\u00f8y \u2713",
+      "namespace": "dns",
+      "stdlib": "30bc6e10-67d8-384b-bd42-1b779ebc290c",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "534ec69b-d709-5cd6-9171-ec39878949a3",
+      "name": "bl\u00e5b\u00e6rsyltet\u00f8y \u2713",
+      "namespace": "dns",
+      "stdlib": "534ec69b-d709-5cd6-9171-ec39878949a3",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "a777199a-c522-31c4-8f4b-335feec7215b",
+      "name": "www.example.com",
+      "namespace": "url",
+      "stdlib": "a777199a-c522-31c4-8f4b-335feec7215b",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "b63cdfa4-3df9-568e-97ae-006c5b8fd652",
+      "name": "www.example.com",
+      "namespace": "url",
+      "stdlib": "b63cdfa4-3df9-568e-97ae-006c5b8fd652",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "39682ca1-9168-3da2-a1bb-f4dbcde99bf9",
+      "name": "example.org",
+      "namespace": "url",
+      "stdlib": "39682ca1-9168-3da2-a1bb-f4dbcde99bf9",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "54a35416-963c-5dd6-a1e2-5ab7bb5bafc7",
+      "name": "example.org",
+      "namespace": "url",
+      "stdlib": "54a35416-963c-5dd6-a1e2-5ab7bb5bafc7",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "22fe6191-c161-3d86-a432-a81f343eda08",
+      "name": "python.org",
+      "namespace": "url",
+      "stdlib": "22fe6191-c161-3d86-a432-a81f343eda08",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "7af94e2b-4dd9-50f0-9c9a-8a48519bdef0",
+      "name": "python.org",
+      "namespace": "url",
+      "stdlib": "7af94e2b-4dd9-50f0-9c9a-8a48519bdef0",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "03434f7c-4a01-309a-be7f-190898003239",
+      "name": "vericlaim",
+      "namespace": "url",
+      "stdlib": "03434f7c-4a01-309a-be7f-190898003239",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "d4b061d3-80c1-5392-a238-8e9313acddf1",
+      "name": "vericlaim",
+      "namespace": "url",
+      "stdlib": "d4b061d3-80c1-5392-a238-8e9313acddf1",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "764c767e-b065-36c1-b272-b648fdd16bc6",
+      "name": "claimlib/uuid_tools",
+      "namespace": "url",
+      "stdlib": "764c767e-b065-36c1-b272-b648fdd16bc6",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "2470dd7c-4e85-521f-acea-32d76c02f2ee",
+      "name": "claimlib/uuid_tools",
+      "namespace": "url",
+      "stdlib": "2470dd7c-4e85-521f-acea-32d76c02f2ee",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "14cdb9b4-de01-3faa-aff5-65bc2f771745",
+      "name": "",
+      "namespace": "url",
+      "stdlib": "14cdb9b4-de01-3faa-aff5-65bc2f771745",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "1b4db7eb-4057-5ddf-91e0-36dec72071f5",
+      "name": "",
+      "namespace": "url",
+      "stdlib": "1b4db7eb-4057-5ddf-91e0-36dec72071f5",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "33838e93-63bc-3732-bf9e-b68d970b79c2",
+      "name": "a",
+      "namespace": "url",
+      "stdlib": "33838e93-63bc-3732-bf9e-b68d970b79c2",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "e1407479-3136-56c0-9908-bb02fb0339e2",
+      "name": "a",
+      "namespace": "url",
+      "stdlib": "e1407479-3136-56c0-9908-bb02fb0339e2",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "6d170f8d-447c-30b5-a958-8f0de31c6041",
+      "name": "bl\u00e5b\u00e6rsyltet\u00f8y \u2713",
+      "namespace": "url",
+      "stdlib": "6d170f8d-447c-30b5-a958-8f0de31c6041",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "3630327e-711f-5210-ae98-9ef25446c94d",
+      "name": "bl\u00e5b\u00e6rsyltet\u00f8y \u2713",
+      "namespace": "url",
+      "stdlib": "3630327e-711f-5210-ae98-9ef25446c94d",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "c2c1e4de-6589-389e-9375-32a90c6a83a8",
+      "name": "www.example.com",
+      "namespace": "oid",
+      "stdlib": "c2c1e4de-6589-389e-9375-32a90c6a83a8",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "a5e87d3b-479e-52da-b98a-db251a851854",
+      "name": "www.example.com",
+      "namespace": "oid",
+      "stdlib": "a5e87d3b-479e-52da-b98a-db251a851854",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "f14eec63-2812-3110-ad06-1625e5a4a5b2",
+      "name": "example.org",
+      "namespace": "oid",
+      "stdlib": "f14eec63-2812-3110-ad06-1625e5a4a5b2",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "34784df9-b065-5094-92c7-00bb3da97a30",
+      "name": "example.org",
+      "namespace": "oid",
+      "stdlib": "34784df9-b065-5094-92c7-00bb3da97a30",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "edc9f521-7078-3737-aeed-76056ffc7959",
+      "name": "python.org",
+      "namespace": "oid",
+      "stdlib": "edc9f521-7078-3737-aeed-76056ffc7959",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "cd5d0bff-2444-5d26-ab53-4f7db1cb733d",
+      "name": "python.org",
+      "namespace": "oid",
+      "stdlib": "cd5d0bff-2444-5d26-ab53-4f7db1cb733d",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "3ba30029-09ce-3f31-b5d8-22efe3daf024",
+      "name": "vericlaim",
+      "namespace": "oid",
+      "stdlib": "3ba30029-09ce-3f31-b5d8-22efe3daf024",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "879ebbe2-89fb-516e-86a5-81cb8b80fb71",
+      "name": "vericlaim",
+      "namespace": "oid",
+      "stdlib": "879ebbe2-89fb-516e-86a5-81cb8b80fb71",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "267e09a8-c36c-300f-af2f-fa6a3af8fa23",
+      "name": "claimlib/uuid_tools",
+      "namespace": "oid",
+      "stdlib": "267e09a8-c36c-300f-af2f-fa6a3af8fa23",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "ec7628cb-6038-58da-81c7-18753616512d",
+      "name": "claimlib/uuid_tools",
+      "namespace": "oid",
+      "stdlib": "ec7628cb-6038-58da-81c7-18753616512d",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "596b79dc-00dd-3991-a72f-d3696c38c64f",
+      "name": "",
+      "namespace": "oid",
+      "stdlib": "596b79dc-00dd-3991-a72f-d3696c38c64f",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "0a68eb57-c88a-5f34-9e9d-27f85e68af4f",
+      "name": "",
+      "namespace": "oid",
+      "stdlib": "0a68eb57-c88a-5f34-9e9d-27f85e68af4f",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "a20740b4-71b5-3b90-852e-bdb859da9fdd",
+      "name": "a",
+      "namespace": "oid",
+      "stdlib": "a20740b4-71b5-3b90-852e-bdb859da9fdd",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "d720e32d-4765-5177-b65b-42dd7f6e6445",
+      "name": "a",
+      "namespace": "oid",
+      "stdlib": "d720e32d-4765-5177-b65b-42dd7f6e6445",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "2f28c818-1fbe-3fd9-95fd-f9a29d9e1e21",
+      "name": "bl\u00e5b\u00e6rsyltet\u00f8y \u2713",
+      "namespace": "oid",
+      "stdlib": "2f28c818-1fbe-3fd9-95fd-f9a29d9e1e21",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "789aabe4-60e5-53d2-87cf-99639f70195b",
+      "name": "bl\u00e5b\u00e6rsyltet\u00f8y \u2713",
+      "namespace": "oid",
+      "stdlib": "789aabe4-60e5-53d2-87cf-99639f70195b",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "f4ea5e25-91d4-38b0-b74f-af6c57210cae",
+      "name": "www.example.com",
+      "namespace": "x500",
+      "stdlib": "f4ea5e25-91d4-38b0-b74f-af6c57210cae",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "a1d3adb1-15b7-5395-a05f-9051a08769a2",
+      "name": "www.example.com",
+      "namespace": "x500",
+      "stdlib": "a1d3adb1-15b7-5395-a05f-9051a08769a2",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "64606f3f-bd63-363e-b946-fca13611b6f7",
+      "name": "example.org",
+      "namespace": "x500",
+      "stdlib": "64606f3f-bd63-363e-b946-fca13611b6f7",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "e3635e86-f82b-5bbc-a54a-da97923e5c76",
+      "name": "example.org",
+      "namespace": "x500",
+      "stdlib": "e3635e86-f82b-5bbc-a54a-da97923e5c76",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "94c1b751-792a-3c8b-8eb7-95ea2c6645bb",
+      "name": "python.org",
+      "namespace": "x500",
+      "stdlib": "94c1b751-792a-3c8b-8eb7-95ea2c6645bb",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "e9246a06-296f-5b50-be57-0519806c97e8",
+      "name": "python.org",
+      "namespace": "x500",
+      "stdlib": "e9246a06-296f-5b50-be57-0519806c97e8",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "9a194766-0d08-3a90-ad37-6aeda4befaa9",
+      "name": "vericlaim",
+      "namespace": "x500",
+      "stdlib": "9a194766-0d08-3a90-ad37-6aeda4befaa9",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "b6ee34c1-0a3e-540d-a31c-e6618a74a19f",
+      "name": "vericlaim",
+      "namespace": "x500",
+      "stdlib": "b6ee34c1-0a3e-540d-a31c-e6618a74a19f",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "2d5e17e1-eb33-3cb0-a6af-090d87914bfd",
+      "name": "claimlib/uuid_tools",
+      "namespace": "x500",
+      "stdlib": "2d5e17e1-eb33-3cb0-a6af-090d87914bfd",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "41619ecf-cc4c-5e59-b324-ba0ce9192fa4",
+      "name": "claimlib/uuid_tools",
+      "namespace": "x500",
+      "stdlib": "41619ecf-cc4c-5e59-b324-ba0ce9192fa4",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "7aaf118c-f174-3eba-9ec5-680cd791a020",
+      "name": "",
+      "namespace": "x500",
+      "stdlib": "7aaf118c-f174-3eba-9ec5-680cd791a020",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "b4bdf874-8c03-5bd8-8fd7-5e409dfd82c0",
+      "name": "",
+      "namespace": "x500",
+      "stdlib": "b4bdf874-8c03-5bd8-8fd7-5e409dfd82c0",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "501a4af4-b763-3357-87ea-eaac989f199d",
+      "name": "a",
+      "namespace": "x500",
+      "stdlib": "501a4af4-b763-3357-87ea-eaac989f199d",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "54a0a790-c611-5b5b-b50e-ff01490ecdfa",
+      "name": "a",
+      "namespace": "x500",
+      "stdlib": "54a0a790-c611-5b5b-b50e-ff01490ecdfa",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "2f0d05eb-650c-3996-af6d-919525e347e4",
+      "name": "bl\u00e5b\u00e6rsyltet\u00f8y \u2713",
+      "namespace": "x500",
+      "stdlib": "2f0d05eb-650c-3996-af6d-919525e347e4",
+      "variant_bits_ok": true,
+      "version": 3,
+      "version_bits_ok": true
+    },
+    {
+      "agree": true,
+      "computed": "f84ef536-b7e9-53e9-96a9-2a66a1e959d2",
+      "name": "bl\u00e5b\u00e6rsyltet\u00f8y \u2713",
+      "namespace": "x500",
+      "stdlib": "f84ef536-b7e9-53e9-96a9-2a66a1e959d2",
+      "variant_bits_ok": true,
+      "version": 5,
+      "version_bits_ok": true
+    }
+  ],
+  "stdlib_matched": 64
+}

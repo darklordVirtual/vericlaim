@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "punycode.json",
+  "artifact_sha256": "d7825726a42bf09e6d0edfb585b4a3c02454e33ae30641880deac207582dfee0",
+  "script": "python3 claimlib/modules/punycode/evidence.py",
+  "git_commit": "af03cd23cb223256bb23b49a4b149b32b95e5028",
+  "generated_at": "2026-07-13T07:12:31.328653+00:00",
+  "produced_by": "claimlib"
+}

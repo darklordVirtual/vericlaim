@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "uuid_tools.json",
+  "artifact_sha256": "92eb464209c43c20ec4b16e789c1bfe288c3a1a8c9ee3c0771279c14fa1d7516",
+  "script": "python3 claimlib/modules/uuid_tools/evidence.py",
+  "git_commit": "af03cd23cb223256bb23b49a4b149b32b95e5028",
+  "generated_at": "2026-07-13T07:04:25.191533+00:00",
+  "produced_by": "claimlib"
+}

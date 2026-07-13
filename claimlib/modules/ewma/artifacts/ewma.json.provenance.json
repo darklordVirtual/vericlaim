@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "ewma.json",
+  "artifact_sha256": "9dacd3c66aeebd452171b6fff49a4722cc5080945bc4ff20f4757edd75ccdfaf",
+  "script": "python3 claimlib/modules/ewma/evidence.py",
+  "git_commit": "af03cd23cb223256bb23b49a4b149b32b95e5028",
+  "generated_at": "2026-07-13T07:04:23.426719+00:00",
+  "produced_by": "claimlib"
+}
