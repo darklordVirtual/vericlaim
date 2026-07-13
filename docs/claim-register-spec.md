@@ -21,7 +21,14 @@ claims:
       accuracy_pct: 88.0
     caveat: >                  # the scope/limitation; part of the claim
       ...
-    reproduce: "python bench/x.py"   # optional: how to regenerate the artifact
+    reproduce_argv:            # optional (recommended): declarative reproduction
+      - python3
+      - bench/x.py
+      - --output-dir
+      - "{output_dir}"         # isolated empty dir the command must populate
+    reproduce_outputs:
+      - results/x.json         # byte-compared against the committed artifact
+    # reproduce: "python bench/x.py"   # legacy shell form (adopt profile only)
 ```
 
 ## Required fields
@@ -42,11 +49,34 @@ claims:
 - **n** — a sample size; anchors can bind to it with the key `n`.
 - **metrics** — a flat map of `name -> number`. Anchors bind doc prose to these
   values; this is how documentation is prevented from drifting.
-- **reproduce** — the command that regenerates the artifact. It powers two
-  checks: `vericlaim reproduce` re-runs it and requires the artifact to come
-  out byte-identical (the number still holds), and — when `require_provenance`
-  is on — a claim with a `reproduce` command must carry a provenance sidecar
-  for each artifact (source-file-only claims are exempt).
+- **reproduce_argv / reproduce_outputs / reproduce_timeout** — the
+  **declarative** (recommended) reproduction spec, the only form `strict`
+  and `enterprise` profiles accept. `reproduce_argv` is the command as a
+  list (no shell parsing); `{output_dir}` in any element is substituted
+  with an isolated, empty directory the command must CREATE its outputs in;
+  `reproduce_outputs` lists the committed artifacts those outputs are
+  byte-compared against; `reproduce_timeout` (seconds) optionally bounds
+  the run. A no-op cannot pass, because there is no stale file to fall back
+  on — see [`architecture/reproduction-model.md`](architecture/reproduction-model.md).
+
+  ```yaml
+  reproduce_argv:
+    - python3
+    - bench/x.py
+    - --output-dir
+    - "{output_dir}"
+  reproduce_outputs:
+    - results/x.json
+  ```
+
+- **reproduce** — the LEGACY string form: a shell command that regenerates
+  the artifact in place. Honored only under the `adopt` profile with
+  `allow_legacy_shell = true`; when both forms are present the declarative
+  one wins. It powers the same two checks: `vericlaim reproduce` re-runs it
+  and requires the artifact to come out byte-identical (the number still
+  holds), and — when `require_provenance` is on — a claim with a reproduce
+  command must carry a provenance sidecar for each artifact
+  (source-file-only claims are exempt).
 - **literature** — hash-verified external sources supporting the claim's
   context:
 

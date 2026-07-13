@@ -9,11 +9,14 @@ Status: 🟡 partially implemented · ⏳ designed, not built.
 ## Near-term
 
 - ⏳ **Declarative reproduce for the whole register.** The declarative runner
-  (`vericlaim/repro.py`) is implemented and tested, but the repo's own claims are
-  still legacy string commands. Converting them (and making `reproduce --profile
-  strict` pass across the register) is **blocked** by the zero-dependency parser:
-  it cannot represent the nested `reproduce:` map without PyYAML. Resolving this
-  is coupled to the parser-contract decision below.
+  (`vericlaim/repro.py`) is implemented and tested, and the former parser
+  blocker is resolved: the flat `reproduce_argv` / `reproduce_outputs` fields
+  parse identically under the bundled parser and PyYAML. **claimlib's 88
+  claims are fully converted** (`vericlaim --root claimlib reproduce` re-runs
+  every spec from scratch), and the root register's CLAIM-RSI-001/002 use the
+  declarative form. Remaining: the root register's examples/domains/library
+  claims still use legacy strings — convert them and make `reproduce` pass
+  under `--profile strict` repo-wide.
 - 🟡 **Schema v2 (typed structures + explicit metric bindings).** Today metric
   values are matched against JSON artifacts by key (`check_metrics_match_artifact`).
   v2 adds explicit bindings — `{value, artifact, pointer, type, unit, comparator}`

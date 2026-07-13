@@ -381,3 +381,33 @@ def test_provenance_hash_mismatch_flagged(tmp_path):
     art.write_text('{"x": 2}')
     ids = [e for e, _ in check_provenance(claims, cfg)]
     assert any(e.startswith("provenance-hash-mismatch") for e in ids)
+
+
+# ── getting-started contract: a fresh scaffold accepts appended claims ───────
+
+def test_scaffolded_register_accepts_appended_block_claims(tmp_path):
+    """The getting-started walkthrough appends `- id:` entries directly under
+    the scaffolded `claims:` key. That must parse — with the key bare (no
+    inline `[]`) — both when empty and after an append."""
+    from vericlaim.scaffold import init
+
+    init(tmp_path)
+    reg = tmp_path / "claims" / "register.yaml"
+    assert "claims:\n" in reg.read_text(encoding="utf-8")
+
+    # Fresh register: parses to zero claims (bare `claims:` is None in YAML).
+    assert load_register(reg.read_text(encoding="utf-8")) == []
+
+    # Append exactly the shape the docs show.
+    with reg.open("a", encoding="utf-8") as fh:
+        fh.write(
+            "  - id: CLAIM-APPEND-001\n"
+            "    statement: >\n"
+            "      Appended straight from the getting-started walkthrough.\n"
+            "    evidence_level: measured\n"
+            "    artifact:\n"
+            "      - results/x.json\n"
+            "    caveat: >\n"
+            "      Walkthrough fixture.\n")
+    claims = load_register(reg.read_text(encoding="utf-8"))
+    assert [c["id"] for c in claims] == ["CLAIM-APPEND-001"]

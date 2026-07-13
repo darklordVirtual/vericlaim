@@ -205,7 +205,9 @@ def load_register(text: str) -> list[dict]:
             data = yaml.safe_load(text) or {}
         except yaml.YAMLError as exc:  # real parse error → fail closed
             raise RegisterError(f"invalid YAML: {exc}") from exc
-        claims = data.get("claims", []) if isinstance(data, dict) else []
+        # `claims:` with no value (a fresh scaffold before the first entry)
+        # parses as None — treat it as the empty register, not a crash.
+        claims = (data.get("claims") or []) if isinstance(data, dict) else []
         claims = [c for c in claims if isinstance(c, dict)]
     else:
         claims = _parse_subset(text)

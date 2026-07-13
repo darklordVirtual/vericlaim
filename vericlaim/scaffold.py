@@ -39,8 +39,9 @@ _REGISTER = """\
 
 schema_version: "1"
 
-claims: []
-# Example (delete the `[]` above and uncomment):
+claims:
+# No claims yet — a fresh project passes the gate. Append entries directly
+# under `claims:` (example below; uncomment to use):
 #
 #  - id: CLAIM-CORE-001
 #    statement: >
@@ -93,5 +94,5 @@ def init(root: Path) -> int:
     print("  3. Run the gate:  vericlaim")
     print("  4. Add .github/workflows/claim-gate.yml to enforce it in CI")
     print()
-    print("Guide: https://github.com/darklordVirtual/vericlaim#quickstart")
+    print("Guide: https://github.com/darklordVirtual/vericlaim#watch-it-stop-a-lie-60-seconds")
     return 0

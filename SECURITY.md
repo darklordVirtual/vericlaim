@@ -16,9 +16,9 @@ public disclosure.
 ## Scope
 
 The **trusted core** is the zero-dependency Python gate (`vericlaim/`). Its
-security posture is defined in
-[`docs/security/security-model.md`](docs/security/security-model.md) and the
-threat model in [`docs/security/threat-model.md`](docs/security/threat-model.md).
+security posture — including the threat model — is defined in
+[`docs/security/security-model.md`](docs/security/security-model.md)
+(a dedicated threat-model page is a roadmap item).
 
 Integrations (`integrations/cloudflare-ai/`, `integrations/library/`) are
 **optional** product surfaces with their own threat models. A weakness in an

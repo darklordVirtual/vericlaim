@@ -147,7 +147,7 @@ era. The full argument: [`docs/manifesto.md`](docs/manifesto.md) (5-minute read)
 | **Provenance** | Every produced artifact records *how it was made* (script, commit, its own SHA-256), and that recorded hash must still match the file — *no anonymous, no stale number.* |
 | **Register ↔ evidence** | Every register metric equals the value in its JSON artifact — a mistyped number is caught even when the artifact still reproduces byte-for-byte. |
 | **Register integrity** | Required fields present, valid evidence level, no duplicate ids. |
-| **Manifest hashes** | Result artifacts match their SHA-256 — a silently edited number is caught. |
+| **Manifest hashes** | Result artifacts match their SHA-256 — a silently edited number is caught — and every reproduce-backed artifact must be listed (no uncovered evidence). |
 | **Doc binding** | Claim anchors tie prose numbers to the register; drift fails the build. |
 | **Code binding** | Comment anchors (`# claim:ID field`) bind claims stated in source comments the same way — code that describes itself is held to the register too. |
 | **Literature integrity** | Each `literature` entry's committed source must still hash to its registered SHA-256 — a citation can be proven intact, and can never be fabricated or silently swapped. |
@@ -369,6 +369,7 @@ docs/                 manifesto · getting-started · register spec · evidence 
 examples/             four tiny worked examples (capability, correctness, benchmark, proof)
 domains/              five larger applied modules (eval-harness, evidence-graph, multi-tenant, ontologies, cost-routing)
 seed/                 regenerable stress-test corpora (gate at scale · 16 enterprise domains)
+tools/                evidence scripts for the repo's own claims (version, self-improvement, claimlib index)
 tests/                tests for the gate, the examples, and the domain modules
 .claude/skills/       a Claude skill that enforces the discipline while you work
 integrations/         optional add-ons (not part of the zero-dep core)

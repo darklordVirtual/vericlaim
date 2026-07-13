@@ -30,7 +30,8 @@ def main() -> int:
     }
     out = here / "artifacts" / "theorem.json"
     out.parent.mkdir(exist_ok=True)
-    out.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
+    out.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8",
+                   newline="\n")
     from vericlaim.provenance import stamp
     stamp(out, script="python3 examples/theorem/evidence.py")
     print(f"[OK] wrote {out}")

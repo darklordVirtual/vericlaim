@@ -8,7 +8,7 @@ open-source project, not a supported commercial product.
 1. **Read the docs first** — start at the [documentation index](docs/README.md)
    and the [configuration reference](docs/reference/configuration.md).
 2. **Adopting vericlaim?** See
-   [`docs/tutorials/adopt-existing-repository.md`](docs/tutorials/adopt-existing-repository.md)
+   [`docs/getting-started.md`](docs/getting-started.md)
    and run `vericlaim init` then `vericlaim --profile adopt`.
 3. **Found a bug or have a question?** Open a GitHub issue with: your OS, Python
    version, `vericlaim` commit, the exact command, and the full output.
