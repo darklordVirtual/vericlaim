@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Stephen G. Kellison"
+  ],
+  "id": "kellison-2009",
+  "identifier": "3rd edition, ISBN 978-0-07-338244-9",
+  "kind": "book",
+  "publisher": "McGraw-Hill/Irwin",
+  "schema": "claimlib_literature_v1",
+  "summary": "The standard actuarial text on interest theory: accumulation and discount, annuities-certain and their present values, amortization schedules and sinking funds. Chapter 5 develops exactly the loan-amortization identities this module enforces -- the level payment P*i/(1-(1+i)^-n), interest-then-principal splitting, and the balance recursion that terminates at zero.",
+  "summary_sha256": "4e50e8f15dd5a7c9bae8b43facdf150d8fd3050fddf7d0a5008e32b03139bac3",
+  "title": "The Theory of Interest",
+  "url": "https://www.mheducation.com/highered/product/theory-interest-kellison/M9780073382449.html",
+  "year": 2009
+}

@@ -7,7 +7,6 @@ EWMA values 50.60, 49.52, 50.56, ...; steady-state UCL 52.5884 /
 LCL 47.4115), exact rational arithmetic via fractions.Fraction, and the
 algebraic identity that the limit factor at i = 1 is exactly lambda^2.
 """
-import math
 import sys
 from fractions import Fraction
 from pathlib import Path

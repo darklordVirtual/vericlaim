@@ -1,6 +1,6 @@
 # groupBy array partition (order-preserving)
 
-*Subject area: TypeScript / Collections. Language: typescript. Vendorable bundle `21e5ebc1ce3f`.*
+*Subject area: TypeScript / Collections. Language: typescript. Vendorable bundle `34c8f700d505`.*
 
 groupBy is the workhorse collection primitive for turning a flat list into buckets keyed by a projection — the SQL GROUP BY of everyday code, used for tallies, indexes, and report rollups. The subtle correctness properties are stability (items must stay in input order within a bucket) and safety against a data-driven "__proto__" key, which naive plain-object implementations mishandle by mutating the prototype chain. This module accumulates in a Map (safe for every string key, order-preserving) and materialises the result with defineProperty, so it is both stable and pollution-safe; vendor it to inherit a checked partitioner rather than re-auditing another hand-rolled reduce.
 
@@ -16,7 +16,7 @@ Ships `groupBy.ts` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/21e5ebc1ce3f410aa00921a9b03f8a107547c44d5c3aa63866a6eef96873581d --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/34c8f700d505c942d9b19cbb94542bdde375eeab829620829d36f71b2c4e9f1e --target .
 ```
 
 ## References

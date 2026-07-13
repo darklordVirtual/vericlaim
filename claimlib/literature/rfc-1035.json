@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "P. Mockapetris"
+  ],
+  "id": "rfc-1035",
+  "identifier": "RFC 1035 (STD 13)",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "The core DNS specification: message formats, resource records, name compression, and the size limits of section 2.3.4 -- labels of at most 63 octets and names of at most 255 octets in wire encoding -- together with the preferred letter-digit-hyphen name syntax of section 2.3.1.",
+  "summary_sha256": "896e5e9c2cc3b17a5e4517d580f4d635636426312509b12e24b1cbefd989a9bd",
+  "title": "Domain names - implementation and specification",
+  "url": "https://www.rfc-editor.org/rfc/rfc1035",
+  "year": 1987
+}

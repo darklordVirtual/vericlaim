@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Y. Nir",
+    "A. Langley"
+  ],
+  "id": "rfc-8439",
+  "identifier": "RFC 8439",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies the ChaCha20 stream cipher (the IETF variant with a 96-bit nonce and 32-bit block counter) and the Poly1305 authenticator, and their AEAD composition. Defines the quarter round, the 20-round block function over a 4x4 state of little-endian 32-bit words, and provides the reference test vectors (quarter round, block function keystream, and the 'sunscreen' encryption example) that conforming implementations must reproduce.",
+  "summary_sha256": "3496f4107781b751c699f6100ac05322f5ab8d2f5f9397cfd0e8108e61f16fb7",
+  "title": "ChaCha20 and Poly1305 for IETF Protocols",
+  "url": "https://www.rfc-editor.org/rfc/rfc8439",
+  "year": 2018
+}

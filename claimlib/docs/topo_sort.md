@@ -1,6 +1,6 @@
 # Topological sort + cycle detection
 
-*Subject area: General / Graph Algorithms. Language: python. Vendorable bundle `75a35ddcefe1`.*
+*Subject area: General / Graph Algorithms. Language: python. Vendorable bundle `ce5c01595306`.*
 
 A topological sort orders a directed acyclic graph so every dependency comes before whatever depends on it -- the primitive behind build systems, task schedulers, database migration ordering, and package resolution. Kahn's algorithm repeatedly emits a node with no remaining incoming edges; if any node never reaches in-degree zero, the graph has a cycle and no order exists. This module emits ready nodes smallest-first for a deterministic result and fails closed on a cycle; the claim proves every output respects all edges and every cycle is caught, so you inherit a checked ordering primitive rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `topo_sort.py` into your project, byte-exact, with a generated binding tes
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/75a35ddcefe1de017072d0239590a8e3b4bd3b17fbe5551e8d0c499db18111a3 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/ce5c01595306616bf40e933911aab36a5a4abda2f7633605cea1319ac9bf0083 --target .
 ```
 
 ## References

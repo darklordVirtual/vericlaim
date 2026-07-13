@@ -1,0 +1,41 @@
+{
+  "checks": 20,
+  "checks_matched": 20,
+  "edge_ok": 1,
+  "exact_rational_ok": 8,
+  "identity_ok": 4,
+  "inverse_ok": 3,
+  "mismatches": 0,
+  "module": "erlang_b",
+  "monotonicity_ok": 1,
+  "reject_cases": 6,
+  "rejects_ok": 6,
+  "schema": "claimlib_evidence_v1",
+  "table_detail": [
+    {
+      "circuits": 10,
+      "inverse_ok": true,
+      "offered_erlangs": 4.461,
+      "ok": true,
+      "recomputed": 0.009998,
+      "table_blocking": 0.01
+    },
+    {
+      "circuits": 10,
+      "inverse_ok": true,
+      "offered_erlangs": 5.092,
+      "ok": true,
+      "recomputed": 0.020158,
+      "table_blocking": 0.02
+    },
+    {
+      "circuits": 10,
+      "inverse_ok": true,
+      "offered_erlangs": 6.216,
+      "ok": true,
+      "recomputed": 0.05001,
+      "table_blocking": 0.05
+    }
+  ],
+  "table_rows_ok": 3
+}

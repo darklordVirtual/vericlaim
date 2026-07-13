@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "IEC"
+  ],
+  "id": "iec-60751",
+  "identifier": "IEC 60751:2022 (Edition 3.0)",
+  "kind": "standard",
+  "publisher": "IEC",
+  "schema": "claimlib_literature_v1",
+  "summary": "Specifies the resistance-versus-temperature relationship for industrial platinum resistance thermometers over -200 degC to +850 degC -- the Callendar-Van Dusen equations with the standard alpha = 0.00385 coefficients -- together with tolerance classes (AA, A, B, C) and their validity ranges. The standard's reference table of R(t) values is the conformance oracle for RTD conversion code.",
+  "summary_sha256": "4682c87cb562988f1a7b5c0d80a604c4ce48ee008adef62703a846527f6671bf",
+  "title": "Industrial platinum resistance thermometers and platinum temperature sensors",
+  "url": "https://webstore.iec.ch/en/publication/63753",
+  "year": 2022
+}

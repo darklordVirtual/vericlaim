@@ -963,3 +963,270 @@ claims:
       The reliability factors are the published AICPA Audit Guide Poisson values (rounded), tabulated only for confidence 90/95/99% and 0-3 expected deviations; the module sizes an ATTRIBUTE sample (tests of controls) and does not cover monetary-unit (dollar-unit) sampling, variables sampling, or finite-population correction. Sizing is a planning aid; evaluating results and the sufficiency of evidence remains the auditor's judgment.
     reproduce: "python3 claimlib/modules/audit_sampling/evidence.py"
 
+  - id: CLAIM-LIB-CHACHA20-001
+    statement: >
+      The vendored from-scratch ChaCha20 (RFC 8439) reproduces all 4 published reference vectors byte-exactly -- the section 2.1.1 quarter round, the section 2.3.2 block-function keystream, the Appendix A.1 all-zero keystream block, and the section 2.4.2 'sunscreen' ciphertext -- with 0 mismatches, and encrypt/decrypt round-trips losslessly on all 7 cases of a varied-length battery.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/chacha20/artifacts/chacha20.json"
+    metrics:
+      reference_vectors: 4
+      reference_vectors_matched: 4
+      mismatches: 0
+      roundtrips: 7
+      roundtrips_ok: 7
+    caveat: >
+      Confidentiality only: ChaCha20 provides no integrity -- an attacker can flip ciphertext bits; use an AEAD (ChaCha20-Poly1305) in real protocols and NEVER reuse a (key, nonce) pair. Pure-Python throughput is far below native crypto, and the implementation is not constant-time: this artifact is for verification, vendoring into audit/teaching contexts, and cross-checking -- not bulk or side-channel-sensitive encryption. Correctness is demonstrated over the published vector set, not proven for all inputs.
+    reproduce: "python3 claimlib/modules/chacha20/evidence.py"
+
+  - id: CLAIM-LIB-JWT-HS256-001
+    statement: >
+      The vendored JWS/JWT HS256 library passes all 37 checks with 0 mismatches: the RFC 7515 Appendix A.1 published example signature reproduces exactly (6 checks), the base64url codec matches its RFC 4648 vectors (12), exp/nbf validation with explicit injected time behaves per RFC 7519 at the boundaries (10), the adversarial battery -- alg 'none', asymmetric-alg confusion, tampered payloads, malformed tokens -- is rejected fail-closed (8), and signing is deterministic and round-trips (1).
+    evidence_level: benchmarked
+    artifact:
+      - "modules/jwt_hs256/artifacts/jwt_hs256.json"
+    metrics:
+      checks: 37
+      checks_matched: 37
+      mismatches: 0
+      rfc7515_a1_matched: 6
+      rejections_correct: 8
+    caveat: >
+      HS256 (symmetric HMAC-SHA256) only: no RSA/ECDSA support, and the verifier accepts exclusively alg=HS256 by design. Claims validation covers exp/nbf with caller-supplied time (the module never reads a clock); aud/iss/sub semantics, key management, rotation and revocation are the caller's responsibility. The published-example and adversarial batteries demonstrate, not prove, correctness for all tokens.
+    reproduce: "python3 claimlib/modules/jwt_hs256/evidence.py"
+
+  - id: CLAIM-LIB-PUNYCODE-001
+    statement: >
+      The vendored Punycode codec reproduces all 19 published RFC 3492 section 7.1 sample strings exactly in both directions (samples_matched = 19, mismatches = 0), accepts the RFC's mixed-case digit spelling on decode, and agrees with Python's independent stdlib punycode codec on all 56 cross-checks over the samples plus a fixed extra battery.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/punycode/artifacts/punycode.json"
+    metrics:
+      samples: 19
+      samples_matched: 19
+      mismatches: 0
+      stdlib_checks: 56
+      stdlib_ok: 56
+    caveat: >
+      Raw Punycode only: no 'xn--' ACE prefix handling and no IDNA normalization (case folding, ContextJ, bidi rules) -- pair it with an IDNA layer for real domain processing. Mixed-case annotation (RFC 3492 appendix A) is intentionally not implemented: the encoder emits lowercase digits as IDNA requires, and sample (I)'s expected form is the canonical lowercase spelling.
+    reproduce: "python3 claimlib/modules/punycode/evidence.py"
+
+  - id: CLAIM-LIB-DNS-NAME-001
+    statement: >
+      The vendored DNS hostname validator classifies all 23 battery names correctly (correct = 23, mismatches = 0) -- the 63-octet label and 253-character presentation-name boundaries, the LDH letter-digit-hyphen rule with RFC 1123's digit-start allowance, hyphen edge cases and empty labels -- and passes all 6 wire-format length computations and 5 case-insensitive equality checks, with the label boundary cross-checked against Python's stdlib encoder.
+    evidence_level: measured
+    artifact:
+      - "modules/dns_name/artifacts/dns_name.json"
+    metrics:
+      n_cases: 23
+      correct: 23
+      mismatches: 0
+      wire_matched: 6
+      equality_matched: 5
+    caveat: >
+      Hostname (LDH) validation per RFC 1035 section 2.3.4 and RFC 1123 section 2.1 -- not general DNS-name validation (DNS proper permits arbitrary binary labels), and not IDNA: Unicode names must be Punycode/IDNA-encoded first. Underscore service labels (e.g. _sip._tcp) are non-hostname names and are rejected unless the caller opts in.
+    reproduce: "python3 claimlib/modules/dns_name/evidence.py"
+
+  - id: CLAIM-LIB-ERLANG-B-001
+    statement: >
+      The vendored Erlang B library passes all 20 checks with 0 mismatches: the stable recursion agrees with the closed formula recomputed in exact rational arithmetic on all 8 cases to 12 decimal places, satisfies B(1,A) = A/(1+A) algebraically on 4, reproduces the 3 published traffic-table rows for 10 circuits (4.461 E at 1% blocking, 5.092 E at 2%, 6.216 E at 5%) within table precision with the planner inverse recovering N = 10 for each, and is monotone in circuits and traffic.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/erlang_b/artifacts/erlang_b.json"
+    metrics:
+      checks: 20
+      checks_matched: 20
+      mismatches: 0
+      exact_rational_ok: 8
+      table_rows_ok: 3
+      inverse_ok: 3
+    caveat: >
+      The Erlang B model assumes Poisson arrivals, blocked-calls-cleared (no retry, no queueing) and infinite sources -- real traffic with redial or burstiness needs Erlang C or engineering margin. Published table loads are rounded to 3-4 significant figures, so table rows are checked to 1% relative and the inverse to the same tolerance; the recursion itself is exact to float precision.
+    reproduce: "python3 claimlib/modules/erlang_b/evidence.py"
+
+  - id: CLAIM-LIB-KID-001
+    statement: >
+      The vendored KID library misses ZERO of 859095 single-digit tamperings: over the complete space of 4-digit payloads, every single-digit alteration of every valid KID is rejected in BOTH registered variants (MOD10 and MOD11). Its MOD10 agrees with an independent from-scratch Luhn on all 10000 payloads of that space, and its MOD11 agrees with the published organisasjonsnummer construction on a 1027-point sweep with all 3 publicly listed orgnr (Equinor, Bronnoysundregistrene, DNB) validating.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/kid/artifacts/kid.json"
+    metrics:
+      tampers: 859095
+      tampers_caught: 859095
+      tampers_missed: 0
+      mod10_luhn_agreement: 10000
+      mod10_space: 10000
+      orgnr_agreement: 1027
+    caveat: >
+      Check-digit math per the Nets/Mastercard Payment Services OCR giro system specification -- MOD10 (Luhn weights 2,1 right-to-left) and MOD11 (weights 2..7 cyclic right-to-left, remainder 1 meaning no valid digit). The module enforces the outer 2-25-digit bound; the minimum KID length and which variant applies are per OCR agreement with the bank and must be enforced by the caller. A valid check digit proves well-formedness, never that the invoice exists.
+    reproduce: "python3 claimlib/modules/kid/evidence.py"
+
+  - id: CLAIM-LIB-ANNUITY-001
+    statement: >
+      The vendored annuity library passes all 32 checks with 0 mismatches: it reproduces the standard published textbook payment ($100,000 at 0.5% per month over 360 months gives exactly $599.55), satisfies the exact accounting identities on every one of 6 loans -- final balance exactly 0, principal column summing exactly to the principal, every interest cell equal to the banker's-rounded balance-times-rate, payments summing to principal plus total interest -- agrees with an independent 50-digit decimal evaluation of the closed formula on all 6, and handles the zero-rate even split.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/annuity/artifacts/annuity.json"
+    metrics:
+      checks: 32
+      checks_matched: 32
+      mismatches: 0
+      textbook_payment_mu: 59955
+      identity_ok: 24
+      identity_checks: 24
+    caveat: >
+      Constant-rate annuity mathematics in integer minor units: no fees, no rate changes, no day-count conventions, no grace periods -- and the final payment absorbs cumulative rounding by design (it can differ from the constant payment by a few minor units). Norwegian 'effektiv rente' (EU APR) disclosure math is a different calculation not provided here.
+    reproduce: "python3 claimlib/modules/annuity/evidence.py"
+
+  - id: CLAIM-LIB-BLOOM-001
+    statement: >
+      The vendored Bloom filter produces ZERO false negatives over an exhaustive 500-member battery (false_negatives = 0 -- the defining guarantee), its measured 46 false positives over 2000 disjoint probes sit within twice the analytical expectation, its false-positive formula matches exact rational recomputation on all 5 (m, n, k) triples to 12 decimal places, and optimal_k reproduces max(1, round((m/n) ln 2)) on all 4 cases.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/bloom_filter/artifacts/bloom_filter.json"
+    metrics:
+      members: 500
+      false_negatives: 0
+      probes: 2000
+      false_positives_measured: 46
+      formula_checks: 5
+      formula_ok: 5
+    caveat: >
+      No-false-negatives is verified exhaustively for the fixed battery and holds by construction for any inserted element, but the false-POSITIVE rate is probabilistic: the classical formula assumes independent uniform hash functions, and the SHA-256 double-hashing here approximates that. No deletion support (that needs a counting filter); serialized filters are only comparable across identical (m, k) parameters.
+    reproduce: "python3 claimlib/modules/bloom_filter/evidence.py"
+
+  - id: CLAIM-LIB-UUID-001
+    statement: >
+      The vendored UUID library reproduces all 12 RFC 9562 published vectors exactly (rfc_vectors_matched = 12, mismatches = 0), agrees with Python's independent stdlib uuid3/uuid5 on all 64 cross-checks over a fixed (namespace, name) battery, and places the version and variant bits correctly in all 128 bit-placement checks.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/uuid_tools/artifacts/uuid_tools.json"
+    metrics:
+      rfc_vectors: 12
+      rfc_vectors_matched: 12
+      mismatches: 0
+      stdlib_cross_checks: 64
+      stdlib_matched: 64
+      bit_checks: 128
+      bit_checks_ok: 128
+    caveat: >
+      Deterministic name-based UUIDs only (v3 MD5, v5 SHA-1) plus parse/format/inspect: no random v4 or time-based v1/v6/v7 GENERATION, since the module refuses nondeterminism by design (inspection of those versions works). Name-based UUIDs are deterministic by specification: the same namespace and name always produce the same UUID -- do not use them where unlinkability matters. MD5/SHA-1 here are identity derivations per the RFC, not security primitives.
+    reproduce: "python3 claimlib/modules/uuid_tools/evidence.py"
+
+  - id: CLAIM-LIB-BASE58-001
+    statement: >
+      The vendored Base58 codec reproduces all 24 published reference vectors exactly in both directions (reference_vectors_matched = 24, mismatches = 0) -- the draft-msporny-base58 vectors including 'Hello World!' -> '2NEpo7TZRRrLZSi2U' and the Bitcoin Core encode/decode set with its long leading-zero runs -- and round-trips losslessly on all 14 structural cases.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/base58/artifacts/base58.json"
+    metrics:
+      reference_vectors: 24
+      reference_vectors_matched: 24
+      mismatches: 0
+      roundtrip_cases: 14
+      roundtrip_ok: 14
+    caveat: >
+      Raw Base58 only -- NOT Base58Check: no version byte and no double-SHA-256 checksum, so a typo in an address-like string is not detected at this layer. The alphabet is the Bitcoin one (no 0, O, I, l); other ecosystems (Ripple, Flickr) permute it. Decoding is strict: any character outside the alphabet fails closed.
+    reproduce: "python3 claimlib/modules/base58/evidence.py"
+
+  - id: CLAIM-LIB-PT100-001
+    statement: >
+      The vendored Pt100 library passes all 18 checks with 0 mismatches: it reproduces all 8 published IEC 60751 standard-table resistance points (100.0000 ohm at 0 degC, 138.5055 at 100, 18.5201 at -200, 390.4811 at 850, ...), each point independently re-derived from the standard coefficients at 50-digit decimal precision, round-trips temperature through resistance and back to under 1e-6 degC on all 1051 points of a full-span 1-degree sweep (worst 3.6e-10), and scales exactly to Pt1000.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/pt100/artifacts/pt100.json"
+    metrics:
+      checks: 18
+      checks_matched: 18
+      mismatches: 0
+      table_points: 8
+      table_ok: 8
+      sweep_points: 1051
+      roundtrip_ok: 1051
+    caveat: >
+      This is the STANDARD IEC 60751 curve (alpha = 0.00385 sensors, -200..850 degC), not a calibration: a physical sensor has a tolerance class (AA/A/B/C), lead-wire resistance, self-heating and drift that this module does not model. Individual sensor calibration replaces the standard coefficients with fitted ones.
+    reproduce: "python3 claimlib/modules/pt100/evidence.py"
+
+  - id: CLAIM-LIB-SLO-BURNRATE-001
+    statement: >
+      The vendored burn-rate library passes all 17 checks with 0 mismatches: it reproduces the Google SRE Workbook's published 30-day alerting table exactly (2% budget in 1 h is burn rate 14.4, 5% in 6 h is 6, 10% in 3 d is 1, each with its long/12 short window), validates the shipped three-tier policy against the formula, satisfies 7 algebraic identities (including burn rate 1000 exhausting a 30-day budget in 0.72 h), and implements the multiwindow condition so an at-threshold or single-window signal does NOT page.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/slo_burnrate/artifacts/slo_burnrate.json"
+    metrics:
+      checks: 17
+      checks_matched: 17
+      mismatches: 0
+      workbook_rows: 3
+      workbook_rows_ok: 3
+      policy_tiers_ok: 3
+    caveat: >
+      The arithmetic of the Workbook's method, not an alerting system: it computes burn rates, thresholds and windows -- your monitoring stack must measure the error ratios. The published table assumes a 30-day SLO period; other periods rescale via the same formula. Threshold comparisons are strict-greater by design, so a ratio exactly at threshold does not fire.
+    reproduce: "python3 claimlib/modules/slo_burnrate/evidence.py"
+
+  - id: CLAIM-LIB-EWMA-001
+    statement: >
+      The vendored EWMA library passes all 150 checks with 0 mismatches: the float recursion matches exact rational (Fraction) recomputation to 12 decimal places on all 76 points, the control-limit width factors match on all 50, and it reproduces the NIST/SEMATECH e-Handbook's published worked example -- all 21 EWMA values of the 20-point dataset (lambda 0.3, target 50) and the published steady-state control limits.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/ewma/artifacts/ewma.json"
+    metrics:
+      checks: 150
+      checks_matched: 150
+      mismatches: 0
+      fraction_matched: 76
+      nist_values_matched: 21
+    caveat: >
+      EWMA smoothing and control-limit arithmetic only: choosing lambda and L, estimating sigma, and acting on out-of-control signals are process decisions. The NIST example is reproduced at its published rounding; the exact-rational oracle proves the arithmetic, not the statistical appropriateness of EWMA for a given signal.
+    reproduce: "python3 claimlib/modules/ewma/evidence.py"
+
+  - id: CLAIM-LIB-CIS-001
+    statement: >
+      The vendored CIS Controls library passes all 38 checks with 0 mismatches: the encoded taxonomy carries the published shape of CIS Critical Security Controls v8.1 -- 18 Controls and 153 Safeguards with the Implementation Group cumulative counts IG1 = 56, IG2 = 130, IG3 = 153 -- verified control-by-control (18 checks) and total-by-total (6), with coverage arithmetic exact on all 13 assessment cases.
+    evidence_level: measured
+    artifact:
+      - "modules/cis_controls/artifacts/cis_controls.json"
+    metrics:
+      checks: 38
+      checks_matched: 38
+      mismatches: 0
+      n_controls: 18
+      n_safeguards: 153
+      ig1_safeguards: 56
+    caveat: >
+      A faithful encoding of the framework's structure and counts, not the safeguard texts (vendor those from CIS directly under their license) and not an assessment: coverage scoring reports what the caller declares implemented. Framework versions matter -- these counts are v8.1 (2024); v8.0 distributed safeguards differently.
+    reproduce: "python3 claimlib/modules/cis_controls/evidence.py"
+
+  - id: CLAIM-LIB-GDPR-001
+    statement: >
+      The vendored GDPR library passes all 14 checks with 0 mismatches: the encoded 11 chapter ranges PARTITION the Regulation's 99 articles exactly (verified article-by-article, exhaustively), 7 published anchor articles resolve to their correct chapters (Art. 5 to II, Art. 17 to III, Art. 33 to IV, Art. 83 to VIII, ...), the principle and measure sets match Article 5 (six lettered principles plus accountability) and Article 32(1) (four measures), and coverage percentages agree with exact Fraction arithmetic.
+    evidence_level: measured
+    artifact:
+      - "modules/gdpr/artifacts/gdpr.json"
+    metrics:
+      checks: 14
+      checks_matched: 14
+      mismatches: 0
+      articles: 99
+      chapters: 11
+      partition_ok: 1
+    caveat: >
+      An encoding of the Regulation's published structure and enumerations, not legal advice: implementing all Article 32 measures does not make processing lawful, and coverage scoring reports what the caller declares. Article texts are not embedded -- read them at EUR-Lex; national implementations add member-state specifics on top.
+    reproduce: "python3 claimlib/modules/gdpr/evidence.py"
+
+  - id: CLAIM-LIB-MUS-001
+    statement: >
+      The vendored monetary-unit sampling library passes all 10 checks with 0 mismatches: the top-stratum guarantee -- an item at least as large as the sampling interval is selected -- holds for EVERY one of the 500000 possible selection starts of the fixed population (exhaustive, as does the selection-point count identity), zero-value items are never selected, the guide's worked projection reproduces ($3,000 item overstated 10% with a $5,000 interval projects $500), and all 4 projection cases match exact Fraction recomputation, including top-stratum actuals and understatements.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/mus_sampling/artifacts/mus_sampling.json"
+    metrics:
+      checks: 10
+      checks_matched: 10
+      mismatches: 0
+      starts_checked: 500000
+      top_stratum_guarantee: 1
+    caveat: >
+      Fixed-interval (systematic) PPS selection and tainting projection in exact arithmetic -- not the full MUS evaluation: upper-misstatement limits with reliability factors, expansion factors for expected misstatement, and sample-size planning live in the audit_sampling module and the auditor's judgment. Negative book values are rejected (the guide samples credits separately), and the selection start is caller-supplied, not generated.
+    reproduce: "python3 claimlib/modules/mus_sampling/evidence.py"
+

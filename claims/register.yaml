@@ -202,23 +202,23 @@ claims:
 
   - id: CLAIM-LIB-INDEX-001
     statement: >
-      The claimlib knowledge register holds 64 claim-bound, vendorable modules
-      (52 Python, 7 TypeScript, 5 React) and a hash-locked literature layer of
-      76 works; 55 modules cite the literature they implement through 80
+      The claimlib knowledge register holds 80 claim-bound, vendorable modules
+      (68 Python, 7 TypeScript, 5 React) and a hash-locked literature layer of
+      94 works; 71 modules cite the literature they implement through 103
       resolved references, and the remaining 9 are documented as having no
       canonical authoritative work (generic programming utilities).
     evidence_level: measured
     artifact:
       - "claims/claimlib_index.json"
     metrics:
-      modules_total: 64
-      modules_python: 52
+      modules_total: 80
+      modules_python: 68
       modules_typescript: 7
       modules_react: 5
-      literature_works: 76
-      modules_cited: 55
+      literature_works: 94
+      modules_cited: 71
       modules_uncited: 9
-      citations_total: 80
+      citations_total: 103
     caveat: >
       Counts are computed from MODULES.py and SOURCES.py — the same inputs
       claimlib/build_literature.py validates (every reference must resolve,

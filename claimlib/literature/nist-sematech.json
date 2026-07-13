@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "NIST/SEMATECH"
+  ],
+  "id": "nist-sematech",
+  "identifier": "doi:10.18434/M32189, section 6.3.2.4 (EWMA Control Charts)",
+  "kind": "book",
+  "publisher": "NIST",
+  "schema": "claimlib_literature_v1",
+  "summary": "NIST's online engineering-statistics handbook. Section 6.3.2.4 defines the EWMA control chart, its variance factor lambda/(2-lambda)*(1-(1-lambda)^(2i)), and publishes a complete worked example -- a 20-point dataset with target 50, lambda 0.3 and the resulting EWMA series and control limits -- that implementations can reproduce value-for-value.",
+  "summary_sha256": "ac18b13fdd1dddfddb5ba01a9f9aeecd143a7bc741a869bcfa88b29bafdf628c",
+  "title": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "url": "https://www.itl.nist.gov/div898/handbook/",
+  "year": 2012
+}

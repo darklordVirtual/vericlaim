@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "M. Jones",
+    "J. Bradley",
+    "N. Sakimura"
+  ],
+  "id": "rfc-7519",
+  "identifier": "RFC 7519",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Defines the JSON Web Token: a compact claims representation carried as the payload of a JWS or JWE. Registers the standard claims -- iss, sub, aud, exp, nbf, iat, jti -- and their processing rules, including that expiration ('exp') and not-before ('nbf') are NumericDate values compared against current time with optional small leeway.",
+  "summary_sha256": "bed35f1ec0f908a2cc82789aef54c93f7f53376d2e7b8ae4d6e8d93abb1be2c3",
+  "title": "JSON Web Token (JWT)",
+  "url": "https://www.rfc-editor.org/rfc/rfc7519",
+  "year": 2015
+}

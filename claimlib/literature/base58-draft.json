@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "M. Sporny (ed.)"
+  ],
+  "id": "base58-draft",
+  "identifier": "draft-msporny-base58-03",
+  "kind": "specification",
+  "publisher": "IETF (Internet-Draft, work in progress)",
+  "schema": "claimlib_literature_v1",
+  "summary": "An Internet-Draft documenting the Base58 encoding as used by Bitcoin and IPFS: the 58-character alphabet omitting 0, O, I and l, big-integer base conversion, and the preservation of leading zero bytes as leading '1' characters. Includes the test vectors ('Hello World!', the '11233QC4' leading-zero case) that implementations reproduce. Never published as an RFC -- cited as the de facto written specification of the scheme.",
+  "summary_sha256": "77f5661cbbbf61cd6a068fa3c12e78964d0db9993aca985505760090b7f3c393",
+  "title": "The Base58 Encoding Scheme",
+  "url": "https://datatracker.ietf.org/doc/html/draft-msporny-base58-03",
+  "year": 2021
+}

@@ -31,7 +31,7 @@ sys.path.insert(0, str(HERE))              # the module under test
 sys.path.insert(0, str(HERE.parents[1]))   # claimlib/ for _util
 
 from jwt_hs256 import (  # noqa: E402
-    JWTError, InvalidToken, InvalidSignature, ClaimValidationError,
+    InvalidToken, InvalidSignature, ClaimValidationError,
     b64url_encode, b64url_decode, sign_bytes, sign_claims,
     verify, validate_claims, decode,
 )

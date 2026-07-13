@@ -1,6 +1,6 @@
 # 802.1Q VLAN ID validation + ranges
 
-*Subject area: Telecom / VLAN Management. Language: python. Vendorable bundle `7791337febea`.*
+*Subject area: Telecom / VLAN Management. Language: python. Vendorable bundle `36dd81786dae`.*
 
 An 802.1Q VLAN ID is a 12-bit field, but only 1..4094 are assignable: 0 marks a priority-tagged (untagged) frame and 4095 is reserved. Switch and ISP configs express VLAN membership as compact ranges like '1,10-12,4094', which must be parsed, de-duplicated, and re-emitted canonically. This module validates VIDs and round-trips those range lists; the claim proves the validity rule matches 802.1Q and the parse/format round-trips, so you inherit a checked VLAN helper rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `vlan.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/7791337febeaacc879cbe33349229ebdd24482b55fd37ec96a97741775cf0669 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/36dd81786daebb4581fdd56a94b4be99ffa923d2f83591fd6e05c39dbd0f6c21 --target .
 ```
 
 ## References

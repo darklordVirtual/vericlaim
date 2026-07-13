@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "R. Braden (ed.)"
+  ],
+  "id": "rfc-1123",
+  "identifier": "RFC 1123 (STD 3)",
+  "kind": "rfc",
+  "publisher": "IETF",
+  "schema": "claimlib_literature_v1",
+  "summary": "Host requirements for application-layer protocols. Section 2.1 relaxes the RFC 952 hostname syntax to permit labels beginning with a digit, keeps the letter-digit-hyphen alphabet and per-label limits, and is the reason names like '3com.com' are valid hostnames.",
+  "summary_sha256": "6f99eef804694f283025c60db52ff9b1f1b3dfb6267871fa6297b50091dbaff0",
+  "title": "Requirements for Internet Hosts - Application and Support",
+  "url": "https://www.rfc-editor.org/rfc/rfc1123",
+  "year": 1989
+}

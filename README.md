@@ -278,14 +278,14 @@ bundles/<sha256>       content-addressed bundle_v1 — vendor it; edit one byte 
 ```
 
 <!-- claim:CLAIM-LIB-INDEX-001 modules_total modules_python modules_typescript modules_react literature_works modules_cited modules_uncited citations_total -->
-The register holds <!-- v:CLAIM-LIB-INDEX-001.modules_total -->**64** modules —
-<!-- v:CLAIM-LIB-INDEX-001.modules_python -->**52** Python,
+The register holds <!-- v:CLAIM-LIB-INDEX-001.modules_total -->**80** modules —
+<!-- v:CLAIM-LIB-INDEX-001.modules_python -->**68** Python,
 <!-- v:CLAIM-LIB-INDEX-001.modules_typescript -->**7** TypeScript,
 <!-- v:CLAIM-LIB-INDEX-001.modules_react -->**5** React — and a hash-locked
-bibliography of <!-- v:CLAIM-LIB-INDEX-001.literature_works -->**76** works;
-<!-- v:CLAIM-LIB-INDEX-001.modules_cited -->**55** modules cite the standard,
+bibliography of <!-- v:CLAIM-LIB-INDEX-001.literature_works -->**94** works;
+<!-- v:CLAIM-LIB-INDEX-001.modules_cited -->**71** modules cite the standard,
 RFC or paper they implement through
-<!-- v:CLAIM-LIB-INDEX-001.citations_total -->**80** resolved references, and
+<!-- v:CLAIM-LIB-INDEX-001.citations_total -->**103** resolved references, and
 the remaining <!-- v:CLAIM-LIB-INDEX-001.modules_uncited -->**9** are generic
 utilities honestly documented as having no canonical authoritative work.
 These counts are themselves a claim (`CLAIM-LIB-INDEX-001`): add a module or a
@@ -295,15 +295,15 @@ work without regenerating the evidence and this paragraph fails the build.
 
 | Subject area | Modules |
 |--------------|---------|
-| **Security & cryptography** | [`sha256`](claimlib/docs/sha256.md) · [`hmac_sha256`](claimlib/docs/hmac_sha256.md) · [`hotp`](claimlib/docs/hotp.md) · [`totp`](claimlib/docs/totp.md) · [`pbkdf2`](claimlib/docs/pbkdf2.md) · [`hkdf`](claimlib/docs/hkdf.md) · [`pem`](claimlib/docs/pem.md) · [`spki_pin`](claimlib/docs/spki_pin.md) · [`lamport`](claimlib/docs/lamport.md) · [`cvss`](claimlib/docs/cvss.md) · [`hashchain`](claimlib/docs/hashchain.md) · [`merkle`](claimlib/docs/merkle.md) · [`rbac`](claimlib/docs/rbac.md) |
-| **Governance & compliance** | [`nist_csf`](claimlib/docs/nist_csf.md) · [`nis2`](claimlib/docs/nis2.md) · [`soc2`](claimlib/docs/soc2.md) · [`iso27001`](claimlib/docs/iso27001.md) · [`pci_dss`](claimlib/docs/pci_dss.md) |
-| **Audit & forensic analytics** | [`benford`](claimlib/docs/benford.md) · [`double_entry`](claimlib/docs/double_entry.md) · [`audit_sampling`](claimlib/docs/audit_sampling.md) |
-| **Finance & payments** | [`iban`](claimlib/docs/iban.md) · [`money`](claimlib/docs/money.md) · [`mod11`](claimlib/docs/mod11.md) · [`luhn`](claimlib/docs/luhn.md) |
-| **Telecom & networking** | [`cidr`](claimlib/docs/cidr.md) · [`ipv6`](claimlib/docs/ipv6.md) · [`macaddr`](claimlib/docs/macaddr.md) · [`aspath`](claimlib/docs/aspath.md) · [`ipchecksum`](claimlib/docs/ipchecksum.md) · [`vlan`](claimlib/docs/vlan.md) · [`e164`](claimlib/docs/e164.md) · [`imei`](claimlib/docs/imei.md) · [`hamming74`](claimlib/docs/hamming74.md) |
-| **Industrial & telemetry** | [`modbus_crc`](claimlib/docs/modbus_crc.md) · [`nmea`](claimlib/docs/nmea.md) · [`oee`](claimlib/docs/oee.md) |
-| **Data: encoding & serialization** | [`base32`](claimlib/docs/base32.md) · [`crc32`](claimlib/docs/crc32.md) · [`csv_rfc4180`](claimlib/docs/csv_rfc4180.md) · [`jsonpointer`](claimlib/docs/jsonpointer.md) · [`rle`](claimlib/docs/rle.md) · [`varint`](claimlib/docs/varint.md) |
-| **Reliability & SRE** | [`tokenbucket`](claimlib/docs/tokenbucket.md) · [`retry`](claimlib/docs/retry.md) · [`errorbudget`](claimlib/docs/errorbudget.md) · [`percentile`](claimlib/docs/percentile.md) · [`apdex`](claimlib/docs/apdex.md) |
-| **Algorithms & data structures** | [`levenshtein`](claimlib/docs/levenshtein.md) · [`topo_sort`](claimlib/docs/topo_sort.md) · [`lru`](claimlib/docs/lru.md) · [`semver`](claimlib/docs/semver.md) |
+| **Security & cryptography** | [`sha256`](claimlib/docs/sha256.md) · [`hmac_sha256`](claimlib/docs/hmac_sha256.md) · [`hotp`](claimlib/docs/hotp.md) · [`totp`](claimlib/docs/totp.md) · [`pbkdf2`](claimlib/docs/pbkdf2.md) · [`hkdf`](claimlib/docs/hkdf.md) · [`chacha20`](claimlib/docs/chacha20.md) · [`jwt_hs256`](claimlib/docs/jwt_hs256.md) · [`pem`](claimlib/docs/pem.md) · [`spki_pin`](claimlib/docs/spki_pin.md) · [`lamport`](claimlib/docs/lamport.md) · [`cvss`](claimlib/docs/cvss.md) · [`hashchain`](claimlib/docs/hashchain.md) · [`merkle`](claimlib/docs/merkle.md) · [`rbac`](claimlib/docs/rbac.md) |
+| **Governance & compliance** | [`nist_csf`](claimlib/docs/nist_csf.md) · [`nis2`](claimlib/docs/nis2.md) · [`soc2`](claimlib/docs/soc2.md) · [`iso27001`](claimlib/docs/iso27001.md) · [`pci_dss`](claimlib/docs/pci_dss.md) · [`cis_controls`](claimlib/docs/cis_controls.md) · [`gdpr`](claimlib/docs/gdpr.md) |
+| **Audit & forensic analytics** | [`benford`](claimlib/docs/benford.md) · [`double_entry`](claimlib/docs/double_entry.md) · [`audit_sampling`](claimlib/docs/audit_sampling.md) · [`mus_sampling`](claimlib/docs/mus_sampling.md) |
+| **Finance & payments** | [`iban`](claimlib/docs/iban.md) · [`money`](claimlib/docs/money.md) · [`mod11`](claimlib/docs/mod11.md) · [`luhn`](claimlib/docs/luhn.md) · [`kid`](claimlib/docs/kid.md) · [`annuity`](claimlib/docs/annuity.md) |
+| **Telecom & networking** | [`cidr`](claimlib/docs/cidr.md) · [`ipv6`](claimlib/docs/ipv6.md) · [`macaddr`](claimlib/docs/macaddr.md) · [`aspath`](claimlib/docs/aspath.md) · [`ipchecksum`](claimlib/docs/ipchecksum.md) · [`vlan`](claimlib/docs/vlan.md) · [`e164`](claimlib/docs/e164.md) · [`imei`](claimlib/docs/imei.md) · [`hamming74`](claimlib/docs/hamming74.md) · [`dns_name`](claimlib/docs/dns_name.md) · [`punycode`](claimlib/docs/punycode.md) · [`erlang_b`](claimlib/docs/erlang_b.md) |
+| **Industrial & telemetry** | [`modbus_crc`](claimlib/docs/modbus_crc.md) · [`nmea`](claimlib/docs/nmea.md) · [`oee`](claimlib/docs/oee.md) · [`pt100`](claimlib/docs/pt100.md) |
+| **Data: encoding & serialization** | [`base32`](claimlib/docs/base32.md) · [`base58`](claimlib/docs/base58.md) · [`crc32`](claimlib/docs/crc32.md) · [`csv_rfc4180`](claimlib/docs/csv_rfc4180.md) · [`jsonpointer`](claimlib/docs/jsonpointer.md) · [`rle`](claimlib/docs/rle.md) · [`varint`](claimlib/docs/varint.md) · [`uuid_tools`](claimlib/docs/uuid_tools.md) |
+| **Reliability & SRE** | [`tokenbucket`](claimlib/docs/tokenbucket.md) · [`retry`](claimlib/docs/retry.md) · [`errorbudget`](claimlib/docs/errorbudget.md) · [`percentile`](claimlib/docs/percentile.md) · [`apdex`](claimlib/docs/apdex.md) · [`slo_burnrate`](claimlib/docs/slo_burnrate.md) · [`ewma`](claimlib/docs/ewma.md) |
+| **Algorithms & data structures** | [`levenshtein`](claimlib/docs/levenshtein.md) · [`topo_sort`](claimlib/docs/topo_sort.md) · [`lru`](claimlib/docs/lru.md) · [`semver`](claimlib/docs/semver.md) · [`bloom_filter`](claimlib/docs/bloom_filter.md) |
 | **TypeScript utilities** | [`result`](claimlib/docs/result.md) · [`deepEqual`](claimlib/docs/deepEqual.md) · [`cx`](claimlib/docs/cx.md) · [`groupBy`](claimlib/docs/groupBy.md) · [`chunk`](claimlib/docs/chunk.md) · [`parseQuery`](claimlib/docs/parseQuery.md) · [`formatDuration`](claimlib/docs/formatDuration.md) |
 | **React hooks** | [`useAsync`](claimlib/docs/useAsync.md) · [`useDebouncedValue`](claimlib/docs/useDebouncedValue.md) · [`usePagination`](claimlib/docs/usePagination.md) · [`useStepper`](claimlib/docs/useStepper.md) · [`useUndoRedo`](claimlib/docs/useUndoRedo.md) |
 

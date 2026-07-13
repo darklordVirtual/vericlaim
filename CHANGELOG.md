@@ -7,6 +7,24 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 ## [Unreleased] — gold-standard lift
 
 ### Added
+- **16 new claimlib modules — deep domain coverage (64 → 80)**: `chacha20`
+  (RFC 8439 vectors byte-exact) and `jwt_hs256` (RFC 7515 A.1 + alg-confusion
+  rejection) in security; `punycode` (all 19 RFC 3492 samples + stdlib
+  oracle), `dns_name` (RFC 1035/1123 boundaries) and `erlang_b` (exact-
+  rational closed form + published traffic tables) in telecom; `kid`
+  (Norwegian OCR giro MOD10/MOD11, 859 095 tamperings caught exhaustively)
+  and `annuity` (integer-øre schedules, the $599.55 textbook payment) in
+  finance; `bloom_filter`, `uuid_tools` (RFC 9562), `base58` in data;
+  `pt100` (IEC 60751, table points re-derived at 50-digit precision) in
+  industrial; `slo_burnrate` (SRE Workbook table) and `ewma` (Roberts/NIST)
+  in observability; `cis_controls` (v8.1: 18/153/56-130-153) and `gdpr`
+  (11 chapters partitioning 99 articles, verified exhaustively) in
+  compliance; `mus_sampling` (top-stratum guarantee over all 500 000 starts)
+  in audit. Literature grew 76 → 94 hash-locked works (Erlang 1917, Bloom
+  1970, Roberts 1959, Kellison, the SRE Workbook, Nets OCR giro, IEC 60751,
+  CIS v8.1, GDPR, RFCs 1035/1123/3492/7515/7519/8439/9562, …); 71 of 80
+  modules now cite what they implement through 103 references. Claimlib
+  tests 338 → 595.
 - **Full literature coverage for the knowledge register**: claimlib's
   hash-locked bibliography grew from 24 to 76 works (RFCs, ISO/IEEE/ITU
   standards, classic papers from Hamming 1950 to Haber–Stornetta 1991, and

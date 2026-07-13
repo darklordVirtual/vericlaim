@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "A. K. Erlang"
+  ],
+  "id": "erlang-1917",
+  "identifier": "Elektroteknikeren, vol. 13 (1917); P.O.E.E.J. vol. 10 (1918), pp. 189-197",
+  "kind": "paper",
+  "publisher": "Elektroteknikeren (English translation: The Post Office Electrical Engineers' Journal, 1918)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Erlang's derivation of the loss and waiting-time formulas for telephone exchanges under Poisson traffic, including the B-formula giving the probability that a call offered to a fully occupied group of circuits is lost. The foundation of teletraffic engineering: circuit-group dimensioning tables used for a century derive from this paper's formulas.",
+  "summary_sha256": "9d076a156bad8e417209e089dcecbfae972250d0e55ea9b8fb1e9bbdc974cf52",
+  "title": "Solution of some Problems in the Theory of Probabilities of Significance in Automatic Telephone Exchanges",
+  "url": "https://en.wikipedia.org/wiki/Erlang_(unit)#cite_note-erlang1917-4",
+  "year": 1917
+}

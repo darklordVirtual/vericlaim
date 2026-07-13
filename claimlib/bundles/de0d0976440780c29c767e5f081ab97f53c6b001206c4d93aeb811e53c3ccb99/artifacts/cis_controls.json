@@ -1,0 +1,16 @@
+{
+  "checks": 38,
+  "checks_matched": 38,
+  "control_numbers_ok": true,
+  "coverage_correct": 13,
+  "ig1_safeguards": 56,
+  "ig2_safeguards": 130,
+  "ig3_safeguards": 153,
+  "mismatches": 0,
+  "module": "cis_controls",
+  "n_controls": 18,
+  "n_safeguards": 153,
+  "schema": "claimlib_cis_controls_v1",
+  "taxonomy_correct": 18,
+  "totals_correct": 6
+}

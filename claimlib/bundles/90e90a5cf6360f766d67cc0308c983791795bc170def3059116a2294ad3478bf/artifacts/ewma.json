@@ -1,0 +1,52 @@
+{
+  "checks": 150,
+  "checks_matched": 150,
+  "fraction_battery": [
+    {
+      "label": "nist_lam0.3",
+      "matched": 20,
+      "points": 20
+    },
+    {
+      "label": "smooth_lam0.1",
+      "matched": 12,
+      "points": 12
+    },
+    {
+      "label": "alternating_lam0.5",
+      "matched": 16,
+      "points": 16
+    },
+    {
+      "label": "identity_lam1",
+      "matched": 8,
+      "points": 8
+    },
+    {
+      "label": "swings_lam0.25",
+      "matched": 10,
+      "points": 10
+    },
+    {
+      "label": "decimals_lam0.4",
+      "matched": 10,
+      "points": 10
+    }
+  ],
+  "fraction_matched": 76,
+  "fraction_points": 76,
+  "fraction_tolerance": "1e-12",
+  "limit_factor_checks": 50,
+  "limit_factor_matched": 50,
+  "mismatches": 0,
+  "module": "ewma",
+  "nist_all_in_control": true,
+  "nist_lcl_computed_4dp": 47.4116,
+  "nist_lcl_published": 47.4115,
+  "nist_limits_matched": 2,
+  "nist_ucl_computed_4dp": 52.5884,
+  "nist_ucl_published": 52.5884,
+  "nist_values": 21,
+  "nist_values_matched": 21,
+  "schema": "claimlib_ewma_v1"
+}

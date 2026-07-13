@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Burton H. Bloom"
+  ],
+  "id": "bloom-1970",
+  "identifier": "Communications of the ACM, vol. 13, no. 7, pp. 422-426; doi:10.1145/362686.362692",
+  "kind": "paper",
+  "publisher": "ACM",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces the Bloom filter: hash-coded set membership that permits a controlled rate of false positives in exchange for dramatic space savings, with no false negatives. Derives the space/error trade-off analysis from which the standard false-positive formula and the optimal number of hash functions follow.",
+  "summary_sha256": "3105b2203b4435811aa6f38c630a932a762e50aa45875723a8e469fb55965bad",
+  "title": "Space/Time Trade-offs in Hash Coding with Allowable Errors",
+  "url": "https://doi.org/10.1145/362686.362692",
+  "year": 1970
+}
