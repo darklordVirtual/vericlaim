@@ -1,6 +1,6 @@
 # Double-entry bookkeeping invariants
 
-*Subject area: Audit / Accounting Integrity. Language: python. Vendorable bundle `6b6db74e37b6`.*
+*Subject area: Audit / Accounting Integrity. Language: python. Vendorable bundle `010343ac8da3`.*
 
 Double-entry bookkeeping is the 500-year-old integrity check at the heart of every ledger: each transaction posts equal debits and credits, so across the books total debits equal total credits and every account's net balances sum to zero -- the trial balance an auditor runs first. This module checks that invariant and builds a trial balance in integer minor units; the claim proves it identifies balanced vs. unbalanced journals correctly and that the sums are exact, so you inherit a checked ledger primitive rather than a re-implementation with a rounding bug to re-audit.
 
@@ -16,7 +16,7 @@ Ships `double_entry.py` into your project, byte-exact, with a generated binding 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/6b6db74e37b6c8b3ff1f3c79924e7ea826ef20f60fad9a2a44c3868a00bee7c4 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/010343ac8da36d48fea6f42139b58e4db362176cfa7e43314c067ac739b7c258 --target .
 ```
 
 ## References

@@ -7,6 +7,26 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 ## [Unreleased] — gold-standard lift
 
 ### Added
+- **AI-governance architecture for enterprise environments (80 → 88
+  modules, 94 → 103 works)**: a dedicated subject area pairing the four
+  load-bearing frameworks with the measurements that make governance
+  quantitative. Frameworks — `eu_ai_act` (Regulation (EU) 2024/1689:
+  13/113/13 structure, the eight Art. 5(1) prohibitions and eight Annex III
+  high-risk areas, verified mechanically against CELEX 32024R1689; the
+  module also documents that the popular "minimal risk" tier label does not
+  occur in the enacted text), `nist_ai_rmf` (AI 100-1 Core: 19 categories /
+  72 subcategories / 7 trustworthy-AI characteristics, verified identifier
+  by identifier), `iso_42001` (AIMS clauses 4-10 + Annex A's 38 controls in
+  9 objectives with fail-closed SoA accounting), `dora_eu` (9 chapters
+  partitioning 64 articles, five resilience pillars — the enterprise frame
+  around AI in finance). Measurements — `fairness_metrics` (demographic
+  parity, EEOC four-fifths, Hardt equalized odds; 73 exact-Fraction
+  checks), `calibration_ece` (Guo/Naeini ECE+MCE with an independent
+  re-derivation oracle), `dp_composition` (Dwork-Roth composition + a
+  fail-closed privacy-budget accountant), `model_card` (Mitchell et al.'s
+  nine sections, completeness gate). All framework facts were web-verified
+  against primary sources by a dedicated workflow before encoding;
+  declarative reproduce covers all 88 claims. Claimlib tests 595 → 718.
 - **16 new claimlib modules — deep domain coverage (64 → 80)**: `chacha20`
   (RFC 8439 vectors byte-exact) and `jwt_hs256` (RFC 7515 A.1 + alg-confusion
   rejection) in security; `punycode` (all 19 RFC 3492 samples + stdlib

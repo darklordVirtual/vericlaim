@@ -1,6 +1,6 @@
 # PCI DSS v4.0 coverage
 
-*Subject area: Compliance / Audit Frameworks. Language: python. Vendorable bundle `62dd4d7c475f`.*
+*Subject area: Compliance / Audit Frameworks. Language: python. Vendorable bundle `5e70171b38c3`.*
 
 PCI DSS governs any organization that handles payment card data; version 4.0 keeps the familiar twelve requirements under six goals, from 'build and maintain a secure network' to 'maintain an information security policy'. Merchants and service providers track which requirements they meet to scope and prepare for assessment. This module encodes the requirements and their goal grouping and computes coverage; the claim proves the encoded structure matches the standard and the math is correct, so you inherit a checked coverage model rather than a spreadsheet to re-audit.
 
@@ -16,7 +16,7 @@ Ships `pci_dss.py` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/62dd4d7c475f8c7e1e6bef8583c1c02d35e3473cc3569a56c2c22b7559558039 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/5e70171b38c355ee071792ed41194f83e24d305ad6832d3daf3b4b7f8733ac38 --target .
 ```
 
 ## References

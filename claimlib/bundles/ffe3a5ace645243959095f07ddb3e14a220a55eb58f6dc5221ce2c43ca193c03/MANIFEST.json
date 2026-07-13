@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/parseQuery.json": "c660ef44571d9e47a5802e865e0e97b26f984772e7be93e0ecc4f7ec6a6c94d9",
+    "claim.json": "700581cddc884e4ae3ac6a4ec96a98b3313623909000c270ec3615ce6220b95a",
+    "code/parseQuery.ts": "3a98cc8ee0550321132d3fec6d4058a7b056cca9310c9822873965d007c3ed0f",
+    "provenance.json": "7ea3506a2c512671fe06137b99499f66e5b5bb4d27588d6d128b58d25a096a8f"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

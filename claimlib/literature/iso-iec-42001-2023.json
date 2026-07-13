@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "ISO/IEC JTC 1/SC 42 Artificial intelligence"
+  ],
+  "id": "iso-iec-42001-2023",
+  "identifier": "ISO/IEC 42001:2023",
+  "kind": "standard",
+  "publisher": "International Organization for Standardization / International Electrotechnical Commission",
+  "schema": "claimlib_literature_v1",
+  "summary": "First edition (December 2023) management-system standard specifying requirements for establishing, implementing, maintaining and continually improving an artificial intelligence management system (AIMS) within an organization. Prepared by ISO/IEC JTC 1/SC 42 and structured on the ISO harmonized structure with requirement clauses 4-10 (Context of the organization, Leadership, Planning, Support, Operation, Performance evaluation, Improvement). Annex A (normative) provides 38 reference controls organized into 9 control objectives (A.2-A.10), with Annex B (normative) giving implementation guidance for those controls, Annex C (informative) listing potential AI-related organizational objectives and risk sources, and Annex D (informative) covering use of the AIMS across domains or sectors. Applicable to any organization that develops, provides or uses products or services utilizing AI systems; its sole normative reference is ISO/IEC 22989:2022.",
+  "summary_sha256": "34b86c29f55d6c6a402363801d9f84050068bd737fe4997dcd7355cfebab3731",
+  "title": "ISO/IEC 42001:2023 \u2014 Information technology \u2014 Artificial intelligence \u2014 Management system",
+  "url": "https://www.iso.org/standard/81230.html",
+  "year": 2023
+}

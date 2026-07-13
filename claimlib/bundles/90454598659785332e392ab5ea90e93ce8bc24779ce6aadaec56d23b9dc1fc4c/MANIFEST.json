@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/percentile.json": "3caf4bfecdd19127323174c2bfaf5d897f1b8c9da01f6b9e185aa7d9a897428a",
+    "claim.json": "b7ba39fdc90983f6a1d8e8b927ac616058634e99ee9a099a88673d58277cb20d",
+    "code/percentile.py": "6587668879310d45fbf1475bbaed53d179e9d296d29ec39572f11a50d956436b",
+    "provenance.json": "e68198a3e5b99b6ee8d5102a5db60d1f31e0a9268b1647036ef69a13f1ee1958"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

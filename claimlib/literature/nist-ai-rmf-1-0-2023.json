@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "National Institute of Standards and Technology"
+  ],
+  "id": "nist-ai-rmf-1-0-2023",
+  "identifier": "NIST AI 100-1; DOI 10.6028/NIST.AI.100-1",
+  "kind": "framework",
+  "publisher": "National Institute of Standards and Technology, U.S. Department of Commerce",
+  "schema": "claimlib_literature_v1",
+  "summary": "Voluntary, rights-preserving, non-sector-specific framework published in January 2023, as directed by the National Artificial Intelligence Initiative Act of 2020 (P.L. 116-283), to help organizations manage the risks of AI systems and promote trustworthy and responsible development and use of AI. Its Core comprises four functions - GOVERN, MAP, MEASURE, and MANAGE - subdivided into 19 categories and 72 subcategories. The framework articulates seven characteristics of trustworthy AI systems: valid and reliable; safe; secure and resilient; accountable and transparent; explainable and interpretable; privacy-enhanced; and fair with harmful bias managed. It is accompanied by the companion AI RMF Playbook hosted in NIST's Trustworthy and Responsible AI Resource Center (airc.nist.gov).",
+  "summary_sha256": "602b9680623ce0bb83e3034cff00649134ce39f69dc2182c3350a1b236e622b7",
+  "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+  "url": "https://doi.org/10.6028/NIST.AI.100-1",
+  "year": 2023
+}

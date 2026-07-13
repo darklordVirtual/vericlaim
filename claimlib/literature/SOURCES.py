@@ -1487,4 +1487,185 @@ SOURCES = [
                    "security measures including pseudonymisation/encryption, resilience, "
                    "recoverability and regular effectiveness testing.",
     },
+    {
+        "id": "hardt-2016",
+        "title": "Equality of Opportunity in Supervised Learning",
+        "authors": ["Moritz Hardt", "Eric Price", "Nathan Srebro"],
+        "publisher": "Advances in Neural Information Processing Systems 29 (NIPS 2016), Curran Associates",
+        "year": 2016,
+        "kind": "paper",
+        "identifier": "NIPS 2016, pp. 3315-3323; arXiv:1610.02413",
+        "url": "https://papers.nips.cc/paper/6374-equality-of-opportunity-in-supervised-learning",
+        "summary": "Proposes equalized odds and equal opportunity as fairness criteria for "
+                   "supervised learning: a predictor satisfies equalized odds if it is "
+                   "independent of the protected attribute conditional on the true outcome, "
+                   "equalizing both true-positive and false-positive rates across groups. Shows "
+                   "how to optimally post-process any learned predictor to satisfy the criterion "
+                   "using only joint statistics of predictor, target, and protected attribute (an "
+                   "'oblivious' adjustment). Published at NIPS 2016 (Advances in Neural "
+                   "Information Processing Systems 29).",
+    },
+    {
+        "id": "feldman-2015",
+        "title": "Certifying and Removing Disparate Impact",
+        "authors": ["Michael Feldman", "Sorelle A. Friedler", "John Moeller", "Carlos Scheidegger", "Suresh Venkatasubramanian"],
+        "publisher": "Proceedings of the 21st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '15), ACM",
+        "year": 2015,
+        "kind": "paper",
+        "identifier": "doi:10.1145/2783258.2783311; KDD '15 pp. 259-268; arXiv:1412.3756",
+        "url": "https://doi.org/10.1145/2783258.2783311",
+        "summary": "Formalizes the legal notion of disparate impact as the '80% rule': a dataset "
+                   "exhibits disparate impact when Pr(C=YES|X=0)/Pr(C=YES|X=1) ≤ 0.8 for "
+                   "protected attribute X, generalizing the EEOC four-fifths rule from the 1978 "
+                   "Uniform Guidelines on Employee Selection Procedures (29 CFR 1607.4(D)). Links "
+                   "disparate impact to the balanced error rate of predicting the protected "
+                   "attribute from the other features, and gives procedures to certify a dataset "
+                   "free of disparate impact and to repair data while preserving rank within "
+                   "groups. Published at KDD 2015.",
+    },
+    {
+        "id": "guo-2017",
+        "title": "On Calibration of Modern Neural Networks",
+        "authors": ["Chuan Guo", "Geoff Pleiss", "Yu Sun", "Kilian Q. Weinberger"],
+        "publisher": "Proceedings of the 34th International Conference on Machine Learning (ICML 2017), PMLR",
+        "year": 2017,
+        "kind": "paper",
+        "identifier": "PMLR 70:1321-1330; arXiv:1706.04599",
+        "url": "https://proceedings.mlr.press/v70/guo17a.html",
+        "summary": "Shows that modern deep neural networks are poorly calibrated compared to "
+                   "older models, with depth, width, weight decay, and batch normalization "
+                   "identified as influencing factors. Defines Expected Calibration Error (ECE) "
+                   "as the bin-size-weighted average absolute gap between per-bin accuracy and "
+                   "per-bin mean confidence over M equally-spaced confidence bins, plus Maximum "
+                   "Calibration Error (MCE) as the worst-case bin gap. Finds temperature scaling "
+                   "— a single-parameter variant of Platt scaling — surprisingly effective at "
+                   "calibrating predictions. Published at ICML 2017, PMLR volume 70, pages "
+                   "1321-1330.",
+    },
+    {
+        "id": "dwork-roth-2014",
+        "title": "The Algorithmic Foundations of Differential Privacy",
+        "authors": ["Cynthia Dwork", "Aaron Roth"],
+        "publisher": "Foundations and Trends in Theoretical Computer Science, Now Publishers",
+        "year": 2014,
+        "kind": "book",
+        "identifier": "doi:10.1561/0400000042; Found. Trends Theor. Comput. Sci. Vol. 9, Nos. 3-4 (2014), pp. 211-407",
+        "url": "https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf",
+        "summary": "The standard monograph on differential privacy, covering the definition, the "
+                   "Laplace and exponential mechanisms, and composition theorems. Theorem 3.16 "
+                   "(basic/sequential composition) states that the composition of k mechanisms "
+                   "that are each (ε_i, δ_i)-differentially private is (Σε_i, "
+                   "Σδ_i)-differentially private; Theorem 3.20 gives the stronger advanced "
+                   "composition bound. The book does not state a parallel composition theorem — "
+                   "that result (disjoint input subsets yield max_i ε_i privacy) is Theorem 4 of "
+                   "McSherry's PINQ paper (SIGMOD 2009). Published as Foundations and Trends in "
+                   "Theoretical Computer Science Vol. 9, Nos. 3-4, pages 211-407 (2014), DOI "
+                   "10.1561/0400000042.",
+    },
+    {
+        "id": "eu-ai-act-2024-1689",
+        "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "authors": ["European Parliament", "Council of the European Union"],
+        "publisher": "Official Journal of the European Union (Publications Office of the European Union)",
+        "year": 2024,
+        "kind": "regulation",
+        "identifier": "OJ L, 2024/1689, 12.7.2024; CELEX: 32024R1689; ELI: http://data.europa.eu/eli/reg/2024/1689/oj",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+        "summary": "The EU Artificial Intelligence Act lays down harmonised rules for AI in the "
+                   "Union: it prohibits eight AI practices (Article 5(1)(a)-(h)), regulates "
+                   "high-risk AI systems (Article 6, Annex III's eight areas), sets transparency "
+                   "obligations for certain AI systems (Article 50), and governs general-purpose "
+                   "AI models including a systemic-risk subcategory (Article 51). The final OJ "
+                   "text comprises 13 chapters, 113 articles and 13 annexes. Adopted 13 June 2024 "
+                   "and published in OJ L on 12 July 2024, it entered into force on 1 August 2024 "
+                   "and applies in stages: Chapters I-II from 2 February 2025; GPAI, governance "
+                   "and penalties provisions from 2 August 2025; general application from 2 "
+                   "August 2026; Article 6(1) from 2 August 2027.",
+    },
+    {
+        "id": "nist-ai-rmf-1-0-2023",
+        "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+        "authors": ["National Institute of Standards and Technology"],
+        "publisher": "National Institute of Standards and Technology, U.S. Department of Commerce",
+        "year": 2023,
+        "kind": "framework",
+        "identifier": "NIST AI 100-1; DOI 10.6028/NIST.AI.100-1",
+        "url": "https://doi.org/10.6028/NIST.AI.100-1",
+        "summary": "Voluntary, rights-preserving, non-sector-specific framework published in "
+                   "January 2023, as directed by the National Artificial Intelligence Initiative "
+                   "Act of 2020 (P.L. 116-283), to help organizations manage the risks of AI "
+                   "systems and promote trustworthy and responsible development and use of AI. "
+                   "Its Core comprises four functions - GOVERN, MAP, MEASURE, and MANAGE - "
+                   "subdivided into 19 categories and 72 subcategories. The framework articulates "
+                   "seven characteristics of trustworthy AI systems: valid and reliable; safe; "
+                   "secure and resilient; accountable and transparent; explainable and "
+                   "interpretable; privacy-enhanced; and fair with harmful bias managed. It is "
+                   "accompanied by the companion AI RMF Playbook hosted in NIST's Trustworthy and "
+                   "Responsible AI Resource Center (airc.nist.gov).",
+    },
+    {
+        "id": "iso-iec-42001-2023",
+        "title": "ISO/IEC 42001:2023 — Information technology — Artificial intelligence — "
+                 "Management system",
+        "authors": ["ISO/IEC JTC 1/SC 42 Artificial intelligence"],
+        "publisher": "International Organization for Standardization / International Electrotechnical Commission",
+        "year": 2023,
+        "kind": "standard",
+        "identifier": "ISO/IEC 42001:2023",
+        "url": "https://www.iso.org/standard/81230.html",
+        "summary": "First edition (December 2023) management-system standard specifying "
+                   "requirements for establishing, implementing, maintaining and continually "
+                   "improving an artificial intelligence management system (AIMS) within an "
+                   "organization. Prepared by ISO/IEC JTC 1/SC 42 and structured on the ISO "
+                   "harmonized structure with requirement clauses 4-10 (Context of the "
+                   "organization, Leadership, Planning, Support, Operation, Performance "
+                   "evaluation, Improvement). Annex A (normative) provides 38 reference controls "
+                   "organized into 9 control objectives (A.2-A.10), with Annex B (normative) "
+                   "giving implementation guidance for those controls, Annex C (informative) "
+                   "listing potential AI-related organizational objectives and risk sources, and "
+                   "Annex D (informative) covering use of the AIMS across domains or sectors. "
+                   "Applicable to any organization that develops, provides or uses products or "
+                   "services utilizing AI systems; its sole normative reference is ISO/IEC "
+                   "22989:2022.",
+    },
+    {
+        "id": "eu-dora-2022-2554",
+        "title": "Regulation (EU) 2022/2554 (Digital Operational Resilience Act, DORA)",
+        "authors": ["European Parliament", "Council of the European Union"],
+        "publisher": "Official Journal of the European Union (Publications Office of the European Union)",
+        "year": 2022,
+        "kind": "regulation",
+        "identifier": "CELEX:32022R2554; OJ L 333, 27.12.2022, p. 1-79; ELI: http://data.europa.eu/eli/reg/2022/2554/oj",
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+        "summary": "DORA establishes uniform requirements for the digital operational resilience "
+                   "of the EU financial sector across five requirement areas: ICT risk management "
+                   "(Ch. II), ICT-related incident management, classification and reporting (Ch. "
+                   "III), digital operational resilience testing (Ch. IV), managing of ICT "
+                   "third-party risk including an Oversight Framework for critical ICT "
+                   "third-party service providers (Ch. V), and information-sharing arrangements "
+                   "(Ch. VI). The regulation comprises 9 chapters and 64 articles and applies to "
+                   "21 entity types enumerated in Article 2(1)(a)-(u), of which points (a)-(t) "
+                   "are collectively defined as 'financial entities'. Adopted 14 December 2022, "
+                   "published in OJ L 333 on 27 December 2022, it entered into force on 16 "
+                   "January 2023 and applies from 17 January 2025.",
+    },
+    {
+        "id": "mitchell-2019",
+        "title": "Model Cards for Model Reporting",
+        "authors": ["Margaret Mitchell", "Simone Wu", "Andrew Zaldivar", "Parker Barnes", "Lucy Vasserman", "Ben Hutchinson", "Elena Spitzer", "Inioluwa Deborah Raji", "Timnit Gebru"],
+        "publisher": "Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT* '19), ACM",
+        "year": 2019,
+        "kind": "paper",
+        "identifier": "doi:10.1145/3287560.3287596; FAT* '19 pp. 220-229; arXiv:1810.03993",
+        "url": "https://doi.org/10.1145/3287560.3287596",
+        "summary": "Proposes 'model cards' — short standardized documents accompanying trained ML "
+                   "models that report benchmarked evaluation across cultural, demographic, "
+                   "phenotypic, and intersectional groups relevant to intended application "
+                   "domains. The framework comprises nine sections: Model Details, Intended Use, "
+                   "Factors, Metrics, Evaluation Data, Training Data, Quantitative Analyses "
+                   "(unitary and intersectional results), Ethical Considerations, and Caveats and "
+                   "Recommendations. Demonstrated with example cards for a smiling-detection "
+                   "image model and a toxic-comment text classifier. Published at ACM FAT* 2019 "
+                   "(now FAccT).",
+    },
 ]

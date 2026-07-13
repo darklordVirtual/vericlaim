@@ -1,6 +1,6 @@
 # chunk array into fixed-size groups
 
-*Subject area: TypeScript / Array Utilities. Language: typescript. Vendorable bundle `4d30b01852f7`.*
+*Subject area: TypeScript / Array Utilities. Language: typescript. Vendorable bundle `4b2759f17bc1`.*
 
 Chunking splits a flat list into fixed-size batches — the standard primitive behind paginating results, batching API/database writes, and laying items into grid rows. chunk(arr, size) walks the array in strides of `size`, slicing each window, so the final batch is shorter whenever the length is not a multiple of the size, and an empty input yields no chunks. A size below 1 has no sensible meaning (and a naive loop would never advance), so it fails closed with a RangeError. Vendor it to get dependency-free, off-by-one-checked batching instead of re-deriving slice math in every project.
 
@@ -16,5 +16,5 @@ Ships `chunk.ts` into your project, byte-exact, with a generated binding test th
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/4d30b01852f76df1450f05b4dead94b752c53890e11943d0da538b97bf541d12 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/4b2759f17bc19ec5f2564f69ad78f33135e0717a2a492680c8f6c591e16c074e --target .
 ```

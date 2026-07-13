@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "Chuan Guo",
+    "Geoff Pleiss",
+    "Yu Sun",
+    "Kilian Q. Weinberger"
+  ],
+  "id": "guo-2017",
+  "identifier": "PMLR 70:1321-1330; arXiv:1706.04599",
+  "kind": "paper",
+  "publisher": "Proceedings of the 34th International Conference on Machine Learning (ICML 2017), PMLR",
+  "schema": "claimlib_literature_v1",
+  "summary": "Shows that modern deep neural networks are poorly calibrated compared to older models, with depth, width, weight decay, and batch normalization identified as influencing factors. Defines Expected Calibration Error (ECE) as the bin-size-weighted average absolute gap between per-bin accuracy and per-bin mean confidence over M equally-spaced confidence bins, plus Maximum Calibration Error (MCE) as the worst-case bin gap. Finds temperature scaling \u2014 a single-parameter variant of Platt scaling \u2014 surprisingly effective at calibrating predictions. Published at ICML 2017, PMLR volume 70, pages 1321-1330.",
+  "summary_sha256": "c06d15fa14b60af671d6e514825bd395d3e6c0016855ba1ad9882981edda8a04",
+  "title": "On Calibration of Modern Neural Networks",
+  "url": "https://proceedings.mlr.press/v70/guo17a.html",
+  "year": 2017
+}

@@ -28,6 +28,7 @@ claim in your context — read each module's caveat.
 | [`base58`](docs/base58.md) | Python | Data / Encoding | `CLAIM-LIB-BASE58-001` | benchmarked |
 | [`benford`](docs/benford.md) | Python | Audit / Forensic Analytics | `CLAIM-LIB-BENFORD-001` | benchmarked |
 | [`bloom_filter`](docs/bloom_filter.md) | Python | Data Structures / Probabilistic Sets | `CLAIM-LIB-BLOOM-001` | benchmarked |
+| [`calibration_ece`](docs/calibration_ece.md) | Python | AI Governance / Model Calibration | `CLAIM-LIB-ECE-001` | benchmarked |
 | [`chacha20`](docs/chacha20.md) | Python | Security / Stream Ciphers | `CLAIM-LIB-CHACHA20-001` | benchmarked |
 | [`cidr`](docs/cidr.md) | Python | Telecom / IP Address Management | `CLAIM-LIB-CIDR-001` | benchmarked |
 | [`cis_controls`](docs/cis_controls.md) | Python | Compliance / Security Frameworks | `CLAIM-LIB-CIS-001` | measured |
@@ -35,11 +36,15 @@ claim in your context — read each module's caveat.
 | [`csv_rfc4180`](docs/csv_rfc4180.md) | Python | Data / Serialization | `CLAIM-LIB-CSV-RFC4180-001` | benchmarked |
 | [`cvss`](docs/cvss.md) | Python | Security / Vulnerability Management | `CLAIM-LIB-CVSS-001` | benchmarked |
 | [`dns_name`](docs/dns_name.md) | Python | Telecom / DNS Naming | `CLAIM-LIB-DNS-NAME-001` | measured |
+| [`dora_eu`](docs/dora_eu.md) | Python | AI Governance / Financial ICT Resilience (DORA) | `CLAIM-LIB-DORA-001` | measured |
 | [`double_entry`](docs/double_entry.md) | Python | Audit / Accounting Integrity | `CLAIM-LIB-DOUBLE-ENTRY-001` | measured |
+| [`dp_composition`](docs/dp_composition.md) | Python | AI Governance / Privacy Budgets | `CLAIM-LIB-DP-001` | benchmarked |
 | [`e164`](docs/e164.md) | Python | Telecom / Numbering Plans | `CLAIM-LIB-E164-001` | measured |
 | [`erlang_b`](docs/erlang_b.md) | Python | Telecom / Traffic Engineering | `CLAIM-LIB-ERLANG-B-001` | benchmarked |
 | [`errorbudget`](docs/errorbudget.md) | Python | SRE / Reliability Engineering | `CLAIM-LIB-ERRORBUDGET-001` | measured |
+| [`eu_ai_act`](docs/eu_ai_act.md) | Python | AI Governance / EU AI Act | `CLAIM-LIB-AI-ACT-001` | measured |
 | [`ewma`](docs/ewma.md) | Python | Observability / Statistical Process Control | `CLAIM-LIB-EWMA-001` | benchmarked |
+| [`fairness_metrics`](docs/fairness_metrics.md) | Python | AI Governance / Fairness Metrics | `CLAIM-LIB-FAIRNESS-001` | benchmarked |
 | [`gdpr`](docs/gdpr.md) | Python | Compliance / Privacy (GDPR) | `CLAIM-LIB-GDPR-001` | measured |
 | [`hamming74`](docs/hamming74.md) | Python | Telecom / Forward Error Correction | `CLAIM-LIB-HAMMING74-001` | machine_checked |
 | [`hashchain`](docs/hashchain.md) | Python | Security / Data Integrity | `CLAIM-LIB-HASHCHAIN-001` | measured |
@@ -51,6 +56,7 @@ claim in your context — read each module's caveat.
 | [`ipchecksum`](docs/ipchecksum.md) | Python | Telecom / Packet Processing | `CLAIM-LIB-IPCHECKSUM-001` | measured |
 | [`ipv6`](docs/ipv6.md) | Python | Telecom / IPv6 Addressing | `CLAIM-LIB-IPV6-001` | benchmarked |
 | [`iso27001`](docs/iso27001.md) | Python | Compliance / Audit Frameworks | `CLAIM-LIB-ISO27001-001` | measured |
+| [`iso_42001`](docs/iso_42001.md) | Python | AI Governance / AI Management Systems | `CLAIM-LIB-ISO-42001-001` | measured |
 | [`jsonpointer`](docs/jsonpointer.md) | Python | Data / JSON Processing | `CLAIM-LIB-JSONPOINTER-001` | measured |
 | [`jwt_hs256`](docs/jwt_hs256.md) | Python | Security / Authentication (JWT) | `CLAIM-LIB-JWT-HS256-001` | benchmarked |
 | [`kid`](docs/kid.md) | Python | Finance / Norwegian Payments (KID) | `CLAIM-LIB-KID-001` | benchmarked |
@@ -62,9 +68,11 @@ claim in your context — read each module's caveat.
 | [`merkle`](docs/merkle.md) | Python | Security / Cryptographic Integrity | `CLAIM-LIB-MERKLE-001` | measured |
 | [`mod11`](docs/mod11.md) | Python | Finance / Identifiers & Validation | `CLAIM-LIB-MOD11-001` | benchmarked |
 | [`modbus_crc`](docs/modbus_crc.md) | Python | Industrial / Fieldbus & Protocols | `CLAIM-LIB-MODBUS-CRC-001` | measured |
+| [`model_card`](docs/model_card.md) | Python | AI Governance / Model Documentation | `CLAIM-LIB-MODEL-CARD-001` | measured |
 | [`money`](docs/money.md) | Python | Finance / Accounting | `CLAIM-LIB-MONEY-001` | measured |
 | [`mus_sampling`](docs/mus_sampling.md) | Python | Audit / Monetary-Unit Sampling | `CLAIM-LIB-MUS-001` | benchmarked |
 | [`nis2`](docs/nis2.md) | Python | Security / Governance & Compliance | `CLAIM-LIB-NIS2-001` | measured |
+| [`nist_ai_rmf`](docs/nist_ai_rmf.md) | Python | AI Governance / NIST AI RMF | `CLAIM-LIB-AI-RMF-001` | measured |
 | [`nist_csf`](docs/nist_csf.md) | Python | Security / Governance & Compliance | `CLAIM-LIB-NIST-CSF-001` | measured |
 | [`nmea`](docs/nmea.md) | Python | Industrial / Telemetry & Sensors | `CLAIM-LIB-NMEA-001` | measured |
 | [`oee`](docs/oee.md) | Python | Industrial / Manufacturing Analytics | `CLAIM-LIB-OEE-001` | measured |

@@ -77,6 +77,12 @@
     "title": "DWARF Debugging Information Format Version 5",
     "url": "https://dwarfstd.org/dwarf5std.html"
   },
+  "dwork-roth-2014": {
+    "identifier": "doi:10.1561/0400000042; Found. Trends Theor. Comput. Sci. Vol. 9, Nos. 3-4 (2014), pp. 211-407",
+    "summary_sha256": "80519451444bc3436200b83522875e209fbb1009cb83c15376955418f74420ea",
+    "title": "The Algorithmic Foundations of Differential Privacy",
+    "url": "https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf"
+  },
   "ecma-262-2024": {
     "identifier": "ECMA-262, 15th edition (June 2024)",
     "summary_sha256": "b53f07af3a11f36ad7dde782a2e001594227f8bd79ea467811f41a955da1b9b4",
@@ -88,6 +94,24 @@
     "summary_sha256": "9d076a156bad8e417209e089dcecbfae972250d0e55ea9b8fb1e9bbdc974cf52",
     "title": "Solution of some Problems in the Theory of Probabilities of Significance in Automatic Telephone Exchanges",
     "url": "https://en.wikipedia.org/wiki/Erlang_(unit)#cite_note-erlang1917-4"
+  },
+  "eu-ai-act-2024-1689": {
+    "identifier": "OJ L, 2024/1689, 12.7.2024; CELEX: 32024R1689; ELI: http://data.europa.eu/eli/reg/2024/1689/oj",
+    "summary_sha256": "128cca68973028be52d152452baf581ff88e6a5b0e6b4c0c3088cb68fb3de148",
+    "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+  },
+  "eu-dora-2022-2554": {
+    "identifier": "CELEX:32022R2554; OJ L 333, 27.12.2022, p. 1-79; ELI: http://data.europa.eu/eli/reg/2022/2554/oj",
+    "summary_sha256": "0455cf404139c8e27ac2f6cab2681cf5be79bcf23942697a24fd1e25ae94cf92",
+    "title": "Regulation (EU) 2022/2554 (Digital Operational Resilience Act, DORA)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj"
+  },
+  "feldman-2015": {
+    "identifier": "doi:10.1145/2783258.2783311; KDD '15 pp. 259-268; arXiv:1412.3756",
+    "summary_sha256": "3998be2b09bf5349c814608fe47ecd5c919906ab36c95dbb61508a67d953aba5",
+    "title": "Certifying and Removing Disparate Impact",
+    "url": "https://doi.org/10.1145/2783258.2783311"
   },
   "fips-180-4": {
     "identifier": "FIPS PUB 180-4",
@@ -125,6 +149,12 @@
     "title": "Site Reliability Engineering: How Google Runs Production Systems",
     "url": "https://sre.google/sre-book/table-of-contents/"
   },
+  "guo-2017": {
+    "identifier": "PMLR 70:1321-1330; arXiv:1706.04599",
+    "summary_sha256": "c06d15fa14b60af671d6e514825bd395d3e6c0016855ba1ad9882981edda8a04",
+    "title": "On Calibration of Modern Neural Networks",
+    "url": "https://proceedings.mlr.press/v70/guo17a.html"
+  },
   "haber-1991": {
     "identifier": "Journal of Cryptology, vol. 3, no. 2, pp. 99-111; doi:10.1007/BF00196791",
     "summary_sha256": "63785055bf807f50a8a53905282fb60da490a3ce0df2db84ab3f03763c08b4f0",
@@ -136,6 +166,12 @@
     "summary_sha256": "6ef1f475b00a2338397701d5949dae9fca8be0e88b95b15e4ff5561cde7054fd",
     "title": "Error Detecting and Error Correcting Codes",
     "url": "https://doi.org/10.1002/j.1538-7305.1950.tb00463.x"
+  },
+  "hardt-2016": {
+    "identifier": "NIPS 2016, pp. 3315-3323; arXiv:1610.02413",
+    "summary_sha256": "8742de450b5dc64ffbf7c6441152ea125acc0a408c1c2c0c6de98028c8d1019e",
+    "title": "Equality of Opportunity in Supervised Learning",
+    "url": "https://papers.nips.cc/paper/6374-equality-of-opportunity-in-supervised-learning"
   },
   "hyndman-1996": {
     "identifier": "The American Statistician, vol. 50, no. 4, pp. 361-365, doi:10.1080/00031305.1996.10473566",
@@ -209,6 +245,12 @@
     "title": "Identification cards \u2014 Identification of issuers \u2014 Part 1: Numbering system",
     "url": "https://www.iso.org/standard/70484.html"
   },
+  "iso-iec-42001-2023": {
+    "identifier": "ISO/IEC 42001:2023",
+    "summary_sha256": "34b86c29f55d6c6a402363801d9f84050068bd737fe4997dcd7355cfebab3731",
+    "title": "ISO/IEC 42001:2023 \u2014 Information technology \u2014 Artificial intelligence \u2014 Management system",
+    "url": "https://www.iso.org/standard/81230.html"
+  },
   "itu-e164": {
     "identifier": "ITU-T E.164 (02/2026)",
     "summary_sha256": "e54bbbc55bd191da9d8a84fb4abf548797d454d64db929346b1ec76d219fa7a3",
@@ -257,6 +299,12 @@
     "title": "A Digital Signature Based on a Conventional Encryption Function",
     "url": "https://doi.org/10.1007/3-540-48184-2_32"
   },
+  "mitchell-2019": {
+    "identifier": "doi:10.1145/3287560.3287596; FAT* '19 pp. 220-229; arXiv:1810.03993",
+    "summary_sha256": "35adf3093c44f744771ad7f6207d34c49cbf2a56aea975273164b1ac3012cca7",
+    "title": "Model Cards for Model Reporting",
+    "url": "https://doi.org/10.1145/3287560.3287596"
+  },
   "modbus-serial-v1.02": {
     "identifier": "MODBUS over Serial Line Specification and Implementation Guide V1.02 (2006-12-20)",
     "summary_sha256": "88e7972ebd5c707240b1b857cb1400d9ff39fa91a902c121044581785a94e282",
@@ -280,6 +328,12 @@
     "summary_sha256": "b9599669903d074387f383f5910f6ba6e75f7876a953136b639e4069698b91f7",
     "title": "Directive (EU) 2022/2555 (NIS2) on measures for a high common level of cybersecurity",
     "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj"
+  },
+  "nist-ai-rmf-1-0-2023": {
+    "identifier": "NIST AI 100-1; DOI 10.6028/NIST.AI.100-1",
+    "summary_sha256": "602b9680623ce0bb83e3034cff00649134ce39f69dc2182c3350a1b236e622b7",
+    "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+    "url": "https://doi.org/10.6028/NIST.AI.100-1"
   },
   "nist-csf-2.0": {
     "identifier": "NIST CSWP 29",

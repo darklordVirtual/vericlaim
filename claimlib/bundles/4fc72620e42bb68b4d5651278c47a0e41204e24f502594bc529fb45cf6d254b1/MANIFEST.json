@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/money.json": "25fc8990b812dd25593f9d1ccf3215aba92b20fc865d961d8d2d636b512e7db2",
+    "claim.json": "252ad5371c1b77d4b07a5270ae50816d2c9aacc43dcbfaded25a957ec441f091",
+    "code/money.py": "382023a2fec730c528504ba20ab584d8b46ad62079d3c90f3b8b9c4ecda6c310",
+    "provenance.json": "8735899be40840757d30df29019e8e0d558f44307d6c47efde142aefa41716ff"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

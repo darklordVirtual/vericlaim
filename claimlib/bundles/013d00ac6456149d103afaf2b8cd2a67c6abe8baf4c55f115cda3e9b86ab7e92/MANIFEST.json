@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/eu_ai_act.json": "5e0a8ab1ea0d7a5128a9f59d58581093e4cc5e1455476288acdcbd6bb7dc01b0",
+    "claim.json": "327d185aa18a4d54e09007defab52b596b078583d5d8b2b14955833ff57bb147",
+    "code/eu_ai_act.py": "e4d236131242cd8621b3c0ed60c82f540c08a74f89fbd65956ef539335b17bff",
+    "provenance.json": "77eae0e519e993874ab6f802278d48ce4dc9c7718749ddf3536276f2f2920a13"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

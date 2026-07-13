@@ -278,14 +278,14 @@ bundles/<sha256>       content-addressed bundle_v1 — vendor it; edit one byte 
 ```
 
 <!-- claim:CLAIM-LIB-INDEX-001 modules_total modules_python modules_typescript modules_react literature_works modules_cited modules_uncited citations_total -->
-The register holds <!-- v:CLAIM-LIB-INDEX-001.modules_total -->**80** modules —
-<!-- v:CLAIM-LIB-INDEX-001.modules_python -->**68** Python,
+The register holds <!-- v:CLAIM-LIB-INDEX-001.modules_total -->**88** modules —
+<!-- v:CLAIM-LIB-INDEX-001.modules_python -->**76** Python,
 <!-- v:CLAIM-LIB-INDEX-001.modules_typescript -->**7** TypeScript,
 <!-- v:CLAIM-LIB-INDEX-001.modules_react -->**5** React — and a hash-locked
-bibliography of <!-- v:CLAIM-LIB-INDEX-001.literature_works -->**94** works;
-<!-- v:CLAIM-LIB-INDEX-001.modules_cited -->**71** modules cite the standard,
+bibliography of <!-- v:CLAIM-LIB-INDEX-001.literature_works -->**103** works;
+<!-- v:CLAIM-LIB-INDEX-001.modules_cited -->**79** modules cite the standard,
 RFC or paper they implement through
-<!-- v:CLAIM-LIB-INDEX-001.citations_total -->**103** resolved references, and
+<!-- v:CLAIM-LIB-INDEX-001.citations_total -->**112** resolved references, and
 the remaining <!-- v:CLAIM-LIB-INDEX-001.modules_uncited -->**9** are generic
 utilities honestly documented as having no canonical authoritative work.
 These counts are themselves a claim (`CLAIM-LIB-INDEX-001`): add a module or a
@@ -296,6 +296,7 @@ work without regenerating the evidence and this paragraph fails the build.
 | Subject area | Modules |
 |--------------|---------|
 | **Security & cryptography** | [`sha256`](claimlib/docs/sha256.md) · [`hmac_sha256`](claimlib/docs/hmac_sha256.md) · [`hotp`](claimlib/docs/hotp.md) · [`totp`](claimlib/docs/totp.md) · [`pbkdf2`](claimlib/docs/pbkdf2.md) · [`hkdf`](claimlib/docs/hkdf.md) · [`chacha20`](claimlib/docs/chacha20.md) · [`jwt_hs256`](claimlib/docs/jwt_hs256.md) · [`pem`](claimlib/docs/pem.md) · [`spki_pin`](claimlib/docs/spki_pin.md) · [`lamport`](claimlib/docs/lamport.md) · [`cvss`](claimlib/docs/cvss.md) · [`hashchain`](claimlib/docs/hashchain.md) · [`merkle`](claimlib/docs/merkle.md) · [`rbac`](claimlib/docs/rbac.md) |
+| **AI governance (enterprise)** | [`eu_ai_act`](claimlib/docs/eu_ai_act.md) · [`nist_ai_rmf`](claimlib/docs/nist_ai_rmf.md) · [`iso_42001`](claimlib/docs/iso_42001.md) · [`dora_eu`](claimlib/docs/dora_eu.md) · [`fairness_metrics`](claimlib/docs/fairness_metrics.md) · [`calibration_ece`](claimlib/docs/calibration_ece.md) · [`dp_composition`](claimlib/docs/dp_composition.md) · [`model_card`](claimlib/docs/model_card.md) |
 | **Governance & compliance** | [`nist_csf`](claimlib/docs/nist_csf.md) · [`nis2`](claimlib/docs/nis2.md) · [`soc2`](claimlib/docs/soc2.md) · [`iso27001`](claimlib/docs/iso27001.md) · [`pci_dss`](claimlib/docs/pci_dss.md) · [`cis_controls`](claimlib/docs/cis_controls.md) · [`gdpr`](claimlib/docs/gdpr.md) |
 | **Audit & forensic analytics** | [`benford`](claimlib/docs/benford.md) · [`double_entry`](claimlib/docs/double_entry.md) · [`audit_sampling`](claimlib/docs/audit_sampling.md) · [`mus_sampling`](claimlib/docs/mus_sampling.md) |
 | **Finance & payments** | [`iban`](claimlib/docs/iban.md) · [`money`](claimlib/docs/money.md) · [`mod11`](claimlib/docs/mod11.md) · [`luhn`](claimlib/docs/luhn.md) · [`kid`](claimlib/docs/kid.md) · [`annuity`](claimlib/docs/annuity.md) |

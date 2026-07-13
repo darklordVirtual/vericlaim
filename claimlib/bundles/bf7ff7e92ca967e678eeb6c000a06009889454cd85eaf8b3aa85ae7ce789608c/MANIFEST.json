@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/slo_burnrate.json": "31144dab771ae4cbc95456f5ed6c82b5dee78d08afde70042fd1d3d1c9738540",
+    "claim.json": "6b6bb27999b7635fadd7a22df354671b85c0ad82f62a31beb1c12edae07e51d9",
+    "code/slo_burnrate.py": "31cb4f488581c5f79ff7fbeffd2e946ddbc2bb41a4cb85256530c59a096640a5",
+    "provenance.json": "2e31e58991b433cd1f92a1564ffe91ca99e79ff94616a316889b8ae8c4fad9de"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

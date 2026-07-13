@@ -1,0 +1,13 @@
+{
+  "categories_total": 19,
+  "checks": 18,
+  "checks_matched": 18,
+  "functions": 4,
+  "mismatches": 0,
+  "module": "nist_ai_rmf",
+  "reject_cases": 4,
+  "rejects_ok": 4,
+  "schema": "claimlib_evidence_v1",
+  "subcategories_total": 72,
+  "trustworthy_characteristics": 7
+}

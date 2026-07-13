@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "Moritz Hardt",
+    "Eric Price",
+    "Nathan Srebro"
+  ],
+  "id": "hardt-2016",
+  "identifier": "NIPS 2016, pp. 3315-3323; arXiv:1610.02413",
+  "kind": "paper",
+  "publisher": "Advances in Neural Information Processing Systems 29 (NIPS 2016), Curran Associates",
+  "schema": "claimlib_literature_v1",
+  "summary": "Proposes equalized odds and equal opportunity as fairness criteria for supervised learning: a predictor satisfies equalized odds if it is independent of the protected attribute conditional on the true outcome, equalizing both true-positive and false-positive rates across groups. Shows how to optimally post-process any learned predictor to satisfy the criterion using only joint statistics of predictor, target, and protected attribute (an 'oblivious' adjustment). Published at NIPS 2016 (Advances in Neural Information Processing Systems 29).",
+  "summary_sha256": "8742de450b5dc64ffbf7c6441152ea125acc0a408c1c2c0c6de98028c8d1019e",
+  "title": "Equality of Opportunity in Supervised Learning",
+  "url": "https://papers.nips.cc/paper/6374-equality-of-opportunity-in-supervised-learning",
+  "year": 2016
+}

@@ -44,7 +44,8 @@ def test_group_privacy_scales_linearly():
 
 
 def test_ledger_spends_to_exact_exhaustion():
-    ledger = Ledger("1"); ledger.spend(Mechanism("a", "0.75"))
+    ledger = Ledger("1")
+    ledger.spend(Mechanism("a", "0.75"))
     ledger.spend(Mechanism("b", "0.25"))
     assert ledger.remaining() == (Fraction(0), Fraction(0))
 
