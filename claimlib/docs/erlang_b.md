@@ -1,6 +1,6 @@
 # Erlang B blocking probability + circuit planner
 
-*Subject area: Telecom / Traffic Engineering. Language: python. Vendorable bundle `05389bef7565`.*
+*Subject area: Telecom / Traffic Engineering. Language: python. Vendorable bundle `72d8179bcaef`.*
 
 Erlang B answers the sizing question of every loss system -- how many circuits (trunks, DSP channels, charging points) does A erlangs of offered traffic need so that at most a target fraction of arrivals is blocked? B(N, A) = (A^N/N!)/sum(A^x/x!), computed here with the overflow-free recursion B(n) = A*B(n-1)/(n + A*B(n-1)), plus the planner's inverse. The claim proves the recursion IS the closed formula (exact-rational agreement) and matches the published engineering tables, so an ISP or telco vendoring it inherits checked dimensioning math.
 
@@ -16,7 +16,7 @@ Ships `erlang_b.py` into your project, byte-exact, with a generated binding test
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/05389bef75656fe8465140339b8287ab92ef68d5cd92486605a713fa6fc509c6 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/72d8179bcaefcba6757b1b0ce4eba9cc68ea683ac605189d7f96fd750f53ad19 --target .
 ```
 
 ## References

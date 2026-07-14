@@ -1,6 +1,6 @@
 # Byte run-length codec (lossless round-trip)
 
-*Subject area: Data / Compression. Language: python. Vendorable bundle `fbca69e290a6`.*
+*Subject area: Data / Compression. Language: python. Vendorable bundle `52ee6ba14de0`.*
 
 Run-length encoding is the simplest lossless compression scheme: it replaces each maximal run of identical symbols with a (count, symbol) pair, shrinking long uniform stretches (bitmaps, sparse buffers, padded records) while leaving a total, exactly invertible mapping. This module implements the classic byte-pair variant, splitting runs longer than 255 across pairs so any bytes input encodes and decodes back byte-for-byte. Vendor it when you need a dependency-free, auditable codec whose inverse is proven; the claim binds the round-trip property so you inherit a checked codec rather than a re-implementation to re-audit.
 
@@ -16,5 +16,5 @@ Ships `rle.py` into your project, byte-exact, with a generated binding test that
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/fbca69e290a60006a1ba963a0f05ccb3dbf5603085c40ef918c23e27bd7c9940 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/52ee6ba14de0091d3f9a14719941af98de07f95ff314b53f646ae3126f23a0c6 --target .
 ```

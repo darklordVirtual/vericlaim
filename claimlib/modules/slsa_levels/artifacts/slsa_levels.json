@@ -1,0 +1,13 @@
+{
+  "checks": 26,
+  "checks_matched": 26,
+  "gap_capping_ok": 1,
+  "levels": 4,
+  "mismatches": 0,
+  "module": "slsa_levels",
+  "reject_cases": 2,
+  "rejects_ok": 2,
+  "schema": "claimlib_evidence_v1",
+  "subsets_enumerated": 16,
+  "subsets_ok": 16
+}

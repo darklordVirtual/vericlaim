@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Yonatan Geifman",
+    "Ran El-Yaniv"
+  ],
+  "id": "selective-2017",
+  "identifier": "arXiv:1705.08500",
+  "kind": "paper",
+  "publisher": "Advances in Neural Information Processing Systems 30 (NIPS 2017)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces selective classification (classification with a reject option) for deep neural networks: a selective classifier is a pair (f,g) where g: X -> {0,1} decides whether to predict or abstain. Defines coverage as phi(f,g) = E_P[g(x)] and selective risk as R(f,g) = E_P[l(f(x),y)g(x)] / phi(f,g). Given a trained network and a user-specified risk level, the SGR method selects a confidence threshold that guarantees the desired risk with high probability; experiments achieve 2% top-5 ImageNet error with 99.9% confidence at almost 60% coverage.",
+  "summary_sha256": "f4182ce8055908371bd9ebb6d834992b16c7d77ff85d16b97f61a8fd0bf6ea87",
+  "title": "Selective Classification for Deep Neural Networks",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+  "year": 2017
+}

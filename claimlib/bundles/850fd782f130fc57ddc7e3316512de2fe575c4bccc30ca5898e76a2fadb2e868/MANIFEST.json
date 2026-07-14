@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/zta_tenets.json": "597a5f2893c5c3cfdd228815e56ae1fc0b5a6310f49e2806102cfe51b9299646",
+    "claim.json": "ee4297227f1f399afd645476c502bbd3c55d59c0e2a89e04aa25766bed921f92",
+    "code/zta_tenets.py": "f342528005be69a66c608af3a8ea910ea482ce34b412a351495cac15ab1fe303",
+    "provenance.json": "bfb7edb1e240b42399d0006427e2552fdaa9159091d42cb90fe51e044eecaefe"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

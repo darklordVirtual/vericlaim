@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "conformal_split.json",
+  "artifact_sha256": "8e7a9a6928b3cbc1121b1b2536f824086485af04a1baa67b2f3473d7c9be06e1",
+  "script": "python3 claimlib/modules/conformal_split/evidence.py",
+  "git_commit": "8980f2272cdc19be571e7906109b5f4a9b503f2b",
+  "generated_at": "2026-07-14T16:32:32.876887+00:00",
+  "produced_by": "claimlib"
+}

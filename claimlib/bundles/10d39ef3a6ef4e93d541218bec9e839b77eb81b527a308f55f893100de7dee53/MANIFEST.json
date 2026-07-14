@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/mus_sampling.json": "33f5f674b21ee5e8ebd52214a6ef761d51b5eee148206d2d21c0cd544529efb2",
+    "claim.json": "e164b346f010c458cca05e86851d6f3e9386a1cc50fde420b80a1d849e2d9b72",
+    "code/mus_sampling.py": "a834fdf4ac659e1935793dcd556944c45b0ac4c68222436c451e09f202863b81",
+    "provenance.json": "2a155b3abd23df327b30bc51ed1d53362ee5a57af84a4aed77f68205f88e5f56"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

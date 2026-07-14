@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "slsa_levels.json",
+  "artifact_sha256": "beb47d7678cae9686b3ad1437ead0ad1fce8bb5e6e08ee0c27bb3495cb208072",
+  "script": "python3 claimlib/modules/slsa_levels/evidence.py",
+  "git_commit": "8980f2272cdc19be571e7906109b5f4a9b503f2b",
+  "generated_at": "2026-07-14T16:46:06.832972+00:00",
+  "produced_by": "claimlib"
+}

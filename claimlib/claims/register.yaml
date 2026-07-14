@@ -3145,3 +3145,311 @@ claims:
     reproduce_outputs:
       - "modules/model_card/artifacts/model_card.json"
 
+  - id: CLAIM-LIB-CONFORMAL-001
+    statement: >
+      The vendored split-conformal library passes all 32 checks with 0 mismatches: the published quantile rule qhat = ceil((n+1)(1-alpha))-th smallest calibration score reproduces 6 hand-computed ranks (including the classic n=100, alpha=0.1 -> rank 91), and THE COVERAGE THEOREM IS ENUMERATED — over 15 pool-by-alpha combinations, exhaustive leave-one-out coverage lands inside [1-alpha, 1-alpha + 1/n] as an exact Fraction, ties never fall below 1-alpha, prediction sets shrink monotonically in alpha, and the too-few-calibration-points case honestly returns everything.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/conformal_split/artifacts/conformal_split.json"
+    metrics:
+      checks: 32
+      checks_matched: 32
+      mismatches: 0
+      theorem_checks: 15
+      theorem_ok: 15
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: theorem_checks
+        pointer: /theorem_checks
+        type: integer
+      - metric: theorem_ok
+        pointer: /theorem_ok
+        type: integer
+    caveat: >
+      The guarantee is MARGINAL (on average over calibration draws, not per input) and rests on exchangeability: distribution shift between calibration and deployment voids it. Enumerated coverage verifies the mechanism on fixed pools; it cannot certify any particular deployed model's scores.
+    reproduce_argv:
+      - "python3"
+      - "modules/conformal_split/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/conformal_split/artifacts/conformal_split.json"
+
+  - id: CLAIM-LIB-SELECTIVE-001
+    statement: >
+      The vendored selective-classification library passes all 15 checks as exact Fraction equalities with 0 mismatches: 6 hand-computed audit values (coverage exactly 1/2 at threshold 0.7 with selective risk exactly 1/4; full coverage reproducing the plain mean 3/8), 8 structural properties of the risk-coverage curve over a 40-point battery (last point coverage exactly 1 at the unconditional mean, monotone coverage, permutation invariance), and the zero-coverage case failing closed rather than reporting 0.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/selective_risk/artifacts/selective_risk.json"
+    metrics:
+      checks: 15
+      checks_matched: 15
+      mismatches: 0
+      hand_ok: 6
+      property_ok: 8
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: hand_ok
+        pointer: /hand_ok
+        type: integer
+      - metric: property_ok
+        pointer: /property_ok
+        type: integer
+    caveat: >
+      The curve describes the evaluated sample only: thresholds chosen on it are estimates, the confidence signal may be miscalibrated, and selective risk at coverage 0 is undefined by definition. Loss values are the caller's; the module never decides what counts as an error.
+    reproduce_argv:
+      - "python3"
+      - "modules/selective_risk/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/selective_risk/artifacts/selective_risk.json"
+
+  - id: CLAIM-LIB-ENTROPY-001
+    statement: >
+      The vendored information-measures library passes all 40 checks with 0 mismatches: 10 exact anchors (a fair coin is exactly 1.0 bit; uniform 4/8/16/32-outcome distributions are exactly 2/3/4/5 bits; Shannon's own worked example H(1/2,1/4,1/4) is exactly 1.5 bits; perplexity of uniform-8 is exactly 8) and 30 theorem-shaped properties over a deterministic battery (uniform maximality, Gibbs' inequality KL >= 0, the chain identity H(p,q) = H(p) + KL(p||q) to 1e-12, permutation invariance).
+    evidence_level: benchmarked
+    artifact:
+      - "modules/shannon_entropy/artifacts/shannon_entropy.json"
+    metrics:
+      checks: 40
+      checks_matched: 40
+      mismatches: 0
+      anchors_ok: 10
+      property_ok: 30
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: anchors_ok
+        pointer: /anchors_ok
+        type: integer
+      - metric: property_ok
+        pointer: /property_ok
+        type: integer
+    caveat: >
+      Distributions are validated exactly (Fractions summing to exactly 1 — floats are read at their printed decimal value), but log arithmetic is float with documented 1e-12 tolerances on identities. Infinite KL (q zero where p is not) fails closed rather than returning a number. Entropy of a MODEL requires its true distribution; estimates from samples carry estimation error this module does not quantify.
+    reproduce_argv:
+      - "python3"
+      - "modules/shannon_entropy/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/shannon_entropy/artifacts/shannon_entropy.json"
+
+  - id: CLAIM-LIB-GSN-001
+    statement: >
+      The vendored GSN validator passes all 50 checks with 0 mismatches: a fixed exemplar exercising every legal edge type of the GSN Community Standard v3 validates clean, an honestly-undeveloped case validates, every one of 12 adversarial single mutations is caught (mutations_missed = 0 — illegal edge types in both relations, a circular argument, an unsupported goal, an undeveloped-with-support contradiction, a solution with outgoing edges, a disconnected argument island, a rootless cycle), and the exhaustive 36-pair supported_by enumeration admits exactly the standard's 4 legal pairs.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/gsn_case/artifacts/gsn_case.json"
+    metrics:
+      checks: 50
+      checks_matched: 50
+      mismatches: 0
+      mutations: 12
+      mutations_caught: 12
+      mutations_missed: 0
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: mutations
+        pointer: /mutations
+        type: integer
+      - metric: mutations_caught
+        pointer: /mutations_caught
+        type: integer
+      - metric: mutations_missed
+        pointer: /mutations_missed
+        type: integer
+    caveat: >
+      Structural validity only: the validator proves the argument GRAPH is well-formed (typed edges, acyclic, one root, no dangling goals), never that the argument is SOUND — a well-formed case can still rest on weak evidence or a bad decomposition. The single-root rule follows the GSN module convention; multi-rooted collections need one module per top-level claim.
+    reproduce_argv:
+      - "python3"
+      - "modules/gsn_case/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/gsn_case/artifacts/gsn_case.json"
+
+  - id: CLAIM-LIB-TOOL-GUARD-001
+    statement: >
+      The vendored tool-call policy engine misses ZERO of 20 adversarial mutations: from a fixed policy and its 4 allowed exemplar calls, every single-field corruption (renamed tool, argument pushed outside its constraint type, injected extra argument, removed required argument) is DENIED; the empty policy denies all 40 calls of a fixed battery (fail-safe defaults, enumerated); and the constraint semantics are type-strict (True does not satisfy exact 1, max compares as exact Decimal so "10.5" is caught by max 10) — 72 checks, 0 mismatches.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/tool_guard/artifacts/tool_guard.json"
+    metrics:
+      checks: 72
+      checks_matched: 72
+      mismatches: 0
+      empty_policy_denies: 40
+      mutations: 20
+      mutations_denied: 20
+      mutations_missed: 0
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: empty_policy_denies
+        pointer: /empty_policy_denies
+        type: integer
+      - metric: mutations
+        pointer: /mutations
+        type: integer
+      - metric: mutations_denied
+        pointer: /mutations_denied
+        type: integer
+      - metric: mutations_missed
+        pointer: /mutations_missed
+        type: integer
+    caveat: >
+      Deterministic input-space restriction, not intent understanding: the policy cannot judge whether an ALLOWED call is wise, and prompt injection that stays inside the allowed envelope passes — scope envelopes tightly and pair with monitoring. The policy protects tool CALLS; it does not sandbox what a permitted tool then does.
+    reproduce_argv:
+      - "python3"
+      - "modules/tool_guard/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/tool_guard/artifacts/tool_guard.json"
+
+  - id: CLAIM-LIB-OWASP-LLM-001
+    statement: >
+      The vendored OWASP LLM Top 10 library passes all 9 checks with 0 mismatches: the encoded taxonomy matches the published Version 2025 list verbatim — ten entries LLM01..LLM10 with Prompt Injection ranked first, the 2025 additions System Prompt Leakage (LLM07) and Vector and Embedding Weaknesses (LLM08), and Unbounded Consumption as LLM10 — and mitigation-coverage arithmetic is Fraction-exact.
+    evidence_level: measured
+    artifact:
+      - "modules/owasp_llm10/artifacts/owasp_llm10.json"
+    metrics:
+      checks: 9
+      checks_matched: 9
+      mismatches: 0
+      risks: 10
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: risks
+        pointer: /risks
+        type: integer
+    caveat: >
+      An encoding of the published list (verified against the official v2025 PDF), not the entry prose — read the document for mitigations. Coverage of a risk is the caller's declaration that mitigations exist, not an assessment of their strength; the Top 10 is a prioritized vocabulary, not a complete threat model.
+    reproduce_argv:
+      - "python3"
+      - "modules/owasp_llm10/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/owasp_llm10/artifacts/owasp_llm10.json"
+
+  - id: CLAIM-LIB-SLSA-001
+    statement: >
+      The vendored SLSA library passes all 26 checks with 0 mismatches: the four published v1.1 Build-track levels carry their published names, one-line requirements and focus rows (Build L0 No guarantees through Build L3 Hardened builds), and level assessment is verified EXHAUSTIVELY — all 16 subsets of the four capability flags yield exactly the level an independent re-derivation of the cumulative rule assigns, with gap-capping proven (a hardened platform without signed provenance assesses at L1, not L3).
+    evidence_level: benchmarked
+    artifact:
+      - "modules/slsa_levels/artifacts/slsa_levels.json"
+    metrics:
+      checks: 26
+      checks_matched: 26
+      mismatches: 0
+      subsets_enumerated: 16
+      subsets_ok: 16
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: subsets_enumerated
+        pointer: /subsets_enumerated
+        type: integer
+      - metric: subsets_ok
+        pointer: /subsets_ok
+        type: integer
+    caveat: >
+      A level describes the BUILD's integrity, never the code's quality, and assessment consumes the caller's declared capabilities — verifying provenance is a separate act. SLSA v1.1 (approved 2025-04-21) has been superseded by v1.2 with the same Build-track structure; the level definitions encoded here are v1.1's.
+    reproduce_argv:
+      - "python3"
+      - "modules/slsa_levels/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/slsa_levels/artifacts/slsa_levels.json"
+
+  - id: CLAIM-LIB-ZTA-001
+    statement: >
+      The vendored Zero Trust library passes all 5 checks with 0 mismatches: the encoded seven tenets match NIST SP 800-207 section 2.1, anchored by their published phrases (all data sources and computing services are considered resources; per-session access; dynamic policy; posture monitoring; dynamic, strictly-enforced authentication; telemetry-driven improvement), and coverage arithmetic is Fraction-exact.
+    evidence_level: measured
+    artifact:
+      - "modules/zta_tenets/artifacts/zta_tenets.json"
+    metrics:
+      checks: 5
+      checks_matched: 5
+      mismatches: 0
+      tenets: 7
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: tenets
+        pointer: /tenets
+        type: integer
+    caveat: >
+      Short labels faithful to the published tenets, not the full SP 800-207 text; SP 800-207 itself notes a pure zero-trust implementation may not be achievable, and coverage is the caller's declaration. Tenet-level coverage says nothing about the quality of the policy engine enforcing it.
+    reproduce_argv:
+      - "python3"
+      - "modules/zta_tenets/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/zta_tenets/artifacts/zta_tenets.json"
+

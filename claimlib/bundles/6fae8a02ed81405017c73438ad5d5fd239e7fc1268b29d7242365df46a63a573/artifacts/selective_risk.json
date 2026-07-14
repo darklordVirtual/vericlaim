@@ -1,0 +1,13 @@
+{
+  "battery_points": 40,
+  "checks": 15,
+  "checks_matched": 15,
+  "hand_ok": 6,
+  "mismatches": 0,
+  "module": "selective_risk",
+  "property_ok": 8,
+  "reject_cases": 7,
+  "rejects_ok": 7,
+  "schema": "claimlib_evidence_v1",
+  "undefined_fails_closed": 1
+}

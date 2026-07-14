@@ -1,0 +1,10 @@
+{
+  "checks": 9,
+  "checks_matched": 9,
+  "mismatches": 0,
+  "module": "owasp_llm10",
+  "reject_cases": 3,
+  "rejects_ok": 3,
+  "risks": 10,
+  "schema": "claimlib_evidence_v1"
+}

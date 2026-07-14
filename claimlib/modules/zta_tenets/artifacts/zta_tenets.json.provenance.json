@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "zta_tenets.json",
+  "artifact_sha256": "597a5f2893c5c3cfdd228815e56ae1fc0b5a6310f49e2806102cfe51b9299646",
+  "script": "python3 claimlib/modules/zta_tenets/evidence.py",
+  "git_commit": "8980f2272cdc19be571e7906109b5f4a9b503f2b",
+  "generated_at": "2026-07-14T16:47:11.027334+00:00",
+  "produced_by": "claimlib"
+}

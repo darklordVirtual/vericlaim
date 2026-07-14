@@ -1,0 +1,15 @@
+{
+  "allowed_ok": 4,
+  "checks": 72,
+  "checks_matched": 72,
+  "empty_policy_denies": 40,
+  "mismatches": 0,
+  "module": "tool_guard",
+  "mutations": 20,
+  "mutations_denied": 20,
+  "mutations_missed": 0,
+  "reject_cases": 7,
+  "rejects_ok": 7,
+  "schema": "claimlib_evidence_v1",
+  "semantics_ok": 8
+}

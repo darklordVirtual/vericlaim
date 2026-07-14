@@ -1,6 +1,6 @@
 # Hamming(7,4) single-error correction
 
-*Subject area: Telecom / Forward Error Correction. Language: python. Vendorable bundle `060e7c8a85e6`.*
+*Subject area: Telecom / Forward Error Correction. Language: python. Vendorable bundle `e73c1493f736`.*
 
 Forward error correction lets a receiver fix bit errors without retransmission -- essential on one-way or high-latency links. The Hamming(7,4) code adds 3 parity bits to 4 data bits so that the parity syndrome of a received word points directly at the position of any single flipped bit, which the decoder then corrects. Because its 16 codewords are pairwise at Hamming distance >= 3, any single-bit error stays closest to the true codeword. Vendor this module for a checked, dependency-free single-error-correcting building block; the claim proves correction over the ENTIRE single-error space by enumeration, so you inherit a proven coder rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `hamming74.py` into your project, byte-exact, with a generated binding tes
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/060e7c8a85e65fc84001e1ccf037084d6270cecf2f7d1c13ef61b15157fcb07e --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/e73c1493f736b46ee3a54c88466178f2294a9cee68a8ec93e63a2b2531df883d --target .
 ```
 
 ## References

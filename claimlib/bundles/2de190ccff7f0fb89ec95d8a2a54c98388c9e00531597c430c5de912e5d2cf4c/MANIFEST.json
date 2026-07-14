@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/nist_csf.json": "a925e46541251ba679ce8cb34ce1439c9fe68f7a56894b3ed956f87e2de155b3",
+    "claim.json": "7ca22b51ed8b9680f4d5036928d647049f57c4bca7ab448e760696b4beeffebe",
+    "code/nist_csf.py": "de24a197738912f6b77af02a8048c8a388e4b7ade8f89a3701b484315c55e303",
+    "provenance.json": "f0e04675e8d5c237e1e84a7bf4ef17021ffaff5a22c2d78b3cd57bd453d3a871"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

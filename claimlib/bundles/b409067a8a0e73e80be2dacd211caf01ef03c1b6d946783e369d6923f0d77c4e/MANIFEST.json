@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/slsa_levels.json": "beb47d7678cae9686b3ad1437ead0ad1fce8bb5e6e08ee0c27bb3495cb208072",
+    "claim.json": "1da5a9a7fc74ae5b612dec33156a3477bf03cf3a82df3f191ad6fc7b29a7d890",
+    "code/slsa_levels.py": "c098e90bf5cc8227864c28f27340860f26e777fd347789b9e3c9ca1a2ec777b6",
+    "provenance.json": "483fad91ea0b43f09db051150e08b1a47eaa6186eb79914b112f6077611c37b1"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

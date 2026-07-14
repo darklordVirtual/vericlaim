@@ -1,0 +1,12 @@
+{
+  "anchors_ok": 10,
+  "checks": 40,
+  "checks_matched": 40,
+  "mismatches": 0,
+  "module": "shannon_entropy",
+  "property_checks": 30,
+  "property_ok": 30,
+  "reject_cases": 9,
+  "rejects_ok": 9,
+  "schema": "claimlib_evidence_v1"
+}

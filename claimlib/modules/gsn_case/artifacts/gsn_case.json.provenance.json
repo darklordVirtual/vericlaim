@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "gsn_case.json",
+  "artifact_sha256": "be041836a642269a8cd5befd882e9db3b6d4f08d5e205ad0eb424f3575ee43f9",
+  "script": "python3 claimlib/modules/gsn_case/evidence.py",
+  "git_commit": "8980f2272cdc19be571e7906109b5f4a9b503f2b",
+  "generated_at": "2026-07-14T16:41:10.153883+00:00",
+  "produced_by": "claimlib"
+}

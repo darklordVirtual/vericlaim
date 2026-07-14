@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Anastasios N. Angelopoulos",
+    "Stephen Bates"
+  ],
+  "id": "gentle-conformal-2021",
+  "identifier": "arXiv:2107.07511",
+  "kind": "paper",
+  "publisher": "arXiv",
+  "schema": "claimlib_literature_v1",
+  "summary": "Tutorial on conformal prediction for constructing statistically rigorous, distribution-free prediction sets from any pre-trained model. In split conformal prediction, qhat is set to the ceil((n+1)(1-alpha))/n empirical quantile of n calibration scores, yielding the coverage guarantee 1-alpha <= P(Y_test in C(X_test)) <= 1-alpha + 1/(n+1) under i.i.d./exchangeable data, with the upper bound requiring distinct (continuous, tie-broken) scores. Covers extensions to structured outputs, distribution shift, time series, and outlier detection, with accompanying Python notebooks. First posted July 2021; latest arXiv version v6 (December 2022).",
+  "summary_sha256": "d5abd02b3bee7fd1897c6ea09426cce075a9d5c90852dbe02a69601354102735",
+  "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+  "url": "https://arxiv.org/abs/2107.07511",
+  "year": 2021
+}

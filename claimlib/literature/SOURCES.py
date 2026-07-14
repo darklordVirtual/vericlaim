@@ -1668,4 +1668,184 @@ SOURCES = [
                    "image model and a toxic-comment text classifier. Published at ACM FAT* 2019 "
                    "(now FAccT).",
     },
+    {
+        "id": "gentle-conformal-2021",
+        "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty "
+                 "Quantification",
+        "authors": ["Anastasios N. Angelopoulos", "Stephen Bates"],
+        "publisher": "arXiv",
+        "year": 2021,
+        "kind": "paper",
+        "identifier": "arXiv:2107.07511",
+        "url": "https://arxiv.org/abs/2107.07511",
+        "summary": "Tutorial on conformal prediction for constructing statistically rigorous, "
+                   "distribution-free prediction sets from any pre-trained model. In split "
+                   "conformal prediction, qhat is set to the ceil((n+1)(1-alpha))/n empirical "
+                   "quantile of n calibration scores, yielding the coverage guarantee 1-alpha <= "
+                   "P(Y_test in C(X_test)) <= 1-alpha + 1/(n+1) under i.i.d./exchangeable data, "
+                   "with the upper bound requiring distinct (continuous, tie-broken) scores. "
+                   "Covers extensions to structured outputs, distribution shift, time series, and "
+                   "outlier detection, with accompanying Python notebooks. First posted July "
+                   "2021; latest arXiv version v6 (December 2022).",
+    },
+    {
+        "id": "selective-2017",
+        "title": "Selective Classification for Deep Neural Networks",
+        "authors": ["Yonatan Geifman", "Ran El-Yaniv"],
+        "publisher": "Advances in Neural Information Processing Systems 30 (NIPS 2017)",
+        "year": 2017,
+        "kind": "paper",
+        "identifier": "arXiv:1705.08500",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+        "summary": "Introduces selective classification (classification with a reject option) for "
+                   "deep neural networks: a selective classifier is a pair (f,g) where g: X -> "
+                   "{0,1} decides whether to predict or abstain. Defines coverage as phi(f,g) = "
+                   "E_P[g(x)] and selective risk as R(f,g) = E_P[l(f(x),y)g(x)] / phi(f,g). Given "
+                   "a trained network and a user-specified risk level, the SGR method selects a "
+                   "confidence threshold that guarantees the desired risk with high probability; "
+                   "experiments achieve 2% top-5 ImageNet error with 99.9% confidence at almost "
+                   "60% coverage.",
+    },
+    {
+        "id": "shannon-1948",
+        "title": "A Mathematical Theory of Communication",
+        "authors": ["Claude E. Shannon"],
+        "publisher": "Bell System Technical Journal",
+        "year": 1948,
+        "kind": "paper",
+        "identifier": "Bell Syst. Tech. J. 27(3): 379-423 (July 1948); 27(4): 623-656 (October 1948)",
+        "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+        "summary": "Founding paper of information theory, published in two parts in the Bell "
+                   "System Technical Journal, Vol. 27, pp. 379-423 (July 1948) and pp. 623-656 "
+                   "(October 1948). Theorem 2 establishes that the only uncertainty measure "
+                   "satisfying three natural axioms (continuity, monotonicity in n for "
+                   "equiprobable events, and decomposition of choices) is H = -K sum p_i log p_i "
+                   "with K a positive constant. Shannon defines H = -sum p_i log p_i as the "
+                   "entropy of a set of probabilities, noting its correspondence to entropy in "
+                   "statistical mechanics, and builds on it the source coding and noisy-channel "
+                   "coding theory.",
+    },
+    {
+        "id": "gsn-standard",
+        "title": "Goal Structuring Notation Community Standard, Version 3 (SCSC-141C)",
+        "authors": ["SCSC Assurance Case Working Group (ACWG)"],
+        "publisher": "SCSC — Safety-Critical Systems Club / Assurance Case Working Group",
+        "year": 2021,
+        "kind": "standard",
+        "identifier": "SCSC-141C",
+        "url": "https://scsc.uk/scsc-141c",
+        "summary": "The authoritative community definition of the Goal Structuring Notation "
+                   "(GSN), a graphical notation for documenting assurance-case arguments as goal "
+                   "structures. Version 3 (issued to the user community May 2021) defines six "
+                   "core elements — Goal, Strategy, Solution, Context, Assumption, Justification "
+                   "— plus an 'Undeveloped' hollow-diamond decorator applicable to goals and "
+                   "strategies, and two core relationships: SupportedBy (goal-to-goal, "
+                   "goal-to-strategy, goal-to-solution, strategy-to-goal) and InContextOf (goal "
+                   "or strategy to context, assumption, or justification). Goal structures are "
+                   "required to be directed acyclic graphs, and the standard adds extensions for "
+                   "argument patterns, modular arguments, confidence (ACPs), and dialectic "
+                   "argumentation. GSN was first published as a community standard in 2011; "
+                   "maintenance moved to the SCSC's Assurance Case Working Group in 2014.",
+    },
+    {
+        "id": "safety-cases-2024",
+        "title": "Safety Cases: How to Justify the Safety of Advanced AI Systems",
+        "authors": ["Joshua Clymer", "Nick Gabrieli", "David Krueger", "Thomas Larsen"],
+        "publisher": "arXiv",
+        "year": 2024,
+        "kind": "paper",
+        "identifier": "arXiv:2403.10462",
+        "url": "https://arxiv.org/abs/2403.10462",
+        "summary": "Proposes that AI developers produce a safety case — a structured rationale "
+                   "that an AI system is unlikely to cause a catastrophe — before training or "
+                   "deploying advanced systems. Following UK safety-engineering standards, the "
+                   "paper summarizes safety cases in Goal Structuring Notation (GSN), a "
+                   "flow-chart notation connecting claims (goals), justification strategies, and "
+                   "evidence. It organizes safety arguments into four categories: inability, "
+                   "control, trustworthiness, and deference to credible AI advisors. First posted "
+                   "March 15, 2024 (v2 March 18, 2024).",
+    },
+    {
+        "id": "progent-2025",
+        "title": "Progent: Programmable Privilege Control for LLM Agents",
+        "authors": ["Tianneng Shi", "Jingxuan He", "Zhun Wang", "Hongwei Li", "Linyu Wu", "Wenbo Guo", "Dawn Song"],
+        "publisher": "arXiv",
+        "year": 2025,
+        "kind": "paper",
+        "identifier": "arXiv:2504.11703",
+        "url": "https://arxiv.org/abs/2504.11703",
+        "summary": "Proposes Progent, a privilege-control (least-privilege) framework for "
+                   "securing LLM agents: symbolic security policies over tool names and arguments "
+                   "constrain which tool calls the agent may execute, defending against attacks "
+                   "such as indirect prompt injection. An LLM generates and updates policies "
+                   "dynamically, with an SMT solver checking that updates only narrow the action "
+                   "space (monotonic confinement); expansions require approval. Evaluated on "
+                   "AgentDojo and ASB benchmarks with large reductions in attack success rate "
+                   "while preserving utility, integrated with LangChain and OpenAI Agents SDK. "
+                   "First posted April 16, 2025 (v1); v3 (May 14, 2026) retitled 'Progent: "
+                   "Securing AI Agents with Privilege Control'.",
+    },
+    {
+        "id": "owasp-llm-top10-2025",
+        "title": "OWASP Top 10 for LLM Applications 2025",
+        "authors": ["Steve Wilson (Project Lead)", "Ads Dawson (Technical Lead & Vulnerability Entries Lead)", "OWASP GenAI Security Project contributors"],
+        "publisher": "OWASP Foundation / OWASP GenAI Security Project",
+        "year": 2024,
+        "kind": "framework",
+        "identifier": "OWASP Top 10 for LLM Applications, Version 2025 (released 2024-11-18)",
+        "url": "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/",
+        "summary": "Community-driven ranking of the ten most critical security risks in "
+                   "applications built on large language models, first released in 2023 and "
+                   "updated as Version 2025 on November 18, 2024. The 2025 edition ranks Prompt "
+                   "Injection first and introduces new entries System Prompt Leakage (LLM07) and "
+                   "Vector and Embedding Weaknesses (LLM08), while expanding the former Denial of "
+                   "Service entry into Unbounded Consumption (LLM10). Each entry provides a "
+                   "description, common examples, prevention and mitigation strategies, example "
+                   "attack scenarios, reference links, and mappings to related frameworks and "
+                   "taxonomies. The 45-page document is licensed under CC BY-SA 4.0; the official "
+                   "PDF is published at "
+                   "owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-v2025.pdf.",
+    },
+    {
+        "id": "slsa-v1-1",
+        "title": "Supply-chain Levels for Software Artifacts (SLSA) Specification v1.1",
+        "authors": ["SLSA Community / SLSA Specification SIG"],
+        "publisher": "SLSA / OpenSSF",
+        "year": 2025,
+        "kind": "specification",
+        "identifier": "SLSA v1.1",
+        "url": "https://slsa.dev/spec/v1.1/",
+        "summary": "SLSA v1.1 is a framework of tracks and levels for securing the software "
+                   "supply chain, approved on 21 April 2025 as a backwards-compatible successor "
+                   "to v1.0. It defines a single track, the Build track, with cumulative levels "
+                   "Build L0 (No guarantees), Build L1 (Provenance exists), Build L2 (Hosted "
+                   "build platform, requiring signed provenance generated by a hosted build "
+                   "platform), and Build L3 (Hardened builds, requiring a hardened build platform "
+                   "that isolates build runs and protects provenance signing material). Relative "
+                   "to v1.0 it clarifies that attestation format schemas are informative, adds a "
+                   "verification procedure and verifier metadata for Verification Summary "
+                   "Attestations (VSAs), and refines the threat model. It has since been "
+                   "superseded by SLSA v1.2.",
+    },
+    {
+        "id": "nist-zta-2020",
+        "title": "Zero Trust Architecture",
+        "authors": ["Scott Rose", "Oliver Borchert", "Stu Mitchell", "Sean Connelly"],
+        "publisher": "National Institute of Standards and Technology",
+        "year": 2020,
+        "kind": "standard",
+        "identifier": "NIST SP 800-207",
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf",
+        "summary": "NIST Special Publication 800-207 (August 2020) defines zero trust (ZT) and "
+                   "zero trust architecture (ZTA) as cybersecurity paradigms that move defenses "
+                   "from static, network-based perimeters to focus on users, assets, and "
+                   "resources. Section 2.1 enumerates seven basic tenets, including treating all "
+                   "data sources and computing services as resources, securing all communication "
+                   "regardless of network location, granting access per-session under dynamic "
+                   "policy, and continuous monitoring of asset integrity and security posture. "
+                   "Authored by Scott Rose and Oliver Borchert (NIST Advanced Network "
+                   "Technologies Division), Stu Mitchell (Stu2Labs), and Sean Connelly "
+                   "(Cybersecurity & Infrastructure Security Agency, DHS). DOI: "
+                   "10.6028/NIST.SP.800-207.",
+    },
 ]

@@ -32,6 +32,7 @@ claim in your context — read each module's caveat.
 | [`chacha20`](docs/chacha20.md) | Python | Security / Stream Ciphers | `CLAIM-LIB-CHACHA20-001` | benchmarked |
 | [`cidr`](docs/cidr.md) | Python | Telecom / IP Address Management | `CLAIM-LIB-CIDR-001` | benchmarked |
 | [`cis_controls`](docs/cis_controls.md) | Python | Compliance / Security Frameworks | `CLAIM-LIB-CIS-001` | measured |
+| [`conformal_split`](docs/conformal_split.md) | Python | AI Assurance / Conformal Prediction | `CLAIM-LIB-CONFORMAL-001` | benchmarked |
 | [`crc32`](docs/crc32.md) | Python | Data / Integrity & Checksums | `CLAIM-LIB-CRC32-001` | measured |
 | [`csv_rfc4180`](docs/csv_rfc4180.md) | Python | Data / Serialization | `CLAIM-LIB-CSV-RFC4180-001` | benchmarked |
 | [`cvss`](docs/cvss.md) | Python | Security / Vulnerability Management | `CLAIM-LIB-CVSS-001` | benchmarked |
@@ -46,6 +47,7 @@ claim in your context — read each module's caveat.
 | [`ewma`](docs/ewma.md) | Python | Observability / Statistical Process Control | `CLAIM-LIB-EWMA-001` | benchmarked |
 | [`fairness_metrics`](docs/fairness_metrics.md) | Python | AI Governance / Fairness Metrics | `CLAIM-LIB-FAIRNESS-001` | benchmarked |
 | [`gdpr`](docs/gdpr.md) | Python | Compliance / Privacy (GDPR) | `CLAIM-LIB-GDPR-001` | measured |
+| [`gsn_case`](docs/gsn_case.md) | Python | AI Assurance / Safety Cases | `CLAIM-LIB-GSN-001` | benchmarked |
 | [`hamming74`](docs/hamming74.md) | Python | Telecom / Forward Error Correction | `CLAIM-LIB-HAMMING74-001` | machine_checked |
 | [`hashchain`](docs/hashchain.md) | Python | Security / Data Integrity | `CLAIM-LIB-HASHCHAIN-001` | measured |
 | [`hkdf`](docs/hkdf.md) | Python | Security / Key Derivation | `CLAIM-LIB-HKDF-001` | benchmarked |
@@ -76,6 +78,7 @@ claim in your context — read each module's caveat.
 | [`nist_csf`](docs/nist_csf.md) | Python | Security / Governance & Compliance | `CLAIM-LIB-NIST-CSF-001` | measured |
 | [`nmea`](docs/nmea.md) | Python | Industrial / Telemetry & Sensors | `CLAIM-LIB-NMEA-001` | measured |
 | [`oee`](docs/oee.md) | Python | Industrial / Manufacturing Analytics | `CLAIM-LIB-OEE-001` | measured |
+| [`owasp_llm10`](docs/owasp_llm10.md) | Python | AI Assurance / LLM Application Security | `CLAIM-LIB-OWASP-LLM-001` | measured |
 | [`pbkdf2`](docs/pbkdf2.md) | Python | Security / Password Hashing | `CLAIM-LIB-PBKDF2-001` | benchmarked |
 | [`pci_dss`](docs/pci_dss.md) | Python | Compliance / Audit Frameworks | `CLAIM-LIB-PCI-DSS-001` | measured |
 | [`pem`](docs/pem.md) | Python | Security / TLS & PKI | `CLAIM-LIB-PEM-001` | benchmarked |
@@ -85,17 +88,22 @@ claim in your context — read each module's caveat.
 | [`rbac`](docs/rbac.md) | Python | Security / Identity & Access Management | `CLAIM-LIB-RBAC-001` | measured |
 | [`retry`](docs/retry.md) | Python | Reliability / Distributed Systems | `CLAIM-LIB-RETRY-001` | measured |
 | [`rle`](docs/rle.md) | Python | Data / Compression | `CLAIM-LIB-RLE-001` | benchmarked |
+| [`selective_risk`](docs/selective_risk.md) | Python | AI Assurance / Selective Prediction | `CLAIM-LIB-SELECTIVE-001` | benchmarked |
 | [`semver`](docs/semver.md) | Python | Software Supply Chain / Dependency Resolution | `CLAIM-LIB-SEMVER-001` | measured |
 | [`sha256`](docs/sha256.md) | Python | Security / Cryptographic Hashing | `CLAIM-LIB-SHA256-001` | benchmarked |
+| [`shannon_entropy`](docs/shannon_entropy.md) | Python | AI Assurance / Information Measures | `CLAIM-LIB-ENTROPY-001` | benchmarked |
 | [`slo_burnrate`](docs/slo_burnrate.md) | Python | SRE / SLO Alerting | `CLAIM-LIB-SLO-BURNRATE-001` | benchmarked |
+| [`slsa_levels`](docs/slsa_levels.md) | Python | AI Assurance / Supply-Chain Integrity | `CLAIM-LIB-SLSA-001` | benchmarked |
 | [`soc2`](docs/soc2.md) | Python | Compliance / Audit Frameworks | `CLAIM-LIB-SOC2-001` | measured |
 | [`spki_pin`](docs/spki_pin.md) | Python | Security / TLS & PKI | `CLAIM-LIB-SPKI-PIN-001` | benchmarked |
 | [`tokenbucket`](docs/tokenbucket.md) | Python | Reliability / Rate Limiting | `CLAIM-LIB-TOKENBUCKET-001` | measured |
+| [`tool_guard`](docs/tool_guard.md) | Python | AI Assurance / Agent Privilege Control | `CLAIM-LIB-TOOL-GUARD-001` | benchmarked |
 | [`topo_sort`](docs/topo_sort.md) | Python | General / Graph Algorithms | `CLAIM-LIB-TOPOSORT-001` | measured |
 | [`totp`](docs/totp.md) | Python | Security / Authentication (2FA) | `CLAIM-LIB-TOTP-001` | benchmarked |
 | [`uuid_tools`](docs/uuid_tools.md) | Python | Data / Identifiers (UUID) | `CLAIM-LIB-UUID-001` | benchmarked |
 | [`varint`](docs/varint.md) | Python | Data / Serialization | `CLAIM-LIB-VARINT-001` | benchmarked |
 | [`vlan`](docs/vlan.md) | Python | Telecom / VLAN Management | `CLAIM-LIB-VLAN-001` | measured |
+| [`zta_tenets`](docs/zta_tenets.md) | Python | AI Assurance / Zero Trust Architecture | `CLAIM-LIB-ZTA-001` | measured |
 | [`chunk`](docs/chunk.md) | TypeScript | TypeScript / Array Utilities | `CLAIM-LIB-CHUNK-001` | measured |
 | [`cx`](docs/cx.md) | TypeScript | TypeScript / UI Utilities | `CLAIM-LIB-CX-001` | measured |
 | [`deepEqual`](docs/deepEqual.md) | TypeScript | TypeScript / Data Comparison | `CLAIM-LIB-DEEPEQUAL-001` | benchmarked |
