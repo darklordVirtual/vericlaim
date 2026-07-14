@@ -1,6 +1,6 @@
 # Benford's Law leading-digit analysis
 
-*Subject area: Audit / Forensic Analytics. Language: python. Vendorable bundle `a2dd24463d65`.*
+*Subject area: Audit / Forensic Analytics. Language: python. Vendorable bundle `6f74874eaade`.*
 
 Benford's Law says that in many natural datasets the leading digit is 1 about 30% of the time and 9 under 5%, following log10(1 + 1/d). Forensic accountants and auditors screen ledgers, expense reports, and tax data against this distribution: a sharp deviation is a red flag worth investigating (invented numbers tend to be too uniform). This module computes the leading digit, the expected/observed distributions, and the chi-square and MAD statistics; the claim proves the expected distribution equals the Benford formula and the statistics behave as defined, so you inherit a checked anomaly screen rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `benford.py` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/a2dd24463d65c1a9a27c0126f79dbed44ec64865fc387e81f6e2e6c567be0e56 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/6f74874eaade4a6d202f137333f25c87622d0e004996ef18a178786a68399aab --target .
 ```
 
 ## References

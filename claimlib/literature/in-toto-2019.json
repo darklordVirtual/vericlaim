@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "Santiago Torres-Arias",
+    "Hammad Afzali",
+    "Trishank Karthik Kuppusamy",
+    "Reza Curtmola",
+    "Justin Cappos"
+  ],
+  "id": "in-toto-2019",
+  "identifier": "USENIX Security 2019, pp. 1393-1410",
+  "kind": "paper",
+  "publisher": "28th USENIX Security Symposium",
+  "schema": "claimlib_literature_v1",
+  "summary": "Provides end-to-end ('farm-to-table') integrity for a software supply chain by cryptographically verifying that every step was performed as planned, by authorized parties, without tampering in between. The project owner signs a LAYOUT declaring the ordered STEPS, each step's authorized functionaries (by public key) and signature threshold, and ARTIFACT RULES -- MATCH, CREATE, DELETE, MODIFY, ALLOW, DISALLOW, REQUIRE -- constraining which materials a step may consume and which products it may produce. Each functionary emits signed LINK metadata recording the actual materials and products of its step; verification checks the link signatures against the layout's authorized keys and thresholds and checks the artifact flow across steps against the rules, rejecting any product that did not arise from the declared chain. in-toto underpins later supply-chain attestation efforts. Published at the 28th USENIX Security Symposium (2019), pp. 1393-1410.",
+  "summary_sha256": "493bd2422f04020f0607dca422e8ab89e2b21e96caaca51898575aa008dcf9b7",
+  "title": "in-toto: Providing farm-to-table guarantees for bits and bytes",
+  "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias",
+  "year": 2019
+}

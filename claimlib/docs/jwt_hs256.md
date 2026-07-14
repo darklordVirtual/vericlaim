@@ -1,6 +1,6 @@
 # JWS/JWT HS256 sign + strict verify (RFC 7515/7519)
 
-*Subject area: Security / Authentication (JWT). Language: python. Vendorable bundle `fcf56c219617`.*
+*Subject area: Security / Authentication (JWT). Language: python. Vendorable bundle `3ebe9027bd16`.*
 
 A JSON Web Token is two base64url-encoded JSON parts signed over 'header.payload' -- RFC 7515's JWS compact serialization with claim semantics from RFC 7519. Most JWT vulnerabilities are verifier bugs: accepting alg=none, letting the token pick the algorithm, or sloppy time handling. This module implements sign and a strict verifier (fixed algorithm allowlist, injected time, fail-closed parsing); the claim proves it reproduces the RFC's published example signature and rejects the classic confusion attacks, so you inherit a checked token core instead of another JWT pitfall.
 
@@ -16,7 +16,7 @@ Ships `jwt_hs256.py` into your project, byte-exact, with a generated binding tes
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/fcf56c2196174ab6e5989641967b67ff9846782dcb1d1a8267b512bd7fef6495 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/3ebe9027bd16c5a56f3af7847c6fd30c1a784d5a7fe93a352016bd41a3254bf1 --target .
 ```
 
 ## References

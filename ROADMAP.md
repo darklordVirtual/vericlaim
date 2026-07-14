@@ -11,7 +11,7 @@ Status: 🟡 partially implemented · ⏳ designed, not built.
 - ⏳ **Declarative reproduce for the whole register.** The declarative runner
   (`vericlaim/repro.py`) is implemented and tested, and the former parser
   blocker is resolved: the flat `reproduce_argv` / `reproduce_outputs` fields
-  parse identically under the bundled parser and PyYAML. **claimlib's 88
+  parse identically under the bundled parser and PyYAML. **claimlib's 102
   claims are fully converted** (`vericlaim --root claimlib reproduce` re-runs
   every spec from scratch), and the root register's CLAIM-RSI-001/002 use the
   declarative form. Remaining: the root register's examples/domains/library

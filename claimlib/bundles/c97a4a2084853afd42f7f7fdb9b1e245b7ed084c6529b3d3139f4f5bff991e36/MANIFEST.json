@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/in_toto_layout.json": "6cdcb2b26154dc44c7fa1e1aaeed4be36a58615074d06901cad9fd05fac76430",
+    "claim.json": "45c6b2c6005d294ceff3c42b7e765c846598c7d5f6659f7d17028072850c9e6c",
+    "code/in_toto_layout.py": "f267a226448eab964a97d2daddadcb4b702c9d7193b09fe029796986d38fcf25",
+    "provenance.json": "d00b5077cb2551dfce1ecf4da6b5c3ea9b00801ecfadce8d5d7d8de67e1cb85b"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

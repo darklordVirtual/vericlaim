@@ -83,6 +83,12 @@
     "title": "Common Vulnerability Scoring System version 3.1: Specification Document",
     "url": "https://www.first.org/cvss/v3.1/specification-document"
   },
+  "datasheets-2018": {
+    "identifier": "arXiv:1803.09010; Commun. ACM 64(12):86-92",
+    "summary_sha256": "73a83c44bc9821a022733c9cf9df2d0cc46792c0aecf977832b53afe93faf3de",
+    "title": "Datasheets for Datasets",
+    "url": "https://arxiv.org/abs/1803.09010"
+  },
   "dwarf-5": {
     "identifier": "DWARF Version 5",
     "summary_sha256": "eecd4745fd146470a825de6040d7872d11770ec1e18135f07a6afa50fedc572c",
@@ -239,6 +245,12 @@
     "title": "Guidelines for Use of Extended Unique Identifier (EUI), Organizationally Unique Identifier (OUI), and Company ID (CID)",
     "url": "https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf"
   },
+  "in-toto-2019": {
+    "identifier": "USENIX Security 2019, pp. 1393-1410",
+    "summary_sha256": "493bd2422f04020f0607dca422e8ab89e2b21e96caaca51898575aa008dcf9b7",
+    "title": "in-toto: Providing farm-to-table guarantees for bits and bytes",
+    "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias"
+  },
   "incits-359-2012": {
     "identifier": "INCITS 359-2012 (R2022)",
     "summary_sha256": "b3a834bbbd876009c927757eec3aeb422ae0b182578782ae2f726735b6c2f850",
@@ -304,6 +316,12 @@
     "summary_sha256": "5f850b61a7050b8a9914b1dc8275ce50d2cd5e745a8253bef95306e61bbd14a3",
     "title": "Binary Codes Capable of Correcting Deletions, Insertions and Reversals",
     "url": "https://ui.adsabs.harvard.edu/abs/1966SPhD...10..707L"
+  },
+  "ltt-2021": {
+    "identifier": "arXiv:2110.01052; Ann. Appl. Stat. 19(2):1641-1662",
+    "summary_sha256": "efaf5f5f8893eacbe99dc11d63c261c817f4853f28bfddc3c22d6f9ba794a01f",
+    "title": "Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control",
+    "url": "https://arxiv.org/abs/2110.01052"
   },
   "luhn-1960": {
     "identifier": "U.S. Patent 2,950,048",

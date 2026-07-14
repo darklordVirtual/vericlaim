@@ -1,6 +1,6 @@
 # SLSA v1.1 Build levels + cumulative assessment
 
-*Subject area: AI Assurance / Supply-Chain Integrity. Language: python. Vendorable bundle `e7bd7038ab6f`.*
+*Subject area: AI Assurance / Supply-Chain Integrity. Language: python. Vendorable bundle `9ce2a6e25397`.*
 
 SLSA grades how trustworthy an artifact's build is, on a cumulative ladder: provenance exists (L1), signed provenance from a hosted platform (L2), hardened isolated builds (L3). ML supply chains attach model artifacts to exactly this ladder — 'which level built this model file' is becoming a procurement question. This module encodes the verified v1.1 Build track and computes achieved levels fail-closed; the claim proves the ladder by exhaustive subset enumeration, so a supply-chain assessment inherits checked level logic.
 
@@ -16,7 +16,7 @@ Ships `slsa_levels.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e7bd7038ab6f76738fdf1c0beb3f37845d84539a1a83d245a466fc164232330c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/9ce2a6e25397a6dc79608c024742813dc0c471a594e0c99d08fc763e07c771ac --target .
 ```
 
 ## References

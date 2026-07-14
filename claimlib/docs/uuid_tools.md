@@ -1,6 +1,6 @@
 # UUID parse/format + deterministic v3/v5 (RFC 9562)
 
-*Subject area: Data / Identifiers (UUID). Language: python. Vendorable bundle `1c738ab9d404`.*
+*Subject area: Data / Identifiers (UUID). Language: python. Vendorable bundle `98c0879b5f07`.*
 
 A UUID is a 128-bit identifier whose version and variant bits encode how it was generated; RFC 9562 (which obsoletes RFC 4122) specifies the layout and algorithms. Name-based UUIDs (v3/v5) hash a namespace UUID plus a name so independent systems derive the SAME identifier without coordination -- ideal for content addressing and idempotency keys. This module implements parse, format, inspection and v3/v5 generation from scratch; the claim proves it matches the RFC's vectors and the stdlib's independent implementation, so you inherit checked identifier plumbing.
 
@@ -16,7 +16,7 @@ Ships `uuid_tools.py` into your project, byte-exact, with a generated binding te
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/1c738ab9d4047978ad711720344fa48786b602c31452d5c64d7b168c54c80a35 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/98c0879b5f07deaef0425949e61fb89aa3ce6b0631b933a988735bef5052a775 --target .
 ```
 
 ## References

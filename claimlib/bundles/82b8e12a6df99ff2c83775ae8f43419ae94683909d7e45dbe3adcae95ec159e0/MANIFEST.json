@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/tool_guard.json": "e168eaee29f691481028badf3925c4f2793c7ad2532cbaa4cbe1ef8693892ad2",
+    "claim.json": "52e94c0906c279bea1c85516237dfaa49596b10da646dd3c5facc78730321617",
+    "code/tool_guard.py": "6f0dbf9e2f128cfc549813dd74e50a5e9458fc632615c5b58a26a61c38ce0b30",
+    "provenance.json": "f477a799316d514729809f03b2a6d17bdaa36749320e30ce15ba5b10cfd0032c"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

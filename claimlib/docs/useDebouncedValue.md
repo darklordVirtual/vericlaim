@@ -1,6 +1,6 @@
 # useDebouncedValue React hook
 
-*Subject area: React / UI State. Language: react. Vendorable bundle `8c7c10be1295`.*
+*Subject area: React / UI State. Language: react. Vendorable bundle `4515012a6e82`.*
 
 Debouncing coalesces a rapid stream of events (keystrokes, resize, scroll) into a single trailing update that fires only after activity has been quiet for delayMs, so expensive work runs once instead of on every change. The effective React pattern is to put the timing model in a pure, framework-agnostic function and make the hook a thin binding, so the off-by-one-prone logic is unit-testable without a DOM or fake timers. debounce.logic.ts is a deterministic simulator: emitDebounced(events, delayMs) returns, for a trace of timed values, exactly the emissions a trailing debounce would produce, and useDebouncedValue.tsx wraps that same model in useState + useEffect + setTimeout. Vendor both; the claim proves the core timing is correct, so you inherit checked debounce behaviour rather than re-deriving timer-reset logic in every project.
 
@@ -16,5 +16,5 @@ Ships `useDebouncedValue.tsx`, `debounce.logic.ts` into your project, byte-exact
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/8c7c10be12956555bed8af436c1d245fe77dbf43e40da74e7dad7743a5ac5b16 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/4515012a6e82a6797da109728c9973a2ed92452b0a2a8d541e7b600e9d3d64e1 --target .
 ```

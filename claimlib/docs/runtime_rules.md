@@ -1,6 +1,6 @@
 # Runtime rule enforcement for agent traces (AgentSpec-style)
 
-*Subject area: AI Assurance / Runtime Governance. Language: python. Vendorable bundle `5e9315afdc0b`.*
+*Subject area: AI Assurance / Runtime Governance. Language: python. Vendorable bundle `9ad10ae83f55`.*
 
 Runtime governance frameworks for LLM agents — AgentSpec (ICSE 2026) and MI9's continuous conformance over agent-semantic telemetry — converge on declarative rules over the agent's event stream: trigger on an event kind, check predicates over its attributes, enforce one of four actions from full stop to user inspection. This module implements that evaluation core with fail-closed semantics and exact numeric boundaries; the claim proves the grammar matches the published one and the semantics by permutation and mutation, so an agent runtime inherits a checked enforcement kernel.
 
@@ -16,7 +16,7 @@ Ships `runtime_rules.py` into your project, byte-exact, with a generated binding
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/5e9315afdc0bc1ee85ec6638beb82d080832e972b975624ec931210f74a4eb69 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/9ad10ae83f55a0ab7f6fbb056e29643555845549660844e4bc3aa92f1db30753 --target .
 ```
 
 ## References

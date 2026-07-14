@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/datasheet.json": "41fadd54fe424e228e43103b37e8dfd98ab6bcb74d5d5e3c4bc5943fe2717d21",
+    "claim.json": "148566c412f2d58c1db3ca74ebdd488e324d142bc93f3ae1de75d169eca1362c",
+    "code/datasheet.py": "47234d52741a27fd496830a7fb88f369b4220996268e28469e10d865fcef8a33",
+    "provenance.json": "37e65a759fcde114e8447b0ea30ff1d101d755b42837526b1f39c76461ec8ed3"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

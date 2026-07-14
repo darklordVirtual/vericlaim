@@ -1,6 +1,6 @@
 # Norwegian KID check digits (MOD10 + MOD11, OCR giro)
 
-*Subject area: Finance / Norwegian Payments (KID). Language: python. Vendorable bundle `1afa6fcf94d5`.*
+*Subject area: Finance / Norwegian Payments (KID). Language: python. Vendorable bundle `8c6aecb7373d`.*
 
 Every Norwegian OCR giro payment carries a KID -- kundeidentifikasjon -- whose last digit is a check digit in one of two registered schemes: MOD10 (the Luhn algorithm, as on payment cards) or the weighted MOD11 (the same construction that protects organisasjonsnummer, where a weighted sum's remainder decides the digit and remainder 1 makes the payload unusable). This module computes, validates and generates both variants in one vendorable file; the claim proves exhaustive single-digit tamper detection and agreement with two independent constructions, so an invoicing system inherits checked payment-reference handling.
 
@@ -16,7 +16,7 @@ Ships `kid.py` into your project, byte-exact, with a generated binding test that
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/1afa6fcf94d5bbbe02cc9547fb0cf3013e5f5edbb1395555908c44f1329ff66e --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/8c6aecb7373dbef655324150a3b82c232c96c232cc5b4848592279d67105a51c --target .
 ```
 
 ## References

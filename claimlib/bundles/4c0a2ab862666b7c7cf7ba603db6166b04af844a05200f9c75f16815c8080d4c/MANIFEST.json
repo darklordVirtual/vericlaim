@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/learn_then_test.json": "742cc3d07b0b4069afc34e088e23274c7a0aaa140622450323e01dfe27141142",
+    "claim.json": "453eb81801e32b9fe9abd9a918aa4f6804e1f1a1c72ba4612522501b4b9c2c86",
+    "code/learn_then_test.py": "aa37ffbe3f4746fab0cbdda21134bd462622f672c9db819cd2f3445031b9ba21",
+    "provenance.json": "4f3957586eeb079fdaa86be004d22ac2785177482f107bc3dbc7eaf08641cb77"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

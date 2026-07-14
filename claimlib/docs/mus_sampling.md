@@ -1,6 +1,6 @@
 # Monetary-unit sampling: PPS selection + tainting projection
 
-*Subject area: Audit / Monetary-Unit Sampling. Language: python. Vendorable bundle `bb9f2395e056`.*
+*Subject area: Audit / Monetary-Unit Sampling. Language: python. Vendorable bundle `e66e3e092033`.*
 
 Monetary-unit sampling treats every krone/dollar in a population as the sampling unit, so a NOK 700,000 invoice is 700,000 chances -- large items are selected with probability proportional to size, and anything at least one sampling interval big is selected with certainty (the top stratum). Misstatements found in sampled items project to the population by tainting: the misstatement fraction of the item times the interval. This module implements the selection and projection in exact Fraction arithmetic; the claim proves the selection guarantees exhaustively and the projection against independent recomputation, so an audit tool inherits checked PPS mechanics.
 
@@ -16,7 +16,7 @@ Ships `mus_sampling.py` into your project, byte-exact, with a generated binding 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/bb9f2395e0568834082b4a4d7f23357eb5f139c9928e356a1a23868358a26463 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/e66e3e09203359480d4f79dae0dac3d0caad1185c1c46c96e87873573e8894d7 --target .
 ```
 
 ## References

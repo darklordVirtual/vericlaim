@@ -6,6 +6,38 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 
 ## [Unreleased] — gold-standard lift
 
+### Added — theory-synergy round: three modules (99 → 102 modules, 116 → 119 works)
+- **`learn_then_test`** (LTT — Angelopoulos, Bates, Candès, Jordan, Lei;
+  arXiv 2021, Ann. Appl. Stat. 2025): risk control for ANY loss and grid by
+  reframing calibration as multiple testing. The EXACT binomial-tail
+  p-value in rational arithmetic, SUPER-UNIFORMITY enumerated at every
+  achievable threshold, and FAMILY-WISE ERROR enumerated exactly as
+  Fractions over all 343 joint outcomes of 3 independent nulls for both
+  Bonferroni and fixed-sequence procedures (both <= delta) — 43/43 checks.
+  Complements `conformal_risk` (one monotone loss → any loss).
+- **`in_toto_layout`** (in-toto — Torres-Arias et al., USENIX Security
+  2019): the seven-rule supply-chain artifact-flow engine (MATCH, CREATE,
+  DELETE, MODIFY, ALLOW, DISALLOW, REQUIRE) with rule-order sensitivity, a
+  canonical clone→build→package layout verified whole, and five independent
+  tamperings each detected (unauthorized signer, below-threshold
+  signatures, un-sourced product, cross-step hash mismatch, DISALLOW stray)
+  — 20/20 checks. Signature verification is explicitly the caller's layer.
+- **`datasheet`** (Datasheets for Datasets — Gebru et al., CACM 2021):
+  seven-section lifecycle completeness scoring with the paper's own
+  justified-N/A escape hatch (a section marked not-applicable WITH a reason
+  counts; a bare N/A does not), proven by an INDEPENDENT direct count over
+  ALL 2187 (= 3**7) assignments of {answered, justified-N/A, gap} — 2193/2193
+  checks. Complements `model_card` (model → the dataset it learned from).
+- Literature layer 116 → 119 works (`ltt-2021`, `in-toto-2019`,
+  `datasheets-2018`, all web-verified against primary sources and
+  hash-locked); the bibliography is now grouped by kind (Regulations,
+  Standards, RFCs, Specifications, Frameworks, Papers, Books) with a
+  contents index and per-section counts. Catalogue deep-seeding rose
+  22 → 25; CLAIM-LIB-INDEX-001 (99 → 102 modules, 87 → 90 Python, 90 → 93
+  cited, 127 → 133 references) and CLAIM-CATALOG-001 updated. Claimlib tests
+  +48 (learn_then_test 19, in_toto_layout 17, datasheet 12); declarative
+  reproduce covers all 102 claims.
+
 ### Added — three catalogue promotions (96 → 99 modules, 112 → 116 works)
 - **`conformal_risk`** (CRC — Angelopoulos et al., ICLR 2024): the
   published lambdahat rule with the risk theorem ENUMERATED under its

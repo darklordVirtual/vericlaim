@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/cidr.json": "4337ea5dcf2554f07e69d7314ed605969d4460a1b8e003c8c87850e58e830b1b",
+    "claim.json": "90de61afd7d49555de6bc6561d9780320e9ca8d7258c639f5709a035ea1c1a3b",
+    "code/cidr.py": "97879eb0e06be5abd5af1aa1c68dc43d71c6b0d2c2c3ff7171d60da021c598c5",
+    "provenance.json": "1b07e04811193ad95dd93834da243b967ceaec30e46fdbc64fb2229a15f479dd"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

@@ -1,6 +1,6 @@
 # Conformal Risk Control (lambda-hat + risk theorem)
 
-*Subject area: AI Assurance / Conformal Prediction. Language: python. Vendorable bundle `041852db4a09`.*
+*Subject area: AI Assurance / Conformal Prediction. Language: python. Vendorable bundle `25160d2cd640`.*
 
 Conformal Risk Control (Angelopoulos, Bates, Fisch, Lei, Schuster — ICLR 2024) generalizes conformal prediction from one loss (miscoverage) to ANY bounded, monotone loss: false-negative rate, token-level F1 deficit, factuality loss of an LLM's filtered output. Calibrate the loss curve on n held-out units, pick the smallest lambda with (n/(n+1))Rhat(lambda) + B/(n+1) <= alpha, and the deployed expected loss is at most alpha. This module implements the selection rule with exact rational arithmetic and an exhaustive leave-one-out enumerator; the claim proves the theorem by enumeration and the exact reduction to conformal prediction, so a risk-controlled deployment inherits checked machinery.
 
@@ -16,7 +16,7 @@ Ships `conformal_risk.py` into your project, byte-exact, with a generated bindin
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/041852db4a0902ed1f88ae7941fd09a48390185f007b2cf775f273c3e97b67b2 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/25160d2cd6402f00e77c1538f158b7724d412480d4c3103531fecd8a250a458c --target .
 ```
 
 ## References

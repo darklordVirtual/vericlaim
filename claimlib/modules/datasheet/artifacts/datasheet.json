@@ -1,0 +1,14 @@
+{
+  "anchor_checks": 6,
+  "anchors_ok": 6,
+  "checks": 2193,
+  "checks_matched": 2193,
+  "enumerated_combinations": 2187,
+  "enumerated_ok": 2187,
+  "mismatches": 0,
+  "module": "datasheet",
+  "reject_cases": 4,
+  "rejects_ok": 4,
+  "schema": "claimlib_evidence_v1",
+  "sections": 7
+}

@@ -1,0 +1,15 @@
+{
+  "checks": 43,
+  "checks_matched": 43,
+  "fwer_enumerations_ok": 2,
+  "hand_ok": 5,
+  "joint_outcomes_enumerated": 343,
+  "mismatches": 0,
+  "module": "learn_then_test",
+  "reject_cases": 10,
+  "rejects_ok": 10,
+  "schema": "claimlib_evidence_v1",
+  "semantics_ok": 6,
+  "super_uniformity_checks": 30,
+  "super_uniformity_ok": 30
+}

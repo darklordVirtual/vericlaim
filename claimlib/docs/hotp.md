@@ -1,6 +1,6 @@
 # HOTP one-time passwords (RFC 4226)
 
-*Subject area: Security / Authentication (2FA). Language: python. Vendorable bundle `af9f30d57e05`.*
+*Subject area: Security / Authentication (2FA). Language: python. Vendorable bundle `d71219e97d61`.*
 
 HOTP (RFC 4226) is the HMAC-based one-time-password algorithm behind hardware tokens and authenticator apps: it HMACs an incrementing counter with a shared secret, then 'dynamically truncates' the MAC to a short human-typable code. Each counter value yields a fresh single-use code, so an intercepted code is worthless once used. This module implements the generation and truncation exactly; the claim proves it reproduces the official RFC 4226 vectors, so you inherit a checked OTP generator rather than a re-implementation to re-audit (and TOTP builds directly on it).
 
@@ -16,7 +16,7 @@ Ships `hotp.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/af9f30d57e05850790607b7d51e6947c921b2370471624f24bbfc7d7f7131be7 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/d71219e97d6176389c28453e9d073147e3517e9173d67b919996c02f4e34d157 --target .
 ```
 
 ## References
