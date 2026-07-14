@@ -1,6 +1,6 @@
 # Shannon entropy, cross-entropy, KL and perplexity
 
-*Subject area: AI Assurance / Information Measures. Language: python. Vendorable bundle `67582f7174a3`.*
+*Subject area: AI Assurance / Information Measures. Language: python. Vendorable bundle `76fd5c114c6d`.*
 
 Shannon (1948) defined the units AI evaluation is written in: entropy measures a distribution's information in bits, cross-entropy is exactly the training loss of a language model, perplexity its exponential, and KL divergence the drift between model and reference. When an eval report states 'perplexity 12.3', this is the arithmetic behind it. This module implements the four measures with exact input validation and fail-closed infinities; the claim proves Shannon's identities including his own worked example, so evaluation code inherits checked information arithmetic.
 
@@ -16,7 +16,7 @@ Ships `shannon_entropy.py` into your project, byte-exact, with a generated bindi
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/67582f7174a3a0212570a2a0cd2dc067bb40046fb98dcf58d58cab092d5b0bf0 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/76fd5c114c6dfb6abf7d775bbaa2972b2a7478a0fdee019c31ae81b47fa59961 --target .
 ```
 
 ## References

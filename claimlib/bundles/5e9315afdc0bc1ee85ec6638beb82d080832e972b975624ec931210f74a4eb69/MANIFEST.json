@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/runtime_rules.json": "83a04e1a6f1c22ad43e1a76ed7165b7d86c56db58036125f51282d65bafb8bd1",
+    "claim.json": "1577c430f6fa86f06d9bc346b301e6ef46d84de9fd775900bf87c7dbae0f1a32",
+    "code/runtime_rules.py": "10db8cdfeb4b6ad0de9ec57fcf86832f64ba2a48e81b739f500666c895908944",
+    "provenance.json": "bd7a967ff08413908bd2da77e15691198f2093dbff7c86971862d6695f12bfa5"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

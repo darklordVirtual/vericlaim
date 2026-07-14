@@ -1,6 +1,6 @@
 # useUndoRedo React hook
 
-*Subject area: React / UI State. Language: react. Vendorable bundle `a152e13ee544`.*
+*Subject area: React / UI State. Language: react. Vendorable bundle `86e9b99f6e71`.*
 
 Undo/redo is most robustly modeled as three immutable stacks — past states, the present, and a future (redo) stack — rather than mutating one buffer. A new edit (push) records the old present onto past and clears future, so an edit made after undoing forks history and discards the abandoned redo branch, matching how editors behave. Keeping this logic in a pure, framework-agnostic core makes the tricky part (stack transitions, boundary no-ops) unit-testable without a DOM, while the React hook stays a thin useReducer binding. Vendor both; the claim proves the core transitions are correct, so you inherit checked history state instead of re-deriving stack juggling per project.
 
@@ -16,5 +16,5 @@ Ships `useUndoRedo.tsx`, `undoredo.logic.ts` into your project, byte-exact, with
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/a152e13ee5445aaf0e4a5af815179127b66415b2bfd7195741d9f8823c74735b --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/86e9b99f6e7197078ff5fbfe267d18aad0740318e7f45ef11edfd03087da0937 --target .
 ```

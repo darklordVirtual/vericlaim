@@ -1,0 +1,16 @@
+{
+  "authors": [
+    "Luc Moreau (ed.)",
+    "Paolo Missier (ed.)"
+  ],
+  "id": "prov-dm-2013",
+  "identifier": "W3C Recommendation REC-prov-dm-20130430",
+  "kind": "standard",
+  "publisher": "World Wide Web Consortium (W3C)",
+  "schema": "claimlib_literature_v1",
+  "summary": "W3C Recommendation (30 April 2013) defining PROV-DM, the conceptual data model for provenance on the Web, edited by Luc Moreau and Paolo Missier. Its core structures comprise three types \u2014 Entity, Activity, and Agent \u2014 and seven relations: used (activity\u2192entity), wasGeneratedBy (entity\u2192activity), wasInformedBy (activity\u2192activity), wasDerivedFrom (entity\u2192entity), wasAttributedTo (entity\u2192agent), wasAssociatedWith (activity\u2192agent), and actedOnBehalfOf (agent\u2192agent). Start (wasStartedBy), End (wasEndedBy), and Invalidation are part of the expanded structures, not the core. The model is organized into six components, with the core concepts mapped to types and relations in Table 2 of Section 2.",
+  "summary_sha256": "3bda326b330466a96faf3e5468c03409b8f23788dd903748d271ab00c3394f73",
+  "title": "PROV-DM: The PROV Data Model",
+  "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+  "year": 2013
+}

@@ -1,6 +1,6 @@
 # Deterministic exponential backoff with full jitter
 
-*Subject area: Reliability / Distributed Systems. Language: python. Vendorable bundle `700d6e93485a`.*
+*Subject area: Reliability / Distributed Systems. Language: python. Vendorable bundle `f3069c524fef`.*
 
 Retrying a failed remote call immediately, in lockstep with every other client, produces a synchronized 'thundering herd' that keeps the dependency down. Capped exponential backoff (min(cap, base*2**attempt)) grows the wait between attempts, and 'full jitter' (AWS, 2015) then draws the actual delay uniformly from [0, that ceiling] so clients decorrelate instead of all firing at the ceiling. This module keeps full jitter's spread but derives the draw from a SHA-256 hash of (seed, attempt) rather than a PRNG, so the schedule is reproducible in tests and logs and identical across processes, while different seeds still decorrelate different clients.
 
@@ -16,7 +16,7 @@ Ships `retry.py` into your project, byte-exact, with a generated binding test th
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/700d6e93485a31d54ad823c22ead337241ec82fc0a71e477094ff665da34c4dd --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/f3069c524fefcd8f568317edee46126c72007d085eab2323cab2156fb1f3cf68 --target .
 ```
 
 ## References

@@ -1,0 +1,14 @@
+{
+  "checks": 21,
+  "checks_matched": 21,
+  "hand_ok": 5,
+  "mismatches": 0,
+  "module": "conformal_risk",
+  "precondition_honest": 2,
+  "reduction_ok": 4,
+  "reject_cases": 8,
+  "rejects_ok": 8,
+  "schema": "claimlib_evidence_v1",
+  "theorem_checks": 10,
+  "theorem_ok": 10
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "runtime_rules.json",
+  "artifact_sha256": "83a04e1a6f1c22ad43e1a76ed7165b7d86c56db58036125f51282d65bafb8bd1",
+  "script": "python3 claimlib/modules/runtime_rules/evidence.py",
+  "git_commit": "41034948b9af25f2b6cedab43b7ec818825a0ca0",
+  "generated_at": "2026-07-14T17:31:02.608918+00:00",
+  "produced_by": "claimlib"
+}

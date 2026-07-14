@@ -1,6 +1,6 @@
 # Selective classification (coverage, risk, risk-coverage curve)
 
-*Subject area: AI Assurance / Selective Prediction. Language: python. Vendorable bundle `6fae8a02ed81`.*
+*Subject area: AI Assurance / Selective Prediction. Language: python. Vendorable bundle `ae0e31c2c1b9`.*
 
 A selective classifier may abstain: accept an input when confidence clears a threshold, and be judged only on what was accepted — coverage is the accept rate, selective risk the error rate among accepted (Geifman & El-Yaniv 2017). The risk-coverage curve is the menu of operating points an abstention policy can buy, and it is how 'the model defers to a human below X% confidence' becomes a measurable contract. This module computes all of it in exact rational arithmetic; the claim proves the definitions and their structural properties, so an escalation policy inherits checked numbers.
 
@@ -16,7 +16,7 @@ Ships `selective_risk.py` into your project, byte-exact, with a generated bindin
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/6fae8a02ed81405017c73438ad5d5fd239e7fc1268b29d7242365df46a63a573 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/ae0e31c2c1b976737bd3538738f8c99ddaafb0b8292fd64406de658028a027b7 --target .
 ```
 
 ## References

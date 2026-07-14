@@ -1,0 +1,15 @@
+{
+  "checks": 22,
+  "checks_matched": 22,
+  "grammar_ok": 2,
+  "mismatches": 0,
+  "module": "runtime_rules",
+  "mutations": 7,
+  "mutations_flipped": 7,
+  "mutations_missed": 0,
+  "reject_cases": 10,
+  "rejects_ok": 10,
+  "schema": "claimlib_evidence_v1",
+  "semantics_ok": 12,
+  "trace_ok": 1
+}

@@ -1,6 +1,6 @@
 # RBAC least-privilege & separation-of-duties audit
 
-*Subject area: Security / Identity & Access Management. Language: python. Vendorable bundle `03e259059244`.*
+*Subject area: Security / Identity & Access Management. Language: python. Vendorable bundle `c0cdf0d8a0de`.*
 
 Role-Based Access Control grants permissions to roles and assigns roles to identities; two enduring control objectives sit on top of it. Least privilege says an identity should hold no permission its role does not need — anything extra ('excess') is attack surface and audit debt. Separation of duties says certain permissions are toxic in combination (create a payment AND approve it; deploy code AND review it) and must never rest with one identity, even when a mis-scoped role would technically allow both. This module makes both checks mechanical and independent, so an over-broad role cannot silently launder an SoD violation into 'authorized'.
 
@@ -16,7 +16,7 @@ Ships `rbac.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/03e259059244c1f8c7b2a029705adbd98800643f62b9956a1278e994bce1b9e8 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/c0cdf0d8a0de454161219dd6b00f015834079a85a5770976505a2991cccad4c6 --target .
 ```
 
 ## References

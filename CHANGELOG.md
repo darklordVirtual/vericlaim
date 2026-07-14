@@ -6,6 +6,29 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 
 ## [Unreleased] — gold-standard lift
 
+### Added — three catalogue promotions (96 → 99 modules, 112 → 116 works)
+- **`conformal_risk`** (CRC — Angelopoulos et al., ICLR 2024): the
+  published lambdahat rule with the risk theorem ENUMERATED under its
+  preconditions (exhaustive leave-one-out risk <= alpha as exact
+  Fractions), honest refusal outside them, and the exact reduction to
+  split conformal prediction verified against the quantile rule. Where the
+  paper defaults to lambda_max when nothing qualifies, the module returns
+  None — refusal over an unverifiable assumption.
+- **`prov_dm`** (W3C PROV-DM core): three types + exactly seven relations
+  with the Recommendation's signatures (Start/End correctly absent), all
+  63 signature combinations enumerated, derivation/delegation cycle
+  detection, an ML-pipeline exemplar, 8/8 corruptions caught.
+- **`runtime_rules`** (AgentSpec ICSE 2026 + MI9): the four verified
+  enforcement kinds encoded verbatim — the fact-verifier caught that
+  'skip' (in the task hint) does NOT exist in the paper — with
+  first-match-wins semantics proven by permutation, Decimal-exact
+  boundaries, fail-closed missing attributes, trace halt at stop, and a
+  7/7 mutation battery. An empty trace no longer bypasses rule validation
+  (found by the module's own reject battery during authoring).
+- Catalogue deep-seeding rose 18 → 22 (identical-id mapping);
+  CLAIM-CATALOG-001 and the catalogue page updated. Claimlib tests
+  816 → 864; declarative reproduce covers all 99 claims.
+
 ### Added — the AI-assurance literature catalogue, claim-bound
 - **`CLAIM-CATALOG-001`**: the curated 231-work / 10-section reading map
   behind the AI areas is now a committed, mechanically validated artifact

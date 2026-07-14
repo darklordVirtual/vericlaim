@@ -32,6 +32,7 @@ claim in your context — read each module's caveat.
 | [`chacha20`](docs/chacha20.md) | Python | Security / Stream Ciphers | `CLAIM-LIB-CHACHA20-001` | benchmarked |
 | [`cidr`](docs/cidr.md) | Python | Telecom / IP Address Management | `CLAIM-LIB-CIDR-001` | benchmarked |
 | [`cis_controls`](docs/cis_controls.md) | Python | Compliance / Security Frameworks | `CLAIM-LIB-CIS-001` | measured |
+| [`conformal_risk`](docs/conformal_risk.md) | Python | AI Assurance / Conformal Prediction | `CLAIM-LIB-CRC-001` | benchmarked |
 | [`conformal_split`](docs/conformal_split.md) | Python | AI Assurance / Conformal Prediction | `CLAIM-LIB-CONFORMAL-001` | benchmarked |
 | [`crc32`](docs/crc32.md) | Python | Data / Integrity & Checksums | `CLAIM-LIB-CRC32-001` | measured |
 | [`csv_rfc4180`](docs/csv_rfc4180.md) | Python | Data / Serialization | `CLAIM-LIB-CSV-RFC4180-001` | benchmarked |
@@ -83,11 +84,13 @@ claim in your context — read each module's caveat.
 | [`pci_dss`](docs/pci_dss.md) | Python | Compliance / Audit Frameworks | `CLAIM-LIB-PCI-DSS-001` | measured |
 | [`pem`](docs/pem.md) | Python | Security / TLS & PKI | `CLAIM-LIB-PEM-001` | benchmarked |
 | [`percentile`](docs/percentile.md) | Python | Observability / Metrics & Statistics | `CLAIM-LIB-PERCENTILE-001` | benchmarked |
+| [`prov_dm`](docs/prov_dm.md) | Python | AI Assurance / Provenance | `CLAIM-LIB-PROV-001` | benchmarked |
 | [`pt100`](docs/pt100.md) | Python | Industrial / Temperature Sensing (RTD) | `CLAIM-LIB-PT100-001` | benchmarked |
 | [`punycode`](docs/punycode.md) | Python | Telecom / Internationalized DNS (IDNA) | `CLAIM-LIB-PUNYCODE-001` | benchmarked |
 | [`rbac`](docs/rbac.md) | Python | Security / Identity & Access Management | `CLAIM-LIB-RBAC-001` | measured |
 | [`retry`](docs/retry.md) | Python | Reliability / Distributed Systems | `CLAIM-LIB-RETRY-001` | measured |
 | [`rle`](docs/rle.md) | Python | Data / Compression | `CLAIM-LIB-RLE-001` | benchmarked |
+| [`runtime_rules`](docs/runtime_rules.md) | Python | AI Assurance / Runtime Governance | `CLAIM-LIB-RUNTIME-RULES-001` | benchmarked |
 | [`selective_risk`](docs/selective_risk.md) | Python | AI Assurance / Selective Prediction | `CLAIM-LIB-SELECTIVE-001` | benchmarked |
 | [`semver`](docs/semver.md) | Python | Software Supply Chain / Dependency Resolution | `CLAIM-LIB-SEMVER-001` | measured |
 | [`sha256`](docs/sha256.md) | Python | Security / Cryptographic Hashing | `CLAIM-LIB-SHA256-001` | benchmarked |

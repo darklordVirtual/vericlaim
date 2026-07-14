@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/oee.json": "6f7cd2990ccc8fbd06a36688faf4237b42d42b836209002cdd2f255154366bc8",
+    "claim.json": "fa092202eb36a2b3a75a5d143a937df0c207b7463260cfab2a876eaba490e0b6",
+    "code/oee.py": "0e90bb6cb1dd6e136b76c865164fbe39e922ae4c1abf6015e5d4d9260994708f",
+    "provenance.json": "b33f463ed81deb92ce15d1ce21aa530c7409ff556a0fc853b2caca1eba56dd11"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}
