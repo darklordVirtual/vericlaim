@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "Charles L. Wang",
+    "Trisha Singhal",
+    "Ameya Kelkar",
+    "Jason Tuo"
+  ],
+  "id": "mi9-2025",
+  "identifier": "arXiv:2508.03858",
+  "kind": "paper",
+  "publisher": "arXiv",
+  "schema": "claimlib_literature_v1",
+  "summary": "Introduces MI9, presented as the first fully integrated runtime governance framework designed specifically for safety and alignment of agentic AI systems, addressing emergent runtime behaviors that pre-deployment governance cannot anticipate. MI9 provides real-time controls through six integrated components: agency-risk index, agent-semantic telemetry capture, continuous authorization monitoring, Finite-State-Machine (FSM)-based conformance engines, goal-conditioned drift detection, and graduated containment strategies. Its graduated containment defines a four-level, agent-aware intervention hierarchy (state-preserving monitoring, planning intervention, tool restriction, execution isolation) that prioritizes behavioral correction over abrupt termination. The framework operates transparently across heterogeneous agent architectures and is demonstrated through scenario-based analysis rather than a peer-reviewed empirical benchmark.",
+  "summary_sha256": "0435abf459c65a9b106de106ccfb971e58a414811beb98156f7add81f8ca1737",
+  "title": "MI9: An Integrated Runtime Governance Framework for Agentic AI",
+  "url": "https://arxiv.org/abs/2508.03858",
+  "year": 2025
+}

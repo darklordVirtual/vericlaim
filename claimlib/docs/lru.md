@@ -1,6 +1,6 @@
 # Fixed-capacity LRU cache
 
-*Subject area: Data Structures / Caching. Language: python. Vendorable bundle `8794fc27a35d`.*
+*Subject area: Data Structures / Caching. Language: python. Vendorable bundle `4ce276ac8ac9`.*
 
 An LRU cache bounds memory by keeping at most `capacity` entries and, when full, evicting the key that has gone longest without being read or written -- the workhorse policy behind page caches, HTTP/object caches, and memoization tables. The classic O(1) implementation pairs a hash map with a recency-ordered linked list so both lookup and eviction are constant time; this module uses Python's `collections.OrderedDict` (move_to_end / popitem) to get the same behaviour in pure stdlib. Vendor it to add a checked, dependency-free cache; the claim proves the recency and eviction semantics match hand-derived reference traces, so you inherit a checked data structure rather than a re-implementation with an off-by-one eviction bug to re-audit.
 
@@ -16,7 +16,7 @@ Ships `lru.py` into your project, byte-exact, with a generated binding test that
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/8794fc27a35d1acbfe708117ceac4602ece517c5a759a02338b8d4f53e2e553d --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/4ce276ac8ac9bad1afcbab78feb98a65d96afbbae5da58a9a106e84a729b4b47 --target .
 ```
 
 ## References

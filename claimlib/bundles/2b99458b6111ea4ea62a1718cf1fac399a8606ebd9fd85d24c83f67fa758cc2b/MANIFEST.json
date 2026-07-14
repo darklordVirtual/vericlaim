@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/rle.json": "ff4bb08a65af879e972cac9095a6d6351cce7d494c257b00e57138a56e996d98",
+    "claim.json": "61f11b0e1a45f189e4b8ab5a279ac72e8bb72dd573f14fa130d336ac4b888ec0",
+    "code/rle.py": "2612755f38c6e2d399bbf48760a0073e8a913e1aef8554bf4b4dfc9be876ffa0",
+    "provenance.json": "d91cd1b63dacd0ae1b1b6bced5c48b5e955e4e0a35c84c4c63f2868429e83d3b"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

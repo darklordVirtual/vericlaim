@@ -5,6 +5,12 @@
     "title": "Numbering, addressing and identification",
     "url": "https://www.3gpp.org/dynareport/23003.htm"
   },
+  "agentspec-2025": {
+    "identifier": "arXiv:2503.18666",
+    "summary_sha256": "2f2cb943aac70471209c4f3779e459613b9dfe2d205283a31f697b35bf6f4af1",
+    "title": "AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents",
+    "url": "https://arxiv.org/abs/2503.18666"
+  },
   "aicpa-audit-sampling": {
     "identifier": "AICPA Audit Guide: Audit Sampling",
     "summary_sha256": "f01017efe79e6b67a884c40d8633dd147d8b7c9471c2a1e3032208f74747fe2b",
@@ -64,6 +70,12 @@
     "summary_sha256": "c5793e4a95d1a823bafbfee4147331e4ca359c3df15c477e683e7f61ca758d15",
     "title": "CIS Critical Security Controls, Version 8.1",
     "url": "https://www.cisecurity.org/controls/v8-1"
+  },
+  "conformal-risk-2022": {
+    "identifier": "arXiv:2208.02814",
+    "summary_sha256": "81975fb3885661da5f65325c2a2298b4085b4c5d35d961b71d336ffeed9c3316",
+    "title": "Conformal Risk Control",
+    "url": "https://arxiv.org/abs/2208.02814"
   },
   "cvss-v3.1": {
     "identifier": "CVSS v3.1 Specification Document (Revision 1, June 2019)",
@@ -311,6 +323,12 @@
     "title": "A Digital Signature Based on a Conventional Encryption Function",
     "url": "https://doi.org/10.1007/3-540-48184-2_32"
   },
+  "mi9-2025": {
+    "identifier": "arXiv:2508.03858",
+    "summary_sha256": "0435abf459c65a9b106de106ccfb971e58a414811beb98156f7add81f8ca1737",
+    "title": "MI9: An Integrated Runtime Governance Framework for Agentic AI",
+    "url": "https://arxiv.org/abs/2508.03858"
+  },
   "mitchell-2019": {
     "identifier": "doi:10.1145/3287560.3287596; FAT* '19 pp. 220-229; arXiv:1810.03993",
     "summary_sha256": "35adf3093c44f744771ad7f6207d34c49cbf2a56aea975273164b1ac3012cca7",
@@ -400,6 +418,12 @@
     "summary_sha256": "d84a6e3ee92c26973c40b2888cc04fab7f018349ab13cb10ebebac7e4db27372",
     "title": "Encoding | Protocol Buffers Documentation",
     "url": "https://protobuf.dev/programming-guides/encoding/"
+  },
+  "prov-dm-2013": {
+    "identifier": "W3C Recommendation REC-prov-dm-20130430",
+    "summary_sha256": "3bda326b330466a96faf3e5468c03409b8f23788dd903748d271ab00c3394f73",
+    "title": "PROV-DM: The PROV Data Model",
+    "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/"
   },
   "rfc-1035": {
     "identifier": "RFC 1035 (STD 13)",

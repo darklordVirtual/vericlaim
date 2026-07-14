@@ -1,6 +1,6 @@
 # SPKI public-key pins (RFC 7469)
 
-*Subject area: Security / TLS & PKI. Language: python. Vendorable bundle `72f137fbcada`.*
+*Subject area: Security / TLS & PKI. Language: python. Vendorable bundle `c8ef6fc54234`.*
 
 Certificate pinning narrows trust from 'any CA the system trusts' to 'this specific public key (or its backup)'. An RFC 7469 pin is base64(SHA-256(SubjectPublicKeyInfo)); a client stores it and refuses a connection whose chain presents no matching pinned key, defeating a mis-issued-but-technically-valid certificate. This module computes and verifies pins with a constant-time compare; the claim proves the pin equals the hash-of-SPKI and that matching accepts/rejects correctly, so you inherit a checked pinning primitive rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `spki_pin.py` into your project, byte-exact, with a generated binding test
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/72f137fbcada6979e4152ed9da5a846527f1c5a398e7d0a086e73c877a1419ce --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/c8ef6fc54234cceb1812887b08ccd596b1d4c2fc8c5f286ab4d28eaa47bbed4d --target .
 ```
 
 ## References

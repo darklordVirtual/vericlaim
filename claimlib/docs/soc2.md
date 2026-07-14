@@ -1,6 +1,6 @@
 # SOC 2 Trust Services Criteria coverage
 
-*Subject area: Compliance / Audit Frameworks. Language: python. Vendorable bundle `cc36f538bf6d`.*
+*Subject area: Compliance / Audit Frameworks. Language: python. Vendorable bundle `8b82068f1f48`.*
 
 SOC 2 is the service-organization audit report most SaaS vendors are asked for; it attests controls against the AICPA Trust Services Criteria -- five categories, with Security (the Common Criteria CC1..CC9) always in scope and Availability, Processing Integrity, Confidentiality, and Privacy added as needed. Teams map their controls to this structure to plan an audit and track readiness. This module encodes the taxonomy and computes coverage; the claim proves the encoded criteria match the framework and the math is correct, so you inherit a checked readiness model rather than a spreadsheet to re-audit.
 
@@ -16,7 +16,7 @@ Ships `soc2.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/cc36f538bf6dbf05b0bc2e4dceabb36994d4efdeece9c711d7db6584f41913aa --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/8b82068f1f4815720defca634ea772e02f0af105e82cfdef22c9dd1a4cfc7d0e --target .
 ```
 
 ## References

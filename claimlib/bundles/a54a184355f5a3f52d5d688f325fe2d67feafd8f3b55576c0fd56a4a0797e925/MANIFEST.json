@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/ewma.json": "9dacd3c66aeebd452171b6fff49a4722cc5080945bc4ff20f4757edd75ccdfaf",
+    "claim.json": "494bac0b665027c8facee16010970216215f1117b200084739d1f86db6bb5c9d",
+    "code/ewma.py": "eb1c21259cf6075f8744e9cd567de6186328ae7f61d0f2103c9dc9c9547324d8",
+    "provenance.json": "54ee20fcaf477055a39827a86f8eef6d08d0b8d87ac31a708617a6792e0f5d0e"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

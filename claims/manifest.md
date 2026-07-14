@@ -19,5 +19,5 @@ on mismatch, so a silently-edited result artifact is caught in CI. On a Windows
 | `domains/cost_routing/artifacts/routing_report.json` | `9cadc90077058792f31b8bb12c70a06be6d1da40be76b7c572ce6246f729006c` |
 | `claims/selfimprove_envelope.json` | `3bb6fe76fdd276f52e768e0440768e42c95bd978bf8205ffc32348a366d86bfb` |
 | `claims/autonomous_cycle.json` | `7efd2cbcec7ba1511e93d5d011cfd54e6a654e0f427d73844bb2dc7f432c1ab6` |
-| `claims/ai_catalog.json` | `e10da6b014fed09ce24cda01e80c657e779a44e7bb3e2e7307c4e3526db030d1` |
-| `claims/claimlib_index.json` | `ccc8b8c86df733dabbd7ac4579cc6b732aa546604391f8e5c8a90a00f07a23a6` |
+| `claims/ai_catalog.json` | `004c35b70fa65baaec341ca0785bf18f9f2fe0e51724caf7ec90fb4ab2f06c06` |
+| `claims/claimlib_index.json` | `0328d1581e345fae3fd1138bd6be286c4cf35af18f312a3997abf6db7dbad201` |

@@ -1,6 +1,6 @@
 # Annuity loan payment + integer-oere amortization
 
-*Subject area: Finance / Loans & Interest. Language: python. Vendorable bundle `f6d5e1695e04`.*
+*Subject area: Finance / Loans & Interest. Language: python. Vendorable bundle `4581eed9f179`.*
 
 An annuity loan repays principal P over n periods at rate i with the constant payment P*i/(1-(1+i)^-n); each payment covers the period's interest first and the remainder amortizes principal, so interest falls and amortization grows over the schedule. Doing this in floating-point kroner is how spreadsheets leak oere. This module computes the payment and the full schedule entirely in integer minor units with banker's rounding, ending at a balance of exactly zero; the claim proves the textbook example and the exact identities an accountant would check, so an invoicing or loan system inherits a schedule that reconciles to the oere.
 
@@ -16,7 +16,7 @@ Ships `annuity.py` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/f6d5e1695e0449e1a6eddd6c69b2855c315e495a56ed2018036c4955528bef4b --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/4581eed9f179ae34db782face1719db081eeb65f289c3f192bdd267aa657a2b9 --target .
 ```
 
 ## References

@@ -1,6 +1,6 @@
 # NIST SP 800-207 Zero Trust tenets
 
-*Subject area: AI Assurance / Zero Trust Architecture. Language: python. Vendorable bundle `850fd782f130`.*
+*Subject area: AI Assurance / Zero Trust Architecture. Language: python. Vendorable bundle `543e349b279a`.*
 
 NIST SP 800-207's seven tenets define zero trust: nothing is trusted by network location, every access is a per-session decision under dynamic policy, and the enterprise continuously measures what it owns. Agentic AI deployments inherit this frame wholesale — every agent, tool endpoint and memory store is a resource, every tool call an access decision. This module encodes the verified tenets with exact coverage scoring; the claim proves the encoding matches the publication, so an architecture review inherits a checked frame.
 
@@ -16,7 +16,7 @@ Ships `zta_tenets.py` into your project, byte-exact, with a generated binding te
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/850fd782f130fc57ddc7e3316512de2fe575c4bccc30ca5898e76a2fadb2e868 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/543e349b279a216c51acb1378f0f578aa5394458b3577777d5450aa00c50b93f --target .
 ```
 
 ## References

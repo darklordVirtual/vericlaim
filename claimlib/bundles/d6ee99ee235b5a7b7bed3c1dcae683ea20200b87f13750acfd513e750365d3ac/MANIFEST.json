@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/dns_name.json": "fa6dcb317d2652e7b499c93edf0d98d830332f28ecdaa908d842d1b7a5b46060",
+    "claim.json": "0f19ab7c2899cd4093081e45ed9ca82c7603634c087c6f9de425a29b6ee0de43",
+    "code/dns_name.py": "f020aa4829343404f0bc06dc3d1bebbbaf18c8e1fe7364c560b66a6261a2dea5",
+    "provenance.json": "7681c1469319f8b76aa23dbe8cc1c48c0bc6d62f0ec59b935e1160439b22e54b"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

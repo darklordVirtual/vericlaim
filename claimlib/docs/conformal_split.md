@@ -1,6 +1,6 @@
 # Split conformal prediction (quantile + coverage theorem)
 
-*Subject area: AI Assurance / Conformal Prediction. Language: python. Vendorable bundle `17f4fc0a7e05`.*
+*Subject area: AI Assurance / Conformal Prediction. Language: python. Vendorable bundle `5761c7375352`.*
 
 Split conformal prediction turns ANY scoring model into prediction sets with a distribution-free, finite-sample coverage guarantee: calibrate nonconformity scores on held-out data, take the ceil((n+1)(1-alpha))-quantile, and include every candidate scoring at or below it — the true answer lands inside with probability at least 1-alpha (Angelopoulos & Bates 2021). It is the workhorse of AI uncertainty quantification, from classification to LLM factuality gating. This module implements the quantile, prediction sets and an exhaustive leave-one-out coverage enumerator; the claim proves the coverage theorem by enumeration, so an assurance case inherits checked conformal machinery.
 
@@ -16,7 +16,7 @@ Ships `conformal_split.py` into your project, byte-exact, with a generated bindi
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/17f4fc0a7e05f72f140275938915bf471d8cde85baabde8e740f2c71f6a99d70 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/5761c73753520706dd84455fb7287a7d0126d7347e60449b22d9fb13cd21e8f2 --target .
 ```
 
 ## References

@@ -1,6 +1,6 @@
 # Differential-privacy budget composition + accountant
 
-*Subject area: AI Governance / Privacy Budgets. Language: python. Vendorable bundle `472886eb4d10`.*
+*Subject area: AI Governance / Privacy Budgets. Language: python. Vendorable bundle `aa4e1f08f584`.*
 
 An enterprise running differentially-private releases spends a privacy budget: each (epsilon, delta) mechanism consumes some, and the totals compose by theorem — sequential runs on the same data add up, runs on disjoint partitions cost only the maximum, and protecting groups of k individuals scales epsilon by k (Dwork & Roth 2014). This module computes those bounds in exact rational arithmetic and ships a fail-closed accountant that refuses any spend past the budget before recording it; the claim proves the theorem shapes and the refusal behaviour, so a privacy office inherits checked budget arithmetic.
 
@@ -16,7 +16,7 @@ Ships `dp_composition.py` into your project, byte-exact, with a generated bindin
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/472886eb4d109c9c3f1990d722cc99dfd3ccfdaafc48ccbd19ac99272977e3ad --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/aa4e1f08f584367be3673317f4bb43af4162ddb27f2bae91f45682eb530cb709 --target .
 ```
 
 ## References

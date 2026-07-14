@@ -15,7 +15,7 @@ them are additionally *deep-seeded* as cited, hash-locked entries in
 The catalogue holds <!-- v:CLAIM-CATALOG-001.works_total -->**231** works in
 <!-- v:CLAIM-CATALOG-001.sections -->**10** sections, of which
 <!-- v:CLAIM-CATALOG-001.p0_count -->**154** are marked priority p0 and
-<!-- v:CLAIM-CATALOG-001.deep_seeded_in_claimlib -->**18** are deep-seeded
+<!-- v:CLAIM-CATALOG-001.deep_seeded_in_claimlib -->**22** are deep-seeded
 as cited works in claimlib (same-work aliases only — a lineage relation is
 never an alias). Every row is mechanically validated by
 [`tools/ai_catalog_evidence.py`](../../tools/ai_catalog_evidence.py); edit
@@ -41,7 +41,7 @@ the CSV without regenerating the evidence and the gate fails.
 1. **Cataloged** (all 231): the work is in the committed CSV, its row
    validated, its counts claim-bound. Proves the map exists and parses —
    never that a work's content is true or its URL still resolves.
-2. **Deep-seeded** (18): the same work is a cited, hash-locked entry in
+2. **Deep-seeded** (22): the same work is a cited, hash-locked entry in
    `claimlib/literature/` — summary integrity-locked, cited by modules whose
    evidence implements it. The alias table in the evidence script is
    explicit; a fuzzy or lineage match is not an alias.

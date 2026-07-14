@@ -1848,4 +1848,91 @@ SOURCES = [
                    "(Cybersecurity & Infrastructure Security Agency, DHS). DOI: "
                    "10.6028/NIST.SP.800-207.",
     },
+    {
+        "id": "conformal-risk-2022",
+        "title": "Conformal Risk Control",
+        "authors": ["Anastasios N. Angelopoulos", "Stephen Bates", "Adam Fisch", "Lihua Lei", "Tal Schuster"],
+        "publisher": "The Twelfth International Conference on Learning Representations (ICLR 2024)",
+        "year": 2024,
+        "kind": "paper",
+        "identifier": "arXiv:2208.02814",
+        "url": "https://arxiv.org/abs/2208.02814",
+        "summary": "Extends split conformal prediction from coverage guarantees to controlling "
+                   "the expected value of any bounded monotone (non-increasing, right-continuous) "
+                   "loss function: choosing lambdahat = inf{lambda : (n/(n+1)) Rhat_n(lambda) + "
+                   "B/(n+1) <= alpha} on n exchangeable calibration losses guarantees "
+                   "E[L_{n+1}(lambdahat)] <= alpha. Under i.i.d. non-negative losses with "
+                   "atomless jump locations, the procedure is tight up to 2B/(n+1): "
+                   "E[L_{n+1}(lambdahat)] >= alpha - 2B/(n+1). With the miscoverage indicator "
+                   "loss the algorithm reduces exactly to split conformal prediction. "
+                   "Demonstrated on FNR, graph distance, and token-level F1 control in vision and "
+                   "NLP tasks, with extensions to distribution shift, quantile risk control, and "
+                   "U-statistics. First posted to arXiv in August 2022; published as a conference "
+                   "paper at ICLR 2024.",
+    },
+    {
+        "id": "prov-dm-2013",
+        "title": "PROV-DM: The PROV Data Model",
+        "authors": ["Luc Moreau (ed.)", "Paolo Missier (ed.)"],
+        "publisher": "World Wide Web Consortium (W3C)",
+        "year": 2013,
+        "kind": "standard",
+        "identifier": "W3C Recommendation REC-prov-dm-20130430",
+        "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+        "summary": "W3C Recommendation (30 April 2013) defining PROV-DM, the conceptual data "
+                   "model for provenance on the Web, edited by Luc Moreau and Paolo Missier. Its "
+                   "core structures comprise three types — Entity, Activity, and Agent — and "
+                   "seven relations: used (activity→entity), wasGeneratedBy (entity→activity), "
+                   "wasInformedBy (activity→activity), wasDerivedFrom (entity→entity), "
+                   "wasAttributedTo (entity→agent), wasAssociatedWith (activity→agent), and "
+                   "actedOnBehalfOf (agent→agent). Start (wasStartedBy), End (wasEndedBy), and "
+                   "Invalidation are part of the expanded structures, not the core. The model is "
+                   "organized into six components, with the core concepts mapped to types and "
+                   "relations in Table 2 of Section 2.",
+    },
+    {
+        "id": "agentspec-2025",
+        "title": "AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents",
+        "authors": ["Haoyu Wang", "Christopher M. Poskitt", "Jun Sun"],
+        "publisher": "arXiv (accepted at the 48th IEEE/ACM International Conference on Software Engineering, ICSE 2026)",
+        "year": 2025,
+        "kind": "paper",
+        "identifier": "arXiv:2503.18666",
+        "url": "https://arxiv.org/abs/2503.18666",
+        "summary": "Proposes AgentSpec, a lightweight domain-specific language for specifying and "
+                   "enforcing runtime safety constraints on LLM agents. Each rule has five parts "
+                   "— the 'rule' keyword with a unique identifier, a 'trigger' event, a 'check' "
+                   "condition expressed as conjunctions of predicates, an 'enforce' action, and "
+                   "the 'end' keyword — with enforcement actions user_inspection, "
+                   "llm_self_examine, invoke_action(params), and stop. Evaluated across code "
+                   "execution, embodied agents, and autonomous driving, AgentSpec prevents unsafe "
+                   "executions in over 90% of code agent cases, eliminates all hazardous actions "
+                   "in embodied agent tasks, and enforces 100% compliance by autonomous vehicles, "
+                   "with millisecond-scale overhead. The authors also automate rule generation "
+                   "with LLMs, with OpenAI o1-generated rules achieving 95.56% precision and "
+                   "70.96% recall for embodied agents.",
+    },
+    {
+        "id": "mi9-2025",
+        "title": "MI9: An Integrated Runtime Governance Framework for Agentic AI",
+        "authors": ["Charles L. Wang", "Trisha Singhal", "Ameya Kelkar", "Jason Tuo"],
+        "publisher": "arXiv",
+        "year": 2025,
+        "kind": "paper",
+        "identifier": "arXiv:2508.03858",
+        "url": "https://arxiv.org/abs/2508.03858",
+        "summary": "Introduces MI9, presented as the first fully integrated runtime governance "
+                   "framework designed specifically for safety and alignment of agentic AI "
+                   "systems, addressing emergent runtime behaviors that pre-deployment governance "
+                   "cannot anticipate. MI9 provides real-time controls through six integrated "
+                   "components: agency-risk index, agent-semantic telemetry capture, continuous "
+                   "authorization monitoring, Finite-State-Machine (FSM)-based conformance "
+                   "engines, goal-conditioned drift detection, and graduated containment "
+                   "strategies. Its graduated containment defines a four-level, agent-aware "
+                   "intervention hierarchy (state-preserving monitoring, planning intervention, "
+                   "tool restriction, execution isolation) that prioritizes behavioral correction "
+                   "over abrupt termination. The framework operates transparently across "
+                   "heterogeneous agent architectures and is demonstrated through scenario-based "
+                   "analysis rather than a peer-reviewed empirical benchmark.",
+    },
 ]

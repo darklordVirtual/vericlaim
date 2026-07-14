@@ -1,0 +1,15 @@
+{
+  "checks": 77,
+  "checks_matched": 77,
+  "corruptions": 8,
+  "corruptions_caught": 8,
+  "corruptions_missed": 0,
+  "mismatches": 0,
+  "module": "prov_dm",
+  "reject_cases": 5,
+  "rejects_ok": 5,
+  "relations": 7,
+  "schema": "claimlib_evidence_v1",
+  "signature_enum_checks": 63,
+  "signature_enum_ok": 63
+}

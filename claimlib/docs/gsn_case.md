@@ -1,6 +1,6 @@
 # GSN assurance-case structure validation
 
-*Subject area: AI Assurance / Safety Cases. Language: python. Vendorable bundle `e29a79f84554`.*
+*Subject area: AI Assurance / Safety Cases. Language: python. Vendorable bundle `4796000bd256`.*
 
 Safety and assurance cases — increasingly demanded for AI systems (Clymer et al. 2024) — are written in Goal Structuring Notation: goals decompose via strategies down to solutions (evidence), with context, assumptions and justifications attached. A circular argument, a dangling goal, or evidence in the wrong place invalidates the case before anyone reads the prose, and exactly that is machine-checkable. This module validates GSN structure fail-closed; the claim proves every rule via mutation testing and exhaustive edge-type enumeration, so an assurance workflow inherits a checked case linter.
 
@@ -16,7 +16,7 @@ Ships `gsn_case.py` into your project, byte-exact, with a generated binding test
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e29a79f845543f595ee4a80731e1f71f30db14e25b35fc7639c3424ca178f8b5 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/4796000bd256ef7ac4d03ad6044bb8a189cbe608cd9035c21a8fd53fb81c01ce --target .
 ```
 
 ## References

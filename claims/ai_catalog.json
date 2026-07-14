@@ -1,6 +1,8 @@
 {
   "csv": "docs/reference/ai_assurance_literature_catalog_2026-07-14_enriched.csv",
   "deep_seeded_ids": [
+    "agentspec-2025",
+    "conformal-risk-2022",
     "ct-rfc6962-2013",
     "equality-opportunity-2016",
     "eu-ai-act-2024",
@@ -9,18 +11,20 @@
     "gsn-standard",
     "guo-calibration-2017",
     "iso-42001-2023",
+    "mi9-2025",
     "model-cards-2019",
     "nist-ai-rmf-2023",
     "nist-zta-2020",
     "owasp-llm-top10-2025",
     "progent-2025",
+    "prov-dm-2013",
     "safety-cases-2024",
     "saltzer-schroeder-1975",
     "selective-2017",
     "shannon-1948",
     "slsa-v1"
   ],
-  "deep_seeded_in_claimlib": 18,
+  "deep_seeded_in_claimlib": 22,
   "duplicate_ids": 0,
   "p0_count": 154,
   "per_section": {

@@ -1,6 +1,6 @@
 # SLO burn-rate alerting math (SRE Workbook ch. 5)
 
-*Subject area: SRE / SLO Alerting. Language: python. Vendorable bundle `5c5f75180af4`.*
+*Subject area: SRE / SLO Alerting. Language: python. Vendorable bundle `c41bf55bcacf`.*
 
 Error-budget alerting pages on how FAST the budget burns, not on raw error rates: burn rate = budget fraction consumed times period over window, so burn 14.4 means a 30-day budget gone in 50 hours. The Workbook's recommended policy pairs each long window with a short confirmation window (long/12) so pages stop when the bleeding stops, and tiers page/ticket severity. This module implements that arithmetic exactly; the claim proves the published table and the multiwindow semantics, so your alerting rules inherit checked math instead of re-derived constants.
 
@@ -16,7 +16,7 @@ Ships `slo_burnrate.py` into your project, byte-exact, with a generated binding 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/5c5f75180af416b1a12cf0a50ed12d835eef4cc79a8033b4753f810f9b42718c --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/c41bf55bcacf22aa7b92549c28587a5accb1f0629533f2e5fc57a1f43c608614 --target .
 ```
 
 ## References

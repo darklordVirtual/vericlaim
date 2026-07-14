@@ -3453,3 +3453,137 @@ claims:
     reproduce_outputs:
       - "modules/zta_tenets/artifacts/zta_tenets.json"
 
+  - id: CLAIM-LIB-CRC-001
+    statement: >
+      The vendored conformal-risk-control library passes all 21 checks with 0 mismatches: the published selection rule lambdahat = inf{lambda : (n/(n+1)) Rhat_n(lambda) + B/(n+1) <= alpha} reproduces 5 hand-computed selections and algebraic bounds, THE RISK THEOREM IS ENUMERATED over the 10 pool-by-alpha combinations satisfying its preconditions (exhaustive leave-one-out risk <= alpha as exact Fractions, for binary and fractional bounded losses), 2 out-of-precondition cases refuse honestly, and with the miscoverage-indicator loss the selection reduces EXACTLY to the split-conformal quantile rule on all 4 alphas.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/conformal_risk/artifacts/conformal_risk.json"
+    metrics:
+      checks: 21
+      checks_matched: 21
+      mismatches: 0
+      theorem_checks: 10
+      theorem_ok: 10
+      reduction_ok: 4
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: theorem_checks
+        pointer: /theorem_checks
+        type: integer
+      - metric: theorem_ok
+        pointer: /theorem_ok
+        type: integer
+      - metric: reduction_ok
+        pointer: /reduction_ok
+        type: integer
+    caveat: >
+      The guarantee is IN EXPECTATION and marginal, under exchangeability and a loss that is non-increasing in lambda — the module verifies monotonicity on the supplied grid and fails closed, but cannot check it off-grid. Where the paper sets lambdahat = lambda_max when no lambda qualifies (assuming L(lambda_max) <= alpha), this module returns None — an honest refusal instead of an unverifiable assumption. Enumerated risk verifies the mechanism on fixed pools, not any deployed model's losses.
+    reproduce_argv:
+      - "python3"
+      - "modules/conformal_risk/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/conformal_risk/artifacts/conformal_risk.json"
+
+  - id: CLAIM-LIB-PROV-001
+    statement: >
+      The vendored PROV-DM validator passes all 77 checks with 0 mismatches: the encoded core matches the W3C Recommendation exactly — three types (entity, activity, agent) and exactly seven relations with their published signatures, Start/End correctly absent as expanded structures — an ML-pipeline exemplar (dataset -> training -> model -> evaluation with attribution and delegation) validates clean, ALL 63 (relation x subject-type x object-type) combinations are classified with exactly the 7 published signatures passing, every one of 8 corruptions (swapped endpoints, wrong types, unknown relation/id, derivation and delegation cycles, self-derivation) is caught, and diamond-shaped derivation DAGs pass.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/prov_dm/artifacts/prov_dm.json"
+    metrics:
+      checks: 77
+      checks_matched: 77
+      mismatches: 0
+      signature_enum_checks: 63
+      signature_enum_ok: 63
+      corruptions_caught: 8
+      corruptions_missed: 0
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: signature_enum_checks
+        pointer: /signature_enum_checks
+        type: integer
+      - metric: signature_enum_ok
+        pointer: /signature_enum_ok
+        type: integer
+      - metric: corruptions_caught
+        pointer: /corruptions_caught
+        type: integer
+      - metric: corruptions_missed
+        pointer: /corruptions_missed
+        type: integer
+    caveat: >
+      The CORE of PROV-DM only: expanded structures (Start/End, Invalidation, Quotation, plans, roles, times) and PROV-O/PROV-N serializations are out of scope. Structural validity proves the provenance GRAPH is well-formed; it never proves the recorded provenance is true — pair with signing/attestation (SLSA, in-toto) for integrity of the record itself.
+    reproduce_argv:
+      - "python3"
+      - "modules/prov_dm/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/prov_dm/artifacts/prov_dm.json"
+
+  - id: CLAIM-LIB-RUNTIME-RULES-001
+    statement: >
+      The vendored runtime rule engine passes all 22 checks with 0 mismatches: AgentSpec's four enforcement kinds (user_inspection, llm_self_examine, invoke_action, stop) are encoded verbatim and any other — including 'skip', which the paper does not define — is rejected; 12 deterministic-semantics checks hold (first-match-wins verified under rule permutation, Decimal-exact numeric boundaries where 5000 is not > 5000 but "5000.01" is, missing attributes failing predicates closed, malformed events failing closed to stop); the trace evaluator halts exactly at a stop verdict; and every one of 7 single-field mutations of a matching event flips the verdict (mutations_missed = 0).
+    evidence_level: benchmarked
+    artifact:
+      - "modules/runtime_rules/artifacts/runtime_rules.json"
+    metrics:
+      checks: 22
+      checks_matched: 22
+      mismatches: 0
+      semantics_ok: 12
+      mutations: 7
+      mutations_flipped: 7
+      mutations_missed: 0
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: semantics_ok
+        pointer: /semantics_ok
+        type: integer
+      - metric: mutations
+        pointer: /mutations
+        type: integer
+      - metric: mutations_flipped
+        pointer: /mutations_flipped
+        type: integer
+      - metric: mutations_missed
+        pointer: /mutations_missed
+        type: integer
+    caveat: >
+      Deterministic evaluation of DECLARED rules over agent-semantic events, per AgentSpec's model — not intent understanding: behaviour no rule anticipates proceeds, so pair with a default-deny tool policy (the tool_guard module) when the baseline must be an allowlist. Enforcement here is a decision; carrying it out (stopping the agent, invoking the user, MI9-style graduated containment) is the surrounding runtime's job.
+    reproduce_argv:
+      - "python3"
+      - "modules/runtime_rules/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/runtime_rules/artifacts/runtime_rules.json"
+

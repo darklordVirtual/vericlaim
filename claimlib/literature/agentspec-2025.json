@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "Haoyu Wang",
+    "Christopher M. Poskitt",
+    "Jun Sun"
+  ],
+  "id": "agentspec-2025",
+  "identifier": "arXiv:2503.18666",
+  "kind": "paper",
+  "publisher": "arXiv (accepted at the 48th IEEE/ACM International Conference on Software Engineering, ICSE 2026)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Proposes AgentSpec, a lightweight domain-specific language for specifying and enforcing runtime safety constraints on LLM agents. Each rule has five parts \u2014 the 'rule' keyword with a unique identifier, a 'trigger' event, a 'check' condition expressed as conjunctions of predicates, an 'enforce' action, and the 'end' keyword \u2014 with enforcement actions user_inspection, llm_self_examine, invoke_action(params), and stop. Evaluated across code execution, embodied agents, and autonomous driving, AgentSpec prevents unsafe executions in over 90% of code agent cases, eliminates all hazardous actions in embodied agent tasks, and enforces 100% compliance by autonomous vehicles, with millisecond-scale overhead. The authors also automate rule generation with LLMs, with OpenAI o1-generated rules achieving 95.56% precision and 70.96% recall for embodied agents.",
+  "summary_sha256": "2f2cb943aac70471209c4f3779e459613b9dfe2d205283a31f697b35bf6f4af1",
+  "title": "AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents",
+  "url": "https://arxiv.org/abs/2503.18666",
+  "year": 2025
+}

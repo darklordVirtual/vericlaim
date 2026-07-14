@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "Anastasios N. Angelopoulos",
+    "Stephen Bates",
+    "Adam Fisch",
+    "Lihua Lei",
+    "Tal Schuster"
+  ],
+  "id": "conformal-risk-2022",
+  "identifier": "arXiv:2208.02814",
+  "kind": "paper",
+  "publisher": "The Twelfth International Conference on Learning Representations (ICLR 2024)",
+  "schema": "claimlib_literature_v1",
+  "summary": "Extends split conformal prediction from coverage guarantees to controlling the expected value of any bounded monotone (non-increasing, right-continuous) loss function: choosing lambdahat = inf{lambda : (n/(n+1)) Rhat_n(lambda) + B/(n+1) <= alpha} on n exchangeable calibration losses guarantees E[L_{n+1}(lambdahat)] <= alpha. Under i.i.d. non-negative losses with atomless jump locations, the procedure is tight up to 2B/(n+1): E[L_{n+1}(lambdahat)] >= alpha - 2B/(n+1). With the miscoverage indicator loss the algorithm reduces exactly to split conformal prediction. Demonstrated on FNR, graph distance, and token-level F1 control in vision and NLP tasks, with extensions to distribution shift, quantile risk control, and U-statistics. First posted to arXiv in August 2022; published as a conference paper at ICLR 2024.",
+  "summary_sha256": "81975fb3885661da5f65325c2a2298b4085b4c5d35d961b71d336ffeed9c3316",
+  "title": "Conformal Risk Control",
+  "url": "https://arxiv.org/abs/2208.02814",
+  "year": 2024
+}

@@ -1,6 +1,6 @@
 # CIS Critical Security Controls v8.1 taxonomy + IG coverage
 
-*Subject area: Compliance / Security Frameworks. Language: python. Vendorable bundle `be0ec7254d4a`.*
+*Subject area: Compliance / Security Frameworks. Language: python. Vendorable bundle `c340f5fc48a7`.*
 
 The CIS Critical Security Controls are the most widely used prioritized baseline of defensive practices, organized since v8 into 18 Controls containing 153 Safeguards, tiered into Implementation Groups: IG1 (56 safeguards) as essential cyber hygiene for every enterprise, IG2 (cumulative 130) and IG3 (all 153) as resources and risk grow. This module encodes that structure and scores declared coverage per IG; the claim proves the encoded counts match the published framework and the arithmetic is exact, so a security program inherits a checked assessment skeleton.
 
@@ -16,7 +16,7 @@ Ships `cis_controls.py` into your project, byte-exact, with a generated binding 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/be0ec7254d4adb35393f2a9b857b5b85a1b08d377a8e54b8e1092713ddc92c69 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/c340f5fc48a78e025f56a0027090f51a6e7fc054a67394f26e5340c956d47d28 --target .
 ```
 
 ## References
