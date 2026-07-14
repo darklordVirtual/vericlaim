@@ -23,6 +23,7 @@
 - [claimlib](../claimlib/README.md) — claim-bound, vendorable modules (Python/TypeScript/React); vendor one and inherit a checked primitive
 - [Bibliography](../claimlib/literature/BIBLIOGRAPHY.md) — the hash-locked literature the modules cite; every `references` id must resolve here
 - [Scaffolder](../claimlib/scaffold.py) — turn a claim into a program: template → module + evidence + test, numbers never fabricated
+- [AI-assurance literature catalogue](reference/ai-assurance-catalog.md) — the claim-bound reading map (231 works, 10 sections) behind the AI areas
 - [Seed corpora](../seed/README.md) — regenerable stress-tests: the gate at scale and across 16 enterprise domains
 
 ## Reference

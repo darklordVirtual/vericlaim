@@ -1,9 +1,9 @@
 {
   "schema": "vericlaim_provenance_v2",
   "artifact": "selfimprove_envelope.json",
-  "artifact_sha256": "3bb6fe76fdd276f52e768e0440768e42c95bd978bf8205ffc32348a366d86bfb",
+  "artifact_sha256": "de517930024f8ea6f87af5c910e101d8a33dac3fe939d0fbc5751a71a459ff76",
   "script": "python3 tools/selfimprove_evidence.py",
-  "git_commit": "2d043d66f5032de7dd27d89b4c42f1e2f38d7b51",
-  "generated_at": "2026-07-06T17:45:48.915347+00:00",
+  "git_commit": "1928a2d0a2c90c92c08921bd7b6ab73fdc65abb3",
+  "generated_at": "2026-07-14T17:08:31.764892+00:00",
   "produced_by": "human"
 }

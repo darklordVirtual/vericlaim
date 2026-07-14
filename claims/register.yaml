@@ -257,6 +257,61 @@ claims:
       citation coverage, not the truth of any cited work's content.
     reproduce: "python3 tools/claimlib_index_evidence.py"
 
+  - id: CLAIM-CATALOG-001
+    statement: >
+      The AI-assurance literature catalogue
+      (docs/reference/ai_assurance_literature_catalog_2026-07-14_enriched.csv)
+      holds 231 works across 10 sections — from uncertainty quantification
+      and agent security to supply-chain provenance and runtime governance —
+      every row mechanically validated (unique ids, known vocabularies, sane
+      years, at least one https URL), with 154 marked priority p0 and 18
+      works additionally deep-seeded as cited entries in claimlib's
+      hash-locked literature layer.
+    evidence_level: measured
+    artifact:
+      - "claims/ai_catalog.json"
+    metrics:
+      works_total: 231
+      sections: 10
+      p0_count: 154
+      deep_seeded_in_claimlib: 18
+      duplicate_ids: 0
+      rows_invalid: 0
+    metric_bindings:
+      - metric: works_total
+        pointer: /works_total
+        type: integer
+      - metric: sections
+        pointer: /sections
+        type: integer
+      - metric: p0_count
+        pointer: /p0_count
+        type: integer
+      - metric: deep_seeded_in_claimlib
+        pointer: /deep_seeded_in_claimlib
+        type: integer
+      - metric: duplicate_ids
+        pointer: /duplicate_ids
+        type: integer
+      - metric: rows_invalid
+        pointer: /rows_invalid
+        type: integer
+    caveat: >
+      The catalogue is a curated READING MAP: validation proves the rows are
+      well-formed and the counts exact, never that the works' content is
+      true or that the URLs still resolve. "Deep-seeded" means the same work
+      is a cited, hash-locked entry in claimlib/literature via an explicit
+      same-work alias table; the remaining works are cataloged knowledge,
+      not module citations. The live research RAG's 180-work corpus is a
+      separate, differently-governed collection.
+    reproduce_argv:
+      - python3
+      - tools/ai_catalog_evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - claims/ai_catalog.json
+
   # ── domains/: applied knowledge modules (each a real, reproduce-backed
   # artifact demonstrating a domain technique — evidence, not roadmap). ──
 

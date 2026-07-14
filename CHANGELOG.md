@@ -6,6 +6,21 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 
 ## [Unreleased] — gold-standard lift
 
+### Added — the AI-assurance literature catalogue, claim-bound
+- **`CLAIM-CATALOG-001`**: the curated 231-work / 10-section reading map
+  behind the AI areas is now a committed, mechanically validated artifact
+  (`docs/reference/ai_assurance_literature_catalog_2026-07-14_enriched.csv`
+  → `tools/ai_catalog_evidence.py` → `claims/ai_catalog.json`). Every row
+  is validated fail-closed (unique ids, known vocabularies, sane years with
+  a whitelist for versionless living specs, https URLs); 154 works are
+  priority p0 and 18 are deep-seeded as cited claimlib literature via an
+  explicit same-work alias table (a lineage relation is never an alias —
+  one candidate alias was rejected on exactly that rule). Counts are bound
+  with schema-v2 metric bindings and reproduced declaratively;
+  `docs/reference/ai-assurance-catalog.md` documents the three honest
+  seeding tiers (cataloged / deep-seeded / RAG-ingested) and maps sections
+  to the modules they feed.
+
 ### Added — AI assurance & uncertainty (88 → 96 modules, 103 → 112 works)
 - **Measurable assurance techniques**, each with a theorem-or-publication
   oracle: `conformal_split` (the split-conformal quantile rule and the

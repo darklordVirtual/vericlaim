@@ -1,0 +1,56 @@
+{
+  "csv": "docs/reference/ai_assurance_literature_catalog_2026-07-14_enriched.csv",
+  "deep_seeded_ids": [
+    "ct-rfc6962-2013",
+    "equality-opportunity-2016",
+    "eu-ai-act-2024",
+    "gdpr-2016",
+    "gentle-conformal-2021",
+    "gsn-standard",
+    "guo-calibration-2017",
+    "iso-42001-2023",
+    "model-cards-2019",
+    "nist-ai-rmf-2023",
+    "nist-zta-2020",
+    "owasp-llm-top10-2025",
+    "progent-2025",
+    "safety-cases-2024",
+    "saltzer-schroeder-1975",
+    "selective-2017",
+    "shannon-1948",
+    "slsa-v1"
+  ],
+  "deep_seeded_in_claimlib": 18,
+  "duplicate_ids": 0,
+  "p0_count": 154,
+  "per_section": {
+    "1": 22,
+    "10": 28,
+    "2": 32,
+    "3": 28,
+    "4": 39,
+    "5": 26,
+    "6": 16,
+    "7": 16,
+    "8": 11,
+    "9": 13
+  },
+  "per_source": {
+    "arxiv": 138,
+    "crossref": 35,
+    "doi": 6,
+    "web": 52
+  },
+  "per_type": {
+    "book": 6,
+    "paper": 173,
+    "report": 12,
+    "spec": 19,
+    "standard": 21
+  },
+  "rows_invalid": 0,
+  "schema": "ai_catalog_v1",
+  "sections": 10,
+  "with_pdf": 167,
+  "works_total": 231
+}

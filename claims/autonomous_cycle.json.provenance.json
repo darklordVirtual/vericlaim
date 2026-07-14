@@ -1,9 +1,9 @@
 {
   "schema": "vericlaim_provenance_v2",
   "artifact": "autonomous_cycle.json",
-  "artifact_sha256": "7efd2cbcec7ba1511e93d5d011cfd54e6a654e0f427d73844bb2dc7f432c1ab6",
+  "artifact_sha256": "680d03843648a103594a278a34b16670ae3db7f8e53c563ce656d812e4b2756e",
   "script": "python3 tools/autonomous_cycle_evidence.py",
-  "git_commit": "a76d31e02ae23f8f03525c46ec801da5eeb2195e",
-  "generated_at": "2026-07-06T18:05:46.188143+00:00",
+  "git_commit": "1928a2d0a2c90c92c08921bd7b6ab73fdc65abb3",
+  "generated_at": "2026-07-14T17:08:31.975493+00:00",
   "produced_by": "human"
 }
