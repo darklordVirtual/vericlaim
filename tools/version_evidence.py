@@ -26,7 +26,8 @@ ARTIFACT = ROOT / "claims" / "version.json"
 
 def main() -> int:
     ARTIFACT.write_text(
-        json.dumps({"version": __version__}, indent=2) + "\n", encoding="utf-8")
+        json.dumps({"version": __version__}, indent=2) + "\n",
+        encoding="utf-8", newline="\n")
     stamp("claims/version.json", script="python3 tools/version_evidence.py")
     print(f"version = {__version__}")
     return 0
