@@ -1,0 +1,21 @@
+{
+  "authors": [
+    "Timnit Gebru",
+    "Jamie Morgenstern",
+    "Briana Vecchione",
+    "Jennifer Wortman Vaughan",
+    "Hanna Wallach",
+    "Hal Daum\u00e9 III",
+    "Kate Crawford"
+  ],
+  "id": "datasheets-2018",
+  "identifier": "arXiv:1803.09010; Commun. ACM 64(12):86-92",
+  "kind": "paper",
+  "publisher": "Communications of the ACM",
+  "schema": "claimlib_literature_v1",
+  "summary": "Proposes 'datasheets for datasets': a standardized document, modeled on the datasheets that accompany electronic components, that records a dataset's provenance and characteristics so creators and consumers can reason about fitness for use, bias, and legal/ethical constraints. The datasheet is organized around the dataset lifecycle in seven groups of questions -- Motivation, Composition, Collection Process, Preprocessing/cleaning/labeling, Uses, Distribution, and Maintenance -- with the explicit provision that some questions may not apply and can be answered 'not applicable' with justification. Datasheets aim to improve transparency, accountability, and reproducibility in machine learning and to surface how data was gathered and intended to be used. First posted to arXiv in March 2018; published in Communications of the ACM 64(12):86-92, 2021.",
+  "summary_sha256": "73a83c44bc9821a022733c9cf9df2d0cc46792c0aecf977832b53afe93faf3de",
+  "title": "Datasheets for Datasets",
+  "url": "https://arxiv.org/abs/1803.09010",
+  "year": 2021
+}

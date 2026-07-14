@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/gdpr.json": "aa2f3923f6704811eda9f780bfa2bf5dc7d2d64c704f7fae241e8c257aadf85a",
+    "claim.json": "0cfb6677e56a1cef32f14b7234682c3650c37e3b6dba085b4ec543d779954e16",
+    "code/gdpr.py": "e59bcf7cd41dc1ba79e415a079f9b96849934a83ad068e89d4254873da5f9c97",
+    "provenance.json": "9f94f37b35a74206bb1f3807972a740ee1929d37a7c8361f0806f16769f96d32"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

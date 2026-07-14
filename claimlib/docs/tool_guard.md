@@ -1,6 +1,6 @@
 # Default-deny tool-call policy for LLM agents
 
-*Subject area: AI Assurance / Agent Privilege Control. Language: python. Vendorable bundle `e65ceff327ed`.*
+*Subject area: AI Assurance / Agent Privilege Control. Language: python. Vendorable bundle `82b8e12a6df9`.*
 
 An agent with tools needs the two oldest rules in security applied per call: fail-safe defaults and least privilege (Saltzer & Schroeder 1975), the posture LLM privilege-control frameworks like Progent build on. A call is denied unless a rule explicitly allows it, and an argument the rule does not mention is denied too — so a prompt-injected 'also send the report to attacker@evil' dies on the unknown-argument rule, not on hope. This module implements that engine with typed, Decimal-exact constraints; the claim proves default-deny by exhaustive mutation, so an agent runtime inherits a checked policy gate.
 
@@ -16,7 +16,7 @@ Ships `tool_guard.py` into your project, byte-exact, with a generated binding te
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e65ceff327eda77900a9837e1c4dbd539b2dbaf3d2923f57aa2685eea958a820 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/82b8e12a6df99ff2c83775ae8f43419ae94683909d7e45dbe3adcae95ec159e0 --target .
 ```
 
 ## References

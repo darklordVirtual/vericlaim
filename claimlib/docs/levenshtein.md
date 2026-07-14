@@ -1,6 +1,6 @@
 # Levenshtein edit distance
 
-*Subject area: General / Strings & Text. Language: python. Vendorable bundle `118af4cbd484`.*
+*Subject area: General / Strings & Text. Language: python. Vendorable bundle `5a402f0b3b6a`.*
 
 Levenshtein distance is the minimum number of single-character insertions, deletions, or substitutions to turn one string into another -- the workhorse behind spell-check suggestions, fuzzy matching, and diff tooling. The standard Wagner-Fischer dynamic program computes it in O(m*n) time; a correct implementation also forms a true metric (identity, symmetry, triangle inequality). This module uses the two-row DP; the claim proves it matches the published distances and satisfies the metric axioms, so you inherit a checked distance function rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `levenshtein.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/118af4cbd4849e297d1786f039782d6506f8eb0eecaf2f6bd75f2c5e69cb80cf --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/5a402f0b3b6a7dbd79831de7315163a0f84e9e9c95272662db6db97f01475098 --target .
 ```
 
 ## References

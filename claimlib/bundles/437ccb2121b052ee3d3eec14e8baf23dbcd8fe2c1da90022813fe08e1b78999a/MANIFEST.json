@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/owasp_llm10.json": "1b215cfb98895a3a8ee3d2ac1fa3f8fcbe556301c28780a631d54e891cf0ffab",
+    "claim.json": "60f020774675566ce607c6651c7912bd670cfc3e6e646fb190f3e58b6e43e1c0",
+    "code/owasp_llm10.py": "9e8620609d0947eaf1c927e0eb3dab1683603ead4ad6c2a6f6c2f86b0b7427c6",
+    "provenance.json": "b06108314bc2e3d8447dcc5f66404a78be1ab29901d37f2202491ee2cd438128"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

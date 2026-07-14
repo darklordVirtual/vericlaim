@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/conformal_split.json": "8e7a9a6928b3cbc1121b1b2536f824086485af04a1baa67b2f3473d7c9be06e1",
+    "claim.json": "1c2a09f1245be65b041645eb76fab925d8e5d76c040387b0a9ad0a4595ec408f",
+    "code/conformal_split.py": "7ee9c4f3223ad8301ac4e32ebc1cc7f01d09c3dd12e6f6e5466f923132a43aad",
+    "provenance.json": "5457f94e07e4eb8ac7fefad9b1a2fd2753be3a7c1526323daa082211fc142f58"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

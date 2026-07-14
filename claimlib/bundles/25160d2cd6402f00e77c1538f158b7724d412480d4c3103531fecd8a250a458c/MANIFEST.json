@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/conformal_risk.json": "c611c7cd86b0b070a7c46644b9a8638aab209525d0f7246ab0c46545992933d9",
+    "claim.json": "08b55d2c707eeb7401bba3b78c9af313e24a4633a49c39387652bea75341a3a8",
+    "code/conformal_risk.py": "9653b40cc7e808951cd2d175bde47f9c8f034e14b3dfd44ddc43c57b3b6e4261",
+    "provenance.json": "83e7eeea48cd87a3efdba40a4015b56dfac0e535156045e62e720eca65039921"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

@@ -1,6 +1,6 @@
 # IPv4 CIDR / subnet math
 
-*Subject area: Telecom / IP Address Management. Language: python. Vendorable bundle `b2b660585494`.*
+*Subject area: Telecom / IP Address Management. Language: python. Vendorable bundle `7f8e9a0a5687`.*
 
 CIDR subnetting is the everyday management-plane task on routers, firewalls and ISP IPAM: given 192.0.2.0/24 decide the network address, the directed broadcast, the mask, how many usable hosts, and whether an address is inside the block -- all of it bit arithmetic on the 32-bit integer. This module implements that arithmetic from scratch (so it carries no dependency) and the claim proves it matches Python's ipaddress across the battery, so you inherit a checked, dependency-free IPv4 calculator rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `cidr.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/b2b6605854942f584a74dbb810dfc5b2e828595d2e0ef650fde3ec52ba20f7b1 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/7f8e9a0a5687b05acd96ec1cbc0674ebfef17fc0661574004d3be6a3e75d9a9e --target .
 ```
 
 ## References

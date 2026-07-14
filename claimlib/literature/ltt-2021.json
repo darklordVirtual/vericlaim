@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "Anastasios N. Angelopoulos",
+    "Stephen Bates",
+    "Emmanuel J. Cand\u00e8s",
+    "Michael I. Jordan",
+    "Lihua Lei"
+  ],
+  "id": "ltt-2021",
+  "identifier": "arXiv:2110.01052; Ann. Appl. Stat. 19(2):1641-1662",
+  "kind": "paper",
+  "publisher": "Annals of Applied Statistics",
+  "schema": "claimlib_literature_v1",
+  "summary": "Generalizes risk control from conformal prediction's single monotone loss to ANY risk and ANY hyperparameter configuration by reframing calibration as multiple hypothesis testing. For each candidate configuration lambda_j the null H_j: R(lambda_j) > alpha ('too risky') is tested with a super-uniform, finite-sample-valid p-value -- for a bounded loss the Hoeffding-Bentkus concentration bound and, for a 0/1 loss, the exact binomial-tail probability -- and the returned set is exactly the configurations whose nulls a family-wise error-rate-controlling procedure rejects. This yields the guarantee P(R(lambda) <= alpha for all returned lambda) >= 1 - delta, distribution-free under i.i.d. calibration data. Three FWER procedures are given: Bonferroni, fixed-sequence testing, and a graphical (sequential graphical testing) generalization. First posted to arXiv in October 2021; published in the Annals of Applied Statistics 19(2):1641-1662, 2025.",
+  "summary_sha256": "efaf5f5f8893eacbe99dc11d63c261c817f4853f28bfddc3c22d6f9ba794a01f",
+  "title": "Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control",
+  "url": "https://arxiv.org/abs/2110.01052",
+  "year": 2025
+}

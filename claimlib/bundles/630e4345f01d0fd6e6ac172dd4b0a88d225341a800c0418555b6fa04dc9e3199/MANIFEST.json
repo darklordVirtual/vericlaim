@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/gsn_case.json": "be041836a642269a8cd5befd882e9db3b6d4f08d5e205ad0eb424f3575ee43f9",
+    "claim.json": "d0f42fdf9811609be6ac6060933f385cd7c6f34fb4d09c1e297eba61b0f2b774",
+    "code/gsn_case.py": "50b4b14a9df5ae3b01110ab798894b9bf059a5b7aafc60e2db12499f6360c7aa",
+    "provenance.json": "3598ebbc77324b1edd7390516afd9665b63b7cb93daefba939bba3b8ded78ebd"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

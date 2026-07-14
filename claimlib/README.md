@@ -37,6 +37,7 @@ claim in your context — read each module's caveat.
 | [`crc32`](docs/crc32.md) | Python | Data / Integrity & Checksums | `CLAIM-LIB-CRC32-001` | measured |
 | [`csv_rfc4180`](docs/csv_rfc4180.md) | Python | Data / Serialization | `CLAIM-LIB-CSV-RFC4180-001` | benchmarked |
 | [`cvss`](docs/cvss.md) | Python | Security / Vulnerability Management | `CLAIM-LIB-CVSS-001` | benchmarked |
+| [`datasheet`](docs/datasheet.md) | Python | AI Governance / Data Documentation | `CLAIM-LIB-DATASHEET-001` | benchmarked |
 | [`dns_name`](docs/dns_name.md) | Python | Telecom / DNS Naming | `CLAIM-LIB-DNS-NAME-001` | measured |
 | [`dora_eu`](docs/dora_eu.md) | Python | AI Governance / Financial ICT Resilience (DORA) | `CLAIM-LIB-DORA-001` | measured |
 | [`double_entry`](docs/double_entry.md) | Python | Audit / Accounting Integrity | `CLAIM-LIB-DOUBLE-ENTRY-001` | measured |
@@ -56,6 +57,7 @@ claim in your context — read each module's caveat.
 | [`hotp`](docs/hotp.md) | Python | Security / Authentication (2FA) | `CLAIM-LIB-HOTP-001` | benchmarked |
 | [`iban`](docs/iban.md) | Python | Finance / Payments & Banking | `CLAIM-LIB-IBAN-001` | measured |
 | [`imei`](docs/imei.md) | Python | Telecom / Device Identity | `CLAIM-LIB-IMEI-001` | measured |
+| [`in_toto_layout`](docs/in_toto_layout.md) | Python | AI Assurance / Supply Chain | `CLAIM-LIB-INTOTO-001` | benchmarked |
 | [`ipchecksum`](docs/ipchecksum.md) | Python | Telecom / Packet Processing | `CLAIM-LIB-IPCHECKSUM-001` | measured |
 | [`ipv6`](docs/ipv6.md) | Python | Telecom / IPv6 Addressing | `CLAIM-LIB-IPV6-001` | benchmarked |
 | [`iso27001`](docs/iso27001.md) | Python | Compliance / Audit Frameworks | `CLAIM-LIB-ISO27001-001` | measured |
@@ -64,6 +66,7 @@ claim in your context — read each module's caveat.
 | [`jwt_hs256`](docs/jwt_hs256.md) | Python | Security / Authentication (JWT) | `CLAIM-LIB-JWT-HS256-001` | benchmarked |
 | [`kid`](docs/kid.md) | Python | Finance / Norwegian Payments (KID) | `CLAIM-LIB-KID-001` | benchmarked |
 | [`lamport`](docs/lamport.md) | Python | Security / Post-Quantum Cryptography | `CLAIM-LIB-LAMPORT-001` | benchmarked |
+| [`learn_then_test`](docs/learn_then_test.md) | Python | AI Assurance / Risk Control | `CLAIM-LIB-LTT-001` | benchmarked |
 | [`levenshtein`](docs/levenshtein.md) | Python | General / Strings & Text | `CLAIM-LIB-LEVENSHTEIN-001` | measured |
 | [`lru`](docs/lru.md) | Python | Data Structures / Caching | `CLAIM-LIB-LRU-001` | measured |
 | [`luhn`](docs/luhn.md) | Python | Payments / Data Integrity | `CLAIM-LIB-LUHN-001` | measured |

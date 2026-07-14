@@ -1,6 +1,6 @@
 # Lamport one-time signatures (hash-based, post-quantum)
 
-*Subject area: Security / Post-Quantum Cryptography. Language: python. Vendorable bundle `58d555878fcb`.*
+*Subject area: Security / Post-Quantum Cryptography. Language: python. Vendorable bundle `77c9381586de`.*
 
 Lamport signatures show that a digital signature needs nothing more than a one-way (hash) function: the private key is two secrets per message bit, the public key is their hashes, and signing reveals the secret matching each bit of the message digest -- a verifier re-hashes and checks. Because it relies only on hash preimage resistance, it is quantum-resistant, and it is the conceptual seed of the NIST post-quantum hash-based standards (SLH-DSA / SPHINCS+, XMSS). Vendor it to understand and use a checked post-quantum primitive; the claim proves valid signatures verify and forgeries are rejected, so you inherit a checked one-time signature rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `lamport.py` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/58d555878fcbd2d94b7a97815951415eb950bb2a0d1e60607ec754433191e663 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/77c9381586de6e0883c4b510017fd5f6de745180b2eafe59ab4ee045571d2c81 --target .
 ```
 
 ## References

@@ -1,6 +1,6 @@
 # OWASP Top 10 for LLM Applications 2025 taxonomy
 
-*Subject area: AI Assurance / LLM Application Security. Language: python. Vendorable bundle `726745c43b5c`.*
+*Subject area: AI Assurance / LLM Application Security. Language: python. Vendorable bundle `437ccb2121b0`.*
 
 The OWASP Top 10 for LLM Applications is the shared vocabulary between AI engineering and security review: prompt injection, sensitive-information disclosure, supply chain, poisoning, improper output handling, excessive agency and the rest. A security review of an LLM product is at bottom a coverage map over this list. This module encodes the verified 2025 taxonomy with fail-closed coverage scoring; the claim proves the list matches the publication, so a review pipeline inherits a checked checklist skeleton.
 
@@ -16,7 +16,7 @@ Ships `owasp_llm10.py` into your project, byte-exact, with a generated binding t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/726745c43b5c99af8d51f7cb83ab6df441236f1b6ffa45071cccbc4f8f37e671 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/437ccb2121b052ee3d3eec14e8baf23dbcd8fe2c1da90022813fe08e1b78999a --target .
 ```
 
 ## References

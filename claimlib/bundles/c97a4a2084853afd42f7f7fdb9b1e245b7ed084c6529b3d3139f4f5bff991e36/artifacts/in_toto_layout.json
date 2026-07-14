@@ -1,0 +1,14 @@
+{
+  "checks": 20,
+  "checks_matched": 20,
+  "clean_layout_ok": 1,
+  "mismatches": 0,
+  "module": "in_toto_layout",
+  "reject_cases": 6,
+  "rejects_ok": 6,
+  "rule_type_cases": 14,
+  "rule_type_ok": 14,
+  "schema": "claimlib_evidence_v1",
+  "tamperings_detected": 5,
+  "tamperings_total": 5
+}

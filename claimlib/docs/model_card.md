@@ -1,6 +1,6 @@
 # Model-card completeness (Mitchell et al. 2019)
 
-*Subject area: AI Governance / Model Documentation. Language: python. Vendorable bundle `7e3b7f658316`.*
+*Subject area: AI Governance / Model Documentation. Language: python. Vendorable bundle `50f5b41801d6`.*
 
 Model cards are the disclosure document of record for trained models: Mitchell et al. proposed nine sections covering what the model is, what it is for, how it behaves across factors, and what it must not be used for. Enterprise AI inventories increasingly REQUIRE a card per deployed model, which makes 'is the card structurally complete' a governance gate worth automating. This module scores exactly that, fail-closed on typoed section names; the claim proves the taxonomy matches the paper and the arithmetic is exact, so a review pipeline inherits a checked completeness gate.
 
@@ -16,7 +16,7 @@ Ships `model_card.py` into your project, byte-exact, with a generated binding te
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/7e3b7f6583163cf0db125110ab83ef91b86cc3dd22463640153d50af84d6ba1d --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/50f5b41801d69d5b7e92089363fd2cb6b533346efc5822a51f181a91cea145de --target .
 ```
 
 ## References

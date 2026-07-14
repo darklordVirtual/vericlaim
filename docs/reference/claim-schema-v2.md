@@ -84,7 +84,7 @@ Nothing breaks: `metrics:` keeps driving doc anchors, and unbound metrics
 keep the v1 behavior (any-depth key match; absent keys fail under
 strict/enterprise). Add bindings claim by claim; each bound metric leaves
 the v1 scan. claimlib's build emits a binding for every register metric of
-all 88 modules, so the knowledge register is fully on v2.
+all 102 modules, so the knowledge register is fully on v2.
 
 ## Not in v2 (yet)
 

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/rbac.json": "cc9ebe041804fa45a46ac7fa613ad71673e16d8f648c4cddfcc6ba246a34e774",
+    "claim.json": "1ee4fc93500df50b2e7233172aae6b66a82dba5be6d9671a6df31dfd94461163",
+    "code/rbac.py": "457e601e05b8ec9c068e7bf5117db084cdd4637fa9c328b8b59048671e325c55",
+    "provenance.json": "4bbc1edd0e22183c0b5e3e35571f1ca64c7cf695ece8c1706610cc5888ef5ae2"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

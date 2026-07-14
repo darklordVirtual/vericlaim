@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/nist_ai_rmf.json": "3b1e40effd97e9b9afe44085d0bab314b3a2e05064311b428fe596b222b6d387",
+    "claim.json": "e386417c43d97ff02d50d498dff438ae6c53e0aa1a678ba72c3c6bad2bb36c0d",
+    "code/nist_ai_rmf.py": "63750e77632401e1948c17b07ca5f63842d6abf5d6ee9edc336bc5c78829adae",
+    "provenance.json": "d728e12d6d88889c9b48d802d1be130a2713d505bc5cd7e2fd144f5b53989bdf"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

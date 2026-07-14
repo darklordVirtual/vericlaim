@@ -1935,4 +1935,95 @@ SOURCES = [
                    "heterogeneous agent architectures and is demonstrated through scenario-based "
                    "analysis rather than a peer-reviewed empirical benchmark.",
     },
+    {
+        "id": "ltt-2021",
+        "title": "Learn then Test: Calibrating Predictive Algorithms to "
+                 "Achieve Risk Control",
+        "authors": ["Anastasios N. Angelopoulos", "Stephen Bates",
+                    "Emmanuel J. Candès", "Michael I. Jordan", "Lihua Lei"],
+        "publisher": "Annals of Applied Statistics",
+        "year": 2025,
+        "kind": "paper",
+        "identifier": "arXiv:2110.01052; Ann. Appl. Stat. 19(2):1641-1662",
+        "url": "https://arxiv.org/abs/2110.01052",
+        "summary": "Generalizes risk control from conformal prediction's "
+                   "single monotone loss to ANY risk and ANY hyperparameter "
+                   "configuration by reframing calibration as multiple "
+                   "hypothesis testing. For each candidate configuration "
+                   "lambda_j the null H_j: R(lambda_j) > alpha ('too risky') "
+                   "is tested with a super-uniform, finite-sample-valid "
+                   "p-value -- for a bounded loss the Hoeffding-Bentkus "
+                   "concentration bound and, for a 0/1 loss, the exact "
+                   "binomial-tail probability -- and the returned set is "
+                   "exactly the configurations whose nulls a family-wise "
+                   "error-rate-controlling procedure rejects. This yields the "
+                   "guarantee P(R(lambda) <= alpha for all returned lambda) "
+                   ">= 1 - delta, distribution-free under i.i.d. calibration "
+                   "data. Three FWER procedures are given: Bonferroni, "
+                   "fixed-sequence testing, and a graphical (sequential "
+                   "graphical testing) generalization. First posted to arXiv "
+                   "in October 2021; published in the Annals of Applied "
+                   "Statistics 19(2):1641-1662, 2025.",
+    },
+    {
+        "id": "in-toto-2019",
+        "title": "in-toto: Providing farm-to-table guarantees for bits and "
+                 "bytes",
+        "authors": ["Santiago Torres-Arias", "Hammad Afzali",
+                    "Trishank Karthik Kuppusamy", "Reza Curtmola",
+                    "Justin Cappos"],
+        "publisher": "28th USENIX Security Symposium",
+        "year": 2019,
+        "kind": "paper",
+        "identifier": "USENIX Security 2019, pp. 1393-1410",
+        "url": "https://www.usenix.org/conference/usenixsecurity19/"
+               "presentation/torres-arias",
+        "summary": "Provides end-to-end ('farm-to-table') integrity for a "
+                   "software supply chain by cryptographically verifying that "
+                   "every step was performed as planned, by authorized "
+                   "parties, without tampering in between. The project owner "
+                   "signs a LAYOUT declaring the ordered STEPS, each step's "
+                   "authorized functionaries (by public key) and signature "
+                   "threshold, and ARTIFACT RULES -- MATCH, CREATE, DELETE, "
+                   "MODIFY, ALLOW, DISALLOW, REQUIRE -- constraining which "
+                   "materials a step may consume and which products it may "
+                   "produce. Each functionary emits signed LINK metadata "
+                   "recording the actual materials and products of its step; "
+                   "verification checks the link signatures against the "
+                   "layout's authorized keys and thresholds and checks the "
+                   "artifact flow across steps against the rules, rejecting "
+                   "any product that did not arise from the declared chain. "
+                   "in-toto underpins later supply-chain attestation efforts. "
+                   "Published at the 28th USENIX Security Symposium (2019), "
+                   "pp. 1393-1410.",
+    },
+    {
+        "id": "datasheets-2018",
+        "title": "Datasheets for Datasets",
+        "authors": ["Timnit Gebru", "Jamie Morgenstern", "Briana Vecchione",
+                    "Jennifer Wortman Vaughan", "Hanna Wallach",
+                    "Hal Daumé III", "Kate Crawford"],
+        "publisher": "Communications of the ACM",
+        "year": 2021,
+        "kind": "paper",
+        "identifier": "arXiv:1803.09010; Commun. ACM 64(12):86-92",
+        "url": "https://arxiv.org/abs/1803.09010",
+        "summary": "Proposes 'datasheets for datasets': a standardized "
+                   "document, modeled on the datasheets that accompany "
+                   "electronic components, that records a dataset's provenance "
+                   "and characteristics so creators and consumers can reason "
+                   "about fitness for use, bias, and legal/ethical "
+                   "constraints. The datasheet is organized around the "
+                   "dataset lifecycle in seven groups of questions -- "
+                   "Motivation, Composition, Collection Process, "
+                   "Preprocessing/cleaning/labeling, Uses, Distribution, and "
+                   "Maintenance -- with the explicit provision that some "
+                   "questions may not apply and can be answered 'not "
+                   "applicable' with justification. Datasheets aim to improve "
+                   "transparency, accountability, and reproducibility in "
+                   "machine learning and to surface how data was gathered and "
+                   "intended to be used. First posted to arXiv in March 2018; "
+                   "published in Communications of the ACM 64(12):86-92, "
+                   "2021.",
+    },
 ]

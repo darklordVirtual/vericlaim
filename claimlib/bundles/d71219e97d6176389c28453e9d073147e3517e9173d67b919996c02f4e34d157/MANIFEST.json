@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/hotp.json": "074904379db61c2c4e6ca1bffae6d1137c4a408d046a5417e265ad68a9efbf52",
+    "claim.json": "056e6788809ea0c86e8d45e355f3bf8fc62fcf09b8848443f9b263eb2c502a37",
+    "code/hotp.py": "85640ecf43b4711abfa27447bd7c338fcf652d6994e037fb8008581278f8ba9a",
+    "provenance.json": "6f7f8a20d02665881347d3d3e00371b5dad2bc2023bf56f3535e52c494068a4b"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

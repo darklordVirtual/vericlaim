@@ -1,6 +1,6 @@
 # NIST CSF 2.0 coverage
 
-*Subject area: Security / Governance & Compliance. Language: python. Vendorable bundle `08a0a470001e`.*
+*Subject area: Security / Governance & Compliance. Language: python. Vendorable bundle `8f68c9b27ab2`.*
 
 The NIST Cybersecurity Framework 2.0 is the common language security programs use to organize and communicate risk work: six Functions (the 2024 revision added Govern) each broken into Categories and Subcategories. Teams map their controls to this structure to see where they are strong and where gaps sit. This module encodes the Function/Category taxonomy and computes coverage; the claim proves the encoded taxonomy matches the framework and the math is correct, so you inherit a checked coverage model rather than a hand-maintained spreadsheet to re-audit.
 
@@ -16,7 +16,7 @@ Ships `nist_csf.py` into your project, byte-exact, with a generated binding test
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/08a0a470001e1c8e3f36a6e19dc1efba9ba334ca8f91f1598684ff416362500d --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/8f68c9b27ab21997465073953a1b5f957c8095dcbd4953478dd2acd27ab61d7e --target .
 ```
 
 ## References

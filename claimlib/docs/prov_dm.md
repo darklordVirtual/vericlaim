@@ -1,6 +1,6 @@
 # PROV-DM core provenance-graph validation
 
-*Subject area: AI Assurance / Provenance. Language: python. Vendorable bundle `49f0dbac6673`.*
+*Subject area: AI Assurance / Provenance. Language: python. Vendorable bundle `16229465a563`.*
 
 W3C PROV-DM is the standard vocabulary for provenance: entities (a model file, a dataset), activities (a training run), agents (a team, a service), connected by seven typed relations — used, wasGeneratedBy, wasDerivedFrom, wasAttributedTo and the rest. AI supply chains need exactly this graph: which dataset trained which model, evaluated by which run, attributed to whom. This module validates PROV core documents fail-closed, including cycle detection on derivation and delegation; the claim proves the taxonomy against the Recommendation and the rules by exhaustive enumeration, so a provenance pipeline inherits a checked validator.
 
@@ -16,7 +16,7 @@ Ships `prov_dm.py` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/49f0dbac6673c5585bf86ec96f8cc7d86405806c990ccb6593e72d5deda8173a --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/16229465a563a6d867da551047af5e4b9302860715c8e783f1282a96f5ba0e96 --target .
 ```
 
 ## References

@@ -3587,3 +3587,129 @@ claims:
     reproduce_outputs:
       - "modules/runtime_rules/artifacts/runtime_rules.json"
 
+  - id: CLAIM-LIB-LTT-001
+    statement: >
+      The vendored Learn-then-Test library passes all 43 checks with 0 mismatches: the exact binomial-tail p-value P(Bin(n, alpha) <= k) matches 5 hand-computed anchors (P(Bin(10,1/2)<=0)=1/1024) and an independent Fraction re-derivation; SUPER-UNIFORMITY is ENUMERATED — under the null P(p <= u) <= u holds at every achievable threshold over three (n, alpha) settings (30/30); and FAMILY-WISE ERROR is ENUMERATED EXACTLY as exact Fractions over all 343 joint outcomes of 3 independent nulls, with both the Bonferroni and fixed-sequence procedures bounding P(any false rejection) <= delta (2/2); plus 6 procedure-semantics checks (fixed-sequence stops at the first non-rejection, Bonferroni is order-free, both return the honest empty set), and 10/10 malformed inputs rejected.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/learn_then_test/artifacts/learn_then_test.json"
+    metrics:
+      checks: 43
+      checks_matched: 43
+      mismatches: 0
+      super_uniformity_ok: 30
+      fwer_enumerations_ok: 2
+      semantics_ok: 6
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: super_uniformity_ok
+        pointer: /super_uniformity_ok
+        type: integer
+      - metric: fwer_enumerations_ok
+        pointer: /fwer_enumerations_ok
+        type: integer
+      - metric: semantics_ok
+        pointer: /semantics_ok
+        type: integer
+    caveat: >
+      The guarantee is frequentist over calibration draws — a returned lambda is NOT certified individually — and needs i.i.d. calibration data with a loss faithfully 0/1; this module implements the exact binomial-tail p-value for BINARY losses (not the Hoeffding-Bentkus bound for general bounded losses) and two FWER procedures (Bonferroni, fixed-sequence), not the graphical generalization. Enumerated error control verifies the mechanism on fixed grids, not any deployed model's losses.
+    reproduce_argv:
+      - "python3"
+      - "modules/learn_then_test/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/learn_then_test/artifacts/learn_then_test.json"
+
+  - id: CLAIM-LIB-INTOTO-001
+    statement: >
+      The vendored in-toto artifact-rule engine passes all 20 checks with 0 mismatches: the SEVEN artifact-rule types (MATCH, CREATE, DELETE, MODIFY, ALLOW, DISALLOW, REQUIRE) each match their spec-derived PASS/FAIL verdict over 14 hand-built cases — including rule-ORDER sensitivity (ALLOW-then-DISALLOW passes what DISALLOW-first rejects) — the canonical clone -> build -> package layout verifies whole (clean_layout_ok = 1), and 5 independent tamperings (an unauthorized functionary, a below-threshold signature count, an un-sourced product, a cross-step MATCH hash mismatch, and a DISALLOW-guarded stray file) are each detected (tamperings_detected = 5), with 6/6 malformed inputs rejected.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/in_toto_layout/artifacts/in_toto_layout.json"
+    metrics:
+      checks: 20
+      checks_matched: 20
+      mismatches: 0
+      rule_type_ok: 14
+      clean_layout_ok: 1
+      tamperings_detected: 5
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: rule_type_ok
+        pointer: /rule_type_ok
+        type: integer
+      - metric: clean_layout_ok
+        pointer: /clean_layout_ok
+        type: integer
+      - metric: tamperings_detected
+        pointer: /tamperings_detected
+        type: integer
+    caveat: >
+      Checks the artifact FLOW and signature THRESHOLDS the layout declares, given already-verified link signatures — it does NOT perform cryptographic signature verification or key management, which are the caller's layer (pair with a signing/PKI stack). Correctness is demonstrated over hand-built rule cases and one end-to-end layout with five tamperings, not proven for every layout; a behaviour no artifact rule anticipates passes, so the trailing DISALLOW catch-all matters.
+    reproduce_argv:
+      - "python3"
+      - "modules/in_toto_layout/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/in_toto_layout/artifacts/in_toto_layout.json"
+
+  - id: CLAIM-LIB-DATASHEET-001
+    statement: >
+      The vendored datasheet completeness scorer passes all 2193 checks with 0 mismatches: the covered count and exact completeness percentage match an INDEPENDENT direct count over ALL 2187 (= 3**7) assignments of {answered, justified-N/A, gap} to the seven lifecycle sections (Motivation, Composition, Collection Process, Preprocessing/cleaning/labeling, Uses, Distribution, Maintenance), and 6 escape-hatch anchors pin the datasheet's own rule that a section marked 'not applicable' WITH a justification counts as covered while a bare unjustified N/A or an empty answer is a gap; 4/4 malformed inputs (unknown section, non-str value, N/A without the na flag) are rejected.
+    evidence_level: benchmarked
+    artifact:
+      - "modules/datasheet/artifacts/datasheet.json"
+    metrics:
+      checks: 2193
+      checks_matched: 2193
+      mismatches: 0
+      enumerated_ok: 2187
+      anchors_ok: 6
+      rejects_ok: 4
+    metric_bindings:
+      - metric: checks
+        pointer: /checks
+        type: integer
+      - metric: checks_matched
+        pointer: /checks_matched
+        type: integer
+      - metric: mismatches
+        pointer: /mismatches
+        type: integer
+      - metric: enumerated_ok
+        pointer: /enumerated_ok
+        type: integer
+      - metric: anchors_ok
+        pointer: /anchors_ok
+        type: integer
+      - metric: rejects_ok
+        pointer: /rejects_ok
+        type: integer
+    caveat: >
+      Scores STRUCTURAL completeness only — which lifecycle sections are accounted for — which is what a machine can check: a present section can still be vacuous and a claimed N/A can be dishonest, so a 100% score means 'every lifecycle section is accounted for', never 'the dataset is adequately documented'. The section taxonomy is the paper's seven groups; it does not encode the individual sub-questions within each group.
+    reproduce_argv:
+      - "python3"
+      - "modules/datasheet/evidence.py"
+      - "--output-dir"
+      - "{output_dir}"
+    reproduce_outputs:
+      - "modules/datasheet/artifacts/datasheet.json"
+
