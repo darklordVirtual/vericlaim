@@ -6,6 +6,29 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 
 ## [Unreleased] — gold-standard lift
 
+### Added — AI assurance & uncertainty (88 → 96 modules, 103 → 112 works)
+- **Measurable assurance techniques**, each with a theorem-or-publication
+  oracle: `conformal_split` (the split-conformal quantile rule and the
+  coverage theorem ENUMERATED — exhaustive leave-one-out coverage inside
+  [1−α, 1−α+1/n] as exact Fractions), `selective_risk` (Geifman/El-Yaniv
+  coverage + selective risk + risk-coverage curve, exact), `shannon_entropy`
+  (entropy/cross-entropy/KL/perplexity with Shannon's own worked example
+  and Gibbs/chain identities), `gsn_case` (GSN Community Standard v3
+  assurance-case structure validator — 12 adversarial mutations all caught,
+  36-pair edge enumeration admitting exactly the 4 legal pairs),
+  `tool_guard` (default-deny agent tool-call policy — fail-safe defaults
+  enumerated, 20/20 mutations denied, Decimal-exact constraints).
+- **Assurance taxonomies**, facts web-verified against primary sources by a
+  dedicated workflow before encoding: `owasp_llm10` (the ten v2025 entries
+  verified against the official PDF), `slsa_levels` (v1.1 Build track with
+  all 16 capability subsets enumerated against an independent re-derivation
+  of the cumulative rule), `zta_tenets` (the seven SP 800-207 tenets).
+- Literature grew to 112 hash-locked works (Shannon 1948, Angelopoulos &
+  Bates, Geifman & El-Yaniv, GSN Community Standard v3/SCSC-141C, OWASP LLM
+  Top 10 2025, SLSA v1.1, NIST SP 800-207, Progent, Clymer et al. safety
+  cases); 87 of 96 modules cite what they implement through 122 references.
+  Claimlib tests 718 → 816; declarative reproduce covers all 96 claims.
+
 ### Added — schema v2 metric bindings (`vericlaim/binding.py`)
 - **Explicit, typed, Decimal-safe metric bindings**: `metric_bindings` pin a
   register metric to an exact RFC 6901 JSON-Pointer location in a named

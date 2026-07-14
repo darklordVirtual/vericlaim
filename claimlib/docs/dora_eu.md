@@ -1,6 +1,6 @@
 # DORA structure + resilience-pillar coverage
 
-*Subject area: AI Governance / Financial ICT Resilience (DORA). Language: python. Vendorable bundle `2ff29fdf974a`.*
+*Subject area: AI Governance / Financial ICT Resilience (DORA). Language: python. Vendorable bundle `6ceb6ac07bbd`.*
 
 DORA harmonizes digital operational resilience across the EU financial sector — banks, insurers, investment firms and their critical ICT providers — applying from 17 January 2025. Its requirements organize into five pillars: ICT risk management (Ch. II), incident management and reporting (Ch. III), resilience testing incl. TLPT (Ch. IV), ICT third-party risk (Ch. V) and information sharing (Ch. VI). Any AI system a financial entity operates is ICT under DORA, which makes this the enterprise-architecture frame around AI governance in finance. This module encodes the verified structure; the claim proves the chapter partition and pillar anchoring, so a resilience programme inherits a checked map.
 
@@ -16,7 +16,7 @@ Ships `dora_eu.py` into your project, byte-exact, with a generated binding test 
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/2ff29fdf974ad91fe75c29a1e27b41833a655c3c9cb801296504f68f13ba2721 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/6ceb6ac07bbde69b81867dabbea4961245d9cc8b9f89909196c5d720bc0c58fd --target .
 ```
 
 ## References

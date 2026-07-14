@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/varint.json": "205928f5abb57956f99d19fa07d24f224e950d6af3c13f1de71c1309fcb06d40",
+    "claim.json": "fe5e81f9d5080f7bcfc25e8390dd4bb3e253d0bc0e3b8cc81592f7dc2d8349a1",
+    "code/varint.py": "bda7a25fcb9d1b6deee7d9193d73e278bb30df70ff5476bffb01bc19e793b706",
+    "provenance.json": "e2a162cda989bf9a310c38d88a32ef4c6e18f70bc7ff1b40c1ec1bb8820c804c"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

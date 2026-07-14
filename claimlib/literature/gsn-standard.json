@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "SCSC Assurance Case Working Group (ACWG)"
+  ],
+  "id": "gsn-standard",
+  "identifier": "SCSC-141C",
+  "kind": "standard",
+  "publisher": "SCSC \u2014 Safety-Critical Systems Club / Assurance Case Working Group",
+  "schema": "claimlib_literature_v1",
+  "summary": "The authoritative community definition of the Goal Structuring Notation (GSN), a graphical notation for documenting assurance-case arguments as goal structures. Version 3 (issued to the user community May 2021) defines six core elements \u2014 Goal, Strategy, Solution, Context, Assumption, Justification \u2014 plus an 'Undeveloped' hollow-diamond decorator applicable to goals and strategies, and two core relationships: SupportedBy (goal-to-goal, goal-to-strategy, goal-to-solution, strategy-to-goal) and InContextOf (goal or strategy to context, assumption, or justification). Goal structures are required to be directed acyclic graphs, and the standard adds extensions for argument patterns, modular arguments, confidence (ACPs), and dialectic argumentation. GSN was first published as a community standard in 2011; maintenance moved to the SCSC's Assurance Case Working Group in 2014.",
+  "summary_sha256": "f8bc0455c177d5bf67fb2201ecfcd87d2a1b2f64228d09a7f35dff628f2906fc",
+  "title": "Goal Structuring Notation Community Standard, Version 3 (SCSC-141C)",
+  "url": "https://scsc.uk/scsc-141c",
+  "year": 2021
+}

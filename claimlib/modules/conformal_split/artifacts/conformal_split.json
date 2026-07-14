@@ -1,0 +1,15 @@
+{
+  "checks": 32,
+  "checks_matched": 32,
+  "hand_ok": 6,
+  "mismatches": 0,
+  "module": "conformal_split",
+  "monotone_ok": 5,
+  "reject_cases": 8,
+  "rejects_ok": 8,
+  "schema": "claimlib_evidence_v1",
+  "theorem_checks": 15,
+  "theorem_ok": 15,
+  "ties_ok": 5,
+  "vacuous_ok": 1
+}

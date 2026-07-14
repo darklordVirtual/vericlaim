@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "Claude E. Shannon"
+  ],
+  "id": "shannon-1948",
+  "identifier": "Bell Syst. Tech. J. 27(3): 379-423 (July 1948); 27(4): 623-656 (October 1948)",
+  "kind": "paper",
+  "publisher": "Bell System Technical Journal",
+  "schema": "claimlib_literature_v1",
+  "summary": "Founding paper of information theory, published in two parts in the Bell System Technical Journal, Vol. 27, pp. 379-423 (July 1948) and pp. 623-656 (October 1948). Theorem 2 establishes that the only uncertainty measure satisfying three natural axioms (continuity, monotonicity in n for equiprobable events, and decomposition of choices) is H = -K sum p_i log p_i with K a positive constant. Shannon defines H = -sum p_i log p_i as the entropy of a set of probabilities, noting its correspondence to entropy in statistical mechanics, and builds on it the source coding and noisy-channel coding theory.",
+  "summary_sha256": "30be56495d16438aa11339406ef485314d140a7f88f8efa9873744938639530f",
+  "title": "A Mathematical Theory of Communication",
+  "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+  "year": 1948
+}

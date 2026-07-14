@@ -143,11 +143,23 @@
     "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
     "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
   },
+  "gentle-conformal-2021": {
+    "identifier": "arXiv:2107.07511",
+    "summary_sha256": "d5abd02b3bee7fd1897c6ea09426cce075a9d5c90852dbe02a69601354102735",
+    "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+    "url": "https://arxiv.org/abs/2107.07511"
+  },
   "google-sre-2016": {
     "identifier": "ISBN 978-1-491-92912-4",
     "summary_sha256": "9fad3c3b2b25e595403bcb5704c716b84e7ae87bc2b80eabfd2c0797cacfd0d6",
     "title": "Site Reliability Engineering: How Google Runs Production Systems",
     "url": "https://sre.google/sre-book/table-of-contents/"
+  },
+  "gsn-standard": {
+    "identifier": "SCSC-141C",
+    "summary_sha256": "f8bc0455c177d5bf67fb2201ecfcd87d2a1b2f64228d09a7f35dff628f2906fc",
+    "title": "Goal Structuring Notation Community Standard, Version 3 (SCSC-141C)",
+    "url": "https://scsc.uk/scsc-141c"
   },
   "guo-2017": {
     "identifier": "PMLR 70:1321-1330; arXiv:1706.04599",
@@ -347,11 +359,23 @@
     "title": "NIST/SEMATECH e-Handbook of Statistical Methods",
     "url": "https://www.itl.nist.gov/div898/handbook/"
   },
+  "nist-zta-2020": {
+    "identifier": "NIST SP 800-207",
+    "summary_sha256": "40c19eb928c152dd4c77577529c69001a3238cd06b45cb14632c864197db9a16",
+    "title": "Zero Trust Architecture",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf"
+  },
   "nmea-0183": {
     "identifier": "NMEA 0183 v4.30",
     "summary_sha256": "cf4b6530a9dcf256feb92f5da726ae24f0ec777a6551451832c1afe8ca195b76",
     "title": "NMEA 0183 Interface Standard",
     "url": "https://www.nmea.org/nmea-0183.html"
+  },
+  "owasp-llm-top10-2025": {
+    "identifier": "OWASP Top 10 for LLM Applications, Version 2025 (released 2024-11-18)",
+    "summary_sha256": "d50b6d650228ddc9409498fbd0e207d10447524874176e100f5a51d2c2461f20",
+    "title": "OWASP Top 10 for LLM Applications 2025",
+    "url": "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/"
   },
   "pacioli-1494": {
     "identifier": "Venice: Paganino de Paganini, 10\u201320 November 1494 (LCCN 49036374)",
@@ -364,6 +388,12 @@
     "summary_sha256": "760a02b2d313fbc9c8e71126d2d291a8edf501ab1f5aa0c0f2d96903d5378d06",
     "title": "Payment Card Industry Data Security Standard, Version 4.0",
     "url": "https://www.pcisecuritystandards.org/document_library/"
+  },
+  "progent-2025": {
+    "identifier": "arXiv:2504.11703",
+    "summary_sha256": "aa20d2ddcc53d7d9cd4717fbd7a5e56b652cb0f4565657717eac84f3b947990b",
+    "title": "Progent: Programmable Privilege Control for LLM Agents",
+    "url": "https://arxiv.org/abs/2504.11703"
   },
   "protobuf-encoding": {
     "identifier": "protobuf.dev/programming-guides/encoding",
@@ -581,17 +611,41 @@
     "title": "Control Chart Tests Based on Geometric Moving Averages",
     "url": "https://doi.org/10.1080/00401706.1959.10489860"
   },
+  "safety-cases-2024": {
+    "identifier": "arXiv:2403.10462",
+    "summary_sha256": "fa3b5edf3c0664835e1f1e8fd9f2a04a4e958c37466e23fa64d09fff1ac1d572",
+    "title": "Safety Cases: How to Justify the Safety of Advanced AI Systems",
+    "url": "https://arxiv.org/abs/2403.10462"
+  },
   "saltzer-1975": {
     "identifier": "Proceedings of the IEEE, vol. 63, no. 9, pp. 1278-1308; doi:10.1109/PROC.1975.9939",
     "summary_sha256": "e8525399b894c05e95adb00dfa155347a6054a48a87b5064559a1562859294d0",
     "title": "The Protection of Information in Computer Systems",
     "url": "https://doi.org/10.1109/PROC.1975.9939"
   },
+  "selective-2017": {
+    "identifier": "arXiv:1705.08500",
+    "summary_sha256": "f4182ce8055908371bd9ebb6d834992b16c7d77ff85d16b97f61a8fd0bf6ea87",
+    "title": "Selective Classification for Deep Neural Networks",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html"
+  },
   "semver-2.0.0": {
     "identifier": "SemVer 2.0.0",
     "summary_sha256": "a453f756570204cb8c19bbaa316159f6d8dc0789bcc736518d73f2a41213dc61",
     "title": "Semantic Versioning 2.0.0",
     "url": "https://semver.org/spec/v2.0.0.html"
+  },
+  "shannon-1948": {
+    "identifier": "Bell Syst. Tech. J. 27(3): 379-423 (July 1948); 27(4): 623-656 (October 1948)",
+    "summary_sha256": "30be56495d16438aa11339406ef485314d140a7f88f8efa9873744938639530f",
+    "title": "A Mathematical Theory of Communication",
+    "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf"
+  },
+  "slsa-v1-1": {
+    "identifier": "SLSA v1.1",
+    "summary_sha256": "510446deab04bfd59d5d7b15d0d2088a137702070b471831adc22cffbcf45818",
+    "title": "Supply-chain Levels for Software Artifacts (SLSA) Specification v1.1",
+    "url": "https://slsa.dev/spec/v1.1/"
   },
   "sre-workbook-2018": {
     "identifier": "ISBN 978-1-492-02950-2",

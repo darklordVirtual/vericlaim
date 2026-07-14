@@ -1,6 +1,6 @@
 # OEE (Overall Equipment Effectiveness)
 
-*Subject area: Industrial / Manufacturing Analytics. Language: python. Vendorable bundle `959ce2f938a0`.*
+*Subject area: Industrial / Manufacturing Analytics. Language: python. Vendorable bundle `b3a6ce811923`.*
 
 Overall Equipment Effectiveness is the factory-floor standard for how fully a machine is used, the product of three ratios: Availability (run time over planned time), Performance (actual over theoretical throughput), and Quality (good units over total). 100% is perfect production; about 85% is considered world-class. The published worked example resolves to 74.79%, and this module reproduces it. Vendor it to compute OEE and its factors consistently across lines and shifts; the claim proves the arithmetic matches the published reference, so you inherit a checked calculator rather than a spreadsheet formula to re-audit.
 
@@ -16,7 +16,7 @@ Ships `oee.py` into your project, byte-exact, with a generated binding test that
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/959ce2f938a06976f2a448ce5726ea4d58e6a126b7c14a2228be368af06609ac --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/b3a6ce811923718c8daa0051911aa3988864ccf4b4a667bf57392bc5cfb58e3d --target .
 ```
 
 ## References

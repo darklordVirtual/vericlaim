@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/iso27001.json": "cfdfb10af94a072cbe97cbec80cd8a3d393b94b0f4aa9746d6a4f6c0a8e32ed2",
+    "claim.json": "3530a1fbf3d086613d39ee36a99736d9259c0f6c8879f35e8f6b97d373c38f49",
+    "code/iso27001.py": "55ae53db15d15c0941109c870c05b7e6b25ad5d45a671d1b03995a13a0138c6e",
+    "provenance.json": "e966831b6973ee2625001ecb66cd7f5f2160dcbcc1fc5b3979ff04059ee887ac"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

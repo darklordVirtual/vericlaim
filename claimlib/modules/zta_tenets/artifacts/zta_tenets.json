@@ -1,0 +1,10 @@
+{
+  "checks": 5,
+  "checks_matched": 5,
+  "mismatches": 0,
+  "module": "zta_tenets",
+  "reject_cases": 4,
+  "rejects_ok": 4,
+  "schema": "claimlib_evidence_v1",
+  "tenets": 7
+}

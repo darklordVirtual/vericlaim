@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "Joshua Clymer",
+    "Nick Gabrieli",
+    "David Krueger",
+    "Thomas Larsen"
+  ],
+  "id": "safety-cases-2024",
+  "identifier": "arXiv:2403.10462",
+  "kind": "paper",
+  "publisher": "arXiv",
+  "schema": "claimlib_literature_v1",
+  "summary": "Proposes that AI developers produce a safety case \u2014 a structured rationale that an AI system is unlikely to cause a catastrophe \u2014 before training or deploying advanced systems. Following UK safety-engineering standards, the paper summarizes safety cases in Goal Structuring Notation (GSN), a flow-chart notation connecting claims (goals), justification strategies, and evidence. It organizes safety arguments into four categories: inability, control, trustworthiness, and deference to credible AI advisors. First posted March 15, 2024 (v2 March 18, 2024).",
+  "summary_sha256": "fa3b5edf3c0664835e1f1e8fd9f2a04a4e958c37466e23fa64d09fff1ac1d572",
+  "title": "Safety Cases: How to Justify the Safety of Advanced AI Systems",
+  "url": "https://arxiv.org/abs/2403.10462",
+  "year": 2024
+}

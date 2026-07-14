@@ -1,6 +1,6 @@
 # Group-fairness metrics (parity, four-fifths, equalized odds)
 
-*Subject area: AI Governance / Fairness Metrics. Language: python. Vendorable bundle `bd5e76a6dd5e`.*
+*Subject area: AI Governance / Fairness Metrics. Language: python. Vendorable bundle `92638a3a961c`.*
 
 When an enterprise audits a model for disparate treatment, three measurements carry most reviews: demographic parity (do groups get selected at the same rate), the EEOC four-fifths rule (is the lowest selection rate at least 4/5 of the highest — the classic adverse-impact screen Feldman et al. formalized), and Hardt et al.'s equalized odds (are true- and false-positive rates equal across groups). This module computes all three from per-group confusion counts in exact rational arithmetic; the claim proves the arithmetic and the defining properties, so an audit inherits checked numbers rather than a spreadsheet to re-derive.
 
@@ -16,7 +16,7 @@ Ships `fairness_metrics.py` into your project, byte-exact, with a generated bind
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/bd5e76a6dd5e629b6ec0143d028bf155e6f6105424ed9245aa6f353b3e65b6dc --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/92638a3a961ca85c0e499512ff4cafed7b988820309cdbfdf828447d83153ea3 --target .
 ```
 
 ## References

@@ -1,6 +1,6 @@
 # NMEA 0183 sentence checksum
 
-*Subject area: Industrial / Telemetry & Sensors. Language: python. Vendorable bundle `e626d405999e`.*
+*Subject area: Industrial / Telemetry & Sensors. Language: python. Vendorable bundle `97454c8614cd`.*
 
 NMEA 0183 is the line-oriented ASCII protocol that GPS receivers, marine instruments, and much SCADA telemetry use to emit sentences like '$GPGGA,...*47'. The two hex digits after '*' are the XOR of every character between '$' and '*', a lightweight guard against line noise. Vendor this module to validate incoming sentences and to build correctly-checksummed ones with zero dependencies; the claim proves it reproduces the checksums of the canonical published sentences, so you inherit a checked checksum routine rather than a re-implementation to re-audit.
 
@@ -16,7 +16,7 @@ Ships `nmea.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/e626d405999e4fc15235350c355699fa1f1652824da882572395e13059f4c346 --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/97454c8614cd415397596fbc24af33b4c0f28c371f7a1662a861dfa1123a5856 --target .
 ```
 
 ## References

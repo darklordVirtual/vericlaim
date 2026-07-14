@@ -1,0 +1,21 @@
+{
+  "authors": [
+    "Tianneng Shi",
+    "Jingxuan He",
+    "Zhun Wang",
+    "Hongwei Li",
+    "Linyu Wu",
+    "Wenbo Guo",
+    "Dawn Song"
+  ],
+  "id": "progent-2025",
+  "identifier": "arXiv:2504.11703",
+  "kind": "paper",
+  "publisher": "arXiv",
+  "schema": "claimlib_literature_v1",
+  "summary": "Proposes Progent, a privilege-control (least-privilege) framework for securing LLM agents: symbolic security policies over tool names and arguments constrain which tool calls the agent may execute, defending against attacks such as indirect prompt injection. An LLM generates and updates policies dynamically, with an SMT solver checking that updates only narrow the action space (monotonic confinement); expansions require approval. Evaluated on AgentDojo and ASB benchmarks with large reductions in attack success rate while preserving utility, integrated with LangChain and OpenAI Agents SDK. First posted April 16, 2025 (v1); v3 (May 14, 2026) retitled 'Progent: Securing AI Agents with Privilege Control'.",
+  "summary_sha256": "aa20d2ddcc53d7d9cd4717fbd7a5e56b652cb0f4565657717eac84f3b947990b",
+  "title": "Progent: Programmable Privilege Control for LLM Agents",
+  "url": "https://arxiv.org/abs/2504.11703",
+  "year": 2025
+}

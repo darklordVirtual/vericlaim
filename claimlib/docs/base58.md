@@ -1,6 +1,6 @@
 # Base58 encode/decode (Bitcoin alphabet)
 
-*Subject area: Data / Encoding. Language: python. Vendorable bundle `b956cb3a5969`.*
+*Subject area: Data / Encoding. Language: python. Vendorable bundle `dfd8d0dc6980`.*
 
 Base58 is base-conversion encoding over an alphabet chosen to survive human eyes and keyboards: the ambiguous 0/O and I/l are removed, and each leading zero byte is written as a literal '1' so binary prefixes survive the integer conversion. It is the encoding of Bitcoin addresses, IPFS CIDs (base58btc) and many key formats. This module implements encode and decode from scratch with fail-closed alphabet checking; the claim proves it matches the published vector sets byte-for-byte, so you inherit a checked codec instead of a copy-pasted gist.
 
@@ -16,7 +16,7 @@ Ships `base58.py` into your project, byte-exact, with a generated binding test t
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/b956cb3a5969211655f52824fb07ea17d8c4efae2cdb116084206ba6734ab08b --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/dfd8d0dc6980dc4b3389f893df68b2b3c60d22d5b4288f67487d2f94620f464e --target .
 ```
 
 ## References

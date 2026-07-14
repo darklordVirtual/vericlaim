@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "selective_risk.json",
+  "artifact_sha256": "ba1886c15cb3c30df18f8d7578893fddb1da46338c021ee1bd34ba6343e4aea6",
+  "script": "python3 claimlib/modules/selective_risk/evidence.py",
+  "git_commit": "8980f2272cdc19be571e7906109b5f4a9b503f2b",
+  "generated_at": "2026-07-14T16:34:32.171091+00:00",
+  "produced_by": "claimlib"
+}

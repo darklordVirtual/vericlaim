@@ -1,0 +1,10 @@
+{
+  "files": {
+    "artifacts/double_entry.json": "850f9faa3b50d6187b2839b9d097197afaeb42ee7fa481253517624da7dd6d06",
+    "claim.json": "05ee75d3e16de839a8ba5ba1f95a4f36fb800ce5d2935c588b89ec9094fda32c",
+    "code/double_entry.py": "632b9e1a0b20c88ea46e734d97434c12f4bc309afba406c2621b8257122dd246",
+    "provenance.json": "a23357b6cf450afa5ff6ae291c21748958b7faeb8ee5276c9bd7211d044c8a35"
+  },
+  "schema": "bundle_v1",
+  "status": "verified"
+}

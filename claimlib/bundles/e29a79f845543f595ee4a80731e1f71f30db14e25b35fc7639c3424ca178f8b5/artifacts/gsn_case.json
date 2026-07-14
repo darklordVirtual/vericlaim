@@ -1,0 +1,16 @@
+{
+  "checks": 50,
+  "checks_matched": 50,
+  "mismatches": 0,
+  "module": "gsn_case",
+  "mutations": 12,
+  "mutations_caught": 12,
+  "mutations_missed": 0,
+  "pair_enum_checks": 36,
+  "pair_enum_ok": 36,
+  "reject_cases": 5,
+  "rejects_ok": 5,
+  "schema": "claimlib_evidence_v1",
+  "undeveloped_ok": 1,
+  "valid_case_ok": 1
+}

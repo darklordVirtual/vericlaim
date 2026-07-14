@@ -1,0 +1,9 @@
+{
+  "schema": "vericlaim_provenance_v2",
+  "artifact": "owasp_llm10.json",
+  "artifact_sha256": "1b215cfb98895a3a8ee3d2ac1fa3f8fcbe556301c28780a631d54e891cf0ffab",
+  "script": "python3 claimlib/modules/owasp_llm10/evidence.py",
+  "git_commit": "8980f2272cdc19be571e7906109b5f4a9b503f2b",
+  "generated_at": "2026-07-14T16:45:05.198117+00:00",
+  "produced_by": "claimlib"
+}

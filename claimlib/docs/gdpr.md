@@ -1,6 +1,6 @@
 # GDPR structure, Art. 5 principles + Art. 32 measures
 
-*Subject area: Compliance / Privacy (GDPR). Language: python. Vendorable bundle `fe4b645e0d8e`.*
+*Subject area: Compliance / Privacy (GDPR). Language: python. Vendorable bundle `c2d98721dfcb`.*
 
 The GDPR -- Regulation (EU) 2016/679 -- is the backbone of European privacy law: 99 articles in 11 chapters, with Article 5 stating the processing principles (lawfulness, purpose limitation, data minimisation, accuracy, storage limitation, integrity/confidentiality, accountability) and Article 32 the security-of-processing measures every controller and processor must weigh. This module encodes that structure with fail-closed lookups and coverage scoring; the claim proves the chapter ranges partition all 99 articles and the enumerations match the Regulation, so a compliance tool inherits a checked map of the law's shape.
 
@@ -16,7 +16,7 @@ Ships `gdpr.py` into your project, byte-exact, with a generated binding test tha
 fails the moment you edit the vendored code:
 
 ```bash
-python3 integrations/library/use_code.py --bundle claimlib/bundles/fe4b645e0d8eec83409c653c70f4bb0d81236dfe63c384d4f760617ec81d8eca --target .
+python3 integrations/library/use_code.py --bundle claimlib/bundles/c2d98721dfcb1123d6ad8076088617755cf55a37f622ec902df393606ae6c776 --target .
 ```
 
 ## References
