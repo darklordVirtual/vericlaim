@@ -44,9 +44,9 @@ def main() -> int:
     text = json.dumps(artifact, indent=2) + "\n"
     if args.output_dir:
         out = Path(args.output_dir) / ART.name
-        out.write_text(text, encoding="utf-8")
+        out.write_text(text, encoding="utf-8", newline="\n")
     else:
-        ART.write_text(text, encoding="utf-8")
+        ART.write_text(text, encoding="utf-8", newline="\n")
         stamp(ART, script="python3 tools/autonomous_cycle_evidence.py")
         out = ART
     print(f"[OK] wrote {out}")

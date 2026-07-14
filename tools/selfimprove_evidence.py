@@ -78,9 +78,9 @@ def main() -> int:
         # Reproduce mode: emit into the isolated output dir; the committed sidecar
         # remains authoritative, so we don't stamp here.
         out = Path(args.output_dir) / ART.name
-        out.write_text(text, encoding="utf-8")
+        out.write_text(text, encoding="utf-8", newline="\n")
     else:
-        ART.write_text(text, encoding="utf-8")
+        ART.write_text(text, encoding="utf-8", newline="\n")
         stamp(ART, script="python3 tools/selfimprove_evidence.py")
         out = ART
     print(f"[OK] wrote {out}")
