@@ -111,6 +111,83 @@ claims:
   and only `reproduce` makes a number reproducible. For paywalled sources,
   commit your own extract/notes as `file` rather than the document itself.
 
+## Contract fields — the Design-by-Contract layer
+
+The fields above say what a claim *asserts*. These say under what conditions it
+holds, whether it is still current, how it was measured, and what it inherits.
+They are the parts Eiffel makes explicit and a claim register usually leaves as
+prose. Full rationale: [`../design-notes/contract-lineage.md`](../design-notes/contract-lineage.md).
+
+- **assumes** — the claim's PRECONDITION (Eiffel `require`). A `caveat` is free
+  text nothing can verify; an `assumes` entry is a named scope condition, and
+  when it carries a JSON Pointer the gate resolves it in the evidence and
+  compares. Scope stops being a promise and becomes a check.
+
+  ```yaml
+  assumes:
+    - key: dataset            # required: what is assumed
+      value: corpus-a         # required: the assumed value
+      pointer: /dataset       # optional: makes it ENFORCED
+      artifact: results/e.json  # optional when the claim cites one .json
+  ```
+
+  Under `require_assumes` (forced on by `enterprise`), a claim that states a
+  metric must carry at least one entry.
+
+- **status** / **superseded_by** — the claim LIFECYCLE. `active` (default) or
+  `superseded`. A superseded claim is **never deleted**: it keeps its artifact,
+  its caveat and its reproduce spec, and must name the claim that replaced it.
+  It may not be anchored on a `front_page` document — the evidence stays, the
+  citation moves. A superseded claim is not a retracted one: it was measured,
+  it still reproduces, and the observation still happened.
+
+- **retired_values** — the strings this claim's numbers used to be written as.
+  They become a stale-string denylist *derived from the register* rather than
+  remembered by a human, so the first CI run after a re-issue enumerates every
+  document still showing the old value. Populate it at re-issue time.
+
+  ```yaml
+  retired_values: ["8.0584x", "8.06x"]
+  ```
+
+- **blindness** / **sealed_set** — the MEASUREMENT CONDITION, orthogonal to
+  evidence level: `blind` (measured once, on a sealed set, against targets
+  fixed beforehand), `development` (measured on data the system had already
+  seen — never quote as generalisation evidence), or `omitted` (the
+  distinction does not apply). A `blind` claim must name its `sealed_set`, and
+  two *active* claims may not share one: a set is blind exactly once, and
+  re-measuring on it is a development measurement whatever it is called.
+
+- **rate** — ties a percentage to the sample that produced it. "0.0% failures"
+  is an overclaim by construction when nothing says out of how many. The gate
+  computes the 95% Wilson upper bound and requires the register to state it;
+  an anchor quoting the point estimate without the bound also fails.
+
+  ```yaml
+  metrics: { far_pct: 0.0, far_upper_pct: 0.76 }
+  rate:
+    metric: far_pct           # the point estimate
+    bound_metric: far_upper_pct   # the Wilson upper bound it must travel with
+    successes: 0              # events observed
+    n: 500                    # sample size
+  ```
+
+  Wilson rather than the normal approximation precisely because the
+  interesting claims sit at zero: the normal interval collapses to [0, 0] and
+  would certify a zero failure rate from any sample size at all.
+
+- **derived_from** — contract VARIANCE for reuse. A claim vendored from a
+  claimlib bundle inherits that bundle's contract; Meyer's redeclaration rule
+  says a descendant may weaken a precondition but never a postcondition, and
+  here the postcondition is the evidence level. So an imported claim may be
+  *demoted* freely and promoted only on new evidence of its own. The source
+  bundle's bytes are re-verified at the same time — inheriting from a source
+  that has silently moved is not inheritance.
+
+  ```yaml
+  derived_from: "claimlib/bundles/005031ec…"
+  ```
+
 ## Anchors: binding docs to the register
 
 In any doc under `doc_globs`, an HTML comment ties following prose to a claim:

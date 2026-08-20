@@ -5,19 +5,15 @@
 
 [vericlaim]
 # Policy profile: adopt (permissive onboarding) | strict (recommended) |
-# enterprise (regulated). This repo is mid-migration to declarative reproduce
-# specs; until every claim is converted it stays on `adopt` with the explicit
-# legacy-shell opt-in below. `strict`/`enterprise` would force provenance +
-# git-tracking on and reject legacy shell reproduction.
-profile             = "adopt"
-# Migration setting: the register still uses legacy string `reproduce` commands.
-# This flag is honored ONLY under adopt; strict/enterprise ignore it and reject
-# legacy shell. Roadmap: convert all claims to declarative and drop this.
-allow_legacy_shell  = true
+# enterprise (regulated). Every claim in this register now carries a
+# declarative reproduce spec, so the repo runs on `strict`: provenance and
+# git-tracking are forced on and unstructured shell reproduction is rejected.
+# A tool that recommends strict has to survive it.
+profile             = "strict"
 register        = "claims/register.yaml"
 baseline        = "claims/baseline.json"
 manifest        = "claims/manifest.md"
-doc_globs       = ["README.md", "docs/*.md", "docs/references/*.md", "examples/*/docs/*.md", "domains/*/docs/*.md"]
+doc_globs       = ["README.md", "docs/*.md", "docs/reference/*.md", "examples/*/docs/*.md", "domains/*/docs/*.md"]
 # Source files are docs too: comment anchors (`# claim:ID field`) bind code
 # comments to the register exactly like markdown prose.
 code_globs      = ["examples/*/src/*.py", "domains/*/src/*.py"]
@@ -32,6 +28,59 @@ require_git_tracked = true
 evidence_exclude = ["docs/evidence-levels.md"]
 stale_exclude    = []
 
+# Documents where an unshipped capability may not be stated as present, and
+# where a superseded claim may not be anchored.
+front_page = ["README.md"]
+# The roadmap whose every entry must be classified in [vericlaim.capabilities].
+roadmap = "ROADMAP.md"
+# Where `vericlaim coverage --write` stores its report; the gate reads the
+# unbound-number count from it for the ratchet below.
+coverage_artifact = "claims/coverage.json"
+# Numeric shapes that are never claims in THIS repo, on top of the built-ins
+# (ISO dates, years, semver, hash fragments).
+coverage_allow = [
+  "^3\\.1[0-9]$",     # Python version, e.g. 3.11
+  "^6901$", "^4180$", # RFC numbers cited by name
+]
+
 # A denylist of strings that were corrected and must never reappear.
 # Populate this as you fix drift; each entry: "forbidden" = "why / use instead".
+# Claims can also derive entries automatically via their `retired_values`.
 [vericlaim.stale_strings]
+
+# The ratchet: quantities allowed to fall, never to rise (see vericlaim/ratchet.py).
+# Each ceiling is the value measured when it was last tightened; coming in under
+# one prints a note telling you to lock the gain in.
+[vericlaim.ratchet]
+legacy_shell_claims      = 0
+baselined_findings       = 0
+claims_without_assumes   = 13
+claims_without_reproduce = 2
+unbound_numbers          = 69
+
+# The capability contract: what is shipped, and what is still roadmap. A
+# capability classified anything but "shipped" may not be stated as present on
+# a front-page document without a marker that it is future work.
+[vericlaim.capabilities]
+"declarative reproduce"      = "shipped"
+"metric bindings"            = "shipped"
+"value token"                = "shipped"
+"claim coverage"             = "shipped"
+"ratchet"                    = "shipped"
+"assumes"                    = "shipped"
+"claim lifecycle"            = "shipped"
+"blindness"                  = "shipped"
+"capability contract"        = "shipped"
+"sandboxed runner"           = "designed"
+"Property-based claims"      = "designed"
+"Per-commit claim diff"      = "designed"
+"Signed provenance"          = "designed"
+"Baseline metadata"          = "designed"
+"CI hardening"               = "partial"
+"Diagram render validation"  = "partial"
+"Full 21-document set"       = "designed"
+"SSRF controls"              = "designed"
+"Cloudflare scoped-token model" = "designed"
+"atomicity"                  = "partial"
+"Full Miniflare route tests" = "designed"
+"Zero-dependency parser contract" = "designed"

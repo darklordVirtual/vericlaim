@@ -47,7 +47,12 @@ from pathlib import Path
 from .config import Config
 from .pathsafe import PathSafetyError, safe_join
 from .binding import bound_metric_names, check_metric_bindings
+from .contract import (rate_pairs, retired_denylist, run_contract_checks,
+                       superseded_ids)
+from .ratchet import check as check_ratchet
+from .ratchet import measure as measure_ratchet
 from .register import RegisterError, load_register
+from .truth import check_capability_claims, check_roadmap_classified
 
 ANCHOR_RE = re.compile(r"<!--\s*claim:([A-Za-z0-9_.-]+)((?:\s+[A-Za-z0-9_.-]+)+)\s*-->")
 # A source-comment line: leader, then content. `*` covers C-block continuation
@@ -774,6 +779,92 @@ def check_evidence_citations(cfg: Config, path: Path, text: str,
     return out
 
 
+def check_retired_values(cfg: Config, path: Path, text: str,
+                         denylist: list[tuple[str, str]]) -> list[Finding]:
+    """Values a claim used to state may not survive anywhere in the docs.
+
+    This is the configured stale-string denylist, except that the entries are
+    DERIVED from the register rather than remembered by a human: a claim lists
+    the strings its numbers used to be written as, and the first CI run after a
+    re-issue names every document still showing the old one. Files listed in
+    ``stale_exclude`` are exempt, because an archive page has to be allowed to
+    quote what a result used to say.
+    """
+    out: list[Finding] = []
+    rel = _display(cfg, path)
+    if rel in cfg.stale_exclude:
+        return out
+    for idx, line in enumerate(text.splitlines()):
+        for value, why in denylist:
+            if value in line:
+                out.append((f"retired-value:{rel}:{value}",
+                            f"{rel}:{idx+1}: retired value {value!r} still "
+                            f"appears — {why}"))
+    return out
+
+
+def check_superseded_anchors(cfg: Config, path: Path, text: str,
+                             superseded: set[str]) -> list[Finding]:
+    """A replaced result may keep its evidence, but not the front page.
+
+    Superseded claims are never deleted — that is the point of the lifecycle —
+    but a document that still anchors one is quoting a number the project has
+    moved past. The claim stays in the register with its artifact; the citation
+    has to move to the replacement.
+    """
+    out: list[Finding] = []
+    rel = _display(cfg, path)
+    if rel not in cfg.front_page or not superseded:
+        return out
+    in_fence = False
+    for idx, line in enumerate(text.splitlines()):
+        stripped = line.lstrip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        scan = _INLINE_CODE_RE.sub("", line)
+        cids = {m.group(1) for m in ANCHOR_RE.finditer(scan)}
+        cids |= {m.group(1) for m in VALUE_TOKEN_RE.finditer(scan)}
+        for cid in sorted(cids & superseded):
+            out.append((f"superseded-on-front-page:{rel}:{cid}",
+                        f"{rel}:{idx+1}: {cid} is superseded but is still "
+                        f"anchored here — cite the claim that replaced it"))
+    return out
+
+
+def check_rate_anchor_pairing(cfg: Config, path: Path, text: str,
+                              pairs: dict[str, tuple[str, str]]) -> list[Finding]:
+    """A rate may not be quoted without the bound its sample size supports.
+
+    "0.0% failures" is not a false statement, but on its own it invites the
+    reader to generalise from a sample that may not support it. Where the
+    register knows the pairing, the gate requires both fields in the same
+    anchor: point estimate and upper bound travel together or not at all.
+    """
+    out: list[Finding] = []
+    rel = _display(cfg, path)
+    in_fence = False
+    for idx, line in enumerate(text.splitlines()):
+        stripped = line.lstrip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        scan = _INLINE_CODE_RE.sub("", line)
+        for m in ANCHOR_RE.finditer(scan):
+            cid, fields = m.group(1), set(m.group(2).split())
+            pair = pairs.get(cid)
+            if pair and pair[0] in fields and pair[1] not in fields:
+                out.append((f"rate-bound-unquoted:{rel}:{cid}",
+                            f"{rel}:{idx+1}: anchor quotes {cid}.{pair[0]} "
+                            f"without {pair[1]} — a rate and the upper bound "
+                            f"its n supports must be stated together"))
+    return out
+
+
 def check_stale_strings(cfg: Config, path: Path, text: str) -> list[Finding]:
     out: list[Finding] = []
     rel = _display(cfg, path)
@@ -849,6 +940,26 @@ def _doc_paths(cfg: Config) -> list[Path]:
     return _glob_paths(cfg, cfg.doc_globs)
 
 
+def _unbound_numbers(cfg: Config) -> int | None:
+    """The unbound-literal count from the committed coverage report.
+
+    Read rather than recomputed so the side-effect-free gate stays cheap; the
+    report is regenerated by ``vericlaim coverage --write``. A configured but
+    unreadable report returns None, which the ratchet reports as unmeasured
+    rather than silently treating as zero.
+    """
+    if not cfg.coverage_artifact:
+        return None
+    p = cfg.path(cfg.coverage_artifact)
+    if not p.exists():
+        return None
+    try:
+        value = json.loads(p.read_text(encoding="utf-8")).get("numbers_unbound")
+    except (json.JSONDecodeError, OSError):
+        return None
+    return value if isinstance(value, int) else None
+
+
 def run(cfg: Config, *, quiet: bool = False) -> int:
     """Run all checks. Returns 0 on success, 1 on a new (non-baselined) failure."""
     notes: list[str] = []
@@ -876,14 +987,24 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
     findings += check_manifest_coverage(claims, cfg)
     findings += check_metrics_match_artifact(claims, cfg)
     findings += check_metric_bindings(claims, cfg)
+    findings += run_contract_checks(claims, cfg)
+    findings += check_roadmap_classified(cfg)
+    retired = retired_denylist(claims)
+    superseded = superseded_ids(claims)
+    pairs = rate_pairs(claims)
     docs = _doc_paths(cfg)
     for doc in docs:
         text = doc.read_text(encoding="utf-8", errors="replace")
+        rel = _display(cfg, doc)
         findings += check_fence_balance(cfg, doc, text)
         findings += check_doc_anchors(cfg, doc, text, by_id)
         findings += check_value_tokens(cfg, doc, text, by_id)
         findings += check_evidence_citations(cfg, doc, text, by_id)
         findings += check_stale_strings(cfg, doc, text)
+        findings += check_retired_values(cfg, doc, text, retired)
+        findings += check_superseded_anchors(cfg, doc, text, superseded)
+        findings += check_rate_anchor_pairing(cfg, doc, text, pairs)
+        findings += check_capability_claims(cfg, rel, text)
     doc_set = set(docs)
     for src in _glob_paths(cfg, cfg.code_globs):
         if src in doc_set:
@@ -892,6 +1013,7 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
         findings += check_code_anchors(cfg, src, text, by_id)
         findings += check_evidence_citations(cfg, src, text, by_id)
         findings += check_stale_strings(cfg, src, text)
+        findings += check_retired_values(cfg, src, text, retired)
 
     try:
         baseline = _load_baseline(cfg)
@@ -911,6 +1033,14 @@ def run(cfg: Config, *, quiet: bool = False) -> int:
         else:
             new.append((e, m))
     stale_baseline = sorted(set(baseline) - seen_ids)
+
+    # The ratchet runs AFTER the baseline split, and its findings are never
+    # grandfathered: a ceiling you can baseline your way past is not a ceiling.
+    # It also measures the baseline itself, which is why it has to run here.
+    new += check_ratchet(
+        measure_ratchet(claims, cfg, baselined=len(grandfathered),
+                        unbound_numbers=_unbound_numbers(cfg)),
+        cfg, notes)
 
     if not quiet:
         for note in notes:

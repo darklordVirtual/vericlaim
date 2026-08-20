@@ -21,7 +21,7 @@ sys.path.insert(0, str(ROOT))
 
 import litcoverage  # noqa: E402
 from litindex import _load_works  # noqa: E402
-from vericlaim.provenance import stamp  # noqa: E402
+from vericlaim.evidence import emit, output_dir_arg  # noqa: E402
 
 ARTIFACT = LIBDIR / "artifacts" / "research_layer.json"
 
@@ -55,10 +55,9 @@ def main() -> int:
         "undocumented_gaps": len(litcoverage.check(rep)),
     }
     ARTIFACT.parent.mkdir(parents=True, exist_ok=True)
-    ARTIFACT.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n",
-                        encoding="utf-8")
-    stamp(str(ARTIFACT.relative_to(ROOT)),
-          script="python3 integrations/library/evidence_research_layer.py")
+    emit(json.dumps(out, indent=2, sort_keys=True) + "\n", ARTIFACT,
+         script="python3 integrations/library/evidence_research_layer.py",
+         output_dir=output_dir_arg())
     print(json.dumps(out, indent=2, sort_keys=True))
     return 0
 

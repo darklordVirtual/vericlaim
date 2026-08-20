@@ -4,7 +4,7 @@
 Formulas are JSON values: an atom is a string ("p"), an implication is
 ["->", A, B], a negation is ["not", A]. The system is Łukasiewicz's third
 axiomatization of classical propositional logic (see
-docs/references/lukasiewicz-axioms.md):
+docs/reference/lukasiewicz-axioms.md):
 
     A1:  φ → (ψ → φ)
     A2:  (φ → (ψ → χ)) → ((φ → ψ) → (φ → χ))

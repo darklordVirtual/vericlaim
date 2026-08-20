@@ -19,16 +19,15 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from vericlaim import __version__  # noqa: E402
-from vericlaim.provenance import stamp  # noqa: E402
+from vericlaim.evidence import emit, output_dir_arg  # noqa: E402
 
 ARTIFACT = ROOT / "claims" / "version.json"
 
 
 def main() -> int:
-    ARTIFACT.write_text(
-        json.dumps({"version": __version__}, indent=2) + "\n",
-        encoding="utf-8", newline="\n")
-    stamp("claims/version.json", script="python3 tools/version_evidence.py")
+    emit(json.dumps({"version": __version__}, indent=2) + "\n", ARTIFACT,
+         script="python3 tools/version_evidence.py",
+         output_dir=output_dir_arg())
     print(f"version = {__version__}")
     return 0
 

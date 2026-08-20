@@ -1,0 +1,291 @@
+{
+  "schema": "vericlaim_coverage_v1",
+  "numbers_total": 173,
+  "numbers_bound": 104,
+  "numbers_unbound": 69,
+  "coverage_pct": 60.12,
+  "files": [
+    {
+      "path": "docs/claim-oriented-cookbook.md",
+      "bound": 5,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "docs/claim-register-spec.md",
+      "bound": 20,
+      "unbound": 6,
+      "unbound_examples": [
+        {
+          "line": 161,
+          "literal": "0.0"
+        },
+        {
+          "line": 163,
+          "literal": "95"
+        },
+        {
+          "line": 176,
+          "literal": "0"
+        },
+        {
+          "line": 176,
+          "literal": "0"
+        },
+        {
+          "line": 208,
+          "literal": "180"
+        }
+      ]
+    },
+    {
+      "path": "docs/getting-started.md",
+      "bound": 5,
+      "unbound": 10,
+      "unbound_examples": [
+        {
+          "line": 3,
+          "literal": "15"
+        },
+        {
+          "line": 5,
+          "literal": "1"
+        },
+        {
+          "line": 24,
+          "literal": "2"
+        },
+        {
+          "line": 56,
+          "literal": "3"
+        },
+        {
+          "line": 65,
+          "literal": "180"
+        }
+      ]
+    },
+    {
+      "path": "docs/manifesto.md",
+      "bound": 0,
+      "unbound": 9,
+      "unbound_examples": [
+        {
+          "line": 9,
+          "literal": "1"
+        },
+        {
+          "line": 28,
+          "literal": "2"
+        },
+        {
+          "line": 34,
+          "literal": "2.5"
+        },
+        {
+          "line": 35,
+          "literal": "2.5"
+        },
+        {
+          "line": 38,
+          "literal": "3"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "bound": 0,
+      "unbound": 3,
+      "unbound_examples": [
+        {
+          "line": 26,
+          "literal": "231"
+        },
+        {
+          "line": 26,
+          "literal": "10"
+        },
+        {
+          "line": 27,
+          "literal": "16"
+        }
+      ]
+    },
+    {
+      "path": "docs/reference/ai-assurance-catalog.md",
+      "bound": 4,
+      "unbound": 15,
+      "unbound_examples": [
+        {
+          "line": 28,
+          "literal": "1"
+        },
+        {
+          "line": 29,
+          "literal": "2"
+        },
+        {
+          "line": 30,
+          "literal": "3"
+        },
+        {
+          "line": 31,
+          "literal": "4"
+        },
+        {
+          "line": 32,
+          "literal": "5"
+        }
+      ]
+    },
+    {
+      "path": "docs/reference/bibliography.md",
+      "bound": 0,
+      "unbound": 2,
+      "unbound_examples": [
+        {
+          "line": 14,
+          "literal": "2"
+        },
+        {
+          "line": 22,
+          "literal": "6"
+        }
+      ]
+    },
+    {
+      "path": "docs/reference/claim-schema-v2.md",
+      "bound": 3,
+      "unbound": 4,
+      "unbound_examples": [
+        {
+          "line": 10,
+          "literal": "9"
+        },
+        {
+          "line": 61,
+          "literal": "90"
+        },
+        {
+          "line": 62,
+          "literal": "200"
+        },
+        {
+          "line": 87,
+          "literal": "102"
+        }
+      ]
+    },
+    {
+      "path": "docs/reference/configuration.md",
+      "bound": 5,
+      "unbound": 1,
+      "unbound_examples": [
+        {
+          "line": 28,
+          "literal": "1"
+        }
+      ]
+    },
+    {
+      "path": "docs/reference/lukasiewicz-axioms.md",
+      "bound": 0,
+      "unbound": 3,
+      "unbound_examples": [
+        {
+          "line": 28,
+          "literal": "6"
+        },
+        {
+          "line": 29,
+          "literal": "1.4"
+        },
+        {
+          "line": 30,
+          "literal": "1.8"
+        }
+      ]
+    },
+    {
+      "path": "domains/cost_routing/docs/results.md",
+      "bound": 7,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "domains/eval_harness/docs/results.md",
+      "bound": 7,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "domains/evidence_graph/docs/results.md",
+      "bound": 4,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "domains/multitenant/docs/results.md",
+      "bound": 4,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "domains/ontologies/docs/results.md",
+      "bound": 4,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "examples/greetings/docs/results.md",
+      "bound": 1,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "examples/rle/docs/results.md",
+      "bound": 4,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "examples/theorem/docs/results.md",
+      "bound": 2,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "examples/tipcalc/docs/results.md",
+      "bound": 2,
+      "unbound": 0,
+      "unbound_examples": []
+    },
+    {
+      "path": "README.md",
+      "bound": 27,
+      "unbound": 16,
+      "unbound_examples": [
+        {
+          "line": 7,
+          "literal": "180"
+        },
+        {
+          "line": 8,
+          "literal": "900"
+        },
+        {
+          "line": 39,
+          "literal": "60"
+        },
+        {
+          "line": 51,
+          "literal": "60"
+        },
+        {
+          "line": 62,
+          "literal": "1"
+        }
+      ]
+    }
+  ]
+}

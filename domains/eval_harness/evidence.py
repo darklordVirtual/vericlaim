@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root
+from vericlaim.evidence import emit, output_dir_arg  # noqa: E402
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 from eval_harness import GOLD, PREDICTIONS, evaluate  # noqa: E402
 
@@ -22,9 +23,9 @@ def main() -> int:
     artifact = {"schema": "eval_harness_v1", **scores}
     out = Path(__file__).resolve().parent / "artifacts" / "eval_report.json"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
-    from vericlaim.provenance import stamp
-    stamp(out, script="python3 domains/eval_harness/evidence.py")
+    emit(json.dumps(artifact, indent=2) + "\n", out,
+         script="python3 domains/eval_harness/evidence.py",
+         output_dir=output_dir_arg())
     print(f"[OK] wrote {out}")
     for k, v in scores.items():
         print(f"     {k}={v}")

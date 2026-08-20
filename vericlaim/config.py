@@ -52,6 +52,28 @@ class Config:
     # must actually be committed). Off by default so non-git checkouts and tests
     # still work; recommended on in CI.
     require_git_tracked: bool = False
+    # When true, a claim that states a metric must declare at least one
+    # machine-readable precondition (`assumes`) rather than scope-in-prose
+    # only. Forced on under `enterprise`: the regulated tier is where an
+    # unverifiable caveat stops being acceptable.
+    require_assumes: bool = False
+    # Documents the capability check treats as the front page (where an
+    # unshipped capability may not be stated as present).
+    front_page: tuple[str, ...] = ("README.md",)
+    # Capability -> class ("shipped" or anything else, e.g. "designed").
+    capabilities: tuple[tuple[str, str], ...] = ()
+    # Extra words that mark a sentence as speaking about future work.
+    capability_hedges: tuple[str, ...] = ()
+    # Roadmap file whose entries must all be classified above.
+    roadmap: str | None = None
+    # Extra regexes for numeric literals coverage must not count as claims.
+    coverage_allow: tuple[str, ...] = ()
+    # Where `vericlaim coverage --write` stores its report, and where the gate
+    # reads `unbound_numbers` from for the ratchet. Unset means coverage is
+    # measured on demand only and never ratcheted.
+    coverage_artifact: str | None = None
+    # Monotone quality ceilings: metric -> highest tolerated value.
+    ratchet: tuple[tuple[str, int], ...] = ()
 
     def path(self, rel: str) -> Path:
         return self.root / rel
@@ -97,6 +119,22 @@ def load_config(root: Path, config_path: Path | None = None,
         val = v.get(key)
         return tuple(val) if isinstance(val, list) else default
 
+    caps = v.get("capabilities", {})
+    caps_tuple = tuple(
+        (str(k), str(val)) for k, val in caps.items()
+    ) if isinstance(caps, dict) else ()
+    rat = v.get("ratchet", {})
+    if isinstance(rat, dict):
+        for k, val in rat.items():
+            if isinstance(val, bool) or not isinstance(val, int):
+                raise ValueError(
+                    f"[vericlaim.ratchet] {k!r} must be an integer ceiling, "
+                    f"got {type(val).__name__} — a ratchet that cannot be "
+                    f"compared is a ratchet that never holds")
+        rat_tuple = tuple((str(k), int(val)) for k, val in rat.items())
+    else:
+        rat_tuple = ()
+
     base = Config(root=root)
     profile = profile_override or str(v.get("profile", base.profile))
     if profile not in PROFILES:
@@ -120,4 +158,15 @@ def load_config(root: Path, config_path: Path | None = None,
         stale_strings=stale_tuple,
         require_provenance=(True if strict else bool(v.get("require_provenance", base.require_provenance))),
         require_git_tracked=(True if strict else bool(v.get("require_git_tracked", base.require_git_tracked))),
+        # Enterprise is the regulated tier: prose-only scope is not enough there.
+        require_assumes=(True if profile == "enterprise"
+                         else bool(v.get("require_assumes", base.require_assumes))),
+        front_page=_tuple("front_page", base.front_page),
+        capabilities=caps_tuple,
+        capability_hedges=_tuple("capability_hedges", base.capability_hedges),
+        roadmap=(str(v["roadmap"]) if "roadmap" in v else base.roadmap),
+        coverage_allow=_tuple("coverage_allow", base.coverage_allow),
+        coverage_artifact=(str(v["coverage_artifact"]) if "coverage_artifact" in v
+                           else base.coverage_artifact),
+        ratchet=rat_tuple,
     )

@@ -14,6 +14,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, for `import vericlaim`
+from vericlaim.evidence import emit, output_dir_arg  # noqa: E402
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 from proofcheck import check_file  # noqa: E402
 
@@ -30,10 +31,9 @@ def main() -> int:
     }
     out = here / "artifacts" / "theorem.json"
     out.parent.mkdir(exist_ok=True)
-    out.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8",
-                   newline="\n")
-    from vericlaim.provenance import stamp
-    stamp(out, script="python3 examples/theorem/evidence.py")
+    emit(json.dumps(artifact, indent=2) + "\n", out,
+         script="python3 examples/theorem/evidence.py",
+         output_dir=output_dir_arg())
     print(f"[OK] wrote {out}")
     print(f"     steps_verified={report['steps_verified']} qed={report['qed']}")
     return 0

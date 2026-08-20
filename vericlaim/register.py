@@ -248,6 +248,17 @@ _SHAPES: tuple = (
     ("reproduce_argv", (list,), True),      # list of str
     ("reproduce_outputs", (list,), True),   # list of str
     ("literature", (list,), False),
+    # Contract layer (see contract.py). Shapes are enforced here so a
+    # mistyped lifecycle or precondition fails closed at parse time rather
+    # than being silently ignored by the check that consumes it.
+    ("status", (str,), False),
+    ("superseded_by", (str,), False),
+    ("retired_values", (list,), True),   # list of str
+    ("blindness", (str,), False),
+    ("sealed_set", (str,), False),
+    ("derived_from", (str,), False),
+    ("assumes", (list,), False),
+    ("rate", (dict,), False),
 )
 
 
@@ -278,6 +289,11 @@ def _validate_claim_shapes(claims: list) -> None:
         if isinstance(lit, list) and not all(isinstance(e, dict) for e in lit):
             raise RegisterError(
                 f"{label}: every `literature` entry must be a mapping")
+        assumes = c.get("assumes")
+        if isinstance(assumes, list) and not all(isinstance(e, dict) for e in assumes):
+            raise RegisterError(
+                f"{label}: every `assumes` entry must be a mapping with at "
+                f"least `key` and `value`")
         mb = c.get("metric_bindings")
         if mb is not None:
             if not isinstance(mb, list):

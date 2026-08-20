@@ -15,5 +15,5 @@ caveat_extra = "Harvested from vericlaim@{commit} (own gate green at harvest; th
 
 [lit_queries]
 # vericlaim's claims are about the framework itself; bibliography matching
-# (biblio_curate) against docs/references/bibliography.md is the primary
+# (biblio_curate) against docs/reference/bibliography.md is the primary
 # curation path for this repo.

@@ -134,7 +134,12 @@ Nothing conventional catches a project that misdescribes itself.**
 Where Bertrand Meyer's **Design by Contract** put pre/post-conditions on
 *functions*, checked at *run time*, vericlaim puts contracts on the *project's
 claims about itself*, checked in *CI*. Same discipline, lifted a level, for a new
-era. The full argument: [`docs/manifesto.md`](docs/manifesto.md) (5-minute read).
+era — and the whole of it, not just the postcondition: a claim states what it
+`assumes` (scope resolved against the evidence, not prose in a caveat), what it
+inherits and may not strengthen, and which repository-wide quantities are only
+allowed to fall. The full argument: [`docs/manifesto.md`](docs/manifesto.md)
+(5-minute read); the idea-by-idea lineage, including what is deliberately not
+built: [`docs/design-notes/contract-lineage.md`](docs/design-notes/contract-lineage.md).
 
 ---
 
@@ -153,6 +158,13 @@ era. The full argument: [`docs/manifesto.md`](docs/manifesto.md) (5-minute read)
 | **Literature integrity** | Each `literature` entry's committed source must still hash to its registered SHA-256 — a citation can be proven intact, and can never be fabricated or silently swapped. |
 | **Evidence levels** | A doc cannot describe a claim above the level it has earned. |
 | **Stale-string denylist** | A wording you corrected can never quietly reappear. |
+| **Claim preconditions** | `assumes` states the scope a claim holds under, and a JSON Pointer resolves it against the evidence — the scope is checked, not just written down. |
+| **Claim lifecycle** | A `superseded` claim keeps its evidence but may not be anchored on the front page, and its `retired_values` become a denylist derived from the register rather than from memory. |
+| **Measurement condition** | `blindness` records whether a result was measured on a sealed set or on data already seen; a sealed set may back only one active claim. |
+| **Rate honesty** | A percentage must register the 95% Wilson upper bound its sample size supports, and no doc may quote the point estimate without it. |
+| **Inheritance variance** | A claim vendored from a claimlib bundle may be demoted freely but never promoted above its source's evidence level, and the source bundle is re-hashed. |
+| **The ratchet** | Declared ceilings on repository-level debt (unbound numbers, baselined findings, claims with no reproduce) that may fall but never rise. |
+| **Capability contract** | A capability classified as roadmap may not be written on the front page as if it existed. |
 
 Adoption is **incremental**: pre-existing violations are grandfathered in a
 baseline (reported as warnings); new violations fail immediately.
@@ -204,6 +216,24 @@ It does **not** prove that:
   appears nearby — but the prose *around* a pinned number can still lie, and
   no gate reads meaning. See
   [`docs/design-notes/contract-lineage.md`](docs/design-notes/contract-lineage.md).
+
+### How much is bound? — `vericlaim coverage`
+
+"Only the docs and numbers you bind" used to be an unmeasured hole: a green
+gate looked identical whether a document was fully bound or bound nowhere,
+which is exactly the gap an assistant widens when it adds three unsourced
+figures to a README. `vericlaim coverage` measures it instead.
+
+<!-- claim:CLAIM-COV-001 coverage_pct numbers_unbound numbers_total -->
+Across this repository's bound documents,
+<!-- v:CLAIM-COV-001.coverage_pct -->**60.12%** of the
+<!-- v:CLAIM-COV-001.numbers_total -->**173** numeric literals in prose sit
+inside a paragraph a claim anchor governs or a value token pins;
+<!-- v:CLAIM-COV-001.numbers_unbound -->**69** remain unbound. Unbound is not
+wrong — most numbers are not claims — so coverage is *measured and ratcheted*,
+never enforced at 100%: `[vericlaim.ratchet]` lets the unbound count fall and
+fails the build if it rises. The number above is itself `CLAIM-COV-001`, so
+this paragraph is counted by the thing it describes.
 
 That boundary is the point: *no unsourced claim, no silent numeric drift, no
 claim above its stated evidence level, and every number still reproduces.* Those,
