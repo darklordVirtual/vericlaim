@@ -424,3 +424,17 @@ def test_register_rejects_a_non_mapping_assumes_entry():
             '    assumes:\n      - "just a string"\n')
     with pytest.raises(RegisterError, match="`assumes` entry"):
         load_register(text)
+
+
+def test_coverage_file_order_is_platform_independent(tmp_path):
+    """The report is byte-compared by `vericlaim reproduce`, so its file order
+    must not depend on the OS. Sorting Path objects is case-insensitive on
+    Windows and case-sensitive elsewhere, which put README.md on a different
+    side of docs/ on each platform and failed a correct reproduction in CI."""
+    (tmp_path / "docs").mkdir()
+    (tmp_path / "README.md").write_text("1 number\n", encoding="utf-8")
+    (tmp_path / "docs" / "a.md").write_text("2 numbers\n", encoding="utf-8")
+    paths = [tmp_path / "docs" / "a.md", tmp_path / "README.md"]
+    order = [f["path"] for f in report(cfg_for(tmp_path), paths)["files"]]
+    assert order == sorted(order), order
+    assert order == ["README.md", "docs/a.md"]

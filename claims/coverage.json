@@ -6,6 +6,52 @@
   "coverage_pct": 60.12,
   "files": [
     {
+      "path": "README.md",
+      "bound": 27,
+      "unbound": 16,
+      "unbound_examples": [
+        {
+          "line": 7,
+          "literal": "180"
+        },
+        {
+          "line": 8,
+          "literal": "900"
+        },
+        {
+          "line": 39,
+          "literal": "60"
+        },
+        {
+          "line": 51,
+          "literal": "60"
+        },
+        {
+          "line": 62,
+          "literal": "1"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "bound": 0,
+      "unbound": 3,
+      "unbound_examples": [
+        {
+          "line": 26,
+          "literal": "231"
+        },
+        {
+          "line": 26,
+          "literal": "10"
+        },
+        {
+          "line": 27,
+          "literal": "16"
+        }
+      ]
+    },
+    {
       "path": "docs/claim-oriented-cookbook.md",
       "bound": 5,
       "unbound": 0,
@@ -89,25 +135,6 @@
         {
           "line": 38,
           "literal": "3"
-        }
-      ]
-    },
-    {
-      "path": "docs/README.md",
-      "bound": 0,
-      "unbound": 3,
-      "unbound_examples": [
-        {
-          "line": 26,
-          "literal": "231"
-        },
-        {
-          "line": 26,
-          "literal": "10"
-        },
-        {
-          "line": 27,
-          "literal": "16"
         }
       ]
     },
@@ -259,33 +286,6 @@
       "bound": 2,
       "unbound": 0,
       "unbound_examples": []
-    },
-    {
-      "path": "README.md",
-      "bound": 27,
-      "unbound": 16,
-      "unbound_examples": [
-        {
-          "line": 7,
-          "literal": "180"
-        },
-        {
-          "line": 8,
-          "literal": "900"
-        },
-        {
-          "line": 39,
-          "literal": "60"
-        },
-        {
-          "line": 51,
-          "literal": "60"
-        },
-        {
-          "line": 62,
-          "literal": "1"
-        }
-      ]
     }
   ]
 }

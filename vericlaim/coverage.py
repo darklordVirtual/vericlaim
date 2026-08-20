@@ -126,15 +126,25 @@ def report(cfg: Config, doc_paths: list[Path]) -> dict:
     allow = _allow_res(cfg)
     per_file: list[dict] = []
     total_bound = total_unbound = 0
-    for path in sorted(doc_paths):
+
+    def _rel(path: Path) -> str:
+        try:
+            return path.relative_to(cfg.root).as_posix()
+        except ValueError:
+            return path.name
+
+    # Sort by the RELATIVE POSIX STRING, never by the Path object: comparing
+    # paths is case-insensitive on Windows and case-sensitive elsewhere, so
+    # `README.md` sorts before `docs/...` on Linux and after it on Windows.
+    # This report is byte-compared by `vericlaim reproduce`, and that single
+    # difference is enough to make a correct reproduction fail on the other
+    # platform — which is exactly how CI caught it.
+    for path in sorted(doc_paths, key=_rel):
         text = path.read_text(encoding="utf-8", errors="replace")
         bound, unbound, misses = scan_text(text, allow)
         if bound == unbound == 0:
             continue
-        try:
-            rel = path.relative_to(cfg.root).as_posix()
-        except ValueError:
-            rel = path.name
+        rel = _rel(path)
         total_bound += bound
         total_unbound += unbound
         per_file.append({

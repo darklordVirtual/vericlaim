@@ -1,9 +1,9 @@
 {
   "schema": "vericlaim_provenance_v2",
   "artifact": "coverage.json",
-  "artifact_sha256": "8ffa0df7128308d21861fe0b0c4358bf754c0213a9df32a2caec14acf492c638",
+  "artifact_sha256": "2229c82c3764d4c7434fcfc62e0874820256a2284b6d12210f0c69954f14a100",
   "script": "python3 -m vericlaim coverage --write claims/coverage.json",
-  "git_commit": "48b46965891fe39350b27e11311b9eab17e3676f",
-  "generated_at": "2026-08-20T10:52:24.816239+00:00",
+  "git_commit": "292cfab2ca132a758397db819e2c5663b11a330b",
+  "generated_at": "2026-08-20T11:01:04.700715+00:00",
   "produced_by": "human"
 }
