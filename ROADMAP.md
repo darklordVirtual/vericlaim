@@ -8,28 +8,17 @@ Status: 🟡 partially implemented · ⏳ designed, not built.
 
 ## Near-term
 
-- ⏳ **Declarative reproduce for the whole register.** The declarative runner
-  (`vericlaim/repro.py`) is implemented and tested, and the former parser
-  blocker is resolved: the flat `reproduce_argv` / `reproduce_outputs` fields
-  parse identically under the bundled parser and PyYAML. **claimlib's 102
-  claims are fully converted** (`vericlaim --root claimlib reproduce` re-runs
-  every spec from scratch), and the root register's CLAIM-RSI-001/002 use the
-  declarative form. Remaining: the root register's examples/domains/library
-  claims still use legacy strings — convert them and make `reproduce` pass
-  under `--profile strict` repo-wide.
-- ✅ **Schema v2 explicit metric bindings — SHIPPED.** `metric_bindings`
-  pin a metric to `{artifact, pointer, type, unit, comparator, value}` with
-  RFC 6901 JSON Pointer and Decimal-safe comparators
-  (`exact`/`minimum`/`maximum`/`bounded`); bound metrics leave the v1
-  key scan; both parsers accept the shape identically. Dogfooded: all 88
-  claimlib claims and the root register's CLAIM-EX-001 / CLAIM-LIB-INDEX-001.
-  Reference: `docs/reference/claim-schema-v2.md`. Remaining v2 ideas
-  (derived metrics, whole-artifact schema validation) stay open below.
 - ⏳ **Zero-dependency parser contract.** Either (A) a documented restricted YAML
   grammar with exact errors, or (B) a canonical stdlib format (JSON/TOML) with
   YAML as compat import. Required so nested specs parse identically with and
   without PyYAML. Currently unsupported syntax must not be silently read as a
   scalar (partly addressed: inline comments are stripped).
+- ⏳ **Property-based claims.** A claim carries a `property` to fuzz over
+  generated inputs, so "passes the four corpus files" cannot stand in for
+  "holds in general" — the failure mode AI-authored code produces most often.
+- ⏳ **Per-commit claim diff.** Classify each register change across git history
+  as strengthened, weakened or evidence-demoted, so a weakened guarantee cannot
+  hide inside a large diff.
 
 ## Reproduction & supply chain
 

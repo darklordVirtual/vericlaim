@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, for `import vericlaim`
+from vericlaim.evidence import emit, output_dir_arg  # noqa: E402
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 from greetings import greet, supported_languages  # noqa: E402
 
@@ -26,10 +27,9 @@ def main() -> int:
         "sample": {lang: greet("Ada", lang) for lang in langs},
     }
     out = Path(__file__).resolve().parent / "artifacts" / "greetings.json"
-    out.write_text(json.dumps(artifact, indent=2, ensure_ascii=False) + "\n",
-                   encoding="utf-8", newline="\n")
-    from vericlaim.provenance import stamp
-    stamp(out, script="python3 examples/greetings/evidence.py")
+    emit(json.dumps(artifact, indent=2, ensure_ascii=False) + "\n", out,
+         script="python3 examples/greetings/evidence.py",
+         output_dir=output_dir_arg())
     print(f"[OK] wrote {out}")
     print(f"     n_languages={len(langs)} ({', '.join(langs)})")
     return 0

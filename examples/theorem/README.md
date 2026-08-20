@@ -10,7 +10,7 @@ every check — never asserted by hand.
 
 The axiom system (Łukasiewicz A1–A3 + modus ponens) is cited via a
 hash-verified `literature` entry in the register pointing at
-[`docs/references/lukasiewicz-axioms.md`](../../docs/references/lukasiewicz-axioms.md):
+[`docs/reference/lukasiewicz-axioms.md`](../../docs/reference/lukasiewicz-axioms.md):
 the gate proves the cited note cannot silently change after registration. The
 literature supports the *context*; correctness of the derivation is established
 only by the checker.

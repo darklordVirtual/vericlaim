@@ -21,7 +21,7 @@ sys.path.insert(0, str(ROOT / "claimlib" / "literature"))
 
 from MODULES import MODULES  # noqa: E402
 from SOURCES import SOURCES  # noqa: E402
-from vericlaim.provenance import stamp  # noqa: E402
+from vericlaim.evidence import emit, output_dir_arg  # noqa: E402
 
 ARTIFACT = ROOT / "claims" / "claimlib_index.json"
 
@@ -42,10 +42,9 @@ def main() -> int:
         "modules_uncited": len(MODULES) - len(cited),
         "citations_total": sum(len(m["references"]) for m in cited),
     }
-    ARTIFACT.write_text(json.dumps(payload, indent=2) + "\n",
-                        encoding="utf-8", newline="\n")
-    stamp("claims/claimlib_index.json",
-          script="python3 tools/claimlib_index_evidence.py")
+    emit(json.dumps(payload, indent=2) + "\n", ARTIFACT,
+         script="python3 tools/claimlib_index_evidence.py",
+         output_dir=output_dir_arg())
     print(json.dumps(payload, indent=2))
     return 0
 

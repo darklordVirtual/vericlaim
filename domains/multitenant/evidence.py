@@ -13,6 +13,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parents[1]))              # repo root
 sys.path.insert(0, str(HERE / "src"))
+from vericlaim.evidence import emit, output_dir_arg  # noqa: E402
 from multitenant import run_isolation_battery  # noqa: E402
 
 
@@ -21,9 +22,9 @@ def main() -> int:
     artifact = {"schema": "multitenant_v1", **asdict(report)}
     out = HERE / "artifacts" / "isolation_report.json"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
-    from vericlaim.provenance import stamp
-    stamp(out, script="python3 domains/multitenant/evidence.py")
+    emit(json.dumps(artifact, indent=2) + "\n", out,
+         script="python3 domains/multitenant/evidence.py",
+         output_dir=output_dir_arg())
     print(f"[OK] wrote {out}")
     for k, v in asdict(report).items():
         print(f"     {k}={v}")

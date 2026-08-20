@@ -29,7 +29,13 @@ claims:
       other occurrence is checked equal to it by the test suite and this bound
       README line. It asserts consistency, not that 0.4.0 is the "right" release
       number — that is the maintainer's call, bumped in one place.
-    reproduce: "python3 tools/version_evidence.py"
+    reproduce_argv:
+      - python3
+      - tools/version_evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "claims/version.json"
 
   - id: CLAIM-CORE-001
     statement: >
@@ -52,6 +58,13 @@ claims:
       On the fixed example corpus, the run-length encoder achieves an overall
       compression ratio of 8.0584x across 4 files.
     evidence_level: benchmarked
+    assumes:
+      - key: corpus_size
+        value: "4"
+        pointer: /n_files
+      - key: report_schema
+        value: "rle_bench_v1"
+        pointer: /schema
     artifact:
       - "examples/rle/artifacts/rle_bench.json"
     n: 4
@@ -67,13 +80,26 @@ claims:
       Corpus is hand-picked to contain the run structure RLE exploits; this is a
       demonstration of Claim-Oriented Programming, not a general compression
       result. On real-world data with few runs, RLE can EXPAND the input.
-    reproduce: "python3 examples/rle/bench.py"
+    reproduce_argv:
+      - python3
+      - examples/rle/bench.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "examples/rle/artifacts/rle_bench.json"
 
   - id: CLAIM-EX-002
     statement: >
       Encoding then decoding is lossless: all 4 example files round-trip to the
       original bytes exactly.
     evidence_level: benchmarked
+    assumes:
+      - key: corpus_size
+        value: "4"
+        pointer: /n_files
+      - key: report_schema
+        value: "rle_bench_v1"
+        pointer: /schema
     artifact:
       - "examples/rle/artifacts/rle_bench.json"
     metrics:
@@ -82,13 +108,23 @@ claims:
       Verified on the 4-file example corpus only. The property test in
       tests/test_rle_example.py exercises additional inputs, but a formal
       round-trip proof over all byte strings is not claimed here.
-    reproduce: "python3 examples/rle/bench.py"
+    reproduce_argv:
+      - python3
+      - examples/rle/bench.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "examples/rle/artifacts/rle_bench.json"
 
   - id: CLAIM-GREET-001
     statement: >
       The greetings example library supports 6 languages (English, Norwegian,
       Spanish, French, German, Japanese).
     evidence_level: measured
+    assumes:
+      - key: report_schema
+        value: "greetings_v1"
+        pointer: /schema
     artifact:
       - "examples/greetings/artifacts/greetings.json"
     metrics:
@@ -97,7 +133,13 @@ claims:
       A capability count for the example library only — a demonstration of a
       non-numeric claim shape, not a general i18n solution. "Support" means a
       greeting string exists; it makes no claim about grammar or locale rules.
-    reproduce: "python3 examples/greetings/evidence.py"
+    reproduce_argv:
+      - python3
+      - examples/greetings/evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "examples/greetings/artifacts/greetings.json"
 
   - id: CLAIM-THM-001
     statement: >
@@ -106,6 +148,13 @@ claims:
       axiom instance or a modus-ponens application, and the final step equals
       the declared theorem.
     evidence_level: machine_checked
+    assumes:
+      - key: proof_system
+        value: "Lukasiewicz A1-A3 + modus ponens"
+        pointer: /system
+      - key: proof_object
+        value: "examples/theorem/proofs/p_implies_p.json"
+        pointer: /proof
     artifact:
       - "examples/theorem/artifacts/theorem.json"
     n: 5
@@ -119,15 +168,28 @@ claims:
     literature:
       - source: "Lukasiewicz, Elementy logiki matematycznej (1929); Mendelson, Introduction to Mathematical Logic 6e, Lemma 1.8"
         sha256: fc28b762fe62f0cb2d39af37e4ffa9d43b4178a5096bdcb2dfd61d50b4c54047
-        file: "docs/references/lukasiewicz-axioms.md"
+        file: "docs/reference/lukasiewicz-axioms.md"
         locator: "axioms A1-A3; the p -> p derivation"
-    reproduce: "python3 examples/theorem/evidence.py"
+    reproduce_argv:
+      - python3
+      - examples/theorem/evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "examples/theorem/artifacts/theorem.json"
 
   - id: CLAIM-TIP-001
     statement: >
       All 12 reference bills in the tip-calculator example produce the expected
       total to the cent.
     evidence_level: benchmarked
+    assumes:
+      - key: battery_size
+        value: "12"
+        pointer: /cases_total
+      - key: report_schema
+        value: "tipcalc_v1"
+        pointer: /schema
     artifact:
       - "examples/tipcalc/artifacts/tipcalc.json"
     n: 12
@@ -138,7 +200,13 @@ claims:
       Correctness on a fixed 12-case reference set chosen to avoid rounding-
       boundary ambiguity. It is not a proof of correctness over all bills and
       tip rates; floating-point rounding can differ on half-cent boundaries.
-    reproduce: "python3 examples/tipcalc/evidence.py"
+    reproduce_argv:
+      - python3
+      - examples/tipcalc/evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "examples/tipcalc/artifacts/tipcalc.json"
 
   - id: CLAIM-LIB-RAG-001
     statement: >
@@ -160,7 +228,13 @@ claims:
       or a curator snapshotted an explicit URL (tier "web-snapshot",
       accredited=false). It proves the work is cataloged and hash-locked —
       never that the work's content is true.
-    reproduce: "python3 integrations/library/evidence_research_layer.py"
+    reproduce_argv:
+      - python3
+      - integrations/library/evidence_research_layer.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "integrations/library/artifacts/research_layer.json"
 
   - id: CLAIM-LIB-RAG-002
     statement: >
@@ -187,7 +261,13 @@ claims:
       catalog text is retrieval-only and hash-locked, never evidence; the
       false-match is a tracked defect flagged for removal — see
       integrations/library/KNOWN_ISSUES.md.
-    reproduce: "python3 integrations/library/evidence_research_layer.py"
+    reproduce_argv:
+      - python3
+      - integrations/library/evidence_research_layer.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "integrations/library/artifacts/research_layer.json"
 
   - id: CLAIM-LIB-RAG-003
     statement: >
@@ -214,6 +294,10 @@ claims:
       resolved references, and the remaining 9 are documented as having no
       canonical authoritative work (generic programming utilities).
     evidence_level: measured
+    assumes:
+      - key: report_schema
+        value: "claimlib_index_v1"
+        pointer: /schema
     artifact:
       - "claims/claimlib_index.json"
     metrics:
@@ -255,7 +339,13 @@ claims:
       claimlib/build_literature.py validates (every reference must resolve,
       every summary is hash-locked). They prove the register's size and
       citation coverage, not the truth of any cited work's content.
-    reproduce: "python3 tools/claimlib_index_evidence.py"
+    reproduce_argv:
+      - python3
+      - tools/claimlib_index_evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "claims/claimlib_index.json"
 
   - id: CLAIM-CATALOG-001
     statement: >
@@ -333,7 +423,13 @@ claims:
       the SCORER (citation precision/recall/F1 + refusal accuracy) — not any
       live model. The numbers grade the harness, not an LLM; point it at real
       oracle outputs to grade them.
-    reproduce: "python3 domains/eval_harness/evidence.py"
+    reproduce_argv:
+      - python3
+      - domains/eval_harness/evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "domains/eval_harness/artifacts/eval_report.json"
 
   - id: CLAIM-GRAPH-001
     statement: >
@@ -352,7 +448,13 @@ claims:
       Built over a committed fixture (data/sample_claims.json), not the live
       register, so the counts stay byte-stable. The same builder runs on a real
       register exported to the same node/edge shape.
-    reproduce: "python3 domains/evidence_graph/evidence.py"
+    reproduce_argv:
+      - python3
+      - domains/evidence_graph/evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "domains/evidence_graph/artifacts/graph.json"
 
   - id: CLAIM-TENANT-001
     statement: >
@@ -370,7 +472,13 @@ claims:
       Models the isolation invariant in memory only — no authn, transport, or
       persistence. It proves the scoping/chaining logic is sound; a real SaaS
       must still enforce the same boundary at the auth and storage layers.
-    reproduce: "python3 domains/multitenant/evidence.py"
+    reproduce_argv:
+      - python3
+      - domains/multitenant/evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "domains/multitenant/artifacts/isolation_report.json"
 
   - id: CLAIM-ONTO-001
     statement: >
@@ -388,7 +496,13 @@ claims:
       The taxonomy is a PROPOSAL, not a standard, and conformance is checked
       over a committed fixture (data/sample_register.json). It demonstrates
       ontology-driven validation, not that this vocabulary is canonical.
-    reproduce: "python3 domains/ontologies/evidence.py"
+    reproduce_argv:
+      - python3
+      - domains/ontologies/evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "domains/ontologies/artifacts/ontology_conformance.json"
 
   - id: CLAIM-ROUTE-001
     statement: >
@@ -407,7 +521,13 @@ claims:
       The price table, quality scores and workload are SYNTHETIC and fixed. It
       demonstrates the routing policy and its saving/soundness guarantees, not
       real model prices or real model quality.
-    reproduce: "python3 domains/cost_routing/evidence.py"
+    reproduce_argv:
+      - python3
+      - domains/cost_routing/evidence.py
+      - --output-dir
+      - "{output_dir}"
+    reproduce_outputs:
+      - "domains/cost_routing/artifacts/routing_report.json"
 
   - id: CLAIM-RSI-001
     statement: >
@@ -463,3 +583,63 @@ claims:
       - "{output_dir}"
     reproduce_outputs:
       - claims/autonomous_cycle.json
+
+  # ── The coverage claim: how much of the documentation is actually bound. ──
+  # This one is deliberately self-referential. The gate proves that every bound
+  # number agrees with the register; it says nothing about the numbers nobody
+  # bound, and a green gate looks the same either way. Registering the ratio
+  # turns that blind spot into a measured, ratcheted quantity — and the
+  # paragraph you are reading is itself part of what gets counted.
+  - id: CLAIM-COV-001
+    statement: >
+      Across the documents this repository binds (its doc_globs), 60.12% of the
+      numeric literals in prose sit inside a paragraph governed by a claim
+      anchor or pinned by a value token; 69 numbers remain unbound.
+    evidence_level: measured
+    artifact:
+      - "claims/coverage.json"
+    metrics:
+      coverage_pct: 60.12
+      numbers_unbound: 69
+      numbers_total: 173
+    metric_bindings:
+      - metric: coverage_pct
+        pointer: /coverage_pct
+        type: number
+        unit: percent
+        comparator: exact
+      - metric: numbers_unbound
+        pointer: /numbers_unbound
+        type: integer
+        comparator: maximum
+      - metric: numbers_total
+        pointer: /numbers_total
+        type: integer
+        comparator: exact
+    assumes:
+      - key: report_schema
+        value: vericlaim_coverage_v1
+        pointer: /schema
+      - key: allowlist
+        value: >
+          ISO dates, years, semver, hash fragments, Python versions and two RFC
+          numbers are not counted as claims; fenced code and link targets are
+          excluded from the prose scan.
+    caveat: >
+      "Bound" means a literal falls inside an anchored paragraph or is pinned by
+      a value token — the unit the gate governs — NOT that every such literal is
+      individually checked, which only value tokens do. "Unbound" is not
+      "wrong": most numbers in a repository are legitimately not claims (list
+      indices, RFC numbers, sizes), which is why coverage is measured and
+      ratcheted rather than enforced at 100%. The ratio covers doc_globs only;
+      docs/design-notes/ is narrative by design and outside that set.
+    reproduce_argv:
+      - python3
+      - -m
+      - vericlaim
+      - coverage
+      - --write
+      - "{output_dir}/coverage.json"
+      - --quiet
+    reproduce_outputs:
+      - "claims/coverage.json"

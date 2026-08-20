@@ -6,6 +6,84 @@ from `vericlaim/__init__.py` (see `CLAIM-META-001`).
 
 ## [Unreleased] — gold-standard lift
 
+### Added — the Design-by-Contract layer (`vericlaim/contract.py`)
+Meyer's contract, completed. A claim used to be pure postcondition with its
+scope in a `caveat` nothing could verify — the one field an assistant will
+summarise away. Six register fields close that:
+- **`assumes`** — the claim's PRECONDITION (Eiffel `require`). A named scope
+  condition; with a JSON Pointer it is resolved in the evidence and compared,
+  so measuring outside the declared scope fails the build. Dogfooded on the
+  four worked examples and the claimlib index; required under `enterprise`.
+- **`status` / `superseded_by`** — claim LIFECYCLE. A superseded claim keeps
+  its artifact, caveat and reproduce spec and names its replacement, but may
+  not be anchored on a `front_page` document. Archived, never deleted.
+- **`retired_values`** — the strings a claim's numbers used to be written as,
+  becoming a stale-string denylist *derived from the register* instead of from
+  someone's memory: the first CI run after a re-issue enumerates every document
+  still showing the old value.
+- **`blindness` / `sealed_set`** — the MEASUREMENT CONDITION, orthogonal to
+  evidence level. A `blind` claim names its sealed set, and two active claims
+  may not share one: a set is blind exactly once.
+- **`rate`** — a percentage must register the 95% Wilson upper bound its sample
+  size supports, and no anchor may quote the point estimate without it. Wilson
+  rather than the normal approximation because the interesting claims sit at
+  p=0, where the normal interval collapses to [0, 0] and would certify a zero
+  rate from any sample at all.
+- **`derived_from`** — redeclaration variance for reuse: a claim vendored from
+  a claimlib bundle may be demoted freely but never promoted above its source's
+  evidence level, with the source bundle re-hashed at the same time.
+
+### Added — `vericlaim coverage`: measure the hole instead of documenting it
+The gate proved every *bound* number and said nothing about the rest, so a green
+gate looked identical whether a document was fully bound or bound nowhere —
+exactly the gap an assistant widens by adding unsourced figures to a README.
+`vericlaim coverage` classifies every numeric literal in `doc_globs` as bound or
+unbound and reports the ratio; `--write` commits it. Unbound is not wrong (most
+numbers are not claims), so the ratio is measured and ratcheted, never enforced.
+Registered as `CLAIM-COV-001` — self-referentially, the README paragraph stating
+the coverage is itself counted by it.
+
+### Added — the ratchet (`vericlaim/ratchet.py`): Eiffel's loop variant, for a repo
+Declared ceilings on repository-level quantities (`legacy_shell_claims`,
+`baselined_findings`, `claims_without_assumes`, `claims_without_reproduce`,
+`unbound_numbers`) that may fall but never rise. Ratchet findings are never
+grandfathered — a ceiling you can baseline past is not a ceiling — and coming in
+under one prints a note telling you to tighten it. An unmeasurable metric is
+reported as unmeasured, never as zero.
+
+### Added — the capability contract (`vericlaim/truth.py`)
+A register stops a number from drifting but not a capability from being written
+in the present tense before it exists; roadmap prose and shipped prose look
+identical to a model summarising a repository. `[vericlaim.capabilities]`
+classifies each one, an unshipped capability may not appear on a front-page
+document without a marker that it is future work, and every `ROADMAP.md` entry
+must be classified so the two cannot drift apart. It caught two unclassified
+roadmap items during its own introduction.
+
+### Changed — this repo now runs on `strict`
+Every one of the 20 root claims carries a declarative `reproduce_argv` spec (the
+last 14 legacy shell strings are gone), so `allow_legacy_shell` is removed and
+the profile is `strict`: provenance and git-tracking forced on, unstructured
+shell reproduction rejected. A tool that recommends strict has to survive it.
+`vericlaim reproduce` re-runs all 18 specs byte-identically.
+
+### Added — `vericlaim/evidence.py`
+The two-mode ending every evidence script needs (write to `--output-dir` when
+reproducing, write the committed artifact and stamp provenance when producing),
+in one place instead of hand-copied twelve times. It always writes with
+`newline="
+"`: byte-comparison is the contract, and CRLF translation would
+fail a reproduction that is in fact correct.
+
+### Fixed
+- Coverage counted an ISO date as three separate numbers (`2026`, `-07`, `-14`),
+  which both inflated the count and put the pieces beyond the reach of any date
+  allowlist. Found by its own negative test.
+- `docs/references/` merged into `docs/reference/`; two directories one letter
+  apart held different content.
+- `ROADMAP.md` no longer lists shipped items in a file whose stated purpose is
+  work that is *not yet* implemented.
+
 ### Added — theory-synergy round: three modules (99 → 102 modules, 116 → 119 works)
 - **`learn_then_test`** (LTT — Angelopoulos, Bates, Candès, Jordan, Lei;
   arXiv 2021, Ann. Appl. Stat. 2025): risk control for ANY loss and grid by

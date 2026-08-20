@@ -14,6 +14,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo root, for `import vericlaim`
+from vericlaim.evidence import emit, output_dir_arg  # noqa: E402
 sys.path.insert(0, str(HERE / "src"))
 sys.path.insert(0, str(HERE))
 from cases import CASES  # noqa: E402
@@ -36,10 +37,9 @@ def main() -> int:
         "cases": results,
     }
     out = HERE / "artifacts" / "tipcalc.json"
-    out.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8",
-                   newline="\n")
-    from vericlaim.provenance import stamp
-    stamp(out, script="python3 examples/tipcalc/evidence.py")
+    emit(json.dumps(artifact, indent=2) + "\n", out,
+         script="python3 examples/tipcalc/evidence.py",
+         output_dir=output_dir_arg())
     print(f"[OK] wrote {out}")
     print(f"     cases_passing={passing}/{len(CASES)}")
     return 0

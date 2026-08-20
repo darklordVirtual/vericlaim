@@ -53,6 +53,13 @@ def main(argv: list[str] | None = None) -> int:
                    help="run the gate (default when no command is given)")
     sub.add_parser("reproduce", parents=[common],
                    help="re-run each claim's reproduction and verify it still holds")
+    cov = sub.add_parser("coverage", parents=[common],
+                         help="measure how much of the documentation is "
+                              "actually bound to the register")
+    cov.add_argument("--write", nargs="?", const="", default=None,
+                     metavar="PATH",
+                     help="commit the report (default: the configured "
+                          "coverage_artifact)")
     sub.add_parser("improve", parents=[common],
                    help="PROPOSE-ONLY: audit this repo's own claims and print honest, "
                         "non-weakening improvement suggestions (never edits anything)")
@@ -76,6 +83,17 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     if args.command == "reproduce":
         return reproduce(cfg, quiet=quiet)
+    if args.command == "coverage":
+        from .coverage import run as run_coverage
+        from .gate import _doc_paths
+        write = getattr(args, "write", None)
+        if write == "":  # bare --write: use the configured destination
+            write = cfg.coverage_artifact
+            if not write:
+                print("[FAIL] --write needs a PATH, or `coverage_artifact` "
+                      "set in vericlaim.toml")
+                return 1
+        return run_coverage(cfg, _doc_paths(cfg), write=write, quiet=quiet)
     if args.command == "improve":
         return _improve(cfg)
     if not quiet:

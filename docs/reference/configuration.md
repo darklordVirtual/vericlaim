@@ -36,6 +36,58 @@ downward by the file — only `adopt` is permissive.
 | `require_provenance` | bool | `false` (adopt) / `true` (strict) | Produced artifacts need a provenance sidecar |
 | `require_git_tracked` | bool | `false` (adopt) / `true` (strict) | Artifacts must be git-tracked |
 | `[vericlaim.stale_strings]` | table | `{}` | `"forbidden" = "why / use instead"` |
+| `require_assumes` | bool | `false` (adopt/strict) / `true` (enterprise) | A claim stating a metric must declare a machine-readable `assumes` precondition, not scope-in-prose only |
+| `front_page` | list | `["README.md"]` | Documents where an unshipped capability may not be stated as present, and where a superseded claim may not be anchored |
+| `roadmap` | path | *(unset — off)* | Roadmap file whose every entry must be classified in `[vericlaim.capabilities]` |
+| `coverage_allow` | list | `[]` | Extra regexes for numeric shapes coverage must not count as claims (on top of ISO dates, years, semver, hash fragments) |
+| `coverage_artifact` | path | *(unset — off)* | Where `vericlaim coverage --write` stores its report, and where the gate reads `unbound_numbers` for the ratchet |
+| `[vericlaim.capabilities]` | table | `{}` | `"capability" = "shipped"` \| any other class. A non-shipped capability may not be stated as present on a front-page document |
+| `[vericlaim.ratchet]` | table | `{}` | `metric = ceiling`. Quantities allowed to fall, never to rise — see below |
+
+## The ratchet
+
+Eiffel's loop variant is an integer that must strictly decrease; it is how a
+loop proves it terminates. A repository has the same need and no such
+mechanism, so the debt you tolerate today has nothing stopping it from growing
+tomorrow — every individual increase looks reasonable in review.
+
+```toml
+[vericlaim.ratchet]
+legacy_shell_claims      = 0    # claims still reproduced by a shell string
+baselined_findings       = 0    # violations parked in the baseline
+claims_without_reproduce = 2    # claims whose number cannot be re-checked
+claims_without_assumes   = 13   # claims whose scope is prose only
+unbound_numbers          = 44   # doc literals no anchor binds
+```
+
+Exceeding a ceiling **fails the gate**, and ratchet findings are never
+grandfathered by the baseline: a ceiling you can baseline past is not a
+ceiling. Coming in *under* one prints a note telling you to tighten it, so the
+ceiling tracks reality downward. `unbound_numbers` is read from
+`coverage_artifact`; if that is unset or unreadable the metric is reported as
+**unmeasured**, never as zero.
+
+## The capability contract
+
+A claim register stops a *number* from drifting. It does nothing about a
+capability that is designed, prototyped or merely intended being written up in
+the present tense — the most common way an honest project overstates itself,
+and the one an assistant reproduces most readily, because roadmap prose and
+shipped prose look identical to a model summarising a repository.
+
+```toml
+roadmap = "ROADMAP.md"
+[vericlaim.capabilities]
+"declarative reproduce" = "shipped"
+"sandboxed runner"      = "designed"
+```
+
+Two mechanical rules: a term classified anything but `shipped` may not appear
+on a front-page document unless the surrounding sentences carry a hedge
+(`roadmap`, `planned`, `designed`, `not yet`, `proposed`, ...); and every
+roadmap entry must be classified, so the roadmap and the table cannot drift
+apart. The check never guesses at tense — it looks for a declared term and a
+declared hedge, which is why it produces almost no false positives.
 
 ## Example — recommended strict config
 

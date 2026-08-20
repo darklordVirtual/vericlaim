@@ -44,11 +44,38 @@ only, all, none). *For AI:* the default gate is fast and side-effect-free
 (reads files); `vericlaim reproduce` is the heavier, code-executing level you run
 in CI. *Status:* two commands, two levels.
 
-### ○ Class invariant → repository invariant
+### ✅ Class invariant → repository invariant
 *Origin:* an Eiffel class invariant must hold at every stable point. *For AI:*
-repo-wide properties checked every commit, beyond per-claim checks — e.g. "every
-public symbol named in the docs exists in the code," "every claim has a runnable
-reproduce." *Status:* proposed; the doc-binding check is a first instance.
+repo-wide properties checked every commit, beyond per-claim checks. *Status:*
+built as the **ratchet** (`vericlaim/ratchet.py`) — declared ceilings on
+repository-level quantities (claims without a reproduce, findings parked in the
+baseline, unbound numbers) that may fall but never rise, checked on every
+commit and never grandfathered by the baseline.
+
+### ✅ `require` → the claim precondition (`assumes`)
+*Origin:* in Eiffel a routine states what it requires of its caller; a
+postcondition without a precondition is an unbounded promise. *For AI:* a claim
+used to be pure `ensure` — "the system achieves X" — with its scope in a
+`caveat` that nothing could verify, which is precisely the field an assistant
+will summarise away. `assumes` names each scope condition, and a JSON Pointer
+makes it enforced against the evidence itself. *Status:* built
+(`vericlaim/contract.py`); required under `enterprise`.
+
+### ✅ Loop variant → the ratchet
+*Origin:* a variant is an integer that must strictly decrease, proving a loop
+terminates. *For AI:* the same shape applied to accumulating debt, which
+otherwise grows one reasonable-looking commit at a time. *Status:* built; see
+the invariant entry above — they are the same mechanism seen from two angles.
+
+### ✅ Redeclaration variance for reuse (`derived_from`)
+*Origin:* Meyer's rule for a descendant: weaken the precondition if you must,
+never the postcondition. *For AI:* vendoring a claimlib bundle *inherits* a
+contract, and nothing stopped the importing register from raising the evidence
+level afterwards. An imported claim may now be demoted freely and promoted only
+on new evidence of its own, with the source bundle's bytes re-verified at the
+same time. *Status:* built. (Distinct from the evidence-level rule below, which
+governs a single claim over time; this one governs one claim derived from
+another.)
 
 ---
 
@@ -85,6 +112,52 @@ there is no oracle, assert a *relation* (e.g. `decode(encode(x)) == x`). *For AI
 the single most useful guard against "looks right on the demo, wrong in general"
 — an AI passes the four corpus files but a fuzzed property would catch the fifth.
 *Status:* proposed; a claim could carry a `property` to fuzz.
+
+### ✅ Claim lifecycle: superseded, never deleted
+*Origin:* scientific practice — a replaced result is archived with its data, not
+erased — sharpened by REMORA's generated `superseded_claims.md`. *For AI:* a
+corrected claim reappearing in its old form three files away is the failure this
+tool was built for, and a hand-curated denylist only catches what someone
+remembered. `status`/`superseded_by` keep a replaced claim in the register with
+its evidence while barring it from the front page, and `retired_values` derives
+the denylist *from the claim that owns the number*, so the first CI run after a
+re-issue names every document still showing the old one. *Status:* built.
+
+### ✅ Blindness: the measurement condition, orthogonal to evidence level
+*Origin:* pre-registration and sealed-set evaluation; REMORA carries it as a
+first-class register field. *For AI:* the level ladder says how strong the
+evidence is, never whether the system had already seen the data. A sealed set is
+spent after one use, so two active claims may not share one — re-measuring on a
+spent set is a development measurement whatever it is called. This is the
+mechanism most specific to evaluating generative systems, where contamination is
+the default failure. *Status:* built (`blindness`, `sealed_set`).
+
+### ✅ Rate claims carry the bound their sample supports
+*Origin:* elementary statistics, routinely omitted in engineering write-ups.
+*For AI:* "0.0% wrongly allowed" reads as a guarantee; from n=70 the 95% Wilson
+upper bound is above 5%. The gate computes the bound, refuses a register that
+states the point estimate alone, and refuses an anchor that quotes one without
+the other. Wilson rather than the normal approximation because the interesting
+claims sit at p=0, where the normal interval collapses to [0, 0] and would
+certify a zero rate from any sample at all. *Status:* built (`rate`).
+
+### ✅ Coverage: measure the hole instead of documenting it
+*Origin:* test coverage — the same argument, one level up. *For AI:* the gate
+proves every *bound* number agrees with the register and says nothing about the
+ones nobody bound, so a green gate looked identical whether a document was fully
+bound or bound nowhere. That is the gap an assistant widens by adding three
+unsourced figures to a README. `vericlaim coverage` measures the ratio; the
+ratchet holds it. Unbound is not wrong — most numbers are not claims — which is
+why it is measured and ratcheted rather than enforced. *Status:* built.
+
+### ✅ The capability contract: roadmap may not be written as shipped
+*Origin:* REMORA's machine-checked product truth contract. *For AI:* a register
+stops a number from drifting but not a capability from being described in the
+present tense before it exists, and roadmap prose and shipped prose look
+identical to a model summarising a repository. Each capability is classified;
+an unshipped one may not appear on a front-page document without a marker that
+it is future work; and every roadmap entry must be classified, so the two
+cannot drift apart. *Status:* built.
 
 ### ○ Per-commit claim diff (semantic versioning for claims)
 *Origin:* API contracts classify a change as compatible or breaking. *For AI:*
